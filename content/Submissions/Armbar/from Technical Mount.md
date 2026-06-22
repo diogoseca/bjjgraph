@@ -10,10 +10,55 @@ description: "Master the Armbar from Technical Mount in BJJ. Complete guide to s
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Armbar from Technical Mount targets the Elbow joint (hyperextension) and shoulder girdle. Risk: Hyperextension of the elbow joint causing ligament damage to the ulnar collateral ligament and radial collateral ligament. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Armbar from Technical Mount",
+  "description": "Master the Armbar from Technical Mount in BJJ. Complete guide to setup mechanics, finishing details, and defensive counters for this high-percentage arm lock.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Armbar from Technical Mount", "item": "https://bjjgraph.org/Submissions/Armbar-from-Technical-Mount" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Armbar from Technical Mount",
+  "description": "The Armbar from Technical Mount is an elbow-hyperextension joint lock executed by swinging the posted leg over a flattened opponent's head, isolating the near arm, and sitting back to lever the trapped elbow against the hips.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Armbar from Technical Mount is an elbow-hyperextension joint lock executed by swinging the posted leg over a flattened opponent's head, isolating the near arm, and sitting back to lever the trapped elbow against the hips.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Arm Lock</span>
+<span class="meta-chip">Targets Elbow joint (hyperextension) and shoulder girdle</span>
+<span class="meta-chip">55% success</span>
+</div>
+
+> [!danger] Safety
+> Armbar from Technical Mount targets the Elbow joint (hyperextension) and shoulder girdle. Primary risk: Hyperextension of the elbow joint causing ligament damage to the ulnar collateral ligament and radial collateral ligament. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,50 +75,7 @@ The attack flows naturally from Technical Mount offense, where the top player ha
 
 Strategic deployment of this armbar centers on reading the defender's reactions to Technical Mount pressure. When the defender extends their arm to frame or push, the armbar opportunity presents itself. When they attempt to turn away to escape, the back take becomes available. This creates a fundamental dilemma where defending the armbar exposes the back, and defending the back take exposes the arm. Understanding this interplay is essential for both attackers seeking the finish and defenders trying to survive the position.
 
-**Category**: Joint Lock
-**Type**: Arm Lock
-**Target Area**: Elbow joint (hyperextension) and shoulder girdle
-**Starting Position**: [[Positions/Mount/Technical Mount]]
-**From Position**: [[Positions/Mount/Technical Mount]] (Top)
-**Success Rate**: 55%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Hyperextension of the elbow joint causing ligament damage to the ulnar collateral ligament and radial collateral ligament | High | 4-12 weeks for mild sprain, 3-6 months for complete tear possibly requiring surgical reconstruction |
-| Elbow dislocation from sudden or explosive force applied beyond the joint's natural range of motion | CRITICAL | 6-12 months including possible surgical intervention and extensive rehabilitation |
-| Shoulder strain or subluxation from rotational force when opponent resists by turning the arm inward | Medium | 2-6 weeks depending on severity of the strain and tissue involvement |
-
-
-**Application Speed**: SLOW and controlled. Apply gradual increasing pressure to the elbow joint through hip elevation. Never jerk, spike, or explosively extend the arm. The elbow reaches its breaking point within 2-3 degrees of full extension under load. Allow sufficient time for partner to recognize the submission and tap before damage occurs.
-
-**Tap Signals**:
-- Verbal tap — saying 'tap' or any distress signal clearly
-- Physical hand tap on partner, mat, or own body with free hand
-- Physical foot tap on mat with either leg
-- Any unusual vocalization, scream, or distress sound treated as immediate tap
-
-
-**Release Protocol**:
-1. Release all pressure immediately upon any tap signal without hesitation
-2. If in doubt whether a tap occurred, release immediately — position can always be re-established
-3. Gradually release arm control after removing breaking pressure to avoid jarring the joint
-4. If opponent's arm makes an audible pop or sudden loss of resistance occurs, stop immediately and check for injury regardless of tap
-
-
-**Training Restrictions**:
-- White belts should drill mechanics only with cooperative partners and no resistance finishing until supervised by instructor
-- Never apply this submission with explosive force in training under any circumstances
-- Partners with pre-existing elbow or shoulder injuries should communicate limitations before rolling
-- Competition-speed finishing should only be practiced with experienced partners who understand tap timing
-
+**Starting Position**: [[Positions/Mount/Technical Mount]] · **From**: [[Positions/Mount/Technical Mount]] (Top)
 
 </section>
 
@@ -244,24 +246,15 @@ Strategic deployment of this armbar centers on reading the defender's reactions 
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Armbar]]
 - [[Submissions/Mounted Crucifix Armbar]]
 - [[Submissions/Spinning Armbar]]
 - [[Submissions/Gift Wrap Armbar]]
 - [[Submissions/Flying Armbar]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Mount/Technical Mount]] - Starting position providing asymmetric leg positioning and arm isolation for armbar execution
 - [[Positions/Mount]] - Parent position from which Technical Mount is established before armbar attack
 - [[Positions/Armbar Control]] - Finishing control position reached during armbar execution before applying breaking pressure
@@ -271,17 +264,46 @@ Strategic deployment of this armbar centers on reading the defender's reactions 
 - [[Positions/Mount/Mounted Triangle]] - Alternative submission chain when armbar defense creates neck exposure
 - [[Positions/Closed Guard]] - Position defender may recover to if armbar attempt is successfully countered
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Hyperextension of the elbow joint causing ligament damage to the ulnar collateral ligament and radial collateral ligament | High | 4-12 weeks for mild sprain, 3-6 months for complete tear possibly requiring surgical reconstruction |
+| Elbow dislocation from sudden or explosive force applied beyond the joint's natural range of motion | CRITICAL | 6-12 months including possible surgical intervention and extensive rehabilitation |
+| Shoulder strain or subluxation from rotational force when opponent resists by turning the arm inward | Medium | 2-6 weeks depending on severity of the strain and tissue involvement |
+
+
+**Application Speed**: SLOW and controlled. Apply gradual increasing pressure to the elbow joint through hip elevation. Never jerk, spike, or explosively extend the arm. The elbow reaches its breaking point within 2-3 degrees of full extension under load. Allow sufficient time for partner to recognize the submission and tap before damage occurs.
+
+**Tap Signals**:
+- Verbal tap — saying 'tap' or any distress signal clearly
+- Physical hand tap on partner, mat, or own body with free hand
+- Physical foot tap on mat with either leg
+- Any unusual vocalization, scream, or distress sound treated as immediate tap
+
+
+**Release Protocol**:
+1. Release all pressure immediately upon any tap signal without hesitation
+2. If in doubt whether a tap occurred, release immediately — position can always be re-established
+3. Gradually release arm control after removing breaking pressure to avoid jarring the joint
+4. If opponent's arm makes an audible pop or sudden loss of resistance occurs, stop immediately and check for injury regardless of tap
+
+
+**Training Restrictions**:
+- White belts should drill mechanics only with cooperative partners and no resistance finishing until supervised by instructor
+- Never apply this submission with explosive force in training under any circumstances
+- Partners with pre-existing elbow or shoulder injuries should communicate limitations before rolling
+- Competition-speed finishing should only be practiced with experienced partners who understand tap timing
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Armbar from Technical Mount leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

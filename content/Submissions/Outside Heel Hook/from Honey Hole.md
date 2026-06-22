@@ -10,10 +10,55 @@ description: "Master the outside heel hook from Honey Hole position. Learn grip 
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Outside Heel Hook from Honey Hole targets the Knee joint, ankle joint, and surrounding ligaments. Risk: ACL tear (anterior cruciate ligament rupture). Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Outside Heel Hook from Honey Hole",
+  "description": "Master the outside heel hook from Honey Hole position. Learn grip transitions, rotational finishing mechanics, safety protocols, and defense strategies.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Outside Heel Hook from Honey Hole", "item": "https://bjjgraph.org/Submissions/Outside-Heel-Hook-from-Honey-Hole" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Outside Heel Hook from Honey Hole",
+  "description": "The outside heel hook from Honey Hole is a rotational knee submission that cups the opponent's heel from the lateral side and twists it laterally away from their centerline, attacking the LCL and posterolateral corner while the inside leg triangle pins the knee.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The outside heel hook from Honey Hole is a rotational knee submission that cups the opponent's heel from the lateral side and twists it laterally away from their centerline, attacking the LCL and posterolateral corner while the inside leg triangle pins the knee.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Leg Lock</span>
+<span class="meta-chip">Targets Knee joint, ankle joint, and surrounding ligaments</span>
+<span class="meta-chip">45% success</span>
+</div>
+
+> [!danger] Safety
+> Outside Heel Hook from Honey Hole targets the Knee joint, ankle joint, and surrounding ligaments. Primary risk: ACL tear (anterior cruciate ligament rupture). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -24,67 +69,13 @@ description: "Master the outside heel hook from Honey Hole position. Learn grip 
 
 <section id="overview" class="content-section">
 
-The outside heel hook from Honey Hole is a secondary but highly effective leg lock that capitalizes on the dominant inside leg entanglement to attack the knee's lateral structures. While the inside heel hook remains the primary threat from Honey Hole, the outside variation serves as a critical chain attack when opponents defend the standard inside rotation by hiding their heel or rotating their knee inward to close the inside angle.
+While the inside heel hook remains the primary threat from Honey Hole, the outside variation serves as a critical chain attack that capitalizes on the dominant inside leg entanglement to attack the knee's lateral structures. It becomes available when opponents defend the standard inside rotation by hiding their heel or rotating their knee inward to close the inside angle.
 
-Executing the outside heel hook from this position requires a deliberate grip transition from the inside heel hook configuration. The attacker repositions their forearm across the outside of the opponent's foot, cupping the heel from the lateral side, then drives rotational force that pulls the heel toward the opponent's centerline while the knee remains pinned by the leg triangle. This attacks different ligament structures than the inside variant, primarily targeting the LCL and posterolateral corner of the knee.
+Executing the outside heel hook from this position requires a deliberate grip transition from the inside heel hook configuration. The attacker repositions their forearm across the outside of the opponent's foot, cupping the heel from the lateral side, then drives rotational force that turns the heel laterally away from the opponent's centerline while the knee remains pinned by the leg triangle. This attacks different ligament structures than the inside variant, primarily targeting the LCL and posterolateral corner of the knee.
 
 The strategic value of this technique lies in its complementary relationship with the inside heel hook, creating a dual-threat rotational attack system. Opponents who commit heavily to inside heel hook defense expose themselves to the outside grip, and the grip transition itself generates confusion about the direction of attack. Practitioners who develop proficiency with both rotational directions from Honey Hole achieve significantly higher finishing rates by eliminating the predictability of single-direction attacks.
 
-**Category**: Joint Lock
-**Type**: Leg Lock
-**Target Area**: Knee joint, ankle joint, and surrounding ligaments
-**Starting Position**: [[Positions/Ashi Garami/Honey Hole]]
-**From Position**: [[Positions/Ashi Garami/Honey Hole]] (Top)
-**Success Rate**: 45%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| ACL tear (anterior cruciate ligament rupture) | CRITICAL | 9-12 months with surgical reconstruction |
-| MCL tear (medial collateral ligament damage) | CRITICAL | 6-12 months depending on grade |
-| LCL tear (lateral collateral ligament - primary target of outside rotation) | CRITICAL | 6-12 months with potential surgical repair |
-| Meniscus tear | High | 3-6 months with potential surgery |
-| Posterolateral corner damage | High | 6-9 months with surgical reconstruction |
-| Ankle ligament damage | Medium | 4-8 weeks |
-
-
-**Application Speed**: EXTREMELY SLOW - minimum 5-7 seconds progressive pressure in training, NEVER sudden rotation
-
-**Tap Signals**:
-- Verbal tap (primary)
-- Physical hand tap on partner or mat
-- Physical foot tap with free leg
-- Any vocal distress signal
-- Frantic movement or panic response
-- Any indication of discomfort
-
-
-**Release Protocol**:
-1. Immediately release rotational pressure on heel
-2. Release the figure-four grip or heel cup
-3. Remove hip pressure and extension
-4. Allow opponent to straighten leg naturally
-5. Check partner's condition before continuing
-6. Never apply rotation while releasing
-
-
-**Training Restrictions**:
-- NEVER apply sudden rotational force - always slow and progressive
-- NEVER practice at competition speed during training
-- NEVER continue past first sign of discomfort
-- Only train with experienced partners who understand leg locks
-- Always ensure clear communication before training leg locks
-- Tap early and often - do not test flexibility limits
-- Prohibited for white and blue belts in most IBJJF competitions
-- Never practice on injured knees or with prior knee injuries without medical clearance
-
+**Starting Position**: [[Positions/Ashi Garami/Honey Hole]] · **From**: [[Positions/Ashi Garami/Honey Hole]] (Top)
 
 </section>
 
@@ -148,7 +139,7 @@ The strategic value of this technique lies in its complementary relationship wit
 
 - **Secure the Heel Cup and Figure-Four**: Lock your figure-four grip with the cupping hand secured under the heel and your other hand controll...
 
-- **Apply Progressive Rotational Finish**: Drive the heel toward the opponent's centerline by rotating your entire torso with elbows pinched to...
+- **Apply Progressive Rotational Finish**: Drive the heel laterally away from the opponent's centerline by rotating your entire torso with elbo...
 
 - **Complete Submission and Release**: Maintain steady progressive rotational pressure while monitoring your opponent for any tap signal in...
 
@@ -248,42 +239,71 @@ The strategic value of this technique lies in its complementary relationship wit
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Inside Heel Hook]]
 - [[Transitions/Heel Hook]]
 - [[Submissions/Calf Slicer]]
-- [[Submissions/Inside Heel Hook]]
-- [[Positions/Aoki Lock Control]]
-- [[Positions/Estima Lock Control]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
+- [[Transitions/Aoki Lock]]
+- [[Transitions/Estima Lock]]
 - [[Positions/Ashi Garami/Honey Hole]] - Primary starting position providing inside leg triangle control for this submission
 - [[Positions/Ashi Garami/Saddle]] - Alternative terminology for the same control position used in this attack
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Foundational leg entanglement preceding Honey Hole entry
-- [[Submissions/Inside Heel Hook]] - Primary alternative submission from same position attacking opposite rotation
 - [[Positions/Ashi Garami/50-50 Guard]] - Common escape destination through counter-entanglement from defender
 - [[Positions/Ashi Garami/Cross Ashi-Garami]] - Related leg entanglement offering different heel hook access angles
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| ACL tear (anterior cruciate ligament rupture) | CRITICAL | 9-12 months with surgical reconstruction |
+| MCL tear (medial collateral ligament damage) | CRITICAL | 6-12 months depending on grade |
+| LCL tear (lateral collateral ligament - primary target of outside rotation) | CRITICAL | 6-12 months with potential surgical repair |
+| Meniscus tear | High | 3-6 months with potential surgery |
+| Posterolateral corner damage | High | 6-9 months with surgical reconstruction |
+| Ankle ligament damage | Medium | 4-8 weeks |
+
+
+**Application Speed**: EXTREMELY SLOW - minimum 5-7 seconds progressive pressure in training, NEVER sudden rotation
+
+**Tap Signals**:
+- Verbal tap (primary)
+- Physical hand tap on partner or mat
+- Physical foot tap with free leg
+- Any vocal distress signal
+- Frantic movement or panic response
+- Any indication of discomfort
+
+
+**Release Protocol**:
+1. Immediately release rotational pressure on heel
+2. Release the figure-four grip or heel cup
+3. Remove hip pressure and extension
+4. Allow opponent to straighten leg naturally
+5. Check partner's condition before continuing
+6. Never apply rotation while releasing
+
+
+**Training Restrictions**:
+- NEVER apply sudden rotational force - always slow and progressive
+- NEVER practice at competition speed during training
+- NEVER continue past first sign of discomfort
+- Only train with experienced partners who understand leg locks
+- Always ensure clear communication before training leg locks
+- Tap early and often - do not test flexibility limits
+- Prohibited for white and blue belts in most IBJJF competitions
+- Never practice on injured knees or with prior knee injuries without medical clearance
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Outside Heel Hook from Honey Hole leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

@@ -10,10 +10,55 @@ description: "Master the Guillotine Choke from Clinch in BJJ. Complete guide to 
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Guillotine Choke from Clinch targets the Neck. Risk: Tracheal damage from direct pressure on the windpipe when grip slides to front of throat. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Guillotine Choke from Clinch",
+  "description": "Master the Guillotine Choke from Clinch in BJJ. Complete guide to the standing guillotine variation covering grip mechanics, finishing details, and defensive strategies.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Guillotine Choke from Clinch", "item": "https://bjjgraph.org/Submissions/Guillotine-Choke-from-Clinch" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Guillotine Choke from Clinch",
+  "description": "The Guillotine Choke from Clinch is a standing front-headlock blood choke applied when an opponent's head drops during clinch exchanges, wrapping the forearm under the chin to compress the carotid arteries while chest pressure folds their posture downward.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Guillotine Choke from Clinch is a standing front-headlock blood choke applied when an opponent's head drops during clinch exchanges, wrapping the forearm under the chin to compress the carotid arteries while chest pressure folds their posture downward.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Guillotine Choke</span>
+<span class="meta-chip">Targets Neck</span>
+<span class="meta-chip">40% success</span>
+</div>
+
+> [!danger] Safety
+> Guillotine Choke from Clinch targets the Neck. Primary risk: Tracheal damage from direct pressure on the windpipe when grip slides to front of throat. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,51 +75,7 @@ The strategic value of this submission lies in its accessibility from common sta
 
 In competition, the standing guillotine creates a compelling strategic dilemma. The defender must address the choke immediately, which disrupts their own offensive game plan. If the attacker cannot finish standing, they retain the option to pull guard into guillotine control for a ground-based finish, making the initial standing attempt relatively low-risk. This favorable risk-reward profile makes the standing guillotine from clinch a cornerstone technique in any serious competitor's arsenal, bridging the gap between standing control and submission finishing.
 
-**Category**: Choke
-**Type**: Guillotine Choke
-**Target Area**: Neck
-**Starting Position**: [[Positions/Clinch]]
-**From Position**: [[Positions/Clinch]] (Top)
-**Success Rate**: 40%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Tracheal damage from direct pressure on the windpipe when grip slides to front of throat | High | 2-6 weeks depending on severity; severe cases may require medical intervention |
-| Cervical spine strain or herniated disc from lateral neck cranking during resistance or improper application angle | CRITICAL | 4-12 weeks for strain; herniated discs may require months of rehabilitation or surgery |
-| Carotid artery compression causing unconsciousness if choke is held after opponent goes limp | High | Immediate recovery if released promptly; prolonged compression can cause brain injury |
-
-
-**Application Speed**: SLOW and progressive. Apply increasing pressure gradually over 2-3 seconds. Never jerk, spike, or explosively crank the neck. The standing position amplifies forces on the cervical spine compared to ground-based guillotines.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner, your arm, or mat
-- Physical foot tap or stomping on the mat
-- Any unusual vocalization, gurgling, or distress sounds
-- Body going limp (unconsciousness) - treat as immediate tap
-
-
-**Release Protocol**:
-1. Release immediately upon any tap signal without delay
-2. If opponent goes limp, release immediately and lower them safely to the ground in recovery position
-3. If in doubt whether a signal was a tap, release immediately - position can always be re-established
-4. After release, check on training partner's condition before resuming
-
-
-**Training Restrictions**:
-- Apply slowly with progressive pressure in training - never explosively crank from standing
-- Beginners should drill grip mechanics and positioning without finishing pressure until comfortable with the defense
-- Avoid training standing guillotine at full resistance with significant size or strength mismatches
-- Do not train this technique on partners with known cervical spine issues or neck injuries
-
+**Starting Position**: [[Positions/Clinch]] · **From**: [[Positions/Clinch]] (Top)
 
 </section>
 
@@ -240,44 +241,63 @@ In competition, the standing guillotine creates a compelling strategic dilemma. 
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Transitions/Guillotine Choke]]
 - [[Submissions/Arm in Guillotine]]
 - [[Submissions/Chin Strap Guillotine]]
 - [[Transitions/Anaconda Choke]]
 - [[Transitions/Arm Triangle]]
 - [[Submissions/Brabo Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Clinch]] - Primary starting position where the guillotine opportunity is created through clinch exchanges
 - [[Positions/Standing Position]] - General standing context from which clinch engagements and guillotine entries develop
 - [[Positions/Front Headlock]] - Alternative control position when guillotine grip cannot be secured; shares snap-down entries
 - [[Positions/Guillotine Control]] - Ground-based continuation if standing finish stalls; attacker pulls guard maintaining grip
 - [[Positions/Closed Guard]] - Common guard position after pulling guard to finish the guillotine on the ground
 - [[Positions/Body Lock]] - Clinch variation that can transition to guillotine when opponent drops head to fight body lock
-- [[Submissions/Arm in Guillotine]] - Key submission variation trapping the arm inside the choke for added compression
-- [[Transitions/Guillotine Choke]] - Core guillotine submission sharing grip mechanics with the standing clinch variation
+
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Tracheal damage from direct pressure on the windpipe when grip slides to front of throat | High | 2-6 weeks depending on severity; severe cases may require medical intervention |
+| Cervical spine strain or herniated disc from lateral neck cranking during resistance or improper application angle | CRITICAL | 4-12 weeks for strain; herniated discs may require months of rehabilitation or surgery |
+| Carotid artery compression causing unconsciousness if choke is held after opponent goes limp | High | Immediate recovery if released promptly; prolonged compression can cause brain injury |
+
+
+**Application Speed**: SLOW and progressive. Apply increasing pressure gradually over 2-3 seconds. Never jerk, spike, or explosively crank the neck. The standing position amplifies forces on the cervical spine compared to ground-based guillotines.
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any distress signal)
+- Physical hand tap on partner, your arm, or mat
+- Physical foot tap or stomping on the mat
+- Any unusual vocalization, gurgling, or distress sounds
+- Body going limp (unconsciousness) - treat as immediate tap
+
+
+**Release Protocol**:
+1. Release immediately upon any tap signal without delay
+2. If opponent goes limp, release immediately and lower them safely to the ground in recovery position
+3. If in doubt whether a signal was a tap, release immediately - position can always be re-established
+4. After release, check on training partner's condition before resuming
+
+
+**Training Restrictions**:
+- Apply slowly with progressive pressure in training - never explosively crank from standing
+- Beginners should drill grip mechanics and positioning without finishing pressure until comfortable with the defense
+- Avoid training standing guillotine at full resistance with significant size or strength mismatches
+- Do not train this technique on partners with known cervical spine issues or neck injuries
 
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Guillotine Choke from Clinch leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

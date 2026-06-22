@@ -10,6 +10,41 @@ description: "Master passing butterfly hook control in BJJ. Step-by-step guide c
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Pass Butterfly Hook Control",
+  "description": "Master passing butterfly hook control in BJJ. Step-by-step guide covering hook neutralization, upper body control, pressure management, and side control arrival.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Pass Butterfly Hook Control", "item": "https://bjjgraph.org/Transitions/Pass-Butterfly-Hook-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Pass Butterfly Hook Control",
+  "description": "Pass Butterfly Hook Control is a top guard-passing transition that neutralizes the bottom player's active butterfly hooks through upper-body control, sequential hook elimination, and a decisive hip switch to arrive in side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master passing butterfly hook control in BJJ. Step-by-step guide c
 </div>
 
 <section id="overview" class="content-section">
+
+**Pass Butterfly Hook Control is a top guard-passing transition that neutralizes the bottom player's active butterfly hooks through upper-body control, sequential hook elimination, and a decisive hip switch to arrive in side control.**
 
 Passing butterfly hook control is one of the fundamental guard passing challenges in Brazilian Jiu-Jitsu. The butterfly guard player uses active hooks inside the passer's thighs to create constant elevation threats and sweeping pressure, making direct forward advancement dangerous. The systematic approach to passing this guard involves establishing superior upper body control, methodically neutralizing one hook at a time, and completing the pass to side control through pressure and angle management.
 
@@ -221,5 +258,7 @@ Passing butterfly hook control sits at the intersection of guard engagement and 
 
 
 </section>
+
+
 
 </main>

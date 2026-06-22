@@ -10,6 +10,41 @@ description: "Hook Leg and Take Back from Buggy Choke. Step-by-step back take wh
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Hook Leg and Take Back",
+  "description": "Hook Leg and Take Back from Buggy Choke. Step-by-step back take when opponent sits to guard. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Hook Leg and Take Back", "item": "https://bjjgraph.org/Transitions/Hook-Leg-and-Take-Back" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Hook Leg and Take Back",
+  "description": "Hook Leg and Take Back is a back-take transition from buggy choke top that exploits the hip exposure created when a turtled opponent sits to guard, inserting leg hooks while retaining the harness grip to advance into back control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Hook Leg and Take Back from Buggy Choke. Step-by-step back take wh
 </div>
 
 <section id="overview" class="content-section">
+
+**Hook Leg and Take Back is a back-take transition from buggy choke top that exploits the hip exposure created when a turtled opponent sits to guard, inserting leg hooks while retaining the harness grip to advance into back control.**
 
 The Hook Leg and Take Back represents one of the most reliable transitions from buggy choke control when opponents attempt to escape by sitting to guard. This technique exploits the fundamental defensive error of creating hip exposure during the sit-up motion, transforming the opponent's escape attempt into a high-percentage back take opportunity. The transition embodies the principle that sophisticated attack systems create branching decision trees where every defensive response opens different offensive pathways.
 
@@ -216,5 +253,7 @@ Hook Leg and Take Back represents the positional advancement pathway within the 
 
 
 </section>
+
+
 
 </main>

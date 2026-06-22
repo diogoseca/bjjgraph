@@ -1,5 +1,6 @@
 {
   "name": "Hand Fighting from Back",
+  "summary": "Hand Fighting from Back is the foundational defensive sequence where the trapped bottom player uses two-on-one grips and chin protection to neutralize the opponent's choking arm, surviving back control and opening escapes to turtle or half guard.",
   "description": "Master hand fighting defense from back control in BJJ. Two-on-one grip breaking, chin protection, and systematic choke prevention techniques.",
   "tags": [
     "bjj",
@@ -287,7 +288,7 @@
       {
         "action": "Switch choking arm by withdrawing the controlled arm and immediately attacking with the opposite arm over the other shoulder",
         "when_to_use": "When opponent has fully committed both hands to your primary choking arm and cannot redirect quickly enough",
-        "targets_outcome": "Turtle/Bottom",
+        "targets_outcome": "Rear Naked Choke",
         "if_successful": "Opponent must release established grips and redirect both hands to new threat, creating a brief window where choke can advance past their defense",
         "risk": "Momentarily weakens your seatbelt control during the switch, creating a potential escape window if opponent times hip escape during transition"
       },
@@ -301,7 +302,7 @@
       {
         "action": "Drive choking arm elbow tight to opponent's body and re-pummel underneath their defending hands to re-establish deeper neck access",
         "when_to_use": "When opponent has stripped your choking arm to a shallow position but has not yet cleared it fully across their body",
-        "targets_outcome": "Turtle/Bottom",
+        "targets_outcome": "Rear Naked Choke",
         "if_successful": "Regains deep choking position despite their defensive grips, advancing the choke past the point where two-on-one defense is effective",
         "risk": "Requires significant grip strength and may fatigue your arm if opponent's defensive grips are well-established"
       },
@@ -319,8 +320,8 @@
         "how": "Maintain hooks and harness control while defeating hand fighting through arm switches, re-pummel sequences, and grip fighting. Use body compression to fatigue opponent's grip endurance. Cycle between choking arm attacks and positional adjustments to keep opponent reactive and prevent them from building escape momentum."
       },
       {
-        "outcome": "Half Guard/Bottom",
-        "how": "Finish the rear naked choke or alternative submission by exploiting the windows created during hand fighting exchanges. Time arm switches when opponent is mid-grip adjustment, use gift wrap to eliminate one defensive arm, or wait for grip fatigue to allow deep choking arm penetration past their declining two-on-one resistance."
+        "outcome": "Rear Naked Choke",
+        "how": "Finish the rear naked choke by exploiting the windows created during hand fighting exchanges. Time arm switches when opponent is mid-grip adjustment, use gift wrap to eliminate one defensive arm, or wait for grip fatigue to allow deep choking arm penetration past their declining two-on-one resistance."
       }
     ],
     "common_errors": [

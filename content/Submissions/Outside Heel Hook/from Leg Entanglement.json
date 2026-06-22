@@ -1,5 +1,6 @@
 {
   "name": "Outside Heel Hook from Leg Entanglement",
+  "summary": "The Outside Heel Hook from Leg Entanglement is a rotational knee submission applied from ashi garami, cupping the opponent's heel and rotating it laterally to torque the knee ligaments while hip extension and full-body rotation generate the finishing force.",
   "description": "Master the outside heel hook from leg entanglement positions. Expert finishing mechanics, safety protocols, and defensive strategies for advanced grapplers.",
   "tags": [
     "bjj",
@@ -20,18 +21,23 @@
   "starting_position": "Leg Entanglement",
   "from_position": "Leg Entanglement/Top",
   "success_rate": 45,
-  "overview": "The outside heel hook from leg entanglement is one of the highest-percentage finishing techniques in modern no-gi grappling. Applied from general ashi garami configurations, this submission uses lateral rotational force on the heel to attack the knee's ligamentous structures, primarily targeting the medial collateral ligament and anterior cruciate ligament. The technique requires precise heel cup positioning and controlled torsional application through hip extension and full-body rotation rather than arm strength alone.\n\nWhat distinguishes this variant from more specialized positions like the saddle or cross ashi is the need to establish proper outside control from a general entanglement before committing to the finish. The attacker must first ensure their body is positioned to apply outward rotation on the heel while maintaining knee line control. This often involves transitioning from a neutral entanglement to a finishing angle where the opponent's toes point away from the attacker, creating the mechanical pathway for the outside rotation.\n\nThis technique carries extreme injury risk because knee ligaments provide minimal pain feedback before structural failure. Unlike elbow joint locks where increasing pain signals danger, heel hooks can cause catastrophic ligament tears with little warning. This makes controlled application speed, early tap recognition, and strict training protocols absolutely non-negotiable for safe practice.",
+  "overview": "Applied from general ashi garami configurations, this submission uses lateral rotational force on the heel to attack the knee's ligamentous structures, primarily targeting the lateral collateral ligament, the posterolateral corner, and the anterior cruciate ligament. It stands among the highest-percentage finishing techniques in modern no-gi grappling because it requires precise heel cup positioning and controlled torsional application through hip extension and full-body rotation rather than arm strength alone.\n\nWhat distinguishes this variant from more specialized positions like the saddle or cross ashi is the need to establish proper outside control from a general entanglement before committing to the finish. The attacker must first ensure their body is positioned to apply outward rotation on the heel while maintaining knee line control. This often involves transitioning from a neutral entanglement to a finishing angle where the opponent's toes point away from the attacker, creating the mechanical pathway for the outside rotation.\n\nThis technique carries extreme injury risk because knee ligaments provide minimal pain feedback before structural failure. Unlike elbow joint locks where increasing pain signals danger, heel hooks can cause catastrophic ligament tears with little warning. This makes controlled application speed, early tap recognition, and strict training protocols absolutely non-negotiable for safe practice.",
   "safety_considerations": {
     "injury_risks": [
+      {
+        "injury": "LCL tear (lateral collateral ligament rupture)",
+        "severity": "CRITICAL",
+        "recovery_time": "6-12 months depending on grade and surgical involvement"
+      },
       {
         "injury": "ACL tear (anterior cruciate ligament rupture)",
         "severity": "CRITICAL",
         "recovery_time": "9-12 months with surgical reconstruction"
       },
       {
-        "injury": "MCL tear (medial collateral ligament damage)",
-        "severity": "CRITICAL",
-        "recovery_time": "6-12 months depending on grade"
+        "injury": "Posterolateral corner injury (PLC structures)",
+        "severity": "High",
+        "recovery_time": "6-9 months with potential surgical repair"
       },
       {
         "injury": "Meniscus tear",
@@ -39,7 +45,7 @@
         "recovery_time": "3-6 months with potential surgery"
       },
       {
-        "injury": "LCL damage (lateral collateral ligament)",
+        "injury": "MCL damage (medial collateral ligament)",
         "severity": "High",
         "recovery_time": "6-8 weeks to 6 months"
       },
@@ -92,10 +98,9 @@
   "related_submissions": [
     "Heel Hook",
     "Inside Heel Hook",
-    "Inside Heel Hook",
     "Calf Slicer",
     "Achilles Lock",
-    "Aoki Lock Control"
+    "Aoki Lock"
   ],
   "related_content": [
     {
@@ -313,7 +318,7 @@
     "flashcards": [
       {
         "question": "What anatomical structures does the outside heel hook primarily attack and how does the rotational direction determine which ligaments are stressed?",
-        "answer": "The outside heel hook primarily attacks the medial collateral ligament (MCL) and anterior cruciate ligament (ACL) by applying lateral (outward) rotation on the heel while the knee is held stationary by the leg clamp. The outward rotation creates torsional stress on the medial side of the knee. This is distinct from the inside heel hook, which rotates the heel inward and primarily attacks the lateral collateral ligament (LCL). The meniscus is also at risk from both rotational directions due to the shearing forces created between the femur and tibia.",
+        "answer": "The outside heel hook primarily attacks the lateral collateral ligament (LCL), the posterolateral corner, and the anterior cruciate ligament (ACL) by applying lateral (outward) rotation on the heel while the knee is held stationary by the leg clamp. The outward rotation creates torsional stress on the lateral side of the knee. This is distinct from the inside heel hook, which rotates the heel inward and primarily attacks the medial collateral ligament (MCL). The meniscus is also at risk from both rotational directions due to the shearing forces created between the femur and tibia.",
         "safety_critical": false
       },
       {
@@ -343,7 +348,7 @@
       },
       {
         "question": "Why must rotational force be applied progressively over 5-7 seconds minimum rather than suddenly in training?",
-        "answer": "Rotational force must be applied progressively because knee ligaments, unlike elbow joints, provide minimal pain feedback before structural failure. A sudden rotational force can tear the MCL or ACL before the opponent has time to recognize the danger and tap. The 5-7 second minimum gives your training partner adequate time to feel the pressure building, assess whether they can defend, and tap before any structural damage occurs. Ligament tears from heel hooks often happen in fractions of a second once the failure threshold is reached, and there is no reliable warning sensation. Progressive application is the only responsible approach in training and must never be compromised regardless of competitive pressure or frustration.",
+        "answer": "Rotational force must be applied progressively because knee ligaments, unlike elbow joints, provide minimal pain feedback before structural failure. A sudden rotational force can tear the LCL or ACL before the opponent has time to recognize the danger and tap. The 5-7 second minimum gives your training partner adequate time to feel the pressure building, assess whether they can defend, and tap before any structural damage occurs. Ligament tears from heel hooks often happen in fractions of a second once the failure threshold is reached, and there is no reliable warning sensation. Progressive application is the only responsible approach in training and must never be compromised regardless of competitive pressure or frustration.",
         "safety_critical": true
       },
       {
@@ -358,7 +363,7 @@
       },
       {
         "question": "What is the critical difference between the outside angle and inside angle for heel hook application, and how do you verify your positioning before committing to the finish?",
-        "answer": "The outside angle positions your body to the lateral side of the opponent's trapped leg, enabling outward (lateral) heel rotation that attacks the MCL and ACL. The inside angle positions you medially, enabling inward rotation that attacks the LCL. You verify your positioning by checking which direction the opponent's toes are pointing relative to your body - for the outside heel hook, their toes should point away from you toward the outside. Your outside leg should be threading across their hip line on the far side. If you find yourself on the medial side of their leg, you are set up for an inside heel hook instead. Applying outward rotation from an inside angle or vice versa produces a mechanically weak attack that is easily defended.",
+        "answer": "The outside angle positions your body to the lateral side of the opponent's trapped leg, enabling outward (lateral) heel rotation that attacks the LCL and ACL. The inside angle positions you medially, enabling inward rotation that attacks the MCL. You verify your positioning by checking which direction the opponent's toes are pointing relative to your body - for the outside heel hook, their toes should point away from you toward the outside. Your outside leg should be threading across their hip line on the far side. If you find yourself on the medial side of their leg, you are set up for an inside heel hook instead. Applying outward rotation from an inside angle or vice versa produces a mechanically weak attack that is easily defended.",
         "safety_critical": false
       }
     ]
@@ -436,7 +441,7 @@
       },
       {
         "error": "Waiting too long to tap when rotational pressure is being applied to the knee",
-        "consequence": "Catastrophic knee ligament damage including ACL and MCL tears requiring 6-12 months of surgical recovery and rehabilitation with no guarantee of full return",
+        "consequence": "Catastrophic knee ligament damage including LCL and ACL tears requiring 6-12 months of surgical recovery and rehabilitation with no guarantee of full return",
         "correction": "Tap immediately at the first sign of rotational pressure reaching the knee joint. There is no flexibility to test and no safe margin for delayed tapping. Knee ligaments fail without warning pain."
       },
       {
@@ -458,7 +463,7 @@
       },
       {
         "question": "Why is straightening your trapped leg a dangerous response to an outside heel hook attempt?",
-        "answer": "Straightening the trapped leg is dangerous because it provides the attacker with maximum rotational leverage on the knee joint. A bent knee has some structural resistance to rotation because the angle creates a mechanical disadvantage for the attacker's torque application. A fully extended knee removes this protective geometry and places the MCL and ACL under direct rotational stress with no structural buffer. Additionally, a straight leg is harder to extract from an entanglement because you lose the ability to use the bend as a pummeling tool. The extended position also makes kneebar attacks immediately available, exposing you to a second submission threat.",
+        "answer": "Straightening the trapped leg is dangerous because it provides the attacker with maximum rotational leverage on the knee joint. A bent knee has some structural resistance to rotation because the angle creates a mechanical disadvantage for the attacker's torque application. A fully extended knee removes this protective geometry and places the LCL and ACL under direct rotational stress with no structural buffer. Additionally, a straight leg is harder to extract from an entanglement because you lose the ability to use the bend as a pummeling tool. The extended position also makes kneebar attacks immediately available, exposing you to a second submission threat.",
         "safety_critical": true
       },
       {

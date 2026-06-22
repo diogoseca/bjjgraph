@@ -10,6 +10,41 @@ description: "Master Rubber Guard in BJJ. Complete guide to 10th Planet system c
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Rubber Guard",
+  "description": "Master Rubber Guard in BJJ. Complete guide to 10th Planet system covering Mission Control, New York, Invisible Collar progressions and submission chains.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Rubber Guard", "item": "https://bjjgraph.org/Positions/Rubber-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Rubber Guard",
+  "description": "Rubber Guard is a flexibility-dependent 10th Planet guard system in which the bottom player uses a leg threaded high across the opponent's back to trap an arm and break posture, opening triangles, omoplatas, and gogoplatas.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master Rubber Guard in BJJ. Complete guide to 10th Planet system c
 
 <section id="overview" class="content-section">
 
-The Rubber Guard is a specialized guard position developed and popularized within the 10th Planet Jiu-Jitsu system. This position builds upon the closed guard by adding a high degree of upper body control through a series of complex leg and arm configurations. At its core, the Rubber Guard involves the bottom player using their leg to trap the opponent's arm against their own chest, typically by bringing one leg high across the opponent's back and securing the shin or foot with the opposite arm. This creates exceptional posture control and provides unique attacking opportunities, particularly for triangles, omoplatas, and various specialized submissions. The position is especially effective in no-gi grappling and MMA contexts where it can neutralize the opponent's striking while setting up submissions. The Rubber Guard system includes multiple named positions such as Mission Control, New York, Invisible Collar, and Zombie, each representing a specific configuration within the overall framework. Success in this position requires exceptional flexibility, particularly in the hips and hamstrings, along with systematic understanding of the progression sequences that characterize this approach. The strategic trade-off inherent in Rubber Guard is clear: practitioners sacrifice some positional stability and mobility in exchange for superior arm control and unique submission pathways unavailable from conventional closed guard positions. The system functions as a decision tree where each defensive reaction from the opponent dictates the next positional progression. When the opponent pulls their arm free, the triangle becomes available. When they drive forward, omoplata entries open. When they freeze, the practitioner advances through the named positions toward increasingly dominant control configurations. This reaction-based methodology makes Rubber Guard particularly effective against opponents who lack specific defensive knowledge of the system, as conventional guard escapes often feed directly into the system's submission chains. The flexibility requirement is the position's most significant barrier to entry, but practitioners who invest in developing the necessary range of motion gain access to a complete attacking system with answers for every common defensive response.
+**Rubber Guard is a flexibility-dependent 10th Planet guard system in which the bottom player uses a leg threaded high across the opponent's back to trap an arm and break posture, opening triangles, omoplatas, and gogoplatas.**
+
+Emerging from Eddie Bravo's 10th Planet Jiu-Jitsu, the Rubber Guard reimagined what the closed guard could threaten in no-gi and MMA competition. This position builds upon the closed guard by adding a high degree of upper body control through a series of complex leg and arm configurations. At its core, the Rubber Guard involves the bottom player using their leg to trap the opponent's arm against their own chest, typically by bringing one leg high across the opponent's back and securing the shin or foot with the opposite arm. This creates exceptional posture control and provides unique attacking opportunities, particularly for triangles, omoplatas, and various specialized submissions. The position is especially effective in no-gi grappling and MMA contexts where it can neutralize the opponent's striking while setting up submissions. The Rubber Guard system includes multiple named positions such as Mission Control, New York, Invisible Collar, and Zombie, each representing a specific configuration within the overall framework. Success in this position requires exceptional flexibility, particularly in the hips and hamstrings, along with systematic understanding of the progression sequences that characterize this approach. The strategic trade-off inherent in Rubber Guard is clear: practitioners sacrifice some positional stability and mobility in exchange for superior arm control and unique submission pathways unavailable from conventional closed guard positions. The system functions as a decision tree where each defensive reaction from the opponent dictates the next positional progression. When the opponent pulls their arm free, the triangle becomes available. When they drive forward, omoplata entries open. When they freeze, the practitioner advances through the named positions toward increasingly dominant control configurations. This reaction-based methodology makes Rubber Guard particularly effective against opponents who lack specific defensive knowledge of the system, as conventional guard escapes often feed directly into the system's submission chains. The flexibility requirement is the position's most significant barrier to entry, but practitioners who invest in developing the necessary range of motion gain access to a complete attacking system with answers for every common defensive response.
 
 </section>
 
@@ -96,25 +133,29 @@ The Rubber Guard is a specialized guard position developed and popularized withi
 ### Available Transitions
 
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (40% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (34% of attempts)
 
-- **[[Omoplata from Rubber Guard/Attacker|Omoplata from Rubber Guard]]** (15% of attempts)
+- **[[Omoplata from Rubber Guard/Attacker|Omoplata from Rubber Guard]]** (13% of attempts)
 
-- **[[Transitions/Mission Control Entry from Rubber Guard/Attacker|Mission Control Entry from Rubber Guard]]** (12% of attempts)
+- **[[Transitions/Mission Control Entry from Rubber Guard/Attacker|Mission Control Entry from Rubber Guard]]** (10% of attempts)
 
-- **[[Transitions/Rubber Guard to Closed Guard/Attacker|Rubber Guard to Closed Guard]]** (7% of attempts)
+- **[[Transitions/Rubber Guard to Closed Guard/Attacker|Rubber Guard to Closed Guard]]** (6% of attempts)
 
-- **[[Transitions/New York Entry from Rubber Guard/Attacker|New York Entry from Rubber Guard]]** (5% of attempts)
+- **[[Transitions/New York Entry from Rubber Guard/Attacker|New York Entry from Rubber Guard]]** (4% of attempts)
 
-- **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (5% of attempts)
+- **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (4% of attempts)
 
-- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (5% of attempts)
+- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (4% of attempts)
 
 - **[[Transitions/Gogoplata/Attacker|Gogoplata]]** (4% of attempts)
 
 - **[[Transitions/Rubber Guard Sweep/Attacker|Rubber Guard Sweep]]** (4% of attempts)
 
 - **[[Transitions/Crackhead Control Entry/Attacker|Crackhead Control Entry]]** (3% of attempts)
+
+- **[[Transitions/Meathook Entry from Rubber Guard/Attacker|Meathook Entry from Rubber Guard]]** (10% of attempts)
+
+- **[[Transitions/New York Control Entry from Rubber Guard/Attacker|New York Control Entry from Rubber Guard]]** (4% of attempts)
 
 
 ### Common Mistakes
@@ -234,6 +275,20 @@ The Rubber Guard is a specialized guard position developed and popularized withi
 
 - **[[Positions/Gogoplata Control]]** - Advanced submission available from Zombie position
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Ryan-Hall-Triangle-System" data-cta="related-system-card" data-system-slug="systems/ryan-hall-triangle-system" data-system-name="Ryan Hall Triangle System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Ryan Hall Triangle System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">10th Planet variation integrating triangle mechanics</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Twister-System" data-cta="related-system-card" data-system-slug="systems/twister-system" data-system-name="Twister System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Twister System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Complementary 10th Planet guard system that shares flexibility requirements</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/10th-Planet-No-Gi-Guard-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-no-gi-guard-system" data-system-name="10th Planet No-Gi Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">10th Planet No-Gi Guard System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Primary position family for entire system</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Rubber-Guard-to-Omoplata-System" data-cta="related-system-card" data-system-slug="systems/rubber-guard-to-omoplata-system" data-system-name="Rubber Guard to Omoplata System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Rubber Guard to Omoplata System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Foundational position family for entire system</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Rubber-Guard-to-Triangle-System" data-cta="related-system-card" data-system-slug="systems/rubber-guard-to-triangle-system" data-system-name="Rubber Guard to Triangle System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Rubber Guard to Triangle System</span><span class="system-card__unlocks-badge">Unlocks 22 techniques</span><span class="system-card__blurb">Core control position serving as foundation for entire system</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

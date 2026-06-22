@@ -10,6 +10,41 @@ description: "Master Mounted Triangle from Modified Mount. Step-by-step entry fr
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Mounted Triangle",
+  "description": "Master Mounted Triangle from Modified Mount. Step-by-step entry from mount to triangle control with arm isolation, angle cutting, and finishing mechanics.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Mounted Triangle", "item": "https://bjjgraph.org/Transitions/Mounted-Triangle" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Mounted Triangle",
+  "description": "The Mounted Triangle is a mount-attack transition in which you isolate the opponent's head and one arm from Modified Mount, then swing a leg over to lock a figure-four triangle, fusing top control with an immediate strangle and armbar threat.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Mounted Triangle from Modified Mount. Step-by-step entry fr
 </div>
 
 <section id="overview" class="content-section">
+
+**The Mounted Triangle is a mount-attack transition in which you isolate the opponent's head and one arm from Modified Mount, then swing a leg over to lock a figure-four triangle, fusing top control with an immediate strangle and armbar threat.**
 
 The Mounted Triangle represents one of the most dominant submission setups in Brazilian Jiu-Jitsu, combining the positional dominance of mount with the strangling power of the triangle choke. This transition begins from Modified Mount where the asymmetric positioning naturally facilitates leg insertion around the opponent's head and arm. Unlike the triangle from closed guard, the Mounted Triangle benefits from gravitational pressure and superior control, making defensive responses significantly more difficult for the bottom practitioner. The technique emerges organically when opponents use frames against mount attacks—their arms naturally create the space and isolation needed for triangle entry.
 
@@ -204,7 +241,7 @@ The Mounted Triangle functions as a cornerstone submission setup within the moun
 
 - [[Positions/Mount/Mounted Triangle]] - Target control position when transition succeeds
 
-- [[Submissions/Triangle Choke]] - Same strangling mechanics applied from different position
+- [[Submissions/Triangle Choke]] - Same strangling mechanics applied from the mounted control position to finish
 
 - [[Transitions/Mount to Armbar]] - Chain attack when opponent defends triangle by posturing
 
@@ -218,8 +255,18 @@ The Mounted Triangle functions as a cornerstone submission setup within the moun
 
 - [[Positions/Half Guard]] - Position opponent may recover to if counter is successful
 
-- [[Submissions/Triangle Choke]] - Submission finish accessible from mounted triangle control
+- [[Positions/Back Control]] - Back take available when the opponent turns away to escape the triangle, converting their defensive turn into a dominant transition
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Ryan-Hall-Triangle-System" data-cta="related-system-card" data-system-slug="systems/ryan-hall-triangle-system" data-system-name="Ryan Hall Triangle System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Ryan Hall Triangle System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Advanced triangle variation from mount position</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

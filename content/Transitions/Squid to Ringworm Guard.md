@@ -10,6 +10,41 @@ description: "Master the Squid to Ringworm Guard transition in BJJ. Learn lapel 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Squid to Ringworm Guard",
+  "description": "Master the Squid to Ringworm Guard transition in BJJ. Learn lapel reconfiguration, timing, and grip management for advanced open guard cycling.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Squid to Ringworm Guard", "item": "https://bjjgraph.org/Transitions/Squid-to-Ringworm-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Squid to Ringworm Guard",
+  "description": "Squid to Ringworm Guard is a bottom-player lapel reconfiguration that reroutes the gi lapel from the Squid wrap into the Ringworm wrap around the opponent's leg, opening new sweep and back-take angles while the opponent re-adapts.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Squid to Ringworm Guard transition in BJJ. Learn lapel 
 </div>
 
 <section id="overview" class="content-section">
+
+**Squid to Ringworm Guard is a bottom-player lapel reconfiguration that reroutes the gi lapel from the Squid wrap into the Ringworm wrap around the opponent's leg, opening new sweep and back-take angles while the opponent re-adapts.**
 
 The Squid to Ringworm Guard transition is a specialized lapel guard reconfiguration within the Keenan Cornelius guard system, allowing the bottom player to shift between two complementary positions that share lapel manipulation principles but create fundamentally different offensive angles. This transition involves adjusting the lapel wrap from the Squid Guard's threading leg and lapel configuration to the Ringworm Guard's distinct wrap pattern around the opponent's leg, which produces new sweeping leverage and back-taking pathways that the opponent must address with a completely different defensive framework.
 
@@ -220,5 +257,7 @@ The Squid to Ringworm Guard transition sits at the heart of the modern lapel gua
 
 
 </section>
+
+
 
 </main>

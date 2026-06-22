@@ -142,11 +142,24 @@ description: "Master guard passing fundamentals in BJJ. Learn systematic framewo
 }
 </script>
 
-> Guard Passing is a medium complexity BJJ principle applicable at the Intermediate level. Develop over Beginner to Advanced.
 
-**Application Level**: Intermediate
-**Complexity**: Medium
-**Development Timeline**: Beginner to Advanced
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Guard Passing",
+  "description": "Guard passing is the systematic process of advancing from inside an opponent's guard to a dominant pinning position by neutralizing their retention tools—grips, frames, hooks, and hip mobility—through sequential control rather than a single explosive movement.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Intermediate</span>
+<span class="meta-chip">Medium complexity</span>
+<span class="meta-chip">Beginner to Advanced</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -154,6 +167,8 @@ description: "Master guard passing fundamentals in BJJ. Learn systematic framewo
 <section id="overview" class="content-section">
 
 ## What is Guard Passing?
+
+**Guard passing is the systematic process of advancing from inside an opponent's guard to a dominant pinning position by neutralizing their retention tools—grips, frames, hooks, and hip mobility—through sequential control rather than a single explosive movement.**
 
 Guard Passing represents the fundamental strategic and biomechanical concepts underlying all successful guard passing, providing systematic framework for advancing from guard to dominant pinning positions. Unlike specific passing techniques, guard passing principles are comprehensive conceptual guidelines that apply across all guard types and determine overall passing effectiveness. This concept encompasses the tactical understanding that successful passing requires neutralizing guard retention mechanics, establishing control points, and progressing through stages from open guard to consolidated side control or mount. Guard passing principles serve as both offensive framework enabling position advancement and strategic guide for pass selection based on opponent's defensive patterns. The ability to apply guard passing principles consistently determines offensive effectiveness against guard players, making it one of the most essential conceptual elements for top game development.
 
@@ -361,8 +376,6 @@ Video review or mental replay of unsuccessful passing attempts to identify speci
 - **[[Control Point Hierarchy]]** (Complementary): Provides systematic framework for prioritizing control objectives during passing sequences, determining which anatomical controls to establish at each passing stage
 - **[[Grips]]** (Prerequisite): Essential foundational skill as grip dominance typically predicts passing success, requiring development before advanced passing principles can be effectively applied
 - **[[Action and Reaction]]** (Advanced form): Represents higher-level passing application where the passer deliberately provokes defensive reactions to create passing openings, incorporating bait-and-counter strategies against the guard player's responses
-- **[[Timing and Rhythm]]** (Extension): Specific passing dimension emphasizing rapid movement, tempo changes, and precise timing windows rather than sustained pressure, demonstrating alternative expression of core passing principles
-- **[[Transition Management]]** (Extension): Technical framework for managing positional changes during passing sequences, enabling smooth progression through intermediate positions and effective chaining between passing systems
 - **[[Forward Pressure]]** (Complementary): Fundamental pressure application concept that supports passing objectives by preventing opponent from establishing comfortable defensive positioning
 - **[[Connection Principles]]** (Complementary): Understanding connection mechanics enables both establishing your own control points during passes and systematically breaking the opponent's guard retention connections
 - **[[Center of Gravity]]** (Prerequisite): Foundational understanding of balance and pressure allocation required for maintaining base while advancing position during passes
@@ -383,6 +396,21 @@ Video review or mental replay of unsuccessful passing attempts to identify speci
 - [[Grips]] (Principle) - Essential prerequisite concept as grip dominance typically predicts passing success before movement begins
 - [[Double Under Pass]] (Transition) - Heavy pressure passing technique demonstrating systematic hip control and leg management principles
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Bernardo-Faria-Pressure-System" data-cta="related-system-card" data-system-slug="systems/bernardo-faria-pressure-system" data-system-name="Bernardo Faria Pressure System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Bernardo Faria Pressure System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Theoretical framework supporting systematic passing approach</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/IBJJF-Strategy-Guide" data-cta="related-system-card" data-system-slug="systems/ibjjf-strategy-guide" data-system-name="IBJJF Strategy Guide" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">IBJJF Strategy Guide</span><span class="system-card__unlocks-badge">Unlocks 27 techniques</span><span class="system-card__blurb">Technical principles underlying 3-point scoring through guard passing</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Blue-to-Purple-Progression" data-cta="related-system-card" data-system-slug="systems/blue-to-purple-progression" data-system-name="Blue to Purple Progression" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Blue to Purple Progression</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Systematic approach to defeating guards through posture, pressure, and connection breaking</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Roger-Gracie-Fundamental-System" data-cta="related-system-card" data-system-slug="systems/roger-gracie-fundamental-system" data-system-name="Roger Gracie Fundamental System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Roger Gracie Fundamental System</span><span class="system-card__unlocks-badge">Unlocks 22 techniques</span><span class="system-card__blurb">First phase of Roger&#x27;s attack system - methodical passing principles underpin entire approach</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Modern-No-Gi-Passing-System" data-cta="related-system-card" data-system-slug="systems/modern-no-gi-passing-system" data-system-name="Modern No-Gi Passing System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Modern No-Gi Passing System</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Fundamental concepts underlying all passing mechanics in system</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Gordon-Ryan-Passing-System" data-cta="related-system-card" data-system-slug="systems/gordon-ryan-passing-system" data-system-name="Gordon Ryan Passing System" data-member-count="17"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Gordon Ryan Passing System</span><span class="system-card__unlocks-badge">Unlocks 17 techniques</span><span class="system-card__blurb">Fundamental principles that inform all passing strategies</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

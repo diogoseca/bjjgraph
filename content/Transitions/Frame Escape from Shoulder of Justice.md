@@ -10,6 +10,41 @@ description: "Master the Frame Escape from Shoulder of Justice in BJJ. Learn sys
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Frame Escape from Shoulder of Justice",
+  "description": "Master the Frame Escape from Shoulder of Justice in BJJ. Learn systematic framing, timing, and hip escape mechanics to recover guard under intense pressure.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Frame Escape from Shoulder of Justice", "item": "https://bjjgraph.org/Transitions/Frame-Escape-from-Shoulder-of-Justice" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Frame Escape from Shoulder of Justice",
+  "description": "The Frame Escape from Shoulder of Justice is a systematic escape in which the bottom player uses skeletal forearm and knee-shield frames, timed to the top player's weight shifts, to create space and recover half guard from under crushing shoulder-to-jaw pressure.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Frame Escape from Shoulder of Justice in BJJ. Learn sys
 
 <section id="overview" class="content-section">
 
-The Frame Escape from Shoulder of Justice is a systematic escape technique designed to recover guard from one of the most oppressive pinning positions in Brazilian Jiu-Jitsu. The Shoulder of Justice applies concentrated pressure through the opponent's shoulder blade into the bottom player's jaw and temporomandibular joint, creating intense physical discomfort that provokes reactive movements. The Frame Escape counters this by using structured, skeletal-alignment-based frames to create incremental space without exposing vulnerable limbs to submission attacks.
+**The Frame Escape from Shoulder of Justice is a systematic escape in which the bottom player uses skeletal forearm and knee-shield frames, timed to the top player's weight shifts, to create space and recover half guard from under crushing shoulder-to-jaw pressure.**
+
+Among side control escapes, the Frame Escape addresses one of the most psychologically and physically oppressive pins in Brazilian Jiu-Jitsu. The Shoulder of Justice applies concentrated pressure through the opponent's shoulder blade into the bottom player's jaw and temporomandibular joint, creating intense physical discomfort that provokes reactive movements. The Frame Escape counters this by using structured, skeletal-alignment-based frames to create incremental space without exposing vulnerable limbs to submission attacks.
 
 The technique centers on positioning forearm wedges against the opponent's hip line and chest without extending the arms, then timing hip escapes to coincide with the top player's weight shifts or positional adjustments. Unlike explosive bridge escapes that waste energy against a well-based opponent, the Frame Escape employs a methodical, multi-step approach where each micro-movement preserves the space gained before the next hip escape is executed. The ultimate goal is inserting a knee shield and recovering to half guard.
 
@@ -224,5 +261,7 @@ The Frame Escape from Shoulder of Justice sits within the broader side control e
 
 
 </section>
+
+
 
 </main>

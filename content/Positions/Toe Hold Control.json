@@ -3,6 +3,7 @@
   "slug": "toe-hold-control",
   "description": "Master Toe Hold Control position in BJJ. Strategic guide covering ankle isolation mechanics, submission setup principles, and defensive protocols with complete perspective analysis.",
   "variant_uniqueness": "Ankle rotation trades control for injury risk",
+  "summary": "Toe Hold Control is a leg entanglement position where the attacker figure-fours and isolates the opponent's foot to apply rotational pressure on the ankle, threatening a toe hold finish while chaining to other leg locks.",
   "overview": "Toe Hold Control represents a specialized leg entanglement position where rotational pressure is applied to the ankle joint through a figure-four grip configuration, creating one of Brazilian Jiu-Jitsu's most technically demanding submission control scenarios. This position exists at a critical junction in modern leg lock systems, serving as both a legitimate finishing threat and a transitional hub that facilitates movement throughout the leg entanglement hierarchy. The mechanical advantage derives from isolating the opponent's foot while controlling their leg's orientation, allowing the attacking practitioner to generate torque against the ankle's ligamentous structures through precise wrist and forearm positioning.\n\nThe position's strategic significance lies in its dual nature as both offensive weapon and positional gateway. From the top perspective, practitioners must balance immediate submission opportunity against the risk of overcommitment, maintaining secondary control points that preserve dominance even when the primary ankle attack is defended. The bottom perspective demands systematic defensive protocols that address both the immediate injury threat and the broader positional context, as panicked reactions often accelerate submission completion or worsen entanglement scenarios. Understanding proper grip configurations, body positioning relative to the opponent's leg, and the relationship between knee line control and ankle vulnerability forms the technical foundation for success in this position.\n\nToe Hold Control occupies a unique space in the leg lock ecosystem, particularly valuable in rulesets where heel hooks face restrictions. The position teaches fundamental principles of joint isolation, progressive pressure application, and the critical relationship between control and submission that applies across all leg entanglement scenarios. Modern practitioners view this position not as an isolated technique but as an integral component of systematic leg attack sequences, where transitions between ankle locks, toe holds, heel hooks, and kneebars flow seamlessly based on defensive reactions. Mastery requires understanding both the immediate mechanical application and the broader strategic context within comprehensive leg lock systems.",
   "key_principles": [
     "Ankle isolation requires complete foot control before rotational pressure begins, preventing escape and ensuring safe submission application",
@@ -304,35 +305,39 @@
     "transitions": [
       {
         "transition": "Toe Hold from Toe Hold Control",
-        "attempt_probability": 14
-      },
-      {
-        "transition": "Outside Ashi Entry",
-        "attempt_probability": 24
-      },
-      {
-        "transition": "Inside Ashi Entry",
-        "attempt_probability": 14
-      },
-      {
-        "transition": "Saddle Entry from Top",
         "attempt_probability": 13
       },
       {
-        "transition": "Ankle Lock Finish",
-        "attempt_probability": 14
+        "transition": "Outside Ashi Entry",
+        "attempt_probability": 21
       },
       {
-        "transition": "Kneebar Finish",
+        "transition": "Inside Ashi Entry",
         "attempt_probability": 12
       },
       {
+        "transition": "Saddle Entry from Top",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Ankle Lock Finish",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Kneebar Finish",
+        "attempt_probability": 11
+      },
+      {
         "transition": "Toe Hold to Ashi Garami",
-        "attempt_probability": 6
+        "attempt_probability": 5
       },
       {
         "transition": "Toe Hold to Straight Ankle Lock",
         "attempt_probability": 3
+      },
+      {
+        "transition": "Kneebar from Toe Hold Control",
+        "attempt_probability": 11
       }
     ]
   },

@@ -10,6 +10,41 @@ description: "Master the Electric Chair finish from lockdown half guard. Complet
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Electric Chair from Electric Chair",
+  "description": "Master the Electric Chair finish from lockdown half guard. Complete guide to the groin-splitting submission with attacking execution and defense.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Electric Chair from Electric Chair", "item": "https://bjjgraph.org/Transitions/Electric-Chair-from-Electric-Chair" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Electric Chair from Electric Chair",
+  "description": "The Electric Chair from Electric Chair is a groin- and hip-splitting submission finished from lockdown half guard bottom, stretching the opponent's trapped leg via the figure-four lockdown, a deep underhook, and outward ankle control until they tap.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Electric Chair finish from lockdown half guard. Complet
 
 <section id="overview" class="content-section">
 
-The Electric Chair is a devastating groin and hip-splitting submission executed from the lockdown half guard bottom position, serving as the terminal threat within the 10th Planet lockdown system. This technique converts the Electric Chair sweeping position into a direct submission by maximizing the splitting pressure on the opponent's trapped leg, targeting the groin, hip flexors, and inner thigh structures through coordinated extension of the lockdown, underhook pull, and ankle control. The submission shares mechanical similarities with the Banana Split but is distinguished by its specific entry from the lockdown configuration and the unique leverage angles created by the figure-four leg entanglement.
+**The Electric Chair from Electric Chair is a groin- and hip-splitting submission finished from lockdown half guard bottom, stretching the opponent's trapped leg via the figure-four lockdown, a deep underhook, and outward ankle control until they tap.**
+
+Sitting at the apex of the 10th Planet lockdown system, this finish is what elevates lockdown half guard from a pure sweeping platform into a legitimate submission threat that opponents cannot ignore. It converts the Electric Chair sweeping position into a direct submission by maximizing the splitting pressure on the opponent's trapped leg, targeting the groin, hip flexors, and inner thigh structures through coordinated extension of the lockdown, underhook pull, and ankle control. The submission shares mechanical similarities with the Banana Split but is distinguished by its specific entry from the lockdown configuration and the unique leverage angles created by the figure-four leg entanglement.
 
 The finish relies on three synchronized control points working in concert: the lockdown maintaining downward pressure on the opponent's near leg, the deep underhook stretching their upper body in the opposite direction, and the far hand pulling their ankle outward to create the splitting action. When executed with proper timing and hip angle, the pressure builds progressively through the opponent's groin and hip flexor complex until it becomes overwhelming and forces a tap. The technique is most effective when the opponent has committed their weight forward to defend the Old School sweep, inadvertently limiting their ability to retract their trapped leg and close the split angle.
 
@@ -216,5 +253,7 @@ The Electric Chair occupies the terminal position within the lockdown half guard
 
 
 </section>
+
+
 
 </main>

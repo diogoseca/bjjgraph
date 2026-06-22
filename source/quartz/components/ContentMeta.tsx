@@ -1,4 +1,4 @@
-import { formatDate, getDate } from "./Date"
+import { formatDate } from "./Date"
 import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { classNames } from "../util/lang"
 import style from "./styles/contentMeta.scss"
@@ -17,9 +17,12 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
   const options: ContentMetaOptions = { ...defaultOptions, ...opts }
 
   function ContentMetadata({ cfg, fileData, displayClass }: QuartzComponentProps) {
-    if (!fileData.dates) return null
+    // No "Last updated" on the graph-as-hero homepage.
+    if (fileData.slug === "index") return null
 
-    const date = getDate(cfg, fileData)
+    // "Last updated" = the modified (git last-commit) date, not created. Falls
+    // back to created when only one date exists.
+    const date = fileData.dates?.modified ?? fileData.dates?.created
     if (!date) return null
 
     return (

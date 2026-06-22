@@ -1,6 +1,7 @@
 {
   "name": "Kimura from Reverse Kesa-Gatame",
   "description": "Master the Kimura from Reverse Kesa-Gatame with expert finishing mechanics, grip transitions, and defensive counters for this high-percentage shoulder lock.",
+  "summary": "The Kimura from Reverse Kesa-Gatame is a shoulder lock that exploits the reverse scarf hold's built-in far-arm isolation, using a figure-four grip and hip-driven rotation to force the shoulder past its internal-rotation limit.",
   "tags": [
     "bjj",
     "submission",
@@ -17,7 +18,7 @@
   "starting_position": "Reverse Kesa-Gatame",
   "from_position": "Reverse Kesa-Gatame/Top",
   "success_rate": 62,
-  "overview": "The Kimura from Reverse Kesa-Gatame is a high-percentage shoulder lock that capitalizes on the natural arm isolation provided by the reverse scarf hold orientation. The top player faces the opponent's legs, creating direct access to the far arm without the grip fighting typically required from standard side control. Chest pressure pins the torso while the figure-four grip locks onto the wrist, producing a submission environment where defensive movement is severely constrained by positional mechanics rather than requiring athletic effort from the attacker.\n\nThe key mechanical advantage lies in the opponent's inability to create effective defensive frames. The reverse orientation blocks their primary escape pathways while chest compression limits breathing and explosive movement. The elbow pinned against the attacker's hip establishes the fulcrum point, and body rotation rather than arm strength generates the finishing torque through the shoulder's weakest plane of internal rotation.\n\nStrategically, this Kimura variant functions as both a direct finishing tool and a transitional threat that opens paths to the Americana, mount, back control, and the Kimura Trap system. When opponents defend by straightening their arm, the Americana becomes immediately available. When they bridge and roll, back takes present themselves. This two-directional dilemma makes the Kimura from Reverse Kesa-Gatame a cornerstone attack in any comprehensive top-side submission system, particularly effective in no-gi where collar-based controls are unavailable.",
+  "overview": "What makes this variant so reliable is the reverse orientation itself: the top player faces the opponent's legs, creating direct access to the far arm without the grip fighting typically required from standard side control. Chest pressure pins the torso while the figure-four grip locks onto the wrist, producing a submission environment where defensive movement is severely constrained by positional mechanics rather than requiring athletic effort from the attacker.\n\nThe key mechanical advantage lies in the opponent's inability to create effective defensive frames. The reverse orientation blocks their primary escape pathways while chest compression limits breathing and explosive movement. The elbow pinned against the attacker's hip establishes the fulcrum point, and body rotation rather than arm strength generates the finishing torque through the shoulder's weakest plane of internal rotation.\n\nStrategically, this Kimura variant functions as both a direct finishing tool and a transitional threat that opens paths to the Americana, mount, back control, and the Kimura Trap system. When opponents defend by straightening their arm, the Americana becomes immediately available. When they bridge and roll, back takes present themselves. This two-directional dilemma makes the Kimura from Reverse Kesa-Gatame a cornerstone attack in any comprehensive top-side submission system, particularly effective in no-gi where collar-based controls are unavailable.",
   "safety_considerations": {
     "injury_risks": [
       {
@@ -274,6 +275,11 @@
         "safety_critical": false
       },
       {
+        "question": "What sensation tells you the shoulder is reaching its breaking point, and what must you do at that moment?",
+        "answer": "As you rotate the forearm toward the mat you will feel the opponent's elbow and shoulder hit a hard stop where the joint stops yielding and the arm refuses to rotate any further—this is the anatomical limit of internal rotation, and tissue damage begins immediately past it. At that instant apply no additional force: hold steady pressure, watch and feel for the tap, and release the moment it comes. Crossing that limit explosively is what causes rotator cuff tears and dislocations.",
+        "safety_critical": true
+      },
+      {
         "question": "Why is maintaining chest pressure critical during the figure-four grip transition?",
         "answer": "Chest pressure restricts the opponent's breathing and explosive movement capacity while preventing them from creating space to extract their trapped arm. Any lightening during the grip transition gives the opponent a window to insert defensive frames, straighten their arm, or bridge to create separation. The chest pressure is what makes the submission environment high-percentage rather than a scramble.",
         "safety_critical": false
@@ -301,6 +307,11 @@
       {
         "question": "What are the key indicators that the opponent is about to bridge and roll to escape the Kimura attempt?",
         "answer": "Watch for the opponent planting both feet flat on the mat, loading their hips by pressing down through their heels, and shifting weight toward the Kimura side. They may also push your hip with their free hand to create a pivot point. Counter by widening your base immediately, driving your hips lower against their ribs, and maintaining the armpit clamp. Ride any bridge by staying connected rather than tensing against it.",
+        "safety_critical": false
+      },
+      {
+        "question": "In a competition scramble, how do you decide between forcing the Kimura finish and using it to advance position?",
+        "answer": "If the figure-four and elbow-hip fulcrum are locked and the opponent cannot rotate out, commit to the finish with steady hip-driven pressure. If they defend by gripping their belt or straightening the arm and the clock is not against you, use the Kimura grip as a steering wheel: walk to north-south or take the back, keeping the threat alive while you upgrade position rather than burning energy on a stalled finish. The locked grip means a defensive reaction in any direction feeds your next attack.",
         "safety_critical": false
       },
       {

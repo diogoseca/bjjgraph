@@ -10,6 +10,41 @@ description: "Learn Controlled Descent from standing back control in BJJ. Strate
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Controlled Descent",
+  "description": "Learn Controlled Descent from standing back control in BJJ. Strategic technique to safely reach turtle or guard on your terms, not your opponent\u0027s.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Controlled Descent", "item": "https://bjjgraph.org/Transitions/Controlled-Descent" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Controlled Descent",
+  "description": "Controlled Descent is a defensive transition from standing back control where the bottom player deliberately drops to the mat on their own terms, choosing the angle and timing to reach turtle or guard rather than being thrown or slammed.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Learn Controlled Descent from standing back control in BJJ. Strate
 </div>
 
 <section id="overview" class="content-section">
+
+**Controlled Descent is a defensive transition from standing back control where the bottom player deliberately drops to the mat on their own terms, choosing the angle and timing to reach turtle or guard rather than being thrown or slammed.**
 
 Controlled Descent is a critical defensive technique executed when an opponent has achieved standing back control and you need to transition the fight to the ground on your own terms rather than being thrown or slammed. The technique involves strategically dropping your base while maintaining defensive frames, allowing you to reach turtle or guard positions where you have significantly more defensive options than standing with your back exposed.
 
@@ -215,5 +252,7 @@ Controlled Descent occupies a crucial role in the defensive hierarchy from stand
 
 
 </section>
+
+
 
 </main>

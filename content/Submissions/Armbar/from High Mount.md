@@ -10,10 +10,55 @@ description: "Master the Armbar from High Mount in BJJ. Complete guide to setup 
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Armbar from High Mount targets the Elbow joint (hyperextension) and shoulder girdle. Risk: Elbow hyperextension causing ligament tears (UCL, LCL, annular ligament). Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Armbar from High Mount",
+  "description": "Master the Armbar from High Mount in BJJ. Complete guide to setup mechanics, finishing sequences, defensive escapes, and progressive training methods.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Armbar from High Mount", "item": "https://bjjgraph.org/Submissions/Armbar-from-High-Mount" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Armbar from High Mount",
+  "description": "The Armbar from High Mount is an elbow-hyperextension joint lock executed by isolating one of the opponent's arms and rotating perpendicular from the elevated mount, where their bridge escape is already neutralized before the attack begins.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Armbar from High Mount is an elbow-hyperextension joint lock executed by isolating one of the opponent's arms and rotating perpendicular from the elevated mount, where their bridge escape is already neutralized before the attack begins.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Arm Lock</span>
+<span class="meta-chip">Targets Elbow joint (hyperextension) and shoulder girdle</span>
+<span class="meta-chip">50% success</span>
+</div>
+
+> [!danger] Safety
+> Armbar from High Mount targets the Elbow joint (hyperextension) and shoulder girdle. Primary risk: Elbow hyperextension causing ligament tears (UCL, LCL, annular ligament). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,50 +75,7 @@ The submission operates by isolating one of the defender's arms and rotating the
 
 Strategically, the Armbar from High Mount functions as the centerpiece of mount attack systems. It creates a binary dilemma: defenders who protect their arms by tucking elbows expose their neck to collar chokes, while those who extend arms to frame against the mounting pressure expose themselves to armbar attacks. Elite practitioners use this dilemma to force predictable defensive reactions, then execute the armbar against the reaction they have trained to exploit. Competition data consistently shows this as one of the most successful submission finishes from mount at all belt levels.
 
-**Category**: Joint Lock
-**Type**: Arm Lock
-**Target Area**: Elbow joint (hyperextension) and shoulder girdle
-**Starting Position**: [[Positions/Mount/High Mount]]
-**From Position**: [[Positions/Mount/High Mount]] (Top)
-**Success Rate**: 50%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Elbow hyperextension causing ligament tears (UCL, LCL, annular ligament) | High | 6-12 weeks for partial tear, 4-6 months for complete tear requiring surgery |
-| Elbow dislocation from sudden or explosive application | CRITICAL | 3-6 months, may require surgical reduction and rehabilitation |
-| Shoulder strain or rotator cuff injury from resistance against locked position | Medium | 2-6 weeks depending on severity of strain |
-
-
-**Application Speed**: SLOW and progressive. Apply steady, incremental pressure against the elbow joint. Never jerk, spike, or explosively extend the arm. Allow the defender time to recognize the submission and tap.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner, own body, or mat
-- Physical foot tap on mat or partner with either leg
-- Any unusual vocalization, screaming, or distress signal
-
-
-**Release Protocol**:
-1. Release immediately upon any tap signal without hesitation
-2. If in doubt about whether partner tapped, release immediately—position can be re-established
-3. Release if partner goes limp or appears to lose consciousness
-4. After release, maintain position control but remove all joint pressure before continuing
-
-
-**Training Restrictions**:
-- White belts should drill at slow speed with compliant partners before attempting in live sparring
-- Never apply full extension speed in drilling—always leave time for partner to tap
-- Avoid cranking through defensive grips—use proper grip-breaking technique instead of force
-- Partners with previous elbow injuries should communicate limitations before training
-
+**Starting Position**: [[Positions/Mount/High Mount]] · **From**: [[Positions/Mount/High Mount]] (Top)
 
 </section>
 
@@ -241,10 +243,9 @@ Strategically, the Armbar from High Mount functions as the centerpiece of mount 
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Belly Down Armbar]]
 - [[Submissions/Gift Wrap Armbar]]
@@ -253,34 +254,54 @@ Strategically, the Armbar from High Mount functions as the centerpiece of mount 
 - [[Submissions/Cross Collar Choke]]
 - [[Submissions/Flying Armbar]]
 - [[Submissions/Kimura]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Mount/High Mount]] - Starting position providing elevated platform for arm isolation and submission entry
 - [[Positions/Armbar Control]] - Control position reached after successful armbar entry before finishing the submission
 - [[Positions/Mount]] - Parent position from which high mount is established through progressive knee walking
 - [[Positions/Mount/S Mount]] - Alternative attacking position with perpendicular body angle for armbar setup
-- [[Submissions/Far Side Armbar]] - Related armbar variation attacking the far arm from top positions using similar hyperextension mechanics
 - [[Positions/Mount/Technical Mount]] - Transitional position accessible when defender turns during armbar attempt
 - [[Positions/Gift Wrap]] - Arm control position that creates high-percentage armbar entry from mount variations
 - [[Positions/Closed Guard]] - Common defensive recovery position when defender successfully counters the armbar attempt
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Elbow hyperextension causing ligament tears (UCL, LCL, annular ligament) | High | 6-12 weeks for partial tear, 4-6 months for complete tear requiring surgery |
+| Elbow dislocation from sudden or explosive application | CRITICAL | 3-6 months, may require surgical reduction and rehabilitation |
+| Shoulder strain or rotator cuff injury from resistance against locked position | Medium | 2-6 weeks depending on severity of strain |
+
+
+**Application Speed**: SLOW and progressive. Apply steady, incremental pressure against the elbow joint. Never jerk, spike, or explosively extend the arm. Allow the defender time to recognize the submission and tap.
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any distress signal)
+- Physical hand tap on partner, own body, or mat
+- Physical foot tap on mat or partner with either leg
+- Any unusual vocalization, screaming, or distress signal
+
+
+**Release Protocol**:
+1. Release immediately upon any tap signal without hesitation
+2. If in doubt about whether partner tapped, release immediately—position can be re-established
+3. Release if partner goes limp or appears to lose consciousness
+4. After release, maintain position control but remove all joint pressure before continuing
+
+
+**Training Restrictions**:
+- White belts should drill at slow speed with compliant partners before attempting in live sparring
+- Never apply full extension speed in drilling—always leave time for partner to tap
+- Avoid cranking through defensive grips—use proper grip-breaking technique instead of force
+- Partners with previous elbow injuries should communicate limitations before training
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Armbar from High Mount leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

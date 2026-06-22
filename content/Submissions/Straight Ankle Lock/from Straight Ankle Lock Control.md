@@ -10,10 +10,55 @@ description: "Complete guide to the straight ankle lock finish from ankle lock c
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Straight Ankle Lock from Straight Ankle Lock Control targets the Ankle joint, Achilles tendon, and foot ligaments. Risk: Ankle sprain or ligament damage. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Straight Ankle Lock from Straight Ankle Lock Control",
+  "description": "Complete guide to the straight ankle lock finish from ankle lock control. Breaking mechanics, grip placement, defensive counters, and safety protocols.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Straight Ankle Lock from Straight Ankle Lock Control", "item": "https://bjjgraph.org/Submissions/Straight-Ankle-Lock-from-Straight-Ankle-Lock-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Straight Ankle Lock from Straight Ankle Lock Control",
+  "description": "The straight ankle lock from straight ankle lock control is a leg-lock finish that hyperextends the ankle and compresses the Achilles tendon by clamping the trapped foot tight and bridging with hip extension from an already-established leg entanglement.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The straight ankle lock from straight ankle lock control is a leg-lock finish that hyperextends the ankle and compresses the Achilles tendon by clamping the trapped foot tight and bridging with hip extension from an already-established leg entanglement.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Ankle Lock</span>
+<span class="meta-chip">Targets Ankle joint, Achilles tendon, and foot ligaments</span>
+<span class="meta-chip">58% success</span>
+</div>
+
+> [!danger] Safety
+> Straight Ankle Lock from Straight Ankle Lock Control targets the Ankle joint, Achilles tendon, and foot ligaments. Primary risk: Ankle sprain or ligament damage. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,54 +75,7 @@ The finishing sequence coordinates three simultaneous movement patterns: hip ext
 
 Strategically, the straight ankle lock from established control serves dual purposes within a complete leg attack system. The immediate tap threat forces defensive reactions that open transitions to inside ashi garami, outside ashi garami, or kneebar positions. Experienced practitioners treat the finish attempt as a forcing function—either the opponent taps, or their defensive movement creates a pathway to more dominant entanglements. This makes the ankle lock threat valuable both as a direct submission and as a positional advancement tool that maintains offensive initiative throughout the engagement.
 
-**Category**: Joint Lock
-**Type**: Ankle Lock
-**Target Area**: Ankle joint, Achilles tendon, and foot ligaments
-**Starting Position**: [[Positions/Straight Ankle Lock Control]]
-**From Position**: [[Positions/Straight Ankle Lock Control]] (Bottom)
-**Success Rate**: 58%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Ankle sprain or ligament damage | Medium | 2-6 weeks depending on severity |
-| Achilles tendon strain or rupture | High | 3-6 months for complete rupture, 4-8 weeks for strain |
-| Tibialis anterior tendon damage | Medium | 3-6 weeks |
-| Foot bone fracture from explosive application | High | 6-12 weeks |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training, allowing partner to recognize depth and tap safely
-
-**Tap Signals**:
-- Verbal tap - clearly audible 'tap' or 'stop'
-- Physical hand tap on opponent or mat - minimum 2 taps
-- Physical foot tap with free leg
-- Any distress signal including unusual sounds or movements
-
-
-**Release Protocol**:
-1. Immediately stop hip extension the moment tap is felt or heard
-2. Release armpit grip on the foot and allow it to slide free
-3. Open leg entanglement by releasing hooks and creating space
-4. Move away from the leg to prevent accidental re-engagement
-5. Check with partner verbally to ensure they are okay
-
-
-**Training Restrictions**:
-- Apply smooth progressive pressure only - never spike or jerk the submission
-- Always allow a 3-5 second pressure window in training - never use competition speed
-- Maintain verbal communication with training partners about pressure levels
-- Never continue pressure after tap signal is given
-- Beginners should train this submission under direct instructor supervision
-- Never combine explosive entries with immediate finishing pressure
-
+**Starting Position**: [[Positions/Straight Ankle Lock Control]] · **From**: [[Positions/Straight Ankle Lock Control]] (Top)
 
 </section>
 
@@ -238,42 +236,64 @@ Strategically, the straight ankle lock from established control serves dual purp
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Achilles Lock]]
 - [[Transitions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
 - [[Submissions/Calf Slicer]]
-- [[Positions/Estima Lock Control]]
-- [[Positions/Aoki Lock Control]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
+- [[Transitions/Estima Lock]]
+- [[Transitions/Aoki Lock]]
 - [[Positions/Straight Ankle Lock Control]] - Starting control position and primary base for this submission finish
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Transition target when defender rotates hip away during ankle lock defense
 - [[Positions/Ashi Garami/Outside Ashi-Garami]] - Alternative attacking position with similar ankle lock finishing mechanics
 - [[Positions/Ashi Garami/50-50 Guard]] - Symmetrical entanglement resulting from defender counter-entry attempts
-- [[Submissions/Achilles Lock]] - Related ankle compression submission targeting the same anatomical structure
-- [[Transitions/Heel Hook]] - Higher-percentage leg lock available from transitions off failed ankle lock attempts
+
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Ankle sprain or ligament damage | Medium | 2-6 weeks depending on severity |
+| Achilles tendon strain or rupture | High | 3-6 months for complete rupture, 4-8 weeks for strain |
+| Tibialis anterior tendon damage | Medium | 3-6 weeks |
+| Foot bone fracture from explosive application | High | 6-12 weeks |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training, allowing partner to recognize depth and tap safely
+
+**Tap Signals**:
+- Verbal tap - clearly audible 'tap' or 'stop'
+- Physical hand tap on opponent or mat - minimum 2 taps
+- Physical foot tap with free leg
+- Any distress signal including unusual sounds or movements
+
+
+**Release Protocol**:
+1. Immediately stop hip extension the moment tap is felt or heard
+2. Release armpit grip on the foot and allow it to slide free
+3. Open leg entanglement by releasing hooks and creating space
+4. Move away from the leg to prevent accidental re-engagement
+5. Check with partner verbally to ensure they are okay
+
+
+**Training Restrictions**:
+- Apply smooth progressive pressure only - never spike or jerk the submission
+- Always allow a 3-5 second pressure window in training - never use competition speed
+- Maintain verbal communication with training partners about pressure levels
+- Never continue pressure after tap signal is given
+- Beginners should train this submission under direct instructor supervision
+- Never combine explosive entries with immediate finishing pressure
 
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Straight Ankle Lock from Straight Ankle Lock Control leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

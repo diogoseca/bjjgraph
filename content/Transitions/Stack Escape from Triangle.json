@@ -1,5 +1,6 @@
 {
   "name": "Stack Escape from Triangle",
+  "summary": "The Stack Escape from Triangle is a top-player defense that drives the trapped opponent's hips above their shoulders, collapsing the choke's perpendicular angle so the legs can be cleared and the position passed toward half guard.",
   "description": "Master the Stack Escape from Triangle choke in BJJ. Step-by-step guide covering stacking mechanics, posture recovery, and passing to half guard or side control.",
   "tags": [
     "bjj",
@@ -69,7 +70,7 @@
       "relationship": "Counter position opponent may transition to when stack compromises triangle angle"
     },
     {
-      "name": "Complete Triangle Escape from Top",
+      "name": "Complete Triangle Escape",
       "relationship": "Alternative triangle escape using lateral head extraction rather than stacking mechanics"
     },
     {
@@ -81,7 +82,7 @@
       "relationship": "Prerequisite technique for establishing the posture needed to initiate the stack sequence"
     },
     {
-      "name": "Posture in Triangle",
+      "name": "Posture in Triangle Escape",
       "relationship": "Related defensive concept for managing posture inside triangle control before escaping"
     },
     {

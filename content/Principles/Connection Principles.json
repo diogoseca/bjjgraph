@@ -16,7 +16,8 @@
   "application_level": "Fundamental",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
-  "overview": "Connection Principles constitute one of the most fundamental yet nuanced concepts in Brazilian Jiu-Jitsu, governing how practitioners establish, maintain, and break physical contact points with their opponents. At its core, this concept recognizes that grappling is fundamentally about controlling another person's body through strategic points of contact - connections that can either enable control or create vulnerability depending on their application. Understanding connection principles transforms random grabbing into systematic control, allowing practitioners to dictate their opponent's movement possibilities while preserving their own mobility and options.\n\nThe concept operates on multiple levels simultaneously: offensive connections that enable attacks and control, defensive connections that create barriers and preserve space, and neutral connections that establish positional awareness. Every grip, frame, hook, and contact point represents a connection that either enhances or diminishes tactical position. Master grapplers distinguish themselves not through superior strength or flexibility, but through their sophisticated understanding of which connections to establish, which to maintain, which to break, and when to transition between these states. This knowledge allows them to control opponents who may be physically stronger by strategically managing the quality and positioning of connection points.\n\nConnection principles extend beyond simple grip fighting to encompass the entire tactical landscape of grappling exchanges. They include understanding connection hierarchy (which grips matter most in specific contexts), connection timing (when to establish or break contact), connection quality (strong versus light touch), and connection sequencing (how to chain grips and frames together). The concept also addresses the reciprocal nature of connections - recognizing that every connection you establish on your opponent simultaneously gives them a connection to you, creating a complex tactical calculus about which connections provide net advantage in any given position.",
+  "summary": "Connection Principles are the framework governing how grips, frames, hooks, and contact points are established, maintained, broken, and chained to control an opponent's body while preserving your own mobility and tactical options.",
+  "overview": "In grappling, every exchange is mediated by points of physical contact, and the difference between a practitioner who controls those points and one who merely grabs at them often decides the outcome. At its core, this concept recognizes that grappling is fundamentally about controlling another person's body through strategic points of contact - connections that can either enable control or create vulnerability depending on their application. Understanding connection principles transforms random grabbing into systematic control, allowing practitioners to dictate their opponent's movement possibilities while preserving their own mobility and options.\n\nThe concept operates on multiple levels simultaneously: offensive connections that enable attacks and control, defensive connections that create barriers and preserve space, and neutral connections that establish positional awareness. Every grip, frame, hook, and contact point represents a connection that either enhances or diminishes tactical position. Master grapplers distinguish themselves not through superior strength or flexibility, but through their sophisticated understanding of which connections to establish, which to maintain, which to break, and when to transition between these states. This knowledge allows them to control opponents who may be physically stronger by strategically managing the quality and positioning of connection points.\n\nConnection principles extend beyond simple grip fighting to encompass the entire tactical landscape of grappling exchanges. They include understanding connection hierarchy (which grips matter most in specific contexts), connection timing (when to establish or break contact), connection quality (strong versus light touch), and connection sequencing (how to chain grips and frames together). The concept also addresses the reciprocal nature of connections - recognizing that every connection you establish on your opponent simultaneously gives them a connection to you, creating a complex tactical calculus about which connections provide net advantage in any given position.",
   "key_principles": [
     "**Connection Hierarchy**: Not all connection points are equal; grips closer to opponent's center of mass and decision-making centers (head, hips, shoulders) generally provide superior control compared to peripheral grips (wrists, ankles)",
     "**Reciprocal Nature**: Every connection established creates a two-way relationship; when you grip your opponent, you also give them a reference point and potential connection to exploit",
@@ -119,9 +120,9 @@
       "description": "Posture techniques require proper connections to transmit destabilizing forces; connection principles provide the foundation for effective kuzushi and off-balancing application"
     },
     {
-      "principle_name": "Sleeve Control",
+      "principle_name": "Collar Control",
       "relationship_type": "Extension",
-      "description": "Sleeve Control applies connection principles to specific arm management, using sleeve grips to neutralize opponent's offensive and defensive capabilities through targeted connection dominance"
+      "description": "Collar Control applies connection principles to specific collar grips, using lapel and collar connections to dominate posture and set up attacks through targeted connection management"
     }
   ],
   "application_contexts": [
@@ -411,6 +412,48 @@
       "name": "Defensive Concepts",
       "content_type": "Principle",
       "relationship": "Defensive counterpart encompassing space-preserving connections and escape frameworks"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What are Connection Principles in BJJ?",
+      "answer": "They are the framework for how grips, frames, hooks, and contact points are established, maintained, broken, and chained together to control an opponent while preserving your own mobility and tactical options."
+    },
+    {
+      "question": "Why is every connection considered reciprocal?",
+      "answer": "Because when you grip an opponent you simultaneously give them a reference point and potential connection to exploit, so each grip must yield a net advantage rather than merely feeling like control."
+    },
+    {
+      "question": "Why should you break an opponent's connections before establishing your own?",
+      "answer": "Their existing grips and frames let them defend or counter your attempts, so reaching a connection-neutral state first prevents them from using established connections to neutralize the ones you are trying to build."
+    },
+    {
+      "question": "What is the functional difference between a grip and a frame?",
+      "answer": "Grips pull an opponent into your control sphere while frames push them out to preserve space; both are connections serving opposite purposes, and skilled grapplers fluidly switch between them as needed."
+    },
+    {
+      "question": "How does connection hierarchy guide grip selection?",
+      "answer": "Connections closer to the opponent's center of mass and decision-making centers (head, hips, shoulders) generally provide superior control compared with peripheral grips on the wrists or ankles."
+    },
+    {
+      "question": "What is the cost of maintaining all connections at maximum strength?",
+      "answer": "Over-gripping rapidly depletes grip strength and overall energy, reduces mobility, and makes you predictable; intensity should vary, reserving maximum strength only for critical moments."
+    },
+    {
+      "question": "How do you prevent an opponent from stripping your connections one at a time?",
+      "answer": "Build connection systems where multiple grips, frames, or hooks mutually support each other, forcing the opponent to deal with several points simultaneously rather than isolating and removing each one."
+    },
+    {
+      "question": "What does maintaining connection continuity through transitions mean?",
+      "answer": "It means always keeping at least one effective connection while shifting the others, so the opponent never gets a connection-free moment to escape or counter as positions change."
+    },
+    {
+      "question": "How can a connection be used as a post or wedge rather than for pulling?",
+      "answer": "By inserting a hand, knee, or other body part as an immovable obstacle that creates leverage and blocks movement, such as posting to avoid being flattened or wedging a knee to keep guard distance."
+    },
+    {
+      "question": "What is a sign that a connection is compromising your own structure?",
+      "answer": "If a grip or frame pulls you off balance or out of alignment with your skeletal base, it has become a liability and you should release or reposition it rather than fight to keep it."
     }
   ]
 }

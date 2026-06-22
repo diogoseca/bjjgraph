@@ -10,10 +10,55 @@ description: "Master the Marce Choke in BJJ - powerful lapel choke from top posi
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Marce Choke from Side Control targets the Carotid arteries and trachea via lapel compression. Risk: Carotid artery compression leading to unconsciousness. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Marce Choke from Side Control",
+  "description": "Master the Marce Choke in BJJ - powerful lapel choke from top positions. Setup, execution, defense, and safety protocols for gi competition.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Marce Choke from Side Control", "item": "https://bjjgraph.org/Submissions/Marce-Choke-from-Side-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Marce Choke from Side Control",
+  "description": "The Marce Choke from Side Control is a gi blood choke in which the top player feeds the opponent's own lapel across both carotid arteries and drives bodyweight through it to finish from the side pin.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Marce Choke from Side Control is a gi blood choke in which the top player feeds the opponent's own lapel across both carotid arteries and drives bodyweight through it to finish from the side pin.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Lapel Choke</span>
+<span class="meta-chip">Targets Carotid arteries and trachea via lapel compression</span>
+<span class="meta-chip">58% success</span>
+</div>
+
+> [!danger] Safety
+> Marce Choke from Side Control targets the Carotid arteries and trachea via lapel compression. Primary risk: Carotid artery compression leading to unconsciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,53 +75,7 @@ Unlike traditional collar chokes that require both hands on the lapel, the Marce
 
 The choke works on a fundamental principle: using the lapel as a ligature around the neck while your body weight and positioning create the constricting force. This makes it a high-percentage technique for practitioners who master the proper setup and understand the mechanics of lapel manipulation. The finishing mechanic relies on opposing forces - the lapel pulls from one direction while chest pressure drives from the other - creating a noose effect that is biomechanically efficient and extremely difficult to defend through strength alone.
 
-**Category**: Choke
-**Type**: Lapel Choke
-**Target Area**: Carotid arteries and trachea via lapel compression
-**Starting Position**: [[Positions/Side Control]]
-**From Position**: [[Positions/Side Control]] (Top)
-**Success Rate**: 58%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Carotid artery compression leading to unconsciousness | High | Immediate recovery if released promptly; potential for injury if held too long |
-| Tracheal compression and airway restriction | Medium | Minutes to hours of discomfort; days if excessive force applied |
-| Neck strain from lapel pressure | Low | 1-3 days |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training, allowing clear tap opportunity
-
-**Tap Signals**:
-- Verbal tap
-- Physical hand tap on opponent or mat
-- Physical foot tap on mat
-- Any loss of consciousness indicators
-- Any distress signal
-
-
-**Release Protocol**:
-1. Immediately release lapel grip upon tap signal
-2. Remove body weight from opponent's torso
-3. Unwrap lapel from around neck if entangled
-4. Check partner's responsiveness and breathing
-5. Allow partner time to recover before continuing training
-
-
-**Training Restrictions**:
-- Never apply full pressure in initial learning phases
-- Never hold the choke after tap or loss of consciousness
-- Always ensure training partner can tap with at least one hand
-- Never use competition speed or intensity in drilling
-- Stop immediately if partner shows any signs of distress beyond normal discomfort
-
+**Starting Position**: [[Positions/Side Control]] · **From**: [[Positions/Side Control]] (Top)
 
 </section>
 
@@ -246,10 +245,9 @@ The choke works on a fundamental principle: using the lapel as a ligature around
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Loop Choke]]
 - [[Submissions/Cross Collar Choke]]
 - [[Submissions/Baseball Bat Choke]]
@@ -261,34 +259,54 @@ The choke works on a fundamental principle: using the lapel as a ligature around
 - [[Submissions/Kimura]]
 - [[Submissions/Americana]]
 - [[Submissions/Brabo Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Side Control]] - Primary starting position for the Marce Choke setup
 - [[Positions/North-South]] - Alternative position for finishing the Marce Choke with better pressure angle
 - [[Positions/Side Control/Kesa Gatame]] - Scarf hold variation that provides excellent control for the Marce Choke
-- [[Submissions/Loop Choke]] - Similar lapel manipulation mechanics and choking principle
-- [[Submissions/Cross Collar Choke]] - Shares the concept of using the gi to create carotid compression
 - [[Positions/Knee on Belly]] - Transitional position that offers excellent setup opportunities
-- [[Submissions/Brabo Choke]] - Related gi choke with similar pressure mechanics from top positions
-- [[Submissions/Breadcutter Choke]] - Alternative lapel choke from similar positions with different finishing mechanics
+
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Carotid artery compression leading to unconsciousness | High | Immediate recovery if released promptly; potential for injury if held too long |
+| Tracheal compression and airway restriction | Medium | Minutes to hours of discomfort; days if excessive force applied |
+| Neck strain from lapel pressure | Low | 1-3 days |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training, allowing clear tap opportunity
+
+**Tap Signals**:
+- Verbal tap
+- Physical hand tap on opponent or mat
+- Physical foot tap on mat
+- Any loss of consciousness indicators
+- Any distress signal
+
+
+**Release Protocol**:
+1. Immediately release lapel grip upon tap signal
+2. Remove body weight from opponent's torso
+3. Unwrap lapel from around neck if entangled
+4. Check partner's responsiveness and breathing
+5. Allow partner time to recover before continuing training
+
+
+**Training Restrictions**:
+- Never apply full pressure in initial learning phases
+- Never hold the choke after tap or loss of consciousness
+- Always ensure training partner can tap with at least one hand
+- Never use competition speed or intensity in drilling
+- Stop immediately if partner shows any signs of distress beyond normal discomfort
 
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Marce Choke from Side Control leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

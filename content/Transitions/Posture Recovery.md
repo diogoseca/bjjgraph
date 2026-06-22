@@ -10,6 +10,41 @@ description: "Learn Posture Recovery in BJJ. Defensive technique for regaining u
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Posture Recovery",
+  "description": "Learn Posture Recovery in BJJ. Defensive technique for regaining upright position from broken posture. Success rates: Beginner 55%, Intermediate 70%, Advanced 85%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Posture Recovery", "item": "https://bjjgraph.org/Transitions/Posture-Recovery" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Posture Recovery",
+  "description": "Posture Recovery is a defensive top-game transition in which a player whose posture has been broken inside the guard rebuilds an upright, structurally sound base—typically combat base—to neutralize the guard player's attacks and resume passing.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Learn Posture Recovery in BJJ. Defensive technique for regaining u
 
 <section id="overview" class="content-section">
 
-Posture Recovery is a fundamental defensive technique used when your posture has been broken while inside an opponent's guard. This critical skill allows you to regain an upright, stable position from which you can effectively pass or defend against submissions and sweeps. Breaking an opponent's posture is one of the primary objectives from guard positions, making posture recovery an essential skill for any top player. The technique involves a systematic approach to creating space, establishing proper base, and using controlled movements to return to an advantageous position.
+**Posture Recovery is a defensive top-game transition in which a player whose posture has been broken inside the guard rebuilds an upright, structurally sound base—typically combat base—to neutralize the guard player's attacks and resume passing.**
+
+Inside an opponent's guard, the moment your posture is broken is the moment you lose access to passing and become a target for collar chokes, armbars, triangles, and sweeps—which is exactly why posture recovery sits at the foundation of every top player's guard-passing game. Breaking your posture is one of the guard player's primary objectives, so your ability to systematically rebuild structure neutralizes their entire offensive platform and forces them to re-establish control. The technique involves a deliberate sequence of creating space, establishing proper base, and using controlled hip-driven movement to return to an advantageous, upright position.
 
 Mastering posture recovery is crucial because it represents the difference between maintaining offensive potential and being swept or submitted. When your posture is broken inside closed guard, you face immediate threats including collar chokes, armbars, triangles, and various sweeps. The guard player's entire offensive system depends on maintaining broken posture, so your ability to recover neutralizes their game plan and forces them to re-establish control.
 
@@ -213,21 +250,21 @@ Posture Recovery is a critical defensive technique within the guard passing syst
 
 - [[Transitions/Closed Guard to Triangle]] - Common threat - triangle setup that can occur during recovery if arms are exposed
 
-- [[Transitions/Technical Stand-up]] - Alternative technique - another method to escape broken posture situations
-
-- [[Transitions/Knee Shield Retention]] - Related defense - what opponent may transition to if you recover too aggressively
-
-- [[Transitions/Grip Break]] - Prerequisite skill - breaking collar and sleeve grips before initiating recovery
-
 - [[Transitions/Guard Opening Sequence]] - Follow-up technique - the next step after recovering posture in closed guard
 
-- [[Transitions/Posture Recovery to Closed Guard]] - Related transition - returning to stable closed guard top after recovery
+- [[Transitions/Grip Break]] - Prerequisite skill - breaking collar and sleeve grips before initiating recovery
 
 - [[Transitions/Hip Bump Sweep]] - Counter threat - common sweep exploiting backward weight shift during recovery
 
 - [[Transitions/Combat Base to Headquarters]] - Follow-up transition - progressing from recovered posture into deeper passing position
 
+- [[Transitions/Knee Slide from Combat Base]] - Follow-up pass - high-percentage pass initiated once posture and combat base are recovered
+
+- [[Transitions/Toreando Pass]] - Follow-up pass - dynamic pass chained directly off recovered posture and combat base
+
 
 </section>
+
+
 
 </main>

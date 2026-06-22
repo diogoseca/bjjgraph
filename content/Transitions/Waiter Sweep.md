@@ -10,6 +10,41 @@ description: "Master the Waiter Sweep from Butterfly Guard in BJJ. High-percenta
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Waiter Sweep",
+  "description": "Master the Waiter Sweep from Butterfly Guard in BJJ. High-percentage sweep using underhook and elevation mechanics to reach Side Control Top.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Waiter Sweep", "item": "https://bjjgraph.org/Transitions/Waiter-Sweep" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Waiter Sweep",
+  "description": "The Waiter Sweep is a high-percentage Butterfly Guard reversal in which the bottom player combines an underhook with opposite-side overhook or collar control to elevate the opponent on a diagonal vector and sweep them to side control top.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Waiter Sweep from Butterfly Guard in BJJ. High-percenta
 </div>
 
 <section id="overview" class="content-section">
+
+**The Waiter Sweep is a high-percentage Butterfly Guard reversal in which the bottom player combines an underhook with opposite-side overhook or collar control to elevate the opponent on a diagonal vector and sweep them to side control top.**
 
 The Waiter Sweep is a fundamental butterfly guard technique that derives its name from the characteristic hand position resembling a waiter carrying a tray. This sweep capitalizes on creating an asymmetrical control structure—combining an underhook on one side with an overhook or collar grip on the other—that severely compromises the opponent's base and posture. The technique works by using butterfly hooks to elevate the opponent while simultaneously using grips to break their posting ability, creating a clean sweep to side control or mount.
 
@@ -225,6 +262,16 @@ The Waiter Sweep is a cornerstone technique within the butterfly guard system an
 
 - [[Positions/Butterfly Guard/Half Butterfly]] - Related position - hybrid guard using similar hook mechanics
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Andrew-Wiltse-Half-Guard-System" data-cta="related-system-card" data-system-slug="systems/andrew-wiltse-half-guard-system" data-system-name="Andrew Wiltse Half Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Andrew Wiltse Half Guard System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Primary sweep from deep half guard variations</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

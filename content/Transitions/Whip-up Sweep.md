@@ -10,6 +10,41 @@ description: "Learn Whip-up Sweep from Lockdown in BJJ. Momentum-based reversal 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Whip-up Sweep",
+  "description": "Learn Whip-up Sweep from Lockdown in BJJ. Momentum-based reversal using leg entanglement to reach top. Success: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Whip-up Sweep", "item": "https://bjjgraph.org/Transitions/Whip-up-Sweep" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Whip-up Sweep",
+  "description": "The Whip-up Sweep is 10th Planet's primary lockdown reversal, where the bottom player coordinates a figure-four leg extension with an underhook-driven upward whip to off-balance a forward-pressuring opponent and rise into the dogfight position or top control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Learn Whip-up Sweep from Lockdown in BJJ. Momentum-based reversal 
 
 <section id="overview" class="content-section">
 
-The Whip-up Sweep is the primary offensive sweep from the 10th Planet lockdown system, using the figure-four leg entanglement to generate explosive upward momentum that brings the bottom player from flat on their back to a neutral or dominant position. The sweep works by coordinating a lockdown extension that off-balances the top player with a simultaneous upper-body drive that exploits forward weight commitment. When the opponent drives pressure forward to flatten the lockdown player or establish crossface control, their weight shifts over their base, creating the mechanical window for the whip-up.
+**The Whip-up Sweep is 10th Planet's primary lockdown reversal, where the bottom player coordinates a figure-four leg extension with an underhook-driven upward whip to off-balance a forward-pressuring opponent and rise into the dogfight position or top control.**
+
+Within the 10th Planet lockdown system, the whip-up is the primary offensive sweep, weaponizing the figure-four leg entanglement to convert a top player's forward passing pressure into a reversal. The sweep works by coordinating a lockdown extension that off-balances the top player with a simultaneous upper-body drive that exploits forward weight commitment. When the opponent drives pressure forward to flatten the lockdown player or establish crossface control, their weight shifts over their base, creating the mechanical window for the whip-up.
 
 The technique derives its name from the explosive whipping motion where the bottom player comes up to their elbow, then their hand, then fully upright while maintaining the lockdown entanglement throughout. This progressive elevation creates a lever system where the lockdown pulls the opponent's trapped leg backward while the underhook drives their upper body forward, collapsing their base structure. The sweep typically lands in the dogfight position, a neutral scramble state where both players are on their knees fighting for underhook dominance.
 
@@ -219,5 +256,7 @@ The Whip-up Sweep is the centerpiece of the 10th Planet lockdown offensive syste
 
 
 </section>
+
+
 
 </main>

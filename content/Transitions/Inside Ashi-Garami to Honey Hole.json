@@ -1,5 +1,6 @@
 {
   "name": "Inside Ashi-Garami to Honey Hole",
+  "summary": "The Inside Ashi-Garami to Honey Hole transition threads the outside leg through the opponent's legs to form an inside-leg triangle, converting a foundational ashi-garami into the dominant saddle for high-percentage heel hook control.",
   "description": "Master the Inside Ashi-Garami to Honey Hole transition in BJJ. Threading inside leg to saddle position for dominant heel hook control and finishing.",
   "tags": [
     "bjj",
@@ -12,7 +13,7 @@
     "advanced",
     "no-gi"
   ],
-  "from_position": "Inside Ashi-Garami/Bottom",
+  "from_position": "Inside Ashi-Garami/Top",
   "outcomes": [
     {
       "to": "Honey Hole/Top",
@@ -232,7 +233,7 @@
       },
       {
         "question": "What position do you start this transition from and what must be established first?",
-        "answer": "This technique starts from Inside Ashi-Garami/Top position. Before initiating, you must have secure heel control with C-grip or figure-four, inside leg positioned across opponent's hip preventing rotation, and outside leg hooked behind their knee. All control points must be solid before attempting to thread your leg through."
+        "answer": "This technique starts from the Inside Ashi-Garami/Top position - the attacker controlling the leg entanglement. Before initiating, you must have secure heel control with C-grip or figure-four, inside leg positioned across opponent's hip preventing rotation, and outside leg hooked behind their knee. All control points must be solid before attempting to thread your leg through."
       },
       {
         "question": "What defensive reaction from your opponent creates the optimal timing window for this transition?",
@@ -400,7 +401,7 @@
       {
         "phase": "Week 7+",
         "focus": "Live positional defense",
-        "description": "Full resistance positional sparring starting from Inside Ashi-Garami bottom. Partner's goal is Honey Hole entry or submission. Your goal is preventing the transition and escaping the entanglement. Track success rate and identify which attacker setups consistently bypass your defense."
+        "description": "Full resistance positional sparring starting from Inside Ashi-Garami top defending the leg attack. Partner's goal is Honey Hole entry or submission. Your goal is preventing the transition and escaping the entanglement. Track success rate and identify which attacker setups consistently bypass your defense."
       }
     ]
   },

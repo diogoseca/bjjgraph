@@ -142,11 +142,24 @@ description: "Master Head Position in BJJ. Learn biomechanical principles, contr
 }
 </script>
 
-> Head Position is a medium complexity BJJ principle applicable at the Intermediate level. Develop over Beginner to Advanced.
 
-**Application Level**: Intermediate
-**Complexity**: Medium
-**Development Timeline**: Beginner to Advanced
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Head Position",
+  "description": "Head Position is the BJJ principle of controlling an opponent's head to dictate their spinal alignment, posture, and movement options, because steering the head steers the spine, and the spine governs the body's entire structure.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Intermediate</span>
+<span class="meta-chip">Medium complexity</span>
+<span class="meta-chip">Beginner to Advanced</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -155,7 +168,9 @@ description: "Master Head Position in BJJ. Learn biomechanical principles, contr
 
 ## What is Head Position?
 
-Head Position represents the fundamental principle of controlling an opponent's head position to dictate their spinal alignment, postural options, and available movements throughout BJJ engagement. Unlike specific techniques, head control is a comprehensive conceptual framework that applies across all positions and phases of grappling. This concept encompasses the biomechanical understanding that controlling the head provides control over the spine and subsequently the entire body structure, as the head-spine relationship determines available force generation, defensive capability, and offensive options. Head control serves as both an offensive mechanism that enables dominant position maintenance and submission attacks, and a defensive priority that must be protected to preserve mobility and technical options. The ability to establish and maintain head control often determines positional dominance and submission opportunities, making it one of the most essential conceptual elements in BJJ.
+**Head Position is the BJJ principle of controlling an opponent's head to dictate their spinal alignment, posture, and movement options, because steering the head steers the spine, and the spine governs the body's entire structure.**
+
+Across every phase of grappling, from the standing clinch to back control, the head behaves like the steering wheel of the body, which is why elite competitors treat controlling it as a first-order priority rather than an afterthought. Unlike a discrete technique, head control is a conceptual framework that applies in every position: the biomechanical reality is that the head leads the spine, and the spine organizes force generation, defensive framing, and offensive options. Offensively, head control breaks posture, pins shoulders, and opens submission chains; defensively, protecting your own head preserves mobility, prevents chokes, and keeps escape routes alive. Because a single high-quality head connection can neutralize an opponent's strongest structural advantages, the ability to establish and, critically, maintain it through transitions often decides who controls the exchange and who is forced to react.
 
 </section>
 
@@ -351,15 +366,25 @@ Create training circuits where you start in various positions with opponent havi
 - [[Cross Face Control]] (Principle) - Cross-face represents one of the most common and effective applications of head control principles in top positions
 - [[Posture]] (Principle) - Head control serves as the primary mechanism for breaking and preventing opponent posture across most positions
 - [[Front Headlock]] (Position) - Front headlock represents an entire positional category defined by head control as the fundamental characteristic
-- [[Side Control]] (Position) - Side control effectiveness relies heavily on proper head control application through cross-face and shoulder pressure
 - [[Back Control]] (Position) - Back control maintenance and submission attacks depend on effective head control to prevent chin protection and escape
-- [[Guillotine Choke]] (Submission) - Guillotine effectiveness is determined primarily by head control quality and positioning relative to opponent's spine
+- [[Kesa Gatame]] (Position) - Scarf hold uses the arm wrapped around the head as its defining control mechanism, an applied form of head control
+- [[Anaconda Choke]] (Submission) - Anaconda setup and finish depend on front-headlock head control that traps the head and arm against the centerline
 - [[Rear Naked Choke]] (Submission) - Rear naked choke requires overcoming chin protection through superior head control before the choke can be applied
-- [[Darce Choke]] (Submission) - Darce choke setup and finish depend on controlling head position to create the proper angle for the shoulder-of-justice pressure
-- [[Snap Down to Front Headlock]] (Transition) - Snap down represents the primary method of establishing head control from standing positions for ground engagement
+- [[Brabo Choke]] (Submission) - Darce/brabo setup and finish depend on controlling head position to create the angle for the shoulder-of-justice pressure
+- [[Hand Fighting]] (Principle) - Hand fighting is the primary method of winning the grip exchanges that establish head control or break an opponent's head control
 - [[Chin Protection]] (Principle) - Chin protection serves as the primary defensive counter to head control in choke situations
 - [[Frames]] (Principle) - Head control often eliminates opponent's ability to create effective defensive frames
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Danaher-Front-Headlock-System" data-cta="related-system-card" data-system-slug="systems/danaher-front-headlock-system" data-system-name="Danaher Front Headlock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Danaher Front Headlock System</span><span class="system-card__unlocks-badge">Unlocks 30 techniques</span><span class="system-card__blurb">Fundamental principle underlying all front headlock control mechanics</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Control System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

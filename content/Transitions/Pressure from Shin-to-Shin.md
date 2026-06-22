@@ -10,6 +10,41 @@ description: "Master the pressure pass from Shin-to-Shin Guard. Step-by-step gui
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Pressure from Shin-to-Shin",
+  "description": "Master the pressure pass from Shin-to-Shin Guard. Step-by-step guide covering weight application, shin clearing, and advancing to Half Guard for BJJ top players.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Pressure from Shin-to-Shin", "item": "https://bjjgraph.org/Transitions/Pressure-from-Shin-to-Shin" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Pressure from Shin-to-Shin",
+  "description": "Pressure from Shin-to-Shin is a top guard-passing transition where the passer drives controlled downward weight through the trapped shin connection to collapse its perpendicular angle, clearing the leg to advance into Half Guard or Headquarters Position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the pressure pass from Shin-to-Shin Guard. Step-by-step gui
 </div>
 
 <section id="overview" class="content-section">
+
+**Pressure from Shin-to-Shin is a top guard-passing transition where the passer drives controlled downward weight through the trapped shin connection to collapse its perpendicular angle, clearing the leg to advance into Half Guard or Headquarters Position.**
 
 The pressure pass from Shin-to-Shin Guard represents a fundamental top player strategy for systematically advancing position when facing this increasingly prevalent open guard configuration. Rather than relying on movement-based clearing approaches that require agility and precise timing, the pressure variant employs controlled weight application and progressive forward drive to collapse the guard player's structural integrity, degrading the perpendicular shin connection that gives the position its offensive power. This makes the technique particularly accessible and reliable when the guard player's shin connection shows signs of passivity or weakening.
 
@@ -218,5 +255,7 @@ The pressure pass from Shin-to-Shin integrates into the broader guard passing ec
 
 
 </section>
+
+
 
 </main>

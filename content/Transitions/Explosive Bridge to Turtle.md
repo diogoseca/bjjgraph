@@ -10,6 +10,41 @@ description: "Master the Explosive Bridge to Turtle escape from Mounted Crucifix
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Explosive Bridge to Turtle",
+  "description": "Master the Explosive Bridge to Turtle escape from Mounted Crucifix in BJJ. Emergency escape with bridge mechanics, arm extraction, and turtle recovery sequence.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Explosive Bridge to Turtle", "item": "https://bjjgraph.org/Transitions/Explosive-Bridge-to-Turtle" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Explosive Bridge to Turtle",
+  "description": "The Explosive Bridge to Turtle is an emergency escape from the mounted crucifix that uses an explosive hip bridge to disrupt the opponent's base, free a trapped arm, and turn to turtle—trading a near-inescapable position for a recoverable one.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Explosive Bridge to Turtle escape from Mounted Crucifix
 </div>
 
 <section id="overview" class="content-section">
+
+**The Explosive Bridge to Turtle is an emergency escape from the mounted crucifix that uses an explosive hip bridge to disrupt the opponent's base, free a trapped arm, and turn to turtle—trading a near-inescapable position for a recoverable one.**
 
 The Explosive Bridge to Turtle represents a critical emergency escape from one of the most dangerous positions in Brazilian Jiu-Jitsu - the mounted crucifix. When trapped in mounted crucifix with arms isolated by the opponent's legs, traditional mount escapes become nearly impossible, making this explosive technique essential for survival. The fundamental premise involves generating maximum hip power through a violent bridging motion, specifically timed to disrupt the opponent's balance and create enough space to turn into the turtle position.
 
@@ -220,5 +257,7 @@ The Explosive Bridge to Turtle fits into the bottom game as an emergency escape 
 
 
 </section>
+
+
 
 </main>

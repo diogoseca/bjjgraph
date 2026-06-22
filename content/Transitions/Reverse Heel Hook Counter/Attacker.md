@@ -257,9 +257,9 @@ The psychological dimension of this counter is significant. Opponents who have b
 
 <p class="section-subtitle">How might your opponent counter Reverse Heel Hook Counter?</p>
 
-- **Opponent accelerates their heel hook finish before you can establish counter position, forcing you to tap or accept injury** (Effectiveness: High) - Your Response: If opponent accelerates, abandon counter and prioritize heel defense. Resume systematic escape rather than racing to a losing exchange. → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
+- **Opponent accelerates their heel hook finish before you can establish counter position, forcing you to tap or accept injury** (Effectiveness: High) - Your Response: If opponent accelerates, abandon counter and prioritize heel defense. Resume systematic escape rather than racing to a losing exchange. → Leads to [[Transitions/Heel Hook]]
 - **Opponent withdraws attacking leg when sensing counter attempt, returning to neutral entanglement** (Effectiveness: Medium) - Your Response: Use their withdrawal momentum to continue your escape sequence or transition to single leg x-guard as they retract. → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
-- **Opponent transitions to saddle or honey hole before you establish inside position, deepening control** (Effectiveness: High) - Your Response: Recognize saddle transition early and switch to turtle escape or granby roll rather than forcing failed counter. → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
+- **Opponent transitions to saddle or honey hole before you establish inside position, deepening control** (Effectiveness: High) - Your Response: Recognize saddle transition early and switch to turtle escape or granby roll rather than forcing failed counter. → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 - **Opponent posts with free leg and creates distance, preventing your counter-entanglement entry** (Effectiveness: Medium) - Your Response: Use their posting motion to create space for your own leg extraction, converting to escape rather than counter. → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 
 
@@ -333,5 +333,7 @@ Apply technique in positional sparring starting from ushiro ashi-garami. Partner
 The reverse heel hook counter involves significant joint stress on both practitioners' knees. Both heel hooks in play target the knee's rotational stability, and injuries can occur rapidly without warning pain. Always tap early during training when feeling rotational pressure—knees do not provide adequate warning signals before ligament damage. Train this technique with controlled partners who understand heel hook mechanics. Avoid explosive finishing movements. When drilling, apply heel hook pressure slowly and incrementally. This counter should not be attempted in training against partners who lack leg lock experience, as their unpredictable reactions may cause injury to either participant. In competition, understand that leg lock exchanges carry inherent injury risk and only engage if you're prepared for potential consequences.
 
 </section>
+
+
 
 </main>

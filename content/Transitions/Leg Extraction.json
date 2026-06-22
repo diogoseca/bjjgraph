@@ -10,6 +10,7 @@
     "defensive",
     "footlock-defense"
   ],
+  "summary": "Leg Extraction is the bottom-player escape from Estima Lock Control that frees the trapped foot by counter-rotating the ankle, framing on the opponent's hips, and using the free leg as a lever to recover guard before the inverted footlock finishes.",
   "from_position": "Estima Lock Control/Bottom",
   "outcomes": [
     {
@@ -76,14 +77,14 @@
       "relationship": "Follow-up option when opponent over-commits during extraction"
     },
     {
-      "name": "Leg Extraction to Guard",
-      "relationship": "Follow-up transition for guard recovery after successful extraction"
+      "name": "Inside Ashi-Garami",
+      "relationship": "Related entanglement whose escape mechanics transfer to this extraction"
     }
   ],
   "attacker": {
     "name": "Leg Extraction Attacker",
     "description": "How to execute Leg Extraction in BJJ. Attacking perspective with setup, execution steps, and counters for escaping Estima Lock.",
-    "overview": "Leg Extraction from Estima Lock represents a fundamental defensive escape when caught in this dangerous inverted footlock position. The technique prioritizes systematic disengagement over explosive movements, focusing on reducing submission pressure while methodically creating space to free the trapped leg. Unlike escapes from traditional straight ankle locks, the Estima Lock's inverted grip configuration requires specific counter-rotation and angle adjustments to neutralize the attack vector before extraction becomes possible.\n\nThe escape mechanics center on three interconnected elements: counter-rotating the ankle to reduce torque on the joint, establishing frames on the opponent's hips to create extraction space, and using the free leg as an active lever rather than a passive limb. Successful extraction requires understanding that the opponent's grip strength is finite—by addressing the positional structure rather than fighting grips directly, you force them to choose between maintaining control and following your movement. This creates the window necessary for leg withdrawal.\n\nStrategically, Leg Extraction serves as the primary bailout when caught in Estima Lock scenarios during guard passing or leg entanglement exchanges. The technique integrates into broader defensive leg lock systems, connecting to guard recovery sequences and providing a foundation for understanding other leg entanglement escapes. Mastery of this escape significantly reduces the danger of engaging in modern leg lock exchanges where Estima Lock threats are common.",
+    "overview": "From the extracting player's perspective, Leg Extraction is an active escape sequence rather than a passive survival posture: you are attacking the opponent's control structure to recover position. The core job is to neutralize the inverted ankle torque first, then convert frames and free-leg leverage into a clean withdrawal of the trapped foot. Treating the escape as an attack on their grip and hip pressure—rather than a tug-of-war over your own foot—is what separates a reliable extraction from a desperate yank that injures the ankle. Each phase builds on the last: counter-rotation buys time, frames create space, the free leg generates the gap, and only then does the knee retract to clear the foot.",
     "key_principles": [
       "Counter-rotate the ankle immediately upon feeling inverted pressure to reduce joint strain and buy time for escape",
       "Establish frames on opponent's hips before attempting extraction to create necessary space for leg withdrawal",

@@ -10,6 +10,41 @@ description: "Learn Hip Escape to Turtle from Body Triangle. Systematic escape u
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Hip Escape to Turtle",
+  "description": "Learn Hip Escape to Turtle from Body Triangle. Systematic escape using hip movement to clear the figure-four lock and reach turtle position safely.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Hip Escape to Turtle", "item": "https://bjjgraph.org/Transitions/Hip-Escape-to-Turtle" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Hip Escape to Turtle",
+  "description": "Hip Escape to Turtle is a body-triangle escape in which the trapped player turns toward the locked leg, shrimps to make space, pops the figure-four foot free, and frames into turtle before the lock can reset.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,13 +57,15 @@ description: "Learn Hip Escape to Turtle from Body Triangle. Systematic escape u
 
 <section id="overview" class="content-section">
 
-Hip Escape to Turtle is a fundamental escape from body triangle control, one of the most dominant back control variations in Brazilian Jiu-Jitsu. When trapped in a body triangle, the locked figure-four configuration around your torso restricts breathing and prevents standard back escape sequences. This escape uses systematic hip movement and pressure redirection to create enough space to unlock the triangle and transition to turtle, where you can begin working toward guard recovery or standing.
+**Hip Escape to Turtle is a body-triangle escape in which the trapped player turns toward the locked leg, shrimps to make space, pops the figure-four foot free, and frames into turtle before the lock can reset.**
+
+Body triangle is one of the most dominant back control variations in Brazilian Jiu-Jitsu, and when you are trapped in it the locked figure-four configuration around your torso restricts breathing and prevents standard back escape sequences. This escape uses systematic hip movement and pressure redirection to create enough space to unlock the triangle and transition to turtle, where you can begin working toward guard recovery or standing.
 
 The technique exploits a mechanical weakness in the body triangle: the attacker's hips must be positioned beside you on the mat for stability, meaning they cannot follow your hip movement in all directions. By creating angles and shifting your body toward the locked leg side, you reduce the effectiveness of the squeeze while positioning yourself to attack the lock. The escape requires patience, controlled breathing, and precise technical execution rather than explosive struggling that wastes energy under breathing restriction.
 
 This escape is particularly effective because turtle, while not an ideal position, offers significantly more mobility and escape options than remaining trapped in body triangle. From turtle, you can work toward guard recovery, technical standup, or granby roll sequences. The transition also temporarily removes the neck attack threat, giving you breathing room to reassess and continue your escape sequence.
 
-**From Position**: [[Positions/Back Control/Body Triangle]] (Top)
+**From Position**: [[Positions/Back Control/Body Triangle]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -220,5 +257,7 @@ Hip Escape to Turtle is the primary escape pathway from body triangle, one of th
 
 
 </section>
+
+
 
 </main>

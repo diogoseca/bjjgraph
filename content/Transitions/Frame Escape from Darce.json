@@ -1,5 +1,6 @@
 {
   "name": "Frame Escape from Darce",
+  "summary": "The Frame Escape from Darce is a defensive escape from bottom Darce Control in which the trapped player wedges structural forearm frames against the attacker's hip or shoulder, then hip-escapes and extracts the trapped arm to recover half guard.",
   "description": "Master the Frame Escape from Darce in BJJ. Complete guide to framing techniques, space creation, and guard recovery when caught in Darce choke control.",
   "tags": [
     "bjj",
@@ -30,7 +31,7 @@
     }
   ],
   "success_rate": 40,
-  "overview": "The Frame Escape from Darce is a critical defensive technique used when trapped in Darce Control on the bottom. This escape relies on establishing structural frames against the opponent's body to create space, relieve choking pressure on the carotid arteries, and systematically work toward guard recovery. The technique prioritizes biomechanical efficiency over explosive movement, using forearm and hand positioning to wedge space between the choking arm and the neck. The fundamental principle is that the Darce choke requires compression between the attacker's arm and the defender's own trapped shoulder, and frames disrupt this compression by creating counter-pressure at the opponent's hip or shoulder.\n\nThe Frame Escape is most effective when initiated early, before the opponent fully locks the figure-four grip and settles their weight. The bottom player must coordinate framing with hip escape movement, using the frame as a wall that prevents the opponent from following while the hips create distance. Once sufficient space is generated, the trapped arm is extracted to eliminate the arm-in choke configuration, and a knee shield is inserted to begin the transition to half guard recovery.\n\nStrategically, the Frame Escape serves as the primary systematic response to Darce Control. It complements other escape options like the Granby Roll and step-over escape, forming a layered defensive system that forces the Darce attacker to address multiple threats simultaneously. The technique rewards methodical execution over panic-driven explosiveness, making it accessible across skill levels when drilled consistently.",
+  "overview": "When you are trapped in bottom Darce Control, the frame escape is the highest-percentage systematic answer because it attacks the choke's compression mechanism directly rather than fighting it head-on. This escape relies on establishing structural frames against the opponent's body to create space, relieve choking pressure on the carotid arteries, and systematically work toward guard recovery. The technique prioritizes biomechanical efficiency over explosive movement, using forearm and hand positioning to wedge space between the choking arm and the neck. The fundamental principle is that the Darce choke requires compression between the attacker's arm and the defender's own trapped shoulder, and frames disrupt this compression by creating counter-pressure at the opponent's hip or shoulder.\n\nThe Frame Escape is most effective when initiated early, before the opponent fully locks the figure-four grip and settles their weight. The bottom player must coordinate framing with hip escape movement, using the frame as a wall that prevents the opponent from following while the hips create distance. Once sufficient space is generated, the trapped arm is extracted to eliminate the arm-in choke configuration, and a knee shield is inserted to begin the transition to half guard recovery.\n\nStrategically, the Frame Escape serves as the primary systematic response to Darce Control. It complements other escape options like the Granby Roll and step-over escape, forming a layered defensive system that forces the Darce attacker to address multiple threats simultaneously. The technique rewards methodical execution over panic-driven explosiveness, making it accessible across skill levels when drilled consistently.",
   "conditions": [
     "Opponent has established Darce grip but choke pressure is not yet maximal",
     "At least one arm (typically the far-side arm) remains free and available for framing",
@@ -88,10 +89,6 @@
     {
       "name": "Darce to Anaconda Switch",
       "relationship": "Transition opponent may attempt if frame escape partially disrupts Darce grip"
-    },
-    {
-      "name": "Escape Dead Orchard Control",
-      "relationship": "Similar escape pattern from related front headlock control position"
     },
     {
       "name": "Arm Extraction",

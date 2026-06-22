@@ -21,37 +21,37 @@ description: "Master X-Guard Top in BJJ. Comprehensive guide for passing X-Guard
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 61% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 16% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Long Step Pass",
-      "text": "From this position, attempt Long Step Pass. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 9% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Saddle Entry from Top",
-      "text": "From this position, attempt Saddle Entry from Top. This technique is attempted in 4% of exchanges from this position.",
+      "text": "From this position, attempt Saddle Entry from Top. This technique is attempted in 7% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Outside Ashi Entry",
-      "text": "From this position, attempt Outside Ashi Entry. This technique is attempted in 2% of exchanges from this position.",
+      "text": "From this position, attempt Outside Ashi Entry. This technique is attempted in 5% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Weave Pass",
-      "text": "From this position, attempt Leg Weave Pass. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Leg Weave Pass. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Step",
-      "text": "From this position, attempt Back Step. This technique is attempted in 2% of exchanges from this position.",
+      "text": "From this position, attempt Back Step. This technique is attempted in 5% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -116,6 +116,7 @@ description: "Master X-Guard Top in BJJ. Comprehensive guide for passing X-Guard
   "@type": "WebPage",
   "name": "X-Guard Top",
   "description": "Master X-Guard Top in BJJ. Comprehensive guide for passing X-Guard with pressure-based techniques, leg entanglement counters, and systematic hook removal.",
+  "alternateName": ["X Guard"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -155,6 +156,9 @@ description: "Master X-Guard Top in BJJ. Comprehensive guide for passing X-Guard
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>X Guard</strong> <span class="role-hint">(top)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 X-Guard Top represents the top player's position when facing an opponent who has established X-Guard, where the bottom player controls one of your legs with both of theirs in an X-configuration. This is fundamentally a guard passing scenario requiring systematic dismantling of the opponent's leverage-based control system. The primary challenge lies in maintaining balance and posture while preventing the bottom player from generating the hip elevation and angular pressure that powers their sweeps. From the top position, success depends on understanding the structural weaknesses inherent to X-Guard. The bottom player requires both a deep inside hook behind your knee and an active outside leg frame across your hip. Removing either component collapses the entire guard structure. The inside hook is the load-bearing element that creates elevation, while the outside leg maintains distance and prevents forward pressure. Systematically attacking these two control points, rather than attempting to pass around them, is the highest-percentage approach. The top player possesses significant advantages including gravity, downward pressure generation, and the ability to threaten leg entanglement counters. When the bottom player inverts deeply to maintain hooks, they expose themselves to saddle entries, outside ashi transitions, and back step counters. This creates a strategic tension where the bottom player must choose between maintaining strong X-Guard structure and protecting against leg entanglement attacks. Strategic passing options from X-Guard Top include pressure-based approaches like the smash pass and knee slice, which use forward weight commitment to flatten the guard structure. Movement-based approaches like the long step pass and leg weave exploit moments when hooks are shallow. Counter-attacking approaches enter leg entanglements when the bottom player overcommits to sweeping angles. The ability to read the opponent's hook depth, grip strength, and hip position determines which passing strategy offers the highest percentage in each moment. This position appears frequently in modern competition, particularly in no-gi grappling where X-Guard has become a staple of many guard systems. Developing proficiency in navigating X-Guard from the top is essential for any serious competitor who faces guard players with leg entanglement-based games.
@@ -347,6 +351,25 @@ Start from X-Guard top with hooks already weakened. Practice smooth transitions 
 - **[[Positions/Ashi Garami/Honey Hole]]** - High-value leg entanglement counter accessible when opponent inverts deeply
 - **[[Transitions/Knee Slice Pass]]** - High-percentage passing technique for cutting through weakened X-Guard hooks
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Keenan Cornelius Lapel Guard System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Sweep destination from several lapel guard attacking sequences</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/IBJJF-Strategy-Guide" data-cta="related-system-card" data-system-slug="systems/ibjjf-strategy-guide" data-system-name="IBJJF Strategy Guide" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">IBJJF Strategy Guide</span><span class="system-card__unlocks-badge">Unlocks 27 techniques</span><span class="system-card__blurb">Sweeping guard position effective for 2-point scoring sequences</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Garry-Tonon-Leg-Lock-to-Back-System" data-cta="related-system-card" data-system-slug="systems/garry-tonon-leg-lock-to-back-system" data-system-name="Garry Tonon Leg Lock to Back System" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Garry Tonon Leg Lock to Back System</span><span class="system-card__unlocks-badge">Unlocks 26 techniques</span><span class="system-card__blurb">Transitional position connecting sweeps, leg attacks, and back taking sequences</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Caio-Terra-Guard-Retention-System" data-cta="related-system-card" data-system-slug="systems/caio-terra-guard-retention-system" data-system-name="Caio Terra Guard Retention System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Caio Terra Guard Retention System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Technical guard position requiring retention when hooks are compromised</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Marcelo-Garcia-Guillotine-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-guillotine-system" data-system-name="Marcelo Garcia Guillotine System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Marcelo Garcia Guillotine System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Connected through Marcelo Garcia&#x27;s integrated guard system</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Marcelo-Garcia-X-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-x-guard-system" data-system-name="Marcelo Garcia X-Guard System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Marcelo Garcia X-Guard System</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Primary position of the system - all techniques build from this foundation</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Berimbolo" data-cta="related-system-card" data-system-slug="systems/berimbolo" data-system-name="Berimbolo" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Berimbolo</span><span class="system-card__unlocks-badge">Unlocks 21 techniques</span><span class="system-card__blurb">Alternative position to chain with Berimbolo - if opponent sits back to counter Berimbolo, transition to X-Guard sweep</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Competition-Preparation-System" data-cta="related-system-card" data-system-slug="systems/competition-preparation-system" data-system-name="Competition Preparation System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Competition Preparation System</span><span class="system-card__unlocks-badge">Unlocks 21 techniques</span><span class="system-card__blurb">Offensive guard position useful for sweep-oriented game plans</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Dynamic-Guard-System" data-cta="related-system-card" data-system-slug="systems/dynamic-guard-system" data-system-name="Dynamic Guard System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Dynamic Guard System</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Sweep-focused position integrated into switching sequences</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Marcelo-Garcia-Butterfly-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-butterfly-guard-system" data-system-name="Marcelo Garcia Butterfly Guard System" data-member-count="18"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Marcelo Garcia Butterfly Guard System</span><span class="system-card__unlocks-badge">Unlocks 18 techniques</span><span class="system-card__blurb">Related guard position sharing similar sweeping mechanics</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

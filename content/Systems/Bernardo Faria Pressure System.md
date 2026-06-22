@@ -140,10 +140,23 @@ description: "Master Bernardo Faria's legendary pressure passing system. Learn s
 }
 </script>
 
-> Bernardo Faria Pressure System is a intermediate difficulty Passing System system. Integrates 5 components.
 
-**System Type**: Passing System
-**Difficulty Level**: Intermediate
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Bernardo Faria Pressure System",
+  "description": "The Bernardo Faria Pressure System is a gi-focused top game framework that uses relentless forward weight, knee slice, over-under, and bodylock passing to exhaust opponents and systematically advance to dominant pinning positions.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Passing System</span>
+<span class="meta-chip">Intermediate difficulty</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -152,7 +165,27 @@ description: "Master Bernardo Faria's legendary pressure passing system. Learn s
 
 ## What is Bernardo Faria Pressure System?
 
-The Bernardo Faria Pressure System is a comprehensive top game framework built on relentless forward pressure, precise weight distribution, and systematic guard passing principles. Developed through years of elite competition, this system prioritizes making opponents carry your weight while maintaining dominant control positions. The methodology emphasizes knee slice variations, over-under passing, and bodylock control as primary weapons, combined with strategic grip fighting and base management. Rather than speed or explosiveness, this system relies on technical precision, timing, and pressure application to systematically break down guards and achieve dominant positions. The framework is particularly effective in gi competition where grips and control can be maximized, though the fundamental pressure principles translate effectively to no-gi contexts. This system represents a masterclass in making opponents exhausted through constant pressure while conserving your own energy through proper technique and weight placement.
+**The Bernardo Faria Pressure System is a gi-focused top game framework that uses relentless forward weight, knee slice, over-under, and bodylock passing to exhaust opponents and systematically advance to dominant pinning positions.**
+
+Forged across years of elite gi competition that produced five IBJJF World Championships, this top game emerged from a deliberate rejection of speed and athleticism in favor of weight, timing, and relentless patience. Rather than scrambling to pass, the practitioner makes opponents carry bodyweight on their hips, chest, and shoulders until their guard collapses from exhaustion. The methodology emphasizes knee slice variations, over-under passing, and bodylock control as primary weapons, combined with strategic grip fighting and base management. Rather than speed or explosiveness, this system relies on technical precision, timing, and pressure application to systematically break down guards and achieve dominant positions. The framework is particularly effective in gi competition where grips and control can be maximized, though the fundamental pressure principles translate effectively to no-gi contexts. This system represents a masterclass in making opponents exhausted through constant pressure while conserving your own energy through proper technique and weight placement.
+
+</section>
+
+
+
+<section id="unlock-graph" class="content-section system-unlock" data-system-unlock hidden>
+
+## Unlock this part of the graph
+
+<p class="section-subtitle">This system teaches the highlighted nodes in the graph. Mark what you already know &mdash; be honest, it's your game.</p>
+
+<div class="system-progress" data-system-progress>
+<svg class="system-progress__ring" viewBox="0 0 44 44" aria-hidden="true"><circle class="system-progress__ring-bg" cx="22" cy="22" r="19"></circle><circle class="system-progress__ring-fill" cx="22" cy="22" r="19"></circle></svg>
+<div class="system-progress__text">You've unlocked <strong class="system-progress__known">0</strong> / <span class="system-progress__total">0</span> techniques in this system</div>
+<button class="system-progress__mark-all" data-mark-system type="button">Mark whole system as known</button>
+</div>
+
+<ul class="system-members" data-system-members></ul>
 
 </section>
 

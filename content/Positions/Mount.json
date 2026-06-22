@@ -2,7 +2,18 @@
   "name": "Mount",
   "slug": "mount",
   "description": "Master the Mount position in BJJ. Complete guide to control, submission chains, escape systems, and mount variations for top and bottom practitioners.",
+  "disambiguations": [
+    {
+      "name": "Reverse Mount",
+      "reason": "Reverse Mount faces away from your opponent, not toward them"
+    }
+  ],
+  "aliases": [
+    "Full Mount",
+    "Tate Shiho Gatame"
+  ],
   "variant_uniqueness": "Highest points with control-submission balance",
+  "summary": "Mount is the dominant top position where you straddle a supine opponent's midsection, worth 4 IBJJF points and prized as jiu-jitsu's best balance of stifling control and high-percentage submission access.",
   "overview": "The Mount position represents the pinnacle of positional dominance in Brazilian Jiu-Jitsu, awarded 4 points under IBJJF rules and universally recognized as one of the most decisive positions in grappling. From this elevated position, the top practitioner sits astride the opponent's torso with knees on either side, generating overwhelming control through gravity, hip pressure, and freedom of upper-body movement. The Mount has been refined across decades of competition at the highest levels, evolving from a simple pinning position into a sophisticated attacking platform with multiple variations, each serving distinct tactical purposes.\n\nModern Mount strategy centers on creating submission dilemmas where every defensive reaction from the bottom practitioner opens a new offensive avenue. The top player's goal is not merely to hold the position but to systematically advance through mount variations, from low mount emphasizing stability and pressure, to high mount providing direct submission access, to technical mount bridging toward back control. Each variation trades one attribute for another: stability for submission proximity, control breadth for finishing leverage, or positional security for transition speed.\n\nThe position's mechanical effectiveness derives from the top practitioner's ability to use their full body weight to pin the opponent's hips and torso while retaining mobility in the upper body for grip fighting, posture manipulation, and submission entries. Gravity becomes a relentless ally, as every passing second under mount pressure drains the bottom player's energy and narrows their defensive options.\n\nFrom bottom Mount, the position represents the most urgent defensive crisis in the positional hierarchy, demanding systematic escape knowledge, composure under extreme duress, and precise technical execution. Effective mount defense follows a strict hierarchy: prevent further advancement first, establish frames to create incremental space, then execute hip-based escapes to recover guard. The escape methodology prioritizes energy-efficient movement patterns over explosive strength, recognizing that the bottom player cannot win an attrition battle from this position.\n\nUnderstanding Mount from both perspectives is essential for complete grappling development. The position sits at the intersection of positional control and submission finishing ability, rewarding practitioners who combine patience with systematic pressure on top and technical precision with composure on the bottom. Competition data consistently shows that mount is among the highest-converting positions to submission finish, making proficiency from both roles a non-negotiable requirement for serious competitors.",
   "key_principles": [
     "Weight distribution through hips while keeping upper body mobile for attacks and grip fighting",
@@ -117,7 +128,7 @@
     "transitions": [
       {
         "transition": "Mount to Armbar",
-        "attempt_probability": 7
+        "attempt_probability": 5
       },
       {
         "transition": "Cross Collar Choke from Mount",
@@ -133,7 +144,7 @@
       },
       {
         "transition": "High Mount Transition",
-        "attempt_probability": 7
+        "attempt_probability": 5
       },
       {
         "transition": "Mounted Triangle",
@@ -141,7 +152,7 @@
       },
       {
         "transition": "Consolidate Mount",
-        "attempt_probability": 40
+        "attempt_probability": 35
       },
       {
         "transition": "Mount Control",
@@ -161,7 +172,7 @@
       },
       {
         "transition": "Americana from Mount",
-        "attempt_probability": 6
+        "attempt_probability": 5
       },
       {
         "transition": "Ezekiel Choke from Mount",
@@ -182,6 +193,14 @@
       {
         "transition": "Reverse Armbar from Mount",
         "attempt_probability": 2
+      },
+      {
+        "transition": "Armbar from Mount",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Mount to Modified Mount",
+        "attempt_probability": 5
       }
     ],
     "decision_tree": [

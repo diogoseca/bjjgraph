@@ -105,6 +105,7 @@ description: "How to defend against Osoto Gari in BJJ. Recognition cues, defensi
   "@type": "WebPage",
   "name": "Osoto Gari Defender",
   "description": "How to defend against Osoto Gari in BJJ. Recognition cues, defensive options, and escape strategies.",
+  "alternateName": ["Major Outer Reap", "O Soto Gari"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -150,6 +151,9 @@ description: "How to defend against Osoto Gari in BJJ. Recognition cues, defensi
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Major Outer Reap</strong>, <strong>O Soto Gari</strong> <span class="role-hint">(defender)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 Defending Osoto Gari requires understanding the throw's mechanical sequence so you can disrupt it at the earliest possible stage. The technique relies on three simultaneous conditions: upper body control pulling you backward, your weight committed to the target leg, and the reaping leg removing your base. Eliminating any one of these three conditions neutralizes the throw. Effective Osoto Gari defense begins well before the throw is attempted - it starts with grip fighting that denies your opponent the collar and sleeve configuration they need. Once the throw is initiated, your defensive options narrow rapidly, making early recognition and proactive grip denial far more effective than reactive defense. The defender must train sensitivity to the specific weight shifts and distance closures that telegraph Osoto Gari, developing automatic defensive responses that fire before conscious recognition occurs. At the highest levels, skilled defenders convert failed Osoto Gari attempts into offensive opportunities through counter-throws and back takes, turning the attacker's commitment against them.

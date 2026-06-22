@@ -10,6 +10,41 @@ description: "Master Triangle Control in BJJ. Dominant submission platform with 
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Triangle Control",
+  "description": "Master Triangle Control in BJJ. Dominant submission platform with 75% finish rate at advanced levels. Complete guide to setup, control, and submission chains.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Triangle Control", "item": "https://bjjgraph.org/Positions/Triangle-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Triangle Control",
+  "description": "Triangle Control is a guard-based submission position where one leg traps the opponent's neck and the other locks over it in a figure-four, isolating one arm to compress the carotids and anchor a chain of chokes, armbars, and omoplatas.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Triangle Control in BJJ. Dominant submission platform with 
 </div>
 
 <section id="overview" class="content-section">
+
+**Triangle Control is a guard-based submission position where one leg traps the opponent's neck and the other locks over it in a figure-four, isolating one arm to compress the carotids and anchor a chain of chokes, armbars, and omoplatas.**
 
 Triangle Control represents one of the most powerful submission positions in Brazilian Jiu-Jitsu, where the practitioner has locked their legs around the opponent's neck and one arm, creating an imminent choking threat while simultaneously establishing a control platform for multiple submission chains. This position exemplifies the fundamental principle of using the body's strongest muscles—the legs and hips—against the opponent's most vulnerable structure—the neck. The triangle configuration creates a mechanical advantage where the practitioner compresses the carotid arteries while trapping one of the opponent's arms across their own neck, amplifying the choking pressure through their own trapped limb.
 
@@ -167,21 +204,19 @@ The triangle choke has evolved significantly since its popularization in competi
 ### Available Transitions
 
 
-- **[[Transitions/Triangle Escape/Attacker|Triangle Escape]]** (22% of attempts)
+- **[[Transitions/Triangle Escape/Attacker|Triangle Escape]]** (35% of attempts)
 
-- **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** (16% of attempts)
+- **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** (26% of attempts)
 
-- **[[Transitions/Stack Defense/Attacker|Stack Defense]]** (12% of attempts)
+- **[[Transitions/Stack Defense/Attacker|Stack Defense]]** (20% of attempts)
 
-- **[[Transitions/Guard Recovery from Triangle Control/Attacker|Guard Recovery from Triangle Control]]** (5% of attempts)
+- **[[Transitions/Guard Recovery from Triangle Control/Attacker|Guard Recovery from Triangle Control]]** (7% of attempts)
 
-- **[[Transitions/Triangle Clear to Side/Attacker|Triangle Clear to Side]]** (5% of attempts)
+- **[[Transitions/Triangle Clear to Side/Attacker|Triangle Clear to Side]]** (7% of attempts)
 
-- **[[Triangle Choke from Triangle Control/Attacker|Triangle Choke from Triangle Control]]** (37% of attempts)
+- **[[Transitions/Posture Up from Triangle/Attacker|Posture Up from Triangle]]** (3% of attempts)
 
-- **[[Transitions/Posture Up from Triangle/Attacker|Posture Up from Triangle]]** (2% of attempts)
-
-- **[[Transitions/Stack Escape from Triangle/Attacker|Stack Escape from Triangle]]** (1% of attempts)
+- **[[Transitions/Stack Escape from Triangle/Attacker|Stack Escape from Triangle]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -232,6 +267,20 @@ The triangle choke has evolved significantly since its popularization in competi
 
 - **[[Positions/Gogoplata Control]]** - Alternative submission control using shin across throat from similar configuration
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Submission-Clinic-System" data-cta="related-system-card" data-system-slug="systems/submission-clinic-system" data-system-name="Submission Clinic System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Submission Clinic System</span><span class="system-card__unlocks-badge">Unlocks 30 techniques</span><span class="system-card__blurb">Control position enabling triangle-armbar-omoplata submission chain</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Ryan-Hall-Triangle-System" data-cta="related-system-card" data-system-slug="systems/ryan-hall-triangle-system" data-system-name="Ryan Hall Triangle System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Ryan Hall Triangle System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Central control platform of entire system</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/10th-Planet-Rubber-Guard-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-rubber-guard-system" data-system-name="10th Planet Rubber Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">10th Planet Rubber Guard System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Common finishing position from Chill Dog pathway</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Rubber-Guard-to-Omoplata-System" data-cta="related-system-card" data-system-slug="systems/rubber-guard-to-omoplata-system" data-system-name="Rubber Guard to Omoplata System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Rubber Guard to Omoplata System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Alternative submission threat from rubber guard positions</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Rubber-Guard-to-Triangle-System" data-cta="related-system-card" data-system-slug="systems/rubber-guard-to-triangle-system" data-system-name="Rubber Guard to Triangle System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Rubber Guard to Triangle System</span><span class="system-card__unlocks-badge">Unlocks 22 techniques</span><span class="system-card__blurb">Finishing position with locked triangle and angle optimization</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

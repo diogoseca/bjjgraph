@@ -10,6 +10,41 @@ description: "Master the cross face pass from flattened half guard. Complete gui
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Cross Face Pass from Flattened Half",
+  "description": "Master the cross face pass from flattened half guard. Complete guide covering crossface pressure mechanics, leg extraction timing, and side control finish.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Cross Face Pass from Flattened Half", "item": "https://bjjgraph.org/Transitions/Cross-Face-Pass-from-Flattened-Half" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Cross Face Pass from Flattened Half",
+  "description": "The Cross Face Pass from Flattened Half is a pressure guard pass where the top player drives a crossface across the opponent's jaw to turn their head, create an extraction angle, and free the trapped leg into side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the cross face pass from flattened half guard. Complete gui
 </div>
 
 <section id="overview" class="content-section">
+
+**The Cross Face Pass from Flattened Half is a pressure guard pass where the top player drives a crossface across the opponent's jaw to turn their head, create an extraction angle, and free the trapped leg into side control.**
 
 The Cross Face Pass from Flattened Half Guard is a high-percentage pressure pass that capitalizes on the dominant upper body position already established when the top player has successfully collapsed their opponent's frames in half guard. Unlike dynamic passing techniques that rely on speed or agility, this pass uses relentless forward pressure through the crossface to incrementally advance position while the opponent's defensive options remain severely limited by the flattened structure.
 
@@ -220,5 +257,7 @@ The cross face pass from flattened half guard occupies a critical position in th
 
 
 </section>
+
+
 
 </main>

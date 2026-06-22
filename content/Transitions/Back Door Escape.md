@@ -10,6 +10,41 @@ description: "Master the Back Door Escape from Darce Control in BJJ. Step-by-ste
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Back Door Escape",
+  "description": "Master the Back Door Escape from Darce Control in BJJ. Step-by-step technique for escaping chokes by exiting behind opponent. Success: Beginner 30%, Advanced 65%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Back Door Escape", "item": "https://bjjgraph.org/Transitions/Back-Door-Escape" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Back Door Escape",
+  "description": "The Back Door Escape is a Darce Control escape in which the trapped defender frames on the attacker's hip and rotates backward through the gap behind the choking arm, exiting toward the attacker's back to recover open guard or turtle.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Back Door Escape from Darce Control in BJJ. Step-by-ste
 
 <section id="overview" class="content-section">
 
-The Back Door Escape is a critical defensive technique used to escape from Darce Control by moving backward and around the opponent rather than attempting to fight forward through the choke. This counterintuitive escape exploits a fundamental weakness in the Darce grip structure—the attacker's control is strongest when the defender moves forward or laterally, but significantly weaker when the defender retreats toward the attacker's back.
+**The Back Door Escape is a Darce Control escape in which the trapped defender frames on the attacker's hip and rotates backward through the gap behind the choking arm, exiting toward the attacker's back to recover open guard or turtle.**
+
+Within the Darce defense hierarchy, the back door sits alongside arm extraction and the granby roll as one of the few reliable answers once the figure-four grip is locked and forward pressure begins to build. It exploits a fundamental weakness in the Darce grip structure—the attacker's control is strongest when the defender moves forward or laterally, but significantly weaker when the defender retreats toward the attacker's back, where the gap between their choking elbow and hip leaves an exit path.
 
 The technique works by recognizing that the Darce choke requires the attacker to maintain pressure perpendicular to the defender's spine. By stepping or rolling backward through the gap behind the attacker's controlling arm, the defender eliminates the choking angle and creates space to recover guard or establish turtle position. This escape is particularly effective when the Darce is being applied from a perpendicular angle rather than directly in front.
 
@@ -213,6 +250,18 @@ The Back Door Escape fits into the Darce defense system as a secondary option af
 
 - [[Transitions/Rolling to Guard]] - Alternative escape option
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Caio-Terra-Guard-Retention-System" data-cta="related-system-card" data-system-slug="systems/caio-terra-guard-retention-system" data-system-name="Caio Terra Guard Retention System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Caio Terra Guard Retention System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Recovery technique for escaping compromised positions and returning to guard</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Back-Attack-System" data-cta="related-system-card" data-system-slug="systems/back-attack-system" data-system-name="Back Attack System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Back Attack System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Understanding escape mechanics improves attack and control strategies</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Back-Defense-Protocol" data-cta="related-system-card" data-system-slug="systems/back-defense-protocol" data-system-name="Back Defense Protocol" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Back Defense Protocol</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Key escape transition used during back control escape sequences</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

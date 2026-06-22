@@ -10,6 +10,41 @@ description: "Master the Inversion to Turtle escape from Ushiro Ashi-Garami. Com
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Inversion to Turtle",
+  "description": "Master the Inversion to Turtle escape from Ushiro Ashi-Garami. Complete guide covering rotational mechanics, heel protection, and turtle recovery options.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Inversion to Turtle", "item": "https://bjjgraph.org/Transitions/Inversion-to-Turtle" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Inversion to Turtle",
+  "description": "Inversion to Turtle is a defensive escape from Ushiro Ashi-Garami in which the trapped player commits to a full hip rotation, stripping the leg entanglement to land in turtle and trading imminent heel hook danger for manageable back exposure.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Inversion to Turtle escape from Ushiro Ashi-Garami. Com
 </div>
 
 <section id="overview" class="content-section">
+
+**Inversion to Turtle is a defensive escape from Ushiro Ashi-Garami in which the trapped player commits to a full hip rotation, stripping the leg entanglement to land in turtle and trading imminent heel hook danger for manageable back exposure.**
 
 The Inversion to Turtle escape represents one of the most critical defensive transitions from the dangerous Ushiro Ashi-Garami position. When trapped in a reversed leg entanglement where standard escape mechanics are compromised, committing to a full inversion that terminates in turtle position offers a reliable path to safety. This technique capitalizes on the inherent difficulty attackers face in maintaining control during rapid rotational movement.
 
@@ -222,5 +259,7 @@ Inversion to Turtle serves as a critical pressure release within the leg entangl
 
 
 </section>
+
+
 
 </main>

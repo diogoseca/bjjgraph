@@ -10,6 +10,41 @@ description: "Master the Williams Guard Sweep in BJJ. Complete guide to executin
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Williams Guard Sweep",
+  "description": "Master the Williams Guard Sweep in BJJ. Complete guide to executing this shoulder lock-powered sweep to mount with setup, mechanics, and counter strategies.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Williams Guard Sweep", "item": "https://bjjgraph.org/Transitions/Williams-Guard-Sweep" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Williams Guard Sweep",
+  "description": "The Williams Guard Sweep is a bottom open-guard reversal that pairs butterfly-hook elevation with forward shoulder-lock pressure to deny the opponent a post and topple them directly into mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Williams Guard Sweep in BJJ. Complete guide to executin
 </div>
 
 <section id="overview" class="content-section">
+
+**The Williams Guard Sweep is a bottom open-guard reversal that pairs butterfly-hook elevation with forward shoulder-lock pressure to deny the opponent a post and topple them directly into mount.**
 
 The Williams Guard Sweep exploits the mechanical dilemma inherent in the Williams Guard shoulder lock position. When the bottom player controls the opponent's arm in a figure-four shoulder lock configuration, the opponent's ability to post and maintain base is severely compromised on the controlled side. This sweep capitalizes on that structural weakness by combining butterfly hook elevation with forward shoulder lock pressure to topple the opponent directly into mount, converting guard control into the most dominant positional state in BJJ.
 
@@ -218,5 +255,7 @@ The Williams Guard Sweep serves as the primary positional advancement pathway fr
 
 
 </section>
+
+
 
 </main>

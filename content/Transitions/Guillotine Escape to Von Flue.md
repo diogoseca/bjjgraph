@@ -10,6 +10,41 @@ description: "Master the Guillotine Escape to Von Flue choke in BJJ. Complete gu
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Guillotine Escape to Von Flue",
+  "description": "Master the Guillotine Escape to Von Flue choke in BJJ. Complete guide to countering bottom guillotine attempts with shoulder pressure from side control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Guillotine Escape to Von Flue", "item": "https://bjjgraph.org/Transitions/Guillotine-Escape-to-Von-Flue" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Guillotine Escape to Von Flue",
+  "description": "The Guillotine Escape to Von Flue is a counter to a bottom-guard guillotine in which the trapped top player passes toward the choking-arm side and drives shoulder pressure into the exposed carotid, weaponizing the opponent's own grip into a Von Flue choke.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Guillotine Escape to Von Flue choke in BJJ. Complete gu
 </div>
 
 <section id="overview" class="content-section">
+
+**The Guillotine Escape to Von Flue is a counter to a bottom-guard guillotine in which the trapped top player passes toward the choking-arm side and drives shoulder pressure into the exposed carotid, weaponizing the opponent's own grip into a Von Flue choke.**
 
 The Guillotine Escape to Von Flue is one of the most elegant counter-techniques in Brazilian Jiu-Jitsu, transforming a defensive survival situation into an offensive submission opportunity. When caught in a guillotine from the bottom player's guard, the top player methodically passes to side control on the choking arm side. If the bottom player stubbornly maintains their guillotine grip after the pass is completed, they inadvertently create the conditions for their own demise—the Von Flue choke. The top player drives shoulder pressure directly into the carotid artery on the side held open by the opponent's extended neck, using their own grip structure against them.
 
@@ -220,5 +257,7 @@ The Guillotine Escape to Von Flue occupies a critical junction in the BJJ positi
 
 
 </section>
+
+
 
 </main>

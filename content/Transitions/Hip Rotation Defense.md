@@ -10,6 +10,41 @@ description: "Master Hip Rotation Defense from Straight Ankle Lock Control. Esse
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Hip Rotation Defense",
+  "description": "Master Hip Rotation Defense from Straight Ankle Lock Control. Essential escape technique using hip movement to neutralize ankle lock pressure. Success: 30-65%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Hip Rotation Defense", "item": "https://bjjgraph.org/Transitions/Hip-Rotation-Defense" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Hip Rotation Defense",
+  "description": "Hip Rotation Defense is the foundational escape from straight ankle lock control, rotating the hips in the direction that complicates the attacker's transition to break perpendicular alignment, relieve Achilles pressure, and open knee extraction or guard recovery.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master Hip Rotation Defense from Straight Ankle Lock Control. Esse
 
 <section id="overview" class="content-section">
 
-Hip Rotation Defense is the foundational defensive mechanism for neutralizing straight ankle lock attacks. When caught in ankle lock control, the defender's hip mobility represents their primary defensive resource. By rotating the hip in the correct direction, the defender reduces the attacker's mechanical advantage while creating angles that facilitate foot extraction or guard recovery.
+**Hip Rotation Defense is the foundational escape from straight ankle lock control, rotating the hips in the direction that complicates the attacker's transition to break perpendicular alignment, relieve Achilles pressure, and open knee extraction or guard recovery.**
+
+When caught in straight ankle lock control, the defender's hip mobility represents their single most important defensive resource, and structured rotation is how that resource is converted into an actual escape. By rotating the hip in the correct direction, the defender reduces the attacker's mechanical advantage while creating angles that facilitate foot extraction or guard recovery.
 
 The technique operates on the principle that ankle lock submissions require the attacker to maintain perpendicular positioning and prevent hip rotation. When the defender successfully rotates, the angle of attack changes dramatically, reducing pressure on the Achilles tendon and ankle joint. The direction of rotation is critical and must be chosen based on the attacker's leg configuration to avoid facilitating transitions to more dangerous positions like inside or outside ashi garami.
 
@@ -216,5 +253,7 @@ Hip Rotation Defense is the foundational defensive response in the straight ankl
 
 
 </section>
+
+
 
 </main>

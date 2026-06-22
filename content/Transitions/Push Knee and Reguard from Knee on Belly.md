@@ -10,6 +10,41 @@ description: "Master the push knee reguard escape from Knee on Belly in BJJ. Ess
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Push Knee and Reguard from Knee on Belly",
+  "description": "Master the push knee reguard escape from Knee on Belly in BJJ. Essential bottom escape technique using frames and hip movement to recover closed guard.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Push Knee and Reguard from Knee on Belly", "item": "https://bjjgraph.org/Transitions/Push-Knee-and-Reguard-from-Knee-on-Belly" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Push Knee and Reguard from Knee on Belly",
+  "description": "Push Knee and Reguard from Knee on Belly is a bottom escape where you drive the opponent's pinning knee diagonally off your torso while hip-escaping away, creating space to reinsert your legs and recover closed or half guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the push knee reguard escape from Knee on Belly in BJJ. Ess
 
 <section id="overview" class="content-section">
 
-The Push Knee and Reguard from Knee on Belly is a fundamental escape technique where the bottom player uses direct hand pressure on the top player's knee combined with hip escape mechanics to create enough space to recover guard. This escape addresses one of the most urgent defensive scenarios in BJJ — the crushing diaphragm pressure of knee on belly — by attacking the primary control point (the knee itself) while simultaneously creating the lateral movement necessary to reinsert legs and establish closed guard.
+**Push Knee and Reguard from Knee on Belly is a bottom escape where you drive the opponent's pinning knee diagonally off your torso while hip-escaping away, creating space to reinsert your legs and recover closed or half guard.**
+
+Among Knee on Belly escapes, the push-knee reguard stands out for confronting the top player's control point directly rather than working around it. This escape addresses one of the most urgent defensive scenarios in BJJ — the crushing diaphragm pressure of knee on belly — by attacking the primary control point (the knee itself) while simultaneously creating the lateral movement necessary to reinsert legs and establish closed guard.
 
 Unlike frame-based escapes that work around the knee pressure, this technique directly confronts it by pushing the knee off-center while the hips escape in the opposite direction. The timing of the push relative to the hip escape is critical: pushing too early without hip movement allows the top player to simply replant their knee, while escaping hips without addressing the knee often results in the top player transitioning to mount. When executed properly, the combined push-and-escape creates a momentary gap that allows the bottom player to insert their knee and shin between the bodies, establishing the frame necessary for guard recovery.
 
@@ -219,5 +256,7 @@ The Push Knee and Reguard fits within the broader Knee on Belly escape system as
 
 
 </section>
+
+
 
 </main>

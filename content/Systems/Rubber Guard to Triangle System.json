@@ -13,7 +13,8 @@
   ],
   "system_type": "Submission Chain",
   "difficulty_level": "Advanced",
-  "overview": "The Rubber Guard to Triangle System is a comprehensive offensive framework that transforms closed guard control into high-percentage triangle submissions through systematic positioning and opponent manipulation. Originating from Eddie Bravo's 10th Planet system, this approach uses extreme flexibility and unorthodox grips to break posture, control distance, and create submission opportunities that are difficult to defend. The system emphasizes creating angles and leverage through hip mobility while maintaining constant offensive pressure that forces opponents into defensive dilemmas. Unlike traditional closed guard approaches, this system relies on active leg positioning and grip creativity to generate submission threats while simultaneously defending against passes. The framework connects multiple control positions - from Mission Control to New York to the finishing triangle - creating a systematic pathway that even accounts for opponent escape attempts. Practitioners learn to use their legs as offensive weapons while their hands control critical angles, inverting the traditional closed guard paradigm where hands do the work and legs maintain position.",
+  "summary": "The Rubber Guard to Triangle System is a 10th Planet offensive framework that chains rubber guard control through the Mission Control and New York checkpoints to set up high-percentage triangle chokes and linked submissions from closed guard.",
+  "overview": "Developed within Eddie Bravo's 10th Planet methodology, this framework reimagines the closed guard as an aggressive submission platform rather than a holding position. It uses extreme flexibility and unorthodox grips to break posture, control distance, and manufacture triangle opportunities that are difficult to defend, while emphasizing the angles and leverage generated through hip mobility under constant offensive pressure. Unlike traditional closed guard approaches, the system relies on active leg positioning and grip creativity to generate submission threats while simultaneously defending against passes. The framework connects multiple control positions - from Mission Control to New York to the finishing triangle - creating a systematic pathway that even accounts for opponent escape attempts. Practitioners learn to use their legs as offensive weapons while their hands control critical angles, inverting the traditional closed guard paradigm where the hands do the work and the legs merely maintain position.",
   "key_principles": [
     "**Posture Control Through Leg Position** - Use high guard and rubber guard positions to break and maintain broken posture rather than relying solely on grip fighting",
     "**Dominant Angles Before Submission** - Systematically work through control positions (Mission Control, New York) to create optimal triangle entry angles",
@@ -327,9 +328,9 @@
       "relationship": "Defensive framework for maintaining guard integrity throughout offensive sequences"
     },
     {
-      "name": "Submission Chains",
+      "name": "Position Chains",
       "content_type": "Principle",
-      "relationship": "Theoretical foundation for multiple submission pathways"
+      "relationship": "Theoretical foundation for linking control positions into multiple submission pathways"
     },
     {
       "name": "Hip Escape Mechanics",
@@ -360,6 +361,40 @@
       "name": "10th Planet No-Gi Guard System",
       "content_type": "System",
       "relationship": "Comprehensive guard framework integrating rubber guard with other 10th Planet positions"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What are the three control checkpoints the Rubber Guard to Triangle System passes through before the finish?",
+      "answer": "The system advances from rubber guard, to Mission Control (a deep overhook isolating the trapped arm), to New York (the choking leg brought across the shoulder), and only then locks the triangle."
+    },
+    {
+      "question": "Why must you break the opponent's posture before establishing rubber guard?",
+      "answer": "With posture intact the opponent can post and drive forward, stripping the high leg instantly; breaking posture first keeps them folded so the foot can be secured deep in the elbow crook."
+    },
+    {
+      "question": "Where should the finishing foot be placed in the triangle, and why does it matter?",
+      "answer": "The foot is placed on the opposite leg's bicep rather than behind the knee, which shortens the angle and produces a tighter blood choke instead of a loose, leg-strength-dependent lock."
+    },
+    {
+      "question": "What submission opens up when the opponent extracts the trapped arm to defend the triangle?",
+      "answer": "Pulling the trapped arm free exposes the omoplata, letting you switch to Omoplata Control or sweep rather than chasing a now-compromised triangle and losing offensive pressure."
+    },
+    {
+      "question": "How should you respond when the opponent stacks hard to defend a locked triangle?",
+      "answer": "Use the stack energy to return to Mission Control with the overhook and leg pressure intact, or throw a leg over the head and convert to an armbar against the forward-driving pressure."
+    },
+    {
+      "question": "Why is the Mission Control overhook taken above the elbow rather than on the forearm?",
+      "answer": "A deep overhook above the elbow isolates the arm and stops the opponent from retracting it during the move to New York, preserving the angle the triangle depends on."
+    },
+    {
+      "question": "What physical attribute is foundational to the Rubber Guard to Triangle System?",
+      "answer": "Extreme hip and hamstring flexibility is foundational, since the high leg, rubber guard control, and triangle entries all depend on the bottom player's hip mobility and range of motion."
+    },
+    {
+      "question": "What does the 'fork attack' principle mean within this system?",
+      "answer": "It means forcing the opponent to choose between defending a submission and defending position, so each defensive choice opens a different attack and offensive pressure never stops."
     }
   ]
 }

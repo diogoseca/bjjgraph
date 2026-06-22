@@ -10,6 +10,41 @@ description: "Master the Rolling Guard Pull in BJJ. Dynamic momentum-based entry
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Rolling Guard Pull",
+  "description": "Master the Rolling Guard Pull in BJJ. Dynamic momentum-based entry from standing to guard using rotational mechanics for immediate offensive positioning.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Rolling Guard Pull", "item": "https://bjjgraph.org/Transitions/Rolling-Guard-Pull" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Rolling Guard Pull",
+  "description": "The Rolling Guard Pull is a momentum-driven guard entry where the bottom player commits to a controlled backward roll from standing, using grip tension and rotational energy to land directly in closed or De La Riva guard with immediate offensive initiative.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Rolling Guard Pull in BJJ. Dynamic momentum-based entry
 </div>
 
 <section id="overview" class="content-section">
+
+**The Rolling Guard Pull is a momentum-driven guard entry where the bottom player commits to a controlled backward roll from standing, using grip tension and rotational energy to land directly in closed or De La Riva guard with immediate offensive initiative.**
 
 The Rolling Guard Pull is a dynamic guard entry technique that utilizes rotational momentum to transition from standing to a guard position. Unlike static guard pulls that rely on grips and weight distribution alone, the rolling guard pull creates a sweeping rotational motion that catches opponents off-guard and establishes multiple guard variations. This technique is particularly effective in competition scenarios where aggressive guard pulling is rewarded, allowing the practitioner to maintain offensive initiative while transitioning to the ground.
 
@@ -235,5 +272,7 @@ The rolling guard pull connects directly to competition strategy where pulling g
 
 
 </section>
+
+
 
 </main>

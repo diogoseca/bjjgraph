@@ -10,6 +10,41 @@ description: "Master the leg extraction escape from Truck position in BJJ. Compl
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Leg Extraction from Truck",
+  "description": "Master the leg extraction escape from Truck position in BJJ. Complete guide to freeing trapped legs, clearing boot pressure, and recovering to Turtle position.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Leg Extraction from Truck", "item": "https://bjjgraph.org/Transitions/Leg-Extraction-from-Truck" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Leg Extraction from Truck",
+  "description": "Leg Extraction from Truck is a defensive escape in which the bottom player frees their trapped leg from the figure-four entanglement using circular ankle, knee, and hip rotation, then immediately turtles up to neutralize the truck's submission threats.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the leg extraction escape from Truck position in BJJ. Compl
 </div>
 
 <section id="overview" class="content-section">
+
+**Leg Extraction from Truck is a defensive escape in which the bottom player frees their trapped leg from the figure-four entanglement using circular ankle, knee, and hip rotation, then immediately turtles up to neutralize the truck's submission threats.**
 
 The Leg Extraction from Truck is a specialized escape technique targeting the foundational control mechanism of the truck position: the figure-four leg entanglement. Unlike rolling escapes (granby roll) or shrimping-based escapes (hip escape to half guard), this technique directly addresses the leg control that makes the truck dangerous, methodically working the trapped leg free through ankle manipulation, hip rotation, and incremental space creation. Once the leg is extracted, the bottom player immediately turtles up, removing the truck top player's primary control platform and forcing a positional reset.
 
@@ -220,5 +257,7 @@ The Leg Extraction from Truck connects the truck bottom escape hierarchy to the 
 
 
 </section>
+
+
 
 </main>

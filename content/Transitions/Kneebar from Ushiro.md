@@ -10,6 +10,41 @@ description: "Master Kneebar from Ushiro Ashi-Garami. Step-by-step execution wit
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kneebar from Ushiro",
+  "description": "Master Kneebar from Ushiro Ashi-Garami. Step-by-step execution with hip rotation mechanics. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Kneebar from Ushiro", "item": "https://bjjgraph.org/Transitions/Kneebar-from-Ushiro" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kneebar from Ushiro",
+  "description": "Kneebar from Ushiro is a leg-lock transition out of reversed ushiro ashi-garami that hyperextends the opponent's knee when their heel-hook defense straightens the trapped leg, weaponizing the very posture used to protect the heel.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Kneebar from Ushiro Ashi-Garami. Step-by-step execution wit
 </div>
 
 <section id="overview" class="content-section">
+
+**Kneebar from Ushiro is a leg-lock transition out of reversed ushiro ashi-garami that hyperextends the opponent's knee when their heel-hook defense straightens the trapped leg, weaponizing the very posture used to protect the heel.**
 
 The Kneebar from Ushiro Ashi-Garami exploits the unique reversed leg entanglement geometry to attack the opponent's knee joint when heel hook finishing becomes unavailable or when the opponent defends by straightening their leg. This transition capitalizes on the natural body positioning of ushiro ashi-garami where the attacker's hips are already aligned perpendicular to the opponent's trapped leg, creating favorable leverage for hyperextension attacks on the knee.
 
@@ -220,5 +257,7 @@ The Kneebar from Ushiro functions as a critical chain attack within the modern l
 
 
 </section>
+
+
 
 </main>

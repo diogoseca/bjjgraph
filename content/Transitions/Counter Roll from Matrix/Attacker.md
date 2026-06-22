@@ -106,18 +106,18 @@ description: "Learn to execute the Counter Roll from Matrix. Step-by-step guide 
     },
     {
       "@type": "Question",
-      "name": "How does having a reliable counter roll affect your overall Matrix back take success rate?",
+      "name": "What grips or connection points must you maintain throughout the counter roll, and why are they non-negotiable?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Having a reliable counter roll increases your Matrix success rate because it allows you to commit more aggressively to Matrix entries. Without a bail-out option, practitioners hesitate mid-rotation, which is the primary cause of Matrix failure since the technique demands full commitment. Knowing you can safely redirect to half guard eliminates the fear of commitment, resulting in faster and more powerful initial rotations that are significantly harder for opponents to defend."
+        "text": "You must keep at least one active connection to the opponent throughout the redirect—typically a grip on their near leg or pants, or a developing leg hook. Without this connection you rotate independently and arrive separated from the opponent with no entanglement, having traded a defended Matrix for an open scramble. The grip pulls the opponent's near leg into your forming half guard and ensures they travel with your roll rather than simply watching you spin away into empty space."
       }
     },
     {
       "@type": "Question",
-      "name": "What happens if you attempt the counter roll after your rotational momentum has been completely dissipated?",
+      "name": "How does having a reliable counter roll affect your overall Matrix back take success rate?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Without remaining momentum, the counter roll becomes a static leg grab from a compromised position rather than a dynamic redirect. This gives the opponent time to sprawl, hip switch, or backstep away from your leg capture attempt. If momentum is fully gone, you should abandon the counter roll entirely and instead return to turtle defense, reset your position, and look for a fresh entry opportunity rather than forcing a dead technique that exposes you to passes."
+        "text": "Having a reliable counter roll increases your Matrix success rate because it allows you to commit more aggressively to Matrix entries. Without a bail-out option, practitioners hesitate mid-rotation, which is the primary cause of Matrix failure since the technique demands full commitment. Knowing you can safely redirect to half guard eliminates the fear of commitment, resulting in faster and more powerful initial rotations that are significantly harder for opponents to defend."
       }
     }
   ]
@@ -335,5 +335,7 @@ Positional sparring starting from Matrix bottom with partner defending at full i
 The Counter Roll from Matrix involves inverted movement and directional changes during rolling mechanics that carry moderate neck and shoulder risk. Practitioners should develop comfort with inversions through progressive solo drilling before attempting at full speed with partners. During training, communicate rolling direction with partners to prevent collision injuries. Avoid forcing the redirect if neck position is compromised—return to turtle rather than risk cervical compression. Partners should never drive weight down explosively on a practitioner who is mid-inversion, as this can cause spinal compression injuries.
 
 </section>
+
+
 
 </main>

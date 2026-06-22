@@ -10,10 +10,55 @@ description: "Master the heel hook from 50-50 Guard in BJJ. Learn setup, grip me
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Heel Hook from 50-50 Guard targets the Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity. Risk: ACL tear (anterior cruciate ligament rupture). Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Heel Hook from 50-50 Guard",
+  "description": "Master the heel hook from 50-50 Guard in BJJ. Learn setup, grip mechanics, finishing details, and critical safety protocols for this advanced leg lock.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Heel Hook from 50-50 Guard", "item": "https://bjjgraph.org/Submissions/Heel-Hook-from-50-50-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Heel Hook from 50-50 Guard",
+  "description": "The heel hook from 50-50 Guard is a rotational leg lock that attacks the knee ligaments by cupping and twisting the opponent's exposed heel, demanding the attacker first win inside position in the symmetrical entanglement before finishing.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The heel hook from 50-50 Guard is a rotational leg lock that attacks the knee ligaments by cupping and twisting the opponent's exposed heel, demanding the attacker first win inside position in the symmetrical entanglement before finishing.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Leg Lock</span>
+<span class="meta-chip">Targets Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity</span>
+<span class="meta-chip">45% success</span>
+</div>
+
+> [!danger] Safety
+> Heel Hook from 50-50 Guard targets the Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity. Primary risk: ACL tear (anterior cruciate ligament rupture). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,60 +75,7 @@ The key strategic element is the battle for inside position. The practitioner wh
 
 This submission carries extreme injury risk because knee ligaments can rupture before the defender feels significant pain. Unlike arm locks or chokes that produce progressive discomfort, the heel hook's damage mechanism bypasses normal pain signals. This characteristic makes strict adherence to safety protocols essential during training and demands that both partners understand proper tap signals and release procedures.
 
-**Category**: Joint Lock
-**Type**: Leg Lock
-**Target Area**: Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity
-**Starting Position**: [[Positions/Ashi Garami/50-50 Guard]]
-**From Position**: [[Positions/Ashi Garami/50-50 Guard]] (Top)
-**Success Rate**: 45%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| ACL tear (anterior cruciate ligament rupture) | CRITICAL | 6-12 months with surgical reconstruction, extensive rehabilitation |
-| MCL/LCL tear (medial/lateral collateral ligament damage) | CRITICAL | 3-6 months for grade 3 tears, potential permanent instability |
-| Meniscus tear (cartilage damage in knee joint) | High | 4-8 weeks to 6 months depending on severity and treatment |
-| Ankle ligament damage and joint capsule injury | High | 6-12 weeks, potential chronic instability |
-| Tibial/fibular fracture from extreme rotational force | CRITICAL | 3-6 months, potential permanent mobility issues |
-
-
-**Application Speed**: EXTREMELY SLOW and progressive. Allow minimum 5-7 seconds from initial pressure to maximum force in training. NEVER apply sudden rotational force. The heel hook lacks pain feedback before structural damage, making slow application a non-negotiable safety requirement.
-
-**Tap Signals**:
-- Verbal tap saying 'tap' clearly
-- Physical hand tap on opponent or mat (minimum two taps)
-- Physical foot tap with free leg on mat or opponent
-- Any distress vocalization or yelling
-- Frantic slapping or waving with hands
-- Leg stiffening or panicked defensive reaction
-
-
-**Release Protocol**:
-1. Immediately stop all rotational pressure upon any tap signal
-2. Release heel grip completely before releasing leg entanglement
-3. Slowly unwrap leg configuration while maintaining awareness of partner's joint alignment
-4. Allow partner to extract their leg at their own pace without rushing
-5. Check with training partner about their knee and ankle status after every repetition
-6. Report any joint discomfort to instructor immediately, even if it seems minor
-
-
-**Training Restrictions**:
-- NEVER apply sudden or explosive rotational force in training
-- NEVER practice at competition speed with training partners
-- NEVER continue pressure if partner's leg begins rotating with the submission
-- Always allow immediate tap access for both hands and verbal tap
-- Only train with partners who have explicit experience with heel hook defense
-- Prohibited for practitioners below brown belt in most traditional academies and below purple belt in most progressive academies
-- Never train heel hooks without instructor supervision during initial learning phases
-- Stop immediately if any popping, clicking, or unusual sensations occur in partner's leg
-
+**Starting Position**: [[Positions/Ashi Garami/50-50 Guard]] · **From**: [[Positions/Ashi Garami/50-50 Guard]] (Top)
 
 </section>
 
@@ -247,40 +239,69 @@ This submission carries extreme injury risk because knee ligaments can rupture b
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Transitions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
 - [[Submissions/Calf Slicer]]
 - [[Submissions/Achilles Lock]]
 - [[Positions/Aoki Lock Control]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Ashi Garami/50-50 Guard]] - Primary starting position for this submission variant
 - [[Positions/Ashi Garami/Backside 50-50]] - Alternative position offering different heel exposure angles
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Related leg entanglement with asymmetrical control advantage
 - [[Positions/Ashi Garami/Honey Hole]] - Advanced leg entanglement progression with superior heel access
-- [[Transitions/Heel Hook]] - Parent submission family encompassing all heel hook variants
+
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| ACL tear (anterior cruciate ligament rupture) | CRITICAL | 6-12 months with surgical reconstruction, extensive rehabilitation |
+| MCL/LCL tear (medial/lateral collateral ligament damage) | CRITICAL | 3-6 months for grade 3 tears, potential permanent instability |
+| Meniscus tear (cartilage damage in knee joint) | High | 4-8 weeks to 6 months depending on severity and treatment |
+| Ankle ligament damage and joint capsule injury | High | 6-12 weeks, potential chronic instability |
+| Tibial/fibular fracture from extreme rotational force | CRITICAL | 3-6 months, potential permanent mobility issues |
+
+
+**Application Speed**: EXTREMELY SLOW and progressive. Allow minimum 5-7 seconds from initial pressure to maximum force in training. NEVER apply sudden rotational force. The heel hook lacks pain feedback before structural damage, making slow application a non-negotiable safety requirement.
+
+**Tap Signals**:
+- Verbal tap saying 'tap' clearly
+- Physical hand tap on opponent or mat (minimum two taps)
+- Physical foot tap with free leg on mat or opponent
+- Any distress vocalization or yelling
+- Frantic slapping or waving with hands
+- Leg stiffening or panicked defensive reaction
+
+
+**Release Protocol**:
+1. Immediately stop all rotational pressure upon any tap signal
+2. Release heel grip completely before releasing leg entanglement
+3. Slowly unwrap leg configuration while maintaining awareness of partner's joint alignment
+4. Allow partner to extract their leg at their own pace without rushing
+5. Check with training partner about their knee and ankle status after every repetition
+6. Report any joint discomfort to instructor immediately, even if it seems minor
+
+
+**Training Restrictions**:
+- NEVER apply sudden or explosive rotational force in training
+- NEVER practice at competition speed with training partners
+- NEVER continue pressure if partner's leg begins rotating with the submission
+- Always allow immediate tap access for both hands and verbal tap
+- Only train with partners who have explicit experience with heel hook defense
+- Prohibited for practitioners below brown belt in most traditional academies and below purple belt in most progressive academies
+- Never train heel hooks without instructor supervision during initial learning phases
+- Stop immediately if any popping, clicking, or unusual sensations occur in partner's leg
 
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Heel Hook from 50-50 Guard leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

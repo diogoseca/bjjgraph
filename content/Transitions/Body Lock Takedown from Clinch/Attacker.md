@@ -335,4 +335,6 @@ Body lock takedowns involve significant impact forces when practitioners hit the
 
 </section>
 
+
+
 </main>

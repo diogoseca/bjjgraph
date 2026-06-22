@@ -10,6 +10,41 @@ description: "Master the Harness to Body Lock transition in BJJ. Learn grip swit
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Harness to Body Lock",
+  "description": "Master the Harness to Body Lock transition in BJJ. Learn grip switching mechanics, hip positioning, and control transfer for standing back control advancement.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Harness to Body Lock", "item": "https://bjjgraph.org/Transitions/Harness-to-Body-Lock" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Harness to Body Lock",
+  "description": "Harness to Body Lock is a transition that converts a seated or grounded seat belt (harness) grip into a standing body lock around the opponent's waist, preserving chest-to-back connection as they stand to unlock mat returns, throws, and back takes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Harness to Body Lock transition in BJJ. Learn grip swit
 
 <section id="overview" class="content-section">
 
-The Transition to Body Lock converts a seated or grounded harness (seat belt) grip into a standing body lock control, repositioning your locked grip from the upper torso to around the opponent's waist while maintaining unbroken chest-to-back connection. This transition occurs when your opponent stands up from back control or when you deliberately elevate them to pursue standing finishing sequences. The mechanical challenge lies in switching from a harness configuration optimized for choking to a body lock configuration optimized for mat returns, throws, and re-establishing ground back control.
+**Harness to Body Lock is a transition that converts a seated or grounded seat belt (harness) grip into a standing body lock around the opponent's waist, preserving chest-to-back connection as they stand to unlock mat returns, throws, and back takes.**
+
+This transition sits at the boundary between ground-based back control and standing grappling, arising the moment a defender abandons hook-fighting and stands to disengage. Rather than chase the lost hooks against a rising opponent, the top player redirects the seat belt grip downward to the waist, transforming a configuration optimized for choking into one optimized for mat returns, throws, and re-establishing ground back control while the chest-to-back connection never breaks. This transition occurs when your opponent stands up from back control or when you deliberately elevate them to pursue standing finishing sequences.
 
 Strategically, this transition addresses a common defensive pathway where skilled opponents escape back hooks and begin standing to disengage. Rather than fighting to re-establish hooks against a standing opponent, the body lock allows you to maintain dominant control while accessing an entirely different attack tree: mat returns to back mount, trips, throws, and body lock passing sequences. Elite no-gi competitors treat this as a seamless continuation of back control rather than a concession, because the body lock preserves your positional advantage while the opponent believes they are escaping.
 
@@ -229,5 +266,7 @@ The Transition to Body Lock occupies a critical junction in the back attack syst
 
 
 </section>
+
+
 
 </main>

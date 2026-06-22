@@ -10,10 +10,55 @@ description: "Master the guillotine choke finish from guillotine control. Comple
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Guillotine Choke from Guillotine Control targets the Carotid arteries and windpipe. Risk: Trachea damage or crush injury. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Guillotine Choke from Guillotine Control",
+  "description": "Master the guillotine choke finish from guillotine control. Complete guide covering grip mechanics, finishing sequences, and defensive responses.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Guillotine Choke from Guillotine Control", "item": "https://bjjgraph.org/Submissions/Guillotine-Choke-from-Guillotine-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Guillotine Choke from Guillotine Control",
+  "description": "The guillotine choke from Guillotine Control is the finishing sequence of a front-headlock blood choke, sealing a forearm-and-grip loop around an already-trapped neck to compress the carotid arteries until the opponent taps.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The guillotine choke from Guillotine Control is the finishing sequence of a front-headlock blood choke, sealing a forearm-and-grip loop around an already-trapped neck to compress the carotid arteries until the opponent taps.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries and windpipe</span>
+<span class="meta-chip">62% success</span>
+</div>
+
+> [!danger] Safety
+> Guillotine Choke from Guillotine Control targets the Carotid arteries and windpipe. Primary risk: Trachea damage or crush injury. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,53 +75,7 @@ The finish from established control creates a particularly dangerous scenario be
 
 Strategically, the guillotine finish from control forces a binary defensive dilemma: the opponent must choose between addressing the immediate choking threat through hand fighting and chin protection, or preventing positional deterioration that will make the choke even tighter. This decision paralysis, combined with the physical discomfort and panic response that neck compression creates, makes the guillotine from established control one of the highest-percentage finishes available at all levels of competition.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries and windpipe
-**Starting Position**: [[Positions/Guillotine Control]]
-**From Position**: [[Positions/Guillotine Control]] (Top)
-**Success Rate**: 62%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Trachea damage or crush injury | CRITICAL | 2-8 weeks with potential permanent damage |
-| Neck hyperextension injury | High | 1-4 weeks |
-| Cervical spine strain | Medium | 7-14 days |
-| Unconsciousness from blood choke | High | Immediate recovery but requires medical monitoring |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum application time. Never snap or jerk the submission
-
-**Tap Signals**:
-- Verbal tap or any vocal sound
-- Physical hand tap on opponent or mat
-- Physical foot tap on mat
-- Any distress signal or loss of resistance
-
-
-**Release Protocol**:
-1. Immediately release choking arm pressure upon any tap signal
-2. Remove head from opponent's neck and open grip completely
-3. Help opponent to seated position if they appear disoriented
-4. Monitor breathing and consciousness for 30 seconds minimum
-5. Call for medical assistance if partner doesn't recover within 20 seconds
-
-
-**Training Restrictions**:
-- Never use competition speed or intensity during drilling phases
-- Always allow clear tap access for both arms and verbal signaling
-- Stop immediately at any sign of distress including gurgling, color change, or sudden limpness
-- Avoid cranking or using neck hyperextension to force the submission
-- Never practice full-pressure guillotines on partners with known neck injuries
-
+**Starting Position**: [[Positions/Guillotine Control]] · **From**: [[Positions/Guillotine Control]] (Top)
 
 </section>
 
@@ -251,10 +250,9 @@ Strategically, the guillotine finish from control forces a binary defensive dile
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/High Elbow Guillotine]]
 - [[Submissions/Arm in Guillotine]]
 - [[Submissions/Chin Strap Guillotine]]
@@ -263,34 +261,53 @@ Strategically, the guillotine finish from control forces a binary defensive dile
 - [[Submissions/Von Flue Choke]]
 - [[Submissions/Japanese Necktie]]
 - [[Transitions/Gogoplata]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Guillotine Control]] - Primary starting position where choke grip is already established
 - [[Positions/Front Headlock]] - Parent position category that precedes guillotine grip establishment
-- [[Submissions/High Elbow Guillotine]] - Primary grip variation when standard finish is defended via chin tuck
-- [[Submissions/Arm in Guillotine]] - Opportunistic variation when defender's arm is trapped inside the choke
 - [[Positions/Closed Guard]] - Guard position used from bottom to maintain control and amplify finishing pressure
-- [[Submissions/Von Flue Choke]] - Dangerous counter-submission available to the defender from top position
-- [[Transitions/Anaconda Choke]] - Transition target when defender turns into the choke
-- [[Transitions/Darce Choke]] - Transition target when defender rotates away from choking pressure
+
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Trachea damage or crush injury | CRITICAL | 2-8 weeks with potential permanent damage |
+| Neck hyperextension injury | High | 1-4 weeks |
+| Cervical spine strain | Medium | 7-14 days |
+| Unconsciousness from blood choke | High | Immediate recovery but requires medical monitoring |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum application time. Never snap or jerk the submission
+
+**Tap Signals**:
+- Verbal tap or any vocal sound
+- Physical hand tap on opponent or mat
+- Physical foot tap on mat
+- Any distress signal or loss of resistance
+
+
+**Release Protocol**:
+1. Immediately release choking arm pressure upon any tap signal
+2. Remove head from opponent's neck and open grip completely
+3. Help opponent to seated position if they appear disoriented
+4. Monitor breathing and consciousness for 30 seconds minimum
+5. Call for medical assistance if partner doesn't recover within 20 seconds
+
+
+**Training Restrictions**:
+- Never use competition speed or intensity during drilling phases
+- Always allow clear tap access for both arms and verbal signaling
+- Stop immediately at any sign of distress including gurgling, color change, or sudden limpness
+- Avoid cranking or using neck hyperextension to force the submission
+- Never practice full-pressure guillotines on partners with known neck injuries
 
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Guillotine Choke from Guillotine Control leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

@@ -116,6 +116,7 @@ description: "Master K-Guard Top in BJJ. Navigate inverted hook systems while ma
   "@type": "WebPage",
   "name": "K-Guard Top",
   "description": "Master K-Guard Top in BJJ. Navigate inverted hook systems while maintaining passing pressure. Systematic approach to overcoming dynamic retention mechanics. Success rates: Beginner 50%, Intermediate 65%, Advanced 80%.",
+  "alternateName": ["K Guard"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -155,6 +156,9 @@ description: "Master K-Guard Top in BJJ. Navigate inverted hook systems while ma
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>K Guard</strong> <span class="role-hint">(top)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 K-Guard Top is the top position in the K-Guard system, where the passer faces a bottom player who has configured their legs in an inverted butterfly hook structure creating the characteristic 'K' shape. From the top perspective, this position requires careful navigation of the bottom player's active hook system and upper body frames while maintaining forward pressure and working toward guard passing opportunities. The position demands systematic pressure application, grip dominance, and awareness of the bottom player's sweep and back-take threats.
@@ -365,6 +369,16 @@ Start in K-Guard Top position. Top player's goal is to advance to side control o
 - **[[Transitions/Knee Slice Pass]]** - High-percentage pass - effective against K-Guard retention
 - **[[Transitions/Leg Drag Pass]]** - Alternative pass - useful when hooks extend
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Craig-Jones-Leg-Lock-System" data-cta="related-system-card" data-system-slug="systems/craig-jones-leg-lock-system" data-system-name="Craig Jones Leg Lock System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Craig Jones Leg Lock System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Specialized seated guard optimized for direct entries into leg entanglement positions</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

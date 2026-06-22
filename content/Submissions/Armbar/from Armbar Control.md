@@ -10,10 +10,55 @@ description: "Learn the Armbar Finish from Armbar Control in BJJ. Step-by-step e
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Armbar from Armbar Control targets the Elbow. Risk: Elbow hyperextension with collateral ligament sprain or tear. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Armbar from Armbar Control",
+  "description": "Learn the Armbar Finish from Armbar Control in BJJ. Step-by-step elbow hyperextension mechanics, grip details, and counters. Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Armbar from Armbar Control", "item": "https://bjjgraph.org/Submissions/Armbar-from-Armbar-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Armbar from Armbar Control",
+  "description": "The Armbar from Armbar Control is the finishing phase of the armbar, hyperextending the opponent's isolated elbow by bridging the hips into the trapped arm while pulling the wrist to the chest until they tap.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Armbar from Armbar Control is the finishing phase of the armbar, hyperextending the opponent's isolated elbow by bridging the hips into the trapped arm while pulling the wrist to the chest until they tap.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Hyperextension</span>
+<span class="meta-chip">Targets Elbow</span>
+<span class="meta-chip">58% success</span>
+</div>
+
+> [!danger] Safety
+> Armbar from Armbar Control targets the Elbow. Primary risk: Elbow hyperextension with collateral ligament sprain or tear. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,47 +75,7 @@ Strategically, the Armbar Finish operates as the highest-percentage terminal opt
 
 The finish itself requires coordinated opposing vectors: hips drive toward the ceiling using the glutes and core while both hands pull the wrist toward the sternum. The elbow joint, trapped between the thighs with the blade of the forearm pressed against the pubic bone, receives the combined force of these two movements. Advanced practitioners learn to micro-adjust the angle of hip elevation to target the weakest plane of the opponent's elbow based on their forearm rotation, making the submission effective even against strong grip-fighting defense.
 
-**Category**: Joint Lock
-**Type**: Hyperextension
-**Target Area**: Elbow
-**Starting Position**: [[Positions/Armbar Control]]
-**From Position**: [[Positions/Armbar Control]] (Top)
-**Success Rate**: 58%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Elbow hyperextension with collateral ligament sprain or tear | High | 4-8 weeks for grade 2 sprain, 3-6 months for complete tear requiring surgical reconstruction |
-| Ulnar collateral ligament rupture | CRITICAL | 6-12 months with surgical repair, potential permanent range-of-motion loss |
-| Radial head subluxation or fracture from explosive resistance against locked extension | High | 6-12 weeks for subluxation, 3-6 months for fracture requiring immobilization or surgery |
-
-
-**Application Speed**: Progressive over 2-3 seconds minimum. Never apply explosive jerking force. Increase bridge pressure gradually to allow tap recognition. The difference between a controlled tap and a ligament tear is often less than one inch of additional extension.
-
-**Tap Signals**:
-- Hand tap on attacker's body, legs, or mat (minimum 2 distinct taps)
-- Foot tap on mat when hands are trapped or immobilized
-- Verbal tap saying 'tap' clearly and audibly
-
-
-**Release Protocol**:
-1. Lower hips immediately upon any tap signal to remove bridge pressure from the elbow joint
-2. Release wrist grip and open hands completely within 1 second of recognizing the tap
-3. Maintain leg position briefly after release to prevent opponent from jerking their arm free in a way that causes self-injury
-
-
-**Training Restrictions**:
-- White belts should drill finishing mechanics at 50% pressure maximum with experienced partners who can communicate clearly
-- Practitioners with prior elbow injuries, hyperextension history, or joint hypermobility must inform training partners before armbar drilling
-- Never apply full finishing pressure in flow rolling or warm-up rounds
-
+**Starting Position**: [[Positions/Armbar Control]] · **From**: [[Positions/Armbar Control]] (Top)
 
 </section>
 
@@ -242,44 +247,69 @@ The finish itself requires coordinated opposing vectors: hips drive toward the c
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Belly Down Armbar]]
 - [[Submissions/Bicep Slicer]]
 - [[Submissions/Americana]]
 - [[Submissions/Far Side Armbar]]
 - [[Transitions/Arm Triangle]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Armbar Control]] - Starting position - must establish this control before attempting the finish
 - [[Positions/Triangle Control]] - Primary chain attack when opponent stacks or postures to defend armbar
 - [[Positions/Omoplata Control]] - Chain attack when opponent bends arm defensively during finish attempt
 - [[Transitions/Armbar from Crucifix]] - Entry path from crucifix control establishing armbar control for the finish
 - [[Transitions/Armbar from Clamp Guard]] - Entry path from clamp guard establishing armbar control for the finish
 - [[Transitions/Armbar from North-South]] - Entry path from north-south establishing armbar control for the finish
-- [[Submissions/Belly Down Armbar]] - Variant finish when opponent rolls during standard armbar finish attempt
 - [[Transitions/Hitchhiker Escape]] - Primary defensive counter the opponent uses against this finish
-- [[Submissions/Bicep Slicer]] - Secondary submission threat when opponent grip-fights the armbar extension
 - [[Transitions/Armbar from Back Transition]] - Entry path from back control establishing armbar control for the finish
+
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Elbow hyperextension with collateral ligament sprain or tear | High | 4-8 weeks for grade 2 sprain, 3-6 months for complete tear requiring surgical reconstruction |
+| Ulnar collateral ligament rupture | CRITICAL | 6-12 months with surgical repair, potential permanent range-of-motion loss |
+| Radial head subluxation or fracture from explosive resistance against locked extension | High | 6-12 weeks for subluxation, 3-6 months for fracture requiring immobilization or surgery |
+
+
+**Application Speed**: Progressive over 2-3 seconds minimum. Never apply explosive jerking force. Increase bridge pressure gradually to allow tap recognition. The difference between a controlled tap and a ligament tear is often less than one inch of additional extension.
+
+**Tap Signals**:
+- Hand tap on attacker's body, legs, or mat (minimum 2 distinct taps)
+- Foot tap on mat when hands are trapped or immobilized
+- Verbal tap saying 'tap' clearly and audibly
+
+
+**Release Protocol**:
+1. Lower hips immediately upon any tap signal to remove bridge pressure from the elbow joint
+2. Release wrist grip and open hands completely within 1 second of recognizing the tap
+3. Maintain leg position briefly after release to prevent opponent from jerking their arm free in a way that causes self-injury
+
+
+**Training Restrictions**:
+- White belts should drill finishing mechanics at 50% pressure maximum with experienced partners who can communicate clearly
+- Practitioners with prior elbow injuries, hyperextension history, or joint hypermobility must inform training partners before armbar drilling
+- Never apply full finishing pressure in flow rolling or warm-up rounds
 
 
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="related-systems" class="content-section related-systems">
 
-## Match Outcome
+## Train this with a System
 
-Successful execution of Armbar from Armbar Control leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Submission-Clinic-System" data-cta="related-system-card" data-system-slug="systems/submission-clinic-system" data-system-name="Submission Clinic System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Submission Clinic System</span><span class="system-card__unlocks-badge">Unlocks 30 techniques</span><span class="system-card__blurb">Primary armbar finishing mechanic from armbar control reached via mount and other dominant positions</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Competition-Strategy" data-cta="related-system-card" data-system-slug="systems/competition-strategy" data-system-name="Competition Strategy" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Competition Strategy</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Fundamental armbar completion applicable from multiple dominant positions, high-percentage finish when opponent exposes arms during guard retention or escape attempts</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Competition-Preparation-System" data-cta="related-system-card" data-system-slug="systems/competition-preparation-system" data-system-name="Competition Preparation System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Competition Preparation System</span><span class="system-card__unlocks-badge">Unlocks 21 techniques</span><span class="system-card__blurb">Essential offensive armbar completion integrated into competition game plans from multiple positions</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

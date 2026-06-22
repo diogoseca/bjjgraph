@@ -10,9 +10,48 @@ description: "Master Z-Guard in BJJ. Advanced knee shield variation with high sh
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Z-Guard",
+  "description": "Master Z-Guard in BJJ. Advanced knee shield variation with high shoulder framing. Complete guide covering setup, control, sweeps, and transitions.",
+  "alternateName": ["Z Guard"],
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Z-Guard", "item": "https://bjjgraph.org/Positions/Z-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Z-Guard",
+  "description": "Z-Guard is an advanced half guard variation where the bottom player wedges a high knee shield against the opponent's shoulder or upper chest, forming a 'Z' shape that denies pressure passing while loading sweeps, back takes, and deep half entries.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Z Guard</strong></p>
+</aside>
 <div class="role-links">
 
 [[Z-Guard/Bottom|Play as Bottom]]
@@ -21,6 +60,8 @@ description: "Master Z-Guard in BJJ. Advanced knee shield variation with high sh
 </div>
 
 <section id="overview" class="content-section">
+
+**Z-Guard is an advanced half guard variation where the bottom player wedges a high knee shield against the opponent's shoulder or upper chest, forming a 'Z' shape that denies pressure passing while loading sweeps, back takes, and deep half entries.**
 
 Z-Guard represents an advanced evolution of knee shield half guard where the bottom player elevates the knee shield to target the opponent's shoulder or upper chest rather than the hip, creating a more complete defensive structure that resembles the letter 'Z' when viewed from the side. This specialized positioning fundamentally changes the guard's defensive geometry, making it exceptionally difficult for pressure passers to settle their weight while simultaneously creating powerful sweeping angles. The position gained prominence in modern BJJ as competitors discovered that the higher knee placement not only prevents the pass more effectively but also generates superior leverage for off-balancing attacks and back takes.
 
@@ -100,15 +141,13 @@ From both offensive and defensive perspectives, Z-Guard serves as a critical hub
 ### Available Transitions
 
 
-- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (30% of attempts)
+- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (35% of attempts)
 
 - **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (11% of attempts)
 
 - **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (10% of attempts)
 
-- **[[Transitions/Back Take from Bottom/Attacker|Back Take from Bottom]]** (9% of attempts)
-
-- **[[Transitions/Turtle to Truck/Attacker|Turtle to Truck]]** (8% of attempts)
+- **[[Transitions/Back Take from Bottom/Attacker|Back Take from Bottom]]** (12% of attempts)
 
 - **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (10% of attempts)
 
@@ -185,11 +224,9 @@ From both offensive and defensive perspectives, Z-Guard serves as a critical hub
 ### Available Transitions
 
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (29% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (40% of attempts)
 
 - **[[Transitions/Knee Slice from Half/Attacker|Knee Slice from Half]]** (13% of attempts)
-
-- **[[Transitions/Knee Cut Pass/Attacker|Knee Cut Pass]]** (11% of attempts)
 
 - **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (10% of attempts)
 
@@ -262,5 +299,7 @@ From both offensive and defensive perspectives, Z-Guard serves as a critical hub
 
 
 </section>
+
+
 
 </main>

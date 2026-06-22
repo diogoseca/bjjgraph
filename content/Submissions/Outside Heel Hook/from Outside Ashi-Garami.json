@@ -1,6 +1,7 @@
 {
   "name": "Outside Heel Hook from Outside Ashi-Garami",
   "description": "Master the outside heel hook from outside ashi-garami with complete finishing mechanics, defensive strategies, and safety protocols for leg lock practitioners.",
+  "summary": "The outside heel hook from outside ashi-garami is a rotational knee submission that twists the trapped heel laterally from a figure-four entanglement, attacking the ACL and LCL to produce one of no-gi grappling's highest-percentage leg-lock finishes.",
   "tags": [
     "bjj",
     "submission",
@@ -20,7 +21,7 @@
   "starting_position": "Outside Ashi-Garami",
   "from_position": "Outside Ashi-Garami/Bottom",
   "success_rate": 45,
-  "overview": "The outside heel hook from outside ashi-garami is one of the highest-percentage leg lock finishes in modern no-gi grappling. From the outside ashi-garami entanglement, the attacker's figure-four leg configuration naturally isolates the opponent's leg while their perpendicular body alignment creates rotational leverage against the knee joint. The outside angle provides direct access to the heel, making this a mechanically efficient finishing position that rewards technical precision over raw strength.\n\nThe attacker cups the opponent's heel with both hands in a figure-four or butterfly grip, then applies controlled rotational force by turning the heel laterally while extending their hips. Because outside ashi-garami attacks from an outside angle, the rotation targets the lateral collateral ligament complex and can compromise the anterior cruciate ligament. This makes the technique exceptionally dangerous and demands strict adherence to safety protocols during training.\n\nUnlike finishing from saddle or inside ashi where both legs are controlled, outside ashi-garami leaves the opponent's far leg free, creating viable escape routes. The attacker must balance maintaining the leg triangle with committing their upper body to the heel hook grip. This tension between control and attack makes timing critical and distinguishes the technique from more dominant finishing positions where positional security allows deliberate finishing attempts.",
+  "overview": "From the outside ashi-garami entanglement, the attacker's figure-four leg configuration naturally isolates the opponent's leg while their perpendicular body alignment creates rotational leverage against the knee joint. The outside angle provides direct access to the heel, making this a mechanically efficient finishing position that rewards technical precision over raw strength. Because the finish is available directly from a foundational entanglement rather than requiring advancement to saddle or inside ashi first, it sees heavy use across no-gi and submission-only competition.\n\nThe attacker cups the opponent's heel with both hands in a figure-four or butterfly grip, then applies controlled rotational force by turning the heel laterally while extending their hips. Because outside ashi-garami attacks from an outside angle, the rotation targets the lateral collateral ligament complex and can compromise the anterior cruciate ligament. This makes the technique exceptionally dangerous and demands strict adherence to safety protocols during training.\n\nUnlike finishing from saddle or inside ashi where both legs are controlled, outside ashi-garami leaves the opponent's far leg free, creating viable escape routes. The attacker must balance maintaining the leg triangle with committing their upper body to the heel hook grip. This tension between control and attack makes timing critical and distinguishes the technique from more dominant finishing positions where positional security allows deliberate finishing attempts.",
   "safety_considerations": {
     "injury_risks": [
       {
@@ -91,8 +92,8 @@
     "Heel Hook",
     "Achilles Lock",
     "Calf Slicer",
-    "Aoki Lock Control",
-    "Inside Heel Hook"
+    "Aoki Lock",
+    "Estima Lock"
   ],
   "related_content": [
     {

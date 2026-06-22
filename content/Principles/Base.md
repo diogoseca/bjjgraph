@@ -142,11 +142,24 @@ description: "Master base maintenance in BJJ: stability principles, weight distr
 }
 </script>
 
-> Base is a medium complexity BJJ principle applicable at the Fundamental level. Develop over Beginner to Advanced.
 
-**Application Level**: Fundamental
-**Complexity**: Medium
-**Development Timeline**: Beginner to Advanced
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Base",
+  "description": "Base is the principle of maintaining a stable platform through optimal weight distribution, skeletal alignment, and connection points, allowing a practitioner to resist sweeps and off-balancing while generating control and pressure.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Fundamental</span>
+<span class="meta-chip">Medium complexity</span>
+<span class="meta-chip">Beginner to Advanced</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -155,7 +168,9 @@ description: "Master base maintenance in BJJ: stability principles, weight distr
 
 ## What is Base?
 
-Base is a fundamental principle describing the ability to maintain stable positioning through proper weight distribution, alignment, and connection points that maximize control while minimizing vulnerability to displacement. Unlike specific techniques, base maintenance is a comprehensive conceptual framework that applies across all positions and phases of BJJ. This concept encompasses the biomechanical principles, dynamic adjustments, and strategic approach to creating stable platforms from which techniques can be executed effectively. Base maintenance serves as both a defensive mechanism that prevents sweeps, reversals, and off-balancing, and an offensive foundation that enables powerful technique application. The ability to maintain an effective base often determines whether a practitioner can successfully implement techniques or remains vulnerable to positional reversals, making it one of the most essential conceptual elements in BJJ.
+**Base is the principle of maintaining a stable platform through optimal weight distribution, skeletal alignment, and connection points, allowing a practitioner to resist sweeps and off-balancing while generating control and pressure.**
+
+Rooted in the judo concept of a stable foundation, base is among the first principles a beginner is taught and one of the last a competitor fully masters. Unlike specific techniques, base maintenance is a comprehensive conceptual framework that applies across all positions and phases of BJJ, from standing exchanges to deep submission entanglements. This concept encompasses the biomechanical principles, dynamic adjustments, and strategic approach to creating stable platforms from which techniques can be executed effectively. Base maintenance serves as both a defensive mechanism that prevents sweeps, reversals, and off-balancing, and an offensive foundation that enables powerful technique application. The ability to maintain an effective base often determines whether a practitioner can successfully implement techniques or remains vulnerable to positional reversals, making it one of the most essential conceptual elements in BJJ.
 
 </section>
 
@@ -373,6 +388,21 @@ Using stable base as platform for applying controlled pressure on partner. Focus
 - [[Action and Reaction]] (Principle) - Dynamic interplay concept where base maintenance counters destabilizing forces through reactive adjustments
 - [[Kuzushi]] (Principle) - Concept that targets base vulnerabilities, understanding both concepts enhances performance
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Bernardo-Faria-Pressure-System" data-cta="related-system-card" data-system-slug="systems/bernardo-faria-pressure-system" data-system-name="Bernardo Faria Pressure System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Bernardo Faria Pressure System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Critical principle for preventing sweeps during passing attempts</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/MMA-Crossover-Strategy" data-cta="related-system-card" data-system-slug="systems/mma-crossover-strategy" data-system-name="MMA Crossover Strategy" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">MMA Crossover Strategy</span><span class="system-card__unlocks-badge">Unlocks 27 techniques</span><span class="system-card__blurb">Fundamental principle adapted for strike-aware balance and posture</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Standing-Defense-Strategy" data-cta="related-system-card" data-system-slug="systems/standing-defense-strategy" data-system-name="Standing Defense Strategy" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Standing Defense Strategy</span><span class="system-card__unlocks-badge">Unlocks 27 techniques</span><span class="system-card__blurb">Fundamental principle for maintaining structural stability in standing defense</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Blue-to-Purple-Progression" data-cta="related-system-card" data-system-slug="systems/blue-to-purple-progression" data-system-name="Blue to Purple Progression" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Blue to Purple Progression</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Fundamental principle preventing sweeps and maintaining postural stability in all positions</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Roger-Gracie-Fundamental-System" data-cta="related-system-card" data-system-slug="systems/roger-gracie-fundamental-system" data-system-name="Roger Gracie Fundamental System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Roger Gracie Fundamental System</span><span class="system-card__unlocks-badge">Unlocks 22 techniques</span><span class="system-card__blurb">Critical defensive and offensive principle - perfect base prevents sweeps and enables powerful passing</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Self-Defense-Application-Framework" data-cta="related-system-card" data-system-slug="systems/self-defense-application-framework" data-system-name="Self-Defense Application Framework" data-member-count="18"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Self-Defense Application Framework</span><span class="system-card__unlocks-badge">Unlocks 18 techniques</span><span class="system-card__blurb">Critical for maintaining standing position and avoiding takedowns</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

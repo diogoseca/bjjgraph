@@ -10,6 +10,41 @@ description: "Master the mounted triangle to S mount transition in BJJ. Learn sy
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Mounted Triangle to S Mount",
+  "description": "Master the mounted triangle to S mount transition in BJJ. Learn systematic leg repositioning and arm isolation to convert triangle control into armbar setup.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Mounted Triangle to S Mount", "item": "https://bjjgraph.org/Transitions/Mounted-Triangle-to-S-Mount" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Mounted Triangle to S Mount",
+  "description": "Mounted Triangle to S Mount is a positional transition where the attacker abandons a defended triangle choke and repositions both legs into S mount, preserving the existing arm isolation to convert into a higher-percentage armbar.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the mounted triangle to S mount transition in BJJ. Learn sy
 </div>
 
 <section id="overview" class="content-section">
+
+**Mounted Triangle to S Mount is a positional transition where the attacker abandons a defended triangle choke and repositions both legs into S mount, preserving the existing arm isolation to convert into a higher-percentage armbar.**
 
 The mounted triangle to S mount transition is a strategic positional conversion that trades triangle submission pressure for superior armbar mechanics and positional stability. When the mounted triangle choke is well-defended through chin tuck and defensive framing, the attacker recognizes that the trapped arm is better attacked through the perpendicular leverage of S mount rather than continued squeeze attempts. The leg configuration of mounted triangle provides a natural pathway into S mount, as the leg already positioned over the opponent's shoulder simply needs to extend further over the head while the locking leg repositions across the torso.
 
@@ -226,5 +263,7 @@ The mounted triangle to S mount transition sits within the broader mount attack 
 
 
 </section>
+
+
 
 </main>

@@ -10,6 +10,41 @@ description: "Master armbar control in BJJ from both offensive and defensive per
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Armbar Control",
+  "description": "Master armbar control in BJJ from both offensive and defensive perspectives. Complete strategic guide covering submission mechanics, defense strategies, and position-specific tactics.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Armbar Control", "item": "https://bjjgraph.org/Positions/Armbar-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Armbar Control",
+  "description": "Armbar Control is a submission control position where one player isolates and pins an opponent's extended arm with their legs, hips, and grips to threaten elbow hyperextension, attacked from the top role and survived or escaped from the bottom role.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master armbar control in BJJ from both offensive and defensive per
 </div>
 
 <section id="overview" class="content-section">
+
+**Armbar Control is a submission control position where one player isolates and pins an opponent's extended arm with their legs, hips, and grips to threaten elbow hyperextension, attacked from the top role and survived or escaped from the bottom role.**
 
 Armbar Control represents one of Brazilian Jiu-Jitsu's most fundamental submission control positions, accessible from both offensive (top) and defensive (bottom) perspectives. The position centers on isolating and controlling a single arm through a combination of leg control, hip positioning, and grip management. From the top position, the practitioner uses their entire body to attack a single joint, creating overwhelming mechanical advantage. From the bottom position, the defender must employ systematic defensive principles to prevent hyperextension and create escape opportunities.
 
@@ -181,15 +218,13 @@ From the bottom, survival depends on understanding the same five-point control s
 ### Available Transitions
 
 
-- **[[Armbar from Armbar Control/Attacker|Armbar from Armbar Control]]** (51% of attempts)
+- **[[Armbar from Armbar Control/Attacker|Armbar from Armbar Control]]** (55% of attempts)
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (21% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (23% of attempts)
 
 - **[[Omoplata from Armbar Control/Attacker|Omoplata from Armbar Control]]** (7% of attempts)
 
-- **[[Kimura from Armbar Control/Attacker|Kimura from Armbar Control]]** (7% of attempts)
-
-- **[[Transitions/Straight Armbar/Attacker|Straight Armbar]]** (7% of attempts)
+- **[[Kimura from Armbar Control/Attacker|Kimura from Armbar Control]]** (8% of attempts)
 
 - **[[Transitions/Back Take from Armbar/Attacker|Back Take from Armbar]]** (3% of attempts)
 
@@ -258,6 +293,17 @@ From the bottom, survival depends on understanding the same five-point control s
 
 - **[[Positions/Crucifix]]** - Alternative arm isolation control position
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Ryan-Hall-Triangle-System" data-cta="related-system-card" data-system-slug="systems/ryan-hall-triangle-system" data-system-name="Ryan Hall Triangle System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Ryan Hall Triangle System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Primary transition target from triangle position</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Rubber-Guard-to-Triangle-System" data-cta="related-system-card" data-system-slug="systems/rubber-guard-to-triangle-system" data-system-name="Rubber Guard to Triangle System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Rubber Guard to Triangle System</span><span class="system-card__unlocks-badge">Unlocks 22 techniques</span><span class="system-card__blurb">Control position reached when transitioning from triangle to armbar against stacking defense</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

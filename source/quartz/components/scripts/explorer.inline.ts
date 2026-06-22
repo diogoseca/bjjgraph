@@ -60,6 +60,15 @@ function applyTrainingOverlay() {
   } catch {
     knownSlugs = new Set()
   }
+  // Union deliberately-marked-known nodes (bjj-known) so honor-system marks fade too.
+  try {
+    const known = JSON.parse(localStorage.getItem("bjj-known") || "[]")
+    for (const e of known) {
+      if (e && e.slug) knownSlugs.add(String(e.slug).replace(/^\//, ""))
+    }
+  } catch {
+    /* no-op */
+  }
 
   const links = document.querySelectorAll("#explorer-content a[data-for]")
   for (const link of links) {
@@ -93,16 +102,29 @@ function applyTrainingOverlay() {
   }
 }
 
+// Tracks teardown fns for every inner listener added by the latest setupExplorer()
+// run. setupExplorer fires on every resize, so without removing the prior run's
+// listeners first, click/scroll/wheel handlers would stack on each resize.
+let explorerListenerCleanups: Array<() => void> = []
+
+function teardownExplorerListeners() {
+  for (const cleanup of explorerListenerCleanups) cleanup()
+  explorerListenerCleanups = []
+}
+
 function setupExplorer() {
   const explorer = document.getElementById("explorer")
   if (!explorer) return
+
+  // Idempotent: remove listeners from a prior setup before re-adding.
+  teardownExplorerListeners()
 
   if (explorer.dataset.behavior === "collapse") {
     for (const item of document.getElementsByClassName(
       "folder-button",
     ) as HTMLCollectionOf<HTMLElement>) {
       item.addEventListener("click", toggleFolder)
-      window.addCleanup(() => item.removeEventListener("click", toggleFolder))
+      explorerListenerCleanups.push(() => item.removeEventListener("click", toggleFolder))
     }
   }
 
@@ -111,7 +133,7 @@ function setupExplorer() {
     "folder-icon",
   ) as HTMLCollectionOf<HTMLElement>) {
     item.addEventListener("click", toggleFolder)
-    window.addCleanup(() => item.removeEventListener("click", toggleFolder))
+    explorerListenerCleanups.push(() => item.removeEventListener("click", toggleFolder))
   }
 
   // Set up scrollable list fade classes
@@ -126,7 +148,56 @@ function setupExplorer() {
     }
     updateFade()
     list.addEventListener("scroll", updateFade, { passive: true })
-    window.addCleanup(() => list.removeEventListener("scroll", updateFade))
+    explorerListenerCleanups.push(() => list.removeEventListener("scroll", updateFade))
+  }
+
+  // Unified wheel scrolling for the drawer. Native overscroll-behavior already
+  // chains a saturated inner .scrollable-list out to .sidebar.left (see
+  // explorer.scss), so we only handle the case CSS can't: wheel events landing
+  // in the left gutter / dead space, where there's no scroll box under the
+  // cursor and the event would otherwise be dropped.
+  const overlay = document.getElementById("sidebar-overlay")
+  const outerScroll = explorer.closest(".sidebar.left") as MaybeHTMLElement
+  if (overlay && outerScroll) {
+    const onWheel = (e: WheelEvent) => {
+      if (!document.body.classList.contains("drawer-open")) return
+      // Horizontal swipe — leave to native handling.
+      if (Math.abs(e.deltaX) > Math.abs(e.deltaY)) return
+      // Normalize deltaMode (lines / pages) to pixels.
+      const px =
+        e.deltaMode === 1
+          ? e.deltaY * 16
+          : e.deltaMode === 2
+            ? e.deltaY * outerScroll.clientHeight
+            : e.deltaY
+      if (px === 0) return
+
+      // Over an inner .scrollable-list → leave it to the browser: native scroll,
+      // and a native chain out to .sidebar.left at the edge (explorer.scss). The
+      // early return is also what prevents a double-scroll when the outer isn't
+      // scrollable but the cursor is over an inner list.
+      const path = e.composedPath() as EventTarget[]
+      const overInner = path.some(
+        (el) => el instanceof HTMLElement && el.classList?.contains("scrollable-list"),
+      )
+      if (overInner) return
+
+      // Otherwise the cursor is over the outer scroll box — including its left
+      // padding/gutter, which is part of .sidebar.left. If the outer can scroll
+      // in this direction, let the browser do it natively (preserves momentum).
+      if (canScrollInDir(outerScroll, px)) return
+
+      // Outer can't move (it isn't scrollable, or is pinned at this edge). If a
+      // single inner list is the only scrollable thing, drive it from the gutter
+      // so wheel anywhere in the drawer keeps the tree moving.
+      const target = pickGutterTarget(outerScroll)
+      if (target && target !== outerScroll && canScrollInDir(target, px)) {
+        e.preventDefault()
+        target.scrollTop += px
+      }
+    }
+    overlay.addEventListener("wheel", onWheel, { passive: false })
+    explorerListenerCleanups.push(() => overlay.removeEventListener("wheel", onWheel))
   }
 
   // Start with all folders collapsed
@@ -186,7 +257,9 @@ function setupExplorer() {
       }
     })
     // Highlight the active page in the explorer and scroll into view
-    const existingActive = document.querySelectorAll("#explorer-content a.active, #explorer-content .explorer-role-link.active")
+    const existingActive = document.querySelectorAll(
+      "#explorer-content a.active, #explorer-content .explorer-role-link.active",
+    )
     existingActive.forEach((el) => el.classList.remove("active"))
 
     // Try data-for, then folderpath, then href matching (most robust fallback)
@@ -206,16 +279,12 @@ function setupExplorer() {
       (document.querySelector(
         `#explorer-content a[href$='/${effectiveSlug}']`,
       ) as MaybeHTMLElement) ||
-      (document.querySelector(
-        `#explorer-content a[href$='/${currentSlug}']`,
-      ) as MaybeHTMLElement)
+      (document.querySelector(`#explorer-content a[href$='/${currentSlug}']`) as MaybeHTMLElement)
     if (activeLink) {
       activeLink.classList.add("active")
 
       // Also highlight the role badge (A/D/T/B) when on a role page
-      const roleSuffix = effectiveSlug !== currentSlug
-        ? currentSlug.split("/").pop()
-        : null
+      const roleSuffix = effectiveSlug !== currentSlug ? currentSlug.split("/").pop() : null
       if (roleSuffix) {
         // Find the role link badge near the active folder
         const container = activeLink.closest(".folder-container")
@@ -261,6 +330,8 @@ function setupExplorer() {
 window.addEventListener("resize", setupExplorer)
 document.addEventListener("nav", () => {
   setupExplorer()
+  // Drain the listeners added by this setup on the next SPA navigation.
+  window.addCleanup(teardownExplorerListeners)
   observer.disconnect()
 
   // select pseudo element at end of list
@@ -306,4 +377,35 @@ function toggleCollapsedByPath(array: FolderState[], path: string) {
   if (entry) {
     entry.collapsed = !entry.collapsed
   }
+}
+
+/**
+ * Whether `el` can still scroll vertically in the wheel's direction.
+ * `direction: rtl` on .scrollable-list only mirrors horizontal layout — vertical
+ * scrollTop semantics are unaffected, so this works for the rtl inner lists too.
+ */
+function canScrollInDir(el: HTMLElement, deltaY: number): boolean {
+  const max = el.scrollHeight - el.clientHeight
+  if (max <= 1) return false
+  return deltaY > 0 ? el.scrollTop < max - 1 : el.scrollTop > 1
+}
+
+/**
+ * When a wheel event lands in the gutter (the sidebar's left padding or the
+ * inner list's rtl scrollbar gutter — i.e. NOT over a real scroll box), pick
+ * which element should move:
+ *  - the outer explorer scroll (.sidebar.left) if it's scrollable; else
+ *  - the single scrollable .scrollable-list, if exactly one exists; else
+ *  - null (0 or >1 candidates — ambiguous, do nothing).
+ */
+function pickGutterTarget(outer: HTMLElement): HTMLElement | null {
+  if (outer.scrollHeight - outer.clientHeight > 1) return outer
+  // `clientHeight > 0` excludes COLLAPSED categories: their ul keeps the
+  // .scrollable-list class but is clipped to 0 height (grid 0fr + overflow
+  // hidden), yet still reports scrollHeight > 0 — without this guard every
+  // collapsed list would count as a candidate and the gutter would do nothing.
+  const lists = Array.from(outer.querySelectorAll<HTMLElement>("ul.scrollable-list")).filter(
+    (l) => l.clientHeight > 0 && l.scrollHeight - l.clientHeight > 1,
+  )
+  return lists.length === 1 ? lists[0] : null
 }

@@ -134,10 +134,23 @@ description: "Master MMA Crossover Strategy for BJJ. Comprehensive framework ada
 }
 </script>
 
-> MMA Crossover Strategy is a advanced difficulty Competition Strategy system. Integrates 5 components.
 
-**System Type**: Competition Strategy
-**Difficulty Level**: Advanced
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "MMA Crossover Strategy",
+  "description": "The MMA Crossover Strategy is a competition framework that adapts Brazilian Jiu-Jitsu for striking environments, prioritizing strike-aware posture, cage geometry, wrestling-based top control, ground-and-pound, and explosive high-percentage submissions over high-risk traditional guard play.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Competition Strategy</span>
+<span class="meta-chip">Advanced difficulty</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -146,7 +159,27 @@ description: "Master MMA Crossover Strategy for BJJ. Comprehensive framework ada
 
 ## What is MMA Crossover Strategy?
 
-MMA Crossover Strategy represents the systematic adaptation of Brazilian Jiu-Jitsu techniques for mixed martial arts competition, where striking threats fundamentally alter positional priorities and technical execution. This comprehensive framework addresses the unique challenges of grappling in a striking environment: maintaining defensive posture against strikes, utilizing cage geometry for positional advantage, modifying traditional submissions for strike-heavy scenarios, and implementing ground-and-pound strategies. The system emphasizes positions that offer strike protection while maintaining offensive capability, transitions that minimize exposure to strikes, and submissions that can be secured quickly before opponents create striking opportunities. Success in MMA grappling requires abandoning certain high-risk BJJ techniques in favor of conservative, strike-aware positioning combined with explosive finishing sequences when opportunities present themselves.
+**The MMA Crossover Strategy is a competition framework that adapts Brazilian Jiu-Jitsu for striking environments, prioritizing strike-aware posture, cage geometry, wrestling-based top control, ground-and-pound, and explosive high-percentage submissions over high-risk traditional guard play.**
+
+As mixed martial arts matured beyond its early grappling-dominant era, competitors learned that pure Brazilian Jiu-Jitsu had to be substantially modified to survive and win under the constant threat of strikes. MMA Crossover Strategy grew out of that evolution, addressing the unique challenges of grappling in a striking environment: maintaining defensive posture against strikes, utilizing cage geometry for positional advantage, modifying traditional submissions for strike-heavy scenarios, and implementing ground-and-pound strategies. The system emphasizes positions that offer strike protection while maintaining offensive capability, transitions that minimize exposure to strikes, and submissions that can be secured quickly before opponents create striking opportunities. Success in MMA grappling requires abandoning certain high-risk BJJ techniques in favor of conservative, strike-aware positioning combined with explosive finishing sequences when opportunities present themselves.
+
+</section>
+
+
+
+<section id="unlock-graph" class="content-section system-unlock" data-system-unlock hidden>
+
+## Unlock this part of the graph
+
+<p class="section-subtitle">This system teaches the highlighted nodes in the graph. Mark what you already know &mdash; be honest, it's your game.</p>
+
+<div class="system-progress" data-system-progress>
+<svg class="system-progress__ring" viewBox="0 0 44 44" aria-hidden="true"><circle class="system-progress__ring-bg" cx="22" cy="22" r="19"></circle><circle class="system-progress__ring-fill" cx="22" cy="22" r="19"></circle></svg>
+<div class="system-progress__text">You've unlocked <strong class="system-progress__known">0</strong> / <span class="system-progress__total">0</span> techniques in this system</div>
+<button class="system-progress__mark-all" data-mark-system type="button">Mark whole system as known</button>
+</div>
+
+<ul class="system-members" data-system-members></ul>
 
 </section>
 

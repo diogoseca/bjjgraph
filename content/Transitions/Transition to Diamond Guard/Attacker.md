@@ -282,7 +282,7 @@ As the attacker executing the Transition to Diamond Guard, your objective is to 
 
 ### 4. Telegraphing the overhook by visibly reaching toward the opponent's arm before they position it within range
 
-- **Consequence**: The opponent retract their arm, denying the entry and potentially capitalizing on your extended arm position to establish their own grips or begin a guard break while you are out of position.
+- **Consequence**: The opponent retracts their arm, denying the entry and potentially capitalizing on your extended arm position to establish their own grips or begin a guard break while you are out of position.
 - **Correction**: Wait for the opponent to place their arm inside your guard naturally — when they frame on your chest, reach for a grip, or attempt to control your hips. React to their arm positioning rather than hunting it proactively.
 
 ### 5. Maintaining a flat, square hip position instead of angling toward the overhook side
@@ -332,5 +332,7 @@ Incorporate the transition into live sparring with the specific objective of est
 The Transition to Diamond Guard is a relatively low-risk grip transition that does not involve direct joint manipulation or choking mechanics. The primary safety concern is shoulder strain from aggressive overhook application, particularly if the overhook is cranked deeply while the opponent resists by pulling their arm backward forcefully. Training partners should communicate immediately if overhook pressure creates uncomfortable shoulder rotation or impingement. Practitioners should avoid explosive or jerky overhook entries that could surprise a training partner and cause strain. The transition itself poses minimal injury risk compared to the submissions that follow from diamond guard, which carry their own significant safety requirements.
 
 </section>
+
+
 
 </main>

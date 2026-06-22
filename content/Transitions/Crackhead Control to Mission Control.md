@@ -10,6 +10,41 @@ description: "Master Crackhead Control to Mission Control in BJJ. Reset from hig
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Crackhead Control to Mission Control",
+  "description": "Master Crackhead Control to Mission Control in BJJ. Reset from high-risk overhook to stable rubber guard. Complete guide with setup, execution, and counters.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Crackhead Control to Mission Control", "item": "https://bjjgraph.org/Transitions/Crackhead-Control-to-Mission-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Crackhead Control to Mission Control",
+  "description": "Crackhead Control to Mission Control is a 10th Planet rubber guard reset where the bottom player releases the deep overhook and threads the high-guard leg across the shoulder, trading a high-risk overhook attack for stable shoulder-isolating control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Crackhead Control to Mission Control in BJJ. Reset from hig
 </div>
 
 <section id="overview" class="content-section">
+
+**Crackhead Control to Mission Control is a 10th Planet rubber guard reset where the bottom player releases the deep overhook and threads the high-guard leg across the shoulder, trading a high-risk overhook attack for stable shoulder-isolating control.**
 
 The Crackhead Control to Mission Control transition represents a strategic reset within the 10th Planet rubber guard system, allowing the bottom player to move from a high-risk, high-reward attacking position to a more stable control platform. This transition becomes essential when the opponent begins recovering posture, when back exposure risk becomes too significant, or when you want to consolidate control before launching a new submission chain.
 
@@ -226,5 +263,7 @@ The Crackhead Control to Mission Control transition represents a critical pathwa
 
 
 </section>
+
+
 
 </main>

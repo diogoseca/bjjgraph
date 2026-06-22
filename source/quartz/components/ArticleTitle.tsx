@@ -1,7 +1,5 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { classNames } from "../util/lang"
-// @ts-ignore
-import titleAddScript from "./scripts/titleAddTraining.inline"
 
 const ArticleTitle: QuartzComponent = ({ fileData, displayClass }: QuartzComponentProps) => {
   const title = fileData.frontmatter?.title
@@ -42,7 +40,6 @@ const ArticleTitle: QuartzComponent = ({ fileData, displayClass }: QuartzCompone
       <h1 class={classNames(displayClass, "article-title")}>
         {titleMain}
         {hasRole && <span class="title-role"> {roleWord}</span>}
-        {isContentPage && <span class="title-add-training" id="title-add-training"></span>}
       </h1>
     )
   } else {
@@ -76,5 +73,4 @@ ArticleTitle.css = `
 }
 `
 
-ArticleTitle.afterDOMLoaded = titleAddScript
 export default (() => ArticleTitle) satisfies QuartzComponentConstructor

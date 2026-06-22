@@ -10,10 +10,55 @@ description: "Master the calf slicer from backside 50-50 with expert finishing m
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Calf Slicer from Backside 50-50 targets the Calf muscle and Achilles tendon. Risk: Calf muscle tear or rupture. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Calf Slicer from Backside 50-50",
+  "description": "Master the calf slicer from backside 50-50 with expert finishing mechanics, defensive strategies, safety protocols, and progressive training methods.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Calf Slicer from Backside 50-50", "item": "https://bjjgraph.org/Submissions/Calf-Slicer-from-Backside-50-50" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Calf Slicer from Backside 50-50",
+  "description": "The calf slicer from backside 50-50 is a leg-compression submission that folds the opponent's bent knee over the attacker's shin, crushing the calf muscle and Achilles tendon when they curl the leg to hide their heel from a heel hook.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The calf slicer from backside 50-50 is a leg-compression submission that folds the opponent's bent knee over the attacker's shin, crushing the calf muscle and Achilles tendon when they curl the leg to hide their heel from a heel hook.**
+<div class="principle-meta">
+<span class="meta-chip">Compression</span>
+<span class="meta-chip">Leg Compression</span>
+<span class="meta-chip">Targets Calf muscle and Achilles tendon</span>
+<span class="meta-chip">50% success</span>
+</div>
+
+> [!danger] Safety
+> Calf Slicer from Backside 50-50 targets the Calf muscle and Achilles tendon. Primary risk: Calf muscle tear or rupture. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,55 +75,7 @@ The attack typically develops when the opponent bends their knee defensively aga
 
 This submission serves as a critical secondary threat within the backside 50-50 system. When opponents become proficient at defending heel hooks by hiding their heels, the calf slicer punishes their bent-leg defensive posture. Competition practitioners at purple belt and above should develop this attack as part of their complete leg lock arsenal, recognizing that the threat of the calf slicer forces opponents into positions where heel hooks become more accessible.
 
-**Category**: Compression
-**Type**: Leg Compression
-**Target Area**: Calf muscle and Achilles tendon
-**Starting Position**: [[Positions/Ashi Garami/Backside 50-50]]
-**From Position**: [[Positions/Ashi Garami/Backside 50-50]] (Top)
-**Success Rate**: 50%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Calf muscle tear or rupture | High | 6-12 weeks minimum, potential permanent damage |
-| Achilles tendon strain or rupture | CRITICAL | 6-12 months, often requires surgery |
-| Nerve damage to peroneal or tibial nerves | High | Weeks to months, potential permanent numbness |
-| Deep tissue bruising and compartment syndrome | Medium | 2-4 weeks, rare cases require emergency surgery |
-
-
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum in training, never spike or jerk
-
-**Tap Signals**:
-- Verbal tap (encouraged due to leg entanglement)
-- Physical hand tap on partner or mat
-- Physical foot tap if hands trapped
-- Any distress vocalization or signal
-- Slapping mat with free hand multiple times
-
-
-**Release Protocol**:
-1. Immediately release foot grip upon tap signal
-2. Remove shin pressure from calf slowly and controlled
-3. Unwrap legs carefully without jerking movements
-4. Allow partner to extend leg naturally before disengaging
-5. Check partner's mobility and sensation before continuing training
-
-
-**Training Restrictions**:
-- Never apply at competition speed in training
-- Never spike or jerk the compression
-- Never hold after tap to finish the position
-- Always allow immediate tap access with both hands
-- Prohibited for colored belts below brown belt in most organizations
-- Never practice on partners with previous calf injuries without explicit consent
-
+**Starting Position**: [[Positions/Ashi Garami/Backside 50-50]] · **From**: [[Positions/Ashi Garami/Backside 50-50]] (Top)
 
 </section>
 
@@ -237,40 +234,62 @@ This submission serves as a critical secondary threat within the backside 50-50 
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Calf Slicer]]
 - [[Transitions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
 - [[Submissions/Banana Split]]
 - [[Submissions/Bicep Slicer]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Ashi Garami/Backside 50-50]] - Primary starting position for this submission variant
 - [[Positions/Ashi Garami/50-50 Guard]] - Related leg entanglement where calf slicer can also be applied
-- [[Transitions/Heel Hook]] - Primary alternative leg attack that creates the bent-knee opening for calf slicer
-- [[Submissions/Calf Slicer]] - Parent submission family with generic mechanics
-- [[Submissions/Inside Heel Hook]] - Complementary leg attack from similar entanglement positions
+
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Calf muscle tear or rupture | High | 6-12 weeks minimum, potential permanent damage |
+| Achilles tendon strain or rupture | CRITICAL | 6-12 months, often requires surgery |
+| Nerve damage to peroneal or tibial nerves | High | Weeks to months, potential permanent numbness |
+| Deep tissue bruising and compartment syndrome | Medium | 2-4 weeks, rare cases require emergency surgery |
+
+
+**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum in training, never spike or jerk
+
+**Tap Signals**:
+- Verbal tap (encouraged due to leg entanglement)
+- Physical hand tap on partner or mat
+- Physical foot tap if hands trapped
+- Any distress vocalization or signal
+- Slapping mat with free hand multiple times
+
+
+**Release Protocol**:
+1. Immediately release foot grip upon tap signal
+2. Remove shin pressure from calf slowly and controlled
+3. Unwrap legs carefully without jerking movements
+4. Allow partner to extend leg naturally before disengaging
+5. Check partner's mobility and sensation before continuing training
+
+
+**Training Restrictions**:
+- Never apply at competition speed in training
+- Never spike or jerk the compression
+- Never hold after tap to finish the position
+- Always allow immediate tap access with both hands
+- Prohibited for colored belts below brown belt in most organizations
+- Never practice on partners with previous calf injuries without explicit consent
 
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Calf Slicer from Backside 50-50 leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

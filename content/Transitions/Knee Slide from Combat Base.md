@@ -10,6 +10,41 @@ description: "Master the Knee Slide from Combat Base in BJJ. High-percentage gua
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Knee Slide from Combat Base",
+  "description": "Master the Knee Slide from Combat Base in BJJ. High-percentage guard pass combining crossface pressure with knee cut mechanics to achieve side control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Knee Slide from Combat Base", "item": "https://bjjgraph.org/Transitions/Knee-Slide-from-Combat-Base" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Knee Slide from Combat Base",
+  "description": "The Knee Slide from Combat Base is a high-percentage pressure guard pass where the top player drives the lead knee diagonally across the opponent's trapped thigh while controlling the upper body with a crossface, cutting through to side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Knee Slide from Combat Base in BJJ. High-percentage gua
 
 <section id="overview" class="content-section">
 
-The Knee Slide from Combat Base—also known as the knee cut—is one of the highest-percentage guard passes in Brazilian Jiu-Jitsu. Initiated from combat base, this technique involves driving the lead knee diagonally across the opponent's thigh line while simultaneously controlling their upper body with crossface and underhook grips. The cutting angle of the knee, combined with forward hip pressure, creates a passing force that separates the opponent's legs and opens a direct path to side control.
+**The Knee Slide from Combat Base is a high-percentage pressure guard pass where the top player drives the lead knee diagonally across the opponent's trapped thigh while controlling the upper body with a crossface, cutting through to side control.**
+
+Regarded as one of the highest-percentage guard passes in Brazilian Jiu-Jitsu, the Knee Slide from Combat Base—also called the knee cut—earns its reputation through methodical pressure rather than speed. The cutting angle of the lead knee, combined with forward hip pressure and tight crossface control, creates a passing force that separates the opponent's legs and opens a direct path to side control, making it equally reliable for beginners and elite competitors.
 
 The strategic value of this pass lies in its versatility and reliability across all levels of competition. Unlike speed-based passes that rely on narrow timing windows, the knee slide uses methodical pressure and upper body control to systematically dismantle guard structures. The technique works equally well in gi and no-gi, though grip variations differ. In the gi, collar and lapel grips provide additional control points, while no-gi relies more heavily on underhook position and head control through the crossface.
 
@@ -224,5 +261,7 @@ The knee slide from combat base occupies a central position in the guard passing
 
 
 </section>
+
+
 
 </main>

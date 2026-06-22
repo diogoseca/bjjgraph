@@ -10,6 +10,41 @@ description: "Master Crucifix position in BJJ. Dominant arm-trapping control wit
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Crucifix",
+  "description": "Master Crucifix position in BJJ. Dominant arm-trapping control with high submission rate. Complete guide covering both perspectives, entries, submissions, and escapes.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Crucifix", "item": "https://bjjgraph.org/Positions/Crucifix" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Crucifix",
+  "description": "The Crucifix is a dominant BJJ control position that isolates both of the opponent's arms simultaneously—one trapped by the legs, the other pinned by the hands—stripping their defenses and opening high-percentage choke and arm-attack finishes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Crucifix position in BJJ. Dominant arm-trapping control wit
 </div>
 
 <section id="overview" class="content-section">
+
+**The Crucifix is a dominant BJJ control position that isolates both of the opponent's arms simultaneously—one trapped by the legs, the other pinned by the hands—stripping their defenses and opening high-percentage choke and arm-attack finishes.**
 
 The Crucifix position represents one of the most dominant and devastating control positions in Brazilian Jiu-Jitsu, characterized by the systematic isolation and control of both of the opponent's arms simultaneously. The position derives its name from the cross-like appearance created when both arms are trapped and extended away from the body, rendering the opponent virtually defenseless against submissions and positional advances.
 
@@ -102,8 +139,6 @@ Mastery of the Crucifix from both perspectives—understanding how to establish 
 ### Available Transitions
 
 
-- **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** (40% of attempts)
-
 - **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** (12% of attempts)
 
 - **[[Transitions/Defensive Roll/Attacker|Defensive Roll]]** (12% of attempts)
@@ -114,7 +149,7 @@ Mastery of the Crucifix from both perspectives—understanding how to establish 
 
 - **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (7% of attempts)
 
-- **[[Transitions/Arm Recovery from Crucifix/Attacker|Arm Recovery from Crucifix]]** (3% of attempts)
+- **[[Transitions/Arm Recovery from Crucifix/Attacker|Arm Recovery from Crucifix]]** (43% of attempts)
 
 - **[[Transitions/Crucifix Choke Defense/Attacker|Crucifix Choke Defense]]** (1% of attempts)
 
@@ -183,11 +218,11 @@ Mastery of the Crucifix from both perspectives—understanding how to establish 
 
 - **[[Kimura from Crucifix/Attacker|Kimura from Crucifix]]** (6% of attempts)
 
-- **[[Transitions/Back Control Maintenance/Attacker|Back Control Maintenance]]** (19% of attempts)
+- **[[Transitions/Back Control Maintenance/Attacker|Back Control Maintenance]]** (18% of attempts)
 
-- **[[Submissions/Choke from Crucifix/Attacker|Choke from Crucifix]]** (39% of attempts)
+- **[[Submissions/Choke from Crucifix/Attacker|Choke from Crucifix]]** (38% of attempts)
 
-- **[[Transitions/Armbar from Crucifix/Attacker|Armbar from Crucifix]]** (16% of attempts)
+- **[[Transitions/Armbar from Crucifix/Attacker|Armbar from Crucifix]]** (15% of attempts)
 
 - **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (6% of attempts)
 
@@ -195,7 +230,9 @@ Mastery of the Crucifix from both perspectives—understanding how to establish 
 
 - **[[Transitions/Crucifix to Mount/Attacker|Crucifix to Mount]]** (2% of attempts)
 
-- **[[Submissions/Bicep Slicer/Attacker|Bicep Slicer]]** (1% of attempts)
+- **[[Submissions/Bicep Slicer/Attacker|Bicep Slicer]]** (2% of attempts)
+
+- **[[Bicep Slicer from Crucifix/Attacker|Bicep Slicer from Crucifix]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -250,6 +287,20 @@ Mastery of the Crucifix from both perspectives—understanding how to establish 
 
 - **[[Positions/North-South]]** - Alternative dominant position accessible from crucifix transitions
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Danaher-Front-Headlock-System" data-cta="related-system-card" data-system-slug="systems/danaher-front-headlock-system" data-system-name="Danaher Front Headlock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Danaher Front Headlock System</span><span class="system-card__unlocks-badge">Unlocks 30 techniques</span><span class="system-card__blurb">Alternative finishing position from front headlock spiral mechanics</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Control System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Submission-Clinic-System" data-cta="related-system-card" data-system-slug="systems/submission-clinic-system" data-system-name="Submission Clinic System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Submission Clinic System</span><span class="system-card__unlocks-badge">Unlocks 30 techniques</span><span class="system-card__blurb">Maximum control position with both arms isolated for finishing</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Danaher Straight Jacket System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Related arm control position that shares principles of upper body immobilization with straight jacket configuration</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Back-Attack-System" data-cta="related-system-card" data-system-slug="systems/back-attack-system" data-system-name="Back Attack System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Back Attack System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Advanced control variation accessed from persistent back defense</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Back-Defense-Protocol" data-cta="related-system-card" data-system-slug="systems/back-defense-protocol" data-system-name="Back Defense Protocol" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Back Defense Protocol</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Position to avoid when escaping back control improperly</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

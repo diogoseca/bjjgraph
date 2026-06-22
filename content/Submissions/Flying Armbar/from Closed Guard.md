@@ -10,10 +10,55 @@ description: "Master the Flying Armbar technique in BJJ. High-risk aerial submis
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Flying Armbar from Closed Guard targets the Elbow joint and shoulder. Risk: Elbow hyperextension or ligament tears (opponent). Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Flying Armbar from Closed Guard",
+  "description": "Master the Flying Armbar technique in BJJ. High-risk aerial submission targeting elbow joint with dynamic entry. Complete guide with safety protocols and defense.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Flying Armbar from Closed Guard", "item": "https://bjjgraph.org/Submissions/Flying-Armbar-from-Closed-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Flying Armbar from Closed Guard",
+  "description": "Flying Armbar from Closed Guard is a high-risk aerial submission where you trap the standing opponent's arm, swing your hips upward, and rotate into an armbar mid-flight to hyperextend their elbow as you land.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**Flying Armbar from Closed Guard is a high-risk aerial submission where you trap the standing opponent's arm, swing your hips upward, and rotate into an armbar mid-flight to hyperextend their elbow as you land.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Arm Lock</span>
+<span class="meta-chip">Targets Elbow joint and shoulder</span>
+<span class="meta-chip">40% success</span>
+</div>
+
+> [!danger] Safety
+> Flying Armbar from Closed Guard targets the Elbow joint and shoulder. Primary risk: Elbow hyperextension or ligament tears (opponent). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,56 +75,7 @@ Historically popularized in mixed martial arts and sport jiu-jitsu competition, 
 
 While spectacular when successful, the Flying Armbar carries significant risks in both training and competition. Mistiming the entry can result in failed attempts that leave you vulnerable to passes or counterattacks. More critically, the dynamic nature of the technique presents injury risks to both practitioners when executed without proper control. This submission should only be attempted by advanced practitioners who have mastered fundamental armbar mechanics and developed the athletic ability required for safe execution.
 
-**Category**: Joint Lock
-**Type**: Arm Lock
-**Target Area**: Elbow joint and shoulder
-**Starting Position**: [[Positions/Closed Guard]]
-**From Position**: [[Positions/Closed Guard]] (Bottom)
-**Success Rate**: 40%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Elbow hyperextension or ligament tears (opponent) | CRITICAL | 6-12 months with surgery possible |
-| Neck and spine compression from landing (practitioner) | High | 2-8 weeks depending on severity |
-| Shoulder dislocation (opponent) | High | 3-6 months |
-| Head and facial impact injuries | Medium | 1-4 weeks |
-
-
-**Application Speed**: EXTREMELY SLOW in training - 5-7 seconds minimum from entry to finish. NEVER use competition speed in drilling. Allow partner to safely position themselves.
-
-**Tap Signals**:
-- Verbal tap (most important during aerial techniques)
-- Physical hand tap (multiple rapid taps)
-- Physical foot tap or stomp
-- Any distress signal or protective movement
-- Partner going limp or unresponsive
-
-
-**Release Protocol**:
-1. Immediately release hip pressure and leg grip
-2. Release arm control while supporting opponent's arm
-3. Allow opponent to safely extract their arm
-4. Assist partner in sitting up if they landed awkwardly
-5. Check for any signs of injury before continuing
-
-
-**Training Restrictions**:
-- Never spike or jump aggressively onto opponent's arm
-- Never use full competition speed in training
-- Always ensure mat space is clear before attempting
-- Never practice on partners significantly smaller than you
-- Prohibit this technique for white belts and most blue belts
-- Always have experienced instructor supervision when learning
-- Never combine with other dynamic movements in drilling
-
+**Starting Position**: [[Positions/Closed Guard]] · **From**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
 
@@ -257,10 +253,9 @@ While spectacular when successful, the Flying Armbar carries significant risks i
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Armbar]]
 - [[Submissions/Triangle Choke]]
 - [[Transitions/Arm Triangle]]
@@ -271,36 +266,58 @@ While spectacular when successful, the Flying Armbar carries significant risks i
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Kimura]]
 - [[Transitions/Guillotine Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
-- [[Submissions/Far Side Armbar]] - Fundamental armbar variant - master ground-based armbar mechanics before attempting flying version
-- [[Submissions/Triangle Choke]] - Primary backup submission if flying armbar entry succeeds but arm escapes
 - [[Positions/Closed Guard]] - Common starting position for flying armbar setup
 - [[Positions/Spider Guard]] - Alternative guard position providing excellent flying armbar entries
-- [[Submissions/Belly Down Armbar]] - Related armbar finish that shares core hip and arm isolation mechanics with the flying version
 - [[Positions/Open Guard]] - Provides standing opponent scenarios ideal for flying armbar attempts
 - [[Positions/De La Riva Guard]] - Advanced guard position that can transition to flying submissions
-- [[Submissions/Omoplata]] - Alternative shoulder attack from similar guard positions
-- [[Submissions/Flying Kneebar]] - Related aerial leg lock requiring similar athletic ability and timing
 - [[Positions/Armbar Control]] - Control position established after successful aerial entry
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Elbow hyperextension or ligament tears (opponent) | CRITICAL | 6-12 months with surgery possible |
+| Neck and spine compression from landing (practitioner) | High | 2-8 weeks depending on severity |
+| Shoulder dislocation (opponent) | High | 3-6 months |
+| Head and facial impact injuries | Medium | 1-4 weeks |
+
+
+**Application Speed**: EXTREMELY SLOW in training - 5-7 seconds minimum from entry to finish. NEVER use competition speed in drilling. Allow partner to safely position themselves.
+
+**Tap Signals**:
+- Verbal tap (most important during aerial techniques)
+- Physical hand tap (multiple rapid taps)
+- Physical foot tap or stomp
+- Any distress signal or protective movement
+- Partner going limp or unresponsive
+
+
+**Release Protocol**:
+1. Immediately release hip pressure and leg grip
+2. Release arm control while supporting opponent's arm
+3. Allow opponent to safely extract their arm
+4. Assist partner in sitting up if they landed awkwardly
+5. Check for any signs of injury before continuing
+
+
+**Training Restrictions**:
+- Never spike or jump aggressively onto opponent's arm
+- Never use full competition speed in training
+- Always ensure mat space is clear before attempting
+- Never practice on partners significantly smaller than you
+- Prohibit this technique for white belts and most blue belts
+- Always have experienced instructor supervision when learning
+- Never combine with other dynamic movements in drilling
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Flying Armbar from Closed Guard leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

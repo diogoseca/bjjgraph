@@ -10,6 +10,41 @@ description: "Master the Reguard from Butterfly Half Guard in BJJ. Recover full 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Reguard from Butterfly Half Guard",
+  "description": "Master the Reguard from Butterfly Half Guard in BJJ. Recover full butterfly guard through precise hip mechanics, frames, and trapped leg extraction timing.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Reguard from Butterfly Half Guard", "item": "https://bjjgraph.org/Transitions/Reguard-from-Butterfly-Half-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Reguard from Butterfly Half Guard",
+  "description": "Reguard from Butterfly Half Guard is a guard-recovery transition where the bottom player frees their trapped half-guard leg and reinserts it as a second butterfly hook, upgrading from butterfly half guard to full butterfly guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Reguard from Butterfly Half Guard in BJJ. Recover full 
 
 <section id="overview" class="content-section">
 
-The Reguard from Butterfly Half Guard is a guard retention technique where the bottom player extracts their trapped leg from the half guard entanglement and inserts it as a second butterfly hook, upgrading to full butterfly guard. This transition addresses situations where maintaining butterfly half guard becomes disadvantageous—whether the top player is close to passing, the butterfly hook alone provides insufficient leverage for sweeps, or the practitioner seeks the superior offensive platform that full butterfly guard offers with its dual-hook elevation mechanics.
+**Reguard from Butterfly Half Guard is a guard-recovery transition where the bottom player frees their trapped half-guard leg and reinserts it as a second butterfly hook, upgrading from butterfly half guard to full butterfly guard.**
+
+Within the butterfly half guard system, this reguard serves as the practitioner's primary path back to a fully dynamic guard when the hybrid position stops paying off. It addresses situations where maintaining butterfly half guard becomes disadvantageous—whether the top player is close to passing, the butterfly hook alone provides insufficient leverage for sweeps, or the practitioner seeks the superior offensive platform that full butterfly guard offers with its dual-hook elevation mechanics.
 
 Strategically, this reguard occupies an important role in the butterfly half guard system as a reset mechanism. When primary attacks like the 100% sweep or old school sweep are being shut down, and transitions to deep half or dogfight are not available, recovering full butterfly guard provides a fresh set of offensive options. The technique requires creating sufficient space through hip escapes and frames while maintaining enough connection to prevent the top player from capitalizing on the movement. The timing window is narrow—too slow and the opponent establishes dominant pressure, too explosive without proper frames and the space created becomes a passing lane for the top player.
 
@@ -218,5 +255,7 @@ The Reguard from Butterfly Half Guard serves as a critical reset mechanism withi
 
 
 </section>
+
+
 
 </main>

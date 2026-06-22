@@ -21,7 +21,7 @@ description: "Master Scarf Hold Top (Kesa Gatame) in BJJ. Traditional judo pinni
     {
       "@type": "HowToStep",
       "name": "Execute Americana from Scarf Hold Position",
-      "text": "From this position, attempt Americana from Scarf Hold Position. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Americana from Scarf Hold Position. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
     },
     {
@@ -33,13 +33,13 @@ description: "Master Scarf Hold Top (Kesa Gatame) in BJJ. Traditional judo pinni
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to North-South",
-      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 24% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 23% of exchanges from this position.",
       "position": 4
     },
     {
@@ -51,7 +51,7 @@ description: "Master Scarf Hold Top (Kesa Gatame) in BJJ. Traditional judo pinni
     {
       "@type": "HowToStep",
       "name": "Execute Arm Triangle from Scarf Hold Position",
-      "text": "From this position, attempt Arm Triangle from Scarf Hold Position. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Arm Triangle from Scarf Hold Position. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -336,5 +336,7 @@ Start in scarf hold top and chain between Americana, arm triangle, and kimura se
 
 
 </section>
+
+
 
 </main>

@@ -2,8 +2,13 @@
   "name": "Closed Guard",
   "slug": "closed-guard",
   "description": "Master the closed guard in BJJ. Complete strategic guide to bottom player offensive control and top player defensive posture, guard opening, and passing.",
+  "aliases": [
+    "Full Guard",
+    "Guarda Fechada"
+  ],
   "variant_uniqueness": "Bottom offensive despite being underneath",
-  "overview": "Closed Guard represents one of the most fundamental and strategically complex positions in Brazilian Jiu-Jitsu, where the bottom player wraps their legs around the opponent's waist with ankles locked behind the back. This position creates a unique strategic dynamic where the bottom player, despite being underneath, possesses significant control and offensive capability while the top player, despite being on top, finds themselves in a fundamentally defensive position requiring systematic escape.\n\nThe closed guard exemplifies BJJ's core principle of using leverage and technique to overcome positional disadvantage. From the bottom perspective, the closed guard serves as both a defensive barrier preventing advancement and an offensive platform for sweeps, submissions, and transitions. The locked legs create a closed kinetic chain that allows control of the opponent's hips while threatening their upper body, forcing them to defend multiple attack vectors simultaneously.\n\nFrom the top perspective, closed guard presents a challenging defensive scenario where maintaining posture, fighting grips, and working toward guard opening become essential survival skills before any passing attempts can succeed. The position tests fundamental concepts of base, balance, and defensive awareness while under constant submission and sweep threats.\n\nThe closed guard's versatility across gi and no-gi competition, its effectiveness in self-defense scenarios, and its presence at all skill levels from white belt through black belt make it arguably the most studied position in grappling. Understanding both perspectives - the bottom player's offensive control system and the top player's defensive escape progression - is essential for complete positional mastery. This position serves as the foundation for countless advanced guard systems and remains relevant even as modern leg entanglement and dynamic guard systems have evolved the sport.",
+  "summary": "Closed Guard is the bottom-player guard where the legs encircle the opponent's torso with ankles crossed behind their back, granting sweeps, submissions, and posture control from underneath while denying the top player any path to pass.",
+  "overview": "Closed Guard represents one of the most fundamental and strategically complex positions in Brazilian Jiu-Jitsu, and is arguably the first guard every practitioner learns. This position creates a unique strategic dynamic where the bottom player, despite being underneath, possesses significant control and offensive capability while the top player, despite being on top, finds themselves in a fundamentally defensive position requiring systematic escape.\n\nThe closed guard exemplifies BJJ's core principle of using leverage and technique to overcome positional disadvantage. From the bottom perspective, the closed guard serves as both a defensive barrier preventing advancement and an offensive platform for sweeps, submissions, and transitions. The locked legs create a closed kinetic chain that allows control of the opponent's hips while threatening their upper body, forcing them to defend multiple attack vectors simultaneously.\n\nFrom the top perspective, closed guard presents a challenging defensive scenario where maintaining posture, fighting grips, and working toward guard opening become essential survival skills before any passing attempts can succeed. The position tests fundamental concepts of base, balance, and defensive awareness while under constant submission and sweep threats.\n\nThe closed guard's versatility across gi and no-gi competition, its effectiveness in self-defense scenarios, and its presence at all skill levels from white belt through black belt make it arguably the most studied position in grappling. Understanding both perspectives - the bottom player's offensive control system and the top player's defensive escape progression - is essential for complete positional mastery. This position serves as the foundation for countless advanced guard systems and remains relevant even as modern leg entanglement and dynamic guard systems have evolved the sport.",
   "key_principles": [
     "Bottom player controls distance and posture through combined leg squeeze and grip pressure",
     "Top player prioritizes structural integrity and posture maintenance above all passing attempts",
@@ -109,11 +114,11 @@
     "transitions": [
       {
         "transition": "Posture Recovery",
-        "attempt_probability": 32
+        "attempt_probability": 31
       },
       {
         "transition": "Guard Opening Sequence",
-        "attempt_probability": 27
+        "attempt_probability": 26
       },
       {
         "transition": "Standing up in Base",
@@ -137,6 +142,10 @@
       },
       {
         "transition": "Can Opener",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Can Opener from Closed Guard",
         "attempt_probability": 2
       }
     ],
@@ -407,107 +416,143 @@
     "transitions": [
       {
         "transition": "Hip Bump Sweep",
-        "attempt_probability": 23
+        "attempt_probability": 16
+      },
+      {
+        "transition": "Wrist Lock",
+        "attempt_probability": 3
       },
       {
         "transition": "Scissor Sweep",
-        "attempt_probability": 10
+        "attempt_probability": 7
       },
       {
         "transition": "Triangle Setup",
-        "attempt_probability": 9
-      },
-      {
-        "transition": "Cross Collar Choke from Closed Guard",
-        "attempt_probability": 7
-      },
-      {
-        "transition": "Pendulum Sweep",
-        "attempt_probability": 7
-      },
-      {
-        "transition": "Guillotine Setup",
         "attempt_probability": 6
       },
       {
+        "transition": "Cross Collar Choke from Closed Guard",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Pendulum Sweep",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Guillotine Setup",
+        "attempt_probability": 5
+      },
+      {
         "transition": "Kimura Sweep",
-        "attempt_probability": 4
+        "attempt_probability": 3
       },
       {
         "transition": "Rolling Armbar from Closed Guard",
-        "attempt_probability": 4
+        "attempt_probability": 3
       },
       {
         "transition": "Flower Sweep",
-        "attempt_probability": 3
+        "attempt_probability": 2
       },
       {
         "transition": "Kimura to Back Take",
-        "attempt_probability": 3
+        "attempt_probability": 2
       },
       {
         "transition": "Tarikoplata",
-        "attempt_probability": 3
+        "attempt_probability": 2
       },
       {
         "transition": "Elevator Sweep",
-        "attempt_probability": 2
+        "attempt_probability": 1
       },
       {
         "transition": "Overhook Sweep",
-        "attempt_probability": 2
+        "attempt_probability": 1
       },
       {
         "transition": "Omoplata Sweep",
-        "attempt_probability": 2
+        "attempt_probability": 1
       },
       {
         "transition": "Spinning Armbar",
-        "attempt_probability": 2
+        "attempt_probability": 1
       },
       {
         "transition": "Closed Guard to Triangle",
-        "attempt_probability": 2
+        "attempt_probability": 1
       },
       {
         "transition": "Monoplata from Guard",
-        "attempt_probability": 2
+        "attempt_probability": 1
       },
       {
         "transition": "Lumberjack Sweep",
-        "attempt_probability": 1
-      },
-      {
-        "transition": "Hip Bump Sweep V2",
-        "attempt_probability": 1
+        "attempt_probability": 2
       },
       {
         "transition": "Closed Guard to Omoplata",
-        "attempt_probability": 1
+        "attempt_probability": 2
       },
       {
         "transition": "Omoplata to Back",
-        "attempt_probability": 1
+        "attempt_probability": 2
       },
       {
         "transition": "Muscle Sweep",
-        "attempt_probability": 1
+        "attempt_probability": 2
       },
       {
         "transition": "Closed Guard to Overhook Guard",
-        "attempt_probability": 1
+        "attempt_probability": 2
       },
       {
         "transition": "High Guard to Rubber Guard",
-        "attempt_probability": 1
+        "attempt_probability": 2
       },
       {
         "transition": "Transition to Diamond Guard",
-        "attempt_probability": 1
+        "attempt_probability": 2
       },
       {
         "transition": "Flying Armbar",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Armbar from Guard",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Flying Armbar from Closed Guard",
         "attempt_probability": 1
+      },
+      {
+        "transition": "Kimura from Guard",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Kneebar from Guard",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Loop Choke from Closed Guard",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Spinning Armbar from Closed Guard",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Tarikoplata from Closed Guard",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Triangle Choke from Closed Guard",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Closed Guard to Hindulotine",
+        "attempt_probability": 5
       }
     ],
     "decision_tree": [

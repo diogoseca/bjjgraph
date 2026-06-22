@@ -3,6 +3,7 @@
   "slug": "reverse-de-la-riva-guard",
   "description": "Master Reverse De La Riva Guard in BJJ. Strategic guide covering inverted hook mechanics, waiter sweeps, berimbolo entries, and kiss of the dragon back takes with complete perspective analysis.",
   "variant_uniqueness": "Inverted hook creates rotational off-balancing",
+  "summary": "Reverse De La Riva Guard is an advanced open guard where the bottom player threads an inverted hook behind the opponent's far leg, generating rotational off-balancing that opens berimbolo back-takes, waiter sweeps, and kiss of the dragon entries.",
   "overview": "Reverse De La Riva Guard (RDLR) is an advanced open guard position that inverts the traditional De La Riva hook orientation, creating unique rotational off-balancing mechanics that specialize in back takes and inversion-based attacks. The position emerged in the early 2000s as competitors developed sophisticated counter-passing systems, with practitioners like Cobrinha and the Miyao brothers demonstrating its offensive potential for creating back exposure opportunities through berimbolo entries and kiss of the dragon techniques.\n\nUnlike traditional De La Riva which focuses on leg entanglements and direct sweeps using a standard hook orientation, Reverse De La Riva threads the near leg through the opponent's far leg from behind, creating an inverted hook structure that generates circular off-balancing patterns. This mechanical difference fundamentally changes the position's strategic purpose—while De La Riva excels at preventing forward pressure and creating direct sweeping opportunities, RDLR specializes in creating angles that expose the opponent's back and facilitate inversion-based attacks.\n\nThe position serves dual purposes in modern BJJ: defensively, it acts as a powerful guard retention tool against knee cut and leg drag passing attempts; offensively, it creates systematic pathways to back control through berimbolo mechanics, waiter sweeps, and crab ride entries. The inverted hook structure naturally pulls the opponent's base in a circular pattern, making it difficult for them to establish stable posture or initiate effective passing sequences. This rotational control creates a dilemma where every defensive choice the opponent makes opens different offensive opportunities—driving forward feeds into waiter sweeps, standing tall exposes them to kiss of the dragon entries, and backstepping creates X-Guard or Single Leg X transitions.\n\nStrategically, RDLR has become increasingly prominent in both gi and no-gi competition due to its effectiveness at creating immediate back-taking opportunities, which are highly valued in modern scoring systems and submission-only formats. The position requires strong hip mobility and core strength to maintain the inverted hook structure under pressure, but rewards practitioners with one of the highest-percentage pathways from guard to back control in contemporary grappling. Understanding RDLR is essential for modern competitors, as it serves as a critical bridge between traditional open guards and modern leg entanglement systems, offering multiple pathways to dominant positions regardless of the opponent's passing style.",
   "key_principles": [
     "Inverted hook orientation creates rotational off-balancing mechanics that differ fundamentally from traditional De La Riva",
@@ -602,11 +603,11 @@
     "transitions": [
       {
         "transition": "Waiter Sweep",
-        "attempt_probability": 12
+        "attempt_probability": 22
       },
       {
         "transition": "Kiss of the Dragon",
-        "attempt_probability": 31
+        "attempt_probability": 14
       },
       {
         "transition": "Berimbolo Entry",
@@ -614,11 +615,11 @@
       },
       {
         "transition": "De La Riva to X-Guard Transition",
-        "attempt_probability": 9
+        "attempt_probability": 12
       },
       {
         "transition": "Single Leg X Entry",
-        "attempt_probability": 10
+        "attempt_probability": 14
       },
       {
         "transition": "Omoplata Sweep",

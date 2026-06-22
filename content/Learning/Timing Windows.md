@@ -94,6 +94,18 @@ description: "Master BJJ timing. Learn to recognize transition moments, weight s
 }
 </script>
 
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Timing Windows",
+  "description": "Timing windows in BJJ are the brief moments—during transitions, weight shifts, and breath cycles—when an opponent's base or attention is compromised, making a technique succeed with minimal force instead of fighting against full resistance.",
+  "inDefinedTermSet": "https://bjjgraph.org/Learning/"
+}
+</script>
+
+
 > **Category**: Strategy
 
 
@@ -103,9 +115,11 @@ description: "Master BJJ timing. Learn to recognize transition moments, weight s
 
 ## What is Timing Windows?
 
+**Timing windows in BJJ are the brief moments—during transitions, weight shifts, and breath cycles—when an opponent's base or attention is compromised, making a technique succeed with minimal force instead of fighting against full resistance.**
+
 In BJJ, the right technique at the wrong time fails. The wrong technique at the right time often succeeds. Timing is the single most important variable in grappling, and yet it is the one most practitioners spend the least time developing. A bridge executed at the exact moment your opponent reaches for a grip is an escape. The same bridge executed two seconds later, when their weight is settled, is a waste of energy.
 
-Timing windows are the brief moments when your opponent is vulnerable to a specific technique. They open during transitions -- when someone is moving from one position to another, their weight is in motion, and their base is temporarily compromised. They open during weight shifts -- when a top player reaches across your body, their weight lifts off one side. They open during breath cycles -- an exhale momentarily reduces core tension, and an inhale occupies the nervous system with something other than defense. They even open during mental transitions -- the split second after someone successfully defends an attack, when they exhale with relief and momentarily relax.
+Timing windows open during transitions -- when someone is moving from one position to another, their weight is in motion, and their base is temporarily compromised. They open during weight shifts -- when a top player reaches across your body, their weight lifts off one side. They open during breath cycles -- an exhale momentarily reduces core tension, and an inhale occupies the nervous system with something other than defense. They even open during mental transitions -- the split second after someone successfully defends an attack, when they exhale with relief and momentarily relax.
 
 Developing timing awareness requires training your perception more than your body. Most beginners can execute a bridge escape from mount -- the mechanics are not complicated. What separates the white belt from the black belt is that the black belt feels the exact microsecond when the mount rider's weight is committed forward for a choke, and bridges at that instant. The technique is the same. The timing makes it unstoppable.
 
@@ -218,16 +232,17 @@ A: During an exhale, core tension decreases and structural integrity is momentar
 <section id="related" class="content-section">
 
 ## Related
-- [[Principles/Timing and Rhythm]] (Principle) - The foundational principle of timing patterns and rhythmic exploitation in grappling
-- [[Principles/Kuzushi]] (Principle) - Off-balancing is most effective when timed to the opponent's natural weight shifts
-- [[Principles/Action and Reaction]] (Principle) - Reactions create timing windows that can be anticipated and exploited
-- [[Principles/Transition Management]] (Principle) - Managing transitions well means both exploiting timing windows and not creating them for your opponent
-- [[Principles/Center of Gravity]] (Principle) - Weight shifts that create timing windows are movements of the center of gravity
-- [[Learning/Predictable Responses]] (Learning) - Predictable responses create timing windows when opponents react to stimuli
-- [[Learning/Economy of Motion]] (Learning) - Perfect timing eliminates wasted motion because well-timed techniques require minimal effort
-- [[Learning/Technique Chaining]] (Learning) - Each link in a chain works because the previous technique created a timing window for the next
-- [[Positions/Mount]] (Position) - Mount escapes and mount attacks are heavily timing-dependent based on weight shifts
-- [[Positions/Knee on Belly]] (Position) - Knee on belly creates timing windows through pressure that provokes defensive reactions
+- [[Kuzushi]] (Principle) - Off-balancing is most effective when timed to the opponent's natural weight shifts
+- [[Action and Reaction]] (Principle) - Reactions create timing windows that can be anticipated and exploited
+- [[Center of Gravity]] (Principle) - Weight shifts that create timing windows are movements of the center of gravity
+- [[Flow Rolling]] (Principle) - Flow rolling builds the sensory awareness needed to feel timing windows open during continuous movement
+- [[Energy Conservation]] (Principle) - Well-timed techniques conserve energy by exploiting moments of vulnerability instead of forcing against resistance
+- [[Predictable Responses]] (Learning) - Predictable responses create timing windows when opponents react to stimuli
+- [[Pattern Interrupts]] (Learning) - Breaking an opponent's rhythm forces transitions that open new timing windows
+- [[Economy of Motion]] (Learning) - Perfect timing eliminates wasted motion because well-timed techniques require minimal effort
+- [[Technique Chaining]] (Learning) - Each link in a chain works because the previous technique created a timing window for the next
+- [[Mount]] (Position) - Mount escapes and mount attacks are heavily timing-dependent based on weight shifts
+- [[Knee on Belly]] (Position) - Knee on belly creates timing windows through pressure that provokes defensive reactions
 
 
 

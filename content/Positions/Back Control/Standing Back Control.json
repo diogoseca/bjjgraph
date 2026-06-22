@@ -3,6 +3,7 @@
   "slug": "standing-back-control",
   "description": "Master standing back control in BJJ. Strategic guide covering when to use standing back attacks, defensive escapes, and maintaining control with complete perspective analysis.",
   "variant_uniqueness": "Vertical stance trades stability for takedowns",
+  "summary": "Standing Back Control is a transitional back-attack position where one grappler stays chest-to-back behind a standing opponent using harness or body-lock control, threatening rear chokes while setting up a mat return to grounded back control.",
   "overview": "Standing Back Control represents a critical transitional position in Brazilian Jiu-Jitsu where one practitioner has achieved back exposure on an opponent while both remain on their feet. This position bridges the gap between standing grappling and ground fighting, combining elements of wrestling-style back takes with traditional BJJ back control mechanics. The standing variant is characterized by chest-to-back connection, some form of upper body control (harness, seat belt, or body lock), and often hook or leg control attempting to break the opponent's base.\n\nFrom the top perspective, Standing Back Control offers unique offensive opportunities unavailable in grounded back control. The standing position allows for forceful takedowns, slam options in certain rulesets, and the psychological advantage of immediate submission threats while maintaining mobility. However, the position is inherently less stable than grounded back control, requiring constant adjustment and dynamic balance management. The top player must decide between consolidating control by taking the fight to the ground or pursuing standing submissions, each choice presenting different risk-reward calculations.\n\nFrom the bottom perspective, Standing Back Control is one of the most vulnerable defensive positions, demanding immediate action to prevent both submission and being forcefully taken down. The bottom player faces the dual challenge of defending neck attacks while simultaneously working to escape back exposure or control the manner in which the fight goes to the ground. Unlike grounded back control where the mat provides additional reference points and defensive leverage, the standing position offers limited defensive tools but also creates opportunities to exploit the inherent instability of vertical grappling.\n\nThe position frequently occurs during scrambles, failed takedown attempts, successful back takes from standing positions, or as a transition from other standing clinch positions. Understanding both perspectives is essential for modern BJJ practitioners, as the position appears regularly in both gi and no-gi contexts, across all skill levels and competition formats. The strategic complexity lies in recognizing when to maintain standing control versus when to transition to grounded positions, and for the defensive player, how to survive immediate threats while working systematic escapes that minimize risk of ending in worse positions.",
   "key_principles": [
     "Standing back control is always transitional - neither player should remain here long, as instability benefits defensive player",
@@ -318,7 +319,7 @@
     "transitions": [
       {
         "transition": "Rear Naked Choke from Standing Back Control",
-        "attempt_probability": 28
+        "attempt_probability": 30
       },
       {
         "transition": "Takedown to Grounded Back Control",
@@ -358,10 +359,6 @@
       },
       {
         "transition": "Bow and Arrow Setup from Standing Back",
-        "attempt_probability": 2
-      },
-      {
-        "transition": "Rear Naked Choke from Standing Back Control",
         "attempt_probability": 2
       }
     ]

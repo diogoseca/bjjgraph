@@ -142,11 +142,24 @@ description: "Master the foundational Bridge and Shrimp movements in BJJ. Learn 
 }
 </script>
 
-> Bridge and Shrimp is a medium complexity BJJ principle applicable at the Fundamental level. Develop over Beginner to Advanced.
 
-**Application Level**: Fundamental
-**Complexity**: Medium
-**Development Timeline**: Beginner to Advanced
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Bridge and Shrimp",
+  "description": "Bridge and Shrimp are the two foundational bottom-position escape movements in BJJ: bridging drives the hips upward to unload an opponent's weight, while shrimping displaces the hips laterally to create the angle needed to recover guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Fundamental</span>
+<span class="meta-chip">Medium complexity</span>
+<span class="meta-chip">Beginner to Advanced</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -154,6 +167,8 @@ description: "Master the foundational Bridge and Shrimp movements in BJJ. Learn 
 <section id="overview" class="content-section">
 
 ## What is Bridge and Shrimp?
+
+**Bridge and Shrimp are the two foundational bottom-position escape movements in BJJ: bridging drives the hips upward to unload an opponent's weight, while shrimping displaces the hips laterally to create the angle needed to recover guard.**
 
 Bridge and Shrimp represent the fundamental escape movement patterns that form the foundation of all BJJ defensive techniques through hip elevation and lateral displacement that create space and enable position recovery from bottom positions. Unlike specific escape techniques, bridge and shrimp are comprehensive movement principles that apply across virtually all bottom scenarios where space creation and positional adjustment are required. These concepts encompass the biomechanical patterns, timing coordination, and strategic applications that transform defensive vulnerability into escape opportunities. Bridge and shrimp serve as both immediate defensive responses that create space under pressure, and foundational movement skills that enable all advanced escapes and position changes. The ability to execute effective bridge and shrimp movements often determines whether a practitioner can escape inferior positions or remains trapped under opponent control, making them the most essential movement patterns in BJJ fundamentals.
 
@@ -367,6 +382,17 @@ Full resistance positional sparring starting from worst-case bottom positions, r
 - [[Kuzushi]] (Principle) - Bridge mechanics directly contribute to sweep execution from guard positions, sharing the same hip elevation and explosive movement patterns
 - [[Center of Gravity]] (Principle) - Understanding opponent's weight distribution is essential for timing bridge and shrimp movements and choosing optimal escape directions
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Teaching-Methodology-Framework" data-cta="related-system-card" data-system-slug="systems/teaching-methodology-framework" data-system-name="Teaching Methodology Framework" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Teaching Methodology Framework</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Essential movement skills for escapes and position improvement throughout curriculum</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Defensive-Prioritization-Framework" data-cta="related-system-card" data-system-slug="systems/defensive-prioritization-framework" data-system-name="Defensive Prioritization Framework" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Defensive Prioritization Framework</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Foundational escape mechanics for mount defense central to the framework&#x27;s positional protocols</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

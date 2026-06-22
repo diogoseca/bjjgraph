@@ -14,7 +14,8 @@
   "application_level": "Fundamental",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
-  "overview": "Dealing with Pressure represents the fundamental skill of maintaining defensive effectiveness, structural integrity, and tactical options when subjected to heavy top pressure from an opponent's controlled position. Unlike specific escape techniques, dealing with pressure is a comprehensive conceptual framework that applies across all bottom positions where opponent applies weight, compression, and control to limit mobility and breathing. This concept encompasses the physical endurance, technical positioning, psychological composure, and strategic approach to surviving and escaping pressure-based control systems. Dealing with pressure serves as both a survival mechanism that prevents submission and positional deterioration, and a foundation for creating escape opportunities through managed space creation and frame maintenance. The ability to effectively deal with pressure often determines whether a practitioner can escape bad positions or succumbs to submission or exhaustion, making it one of the most essential defensive elements in BJJ.",
+  "summary": "Dealing with Pressure is the defensive skill of preserving breathing, structure, and escape options under an opponent's top weight by combining frames, angles, strategic breathing, and psychological composure to survive control and create escapes.",
+  "overview": "In Brazilian Jiu-Jitsu, many top-game specialists win primarily by imposing crushing, suffocating control rather than by chaining submissions, which makes the bottom player's ability to manage that load a decisive skill. Unlike specific escape techniques, dealing with pressure is a comprehensive conceptual framework that applies across all bottom positions where an opponent applies weight, compression, and control to limit mobility and breathing. This concept encompasses the physical endurance, technical positioning, psychological composure, and strategic approach required to survive and escape pressure-based control systems. Dealing with pressure serves as both a survival mechanism that prevents submission and positional deterioration, and a foundation for creating escape opportunities through managed space creation and frame maintenance. The ability to effectively deal with pressure often determines whether a practitioner can escape bad positions or succumbs to submission or exhaustion, making it one of the most essential defensive elements in BJJ.",
   "key_principles": [
     "Establish frames immediately to create minimal space for breathing and movement",
     "Never allow flat back position—maintain angle to one side or hip orientation",
@@ -394,6 +395,44 @@
       "name": "Defensive Prioritization Framework",
       "content_type": "System",
       "relationship": "Systematic approach to defensive decision-making that applies pressure management principles across all bottom positions"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What is the correct defensive priority order when caught under heavy top pressure?",
+      "answer": "Protect against submissions first, preserve breathing second, maintain or recover position third, and seek escapes fourth—never sacrifice a higher priority to chase a lower one."
+    },
+    {
+      "question": "Why is lying completely flat on your back under side control or mount a critical error?",
+      "answer": "A flat back maximizes the opponent's effective pressure surface, kills hip mobility, and eliminates escape angles; turning to your side or creating a hip angle immediately reduces the load."
+    },
+    {
+      "question": "How should you breathe when an opponent's weight is compressing your chest?",
+      "answer": "Use diaphragmatic (belly) breathing rather than shallow chest breaths, and time inhalations with the opponent's weight shifts, creating micro-spaces with small frame adjustments for air."
+    },
+    {
+      "question": "What is the difference between a structural frame and pushing with muscle under pressure?",
+      "answer": "A structural frame uses skeletal alignment—bent forearms, knees, shins—to hold space efficiently, while muscular pushing burns energy, loses the strength battle, and feeds the opponent armbar grips."
+    },
+    {
+      "question": "Why are explosive escape attempts before creating space usually counterproductive?",
+      "answer": "They waste finite energy, trigger the opponent to tighten control reactively, and lead to exhaustion that converts a survivable position into a submission or full positional collapse."
+    },
+    {
+      "question": "How does psychological composure affect pressure defense?",
+      "answer": "Panic accelerates breathing, drives wasteful movement, and causes practitioners to submit to discomfort before any real threat; calm preserves decision-making and pattern recognition."
+    },
+    {
+      "question": "What role does pressure pattern recognition play in escaping?",
+      "answer": "Reading the opponent's weight distribution and transitional moments lets you anticipate weight shifts for submissions or position changes and time defensive reactions or escapes to those windows."
+    },
+    {
+      "question": "How should small, sequential movements be used under pressure rather than big bursts?",
+      "answer": "Accumulate space gradually with mini-shrimps, elbow slides, and hip adjustments, then commit to a full escape only once enough space exists, conserving energy throughout the process."
+    },
+    {
+      "question": "What is the most common breathing mistake under compression and its consequence?",
+      "answer": "Holding the breath or shallow chest breathing accelerates oxygen depletion, amplifies the panic response, and impairs endurance and decision-making, often exceeding the actual physical pressure."
     }
   ]
 }

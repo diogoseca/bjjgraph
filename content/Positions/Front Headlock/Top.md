@@ -21,37 +21,37 @@ description: "Master front headlock control in BJJ. Complete offensive system fo
     {
       "@type": "HowToStep",
       "name": "Execute Guillotine Setup",
-      "text": "From this position, attempt Guillotine Setup. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Guillotine Setup. This technique is attempted in 5% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Anaconda Setup",
-      "text": "From this position, attempt Anaconda Setup. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Front Headlock to Guillotine",
+      "text": "From this position, attempt Front Headlock to Guillotine. This technique is attempted in 6% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Darce Setup",
-      "text": "From this position, attempt Darce Setup. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Anaconda Setup",
+      "text": "From this position, attempt Anaconda Setup. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Front Headlock to Back",
-      "text": "From this position, attempt Front Headlock to Back. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Darce Setup",
+      "text": "From this position, attempt Darce Setup. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Arm Triangle from Front Headlock",
-      "text": "From this position, attempt Arm Triangle from Front Headlock. This technique is attempted in 6% of exchanges from this position.",
+      "name": "Execute Front Headlock to Back",
+      "text": "From this position, attempt Front Headlock to Back. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Japanese Necktie Setup",
-      "text": "From this position, attempt Japanese Necktie Setup. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Arm Triangle from Front Headlock",
+      "text": "From this position, attempt Arm Triangle from Front Headlock. This technique is attempted in 5% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -372,6 +372,24 @@ Establish front headlock, partner attempts to circle away to escape. You practic
 - **[[Transitions/Anaconda Choke]]** - Arm-in choke finish available from front headlock
 - **[[Transitions/Darce Choke]]** - Arm-in choke finish available from front headlock
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Danaher-Front-Headlock-System" data-cta="related-system-card" data-system-slug="systems/danaher-front-headlock-system" data-system-name="Danaher Front Headlock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Danaher Front Headlock System</span><span class="system-card__unlocks-badge">Unlocks 30 techniques</span><span class="system-card__blurb">Primary control position for entire system</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Control System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/MMA-Crossover-Strategy" data-cta="related-system-card" data-system-slug="systems/mma-crossover-strategy" data-system-name="MMA Crossover Strategy" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">MMA Crossover Strategy</span><span class="system-card__unlocks-badge">Unlocks 27 techniques</span><span class="system-card__blurb">Control position for guillotine entries and ground-and-pound</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Garry-Tonon-Leg-Lock-to-Back-System" data-cta="related-system-card" data-system-slug="systems/garry-tonon-leg-lock-to-back-system" data-system-name="Garry Tonon Leg Lock to Back System" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Garry Tonon Leg Lock to Back System</span><span class="system-card__unlocks-badge">Unlocks 26 techniques</span><span class="system-card__blurb">Alternative control position when opponent turtles to defend both legs and back</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Marcelo-Garcia-Guillotine-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-guillotine-system" data-system-name="Marcelo Garcia Guillotine System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Marcelo Garcia Guillotine System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Essential control position for turtle attacks and standing entries</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/No-Gi-Tactical-Framework" data-cta="related-system-card" data-system-slug="systems/no-gi-tactical-framework" data-system-name="No-Gi Tactical Framework" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">No-Gi Tactical Framework</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Critical control hub for submissions and back takes in no-gi</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/B-Team-Dilemma-System" data-cta="related-system-card" data-system-slug="systems/b-team-dilemma-system" data-system-name="B-Team Dilemma System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">B-Team Dilemma System</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Standing and turtle entry position connecting takedown game to leg entanglement system</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/No-Gi-Competition-Approach" data-cta="related-system-card" data-system-slug="systems/no-gi-competition-approach" data-system-name="No-Gi Competition Approach" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">No-Gi Competition Approach</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Critical control position for no-gi transitions and submissions</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Kimura-Trap-System" data-cta="related-system-card" data-system-slug="systems/kimura-trap-system" data-system-name="Kimura Trap System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Kimura Trap System</span><span class="system-card__unlocks-badge">Unlocks 21 techniques</span><span class="system-card__blurb">Connected control position enabling snap-down to kimura and back-take sequences</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Self-Defense-Application-Framework" data-cta="related-system-card" data-system-slug="systems/self-defense-application-framework" data-system-name="Self-Defense Application Framework" data-member-count="18"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Self-Defense Application Framework</span><span class="system-card__unlocks-badge">Unlocks 18 techniques</span><span class="system-card__blurb">Standing control position useful for neutralizing untrained attackers</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

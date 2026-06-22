@@ -10,6 +10,41 @@ description: "Master Crackhead Control in BJJ - 10th Planet's high-risk, high-re
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Crackhead Control",
+  "description": "Master Crackhead Control in BJJ - 10th Planet\u0027s high-risk, high-reward position combining deep overhook with extreme back exposure. Complete breakdown with safety protocols and entry mechanics.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Crackhead Control", "item": "https://bjjgraph.org/Positions/Crackhead-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Crackhead Control",
+  "description": "Crackhead Control is a high-risk 10th Planet rubber guard position where a deep overhook combined with a leg across the opponent's back breaks their posture, trading significant back exposure for dense gogoplata, omoplata, and triangle submission threats.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Crackhead Control in BJJ - 10th Planet's high-risk, high-re
 </div>
 
 <section id="overview" class="content-section">
+
+**Crackhead Control is a high-risk 10th Planet rubber guard position where a deep overhook combined with a leg across the opponent's back breaks their posture, trading significant back exposure for dense gogoplata, omoplata, and triangle submission threats.**
 
 Crackhead Control represents one of 10th Planet's most innovative and controversial positions within the 10th Planet guard system. This high-risk, high-reward configuration emerges from the Rubber Guard family when the practitioner achieves an exceptionally deep overhook on the opponent's arm while simultaneously controlling their posture with the leg. The position gets its distinctive name from the seemingly reckless commitment required - the bottom player exposes their back significantly while hunting for submissions, creating what appears to be a desperate or "cracked out" positioning strategy.
 
@@ -246,6 +283,16 @@ The position's integration within the broader 10th Planet system provides multip
 
 - **[[Positions/Closed Guard]]** - Fallback position if Crackhead Control fails or becomes untenable
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Twister-System" data-cta="related-system-card" data-system-slug="systems/twister-system" data-system-name="Twister System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Twister System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">10th Planet back control variation that shares control concepts with Truck</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

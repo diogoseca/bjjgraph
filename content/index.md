@@ -9,7 +9,8 @@ title: BJJ Graph - Interactive Brazilian Jiu-Jitsu Knowledge Base
   "@type": "WebSite",
   "name": "BJJ Graph",
   "description": "Interactive knowledge graph for Brazilian Jiu-Jitsu covering positions, transitions, submissions, and strategic concepts",
-  "url": "https://bjjgraph.org"
+  "url": "https://bjjgraph.org",
+  "publisher": { "@type": "Organization", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
 

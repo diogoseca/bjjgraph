@@ -10,6 +10,41 @@ description: "Learn the Hitchhiker Escape from armbar control in BJJ. Master rot
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Hitchhiker Escape",
+  "description": "Learn the Hitchhiker Escape from armbar control in BJJ. Master rotational mechanics, timing, and guard recovery to escape fully locked armbars safely.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Hitchhiker Escape", "item": "https://bjjgraph.org/Transitions/Hitchhiker-Escape" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Hitchhiker Escape",
+  "description": "The Hitchhiker Escape is a rotational armbar defense in which the trapped player turns their thumb outward and rolls toward the attacker, spinning the elbow free before full extension to recover half guard or turtle.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Learn the Hitchhiker Escape from armbar control in BJJ. Master rot
 
 <section id="overview" class="content-section">
 
-The Hitchhiker Escape is an advanced defensive technique used to escape from a fully extended armbar attack by exploiting rotational mechanics and timing. This escape requires exceptional flexibility, precise timing, and deep understanding of leverage principles. The technique involves rotating the thumb outward (the 'hitchhiker' motion) while simultaneously turning into the opponent and creating space to recover guard. While primarily associated with high-level competition and no-gi grappling, the Hitchhiker Escape represents a last-resort defensive option when positional escapes have failed and the armbar is nearly locked. The escape is particularly effective against opponents who rely purely on extension without proper shoulder control, as it exploits the natural weakness in the grip when the thumb is pointed away from the body. Success requires reading the opponent's finishing mechanics and executing the rotation at the precise moment before full extension is achieved.
+**The Hitchhiker Escape is a rotational armbar defense in which the trapped player turns their thumb outward and rolls toward the attacker, spinning the elbow free before full extension to recover half guard or turtle.**
+
+Living at the emergency tier of armbar defense, the Hitchhiker Escape is a last-resort answer deployed only after positional escapes have failed and the elbow is dangerously near full extension. This escape requires exceptional flexibility, precise timing, and deep understanding of leverage principles. The technique involves rotating the thumb outward (the 'hitchhiker' motion) while simultaneously turning into the opponent and creating space to recover guard. While primarily associated with high-level competition and no-gi grappling, the Hitchhiker Escape exploits opponents who rely purely on extension without proper shoulder control, attacking the natural weakness in the grip when the thumb is pointed away from the body. Success requires reading the opponent's finishing mechanics and executing the rotation at the precise moment before full extension is achieved.
 
 **From Position**: [[Positions/Armbar Control]] (Bottom)
 **Success Rate**: 62%
@@ -219,5 +256,7 @@ The Hitchhiker Escape represents a critical last-line defensive option within th
 
 
 </section>
+
+
 
 </main>

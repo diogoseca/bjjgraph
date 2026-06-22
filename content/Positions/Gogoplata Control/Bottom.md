@@ -21,38 +21,32 @@ description: "Master bottom gogoplata control mechanics including shin positioni
     {
       "@type": "HowToStep",
       "name": "Execute Gogoplata",
-      "text": "From this position, attempt Gogoplata. This technique is attempted in 27% of exchanges from this position.",
+      "text": "From this position, attempt Gogoplata. This technique is attempted in 35% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Closed Guard to Omoplata",
-      "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Switch to Triangle",
+      "text": "From this position, attempt Switch to Triangle. This technique is attempted in 22% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take",
-      "text": "From this position, attempt Back Take. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Back Take. This technique is attempted in 18% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Mission Control Recovery",
-      "text": "From this position, attempt Mission Control Recovery. This technique is attempted in 24% of exchanges from this position.",
+      "name": "Execute Closed Guard to Omoplata",
+      "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 17% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Switch to Triangle",
-      "text": "From this position, attempt Switch to Triangle. This technique is attempted in 18% of exchanges from this position.",
+      "name": "Execute Mission Control Recovery",
+      "text": "From this position, attempt Mission Control Recovery. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Gogoplata",
-      "text": "From this position, attempt Gogoplata. This technique is attempted in 2% of exchanges from this position.",
-      "position": 6
     }
   ],
   "totalTime": "PT2M"
@@ -356,6 +350,16 @@ Establish gogoplata control position and focus exclusively on maintaining elevat
 - **[[Transitions/Gogoplata]]** - Submission finish executed from this control position
 - **[[Positions/Mount/High Mount]]** - Alternative transition target if opponent's escape creates mount opportunity
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Rubber-Guard-to-Triangle-System" data-cta="related-system-card" data-system-slug="systems/rubber-guard-to-triangle-system" data-system-name="Rubber Guard to Triangle System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Rubber Guard to Triangle System</span><span class="system-card__unlocks-badge">Unlocks 22 techniques</span><span class="system-card__blurb">Alternative finish available from Mission Control and New York</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

@@ -10,6 +10,41 @@ description: "Master Technical Stand-up in BJJ. Essential escape from bottom to 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Technical Stand-up",
+  "description": "Master Technical Stand-up in BJJ. Essential escape from bottom to standing. Success rates: Beginner 65%, Intermediate 80%, Advanced 90%. Complete guide.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Technical Stand-up", "item": "https://bjjgraph.org/Transitions/Technical-Stand-up" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Technical Stand-up",
+  "description": "The Technical Stand-up is a foundational BJJ escape that takes the bottom player from seated guard to a balanced standing base, using a posting hand, lead-leg barrier, and explosive hip elevation to deny the opponent any chance to capitalize.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master Technical Stand-up in BJJ. Essential escape from bottom to 
 
 <section id="overview" class="content-section">
 
-The Technical Stand-up is a fundamental defensive movement in Brazilian Jiu-Jitsu that allows a practitioner to safely transition from a seated or grounded position to standing. This technique is essential for guard recovery, creating distance from an aggressive opponent, and resetting to a neutral standing position. The movement emphasizes proper base maintenance, hip positioning, and hand placement to prevent being taken down or swept during the transition. Unlike a simple stand-up, the technical version uses specific biomechanical principles to maintain defensive posture throughout the movement, making it extremely difficult for an opponent to capitalize on the transition.
+**The Technical Stand-up is a foundational BJJ escape that takes the bottom player from seated guard to a balanced standing base, using a posting hand, lead-leg barrier, and explosive hip elevation to deny the opponent any chance to capitalize.**
+
+In modern guard-based grappling, the ability to return to the feet on your own terms is what keeps the bottom player from being trapped under sustained passing pressure — and the technical stand-up is the primary tool for that reset. This technique is essential for guard recovery, creating distance from an aggressive opponent, and resetting to a neutral standing position. The movement emphasizes proper base maintenance, hip positioning, and hand placement to prevent being taken down or swept during the transition. Unlike a simple stand-up, the technical version uses specific biomechanical principles to maintain defensive posture throughout the movement, making it extremely difficult for an opponent to capitalize on the transition.
 
 The technique is particularly valuable in self-defense scenarios, scrambles, and situations where re-establishing guard is not immediately possible. The tripod base structure — posting hand, lead foot, and trail foot — creates a mechanically sound platform that distributes force across three contact points, giving you stability even under forward pressure. The lead leg barrier principle is borrowed from wrestling, where the knee-up position simultaneously blocks opponent advancement and provides a launching platform for the hip elevation phase.
 
@@ -223,6 +260,21 @@ The technical stand-up is a critical connection point in the BJJ positional hier
 
 - [[Transitions/Ankle Pick]] - Counter-offensive option available during or after stand-up completion
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/MMA-Crossover-Strategy" data-cta="related-system-card" data-system-slug="systems/mma-crossover-strategy" data-system-name="MMA Crossover Strategy" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">MMA Crossover Strategy</span><span class="system-card__unlocks-badge">Unlocks 27 techniques</span><span class="system-card__blurb">Emergency escape sequence from bottom positions when strikes threaten</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Standing-Defense-Strategy" data-cta="related-system-card" data-system-slug="systems/standing-defense-strategy" data-system-name="Standing Defense Strategy" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Standing Defense Strategy</span><span class="system-card__unlocks-badge">Unlocks 27 techniques</span><span class="system-card__blurb">Offensive transition to return to standing when taken down</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Andrew-Wiltse-Half-Guard-System" data-cta="related-system-card" data-system-slug="systems/andrew-wiltse-half-guard-system" data-system-name="Andrew Wiltse Half Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Andrew Wiltse Half Guard System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Alternative attack when opponent attempts to disengage</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Back-Defense-Protocol" data-cta="related-system-card" data-system-slug="systems/back-defense-protocol" data-system-name="Back Defense Protocol" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Back Defense Protocol</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Recovery option when opponent creates distance during escape</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Teaching-Methodology-Framework" data-cta="related-system-card" data-system-slug="systems/teaching-methodology-framework" data-system-name="Teaching Methodology Framework" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Teaching Methodology Framework</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Essential defensive skill for returning to standing position safely</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Defensive-Prioritization-Framework" data-cta="related-system-card" data-system-slug="systems/defensive-prioritization-framework" data-system-name="Defensive Prioritization Framework" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Defensive Prioritization Framework</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Critical escape option from bottom positions within the defensive priority system</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

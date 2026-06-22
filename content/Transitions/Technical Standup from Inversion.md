@@ -10,6 +10,41 @@ description: "Learn Technical Standup from Inversion in BJJ. Step-by-step execut
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Technical Standup from Inversion",
+  "description": "Learn Technical Standup from Inversion in BJJ. Step-by-step execution from Grasshopper Guard to standing with complete attacker and defender analysis.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Technical Standup from Inversion", "item": "https://bjjgraph.org/Transitions/Technical-Standup-from-Inversion" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Technical Standup from Inversion",
+  "description": "Technical Standup from Inversion is a guard-exit technique where a grasshopper-guard player channels their inverted momentum into a hip-under rotation and a posted hand to rise to a standing open guard before distance or fatigue turns the inversion into a liability.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Learn Technical Standup from Inversion in BJJ. Step-by-step execut
 </div>
 
 <section id="overview" class="content-section">
+
+**Technical Standup from Inversion is a guard-exit technique where a grasshopper-guard player channels their inverted momentum into a hip-under rotation and a posted hand to rise to a standing open guard before distance or fatigue turns the inversion into a liability.**
 
 The Technical Standup from Inversion is a critical transitional skill that allows a grasshopper guard player to safely exit the inverted position and return to a standing open guard engagement. When the opponent disengages or creates too much distance for effective leg attacks from grasshopper guard, remaining inverted becomes a liability rather than an asset. This technique bridges the gap between the high-energy inverted posture and a sustainable standing guard where the practitioner can reset their offensive options.
 
@@ -226,5 +263,7 @@ The Technical Standup from Inversion serves as the essential exit valve within t
 
 
 </section>
+
+
 
 </main>

@@ -10,6 +10,41 @@ description: "Master the transition from Side Control to Scarf Hold (Kesa Gatame
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Side Control to Scarf Hold Position",
+  "description": "Master the transition from Side Control to Scarf Hold (Kesa Gatame) in BJJ. Learn perpendicular angle adjustment, arm isolation, and head control mechanics.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Side Control to Scarf Hold Position", "item": "https://bjjgraph.org/Transitions/Side-Control-to-Scarf-Hold-Position" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Side Control to Scarf Hold Position",
+  "description": "Side Control to Scarf Hold Position is a top-game transition that rotates roughly 90 degrees from parallel side control into the perpendicular Kesa Gatame pin, isolating the near arm and wrapping the head to negate standard side-control escapes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the transition from Side Control to Scarf Hold (Kesa Gatame
 </div>
 
 <section id="overview" class="content-section">
+
+**Side Control to Scarf Hold Position is a top-game transition that rotates roughly 90 degrees from parallel side control into the perpendicular Kesa Gatame pin, isolating the near arm and wrapping the head to negate standard side-control escapes.**
 
 The Transition to Scarf Hold Position is a fundamental positional shift from standard Side Control into the perpendicular pinning configuration known as Kesa Gatame. This transition involves rotating your body roughly 90 degrees so that you sit hip-to-hip against the opponent's ribcage while simultaneously isolating their near arm and wrapping their head. The movement changes the force vectors applied to the bottom player from parallel chest pressure to perpendicular hip-driven compression, which negates standard side control escape mechanics and opens distinct submission pathways including americana, kimura, and arm triangle variations.
 
@@ -224,5 +261,7 @@ The Transition to Scarf Hold Position occupies a critical junction in the side c
 
 
 </section>
+
+
 
 </main>

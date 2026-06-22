@@ -86,6 +86,18 @@ description: "Learn how to exploit common defensive reactions in BJJ. When you p
 }
 </script>
 
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Predictable Responses",
+  "description": "Predictable responses are the hardwired defensive reflexes -- pushing back when pushed, shielding the neck when choked -- that skilled grapplers deliberately provoke and then exploit, converting an opponent's resistance into the opening for the intended attack.",
+  "inDefinedTermSet": "https://bjjgraph.org/Learning/"
+}
+</script>
+
+
 > **Category**: Strategy
 
 
@@ -94,6 +106,8 @@ description: "Learn how to exploit common defensive reactions in BJJ. When you p
 <section id="overview" class="content-section">
 
 ## What is Predictable Responses?
+
+**Predictable responses are the hardwired defensive reflexes -- pushing back when pushed, shielding the neck when choked -- that skilled grapplers deliberately provoke and then exploit, converting an opponent's resistance into the opening for the intended attack.**
 
 Human beings have hardwired reflexes. Push someone and they push back. Pull someone and they pull away. Load weight onto one side of their body and they shift to relieve it. These are not BJJ-specific reactions -- they are neurological patterns baked into our nervous system for balance and survival. In BJJ, understanding and exploiting these predictable responses is what separates technique from artistry.
 
@@ -214,15 +228,15 @@ A: The window created by a defensive reaction is momentary. The opponent's body 
 <section id="related" class="content-section">
 
 ## Related
-- [[Principles/Action and Reaction]] (Principle) - The core physical principle underlying all predictable response exploitation
-- [[Principles/Kuzushi]] (Principle) - Off-balancing relies on exploiting postural reactions to create throwing and sweeping opportunities
-- [[Principles/Fork Attacks]] (Principle) - Fork attacks work because defending one option creates the predictable opening for the other
-- [[Principles/Distance Control]] (Principle) - Controlling distance provokes predictable reactions as opponents try to close or create space
-- [[Learning/Technique Chaining]] (Learning) - Chains are built on predictable responses -- each defense triggers the next attack in the sequence
-- [[Learning/Funneling]] (Learning) - Funneling forces increasingly predictable responses by narrowing available options
-- [[Positions/Mount]] (Position) - Mount is the classic position for exploiting choke-armbar action-reaction cycles
-- [[Positions/Closed Guard]] (Position) - Closed guard sweeps heavily rely on push-pull predictable responses
-- [[Positions/Side Control]] (Position) - Side control transitions exploit directional responses to advance position
+- [[Action and Reaction]] (Principle) - The core physical principle underlying all predictable response exploitation
+- [[Kuzushi]] (Principle) - Off-balancing relies on exploiting postural reactions to create throwing and sweeping opportunities
+- [[Fork Attacks]] (Principle) - Fork attacks work because defending one option creates the predictable opening for the other
+- [[Distance Control]] (Principle) - Controlling distance provokes predictable reactions as opponents try to close or create space
+- [[Technique Chaining]] (Learning) - Chains are built on predictable responses -- each defense triggers the next attack in the sequence
+- [[Funneling]] (Learning) - Funneling forces increasingly predictable responses by narrowing available options
+- [[Mask Your Intentions]] (Learning) - Disguising the real attack ensures the opponent commits to the defensive reaction you want to provoke
+- [[Mount]] (Position) - Mount is the classic position for exploiting choke-armbar action-reaction cycles
+- [[Closed Guard]] (Position) - Closed guard sweeps heavily rely on push-pull predictable responses
 
 
 

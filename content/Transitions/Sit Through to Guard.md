@@ -10,6 +10,41 @@ description: "Master the Sit Through to Guard escape from turtle. Complete guide
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Sit Through to Guard",
+  "description": "Master the Sit Through to Guard escape from turtle. Complete guide with setup, execution steps, timing cues, and defensive counters for all levels.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Sit Through to Guard", "item": "https://bjjgraph.org/Transitions/Sit-Through-to-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Sit Through to Guard",
+  "description": "The Sit Through to Guard is a turtle-bottom escape where the bottom player posts an arm, frames against the opponent's forward pressure, and threads the near leg through to rotate from a four-point base into half guard or closed guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Sit Through to Guard escape from turtle. Complete guide
 
 <section id="overview" class="content-section">
 
-The Sit Through to Guard is a fundamental turtle escape that converts a vulnerable bottom position into an offensive guard. Unlike rolling escapes that rely on momentum, the sit through uses lateral hip movement and precise timing to thread one leg through while creating a frame against the opponent's advancing pressure. This technique excels when the opponent commits weight forward for front headlock attacks or back takes, as their forward pressure can be redirected into your guard recovery. The sit through creates a dilemma for the attacker: commit to following the movement and risk ending up in your closed guard, or disengage and allow a clean escape. For practitioners who prefer systematic, controlled escapes over explosive scrambles, the sit through offers a methodical path from turtle to a dominant guard position where you can begin attacking.
+**The Sit Through to Guard is a turtle-bottom escape where the bottom player posts an arm, frames against the opponent's forward pressure, and threads the near leg through to rotate from a four-point base into half guard or closed guard.**
+
+Within the turtle escape system, the sit through occupies the niche of the controlled, leverage-first recovery — the methodical counterpart to scramble-heavy rolls. Unlike rolling escapes that rely on momentum, the sit through uses lateral hip movement and precise timing to thread one leg through while creating a frame against the opponent's advancing pressure. This technique excels when the opponent commits weight forward for front headlock attacks or back takes, as their forward pressure can be redirected into your guard recovery. The sit through creates a dilemma for the attacker: commit to following the movement and risk ending up in your closed guard, or disengage and allow a clean escape. For practitioners who prefer systematic, controlled escapes over explosive scrambles, the sit through offers a methodical path from turtle to a dominant guard position where you can begin attacking.
 
 **From Position**: [[Positions/Turtle]] (Bottom)
 **Success Rate**: 58%
@@ -219,5 +256,7 @@ The Sit Through to Guard is a cornerstone of systematic turtle defense, offering
 
 
 </section>
+
+
 
 </main>

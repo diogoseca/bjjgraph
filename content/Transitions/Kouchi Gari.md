@@ -10,9 +10,48 @@ description: "Master Kouchi Gari in BJJ. Small inner reap takedown from standing
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kouchi Gari",
+  "description": "Master Kouchi Gari in BJJ. Small inner reap takedown from standing clinch with diagonal off-balancing. Complete guide with execution steps and combinations.",
+  "alternateName": ["Minor Inner Reap", "Ko Uchi Gari"],
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Kouchi Gari", "item": "https://bjjgraph.org/Transitions/Kouchi-Gari" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kouchi Gari",
+  "description": "Kouchi Gari is a standing small inner-reap takedown executed from the clinch, hooking the back of the opponent's near ankle while off-balancing them diagonally backward to drop them and establish a dominant top pin.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Minor Inner Reap</strong>, <strong>Ko Uchi Gari</strong></p>
+</aside>
 <div class="role-links">
 
 [[Kouchi Gari/Attacker|Play as Attacker]]
@@ -21,6 +60,8 @@ description: "Master Kouchi Gari in BJJ. Small inner reap takedown from standing
 </div>
 
 <section id="overview" class="content-section">
+
+**Kouchi Gari is a standing small inner-reap takedown executed from the clinch, hooking the back of the opponent's near ankle while off-balancing them diagonally backward to drop them and establish a dominant top pin.**
 
 Kouchi Gari (small inner reap) is a fundamental judo technique that has become essential in modern BJJ and no-gi grappling. The technique involves hooking your opponent's inside leg with your own while simultaneously breaking their balance backward and to the side. Unlike its larger cousin Ouchi Gari, Kouchi Gari focuses on a smaller, more nuanced reaping motion that targets the ankle and lower calf rather than the thigh. This makes it particularly effective when your opponent has a narrow stance or is stepping backward. The technique's beauty lies in its timing and subtlety—when executed properly, your opponent falls before they realize they've been swept.
 
@@ -216,5 +257,7 @@ Kouchi Gari serves as a critical bridge between standing and ground positions in
 
 
 </section>
+
+
 
 </main>

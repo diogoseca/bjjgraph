@@ -64,7 +64,7 @@ description: "Learn to defend against the Squid to Ringworm Guard transition in 
     },
     {
       "@type": "Question",
-      "name": "Why is the moment of maximum vulnerability for the bottom player, and how should you exploit it?",
+      "name": "What is the moment of maximum vulnerability for the bottom player, and how should you exploit it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The moment of maximum vulnerability occurs when the lapel has been loosened from the Squid Guard configuration but has not yet been threaded into the Ringworm path—typically during steps three through five of the reconfiguration sequence. At this point, the lapel provides minimal restriction on your leg and the bottom player's guard structure is essentially an open guard with a loose lapel. Exploit this by aggressively stripping the lapel with both hands or driving forward with pressure to pass before the new guard is established."

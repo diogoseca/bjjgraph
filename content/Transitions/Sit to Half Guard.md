@@ -10,6 +10,41 @@ description: "Learn Sit to Half Guard escape from Buggy Choke. Step-by-step defe
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Sit to Half Guard",
+  "description": "Learn Sit to Half Guard escape from Buggy Choke. Step-by-step defensive transition to recover guard position with setup, timing, and counter strategies.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Sit to Half Guard", "item": "https://bjjgraph.org/Transitions/Sit-to-Half-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Sit to Half Guard",
+  "description": "Sit to Half Guard is a defensive escape from the Buggy Choke where the bottom player sits through from turtle to recover a leg entanglement, exchanging a collapsing turtle for the stronger framing and offense of Half Guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Learn Sit to Half Guard escape from Buggy Choke. Step-by-step defe
 </div>
 
 <section id="overview" class="content-section">
+
+**Sit to Half Guard is a defensive escape from the Buggy Choke where the bottom player sits through from turtle to recover a leg entanglement, exchanging a collapsing turtle for the stronger framing and offense of Half Guard.**
 
 The Sit to Half Guard transition represents a fundamental defensive escape from the Buggy Choke position that prioritizes guard recovery over continued turtle defense. When an opponent establishes threatening collar control from turtle top, the sitting motion creates a structural change that eliminates the choking angle while simultaneously recovering a leg entanglement that offers better defensive options.
 
@@ -220,5 +257,7 @@ The Sit to Half Guard escape connects the turtle defensive shell to the Half Gua
 
 
 </section>
+
+
 
 </main>

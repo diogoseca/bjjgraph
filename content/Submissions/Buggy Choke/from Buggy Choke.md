@@ -4,16 +4,61 @@
 
 ---
 title: "Buggy Choke from Buggy Choke | BJJ Submission | BJJ Graph"
-description: "Master the Buggy Choke finish from turtle top. Complete guide to collar grip tightening, progressive pressure application, and competition finishing mechanics."
+description: "Master the Buggy Choke finish from bottom half guard. Complete guide to closing the arm-and-leg loop, drawing the knee to your head, and finishing the carotid compression."
 ---
 
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Buggy Choke from Buggy Choke targets the Neck. Risk: Carotid artery compression causing loss of consciousness. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Buggy Choke from Buggy Choke",
+  "description": "Master the Buggy Choke finish from bottom half guard. Complete guide to closing the arm-and-leg loop, drawing the knee to your head, and finishing the carotid compression.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Buggy Choke from Buggy Choke", "item": "https://bjjgraph.org/Submissions/Buggy-Choke-from-Buggy-Choke" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Buggy Choke from Buggy Choke",
+  "description": "The Buggy Choke finish from bottom half guard is a blood choke where the attacker, already controlling the trapped arm and head, draws the same-side knee to their own head and seals the loop to compress both carotids while being passed.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Buggy Choke finish from bottom half guard is a blood choke where the attacker, already controlling the trapped arm and head, draws the same-side knee to their own head and seals the loop to compress both carotids while being passed.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries and neck compression</span>
+<span class="meta-chip">50% success</span>
+</div>
+
+> [!danger] Safety
+> Buggy Choke from Buggy Choke targets the Carotid arteries and neck compression. Primary risk: Carotid artery compression causing loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -24,55 +69,13 @@ description: "Master the Buggy Choke finish from turtle top. Complete guide to c
 
 <section id="overview" class="content-section">
 
-The Buggy Choke finish from the established Buggy Choke control position represents the direct submission pathway within the turtle attack system. Once both collar grips are secured with the threading arm deep under the opponent's armpit and the second hand reinforcing the collar structure, the attacker transitions from positional control to active finishing mechanics. The finish relies on perpendicular body pressure driving the opponent flat while progressive collar tightening compresses the carotid arteries bilaterally.
+The Buggy Choke finish from the established control phase represents the direct submission pathway within the bottom half-guard attack system. Once the attacker has trapped the opponent's near crossface arm and head across their centerline and chambered the same-side knee toward their own head, the position converts from a defensive-looking half guard into an active blood choke. The finish relies on closing the loop between the choking arm and the leg, then drawing the knee toward the head so the opponent's own trapped shoulder drives into one carotid while the strap of arm and leg seals the other.
 
-What distinguishes this finish from other collar choke variations is the mechanical advantage created by the threading arm's position. The palm-up grip orientation combined with the attacker's chest weight creates a self-tightening mechanism where the opponent's own defensive movements often accelerate the choke. The attacker's body positioning generates finishing pressure through gravity and structural alignment rather than raw grip strength, making this finish sustainable even against larger opponents.
+What distinguishes this finish from a top-side collar choke is that the attacker is underneath, seemingly being passed, and uses the opponent's forward passing pressure as the compression engine. The hand-to-shin connection creates a self-tightening frame where the opponent's attempts to drive forward and complete the pass only deepen the carotid compression. Because the attack generates finishing pressure through structural alignment of the limb loop rather than raw grip strength, it lets a smaller grappler finish a larger, heavier opponent who is on top.
 
-The primary strategic consideration when attempting this finish is timing the transition from control to active choking pressure. Premature finishing attempts before control consolidation allow defensive grip stripping, while excessive patience gives the opponent time to implement escape sequences. The optimal moment occurs when both grips achieve full depth, body pressure restricts hip movement, and the opponent's defensive options have been systematically eliminated through positional dominance.
+The primary strategic consideration when attempting this finish is timing the transition from control to active squeezing. Premature finishing attempts before the knee is drawn to the head and the hand reaches the shin allow the opponent to extract the trapped arm and posture out, the single highest-percentage escape. Excessive patience gives the opponent time to flatten the choking-side hip and walk toward the head to relieve pressure. The optimal moment occurs once the loop is sealed with no slack, the head is locked low and across the centerline, and the opponent's posture has committed forward into the smash pass.
 
-**Category**: Choke
-**Type**: Collar Choke
-**Target Area**: Neck
-**Starting Position**: [[Positions/Buggy Choke]]
-**From Position**: [[Positions/Buggy Choke]] (Top)
-**Success Rate**: 45%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Carotid artery compression causing loss of consciousness | CRITICAL | Immediate recovery if released promptly upon unconsciousness; potential neurological complications if sustained beyond 10-15 seconds after loss of consciousness |
-| Tracheal compression from misaligned collar grip positioning | High | 1-4 weeks for mild tracheal bruising; 4-8 weeks for significant laryngeal trauma |
-| Cervical spine strain from sustained neck pressure and postural breakdown | Medium | 1-2 weeks for minor strain; 4-6 weeks for moderate cervical injury |
-
-
-**Application Speed**: SLOW and progressive. The collar choke tightens gradually through body positioning rather than explosive force. Apply pressure incrementally and monitor partner's response continuously. Never jerk, spike, or explosively tighten the collar structure.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner, own body, or mat
-- Physical foot tap on mat with either leg
-- Any unusual vocalization, gurgling, or distress sound indicating compromised airway
-
-
-**Release Protocol**:
-1. Release all choking pressure immediately upon any tap signal by opening both grips simultaneously
-2. If in doubt whether a signal was a tap, release immediately - position can be re-established but consciousness cannot
-3. After release, maintain brief positional awareness to ensure partner is oriented and conscious before fully disengaging
-4. If partner appears disoriented or unresponsive after release, immediately alert instructor and place partner in recovery position
-
-
-**Training Restrictions**:
-- Beginners should drill finishing mechanics at reduced speed and pressure with experienced partners who can provide real-time feedback on grip placement and pressure trajectory
-- Never apply full finishing pressure in drilling; reserve competition-intensity finishing only for positional sparring with trusted partners
-- Partners with prior neck injuries, cervical disc issues, or cardiovascular conditions should avoid receiving this technique at high intensity
-
+**Starting Position**: [[Positions/Half Guard]] · **From**: [[Positions/Half Guard]] (Bottom)
 
 </section>
 
@@ -82,9 +85,9 @@ The primary strategic consideration when attempting this finish is timing the tr
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 45% |
-| Failure | [[Positions/Buggy Choke]] | 36% |
-| Counter | [[Positions/Closed Guard]] | 19% |
+| Success | [[game-over]] | 50% |
+| Failure | [[Positions/Half Guard]] | 32% |
+| Counter | [[Positions/Side Control]] | 18% |
 
 
 </section>
@@ -96,7 +99,7 @@ The primary strategic consideration when attempting this finish is timing the tr
 | &nbsp; | Attacker | Defender |
 |--------|----------|----------|
 | **Focus** | Execute and finish | Escape and survive |
-| **Key Principles** | Use body weight and chest pressure to generate choking force... | Recognize the transition from control to finishing pressure ... |
+| **Key Principles** | Keep the opponent's crossface arm and head trapped across yo... | Recognize the entry immediately when the bottom player chamb... |
 | **Options** | 6 execution steps | 4 defensive options |
 
 </section>
@@ -110,51 +113,51 @@ The primary strategic consideration when attempting this finish is timing the tr
 ### Key Principles
 
 
-- Use body weight and chest pressure to generate choking force rather than relying on grip strength alone
+- Keep the opponent's crossface arm and head trapped across your centerline throughout the finish - releasing the arm gives the highest-percentage escape
 
-- Transition from control to finish only after both grips achieve full depth and body pressure restricts opponent's hips
+- Close the loop by connecting your choking-side hand to your own shin or instep before squeezing, so the structure does the compressing
 
-- Maintain head tight to opponent's far shoulder throughout the finishing sequence to prevent rotational escape
+- Draw your same-side knee toward your own head to shorten the loop and seal both carotids rather than relying on arm strength
 
-- Apply progressive incremental pressure rather than explosive tightening to maintain control and conserve energy
+- Use the opponent's forward passing weight as the compression engine instead of fighting to come on top
 
-- Monitor opponent's breathing and defensive urgency to gauge proximity to submission completion
+- Bridge and turn into the opponent to ratchet the carotid compression once the loop is sealed
 
-- Keep hips heavy on opponent's near hip to prevent sitting, rolling, or standing escape attempts during the finish
+- Keep the trapped head low and past your centerline so there is no gap for the opponent to pull free
 
-- Treat the finish as a body-mechanics problem where structural alignment creates inevitable pressure
+- Treat the finish as a structural problem where a sealed limb loop creates inevitable pressure
 
 
 ### Execution Steps
 
 
-- **Confirm grip depth and structural alignment**: Verify that your threading arm has full palm-up collar access on the far side and your second grip r...
+- **Confirm the trapped arm and head are locked**: Verify that the opponent's crossface arm is pinned across your neck and their head is trapped low an...
 
-- **Consolidate body pressure onto opponent's back**: Drive your chest weight downward onto the opponent's upper back and shoulder blades while keeping yo...
+- **Chamber the knee toward your head**: Drive your same-side knee up and over the opponent's trapped head and arm, bringing the knee toward ...
 
-- **Begin progressive collar tightening**: Start pulling your threading arm's elbow toward your own hip while your second hand reinforces by pu...
+- **Connect hand to shin to close the loop**: Grip your own shin or instep with your choking-side hand the moment the knee reaches your head, seal...
 
-- **Seal head position and eliminate rotation**: Press your head firmly against the opponent's far shoulder and drive it slightly forward to prevent ...
+- **Shorten the loop and seal both carotids**: Pull your gripping hand deeper down your shin toward the instep and draw your knee closer to your he...
 
-- **Increase finishing pressure through hip engagement**: Walk your hips slightly toward the opponent's head while maintaining chest contact. This subtle posi...
+- **Use the opponent's forward pressure**: Invite the opponent to keep driving forward to complete the pass; their committed weight feeds their...
 
-- **Complete the choke with sustained bilateral compression**: Maintain consistent bilateral pressure on the carotid arteries through your collar grip structure wh...
+- **Bridge and finish with sustained compression**: Bridge or turn into the opponent to ratchet the carotid compression while keeping the loop sealed an...
 
 
 ### Common Mistakes
 
 
-- **Attempting to finish with arm strength alone rather than engaging body mechanics**
-  - Consequence: Grip fatigue sets in rapidly, opponent defends more effectively against isolated arm force, and position becomes unsustainable within 10-15 seconds
-  - Correction: Drive chest weight onto opponent's back and use hip positioning to create finishing pressure through structural alignment rather than muscular effort
+- **Reaching for your shin before trapping the opponent's arm and head**
+  - Consequence: The choke has only one wall and the opponent simply pulls their head and arm free, escaping the position entirely
+  - Correction: Always confirm the crossface arm is pinned and the head is trapped across your centerline before building the loop
 
-- **Rushing the finish before both grips achieve full depth and body pressure is established**
-  - Consequence: Opponent escapes during the finishing attempt because incomplete control allows defensive movements, resulting in loss of the entire position
-  - Correction: Confirm both grips have full collar depth and body pressure has restricted hip movement before transitioning from control phase to active finishing mechanics
+- **Choking with the arm alone and never bringing the leg**
+  - Consequence: Arm-only pressure cannot compress both carotids and the opponent waits it out or postures up, defeating the finish
+  - Correction: Commit the same-side knee toward your head to form the second wall before squeezing the loop
 
-- **Allowing head to drift away from opponent's far shoulder during the tightening phase**
-  - Consequence: Opponent creates rotational space to turn into the choke, strip grips with improved leverage, or recover defensive turtle posture
-  - Correction: Maintain constant head pressure against opponent's far shoulder throughout the entire finishing sequence as an active control point
+- **Leaving slack in the hand-to-shin loop after closing it**
+  - Consequence: The opponent finds the space to spin their head out or stack and walk forward, relieving the carotid compression
+  - Correction: Pull the gripping hand deeper down the shin and draw the knee closer to your head to shorten the loop with zero slack
 
 
 </section>
@@ -168,17 +171,17 @@ The primary strategic consideration when attempting this finish is timing the tr
 ### Key Principles
 
 
-- Recognize the transition from control to finishing pressure immediately through changes in grip tension and body weight distribution
+- Recognize the entry immediately when the bottom player chambers their knee toward their own head and reaches for their shin
 
-- Prioritize disrupting the primary threading arm's grip depth over fighting the secondary reinforcing grip
+- Prioritize extracting the trapped crossface arm before the loop seals, as the arm is your escape
 
-- Maintain high turtle posture aggressively to resist flattening and preserve escape mobility
+- Keep your head and posture up rather than dropping it low and across the bottom player's centerline
 
-- Move proactively toward guard recovery rather than attempting to survive the choke in turtle position
+- Never drive forward into the pressure, since your forward weight is the choke's compression engine
 
-- Accept controlled positional retreat to half guard or back control rather than allowing the choke to fully develop
+- Move proactively toward posture recovery or completing the pass rather than waiting out the choke
 
-- Invest energy in early-phase grip stripping rather than late-phase survival against consolidated pressure
+- Invest energy in early-phase arm extraction rather than late-phase survival against a sealed loop
 
 - Monitor your own breathing and defensive capacity to make rational decisions about tapping before consciousness is compromised
 
@@ -186,27 +189,27 @@ The primary strategic consideration when attempting this finish is timing the tr
 ### Recognition Cues
 
 
-- Feeling the attacker's grip tension increase on both collar grips simultaneously, indicating transition from holding to active tightening
+- The bottom player chambers and drives their same-side knee up toward their own head and ear
 
-- Increased chest weight driving you flat toward the mat as the attacker commits body pressure for the finishing sequence
+- Your crossface arm suddenly feels pinned across their neck and you cannot straighten or extract it
 
-- Sensation of bilateral neck compression beginning as collar material tightens around the carotid arteries on both sides
+- The bottom player reaches a hand toward their own shin or instep to close a loop around your head
 
-- Attacker's head presses firmly against your far shoulder, eliminating your ability to turn or create rotational escape space
+- You feel compression building on the sides of your neck rather than on your windpipe
 
-- Progressive restriction of hip mobility as attacker drives hips down more aggressively to prevent escape movements
+- Your head is being trapped low and pulled across their centerline as the loop forms
 
 
 ### Escape Paths
 
 
-- Strip primary threading arm grip and return to defensive turtle with improved arm positioning to prevent re-entry
+- Straighten and extract the trapped crossface arm, then posture up to reset to half guard top with your head free
 
-- Sit to half guard by dropping near hip and threading leg between attacker's legs before body pressure consolidates
+- Pull your head out backward away from the loop before the hand-to-shin connection seals
 
-- Turn toward choking arm to face opponent and recover closed or open guard position
+- Drive across to complete the pass to side control while the loop is still incomplete
 
-- Accept controlled transition to back control by sitting out, trading the choke threat for a survivable positional disadvantage
+- Strip the bottom player's gripping hand off their shin to prevent the loop from closing
 
 
 </section>
@@ -217,46 +220,66 @@ The primary strategic consideration when attempting this finish is timing the tr
 
 ## From Which Positions?
 
-- [[Positions/Buggy Choke]]
-- [[Positions/Turtle]]
+- [[Positions/Half Guard]]
+- [[Positions/Half Guard/Lockdown]]
+- [[Positions/Half Guard/Deep Half Guard]]
+- [[Positions/Half Guard/Flattened Half Guard]]
 
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Positions/Buggy Choke]]
-- [[Transitions/Darce Choke]]
+- [[Positions/Half Guard/Electric Chair]]
 - [[Transitions/Anaconda Choke]]
-- [[Transitions/Clock Choke]]
-- [[Submissions/Bow and Arrow Choke]]
+- [[Transitions/Guillotine Choke]]
+- [[Transitions/Arm Triangle]]
+- [[Positions/Half Guard]] - Primary starting position from which this finish is executed
+- [[Positions/Half Guard/Lockdown]] - Complementary leg entanglement that breaks the opponent's posture and enhances the choke
+- [[Positions/Half Guard/Deep Half Guard]] - Recovery position when the choke setup is defended
+- [[Transitions/Half Guard Pass]] - What the opponent is attempting when this finish becomes available
+
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Carotid artery compression causing loss of consciousness | CRITICAL | Immediate recovery if released promptly upon unconsciousness; potential neurological complications if sustained beyond 10-15 seconds after loss of consciousness |
+| Cervical spine strain from the trapped head being driven across the centerline under load | High | 1-4 weeks for mild strain; 4-8 weeks for significant cervical trauma |
+| Shoulder compression injury to the opponent's trapped crossface arm | Medium | 1-2 weeks for minor strain; 4-6 weeks for moderate shoulder injury |
+
+
+**Application Speed**: SLOW and progressive. The choke tightens gradually as the knee is drawn to the head and the loop shortens, not through explosive force. Apply pressure incrementally and monitor partner's response continuously. Never jerk, spike, or explosively snap the loop closed on the neck.
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any distress signal)
+- Physical hand tap on partner, own body, or mat
+- Physical foot tap on mat with either leg
+- Any unusual vocalization, gurgling, or distress sound indicating compromised airway
+
+
+**Release Protocol**:
+1. Release the choking loop immediately upon any tap signal by opening the hand-to-shin connection and dropping the knee
+2. If in doubt whether a signal was a tap, release immediately - position can be re-established but consciousness cannot
+3. After release, maintain brief positional awareness to ensure partner is oriented and conscious before fully disengaging
+4. If partner appears disoriented or unresponsive after release, immediately alert instructor and place partner in recovery position
+
+
+**Training Restrictions**:
+- Beginners should drill the loop-closing mechanics at reduced speed and pressure with experienced partners who can provide real-time feedback on knee path and pressure trajectory
+- Never apply full finishing pressure in drilling; reserve competition-intensity finishing only for positional sparring with trusted partners
+- Partners with prior neck injuries, cervical disc issues, or cardiovascular conditions should avoid receiving this technique at high intensity
 
 
 </section>
 
-<section id="related-content" class="content-section">
 
-## Additional Related Content
-
-- [[Positions/Buggy Choke]] - Control position from which this finish is executed
-- [[Positions/Turtle]] - Base defensive position where buggy choke attacks develop
-- [[Positions/Back Control]] - Alternative positional advancement when choke finish is defended
-- [[Positions/Crucifix]] - Transition option when opponent extends arm defending the choke
-- [[Positions/Darce Control]] - Switch option when opponent turns into the choking attack
-
-
-</section>
-
-<section id="terminal-state" class="content-section">
-
-## Match Outcome
-
-Successful execution of Buggy Choke from Buggy Choke leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

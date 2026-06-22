@@ -10,6 +10,41 @@ description: "Master the frame escape from twister side control. Complete guide 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Frame from Twister Side Control",
+  "description": "Master the frame escape from twister side control. Complete guide to systematic framing, hip movement, and half guard recovery with step-by-step execution.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Frame from Twister Side Control", "item": "https://bjjgraph.org/Transitions/Frame-from-Twister-Side-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Frame from Twister Side Control",
+  "description": "Frame from Twister Side Control is a bottom-player escape that builds structural shoulder and hip frames to create separation, dismantle the leg entanglement, and systematically recover half guard against 10th Planet twister attacks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the frame escape from twister side control. Complete guide 
 
 <section id="overview" class="content-section">
 
-The Frame from Twister Side Control is a fundamental escape technique where the bottom player establishes structural frames against the top player's shoulder and hip to create separation, disrupt the leg entanglement, and recover to half guard. Unlike explosive escape methods that risk energy depletion and can worsen the position by exposing the back, this frame-based approach emphasizes incremental positional improvement through biomechanically sound body positioning that redirects the opponent's weight rather than fighting against it directly.
+**Frame from Twister Side Control is a bottom-player escape that builds structural shoulder and hip frames to create separation, dismantle the leg entanglement, and systematically recover half guard against 10th Planet twister attacks.**
+
+Among the limited escape options available from the dangerous twister side control position, frame-based escapes stand out for their reliability and energy efficiency. Unlike explosive escape methods that risk energy depletion and can worsen the position by exposing the back, this frame-based approach emphasizes incremental positional improvement through biomechanically sound body positioning that redirects the opponent's weight rather than fighting against it directly.
 
 The technique addresses the core challenge of twister side control defense: managing simultaneous spinal rotation threats and leg entanglement while creating enough space to begin systematic escape. By building rigid frame structures with bent elbows connected to the body, the bottom player creates barriers that mechanically redirect the top player's pressure. This structural advantage allows the escape to succeed even against larger, stronger opponents, making it one of the most reliable pathways out of this dangerous position.
 
@@ -218,5 +255,7 @@ The Frame from Twister Side Control serves as a critical defensive bridge betwee
 
 
 </section>
+
+
 
 </main>

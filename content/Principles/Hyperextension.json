@@ -15,7 +15,8 @@
   "application_level": "Fundamental",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Expert",
-  "overview": "Hyperextension is the most fundamental joint attack mechanic in Brazilian Jiu-Jitsu. It works by applying linear force to straighten a joint past its natural range of motion, stressing the ligaments, tendons, and joint capsule until the opponent taps from pain or the structures begin to fail. The armbar is the most iconic hyperextension submission, using hip pressure against the elbow to force it beyond its natural extension. Kneebars apply the same principle to the knee joint, and straight ankle locks hyperextend the ankle and foot complex. These submissions share a common mechanical framework: isolate the joint, control the limb on both sides of the joint, and apply linear force that drives the joint past its anatomical limit.\n\nThe hyperextension mechanic is considered fundamental because it relies on simple lever physics that practitioners can understand and apply from their first months of training. The elbow is designed to bend in one direction. If you control the wrist and press against the elbow from the opposite side, the joint is forced to straighten past its limit. This simplicity makes hyperextension attacks available from nearly every position in BJJ. Armbars can be applied from mount, guard, side control, back control, and standing. Kneebars work from various leg entanglements and passing positions. Straight ankle locks are available from virtually any leg entanglement.\n\nDespite the mechanical simplicity, hyperextension submissions require careful training practices. Joint damage from hyperextension can range from minor ligament sprains to complete tears that require surgical repair and months of rehabilitation. The elbow and knee joints have relatively narrow ranges of acceptable motion, meaning the distance between a tight submission and an injury is measured in degrees of angle. Practitioners must develop the discipline to apply hyperextension submissions progressively, and defenders must tap early before structural damage occurs. In training, the attacker should apply slow, steady pressure while the defender communicates the moment they feel the joint reaching its limit. There is no training context where jerking or cranking a joint through its range is acceptable.",
+  "summary": "Hyperextension is a joint-attack principle that applies linear force to straighten a hinge joint—elbow, knee, or ankle—past its natural range of motion, stressing ligaments and the joint capsule until the opponent taps.",
+  "overview": "Of all the submission mechanics in Brazilian Jiu-Jitsu, hyperextension is the one practitioners encounter first and rely on throughout their careers. The armbar is its most iconic expression, using hip pressure against the elbow to force it beyond its natural extension. Kneebars apply the same principle to the knee joint, and straight ankle locks hyperextend the ankle and foot complex. These submissions share a common mechanical framework: isolate the joint, control the limb on both sides of the joint, and apply linear force that drives the joint past its anatomical limit.\n\nThe hyperextension mechanic is considered fundamental because it relies on simple lever physics that practitioners can understand and apply from their first months of training. The elbow is designed to bend in one direction. If you control the wrist and press against the elbow from the opposite side, the joint is forced to straighten past its limit. This simplicity makes hyperextension attacks available from nearly every position in BJJ. Armbars can be applied from mount, guard, side control, back control, and standing. Kneebars work from various leg entanglements and passing positions. Straight ankle locks are available from virtually any leg entanglement.\n\nDespite the mechanical simplicity, hyperextension submissions require careful training practices. Joint damage from hyperextension can range from minor ligament sprains to complete tears that require surgical repair and months of rehabilitation. The elbow and knee joints have relatively narrow ranges of acceptable motion, meaning the distance between a tight submission and an injury is measured in degrees of angle. Practitioners must develop the discipline to apply hyperextension submissions progressively, and defenders must tap early before structural damage occurs. In training, the attacker should apply slow, steady pressure while the defender communicates the moment they feel the joint reaching its limit. There is no training context where jerking or cranking a joint through its range is acceptable.",
   "key_principles": [
     "Hyperextension applies linear force to straighten a joint past its natural range of motion, targeting ligaments, tendons, and the joint capsule",
     "Isolate the joint by controlling the limb on both sides, preventing the opponent from bending or rotating out of the submission",
@@ -383,6 +384,48 @@
       "name": "Triangle Control",
       "content_type": "Position",
       "relationship": "Triangle defense commonly opens armbar transitions, making triangle and armbar the most common chain pair using hyperextension mechanics"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What is hyperextension as a submission principle in BJJ?",
+      "answer": "Hyperextension applies linear force to straighten a hinge joint—elbow, knee, or ankle—past its natural range of motion, stressing the ligaments, tendons, and joint capsule until the opponent taps or the structure fails."
+    },
+    {
+      "question": "Why should hip drive, not arm strength, generate the finishing force in an armbar or kneebar?",
+      "answer": "The hips produce far more force than the arms and give finer control over the rate of application; arm pulling fatigues the grip and biceps quickly and is much easier for a defender to resist than a well-positioned hip drive."
+    },
+    {
+      "question": "What role does the knee pinch play in a hyperextension submission?",
+      "answer": "The knee or thigh pinch traps the limb and prevents the opponent from rotating or withdrawing it, keeping the joint aligned with the extension force—without it the opponent can spin the arm or leg out and escape."
+    },
+    {
+      "question": "Why must hyperextension submissions be applied progressively rather than explosively in training?",
+      "answer": "Once a joint reaches its range-of-motion limit, only a few degrees separate a tight submission from torn ligaments, so slow, steady pressure gives the defender time to tap before structural damage occurs."
+    },
+    {
+      "question": "Which three joints does the hyperextension principle most commonly target, and which submissions attack them?",
+      "answer": "The elbow via the armbar, the knee via the kneebar, and the ankle via the straight ankle lock; all three share the same mechanic of driving a hinge joint past its anatomical limit."
+    },
+    {
+      "question": "How can a well-defended armbar be turned into another attack?",
+      "answer": "Armbar defense often exposes the neck for a triangle or the shoulder for an omoplata, so a defended hyperextension becomes a chain entry rather than a dead end—use the defense as your opening."
+    },
+    {
+      "question": "What does correct alignment look like when finishing a standard armbar?",
+      "answer": "The opponent's thumb points toward the ceiling, the elbow faces your hips, and the arm stays centered on your body, so hip extension drives directly against the joint's natural bend."
+    },
+    {
+      "question": "What is the consequence of leaving space between your body and the opponent's limb?",
+      "answer": "Space lengthens the lever arm and lets the defender bend the joint to create slack and escape before the force reaches the joint's limit; keep the limb pinned tight to your torso to eliminate gaps."
+    },
+    {
+      "question": "How should a defender respond when caught in a hyperextension submission?",
+      "answer": "Tap early and without hesitation, because ligament damage is cumulative and joints do not strengthen through injury; early recognition and prevention always beat last-second escape attempts."
+    },
+    {
+      "question": "Why is hyperextension considered a fundamental rather than an advanced principle?",
+      "answer": "It relies on simple hinge-joint lever physics that beginners can grasp within their first months, making armbars, kneebars, and ankle locks available from nearly every position in BJJ."
     }
   ]
 }

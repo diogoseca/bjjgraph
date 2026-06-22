@@ -10,6 +10,41 @@ description: "Master collar sleeve guard in BJJ. Comprehensive guide covering gr
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Collar Sleeve Guard",
+  "description": "Master collar sleeve guard in BJJ. Comprehensive guide covering grip control, off-balancing mechanics, sweeps, and triangle setups with strategic analysis for competition.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Collar Sleeve Guard", "item": "https://bjjgraph.org/Positions/Collar-Sleeve-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Collar Sleeve Guard",
+  "description": "Collar sleeve guard is a gi open guard where the bottom player pairs a cross-collar grip with a same-side sleeve grip, using the asymmetric grip structure to break posture, control distance, and chain sweeps with triangle attacks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master collar sleeve guard in BJJ. Comprehensive guide covering gr
 
 <section id="overview" class="content-section">
 
-Collar sleeve guard is a fundamental open guard variation that combines a collar grip (typically cross-collar) with a same-side sleeve grip to create powerful off-balancing and sweeping opportunities. This guard is characterized by its asymmetric grip structure, which generates rotational forces that disrupt the opponent's base while maintaining distance control through the extended sleeve grip.
+**Collar sleeve guard is a gi open guard where the bottom player pairs a cross-collar grip with a same-side sleeve grip, using the asymmetric grip structure to break posture, control distance, and chain sweeps with triangle attacks.**
+
+As one of the most accessible hubs of the gi guard game, collar sleeve guard rewards grip discipline and constant angle adjustment far more than flexibility or athleticism. Its defining asymmetry, a collar pull paired with a same-side sleeve grip, generates rotational forces that disrupt the opponent's base while the extended sleeve grip governs engagement distance and prevents posting.
 
 The position represents one of the most accessible entries into systematic guard play for practitioners at all levels. Unlike more complex guards that require specific flexibility or body type advantages, collar sleeve guard relies on fundamental principles of leverage, angle creation, and grip fighting that translate across all body types and competitive formats. The cross-collar grip provides direct control over the opponent's posture and upper body rotation, while the sleeve grip manages distance and prevents posting.
 
@@ -197,7 +234,7 @@ The position demands active hip movement and constant angle adjustment to remain
 
 - **[[Transitions/Grip Break/Attacker|Grip Break]]** (12% of attempts)
 
-- **[[Transitions/Knee Cut Pass/Attacker|Knee Cut Pass]]** (10% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (10% of attempts)
 
 - **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (8% of attempts)
 
@@ -270,6 +307,18 @@ The position demands active hip movement and constant angle adjustment to remain
 
 - **[[Positions/Mount]]** - Target position for successful sweep completion
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Keenan Cornelius Lapel Guard System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Common entry point for establishing lapel controls from traditional open guard</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Dynamic-Guard-System" data-cta="related-system-card" data-system-slug="systems/dynamic-guard-system" data-system-name="Dynamic Guard System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Dynamic Guard System</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Gi-specific guard for grip-based control and sweeps</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Gi-Specific-Strategy" data-cta="related-system-card" data-system-slug="systems/gi-specific-strategy" data-system-name="Gi-Specific Strategy" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Gi-Specific Strategy</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Primary open guard system built on gi-specific grips</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

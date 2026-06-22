@@ -10,6 +10,41 @@ description: "Master Guillotine Control position in BJJ. Complete strategic guid
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Guillotine Control",
+  "description": "Master Guillotine Control position in BJJ. Complete strategic guide covering setup mechanics, grip variations, and finishing paths from both bottom and top perspectives.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Guillotine Control", "item": "https://bjjgraph.org/Positions/Guillotine-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Guillotine Control",
+  "description": "Guillotine Control is a front-headlock attacking position where one player encircles the opponent's neck and clasps the hands to threaten an immediate choke, forcing the trapped opponent to defend their neck and their position at once.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Guillotine Control position in BJJ. Complete strategic guid
 </div>
 
 <section id="overview" class="content-section">
+
+**Guillotine Control is a front-headlock attacking position where one player encircles the opponent's neck and clasps the hands to threaten an immediate choke, forcing the trapped opponent to defend their neck and their position at once.**
 
 Guillotine Control represents a fundamental attacking position in Brazilian Jiu-Jitsu where one practitioner secures a front headlock grip with submission intent, controlling the opponent's head and neck while threatening immediate choke submission. This position exists across a spectrum of scenarios—from standing clinch exchanges to ground-based situations—and creates powerful strategic dilemmas for the defender who must simultaneously protect against the submission while preventing positional advancement. The guillotine's effectiveness stems from its versatility as both a high-percentage finishing technique and a control position that severely limits the opponent's offensive options.
 
@@ -100,7 +137,9 @@ Strategically, Guillotine Control exemplifies the principle of creating binary d
 ### Available Transitions
 
 
-- **[[Guillotine Choke from Guillotine Control/Attacker|Guillotine Choke from Guillotine Control]]** (50% of attempts)
+- **[[Guillotine Choke from Guillotine Control/Attacker|Guillotine Choke from Guillotine Control]]** (49% of attempts)
+
+- **[[Transitions/Guillotine Choke/Attacker|Guillotine Choke]]** (1% of attempts)
 
 - **[[Transitions/High Elbow Guillotine Variation/Attacker|High Elbow Guillotine Variation]]** (13% of attempts)
 
@@ -183,27 +222,31 @@ Strategically, Guillotine Control exemplifies the principle of creating binary d
 ### Available Transitions
 
 
-- **[[Guillotine Choke from Guillotine Control/Attacker|Guillotine Choke from Guillotine Control]]** (52% of attempts)
+- **[[Guillotine Choke from Guillotine Control/Attacker|Guillotine Choke from Guillotine Control]]** (44% of attempts)
 
-- **[[Transitions/High Elbow Guillotine Variation/Attacker|High Elbow Guillotine Variation]]** (15% of attempts)
+- **[[Transitions/High Elbow Guillotine Variation/Attacker|High Elbow Guillotine Variation]]** (12% of attempts)
 
-- **[[Transitions/Front Headlock to Anaconda/Attacker|Front Headlock to Anaconda]]** (6% of attempts)
+- **[[Transitions/Front Headlock to Anaconda/Attacker|Front Headlock to Anaconda]]** (5% of attempts)
 
-- **[[Transitions/Front Headlock to Darce/Attacker|Front Headlock to Darce]]** (6% of attempts)
+- **[[Transitions/Front Headlock to Darce/Attacker|Front Headlock to Darce]]** (5% of attempts)
 
-- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (6% of attempts)
+- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (5% of attempts)
 
-- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (4% of attempts)
+- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (3% of attempts)
 
-- **[[Transitions/Pass to Side Control/Attacker|Pass to Side Control]]** (9% of attempts)
+- **[[Transitions/Pass to Side Control/Attacker|Pass to Side Control]]** (7% of attempts)
 
-- **[[Transitions/Arm in Guillotine Variation/Attacker|Arm in Guillotine Variation]]** (1% of attempts)
+- **[[Transitions/Arm in Guillotine Variation/Attacker|Arm in Guillotine Variation]]** (2% of attempts)
 
-- **[[Transitions/Guillotine Counter/Attacker|Guillotine Counter]]** (0% of attempts)
+- **[[Transitions/Guillotine Counter/Attacker|Guillotine Counter]]** (2% of attempts)
 
-- **[[Transitions/Ten Finger Guillotine Variation/Attacker|Ten Finger Guillotine Variation]]** (0% of attempts)
+- **[[Transitions/Ten Finger Guillotine Variation/Attacker|Ten Finger Guillotine Variation]]** (1% of attempts)
 
-- **[[Transitions/Guillotine Choke/Attacker|Guillotine Choke]]** (1% of attempts)
+- **[[Arm in Guillotine from Guillotine Control/Attacker|Arm in Guillotine from Guillotine Control]]** (1% of attempts)
+
+- **[[High Elbow Guillotine from Guillotine Control/Attacker|High Elbow Guillotine from Guillotine Control]]** (12% of attempts)
+
+- **[[Ten Finger Guillotine from Guillotine Control/Attacker|Ten Finger Guillotine from Guillotine Control]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -266,6 +309,21 @@ Strategically, Guillotine Control exemplifies the principle of creating binary d
 
 - **[[Positions/Side Control]]** - Advancement target when passing while maintaining guillotine grip
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Danaher-Front-Headlock-System" data-cta="related-system-card" data-system-slug="systems/danaher-front-headlock-system" data-system-name="Danaher Front Headlock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Danaher Front Headlock System</span><span class="system-card__unlocks-badge">Unlocks 30 techniques</span><span class="system-card__blurb">Key position state within guillotine attack pathway</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Control System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/MMA-Crossover-Strategy" data-cta="related-system-card" data-system-slug="systems/mma-crossover-strategy" data-system-name="MMA Crossover Strategy" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">MMA Crossover Strategy</span><span class="system-card__unlocks-badge">Unlocks 27 techniques</span><span class="system-card__blurb">High-percentage submission position from sprawl and front headlock</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Marcelo-Garcia-Guillotine-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-guillotine-system" data-system-name="Marcelo Garcia Guillotine System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Marcelo Garcia Guillotine System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Primary control position for system application and finishing mechanics</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/No-Gi-Tactical-Framework" data-cta="related-system-card" data-system-slug="systems/no-gi-tactical-framework" data-system-name="No-Gi Tactical Framework" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">No-Gi Tactical Framework</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">High-frequency submission threat in no-gi grappling</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/No-Gi-Competition-Approach" data-cta="related-system-card" data-system-slug="systems/no-gi-competition-approach" data-system-name="No-Gi Competition Approach" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">No-Gi Competition Approach</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">High-percentage no-gi submission position</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Marcelo-Garcia-Butterfly-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-butterfly-guard-system" data-system-name="Marcelo Garcia Butterfly Guard System" data-member-count="18"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Marcelo Garcia Butterfly Guard System</span><span class="system-card__unlocks-badge">Unlocks 18 techniques</span><span class="system-card__blurb">Submission threat when opponent pressures forward to pass</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

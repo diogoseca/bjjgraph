@@ -1,5 +1,6 @@
 {
   "name": "Bridge from Scarf Hold Position",
+  "summary": "The Bridge from Scarf Hold Position is a bottom-player reversal that traps the opponent's head-wrapping arm, hooks their near leg, and explodes into a 45-degree bridge to roll them over their shoulder into closed guard on top.",
   "description": "Master the bridge-and-roll reversal from scarf hold in BJJ. Step-by-step guide to arm trapping, leg hooking, and explosive bridging for a full kesa gatame reversal.",
   "tags": [
     "bjj",
@@ -72,14 +73,6 @@
     {
       "name": "Bridge Escape from Scarf Hold",
       "relationship": "Related bridge escape targeting half guard recovery rather than full reversal"
-    },
-    {
-      "name": "Bridge Escape from Kesa Gatame",
-      "relationship": "Closely related bridge escape from the traditional judo kesa gatame variant"
-    },
-    {
-      "name": "Bridge Escape from Modified Scarf Hold",
-      "relationship": "Similar bridge mechanics applied to modified scarf hold configuration"
     },
     {
       "name": "Kesa Gatame",

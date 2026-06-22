@@ -10,6 +10,41 @@ description: "Master the Rear Naked Choke Setup from back control. Complete guid
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Rear Naked Choke Setup",
+  "description": "Master the Rear Naked Choke Setup from back control. Complete guide to arm insertion, grip stripping, figure-four mechanics, and systematic neck exposure.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Rear Naked Choke Setup", "item": "https://bjjgraph.org/Transitions/Rear-Naked-Choke-Setup" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Rear Naked Choke Setup",
+  "description": "The Rear Naked Choke Setup is the back-control sequence of stripping defensive grips, threading the choking arm beneath the chin, and locking the figure-four to expose the neck for the sport's highest-percentage finish.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Rear Naked Choke Setup from back control. Complete guid
 </div>
 
 <section id="overview" class="content-section">
+
+**The Rear Naked Choke Setup is the back-control sequence of stripping defensive grips, threading the choking arm beneath the chin, and locking the figure-four to expose the neck for the sport's highest-percentage finish.**
 
 The Rear Naked Choke Setup represents the critical transition phase between maintaining back control and securing the highest-percentage submission in Brazilian Jiu-Jitsu. This technique encompasses the systematic process of breaking down your opponent's defensive hand fighting, inserting your choking arm beneath their chin, and establishing the figure-four grip configuration that enables the finishing squeeze. Unlike many submission setups that expose you to counters, the RNC setup maintains dominant positional control throughout the sequence, making it exceptionally safe relative to its finishing potential.
 
@@ -229,5 +266,7 @@ The Rear Naked Choke Setup is the primary submission pathway from back control, 
 
 
 </section>
+
+
 
 </main>

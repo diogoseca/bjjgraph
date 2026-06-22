@@ -2,7 +2,19 @@
   "name": "North-South",
   "slug": "north-south",
   "description": "Master North-South position in BJJ. Complete guide covering top control dominance, bottom escape strategies, submission attacks, and positional transitions with expert analysis.",
+  "disambiguations": [
+    {
+      "name": "North-South Choke",
+      "reason": "the North-South Choke is a submission finished from this position, not the position itself"
+    }
+  ],
+  "aliases": [
+    "Kami Shiho Gatame",
+    "North South Position",
+    "69 Position"
+  ],
   "variant_uniqueness": "Perpendicular alignment maximizes pressure",
+  "summary": "North-South is a dominant top pin where the controlling player drapes their chest over the opponent's head and upper chest, bodies aligned head-to-head in opposite directions, generating crushing perpendicular pressure for control and submissions.",
   "overview": "North-South position represents one of the most controlling pin positions in Brazilian Jiu-Jitsu, characterized by perpendicular body alignment where the top player's chest covers the bottom player's head and chest while facing opposite directions. This position creates immense pressure and control through strategic weight distribution across the opponent's upper body.\n\nFrom the top perspective, North-South offers exceptional control with minimal energy expenditure once established. The position allows the top player to distribute their entire body weight across the opponent's chest and shoulders, creating a crushing pressure that restricts breathing and movement. The head-to-head alignment provides natural control of the opponent's upper body while the hands can secure underhooks, overhooks, or control the arms directly. While North-South is primarily a control position, it opens pathways to powerful submissions including the North-South choke, Kimura, and various arm attacks.\n\nThe strategic value of North-South lies in its ability to maintain control while transitioning between other dominant positions. Skilled practitioners use North-South as a checkpoint position when passing guard or transitioning from side control to mount. The position's stability makes it ideal for recovering stamina while maintaining offensive pressure, though the perpendicular alignment can make certain transitions more challenging than from parallel positions like side control.\n\nFrom the bottom perspective, North-South represents a highly disadvantageous position requiring immediate escape efforts. The crushing chest pressure and arm control severely limit mobility options, making this one of the most difficult pins to escape. Bottom players must focus on hip movement, frame creation, and explosive timing to create space and reestablish guard or achieve a reversal.\n\nThe position demands different strategic approaches based on whether you're establishing control from top or fighting to escape from bottom. Understanding both perspectives is essential for complete positional mastery, as the same structural principles that make North-South effective for control also reveal the pathways for escape when you find yourself underneath.",
   "key_principles": [
     "North-South control relies on chest-to-chest pressure distributed across opponent's upper body",
@@ -278,15 +290,15 @@
     "transitions": [
       {
         "transition": "North-South Choke from North-South",
-        "attempt_probability": 12
+        "attempt_probability": 18
       },
       {
         "transition": "Side Control to Mount",
-        "attempt_probability": 11
+        "attempt_probability": 12
       },
       {
         "transition": "North-South to Kimura",
-        "attempt_probability": 21
+        "attempt_probability": 17
       },
       {
         "transition": "Armbar from North-South",
@@ -294,27 +306,27 @@
       },
       {
         "transition": "Side Control to North-South",
-        "attempt_probability": 7
+        "attempt_probability": 6
       },
       {
         "transition": "Americana from North-South",
-        "attempt_probability": 9
+        "attempt_probability": 7
       },
       {
         "transition": "Knee on Belly",
-        "attempt_probability": 7
+        "attempt_probability": 8
       },
       {
         "transition": "Arm Triangle Setup",
-        "attempt_probability": 7
+        "attempt_probability": 8
       },
       {
         "transition": "Reverse Mount Transition",
-        "attempt_probability": 6
+        "attempt_probability": 5
       },
       {
         "transition": "Back Take from Top",
-        "attempt_probability": 6
+        "attempt_probability": 5
       },
       {
         "transition": "North-South Choke",

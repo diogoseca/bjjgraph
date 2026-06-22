@@ -10,6 +10,41 @@ description: "Master Defense from Standing Rear Clinch in BJJ. Essential escape 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Defense from Standing Rear Clinch",
+  "description": "Master Defense from Standing Rear Clinch in BJJ. Essential escape techniques covering grip breaking, hip movement, and reversals from standing back control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Defense from Standing Rear Clinch", "item": "https://bjjgraph.org/Transitions/Defense-from-Standing-Rear-Clinch" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Defense from Standing Rear Clinch",
+  "description": "Defense from Standing Rear Clinch is the escape sequence a grappler uses to break an opponent's standing chest-to-back control by fighting the grip, lowering the base, and creating hip angle to turn, throw, or disengage before a takedown or standing choke lands.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Defense from Standing Rear Clinch in BJJ. Essential escape 
 </div>
 
 <section id="overview" class="content-section">
+
+**Defense from Standing Rear Clinch is the escape sequence a grappler uses to break an opponent's standing chest-to-back control by fighting the grip, lowering the base, and creating hip angle to turn, throw, or disengage before a takedown or standing choke lands.**
 
 Defense from Standing Rear Clinch encompasses the systematic techniques used to escape when an opponent has established chest-to-back control in a standing position. This is one of the most critical defensive skills in grappling because the standing rear clinch funnels directly into high-percentage takedowns, standing chokes, and transitions to dominant ground positions like back control with hooks. The escape requires addressing three layers of control simultaneously: the opponent's grip configuration around your upper body, their chest-to-back pressure driving you forward, and their hip positioning that enables lifting or dragging takedowns. Failure to address all three layers results in either maintained clinch control or, worse, a transition to ground-based back control where escape becomes significantly more difficult.
 
@@ -231,5 +268,7 @@ Defense from Standing Rear Clinch serves as the critical defensive gateway preve
 
 
 </section>
+
+
 
 </main>

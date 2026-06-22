@@ -142,11 +142,24 @@ description: "Master submission defense in BJJ. Learn escape hierarchies, frame 
 }
 </script>
 
-> Submission Defense is a medium complexity BJJ principle applicable at the Fundamental level. Develop over Beginner to Advanced.
 
-**Application Level**: Fundamental
-**Complexity**: Medium
-**Development Timeline**: Beginner to Advanced
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Submission Defense",
+  "description": "Submission Defense is the systematic skillset of preventing, recognizing, and escaping submission attempts through a hierarchy of positioning, framing, grip-fighting, and space generation, prioritizing prevention long before a submission locks in.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Fundamental</span>
+<span class="meta-chip">Medium complexity</span>
+<span class="meta-chip">Beginner to Advanced</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -154,6 +167,8 @@ description: "Master submission defense in BJJ. Learn escape hierarchies, frame 
 <section id="overview" class="content-section">
 
 ## What is Submission Defense?
+
+**Submission Defense is the systematic skillset of preventing, recognizing, and escaping submission attempts through a hierarchy of positioning, framing, grip-fighting, and space generation, prioritizing prevention long before a submission locks in.**
 
 Submission Defense represents one of the most critical survival skillsets in Brazilian Jiu-Jitsu, encompassing the systematic approach to recognizing, preventing, and escaping submission attempts. Rather than relying on panic reactions or isolated techniques, effective submission defense operates on a hierarchy of prevention, early recognition, progressive defense, and last-resort escapes. This principle acknowledges that the best defense occurs long before the submission is locked in—through proper positioning, connection management, and space control that prevents opponents from establishing dominant grips and angles in the first place.
 
@@ -391,6 +406,16 @@ Training focused on identifying submission setups in preliminary stages before a
 - [[Honey Hole]] (Position) - Modern leg entanglement position with high submission rate requiring specialized heel hook defense
 - [[Position-Over-Submission Approach]] (Principle) - Broader tactical principle reinforcing positional safety over counter-attacks during defensive situations
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Lachlan-Giles-Leg-Lock-Defense-Framework" data-cta="related-system-card" data-system-slug="systems/lachlan-giles-leg-lock-defense-framework" data-system-name="Lachlan Giles Leg Lock Defense Framework" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Lachlan Giles Leg Lock Defense Framework</span><span class="system-card__unlocks-badge">Unlocks 26 techniques</span><span class="system-card__blurb">General defensive principles that apply specifically to leg lock scenarios</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

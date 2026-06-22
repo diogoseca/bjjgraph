@@ -3,6 +3,7 @@
   "slug": "standing-position",
   "description": "Master standing position in BJJ. Complete guide covering grips, takedowns, guard pulls, and maintaining balance with offensive and defensive strategies.",
   "variant_uniqueness": "Equal offensive access with high mobility",
+  "summary": "The Standing Position is the neutral, upright starting state of a BJJ match where both grapplers contest grips and balance, choosing between takedown entries and tactical guard pulls to dictate how the fight reaches the ground.",
   "overview": "The Standing Position represents the fundamental neutral starting state in BJJ and grappling competitions. This position is characterized by both practitioners standing upright and engaging through various grips, postures, and movements while seeking advantageous entries to ground exchanges. In competition, this is typically the position where matches begin and can also result from stand-ups or resets. The Standing Position encompasses a wide range of specific scenarios depending on grip configurations, stance, and relative positioning, but generally involves both practitioners seeking to establish dominant grips, create off-balancing opportunities, and set up either takedowns or tactical guard pulls. This position serves as the gateway to all subsequent BJJ exchanges and requires a unique blend of skills that differ from ground-based grappling. Mastery of the standing position involves understanding distance management, timing, grip sequences, footwork patterns, and the ability to transition seamlessly between offensive takedown attempts and defensive sprawls or guard pulls. The strategic depth of this position is often underestimated, yet it determines how the majority of competitive matches begin and can significantly impact the overall flow and outcome of a match.",
   "key_principles": [
     "Establish and maintain proper athletic stance with knees slightly bent, weight on balls of feet, and balanced base",
@@ -105,59 +106,67 @@
     "transitions": [
       {
         "transition": "Guard Pull",
-        "attempt_probability": 44
+        "attempt_probability": 33
       },
       {
-        "transition": "Double Leg Setup",
-        "attempt_probability": 7
+        "transition": "Sprawl Defense from Standing",
+        "attempt_probability": 10
       },
       {
         "transition": "Single Leg Entry",
-        "attempt_probability": 8
-      },
-      {
-        "transition": "Sprawl",
         "attempt_probability": 7
       },
       {
+        "transition": "Double Leg Setup",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Sprawl",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Knee Tap",
+        "attempt_probability": 3
+      },
+      {
         "transition": "Double Leg Entry",
-        "attempt_probability": 4
+        "attempt_probability": 3
       },
       {
         "transition": "Snap Down to Front Headlock",
-        "attempt_probability": 4
+        "attempt_probability": 3
       },
       {
         "transition": "Arm Drag",
-        "attempt_probability": 4
+        "attempt_probability": 3
       },
       {
         "transition": "Ankle Pick",
-        "attempt_probability": 2
+        "attempt_probability": 1
       },
       {
         "transition": "Arm Drag to Back",
-        "attempt_probability": 2
+        "attempt_probability": 1
       },
       {
         "transition": "Body Lock Takedown",
-        "attempt_probability": 2
+        "attempt_probability": 1
       },
       {
         "transition": "Jumping Guard",
-        "attempt_probability": 2
+        "attempt_probability": 1
       },
       {
         "transition": "Osoto Gari",
-        "attempt_probability": 2
+        "attempt_probability": 1
       },
       {
         "transition": "Ouchi Gari",
-        "attempt_probability": 2
+        "attempt_probability": 1
       },
       {
         "transition": "Tomoe Nage",
-        "attempt_probability": 2
+        "attempt_probability": 1
       },
       {
         "transition": "Deashi Harai",
@@ -185,31 +194,31 @@
       },
       {
         "transition": "50-50 Entry from Standing",
-        "attempt_probability": 0
+        "attempt_probability": 1
       },
       {
         "transition": "Body Lock Pass",
-        "attempt_probability": 0
+        "attempt_probability": 1
       },
       {
         "transition": "Kosoto Gake",
-        "attempt_probability": 0
+        "attempt_probability": 1
       },
       {
         "transition": "Kosoto Gari",
-        "attempt_probability": 0
+        "attempt_probability": 1
       },
       {
         "transition": "Morote Seoi Nage",
-        "attempt_probability": 0
+        "attempt_probability": 1
       },
       {
         "transition": "Sasae Tsurikomi Ashi",
-        "attempt_probability": 0
+        "attempt_probability": 1
       },
       {
         "transition": "Tai Otoshi",
-        "attempt_probability": 0
+        "attempt_probability": 1
       },
       {
         "transition": "Flying Kneebar",
@@ -217,10 +226,22 @@
       },
       {
         "transition": "Reverse Kimura",
-        "attempt_probability": 0
+        "attempt_probability": 1
       },
       {
         "transition": "Single Leg to Back Take",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Flying Kneebar from Standing Position",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Kimura from Standing",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Reverse Kimura from Standing Position",
         "attempt_probability": 1
       }
     ],
@@ -532,23 +553,19 @@
     "transitions": [
       {
         "transition": "Pull Guard from Standing",
-        "attempt_probability": 20
+        "attempt_probability": 24
       },
       {
         "transition": "Standing Guard Pull",
-        "attempt_probability": 18
+        "attempt_probability": 22
       },
       {
         "transition": "Butterfly Guard Pull",
-        "attempt_probability": 15
-      },
-      {
-        "transition": "Sprawl Defense from Standing",
-        "attempt_probability": 15
+        "attempt_probability": 18
       },
       {
         "transition": "Arm Drag from Standing",
-        "attempt_probability": 10
+        "attempt_probability": 13
       },
       {
         "transition": "Level Change Takedown",
@@ -560,7 +577,7 @@
       },
       {
         "transition": "Snap Down from Standing",
-        "attempt_probability": 7
+        "attempt_probability": 8
       }
     ],
     "decision_tree": [

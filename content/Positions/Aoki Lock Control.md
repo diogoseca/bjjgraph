@@ -10,6 +10,41 @@ description: "Master Aoki Lock position in BJJ. Advanced shoulder lock control c
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Aoki Lock Control",
+  "description": "Master Aoki Lock position in BJJ. Advanced shoulder lock control combining leg entanglement with omoplata-style pressure. Complete guide covering both offensive and defensive perspectives.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Aoki Lock Control", "item": "https://bjjgraph.org/Positions/Aoki-Lock-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Aoki Lock Control",
+  "description": "Aoki Lock Control is an advanced no-gi shoulder-lock control in which the top player entangles their legs around the opponent's isolated arm and shoulder, applying omoplata-style rotational pressure while threatening the finish, back takes, and crucifix transitions.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Aoki Lock position in BJJ. Advanced shoulder lock control c
 </div>
 
 <section id="overview" class="content-section">
+
+**Aoki Lock Control is an advanced no-gi shoulder-lock control in which the top player entangles their legs around the opponent's isolated arm and shoulder, applying omoplata-style rotational pressure while threatening the finish, back takes, and crucifix transitions.**
 
 The Aoki Lock position represents an advanced submission control state named after Japanese MMA fighter Shinya Aoki, characterized by leg entanglement control combined with shoulder lock pressure. This hybrid position integrates elements of omoplata mechanics with leg-based trapping, creating a powerful control system that limits opponent mobility while applying progressive shoulder joint pressure. The position exists in two distinct perspectives: bottom (defensive escape focus) and top (offensive finishing focus), each requiring specialized technical knowledge and safety awareness.
 
@@ -232,5 +269,7 @@ This position appears most commonly in no-gi competition, submission-only format
 
 
 </section>
+
+
 
 </main>

@@ -164,7 +164,7 @@ description: "Learn to defend the cross collar choke from body triangle. Recogni
 
 Defending the cross collar choke from body triangle is one of the most demanding defensive scenarios in gi grappling. You must simultaneously manage the breathing restriction from the body triangle, protect your collar from deep grip insertion, and work toward escaping back control entirely. The body triangle eliminates the standard hook-clearing escape path, forcing you to solve the collar defense and positional escape as interconnected problems rather than sequential steps. Early recognition of collar grip attempts and disciplined hand positioning are your primary tools for surviving this attack.
 
-**Opponent's Starting Position**: [[Positions/Back Control/Body Triangle]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Back Control/Body Triangle]] (Top)
 
 
 </section>

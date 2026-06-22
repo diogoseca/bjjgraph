@@ -7,45 +7,47 @@
     "electric-chair",
     "lockdown",
     "leg-lock",
-    "knee-compression",
+    "hip-compression",
+    "groin-split",
     "half-guard",
     "10th-planet"
   ],
   "is_family": true,
   "submission_category": "Compression",
-  "submission_type": "Knee and Hip Compression",
-  "target_area": "Knee joint, hip flexors, and posterior chain",
+  "submission_type": "Hip and Groin Compression",
+  "target_area": "Hip joint, adductors (groin), and inner thigh",
   "starting_position": "Lockdown",
   "from_position": "Deep Half Guard/Bottom",
   "success_rate": 62,
-  "variant_uniqueness": "Lockdown-based compression attacking knee, hip, and posterior chain simultaneously",
-  "overview": "The Electric Chair is a signature submission technique from 10th Planet Jiu-Jitsu, primarily executed from the lockdown position in half guard. This compression-based submission creates intense pressure on the opponent's trapped leg by combining hip extension, knee torque, and spinal rotation. Unlike traditional joint locks that isolate a single articulation, the Electric Chair simultaneously attacks multiple anatomical structures including the knee joint, hip flexors, IT band, and lower back.\n\nThe submission derives its effectiveness from the lockdown control system, where the bottom player uses a figure-four leg configuration to trap and extend the opponent's leg while controlling their posture. From this foundation, the practitioner transitions to an inverted position, creating a powerful lever that forces the opponent's knee into hyperextension while applying rotational torque to the hip joint. The Electric Chair represents a perfect example of how systematic position control can lead to high-percentage finishing opportunities.\n\nHistorically developed and refined within the 10th Planet system, the Electric Chair has proven effective in both gi and no-gi competition contexts. The technique emphasizes pressure over speed, rewarding practitioners who develop strong lockdown mechanics and understand the progressive nature of compression submissions. When executed properly with controlled application speed, it serves as both a legitimate finishing threat and a powerful sweeping mechanism that forces opponents into defensive reactions.",
+  "variant_uniqueness": "Lockdown hip split that hyperabducts the trapped leg to attack the hip joint and groin",
+  "summary": "The Electric Chair is a 10th Planet compression submission from the lockdown in half guard that splits the opponent's trapped leg away from their body, hyperabducting the hip to tear the adductors and groin while doubling as a powerful sweep.",
+  "overview": "The Electric Chair is a signature submission technique from 10th Planet Jiu-Jitsu, primarily executed from the lockdown position in half guard. This compression-based submission works by forcing the opponent's trapped leg outward and away from their centerline, hyperabducting the hip and stretching the adductor (groin) muscles past their range. Unlike traditional joint locks that isolate a single articulation, the Electric Chair drives the hip joint and inner-thigh structures to their limit while loading the trapped knee with secondary rotational torque, making the hip and groin the primary danger zone.\n\nThe submission derives its effectiveness from the lockdown control system, where the bottom player uses a figure-four leg configuration to trap and extend the opponent's leg while controlling their posture. From this foundation, the practitioner transitions to an inverted position and underhooks the trapped leg, creating a powerful lever that splits that leg away from the body. This forced hyperabduction wrenches the hip capsule and tears the adductors; the knee absorbs rotational load as a secondary structure. The Electric Chair represents a perfect example of how systematic position control can lead to high-percentage finishing opportunities.\n\nHistorically developed and refined within the 10th Planet system, the Electric Chair has proven effective in both gi and no-gi competition contexts. The technique emphasizes pressure over speed, rewarding practitioners who develop strong lockdown mechanics and understand the progressive nature of compression submissions. When executed properly with controlled application speed, it serves as both a legitimate finishing threat and a powerful sweeping mechanism that forces opponents into defensive reactions.",
   "safety_considerations": {
     "injury_risks": [
       {
-        "injury": "Medial collateral ligament (MCL) sprain or tear",
+        "injury": "Hip labral tear or hip joint capsule damage from forced hyperabduction",
+        "severity": "CRITICAL",
+        "recovery_time": "3-6 months conservatively; surgical labral repair can require 4-6 months or longer"
+      },
+      {
+        "injury": "Groin strain or adductor muscle tear from the leg split",
         "severity": "High",
+        "recovery_time": "3-8 weeks for grade 1-2 strains; 3-4 months for severe adductor tears"
+      },
+      {
+        "injury": "Medial collateral ligament (MCL) sprain from rotational force on the trapped knee",
+        "severity": "Medium",
         "recovery_time": "4-12 weeks for grade 1-2 sprains; 3-6 months for grade 3 tears"
       },
       {
-        "injury": "Posterior cruciate ligament (PCL) strain",
-        "severity": "Medium",
-        "recovery_time": "2-8 weeks for minor strains; 3-6 months for significant injuries"
-      },
-      {
-        "injury": "IT band inflammation and hip flexor strain",
-        "severity": "Medium",
-        "recovery_time": "2-6 weeks with proper rest and treatment"
-      },
-      {
-        "injury": "Lower back strain from spinal rotation",
+        "injury": "Lower back strain from asymmetric hip loading and spinal rotation",
         "severity": "Medium",
         "recovery_time": "1-4 weeks depending on severity"
       },
       {
-        "injury": "Hamstring and adductor muscle strains",
+        "injury": "IT band inflammation and hip flexor strain",
         "severity": "Low",
-        "recovery_time": "1-3 weeks for minor strains"
+        "recovery_time": "2-6 weeks with proper rest and treatment"
       }
     ],
     "application_speed": "EXTREMELY SLOW and progressive - minimum 5-7 seconds from initial pressure to maximum extension; compression submissions require gradual intensity increase",
@@ -63,14 +65,14 @@
       "Control opponent's leg as you release to prevent sudden movement",
       "Gradually lower opponent's leg back to neutral position",
       "Maintain communication to ensure partner safety",
-      "Allow partner time to assess their knee and hip before continuing"
+      "Allow partner time to assess their hip, groin, and knee before continuing"
     ],
     "training_restrictions": [
       "Never apply explosive or jerking movements during extension",
       "Never use competition-speed application in training environments",
       "Always maintain verbal communication with training partner",
       "Never continue pressure after tap signal for any reason",
-      "Avoid training this submission with partners who have existing knee injuries",
+      "Avoid training this submission with partners who have existing hip, groin, or knee injuries",
       "Never practice on partners who lack flexibility in hips and hamstrings without proper warm-up",
       "Always ensure partner has clear access to tap with both hands",
       "Never attempt full extension in initial learning phases"

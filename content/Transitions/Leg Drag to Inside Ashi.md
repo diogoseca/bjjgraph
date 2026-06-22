@@ -10,6 +10,41 @@ description: "Learn Leg Drag to Inside Ashi in BJJ. Transition from passing cont
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Leg Drag to Inside Ashi",
+  "description": "Learn Leg Drag to Inside Ashi in BJJ. Transition from passing control to leg entanglement. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Leg Drag to Inside Ashi", "item": "https://bjjgraph.org/Transitions/Leg-Drag-to-Inside-Ashi" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Leg Drag to Inside Ashi",
+  "description": "Leg Drag to Inside Ashi is a transition from leg drag passing control into the inside ashi-garami leg entanglement, redirecting a stalled pass into a heel-hook-threatening leg attack when the opponent defends by posting heavily on their hip.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Learn Leg Drag to Inside Ashi in BJJ. Transition from passing cont
 </div>
 
 <section id="overview" class="content-section">
+
+**Leg Drag to Inside Ashi is a transition from leg drag passing control into the inside ashi-garami leg entanglement, redirecting a stalled pass into a heel-hook-threatening leg attack when the opponent defends by posting heavily on their hip.**
 
 The Leg Drag to Inside Ashi transition represents a sophisticated pathway from a dominant passing position into the leg attack game. When your opponent defends the leg drag by posting strongly on their far hip or fighting your upper body control, they often inadvertently expose their legs to entanglement attacks. Rather than forcing the pass against heavy resistance, you redirect your energy into securing inside ashi-garami—a position that offers immediate heel hook opportunities while maintaining strong control.
 
@@ -218,5 +255,7 @@ The Leg Drag to Inside Ashi transition represents the integration of passing and
 
 
 </section>
+
+
 
 </main>

@@ -10,6 +10,41 @@ description: "Master the Cross Ashi to 50-50 transition in BJJ. Learn leg reposi
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Cross Ashi to 50-50",
+  "description": "Master the Cross Ashi to 50-50 transition in BJJ. Learn leg repositioning mechanics, grip transfers, and timing for strategic leg entanglement changes.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Cross Ashi to 50-50", "item": "https://bjjgraph.org/Transitions/Cross-Ashi-to-50-50" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Cross Ashi to 50-50",
+  "description": "Cross Ashi to 50-50 is a leg-lock transition where the top player uncrosses their outside leg from cross ashi-garami and threads it into the mirrored 50-50 entanglement, trading rotational heel-hook pressure for symmetric control and fresh attack angles.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Cross Ashi to 50-50 transition in BJJ. Learn leg reposi
 </div>
 
 <section id="overview" class="content-section">
+
+**Cross Ashi to 50-50 is a leg-lock transition where the top player uncrosses their outside leg from cross ashi-garami and threads it into the mirrored 50-50 entanglement, trading rotational heel-hook pressure for symmetric control and fresh attack angles.**
 
 The Cross Ashi to 50-50 transition is a strategic leg entanglement repositioning that shifts the attacking practitioner from the asymmetric cross ashi-garami configuration into the symmetric 50-50 guard structure. This transition is typically employed when direct heel hook attacks from cross ashi are being effectively defended, particularly when the opponent hides their heel through knee rotation or establishes strong hand fighting that prevents finishing grips. Rather than abandoning the leg entanglement entirely, the practitioner maintains lower body control while fundamentally changing the angle of attack and the mechanical advantages available for submission finishing.
 
@@ -226,5 +263,7 @@ The Cross Ashi to 50-50 transition occupies a critical junction in the modern le
 
 
 </section>
+
+
 
 </main>

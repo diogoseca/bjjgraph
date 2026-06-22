@@ -10,6 +10,41 @@ description: "Learn Arm Drag Escape from front headlock in BJJ. Use arm drag mec
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Arm Drag Escape",
+  "description": "Learn Arm Drag Escape from front headlock in BJJ. Use arm drag mechanics to clear head control and recover open guard. Complete attacker and defender guide.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Arm Drag Escape", "item": "https://bjjgraph.org/Transitions/Arm-Drag-Escape" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Arm Drag Escape",
+  "description": "The Arm Drag Escape is a front-headlock counter in which you grip the opponent's choking arm two-on-one, drag it across your centerline, and simultaneously circle your head free to recover open guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Learn Arm Drag Escape from front headlock in BJJ. Use arm drag mec
 
 <section id="overview" class="content-section">
 
-The Arm Drag Escape is a high-percentage defensive technique used to escape front headlock control by redirecting the opponent's controlling arm across your body, creating the space needed to clear your head and recover to open guard. Unlike many front headlock escapes that rely on explosive movement or rolling mechanics, the arm drag escape uses precise grip work and angular movement to systematically dismantle your opponent's control structure.
+**The Arm Drag Escape is a front-headlock counter in which you grip the opponent's choking arm two-on-one, drag it across your centerline, and simultaneously circle your head free to recover open guard.**
+
+Among the family of front headlock escapes, the arm drag occupies a unique niche: where most defenses rely on explosive movement or rolling mechanics, this technique uses precise grip work and angular movement to systematically dismantle the opponent's control structure. By attacking the very limb that sustains the headlock, it converts a defensive emergency into a controlled, mechanical sequence that recovers open guard.
 
 The technique exploits a fundamental vulnerability in front headlock control: the opponent's choking arm must stay wrapped around your head to maintain the position, but this creates an accessible limb that can be dragged across your centerline. By securing a two-on-one grip on the choking arm and pulling it across your body while simultaneously circling your head free, you convert a dangerous defensive position into an opportunity to recover guard or even create offensive scramble opportunities.
 
@@ -223,5 +260,7 @@ The Arm Drag Escape occupies a critical role within the front headlock defensive
 
 
 </section>
+
+
 
 </main>

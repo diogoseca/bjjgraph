@@ -10,6 +10,41 @@ description: "Master grasshopper guard in BJJ. Strategic guide covering elevatio
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Grasshopper Guard",
+  "description": "Master grasshopper guard in BJJ. Strategic guide covering elevation mechanics, leg attacks, and sweep chains with complete offensive and defensive analysis.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Grasshopper Guard", "item": "https://bjjgraph.org/Positions/Grasshopper-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Grasshopper Guard",
+  "description": "Grasshopper Guard is an inverted open guard where the bottom player bases on their shoulders and elevates the hips to thread their legs around a standing passer, hunting kneebars, ankle locks, and elevation sweeps.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master grasshopper guard in BJJ. Strategic guide covering elevatio
 
 <section id="overview" class="content-section">
 
-Grasshopper Guard represents an unorthodox open guard position where the bottom practitioner inverts their body positioning, placing their shoulders near the mat while elevating their hips and legs toward the opponent. This inverted guard creates unique angles for leg attacks, especially kneebars and ankle locks, while simultaneously offering powerful sweeping mechanics through hip elevation and leg entanglement.
+**Grasshopper Guard is an inverted open guard where the bottom player bases on their shoulders and elevates the hips to thread their legs around a standing passer, hunting kneebars, ankle locks, and elevation sweeps.**
+
+Among modern inverted guards, Grasshopper Guard stands out as a transitional, submission-hunting platform rather than a place to settle and rest. The bottom practitioner inverts their body positioning, placing their shoulders near the mat while elevating their hips and legs toward the opponent. This inverted guard creates unique angles for leg attacks, especially kneebars and ankle locks, while simultaneously offering powerful sweeping mechanics through hip elevation and leg entanglement.
 
 The position is characterized by the bottom player essentially "hopping" or transitioning between different leg configurations while maintaining an inverted posture. Unlike traditional open guards that rely on upright seated positioning, grasshopper guard leverages the practitioner's back and shoulders as base points, freeing the hips and legs for dynamic offensive actions.
 
@@ -122,7 +159,7 @@ Defensively, grasshopper guard can serve as an emergency response when tradition
 
 - **[[Transitions/Granby to Closed Guard/Attacker|Granby to Closed Guard]]** (13% of attempts)
 
-- **[[Transitions/50-50 Entry/Attacker|50-50 Entry]]** (4% of attempts)
+- **[[Transitions/50-50 Entry/Attacker|50-50 Entry]]** (3% of attempts)
 
 - **[[Transitions/Reverse De La Riva Recovery/Attacker|Reverse De La Riva Recovery]]** (6% of attempts)
 
@@ -130,11 +167,11 @@ Defensively, grasshopper guard can serve as an emergency response when tradition
 
 - **[[Transitions/X-Guard Elevation Sweep/Attacker|X-Guard Elevation Sweep]]** (10% of attempts)
 
-- **[[Heel Hook from Grasshopper Guard/Attacker|Heel Hook from Grasshopper Guard]]** (3% of attempts)
+- **[[Heel Hook from Grasshopper Guard/Attacker|Heel Hook from Grasshopper Guard]]** (6% of attempts)
 
 - **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (9% of attempts)
 
-- **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (5% of attempts)
+- **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -272,5 +309,7 @@ Defensively, grasshopper guard can serve as an emergency response when tradition
 
 
 </section>
+
+
 
 </main>

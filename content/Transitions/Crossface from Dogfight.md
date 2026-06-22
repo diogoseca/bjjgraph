@@ -10,6 +10,41 @@ description: "Master the Crossface from Dogfight in BJJ. Drive shoulder pressure
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Crossface from Dogfight",
+  "description": "Master the Crossface from Dogfight in BJJ. Drive shoulder pressure to flatten your opponent and complete the half guard pass to side control effectively.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Crossface from Dogfight", "item": "https://bjjgraph.org/Transitions/Crossface-from-Dogfight" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Crossface from Dogfight",
+  "description": "The Crossface from Dogfight is a top-player passing technique that drives shoulder and forearm pressure across the opponent's face to turn their head, break their kneeling posture, and flatten the dogfight back into a side-control pass.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Crossface from Dogfight in BJJ. Drive shoulder pressure
 </div>
 
 <section id="overview" class="content-section">
+
+**The Crossface from Dogfight is a top-player passing technique that drives shoulder and forearm pressure across the opponent's face to turn their head, break their kneeling posture, and flatten the dogfight back into a side-control pass.**
 
 The Crossface from Dogfight is a fundamental top player technique for shutting down the bottom player's offensive momentum when they have elevated to the kneeling dogfight position from half guard. The top player drives their shoulder blade or forearm across the opponent's face and neck to turn their head away, break their upright posture, and systematically flatten them back to the mat. This technique directly neutralizes the underhook—the bottom player's primary offensive weapon—by creating a mechanical disadvantage that prevents forward driving pressure and elevated posture maintenance.
 
@@ -218,5 +255,7 @@ The Crossface from Dogfight serves as the primary top player response when the b
 
 
 </section>
+
+
 
 </main>

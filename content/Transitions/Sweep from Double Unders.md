@@ -10,6 +10,41 @@ description: "Master the Sweep from Double Unders in BJJ. Learn to use your oppo
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Sweep from Double Unders",
+  "description": "Master the Sweep from Double Unders in BJJ. Learn to use your opponent\u0027s stacking pressure against them with overhead and hip-based counter-sweeps to reverse.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Sweep from Double Unders", "item": "https://bjjgraph.org/Transitions/Sweep-from-Double-Unders" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Sweep from Double Unders",
+  "description": "The Sweep from Double Unders is a bottom-player counter-reversal that harnesses the passer's committed forward stacking pressure through overhead, lateral-bridge, or leg-hook mechanics to dump them and come up into Side Control top.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Sweep from Double Unders in BJJ. Learn to use your oppo
 </div>
 
 <section id="overview" class="content-section">
+
+**The Sweep from Double Unders is a bottom-player counter-reversal that harnesses the passer's committed forward stacking pressure through overhead, lateral-bridge, or leg-hook mechanics to dump them and come up into Side Control top.**
 
 The Sweep from Double Unders is a high-reward counter-offensive technique executed from one of the most disadvantaged bottom positions in Brazilian Jiu-Jitsu. When an opponent establishes double underhooks under your legs and drives forward with stacking pressure, their mechanical advantage for guard passing is severe. However, this same forward weight commitment creates a fundamental vulnerability: their base becomes compromised in the direction of their momentum. An educated bottom player can exploit this by redirecting the opponent's energy through precisely timed sweeping mechanics, converting a desperate defensive situation into immediate top position.
 
@@ -214,13 +251,15 @@ The Sweep from Double Unders occupies a unique role in the pressure passing defe
 
 - [[Positions/Turtle]] - Alternative escape position from double unders when sweep and guard recovery both fail
 
-- [[Transitions/Butterfly Hook Sweep]] - Related sweeping technique sharing similar hip elevation and hook mechanics
+- [[Transitions/Deep Half Entry]] - Companion escape transition from the same position that uses the opponent's forward drive as entry momentum
 
-- [[Transitions/Homer Simpson Sweep]] - Related sweep concept using opponent's forward pressure as the primary sweeping engine
+- [[Transitions/Granby Roll to Guard]] - Alternative momentum-based escape from double unders bottom when a sweep is countered by drive-through
 
 - [[Positions/Open Guard]] - Guard recovery target that may result from partially successful sweep disrupting opponent's control
 
 
 </section>
+
+
 
 </main>

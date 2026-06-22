@@ -10,10 +10,55 @@ description: "Master the Americana from 3-4 Mount in BJJ. Step-by-step shoulder 
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Americana from 3-4 Mount targets the Shoulder joint (rotator cuff and glenohumeral complex). Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor) from forced external rotation beyond joint limits. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Americana from 3-4 Mount",
+  "description": "Master the Americana from 3-4 Mount in BJJ. Step-by-step shoulder lock setup, grip mechanics, finishing details, defensive counters, and safety protocols.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Americana from 3-4 Mount", "item": "https://bjjgraph.org/Submissions/Americana-from-3-4-Mount" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Americana from 3-4 Mount",
+  "description": "The Americana from 3-4 Mount is a figure-four shoulder lock that forces external rotation of the near-side shoulder, using the asymmetric mount's posted-leg base and chest pressure to pin the shoulder flat while painting the wrist toward the hip.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Americana from 3-4 Mount is a figure-four shoulder lock that forces external rotation of the near-side shoulder, using the asymmetric mount's posted-leg base and chest pressure to pin the shoulder flat while painting the wrist toward the hip.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Shoulder Lock</span>
+<span class="meta-chip">Targets Shoulder joint (rotator cuff and glenohumeral complex)</span>
+<span class="meta-chip">45% success</span>
+</div>
+
+> [!danger] Safety
+> Americana from 3-4 Mount targets the Shoulder joint (rotator cuff and glenohumeral complex). Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor) from forced external rotation beyond joint limits. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,54 +75,7 @@ The submission follows classic keylock mechanics: pin the opponent's wrist to th
 
 Strategically, the Americana from 3-4 Mount functions as the centerpiece of a submission dilemma system. When the opponent straightens their arm to prevent the figure-four, the armbar becomes immediately available from the asymmetric mount angle. When they bridge toward the attacking side, the 3-4 configuration absorbs the force through the posted leg. When they turn away to deny the rotation, the transition to back control follows naturally through technical mount. This branching attack structure makes the Americana from 3-4 Mount a high-percentage finishing tool at competition level, particularly effective against opponents who have strong standard mount defense but struggle with the unique angles created by asymmetric positioning.
 
-**Category**: Joint Lock
-**Type**: Shoulder Lock
-**Target Area**: Shoulder joint (rotator cuff and glenohumeral complex)
-**Starting Position**: [[Positions/Mount/3-4 Mount]]
-**From Position**: [[Positions/Mount/3-4 Mount]] (Top)
-**Success Rate**: 45%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Rotator cuff tear (supraspinatus, infraspinatus, teres minor) from forced external rotation beyond joint limits | High | 3-6 months, potential surgical intervention required |
-| Glenohumeral joint capsule sprain or dislocation from excessive rotational force | CRITICAL | 6-12 weeks for sprain, 4-6 months for dislocation |
-| Medial collateral ligament strain of the elbow from secondary torque during rotation | Medium | 2-6 weeks |
-| Pectoral or deltoid muscle strain from resisting the lock under load | Low | 1-3 weeks |
-
-
-**Application Speed**: SLOW and controlled. Apply steady, progressive rotational pressure over 3-5 seconds minimum from figure-four lock to finish. Never jerk, spike, or rapidly crank the shoulder joint. The Americana must be applied gradually to allow time for tap recognition and safe response.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress vocalization)
-- Physical hand tap on partner or mat (minimum 2 taps)
-- Physical foot tap on mat with free leg
-- Any unusual screaming, crying out, or distress vocalization
-- Head shake or nodding if hands are trapped and verbal tap is unclear
-
-
-**Release Protocol**:
-1. Release the figure-four grip immediately upon any tap signal—open hands completely and remove rotational pressure
-2. Lift chest weight off opponent's shoulder to allow arm to return to neutral position naturally
-3. Do not force the arm back to starting position—let opponent move it themselves to assess range of motion
-4. Maintain mount position control during release to prevent further positional conflict
-5. Monitor partner for injury after release—check shoulder mobility, pain level, and range of motion before continuing
-
-
-**Training Restrictions**:
-- Never apply full rotational pressure in training—stop when partner signals discomfort or you feel joint resistance at end range
-- Beginners should drill the grip sequence and positioning without finishing pressure until movement patterns are established
-- Avoid training with explosive or jerking application—always use slow, controlled pressure even when drilling at speed
-- Ensure training partner has at least one hand free to tap at all times during drilling and sparring
-- Do not apply this submission to partners with pre-existing shoulder injuries or recent shoulder surgery
-
+**Starting Position**: [[Positions/Mount/3-4 Mount]] · **From**: [[Positions/Mount/3-4 Mount]] (Top)
 
 </section>
 
@@ -244,10 +242,9 @@ Strategically, the Americana from 3-4 Mount functions as the centerpiece of a su
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Americana]]
 - [[Submissions/Kimura]]
 - [[Submissions/Ezekiel Choke]]
@@ -256,33 +253,57 @@ Strategically, the Americana from 3-4 Mount functions as the centerpiece of a su
 - [[Transitions/Arm Triangle]]
 - [[Submissions/Gift Wrap Armbar]]
 - [[Submissions/Flying Armbar]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Mount/3-4 Mount]] - Starting position providing asymmetric base for this submission
 - [[Positions/Mount]] - Parent position family from which 3-4 Mount derives
 - [[Positions/Mount/Technical Mount]] - Related mount variation with similar arm isolation opportunities for shoulder locks
-- [[Submissions/Americana]] - Parent submission family sharing grip mechanics and finishing sequence across all mount variations
 - [[Positions/Kimura Trap]] - Complementary control position when opponent inverts the grip or straightens their arm during defense
 - [[Transitions/Mount to Armbar]] - Primary alternative transition when Americana defense creates arm extension
 - [[Positions/Mount/S Mount]] - Related asymmetric mount variation providing submission angles complementary to 3-4 Mount
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Rotator cuff tear (supraspinatus, infraspinatus, teres minor) from forced external rotation beyond joint limits | High | 3-6 months, potential surgical intervention required |
+| Glenohumeral joint capsule sprain or dislocation from excessive rotational force | CRITICAL | 6-12 weeks for sprain, 4-6 months for dislocation |
+| Medial collateral ligament strain of the elbow from secondary torque during rotation | Medium | 2-6 weeks |
+| Pectoral or deltoid muscle strain from resisting the lock under load | Low | 1-3 weeks |
+
+
+**Application Speed**: SLOW and controlled. Apply steady, progressive rotational pressure over 3-5 seconds minimum from figure-four lock to finish. Never jerk, spike, or rapidly crank the shoulder joint. The Americana must be applied gradually to allow time for tap recognition and safe response.
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any distress vocalization)
+- Physical hand tap on partner or mat (minimum 2 taps)
+- Physical foot tap on mat with free leg
+- Any unusual screaming, crying out, or distress vocalization
+- Head shake or nodding if hands are trapped and verbal tap is unclear
+
+
+**Release Protocol**:
+1. Release the figure-four grip immediately upon any tap signal—open hands completely and remove rotational pressure
+2. Lift chest weight off opponent's shoulder to allow arm to return to neutral position naturally
+3. Do not force the arm back to starting position—let opponent move it themselves to assess range of motion
+4. Maintain mount position control during release to prevent further positional conflict
+5. Monitor partner for injury after release—check shoulder mobility, pain level, and range of motion before continuing
+
+
+**Training Restrictions**:
+- Never apply full rotational pressure in training—stop when partner signals discomfort or you feel joint resistance at end range
+- Beginners should drill the grip sequence and positioning without finishing pressure until movement patterns are established
+- Avoid training with explosive or jerking application—always use slow, controlled pressure even when drilling at speed
+- Ensure training partner has at least one hand free to tap at all times during drilling and sparring
+- Do not apply this submission to partners with pre-existing shoulder injuries or recent shoulder surgery
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Americana from 3-4 Mount leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

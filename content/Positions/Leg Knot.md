@@ -10,6 +10,41 @@ description: "Master Leg Knot position in BJJ. Advanced leg entanglement creatin
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Leg Knot",
+  "description": "Master Leg Knot position in BJJ. Advanced leg entanglement creating systematic control and multiple submission paths. Complete analysis of both bottom and top perspectives.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Leg Knot", "item": "https://bjjgraph.org/Positions/Leg-Knot" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Leg Knot",
+  "description": "Leg Knot is a transitional leg entanglement in which both grapplers' legs are interwoven so neither holds clear dominance, producing simultaneous heel hook, kneebar, and reversal threats for both players.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Leg Knot position in BJJ. Advanced leg entanglement creatin
 </div>
 
 <section id="overview" class="content-section">
+
+**Leg Knot is a transitional leg entanglement in which both grapplers' legs are interwoven so neither holds clear dominance, producing simultaneous heel hook, kneebar, and reversal threats for both players.**
 
 Leg Knot Position represents an advanced leg entanglement configuration where practitioners' legs are woven together in a complex, knot-like structure that creates mutual control and submission opportunities. This position exists in the transitional space of leg entanglement warfare, where neither practitioner has achieved complete dominance but both are actively fighting for positional superiority and submission setups. The intricate leg crossing and weaving patterns create a dynamic battleground where technical precision, systematic understanding, and positional awareness determine outcomes.
 
@@ -244,5 +281,7 @@ Modern leg lock systems have elevated Leg Knot Position from a scramble scenario
 
 
 </section>
+
+
 
 </main>

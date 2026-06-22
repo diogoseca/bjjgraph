@@ -10,6 +10,41 @@ description: "Master the Overhook to Half Guard transition in BJJ. Learn to conv
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Overhook to Half Guard",
+  "description": "Master the Overhook to Half Guard transition in BJJ. Learn to convert bottom whizzer control into half guard for sweeps, back takes, and guard offense.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Overhook to Half Guard", "item": "https://bjjgraph.org/Transitions/Overhook-to-Half-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Overhook to Half Guard",
+  "description": "Overhook to Half Guard is a bottom-position guard transition where the practitioner converts a failing or tactically limited overhook (whizzer) control into an established half guard by threading the inside leg between the opponent's legs while the overhook serves as a controlling frame.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Overhook to Half Guard transition in BJJ. Learn to conv
 
 <section id="overview" class="content-section">
 
-The Overhook to Half Guard transition is a fundamental guard management technique where the bottom player converts overhook (whizzer) control into an established half guard position. This transition occurs frequently when the overhook is losing its effectiveness as a primary control mechanism, or when the bottom player recognizes that half guard offers superior sweeping and back-taking opportunities compared to maintaining the overhook grip. The movement requires precise timing and hip coordination to thread the inside leg into half guard position while maintaining enough upper body connection to prevent the top player from capitalizing on the transition.
+**Overhook to Half Guard is a bottom-position guard transition where the practitioner converts a failing or tactically limited overhook (whizzer) control into an established half guard by threading the inside leg between the opponent's legs while the overhook serves as a controlling frame.**
+
+This guard-management technique occupies a pivotal junction in the bottom player's game, arising most often when the overhook is losing its effectiveness as a primary control mechanism, or when the bottom player recognizes that half guard offers superior sweeping and back-taking opportunities compared to maintaining the overhook grip. The movement requires precise timing and hip coordination to thread the inside leg into half guard position while maintaining enough upper body connection to prevent the top player from capitalizing on the transition window.
 
 Strategically, this transition serves as a critical bridge between two distinct guard subsystems. Overhook control from bottom, while powerful for immediate attacks and sweeps, demands constant energy expenditure and aggressive engagement. Half guard, by contrast, offers a more sustainable platform with deep sweeping mechanics, systematic back-take entries, and multiple sub-variations that can be deployed based on the top player's reactions. Recognizing when to abandon the overhook and convert to half guard represents essential tactical awareness for competitive guard players who need to manage energy across an entire match.
 
@@ -220,5 +257,7 @@ The Overhook to Half Guard transition occupies a critical junction in the bottom
 
 
 </section>
+
+
 
 </main>

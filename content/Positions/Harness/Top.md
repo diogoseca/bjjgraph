@@ -21,7 +21,7 @@ description: "Master Harness Top Position in BJJ - dominant back control with se
     {
       "@type": "HowToStep",
       "name": "Execute Rear Naked Choke from Harness",
-      "text": "From this position, attempt Rear Naked Choke from Harness. This technique is attempted in 40% of exchanges from this position.",
+      "text": "From this position, attempt Rear Naked Choke from Harness. This technique is attempted in 41% of exchanges from this position.",
       "position": 1
     },
     {
@@ -116,6 +116,7 @@ description: "Master Harness Top Position in BJJ - dominant back control with se
   "@type": "WebPage",
   "name": "Harness Top",
   "description": "Master Harness Top Position in BJJ - dominant back control with seat belt grip. Learn retention strategies, submission paths, and counter-escapes with 85% advanced retention rate.",
+  "alternateName": ["Seatbelt", "Seat Belt", "Seatbelt Control", "Seat Belt Control"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -155,6 +156,9 @@ description: "Master Harness Top Position in BJJ - dominant back control with se
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Seatbelt</strong>, <strong>Seat Belt</strong>, <strong>Seatbelt Control</strong>, <strong>Seat Belt Control</strong> <span class="role-hint">(top)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 Harness Top Position, also known as the seat belt grip from back control, represents one of the most dominant controlling positions in Brazilian Jiu-Jitsu. This position is characterized by the top practitioner having their body positioned behind their opponent with both hooks in (or at least one hook), while maintaining a seat belt grip configuration - one arm over the shoulder and one arm under the opposite armpit, with hands clasped together on the opponent's chest or sternum. The harness grip is the fundamental control mechanism for maintaining back control and is the foundation from which elite grapplers launch their most devastating submission attacks.
@@ -372,6 +376,16 @@ Partner starts in turtle position. Practice back take entry establishing harness
 - **[[Submissions/Rear Naked Choke]]** - Primary submission from this position
 - **[[Submissions/Bow and Arrow Choke]]** - High-percentage gi choke from back control
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Danaher Straight Jacket System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Alternative control position used when opponent maintains defensive turtle structure preventing immediate seat belt establishment</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

@@ -3,6 +3,7 @@
   "slug": "electric-chair",
   "description": "Master Electric Chair position in BJJ. 10th Planet's lockdown sweep combining submission threat with positional control. Complete top and bottom guide with decision trees.",
   "variant_uniqueness": "Lockdown leverages sweep and submission threat",
+  "summary": "Electric Chair is a lockdown half-guard attack from 10th Planet Jiu-Jitsu that simultaneously threatens a crotch-splitting submission and a high-percentage sweep, forcing the top player into a no-win dilemma between defending the finish and conceding position.",
   "overview": "Electric Chair is a devastating attacking position from the lockdown half guard system, popularized by 10th Planet Jiu-Jitsu. This position combines elements of a sweep, submission threat, and positional control, creating a powerful offensive weapon from bottom half guard. The practitioner uses the lockdown to control the opponent's leg while simultaneously elevating their hips and creating a crotch-splitting pressure that forces the opponent into increasingly compromised positions.\n\nThe Electric Chair represents a fundamental departure from traditional half guard sweeps by utilizing the lockdown's control to create a unique mechanical advantage. Rather than simply sweeping the opponent, the bottom player generates intense pressure on the hip joint and groin area, creating both a submission threat and a powerful sweeping mechanism. This dual-threat nature makes the position exceptionally difficult to defend, as opponents must simultaneously address the submission danger while preventing the sweep.\n\nFrom the top player's perspective, being caught in the Electric Chair demands immediate defensive awareness. The top player must recognize the submission threat early, maintain forward pressure to prevent optimal splitting angles, and work systematically to break the lockdown configuration. Success from top requires patience, proper weight distribution, and understanding of the limp leg concept to neutralize the bottom player's leverage.\n\nFrom a tactical perspective, Electric Chair serves as a cornerstone of the lockdown system, providing a high-percentage pathway to dominant positions or submissions. The position's effectiveness stems from its ability to break down the opponent's base while maintaining tight control throughout the transition. Advanced practitioners can chain the Electric Chair with other lockdown attacks such as the Old School sweep, Truck transitions, and Deep Half entries, creating a comprehensive offensive system that keeps opponents constantly defending. The asymmetry between the bottom player's attacking options and the top player's defensive obligations makes this one of the most strategically rich positions in the lockdown half guard hierarchy.",
   "key_principles": [
     "Maintain tight lockdown throughout the entire sequence - any loosening allows opponent to extract their leg and escape",
@@ -293,19 +294,23 @@
     "transitions": [
       {
         "transition": "Lockdown Break and Pass",
-        "attempt_probability": 28
+        "attempt_probability": 32
       },
       {
         "transition": "Limp Leg Escape to Pass",
-        "attempt_probability": 24
+        "attempt_probability": 28
+      },
+      {
+        "transition": "Straighten Leg Defense from Electric Chair",
+        "attempt_probability": 16
       },
       {
         "transition": "Back Take from Lockdown Defense",
-        "attempt_probability": 18
+        "attempt_probability": 20
       },
       {
         "transition": "Darce from Lockdown Counter",
-        "attempt_probability": 30
+        "attempt_probability": 4
       }
     ]
   },
@@ -526,10 +531,6 @@
         "relationship": "Primary sweeping technique from this position"
       },
       {
-        "name": "Electric Chair",
-        "relationship": "Primary submission threat from this position"
-      },
-      {
         "name": "Banana Split",
         "relationship": "Alternative name for electric chair submission finish"
       },
@@ -557,31 +558,27 @@
     "transitions": [
       {
         "transition": "Old School Sweep",
-        "attempt_probability": 76
+        "attempt_probability": 54
       },
       {
         "transition": "Deep Half Entry",
-        "attempt_probability": 13
+        "attempt_probability": 14
       },
       {
         "transition": "Hip Rotation Escape from Electric Chair",
         "attempt_probability": 6
       },
       {
-        "transition": "Straighten Leg Defense from Electric Chair",
-        "attempt_probability": 2
-      },
-      {
         "transition": "Sweep from Electric Chair",
-        "attempt_probability": 1
+        "attempt_probability": 8
       },
       {
         "transition": "Electric Chair",
-        "attempt_probability": 1
+        "attempt_probability": 12
       },
       {
         "transition": "Electric Chair from Electric Chair",
-        "attempt_probability": 1
+        "attempt_probability": 6
       }
     ]
   }

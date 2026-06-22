@@ -1,5 +1,6 @@
 {
   "name": "Monoplata from Guard",
+  "summary": "The Monoplata from Guard is an advanced shoulder lock that isolates the opponent's arm and traps it in a figure-four leg configuration, applying rotational pressure to the shoulder joint without the forward roll of a traditional omoplata.",
   "description": "Master the Monoplata from Guard in BJJ. Complete guide with safety protocols, setup, and execution steps. Success rates: Beginner 25%, Intermediate 40%, Advanced 55%.",
   "tags": [
     "bjj",
@@ -15,7 +16,7 @@
   "target_area": "Shoulder joint and rotator cuff",
   "starting_position": "Closed Guard",
   "success_rate": 48,
-  "overview": "The Monoplata from Guard is an advanced shoulder lock that combines elements of the traditional omoplata with a unique single-leg entanglement configuration. This submission attacks the opponent's shoulder joint by isolating their arm while using your legs to create a figure-four lock around their trapped limb. The technique is particularly effective when transitioning from failed omoplata attempts or when the opponent attempts to posture up aggressively from guard. The Monoplata creates severe pressure on the shoulder capsule and rotator cuff, making it a high-percentage finish once proper control is established. Unlike the traditional omoplata which rolls the opponent forward, the Monoplata maintains a more static control position while applying rotational pressure to the shoulder joint. This submission requires excellent hip mobility, precise leg positioning, and a deep understanding of shoulder mechanics to execute safely and effectively. The technique has gained popularity in modern no-gi competition due to its effectiveness against strong postural defenses and its ability to chain seamlessly with other guard attacks.",
+  "overview": "Emerging from the rubber guard and omoplata systems of modern no-gi grappling, the Monoplata earned its place as the answer to the strong-postured opponent who reliably defends the conventional omoplata roll. This submission attacks the opponent's shoulder joint by isolating their arm while using your legs to create a figure-four lock around their trapped limb. It is particularly effective when transitioning from failed omoplata attempts or when the opponent attempts to posture up aggressively from guard. The Monoplata creates severe pressure on the shoulder capsule and rotator cuff, making it a high-percentage finish once proper control is established. Unlike the traditional omoplata which rolls the opponent forward, the Monoplata maintains a more static control position while applying rotational pressure to the shoulder joint. This submission requires excellent hip mobility, precise leg positioning, and a deep understanding of shoulder mechanics to execute safely and effectively. It chains seamlessly with triangles, armbars, and back takes, rewarding practitioners who treat it as one node in an integrated guard-attack system rather than an isolated trick.",
   "safety_considerations": {
     "injury_risks": [
       {
@@ -75,7 +76,7 @@
       "result": "failure"
     },
     {
-      "to": "Side Control/Top",
+      "to": "Side Control/Bottom",
       "probability": 15,
       "result": "counter"
     }
@@ -144,7 +145,7 @@
     }
   ],
   "attacker": {
-    "name": "from Guard Attacker",
+    "name": "Monoplata from Guard Attacker",
     "description": "How to execute Monoplata from Guard in BJJ. Attacking perspective with setup, execution, and finishing mechanics.",
     "overview": "The Monoplata from Guard is an advanced shoulder lock that combines elements of the traditional omoplata with a unique single-leg entanglement configuration. This submission attacks the opponent's shoulder joint by isolating their arm while using your legs to create a figure-four lock around their trapped limb. The technique is particularly effective when transitioning from failed omoplata attempts or when the opponent attempts to posture up aggressively from guard. The Monoplata creates severe pressure on the shoulder capsule and rotator cuff, making it a high-percentage finish once proper control is established. Unlike the traditional omoplata which rolls the opponent forward, the Monoplata maintains a more static control position while applying rotational pressure to the shoulder joint. This submission requires excellent hip mobility, precise leg positioning, and a deep understanding of shoulder mechanics to execute safely and effectively. The technique has gained popularity in modern no-gi competition due to its effectiveness against strong postural defenses and its ability to chain seamlessly with other guard attacks.",
     "key_principles": [
@@ -232,7 +233,7 @@
         "counter": "Explosive posture recovery to standing with arm extraction",
         "effectiveness": "Low",
         "your_response": "Tighten your figure-four and use your body angle to maintain the bent arm position. If they begin standing, their weight shift actually loads your sweep mechanics - use the trapped arm as a lever to off-balance them into a guard recovery or back take.",
-        "targets_outcome": "Side Control/Top"
+        "targets_outcome": "Side Control/Bottom"
       }
     ],
     "common_errors": [
@@ -358,7 +359,7 @@
     ]
   },
   "defender": {
-    "name": "from Guard Defender",
+    "name": "Monoplata from Guard Defender",
     "description": "How to defend against Monoplata from Guard in BJJ. Recognition, escape paths, and defensive strategies.",
     "overview": "Defending the Monoplata from Guard requires early recognition and immediate action to prevent the attacker from establishing the figure-four leg configuration that makes this submission so difficult to escape. As the defender (top player in guard), your primary concern is protecting your arm from being isolated and trapped past the attacker's hip line. The monoplata is most dangerous precisely because it is unexpected - many practitioners focus their guard defense on triangles, armbars, and omoplatas but are unfamiliar with the monoplata's distinct entry patterns. Understanding the mechanical progression of this submission allows you to identify critical intervention windows where escape is still possible without risking shoulder injury. The earliest and highest-percentage defense occurs during the arm isolation phase, before any leg threading begins. Once the figure-four is locked and the attacker achieves perpendicular angle, your options narrow dramatically and the risk of shoulder damage during explosive escape attempts increases significantly. Defensive success depends on posture maintenance, arm retraction discipline, and the ability to recognize when a failed omoplata or triangle defense is transitioning into a monoplata threat.",
     "key_principles": [
@@ -394,14 +395,14 @@
       {
         "action": "Circle toward the trapped arm side and drive your knee through to initiate a guard pass",
         "when_to_use": "When you still have base and mobility but your arm is partially controlled; best used before the figure-four is locked",
-        "targets_outcome": "Side Control/Top",
+        "targets_outcome": "Side Control/Bottom",
         "if_successful": "You pass the guard while extracting your arm, transitioning to side control and escaping the submission entirely",
         "risk": "Medium-high risk - committing to the pass with a partially trapped arm can deepen the submission if the pass fails"
       },
       {
         "action": "Roll forward over your trapped shoulder to relieve pressure and scramble",
         "when_to_use": "As a last resort when the figure-four is locked but the attacker's free leg has not yet secured your far hip",
-        "targets_outcome": "Side Control/Top",
+        "targets_outcome": "Side Control/Bottom",
         "if_successful": "You escape the submission angle and can scramble to top position or at minimum reset to open guard top",
         "risk": "High risk - the roll can increase shoulder torque if the attacker follows and maintains the figure-four through the roll"
       }
@@ -417,7 +418,7 @@
         "how": "Retract your arm immediately when you feel the overhook deepening and your arm being pulled past the hip line. Drive your posture upward while pulling your elbow tight to your ribs. Re-establish hand placement on the attacker's hips to control distance and return to standard closed guard top position."
       },
       {
-        "outcome": "Side Control/Top",
+        "outcome": "Side Control/Bottom",
         "how": "When the attacker commits to the leg threading motion, they temporarily weaken their guard closure. Seize this window by driving forward with a knee slice or stack pass. The act of threading the leg creates space for you to advance your hips past their guard. Extract your arm during the transition and consolidate side control."
       }
     ],

@@ -10,6 +10,41 @@ description: "Master the Chill Dog escape to half guard in BJJ. Learn timing, hi
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Escape Chill Dog",
+  "description": "Master the Chill Dog escape to half guard in BJJ. Learn timing, hip mechanics, and leg insertion technique to recover guard from defensive turtle.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Escape Chill Dog", "item": "https://bjjgraph.org/Transitions/Escape-Chill-Dog" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Escape Chill Dog",
+  "description": "Escape Chill Dog is a 10th Planet guard recovery that uses a timed lateral hip escape and inside-leg insertion to convert the compact Chill Dog turtle defense directly into an offensive half guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Chill Dog escape to half guard in BJJ. Learn timing, hi
 
 <section id="overview" class="content-section">
 
-Escape Chill Dog is a guard recovery technique from the 10th Planet system that transitions the bottom practitioner from the compact Chill Dog turtle defense directly into half guard. Unlike the Granby roll which targets open or closed guard through a rolling motion, this escape uses a lateral hip escape combined with leg insertion to thread the inside leg between the opponent's legs and establish the half guard entanglement. The technique capitalizes on the opponent's weight commitment during top control attempts, using their forward pressure as the trigger for a hip escape that simultaneously creates space and establishes the leg hook needed for half guard.
+**Escape Chill Dog is a 10th Planet guard recovery that uses a timed lateral hip escape and inside-leg insertion to convert the compact Chill Dog turtle defense directly into an offensive half guard.**
+
+Within the 10th Planet defensive hierarchy, the Escape Chill Dog occupies the space between pure survival and offensive guard recovery. Unlike the Granby roll which targets open or closed guard through a rolling motion, this escape uses a lateral hip escape combined with leg insertion to thread the inside leg between the opponent's legs and establish the half guard entanglement. The technique capitalizes on the opponent's weight commitment during top control attempts, using their forward pressure as the trigger for a hip escape that simultaneously creates space and establishes the leg hook needed for half guard.
 
 The escape requires precise timing and explosive hip movement. The bottom player must maintain their defensive frame until the optimal moment, then execute a coordinated sequence of hip escape, leg insertion, and upper body turn that transitions them from the turtle orientation to facing their opponent in half guard. The window for execution is narrow - moving too early telegraphs the escape and allows the top player to adjust, while moving too late allows the opponent to establish dominant controls that prevent the hip movement entirely.
 
@@ -220,5 +257,7 @@ Escape Chill Dog connects the defensive turtle system to the half guard offensiv
 
 
 </section>
+
+
 
 </main>

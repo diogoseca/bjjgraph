@@ -10,6 +10,41 @@ description: "Master the Step Over Escape from Darce Control in BJJ. Leg-over te
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Step Over Escape",
+  "description": "Master the Step Over Escape from Darce Control in BJJ. Leg-over technique to relieve choke pressure and recover guard. Success: Beginner 30%, Advanced 65%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Step Over Escape", "item": "https://bjjgraph.org/Transitions/Step-Over-Escape" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Step Over Escape",
+  "description": "The Step Over Escape is a Darce Control defense where the bottom player swings their far leg over the opponent's head to rotate their torso perpendicular to the choking arm, breaking the choke angle and recovering open guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Step Over Escape from Darce Control in BJJ. Leg-over te
 
 <section id="overview" class="content-section">
 
-The Step Over Escape is a critical defensive technique executed from the bottom of Darce Control, where the defender uses a leg swing over the opponent's head and body to relieve choking pressure, create separation, and recover to open guard. Unlike linear escapes that attempt to pull away from the choke, the Step Over Escape exploits the geometric weakness of the Darce grip by rotating the body perpendicular to the choking arm's line of force. By stepping the far leg over the opponent's head, the defender changes the angle of their torso relative to the choke, collapsing the space the opponent needs to maintain effective carotid compression.
+**The Step Over Escape is a Darce Control defense where the bottom player swings their far leg over the opponent's head to rotate their torso perpendicular to the choking arm, breaking the choke angle and recovering open guard.**
+
+Among the three primary escapes from Darce Control Bottom, the Step Over occupies the over-the-top lane, becoming the option of choice when the attacker's head and weight drop low enough for the leg to clear. Unlike linear escapes that attempt to pull away from the choke, the Step Over Escape exploits the geometric weakness of the Darce grip by rotating the body perpendicular to the choking arm's line of force. By stepping the far leg over the opponent's head, the defender changes the angle of their torso relative to the choke, collapsing the space the opponent needs to maintain effective carotid compression.
 
 This escape is particularly effective when the opponent has committed to flattening the defender and walking their hips around to finish. The act of stepping over redirects the defender's hips away from the opponent's chest pressure and simultaneously creates a wedge with the stepping leg that blocks the opponent from re-establishing the finishing angle. The technique requires precise timing: executing too early before the opponent commits allows them to adjust, while waiting too long means the choke is already too deep to escape.
 
@@ -226,5 +263,7 @@ The Step Over Escape occupies a critical role in the Darce Control Bottom defens
 
 
 </section>
+
+
 
 </main>

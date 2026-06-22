@@ -20,39 +20,21 @@ description: "Master Reverse Mount position in BJJ. Learn transitional control m
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 43% of exchanges from this position.",
+      "name": "Execute Reverse Mount to Mount",
+      "text": "From this position, attempt Reverse Mount to Mount. This technique is attempted in 48% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take",
-      "text": "From this position, attempt Back Take. This technique is attempted in 26% of exchanges from this position.",
+      "name": "Execute Reverse Mount to Side Control",
+      "text": "From this position, attempt Reverse Mount to Side Control. This technique is attempted in 27% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Mount to Armbar",
-      "text": "From this position, attempt Mount to Armbar. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Armbar from Reverse Mount",
+      "text": "From this position, attempt Armbar from Reverse Mount. This technique is attempted in 25% of exchanges from this position.",
       "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Turtle to Truck",
-      "text": "From this position, attempt Turtle to Truck. This technique is attempted in 7% of exchanges from this position.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Side Control to North-South",
-      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 7% of exchanges from this position.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Reverse Mount to Mount",
-      "text": "From this position, attempt Reverse Mount to Mount. This technique is attempted in 3% of exchanges from this position.",
-      "position": 6
     }
   ],
   "totalTime": "PT2M"
@@ -116,6 +98,7 @@ description: "Master Reverse Mount position in BJJ. Learn transitional control m
   "@type": "WebPage",
   "name": "Reverse Mount Top",
   "description": "Master Reverse Mount position in BJJ. Learn transitional control mechanics, conversions to mount and back control with strategic positioning.",
+  "disambiguatingDescription": "Often confused with Mount \u2014 Mount faces toward your opponent, not away.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -155,6 +138,9 @@ description: "Master Reverse Mount position in BJJ. Learn transitional control m
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Positions/Mount|Mount]]</strong> — Mount faces toward your opponent, not away</p>
+</aside>
 <section id="overview" class="content-section">
 
 Reverse Mount Top is a transitional dominant position where the practitioner sits on the opponent's chest or abdomen while facing away from their head, essentially mounted in the opposite direction from standard mount. This position scores 4 points (same as standard mount in IBJJF) but is inherently less stable and more difficult to maintain long-term. It typically occurs during scrambles, failed back take attempts, or when opponents turn away during standard mount control.
@@ -217,24 +203,24 @@ The position's main strategic value is as a stepping stone rather than a destina
 
 <p class="section-subtitle">What should you do from Reverse Mount (Top)?</p>
 
-**If opponent is relatively flat and not actively defending, assess back control opportunity:**
-- Execute **[[Transitions/Back Take/Attacker|Back Take]]** → [[Positions/Back Control]] (Probability: 65%)
-- Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 70%)
+**If opponent is relatively flat and not actively defending, assess the spin to standard mount:**
+- Execute **[[Transitions/Reverse Mount to Mount/Attacker|Reverse Mount to Mount]]** → [[Positions/Mount]] (Probability: 70%)
+- Execute **[[Transitions/Reverse Mount to Side Control/Attacker|Reverse Mount to Side Control]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **If opponent begins to bridge or create upward pressure through hips:**
-- Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 75%)
-- Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount/S Mount]] (Probability: 60%)
+- Execute **[[Transitions/Reverse Mount to Mount/Attacker|Reverse Mount to Mount]]** → [[Positions/Mount]] (Probability: 75%)
+- Execute **[[Transitions/Reverse Mount to Side Control/Attacker|Reverse Mount to Side Control]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **If opponent turns to either side attempting hip escape:**
-- Execute **[[Transitions/Back Take/Attacker|Back Take]]** → [[Positions/Back Control]] (Probability: 70%)
-- Execute **[[Transitions/Turtle to Truck/Attacker|Turtle to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 50%)
+- Execute **[[Transitions/Reverse Mount to Side Control/Attacker|Reverse Mount to Side Control]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Reverse Mount to Mount/Attacker|Reverse Mount to Mount]]** → [[Positions/Mount]] (Probability: 55%)
 
 
 **If opponent extends arm in defensive reaction or attempts to push:**
-- Execute **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** → [[Positions/Armbar Control]] (Probability: 55%)
-- Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 65%)
+- Execute **[[Transitions/Armbar from Reverse Mount/Attacker|Armbar from Reverse Mount]]** → [[Positions/Armbar Control]] (Probability: 55%)
+- Execute **[[Transitions/Reverse Mount to Mount/Attacker|Reverse Mount to Mount]]** → [[Positions/Mount]] (Probability: 65%)
 
 
 
@@ -351,5 +337,7 @@ Start from various scramble positions (failed back take, turtle transitions, mou
 
 
 </section>
+
+
 
 </main>

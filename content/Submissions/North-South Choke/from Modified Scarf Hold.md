@@ -10,10 +10,55 @@ description: "Master the North-South Choke from Modified Scarf Hold with step-by
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: North-South Choke from Modified Scarf Hold targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "North-South Choke from Modified Scarf Hold",
+  "description": "Master the North-South Choke from Modified Scarf Hold with step-by-step entry mechanics, shoulder pressure finishing details, and proven defensive strategies.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "North-South Choke from Modified Scarf Hold", "item": "https://bjjgraph.org/Submissions/North-South-Choke-from-Modified-Scarf-Hold" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "North-South Choke from Modified Scarf Hold",
+  "description": "The North-South Choke from Modified Scarf Hold is a high-percentage blood choke entered directly from the scarf-hold pin, using the already-trapped near arm and pre-loaded shoulder to compress both carotid arteries as you slide to north-south.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The North-South Choke from Modified Scarf Hold is a high-percentage blood choke entered directly from the scarf-hold pin, using the already-trapped near arm and pre-loaded shoulder to compress both carotid arteries as you slide to north-south.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries and trachea</span>
+<span class="meta-chip">58% success</span>
+</div>
+
+> [!danger] Safety
+> North-South Choke from Modified Scarf Hold targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,54 +75,7 @@ The transition involves threading the choking arm under the opponent's neck whil
 
 Finishing the choke requires precise shoulder placement deep into the pocket between the opponent's neck and far shoulder, combined with a decisive hip sprawl away from their body. This creates a fulcrum effect where the shoulder drives into the near-side carotid while the bicep and forearm compress the far-side carotid from below. The free arm controls the opponent's far-side arm or posts on the mat to prevent the roll escape, which remains the primary defensive response. Competition data shows this entry has a higher finishing rate than standard side control entries due to the reduced defensive window and the opponent's already-depleted energy from Modified Scarf Hold pressure.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries and trachea
-**Starting Position**: [[Positions/Side Control/Modified Scarf Hold]]
-**From Position**: [[Positions/Side Control/Modified Scarf Hold]] (Top)
-**Success Rate**: 58%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Carotid artery compression leading to loss of consciousness | High | Immediate recovery if released promptly; potential for longer-term effects if held after unconsciousness |
-| Tracheal compression and windpipe damage | Medium | 1-2 weeks with proper medical attention |
-| Neck strain from bridging attempts during defense | Medium | 3-7 days |
-| Cervical spine stress from improper release or stacking | CRITICAL | Weeks to months depending on severity |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow partner to recognize the danger and tap
-
-**Tap Signals**:
-- Verbal tap or verbal submission
-- Multiple rapid hand taps on opponent's body
-- Multiple rapid foot taps on the mat
-- Any distress signal including body convulsions
-- Loss of resistance or going limp indicates unconsciousness - release immediately
-
-
-**Release Protocol**:
-1. Immediately release arm pressure and remove shoulder compression from the neck
-2. Roll off opponent's head and neck area completely without jerking
-3. Allow opponent to recover in side-lying position with airway clear
-4. Monitor for signs of consciousness and normal breathing before continuing
-5. Never move opponent's neck after release - allow them to reposition naturally
-
-
-**Training Restrictions**:
-- Never apply explosive or jerking pressure to the neck during the choke
-- Always ensure partner has clear tap access with at least one hand free
-- Never hold the choke after partner taps or goes limp
-- Beginners should practice position and grip mechanics only, without applying choking pressure
-- Use progressive resistance drilling before live application
-
+**Starting Position**: [[Positions/Side Control/Modified Scarf Hold]] · **From**: [[Positions/Side Control/Modified Scarf Hold]] (Top)
 
 </section>
 
@@ -239,41 +237,64 @@ Finishing the choke requires precise shoulder placement deep into the pocket bet
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Transitions/Arm Triangle]]
 - [[Transitions/Darce Choke]]
 - [[Submissions/Americana]]
 - [[Submissions/Kimura]]
 - [[Submissions/Ezekiel Choke]]
 - [[Transitions/Guillotine Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Side Control/Modified Scarf Hold]] - Starting position for this submission entry
 - [[Positions/North-South]] - Transitional position reached during the choke setup
 - [[Positions/Side Control]] - Parent position family for Modified Scarf Hold
 - [[Positions/Side Control/Kesa Gatame]] - Related scarf hold variant with similar entry mechanics
-- [[Transitions/Arm Triangle]] - Alternative shoulder choke available from similar positions
+
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Carotid artery compression leading to loss of consciousness | High | Immediate recovery if released promptly; potential for longer-term effects if held after unconsciousness |
+| Tracheal compression and windpipe damage | Medium | 1-2 weeks with proper medical attention |
+| Neck strain from bridging attempts during defense | Medium | 3-7 days |
+| Cervical spine stress from improper release or stacking | CRITICAL | Weeks to months depending on severity |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow partner to recognize the danger and tap
+
+**Tap Signals**:
+- Verbal tap or verbal submission
+- Multiple rapid hand taps on opponent's body
+- Multiple rapid foot taps on the mat
+- Any distress signal including body convulsions
+- Loss of resistance or going limp indicates unconsciousness - release immediately
+
+
+**Release Protocol**:
+1. Immediately release arm pressure and remove shoulder compression from the neck
+2. Roll off opponent's head and neck area completely without jerking
+3. Allow opponent to recover in side-lying position with airway clear
+4. Monitor for signs of consciousness and normal breathing before continuing
+5. Never move opponent's neck after release - allow them to reposition naturally
+
+
+**Training Restrictions**:
+- Never apply explosive or jerking pressure to the neck during the choke
+- Always ensure partner has clear tap access with at least one hand free
+- Never hold the choke after partner taps or goes limp
+- Beginners should practice position and grip mechanics only, without applying choking pressure
+- Use progressive resistance drilling before live application
 
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of North-South Choke from Modified Scarf Hold leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

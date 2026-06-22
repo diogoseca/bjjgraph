@@ -10,6 +10,41 @@ description: "Learn Cartwheel Pass in BJJ. Athletic passing technique from Grass
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Cartwheel Pass",
+  "description": "Learn Cartwheel Pass in BJJ. Athletic passing technique from Grasshopper Guard to Side Control. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Cartwheel Pass", "item": "https://bjjgraph.org/Transitions/Cartwheel-Pass" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Cartwheel Pass",
+  "description": "The Cartwheel Pass is an athletic guard pass against inverted guards like Grasshopper Guard, where the top player plants their hands beside the opponent's hips and cartwheels over the elevated legs to land directly in side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Learn Cartwheel Pass in BJJ. Athletic passing technique from Grass
 
 <section id="overview" class="content-section">
 
-The Cartwheel Pass is an athletic and dynamic technique used to bypass inverted guards, particularly the Grasshopper Guard. When facing an opponent who has inverted with their legs elevated and threatening leg entanglements, the cartwheel motion allows you to vault over their defensive structure entirely, landing directly into side control. This pass exploits a fundamental weakness of inverted guards: while they excel at controlling opponents who engage directly with their legs, they struggle against aerial passes that avoid leg contact altogether.
+**The Cartwheel Pass is an athletic guard pass against inverted guards like Grasshopper Guard, where the top player plants their hands beside the opponent's hips and cartwheels over the elevated legs to land directly in side control.**
+
+Against the modern inverted-guard game, the Cartwheel Pass answers a problem that pressure and methodical passing struggle to solve: an opponent whose elevated legs turn every grounded passing lane into a potential leg-lock trap. Rather than engaging that structure on its own terms, you vault over it entirely, landing directly into side control before the guard player can reorganize. This pass exploits a fundamental weakness of inverted guards: while they excel at controlling opponents who engage directly with their legs, they struggle against aerial passes that avoid leg contact altogether.
 
 The technique requires committing to the cartwheel motion with conviction, as hesitation mid-pass creates vulnerability to being pulled into the guard player's entanglement system. Your hands plant on the mat beside the opponent's hips, and you rotate your body laterally through the air, allowing your legs to clear their elevated guard completely. The landing must be controlled, transitioning immediately into heavy side control pressure before the opponent can reorganize their defensive structure.
 
@@ -202,7 +239,7 @@ The Cartwheel Pass occupies a specialized niche in the guard passing hierarchy, 
 
 - [[Positions/Inverted Guard]] - Parent guard category that cartwheel pass addresses
 
-- [[Transitions/Bullfighter Pass]] - Ground-based alternative for passing inverted guards with leg control
+- [[Transitions/Toreando Pass]] - Ground-based alternative for passing inverted guards with leg control
 
 - [[Positions/North-South]] - Alternative landing position when opponent rotates during pass
 
@@ -212,5 +249,7 @@ The Cartwheel Pass occupies a specialized niche in the guard passing hierarchy, 
 
 
 </section>
+
+
 
 </main>

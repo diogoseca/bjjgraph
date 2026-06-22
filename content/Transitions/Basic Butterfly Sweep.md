@@ -10,6 +10,41 @@ description: "Learn the Basic Butterfly Sweep in BJJ. Step-by-step execution fro
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Basic Butterfly Sweep",
+  "description": "Learn the Basic Butterfly Sweep in BJJ. Step-by-step execution from Butterfly Guard to Mount with defense strategies, counters, and variations.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Basic Butterfly Sweep", "item": "https://bjjgraph.org/Transitions/Basic-Butterfly-Sweep" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Basic Butterfly Sweep",
+  "description": "The Basic Butterfly Sweep is a foundational half-butterfly reversal using the single butterfly hook under the opponent's free-side thigh, plus an underhook and grip control, to off-balance and roll a forward-pressuring opponent into a dominant top position such as mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,11 +57,13 @@ description: "Learn the Basic Butterfly Sweep in BJJ. Step-by-step execution fro
 
 <section id="overview" class="content-section">
 
-The Basic Butterfly Sweep is a fundamental technique from the Butterfly Guard that exploits opponent's forward pressure and balance. Using hooks underneath the opponent's thighs combined with proper grip control and hip movement, the practitioner elevates and off-balances the opponent to achieve a dominant top position. This sweep is highly effective against opponents who attempt to establish base in your butterfly guard or pressure forward without proper posture. The technique relies on timing, leverage, and the mechanical advantage created by the butterfly hooks rather than pure strength.
+**The Basic Butterfly Sweep is a foundational half-butterfly reversal using the single butterfly hook under the opponent's free-side thigh, plus an underhook and grip control, to off-balance and roll a forward-pressuring opponent into a dominant top position such as mount.**
 
-When executed properly, the Basic Butterfly Sweep transitions smoothly into mount, side control, or back control depending on the opponent's defensive reactions. The core mechanic involves creating a 45-degree hip angle, driving the sweeping-side hook upward and forward while pulling the opponent's upper body across your centerline with grips. This coordinated action generates rotational force that displaces the opponent's base regardless of size disparity.
+Sitting at the center of the offensive half-butterfly game, the Basic Butterfly Sweep turns an opponent's forward pressure and committed base into a clean position reversal. From half butterfly the practitioner keeps the opponent's trapped leg controlled with the half-guard legs while inserting a single active butterfly hook under the free-side thigh. Combining that one hook with an underhook and grip control, the practitioner elevates and off-balances the opponent to achieve a dominant top position. This sweep is highly effective against opponents who attempt to establish base on top of half butterfly or pressure forward without proper posture. The technique relies on timing, leverage, and the mechanical advantage created by the single butterfly hook rather than pure strength.
 
-This is considered an essential technique for all BJJ practitioners and forms the foundation for more advanced butterfly guard sweeping systems. It serves as the entry point to understanding how inside position via hooks creates mechanical leverage, how grip control prevents defensive posting, and how timing with opponent weight shifts determines success rate. Mastery of the basic butterfly sweep unlocks the entire butterfly guard attacking system including back takes, leg entanglements, and submission chains.
+When executed properly, the Basic Butterfly Sweep transitions smoothly into mount, side control, or back control depending on the opponent's defensive reactions. The core mechanic involves creating a 45-degree hip angle toward the free-leg side, driving the lone butterfly hook upward and forward while pulling the opponent's upper body across your centerline with the underhook and grips. This coordinated action generates rotational force that displaces the opponent's base regardless of size disparity, while the trapped leg removes their ability to post on the half-guard side.
+
+This is considered an essential technique for all BJJ practitioners and forms the foundation for more advanced half-butterfly and butterfly sweeping systems. It serves as the entry point to understanding how a single inside hook plus half-guard leg control creates mechanical leverage, how the underhook prevents defensive posting, and how timing with opponent weight shifts determines success rate. Mastery of the basic butterfly sweep unlocks the broader half-butterfly attacking system including back takes, deep half entries, and submission chains.
 
 **From Position**: [[Positions/Butterfly Guard/Half Butterfly]] (Bottom)
 **Success Rate**: 62%
@@ -40,8 +77,8 @@ This is considered an essential technique for all BJJ practitioners and forms th
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[Positions/Mount]] | 62% |
-| Failure | [[Positions/Butterfly Guard]] | 25% |
-| Counter | [[Positions/Butterfly Guard]] | 13% |
+| Failure | [[Positions/Butterfly Guard/Half Butterfly]] | 25% |
+| Counter | [[Positions/Butterfly Guard/Half Butterfly]] | 13% |
 
 
 </section>
@@ -85,7 +122,7 @@ This is considered an essential technique for all BJJ practitioners and forms th
 ### Execution Steps
 
 
-- **Establish butterfly guard position**: Secure butterfly guard with both hooks under opponent's thighs, heels pulled in toward their hips. S...
+- **Establish half butterfly position**: Secure half butterfly with the half-guard legs trapping opponent's near leg and a single butterfly h...
 
 - **Secure upper body control**: Establish strong grip control - typically collar and sleeve grips, double underhooks, or overhook/un...
 
@@ -159,7 +196,7 @@ This is considered an essential technique for all BJJ practitioners and forms th
 
 - **Post hand firmly on the mat on the sweeping side to create structural brace against rotation** - When: As soon as you feel elevation beginning under one leg and upper body pull in one direction - the earlier the post, the more effective
 
-- **Sprawl hips back explosively to disengage hooks and create distance, removing the fulcrum point** - When: When you feel opponent loading both hooks and pulling your upper body forward - sprawl before the hook drive reaches full extension
+- **Sprawl hips back explosively to disengage the hook and create distance, removing the fulcrum point** - When: When you feel opponent loading the hook and pulling your upper body forward - sprawl before the hook drive reaches full extension
 
 - **Step one leg over the sweeping hook to establish headquarters position and neutralize that hook** - When: When opponent commits to angling for the sweep on one side, creating an opening to step the targeted leg over their hook before the drive initiates
 
@@ -206,7 +243,9 @@ The Basic Butterfly Sweep is a cornerstone technique within the broader butterfl
 ## Related Techniques
 
 
-- [[Positions/Butterfly Guard]] - Starting Position - Primary position from which technique is executed
+- [[Positions/Butterfly Guard/Half Butterfly]] - Starting Position - Primary position from which technique is executed
+
+- [[Positions/Butterfly Guard]] - Parent Position - Full butterfly guard the technique generalizes to with both hooks
 
 - [[Positions/Butterfly Guard/Butterfly Hook Control]] - Core Principle - Essential hook control mechanism for sweep leverage
 
@@ -226,10 +265,22 @@ The Basic Butterfly Sweep is a cornerstone technique within the broader butterfl
 
 - [[Submissions/Kimura]] - Submission Threat - Attack on posted arm during sweep defense
 
-- [[Transitions/Guillotine Choke]] - Combination Attack - Submission threat from butterfly that facilitates sweep
+- [[Guillotine Choke from Butterfly Guard]] - Combination Attack - Submission threat from butterfly that facilitates sweep
 
-- [[Systems/Marcelo Garcia Butterfly Guard System]] - System Integration - Complete system built around butterfly sweeps
+- [[Positions/Half Guard/Deep Half Guard]] - Transition Hub - Fallback guard when opponent drives heavy forward pressure
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Mikey-Musumeci-Berimbolo-System" data-cta="related-system-card" data-system-slug="systems/mikey-musumeci-berimbolo-system" data-system-name="Mikey Musumeci Berimbolo System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Mikey Musumeci Berimbolo System</span><span class="system-card__unlocks-badge">Unlocks 21 techniques</span><span class="system-card__blurb">Sweeping mechanism from butterfly backup position</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Dynamic-Guard-System" data-cta="related-system-card" data-system-slug="systems/dynamic-guard-system" data-system-name="Dynamic Guard System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Dynamic Guard System</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">High-percentage sweep from butterfly guard position</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Marcelo-Garcia-Butterfly-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-butterfly-guard-system" data-system-name="Marcelo Garcia Butterfly Guard System" data-member-count="18"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Marcelo Garcia Butterfly Guard System</span><span class="system-card__unlocks-badge">Unlocks 18 techniques</span><span class="system-card__blurb">Entry-level sweep variation for beginners learning system</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

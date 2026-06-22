@@ -148,7 +148,7 @@ description: "How to defend against Counter Sweep in BJJ. Recognition cues, defe
 
 The Counter Sweep Defender is the bottom guard player whose sweep attempt has been read and countered by the top player. When your sweep is stuffed, you enter a critical defensive window where the top player holds a significant tactical advantage: your grips are committed, your hips are displaced, and your guard structure is temporarily compromised from the failed sweep attempt. The defender must immediately recognize that their sweep has failed and transition from offensive sweep mechanics to defensive guard recovery or secondary attack chains. The worst response is to continue forcing a sweep that has already been neutralized, as this compounds the positional disadvantage and expends energy against a mechanically unfavorable configuration. Instead, the defender must rapidly re-establish guard frames, recover grips, and either reguard to a neutral open guard or redirect into a secondary technique that exploits the top player's counter-sweep commitment.
 
-**Opponent's Starting Position**: [[Positions/Estima Lock Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Open Guard]] (Top)
 
 </section>
 

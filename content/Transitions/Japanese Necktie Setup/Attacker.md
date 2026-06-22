@@ -234,7 +234,7 @@ The Japanese Necktie Setup is a sophisticated transition from Front Headlock con
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Darce Control]] | 55% |
+| Success | [[Submissions/Japanese Necktie]] | 55% |
 | Failure | [[Positions/Front Headlock]] | 30% |
 | Counter | [[Positions/Turtle]] | 15% |
 
@@ -251,7 +251,7 @@ The Japanese Necktie Setup is a sophisticated transition from Front Headlock con
 - **Opponent turns into you during arm thread** (Effectiveness: Medium) - Your Response: Abandon Japanese Necktie and transition to standard guillotine or arm-in guillotine as they turn, capitalizing on their head and neck remaining exposed → Leads to [[Positions/Front Headlock]]
 - **Opponent grabs your choking arm with free hand** (Effectiveness: High) - Your Response: Immediately switch to two-on-one control of their defending arm, strip their grip, then re-establish arm thread, or transition to Darce position by adjusting arm placement → Leads to [[Positions/Front Headlock]]
 - **Opponent sprawls backward to create distance** (Effectiveness: Medium) - Your Response: Follow their movement by maintaining tight connection, use their backward energy to accelerate your roll, or switch to anaconda choke if arm positioning allows → Leads to [[Positions/Turtle]]
-- **Opponent tucks chin and defends neck** (Effectiveness: Low) - Your Response: Use chin as fulcrum point for leverage, continue with technique focusing on shoulder pressure and body positioning rather than forcing through chin defense → Leads to [[Positions/Darce Control]]
+- **Opponent tucks chin and defends neck** (Effectiveness: Low) - Your Response: Use chin as fulcrum point for leverage, continue with technique focusing on shoulder pressure and body positioning rather than forcing through chin defense to finish the strangle → Leads to [[Submissions/Japanese Necktie]]
 
 
 </section>
@@ -335,5 +335,7 @@ Attempt technique during free rolling against all body types and skill levels. F
 The Japanese Necktie is a blood choke targeting carotid arteries and should be practiced with appropriate caution. During training progressions, start with zero resistance and gradually increase intensity over several weeks. Partners must tap immediately when pressure is felt, as blood chokes can cause unconsciousness within seconds. When practicing the rolling component, ensure adequate mat space to avoid collisions. Beginners should not attempt full-speed rolling until they master static positioning phases. Be especially careful with neck cranking—if the choking arm is not threaded deep enough, you may inadvertently create cervical spine pressure instead of vascular compression. Always release immediately upon tap or verbal submission. Supervise white belts closely during initial training phases, as the rolling motion can be disorienting.
 
 </section>
+
+
 
 </main>

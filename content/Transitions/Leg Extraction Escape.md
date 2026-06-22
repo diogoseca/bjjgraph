@@ -10,6 +10,41 @@ description: "Master Leg Extraction Escape from Gogoplata Control in BJJ. Comple
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Leg Extraction Escape",
+  "description": "Master Leg Extraction Escape from Gogoplata Control in BJJ. Complete guide to systematic head extraction, hip control, and Half Guard recovery at 58% success.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Leg Extraction Escape", "item": "https://bjjgraph.org/Transitions/Leg-Extraction-Escape" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Leg Extraction Escape",
+  "description": "The Leg Extraction Escape is a systematic defense against Gogoplata Control where the trapped top player neutralizes the foot-behind-head anchor, drives the hips down, and slides the head laterally free to recover Half Guard top.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Leg Extraction Escape from Gogoplata Control in BJJ. Comple
 </div>
 
 <section id="overview" class="content-section">
+
+**The Leg Extraction Escape is a systematic defense against Gogoplata Control where the trapped top player neutralizes the foot-behind-head anchor, drives the hips down, and slides the head laterally free to recover Half Guard top.**
 
 The Leg Extraction Escape represents a critical defensive technique for escaping the Gogoplata Control position, where the opponent has established a shin across your throat with their foot secured behind your head. This escape focuses on systematically removing the trapped leg configuration through precise hand positioning, hip angle changes, and methodical extraction mechanics rather than explosive, desperate movements that typically tighten the submission.
 
@@ -41,7 +78,7 @@ Strategically, this escape serves as the primary pathway out of gogoplata contro
 |--------|----------|-------------|
 | Success | [[Positions/Half Guard]] | 65% |
 | Failure | [[Positions/Gogoplata Control]] | 25% |
-| Counter | [[Positions/Gogoplata Control]] | 10% |
+| Counter | [[Positions/Triangle Control]] | 10% |
 
 
 </section>
@@ -216,5 +253,7 @@ The Leg Extraction Escape serves as the primary systematic defense against gogop
 
 
 </section>
+
+
 
 </main>

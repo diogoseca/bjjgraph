@@ -134,10 +134,23 @@ description: "Master Mikey Musumeci's berimbolo system with technical precision.
 }
 </script>
 
-> Mikey Musumeci Berimbolo System is a advanced difficulty Attack System system. Integrates 5 components.
 
-**System Type**: Attack System
-**Difficulty Level**: Advanced
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Mikey Musumeci Berimbolo System",
+  "description": "The Mikey Musumeci Berimbolo System is a gi guard framework that uses precise grip control and inverted rotation from De La Riva and Reverse De La Riva to chain back takes, sweeps, and X-Guard entries through technique over athleticism.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Attack System</span>
+<span class="meta-chip">Advanced difficulty</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -146,7 +159,27 @@ description: "Master Mikey Musumeci's berimbolo system with technical precision.
 
 ## What is Mikey Musumeci Berimbolo System?
 
+**The Mikey Musumeci Berimbolo System is a gi guard framework that uses precise grip control and inverted rotation from De La Riva and Reverse De La Riva to chain back takes, sweeps, and X-Guard entries through technique over athleticism.**
+
 The Mikey Musumeci Berimbolo System represents one of the most technically sophisticated guard systems in modern Brazilian Jiu-Jitsu. Built around the berimbolo movement from De La Riva and Reverse De La Riva positions, this system creates a seamless connection between guard retention, sweeping, and back-taking. Unlike traditional berimbolo approaches that rely purely on speed and athleticism, Musumeci's methodology emphasizes precise technical execution, grip management, and systematic problem-solving. The system functions as a complete attacking framework where every defensive response from the opponent opens a new offensive pathway. At its core, the system uses the berimbolo as both a sweeping mechanism and a direct route to back control, while simultaneously providing multiple backup options including X-Guard entries, single leg attacks, and kiss of the dragon variations. What distinguishes this system is its emphasis on control and technical precision over explosive movement, making it accessible to practitioners who prioritize technique over raw athleticism.
+
+</section>
+
+
+
+<section id="unlock-graph" class="content-section system-unlock" data-system-unlock hidden>
+
+## Unlock this part of the graph
+
+<p class="section-subtitle">This system teaches the highlighted nodes in the graph. Mark what you already know &mdash; be honest, it's your game.</p>
+
+<div class="system-progress" data-system-progress>
+<svg class="system-progress__ring" viewBox="0 0 44 44" aria-hidden="true"><circle class="system-progress__ring-bg" cx="22" cy="22" r="19"></circle><circle class="system-progress__ring-fill" cx="22" cy="22" r="19"></circle></svg>
+<div class="system-progress__text">You've unlocked <strong class="system-progress__known">0</strong> / <span class="system-progress__total">0</span> techniques in this system</div>
+<button class="system-progress__mark-all" data-mark-system type="button">Mark whole system as known</button>
+</div>
+
+<ul class="system-members" data-system-members></ul>
 
 </section>
 
@@ -332,25 +365,24 @@ The Musumeci berimbolo system requires progressive technical drilling that prior
 - [[De La Riva Guard]] (Position) - Primary starting position for berimbolo system entries and grip establishment
 - [[Reverse De La Riva Guard]] (Position) - Alternative guard position offering different berimbolo angles and entry mechanics
 - [[Back Control]] (Position) - Primary target position achieved through successful berimbolo execution
-- [[X-Guard]] (Position) - Key backup position when berimbolo entry is blocked by heavy base defense
-- [[Single Leg X-Guard]] (Position) - Secondary backup system providing sweeping options from failed berimbolo attempts
-- [[Seated Guard]] (Position) - Alternative starting position for berimbolo entries requiring less flexibility
+- [[Reverse X-Guard]] (Position) - Key backup position when berimbolo entry is blocked by heavy base defense
+- [[Butterfly Guard]] (Position) - Secondary backup system providing sweeping options from failed berimbolo attempts
+- [[Open Guard]] (Position) - Alternative starting position for berimbolo entries requiring less flexibility
 - [[Turtle]] (Position) - Common intermediate position during berimbolo where back attacks can be initiated
 - [[Berimbolo Entry]] (Transition) - Core technical movement connecting DLR guard to back control positions
-- [[Kiss of the Dragon]] (Transition) - Critical backup technique when berimbolo rotation is defended or countered
-- [[Rolling Back Take]] (Transition) - Alternative back taking method when standard berimbolo path is unavailable
-- [[De La Riva Sweep]] (Transition) - Complementary sweeping option from same grip configuration as berimbolo
-- [[X-Guard Sweep]] (Transition) - Primary offensive action from X-Guard backup position
-- [[Single Leg X Sweep]] (Transition) - Sweeping mechanism from Single Leg X backup position
-- [[De La Riva to X-Guard Transition]] (Transition) - Technical pathway connecting primary and backup systems seamlessly
-- [[Turtle to Back Take]] (Transition) - Back attack completion when opponent turtles during berimbolo sequence
+- [[Back Take]] (Transition) - Alternative back taking method when standard berimbolo path is unavailable
+- [[Backstep from De La Riva]] (Transition) - Complementary option from same grip configuration as berimbolo
+- [[Balloon Sweep]] (Transition) - Sweeping action available from the open guard backup positions
+- [[Basic Butterfly Sweep]] (Transition) - Sweeping mechanism from butterfly backup position
+- [[Back Take from Bottom]] (Transition) - Back attack completion when opponent turtles during berimbolo sequence
 - [[Frames]] (Principle) - Fundamental defensive structure enabling guard retention during berimbolo setups and recovery
 - [[Grips]] (Principle) - Essential skill for establishing and maintaining critical grips throughout system
-- [[Timing and Rhythm]] (Principle) - Critical for recognizing optimal berimbolo entry moments and preventing telegraphing
-- [[Transition Management]] (Principle) - Underlies smooth movement between DLR, berimbolo, X-Guard, and back control
+- [[Dominant Angles]] (Principle) - Critical for recognizing optimal berimbolo entry moments and creating geometric advantage
+- [[Position Chains]] (Principle) - Underlies smooth movement between DLR, berimbolo, X-Guard, and back control
 - [[Posture]] (Principle) - Fundamental requirement for disrupting opponent's base to create berimbolo entry opportunities
-- [[Kuzushi]] (Principle) - Governs technical execution of sweeps from backup X-Guard positions
-- [[Position Chains]] (Principle) - Framework for connecting berimbolo with backup options into cohesive attacking sequences
+- [[Kuzushi]] (Principle) - Governs technical execution of sweeps from backup positions
+- [[Hooks]] (Principle) - Core to hook insertion sequencing when establishing back control after the rotation
+- [[Position-Over-Submission Approach]] (Principle) - Guides consolidating back control fully before chasing finishes
 - [[Berimbolo]] (System) - General berimbolo system providing broader context for Musumeci's specific approach
 - [[Marcelo Garcia X-Guard System]] (System) - Complementary X-Guard system that integrates with berimbolo backup positions
 - [[Caio Terra Guard Retention System]] (System) - Guard retention methodology supporting berimbolo setup and defense

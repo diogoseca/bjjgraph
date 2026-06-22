@@ -10,6 +10,41 @@ description: "Learn Switch to Darce Configuration from Buggy Choke in BJJ. Recon
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Switch to Darce Configuration",
+  "description": "Learn Switch to Darce Configuration from Buggy Choke in BJJ. Reconfigure grips to darce control when opponent turns in. Success: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Switch to Darce Configuration", "item": "https://bjjgraph.org/Transitions/Switch-to-Darce-Configuration" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Switch to Darce Configuration",
+  "description": "Switch to Darce Configuration is a grip transition from Buggy Choke top where the attacker, reading the opponent's turn-in, rethreads the choking arm under the far armpit and across the neck to lock a finishing darce.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Learn Switch to Darce Configuration from Buggy Choke in BJJ. Recon
 
 <section id="overview" class="content-section">
 
-The Switch to Darce Configuration is a grip transition from the Buggy Choke top position that capitalizes on the opponent turning into the attack. When the opponent rotates toward the choking arm to relieve collar pressure, they expose the armpit-to-neck channel that enables the darce choke. Rather than maintaining the original buggy choke angle, the top player withdraws the threading arm from the collar and reroutes it through the gap between the opponent's neck and far arm, threading under the far armpit and around the back of the neck to lock a figure-four grip from the opposite direction compared to the anaconda.
+**Switch to Darce Configuration is a grip transition from Buggy Choke top where the attacker, reading the opponent's turn-in, rethreads the choking arm under the far armpit and across the neck to lock a finishing darce.**
+
+Within the buggy choke attack tree, the decisive cue for this switch is the opponent's defensive rotation: when they turn toward the choking arm to relieve collar pressure, they expose the armpit-to-neck channel that the darce exploits. Rather than maintaining the original buggy choke angle, the top player withdraws the threading arm from the collar and reroutes it through the gap between the opponent's neck and far arm, threading under the far armpit and around the back of the neck to lock a figure-four grip from the opposite direction compared to the anaconda.
 
 The darce configuration is mechanically distinct from the anaconda because the choking arm enters under the opponent's far armpit first and then wraps around the neck, whereas the anaconda wraps the neck first and connects under the armpit. This threading direction means the darce is favored when the opponent's far arm is elevated or posted wide, creating space under the armpit for arm insertion. The buggy choke position is an ideal launching pad because the original threading arm is already operating in the near-armpit channel and can be redirected through the neck-armpit corridor with minimal repositioning.
 
@@ -224,5 +261,7 @@ The Switch to Darce Configuration is a critical branch in the buggy choke attack
 
 
 </section>
+
+
 
 </main>

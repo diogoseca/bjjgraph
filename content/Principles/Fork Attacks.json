@@ -14,7 +14,8 @@
   "application_level": "Intermediate",
   "complexity_level": "High",
   "development_timeline": "Intermediate to Expert",
-  "overview": "Fork Attacks represents the advanced strategic principle of simultaneously presenting multiple offensive threats that cannot be defended concurrently, forcing opponent into binary or limited-option choices where every defensive response creates a different but equally significant vulnerability. Unlike simple action-reaction sequences that exploit single defensive commitments, dilemma creation is a sophisticated offensive framework that applies across positions where practitioner has established sufficient control to develop layered attack systems. This concept encompasses the construction of multi-threat structures, the strategic coverage of defensive options, and the systematic exploitation of forced defensive choices through pre-planned branching sequences. Dilemma creation serves as both a finishing mechanism that dramatically increases submission success rates through multiple simultaneous threats, and an efficiency strategy that guarantees productive outcomes regardless of opponent's defensive choices. The ability to construct and execute effective dilemmas often determines whether a practitioner can finish elite defensive opponents who rarely succumb to single-threat attacks, making it one of the most sophisticated and powerful offensive concepts in modern BJJ.",
+  "summary": "Fork attacks are an offensive principle of presenting two or more simultaneous threats that cannot be defended at once, so every defensive choice the opponent makes necessarily exposes a different, equally developed finish.",
+  "overview": "Borrowed from the chess idea of forking two pieces with a single move, Fork Attacks—often called dilemma creation—rank among the most sophisticated offensive frameworks in modern BJJ. Unlike simple action-reaction sequences that exploit a single defensive commitment, fork attacks apply across any position where the practitioner has established sufficient control to develop layered, mutually-exclusive attack systems. The framework encompasses the construction of multi-threat structures, the strategic coverage of defensive options, and the systematic exploitation of forced defensive choices through pre-planned branching sequences. Fork Attacks serve as both a finishing mechanism that dramatically increases submission success rates through multiple simultaneous threats, and an efficiency strategy that guarantees a productive outcome regardless of the opponent's defensive choice. Because every escape route the defender selects opens a different prepared attack, the practitioner converts the opponent's own defensive intelligence into the trigger for the next finish. The ability to construct and execute effective forks often determines whether a practitioner can finish elite defensive opponents who rarely succumb to single-threat attacks, making it one of the most powerful offensive concepts available to advanced grapplers.",
   "key_principles": [
     "Effective dilemmas require multiple simultaneous threats that cannot be defended together",
     "Defensive choices must be genuinely binary with clear commitment requirements",
@@ -392,6 +393,48 @@
       "name": "Control Point Hierarchy",
       "content_type": "Principle",
       "relationship": "Essential for understanding which positions provide sufficient control to maintain multiple simultaneous threats"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What distinguishes a true fork attack from a simple combination?",
+      "answer": "A fork presents two or more simultaneous threats that are biomechanically impossible to defend at the same time, so any single defensive action necessarily exposes a different, equally prepared finish. A combination is sequential and lets the opponent reset their defense between attacks."
+    },
+    {
+      "question": "Why must both threats in a fork be developed to equal readiness?",
+      "answer": "If one threat is more developed or telegraphed, the opponent recognizes it as the primary attack and specializes their entire defense on stopping it, collapsing the dilemma into a single, easily defendable threat."
+    },
+    {
+      "question": "How does the classic closed guard triangle-armbar-omoplata fork work?",
+      "answer": "Defending the triangle exposes the trapped arm for the armbar, defending the armbar exposes the shoulder for the omoplata, and recovering posture re-exposes the neck for the triangle, so every defensive commitment opens a different prepared submission."
+    },
+    {
+      "question": "What control prerequisite must be met before attempting a fork?",
+      "answer": "The position must provide enough control to maintain multiple simultaneous threats through the opponent's defensive movement. From marginal control, attempting a fork lets the opponent escape or reverse during multi-threat development."
+    },
+    {
+      "question": "How does the rear-naked-choke-versus-armbar fork from back control function?",
+      "answer": "Continuous hand-fighting creates binary choices: defending the neck frees the arms for an armbar, while defending the arms re-exposes the neck for the choke, so every defensive hand placement opens the alternative attack."
+    },
+    {
+      "question": "What is the most common error that creates a 'false' fork?",
+      "answer": "Developing one threat significantly more than the other; the imbalance telegraphs the primary attack and lets the opponent commit their full defense to a single option, nullifying the dilemma structure entirely."
+    },
+    {
+      "question": "Why does the position-before-submission hierarchy still apply inside a fork?",
+      "answer": "Abandoning positional control to rush a finish lets the opponent escape during the scramble. Holding the dominant position lets you simply reconstruct the fork rather than gambling on a low-percentage submission."
+    },
+    {
+      "question": "How should you respond the instant the opponent commits to defending one threat?",
+      "answer": "Immediately execute the prepared counter-sequence for that defensive choice without hesitation. Deliberating between branches lets the window close and allows the opponent to recover and defend both threats again."
+    },
+    {
+      "question": "What makes two threats genuinely incompatible enough to form a fork?",
+      "answer": "Their defensive requirements must be mutually exclusive—physically defending one must necessarily expose the other—so a single defensive action cannot neutralize both threats at the same time."
+    },
+    {
+      "question": "How does a saddle heel-hook-versus-kneebar fork force a dilemma?",
+      "answer": "Defending heel exposure by straightening the leg creates kneebar vulnerability, while bending the leg to defend the knee re-exposes the heel, so the opponent's leg positioning dictates which submission becomes available."
     }
   ]
 }

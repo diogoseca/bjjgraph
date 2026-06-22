@@ -134,10 +134,23 @@ description: "Master 10th Planet No-Gi Guard System with rubber guard, lockdown,
 }
 </script>
 
-> 10th Planet No-Gi Guard System is a advanced difficulty Guard System system. Integrates 4 components.
 
-**System Type**: Guard System
-**Difficulty Level**: Advanced
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "10th Planet No-Gi Guard System",
+  "description": "The 10th Planet No-Gi Guard System is Eddie Bravo's gi-free guard framework that chains rubber guard, lockdown half guard, and the truck/twister series into a connected web of sweeps and submissions built on flexibility and unorthodox control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Guard System</span>
+<span class="meta-chip">Advanced difficulty</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -146,11 +159,31 @@ description: "Master 10th Planet No-Gi Guard System with rubber guard, lockdown,
 
 ## What is 10th Planet No-Gi Guard System?
 
-The 10th Planet No-Gi Guard System represents Eddie Bravo's revolutionary approach to guard play without the gi, emphasizing flexibility, unorthodox positions, and submission chains. This comprehensive system integrates rubber guard positions (Mission Control, New York, Meathook), lockdown-based attacks from half guard, and the twister series from turtle positions. The system prioritizes control through unconventional grips and body positioning that cannot be replicated in gi-based training, making it particularly effective in MMA and no-gi competition.
+**The 10th Planet No-Gi Guard System is Eddie Bravo's gi-free guard framework that chains rubber guard, lockdown half guard, and the truck/twister series into a connected web of sweeps and submissions built on flexibility and unorthodox control.**
+
+Developed by Eddie Bravo in the early 2000s and propelled to fame by his match against Royler Gracie, this system grew out of a deliberate rejection of gi-dependent guard play. It integrates rubber guard positions (Mission Control, New York, Meathook), lockdown-based attacks from half guard, and the twister series from turtle positions. The system prioritizes control through unconventional grips and body positioning that cannot be replicated in gi-based training, making it particularly effective in MMA and no-gi competition.
 
 At its core, the 10th Planet system challenges traditional guard concepts by utilizing extreme flexibility, hip mobility, and creative angles to break posture and create submission opportunities. The rubber guard series controls opponents through overhooks and leg control, while the lockdown system from half guard uses the legs to trap and sweep. The twister path provides a unique submission series from scrambles and turtle positions. Each subsystem connects through strategic transitions, creating a web of attacking options that keeps opponents constantly defending.
 
 This system requires dedicated flexibility training and systematic drilling to master the unconventional positions. Practitioners must develop comfort in inverted positions, deep leg entanglements, and positions that feel unstable initially. The payoff is a guard game that opponents rarely encounter, providing significant tactical advantages through unfamiliarity and forcing defensive reactions that open submission opportunities.
+
+</section>
+
+
+
+<section id="unlock-graph" class="content-section system-unlock" data-system-unlock hidden>
+
+## Unlock this part of the graph
+
+<p class="section-subtitle">This system teaches the highlighted nodes in the graph. Mark what you already know &mdash; be honest, it's your game.</p>
+
+<div class="system-progress" data-system-progress>
+<svg class="system-progress__ring" viewBox="0 0 44 44" aria-hidden="true"><circle class="system-progress__ring-bg" cx="22" cy="22" r="19"></circle><circle class="system-progress__ring-fill" cx="22" cy="22" r="19"></circle></svg>
+<div class="system-progress__text">You've unlocked <strong class="system-progress__known">0</strong> / <span class="system-progress__total">0</span> techniques in this system</div>
+<button class="system-progress__mark-all" data-mark-system type="button">Mark whole system as known</button>
+</div>
+
+<ul class="system-members" data-system-members></ul>
 
 </section>
 

@@ -10,6 +10,41 @@ description: "Master the Spider Guard to Omoplata transition in BJJ. Complete gu
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Spider Guard to Omoplata",
+  "description": "Master the Spider Guard to Omoplata transition in BJJ. Complete guide covering sleeve control setup, leg swing execution, and defensive counters for both roles.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Spider Guard to Omoplata", "item": "https://bjjgraph.org/Transitions/Spider-Guard-to-Omoplata" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Spider Guard to Omoplata",
+  "description": "Spider Guard to Omoplata is a gi attacking transition where the bottom player uses sleeve and bicep control to isolate an extended arm, then swings a leg over the opponent's shoulder into omoplata control to threaten the shoulder lock.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Spider Guard to Omoplata transition in BJJ. Complete gu
 </div>
 
 <section id="overview" class="content-section">
+
+**Spider Guard to Omoplata is a gi attacking transition where the bottom player uses sleeve and bicep control to isolate an extended arm, then swings a leg over the opponent's shoulder into omoplata control to threaten the shoulder lock.**
 
 The Spider Guard to Omoplata is a high-percentage attacking transition that exploits the mechanical advantage created by spider guard control to attack the opponent's shoulder. From spider guard, you manipulate your opponent's posture and base using sleeve control and foot pressure on the biceps, creating an opening to swing your leg over their shoulder and sit up into the omoplata control position. The technique capitalizes on the principle of using opposing forces: your foot pushes their bicep away while your grip pulls their sleeve toward you, isolating the arm and creating the window for your leg to thread over their shoulder.
 
@@ -228,5 +265,7 @@ The Spider Guard to Omoplata serves as a cornerstone attack in modern gi guard s
 
 
 </section>
+
+
 
 </main>

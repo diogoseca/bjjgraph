@@ -10,9 +10,48 @@ description: "Master the Hip Bump Sweep from Closed Guard. Step-by-step executio
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Hip Bump Sweep",
+  "description": "Master the Hip Bump Sweep from Closed Guard. Step-by-step execution, chain attacks to Kimura and Guillotine, and defensive counters for BJJ practitioners.",
+  "alternateName": ["Sit-up Sweep", "Sitting Up Sweep"],
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Hip Bump Sweep", "item": "https://bjjgraph.org/Transitions/Hip-Bump-Sweep" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Hip Bump Sweep",
+  "description": "The Hip Bump Sweep is a fundamental closed-guard reversal in which the bottom player traps one of the opponent's arms, sits up, and drives a hip into the opponent's torso to topple them sideways and land in mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Sit-up Sweep</strong>, <strong>Sitting Up Sweep</strong></p>
+</aside>
 <div class="role-links">
 
 [[Hip Bump Sweep/Attacker|Play as Attacker]]
@@ -22,7 +61,9 @@ description: "Master the Hip Bump Sweep from Closed Guard. Step-by-step executio
 
 <section id="overview" class="content-section">
 
-The Hip Bump Sweep is a fundamental and high-percentage sweep from closed guard that capitalizes on the opponent's forward posture and broken base. This technique is particularly effective when the opponent attempts to establish strong posture or begins to stand in your guard. By controlling one arm, bumping your hips explosively toward the same side, and using your opponent's reaction, you can reverse position and establish mount.
+**The Hip Bump Sweep is a fundamental closed-guard reversal in which the bottom player traps one of the opponent's arms, sits up, and drives a hip into the opponent's torso to topple them sideways and land in mount.**
+
+As a cornerstone of the fundamental closed guard attack system, the Hip Bump Sweep capitalizes on the opponent's forward posture and broken base, working best when they attempt to establish strong posture or begin to stand inside your guard. By controlling one arm, bumping your hips explosively toward the same side, and using your opponent's reaction, you can reverse position and establish mount.
 
 The beauty of the Hip Bump Sweep lies in its versatility and chain attack potential. It works seamlessly with other closed guard attacks like the Kimura and Guillotine, creating a systematic approach where each technique feeds into the next. When opponents defend the Hip Bump by posting their free hand, they immediately expose themselves to the Kimura. When they pull their arm back, the Guillotine becomes available. This creates the fundamental closed guard attack triangle that every practitioner should master.
 
@@ -221,6 +262,17 @@ The Hip Bump Sweep is part of the fundamental closed guard attack system and ser
 
 - [[Positions/Mount]] - Target position achieved on successful sweep completion
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Ryan-Hall-Triangle-System" data-cta="related-system-card" data-system-slug="systems/ryan-hall-triangle-system" data-system-name="Ryan Hall Triangle System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Ryan Hall Triangle System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Alternative attack from closed guard that sets up triangle opportunities</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Teaching-Methodology-Framework" data-cta="related-system-card" data-system-slug="systems/teaching-methodology-framework" data-system-name="Teaching Methodology Framework" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Teaching Methodology Framework</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Fundamental offensive technique from closed guard in neutral curriculum phase</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

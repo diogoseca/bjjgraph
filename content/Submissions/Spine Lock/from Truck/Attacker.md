@@ -237,9 +237,9 @@ The Spine Lock is an advanced spinal compression submission that targets the opp
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 60% |
-| Failure | [[Positions/Twister Control/Truck]] | 25% |
-| Counter | [[Positions/Turtle]] | 15% |
+| Success | [[game-over]] | 40% |
+| Failure | [[Positions/Twister Control/Truck]] | 40% |
+| Counter | [[Positions/Turtle]] | 20% |
 
 
 </section>

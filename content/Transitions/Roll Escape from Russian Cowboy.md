@@ -10,6 +10,41 @@ description: "Master the Roll Escape from Russian Cowboy position in BJJ. Comple
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Roll Escape from Russian Cowboy",
+  "description": "Master the Roll Escape from Russian Cowboy position in BJJ. Complete guide to rolling mechanics, escape timing, and turtle recovery with expert analysis.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Roll Escape from Russian Cowboy", "item": "https://bjjgraph.org/Transitions/Roll-Escape-from-Russian-Cowboy" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Roll Escape from Russian Cowboy",
+  "description": "The Roll Escape from Russian Cowboy is a bottom-player escape that uses an explosive rotation toward the opponent's hook-free leg to dislodge single-hook back control and recover turtle, while risking a truck transition if rolled the wrong way.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Roll Escape from Russian Cowboy position in BJJ. Comple
 </div>
 
 <section id="overview" class="content-section">
+
+**The Roll Escape from Russian Cowboy is a bottom-player escape that uses an explosive rotation toward the opponent's hook-free leg to dislodge single-hook back control and recover turtle, while risking a truck transition if rolled the wrong way.**
 
 The Roll Escape from Russian Cowboy is a dynamic defensive technique employed when trapped in the bottom of Russian Cowboy control, a single-hook back control variant common in no-gi grappling. This escape generates rotational momentum to dislodge the opponent's asymmetric hook configuration and transition into turtle position, where a wider array of defensive and recovery options become available. The technique carries significant risk because rolling in the wrong direction feeds directly into the opponent's truck entry, making directional awareness and explosive commitment absolutely critical to success.
 
@@ -216,9 +253,11 @@ The Roll Escape from Russian Cowboy connects the back control escape system to t
 
 - [[Positions/Crab Ride]] - Similar back control variant requiring related escape mechanics
 
-- [[Transitions/Hand Fight to Turtle from Back]] - Related escape targeting turtle from back control positions
+- [[Transitions/Hand Fighting from Back]] - Related defensive technique for neutralizing grips before escaping toward turtle
 
 
 </section>
+
+
 
 </main>

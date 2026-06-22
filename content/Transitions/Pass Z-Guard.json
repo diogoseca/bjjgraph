@@ -1,5 +1,6 @@
 {
   "name": "Pass Z-Guard",
+  "summary": "Pass Z-Guard is a top-game guard pass that dismantles the bottom player's elevated knee shield through angular pressure and the underhook battle, then clears the legs to settle into side control.",
   "description": "Master passing the Z-Guard in BJJ. Complete guide to collapsing the knee shield, winning the underhook battle, and completing the pass to side control.",
   "tags": [
     "bjj",
@@ -56,8 +57,12 @@
   ],
   "related_content": [
     {
+      "name": "Z-Guard",
+      "relationship": "Source position where the pass begins from the top"
+    },
+    {
       "name": "Z-Lock Half Guard",
-      "relationship": "Source position where the pass begins"
+      "relationship": "Failure outcome where the top player retains Z-Lock control when the pass stalls"
     },
     {
       "name": "Side Control",

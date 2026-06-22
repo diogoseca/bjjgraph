@@ -10,6 +10,41 @@ description: "Master the Tarikoplata Setup from Meathook in BJJ. Shoulder lock e
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Tarikoplata Setup",
+  "description": "Master the Tarikoplata Setup from Meathook in BJJ. Shoulder lock entry combining omoplata with wrist control for compound submission pressure.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Tarikoplata Setup", "item": "https://bjjgraph.org/Transitions/Tarikoplata-Setup" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Tarikoplata Setup",
+  "description": "The Tarikoplata Setup is a 10th Planet shoulder-lock entry from Meathook that threads a leg over the opponent's trapped arm into omoplata position while securing wrist control to add rotational torque and shut down the rolling escape.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Tarikoplata Setup from Meathook in BJJ. Shoulder lock e
 </div>
 
 <section id="overview" class="content-section">
+
+**The Tarikoplata Setup is a 10th Planet shoulder-lock entry from Meathook that threads a leg over the opponent's trapped arm into omoplata position while securing wrist control to add rotational torque and shut down the rolling escape.**
 
 The Tarikoplata Setup is an advanced shoulder lock entry executed from Meathook that transforms the position's arm isolation into a compound submission attack combining omoplata mechanics with wrist control. Named after Tarik Hopstock, this technique exploits the trapped arm configuration of Meathook by threading the bottom player's leg over the opponent's shoulder into a modified omoplata position while simultaneously securing a wrist grip that adds rotational torque to the shoulder attack.
 
@@ -220,5 +257,7 @@ The Tarikoplata Setup represents the compound-lock layer of the Meathook attack 
 
 
 </section>
+
+
 
 </main>

@@ -10,6 +10,41 @@ description: "Master Kneebar from Grasshopper Guard. Complete execution guide wi
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kneebar from Grasshopper",
+  "description": "Master Kneebar from Grasshopper Guard. Complete execution guide with inverted entry mechanics, defensive counters, and chain attack options.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Kneebar from Grasshopper", "item": "https://bjjgraph.org/Transitions/Kneebar-from-Grasshopper" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kneebar from Grasshopper",
+  "description": "Kneebar from Grasshopper is a leg attack that inverts beneath a standing passer to thread and isolate their lead leg, aligning the back of the knee against your hip for a straight-line hyperextension finish.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Kneebar from Grasshopper Guard. Complete execution guide wi
 </div>
 
 <section id="overview" class="content-section">
+
+**Kneebar from Grasshopper is a leg attack that inverts beneath a standing passer to thread and isolate their lead leg, aligning the back of the knee against your hip for a straight-line hyperextension finish.**
 
 The Kneebar from Grasshopper Guard represents one of the highest-percentage leg attack entries available from inverted guard configurations. The grasshopper position provides unique access to the opponent's lead leg that standing passers rarely anticipate. By inverting and positioning your hips beneath their leg, you create immediate hyperextension threat on the knee joint before they can establish passing grips or pressure.
 
@@ -220,5 +257,7 @@ The Kneebar from Grasshopper fits into the broader leg entanglement system as a 
 
 
 </section>
+
+
 
 </main>

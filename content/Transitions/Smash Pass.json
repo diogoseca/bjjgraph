@@ -1,6 +1,7 @@
 {
   "name": "Smash Pass",
   "description": "Master the Smash Pass in BJJ. Complete guide covering pressure passing mechanics from Half Guard Top to Side Control with attacker and defender strategies.",
+  "summary": "The Smash Pass is a pressure-based half guard pass in which the top player uses crossface and heavy shoulder pressure to flatten the opponent, clear the trapped inside leg, and methodically advance from Half Guard Top to Side Control.",
   "tags": [
     "bjj",
     "transition",
@@ -51,8 +52,8 @@
       "relationship": "Common defensive structure that must be cleared before applying smash pressure"
     },
     {
-      "name": "Knee Slice from Half",
-      "relationship": "Alternative pass option when smash pass is effectively defended"
+      "name": "Long Step Pass",
+      "relationship": "Variation using long step extraction instead of backward leg extraction"
     },
     {
       "name": "Underhook Pass",
@@ -63,12 +64,12 @@
       "relationship": "Related technique emphasizing crossface control mechanics shared with smash pass"
     },
     {
-      "name": "Long Step Pass",
-      "relationship": "Variation using long step extraction instead of backward leg extraction"
+      "name": "Back Step Pass",
+      "relationship": "Alternative pass option when smash pass is effectively defended"
     },
     {
-      "name": "Double Under Pass",
-      "relationship": "Related pressure-based pass using double underhooks for control"
+      "name": "Over-Under Pass",
+      "relationship": "Related pressure-based pass using opposing arm positions for control"
     },
     {
       "name": "Kimura from Half Guard",
@@ -85,10 +86,6 @@
     {
       "name": "Lockdown",
       "relationship": "Defensive leg entanglement that complicates smash pass extraction"
-    },
-    {
-      "name": "Pressure Pass",
-      "relationship": "Broader conceptual framework that smash pass exemplifies"
     }
   ],
   "variants_and_adaptations": [
@@ -113,7 +110,7 @@
       "when_to_use": "When you want to maximize points in competition or when opponent's guard is so compromised that you can skip side control entirely. Requires confident leg extraction mechanics."
     }
   ],
-  "position_integration": "The smash pass is a cornerstone technique within pressure passing systems and serves as a fundamental tool for dealing with half guard positions. It integrates seamlessly with other pressure-based techniques like the crossface pass, underhook pass, and double under pass. In the broader context of guard passing, the smash pass represents the pressure-focused approach that contrasts with dynamic passes like the toreando or leg drag. This technique is particularly important in the transition game between guard positions, as it can be used from standard half guard, knee shield half guard, and even as a recovery option when other passes are partially defended. The smash pass also creates natural opportunities for submissions such as kimura, darce choke, and arm triangle when opponents defend by turning in or creating frames. Understanding this technique is essential for developing a complete top game.",
+  "position_integration": "The smash pass is a cornerstone technique within pressure passing systems and serves as a fundamental tool for dealing with half guard positions. It integrates seamlessly with other pressure-based techniques like the crossface pass, underhook pass, and over-under pass. In the broader context of guard passing, the smash pass represents the pressure-focused approach that contrasts with dynamic passes like the toreando or leg drag. This technique is particularly important in the transition game between guard positions, as it can be used from standard half guard, knee shield half guard, and even as a recovery option when other passes are partially defended. The smash pass also creates natural opportunities for submissions such as kimura, darce choke, and arm triangle when opponents defend by turning in or creating frames. Understanding this technique is essential for developing a complete top game.",
   "attacker": {
     "name": "Smash Pass Attacker",
     "description": "How to execute the Smash Pass in BJJ. Attacking perspective with setup, execution steps, counters, and training progressions.",

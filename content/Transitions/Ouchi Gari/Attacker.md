@@ -131,6 +131,7 @@ description: "How to execute Ouchi Gari in BJJ. Attacking perspective with setup
   "@type": "WebPage",
   "name": "Ouchi Gari Attacker",
   "description": "How to execute Ouchi Gari in BJJ. Attacking perspective with setup, execution steps, and counters.",
+  "alternateName": ["Major Inner Reap", "O Uchi Gari"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -176,6 +177,9 @@ description: "How to execute Ouchi Gari in BJJ. Attacking perspective with setup
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Major Inner Reap</strong>, <strong>O Uchi Gari</strong> <span class="role-hint">(attacker)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 Ouchi Gari (major inner reaping throw) is a fundamental judo technique that has become an essential tool in Brazilian Jiu-Jitsu's standing game. The technique involves reaping the opponent's lead leg from the inside while simultaneously breaking their posture and balance to the rear corner. Unlike pure throwing arts where the goal is a clean ippon, BJJ practitioners use Ouchi Gari both as a takedown to achieve dominant top position and as a setup for other attacks when the opponent defends. The technique's effectiveness lies in its ability to capitalize on natural standing posture—most grapplers stand with weight distributed between both legs, making them vulnerable to this inside leg attack. When executed properly, Ouchi Gari creates a powerful combination of off-balancing, sweeping action, and forward pressure that makes it extremely difficult for the opponent to maintain their base. The technique integrates seamlessly with BJJ's ground game, as a successful Ouchi Gari typically lands the practitioner in side control or a transitional position from which mount or back control can be achieved. Its versatility makes it valuable across all rulesets, from IBJJF competition to no-gi grappling and MMA applications.
@@ -347,5 +351,7 @@ Full sparring rounds that start standing and continue on the ground. Score taked
 When training Ouchi Gari, controlled execution is paramount to prevent injury to both partners. The person being thrown should practice proper ukemi (breakfall techniques) before drilling this technique extensively, as improper landing can result in head injury or impact trauma. Start all drilling at slow speed with cooperative partners and gradually increase intensity only as both partners become comfortable with the mechanics. The thrower must be prepared to support their partner's weight and control the descent to the mat, especially during initial learning phases. In live training, be mindful of the training surface—always practice takedowns on proper grappling mats, never on hard surfaces. When defending against Ouchi Gari, avoid posting with a straight arm to break your fall, as this can lead to shoulder, elbow, or wrist injury; instead, use proper breakfall techniques. Communication between training partners is essential, particularly when one partner is learning or when fatigue sets in. Both practitioners should agree on the intensity level before each round and should not hesitate to tap or verbally signal if they feel unsafe during the technique's execution or landing.
 
 </section>
+
+
 
 </main>

@@ -10,6 +10,41 @@ description: "Master the Escape from Dead Orchard to Open Guard in BJJ. Complete
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Escape from Dead Orchard",
+  "description": "Master the Escape from Dead Orchard to Open Guard in BJJ. Complete guide to rolling escapes, aggressive hip movement, and full guard recovery techniques.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Escape from Dead Orchard", "item": "https://bjjgraph.org/Transitions/Escape-from-Dead-Orchard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Escape from Dead Orchard",
+  "description": "The Escape from Dead Orchard is a higher-amplitude bottom defense that uses a granby roll or explosive multi-shrimp chain to break the anaconda grip's compression angle and recover open guard with leg frames.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Escape from Dead Orchard to Open Guard in BJJ. Complete
 
 <section id="overview" class="content-section">
 
-The Escape from Dead Orchard to Open Guard is a higher-amplitude defensive transition that prioritizes creating maximum distance from the anaconda grip configuration rather than the incremental frame-and-shrimp approach of standard dead orchard escapes. Where the conventional escape targets front headlock recovery through small positional gains, this variation commits to aggressive rolling mechanics, explosive hip escape chains, and inversion to break free entirely and recover full open guard with leg frames between you and the opponent.
+**The Escape from Dead Orchard is a higher-amplitude bottom defense that uses a granby roll or explosive multi-shrimp chain to break the anaconda grip's compression angle and recover open guard with leg frames.**
+
+Within the dead orchard escape hierarchy, this transition occupies the aggressive tier: where the standard frame-and-shrimp escape grinds out incremental gains toward front headlock recovery, the escape to open guard commits to higher-amplitude movement that prioritizes creating maximum distance from the anaconda grip configuration. It trades the methodical, low-risk approach for explosive rolling mechanics, hip-escape chains, and inversion that aim to break free entirely and recover full open guard with leg frames between you and the opponent.
 
 This escape exploits a fundamental weakness of the dead orchard position: the top player's grip depends on maintaining a specific compression angle and chest-to-back connection. By executing a coordinated roll or aggressive multi-shrimp sequence that dramatically changes body angle, the bottom player can break the grip's mechanical advantage in a single decisive movement rather than grinding through incremental gains. The trade-off is higher risk - if the roll or explosive escape is read by the top player, they can abandon the dead orchard grip and immediately transition to side control, capitalizing on the bottom player's extended body position.
 
@@ -226,5 +263,7 @@ The Escape from Dead Orchard to Open Guard functions as the aggressive second op
 
 
 </section>
+
+
 
 </main>

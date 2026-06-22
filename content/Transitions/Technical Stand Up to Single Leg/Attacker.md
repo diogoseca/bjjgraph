@@ -240,8 +240,8 @@ The Technical Stand Up to Single Leg from the attacker's perspective is about co
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/X-Guard/Single Leg X-Guard]] | 45% |
-| Success | [[Positions/Clinch]] | 15% |
+| Success | [[Positions/Half Guard]] | 35% |
+| Success | [[Positions/X-Guard/Single Leg X-Guard]] | 25% |
 | Failure | [[Positions/Turtle]] | 25% |
 | Counter | [[Positions/Front Headlock]] | 15% |
 
@@ -256,7 +256,7 @@ The Technical Stand Up to Single Leg from the attacker's perspective is about co
 
 - **Opponent sprawls hard with hips back and weight down on your shoulders** (Effectiveness: High) - Your Response: Switch immediately to ankle pick by releasing upper grip, grabbing their far ankle, and pulling while driving shoulder into their knee. Alternatively, sit through to Single Leg X-Guard by threading your legs around their trapped leg as you drop your hips underneath them. → Leads to [[Positions/Turtle]]
 - **Opponent crossfaces and drives you down during standup phase** (Effectiveness: High) - Your Response: Abandon standup temporarily and return to turtle defense or pull half guard. Use their forward pressure to execute a sit-through or granby roll. Never force the standup against heavy crossface pressure as it exposes your back and neck to front headlock attacks. → Leads to [[Positions/Turtle]]
-- **Opponent circles away and disengages to avoid the single leg** (Effectiveness: Medium) - Your Response: Maintain standing position and close distance with footwork. Cut angles to prevent circling. If they refuse to engage, establish your preferred guard by pulling to butterfly or De La Riva, or use the space to reset and reattempt on your terms. → Leads to [[Positions/Clinch]]
+- **Opponent circles away and disengages to avoid the single leg** (Effectiveness: Medium) - Your Response: Maintain standing position and close distance with footwork. Cut angles to prevent circling. If they refuse to engage, establish your preferred guard by pulling to butterfly or De La Riva, or use the space to reset and reattempt on your terms. → Leads to [[Positions/Turtle]]
 - **Opponent shoots for guillotine during your level change** (Effectiveness: Medium) - Your Response: Keep your head up and posture strong during entry. If caught, immediately drive forward stacking their weight, secure their hips, and work to pass to side control rather than pulling back. Peel their choking arm by driving your trapped-side shoulder into their sternum while circling your head free. → Leads to [[Positions/Front Headlock]]
 - **Opponent whizzers your penetrating arm and sprawls the hip** (Effectiveness: Medium) - Your Response: Convert to an outside trip by releasing inside grip and using their whizzer commitment against them. As they drive the overhook, circle behind their whizzer-side hip to take the back. Alternatively, drop to Single Leg X-Guard by threading your legs around their posted leg while they are focused on the whizzer. → Leads to [[Positions/X-Guard/Single Leg X-Guard]]
 
@@ -340,6 +340,16 @@ Practice the sequence across different rulesets: with gi grips where collar and 
 <p class="section-subtitle">What are the safety concerns for Technical Stand Up to Single Leg?</p>
 
 When practicing the technical standup to single leg, always maintain awareness of head position during the level change to prevent neck injuries from guillotine or front headlock pressure. Partners should release any neck submissions immediately when training partner taps or shows distress. When completing takedowns in drilling, control the descent to prevent the opponent from landing awkwardly on hard surfaces or impacting with their head. In live training, tap early to chokes and cranks rather than fighting through dangerous positions. Beginners should practice the standup phase extensively before adding explosive takedown entries to develop proper structural habits. Always warm up hips, knees, and ankles thoroughly before practicing this sequence, as the level change and driving mechanics place significant stress on these joints. Be particularly careful with knee health during penetration steps on hard mats.
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Caio-Terra-Guard-Retention-System" data-cta="related-system-card" data-system-slug="systems/caio-terra-guard-retention-system" data-system-name="Caio Terra Guard Retention System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Caio Terra Guard Retention System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Emergency retention technique used when bottom retention fails</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

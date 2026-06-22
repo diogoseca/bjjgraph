@@ -10,6 +10,41 @@ description: "Master the Knee Torque Sweep from half guard bottom. Learn rotatio
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Knee Torque Sweep",
+  "description": "Master the Knee Torque Sweep from half guard bottom. Learn rotational knee mechanics to off-balance opponents and sweep to mount with step-by-step technique.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Knee Torque Sweep", "item": "https://bjjgraph.org/Transitions/Knee-Torque-Sweep" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Knee Torque Sweep",
+  "description": "The Knee Torque Sweep is a half guard bottom sweep that twists the opponent's trapped knee inward to break their base, then uses an underhook drive and hip bridge to topple them and land in mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Knee Torque Sweep from half guard bottom. Learn rotatio
 </div>
 
 <section id="overview" class="content-section">
+
+**The Knee Torque Sweep is a half guard bottom sweep that twists the opponent's trapped knee inward to break their base, then uses an underhook drive and hip bridge to topple them and land in mount.**
 
 The Knee Torque Sweep is a specialized half guard bottom technique that exploits the mechanical vulnerability created when the bottom player applies controlled rotational force to the opponent's trapped knee. This sweep operates on the biomechanical principle that inward knee torque collapses the top player's base on the trapped side, creating a structural deficit that can be exploited with coordinated upper body drive and hip bridge mechanics. The technique is particularly effective against opponents who commit heavy forward pressure from half guard top, as their weight distribution over the trapped leg amplifies the destabilizing effect of the knee rotation.
 
@@ -220,5 +257,7 @@ The Knee Torque Sweep integrates into the half guard bottom system as a mid-rang
 
 
 </section>
+
+
 
 </main>

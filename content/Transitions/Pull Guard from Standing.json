@@ -1,5 +1,6 @@
 {
   "name": "Pull Guard from Standing",
+  "summary": "Pulling guard from standing is a deliberate transition where a grappler uses controlling collar and sleeve grips to sit to the mat and draw a standing opponent into closed guard, choosing bottom-position grappling over a takedown battle.",
   "description": "Master pulling guard from standing in BJJ. Complete guide covering grip requirements, hip mechanics, closed guard landing, and defensive counters.",
   "tags": [
     "bjj",
@@ -87,12 +88,8 @@
       "relationship": "Related standing engagement that often precedes grip establishment for the pull"
     },
     {
-      "name": "Guard Pull from Clinch",
-      "relationship": "Related transition executing the same concept from established clinch engagement"
-    },
-    {
-      "name": "Butterfly Guard Pull",
-      "relationship": "Alternative guard pull variant landing in butterfly guard instead of closed guard"
+      "name": "Butterfly Guard",
+      "relationship": "Alternative guard landing when hooks insert during pull instead of closing guard"
     },
     {
       "name": "Combat Base",
@@ -103,8 +100,12 @@
       "relationship": "Alternative guard system accessible from sitting guard pull variations"
     },
     {
-      "name": "Butterfly Guard",
-      "relationship": "Alternative guard landing when hooks insert during pull instead of closing guard"
+      "name": "Arm Drag from Standing",
+      "relationship": "Alternative standing entry to a dominant position when the opponent defends the guard pull"
+    },
+    {
+      "name": "50-50 Entry from Standing",
+      "relationship": "Related standing-to-ground transition entering a leg entanglement instead of guard"
     }
   ],
   "attacker": {

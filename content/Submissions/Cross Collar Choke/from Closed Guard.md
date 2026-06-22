@@ -10,10 +10,55 @@ description: "Master the cross collar choke from closed guard with detailed grip
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Cross Collar Choke from Closed Guard targets the Carotid arteries. Risk: Carotid artery compression leading to temporary loss of consciousness. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Cross Collar Choke from Closed Guard",
+  "description": "Master the cross collar choke from closed guard with detailed grip mechanics, posture breaking sequences, and finishing details for gi BJJ practitioners.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Cross Collar Choke from Closed Guard", "item": "https://bjjgraph.org/Submissions/Cross-Collar-Choke-from-Closed-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Cross Collar Choke from Closed Guard",
+  "description": "The cross collar choke from closed guard is a gi blood choke applied from the bottom by feeding two deep cross-collar grips and scissoring the forearm bones against both carotid arteries once the opponent's posture is broken.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The cross collar choke from closed guard is a gi blood choke applied from the bottom by feeding two deep cross-collar grips and scissoring the forearm bones against both carotid arteries once the opponent's posture is broken.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries</span>
+<span class="meta-chip">58% success</span>
+</div>
+
+> [!danger] Safety
+> Cross Collar Choke from Closed Guard targets the Carotid arteries. Primary risk: Carotid artery compression leading to temporary loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -24,57 +69,13 @@ description: "Master the cross collar choke from closed guard with detailed grip
 
 <section id="overview" class="content-section">
 
-The cross collar choke from closed guard is one of the most fundamental gi submissions in Brazilian Jiu-Jitsu, executed from the bottom closed guard position by establishing deep cross-collar grips and applying bilateral pressure to the carotid arteries. This technique capitalizes on the closed guard's inherent posture control, where the bottom player's locked legs prevent the top player from creating the distance needed to defend against deep collar entries.
+As one of the first submissions taught in any gi curriculum, the cross collar choke retains a central place in the high-level closed guard game because the threat itself forces posture-compromising reactions long before it finishes. From the bottom position it capitalizes on the closed guard's inherent posture control, where the bottom player's locked legs prevent the top player from creating the distance needed to defend against deep collar entries.
 
 What distinguishes the closed guard cross collar choke from its mounted counterpart is the reliance on posture breaking as a prerequisite for grip establishment. From bottom, gravity works against the attacker, requiring precise hip angle adjustments and active leg pressure to maintain broken posture while threading the second hand into the collar. The technique rewards patience and grip discipline, as rushing the second grip before fully breaking posture is the most common reason this choke fails at intermediate levels.
 
 Strategically, the cross collar choke threat from closed guard functions as an offensive anchor that opens the entire guard attack system. When the opponent defends their collar, they necessarily compromise their posture and base, creating openings for sweeps and armbar attempts. This makes the cross collar choke valuable even when it does not finish directly, as the defensive reactions it forces create cascading offensive opportunities throughout the closed guard game.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries
-**Starting Position**: [[Positions/Closed Guard]]
-**From Position**: [[Positions/Closed Guard]] (Bottom)
-**Success Rate**: 58%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Carotid artery compression leading to temporary loss of consciousness | High | Immediate recovery if released promptly; potential for serious injury if held past unconsciousness |
-| Trachea damage from improper hand placement targeting the windpipe instead of the arteries | Medium | 1-2 weeks for minor irritation; months for severe cartilage damage |
-| Neck strain from defensive thrashing or explosive posture recovery attempts | Low | 3-7 days with rest and light stretching |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum application time in training. Blood chokes can render a person unconscious in 8-12 seconds under full pressure. Always apply gradually to give your training partner time to recognize the choke and tap.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any verbal signal)
-- Physical hand tap on partner's body or mat
-- Physical foot tap on mat or partner
-- Any distress signal including facial expressions or loss of resistance
-
-
-**Release Protocol**:
-1. Immediately release both collar grips upon any tap signal
-2. Open guard and disengage all controlling grips on collar and body
-3. Allow partner space to recover breathing and circulation fully before continuing
-4. Check partner's alertness and responsiveness; if partner went unconscious, place in recovery position and seek medical attention
-
-
-**Training Restrictions**:
-- Never apply full choking pressure during initial learning phases; focus on grip placement and positioning first
-- Never hold the choke past the tap signal under any circumstances
-- Never use competition speed or intensity during basic drilling sessions
-- Never practice on partners with neck injuries, cardiovascular conditions, or circulation issues without explicit instructor supervision
-- Always ensure partner has clear access to tap with at least one hand or foot at all times
-
+**Starting Position**: [[Positions/Closed Guard]] · **From**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
 
@@ -236,41 +237,58 @@ Strategically, the cross collar choke threat from closed guard functions as an o
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Cross Collar Choke]]
 - [[Submissions/Ezekiel Choke]]
 - [[Transitions/Guillotine Choke]]
 - [[Submissions/Arm in Guillotine]]
 - [[Submissions/Kimura]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Closed Guard]] - Primary starting position providing posture control for grip establishment
-- [[Submissions/Cross Collar Choke]] - Parent submission family; this is the closed guard-specific variant
-- [[Submissions/Ezekiel Choke]] - Alternative gi choke available from closed guard when collar access is denied
-- [[Transitions/Guillotine Choke]] - Alternative guard choke option when opponent ducks head to defend collar grips
-- [[Submissions/Kimura]] - Common chain submission when opponent posts arm to defend the collar choke
 - [[Positions/Mount]] - Target position from hip bump sweep when opponent defends choke by posturing aggressively
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Carotid artery compression leading to temporary loss of consciousness | High | Immediate recovery if released promptly; potential for serious injury if held past unconsciousness |
+| Trachea damage from improper hand placement targeting the windpipe instead of the arteries | Medium | 1-2 weeks for minor irritation; months for severe cartilage damage |
+| Neck strain from defensive thrashing or explosive posture recovery attempts | Low | 3-7 days with rest and light stretching |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum application time in training. Blood chokes can render a person unconscious in 8-12 seconds under full pressure. Always apply gradually to give your training partner time to recognize the choke and tap.
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any verbal signal)
+- Physical hand tap on partner's body or mat
+- Physical foot tap on mat or partner
+- Any distress signal including facial expressions or loss of resistance
+
+
+**Release Protocol**:
+1. Immediately release both collar grips upon any tap signal
+2. Open guard and disengage all controlling grips on collar and body
+3. Allow partner space to recover breathing and circulation fully before continuing
+4. Check partner's alertness and responsiveness; if partner went unconscious, place in recovery position and seek medical attention
+
+
+**Training Restrictions**:
+- Never apply full choking pressure during initial learning phases; focus on grip placement and positioning first
+- Never hold the choke past the tap signal under any circumstances
+- Never use competition speed or intensity during basic drilling sessions
+- Never practice on partners with neck injuries, cardiovascular conditions, or circulation issues without explicit instructor supervision
+- Always ensure partner has clear access to tap with at least one hand or foot at all times
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Cross Collar Choke from Closed Guard leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

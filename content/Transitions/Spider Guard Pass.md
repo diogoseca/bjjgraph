@@ -10,6 +10,41 @@ description: "Master the Spider Guard Pass in BJJ. Complete guide covering grip 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Spider Guard Pass",
+  "description": "Master the Spider Guard Pass in BJJ. Complete guide covering grip breaking, posture control, pressure passing, and defensive retention from both perspectives.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Spider Guard Pass", "item": "https://bjjgraph.org/Transitions/Spider-Guard-Pass" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Spider Guard Pass",
+  "description": "The Spider Guard Pass is a gi guard-passing sequence where the top player systematically strips the bottom player's foot-on-bicep hooks and sleeve grips, then drives forward pressure to flatten the hips and pass to side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Spider Guard Pass in BJJ. Complete guide covering grip 
 </div>
 
 <section id="overview" class="content-section">
+
+**The Spider Guard Pass is a gi guard-passing sequence where the top player systematically strips the bottom player's foot-on-bicep hooks and sleeve grips, then drives forward pressure to flatten the hips and pass to side control.**
 
 The Spider Guard Pass represents a fundamental challenge in modern Brazilian Jiu-Jitsu, requiring systematic grip breaking, precise posture control, and strategic pressure application. This passing sequence targets one of the most common guard retention systems by neutralizing the opponent's foot-on-bicep control and collar grips that define spider guard. The pass succeeds by combining aggressive grip stripping with forward pressure and hip positioning to overcome the guard player's distance management.
 
@@ -204,13 +241,13 @@ The Spider Guard Pass is a fundamental component of any comprehensive guard pass
 
 - [[Transitions/Toreando Pass]] - Alternative open guard passing approach that chains with spider pass
 
-- [[Transitions/Knee Cut Pass]] - Follow-up pass if spider guard transitions to half guard
+- [[Transitions/Knee Slice Pass]] - Follow-up pass if spider guard transitions to half guard
 
 - [[Transitions/Long Step Pass]] - Related passing variation with similar grip breaking sequence
 
 - [[Transitions/Leg Drag Pass]] - High-percentage pass when opponent releases foot pressure for attacks
 
-- [[Transitions/Bullfighter Pass]] - Complementary toreando-style pass used after grip breaks
+- [[Transitions/Toreando Pass]] - Complementary toreando-style pass used after grip breaks
 
 - [[Positions/De La Riva Guard]] - Common guard transition opponent may attempt during grip break
 
@@ -224,5 +261,7 @@ The Spider Guard Pass is a fundamental component of any comprehensive guard pass
 
 
 </section>
+
+
 
 </main>

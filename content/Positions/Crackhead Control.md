@@ -10,6 +10,41 @@ description: "Master Crackhead Control in BJJ. Complete guide to 10th Planet's i
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Crackhead Control",
+  "description": "Master Crackhead Control in BJJ. Complete guide to 10th Planet\u0027s innovative turtle control system covering bottom defense and top attacks with expert analysis.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Crackhead Control", "item": "https://bjjgraph.org/Positions/Crackhead-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Crackhead Control",
+  "description": "Crackhead Control is a 10th Planet turtle control system in which the top player chair-sits on the opponent's hips to attack the back, while the bottom player uses constant motion and grip fighting to prevent control and recover guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Crackhead Control in BJJ. Complete guide to 10th Planet's i
 </div>
 
 <section id="overview" class="content-section">
+
+**Crackhead Control is a 10th Planet turtle control system in which the top player chair-sits on the opponent's hips to attack the back, while the bottom player uses constant motion and grip fighting to prevent control and recover guard.**
 
 Crackhead Control is an innovative turtle position system developed within the 10th Planet Jiu-Jitsu methodology, characterized by unconventional positioning and dynamic movement patterns that challenge traditional turtle defense and attack paradigms. This position exists in two distinct perspectives: the bottom defensive position emphasizing constant movement and grip fighting to prevent back takes, and the top attacking position utilizing chair-sit mechanics to isolate the opponent's hips while threatening multiple submission and positional advancement pathways.
 
@@ -102,21 +139,15 @@ The name itself reflects the frenetic, unpredictable energy characteristic of th
 ### Available Transitions
 
 
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (14% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (22% of attempts)
 
-- **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (12% of attempts)
+- **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (16% of attempts)
 
-- **[[Transitions/Sit Through Escape/Attacker|Sit Through Escape]]** (26% of attempts)
+- **[[Transitions/Sit Through Escape/Attacker|Sit Through Escape]]** (30% of attempts)
 
-- **[[Transitions/Peterson Roll/Attacker|Peterson Roll]]** (12% of attempts)
+- **[[Transitions/Peterson Roll/Attacker|Peterson Roll]]** (16% of attempts)
 
-- **[[Transitions/Crackhead Control to Carni/Attacker|Crackhead Control to Carni]]** (12% of attempts)
-
-- **[[Transitions/Crackhead Control to Mission Control/Attacker|Crackhead Control to Mission Control]]** (10% of attempts)
-
-- **[[Transitions/Crackhead Control to New York/Attacker|Crackhead Control to New York]]** (8% of attempts)
-
-- **[[Transitions/Posture Recovery to Closed Guard/Attacker|Posture Recovery to Closed Guard]]** (6% of attempts)
+- **[[Transitions/Posture Recovery to Closed Guard/Attacker|Posture Recovery to Closed Guard]]** (16% of attempts)
 
 
 ### Common Mistakes
@@ -252,6 +283,16 @@ The name itself reflects the frenetic, unpredictable energy characteristic of th
 
 - **[[Positions/Anaconda Control]]** - Alternative front headlock finish from top perspective
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Twister-System" data-cta="related-system-card" data-system-slug="systems/twister-system" data-system-name="Twister System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Twister System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">10th Planet back control variation that shares control concepts with Truck</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

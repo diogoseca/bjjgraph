@@ -1,6 +1,7 @@
 {
   "name": "Rear Naked Choke",
   "description": "Master the Rear Naked Choke in BJJ. Complete safety guide with proper execution, defense patterns, and training progressions. Beginner 35%, Intermediate 55%, Advanced 75%.",
+  "summary": "The Rear Naked Choke is a blood choke applied from behind that wraps a forearm across the throat to compress both carotid arteries, cutting blood flow to the brain and forcing a tap or unconsciousness within seconds.",
   "tags": [
     "bjj",
     "submission",
@@ -13,6 +14,17 @@
     "fundamental",
     "hub",
     "finishing-guide"
+  ],
+  "aliases": [
+    "Mata Leão",
+    "Mata Leao",
+    "Hadaka Jime",
+    "RNC",
+    "Sleeper Hold"
+  ],
+  "sameAs": [
+    "https://en.wikipedia.org/wiki/Rear_naked_choke",
+    "https://www.wikidata.org/wiki/Q4845233"
   ],
   "is_family": true,
   "submission_category": "Choke",
@@ -143,10 +155,6 @@
     {
       "name": "Darce Choke",
       "relationship": "Arm-in choke from front headlock when opponent turtles during back escape"
-    },
-    {
-      "name": "Rear Naked Choke",
-      "relationship": "RNC variation with body triangle for enhanced hip control and pressure"
     }
   ],
   "related_content": [

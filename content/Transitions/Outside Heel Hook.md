@@ -10,6 +10,41 @@ description: "Master the Outside Heel Hook from Backside 50-50. Rotational attac
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Outside Heel Hook",
+  "description": "Master the Outside Heel Hook from Backside 50-50. Rotational attack on lateral knee ligaments with systematic grip mechanics and hip-driven finishing.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Outside Heel Hook", "item": "https://bjjgraph.org/Transitions/Outside-Heel-Hook" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Outside Heel Hook",
+  "description": "The Outside Heel Hook is a rotational leg-lock submission from Backside 50-50 that externally twists the foot to load and tear the lateral knee ligaments, serving as the position's primary finishing threat.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,9 +57,11 @@ description: "Master the Outside Heel Hook from Backside 50-50. Rotational attac
 
 <section id="overview" class="content-section">
 
+**The Outside Heel Hook is a rotational leg-lock submission from Backside 50-50 that externally twists the foot to load and tear the lateral knee ligaments, serving as the position's primary finishing threat.**
+
 The Outside Heel Hook is a devastating rotational leg attack targeting the lateral knee ligaments (LCL and popliteal complex) from the Backside 50-50 position. Unlike the Inside Heel Hook which attacks the medial structures, the Outside Heel Hook applies external rotation to the tibia relative to the femur, creating immense pressure on the outside of the knee joint. This makes it particularly dangerous and highly effective when properly executed.
 
-From Backside 50-50 Bottom, the attacker controls the opponent's leg with their own entanglement while securing a figure-four grip (Gable grip or S-grip) around the heel. The attack relies on proper hip positioning, controlled breaking mechanics, and understanding of rotational force application. The position provides natural leverage advantages due to the back-to-back orientation, making heel exposure more accessible than in standard 50-50.
+From Backside 50-50 Top, the attacker controls the opponent's leg with their own entanglement while securing a figure-four grip (Gable grip or S-grip) around the heel. The attack relies on proper hip positioning, controlled breaking mechanics, and understanding of rotational force application. The position provides natural leverage advantages due to the back-to-back orientation, making heel exposure more accessible than in standard 50-50.
 
 Strategically, the Outside Heel Hook serves as the primary submission threat from Backside 50-50, forcing opponents to choose between defending the heel and preventing positional advancement. When opponents hide their heel or boot-defend effectively, this opens pathways for Inside Heel Hook attacks, toe holds, or positional escapes. The technique epitomizes modern leg lock philosophy: systematic entanglement control combined with precise breaking mechanics.
 
@@ -188,7 +225,7 @@ Strategically, the Outside Heel Hook serves as the primary submission threat fro
 
 ## Position Integration
 
-The Outside Heel Hook represents the primary submission threat from Backside 50-50 Bottom and serves as the cornerstone of the modern leg lock attacking system from this position. It creates a fundamental dilemma for opponents who must choose between defending the heel exposure (allowing positional advancement or escape) and preventing your movement (exposing the heel to attack). This technique chains directly with the Inside Heel Hook as primary alternatives - when opponents defend one, they often expose themselves to the other. The submission also connects to the broader leg entanglement hierarchy, as successful heel hook attempts can transition to Saddle, Inside Ashi-Garami, or standard 50-50 Guard if the finish is not available. Understanding this submission is essential for any practitioner serious about modern no-gi grappling, as it fundamentally shapes how opponents must defend in leg entanglement exchanges.
+The Outside Heel Hook represents the primary submission threat from Backside 50-50 Top and serves as the cornerstone of the modern leg lock attacking system from this position. It creates a fundamental dilemma for opponents who must choose between defending the heel exposure (allowing positional advancement or escape) and preventing your movement (exposing the heel to attack). This technique chains directly with the Inside Heel Hook as primary alternatives - when opponents defend one, they often expose themselves to the other. The submission also connects to the broader leg entanglement hierarchy, as successful heel hook attempts can transition to Saddle, Inside Ashi-Garami, or standard 50-50 Guard if the finish is not available. Understanding this submission is essential for any practitioner serious about modern no-gi grappling, as it fundamentally shapes how opponents must defend in leg entanglement exchanges.
 
 </section>
 
@@ -220,6 +257,19 @@ The Outside Heel Hook represents the primary submission threat from Backside 50-
 
 - [[Positions/Ashi Garami]] - Parent category of leg entanglement positions from which heel hooks originate
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Danaher-Leg-Lock-System" data-cta="related-system-card" data-system-slug="systems/danaher-leg-lock-system" data-system-name="Danaher Leg Lock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Danaher Leg Lock System</span><span class="system-card__unlocks-badge">Unlocks 30 techniques</span><span class="system-card__blurb">Alternative finish from standard and outside ashi-garami positions</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Lachlan-Giles-Leg-Lock-Defense-Framework" data-cta="related-system-card" data-system-slug="systems/lachlan-giles-leg-lock-defense-framework" data-system-name="Lachlan Giles Leg Lock Defense Framework" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Lachlan Giles Leg Lock Defense Framework</span><span class="system-card__unlocks-badge">Unlocks 26 techniques</span><span class="system-card__blurb">Heel hook variation requiring different defensive mechanics than inside variation</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Craig-Jones-Leg-Lock-System" data-cta="related-system-card" data-system-slug="systems/craig-jones-leg-lock-system" data-system-name="Craig Jones Leg Lock System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Craig Jones Leg Lock System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Primary finishing mechanism from saddle position utilizing rotational knee attack mechanics</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/B-Team-Dilemma-System" data-cta="related-system-card" data-system-slug="systems/b-team-dilemma-system" data-system-name="B-Team Dilemma System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">B-Team Dilemma System</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Primary submission threat creating defensive reactions that expose back control</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

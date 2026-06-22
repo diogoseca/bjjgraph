@@ -1,5 +1,6 @@
 {
   "name": "Arm Extraction",
+  "summary": "Arm Extraction is a Side Control escape in which the bottom player frees their trapped arm from the opponent's crossface or underhook, then uses the resulting shoulder-rotation and framing space to recover half guard or closed guard.",
   "description": "Master Arm Extraction escape from Side Control. Learn systematic arm removal to recover guard. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.",
   "tags": [
     "bjj",
@@ -13,12 +14,12 @@
   "from_position": "Side Control/Bottom",
   "outcomes": [
     {
-      "to": "Half Guard/Top",
+      "to": "Half Guard/Bottom",
       "probability": 50,
       "result": "success"
     },
     {
-      "to": "Closed Guard/Top",
+      "to": "Closed Guard/Bottom",
       "probability": 25,
       "result": "success"
     },

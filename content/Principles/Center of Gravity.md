@@ -142,11 +142,24 @@ description: "Master strategic weight allocation in BJJ top positions. Learn bio
 }
 </script>
 
-> Center of Gravity is a medium complexity BJJ principle applicable at the Intermediate level. Develop over Beginner to Advanced.
 
-**Application Level**: Intermediate
-**Complexity**: Medium
-**Development Timeline**: Beginner to Advanced
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Center of Gravity",
+  "description": "Center of Gravity is the principle of strategically allocating bodyweight across contact points—concentrating pressure on control targets while preserving base—to pin an opponent, prevent escapes, and enable techniques with minimal energy expenditure.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Intermediate</span>
+<span class="meta-chip">Medium complexity</span>
+<span class="meta-chip">Beginner to Advanced</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -155,7 +168,9 @@ description: "Master strategic weight allocation in BJJ top positions. Learn bio
 
 ## What is Center of Gravity?
 
-Center of Gravity represents the strategic management of bodyweight allocation across contact points to maximize control effectiveness, minimize escape opportunities, and optimize technical execution in top positions. Unlike simple heavy pressure, weight distribution is a sophisticated conceptual framework encompassing the biomechanical principles of leverage and balance, strategic decisions about where to concentrate or disperse weight, dynamic adjustment of distribution based on opponent responses, and the integration of weight allocation with technical objectives. This concept recognizes that effective top control depends not on maximum weight application but on intelligent weight distribution that simultaneously achieves multiple objectives: preventing escapes, enabling technique execution, maintaining base integrity, and conserving energy. Weight distribution serves as both a control mechanism that pins opponent effectively and a strategic tool that creates specific reactions enabling technical advancement. The ability to distribute weight intelligently often determines whether a practitioner can maintain dominant positions against resistance or loses control through predictable, rigid pressure patterns, making it one of the most essential conceptual elements in top game development.
+**Center of Gravity is the principle of strategically allocating bodyweight across contact points—concentrating pressure on control targets while preserving base—to pin an opponent, prevent escapes, and enable techniques with minimal energy expenditure.**
+
+In top-position control the practitioner who dominates is rarely the heaviest, but the one who organizes weight most intelligently, and that organization is precisely the domain Center of Gravity governs. Unlike simple heavy pressure, weight distribution is a sophisticated conceptual framework encompassing the biomechanical principles of leverage and balance, strategic decisions about where to concentrate or disperse weight, dynamic adjustment of distribution based on opponent responses, and the integration of weight allocation with technical objectives. This concept recognizes that effective top control depends not on maximum weight application but on intelligent weight distribution that simultaneously achieves multiple objectives: preventing escapes, enabling technique execution, maintaining base integrity, and conserving energy. Weight distribution serves as both a control mechanism that pins opponent effectively and a strategic tool that creates specific reactions enabling technical advancement. The ability to distribute weight intelligently often determines whether a practitioner can maintain dominant positions against resistance or loses control through predictable, rigid pressure patterns, making it one of the most essential conceptual elements in top game development.
 
 </section>
 
@@ -368,6 +383,19 @@ Extended control rounds (5-10 minutes) where top player must maintain dominant p
 - [[Energy Conservation]] (Principle) - Broader strategic framework within which weight distribution serves as primary mechanism for draining opponent energy while conserving personal resources
 - [[Control Point Hierarchy]] (Principle) - Related concept that informs weight distribution strategy by identifying which body parts offer most valuable pressure allocation targets
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Bernardo-Faria-Pressure-System" data-cta="related-system-card" data-system-slug="systems/bernardo-faria-pressure-system" data-system-name="Bernardo Faria Pressure System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Bernardo Faria Pressure System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Core principle for creating effective pressure without exhaustion</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Standing-Defense-Strategy" data-cta="related-system-card" data-system-slug="systems/standing-defense-strategy" data-system-name="Standing Defense Strategy" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Standing Defense Strategy</span><span class="system-card__unlocks-badge">Unlocks 27 techniques</span><span class="system-card__blurb">Biomechanical principle for maintaining balance and base in standing</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Marcelo-Garcia-X-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-x-guard-system" data-system-name="Marcelo Garcia X-Guard System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Marcelo Garcia X-Guard System</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Fundamental concept governing elevation, off-balancing, and base disruption in X-Guard</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Roger-Gracie-Fundamental-System" data-cta="related-system-card" data-system-slug="systems/roger-gracie-fundamental-system" data-system-name="Roger Gracie Fundamental System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Roger Gracie Fundamental System</span><span class="system-card__unlocks-badge">Unlocks 22 techniques</span><span class="system-card__blurb">Essential to Roger&#x27;s crushing top game - optimal weight placement creates inescapable control</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

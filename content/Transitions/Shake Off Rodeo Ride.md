@@ -10,6 +10,41 @@ description: "Master the Shake Off Rodeo Ride escape in BJJ. Learn explosive bas
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Shake Off Rodeo Ride",
+  "description": "Master the Shake Off Rodeo Ride escape in BJJ. Learn explosive base disruption mechanics to dislodge rider control and recover turtle position for guard recovery.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Shake Off Rodeo Ride", "item": "https://bjjgraph.org/Transitions/Shake-Off-Rodeo-Ride" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Shake Off Rodeo Ride",
+  "description": "The Shake Off Rodeo Ride is a low-commitment turtle escape where the bottom player generates an explosive upward-and-lateral hip pop to dislodge the rider's dynamic control and reset to a clean, neutral turtle position for guard recovery.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Shake Off Rodeo Ride escape in BJJ. Learn explosive bas
 
 <section id="overview" class="content-section">
 
-The Shake Off Rodeo Ride is an explosive base-disruption escape where the bottom practitioner uses rapid hip elevation, directional bucking, and coordinated posting to physically dislodge the rider's dynamic control and return to a neutral turtle position. Unlike rolling escapes that accept back exposure during rotation or the Escape from Rodeo Ride that targets side control through base collapse, the Shake Off works by attacking the rider's balance directly—using sharp hip extension and lateral movement to break the connection between the rider's hips and your back. The technique draws its mechanical principles from the same force generation used in bridge escapes from mount, adapted for the hands-and-knees base structure of turtle.
+**The Shake Off Rodeo Ride is a low-commitment turtle escape where the bottom player generates an explosive upward-and-lateral hip pop to dislodge the rider's dynamic control and reset to a clean, neutral turtle position for guard recovery.**
+
+Unlike rolling escapes that accept back exposure during rotation, or the Escape from Rodeo Ride that targets side control through base collapse, the Shake Off attacks the rider's balance directly. The bottom practitioner uses rapid hip elevation, directional bucking, and coordinated posting—sharp hip extension combined with lateral movement—to break the connection between the rider's hips and your back and return to a neutral turtle position. The technique draws its mechanical principles from the same force generation used in bridge escapes from mount, adapted for the hands-and-knees base structure of turtle.
 
 The Shake Off is most effective when the rider has not yet fully settled their weight or when they are transitioning between attack setups. Rodeo Ride depends on the rider maintaining constant hip-to-back contact with responsive pressure adjustments. The Shake Off exploits the moments when this contact is lightest—during grip transitions, attack initiations, or positional adjustments—by generating an explosive upward and lateral force that exceeds the rider's ability to maintain their asymmetric balance. The resulting separation creates a window where the bottom practitioner recovers clean turtle position without the rider's weight, enabling immediate follow-up with guard recovery, technical stand-up, or other escape sequences.
 
@@ -221,5 +258,7 @@ The Shake Off Rodeo Ride functions as the entry-level disruption tool in the tur
 
 
 </section>
+
+
 
 </main>

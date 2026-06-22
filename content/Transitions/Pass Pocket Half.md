@@ -10,6 +10,41 @@ description: "Master the Pocket Half Guard pass in BJJ. Complete guide to comple
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Pass Pocket Half",
+  "description": "Master the Pocket Half Guard pass in BJJ. Complete guide to completing the pass from underhook control to side control with systematic pressure techniques.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Pass Pocket Half", "item": "https://bjjgraph.org/Transitions/Pass-Pocket-Half" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Pass Pocket Half",
+  "description": "Pass Pocket Half is a pressure-based half guard pass in which the top player, having already won the underhook battle, collapses the pocket space and methodically extracts the trapped leg to advance from Pocket Half Guard top to Side Control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Pocket Half Guard pass in BJJ. Complete guide to comple
 </div>
 
 <section id="overview" class="content-section">
+
+**Pass Pocket Half is a pressure-based half guard pass in which the top player, having already won the underhook battle, collapses the pocket space and methodically extracts the trapped leg to advance from Pocket Half Guard top to Side Control.**
 
 Passing the Pocket Half Guard is a systematic pressure-based guard pass where the top player leverages established underhook control and chest pressure to complete the transition from pocket half guard to side control. This technique represents the culmination of the half guard passing sequence, where the top player has already won the critical underhook battle and established sufficient flattening pressure to begin extracting the trapped leg through the bottom player's guard. The pass addresses the unique challenges posed by the pocket half guard configuration, specifically the bottom player's deep underhook and active hip frame that create the characteristic pocket space.
 
@@ -216,5 +253,7 @@ The Pocket Half Guard pass sits at the critical junction between half guard cont
 
 
 </section>
+
+
 
 </main>

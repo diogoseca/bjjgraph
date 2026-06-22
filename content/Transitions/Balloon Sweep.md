@@ -10,6 +10,41 @@ description: "Master the Balloon Sweep from Closed Guard in BJJ. Complete guide 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Balloon Sweep",
+  "description": "Master the Balloon Sweep from Closed Guard in BJJ. Complete guide with step-by-step execution, timing, setups, and defensive counters for all levels.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Balloon Sweep", "item": "https://bjjgraph.org/Transitions/Balloon-Sweep" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Balloon Sweep",
+  "description": "The Balloon Sweep is a closed guard sweep that explosively extends the hips and lifts with a butterfly hook while pulling the collar, vertically displacing a forward-postured opponent and rotating them over to mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Balloon Sweep from Closed Guard in BJJ. Complete guide 
 
 <section id="overview" class="content-section">
 
-The Balloon Sweep is a dynamic and versatile sweep that combines elements of butterfly guard mechanics within the closed guard structure. This technique exploits the opponent's forward pressure and posture by using an explosive upward lifting motion combined with hip movement to elevate and off-balance them. The name derives from the balloon-like inflation of the hips and legs that creates the sweeping momentum. Unlike traditional closed guard sweeps that rely primarily on lateral movement, the Balloon Sweep uses vertical displacement to compromise the opponent's base before transitioning them over your center line. This makes it particularly effective against opponents who maintain a strong low base and resist lateral sweeps.
+**The Balloon Sweep is a closed guard sweep that explosively extends the hips and lifts with a butterfly hook while pulling the collar, vertically displacing a forward-postured opponent and rotating them over to mount.**
+
+Among closed guard sweeps, the Balloon Sweep is distinctive for importing butterfly guard's vertical lifting mechanics into the locked-leg structure of the closed guard. It exploits the opponent's forward pressure and posture by using an explosive upward lifting motion combined with hip movement to elevate and off-balance them. The name derives from the balloon-like inflation of the hips and legs that creates the sweeping momentum. Unlike traditional closed guard sweeps that rely primarily on lateral movement, the Balloon Sweep uses vertical displacement to compromise the opponent's base before transitioning them over your center line. This makes it particularly effective against opponents who maintain a strong low base and resist lateral sweeps.
 
 The technique requires precise timing and coordination between upper body control and lower body mechanics. The sweeper must break the opponent's posture, load their weight onto a butterfly hook or posting foot, then execute an explosive hip extension synchronized with a collar pull. The vertical lift creates a moment of weightlessness that eliminates the opponent's ability to post or widen their base. This mechanical principle distinguishes the Balloon Sweep from hip-dominant sweeps like the Hip Bump or momentum-based sweeps like the Pendulum, giving practitioners a critical tool against opponents who neutralize those standard attacks.
 
@@ -227,6 +264,16 @@ The Balloon Sweep is a fundamental component of closed guard offense that bridge
 
 - [[Transitions/Back Take]] - Alternative transition when opponent defends sweep by turning and exposing back
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Mikey-Musumeci-Berimbolo-System" data-cta="related-system-card" data-system-slug="systems/mikey-musumeci-berimbolo-system" data-system-name="Mikey Musumeci Berimbolo System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Mikey Musumeci Berimbolo System</span><span class="system-card__unlocks-badge">Unlocks 21 techniques</span><span class="system-card__blurb">Sweeping action available from the open guard backup positions</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

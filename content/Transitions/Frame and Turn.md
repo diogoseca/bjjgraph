@@ -10,6 +10,41 @@ description: "Learn Frame and Turn escape from Twister Control. Step-by-step tec
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Frame and Turn",
+  "description": "Learn Frame and Turn escape from Twister Control. Step-by-step technique to reduce spinal rotation and recover guard. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Frame and Turn", "item": "https://bjjgraph.org/Transitions/Frame-and-Turn" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Frame and Turn",
+  "description": "Frame and Turn is the primary escape from Twister Control bottom, using arm frames and an inward hip turn to systematically reduce spinal rotation and recover Turtle or Half Guard before the twister can be finished.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Learn Frame and Turn escape from Twister Control. Step-by-step tec
 </div>
 
 <section id="overview" class="content-section">
+
+**Frame and Turn is the primary escape from Twister Control bottom, using arm frames and an inward hip turn to systematically reduce spinal rotation and recover Turtle or Half Guard before the twister can be finished.**
 
 Frame and Turn represents the primary defensive escape sequence from Twister Control Bottom, addressing one of the most mechanically compromised positions in Brazilian Jiu-Jitsu. This technique focuses on systematically reducing spinal rotation through coordinated frame creation and hip turning mechanics, ultimately allowing the bottom player to realign their spine and recover a more defensible position such as Turtle or Half Guard.
 
@@ -219,5 +256,7 @@ Frame and Turn serves as the primary escape pathway from Twister Control Bottom,
 
 
 </section>
+
+
 
 </main>

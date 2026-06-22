@@ -10,6 +10,41 @@ description: "Master the Escape Vaporizer in BJJ. Strategic lockdown disengageme
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Escape Vaporizer",
+  "description": "Master the Escape Vaporizer in BJJ. Strategic lockdown disengagement guide covering release mechanics, frame establishment, and safe open guard recovery.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Escape Vaporizer", "item": "https://bjjgraph.org/Transitions/Escape-Vaporizer" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Escape Vaporizer",
+  "description": "The Escape Vaporizer is a tactical disengagement in which the Vaporizer bottom player releases the lockdown and immediately inserts foot frames to reset into open guard once their lockdown-based attacks have been neutralized.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Escape Vaporizer in BJJ. Strategic lockdown disengageme
 
 <section id="overview" class="content-section">
 
-The Escape Vaporizer is a strategic disengagement technique executed by the bottom player who currently maintains lockdown control in the Vaporizer position. Rather than a traditional escape from danger, this transition represents a tactical reset—abandoning a stalled Vaporizer to establish open guard where fresh attacking opportunities become available. This decision typically arises when the top player has successfully neutralized whip-up pressure, established a strong whizzer, or begun systematically clearing the lockdown configuration.
+**The Escape Vaporizer is a tactical disengagement in which the Vaporizer bottom player releases the lockdown and immediately inserts foot frames to reset into open guard once their lockdown-based attacks have been neutralized.**
+
+Within the 10th Planet lockdown system, the Escape Vaporizer is a tactical reset rather than a defensive escape from danger—the bottom player who has been controlling the Vaporizer abandons a stalled position to re-establish open guard, where fresh attacking opportunities become available. This decision typically arises when the top player has successfully neutralized whip-up pressure, established a strong whizzer, or begun systematically clearing the lockdown configuration.
 
 The technical challenge lies in releasing the lockdown figure-four without creating passing opportunities for the top player. The bottom player must coordinate the leg release with immediate frame establishment, using the brief transitional window to insert feet on hips and create distance before the opponent can capitalize on the suddenly freed leg. Poor execution during this phase exposes the bottom player to pressure passing and flattening, making the timing and sequencing of each movement critical.
 
@@ -222,5 +259,7 @@ The Escape Vaporizer connects the 10th Planet lockdown system to the broader ope
 
 
 </section>
+
+
 
 </main>

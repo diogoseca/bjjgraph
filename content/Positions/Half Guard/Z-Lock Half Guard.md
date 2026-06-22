@@ -10,6 +10,41 @@ description: "Master Z-Lock Half Guard in BJJ. Advanced lockdown variation with 
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Z-Lock Half Guard",
+  "description": "Master Z-Lock Half Guard in BJJ. Advanced lockdown variation with unique leg configuration. Learn sweeps, back takes, and submission paths with 65% retention rate.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Z-Lock Half Guard", "item": "https://bjjgraph.org/Positions/Z-Lock-Half-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Z-Lock Half Guard",
+  "description": "Z-Lock Half Guard is an advanced 10th Planet lockdown variation where the bottom player forms a 'Z' with their legs - one securing the lockdown, the other a butterfly hook - creating simultaneous sweep, back-take, and Electric Chair threats.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Z-Lock Half Guard in BJJ. Advanced lockdown variation with 
 </div>
 
 <section id="overview" class="content-section">
+
+**Z-Lock Half Guard is an advanced 10th Planet lockdown variation where the bottom player forms a 'Z' with their legs - one securing the lockdown, the other a butterfly hook - creating simultaneous sweep, back-take, and Electric Chair threats.**
 
 Z-Lock Half Guard represents an advanced variation of the lockdown system where the practitioner creates a unique leg configuration resembling the letter 'Z' while controlling the opponent's trapped leg. This position combines elements of traditional lockdown mechanics with enhanced mobility and offensive capabilities, creating a versatile attacking platform that can neutralize larger, stronger opponents through superior positioning and leverage.
 
@@ -252,5 +289,7 @@ Developed primarily within the 10th Planet system and refined by lockdown specia
 
 
 </section>
+
+
 
 </main>

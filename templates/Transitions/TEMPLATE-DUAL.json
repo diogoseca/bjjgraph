@@ -6,6 +6,7 @@
   "additionalProperties": false,
   "required": [
     "name",
+    "summary",
     "description",
     "tags",
     "from_position",
@@ -38,6 +39,46 @@
       "minItems": 3,
       "items": {
         "type": "string"
+      }
+    },
+    "aliases": {
+      "type": "array",
+      "description": "Strict synonyms — other names for THIS EXACT technique. Examples: ['Bullfighter Pass'] on Toreando Pass. DO NOT use for variants. See docs/Synonyms.md.",
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "family": {
+      "type": "string",
+      "description": "Name of the variant-family hub this technique belongs to. Empty = standalone. Example: 'Knee-Cut' (for Knee Cut Pass, Knee Slice Pass). See docs/Synonyms.md."
+    },
+    "bot_metadata": {
+      "type": "object",
+      "description": "Automation bookkeeping written by the content bots (not hand-authored). select_oldest_files.sh reads last_improved to skip recently-improved files.",
+      "additionalProperties": true,
+      "properties": {
+        "last_improved": { "type": "string", "description": "ISO date (YYYY-MM-DD) of the last bot edit" },
+        "optimization_pass": { "type": "string" },
+        "last_improved_by": { "type": "string" }
+      }
+    },
+    "sameAs": {
+      "type": "array",
+      "description": "Authoritative external URLs for THIS technique (Wikipedia article and/or Wikidata entity). schema.org sameAs — feeds Google's Knowledge Graph entity reconciliation and surfaces cross-language names. See docs/Synonyms.md.",
+      "uniqueItems": true,
+      "items": { "type": "string", "format": "uri" }
+    },
+    "disambiguations": {
+      "type": "array",
+      "description": "False-synonym callouts. Renders 'Often confused with X — reason'. Mutual: both pages should declare the other. See docs/Synonyms.md.",
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "reason"],
+        "properties": {
+          "name": { "type": "string", "minLength": 1 },
+          "reason": { "type": "string", "minLength": 10 }
+        }
       }
     },
     "from_position": {
@@ -88,9 +129,15 @@
       "minimum": 0,
       "maximum": 100
     },
+    "summary": {
+      "type": "string",
+      "minLength": 30,
+      "maxLength": 300,
+      "description": "One-sentence, self-contained definition that leads the page (answer-first for AI / featured snippets). ~15-40 words. If present, the overview must NOT repeat it."
+    },
     "overview": {
       "type": "string",
-      "description": "2-3 paragraph technique description with strategic context (400+ characters)",
+      "description": "2-3 paragraph technique description with strategic context (400+ characters) LEAD with a self-contained one-sentence definition that directly answers 'what is X' before history/context — AI answer engines quote the first sentence; if a summary field is present, start the overview with context instead.",
       "minLength": 400
     },
     "variants_and_adaptations": {

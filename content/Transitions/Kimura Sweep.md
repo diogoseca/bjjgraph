@@ -10,6 +10,41 @@ description: "Master the Kimura Sweep in BJJ. Execute from Closed Guard to Mount
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kimura Sweep",
+  "description": "Master the Kimura Sweep in BJJ. Execute from Closed Guard to Mount using figure-four grip mechanics. Complete guide with attacker and defender perspectives.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Kimura Sweep", "item": "https://bjjgraph.org/Transitions/Kimura-Sweep" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kimura Sweep",
+  "description": "The Kimura Sweep is a Closed Guard reversal that traps the opponent's arm in a figure-four grip and uses it as a lever to roll them over into Mount, forcing a sweep-or-submit dilemma.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Kimura Sweep in BJJ. Execute from Closed Guard to Mount
 </div>
 
 <section id="overview" class="content-section">
+
+**The Kimura Sweep is a Closed Guard reversal that traps the opponent's arm in a figure-four grip and uses it as a lever to roll them over into Mount, forcing a sweep-or-submit dilemma.**
 
 The Kimura Sweep is a powerful positional advancement technique that leverages the figure-four grip control to off-balance and sweep the opponent from Closed Guard directly to Mount. This sweep capitalizes on the mechanical advantage created when you secure the Kimura grip on the opponent's arm, using their trapped limb as a lever to disrupt their base and facilitate the reversal. The technique represents a fundamental concept in guard work where grip fighting transitions directly into sweeping opportunities rather than remaining as isolated submission attempts.
 
@@ -220,5 +257,7 @@ The Kimura Sweep occupies a central position in the Closed Guard attacking syste
 
 
 </section>
+
+
 
 </main>

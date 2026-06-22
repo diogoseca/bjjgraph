@@ -10,6 +10,41 @@ description: "Master the Omoplata to Back transition in BJJ. Convert your oppone
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Omoplata to Back",
+  "description": "Master the Omoplata to Back transition in BJJ. Convert your opponent\u0027s forward roll escape into dominant back control with hooks and seatbelt grip.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Omoplata to Back", "item": "https://bjjgraph.org/Transitions/Omoplata-to-Back" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Omoplata to Back",
+  "description": "Omoplata to Back is a guard transition that converts an opponent's forward-roll escape from the omoplata shoulder lock into dominant back control by riding the trapped shoulder through the roll and securing hooks plus a seatbelt grip.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Omoplata to Back transition in BJJ. Convert your oppone
 </div>
 
 <section id="overview" class="content-section">
+
+**Omoplata to Back is a guard transition that converts an opponent's forward-roll escape from the omoplata shoulder lock into dominant back control by riding the trapped shoulder through the roll and securing hooks plus a seatbelt grip.**
 
 The Omoplata to Back transition exploits the most common defensive reaction to the omoplata shoulder lock: the forward roll. When a trapped opponent commits to rolling over their shoulder to relieve submission pressure, the attacker follows the momentum and converts the defensive escape directly into back control with hooks and seatbelt. This is a Type C positional transition that never leads to game-over directly, instead securing arguably the most dominant position in grappling.
 
@@ -225,6 +262,17 @@ The omoplata to back transition occupies a critical node in modern bottom guard 
 
 - [[Transitions/Back Control Maintenance]] - Positional maintenance technique used to consolidate the back control achieved through this transition
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/10th-Planet-Rubber-Guard-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-rubber-guard-system" data-system-name="10th Planet Rubber Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">10th Planet Rubber Guard System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Chain progression when Omoplata is defended</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Rubber-Guard-to-Omoplata-System" data-cta="related-system-card" data-system-slug="systems/rubber-guard-to-omoplata-system" data-system-name="Rubber Guard to Omoplata System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Rubber Guard to Omoplata System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Position advancement when opponent rolls forward</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

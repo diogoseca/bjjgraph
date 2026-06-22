@@ -1,6 +1,7 @@
 {
   "name": "Half Guard to X-Guard",
   "description": "Master the Half Guard to X-Guard transition in BJJ. Comprehensive guide covering entry mechanics, timing, sweep opportunities, and defensive counters.",
+  "summary": "Half Guard to X-Guard is a bottom-position transition where you thread a butterfly hook behind your opponent's near knee and cross your outside leg over their hip, converting a trapped-leg half guard into the high-percentage X-Guard sweeping platform.",
   "tags": [
     "half guard",
     "x-guard",
@@ -91,10 +92,6 @@
     {
       "name": "Deep Half Entry from Half Guard",
       "relationship": "Related transition using similar hip escape mechanics to get underneath opponent"
-    },
-    {
-      "name": "Half Butterfly Sweep",
-      "relationship": "Complementary sweep technique from the intermediate butterfly half guard position"
     },
     {
       "name": "Dogfight Position",

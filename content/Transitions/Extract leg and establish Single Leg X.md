@@ -10,6 +10,41 @@ description: "Learn leg extraction from Leg Knot to Single Leg X-Guard in BJJ. E
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Extract leg and establish Single Leg X",
+  "description": "Learn leg extraction from Leg Knot to Single Leg X-Guard in BJJ. Escape entanglement and establish offensive guard control with systematic technique.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Extract leg and establish Single Leg X", "item": "https://bjjgraph.org/Transitions/Extract-leg-and-establish-Single-Leg-X" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Extract leg and establish Single Leg X",
+  "description": "Extract leg and establish Single Leg X is a defensive leg-entanglement transition from Leg Knot Bottom where you clear the trapped leg with limp-leg mechanics and immediately build Single Leg X-Guard, converting a compromised position into an offensive sweeping platform.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Learn leg extraction from Leg Knot to Single Leg X-Guard in BJJ. E
 </div>
 
 <section id="overview" class="content-section">
+
+**Extract leg and establish Single Leg X is a defensive leg-entanglement transition from Leg Knot Bottom where you clear the trapped leg with limp-leg mechanics and immediately build Single Leg X-Guard, converting a compromised position into an offensive sweeping platform.**
 
 The leg extraction to Single Leg X-Guard represents a critical defensive transition from the Leg Knot Bottom position, transforming a compromised entanglement into an offensive guard platform. This technique addresses the fundamental problem of being trapped in an inferior leg entanglement by systematically clearing the trapped leg and immediately establishing Single Leg X-Guard before the opponent can re-engage their leg attack system.
 
@@ -210,13 +247,11 @@ Extract leg and establish Single Leg X serves as a critical bridge between defen
 
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Related leg entanglement position
 
-- [[Transitions/Granby Roll to Guard]] - Alternative extraction method using inversion
-
-- [[Positions/X-Guard]] - Alternative guard if Single Leg X entry is blocked
-
 - [[Transitions/Counter-entangle to 50-50 Guard]] - Alternative defensive transition from same starting position
 
 
 </section>
+
+
 
 </main>

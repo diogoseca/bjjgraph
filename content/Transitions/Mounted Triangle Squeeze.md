@@ -10,6 +10,41 @@ description: "Master the mounted triangle squeeze in BJJ. Expert guide to tighte
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Mounted Triangle Squeeze",
+  "description": "Master the mounted triangle squeeze in BJJ. Expert guide to tightening triangle pressure, optimizing angle mechanics, and building finishing pressure from top.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Mounted Triangle Squeeze", "item": "https://bjjgraph.org/Transitions/Mounted-Triangle-Squeeze" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Mounted Triangle Squeeze",
+  "description": "The Mounted Triangle Squeeze is the consolidation phase from a mounted triangle where the attacker progressively tightens the figure-four lock, cuts the hip angle, and breaks posture to build finishing carotid pressure before committing to the choke.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the mounted triangle squeeze in BJJ. Expert guide to tighte
 
 <section id="overview" class="content-section">
 
-The Mounted Triangle Squeeze is a critical positional refinement technique applied from the mounted triangle to maximize choking pressure before committing to the finish. Rather than a discrete positional change, the squeeze represents the systematic tightening of the triangle configuration through coordinated leg contraction, angle adjustment, and posture breaking that transforms a loose triangle hold into a locked finishing position.
+**The Mounted Triangle Squeeze is the consolidation phase from a mounted triangle where the attacker progressively tightens the figure-four lock, cuts the hip angle, and breaks posture to build finishing carotid pressure before committing to the choke.**
+
+Within the mounted triangle attacking sequence, the squeeze is the make-or-break consolidation phase that separates practitioners who reliably finish from those who lose the position chasing a premature choke. Rather than a discrete positional change, the squeeze represents the systematic tightening of the triangle configuration through coordinated leg contraction, angle adjustment, and posture breaking that transforms a loose triangle hold into a locked finishing position.
 
 The technique bridges the gap between triangle establishment and submission finish. Many practitioners lose mounted triangles because they rush to finish before properly consolidating the squeeze mechanics. The squeeze phase involves pulling the opponent's head toward the trapped shoulder, driving the cutting knee across the neck, and contracting the figure-four lock while maintaining sufficient mount base to prevent escape. Gravity provides a significant mechanical advantage over guard-based triangle squeezes, as body weight drives the opponent's own shoulder into the carotid artery.
 
@@ -224,5 +261,7 @@ The Mounted Triangle Squeeze occupies a critical intermediate role in the mounte
 
 
 </section>
+
+
 
 </main>

@@ -1,5 +1,6 @@
 {
   "name": "Seat Belt Control Back",
+  "summary": "Seat Belt Control Back is the transition from mounted crucifix to full back control, where you establish an over-under harness grip before releasing the leg entanglement and sliding your hips behind the opponent to secure hooks or a body triangle.",
   "description": "Master the Seat Belt Control transition from Mounted Crucifix in BJJ. Step-by-step grip establishment for securing Back Control with immediate submission threat.",
   "tags": [
     "bjj",
@@ -58,16 +59,8 @@
       "relationship": "Alternative attack from the starting position instead of transitioning"
     },
     {
-      "name": "Choke from Crucifix",
-      "relationship": "Alternative attack from the starting position instead of transitioning"
-    },
-    {
       "name": "High Mount",
       "relationship": "Common entry path leading to mounted crucifix before this transition"
-    },
-    {
-      "name": "S Mount",
-      "relationship": "Alternative mount attack position that also leads to crucifix entries"
     },
     {
       "name": "Back Take from Top",

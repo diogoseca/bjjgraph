@@ -10,6 +10,41 @@ description: "Master the Whizzer overhook control in BJJ. Essential defensive an
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Whizzer",
+  "description": "Master the Whizzer overhook control in BJJ. Essential defensive and offensive technique for back takes, takedown defense, and scramble control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Whizzer", "item": "https://bjjgraph.org/Transitions/Whizzer" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Whizzer",
+  "description": "The Whizzer is an overhook control where you thread your arm over the opponent's underhooking arm and clamp their shoulder, neutralizing their underhook while opening direct paths to back control, kimuras, and reversal sweeps.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Whizzer overhook control in BJJ. Essential defensive an
 </div>
 
 <section id="overview" class="content-section">
+
+**The Whizzer is an overhook control where you thread your arm over the opponent's underhooking arm and clamp their shoulder, neutralizing their underhook while opening direct paths to back control, kimuras, and reversal sweeps.**
 
 The Whizzer is a fundamental overhook control position that serves as both a powerful defensive mechanism and an offensive transition tool in Brazilian Jiu-Jitsu. Borrowed from wrestling, this technique involves threading your arm over your opponent's arm and controlling their shoulder, creating a mechanical advantage that neutralizes underhook-based attacks while opening pathways to dominant positions. The Whizzer excels in multiple contexts: defending single-leg takedowns, preventing back takes from turtle, controlling scrambles, and setting up your own offensive transitions to back control or reversal positions.
 
@@ -223,6 +260,17 @@ The Whizzer functions as a critical connecting technique within the broader BJJ 
 
 - [[Transitions/Anaconda Choke]] - Submission option when transitioning from Whizzer to front headlock control
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Standing-Defense-Strategy" data-cta="related-system-card" data-system-slug="systems/standing-defense-strategy" data-system-name="Standing Defense Strategy" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Standing Defense Strategy</span><span class="system-card__unlocks-badge">Unlocks 27 techniques</span><span class="system-card__blurb">Defensive control used in sprawl defense protocol</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Lockdown-to-Electric-Chair-System" data-cta="related-system-card" data-system-slug="systems/lockdown-to-electric-chair-system" data-system-name="Lockdown to Electric Chair System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Lockdown to Electric Chair System</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Primary defensive counter that must be systematically defeated</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

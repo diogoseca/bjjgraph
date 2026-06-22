@@ -10,10 +10,55 @@ description: "Master the calf slicer from 50-50 Guard. Complete guide covering s
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Calf Slicer from 50-50 Guard targets the Calf muscle and Achilles tendon. Risk: Calf muscle tear or rupture. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Calf Slicer from 50-50 Guard",
+  "description": "Master the calf slicer from 50-50 Guard. Complete guide covering setup, finishing mechanics, defense, and safety for this advanced compression submission.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Calf Slicer from 50-50 Guard", "item": "https://bjjgraph.org/Submissions/Calf-Slicer-from-50-50-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Calf Slicer from 50-50 Guard",
+  "description": "The calf slicer from 50-50 Guard is a compression submission that wedges your shin behind the opponent's bent knee and drives your hips forward, crushing their calf against their own femur when they tuck the heel to defend leg locks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The calf slicer from 50-50 Guard is a compression submission that wedges your shin behind the opponent's bent knee and drives your hips forward, crushing their calf against their own femur when they tuck the heel to defend leg locks.**
+<div class="principle-meta">
+<span class="meta-chip">Compression</span>
+<span class="meta-chip">Leg Compression</span>
+<span class="meta-chip">Targets Calf muscle and Achilles tendon</span>
+<span class="meta-chip">50% success</span>
+</div>
+
+> [!danger] Safety
+> Calf Slicer from 50-50 Guard targets the Calf muscle and Achilles tendon. Primary risk: Calf muscle tear or rupture. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -24,61 +69,13 @@ description: "Master the calf slicer from 50-50 Guard. Complete guide covering s
 
 <section id="overview" class="content-section">
 
-The calf slicer from 50-50 Guard is a compression submission that exploits the leg entanglement inherent to the 50-50 position. Unlike entries from other positions where the attacker must first thread a shin behind the opponent's knee, the 50-50 Guard naturally pre-positions your leg across the opponent's calf area. By consolidating your leg configuration into a figure-four or triangle lock and driving your hips forward, your shin bone acts as a fulcrum that generates crushing force against the calf muscle, Achilles tendon, and surrounding structures.
+Within the 50-50 leg lock system, the calf slicer is the compression threat that punishes a heel-hiding defender. Unlike entries from other positions where the attacker must first thread a shin behind the opponent's knee, the 50-50 Guard naturally pre-positions your leg across the opponent's calf area. By consolidating your leg configuration into a figure-four or triangle lock and driving your hips forward, your shin bone acts as a fulcrum that generates crushing force against the calf muscle, Achilles tendon, and surrounding structures.
 
 This technique functions as a powerful secondary threat within the 50-50 leg lock system. When the primary heel hook attack is neutralized through heel hiding or grip stripping, the calf slicer becomes available because the defender's knee remains bent inside the entanglement. The submission threat forces a strategic dilemma: defenders who keep their knee bent to protect the heel expose themselves to the calf slicer, while straightening the leg to avoid the slicer reopens the heel for hook attacks. This push-pull dynamic makes the calf slicer an essential component of a complete 50-50 offense.
 
 The technique carries significant injury risk due to simultaneous compression of soft tissue and potential knee ligament stress. The onset of damage can be rapid, and training partners must maintain strict adherence to controlled application speed and immediate release upon tap signals. Most competition rulesets restrict this technique to brown and black belt divisions.
 
-**Category**: Compression
-**Type**: Leg Compression
-**Target Area**: Calf muscle and Achilles tendon
-**Starting Position**: [[Positions/Ashi Garami/50-50 Guard]]
-**From Position**: [[Positions/Ashi Garami/50-50 Guard]] (Top)
-**Success Rate**: 50%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Calf muscle tear or rupture | High | 6-12 weeks minimum, potential permanent damage |
-| Achilles tendon strain or rupture | CRITICAL | 6-12 months, often requires surgery |
-| Nerve damage to peroneal or tibial nerves | High | Weeks to months, potential permanent numbness |
-| Deep tissue bruising and compartment syndrome | Medium | 2-4 weeks, rare cases require emergency surgery |
-
-
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum in training, never spike or jerk
-
-**Tap Signals**:
-- Verbal tap (encouraged due to leg entanglement limiting hand access)
-- Physical hand tap on partner or mat
-- Physical foot tap if hands are trapped in the entanglement
-- Any distress vocalization or signal
-- Slapping mat with free hand multiple times
-
-
-**Release Protocol**:
-1. Immediately release foot grip upon any tap signal
-2. Remove shin pressure from calf slowly and with control
-3. Unwrap legs carefully without jerking movements
-4. Allow partner to extend leg naturally before fully disengaging
-5. Check partner's mobility and sensation before continuing training
-
-
-**Training Restrictions**:
-- Never apply at competition speed during training
-- Never spike or jerk the compression force
-- Never hold after tap to practice finishing position
-- Always ensure partner has clear access to tap with at least one hand
-- Prohibited below brown belt in most competition rulesets
-- Never practice on partners with previous calf or Achilles injuries without explicit consent
-
+**Starting Position**: [[Positions/Ashi Garami/50-50 Guard]] · **From**: [[Positions/Ashi Garami/50-50 Guard]] (Top)
 
 </section>
 
@@ -238,40 +235,63 @@ The technique carries significant injury risk due to simultaneous compression of
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Calf Slicer]]
 - [[Transitions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
 - [[Submissions/Bicep Slicer]]
 - [[Submissions/Achilles Lock]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Ashi Garami/50-50 Guard]] - Primary starting position providing the leg entanglement structure for this submission
 - [[Positions/Ashi Garami/Backside 50-50]] - Alternative leg entanglement where similar calf compression attacks can be applied
-- [[Submissions/Calf Slicer]] - Parent submission family covering all calf slicer entries and variations
-- [[Submissions/Inside Heel Hook]] - Primary alternative submission from same position, creates attack dilemma pairing
 - [[Positions/Ashi Garami/Honey Hole]] - Advanced leg entanglement with related compression and heel hook opportunities
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Calf muscle tear or rupture | High | 6-12 weeks minimum, potential permanent damage |
+| Achilles tendon strain or rupture | CRITICAL | 6-12 months, often requires surgery |
+| Nerve damage to peroneal or tibial nerves | High | Weeks to months, potential permanent numbness |
+| Deep tissue bruising and compartment syndrome | Medium | 2-4 weeks, rare cases require emergency surgery |
+
+
+**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum in training, never spike or jerk
+
+**Tap Signals**:
+- Verbal tap (encouraged due to leg entanglement limiting hand access)
+- Physical hand tap on partner or mat
+- Physical foot tap if hands are trapped in the entanglement
+- Any distress vocalization or signal
+- Slapping mat with free hand multiple times
+
+
+**Release Protocol**:
+1. Immediately release foot grip upon any tap signal
+2. Remove shin pressure from calf slowly and with control
+3. Unwrap legs carefully without jerking movements
+4. Allow partner to extend leg naturally before fully disengaging
+5. Check partner's mobility and sensation before continuing training
+
+
+**Training Restrictions**:
+- Never apply at competition speed during training
+- Never spike or jerk the compression force
+- Never hold after tap to practice finishing position
+- Always ensure partner has clear access to tap with at least one hand
+- Prohibited below brown belt in most competition rulesets
+- Never practice on partners with previous calf or Achilles injuries without explicit consent
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Calf Slicer from 50-50 Guard leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

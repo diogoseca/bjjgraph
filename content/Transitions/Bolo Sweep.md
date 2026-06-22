@@ -10,6 +10,41 @@ description: "Master the Bolo Sweep from De La Riva Guard. Learn rotational inve
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Bolo Sweep",
+  "description": "Master the Bolo Sweep from De La Riva Guard. Learn rotational inversion mechanics, back-take finishes, and chain attacks for advanced guard players.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Bolo Sweep", "item": "https://bjjgraph.org/Transitions/Bolo-Sweep" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Bolo Sweep",
+  "description": "The Bolo Sweep is a rotational inversion from De La Riva Guard where the bottom player corkscrews underneath the opponent's hooked leg to either sweep them to the floor or climb to back control, forcing a sweep-or-back dilemma.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Bolo Sweep from De La Riva Guard. Learn rotational inve
 </div>
 
 <section id="overview" class="content-section">
+
+**The Bolo Sweep is a rotational inversion from De La Riva Guard where the bottom player corkscrews underneath the opponent's hooked leg to either sweep them to the floor or climb to back control, forcing a sweep-or-back dilemma.**
 
 The Bolo Sweep, short for Berimbolo, is one of the most revolutionary techniques in modern Brazilian Jiu-Jitsu, fundamentally transforming how practitioners approach the De La Riva guard. This dynamic sweeping technique utilizes rotation and inversion to destabilize opponents while simultaneously creating opportunities to take the back. The movement combines elements of traditional sweeping mechanics with gymnastic-style inversion, making it particularly effective against standing opponents who base heavily on their De La Riva-hooked leg. The technique's effectiveness lies in its ability to create a rotational force that opponents cannot easily counter without risking being swept or having their back taken.
 
@@ -216,5 +253,7 @@ The Bolo Sweep is the centerpiece technique of modern De La Riva guard systems, 
 
 
 </section>
+
+
 
 </main>

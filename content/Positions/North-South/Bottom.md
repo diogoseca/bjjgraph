@@ -116,6 +116,8 @@ description: "Escape North-South bottom position in BJJ. Comprehensive guide to 
   "@type": "WebPage",
   "name": "North-South Bottom",
   "description": "Escape North-South bottom position in BJJ. Comprehensive guide to hip movement, frame creation, and escape timing from this crushing pin with technical breakdowns and drilling protocols.",
+  "alternateName": ["Kami Shiho Gatame", "North South Position", "69 Position"],
+  "disambiguatingDescription": "Often confused with North-South Choke \u2014 the North-South Choke is a submission finished from this position, not the position itself.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -155,6 +157,10 @@ description: "Escape North-South bottom position in BJJ. Comprehensive guide to 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Kami Shiho Gatame</strong>, <strong>North South Position</strong>, <strong>69 Position</strong> <span class="role-hint">(bottom)</span></p>
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Transitions/North-South Choke|North-South Choke]]</strong> — the North-South Choke is a submission finished from this position, not the position itself</p>
+</aside>
 <section id="overview" class="content-section">
 
 North-South bottom represents one of the most challenging defensive positions in Brazilian Jiu-Jitsu, where you face your opponent while trapped beneath their chest-to-chest pressure with heads pointing in opposite directions. The crushing weight across your upper body, combined with limited arm mobility and restricted breathing, makes this position particularly difficult to escape without proper technique and timing.
@@ -354,6 +360,19 @@ Partner alternates between maintaining North-South control and setting up submis
 - **[[Transitions/Bridge and Roll]]** - Alternative escape technique using hip power
 - **[[Transitions/Frame and Shrimp to Guard]]** - Combined technique for systematic escape to guard
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Submission-Clinic-System" data-cta="related-system-card" data-system-slug="systems/submission-clinic-system" data-system-name="Submission Clinic System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Submission Clinic System</span><span class="system-card__unlocks-badge">Unlocks 30 techniques</span><span class="system-card__blurb">Transition position connecting side control to mount with kimura access</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Competition-Scoring-Strategy" data-cta="related-system-card" data-system-slug="systems/competition-scoring-strategy" data-system-name="Competition Scoring Strategy" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Competition Scoring Strategy</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Control position for lead preservation and submission threats</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Roger-Gracie-Fundamental-System" data-cta="related-system-card" data-system-slug="systems/roger-gracie-fundamental-system" data-system-name="Roger Gracie Fundamental System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Roger Gracie Fundamental System</span><span class="system-card__unlocks-badge">Unlocks 22 techniques</span><span class="system-card__blurb">Control position reached during certain passing sequences and mount escape defenses</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Kimura-Trap-System" data-cta="related-system-card" data-system-slug="systems/kimura-trap-system" data-system-name="Kimura Trap System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Kimura Trap System</span><span class="system-card__unlocks-badge">Unlocks 21 techniques</span><span class="system-card__blurb">Transitional position offering kimura opportunities during passing</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

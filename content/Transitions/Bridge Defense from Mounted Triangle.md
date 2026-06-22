@@ -10,6 +10,41 @@ description: "Master bridge defense from mounted triangle in BJJ. Explosive esca
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Bridge Defense from Mounted Triangle",
+  "description": "Master bridge defense from mounted triangle in BJJ. Explosive escape using bridge mechanics to disrupt triangle configuration and recover to safer position.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Bridge Defense from Mounted Triangle", "item": "https://bjjgraph.org/Transitions/Bridge-Defense-from-Mounted-Triangle" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Bridge Defense from Mounted Triangle",
+  "description": "Bridge Defense from Mounted Triangle is a bottom escape that uses an explosively timed angled bridge into the attacker's weak base to disrupt the triangle lock, extract the trapped arm, and recover toward mount bottom or half guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master bridge defense from mounted triangle in BJJ. Explosive esca
 </div>
 
 <section id="overview" class="content-section">
+
+**Bridge Defense from Mounted Triangle is a bottom escape that uses an explosively timed angled bridge into the attacker's weak base to disrupt the triangle lock, extract the trapped arm, and recover toward mount bottom or half guard.**
 
 The bridge defense from mounted triangle is a critical survival technique for escaping one of Brazilian Jiu-Jitsu's most dangerous hybrid positions. When caught in a mounted triangle, the bottom player faces simultaneous threats from triangle choke, armbar transitions, and positional advancement to back control. The bridge defense exploits a fundamental vulnerability in the mounted triangle configuration: the attacker's commitment to triangle mechanics necessarily compromises their mount stability, as the asymmetric leg positioning reduces the base width available for absorbing upward force.
 
@@ -225,5 +262,7 @@ The bridge defense from mounted triangle occupies a critical niche within the de
 
 
 </section>
+
+
 
 </main>

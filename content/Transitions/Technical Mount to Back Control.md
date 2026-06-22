@@ -10,6 +10,41 @@ description: "Master the Technical Mount to Back Control transition in BJJ. Step
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Technical Mount to Back Control",
+  "description": "Master the Technical Mount to Back Control transition in BJJ. Step-by-step guide covering back takes, hook insertion, seatbelt control, and defensive counters.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Technical Mount to Back Control", "item": "https://bjjgraph.org/Transitions/Technical-Mount-to-Back-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Technical Mount to Back Control",
+  "description": "Technical Mount to Back Control is a high-percentage positional advance where the top player follows the opponent's defensive turn away from the armbar threat, converting the stepped-leg configuration into back hooks and a seatbelt grip to secure full back control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Technical Mount to Back Control transition in BJJ. Step
 </div>
 
 <section id="overview" class="content-section">
+
+**Technical Mount to Back Control is a high-percentage positional advance where the top player follows the opponent's defensive turn away from the armbar threat, converting the stepped-leg configuration into back hooks and a seatbelt grip to secure full back control.**
 
 The Technical Mount to Back Control transition is one of the highest-percentage positional advancements in Brazilian Jiu-Jitsu, capitalizing on the fundamental defensive dilemma created by Technical Mount. When the bottom player turns away to escape the armbar threat inherent in the stepped-leg configuration, they expose their back, creating a natural pathway for the top player to follow the rotation and establish full back control with hooks and seatbelt grip. This transition transforms the opponent's defensive instinct into a positional upgrade, making it a cornerstone of systematic mount offense.
 
@@ -222,5 +259,7 @@ The Technical Mount to Back Control transition sits at the critical junction bet
 
 
 </section>
+
+
 
 </main>

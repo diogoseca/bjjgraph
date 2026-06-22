@@ -10,6 +10,41 @@ description: "Master the inverted lasso to lasso guard transition. Step-by-step 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Inverted Lasso to Lasso Guard",
+  "description": "Master the inverted lasso to lasso guard transition. Step-by-step guide covering grip maintenance, hip mechanics, and safe recovery to upright guard control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Inverted Lasso to Lasso Guard", "item": "https://bjjgraph.org/Transitions/Inverted-Lasso-to-Lasso-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Inverted Lasso to Lasso Guard",
+  "description": "Inverted Lasso to Lasso Guard is a gi guard-recovery transition where the bottom player rolls from the inverted lasso back to upright standard lasso guard, preserving the shin hook and sleeve grip to reset into fresh sweep and submission angles.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the inverted lasso to lasso guard transition. Step-by-step 
 </div>
 
 <section id="overview" class="content-section">
+
+**Inverted Lasso to Lasso Guard is a gi guard-recovery transition where the bottom player rolls from the inverted lasso back to upright standard lasso guard, preserving the shin hook and sleeve grip to reset into fresh sweep and submission angles.**
 
 The Inverted Lasso to Lasso Guard transition is a fundamental recovery technique within the lasso guard system, allowing the bottom player to return from an energy-intensive inverted position to the more sustainable standard lasso guard. This transition occurs when the inverted position has not yielded an immediate attack opportunity, when the opponent is defending inversions effectively, or when the bottom player needs to conserve energy while maintaining offensive pressure. The ability to fluidly move between inverted and upright lasso guard is what separates advanced lasso guard players from those who treat each position as isolated.
 
@@ -220,5 +257,7 @@ The Inverted Lasso to Lasso Guard transition is a critical link in the modern la
 
 
 </section>
+
+
 
 </main>

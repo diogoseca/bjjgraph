@@ -10,9 +10,48 @@ description: "Master Reverse Mount position in BJJ. Strategic guide covering tra
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Reverse Mount",
+  "description": "Master Reverse Mount position in BJJ. Strategic guide covering transitional control mechanics, conversion to mount and back control, with complete perspective analysis.",
+  "disambiguatingDescription": "Often confused with Mount \u2014 Mount faces toward your opponent, not away.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Reverse Mount", "item": "https://bjjgraph.org/Positions/Reverse-Mount" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Reverse Mount",
+  "description": "Reverse Mount is a transitional dominant top position—scored as mount (4 points) under IBJJF—where you sit on the opponent's torso facing their feet, trading head control and visibility for fast conversions to standard mount or back control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Positions/Mount|Mount]]</strong> — Mount faces toward your opponent, not away</p>
+</aside>
 <div class="role-links">
 
 [[Reverse Mount/Bottom|Play as Bottom]]
@@ -22,7 +61,9 @@ description: "Master Reverse Mount position in BJJ. Strategic guide covering tra
 
 <section id="overview" class="content-section">
 
-Reverse Mount is a transitional dominant position where the practitioner sits on the opponent's torso while facing away from their head, essentially mounted in the opposite direction from standard mount. This position scores 4 points (same as standard mount in IBJJF) but possesses fundamentally different control dynamics and sustainability characteristics due to its backward orientation.
+**Reverse Mount is a transitional dominant top position—scored as mount (4 points) under IBJJF—where you sit on the opponent's torso facing their feet, trading head control and visibility for fast conversions to standard mount or back control.**
+
+Most practitioners stumble into reverse mount by accident—during a scramble, a stalled back-take, or the moment an opponent spins away beneath a standard mount—rather than seeking it deliberately. Though it scores the same 4 points as standard mount under IBJJF rules, the backward orientation produces fundamentally different control dynamics and sustainability characteristics.
 
 The defining characteristic of reverse mount is the inverted positioning: the top practitioner's back faces the opponent's head while sitting on their chest or abdomen. This creates unique challenges - no head control, inability to see opponent's face for reaction cues, and different weight distribution requirements. However, it also creates opportunities for specific submissions and serves as an excellent transitional platform to standard mount or back control.
 
@@ -177,21 +218,11 @@ The position's moderate risk level reflects its transitional nature - dominant e
 ### Available Transitions
 
 
-- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (43% of attempts)
+- **[[Transitions/Reverse Mount to Mount/Attacker|Reverse Mount to Mount]]** (48% of attempts)
 
-- **[[Transitions/Back Take/Attacker|Back Take]]** (26% of attempts)
+- **[[Transitions/Reverse Mount to Side Control/Attacker|Reverse Mount to Side Control]]** (27% of attempts)
 
-- **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** (12% of attempts)
-
-- **[[Transitions/Turtle to Truck/Attacker|Turtle to Truck]]** (7% of attempts)
-
-- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (7% of attempts)
-
-- **[[Transitions/Reverse Mount to Mount/Attacker|Reverse Mount to Mount]]** (3% of attempts)
-
-- **[[Transitions/Reverse Mount to Side Control/Attacker|Reverse Mount to Side Control]]** (1% of attempts)
-
-- **[[Transitions/Armbar from Reverse Mount/Attacker|Armbar from Reverse Mount]]** (1% of attempts)
+- **[[Transitions/Armbar from Reverse Mount/Attacker|Armbar from Reverse Mount]]** (25% of attempts)
 
 
 ### Common Mistakes
@@ -250,5 +281,7 @@ The position's moderate risk level reflects its transitional nature - dominant e
 
 
 </section>
+
+
 
 </main>

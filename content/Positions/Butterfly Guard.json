@@ -2,8 +2,9 @@
   "name": "Butterfly Guard",
   "slug": "butterfly-guard",
   "description": "Master Butterfly Guard in BJJ. Dynamic open guard with powerful sweeps, back takes, and leg entanglement entries. Beginner 50%, Intermediate 65%, Advanced 80%.",
+  "summary": "Butterfly Guard is a dynamic open guard where the seated bottom player inserts both feet as active elevation hooks inside the opponent's thighs, generating leverage for explosive sweeps, back takes, and leg-entanglement entries while threatening constant off-balancing.",
   "variant_uniqueness": "Explosive elevation over defensive stability",
-  "overview": "Butterfly Guard is a dynamic open guard variation where the bottom player inserts hooks (feet) under the opponent's thighs while sitting up, creating powerful leverage for sweeps and upper body control. This position allows for explosive elevation of the opponent and offers exceptional offensive options while maintaining defensive capabilities. Butterfly Guard serves as both a powerful position in its own right and as a connector between various guard configurations.\n\nThe position derives its name from the appearance of the legs with knees flared outward like butterfly wings. It is particularly effective against opponents in combat base or on their knees, where the hooks can generate maximum elevation. The butterfly guard practitioner maintains an upright seated posture, using grips and upper body control to manipulate the opponent's balance while the hooks create lifting power from below. This combination of upper body control and lower body elevation makes butterfly guard one of the most dynamic sweeping platforms in Brazilian Jiu-Jitsu, favored by competitors who excel at aggressive, offensive guard play.\n\nBiomechanically, butterfly guard operates on the principle of inside position and mechanical advantage through elevation. The hooks create a fulcrum point directly under the opponent's center of mass, allowing the guard player to generate significant lifting force with minimal energy expenditure. When combined with proper upper body control through collar grips, sleeve grips, or underhooks, this creates a powerful system for off-balancing and sweeping opponents. The seated posture provides mobility and reaction capability while maintaining constant pressure through the hooks, keeping opponents defensive and preventing them from establishing dominant passing grips or posture.\n\nModern butterfly guard has evolved significantly, particularly in no-gi grappling where the absence of gi grips requires adaptations in control strategies. Contemporary practitioners emphasize the integration of butterfly guard with leg entanglement systems, using it as an entry point to X-Guard, Single Leg X-Guard, and ashi garami positions. The position has also become central to many competition strategies as a counter to modern pressure passing, where the hooks and seated posture provide excellent defensive retention capabilities while maintaining offensive threat.",
+  "overview": "Butterfly Guard is one of the most dynamic and versatile open guards in Brazilian Jiu-Jitsu, prized by aggressive bottom players who attack rather than merely survive from underneath. This position allows for explosive elevation of the opponent and offers exceptional offensive options while maintaining defensive capabilities. Butterfly Guard serves as both a powerful position in its own right and as a connector between various guard configurations.\n\nThe position derives its name from the appearance of the legs with knees flared outward like butterfly wings. It is particularly effective against opponents in combat base or on their knees, where the hooks can generate maximum elevation. The butterfly guard practitioner maintains an upright seated posture, using grips and upper body control to manipulate the opponent's balance while the hooks create lifting power from below. This combination of upper body control and lower body elevation makes butterfly guard one of the most dynamic sweeping platforms in Brazilian Jiu-Jitsu, favored by competitors who excel at aggressive, offensive guard play.\n\nBiomechanically, butterfly guard operates on the principle of inside position and mechanical advantage through elevation. The hooks create a fulcrum point directly under the opponent's center of mass, allowing the guard player to generate significant lifting force with minimal energy expenditure. When combined with proper upper body control through collar grips, sleeve grips, or underhooks, this creates a powerful system for off-balancing and sweeping opponents. The seated posture provides mobility and reaction capability while maintaining constant pressure through the hooks, keeping opponents defensive and preventing them from establishing dominant passing grips or posture.\n\nModern butterfly guard has evolved significantly, particularly in no-gi grappling where the absence of gi grips requires adaptations in control strategies. Contemporary practitioners emphasize the integration of butterfly guard with leg entanglement systems, using it as an entry point to X-Guard, Single Leg X-Guard, and ashi garami positions. The position has also become central to many competition strategies as a counter to modern pressure passing, where the hooks and seated posture provide excellent defensive retention capabilities while maintaining offensive threat.",
   "key_principles": [
     "Maintain active elevator pressure through hooks to compromise opponent's base constantly",
     "Control inside space and prevent opponent from establishing outside control or distance",
@@ -353,23 +354,23 @@
     "transitions": [
       {
         "transition": "Butterfly Sweep",
-        "attempt_probability": 39
+        "attempt_probability": 36
       },
       {
         "transition": "Elevator Sweep",
-        "attempt_probability": 7
+        "attempt_probability": 6
       },
       {
         "transition": "Arm Drag to Back",
-        "attempt_probability": 11
+        "attempt_probability": 10
       },
       {
         "transition": "Butterfly Guard to X-Guard",
-        "attempt_probability": 7
+        "attempt_probability": 6
       },
       {
         "transition": "Guillotine Choke from Butterfly Guard",
-        "attempt_probability": 7
+        "attempt_probability": 6
       },
       {
         "transition": "Sumi Gaeshi",
@@ -410,6 +411,10 @@
       {
         "transition": "Aoki Lock",
         "attempt_probability": 1
+      },
+      {
+        "transition": "Butterfly Guard to Williams Guard",
+        "attempt_probability": 7
       }
     ],
     "decision_tree": [

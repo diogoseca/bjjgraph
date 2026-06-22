@@ -226,7 +226,7 @@ Defensively, the top practitioner must be aware that committing fully to a kneeb
 
 
 **If opponent maintains bent knee and creates strong defensive frames against finish:**
-- Execute **[[Transitions/Knee Cut Pass/Attacker|Knee Cut Pass]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Cut Pass]]** → [[Positions/Side Control]] (Probability: 70%)
 - Execute **[[Transitions/Half Guard Pass/Attacker|Half Guard Pass]]** → [[Positions/Side Control]] (Probability: 65%)
 
 
@@ -242,7 +242,7 @@ Defensively, the top practitioner must be aware that committing fully to a kneeb
 
 **If opponent attempts explosive bridge or reversal during finish commitment:**
 - Execute **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** → [[Positions/North-South]] (Probability: 65%)
-- Execute **[[Transitions/Knee Cut Pass/Attacker|Knee Cut Pass]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Cut Pass]]** → [[Positions/Side Control]] (Probability: 70%)
 
 
 
@@ -359,10 +359,22 @@ Start with practitioner in top kneebar control against defending opponent. Attac
 - **[[Positions/Side Control]]** - Positional advancement when kneebar finish is defended
 - **[[Positions/Turtle]]** - Defensive position where top kneebar entries frequently occur
 - **[[Positions/North-South]]** - Alternative top position accessible when transitioning from kneebar control
-- **[[Transitions/Knee Cut Pass]]** - Passing technique used to advance when kneebar is defended
+- **[[Transitions/Knee Slice Pass]]** - Passing technique used to advance when kneebar is defended
 - **[[Positions/Straight Ankle Lock Control]]** - Alternative leg attack when kneebar angle is unavailable
 - **[[Positions/Mount]]** - Dominant position accessible through positional advancement from kneebar control
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Danaher-Leg-Lock-System" data-cta="related-system-card" data-system-slug="systems/danaher-leg-lock-system" data-system-name="Danaher Leg Lock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Danaher Leg Lock System</span><span class="system-card__unlocks-badge">Unlocks 30 techniques</span><span class="system-card__blurb">Alternative lower body control accessible from ashi-garami positions</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Straight-Footlock-to-Kneebar-Chain" data-cta="related-system-card" data-system-slug="systems/straight-footlock-to-kneebar-chain" data-system-name="Straight Footlock to Kneebar Chain" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Straight Footlock to Kneebar Chain</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Finishing position for kneebar component of chain</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/B-Team-Dilemma-System" data-cta="related-system-card" data-system-slug="systems/b-team-dilemma-system" data-system-name="B-Team Dilemma System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">B-Team Dilemma System</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Alternative submission threat from ashi positions creating additional dilemma branches</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

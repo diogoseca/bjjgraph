@@ -10,6 +10,41 @@ description: "Master the Scissor Sweep from Closed Guard in BJJ. Complete guide 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Scissor Sweep",
+  "description": "Master the Scissor Sweep from Closed Guard in BJJ. Complete guide with step-by-step execution, defense strategies, and systematic integration for sweeping to Mount.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Scissor Sweep", "item": "https://bjjgraph.org/Transitions/Scissor-Sweep" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Scissor Sweep",
+  "description": "The Scissor Sweep is a fundamental closed-guard reversal where the bottom player breaks posture, angles off, and scissors the legs—one shin driving the hips back, the other knee chopping behind the shoulder—to topple the opponent into Mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,14 +57,16 @@ description: "Master the Scissor Sweep from Closed Guard in BJJ. Complete guide 
 
 <section id="overview" class="content-section">
 
-The Scissor Sweep is one of the most fundamental and high-percentage sweeps in Brazilian Jiu-Jitsu, executed from closed guard. This classical technique exploits an opponent's weight distribution and posture by using a scissoring leg motion combined with upper body control to reverse positions. The sweep derives its power from the biomechanical advantage created when one leg pushes while the other pulls, creating a lever system that off-balances even larger, stronger opponents.
+**The Scissor Sweep is a fundamental closed-guard reversal where the bottom player breaks posture, angles off, and scissors the legs—one shin driving the hips back, the other knee chopping behind the shoulder—to topple the opponent into Mount.**
+
+Among the first sweeps every practitioner learns, the Scissor Sweep endures into advanced competition because it converts an opponent's forward posture into a clean reversal through leverage rather than strength. This classical closed-guard technique exploits an opponent's weight distribution and posture by using a scissoring leg motion combined with upper body control to reverse positions. The sweep derives its power from the biomechanical advantage created when one leg pushes while the other pulls, creating a lever system that off-balances even larger, stronger opponents.
 
 What makes the Scissor Sweep particularly effective is its reliance on timing and leverage rather than raw strength. When executed properly, the technique uses the opponent's own weight and forward pressure against them, making it accessible to practitioners of all sizes. The sweep creates a direct path to mount position, one of the most dominant positions in BJJ, making it both a fundamental technique for beginners and a reliable option for advanced competitors.
 
 The Scissor Sweep integrates seamlessly into the closed guard attack system, working in combination with other sweeps like the Hip Bump and Pendulum Sweep. When opponents defend one sweep, they often create the opening for another, establishing a systematic approach to attacking from guard. Mastering this technique provides practitioners with a cornerstone skill that remains effective throughout their BJJ journey.
 
 **From Position**: [[Positions/Closed Guard]] (Bottom)
-**Success Rate**: 75%
+**Success Rate**: 55%
 
 </section>
 
@@ -39,9 +76,9 @@ The Scissor Sweep integrates seamlessly into the closed guard attack system, wor
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Mount]] | 75% |
-| Failure | [[Positions/Closed Guard]] | 15% |
-| Counter | [[Positions/Closed Guard]] | 10% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Closed Guard]] | 30% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -214,6 +251,16 @@ The Scissor Sweep serves as a cornerstone technique within the closed guard atta
 
 - [[Transitions/Pass to Side Control]] - Opponent's objective - technique prevents their passing attempts and reverses position
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Dynamic-Guard-System" data-cta="related-system-card" data-system-slug="systems/dynamic-guard-system" data-system-name="Dynamic Guard System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Dynamic Guard System</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Classic sweep integrated into guard switching sequences</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

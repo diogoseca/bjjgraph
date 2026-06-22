@@ -10,6 +10,41 @@ description: "Master Deep Half Guard in BJJ. Strategic guide covering sweeps, ba
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Deep Half Guard",
+  "description": "Master Deep Half Guard in BJJ. Strategic guide covering sweeps, back takes, and defensive counters with complete bottom and top perspective analysis.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Deep Half Guard", "item": "https://bjjgraph.org/Positions/Deep-Half-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Deep Half Guard",
+  "description": "Deep Half Guard is a bottom half-guard position where the player burrows their shoulder and head beneath the opponent's hips with a deep underhook on the far leg, turning the top player's own weight into leverage for sweeps and back takes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master Deep Half Guard in BJJ. Strategic guide covering sweeps, ba
 
 <section id="overview" class="content-section">
 
-Deep Half Guard is an advanced guard position where the bottom player positions themselves underneath one of the opponent's legs, creating a powerful leverage point for sweeps and back takes. Unlike traditional half guard where the opponent's leg is trapped between the bottom player's legs, deep half involves the bottom player getting their entire upper body underneath the opponent's center of gravity, often with the shoulder positioned at the opponent's far hip. This position offers exceptional sweeping leverage and is particularly effective for smaller practitioners against larger opponents.
+**Deep Half Guard is a bottom half-guard position where the player burrows their shoulder and head beneath the opponent's hips with a deep underhook on the far leg, turning the top player's own weight into leverage for sweeps and back takes.**
+
+Among half guard variations, deep half guard inverts the usual top-bottom dynamic by sending the bottom player beneath the opponent's base rather than fighting for distance, a leverage-first approach that made it a competitive staple for smaller grapplers. Unlike traditional half guard where the opponent's leg is trapped between the bottom player's legs, deep half involves the bottom player getting their entire upper body underneath the opponent's center of gravity, often with the shoulder positioned at the opponent's far hip. This position offers exceptional sweeping leverage and is particularly effective for smaller practitioners against larger opponents.
 
 The deep half guard represents a fundamental shift in guard philosophy, moving from traditional frames and distance management to an inverted leverage-based approach. By positioning underneath the opponent's center of gravity, the bottom player gains mechanical advantage that transcends size and strength differences. The position is characterized by extreme proximity and connection, with the bottom player using their entire body as a lever to disrupt the opponent's base. This creates opportunities for powerful sweeps that can lead directly to dominant positions or back control.
 
@@ -100,27 +137,29 @@ From the top perspective, deep half guard presents a deceptive challenge - while
 ### Available Transitions
 
 
-- **[[Transitions/Waiter Sweep/Attacker|Waiter Sweep]]** (14% of attempts)
+- **[[Transitions/Waiter Sweep/Attacker|Waiter Sweep]]** (12% of attempts)
 
-- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (41% of attempts)
+- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (39% of attempts)
 
-- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (11% of attempts)
+- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (9% of attempts)
 
-- **[[Positions/Half Guard/Electric Chair/Attacker|Electric Chair]]** (6% of attempts)
+- **[[Electric Chair from Deep Half Guard/Attacker|Electric Chair from Deep Half Guard]]** (6% of attempts)
 
-- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (9% of attempts)
+- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (8% of attempts)
 
-- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (10% of attempts)
+- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (9% of attempts)
 
 - **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (6% of attempts)
 
 - **[[Transitions/Deep Half Sweep/Attacker|Deep Half Sweep]]** (2% of attempts)
 
-- **[[Transitions/Deep Half to X-Guard/Attacker|Deep Half to X-Guard]]** (0% of attempts)
+- **[[Transitions/Deep Half to X-Guard/Attacker|Deep Half to X-Guard]]** (2% of attempts)
 
-- **[[Transitions/Electric Chair Entry from Deep Half/Attacker|Electric Chair Entry from Deep Half]]** (0% of attempts)
+- **[[Transitions/Electric Chair Entry from Deep Half/Attacker|Electric Chair Entry from Deep Half]]** (2% of attempts)
 
-- **[[Transitions/Homer Simpson Sweep/Attacker|Homer Simpson Sweep]]** (1% of attempts)
+- **[[Transitions/Homer Simpson Sweep/Attacker|Homer Simpson Sweep]]** (2% of attempts)
+
+- **[[Positions/Half Guard/Electric Chair/Attacker|Electric Chair]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -250,6 +289,22 @@ From the top perspective, deep half guard presents a deceptive challenge - while
 
 - **[[Positions/Turtle]]** - Recovery position when deep half is countered
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Bernardo-Faria-Pressure-System" data-cta="related-system-card" data-system-slug="systems/bernardo-faria-pressure-system" data-system-name="Bernardo Faria Pressure System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Bernardo Faria Pressure System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Defensive position requiring specific escape and passing protocols</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/No-Gi-Tactical-Framework" data-cta="related-system-card" data-system-slug="systems/no-gi-tactical-framework" data-system-name="No-Gi Tactical Framework" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">No-Gi Tactical Framework</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">No-gi guard variation using body positioning over fabric grips</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Andrew-Wiltse-Half-Guard-System" data-cta="related-system-card" data-system-slug="systems/andrew-wiltse-half-guard-system" data-system-name="Andrew Wiltse Half Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Andrew Wiltse Half Guard System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Alternative variation accessed when knee shield is compromised</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Lockdown-to-Electric-Chair-System" data-cta="related-system-card" data-system-slug="systems/lockdown-to-electric-chair-system" data-system-name="Lockdown to Electric Chair System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Lockdown to Electric Chair System</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Alternative half guard system that complements lockdown approaches</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Marcelo-Garcia-X-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-x-guard-system" data-system-name="Marcelo Garcia X-Guard System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Marcelo Garcia X-Guard System</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Recovery position when X-Guard hooks are being stripped</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/10th-Planet-Half-Guard-Bottom-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-half-guard-bottom-system" data-system-name="10th Planet Half Guard Bottom System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">10th Planet Half Guard Bottom System</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Alternative bottom half guard position integrated for defensive transitions and additional sweep options</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Marcelo-Garcia-Butterfly-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-butterfly-guard-system" data-system-name="Marcelo Garcia Butterfly Guard System" data-member-count="18"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Marcelo Garcia Butterfly Guard System</span><span class="system-card__unlocks-badge">Unlocks 18 techniques</span><span class="system-card__blurb">Alternative bottom position when butterfly becomes ineffective</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

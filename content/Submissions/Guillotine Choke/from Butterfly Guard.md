@@ -10,10 +10,55 @@ description: "Master the Guillotine Choke from Butterfly Guard. Learn hook eleva
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Guillotine Choke from Butterfly Guard targets the Carotid arteries and windpipe. Risk: Trachea damage or crush injury. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Guillotine Choke from Butterfly Guard",
+  "description": "Master the Guillotine Choke from Butterfly Guard. Learn hook elevation setups, grip mechanics, and finishing details for this high-percentage blood choke.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Guillotine Choke from Butterfly Guard", "item": "https://bjjgraph.org/Submissions/Guillotine-Choke-from-Butterfly-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Guillotine Choke from Butterfly Guard",
+  "description": "The Guillotine Choke from Butterfly Guard is a front-headlock blood choke launched from seated bottom, where active butterfly hooks drive the opponent's head down and elevate their hips to stretch the torso while the choking arm compresses both carotid arteries.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Guillotine Choke from Butterfly Guard is a front-headlock blood choke launched from seated bottom, where active butterfly hooks drive the opponent's head down and elevate their hips to stretch the torso while the choking arm compresses both carotid arteries.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries and windpipe</span>
+<span class="meta-chip">62% success</span>
+</div>
+
+> [!danger] Safety
+> Guillotine Choke from Butterfly Guard targets the Carotid arteries and windpipe. Primary risk: Trachea damage or crush injury. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,53 +75,7 @@ What distinguishes this variant from standing or closed guard guillotines is the
 
 Strategically, the butterfly guillotine serves as a critical deterrent against aggressive passing. Opponents who lean forward into butterfly guard or attempt to flatten the guard player expose themselves to snap-down entries and front headlock transitions that lead directly to the choke. This creates a dilemma where the passer must respect the guillotine threat, which in turn opens up sweeping opportunities. Elite grapplers use this dynamic interplay between sweep and submission to control the pace of engagement from butterfly guard bottom.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries and windpipe
-**Starting Position**: [[Positions/Butterfly Guard]]
-**From Position**: [[Positions/Butterfly Guard]] (Bottom)
-**Success Rate**: 62%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Trachea damage or crush injury | CRITICAL | 2-8 weeks with potential permanent damage |
-| Neck hyperextension injury | High | 1-4 weeks |
-| Cervical spine strain | Medium | 7-14 days |
-| Unconsciousness from blood choke | High | Immediate recovery but requires medical monitoring |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum application time. Never snap or jerk the submission
-
-**Tap Signals**:
-- Verbal tap or any vocal sound
-- Physical hand tap on opponent or mat
-- Physical foot tap on mat
-- Any distress signal or loss of resistance
-
-
-**Release Protocol**:
-1. Immediately release choking arm pressure
-2. Remove arm from around opponent's neck
-3. Help opponent to seated position if unconscious
-4. Monitor breathing and consciousness
-5. Call for medical assistance if partner does not immediately recover
-
-
-**Training Restrictions**:
-- Never use competition speed in training
-- Always allow clear tap access for both arms
-- Stop immediately at any sign of distress
-- Avoid cranking or using neck hyperextension as a finishing mechanic
-- Never practice on training partners with existing neck injuries
-
+**Starting Position**: [[Positions/Butterfly Guard]] · **From**: [[Positions/Butterfly Guard]] (Bottom)
 
 </section>
 
@@ -237,10 +236,9 @@ Strategically, the butterfly guillotine serves as a critical deterrent against a
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Transitions/Guillotine Choke]]
 - [[Submissions/High Elbow Guillotine]]
 - [[Submissions/Arm in Guillotine]]
@@ -250,31 +248,55 @@ Strategically, the butterfly guillotine serves as a critical deterrent against a
 - [[Submissions/Japanese Necktie]]
 - [[Submissions/Von Flue Choke]]
 - [[Transitions/Gogoplata]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Butterfly Guard]] - Primary starting position providing hook elevation for setup and finish
 - [[Positions/Guillotine Control]] - Control position established when guillotine grip is secured before finishing
 - [[Positions/Front Headlock]] - Related upper body control position sharing similar head and neck mechanics
 - [[Positions/Closed Guard]] - Position where defender may end up after successfully countering the guillotine attempt
 - [[Positions/Butterfly Guard/Half Butterfly]] - Alternative starting position where guillotine can be attempted with one active hook
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Trachea damage or crush injury | CRITICAL | 2-8 weeks with potential permanent damage |
+| Neck hyperextension injury | High | 1-4 weeks |
+| Cervical spine strain | Medium | 7-14 days |
+| Unconsciousness from blood choke | High | Immediate recovery but requires medical monitoring |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum application time. Never snap or jerk the submission
+
+**Tap Signals**:
+- Verbal tap or any vocal sound
+- Physical hand tap on opponent or mat
+- Physical foot tap on mat
+- Any distress signal or loss of resistance
+
+
+**Release Protocol**:
+1. Immediately release choking arm pressure
+2. Remove arm from around opponent's neck
+3. Help opponent to seated position if unconscious
+4. Monitor breathing and consciousness
+5. Call for medical assistance if partner does not immediately recover
+
+
+**Training Restrictions**:
+- Never use competition speed in training
+- Always allow clear tap access for both arms
+- Stop immediately at any sign of distress
+- Avoid cranking or using neck hyperextension as a finishing mechanic
+- Never practice on training partners with existing neck injuries
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Guillotine Choke from Butterfly Guard leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

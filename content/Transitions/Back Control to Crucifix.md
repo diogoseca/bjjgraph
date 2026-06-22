@@ -10,6 +10,41 @@ description: "Learn Back Control to Crucifix in BJJ. Step-by-step execution from
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Back Control to Crucifix",
+  "description": "Learn Back Control to Crucifix in BJJ. Step-by-step execution from back mount to crucifix control with arm trapping mechanics and submissions.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Back Control to Crucifix", "item": "https://bjjgraph.org/Transitions/Back-Control-to-Crucifix" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Back Control to Crucifix",
+  "description": "Back Control to Crucifix is a back-attack transition where you trap the opponent's near arm with your shin and capture the far arm under your armpit, converting rear mount into the dual-arm-isolating crucifix for higher-percentage finishes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Learn Back Control to Crucifix in BJJ. Step-by-step execution from
 </div>
 
 <section id="overview" class="content-section">
+
+**Back Control to Crucifix is a back-attack transition where you trap the opponent's near arm with your shin and capture the far arm under your armpit, converting rear mount into the dual-arm-isolating crucifix for higher-percentage finishes.**
 
 The Back Control to Crucifix transition represents a critical advancement in back attack systems, converting standard rear mount dominance into an even more controlling and submission-rich position. This transition capitalizes on the opponent's defensive hand fighting and arm positioning, transforming their defensive frames into liabilities. When executed properly, the crucifix provides superior control over both of the opponent's arms while maintaining back exposure, creating a near-inescapable submission platform.
 
@@ -221,8 +258,6 @@ The back control to crucifix transition occupies a critical position in modern b
 
 - [[Submissions/Rear Naked Choke]] - Choke threat that creates defensive reaction enabling transition
 
-- [[Positions/Twister Control/Truck]] - Alternative dual-arm control system with different leg mechanics
-
 - [[Positions/Crab Ride]] - Related back attack control position with different entry angles
 
 - [[Transitions/Back Take]] - Prerequisite back taking ability needed before advancing to crucifix
@@ -231,5 +266,7 @@ The back control to crucifix transition occupies a critical position in modern b
 
 
 </section>
+
+
 
 </main>

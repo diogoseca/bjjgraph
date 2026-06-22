@@ -10,10 +10,55 @@ description: "Master the kneebar from inside ashi-garami. Learn hip positioning,
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Kneebar from Inside Ashi-Garami targets the Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule). Risk: Posterior cruciate ligament (PCL) tear. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kneebar from Inside Ashi-Garami",
+  "description": "Master the kneebar from inside ashi-garami. Learn hip positioning, foot control mechanics, and progressive finishing techniques for this powerful leg lock.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Kneebar from Inside Ashi-Garami", "item": "https://bjjgraph.org/Submissions/Kneebar-from-Inside-Ashi-Garami" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kneebar from Inside Ashi-Garami",
+  "description": "The kneebar from inside ashi-garami is a leg lock that hyperextends the opponent's knee by trapping their foot against your chest and driving your hips over their knee line while your inside leg pins their hip.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The kneebar from inside ashi-garami is a leg lock that hyperextends the opponent's knee by trapping their foot against your chest and driving your hips over their knee line while your inside leg pins their hip.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Leg Lock</span>
+<span class="meta-chip">Targets Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule)</span>
+<span class="meta-chip">60% success</span>
+</div>
+
+> [!danger] Safety
+> Kneebar from Inside Ashi-Garami targets the Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule). Primary risk: Posterior cruciate ligament (PCL) tear. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -24,59 +69,13 @@ description: "Master the kneebar from inside ashi-garami. Learn hip positioning,
 
 <section id="overview" class="content-section">
 
-The kneebar from inside ashi-garami is a high-percentage leg lock that hyperextends the opponent's knee by positioning your hips over their knee line and driving extension force against the natural bending direction of the joint. Inside ashi-garami provides a direct pathway to the kneebar when the opponent extends their trapped leg to create distance or attempts to stand, exposing the knee joint to attack. The position's inherent control over the opponent's lower leg through the inside leg across the hip and outside leg hooking behind the knee creates the structural foundation for transitioning to the kneebar finish without releasing control at any point during the sequence.
+Inside ashi-garami offers one of the most reliable pathways to the kneebar because the opponent's own escape attempts hand you the finish: when they extend their trapped leg to create distance or scramble to stand, they straighten the knee and expose the joint to a hyperextension attack. The existing control over their lower leg, with the inside leg across the near hip and the outside leg hooking behind the knee, gives you the structural foundation to transition into the kneebar without ever releasing the entanglement. Because the breaking force comes from driving extension against the knee's natural bending direction rather than from grip strength, the finish is both powerful and energy-efficient once your hips are seated over the knee line.
 
 Unlike kneebars attempted from other entanglements, the inside ashi-garami entry allows the attacker to maintain continuous leg control throughout the entire transition. The attacker pivots their hips over the opponent's knee while keeping the foot trapped against their torso, creating a fulcrum point at the knee joint. This configuration generates tremendous hyperextension pressure through hip extension rather than arm strength, making the finish both powerful and energy-efficient. The inside leg position across the opponent's hip serves double duty: controlling distance during the ashi position and then becoming the primary wedge that prevents the opponent from retracting their knee during kneebar application.
 
 Competition data shows the kneebar from inside ashi-garami succeeds at approximately 60% when properly secured, with the primary defensive response being foot extraction before full hip engagement. Training this technique requires strict adherence to progressive pressure application and immediate release upon tap, as the hyperextension mechanism can damage the posterior cruciate ligament and surrounding knee structures with minimal warning to the defender.
 
-**Category**: Joint Lock
-**Type**: Leg Lock
-**Target Area**: Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule)
-**Starting Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]]
-**From Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Top)
-**Success Rate**: 60%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Posterior cruciate ligament (PCL) tear | High | 6-12 months with surgical intervention |
-| Medial collateral ligament (MCL) strain or tear | Medium | 4-8 weeks for grade 1-2, 3-6 months for grade 3 |
-| Joint capsule damage | Medium | 6-12 weeks |
-| Meniscus tear (medial or lateral) | High | 3-6 months, may require surgery |
-
-
-**Application Speed**: SLOW and progressive - minimum 3-5 seconds from initial pressure to finish in training
-
-**Tap Signals**:
-- Verbal tap or verbal signal
-- Physical hand tap on opponent or mat
-- Physical foot tap on opponent or mat
-- Any distress vocalization or signal
-
-
-**Release Protocol**:
-1. Immediately stop all hip extension the moment tap is received
-2. Release hip pressure by dropping hips away from opponent's leg
-3. Maintain positional control while releasing the leg slowly
-4. Allow opponent to extract their leg at their own pace
-5. Check with partner verbally after release
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - always apply smooth, progressive pressure
-- Never use competition speed or intensity in training rolls
-- Always communicate with training partners about leg lock experience level
-- Never continue pressure after any tap signal
-- Avoid training kneebars with partners who have pre-existing knee injuries without explicit permission
-
+**Starting Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] · **From**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Top)
 
 </section>
 
@@ -236,40 +235,63 @@ Competition data shows the kneebar from inside ashi-garami succeeds at approxima
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Transitions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
 - [[Submissions/Calf Slicer]]
 - [[Submissions/Flying Kneebar]]
 - [[Submissions/Achilles Lock]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Starting position providing leg control foundation for the kneebar entry
 - [[Positions/Kneebar Control]] - Finishing position where the kneebar is completed after hip engagement
 - [[Positions/Ashi Garami/Saddle]] - Alternative advanced entanglement when kneebar defense exposes the heel
 - [[Positions/Ashi Garami/Honey Hole]] - Transitional option when opponent rotates knee inward to defend kneebar
 - [[Positions/Ashi Garami]] - Parent position family encompassing all ashi variations including kneebar entries
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Posterior cruciate ligament (PCL) tear | High | 6-12 months with surgical intervention |
+| Medial collateral ligament (MCL) strain or tear | Medium | 4-8 weeks for grade 1-2, 3-6 months for grade 3 |
+| Joint capsule damage | Medium | 6-12 weeks |
+| Meniscus tear (medial or lateral) | High | 3-6 months, may require surgery |
+
+
+**Application Speed**: SLOW and progressive - minimum 3-5 seconds from initial pressure to finish in training
+
+**Tap Signals**:
+- Verbal tap or verbal signal
+- Physical hand tap on opponent or mat
+- Physical foot tap on opponent or mat
+- Any distress vocalization or signal
+
+
+**Release Protocol**:
+1. Immediately stop all hip extension the moment tap is received
+2. Release hip pressure by dropping hips away from opponent's leg
+3. Maintain positional control while releasing the leg slowly
+4. Allow opponent to extract their leg at their own pace
+5. Check with partner verbally after release
+
+
+**Training Restrictions**:
+- Never spike or jerk the submission - always apply smooth, progressive pressure
+- Never use competition speed or intensity in training rolls
+- Always communicate with training partners about leg lock experience level
+- Never continue pressure after any tap signal
+- Avoid training kneebars with partners who have pre-existing knee injuries without explicit permission
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Kneebar from Inside Ashi-Garami leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

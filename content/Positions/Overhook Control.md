@@ -10,6 +10,41 @@ description: "Master overhook control (whizzer) in BJJ. Complete guide covering 
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Overhook Control",
+  "description": "Master overhook control (whizzer) in BJJ. Complete guide covering offensive attacks, defensive applications, and submission chains from this versatile wrestling control position.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Overhook Control", "item": "https://bjjgraph.org/Positions/Overhook-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Overhook Control",
+  "description": "Overhook Control, also called the whizzer, is a grappling position where you wrap your arm over the opponent's extended arm from above and seal your armpit over their shoulder, neutralizing that arm while opening submissions and back takes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master overhook control (whizzer) in BJJ. Complete guide covering 
 </div>
 
 <section id="overview" class="content-section">
+
+**Overhook Control, also called the whizzer, is a grappling position where you wrap your arm over the opponent's extended arm from above and seal your armpit over their shoulder, neutralizing that arm while opening submissions and back takes.**
 
 Overhook Control Position, also known as the whizzer in wrestling terminology, represents one of the most versatile control mechanisms in Brazilian Jiu-Jitsu and grappling. This control involves wrapping your arm over the opponent's extended arm from above, creating a vice-like connection with your armpit sealed tightly over their shoulder. The position appears across countless scenarios including standing clinch exchanges, turtle attacks, front headlock sequences, half guard battles, and as a fundamental counter to underhook attempts.
 
@@ -254,6 +291,17 @@ The dual nature of overhook control makes it equally valuable as both an offensi
 
 - **[[Positions/Overhook Guard]]** - Guard variation built around the overhook grip as the primary control mechanism
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Standing-Defense-Strategy" data-cta="related-system-card" data-system-slug="systems/standing-defense-strategy" data-system-name="Standing Defense Strategy" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Standing Defense Strategy</span><span class="system-card__unlocks-badge">Unlocks 27 techniques</span><span class="system-card__blurb">Standing control position used for grip fighting and preventing takedown setups</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Andrew-Wiltse-Half-Guard-System" data-cta="related-system-card" data-system-slug="systems/andrew-wiltse-half-guard-system" data-system-name="Andrew Wiltse Half Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Andrew Wiltse Half Guard System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Opponent&#x27;s counter-grip position in the underhook battle that determines offensive access from half guard</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

@@ -10,6 +10,41 @@ description: "Master Leg Entanglement positions in BJJ. Complete guide to ashi g
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Leg Entanglement",
+  "description": "Master Leg Entanglement positions in BJJ. Complete guide to ashi garami variants, saddle, 50-50, control mechanics, and systematic leg lock attacks with expert progressions.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Leg Entanglement", "item": "https://bjjgraph.org/Positions/Leg-Entanglement" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Leg Entanglement",
+  "description": "Leg Entanglement is a family of leg-control positions in Brazilian Jiu-Jitsu where one or both legs wrap, hook, or triangle an opponent's leg to isolate the ankle, knee, or hip and open systematic leg-lock attacks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Leg Entanglement positions in BJJ. Complete guide to ashi g
 </div>
 
 <section id="overview" class="content-section">
+
+**Leg Entanglement is a family of leg-control positions in Brazilian Jiu-Jitsu where one or both legs wrap, hook, or triangle an opponent's leg to isolate the ankle, knee, or hip and open systematic leg-lock attacks.**
 
 Leg Entanglement represents a comprehensive positional system in modern Brazilian Jiu-Jitsu where practitioners control and attack their opponent's lower body through various configurations of leg positioning and entanglement. These positions form the foundation of systematic leg lock attacking, characterized by superior control mechanics that isolate specific joints (ankle, knee, hip) while maintaining positional dominance or creating submission opportunities. The entanglement configurations involve legs wrapping, hooking, or triangling around the opponent's leg or legs, creating control structures that range from neutral exchanges (50-50) to dominant attacking positions (saddle, inside ashi). This positional family has revolutionized modern no-gi grappling, with systematic approaches transforming leg attacks from opportunistic submissions into a comprehensive positional hierarchy comparable to traditional upper body control positions. Success in leg entanglements requires understanding the biomechanical principles of joint isolation, recognizing the specific finishing mechanics for different leg locks, and maintaining proper positioning to prevent escapes or counters. The positions offer multiple pathways to finishing submissions (heel hooks, kneebar variations, ankle locks) while also providing transition opportunities to other dominant positions if the opponent defends successfully. The neutral nature of many entanglement positions means both practitioners can simultaneously threaten attacks, creating dynamic exchanges that reward systematic understanding and technical precision.
 
@@ -96,13 +133,23 @@ Leg Entanglement represents a comprehensive positional system in modern Brazilia
 ### Available Transitions
 
 
-- **[[Transitions/Leg Extraction Escape from Entanglement/Attacker|Leg Extraction Escape from Entanglement]]** (30% of attempts)
+- **[[Transitions/Leg Extraction Escape from Entanglement/Attacker|Leg Extraction Escape from Entanglement]]** (18% of attempts)
 
-- **[[Transitions/Guard Recovery from Leg Entanglement/Attacker|Guard Recovery from Leg Entanglement]]** (28% of attempts)
+- **[[Transitions/Guard Recovery from Leg Entanglement/Attacker|Guard Recovery from Leg Entanglement]]** (16% of attempts)
 
-- **[[Transitions/Inversion Escape from Leg Entanglement/Attacker|Inversion Escape from Leg Entanglement]]** (22% of attempts)
+- **[[Transitions/Counter Sweep from Leg Entanglement/Attacker|Counter Sweep from Leg Entanglement]]** (14% of attempts)
 
-- **[[Transitions/Counter Sweep from Leg Entanglement/Attacker|Counter Sweep from Leg Entanglement]]** (20% of attempts)
+- **[[Transitions/Inversion Escape from Leg Entanglement/Attacker|Inversion Escape from Leg Entanglement]]** (12% of attempts)
+
+- **[[Transitions/Counter Leg Attack/Attacker|Counter Leg Attack]]** (12% of attempts)
+
+- **[[Transitions/Counter-entangle to 50-50 Guard/Attacker|Counter-entangle to 50-50 Guard]]** (10% of attempts)
+
+- **[[Transitions/Inside Heel Hook from Ushiro/Attacker|Inside Heel Hook from Ushiro]]** (8% of attempts)
+
+- **[[Transitions/Kneebar from Ushiro/Attacker|Kneebar from Ushiro]]** (6% of attempts)
+
+- **[[Transitions/Ankle Lock Finish/Attacker|Ankle Lock Finish]]** (4% of attempts)
 
 
 ### Common Mistakes
@@ -264,6 +311,21 @@ Leg Entanglement represents a comprehensive positional system in modern Brazilia
 
 - **[[Positions/Inside Sankaku]]** - Related entanglement configuration using triangle leg control around opponent's leg
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Danaher-Leg-Lock-System" data-cta="related-system-card" data-system-slug="systems/danaher-leg-lock-system" data-system-name="Danaher Leg Lock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Danaher Leg Lock System</span><span class="system-card__unlocks-badge">Unlocks 30 techniques</span><span class="system-card__blurb">Fundamental principle underlying all ashi-garami control concepts</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Straight-Footlock-to-Kneebar-Chain" data-cta="related-system-card" data-system-slug="systems/straight-footlock-to-kneebar-chain" data-system-name="Straight Footlock to Kneebar Chain" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Straight Footlock to Kneebar Chain</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Fundamental positional concept underlying control maintenance in chain</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Garry-Tonon-Leg-Lock-to-Back-System" data-cta="related-system-card" data-system-slug="systems/garry-tonon-leg-lock-to-back-system" data-system-name="Garry Tonon Leg Lock to Back System" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Garry Tonon Leg Lock to Back System</span><span class="system-card__unlocks-badge">Unlocks 26 techniques</span><span class="system-card__blurb">Foundational concept governing all leg attack positions in system</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Lachlan-Giles-Leg-Lock-Defense-Framework" data-cta="related-system-card" data-system-slug="systems/lachlan-giles-leg-lock-defense-framework" data-system-name="Lachlan Giles Leg Lock Defense Framework" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Lachlan Giles Leg Lock Defense Framework</span><span class="system-card__unlocks-badge">Unlocks 26 techniques</span><span class="system-card__blurb">Core concept underlying understanding of how legs become trapped and controlled</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Craig-Jones-Leg-Lock-System" data-cta="related-system-card" data-system-slug="systems/craig-jones-leg-lock-system" data-system-name="Craig Jones Leg Lock System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Craig Jones Leg Lock System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Fundamental concept governing leg position control and submission mechanics throughout system</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/B-Team-Dilemma-System" data-cta="related-system-card" data-system-slug="systems/b-team-dilemma-system" data-system-name="B-Team Dilemma System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">B-Team Dilemma System</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Fundamental positional concept governing leg control and submission mechanics</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

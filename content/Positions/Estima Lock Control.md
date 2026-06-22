@@ -10,6 +10,41 @@ description: "Master Estima Lock position in BJJ. Strategic guide covering inver
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Estima Lock Control",
+  "description": "Master Estima Lock position in BJJ. Strategic guide covering inverted footlock mechanics, control from top and bottom perspectives, and submission chains with complete technical analysis.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Estima Lock Control", "item": "https://bjjgraph.org/Positions/Estima-Lock-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Estima Lock Control",
+  "description": "Estima Lock Control is an inverted footlock entanglement in which one grappler traps and twists the opponent's foot heel-high, attacking the ankle joint and Achilles tendon through rotational rather than straight-line pressure.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Estima Lock position in BJJ. Strategic guide covering inver
 </div>
 
 <section id="overview" class="content-section">
+
+**Estima Lock Control is an inverted footlock entanglement in which one grappler traps and twists the opponent's foot heel-high, attacking the ankle joint and Achilles tendon through rotational rather than straight-line pressure.**
 
 The Estima Lock Position represents a sophisticated leg entanglement scenario where one practitioner secures control of their opponent's foot in an inverted orientation, creating a specialized footlock submission threat that attacks the ankle joint and Achilles tendon through rotational mechanics. Named after the Estima brothers (Victor and Braulio) who popularized and refined this technique in high-level competition, this position differs fundamentally from traditional straight ankle locks through its inverted grip configuration and the unique pressure vectors it creates on the targeted structures.
 
@@ -66,7 +103,7 @@ From the top attacking perspective, the position offers significant control adva
 | **Energy Cost** | Medium | Medium |
 | **Time** | Short | Short to Medium |
 
-**Key Difference:** Inverted foot control creates ankle torque
+**Key Difference:** Inverted foot grip trades base for ankle torque
 
 
 
@@ -102,9 +139,7 @@ From the top attacking perspective, the position offers significant control adva
 
 - **[[Transitions/Ashi Garami Escape/Attacker|Ashi Garami Escape]]** (23% of attempts)
 
-- **[[Transitions/Leg Extraction/Attacker|Leg Extraction]]** (38% of attempts)
-
-- **[[Transitions/Counter Sweep/Attacker|Counter Sweep]]** (3% of attempts)
+- **[[Transitions/Leg Extraction/Attacker|Leg Extraction]]** (41% of attempts)
 
 - **[[Transitions/Angle Change Escape/Attacker|Angle Change Escape]]** (13% of attempts)
 
@@ -185,9 +220,7 @@ From the top attacking perspective, the position offers significant control adva
 
 - **[[Transitions/Toe Hold from Estima Lock/Attacker|Toe Hold from Estima Lock]]** (19% of attempts)
 
-- **[[Transitions/Estima Lock/Attacker|Estima Lock]]** (1% of attempts)
-
-- **[[Transitions/Estima Lock/Attacker|Estima Lock]]** (1% of attempts)
+- **[[Transitions/Estima Lock/Attacker|Estima Lock]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -248,5 +281,7 @@ From the top attacking perspective, the position offers significant control adva
 
 
 </section>
+
+
 
 </main>

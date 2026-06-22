@@ -10,6 +10,41 @@ description: "Master Estima Lock to Ashi Garami transition in BJJ. Step-by-step 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Estima Lock to Ashi Garami",
+  "description": "Master Estima Lock to Ashi Garami transition in BJJ. Step-by-step guide from footlock control to leg entanglement with chain attack strategy.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Estima Lock to Ashi Garami", "item": "https://bjjgraph.org/Transitions/Estima-Lock-to-Ashi-Garami" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Estima Lock to Ashi Garami",
+  "description": "Estima Lock to Ashi Garami is a leg-lock chain transition in which the top player abandons a defended inverted footlock and re-secures the trapped leg in standard ashi garami, converting a stalled ankle attack into heel-hook and kneeline control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Estima Lock to Ashi Garami transition in BJJ. Step-by-step 
 </div>
 
 <section id="overview" class="content-section">
+
+**Estima Lock to Ashi Garami is a leg-lock chain transition in which the top player abandons a defended inverted footlock and re-secures the trapped leg in standard ashi garami, converting a stalled ankle attack into heel-hook and kneeline control.**
 
 The Estima Lock to Ashi Garami transition represents a critical pivot point in modern leg lock systems, allowing practitioners to abandon a defended footlock in favor of superior heel hook positioning. When an opponent successfully defends the Estima Lock by counter-rotating their ankle, hiding their heel, or creating sufficient frames, this transition preserves offensive momentum rather than returning to neutral.
 
@@ -214,5 +251,7 @@ The Estima Lock to Ashi Garami transition represents a critical link in modern l
 
 
 </section>
+
+
 
 </main>

@@ -1,6 +1,7 @@
 {
   "name": "Mission Control Entry from Rubber Guard",
   "description": "Master Mission Control entry from Rubber Guard in BJJ. Learn grip transitions, hip elevation mechanics, and timing to secure this dominant 10th Planet position.",
+  "summary": "Mission Control Entry from Rubber Guard is the 10th Planet transition where the bottom player threads the overhook arm under their own elevated shin and locks the grip, converting basic rubber guard into the shoulder-isolating Mission Control control position.",
   "tags": [
     "bjj",
     "transition",
@@ -31,7 +32,7 @@
     }
   ],
   "success_rate": 55,
-  "overview": "The Mission Control Entry from Rubber Guard is the critical positional advancement within the 10th Planet system that converts basic rubber guard control into the locked Mission Control configuration. This transition occurs when the bottom player, having already established rubber guard with their leg threaded high across the opponent's back, secures their own shin or ankle with the same-side hand while maintaining aggressive posture control. The resulting Mission Control position creates severe shoulder isolation and opens systematic submission chains including triangles, omoplatas, and gogoplatas.\n\nThe mechanical challenge of this transition centers on the grip switch: the bottom player must release one point of control (typically the head grip or wrist control) to reach under their elevated leg and secure the shin, creating a momentary vulnerability window. During this grip transition, the opponent has their best opportunity to recover posture or extract the trapped arm. Successful execution requires precise timing, sufficient hip elevation to create space for the arm to thread under the leg, and the ability to maintain posture control with the remaining grip throughout the switch.\n\nStrategically, this transition represents the gateway to the entire 10th Planet offensive system. Once Mission Control is locked, the bottom player gains access to a comprehensive submission chain where each defensive reaction from the opponent opens a different attack. The position's shoulder isolation creates a cooking effect where the opponent fatigues under their own awkwardly distributed weight, while the bottom player can maintain control with relatively less energy expenditure. For practitioners who invest in the required hip flexibility, mastering this entry transforms rubber guard from a holding position into a systematic submission platform.",
+  "overview": "Within the 10th Planet rubber guard hierarchy, this entry is the structural lock that separates a player merely holding high guard from one operating a full submission platform. The transition occurs when the bottom player, having already established rubber guard with their leg threaded high across the opponent's back, secures their own shin or ankle with the same-side hand while maintaining aggressive posture control. The resulting Mission Control position creates severe shoulder isolation and opens systematic submission chains including triangles, omoplatas, and gogoplatas.\n\nThe mechanical challenge of this transition centers on the grip switch: the bottom player must release one point of control (typically the head grip or wrist control) to reach under their elevated leg and secure the shin, creating a momentary vulnerability window. During this grip transition, the opponent has their best opportunity to recover posture or extract the trapped arm. Successful execution requires precise timing, sufficient hip elevation to create space for the arm to thread under the leg, and the ability to maintain posture control with the remaining grip throughout the switch.\n\nStrategically, this transition represents the gateway to the entire 10th Planet offensive system. Once Mission Control is locked, the bottom player gains access to a comprehensive submission chain where each defensive reaction from the opponent opens a different attack. The position's shoulder isolation creates a cooking effect where the opponent fatigues under their own awkwardly distributed weight, while the bottom player can maintain control with relatively less energy expenditure. For practitioners who invest in the required hip flexibility, mastering this entry transforms rubber guard from a holding position into a systematic submission platform.",
   "conditions": [
     "Bottom player has established Rubber Guard with leg positioned high across opponent's back above the ribcage line",
     "Opponent's posture is broken with head pulled toward bottom player's chest and weight loaded forward",
@@ -69,10 +70,6 @@
     {
       "name": "Closed Guard",
       "relationship": "Base position from which rubber guard is originally entered before this transition"
-    },
-    {
-      "name": "High Guard to Rubber Guard",
-      "relationship": "Preceding transition in the system that establishes the rubber guard needed for this entry"
     },
     {
       "name": "New York Entry from Rubber Guard",

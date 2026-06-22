@@ -10,6 +10,41 @@ description: "Master the standing arm drag in BJJ. Complete guide to grip mechan
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Arm Drag from Standing",
+  "description": "Master the standing arm drag in BJJ. Complete guide to grip mechanics, timing, two-on-one entries, and finishing to the standing rear clinch position.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Arm Drag from Standing", "item": "https://bjjgraph.org/Transitions/Arm-Drag-from-Standing" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Arm Drag from Standing",
+  "description": "The Arm Drag from Standing is a wrestling-derived back-take entry where you secure a two-on-one grip on the opponent's arm, drag it across your centerline, and step behind them to establish the standing rear clinch.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the standing arm drag in BJJ. Complete guide to grip mechan
 </div>
 
 <section id="overview" class="content-section">
+
+**The Arm Drag from Standing is a wrestling-derived back-take entry where you secure a two-on-one grip on the opponent's arm, drag it across your centerline, and step behind them to establish the standing rear clinch.**
 
 The arm drag from standing is one of the most efficient and high-percentage techniques for accessing an opponent's back from the standing position. Rooted in wrestling fundamentals and refined through modern grappling competition, this technique uses a two-on-one grip configuration to redirect the opponent's arm across your body while simultaneously stepping behind them to establish chest-to-back contact. The beauty of the arm drag lies in its simplicity and effectiveness across all grappling contexts, whether gi, no-gi, or MMA.
 
@@ -222,6 +259,17 @@ The arm drag from standing integrates into the BJJ system as a primary standing-
 
 - [[Transitions/Snap Down to Front Headlock]] - Chain attack from collar tie setup that complements arm drag threat
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Competition-Preparation-System" data-cta="related-system-card" data-system-slug="systems/competition-preparation-system" data-system-name="Competition Preparation System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Competition Preparation System</span><span class="system-card__unlocks-badge">Unlocks 21 techniques</span><span class="system-card__blurb">Standing phase technique for offensive and defensive transitions in competition</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Dynamic-Guard-System" data-cta="related-system-card" data-system-slug="systems/dynamic-guard-system" data-system-name="Dynamic Guard System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Dynamic Guard System</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Entry method for initiating dynamic guard engagement and back exposure</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

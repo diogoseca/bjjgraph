@@ -1,6 +1,6 @@
 {
   "name": "Side Control to Knee on Belly",
-  "description": "Master the Consolidation to Knee on Belly transition in BJJ. Learn optimal timing, grip transfers, and knee placement for dynamic top advancement.",
+  "description": "Master the Side Control to Knee on Belly transition in BJJ. Learn optimal timing, grip transfers, and explosive knee placement for dynamic top advancement.",
   "tags": [
     "bjj",
     "transition",
@@ -29,7 +29,8 @@
     }
   ],
   "success_rate": 55,
-  "overview": "The Consolidation to Knee on Belly transition represents a critical positional advancement in the top-game hierarchy, bridging the gap between the static grinding pressure of consolidated side control and the dynamic mobile pressure of knee on belly. This technique allows the top player to upgrade their position from a holding pattern to an active attacking platform that scores additional competition points and opens multiple submission pathways including baseball bat chokes, armbars, and cross collar chokes.\n\nThe fundamental challenge in this transition lies in the brief but critical moment when the top player must sacrifice chest-to-chest connection to elevate their hips and insert their knee onto the opponent's torso. This window of reduced pressure is precisely when the bottom player has their best opportunity to escape, re-guard, or initiate scrambles. Expert execution minimizes this vulnerability through precise timing coordinated with the opponent's breathing rhythm, efficient grip transfers that maintain control throughout the movement, and explosive hip elevation that replaces chest pressure with knee pressure before the bottom player can react.\n\nStrategically, mastering this transition transforms consolidated side control from a static holding position into a launching pad for an entire offensive system. The ability to threaten the knee on belly transition forces the bottom player to defend preemptively, which in turn creates openings for alternative attacks and transitions directly from side control. This dilemma-based approach exemplifies the principle that positional advancement threats are often as valuable as the advancements themselves.",
+  "summary": "Side Control to Knee on Belly is a top-game transition where the controlling player briefly trades chest-to-chest pressure to drive a knee across the opponent's torso, upgrading static side control into a mobile, point-scoring attacking platform.",
+  "overview": "The Side Control to Knee on Belly transition represents a critical positional advancement in the top-game hierarchy, bridging the gap between the static grinding pressure of consolidated side control and the dynamic mobile pressure of knee on belly. This technique allows the top player to upgrade their position from a holding pattern to an active attacking platform that scores additional competition points and opens multiple submission pathways including baseball bat chokes, armbars, and cross collar chokes.\n\nThe fundamental challenge in this transition lies in the brief but critical moment when the top player must sacrifice chest-to-chest connection to elevate their hips and insert their knee onto the opponent's torso. This window of reduced pressure is precisely when the bottom player has their best opportunity to escape, re-guard, or initiate scrambles. Expert execution minimizes this vulnerability through precise timing coordinated with the opponent's breathing rhythm, efficient grip transfers that maintain control throughout the movement, and explosive hip elevation that replaces chest pressure with knee pressure before the bottom player can react.\n\nStrategically, mastering this transition transforms consolidated side control from a static holding position into a launching pad for an entire offensive system. The ability to threaten the knee on belly transition forces the bottom player to defend preemptively, which in turn creates openings for alternative attacks and transitions directly from side control. This dilemma-based approach exemplifies the principle that positional advancement threats are often as valuable as the advancements themselves.",
   "conditions": [
     "Consolidated side control established with strong crossface and underhook or far-side control",
     "Opponent's defensive frames largely neutralized through sustained pressure application",
@@ -69,10 +70,6 @@
       "relationship": "Counter outcome position where the bottom player recovers guard during the transition window"
     },
     {
-      "name": "Side Control",
-      "relationship": "Parent position category encompassing the consolidation phase where this transition begins"
-    },
-    {
       "name": "Mount",
       "relationship": "Alternative positional advancement from side control and common follow-up from knee on belly"
     },
@@ -98,9 +95,9 @@
     }
   ],
   "attacker": {
-    "name": "Consolidation to Knee on Belly Attacker",
-    "description": "Master attacking the Consolidation to Knee on Belly transition. Complete guide to timing, grip transfers, and explosive knee placement for seamless positional advancement from consolidated side control.",
-    "overview": "Executing the Consolidation to Knee on Belly transition requires precise coordination between grip transfers, hip elevation, and knee placement. The attacker must time the transition to coincide with reduced defensive activity, using the momentum from consolidated pressure to replace chest weight with knee pressure in a single fluid motion. Success depends on maintaining at least one strong control point throughout the transition while preventing the bottom player from exploiting the brief window of reduced pressure. The transition rewards practitioners who invest in consolidation quality before attempting advancement, as rushing from an unconsolidated position dramatically increases failure rates and counter opportunities.",
+    "name": "Side Control to Knee on Belly Attacker",
+    "description": "Master attacking the Side Control to Knee on Belly transition. Complete guide to timing, grip transfers, and explosive knee placement for seamless positional advancement from consolidated side control.",
+    "overview": "Executing the Side Control to Knee on Belly transition requires precise coordination between grip transfers, hip elevation, and knee placement. The attacker must time the transition to coincide with reduced defensive activity, using the momentum from consolidated pressure to replace chest weight with knee pressure in a single fluid motion. Success depends on maintaining at least one strong control point throughout the transition while preventing the bottom player from exploiting the brief window of reduced pressure. The transition rewards practitioners who invest in consolidation quality before attempting advancement, as rushing from an unconsolidated position dramatically increases failure rates and counter opportunities.",
     "key_principles": [
       "Maintain at least one dominant grip connection throughout the entire transition to prevent the bottom player from capitalizing on the positional adjustment",
       "Time the knee insertion during the opponent's exhalation when their defensive strength is reduced and reaction time is slower",
@@ -280,9 +277,9 @@
     "safety_considerations": "This transition involves placing concentrated pressure on the opponent's solar plexus and diaphragm through the knee. In training, insert the knee with controlled force rather than dropping full bodyweight explosively onto the contact point. Monitor your partner's breathing and facial expressions for signs of respiratory distress. Never bounce on the knee to increase pressure during drilling. When practicing with smaller or less experienced partners, reduce initial pressure and allow them to acclimate to the sensation before applying full training intensity. Tap immediately if you feel any sharp pain or cannot breathe during defensive drilling."
   },
   "defender": {
-    "name": "Consolidation to Knee on Belly Defender",
-    "description": "Master defending the Consolidation to Knee on Belly transition. Learn recognition cues, frame timing, and escape sequences to prevent positional advancement from side control.",
-    "overview": "Defending the Consolidation to Knee on Belly transition requires recognizing the brief moment when the top player sacrifices chest pressure to elevate their hips for knee insertion. This transitional window is paradoxically both the most dangerous moment and the best escape opportunity: if the defender misses it, they end up under the crushing concentrated pressure of knee on belly, but the top player's control is momentarily weakened during the movement. The defender must develop sensitivity to the attacker's weight shifts, breathing patterns, and grip adjustments that signal the impending transition, then execute practiced defensive responses that exploit the inherent vulnerability of positional advancement. Success requires proactive frame creation before the knee lands rather than reactive escape attempts after the position is established.",
+    "name": "Side Control to Knee on Belly Defender",
+    "description": "Master defending the Side Control to Knee on Belly transition. Learn recognition cues, frame timing, and escape sequences to prevent positional advancement from side control.",
+    "overview": "Defending the Side Control to Knee on Belly transition requires recognizing the brief moment when the top player sacrifices chest pressure to elevate their hips for knee insertion. This transitional window is paradoxically both the most dangerous moment and the best escape opportunity: if the defender misses it, they end up under the crushing concentrated pressure of knee on belly, but the top player's control is momentarily weakened during the movement. The defender must develop sensitivity to the attacker's weight shifts, breathing patterns, and grip adjustments that signal the impending transition, then execute practiced defensive responses that exploit the inherent vulnerability of positional advancement. Success requires proactive frame creation before the knee lands rather than reactive escape attempts after the position is established.",
     "key_principles": [
       "Recognize the transition before it completes by feeling the top player's hip elevation and weight shift toward your head as they prepare for knee insertion",
       "Create frames preemptively when you sense the opponent preparing to transition, as frames established before knee placement are significantly more effective than those attempted after",

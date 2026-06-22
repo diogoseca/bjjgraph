@@ -13,7 +13,8 @@
   ],
   "system_type": "Submission Chain",
   "difficulty_level": "Advanced",
-  "overview": "The Ryan Hall Triangle System represents one of the most comprehensive and technically refined approaches to the triangle choke and its associated submission chains in Brazilian Jiu-Jitsu. Hall's system is built on the fundamental principle that the triangle is not merely a single submission, but rather the centerpiece of an interconnected web of attacks including armbars, omoplatas, and back takes. This system emphasizes positional control, precise angle creation, and the ability to flow seamlessly between submissions based on defensive reactions.\n\nWhat distinguishes Hall's approach is the emphasis on creating genuine dilemmas for opponents through systematic pressure and positioning. Rather than forcing single submissions, the system creates scenarios where every defensive option opens a new offensive pathway. The triangle position becomes a control platform from which multiple high-percentage finishes become available. Hall's methodology breaks down the complex mechanics of triangle attacks into learnable progressions that build upon fundamental principles of leverage, angle manipulation, and timing.\n\nThe system integrates seamlessly with modern guard play, particularly from closed guard, but extends to applications from spider guard, De La Riva, and even standing positions. Hall's technical innovations include specific grip sequences, hip positioning strategies, and transitional mechanics that maximize finishing percentages while minimizing energy expenditure. This system has proven effective at the highest levels of competition and represents a comprehensive blueprint for developing world-class triangle attacks.",
+  "summary": "The Ryan Hall Triangle System is a closed-guard submission framework that treats the triangle as a control platform from which armbars, omoplatas, and back takes chain together, forcing opponents into no-win defensive dilemmas.",
+  "overview": "Developed by Ryan Hall, one of the sport's most analytically rigorous competitors and instructors, this approach grew out of his observation that the triangle choke is too often trained as an isolated, low-percentage finish rather than as a position of control. Hall's system is built on the fundamental principle that the triangle is not merely a single submission, but rather the centerpiece of an interconnected web of attacks including armbars, omoplatas, and back takes. It emphasizes positional control, precise angle creation, and the ability to flow seamlessly between submissions based on defensive reactions.\n\nWhat distinguishes Hall's approach is the emphasis on creating genuine dilemmas for opponents through systematic pressure and positioning. Rather than forcing single submissions, the system creates scenarios where every defensive option opens a new offensive pathway. The triangle position becomes a control platform from which multiple high-percentage finishes become available. Hall's methodology breaks down the complex mechanics of triangle attacks into learnable progressions that build upon fundamental principles of leverage, angle manipulation, and timing.\n\nThe system integrates seamlessly with modern guard play, particularly from closed guard, but extends to applications from spider guard, De La Riva, and even standing positions. Hall's technical innovations include specific grip sequences, hip positioning strategies, and transitional mechanics that maximize finishing percentages while minimizing energy expenditure. This system has proven effective at the highest levels of competition and represents a comprehensive blueprint for developing world-class triangle attacks.",
   "key_principles": [
     "Triangle as control position - treat the triangle as a dominant control platform rather than just a submission attempt",
     "Submission chain integration - every triangle attempt creates pathways to armbar, omoplata, and back take",
@@ -402,6 +403,48 @@
       "name": "Frames",
       "content_type": "Principle",
       "relationship": "Defensive framing foundation supporting guard retention for offensive triangle attacks"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What is the central conceptual shift that defines the Ryan Hall Triangle System?",
+      "answer": "The system reframes the triangle as a dominant control platform rather than a single submission, treating it as a hub from which armbars, omoplatas, and back takes become available depending on how the opponent defends."
+    },
+    {
+      "question": "How does the system respond when an opponent defends by maintaining strong posture?",
+      "answer": "It prioritizes systematic posture breaking through grip sequences and hip movement before the legs are locked; if posture cannot be compromised, the practitioner abandons the choke and transitions to an omoplata or sweep rather than forcing the triangle."
+    },
+    {
+      "question": "When should you transition from the triangle to an armbar?",
+      "answer": "When the opponent's trapped or far-side arm becomes exposed and extended during their defense, the practitioner repositions the hips and legs to attack the armbar while preserving triangle control."
+    },
+    {
+      "question": "Why does Hall emphasize incremental tightening over explosive squeezing on the triangle finish?",
+      "answer": "Incremental pressure conserves energy and progressively eliminates escape space while maximizing carotid compression, whereas explosive squeezing telegraphs the finish and often creates the gap an opponent needs to escape."
+    },
+    {
+      "question": "What body angle is required to finish the triangle choke effectively?",
+      "answer": "The hips should be perpendicular to the opponent's centerline, with the bottom leg deep across the back of the neck and the ankle locked behind the knee to compress both carotid arteries."
+    },
+    {
+      "question": "What dual role does the omoplata play within the system?",
+      "answer": "The omoplata functions as both an alternative shoulder-lock submission and a sweeping mechanism, becoming available through hip movement and shoulder pressure when opponents posture up or defend the triangle."
+    },
+    {
+      "question": "What is the recommended response when an opponent stacks the triangle?",
+      "answer": "Use grips to pull the opponent's weight off balance; if the stack succeeds, convert the pressure into an omoplata sweep or adjust the hips to transition into an armbar rather than fighting the stack directly."
+    },
+    {
+      "question": "What criteria determine which submission in the chain to pursue?",
+      "answer": "Read the opponent's arm and posture: an exposed, extended arm signals the armbar, a compromised shoulder signals the omoplata, and an optimal choking angle signals committing to the triangle finish."
+    },
+    {
+      "question": "Beyond closed guard, from which positions can the system establish a triangle?",
+      "answer": "The system extends triangle entries to spider guard, De La Riva, open guard variations, and standing positions, including flying triangle applications for advanced practitioners."
+    },
+    {
+      "question": "What is one of the most common mistakes practitioners make when learning this system?",
+      "answer": "Attempting to finish the triangle prematurely before establishing proper control and angle, and relying on muscular force instead of precise hip movement and positioning."
     }
   ]
 }

@@ -10,6 +10,41 @@ description: "Learn the Arm Triangle Setup from North-South in BJJ. Step-by-step
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Arm Triangle Setup",
+  "description": "Learn the Arm Triangle Setup from North-South in BJJ. Step-by-step head-arm configuration, hip walk mechanics, and submission chain integration.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Arm Triangle Setup", "item": "https://bjjgraph.org/Transitions/Arm-Triangle-Setup" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Arm Triangle Setup",
+  "description": "The Arm Triangle Setup is a North-South top attack that isolates the opponent's near-side arm across their own neck, threads the choking arm underneath, then walks the hips to side control where the head-and-arm choke finishes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Learn the Arm Triangle Setup from North-South in BJJ. Step-by-step
 </div>
 
 <section id="overview" class="content-section">
+
+**The Arm Triangle Setup is a North-South top attack that isolates the opponent's near-side arm across their own neck, threads the choking arm underneath, then walks the hips to side control where the head-and-arm choke finishes.**
 
 The Arm Triangle Setup from North-South control exploits the perpendicular chest pressure of the position to isolate the opponent's near-side arm against their own neck, creating the head-and-arm configuration necessary for a high-percentage arm triangle choke. This setup capitalizes on the opponent's defensive reactions to North-South pressure—particularly when they turn into the top player or attempt to frame—by threading the choking arm under their neck while their own arm is trapped.
 
@@ -220,5 +257,7 @@ The Arm Triangle Setup serves as a critical link in the North-South submission c
 
 
 </section>
+
+
 
 </main>

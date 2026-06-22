@@ -10,10 +10,55 @@ description: "Master the calf slicer from inside sankaku. Complete guide coverin
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Calf Slicer from Inside Sankaku targets the Calf muscle and posterior knee structures. Risk: Calf muscle tear or rupture. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Calf Slicer from Inside Sankaku",
+  "description": "Master the calf slicer from inside sankaku. Complete guide covering setup, execution mechanics, defense strategies, and safety for this advanced compression.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Calf Slicer from Inside Sankaku", "item": "https://bjjgraph.org/Submissions/Calf-Slicer-from-Inside-Sankaku" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Calf Slicer from Inside Sankaku",
+  "description": "The calf slicer from inside sankaku is a leg compression submission that wedges your shin behind the opponent's knee and drives their ankle toward you, crushing the calf against bone — a secondary attack that punishes heel hook defense.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The calf slicer from inside sankaku is a leg compression submission that wedges your shin behind the opponent's knee and drives their ankle toward you, crushing the calf against bone — a secondary attack that punishes heel hook defense.**
+<div class="principle-meta">
+<span class="meta-chip">Compression</span>
+<span class="meta-chip">Leg Compression</span>
+<span class="meta-chip">Targets Calf muscle and posterior knee structures</span>
+<span class="meta-chip">50% success</span>
+</div>
+
+> [!danger] Safety
+> Calf Slicer from Inside Sankaku targets the Calf muscle and posterior knee structures. Primary risk: Calf muscle tear or rupture. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,55 +75,7 @@ From the inside sankaku configuration, the attacker threads their shin bone behi
 
 The technique carries particular strategic value in competition because opponents conditioned to defend heel hooks often straighten their trapped leg as a defensive reflex — a movement that directly sets up the calf slicer entry. Understanding this attack-defense dynamic transforms the inside sankaku from a single-threat position into a genuine dilemma where every defensive choice opens a different submission pathway.
 
-**Category**: Compression
-**Type**: Leg Compression
-**Target Area**: Calf muscle and posterior knee structures
-**Starting Position**: [[Positions/Inside Sankaku]]
-**From Position**: [[Positions/Inside Sankaku]] (Top)
-**Success Rate**: 50%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Calf muscle tear or rupture | High | 6-12 weeks minimum, potential permanent damage |
-| Achilles tendon strain or rupture | CRITICAL | 6-12 months, often requires surgery |
-| Posterior cruciate ligament sprain or tear | High | 3-9 months depending on severity, may require surgical reconstruction |
-| Deep tissue bruising and compartment syndrome | Medium | 2-4 weeks, rare cases require emergency surgery |
-
-
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum in training. Never spike or jerk. Compression produces pain faster than most practitioners expect.
-
-**Tap Signals**:
-- Verbal tap strongly encouraged due to leg entanglement limiting hand mobility
-- Physical hand tap on partner, their leg, or the mat
-- Foot tap with free leg if hands are trapped in the entanglement
-- Any distress vocalization treated as immediate tap signal
-- Slapping the mat repeatedly with free hand
-
-
-**Release Protocol**:
-1. Immediately release ankle grip upon any tap signal
-2. Remove shin from behind knee crease slowly and in a controlled manner
-3. Unwrap figure-four leg configuration without jerking movements
-4. Allow partner to extend and straighten their leg naturally before fully disengaging
-5. Check partner's calf mobility, knee stability, and sensation before resuming training
-
-
-**Training Restrictions**:
-- Never apply compression at competition speed during training
-- Never spike or jerk the compression — build pressure over 5-7 seconds minimum
-- Never hold or continue pressure after any tap signal
-- Always ensure partner has clear access to tap with at least one hand
-- Prohibited for colored belts below brown belt in most IBJJF rulesets
-- Never practice on partners with previous calf or knee injuries without explicit consent
-
+**Starting Position**: [[Positions/Inside Sankaku]] · **From**: [[Positions/Inside Sankaku]] (Top)
 
 </section>
 
@@ -234,46 +231,70 @@ The technique carries particular strategic value in competition because opponent
 
 - [[Positions/Inside Sankaku]]
 - [[Positions/Ashi Garami/Honey Hole]]
+- [[Positions/Ashi Garami/Saddle]]
 
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Calf Slicer]]
 - [[Submissions/Inside Heel Hook]]
 - [[Transitions/Heel Hook]]
-- [[Submissions/Inside Heel Hook]]
 - [[Submissions/Bicep Slicer]]
 - [[Submissions/Banana Split]]
-- [[Positions/Aoki Lock Control]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
+- [[Transitions/Aoki Lock]]
+- [[Submissions/Boston Crab]]
 - [[Positions/Inside Sankaku]] - Starting position providing the leg entanglement base for this compression submission
 - [[Positions/Ashi Garami/Honey Hole]] - Alternative name for the starting position used across different grappling systems
 - [[Positions/Ashi Garami/Saddle]] - Related leg entanglement offering similar calf slicer opportunities with different control mechanics
-- [[Submissions/Calf Slicer]] - Parent submission family — this is the inside sankaku-specific variant
-- [[Submissions/Inside Heel Hook]] - Primary submission from inside sankaku that chains directly with this calf slicer as a dilemma pair
+
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Calf muscle tear or rupture | High | 6-12 weeks minimum, potential permanent damage |
+| Achilles tendon strain or rupture | CRITICAL | 6-12 months, often requires surgery |
+| Posterior cruciate ligament sprain or tear | High | 3-9 months depending on severity, may require surgical reconstruction |
+| Deep tissue bruising and compartment syndrome | Medium | 2-4 weeks, rare cases require emergency surgery |
+
+
+**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum in training. Never spike or jerk. Compression produces pain faster than most practitioners expect.
+
+**Tap Signals**:
+- Verbal tap strongly encouraged due to leg entanglement limiting hand mobility
+- Physical hand tap on partner, their leg, or the mat
+- Foot tap with free leg if hands are trapped in the entanglement
+- Any distress vocalization treated as immediate tap signal
+- Slapping the mat repeatedly with free hand
+
+
+**Release Protocol**:
+1. Immediately release ankle grip upon any tap signal
+2. Remove shin from behind knee crease slowly and in a controlled manner
+3. Unwrap figure-four leg configuration without jerking movements
+4. Allow partner to extend and straighten their leg naturally before fully disengaging
+5. Check partner's calf mobility, knee stability, and sensation before resuming training
+
+
+**Training Restrictions**:
+- Never apply compression at competition speed during training
+- Never spike or jerk the compression — build pressure over 5-7 seconds minimum
+- Never hold or continue pressure after any tap signal
+- Always ensure partner has clear access to tap with at least one hand
+- Prohibited for colored belts below brown belt in most IBJJF rulesets
+- Never practice on partners with previous calf or knee injuries without explicit consent
 
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Calf Slicer from Inside Sankaku leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

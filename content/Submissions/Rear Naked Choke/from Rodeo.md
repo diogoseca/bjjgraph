@@ -10,10 +10,55 @@ description: "Master the Rear Naked Choke from Rodeo Ride in BJJ. Complete guide
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Rear Naked Choke from Rodeo targets the Neck. Risk: Loss of consciousness from sustained compression of carotid arteries cutting blood supply to the brain. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Rear Naked Choke from Rodeo",
+  "description": "Master the Rear Naked Choke from Rodeo Ride in BJJ. Complete guide covering finishing mechanics, control strategies, and defensive escapes from this turtle attack position.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Rear Naked Choke from Rodeo", "item": "https://bjjgraph.org/Submissions/Rear-Naked-Choke-from-Rodeo" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Rear Naked Choke from Rodeo",
+  "description": "Rear Naked Choke from Rodeo is a strangle finished from the Rodeo Ride turtle-attack position, where the top player threads a forearm under the chin to compress both carotid arteries while riding the opponent's back without hooks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**Rear Naked Choke from Rodeo is a strangle finished from the Rodeo Ride turtle-attack position, where the top player threads a forearm under the chin to compress both carotid arteries while riding the opponent's back without hooks.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Neck</span>
+<span class="meta-chip">50% success</span>
+</div>
+
+> [!danger] Safety
+> Rear Naked Choke from Rodeo targets the Neck. Primary risk: Loss of consciousness from sustained compression of carotid arteries cutting blood supply to the brain. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -24,57 +69,13 @@ description: "Master the Rear Naked Choke from Rodeo Ride in BJJ. Complete guide
 
 <section id="overview" class="content-section">
 
-The Rear Naked Choke from Rodeo Ride is a dynamic finishing technique applied from the turtle attack position where the top practitioner maintains asymmetric control over a turtled opponent. Unlike the standard RNC from established back control with hooks and seat belt, this variation requires the attacker to manage the inherent instability of the Rodeo Ride while simultaneously threatening and completing the strangle. The position creates a unique finishing dynamic where the opponent retains more escape options than from full back control, but the attacker benefits from the element of surprise and the ability to attack before the opponent can establish their standard defensive framework.
+Strategically, this choke belongs to the turtle-attack game rather than the established-back-control game, and that distinction governs everything about how it is finished. Unlike the standard RNC from established back control with hooks and a seat belt, this variation requires the attacker to manage the inherent instability of the Rodeo Ride while simultaneously threatening and completing the strangle. The position creates a unique finishing dynamic where the opponent retains more escape options than from full back control, but the attacker benefits from the element of surprise and the ability to attack before the opponent can establish their standard defensive framework.
 
 The mechanical challenge of finishing the RNC from Rodeo Ride lies in maintaining sufficient chest-to-back pressure and near-arm control while threading the choking arm under the opponent's chin. Without traditional hooks for hip control, the attacker must use hip pressure, leg positioning, and strategic weight distribution to prevent the opponent from rolling, standing, or creating the space needed to defend. This makes timing critical—the choke attempt must be launched when positional control is strongest, typically when the opponent's base has been compromised through pressure cycling or grip fighting sequences.
 
 This submission represents a high-level integration of positional control and finishing ability. Practitioners who develop proficiency with the RNC from Rodeo Ride gain a significant competitive advantage because opponents in turtle often focus their defensive energy on preventing hook insertion and back control establishment, leaving the neck temporarily vulnerable to direct choking attacks. The technique rewards practitioners who can read defensive patterns and capitalize on the narrow windows between the opponent's defensive adjustments.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Neck
-**Starting Position**: [[Positions/Rodeo Ride]]
-**From Position**: [[Positions/Rodeo Ride]] (Top)
-**Success Rate**: 50%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Loss of consciousness from sustained compression of carotid arteries cutting blood supply to the brain | CRITICAL | Seconds to minutes if released promptly; potential brain damage if held beyond 10 seconds after unconsciousness |
-| Tracheal damage from incorrectly applied choke compressing the windpipe rather than the carotid arteries | High | 1-4 weeks for minor tracheal bruising, months for cartilage damage requiring medical intervention |
-| Cervical spine strain from excessive cranking or twisting during choke application combined with positional pressure | Medium | 1-3 weeks for minor strain, 2-6 weeks for moderate ligament involvement |
-
-
-**Application Speed**: SLOW and progressive. Apply steady, increasing pressure through chest expansion and elbow retraction. Never jerk, crank, or spike the choke. Blood chokes can cause unconsciousness in 4-10 seconds once fully locked—monitor training partner continuously.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner, own body, or mat
-- Physical foot tap on mat or partner with either leg
-- Any unusual vocalization, gurgling, or distress sounds indicating airway compromise
-- Body going limp indicating loss of consciousness—release immediately
-
-
-**Release Protocol**:
-1. Release immediately upon any tap signal without hesitation or delay
-2. Release immediately if opponent goes limp or shows signs of unconsciousness
-3. If unconscious, place in recovery position, elevate legs, and alert medical staff immediately
-4. If in doubt about whether opponent tapped, release and re-establish position rather than risk injury
-
-
-**Training Restrictions**:
-- Never hold the choke after a tap or signs of unconsciousness under any circumstances
-- Beginners should practice grip mechanics and arm threading without applying full squeeze until technique is clean
-- Apply progressive pressure only—no explosive or jerking application of the choke
-- Partners should agree on resistance level and communication protocols before drilling choke sequences
-
+**Starting Position**: [[Positions/Rodeo Ride]] · **From**: [[Positions/Rodeo Ride]] (Top)
 
 </section>
 
@@ -240,44 +241,64 @@ This submission represents a high-level integration of positional control and fi
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/Calf Slicer]]
 - [[Submissions/Bow and Arrow Choke]]
 - [[Transitions/Clock Choke]]
 - [[Submissions/Belly Down Armbar]]
 - [[Transitions/Anaconda Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Rodeo Ride]] - Primary starting position from which this choke is applied
 - [[Positions/Back Control]] - Related dominant position and common transition when choke fails but control is maintained
 - [[Submissions/Short Choke/from Body Triangle]] - Related RNC variation from established back control using body triangle for enhanced hip control
-- [[Submissions/Calf Slicer]] - Alternative submission available from turtle top and Rodeo Ride positions
 - [[Positions/Turtle]] - Defensive position the opponent occupies and common escape target
 - [[Submissions/Short Choke/from Gift Wrap]] - Related RNC variation using gift wrap arm isolation for finishing control
 - [[Positions/Back Control/Standing Back Control]] - Alternative starting position where RNC can be initiated before transitioning to ground
 - [[Positions/Crab Ride]] - Related turtle attack position that can transition to Rodeo Ride and RNC opportunities
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Loss of consciousness from sustained compression of carotid arteries cutting blood supply to the brain | CRITICAL | Seconds to minutes if released promptly; potential brain damage if held beyond 10 seconds after unconsciousness |
+| Tracheal damage from incorrectly applied choke compressing the windpipe rather than the carotid arteries | High | 1-4 weeks for minor tracheal bruising, months for cartilage damage requiring medical intervention |
+| Cervical spine strain from excessive cranking or twisting during choke application combined with positional pressure | Medium | 1-3 weeks for minor strain, 2-6 weeks for moderate ligament involvement |
+
+
+**Application Speed**: SLOW and progressive. Apply steady, increasing pressure through chest expansion and elbow retraction. Never jerk, crank, or spike the choke. Blood chokes can cause unconsciousness in 4-10 seconds once fully locked—monitor training partner continuously.
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any distress signal)
+- Physical hand tap on partner, own body, or mat
+- Physical foot tap on mat or partner with either leg
+- Any unusual vocalization, gurgling, or distress sounds indicating airway compromise
+- Body going limp indicating loss of consciousness—release immediately
+
+
+**Release Protocol**:
+1. Release immediately upon any tap signal without hesitation or delay
+2. Release immediately if opponent goes limp or shows signs of unconsciousness
+3. If unconscious, place in recovery position, elevate legs, and alert medical staff immediately
+4. If in doubt about whether opponent tapped, release and re-establish position rather than risk injury
+
+
+**Training Restrictions**:
+- Never hold the choke after a tap or signs of unconsciousness under any circumstances
+- Beginners should practice grip mechanics and arm threading without applying full squeeze until technique is clean
+- Apply progressive pressure only—no explosive or jerking application of the choke
+- Partners should agree on resistance level and communication protocols before drilling choke sequences
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Rear Naked Choke from Rodeo leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

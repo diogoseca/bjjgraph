@@ -2251,6 +2251,12 @@ description: "Master all BJJ submission techniques. Complete guide to chokes, jo
       "position": 371,
       "name": "Williams Shoulder Lock from Williams Guard",
       "url": "https://bjjgraph.org/Submissions/from-williams-guard"
+    },
+    {
+      "@type": "ListItem",
+      "position": 372,
+      "name": "Wrist Lock",
+      "url": "https://bjjgraph.org/Submissions/wrist-lock"
     }
   ]
 }
@@ -2379,7 +2385,7 @@ Master the Aoki Lock leg compression in BJJ. Safety guide with setup, execution,
 
 ### [[Aoki Lock from Aoki Lock Control]]
 
-Complete guide to finishing the Aoki Lock submission from Aoki Lock control. Shoulder lock mechanics, progressive pressure application, and key defensive counters.
+Complete guide to finishing the Aoki Lock leg compression from Aoki Lock control. Figure-four foot trap, plantar-flexion mechanics, and key defensive counters.
 
 ### [[Aoki Lock from Ashi Garami]]
 
@@ -2511,7 +2517,7 @@ Master the Banana Split compression submission in BJJ. Complete guide covering s
 
 ### [[Banana Split from Truck]]
 
-Master the Banana Split compression submission in BJJ. Complete guide covering setup from truck and deep half guard, execution, and safety. 48% success rate.
+Master the Banana Split compression submission from the truck in BJJ. Complete guide covering the twister-hook setup, execution, and safety. 48% success rate.
 
 ### [[Baratoplata]]
 
@@ -2679,7 +2685,7 @@ Master the Buggy Choke in BJJ. Powerful half guard compression choke targeting t
 
 ### [[Buggy Choke from Buggy Choke]]
 
-Master the Buggy Choke finish from turtle top. Complete guide to collar grip tightening, progressive pressure application, and competition finishing mechanics.
+Master the Buggy Choke finish from bottom half guard. Complete guide to closing the arm-and-leg loop, drawing the knee to your head, and finishing the carotid compression.
 
 ### [[Buggy Choke from Half Guard]]
 
@@ -2847,7 +2853,7 @@ Master Estima Lock foot submission with safety protocols, setup from 50-50 guard
 
 ### [[Estima Lock from Estima Lock Control]]
 
-Master the Estima Lock finish from Estima Lock control. Complete guide to foot lock mechanics, grip configuration, rotational pressure, and safe application.
+Master the Estima Lock finish from Estima Lock control. Complete guide to foot lock mechanics, grip configuration, dorsiflexion pressure, and safe application.
 
 ### [[Estima Lock from Honey Hole]]
 
@@ -3315,7 +3321,7 @@ Master the Mounted Crucifix Armbar in BJJ. Complete guide to arm isolation finis
 
 ### [[Neck Crank]]
 
-Master the Neck Crank submission in BJJ. A cervical spine compression applied from Twister Control that forces the tap through spinal pressure.
+Master the Neck Crank submission in BJJ — a cervical-spine compression applied from Twister Control that forces the tap through progressive spinal pressure.
 
 ### [[Neck Crank from Mounted Crucifix]]
 
@@ -3575,7 +3581,7 @@ Master the Spine Lock submission in BJJ. Learn advanced spinal compression techn
 
 ### [[Spine Lock from Truck]]
 
-Master the Spine Lock submission in BJJ. Advanced spinal compression from truck and twister control positions targeting the lumbar vertebrae.
+Master the Spine Lock submission in BJJ. Advanced spinal compression applied from the truck and twister control positions, targeting the lumbar vertebrae.
 
 ### [[Spinning Armbar]]
 
@@ -3751,7 +3757,7 @@ Master the Twister spinal lock from Twister Side Control with step-by-step finis
 
 ### [[Von Flue Choke]]
 
-Master the Von Flue Choke counter in BJJ. Complete safety guide with setup and execution. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+Counter a committed guillotine with the Von Flue Choke from side control. Learn shoulder-pressure mechanics, finishing steps, and defense. Success: 35/50/65%.
 
 ### [[Von Flue Choke from Side Control]]
 
@@ -3764,5 +3770,9 @@ Master the Williams Shoulder Lock in BJJ. Complete guide covering safety protoco
 ### [[Williams Shoulder Lock from Williams Guard]]
 
 Master the Williams Shoulder Lock from Williams Guard. Learn finishing mechanics, grip details, defensive counters, and safety protocols for this shoulder lock.
+
+### [[Wrist Lock]]
+
+Finish the Wrist Lock (mão de vaca) from closed guard top: flexion mechanics on planted hands, finishing steps, and defense. Success: 30/45/60%.
 
 

@@ -10,6 +10,41 @@ description: "Master Mount Escape to Half Guard Back Take in BJJ. Multi-step esc
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Mount Escape to Half Guard Back Take",
+  "description": "Master Mount Escape to Half Guard Back Take in BJJ. Multi-step escape combining bridge, half guard recovery, and back take during opponent\u0027s leg extraction.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Mount Escape to Half Guard Back Take", "item": "https://bjjgraph.org/Transitions/Mount-Escape-to-Half-Guard-Back-Take" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Mount Escape to Half Guard Back Take",
+  "description": "Mount Escape to Half Guard Back Take is a chained counter from mount bottom where you recover half guard with an underhook, then exploit the opponent's leg-extraction attempt to climb onto their back and lock in seat-belt control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Mount Escape to Half Guard Back Take in BJJ. Multi-step esc
 </div>
 
 <section id="overview" class="content-section">
+
+**Mount Escape to Half Guard Back Take is a chained counter from mount bottom where you recover half guard with an underhook, then exploit the opponent's leg-extraction attempt to climb onto their back and lock in seat-belt control.**
 
 Mount Escape to Half Guard Back Take is an advanced multi-step transition that transforms a defensive escape into an offensive back take. Rather than simply recovering guard from mount bottom, this technique chains the standard trap-and-roll or elbow-knee escape into half guard, then capitalizes on the opponent's leg extraction attempt to climb to their back and establish hooks plus seat belt control.
 
@@ -204,5 +241,7 @@ This chain technique is particularly effective against opponents who aggressivel
 
 
 </section>
+
+
 
 </main>

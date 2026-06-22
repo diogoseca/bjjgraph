@@ -336,4 +336,6 @@ The rear triangle choke attacks bilateral carotid arteries and can cause unconsc
 
 </section>
 
+
+
 </main>

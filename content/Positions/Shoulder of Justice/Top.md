@@ -116,6 +116,7 @@ description: "Master Shoulder of Justice Top in BJJ. Complete offensive guide wi
   "@type": "WebPage",
   "name": "Shoulder of Justice Top",
   "description": "Master Shoulder of Justice Top in BJJ. Complete offensive guide with shoulder pressure control, submission setups, and position advancement. 94% retention rate for advanced practitioners.",
+  "disambiguatingDescription": "Often confused with Side Control \u2014 Side Control is the general position; Shoulder of Justice is its concentrated shoulder-pressure variant.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -155,6 +156,9 @@ description: "Master Shoulder of Justice Top in BJJ. Complete offensive guide wi
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Positions/Side Control|Side Control]]</strong> — Side Control is the general position; Shoulder of Justice is its concentrated shoulder-pressure variant</p>
+</aside>
 <section id="overview" class="content-section">
 
 The Shoulder of Justice Top position represents the offensive perspective of this devastating side control variation where the practitioner applies intense, focused shoulder pressure directly into the opponent's jaw and facial structure while maintaining superior positional control. From the top position, you command complete control through biomechanically efficient pressure application that creates both physical discomfort and technical dominance. This position excels at breaking the opponent's defensive structure and forcing reactive movements that open submission and advancement opportunities.
@@ -373,5 +377,7 @@ Partner in bottom position actively moves their head to different defensive posi
 
 
 </section>
+
+
 
 </main>

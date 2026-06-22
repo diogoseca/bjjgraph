@@ -10,6 +10,41 @@ description: "Master the Sweep from Pocket Half Guard in BJJ. Hip-drive sweep us
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Sweep from Pocket Half Guard",
+  "description": "Master the Sweep from Pocket Half Guard in BJJ. Hip-drive sweep using deep underhook and pocket frame to reach side control. Setup, timing, and counters.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Sweep from Pocket Half Guard", "item": "https://bjjgraph.org/Transitions/Sweep-from-Pocket-Half-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Sweep from Pocket Half Guard",
+  "description": "The Sweep from Pocket Half Guard is a bottom half-guard reversal that levers a deep underhook against an angled hip bridge and near-hip pocket frame to tip the top player laterally and arrive in side control top.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Sweep from Pocket Half Guard in BJJ. Hip-drive sweep us
 
 <section id="overview" class="content-section">
 
-The Sweep from Pocket Half Guard is a direct hip-drive sweep executed from the bottom of pocket half guard, using the defining deep underhook and pocket frame to generate rotational force that tips the top player laterally. Unlike the Old School Sweep which requires reaching under the opponent's far leg, this sweep relies on a tight connection between the underhook lever and an explosive hip bridge directed into the opponent's center of gravity. The bottom player uses the pocket frame—foot pressed against the opponent's near hip—as a fulcrum while pulling the far shoulder down with the underhook, creating a rotational moment that is difficult to resist when timed with the opponent's forward weight shift.
+**The Sweep from Pocket Half Guard is a bottom half-guard reversal that levers a deep underhook against an angled hip bridge and near-hip pocket frame to tip the top player laterally and arrive in side control top.**
+
+Within the pocket half guard attack system, this sweep is the answer to passers who commit forward chest pressure rather than sitting back. Unlike the Old School Sweep which requires reaching under the opponent's far leg, it relies on a tight connection between the underhook lever and an explosive hip bridge directed into the opponent's center of gravity. The bottom player uses the pocket frame—foot pressed against the opponent's near hip—as a fulcrum while pulling the far shoulder down with the underhook, creating a rotational moment that is difficult to resist when timed with the opponent's forward weight shift.
 
 This sweep is most effective against opponents who commit heavy chest pressure in pocket half guard, as their forward weight distribution creates the exact off-balance angle this technique exploits. The bottom player times the hip bridge to coincide with the opponent's forward drive, redirecting that energy laterally rather than absorbing it. The sweep arc carries the bottom player to their knees and through to side control top, bypassing the dogfight scramble that often results from other half guard sweeps.
 
@@ -216,9 +253,11 @@ The Sweep from Pocket Half Guard occupies a supporting but essential role within
 
 - [[Positions/Half Guard/Knee Shield Half Guard]] - Recovery option when underhook control is compromised during sweep attempt
 
-- [[Transitions/Butterfly Half Guard Sweep]] - Related sweep concept from adjacent half guard variation
+- [[Transitions/Old School Sweep]] - Companion sweep that forms a directional dilemma chain attack from pocket half guard
 
 
 </section>
+
+
 
 </main>

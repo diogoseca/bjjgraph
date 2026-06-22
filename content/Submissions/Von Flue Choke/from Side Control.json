@@ -1,5 +1,6 @@
 {
   "name": "Von Flue Choke from Side Control",
+  "summary": "The Von Flue Choke is a no-gi counter-submission applied from side control against an opponent clinging to a guillotine grip, driving your shoulder into one carotid artery while their own trapped forearm compresses the other to force the tap.",
   "description": "Master the Von Flue Choke counter in BJJ. Complete safety guide with setup and execution. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
   "tags": [
     "bjj",
@@ -58,31 +59,13 @@
       "Require verbal confirmation that partner understands the danger before practicing"
     ]
   },
-  "outcomes": [
-    {
-      "to": "game-over",
-      "probability": 60,
-      "result": "success"
-    },
-    {
-      "to": "Side Control/Top",
-      "probability": 25,
-      "result": "failure"
-    },
-    {
-      "to": "Half Guard/Bottom",
-      "probability": 15,
-      "result": "counter"
-    }
-  ],
   "from_positions": [
     "Side Control",
     "Half Guard",
     "North-South",
     "Knee on Belly",
-    "Side Control",
     "Mount",
-    "Standing Position"
+    "Clinch"
   ],
   "related_submissions": [
     "Guillotine Choke",
@@ -120,12 +103,29 @@
       "relationship": "Related upper body control position used in guillotine sequences"
     },
     {
-      "name": "Side Control",
-      "relationship": "Position to consolidate after successful Von Flue forces grip release"
+      "name": "Darce Choke",
+      "relationship": "Alternative attack when the opponent turns in after releasing the guillotine grip"
     },
     {
       "name": "Mount",
       "relationship": "Alternative finish position when opponent bridges during Von Flue attempt"
+    }
+  ],
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": 60,
+      "result": "success"
+    },
+    {
+      "to": "Side Control/Top",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 15,
+      "result": "counter"
     }
   ],
   "attacker": {

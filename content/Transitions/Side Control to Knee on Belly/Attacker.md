@@ -4,7 +4,7 @@
 
 ---
 title: "Side Control to Knee on Belly Attacker | BJJ Technique Guide | BJJ Graph"
-description: "Master attacking the Consolidation to Knee on Belly transition. Complete guide to timing, grip transfers, and explosive knee placement for seamless positional advancement from consolidated side control."
+description: "Master attacking the Side Control to Knee on Belly transition. Complete guide to timing, grip transfers, and explosive knee placement for seamless positional advancement from consolidated side control."
 ---
 
 
@@ -136,7 +136,7 @@ description: "Master attacking the Consolidation to Knee on Belly transition. Co
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Side Control to Knee on Belly Attacker",
-  "description": "Master attacking the Consolidation to Knee on Belly transition. Complete guide to timing, grip transfers, and explosive knee placement for seamless positional advancement from consolidated side control.",
+  "description": "Master attacking the Side Control to Knee on Belly transition. Complete guide to timing, grip transfers, and explosive knee placement for seamless positional advancement from consolidated side control.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -184,7 +184,7 @@ description: "Master attacking the Consolidation to Knee on Belly transition. Co
 
 <section id="overview" class="content-section">
 
-Executing the Consolidation to Knee on Belly transition requires precise coordination between grip transfers, hip elevation, and knee placement. The attacker must time the transition to coincide with reduced defensive activity, using the momentum from consolidated pressure to replace chest weight with knee pressure in a single fluid motion. Success depends on maintaining at least one strong control point throughout the transition while preventing the bottom player from exploiting the brief window of reduced pressure. The transition rewards practitioners who invest in consolidation quality before attempting advancement, as rushing from an unconsolidated position dramatically increases failure rates and counter opportunities.
+Executing the Side Control to Knee on Belly transition requires precise coordination between grip transfers, hip elevation, and knee placement. The attacker must time the transition to coincide with reduced defensive activity, using the momentum from consolidated pressure to replace chest weight with knee pressure in a single fluid motion. Success depends on maintaining at least one strong control point throughout the transition while preventing the bottom player from exploiting the brief window of reduced pressure. The transition rewards practitioners who invest in consolidation quality before attempting advancement, as rushing from an unconsolidated position dramatically increases failure rates and counter opportunities.
 
 **From Position**: [[Positions/Side Control]] (Top)
 
@@ -342,5 +342,7 @@ Begin in consolidated side control with full resistance. Score points for achiev
 This transition involves placing concentrated pressure on the opponent's solar plexus and diaphragm through the knee. In training, insert the knee with controlled force rather than dropping full bodyweight explosively onto the contact point. Monitor your partner's breathing and facial expressions for signs of respiratory distress. Never bounce on the knee to increase pressure during drilling. When practicing with smaller or less experienced partners, reduce initial pressure and allow them to acclimate to the sensation before applying full training intensity. Tap immediately if you feel any sharp pain or cannot breathe during defensive drilling.
 
 </section>
+
+
 
 </main>

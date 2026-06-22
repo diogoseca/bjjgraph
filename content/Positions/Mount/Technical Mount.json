@@ -3,6 +3,7 @@
   "slug": "technical-mount",
   "description": "Master Technical Mount in BJJ. Advanced mount variation with stepped leg creating optimal armbar and triangle angles. Complete guide covering top control, bottom escapes, and submission chains.",
   "variant_uniqueness": "Stepped leg creates armbar angle advantage",
+  "summary": "Technical Mount is an asymmetric mount variation where the top player steps one leg up near the opponent's head, trading some stability for high-percentage armbar, triangle, and back-take attacks while pinning the isolated arm.",
   "overview": "Technical Mount, also known as S-mount, is an advanced mount variation characterized by one leg stepped over the opponent's head while maintaining mount control with the other leg. This asymmetric configuration creates one of the highest percentage positions for finishing armbars and triangles in Brazilian Jiu-Jitsu. The position gets its name from the \"S\" shape formed by the practitioner's legs when viewed from the side, and represents a deliberate sacrifice of some stability in exchange for dramatically increased submission opportunities.\n\nThe position's effectiveness stems from the biomechanical advantages created by the stepped leg placement. The leg positioned over the opponent's head prevents posturing up, isolates one arm for attack, and creates the optimal angle for armbar mechanics. From the bottom perspective, Technical Mount represents one of the most dangerous positions in BJJ, requiring immediate defensive response and escape initiation. The configuration forces the bottom player into a series of defensive dilemmas where protecting against the armbar exposes the neck to triangle attacks, and turning away to escape submissions exposes the back to control.\n\nTechnical Mount is most commonly entered from regular mount during armbar attempts, when the opponent extends their arms defensively, or when standard mount attacks are being effectively defended. The position requires less sustained energy than full mount due to weight distribution on the posted leg, but demands precise timing and technique to enter and maintain effectively. Modern competition BJJ has elevated Technical Mount from a specialized technique to an essential component of mount offense, particularly as defensive skills have advanced and traditional mount attacks have become more difficult to execute against high-level opponents.",
   "key_principles": [
     "Arm isolation precedes position entry - never commit to technical mount without securing control of opponent's extended arm",
@@ -143,7 +144,7 @@
         "condition": "If opponent extends arm defensively while in mount and fails to immediately retract",
         "actions": [
           {
-            "technique": "Mount to Armbar",
+            "technique": "Armbar from Technical Mount",
             "target": "Armbar Control",
             "probability": 70
           },
@@ -188,7 +189,7 @@
         "condition": "If opponent bridges explosively or attempts to roll while arm is controlled",
         "actions": [
           {
-            "technique": "Mount to Armbar",
+            "technique": "Armbar from Technical Mount",
             "target": "Armbar Control",
             "probability": 65
           },
@@ -279,7 +280,7 @@
         "relationship": "Alternative submission - available when opponent creates space defending armbar"
       },
       {
-        "name": "Mount to Armbar",
+        "name": "Armbar from Technical Mount",
         "relationship": "Primary technique - main transition used from this position"
       },
       {
@@ -304,44 +305,44 @@
     },
     "transitions": [
       {
-        "transition": "Mount to Armbar",
-        "attempt_probability": 52
+        "transition": "Armbar from Technical Mount",
+        "attempt_probability": 42
       },
       {
         "transition": "Back Take",
-        "attempt_probability": 20
-      },
-      {
-        "transition": "Consolidate Mount",
-        "attempt_probability": 10
+        "attempt_probability": 18
       },
       {
         "transition": "Triangle Setup",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Consolidate Mount",
         "attempt_probability": 6
       },
       {
         "transition": "Gift Wrap Control",
-        "attempt_probability": 4
+        "attempt_probability": 6
       },
       {
         "transition": "High Mount Transition",
-        "attempt_probability": 3
+        "attempt_probability": 4
       },
       {
         "transition": "Technical Mount to Back Control",
-        "attempt_probability": 1
+        "attempt_probability": 4
       },
       {
         "transition": "Technical Mount to Mount",
-        "attempt_probability": 1
+        "attempt_probability": 4
       },
       {
         "transition": "Technical Mount to S Mount",
-        "attempt_probability": 1
+        "attempt_probability": 4
       },
       {
         "transition": "Americana from Technical Mount",
-        "attempt_probability": 2
+        "attempt_probability": 4
       }
     ]
   },
@@ -575,19 +576,19 @@
     "transitions": [
       {
         "transition": "Elbow Escape to Guard",
-        "attempt_probability": 50
+        "attempt_probability": 40
       },
       {
         "transition": "Hip Escape to Guard",
-        "attempt_probability": 16
+        "attempt_probability": 13
       },
       {
         "transition": "Upa Escape",
-        "attempt_probability": 14
+        "attempt_probability": 10
       },
       {
         "transition": "Shrimp Escape",
-        "attempt_probability": 14
+        "attempt_probability": 10
       },
       {
         "transition": "Bridge and Roll",
@@ -595,15 +596,15 @@
       },
       {
         "transition": "Back Turn from Technical Mount",
-        "attempt_probability": 0
+        "attempt_probability": 3
       },
       {
         "transition": "Escape Technical Mount to Half Guard",
-        "attempt_probability": 0
+        "attempt_probability": 15
       },
       {
         "transition": "Bridge from Technical Mount",
-        "attempt_probability": 1
+        "attempt_probability": 4
       }
     ]
   }

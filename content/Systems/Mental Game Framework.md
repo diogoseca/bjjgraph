@@ -142,10 +142,23 @@ description: "Master the mental game in BJJ competition. Complete psychological 
 }
 </script>
 
-> Mental Game Framework is a intermediate difficulty Competition Strategy system. Integrates 5 components.
 
-**System Type**: Competition Strategy
-**Difficulty Level**: Intermediate
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Mental Game Framework",
+  "description": "The Mental Game Framework is a competition-focused psychological system that builds emotional regulation, breath control, position-based decision trees, and pressure inoculation into measurable, daily mental training for Brazilian Jiu-Jitsu.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Competition Strategy</span>
+<span class="meta-chip">Intermediate difficulty</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -154,7 +167,27 @@ description: "Master the mental game in BJJ competition. Complete psychological 
 
 ## What is Mental Game Framework?
 
-The Mental Game Framework provides a comprehensive psychological approach to Brazilian Jiu-Jitsu competition and training. This system addresses the critical mental components that separate good competitors from great ones: emotional regulation under pressure, strategic decision-making in real-time, and the development of an offensive mindset that maintains composure regardless of position. The framework integrates cognitive strategies, visualization techniques, and pressure inoculation training to build mental resilience. Unlike technical systems that focus purely on physical execution, this framework recognizes that matches are often won or lost based on psychological factors—the ability to stay calm when behind on points, make intelligent decisions when fatigued, and maintain offensive creativity when under defensive pressure. The system is built around three core pillars: pre-competition preparation (visualization, game planning, emotional priming), in-competition execution (breath control, position-based decision trees, energy management), and post-competition analysis (honest self-assessment, pattern recognition, continuous improvement). This holistic approach ensures that mental training becomes as systematic and measurable as physical training.
+**The Mental Game Framework is a competition-focused psychological system that builds emotional regulation, breath control, position-based decision trees, and pressure inoculation into measurable, daily mental training for Brazilian Jiu-Jitsu.**
+
+Two competitors with nearly identical technical games are routinely separated by what happens between the ears—who stays composed when behind on points, who keeps attacking when fatigued, and who makes clean reads under pressure. This system addresses the critical mental components that separate good competitors from great ones: emotional regulation under pressure, strategic decision-making in real-time, and the development of an offensive mindset that maintains composure regardless of position. The framework integrates cognitive strategies, visualization techniques, and pressure inoculation training to build mental resilience. Unlike technical systems that focus purely on physical execution, this framework recognizes that matches are often won or lost based on psychological factors—the ability to stay calm when behind on points, make intelligent decisions when fatigued, and maintain offensive creativity when under defensive pressure. The system is built around three core pillars: pre-competition preparation (visualization, game planning, emotional priming), in-competition execution (breath control, position-based decision trees, energy management), and post-competition analysis (honest self-assessment, pattern recognition, continuous improvement). This holistic approach ensures that mental training becomes as systematic and measurable as physical training.
+
+</section>
+
+
+
+<section id="unlock-graph" class="content-section system-unlock" data-system-unlock hidden>
+
+## Unlock this part of the graph
+
+<p class="section-subtitle">This system teaches the highlighted nodes in the graph. Mark what you already know &mdash; be honest, it's your game.</p>
+
+<div class="system-progress" data-system-progress>
+<svg class="system-progress__ring" viewBox="0 0 44 44" aria-hidden="true"><circle class="system-progress__ring-bg" cx="22" cy="22" r="19"></circle><circle class="system-progress__ring-fill" cx="22" cy="22" r="19"></circle></svg>
+<div class="system-progress__text">You've unlocked <strong class="system-progress__known">0</strong> / <span class="system-progress__total">0</span> techniques in this system</div>
+<button class="system-progress__mark-all" data-mark-system type="button">Mark whole system as known</button>
+</div>
+
+<ul class="system-members" data-system-members></ul>
 
 </section>
 
@@ -345,7 +378,6 @@ Mental game development requires systematic progression from controlled environm
 - [[Positional Sparring]] (Principle) - Training method supporting mental preparation through controlled scenario-based drilling
 - [[Position Chains]] (Principle) - Strategic sequencing requiring mental planning and pre-built decision pathways
 - [[Energy Conservation]] (Principle) - Physical energy management enhanced by emotional regulation and breath control techniques
-- [[Timing and Rhythm]] (Principle) - Match pacing and timing decisions improved through mental clarity and strategic thinking
 - [[Dealing with Pressure]] (Principle) - Core skill developed through pressure inoculation and emotional regulation training
 - [[Defensive Concepts]] (Principle) - Understanding defensive frameworks supports maintaining offensive mindset from disadvantaged positions
 - [[Position-Over-Submission Approach]] (Principle) - Strategic philosophy requiring mental discipline and patient execution

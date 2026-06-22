@@ -10,6 +10,41 @@ description: "Master Dead Orchard Control in BJJ. Strategic guide covering speci
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Dead Orchard Control",
+  "description": "Master Dead Orchard Control in BJJ. Strategic guide covering specialized anaconda variation with enhanced control mechanics, submission threats, and systematic defensive responses.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Dead Orchard Control", "item": "https://bjjgraph.org/Positions/Dead-Orchard-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Dead Orchard Control",
+  "description": "Dead Orchard Control is a 10th Planet anaconda-choke variation that trades an immediate finish for extended front-headlock dominance, systematically dismantling a trapped opponent's defenses while threatening blood chokes and positional advancement.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Dead Orchard Control in BJJ. Strategic guide covering speci
 </div>
 
 <section id="overview" class="content-section">
+
+**Dead Orchard Control is a 10th Planet anaconda-choke variation that trades an immediate finish for extended front-headlock dominance, systematically dismantling a trapped opponent's defenses while threatening blood chokes and positional advancement.**
 
 Dead Orchard Control represents an advanced positional control within Brazilian Jiu-Jitsu, particularly emphasized in the 10th Planet system. This position combines the structural control elements of the anaconda choke with strategic patience and extended dominance, creating a hybrid state between pure submission attempt and positional control. The name reflects the trapped, lifeless quality of the opponent's positioning - caught in a grip that systematically breaks down defensive capabilities while maintaining constant submission threat. Unlike standard anaconda setups that prioritize immediate finishing, Dead Orchard Control emphasizes sustainable pressure application and systematic dismantling of opponent defenses, allowing the practitioner to control timing and choose between maintaining position, advancing to more dominant states, or completing the submission. The position exists in both offensive and defensive contexts, with the top player working to maintain crushing pressure and submission mechanics while the bottom player must navigate a severely compromised defensive scenario with limited mobility and breathing restriction. Understanding both perspectives is essential for complete positional mastery, as the control mechanics, escape principles, and transition opportunities differ dramatically based on which role the practitioner occupies. This position demonstrates the evolution of modern grappling beyond simple submission hunting toward sophisticated positional dominance that creates multiple offensive pathways.
 
@@ -248,5 +285,7 @@ Dead Orchard Control represents an advanced positional control within Brazilian 
 
 
 </section>
+
+
 
 </main>

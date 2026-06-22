@@ -10,6 +10,41 @@ description: "Master the Upa Escape (bridge and roll) from bottom Mount in BJJ. 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Upa Escape",
+  "description": "Master the Upa Escape (bridge and roll) from bottom Mount in BJJ. Complete guide to trapping, bridging mechanics, and reversal timing for all skill levels.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Upa Escape", "item": "https://bjjgraph.org/Transitions/Upa-Escape" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Upa Escape",
+  "description": "The Upa Escape, also called the bridge and roll, is the highest-percentage escape from bottom mount, reversing the opponent by trapping their same-side arm and leg and bridging explosively over the trapped shoulder into top position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Upa Escape (bridge and roll) from bottom Mount in BJJ. 
 
 <section id="overview" class="content-section">
 
-The Upa Escape, also known as the bridge and roll or trap and roll escape, is the most fundamental and highest-percentage escape from bottom mount position. This technique leverages explosive hip power and proper weight distribution to reverse an opponent who has achieved the dominant mount position. The escape works by creating a powerful bridge while simultaneously trapping one of the opponent's arms and the corresponding leg, forcing them to post with their free hand while you drive them over your shoulder. The beauty of the Upa lies in its mechanical efficiency — it does not require superior strength or flexibility, making it accessible to practitioners of all sizes and athletic abilities.
+**The Upa Escape, also called the bridge and roll, is the highest-percentage escape from bottom mount, reversing the opponent by trapping their same-side arm and leg and bridging explosively over the trapped shoulder into top position.**
+
+Taught in virtually every beginner curriculum as the first answer to the crisis of being mounted, the Upa Escape leverages explosive hip power and proper weight distribution to reverse an opponent who has achieved the dominant mount position. The escape works by creating a powerful bridge while simultaneously trapping one of the opponent's arms and the corresponding leg, forcing them to post with their free hand while you drive them over your shoulder. The beauty of the Upa lies in its mechanical efficiency — it does not require superior strength or flexibility, making it accessible to practitioners of all sizes and athletic abilities.
 
 When executed with proper timing and technique, the Upa can completely reverse a seemingly hopeless position, transitioning you from bottom mount into your opponent's closed guard or even to a top position. The technique exploits a fundamental biomechanical principle: the glutes and hamstrings generate more force per unit of muscle mass than almost any other muscle group, and the rotational bridge converts this force into angular momentum that even a much heavier opponent cannot resist when their base is structurally compromised on one side.
 
@@ -201,9 +238,7 @@ The upa escape serves as the foundational mount escape and entry point to unders
 ## Related Techniques
 
 
-- [[Transitions/Elbow Escape to Guard]] - Complementary escape that works when opponent sits back in high mount where upa is less effective
-
-- [[Transitions/Hip Escape to Guard]] - Complementary shrimping escape that creates defensive dilemma with upa
+- [[Transitions/Elbow Escape from Mount]] - Complementary escape that works when opponent sits back in high mount where upa is less effective
 
 - [[Transitions/Frame and Shrimp to Guard]] - Foundational movement pattern for creating escape space from mount
 
@@ -223,9 +258,11 @@ The upa escape serves as the foundational mount escape and entry point to unders
 
 - [[Transitions/Explosive Bridge to Guard Recovery]] - Related explosive bridging escape from mount using similar hip mechanics
 
-- [[Transitions/Scramble to Guard]] - Alternative defensive strategy when upa and other primary escapes are unavailable
+- [[Transitions/Trap and Roll from Mount]] - Closely related bridge-and-roll escape sharing the same trap-and-reversal mechanics
 
 
 </section>
+
+
 
 </main>

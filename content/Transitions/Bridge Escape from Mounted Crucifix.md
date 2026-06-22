@@ -10,6 +10,41 @@ description: "Master the bridge escape from mounted crucifix in BJJ. Learn explo
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Bridge Escape from Mounted Crucifix",
+  "description": "Master the bridge escape from mounted crucifix in BJJ. Learn explosive bridging mechanics, arm extraction timing, and systematic guard recovery methods.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Bridge Escape from Mounted Crucifix", "item": "https://bjjgraph.org/Transitions/Bridge-Escape-from-Mounted-Crucifix" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Bridge Escape from Mounted Crucifix",
+  "description": "The Bridge Escape from Mounted Crucifix is an emergency bottom escape that uses an explosive directional bridge toward the trapped-arm side to disrupt the opponent's leg-based arm control, free the trapped arm, and recover to half guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the bridge escape from mounted crucifix in BJJ. Learn explo
 </div>
 
 <section id="overview" class="content-section">
+
+**The Bridge Escape from Mounted Crucifix is an emergency bottom escape that uses an explosive directional bridge toward the trapped-arm side to disrupt the opponent's leg-based arm control, free the trapped arm, and recover to half guard.**
 
 The bridge escape from mounted crucifix is among the most challenging defensive techniques in Brazilian Jiu-Jitsu, requiring precise timing, explosive hip mechanics, and strategic sequencing to escape one of the sport's most dominant control positions. The mounted crucifix neutralizes the bottom player's primary defensive tools by trapping one or both arms with the top player's legs, making traditional mount escapes impossible without first addressing the arm entanglement. This forces the bottom player to rely entirely on hip-based mechanics to create disruption and escape opportunities.
 
@@ -212,15 +249,17 @@ The bridge escape from mounted crucifix occupies a critical emergency position w
 
 - [[Transitions/Upa Escape]] - Related bridge-based escape mechanic used from standard mount bottom
 
-- [[Transitions/Elbow Escape to Guard]] - Follow-up escape technique used after recovering to mount bottom or half guard
+- [[Transitions/Elbow Escape from Mount]] - Follow-up escape technique used after recovering to mount bottom or half guard
 
 - [[Transitions/Armbar from Crucifix]] - Primary submission threat the top player may attack during escape attempts
 
-- [[Submissions/Choke from Crucifix]] - Neck submission threat requiring defensive priority before bridge attempt
+- [[Positions/Back Control]] - Dangerous advancement the top player may pursue if the escape exposes the back
 
-- [[Submissions/Mounted Crucifix Armbar]] - Specific armbar variation threatening from mounted crucifix during escape
+- [[Transitions/Arm Extraction]] - Core sub-skill required to free the trapped arm during the bridge disruption window
 
 
 </section>
+
+
 
 </main>

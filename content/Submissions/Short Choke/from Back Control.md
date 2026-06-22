@@ -10,10 +10,55 @@ description: "Master the Short Choke from Back Control in BJJ. Learn cross-colla
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Short Choke from Back Control targets the Carotid arteries. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Short Choke from Back Control",
+  "description": "Master the Short Choke from Back Control in BJJ. Learn cross-collar grip mechanics, finishing sequences, and defensive counters for this tight gi blood choke.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Short Choke from Back Control", "item": "https://bjjgraph.org/Submissions/Short-Choke-from-Back-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Short Choke from Back Control",
+  "description": "The Short Choke from Back Control is a gi blood choke that closes two cross-collar grips a short distance apart behind the opponent's neck, occluding both carotid arteries through chest expansion to force a rapid tap.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Short Choke from Back Control is a gi blood choke that closes two cross-collar grips a short distance apart behind the opponent's neck, occluding both carotid arteries through chest expansion to force a rapid tap.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries</span>
+<span class="meta-chip">58% success</span>
+</div>
+
+> [!danger] Safety
+> Short Choke from Back Control targets the Carotid arteries. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -24,58 +69,13 @@ description: "Master the Short Choke from Back Control in BJJ. Learn cross-colla
 
 <section id="overview" class="content-section">
 
-The Short Choke from Back Control is a gi-based blood choke that leverages the attacker's dominant position behind the opponent to establish deep cross-collar grips targeting both carotid arteries. Unlike the Rear Naked Choke which relies on forearm-to-bicep compression, this technique uses the opponent's own gi collar fabric to create a tight cinching mechanism around the neck. The attacker feeds one hand deep into the far-side collar from behind, then grips the near-side collar with the other hand, keeping the distance between grips minimal for maximum choking pressure.
+Set up directly from the seatbelt, the Short Choke turns existing back control into a finish without the attacker ever fighting for the chin. Unlike the Rear Naked Choke which relies on forearm-to-bicep compression, this technique uses the opponent's own gi collar fabric to create a tight cinching mechanism around the neck. The attacker feeds one hand deep into the far-side collar from behind, then grips the near-side collar with the other hand, keeping the distance between grips minimal for maximum choking pressure.
 
 What makes this choke particularly dangerous from back control is the defender's inability to see the grips being established. The natural seatbelt position provides direct collar access, and the transition from harness control to collar grips can happen before the defender recognizes the threat. Once both grips are set, the short distance between hands means the choke reaches full arterial compression rapidly, leaving a narrow defensive window. The hooks or body triangle maintain positional control throughout the finishing sequence, preventing escape during choke application.
 
 Strategically, the Short Choke serves as a high-percentage complement to the Rear Naked Choke from back control. When defenders focus hand fighting on preventing the RNC by protecting below the chin, they often leave collar access exposed along the neck. This creates a systematic attacking dilemma where defending one choking threat opens vulnerability to the other. The gi collar provides a mechanical advantage that bare hands cannot replicate, producing a choke that is extremely difficult to strip once the cross-collar grip achieves proper depth past the centerline of the neck.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries
-**Starting Position**: [[Positions/Back Control]]
-**From Position**: [[Positions/Back Control]] (Top)
-**Success Rate**: 58%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Carotid artery compression leading to loss of consciousness | High | Immediate recovery if released promptly; potential for confusion lasting 30-60 seconds |
-| Trachea compression if technique is misapplied | Medium | 1-3 days of throat soreness; seek medical attention if breathing difficulty persists |
-| Neck strain from rotational pressure | Low | 2-5 days with rest |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training
-
-**Tap Signals**:
-- Verbal tap or verbal signal
-- Physical hand tap on partner or mat
-- Physical foot tap on mat
-- Any distress signal including body going limp
-
-
-**Release Protocol**:
-1. Immediately release lapel grip and remove all pressure from neck
-2. Remove your weight from opponent's torso to allow breathing
-3. Check partner's consciousness and breathing status
-4. If partner is unconscious, elevate legs and monitor airway
-5. Never apply the choke again in the same training session if unconsciousness occurred
-
-
-**Training Restrictions**:
-- Never apply sudden jerking motions with the lapel
-- Never continue pressure after tap signal
-- Never practice on partners with neck injuries or medical conditions
-- Always ensure partner can tap with at least one hand
-- Never use competition speed during initial learning phases
-
+**Starting Position**: [[Positions/Back Control]] · **From**: [[Positions/Back Control]] (Top)
 
 </section>
 
@@ -235,39 +235,59 @@ Strategically, the Short Choke serves as a high-percentage complement to the Rea
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/Bow and Arrow Choke]]
 - [[Submissions/Cross Collar Choke]]
 - [[Submissions/Ezekiel Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Back Control]] - Primary starting position providing dominant chest-to-back control for choke setup
 - [[Positions/Back Control/Seat Belt Control Back]] - Harness grip variation that facilitates transition to cross-collar grips
 - [[Positions/Back Control/Body Triangle]] - Enhanced hip control variation that stabilizes position during collar grip establishment
-- [[Submissions/Bow and Arrow Choke]] - Alternative gi-based collar choke from back control using leg leverage for different finishing angle
-- [[Submissions/Rear Naked Choke]] - Primary no-gi back choke that creates forcing dilemma when paired with Short Choke
+
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Carotid artery compression leading to loss of consciousness | High | Immediate recovery if released promptly; potential for confusion lasting 30-60 seconds |
+| Trachea compression if technique is misapplied | Medium | 1-3 days of throat soreness; seek medical attention if breathing difficulty persists |
+| Neck strain from rotational pressure | Low | 2-5 days with rest |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training
+
+**Tap Signals**:
+- Verbal tap or verbal signal
+- Physical hand tap on partner or mat
+- Physical foot tap on mat
+- Any distress signal including body going limp
+
+
+**Release Protocol**:
+1. Immediately release lapel grip and remove all pressure from neck
+2. Remove your weight from opponent's torso to allow breathing
+3. Check partner's consciousness and breathing status
+4. If partner is unconscious, elevate legs and monitor airway
+5. Never apply the choke again in the same training session if unconsciousness occurred
+
+
+**Training Restrictions**:
+- Never apply sudden jerking motions with the lapel
+- Never continue pressure after tap signal
+- Never practice on partners with neck injuries or medical conditions
+- Always ensure partner can tap with at least one hand
+- Never use competition speed during initial learning phases
 
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Short Choke from Back Control leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

@@ -2,6 +2,7 @@
   "name": "Half Guard",
   "slug": "half-guard",
   "description": "Master Half Guard in BJJ with comprehensive bottom and top strategies. Learn sweeps, passes, and transitions with expert techniques for all skill levels.",
+  "summary": "Half Guard is an asymmetric BJJ position where one player traps a single leg of their opponent between both of their own legs, creating a contested platform for sweeps, passes, submissions, and back takes from either top or bottom.",
   "variant_uniqueness": "Asymmetric leg trap for dynamic offense",
   "overview": "Half Guard represents one of the most strategically complex positions in Brazilian Jiu-Jitsu, existing at the critical intersection between guard retention and being passed. This position is characterized by one player trapping a single leg of their opponent between their own legs, creating an asymmetric control structure that offers unique offensive and defensive possibilities for both practitioners. Unlike symmetric guard positions where both legs are either inside or outside the opponent's legs, Half Guard's one-leg-in, one-leg-out configuration creates distinct mechanical advantages and vulnerabilities that require specialized technical knowledge.\n\nHistorically dismissed as a stalling position or mere transitional state, Half Guard has evolved into a sophisticated offensive system through decades of innovation and refinement. The position's modern development has spawned numerous sub-variations including Deep Half, Lockdown, Knee Shield, Z-Guard, and Butterfly Half, each offering distinct strategic pathways and requiring specific technical responses. This evolution has transformed Half Guard from a last-ditch defensive position into a primary offensive platform capable of generating sweeps, submissions, and back takes at the highest levels of competition.\n\nThe fundamental asymmetry of Half Guard creates a unique positional dynamic where both players have legitimate offensive and defensive options. For the top player, the position represents an incomplete guard pass requiring systematic work to advance, while for the bottom player it offers a platform rich with sweeping, submission, and back-taking opportunities. The trapped leg serves as an anchor point and fulcrum for leverage, while the free leg provides base and mobility for the top player or framing and distance management for the bottom player. The battle for upper body control through underhooks, crossfaces, and frames determines positional hierarchy and dictates available offensive sequences.\n\nModern Half Guard play emphasizes constant movement, systematic position improvement, and the creation of offensive dilemmas that force opponents into defensive reactions. The position rewards technical knowledge and tactical decision-making over raw athleticism, making it an essential component of any complete guard system. Understanding Half Guard's sub-variations and the transitions between them is critical for both players, as the specific configuration of legs, hips, and upper body grips determines which techniques are available and which threats must be addressed.",
   "key_principles": [
@@ -133,43 +134,43 @@
     "transitions": [
       {
         "transition": "Knee Slice Pass",
-        "attempt_probability": 28
+        "attempt_probability": 22
       },
       {
         "transition": "Smash Pass",
-        "attempt_probability": 15
+        "attempt_probability": 11
       },
       {
         "transition": "Underhook Pass",
-        "attempt_probability": 12
+        "attempt_probability": 9
       },
       {
         "transition": "Long Step Pass",
-        "attempt_probability": 8
+        "attempt_probability": 6
       },
       {
         "transition": "Crossface Pass",
-        "attempt_probability": 5
-      },
-      {
-        "transition": "Back Step Pass",
-        "attempt_probability": 5
-      },
-      {
-        "transition": "Over-Under Pass",
         "attempt_probability": 4
       },
       {
-        "transition": "Kimura from Half Guard",
+        "transition": "Back Step Pass",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Over-Under Pass",
         "attempt_probability": 3
+      },
+      {
+        "transition": "Kimura from Half Guard",
+        "attempt_probability": 2
       },
       {
         "transition": "Half Guard to Double Jump",
-        "attempt_probability": 3
+        "attempt_probability": 2
       },
       {
         "transition": "Half Guard to Flattened Half Guard",
-        "attempt_probability": 3
+        "attempt_probability": 2
       },
       {
         "transition": "Crossface to Combat Base",
@@ -198,6 +199,22 @@
       {
         "transition": "Suloev Stretch",
         "attempt_probability": 2
+      },
+      {
+        "transition": "Loop Choke from Half Guard",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Suloev Stretch from Half Guard",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Half Guard to Leg Weave",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Half Guard Whizzer Counter",
+        "attempt_probability": 8
       }
     ],
     "decision_tree": [
@@ -435,35 +452,35 @@
     "transitions": [
       {
         "transition": "Underhook Sweep from Half",
-        "attempt_probability": 19
-      },
-      {
-        "transition": "Half Guard to Back Take",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Old School Sweep",
-        "attempt_probability": 8
-      },
-      {
-        "transition": "Knee Shield Retention",
-        "attempt_probability": 8
-      },
-      {
-        "transition": "Lockdown Recovery",
-        "attempt_probability": 5
-      },
-      {
-        "transition": "Kimura Sweep",
-        "attempt_probability": 5
-      },
-      {
-        "transition": "Deep Half Entry from Half Guard",
         "attempt_probability": 16
       },
       {
+        "transition": "Half Guard to Back Take",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Old School Sweep",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Knee Shield Retention",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Lockdown Recovery",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Kimura Sweep",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Deep Half Entry from Half Guard",
+        "attempt_probability": 14
+      },
+      {
         "transition": "Knee Torque Sweep",
-        "attempt_probability": 5
+        "attempt_probability": 4
       },
       {
         "transition": "Half Guard to X-Guard",
@@ -496,6 +513,18 @@
       {
         "transition": "Buggy Choke",
         "attempt_probability": 2
+      },
+      {
+        "transition": "Buggy Choke from Half Guard",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Kneebar from Half Guard",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Half Guard to Jailbreak",
+        "attempt_probability": 7
       }
     ],
     "decision_tree": [

@@ -164,7 +164,7 @@ description: "Defend the Rear Naked Choke from Body Triangle with chin protectio
 
 Defending against the Rear Naked Choke from Body Triangle is among the most demanding defensive scenarios in grappling because you must address two simultaneous threats — the arterial compression of the choke and the breathing restriction of the body triangle. The locked legs prevent standard back escapes while your opponent's arms systematically work to clear your defensive grips and thread the choking arm under your chin. Successful defense requires immediate chin protection, disciplined hand fighting to prevent the choking arm from advancing, and systematic work to either stall the attack long enough to clear the triangle or create enough positional disruption to escape to a less dangerous position. The breathing restriction adds a time pressure element that demands calm, measured technique rather than panicked scrambling.
 
-**Opponent's Starting Position**: [[Positions/Back Control/Body Triangle]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Back Control/Body Triangle]] (Top)
 
 
 </section>

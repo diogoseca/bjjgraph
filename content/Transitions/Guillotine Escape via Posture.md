@@ -10,6 +10,41 @@ description: "Learn the Guillotine Escape via Posture in BJJ. Master posture mec
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Guillotine Escape via Posture",
+  "description": "Learn the Guillotine Escape via Posture in BJJ. Master posture mechanics, grip breaking, and head extraction to escape guillotine chokes from bottom guard.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Guillotine Escape via Posture", "item": "https://bjjgraph.org/Transitions/Guillotine-Escape-via-Posture" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Guillotine Escape via Posture",
+  "description": "Guillotine Escape via Posture is a defensive transition where the trapped top player walks the knees past the opponent's hips and extends the spine to strip the choking grip and free the head into a top passing position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Learn the Guillotine Escape via Posture in BJJ. Master posture mec
 </div>
 
 <section id="overview" class="content-section">
+
+**Guillotine Escape via Posture is a defensive transition where the trapped top player walks the knees past the opponent's hips and extends the spine to strip the choking grip and free the head into a top passing position.**
 
 The Guillotine Escape via Posture is a fundamental defensive transition used when caught in an opponent's guillotine choke from their bottom guard position. The escape relies on systematic posture recovery—driving the hips forward, walking the knees past the opponent's hips, and using a combination of chin tuck, grip fighting, and spine extension to break the choking grip and extract the head. This is the first-line defense against guillotines and must be drilled until it becomes an automatic response to any guillotine attempt from guard.
 
@@ -222,5 +259,7 @@ The Guillotine Escape via Posture is a cornerstone defensive transition that con
 
 
 </section>
+
+
 
 </main>

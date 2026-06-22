@@ -1,5 +1,6 @@
 {
   "name": "Rolling Back Take Reversal",
+  "summary": "The Rolling Back Take Reversal is an escape from a body triangle in which the trapped defender controls the choking arm, creates a hip angle, and rolls over their own shoulder to reverse the position and take their opponent's back.",
   "description": "Master Rolling Back Take Reversal from body triangle defense. Counter back control with rolling escape to top position achieving back take reversal.",
   "tags": [
     "bjj",
@@ -11,7 +12,7 @@
     "back-take",
     "advanced-technique"
   ],
-  "from_position": "Body Triangle/Top",
+  "from_position": "Body Triangle/Bottom",
   "outcomes": [
     {
       "to": "Back Control/Top",
@@ -19,7 +20,7 @@
       "result": "success"
     },
     {
-      "to": "Body Triangle/Top",
+      "to": "Body Triangle/Bottom",
       "probability": 30,
       "result": "failure"
     },
@@ -136,7 +137,7 @@
         "counter": "Opponent posts their free arm to stop the rolling momentum before it completes",
         "effectiveness": "High",
         "your_response": "Maintain tight two-on-one control on the choking arm and ensure you trap both arms before initiating. If they post, abort and return to standard escape attempts rather than forcing a failed roll.",
-        "targets_outcome": "Body Triangle/Top"
+        "targets_outcome": "Body Triangle/Bottom"
       },
       {
         "counter": "Opponent releases body triangle during roll and scrambles to recover position",
@@ -148,7 +149,7 @@
         "counter": "Opponent flattens you out and drives chest pressure before you can create hip angle",
         "effectiveness": "High",
         "your_response": "This technique requires some space to initiate. If opponent maintains crushing flat pressure, work standard hip escape and hook clearing sequences first to create the necessary angle before attempting the roll.",
-        "targets_outcome": "Body Triangle/Top"
+        "targets_outcome": "Body Triangle/Bottom"
       },
       {
         "counter": "Opponent transitions to mount by releasing triangle and sliding over during your roll attempt",
@@ -278,14 +279,14 @@
       {
         "action": "Post your free arm on the mat immediately when you feel opponent pulling your choking arm across their body",
         "when_to_use": "As soon as you recognize the two-on-one grip on your choking arm and feel them pulling it toward the triangle side",
-        "targets_outcome": "Body Triangle/Top",
+        "targets_outcome": "Body Triangle/Bottom",
         "if_successful": "The posted arm creates an immovable block that prevents the roll from completing, returning opponent to defensive position with depleted energy",
         "risk": "Temporarily reduces your choking threat as your arm is occupied posting rather than attacking the neck"
       },
       {
         "action": "Drive chest forward and flatten opponent to mat while squeezing body triangle tighter to eliminate hip angle",
         "when_to_use": "When you feel opponent shifting their hips or creating an angle toward the triangle side before they initiate the roll",
-        "targets_outcome": "Body Triangle/Top",
+        "targets_outcome": "Body Triangle/Bottom",
         "if_successful": "Eliminates the hip angle needed to initiate rotation and reestablishes dominant chest-to-back pressure, making the roll mechanically impossible",
         "risk": "Aggressive forward pressure may briefly loosen your upper body grip configuration"
       },
@@ -299,14 +300,14 @@
       {
         "action": "Switch your choking arm to the opposite side and attack from a different angle to disrupt opponent's two-on-one grip setup",
         "when_to_use": "Early in the setup when opponent first begins securing grip on your choking arm but before they establish full two-on-one control",
-        "targets_outcome": "Body Triangle/Top",
+        "targets_outcome": "Body Triangle/Bottom",
         "if_successful": "Forces opponent to restart their grip sequence from scratch while you maintain body triangle control and continue hunting submissions",
         "risk": "Momentary reduction in submission threat as you reconfigure your upper body attack angle"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Body Triangle/Top",
+        "outcome": "Body Triangle/Bottom",
         "how": "Shut down the roll attempt by posting your free arm on the mat, driving your chest forward to flatten opponent, and squeezing the body triangle tighter. Once the attempt fails, immediately increase submission pressure while opponent has depleted energy from the failed reversal."
       },
       {

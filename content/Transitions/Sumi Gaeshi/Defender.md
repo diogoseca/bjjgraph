@@ -105,6 +105,7 @@ description: "How to defend against Sumi Gaeshi in BJJ. Recognition cues, defens
   "@type": "WebPage",
   "name": "Sumi Gaeshi Defender",
   "description": "How to defend against Sumi Gaeshi in BJJ. Recognition cues, defensive options, and escape strategies for the sacrifice throw.",
+  "alternateName": ["Corner Throw", "Corner Reversal"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -150,6 +151,9 @@ description: "How to defend against Sumi Gaeshi in BJJ. Recognition cues, defens
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Corner Throw</strong>, <strong>Corner Reversal</strong> <span class="role-hint">(defender)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 Defending against Sumi Gaeshi requires understanding the throw's core mechanics so you can disrupt them before the technique reaches its point of no return. The sacrifice throw relies on three sequential elements: grip establishment with posture break, angular off-balancing to position you over the thrower's center, and the backward drop with circular leg elevation. Your defensive strategy targets each element in sequence, with the earliest interventions being the most effective and requiring the least energy.

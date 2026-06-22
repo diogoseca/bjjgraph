@@ -10,6 +10,41 @@ description: "Master the sprawl defense from standing in BJJ. Complete guide cov
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Sprawl Defense from Standing",
+  "description": "Master the sprawl defense from standing in BJJ. Complete guide covering takedown defense mechanics, front headlock entries, and counterattacking strategies.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Sprawl Defense from Standing", "item": "https://bjjgraph.org/Transitions/Sprawl-Defense-from-Standing" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Sprawl Defense from Standing",
+  "description": "The sprawl defense is a standing takedown counter where you drive your hips back and down onto a shooting opponent's upper back, stuffing their single or double leg and flowing into front headlock control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,13 +57,15 @@ description: "Master the sprawl defense from standing in BJJ. Complete guide cov
 
 <section id="overview" class="content-section">
 
+**The sprawl defense is a standing takedown counter where you drive your hips back and down onto a shooting opponent's upper back, stuffing their single or double leg and flowing into front headlock control.**
+
 The sprawl is the foundational takedown defense in Brazilian Jiu-Jitsu, serving as the primary response when an opponent shoots for a single or double leg takedown. The technique involves rapidly driving your hips backward and downward while posting your hands on the opponent's head and shoulders, creating crushing downward force that kills the forward momentum of their shot and collapses their posture beneath your weight. Proper execution demands explosive hip speed, precise timing, and immediate weight transfer onto the opponent's upper back.
 
 Beyond simple shot defense, the sprawl functions as a critical transition point from defense to offense. A well-timed sprawl immediately places you in position to establish front headlock control, one of the most dangerous offensive positions in modern BJJ. From front headlock, you threaten guillotines, anacondas, darce chokes, and back takes, transforming the opponent's aggressive takedown attempt into a catastrophic positional disadvantage for them.
 
 The strategic depth of the sprawl extends well beyond reactive defense. Advanced practitioners recognize that the sprawl-to-front-headlock sequence creates one of the highest-percentage submission chains available from standing. The key differentiator between competent and elite sprawl defense lies in the seamless transition from stuffing the shot to immediately attacking with chokes or positional advancement, rather than simply returning to neutral standing. Practitioners who bait takedown attempts specifically to trigger their front headlock offense represent the highest evolution of this technique.
 
-**From Position**: [[Positions/Standing Position]] (Bottom)
+**From Position**: [[Positions/Standing Position]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -218,5 +255,7 @@ The sprawl defense occupies a critical junction in the BJJ standing game, connec
 
 
 </section>
+
+
 
 </main>

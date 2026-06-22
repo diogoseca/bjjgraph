@@ -10,6 +10,41 @@ description: "Master the Toss Pass from Double Unders in BJJ. Explosive guard pa
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Toss Pass from Double Unders",
+  "description": "Master the Toss Pass from Double Unders in BJJ. Explosive guard pass redirecting opponent\u0027s legs laterally to establish dominant side control position.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Toss Pass from Double Unders", "item": "https://bjjgraph.org/Transitions/Toss-Pass-from-Double-Unders" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Toss Pass from Double Unders",
+  "description": "The Toss Pass from Double Unders is an explosive guard pass in which the top player uses bilateral underhook control to fling the opponent's trapped legs laterally to one side, clearing them to land directly in side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Toss Pass from Double Unders in BJJ. Explosive guard pa
 
 <section id="overview" class="content-section">
 
-The Toss Pass from Double Unders is an explosive guard passing technique that capitalizes on bilateral underhook control to dynamically redirect the opponent's legs to one side, clearing the path for immediate side control establishment. Unlike the methodical stack pass that folds the opponent vertically, the toss pass uses lateral redirection combined with explosive hip rotation to clear the legs in a single decisive action. This makes it particularly effective against opponents who have adapted their defensive frames to counter vertical stacking pressure, as the lateral force vector attacks a different defensive plane entirely.
+**The Toss Pass from Double Unders is an explosive guard pass in which the top player uses bilateral underhook control to fling the opponent's trapped legs laterally to one side, clearing them to land directly in side control.**
+
+As a passing option within the double unders control system, the toss pass distinguishes itself through speed and directional deception rather than grinding pressure. Unlike the methodical stack pass that folds the opponent vertically, the toss pass uses lateral redirection combined with explosive hip rotation to clear the legs in a single decisive action. This makes it particularly effective against opponents who have adapted their defensive frames to counter vertical stacking pressure, as the lateral force vector attacks a different defensive plane entirely.
 
 The technique operates on the principle of misdirection within the pressure passing framework. By initially driving forward pressure as if attempting a standard stack or fold pass, the passer loads the opponent's defensive reactions in the vertical plane. The sudden lateral redirection catches the defender's frames oriented in the wrong direction, creating a brief window where their defensive structure is completely bypassed. The passer must commit fully to the direction change, following the toss with immediate chest-to-chest contact on the landing side to prevent any guard recovery.
 
@@ -221,5 +258,7 @@ The Toss Pass integrates into the double unders passing system as the lateral co
 
 
 </section>
+
+
 
 </main>

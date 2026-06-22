@@ -13,6 +13,7 @@
   "application_level": "Intermediate",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
+  "summary": "Grips are the continuous battle to establish, break, retain, and prevent points of hand-and-cloth control that determine who can impose their game, dictate exchanges, and access offense across every BJJ position.",
   "overview": "Grips represents the fundamental tactical battle for control through hand engagement that occurs throughout all phases of Brazilian Jiu-Jitsu. Unlike specific techniques or positions, grip fighting encompasses a comprehensive system of establishing, maintaining, breaking, and preventing grips that apply across all positions and transitions. This skill set serves as the foundation for both offensive and defensive BJJ, as grip control largely determines who can impose their game and dictate the direction of exchanges. Grip fighting occurs continuously throughout matches and is often considered the \"invisible game within the game\" that significantly influences outcomes despite being less visually apparent than techniques like sweeps or submissions. The ability to systematically dominate grip exchanges allows practitioners to control tempo, create offensive opportunities, and deny opponents their preferred attacking sequences. Understanding grip hierarchies, biomechanical advantages, and strategic sequencing transforms grip fighting from random hand battling into a sophisticated control system that multiplies the effectiveness of all subsequent techniques.",
   "key_principles": [
     "Establish advantageous grips before opponent secures their preferred controls",
@@ -106,9 +107,9 @@
       "description": "Collar control represents a specific application of grip fighting principles focused on establishing and maintaining collar grips for control and submission opportunities."
     },
     {
-      "principle_name": "Sleeve Control",
-      "relationship_type": "Extension",
-      "description": "Sleeve control applies grip fighting principles to establishing arm and sleeve grips that restrict opponent mobility and create attacking opportunities."
+      "principle_name": "Connection Principles",
+      "relationship_type": "Complementary",
+      "description": "Connection principles govern how grip-derived contact points are linked into a coherent control web, guiding which sleeve, collar, or limb grips to chain together to restrict opponent mobility and create attacking opportunities."
     },
     {
       "principle_name": "Base",
@@ -340,9 +341,9 @@
   ],
   "related_content": [
     {
-      "name": "Timing and Rhythm",
+      "name": "Hand Fighting",
       "content_type": "Principle",
-      "relationship": "Grip fighting timing and rhythm determine success of grip acquisition, breaking, and prevention sequences"
+      "relationship": "Broader category of hand engagement; grip fighting is the offensive control aspect within hand fighting"
     },
     {
       "name": "Connection Principles",
@@ -395,9 +396,51 @@
       "relationship": "Guard built on fundamental grip fighting principle of collar-and-sleeve control"
     },
     {
-      "name": "Guard Opening Sequence",
-      "content_type": "Transition",
-      "relationship": "Grip fighting determines success of guard opening attempts from top position"
+      "name": "Collar Control",
+      "content_type": "Principle",
+      "relationship": "Specialized application of grip fighting focused on establishing and retaining collar grips"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What is grip fighting in BJJ?",
+      "answer": "Grip fighting is the continuous battle to establish, break, retain, and prevent hand-and-cloth controls that decide who can impose their game, dictate exchanges, and access offense across positions."
+    },
+    {
+      "question": "Why should grips be broken with leverage rather than strength?",
+      "answer": "Leverage-based breaking—two-hands-on-one, correct breaking angles, and timing the break to the opponent's movement—conserves energy and works against stronger opponents, whereas muscling grips fatigues you quickly and fails against good structure."
+    },
+    {
+      "question": "What is the difference between grip prevention and grip breaking?",
+      "answer": "Prevention is proactive hand fighting that intercepts a grip before it is established; breaking removes a grip already secured. Prevention is cheaper energetically and keeps you off the defensive rather than fighting uphill."
+    },
+    {
+      "question": "What does grip sequencing mean and why does it matter?",
+      "answer": "Grip sequencing is ordering grip acquisitions so each control enables the next higher-value grip, building cascading advantages that limit the opponent's defensive options and open attacks or positional improvements."
+    },
+    {
+      "question": "How does grip fighting change in no-gi?",
+      "answer": "Without cloth, control shifts to wrists, elbows, head and neck, plus over- and underhooks, with frames and body positioning replacing fabric grips; timing must adapt to the increased slipperiness of skin and compression wear."
+    },
+    {
+      "question": "What is a common error in grip fighting and how do you correct it?",
+      "answer": "A common error is gripping without a clear objective; correct it by tying every grip to a specific technique or positional goal so you only spend energy on grips that advance your game plan."
+    },
+    {
+      "question": "Why is grip hierarchy recognition important?",
+      "answer": "It tells you which grips are dominant versus neutral, which must be broken immediately, and which can be tolerated, so you spend energy on the grip battles that actually decide the position rather than every exchange."
+    },
+    {
+      "question": "In closed guard, which grips should the bottom player prioritize?",
+      "answer": "Cross-collar grips for choke threats and sleeve grips for breaking posture, while denying the opponent's grips on the belt or pants that would let them stand up and re-posture out of danger."
+    },
+    {
+      "question": "How does grip fighting relate to guard passing?",
+      "answer": "Winning the grip exchange is a prerequisite to passing—the passer must secure passing grips on pants or hips while stripping the guard player's retention grips before pressure, speed, or torque passes can work."
+    },
+    {
+      "question": "How can misdirection be used in grip fighting?",
+      "answer": "Threatening or feinting a grip in one area draws a predictable defensive reaction, opening a window to secure your true primary grip elsewhere with far less resistance than a direct attempt would meet."
     }
   ]
 }

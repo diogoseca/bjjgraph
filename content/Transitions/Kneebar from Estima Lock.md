@@ -10,6 +10,41 @@ description: "Master the Kneebar from Estima Lock in BJJ. Convert defended footl
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kneebar from Estima Lock",
+  "description": "Master the Kneebar from Estima Lock in BJJ. Convert defended footlock attempts into devastating kneebar attacks through hip repositioning and chain attacks.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Kneebar from Estima Lock", "item": "https://bjjgraph.org/Transitions/Kneebar-from-Estima-Lock" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kneebar from Estima Lock",
+  "description": "Kneebar from Estima Lock is a leg-lock chain attack that converts a defended inverted footlock into a knee hyperextension by switching the hips from the ankle to across the opponent's knee while maintaining continuous leg isolation.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Kneebar from Estima Lock in BJJ. Convert defended footl
 </div>
 
 <section id="overview" class="content-section">
+
+**Kneebar from Estima Lock is a leg-lock chain attack that converts a defended inverted footlock into a knee hyperextension by switching the hips from the ankle to across the opponent's knee while maintaining continuous leg isolation.**
 
 The Kneebar from Estima Lock represents a critical chain attack within leg lock systems, converting a defended or stalling footlock position into a powerful hyperextension attack on the knee joint. When the opponent successfully neutralizes the Estima Lock's rotational ankle pressure—typically by counter-rotating their foot, creating space with their free leg, or beginning to extract their trapped foot—the attacker redirects to attack the now-exposed knee by repositioning their hips across the opponent's thigh line. This transition moves the attack up the kinematic chain from ankle to knee, exploiting the structural changes the defender creates while escaping the footlock.
 
@@ -202,7 +239,7 @@ The Kneebar from Estima Lock occupies a pivotal position within modern leg lock 
 ## Related Techniques
 
 
-- [[Transitions/Estima Lock]] - Source position from which this kneebar transition initiates
+- [[Positions/Estima Lock Control]] - Source position from which this kneebar transition initiates
 
 - [[Positions/Kneebar Control]] - Target position reached on successful transition completion
 
@@ -226,5 +263,7 @@ The Kneebar from Estima Lock occupies a pivotal position within modern leg lock 
 
 
 </section>
+
+
 
 </main>

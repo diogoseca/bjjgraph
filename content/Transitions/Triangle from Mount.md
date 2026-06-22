@@ -10,6 +10,41 @@ description: "Learn Triangle from Mount in BJJ. Step-by-step setup from 3-4 Moun
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Triangle from Mount",
+  "description": "Learn Triangle from Mount in BJJ. Step-by-step setup from 3-4 Mount to Mounted Triangle control. Success rates: Beginner 25%, Intermediate 45%, Advanced 65%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Triangle from Mount", "item": "https://bjjgraph.org/Transitions/Triangle-from-Mount" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Triangle from Mount",
+  "description": "Triangle from Mount is a submission setup that swings the top player's posted leg over the opponent's shoulder from 3-4 Mount, threading a triangle around their head and trapped arm to reach Mounted Triangle control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Learn Triangle from Mount in BJJ. Step-by-step setup from 3-4 Moun
 </div>
 
 <section id="overview" class="content-section">
+
+**Triangle from Mount is a submission setup that swings the top player's posted leg over the opponent's shoulder from 3-4 Mount, threading a triangle around their head and trapped arm to reach Mounted Triangle control.**
 
 The Triangle from Mount is a high-percentage submission setup that exploits the asymmetric leg configuration of 3-4 Mount to thread a triangle around the opponent's head and arm. The technique capitalizes on the natural positioning advantage of mount—gravity, chest pressure, and arm isolation—to secure a triangle configuration that would be far more difficult to achieve from guard. Because the attacker maintains top position throughout, the bottom player cannot use posture, distance, or stacking to defend in the ways available from closed guard triangle attacks.
 
@@ -222,5 +259,7 @@ Triangle from Mount occupies a central role in the mount attack system, function
 
 
 </section>
+
+
 
 </main>

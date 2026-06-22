@@ -30,6 +30,7 @@
     }
   ],
   "success_rate": 48,
+  "summary": "The guard pass from New York Control is a top-player sequence that extracts the trapped arm from the rubber guard overhook, clears the leg off the shoulder, and drives through to side control while neutralizing triangle, omoplata, and gogoplata threats.",
   "overview": "The guard pass from New York Control addresses one of the most challenging scenarios in modern no-gi grappling: escaping the rubber guard system's sophisticated leg and arm entanglement to achieve a dominant passing position. New York Control traps the top player in a compound web of overhook control and leg pressure draped across the shoulder and back, neutralizing conventional passing mechanics entirely. Standard pressure passing, posture recovery, and grip-break sequences all fail against proper rubber guard structure, requiring a specialized sequential approach where the overhook must be addressed before the leg control can be cleared.\n\nThe passing sequence demands disciplined execution through three distinct phases: arm extraction, posture recovery, and pass completion. Attempting to rush directly to a pass while the overhook remains engaged exposes the top player to triangle, omoplata, and gogoplata threats that the rubber guard system is specifically designed to create. The systematic approach prioritizes removing the bottom player's structural controls in the correct biomechanical order, transforming a trapped defensive position into a legitimate passing opportunity through angular movement rather than brute force.\n\nCompetition application reveals that practitioners unfamiliar with rubber guard defense consistently make the critical error of applying standard forward pressure, which feeds directly into the bottom player's submission chains. The guard pass from New York Control rewards patient execution and mechanical understanding over athletic passing attempts, making it an essential technique for any competitor who may encounter 10th Planet practitioners or rubber guard specialists in tournament settings.",
   "conditions": [
     "Top player is trapped inside New York Control with overhook established on one arm",
@@ -76,10 +77,6 @@
     {
       "name": "Invisible Collar",
       "relationship": "Adjacent rubber guard position that may be encountered during pass attempts"
-    },
-    {
-      "name": "Rubber Guard",
-      "relationship": "Parent guard system containing New York Control and related positions"
     },
     {
       "name": "Combat Base",

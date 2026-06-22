@@ -1,6 +1,7 @@
 {
   "name": "Timing Windows",
   "description": "Master BJJ timing. Learn to recognize transition moments, weight shifts, and breath cycles that create momentary openings for attacks and escapes.",
+  "summary": "Timing windows in BJJ are the brief moments—during transitions, weight shifts, and breath cycles—when an opponent's base or attention is compromised, making a technique succeed with minimal force instead of fighting against full resistance.",
   "tags": [
     "bjj",
     "strategy",
@@ -10,7 +11,7 @@
     "offensive-timing"
   ],
   "category": "Strategy",
-  "overview": "In BJJ, the right technique at the wrong time fails. The wrong technique at the right time often succeeds. Timing is the single most important variable in grappling, and yet it is the one most practitioners spend the least time developing. A bridge executed at the exact moment your opponent reaches for a grip is an escape. The same bridge executed two seconds later, when their weight is settled, is a waste of energy.\n\nTiming windows are the brief moments when your opponent is vulnerable to a specific technique. They open during transitions -- when someone is moving from one position to another, their weight is in motion, and their base is temporarily compromised. They open during weight shifts -- when a top player reaches across your body, their weight lifts off one side. They open during breath cycles -- an exhale momentarily reduces core tension, and an inhale occupies the nervous system with something other than defense. They even open during mental transitions -- the split second after someone successfully defends an attack, when they exhale with relief and momentarily relax.\n\nDeveloping timing awareness requires training your perception more than your body. Most beginners can execute a bridge escape from mount -- the mechanics are not complicated. What separates the white belt from the black belt is that the black belt feels the exact microsecond when the mount rider's weight is committed forward for a choke, and bridges at that instant. The technique is the same. The timing makes it unstoppable.",
+  "overview": "In BJJ, the right technique at the wrong time fails. The wrong technique at the right time often succeeds. Timing is the single most important variable in grappling, and yet it is the one most practitioners spend the least time developing. A bridge executed at the exact moment your opponent reaches for a grip is an escape. The same bridge executed two seconds later, when their weight is settled, is a waste of energy.\n\nTiming windows open during transitions -- when someone is moving from one position to another, their weight is in motion, and their base is temporarily compromised. They open during weight shifts -- when a top player reaches across your body, their weight lifts off one side. They open during breath cycles -- an exhale momentarily reduces core tension, and an inhale occupies the nervous system with something other than defense. They even open during mental transitions -- the split second after someone successfully defends an attack, when they exhale with relief and momentarily relax.\n\nDeveloping timing awareness requires training your perception more than your body. Most beginners can execute a bridge escape from mount -- the mechanics are not complicated. What separates the white belt from the black belt is that the black belt feels the exact microsecond when the mount rider's weight is committed forward for a choke, and bridges at that instant. The technique is the same. The timing makes it unstoppable.",
   "key_takeaways": [
     "The best moment to execute a technique is during your opponent's transition between positions, when their base and frames are in flux",
     "Weight shifts create timing windows: when your opponent reaches, posts, or leans, the side they moved away from becomes vulnerable",
@@ -119,52 +120,57 @@
   ],
   "related_content": [
     {
-      "name": "Principles/Timing and Rhythm",
-      "content_type": "Principle",
-      "relationship": "The foundational principle of timing patterns and rhythmic exploitation in grappling"
-    },
-    {
-      "name": "Principles/Kuzushi",
+      "name": "Kuzushi",
       "content_type": "Principle",
       "relationship": "Off-balancing is most effective when timed to the opponent's natural weight shifts"
     },
     {
-      "name": "Principles/Action and Reaction",
+      "name": "Action and Reaction",
       "content_type": "Principle",
       "relationship": "Reactions create timing windows that can be anticipated and exploited"
     },
     {
-      "name": "Principles/Transition Management",
-      "content_type": "Principle",
-      "relationship": "Managing transitions well means both exploiting timing windows and not creating them for your opponent"
-    },
-    {
-      "name": "Principles/Center of Gravity",
+      "name": "Center of Gravity",
       "content_type": "Principle",
       "relationship": "Weight shifts that create timing windows are movements of the center of gravity"
     },
     {
-      "name": "Learning/Predictable Responses",
+      "name": "Flow Rolling",
+      "content_type": "Principle",
+      "relationship": "Flow rolling builds the sensory awareness needed to feel timing windows open during continuous movement"
+    },
+    {
+      "name": "Energy Conservation",
+      "content_type": "Principle",
+      "relationship": "Well-timed techniques conserve energy by exploiting moments of vulnerability instead of forcing against resistance"
+    },
+    {
+      "name": "Predictable Responses",
       "content_type": "Learning",
       "relationship": "Predictable responses create timing windows when opponents react to stimuli"
     },
     {
-      "name": "Learning/Economy of Motion",
+      "name": "Pattern Interrupts",
+      "content_type": "Learning",
+      "relationship": "Breaking an opponent's rhythm forces transitions that open new timing windows"
+    },
+    {
+      "name": "Economy of Motion",
       "content_type": "Learning",
       "relationship": "Perfect timing eliminates wasted motion because well-timed techniques require minimal effort"
     },
     {
-      "name": "Learning/Technique Chaining",
+      "name": "Technique Chaining",
       "content_type": "Learning",
       "relationship": "Each link in a chain works because the previous technique created a timing window for the next"
     },
     {
-      "name": "Positions/Mount",
+      "name": "Mount",
       "content_type": "Position",
       "relationship": "Mount escapes and mount attacks are heavily timing-dependent based on weight shifts"
     },
     {
-      "name": "Positions/Knee on Belly",
+      "name": "Knee on Belly",
       "content_type": "Position",
       "relationship": "Knee on belly creates timing windows through pressure that provokes defensive reactions"
     }

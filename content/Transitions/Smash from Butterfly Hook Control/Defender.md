@@ -21,7 +21,7 @@ description: "Defend against the Butterfly Smash in BJJ. Recognition cues, defen
     {
       "@type": "HowToStep",
       "name": "Pump hooks explosively and execute butterfly sweep during the weight transfer phase",
-      "text": "When you feel the top player begin shifting weight to one side for the smash, before their knee has passed the hook line If successful: You sweep the opponent using their committed weight distribution against them, achieving mount or top position",
+      "text": "When you feel the top player begin shifting weight to one side for the smash, before their knee has passed the hook line If successful: You sweep the opponent using their committed weight distribution against them, coming up on top while they land on the bottom of half guard",
       "position": 1
     },
     {
@@ -198,8 +198,8 @@ Defending the Butterfly Smash requires the bottom player to recognize early indi
 ### 1. Pump hooks explosively and execute butterfly sweep during the weight transfer phase
 
 - **When to use**: When you feel the top player begin shifting weight to one side for the smash, before their knee has passed the hook line
-- **Targets**: [[Positions/Mount]]
-- **If successful**: You sweep the opponent using their committed weight distribution against them, achieving mount or top position
+- **Targets**: [[Positions/Half Guard]]
+- **If successful**: You sweep the opponent using their committed weight distribution against them, coming up on top while they land on the bottom of half guard
 - **Risk**: If mistimed or the opponent's base is too wide, the pumping action may actually accelerate their drive through the hook
 
 ### 2. Frame against crossface with forearms and hip escape laterally to recover distance and re-insert hooks
@@ -233,9 +233,9 @@ Defending the Butterfly Smash requires the bottom player to recognize early indi
 
 <p class="section-subtitle">What is the best outcome when defending Smash from Butterfly Hook Control?</p>
 
-### → [[Positions/Mount]]
+### → [[Positions/Half Guard]]
 
-Time your hook elevation and butterfly sweep to coincide with the moment the top player commits weight to one side for the smash. Their narrowed base during the weight transfer creates a vulnerability window for sweeping in the opposite direction. Pull with your collar or underhook grip to direct their weight off-balance while pumping the hook on their weakened base side.
+Time your hook elevation and butterfly sweep to coincide with the moment the top player commits weight to one side for the smash. Their narrowed base during the weight transfer creates a vulnerability window for sweeping in the opposite direction. Pull with your collar or underhook grip to direct their weight off-balance while pumping the hook on their weakened base side, coming up on top as they land on the bottom of half guard.
 
 ### → [[Positions/Butterfly Guard/Butterfly Hook Control]]
 

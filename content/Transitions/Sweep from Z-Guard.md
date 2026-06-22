@@ -10,6 +10,41 @@ description: "Master the Z-Guard sweep in BJJ. Complete guide covering knee shie
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Sweep from Z-Guard",
+  "description": "Master the Z-Guard sweep in BJJ. Complete guide covering knee shield leverage, underhook mechanics, and off-balancing techniques from half guard.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Sweep from Z-Guard", "item": "https://bjjgraph.org/Transitions/Sweep-from-Z-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Sweep from Z-Guard",
+  "description": "The Sweep from Z-Guard is a half-guard reversal in which the bottom player extends the high knee shield into the opponent's shoulder while pulling an underhook, tipping them over the trapped leg to land in mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Z-Guard sweep in BJJ. Complete guide covering knee shie
 
 <section id="overview" class="content-section">
 
-The Sweep from Z-Guard is a fundamental offensive technique from the Z-Guard (elevated knee shield half guard) position where the bottom player converts their defensive framing structure into a powerful sweeping mechanism. The technique exploits the unique geometry of Z-Guard by using the elevated knee shield as a primary lever against the opponent's shoulder while the underhook provides directional control for the off-balancing action. Unlike sweeps from traditional half guard that require the bottom player to first overcome significant top pressure, Z-Guard sweeps capitalize on the built-in distance and frame integrity that the position provides, making them executable even against heavier opponents who rely on pressure passing.
+**The Sweep from Z-Guard is a half-guard reversal in which the bottom player extends the high knee shield into the opponent's shoulder while pulling an underhook, tipping them over the trapped leg to land in mount.**
+
+As the primary offensive payoff of the Z-Guard structure, this sweep turns the elevated knee shield from a defensive frame into an attacking platform that puts the bottom player on top. The technique exploits the unique geometry of Z-Guard by using the elevated knee shield as a primary lever against the opponent's shoulder while the underhook provides directional control for the off-balancing action. Unlike sweeps from traditional half guard that require the bottom player to first overcome significant top pressure, Z-Guard sweeps capitalize on the built-in distance and frame integrity that the position provides, making them executable even against heavier opponents who rely on pressure passing.
 
 The sweep operates on a push-pull principle where the knee shield extends forcefully into the opponent's upper body while the underhook simultaneously pulls their weight forward and across. This coordinated action creates a rotational force that tips the opponent over their trapped leg, which serves as the fulcrum point. The bottom player's hips drive upward and laterally to complete the off-balancing, following the opponent's falling weight to establish mount or side control on top. The technique's effectiveness is amplified when the opponent commits forward pressure into the knee shield, as their own momentum becomes the primary force driving the sweep.
 
@@ -212,9 +249,7 @@ The Sweep from Z-Guard occupies a central position in the modern half guard offe
 
 - [[Positions/Dogfight Position]] - Common scramble position when sweep partially succeeds without completing to mount
 
-- [[Transitions/Sweep from Knee Shield]] - Related sweep from similar position using comparable mechanics with different leverage angle
-
-- [[Transitions/Deep Half Entry from Half Guard]] - Chain technique when opponent defends sweep by driving weight forward
+- [[Transitions/Deep Half Entry]] - Chain technique when opponent defends sweep by driving weight forward
 
 - [[Positions/Half Guard/Lockdown]] - Alternative control system that can set up similar sweeping opportunities
 
@@ -222,5 +257,7 @@ The Sweep from Z-Guard occupies a central position in the modern half guard offe
 
 
 </section>
+
+
 
 </main>

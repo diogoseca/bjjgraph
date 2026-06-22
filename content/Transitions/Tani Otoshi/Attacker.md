@@ -125,6 +125,7 @@ description: "How to execute Tani Otoshi in BJJ. Attacking perspective with setu
   "@type": "WebPage",
   "name": "Tani Otoshi Attacker",
   "description": "How to execute Tani Otoshi in BJJ. Attacking perspective with setup, execution steps, and counters.",
+  "alternateName": ["Valley Drop"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -170,6 +171,9 @@ description: "How to execute Tani Otoshi in BJJ. Attacking perspective with setu
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Valley Drop</strong> <span class="role-hint">(attacker)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 Executing Tani Otoshi requires committing fully to a sacrifice motion that exchanges your standing base for a powerful mechanical lever. The attacker must create a lateral angle through footwork, establish strong upper body control, then explosively drop their hips while blocking the opponent's leg at or below the knee. The technique rewards precise timing over raw athleticism - the optimal window opens when the opponent steps forward, shifts weight, or is momentarily distracted by grip exchanges. Success depends on the attacker's ability to maintain pulling pressure through the entire arc of the throw and immediately convert the landing into dominant top position. The psychological element is significant: because you willingly sacrifice your base, opponents who are prepared for traditional forward throws or shot-based takedowns are often caught off guard by the lateral dropping motion.
@@ -331,5 +335,7 @@ Use in competition or competition-level sparring. Develop deceptive setups and e
 When practicing Tani Otoshi, the person being thrown must be taught proper breakfall technique before live drilling, particularly protecting the head and posting the far arm to control landing impact. The thrower must be careful not to drive their blocking leg directly into the opponent's knee joint, which could cause lateral knee ligament damage if executed with excessive force. Practice on appropriate mats with sufficient padding, especially during initial learning phases. When drilling with resistance, communicate clearly about intensity levels to prevent awkward landings. The blocking leg should contact the lower leg or upper shin area rather than directly into the knee. Partners should tap or verbally signal if they feel unstable or unable to safely complete the fall. Never practice this throw on hard surfaces or without proper supervision during the learning phase. Special caution is warranted with heavier training partners, as the combined body weight during the sacrifice can increase impact forces significantly.
 
 </section>
+
+
 
 </main>

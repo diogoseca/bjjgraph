@@ -10,10 +10,55 @@ description: "Master the North-South Choke from Shoulder of Justice with detaile
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: North-South Choke from Shoulder of Justice targets the Carotid arteries. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "North-South Choke from Shoulder of Justice",
+  "description": "Master the North-South Choke from Shoulder of Justice with detailed grip mechanics, transition steps, and finishing pressure. Complete BJJ submission guide.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "North-South Choke from Shoulder of Justice", "item": "https://bjjgraph.org/Submissions/North-South-Choke-from-Shoulder-of-Justice" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "North-South Choke from Shoulder of Justice",
+  "description": "The North-South Choke from Shoulder of Justice is a high-percentage blood choke that threads the choking arm under the neck during the transition out of crushing jaw pressure, compressing both carotid arteries with a gable grip and hip sprawl.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The North-South Choke from Shoulder of Justice is a high-percentage blood choke that threads the choking arm under the neck during the transition out of crushing jaw pressure, compressing both carotid arteries with a gable grip and hip sprawl.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries</span>
+<span class="meta-chip">58% success</span>
+</div>
+
+> [!danger] Safety
+> North-South Choke from Shoulder of Justice targets the Carotid arteries. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,54 +75,7 @@ The setup begins with the cross-face arm sliding from shoulder pressure into an 
 
 This submission chain is particularly effective because the Shoulder of Justice creates a dilemma: endure the jaw pressure or react defensively. Both options feed directly into the North-South Choke entry, making it a natural complement to the pressure-based control strategy that defines the Shoulder of Justice position.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries
-**Starting Position**: [[Positions/Shoulder of Justice]]
-**From Position**: [[Positions/Shoulder of Justice]] (Top)
-**Success Rate**: 58%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Carotid artery compression leading to loss of consciousness | High | Immediate recovery if released promptly; potential for longer-term effects if held after unconsciousness |
-| Tracheal compression and windpipe damage from misaligned grip | Medium | 1-2 weeks with proper medical attention |
-| Cervical spine stress from improper release or forced neck positioning | CRITICAL | Weeks to months depending on severity |
-| Neck strain from explosive bridging attempts under choke pressure | Medium | 3-7 days |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow partner to recognize the danger and tap before full compression
-
-**Tap Signals**:
-- Verbal tap or verbal submission
-- Multiple rapid hand taps on opponent's body
-- Multiple rapid foot taps on the mat
-- Any distress signal including body convulsions or going limp
-- Loss of resistance indicating possible unconsciousness
-
-
-**Release Protocol**:
-1. Immediately release arm pressure and unlock gable grip upon any tap signal
-2. Roll off opponent's head and neck area completely without jerking their neck
-3. Allow opponent to recover in side-lying position with airway clear
-4. Monitor for signs of consciousness and normal breathing patterns
-5. If opponent is unconscious, place in recovery position and alert medical staff immediately
-
-
-**Training Restrictions**:
-- Never apply explosive or jerking pressure to the neck during the choke transition
-- Always ensure partner has clear tap access with at least one hand throughout the sequence
-- Never hold the choke after partner taps or goes limp under any circumstances
-- Beginners should practice only the positional transition and grip placement without applying choking pressure
-- Never use competition speed or full pressure in training—apply progressively and give time to tap
-
+**Starting Position**: [[Positions/Shoulder of Justice]] · **From**: [[Positions/Shoulder of Justice]] (Top)
 
 </section>
 
@@ -242,40 +240,62 @@ This submission chain is particularly effective because the Shoulder of Justice 
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Transitions/Arm Triangle]]
 - [[Submissions/Kimura]]
 - [[Submissions/Americana]]
 - [[Transitions/Darce Choke]]
 - [[Submissions/Ezekiel Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Shoulder of Justice]] - Starting position providing the jaw pressure setup for this choke entry
 - [[Positions/North-South]] - Finishing position where the choke is completed after hip sprawl transition
 - [[Positions/Side Control]] - Parent position category from which Shoulder of Justice derives
-- [[Transitions/Arm Triangle]] - Alternative submission available from the same Shoulder of Justice control when far arm crosses
-- [[Submissions/Kimura]] - Primary alternative submission when opponent extends near arm to relieve jaw pressure
+
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Carotid artery compression leading to loss of consciousness | High | Immediate recovery if released promptly; potential for longer-term effects if held after unconsciousness |
+| Tracheal compression and windpipe damage from misaligned grip | Medium | 1-2 weeks with proper medical attention |
+| Cervical spine stress from improper release or forced neck positioning | CRITICAL | Weeks to months depending on severity |
+| Neck strain from explosive bridging attempts under choke pressure | Medium | 3-7 days |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow partner to recognize the danger and tap before full compression
+
+**Tap Signals**:
+- Verbal tap or verbal submission
+- Multiple rapid hand taps on opponent's body
+- Multiple rapid foot taps on the mat
+- Any distress signal including body convulsions or going limp
+- Loss of resistance indicating possible unconsciousness
+
+
+**Release Protocol**:
+1. Immediately release arm pressure and unlock gable grip upon any tap signal
+2. Roll off opponent's head and neck area completely without jerking their neck
+3. Allow opponent to recover in side-lying position with airway clear
+4. Monitor for signs of consciousness and normal breathing patterns
+5. If opponent is unconscious, place in recovery position and alert medical staff immediately
+
+
+**Training Restrictions**:
+- Never apply explosive or jerking pressure to the neck during the choke transition
+- Always ensure partner has clear tap access with at least one hand throughout the sequence
+- Never hold the choke after partner taps or goes limp under any circumstances
+- Beginners should practice only the positional transition and grip placement without applying choking pressure
+- Never use competition speed or full pressure in training—apply progressively and give time to tap
 
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of North-South Choke from Shoulder of Justice leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

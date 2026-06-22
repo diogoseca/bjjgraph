@@ -10,6 +10,41 @@ description: "Master Mounted Crucifix Entry from S Mount in BJJ. Step-by-step ar
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Mounted Crucifix Entry",
+  "description": "Master Mounted Crucifix Entry from S Mount in BJJ. Step-by-step arm isolation to trap opponent\u0027s limbs and establish dominant crucifix control position.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Mounted Crucifix Entry", "item": "https://bjjgraph.org/Transitions/Mounted-Crucifix-Entry" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Mounted Crucifix Entry",
+  "description": "The Mounted Crucifix Entry is a transition from S Mount where the top player threads a leg over the opponent's exposed far arm to trap both arms, advancing to the dominant Mounted Crucifix control position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Mounted Crucifix Entry from S Mount in BJJ. Step-by-step ar
 </div>
 
 <section id="overview" class="content-section">
+
+**The Mounted Crucifix Entry is a transition from S Mount where the top player threads a leg over the opponent's exposed far arm to trap both arms, advancing to the dominant Mounted Crucifix control position.**
 
 The Mounted Crucifix Entry is an advanced transition that capitalizes on the arm isolation opportunities inherent in S Mount to establish one of the most dominant control positions in Brazilian Jiu-Jitsu. This technique transforms the attacking angle of S Mount into complete upper body control by threading your legs over both of the opponent's arms, effectively removing their primary defensive tools.
 
@@ -218,5 +255,7 @@ The Mounted Crucifix Entry serves as a critical link between S Mount attacking s
 
 
 </section>
+
+
 
 </main>

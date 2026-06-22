@@ -10,6 +10,41 @@ description: "Learn the Straight Armbar from Mounted Crucifix in BJJ. Step-by-st
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Straight Armbar",
+  "description": "Learn the Straight Armbar from Mounted Crucifix in BJJ. Step-by-step arm isolation to hyperextension finish with attacker and defender perspectives.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Straight Armbar", "item": "https://bjjgraph.org/Transitions/Straight-Armbar" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Straight Armbar",
+  "description": "The Straight Armbar is an elbow-hyperextension submission finished by trapping the opponent's extended arm, aligning your hips as a fulcrum against their elbow, and bridging upward while pulling their wrist toward your chest.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,13 +57,15 @@ description: "Learn the Straight Armbar from Mounted Crucifix in BJJ. Step-by-st
 
 <section id="overview" class="content-section">
 
+**The Straight Armbar is an elbow-hyperextension submission finished by trapping the opponent's extended arm, aligning your hips as a fulcrum against their elbow, and bridging upward while pulling their wrist toward your chest.**
+
 The Straight Armbar from Mounted Crucifix exploits the unique arm isolation that the crucifix configuration provides. With one or both of the opponent's arms already trapped by your legs, you have eliminated their primary defensive tools, making the armbar entry significantly more accessible than from standard mount or side control. The technique capitalizes on the opponent's inability to clasp hands, frame against your hips, or create the defensive structures that normally make armbars difficult to secure.
 
 Strategically, the Straight Armbar functions as the primary limb attack within the Mounted Crucifix attack system. When the opponent defends choke attempts by tucking their chin or turning their head, the arm becomes the natural secondary target. The trapped arm is already partially extended and controlled, requiring only the addition of hip pressure across the elbow joint to threaten the finish. This creates the tactical dilemma that makes Mounted Crucifix so dangerous: defending the neck exposes the arm, and defending the arm opens the neck.
 
 The execution demands precise hip positioning and controlled transition from crucifix control to armbar finishing position. The critical challenge is maintaining arm isolation throughout the transition. Rushing the finish before securing proper hip alignment across the elbow is the most common failure point. A systematic approach — isolate, control, align, then extend — produces the highest completion rates and prevents the opponent from extracting the arm during the transition phase.
 
-**From Position**: [[Positions/Armbar Control]] (Top)
+**From Position**: [[Positions/Mount/Mounted Crucifix]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -222,5 +259,7 @@ The Straight Armbar is a core component of the Mounted Crucifix attack system, f
 
 
 </section>
+
+
 
 </main>

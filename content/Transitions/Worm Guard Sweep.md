@@ -10,6 +10,41 @@ description: "Master the Worm Guard Sweep in BJJ. Complete guide to this advance
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Worm Guard Sweep",
+  "description": "Master the Worm Guard Sweep in BJJ. Complete guide to this advanced lapel-based sweep covering setup, execution, counters, and defense for serious gi competitors.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Worm Guard Sweep", "item": "https://bjjgraph.org/Transitions/Worm-Guard-Sweep" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Worm Guard Sweep",
+  "description": "The Worm Guard Sweep is an advanced gi-only lapel sweep where you wrap the opponent's lapel under their trapped leg and elevate, turning that rigid lapel-leg connection into an irresistible off-balancing force that topples them into mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Worm Guard Sweep in BJJ. Complete guide to this advance
 
 <section id="overview" class="content-section">
 
-The Worm Guard Sweep is an advanced gi-specific technique that exploits the unique mechanical properties of the worm guard lapel configuration to generate a powerful off-balancing force against standing or kneeling opponents. By combining the lapel wrap around the opponent's leg with angular hip movement and leg elevation, the sweeper creates a rotational force that the opponent cannot resist because their trapped leg cannot recover base in the direction of the sweep. This mechanical advantage makes the technique effective even against significantly larger opponents who would normally be difficult to sweep with conventional guard techniques.
+**The Worm Guard Sweep is an advanced gi-only lapel sweep where you wrap the opponent's lapel under their trapped leg and elevate, turning that rigid lapel-leg connection into an irresistible off-balancing force that topples them into mount.**
+
+Within the worm guard attacking system, the sweep is the highest-reward weapon, converting the lapel-leg entanglement into a powerful off-balancing force against standing or kneeling opponents. By combining the lapel wrap around the opponent's leg with angular hip movement and leg elevation, the sweeper creates a rotational force that the opponent cannot resist because their trapped leg cannot recover base in the direction of the sweep. This mechanical advantage makes the technique effective even against significantly larger opponents who would normally be difficult to sweep with conventional guard techniques.
 
 The sweep's power derives from the lapel functioning as a rigid lever rather than a flexible grip. Unlike conventional guard sweeps that depend heavily on timing and explosive hip movement, the worm guard sweep converts modest angular hip displacement into substantial off-balancing pressure through the lapel-leg connection. When the sweeper angles their hips and elevates, the opponent's trapped leg becomes a fulcrum that amplifies the sweeping force. The secondary collar or sleeve grip prevents the opponent from posting to recover balance, completing the mechanical trap that makes this sweep so difficult to defend once properly loaded.
 
@@ -220,5 +257,7 @@ The Worm Guard Sweep occupies a central position within the lapel guard ecosyste
 
 
 </section>
+
+
 
 </main>

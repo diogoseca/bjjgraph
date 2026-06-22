@@ -142,11 +142,24 @@ description: "Master inside position in BJJ and wrestling. Learn underhook contr
 }
 </script>
 
-> Inside Position is a medium complexity BJJ principle applicable at the Fundamental level. Develop over Beginner to Advanced.
 
-**Application Level**: Fundamental
-**Complexity**: Medium
-**Development Timeline**: Beginner to Advanced
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Inside Position",
+  "description": "Inside Position is the principle of occupying the space between an opponent's limbs and their torso — via underhooks, inside ties, knees, and hooks — so your strongest, closest controls work inside their defensive framework while theirs are forced to operate at weak, extended range.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Fundamental</span>
+<span class="meta-chip">Medium complexity</span>
+<span class="meta-chip">Beginner to Advanced</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -155,7 +168,9 @@ description: "Master inside position in BJJ and wrestling. Learn underhook contr
 
 ## What is Inside Position?
 
-Inside position is the principle of controlling the space between the opponent's arms and legs — the channel between their limbs and their torso. Whoever occupies this inside space controls the engagement. In the clinch, having double underhooks means you control inside position and can dictate whether the exchange goes to a takedown, a throw, or a body lock. In guard passing, getting your arms inside the opponent's legs rather than outside them gives you inside position to collapse the guard. In guard playing, getting your feet and knees inside the opponent's arms gives you inside position to control distance and create attacks.
+**Inside Position is the principle of occupying the space between an opponent's limbs and their torso — via underhooks, inside ties, knees, and hooks — so your strongest, closest controls work inside their defensive framework while theirs are forced to operate at weak, extended range.**
+
+Across wrestling, judo, and BJJ, the same quiet battle decides most exchanges: who controls the inside. Whoever occupies this inside space controls the engagement. In the clinch, having double underhooks means you control inside position and can dictate whether the exchange goes to a takedown, a throw, or a body lock. In guard passing, getting your arms inside the opponent's legs rather than outside them gives you inside position to collapse the guard. In guard playing, getting your feet and knees inside the opponent's arms gives you inside position to control distance and create attacks.
 
 This principle comes directly from wrestling, where pummeling — the act of fighting for underhooks by swimming your arms inside the opponent's arms — is one of the most fundamental skills taught from day one. In BJJ, the same concept extends beyond the arms to include legs, knees, feet, and even head position. The practitioner with inside position can attack; the practitioner with outside position must first fight to regain inside position before they can advance. This creates a clear hierarchy: establish inside position, then attack.
 
@@ -380,5 +395,7 @@ Practice positions where inside position involves multiple body parts simultaneo
 
 
 </section>
+
+
 
 </main>

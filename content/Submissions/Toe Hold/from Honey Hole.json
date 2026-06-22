@@ -21,6 +21,7 @@
   "starting_position": "Honey Hole",
   "from_position": "Honey Hole/Top",
   "success_rate": 60,
+  "summary": "The Toe Hold from Honey Hole is a rotational foot lock applied from the inside leg triangle, twisting the trapped foot medially with a figure-four grip to attack the ankle and midfoot when the opponent hides their heel.",
   "overview": "The toe hold from Honey Hole exploits the inside leg triangle's complete hip control to attack the foot and ankle when the opponent successfully defends the heel hook. Unlike toe holds from less secure entanglements such as outside ashi garami or standard ashi, the Honey Hole configuration pins the opponent's hip flat through the crossing leg, eliminating the rotational escape that defeats most toe hold attempts from open positions. This positional advantage makes the Honey Hole version substantially more reliable than toe holds applied from inferior control.\n\nStrategically, the toe hold functions as the secondary submission in the Honey Hole attack chain, creating a submission dilemma alongside the inside heel hook. When an opponent hides their heel by curling the foot deep into the attacker's armpit or tucking it behind the hip, the exposed toes and ball of foot become the primary target. The figure-four grip configuration generates rotational force through the ankle and midfoot, attacking the lateral and medial collateral ligaments, toe joints, and the Lisfranc joint simultaneously. The trapped position prevents the opponent from rotating to relieve pressure on these structures.\n\nIn competition, this technique forces opponents to choose between defending the heel hook and exposing their foot, or defending the toe hold and re-exposing the heel. Advanced practitioners chain seamlessly between these attacks, making the Honey Hole one of the most dangerous positions in modern no-gi grappling. The toe hold carries additional danger because the small bones and ligaments of the foot can fail with less force than knee ligaments, requiring heightened awareness from both training partners.",
   "safety_considerations": {
     "injury_risks": [
@@ -83,9 +84,8 @@
     "Inside Heel Hook",
     "Heel Hook",
     "Calf Slicer",
-    "Estima Lock Control",
-    "Achilles Lock",
-    "Inside Heel Hook"
+    "Estima Lock",
+    "Achilles Lock"
   ],
   "related_content": [
     {

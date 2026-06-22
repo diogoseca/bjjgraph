@@ -10,6 +10,41 @@ description: "Master the Reversal from Leg Knot in BJJ. Learn this systematic sw
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Reversal from Leg Knot",
+  "description": "Master the Reversal from Leg Knot in BJJ. Learn this systematic sweep from bottom leg entanglement to mount with detailed execution and defense strategies.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Reversal from Leg Knot", "item": "https://bjjgraph.org/Transitions/Reversal-from-Leg-Knot" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Reversal from Leg Knot",
+  "description": "The Reversal from Leg Knot is a bottom-player counter-sweep that converts a compromised leg entanglement into mount, using coordinated hip rotation and free-leg drive to off-balance the top player while their hands are committed to leg control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Reversal from Leg Knot in BJJ. Learn this systematic sw
 </div>
 
 <section id="overview" class="content-section">
+
+**The Reversal from Leg Knot is a bottom-player counter-sweep that converts a compromised leg entanglement into mount, using coordinated hip rotation and free-leg drive to off-balance the top player while their hands are committed to leg control.**
 
 The Reversal from Leg Knot represents an advanced counter-offensive technique where the bottom player transforms a compromised leg entanglement into a dominant top position. Rather than simply extracting the trapped leg and recovering guard, this technique exploits the mechanical constraints that the leg knot creates for both players, using the entanglement itself as a fulcrum to sweep the top player and achieve mount. The reversal capitalizes on a fundamental tension in leg lock positions: the more the top player commits hands and upper body to controlling the trapped leg and setting up submissions, the more they sacrifice the base stability needed to prevent sweeps.
 
@@ -222,5 +259,7 @@ The Reversal from Leg Knot serves as a critical deterrent within the leg lock me
 
 
 </section>
+
+
 
 </main>

@@ -16,7 +16,7 @@ description: "How to execute the Forward Roll escape from turtle in BJJ. Step-by
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Forward Roll in BJJ",
-  "description": "Step-by-step guide for executing Forward Roll from Truck/Bottom.",
+  "description": "Step-by-step guide for executing Forward Roll from Turtle/Bottom.",
   "step": [
     {
       "@type": "HowToStep",
@@ -180,7 +180,7 @@ description: "How to execute the Forward Roll escape from turtle in BJJ. Step-by
 
 The Forward Roll from the attacker (executor) perspective is a dynamic escape technique initiated from turtle bottom position. Your goal is to use rolling momentum to transition past your opponent's control and recover to seated guard. The technique exploits windows where the opponent has not fully consolidated back control, using the diagonal rolling path across your shoulder and back to move through their control zone faster than they can follow. Timing is critical: the roll must be initiated when opponent's weight is committed forward or during a grip transition, as rolling against a fully settled opponent with hooks and harness will fail. The forward roll demands precise body mechanics including chin tuck, tight ball position, and explosive leg drive to generate sufficient momentum for a complete rotation. Upon completion, immediate guard establishment with active feet and defensive frames determines whether the escape succeeds or the opponent simply follows through to re-establish control.
 
-**From Position**: [[Positions/Twister Control/Truck]] (Bottom)
+**From Position**: [[Positions/Turtle]] (Bottom)
 
 </section>
 
@@ -340,5 +340,7 @@ Integrate forward roll seamlessly into your complete turtle defense during free 
 Forward rolling must be practiced with careful attention to neck safety. Always ensure proper chin tuck before initiating any rolling motion, as failure to protect the neck can result in serious cervical spine injuries including disc herniation and nerve compression. Begin practicing on soft surfaces and progress gradually to competition-grade mats as technique improves. Students with existing neck, shoulder, or back injuries should consult medical professionals before practicing forward rolls. When practicing with partners, ensure adequate space around you to complete the roll without colliding with other practitioners or obstacles. Start with slow, controlled repetitions and gradually increase speed only after mastering proper diagonal rolling mechanics. Never attempt forward rolls on surfaces that are too hard, slippery, or uneven, and always warm up the neck and shoulders thoroughly before drilling.
 
 </section>
+
+
 
 </main>

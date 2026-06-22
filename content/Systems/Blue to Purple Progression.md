@@ -134,10 +134,23 @@ description: "Master the blue to purple belt progression in BJJ. Comprehensive f
 }
 </script>
 
-> Blue to Purple Progression is a intermediate difficulty Training Methodology system. Integrates 5 components.
 
-**System Type**: Training Methodology
-**Difficulty Level**: Intermediate
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Blue to Purple Progression",
+  "description": "The Blue to Purple Progression is a 2-4 year developmental framework that transforms reactive blue belts into proactive purple belts by building specialized guard systems, systematic passing, connected submission chains, and a competition-tested strategic identity.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Training Methodology</span>
+<span class="meta-chip">Intermediate difficulty</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -146,7 +159,27 @@ description: "Master the blue to purple belt progression in BJJ. Comprehensive f
 
 ## What is Blue to Purple Progression?
 
+**The Blue to Purple Progression is a 2-4 year developmental framework that transforms reactive blue belts into proactive purple belts by building specialized guard systems, systematic passing, connected submission chains, and a competition-tested strategic identity.**
+
 The Blue to Purple Belt Progression represents a critical transition in the Brazilian Jiu-Jitsu journey where practitioners move from foundational survival skills to developing coherent offensive and defensive systems. This progression typically requires 2-4 years of consistent training and marks the shift from reactive defense to proactive game planning. At this stage, practitioners must demonstrate technical proficiency across all major positions, develop signature sequences that work against resisting opponents, and show the ability to chain techniques together fluidly. The purple belt represents functional competence - the ability to impose your game on training partners while defending effectively against most attacks. This system provides a structured framework for blue belts to identify technical gaps, develop strategic depth, and prepare for the increased expectations of purple belt performance. Success at this level requires not just accumulating techniques, but understanding how to connect positions, recognize patterns, and execute plans under pressure.
+
+</section>
+
+
+
+<section id="unlock-graph" class="content-section system-unlock" data-system-unlock hidden>
+
+## Unlock this part of the graph
+
+<p class="section-subtitle">This system teaches the highlighted nodes in the graph. Mark what you already know &mdash; be honest, it's your game.</p>
+
+<div class="system-progress" data-system-progress>
+<svg class="system-progress__ring" viewBox="0 0 44 44" aria-hidden="true"><circle class="system-progress__ring-bg" cx="22" cy="22" r="19"></circle><circle class="system-progress__ring-fill" cx="22" cy="22" r="19"></circle></svg>
+<div class="system-progress__text">You've unlocked <strong class="system-progress__known">0</strong> / <span class="system-progress__total">0</span> techniques in this system</div>
+<button class="system-progress__mark-all" data-mark-system type="button">Mark whole system as known</button>
+</div>
+
+<ul class="system-members" data-system-members></ul>
 
 </section>
 
@@ -342,19 +375,13 @@ Purple belt progression requires structured drilling that emphasizes repetition,
 - [[Butterfly Guard]] (Position) - Dynamic guard system emphasizing elevation sweeps and quick transitions to dominant positions
 - [[Mount]] (Position) - Dominant position requiring ability to maintain control and finish submissions against competent escape attempts
 - [[Back Control]] (Position) - Highest-value position in BJJ requiring systematic approach to achieve and maintain against defensive efforts
-- [[Side Control]] (Position) - Fundamental top position for developing pressure passing and transitional control skills
-- [[X-Guard]] (Position) - Advanced guard system providing technical sweeps and transitions valuable for purple belt development
 - [[Knee on Belly]] (Position) - Transitional control position useful for maintaining top pressure while setting up submissions
-- [[Hip Bump Sweep]] (Transition) - Fundamental closed guard sweep teaching timing and opponent reaction principles
-- [[Scissor Sweep]] (Transition) - High-percentage closed guard sweep requiring proper angle creation and base disruption
 - [[Butterfly Sweep]] (Transition) - Essential elevation sweep demonstrating hook usage and elevation mechanics
-- [[Kimura to Back Take]] (Transition) - Critical connection showing how submission threats create positional advancement opportunities
-- [[Triangle Setup]] (Transition) - Fundamental submission entry teaching angle creation and arm isolation from guard
-- [[Knee Slice Pass]] (Transition) - Systematic guard pass requiring understanding of pressure, base, and guard retention counters
-- [[Side Control Escape]] (Transition) - Essential defensive sequence requiring frame creation and hip escape mechanics
-- [[Elbow Escape to Guard]] (Transition) - Fundamental escape from mount and side control teaching shrimping and guard recovery
-- [[Pass to Side Control]] (Transition) - Generic passing principles applicable across multiple guard types requiring systematic development
+- [[Arm Drag]] (Transition) - Fundamental connection teaching off-balancing and angle creation for back-takes and sweeps
 - [[Back Take]] (Transition) - Universal back-taking principles applicable from multiple positions and situations
+- [[Berimbolo Entry]] (Transition) - Modern open-guard back-take sequence rewarding inversion timing and grip control at purple belt level
+- [[Triangle Setup]] (Transition) - Fundamental submission entry teaching angle creation and arm isolation from guard
+- [[Back Step Pass]] (Transition) - Systematic guard pass requiring understanding of pressure, base, and guard retention counters
 - [[Positional Hierarchy]] (Principle) - Fundamental concept governing strategic decision-making and position advancement priorities
 - [[Defensive Concepts]] (Principle) - Critical defensive framework covering guard retention, escape timing, and position recovery principles
 - [[Guard Passing]] (Principle) - Systematic approach to defeating guards through posture, pressure, and connection breaking
@@ -363,8 +390,12 @@ Purple belt progression requires structured drilling that emphasizes repetition,
 - [[Base]] (Principle) - Fundamental principle preventing sweeps and maintaining postural stability in all positions
 - [[Kuzushi]] (Principle) - Technical framework for understanding base disruption and elevation principles across sweep types
 - [[Escape Fundamentals]] (Principle) - Systematic approach to defensive positioning and position recovery from bad situations
+- [[Position Chains]] (Principle) - Core concept linking positions into connected sequences that define purple belt game development
+- [[Competition Mindset]] (Principle) - Mental framework for managing pressure, executing game plans, and adapting during competitive matches
 - [[Competition Strategy]] (System) - Framework for tournament preparation and strategic game planning under competitive pressure
 - [[Roger Gracie Fundamental System]] (System) - Exemplary model of fundamental mastery and positional dominance appropriate for purple belt study
+- [[Kimura Trap System]] (System) - Control-to-submission framework that connects top control to submissions and back-takes for top-game development
+- [[Marcelo Garcia Butterfly Guard System]] (System) - Model open-guard system demonstrating chained sweeps and back-takes appropriate for guard specialization
 
 
 </section>

@@ -30,7 +30,8 @@
     }
   ],
   "success_rate": 55,
-  "overview": "The Russian Lasso Sweep is a high-percentage rotational sweep executed from the Russian Leg Lasso guard, leveraging the deep lasso configuration to generate powerful torque that breaks the opponent's base and deposits the sweeper in side control. The technique exploits the mechanical fulcrum created by the lasso leg—the sweeper's shin crosses the opponent's tricep with the foot positioned near the shoulder, creating a pivot point around which rotational force is amplified through coordinated collar and sleeve grips.\n\nWhat distinguishes this sweep from standard lasso sweeps is the enhanced force generation made possible by the Russian variation's deeper lasso threading and strategic grip placement. The far-side collar grip provides the directional pull that breaks posture, while the sleeve grip prevents the opponent from posting or creating base. When the sweeper elevates their hips and initiates the rotation, the combined mechanical advantage from these three control points creates a sweep that is extremely difficult to resist once properly loaded.\n\nTiming is the critical variable—the sweep achieves maximum effectiveness when the opponent commits their weight forward to address the lasso threat or reaches to break the collar grip, creating the momentary base disruption that allows rotational mechanics to overcome their stability. Elite practitioners use the sweep threat as the primary forcing function within the Russian Leg Lasso system, where the opponent's defensive reactions to the sweep open secondary attack paths into triangles, omoplatas, and back takes.",
+  "summary": "The Russian Lasso Sweep is a rotational gi sweep from Russian Leg Lasso guard that turns the deep lasso into a fulcrum and, with coordinated collar and sleeve grips, topples the passer into side control.",
+  "overview": "Built on the competitive evolution of the lasso guard, this sweep is the offensive centerpiece of the Russian Leg Lasso system, where the extra grip layers trade energy for the rotational power needed to defeat increasingly sophisticated passers. The technique exploits the mechanical fulcrum created by the lasso leg—the sweeper's shin crosses the opponent's tricep with the foot positioned near the shoulder, creating a pivot point around which rotational force is amplified through coordinated collar and sleeve grips.\n\nWhat distinguishes this sweep from standard lasso sweeps is the enhanced force generation made possible by the Russian variation's deeper lasso threading and strategic grip placement. The far-side collar grip provides the directional pull that breaks posture, while the sleeve grip prevents the opponent from posting or creating base. When the sweeper elevates their hips and initiates the rotation, the combined mechanical advantage from these three control points creates a sweep that is extremely difficult to resist once properly loaded.\n\nTiming is the critical variable—the sweep achieves maximum effectiveness when the opponent commits their weight forward to address the lasso threat or reaches to break the collar grip, creating the momentary base disruption that allows rotational mechanics to overcome their stability. Elite practitioners use the sweep threat as the primary forcing function within the Russian Leg Lasso system, where the opponent's defensive reactions to the sweep open secondary attack paths into triangles, omoplatas, and back takes.",
   "conditions": [
     "Deep Russian Leg Lasso established with foot positioned near or past opponent's shoulder",
     "Far-side collar grip secured providing posture control and directional pull",
@@ -70,15 +71,11 @@
       "relationship": "Primary target position achieved on successful sweep completion"
     },
     {
-      "name": "Lasso Sweep",
-      "relationship": "Related sweep from standard lasso guard using similar rotational mechanics"
+      "name": "Inverted Lasso Guard",
+      "relationship": "Alternative lasso configuration with different mechanical properties and force vectors"
     },
     {
-      "name": "Inverted Lasso Sweep",
-      "relationship": "Alternative lasso sweep variation with different angle and force vector"
-    },
-    {
-      "name": "Omoplata from Lasso",
+      "name": "Omoplata Control",
       "relationship": "Chain attack when opponent defends sweep by posting hand"
     },
     {
@@ -94,8 +91,12 @@
       "relationship": "Related guard sharing grip configurations and transition pathways"
     },
     {
-      "name": "Inverted Lasso Guard",
-      "relationship": "Alternative lasso configuration with different mechanical properties"
+      "name": "Triangle Control",
+      "relationship": "Secondary submission entry when opponent defends the sweep by posturing"
+    },
+    {
+      "name": "Spider Guard",
+      "relationship": "Related gi open guard sharing sleeve-and-shin control and sweep mechanics"
     }
   ],
   "attacker": {

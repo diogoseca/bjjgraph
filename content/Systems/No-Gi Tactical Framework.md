@@ -148,10 +148,23 @@ description: "Complete strategic framework for no-gi grappling. Master body lock
 }
 </script>
 
-> No-Gi Tactical Framework is a intermediate difficulty Competition Strategy system. Integrates 5 components.
 
-**System Type**: Competition Strategy
-**Difficulty Level**: Intermediate
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "No-Gi Tactical Framework",
+  "description": "The No-Gi Tactical Framework is a strategic system for grip-free grappling that replaces gi controls with body locks, underhooks, and front-headlock pressure to chain takedowns, leg entanglements, and back attacks into competition-ready submission sequences.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Competition Strategy</span>
+<span class="meta-chip">Intermediate difficulty</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -160,7 +173,27 @@ description: "Complete strategic framework for no-gi grappling. Master body lock
 
 ## What is No-Gi Tactical Framework?
 
-The No-Gi Tactical Framework is a comprehensive strategic approach to Brazilian Jiu-Jitsu practiced without the traditional gi. This system addresses the unique challenges and opportunities presented by no-gi grappling, where the absence of collar and sleeve grips fundamentally changes position control, submission mechanics, and transitional strategies. The framework emphasizes body lock controls, underhook battles, and explosive movements that capitalize on reduced friction and grip security. Unlike gi-based systems that rely heavily on fabric manipulation, this tactical approach prioritizes frames, body positioning, and dynamic transitions that account for the slippery nature of skin-on-skin or rashguard contact. The system integrates modern leg attack entries, back exposure opportunities, and submission chains optimized for no-gi competition rules, making it essential for MMA fighters, submission grappling competitors, and practitioners seeking a well-rounded grappling game applicable across rule sets.
+**The No-Gi Tactical Framework is a strategic system for grip-free grappling that replaces gi controls with body locks, underhooks, and front-headlock pressure to chain takedowns, leg entanglements, and back attacks into competition-ready submission sequences.**
+
+As submission grappling and MMA have surged in popularity, the demands of competing without collar and sleeve grips have reshaped how serious practitioners build their games. This system addresses the unique challenges and opportunities presented by no-gi grappling, where the absence of collar and sleeve grips fundamentally changes position control, submission mechanics, and transitional strategies. The framework emphasizes body lock controls, underhook battles, and explosive movements that capitalize on reduced friction and grip security. Unlike gi-based systems that rely heavily on fabric manipulation, this tactical approach prioritizes frames, body positioning, and dynamic transitions that account for the slippery nature of skin-on-skin or rashguard contact. The system integrates modern leg attack entries, back exposure opportunities, and submission chains optimized for no-gi competition rules, making it essential for MMA fighters, submission grappling competitors, and practitioners seeking a well-rounded grappling game applicable across rule sets.
+
+</section>
+
+
+
+<section id="unlock-graph" class="content-section system-unlock" data-system-unlock hidden>
+
+## Unlock this part of the graph
+
+<p class="section-subtitle">This system teaches the highlighted nodes in the graph. Mark what you already know &mdash; be honest, it's your game.</p>
+
+<div class="system-progress" data-system-progress>
+<svg class="system-progress__ring" viewBox="0 0 44 44" aria-hidden="true"><circle class="system-progress__ring-bg" cx="22" cy="22" r="19"></circle><circle class="system-progress__ring-fill" cx="22" cy="22" r="19"></circle></svg>
+<div class="system-progress__text">You've unlocked <strong class="system-progress__known">0</strong> / <span class="system-progress__total">0</span> techniques in this system</div>
+<button class="system-progress__mark-all" data-mark-system type="button">Mark whole system as known</button>
+</div>
+
+<ul class="system-members" data-system-members></ul>
 
 </section>
 

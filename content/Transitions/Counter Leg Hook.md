@@ -10,6 +10,41 @@ description: "Master the Counter Leg Hook in BJJ. Defensive counter from leg hoo
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Counter Leg Hook",
+  "description": "Master the Counter Leg Hook in BJJ. Defensive counter from leg hook bottom using explosive hip movement and frames to escape to turtle or recover guard.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Counter Leg Hook", "item": "https://bjjgraph.org/Transitions/Counter-Leg-Hook" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Counter Leg Hook",
+  "description": "The Counter Leg Hook is a defensive transition from leg hook bottom where the bottom player strips the top player's controlling hook using hip movement and frames to escape to turtle or recover half guard before the pass completes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Counter Leg Hook in BJJ. Defensive counter from leg hoo
 
 <section id="overview" class="content-section">
 
-The Counter Leg Hook is a defensive transition executed from leg hook bottom position when the top player has established a controlling hook during the half guard passing sequence. Rather than passively accepting the pass, the bottom player actively disrupts the hook control through a combination of hip movement, frame creation, and explosive directional changes designed to either turtle up before the pass completes or recover to a more defensible half guard configuration.
+**The Counter Leg Hook is a defensive transition from leg hook bottom where the bottom player strips the top player's controlling hook using hip movement and frames to escape to turtle or recover half guard before the pass completes.**
+
+Sitting at a high-pressure junction of the half guard passing sequence, the Counter Leg Hook gives the bottom player a proactive answer to a top player who has already established a controlling hook. Rather than passively accepting the pass, the bottom player actively disrupts the hook control through a combination of hip movement, frame creation, and explosive directional changes designed to either turtle up before the pass completes or recover to a more defensible half guard configuration.
 
 This counter relies on precise timing and understanding of the top player's weight distribution. The optimal window occurs when the top player commits their weight forward to advance the pass or shifts their base to consolidate the hook. During these moments of transitional instability, the bottom player can exploit the weight commitment by moving perpendicular to the pressure, creating enough space to either pull the hooked leg free and turtle defensively, or re-establish guard hooks for half guard recovery.
 
@@ -221,5 +258,7 @@ The Counter Leg Hook occupies a critical defensive node in the half guard retent
 
 
 </section>
+
+
 
 </main>

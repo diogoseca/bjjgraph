@@ -10,10 +10,55 @@ description: "Master the toe hold finish from ushiro ashi-garami with complete g
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Toe Hold from Ushiro Ashi-Garami targets the Ankle, toes, and foot ligaments. Risk: Ankle ligament tears (lateral and medial collateral ligaments). Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Toe Hold from Ushiro Ashi-Garami",
+  "description": "Master the toe hold finish from ushiro ashi-garami with complete grip mechanics, step-by-step execution, safety protocols, and proven defensive counters.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Toe Hold from Ushiro Ashi-Garami", "item": "https://bjjgraph.org/Submissions/Toe-Hold-from-Ushiro-Ashi-Garami" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Toe Hold from Ushiro Ashi-Garami",
+  "description": "The toe hold from ushiro ashi-garami is a rotational ankle lock applied from the reversed leg entanglement, using a figure-four foot grip to twist the trapped foot toward the opponent's outside hip when their inversion limits heel hook access.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The toe hold from ushiro ashi-garami is a rotational ankle lock applied from the reversed leg entanglement, using a figure-four foot grip to twist the trapped foot toward the opponent's outside hip when their inversion limits heel hook access.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Leg Lock</span>
+<span class="meta-chip">Targets Ankle, toes, and foot ligaments</span>
+<span class="meta-chip">50% success</span>
+</div>
+
+> [!danger] Safety
+> Toe Hold from Ushiro Ashi-Garami targets the Ankle, toes, and foot ligaments. Primary risk: Ankle ligament tears (lateral and medial collateral ligaments). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,57 +75,7 @@ From ushiro ashi-garami top, the attacker cups the opponent's toes and ball of t
 
 Strategically, the toe hold from ushiro serves as a critical secondary attack when heel hook access is limited by the reversed configuration. Advanced leg lock practitioners use the toe hold threat to force defensive reactions that expose the heel, creating a submission chain between toe hold attempts and heel hook entries. This dual-threat approach transforms the ushiro position from a transitional scramble into a genuine finishing platform.
 
-**Category**: Joint Lock
-**Type**: Leg Lock
-**Target Area**: Ankle, toes, and foot ligaments
-**Starting Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
-**From Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Top)
-**Success Rate**: 50%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Ankle ligament tears (lateral and medial collateral ligaments) | High | 6-12 weeks with potential for chronic instability |
-| Toe fractures and dislocations | Medium | 4-8 weeks |
-| Plantar fascia rupture | High | 8-16 weeks |
-| Lisfranc joint injury (midfoot dislocation) | CRITICAL | 3-6 months, may require surgery |
-| Achilles tendon strain | Medium | 4-6 weeks |
-
-
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum from initial grip to any pressure. The reversed ushiro angle amplifies rotational force unpredictably. This is NOT a technique to snap on in training.
-
-**Tap Signals**:
-- Verbal tap (say 'tap' loudly)
-- Physical hand tap on partner or mat (multiple taps)
-- Physical foot tap with free leg
-- Any verbal distress signal
-- Slapping the mat with hand
-
-
-**Release Protocol**:
-1. Immediately stop all rotational pressure on the foot
-2. Release the figure-four grip and free the toes completely
-3. Release heel and ankle control
-4. Allow opponent's foot to return to neutral position naturally without abrupt release
-5. Maintain light contact until opponent signals they are okay
-6. Check with training partner before continuing the round
-
-
-**Training Restrictions**:
-- Never apply sudden rotational force - all pressure must be gradual and controlled
-- Never grip individual toes - always grip across multiple toes and ball of foot
-- Never combine with explosive hip extension while the grip is locked
-- Always allow clear tap access for both of your partner's hands
-- Stop immediately at any sign of discomfort or popping sensation
-- Never train this submission at competition speed during drilling
-
+**Starting Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] · **From**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Top)
 
 </section>
 
@@ -227,40 +222,65 @@ Strategically, the toe hold from ushiro serves as a critical secondary attack wh
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Transitions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
 - [[Submissions/Achilles Lock]]
 - [[Submissions/Calf Slicer]]
-- [[Positions/Estima Lock Control]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
+- [[Transitions/Estima Lock]]
 - [[Positions/Ashi Garami/Ushiro Ashi-Garami]] - Primary starting position providing the reversed entanglement for this toe hold variant
-- [[Submissions/Inside Heel Hook]] - Primary alternative submission from the same position that chains with toe hold threats
-- [[Transitions/Heel Hook]] - Higher-percentage leg lock finish that forms a submission chain with the toe hold
 - [[Positions/Ashi Garami/Outside Ashi-Garami]] - Standard entanglement that transitions to ushiro configuration during opponent inversion
 - [[Positions/Ashi Garami/Saddle]] - High-control entanglement position where similar toe hold mechanics apply
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Ankle ligament tears (lateral and medial collateral ligaments) | High | 6-12 weeks with potential for chronic instability |
+| Toe fractures and dislocations | Medium | 4-8 weeks |
+| Plantar fascia rupture | High | 8-16 weeks |
+| Lisfranc joint injury (midfoot dislocation) | CRITICAL | 3-6 months, may require surgery |
+| Achilles tendon strain | Medium | 4-6 weeks |
+
+
+**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum from initial grip to any pressure. The reversed ushiro angle amplifies rotational force unpredictably. This is NOT a technique to snap on in training.
+
+**Tap Signals**:
+- Verbal tap (say 'tap' loudly)
+- Physical hand tap on partner or mat (multiple taps)
+- Physical foot tap with free leg
+- Any verbal distress signal
+- Slapping the mat with hand
+
+
+**Release Protocol**:
+1. Immediately stop all rotational pressure on the foot
+2. Release the figure-four grip and free the toes completely
+3. Release heel and ankle control
+4. Allow opponent's foot to return to neutral position naturally without abrupt release
+5. Maintain light contact until opponent signals they are okay
+6. Check with training partner before continuing the round
+
+
+**Training Restrictions**:
+- Never apply sudden rotational force - all pressure must be gradual and controlled
+- Never grip individual toes - always grip across multiple toes and ball of foot
+- Never combine with explosive hip extension while the grip is locked
+- Always allow clear tap access for both of your partner's hands
+- Stop immediately at any sign of discomfort or popping sensation
+- Never train this submission at competition speed during drilling
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Toe Hold from Ushiro Ashi-Garami leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

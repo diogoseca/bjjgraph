@@ -148,10 +148,23 @@ description: "Master systematic submission hunting from dominant positions in BJ
 }
 </script>
 
-> Submission Clinic System is a advanced difficulty Attack System system. Integrates 6 components.
 
-**System Type**: Attack System
-**Difficulty Level**: Advanced
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Submission Clinic System",
+  "description": "The Submission Clinic System is an attack framework that establishes dominant control first, then chains submission threats from mount, back, side control, and guard so each defensive reaction the opponent gives opens the next finish.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Attack System</span>
+<span class="meta-chip">Advanced difficulty</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -160,11 +173,31 @@ description: "Master systematic submission hunting from dominant positions in BJ
 
 ## What is Submission Clinic System?
 
-The Submission Clinic System represents a comprehensive framework for systematically attacking submissions from dominant positions. Rather than hunting for isolated finishes, this system emphasizes positional dominance first, then creates multiple submission threats that force the opponent into defensive dilemmas. Each defensive reaction opens new attacking pathways, creating an endless cycle of threats.
+**The Submission Clinic System is an attack framework that establishes dominant control first, then chains submission threats from mount, back, side control, and guard so each defensive reaction the opponent gives opens the next finish.**
+
+Born from the modern competitive emphasis on relentless finishing pressure, the Submission Clinic System grew out of the realization that a dominant position is only valuable when it is converted into threats. Rather than hunting for isolated finishes, this system emphasizes positional dominance first, then creates multiple submission threats that force the opponent into defensive dilemmas. Each defensive reaction opens new attacking pathways, creating an endless cycle of threats.
 
 This system integrates seamlessly across mount, back control, side control, and guard positions, teaching practitioners to maintain control while presenting constant submission danger. The key is never committing fully to one submission, but rather using each attempt to improve position or transition to the next threat. By mastering this system, practitioners develop the ability to finish opponents who are desperately defending, using their defensive reactions as the roadmap to victory.
 
 The Submission Clinic System is particularly effective in competition and high-level training because it removes the opponent's ability to rest or recover. Every moment in a dominant position becomes an opportunity for attack, and every defensive movement creates new vulnerabilities. This constant pressure breaks down even experienced grapplers, leading to either submission or complete positional dominance.
+
+</section>
+
+
+
+<section id="unlock-graph" class="content-section system-unlock" data-system-unlock hidden>
+
+## Unlock this part of the graph
+
+<p class="section-subtitle">This system teaches the highlighted nodes in the graph. Mark what you already know &mdash; be honest, it's your game.</p>
+
+<div class="system-progress" data-system-progress>
+<svg class="system-progress__ring" viewBox="0 0 44 44" aria-hidden="true"><circle class="system-progress__ring-bg" cx="22" cy="22" r="19"></circle><circle class="system-progress__ring-fill" cx="22" cy="22" r="19"></circle></svg>
+<div class="system-progress__text">You've unlocked <strong class="system-progress__known">0</strong> / <span class="system-progress__total">0</span> techniques in this system</div>
+<button class="system-progress__mark-all" data-mark-system type="button">Mark whole system as known</button>
+</div>
+
+<ul class="system-members" data-system-members></ul>
 
 </section>
 

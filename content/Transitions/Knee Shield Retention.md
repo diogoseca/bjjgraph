@@ -10,6 +10,41 @@ description: "Master Knee Shield Retention in BJJ. Essential half guard defensiv
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Knee Shield Retention",
+  "description": "Master Knee Shield Retention in BJJ. Essential half guard defensive framework for maintaining structure against passing pressure with dynamic frames.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Knee Shield Retention", "item": "https://bjjgraph.org/Transitions/Knee-Shield-Retention" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Knee Shield Retention",
+  "description": "Knee Shield Retention is the active half guard defense where the bottom player uses their top-leg shin as a dynamic frame against the opponent's torso, preserving distance to block pressure passing while opening sweeps and back takes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master Knee Shield Retention in BJJ. Essential half guard defensiv
 
 <section id="overview" class="content-section">
 
-Knee Shield Retention is the fundamental defensive framework for maintaining half guard structure against passing attempts. This technical system focuses on using the top leg as a dynamic barrier to create distance, manage angles, and prevent the opponent from consolidating chest-to-chest pressure. The knee shield creates a structural frame that allows the bottom player to control distance while maintaining offensive and defensive options.
+**Knee Shield Retention is the active half guard defense where the bottom player uses their top-leg shin as a dynamic frame against the opponent's torso, preserving distance to block pressure passing while opening sweeps and back takes.**
+
+Sitting at the heart of every modern half guard system, knee shield retention is what keeps the bottom player off their back and in the fight. The system turns the top leg into a dynamic barrier that creates distance, manages angles, and prevents the opponent from consolidating chest-to-chest pressure. The shield functions as a structural frame that lets the bottom player control distance while keeping both offensive and defensive options live.
 
 Unlike passive defensive positions, knee shield retention is an active management system that requires constant adjustment of angles, frames, and connection points based on the opponent's pressure and passing tactics. The effectiveness of knee shield retention lies in understanding it as a dynamic system rather than a static position - the shield must constantly adapt to maintain optimal distance and angle control.
 
@@ -229,8 +266,16 @@ Knee Shield Retention serves as the central hub of modern half guard systems and
 
 - [[Principles/Escape Fundamentals]] - Broader defensive principles this technique builds upon
 
-- [[Transitions/Knee Shield Retention]] - Self-reference for retention drilling context
 
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Andrew-Wiltse-Half-Guard-System" data-cta="related-system-card" data-system-slug="systems/andrew-wiltse-half-guard-system" data-system-name="Andrew Wiltse Half Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Andrew Wiltse Half Guard System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Defensive transition maintaining knee shield positional integrity</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

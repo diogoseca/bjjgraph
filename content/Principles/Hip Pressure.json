@@ -14,7 +14,8 @@
   "application_level": "Intermediate",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
-  "overview": "Hip Pressure represents the specific tactical application of bodyweight through hip contact to control opponent's lower body, prevent hip escape movements, and establish dominant positioning in top control situations. Unlike general pressure concepts, hip pressure focuses on the strategic use of hip positioning and weight allocation through the pelvis to achieve specific control objectives: pinning opponent's hips to the mat, preventing shrimping and bridging movements, creating angles for passing, and establishing stable platforms for transitions and submissions. This concept integrates biomechanical principles of how hip weight affects opponent's mobility with tactical decisions about hip placement, pressure intensity, and timing. Hip pressure serves as both an immediate control mechanism that restricts opponent's most fundamental defensive movements and an enabling tool that creates opportunities for position advancement and technical execution. The ability to generate and maintain effective hip pressure often determines whether a practitioner can control opponent's lower body and advance positions or allows constant hip escapes that enable guard retention and position recovery, making it one of the most essential technical elements in top game control.",
+  "summary": "Hip Pressure is the tactical application of bodyweight through hip-to-hip contact to pin an opponent's lower body to the mat, nullify their shrimps, bridges, and turns, and build stable platforms for passing, control, and submission.",
+  "overview": "While general pressure principles govern how a top player manages total bodyweight across all contact points, hip pressure isolates the pelvis as the dedicated instrument for controlling an opponent's lower body. It centers on the strategic use of hip placement and weight allocation through the pelvis to achieve specific control objectives: pinning the opponent's hips to the mat, preventing shrimping and bridging, creating angles for passing, and establishing stable platforms for transitions and submissions. This concept integrates the biomechanics of how hip weight restricts an opponent's mobility with tactical decisions about hip placement, pressure intensity, and timing. Hip pressure serves simultaneously as an immediate control mechanism that restricts the opponent's most fundamental defensive movements and as an enabling tool that opens opportunities for position advancement and technical execution. A practitioner's ability to generate and maintain effective hip pressure often determines whether they can shut down the opponent's lower body and advance, or instead concede the constant hip escapes that fuel guard retention and recovery — making it one of the most essential elements of any top game.",
   "key_principles": [
     "Position hips close to opponent's hips to minimize escape space and maximize control",
     "Generate pressure through hip contact while maintaining base stability with upper body",
@@ -392,6 +393,48 @@
       "name": "Control Point Hierarchy",
       "content_type": "Principle",
       "relationship": "Framework identifying hip control as high-priority control point in positional dominance"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What is hip pressure in BJJ?",
+      "answer": "Hip pressure is the application of bodyweight through hip-to-hip contact to pin an opponent's lower body, nullify their shrimps, bridges, and turns, and build stable platforms for passing, control, and submission."
+    },
+    {
+      "question": "How does hip pressure differ from general pressure?",
+      "answer": "General pressure manages total bodyweight across all contact points, whereas hip pressure specifically channels weight through the pelvis to immobilize the opponent's lower body and shut down their hip movement."
+    },
+    {
+      "question": "Which fundamental defensive movements does hip pressure neutralize?",
+      "answer": "It targets the opponent's most basic escapes — shrimping (hip escape), bridging, and turning to their side — by pinning the hips and removing the space those movements require to function."
+    },
+    {
+      "question": "Why must hip pressure be paired with a stable upper-body base?",
+      "answer": "Committing weight through the hips without a secure base on the hands or elbows leaves you off-balance and open to sweeps and reversals; base lets you press heavily while staying stable."
+    },
+    {
+      "question": "What does 'be heavy on them, light on yourself' mean for hip pressure?",
+      "answer": "It means projecting maximum crushing weight into the opponent's hips while keeping your own hips mobile, so you can advance, transition, and attack without ever sacrificing the pin."
+    },
+    {
+      "question": "How do you maintain hip pressure during a transition?",
+      "answer": "Coordinate upper and lower body so hip contact never fully releases; slide or rotate the hips while keeping connection to prevent the pressure windows that let opponents escape mid-movement."
+    },
+    {
+      "question": "What are the main hip-pressure vectors and when do you use each?",
+      "answer": "Downward pressure flattens and pins, forward pressure advances position past the legs, and angled pressure opens passing lanes while preempting hip escapes — each chosen to match the position's objective."
+    },
+    {
+      "question": "How does hip pressure combine with shoulder pressure or crossface?",
+      "answer": "Hip pressure locks the lower body while shoulder pressure or crossface pins the upper body, so the opponent cannot frame or bridge — together they form a complete pin with no free escape route."
+    },
+    {
+      "question": "What is the most common error when applying hip pressure?",
+      "answer": "Overcommitting all bodyweight through the hips without keeping base, which destroys balance and hands the opponent sweeps, reversals, or framing opportunities instead of yielding control."
+    },
+    {
+      "question": "How does hip pressure function during a knee slice pass?",
+      "answer": "As you slice through, hip pressure pins the opponent's bottom hip to the mat, stopping them from recovering guard or inserting frames so you can complete the pass and consolidate top control."
     }
   ]
 }

@@ -82,6 +82,14 @@ description: "Complete attacking guide for the Knee Slice from Reverse X-Guard. 
     },
     {
       "@type": "Question",
+      "name": "Before committing to the knee slice, what positional and control prerequisites must be in place?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You need a wide-posted free leg for a stable tripod base, at least one upper body grip (collar, sleeve, or head control) anchoring your passing angle, and forward hip pressure pinning the bottom player so they cannot elevate for a sweep. Most critically, the primary hook behind your knee must already be weakened or partially cleared through pressure or grip fighting. Attempting the slice before these conditions exist drives your knee into intact hooks that catch and stall the pass—the setup phase is what makes the cut possible."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "What grip configuration must be established before committing to the knee slice?",
       "acceptedAnswer": {
         "@type": "Answer",
@@ -110,14 +118,6 @@ description: "Complete attacking guide for the Knee Slice from Reverse X-Guard. 
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most common failure is attempting the slice before adequately degrading the primary hook behind the knee. When the hook is still engaged, it catches the knee mid-cut and creates a tug-of-war where the bottom player can re-establish full control. Prevention requires patience during the setup phase—invest in forward pressure, grip fighting, and controlled hook stripping until you feel the hook become shallow or lose purchase. Only then commit to the explosive slice. The setup is 80% of the technique."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Your opponent transitions to Single Leg X-Guard during your knee slice attempt—what went wrong and how do you adjust?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "This typically happens when you commit to the slice without maintaining forward pressure, creating space the bottom player uses to redirect your leg into Single Leg X hooks. To adjust, immediately stop forward passing momentum and address the new hook configuration. Backstep with the caught leg to clear the Single Leg X structure, or apply heavy downward pressure to pin their controlling foot to the mat. To prevent this in the future, maintain constant forward hip drive throughout the slice so the bottom player cannot create the space needed for the leg redirection."
       }
     }
   ]
@@ -336,5 +336,7 @@ During full sparring, actively seek Reverse X-Guard Top situations and practice 
 When drilling this pass, control the speed of your knee slice to avoid driving your knee forcefully into your partner's inner thigh or groin area. During the hook clearing phase, avoid aggressively yanking your partner's feet or ankles, which can strain their knee or ankle joints. Communicate with your training partner about crossface pressure levels and always allow space for them to tap or verbally signal discomfort during the pass completion. Build speed gradually across training phases rather than attempting full-speed passes before the movement pattern is established.
 
 </section>
+
+
 
 </main>

@@ -10,6 +10,41 @@ description: "Master the Side Control Escape in BJJ. Frame-based guard recovery 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Side Control Escape",
+  "description": "Master the Side Control Escape in BJJ. Frame-based guard recovery from side control bottom with systematic hip movement, timing, and defensive principles.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Side Control Escape", "item": "https://bjjgraph.org/Transitions/Side-Control-Escape" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Side Control Escape",
+  "description": "The Side Control Escape is a defensive transition where the bottom player frames, bridges, and angle-shrimps to create space, then turns into the opponent and inserts a knee shield to recover closed or half guard from underneath side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Side Control Escape in BJJ. Frame-based guard recovery 
 </div>
 
 <section id="overview" class="content-section">
+
+**The Side Control Escape is a defensive transition where the bottom player frames, bridges, and angle-shrimps to create space, then turns into the opponent and inserts a knee shield to recover closed or half guard from underneath side control.**
 
 The Side Control Escape is one of the most fundamental defensive techniques in Brazilian Jiu-Jitsu, representing a critical survival skill for practitioners at all levels. When trapped in side control, the bottom player faces constant pressure, point accumulation, and the threat of submission. This escape sequence uses precise framing, hip movement, and timing to create space and recover guard position. The technique emphasizes creating defensive frames to manage the opponent's pressure while systematically working to turn the hips, insert the knee shield, and reestablish guard.
 
@@ -228,5 +265,7 @@ Side control escape represents a fundamental component of the defensive hierarch
 
 
 </section>
+
+
 
 </main>

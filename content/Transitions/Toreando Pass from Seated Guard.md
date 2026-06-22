@@ -10,6 +10,41 @@ description: "Master the Toreando Pass from Seated Guard in BJJ. Complete guide 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Toreando Pass from Seated Guard",
+  "description": "Master the Toreando Pass from Seated Guard in BJJ. Complete guide covering grip fighting, leg control, and lateral passing mechanics to reach side control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Toreando Pass from Seated Guard", "item": "https://bjjgraph.org/Transitions/Toreando-Pass-from-Seated-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Toreando Pass from Seated Guard",
+  "description": "The Toreando Pass from Seated Guard is a double-leg-control guard pass where the top player pins both of the seated opponent's extended legs to one side and circles to the opposite side to land in side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Toreando Pass from Seated Guard in BJJ. Complete guide 
 
 <section id="overview" class="content-section">
 
-The Toreando Pass from Seated Guard is a fundamental lateral passing technique where the top player controls both of the seated guard player's legs and redirects them to one side while stepping around to establish side control. Named after the bullfighter's motion of redirecting the bull's charge, the toreando relies on grip dominance on the opponent's legs, explosive lateral movement, and precise timing to bypass the seated player's primary defensive tools—their feet and hip mobility.
+**The Toreando Pass from Seated Guard is a double-leg-control guard pass where the top player pins both of the seated opponent's extended legs to one side and circles to the opposite side to land in side control.**
+
+Named after the bullfighter's motion of redirecting a charging bull, the toreando from seated guard is a cornerstone of the modern standing passing game. It relies on grip dominance on the opponent's legs, explosive lateral movement, and precise timing to bypass the seated player's primary defensive tools—their feet and hip mobility. Because the pass attacks the legs directly rather than fighting through frames, it rewards speed and angle over raw pressure.
 
 This pass is particularly effective against seated guard because the seated player's posted hands limit their ability to chase the passer laterally. Unlike passing from butterfly guard or closed guard where the opponent has hooks or a closed lock to anchor you, the seated guard player's legs are extended and relatively exposed, making them vulnerable to grip control. The toreando exploits this by capturing both legs simultaneously, removing the opponent's ability to frame with feet on hips or redirect their legs independently.
 
@@ -220,5 +257,7 @@ The Toreando Pass from Seated Guard integrates into the broader guard passing sy
 
 
 </section>
+
+
 
 </main>

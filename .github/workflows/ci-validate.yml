@@ -1,0 +1,85 @@
+name: Content & Graph Validation
+
+# Plan §A.1 — the graph-integrity CI gate. Runs the existing Python validators on
+# every content/template/script PR (and dev pushes). Two gates:
+#   1. Schema validation (validate_json.py)  — HARD fail on any schema break.
+#   2. Graph integrity (validate_graph_integrity.py) — RATCHET: fails only if the
+#      error-severity count rises above tests/artifacts/graph_validation_baseline.json.
+#      This tolerates the pre-existing backlog but blocks any NEW errors from landing.
+# No Claude calls; pure CI, zero ongoing cost.
+
+on:
+  pull_request:
+    paths:
+      - "content/**"
+      - "templates/**"
+      - "scripts/**"
+      - "graph.json"
+      - "tests/artifacts/graph_validation_baseline.json"
+      - ".github/workflows/ci-validate.yml"
+  push:
+    branches: [dev]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-validate-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+
+      - name: Setup Python
+        uses: actions/setup-python@7f4fc3e22c37d6ff65e88745f38bd3157c663f7c # v4
+        with:
+          python-version: "3.11"
+
+      - name: Install Python dependencies
+        run: pip install jsonschema
+
+      - name: Schema validation (hard gate)
+        run: python3 scripts/validate_json.py --all
+
+      - name: Graph integrity (ratchet against baseline)
+        run: |
+          # Remove any committed/stale report first: the validator exits non-zero on
+          # the existing backlog (so we can't gate on its exit code), and `|| true`
+          # would otherwise let a CRASHED validator fall through to a stale report and
+          # pass. With the file gone, a crash makes json.load raise -> step fails.
+          rm -f tests/artifacts/audit_report.json
+          python3 scripts/validate_graph_integrity.py || true
+          python3 - <<'PY'
+          import json, os, sys
+
+          report = json.load(open("tests/artifacts/audit_report.json"))  # FileNotFoundError if validator crashed
+          baseline = json.load(open("tests/artifacts/graph_validation_baseline.json"))
+          s = report["summary"]
+          errs, cap = s["errors"], baseline["max_errors"]  # strict: missing core field -> fail closed
+
+          summary = (
+              "## Graph validation\n"
+              f"- **errors: {errs}** (baseline cap {cap})\n"
+              f"- warnings: {s.get('warnings','?')} · info: {s.get('info','?')} · total: {s.get('total_issues','?')}\n"
+              f"- orphaned_submissions: {s.get('orphaned_submissions','?')} · "
+              f"outcome_errors: {s.get('outcome_errors','?')} · attempt_outliers: {s.get('attempt_outliers','?')}\n"
+          )
+          with open(os.environ.get("GITHUB_STEP_SUMMARY", "/dev/stdout"), "a") as f:
+              f.write(summary + "\n")
+          print(summary)
+
+          if errs > cap:
+              print(
+                  f"::error::Graph error-severity issues rose to {errs}, exceeding the baseline "
+                  f"of {cap}. Fix the new error(s) before merging. (The baseline in "
+                  f"tests/artifacts/graph_validation_baseline.json is lowered by a human as the "
+                  f"backlog drains — it never auto-raises.)"
+              )
+              sys.exit(1)
+          print(f"OK: {errs} error(s) <= baseline {cap}")
+          PY

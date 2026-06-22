@@ -10,6 +10,41 @@ description: "Master Leg Recovery to De La Riva from leg drag bottom. Extract tr
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Leg Recovery to De La Riva",
+  "description": "Master Leg Recovery to De La Riva from leg drag bottom. Extract trapped leg, insert DLR hook to re-establish offensive guard with sweeps and back takes.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Leg Recovery to De La Riva", "item": "https://bjjgraph.org/Transitions/Leg-Recovery-to-De-La-Riva" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Leg Recovery to De La Riva",
+  "description": "Leg Recovery to De La Riva is a guard-recovery transition from leg drag bottom in which you extract your trapped leg through a hip-escape angle and immediately insert a De La Riva hook to re-establish an offensive guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Leg Recovery to De La Riva from leg drag bottom. Extract tr
 </div>
 
 <section id="overview" class="content-section">
+
+**Leg Recovery to De La Riva is a guard-recovery transition from leg drag bottom in which you extract your trapped leg through a hip-escape angle and immediately insert a De La Riva hook to re-establish an offensive guard.**
 
 Leg Recovery to De La Riva represents a critical defensive transition for practitioners caught in the compromised leg drag control position. When your opponent has successfully dragged your leg across your body and is threatening to advance to side control or take your back, this technique provides a pathway to re-establish an offensive guard position rather than merely surviving.
 
@@ -214,5 +251,7 @@ Leg Recovery to De La Riva fits within the broader guard retention and recovery 
 
 
 </section>
+
+
 
 </main>

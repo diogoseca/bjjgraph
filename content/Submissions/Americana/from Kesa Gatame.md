@@ -10,10 +10,55 @@ description: "Master the Americana shoulder lock from Kesa Gatame in BJJ. Comple
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Americana from Kesa Gatame targets the Shoulder joint (glenohumeral). Risk: Rotator cuff tear from forced lateral rotation beyond shoulder's natural range of motion. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Americana from Kesa Gatame",
+  "description": "Master the Americana shoulder lock from Kesa Gatame in BJJ. Complete guide covering figure-four mechanics, finishing details, and defensive strategies.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Americana from Kesa Gatame", "item": "https://bjjgraph.org/Submissions/Americana-from-Kesa-Gatame" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Americana from Kesa Gatame",
+  "description": "The Americana from Kesa Gatame is a figure-four shoulder lock applied from the scarf hold that exploits the already-trapped near arm, cranking the opponent's bent arm toward the mat to force a tap through external rotation of the glenohumeral joint.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Americana from Kesa Gatame is a figure-four shoulder lock applied from the scarf hold that exploits the already-trapped near arm, cranking the opponent's bent arm toward the mat to force a tap through external rotation of the glenohumeral joint.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Shoulder Lock</span>
+<span class="meta-chip">Targets Shoulder joint (glenohumeral)</span>
+<span class="meta-chip">50% success</span>
+</div>
+
+> [!danger] Safety
+> Americana from Kesa Gatame targets the Shoulder joint (glenohumeral). Primary risk: Rotator cuff tear from forced lateral rotation beyond shoulder's natural range of motion. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,50 +75,7 @@ This submission integrates seamlessly into Kesa Gatame offensive chains. When th
 
 From a competitive standpoint, the Americana from Kesa Gatame is particularly effective against opponents who focus on defending chokes and neglect protecting the trapped arm. The submission works in both gi and no-gi contexts, with the primary difference being grip security on the wrist. The key strategic principle is patience—Kesa Gatame's compounding pressure gradually degrades the opponent's defensive capacity, creating progressively larger windows for the finishing sequence.
 
-**Category**: Joint Lock
-**Type**: Shoulder Lock
-**Target Area**: Shoulder joint (glenohumeral)
-**Starting Position**: [[Positions/Side Control/Kesa Gatame]]
-**From Position**: [[Positions/Side Control/Kesa Gatame]] (Top)
-**Success Rate**: 50%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Rotator cuff tear from forced lateral rotation beyond shoulder's natural range of motion | CRITICAL | 3-12 months, may require surgical intervention |
-| Anterior shoulder dislocation from excessive rotational force applied before opponent can tap | CRITICAL | 2-6 months with physical therapy, possible surgical repair |
-| Shoulder capsule ligament sprain from repeated sub-threshold stress during training | High | 4-8 weeks with rest and rehabilitation |
-
-
-**Application Speed**: SLOW and progressive. The Americana generates enormous rotational force at the shoulder joint. Apply the paint motion gradually over 3-5 seconds minimum, pausing at initial resistance to allow the opponent time to recognize the submission and tap. Never jerk, spike, or explosively accelerate the finishing motion.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner, own body, or mat with free hand
-- Physical foot tap on mat with either leg
-- Any unusual vocalization, screaming, or expression of acute distress
-
-
-**Release Protocol**:
-1. Release immediately upon any tap signal by unwinding the figure-four grip and releasing wrist control
-2. If partner shows signs of distress but has not tapped, stop all pressure and verbally confirm their status
-3. If in doubt about whether a tap occurred, always release—position can be re-established
-4. After releasing, check on partner's shoulder mobility and comfort before resuming training
-
-
-**Training Restrictions**:
-- Apply the finishing paint motion with slow, progressive pressure only—never jerk or spike the shoulder lock
-- White and blue belts should drill the figure-four grip and paint motion at reduced speed until mechanics are reliable
-- Partners with pre-existing shoulder injuries, hypermobility, or previous dislocations must communicate limitations before training this technique
-- During flow rolling and warm-up rounds, catch and release only—do not apply finishing pressure
-
+**Starting Position**: [[Positions/Side Control/Kesa Gatame]] · **From**: [[Positions/Side Control/Kesa Gatame]] (Top)
 
 </section>
 
@@ -238,43 +240,61 @@ From a competitive standpoint, the Americana from Kesa Gatame is particularly ef
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Americana]]
 - [[Transitions/Arm Triangle]]
 - [[Submissions/Kimura]]
 - [[Submissions/Kesa Gatame Arm Crush]]
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Ezekiel Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Side Control/Kesa Gatame]] - Primary source position providing the arm isolation and chest pressure foundation for this submission
 - [[Positions/Side Control/Kuzure Kesa-Gatame]] - Modified scarf hold variant offering alternative arm isolation entry to the Americana
 - [[Positions/Side Control]] - Parent position family sharing lateral control principles and submission chains
-- [[Submissions/Americana]] - Base submission family—the core Americana movement pattern applied from this specific position
 - [[Positions/Kimura Trap]] - Alternative shoulder lock control accessible when opponent rotates arm inward to defend Americana
 - [[Positions/North-South]] - Transition option when Americana fails and opponent creates space, maintaining top control
-- [[Transitions/Arm Triangle]] - Chain submission from same starting position, often set up as a follow-up when Americana defense exposes the neck
+
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Rotator cuff tear from forced lateral rotation beyond shoulder's natural range of motion | CRITICAL | 3-12 months, may require surgical intervention |
+| Anterior shoulder dislocation from excessive rotational force applied before opponent can tap | CRITICAL | 2-6 months with physical therapy, possible surgical repair |
+| Shoulder capsule ligament sprain from repeated sub-threshold stress during training | High | 4-8 weeks with rest and rehabilitation |
+
+
+**Application Speed**: SLOW and progressive. The Americana generates enormous rotational force at the shoulder joint. Apply the paint motion gradually over 3-5 seconds minimum, pausing at initial resistance to allow the opponent time to recognize the submission and tap. Never jerk, spike, or explosively accelerate the finishing motion.
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any distress signal)
+- Physical hand tap on partner, own body, or mat with free hand
+- Physical foot tap on mat with either leg
+- Any unusual vocalization, screaming, or expression of acute distress
+
+
+**Release Protocol**:
+1. Release immediately upon any tap signal by unwinding the figure-four grip and releasing wrist control
+2. If partner shows signs of distress but has not tapped, stop all pressure and verbally confirm their status
+3. If in doubt about whether a tap occurred, always release—position can be re-established
+4. After releasing, check on partner's shoulder mobility and comfort before resuming training
+
+
+**Training Restrictions**:
+- Apply the finishing paint motion with slow, progressive pressure only—never jerk or spike the shoulder lock
+- White and blue belts should drill the figure-four grip and paint motion at reduced speed until mechanics are reliable
+- Partners with pre-existing shoulder injuries, hypermobility, or previous dislocations must communicate limitations before training this technique
+- During flow rolling and warm-up rounds, catch and release only—do not apply finishing pressure
 
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Americana from Kesa Gatame leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

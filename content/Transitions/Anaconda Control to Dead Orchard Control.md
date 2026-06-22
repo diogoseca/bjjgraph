@@ -10,6 +10,41 @@ description: "Master the transition from Anaconda Control to Dead Orchard Contro
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Anaconda Control to Dead Orchard Control",
+  "description": "Master the transition from Anaconda Control to Dead Orchard Control in BJJ. Grip adjustments, weight redistribution, and patient pressure mechanics for extended dominance.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Anaconda Control to Dead Orchard Control", "item": "https://bjjgraph.org/Transitions/Anaconda-Control-to-Dead-Orchard-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Anaconda Control to Dead Orchard Control",
+  "description": "Anaconda Control to Dead Orchard Control is a no-gi transition where the top player incrementally deepens an established anaconda grip and walks the hips perpendicular, trading an immediate choke for extended front-headlock dominance that systematically drains the opponent's defenses.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the transition from Anaconda Control to Dead Orchard Contro
 </div>
 
 <section id="overview" class="content-section">
+
+**Anaconda Control to Dead Orchard Control is a no-gi transition where the top player incrementally deepens an established anaconda grip and walks the hips perpendicular, trading an immediate choke for extended front-headlock dominance that systematically drains the opponent's defenses.**
 
 The Transition to Dead Orchard Control converts a standard anaconda grip into an extended-duration control position that systematically drains the opponent's defensive resources before finishing. Where a standard anaconda attack prioritizes the immediate roll-through and choke, this transition deliberately slows the sequence to establish deeper grip penetration, refined shoulder pressure angles, and hip positioning that eliminates the opponent's ability to rebuild base or create escape angles. The transition occurs entirely from top position and requires the attacker to already hold a secure anaconda grip with chest pressure established.
 
@@ -218,5 +255,7 @@ The Transition to Dead Orchard Control occupies a critical decision point in the
 
 
 </section>
+
+
 
 </main>

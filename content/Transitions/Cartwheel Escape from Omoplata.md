@@ -10,6 +10,41 @@ description: "Master the Cartwheel Escape from Omoplata in BJJ. Complete guide t
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Cartwheel Escape from Omoplata",
+  "description": "Master the Cartwheel Escape from Omoplata in BJJ. Complete guide to forward roll mechanics, timing windows, and counter strategies for shoulder lock escape.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Cartwheel Escape from Omoplata", "item": "https://bjjgraph.org/Transitions/Cartwheel-Escape-from-Omoplata" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Cartwheel Escape from Omoplata",
+  "description": "The Cartwheel Escape from Omoplata is a defensive forward-roll escape where the trapped player follows the direction of shoulder rotation, somersaulting over their posting hand to clear the opponent's controlling legs and land in open guard top.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Cartwheel Escape from Omoplata in BJJ. Complete guide t
 
 <section id="overview" class="content-section">
 
-The Cartwheel Escape from Omoplata is the primary defensive response when caught in an omoplata shoulder lock from guard. Rather than fighting the rotational pressure directly, the escaper follows the direction of shoulder rotation by performing a forward roll that clears the opponent's controlling legs and lands in a neutral or advantageous top position. This escape exploits the critical timing window that exists before the omoplata player can sit up and establish hip or belt control to anchor the position.
+**The Cartwheel Escape from Omoplata is a defensive forward-roll escape where the trapped player follows the direction of shoulder rotation, somersaulting over their posting hand to clear the opponent's controlling legs and land in open guard top.**
+
+Among omoplata defenses, the cartwheel escape is the highest-percentage option available before the attacker consolidates control, which is why purple and brown belts must master both its execution and its counters. Rather than fighting the rotational pressure directly, the escaper follows the direction of shoulder rotation by performing a forward roll that clears the opponent's controlling legs and lands in a neutral or advantageous top position. This escape exploits the critical timing window that exists before the omoplata player can sit up and establish hip or belt control to anchor the position.
 
 Strategically, the cartwheel escape transforms a dangerous submission threat into a potential passing opportunity. When executed with proper timing, the escaper transitions from a compromised position to open guard top, where they can immediately initiate guard passing sequences. However, experienced omoplata players recognize this pattern and develop specific counters - primarily hip control through belt grips and the ability to follow the roll momentum for sweeps to mount or side control. This creates a tactical chess match where the quality of the omoplata holder's positional control directly determines whether the escape window remains open.
 
@@ -220,5 +257,7 @@ The Cartwheel Escape from Omoplata occupies a critical defensive node in the omo
 
 
 </section>
+
+
 
 </main>

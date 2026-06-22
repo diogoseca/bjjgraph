@@ -10,6 +10,41 @@ description: "Master the Over-Under Pass in BJJ. Pressure-based guard pass from 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Over-Under Pass",
+  "description": "Master the Over-Under Pass in BJJ. Pressure-based guard pass from Half Guard Top to Side Control using stacking mechanics and lateral hip circulation.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Over-Under Pass", "item": "https://bjjgraph.org/Transitions/Over-Under-Pass" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Over-Under Pass",
+  "description": "The Over-Under Pass is a pressure-based guard pass from Half Guard Top where the passer threads one arm under the opponent's near leg and traps the far leg with an over-hook, stacking their hips to eliminate mobility and circle laterally into Side Control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Over-Under Pass in BJJ. Pressure-based guard pass from 
 
 <section id="overview" class="content-section">
 
-The Over-Under Pass is a fundamental pressure-based guard passing technique that combines superior positioning with powerful control mechanics to bypass the opponent's guard. This technique is characterized by controlling one leg over the opponent's body while threading the other arm under their opposite leg, creating a stacking effect that neutralizes their defensive capabilities. The Over-Under Pass is particularly effective against half guard, butterfly guard, and open guard variations, making it a cornerstone technique in modern Brazilian Jiu-Jitsu. What makes this pass especially valuable is its combination of pressure control and positional dominance - by stacking the opponent's weight onto their shoulders, you eliminate their hip mobility and ability to re-guard while methodically advancing to side control. The technique requires excellent weight distribution, patience under pressure, and the ability to maintain chest-to-chest connection throughout the passing sequence. Unlike speed-based passes that rely on quick movements, the Over-Under Pass exemplifies the principle of using superior position and leverage to overcome an opponent's defensive structure through systematic pressure application.
+**The Over-Under Pass is a pressure-based guard pass from Half Guard Top where the passer threads one arm under the opponent's near leg and traps the far leg with an over-hook, stacking their hips to eliminate mobility and circle laterally into Side Control.**
+
+Within the pressure-passing system, the Over-Under Pass stands as a cornerstone method for converting Half Guard Top into Side Control through superior weight distribution rather than speed. The technique is characterized by controlling one leg over the opponent's body while threading the other arm under their opposite leg, creating a stacking effect that neutralizes their defensive capabilities. The Over-Under Pass is particularly effective against half guard, butterfly guard, and open guard variations, making it a foundational tool in modern Brazilian Jiu-Jitsu. What makes this pass especially valuable is its combination of pressure control and positional dominance - by stacking the opponent's weight onto their shoulders, you eliminate their hip mobility and ability to re-guard while methodically advancing to side control. The technique requires excellent weight distribution, patience under pressure, and the ability to maintain chest-to-chest connection throughout the passing sequence. Unlike speed-based passes that rely on quick movements, the Over-Under Pass exemplifies the principle of using superior position and leverage to overcome an opponent's defensive structure through systematic pressure application.
 
 **From Position**: [[Positions/Half Guard]] (Top)
 **Success Rate**: 72%
@@ -206,13 +243,13 @@ The Over-Under Pass is a cornerstone technique in the pressure passing system an
 
 - [[Positions/Side Control]] - Primary destination position after successful pass completion
 
-- [[Transitions/Double Under Pass]] - Complementary pass using two under-hooks instead of one over and one under
+- [[Positions/Double Unders]] - Complementary pass using two under-hooks instead of one over and one under
 
 - [[Transitions/Knee Slice Pass]] - Chain combination when opponent defends the over-under hip circulation
 
-- [[Transitions/Pressure Pass]] - Related pressure-based passing concept with similar weight distribution principles
+- [[Transitions/Smash Pass]] - Related pressure-based passing concept with similar weight distribution principles
 
-- [[Transitions/Leg Weave Pass]] - Advanced progression using similar hip control and lateral circulation concepts
+- [[Positions/Leg Weave]] - Advanced progression using similar hip control and lateral circulation concepts
 
 - [[Positions/Headquarters Position]] - Transitional position that can serve as entry or exit for over-under passing
 
@@ -226,6 +263,17 @@ The Over-Under Pass is a cornerstone technique in the pressure passing system an
 
 - [[Transitions/Body Lock Pass]] - Alternative pressure pass using body lock grips with similar forward pressure concepts
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Bernardo-Faria-Pressure-System" data-cta="related-system-card" data-system-slug="systems/bernardo-faria-pressure-system" data-system-name="Bernardo Faria Pressure System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Bernardo Faria Pressure System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Core passing technique for creating asymmetric pressure</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Gordon-Ryan-Passing-System" data-cta="related-system-card" data-system-slug="systems/gordon-ryan-passing-system" data-system-name="Gordon Ryan Passing System" data-member-count="17"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Gordon Ryan Passing System</span><span class="system-card__unlocks-badge">Unlocks 17 techniques</span><span class="system-card__blurb">Pressure-based passing method utilizing shoulder pressure and stacking</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

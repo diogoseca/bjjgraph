@@ -10,6 +10,41 @@ description: "Master the Front Headlock to Guillotine transition in BJJ. Complet
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Front Headlock to Guillotine",
+  "description": "Master the Front Headlock to Guillotine transition in BJJ. Complete technical breakdown with step-by-step execution, timing cues, and finishing mechanics.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Front Headlock to Guillotine", "item": "https://bjjgraph.org/Transitions/Front-Headlock-to-Guillotine" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Front Headlock to Guillotine",
+  "description": "Front Headlock to Guillotine is a no-gi submission entry where the attacker, controlling a bent-forward opponent from front headlock, slides the choking arm under the chin and locks a guillotine grip to convert head control into an immediate choke threat.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,13 +57,15 @@ description: "Master the Front Headlock to Guillotine transition in BJJ. Complet
 
 <section id="overview" class="content-section">
 
+**Front Headlock to Guillotine is a no-gi submission entry where the attacker, controlling a bent-forward opponent from front headlock, slides the choking arm under the chin and locks a guillotine grip to convert head control into an immediate choke threat.**
+
 The Front Headlock to Guillotine transition represents a critical pathway in modern submission grappling, transforming a dominant control position into a high-percentage finishing opportunity. This transition is fundamental to understanding the front headlock series, where the practitioner leverages head and arm control to create the angle and grip necessary for the guillotine choke. The technique is particularly effective when the opponent attempts to stand from turtle or drives forward from a defensive posture, creating the perfect moment to secure the guillotine grip and establish submission control.
 
 This transition's effectiveness lies in its ability to capitalize on the opponent's natural escape attempts from the front headlock. As they attempt to pull their head free or drive forward to escape, these movements actually facilitate the grip adjustment needed for the guillotine. The timing of this transition is crucial - executing too early results in a weak guillotine without proper depth, while waiting too long allows the opponent to posture up and escape the control entirely.
 
 The Front Headlock to Guillotine is a cornerstone technique in no-gi grappling and MMA, where collar controls are unavailable. It serves as both a submission threat and a gateway to other attacks within the front headlock system, including the darce choke, anaconda choke, and various back takes. Mastering this transition requires understanding proper head positioning, grip mechanics, and the ability to maintain control throughout the adjustment phase while preventing the opponent from establishing defensive frames or creating distance.
 
-**From Position**: [[Positions/Turtle]] (Top)
+**From Position**: [[Positions/Front Headlock]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -238,6 +275,16 @@ From a strategic perspective, this transition exemplifies the principle of submi
 
 - [[Positions/Turtle]] - Common Setup - opponent position that often leads to front headlock
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Marcelo-Garcia-Guillotine-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-guillotine-system" data-system-name="Marcelo Garcia Guillotine System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Marcelo Garcia Guillotine System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Key transition for turtle attacks and front headlock control</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

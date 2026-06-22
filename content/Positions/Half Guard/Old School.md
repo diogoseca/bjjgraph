@@ -10,6 +10,41 @@ description: "Master Old School position in BJJ half guard. Strategic guide cove
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Old School",
+  "description": "Master Old School position in BJJ half guard. Strategic guide covering lockdown control, sweep mechanics, and defensive counters with complete perspective analysis.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Old School", "item": "https://bjjgraph.org/Positions/Old-School" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Old School",
+  "description": "Old School is a 10th Planet half guard variant where the bottom player combines lockdown leg control, a deep underhook, and head control to threaten the signature Old School Sweep to mount and the Electric Chair submission, while the top player counters with whizzer and crossface pressure.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Old School position in BJJ half guard. Strategic guide cove
 </div>
 
 <section id="overview" class="content-section">
+
+**Old School is a 10th Planet half guard variant where the bottom player combines lockdown leg control, a deep underhook, and head control to threaten the signature Old School Sweep to mount and the Electric Chair submission, while the top player counters with whizzer and crossface pressure.**
 
 Old School position represents a critical battleground in modern half guard, where the lockdown creates a powerful control system that transforms half guard from defensive holding to offensive launching pad. This position gained prominence through the 10th Planet system, establishing lockdown-based attacks as legitimate alternatives to traditional half guard approaches. The position exists in constant tension between bottom's sweeping threats and top's passing pressure, creating a dynamic chess match of control and counter-control.
 
@@ -250,6 +287,17 @@ From top perspective, Old School demands sophisticated pressure management and p
 
 - **[[Positions/Half Guard/Knee Shield Half Guard]]** - Alternative half guard variation when lockdown is broken
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Lockdown-to-Electric-Chair-System" data-cta="related-system-card" data-system-slug="systems/lockdown-to-electric-chair-system" data-system-name="Lockdown to Electric Chair System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Lockdown to Electric Chair System</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Key sweep position when Electric Chair is defended</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/10th-Planet-Half-Guard-Bottom-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-half-guard-bottom-system" data-system-name="10th Planet Half Guard Bottom System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">10th Planet Half Guard Bottom System</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Classic sweep position accessed from Lockdown when opponent defends Electric Chair</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

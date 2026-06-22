@@ -154,10 +154,23 @@ description: "Master BJJ competition preparation. Systematic framework covering 
 }
 </script>
 
-> Competition Preparation System is a intermediate difficulty Competition Strategy system. Integrates 5 components.
 
-**System Type**: Competition Strategy
-**Difficulty Level**: Intermediate
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Competition Preparation System",
+  "description": "The Competition Preparation System is a structured multi-phase framework that integrates periodized physical conditioning, mental rehearsal, strategic game planning, weight management, and match-day protocols to peak an athlete's performance for tournament day.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Competition Strategy</span>
+<span class="meta-chip">Intermediate difficulty</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -166,7 +179,27 @@ description: "Master BJJ competition preparation. Systematic framework covering 
 
 ## What is Competition Preparation System?
 
+**The Competition Preparation System is a structured multi-phase framework that integrates periodized physical conditioning, mental rehearsal, strategic game planning, weight management, and match-day protocols to peak an athlete's performance for tournament day.**
+
 Competition preparation in Brazilian Jiu-Jitsu extends far beyond technical proficiency. A comprehensive competition preparation system integrates physical conditioning, mental fortitude, strategic game planning, nutritional optimization, and tactical adaptation to create peak performance on competition day. This framework addresses the complete athlete preparation cycle from initial tournament selection through post-competition analysis, ensuring systematic development of competitive skills alongside technical ability. The modern competition landscape demands not only technical excellence but also psychological resilience, strategic adaptability, and intelligent energy management across multiple matches. Champions distinguish themselves through superior preparation methodologies that address physical readiness, mental conditioning, tactical planning, and recovery protocols. This system provides the structured framework necessary to transform training room performance into competition success, bridging the gap between technical knowledge and competitive execution through systematic preparation protocols.
+
+</section>
+
+
+
+<section id="unlock-graph" class="content-section system-unlock" data-system-unlock hidden>
+
+## Unlock this part of the graph
+
+<p class="section-subtitle">This system teaches the highlighted nodes in the graph. Mark what you already know &mdash; be honest, it's your game.</p>
+
+<div class="system-progress" data-system-progress>
+<svg class="system-progress__ring" viewBox="0 0 44 44" aria-hidden="true"><circle class="system-progress__ring-bg" cx="22" cy="22" r="19"></circle><circle class="system-progress__ring-fill" cx="22" cy="22" r="19"></circle></svg>
+<div class="system-progress__text">You've unlocked <strong class="system-progress__known">0</strong> / <span class="system-progress__total">0</span> techniques in this system</div>
+<button class="system-progress__mark-all" data-mark-system type="button">Mark whole system as known</button>
+</div>
+
+<ul class="system-members" data-system-members></ul>
 
 </section>
 

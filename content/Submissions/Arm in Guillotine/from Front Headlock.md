@@ -10,10 +10,55 @@ description: "Master the arm-in guillotine from front headlock with expert grip 
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Arm in Guillotine from Front Headlock targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Arm in Guillotine from Front Headlock",
+  "description": "Master the arm-in guillotine from front headlock with expert grip mechanics, step-by-step finishing sequences, and proven defensive strategies for BJJ.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Arm in Guillotine from Front Headlock", "item": "https://bjjgraph.org/Submissions/Arm-in-Guillotine-from-Front-Headlock" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Arm in Guillotine from Front Headlock",
+  "description": "The arm-in guillotine from front headlock is a blood choke that traps the opponent's arm inside the guillotine grip, using their own limb as a wedge against the far carotid while your forearm compresses the near side for bilateral occlusion.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The arm-in guillotine from front headlock is a blood choke that traps the opponent's arm inside the guillotine grip, using their own limb as a wedge against the far carotid while your forearm compresses the near side for bilateral occlusion.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries and trachea</span>
+<span class="meta-chip">58% success</span>
+</div>
+
+> [!danger] Safety
+> Arm in Guillotine from Front Headlock targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,55 +75,7 @@ The front headlock entry point offers distinct advantages over other arm-in guil
 
 Strategically, the arm-in guillotine from front headlock serves as a powerful deterrent against takedown attempts and creates a submission threat that forces opponents to respect the position. When combined with darce, anaconda, and standard guillotine threats from the same control, the arm-in guillotine completes a comprehensive front headlock attack system that addresses every common defensive response.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries and trachea
-**Starting Position**: [[Positions/Front Headlock]]
-**From Position**: [[Positions/Front Headlock]] (Top)
-**Success Rate**: 58%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Carotid artery compression leading to loss of consciousness | CRITICAL | Immediate if released promptly, potential for serious complications if held after unconsciousness |
-| Trachea damage from crushing pressure | High | 2-6 weeks for minor damage, months for severe cases |
-| Neck muscle strain or cervical spine stress | Medium | 1-3 weeks with rest |
-| Shoulder or rotator cuff injury to trapped arm | Medium | 2-8 weeks depending on severity |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from initial contact to finish pressure
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any verbal surrender)
-- Physical hand tap on partner or mat
-- Physical foot tap on mat or partner
-- Any distress signal including going limp
-
-
-**Release Protocol**:
-1. Immediately release choking arm pressure upon any tap signal
-2. Open guard if closed guard is applied
-3. Gently lower opponent to mat if elevated
-4. Release all grips and create space
-5. Check partner's alertness and breathing
-6. Wait for clear verbal confirmation before continuing training
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - apply smooth, progressive pressure only
-- Never use competition speed in training - always allow time for tap
-- Never continue applying pressure after tap signal
-- Always allow trapped arm access to tap with free hand or feet
-- Never practice this submission on beginners without close supervision
-- Stop immediately if partner's face changes color or they show signs of distress
-
+**Starting Position**: [[Positions/Front Headlock]] · **From**: [[Positions/Front Headlock]] (Top)
 
 </section>
 
@@ -242,10 +239,9 @@ Strategically, the arm-in guillotine from front headlock serves as a powerful de
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Arm in Guillotine]]
 - [[Submissions/High Elbow Guillotine]]
 - [[Transitions/Guillotine Choke]]
@@ -254,32 +250,57 @@ Strategically, the arm-in guillotine from front headlock serves as a powerful de
 - [[Submissions/Von Flue Choke]]
 - [[Submissions/Japanese Necktie]]
 - [[Submissions/Chin Strap Guillotine]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Guillotine Control]] - Primary control position for consolidating the guillotine grip before finishing
 - [[Positions/Front Headlock]] - Parent position - precursor before securing the arm-in guillotine grip
 - [[Positions/Closed Guard]] - Common guard position used to consolidate control during finish
 - [[Positions/Darce Control]] - Transition target when opponent rotates away from guillotine pressure
 - [[Positions/Anaconda Control]] - Transition target when opponent turns into guillotine defense
-- [[Submissions/Arm in Guillotine]] - Parent submission family - generic version across all positions
+
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Carotid artery compression leading to loss of consciousness | CRITICAL | Immediate if released promptly, potential for serious complications if held after unconsciousness |
+| Trachea damage from crushing pressure | High | 2-6 weeks for minor damage, months for severe cases |
+| Neck muscle strain or cervical spine stress | Medium | 1-3 weeks with rest |
+| Shoulder or rotator cuff injury to trapped arm | Medium | 2-8 weeks depending on severity |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum from initial contact to finish pressure
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any verbal surrender)
+- Physical hand tap on partner or mat
+- Physical foot tap on mat or partner
+- Any distress signal including going limp
+
+
+**Release Protocol**:
+1. Immediately release choking arm pressure upon any tap signal
+2. Open guard if closed guard is applied
+3. Gently lower opponent to mat if elevated
+4. Release all grips and create space
+5. Check partner's alertness and breathing
+6. Wait for clear verbal confirmation before continuing training
+
+
+**Training Restrictions**:
+- Never spike or jerk the submission - apply smooth, progressive pressure only
+- Never use competition speed in training - always allow time for tap
+- Never continue applying pressure after tap signal
+- Always allow trapped arm access to tap with free hand or feet
+- Never practice this submission on beginners without close supervision
+- Stop immediately if partner's face changes color or they show signs of distress
 
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Arm in Guillotine from Front Headlock leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

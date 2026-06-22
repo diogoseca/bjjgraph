@@ -2,8 +2,15 @@
   "name": "Reverse Mount",
   "slug": "reverse-mount",
   "description": "Master Reverse Mount position in BJJ. Strategic guide covering transitional control mechanics, conversion to mount and back control, with complete perspective analysis.",
+  "disambiguations": [
+    {
+      "name": "Mount",
+      "reason": "Mount faces toward your opponent, not away"
+    }
+  ],
   "variant_uniqueness": "Backward orientation enables rapid transitions",
-  "overview": "Reverse Mount is a transitional dominant position where the practitioner sits on the opponent's torso while facing away from their head, essentially mounted in the opposite direction from standard mount. This position scores 4 points (same as standard mount in IBJJF) but possesses fundamentally different control dynamics and sustainability characteristics due to its backward orientation.\n\nThe defining characteristic of reverse mount is the inverted positioning: the top practitioner's back faces the opponent's head while sitting on their chest or abdomen. This creates unique challenges - no head control, inability to see opponent's face for reaction cues, and different weight distribution requirements. However, it also creates opportunities for specific submissions and serves as an excellent transitional platform to standard mount or back control.\n\nFor the bottom practitioner, reverse mount represents a highly defensive situation where traditional mount escape frames cannot be effectively established. The defender cannot see the attacker's upper body movements, making defense more challenging and requiring heightened proprioceptive awareness. The exposed back creates immediate submission threats, particularly rear naked chokes if the top player transitions to back control.\n\nThe position's main strategic value is as a stepping stone rather than a destination. It typically occurs during scrambles, failed back take attempts, or when opponents turn away during standard mount control. Experienced practitioners recognize reverse mount immediately and flow smoothly to standard mount (simply turning to face forward) or back control (inserting hooks from the reverse position). Attempting to hold reverse mount for extended periods typically results in increased escape success for the opponent.\n\nThe position's moderate risk level reflects its transitional nature - dominant enough to score points and create submissions, but vulnerable enough to require quick decision-making about which superior position to convert to. Understanding both perspectives - the control mechanisms from top and the escape hierarchy from bottom - is essential for complete positional mastery.",
+  "summary": "Reverse Mount is a transitional dominant top position—scored as mount (4 points) under IBJJF—where you sit on the opponent's torso facing their feet, trading head control and visibility for fast conversions to standard mount or back control.",
+  "overview": "Most practitioners stumble into reverse mount by accident—during a scramble, a stalled back-take, or the moment an opponent spins away beneath a standard mount—rather than seeking it deliberately. Though it scores the same 4 points as standard mount under IBJJF rules, the backward orientation produces fundamentally different control dynamics and sustainability characteristics.\n\nThe defining characteristic of reverse mount is the inverted positioning: the top practitioner's back faces the opponent's head while sitting on their chest or abdomen. This creates unique challenges - no head control, inability to see opponent's face for reaction cues, and different weight distribution requirements. However, it also creates opportunities for specific submissions and serves as an excellent transitional platform to standard mount or back control.\n\nFor the bottom practitioner, reverse mount represents a highly defensive situation where traditional mount escape frames cannot be effectively established. The defender cannot see the attacker's upper body movements, making defense more challenging and requiring heightened proprioceptive awareness. The exposed back creates immediate submission threats, particularly rear naked chokes if the top player transitions to back control.\n\nThe position's main strategic value is as a stepping stone rather than a destination. It typically occurs during scrambles, failed back take attempts, or when opponents turn away during standard mount control. Experienced practitioners recognize reverse mount immediately and flow smoothly to standard mount (simply turning to face forward) or back control (inserting hooks from the reverse position). Attempting to hold reverse mount for extended periods typically results in increased escape success for the opponent.\n\nThe position's moderate risk level reflects its transitional nature - dominant enough to score points and create submissions, but vulnerable enough to require quick decision-making about which superior position to convert to. Understanding both perspectives - the control mechanisms from top and the escape hierarchy from bottom - is essential for complete positional mastery.",
   "key_principles": [
     "Reverse mount is always transitional - recognize immediately and flow to superior position",
     "Top player must decide quickly: standard mount or back control within 5 seconds",
@@ -94,17 +101,17 @@
     ],
     "decision_tree": [
       {
-        "condition": "If opponent is relatively flat and not actively defending, assess back control opportunity",
+        "condition": "If opponent is relatively flat and not actively defending, assess the spin to standard mount",
         "actions": [
           {
-            "technique": "Back Take",
-            "target": "Back Control",
-            "probability": 65
-          },
-          {
-            "technique": "Side Control to Mount",
+            "technique": "Reverse Mount to Mount",
             "target": "Mount",
             "probability": 70
+          },
+          {
+            "technique": "Reverse Mount to Side Control",
+            "target": "Side Control",
+            "probability": 60
           }
         ]
       },
@@ -112,13 +119,13 @@
         "condition": "If opponent begins to bridge or create upward pressure through hips",
         "actions": [
           {
-            "technique": "Side Control to Mount",
+            "technique": "Reverse Mount to Mount",
             "target": "Mount",
             "probability": 75
           },
           {
-            "technique": "Side Control to Mount",
-            "target": "S Mount",
+            "technique": "Reverse Mount to Side Control",
+            "target": "Side Control",
             "probability": 60
           }
         ]
@@ -127,14 +134,14 @@
         "condition": "If opponent turns to either side attempting hip escape",
         "actions": [
           {
-            "technique": "Back Take",
-            "target": "Back Control",
+            "technique": "Reverse Mount to Side Control",
+            "target": "Side Control",
             "probability": 70
           },
           {
-            "technique": "Turtle to Truck",
-            "target": "Truck",
-            "probability": 50
+            "technique": "Reverse Mount to Mount",
+            "target": "Mount",
+            "probability": 55
           }
         ]
       },
@@ -142,12 +149,12 @@
         "condition": "If opponent extends arm in defensive reaction or attempts to push",
         "actions": [
           {
-            "technique": "Mount to Armbar",
+            "technique": "Armbar from Reverse Mount",
             "target": "Armbar Control",
             "probability": 55
           },
           {
-            "technique": "Side Control to Mount",
+            "technique": "Reverse Mount to Mount",
             "target": "Mount",
             "probability": 65
           }
@@ -256,36 +263,16 @@
     },
     "transitions": [
       {
-        "transition": "Side Control to Mount",
-        "attempt_probability": 43
-      },
-      {
-        "transition": "Back Take",
-        "attempt_probability": 26
-      },
-      {
-        "transition": "Mount to Armbar",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Turtle to Truck",
-        "attempt_probability": 7
-      },
-      {
-        "transition": "Side Control to North-South",
-        "attempt_probability": 7
-      },
-      {
         "transition": "Reverse Mount to Mount",
-        "attempt_probability": 3
+        "attempt_probability": 48
       },
       {
         "transition": "Reverse Mount to Side Control",
-        "attempt_probability": 1
+        "attempt_probability": 27
       },
       {
         "transition": "Armbar from Reverse Mount",
-        "attempt_probability": 1
+        "attempt_probability": 25
       }
     ],
     "flashcards": [

@@ -10,6 +10,41 @@ description: "Master Counter Roll to Top reversal from Gift Wrap Bottom in BJJ. 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Counter Roll to Top",
+  "description": "Master Counter Roll to Top reversal from Gift Wrap Bottom in BJJ. Complete guide to timing, bridge mechanics, and position reversal from back control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Counter Roll to Top", "item": "https://bjjgraph.org/Transitions/Counter-Roll-to-Top" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Counter Roll to Top",
+  "description": "Counter Roll to Top is a high-variance Gift Wrap Bottom reversal where the bottom player grips the controlling arm and bridges explosively toward the trapped-arm side, riding the opponent's committed weight over into Gift Wrap Top.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,14 +57,16 @@ description: "Master Counter Roll to Top reversal from Gift Wrap Bottom in BJJ. 
 
 <section id="overview" class="content-section">
 
-The Counter Roll to Top is a high-risk, high-reward reversal technique executed from the Gift Wrap Bottom position. This escape exploits the moment when the top player commits their weight to establish deeper control or initiates a submission attack. By timing a coordinated roll that uses the opponent's committed weight against them, the defender can reverse the position entirely and end up in a dominant Gift Wrap control position.
+**Counter Roll to Top is a high-variance Gift Wrap Bottom reversal where the bottom player grips the controlling arm and bridges explosively toward the trapped-arm side, riding the opponent's committed weight over into Gift Wrap Top.**
+
+Sitting at the high-risk, high-reward end of the Gift Wrap Bottom escape menu, this technique trades the safety of incremental arm recovery for a shot at total positional inversion. It exploits the moment when the top player commits their weight to establish deeper control or initiates a submission attack. By timing a coordinated roll that uses the opponent's committed weight against them, the defender can reverse the position entirely and end up in a dominant Gift Wrap control position.
 
 The technique requires precise timing and commitment. Unlike incremental escapes that focus on recovering the trapped arm or creating defensive frames, the Counter Roll to Top embraces the chaos of full positional reversal. The defender must accept the risk of accelerating their opponent's attack if the timing is wrong, but the reward is a complete reversal of fortune from one of the worst defensive positions in grappling.
 
 From a strategic perspective, this escape is most effective against aggressive opponents who overcommit to submission attacks or positional advancement. The technique capitalizes on the temporary weight distribution changes that occur when the top player shifts to attack the neck, transition to mount, or secure a tighter arm trap. Understanding these windows is essential for successful execution.
 
 **From Position**: [[Positions/Gift Wrap]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 28%
 
 </section>
 
@@ -39,9 +76,9 @@ From a strategic perspective, this escape is most effective against aggressive o
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Gift Wrap]] | 55% |
-| Failure | [[Positions/Gift Wrap]] | 30% |
-| Counter | [[Positions/Back Control]] | 15% |
+| Success | [[Positions/Gift Wrap]] | 28% |
+| Failure | [[Positions/Gift Wrap]] | 47% |
+| Counter | [[Positions/Back Control]] | 25% |
 
 
 </section>
@@ -206,7 +243,7 @@ Counter Roll to Top represents a high-variance escape option within the Gift Wra
 
 - [[Transitions/Back Door Escape]] - Broader escape system this technique complements as a high-variance option
 
-- [[Transitions/Bridge and Roll]] - Related escape mechanic using similar explosive bridging principles
+- [[Transitions/Granby Roll to Guard]] - Related explosive rolling escape from back exposure sharing the high-commitment reversal mechanic
 
 - [[Positions/Crucifix]] - Risk position if roll stalls midway exposing second arm
 
@@ -222,5 +259,7 @@ Counter Roll to Top represents a high-variance escape option within the Gift Wra
 
 
 </section>
+
+
 
 </main>

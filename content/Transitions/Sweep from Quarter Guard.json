@@ -1,5 +1,6 @@
 {
   "name": "Sweep from Quarter Guard",
+  "summary": "The Sweep from Quarter Guard is an underhook-driven reversal in which the bottom player, with their guard nearly passed, elevates and redirects the forward-committed top player to land in side control top.",
   "description": "Master the Sweep from Quarter Guard in BJJ. Learn underhook-driven reversals from compromised half guard with step-by-step execution and defensive counters.",
   "tags": [
     "bjj",
@@ -239,6 +240,10 @@
     ],
     "flashcards": [
       {
+        "question": "What conditions must exist before you commit to the sweep from quarter guard?",
+        "answer": "Four conditions must be present before committing: a deep underhook with your forearm on their lat and elbow pointing toward the ceiling, at least a thirty-degree hip angle off the mat so you are not flattened, your free foot posted flat near your hip for driving power, and—most critically—the top player's weight committed forward during pass completion rather than settled in a wide base. If any of these are missing, recover a defensive frame instead of sweeping, because an under-prepared attempt only accelerates the pass."
+      },
+      {
         "question": "What is the most critical grip for initiating the sweep from quarter guard?",
         "answer": "The deep underhook is the most critical grip, as it provides the primary lever for elevating the opponent and redirecting their weight. The underhook must be deep enough that your forearm contacts their lat muscle with your elbow pointing toward the ceiling. Without sufficient underhook depth, the sweep lacks the mechanical advantage needed to overcome the top player's positional advantage and weight pressure."
       },
@@ -261,6 +266,10 @@
       {
         "question": "What happens if you attempt the sweep without first creating an angle with your hips?",
         "answer": "Attempting the sweep from a flat position without hip angle results in insufficient mechanical leverage because your body cannot generate the rotational force needed to elevate the opponent. The flat position also allows the top player to use their weight directly against you since your underhook lacks the angular advantage needed to redirect their mass. Always create at least a thirty-degree hip angle through hip escape before committing to the sweep."
+      },
+      {
+        "question": "Your opponent establishes a wide far-side post and the direct elevation stalls—what chain attacks open up?",
+        "answer": "A blocked sweep is a launch point, not a dead end. With the underhook still connected and their hand posted away from their body, immediately climb the back take by walking your underhook arm around their shoulder and inserting your free leg as the first hook. Alternatively, hook their exposed far leg with your posting leg to enter the electric chair, converting the failed elevation into a leg-and-spine submission threat that forces them to surrender either the pass or the leg."
       },
       {
         "question": "Your opponent sprawls their hips back when you begin the sweep—what is the correct response?",

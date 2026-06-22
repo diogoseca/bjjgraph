@@ -10,6 +10,41 @@ description: "Master the Bridge and Roll escape from Mount in BJJ. Complete brea
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Bridge and Roll",
+  "description": "Master the Bridge and Roll escape from Mount in BJJ. Complete breakdown of hip elevation, trapping mechanics, and 45-degree bridging angle for reliable mount reversals.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Bridge and Roll", "item": "https://bjjgraph.org/Transitions/Bridge-and-Roll" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Bridge and Roll",
+  "description": "The Bridge and Roll, or Upa, is the fundamental mount escape in which the bottom player traps the opponent's same-side arm and foot, then bridges explosively over that shoulder to reverse the position and land inside their guard on top.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Bridge and Roll escape from Mount in BJJ. Complete brea
 
 <section id="overview" class="content-section">
 
-The Bridge and Roll (also known as the Upa Escape or trap and roll) is the most fundamental and highest-percentage escape from the mounted position. This technique exploits the opponent's base by creating a powerful bridge with the hips while simultaneously trapping one arm and the same-side leg, forcing them to roll over their trapped shoulder. The escape is effective because it uses the strongest muscles in the body—the glutes and hamstrings—to generate explosive power that overwhelms the opponent's balance.
+**The Bridge and Roll, or Upa, is the fundamental mount escape in which the bottom player traps the opponent's same-side arm and foot, then bridges explosively over that shoulder to reverse the position and land inside their guard on top.**
+
+Within the mount escape hierarchy, the Bridge and Roll exploits the opponent's base by creating a powerful bridge with the hips while simultaneously trapping one arm and the same-side leg, forcing them to roll over their trapped shoulder. The escape is effective because it uses the strongest muscles in the body—the glutes and hamstrings—to generate explosive power that overwhelms the opponent's balance.
 
 The Bridge and Roll is typically the first mount escape taught to beginners due to its intuitive mechanics and immediate effectiveness, yet it remains a cornerstone technique at all belt levels. The success of this escape depends on proper timing, creating the correct angle before bridging, and understanding the relationship between the trapped arm and leg. When executed correctly, the practitioner not only escapes the mounted position but often ends up inside the opponent's closed guard as the top player with improved position.
 
@@ -229,6 +266,19 @@ The Bridge and Roll escape is the foundational technique in the mount escape hie
 
 - [[Transitions/Technical Stand-up]] - Follow-up option if guard cannot be established after completing the roll
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/IBJJF-Strategy-Guide" data-cta="related-system-card" data-system-slug="systems/ibjjf-strategy-guide" data-system-name="IBJJF Strategy Guide" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">IBJJF Strategy Guide</span><span class="system-card__unlocks-badge">Unlocks 27 techniques</span><span class="system-card__blurb">Mount escape preventing opponent&#x27;s 4-point position retention</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Teaching-Methodology-Framework" data-cta="related-system-card" data-system-slug="systems/teaching-methodology-framework" data-system-name="Teaching Methodology Framework" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Teaching Methodology Framework</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Fundamental escape from mount bottom position</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Defensive-Prioritization-Framework" data-cta="related-system-card" data-system-slug="systems/defensive-prioritization-framework" data-system-name="Defensive Prioritization Framework" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Defensive Prioritization Framework</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Essential mount escape within the framework&#x27;s escape sequencing system</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Self-Defense-Application-Framework" data-cta="related-system-card" data-system-slug="systems/self-defense-application-framework" data-system-name="Self-Defense Application Framework" data-member-count="18"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Self-Defense Application Framework</span><span class="system-card__unlocks-badge">Unlocks 18 techniques</span><span class="system-card__blurb">Basic escape from mount position</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

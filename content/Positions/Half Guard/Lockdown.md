@@ -10,6 +10,41 @@ description: "Master Lockdown position in BJJ. 10th Planet's revolutionary half 
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Lockdown",
+  "description": "Master Lockdown position in BJJ. 10th Planet\u0027s revolutionary half guard control system with leg entanglement. Complete guide covering bottom sweeps and top defense strategies.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Lockdown", "item": "https://bjjgraph.org/Positions/Lockdown" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Lockdown",
+  "description": "Lockdown is 10th Planet's signature half guard variation where the bottom player triangles a leg around the opponent's trapped leg, immobilizing it to power sweeps, back takes, and the Electric Chair.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Lockdown position in BJJ. 10th Planet's revolutionary half 
 </div>
 
 <section id="overview" class="content-section">
+
+**Lockdown is 10th Planet's signature half guard variation where the bottom player triangles a leg around the opponent's trapped leg, immobilizing it to power sweeps, back takes, and the Electric Chair.**
 
 Lockdown is 10th Planet's revolutionary half guard variation that transforms traditional half guard from a defensive holding position into an aggressive attacking platform. This position features a specialized leg entanglement where the bottom player creates a figure-four lock around the opponent's trapped leg, severely restricting their mobility while enabling powerful sweeps, back takes, and submissions. The lockdown mechanism works by using the bottom player's outside leg to hook under the opponent's shin while the inside leg wraps over the thigh, creating tremendous leverage to break posture, manipulate weight distribution, and create angles for offensive attacks. Within the 10th Planet system, Lockdown serves as the foundation for multiple attacking sequences including the Electric Chair, Old School sweep, and various paths to back control. The position is particularly effective in no-gi grappling where traditional gi grips are unavailable, and has become a cornerstone technique in modern BJJ competition. The lockdown's effectiveness lies in its ability to simultaneously neutralize passing attempts while creating offensive opportunities, making it equally important to understand from both bottom and top perspectives.
 
@@ -57,7 +94,7 @@ Lockdown is 10th Planet's revolutionary half guard variation that transforms tra
 
 | &nbsp; | Bottom | Top |
 |--------|--------|-----|
-| **Position Type** | Defensive with offensive options | Offensive |
+| **Position Type** | Offensive | Defensive |
 | **Risk Level** | Low to Medium | Medium to High |
 | **Energy Cost** | Medium | Medium |
 | **Time** | Medium to Long | Medium |
@@ -96,11 +133,11 @@ Lockdown is 10th Planet's revolutionary half guard variation that transforms tra
 ### Available Transitions
 
 
-- **[[Transitions/Whip-up Sweep/Attacker|Whip-up Sweep]]** (26% of attempts)
+- **[[Transitions/Whip-up Sweep/Attacker|Whip-up Sweep]]** (25% of attempts)
 
 - **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (9% of attempts)
 
-- **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** (11% of attempts)
+- **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** (10% of attempts)
 
 - **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (7% of attempts)
 
@@ -108,7 +145,7 @@ Lockdown is 10th Planet's revolutionary half guard variation that transforms tra
 
 - **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** (8% of attempts)
 
-- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (9% of attempts)
+- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (8% of attempts)
 
 - **[[Kimura from Lockdown/Attacker|Kimura from Lockdown]]** (4% of attempts)
 
@@ -121,6 +158,8 @@ Lockdown is 10th Planet's revolutionary half guard variation that transforms tra
 - **[[Transitions/Back Take from Lockdown Defense/Attacker|Back Take from Lockdown Defense]]** (4% of attempts)
 
 - **[[Submissions/Crotch Ripper/Attacker|Crotch Ripper]]** (2% of attempts)
+
+- **[[Crotch Ripper from Lockdown/Attacker|Crotch Ripper from Lockdown]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -191,7 +230,9 @@ Lockdown is 10th Planet's revolutionary half guard variation that transforms tra
 
 - **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** (9% of attempts)
 
-- **[[Transitions/Leg Extraction to Combat Base/Attacker|Leg Extraction to Combat Base]]** (37% of attempts)
+- **[[Transitions/Leg Extraction to Combat Base/Attacker|Leg Extraction to Combat Base]]** (27% of attempts)
+
+- **[[Transitions/Lockdown Escape to Half Guard Pass/Attacker|Lockdown Escape to Half Guard Pass]]** (10% of attempts)
 
 - **[[Transitions/Lockdown to Z-Lock Half Guard/Attacker|Lockdown to Z-Lock Half Guard]]** (9% of attempts)
 
@@ -254,6 +295,20 @@ Lockdown is 10th Planet's revolutionary half guard variation that transforms tra
 
 - **[[Positions/Half Guard/Butterfly Half Guard]]** - Related half guard variation - combines butterfly hook with half guard
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Twister-System" data-cta="related-system-card" data-system-slug="systems/twister-system" data-system-name="Twister System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Twister System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Foundation position that initiates entire system sequence</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/10th-Planet-No-Gi-Guard-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-no-gi-guard-system" data-system-name="10th Planet No-Gi Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">10th Planet No-Gi Guard System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Core half guard control mechanism</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Andrew-Wiltse-Half-Guard-System" data-cta="related-system-card" data-system-slug="systems/andrew-wiltse-half-guard-system" data-system-name="Andrew Wiltse Half Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Andrew Wiltse Half Guard System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Complementary half guard variation for controlling opponent&#x27;s leg</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Lockdown-to-Electric-Chair-System" data-cta="related-system-card" data-system-slug="systems/lockdown-to-electric-chair-system" data-system-name="Lockdown to Electric Chair System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Lockdown to Electric Chair System</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Core control position that enables entire system</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/10th-Planet-Half-Guard-Bottom-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-half-guard-bottom-system" data-system-name="10th Planet Half Guard Bottom System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">10th Planet Half Guard Bottom System</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Core control position that serves as the foundation for the entire system</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

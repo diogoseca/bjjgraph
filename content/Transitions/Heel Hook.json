@@ -1,6 +1,7 @@
 {
   "name": "Heel Hook",
   "description": "Master the Heel Hook submission in BJJ. Complete guide covering execution from Ashi Garami, rotational mechanics, defense, and safety protocols.",
+  "summary": "The Heel Hook is a rotational leg-lock submission that twists the heel to torque the knee's ligaments (ACL, MCL, meniscus), finished from Ashi Garami leg entanglements and regarded as the most dangerous attack in modern grappling.",
   "tags": [
     "bjj",
     "submission",
@@ -14,7 +15,7 @@
   "from_position": "Ashi Garami/Bottom",
   "outcomes": [
     {
-      "to": "Heel Hook",
+      "to": "game-over",
       "probability": 55,
       "result": "success"
     },
@@ -30,7 +31,7 @@
     }
   ],
   "success_rate": 55,
-  "overview": "The Heel Hook is the most dangerous and effective leg lock submission in Brazilian Jiu-Jitsu, attacking the knee's ligaments through rotational force applied to the heel while controlling the hip and leg. Unlike ankle locks that attack the ankle joint directly, the heel hook creates a twisting force that travels up the tibia and fibula to attack the knee's ACL, MCL, and meniscus. This submission has become the cornerstone of modern leg lock systems, particularly in no-gi grappling where the absence of friction makes leg entanglement control more accessible.\n\nThe technique exists in two primary variations: the inside heel hook (attacking with rotation toward the opponent's centerline) and the outside heel hook (rotating away from centerline). Inside heel hooks are generally considered more dangerous due to their attack angle on the knee structures. Success requires proper positional hierarchy—attempting heel hooks from inferior Ashi Garami positions dramatically reduces effectiveness and increases counter-attack exposure.\n\nStrategically, the heel hook represents the finishing sequence of the modern leg lock game. Practitioners must first establish dominant leg entanglement positions (Saddle, Inside Ashi, or Cross Ashi) before attempting the finish. The submission's effectiveness at competition's highest levels has made leg lock defense and Ashi Garami understanding mandatory skills for serious practitioners.",
+  "overview": "Sitting at the finishing end of every modern leg lock system, the heel hook owes its fearsome reputation to a mechanical quirk that sets it apart from every other footlock. Rather than attacking the ankle joint directly the way straight ankle locks do, it applies rotational force to the heel that travels up the tibia and fibula to load the knee's ACL, MCL, and meniscus—ligaments that fail with minimal warning before structural damage. This is why it became the cornerstone of modern leg lock systems, particularly in no-gi grappling where the absence of friction makes leg entanglement control more accessible.\n\nThe technique exists in two primary variations: the inside heel hook (attacking with rotation toward the opponent's centerline) and the outside heel hook (rotating away from centerline). Inside heel hooks are generally considered more dangerous due to their attack angle on the knee structures. Success requires proper positional hierarchy—attempting heel hooks from inferior Ashi Garami positions dramatically reduces effectiveness and increases counter-attack exposure.\n\nStrategically, the heel hook represents the finishing sequence of the modern leg lock game. Practitioners must first establish dominant leg entanglement positions (Saddle, Inside Ashi, or Cross Ashi) before attempting the finish. The submission's effectiveness at competition's highest levels has made leg lock defense and Ashi Garami understanding mandatory skills for serious practitioners.",
   "conditions": [
     "Established Ashi Garami leg entanglement with hip control preventing opponent rotation",
     "Opponent's heel is exposed and accessible for gripping",

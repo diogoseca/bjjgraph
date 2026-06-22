@@ -10,6 +10,41 @@ description: "Master the Backstep from Worm Guard pass in BJJ. Step-by-step guid
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Backstep from Worm Guard",
+  "description": "Master the Backstep from Worm Guard pass in BJJ. Step-by-step guide to clearing lapel entanglements and achieving side control with angular passing.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Backstep from Worm Guard", "item": "https://bjjgraph.org/Transitions/Backstep-from-Worm-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Backstep from Worm Guard",
+  "description": "The backstep from worm guard is a gi guard pass that clears the lapel entanglement by stepping the trapped leg backward in a wide arc around the bottom player, exploiting the wrap's one-way tension so it slackens, then settling into side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Backstep from Worm Guard pass in BJJ. Step-by-step guid
 </div>
 
 <section id="overview" class="content-section">
+
+**The backstep from worm guard is a gi guard pass that clears the lapel entanglement by stepping the trapped leg backward in a wide arc around the bottom player, exploiting the wrap's one-way tension so it slackens, then settling into side control.**
 
 The backstep from worm guard is a specialized guard passing technique designed to neutralize the lapel entanglement that defines modern worm guard systems. Rather than attempting to strip the lapel wrap from the front—where the bottom player's mechanical advantage is strongest—the backstep redirects the passing vector entirely by stepping the trapped leg backwards and around the bottom player's guard structure. This angular change breaks the lapel tension line and creates passing opportunities that the worm guard configuration cannot defend against without fundamental repositioning.
 
@@ -225,5 +262,7 @@ The backstep from worm guard sits within the broader backstep passing system tha
 
 
 </section>
+
+
 
 </main>

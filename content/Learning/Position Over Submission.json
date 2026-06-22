@@ -1,6 +1,7 @@
 {
   "name": "Position Over Submission",
   "description": "Learn why securing dominant position before attacking submissions is the most reliable path to victory in BJJ. Master the positional hierarchy.",
+  "summary": "Position over submission is the BJJ principle of securing dominant, controlling position before hunting a finish, because submissions launched from positional advantage have far higher completion rates and far lower cost when they fail.",
   "tags": [
     "bjj",
     "strategy",
@@ -115,47 +116,47 @@
   ],
   "related_content": [
     {
-      "name": "Principles/Positional Hierarchy",
+      "name": "Positional Hierarchy",
       "content_type": "Principle",
       "relationship": "The ranking system that defines which positions offer more control and submission opportunities"
     },
     {
-      "name": "Principles/Position-Over-Submission Approach",
+      "name": "Position-Over-Submission Approach",
       "content_type": "Principle",
       "relationship": "The foundational principle this article explores in depth"
     },
     {
-      "name": "Principles/Control Maintenance",
+      "name": "Control Maintenance",
       "content_type": "Principle",
       "relationship": "Techniques for maintaining dominant positions before attacking"
     },
     {
-      "name": "Principles/Pressure",
+      "name": "Pressure",
       "content_type": "Principle",
       "relationship": "Using weight and pressure to consolidate positions and break down defenses"
     },
     {
-      "name": "Positions/Mount",
+      "name": "Mount",
       "content_type": "Position",
       "relationship": "The quintessential dominant position where position-first strategy pays off most"
     },
     {
-      "name": "Positions/Side Control",
+      "name": "Side Control",
       "content_type": "Position",
       "relationship": "Key transitional position for advancing up the positional hierarchy"
     },
     {
-      "name": "Positions/Back Control",
+      "name": "Back Control",
       "content_type": "Position",
       "relationship": "The most dominant position in the hierarchy with the highest submission rates"
     },
     {
-      "name": "Learning/Committed Techniques",
+      "name": "Committed Techniques",
       "content_type": "Learning",
       "relationship": "Choosing techniques that retain position on failure supports the position-first approach"
     },
     {
-      "name": "Learning/Probabilistic Thinking",
+      "name": "Probabilistic Thinking",
       "content_type": "Learning",
       "relationship": "Position-first strategy is fundamentally about playing the percentages"
     }

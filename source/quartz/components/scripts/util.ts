@@ -24,3 +24,24 @@ export function removeAllChildren(node: HTMLElement) {
     node.removeChild(node.firstChild)
   }
 }
+
+/** localStorage.setItem that never throws into the caller. On QuotaExceededError
+ * (Safari private mode / full store) it surfaces a snackbar and returns false
+ * instead of aborting the in-progress flow (e.g. a flashcard grade). */
+export function safeSetItem(key: string, value: string): boolean {
+  try {
+    localStorage.setItem(key, value)
+    return true
+  } catch (e) {
+    const err = e as { name?: string; code?: number }
+    if (err?.name === "QuotaExceededError" || err?.code === 22) {
+      ;(window as any).showSnackbar?.({
+        type: "failure",
+        message: "Storage full — changes weren't saved. Sign in to sync or clear space.",
+      })
+    } else {
+      console.error("[storage] setItem failed:", e)
+    }
+    return false
+  }
+}

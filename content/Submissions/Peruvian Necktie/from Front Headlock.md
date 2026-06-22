@@ -10,10 +10,55 @@ description: "Master the Peruvian Necktie from front headlock. Learn leg-over-he
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Peruvian Necktie from Front Headlock targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Peruvian Necktie from Front Headlock",
+  "description": "Master the Peruvian Necktie from front headlock. Learn leg-over-head blood choke mechanics, grip details, and finishing techniques for competitive BJJ.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Peruvian Necktie from Front Headlock", "item": "https://bjjgraph.org/Submissions/Peruvian-Necktie-from-Front-Headlock" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Peruvian Necktie from Front Headlock",
+  "description": "The Peruvian Necktie from front headlock is a bilateral blood choke where you lock a gable grip and drape a leg over the back of a bent-forward opponent's neck, driving their head into the choking forearm to seal both carotid arteries.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Peruvian Necktie from front headlock is a bilateral blood choke where you lock a gable grip and drape a leg over the back of a bent-forward opponent's neck, driving their head into the choking forearm to seal both carotid arteries.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries and trachea</span>
+<span class="meta-chip">52% success</span>
+</div>
+
+> [!danger] Safety
+> Peruvian Necktie from Front Headlock targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,57 +75,7 @@ The mechanic that distinguishes the Peruvian Necktie from other front headlock s
 
 Strategically, the Peruvian Necktie works best as part of a comprehensive front headlock attack system. Opponents defending guillotine attempts often keep their posture low and head tucked, which is precisely the posture that exposes them to the necktie. The grip transition from a standard front headlock to the Peruvian Necktie configuration is subtle enough that experienced defenders may not recognize the threat until the leg is already over their head, at which point escape options become severely limited. This submission punishes the most common front headlock defensive posture, making it an essential addition to any front headlock system.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries and trachea
-**Starting Position**: [[Positions/Front Headlock]]
-**From Position**: [[Positions/Front Headlock]] (Top)
-**Success Rate**: 52%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Carotid artery compression leading to loss of consciousness | CRITICAL | Immediate if released, potential neurological complications if held past unconsciousness |
-| Trachea damage from improper forearm placement | High | 2-4 weeks for bruising, longer for structural damage |
-| Neck strain or cervical spine stress from twisting pressure | Medium | 1-2 weeks |
-| Shoulder joint stress from arm being trapped | Medium | 1-3 weeks |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training, NEVER snap or jerk
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress vocalization)
-- Physical hand tap on opponent's body or mat
-- Physical foot tap on mat
-- Any loss of resistance or going limp
-- Any distress signal or irregular breathing
-
-
-**Release Protocol**:
-1. Immediately release choking arm and remove pressure
-2. Unwrap leg from opponent's neck slowly
-3. Allow opponent to straighten their neck naturally
-4. Monitor partner for consciousness and breathing
-5. Check for neck mobility before continuing training
-6. If partner lost consciousness, call for medical assistance and monitor airway
-
-
-**Training Restrictions**:
-- Never apply competition speed or intensity in training
-- Never spike or jerk the submission
-- Always communicate before drilling this choke
-- Beginners must drill under supervision only
-- Never practice on partners with neck injuries
-- Always ensure training partner can tap with free hand
-- Stop immediately if partner shows any sign of distress beyond normal discomfort
-
+**Starting Position**: [[Positions/Front Headlock]] · **From**: [[Positions/Front Headlock]] (Top)
 
 </section>
 
@@ -242,10 +237,9 @@ Strategically, the Peruvian Necktie works best as part of a comprehensive front 
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Japanese Necktie]]
 - [[Transitions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
@@ -253,32 +247,59 @@ Strategically, the Peruvian Necktie works best as part of a comprehensive front 
 - [[Transitions/Arm Triangle]]
 - [[Submissions/High Elbow Guillotine]]
 - [[Submissions/Brabo Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Front Headlock]] - Starting control position for this submission variant
 - [[Positions/Turtle]] - Common defensive position where front headlock is established before necktie entry
 - [[Positions/Darce Control]] - Alternative control position when necktie grip fails — can redirect to darce finish
-- [[Submissions/Japanese Necktie]] - Sister submission sharing front headlock entry with different finishing angle and leg placement
 - [[Positions/Guillotine Control]] - Primary alternative control when opponent postures during necktie setup
 - [[Positions/Back Control]] - Positional alternative when opponent defends necktie by circling away from front headlock
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Carotid artery compression leading to loss of consciousness | CRITICAL | Immediate if released, potential neurological complications if held past unconsciousness |
+| Trachea damage from improper forearm placement | High | 2-4 weeks for bruising, longer for structural damage |
+| Neck strain or cervical spine stress from twisting pressure | Medium | 1-2 weeks |
+| Shoulder joint stress from arm being trapped | Medium | 1-3 weeks |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training, NEVER snap or jerk
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any distress vocalization)
+- Physical hand tap on opponent's body or mat
+- Physical foot tap on mat
+- Any loss of resistance or going limp
+- Any distress signal or irregular breathing
+
+
+**Release Protocol**:
+1. Immediately release choking arm and remove pressure
+2. Unwrap leg from opponent's neck slowly
+3. Allow opponent to straighten their neck naturally
+4. Monitor partner for consciousness and breathing
+5. Check for neck mobility before continuing training
+6. If partner lost consciousness, call for medical assistance and monitor airway
+
+
+**Training Restrictions**:
+- Never apply competition speed or intensity in training
+- Never spike or jerk the submission
+- Always communicate before drilling this choke
+- Beginners must drill under supervision only
+- Never practice on partners with neck injuries
+- Always ensure training partner can tap with free hand
+- Stop immediately if partner shows any sign of distress beyond normal discomfort
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Peruvian Necktie from Front Headlock leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

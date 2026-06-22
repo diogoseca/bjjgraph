@@ -10,6 +10,41 @@ description: "Master S-Mount Transition in BJJ. Step-by-step execution from Modi
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "S-Mount Transition",
+  "description": "Master S-Mount Transition in BJJ. Step-by-step execution from Modified Mount to S Mount for armbar setups with complete attacker and defender guides.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "S-Mount Transition", "item": "https://bjjgraph.org/Transitions/S-Mount-Transition" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "S-Mount Transition",
+  "description": "S-Mount Transition advances from Modified Mount by sliding one leg under the opponent's far shoulder and swinging the other over their head, rotating perpendicular into S-Mount to isolate the near arm for a high-percentage armbar finish.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master S-Mount Transition in BJJ. Step-by-step execution from Modi
 </div>
 
 <section id="overview" class="content-section">
+
+**S-Mount Transition advances from Modified Mount by sliding one leg under the opponent's far shoulder and swinging the other over their head, rotating perpendicular into S-Mount to isolate the near arm for a high-percentage armbar finish.**
 
 The S-Mount Transition represents a critical positional advancement from Modified Mount that positions the attacker for high-percentage armbar finishes. This technique involves sliding the posted leg underneath the opponent's far shoulder while the other leg swings over their head, creating the distinctive S-shaped body configuration that gives the position its name. The transition capitalizes on the natural armbar-focused structure of Modified Mount, taking it to its logical conclusion by fully committing the hips perpendicular to the opponent's body axis. S-Mount provides superior control for arm isolation compared to Modified Mount because both legs now actively contribute to pinning the opponent rather than one leg posting for stability. The position creates tremendous pressure on the opponent's ribcage and shoulder line, making defensive movements extremely difficult while the attacker maintains dominant hip position for armbar execution.
 
@@ -218,5 +255,7 @@ The S-Mount Transition is a critical link between mount control and armbar finis
 
 
 </section>
+
+
 
 </main>

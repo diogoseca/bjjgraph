@@ -10,6 +10,41 @@ description: "Master the mounted crucifix in BJJ. Complete guide covering arm is
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Mounted Crucifix",
+  "description": "Master the mounted crucifix in BJJ. Complete guide covering arm isolation, back exposure attacks, submission chains, and defensive escapes from this dominant control position.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Mounted Crucifix", "item": "https://bjjgraph.org/Positions/Mounted-Crucifix" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Mounted Crucifix",
+  "description": "The Mounted Crucifix is a dominant top control that fuses mount with crucifix arm-trapping, using the legs to isolate one or both of the opponent's arms and strip their defensive frames for high-percentage chokes, armbars, and back takes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the mounted crucifix in BJJ. Complete guide covering arm is
 </div>
 
 <section id="overview" class="content-section">
+
+**The Mounted Crucifix is a dominant top control that fuses mount with crucifix arm-trapping, using the legs to isolate one or both of the opponent's arms and strip their defensive frames for high-percentage chokes, armbars, and back takes.**
 
 The Mounted Crucifix represents one of Brazilian Jiu-Jitsu's most dominant control positions, seamlessly blending the positional advantages of mount with the arm-trapping mechanics of the traditional crucifix. This hybrid position creates an exceptionally powerful platform for attacks while severely limiting the opponent's defensive capabilities.
 
@@ -108,7 +145,7 @@ The mounted crucifix also serves as an excellent teaching position for understan
 ### Available Transitions
 
 
-- **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** (32% of attempts)
+- **[[Transitions/Hip Escape from Mounted Crucifix/Attacker|Hip Escape from Mounted Crucifix]]** (33% of attempts)
 
 - **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (12% of attempts)
 
@@ -123,8 +160,6 @@ The mounted crucifix also serves as an excellent teaching position for understan
 - **[[Transitions/Arm Drag Sweep/Attacker|Arm Drag Sweep]]** (3% of attempts)
 
 - **[[Transitions/Rolling Escape to Guard/Attacker|Rolling Escape to Guard]]** (6% of attempts)
-
-- **[[Transitions/Hip Escape from Mounted Crucifix/Attacker|Hip Escape from Mounted Crucifix]]** (1% of attempts)
 
 - **[[Transitions/Bridge Escape from Mounted Crucifix/Attacker|Bridge Escape from Mounted Crucifix]]** (1% of attempts)
 
@@ -187,29 +222,35 @@ The mounted crucifix also serves as an excellent teaching position for understan
 ### Available Transitions
 
 
-- **[[Transitions/Armbar from Crucifix/Attacker|Armbar from Crucifix]]** (16% of attempts)
+- **[[Transitions/Armbar from Crucifix/Attacker|Armbar from Crucifix]]** (11% of attempts)
 
-- **[[Rear Naked Choke from Mounted Crucifix/Attacker|Rear Naked Choke from Mounted Crucifix]]** (10% of attempts)
+- **[[Transitions/Straight Armbar/Attacker|Straight Armbar]]** (8% of attempts)
+
+- **[[Rear Naked Choke from Mounted Crucifix/Attacker|Rear Naked Choke from Mounted Crucifix]]** (9% of attempts)
 
 - **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** (9% of attempts)
 
-- **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** (9% of attempts)
+- **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** (8% of attempts)
 
-- **[[Transitions/Gift Wrap to Technical Mount/Attacker|Gift Wrap to Technical Mount]]** (10% of attempts)
+- **[[Transitions/Gift Wrap to Technical Mount/Attacker|Gift Wrap to Technical Mount]]** (9% of attempts)
 
 - **[[Neck Crank from Mounted Crucifix/Attacker|Neck Crank from Mounted Crucifix]]** (5% of attempts)
 
-- **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** (9% of attempts)
+- **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** (4% of attempts)
 
-- **[[Transitions/Mounted Crucifix to S Mount/Attacker|Mounted Crucifix to S Mount]]** (9% of attempts)
+- **[[Transitions/Mounted Crucifix to S Mount/Attacker|Mounted Crucifix to S Mount]]** (8% of attempts)
 
 - **[[Transitions/Gift Wrap Transition/Attacker|Gift Wrap Transition]]** (8% of attempts)
 
-- **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** (10% of attempts)
+- **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** (9% of attempts)
 
 - **[[Positions/Back Control/Seat Belt Control Back/Attacker|Seat Belt Control Back]]** (3% of attempts)
 
 - **[[Submissions/Mounted Crucifix Armbar/Attacker|Mounted Crucifix Armbar]]** (2% of attempts)
+
+- **[[Belly Down Armbar from Mounted Crucifix/Attacker|Belly Down Armbar from Mounted Crucifix]]** (3% of attempts)
+
+- **[[Mounted Crucifix Armbar from Mounted Crucifix/Attacker|Mounted Crucifix Armbar from Mounted Crucifix]]** (4% of attempts)
 
 
 ### Common Mistakes
@@ -272,5 +313,7 @@ The mounted crucifix also serves as an excellent teaching position for understan
 
 
 </section>
+
+
 
 </main>

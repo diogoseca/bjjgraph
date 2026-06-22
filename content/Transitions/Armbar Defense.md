@@ -10,6 +10,41 @@ description: "Master Armbar Defense in BJJ. Learn systematic escapes including s
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Armbar Defense",
+  "description": "Master Armbar Defense in BJJ. Learn systematic escapes including stacking, hitchhiker, and rolling defenses with position-specific strategies.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Armbar Defense", "item": "https://bjjgraph.org/Transitions/Armbar-Defense" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Armbar Defense",
+  "description": "Armbar Defense is the systematic escape from armbar control, combining a bent-elbow defensive grip, rotation toward the opponent's head, and hip stacking to neutralize the joint lock and recover to a top or guard position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Armbar Defense in BJJ. Learn systematic escapes including s
 </div>
 
 <section id="overview" class="content-section">
+
+**Armbar Defense is the systematic escape from armbar control, combining a bent-elbow defensive grip, rotation toward the opponent's head, and hip stacking to neutralize the joint lock and recover to a top or guard position.**
 
 Armbar defense represents one of the most critical defensive skills in Brazilian Jiu-Jitsu, as the armbar is among the highest-percentage submissions across all skill levels and rule sets. The defensive sequence must be executed with precise timing and technical understanding, as even slight delays can result in a completed submission. Effective armbar defense operates on multiple layers: preventing the initial setup through postural awareness, recognizing the attack in its early stages, executing appropriate escape mechanics based on the specific armbar variation, and transitioning to a safer position once the immediate threat is neutralized.
 
@@ -228,6 +265,16 @@ Armbar defense is integrated throughout the entire BJJ positional hierarchy, as 
 
 - [[Positions/Turtle]] - Possible recovery position after rolling escape variations
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Defensive-Prioritization-Framework" data-cta="related-system-card" data-system-slug="systems/defensive-prioritization-framework" data-system-name="Defensive Prioritization Framework" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Defensive Prioritization Framework</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Critical submission defense technique integrated into framework protocols</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

@@ -16,7 +16,7 @@ description: "Master the sprawl defense execution in BJJ. Complete guide to stop
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Sprawl Defense from Standing in BJJ",
-  "description": "Step-by-step guide for executing Sprawl Defense from Standing from Standing Position/Bottom.",
+  "description": "Step-by-step guide for executing Sprawl Defense from Standing from Standing Position/Top.",
   "step": [
     {
       "@type": "HowToStep",
@@ -180,7 +180,7 @@ description: "Master the sprawl defense execution in BJJ. Complete guide to stop
 
 As the attacker executing the sprawl, your role is to convert your opponent's takedown attempt into a dominant offensive position. The sprawl is not merely a defensive reaction but the opening move in a systematic attack chain. Your immediate goal is to stuff the shot by driving your hips backward and downward, killing the opponent's forward momentum with your bodyweight. The moment the shot dies, you transition seamlessly into front headlock control where guillotines, anacondas, darces, and back takes become available. Elite sprawl execution means your opponent's most aggressive offensive action becomes the trigger for your highest-percentage submissions. The technical precision of your hip drop, the speed of your weight transfer, and the accuracy of your follow-up head control determine whether you merely survive the shot or capitalize on it.
 
-**From Position**: [[Positions/Standing Position]] (Bottom)
+**From Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -332,5 +332,7 @@ Full-speed standing sparring rounds where you specifically look for sprawl oppor
 The sprawl involves rapid hip extension and significant downward force applied to the opponent's cervical spine and upper back. During training, always control the intensity of your sprawl to prevent neck injuries to your partner. Avoid driving full bodyweight directly onto training partners' necks during drilling phases — target the upper back and shoulders instead. On wet or slippery mats, explosive sprawls increase the risk of knee and ankle injuries from uncontrolled sliding. Partners should communicate immediately if neck or spine pressure becomes uncomfortable during positional drilling. When progressing to full-speed sprawl practice, both partners should warm up thoroughly and agree on intensity levels before beginning.
 
 </section>
+
+
 
 </main>

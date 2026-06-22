@@ -131,6 +131,11 @@ description: "Execute the Kimura from Butterfly Guard with precise grip mechanic
     "@type": "WebSite",
     "name": "BJJ Graph",
     "url": "https://bjjgraph.org"
+  },
+  "mainEntityOfPage": {
+    "@type": "CollectionPage",
+    "name": "Kimura",
+    "url": "https://bjjgraph.org/Families/kimura"
   }
 }
 </script>
@@ -172,6 +177,9 @@ description: "Execute the Kimura from Butterfly Guard with precise grip mechanic
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="part-of-family"><em>Part of the</em> <strong>Kimura</strong> <em>family</em></p>
+</aside>
 <section id="overview" class="content-section">
 
 Attacking the Kimura from Butterfly Guard requires coordinating upper body grip mechanics with lower body hook management to maintain positional control while isolating and rotating the shoulder. The seated posture provides natural advantages for securing the figure-four grip, while the hooks create constant base disruption that prevents the opponent from mounting effective defenses. Success depends on recognizing the moment when the opponent's hand becomes available, typically during sweep defense or grip fighting, and transitioning smoothly from guard play to submission attack without sacrificing hook position or posture.

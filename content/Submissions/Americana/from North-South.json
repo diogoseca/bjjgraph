@@ -1,5 +1,6 @@
 {
   "name": "Americana from North-South",
+  "summary": "The Americana from North-South is a figure-four shoulder lock applied from the perpendicular North-South pin, where the top player traps the defender's near elbow with ribcage weight and paints the wrist toward the mat to force damaging external shoulder rotation.",
   "description": "Master the Americana shoulder lock from North-South position. Complete guide covering unique perpendicular setup, grip mechanics, finishing details, and defenses.",
   "tags": [
     "bjj",
@@ -120,7 +121,7 @@
     }
   ],
   "attacker": {
-    "name": "from North-South Attacker",
+    "name": "Americana from North-South Attacker",
     "description": "Learn to attack the Americana shoulder lock from North-South. Step-by-step guide to grip setup, elbow pinning, paint-brush finish, and countering defenses.",
     "overview": "Attacking with the Americana from North-South requires capitalizing on the crushing chest pressure inherent to the position while isolating the defender's near arm for the figure-four lock. The perpendicular body alignment creates a unique angle of attack where your ribcage weight naturally pins the defender's elbow while you secure the wrist and rotate the shoulder into submission. Success depends on maintaining positional dominance throughout the entire attack sequence, because any loss of chest pressure during the grip work allows defensive escapes. The key mechanical insight is that your body structure generates the finishing force, not your arms.",
     "key_principles": [
@@ -316,7 +317,7 @@
     ]
   },
   "defender": {
-    "name": "from North-South Defender",
+    "name": "Americana from North-South Defender",
     "description": "Defend against the Americana shoulder lock from North-South. Recognition cues, early prevention, escape techniques, and recovery options explained.",
     "overview": "Defending the Americana from North-South requires early recognition and immediate action before the attacker secures the figure-four grip. The crushing chest pressure of North-South severely limits your defensive options once the submission is locked in, making prevention far more effective than late-stage escape. Your primary defensive priorities are keeping your elbows tight to your body, preventing arm isolation, and creating hip mobility to change the angle of attack. Understanding the attacker's grip sequence allows you to intervene at the most vulnerable moments of their setup before the mechanical advantage becomes insurmountable.",
     "key_principles": [

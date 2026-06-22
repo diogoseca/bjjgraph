@@ -10,6 +10,41 @@ description: "Master the Leg Drag to Mount transition in BJJ. Step-by-step guide
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Leg Drag to Mount",
+  "description": "Master the Leg Drag to Mount transition in BJJ. Step-by-step guide from Leg Drag Control to full Mount with execution details and defense strategies.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Leg Drag to Mount", "item": "https://bjjgraph.org/Transitions/Leg-Drag-to-Mount" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Leg Drag to Mount",
+  "description": "Leg Drag to Mount is a guard-passing transition where the top player, having established leg drag control, releases the trapped leg and steps over a flattened opponent to secure the dominant mount position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Leg Drag to Mount transition in BJJ. Step-by-step guide
 </div>
 
 <section id="overview" class="content-section">
+
+**Leg Drag to Mount is a guard-passing transition where the top player, having established leg drag control, releases the trapped leg and steps over a flattened opponent to secure the dominant mount position.**
 
 The Leg Drag to Mount transition represents one of the most direct pathways from leg drag control to a dominant scoring position. When an opponent stays relatively flat on their back rather than turning away to protect their guard, the mount becomes the highest-percentage consolidation option. This transition capitalizes on the hip control already established in leg drag position, using the crossed leg as a pivot point to swing into full mount.
 
@@ -218,5 +255,7 @@ The Leg Drag to Mount transition occupies a critical junction in the guard passi
 
 
 </section>
+
+
 
 </main>

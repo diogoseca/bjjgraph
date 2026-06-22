@@ -1,5 +1,6 @@
 {
   "name": "Kneebar from Carni",
+  "summary": "The kneebar from Carni is a no-gi leg-lock finish that hyperextends the opponent's knee when they straighten their trapped leg to defend the heel hook, turning their defensive reaction into a bend-or-break dilemma.",
   "description": "Master the kneebar from Carni position in BJJ. Complete guide to setup mechanics, finishing details, defensive counters, and essential safety protocols.",
   "tags": [
     "bjj",
@@ -75,7 +76,7 @@
     "Inside Heel Hook",
     "Calf Slicer",
     "Flying Kneebar",
-    "Aoki Lock Control",
+    "Aoki Lock",
     "Achilles Lock"
   ],
   "related_content": [
@@ -135,7 +136,7 @@
     }
   ],
   "attacker": {
-    "name": "from Carni Attacker",
+    "name": "Kneebar from Carni Attacker",
     "description": "How to execute the kneebar from Carni position. Step-by-step finishing guide covering setup, grip mechanics, submission chains, and training drills.",
     "overview": "Attacking the kneebar from Carni requires recognizing the moment your opponent extends their trapped leg, then executing a precise transition from heel hook positioning to kneebar finishing mechanics. The Carni already provides inside leg control and ankle access, meaning the kneebar transition demands minimal repositioning compared to entries from neutral. The key is shifting your hip fulcrum behind their knee while maintaining your leg triangle around their thigh. The finish comes from progressive hip extension driving into the back of the knee joint, not from pulling with your arms. This submission is most effective when chained with heel hook threats, creating a bend-or-break dilemma that forces your opponent to choose between exposing their heel or their knee.",
     "key_principles": [
@@ -337,7 +338,7 @@
     ]
   },
   "defender": {
-    "name": "from Carni Defender",
+    "name": "Kneebar from Carni Defender",
     "description": "How to defend and escape the kneebar from Carni. Recognition cues, defensive options, escape paths, and safety-first approach to leg lock defense.",
     "overview": "Defending the kneebar from Carni requires early recognition and immediate action, because once the attacker establishes their hip fulcrum behind your knee and closes their leg triangle, escape options diminish rapidly. The defender's primary advantage is the transition window - the brief period when the attacker shifts from heel hook positioning to kneebar alignment. During this window, the attacker must release some control to reposition, creating opportunities for knee retraction, hip rotation, or positional escape. Understanding this timing is the difference between a successful defense and a forced tap. The most critical defensive principle is knowing when to tap. Kneebars can damage the PCL, MCL, and menisci with relatively little warning, and training partners who refuse to tap risk injuries requiring months of rehabilitation or surgery.",
     "key_principles": [

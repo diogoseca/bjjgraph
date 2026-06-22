@@ -1,5 +1,6 @@
 {
   "name": "Omoplata from Double Sleeve Guard",
+  "summary": "The omoplata from double sleeve guard is a gi shoulder lock that exploits bilateral sleeve control to isolate one arm, swing a leg over the trapped shoulder, and apply external rotation for a finish or sweep.",
   "description": "Master the omoplata shoulder lock from double sleeve guard. Learn grip manipulation, leg swing mechanics, and finishing details for this high-percentage setup.",
   "tags": [
     "bjj",
@@ -140,7 +141,7 @@
     }
   ],
   "attacker": {
-    "name": "from Double Sleeve Guard Attacker",
+    "name": "Omoplata from Double Sleeve Guard Attacker",
     "description": "Learn to attack the omoplata from double sleeve guard. Step-by-step execution, grip control, and finishing mechanics for this shoulder lock submission.",
     "overview": "Attacking the omoplata from double sleeve guard leverages your existing bilateral grip control to create one of the highest-percentage omoplata entries in gi jiu-jitsu. The key advantage is that you already control both arms before initiating the attack, eliminating the most common omoplata defense — the free arm post. Your offensive sequence follows a clear progression: maintain sleeve tension, create angle through hip escape, isolate the target arm with a cross-pull, swing your leg over the shoulder, sit up to control the waist, and apply rotational pressure to finish. The double sleeve grip also creates a built-in chain: if the opponent defends the omoplata by posturing, you transition to a triangle; if they stack, you switch to an armbar. This three-way threat makes the attack extremely difficult to defend at the intermediate and advanced levels.",
     "key_principles": [
@@ -341,7 +342,7 @@
     ]
   },
   "defender": {
-    "name": "from Double Sleeve Guard Defender",
+    "name": "Omoplata from Double Sleeve Guard Defender",
     "description": "Defend and escape the omoplata from double sleeve guard. Recognition cues, defensive timing, and escape sequences for surviving this shoulder lock attack.",
     "overview": "Defending the omoplata from double sleeve guard requires recognizing the attack during its earliest phases — specifically when the bottom player begins creating angle and pulling one sleeve across their body. The critical defensive window is narrow: once the leg clears your shoulder and the clamp is secured, escape options diminish rapidly. Your defensive strategy centers on three priorities in order: prevent the angle creation by maintaining posture and centered weight, block the leg swing by keeping your elbows tight and posture upright, and if caught, execute the forward roll escape before waist control is established. Understanding the attacker's progression through each phase allows you to match the correct defense to the correct moment.",
     "key_principles": [

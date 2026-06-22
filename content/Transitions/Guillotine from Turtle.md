@@ -10,6 +10,41 @@ description: "Learn Guillotine from Turtle in BJJ. Step-by-step execution from T
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Guillotine from Turtle",
+  "description": "Learn Guillotine from Turtle in BJJ. Step-by-step execution from Turtle Top to Guillotine Control. Success: Beginner 30%, Intermediate 50%, Advanced 70%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Guillotine from Turtle", "item": "https://bjjgraph.org/Transitions/Guillotine-from-Turtle" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Guillotine from Turtle",
+  "description": "The Guillotine from Turtle is a front-headlock submission setup where the top player threads an arm under the turtled opponent's exposed neck, clasps the hands, and breaks their base to secure guillotine control before finishing the choke.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,9 +57,11 @@ description: "Learn Guillotine from Turtle in BJJ. Step-by-step execution from T
 
 <section id="overview" class="content-section">
 
-The Guillotine from Turtle is a high-percentage submission setup that capitalizes on the opponent's defensive turtle position. When an opponent turtles to avoid back exposure, they inadvertently expose their neck to front headlock attacks. This transition exploits the fundamental weakness of turtle position: the head and neck are accessible while the opponent focuses on protecting their back. The technique requires precise timing, proper grip mechanics, and understanding of when to finish from standing versus when to pull guard.
+**The Guillotine from Turtle is a front-headlock submission setup where the top player threads an arm under the turtled opponent's exposed neck, clasps the hands, and breaks their base to secure guillotine control before finishing the choke.**
 
-The guillotine from turtle represents a critical junction in modern grappling where the top player must decide between back attacks and front headlock submissions. Understanding this transition is essential for anyone developing a complete top game, as it creates a dilemma for the bottom player: defend the back or defend the neck. The technique's success rate increases dramatically with proper setup and grip configuration, making it one of the most reliable submissions from turtle position. The key insight is that turtle defense concentrates on preventing hook insertion and harness control, leaving the front of the neck relatively unprotected for the attacker who understands how to transition from back attacks to front headlock entries.
+When an opponent collapses into turtle to deny back exposure, they unwittingly surrender the front of their neck, and the guillotine is the most direct punishment for that trade-off. Because turtle defense concentrates on preventing hook insertion and harness control, the head and neck remain accessible to a top player who knows how to convert back-attack threats into a front headlock entry. This transition therefore sits at a critical junction in modern grappling, where the top player must decide between hunting the back and committing to a front headlock submission.
+
+The guillotine from turtle creates a true dilemma for the bottom player: defend the back or defend the neck. The technique requires precise timing, proper grip mechanics, and a clear understanding of when to finish from standing versus when to pull guard. Its success rate climbs dramatically with disciplined setup and grip configuration, making it one of the most reliable submissions available from turtle top. Mastering it is essential for anyone building a complete top game, because it turns the opponent's defensive shell into an offensive opportunity rather than a stalemate.
 
 **From Position**: [[Positions/Turtle]] (Top)
 **Success Rate**: 60%
@@ -226,6 +263,16 @@ The guillotine from turtle is a critical component of the complete front headloc
 
 - [[Positions/Guillotine Control]] - Ending position after successful transition
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Marcelo-Garcia-Guillotine-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-guillotine-system" data-system-name="Marcelo Garcia Guillotine System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Marcelo Garcia Guillotine System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Systematic entry when opponent turtles defensively</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

@@ -51,7 +51,7 @@ description: "Master Estima Lock Top Position in BJJ. Control opponent's foot an
     {
       "@type": "HowToStep",
       "name": "Execute Estima Lock",
-      "text": "From this position, attempt Estima Lock. This technique is attempted in 1% of exchanges from this position.",
+      "text": "From this position, attempt Estima Lock. This technique is attempted in 2% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -353,5 +353,7 @@ Start from established Estima Lock Top Position. Bottom player works to escape u
 
 
 </section>
+
+
 
 </main>

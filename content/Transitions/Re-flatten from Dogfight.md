@@ -10,6 +10,41 @@ description: "Master the Re-flatten from Dogfight in BJJ. Learn crossface pressu
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Re-flatten from Dogfight",
+  "description": "Master the Re-flatten from Dogfight in BJJ. Learn crossface pressure, whizzer mechanics, and hip drive techniques to collapse your opponent back to half guard.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Re-flatten from Dogfight", "item": "https://bjjgraph.org/Transitions/Re-flatten-from-Dogfight" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Re-flatten from Dogfight",
+  "description": "The Re-flatten from Dogfight is the top player's technique for collapsing an elevated, kneeling dogfight opponent back to flat half guard, using crossface pressure, whizzer torque, and forward hip drive to break their underhook posture.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Re-flatten from Dogfight in BJJ. Learn crossface pressu
 </div>
 
 <section id="overview" class="content-section">
+
+**The Re-flatten from Dogfight is the top player's technique for collapsing an elevated, kneeling dogfight opponent back to flat half guard, using crossface pressure, whizzer torque, and forward hip drive to break their underhook posture.**
 
 The Re-flatten from Dogfight is the top player's primary tool for neutralizing the bottom player's offensive momentum after they have successfully elevated from flat half guard to the competitive kneeling dogfight position. When the bottom player achieves the underhook and comes to their knees, the top player faces a decision point: engage in a scramble where the underhook player holds initiative, or systematically collapse the bottom player's posture back to a flattened half guard where passing sequences become available again. The re-flatten addresses this tactical dilemma by providing a structured method to break down the opponent's elevated base through crossface pressure, whizzer control, and targeted hip drive.
 
@@ -222,5 +259,7 @@ The Re-flatten from Dogfight serves as the critical reset mechanism in the half 
 
 
 </section>
+
+
 
 </main>

@@ -3,6 +3,7 @@
   "slug": "clinch",
   "description": "Master the clinch position in BJJ with comprehensive grip fighting, takedown setups, and standing control strategies for gi and no-gi grappling.",
   "variant_uniqueness": "Close-range grip battles creating takedown access",
+  "summary": "The clinch is a close-range standing position in BJJ where both grapplers fight for upper-body control through underhooks, overhooks, and collar ties, contesting head position and balance to set up takedowns, throws, or guard pulls.",
   "overview": "The Clinch Position represents a fundamental standing control scenario where practitioners engage in close-range upper body control through various grip configurations and body positioning. Unlike pure striking range or ground positions, the clinch creates a specialized engagement zone where practitioners battle for positional dominance through upper body ties, head position, and balanced pressure. This position serves as a critical junction point between standing exchanges and ground transitions, offering pathways to takedowns, throws, and tactical repositioning. The clinch encompasses numerous specialized variations based on the specific grips employed (over/under hooks, collar ties, body locks) and the strategic objectives of the practitioners. Its importance spans across BJJ, wrestling, judo, and MMA contexts, making it a universal element of grappling systems worldwide.\n\nIn modern Brazilian Jiu-Jitsu, the clinch has evolved beyond simple takedown setups into a sophisticated control system that dictates the terms of engagement. Elite practitioners use the clinch to funnel opponents toward preferred positions, whether that's establishing dominant grips for takedowns or creating advantageous scenarios for guard pulls. The position demands constant grip awareness, precise weight distribution, and the ability to read and counter your opponent's intentions in real-time. Understanding clinch mechanics is essential for any complete BJJ game, as it bridges the gap between standing and ground engagement while offering numerous pathways to establish positional control.",
   "key_principles": [
     "Establish and maintain advantageous head position by keeping forehead pressed to opponent's shoulder or controlling their head placement to dictate engagement angles",
@@ -112,19 +113,19 @@
       },
       {
         "transition": "Single Leg Takedown",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "Snap Down to Front Headlock",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "Duck Under",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "Fireman's Carry",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "Kouchi Gari",
@@ -161,6 +162,10 @@
       {
         "transition": "Two-on-One to Back Take",
         "attempt_probability": 2
+      },
+      {
+        "transition": "Guillotine Choke from Clinch",
+        "attempt_probability": 4
       }
     ],
     "decision_tree": [

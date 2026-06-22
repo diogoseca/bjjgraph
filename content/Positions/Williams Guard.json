@@ -3,7 +3,8 @@
   "slug": "williams-guard",
   "description": "Master Williams Guard in BJJ. Innovative shoulder lock guard with unique control mechanics creating powerful sweeps, submissions, and transitions from both bottom and top perspectives.",
   "variant_uniqueness": "Shoulder lock trades grip retention for submission",
-  "overview": "Williams Guard is an innovative open guard position characterized by controlling one of the opponent's arms in a shoulder lock configuration while maintaining guard structure. Named after creator Roy Williams, this position combines elements of traditional guard retention with unique shoulder manipulation that creates both offensive and defensive opportunities. The practitioner on bottom secures the opponent's arm in a shoulder lock grip while using their legs to maintain distance and create angles for sweeps and submissions. This guard is particularly effective against opponents who attempt aggressive passing strategies, as it neutralizes their posting ability and creates immediate submission threats.\n\nThe position exemplifies the evolution of modern BJJ guard systems by integrating joint manipulation with positional control, forcing opponents into defensive reactions that open sweep opportunities. Williams Guard functions as a control hub from which multiple attacking sequences emerge—the shoulder lock itself serves primarily as a control mechanism rather than a finishing hold, though the submission remains a legitimate threat. Opponents face a mechanical dilemma: defending the shoulder lock opens sweeping opportunities, while attempting to pass guard intensifies submission danger.\n\nFrom the top perspective, Williams Guard presents significant challenges requiring systematic defensive approach and technical understanding of shoulder lock mechanics. The top practitioner must simultaneously defend submission threats while working to extract their trapped arm and establish guard passing control. Success demands patience, proper joint protection, and recognition of the bottom player's transition triggers. Understanding both perspectives of this position is essential for modern guard players and passers, as Williams Guard has become increasingly common in contemporary competition grappling, particularly in no-gi contexts where traditional grip-based guards are unavailable.",
+  "summary": "Williams Guard is a bottom open guard that traps one of the opponent's arms in a shoulder-lock grip, weaponizing the joint threat to break posture, deny posts, and force reactions that open sweeps, omoplatas, and back-takes.",
+  "overview": "Named after its creator Roy Williams, Williams Guard emerged from the modern no-gi era as a method of weaponizing a shoulder lock for positional control rather than relying on collar-and-sleeve grips. It combines traditional guard retention with unique shoulder manipulation that creates both offensive and defensive opportunities. The practitioner on bottom secures the opponent's arm in a shoulder lock grip while using their legs to maintain distance and create angles for sweeps and submissions. This guard is particularly effective against opponents who attempt aggressive passing strategies, as it neutralizes their posting ability and creates immediate submission threats.\n\nThe position exemplifies the evolution of modern BJJ guard systems by integrating joint manipulation with positional control, forcing opponents into defensive reactions that open sweep opportunities. Williams Guard functions as a control hub from which multiple attacking sequences emerge—the shoulder lock itself serves primarily as a control mechanism rather than a finishing hold, though the submission remains a legitimate threat. Opponents face a mechanical dilemma: defending the shoulder lock opens sweeping opportunities, while attempting to pass guard intensifies submission danger.\n\nFrom the top perspective, Williams Guard presents significant challenges requiring systematic defensive approach and technical understanding of shoulder lock mechanics. The top practitioner must simultaneously defend submission threats while working to extract their trapped arm and establish guard passing control. Success demands patience, proper joint protection, and recognition of the bottom player's transition triggers. Understanding both perspectives of this position is essential for modern guard players and passers, as Williams Guard has become increasingly common in contemporary competition grappling, particularly in no-gi contexts where traditional grip-based guards are unavailable.",
   "key_principles": [
     "Maintain constant shoulder lock pressure to create submission threat and control opponent movement",
     "Use legs actively to create distance and prevent opponent from establishing chest-to-chest pressure",
@@ -320,16 +321,12 @@
         "attempt_probability": 11
       },
       {
-        "transition": "Knee Cut Pass",
-        "attempt_probability": 13
-      },
-      {
         "transition": "Posture Recovery",
         "attempt_probability": 30
       },
       {
         "transition": "Knee Slice Pass",
-        "attempt_probability": 12
+        "attempt_probability": 25
       },
       {
         "transition": "Posture from Williams Guard",
@@ -425,8 +422,8 @@
         "condition": "Else if opponent attempts to circle away from controlled arm",
         "actions": [
           {
-            "technique": "Closed Guard to Omoplata",
-            "target": "Omoplata Control",
+            "technique": "Omoplata to Back",
+            "target": "Back Control",
             "probability": 75
           },
           {
@@ -598,15 +595,15 @@
       },
       {
         "transition": "Omoplata Sweep",
-        "attempt_probability": 15
+        "attempt_probability": 14
       },
       {
         "transition": "Triangle Setup",
         "attempt_probability": 12
       },
       {
-        "transition": "Closed Guard to Omoplata",
-        "attempt_probability": 18
+        "transition": "Omoplata to Back",
+        "attempt_probability": 17
       },
       {
         "transition": "Back Take from Bottom",
@@ -617,12 +614,12 @@
         "attempt_probability": 12
       },
       {
-        "transition": "Rolling Armbar from Closed Guard",
-        "attempt_probability": 13
+        "transition": "Williams Guard Sweep",
+        "attempt_probability": 18
       },
       {
-        "transition": "Williams Guard Sweep",
-        "attempt_probability": 6
+        "transition": "Belly Down Armbar from Williams Guard",
+        "attempt_probability": 3
       }
     ]
   }

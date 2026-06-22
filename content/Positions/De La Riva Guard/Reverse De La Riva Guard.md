@@ -10,6 +10,41 @@ description: "Master Reverse De La Riva Guard in BJJ. Strategic guide covering i
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Reverse De La Riva Guard",
+  "description": "Master Reverse De La Riva Guard in BJJ. Strategic guide covering inverted hook mechanics, waiter sweeps, berimbolo entries, and kiss of the dragon back takes with complete perspective analysis.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Reverse De La Riva Guard", "item": "https://bjjgraph.org/Positions/Reverse-De-La-Riva-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Reverse De La Riva Guard",
+  "description": "Reverse De La Riva Guard is an advanced open guard where the bottom player threads an inverted hook behind the opponent's far leg, generating rotational off-balancing that opens berimbolo back-takes, waiter sweeps, and kiss of the dragon entries.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Reverse De La Riva Guard in BJJ. Strategic guide covering i
 </div>
 
 <section id="overview" class="content-section">
+
+**Reverse De La Riva Guard is an advanced open guard where the bottom player threads an inverted hook behind the opponent's far leg, generating rotational off-balancing that opens berimbolo back-takes, waiter sweeps, and kiss of the dragon entries.**
 
 Reverse De La Riva Guard (RDLR) is an advanced open guard position that inverts the traditional De La Riva hook orientation, creating unique rotational off-balancing mechanics that specialize in back takes and inversion-based attacks. The position emerged in the early 2000s as competitors developed sophisticated counter-passing systems, with practitioners like Cobrinha and the Miyao brothers demonstrating its offensive potential for creating back exposure opportunities through berimbolo entries and kiss of the dragon techniques.
 
@@ -102,15 +139,15 @@ Strategically, RDLR has become increasingly prominent in both gi and no-gi compe
 ### Available Transitions
 
 
-- **[[Transitions/Waiter Sweep/Attacker|Waiter Sweep]]** (12% of attempts)
+- **[[Transitions/Waiter Sweep/Attacker|Waiter Sweep]]** (22% of attempts)
 
-- **[[Transitions/Kiss of the Dragon/Attacker|Kiss of the Dragon]]** (31% of attempts)
+- **[[Transitions/Kiss of the Dragon/Attacker|Kiss of the Dragon]]** (14% of attempts)
 
 - **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (13% of attempts)
 
-- **[[Transitions/De La Riva to X-Guard Transition/Attacker|De La Riva to X-Guard Transition]]** (9% of attempts)
+- **[[Transitions/De La Riva to X-Guard Transition/Attacker|De La Riva to X-Guard Transition]]** (12% of attempts)
 
-- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (10% of attempts)
+- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (14% of attempts)
 
 - **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (4% of attempts)
 
@@ -262,6 +299,18 @@ Strategically, RDLR has become increasingly prominent in both gi and no-gi compe
 
 - **[[Positions/Half Guard/Deep Half Guard]]** - Alternative inversion-based guard with similar back attack potential and rotational mechanics
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Berimbolo" data-cta="related-system-card" data-system-slug="systems/berimbolo" data-system-name="Berimbolo" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Berimbolo</span><span class="system-card__unlocks-badge">Unlocks 21 techniques</span><span class="system-card__blurb">Alternative inversion platform when standard De La Riva entry is unavailable or defended</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Mikey-Musumeci-Berimbolo-System" data-cta="related-system-card" data-system-slug="systems/mikey-musumeci-berimbolo-system" data-system-name="Mikey Musumeci Berimbolo System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Mikey Musumeci Berimbolo System</span><span class="system-card__unlocks-badge">Unlocks 21 techniques</span><span class="system-card__blurb">Alternative guard position offering different berimbolo angles and entry mechanics</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Dynamic-Guard-System" data-cta="related-system-card" data-system-slug="systems/dynamic-guard-system" data-system-name="Dynamic Guard System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Dynamic Guard System</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Inverted guard option for back exposure and sweeps</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

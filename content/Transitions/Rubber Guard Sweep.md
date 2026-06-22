@@ -10,6 +10,41 @@ description: "Master the Rubber Guard Sweep in BJJ. Complete guide to sweeping f
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Rubber Guard Sweep",
+  "description": "Master the Rubber Guard Sweep in BJJ. Complete guide to sweeping from rubber guard to mount position using 10th Planet control mechanics and leverage.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Rubber Guard Sweep", "item": "https://bjjgraph.org/Transitions/Rubber-Guard-Sweep" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Rubber Guard Sweep",
+  "description": "The Rubber Guard Sweep is a 10th Planet reversal from Mission Control where the bottom player uses the leg-trapped arm and an angled hip bridge to topple a posturing opponent and arrive in mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Rubber Guard Sweep in BJJ. Complete guide to sweeping f
 </div>
 
 <section id="overview" class="content-section">
+
+**The Rubber Guard Sweep is a 10th Planet reversal from Mission Control where the bottom player uses the leg-trapped arm and an angled hip bridge to topple a posturing opponent and arrive in mount.**
 
 The Rubber Guard Sweep exploits the unique positional advantages of the 10th Planet Rubber Guard system to reverse position and achieve mount. When the bottom player establishes rubber guard control, typically Mission Control or a similar configuration, the opponent's posture is severely compromised and one arm is trapped against the bottom player's chest. This structural imbalance creates the mechanical foundation for the sweep: the trapped arm eliminates the opponent's ability to post on one side, and the rubber guard leg across the back provides a lever that amplifies hip bridge force into rotational momentum.
 
@@ -220,5 +257,7 @@ The Rubber Guard Sweep integrates into the 10th Planet system as the positional 
 
 
 </section>
+
+
 
 </main>

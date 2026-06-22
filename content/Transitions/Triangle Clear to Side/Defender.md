@@ -158,7 +158,7 @@ Your defensive methodology operates on two parallel tracks: lock maintenance and
 
 Successful defense requires understanding when to prioritize re-locking the triangle versus capitalizing on the exposed neck. If your opponent is methodical and patient, focus on tightening the lock and adjusting your angle to make their clearing attempts fail. If they are desperate and rushing, exploit the defensive gaps their urgency creates. The body triangle defender who can seamlessly alternate between positional maintenance and submission attacks forces the escaping player into an impossible dual-priority problem that compounds with fatigue and breathing restriction.
 
-**Opponent's Starting Position**: [[Positions/Back Control/Body Triangle]] (Top)
+**Opponent's Starting Position**: [[Positions/Back Control/Body Triangle]] (Bottom)
 
 </section>
 

@@ -77,7 +77,7 @@ description: "How to defend against Toe Hold from Top in BJJ. Recognition, escap
       "name": "The attacker has the figure-four locked and has begun pulling your heel - is it safe to attempt an explosive roll to escape, and why or why not?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No, explosive movement is extremely dangerous once the figure-four is locked and heel pull has begun. An explosive roll under these conditions can actually accelerate the rotational force on your ankle and MCL because your body rotation adds to the attacker's rotational vector. Instead, move slowly and deliberately: first attempt to strip the figure-four grip using your hands, then create distance with your free leg posting on their hip. If the attacker has begun external rotation of your toe in addition to the heel pull, the safest option is to tap immediately rather than attempting any dynamic escape. The narrow margin between discomfort and structural damage makes controlled, methodical defense essential."
+        "text": "No, explosive movement is extremely dangerous once the figure-four is locked and heel pull has begun. An explosive roll under these conditions can actually accelerate the rotational force on your ankle and MCL because your body rotation adds to the attacker's rotational vector. Instead, move slowly and deliberately: first attempt to strip the figure-four grip using your hands, then create distance with your free leg posting on their hip. If the attacker has begun medial (inward) rotation of your toe toward your centerline in addition to the heel pull, the safest option is to tap immediately rather than attempting any dynamic escape. The narrow margin between discomfort and structural damage makes controlled, methodical defense essential."
       }
     },
     {
@@ -174,7 +174,7 @@ The most critical defensive principle is knowing when to tap. Because the toe ho
 - Attacker releases one or both hands from controlling your knee or thigh and begins reaching toward your foot - this signals transition from positional control to submission setup
 - Attacker's hand cups the ball of your foot at the metatarsal area while their other hand reaches under your ankle to establish the figure-four configuration
 - Attacker drives their hips forward into yours while adjusting to a perpendicular angle relative to your trapped leg - this indicates they are positioning for optimal finishing leverage
-- You feel your heel being pulled toward the attacker's chest combined with initial rotational pressure turning your toes away from your centerline
+- You feel your heel being pulled toward the attacker's chest combined with initial rotational pressure turning your toes toward your centerline (medial/inward rotation)
 - Attacker's elbows tighten against their torso as they compact the figure-four grip - this indicates imminent finishing pressure application
 
 

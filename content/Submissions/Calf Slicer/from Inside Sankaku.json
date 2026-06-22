@@ -1,5 +1,6 @@
 {
   "name": "Calf Slicer from Inside Sankaku",
+  "summary": "The calf slicer from inside sankaku is a leg compression submission that wedges your shin behind the opponent's knee and drives their ankle toward you, crushing the calf against bone — a secondary attack that punishes heel hook defense.",
   "description": "Master the calf slicer from inside sankaku. Complete guide covering setup, execution mechanics, defense strategies, and safety for this advanced compression.",
   "tags": [
     "bjj",
@@ -68,16 +69,17 @@
   },
   "from_positions": [
     "Inside Sankaku",
-    "Honey Hole"
+    "Honey Hole",
+    "Saddle"
   ],
   "related_submissions": [
     "Calf Slicer",
     "Inside Heel Hook",
     "Heel Hook",
-    "Inside Heel Hook",
     "Bicep Slicer",
     "Banana Split",
-    "Aoki Lock Control"
+    "Aoki Lock",
+    "Boston Crab"
   ],
   "related_content": [
     {
@@ -136,7 +138,7 @@
     }
   ],
   "attacker": {
-    "name": "from Inside Sankaku Attacker",
+    "name": "Calf Slicer from Inside Sankaku Attacker",
     "description": "Learn to execute the calf slicer from inside sankaku. Step-by-step finishing guide with grip mechanics, timing windows, and heel hook chaining strategies.",
     "overview": "The calf slicer from inside sankaku represents one of the most effective secondary attacks available from the honey hole position. When your opponent successfully defends the inside heel hook by hiding their heel or booting their foot free, the calf slicer punishes the exact defensive postures they adopt. The technique leverages your existing figure-four entanglement as an anchor, threading your shin behind their knee crease to create a devastating compression fulcrum. Mastering this attack transforms your inside sankaku game from a single-submission threat into a layered attack system where each defense opens the next submission.",
     "key_principles": [
@@ -326,7 +328,7 @@
     ]
   },
   "defender": {
-    "name": "from Inside Sankaku Defender",
+    "name": "Calf Slicer from Inside Sankaku Defender",
     "description": "Defend the calf slicer from inside sankaku. Recognition cues, escape techniques, safe tapping protocols, and defensive strategies for this leg compression.",
     "overview": "Defending the calf slicer from inside sankaku requires early recognition and immediate response, as this compression submission produces intense pain very quickly once the attacker's shin is properly positioned behind the knee. The primary defensive priority is preventing the shin from seating in the popliteal fossa — once the fulcrum is established and the attacker controls your ankle, escape options narrow dramatically. Understanding that this attack typically follows a failed heel hook defense is critical for anticipating the transition and mounting an effective response before the submission locks in. The window for successful defense is narrow, making early recognition the single most important defensive skill for this technique.",
     "key_principles": [

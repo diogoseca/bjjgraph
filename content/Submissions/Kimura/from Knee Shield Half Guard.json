@@ -19,6 +19,7 @@
   "starting_position": "Knee Shield Half Guard",
   "from_position": "Knee Shield Half Guard/Bottom",
   "success_rate": 50,
+  "summary": "The Kimura from Knee Shield Half Guard is a bottom-position figure-four shoulder lock that traps the opponent's posting or reaching arm and rotates it internally behind their back to force a tap or open sweeps and back takes.",
   "overview": "The Kimura from Knee Shield Half Guard is a bottom-player shoulder lock attack that leverages the structural distance created by the knee shield frame. Unlike Kimura attempts from flat half guard where the top player's weight makes grip establishment difficult, the knee shield maintains separation that allows the bottom player to identify arm placement opportunities and thread the figure-four grip without being smashed. This makes it one of the more accessible Kimura entries from the bottom position.\n\nThe setup typically arises when the top player posts a hand on the mat for base, reaches across the body for grips, or extends an arm during a passing attempt. The bottom player captures the wrist with their near hand and threads the far arm under the opponent's tricep to establish the figure-four grip. The knee shield serves a critical dual function throughout the attack: it prevents the top player from driving forward to stack and escape while providing the bottom player with the hip mobility needed to create the perpendicular finishing angle.\n\nThis submission integrates naturally into the Kimura Trap system used extensively in modern competitive grappling. If the initial rotational finish is defended, the figure-four grip itself becomes a powerful control handle for sweeps, back takes, and transitions to other submissions. The grip is the position—even when the tap is not immediately available, maintaining the figure-four from knee shield creates a dominant control state that threatens multiple outcomes.",
   "safety_considerations": {
     "injury_risks": [
@@ -135,7 +136,7 @@
     }
   ],
   "attacker": {
-    "name": "from Knee Shield Half Guard Attacker",
+    "name": "Kimura from Knee Shield Half Guard Attacker",
     "description": "Complete attacking guide for the Kimura from Knee Shield Half Guard. Learn grip establishment, angle creation, finishing mechanics, and how to handle common defensive responses.",
     "overview": "Attacking the Kimura from Knee Shield Half Guard requires patience in grip establishment and precise angle creation before committing to the finish. The knee shield serves dual purpose throughout the attack: maintaining defensive integrity so the guard is not passed during the attempt, and creating the space needed to capture and isolate the opponent's arm. The key to finishing lies in using hip escapes to create a perpendicular angle to the opponent's body, pinning the captured elbow tight to your torso, and applying smooth rotational pressure through the figure-four grip. The position offers excellent submission-to-sweep chains—if the finish is defended, the kimura grip becomes a control handle for transitions into the Kimura Trap system, sweeps, or back takes, making the initial grip threat valuable regardless of whether the tap comes immediately.",
     "key_principles": [
@@ -315,7 +316,7 @@
     ]
   },
   "defender": {
-    "name": "from Knee Shield Half Guard Defender",
+    "name": "Kimura from Knee Shield Half Guard Defender",
     "description": "Defend against the Kimura from Knee Shield Half Guard. Recognition cues, grip defense, escape techniques, and prevention strategies for this bottom half guard shoulder lock attack.",
     "overview": "Defending the Kimura from Knee Shield Half Guard requires early recognition and immediate action to prevent grip establishment. Once the figure-four grip is fully locked with elbows tight, escape becomes significantly more difficult and the risk of shoulder injury increases with every second of delay. The defender must prioritize keeping their elbows close to their body, avoiding posting hands on the mat within the opponent's reach, and recognizing the moment the bottom player begins hunting for the wrist. Prevention through posture control and arm discipline is far more effective than attempting to escape a fully locked submission. When caught, the defender must act decisively—straightening the arm before the figure-four locks, clasping hands in gable grip defense if the grip is established, or driving forward to collapse the knee shield and eliminate the finishing angle.",
     "key_principles": [

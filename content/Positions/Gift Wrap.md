@@ -10,6 +10,41 @@ description: "Master Gift Wrap position in BJJ - a dominant back control variati
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Gift Wrap",
+  "description": "Master Gift Wrap position in BJJ - a dominant back control variation where one arm is trapped. Complete guide covering control mechanics, submission attacks, and defensive escapes.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Gift Wrap", "item": "https://bjjgraph.org/Positions/Gift-Wrap" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Gift Wrap",
+  "description": "Gift Wrap is a dominant back-control variation in BJJ where the attacker threads one arm under the defender's armpit and pins it high across their chest, stripping away half of their defensive capability.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Gift Wrap position in BJJ - a dominant back control variati
 </div>
 
 <section id="overview" class="content-section">
+
+**Gift Wrap is a dominant back-control variation in BJJ where the attacker threads one arm under the defender's armpit and pins it high across their chest, stripping away half of their defensive capability.**
 
 Gift Wrap is a highly dominant back control variation in Brazilian Jiu-Jitsu where the attacker isolates and controls one of the defender's arms, effectively removing half of their defensive capabilities. This position derives its name from the visual appearance of the trapped arm being 'wrapped' across the defender's body, similar to wrapping a present.
 
@@ -177,27 +214,31 @@ Understanding the Gift Wrap requires recognizing it as part of a larger back att
 ### Available Transitions
 
 
-- **[[Rear Naked Choke from Gift Wrap/Attacker|Rear Naked Choke from Gift Wrap]]** (33% of attempts)
+- **[[Rear Naked Choke from Gift Wrap/Attacker|Rear Naked Choke from Gift Wrap]]** (30% of attempts)
 
-- **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** (9% of attempts)
+- **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** (8% of attempts)
 
-- **[[Transitions/Gift Wrap to Technical Mount/Attacker|Gift Wrap to Technical Mount]]** (13% of attempts)
+- **[[Transitions/Gift Wrap to Technical Mount/Attacker|Gift Wrap to Technical Mount]]** (11% of attempts)
 
-- **[[Transitions/Short Choke Attack/Attacker|Short Choke Attack]]** (7% of attempts)
+- **[[Transitions/Short Choke Attack/Attacker|Short Choke Attack]]** (6% of attempts)
 
-- **[[Transitions/Bow and Arrow Choke Setup/Attacker|Bow and Arrow Choke Setup]]** (6% of attempts)
+- **[[Transitions/Bow and Arrow Choke Setup/Attacker|Bow and Arrow Choke Setup]]** (5% of attempts)
 
-- **[[Transitions/Body Triangle Lock/Attacker|Body Triangle Lock]]** (7% of attempts)
+- **[[Transitions/Body Triangle Lock/Attacker|Body Triangle Lock]]** (6% of attempts)
 
-- **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** (9% of attempts)
+- **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** (8% of attempts)
 
-- **[[Transitions/Kimura on Trapped Arm/Attacker|Kimura on Trapped Arm]]** (9% of attempts)
+- **[[Transitions/Kimura on Trapped Arm/Attacker|Kimura on Trapped Arm]]** (7% of attempts)
 
-- **[[Transitions/Gift Wrap Maintenance/Attacker|Gift Wrap Maintenance]]** (3% of attempts)
+- **[[Transitions/Gift Wrap Maintenance/Attacker|Gift Wrap Maintenance]]** (2% of attempts)
 
 - **[[Submissions/Gift Wrap Armbar/Attacker|Gift Wrap Armbar]]** (2% of attempts)
 
-- **[[Rear Naked Choke from Gift Wrap/Attacker|Rear Naked Choke from Gift Wrap]]** (2% of attempts)
+- **[[Gift Wrap Armbar from Gift Wrap/Attacker|Gift Wrap Armbar from Gift Wrap]]** (2% of attempts)
+
+- **[[Kimura from Gift Wrap/Attacker|Kimura from Gift Wrap]]** (7% of attempts)
+
+- **[[Short Choke from Gift Wrap/Attacker|Short Choke from Gift Wrap]]** (6% of attempts)
 
 
 ### Common Mistakes
@@ -256,6 +297,20 @@ Understanding the Gift Wrap requires recognizing it as part of a larger back att
 
 - **[[Positions/Harness]]** - Alternative back grip - can transition between harness and Gift Wrap
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Danaher-Front-Headlock-System" data-cta="related-system-card" data-system-slug="systems/danaher-front-headlock-system" data-system-name="Danaher Front Headlock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Danaher Front Headlock System</span><span class="system-card__unlocks-badge">Unlocks 30 techniques</span><span class="system-card__blurb">Back control variation accessible from front headlock spiral sequences</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Control System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Submission-Clinic-System" data-cta="related-system-card" data-system-slug="systems/submission-clinic-system" data-system-name="Submission Clinic System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Submission Clinic System</span><span class="system-card__unlocks-badge">Unlocks 30 techniques</span><span class="system-card__blurb">Arm-isolation position transitioning to crucifix or mounted attacks</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Danaher Straight Jacket System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Intermediate control level representing first major advancement in system hierarchy</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Garry-Tonon-Leg-Lock-to-Back-System" data-cta="related-system-card" data-system-slug="systems/garry-tonon-leg-lock-to-back-system" data-system-name="Garry Tonon Leg Lock to Back System" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Garry Tonon Leg Lock to Back System</span><span class="system-card__unlocks-badge">Unlocks 26 techniques</span><span class="system-card__blurb">Arm control position that enhances back attack finishing and prevents hand fighting</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Back-Attack-System" data-cta="related-system-card" data-system-slug="systems/back-attack-system" data-system-name="Back Attack System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Back Attack System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Arm isolation position that sets up back attacks and submissions</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

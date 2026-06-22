@@ -10,10 +10,55 @@ description: "Master the calf slicer from Carni position in BJJ. Learn compressi
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Calf Slicer from Carni targets the Calf muscle and Achilles tendon. Risk: Calf muscle tear or rupture. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Calf Slicer from Carni",
+  "description": "Master the calf slicer from Carni position in BJJ. Learn compression lock mechanics, shin placement, and how to chain this finish with heel hook threats.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Calf Slicer from Carni", "item": "https://bjjgraph.org/Submissions/Calf-Slicer-from-Carni" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Calf Slicer from Carni",
+  "description": "The Calf Slicer from Carni is a leg-compression finish that traps the opponent's calf and Achilles tendon against your shin behind their bent knee, exploiting the heel-hide reaction they use to defend the heel hook inside the Carni entanglement.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Calf Slicer from Carni is a leg-compression finish that traps the opponent's calf and Achilles tendon against your shin behind their bent knee, exploiting the heel-hide reaction they use to defend the heel hook inside the Carni entanglement.**
+<div class="principle-meta">
+<span class="meta-chip">Compression</span>
+<span class="meta-chip">Leg Compression</span>
+<span class="meta-chip">Targets Calf muscle and Achilles tendon</span>
+<span class="meta-chip">50% success</span>
+</div>
+
+> [!danger] Safety
+> Calf Slicer from Carni targets the Calf muscle and Achilles tendon. Primary risk: Calf muscle tear or rupture. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,55 +75,7 @@ What makes this calf slicer variant particularly effective is the seamless integ
 
 The finishing mechanics require precise shin placement directly behind the opponent's knee crease, combined with controlled hip extension to apply graduated compression. Unlike explosive joint lock finishes, the calf slicer builds pressure methodically, giving training partners adequate time to tap while still generating significant submission threat in competition. The position is sustainable for extended periods within the Carni control framework, allowing patient pressure application rather than requiring explosive force that risks injury to both practitioners.
 
-**Category**: Compression
-**Type**: Leg Compression
-**Target Area**: Calf muscle and Achilles tendon
-**Starting Position**: [[Positions/Rubber Guard/Carni]]
-**From Position**: [[Positions/Rubber Guard/Carni]] (Bottom)
-**Success Rate**: 50%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Calf muscle tear or rupture | High | 6-12 weeks minimum, potential permanent damage |
-| Achilles tendon strain or rupture | CRITICAL | 6-12 months, often requires surgery |
-| Nerve damage to peroneal or tibial nerves | High | Weeks to months, potential permanent numbness |
-| Deep tissue bruising and compartment syndrome | Medium | 2-4 weeks, rare cases require emergency surgery |
-
-
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum in training, never spike or jerk
-
-**Tap Signals**:
-- Verbal tap (encouraged due to leg entanglement limiting hand access)
-- Physical hand tap on partner or mat
-- Physical foot tap if hands are trapped in entanglement
-- Any distress vocalization or signal
-- Slapping mat with free hand multiple times
-
-
-**Release Protocol**:
-1. Immediately release foot grip upon any tap signal
-2. Remove shin pressure from behind knee slowly and controlled
-3. Unwrap legs carefully without jerking movements
-4. Allow partner to extend leg naturally before disengaging
-5. Check partner's mobility and sensation before continuing training
-
-
-**Training Restrictions**:
-- Never apply at competition speed in training
-- Never spike or jerk the compression
-- Never hold after tap to finish the position
-- Always allow immediate tap access with at least one hand
-- Prohibited below brown belt in most IBJJF-affiliated organizations
-- Never practice on partners with previous calf or Achilles injuries without explicit consent
-
+**Starting Position**: [[Positions/Rubber Guard/Carni]] · **From**: [[Positions/Rubber Guard/Carni]] (Bottom)
 
 </section>
 
@@ -223,42 +220,66 @@ The finishing mechanics require precise shin placement directly behind the oppon
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Calf Slicer]]
 - [[Transitions/Heel Hook]]
 - [[Submissions/Banana Split]]
-- [[Positions/Half Guard/Electric Chair]]
+- [[Submissions/Achilles Lock]]
 - [[Submissions/Bicep Slicer]]
-- [[Positions/Aoki Lock Control]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
+- [[Submissions/Boston Crab]]
 - [[Positions/Rubber Guard/Carni]] - Starting position for this submission variant with inside leg control already established
 - [[Positions/Twister Control/Truck]] - Common transition from Carni when opponent turns belly down, also allows calf slicer
 - [[Positions/Ashi Garami/Saddle]] - Alternative advancement from Carni when opponent defends both heel hook and calf slicer
 - [[Positions/Back Control]] - Alternative positional advancement when opponent rolls to escape compression
-- [[Submissions/Calf Slicer]] - Parent submission family with shared mechanics and safety protocols
 - [[Positions/Ashi Garami]] - Related leg entanglement system that feeds into Carni entries
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Calf muscle tear or rupture | High | 6-12 weeks minimum, potential permanent damage |
+| Achilles tendon strain or rupture | CRITICAL | 6-12 months, often requires surgery |
+| Nerve damage to peroneal or tibial nerves | High | Weeks to months, potential permanent numbness |
+| Deep tissue bruising and compartment syndrome | Medium | 2-4 weeks, rare cases require emergency surgery |
+
+
+**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum in training, never spike or jerk
+
+**Tap Signals**:
+- Verbal tap (encouraged due to leg entanglement limiting hand access)
+- Physical hand tap on partner or mat
+- Physical foot tap if hands are trapped in entanglement
+- Any distress vocalization or signal
+- Slapping mat with free hand multiple times
+
+
+**Release Protocol**:
+1. Immediately release foot grip upon any tap signal
+2. Remove shin pressure from behind knee slowly and controlled
+3. Unwrap legs carefully without jerking movements
+4. Allow partner to extend leg naturally before disengaging
+5. Check partner's mobility and sensation before continuing training
+
+
+**Training Restrictions**:
+- Never apply at competition speed in training
+- Never spike or jerk the compression
+- Never hold after tap to finish the position
+- Always allow immediate tap access with at least one hand
+- Prohibited below brown belt in most IBJJF-affiliated organizations
+- Never practice on partners with previous calf or Achilles injuries without explicit consent
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Calf Slicer from Carni leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

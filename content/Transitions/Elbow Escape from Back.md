@@ -10,6 +10,41 @@ description: "Master the elbow escape from back control in BJJ. Complete guide t
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Elbow Escape from Back",
+  "description": "Master the elbow escape from back control in BJJ. Complete guide to clearing hooks, framing techniques, and recovering half guard from this critical position.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Elbow Escape from Back", "item": "https://bjjgraph.org/Transitions/Elbow-Escape-from-Back" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Elbow Escape from Back",
+  "description": "The Elbow Escape from Back is a methodical back-control escape where the bottom player frames their elbows against the opponent's hooks and hip-escapes downward to clear the legs and recover half guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the elbow escape from back control in BJJ. Complete guide t
 </div>
 
 <section id="overview" class="content-section">
+
+**The Elbow Escape from Back is a methodical back-control escape where the bottom player frames their elbows against the opponent's hooks and hip-escapes downward to clear the legs and recover half guard.**
 
 The elbow escape from back control is a foundational defensive technique that allows the bottom player to systematically address the opponent's hook control and work toward recovering half guard. Unlike explosive escapes that rely on timing and athleticism, the elbow escape employs methodical framing against the opponent's legs combined with deliberate hip movement to create the space needed for positional recovery. This technique is considered essential knowledge for all practitioners because back control represents the most dangerous position in Brazilian Jiu-Jitsu, and having a reliable, repeatable escape methodology is critical for survival and competitive success.
 
@@ -220,5 +257,7 @@ The elbow escape from back control integrates into the broader back escape syste
 
 
 </section>
+
+
 
 </main>

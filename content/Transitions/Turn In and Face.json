@@ -1,5 +1,6 @@
 {
   "name": "Turn In and Face",
+  "summary": "Turn In and Face is a Buggy Choke escape where the bottom player rotates toward the threading arm to square up and face the opponent, collapsing the choking angle and recovering open or closed guard.",
   "description": "Learn Turn In and Face escape from Buggy Choke bottom in BJJ. Step-by-step rotation to eliminate choking angle and recover guard. Beginner 30%, Advanced 65%.",
   "tags": [
     "bjj",
@@ -12,12 +13,12 @@
   "from_position": "Buggy Choke/Bottom",
   "outcomes": [
     {
-      "to": "Open Guard/Top",
+      "to": "Open Guard/Bottom",
       "probability": 50,
       "result": "success"
     },
     {
-      "to": "Closed Guard/Top",
+      "to": "Closed Guard/Bottom",
       "probability": 15,
       "result": "success"
     },

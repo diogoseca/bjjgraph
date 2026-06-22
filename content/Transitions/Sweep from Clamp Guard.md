@@ -10,6 +10,41 @@ description: "Master the Sweep from Clamp Guard in BJJ. Complete guide to exploi
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Sweep from Clamp Guard",
+  "description": "Master the Sweep from Clamp Guard in BJJ. Complete guide to exploiting arm isolation for high-percentage sweeps to mount using compromised opponent base.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Sweep from Clamp Guard", "item": "https://bjjgraph.org/Transitions/Sweep-from-Clamp-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Sweep from Clamp Guard",
+  "description": "Sweep from Clamp Guard exploits the opponent's single-arm base — with one arm trapped between your legs, directional hip elevation toward the clamped side topples them undefended, advancing you from bottom clamp guard to mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Sweep from Clamp Guard in BJJ. Complete guide to exploi
 </div>
 
 <section id="overview" class="content-section">
+
+**Sweep from Clamp Guard exploits the opponent's single-arm base — with one arm trapped between your legs, directional hip elevation toward the clamped side topples them undefended, advancing you from bottom clamp guard to mount.**
 
 The Sweep from Clamp Guard exploits the fundamental asymmetry created by arm isolation — with one arm trapped between the guard player's legs, the opponent has only a single arm available for basing and balance. This structural deficit makes the opponent vulnerable to directional off-balancing that would be insufficient against a fully-based opponent. The sweep capitalizes on this compromised base by combining the clamp's controlling mechanics with hip elevation and directional force to topple the opponent and achieve mount.
 
@@ -214,5 +251,7 @@ The Sweep from Clamp Guard occupies a critical role within the clamp guard attac
 
 
 </section>
+
+
 
 </main>

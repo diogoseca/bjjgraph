@@ -10,6 +10,41 @@ description: "Master the Lapel to De La Riva transition in BJJ. Convert lapel gu
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Lapel to De La Riva",
+  "description": "Master the Lapel to De La Riva transition in BJJ. Convert lapel guard configurations to DLR hook control for sweeps, berimbolo entries, and back takes.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Lapel to De La Riva", "item": "https://bjjgraph.org/Transitions/Lapel-to-De-La-Riva" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Lapel to De La Riva",
+  "description": "Lapel to De La Riva is a gi guard transition in which the bottom player uses an established lapel grip as an anchor to thread a De La Riva hook behind the opponent's near leg, converting persistent fabric control into DLR sweeps, berimbolo entries, and back takes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Lapel to De La Riva transition in BJJ. Convert lapel gu
 </div>
 
 <section id="overview" class="content-section">
+
+**Lapel to De La Riva is a gi guard transition in which the bottom player uses an established lapel grip as an anchor to thread a De La Riva hook behind the opponent's near leg, converting persistent fabric control into DLR sweeps, berimbolo entries, and back takes.**
 
 The Lapel to De La Riva transition represents a strategic evolution in modern gi guard play, combining the persistent control mechanisms of lapel configurations with the dynamic sweeping and back-taking capabilities of De La Riva guard. This transition is particularly effective when the opponent begins addressing your lapel configuration or when you need to access the berimbolo system and other DLR-specific attacks that the lapel guard alone cannot provide.
 
@@ -222,5 +259,7 @@ The Lapel to De La Riva transition functions as a critical bridge between two po
 
 
 </section>
+
+
 
 </main>

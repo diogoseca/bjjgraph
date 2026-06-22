@@ -11,7 +11,8 @@
     "technical-standup",
     "positional-improvement"
   ],
-  "from_position": "Turtle/Top",
+  "from_position": "Turtle/Bottom",
+  "summary": "The Turtle to Standing escape is a defensive transition where the bottom player explosively posts a hand, drives a leg forward, and extends the hips to rise from turtle back to neutral standing before the opponent can secure the back.",
   "outcomes": [
     {
       "to": "Standing Position/Bottom",

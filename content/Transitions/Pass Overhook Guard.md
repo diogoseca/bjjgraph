@@ -10,6 +10,41 @@ description: "Master passing Overhook Guard in BJJ. Complete technical guide cov
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Pass Overhook Guard",
+  "description": "Master passing Overhook Guard in BJJ. Complete technical guide covering grip stripping, shoulder pressure mechanics, and systematic passing to side control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Pass Overhook Guard", "item": "https://bjjgraph.org/Transitions/Pass-Overhook-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Pass Overhook Guard",
+  "description": "Pass Overhook Guard is a top-game passing sequence that defeats the bottom player's overhook (whizzer) by stripping the grip or smashing through it with shoulder pressure, then clears the legs to consolidate side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master passing Overhook Guard in BJJ. Complete technical guide cov
 </div>
 
 <section id="overview" class="content-section">
+
+**Pass Overhook Guard is a top-game passing sequence that defeats the bottom player's overhook (whizzer) by stripping the grip or smashing through it with shoulder pressure, then clears the legs to consolidate side control.**
 
 Passing the Overhook Guard requires the top player to systematically neutralize the bottom player's arm control before advancing to side control. The overhook creates a powerful frame that limits the passer's mobility on one side while exposing them to sweeps and back takes. Unlike standard closed guard passes where both arms are relatively free, the overhook pass demands careful attention to arm extraction or repositioning before any passing mechanics can succeed.
 
@@ -229,5 +266,7 @@ Pass Overhook Guard connects the guard passing game with dominant side control p
 
 
 </section>
+
+
 
 </main>

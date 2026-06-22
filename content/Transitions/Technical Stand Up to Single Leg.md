@@ -10,6 +10,41 @@ description: "Master the Technical Stand Up to Single Leg in BJJ. Chain defensiv
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Technical Stand Up to Single Leg",
+  "description": "Master the Technical Stand Up to Single Leg in BJJ. Chain defensive standup into offensive single leg takedown from turtle or seated positions.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Technical Stand Up to Single Leg", "item": "https://bjjgraph.org/Transitions/Technical-Stand-Up-to-Single-Leg" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Technical Stand Up to Single Leg",
+  "description": "Technical Stand Up to Single Leg is a defensive-to-offensive chain where the bottom player technical-stands up from turtle or seated guard and immediately level-changes into a single leg takedown as the top player adjusts to standing.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Technical Stand Up to Single Leg in BJJ. Chain defensiv
 </div>
 
 <section id="overview" class="content-section">
+
+**Technical Stand Up to Single Leg is a defensive-to-offensive chain where the bottom player technical-stands up from turtle or seated guard and immediately level-changes into a single leg takedown as the top player adjusts to standing.**
 
 The Technical Stand Up to Single Leg is a fundamental defensive recovery sequence that transforms a vulnerable turtle bottom position into an offensive wrestling attack. This technique combines the safety and base management of the technical standup with the explosive entry mechanics of single leg takedowns, creating a seamless transition from defense to offense. The sequence is particularly valuable in no-gi grappling, MMA, and self-defense contexts where maintaining distance and controlling engagement timing is critical.
 
@@ -39,8 +76,8 @@ The chain from standup to single leg is effective because it exploits a timing w
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/X-Guard/Single Leg X-Guard]] | 45% |
-| Success | [[Positions/Clinch]] | 15% |
+| Success | [[Positions/Half Guard]] | 35% |
+| Success | [[Positions/X-Guard/Single Leg X-Guard]] | 25% |
 | Failure | [[Positions/Turtle]] | 25% |
 | Counter | [[Positions/Front Headlock]] | 15% |
 
@@ -230,6 +267,16 @@ The Technical Stand Up to Single Leg serves as a critical bridge between defensi
 
 - [[Transitions/Double Leg Entry]] - Alternative takedown if opponent defends single leg with square stance
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Caio-Terra-Guard-Retention-System" data-cta="related-system-card" data-system-slug="systems/caio-terra-guard-retention-system" data-system-name="Caio Terra Guard Retention System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Caio Terra Guard Retention System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Emergency retention technique used when bottom retention fails</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

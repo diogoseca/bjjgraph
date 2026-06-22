@@ -134,10 +134,23 @@ description: "Master Roger Gracie's fundamental system: positional dominance thr
 }
 </script>
 
-> Roger Gracie Fundamental System is a intermediate difficulty Attack System system. Integrates 5 components.
 
-**System Type**: Attack System
-**Difficulty Level**: Intermediate
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Roger Gracie Fundamental System",
+  "description": "The Roger Gracie Fundamental System is a gi-based, position-first framework that wins by chaining flawless basics — methodical guard passing to mount to the cross collar choke — executed so precisely opponents cannot escape even knowing what is coming.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Attack System</span>
+<span class="meta-chip">Intermediate difficulty</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -146,9 +159,29 @@ description: "Master Roger Gracie's fundamental system: positional dominance thr
 
 ## What is Roger Gracie Fundamental System?
 
-The Roger Gracie Fundamental System represents the pinnacle of fundamental Brazilian Jiu-Jitsu executed at the highest level. Built on a foundation of flawless basic techniques performed with exceptional precision, this system demonstrates that mastery of fundamentals trumps complex techniques. Roger's approach centers on achieving dominant positions through methodical advancement, maintaining overwhelming control, and finishing with basic submissions executed so perfectly that opponents cannot escape despite knowing exactly what is coming. The system's philosophy rejects flashy or exotic techniques in favor of high-percentage moves drilled to absolute perfection.
+**The Roger Gracie Fundamental System is a gi-based, position-first framework that wins by chaining flawless basics — methodical guard passing to mount to the cross collar choke — executed so precisely opponents cannot escape even knowing what is coming.**
 
-At its core, this system emphasizes positional progression following the classical hierarchy: guard pass to side control, side control to mount, mount to submission. Roger's implementation of these fundamentals proved so dominant that he submitted multiple world champions with basic techniques they had defended thousands of times before. The key lies not in the techniques themselves but in the precision of execution, timing, pressure application, and understanding of leverage that Roger developed through countless hours of deliberate practice. Every movement serves a purpose, every grip is optimized, and every position transition follows mechanical principles that maximize efficiency while minimize risk.
+Roger Gracie is widely regarded as the greatest gi competitor in BJJ history, winning ten World Championships largely by submitting elite opponents with the most basic techniques in the art. His approach rejects flashy or exotic moves in favor of high-percentage fundamentals drilled to absolute perfection, proving that depth of mastery in a small number of techniques outperforms breadth of technical knowledge. The method centers on achieving dominant positions through methodical advancement, maintaining overwhelming control, and finishing with basic submissions executed so cleanly that opponents cannot escape despite knowing exactly what is coming.
+
+At its core, the system follows the classical positional hierarchy religiously: guard pass to side control, side control to mount, mount to submission. Roger's implementation proved so dominant that he tapped multiple world champions with techniques they had defended thousands of times before. The edge lies not in the techniques themselves but in precision of execution — timing, pressure application, leverage, and grip optimization developed through countless hours of deliberate practice. Every movement serves a purpose, every grip is optimized, and every position transition follows mechanical principles that maximize efficiency while minimizing risk.
+
+</section>
+
+
+
+<section id="unlock-graph" class="content-section system-unlock" data-system-unlock hidden>
+
+## Unlock this part of the graph
+
+<p class="section-subtitle">This system teaches the highlighted nodes in the graph. Mark what you already know &mdash; be honest, it's your game.</p>
+
+<div class="system-progress" data-system-progress>
+<svg class="system-progress__ring" viewBox="0 0 44 44" aria-hidden="true"><circle class="system-progress__ring-bg" cx="22" cy="22" r="19"></circle><circle class="system-progress__ring-fill" cx="22" cy="22" r="19"></circle></svg>
+<div class="system-progress__text">You've unlocked <strong class="system-progress__known">0</strong> / <span class="system-progress__total">0</span> techniques in this system</div>
+<button class="system-progress__mark-all" data-mark-system type="button">Mark whole system as known</button>
+</div>
+
+<ul class="system-members" data-system-members></ul>
 
 </section>
 

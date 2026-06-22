@@ -10,10 +10,55 @@ description: "Master the North-South Choke from Side Control in BJJ. Learn the t
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: North-South Choke from Side Control targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "North-South Choke from Side Control",
+  "description": "Master the North-South Choke from Side Control in BJJ. Learn the transition, grip mechanics, shoulder pressure, and finishing details for this high-percentage blood choke.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "North-South Choke from Side Control", "item": "https://bjjgraph.org/Submissions/North-South-Choke-from-Side-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "North-South Choke from Side Control",
+  "description": "The North-South Choke from Side Control is a blood choke that threads the choking arm under the opponent's near-side neck during the transition toward north-south, occluding both carotid arteries with the bicep and the attacker's shoulder.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The North-South Choke from Side Control is a blood choke that threads the choking arm under the opponent's near-side neck during the transition toward north-south, occluding both carotid arteries with the bicep and the attacker's shoulder.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries and trachea</span>
+<span class="meta-chip">58% success</span>
+</div>
+
+> [!danger] Safety
+> North-South Choke from Side Control targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,54 +75,7 @@ The key mechanical advantage of entering from side control is that the crossface
 
 This submission is particularly effective against opponents who defend side control by keeping their elbows tight and chin tucked, as the transition bypasses those defensive structures entirely. The choke does not require a gi, making it equally effective in no-gi competition, and the slow, grinding nature of the setup makes it difficult for referees to identify the danger early — a significant tactical advantage in competition settings where opponents may not realize the severity of the choke until it is too late to escape.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries and trachea
-**Starting Position**: [[Positions/Side Control]]
-**From Position**: [[Positions/Side Control]] (Top)
-**Success Rate**: 58%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Carotid artery compression leading to loss of consciousness | High | Immediate recovery if released promptly; potential for longer-term effects if held after unconsciousness |
-| Tracheal compression and windpipe damage | Medium | 1-2 weeks with proper medical attention |
-| Neck strain from bridging attempts | Medium | 3-7 days |
-| Cervical spine stress from improper release | CRITICAL | Weeks to months depending on severity |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow partner to recognize the danger and tap
-
-**Tap Signals**:
-- Verbal tap or verbal submission
-- Multiple rapid hand taps on opponent's body
-- Multiple rapid foot taps on the mat
-- Any distress signal including body convulsions
-- Loss of resistance or going limp
-
-
-**Release Protocol**:
-1. Immediately release arm pressure and remove shoulder compression
-2. Roll off opponent's head and neck area completely
-3. Allow opponent to recover in side-lying position with airway clear
-4. Monitor for signs of consciousness and breathing
-5. Never move opponent's neck immediately after release — allow them to move naturally first
-
-
-**Training Restrictions**:
-- Never apply explosive or jerking pressure to the neck
-- Never use competition speed or full pressure in training
-- Always ensure partner has clear tap access with at least one hand
-- Never hold the choke after partner taps or goes limp
-- Beginners should only practice the position and grip, not the actual choking pressure
-
+**Starting Position**: [[Positions/Side Control]] · **From**: [[Positions/Side Control]] (Top)
 
 </section>
 
@@ -225,42 +223,63 @@ This submission is particularly effective against opponents who defend side cont
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Transitions/Arm Triangle]]
 - [[Transitions/Darce Choke]]
 - [[Submissions/Kimura]]
 - [[Submissions/Americana]]
 - [[Submissions/Ezekiel Choke]]
 - [[Submissions/Breadcutter Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Side Control]] - Starting position from which the transition and choke setup begin
 - [[Positions/North-South]] - Target transitional position that creates the choking angle
-- [[Transitions/Arm Triangle]] - Alternative head-and-arm choke available from the same starting position
-- [[Transitions/Darce Choke]] - Related front headlock choke sharing similar neck compression mechanics
-- [[Submissions/Kimura]] - Common side control attack that can set up the north-south transition when defended
 - [[Positions/Side Control/Kesa Gatame]] - Side control variation that provides an alternative entry angle for the choke
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Carotid artery compression leading to loss of consciousness | High | Immediate recovery if released promptly; potential for longer-term effects if held after unconsciousness |
+| Tracheal compression and windpipe damage | Medium | 1-2 weeks with proper medical attention |
+| Neck strain from bridging attempts | Medium | 3-7 days |
+| Cervical spine stress from improper release | CRITICAL | Weeks to months depending on severity |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow partner to recognize the danger and tap
+
+**Tap Signals**:
+- Verbal tap or verbal submission
+- Multiple rapid hand taps on opponent's body
+- Multiple rapid foot taps on the mat
+- Any distress signal including body convulsions
+- Loss of resistance or going limp
+
+
+**Release Protocol**:
+1. Immediately release arm pressure and remove shoulder compression
+2. Roll off opponent's head and neck area completely
+3. Allow opponent to recover in side-lying position with airway clear
+4. Monitor for signs of consciousness and breathing
+5. Never move opponent's neck immediately after release — allow them to move naturally first
+
+
+**Training Restrictions**:
+- Never apply explosive or jerking pressure to the neck
+- Never use competition speed or full pressure in training
+- Always ensure partner has clear tap access with at least one hand
+- Never hold the choke after partner taps or goes limp
+- Beginners should only practice the position and grip, not the actual choking pressure
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of North-South Choke from Side Control leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

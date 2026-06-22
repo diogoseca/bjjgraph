@@ -21,37 +21,37 @@ description: "Master Side Control Top in BJJ. Complete guide to submissions, tra
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 38% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 31% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee on Belly",
-      "text": "From this position, attempt Knee on Belly. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Knee on Belly. This technique is attempted in 6% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to North-South",
-      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 5% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Triangle from Side Control",
-      "text": "From this position, attempt Arm Triangle from Side Control. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Arm Triangle from Side Control. This technique is attempted in 5% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Ezekiel Choke from Side Control",
-      "text": "From this position, attempt Ezekiel Choke from Side Control. This technique is attempted in 2% of exchanges from this position.",
+      "name": "Execute Arm Triangle from Top",
+      "text": "From this position, attempt Arm Triangle from Top. This technique is attempted in 4% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Side Control to Kesa Gatame",
-      "text": "From this position, attempt Side Control to Kesa Gatame. This technique is attempted in 2% of exchanges from this position.",
+      "name": "Execute Ezekiel Choke from Side Control",
+      "text": "From this position, attempt Ezekiel Choke from Side Control. This technique is attempted in 1% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -116,6 +116,8 @@ description: "Master Side Control Top in BJJ. Complete guide to submissions, tra
   "@type": "WebPage",
   "name": "Side Control Top",
   "description": "Master Side Control Top in BJJ. Complete guide to submissions, transitions, pressure control, and positional advancement from the dominant side position.",
+  "alternateName": ["Side Mount", "Yoko Shiho Gatame", "100 Kilos", "Cem Quilos"],
+  "disambiguatingDescription": "Often confused with Shoulder of Justice \u2014 Shoulder of Justice is a high-pressure cross-face/jaw variant, not the general side-control position.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -155,6 +157,10 @@ description: "Master Side Control Top in BJJ. Complete guide to submissions, tra
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Side Mount</strong>, <strong>Yoko Shiho Gatame</strong>, <strong>100 Kilos</strong>, <strong>Cem Quilos</strong> <span class="role-hint">(top)</span></p>
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Positions/Shoulder of Justice|Shoulder of Justice]]</strong> — Shoulder of Justice is a high-pressure cross-face/jaw variant, not the general side-control position</p>
+</aside>
 <section id="overview" class="content-section">
 
 Side Control Top is one of the most fundamental and dominant positions in Brazilian Jiu-Jitsu, achieved when the top player pins the opponent from the side with their chest perpendicular to the opponent's torso while controlling their hips and head. Worth 3 points in IBJJF competition for passing the guard, this position offers exceptional control with minimal energy expenditure when executed correctly. It provides numerous submission opportunities, transitions to even more dominant positions like mount or back control, and presents significant defensive challenges for the bottom player. Side control is often considered the home base of top position work, as it offers stability, control, and offensive options while maintaining relatively low risk of reversal. The position's effectiveness comes from the mechanical advantage of perpendicular body positioning combined with strategic weight distribution that limits the opponent's movement while preserving the top player's mobility. Mastery of side control is essential for all BJJ practitioners, as it represents a critical stage in the positional hierarchy between guard passing and mount. From this position, the top player can methodically work toward submissions, advance to more dominant positions, or simply maintain control to manage energy and score points. The psychological advantage is also significant - being trapped under side control is one of the most uncomfortable experiences in BJJ, and the constant threat of submissions and position advancement forces the bottom player into reactive, often desperate escape attempts that can be countered and capitalized upon.
@@ -354,6 +360,27 @@ Partner attempts specific escape such as elbow escape, bridge and roll, or turni
 - **[[Transitions/Darce Choke]]** - Effective choke when opponent turns into you from bottom
 - **[[Transitions/North-South Choke]]** - Powerful submission from north-south transition
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Submission-Clinic-System" data-cta="related-system-card" data-system-slug="systems/submission-clinic-system" data-system-name="Submission Clinic System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Submission Clinic System</span><span class="system-card__unlocks-badge">Unlocks 30 techniques</span><span class="system-card__blurb">Fundamental control position for kimura, americana, and arm triangle setups</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Bernardo-Faria-Pressure-System" data-cta="related-system-card" data-system-slug="systems/bernardo-faria-pressure-system" data-system-name="Bernardo Faria Pressure System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Bernardo Faria Pressure System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Primary position achieved through pressure passing system</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/IBJJF-Strategy-Guide" data-cta="related-system-card" data-system-slug="systems/ibjjf-strategy-guide" data-system-name="IBJJF Strategy Guide" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">IBJJF Strategy Guide</span><span class="system-card__unlocks-badge">Unlocks 27 techniques</span><span class="system-card__blurb">Transitional control position following guard pass, gateway to mount and back</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/MMA-Crossover-Strategy" data-cta="related-system-card" data-system-slug="systems/mma-crossover-strategy" data-system-name="MMA Crossover Strategy" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">MMA Crossover Strategy</span><span class="system-card__unlocks-badge">Unlocks 27 techniques</span><span class="system-card__blurb">Pressure position for ground strikes and arm triangle setups</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Competition-Scoring-Strategy" data-cta="related-system-card" data-system-slug="systems/competition-scoring-strategy" data-system-name="Competition Scoring Strategy" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Competition Scoring Strategy</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Guard pass consolidation position and platform for further advancement</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Competition-Strategy" data-cta="related-system-card" data-system-slug="systems/competition-strategy" data-system-name="Competition Strategy" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Competition Strategy</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Fundamental control position worth 3 points serving as gateway to mount and back control advancement</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Teaching-Methodology-Framework" data-cta="related-system-card" data-system-slug="systems/teaching-methodology-framework" data-system-name="Teaching Methodology Framework" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Teaching Methodology Framework</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Critical defensive position requiring systematic escape instruction</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Roger-Gracie-Fundamental-System" data-cta="related-system-card" data-system-slug="systems/roger-gracie-fundamental-system" data-system-name="Roger Gracie Fundamental System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Roger Gracie Fundamental System</span><span class="system-card__unlocks-badge">Unlocks 22 techniques</span><span class="system-card__blurb">Intermediate position in classical progression - gateway to mount and control position for pressure application</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Kimura-Trap-System" data-cta="related-system-card" data-system-slug="systems/kimura-trap-system" data-system-name="Kimura Trap System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Kimura Trap System</span><span class="system-card__unlocks-badge">Unlocks 21 techniques</span><span class="system-card__blurb">Primary starting position for kimura trap establishment</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Modern-No-Gi-Passing-System" data-cta="related-system-card" data-system-slug="systems/modern-no-gi-passing-system" data-system-name="Modern No-Gi Passing System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Modern No-Gi Passing System</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Primary finishing position for successful passing sequences</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Self-Defense-Application-Framework" data-cta="related-system-card" data-system-slug="systems/self-defense-application-framework" data-system-name="Self-Defense Application Framework" data-member-count="18"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Self-Defense Application Framework</span><span class="system-card__unlocks-badge">Unlocks 18 techniques</span><span class="system-card__blurb">High-percentage control position allowing striking defense and awareness</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Gordon-Ryan-Passing-System" data-cta="related-system-card" data-system-slug="systems/gordon-ryan-passing-system" data-system-name="Gordon Ryan Passing System" data-member-count="17"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Gordon Ryan Passing System</span><span class="system-card__unlocks-badge">Unlocks 17 techniques</span><span class="system-card__blurb">Primary destination after successful pass completion</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

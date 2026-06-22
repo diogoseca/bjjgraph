@@ -10,6 +10,41 @@ description: "Master the Spider Sweep in BJJ. Complete guide to executing this h
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Spider Sweep",
+  "description": "Master the Spider Sweep in BJJ. Complete guide to executing this high-percentage sweep from Spider Guard using sleeve grips and bicep pressure to Mount.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Spider Sweep", "item": "https://bjjgraph.org/Transitions/Spider-Sweep" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Spider Sweep",
+  "description": "The Spider Sweep is a gi sweep from Spider Guard Bottom that pairs a cross-body sleeve pull with opposite-foot bicep pressure to scissor the opponent's base along a diagonal axis and reverse them to Mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Spider Sweep in BJJ. Complete guide to executing this h
 </div>
 
 <section id="overview" class="content-section">
+
+**The Spider Sweep is a gi sweep from Spider Guard Bottom that pairs a cross-body sleeve pull with opposite-foot bicep pressure to scissor the opponent's base along a diagonal axis and reverse them to Mount.**
 
 The Spider Sweep is a foundational sweep from Spider Guard that exploits the mechanical advantage of controlling both sleeves while using feet on the opponent's biceps to manipulate their base. By pulling one sleeve across the body while extending the opposite foot, the sweeper creates a scissoring force that loads the opponent's weight to one side, collapsing their base and enabling a clean sweep to mount. The technique operates entirely within the existing control structure of Spider Guard, requiring no grip transitions or guard changes to initiate.
 
@@ -226,5 +263,7 @@ The Spider Sweep integrates into the Spider Guard system as the primary sweep th
 
 
 </section>
+
+
 
 </main>

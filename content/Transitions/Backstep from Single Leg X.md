@@ -10,6 +10,41 @@ description: "Master the Backstep from Single Leg X-Guard pass in BJJ. Step-by-s
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Backstep from Single Leg X",
+  "description": "Master the Backstep from Single Leg X-Guard pass in BJJ. Step-by-step guide covering rotational hip mechanics, timing, and systematic guard clearing techniques.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Backstep from Single Leg X", "item": "https://bjjgraph.org/Transitions/Backstep-from-Single-Leg-X" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Backstep from Single Leg X",
+  "description": "The Backstep from Single Leg X-Guard is a rotational guard pass where the top player pivots their hips away from the bottom player's sweeping axis, spiraling the trapped leg free of the SLX hooks to land in side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Backstep from Single Leg X-Guard pass in BJJ. Step-by-s
 
 <section id="overview" class="content-section">
 
-The backstep from Single Leg X-Guard is a rotational guard pass that exploits the structural commitment inherent in the SLX hook configuration. When the bottom player establishes SLX, their legs create powerful sweeping leverage but lock into a specific orientation that limits their ability to follow rotational movement. The backstep capitalizes on this directional commitment by rotating away from the bottom player's primary sweeping axis, stepping the free leg behind their guard structure and using hip rotation to clear the entangled leg entirely.
+**The Backstep from Single Leg X-Guard is a rotational guard pass where the top player pivots their hips away from the bottom player's sweeping axis, spiraling the trapped leg free of the SLX hooks to land in side control.**
+
+As a rotational answer to the modern leg-entanglement game, the backstep from Single Leg X-Guard exploits the structural commitment inherent in the SLX hook configuration rather than meeting it with direct pressure. When the bottom player establishes SLX, their legs create powerful sweeping leverage but lock into a specific orientation that limits their ability to follow rotational movement. The backstep capitalizes on this directional commitment by rotating away from the bottom player's primary sweeping axis, stepping the free leg behind their guard structure and using hip rotation to clear the entangled leg entirely.
 
 This technique is particularly effective because it bypasses the bottom player's strongest defensive frames rather than fighting through them. Direct pressure passes into SLX play directly into the bottom player's sweeping and leg lock game. The backstep changes the angle of engagement fundamentally, creating a momentary window where the bottom player's hooks lose their mechanical advantage as the top player's hips rotate past the plane of control. The rotational nature of the movement means the trapped leg clears naturally through hip turning rather than requiring forceful extraction against the bottom player's grip.
 
@@ -224,6 +261,16 @@ The backstep from SLX occupies a critical role in the modern guard passing hiera
 
 - [[Positions/Combat Base]] - Posture option for managing SLX before committing to the backstep rotation
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Craig-Jones-Leg-Lock-System" data-cta="related-system-card" data-system-slug="systems/craig-jones-leg-lock-system" data-system-name="Craig Jones Leg Lock System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Craig Jones Leg Lock System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Systematic conversion from single leg x-guard sweeping position to ashi garami leg entanglement when opponent defends elevation</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

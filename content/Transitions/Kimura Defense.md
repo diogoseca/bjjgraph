@@ -10,6 +10,41 @@ description: "Master Kimura Defense in BJJ. Complete defensive framework coverin
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kimura Defense",
+  "description": "Master Kimura Defense in BJJ. Complete defensive framework covering grip breaking, rolling escapes, and counter-attacks from Kimura Trap positions.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Kimura Defense", "item": "https://bjjgraph.org/Transitions/Kimura-Defense" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kimura Defense",
+  "description": "Kimura Defense is the systematic set of escapes and counters against the figure-four shoulder lock, layering early grip fighting, arm-circling with the lock, and base-attacking rolls to free the trapped arm or reverse the Kimura Trap into your own offense.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,11 +57,13 @@ description: "Master Kimura Defense in BJJ. Complete defensive framework coverin
 
 <section id="overview" class="content-section">
 
+**Kimura Defense is the systematic set of escapes and counters against the figure-four shoulder lock, layering early grip fighting, arm-circling with the lock, and base-attacking rolls to free the trapped arm or reverse the Kimura Trap into your own offense.**
+
 The Kimura Defense represents a critical defensive skill set against one of BJJ's most versatile submissions. The kimura presents danger from virtually every position, making defensive proficiency essential for survival. Understanding proper defensive mechanics protects the shoulder joint while creating opportunities to escape or counter-attack. The defense operates on three levels: prevention (hand fighting and grip denial), early escape (before full lock completion), and late-stage survival (managing locked positions). Success requires recognizing threat stages, maintaining defensive frames, and exploiting timing windows during opponent transitions.
 
-Unlike many submission defenses that focus purely on escape, kimura defense integrates offensive transitions, as the attacker's grip commitment creates vulnerabilities. Advanced practitioners transform defensive sequences into offensive opportunities, using the opponent's kimura grip against them through rolling escapes, back takes, or sweep reversals. The transition from Kimura Trap Top most commonly leads to Half Guard recovery when the defender successfully breaks control, but failed attempts leave you trapped in the same position, and poor execution can result in the attacker consolidating to Side Control.
+Unlike many submission defenses that focus purely on escape, kimura defense integrates offensive transitions, as the attacker's grip commitment creates vulnerabilities. Advanced practitioners transform defensive sequences into offensive opportunities, using the opponent's kimura grip against them through rolling escapes, back takes, or sweep reversals. The transition from Kimura Trap Bottom most commonly leads to Half Guard recovery when the defender successfully breaks control, but failed attempts leave you trapped in the same position, and poor execution can result in the attacker consolidating to Side Control.
 
-**From Position**: [[Positions/Kimura Trap]] (Top)
+**From Position**: [[Positions/Kimura Trap]] (Bottom)
 **Success Rate**: 60%
 
 </section>
@@ -221,5 +258,7 @@ Kimura defense represents a universal defensive skill that applies across virtua
 
 
 </section>
+
+
 
 </main>

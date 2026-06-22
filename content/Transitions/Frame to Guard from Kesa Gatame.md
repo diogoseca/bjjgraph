@@ -10,6 +10,41 @@ description: "Master the frame to guard escape from Kesa Gatame in BJJ. Complete
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Frame to Guard from Kesa Gatame",
+  "description": "Master the frame to guard escape from Kesa Gatame in BJJ. Complete guide covering frame placement, hip escape mechanics, and guard recovery techniques.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Frame to Guard from Kesa Gatame", "item": "https://bjjgraph.org/Transitions/Frame-to-Guard-from-Kesa-Gatame" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Frame to Guard from Kesa Gatame",
+  "description": "Frame to Guard from Kesa Gatame is a methodical scarf-hold escape where the bottom player builds forearm frames against the opponent's jaw and shoulder to create space, then hip escapes and inserts a knee shield to recover open or half guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the frame to guard escape from Kesa Gatame in BJJ. Complete
 </div>
 
 <section id="overview" class="content-section">
+
+**Frame to Guard from Kesa Gatame is a methodical scarf-hold escape where the bottom player builds forearm frames against the opponent's jaw and shoulder to create space, then hip escapes and inserts a knee shield to recover open or half guard.**
 
 The frame to guard escape from Kesa Gatame represents one of the most methodical and energy-efficient approaches to recovering guard from the scarf hold position. Unlike bridge-and-roll escapes that require explosive power or ghost escapes that target turtle position, this technique uses systematic frame construction against the top player's neck and shoulder to create incremental space for hip escape and knee insertion. The approach is rooted in the principle that structural resistance through bone-on-bone alignment outlasts and outperforms muscular pushing against a heavier opponent's chest pressure.
 
@@ -221,5 +258,7 @@ The frame to guard escape integrates into the complete Kesa Gatame bottom escape
 
 
 </section>
+
+
 
 </main>

@@ -336,4 +336,6 @@ The Half Guard to X-Guard transition involves significant hip and knee loading o
 
 </section>
 
+
+
 </main>

@@ -1,5 +1,6 @@
 {
   "name": "Kneebar from Inside Sankaku",
+  "summary": "The kneebar from Inside Sankaku is a secondary leg attack that exploits the entanglement's leg isolation to hyperextend the opponent's knee via hip extension, capitalizing on the heel-hiding defense to the inside heel hook.",
   "description": "Master the kneebar from Inside Sankaku in BJJ. Complete finishing guide covering setup mechanics, hip extension technique, defensive counters, and safety protocols.",
   "tags": [
     "bjj",
@@ -71,8 +72,8 @@
   ],
   "related_submissions": [
     "Inside Heel Hook",
-    "Inside Heel Hook",
     "Heel Hook",
+    "Toe Hold",
     "Calf Slicer",
     "Flying Kneebar",
     "Achilles Lock"
@@ -138,7 +139,7 @@
     }
   ],
   "attacker": {
-    "name": "from Inside Sankaku Attacker",
+    "name": "Kneebar from Inside Sankaku Attacker",
     "description": "Learn to attack the kneebar from Inside Sankaku. Step-by-step execution guide with hip extension mechanics, grip transitions, and counter-responses for leg lock finishes.",
     "overview": "Attacking the kneebar from Inside Sankaku requires transitioning from heel hook hunting to knee hyperextension while maintaining the positional control that makes this entanglement dominant. The key mechanical shift involves redirecting hip extension force against the posterior knee rather than rotational force against the heel. This transition catches opponents who have committed their defensive resources to protecting the heel, leaving the knee joint exposed to attack from a different vector within the same entanglement structure. Proper execution demands maintaining the figure-four leg configuration throughout the grip transition, securing ankle control before initiating any extension pressure, and applying progressive force that allows your training partner to tap safely.",
     "key_principles": [
@@ -312,7 +313,7 @@
     ]
   },
   "defender": {
-    "name": "from Inside Sankaku Defender",
+    "name": "Kneebar from Inside Sankaku Defender",
     "description": "Defend against the kneebar from Inside Sankaku. Recognition cues, escape techniques, and defensive protocols to protect your knee joint in leg entanglement situations.",
     "overview": "Defending the kneebar from Inside Sankaku requires recognizing the grip transition from heel hook to ankle control and immediately addressing the new hyperextension threat to the knee joint. The defender must prevent the attacker from securing the ankle under their armpit and establishing proper hip alignment, as once both elements are in place defensive options narrow dramatically. The critical defensive window occurs during the transition phase when the attacker releases heel hook grips to reach for the ankle - this is when the entanglement control is momentarily weakened and escape attempts have the highest success rate. Unlike defending heel hooks where the primary concern is rotational force, kneebar defense centers on preventing hyperextension by actively bending the knee, denying hip-to-knee alignment, and extracting the leg during moments of reduced control.",
     "key_principles": [

@@ -10,6 +10,41 @@ description: "Master the 50-50 Entry from Standing in BJJ. Step-by-step executio
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "50-50 Entry from Standing",
+  "description": "Master the 50-50 Entry from Standing in BJJ. Step-by-step execution guide covering leg entanglement mechanics, timing, and grip sequences from standing.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "50-50 Entry from Standing", "item": "https://bjjgraph.org/Transitions/50-50-Entry-from-Standing" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "50-50 Entry from Standing",
+  "description": "The 50-50 Entry from Standing is a leg-entanglement guard pull in which you trap an opponent's lead leg and sit directly into the symmetrical 50-50 Guard, bypassing conventional guard pulls to open immediate heel hook and leg-lock attacks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the 50-50 Entry from Standing in BJJ. Step-by-step executio
 
 <section id="overview" class="content-section">
 
-The 50-50 Entry from Standing is a modern leg entanglement technique that allows you to establish the 50-50 Guard position directly from a standing engagement. This entry is particularly effective in no-gi competition where traditional guard pulls may be penalized or less effective. The technique involves controlling your opponent's leg while simultaneously sitting to the mat, creating a symmetrical leg entanglement that offers both offensive and defensive advantages.
+**The 50-50 Entry from Standing is a leg-entanglement guard pull in which you trap an opponent's lead leg and sit directly into the symmetrical 50-50 Guard, bypassing conventional guard pulls to open immediate heel hook and leg-lock attacks.**
+
+Popularized by the modern leg-lock movement, the 50-50 Entry from Standing lets you drag a standing engagement straight into a symmetrical entanglement instead of grinding through conventional guard-pull exchanges. It is especially valuable in no-gi competition, where traditional sit-to-guard pulls may be penalized or easily stuffed. The entry controls your opponent's lead leg while you simultaneously sit to the mat, building a mirrored leg entanglement that offers both offensive and defensive advantages.
 
 This entry has become increasingly popular in modern competitive BJJ, particularly among leg lock specialists who use the 50-50 as a platform for attacking heel hooks and toe holds. The position's symmetry creates a strategic stalemate that can frustrate opponents unfamiliar with its intricacies, while providing numerous attacking opportunities for those well-versed in the system. The entry requires precise timing and coordination to successfully establish the position without exposing yourself to counters.
 
@@ -229,6 +266,17 @@ Strategically, the 50-50 entry from standing is particularly valuable in no-gi c
 
 - [[Positions/Ashi Garami]] - Parent system of leg entanglements that includes 50-50
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Craig-Jones-Leg-Lock-System" data-cta="related-system-card" data-system-slug="systems/craig-jones-leg-lock-system" data-system-name="Craig Jones Leg Lock System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Craig Jones Leg Lock System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Entry method for accessing 50-50 position from standing exchanges and guard pulls</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/B-Team-Dilemma-System" data-cta="related-system-card" data-system-slug="systems/b-team-dilemma-system" data-system-name="B-Team Dilemma System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">B-Team Dilemma System</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Standing entry option for initiating system from neutral position</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

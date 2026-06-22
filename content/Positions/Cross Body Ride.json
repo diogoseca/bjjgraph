@@ -3,6 +3,7 @@
   "slug": "cross-body-ride",
   "description": "Master Cross Body Ride position in BJJ. Advanced back attack control with 70% back take rate. Complete guide covering harness control, transitions, and submissions.",
   "variant_uniqueness": "Trades mobility for perpendicular pressure",
+  "summary": "Cross Body Ride is a dominant turtle-top control where the attacker lies perpendicular across the opponent's back with seatbelt control, pinning their structure while threatening back takes, crucifix entries, and other rear attacks.",
   "overview": "Cross Body Ride is an advanced controlling position from turtle where the top practitioner establishes perpendicular chest-to-back contact with the opponent while securing a harness grip (seatbelt control). This position serves as a critical transitional state between turtle top and back control, offering exceptional control and multiple high-percentage paths to dominant positions and submissions. The cross body orientation provides mechanical advantage by directing pressure across the opponent's spine while preventing effective hip escapes.\n\nThe position's strategic value lies in its ability to simultaneously immobilize the opponent while creating forcing functions that lead to predictable defensive reactions. When executed properly, Cross Body Ride creates a dilemma where the opponent must choose between defending back exposure or protecting against crucifix entries. This makes it a cornerstone position in modern turtle attack systems, particularly in no-gi grappling where gi-based controls are unavailable.\n\nMastery of Cross Body Ride requires understanding weight distribution mechanics, maintaining perpendicular alignment, and recognizing the specific defensive reactions that signal transition opportunities. The position is particularly effective against opponents with strong turtle defense, as it bypasses many traditional turtle escape pathways while maintaining offensive initiative.\n\nFrom a systematic perspective, Cross Body Ride functions as a forcing position within the turtle attack hierarchy. The top player's perpendicular orientation creates asymmetric pressure that the bottom player cannot neutralize through standard turtle defenses. Every defensive reaction from the bottom player opens a specific offensive pathway for the top player, whether that is a back take when they flatten, a crucifix when they post, or a crab ride transition when they attempt to stand. This branching decision tree makes Cross Body Ride one of the most strategically rich positions in the turtle attack ecosystem, rewarding practitioners who invest time in reading and responding to defensive patterns.",
   "key_principles": [
     "Maintain perpendicular chest-to-back alignment to maximize pressure across opponent's spine",
@@ -323,11 +324,11 @@
     "transitions": [
       {
         "transition": "Turtle to Back Control",
-        "attempt_probability": 52
+        "attempt_probability": 50
       },
       {
         "transition": "Crucifix from Turtle",
-        "attempt_probability": 18
+        "attempt_probability": 17
       },
       {
         "transition": "Twister from Cross Body Ride",
@@ -335,31 +336,35 @@
       },
       {
         "transition": "Turtle Flatten to Side Control",
-        "attempt_probability": 9
+        "attempt_probability": 8
       },
       {
         "transition": "Turtle to Truck",
-        "attempt_probability": 7
+        "attempt_probability": 6
       },
       {
         "transition": "Crab Ride to Back",
-        "attempt_probability": 7
+        "attempt_probability": 6
       },
       {
         "transition": "Darce from Turtle",
-        "attempt_probability": 1
+        "attempt_probability": 2
       },
       {
         "transition": "Cross Body to Back Control",
-        "attempt_probability": 1
+        "attempt_probability": 2
       },
       {
         "transition": "Cross Body to Side Control",
-        "attempt_probability": 1
+        "attempt_probability": 2
       },
       {
         "transition": "Twister Entry",
-        "attempt_probability": 1
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Short Choke from Cross Body",
+        "attempt_probability": 2
       }
     ]
   },

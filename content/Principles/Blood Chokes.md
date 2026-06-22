@@ -142,18 +142,33 @@ description: "Master blood choke mechanics in BJJ. Learn carotid artery compress
 }
 </script>
 
-> Blood Chokes is a medium complexity BJJ principle applicable at the Fundamental level. Develop over Beginner to Expert.
 
-**Application Level**: Fundamental
-**Complexity**: Medium
-**Development Timeline**: Beginner to Expert
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Blood Chokes",
+  "description": "Blood chokes are submissions that compress the carotid arteries on the sides of the neck to cut oxygenated blood flow to the brain, producing unconsciousness within seconds — a vascular mechanism distinct from airway-blocking air chokes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Fundamental</span>
+<span class="meta-chip">Medium complexity</span>
+<span class="meta-chip">Beginner to Expert</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
 
-## What is Blood Chokes?
+## What are Blood Chokes?
+
+**Blood chokes are submissions that compress the carotid arteries on the sides of the neck to cut oxygenated blood flow to the brain, producing unconsciousness within seconds — a vascular mechanism distinct from airway-blocking air chokes.**
 
 Blood chokes are the most effective and widely used finishing mechanic in Brazilian Jiu-Jitsu. Unlike air chokes that restrict breathing through tracheal compression, blood chokes work by compressing the carotid arteries on one or both sides of the neck, cutting blood flow to the brain. When applied correctly, a blood choke can render an opponent unconscious in as little as 6 to 10 seconds, making it the fastest path to a finish in grappling. The rear naked choke, guillotine, triangle choke, and bow and arrow choke all operate primarily through this vascular mechanism.
 
@@ -368,5 +383,7 @@ Isolate the body mechanics that finish each choke type: chest expansion for rear
 
 
 </section>
+
+
 
 </main>

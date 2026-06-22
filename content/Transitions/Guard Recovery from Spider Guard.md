@@ -10,6 +10,41 @@ description: "Master guard recovery from Spider Guard to closed guard in BJJ. St
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Guard Recovery from Spider Guard",
+  "description": "Master guard recovery from Spider Guard to closed guard in BJJ. Step-by-step guide covering grip transitions, leg retraction timing, and guard closure technique.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Guard Recovery from Spider Guard", "item": "https://bjjgraph.org/Transitions/Guard-Recovery-from-Spider-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Guard Recovery from Spider Guard",
+  "description": "Guard Recovery from Spider Guard is a defensive transition in which the bottom player, facing collapsing sleeve and bicep controls, retracts the legs and pulls the opponent forward to wrap and lock closed guard before a pass develops.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master guard recovery from Spider Guard to closed guard in BJJ. St
 
 <section id="overview" class="content-section">
 
-Guard Recovery from Spider Guard is a defensive transition where the bottom player closes distance and reestablishes closed guard when the Spider Guard position becomes compromised. When the opponent successfully breaks sleeve grips or begins collapsing the guard structure through pressure or grip fighting, the bottom player must transition from the open guard distance game to a tighter closed guard configuration. This recovery involves releasing foot-on-bicep controls, retracting legs to wrap around the opponent's torso, and closing the guard before the opponent can establish dominant passing grips or advance to combat base.
+**Guard Recovery from Spider Guard is a defensive transition in which the bottom player, facing collapsing sleeve and bicep controls, retracts the legs and pulls the opponent forward to wrap and lock closed guard before a pass develops.**
+
+Within the spider guard player's defensive hierarchy, this recovery is the highest-percentage bailout when the long-range control structure begins to fail. When the opponent successfully breaks sleeve grips or begins collapsing the guard structure through pressure or grip fighting, the bottom player must transition from the open guard distance game to a tighter closed guard configuration before passing grips can be established. This recovery involves releasing foot-on-bicep controls, retracting the legs in a continuous arc to wrap around the opponent's torso, and locking the guard low at the small of the back. Because the opponent's own forward momentum from breaking the grips carries them into closure range, the transition rides their energy rather than fighting it, which is precisely why it converts at a high rate compared to recoveries that must first create distance.
 
 **From Position**: [[Positions/Spider Guard]] (Bottom)
 **Success Rate**: 50%
@@ -215,5 +252,7 @@ Guard Recovery from Spider Guard occupies a critical defensive node in the open 
 
 
 </section>
+
+
 
 </main>

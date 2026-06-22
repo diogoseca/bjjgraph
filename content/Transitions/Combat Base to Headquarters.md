@@ -10,6 +10,41 @@ description: "Master the Combat Base to Headquarters transition in BJJ. Systemat
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Combat Base to Headquarters",
+  "description": "Master the Combat Base to Headquarters transition in BJJ. Systematic leg control entry for guard passing with knee pinning mechanics and base structure.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Combat Base to Headquarters", "item": "https://bjjgraph.org/Transitions/Combat-Base-to-Headquarters" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Combat Base to Headquarters",
+  "description": "Combat Base to Headquarters is a top-position guard-passing advancement where the passer isolates and pins one of the opponent's legs between their knees, converting a mobile combat-base stance into the controlling Headquarters platform.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Combat Base to Headquarters transition in BJJ. Systemat
 </div>
 
 <section id="overview" class="content-section">
+
+**Combat Base to Headquarters is a top-position guard-passing advancement where the passer isolates and pins one of the opponent's legs between their knees, converting a mobile combat-base stance into the controlling Headquarters platform.**
 
 The Combat Base to Headquarters transition represents one of the most fundamental positional advancements in modern guard passing. This movement takes the top player from a general-purpose combat base stance—one knee posted, one foot planted inside the opponent's guard—into the more specific and dominant Headquarters Position, where one of the opponent's legs is pinned between the passer's legs with sustained downward knee pressure. This advancement narrows the bottom player's defensive options dramatically while opening multiple high-percentage passing pathways including knee cut, toreando, leg drag, and backstep variations.
 
@@ -222,5 +259,7 @@ The Combat Base to Headquarters transition occupies a central role in the guard 
 
 
 </section>
+
+
 
 </main>

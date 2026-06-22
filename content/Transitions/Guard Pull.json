@@ -1,6 +1,7 @@
 {
   "name": "Guard Pull",
   "description": "Master the Guard Pull transition in BJJ. Complete guide from standing to seated guard with grip control, timing, and position-specific entries.",
+  "summary": "The Guard Pull is a Brazilian Jiu-Jitsu transition where a standing grappler uses grips to sit down and pull their opponent into a chosen bottom guard, deliberately conceding top position to start the fight from their preferred guard game.",
   "tags": [
     "bjj",
     "transition",
@@ -78,10 +79,6 @@
     {
       "name": "Standing Position",
       "relationship": "Starting position for guard pull transition"
-    },
-    {
-      "name": "Guard Pull",
-      "relationship": "Self-reference for guard pull hub page"
     }
   ],
   "attacker": {

@@ -10,6 +10,41 @@ description: "Master Gift Wrap to Technical Mount transition in BJJ. Step-by-ste
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Gift Wrap to Technical Mount",
+  "description": "Master Gift Wrap to Technical Mount transition in BJJ. Step-by-step guide covering rotation timing, knee clearance, and mount consolidation with arm trap.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Gift Wrap to Technical Mount", "item": "https://bjjgraph.org/Transitions/Gift-Wrap-to-Technical-Mount" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Gift Wrap to Technical Mount",
+  "description": "Gift Wrap to Technical Mount is a back-control advancement where the attacker rides the defender's defensive hip rotation into technical mount while keeping one arm trapped, preserving the arm-isolation advantage for higher-percentage mounted submissions.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Gift Wrap to Technical Mount transition in BJJ. Step-by-ste
 </div>
 
 <section id="overview" class="content-section">
+
+**Gift Wrap to Technical Mount is a back-control advancement where the attacker rides the defender's defensive hip rotation into technical mount while keeping one arm trapped, preserving the arm-isolation advantage for higher-percentage mounted submissions.**
 
 The Gift Wrap to Technical Mount transition represents a systematic positional advancement that capitalizes on the control asymmetry created by the Gift Wrap position. Rather than hunting for submissions from back control, this transition advances to the mounted position while maintaining the critical arm trap advantage, creating a platform for even higher percentage finishing opportunities.
 
@@ -222,5 +259,7 @@ The Gift Wrap to Technical Mount transition represents a key node in the back at
 
 
 </section>
+
+
 
 </main>

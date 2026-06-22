@@ -21,37 +21,37 @@ description: "Master Honey Hole Top in BJJ. Advanced leg entanglement control wi
     {
       "@type": "HowToStep",
       "name": "Execute Outside Heel Hook from Honey Hole",
-      "text": "From this position, attempt Outside Heel Hook from Honey Hole. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Outside Heel Hook from Honey Hole. This technique is attempted in 10% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Heel Hook from Honey Hole",
-      "text": "From this position, attempt Heel Hook from Honey Hole. This technique is attempted in 42% of exchanges from this position.",
+      "text": "From this position, attempt Heel Hook from Honey Hole. This technique is attempted in 37% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kneebar Finish",
-      "text": "From this position, attempt Kneebar Finish. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Kneebar Finish. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Toe Hold from Honey Hole",
-      "text": "From this position, attempt Toe Hold from Honey Hole. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Toe Hold from Honey Hole. This technique is attempted in 7% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take from Ashi",
-      "text": "From this position, attempt Back Take from Ashi. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Back Take from Ashi. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Estima Lock from Honey Hole",
-      "text": "From this position, attempt Estima Lock from Honey Hole. This technique is attempted in 3% of exchanges from this position.",
+      "text": "From this position, attempt Estima Lock from Honey Hole. This technique is attempted in 2% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -356,6 +356,17 @@ Partner in bottom position attempts one specific escape technique at 75% intensi
 - **[[Positions/Leg Entanglement]]** - Core concept governing all aspects of position control
 - **[[Positions/Kneebar Control]]** - Transition position when switching to kneebar attacks
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Danaher-Leg-Lock-System" data-cta="related-system-card" data-system-slug="systems/danaher-leg-lock-system" data-system-name="Danaher Leg Lock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Danaher Leg Lock System</span><span class="system-card__unlocks-badge">Unlocks 30 techniques</span><span class="system-card__blurb">Maximum control configuration - primary finishing position in system hierarchy</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Straight-Footlock-to-Kneebar-Chain" data-cta="related-system-card" data-system-slug="systems/straight-footlock-to-kneebar-chain" data-system-name="Straight Footlock to Kneebar Chain" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Straight Footlock to Kneebar Chain</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Related leg entanglement position for expanded leg attack system</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

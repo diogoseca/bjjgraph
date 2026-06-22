@@ -146,7 +146,7 @@ description: "Complete guide to defending the reversal from triangle escape in B
 
 As the defender against the Reversal from Triangle Escape, you are the triangle holder whose opponent is converting their escape attempt into a guard pass. Your goal is to maintain the triangle lock's structural integrity or, if the lock is compromised, recover guard position before the opponent completes the pass to side control. Recognition of the reversal attempt is critical because the responses required to counter it differ from standard triangle finishing adjustments. You must identify when the opponent shifts from pure escape to offensive passing and respond by either re-tightening the triangle, transitioning to alternative submissions, or using sweeping opportunities created by the opponent's forward weight commitment. The reversal is most dangerous when you fail to distinguish it from a standard escape until the pass is already underway.
 
-**Opponent's Starting Position**: [[Positions/Triangle Escape Position]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Triangle Escape Position]] (Top)
 
 </section>
 

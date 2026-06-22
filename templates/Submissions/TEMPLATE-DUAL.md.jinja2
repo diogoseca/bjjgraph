@@ -10,10 +10,84 @@ description: "{{ description }}"
 {# PostHog A/B Testing Metadata #}
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: {{ name }} targets the {{ target_area }}. Risk: {{ safety_considerations.injury_risks[0].injury }}. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": {{ name | tojson }},
+  "description": {{ description | tojson }},
+  {%- if aliases is defined and aliases %}
+  "alternateName": [{% for alias in aliases %}{{ alias | tojson }}{{ ", " if not loop.last else "" }}{% endfor %}],
+  {%- endif %}
+  {%- if disambiguations is defined and disambiguations %}
+  {%- set _ns = namespace(dd='') %}
+  {%- for d in disambiguations %}{% set _ns.dd = _ns.dd + 'Often confused with ' + d.name + ' — ' + d.reason + '.' + (' ' if not loop.last else '') %}{% endfor %}
+  "disambiguatingDescription": {{ _ns.dd | tojson }},
+  {%- endif %}
+  {%- if sameAs is defined and sameAs %}
+  "sameAs": [{% for u in sameAs %}{{ u | tojson }}{{ ", " if not loop.last else "" }}{% endfor %}],
+  {%- endif %}
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": {{ name | tojson }}, "item": {{ ("https://bjjgraph.org/Submissions/" ~ (name | replace(" ", "-"))) | tojson }} }
+  ]
+}
+</script>
+
+{% if summary %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "{{ name }}",
+  "description": "{{ summary }}",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+{% endif %}
 
 {# Flexbox wrapper for A/B testing #}
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+{# Answer-first summary leads the page (guarded so pages render before the summary backfill lands) #}
+{% if summary %}**{{ summary }}**
+{% endif -%}
+
+<div class="principle-meta">
+<span class="meta-chip">{{ submission_category }}</span>
+<span class="meta-chip">{{ submission_type }}</span>
+<span class="meta-chip">Targets {{ target_area }}</span>
+<span class="meta-chip">{{ success_rate }}% success</span>
+</div>
+
+> [!danger] Safety
+> {{ name }} targets the {{ target_area }}. Primary risk: {{ safety_considerations.injury_risks[0].injury }}. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
+
+{% if (aliases is defined and aliases) or (family is defined and family) or (disambiguations is defined and disambiguations) -%}
+<aside class="entity-relations">
+{%- if aliases is defined and aliases %}
+<p class="also-known-as"><em>Also known as:</em> {% for alias in aliases %}<strong>{{ alias | e }}</strong>{{ ", " if not loop.last else "" }}{% endfor %}</p>
+{%- endif %}
+{%- if family is defined and family %}
+<p class="part-of-family"><em>Part of the</em> <strong>{% if resolve.family_exists(family) %}[[Families/{{ family }}|{{ family | e }}]]{% else %}{{ family | e }}{% endif %}</strong> <em>family</em></p>
+{%- endif %}
+{%- if disambiguations is defined and disambiguations %}
+{%- for d in disambiguations %}
+<p class="often-confused-with"><em>Often confused with</em> <strong>{% if resolve.page_exists(d.name) %}[[{{ resolve(d.name) }}|{{ d.name | e }}]]{% else %}{{ d.name | e }}{% endif %}</strong> — {{ d.reason | e }}</p>
+{%- endfor %}
+{%- endif %}
+</aside>
+{% endif -%}
 
 <div class="role-links">
 
@@ -26,45 +100,7 @@ description: "{{ description }}"
 
 {{ overview }}
 
-**Category**: {{ submission_category }}
-**Type**: {{ submission_type }}
-**Target Area**: {{ target_area }}
-**Starting Position**: [[{{ resolve(starting_position) }}]]
-{% if from_position is defined and from_position -%}
-**From Position**: [[{{ resolve(from_position.split('/')[0]) }}]] ({{ from_position.split('/')[1] if '/' in from_position else '' }})
-{% endif -%}
-**Success Rate**: {{ success_rate }}%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-{% for risk in safety_considerations.injury_risks -%}
-| {{ risk.injury }} | {{ risk.severity }} | {{ risk.recovery_time }} |
-{% endfor %}
-
-**Application Speed**: {{ safety_considerations.application_speed }}
-
-**Tap Signals**:
-{% for signal in safety_considerations.tap_signals -%}
-- {{ signal }}
-{% endfor %}
-
-**Release Protocol**:
-{% for step in safety_considerations.release_protocol -%}
-{{ loop.index }}. {{ step }}
-{% endfor %}
-
-**Training Restrictions**:
-{% for restriction in safety_considerations.training_restrictions -%}
-- {{ restriction }}
-{% endfor %}
+**Starting Position**: [[{{ resolve(starting_position) }}]]{% if from_position is defined and from_position %} · **From**: [[{{ resolve(from_position.split('/')[0]) }}]] ({{ from_position.split('/')[1] if '/' in from_position else '' }}){% endif %}
 
 </section>
 
@@ -169,34 +205,54 @@ description: "{{ description }}"
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
+## Related
 
-{% for submission in related_submissions -%}
-- [[{{ resolve(submission.name if submission is mapping else submission) }}]]{% if submission is mapping and submission.relationship %} - {{ submission.relationship }}{% endif %}
+{%- set relns = namespace(items=[], seen=[]) %}
+{%- for item in (related_submissions + related_content) %}
+{%- set iname = item.name if item is mapping else item %}
+{%- if iname | lower != name | lower and iname | lower not in relns.seen and resolve.page_exists(iname) %}
+{%- set _ = relns.seen.append(iname | lower) %}
+{%- set _ = relns.items.append(item) %}
+{%- endif %}
+{%- endfor %}
+{% for item in relns.items -%}
+- [[{{ resolve(item.name if item is mapping else item) }}]]{% if item is mapping and item.relationship %} - {{ item.relationship }}{% endif %}
+{% endfor %}
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+{% for risk in safety_considerations.injury_risks -%}
+| {{ risk.injury }} | {{ risk.severity }} | {{ risk.recovery_time }} |
+{% endfor %}
+
+**Application Speed**: {{ safety_considerations.application_speed }}
+
+**Tap Signals**:
+{% for signal in safety_considerations.tap_signals -%}
+- {{ signal }}
+{% endfor %}
+
+**Release Protocol**:
+{% for step in safety_considerations.release_protocol -%}
+{{ loop.index }}. {{ step }}
+{% endfor %}
+
+**Training Restrictions**:
+{% for restriction in safety_considerations.training_restrictions -%}
+- {{ restriction }}
 {% endfor %}
 
 </section>
 
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
-{% for item in related_content -%}
-- [[{{ resolve(item.name) }}]] - {{ item.relationship }}
-{% endfor %}
-
-</section>
-
-<section id="terminal-state" class="content-section">
-
-## Match Outcome
-
-Successful execution of {{ name }} leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
+{{ resolve.related_systems_html(name) }}
 
 </main>

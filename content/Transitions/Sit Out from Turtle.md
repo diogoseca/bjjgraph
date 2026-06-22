@@ -10,6 +10,41 @@ description: "Master the sit out escape from turtle in BJJ. Learn hip rotation m
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Sit Out from Turtle",
+  "description": "Master the sit out escape from turtle in BJJ. Learn hip rotation mechanics, posting technique, guard recovery timing, and complete attacker-defender strategies.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Sit Out from Turtle", "item": "https://bjjgraph.org/Transitions/Sit-Out-from-Turtle" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Sit Out from Turtle",
+  "description": "The Sit Out from Turtle is a wrestling-derived escape where the bottom player posts a hand and rotates the hips 180 degrees to thread a leg through and face the opponent, recovering guard from turtle bottom.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the sit out escape from turtle in BJJ. Learn hip rotation m
 </div>
 
 <section id="overview" class="content-section">
+
+**The Sit Out from Turtle is a wrestling-derived escape where the bottom player posts a hand and rotates the hips 180 degrees to thread a leg through and face the opponent, recovering guard from turtle bottom.**
 
 The sit out from turtle is a fundamental wrestling-derived escape technique adapted for Brazilian Jiu-Jitsu ground fighting. When trapped in turtle position with an opponent controlling from behind, the sit out provides a direct pathway to facing the opponent by rotating the hips 180 degrees through a posted hand pivot. The technique exploits moments when the top player's weight shifts forward or commits to a specific attack, creating the space needed for the bottom player to thread their leg through and complete the rotation into a guard position.
 
@@ -42,7 +79,8 @@ The sit out pairs effectively with other turtle escapes in a chain attack system
 | Success | [[Positions/Half Guard]] | 35% |
 | Success | [[Positions/Open Guard]] | 10% |
 | Failure | [[Positions/Turtle]] | 30% |
-| Counter | [[Positions/Side Control]] | 25% |
+| Counter | [[Positions/Back Control]] | 15% |
+| Counter | [[Positions/Side Control]] | 10% |
 
 
 </section>
@@ -223,5 +261,7 @@ The sit out from turtle serves as a critical link between defensive turtle posit
 
 
 </section>
+
+
 
 </main>

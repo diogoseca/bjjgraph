@@ -1,5 +1,6 @@
 {
   "name": "Kimura Defense Arm Extraction",
+  "summary": "The Kimura Defense Arm Extraction is a defensive escape where the trapped player straightens and drives the captured arm toward the mat to break the opponent's figure-four Kimura grip and recover to half guard.",
   "description": "Master the Kimura Defense Arm Extraction in BJJ. Step-by-step guide to freeing your trapped arm from the Kimura grip and returning to half guard safely.",
   "tags": [
     "bjj",
@@ -10,15 +11,15 @@
     "half-guard",
     "defensive"
   ],
-  "from_position": "Kimura Trap/Bottom",
+  "from_position": "Kimura Trap/Top",
   "outcomes": [
     {
-      "to": "Half Guard/Bottom",
+      "to": "Half Guard/Top",
       "probability": 55,
       "result": "success"
     },
     {
-      "to": "Kimura Trap/Bottom",
+      "to": "Kimura Trap/Top",
       "probability": 30,
       "result": "failure"
     },
@@ -162,7 +163,7 @@
         "counter": "Opponent deepens grip and locks elbows tight to body during extraction attempt",
         "effectiveness": "High",
         "your_response": "Switch to hip switch extraction variant by changing your hip angle to create a new pressure vector that the tight grip cannot resist. If the grip is too deep, focus on flattening the opponent with chest pressure to neutralize their offensive capability while looking for grip loosening opportunities.",
-        "targets_outcome": "Kimura Trap/Bottom"
+        "targets_outcome": "Kimura Trap/Top"
       },
       {
         "counter": "Opponent initiates Old School Sweep during extraction by hooking far ankle and bridging",
@@ -180,7 +181,7 @@
         "counter": "Opponent releases Kimura grip to establish underhook and sweep from half guard bottom",
         "effectiveness": "Medium",
         "your_response": "Immediately recognize the grip release and whizzer the freed arm to prevent the underhook establishment. Drive your crossface shoulder into their jaw to flatten them while securing your own underhook. The voluntary grip release is a win for you so capitalize by transitioning directly into passing pressure.",
-        "targets_outcome": "Half Guard/Bottom"
+        "targets_outcome": "Half Guard/Top"
       }
     ],
     "common_errors": [
@@ -265,6 +266,10 @@
       {
         "question": "How do you maintain base while driving the trapped arm downward during extraction?",
         "answer": "Create a tripod base with your free hand posted on the mat, your forehead driving into the opponent's chest or shoulder, and your knees spread for lateral stability. This three-point base structure allows you to commit force to the arm extraction without compromising your balance. The free hand post should be slightly forward and to the side of the opponent's body, creating a wide base that resists the lateral forces generated during sweep attempts."
+      },
+      {
+        "question": "Your straight-arm drive stalls because the opponent has a deep, locked grip you cannot break - what is your chain attack?",
+        "answer": "Stop fighting the grip head-on and switch to the hip switch extraction by rotating your hips away from the trapped-arm side to attack the figure-four from a fresh plane the locked elbows cannot defend. If the grip still holds, abandon the extraction race momentarily and pin the opponent flat with heavy chest pressure to neutralize their sweeps and back takes, then post the trapped hand on the mat and walk your hips backward so your skeletal frame, not your bicep, levers the grip apart."
       }
     ],
     "safety_considerations": "The Kimura Defense Arm Extraction carries moderate risk to the shoulder joint of the person being extracted. During training, the person holding the Kimura should release immediately if the partner signals discomfort, as forced extractions against locked grips can strain the rotator cuff and shoulder capsule. The person extracting should never use explosive jerking motions that could injure their own shoulder if the grip suddenly releases. Both partners should communicate clearly during drilling, with the Kimura holder applying controlled resistance that allows the extractor to practice proper mechanics without risking joint injury. Tap early and often when practicing at higher intensities."
@@ -293,7 +298,7 @@
       {
         "action": "Deepen grip and lock elbows tight to body while curling torso forward",
         "when_to_use": "Immediately when you feel the opponent beginning to straighten the trapped arm or drive it toward the mat",
-        "targets_outcome": "Kimura Trap/Bottom",
+        "targets_outcome": "Kimura Trap/Top",
         "if_successful": "Maintains Kimura grip and full offensive position, allowing continued sweep, back take, and submission threats from the Kimura Trap system",
         "risk": "If opponent has already achieved significant arm extension, attempting to re-deepen the grip may allow them to flatten you with forward pressure"
       },
@@ -314,14 +319,14 @@
       {
         "action": "Establish lockdown to create compound control before grip breaks",
         "when_to_use": "Early in the extraction attempt, before the opponent has fully committed to arm straightening or hip withdrawal",
-        "targets_outcome": "Kimura Trap/Bottom",
+        "targets_outcome": "Kimura Trap/Top",
         "if_successful": "Compound Kimura plus lockdown control makes extraction nearly impossible and opens electric chair and additional sweep threats",
         "risk": "Momentary loosening of grip focus during lockdown establishment may provide a brief extraction window"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Kimura Trap/Bottom",
+        "outcome": "Kimura Trap/Top",
         "how": "Prevent extraction by maintaining deep grip with elbows tight, adding lockdown for secondary control, and using hip movement to constantly adjust the grip angle. Attack the opponent's forward pressure by threatening sweeps whenever their weight shifts forward during extraction attempts."
       },
       {

@@ -10,6 +10,41 @@ description: "Learn Crossface to Combat Base in BJJ. Transition from half guard 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Crossface to Combat Base",
+  "description": "Learn Crossface to Combat Base in BJJ. Transition from half guard top using crossface pressure to establish combat base for systematic passing.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Crossface to Combat Base", "item": "https://bjjgraph.org/Transitions/Crossface-to-Combat-Base" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Crossface to Combat Base",
+  "description": "Crossface to Combat Base is a half guard top transition where the passer uses heavy crossface pressure to flatten the bottom player, extract the trapped leg, and establish combat base as a stable, multi-option platform for systematic guard passing.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Learn Crossface to Combat Base in BJJ. Transition from half guard 
 </div>
 
 <section id="overview" class="content-section">
+
+**Crossface to Combat Base is a half guard top transition where the passer uses heavy crossface pressure to flatten the bottom player, extract the trapped leg, and establish combat base as a stable, multi-option platform for systematic guard passing.**
 
 The Crossface to Combat Base transition is a fundamental technique for establishing passing position from half guard top. Rather than completing a pass directly from half guard, this transition prioritizes creating a stable combat base platform from which multiple passing options become available. The crossface serves as the control mechanism that keeps the bottom player flattened and unable to follow as you extract your trapped leg and establish the asymmetric combat base stance.
 
@@ -229,5 +266,7 @@ The Crossface to Combat Base transition is a fundamental component of systematic
 
 
 </section>
+
+
 
 </main>

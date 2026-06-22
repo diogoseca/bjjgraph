@@ -82,6 +82,14 @@ description: "Master the attacking mechanics of the Smash Pocket Half. Step-by-s
     },
     {
       "@type": "Question",
+      "name": "What is the optimal timing window to initiate the Smash Pocket Half rather than another pass?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Initiate the smash the moment you have your own connection - chest contact plus a head or crossface threat - but before the bottom player has fully consolidated their deep underhook behind your back and loaded their hip frame. The ideal window is right after you flatten them slightly or when they pause to re-grip. If you wait until their underhook is locked to your far lat and their bottom-leg frame is actively driving into your hip, the pocket is at full strength and the smash becomes a strength battle you are likely to lose to their sweeps."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "Your opponent begins scooting their hips underneath you for a Deep Half entry during your smash - how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
@@ -110,14 +118,6 @@ description: "Master the attacking mechanics of the Smash Pocket Half. Step-by-s
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Do not fight the bridge directly with downward force, as this creates a strength contest that wastes energy and may compromise your position. Instead, widen your base immediately in the direction of the bridge by posting your free leg further out. Maintain chest-to-chest connection and ride the bridge rather than resisting it. Bridges are energetically expensive and self-limiting, typically lasting one to two seconds before the opponent must return to the mat, at which point you re-apply the smash."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the critical differences between the Smash Pocket Half and a general smash pass from standard half guard?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The Smash Pocket Half specifically addresses the pocket half guard's unique threats: the deep underhook and the hip frame creating the pocket space. A standard smash pass assumes the bottom player lacks a deep underhook and focuses primarily on flattening and leg extraction. The Smash Pocket Half adds the preliminary steps of collapsing the pocket space and neutralizing the underhook before the flattening can occur, making it a more specialized and sequential technique."
       }
     }
   ]
@@ -336,5 +336,7 @@ Positional sparring starting from Pocket Half Guard Top. Top player's primary ob
 The Smash Pocket Half involves significant pressure application to the opponent's torso and face. Be mindful of the crossface pressure on the jaw and neck area, avoiding excessive force that could cause cervical strain. Apply pressure progressively rather than explosively to give training partners time to tap if uncomfortable. Be aware that chest compression on smaller training partners can restrict breathing, so maintain communication and respond immediately to taps or verbal signals of distress.
 
 </section>
+
+
 
 </main>

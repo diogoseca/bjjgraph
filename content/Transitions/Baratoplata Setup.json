@@ -1,5 +1,6 @@
 {
   "name": "Baratoplata Setup",
+  "summary": "The Baratoplata Setup is a rotational shoulder-lock entry from the Meathook position that threads the attacker's arm through the opponent's isolated limb to build a figure-four grip, attacking the shoulder through internal rotation rather than the elbow.",
   "description": "Master the Baratoplata Setup from Meathook. Step-by-step shoulder lock entry using shin control and figure-four grip for rotational shoulder attack.",
   "tags": [
     "bjj",
@@ -13,22 +14,27 @@
   "from_position": "Meathook/Bottom",
   "outcomes": [
     {
-      "to": "Armbar Control/Top",
-      "probability": 55,
+      "to": "Baratoplata",
+      "probability": 50,
       "result": "success"
     },
     {
       "to": "Meathook/Bottom",
-      "probability": 30,
+      "probability": 25,
       "result": "failure"
     },
     {
-      "to": "Closed Guard/Bottom",
+      "to": "Armbar Control/Bottom",
       "probability": 15,
+      "result": "counter"
+    },
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": 10,
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": 50,
   "conditions": [
     "Established Meathook position with shin hook securing opponent's tricep and ankle clearing shoulder line",
     "Opponent's posture broken with head pulled down and trapped arm bent at approximately 90 degrees",
@@ -52,7 +58,7 @@
     },
     {
       "name": "Armbar Control",
-      "relationship": "Success outcome position where figure-four shoulder lock is secured"
+      "relationship": "Counter outcome from the bottom when opponent straightens the arm and you flow to a guard armbar"
     },
     {
       "name": "Gogoplata Control",
@@ -137,14 +143,14 @@
       {
         "counter": "Straighten the trapped arm to prevent figure-four configuration",
         "effectiveness": "Medium",
-        "your_response": "A straightened arm opens the Armbar on Free Arm directly—flow to standard armbar mechanics using your shin hook as initial control",
-        "targets_outcome": "Armbar Control/Top"
+        "your_response": "A straightened arm opens the Armbar on Free Arm directly—staying on the bottom, swing your leg over their head and finish the guard armbar using your shin hook as initial control",
+        "targets_outcome": "Armbar Control/Bottom"
       },
       {
         "counter": "Roll toward the trapped arm side to relieve shoulder pressure",
         "effectiveness": "Medium",
         "your_response": "Their roll momentum assists your sweep—follow their roll to achieve mount while maintaining the figure-four for mounted Baratoplata finish",
-        "targets_outcome": "Armbar Control/Top"
+        "targets_outcome": "Baratoplata"
       },
       {
         "counter": "Stack forward to collapse the attack angle",

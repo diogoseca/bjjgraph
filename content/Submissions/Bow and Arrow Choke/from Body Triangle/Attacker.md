@@ -182,7 +182,7 @@ description: "Step-by-step guide to finishing the bow and arrow choke from body 
 
 Executing the Bow and Arrow Choke from Body Triangle requires establishing a deep cross-collar grip while maintaining the security of your body triangle lock. The key advantage of this variant is that your legs handle positional retention entirely, freeing both hands for choke setup and finishing without the grip-fighting compromises required when using standard hooks. The sequence demands precise timing—feeding the collar grip during a moment when your opponent is focused on managing the triangle's breathing restriction rather than protecting their collar. Once the collar is secured deep behind the neck and the far leg is controlled, the finish becomes a coordinated extension of your entire body against two fixed anchor points.
 
-**From Position**: [[Positions/Back Control/Body Triangle]] (Bottom)
+**From Position**: [[Positions/Back Control/Body Triangle]] (Top)
 
 
 </section>

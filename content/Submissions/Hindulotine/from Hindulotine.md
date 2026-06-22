@@ -10,10 +10,55 @@ description: "Master the Hindulotine choke finish from Hindulotine control. Comp
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Hindulotine from Hindulotine targets the Carotid arteries and trachea. Risk: Loss of consciousness from bilateral carotid compression. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Hindulotine from Hindulotine",
+  "description": "Master the Hindulotine choke finish from Hindulotine control. Complete guide to chin strap grip mechanics, rotational torque, and finishing details.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Hindulotine from Hindulotine", "item": "https://bjjgraph.org/Submissions/Hindulotine-from-Hindulotine" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Hindulotine from Hindulotine",
+  "description": "The Hindulotine finish is a front-headlock blood choke that locks a figure-four chin strap grip and adds perpendicular hip rotation, compressing both carotid arteries through rotational torque rather than the linear pull of a standard guillotine.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Hindulotine finish is a front-headlock blood choke that locks a figure-four chin strap grip and adds perpendicular hip rotation, compressing both carotid arteries through rotational torque rather than the linear pull of a standard guillotine.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries and trachea</span>
+<span class="meta-chip">40% success</span>
+</div>
+
+> [!danger] Safety
+> Hindulotine from Hindulotine targets the Carotid arteries and trachea. Primary risk: Loss of consciousness from bilateral carotid compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,49 +75,7 @@ The finishing sequence demands precise coordination between grip tightening, hip
 
 Strategically, this finish serves as the terminal threat within the Hindulotine control system. Opponents who defend the choke must compromise their defensive posture, opening transitions to back control, darce, or anaconda variations. This positions the finish as the centerpiece of a broader submission network where every defensive reaction feeds additional attacking opportunities, embodying the modern grappling principle that submission threats and positional control are inseparable.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries and trachea
-**Starting Position**: [[Positions/Hindulotine]]
-**From Position**: [[Positions/Hindulotine]] (Top)
-**Success Rate**: 40%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Loss of consciousness from bilateral carotid compression | CRITICAL | Seconds to minutes if released promptly; prolonged compression can cause brain damage |
-| Tracheal damage from incorrect pressure angle crushing the windpipe | High | 2-6 weeks depending on severity; may require medical intervention |
-| Cervical spine strain from forced neck flexion under rotational load | Medium | 1-3 weeks with rest and physical therapy |
-
-
-**Application Speed**: Blood chokes can cause unconsciousness in 4-10 seconds once fully locked. Apply gradually in training and never crank suddenly. The chin strap grip tightens faster than standard guillotine grips due to the figure-four leverage.
-
-**Tap Signals**:
-- Verbal tap saying 'tap' clearly
-- Physical tap on partner's body, arm, or leg with hand or foot
-- Tapping the mat repeatedly if unable to reach partner
-- Any verbal distress signal or going limp (treat as immediate tap)
-
-
-**Release Protocol**:
-1. Release all grip pressure immediately upon any tap signal
-2. Monitor partner for 30 seconds after release for delayed signs of unconsciousness
-3. If partner goes unconscious, release immediately, place in recovery position, elevate legs, and seek medical attention
-4. Never reapply the choke in the same round after a near-unconsciousness event
-
-
-**Training Restrictions**:
-- Apply pressure gradually and incrementally during drilling, never explosively
-- Beginners should drill grip mechanics and positioning without applying finishing pressure until comfortable with the release protocol
-- Do not hold the fully locked choke for extended periods even if the partner has not tapped
-
+**Starting Position**: [[Positions/Hindulotine]] · **From**: [[Positions/Hindulotine]] (Top)
 
 </section>
 
@@ -219,41 +222,59 @@ Strategically, this finish serves as the terminal threat within the Hindulotine 
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Positions/Hindulotine]]
 - [[Transitions/Guillotine Choke]]
 - [[Submissions/High Elbow Guillotine]]
 - [[Submissions/Chin Strap Guillotine]]
 - [[Transitions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
-- [[Positions/Hindulotine]] - Control position where this finish is applied
 - [[Positions/Guillotine Control]] - Parent position with standard guillotine mechanics
 - [[Positions/Front Headlock]] - Primary entry position leading to Hindulotine control
 - [[Positions/Darce Control]] - Transition target when opponent frames during defense
 - [[Positions/Back Control]] - Common transition when opponent turns to escape choke
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Loss of consciousness from bilateral carotid compression | CRITICAL | Seconds to minutes if released promptly; prolonged compression can cause brain damage |
+| Tracheal damage from incorrect pressure angle crushing the windpipe | High | 2-6 weeks depending on severity; may require medical intervention |
+| Cervical spine strain from forced neck flexion under rotational load | Medium | 1-3 weeks with rest and physical therapy |
+
+
+**Application Speed**: Blood chokes can cause unconsciousness in 4-10 seconds once fully locked. Apply gradually in training and never crank suddenly. The chin strap grip tightens faster than standard guillotine grips due to the figure-four leverage.
+
+**Tap Signals**:
+- Verbal tap saying 'tap' clearly
+- Physical tap on partner's body, arm, or leg with hand or foot
+- Tapping the mat repeatedly if unable to reach partner
+- Any verbal distress signal or going limp (treat as immediate tap)
+
+
+**Release Protocol**:
+1. Release all grip pressure immediately upon any tap signal
+2. Monitor partner for 30 seconds after release for delayed signs of unconsciousness
+3. If partner goes unconscious, release immediately, place in recovery position, elevate legs, and seek medical attention
+4. Never reapply the choke in the same round after a near-unconsciousness event
+
+
+**Training Restrictions**:
+- Apply pressure gradually and incrementally during drilling, never explosively
+- Beginners should drill grip mechanics and positioning without applying finishing pressure until comfortable with the release protocol
+- Do not hold the fully locked choke for extended periods even if the partner has not tapped
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Hindulotine from Hindulotine leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

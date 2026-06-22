@@ -1,6 +1,7 @@
 {
   "name": "Estima Lock Counter Roll",
   "description": "Master the Estima Lock Counter Roll in BJJ. Complete guide to escaping the Estima Lock through rolling mechanics, timing, and position reversal techniques.",
+  "summary": "The Estima Lock Counter Roll is a bottom escape from the Estima Lock where the trapped player rolls toward the controlled foot to neutralize ankle torque and sweep through to half guard top, reversing the leg-lock exchange.",
   "tags": [
     "bjj",
     "transition",
@@ -58,7 +59,7 @@
   "position_integration": "The Estima Lock Counter Roll integrates into the broader leg lock defense system as a high-risk, high-reward escape option when conventional grip fighting and leg extraction methods prove insufficient. Within the defensive hierarchy from Estima Lock bottom, practitioners should first attempt counter-rotation and framing-based escapes, reserving the counter roll for situations where the lock is tightening and static defense is failing. This technique connects directly to the half guard top position, from which the practitioner can immediately transition to passing sequences. The counter roll also serves as a deterrent—opponents who are aware of this counter must dedicate attention to base maintenance rather than pure finishing pressure, creating space for other defensive options. Proficiency with the counter roll complements conventional Estima Lock defense by adding an unpredictable dynamic escape that forces the attacker to address multiple defensive vectors simultaneously rather than focusing exclusively on finishing the submission.",
   "related_content": [
     {
-      "name": "Estima Lock",
+      "name": "Estima Lock Control",
       "relationship": "Source position from which this counter roll escape is executed"
     },
     {

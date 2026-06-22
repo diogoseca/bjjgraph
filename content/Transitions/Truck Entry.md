@@ -10,6 +10,41 @@ description: "Master Truck Entry in BJJ. Step-by-step guide to transitioning fro
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Truck Entry",
+  "description": "Master Truck Entry in BJJ. Step-by-step guide to transitioning from Turtle to Truck position with leg hook control, upper body connection, and roll mechanics.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Truck Entry", "item": "https://bjjgraph.org/Transitions/Truck-Entry" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Truck Entry",
+  "description": "The Truck Entry is a no-gi transition from Turtle Top that threads a leg hook under the opponent's hips and secures upper-body control, then rolls them into the Truck to open Twister, calf slicer, and back-attack threats.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Truck Entry in BJJ. Step-by-step guide to transitioning fro
 </div>
 
 <section id="overview" class="content-section">
+
+**The Truck Entry is a no-gi transition from Turtle Top that threads a leg hook under the opponent's hips and secures upper-body control, then rolls them into the Truck to open Twister, calf slicer, and back-attack threats.**
 
 The Truck Entry is a fundamental transition in modern no-gi grappling that transforms defensive turtle position into an offensive attacking platform. This technique involves establishing a leg hook control while securing the opponent's upper body, creating the distinctive Truck configuration where the opponent's back is exposed and multiple submission pathways become available. The technique was systematized within the 10th Planet system as a gateway to the Twister and other spine-locking submissions, and has since been adopted across competitive grappling.
 
@@ -227,6 +264,17 @@ Truck Entry serves as a critical gateway technique in modern back attack systems
 
 - [[Positions/Half Guard/Electric Chair]] - Related 10th Planet system submission
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Twister-System" data-cta="related-system-card" data-system-slug="systems/twister-system" data-system-name="Twister System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Twister System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Transitional mechanics for achieving Truck Position from various positions</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/10th-Planet-No-Gi-Guard-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-no-gi-guard-system" data-system-name="10th Planet No-Gi Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">10th Planet No-Gi Guard System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Entry mechanism to twister series</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

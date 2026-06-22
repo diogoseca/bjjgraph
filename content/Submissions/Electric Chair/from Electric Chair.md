@@ -10,10 +10,55 @@ description: "Master the Electric Chair in BJJ. Complete lockdown submission gui
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Electric Chair from Electric Chair targets the Hip joint and groin. Risk: Groin strain or adductor muscle tear from forced hyperabduction of the hip. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Electric Chair from Electric Chair",
+  "description": "Master the Electric Chair in BJJ. Complete lockdown submission guide targeting the hip and groin. Systematic setup, execution, and defense strategies.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Electric Chair from Electric Chair", "item": "https://bjjgraph.org/Submissions/Electric-Chair-from-Electric-Chair" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Electric Chair from Electric Chair",
+  "description": "The Electric Chair is a 10th Planet lockdown half-guard submission that hyperabducts the opponent's trapped leg through combined lockdown, deep underhook, and far-ankle control, forcing a tap with intense pressure on the hip joint, adductors, and groin.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Electric Chair is a 10th Planet lockdown half-guard submission that hyperabducts the opponent's trapped leg through combined lockdown, deep underhook, and far-ankle control, forcing a tap with intense pressure on the hip joint, adductors, and groin.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Hip Lock</span>
+<span class="meta-chip">Targets Hip joint and groin</span>
+<span class="meta-chip">42% success</span>
+</div>
+
+> [!danger] Safety
+> Electric Chair from Electric Chair targets the Hip joint and groin. Primary risk: Groin strain or adductor muscle tear from forced hyperabduction of the hip. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,51 +75,7 @@ The submission operates through a coordinated three-point control system: the lo
 
 Strategically, the Electric Chair creates a powerful dilemma within the lockdown system. The threat of the submission forces opponents to address the split, which opens pathways to high-percentage sweeps like the Old School. Conversely, defending the sweep exposes the submission. This dual-threat architecture makes the Electric Chair position one of the most potent offensive platforms in modern no-gi grappling, particularly when integrated with transitions to the Truck, back control, and other lockdown-based attacks.
 
-**Category**: Joint Lock
-**Type**: Hip Lock
-**Target Area**: Hip joint and groin
-**Starting Position**: [[Positions/Half Guard/Electric Chair]]
-**From Position**: [[Positions/Half Guard/Electric Chair]] (Bottom)
-**Success Rate**: 42%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Groin strain or adductor muscle tear from forced hyperabduction of the hip | High | 4-12 weeks depending on grade of strain |
-| Hip labral tear or hip joint capsule damage from extreme range of motion | CRITICAL | 3-6 months, may require surgical intervention |
-| Medial collateral ligament strain on the trapped knee from rotational force | Medium | 2-6 weeks for grade 1-2 sprain |
-| Lower back strain from asymmetric hip loading during the split | Medium | 1-4 weeks with proper rehabilitation |
-
-
-**Application Speed**: VERY SLOW and progressive. The hip joint and groin have highly variable flexibility between individuals. Apply splitting pressure gradually over several seconds, never spike or jerk the submission. The opponent may not feel danger until they are already at risk of injury.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner, your body, or mat
-- Physical foot tap with free leg on mat or partner
-- Any unusual vocalization, screaming, or grimacing indicating distress
-
-
-**Release Protocol**:
-1. Release ALL splitting pressure immediately upon any tap signal
-2. Slowly bring opponent's legs back together rather than dropping them suddenly
-3. Maintain lockdown control briefly during release to prevent opponent from jerking their own leg
-4. If in doubt about tap, release immediately - position can be re-established safely
-
-
-**Training Restrictions**:
-- Apply submission at no more than 50% speed and pressure during drilling until both partners understand the mechanics
-- Never apply full splitting force in training - stop well before the opponent's flexibility limit
-- Beginners should only practice the positional setup without applying finishing pressure until they develop sensitivity to their partner's flexibility
-- Avoid this submission against partners with known hip or groin injuries
-
+**Starting Position**: [[Positions/Half Guard/Electric Chair]] · **From**: [[Positions/Half Guard/Electric Chair]] (Bottom)
 
 </section>
 
@@ -245,44 +246,63 @@ Strategically, the Electric Chair creates a powerful dilemma within the lockdown
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Banana Split]]
 - [[Submissions/Crotch Ripper]]
 - [[Submissions/Calf Slicer]]
 - [[Transitions/Aoki Lock]]
 - [[Positions/Half Guard/Electric Chair]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
-- [[Positions/Half Guard/Electric Chair]] - Source position where this submission is applied from bottom
 - [[Positions/Half Guard/Lockdown]] - Parent half guard system providing the foundational leg control for the submission
 - [[Positions/Half Guard]] - Base guard position from which the lockdown system originates
 - [[Positions/Twister Control/Truck]] - Common transition target when Electric Chair finish is defended
 - [[Positions/Half Guard/Old School]] - Complementary sweep creating offensive dilemma with the submission threat
-- [[Submissions/Banana Split]] - Closely related submission using the same crotch-splitting mechanism
 - [[Positions/Half Guard/Deep Half Guard]] - Alternative transition when Electric Chair position is lost
 - [[Positions/Back Control]] - Advanced position accessible through sweep from Electric Chair
 - [[Positions/Dogfight Position]] - Intermediate scramble position during Electric Chair sweep transitions
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Groin strain or adductor muscle tear from forced hyperabduction of the hip | High | 4-12 weeks depending on grade of strain |
+| Hip labral tear or hip joint capsule damage from extreme range of motion | CRITICAL | 3-6 months, may require surgical intervention |
+| Medial collateral ligament strain on the trapped knee from rotational force | Medium | 2-6 weeks for grade 1-2 sprain |
+| Lower back strain from asymmetric hip loading during the split | Medium | 1-4 weeks with proper rehabilitation |
+
+
+**Application Speed**: VERY SLOW and progressive. The hip joint and groin have highly variable flexibility between individuals. Apply splitting pressure gradually over several seconds, never spike or jerk the submission. The opponent may not feel danger until they are already at risk of injury.
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any distress signal)
+- Physical hand tap on partner, your body, or mat
+- Physical foot tap with free leg on mat or partner
+- Any unusual vocalization, screaming, or grimacing indicating distress
+
+
+**Release Protocol**:
+1. Release ALL splitting pressure immediately upon any tap signal
+2. Slowly bring opponent's legs back together rather than dropping them suddenly
+3. Maintain lockdown control briefly during release to prevent opponent from jerking their own leg
+4. If in doubt about tap, release immediately - position can be re-established safely
+
+
+**Training Restrictions**:
+- Apply submission at no more than 50% speed and pressure during drilling until both partners understand the mechanics
+- Never apply full splitting force in training - stop well before the opponent's flexibility limit
+- Beginners should only practice the positional setup without applying finishing pressure until they develop sensitivity to their partner's flexibility
+- Avoid this submission against partners with known hip or groin injuries
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Electric Chair from Electric Chair leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

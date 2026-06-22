@@ -10,6 +10,41 @@ description: "Master the Transition to Quarter Guard from Half Guard Top. Learn 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Half Guard to Quarter Guard",
+  "description": "Master the Transition to Quarter Guard from Half Guard Top. Learn systematic leg extraction, pressure application, and passing progression to advance position.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Half Guard to Quarter Guard", "item": "https://bjjgraph.org/Transitions/Half-Guard-to-Quarter-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Half Guard to Quarter Guard",
+  "description": "Half Guard to Quarter Guard is a top-side passing transition where the half guard passer incrementally extracts their trapped leg past the bottom player's hip line, reducing the leg entanglement to roughly a quarter and setting up pass completion.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Transition to Quarter Guard from Half Guard Top. Learn 
 </div>
 
 <section id="overview" class="content-section">
+
+**Half Guard to Quarter Guard is a top-side passing transition where the half guard passer incrementally extracts their trapped leg past the bottom player's hip line, reducing the leg entanglement to roughly a quarter and setting up pass completion.**
 
 The Transition to Quarter Guard is a systematic positional advancement technique executed from Half Guard Top, where the passer progressively extracts their trapped leg past the bottom player's hip line while maintaining upper body control. This technique represents the critical intermediate step between being stuck in half guard and completing a full pass to side control, mount, or knee on belly. Rather than a single explosive movement, this transition relies on methodical pressure application, systematic frame elimination, and precise weight distribution that gradually degrades the bottom player's guard retention capacity.
 
@@ -226,5 +263,7 @@ The Transition to Quarter Guard occupies a pivotal position in the guard passing
 
 
 </section>
+
+
 
 </main>

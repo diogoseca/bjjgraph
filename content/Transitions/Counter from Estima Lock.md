@@ -10,6 +10,41 @@ description: "Master the Counter from Estima Lock in BJJ. Complete guide to coun
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Counter from Estima Lock",
+  "description": "Master the Counter from Estima Lock in BJJ. Complete guide to counter-rotation mechanics, systematic grip breaking, and guard recovery from inverted footlock.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Counter from Estima Lock", "item": "https://bjjgraph.org/Transitions/Counter-from-Estima-Lock" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Counter from Estima Lock",
+  "description": "The Counter from Estima Lock is a defensive escape from the bottom of an inverted footlock that counter-rotates the trapped ankle, breaks the figure-four grip, and recovers open guard before the ankle and Achilles tendon are compromised.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Counter from Estima Lock in BJJ. Complete guide to coun
 
 <section id="overview" class="content-section">
 
-The Counter from Estima Lock is a critical defensive transition performed when caught in the bottom position of an Estima Lock, one of the most dangerous inverted footlock threats in modern grappling. The Estima Lock attacks the ankle joint and Achilles tendon through rotational pressure applied via an inverted grip configuration, creating defensive challenges distinct from conventional straight ankle locks. This counter addresses those specific mechanics through systematic ankle protection, strategic framing, and methodical foot extraction sequences that prioritize joint safety throughout the escape process.
+**The Counter from Estima Lock is a defensive escape from the bottom of an inverted footlock that counter-rotates the trapped ankle, breaks the figure-four grip, and recovers open guard before the ankle and Achilles tendon are compromised.**
+
+The Estima Lock is one of the most dangerous inverted footlock threats in modern grappling, attacking the ankle joint and Achilles tendon through rotational pressure applied via an inverted grip configuration that creates defensive challenges distinct from conventional straight ankle locks. Caught on the bottom, the escaping practitioner must address those specific mechanics through systematic ankle protection, strategic framing, and methodical foot extraction sequences that prioritize joint safety throughout the escape process. Calm, sequenced execution matters more here than in almost any other escape, because panic or explosive movement against rotational pressure can complete the very submission you are trying to survive.
 
 Success in this counter depends on understanding the biomechanical principles underlying the Estima Lock's effectiveness and exploiting its structural vulnerabilities. The inverted grip creates powerful rotational torque but requires precise hand positioning that becomes vulnerable when disrupted through proper framing and hip movement. Counter-rotating the ankle immediately reduces joint strain and buys time for the remaining escape sequence, while active use of the free leg creates the pushing force necessary to generate space between the escaping practitioner and their opponent's controlling structure.
 
@@ -194,21 +231,21 @@ The Counter from Estima Lock connects the defensive Estima Lock bottom position 
 ## Related Techniques
 
 
-- [[Transitions/Estima Lock]] - Source position where this counter is initiated from the bottom
+- [[Positions/Estima Lock Control]] - Source position where this counter is initiated from the bottom
 
-- [[Transitions/Estima Lock]] - The submission threat being escaped through this counter technique
+- [[Transitions/Estima Lock]] - The inverted footlock submission threat being escaped through this counter
 
 - [[Positions/Open Guard]] - Primary recovery target position upon successful counter execution
 
-- [[Positions/Side Control]] - Position reached if opponent transitions to guard pass during failed counter
+- [[Positions/Side Control]] - Position reached if opponent transitions to a guard pass during a failed counter
 
 - [[Transitions/Ashi Garami Escape]] - Related leg entanglement escape sharing counter-rotation and extraction principles
 
-- [[Transitions/Counter Rotation from Toe Hold]] - Similar counter-rotation escape mechanics applied to a different footlock threat
+- [[Transitions/Leg Extraction]] - Core extraction technique for freeing the trapped foot from the inverted lock
 
 - [[Transitions/Ankle Lock Escape to Standing]] - Related footlock escape using standing base to generate extraction leverage
 
-- [[Transitions/Boot Defense from Toe Hold]] - Complementary foot defense technique with overlapping ankle protection principles
+- [[Submissions/Toe Hold]] - Related footlock submission the attacker may switch to when counter-rotation exposes the toes
 
 - [[Positions/Ashi Garami/50-50 Guard]] - Common preceding position where Estima Lock threats frequently develop
 
@@ -216,5 +253,7 @@ The Counter from Estima Lock connects the defensive Estima Lock bottom position 
 
 
 </section>
+
+
 
 </main>

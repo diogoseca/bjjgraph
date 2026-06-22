@@ -2,6 +2,7 @@
 // Journey data stored in localStorage (future: auth + server-side persistence)
 import { getRollParam, decodeRollUrl, clearRollUrl, clearRollHistory } from "./explorerGraphExpand"
 import { loadSettings } from "./settings"
+import { safeSetItem } from "./util"
 
 interface JourneyStep {
   slug: string
@@ -42,13 +43,7 @@ interface LifetimeStats {
 
 const LIFETIME_KEY = "bjj-lifetime-stats"
 
-function loadLifetimeStats(): LifetimeStats {
-  try {
-    const raw = localStorage.getItem(LIFETIME_KEY)
-    if (raw) return JSON.parse(raw)
-  } catch {
-    // corrupt data, start fresh
-  }
+function zeroedLifetimeStats(): LifetimeStats {
   return {
     totalRolls: 0,
     totalVictories: 0,
@@ -60,8 +55,49 @@ function loadLifetimeStats(): LifetimeStats {
   }
 }
 
+// Coerce to a finite number, else 0.
+function num0(v: unknown): number {
+  return typeof v === "number" && Number.isFinite(v) ? v : 0
+}
+
+function loadLifetimeStats(): LifetimeStats {
+  const base = zeroedLifetimeStats()
+  try {
+    const raw = localStorage.getItem(LIFETIME_KEY)
+    if (raw) {
+      const p = JSON.parse(raw)
+      if (p && typeof p === "object") {
+        base.totalRolls = num0(p.totalRolls)
+        base.totalVictories = num0(p.totalVictories)
+        base.totalMoves = num0(p.totalMoves)
+        if (p.diceRolls && typeof p.diceRolls === "object") {
+          base.diceRolls = {
+            total: num0(p.diceRolls.total),
+            successes: num0(p.diceRolls.successes),
+          }
+        }
+        if (p.flashcards && typeof p.flashcards === "object") {
+          base.flashcards = { total: num0(p.flashcards.total), correct: num0(p.flashcards.correct) }
+        }
+        if (p.opponentTurns && typeof p.opponentTurns === "object") {
+          base.opponentTurns = {
+            total: num0(p.opponentTurns.total),
+            defended: num0(p.opponentTurns.defended),
+          }
+        }
+        if (p.techniques && typeof p.techniques === "object" && !Array.isArray(p.techniques)) {
+          base.techniques = p.techniques as Record<string, TechniqueLifetime>
+        }
+      }
+    }
+  } catch {
+    // corrupt data, start fresh
+  }
+  return base
+}
+
 function saveLifetimeStats(stats: LifetimeStats) {
-  localStorage.setItem(LIFETIME_KEY, JSON.stringify(stats))
+  safeSetItem(LIFETIME_KEY, JSON.stringify(stats))
   import("./supabase").then((m) => m.syncAfterWrite()).catch(() => {})
 }
 
@@ -205,7 +241,14 @@ function renderReportList(
     const li = document.createElement("li")
     li.className = `report-item ${cssClass}`
     const pct = Math.round((tech.successes / tech.attempts) * 100)
-    li.innerHTML = `<span class="report-technique">${tech.name}</span><span class="report-rate">${pct}%</span>`
+    const nameEl = document.createElement("span")
+    nameEl.className = "report-technique"
+    nameEl.textContent = tech.name
+    const rateEl = document.createElement("span")
+    rateEl.className = "report-rate"
+    rateEl.textContent = `${pct}%`
+    li.appendChild(nameEl)
+    li.appendChild(rateEl)
     list.appendChild(li)
   }
   if (records.length === 0) {
@@ -322,14 +365,14 @@ function navigateToRandomPosition() {
 }
 
 function handleRollAgain() {
-  localStorage.setItem("bjj-journey", "[]")
+  safeSetItem("bjj-journey", "[]")
   sessionStorage.removeItem("victory-data")
   clearRollHistory()
   navigateToRandomPosition()
 }
 
 function handleStartRoll() {
-  localStorage.setItem("bjj-journey", "[]")
+  safeSetItem("bjj-journey", "[]")
   sessionStorage.removeItem("victory-data")
   clearRollHistory()
   navigateToRandomPosition()

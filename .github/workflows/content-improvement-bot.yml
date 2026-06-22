@@ -2,7 +2,7 @@ name: Content Improvement Bot
 
 on:
   schedule:
-    - cron: '0 8 * * 1'  # Weekly on Monday at 8:00 AM UTC
+    - cron: '0 18 * * 6'  # Weekly Saturday 18:00 UTC. Quota resets Monday; weekends run on leftover tokens (plan §A.7).
   workflow_dispatch:
     inputs:
       num_files:
@@ -31,12 +31,12 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
         with:
           fetch-depth: 0  # Full history for git log
 
       - name: Setup Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@7f4fc3e22c37d6ff65e88745f38bd3157c663f7c # v4
         with:
           python-version: '3.11'
 
@@ -103,7 +103,7 @@ jobs:
                 echo "  → Running regenerate_content_json.py to fill template..."
 
                 chmod +x ./scripts/regenerate_content_json.py
-                if ./scripts/regenerate_content_json.py "$file"; then
+                if ./scripts/regenerate_content_json.py --file "$file" --batch; then
                   echo "  ✓ Template filled successfully"
                 else
                   echo "  ✗ regenerate_content_json.py failed - skipping this file"
@@ -214,9 +214,8 @@ jobs:
       - name: Prepare PAA context with Claude
         if: ${{ github.event.inputs.enable_paa == 'true' || github.event_name == 'schedule' }}
         id: prepare_paa
-        uses: anthropics/claude-code-action@v1
+        uses: anthropics/claude-code-action@51705da45eecce209d4700538bf8377d5b5fc695 # v1
         with:
-          model: claude-opus-4-6
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           prompt: |
             You are a BJJ SEO analyst preparing "People Also Ask" (PAA) context for AI search optimization.
@@ -288,14 +287,15 @@ jobs:
 
             Begin processing. Focus on high-intent questions that match user search behavior.
           claude_args: |
+            --model claude-opus-4-8[1m]
+            --effort xhigh
             --mcp-config '{"mcpServers":{"dataforseo":{"command":"npx","args":["-y","@modelcontextprotocol/server-dataforseo"],"env":{"DATAFORSEO_LOGIN":"${{ secrets.DATAFORSEO_LOGIN }}","DATAFORSEO_PASSWORD":"${{ secrets.DATAFORSEO_PASSWORD }}"}}}}'
             --allowedTools 'Read,Write,Glob,Bash(mkdir:*),Bash(ls:*),mcp__dataforseo__serp_organic_live_advanced'
 
       - name: Improve content with AI SEO optimization
         id: improve_content
-        uses: anthropics/claude-code-action@v1
+        uses: anthropics/claude-code-action@51705da45eecce209d4700538bf8377d5b5fc695 # v1
         with:
-          model: claude-opus-4-6
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           prompt: |
             You are an elite BJJ black belt instructor AND Google AI search optimization expert.
@@ -425,13 +425,16 @@ jobs:
             - Internal paths: `/tests/artifacts/`, `/docs/`
             - Incomplete sentences or "..." trails
 
-            **ADD if missing:**
-            - Bot metadata in YAML:
-              ```yaml
-              bot_metadata:
-                last_improved: "$(date +%Y-%m-%d)"
-                optimization_pass: "ai_seo_v1"
+            **ADD if missing — to the JSON SOURCE file you are editing (NOT the generated .md):**
+            - A top-level `bot_metadata` object (the schema now allows it). Use today's date:
+              ```json
+              "bot_metadata": {
+                "last_improved": "<today YYYY-MM-DD>",
+                "optimization_pass": "ai_seo_v1"
+              }
               ```
+              This lets select_oldest_files.sh skip recently-improved files so bots
+              don't re-touch the same page within a quota week.
 
             ## New Article Suggestions
 
@@ -453,7 +456,15 @@ jobs:
                f. Save updated file
 
             Begin optimization now. Make every article a top AI search result.
-          claude_args: "--allowedTools 'Read,Edit,Write,Bash(date:*),Bash(cat:*)'"
+          # SECURITY: NO `Write` tool. PAA/SERP data fed to this agent is external and
+          # attacker-influenceable (prompt injection); `Write` would let injected text
+          # create arbitrary files (e.g. a malicious .github/workflows/*.yml) that the
+          # commit step would then push. `Edit` only touches files that already exist,
+          # and the commit step is scoped to content/ + tests/artifacts/ below.
+          claude_args: |
+            --model claude-opus-4-8[1m]
+            --effort xhigh
+            --allowedTools 'Read,Edit,Bash(date:*),Bash(cat:*)'
 
       - name: Validate and retry .json files
         id: validate_retry
@@ -486,7 +497,7 @@ jobs:
                 ((++attempts))
                 echo "    Attempt $attempts/3..."
 
-                if ./scripts/regenerate_content_json.py "$file"; then
+                if ./scripts/regenerate_content_json.py --file "$file" --batch; then
                   if python3 scripts/validate_json.py --file "$file" 2>&1 | grep -q "Valid"; then
                     echo "    ✓ Fixed successfully"
                     UPDATED_FILES="${UPDATED_FILES}${file}"$'\n'
@@ -560,7 +571,11 @@ jobs:
 
           BRANCH_NAME="content-improvement-bot/$(date +%Y%m%d-%H%M%S)"
           git checkout -b "$BRANCH_NAME"
-          git add .
+          # SECURITY: scope the commit to content + generated artifacts ONLY. Never
+          # `git add .` — that would let a prompt-injected/edited file outside content/
+          # (workflows, scripts, source) ride into the auto-PR. graph.json/votes.json
+          # are regenerated by the dedicated pipeline, not by this bot.
+          git add content/ tests/artifacts/
 
           CHANGED_FILES=$(git diff --cached --name-only)
 
@@ -670,7 +685,7 @@ jobs:
           **Run ID**: ${{ github.run_id }}
           **Timestamp**: $(date -u '+%Y-%m-%dT%H:%M:%SZ')
           **Selection**: Git creation date (oldest files)
-          **Model**: Claude Opus 4.6
+          **Model**: Claude Opus 4.8 (1M) @ xhigh
           EOFBODY
 
           PR_URL=$(gh pr create \

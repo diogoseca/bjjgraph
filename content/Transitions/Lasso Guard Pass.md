@@ -10,6 +10,41 @@ description: "Master the Lasso Guard Pass in BJJ. Complete breakdown of techniqu
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Lasso Guard Pass",
+  "description": "Master the Lasso Guard Pass in BJJ. Complete breakdown of techniques to defeat lasso hooks and establish top control with systematic grip fighting.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Lasso Guard Pass", "item": "https://bjjgraph.org/Transitions/Lasso-Guard-Pass" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Lasso Guard Pass",
+  "description": "The Lasso Guard Pass is a gi guard-passing sequence where the top player secures the lassoed sleeve, steps outside the lasso leg to kill its leverage, clears the threaded shin, and drives through to side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Lasso Guard Pass in BJJ. Complete breakdown of techniqu
 </div>
 
 <section id="overview" class="content-section">
+
+**The Lasso Guard Pass is a gi guard-passing sequence where the top player secures the lassoed sleeve, steps outside the lasso leg to kill its leverage, clears the threaded shin, and drives through to side control.**
 
 The Lasso Guard Pass is a fundamental skill for defeating one of the most controlling open guard variations in Brazilian Jiu-Jitsu. The lasso guard utilizes the opponent's sleeve grip combined with a leg threaded behind the arm to create powerful control that can sweep, submit, or prevent passing. Understanding how to systematically dismantle this guard structure is essential for any serious competitor.
 
@@ -205,7 +242,7 @@ The Lasso Guard Pass is a fundamental component of any comprehensive passing sys
 
 - [[Transitions/Leg Drag Pass]] - Alternative finish after neutralizing lasso control
 
-- [[Transitions/Bullfighter Pass]] - Alternative toreando-style approach to defeat lasso guard
+- [[Transitions/Toreando Pass]] - Alternative toreando-style approach to defeat lasso guard
 
 - [[Positions/Collar Sleeve Guard]] - Related position opponent may transition to during pass attempt
 
@@ -213,12 +250,22 @@ The Lasso Guard Pass is a fundamental component of any comprehensive passing sys
 
 - [[Positions/Spider Guard]] - Related guard opponent may switch to when lasso is threatened
 
-- [[Positions/Standing Position]] - Intermediate position used during the standing passing sequence
+- [[Positions/Headquarters Position]] - Transitional position often used when disengaging from lasso
 
 - [[Positions/Leg Drag Control]] - Control position achieved through leg drag variant of this pass
 
-- [[Positions/Headquarters Position]] - Transitional position often used when disengaging from lasso
+- [[Positions/Kimura Trap]] - Counter-attacking option when opponent over-commits to the lasso and exposes the non-lasso arm
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Keenan Cornelius Lapel Guard System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Similar mechanical principles that complement lapel-based sweep mechanics</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

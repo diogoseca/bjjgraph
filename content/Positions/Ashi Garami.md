@@ -10,6 +10,41 @@ description: "Master Ashi Garami leg entanglements in BJJ. Complete guide to sys
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Ashi Garami",
+  "description": "Master Ashi Garami leg entanglements in BJJ. Complete guide to systematic control, hierarchical advancement, heel hooks, and leg lock defense strategies.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Ashi Garami", "item": "https://bjjgraph.org/Positions/Ashi-Garami" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Ashi Garami",
+  "description": "Ashi Garami is a family of leg-entanglement positions where you trap and isolate an opponent's leg between your own to control their hip, advance through a control hierarchy, and threaten heel hooks, kneebars, and ankle locks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Ashi Garami leg entanglements in BJJ. Complete guide to sys
 </div>
 
 <section id="overview" class="content-section">
+
+**Ashi Garami is a family of leg-entanglement positions where you trap and isolate an opponent's leg between your own to control their hip, advance through a control hierarchy, and threaten heel hooks, kneebars, and ankle locks.**
 
 **Ashi Garami** (足絡み, Japanese for "leg entanglement") represents a comprehensive family of leg control positions that form the foundation of modern leg lock systems. Unlike traditional top-bottom positional hierarchies, Ashi Garami positions exist in a horizontal plane where both practitioners compete for leg control and finishing opportunities. This position family has revolutionized competitive Brazilian Jiu-Jitsu and submission grappling, particularly in no-gi formats where the absence of grips makes leg attacks more accessible and effective.
 
@@ -66,7 +103,7 @@ Understanding Ashi Garami requires recognizing the position as a complete system
 | [[Backside 50-50]] | Medium to High | Medium | Medium | Medium | Back-facing orientation creates pressure asymmetry |
 | [[Cross Ashi-Garami]] | Medium | Medium | Medium | Medium | Crossed legs trade mobility for heel exposure |
 | [[Honey Hole]] | High | Medium | High | Medium | Inside leg triangle creates control asymmetry |
-| [[Inside Ashi-Garami]] | Medium | Medium | Medium | Medium | Inside leg across hip for superior heel control |
+| [[Inside Ashi-Garami]] | High | Medium | Medium | Medium | Inside leg across hip for superior heel control |
 | [[Outside Ashi-Garami]] | Medium | High | Medium | Medium | Outside leg angle enables direct heel hooks |
 | [[Saddle]] | High | Medium | High | Medium | Perpendicular entanglement submission dilemma |
 | [[Ushiro Ashi-Garami]] | High | Medium | Medium | Medium | Reverse entanglement with unique heel angles |
@@ -99,35 +136,37 @@ Understanding Ashi Garami requires recognizing the position as a complete system
 ### Available Transitions
 
 
-- **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (70% of attempts)
+- **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (58% of attempts)
 
-- **[[Transitions/Cross Ashi Transition/Attacker|Cross Ashi Transition]]** (6% of attempts)
+- **[[Transitions/Cross Ashi Transition/Attacker|Cross Ashi Transition]]** (4% of attempts)
 
-- **[[Heel Hook from Ashi Garami/Attacker|Heel Hook from Ashi Garami]]** (3% of attempts)
+- **[[Heel Hook from Ashi Garami/Attacker|Heel Hook from Ashi Garami]]** (2% of attempts)
 
-- **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** (11% of attempts)
+- **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** (9% of attempts)
 
-- **[[Transitions/50-50 Entry/Attacker|50-50 Entry]]** (4% of attempts)
+- **[[Transitions/50-50 Entry/Attacker|50-50 Entry]]** (2% of attempts)
 
-- **[[Toe Hold from Ashi Garami/Attacker|Toe Hold from Ashi Garami]]** (4% of attempts)
+- **[[Toe Hold from Ashi Garami/Attacker|Toe Hold from Ashi Garami]]** (2% of attempts)
 
-- **[[Transitions/Kneebar Setup/Attacker|Kneebar Setup]]** (1% of attempts)
+- **[[Transitions/Kneebar Setup/Attacker|Kneebar Setup]]** (2% of attempts)
 
-- **[[Transitions/Single Leg X Transition/Attacker|Single Leg X Transition]]** (0% of attempts)
+- **[[Transitions/Single Leg X Transition/Attacker|Single Leg X Transition]]** (2% of attempts)
 
-- **[[Transitions/Backside 50-50 Entry from Ashi/Attacker|Backside 50-50 Entry from Ashi]]** (0% of attempts)
+- **[[Transitions/Backside 50-50 Entry from Ashi/Attacker|Backside 50-50 Entry from Ashi]]** (2% of attempts)
 
-- **[[Transitions/Back Take from Ashi/Attacker|Back Take from Ashi]]** (0% of attempts)
+- **[[Transitions/Back Take from Ashi/Attacker|Back Take from Ashi]]** (1% of attempts)
 
-- **[[Transitions/Ashi Garami Maintenance/Attacker|Ashi Garami Maintenance]]** (0% of attempts)
+- **[[Transitions/Ashi Garami Maintenance/Attacker|Ashi Garami Maintenance]]** (1% of attempts)
 
-- **[[Transitions/Heel Strip from Ashi Garami/Attacker|Heel Strip from Ashi Garami]]** (0% of attempts)
+- **[[Transitions/Heel Strip from Ashi Garami/Attacker|Heel Strip from Ashi Garami]]** (1% of attempts)
 
-- **[[Transitions/Standing Up from Ashi Garami/Attacker|Standing Up from Ashi Garami]]** (0% of attempts)
+- **[[Transitions/Standing Up from Ashi Garami/Attacker|Standing Up from Ashi Garami]]** (1% of attempts)
 
-- **[[Transitions/Aoki Lock/Attacker|Aoki Lock]]** (0% of attempts)
+- **[[Aoki Lock from Ashi Garami/Attacker|Aoki Lock from Ashi Garami]]** (1% of attempts)
 
 - **[[Transitions/Heel Hook/Attacker|Heel Hook]]** (1% of attempts)
+
+- **[[Transitions/Ashi Garami to Toe Hold Control/Attacker|Ashi Garami to Toe Hold Control]]** (11% of attempts)
 
 
 ### Common Mistakes
@@ -249,6 +288,19 @@ Understanding Ashi Garami requires recognizing the position as a complete system
 
 - **[[Positions/K-Guard]]** - Modern guard position designed specifically for entries into Ashi Garami leg entanglement variations
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Danaher-Leg-Lock-System" data-cta="related-system-card" data-system-slug="systems/danaher-leg-lock-system" data-system-name="Danaher Leg Lock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Danaher Leg Lock System</span><span class="system-card__unlocks-badge">Unlocks 30 techniques</span><span class="system-card__blurb">Primary position family for entire system - all techniques built from ashi-garami configurations</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Straight-Footlock-to-Kneebar-Chain" data-cta="related-system-card" data-system-slug="systems/straight-footlock-to-kneebar-chain" data-system-name="Straight Footlock to Kneebar Chain" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Straight Footlock to Kneebar Chain</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Primary positional platform for entire submission chain</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Lachlan-Giles-Leg-Lock-Defense-Framework" data-cta="related-system-card" data-system-slug="systems/lachlan-giles-leg-lock-defense-framework" data-system-name="Lachlan Giles Leg Lock Defense Framework" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Lachlan Giles Leg Lock Defense Framework</span><span class="system-card__unlocks-badge">Unlocks 26 techniques</span><span class="system-card__blurb">Foundational position where most defensive sequences begin and prevention is most effective</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Modern-No-Gi-Passing-System" data-cta="related-system-card" data-system-slug="systems/modern-no-gi-passing-system" data-system-name="Modern No-Gi Passing System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Modern No-Gi Passing System</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Leg-based guard requiring specialized passing mechanics to navigate safely</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

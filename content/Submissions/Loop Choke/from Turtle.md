@@ -10,10 +10,55 @@ description: "Master the loop choke from turtle in BJJ. Learn cross-collar grip 
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Loop Choke from Turtle targets the Carotid arteries and jugular veins. Risk: Loss of consciousness from bilateral carotid artery compression. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Loop Choke from Turtle",
+  "description": "Master the loop choke from turtle in BJJ. Learn cross-collar grip mechanics, rolling finishes, and defensive counters for this high-percentage gi submission.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Loop Choke from Turtle", "item": "https://bjjgraph.org/Submissions/Loop-Choke-from-Turtle" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Loop Choke from Turtle",
+  "description": "The loop choke from turtle is a high-percentage gi blood choke where the attacker feeds a deep cross-collar grip into a turtled opponent's far lapel and rolls forward, cinching a self-tightening collar loop around both carotid arteries.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The loop choke from turtle is a high-percentage gi blood choke where the attacker feeds a deep cross-collar grip into a turtled opponent's far lapel and rolls forward, cinching a self-tightening collar loop around both carotid arteries.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries and jugular veins</span>
+<span class="meta-chip">58% success</span>
+</div>
+
+> [!danger] Safety
+> Loop Choke from Turtle targets the Carotid arteries and jugular veins. Primary risk: Loss of consciousness from bilateral carotid artery compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -24,58 +69,13 @@ description: "Master the loop choke from turtle in BJJ. Learn cross-collar grip 
 
 <section id="overview" class="content-section">
 
-The loop choke from turtle is a high-percentage gi submission that exploits the unique vulnerability of a turtled opponent's exposed neck and accessible collar. When an opponent assumes the turtle position defensively, their collar becomes reachable from the front or side, creating an ideal entry for the loop choke's cross-collar grip mechanics. The attacker threads a deep four-finger grip into the opponent's far collar while controlling the head with the free hand, then executes a forward roll or sprawl-and-turn motion to cinch the collar loop tight around both carotid arteries.
+When an opponent turtles defensively to avoid conceding guard pass points, their collar becomes reachable from the front or side, creating an ideal entry for the loop choke's cross-collar grip mechanics. The attacker threads a deep four-finger grip into the opponent's far collar while controlling the head with the free hand, then executes a forward roll or sprawl-and-turn motion to cinch the collar loop tight around both carotid arteries.
 
 What makes this variation particularly effective is that the turtle position inherently limits the defender's ability to frame or create distance, as their arms are committed to maintaining their four-point base structure. The rolling finish adds rotational force that tightens the choke beyond what static pulling alone can achieve, creating a self-tightening mechanism as the attacker's bodyweight drives through the rotation. The technique requires precise grip placement before committing to the roll, because once the rolling motion begins, grip adjustments become nearly impossible.
 
 This submission chains naturally with other turtle attacks like the clock choke, anaconda choke, and back takes, creating a dangerous attacking web that forces the turtled opponent into impossible defensive dilemmas. The loop choke from turtle is especially prevalent in gi competition where collar access is abundant and opponents frequently turtle to avoid conceding guard pass points, making it a critical weapon in any top player's turtle attack system.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries and jugular veins
-**Starting Position**: [[Positions/Turtle]]
-**From Position**: [[Positions/Turtle]] (Top)
-**Success Rate**: 58%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Loss of consciousness from bilateral carotid artery compression | High | Immediate with proper release, potential confusion lasting 30-60 seconds |
-| Trachea damage from improper collar placement or shallow grip creating windpipe pressure | Medium | 3-7 days for minor bruising, weeks for significant tracheal damage |
-| Cervical spine strain from rolling motion combined with collar tension around the neck | Medium | 3-10 days depending on severity |
-| Neck muscle strain from defender's resistance against the tightening collar during the roll | Low | 1-3 days |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from initial tightness to full pressure. The rolling motion must be controlled, not explosive, to allow the partner time to recognize and tap.
-
-**Tap Signals**:
-- Verbal tap or verbal statement of submission
-- Physical hand tap on opponent's body or mat
-- Physical foot tap on mat
-- Any distress signal including unusual sounds or sudden loss of resistance
-
-
-**Release Protocol**:
-1. Immediately release all collar grips completely upon any tap signal
-2. Unwind from rolling position and create space between bodies
-3. Check partner's alertness and awareness before any further activity
-4. Allow minimum 60 seconds recovery time before resuming training
-
-
-**Training Restrictions**:
-- Never execute the rolling motion at full competition speed in training - control the roll to allow partner recognition time
-- Never apply sudden jerking or yanking motions with collar grips during or after the roll
-- Never continue pressure after tap is felt or heard, even if you believe the choke is not yet tight
-- Always ensure training partner can freely tap with at least one hand throughout the rolling sequence
-- Never practice on partners who are visibly fatigued or disoriented from previous rolls
-
+**Starting Position**: [[Positions/Turtle]] · **From**: [[Positions/Turtle]] (Top)
 
 </section>
 
@@ -246,10 +246,9 @@ This submission chains naturally with other turtle attacks like the clock choke,
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Transitions/Clock Choke]]
 - [[Transitions/Anaconda Choke]]
 - [[Transitions/Darce Choke]]
@@ -260,36 +259,55 @@ This submission chains naturally with other turtle attacks like the clock choke,
 - [[Submissions/Brabo Choke]]
 - [[Transitions/Arm Triangle]]
 - [[Submissions/Ezekiel Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Turtle]] - Primary starting position where the turtled opponent's exposed collar enables the loop choke entry
 - [[Positions/Front Headlock]] - Adjacent control position that facilitates collar access and transitions into loop choke setups
 - [[Positions/Back Control]] - Alternative high-value attacking path from turtle top when loop choke is defended
-- [[Transitions/Clock Choke]] - Complementary turtle gi choke that creates collar defense dilemmas with the loop choke
-- [[Transitions/Anaconda Choke]] - Alternative no-gi turtle choke that threatens when opponent defends collar access
 - [[Positions/Crucifix]] - Alternative turtle attack that exploits arm exposure when opponent defends the collar
 - [[Positions/Closed Guard]] - Counter outcome position where defender may recover if the rolling motion is exploited
 - [[Positions/Side Control]] - Alternative positional advancement from turtle when choke setups are unavailable
-- [[Transitions/Darce Choke]] - Alternative front headlock submission accessible from similar turtle top positioning
-- [[Submissions/Cross Collar Choke]] - Related collar choke that shares grip mechanics and can be combined in attack sequences
+
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Loss of consciousness from bilateral carotid artery compression | High | Immediate with proper release, potential confusion lasting 30-60 seconds |
+| Trachea damage from improper collar placement or shallow grip creating windpipe pressure | Medium | 3-7 days for minor bruising, weeks for significant tracheal damage |
+| Cervical spine strain from rolling motion combined with collar tension around the neck | Medium | 3-10 days depending on severity |
+| Neck muscle strain from defender's resistance against the tightening collar during the roll | Low | 1-3 days |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum from initial tightness to full pressure. The rolling motion must be controlled, not explosive, to allow the partner time to recognize and tap.
+
+**Tap Signals**:
+- Verbal tap or verbal statement of submission
+- Physical hand tap on opponent's body or mat
+- Physical foot tap on mat
+- Any distress signal including unusual sounds or sudden loss of resistance
+
+
+**Release Protocol**:
+1. Immediately release all collar grips completely upon any tap signal
+2. Unwind from rolling position and create space between bodies
+3. Check partner's alertness and awareness before any further activity
+4. Allow minimum 60 seconds recovery time before resuming training
+
+
+**Training Restrictions**:
+- Never execute the rolling motion at full competition speed in training - control the roll to allow partner recognition time
+- Never apply sudden jerking or yanking motions with collar grips during or after the roll
+- Never continue pressure after tap is felt or heard, even if you believe the choke is not yet tight
+- Always ensure training partner can freely tap with at least one hand throughout the rolling sequence
+- Never practice on partners who are visibly fatigued or disoriented from previous rolls
 
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Loop Choke from Turtle leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

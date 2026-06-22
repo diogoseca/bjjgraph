@@ -10,9 +10,48 @@ description: "Master Osoto Gari, the fundamental judo throw adapted for BJJ. Ste
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Osoto Gari",
+  "description": "Master Osoto Gari, the fundamental judo throw adapted for BJJ. Step-by-step takedown from Standing Position to Side Control with complete attacker and defender guides.",
+  "alternateName": ["Major Outer Reap", "O Soto Gari"],
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Osoto Gari", "item": "https://bjjgraph.org/Transitions/Osoto-Gari" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Osoto Gari",
+  "description": "Osoto Gari (Major Outer Reap) is a foundational judo throw where you reap your opponent's weight-bearing leg from the outside while driving their upper body backward, off-balancing them straight into Side Control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Major Outer Reap</strong>, <strong>O Soto Gari</strong></p>
+</aside>
 <div class="role-links">
 
 [[Osoto Gari/Attacker|Play as Attacker]]
@@ -22,7 +61,9 @@ description: "Master Osoto Gari, the fundamental judo throw adapted for BJJ. Ste
 
 <section id="overview" class="content-section">
 
-Osoto Gari (Major Outer Reap) is a fundamental judo throw that has been successfully integrated into Brazilian Jiu-Jitsu as a high-percentage standing technique. This technique involves reaping your opponent's weight-bearing leg from the outside while simultaneously driving their upper body backward, creating a powerful off-balancing motion that results in a controlled takedown. The beauty of Osoto Gari lies in its simplicity and effectiveness - it requires minimal setup compared to other throws and can be executed from various gripping configurations. In the BJJ context, Osoto Gari is particularly valuable because it allows the practitioner to maintain upper body control throughout the throw, often landing directly in dominant positions such as Side Control or Scarf Hold (Kesa Gatame). The technique capitalizes on fundamental principles of off-balancing and leverage, making it accessible to practitioners of all levels while remaining effective at the highest levels of competition. Unlike many judo throws that require extensive kuzushi (off-balancing) preparation, Osoto Gari can be executed explosively when the opponent is slightly forward-weighted, making it an excellent counter-attacking technique.
+**Osoto Gari (Major Outer Reap) is a foundational judo throw where you reap your opponent's weight-bearing leg from the outside while driving their upper body backward, off-balancing them straight into Side Control.**
+
+As one of the first throws taught in traditional judo, Osoto Gari has crossed into Brazilian Jiu-Jitsu as one of the highest-percentage standing entries available from a collar-and-sleeve tie-up. Its enduring value in the BJJ context comes from how cleanly it converts into top control - the same chest pressure and backward collar drive that power the throw carry you directly into dominant positions such as Side Control or Scarf Hold (Kesa Gatame), often without any scramble phase. The technique capitalizes on fundamental principles of off-balancing and leverage, making it accessible to practitioners of all levels while remaining effective at the highest levels of competition. It requires minimal setup compared to many other throws and can be executed from various gripping configurations, which is part of why it appears so frequently across both gi and no-gi standing exchanges. Unlike many judo throws that demand extensive kuzushi (off-balancing) preparation, Osoto Gari can be executed explosively the instant the opponent is slightly forward-weighted onto the target leg, making it an excellent counter-attacking technique against opponents who press into you or step in carelessly.
 
 **From Position**: [[Positions/Standing Position]] (Top)
 **Success Rate**: 65%
@@ -225,5 +266,7 @@ Osoto Gari occupies a critical position in the BJJ takedown hierarchy as a funda
 
 
 </section>
+
+
 
 </main>

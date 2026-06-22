@@ -10,6 +10,41 @@ description: "Master the Spider to Lasso Guard transition in BJJ. Learn grip mec
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Spider to Lasso Guard",
+  "description": "Master the Spider to Lasso Guard transition in BJJ. Learn grip mechanics, shin threading technique, and timing windows to upgrade your open guard game.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Spider to Lasso Guard", "item": "https://bjjgraph.org/Transitions/Spider-to-Lasso-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Spider to Lasso Guard",
+  "description": "Spider to Lasso Guard is a gi open-guard transition where the bottom player threads one shin under and across the opponent's sleeve-controlled arm, upgrading foot-on-bicep spider pressure into a deep lasso lever that traps the limb.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Spider to Lasso Guard transition in BJJ. Learn grip mec
 </div>
 
 <section id="overview" class="content-section">
+
+**Spider to Lasso Guard is a gi open-guard transition where the bottom player threads one shin under and across the opponent's sleeve-controlled arm, upgrading foot-on-bicep spider pressure into a deep lasso lever that traps the limb.**
 
 The Spider to Lasso Guard transition converts a bilateral spider guard configuration into an asymmetric lasso control system by threading one shin underneath and across the opponent's trapped arm. This fundamental gi-based guard transition upgrades the bottom player's control from simple foot-on-bicep pressure to a deep mechanical lever that severely restricts the opponent's mobility on one side, transforming the passing problem they must solve.
 
@@ -218,5 +255,7 @@ The Spider to Lasso Guard transition occupies a central role in gi-based open gu
 
 
 </section>
+
+
 
 </main>

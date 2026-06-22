@@ -116,6 +116,7 @@ description: "Defend against intense shoulder pressure in Shoulder of Justice Bo
   "@type": "WebPage",
   "name": "Shoulder of Justice Bottom",
   "description": "Defend against intense shoulder pressure in Shoulder of Justice Bottom. Complete escape guide with frame creation, pressure relief, and guard recovery strategies.",
+  "disambiguatingDescription": "Often confused with Side Control \u2014 Side Control is the general position; Shoulder of Justice is its concentrated shoulder-pressure variant.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -155,6 +156,9 @@ description: "Defend against intense shoulder pressure in Shoulder of Justice Bo
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Positions/Side Control|Side Control]]</strong> — Side Control is the general position; Shoulder of Justice is its concentrated shoulder-pressure variant</p>
+</aside>
 <section id="overview" class="content-section">
 
 The Shoulder of Justice Bottom position represents one of the most uncomfortable and challenging defensive situations in Brazilian Jiu-Jitsu. From this position, you are flat on your back with your opponent driving their shoulder blade deep into your jaw at an angle toward your far shoulder, creating intense pressure through your temporomandibular joint and cervical spine. This relentless pressure creates both physical discomfort and technical challenges, as every defensive movement you make can expose you to submissions or further position advancement.
@@ -344,5 +348,7 @@ Partner increases shoulder pressure incrementally. You must avoid all reactive m
 
 
 </section>
+
+
 
 </main>

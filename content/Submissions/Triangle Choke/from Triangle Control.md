@@ -10,10 +10,55 @@ description: "Master the triangle choke finish from triangle control. Learn prec
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Triangle Choke from Triangle Control targets the Carotid arteries and brachial plexus. Risk: Loss of consciousness from bilateral carotid artery compression. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Triangle Choke from Triangle Control",
+  "description": "Master the triangle choke finish from triangle control. Learn precise angle adjustments, hip elevation, and squeeze mechanics to tap opponents consistently.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Triangle Choke from Triangle Control", "item": "https://bjjgraph.org/Submissions/Triangle-Choke-from-Triangle-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Triangle Choke from Triangle Control",
+  "description": "The triangle choke from triangle control is a blood choke finished by squeezing the legs around the opponent's neck and one trapped arm at a 30-45 degree angle, compressing both carotid arteries to force the tap.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The triangle choke from triangle control is a blood choke finished by squeezing the legs around the opponent's neck and one trapped arm at a 30-45 degree angle, compressing both carotid arteries to force the tap.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries and brachial plexus</span>
+<span class="meta-chip">65% success</span>
+</div>
+
+> [!danger] Safety
+> Triangle Choke from Triangle Control targets the Carotid arteries and brachial plexus. Primary risk: Loss of consciousness from bilateral carotid artery compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,53 +75,7 @@ From a strategic standpoint, the triangle choke finish from triangle control ope
 
 The finish timeline is surprisingly short once mechanics are correct. A properly locked and angled triangle can produce unconsciousness in 4-8 seconds of sustained arterial compression, making this both a highly effective and potentially dangerous technique that demands respect in training. The attacker must develop sensitivity to the opponent's defensive reactions—posturing attempts open armbar transitions, stacking opens omoplata paths, and arm extraction creates back take opportunities. This means the triangle finish is not a static hold but a dynamic interaction where the attacker constantly adjusts to maintain optimal finishing position while the defender cycles through increasingly desperate escape attempts.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries and brachial plexus
-**Starting Position**: [[Positions/Triangle Control]]
-**From Position**: [[Positions/Triangle Control]] (Bottom)
-**Success Rate**: 65%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Loss of consciousness from bilateral carotid artery compression | CRITICAL | Immediate upon release if caught early; potential brain injury if held beyond 10 seconds after unconsciousness |
-| Cervical spine strain from lateral neck compression and forced head pulling | Medium | 3-7 days with rest and anti-inflammatory treatment |
-| Brachial plexus compression causing temporary arm numbness or tingling | Low | Minutes to hours, rarely persists beyond 24 hours |
-
-
-**Application Speed**: SLOW and progressive—build squeeze pressure over 3-5 seconds minimum. Never jerk, spike, or explosively tighten the triangle. Gradual compression allows training partners adequate time to recognize the submission and tap before arterial occlusion reaches dangerous levels.
-
-**Tap Signals**:
-- Verbal tap—saying 'tap' or any distress vocalization
-- Physical hand tap—multiple taps on partner's body, legs, or the mat
-- Physical foot tap—tapping feet on mat when hands are trapped inside the triangle
-- Going limp or sudden loss of resistance—treat as immediate tap and release
-
-
-**Release Protocol**:
-1. Immediately uncross ankles and open legs to release the triangle configuration
-2. Lower legs to the mat and remove all shin pressure from opponent's neck
-3. Release all grips on head, wrist, and sleeve to allow partner to recover posture
-4. Check partner's consciousness, breathing, and responsiveness immediately
-5. If partner is unconscious, place in recovery position, elevate legs, and alert instructor
-
-
-**Training Restrictions**:
-- Never hold the triangle after any tap signal or loss of consciousness
-- Never apply competition-speed finishing pressure during regular training
-- Always ensure partner has at least one hand free to deliver a tap signal
-- Monitor partner's skin color around face and ears throughout the finishing sequence
-- Practice finishing mechanics at controlled intensity before applying against full resistance
-- Release immediately if partner shows signs of disorientation or panic
-
+**Starting Position**: [[Positions/Triangle Control]] · **From**: [[Positions/Triangle Control]] (Top)
 
 </section>
 
@@ -240,41 +239,63 @@ The finish timeline is surprisingly short once mechanics are correct. A properly
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Triangle Choke]]
 - [[Transitions/Inverted Triangle]]
-- [[Submissions/Triangle Choke]]
 - [[Transitions/Gogoplata]]
 - [[Transitions/Arm Triangle]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
+- [[Submissions/Armbar]]
 - [[Positions/Triangle Control]] - Primary control position from which this submission finish is executed
-- [[Submissions/Triangle Choke]] - Related front triangle finish sharing core choking mechanics
 - [[Positions/Armbar Control]] - Primary transition target when opponent defends triangle by posturing
 - [[Positions/Omoplata Control]] - Secondary transition when opponent stacks or turns shoulder against the choke
 - [[Positions/Back Control]] - Transition option when opponent extracts the trapped arm from triangle
 - [[Positions/Closed Guard]] - Most common entry position leading to triangle control establishment
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Loss of consciousness from bilateral carotid artery compression | CRITICAL | Immediate upon release if caught early; potential brain injury if held beyond 10 seconds after unconsciousness |
+| Cervical spine strain from lateral neck compression and forced head pulling | Medium | 3-7 days with rest and anti-inflammatory treatment |
+| Brachial plexus compression causing temporary arm numbness or tingling | Low | Minutes to hours, rarely persists beyond 24 hours |
+
+
+**Application Speed**: SLOW and progressive—build squeeze pressure over 3-5 seconds minimum. Never jerk, spike, or explosively tighten the triangle. Gradual compression allows training partners adequate time to recognize the submission and tap before arterial occlusion reaches dangerous levels.
+
+**Tap Signals**:
+- Verbal tap—saying 'tap' or any distress vocalization
+- Physical hand tap—multiple taps on partner's body, legs, or the mat
+- Physical foot tap—tapping feet on mat when hands are trapped inside the triangle
+- Going limp or sudden loss of resistance—treat as immediate tap and release
+
+
+**Release Protocol**:
+1. Immediately uncross ankles and open legs to release the triangle configuration
+2. Lower legs to the mat and remove all shin pressure from opponent's neck
+3. Release all grips on head, wrist, and sleeve to allow partner to recover posture
+4. Check partner's consciousness, breathing, and responsiveness immediately
+5. If partner is unconscious, place in recovery position, elevate legs, and alert instructor
+
+
+**Training Restrictions**:
+- Never hold the triangle after any tap signal or loss of consciousness
+- Never apply competition-speed finishing pressure during regular training
+- Always ensure partner has at least one hand free to deliver a tap signal
+- Monitor partner's skin color around face and ears throughout the finishing sequence
+- Practice finishing mechanics at controlled intensity before applying against full resistance
+- Release immediately if partner shows signs of disorientation or panic
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Triangle Choke from Triangle Control leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

@@ -10,10 +10,55 @@ description: "Master the Bow and Arrow Choke from Rodeo Ride. Learn gi lapel cho
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Bow and Arrow Choke from Rodeo Ride targets the Carotid arteries. Risk: Carotid artery compression leading to unconsciousness. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Bow and Arrow Choke from Rodeo Ride",
+  "description": "Master the Bow and Arrow Choke from Rodeo Ride. Learn gi lapel choke setup, cross-collar grip mechanics, and finishing details from this advanced turtle attack position.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Bow and Arrow Choke from Rodeo Ride", "item": "https://bjjgraph.org/Submissions/Bow-and-Arrow-Choke-from-Rodeo-Ride" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Bow and Arrow Choke from Rodeo Ride",
+  "description": "The Bow and Arrow Choke from Rodeo Ride is a gi blood choke that converts dynamic turtle-attack control into a deep cross-collar lapel grip, then uses opposing collar-pull and far-leg tension to compress both carotid arteries.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Bow and Arrow Choke from Rodeo Ride is a gi blood choke that converts dynamic turtle-attack control into a deep cross-collar lapel grip, then uses opposing collar-pull and far-leg tension to compress both carotid arteries.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries</span>
+<span class="meta-chip">62% success</span>
+</div>
+
+> [!danger] Safety
+> Bow and Arrow Choke from Rodeo Ride targets the Carotid arteries. Primary risk: Carotid artery compression leading to unconsciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,55 +75,7 @@ The finishing mechanics require transitioning from the Rodeo Ride's angular cont
 
 This variant is particularly effective in competition because it chains naturally with other Rodeo Ride attacks. Opponents who successfully defend the Clock Choke by tucking their chin and protecting the near-side collar often leave the far-side collar exposed. The Bow and Arrow from Rodeo Ride punishes this defensive choice, creating a true dilemma where defending one choke opens the other. Success rates increase significantly when practitioners develop the sensitivity to recognize which collar defense the opponent commits to and transition accordingly.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries
-**Starting Position**: [[Positions/Rodeo Ride]]
-**From Position**: [[Positions/Rodeo Ride]] (Top)
-**Success Rate**: 62%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Carotid artery compression leading to unconsciousness | High | Immediate if released promptly; medical evaluation required if unconsciousness occurs |
-| Neck strain from excessive torque and rotation | Medium | 3-7 days for minor strain; 2-4 weeks for moderate strain |
-| Jaw or TMJ injury from improper collar placement | Medium | 1-3 weeks for minor injury; 4-8 weeks for significant TMJ damage |
-| Knee or hip stress from forced leg extension | Low | 2-5 days for minor discomfort |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow tap recognition
-
-**Tap Signals**:
-- Verbal tap
-- Physical hand tap on body or mat
-- Physical foot tap on mat
-- Any audible distress signal
-- Loss of resistance (immediate release required)
-
-
-**Release Protocol**:
-1. Immediately release collar grip upon tap signal
-2. Release leg extension and hooks simultaneously
-3. Allow opponent's head to return to neutral position
-4. Check for consciousness and responsiveness
-5. If opponent was unconscious, elevate legs and monitor until full recovery
-
-
-**Training Restrictions**:
-- Never spike or jerk the choke - apply smooth progressive pressure only
-- Never use competition speed in training rolls
-- Always maintain communication with training partner
-- Never continue pressure after tap signal
-- Beginners must drill position control before attempting finish
-- Always allow partner clear access to tap with hands or voice
-
+**Starting Position**: [[Positions/Rodeo Ride]] · **From**: [[Positions/Rodeo Ride]] (Top)
 
 </section>
 
@@ -223,41 +220,64 @@ This variant is particularly effective in competition because it chains naturall
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Bow and Arrow Choke]]
 - [[Transitions/Clock Choke]]
 - [[Transitions/Darce Choke]]
 - [[Submissions/Japanese Necktie]]
 - [[Submissions/Arm in Guillotine]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Rodeo Ride]] - Starting position for this submission variant
 - [[Positions/Back Control]] - Primary advancement position from Rodeo Ride
 - [[Positions/Turtle]] - Opponent's defensive position that creates Rodeo Ride opportunities
-- [[Submissions/Bow and Arrow Choke]] - Parent submission family
-- [[Transitions/Clock Choke]] - Alternative gi choke from Rodeo Ride that chains with this technique
 - [[Positions/Crucifix]] - Related attack position accessible from Rodeo Ride
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Carotid artery compression leading to unconsciousness | High | Immediate if released promptly; medical evaluation required if unconsciousness occurs |
+| Neck strain from excessive torque and rotation | Medium | 3-7 days for minor strain; 2-4 weeks for moderate strain |
+| Jaw or TMJ injury from improper collar placement | Medium | 1-3 weeks for minor injury; 4-8 weeks for significant TMJ damage |
+| Knee or hip stress from forced leg extension | Low | 2-5 days for minor discomfort |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow tap recognition
+
+**Tap Signals**:
+- Verbal tap
+- Physical hand tap on body or mat
+- Physical foot tap on mat
+- Any audible distress signal
+- Loss of resistance (immediate release required)
+
+
+**Release Protocol**:
+1. Immediately release collar grip upon tap signal
+2. Release leg extension and hooks simultaneously
+3. Allow opponent's head to return to neutral position
+4. Check for consciousness and responsiveness
+5. If opponent was unconscious, elevate legs and monitor until full recovery
+
+
+**Training Restrictions**:
+- Never spike or jerk the choke - apply smooth progressive pressure only
+- Never use competition speed in training rolls
+- Always maintain communication with training partner
+- Never continue pressure after tap signal
+- Beginners must drill position control before attempting finish
+- Always allow partner clear access to tap with hands or voice
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Bow and Arrow Choke from Rodeo Ride leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

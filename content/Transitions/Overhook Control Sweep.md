@@ -10,6 +10,41 @@ description: "Master the Overhook Control Sweep in BJJ. Complete guide to sweepi
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Overhook Control Sweep",
+  "description": "Master the Overhook Control Sweep in BJJ. Complete guide to sweeping from bottom whizzer grip to mount with execution steps, counters, and defense strategies.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Overhook Control Sweep", "item": "https://bjjgraph.org/Transitions/Overhook-Control-Sweep" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Overhook Control Sweep",
+  "description": "The Overhook Control Sweep is a bottom guard sweep that traps the top player's arm with a tight overhook (whizzer) grip and uses coordinated hip and leg drive to topple them over the controlled side directly into mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Overhook Control Sweep in BJJ. Complete guide to sweepi
 
 <section id="overview" class="content-section">
 
-The Overhook Control Sweep is a high-percentage sweeping technique executed from bottom position when the bottom player has established a tight overhook grip on the opponent's arm. This sweep capitalizes on the structural vulnerability created by the overhook: with one arm elevated and controlled, the opponent's base is fundamentally compromised on the controlled side. By combining the overhook pull with hip movement and leg leverage, the bottom player generates a sweeping force that the top player cannot resist without abandoning their position entirely.
+**The Overhook Control Sweep is a bottom guard sweep that traps the top player's arm with a tight overhook (whizzer) grip and uses coordinated hip and leg drive to topple them over the controlled side directly into mount.**
+
+Sitting at the heart of the bottom overhook (whizzer) game, this sweep converts a one-arm control grip into a direct route to the top, ranking among the highest-percentage offensive options available once the bottom player has sealed a tight overhook on the opponent's arm. The sweep capitalizes on the structural vulnerability created by the overhook: with one arm elevated and controlled, the opponent's base is fundamentally compromised on the controlled side. By combining the overhook pull with hip movement and leg leverage, the bottom player generates a sweeping force that the top player cannot resist without abandoning their position entirely.
 
 The sweep works by exploiting the principle that an opponent with one arm trapped above their power line cannot effectively post to prevent being swept toward that side. The bottom player initiates by angling their hips, setting a butterfly hook or positioning their outside leg for elevation, and then driving the opponent over using a coordinated pull-and-lift motion. The overhook grip acts as both the steering mechanism and the primary anchor, guiding the opponent across the bottom player's body and directly into the mount position.
 
@@ -212,7 +249,7 @@ The Overhook Control Sweep integrates directly into the bottom overhook guard sy
 
 - [[Positions/Butterfly Guard]] - Guard position frequently combined with overhook for the butterfly hook variant of this sweep
 
-- [[Transitions/Butterfly Hook Sweep]] - Related sweep technique sharing similar mechanics of hook elevation combined with upper body control
+- [[Transitions/Butterfly Sweep]] - Related sweep technique sharing similar mechanics of hook elevation combined with upper body control
 
 - [[Positions/Half Guard]] - Alternative guard position where overhook battles occur and bridge-based variant is commonly applied
 
@@ -222,5 +259,7 @@ The Overhook Control Sweep integrates directly into the bottom overhook guard sy
 
 
 </section>
+
+
 
 </main>

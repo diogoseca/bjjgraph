@@ -10,6 +10,41 @@ description: "Master pressure passing through squid guard in BJJ. Defeat arm lap
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Pressure Pass Through Squid",
+  "description": "Master pressure passing through squid guard in BJJ. Defeat arm lapel configurations with heavy chest pressure and systematic angle changes to reach side control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Pressure Pass Through Squid", "item": "https://bjjgraph.org/Transitions/Pressure-Pass-Through-Squid" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Pressure Pass Through Squid",
+  "description": "Pressure Pass Through Squid is a gi guard pass that defeats squid guard by accepting the lapel-and-arm entanglement and driving heavy chest-to-chest pressure to collapse the bottom player's frames while walking around to side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master pressure passing through squid guard in BJJ. Defeat arm lap
 </div>
 
 <section id="overview" class="content-section">
+
+**Pressure Pass Through Squid is a gi guard pass that defeats squid guard by accepting the lapel-and-arm entanglement and driving heavy chest-to-chest pressure to collapse the bottom player's frames while walking around to side control.**
 
 The Pressure Pass Through Squid is a specialized guard passing technique designed to defeat squid guard configurations where the opponent has wrapped your lapel around your posting arm. Unlike worm guard where backstep mechanics are primary, squid guard's arm entanglement is less restrictive to leg movement, making heavy forward pressure a viable solution. The technique leverages your bodyweight to compress the bottom player despite the lapel barrier, negating their frame while advancing to side control.
 
@@ -218,5 +255,7 @@ The Pressure Pass Through Squid fits into the broader lapel guard passing system
 
 
 </section>
+
+
 
 </main>

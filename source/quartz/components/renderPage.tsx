@@ -3,6 +3,7 @@ import { QuartzComponent, QuartzComponentProps } from "./types"
 import HeaderConstructor from "./Header"
 import BodyConstructor from "./Body"
 import { JSResourceToScriptElement, StaticResources } from "../util/resources"
+import { escapeScriptContent } from "../util/escape"
 import {
   clone,
   FullSlug,
@@ -141,6 +142,21 @@ const categoryHubSet = new Set([
 // Cache per-page: slug → JSON string or null
 const _pageGraphPositionsCache: Record<string, string | null> = {}
 
+// Member node ids (e.g. "Positions/Ashi-Garami") a System teaches, from graph.json.
+// Drives the system-page graph so it highlights the part of the graph the system
+// covers instead of drawing the system as a single node.
+function getSystemMemberPaths(slug: FullSlug): string[] {
+  const graph = loadGraphData()
+  if (!graph?.systems) return []
+  const key = simplifySlug(slug)
+    .toLowerCase()
+    .replace(/^systems\//, "")
+    .replace(/\/$/, "")
+  const sys = (graph.systems as Record<string, any>)[key]
+  if (!sys || !Array.isArray(sys.members)) return []
+  return sys.members.map((m: any) => m.path).filter(Boolean)
+}
+
 function computePageGraphLayout(allFiles: QuartzPluginData[], slug: FullSlug): string | null {
   const simpleSlug = simplifySlug(slug).replace(/\/$/, "")
   if (simpleSlug in _pageGraphPositionsCache) {
@@ -153,11 +169,28 @@ function computePageGraphLayout(allFiles: QuartzPluginData[], slug: FullSlug): s
   const slugLower = simpleSlug.toLowerCase()
   const isHomepage = simpleSlug === "index"
   const isCategoryHub = categoryHubSet.has(slugLower)
+  // System pages render their member constellation, not a single system node.
+  // NOTE: kept in sync with the system-page branch in graph.inline.ts (renderGraph).
+  const isSystemPage = slugLower.startsWith("systems/")
 
   // Build neighbourhood (mirrors client-side logic in graph.inline.ts)
   const neighbourhood = new Set<string>()
 
-  if (isHomepage) {
+  if (isSystemPage) {
+    for (const p of getSystemMemberPaths(slug)) {
+      if (allSlugs.has(p)) {
+        neighbourhood.add(p)
+      } else {
+        const lower = p.toLowerCase()
+        for (const ns of allSlugs) {
+          if (ns.toLowerCase() === lower) {
+            neighbourhood.add(ns)
+            break
+          }
+        }
+      }
+    }
+  } else if (isHomepage) {
     for (const hub of categoryHubSet) {
       for (const nodeSlug of allSlugs) {
         if (nodeSlug.toLowerCase() === hub) {
@@ -511,11 +544,27 @@ function getPageGraphData(slug: FullSlug): string | null {
     }
 
     return JSON.stringify(result)
-  } else if (entry.section === "principles" || entry.section === "systems") {
+  } else if (entry.section === "principles") {
     return JSON.stringify({
-      type: entry.section === "principles" ? "principle" : "system",
+      type: "principle",
       name: data.name,
       flashcards: data.flashcards || [],
+    })
+  } else if (entry.section === "systems") {
+    // Systems carry their resolved graph membership so the page can render the
+    // "unlock this part of the graph" progress + mark-known checklist.
+    return JSON.stringify({
+      type: "system",
+      name: data.name,
+      flashcards: data.flashcards || [],
+      members: (data.members || []).map((m: any) => ({
+        slug: m.slug,
+        path: m.path,
+        type: m.type,
+        name: m.name,
+        relationship: m.relationship,
+      })),
+      productCount: (data.products || []).length,
     })
   }
 
@@ -645,7 +694,7 @@ export function renderPage(
     loadTime: "beforeDOMReady",
     contentType: "inline",
     spaPreserve: true,
-    script: `window.__rollPositions=${rollData}`,
+    script: `window.__rollPositions=${escapeScriptContent(rollData)}`,
   })
 
   // Inject content stats on every page (build-time counts of .json files per
@@ -656,7 +705,7 @@ export function renderPage(
     loadTime: "beforeDOMReady",
     contentType: "inline",
     spaPreserve: true,
-    script: `window.__contentStats=${stats};document.addEventListener("nav",()=>{const s=window.__contentStats;if(!s)return;document.querySelectorAll("[data-folder-count]").forEach(el=>{const k=el.getAttribute("data-folder-count");if(k&&s[k]!=null)el.textContent=String(s[k])})})`,
+    script: `window.__contentStats=${escapeScriptContent(stats)};document.addEventListener("nav",()=>{const s=window.__contentStats;if(!s)return;document.querySelectorAll("[data-folder-count]").forEach(el=>{const k=el.getAttribute("data-folder-count");if(k&&s[k]!=null)el.textContent=String(s[k])})})`,
   })
 
   // Only deep-clone the tree if transclusions exist (saves ~1-15ms per page)
@@ -834,22 +883,32 @@ export function renderPage(
   const graphPositionsJson = computePageGraphLayout(componentData.allFiles, slug)
 
   const lang = componentData.fileData.frontmatter?.lang ?? cfg.locale?.split("-")[0] ?? "en"
+  // Viewer's role drives the graph's per-role strength colouring (red↔blue).
+  // Role pages carry it in the URL suffix; hub pages default to "top".
+  const currentRole = (() => {
+    const s = String(slug).toLowerCase()
+    if (s.endsWith("/top")) return "top"
+    if (s.endsWith("/bottom")) return "bottom"
+    if (s.endsWith("/attacker")) return "attacker"
+    if (s.endsWith("/defender")) return "defender"
+    return "top"
+  })()
   const doc = (
     <html lang={lang}>
       <Head {...componentData} />
-      <body data-slug={slug}>
+      <body data-slug={slug} data-current-role={currentRole}>
         {pageGraphDataJson && (
           <script
             type="application/json"
             id="page-graph-data"
-            dangerouslySetInnerHTML={{ __html: pageGraphDataJson }}
+            dangerouslySetInnerHTML={{ __html: escapeScriptContent(pageGraphDataJson) }}
           />
         )}
         {graphPositionsJson && (
           <script
             type="application/json"
             id="graph-positions"
-            dangerouslySetInnerHTML={{ __html: graphPositionsJson }}
+            dangerouslySetInnerHTML={{ __html: escapeScriptContent(graphPositionsJson) }}
           />
         )}
         <div id="background-graph" data-persist></div>
@@ -1038,50 +1097,48 @@ export function renderPage(
             <span class="home-roll-fab-label">Roll a position</span>
           </button>
         )}
-        <button id="graph-close-btn" data-persist aria-label="Close graph view">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="20"
-            height="20"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            aria-hidden="true"
-          >
-            <line x1="18" y1="6" x2="6" y2="18"></line>
-            <line x1="6" y1="6" x2="18" y2="18"></line>
-          </svg>
-        </button>
-        <div id="quartz-root" class="page">
-          <Body {...componentData}>
-            <div class="center">
-              <div class="page-header">
-                <Header {...componentData}>
-                  {header.map((HeaderComponent) => (
-                    <HeaderComponent {...componentData} />
-                  ))}
-                </Header>
-                <div class="popover-hint">
-                  {beforeBody.map((BodyComponent) => (
-                    <BodyComponent {...componentData} />
-                  ))}
+        {slug === ("index" as FullSlug) ? (
+          <div id="home-hero" class="home-hero">
+            <h1 class="article-title homepage-title">
+              BJJ Graph<span class="title-tld">.org</span>
+            </h1>
+            <p class="tagline">
+              <span class="tagline-line tagline-line-1">BJJ game, mapped.</span>
+              <span class="tagline-line tagline-line-2">Find a position, or try random roll.</span>
+            </p>
+          </div>
+        ) : (
+          <>
+            <div id="scroll-runway" aria-hidden="true" role="presentation"></div>
+            <div id="quartz-root" class="page">
+              <Body {...componentData}>
+                <div class="center">
+                  <div class="page-header">
+                    <Header {...componentData}>
+                      {header.map((HeaderComponent) => (
+                        <HeaderComponent {...componentData} />
+                      ))}
+                    </Header>
+                    <div class="popover-hint">
+                      {beforeBody.map((BodyComponent) => (
+                        <BodyComponent {...componentData} />
+                      ))}
+                    </div>
+                  </div>
+                  <Content {...componentData} />
+                  <hr />
+                  <div class="page-footer">
+                    {afterBody.map((BodyComponent) => (
+                      <BodyComponent {...componentData} />
+                    ))}
+                  </div>
                 </div>
-              </div>
-              <Content {...componentData} />
-              <hr />
-              <div class="page-footer">
-                {afterBody.map((BodyComponent) => (
-                  <BodyComponent {...componentData} />
-                ))}
-              </div>
+                {RightComponent}
+                <Footer {...componentData} />
+              </Body>
             </div>
-            {RightComponent}
-            <Footer {...componentData} />
-          </Body>
-        </div>
+          </>
+        )}
       </body>
       {pageResources.js
         .filter((resource) => resource.loadTime === "afterDOMReady")

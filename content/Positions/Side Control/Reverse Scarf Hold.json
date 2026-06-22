@@ -2,6 +2,7 @@
   "name": "Reverse Scarf Hold",
   "slug": "reverse-scarf-hold",
   "description": "Master Reverse Scarf Hold (Ushiro Kesa Gatame) in BJJ. Complete guide covering defensive survival, offensive control, and transitions from both perspectives.",
+  "summary": "Reverse Scarf Hold (Ushiro Kesa Gatame) is a judo-derived side pin where the top player sits chest-down facing the opponent's legs, trading head-side vision for crushing sternum pressure and arm-isolation attacks.",
   "variant_uniqueness": "Reverse facing trades vision for chest pressure",
   "overview": "Reverse Scarf Hold (Ushiro Kesa Gatame) represents a unique judo-derived pinning position where the top player faces away from the opponent's head, creating an unconventional control scenario with distinct mechanical properties. Unlike traditional scarf hold positions, the reverse orientation fundamentally alters both the control mechanics and defensive responses, requiring practitioners to abandon standard escape patterns and develop position-specific skills.\n\nThe position emerges most commonly when the bottom player attempts to turn into side control, inadvertently creating the angle for reverse scarf hold entry. From the top perspective, the position offers powerful chest compression, effective arm control, and unique submission opportunities including americana, kimura, and arm triangle variations. The reverse orientation also facilitates transitions to mount, north-south, and back control when the bottom player attempts escape.\n\nFrom the bottom perspective, reverse scarf hold presents a challenging defensive scenario where traditional bridging and framing mechanics must be modified due to the inverted pressure angle. The position demands patience, systematic escape sequences, and precise timing rather than explosive movements. Success requires understanding the biomechanical vulnerabilities inherent to the reverse orientation and exploiting them during transition windows.\n\nBoth perspectives require specialized drilling and positional understanding, as the reverse orientation creates unique tactical problems not encountered in standard top-game positions. The position serves as an excellent case study in how orientation changes fundamentally alter grappling dynamics, submission opportunities, and escape mechanics.",
   "key_principles": [
@@ -153,7 +154,7 @@
         "condition": "If opponent creates frames with free arm and begins hip escape",
         "actions": [
           {
-            "technique": "Knee Slice Pass",
+            "technique": "Reverse Scarf to Side Control",
             "target": "Side Control",
             "probability": 60
           },
@@ -276,11 +277,11 @@
     "transitions": [
       {
         "transition": "Side Control to North-South",
-        "attempt_probability": 22
+        "attempt_probability": 28
       },
       {
         "transition": "Side Control to Mount",
-        "attempt_probability": 13
+        "attempt_probability": 18
       },
       {
         "transition": "Americana from Reverse Scarf Hold",
@@ -295,10 +296,6 @@
         "attempt_probability": 10
       },
       {
-        "transition": "Knee Slice Pass",
-        "attempt_probability": 15
-      },
-      {
         "transition": "Arm Triangle from Reverse Scarf Hold",
         "attempt_probability": 9
       },
@@ -308,7 +305,7 @@
       },
       {
         "transition": "Reverse Scarf to Side Control",
-        "attempt_probability": 2
+        "attempt_probability": 6
       },
       {
         "transition": "North-South Choke from Reverse Scarf",

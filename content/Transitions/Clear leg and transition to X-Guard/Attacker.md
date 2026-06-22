@@ -84,7 +84,7 @@ description: "How to execute Clear Leg to X-Guard in BJJ. Attacking perspective 
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins backstopping away as you initiate the leg clear—how do you adjust?",
+      "name": "Your opponent begins backstepping away as you initiate the leg clear—how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately transition to single leg X-Guard on the near leg rather than chasing the full X-Guard configuration. If they create too much distance for any X-Guard, convert to a technical standup while maintaining your grip on their ankle. Use their backward momentum against them by following with wrestling-based attacks rather than forcing guard retention."
@@ -95,7 +95,7 @@ description: "How to execute Clear Leg to X-Guard in BJJ. Attacking perspective 
       "name": "What grip must be maintained throughout the entire transition and why?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The two-on-one grip on opponent's ankle or Achilles tendon must be maintained until both X-Guard hooks are established. This grip controls distance to prevent opponent backstopping, prevents re-engagement of leg entanglement, provides the pulling anchor needed to load weight into X-Guard, and ensures immediate sweep capability upon completion."
+        "text": "The two-on-one grip on opponent's ankle or Achilles tendon must be maintained until both X-Guard hooks are established. This grip controls distance to prevent opponent backstepping, prevents re-engagement of leg entanglement, provides the pulling anchor needed to load weight into X-Guard, and ensures immediate sweep capability upon completion."
       }
     },
     {
@@ -324,5 +324,7 @@ Incorporate into regular sparring from specific leg entanglement starting positi
 Practice this transition with controlled resistance before attempting in live sparring, as rushed execution can result in knee injuries if the leg clears at an awkward angle while still partially entangled. Communicate clearly with training partners about resistance levels during drilling. Be aware that failed attempts can worsen your leg entanglement position and increase submission danger—know when to abort and reset rather than forcing a compromised technique. Tap early if caught in submissions during practice; this transition works best when you recognize the window early rather than attempting it as a last-resort escape against fully locked submissions.
 
 </section>
+
+
 
 </main>

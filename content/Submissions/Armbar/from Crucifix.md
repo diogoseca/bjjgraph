@@ -10,10 +10,55 @@ description: "Master Armbar from Crucifix in BJJ. Complete guide with safety pro
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Armbar from Crucifix targets the Elbow joint. Risk: Elbow hyperextension. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Armbar from Crucifix",
+  "description": "Master Armbar from Crucifix in BJJ. Complete guide with safety protocols, setup, execution steps, finishing mechanics. Beginner 40%, Intermediate 55%, Advanced 70%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Armbar from Crucifix", "item": "https://bjjgraph.org/Submissions/Armbar-from-Crucifix" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Armbar from Crucifix",
+  "description": "The Armbar from Crucifix is a joint lock finished from the crucifix, where the opponent's near arm is trapped by your legs while you isolate and extend the far arm, then drive your hips up to hyperextend the elbow against almost no defense.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Armbar from Crucifix is a joint lock finished from the crucifix, where the opponent's near arm is trapped by your legs while you isolate and extend the far arm, then drive your hips up to hyperextend the elbow against almost no defense.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Arm Lock</span>
+<span class="meta-chip">Targets Elbow joint</span>
+<span class="meta-chip">62% success</span>
+</div>
+
+> [!danger] Safety
+> Armbar from Crucifix targets the Elbow joint. Primary risk: Elbow hyperextension. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -26,54 +71,7 @@ description: "Master Armbar from Crucifix in BJJ. Complete guide with safety pro
 
 The Armbar from Crucifix represents one of the most dominant finishing positions in Brazilian Jiu-Jitsu, combining the extreme control of the crucifix position with the high-percentage mechanics of the armbar submission. From the crucifix, the opponent's arms are isolated and controlled, with one arm typically trapped by your legs while the other becomes vulnerable to the armbar attack. This submission exemplifies the principle of position before submission, as the crucifix itself provides such overwhelming control that the opponent has severely limited defensive options. The armbar from this position is particularly effective because the opponent cannot use their trapped arm to defend, cannot effectively bridge or roll, and has minimal ability to grip fight or create defensive frames. This submission is commonly accessed from back control transitions, turtle attacks, or crucifix entries from side control. The technical execution requires careful attention to arm isolation, hip positioning, and maintaining crucifix control throughout the finishing sequence. Understanding the biomechanics of the elbow joint and the proper angle of attack is crucial for safe and effective application. The armbar from crucifix is a staple technique in both gi and no-gi grappling, with applications in competition, MMA, and self-defense contexts.
 
-**Category**: Joint Lock
-**Type**: Arm Lock
-**Target Area**: Elbow joint
-**Starting Position**: [[Positions/Crucifix]]
-**From Position**: [[Positions/Crucifix]] (Top)
-**Success Rate**: 62%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Elbow hyperextension | High | 4-8 weeks |
-| Elbow dislocation | CRITICAL | 3-6 months with surgery possible |
-| Bicep tendon strain | Medium | 2-4 weeks |
-| Ligament damage (UCL/LCL) | CRITICAL | 6-12 months with potential surgery |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from position to finish
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on your body or the mat
-- Physical foot tap on the mat
-- Any vocalization of pain or distress
-- Rapid head nodding or shaking
-
-
-**Release Protocol**:
-1. Immediately stop all hip extension and leg pressure
-2. Release the wrist/hand grip controlling the arm
-3. Remove your leg from across the opponent's face/shoulder
-4. Allow the opponent to retract their arm slowly
-5. Check with your partner before continuing training
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - apply smooth, progressive pressure only
-- Never use competition speed in training - always allow reaction time for tap
-- Always ensure your partner has at least one hand free to tap
-- Never continue pressure after feeling the tap or hearing verbal submission
-- Never practice this submission on opponents with pre-existing elbow injuries without explicit permission
-
+**Starting Position**: [[Positions/Crucifix]] · **From**: [[Positions/Crucifix]] (Top)
 
 </section>
 
@@ -248,10 +246,9 @@ The Armbar from Crucifix represents one of the most dominant finishing positions
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Kimura/from Mount]]
 - [[Submissions/Kimura/from Guard]]
 - [[Submissions/Choke from Crucifix]]
@@ -263,14 +260,6 @@ The Armbar from Crucifix represents one of the most dominant finishing positions
 - [[Submissions/Belly Down Armbar]]
 - [[Submissions/Kimura]]
 - [[Submissions/Americana]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Transitions/Back Control to Crucifix]] - Primary entry transition - establishes the crucifix position from back control
 - [[Transitions/Mount to Armbar]] - Similar armbar mechanics but from mount position - study for arm isolation principles
 - [[Transitions/Crucifix from Turtle]] - Alternative entry to crucifix position - direct setup for this submission
@@ -282,17 +271,50 @@ The Armbar from Crucifix represents one of the most dominant finishing positions
 - [[Positions/Harness]] - Upper body control position that can transition to crucifix armbar
 - [[Positions/Turtle]] - Common position from which crucifix can be established for armbar attack
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Elbow hyperextension | High | 4-8 weeks |
+| Elbow dislocation | CRITICAL | 3-6 months with surgery possible |
+| Bicep tendon strain | Medium | 2-4 weeks |
+| Ligament damage (UCL/LCL) | CRITICAL | 6-12 months with potential surgery |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum from position to finish
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any distress signal)
+- Physical hand tap on your body or the mat
+- Physical foot tap on the mat
+- Any vocalization of pain or distress
+- Rapid head nodding or shaking
+
+
+**Release Protocol**:
+1. Immediately stop all hip extension and leg pressure
+2. Release the wrist/hand grip controlling the arm
+3. Remove your leg from across the opponent's face/shoulder
+4. Allow the opponent to retract their arm slowly
+5. Check with your partner before continuing training
+
+
+**Training Restrictions**:
+- Never spike or jerk the submission - apply smooth, progressive pressure only
+- Never use competition speed in training - always allow reaction time for tap
+- Always ensure your partner has at least one hand free to tap
+- Never continue pressure after feeling the tap or hearing verbal submission
+- Never practice this submission on opponents with pre-existing elbow injuries without explicit permission
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Armbar from Crucifix leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

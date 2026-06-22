@@ -10,10 +10,55 @@ description: "Master the High Elbow Guillotine from Front Headlock with elevated
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: High Elbow Guillotine from Front Headlock targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "High Elbow Guillotine from Front Headlock",
+  "description": "Master the High Elbow Guillotine from Front Headlock with elevated elbow mechanics, hip rotation finishing pressure, and comprehensive defensive strategies.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "High Elbow Guillotine from Front Headlock", "item": "https://bjjgraph.org/Submissions/High-Elbow-Guillotine-from-Front-Headlock" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "High Elbow Guillotine from Front Headlock",
+  "description": "The High Elbow Guillotine from Front Headlock is a blood choke that elevates the choking elbow above the opponent's shoulder line and adds Hindulotine hip rotation, bypassing chin-tuck defenses to compress both carotid arteries from a steep downward angle.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The High Elbow Guillotine from Front Headlock is a blood choke that elevates the choking elbow above the opponent's shoulder line and adds Hindulotine hip rotation, bypassing chin-tuck defenses to compress both carotid arteries from a steep downward angle.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries and trachea</span>
+<span class="meta-chip">58% success</span>
+</div>
+
+> [!danger] Safety
+> High Elbow Guillotine from Front Headlock targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,55 +75,7 @@ Strategically, this submission thrives in no-gi grappling where collar grips are
 
 The submission's effectiveness at high levels stems from its two-phase attack structure: the initial front headlock threatens multiple submissions, forcing defensive decisions that create openings for the high elbow transition. Opponents must defend guillotines, anacondas, darces, and back takes simultaneously, and the high elbow guillotine exploits the specific defensive postures these threats create.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries and trachea
-**Starting Position**: [[Positions/Front Headlock]]
-**From Position**: [[Positions/Front Headlock]] (Top)
-**Success Rate**: 58%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Carotid artery compression leading to loss of consciousness | High | Immediate if released promptly; potential for serious complications if held past unconsciousness |
-| Tracheal damage from excessive pressure or improper angle | CRITICAL | 2-6 weeks for minor trauma; months for severe damage requiring medical intervention |
-| Cervical spine stress from rotational torque combined with elevated elbow pressure | High | 1-3 weeks for minor strain; 3-6 months for significant injury |
-| Jaw and temporomandibular joint stress from high elbow angle forcing chin upward | Medium | 1-2 weeks for minor inflammation |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum application time with constant awareness of partner's response. The compound pressure from elevated elbow plus Hindulotine rotation can produce unconsciousness rapidly once locked.
-
-**Tap Signals**:
-- Verbal tap or any verbal sound of distress
-- Physical hand tap on opponent's body or mat
-- Physical foot tap on mat or opponent
-- Any loss of resistance or body going limp
-- Unusual gurgling or breathing sounds
-
-
-**Release Protocol**:
-1. Immediately release choking arm grip upon any tap signal
-2. Lower choking elbow and remove shoulder pressure simultaneously
-3. Release head control and create space by opening guard and moving hips away
-4. Monitor partner's breathing and consciousness for 10-15 seconds
-5. Never reapply pressure once released, even if partner signals they are okay
-
-
-**Training Restrictions**:
-- Never apply at competition speed during drilling or positional training
-- Never spike or jerk the elbow elevation—always apply smooth progressive pressure
-- Never continue pressure if partner's face changes color or shows signs of oxygen deprivation
-- Always maintain verbal communication during slow drilling phases
-- Never practice on partners with neck or throat injuries without explicit instructor approval
-- Always allow clear tap access—never trap both arms while finishing
-
+**Starting Position**: [[Positions/Front Headlock]] · **From**: [[Positions/Front Headlock]] (Top)
 
 </section>
 
@@ -227,10 +224,9 @@ The submission's effectiveness at high levels stems from its two-phase attack st
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/High Elbow Guillotine]]
 - [[Transitions/Guillotine Choke]]
 - [[Submissions/Arm in Guillotine]]
@@ -239,32 +235,57 @@ The submission's effectiveness at high levels stems from its two-phase attack st
 - [[Submissions/Chin Strap Guillotine]]
 - [[Submissions/Japanese Necktie]]
 - [[Submissions/Von Flue Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Hindulotine]] - Intermediate control position providing rotational hip mechanics for the high elbow finish
 - [[Positions/Guillotine Control]] - Parent control position with standard guillotine mechanics
-- [[Submissions/High Elbow Guillotine]] - Parent submission family—this is the Front Headlock entry variant
 - [[Positions/Closed Guard]] - Common guard recovery position after failed defense or counter
 - [[Positions/Back Control]] - Transition target when opponent turns to escape neck pressure
 - [[Positions/Darce Control]] - Alternative control when opponent frames and creates near-side space
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Carotid artery compression leading to loss of consciousness | High | Immediate if released promptly; potential for serious complications if held past unconsciousness |
+| Tracheal damage from excessive pressure or improper angle | CRITICAL | 2-6 weeks for minor trauma; months for severe damage requiring medical intervention |
+| Cervical spine stress from rotational torque combined with elevated elbow pressure | High | 1-3 weeks for minor strain; 3-6 months for significant injury |
+| Jaw and temporomandibular joint stress from high elbow angle forcing chin upward | Medium | 1-2 weeks for minor inflammation |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum application time with constant awareness of partner's response. The compound pressure from elevated elbow plus Hindulotine rotation can produce unconsciousness rapidly once locked.
+
+**Tap Signals**:
+- Verbal tap or any verbal sound of distress
+- Physical hand tap on opponent's body or mat
+- Physical foot tap on mat or opponent
+- Any loss of resistance or body going limp
+- Unusual gurgling or breathing sounds
+
+
+**Release Protocol**:
+1. Immediately release choking arm grip upon any tap signal
+2. Lower choking elbow and remove shoulder pressure simultaneously
+3. Release head control and create space by opening guard and moving hips away
+4. Monitor partner's breathing and consciousness for 10-15 seconds
+5. Never reapply pressure once released, even if partner signals they are okay
+
+
+**Training Restrictions**:
+- Never apply at competition speed during drilling or positional training
+- Never spike or jerk the elbow elevation—always apply smooth progressive pressure
+- Never continue pressure if partner's face changes color or shows signs of oxygen deprivation
+- Always maintain verbal communication during slow drilling phases
+- Never practice on partners with neck or throat injuries without explicit instructor approval
+- Always allow clear tap access—never trap both arms while finishing
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of High Elbow Guillotine from Front Headlock leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

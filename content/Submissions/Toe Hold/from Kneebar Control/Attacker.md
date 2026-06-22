@@ -119,7 +119,7 @@ description: "Learn to attack with the toe hold from kneebar control. Step-by-st
       "name": "Why must rotational pressure be applied gradually rather than quickly when finishing the toe hold?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Toe holds attack small ligaments and joints that can fail suddenly and catastrophically with minimal warning. Unlike chokes where the opponent gradually loses consciousness, ankle ligaments can tear instantly under sudden rotational load. The 5-7 second minimum application window gives the defender adequate time to recognize the submission threat and signal a tap before structural damage occurs. Snapping the toe hold risks severe, potentially career-ending ankle injury."
+        "text": "Toe holds attack small ligaments and joints that can fail suddenly and catastrophically with minimal warning. Unlike chokes where the opponent gradually loses consciousness, ankle ligaments can tear instantly under sudden rotational load. The 5-7 second minimum application window gives the defender adequate time to recognize the submission threat and tap before structural damage occurs. Snapping the toe hold risks severe, potentially career-ending ankle injury."
       }
     }
   ]

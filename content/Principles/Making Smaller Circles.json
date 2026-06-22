@@ -15,6 +15,7 @@
   "application_level": "Intermediate",
   "complexity_level": "Medium",
   "development_timeline": "Intermediate to Expert",
+  "summary": "Making Smaller Circles is a depth-before-breadth learning principle: refine one technique to extreme precision and efficiency until it works reflexively against resistance, then expand outward to variations that share its core mechanics.",
   "overview": "Making Smaller Circles is a learning principle popularized by Josh Waitzkin in The Art of Learning, and it maps perfectly onto Brazilian Jiu-Jitsu. The idea is simple but profoundly counterintuitive: instead of learning many techniques at a surface level, take one technique — one movement, one sweep, one pass — and refine it to an absurd degree of precision. Strip it down to its essential mechanics. Practice it until the movement becomes smaller, tighter, and more efficient. Then practice it more until it works against resistance, against speed, against people who know it is coming. Only then expand outward to the next variation.\n\nIn BJJ, this principle challenges the common temptation to collect techniques. A white belt who knows fifty sweeps but cannot finish any of them against a resisting opponent has made wide circles — broad but shallow. A blue belt who has drilled one sweep ten thousand times and can hit it from multiple angles against resisting opponents of all sizes has made the circle small — narrow but deep. The small-circle practitioner's single technique is more dangerous than the wide-circle practitioner's entire catalog because it has been pressure-tested, refined, and internalized to the point where it operates below conscious thought.\n\nThe process of making smaller circles involves progressive reduction. First, learn the gross motor pattern of the technique. Then eliminate unnecessary movement — every extra inch of motion, every wasted grip adjustment, every telegraphing weight shift. Reduce the setup time. Reduce the space needed. Reduce the energy required. Eventually the technique becomes so refined that it appears effortless and its execution window shrinks to a fraction of a second. At this point, the technique has become a part of you rather than something you do, and you are ready to expand the circle outward — learning variations, combinations, and entries that build on the mastered foundation. This outward expansion is fast because the deep understanding of the core mechanic transfers to every variation.",
   "key_principles": [
     "Master one technique deeply before adding variations — depth before breadth",
@@ -83,19 +84,9 @@
       "description": "Flow rolling provides the low-intensity environment needed for conscious refinement of technique details. While positional sparring pressure-tests refinements, flow rolling allows the practitioner to experiment with smaller movements and tighter timing in a forgiving context."
     },
     {
-      "principle_name": "Submission Chains",
-      "relationship_type": "Extension",
-      "description": "Submission chains are the natural outward expansion once individual submissions have been made small enough. A practitioner who has mastered the armbar can begin chaining it with the triangle and omoplata because the deep armbar understanding reveals the connections between these attacks."
-    },
-    {
       "principle_name": "Position Chains",
       "relationship_type": "Extension",
       "description": "Position chains represent the outward expansion of deep positional mastery. Once a practitioner has made their closed guard game deeply refined, they naturally see how closed guard connects to half guard, open guard, and back control through shared mechanical principles."
-    },
-    {
-      "principle_name": "Timing and Rhythm",
-      "relationship_type": "Extension",
-      "description": "As technique circles become smaller, timing and rhythm naturally sharpen. The smaller the movement, the more precise the timing window, and the more the practitioner develops the ability to feel when that window opens. Deep technical refinement produces superior timing as a byproduct."
     },
     {
       "principle_name": "Control Maintenance",
@@ -332,24 +323,24 @@
       "relationship": "Flow rolling provides the low-intensity environment needed for conscious experimentation with technique refinements"
     },
     {
-      "name": "Submission Chains",
-      "content_type": "Principle",
-      "relationship": "Submission chains are the natural outward expansion once individual submissions have been deeply mastered"
-    },
-    {
       "name": "Position Chains",
       "content_type": "Principle",
       "relationship": "Position chains emerge naturally when individual positions are mastered deeply enough to see their connections"
     },
     {
-      "name": "Timing and Rhythm",
-      "content_type": "Principle",
-      "relationship": "Deep technique refinement naturally sharpens timing and rhythm as movement windows become smaller and more precise"
-    },
-    {
       "name": "Guard Passing",
       "content_type": "Principle",
       "relationship": "Guard passing benefits enormously from depth-first refinement — one deeply mastered pass outperforms twenty shallow ones"
+    },
+    {
+      "name": "Control Maintenance",
+      "content_type": "Principle",
+      "relationship": "Deep practice of holding a single position produces effortless control because all unnecessary effort has been refined away"
+    },
+    {
+      "name": "Escape Fundamentals",
+      "content_type": "Principle",
+      "relationship": "Applying the depth-first approach to one escape per position produces defenses as reliable and reflexive as refined attacks"
     },
     {
       "name": "Closed Guard",
@@ -365,6 +356,48 @@
       "name": "Half Guard",
       "content_type": "Position",
       "relationship": "Half guard systems are naturally built through the Making Smaller Circles approach — master the underhook, then expand to variations"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What does the Making Smaller Circles principle mean in BJJ?",
+      "answer": "It means refining one technique to extreme precision and efficiency — stripping away wasted motion until it works reflexively against resistance — before expanding to new variations. Depth before breadth."
+    },
+    {
+      "question": "How do you know a technique's circle is finally 'small enough' to expand from?",
+      "answer": "When it works reliably against resisting opponents who know exactly what is coming, executing with minimal setup and even under fatigue. The signal for expansion is consistent reliability under adversity, not perfection."
+    },
+    {
+      "question": "Why is one deeply refined sweep more dangerous than fifty surface-level sweeps?",
+      "answer": "The refined sweep has been pressure-tested, stripped of telegraphing, and internalized below conscious thought, so it fires reflexively against resistance. The fifty shallow sweeps collapse the moment a skilled opponent resists."
+    },
+    {
+      "question": "What is the difference between repetition and refinement?",
+      "answer": "Repetition repeats the same movement and can reinforce bad habits. Refinement attaches an intentional improvement target to each rep — eliminating one wasted motion at a time — so the circle actually shrinks toward efficiency."
+    },
+    {
+      "question": "Why should you keep drilling a technique through a plateau?",
+      "answer": "Plateaus are where deep learning happens: the nervous system integrates the refined pattern below conscious awareness. Skill follows a staircase — flat periods of integration precede sudden jumps in ability."
+    },
+    {
+      "question": "How do you pressure-test a refinement to confirm it is real?",
+      "answer": "Test the tighter version in positional sparring against progressive resistance. If it survives, the refinement is valid; if it fails, the movement you removed was necessary — restore it and reduce a different element instead."
+    },
+    {
+      "question": "What is the most common error practitioners make with this principle?",
+      "answer": "Collecting techniques instead of refining them — building a game a mile wide and an inch deep. They know many moves by name but cannot finish any against a skilled, resisting opponent, defaulting to strength."
+    },
+    {
+      "question": "How does deep mastery of one technique speed up learning its variations?",
+      "answer": "The understanding of the core mechanic transfers to any variation sharing roughly 70% of those mechanics, so related entries, combinations, and counters are learned quickly once the foundation is internalized."
+    },
+    {
+      "question": "Should Making Smaller Circles be applied only to offensive techniques?",
+      "answer": "No. Escapes, guard retention, and positional defense benefit equally from depth-first refinement. A deeply refined mount escape is as valuable as a deeply refined mount attack and develops the same reflexive quality."
+    },
+    {
+      "question": "How does Making Smaller Circles relate to the Maximum Efficiency Principle?",
+      "answer": "Making Smaller Circles is the training methodology that produces maximum efficiency: as circles shrink, wasted movement and energy cost drop. Maximum efficiency is the destination; smaller circles is the journey there."
     }
   ]
 }

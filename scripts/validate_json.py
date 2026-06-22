@@ -16,6 +16,9 @@ import json
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from _slug import slugify as _slugify  # shared single-source slugify
+
 try:
     import jsonschema
     from jsonschema import validate, ValidationError
@@ -109,6 +112,206 @@ def build_content_index():
     return index
 
 
+def _normalize_alias_key(s):
+    """Normalize a name for alias/disambiguation comparison.
+
+    Delegates to the shared slugify so accented synonyms compare equal to their
+    unaccented references ("Mata Leão" == "Mata Leao") and so this comparison
+    key can never diverge from the slugs the graph/redirect/template pipeline
+    uses. Both sides of every comparison pass through here, so the kebab form
+    is fine — it only needs to be a consistent canonical key.
+    """
+    if not isinstance(s, str):
+        return ""
+    return _slugify(s)
+
+
+def build_alias_index():
+    """For each JSON file, read its aliases[] field and map alias → canonical filename.
+
+    Returns dict[category] -> dict[normalized_alias] -> canonical_name. Used by the
+    three reference-resolution sites (validate_references, validate_position_transitions,
+    validate_transition_outcomes) to resolve old references to merged or renamed techniques.
+    """
+    alias_index = {cat: {} for cat in CATEGORIES.keys()}
+    for category, cat_path in CATEGORIES.items():
+        path = Path(cat_path)
+        if not path.exists():
+            continue
+        for f in path.rglob("*.json"):
+            try:
+                with open(f, 'r', encoding='utf-8') as fp:
+                    data = json.load(fp)
+            except (json.JSONDecodeError, OSError):
+                continue
+            aliases = data.get('aliases') or []
+            if not isinstance(aliases, list) or not aliases:
+                continue
+            # Canonical lookup name is the file's path-relative form, mirroring build_content_index
+            rel = str(f.relative_to(path)).replace('.json', '')
+            for alias in aliases:
+                if not isinstance(alias, str):
+                    continue
+                key = _normalize_alias_key(alias)
+                if key:
+                    alias_index[category][key] = rel
+    return alias_index
+
+
+def resolve_through_alias(alias_index, category, ref_name):
+    """Return canonical name if ref_name matches a known alias in this category, else None."""
+    if not alias_index or not category or category not in alias_index:
+        return None
+    return alias_index[category].get(_normalize_alias_key(ref_name))
+
+
+def resolve_through_alias_any_category(alias_index, ref_name):
+    """Try every category. Returns (category, canonical_name) or (None, None)."""
+    if not alias_index:
+        return (None, None)
+    key = _normalize_alias_key(ref_name)
+    for cat, m in alias_index.items():
+        if key in m:
+            return (cat, m[key])
+    return (None, None)
+
+
+def load_do_not_merge():
+    """Load the do-not-merge denylist as a set of frozensets for symmetric pair lookup."""
+    path = Path("tests/artifacts/do_not_merge.json")
+    if not path.exists():
+        return set()
+    try:
+        with open(path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+    except (json.JSONDecodeError, OSError):
+        return set()
+    pairs = set()
+    for pair in data.get('pairs', []):
+        if isinstance(pair, list) and len(pair) == 2 and all(isinstance(p, str) for p in pair):
+            pairs.add(frozenset({_normalize_alias_key(pair[0]), _normalize_alias_key(pair[1])}))
+    return pairs
+
+
+def find_file_in_category(category, name):
+    """Find the JSON file matching 'name' in the given category (case/spacing-insensitive)."""
+    cat_path = Path(CATEGORIES.get(category, ''))
+    if not cat_path.exists():
+        return None
+    candidate = cat_path / f"{name}.json"
+    if candidate.exists():
+        return candidate
+    target = _normalize_alias_key(name)
+    for f in cat_path.rglob("*.json"):
+        if _normalize_alias_key(f.stem) == target:
+            return f
+    return None
+
+
+def validate_aliases_not_denylisted(data, json_path, denylist):
+    """Hard-fail if any alias on this file is paired with the canonical name in the denylist."""
+    errors = []
+    aliases = data.get('aliases') or []
+    if not isinstance(aliases, list) or not aliases:
+        return errors
+    canonical_candidates = {_normalize_alias_key(Path(json_path).stem)}
+    if 'name' in data and isinstance(data['name'], str):
+        canonical_candidates.add(_normalize_alias_key(data['name']))
+    for alias in aliases:
+        if not isinstance(alias, str):
+            continue
+        alias_key = _normalize_alias_key(alias)
+        for canonical_key in canonical_candidates:
+            if alias_key == canonical_key:
+                continue
+            pair = frozenset({alias_key, canonical_key})
+            if pair in denylist:
+                errors.append(
+                    f"aliases: '{alias}' is denylisted as a false-synonym pairing "
+                    f"(see tests/artifacts/do_not_merge.json — synonyms collapse to one file; "
+                    f"false synonyms stay separate)"
+                )
+    return errors
+
+
+def validate_disambiguations_reciprocal(data, category, json_path):
+    """Warn if a disambiguation entry on file A (declaring B) is not reciprocated on file B."""
+    warnings = []
+    disambiguations = data.get('disambiguations') or []
+    if not isinstance(disambiguations, list) or not disambiguations:
+        return warnings
+    self_name = Path(json_path).stem
+    self_key = _normalize_alias_key(self_name)
+    for entry in disambiguations:
+        if not isinstance(entry, dict):
+            continue
+        other_name = (entry.get('name') or '').strip()
+        if not other_name:
+            continue
+        # Disambiguation targets can be cross-category (e.g. the North-South Choke
+        # submission points at the North-South position), so search every category.
+        other_file = find_file_in_category(category, other_name)
+        if not other_file:
+            for other_cat in CATEGORIES:
+                other_file = find_file_in_category(other_cat, other_name)
+                if other_file:
+                    break
+        if not other_file:
+            warnings.append(
+                f"disambiguations: target '{other_name}' not found in any category"
+            )
+            continue
+        try:
+            with open(other_file, 'r', encoding='utf-8') as f:
+                other_data = json.load(f)
+        except (json.JSONDecodeError, OSError):
+            continue
+        other_disambs = other_data.get('disambiguations') or []
+        reciprocated = any(
+            isinstance(d, dict) and _normalize_alias_key(d.get('name') or '') == self_key
+            for d in other_disambs
+        )
+        if not reciprocated:
+            warnings.append(
+                f"disambiguations: '{other_name}' does not reciprocally declare '{self_name}' "
+                f"(disambiguations should be mutual — add the reverse entry on {other_file.name})"
+            )
+    return warnings
+
+
+def validate_products(data, category):
+    """Warn on curated affiliate products that look unfinished. Non-blocking — products
+    are hand-curated; structure is enforced by the schema. Flags placeholder URLs/images
+    left over from scaffolding and duplicate product ids within a system."""
+    warnings = []
+    if category != "Systems":
+        return warnings
+    products = data.get("products")
+    if not isinstance(products, list):
+        return warnings
+    seen_ids = set()
+    for i, p in enumerate(products):
+        if not isinstance(p, dict):
+            continue
+        loc = f"products[{i}]"
+        title = p.get("title", loc)
+        url = str(p.get("affiliate_url", ""))
+        image = str(p.get("image", ""))
+        if not url:
+            warnings.append(f"{loc} ('{title}'): missing affiliate_url")
+        elif "REPLACE_ME" in url or "placehold.co" in image:
+            warnings.append(
+                f"{loc} ('{title}'): placeholder affiliate_url/image not yet replaced "
+                f"with a real BJJFanatics link"
+            )
+        pid = p.get("id")
+        if pid:
+            if pid in seen_ids:
+                warnings.append(f"{loc}: duplicate product id '{pid}'")
+            seen_ids.add(pid)
+    return warnings
+
+
 def extract_references_from_field(data, field_path, field_config):
     """Extract references from a specific field in the JSON data."""
     references = []
@@ -172,8 +375,11 @@ def validate_references(data, category, path=""):
     # Build content index on first call (cached in function)
     if not hasattr(validate_references, 'content_index'):
         validate_references.content_index = build_content_index()
+    if not hasattr(validate_references, 'alias_index'):
+        validate_references.alias_index = build_alias_index()
 
     content_index = validate_references.content_index
+    alias_index = validate_references.alias_index
 
     # Get reference fields for this category
     if category not in REFERENCE_FIELDS:
@@ -206,11 +412,12 @@ def validate_references(data, category, path=""):
                     )
                     continue
 
-                # Check if file exists in that category
+                # Check if file exists in that category, or if it's an alias for one that does
                 if ref_name not in content_index[ref_category]:
-                    errors.append(
-                        f"Field '{field_path}': Broken link '{ref}' - file not found in {ref_category}/"
-                    )
+                    if not resolve_through_alias(alias_index, ref_category, ref_name):
+                        errors.append(
+                            f"Field '{field_path}': Broken link '{ref}' - file not found in {ref_category}/"
+                        )
             else:
                 # No category specified - search all categories
                 found = False
@@ -237,6 +444,12 @@ def validate_references(data, category, path=""):
                                     break
                         if found:
                             break
+
+                # Alias fallback — search the alias index across categories
+                if not found:
+                    cat, _ = resolve_through_alias_any_category(alias_index, ref_name)
+                    if cat is not None:
+                        found = True
 
                 if not found:
                     errors.append(
@@ -421,6 +634,11 @@ def validate_position_transitions(data, category, content_index, path=""):
     transitions_index = content_index.get("Transitions", set())
     submissions_index = content_index.get("Submissions", set())
 
+    # Lazy-build the alias index once per validation run
+    if not hasattr(validate_position_transitions, 'alias_index'):
+        validate_position_transitions.alias_index = build_alias_index()
+    alias_index = validate_position_transitions.alias_index
+
     def check_transitions_array(transitions_array, section_path):
         """Check a transitions array for missing transition references."""
         if not transitions_array or not isinstance(transitions_array, list):
@@ -465,6 +683,12 @@ def validate_position_transitions(data, category, content_index, path=""):
                        normalized_name.lower().replace('-', ' ').replace('_', ' '):
                         found = True
                         break
+
+            # Alias fallback — resolve old names through the alias map
+            if not found:
+                if resolve_through_alias(alias_index, "Transitions", normalized_name) or \
+                   resolve_through_alias(alias_index, "Submissions", normalized_name):
+                    found = True
 
             if not found:
                 warnings.append(
@@ -520,6 +744,11 @@ def validate_transition_outcomes(data, category, content_index, path=""):
     submissions_index = content_index.get("Submissions", set())
     valid_results = {'success', 'failure', 'counter'}
 
+    # Lazy-build alias index once
+    if not hasattr(validate_transition_outcomes, 'alias_index'):
+        validate_transition_outcomes.alias_index = build_alias_index()
+    alias_index = validate_transition_outcomes.alias_index
+
     # Validate probability sum
     total_probability = sum(
         o.get('probability', 0)
@@ -564,6 +793,12 @@ def validate_transition_outcomes(data, category, content_index, path=""):
                        normalized.lower().replace('-', ' ').replace('_', ' '):
                         found = True
                         break
+
+            # Alias fallback
+            if not found:
+                if resolve_through_alias(alias_index, "Positions", normalized) or \
+                   resolve_through_alias(alias_index, "Submissions", normalized):
+                    found = True
 
             if not found:
                 errors.append(
@@ -798,6 +1033,23 @@ def validate_json_file(json_path, schema, category, strict=False):
     reference_errors = validate_references(data, category, json_path.name)
     errors.extend(reference_errors)
     categories["non_blocking"].extend(reference_errors)
+
+    # Alias denylist (do-not-merge) → blocking
+    if not hasattr(validate_json_file, 'do_not_merge'):
+        validate_json_file.do_not_merge = load_do_not_merge()
+    denylist_errors = validate_aliases_not_denylisted(data, json_path, validate_json_file.do_not_merge)
+    errors.extend(denylist_errors)
+    categories["blocking"].extend(denylist_errors)
+
+    # Disambiguation reciprocity → non_blocking (warnings about asymmetric pairs)
+    disamb_warnings = validate_disambiguations_reciprocal(data, category, json_path)
+    warnings.extend(disamb_warnings)
+    categories["non_blocking"].extend(disamb_warnings)
+
+    # Curated affiliate products → non_blocking (placeholder/duplicate-id checks)
+    product_warnings = validate_products(data, category)
+    warnings.extend(product_warnings)
+    categories["non_blocking"].extend(product_warnings)
 
     # Build content index for cross-file validation (cached in function)
     if not hasattr(validate_json_file, 'content_index'):

@@ -10,6 +10,41 @@ description: "Master the Deep Half Entry from Flattened Half Guard. Complete gui
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Deep Half Entry from Flattened",
+  "description": "Master the Deep Half Entry from Flattened Half Guard. Complete guide to escaping crushing pressure by diving underneath your opponent into deep half guard.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Deep Half Entry from Flattened", "item": "https://bjjgraph.org/Transitions/Deep-Half-Entry-from-Flattened" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Deep Half Entry from Flattened",
+  "description": "Deep Half Entry from Flattened is a bottom half-guard escape where the pinned player times the top player's weight shift to dive beneath their hips, securing a deep underhook on the far leg to convert crushing pressure into offensive deep half guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Deep Half Entry from Flattened Half Guard. Complete gui
 
 <section id="overview" class="content-section">
 
-The Deep Half Entry from Flattened Half Guard is a critical escape technique that transforms one of the most disadvantageous positions in Brazilian Jiu-Jitsu into an offensive guard system. When pinned flat under crushing chest pressure with your half guard hook as the only remaining barrier, this transition allows you to dive underneath your opponent's center of gravity and establish deep half guard, a position with powerful sweep leverage. The entry relies on precise timing, specific hip mechanics, and the ability to thread your body beneath the top player during momentary weight shifts.
+**Deep Half Entry from Flattened is a bottom half-guard escape where the pinned player times the top player's weight shift to dive beneath their hips, securing a deep underhook on the far leg to convert crushing pressure into offensive deep half guard.**
+
+For purple and brown belts who keep getting flattened by heavy pressure passers, this entry reframes the entire defensive problem: rather than fighting back to the surface against the top player's full weight, you weaponize the very proximity that flattening creates. When pinned flat under crushing chest pressure with your half guard hook as the only remaining barrier, the dive underneath your opponent's center of gravity becomes available precisely because their chest pressure has brought their hips close to your head. The entry relies on precise timing, specific hip mechanics, and the ability to thread your body beneath the top player during momentary weight shifts.
 
 This technique represents a paradigm shift in half guard recovery philosophy. Rather than fighting to re-establish frames and knee shields from the surface, a process that requires overcoming the top player's entire body weight, the deep half entry takes advantage of the proximity that flattening creates. Your opponent's chest pressure brings their hips close to your head, which is precisely the distance needed to dive under for deep half guard. What appears to be a crushing disadvantage becomes the setup for your escape, provided you understand the entry mechanics and timing windows.
 
@@ -224,5 +261,7 @@ The Deep Half Entry from Flattened Half Guard occupies a crucial position in the
 
 
 </section>
+
+
 
 </main>

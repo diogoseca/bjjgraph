@@ -10,10 +10,55 @@ description: "Master the omoplata from Crackhead Control. Complete guide to this
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Omoplata from Crackhead Control targets the Shoulder joint (rotator cuff, capsule, AC joint). Risk: Rotator cuff tear or strain. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Omoplata from Crackhead Control",
+  "description": "Master the omoplata from Crackhead Control. Complete guide to this 10th Planet shoulder lock entry with finishing mechanics, defensive counters, and drills.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Omoplata from Crackhead Control", "item": "https://bjjgraph.org/Submissions/Omoplata-from-Crackhead-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Omoplata from Crackhead Control",
+  "description": "The omoplata from Crackhead Control is a 10th Planet shoulder lock that exploits the pre-isolated arm and broken posture of the Rubber Guard system, threading a leg across the trapped shoulder to externally rotate the joint and force the tap.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The omoplata from Crackhead Control is a 10th Planet shoulder lock that exploits the pre-isolated arm and broken posture of the Rubber Guard system, threading a leg across the trapped shoulder to externally rotate the joint and force the tap.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Shoulder Lock</span>
+<span class="meta-chip">Targets Shoulder joint (rotator cuff, capsule, AC joint)</span>
+<span class="meta-chip">52% success</span>
+</div>
+
+> [!danger] Safety
+> Omoplata from Crackhead Control targets the Shoulder joint (rotator cuff, capsule, AC joint). Primary risk: Rotator cuff tear or strain. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,55 +75,7 @@ What distinguishes this entry from standard closed guard omoplata attempts is th
 
 The finishing mechanics follow established omoplata principles once the perpendicular angle is achieved. The attacker controls the opponent's far hip to prevent the forward roll escape, sits up tall to maximize the lever arm, and applies progressive forward pressure to externally rotate the shoulder joint past its natural range of motion. Competition data from no-gi events shows this entry yields notably higher finish rates than omoplata attempts from basic closed guard, primarily because the opponent's defensive options are severely limited by the preceding Rubber Guard control sequence.
 
-**Category**: Joint Lock
-**Type**: Shoulder Lock
-**Target Area**: Shoulder joint (rotator cuff, capsule, AC joint)
-**Starting Position**: [[Positions/Crackhead Control]]
-**From Position**: [[Positions/Crackhead Control]] (Bottom)
-**Success Rate**: 52%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Rotator cuff tear or strain | High | 6-12 weeks for minor tears, 3-6 months for major tears |
-| AC joint separation | Medium | 4-8 weeks |
-| Shoulder capsule damage | High | 8-16 weeks |
-| Labrum tear | CRITICAL | 6-12 months with surgery |
-
-
-**Application Speed**: SLOW and progressive - 4-6 seconds minimum pressure increase
-
-**Tap Signals**:
-- Verbal tap (any vocal signal)
-- Physical hand tap on opponent or mat
-- Physical foot tap on opponent or mat
-- Any distress signal or sound
-- Roll forward escape attempt (release immediately)
-
-
-**Release Protocol**:
-1. Immediately stop all forward pressure and rotation
-2. Release leg pinch on shoulder
-3. Unwind hip position to neutral
-4. Allow opponent to extract arm slowly
-5. Check for injury before continuing
-
-
-**Training Restrictions**:
-- Never spike or jerk the shoulder rotation
-- Never apply competition speed in training
-- Always allow opponent access to tap
-- Stop immediately if opponent rolls forward (escape attempt)
-- Never apply full finishing pressure until advanced belt level
-- Always control the rate of shoulder rotation
-
+**Starting Position**: [[Positions/Crackhead Control]] · **From**: [[Positions/Crackhead Control]] (Bottom)
 
 </section>
 
@@ -235,40 +232,65 @@ The finishing mechanics follow established omoplata principles once the perpendi
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Omoplata]]
 - [[Transitions/Gogoplata]]
 - [[Submissions/Triangle Choke]]
 - [[Submissions/Monoplata]]
 - [[Submissions/Arm in Guillotine]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Crackhead Control]] - Starting position for this submission variant with pre-existing arm isolation
 - [[Positions/Rubber Guard/Mission Control]] - Preceding Rubber Guard position that feeds into Crackhead Control entry
 - [[Positions/Omoplata Control]] - Control position used during the finishing sequence to prevent roll escape
 - [[Positions/Rubber Guard/Meathook]] - Related Rubber Guard position in the 10th Planet system chain
 - [[Positions/Closed Guard]] - Fallback guard position if omoplata attempt is countered or abandoned
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Rotator cuff tear or strain | High | 6-12 weeks for minor tears, 3-6 months for major tears |
+| AC joint separation | Medium | 4-8 weeks |
+| Shoulder capsule damage | High | 8-16 weeks |
+| Labrum tear | CRITICAL | 6-12 months with surgery |
+
+
+**Application Speed**: SLOW and progressive - 4-6 seconds minimum pressure increase
+
+**Tap Signals**:
+- Verbal tap (any vocal signal)
+- Physical hand tap on opponent or mat
+- Physical foot tap on opponent or mat
+- Any distress signal or sound
+- Roll forward escape attempt (release immediately)
+
+
+**Release Protocol**:
+1. Immediately stop all forward pressure and rotation
+2. Release leg pinch on shoulder
+3. Unwind hip position to neutral
+4. Allow opponent to extract arm slowly
+5. Check for injury before continuing
+
+
+**Training Restrictions**:
+- Never spike or jerk the shoulder rotation
+- Never apply competition speed in training
+- Always allow opponent access to tap
+- Stop immediately if opponent rolls forward (escape attempt)
+- Never apply full finishing pressure until advanced belt level
+- Always control the rate of shoulder rotation
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Omoplata from Crackhead Control leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

@@ -14,7 +14,8 @@
   ],
   "system_type": "Attack System",
   "difficulty_level": "Advanced",
-  "overview": "The Berimbolo is a revolutionary guard retention and back-taking system that fundamentally changed modern BJJ competition. Developed and popularized by the Mendes brothers and refined by competitors like Mikey Musumeci, this system uses dynamic inversion, grip control, and precise timing to transform defensive guard positions into dominant back control. The Berimbolo capitalizes on the opponent's forward pressure and base vulnerabilities, using rotational movement to circle underneath and behind them. What makes this system particularly powerful is its ability to retain guard under heavy pressure while simultaneously creating back-taking opportunities. The practitioner uses their legs and hips as both barriers and levers, controlling distance while inverting to attack the opponent's back. This represents a shift from static guard retention to dynamic, offensive guard work that forces opponents into constant defensive adjustments. The system integrates seamlessly with De La Riva guard, X-Guard, and single leg X positions, creating a cohesive framework for modern guard players.",
+  "summary": "The Berimbolo is a guard-based attacking system that uses inversion and rotational movement from De La Riva guard to spin underneath the opponent and take their back, converting defensive guard positions into dominant back control.",
+  "overview": "Emerging from the gi competition scene of the early 2010s, the Berimbolo was developed and popularized by the Mendes brothers and later refined by competitors like Mikey Musumeci, fundamentally changing how modern guard players approach back-taking. The system uses dynamic inversion, grip control, and precise timing to transform defensive guard positions into dominant back control, capitalizing on the opponent's forward pressure and base vulnerabilities by using rotational movement to circle underneath and behind them. What makes this system particularly powerful is its ability to retain guard under heavy pressure while simultaneously creating back-taking opportunities. The practitioner uses their legs and hips as both barriers and levers, controlling distance while inverting to attack the opponent's back. This represents a shift from static guard retention to dynamic, offensive guard work that forces opponents into constant defensive adjustments. The system integrates seamlessly with De La Riva guard, X-Guard, and single leg X positions, creating a cohesive framework for modern guard players.",
   "key_principles": [
     "Dynamic inversion - use rotation and hip movement to create angles and attack the back",
     "Grip dependency - collar and pant grips control opponent posture and enable rotational entries",
@@ -328,6 +329,44 @@
       "name": "Competition Preparation System",
       "content_type": "System",
       "relationship": "Strategic framework for implementing Berimbolo effectively in competitive tournament environments"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What is the Berimbolo and what does it accomplish?",
+      "answer": "The Berimbolo is an inversion-based attacking system, usually launched from De La Riva guard, that spins underneath and around the opponent to take their back, converting a defensive guard into dominant back control."
+    },
+    {
+      "question": "From which guard is the Berimbolo most commonly initiated?",
+      "answer": "It is most commonly initiated from De La Riva guard, using the inside-leg hook behind the opponent's near leg plus collar and pant grips to create the off-balance and angle needed to invert."
+    },
+    {
+      "question": "Why should you roll over your shoulder rather than your neck during the inversion?",
+      "answer": "Rolling over the shoulder protects the cervical spine from dangerous loading, and it also produces a faster, more efficient rotation; rolling over the neck risks injury and slows the spin to the back."
+    },
+    {
+      "question": "How do you counter an opponent who sits back to defend the Berimbolo?",
+      "answer": "Chain into X-Guard or Single Leg X sweeps. Sitting back removes the forward pressure the Berimbolo needs but exposes the opponent to elevation sweeps, creating a dilemma where both responses are threatening."
+    },
+    {
+      "question": "What is the correct control sequence when completing the back take from the body lock phase?",
+      "answer": "Insert the near hook first while keeping body lock pressure, transition the grip to a seat belt with chest glued to the back, then insert the far hook last to consolidate full back control with both hooks deep."
+    },
+    {
+      "question": "What physical attribute is the key prerequisite for safely executing the Berimbolo?",
+      "answer": "Hip and spinal mobility (flexibility) is essential, because the system requires inverting and rotating the hips underneath the body; insufficient flexibility forces neck strain or incomplete rotation."
+    },
+    {
+      "question": "What is a common timing error when entering the Berimbolo?",
+      "answer": "Inverting prematurely before the opponent is truly off-balanced. Without committed forward weight and posted hands, the opponent can follow your rotation or pressure forward into side control or mount."
+    },
+    {
+      "question": "Why is the body lock or body triangle important during the rotation phase?",
+      "answer": "It is the transitional control that bridges De La Riva and full back control, keeping the opponent's hips trapped and preventing them from turning to face you while you finish inserting hooks and the seat belt."
+    },
+    {
+      "question": "How does the Berimbolo integrate with the rest of a modern guard game?",
+      "answer": "It connects seamlessly with De La Riva, X-Guard, Single Leg X, and Reverse De La Riva, so failed entries flow into sweeps or alternate back takes, making the guard player unpredictable and constantly threatening."
     }
   ]
 }

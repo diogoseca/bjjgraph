@@ -10,6 +10,41 @@ description: "Master the Smash Pocket Half pass in BJJ. Pressure-based technique
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Smash Pocket Half",
+  "description": "Master the Smash Pocket Half pass in BJJ. Pressure-based technique to neutralize the deep underhook pocket half guard and flatten the opponent for passing.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Smash Pocket Half", "item": "https://bjjgraph.org/Transitions/Smash-Pocket-Half" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Smash Pocket Half",
+  "description": "The Smash Pocket Half is a pressure-passing technique from Pocket Half Guard Top that progressively collapses the bottom player's deep underhook and hip-frame pocket, flattening them into Flattened Half Guard where conventional passes open up.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Smash Pocket Half pass in BJJ. Pressure-based technique
 
 <section id="overview" class="content-section">
 
-The Smash Pocket Half is a pressure-based transitional technique used from Pocket Half Guard Top to neutralize the bottom player's deep underhook advantage and collapse their pocket frame. Unlike general smash passes that work from standard half guard configurations, this technique specifically targets the structural elements that make Pocket Half Guard dangerous - the deep underhook reaching across the back and the active hip frame that creates sweeping leverage. By systematically eliminating these control points through directed pressure, the top player transitions the position into a Flattened Half Guard where conventional passing becomes significantly easier.
+**The Smash Pocket Half is a pressure-passing technique from Pocket Half Guard Top that progressively collapses the bottom player's deep underhook and hip-frame pocket, flattening them into Flattened Half Guard where conventional passes open up.**
+
+Pocket Half Guard is one of the most stubborn half guards to pass because the bottom player's deep cross-back underhook and active hip-frame 'pocket' generate constant sweep and back-take threats. The Smash Pocket Half is the dedicated response: rather than relying on speed or angle, it uses directed, progressive pressure to dismantle the pocket structure - eliminating the hip frame and the underhook depth - and collapse the bottom player into a Flattened Half Guard where conventional passing becomes significantly easier. Unlike general smash passes that work from standard half guard configurations, this technique specifically targets the structural elements that make Pocket Half Guard dangerous - the deep underhook reaching across the back and the active hip frame that creates sweeping leverage.
 
 The technique centers on redirecting chest pressure to collapse the pocket space while simultaneously stripping or neutralizing the bottom player's underhook. This requires coordinated application of crossface pressure, shoulder driving force, and hip control that overwhelms the bottom player's ability to maintain their offensive structure. The smash is not a single explosive movement but rather a progressive compression that methodically removes each element of the pocket configuration - first the hip frame, then the underhook depth, and finally the bottom player's angle on the mat.
 
@@ -216,11 +253,13 @@ The Smash Pocket Half occupies a specialized niche in the half guard passing hie
 
 - [[Transitions/Cross Face Pass from Flattened Half]] - Alternative follow-up pass using crossface from the flattened position
 
-- [[Transitions/Smash Pass from Knee Shield]] - Related smash technique applied to different half guard variation
+- [[Transitions/Smash Pass]] - Related smash technique applied to standard half guard without the pocket structure
 
 - [[Positions/Half Guard/Knee Shield Half Guard]] - Position the bottom player may recover to if pocket is partially neutralized
 
 
 </section>
+
+
 
 </main>

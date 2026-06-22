@@ -10,6 +10,41 @@ description: "Complete the Buggy Choke submission from turtle top. Master grip t
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Finish Buggy Choke",
+  "description": "Complete the Buggy Choke submission from turtle top. Master grip tightening, body mechanics, and finishing pressure for this high-percentage collar choke.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Finish Buggy Choke", "item": "https://bjjgraph.org/Transitions/Finish-Buggy-Choke" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Finish Buggy Choke",
+  "description": "The Finish Buggy Choke is the strangulation phase of the buggy choke attack from turtle top, where the attacker consolidates a deep palm-up collar grip with perpendicular body pressure to compress both carotid arteries until the opponent taps.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Complete the Buggy Choke submission from turtle top. Master grip t
 </div>
 
 <section id="overview" class="content-section">
+
+**The Finish Buggy Choke is the strangulation phase of the buggy choke attack from turtle top, where the attacker consolidates a deep palm-up collar grip with perpendicular body pressure to compress both carotid arteries until the opponent taps.**
 
 The Finish Buggy Choke represents the culmination of the buggy choke attack sequence from turtle top position. This blood choke targets the carotid arteries using collar grip pressure combined with perpendicular body mechanics to create strangulation. Unlike arm-in chokes that require specific arm positioning, the buggy choke finish relies on deep collar penetration and coordinated pressure application through chest weight and hip drive.
 
@@ -220,5 +257,7 @@ Finish Buggy Choke represents the terminal attack option from the buggy choke co
 
 
 </section>
+
+
 
 </main>

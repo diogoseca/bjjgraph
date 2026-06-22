@@ -159,10 +159,10 @@ Diamond Guard transforms standard closed guard into an aggressive submission-hun
 
 <p class="section-subtitle">What is Diamond Guard (Top)?</p>
 
-- One practitioner has established an overhook on the other's arm, wrapping over the bicep or tricep and pulling it across their body to eliminate posting ability on that side
-- The overhooking practitioner simultaneously controls the opponent's head by gripping behind the neck, pulling the head toward their chest to complete the diamond-shaped frame
-- The guard player's legs remain in closed guard configuration with ankles locked behind the opponent's lower back, reinforcing the posture break through active heel pressure
-- The opponent's posture is broken with head pulled below hip line, spine rounded, and weight driven forward by the combined pull of overhook and head control
+- The top player's arm has been overhooked, wrapped over the bicep or tricep and pulled across the body, eliminating posting ability on that side
+- The top player's head is controlled by the opponent gripping behind the neck and pulling the head toward their chest, completing the diamond-shaped frame
+- The opponent's closed guard remains locked with ankles behind the top player's lower back, reinforcing the posture break through active heel pressure
+- The top player's posture is broken with head pulled below hip line, spine rounded, and weight driven forward by the combined pull of overhook and head control
 
 
 </section>
@@ -173,10 +173,10 @@ Diamond Guard transforms standard closed guard into an aggressive submission-hun
 
 <p class="section-subtitle">What do you need before playing Diamond Guard (Top)?</p>
 
-- Ability to establish and maintain a deep overhook from closed guard against resistance
-- Understanding of triangle, omoplata, and kimura entries from overhook control
-- Hip mobility to create angles while maintaining closed guard and diamond controls
-- Grip strength and endurance to maintain the diamond frame under defensive pressure
+- Ability to recognize the diamond frame early before posture is fully broken
+- Understanding of how head control and overhook combine to prevent posture recovery
+- Hip mobility and base to drive forward and create space against the closed guard
+- Grip-fighting endurance to strip the overhook and head control under pressure
 
 
 </section>
@@ -187,13 +187,13 @@ Diamond Guard transforms standard closed guard into an aggressive submission-hun
 
 <p class="section-subtitle">What are the key principles for attacking from Diamond Guard?</p>
 
-- Overhook and head control work as an integrated system — losing either element significantly reduces the position's effectiveness
-- The diamond shape creates a closed frame that amplifies posture-breaking force beyond standard collar grips
-- Submission chains flow naturally from grip adjustments within the diamond: triangle, omoplata, kimura
-- Maintain closed guard legs throughout to prevent distance creation and preserve the offensive framework
-- Create dilemmas by threatening multiple submissions that require different defensive responses
-- Position requires active management of overhook depth and head control angle to maintain offensive options
-- Energy advantage favors the guard player as maintaining the frame requires less effort than escaping it
+- Address head control before yanking the trapped arm — broken posture makes arm extraction nearly impossible until the head is freed
+- Posture recovery is the priority: re-stack the spine and lift the head above the hip line to neutralize the diamond's pulling force
+- Stripping either control point (overhook or head grip) collapses the frame, but doing so opens triangle and omoplata windows that must be managed
+- Stay heavy and drive forward to deny the distance the guard player needs to angle off for submissions
+- Beware committing the free hand to grip fighting — keep it available to base and prevent being swept
+- Escaping burns significant energy against the structural frame, so commit to a clean posture break rather than slow grinding
+- Energy disadvantage favors the guard player, so the trapped top must act decisively before fatigue sets in
 
 
 </section>
@@ -345,5 +345,7 @@ Practice escaping diamond guard from the top. Partner establishes diamond with p
 
 
 </section>
+
+
 
 </main>

@@ -142,20 +142,35 @@ description: "Master wedges in BJJ. Learn to insert knees, elbows, shins, and fo
 }
 </script>
 
-> Wedges is a low complexity BJJ principle applicable at the Fundamental level. Develop over Beginner to Advanced.
 
-**Application Level**: Fundamental
-**Complexity**: Low
-**Development Timeline**: Beginner to Advanced
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Wedges",
+  "description": "A wedge is any hard body part — knee, shin, elbow, or forearm — inserted into a gap to pry space open, redirect force along a new vector, or block an opponent's movement path.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Fundamental</span>
+<span class="meta-chip">Low complexity</span>
+<span class="meta-chip">Beginner to Advanced</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
 
-## What is Wedges?
+## What are Wedges?
 
-Wedges are one of the oldest mechanical principles in human toolmaking, and they appear everywhere in Brazilian Jiu-Jitsu. A wedge is any body part inserted into a gap to pry space open, redirect force along a new vector, or block an opponent's movement path. The knee shield in half guard is a wedge. The elbow driven inside an opponent's thigh during a guard pass is a wedge. The shin inserted across an opponent's hip line to retain guard is a wedge. Every time you slide a forearm under a chin, post a knee between entangled legs, or drive an elbow into the crease of someone's hip, you are applying wedge mechanics.
+**A wedge is any hard body part — knee, shin, elbow, or forearm — inserted into a gap to pry space open, redirect force along a new vector, or block an opponent's movement path.**
+
+Wedges are one of the oldest mechanical principles in human toolmaking, and they appear everywhere in Brazilian Jiu-Jitsu. The knee shield in half guard is a wedge. The elbow driven inside an opponent's thigh during a guard pass is a wedge. The shin inserted across an opponent's hip line to retain guard is a wedge. Every time you slide a forearm under a chin, post a knee between entangled legs, or drive an elbow into the crease of someone's hip, you are applying wedge mechanics.
 
 What separates a wedge from a simple frame or post is its direction of action. A frame resists force head-on. A wedge splits force apart or redirects it laterally. When you insert your knee shield in half guard, you are not simply blocking your opponent's chest — you are angling their pressure away from your centerline and creating a channel of space along which you can hip escape or re-guard. When a passer drives a knee inside the bottom player's thigh, the wedge separates the legs and opens a passing lane. Wedges work because they convert a single line of force into two diverging lines, and the opponent can only chase one.
 
@@ -374,5 +389,7 @@ Practice chaining multiple wedges in sequence: insert first wedge, use it to cre
 
 
 </section>
+
+
 
 </main>

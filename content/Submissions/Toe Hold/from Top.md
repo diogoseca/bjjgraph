@@ -10,10 +10,55 @@ description: "Master Toe Hold from Top in BJJ. Complete guide with safety protoc
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Toe Hold from Top targets the Ankle and knee ligaments (lateral ankle complex, medial collateral ligament). Risk: Ankle ligament tears (lateral collateral ligament complex). Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Toe Hold from Top",
+  "description": "Master Toe Hold from Top in BJJ. Complete guide with safety protocols, setup, execution steps. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Toe Hold from Top", "item": "https://bjjgraph.org/Submissions/Toe-Hold-from-Top" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Toe Hold from Top",
+  "description": "The Toe Hold from Top is a rotational foot lock applied from a top leg entanglement, using a figure-four grip to twist the foot inward and pull the heel, torquing the ankle's lateral ligaments and the knee's MCL until the opponent taps.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Toe Hold from Top is a rotational foot lock applied from a top leg entanglement, using a figure-four grip to twist the foot inward and pull the heel, torquing the ankle's lateral ligaments and the knee's MCL until the opponent taps.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Leg Lock</span>
+<span class="meta-chip">Targets Ankle and knee ligaments (lateral ankle complex, medial collateral ligament)</span>
+<span class="meta-chip">58% success</span>
+</div>
+
+> [!danger] Safety
+> Toe Hold from Top targets the Ankle and knee ligaments (lateral ankle complex, medial collateral ligament). Primary risk: Ankle ligament tears (lateral collateral ligament complex). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -24,63 +69,13 @@ description: "Master Toe Hold from Top in BJJ. Complete guide with safety protoc
 
 <section id="overview" class="content-section">
 
-The Toe Hold from Top is a fundamental leg lock submission that attacks the ankle and knee simultaneously through a figure-four grip configuration. This technique is particularly effective from various top leg entanglement positions including Ashi Garami, Outside Ashi, and 50-50 Guard. The toe hold creates a combined rotational and hyperextension force on the ankle while placing significant stress on the knee's medial collateral ligament (MCL), making it one of the most versatile and dangerous leg attacks in modern Brazilian Jiu-Jitsu.
+Few submissions reward positional control as directly as the Toe Hold from Top, where dominant top pressure in a leg entanglement is converted into a fight-ending rotational foot lock. This technique is particularly effective from various top leg entanglement positions including Ashi Garami, Outside Ashi, and 50-50 Guard. The toe hold creates a combined rotational and hyperextension force on the ankle while placing significant stress on the knee's medial collateral ligament (MCL), making it one of the most versatile and dangerous leg attacks in modern Brazilian Jiu-Jitsu.
 
-Unlike straight ankle locks that primarily target the Achilles tendon, the toe hold's rotational component affects multiple joint structures simultaneously, which is why it requires extremely careful application in training. The submission works by controlling the opponent's leg with your legs (typically in an Ashi Garami configuration) while your arms create a figure-four grip around the foot. The finishing mechanism involves pulling the heel toward you while rotating the toe away from the opponent's centerline, creating a spiraling pressure that attacks both the ankle's lateral ligaments and the knee's MCL.
+Unlike straight ankle locks that primarily target the Achilles tendon, the toe hold's rotational component affects multiple joint structures simultaneously, which is why it requires extremely careful application in training. The submission works by controlling the opponent's leg with your legs (typically in an Ashi Garami configuration) while your arms create a figure-four grip around the foot. The finishing mechanism involves pulling the heel toward you while rotating the toe toward the opponent's centerline (internal/medial rotation), creating a spiraling pressure that attacks both the ankle's lateral ligaments and the knee's MCL.
 
 The toe hold's effectiveness comes from its ability to be applied from dominant top positions where you maintain postural control and can prevent the opponent from rolling or countering. This makes it a favored attack for competitors who specialize in leg lock systems, as it can be seamlessly integrated into sequences with heel hooks, knee bars, and ankle locks. Understanding the proper safety protocols and progressive training methodology is absolutely essential, as the toe hold can cause severe ankle and knee injuries if applied with competition speed or intensity during practice sessions.
 
-**Category**: Joint Lock
-**Type**: Leg Lock
-**Target Area**: Ankle and knee ligaments (lateral ankle complex, medial collateral ligament)
-**Starting Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]]
-**From Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Bottom)
-**Success Rate**: 58%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Ankle ligament tears (lateral collateral ligament complex) | High | 4-8 weeks for grade 2 sprain, 3-6 months for complete tear |
-| Medial collateral ligament (MCL) damage to knee | CRITICAL | 6-12 weeks for grade 2 sprain, 4-9 months for complete tear, possible surgery |
-| Talofibular ligament rupture | High | 6-12 weeks, chronic instability possible |
-| Peroneal nerve damage from excessive rotation | Medium | 2-6 months, potential permanent numbness |
-| Fibula fracture (rare but documented) | CRITICAL | 3-6 months, surgical intervention required |
-
-
-**Application Speed**: EXTREMELY SLOW and progressive - 5-7 seconds minimum application time in training, with constant communication
-
-**Tap Signals**:
-- Verbal tap (primary safety signal)
-- Physical hand tap on partner or mat
-- Physical foot tap with free leg
-- Any distress vocalization or signal
-- Slapping mat repeatedly
-
-
-**Release Protocol**:
-1. Immediately stop all rotational pressure upon tap signal
-2. Release figure-four grip completely before releasing leg entanglement
-3. Allow opponent to externally rotate their foot back to neutral position
-4. Maintain leg control but remove all pressure for 2-3 seconds
-5. Only fully disengage after confirming opponent's safety
-6. Check with partner verbally after release
-
-
-**Training Restrictions**:
-- Never spike, jerk, or apply sudden rotational force to the submission
-- Never use competition speed or intensity during training
-- Always allow training partner access to tap with hands
-- Never practice on partners with previous ankle or knee injuries without clearance
-- Avoid practicing on new practitioners (white belts) until blue belt minimum
-- Never combine with rapid positional transitions that increase torque
-
+**Starting Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] · **From**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Bottom)
 
 </section>
 
@@ -122,7 +117,7 @@ The toe hold's effectiveness comes from its ability to be applied from dominant 
 
 - Establish the figure-four grip with proper hand placement: palm-to-palm or gable grip, never finger-locked which can cause hand injuries
 
-- Control the heel by pulling it toward your chest while simultaneously rotating the toe away from opponent's centerline - this creates the dual-axis pressure
+- Control the heel by pulling it toward your chest while simultaneously rotating the toe toward opponent's centerline (medial/internal rotation) - this creates the dual-axis pressure
 
 - Keep your hips close to opponent's hip to prevent them from creating distance and relieving pressure on the ankle and knee
 
@@ -146,7 +141,7 @@ The toe hold's effectiveness comes from its ability to be applied from dominant 
 
 - **Initiate heel pull toward your chest**: Begin pulling the opponent's heel toward your chest by flexing your arms, as if performing a bicep c...
 
-- **Apply external rotation to the toe**: While maintaining the heel pull, begin rotating the toe away from opponent's centerline by turning y...
+- **Apply medial rotation to the toe**: While maintaining the heel pull, begin rotating the toe toward opponent's centerline (medial/interna...
 
 - **Combine heel pull and rotation for finish**: The final finishing phase involves simultaneously pulling the heel toward your chest while continuin...
 
@@ -200,7 +195,7 @@ The toe hold's effectiveness comes from its ability to be applied from dominant 
 
 - Attacker drives their hips forward into yours while adjusting to a perpendicular angle relative to your trapped leg - this indicates they are positioning for optimal finishing leverage
 
-- You feel your heel being pulled toward the attacker's chest combined with initial rotational pressure turning your toes away from your centerline
+- You feel your heel being pulled toward the attacker's chest combined with initial rotational pressure turning your toes toward your centerline (medial/inward rotation)
 
 - Attacker's elbows tighten against their torso as they compact the figure-four grip - this indicates imminent finishing pressure application
 
@@ -265,51 +260,74 @@ The toe hold's effectiveness comes from its ability to be applied from dominant 
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Transitions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
 - [[Transitions/Outside Heel Hook]]
 - [[Submissions/Straight Ankle Lock]]
 - [[Submissions/Flying Kneebar]]
-- [[Positions/Aoki Lock Control]]
+- [[Transitions/Aoki Lock]]
 - [[Submissions/Toe Hold]]
 - [[Submissions/Achilles Lock]]
 - [[Submissions/Calf Slicer]]
 - [[Transitions/Estima Lock]]
-- [[Submissions/Inside Heel Hook]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Primary starting position for toe hold application with fundamental leg control structure
 - [[Positions/Ashi Garami/Outside Ashi-Garami]] - Alternative starting position providing excellent toe hold control and preventing opponent's counter-rotation
 - [[Positions/Ashi Garami/Saddle]] - Advanced leg entanglement position where toe hold serves as alternative to heel hook when heel is defended
 - [[Positions/Ashi Garami/50-50 Guard]] - Symmetrical entanglement position where toe hold can be applied in competitive race situations
-- [[Transitions/Heel Hook]] - More dangerous leg lock that shares similar positions and can be used to set up or chain with toe hold attacks
-- [[Submissions/Straight Ankle Lock]] - Related foot lock submission that can be transitioned to from toe hold if rotation is unsuccessful
-- [[Submissions/Flying Kneebar]] - Alternative leg lock that attacks same leg from similar positions, often used in combination sequences
 - [[Positions/Leg Entanglement]] - Conceptual framework for understanding the positional control required before attempting toe hold
 - [[Positions/Kneebar Control]] - Control position for alternative leg attack accessible from same leg entanglements
 - [[Positions/Toe Hold Control]] - Control position representing the established toe hold grip before finishing pressure
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Ankle ligament tears (lateral collateral ligament complex) | High | 4-8 weeks for grade 2 sprain, 3-6 months for complete tear |
+| Medial collateral ligament (MCL) damage to knee | CRITICAL | 6-12 weeks for grade 2 sprain, 4-9 months for complete tear, possible surgery |
+| Talofibular ligament rupture | High | 6-12 weeks, chronic instability possible |
+| Peroneal nerve damage from excessive rotation | Medium | 2-6 months, potential permanent numbness |
+| Fibula fracture (rare but documented) | CRITICAL | 3-6 months, surgical intervention required |
+
+
+**Application Speed**: EXTREMELY SLOW and progressive - 5-7 seconds minimum application time in training, with constant communication
+
+**Tap Signals**:
+- Verbal tap (primary safety signal)
+- Physical hand tap on partner or mat
+- Physical foot tap with free leg
+- Any distress vocalization or signal
+- Slapping mat repeatedly
+
+
+**Release Protocol**:
+1. Immediately stop all rotational pressure upon tap signal
+2. Release figure-four grip completely before releasing leg entanglement
+3. Allow opponent to externally rotate their foot back to neutral position
+4. Maintain leg control but remove all pressure for 2-3 seconds
+5. Only fully disengage after confirming opponent's safety
+6. Check with partner verbally after release
+
+
+**Training Restrictions**:
+- Never spike, jerk, or apply sudden rotational force to the submission
+- Never use competition speed or intensity during training
+- Always allow training partner access to tap with hands
+- Never practice on partners with previous ankle or knee injuries without clearance
+- Avoid practicing on new practitioners (white belts) until blue belt minimum
+- Never combine with rapid positional transitions that increase torque
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Toe Hold from Top leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

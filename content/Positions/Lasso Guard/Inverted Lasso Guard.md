@@ -10,6 +10,41 @@ description: "Master inverted lasso guard in BJJ. Strategic guide covering setup
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Inverted Lasso Guard",
+  "description": "Master inverted lasso guard in BJJ. Strategic guide covering setup mechanics, sweeping systems, submission entries, and defensive counters with expert analysis.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Inverted Lasso Guard", "item": "https://bjjgraph.org/Positions/Inverted-Lasso-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Inverted Lasso Guard",
+  "description": "Inverted Lasso Guard is an advanced open-guard variation where the bottom player keeps a lasso hook threaded through the opponent's arm while rolling onto their shoulders, creating inverted angles for berimbolo back-takes, overhead sweeps, and kiss-of-the-dragon entries.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master inverted lasso guard in BJJ. Strategic guide covering setup
 </div>
 
 <section id="overview" class="content-section">
+
+**Inverted Lasso Guard is an advanced open-guard variation where the bottom player keeps a lasso hook threaded through the opponent's arm while rolling onto their shoulders, creating inverted angles for berimbolo back-takes, overhead sweeps, and kiss-of-the-dragon entries.**
 
 Inverted Lasso Guard represents an advanced variation of traditional lasso guard where the practitioner maintains the lasso hook while inverting their body position, typically rolling backwards onto their shoulders while keeping one leg laced through the opponent's arm. This position emerged from modern sport jiu-jitsu as competitors discovered that inverting created superior angles for sweeps and back takes that were difficult to counter from standard lasso positioning.
 
@@ -201,7 +238,7 @@ Inverted lasso guard fits into broader guard systems as a transitional position 
 
 - **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** (10% of attempts)
 
-- **[[Transitions/Knee Cut Pass/Attacker|Knee Cut Pass]]** (8% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (8% of attempts)
 
 - **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (9% of attempts)
 
@@ -272,5 +309,7 @@ Inverted lasso guard fits into broader guard systems as a transitional position 
 
 
 </section>
+
+
 
 </main>

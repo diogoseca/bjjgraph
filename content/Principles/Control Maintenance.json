@@ -13,7 +13,8 @@
   "application_level": "Intermediate",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
-  "overview": "Control Maintenance represents the fundamental principle of preserving positional dominance through continuous adjustment, pressure application, and connection reinforcement that prevents opponent's defensive movements and escape attempts. Unlike specific techniques, control maintenance is a comprehensive conceptual framework that applies across all dominant positions and constitutes the bridge between achieving position and capitalizing on it offensively. This concept encompasses the tactical understanding that static control without adjustment creates escape opportunities, while dynamic maintenance through pressure modulation and positional micro-adjustments prevents defensive success. Control maintenance serves as both offensive foundation enabling submission attacks and transitions, and defensive capability preventing opponent from improving position. The ability to maintain dominant positions despite opponent's best escape efforts often determines overall BJJ effectiveness, making it one of the most essential conceptual elements for top game development.",
+  "summary": "Control Maintenance is the principle of preserving positional dominance through continuous micro-adjustment, pressure modulation, and redundant connection points that neutralize an opponent's escape mechanics before they generate momentum.",
+  "overview": "In the strategic hierarchy of grappling, securing a dominant position is only half the battle—holding it against a resisting, escape-hungry opponent is what separates fleeting position from genuine positional dominance. Unlike specific techniques, control maintenance is a comprehensive conceptual framework that applies across all dominant positions and constitutes the bridge between achieving position and capitalizing on it offensively. This concept encompasses the tactical understanding that static control without adjustment creates escape opportunities, while dynamic maintenance through pressure modulation and positional micro-adjustments prevents defensive success. Control maintenance serves as both offensive foundation enabling submission attacks and transitions, and defensive capability preventing opponent from improving position. The ability to maintain dominant positions despite opponent's best escape efforts often determines overall BJJ effectiveness, making it one of the most essential conceptual elements for top game development.",
   "key_principles": [
     "Apply continuous pressure that prevents opponent's movement without creating escape opportunities through overcommitment",
     "Maintain multiple connection points distributing control across different body areas",
@@ -386,6 +387,48 @@
       "name": "North-South",
       "content_type": "Position",
       "relationship": "Transitional position where control maintenance prevents guard recovery"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What is the core difference between static control and dynamic control maintenance?",
+      "answer": "Static control holds a fixed position and creates predictable patterns an opponent can systematically defeat; dynamic control maintenance continuously adjusts pressure, weight, and connections in response to escape attempts, denying the opponent the space and timing escapes require."
+    },
+    {
+      "question": "Why should you prioritize control maintenance over submission attempts from an unsecured position?",
+      "answer": "Committing to a submission from an unstable position opens escape windows and frequently leads to position loss or reversal; securing control first (position-over-submission) produces higher submission success rates and fewer surrendered positions."
+    },
+    {
+      "question": "How many connection points should a skilled practitioner maintain, and why does redundancy matter?",
+      "answer": "Skilled players maintain roughly 3-5 simultaneous connections so that losing any single contact point still leaves enough control to hold the position while reestablishing the broken connection, preventing total collapse from one defeated grip."
+    },
+    {
+      "question": "What is pressure modulation, and when do you apply maximum pressure?",
+      "answer": "Pressure modulation is varying intensity and direction based on the opponent's reactions—applying maximum pressure precisely when they attempt an active escape, and conserving energy with sustainable pressure during passive periods to create 'active rest.'"
+    },
+    {
+      "question": "What early escape indicators should you counter preemptively?",
+      "answer": "Postural changes, weight shifts, hip movement, and grip or frame attempts signal an escape in its preparation phase; countering these before the mechanics gain momentum is far less energy-intensive than reacting after the escape is fully underway."
+    },
+    {
+      "question": "Why is relying on muscular force a common control-maintenance error?",
+      "answer": "Muscular control is unsustainable and fails as fatigue sets in, letting opponents escape simply by outlasting you; technical control using body position, weight distribution, and structural alignment sustains the position without depleting energy."
+    },
+    {
+      "question": "How do control maintenance principles apply from the bottom, such as in closed or butterfly guard?",
+      "answer": "The principles invert: the bottom player maintains the guard itself, controls the opponent's posture through grips and leg pressure, and prevents a stable passing base—denying space and disrupting passing mechanics rather than holding a pin."
+    },
+    {
+      "question": "What is the relationship between base maintenance and pressure application?",
+      "answer": "They must be coordinated: pouring pressure into an opponent while neglecting your own base lets them use your committed weight against you for sweeps or reversals, so structural stability must be preserved even while applying significant control pressure."
+    },
+    {
+      "question": "In side control, which connections and pressures define effective control maintenance?",
+      "answer": "Establishing crossface and underhook connections while driving shoulder pressure to block the hip escape, modulating chest pressure to kill bridge attempts, and transitioning between side control configurations as the opponent's defensive reactions change."
+    },
+    {
+      "question": "What observable behavior distinguishes an advanced control maintainer from an intermediate one?",
+      "answer": "The advanced practitioner implements preemptive counters from recognition of preparatory movements, maintains and reestablishes 3-5 connections without compromise, and uses structure over strength to hold positions regardless of size or strength differentials."
     }
   ]
 }

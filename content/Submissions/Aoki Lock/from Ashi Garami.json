@@ -14,6 +14,7 @@
   "target_area": "Shin and ankle compression",
   "starting_position": "Ashi Garami",
   "success_rate": 50,
+  "summary": "The Aoki Lock from Ashi Garami is a leg-compression submission that traps the opponent's foot in a figure-four and squeezes the legs together to force extreme plantar flexion while crushing the shin and calf, forcing a rapid tap.",
   "overview": "The Aoki Lock, named after Japanese MMA fighter Shinya Aoki, is a sophisticated leg compression submission that targets the opponent's shin and ankle through extreme plantar flexion and compression forces. Unlike traditional heel hooks or kneebars that attack specific joints, the Aoki Lock creates intense pressure across multiple structures of the lower leg simultaneously, making it extremely painful and effective for securing taps. The submission works by trapping the opponent's foot in a figure-four configuration while using your legs to apply tremendous squeezing pressure, forcing the foot into extreme plantar flexion while compressing the shin and calf muscle. This creates a unique combination of joint stress and muscular compression that becomes unbearable rapidly. The Aoki Lock is particularly effective from ashi garami positions and 50-50 configurations where traditional heel hooks might be defended. Its unconventional mechanics often catch opponents off-guard, as the setup can appear less threatening than a heel hook until the pressure is fully applied. The technique requires excellent leg dexterity and hip flexibility to properly configure the figure-four trap, making it a more advanced submission that rewards technical precision over raw strength.",
   "safety_considerations": {
     "injury_risks": [
@@ -146,7 +147,7 @@
     }
   ],
   "attacker": {
-    "name": "Aoki Lock Attacker",
+    "name": "Aoki Lock from Ashi Garami Attacker",
     "description": "How to execute Aoki Lock in BJJ. Attacking perspective with setup, execution, and finishing mechanics.",
     "overview": "The Aoki Lock, named after Japanese MMA fighter Shinya Aoki, is a sophisticated leg compression submission that targets the opponent's shin and ankle through extreme plantar flexion and compression forces. Unlike traditional heel hooks or kneebars that attack specific joints, the Aoki Lock creates intense pressure across multiple structures of the lower leg simultaneously, making it extremely painful and effective for securing taps. The submission works by trapping the opponent's foot in a figure-four configuration while using your legs to apply tremendous squeezing pressure, forcing the foot into extreme plantar flexion while compressing the shin and calf muscle. This creates a unique combination of joint stress and muscular compression that becomes unbearable rapidly. The Aoki Lock is particularly effective from ashi garami positions and 50-50 configurations where traditional heel hooks might be defended. Its unconventional mechanics often catch opponents off-guard, as the setup can appear less threatening than a heel hook until the pressure is fully applied. The technique requires excellent leg dexterity and hip flexibility to properly configure the figure-four trap, making it a more advanced submission that rewards technical precision over raw strength.",
     "key_principles": [
@@ -366,7 +367,7 @@
     ]
   },
   "defender": {
-    "name": "Aoki Lock Defender",
+    "name": "Aoki Lock from Ashi Garami Defender",
     "description": "How to defend against Aoki Lock in BJJ. Recognition, escape paths, and defensive strategies.",
     "overview": "Defending the Aoki Lock requires understanding the unique compression mechanics that distinguish it from traditional leg lock attacks. Because the Aoki Lock attacks multiple structures simultaneously through plantar flexion and shin compression rather than isolated joint rotation, standard heel hook defenses (boot defense, knee rotation) are insufficient. The defender must recognize the threat during the figure-four threading phase before the lock is fully secured, as defensive options diminish dramatically once the closed-loop compression is engaged. Early recognition of the inside leg threading pattern is the single most important defensive skill, since the window for effective defense narrows rapidly once the attacker begins locking the figure-four configuration. The primary defensive strategy shifts based on timing: before the figure-four is locked, focus on leg extraction and rotation to prevent foot entrapment; once the lock is partially secured, aggressive posturing and hip movement to break the compression structure become critical; and if the lock is fully engaged, tap immediately rather than risk injury to the achilles, ankle ligaments, or plantar fascia. Unlike rotational leg locks where you can sometimes fight through partial application, the Aoki Lock's compression mechanics mean damage accumulates across multiple structures simultaneously, making late defense extremely dangerous.",
     "key_principles": [

@@ -154,7 +154,7 @@ description: "Survive and counter the sprawl defense in BJJ. Learn to recognize 
 
 As the defender in the sprawl scenario, you are the person whose takedown attempt is being defended. Your shot has been read and your opponent is driving their weight onto your back to stuff it. Your immediate priorities follow a clear hierarchy: first, protect your neck from submission threats by keeping your chin tucked to your chest; second, maintain your base by keeping your knees under your hips to prevent being completely flattened; and third, work toward recovery by either powering through the sprawl, sitting to guard, or circling to create angle for standing. The worst outcome is being stuck in front headlock where your opponent has access to guillotines, anacondas, darces, and back takes. Understanding the mechanics of the sprawl allows you to recognize when your shot is dead and switch to recovery mode rather than forcing a lost takedown attempt into a worse position.
 
-**Opponent's Starting Position**: [[Positions/Standing Position]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 

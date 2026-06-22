@@ -10,6 +10,41 @@ description: "Master Shin Shield Recovery in BJJ. Essential defensive framing fr
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Shin Shield Recovery",
+  "description": "Master Shin Shield Recovery in BJJ. Essential defensive framing from half guard. Prevent passing and create space. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Shin Shield Recovery", "item": "https://bjjgraph.org/Transitions/Shin-Shield-Recovery" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Shin Shield Recovery",
+  "description": "Shin Shield Recovery is a half guard retention technique in which the bottom player threads their inside shin across the opponent's torso to build a load-bearing frame, stalling a developing pass and rebuilding to knee shield half guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Shin Shield Recovery in BJJ. Essential defensive framing fr
 </div>
 
 <section id="overview" class="content-section">
+
+**Shin Shield Recovery is a half guard retention technique in which the bottom player threads their inside shin across the opponent's torso to build a load-bearing frame, stalling a developing pass and rebuilding to knee shield half guard.**
 
 The Shin Shield Recovery is a fundamental defensive technique used to re-establish guard retention from compromised half guard positions. When an opponent is pressuring to pass your half guard, the shin shield creates a strong frame that prevents forward pressure while creating the space necessary to recover full guard structure. This technique is essential for maintaining defensive integrity when your knee shield has been flattened or your frames have been broken.
 
@@ -228,5 +265,7 @@ From a systematic perspective, mastering shin shield recovery is essential for d
 
 
 </section>
+
+
 
 </main>

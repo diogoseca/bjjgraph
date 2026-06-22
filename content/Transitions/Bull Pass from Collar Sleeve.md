@@ -10,6 +10,41 @@ description: "Master the Bull Pass from Collar Sleeve Guard. Complete BJJ guide 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Bull Pass from Collar Sleeve",
+  "description": "Master the Bull Pass from Collar Sleeve Guard. Complete BJJ guide covering grip breaks, explosive leg redirection, and lateral passing mechanics for all levels.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Bull Pass from Collar Sleeve", "item": "https://bjjgraph.org/Transitions/Bull-Pass-from-Collar-Sleeve" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Bull Pass from Collar Sleeve",
+  "description": "The Bull Pass from Collar Sleeve is a speed-based gi guard pass where the top player breaks the sleeve grip, secures double pant grips, then explosively redirects the opponent's legs laterally to clear the guard into half guard or side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Bull Pass from Collar Sleeve Guard. Complete BJJ guide 
 
 <section id="overview" class="content-section">
 
-The bull pass from collar sleeve guard is a dynamic speed-based guard passing technique that combines aggressive grip fighting with explosive lateral movement. Unlike pressure-based passes that methodically grind through the guard structure, the bull pass exploits momentary grip vulnerability by quickly redirecting the opponent's legs to one side while stepping laterally to clear the guard entirely. The technique derives its name from the bullfighter concept—redirecting the opponent's defensive structure rather than forcing through it.
+**The Bull Pass from Collar Sleeve is a speed-based gi guard pass where the top player breaks the sleeve grip, secures double pant grips, then explosively redirects the opponent's legs laterally to clear the guard into half guard or side control.**
+
+Within the collar sleeve guard passing arsenal, the bull pass occupies the speed-and-timing lane rather than the pressure lane. Unlike pressure-based passes that methodically grind through the guard structure, the bull pass exploits momentary grip vulnerability by quickly redirecting the opponent's legs to one side while stepping laterally to clear the guard entirely. The technique derives its name from the bullfighter concept—redirecting the opponent's defensive structure rather than forcing through it.
 
 From collar sleeve guard specifically, the pass requires first neutralizing the bottom player's controlling sleeve grip before establishing pant or knee grips on both legs. The critical timing window occurs immediately after breaking the sleeve grip, as this removes the bottom player's primary distance management tool and creates a brief opportunity for explosive lateral movement. The collar grip, while still providing the opponent some pulling control, cannot alone prevent the lateral passing motion if the passer commits with proper timing and explosiveness.
 
@@ -213,7 +250,7 @@ The bull pass from collar sleeve guard occupies a specialized niche within the g
 
 - [[Positions/Open Guard]] - Counter outcome position when opponent adjusts guard during pass attempt
 
-- [[Transitions/Knee Cut Pass]] - Complementary pass that chains effectively when opponent defends the lateral movement
+- [[Transitions/Knee Slice Pass]] - Complementary pass that chains effectively when opponent defends the lateral movement
 
 - [[Transitions/X Pass]] - Related speed pass sharing explosive lateral stepping patterns
 
@@ -223,5 +260,7 @@ The bull pass from collar sleeve guard occupies a specialized niche within the g
 
 
 </section>
+
+
 
 </main>

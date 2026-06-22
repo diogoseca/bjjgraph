@@ -10,6 +10,41 @@ description: "Master Truck Maintenance in BJJ. Learn boot pressure retention, le
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Truck Maintenance",
+  "description": "Master Truck Maintenance in BJJ. Learn boot pressure retention, leg entanglement control, and dilemma creation to hold this dominant back-attack position.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Truck Maintenance", "item": "https://bjjgraph.org/Transitions/Truck-Maintenance" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Truck Maintenance",
+  "description": "Truck Maintenance is the active retention of the Truck position from the top, coordinating boot pressure on the hip, figure-four leg entanglement, and upper-body connection to deny escapes while keeping twister and leg-lock finishes live.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master Truck Maintenance in BJJ. Learn boot pressure retention, le
 
 <section id="overview" class="content-section">
 
-Truck Maintenance represents the active effort to retain the Truck position against an opponent's escape attempts. The Truck is an inherently dynamic position where the bottom player is highly motivated to escape due to multiple submission threats, and maintaining control requires constant adjustment of boot pressure, leg entanglement, and upper body connection. Unlike static control positions such as side control or mount, truck retention demands vigilance over multiple control points simultaneously because the position's offensive nature creates vulnerability during attacks.
+**Truck Maintenance is the active retention of the Truck position from the top, coordinating boot pressure on the hip, figure-four leg entanglement, and upper-body connection to deny escapes while keeping twister and leg-lock finishes live.**
+
+Because the Truck sits at the convergence of leg-lock and back-attack systems, retaining it is what separates a momentary scramble win from a sustained finishing platform. The Truck is an inherently dynamic position where the bottom player is highly motivated to escape due to multiple submission threats, and maintaining control requires constant adjustment of boot pressure, leg entanglement, and upper body connection. Unlike static control positions such as side control or mount, truck retention demands vigilance over multiple control points simultaneously because the position's offensive nature creates vulnerability during attacks.
 
 The fundamental challenge of truck maintenance lies in balancing aggression with positional security. Every submission attempt creates windows for escape, and the controlling player must decide when to hunt for finishes versus when to consolidate control. Boot pressure against the opponent's hip is the lynchpin of all control in the truck. When boot pressure slips, the entire position unravels within seconds regardless of how tight the leg entanglement or upper body grips remain.
 
@@ -222,5 +259,7 @@ Truck Maintenance is the foundational skill that enables the entire 10th Planet 
 
 
 </section>
+
+
 
 </main>

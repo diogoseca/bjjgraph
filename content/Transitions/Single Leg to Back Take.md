@@ -10,6 +10,41 @@ description: "Learn the Single Leg to Back Take in BJJ. Convert a defended singl
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Single Leg to Back Take",
+  "description": "Learn the Single Leg to Back Take in BJJ. Convert a defended single leg into dominant back control by exploiting your opponent\u0027s defensive turn.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Single Leg to Back Take", "item": "https://bjjgraph.org/Transitions/Single-Leg-to-Back-Take" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Single Leg to Back Take",
+  "description": "The Single Leg to Back Take is a chain-wrestling transition that converts a defended single leg into back control by exploiting the opponent's defensive turn-away, releasing the leg to climb onto their back the instant they rotate to escape.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Learn the Single Leg to Back Take in BJJ. Convert a defended singl
 </div>
 
 <section id="overview" class="content-section">
+
+**The Single Leg to Back Take is a chain-wrestling transition that converts a defended single leg into back control by exploiting the opponent's defensive turn-away, releasing the leg to climb onto their back the instant they rotate to escape.**
 
 The Single Leg to Back Take is an advanced transitional technique that capitalizes on an opponent's defensive reactions to a single leg attack. Rather than forcing a completed takedown against heavy resistance, the skilled practitioner recognizes when the opponent posts and turns away, then exploits this defensive rotation to climb onto their back. This technique represents a fundamental principle in grappling: when your opponent defends one attack, they often expose themselves to another.
 
@@ -224,6 +261,16 @@ The Single Leg to Back Take represents a crucial link between standing wrestling
 
 - [[Transitions/High Crotch]] - Related wrestling entry that provides an alternative starting point for the same back take mechanics
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Back-Attack-System" data-cta="related-system-card" data-system-slug="systems/back-attack-system" data-system-name="Back Attack System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Back Attack System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Standing entry when opponent defends single leg takedown</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

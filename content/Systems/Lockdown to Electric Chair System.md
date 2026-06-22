@@ -134,10 +134,23 @@ description: "Master the Lockdown to Electric Chair System in BJJ. Eddie Bravo's
 }
 </script>
 
-> Lockdown to Electric Chair System is a intermediate difficulty Attack System system. Integrates 5 components.
 
-**System Type**: Attack System
-**Difficulty Level**: Intermediate
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Lockdown to Electric Chair System",
+  "description": "The Lockdown to Electric Chair System is Eddie Bravo's 10th Planet half guard framework that uses the lockdown leg trap to chain the Electric Chair, Old School sweeps, and back takes into a continuous attacking dilemma.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Attack System</span>
+<span class="meta-chip">Intermediate difficulty</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -146,7 +159,27 @@ description: "Master the Lockdown to Electric Chair System in BJJ. Eddie Bravo's
 
 ## What is Lockdown to Electric Chair System?
 
-The Lockdown to Electric Chair System is a comprehensive half guard bottom framework developed by Eddie Bravo as a cornerstone of the 10th Planet Jiu-Jitsu methodology. This system transforms the traditionally defensive half guard position into an aggressive attacking platform by utilizing the lockdown control to break down opponent posture, create sweeping opportunities, and threaten submissions. The lockdown itself—achieved by trapping the opponent's leg with a figure-four configuration using your legs—serves as both a control mechanism and the foundation for multiple offensive sequences. From this control position, practitioners can transition seamlessly between the Electric Chair submission threat, Old School sweep variations, and back-take opportunities, creating a multi-layered dilemma that forces opponents into reactive defense. The system emphasizes constant pressure application, hip movement precision, and the ability to chain attacks together when initial attempts are defended, embodying the principle that effective half guard play requires transitioning from passive defense to active offense.
+**The Lockdown to Electric Chair System is Eddie Bravo's 10th Planet half guard framework that uses the lockdown leg trap to chain the Electric Chair, Old School sweeps, and back takes into a continuous attacking dilemma.**
+
+Developed by Eddie Bravo as a cornerstone of the 10th Planet Jiu-Jitsu methodology, this framework emerged from no-gi half guard play where conventional bottom-position survival was reframed as an offensive launching point. The system transforms the traditionally defensive half guard position into an aggressive attacking platform by utilizing the lockdown control to break down opponent posture, create sweeping opportunities, and threaten submissions. The lockdown itself—achieved by trapping the opponent's leg with a figure-four configuration using your legs—serves as both a control mechanism and the foundation for multiple offensive sequences. From this control position, practitioners can transition seamlessly between the Electric Chair submission threat, Old School sweep variations, and back-take opportunities, creating a multi-layered dilemma that forces opponents into reactive defense. The system emphasizes constant pressure application, hip movement precision, and the ability to chain attacks together when initial attempts are defended, embodying the principle that effective half guard play requires transitioning from passive defense to active offense.
+
+</section>
+
+
+
+<section id="unlock-graph" class="content-section system-unlock" data-system-unlock hidden>
+
+## Unlock this part of the graph
+
+<p class="section-subtitle">This system teaches the highlighted nodes in the graph. Mark what you already know &mdash; be honest, it's your game.</p>
+
+<div class="system-progress" data-system-progress>
+<svg class="system-progress__ring" viewBox="0 0 44 44" aria-hidden="true"><circle class="system-progress__ring-bg" cx="22" cy="22" r="19"></circle><circle class="system-progress__ring-fill" cx="22" cy="22" r="19"></circle></svg>
+<div class="system-progress__text">You've unlocked <strong class="system-progress__known">0</strong> / <span class="system-progress__total">0</span> techniques in this system</div>
+<button class="system-progress__mark-all" data-mark-system type="button">Mark whole system as known</button>
+</div>
+
+<ul class="system-members" data-system-members></ul>
 
 </section>
 
@@ -351,8 +384,8 @@ The Lockdown to Electric Chair System requires progressive drilling that builds 
 - [[Kuzushi]] (Principle) - Fundamental principle governing all sweeping techniques in system
 - [[Defensive Concepts]] (Principle) - Defensive foundation including guard retention that lockdown control enhances
 - [[Grips]] (Principle) - Critical underhook battle principles that determine system success
-- [[Whizzer Control]] (Principle) - Understanding both using and defeating overhook control
-- [[Submission Chains]] (Principle) - Chaining attacks from lockdown creates submission opportunities
+- [[Frames]] (Principle) - Framing mechanics used to create space and execute Homer Simpson recovery
+- [[Position Chains]] (Principle) - Chaining attacks from lockdown creates continuous submission opportunities
 - [[10th Planet Half Guard Bottom System]] (System) - Parent system containing lockdown as primary framework
 - [[10th Planet No-Gi Guard System]] (System) - Broader organizational system where lockdown plays key role
 - [[Twister System]] (System) - Advanced system utilizing positions accessible from lockdown

@@ -128,10 +128,23 @@ description: "Master gi-specific BJJ strategy. Comprehensive framework for grips
 }
 </script>
 
-> Gi-Specific Strategy is a intermediate difficulty Competition Strategy system. Integrates 5 components.
 
-**System Type**: Competition Strategy
-**Difficulty Level**: Intermediate
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Gi-Specific Strategy",
+  "description": "The Gi-Specific Strategy is a control framework that exploits the jacket, collar, sleeves, lapels, and pants as leverage points to win grip exchanges, pass, sweep, and finish with gi-only chokes and entanglements.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Competition Strategy</span>
+<span class="meta-chip">Intermediate difficulty</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -140,7 +153,27 @@ description: "Master gi-specific BJJ strategy. Comprehensive framework for grips
 
 ## What is Gi-Specific Strategy?
 
+**The Gi-Specific Strategy is a control framework that exploits the jacket, collar, sleeves, lapels, and pants as leverage points to win grip exchanges, pass, sweep, and finish with gi-only chokes and entanglements.**
+
 Gi-specific strategy represents the fundamental framework for leveraging the jacket and pants in Brazilian Jiu-Jitsu competition and training. Unlike no-gi grappling, the gi provides numerous control points through collar grips, sleeve grips, lapel control, and pant grips that fundamentally change the game's dynamics. This strategic system encompasses grip fighting hierarchies, control-based passing systems, collar choke mechanics, and lapel-based guards that are impossible without the gi. The core philosophy centers on establishing dominant grip configurations that limit opponent mobility while maximizing your offensive options. Understanding gi-specific strategy is essential for competitors who primarily train in the kimono, as it unlocks entire position families, submission categories, and control systems unavailable in no-gi formats. This framework emphasizes patience, grip discipline, and systematic control progression over explosive athleticism.
+
+</section>
+
+
+
+<section id="unlock-graph" class="content-section system-unlock" data-system-unlock hidden>
+
+## Unlock this part of the graph
+
+<p class="section-subtitle">This system teaches the highlighted nodes in the graph. Mark what you already know &mdash; be honest, it's your game.</p>
+
+<div class="system-progress" data-system-progress>
+<svg class="system-progress__ring" viewBox="0 0 44 44" aria-hidden="true"><circle class="system-progress__ring-bg" cx="22" cy="22" r="19"></circle><circle class="system-progress__ring-fill" cx="22" cy="22" r="19"></circle></svg>
+<div class="system-progress__text">You've unlocked <strong class="system-progress__known">0</strong> / <span class="system-progress__total">0</span> techniques in this system</div>
+<button class="system-progress__mark-all" data-mark-system type="button">Mark whole system as known</button>
+</div>
+
+<ul class="system-members" data-system-members></ul>
 
 </section>
 

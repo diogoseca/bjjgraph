@@ -10,6 +10,41 @@ description: "Master Rolling to Guard in BJJ. Defensive recovery from turtle usi
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Rolling to Guard",
+  "description": "Master Rolling to Guard in BJJ. Defensive recovery from turtle using rotational hip mechanics to reestablish guard position against top control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Rolling to Guard", "item": "https://bjjgraph.org/Transitions/Rolling-to-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Rolling to Guard",
+  "description": "Rolling to Guard is a turtle-bottom escape where the practitioner frames for space, then rolls diagonally over one shoulder while driving the hips overhead to reorient facing the opponent and reestablish a guard barrier.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Rolling to Guard in BJJ. Defensive recovery from turtle usi
 </div>
 
 <section id="overview" class="content-section">
+
+**Rolling to Guard is a turtle-bottom escape where the practitioner frames for space, then rolls diagonally over one shoulder while driving the hips overhead to reorient facing the opponent and reestablish a guard barrier.**
 
 Rolling to Guard is a fundamental defensive recovery technique that allows a practitioner to transition from turtle bottom back to a guard position using rotational hip mechanics and shoulder-driven momentum. From turtle, the bottom player creates initial space through frames, turns onto their shoulder, and drives their hips overhead in an arcing roll that reorients their body to face the opponent with legs reestablished as a barrier. The technique exploits moments when the top player's weight shifts or they transition between control grips, converting their forward pressure into rotational energy.
 
@@ -230,5 +267,7 @@ Rolling to Guard serves as a critical link in the defensive hierarchy, connectin
 
 
 </section>
+
+
 
 </main>

@@ -10,6 +10,41 @@ description: "Master the Transition to Half Butterfly in BJJ. Clear one butterfl
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Butterfly Guard to Half Butterfly",
+  "description": "Master the Transition to Half Butterfly in BJJ. Clear one butterfly hook to reach a dominant passing position with systematic pressure and hook neutralization.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Butterfly Guard to Half Butterfly", "item": "https://bjjgraph.org/Transitions/Butterfly-Guard-to-Half-Butterfly" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Butterfly Guard to Half Butterfly",
+  "description": "Butterfly Guard to Half Butterfly is a guard-passing transition in which the top player neutralizes and clears one of the bottom player's two butterfly hooks, reaching a dominant half-butterfly top position from which higher-percentage passes open up.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Transition to Half Butterfly in BJJ. Clear one butterfl
 
 <section id="overview" class="content-section">
 
-Transition to Half Butterfly is a fundamental guard passing progression where the top player systematically clears one of the bottom player's butterfly hooks to reach the Half Butterfly Top position. This transition converts a symmetrical, sweep-heavy guard into an asymmetric configuration that heavily favors the passer. The core mechanic involves driving one knee toward the mat while controlling the opponent's upper body, collapsing the space that one hook occupies and forcing the bottom player into a half guard configuration with only one remaining butterfly hook.
+**Butterfly Guard to Half Butterfly is a guard-passing transition in which the top player neutralizes and clears one of the bottom player's two butterfly hooks, reaching a dominant half-butterfly top position from which higher-percentage passes open up.**
+
+Clearing one butterfly hook is the gateway action that turns a stalemate against butterfly guard into an advancing pass. This transition converts a symmetrical, sweep-heavy guard into an asymmetric configuration that heavily favors the passer. The core mechanic involves driving one knee toward the mat while controlling the opponent's upper body, collapsing the space that one hook occupies and forcing the bottom player into a half guard configuration with only one remaining butterfly hook.
 
 From a strategic standpoint, this transition is the single most important first step when facing butterfly guard. Rather than attempting to pass both hooks simultaneously, which exposes you to powerful elevation sweeps, clearing one hook at a time reduces the bottom player's offensive options by roughly half. The remaining single hook can still generate some lifting force, but without the coordinated dual-hook system, the bottom player loses the ability to execute high-percentage butterfly sweeps. This makes the subsequent passing sequence significantly more manageable.
 
@@ -223,5 +260,7 @@ Transition to Half Butterfly sits at the critical juncture between butterfly gua
 
 
 </section>
+
+
 
 </main>

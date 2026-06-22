@@ -10,6 +10,41 @@ description: "Master the leg weave escape to half guard in BJJ. Frame-based defe
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Leg Weave Escape to Half Guard",
+  "description": "Master the leg weave escape to half guard in BJJ. Frame-based defensive recovery using hip movement, knee insertion, and timing to regain guard structure.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Leg Weave Escape to Half Guard", "item": "https://bjjgraph.org/Transitions/Leg-Weave-Escape-to-Half-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Leg Weave Escape to Half Guard",
+  "description": "Leg Weave Escape to Half Guard is a frame-based recovery from the bottom of the leg weave in which the trapped player bridges, hip-escapes, and reinserts a knee shield to rebuild half guard before the passer completes the pass.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the leg weave escape to half guard in BJJ. Frame-based defe
 
 <section id="overview" class="content-section">
 
-The Leg Weave Escape to Half Guard is a fundamental defensive recovery technique executed from the bottom of the leg weave position. When the top player has successfully threaded their leg through the bottom player's guard structure and established forward pressure, the bottom player must employ precise framing, timed hip escapes, and knee insertion to recover a viable half guard position. This escape represents the primary defensive pathway from one of the most pressure-heavy passing positions in modern BJJ.
+**Leg Weave Escape to Half Guard is a frame-based recovery from the bottom of the leg weave in which the trapped player bridges, hip-escapes, and reinserts a knee shield to rebuild half guard before the passer completes the pass.**
+
+Few positions in modern pressure passing are as suffocating as the leg weave, and rebuilding half guard from underneath it is a defining skill of a resilient bottom game. When the top player has successfully threaded their leg through the bottom player's guard structure and established forward pressure, the bottom player must employ precise framing, timed hip escapes, and knee insertion to recover a viable half guard position. This escape represents the primary defensive pathway from one of the most pressure-heavy passing positions in modern BJJ.
 
 The technique centers on creating space through structural frames rather than muscular effort, then using that space to reinsert the knee shield or recover a half guard hook before the passer can complete their advance. The critical timing window occurs when the top player shifts weight to initiate a passing sequence, momentarily reducing their ability to maintain the weave depth. Recognizing and exploiting these micro-transitions separates effective escape artists from practitioners who remain trapped under sustained pressure.
 
@@ -222,5 +259,7 @@ The Leg Weave Escape to Half Guard serves as the primary defensive link between 
 
 
 </section>
+
+
 
 </main>

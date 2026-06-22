@@ -10,6 +10,41 @@ description: "Learn Switch to Anaconda Configuration from Buggy Choke in BJJ. Re
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Switch to Anaconda Configuration",
+  "description": "Learn Switch to Anaconda Configuration from Buggy Choke in BJJ. Reconfigure grips to anaconda choke control. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Switch to Anaconda Configuration", "item": "https://bjjgraph.org/Transitions/Switch-to-Anaconda-Configuration" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Switch to Anaconda Configuration",
+  "description": "The Switch to Anaconda Configuration is a grip transition where the Buggy Choke top player drops the collar grip and re-wraps the opponent's head and trapped arm into an anaconda figure-four when the opponent turns into the choking arm.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Learn Switch to Anaconda Configuration from Buggy Choke in BJJ. Re
 
 <section id="overview" class="content-section">
 
-The Switch to Anaconda Configuration is a grip transition from the Buggy Choke top position that capitalizes on the opponent turning into the attack. When the opponent rotates toward the choking arm to alleviate collar pressure, they inadvertently expose the head-and-arm configuration that enables the anaconda choke. Rather than fighting for the original buggy choke angle, the top player reads this defensive reaction and redirects the threading arm around the opponent's neck while the opposite arm shoots under the far armpit, locking the classic anaconda figure-four grip.
+**The Switch to Anaconda Configuration is a grip transition where the Buggy Choke top player drops the collar grip and re-wraps the opponent's head and trapped arm into an anaconda figure-four when the opponent turns into the choking arm.**
+
+This transition sits at one of the busiest branches of the buggy choke attack tree, triggered the moment a turtled opponent rotates toward the choking arm to relieve collar pressure. That rotation inadvertently exposes the head-and-arm channel the anaconda requires, so rather than fighting to preserve the original buggy choke angle, the top player redirects the threading arm around the opponent's neck while the opposite arm shoots under the far armpit, locking the classic anaconda figure-four grip.
 
 This transition exemplifies the principle that sophisticated turtle attack systems derive their power from branching decision trees rather than single-path commitments. The buggy choke position creates a dilemma where every defensive reaction opens a different submission pathway. The opponent who turns in to defend the collar grip solves one problem while creating another: the head-and-arm angle required for both darce and anaconda attacks. Choosing the anaconda over the darce depends on arm positioning—when your threading arm is already around the neck and the opponent's near arm is trapped between your arms, the anaconda configuration is mechanically favored.
 
@@ -224,5 +261,7 @@ The Switch to Anaconda Configuration is a critical branch in the buggy choke att
 
 
 </section>
+
+
 
 </main>

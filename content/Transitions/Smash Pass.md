@@ -10,6 +10,41 @@ description: "Master the Smash Pass in BJJ. Complete guide covering pressure pas
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Smash Pass",
+  "description": "Master the Smash Pass in BJJ. Complete guide covering pressure passing mechanics from Half Guard Top to Side Control with attacker and defender strategies.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Smash Pass", "item": "https://bjjgraph.org/Transitions/Smash-Pass" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Smash Pass",
+  "description": "The Smash Pass is a pressure-based half guard pass in which the top player uses crossface and heavy shoulder pressure to flatten the opponent, clear the trapped inside leg, and methodically advance from Half Guard Top to Side Control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Smash Pass in BJJ. Complete guide covering pressure pas
 </div>
 
 <section id="overview" class="content-section">
+
+**The Smash Pass is a pressure-based half guard pass in which the top player uses crossface and heavy shoulder pressure to flatten the opponent, clear the trapped inside leg, and methodically advance from Half Guard Top to Side Control.**
 
 The Smash Pass is a fundamental pressure-based guard passing technique used to overcome half guard retention. This pass emphasizes heavy shoulder pressure, crossface control, and systematic hip positioning to flatten the opponent and transition to side control. The technique is particularly effective against knee shield half guard and traditional half guard positions, as it uses the passer's body weight and positioning to nullify the bottom player's frames and mobility. The Smash Pass represents a core element of pressure passing systems and is valued for its high percentage success rate when executed with proper mechanics.
 
@@ -191,7 +228,7 @@ The smash pass creates a cascading series of problems for the bottom player: the
 
 ## Position Integration
 
-The smash pass is a cornerstone technique within pressure passing systems and serves as a fundamental tool for dealing with half guard positions. It integrates seamlessly with other pressure-based techniques like the crossface pass, underhook pass, and double under pass. In the broader context of guard passing, the smash pass represents the pressure-focused approach that contrasts with dynamic passes like the toreando or leg drag. This technique is particularly important in the transition game between guard positions, as it can be used from standard half guard, knee shield half guard, and even as a recovery option when other passes are partially defended. The smash pass also creates natural opportunities for submissions such as kimura, darce choke, and arm triangle when opponents defend by turning in or creating frames. Understanding this technique is essential for developing a complete top game.
+The smash pass is a cornerstone technique within pressure passing systems and serves as a fundamental tool for dealing with half guard positions. It integrates seamlessly with other pressure-based techniques like the crossface pass, underhook pass, and over-under pass. In the broader context of guard passing, the smash pass represents the pressure-focused approach that contrasts with dynamic passes like the toreando or leg drag. This technique is particularly important in the transition game between guard positions, as it can be used from standard half guard, knee shield half guard, and even as a recovery option when other passes are partially defended. The smash pass also creates natural opportunities for submissions such as kimura, darce choke, and arm triangle when opponents defend by turning in or creating frames. Understanding this technique is essential for developing a complete top game.
 
 </section>
 
@@ -207,15 +244,15 @@ The smash pass is a cornerstone technique within pressure passing systems and se
 
 - [[Positions/Half Guard/Knee Shield Half Guard]] - Common defensive structure that must be cleared before applying smash pressure
 
-- [[Transitions/Knee Slice from Half]] - Alternative pass option when smash pass is effectively defended
+- [[Transitions/Long Step Pass]] - Variation using long step extraction instead of backward leg extraction
 
 - [[Transitions/Underhook Pass]] - Related pressure technique using similar principles with different grip configuration
 
 - [[Transitions/Crossface Pass]] - Related technique emphasizing crossface control mechanics shared with smash pass
 
-- [[Transitions/Long Step Pass]] - Variation using long step extraction instead of backward leg extraction
+- [[Transitions/Back Step Pass]] - Alternative pass option when smash pass is effectively defended
 
-- [[Transitions/Double Under Pass]] - Related pressure-based pass using double underhooks for control
+- [[Transitions/Over-Under Pass]] - Related pressure-based pass using opposing arm positions for control
 
 - [[Transitions/Kimura from Half Guard]] - Submission opportunity available when opponent defends smash pass with underhook
 
@@ -225,8 +262,16 @@ The smash pass is a cornerstone technique within pressure passing systems and se
 
 - [[Positions/Half Guard/Lockdown]] - Defensive leg entanglement that complicates smash pass extraction
 
-- [[Transitions/Pressure Pass]] - Broader conceptual framework that smash pass exemplifies
 
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Modern-No-Gi-Passing-System" data-cta="related-system-card" data-system-slug="systems/modern-no-gi-passing-system" data-system-name="Modern No-Gi Passing System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Modern No-Gi Passing System</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Aggressive pressure pass for collapsing butterfly and open guard structures</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

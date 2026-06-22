@@ -14,12 +14,12 @@
   "from_position": "Harness/Bottom",
   "outcomes": [
     {
-      "to": "Closed Guard/Top",
+      "to": "Closed Guard/Bottom",
       "probability": 50,
       "result": "success"
     },
     {
-      "to": "Open Guard/Top",
+      "to": "Open Guard/Bottom",
       "probability": 15,
       "result": "success"
     },
@@ -35,7 +35,8 @@
     }
   ],
   "success_rate": 58,
-  "overview": "The Roll to Guard escape is a dynamic defensive technique executed from harness bottom position that utilizes forward momentum and rotational mechanics to escape back control and recover a guard position. This technique exploits momentary weight shifts or grip lapses by the attacking player to create the space necessary for a controlled forward roll that deposits the defender facing their opponent in guard.\n\nThe biomechanical foundation of this escape relies on timing the roll precisely when the opponent's weight distribution shifts or when their grip structure weakens. The defender tucks their chin, rounds their spine, and initiates forward rotation while simultaneously breaking or slipping the harness grip. The roll must be executed with committed momentum - hesitation typically results in the opponent riding the motion and re-establishing superior back control.\n\nStrategically, Roll to Guard represents a high-risk, high-reward escape option that should be employed when more conservative escape methods have stalled or when the opponent presents a timing window. Unlike methodical escapes that chip away at control incrementally, this technique aims to completely reverse the positional hierarchy in a single explosive movement. It pairs particularly well with grip fighting that baits the opponent into adjusting their seat belt configuration.",
+  "summary": "Roll to Guard is an explosive back escape from Harness Bottom in which the defender secures the choking arm and commits to a diagonal forward roll, reversing the position to recover closed or open guard facing the opponent.",
+  "overview": "Within the back-control defense system, Roll to Guard sits at the aggressive end of the escape spectrum: rather than chipping away at control incrementally like the elbow escape or hip escape, it aims to reverse the entire positional hierarchy in a single explosive movement. It is the escape of choice when methodical hand-fighting has stalled or when the attacker briefly over-commits their weight, and it pairs naturally with the grip-fighting sequences that precede every sound back defense.\n\nThe biomechanical foundation of this escape relies on timing the roll precisely when the opponent's weight distribution shifts or when their grip structure weakens. The defender tucks their chin, rounds their spine, and initiates forward rotation while simultaneously breaking or slipping the harness grip. The roll must be executed with committed momentum - hesitation typically results in the opponent riding the motion and re-establishing superior back control.\n\nDirection matters as much as timing: the roll is driven diagonally toward the underhook side at roughly 45 degrees so the attacker cannot simply track the rotation and re-take the back. Throughout the movement the defender maintains a death grip on the controlled arm, which doubles as both choke insurance and the anchor that pulls the opponent into the recovered guard. Upon completion the defender enters the closed guard or an open-guard frame, where the offensive sweep-and-submission game becomes available.",
   "conditions": [
     "Opponent's weight shifts forward or laterally creating rotational space",
     "At least partial two-on-one control on choking arm has been achieved",
@@ -166,7 +167,7 @@
         "counter": "Opponent crosses feet during roll attempting ankle lock",
         "effectiveness": "Low",
         "your_response": "Continue rolling and attack the crossed feet with straight ankle lock or toe hold. Their positional sacrifice for the submission attempt gives you offensive opportunity.",
-        "targets_outcome": "Closed Guard/Top"
+        "targets_outcome": "Closed Guard/Bottom"
       }
     ],
     "common_errors": [

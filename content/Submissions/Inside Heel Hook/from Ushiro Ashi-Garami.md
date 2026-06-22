@@ -10,10 +10,55 @@ description: "Master the inside heel hook from ushiro ashi-garami with detailed 
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Inside Heel Hook from Ushiro Ashi-Garami targets the Ankle, knee ligaments, and surrounding connective tissue. Risk: ACL, MCL, or LCL tear or rupture. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Inside Heel Hook from Ushiro Ashi-Garami",
+  "description": "Master the inside heel hook from ushiro ashi-garami with detailed finishing mechanics, grip adjustments, and safety protocols for this advanced leg lock.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Inside Heel Hook from Ushiro Ashi-Garami", "item": "https://bjjgraph.org/Submissions/Inside-Heel-Hook-from-Ushiro-Ashi-Garami" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Inside Heel Hook from Ushiro Ashi-Garami",
+  "description": "The inside heel hook from ushiro ashi-garami is a rotational knee submission that attacks the medial ligaments by cupping and turning an inverted opponent's heel after they spin away to escape a standard ashi-garami entanglement.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The inside heel hook from ushiro ashi-garami is a rotational knee submission that attacks the medial ligaments by cupping and turning an inverted opponent's heel after they spin away to escape a standard ashi-garami entanglement.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Leg Lock</span>
+<span class="meta-chip">Targets Ankle, knee ligaments, and surrounding connective tissue</span>
+<span class="meta-chip">52% success</span>
+</div>
+
+> [!danger] Safety
+> Inside Heel Hook from Ushiro Ashi-Garami targets the Ankle, knee ligaments, and surrounding connective tissue. Primary risk: ACL, MCL, or LCL tear or rupture. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,55 +75,7 @@ The ushiro configuration provides a unique attacking angle where the opponent's 
 
 Strategically, this submission serves as a high-percentage finishing option that punishes incomplete escape attempts from leg entanglements. Practitioners who develop proficiency with this technique transform defensive inversions from safe escape routes into submission threats, creating a powerful deterrent that fundamentally changes how opponents approach ashi-garami escape sequences at all competition levels. The ability to finish from ushiro closes a critical gap in leg lock systems where opponents could previously invert with relative safety.
 
-**Category**: Joint Lock
-**Type**: Leg Lock
-**Target Area**: Ankle, knee ligaments, and surrounding connective tissue
-**Starting Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
-**From Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Top)
-**Success Rate**: 52%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| ACL, MCL, or LCL tear or rupture | CRITICAL | 6-12 months with surgery, potential permanent instability |
-| Meniscus tear | High | 3-6 months, may require surgical repair |
-| Ankle ligament damage | High | 6-12 weeks for severe sprains |
-| Popliteal artery damage (rare but catastrophic) | CRITICAL | Medical emergency requiring immediate surgical intervention |
-
-
-**Application Speed**: EXTREMELY SLOW - minimum 5-7 seconds in training, stop at first sign of resistance
-
-**Tap Signals**:
-- Verbal tap ("TAP" or any vocalization)
-- Physical hand tap on partner or mat
-- Physical foot tap on mat or partner
-- Any distress signal including arm waving
-- Slapping the mat repeatedly
-
-
-**Release Protocol**:
-1. Immediately stop all rotational pressure the instant partner taps
-2. Release heel control by opening hands completely
-3. Release leg entanglement by straightening both legs and moving hips away
-4. Do not apply any additional pressure during release sequence
-5. Check with partner verbally before continuing training
-
-
-**Training Restrictions**:
-- Never apply explosive or sudden rotational force in training
-- Never train this submission without instructor supervision initially
-- Never use competition speed finishing mechanics in training
-- Never practice on partners with existing knee injuries without clearance
-- Always maintain communication throughout drilling
-- Absolutely forbidden for beginners without extensive positional training first
-
+**Starting Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] · **From**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Top)
 
 </section>
 
@@ -240,41 +237,64 @@ Strategically, this submission serves as a high-percentage finishing option that
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Inside Heel Hook]]
 - [[Transitions/Heel Hook]]
-- [[Positions/Aoki Lock Control]]
-- [[Submissions/Inside Heel Hook]]
-- [[Transitions/Estima Lock]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
+- [[Submissions/Achilles Lock]]
+- [[Transitions/Aoki Lock]]
 - [[Positions/Ashi Garami/Ushiro Ashi-Garami]] - Primary starting position for this submission variant
-- [[Submissions/Inside Heel Hook]] - Parent submission family with shared finishing mechanics
 - [[Positions/Ashi Garami/Saddle]] - Alternative high-control entanglement for heel hook attacks
 - [[Positions/Ashi Garami/Honey Hole]] - Related inside leg entanglement with similar heel hook angles
 - [[Positions/Ashi Garami/Outside Ashi-Garami]] - Position that commonly transitions to ushiro during escape attempts
 - [[Positions/Leg Entanglement]] - Governing principle for all ashi-garami control and submission mechanics
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| ACL, MCL, or LCL tear or rupture | CRITICAL | 6-12 months with surgery, potential permanent instability |
+| Meniscus tear | High | 3-6 months, may require surgical repair |
+| Ankle ligament damage | High | 6-12 weeks for severe sprains |
+| Popliteal artery damage (rare but catastrophic) | CRITICAL | Medical emergency requiring immediate surgical intervention |
+
+
+**Application Speed**: EXTREMELY SLOW - minimum 5-7 seconds in training, stop at first sign of resistance
+
+**Tap Signals**:
+- Verbal tap ("TAP" or any vocalization)
+- Physical hand tap on partner or mat
+- Physical foot tap on mat or partner
+- Any distress signal including arm waving
+- Slapping the mat repeatedly
+
+
+**Release Protocol**:
+1. Immediately stop all rotational pressure the instant partner taps
+2. Release heel control by opening hands completely
+3. Release leg entanglement by straightening both legs and moving hips away
+4. Do not apply any additional pressure during release sequence
+5. Check with partner verbally before continuing training
+
+
+**Training Restrictions**:
+- Never apply explosive or sudden rotational force in training
+- Never train this submission without instructor supervision initially
+- Never use competition speed finishing mechanics in training
+- Never practice on partners with existing knee injuries without clearance
+- Always maintain communication throughout drilling
+- Absolutely forbidden for beginners without extensive positional training first
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Inside Heel Hook from Ushiro Ashi-Garami leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

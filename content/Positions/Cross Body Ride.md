@@ -10,6 +10,41 @@ description: "Master Cross Body Ride position in BJJ. Advanced back attack contr
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Cross Body Ride",
+  "description": "Master Cross Body Ride position in BJJ. Advanced back attack control with 70% back take rate. Complete guide covering harness control, transitions, and submissions.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Cross Body Ride", "item": "https://bjjgraph.org/Positions/Cross-Body-Ride" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Cross Body Ride",
+  "description": "Cross Body Ride is a dominant turtle-top control where the attacker lies perpendicular across the opponent's back with seatbelt control, pinning their structure while threatening back takes, crucifix entries, and other rear attacks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Cross Body Ride position in BJJ. Advanced back attack contr
 </div>
 
 <section id="overview" class="content-section">
+
+**Cross Body Ride is a dominant turtle-top control where the attacker lies perpendicular across the opponent's back with seatbelt control, pinning their structure while threatening back takes, crucifix entries, and other rear attacks.**
 
 Cross Body Ride is an advanced controlling position from turtle where the top practitioner establishes perpendicular chest-to-back contact with the opponent while securing a harness grip (seatbelt control). This position serves as a critical transitional state between turtle top and back control, offering exceptional control and multiple high-percentage paths to dominant positions and submissions. The cross body orientation provides mechanical advantage by directing pressure across the opponent's spine while preventing effective hip escapes.
 
@@ -179,25 +216,27 @@ From a systematic perspective, Cross Body Ride functions as a forcing position w
 ### Available Transitions
 
 
-- **[[Transitions/Turtle to Back Control/Attacker|Turtle to Back Control]]** (52% of attempts)
+- **[[Transitions/Turtle to Back Control/Attacker|Turtle to Back Control]]** (50% of attempts)
 
-- **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** (18% of attempts)
+- **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** (17% of attempts)
 
 - **[[Twister from Cross Body Ride/Attacker|Twister from Cross Body Ride]]** (3% of attempts)
 
-- **[[Transitions/Turtle Flatten to Side Control/Attacker|Turtle Flatten to Side Control]]** (9% of attempts)
+- **[[Transitions/Turtle Flatten to Side Control/Attacker|Turtle Flatten to Side Control]]** (8% of attempts)
 
-- **[[Transitions/Turtle to Truck/Attacker|Turtle to Truck]]** (7% of attempts)
+- **[[Transitions/Turtle to Truck/Attacker|Turtle to Truck]]** (6% of attempts)
 
-- **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** (7% of attempts)
+- **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** (6% of attempts)
 
-- **[[Transitions/Darce from Turtle/Attacker|Darce from Turtle]]** (1% of attempts)
+- **[[Transitions/Darce from Turtle/Attacker|Darce from Turtle]]** (2% of attempts)
 
-- **[[Transitions/Cross Body to Back Control/Attacker|Cross Body to Back Control]]** (1% of attempts)
+- **[[Transitions/Cross Body to Back Control/Attacker|Cross Body to Back Control]]** (2% of attempts)
 
-- **[[Transitions/Cross Body to Side Control/Attacker|Cross Body to Side Control]]** (1% of attempts)
+- **[[Transitions/Cross Body to Side Control/Attacker|Cross Body to Side Control]]** (2% of attempts)
 
-- **[[Transitions/Twister Entry/Attacker|Twister Entry]]** (1% of attempts)
+- **[[Transitions/Twister Entry/Attacker|Twister Entry]]** (2% of attempts)
+
+- **[[Short Choke from Cross Body/Attacker|Short Choke from Cross Body]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -254,6 +293,16 @@ From a systematic perspective, Cross Body Ride functions as a forcing position w
 
 - **[[Positions/Back Control/Seat Belt Control Back]]** - Follow-up position - established after successful back take
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Danaher Straight Jacket System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Alternative turtle attack position that creates back exposure and system entry opportunities</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

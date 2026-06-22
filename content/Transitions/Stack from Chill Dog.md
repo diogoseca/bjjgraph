@@ -10,6 +10,41 @@ description: "Master the Stack from Chill Dog in BJJ. Learn to break compact tur
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Stack from Chill Dog",
+  "description": "Master the Stack from Chill Dog in BJJ. Learn to break compact turtle defense with stacking pressure to advance position and establish half guard control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Stack from Chill Dog", "item": "https://bjjgraph.org/Transitions/Stack-from-Chill-Dog" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Stack from Chill Dog",
+  "description": "Stack from Chill Dog is a pressure-based turtle attack where the top player drives the bottom player's hips forward over their shoulders, collapsing the compact Chill Dog defensive frame to advance into half guard top.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Stack from Chill Dog in BJJ. Learn to break compact tur
 </div>
 
 <section id="overview" class="content-section">
+
+**Stack from Chill Dog is a pressure-based turtle attack where the top player drives the bottom player's hips forward over their shoulders, collapsing the compact Chill Dog defensive frame to advance into half guard top.**
 
 The Stack from Chill Dog is a pressure-based positional advancement technique used by the top player against an opponent who has adopted the compact Chill Dog turtle defense. Rather than attempting to insert hooks or fight for back control grips against the tightly closed defensive frame, the top player uses their body weight and sustained forward driving pressure to stack the bottom player's hips over their shoulders, collapsing the turtle structure entirely. This technique targets the fundamental vulnerability in all turtle variants: while the compact frame excels at preventing hook insertion and grip establishment, it is inherently susceptible to sustained forward pressure that loads the defender's weight onto their neck and shoulders.
 
@@ -216,5 +253,7 @@ The Stack from Chill Dog fills a specific tactical role within the turtle attack
 
 
 </section>
+
+
 
 </main>

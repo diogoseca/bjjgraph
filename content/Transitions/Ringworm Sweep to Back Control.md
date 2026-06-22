@@ -10,6 +10,41 @@ description: "Master the Ringworm Sweep to Back Control in BJJ. Execute from Rin
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Ringworm Sweep to Back Control",
+  "description": "Master the Ringworm Sweep to Back Control in BJJ. Execute from Ringworm Guard to secure dominant back position with lapel leverage and rotational momentum.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Ringworm Sweep to Back Control", "item": "https://bjjgraph.org/Transitions/Ringworm-Sweep-to-Back-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Ringworm Sweep to Back Control",
+  "description": "The Ringworm Sweep to Back Control is a lapel-guard back take where the bottom player uses the leg-wrapped lapel to block the opponent's post, then follows their off-balanced rotation to thread hooks and secure back control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Ringworm Sweep to Back Control in BJJ. Execute from Rin
 </div>
 
 <section id="overview" class="content-section">
+
+**The Ringworm Sweep to Back Control is a lapel-guard back take where the bottom player uses the leg-wrapped lapel to block the opponent's post, then follows their off-balanced rotation to thread hooks and secure back control.**
 
 The Ringworm Sweep to Back Control represents one of the highest-percentage attacks from the Ringworm Guard system, capitalizing on the unique mechanical advantages created by the lapel wrap configuration. This technique exploits the restricted mobility of the opponent's wrapped leg to create angular momentum that exposes the back during the sweeping motion. Unlike traditional sweeps that result in top mount, this variation specifically targets back control by following the opponent's rotation during the sweep.
 
@@ -218,5 +255,7 @@ The Ringworm Sweep to Back Control sits within the larger Ringworm Guard attack 
 
 
 </section>
+
+
 
 </main>

@@ -10,6 +10,41 @@ description: "Master the 50-50 Guard to Outside Ashi transition. Clear opponent'
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "50-50 Guard to Outside Ashi",
+  "description": "Master the 50-50 Guard to Outside Ashi transition. Clear opponent\u0027s legs to establish outside heel hook angle. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "50-50 Guard to Outside Ashi", "item": "https://bjjgraph.org/Transitions/50-50-Guard-to-Outside-Ashi" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "50-50 Guard to Outside Ashi",
+  "description": "The 50-50 Guard to Outside Ashi is a leg-entanglement transition that breaks the symmetrical 50-50 stalemate by extracting your trapped leg and repositioning into an asymmetrical outside ashi-garami, exposing the opponent's heel for outside heel hook attacks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the 50-50 Guard to Outside Ashi transition. Clear opponent'
 
 <section id="overview" class="content-section">
 
-The 50-50 Guard to Outside Ashi transition is a fundamental leg entanglement exchange that breaks the symmetrical stalemate inherent in 50-50 by extracting your trapped leg and repositioning to an asymmetrical outside ashi-garami configuration. This transition is essential for practitioners who find themselves stuck in the mutual leg entanglement of 50-50, where neither competitor has a clear advantage for heel hook or other leg lock finishes.
+**The 50-50 Guard to Outside Ashi is a leg-entanglement transition that breaks the symmetrical 50-50 stalemate by extracting your trapped leg and repositioning into an asymmetrical outside ashi-garami, exposing the opponent's heel for outside heel hook attacks.**
+
+Within modern leg lock systems, the 50-50 position frequently devolves into a symmetrical stalemate where neither competitor can isolate the other's heel, and this transition is the primary tool serious practitioners use to break that deadlock and force asymmetrical advantage. It is essential for anyone who finds themselves stuck in the mutual leg entanglement of 50-50, where the smallest grip, angle, or foot-control edge decides who attacks first.
 
 From 50-50 top position, you release your inside control and use hip movement combined with leg threading to clear your leg from the entanglement while simultaneously establishing outside ashi control on your opponent's leg. The transition creates an attacking angle that did not exist in the 50-50 configuration, exposing your opponent's heel for outside heel hook attacks while removing your own leg from danger.
 
@@ -214,5 +251,7 @@ The 50-50 Guard to Outside Ashi transition is a critical pathway in the modern l
 
 
 </section>
+
+
 
 </main>

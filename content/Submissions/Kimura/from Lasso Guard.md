@@ -10,10 +10,55 @@ description: "Master the Kimura shoulder lock from Lasso Guard top position. Lea
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Kimura from Lasso Guard targets the Shoulder joint, rotator cuff, and shoulder capsule. Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kimura from Lasso Guard",
+  "description": "Master the Kimura shoulder lock from Lasso Guard top position. Learn setup mechanics, figure-four grip details, finishing sequences, and defensive counters.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Kimura from Lasso Guard", "item": "https://bjjgraph.org/Submissions/Kimura-from-Lasso-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kimura from Lasso Guard",
+  "description": "The Kimura from Lasso Guard is a figure-four shoulder lock the top player applies to the bottom player's exposed non-lasso arm, using internal rotation to attack the shoulder while simultaneously threatening to clear the lasso and pass.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Kimura from Lasso Guard is a figure-four shoulder lock the top player applies to the bottom player's exposed non-lasso arm, using internal rotation to attack the shoulder while simultaneously threatening to clear the lasso and pass.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Shoulder Lock</span>
+<span class="meta-chip">Targets Shoulder joint, rotator cuff, and shoulder capsule</span>
+<span class="meta-chip">62% success</span>
+</div>
+
+> [!danger] Safety
+> Kimura from Lasso Guard targets the Shoulder joint, rotator cuff, and shoulder capsule. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -24,60 +69,13 @@ description: "Master the Kimura shoulder lock from Lasso Guard top position. Lea
 
 <section id="overview" class="content-section">
 
-The Kimura from Lasso Guard is an opportunistic shoulder lock attack available to the top player when the guard player over-commits to maintaining lasso control. When the bottom player threads their shin across your arm and focuses on extending the lasso, their non-lasso arm often becomes vulnerable—typically the hand gripping the collar or posting on the mat. By isolating this arm with a figure-four grip and applying controlled rotational force, the top player transforms a defensive guard-passing scenario into a direct submission threat.
+Lasso guard is built on a structural trade-off: the bottom player commits their shin, hips, and sleeve grip to trapping one of your arms, and that heavy commitment routinely leaves their other arm unguarded. When the bottom player threads their shin across your arm and focuses on extending the lasso, their non-lasso arm often becomes vulnerable—typically the hand gripping the collar or posting on the mat. By isolating this arm with a figure-four grip and applying controlled rotational force, the top player transforms a defensive guard-passing scenario into a direct submission threat.
 
 This attack exploits the fundamental trade-off inherent in lasso guard: the bottom player commits significant body structure to maintaining the lasso, leaving secondary control points exposed. The top player must recognize the window when the non-lasso arm drifts away from a protected position—usually when the bottom player reaches for collar grips, attempts sweep setups, or adjusts hip positioning. Timing the Kimura entry during these moments of commitment dramatically increases finishing probability.
 
 The Kimura from Lasso Guard creates a powerful tactical dilemma. If the bottom player defends the Kimura by releasing their lasso grips, the top player gains favorable passing position with the primary obstacle removed. If they stubbornly maintain the lasso while defending the Kimura, their posture collapses and the submission pressure compounds. This win-win dynamic makes the Kimura attempt valuable even when it does not result in a direct tap, as it systematically degrades the bottom player's guard structure.
 
-**Category**: Joint Lock
-**Type**: Shoulder Lock
-**Target Area**: Shoulder joint, rotator cuff, and shoulder capsule
-**Starting Position**: [[Positions/Lasso Guard]]
-**From Position**: [[Positions/Lasso Guard]] (Top)
-**Success Rate**: 62%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) | High | 3-9 months with potential surgery requirement |
-| Shoulder capsule damage and dislocation | CRITICAL | 6-12 months, may require surgical repair |
-| Labral tear (glenoid labrum) | High | 4-8 months, often requires arthroscopic surgery |
-| Bicep tendon strain or rupture | Medium | 6-12 weeks for strain, 3-6 months for rupture |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training, allowing partner time to recognize danger and tap
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or making any verbal distress sound)
-- Physical hand tap (multiple taps with free hand)
-- Physical foot tap (multiple taps with either foot)
-- Any distress signal including screaming or unusual sounds
-
-
-**Release Protocol**:
-1. Immediately stop all rotational pressure the instant tap is felt or heard
-2. Return the arm toward neutral position (externally rotate back to starting position)
-3. Release the figure-four grip completely
-4. Allow partner to self-assess shoulder mobility before continuing
-5. Never release suddenly or allow arm to spring back forcefully
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - rotation must be smooth and controlled
-- Never use competition speed or surprise attacks in training
-- Always ensure partner has at least one hand free to tap
-- Do not apply while partner is in awkward body position that prevents tapping
-- Never combine with weight pressure that restricts breathing while finishing
-- Respect immediate taps without testing partner's pain tolerance
-
+**Starting Position**: [[Positions/Lasso Guard]] · **From**: [[Positions/Lasso Guard]] (Top)
 
 </section>
 
@@ -234,39 +232,63 @@ The Kimura from Lasso Guard creates a powerful tactical dilemma. If the bottom p
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Kimura]]
 - [[Submissions/Americana]]
 - [[Submissions/Far Side Armbar]]
 - [[Transitions/Arm Triangle]]
 - [[Transitions/Darce Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Lasso Guard]] - Starting position where this Kimura variant is executed from the top player perspective
 - [[Positions/Kimura Trap]] - Control position often reached when opponent partially defends the Kimura and the grip is maintained
 - [[Positions/Spider Guard]] - Related guard position with similar sleeve control mechanics where comparable Kimura opportunities arise
 - [[Positions/Side Control]] - Common position reached after using the Kimura threat to break lasso grips and complete the guard pass
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) | High | 3-9 months with potential surgery requirement |
+| Shoulder capsule damage and dislocation | CRITICAL | 6-12 months, may require surgical repair |
+| Labral tear (glenoid labrum) | High | 4-8 months, often requires arthroscopic surgery |
+| Bicep tendon strain or rupture | Medium | 6-12 weeks for strain, 3-6 months for rupture |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training, allowing partner time to recognize danger and tap
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or making any verbal distress sound)
+- Physical hand tap (multiple taps with free hand)
+- Physical foot tap (multiple taps with either foot)
+- Any distress signal including screaming or unusual sounds
+
+
+**Release Protocol**:
+1. Immediately stop all rotational pressure the instant tap is felt or heard
+2. Return the arm toward neutral position (externally rotate back to starting position)
+3. Release the figure-four grip completely
+4. Allow partner to self-assess shoulder mobility before continuing
+5. Never release suddenly or allow arm to spring back forcefully
+
+
+**Training Restrictions**:
+- Never spike or jerk the submission - rotation must be smooth and controlled
+- Never use competition speed or surprise attacks in training
+- Always ensure partner has at least one hand free to tap
+- Do not apply while partner is in awkward body position that prevents tapping
+- Never combine with weight pressure that restricts breathing while finishing
+- Respect immediate taps without testing partner's pain tolerance
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Kimura from Lasso Guard leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

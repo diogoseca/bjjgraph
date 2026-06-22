@@ -10,6 +10,41 @@ description: "Master Gift Wrap Transition from High Mount in BJJ. Arm isolation 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Gift Wrap Transition",
+  "description": "Master Gift Wrap Transition from High Mount in BJJ. Arm isolation technique to Gift Wrap control with systematic setup and execution strategies.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Gift Wrap Transition", "item": "https://bjjgraph.org/Transitions/Gift-Wrap-Transition" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Gift Wrap Transition",
+  "description": "The Gift Wrap Transition is a High Mount arm-isolation technique where the top player threads an arm under the opponent's armpit and pins it high across their chest, stripping away half their defensive capability en route to back takes and chokes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master Gift Wrap Transition from High Mount in BJJ. Arm isolation 
 
 <section id="overview" class="content-section">
 
-The Gift Wrap Transition is a fundamental arm isolation technique executed from High Mount that establishes dominant control by trapping one of the opponent's arms across their own body. This transition removes half of the opponent's defensive capability in a single action, transforming an already dominant position into a submission-rich control point. The technique capitalizes on the high mount's proximity to the opponent's upper body, making arm isolation more accessible than from standard mount.
+**The Gift Wrap Transition is a High Mount arm-isolation technique where the top player threads an arm under the opponent's armpit and pins it high across their chest, stripping away half their defensive capability en route to back takes and chokes.**
+
+Within the mount attack hierarchy, the Gift Wrap Transition is the connective tissue that converts raw High Mount dominance into back exposure and choke threats. Because the high knee line already pins the opponent's shoulders and strips their bridging power, the upper-body real estate required to isolate an arm is immediately available, making this the most accessible arm-trap entry in the entire mount family. The defender—already fighting simply to survive the pin—is now forced to do so with one arm committed across their own chest.
 
 Strategically, the Gift Wrap Transition serves as a gateway to multiple high-percentage attacks. Once the arm is trapped across the opponent's chest, the path to back control opens significantly, the rear naked choke becomes substantially easier to finish, and the free arm becomes an isolated target for straight armbar attacks. The position exemplifies modern positional methodology where control is systematically refined before submission attempts, creating situations where the defender faces multiple threats with reduced defensive tools.
 
@@ -220,5 +257,7 @@ The Gift Wrap Transition is a critical link in the mount attack system, connecti
 
 
 </section>
+
+
 
 </main>

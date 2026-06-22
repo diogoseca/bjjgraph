@@ -10,10 +10,55 @@ description: "Master the kneebar from straight ankle lock control in BJJ. Comple
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Kneebar from Straight Ankle Lock Control targets the Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule). Risk: Posterior cruciate ligament (PCL) tear. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kneebar from Straight Ankle Lock Control",
+  "description": "Master the kneebar from straight ankle lock control in BJJ. Complete guide covering setup mechanics, finishing details, defensive counters, and safety protocols.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Kneebar from Straight Ankle Lock Control", "item": "https://bjjgraph.org/Submissions/Kneebar-from-Straight-Ankle-Lock-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kneebar from Straight Ankle Lock Control",
+  "description": "The kneebar from straight ankle lock control is a chain leg-lock submission that hyperextends the opponent's knee when their defense against the ankle lock—straightening the leg, standing, or rotating in—exposes the joint over the attacker's hip.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The kneebar from straight ankle lock control is a chain leg-lock submission that hyperextends the opponent's knee when their defense against the ankle lock—straightening the leg, standing, or rotating in—exposes the joint over the attacker's hip.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Leg Lock</span>
+<span class="meta-chip">Targets Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule)</span>
+<span class="meta-chip">60% success</span>
+</div>
+
+> [!danger] Safety
+> Kneebar from Straight Ankle Lock Control targets the Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule). Primary risk: Posterior cruciate ligament (PCL) tear. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,53 +75,7 @@ The mechanics of this transition require the attacker to shift their grip focus 
 
 From a strategic perspective, the kneebar from straight ankle lock control transforms a moderate-threat position into a high-percentage finishing sequence. The initial ankle lock attempt forces a committed defensive response, and the kneebar transition punishes that defense. This creates a lose-lose dynamic where the defender must choose between accepting ankle lock pressure or making the movements that expose the kneebar. Advanced practitioners layer additional threats including heel hooks and calf slicers from the same control position, building a comprehensive leg attack system rooted in this fundamental transition.
 
-**Category**: Joint Lock
-**Type**: Leg Lock
-**Target Area**: Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule)
-**Starting Position**: [[Positions/Straight Ankle Lock Control]]
-**From Position**: [[Positions/Straight Ankle Lock Control]] (Bottom)
-**Success Rate**: 60%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Posterior cruciate ligament (PCL) tear | High | 6-12 months with surgical intervention |
-| Medial collateral ligament (MCL) strain or tear | Medium | 4-8 weeks for grade 1-2, 3-6 months for grade 3 |
-| Joint capsule damage | Medium | 6-12 weeks |
-| Meniscus tear (medial or lateral) | High | 3-6 months, may require surgery |
-
-
-**Application Speed**: SLOW and progressive - minimum 3-5 seconds from initial pressure to finish in training
-
-**Tap Signals**:
-- Verbal tap or verbal signal
-- Physical hand tap on opponent or mat
-- Physical foot tap on opponent or mat
-- Any distress vocalization or signal
-
-
-**Release Protocol**:
-1. Immediately stop all hip extension the moment tap is received
-2. Release hip pressure by dropping hips away from opponent's leg
-3. Maintain positional control while releasing the leg slowly
-4. Allow opponent to extract their leg at their own pace
-5. Check with partner verbally after release
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - always apply smooth, progressive pressure
-- Never use competition speed or intensity in training rolls
-- Always communicate with training partners about leg lock experience level
-- Never continue pressure after any tap signal
-- Avoid training kneebars with partners who have pre-existing knee injuries without explicit permission
-
+**Starting Position**: [[Positions/Straight Ankle Lock Control]] · **From**: [[Positions/Straight Ankle Lock Control]] (Bottom)
 
 </section>
 
@@ -239,42 +238,64 @@ From a strategic perspective, the kneebar from straight ankle lock control trans
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Achilles Lock]]
 - [[Transitions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
 - [[Submissions/Calf Slicer]]
 - [[Submissions/Flying Kneebar]]
 - [[Transitions/Estima Lock]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Straight Ankle Lock Control]] - Starting position for this kneebar transition
 - [[Positions/Kneebar Control]] - Control position established upon successful entry
-- [[Submissions/Achilles Lock]] - Primary submission threat that sets up this transition
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Alternative leg entanglement accessible from same control
 - [[Positions/Ashi Garami/50-50 Guard]] - Symmetrical entanglement that may result from scrambles
 - [[Positions/Leg Entanglement]] - Governing principle for understanding leg attack chains
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Posterior cruciate ligament (PCL) tear | High | 6-12 months with surgical intervention |
+| Medial collateral ligament (MCL) strain or tear | Medium | 4-8 weeks for grade 1-2, 3-6 months for grade 3 |
+| Joint capsule damage | Medium | 6-12 weeks |
+| Meniscus tear (medial or lateral) | High | 3-6 months, may require surgery |
+
+
+**Application Speed**: SLOW and progressive - minimum 3-5 seconds from initial pressure to finish in training
+
+**Tap Signals**:
+- Verbal tap or verbal signal
+- Physical hand tap on opponent or mat
+- Physical foot tap on opponent or mat
+- Any distress vocalization or signal
+
+
+**Release Protocol**:
+1. Immediately stop all hip extension the moment tap is received
+2. Release hip pressure by dropping hips away from opponent's leg
+3. Maintain positional control while releasing the leg slowly
+4. Allow opponent to extract their leg at their own pace
+5. Check with partner verbally after release
+
+
+**Training Restrictions**:
+- Never spike or jerk the submission - always apply smooth, progressive pressure
+- Never use competition speed or intensity in training rolls
+- Always communicate with training partners about leg lock experience level
+- Never continue pressure after any tap signal
+- Avoid training kneebars with partners who have pre-existing knee injuries without explicit permission
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Kneebar from Straight Ankle Lock Control leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

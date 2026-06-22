@@ -14,7 +14,8 @@
   "application_level": "Intermediate",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
-  "overview": "Center of Gravity represents the strategic management of bodyweight allocation across contact points to maximize control effectiveness, minimize escape opportunities, and optimize technical execution in top positions. Unlike simple heavy pressure, weight distribution is a sophisticated conceptual framework encompassing the biomechanical principles of leverage and balance, strategic decisions about where to concentrate or disperse weight, dynamic adjustment of distribution based on opponent responses, and the integration of weight allocation with technical objectives. This concept recognizes that effective top control depends not on maximum weight application but on intelligent weight distribution that simultaneously achieves multiple objectives: preventing escapes, enabling technique execution, maintaining base integrity, and conserving energy. Weight distribution serves as both a control mechanism that pins opponent effectively and a strategic tool that creates specific reactions enabling technical advancement. The ability to distribute weight intelligently often determines whether a practitioner can maintain dominant positions against resistance or loses control through predictable, rigid pressure patterns, making it one of the most essential conceptual elements in top game development.",
+  "summary": "Center of Gravity is the principle of strategically allocating bodyweight across contact points—concentrating pressure on control targets while preserving base—to pin an opponent, prevent escapes, and enable techniques with minimal energy expenditure.",
+  "overview": "In top-position control the practitioner who dominates is rarely the heaviest, but the one who organizes weight most intelligently, and that organization is precisely the domain Center of Gravity governs. Unlike simple heavy pressure, weight distribution is a sophisticated conceptual framework encompassing the biomechanical principles of leverage and balance, strategic decisions about where to concentrate or disperse weight, dynamic adjustment of distribution based on opponent responses, and the integration of weight allocation with technical objectives. This concept recognizes that effective top control depends not on maximum weight application but on intelligent weight distribution that simultaneously achieves multiple objectives: preventing escapes, enabling technique execution, maintaining base integrity, and conserving energy. Weight distribution serves as both a control mechanism that pins opponent effectively and a strategic tool that creates specific reactions enabling technical advancement. The ability to distribute weight intelligently often determines whether a practitioner can maintain dominant positions against resistance or loses control through predictable, rigid pressure patterns, making it one of the most essential conceptual elements in top game development.",
   "key_principles": [
     "Distribute weight strategically across multiple contact points rather than loading single areas",
     "Concentrate pressure on opponent's most vulnerable targets (hips, chest, head) based on position",
@@ -388,6 +389,40 @@
       "name": "Control Point Hierarchy",
       "content_type": "Principle",
       "relationship": "Related concept that informs weight distribution strategy by identifying which body parts offer most valuable pressure allocation targets"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What distinguishes Center of Gravity from simply applying heavy pressure?",
+      "answer": "It is the strategic allocation and dynamic modulation of weight across contact points to serve control, transitions, and energy efficiency, not the maximizing of total weight, which only produces predictable, exploitable pressure."
+    },
+    {
+      "question": "Why concentrate weight on control targets while keeping base points lighter?",
+      "answer": "Concentrating pressure on the opponent's hips, chest, or head shuts down the most dangerous escape vectors, while reserving enough weight on base points preserves the stability needed to resist sweeps and reversals."
+    },
+    {
+      "question": "How does asymmetric loading create a dilemma for the bottom player?",
+      "answer": "By trapping the opponent on one side while controlling the other, every defensive choice—accepting the pressure or turning to escape—exposes them to a technical attack, so all of their options favor the top player."
+    },
+    {
+      "question": "What is the danger of committing too much weight to pressure?",
+      "answer": "Overcommitting weight compromises base integrity, leaving you open to sweeps and reversals the moment the opponent explosively changes direction or exploits the overextended distribution from a seemingly dominant position."
+    },
+    {
+      "question": "Why is skeletal alignment preferred over muscular effort for maintaining pressure?",
+      "answer": "Loading weight through bones and gravity sustains relentless pressure with minimal energy, whereas muscular effort drains stamina fast, makes distribution rigid and unresponsive, and collapses once fatigue sets in."
+    },
+    {
+      "question": "How should weight distribution differ against an explosive opponent versus a technical escaper?",
+      "answer": "Use heavier, more static pressure to limit an explosive opponent's movement, but keep lighter, mobile distribution against a technical escaper who requires constant micro-adjustments to stay ahead of their frames."
+    },
+    {
+      "question": "What role does tactile pressure reading play in dynamic weight modulation?",
+      "answer": "Sensing the opponent's response through contact lets you detect escape intentions before visible movement, so you can add pressure where space is forming and lighten it where they have already stopped resisting."
+    },
+    {
+      "question": "How does Center of Gravity enable transitions rather than impede them?",
+      "answer": "Coordinating weight shifts with technical execution turns redistribution into the mechanism that creates the reactions and pathways for smooth movement, instead of leaving weight committed where it blocks the transition."
     }
   ]
 }

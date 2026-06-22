@@ -10,6 +10,41 @@ description: "Master the Hook Sweep from Butterfly Guard in BJJ. Complete guide 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Hook Sweep",
+  "description": "Master the Hook Sweep from Butterfly Guard in BJJ. Complete guide covering angle creation, hook placement, and sweep execution to Side Control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Hook Sweep", "item": "https://bjjgraph.org/Transitions/Hook-Sweep" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Hook Sweep",
+  "description": "The Hook Sweep is a high-percentage butterfly guard sweep where the bottom player creates a 45-degree angle, loads a deep hook under the opponent's thigh, and pairs an upward lift with an upper-body pull to topple them into Side Control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Hook Sweep from Butterfly Guard in BJJ. Complete guide 
 
 <section id="overview" class="content-section">
 
-The Hook Sweep is a fundamental butterfly guard technique that leverages proper hook placement, angle creation, and weight manipulation to off-balance and sweep an opponent. This sweep is particularly effective when the opponent's weight is distributed forward or when they are attempting to pass your guard. The technique relies on elevating the opponent using a single butterfly hook while simultaneously pulling them off-balance with upper body grips, creating a rotational sweeping motion that results in a dominant top position.
+**The Hook Sweep is a high-percentage butterfly guard sweep where the bottom player creates a 45-degree angle, loads a deep hook under the opponent's thigh, and pairs an upward lift with an upper-body pull to topple them into Side Control.**
+
+Within the butterfly guard offensive system, the Hook Sweep functions as the primary off-balancing threat, drawing its power from the coordination of hook placement, angle creation, and weight manipulation. It is particularly effective when the opponent's weight is distributed forward or when they are attempting to pass your guard. The technique relies on elevating the opponent using a single butterfly hook while simultaneously pulling them off-balance with upper body grips, creating a rotational sweeping motion that results in a dominant top position.
 
 The Hook Sweep is one of the most high-percentage sweeps from butterfly guard due to its mechanical efficiency and the difficulty opponents face in defending once proper grips and hooks are established. Unlike the classic butterfly sweep which elevates straight over, the hook sweep uses a pronounced angle to attack the opponent's base from the side, making it harder to post and defend. This technique forms the foundation of the butterfly guard offensive system and connects seamlessly with arm drags, guillotine threats, and X-guard transitions, making it essential for any practitioner building a comprehensive guard game.
 
@@ -225,5 +262,7 @@ The hook sweep is a cornerstone technique within the butterfly guard system and 
 
 
 </section>
+
+
 
 </main>

@@ -10,6 +10,41 @@ description: "Escape from Cross Body Ride in BJJ. Complete guide to clearing hoo
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Escape from Cross Body Ride",
+  "description": "Escape from Cross Body Ride in BJJ. Complete guide to clearing hooks, building frames, executing hip escapes, and reversing to side control from turtle bottom.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Escape from Cross Body Ride", "item": "https://bjjgraph.org/Transitions/Escape-from-Cross-Body-Ride" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Escape from Cross Body Ride",
+  "description": "The Escape from Cross Body Ride is a turtle-bottom reversal that clears the rider's perpendicular pressure with framing and an explosive hip switch, converting an imminent back-take threat into side control top.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Escape from Cross Body Ride in BJJ. Complete guide to clearing hoo
 </div>
 
 <section id="overview" class="content-section">
+
+**The Escape from Cross Body Ride is a turtle-bottom reversal that clears the rider's perpendicular pressure with framing and an explosive hip switch, converting an imminent back-take threat into side control top.**
 
 The Escape from Cross Body Ride is a critical defensive technique for recovering from one of the most compromising turtle-top positions in Brazilian Jiu-Jitsu. When an opponent has established perpendicular chest-to-back contact with harness control, the bottom player faces immediate threats of back take, crucifix entry, and various choke attacks. This escape addresses the fundamental problem of removing the rider's weight and control points while creating enough space to reverse the position or recover guard.
 
@@ -216,5 +253,7 @@ The Escape from Cross Body Ride serves as the primary defensive response within 
 
 
 </section>
+
+
 
 </main>

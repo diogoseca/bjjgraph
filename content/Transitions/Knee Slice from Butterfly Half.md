@@ -10,6 +10,41 @@ description: "Master the knee slice pass from butterfly half guard in BJJ. Learn
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Knee Slice from Butterfly Half",
+  "description": "Master the knee slice pass from butterfly half guard in BJJ. Learn to neutralize butterfly hooks, slice through half guard, and advance to side control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Knee Slice from Butterfly Half", "item": "https://bjjgraph.org/Transitions/Knee-Slice-from-Butterfly-Half" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Knee Slice from Butterfly Half",
+  "description": "The Knee Slice from Butterfly Half is a top guard pass that first neutralizes the bottom player's butterfly hook, then slices the knee diagonally across the trapped thigh to clear the half guard and advance into side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the knee slice pass from butterfly half guard in BJJ. Learn
 </div>
 
 <section id="overview" class="content-section">
+
+**The Knee Slice from Butterfly Half is a top guard pass that first neutralizes the bottom player's butterfly hook, then slices the knee diagonally across the trapped thigh to clear the half guard and advance into side control.**
 
 The Knee Slice from Butterfly Half Guard is a specialized guard passing technique that addresses one of the most common and challenging hybrid guard configurations in modern Brazilian Jiu-Jitsu. Unlike a standard knee slice from regular half guard, this variation demands that the passer first neutralize the active butterfly hook before committing to the slicing motion across the thigh line. The butterfly hook creates an additional layer of defensive complexity because it provides the bottom player with elevation potential capable of sweeping the passer mid-technique if left unaddressed. The sequential challenge of killing the hook, establishing upper body control, and then executing the slice makes this a more technically demanding version of the fundamental knee cut pass.
 
@@ -232,5 +269,7 @@ The Knee Slice from Butterfly Half Guard occupies a critical position in the mod
 
 
 </section>
+
+
 
 </main>

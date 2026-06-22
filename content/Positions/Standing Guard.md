@@ -10,6 +10,41 @@ description: "Master Standing Guard in BJJ. Strategic guide covering defensive s
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Standing Guard",
+  "description": "Master Standing Guard in BJJ. Strategic guide covering defensive structure, distance management, and transitions from upright posture with perspective analysis.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Standing Guard", "item": "https://bjjgraph.org/Positions/Standing-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Standing Guard",
+  "description": "Standing Guard is the neutral upright engagement where both grapplers contest grips and manage distance, deciding whether to pull guard, shoot a takedown, or continue standup exchanges before committing to the ground.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Standing Guard in BJJ. Strategic guide covering defensive s
 </div>
 
 <section id="overview" class="content-section">
+
+**Standing Guard is the neutral upright engagement where both grapplers contest grips and manage distance, deciding whether to pull guard, shoot a takedown, or continue standup exchanges before committing to the ground.**
 
 Standing Guard represents a critical transitional phase where both practitioners maintain upright postures while engaging in grip fighting and distance management. This position serves as the gateway between initial engagement and ground-based grappling, where strategic decisions about guard pulling, takedown attempts, or continued standup exchanges are made. The position is characterized by active hand fighting, footwork-based positioning, and the constant tension between offensive opportunity and defensive responsibility.
 
@@ -100,7 +137,7 @@ Modern BJJ competition has elevated the importance of Standing Guard mastery, as
 ### Available Transitions
 
 
-- **[[Transitions/Pull guard/Attacker|Pull guard]]** (36% of attempts)
+- **[[Transitions/Pull guard/Attacker|Pull guard]]** (37% of attempts)
 
 - **[[Transitions/Sitting Guard Pull/Attacker|Sitting Guard Pull]]** (10% of attempts)
 
@@ -121,8 +158,6 @@ Modern BJJ competition has elevated the importance of Standing Guard mastery, as
 - **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (5% of attempts)
 
 - **[[Transitions/Pull Guard from Ground/Attacker|Pull Guard from Ground]]** (2% of attempts)
-
-- **[[Transitions/Technical Stand Up from Ground/Attacker|Technical Stand Up from Ground]]** (1% of attempts)
 
 - **[[Transitions/Sweep from Standing Guard/Attacker|Sweep from Standing Guard]]** (1% of attempts)
 
@@ -272,6 +307,16 @@ Modern BJJ competition has elevated the importance of Standing Guard mastery, as
 
 - **[[Positions/Butterfly Guard]]** - Sitting guard variation accessible from standing
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Standing-Defense-Strategy" data-cta="related-system-card" data-system-slug="systems/standing-defense-strategy" data-system-name="Standing Defense Strategy" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Standing Defense Strategy</span><span class="system-card__unlocks-badge">Unlocks 27 techniques</span><span class="system-card__blurb">Position that bridges standing exchanges and guard play</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

@@ -10,6 +10,41 @@ description: "Master Outside Ashi to Inside Ashi counter-entanglement in BJJ. Gu
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Outside Ashi to Inside Ashi",
+  "description": "Master Outside Ashi to Inside Ashi counter-entanglement in BJJ. Guide to reversing leg lock position through leg threading, hip mechanics, and systematic reversal.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Outside Ashi to Inside Ashi", "item": "https://bjjgraph.org/Transitions/Outside-Ashi-to-Inside-Ashi" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Outside Ashi to Inside Ashi",
+  "description": "Outside Ashi to Inside Ashi is a counter-entanglement transition where a practitioner trapped in an opponent's outside ashi-garami threads their free leg across the opponent's hip to establish their own dominant inside ashi-garami, reversing defender into attacker.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Outside Ashi to Inside Ashi counter-entanglement in BJJ. Gu
 </div>
 
 <section id="overview" class="content-section">
+
+**Outside Ashi to Inside Ashi is a counter-entanglement transition where a practitioner trapped in an opponent's outside ashi-garami threads their free leg across the opponent's hip to establish their own dominant inside ashi-garami, reversing defender into attacker.**
 
 The Outside Ashi to Inside Ashi transition represents one of the most important counter-entanglement techniques in modern leg lock warfare. When trapped in Outside Ashi-Garami from the top position—where an opponent has isolated your leg in their outside ashi configuration—this technique allows you to reverse the dynamic by establishing your own Inside Ashi-Garami on their exposed leg. Rather than simply escaping the entanglement, you transform a defensive position into an offensive one, immediately threatening your own leg attacks.
 
@@ -220,5 +257,7 @@ The Outside Ashi to Inside Ashi transition sits at the intersection of leg lock 
 
 
 </section>
+
+
 
 </main>

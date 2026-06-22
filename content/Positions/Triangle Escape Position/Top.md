@@ -344,11 +344,13 @@ Partner alternates between tightening triangle and attempting armbar transitions
 - **[[Positions/Combat Base]]** - Target position for posture recovery and defensive stabilization
 - **[[Transitions/Stack Pass]]** - Primary offensive escape transition from triangle position
 - **[[Positions/Armbar Control]]** - Common transition opponent attempts from triangle if escape is defended
-- **[[Defensive Posture]]** - Fundamental concept for maintaining structure under submission pressure
+- **[[Principles/Posture]]** - Fundamental concept for maintaining structure under submission pressure
 - **[[Transitions/Posture Recovery]]** - Essential transition technique for triangle escape success
 - **[[Transitions/Armbar Defense]]** - Critical defensive skill when opponent transitions from triangle to armbar
 
 
 </section>
+
+
 
 </main>

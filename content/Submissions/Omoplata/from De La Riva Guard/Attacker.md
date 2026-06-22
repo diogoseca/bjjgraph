@@ -122,10 +122,10 @@ description: "Learn to attack the omoplata from De La Riva Guard with DLR leg sw
     },
     {
       "@type": "Question",
-      "name": "What are the key safety considerations when applying the omoplata from De La Riva Guard?",
+      "name": "Your wrist control on the trapped arm is slipping as the opponent straightens it - what grip adjustment preserves the finish?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The shoulder joint has limited rotational range and is vulnerable to serious injury including rotator cuff tears and labrum damage requiring surgery. Always apply finishing pressure slowly and progressively over 4-6 seconds minimum. Never jerk or spike the shoulder rotation. Maintain awareness of all tap signals including verbal taps, hand or foot taps on you or the mat, and distress sounds. If the opponent attempts a forward roll escape, release immediately as continued pressure during the roll can cause acute shoulder dislocation."
+        "text": "Switch from a loose wrist grip to an S-grip or figure-four clamp over the forearm, pinning their hand to your hip or the mat to block elbow rotation. If the arm is straightening, bring your free hand to an overhook above their elbow and walk your hips toward their head to re-bend the arm, restoring the shoulder rotation angle before reapplying downward pressure through your chest and hips."
       }
     }
   ]

@@ -10,6 +10,41 @@ description: "Master the pummeling escape from body lock in BJJ. Complete guide 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Pummeling Escape from Body Lock",
+  "description": "Master the pummeling escape from body lock in BJJ. Complete guide to underhook fighting mechanics for breaking free and recovering neutral standing position.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Pummeling Escape from Body Lock", "item": "https://bjjgraph.org/Transitions/Pummeling-Escape-from-Body-Lock" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Pummeling Escape from Body Lock",
+  "description": "The pummeling escape from body lock is a standing escape in which the trapped bottom player threads elbows and forearms inside the opponent's locked grip through rotational pummeling, structurally breaking the lock to recover a neutral clinch.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the pummeling escape from body lock in BJJ. Complete guide 
 
 <section id="overview" class="content-section">
 
-The pummeling escape from body lock is a wrestling-based technique for breaking free from one of the most dominant standing control positions in grappling. When trapped in a body lock, the bottom player uses systematic underhook fighting to wedge their arms inside the opponent's grip, progressively working to establish inside position that structurally breaks the lock and creates space to disengage. This approach addresses the root cause of the body lock's effectiveness: the closed kinetic chain created by locked arms and chest-to-back connection.
+**The pummeling escape from body lock is a standing escape in which the trapped bottom player threads elbows and forearms inside the opponent's locked grip through rotational pummeling, structurally breaking the lock to recover a neutral clinch.**
+
+Among standing body-lock escapes, the pummeling escape is the option that attacks the lock's structure rather than its grip. When trapped in a body lock, the bottom player uses systematic underhook fighting to wedge their arms inside the opponent's grip, progressively working to establish inside position that structurally breaks the lock and creates space to disengage. This approach addresses the root cause of the body lock's effectiveness: the closed kinetic chain created by locked arms and chest-to-back connection.
 
 Unlike pure grip-breaking escapes that target the hands directly, the pummeling escape inserts structural wedges between your torso and the opponent's arms. By driving your elbows and forearms inside their grip through rotational pummeling motions, you create bone-on-bone frames that mechanically prevent the opponent from maintaining their lock. The technique leverages skeletal structure rather than muscular strength, making it effective even against significantly stronger opponents who have established a deep, tight body lock.
 
@@ -222,5 +259,7 @@ The pummeling escape from body lock sits at the intersection of wrestling underh
 
 
 </section>
+
+
 
 </main>

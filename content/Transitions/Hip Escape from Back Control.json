@@ -1,5 +1,6 @@
 {
   "name": "Hip Escape from Back Control",
+  "summary": "The hip escape from back control is a systematic BJJ escape where the bottom player defends the neck, strips the seatbelt, then scoots the hips below the hooks and rotates toward the underhook side to recover half guard.",
   "description": "Master the hip escape from back control in BJJ. Step-by-step guide to neck defense, grip stripping, hook removal, and systematic half guard recovery.",
   "tags": [
     "back-escape",
@@ -87,8 +88,8 @@
       "relationship": "Intermediate escape position often reached during hip escape when full guard recovery is blocked"
     },
     {
-      "name": "Harness Escape to Half Guard",
-      "relationship": "Related escape technique targeting the harness grip control that precedes hook removal"
+      "name": "Harness",
+      "relationship": "Upper body grip control that the hip escape must address during the seatbelt stripping phase"
     },
     {
       "name": "Seat Belt Control Back",

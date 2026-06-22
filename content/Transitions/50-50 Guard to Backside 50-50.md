@@ -10,6 +10,41 @@ description: "Master the transition from 50-50 Guard to Backside 50-50 in BJJ. L
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "50-50 Guard to Backside 50-50",
+  "description": "Master the transition from 50-50 Guard to Backside 50-50 in BJJ. Learn rotational mechanics, inside control, and pressure shifting to gain dominant leg entanglement.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "50-50 Guard to Backside 50-50", "item": "https://bjjgraph.org/Transitions/50-50-Guard-to-Backside-50-50" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "50-50 Guard to Backside 50-50",
+  "description": "The 50-50 Guard to Backside 50-50 transition is a rotational advancement in which the top player walks their hips behind the opponent—pivoting on a locked inside leg—to convert the symmetrical 50-50 entanglement into the dominant, back-facing Backside 50-50.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the transition from 50-50 Guard to Backside 50-50 in BJJ. L
 </div>
 
 <section id="overview" class="content-section">
+
+**The 50-50 Guard to Backside 50-50 transition is a rotational advancement in which the top player walks their hips behind the opponent—pivoting on a locked inside leg—to convert the symmetrical 50-50 entanglement into the dominant, back-facing Backside 50-50.**
 
 The Transition to Backside 50-50 is a rotational positional advancement from standard 50-50 Guard Top that places your chest against your opponent's back while maintaining the mirrored leg entanglement. This transition breaks the symmetry of standard 50-50 by creating a back-facing orientation that provides superior pressure, better visual access to leg attack entries, and the constant secondary threat of abandoning the entanglement entirely for back control. The rotation fundamentally shifts the position from a roughly equal exchange into a clearly dominant configuration.
 
@@ -220,5 +257,7 @@ The Transition to Backside 50-50 sits at a critical junction in the modern leg l
 
 
 </section>
+
+
 
 </main>

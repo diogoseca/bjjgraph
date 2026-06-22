@@ -10,6 +10,41 @@ description: "Master passing Double Sleeve Guard in BJJ. Complete guide to break
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Pass Double Sleeve Guard",
+  "description": "Master passing Double Sleeve Guard in BJJ. Complete guide to breaking bilateral sleeve grips, creating angles, and completing the pass to side control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Pass Double Sleeve Guard", "item": "https://bjjgraph.org/Transitions/Pass-Double-Sleeve-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Pass Double Sleeve Guard",
+  "description": "Passing Double Sleeve Guard is the top player's systematic dismantling of an opponent's bilateral sleeve grips and foot frames — breaking grips, securing leg control, creating a lateral angle, and clearing the legs to complete the pass to side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master passing Double Sleeve Guard in BJJ. Complete guide to break
 </div>
 
 <section id="overview" class="content-section">
+
+**Passing Double Sleeve Guard is the top player's systematic dismantling of an opponent's bilateral sleeve grips and foot frames — breaking grips, securing leg control, creating a lateral angle, and clearing the legs to complete the pass to side control.**
 
 Passing Double Sleeve Guard requires systematic grip breaking combined with strategic angle creation to overcome the bottom player's bilateral sleeve control. The guard passer must address both sleeve grips while managing the opponent's active feet, which serve as the primary distance-maintaining mechanism. Success depends on breaking grips methodically using proper mechanics rather than brute strength, then immediately capitalizing on the brief window before the guard player can re-establish control.
 
@@ -213,17 +250,17 @@ Pass Double Sleeve Guard connects the open guard passing game to the side contro
 
 - [[Positions/Lasso Guard]] - Alternative guard opponent may establish during pass attempt
 
-- [[Transitions/Pass Collar Sleeve Guard]] - Similar passing technique against related grip configuration
-
-- [[Transitions/Double Sleeve Sweep]] - Opponent's primary offensive threat during pass attempt
-
 - [[Positions/Combat Base]] - Alternative starting posture for initiating the pass
 
 - [[Positions/Collar Sleeve Guard]] - Related guard position with similar passing principles
+
+- [[Positions/Open Guard]] - Parent guard category and counter outcome if the opponent recovers
 
 - [[Transitions/Double Sleeve to Spider Guard]] - Guard transition to recognize and prevent during passing
 
 
 </section>
+
+
 
 </main>

@@ -1,5 +1,5 @@
 {
-  "last_updated_at": "2026-04-15T16:23:44.863589Z",
+  "last_updated_at": "2026-05-30T22:11:07.633013Z",
   "votes": {
     "100% Sweep": {
       "success_rate": 50.0,
@@ -310,8 +310,8 @@
       "vote_count": 30
     },
     "Armbar on Free Arm": {
-      "success_rate": 58.0,
-      "vote_count": 30
+      "success_rate": 58.03,
+      "vote_count": 31
     },
     "Ashi Entry from Leg Entanglement": {
       "success_rate": 55.0,
@@ -427,7 +427,7 @@
     },
     "Backstep from K-Guard": {
       "success_rate": 55.0,
-      "vote_count": 30
+      "vote_count": 31
     },
     "Backstep from Leg Knot": {
       "success_rate": 50.0,
@@ -522,8 +522,8 @@
       "vote_count": 30
     },
     "Body Triangle Lock": {
-      "success_rate": 58.0,
-      "vote_count": 30
+      "success_rate": 58.03,
+      "vote_count": 31
     },
     "Body Triangle RNC": {
       "success_rate": 55.0,
@@ -558,8 +558,8 @@
       "vote_count": 30
     },
     "Bow and Arrow Choke Setup": {
-      "success_rate": 58.0,
-      "vote_count": 30
+      "success_rate": 58.03,
+      "vote_count": 31
     },
     "Bow and Arrow Setup from Standing Back": {
       "success_rate": 55.0,
@@ -727,7 +727,7 @@
     },
     "Butterfly Sweep": {
       "success_rate": 62.0,
-      "vote_count": 30
+      "vote_count": 31
     },
     "Butterfly Sweep with Guillotine": {
       "success_rate": 58.0,
@@ -1582,8 +1582,8 @@
       "vote_count": 30
     },
     "Gift Wrap RNC": {
-      "success_rate": 55.0,
-      "vote_count": 30
+      "success_rate": 55.03,
+      "vote_count": 31
     },
     "Gift Wrap Transition": {
       "success_rate": 58.0,
@@ -1599,7 +1599,7 @@
     },
     "Gift Wrap to Technical Mount": {
       "success_rate": 62.0,
-      "vote_count": 30
+      "vote_count": 31
     },
     "Gogoplata": {
       "success_rate": 40.0,
@@ -1783,7 +1783,7 @@
     },
     "Half Guard to Back Take": {
       "success_rate": 78.0,
-      "vote_count": 30
+      "vote_count": 31
     },
     "Half Guard to Double Jump": {
       "success_rate": 50.0,
@@ -1931,7 +1931,7 @@
     },
     "Hip Bump Sweep": {
       "success_rate": 60.0,
-      "vote_count": 30
+      "vote_count": 31
     },
     "Hip Bump Sweep V2": {
       "success_rate": 60.0,
@@ -2307,7 +2307,7 @@
     },
     "Knee Slice from Half": {
       "success_rate": 68.0,
-      "vote_count": 30
+      "vote_count": 31
     },
     "Knee Slice from Knee Shield": {
       "success_rate": 55.0,
@@ -2326,8 +2326,8 @@
       "vote_count": 30
     },
     "Knee Slide from Combat Base": {
-      "success_rate": 55.0,
-      "vote_count": 31
+      "success_rate": 55.03,
+      "vote_count": 32
     },
     "Knee Slide from Flattened Half": {
       "success_rate": 55.0,
@@ -2682,8 +2682,8 @@
       "vote_count": 30
     },
     "Lumberjack Sweep": {
-      "success_rate": 60.0,
-      "vote_count": 30
+      "success_rate": 59.81,
+      "vote_count": 31
     },
     "Marce Choke": {
       "success_rate": 58.0,
@@ -3074,8 +3074,8 @@
       "vote_count": 30
     },
     "Pass to Side Control": {
-      "success_rate": 58.0,
-      "vote_count": 30
+      "success_rate": 58.03,
+      "vote_count": 31
     },
     "Pendulum Sweep": {
       "success_rate": 68.0,
@@ -3118,8 +3118,8 @@
       "vote_count": 30
     },
     "Posture Recovery": {
-      "success_rate": 75.03,
-      "vote_count": 31
+      "success_rate": 75.0,
+      "vote_count": 34
     },
     "Posture Recovery from Carni": {
       "success_rate": 50.0,
@@ -3510,8 +3510,8 @@
       "vote_count": 30
     },
     "Rolling Back Take": {
-      "success_rate": 72.0,
-      "vote_count": 30
+      "success_rate": 72.03,
+      "vote_count": 31
     },
     "Rolling Back Take Reversal": {
       "success_rate": 48.0,
@@ -3782,8 +3782,8 @@
       "vote_count": 30
     },
     "Single Leg X Sweep": {
-      "success_rate": 78.0,
-      "vote_count": 30
+      "success_rate": 77.97,
+      "vote_count": 31
     },
     "Single Leg X Transition": {
       "success_rate": 55.0,
@@ -3894,8 +3894,8 @@
       "vote_count": 30
     },
     "Sprawl Defense": {
-      "success_rate": 75.0,
-      "vote_count": 30
+      "success_rate": 75.03,
+      "vote_count": 31
     },
     "Sprawl Defense from Standing": {
       "success_rate": 55.0,
@@ -3935,7 +3935,7 @@
     },
     "Stack Pass": {
       "success_rate": 62.0,
-      "vote_count": 30
+      "vote_count": 31
     },
     "Stack Pass Over Lapel Barrier": {
       "success_rate": 58.0,
@@ -4310,8 +4310,8 @@
       "vote_count": 30
     },
     "Technical Stand-up": {
-      "success_rate": 85.12,
-      "vote_count": 32
+      "success_rate": 85.0,
+      "vote_count": 33
     },
     "Technical Standup from Inversion": {
       "success_rate": 58.0,
@@ -4415,7 +4415,7 @@
     },
     "Triangle Choke": {
       "success_rate": 65.0,
-      "vote_count": 30
+      "vote_count": 31
     },
     "Triangle Choke Back": {
       "success_rate": 58.0,
@@ -4503,7 +4503,7 @@
     },
     "Tripod Sweep": {
       "success_rate": 58.0,
-      "vote_count": 31
+      "vote_count": 32
     },
     "Truck Entry": {
       "success_rate": 58.0,
@@ -4655,7 +4655,7 @@
     },
     "Underhook Sweep from Half": {
       "success_rate": 58.0,
-      "vote_count": 31
+      "vote_count": 32
     },
     "Underhook Sweep from Pocket Half": {
       "success_rate": 43.0,
@@ -4730,8 +4730,8 @@
       "vote_count": 30
     },
     "X-Guard Sweep": {
-      "success_rate": 58.0,
-      "vote_count": 31
+      "success_rate": 57.94,
+      "vote_count": 32
     },
     "X-Guard Technical Stand Up": {
       "success_rate": 55.0,
@@ -6367,6 +6367,90 @@
     },
     "Anaconda Choke from Dead Orchard": {
       "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Closed Guard to Hindulotine": {
+      "success_rate": 55.0,
+      "vote_count": 30
+    },
+    "Ashi Garami to Toe Hold Control": {
+      "success_rate": 60.0,
+      "vote_count": 30
+    },
+    "Mount to Modified Mount": {
+      "success_rate": 58.0,
+      "vote_count": 30
+    },
+    "New York Control Entry from Rubber Guard": {
+      "success_rate": 57.0,
+      "vote_count": 30
+    },
+    "Half Guard to Jailbreak": {
+      "success_rate": 55.0,
+      "vote_count": 30
+    },
+    "Butterfly Guard to Williams Guard": {
+      "success_rate": 55.0,
+      "vote_count": 30
+    },
+    "Turtle to Aoki Lock": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Meathook Entry from Rubber Guard": {
+      "success_rate": 57.0,
+      "vote_count": 30
+    },
+    "De La Riva to Grasshopper Guard": {
+      "success_rate": 55.0,
+      "vote_count": 30
+    },
+    "Outside Ashi to Leg Knot": {
+      "success_rate": 55.0,
+      "vote_count": 30
+    },
+    "Half Guard Whizzer Counter": {
+      "success_rate": 60.0,
+      "vote_count": 30
+    },
+    "De La Riva to Lapel Guard": {
+      "success_rate": 58.0,
+      "vote_count": 30
+    },
+    "Open Guard to Double Unders": {
+      "success_rate": 60.0,
+      "vote_count": 30
+    },
+    "Single Leg X-Guard to Inside Sankaku": {
+      "success_rate": 55.0,
+      "vote_count": 30
+    },
+    "Buggy Choke from Bottom Side Control": {
+      "success_rate": 45.0,
+      "vote_count": 30
+    },
+    "Side Control to Kuzure Kesa-Gatame": {
+      "success_rate": 60.0,
+      "vote_count": 30
+    },
+    "Turtle to Russian Cowboy": {
+      "success_rate": 60.0,
+      "vote_count": 30
+    },
+    "De La Riva to Inverted Guard": {
+      "success_rate": 60.0,
+      "vote_count": 30
+    },
+    "Single Leg X to Estima Lock": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Half Guard to Leg Weave": {
+      "success_rate": 55.0,
+      "vote_count": 30
+    },
+    "Wrist Lock": {
+      "success_rate": 45.0,
       "vote_count": 30
     }
   }

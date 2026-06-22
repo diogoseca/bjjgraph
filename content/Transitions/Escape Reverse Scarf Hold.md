@@ -10,6 +10,41 @@ description: "Master the Escape from Reverse Scarf Hold in BJJ. Learn systematic
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Escape Reverse Scarf Hold",
+  "description": "Master the Escape from Reverse Scarf Hold in BJJ. Learn systematic hip escapes, frame creation, and guard recovery techniques from this challenging pin.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Escape Reverse Scarf Hold", "item": "https://bjjgraph.org/Transitions/Escape-Reverse-Scarf-Hold" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Escape Reverse Scarf Hold",
+  "description": "Escape Reverse Scarf Hold is a frame-and-shrimp pin escape from reverse kesa-gatame bottom, building incremental space to insert a knee shield and recover half or closed guard against an opponent facing your legs.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Escape from Reverse Scarf Hold in BJJ. Learn systematic
 </div>
 
 <section id="overview" class="content-section">
+
+**Escape Reverse Scarf Hold is a frame-and-shrimp pin escape from reverse kesa-gatame bottom, building incremental space to insert a knee shield and recover half or closed guard against an opponent facing your legs.**
 
 The Escape from Reverse Scarf Hold is a systematic frame-based hip escape that addresses one of the more challenging pin configurations in Brazilian Jiu-Jitsu. In reverse scarf hold, the top player faces away from the bottom player's head toward their legs, distributing crushing chest pressure through their hips while controlling the near-side arm. This reverse orientation disrupts standard escape patterns, requiring the bottom player to develop specific framing sequences and shrimping mechanics tailored to the unique pressure angle rather than relying on conventional side control escape movements.
 
@@ -221,5 +258,7 @@ The Escape from Reverse Scarf Hold occupies a critical position within the pin e
 
 
 </section>
+
+
 
 </main>

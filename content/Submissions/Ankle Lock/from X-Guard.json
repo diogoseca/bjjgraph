@@ -1,5 +1,6 @@
 {
   "name": "Ankle Lock from X-Guard",
+  "summary": "The ankle lock from X-Guard is a straight ankle lock applied from bottom X-Guard, trapping a standing opponent's foot in a figure-four grip and finishing with hip extension against the Achilles tendon and ankle joint.",
   "description": "Master the ankle lock from X-Guard in BJJ. Complete guide to setup, grip mechanics, finishing details, and defense for this versatile leg lock submission.",
   "tags": [
     "bjj",
@@ -103,8 +104,8 @@
     }
   ],
   "related_submissions": [
+    "Straight Ankle Lock",
     "Achilles Lock",
-    "Aoki Lock",
     "Aoki Lock",
     "Calf Slicer",
     "Heel Hook"

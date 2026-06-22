@@ -10,6 +10,41 @@ description: "Master Lapel Omoplata Entry from Lapel Guard bottom. Complete guid
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Lapel Omoplata Entry",
+  "description": "Master Lapel Omoplata Entry from Lapel Guard bottom. Complete guide to trapping the posting arm for shoulder lock control with sweep-to-submission chains.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Lapel Omoplata Entry", "item": "https://bjjgraph.org/Transitions/Lapel-Omoplata-Entry" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Lapel Omoplata Entry",
+  "description": "Lapel Omoplata Entry is a gi-specific attack from lapel guard bottom that traps the opponent's posting arm and rotates the hips beneath it to thread a leg over their shoulder, securing omoplata control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Lapel Omoplata Entry from Lapel Guard bottom. Complete guid
 </div>
 
 <section id="overview" class="content-section">
+
+**Lapel Omoplata Entry is a gi-specific attack from lapel guard bottom that traps the opponent's posting arm and rotates the hips beneath it to thread a leg over their shoulder, securing omoplata control.**
 
 The Lapel Omoplata Entry represents a sophisticated integration of modern lapel guard concepts with classical shoulder lock mechanics. This technique exploits the unique control dynamics created when an opponent posts their hand to defend sweeps from lapel guard, transforming their defensive reaction into an opportunity for shoulder lock control.
 
@@ -210,5 +247,7 @@ Lapel Omoplata Entry occupies a critical position in the lapel guard attack syst
 
 
 </section>
+
+
 
 </main>

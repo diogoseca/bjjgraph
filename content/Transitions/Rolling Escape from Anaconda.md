@@ -10,6 +10,41 @@ description: "Master the Rolling Escape from Anaconda in BJJ. Step-by-step guide
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Rolling Escape from Anaconda",
+  "description": "Master the Rolling Escape from Anaconda in BJJ. Step-by-step guide covering timing, body mechanics, and rolling technique to escape anaconda choke control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Rolling Escape from Anaconda", "item": "https://bjjgraph.org/Transitions/Rolling-Escape-from-Anaconda" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Rolling Escape from Anaconda",
+  "description": "The Rolling Escape from Anaconda is an explosive defensive transition where a trapped practitioner rolls toward their captured arm to create slack in the choking loop, extract the arm, and recover to turtle before the anaconda finishes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Rolling Escape from Anaconda in BJJ. Step-by-step guide
 
 <section id="overview" class="content-section">
 
-The Rolling Escape from Anaconda is a critical defensive technique used when caught in anaconda choke control. This escape exploits a fundamental biomechanical vulnerability in the anaconda grip: rolling toward the trapped arm side changes the compression angle and creates slack in the choking loop. Rather than fighting the choke directly through grip breaking or posture recovery alone, the rolling escape uses momentum and body displacement to generate the space needed to extract the trapped arm and recover to a defensible position. It is the primary explosive escape option when the anaconda has been partially established but the finish has not yet been secured.
+**The Rolling Escape from Anaconda is an explosive defensive transition where a trapped practitioner rolls toward their captured arm to create slack in the choking loop, extract the arm, and recover to turtle before the anaconda finishes.**
+
+Within the broader anaconda defense hierarchy, the rolling escape is the explosive bailout a trapped practitioner reaches for once direct grip-fighting has failed but the choke is not yet fully sunk. This escape exploits a fundamental biomechanical vulnerability in the anaconda grip: rolling toward the trapped arm side changes the compression angle and creates slack in the choking loop. Rather than fighting the choke directly through grip breaking or posture recovery alone, the rolling escape uses momentum and body displacement to generate the space needed to extract the trapped arm and recover to a defensible position. It is the primary explosive escape option when the anaconda has been partially established but the finish has not yet been secured.
 
 The technique demands precise timing and full commitment. Initiating the roll too early, before the opponent has committed weight to the choking configuration, allows them to follow and re-establish control. Rolling too late, after the choke is fully locked, means the escape window has closed and the practitioner should tap rather than risk unconsciousness. The optimal moment occurs when the opponent begins tightening the grip or adjusting their finishing position, creating a brief window where their weight distribution is in transition and most vulnerable to the directional change of a committed roll.
 
@@ -226,5 +263,7 @@ The Rolling Escape from Anaconda connects the dangerous anaconda choke defense s
 
 
 </section>
+
+
 
 </main>

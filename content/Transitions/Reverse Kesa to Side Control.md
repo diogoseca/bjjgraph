@@ -10,6 +10,41 @@ description: "Master the Reverse Kesa to Side Control transition in BJJ. Complet
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Reverse Kesa to Side Control",
+  "description": "Master the Reverse Kesa to Side Control transition in BJJ. Complete guide covering rotation mechanics, pressure maintenance, and grip transitions for top control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Reverse Kesa to Side Control", "item": "https://bjjgraph.org/Transitions/Reverse-Kesa-to-Side-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Reverse Kesa to Side Control",
+  "description": "Reverse Kesa to Side Control is a top-control transition in which the pinning player rotates from the reverse scarf-hold orientation into standard perpendicular side control, trading the reverse pin's arm isolation for side control's broader submission and mount-advancement options.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Reverse Kesa to Side Control transition in BJJ. Complet
 
 <section id="overview" class="content-section">
 
-The Reverse Kesa to Side Control transition is a fundamental positional adjustment where the top player rotates from the reverse scarf hold orientation to standard perpendicular side control. This transition is strategically valuable because standard side control offers a broader submission arsenal, clearer pathways to mount advancement, and more established control mechanics. The rotation itself presents the primary moment of vulnerability — the top player must maintain constant chest pressure and arm control throughout the movement to prevent the bottom player from inserting a knee, recovering guard, or creating a scramble.
+**Reverse Kesa to Side Control is a top-control transition in which the pinning player rotates from the reverse scarf-hold orientation into standard perpendicular side control, trading the reverse pin's arm isolation for side control's broader submission and mount-advancement options.**
+
+Strategically, this transition is one of the most valuable adjustments available from the reverse scarf-hold family because standard side control offers a broader submission arsenal, clearer pathways to mount advancement, and more established control mechanics than the reverse pin. The rotation itself presents the primary moment of vulnerability — the top player must maintain constant chest pressure and arm control throughout the movement to prevent the bottom player from inserting a knee, recovering guard, or creating a scramble.
 
 The transition is most commonly initiated when the top player recognizes that reverse kesa-gatame is becoming unstable due to the bottom player's escape attempts, when standard side control submissions are preferred over reverse kesa options, or when mount advancement is the strategic goal. Timing is critical: the safest window occurs when the bottom player pauses between escape attempts or when their near-side arm is securely controlled, limiting their ability to insert frames during the rotation. Rushing the transition while the bottom player is actively bridging or shrimping creates dangerous openings for guard recovery.
 
@@ -218,5 +255,7 @@ The Reverse Kesa to Side Control transition serves as a critical link in the top
 
 
 </section>
+
+
 
 </main>

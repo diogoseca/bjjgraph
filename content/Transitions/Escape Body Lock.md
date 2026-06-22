@@ -10,6 +10,41 @@ description: "Master the Escape Body Lock in BJJ. Complete guide to breaking loc
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Escape Body Lock",
+  "description": "Master the Escape Body Lock in BJJ. Complete guide to breaking locked grip control, creating space with hip movement, and recovering position from body lock.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Escape Body Lock", "item": "https://bjjgraph.org/Transitions/Escape-Body-Lock" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Escape Body Lock",
+  "description": "The Escape Body Lock is a standing defensive transition where the trapped grappler breaks an opponent's clasped rear torso grip through hand fighting and explosive hip switching, recovering to clinch or turtle before a takedown or back take lands.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Escape Body Lock in BJJ. Complete guide to breaking loc
 
 <section id="overview" class="content-section">
 
-The Escape Body Lock is a critical defensive transition executed when your opponent has established a locked grip around your torso from behind while standing. This position represents one of the most urgent defensive situations in no-gi grappling, as the body lock top player threatens immediate mat returns, back takes, throws, and positional advancement. The escape requires coordinated grip fighting, explosive hip movement, and strategic base manipulation to break the controlling connection and recover to a viable position.
+**The Escape Body Lock is a standing defensive transition where the trapped grappler breaks an opponent's clasped rear torso grip through hand fighting and explosive hip switching, recovering to clinch or turtle before a takedown or back take lands.**
+
+Executed the instant your opponent clasps a locked grip around your torso from behind while standing, this transition addresses one of the most urgent defensive situations in no-gi grappling, as the body lock top player threatens immediate mat returns, back takes, throws, and positional advancement. The escape requires coordinated grip fighting, explosive hip movement, and strategic base manipulation to break the controlling connection and recover to a viable position.
 
 The technique operates on the principle that no locked grip can withstand properly directed force combined with structural manipulation. By targeting the biomechanical weakness of the opponent's grip configuration while simultaneously creating angular displacement through hip switching, you force the top player to choose between maintaining their grip or following your movement. This forced choice creates the critical window for escape. The escape must be executed with urgency, as the body lock is inherently transitional and the top player will attack within seconds of establishing control.
 
@@ -223,5 +260,7 @@ The Escape Body Lock occupies a critical defensive node in the standing grapplin
 
 
 </section>
+
+
 
 </main>

@@ -342,4 +342,6 @@ The elbow escape is one of the safest techniques in BJJ as it is a defensive pos
 
 </section>
 
+
+
 </main>

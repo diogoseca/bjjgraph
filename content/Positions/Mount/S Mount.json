@@ -3,6 +3,7 @@
   "slug": "s-mount",
   "description": "Master S Mount in BJJ - the ultimate armbar setup position. Complete technical guide covering control mechanics, submission chains, and transition strategies from both perspectives.",
   "variant_uniqueness": "Perpendicular body angle maximizes armbar leverage",
+  "summary": "S Mount is a dominant mount variation where the top player sits perpendicular to a flattened opponent, one leg over the head and one across the torso, isolating the near arm to create a near-inescapable armbar threat.",
   "overview": "S Mount, also known as technical mount or mounted armbar position, represents one of the most dominant and submission-oriented positions in Brazilian Jiu-Jitsu. This position is characterized by the top practitioner sitting perpendicular to their opponent while maintaining mount control, with one leg extended over the opponent's head and the other leg positioned across their torso. The name derives from the S-shaped configuration created by the top person's body position relative to their opponent.\n\nThe strategic value of S Mount lies in its dual nature as both a controlling position and a launching platform for high-percentage submissions. Unlike standard mount, which prioritizes positional dominance and chest-to-chest pressure, S Mount sacrifices some stability in exchange for superior attacking mechanics, particularly for armbars. The perpendicular body angle creates optimal leverage for shoulder isolation and provides multiple submission paths while maintaining enough control to prevent escape.\n\nFrom the bottom perspective, S Mount represents an extremely dangerous position that requires immediate defensive action. The bottom practitioner faces the dual threat of submission and positional advancement, with limited defensive options once proper control is established. Understanding S Mount defense is crucial for survival in competition and training, as the position naturally flows from standard mount control and appears frequently in high-level competition.\n\nThe transition mechanics into S Mount typically originate from mount or side control, with the top practitioner moving into perpendicular alignment to attack the arm. This position features prominently in the games of submission specialists like Demian Maia, Roger Gracie, and Renzo Gracie, who have demonstrated its effectiveness at the highest levels of competition. The position exemplifies the principle of position before submission, as proper S Mount control makes the armbar nearly inevitable.\n\nHistorically, S Mount has been a fundamental component of Japanese judo groundwork (newaza) and was adopted early in Brazilian Jiu-Jitsu's development. The position showcases the art's emphasis on positional dominance and technical submission execution, rather than relying purely on strength or athleticism. Modern competitors continue to refine S Mount mechanics, developing increasingly sophisticated control methods and submission chains that make the position even more dominant in contemporary grappling.",
   "key_principles": [
     "S Mount is a transitional attacking position - move to submission immediately or return to standard mount",
@@ -293,11 +294,11 @@
     "transitions": [
       {
         "transition": "Mount to Armbar",
-        "attempt_probability": 35
+        "attempt_probability": 32
       },
       {
         "transition": "Triangle from Mount",
-        "attempt_probability": 15
+        "attempt_probability": 14
       },
       {
         "transition": "Americana from S Mount",
@@ -309,15 +310,15 @@
       },
       {
         "transition": "Back Take",
-        "attempt_probability": 11
+        "attempt_probability": 10
       },
       {
         "transition": "Mounted Crucifix Entry",
-        "attempt_probability": 7
+        "attempt_probability": 6
       },
       {
         "transition": "Gift Wrap to Back",
-        "attempt_probability": 12
+        "attempt_probability": 11
       },
       {
         "transition": "S Mount Armbar Setup",
@@ -326,6 +327,10 @@
       {
         "transition": "S Mount to Mounted Triangle",
         "attempt_probability": 2
+      },
+      {
+        "transition": "Armbar from S Mount",
+        "attempt_probability": 7
       }
     ],
     "flashcards": [

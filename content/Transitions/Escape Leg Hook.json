@@ -1,5 +1,6 @@
 {
   "name": "Escape Leg Hook",
+  "summary": "Escape Leg Hook is a methodical guard-recovery sequence from leg-hook bottom that chains defensive frames, incremental hip escapes, and controlled leg extraction to free the trapped leg and restore standard half guard before the top player completes the pass.",
   "description": "Master the Escape Leg Hook in BJJ. Systematic hip escape and frame techniques to free your trapped leg from hook control and recover standard half guard position.",
   "tags": [
     "bjj",
@@ -82,10 +83,6 @@
     {
       "name": "Lockdown",
       "relationship": "Alternative leg control position accessible from similar starting configuration"
-    },
-    {
-      "name": "Elbow Escape from Flattened Half",
-      "relationship": "Related escape technique using comparable hip escape mechanics"
     },
     {
       "name": "Side Control",

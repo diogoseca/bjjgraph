@@ -10,6 +10,41 @@ description: "Master the Straight Footlock finish in BJJ. Complete guide to ankl
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Straight Footlock",
+  "description": "Master the Straight Footlock finish in BJJ. Complete guide to ankle lock finishing mechanics, hip extension technique, and defensive strategies from control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Straight Footlock", "item": "https://bjjgraph.org/Transitions/Straight-Footlock" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Straight Footlock",
+  "description": "The Straight Footlock is the committed finishing sequence from Straight Ankle Lock Control that breaks the ankle by driving hip extension and a back arch through a forearm blade seated behind the Achilles while the trapped heel is pinned to the chest.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Straight Footlock finish in BJJ. Complete guide to ankl
 </div>
 
 <section id="overview" class="content-section">
+
+**The Straight Footlock is the committed finishing sequence from Straight Ankle Lock Control that breaks the ankle by driving hip extension and a back arch through a forearm blade seated behind the Achilles while the trapped heel is pinned to the chest.**
 
 The Straight Footlock is the terminal finishing sequence applied from Straight Ankle Lock Control, converting positional dominance into a tap through forced dorsiflexion and Achilles tendon compression. Unlike the entry transitions that establish control, this technique represents the committed finishing mechanics where the attacker uses coordinated hip extension, back arch, and forearm pressure to generate breaking force on the ankle joint. The finish demands precise biomechanical alignment: the blade of the forearm must be seated directly behind the Achilles tendon, the heel must be trapped against the chest or armpit, and the legs must prevent all hip rotation before any extension begins.
 
@@ -224,5 +261,7 @@ The Straight Footlock occupies the terminal position in the straight ankle lock 
 
 
 </section>
+
+
 
 </main>

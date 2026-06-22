@@ -10,10 +10,55 @@ description: "Master the arm triangle choke from turtle position in BJJ. Learn s
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Arm Triangle from Turtle targets the Carotid arteries (compressed by opponent's own shoulder and your arm). Risk: Loss of consciousness from blood choke. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Arm Triangle from Turtle",
+  "description": "Master the arm triangle choke from turtle position in BJJ. Learn setup mechanics, grip transitions, and finishing details for this blood choke attack.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Arm Triangle from Turtle", "item": "https://bjjgraph.org/Submissions/Arm-Triangle-from-Turtle" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Arm Triangle from Turtle",
+  "description": "The arm triangle from turtle is a head-and-arm blood choke that exploits a turtled opponent's tucked-in arm, trapping their own shoulder against one carotid while your forearm compresses the other, finished after collapsing their four-point base.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The arm triangle from turtle is a head-and-arm blood choke that exploits a turtled opponent's tucked-in arm, trapping their own shoulder against one carotid while your forearm compresses the other, finished after collapsing their four-point base.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries (compressed by opponent's own shoulder and your arm)</span>
+<span class="meta-chip">62% success</span>
+</div>
+
+> [!danger] Safety
+> Arm Triangle from Turtle targets the Carotid arteries (compressed by opponent's own shoulder and your arm). Primary risk: Loss of consciousness from blood choke. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,53 +75,7 @@ The primary challenge with this variation is generating sufficient finishing pre
 
 At the competition level, this submission serves as a powerful secondary attack that punishes opponents for over-defending the back take. The setup appears in high-level no-gi grappling as a complement to anaconda and darce entries from the same position, creating a three-way attacking dilemma that forces the turtled opponent to choose which threat to address.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries (compressed by opponent's own shoulder and your arm)
-**Starting Position**: [[Positions/Turtle]]
-**From Position**: [[Positions/Turtle]] (Top)
-**Success Rate**: 62%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Loss of consciousness from blood choke | High | Immediate recovery if released promptly; potential stroke risk if held beyond 10 seconds after unconsciousness |
-| Neck strain from improper pressure angle | Medium | 3-7 days with rest |
-| Shoulder compression injury to trapped arm | Medium | 5-14 days depending on severity |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from lock to tap. Blood chokes can cause unconsciousness in 6-8 seconds once both carotids are fully occluded.
-
-**Tap Signals**:
-- Verbal tap (say 'tap' clearly)
-- Physical hand tap on opponent or mat (multiple rapid taps)
-- Physical foot tap on mat (multiple rapid taps)
-- Any distress signal or sudden loss of resistance
-- Immediately release if opponent goes limp or unresponsive
-
-
-**Release Protocol**:
-1. Immediately release arm squeeze and remove head pressure upon any tap signal
-2. Disengage from opponent's head and shoulders completely
-3. Allow opponent to recover breathing and orientation for 30-60 seconds
-4. Check for consciousness, coherent speech, and normal breathing
-5. If unconscious: place on side in recovery position, elevate legs, monitor breathing continuously until fully conscious
-
-
-**Training Restrictions**:
-- Apply smooth progressive pressure only - never spike or jerk the submission
-- Release immediately upon any tap signal without exception
-- Always ensure training partner has at least one hand free to tap
-- Practice control and positioning before adding finishing pressure
-- Stop immediately if opponent's face shows color change indicating excessive pressure
-
+**Starting Position**: [[Positions/Turtle]] · **From**: [[Positions/Turtle]] (Top)
 
 </section>
 
@@ -242,40 +241,63 @@ At the competition level, this submission serves as a powerful secondary attack 
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Transitions/Arm Triangle]]
 - [[Transitions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
 - [[Transitions/Guillotine Choke]]
 - [[Submissions/Japanese Necktie]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Turtle]] - Primary starting position for this submission variant
 - [[Positions/Side Control]] - Common finishing position after flattening opponent
 - [[Positions/Front Headlock]] - Related control position that shares similar head-and-arm mechanics
 - [[Positions/Darce Control]] - Alternative head-and-arm control accessible from the same setup
 - [[Positions/Back Control]] - Primary alternative attack path from turtle top position
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Loss of consciousness from blood choke | High | Immediate recovery if released promptly; potential stroke risk if held beyond 10 seconds after unconsciousness |
+| Neck strain from improper pressure angle | Medium | 3-7 days with rest |
+| Shoulder compression injury to trapped arm | Medium | 5-14 days depending on severity |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum from lock to tap. Blood chokes can cause unconsciousness in 6-8 seconds once both carotids are fully occluded.
+
+**Tap Signals**:
+- Verbal tap (say 'tap' clearly)
+- Physical hand tap on opponent or mat (multiple rapid taps)
+- Physical foot tap on mat (multiple rapid taps)
+- Any distress signal or sudden loss of resistance
+- Immediately release if opponent goes limp or unresponsive
+
+
+**Release Protocol**:
+1. Immediately release arm squeeze and remove head pressure upon any tap signal
+2. Disengage from opponent's head and shoulders completely
+3. Allow opponent to recover breathing and orientation for 30-60 seconds
+4. Check for consciousness, coherent speech, and normal breathing
+5. If unconscious: place on side in recovery position, elevate legs, monitor breathing continuously until fully conscious
+
+
+**Training Restrictions**:
+- Apply smooth progressive pressure only - never spike or jerk the submission
+- Release immediately upon any tap signal without exception
+- Always ensure training partner has at least one hand free to tap
+- Practice control and positioning before adding finishing pressure
+- Stop immediately if opponent's face shows color change indicating excessive pressure
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Arm Triangle from Turtle leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

@@ -10,10 +10,55 @@ description: "Master the guillotine choke from Twister Control. Learn setup mech
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Guillotine Choke from Twister Control targets the Carotid arteries and windpipe. Risk: Trachea damage or crush injury from misaligned choking pressure. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Guillotine Choke from Twister Control",
+  "description": "Master the guillotine choke from Twister Control. Learn setup mechanics, finishing sequences, and defensive strategies for this 10th Planet submission chain.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Guillotine Choke from Twister Control", "item": "https://bjjgraph.org/Submissions/Guillotine-Choke-from-Twister-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Guillotine Choke from Twister Control",
+  "description": "The Guillotine Choke from Twister Control is a 10th Planet blood choke that catches the opponent's neck as they turn into you to escape the spinal twist, threading a forearm under the chin to compress the carotids while leg entanglement denies their posture defense.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Guillotine Choke from Twister Control is a 10th Planet blood choke that catches the opponent's neck as they turn into you to escape the spinal twist, threading a forearm under the chin to compress the carotids while leg entanglement denies their posture defense.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries and windpipe</span>
+<span class="meta-chip">62% success</span>
+</div>
+
+> [!danger] Safety
+> Guillotine Choke from Twister Control targets the Carotid arteries and windpipe. Primary risk: Trachea damage or crush injury from misaligned choking pressure. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,53 +75,7 @@ What distinguishes this guillotine variant from standing or guard-based entries 
 
 Strategically, this submission functions as a trap within the broader Twister system. The top player pressures the spine through rotation, forcing the opponent to either accept the Twister or turn into the attacker. Turning in exposes the neck, and the attacker transitions from spinal rotation to neck compression. This dilemma-based approach makes the combination significantly more effective than either attack in isolation, as defending one directly opens vulnerability to the other.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries and windpipe
-**Starting Position**: [[Positions/Twister Control]]
-**From Position**: [[Positions/Twister Control]] (Top)
-**Success Rate**: 62%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Trachea damage or crush injury from misaligned choking pressure | CRITICAL | 2-8 weeks with potential permanent damage |
-| Cervical spine injury from combined rotation and neck compression | High | 2-6 weeks depending on severity |
-| Unconsciousness from bilateral carotid compression | High | Immediate recovery but requires medical monitoring |
-| Neck muscle strain from resistance under rotational load | Medium | 7-14 days |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum application time. The combination of spinal rotation and choking pressure makes this submission especially dangerous when applied rapidly. Never snap or jerk the submission.
-
-**Tap Signals**:
-- Verbal tap or any vocal sound indicating submission
-- Physical hand tap on opponent, own body, or mat
-- Physical foot tap on mat
-- Any distress signal, loss of resistance, or going limp
-
-
-**Release Protocol**:
-1. Immediately release choking arm pressure upon any tap signal
-2. Disengage head and neck control before releasing leg entanglement
-3. Help opponent to seated or recovery position
-4. Monitor breathing and consciousness for at least 30 seconds
-5. Call for medical assistance if partner does not immediately recover
-
-
-**Training Restrictions**:
-- Never use competition speed or intensity during drilling
-- Always allow clear tap access for both hands and feet
-- Stop immediately at any sign of distress or loss of consciousness
-- Avoid cranking the neck or using hyperextension to finish
-- Never practice on training partners with existing neck or cervical injuries
-
+**Starting Position**: [[Positions/Twister Control]] · **From**: [[Positions/Twister Control]] (Top)
 
 </section>
 
@@ -238,10 +237,9 @@ Strategically, this submission functions as a trap within the broader Twister sy
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Transitions/Guillotine Choke]]
 - [[Submissions/High Elbow Guillotine]]
 - [[Submissions/Arm in Guillotine]]
@@ -249,31 +247,55 @@ Strategically, this submission functions as a trap within the broader Twister sy
 - [[Transitions/Darce Choke]]
 - [[Submissions/Chin Strap Guillotine]]
 - [[Transitions/Anaconda Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Twister Control]] - Starting position providing leg control and spinal rotation that creates the guillotine opportunity
 - [[Positions/Guillotine Control]] - Control position when the guillotine grip is partially secured but not yet finished
 - [[Positions/Front Headlock]] - Alternative control position if the guillotine grip slips during transition
 - [[Positions/Back Control]] - Alternative offensive path from Twister Control when neck access is unavailable
 - [[Positions/Closed Guard]] - Position the attacker may pull to complete the guillotine finish
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Trachea damage or crush injury from misaligned choking pressure | CRITICAL | 2-8 weeks with potential permanent damage |
+| Cervical spine injury from combined rotation and neck compression | High | 2-6 weeks depending on severity |
+| Unconsciousness from bilateral carotid compression | High | Immediate recovery but requires medical monitoring |
+| Neck muscle strain from resistance under rotational load | Medium | 7-14 days |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum application time. The combination of spinal rotation and choking pressure makes this submission especially dangerous when applied rapidly. Never snap or jerk the submission.
+
+**Tap Signals**:
+- Verbal tap or any vocal sound indicating submission
+- Physical hand tap on opponent, own body, or mat
+- Physical foot tap on mat
+- Any distress signal, loss of resistance, or going limp
+
+
+**Release Protocol**:
+1. Immediately release choking arm pressure upon any tap signal
+2. Disengage head and neck control before releasing leg entanglement
+3. Help opponent to seated or recovery position
+4. Monitor breathing and consciousness for at least 30 seconds
+5. Call for medical assistance if partner does not immediately recover
+
+
+**Training Restrictions**:
+- Never use competition speed or intensity during drilling
+- Always allow clear tap access for both hands and feet
+- Stop immediately at any sign of distress or loss of consciousness
+- Avoid cranking the neck or using hyperextension to finish
+- Never practice on training partners with existing neck or cervical injuries
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Guillotine Choke from Twister Control leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

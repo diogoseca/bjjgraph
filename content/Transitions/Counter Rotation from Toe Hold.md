@@ -10,6 +10,41 @@ description: "Master the Counter Rotation from Toe Hold in BJJ. Learn to neutral
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Counter Rotation from Toe Hold",
+  "description": "Master the Counter Rotation from Toe Hold in BJJ. Learn to neutralize ankle torque by rotating with the submission pressure, transitioning into 50-50 Guard.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Counter Rotation from Toe Hold", "item": "https://bjjgraph.org/Transitions/Counter-Rotation-from-Toe-Hold" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Counter Rotation from Toe Hold",
+  "description": "Counter Rotation from Toe Hold is a defensive escape from Toe Hold Control Bottom where you spin your body in the same direction as the ankle's rotational pressure, zeroing out the torque and landing in a neutral 50-50 Guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Counter Rotation from Toe Hold in BJJ. Learn to neutral
 
 <section id="overview" class="content-section">
 
-Counter Rotation from Toe Hold is an advanced defensive transition executed from Toe Hold Control Bottom, where the trapped practitioner rotates their entire body in the direction of the toe hold's rotational pressure to neutralize the ankle torque and transition into 50-50 Guard. This technique embodies the fundamental grappling principle of moving with force rather than against it, converting a dangerous submission scenario into a neutral leg entanglement where both practitioners share equal positional opportunity.
+**Counter Rotation from Toe Hold is a defensive escape from Toe Hold Control Bottom where you spin your body in the same direction as the ankle's rotational pressure, zeroing out the torque and landing in a neutral 50-50 Guard.**
+
+Within the modern leg lock meta, the toe hold stands out as one of the few ankle attacks that remains legal across nearly every ruleset, which makes a dependable escape from it a core skill rather than a luxury. The Counter Rotation answers that need by turning the attacker's own rotational force into the engine of the escape: rather than grip-fighting the figure-four, the trapped player commits to spinning the whole body with the torque, embodying the grappling maxim of moving with force rather than against it and converting a dangerous submission scenario into a neutral entanglement where positional opportunity is shared equally.
 
 The biomechanical foundation of this technique relies on eliminating the rotational differential between the foot and the body. When an opponent applies a toe hold, they generate torque by rotating the foot relative to the stationary body. By rotating the entire body in the same direction as the foot pressure, the practitioner reduces the effective torque on the ankle joint to near zero, buying critical time to reposition. During this rotation, the free leg hooks the opponent's leg, creating the leg entanglement necessary to establish 50-50 Guard rather than simply returning to a vulnerable position.
 
@@ -210,7 +247,7 @@ Counter Rotation from Toe Hold sits within the broader leg lock defense framewor
 
 - [[Transitions/Ashi Garami Escape]] - Broader escape category encompassing multiple methods of exiting leg entanglements
 
-- [[Transitions/Counter Entangle to 50-50 from Ashi]] - Related counter-entanglement concept sharing the same target position through different entry mechanics
+- [[Transitions/Counter-entangle to 50-50 Guard]] - Related counter-entanglement concept sharing the same target position through different entry mechanics
 
 - [[Positions/Ashi Garami/Saddle]] - Risk position if opponent follows the rotation and deepens the leg entanglement
 
@@ -222,5 +259,7 @@ Counter Rotation from Toe Hold sits within the broader leg lock defense framewor
 
 
 </section>
+
+
 
 </main>

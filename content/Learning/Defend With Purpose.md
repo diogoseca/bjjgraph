@@ -94,6 +94,18 @@ description: "Why passive survival is not real defense in BJJ. Every defensive a
 }
 </script>
 
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Defend With Purpose",
+  "description": "Defending with purpose means every defensive action—frame, bridge, grip break—must advance you toward a specific better position, turning passive survival into a connected escape chain with a clear endpoint.",
+  "inDefinedTermSet": "https://bjjgraph.org/Learning/"
+}
+</script>
+
+
 > **Category**: Strategy
 
 
@@ -102,6 +114,8 @@ description: "Why passive survival is not real defense in BJJ. Every defensive a
 <section id="overview" class="content-section">
 
 ## What is Defend With Purpose?
+
+**Defending with purpose means every defensive action—frame, bridge, grip break—must advance you toward a specific better position, turning passive survival into a connected escape chain with a clear endpoint.**
 
 There is a critical difference between not getting submitted and actually defending. A white belt who curls up in bottom mount, hides their neck, and survives for three minutes has not defended anything. They have delayed the inevitable. The opponent still has mount. They are still accumulating control time, still cooking, and still setting up submissions. The moment the bottom player's energy runs out, the submission comes. Nothing was solved. Passive survival is not defense. It is slow losing.
 

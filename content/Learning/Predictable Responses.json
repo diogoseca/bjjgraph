@@ -1,6 +1,7 @@
 {
   "name": "Predictable Responses",
   "description": "Learn how to exploit common defensive reactions in BJJ. When you push, they pull. When you pull, they push. Master the action-reaction chains that create openings on the mat.",
+  "summary": "Predictable responses are the hardwired defensive reflexes -- pushing back when pushed, shielding the neck when choked -- that skilled grapplers deliberately provoke and then exploit, converting an opponent's resistance into the opening for the intended attack.",
   "tags": [
     "bjj",
     "strategy",
@@ -125,49 +126,49 @@
   ],
   "related_content": [
     {
-      "name": "Principles/Action and Reaction",
+      "name": "Action and Reaction",
       "content_type": "Principle",
       "relationship": "The core physical principle underlying all predictable response exploitation"
     },
     {
-      "name": "Principles/Kuzushi",
+      "name": "Kuzushi",
       "content_type": "Principle",
       "relationship": "Off-balancing relies on exploiting postural reactions to create throwing and sweeping opportunities"
     },
     {
-      "name": "Principles/Fork Attacks",
+      "name": "Fork Attacks",
       "content_type": "Principle",
       "relationship": "Fork attacks work because defending one option creates the predictable opening for the other"
     },
     {
-      "name": "Principles/Distance Control",
+      "name": "Distance Control",
       "content_type": "Principle",
       "relationship": "Controlling distance provokes predictable reactions as opponents try to close or create space"
     },
     {
-      "name": "Learning/Technique Chaining",
+      "name": "Technique Chaining",
       "content_type": "Learning",
       "relationship": "Chains are built on predictable responses -- each defense triggers the next attack in the sequence"
     },
     {
-      "name": "Learning/Funneling",
+      "name": "Funneling",
       "content_type": "Learning",
       "relationship": "Funneling forces increasingly predictable responses by narrowing available options"
     },
     {
-      "name": "Positions/Mount",
+      "name": "Mask Your Intentions",
+      "content_type": "Learning",
+      "relationship": "Disguising the real attack ensures the opponent commits to the defensive reaction you want to provoke"
+    },
+    {
+      "name": "Mount",
       "content_type": "Position",
       "relationship": "Mount is the classic position for exploiting choke-armbar action-reaction cycles"
     },
     {
-      "name": "Positions/Closed Guard",
+      "name": "Closed Guard",
       "content_type": "Position",
       "relationship": "Closed guard sweeps heavily rely on push-pull predictable responses"
-    },
-    {
-      "name": "Positions/Side Control",
-      "content_type": "Position",
-      "relationship": "Side control transitions exploit directional responses to advance position"
     }
   ],
   "references": [

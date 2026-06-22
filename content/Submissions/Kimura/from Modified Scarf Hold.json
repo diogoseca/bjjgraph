@@ -1,6 +1,7 @@
 {
   "name": "Kimura from Modified Scarf Hold",
   "description": "Master the Kimura from Modified Scarf Hold in BJJ. Complete guide covering setup mechanics, finishing details, defensive escapes, and safety protocols.",
+  "summary": "The Kimura from Modified Scarf Hold is a figure-four shoulder lock that exploits the pin's trapped near arm, threading under it to force internal rotation of the shoulder behind the opponent's back for the tap.",
   "tags": [
     "bjj",
     "submission",
@@ -9,12 +10,11 @@
     "shoulder-lock",
     "modified-scarf-hold",
     "scarf-hold",
-    "top-position",
-    "arm-lock"
+    "top-position"
   ],
   "submission_category": "Joint Lock",
-  "submission_type": "Arm Lock",
-  "target_area": "Shoulder and elbow joint",
+  "submission_type": "Shoulder Lock",
+  "target_area": "Shoulder joint, rotator cuff, and shoulder capsule",
   "starting_position": "Modified Scarf Hold",
   "from_position": "Modified Scarf Hold/Top",
   "from_positions": [
@@ -40,11 +40,11 @@
     }
   ],
   "success_rate": 50,
-  "overview": "The Kimura from Modified Scarf Hold is a high-percentage shoulder lock that exploits the superior arm control inherent in the modified scarf hold position. The chest-to-chest pressure and near-arm entrapment characteristic of this pin create ideal conditions for isolating the opponent's arm and applying the figure-four double wrist lock to attack the shoulder through forced external rotation.\n\nThis submission capitalizes on the positional advantages unique to modified scarf hold. The bottom player's near arm is already partially compromised by the pinning mechanics, requiring minimal positional adjustment to secure the kimura grip. The attacker transitions from control to attack by threading under the trapped arm, establishing the figure-four grip, and using a combination of hip pressure and rotational force to walk the wrist behind the opponent's back. The mechanic is particularly effective because the chest pressure limits the defender's ability to create space, sit up, or generate the frames needed to prevent arm isolation.\n\nThe Kimura from Modified Scarf Hold appears frequently in both gi and no-gi competition at all levels. Its reliability stems from the natural grip availability and the submission chain it creates. Defenders who straighten their arm to prevent the kimura expose themselves to americanas, while those who grip their own body create a battle of leverage the attacker typically wins through superior positioning. Advanced practitioners integrate this attack into a systematic flow between kimura, americana, and armbar threats that forces the defender into progressively worse positions with each defensive reaction.",
+  "overview": "The Kimura from Modified Scarf Hold is a high-percentage shoulder lock that exploits the superior arm control inherent in the modified scarf hold position. The chest-to-chest pressure and near-arm entrapment characteristic of this pin create ideal conditions for isolating the opponent's arm and applying the figure-four double wrist lock to attack the shoulder through forced internal rotation.\n\nThis submission capitalizes on the positional advantages unique to modified scarf hold. The bottom player's near arm is already partially compromised by the pinning mechanics, requiring minimal positional adjustment to secure the kimura grip. The attacker transitions from control to attack by threading under the trapped arm, establishing the figure-four grip, and using a combination of hip pressure and rotational force to walk the wrist behind the opponent's back. The mechanic is particularly effective because the chest pressure limits the defender's ability to create space, sit up, or generate the frames needed to prevent arm isolation.\n\nThe Kimura from Modified Scarf Hold appears frequently in both gi and no-gi competition at all levels. Its reliability stems from the natural grip availability and the submission chain it creates. Defenders who straighten their arm to prevent the kimura expose themselves to americanas, while those who grip their own body create a battle of leverage the attacker typically wins through superior positioning. Advanced practitioners integrate this attack into a systematic flow between kimura, americana, and armbar threats that forces the defender into progressively worse positions with each defensive reaction.",
   "safety_considerations": {
     "injury_risks": [
       {
-        "injury": "Shoulder dislocation or torn rotator cuff from excessive external rotation",
+        "injury": "Shoulder dislocation or torn rotator cuff from excessive internal rotation",
         "severity": "CRITICAL",
         "recovery_time": "3-6 months, may require surgical repair"
       },
@@ -59,7 +59,7 @@
         "recovery_time": "2-6 weeks with rest and rehabilitation"
       }
     ],
-    "application_speed": "SLOW and progressive. The shoulder joint has limited external rotation range and injuries occur rapidly once that range is exceeded. Never jerk, spike, or explosively crank the kimura. Apply steady, incremental pressure and give your partner time to recognize and signal submission.",
+    "application_speed": "SLOW and progressive. The shoulder joint has limited internal rotation range and injuries occur rapidly once that range is exceeded. Never jerk, spike, or explosively crank the kimura. Apply steady, incremental pressure and give your partner time to recognize and signal submission.",
     "tap_signals": [
       "Verbal tap (saying 'tap' or any distress signal)",
       "Physical hand tap on partner, own body, or mat",
@@ -135,7 +135,7 @@
     }
   ],
   "attacker": {
-    "name": "from Modified Scarf Hold Attacker",
+    "name": "Kimura from Modified Scarf Hold Attacker",
     "description": "Master attacking the Kimura from Modified Scarf Hold. Step-by-step guide covering grip mechanics, arm isolation, finishing sequence, and submission chains.",
     "overview": "Executing the Kimura from Modified Scarf Hold requires methodical progression from established pin control through arm isolation to submission finish. The attacker must first consolidate chest pressure and near-arm control before transitioning to the figure-four grip. The key mechanical advantage lies in using your entire body—hips, chest, and arms working as a unified system—to overcome the defender's single-arm resistance. Proper weight distribution throughout the attack ensures that submission attempts do not compromise positional control, allowing you to return to the pin if the finish is not immediately available. The submission chain from this position is devastating: kimura threats force arm straightening that opens americanas, while americana defense creates deeper kimura entries, producing a self-reinforcing attack cycle.",
     "key_principles": [
@@ -193,7 +193,7 @@
       {
         "step_number": 7,
         "action": "Apply finishing rotational pressure",
-        "description": "Continue the external rotation until you meet significant resistance from the shoulder joint reaching its range-of-motion limit. Apply steady, progressive pressure by continuing to walk the wrist behind their back and toward the ceiling. Monitor the opponent's reactions carefully for tap signals. The shoulder approaches its structural limit before pain fully registers, so apply pressure slowly enough that your partner has time to tap.",
+        "description": "Continue the internal rotation until you meet significant resistance from the shoulder joint reaching its range-of-motion limit. Apply steady, progressive pressure by continuing to walk the wrist behind their back and toward the ceiling. Monitor the opponent's reactions carefully for tap signals. The shoulder approaches its structural limit before pain fully registers, so apply pressure slowly enough that your partner has time to tap.",
         "timing": "2-4 seconds of controlled finishing pressure"
       },
       {
@@ -291,7 +291,7 @@
     "flashcards": [
       {
         "question": "What anatomical structures does the Kimura from Modified Scarf Hold primarily attack?",
-        "answer": "The kimura primarily attacks the shoulder joint through forced external rotation, targeting the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis) and the shoulder capsule. Secondary stress is placed on the elbow joint through the combined rotational and extension forces transmitted through the forearm lever. The glenohumeral ligaments and labrum are at greatest risk of injury when the submission is applied past the shoulder's natural range of external rotation.",
+        "answer": "The kimura primarily attacks the shoulder joint through forced internal rotation, targeting the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis) and the shoulder capsule. Secondary stress is placed on the elbow joint through the combined rotational and extension forces transmitted through the forearm lever. The glenohumeral ligaments and labrum are at greatest risk of injury when the submission is applied past the shoulder's natural range of internal rotation.",
         "safety_critical": true
       },
       {
@@ -342,7 +342,7 @@
     ]
   },
   "defender": {
-    "name": "from Modified Scarf Hold Defender",
+    "name": "Kimura from Modified Scarf Hold Defender",
     "description": "Complete defense guide for the Kimura from Modified Scarf Hold. Recognition cues, prevention techniques, escape paths, and guard recovery strategies.",
     "overview": "Defending the Kimura from Modified Scarf Hold demands early recognition and immediate preventive action. The defender's primary challenge is that the modified scarf hold already compromises the near arm, making the transition to kimura grip dangerously seamless for the attacker. Successful defense requires keeping the elbow glued to the ribs, preventing the figure-four grip from being established, and exploiting the attacker's positional adjustments during the submission attempt to create escape opportunities. The window for effective defense narrows rapidly once the attacker secures the figure-four grip—early intervention is far more effective than late-stage escape attempts. Understanding the progression from pin to submission allows the defender to identify and shut down each phase before it develops into the next.",
     "key_principles": [

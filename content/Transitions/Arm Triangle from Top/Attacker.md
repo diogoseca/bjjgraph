@@ -16,7 +16,7 @@ description: "How to execute Arm Triangle from Top in BJJ. Attacking perspective
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Arm Triangle from Top in BJJ",
-  "description": "Step-by-step guide for executing Arm Triangle from Top from Hindulotine/Top.",
+  "description": "Step-by-step guide for executing Arm Triangle from Top from Side Control/Top.",
   "step": [
     {
       "@type": "HowToStep",
@@ -184,7 +184,7 @@ Strategically, this technique thrives on a predictable defensive reaction: when 
 
 The arm triangle from top integrates seamlessly with side control attacks. If the opponent defends the americana by bringing their elbow tight, they expose the arm triangle. If they frame against your neck to create escape space, they feed the configuration. This creates a submission chain where defending one attack opens the next, embodying the dilemma-based approach that characterizes high-level top control.
 
-**From Position**: [[Positions/Hindulotine]] (Top)
+**From Position**: [[Positions/Side Control]] (Top)
 
 </section>
 
@@ -337,5 +337,7 @@ Positional sparring starting from side control top. Opponent defends with full r
 The arm triangle is a blood choke that compresses both carotid arteries, producing unconsciousness within 4-8 seconds of full compression. Training partners must understand that this choke can render someone unconscious before they feel significant discomfort, unlike airway chokes where pain precedes unconsciousness. Always honor verbal taps, physical taps (two or more deliberate taps on any surface), and foot taps immediately. Release all pressure instantly upon any tap signal—do not 'finish the rep' or 'hold for one more second.' During drilling, apply the squeeze progressively and pause when your partner signals tightness rather than sinking the choke fully. Monitor your partner's face for color changes (reddening or pallor) and eye responsiveness, as some practitioners lose consciousness without tapping due to the rapid onset of blood chokes. If a training partner goes unconscious, immediately release all pressure, elevate their legs slightly, and ensure their airway is clear—they will typically regain consciousness within 10-15 seconds. Never apply the arm triangle with explosive jerking motions, as this risks cervical spine injury. During the walk-around transition, be mindful of your partner's shoulder joint—the configuration places their arm in a vulnerable position that could cause shoulder strain if you drive weight suddenly.
 
 </section>
+
+
 
 </main>

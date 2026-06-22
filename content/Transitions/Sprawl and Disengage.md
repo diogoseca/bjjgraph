@@ -10,6 +10,41 @@ description: "Learn Sprawl and Disengage in BJJ. Escape inverted guards safely b
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Sprawl and Disengage",
+  "description": "Learn Sprawl and Disengage in BJJ. Escape inverted guards safely by driving hips back and creating distance. Complete guide with execution steps and counters.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Sprawl and Disengage", "item": "https://bjjgraph.org/Transitions/Sprawl-and-Disengage" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Sprawl and Disengage",
+  "description": "Sprawl and Disengage is a defensive guard-passing reaction where the top player drives their hips back and down to strip their legs out of an inverting opponent's grasshopper guard, resetting to a standing base rather than risking leg entanglements.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Learn Sprawl and Disengage in BJJ. Escape inverted guards safely b
 
 <section id="overview" class="content-section">
 
-The Sprawl and Disengage is a fundamental defensive technique used when facing grasshopper guard and other inverted guard positions. When an opponent inverts and threatens leg entanglements, the sprawl creates immediate distance by driving your hips backward and down toward the mat, removing your legs from their attacking range before they can establish hooks or grips.
+**Sprawl and Disengage is a defensive guard-passing reaction where the top player drives their hips back and down to strip their legs out of an inverting opponent's grasshopper guard, resetting to a standing base rather than risking leg entanglements.**
+
+Within the inverted-guard passing game, the Sprawl and Disengage functions as the high-percentage "eject button" against leg-hunting bottom players. When an opponent inverts and threatens leg entanglements, the sprawl creates immediate distance by driving your hips backward and down toward the mat, removing your legs from their attacking range before they can establish hooks or grips.
 
 This technique prioritizes safety and position reset over direct passing. Rather than fighting through the inverted guard and risking leg entanglements, you recognize when engagement is unfavorable and strategically disengage to reset from standing. The sprawl mechanic—borrowed from wrestling defense—is adapted here specifically to counter the elevation and leg control attempts inherent to inverted guards.
 
@@ -214,5 +251,7 @@ The Sprawl and Disengage functions as a critical safety valve within the inverte
 
 
 </section>
+
+
 
 </main>

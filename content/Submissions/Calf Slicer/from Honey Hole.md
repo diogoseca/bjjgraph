@@ -10,10 +10,55 @@ description: "Master the calf slicer from Honey Hole position in BJJ. Complete g
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Calf Slicer from Honey Hole targets the Calf muscle and Achilles tendon. Risk: Calf muscle tear or rupture. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Calf Slicer from Honey Hole",
+  "description": "Master the calf slicer from Honey Hole position in BJJ. Complete guide covering compression mechanics, setup sequences, defensive counters, and training safety.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Calf Slicer from Honey Hole", "item": "https://bjjgraph.org/Submissions/Calf-Slicer-from-Honey-Hole" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Calf Slicer from Honey Hole",
+  "description": "The calf slicer from Honey Hole is a leg compression submission that folds the trapped foot toward the glute while your shin acts as a fulcrum behind the knee, crushing the calf muscle and loading the Achilles tendon.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The calf slicer from Honey Hole is a leg compression submission that folds the trapped foot toward the glute while your shin acts as a fulcrum behind the knee, crushing the calf muscle and loading the Achilles tendon.**
+<div class="principle-meta">
+<span class="meta-chip">Compression</span>
+<span class="meta-chip">Leg Compression</span>
+<span class="meta-chip">Targets Calf muscle and Achilles tendon</span>
+<span class="meta-chip">50% success</span>
+</div>
+
+> [!danger] Safety
+> Calf Slicer from Honey Hole targets the Calf muscle and Achilles tendon. Primary risk: Calf muscle tear or rupture. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,55 +75,7 @@ This submission serves as a complementary weapon within the Honey Hole submissio
 
 Strategically, the calf slicer adds a compression dimension to the rotational attacks available from Honey Hole, forcing defenders to address threats across multiple planes of movement. It creates compound dilemmas that make the position increasingly difficult to escape. The technique specifically punishes the exact foot positioning opponents adopt to protect their heel from hook attacks, turning their primary defensive posture into a vulnerability that feeds directly into the compression finish.
 
-**Category**: Compression
-**Type**: Leg Compression
-**Target Area**: Calf muscle and Achilles tendon
-**Starting Position**: [[Positions/Ashi Garami/Honey Hole]]
-**From Position**: [[Positions/Ashi Garami/Honey Hole]] (Top)
-**Success Rate**: 50%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Calf muscle tear or rupture | High | 6-12 weeks minimum, potential permanent damage |
-| Achilles tendon strain or rupture | CRITICAL | 6-12 months, often requires surgery |
-| Nerve damage to peroneal or tibial nerves | High | Weeks to months, potential permanent numbness |
-| Deep tissue bruising and compartment syndrome | Medium | 2-4 weeks, rare cases require emergency surgery |
-
-
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum in training, never spike or jerk
-
-**Tap Signals**:
-- Verbal tap (encouraged due to leg entanglement limiting hand access)
-- Physical hand tap on partner or mat
-- Physical foot tap if hands are trapped
-- Any distress vocalization or signal
-- Slapping mat with free hand multiple times
-
-
-**Release Protocol**:
-1. Immediately release foot grip upon any tap signal
-2. Remove shin pressure from calf slowly and controlled
-3. Unwrap legs carefully without jerking movements
-4. Allow partner to extend leg naturally before disengaging
-5. Check partner's mobility and sensation before continuing training
-
-
-**Training Restrictions**:
-- Never apply at competition speed in training
-- Never spike or jerk the compression
-- Never hold after tap to finish the position
-- Always allow immediate tap access with both hands
-- Prohibited for colored belts below brown belt in most organizations
-- Never practice on partners with previous calf injuries without explicit consent
-
+**Starting Position**: [[Positions/Ashi Garami/Honey Hole]] · **From**: [[Positions/Ashi Garami/Honey Hole]] (Top)
 
 </section>
 
@@ -238,43 +235,66 @@ Strategically, the calf slicer adds a compression dimension to the rotational at
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Calf Slicer]]
 - [[Submissions/Inside Heel Hook]]
 - [[Transitions/Heel Hook]]
-- [[Positions/Aoki Lock Control]]
+- [[Transitions/Aoki Lock]]
 - [[Submissions/Bicep Slicer]]
-- [[Positions/Estima Lock Control]]
+- [[Submissions/Achilles Lock]]
 - [[Submissions/Boston Crab]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Ashi Garami/Honey Hole]] - Primary starting position for this submission variant
 - [[Positions/Ashi Garami/Saddle]] - Alternative name for starting position with identical mechanics
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Precursor leg entanglement that leads to Honey Hole entry
-- [[Submissions/Calf Slicer]] - Parent submission family covering all positional variants
-- [[Submissions/Inside Heel Hook]] - Primary alternative attack from same position, calf slicer used when heel is hidden
 - [[Positions/Leg Entanglement]] - Governing principle for all leg lock positions including Honey Hole
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Calf muscle tear or rupture | High | 6-12 weeks minimum, potential permanent damage |
+| Achilles tendon strain or rupture | CRITICAL | 6-12 months, often requires surgery |
+| Nerve damage to peroneal or tibial nerves | High | Weeks to months, potential permanent numbness |
+| Deep tissue bruising and compartment syndrome | Medium | 2-4 weeks, rare cases require emergency surgery |
+
+
+**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum in training, never spike or jerk
+
+**Tap Signals**:
+- Verbal tap (encouraged due to leg entanglement limiting hand access)
+- Physical hand tap on partner or mat
+- Physical foot tap if hands are trapped
+- Any distress vocalization or signal
+- Slapping mat with free hand multiple times
+
+
+**Release Protocol**:
+1. Immediately release foot grip upon any tap signal
+2. Remove shin pressure from calf slowly and controlled
+3. Unwrap legs carefully without jerking movements
+4. Allow partner to extend leg naturally before disengaging
+5. Check partner's mobility and sensation before continuing training
+
+
+**Training Restrictions**:
+- Never apply at competition speed in training
+- Never spike or jerk the compression
+- Never hold after tap to finish the position
+- Always allow immediate tap access with both hands
+- Prohibited for colored belts below brown belt in most organizations
+- Never practice on partners with previous calf injuries without explicit consent
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Calf Slicer from Honey Hole leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

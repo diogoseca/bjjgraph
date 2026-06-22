@@ -1,5 +1,6 @@
 {
   "name": "Leg Weave Escape to Half Guard",
+  "summary": "Leg Weave Escape to Half Guard is a frame-based recovery from the bottom of the leg weave in which the trapped player bridges, hip-escapes, and reinserts a knee shield to rebuild half guard before the passer completes the pass.",
   "description": "Master the leg weave escape to half guard in BJJ. Frame-based defensive recovery using hip movement, knee insertion, and timing to regain guard structure.",
   "tags": [
     "bjj",
@@ -29,7 +30,7 @@
     }
   ],
   "success_rate": 55,
-  "overview": "The Leg Weave Escape to Half Guard is a fundamental defensive recovery technique executed from the bottom of the leg weave position. When the top player has successfully threaded their leg through the bottom player's guard structure and established forward pressure, the bottom player must employ precise framing, timed hip escapes, and knee insertion to recover a viable half guard position. This escape represents the primary defensive pathway from one of the most pressure-heavy passing positions in modern BJJ.\n\nThe technique centers on creating space through structural frames rather than muscular effort, then using that space to reinsert the knee shield or recover a half guard hook before the passer can complete their advance. The critical timing window occurs when the top player shifts weight to initiate a passing sequence, momentarily reducing their ability to maintain the weave depth. Recognizing and exploiting these micro-transitions separates effective escape artists from practitioners who remain trapped under sustained pressure.\n\nSuccessfully executing this escape requires coordinated movement across multiple planes simultaneously: lateral hip escape to create angle, vertical frame pressure to prevent flattening, and rotational knee insertion to re-establish the guard structure. The escape is most effective when chained with other defensive options from the leg weave bottom, creating a defensive system where each failed escape attempt flows naturally into an alternative recovery pathway such as deep half entry or dogfight transition.",
+  "overview": "Few positions in modern pressure passing are as suffocating as the leg weave, and rebuilding half guard from underneath it is a defining skill of a resilient bottom game. When the top player has successfully threaded their leg through the bottom player's guard structure and established forward pressure, the bottom player must employ precise framing, timed hip escapes, and knee insertion to recover a viable half guard position. This escape represents the primary defensive pathway from one of the most pressure-heavy passing positions in modern BJJ.\n\nThe technique centers on creating space through structural frames rather than muscular effort, then using that space to reinsert the knee shield or recover a half guard hook before the passer can complete their advance. The critical timing window occurs when the top player shifts weight to initiate a passing sequence, momentarily reducing their ability to maintain the weave depth. Recognizing and exploiting these micro-transitions separates effective escape artists from practitioners who remain trapped under sustained pressure.\n\nSuccessfully executing this escape requires coordinated movement across multiple planes simultaneously: lateral hip escape to create angle, vertical frame pressure to prevent flattening, and rotational knee insertion to re-establish the guard structure. The escape is most effective when chained with other defensive options from the leg weave bottom, creating a defensive system where each failed escape attempt flows naturally into an alternative recovery pathway such as deep half entry or dogfight transition.",
   "conditions": [
     "Bottom player is caught in leg weave with top player's lead leg threaded between their legs",
     "Bottom player maintains at least one hook or leg connection preventing complete guard pass",
@@ -247,6 +248,10 @@
         "answer": "The optimal timing window occurs when the top player shifts their weight to advance their passing position, either driving forward for a smash pass or laterally for a knee slice. During these weight transfers, their ability to maintain the weave depth is momentarily reduced. The bridge creates an additional micro-window by disrupting their settled weight distribution. Initiating the hip escape during this combined window of weight shift plus bridge disruption gives the highest probability of creating sufficient space for knee insertion."
       },
       {
+        "question": "What conditions must exist before you can attempt the leg weave escape to half guard?",
+        "answer": "You need at least one remaining leg connection — typically your far-side hook on the passer's thigh or hip — so the pass is not already complete, plus enough arm mobility to wedge a forearm frame against their neck or shoulder. Without a retained hook the passer simply steps over to side control, and without frame access any hip escape is immediately followed and the space reclaimed. Retained connection and frame access are the two non-negotiable prerequisites for the escape to function."
+      },
+      {
         "question": "Why must frames be established before attempting the hip escape rather than simultaneously?",
         "answer": "Frames must be established first because without structural support, any space created by the hip escape is immediately reclaimed by the passer following with their chest pressure. The frame serves as a doorstop that prevents the space from closing as you move your hips. Attempting both simultaneously splits your coordination and typically results in neither being effective, producing weak frames that collapse and incomplete hip escapes that fail to create meaningful angle."
       },
@@ -263,7 +268,7 @@
         "answer": "The near-side underhook is the highest priority grip immediately after recovering half guard. It provides both defensive protection against the passer re-establishing their passing position and offensive options for sweeps and back takes. Without the underhook, the passer can easily re-establish crossface control and reinitiate their leg weave. Fight for the underhook while your knee shield maintains the space created during the escape."
       },
       {
-        "question": "The passer begins backstopping when you create angle during your hip escape - how do you prevent back exposure?",
+        "question": "The passer begins backstepping when you create angle during your hip escape - how do you prevent back exposure?",
         "answer": "Maintain your shoulders within 45 degrees of the mat throughout the hip escape and keep your chest oriented toward the passer rather than turning away. Your near-side elbow should stay connected to your knee to prevent the passer from circling behind you. If you feel them beginning to circle toward your back, immediately flatten back to the mat and reset your frames rather than continuing the escape. A reset from leg weave bottom is far preferable to giving up back control."
       },
       {

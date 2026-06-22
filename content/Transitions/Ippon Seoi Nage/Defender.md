@@ -105,6 +105,7 @@ description: "How to defend Ippon Seoi Nage in BJJ. Recognition cues, sprawl def
   "@type": "WebPage",
   "name": "Ippon Seoi Nage Defender",
   "description": "How to defend Ippon Seoi Nage in BJJ. Recognition cues, sprawl defense, hip blocking, and counter-attack strategies from the defender perspective.",
+  "alternateName": ["One-Arm Shoulder Throw"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -150,6 +151,9 @@ description: "How to defend Ippon Seoi Nage in BJJ. Recognition cues, sprawl def
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>One-Arm Shoulder Throw</strong> <span class="role-hint">(defender)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 Defending against Ippon Seoi Nage requires recognizing the technique early in its setup phase and responding before the attacker completes their turning entry. Once the thrower achieves deep hip insertion below your center of gravity with their back turned and your arm loaded across their shoulder, the throw becomes extremely difficult to stop through strength alone. Effective defense therefore focuses on three sequential windows: preventing the kuzushi that creates the opening, disrupting the entry step and hip insertion, and countering the loading phase if the first two defenses fail.

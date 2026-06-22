@@ -16,7 +16,7 @@ description: "Execute posture recovery to escape triangle chokes in BJJ. Step-by
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Posture in Triangle Escape in BJJ",
-  "description": "Step-by-step guide for executing Posture in Triangle Escape from Triangle Escape Position/Bottom.",
+  "description": "Step-by-step guide for executing Posture in Triangle Escape from Triangle Escape Position/Top.",
   "step": [
     {
       "@type": "HowToStep",
@@ -99,7 +99,7 @@ description: "Execute posture recovery to escape triangle chokes in BJJ. Step-by
       "name": "You feel the triangle loosening momentarily as your opponent readjusts their figure-four leg position - how do you exploit this window?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Immediately accelerate your posture recovery by driving explosively through your hips while maintaining forward stacking pressure. This adjustment window is the highest-percentage moment for posture gain because the triangle structure is temporarily compromised during the leg repositioning. Simultaneously begin stepping toward your trapped arm side and continue the upward drive with increased urgency. The key is recognizing these windows through tactile sensitivity, as the loosening is brief and the opponent will re-cinch within seconds."
+        "text": "Immediately accelerate your posture recovery with an urgent, committed hip drive while maintaining forward stacking pressure - urgency here means seizing the moment, not jerking explosively, which would feed the choke. This adjustment window is the highest-percentage moment for posture gain because the triangle structure is temporarily compromised during the leg repositioning. Simultaneously begin stepping toward your trapped arm side and continue the upward drive. The key is recognizing these windows through tactile sensitivity, as the loosening is brief and the opponent will re-cinch within seconds."
       }
     },
     {
@@ -186,7 +186,7 @@ description: "Execute posture recovery to escape triangle chokes in BJJ. Step-by
 
 As the practitioner caught in the triangle, your primary objective is recovering vertical spinal alignment to relieve arterial compression and create the structural foundation for subsequent escape techniques. The posture recovery phase is the single most important component of triangle defense because it directly addresses the choking mechanism while simultaneously enabling all follow-up escape pathways. Your success depends on generating upward force through hip extension rather than neck muscles, maintaining trapped arm protection against armbar transitions throughout the posture attempt, and controlling the opponent's hip with your free hand to prevent the angle optimization that transforms marginal triangles into fight-ending submissions. The technique requires disciplined sequential execution starting from immediate survival through breathing space preservation, progressing to structural posture through hip-driven extension, and culminating in sufficient positional disruption to clear into half guard top.
 
-**From Position**: [[Positions/Triangle Escape Position]] (Bottom)
+**From Position**: [[Positions/Triangle Escape Position]] (Top)
 
 </section>
 
@@ -342,5 +342,7 @@ Positional sparring starting in locked triangle with partner at full competition
 Posture recovery during triangle escapes involves direct resistance against an active choking mechanism that compresses the carotid arteries and can cause unconsciousness within 4-8 seconds without warning. Never attempt to fight through a fully locked triangle past the point where you feel tunnel vision, lightheadedness, or bilateral neck pressure distortion. Tap immediately when consciousness is threatened rather than risking loss of consciousness during the posture attempt. The stacking component places compressive force on the opponent's cervical spine, so stack gradually rather than explosively during training to protect your partner. Training partners should communicate openly about pressure levels and release immediately upon tap. Never explosively jerk your head upward against locked triangle pressure, as this risks cervical vertebrae compression injuries.
 
 </section>
+
+
 
 </main>

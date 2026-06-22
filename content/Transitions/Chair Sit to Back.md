@@ -10,6 +10,41 @@ description: "Master the Chair Sit to Back Take in BJJ. Control opponent from tu
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Chair Sit to Back",
+  "description": "Master the Chair Sit to Back Take in BJJ. Control opponent from turtle, establish seatbelt grip, and climb to dominant back control with hooks.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Chair Sit to Back", "item": "https://bjjgraph.org/Transitions/Chair-Sit-to-Back" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Chair Sit to Back",
+  "description": "Chair Sit to Back is a turtle-attack transition where you wedge your shin across the opponent's near thigh, sit beside them to block rotation, secure a seatbelt grip, and climb to dominant back control with hooks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,13 +57,15 @@ description: "Master the Chair Sit to Back Take in BJJ. Control opponent from tu
 
 <section id="overview" class="content-section">
 
+**Chair Sit to Back is a turtle-attack transition where you wedge your shin across the opponent's near thigh, sit beside them to block rotation, secure a seatbelt grip, and climb to dominant back control with hooks.**
+
 The Chair Sit to Back Take is a fundamental transition from attacking turtle position to establishing dominant back control. This technique exploits the opponent's defensive turtle posture by controlling their hips and preventing forward movement while systematically climbing onto their back. The chair sit position provides exceptional control by using your leg as a barrier across the opponent's thigh, preventing them from turning into you while you establish the crucial seatbelt grip configuration.
 
 The technique represents a high-percentage pathway to back control because it neutralizes the opponent's ability to counter-rotate or escape forward, creating a controlled environment for methodical position advancement. Unlike direct back climbing attempts that often devolve into scrambles, the chair sit creates an intermediate control station where you can stabilize, establish grips, and break down the opponent's structure before committing to the final transition.
 
 Success requires precise hip positioning, weight distribution, and grip sequencing to prevent common defensive reactions such as rolling or sitting through. The chair sit acts as a transitional control position that bridges the gap between attacking turtle and securing full back mount with hooks established. When the opponent does manage to sit through, the position flows naturally into truck and twister system attacks, making it a win-win proposition for the attacker.
 
-**From Position**: [[Positions/Matrix]] (Bottom)
+**From Position**: [[Positions/Turtle]] (Top)
 **Success Rate**: 68%
 
 </section>
@@ -224,6 +261,17 @@ The chair sit to back take occupies a central position within the turtle attack 
 
 - [[Transitions/Crab Ride to Back]] - Alternative back take pathway from similar turtle control
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Danaher Straight Jacket System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Technical entry method from turtle position to back mount using chair sit mechanics</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Back-Attack-System" data-cta="related-system-card" data-system-slug="systems/back-attack-system" data-system-name="Back Attack System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Back Attack System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Fundamental entry from turtle position to back control</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

@@ -184,11 +184,11 @@ description: "How to execute Arm Recovery to Guard in BJJ. Attacking perspective
 
 <section id="overview" class="content-section">
 
-Arm Recovery to Guard is the critical defensive transition from Kuzure Kesa-Gatame bottom that addresses the position's primary problem: the trapped arm. Unlike escapes that work around the arm isolation (such as the Granby Roll to Turtle), this technique directly solves the trapped arm by extracting it through precise shoulder rotation, frame creation, and hip movement to recover a guard position. The technique transforms a severely disadvantaged pin into an active guard where offensive options become available.
+From Kuzure Kesa-Gatame bottom, the arm recovery is your highest-return escape because it solves the position's defining problem—the trapped arm—rather than working around it. As the player executing this transition, your job is to recognize the brief window when the opponent's weight shifts forward, then convert that window into a freed arm and a recovered guard before they can re-clamp.
 
 The strategic value of this transition lies in its directness. Rather than conceding positional regression to Turtle or fighting for a difficult bridge-and-roll reversal, successful arm recovery places you immediately into Closed Guard or Half Guard with both arms free, full breathing capacity restored, and a complete offensive toolkit available. This makes it the highest-value escape from Kuzure Kesa-Gatame when the timing window presents itself.
 
-The technique requires precise coordination between shoulder mechanics, hip movement, and frame placement. The trapped arm cannot simply be pulled free against the opponent's clamping pressure. Instead, the practitioner must create a momentary release through a combination of bridge-induced weight shift and internal shoulder rotation that changes the angle of the trapped arm relative to the opponent's armpit clamp. This window is brief, typically coinciding with the opponent's weight shifting forward during a submission attempt or positional adjustment, making timing sensitivity the single most important skill for this technique.
+The technique requires precise coordination between shoulder mechanics, hip movement, and frame placement. The trapped arm cannot simply be pulled free against the opponent's clamping pressure. Instead, you must create a momentary release through a combination of bridge-induced weight shift and internal shoulder rotation that changes the angle of the trapped arm relative to the opponent's armpit clamp. This window is brief, typically coinciding with the opponent's weight shifting forward during a submission attempt or positional adjustment, making timing sensitivity the single most important skill for this technique.
 
 **From Position**: [[Positions/Side Control/Kuzure Kesa-Gatame]] (Bottom)
 
@@ -352,6 +352,17 @@ Positional sparring starting from Kuzure Kesa-Gatame bottom. Use arm recovery as
 <p class="section-subtitle">What are the safety concerns for Arm Recovery to Guard?</p>
 
 Arm Recovery to Guard involves extracting a trapped arm from a clamped position, which creates risk for the shoulder joint and elbow. Never attempt to yank the arm free with explosive force against a fully locked clamp—this can strain the shoulder rotator cuff or create an armbar angle that the opponent finishes. If you feel sharp pain in the shoulder during extraction, stop immediately and tap if necessary. During training, communicate with partners about the tightness of the armpit clamp, particularly when drilling at higher resistance levels. Partners should release pressure immediately if the bottom practitioner signals discomfort. Practitioners with existing shoulder injuries or hypermobility should approach this technique with extra caution and may need to rely more on alternative escapes like the Granby Roll that do not stress the trapped shoulder joint.
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Caio-Terra-Guard-Retention-System" data-cta="related-system-card" data-system-slug="systems/caio-terra-guard-retention-system" data-system-name="Caio Terra Guard Retention System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Caio Terra Guard Retention System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Core recovery transition for re-establishing guard structure after partial pass attempts</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Back-Defense-Protocol" data-cta="related-system-card" data-system-slug="systems/back-defense-protocol" data-system-name="Back Defense Protocol" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Back Defense Protocol</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Final phase of escape protocol returning to guard position</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

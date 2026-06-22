@@ -10,6 +10,41 @@ description: "Learn De La Riva Sweep in BJJ. Step-by-step execution from De La R
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "De La Riva Sweep",
+  "description": "Learn De La Riva Sweep in BJJ. Step-by-step execution from De La Riva Guard to top position. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "De La Riva Sweep", "item": "https://bjjgraph.org/Transitions/De-La-Riva-Sweep" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "De La Riva Sweep",
+  "description": "The De La Riva Sweep is a hook-based off-balancing sweep from De La Riva Guard where the bottom player extends the DLR hook while pulling the sleeve and collar to topple a posturing passer and come up to top position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Learn De La Riva Sweep in BJJ. Step-by-step execution from De La R
 
 <section id="overview" class="content-section">
 
-The De La Riva Sweep is a fundamental attacking technique from the De La Riva Guard position that allows the bottom player to off-balance and sweep their opponent to achieve top position. This sweep exploits the mechanical disadvantage created when the opponent's weight is distributed across a compromised base, using the De La Riva hook and strategic grips to control and manipulate their center of gravity. The technique is highly effective in gi-based Brazilian Jiu-Jitsu and forms the foundation of an entire guard system.
+**The De La Riva Sweep is a hook-based off-balancing sweep from De La Riva Guard where the bottom player extends the DLR hook while pulling the sleeve and collar to topple a posturing passer and come up to top position.**
+
+As the foundational off-balancing attack of the De La Riva system, this sweep turns a passer's forward commitment or attempt to clear the hook into a clean path to the top position. It exploits the mechanical disadvantage created when the opponent's weight is distributed across a compromised base, using the De La Riva hook and strategic grips to control and manipulate their center of gravity. The technique is highly effective in gi-based Brazilian Jiu-Jitsu and forms the foundation of an entire guard system.
 
 The De La Riva Sweep works by creating a powerful lever system using the De La Riva hook (leg wrapped around opponent's leg from outside), combined with strategic sleeve and collar grips. By extending the hooked leg while pulling with the grips, the practitioner generates rotational force that disrupts the opponent's base and drives them to the mat. The sweep can lead to various dominant positions including side control, mount, or back control, depending on how the opponent reacts and falls.
 
@@ -223,6 +260,16 @@ The De La Riva Sweep is a foundational technique within the broader De La Riva G
 
 - [[Positions/De La Riva Guard/Reverse De La Riva Guard]] - Related guard - complementary position accessible when opponent jumps over DLR hook
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Berimbolo" data-cta="related-system-card" data-system-slug="systems/berimbolo" data-system-name="Berimbolo" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Berimbolo</span><span class="system-card__unlocks-badge">Unlocks 21 techniques</span><span class="system-card__blurb">Complementary attack from De La Riva guard that creates entry dilemmas for Berimbolo</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

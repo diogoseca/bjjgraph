@@ -21,13 +21,13 @@ description: "Dominate with S Mount attacks in BJJ. Master arm isolation, armbar
     {
       "@type": "HowToStep",
       "name": "Execute Mount to Armbar",
-      "text": "From this position, attempt Mount to Armbar. This technique is attempted in 35% of exchanges from this position.",
+      "text": "From this position, attempt Mount to Armbar. This technique is attempted in 32% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle from Mount",
-      "text": "From this position, attempt Triangle from Mount. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Triangle from Mount. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
@@ -45,13 +45,13 @@ description: "Dominate with S Mount attacks in BJJ. Master arm isolation, armbar
     {
       "@type": "HowToStep",
       "name": "Execute Back Take",
-      "text": "From this position, attempt Back Take. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Back Take. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Mounted Crucifix Entry",
-      "text": "From this position, attempt Mounted Crucifix Entry. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Mounted Crucifix Entry. This technique is attempted in 6% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -372,6 +372,16 @@ Start in S Mount top, partner starts in S Mount bottom. Full resistance sparring
 - **[[Positions/Mount/Mounted Crucifix]]** - Alternative control - similar arm isolation with different configuration
 - **[[Positions/Gift Wrap]]** - Control transition - can lead to S Mount or back take
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Submission-Clinic-System" data-cta="related-system-card" data-system-slug="systems/submission-clinic-system" data-system-name="Submission Clinic System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Submission Clinic System</span><span class="system-card__unlocks-badge">Unlocks 30 techniques</span><span class="system-card__blurb">Advanced mount variation providing superior armbar and choke access</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

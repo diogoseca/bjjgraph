@@ -10,10 +10,55 @@ description: "Learn the calf slicer from saddle position with step-by-step finis
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Calf Slicer from Saddle targets the Calf muscle and Achilles tendon. Risk: Calf muscle tear or rupture. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Calf Slicer from Saddle",
+  "description": "Learn the calf slicer from saddle position with step-by-step finishing mechanics, defensive escapes, and critical safety protocols for leg lock practitioners.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Calf Slicer from Saddle", "item": "https://bjjgraph.org/Submissions/Calf-Slicer-from-Saddle" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Calf Slicer from Saddle",
+  "description": "The Calf Slicer from Saddle is a compression submission that folds the opponent's lower leg over your shin behind the knee to crush the calf, using the saddle's hip pressure to trap the leg and chain with heel hook threats.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Calf Slicer from Saddle is a compression submission that folds the opponent's lower leg over your shin behind the knee to crush the calf, using the saddle's hip pressure to trap the leg and chain with heel hook threats.**
+<div class="principle-meta">
+<span class="meta-chip">Compression</span>
+<span class="meta-chip">Leg Compression</span>
+<span class="meta-chip">Targets Calf muscle and Achilles tendon</span>
+<span class="meta-chip">50% success</span>
+</div>
+
+> [!danger] Safety
+> Calf Slicer from Saddle targets the Calf muscle and Achilles tendon. Primary risk: Calf muscle tear or rupture. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,55 +75,7 @@ The finishing mechanics rely on your shin acting as a fulcrum point behind the k
 
 At competition level, this submission serves as a critical complement to heel hook entries from saddle. Advanced practitioners use the threat of the calf slicer to force opponents out of their heel-hiding defense, reopening the heel for the primary attack. Understanding this interplay between compression and rotation-based attacks elevates your saddle game from single-threat to multi-dimensional, significantly increasing overall finishing rates from leg entanglements.
 
-**Category**: Compression
-**Type**: Leg Compression
-**Target Area**: Calf muscle and Achilles tendon
-**Starting Position**: [[Positions/Ashi Garami/Saddle]]
-**From Position**: [[Positions/Ashi Garami/Saddle]] (Top)
-**Success Rate**: 50%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Calf muscle tear or rupture | High | 6-12 weeks minimum, potential permanent damage |
-| Achilles tendon strain or rupture | CRITICAL | 6-12 months, often requires surgery |
-| Nerve damage to peroneal or tibial nerves | High | Weeks to months, potential permanent numbness |
-| Deep tissue bruising and compartment syndrome | Medium | 2-4 weeks, rare cases require emergency surgery |
-
-
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum in training, never spike or jerk
-
-**Tap Signals**:
-- Verbal tap (encouraged due to leg entanglement limiting hand movement)
-- Physical hand tap on partner or mat
-- Physical foot tap if hands are trapped
-- Any distress vocalization or signal
-- Slapping mat with free hand multiple times
-
-
-**Release Protocol**:
-1. Immediately release foot grip upon any tap signal
-2. Remove shin pressure from calf slowly and with control
-3. Unwrap legs carefully without jerking movements
-4. Allow partner to extend leg naturally before disengaging
-5. Check partner's mobility and sensation before continuing training
-
-
-**Training Restrictions**:
-- Never apply at competition speed in training
-- Never spike or jerk the compression
-- Never hold after tap to finish the position
-- Always allow immediate tap access with both hands
-- Prohibited for colored belts below brown belt in most organizations
-- Never practice on partners with previous calf injuries without explicit consent
-
+**Starting Position**: [[Positions/Ashi Garami/Saddle]] · **From**: [[Positions/Ashi Garami/Saddle]] (Top)
 
 </section>
 
@@ -221,41 +218,63 @@ At competition level, this submission serves as a critical complement to heel ho
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Calf Slicer]]
 - [[Transitions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
 - [[Submissions/Bicep Slicer]]
 - [[Positions/Aoki Lock Control]]
 - [[Submissions/Banana Split]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Ashi Garami/Saddle]] - Primary starting position for this submission variant
 - [[Positions/Ashi Garami/Honey Hole]] - Alternative name for the starting position in 10th Planet system
-- [[Submissions/Calf Slicer]] - Parent submission family with shared finishing mechanics
-- [[Transitions/Heel Hook]] - Primary alternative submission creating dilemma from same position
-- [[Submissions/Inside Heel Hook]] - Highest-percentage chain submission when calf slicer is defended
+
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Calf muscle tear or rupture | High | 6-12 weeks minimum, potential permanent damage |
+| Achilles tendon strain or rupture | CRITICAL | 6-12 months, often requires surgery |
+| Nerve damage to peroneal or tibial nerves | High | Weeks to months, potential permanent numbness |
+| Deep tissue bruising and compartment syndrome | Medium | 2-4 weeks, rare cases require emergency surgery |
+
+
+**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum in training, never spike or jerk
+
+**Tap Signals**:
+- Verbal tap (encouraged due to leg entanglement limiting hand movement)
+- Physical hand tap on partner or mat
+- Physical foot tap if hands are trapped
+- Any distress vocalization or signal
+- Slapping mat with free hand multiple times
+
+
+**Release Protocol**:
+1. Immediately release foot grip upon any tap signal
+2. Remove shin pressure from calf slowly and with control
+3. Unwrap legs carefully without jerking movements
+4. Allow partner to extend leg naturally before disengaging
+5. Check partner's mobility and sensation before continuing training
+
+
+**Training Restrictions**:
+- Never apply at competition speed in training
+- Never spike or jerk the compression
+- Never hold after tap to finish the position
+- Always allow immediate tap access with both hands
+- Prohibited for colored belts below brown belt in most organizations
+- Never practice on partners with previous calf injuries without explicit consent
 
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Calf Slicer from Saddle leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

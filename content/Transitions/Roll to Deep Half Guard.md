@@ -10,6 +10,41 @@ description: "Learn Roll to Deep Half Guard escape from Buggy Choke. Defensive t
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Roll to Deep Half Guard",
+  "description": "Learn Roll to Deep Half Guard escape from Buggy Choke. Defensive transition using momentum to enter Deep Half Guard with sweep opportunities and leg attacks.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Roll to Deep Half Guard", "item": "https://bjjgraph.org/Transitions/Roll-to-Deep-Half-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Roll to Deep Half Guard",
+  "description": "Roll to Deep Half Guard is a counterattacking escape from the bottom of a buggy choke, using rotational momentum toward the attacker's near leg to burrow into deep half guard with immediate sweep and back-take options.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Learn Roll to Deep Half Guard escape from Buggy Choke. Defensive t
 </div>
 
 <section id="overview" class="content-section">
+
+**Roll to Deep Half Guard is a counterattacking escape from the bottom of a buggy choke, using rotational momentum toward the attacker's near leg to burrow into deep half guard with immediate sweep and back-take options.**
 
 The Roll to Deep Half Guard represents a specialized defensive transition from the buggy choke bottom position, utilizing rotational momentum to escape the choking pressure while establishing an advantageous guard position. This technique exploits the structural weakness inherent in the buggy choke grip configuration—when the attacker commits both arms to the choke, their base becomes compromised and vulnerable to directional rolling attacks.
 
@@ -222,5 +259,7 @@ The Roll to Deep Half Guard connects the defensive turtle and buggy choke system
 
 
 </section>
+
+
 
 </main>

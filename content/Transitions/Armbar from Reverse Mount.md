@@ -10,6 +10,41 @@ description: "Master the armbar from reverse mount in BJJ. Complete guide coveri
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Armbar from Reverse Mount",
+  "description": "Master the armbar from reverse mount in BJJ. Complete guide covering arm isolation, execution mechanics, counters, and defensive strategies from this unique position.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Armbar from Reverse Mount", "item": "https://bjjgraph.org/Transitions/Armbar-from-Reverse-Mount" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Armbar from Reverse Mount",
+  "description": "Armbar from Reverse Mount is a submission setup where the top player, seated on the opponent's torso facing their feet, isolates an extended arm and pivots into armbar control to threaten elbow hyperextension.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the armbar from reverse mount in BJJ. Complete guide coveri
 </div>
 
 <section id="overview" class="content-section">
+
+**Armbar from Reverse Mount is a submission setup where the top player, seated on the opponent's torso facing their feet, isolates an extended arm and pivots into armbar control to threaten elbow hyperextension.**
 
 The armbar from reverse mount is a high-percentage submission setup that exploits the unique backward-facing orientation of reverse mount to attack the opponent's exposed arms. Unlike standard mount armbars where the attacker faces the defender and can read their reactions visually, the reverse mount armbar targets arms positioned near the attacker's hips and lower back, often extended defensively as the opponent attempts bridges, frames, or pushes to escape the mounted position. The backward orientation creates a tactical surprise element because the defender's instinctive arm placements for mount escapes place their limbs directly in the armbar danger zone.
 
@@ -220,5 +257,7 @@ The armbar from reverse mount occupies a critical node in the reverse mount deci
 
 
 </section>
+
+
 
 </main>

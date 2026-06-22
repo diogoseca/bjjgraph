@@ -4,11 +4,46 @@
 
 ---
 title: "Triangle Escape Position | BJJ Position Guide | BJJ Graph"
-description: "Master triangle escape techniques in BJJ. Complete defensive guide covering posture recovery, systematic escape sequences, and counter-passing strategies with success rates from 25-70% across skill levels."
+description: "Master both sides of the triangle in BJJ. Complete guide covering the attacker finishing the choke and chaining to armbar, omoplata, and the back, plus the defender's posture recovery, stacking, and escape sequences, with success rates from 25-75% across skill levels."
 ---
 
 
 <body data-content-type="positions-hub">
+
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Triangle Escape Position",
+  "description": "Master both sides of the triangle in BJJ. Complete guide covering the attacker finishing the choke and chaining to armbar, omoplata, and the back, plus the defender\u0027s posture recovery, stacking, and escape sequences, with success rates from 25-75% across skill levels.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Triangle Escape Position", "item": "https://bjjgraph.org/Positions/Triangle-Escape-Position" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Triangle Escape Position",
+  "description": "Triangle Escape Position is the live triangle exchange where the bottom-role guard player finishes the choke or chains to armbar, omoplata, and back control, while the top-role caught player postures, stacks, and works arm extraction to survive and pass the guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -22,9 +57,11 @@ description: "Master triangle escape techniques in BJJ. Complete defensive guide
 
 <section id="overview" class="content-section">
 
+**Triangle Escape Position is the live triangle exchange where the bottom-role guard player finishes the choke or chains to armbar, omoplata, and back control, while the top-role caught player postures, stacks, and works arm extraction to survive and pass the guard.**
+
 Triangle Escape Position represents one of the most critical defensive scenarios in Brazilian Jiu-Jitsu, where a practitioner finds themselves caught in an opponent's triangle choke configuration and must execute immediate, systematic defensive techniques to prevent submission while creating opportunities for positional recovery. This position demands mastery of defensive hierarchy: first maintaining consciousness through breathing space preservation, then establishing posture to reduce choking pressure, then systematically dismantling the triangle structure through proper mechanical understanding. Unlike many defensive positions where time can work in the defender's favor, the triangle escape scenario becomes progressively more dangerous as the attacking practitioner refines their angle and tightness, making decisive technical action essential within a narrow window of opportunity.
 
-The position exists in two distinct perspectives: from bottom (typically standing or kneeling while defending the choke, with options to stack and pass) and from top (caught while attempting guard passing or control, requiring posture recovery and extraction). Both perspectives share common defensive principles but require different mechanical solutions based on positional geometry and available leverage points. Success requires deep understanding of the triangle's structural mechanics - how the legs create a closed loop that combines blood restriction with structural control, how angle optimization dramatically increases finishing probability, and how the trapped arm serves as both a fulcrum for the choke and a potential target for armbar transitions.
+The position is genuinely two-sided: the bottom role is the triangle attacker - the guard player on their back with legs locked, finishing the choke or chaining to armbar, omoplata, and the back - while the top role is the caught defender, postured up and stacking to survive the choke and pass the legs. The two perspectives are mirror images of the same exchange, sharing the same triangle mechanics but pursuing opposite goals, so understanding one sharpens execution of the other. Success requires deep understanding of the triangle's structural mechanics - how the legs create a closed loop that combines blood restriction with structural control, how angle optimization dramatically increases finishing probability, and how the trapped arm serves as both a fulcrum for the choke and a potential target for armbar transitions.
 
 The escape methodology follows a strict hierarchy that cannot be shortcut without dramatically reducing success probability: emergency space creation to maintain blood flow and consciousness, postural recovery to establish defensive structure and reduce immediate danger, hip control to prevent angle optimization that perfects the submission, systematic weakening of the triangle lock through proper pressure application, arm extraction only after sufficient space is created, and finally transition to improved position or guard passing to convert defense into offense. Each phase must be executed with technical precision, as attempting to skip phases or rush the escape typically results in either submission or exposure to secondary attacks including armbars and omoplatas.
 
@@ -63,12 +100,12 @@ Triangle escape training serves broader pedagogical purposes beyond the specific
 
 | &nbsp; | Bottom | Top |
 |--------|--------|-----|
-| **Position Type** | Defensive | Defensive |
-| **Risk Level** | High | High |
+| **Position Type** | Offensive | Defensive |
+| **Risk Level** | Medium | High |
 | **Energy Cost** | High | High |
 | **Time** | Short | Short |
 
-**Key Difference:** Defensive urgency balances survival priority
+**Key Difference:** Finisher versus escaper triangle exchange
 
 
 
@@ -84,69 +121,61 @@ Triangle escape training serves broader pedagogical purposes beyond the specific
 ### Key Principles
 
 
-- Maintain calm breathing despite choking pressure - panic accelerates physical exhaustion and compromises technical execution
+- Win the angle before squeezing - hip out toward the trapped-arm side until your hips are perpendicular to the opponent, which is what actually finishes the choke
 
-- Create immediate defensive frames to prevent opponent from perfecting angle and depth through hip adjustment
+- Control posture continuously by pulling the opponent's head down with both hands or locking the shin to deny them the standing and stacking defense
 
-- Protect trapped arm by keeping elbow tight to ribs to prevent armbar isolation and secondary attack transitions
+- Pull the trapped arm across your centerline and pin the wrist to your chest so the shoulder seals the near carotid and the opposite leg compresses the far one
 
-- Prioritize posture by standing or creating vertical base to reduce choking effectiveness through angle disruption
+- Squeeze the knees together and curl the locking foot down only once the angle and head control are set, not as the first action
 
-- Stack opponent's weight aggressively onto shoulders to compromise hip mobility and reduce choking power
+- Read the defense and chain rather than force - extended trapped arm means armbar, strong posture and exposed far arm means omoplata, opponent turning away means take the back
 
-- Never pull trapped arm out forcefully - circular extraction after space creation prevents submission acceleration
+- Keep the locking leg tight behind the knee so the opponent cannot wedge a hand in and clear it during the stack
 
-- Escape systematically by addressing leg position first, then clearing head, maintaining defensive awareness throughout sequence
+- Treat a stack as a signal to switch angle or attack the arm, not to abandon control - never release the figure-four to reset
 
 
 ### Available Transitions
 
 
-- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (30% of attempts)
+- **[[Submissions/Triangle Choke/Attacker|Triangle Choke]]** (40% of attempts)
 
-- **[[Transitions/Triangle Escape/Attacker|Triangle Escape]]** (17% of attempts)
+- **[[Transitions/Triangle to Armbar/Attacker|Triangle to Armbar]]** (25% of attempts)
 
-- **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** (17% of attempts)
+- **[[Transitions/Triangle to Omoplata/Attacker|Triangle to Omoplata]]** (15% of attempts)
 
-- **[[Transitions/Pass to Side Control/Attacker|Pass to Side Control]]** (7% of attempts)
+- **[[Transitions/Triangle to Back/Attacker|Triangle to Back]]** (12% of attempts)
 
-- **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** (13% of attempts)
-
-- **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (11% of attempts)
-
-- **[[Transitions/Complete Triangle Escape/Attacker|Complete Triangle Escape]]** (3% of attempts)
-
-- **[[Transitions/Posture in Triangle Escape/Attacker|Posture in Triangle Escape]]** (1% of attempts)
-
-- **[[Transitions/Reversal from Triangle Escape/Attacker|Reversal from Triangle Escape]]** (1% of attempts)
+- **[[Transitions/Inverted Triangle/Attacker|Inverted Triangle]]** (8% of attempts)
 
 
 ### Common Mistakes
 
 
-- ❌ **Pulling trapped arm straight out with force instead of using circular extraction**
-  - Consequence: Accelerates choke completion and creates immediate armbar vulnerability as opponent isolates the arm
-  - ✅ Correction: Keep elbow tight to ribs, rotate shoulder and use circular motion to extract arm while maintaining defensive posture
+- ❌ **Squeezing the knees hard before establishing the perpendicular angle**
+  - Consequence: Wastes leg endurance on a square choke that does not finish and lets the opponent posture and stack while you tire
+  - ✅ Correction: Hip out toward the trapped-arm side first to set the angle, then squeeze - angle finishes the triangle, not raw squeeze
 
-- ❌ **Staying in broken posture with head down against opponent's chest**
-  - Consequence: Allows opponent to perfect triangle angle and depth, making escape exponentially more difficult
-  - ✅ Correction: Immediately work to stand or create vertical base, using legs to drive upward and reduce choking pressure
+- ❌ **Leaving the trapped arm down the centerline instead of pulling it across**
+  - Consequence: The shoulder blocks the carotid and the choke stalls, giving the opponent time to defend
+  - ✅ Correction: Use both hands to drag the trapped arm across your body and pin the wrist so the far carotid is exposed to the leg
 
-- ❌ **Using free hand to push on opponent's leg crossing neck rather than controlling hips**
-  - Consequence: Wastes energy, exposes second arm to capture, and does not address root cause of triangle structure
-  - ✅ Correction: Use free hand to post on mat for base or control opponent's hip to prevent angle adjustment
+- ❌ **Releasing head and posture control to readjust the legs**
+  - Consequence: The opponent immediately postures up, stacks, and begins clearing the choking leg to pass
+  - ✅ Correction: Maintain head or shin control with at least one grip at all times; adjust the legs without ever conceding posture
 
-- ❌ **Attempting to jump or sprawl backward to escape the triangle**
-  - Consequence: Increases choking pressure dramatically and often results in immediate unconsciousness
-  - ✅ Correction: Move forward and upward, stacking opponent's weight onto their shoulders to compromise their structure
+- ❌ **Forcing the choke when the opponent has already stacked and started clearing the leg**
+  - Consequence: The attack collapses to open or closed guard and the opponent takes over with passing pressure
+  - ✅ Correction: Read the stack early and chain to armbar, omoplata, or the back instead of grinding a dead choke
 
-- ❌ **Neglecting to protect free arm during escape attempts by extending it into guard space**
-  - Consequence: Opponent easily transitions to armbar on free arm, switching submission threats
-  - ✅ Correction: Keep free arm tight to body or posted on mat, never extending it into opponent's guard space
+- ❌ **Letting the locking leg drift high onto the shoulder instead of behind the knee**
+  - Consequence: Creates a gap the opponent can hand-fight into to clear the leg and escape the triangle
+  - ✅ Correction: Keep the locking foot tucked tight behind your own knee and curl the ankle down to seal the figure-four
 
-- ❌ **Failing to maintain forward stacking pressure while attempting circular escape movement**
-  - Consequence: Opponent recovers hip mobility and re-establishes optimal choking angle during the escape attempt
-  - ✅ Correction: Combine heavy forward weight pressure with lateral circular stepping - never sacrifice the stack for the circle
+- ❌ **Telegraphing the armbar by over-rotating before controlling the trapped wrist**
+  - Consequence: The opponent rips the arm free and stacks, losing both the choke and the armbar
+  - ✅ Correction: Pin the wrist and clamp the legs first, then rotate underneath to finish the armbar in a controlled sequence
 
 
 </section>
@@ -191,11 +220,11 @@ Triangle escape training serves broader pedagogical purposes beyond the specific
 
 - **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (12% of attempts)
 
-- **[[Transitions/Complete Triangle Escape from Top/Attacker|Complete Triangle Escape from Top]]** (2% of attempts)
+- **[[Transitions/Complete Triangle Escape/Attacker|Complete Triangle Escape]]** (2% of attempts)
 
-- **[[Transitions/Posture in Triangle/Attacker|Posture in Triangle]]** (1% of attempts)
+- **[[Transitions/Posture in Triangle Escape/Attacker|Posture in Triangle Escape]]** (1% of attempts)
 
-- **[[Transitions/Guard Pass from Triangle Escape/Attacker|Guard Pass from Triangle Escape]]** (1% of attempts)
+- **[[Transitions/Reversal from Triangle Escape/Attacker|Reversal from Triangle Escape]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -252,5 +281,7 @@ Triangle escape training serves broader pedagogical purposes beyond the specific
 
 
 </section>
+
+
 
 </main>

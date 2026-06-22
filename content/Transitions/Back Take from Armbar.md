@@ -10,6 +10,41 @@ description: "Master the back take from armbar control in BJJ. Learn to convert 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Back Take from Armbar",
+  "description": "Master the back take from armbar control in BJJ. Learn to convert failed armbar attempts into dominant back control using systematic grip and hook transitions.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Back Take from Armbar", "item": "https://bjjgraph.org/Transitions/Back-Take-from-Armbar" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Back Take from Armbar",
+  "description": "Back Take from Armbar is a chain-attack transition where the attacker abandons a well-defended armbar and exploits the opponent's defensive rotation to thread hooks and secure dominant back control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the back take from armbar control in BJJ. Learn to convert 
 </div>
 
 <section id="overview" class="content-section">
+
+**Back Take from Armbar is a chain-attack transition where the attacker abandons a well-defended armbar and exploits the opponent's defensive rotation to thread hooks and secure dominant back control.**
 
 The Back Take from Armbar is a fundamental chain attack that converts armbar defense into dominant back control. When an opponent successfully defends the armbar by turning toward the attacker, clasping hands, or initiating escape movements, the attacker abandons the arm attack and capitalizes on the opponent's exposed back. This transition exemplifies the principle that defensive movements in one direction create vulnerability in another, making it a cornerstone of systematic submission chain methodology.
 
@@ -216,5 +253,7 @@ The Back Take from Armbar occupies a critical junction in the submission chain h
 
 
 </section>
+
+
 
 </main>

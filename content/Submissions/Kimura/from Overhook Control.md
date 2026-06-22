@@ -10,10 +10,55 @@ description: "Master the Kimura shoulder lock from overhook control. Complete gu
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Kimura from Overhook Control targets the Shoulder joint, rotator cuff, and shoulder capsule. Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kimura from Overhook Control",
+  "description": "Master the Kimura shoulder lock from overhook control. Complete guide to grip transitions, rotational finishing mechanics, and defensive counter-strategies.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Kimura from Overhook Control", "item": "https://bjjgraph.org/Submissions/Kimura-from-Overhook-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kimura from Overhook Control",
+  "description": "The Kimura from Overhook Control is a figure-four shoulder lock executed by converting an established whizzer/overhook arm wrap into forced internal rotation, attacking the rotator cuff and shoulder capsule from top, turtle, clinch, and half-guard contexts.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Kimura from Overhook Control is a figure-four shoulder lock executed by converting an established whizzer/overhook arm wrap into forced internal rotation, attacking the rotator cuff and shoulder capsule from top, turtle, clinch, and half-guard contexts.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Shoulder Lock</span>
+<span class="meta-chip">Targets Shoulder joint, rotator cuff, and shoulder capsule</span>
+<span class="meta-chip">62% success</span>
+</div>
+
+> [!danger] Safety
+> Kimura from Overhook Control targets the Shoulder joint, rotator cuff, and shoulder capsule. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -24,60 +69,13 @@ description: "Master the Kimura shoulder lock from overhook control. Complete gu
 
 <section id="overview" class="content-section">
 
-The Kimura from Overhook Control converts the existing arm wrap directly into a figure-four shoulder lock, capitalizing on the structural control already established by the whizzer grip. Unlike standard Kimura entries that require fighting for wrist control from neutral positions, this variant begins with the opponent's arm already elevated, trapped, and structurally compromised. The transition from overhook seal to figure-four grip occurs within the same control framework, significantly reducing the defensive window available to the opponent.
+Because the overhook has already elevated and trapped the opponent's arm before any submission begins, this entry skips the hardest part of a traditional Kimura: winning wrist control from neutral. The variant begins with the arm already elevated, trapped, and structurally compromised, and the transition from overhook seal to figure-four grip occurs within the same control framework, significantly reducing the defensive window available to the opponent. This is why grapplers who live in the whizzer treat the Kimura as the default punishment when an opponent stalls or pulls the trapped arm backward against overhook pressure.
 
 The mechanical advantage of this entry is substantial. The overhook has already elevated the opponent's arm above their power generation angle, broken their posture, and removed one of their posting bases. Converting to the Kimura requires releasing the grip behind their back, capturing their wrist, and establishing the figure-four while maintaining shoulder pressure. The critical moment is the grip switch—the brief instant when you release the overhook grip and reach for their wrist represents the highest escape probability for the defender.
 
 Finishing the Kimura from overhook control often requires different body mechanics than the traditional side control Kimura. Because the position frequently involves standing, turtle top, or scramble contexts, you need to sprawl your hips away or step over their body to generate sufficient rotational torque. Hip positioning relative to their trapped shoulder determines your mechanical advantage—keeping your hips close to their shoulder maximizes the rotational force applied through the figure-four grip while minimizing their ability to rotate their body to relieve pressure.
 
-**Category**: Joint Lock
-**Type**: Shoulder Lock
-**Target Area**: Shoulder joint, rotator cuff, and shoulder capsule
-**Starting Position**: [[Positions/Overhook Control]]
-**From Position**: [[Positions/Overhook Control]] (Top)
-**Success Rate**: 62%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) | High | 3-9 months with potential surgery requirement |
-| Shoulder capsule damage and dislocation | CRITICAL | 6-12 months, may require surgical repair |
-| Labral tear (glenoid labrum) | High | 4-8 months, often requires arthroscopic surgery |
-| Bicep tendon strain or rupture | Medium | 6-12 weeks for strain, 3-6 months for rupture |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training, allowing partner time to recognize danger and tap
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or making any verbal distress sound)
-- Physical hand tap (multiple taps with free hand)
-- Physical foot tap (multiple taps with either foot)
-- Any distress signal including screaming or unusual sounds
-
-
-**Release Protocol**:
-1. Immediately stop all rotational pressure the instant tap is felt or heard
-2. Return the arm toward neutral position (externally rotate back to starting position)
-3. Release the figure-four grip completely
-4. Allow partner to self-assess shoulder mobility before continuing
-5. Never release suddenly or allow arm to spring back forcefully
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - rotation must be smooth and controlled
-- Never use competition speed or surprise attacks in training
-- Always ensure partner has at least one hand free to tap
-- Do not apply while partner is in awkward body position that prevents tapping
-- Never combine with weight pressure that restricts breathing while finishing
-- Respect immediate taps without testing partner's pain tolerance
-
+**Starting Position**: [[Positions/Overhook Control]] · **From**: [[Positions/Overhook Control]] (Top)
 
 </section>
 
@@ -241,24 +239,15 @@ Finishing the Kimura from overhook control often requires different body mechani
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Kimura]]
 - [[Submissions/Americana]]
 - [[Transitions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
 - [[Transitions/Arm Triangle]]
 - [[Submissions/Reverse Kimura]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Overhook Control]] - Starting position for this submission variant
 - [[Positions/Kimura Trap]] - Control position accessed when Kimura grip is partially locked
 - [[Positions/Back Control]] - Alternative positional target when Kimura defense is strong
@@ -266,17 +255,50 @@ Finishing the Kimura from overhook control often requires different body mechani
 - [[Positions/Overhook Guard]] - Bottom position counterpart using same overhook mechanics
 - [[Positions/Half Guard]] - Common guard position where top overhook Kimura is available
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) | High | 3-9 months with potential surgery requirement |
+| Shoulder capsule damage and dislocation | CRITICAL | 6-12 months, may require surgical repair |
+| Labral tear (glenoid labrum) | High | 4-8 months, often requires arthroscopic surgery |
+| Bicep tendon strain or rupture | Medium | 6-12 weeks for strain, 3-6 months for rupture |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training, allowing partner time to recognize danger and tap
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or making any verbal distress sound)
+- Physical hand tap (multiple taps with free hand)
+- Physical foot tap (multiple taps with either foot)
+- Any distress signal including screaming or unusual sounds
+
+
+**Release Protocol**:
+1. Immediately stop all rotational pressure the instant tap is felt or heard
+2. Return the arm toward neutral position (externally rotate back to starting position)
+3. Release the figure-four grip completely
+4. Allow partner to self-assess shoulder mobility before continuing
+5. Never release suddenly or allow arm to spring back forcefully
+
+
+**Training Restrictions**:
+- Never spike or jerk the submission - rotation must be smooth and controlled
+- Never use competition speed or surprise attacks in training
+- Always ensure partner has at least one hand free to tap
+- Do not apply while partner is in awkward body position that prevents tapping
+- Never combine with weight pressure that restricts breathing while finishing
+- Respect immediate taps without testing partner's pain tolerance
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Kimura from Overhook Control leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

@@ -152,7 +152,7 @@ Defending the triangle choke finish from triangle control is one of the most urg
 
 Systematic defense requires addressing multiple threats simultaneously rather than fighting any single element in isolation. The defender must work to square up against the attacker's angle to reduce choking efficiency, prevent the trapped arm from being pulled across the neck, and recover upright posture to create space. Every second counts in this position, and the defender must balance urgency with technical precision—panicked, explosive movements typically worsen the position by creating space that the attacker uses to tighten the lock further.
 
-**Opponent's Starting Position**: [[Positions/Triangle Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Triangle Control]] (Top)
 
 
 </section>

@@ -10,6 +10,41 @@ description: "Master Mission Control in BJJ: the dominant rubber guard control p
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Mission Control",
+  "description": "Master Mission Control in BJJ: the dominant rubber guard control position. Learn high guard mechanics, shoulder isolation, setup requirements, and direct paths to triangle chokes and omoplatas with expert analysis.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Mission Control", "item": "https://bjjgraph.org/Positions/Mission-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Mission Control",
+  "description": "Mission Control is the cornerstone control of the 10th Planet rubber guard, established from the bottom by trapping the opponent's head and one shoulder beneath a high-guard leg to break their posture and open triangle, omoplata, and gogoplata attacks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Mission Control in BJJ: the dominant rubber guard control p
 </div>
 
 <section id="overview" class="content-section">
+
+**Mission Control is the cornerstone control of the 10th Planet rubber guard, established from the bottom by trapping the opponent's head and one shoulder beneath a high-guard leg to break their posture and open triangle, omoplata, and gogoplata attacks.**
 
 Mission Control is the foundational control position within 10th Planet's rubber guard system, representing the critical transitional state between basic high guard and the offensive attacks that define 10th Planet Jiu-Jitsu. From the bottom of closed guard, Mission Control is achieved when the practitioner establishes a high guard with one leg controlling the opponent's shoulder while maintaining strong grips on the opponent's head and arm. This position is characterized by extreme hip elevation, shoulder isolation, and the ability to break down the opponent's posture completely.
 
@@ -104,13 +141,15 @@ Mission Control serves as the central hub of the rubber guard system, connecting
 ### Available Transitions
 
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (15% of attempts)
+- **[[Transitions/Triangle from Guard/Attacker|Triangle from Guard]]** (11% of attempts)
 
-- **[[Transitions/Omoplata to Sweep/Attacker|Omoplata to Sweep]]** (12% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (11% of attempts)
 
-- **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (12% of attempts)
+- **[[Transitions/Omoplata to Sweep/Attacker|Omoplata to Sweep]]** (10% of attempts)
 
-- **[[Transitions/Closed Guard to Triangle/Attacker|Closed Guard to Triangle]]** (14% of attempts)
+- **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (9% of attempts)
+
+- **[[Transitions/Closed Guard to Triangle/Attacker|Closed Guard to Triangle]]** (9% of attempts)
 
 - **[[Transitions/Gogoplata/Attacker|Gogoplata]]** (10% of attempts)
 
@@ -121,6 +160,8 @@ Mission Control serves as the central hub of the rubber guard system, connecting
 - **[[Transitions/Progression to Zombie/Attacker|Progression to Zombie]]** (8% of attempts)
 
 - **[[Transitions/Advance to Chill Dog/Attacker|Advance to Chill Dog]]** (9% of attempts)
+
+- **[[Belly Down Armbar from Mission Control/Attacker|Belly Down Armbar from Mission Control]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -264,6 +305,20 @@ Mission Control serves as the central hub of the rubber guard system, connecting
 
 - **[[Positions/Rubber Guard/Zombie]]** - Advanced variation - transition when opponent attempts to stack
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Twister-System" data-cta="related-system-card" data-system-slug="systems/twister-system" data-system-name="Twister System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Twister System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Related 10th Planet position that can transition to similar attacking sequences</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/10th-Planet-No-Gi-Guard-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-no-gi-guard-system" data-system-name="10th Planet No-Gi Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">10th Planet No-Gi Guard System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Foundational rubber guard control position</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/10th-Planet-Rubber-Guard-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-rubber-guard-system" data-system-name="10th Planet Rubber Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">10th Planet Rubber Guard System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Core control position and entry point to the system</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Rubber-Guard-to-Omoplata-System" data-cta="related-system-card" data-system-slug="systems/rubber-guard-to-omoplata-system" data-system-name="Rubber Guard to Omoplata System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Rubber Guard to Omoplata System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Primary control position in system progression</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Rubber-Guard-to-Triangle-System" data-cta="related-system-card" data-system-slug="systems/rubber-guard-to-triangle-system" data-system-name="Rubber Guard to Triangle System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Rubber Guard to Triangle System</span><span class="system-card__unlocks-badge">Unlocks 22 techniques</span><span class="system-card__blurb">Critical checkpoint position for arm isolation and angle creation</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

@@ -16,7 +16,7 @@ description: "How to execute Chair Sit to Back in BJJ. Attacking perspective wit
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Chair Sit to Back in BJJ",
-  "description": "Step-by-step guide for executing Chair Sit to Back from Matrix/Bottom.",
+  "description": "Step-by-step guide for executing Chair Sit to Back from Turtle/Top.",
   "step": [
     {
       "@type": "HowToStep",
@@ -186,7 +186,7 @@ description: "How to execute Chair Sit to Back in BJJ. Attacking perspective wit
 
 The Chair Sit to Back Take is a systematic transition from attacking turtle position to establishing dominant back control. The technique exploits the opponent's defensive turtle posture by controlling their hips and preventing forward movement while you climb onto their back through a controlled intermediate position. The chair sit creates a mechanical barrier with your leg across the opponent's thigh, preventing them from turning into you while you establish the seatbelt grip. This intermediate control station is what separates the chair sit from direct back climbing attempts that often fail against experienced defenders. The technique requires precise hip positioning, weight distribution, and grip sequencing to prevent common defensive reactions such as rolling or sitting through. When executed correctly, the chair sit creates a near-inescapable funnel toward back control or truck position.
 
-**From Position**: [[Positions/Matrix]] (Bottom)
+**From Position**: [[Positions/Turtle]] (Top)
 
 </section>
 
@@ -350,6 +350,17 @@ Apply chair sit to back take during positional sparring starting from turtle. In
 <p class="section-subtitle">What are the safety concerns for Chair Sit to Back?</p>
 
 Chair sit to back take is generally a low-risk technique when practiced correctly, but practitioners should be aware of potential knee stress on the blocking leg. Avoid forcing your blocking leg position if the opponent is much larger or driving significant pressure into your shin, as this can cause knee ligament strain. When your training partner is transitioning to your back from chair sit, avoid explosive rolling movements backward, as this can injure their posted leg or torque their knee. During drilling, communicate clearly if hip or shoulder pressure becomes uncomfortable during the structure-breaking phase. For practitioners with previous knee injuries, consider using alternative back take methods that do not require the shin-across-thigh blocking position. Always tap early if caught in any submission during failed back take attempts, and respect your partner's tap immediately when practicing from the attacking side.
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Danaher Straight Jacket System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Technical entry method from turtle position to back mount using chair sit mechanics</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Back-Attack-System" data-cta="related-system-card" data-system-slug="systems/back-attack-system" data-system-name="Back Attack System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Back Attack System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Fundamental entry from turtle position to back control</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

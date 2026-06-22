@@ -21,7 +21,7 @@ description: "Master bottom butterfly half guard - hybrid position combining but
     {
       "@type": "HowToStep",
       "name": "Execute 100% Sweep",
-      "text": "From this position, attempt 100% Sweep. This technique is attempted in 33% of exchanges from this position.",
+      "text": "From this position, attempt 100% Sweep. This technique is attempted in 36% of exchanges from this position.",
       "position": 1
     },
     {
@@ -33,7 +33,7 @@ description: "Master bottom butterfly half guard - hybrid position combining but
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Sweep",
-      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 8% of exchanges from this position.",
       "position": 3
     },
     {
@@ -233,7 +233,6 @@ Success in butterfly half guard bottom requires mastering several key technical 
 
 **If opponent stands tall or attempts to step over the trapped leg creating vertical posture:**
 - Execute **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
-- Execute **[[Transitions/Knee Tap/Attacker|Knee Tap]]** → [[Positions/Standing Position]] (Probability: 50%)
 - Execute **[[Transitions/Butterfly Guard to X-Guard/Attacker|Butterfly Guard to X-Guard]]** → [[Positions/X-Guard]] (Probability: 60%)
 
 
@@ -375,6 +374,16 @@ Isolated drill focusing exclusively on hip angle adjustments to optimize sweep m
 - **[[Transitions/Underhook Sweep from Half]]** - Related sweep technique sharing underhook mechanics from half guard
 - **[[Transitions/Waiter Sweep]]** - Alternative sweep option when opponent establishes strong shoulder pressure
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/10th-Planet-Half-Guard-Bottom-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-half-guard-bottom-system" data-system-name="10th Planet Half Guard Bottom System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">10th Planet Half Guard Bottom System</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Related hybrid bottom configuration that feeds the underhook and elevation game</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

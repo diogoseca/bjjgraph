@@ -10,6 +10,41 @@ description: "Master the Baratoplata Setup from Meathook. Step-by-step shoulder 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Baratoplata Setup",
+  "description": "Master the Baratoplata Setup from Meathook. Step-by-step shoulder lock entry using shin control and figure-four grip for rotational shoulder attack.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Baratoplata Setup", "item": "https://bjjgraph.org/Transitions/Baratoplata-Setup" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Baratoplata Setup",
+  "description": "The Baratoplata Setup is a rotational shoulder-lock entry from the Meathook position that threads the attacker's arm through the opponent's isolated limb to build a figure-four grip, attacking the shoulder through internal rotation rather than the elbow.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,6 +57,8 @@ description: "Master the Baratoplata Setup from Meathook. Step-by-step shoulder 
 
 <section id="overview" class="content-section">
 
+**The Baratoplata Setup is a rotational shoulder-lock entry from the Meathook position that threads the attacker's arm through the opponent's isolated limb to build a figure-four grip, attacking the shoulder through internal rotation rather than the elbow.**
+
 The Baratoplata Setup is an advanced shoulder lock entry that capitalizes on the arm isolation inherent in the Meathook position. This technique transforms the Meathook's control advantage into a devastating rotational shoulder attack by threading your arm through the opponent's trapped limb and creating a figure-four configuration that attacks the shoulder joint through internal rotation.
 
 Strategically, the Baratoplata Setup exploits the fundamental weakness of Meathook escape attempts. When opponents try to extract their trapped arm by pulling backward or rotating, they inadvertently create the space and angle needed for the Baratoplata entry. This makes the technique particularly effective as a secondary attack when primary options like the Gogoplata or Triangle are defended. The setup essentially punishes the escape attempt that most opponents instinctively choose.
@@ -29,7 +66,7 @@ Strategically, the Baratoplata Setup exploits the fundamental weakness of Meatho
 The technique requires precise timing and mechanical understanding. Unlike straight armlocks that attack the elbow through hyperextension, the Baratoplata attacks the shoulder through internal rotation combined with extension. This creates a submission that is difficult to defend through strength alone, as the rotational component bypasses the larger muscle groups that typically protect against arm attacks. For purple and brown belt practitioners, the Baratoplata represents an evolution beyond basic Rubber Guard attacks into the system's deeper submission chains.
 
 **From Position**: [[Positions/Rubber Guard/Meathook]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 50%
 
 </section>
 
@@ -39,9 +76,10 @@ The technique requires precise timing and mechanical understanding. Unlike strai
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Armbar Control]] | 55% |
-| Failure | [[Positions/Rubber Guard/Meathook]] | 30% |
-| Counter | [[Positions/Closed Guard]] | 15% |
+| Success | [[Submissions/Baratoplata]] | 50% |
+| Failure | [[Positions/Rubber Guard/Meathook]] | 25% |
+| Counter | [[Positions/Armbar Control]] | 15% |
+| Counter | [[Positions/Closed Guard]] | 10% |
 
 
 </section>
@@ -200,7 +238,7 @@ The Baratoplata Setup represents the third layer of the Meathook attack system w
 
 - [[Transitions/Armbar on Free Arm]] - Alternative armbar attack from Meathook when opponent straightens arm to defend figure-four
 
-- [[Positions/Armbar Control]] - Success outcome position where figure-four shoulder lock is secured
+- [[Positions/Armbar Control]] - Counter outcome from the bottom when opponent straightens the arm and you flow to a guard armbar
 
 - [[Positions/Gogoplata Control]] - Alternative attack when opponent stacks forward into Meathook
 
@@ -214,5 +252,7 @@ The Baratoplata Setup represents the third layer of the Meathook attack system w
 
 
 </section>
+
+
 
 </main>

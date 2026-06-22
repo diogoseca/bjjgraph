@@ -10,10 +10,55 @@ description: "Master the Kneebar from Half Guard in BJJ. Complete guide covering
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Kneebar from Half Guard targets the Knee joint and posterior cruciate ligament. Risk: Posterior cruciate ligament (PCL) tear. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kneebar from Half Guard",
+  "description": "Master the Kneebar from Half Guard in BJJ. Complete guide covering setup, execution, defense, and safety protocols for this powerful leg lock submission.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Kneebar from Half Guard", "item": "https://bjjgraph.org/Submissions/Kneebar-from-Half-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kneebar from Half Guard",
+  "description": "The Kneebar from Half Guard is a leg-lock submission where the bottom player isolates the opponent's trapped leg and arches the hips against the back of the knee to hyperextend the joint until they tap.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Kneebar from Half Guard is a leg-lock submission where the bottom player isolates the opponent's trapped leg and arches the hips against the back of the knee to hyperextend the joint until they tap.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Leg Lock</span>
+<span class="meta-chip">Targets Knee joint and posterior cruciate ligament</span>
+<span class="meta-chip">60% success</span>
+</div>
+
+> [!danger] Safety
+> Kneebar from Half Guard targets the Knee joint and posterior cruciate ligament. Primary risk: Posterior cruciate ligament (PCL) tear. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -26,52 +71,7 @@ description: "Master the Kneebar from Half Guard in BJJ. Complete guide covering
 
 The Kneebar from Half Guard represents a powerful offensive submission option that capitalizes on the leg entanglement inherent to the half guard position. This technique targets the knee joint through hyperextension, creating mechanical stress on the posterior cruciate ligament, patellar tendon, and surrounding connective tissue. From bottom half guard, the practitioner transitions from controlling the opponent's upper body to attacking their trapped leg, using the half guard structure to prevent escape while isolating the limb. The position offers unique strategic advantages: the opponent's weight is often committed forward, their leg is already partially controlled by your lockdown or hooks, and defensive hand fighting is complicated by the need to maintain base. This creates a high-percentage finishing opportunity when proper mechanics are applied. The technique requires precise technical execution—controlling the opponent's hip to prevent rotation, achieving proper leg extension across the knee joint, and maintaining connection throughout the finish. Modern leg lock systems have elevated this submission from a surprise attack to a fundamental component of bottom half guard offense, particularly in no-gi grappling where the absence of gi grips makes leg attacks more viable.
 
-**Category**: Joint Lock
-**Type**: Leg Lock
-**Target Area**: Knee joint and posterior cruciate ligament
-**Starting Position**: [[Positions/Half Guard]]
-**From Position**: [[Positions/Half Guard]] (Bottom)
-**Success Rate**: 60%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Posterior cruciate ligament (PCL) tear | High | 6-12 months with surgery |
-| Medial collateral ligament (MCL) damage | Medium | 4-8 weeks |
-| Patellar tendon strain or rupture | High | 3-6 months |
-| Meniscus tear | Medium | 6-12 weeks, may require surgery |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum with constant communication
-
-**Tap Signals**:
-- Verbal tap (loudly say 'tap' or 'stop')
-- Physical hand tap on partner or mat
-- Physical foot tap on mat
-- Any distress vocalization or signal
-
-
-**Release Protocol**:
-1. Immediately release hip extension and stop arching back
-2. Return leg to neutral position without jerking
-3. Release all leg controls and allow partner to extract their leg
-4. Check with partner verbally before resuming training
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission—apply smooth, progressive pressure only
-- Never use competition speed in training—always give partner minimum 3-5 seconds to tap
-- Always maintain communication and watch for tap signals
-- Never practice on partners with existing knee injuries without explicit permission
-- Lower belts should only practice under supervision with experienced partners
-
+**Starting Position**: [[Positions/Half Guard]] · **From**: [[Positions/Half Guard]] (Bottom)
 
 </section>
 
@@ -235,24 +235,15 @@ The Kneebar from Half Guard represents a powerful offensive submission option th
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Inside Heel Hook]]
 - [[Transitions/Heel Hook]]
 - [[Submissions/Achilles Lock]]
 - [[Submissions/Calf Slicer]]
 - [[Submissions/Banana Split]]
 - [[Transitions/Estima Lock]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Half Guard]] - Primary starting position for this submission—understanding half guard structure and controls is prerequisite
 - [[Transitions/Old School Sweep]] - Complementary technique from half guard that creates kneebar opportunity when defended
 - [[Positions/Half Guard/Lockdown]] - Leg entanglement that enhances control during transition to kneebar position
@@ -263,17 +254,48 @@ The Kneebar from Half Guard represents a powerful offensive submission option th
 - [[Positions/Kneebar Control]] - Control position that precedes the finish when kneebar is not immediately available
 - [[Positions/Half Guard/Deep Half Guard]] - Alternative half guard position with direct rolling kneebar entry
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Posterior cruciate ligament (PCL) tear | High | 6-12 months with surgery |
+| Medial collateral ligament (MCL) damage | Medium | 4-8 weeks |
+| Patellar tendon strain or rupture | High | 3-6 months |
+| Meniscus tear | Medium | 6-12 weeks, may require surgery |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum with constant communication
+
+**Tap Signals**:
+- Verbal tap (loudly say 'tap' or 'stop')
+- Physical hand tap on partner or mat
+- Physical foot tap on mat
+- Any distress vocalization or signal
+
+
+**Release Protocol**:
+1. Immediately release hip extension and stop arching back
+2. Return leg to neutral position without jerking
+3. Release all leg controls and allow partner to extract their leg
+4. Check with partner verbally before resuming training
+
+
+**Training Restrictions**:
+- Never spike or jerk the submission—apply smooth, progressive pressure only
+- Never use competition speed in training—always give partner minimum 3-5 seconds to tap
+- Always maintain communication and watch for tap signals
+- Never practice on partners with existing knee injuries without explicit permission
+- Lower belts should only practice under supervision with experienced partners
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Kneebar from Half Guard leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

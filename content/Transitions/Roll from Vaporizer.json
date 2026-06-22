@@ -1,5 +1,6 @@
 {
   "name": "Roll from Vaporizer",
+  "summary": "The Roll from Vaporizer is a 10th Planet transition where the bottom player releases the lockdown and forward-rolls underneath a defending opponent to reach an active turtle, keeping the back-attack chain alive toward truck and crab ride.",
   "description": "Master the Roll from Vaporizer transition in BJJ. Complete guide to this lockdown-to-turtle technique with steps, timing, counters, and offensive chain attacks.",
   "tags": [
     "bjj",
@@ -257,6 +258,14 @@
       {
         "question": "What is the optimal timing window for initiating the roll?",
         "answer": "The optimal window is when the opponent shifts their weight forward or laterally in response to your Vaporizer whip-up pressure. Specifically, the moment after they counter your whip-up by driving forward is ideal because their forward momentum assists your rotation rather than opposing it. Avoid rolling when the opponent is sitting back on their heels or has established a wide settled base, as their anchored weight makes generating sufficient rotational momentum significantly harder and increases the probability of the roll stalling mid-transition."
+      },
+      {
+        "question": "In which direction should you generate force during the roll, and why does pulling straight back fail?",
+        "answer": "Drive your hips forward and spiral underneath the opponent in the direction your underhook is pulling, threading yourself under their center of mass in a tight diagonal rather than a backward or wide looping arc. Pulling straight back opens the exact space the opponent passes into and disconnects your underhook, leaving you flattened. The force must rotate you under them so the wrapping underhook tightens through the turn instead of peeling off, carrying both bodies into the turtle rather than separating them."
+      },
+      {
+        "question": "Which entry condition is most often ignored, causing the roll to stall mid-transition?",
+        "answer": "Attempting the roll while the opponent's weight is settled directly downward on a wide, stable base. Without their weight shifted forward or laterally first, you cannot generate the rotational momentum needed to thread underneath them, and you stall in the exposed intermediate position where neither the lockdown nor the turtle base protects you. Feint an Electric Chair split or a hard whip-up to bait their weight forward, then commit to the roll the instant their base narrows or their weight tips off-center."
       }
     ],
     "safety_considerations": "The Roll from Vaporizer involves transitioning through positions where the neck and spine are loaded during the rolling motion. Always tuck the chin firmly to the chest throughout the roll to protect cervical vertebrae from compression. Generate rotation from the hips and core rather than using explosive neck-driven movements. When drilling, start slowly and increase speed only after the rolling mechanics are comfortable and reliable. Be aware of the opponent's weight distribution during the roll—if they drive downward aggressively, the combination of their weight and your rotation can compress the spine. Tap immediately if you feel any neck compression or twisting sensation during the transition. Training partners should avoid spiking or driving forcefully through the roll attempt."

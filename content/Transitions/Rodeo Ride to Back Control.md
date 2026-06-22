@@ -10,6 +10,41 @@ description: "Master the Rodeo Ride to Back Control transition in BJJ. Learn hoo
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Rodeo Ride to Back Control",
+  "description": "Master the Rodeo Ride to Back Control transition in BJJ. Learn hook insertion, seat belt mechanics, and systematic back take techniques from turtle top.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Rodeo Ride to Back Control", "item": "https://bjjgraph.org/Transitions/Rodeo-Ride-to-Back-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Rodeo Ride to Back Control",
+  "description": "Rodeo Ride to Back Control is a turtle-attack transition in which the top player converts dynamic riding pressure into full back control by sequentially inserting both hooks and locking a seat belt grip behind a turtled opponent.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Rodeo Ride to Back Control transition in BJJ. Learn hoo
 
 <section id="overview" class="content-section">
 
-The Rodeo Ride to Back Control transition is the primary positional advancement pathway from dynamic turtle control to the most dominant position in Brazilian Jiu-Jitsu. This technique systematically converts the unstable, movement-based Rodeo Ride into full back control by inserting hooks and establishing seat belt grip behind a turtled opponent. The transition demands precise timing and continuous weight management because the attacker must shift from perpendicular pressure to parallel chest-to-back alignment without creating enough space for the bottom player to escape through granby rolls, sit-backs, or standing attempts.
+**Rodeo Ride to Back Control is a turtle-attack transition in which the top player converts dynamic riding pressure into full back control by sequentially inserting both hooks and locking a seat belt grip behind a turtled opponent.**
+
+As the primary positional advancement pathway out of dynamic turtle control, this transition is what turns a riding scramble into the sport's most dominant position. It demands precise timing and continuous weight management because the attacker must shift from perpendicular pressure to parallel chest-to-back alignment without creating enough space for the bottom player to escape through granby rolls, sit-backs, or standing attempts.
 
 Strategically, this transition exploits a fundamental defensive dilemma in turtle position: the opponent cannot simultaneously defend near-arm control, prevent hook insertion, and protect against choke entries. When the attacker threatens the near arm, the opponent must prioritize which threat to address, and each defensive choice opens a different attacking pathway. This makes the Rodeo Ride to Back Control transition most effective when integrated into a broader turtle attack system that includes clock choke threats, crucifix entries, and crab ride transitions, as failed attacks from these positions frequently create the openings needed for hook insertion.
 
@@ -226,5 +263,7 @@ The Rodeo Ride to Back Control transition is the critical link between the turtl
 
 
 </section>
+
+
 
 </main>

@@ -140,10 +140,23 @@ description: "Master Marcelo Garcia's X-Guard System. Complete framework from en
 }
 </script>
 
-> Marcelo Garcia X-Guard System is a advanced difficulty Guard System system. Integrates 6 components.
 
-**System Type**: Guard System
-**Difficulty Level**: Advanced
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Marcelo Garcia X-Guard System",
+  "description": "The Marcelo Garcia X-Guard System is a competition-proven guard framework that uses deep leg-hook elevation and off-balancing from underneath the opponent to chain sweeps, back takes, and submissions into interconnected dilemmas.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Guard System</span>
+<span class="meta-chip">Advanced difficulty</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -152,7 +165,53 @@ description: "Master Marcelo Garcia's X-Guard System. Complete framework from en
 
 ## What is Marcelo Garcia X-Guard System?
 
+**The Marcelo Garcia X-Guard System is a competition-proven guard framework that uses deep leg-hook elevation and off-balancing from underneath the opponent to chain sweeps, back takes, and submissions into interconnected dilemmas.**
+
 Marcelo Garcia's X-Guard System represents one of the most dominant guard frameworks in modern Brazilian Jiu-Jitsu. This systematic approach transforms the X-Guard from a single position into a comprehensive attacking platform that seamlessly connects entries, sweeps, back takes, and submissions. Unlike traditional guards that rely on grips and frames, the X-Guard uses precise leg positioning and weight distribution to create mechanical advantages that work against opponents of any size. The system's genius lies in its interconnected nature - every defensive response from the opponent opens a new attacking opportunity, creating the dilemmas that define high-level guard play. Marcelo refined this system through years of competition at the highest levels, developing entry sequences from standing, seated, and butterfly positions that flow naturally into powerful sweeping mechanics. The X-Guard's core principle of elevating and off-balancing the opponent while maintaining control through leg hooks creates opportunities for both sweeps and transitions to more dominant positions like the back or mount.
+
+</section>
+
+
+
+<section id="unlock-this-system" class="content-section product-cards">
+
+## Unlock This System
+
+<p class="section-subtitle">Go deeper with the instructional that built this system.</p>
+
+<div class="product-cards-grid">
+
+<article class="product-card" data-product-id="marcelo-garcia-x-guard-formula">
+<div class="product-card__holo" aria-hidden="true"></div>
+<div class="product-card__shine" aria-hidden="true"></div>
+<div class="product-card__cover"><img src="https://placehold.co/640x360/1e293b/ffffff?text=The+X-Guard+Formula" alt="The X-Guard Formula" loading="lazy" width="640" height="360" /><span class="product-card__vendor-badge">BJJFanatics</span></div>
+<div class="product-card__body">
+<h3 class="product-card__title">The X-Guard Formula</h3>
+<p class="product-card__instructor">with Marcelo Garcia</p>
+<span class="product-card__unlocks-badge">Unlocks 23 techniques in this system</span>
+<p class="product-card__blurb">The X-Guard from its creator — entries, sweeps, and back takes that work against bigger, stronger opponents.</p>
+</div>
+<a class="product-card__cta affiliate-link" href="https://bjjfanatics.com/products/the-x-guard-formula-by-marcelo-garcia?ref=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=marcelo-garcia-x-guard-system&utm_term=marcelo-garcia-x-guard-formula" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="marcelo-garcia-x-guard-formula" data-system-slug="systems/marcelo-garcia-x-guard-system" data-system-name="Marcelo Garcia X-Guard System" data-vendor="bjjfanatics" data-position="0">Get it &middot; $87 <span class="product-card__cta-arrow" aria-hidden="true">&#8594;</span></a>
+</article>
+
+</div>
+
+</section>
+
+
+<section id="unlock-graph" class="content-section system-unlock" data-system-unlock hidden>
+
+## Unlock this part of the graph
+
+<p class="section-subtitle">This system teaches the highlighted nodes in the graph. Mark what you already know &mdash; be honest, it's your game.</p>
+
+<div class="system-progress" data-system-progress>
+<svg class="system-progress__ring" viewBox="0 0 44 44" aria-hidden="true"><circle class="system-progress__ring-bg" cx="22" cy="22" r="19"></circle><circle class="system-progress__ring-fill" cx="22" cy="22" r="19"></circle></svg>
+<div class="system-progress__text">You've unlocked <strong class="system-progress__known">0</strong> / <span class="system-progress__total">0</span> techniques in this system</div>
+<button class="system-progress__mark-all" data-mark-system type="button">Mark whole system as known</button>
+</div>
+
+<ul class="system-members" data-system-members></ul>
 
 </section>
 

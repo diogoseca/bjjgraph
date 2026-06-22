@@ -19,6 +19,7 @@
   "starting_position": "Backside 50-50",
   "from_position": "Backside 50-50/Top",
   "success_rate": 60,
+  "summary": "The toe hold from Backside 50-50 is a rotational foot lock where the top player figure-fours the opponent's trapped toes and twists inward, attacking the ankle and midfoot while chest-to-back pressure prevents escape.",
   "overview": "The toe hold from Backside 50-50 exploits the dominant chest-to-back pressure inherent in this leg entanglement configuration to attack the opponent's ankle and foot complex through controlled rotational force. Unlike toe holds attempted from symmetrical 50-50 or standard ashi garami positions, the backside angle provides the attacker with superior visual access to the target foot, unimpeded grip acquisition, and the ability to maintain heavy top pressure throughout the finishing sequence. This combination of advantages makes the backside 50-50 toe hold one of the highest-percentage foot lock finishes available in modern leg lock systems.\n\nThe submission works by securing a figure-four grip around the opponent's toes and ball of foot, then applying gradual rotational torque that attacks the ankle ligaments, midfoot joints, and toe structures simultaneously. The backside angle creates a natural wedge between the attacker's torso and the trapped foot, preventing the common defensive response of straightening the leg to relieve pressure. When the opponent defends heel hook attempts by hiding their heel and curling their foot, they inadvertently expose the ball of the foot for the toe hold, creating a natural offensive chain between the two submissions.\n\nIn competition, the toe hold from Backside 50-50 serves as both a primary finishing tool and a strategic complement to heel hook attacks. Practitioners who develop proficiency with both submissions from this position force opponents into a defensive dilemma: protecting the heel exposes the toes, and protecting the toes opens the heel. This dual-threat system, combined with the ever-present possibility of abandoning legs entirely for back control, makes the Backside 50-50 top position one of the most dangerous attacking platforms in submission grappling.",
   "safety_considerations": {
     "injury_risks": [
@@ -79,7 +80,7 @@
   "related_submissions": [
     "Heel Hook",
     "Inside Heel Hook",
-    "Estima Lock Control",
+    "Estima Lock",
     "Calf Slicer",
     "Achilles Lock"
   ],
@@ -127,7 +128,7 @@
     }
   ],
   "attacker": {
-    "name": "from Backside 50-50 Attacker",
+    "name": "Toe Hold from Backside 50-50 Attacker",
     "description": "Attack the toe hold from Backside 50-50 with precision. Step-by-step execution guide with grip mechanics, finishing details, and responses to common counters.",
     "overview": "Attacking the toe hold from Backside 50-50 leverages your dominant chest-to-back pressure and clear visual access to the opponent's foot. The position's inherent asymmetry means your opponent cannot easily see or defend your grip placement, giving you significant mechanical advantage over standard 50-50 toe hold attempts. Success depends on maintaining heavy top pressure while precisely isolating the foot, then applying controlled rotational torque through a figure-four grip configuration that attacks the ankle ligaments and midfoot joints simultaneously. The toe hold pairs naturally with heel hook threats from this position, creating a layered offensive system where defending one attack exposes the other.",
     "key_principles": [
@@ -323,7 +324,7 @@
     ]
   },
   "defender": {
-    "name": "from Backside 50-50 Defender",
+    "name": "Toe Hold from Backside 50-50 Defender",
     "description": "Defend the toe hold from Backside 50-50 in BJJ. Recognition cues, escape paths, and defensive strategies to neutralize this dangerous leg lock attack.",
     "overview": "Defending the toe hold from Backside 50-50 requires early recognition and immediate foot management before the attacker establishes their figure-four grip. The bottom player faces compounded defensive challenges: limited visibility of the attacker's hand positioning, restricted hip mobility from chest-to-back pressure, and the constant need to balance foot defense against back control threats. Survival depends on proactive foot positioning through boot defense, aggressive grip fighting to prevent grip consolidation, and strategic hip movement to create space for leg extraction or transition to a more neutral entanglement. The window for effective defense narrows rapidly once the figure-four is locked, making early recognition the most critical defensive skill.",
     "key_principles": [

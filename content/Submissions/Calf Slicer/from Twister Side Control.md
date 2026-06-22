@@ -10,10 +10,55 @@ description: "Learn the calf slicer from twister side control with expert finish
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Calf Slicer from Twister Side Control targets the Calf muscle and Achilles tendon. Risk: Calf muscle tear or rupture. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Calf Slicer from Twister Side Control",
+  "description": "Learn the calf slicer from twister side control with expert finishing mechanics, defensive strategies, and safety protocols for advanced BJJ practitioners.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Calf Slicer from Twister Side Control", "item": "https://bjjgraph.org/Submissions/Calf-Slicer-from-Twister-Side-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Calf Slicer from Twister Side Control",
+  "description": "The calf slicer from twister side control is a leg compression submission that exploits the 10th Planet position's leg entanglement, threading the shin behind the opponent's knee and folding the foot toward the buttocks to compress the calf and stretch the Achilles tendon.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The calf slicer from twister side control is a leg compression submission that exploits the 10th Planet position's leg entanglement, threading the shin behind the opponent's knee and folding the foot toward the buttocks to compress the calf and stretch the Achilles tendon.**
+<div class="principle-meta">
+<span class="meta-chip">Compression</span>
+<span class="meta-chip">Leg Compression</span>
+<span class="meta-chip">Targets Calf muscle and Achilles tendon</span>
+<span class="meta-chip">50% success</span>
+</div>
+
+> [!danger] Safety
+> Calf Slicer from Twister Side Control targets the Calf muscle and Achilles tendon. Primary risk: Calf muscle tear or rupture. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,55 +75,7 @@ The mechanics center on threading the attacking shin behind the opponent's knee 
 
 This submission functions as a potent secondary threat within the twister side control attack system, typically arising when the primary twister finish is defended or when the existing leg entanglement naturally creates the pathway to the calf. Opponents focused on defending spinal attacks frequently leave their legs vulnerable, making the calf slicer an effective chain submission that punishes tunnel-vision defense and creates the multi-level attack dilemmas that define high-level twister side control offense.
 
-**Category**: Compression
-**Type**: Leg Compression
-**Target Area**: Calf muscle and Achilles tendon
-**Starting Position**: [[Positions/Twister Control/Twister Side Control]]
-**From Position**: [[Positions/Twister Control/Twister Side Control]] (Top)
-**Success Rate**: 50%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Calf muscle tear or rupture | High | 6-12 weeks minimum, potential permanent damage |
-| Achilles tendon strain or rupture | CRITICAL | 6-12 months, often requires surgery |
-| Nerve damage to peroneal or tibial nerves | High | Weeks to months, potential permanent numbness |
-| Deep tissue bruising and compartment syndrome | Medium | 2-4 weeks, rare cases require emergency surgery |
-
-
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum in training, never spike or jerk the compression
-
-**Tap Signals**:
-- Verbal tap strongly encouraged due to leg entanglement limiting hand access
-- Physical hand tap on partner or mat with either hand
-- Physical foot tap if both hands are trapped in the entanglement
-- Any distress vocalization or pain signal treated as immediate tap
-- Slapping mat repeatedly with free hand
-
-
-**Release Protocol**:
-1. Immediately release foot grip and stop all hip drive upon any tap signal
-2. Remove shin pressure from behind the knee slowly and in controlled fashion
-3. Unwrap legs carefully without jerking or twisting movements
-4. Allow partner to fully extend their leg naturally before disengaging
-5. Check partner's calf mobility and sensation before continuing training
-
-
-**Training Restrictions**:
-- Never apply at competition speed in training — always use slow, controlled compression
-- Never spike or jerk the fold — the Achilles tendon can rupture with sudden force
-- Never hold after tap to practice finishing position
-- Always ensure partner has at least one hand free to tap
-- Prohibited for colored belts below brown belt in most IBJJF-affiliated organizations
-- Never practice on partners with previous calf or Achilles injuries without explicit consent
-
+**Starting Position**: [[Positions/Twister Control/Twister Side Control]] · **From**: [[Positions/Twister Control/Twister Side Control]] (Top)
 
 </section>
 
@@ -240,41 +237,64 @@ This submission functions as a potent secondary threat within the twister side c
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Calf Slicer]]
 - [[Submissions/Banana Split]]
 - [[Positions/Half Guard/Electric Chair]]
 - [[Submissions/Bicep Slicer]]
 - [[Positions/Aoki Lock Control]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Twister Control/Twister Side Control]] - Starting control position providing the leg entanglement foundation for this submission
 - [[Positions/Twister Control/Truck]] - Related 10th Planet position with similar leg entanglement mechanics for calf slicer entries
 - [[Positions/Twister Control]] - Parent position system within 10th Planet methodology sharing leg control principles
-- [[Submissions/Calf Slicer]] - Generic submission family this positional variant belongs to
-- [[Submissions/Banana Split]] - Alternative lower body submission accessible from similar leg entanglement positions
 - [[Positions/Back Control]] - Positional alternative when calf slicer attempt fails and opponent exposes their back
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Calf muscle tear or rupture | High | 6-12 weeks minimum, potential permanent damage |
+| Achilles tendon strain or rupture | CRITICAL | 6-12 months, often requires surgery |
+| Nerve damage to peroneal or tibial nerves | High | Weeks to months, potential permanent numbness |
+| Deep tissue bruising and compartment syndrome | Medium | 2-4 weeks, rare cases require emergency surgery |
+
+
+**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum in training, never spike or jerk the compression
+
+**Tap Signals**:
+- Verbal tap strongly encouraged due to leg entanglement limiting hand access
+- Physical hand tap on partner or mat with either hand
+- Physical foot tap if both hands are trapped in the entanglement
+- Any distress vocalization or pain signal treated as immediate tap
+- Slapping mat repeatedly with free hand
+
+
+**Release Protocol**:
+1. Immediately release foot grip and stop all hip drive upon any tap signal
+2. Remove shin pressure from behind the knee slowly and in controlled fashion
+3. Unwrap legs carefully without jerking or twisting movements
+4. Allow partner to fully extend their leg naturally before disengaging
+5. Check partner's calf mobility and sensation before continuing training
+
+
+**Training Restrictions**:
+- Never apply at competition speed in training — always use slow, controlled compression
+- Never spike or jerk the fold — the Achilles tendon can rupture with sudden force
+- Never hold after tap to practice finishing position
+- Always ensure partner has at least one hand free to tap
+- Prohibited for colored belts below brown belt in most IBJJF-affiliated organizations
+- Never practice on partners with previous calf or Achilles injuries without explicit consent
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Calf Slicer from Twister Side Control leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

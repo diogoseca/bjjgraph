@@ -10,6 +10,41 @@ description: "Master Knee Shield Half Guard in BJJ. Strategic guide covering set
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Knee Shield Half Guard",
+  "description": "Master Knee Shield Half Guard in BJJ. Strategic guide covering setup, defensive retention, passing strategies, and transitions with complete bottom and top perspective analysis.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Knee Shield Half Guard", "item": "https://bjjgraph.org/Positions/Knee-Shield-Half-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Knee Shield Half Guard",
+  "description": "Knee Shield Half Guard is a half guard variation where the bottom player wedges their top-leg shin across the opponent's torso, creating distance that blocks pressure passing while opening sweeps, back takes, and guard transitions.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master Knee Shield Half Guard in BJJ. Strategic guide covering set
 
 <section id="overview" class="content-section">
 
-Knee Shield Half Guard is a fundamental variation of half guard characterized by the bottom player using their top leg's shin as a defensive frame across the opponent's torso. This creates critical distance that prevents the crushing pressure typical of traditional half guard, fundamentally altering the position's dynamics for both players. The knee shield acts as both a defensive barrier preventing the pass and an offensive launching point for sweeps, back takes, and guard transitions.
+**Knee Shield Half Guard is a half guard variation where the bottom player wedges their top-leg shin across the opponent's torso, creating distance that blocks pressure passing while opening sweeps, back takes, and guard transitions.**
+
+As a specialized expression of half guard, Knee Shield Half Guard reshapes the position by turning the bottom player's top-leg shin into a load-bearing frame against the opponent's torso. This creates critical distance that prevents the crushing pressure typical of traditional half guard, fundamentally altering the position's dynamics for both players. The knee shield acts as both a defensive barrier preventing the pass and an offensive launching point for sweeps, back takes, and guard transitions.
 
 From the bottom perspective, the knee shield provides superior defensive security compared to flat half guard while maintaining offensive capabilities. The frame prevents the top player from settling their weight and establishing dominant grips, allowing the bottom player to maintain mobility and create angles for attacks. The position requires active management—constantly adjusting shield height and angle based on opponent pressure while threatening sweeps to keep the passer defensive.
 
@@ -264,6 +301,20 @@ The knee shield half guard has become essential in modern competitive BJJ, with 
 
 - **[[Positions/Half Guard/Flattened Half Guard]]** - Degraded position when knee shield collapses under pressure
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Bernardo-Faria-Pressure-System" data-cta="related-system-card" data-system-slug="systems/bernardo-faria-pressure-system" data-system-name="Bernardo Faria Pressure System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Bernardo Faria Pressure System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Common defensive structure that system addresses with specific techniques</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Lachlan-Giles-Leg-Lock-Defense-Framework" data-cta="related-system-card" data-system-slug="systems/lachlan-giles-leg-lock-defense-framework" data-system-name="Lachlan Giles Leg Lock Defense Framework" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Lachlan Giles Leg Lock Defense Framework</span><span class="system-card__unlocks-badge">Unlocks 26 techniques</span><span class="system-card__blurb">Defensive guard structure that helps prevent initial leg entanglement entries</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Caio-Terra-Guard-Retention-System" data-cta="related-system-card" data-system-slug="systems/caio-terra-guard-retention-system" data-system-name="Caio Terra Guard Retention System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Caio Terra Guard Retention System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Half guard variation emphasizing frame-based retention with knee shield structure</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Andrew-Wiltse-Half-Guard-System" data-cta="related-system-card" data-system-slug="systems/andrew-wiltse-half-guard-system" data-system-name="Andrew Wiltse Half Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Andrew Wiltse Half Guard System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Primary positional foundation for the entire system</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Modern-No-Gi-Passing-System" data-cta="related-system-card" data-system-slug="systems/modern-no-gi-passing-system" data-system-name="Modern No-Gi Passing System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Modern No-Gi Passing System</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Common defensive structure requiring specific passing solutions</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

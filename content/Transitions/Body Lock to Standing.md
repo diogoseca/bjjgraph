@@ -10,6 +10,41 @@ description: "Master the Body Lock to Standing transition in BJJ. Complete guide
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Body Lock to Standing",
+  "description": "Master the Body Lock to Standing transition in BJJ. Complete guide to disengaging body lock control and resetting to neutral standing with proper timing.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Body Lock to Standing", "item": "https://bjjgraph.org/Transitions/Body-Lock-to-Standing" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Body Lock to Standing",
+  "description": "Body Lock to Standing is a tactical reset in which the top player in a body lock clinch deliberately swaps their locked grip for hip frames and pushes off to disengage cleanly back to neutral standing.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Body Lock to Standing transition in BJJ. Complete guide
 </div>
 
 <section id="overview" class="content-section">
+
+**Body Lock to Standing is a tactical reset in which the top player in a body lock clinch deliberately swaps their locked grip for hip frames and pushes off to disengage cleanly back to neutral standing.**
 
 The Body Lock to Standing transition represents a tactical reset from the dominant body lock clinch position back to neutral standing engagement. While body lock control provides significant offensive advantages through mat returns, throws, and back takes, situations arise where disengagement becomes the strategically superior option. This occurs when the defender has successfully neutralized all takedown attempts, when grip fatigue threatens control quality, or when competition scoring dynamics demand a positional reset to avoid stalling penalties.
 
@@ -216,5 +253,7 @@ The Body Lock to Standing transition occupies a unique position within the broad
 
 
 </section>
+
+
 
 </main>

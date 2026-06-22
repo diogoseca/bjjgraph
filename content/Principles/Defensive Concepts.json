@@ -15,6 +15,7 @@
   "application_level": "Intermediate",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
+  "summary": "Defensive Concepts are the prioritization frameworks and mental models that govern BJJ defense — ranking submission survival above positional escape, allocating energy by threat level, and progressing through staged recovery rather than panicked all-or-nothing escapes.",
   "overview": "Defensive Concepts represents the comprehensive philosophical and strategic framework that governs all defensive decision-making, prioritization, and execution in Brazilian Jiu-Jitsu. Unlike specific defensive techniques, defensive concepts constitute the overarching principles and mental models that enable practitioners to navigate defensive scenarios effectively across all positions and circumstances. This conceptual framework encompasses the hierarchical prioritization of defensive objectives, the strategic approach to resource allocation under pressure, and the psychological framework that enables calm technical execution despite being in disadvantageous positions. Defensive concepts serve as both a strategic philosophy that informs all defensive choices and a practical decision-making framework that guides technique selection and timing. The ability to internalize sound defensive concepts often determines whether a practitioner can maintain competitive viability from inferior positions or becomes overwhelmed by opponent pressure, making it one of the most sophisticated and essential conceptual elements in BJJ.",
   "key_principles": [
     "Prioritize immediate survival over position improvement when under direct submission threat",
@@ -383,6 +384,48 @@
       "name": "Escape Fundamentals",
       "content_type": "Principle",
       "relationship": "Ultimate objective of most defensive sequences, representing successful implementation of Defensive Concepts through staged progression from survival to neutral positioning"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What is the single highest priority when defending from an inferior position in BJJ?",
+      "answer": "Immediate submission survival always takes absolute priority over positional improvement; you defend the choke or joint lock first and only attempt to escape the position once the submission threat is neutralized."
+    },
+    {
+      "question": "Why is staged defensive progression more effective than attempting an immediate full escape?",
+      "answer": "Working through survive, frame, create space, then recover guard keeps you stable at each step, whereas jumping straight to a full escape removes frames and opens space the opponent can exploit to advance or submit."
+    },
+    {
+      "question": "How should you allocate energy across multiple simultaneous threats?",
+      "answer": "Rank threats hierarchically (submission first, positional advance second, minor discomfort last) and pour the bulk of your effort into the highest-priority danger instead of spreading attention thinly across all of them."
+    },
+    {
+      "question": "When is explosive effort appropriate during defense, and when is it a mistake?",
+      "answer": "Save explosive bursts for specific high-percentage escape windows; constant explosive struggling against a stable pin only burns energy, accelerates fatigue, and leads to defensive collapse before any escape succeeds."
+    },
+    {
+      "question": "What role do frames play within defensive concepts?",
+      "answer": "Frames are the structural foundation of defense — forearms, knees, and shins inserted to halt the opponent's advance and create escaping space; if frames collapse, re-establishing them takes priority over escaping."
+    },
+    {
+      "question": "Why should you maintain offensive awareness even while defending?",
+      "answer": "Opponents who overcommit to attacks expose sweeps, reversals, and submissions; a purely reactive mindset misses these counter-attack windows, so the best defense often converts an opponent's aggression into your offense."
+    },
+    {
+      "question": "What is the danger of over-investing energy to escape a non-threatening position like side control?",
+      "answer": "Positions that allow safe defensive maintenance don't demand immediate escape; exhausting yourself there leaves no reserves for defending genuine submission threats or worse positions that develop later in the match."
+    },
+    {
+      "question": "How does preventive positioning differ from reactive escaping?",
+      "answer": "Preventive positioning uses anticipatory framing and base to stop a dominant position from ever being fully established, rather than waiting until the opponent has full control and only then trying to escape reactively."
+    },
+    {
+      "question": "What distinguishes a beginner's defensive response from an expert's under heavy pressure?",
+      "answer": "Beginners panic, struggle explosively, and treat all threats as equally urgent; experts stay composed, prioritize threats accurately, progress through staged defense, and calmly exploit counter-attack opportunities."
+    },
+    {
+      "question": "Why is psychological composure considered a core defensive skill rather than just a mindset?",
+      "answer": "Calm, regulated breathing and technical focus prevent the panic responses that cause practitioners to abandon sound structure; without composure even technically capable defenders collapse under sustained pressure."
     }
   ]
 }

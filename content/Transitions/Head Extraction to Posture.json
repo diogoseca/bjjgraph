@@ -1,5 +1,6 @@
 {
   "name": "Head Extraction to Posture",
+  "summary": "Head Extraction to Posture is the systematic escape from gogoplata control in which the trapped top player loosens the foot hooked behind their head, slides their head out laterally, and rebuilds posture to return to closed guard.",
   "description": "Escape gogoplata control by extracting head and recovering posture. Step-by-step defense mechanics for systematic shin removal and posture recovery.",
   "tags": [
     "bjj",
@@ -29,7 +30,7 @@
     }
   ],
   "success_rate": 58,
-  "overview": "Head Extraction to Posture is a critical defensive transition when caught in gogoplata control. The technique addresses the unique mechanical challenge presented by the gogoplata configuration: the opponent's shin is across your throat while their foot is secured behind your head, creating a closed-loop system that prevents conventional backward escape. Understanding this geometry is essential because pulling straight back only tightens the choke.\n\nThe technique prioritizes systematic extraction over explosive movement. Rather than panicking and making random movements that typically worsen the position, the defender works through a precise sequence: first creating breathing space by turning the chin, then addressing the foot-behind-head configuration, and finally extracting the head while the opponent's structural control is compromised. This methodical approach reflects the principle that some submissions cannot be escaped through strength alone.\n\nStrategically, Head Extraction to Posture represents more than simple survival. Successfully completing this escape returns you to closed guard with posture, meaning you can immediately begin your passing sequences. The technique also teaches broader principles about defending unorthodox submissions by understanding their mechanical requirements and systematically dismantling them rather than fighting the symptoms.",
+  "overview": "When the top player is caught in gogoplata control, the situation is mechanically unlike an ordinary pin: the opponent's shin lies across your throat while their foot is secured behind your head, creating a closed-loop system that prevents conventional backward escape. Understanding this geometry is essential because pulling straight back only tightens the choke.\n\nThe technique prioritizes systematic extraction over explosive movement. Rather than panicking and making random movements that typically worsen the position, the defender works through a precise sequence: first creating breathing space by turning the chin, then addressing the foot-behind-head configuration, and finally extracting the head while the opponent's structural control is compromised. This methodical approach reflects the principle that some submissions cannot be escaped through strength alone.\n\nStrategically, Head Extraction to Posture represents more than simple survival. Successfully completing this escape returns you to closed guard with posture, meaning you can immediately begin your passing sequences. The technique also teaches broader principles about defending unorthodox submissions by understanding their mechanical requirements and systematically dismantling them rather than fighting the symptoms.",
   "related_content": [
     {
       "name": "Gogoplata Control",
@@ -299,7 +300,7 @@
       },
       {
         "outcome": "Triangle Control/Bottom",
-        "how": "As the shin begins sliding off the throat during their extraction, immediately transition by bringing your opposite leg over their shoulder while the foot that was behind their head assists in locking the triangle. Time this transition to the moment their head begins moving laterally, using their extraction momentum to help set the triangle lock before they can recover posture."
+        "how": "As the shin begins sliding off the throat during their extraction, immediately transition by bringing your opposite leg over their shoulder while the foot that was behind their head assists in locking the triangle. Time this transition to the moment their head begins moving laterally, using their extraction momentum to help set the triangle lock before they can recover posture and leaving them trapped in the defensive triangle."
       }
     ],
     "common_errors": [

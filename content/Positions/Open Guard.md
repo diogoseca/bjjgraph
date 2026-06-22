@@ -10,6 +10,41 @@ description: "Master Open Guard in BJJ. Strategic guide covering distance manage
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Open Guard",
+  "description": "Master Open Guard in BJJ. Strategic guide covering distance management, sweep systems, and submission attacks from both bottom and top perspectives.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Open Guard", "item": "https://bjjgraph.org/Positions/Open-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Open Guard",
+  "description": "Open Guard is any bottom guard where the legs stay unlocked and active, using feet, shins, and knees as frames to manage distance, create angles, and launch sweeps or submissions while denying the pass.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Open Guard in BJJ. Strategic guide covering distance manage
 </div>
 
 <section id="overview" class="content-section">
+
+**Open Guard is any bottom guard where the legs stay unlocked and active, using feet, shins, and knees as frames to manage distance, create angles, and launch sweeps or submissions while denying the pass.**
 
 Open Guard is the fundamental bottom position in BJJ where you use your legs positioned between you and your opponent to create distance, manage angles, and prevent them from establishing dominant control. Unlike closed guard where your legs lock around the opponent's back, open guard maintains an open configuration that allows for greater mobility and diverse attacking options at the cost of requiring more active management. This position serves as the gateway to all modern guard systems and is essential for contemporary BJJ competition.
 
@@ -68,7 +105,7 @@ From the top perspective, Open Guard Top represents the fundamental challenge of
 | **Energy Cost** | Medium | Medium |
 | **Time** | Medium | Medium to Long |
 
-**Key Difference:** Dynamic leg positioning for mobility and control
+**Key Difference:** Open legs trade security for mobility and attacks
 
 
 
@@ -102,7 +139,7 @@ From the top perspective, Open Guard Top represents the fundamental challenge of
 ### Available Transitions
 
 
-- **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** (25% of attempts)
+- **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** (23% of attempts)
 
 - **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (4% of attempts)
 
@@ -120,23 +157,27 @@ From the top perspective, Open Guard Top represents the fundamental challenge of
 
 - **[[Transitions/Scissor Sweep from Open Guard/Attacker|Scissor Sweep from Open Guard]]** (4% of attempts)
 
-- **[[Transitions/Open Guard to Deep Half/Attacker|Open Guard to Deep Half]]** (5% of attempts)
+- **[[Transitions/Open Guard to Deep Half/Attacker|Open Guard to Deep Half]]** (4% of attempts)
 
-- **[[Transitions/Open Guard to Collar Sleeve Guard/Attacker|Open Guard to Collar Sleeve Guard]]** (10% of attempts)
+- **[[Transitions/Open Guard to Collar Sleeve Guard/Attacker|Open Guard to Collar Sleeve Guard]]** (9% of attempts)
 
-- **[[Transitions/Open Guard to De La Riva/Attacker|Open Guard to De La Riva]]** (12% of attempts)
+- **[[Transitions/Open Guard to De La Riva/Attacker|Open Guard to De La Riva]]** (11% of attempts)
 
 - **[[Transitions/Open Guard to Double Sleeve Guard/Attacker|Open Guard to Double Sleeve Guard]]** (4% of attempts)
 
-- **[[Transitions/Open Guard to Feet on Hips Guard/Attacker|Open Guard to Feet on Hips Guard]]** (7% of attempts)
+- **[[Transitions/Open Guard to Feet on Hips Guard/Attacker|Open Guard to Feet on Hips Guard]]** (6% of attempts)
 
 - **[[Transitions/Collar Drag from Open Guard/Attacker|Collar Drag from Open Guard]]** (4% of attempts)
 
 - **[[Transitions/Recovery from Failed Sweep/Attacker|Recovery from Failed Sweep]]** (3% of attempts)
 
-- **[[Transitions/Technical Stand Up from Open Guard/Attacker|Technical Stand Up from Open Guard]]** (6% of attempts)
+- **[[Transitions/Technical Stand Up from Open Guard/Attacker|Technical Stand Up from Open Guard]]** (5% of attempts)
 
-- **[[Transitions/Transition to Clamp Guard/Attacker|Transition to Clamp Guard]]** (1% of attempts)
+- **[[Transitions/Transition to Clamp Guard/Attacker|Transition to Clamp Guard]]** (2% of attempts)
+
+- **[[Belly Down Armbar from Open Guard/Attacker|Belly Down Armbar from Open Guard]]** (2% of attempts)
+
+- **[[Triangle Choke from Open Guard/Attacker|Triangle Choke from Open Guard]]** (4% of attempts)
 
 
 ### Common Mistakes
@@ -201,27 +242,29 @@ From the top perspective, Open Guard Top represents the fundamental challenge of
 ### Available Transitions
 
 
-- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (17% of attempts)
+- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (12% of attempts)
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (9% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (17% of attempts)
 
-- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (9% of attempts)
+- **[[Transitions/Counter Sweep/Attacker|Counter Sweep]]** (4% of attempts)
+
+- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (8% of attempts)
 
 - **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (8% of attempts)
 
-- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (9% of attempts)
+- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (8% of attempts)
 
 - **[[Transitions/X Pass/Attacker|X Pass]]** (8% of attempts)
 
-- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (9% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (8% of attempts)
 
-- **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** (9% of attempts)
+- **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** (8% of attempts)
 
-- **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** (9% of attempts)
-
-- **[[Transitions/Knee Cut Pass/Attacker|Knee Cut Pass]]** (9% of attempts)
+- **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** (8% of attempts)
 
 - **[[Transitions/Float Passing/Attacker|Float Passing]]** (4% of attempts)
+
+- **[[Transitions/Open Guard to Double Unders/Attacker|Open Guard to Double Unders]]** (7% of attempts)
 
 
 ### Common Mistakes
@@ -284,6 +327,18 @@ From the top perspective, Open Guard Top represents the fundamental challenge of
 
 - **[[Positions/Headquarters Position]]** - Transitional passing position during open guard top sequences
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Caio-Terra-Guard-Retention-System" data-cta="related-system-card" data-system-slug="systems/caio-terra-guard-retention-system" data-system-name="Caio Terra Guard Retention System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Caio Terra Guard Retention System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Core guard family requiring constant retention mechanics to maintain distance and control</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Mikey-Musumeci-Berimbolo-System" data-cta="related-system-card" data-system-slug="systems/mikey-musumeci-berimbolo-system" data-system-name="Mikey Musumeci Berimbolo System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Mikey Musumeci Berimbolo System</span><span class="system-card__unlocks-badge">Unlocks 21 techniques</span><span class="system-card__blurb">Alternative starting position for berimbolo entries requiring less flexibility</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Modern-No-Gi-Passing-System" data-cta="related-system-card" data-system-slug="systems/modern-no-gi-passing-system" data-system-name="Modern No-Gi Passing System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Modern No-Gi Passing System</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Starting position for establishing headquarters and initiating passing attacks</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

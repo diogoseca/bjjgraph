@@ -3,6 +3,7 @@
   "slug": "kimura-trap",
   "description": "Master Kimura Trap position in BJJ. Complete guide covering bottom defensive control and top offensive pressure, with systematic sweeps, submissions, and transitions.",
   "variant_uniqueness": "Grip-based control inverts positional hierarchy",
+  "summary": "The Kimura Trap is a grip-based control system in BJJ where a figure-four grip on the opponent's arm dominates their shoulder and inverts positional hierarchy, enabling sweeps, back takes, and submissions from either the top or bottom.",
   "overview": "The Kimura Trap is a revolutionary position system in Brazilian Jiu-Jitsu that fundamentally challenges traditional notions of top and bottom control. At its core, the Kimura Trap uses a figure-four Kimura grip to create a control mechanism that transcends positional hierarchy—the practitioner with the Kimura grip controls their opponent's shoulder girdle and arm structure regardless of whether they are on top or bottom. This position represents a paradigm shift from purely positional thinking to grip-based control systems.\n\nFrom the bottom perspective, the Kimura Trap transforms defensive positions like half guard or side control bottom into offensive platforms. The bottom player uses the Kimura grip to disrupt the top player's base, create sweeping opportunities, and threaten submissions despite being in what would traditionally be considered an inferior position. This inversion of control hierarchy makes the Kimura Trap one of the most important conceptual advances in modern BJJ, particularly for smaller practitioners who can use technical leverage to overcome size and strength disadvantages.\n\nFrom the top perspective, the Kimura Trap provides exceptional control and finishing opportunities. The top player combines positional dominance with the Kimura grip to create a double control system—both position and joint lock simultaneously threaten the opponent. This makes defensive reactions extremely difficult, as the bottom player must defend both positional advancement and submission threats while their arm is compromised.\n\nThe Kimura Trap system includes a comprehensive framework of entries, controls, sweeps, transitions, and submissions that work cohesively. Whether entering from half guard, side control, turtle, or standing positions, the Kimura grip serves as the central organizing principle that dictates available techniques and optimal responses to defensive reactions. The system's effectiveness across skill levels, body types, and rule sets (gi, no-gi, MMA) has made it a fundamental component of modern grappling curricula.\n\nStrategically, the Kimura Trap excels at creating dilemmas where opponents must choose between defending multiple threats simultaneously. From bottom, the practitioner forces the top player to defend sweeps, back takes, and submissions all stemming from the same grip. From top, the practitioner can advance position, finish the Kimura, or transition to other submissions based on defensive reactions. This multi-threat approach embodies modern BJJ's emphasis on systematic attacks that flow seamlessly between techniques rather than relying on single isolated moves.",
   "key_principles": [
     "Maintain deep Kimura grip with figure-four positioned near opponent's elbow for maximum control and leverage",
@@ -327,8 +328,8 @@
         "attempt_probability": 6
       },
       {
-        "transition": "Kimura Defense",
-        "attempt_probability": 3
+        "transition": "Kimura Defense Arm Extraction",
+        "attempt_probability": 2
       },
       {
         "transition": "Kimura Trap to Reverse Scarf Hold",
@@ -336,7 +337,7 @@
       },
       {
         "transition": "Kimura from Kimura Trap",
-        "attempt_probability": 32
+        "attempt_probability": 33
       }
     ]
   },
@@ -589,19 +590,19 @@
     "transitions": [
       {
         "transition": "Old School Sweep",
-        "attempt_probability": 31
+        "attempt_probability": 29
       },
       {
         "transition": "Kimura to Back Take",
         "attempt_probability": 14
       },
       {
-        "transition": "Kimura Sweep",
+        "transition": "Rolling Kimura",
         "attempt_probability": 10
       },
       {
-        "transition": "Rolling Kimura",
-        "attempt_probability": 10
+        "transition": "Kimura Sweep",
+        "attempt_probability": 9
       },
       {
         "transition": "Underhook Sweep from Half",
@@ -624,11 +625,15 @@
         "attempt_probability": 6
       },
       {
+        "transition": "Kimura Defense",
+        "attempt_probability": 3
+      },
+      {
         "transition": "Kimura Counter via Roll",
         "attempt_probability": 3
       },
       {
-        "transition": "Kimura Defense Arm Extraction",
+        "transition": "Rolling Kimura Escape",
         "attempt_probability": 2
       }
     ]

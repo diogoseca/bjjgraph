@@ -10,6 +10,41 @@ description: "Master the Counter Sweep from Outside Ashi-Garami in BJJ. Complete
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Counter Sweep from Outside Ashi",
+  "description": "Master the Counter Sweep from Outside Ashi-Garami in BJJ. Complete guide covering sweep mechanics, timing, setups, and transitions to dominant side control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Counter Sweep from Outside Ashi", "item": "https://bjjgraph.org/Transitions/Counter-Sweep-from-Outside-Ashi" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Counter Sweep from Outside Ashi",
+  "description": "The Counter Sweep from Outside Ashi is a bottom-player reversal from outside ashi-garami that converts the figure-four leg entanglement into a sweeping fulcrum, timed to the opponent's leg-extraction escape, toppling them to establish side control top.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Counter Sweep from Outside Ashi-Garami in BJJ. Complete
 
 <section id="overview" class="content-section">
 
-The Counter Sweep from Outside Ashi-Garami is a positional reversal technique where the bottom player uses their leg entanglement as a fulcrum to sweep the top player and establish side control. This sweep is initiated as a counter to the opponent's escape attempt—when the top player stands, postures up, or drives forward to extract their trapped leg, their weight shift creates the off-balance necessary for the sweep to succeed. The figure-4 leg configuration that controls the opponent's leg doubles as a mechanical lever when combined with proper hip drive and upper body control.
+**The Counter Sweep from Outside Ashi is a bottom-player reversal from outside ashi-garami that converts the figure-four leg entanglement into a sweeping fulcrum, timed to the opponent's leg-extraction escape, toppling them to establish side control top.**
+
+Within the modern outside ashi-garami game, this sweep is the offensive escape valve that activates precisely when the top player tries to leave. The sweep is initiated as a counter to the opponent's escape attempt—when the top player stands, postures up, or drives forward to extract their trapped leg, their weight shift creates the off-balance necessary for the sweep to succeed. The figure-4 leg configuration that controls the opponent's leg doubles as a mechanical lever when combined with proper hip drive and upper body control.
 
 The technique represents a critical decision point in the outside ashi-garami game. When heel hook and ankle lock attempts are being effectively defended, the counter sweep provides an alternative pathway to dominant position rather than expending energy on diminishing-return submission attempts. The outside angle of the entanglement creates specific sweep trajectories that differ from sweeps available in inside ashi or 50-50, and the asymmetric control favors sweeps directed perpendicular to the opponent's centerline.
 
@@ -218,5 +255,7 @@ The Counter Sweep from Outside Ashi-Garami bridges the modern leg lock game with
 
 
 </section>
+
+
 
 </main>

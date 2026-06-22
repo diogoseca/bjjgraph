@@ -10,6 +10,41 @@ description: "Master Long Step Around Ringworm pass in BJJ. Navigate complex lap
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Long Step Around Ringworm",
+  "description": "Master Long Step Around Ringworm pass in BJJ. Navigate complex lapel configurations with long-step mechanics to reach side control or half guard.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Long Step Around Ringworm", "item": "https://bjjgraph.org/Transitions/Long-Step-Around-Ringworm" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Long Step Around Ringworm",
+  "description": "Long Step Around Ringworm is a gi guard pass that uses an exaggerated wide arcing step to travel completely around a ringworm lapel configuration—bypassing its blocked passing lanes instead of clearing the fabric—to reach side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master Long Step Around Ringworm pass in BJJ. Navigate complex lap
 
 <section id="overview" class="content-section">
 
-The Long Step Around Ringworm is a specialized guard passing technique designed to circumvent the complex lapel configurations that define ringworm guard. When an opponent establishes ringworm—typically involving multiple lapel wraps around your legs and arms—standard pressure passing becomes ineffective because the fabric barriers prevent hip contact and create persistent mechanical obstacles.
+**Long Step Around Ringworm is a gi guard pass that uses an exaggerated wide arcing step to travel completely around a ringworm lapel configuration—bypassing its blocked passing lanes instead of clearing the fabric—to reach side control.**
+
+Ringworm guard's defensive power comes from layering multiple lapel wraps around your legs and arms, building persistent fabric barriers that prevent hip contact and render standard pressure passing ineffective. Attempting to grip-fight through every wrap drains enormous energy and rarely succeeds, which is precisely the dilemma the long step is built to solve.
 
 This technique employs an exaggerated long step to change the passing angle dramatically, allowing you to step completely around the lapel configuration rather than fighting through it. The key insight is that ringworm guard's strength lies in controlling specific passing lanes; by taking a wide arc with your passing leg, you exit those controlled lanes entirely. The long step creates distance from the lapel wrap while simultaneously closing the gap to a dominant passing position.
 
@@ -207,7 +244,7 @@ The Long Step Around Ringworm occupies a specific niche within the guard passing
 
 - [[Positions/Back Control]] - Counter position opponent may achieve if hip control fails
 
-- [[Transitions/Leg Drag Pass]] - Alternative finish option that combines well with long step mechanics
+- [[Positions/Leg Drag Control]] - Alternative finish option that combines well with long step mechanics
 
 - [[Positions/Knee on Belly]] - Alternative consolidation position after successful pass
 
@@ -219,5 +256,7 @@ The Long Step Around Ringworm occupies a specific niche within the guard passing
 
 
 </section>
+
+
 
 </main>

@@ -10,6 +10,41 @@ description: "Master the Sweep from Z-Lock Half Guard in BJJ. Combine lockdown t
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Sweep from Z-Lock Half Guard",
+  "description": "Master the Sweep from Z-Lock Half Guard in BJJ. Combine lockdown tension with butterfly elevation to execute this advanced half guard sweep to side control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Sweep from Z-Lock Half Guard", "item": "https://bjjgraph.org/Transitions/Sweep-from-Z-Lock-Half-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Sweep from Z-Lock Half Guard",
+  "description": "The Sweep from Z-Lock Half Guard is an advanced lockdown sweep where the bottom player combines lockdown tension with butterfly-hook elevation to off-balance a pressuring opponent along two vectors at once and come up to side control top.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Sweep from Z-Lock Half Guard in BJJ. Combine lockdown t
 </div>
 
 <section id="overview" class="content-section">
+
+**The Sweep from Z-Lock Half Guard is an advanced lockdown sweep where the bottom player combines lockdown tension with butterfly-hook elevation to off-balance a pressuring opponent along two vectors at once and come up to side control top.**
 
 The Sweep from Z-Lock Half Guard is a compound sweeping technique that exploits the unique dual-leg configuration of the Z-Lock position to create simultaneous off-balancing forces from opposite directions. Unlike traditional lockdown sweeps that primarily attack in one plane, this sweep coordinates lockdown tension pulling the opponent's base backward with butterfly hook elevation driving upward, creating a rotational force that is extremely difficult to defend because it attacks the opponent's balance along two vectors simultaneously.
 
@@ -210,7 +247,7 @@ The Sweep from Z-Lock Half Guard occupies a critical niche in the half guard bot
 
 - [[Transitions/Old School Sweep]] - Related lockdown sweep attacking in a different plane that chains with Z-Lock sweep
 
-- [[Transitions/Butterfly Hook Sweep]] - Related sweeping mechanic sharing the butterfly elevation principle
+- [[Transitions/Butterfly Sweep]] - Related sweeping mechanic sharing the butterfly elevation principle
 
 - [[Positions/Half Guard/Deep Half Guard]] - Alternative transition when opponent sits back to defend the sweep
 
@@ -220,9 +257,11 @@ The Sweep from Z-Lock Half Guard occupies a critical niche in the half guard bot
 
 - [[Positions/Half Guard/Electric Chair]] - Alternative submission attack available from the same Z-Lock configuration
 
-- [[Transitions/Half Butterfly Sweep]] - Related sweep concept using butterfly hook from half guard context
+- [[Transitions/Underhook Sweep from Half]] - Related sweep concept using butterfly hook from half guard context
 
 
 </section>
+
+
 
 </main>

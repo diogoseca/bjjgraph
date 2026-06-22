@@ -1,5 +1,6 @@
 {
   "name": "Guard Recovery from Double Unders",
+  "summary": "Guard Recovery from Double Unders is the bottom player's defensive sequence of framing, hip-escaping, and sequentially extracting both trapped legs to break the bilateral-underhook stack and reclaim closed or open guard before the pass completes.",
   "description": "Master guard recovery from double unders in BJJ. Learn frame creation, hip escape mechanics, and guard retention techniques to escape crushing pressure passes.",
   "tags": [
     "bjj",
@@ -35,7 +36,7 @@
     }
   ],
   "success_rate": 55,
-  "overview": "Guard Recovery from Double Unders is a critical defensive transition executed by the bottom player when trapped in the double unders passing position. The top player has established bilateral underhook control under both legs with hands clasped behind the back, creating tremendous forward pressure that stacks the bottom player's weight onto their shoulders. This guard recovery sequence represents the bottom player's systematic response to reclaim leg positioning and re-establish a functional guard, most commonly closed guard or open guard.\n\nThe technique centers on frame creation and hip escape mechanics working in concert. The bottom player must first establish skeletal frames against the top player's face, neck, or shoulders to create enough separation to begin hip movement. Once minimal space exists, the bottom player hip escapes laterally while fighting to free one or both legs from the underhook control. The freed legs are then repositioned between the bodies, either closing around the opponent's waist for closed guard or establishing feet-on-hips positioning for open guard retention.\n\nStrategic timing is paramount in this recovery. Attempting guard recovery too early when the top player's pressure is maximal wastes energy against their strongest control. Waiting too long allows the pass to complete. The optimal window occurs during the top player's grip adjustment, weight shift, or transition between passing angles. Successful practitioners develop sensitivity to these micro-moments and execute explosive guard recovery sequences precisely when the top player's control momentarily weakens.",
+  "overview": "This recovery sits at one of the most pressure-intensive crossroads in guard retention: the moment a passer has buried both underhooks and begun stacking. The top player has established bilateral underhook control under both legs with hands clasped behind the back, creating tremendous forward pressure that stacks the bottom player's weight onto their shoulders. The bottom player's window to reclaim leg positioning and re-establish a functional guard — most commonly closed guard or open guard — is narrow and closes the instant the passer's knees clear the hips.\n\nThe technique centers on frame creation and hip escape mechanics working in concert. The bottom player must first establish skeletal frames against the top player's face, neck, or shoulders to create enough separation to begin hip movement. Once minimal space exists, the bottom player hip escapes laterally while fighting to free one or both legs from the underhook control. The freed legs are then repositioned between the bodies, either closing around the opponent's waist for closed guard or establishing feet-on-hips positioning for open guard retention.\n\nStrategic timing is paramount in this recovery. Attempting guard recovery too early when the top player's pressure is maximal wastes energy against their strongest control. Waiting too long allows the pass to complete. The optimal window occurs during the top player's grip adjustment, weight shift, or transition between passing angles. Successful practitioners develop sensitivity to these micro-moments and execute explosive guard recovery sequences precisely when the top player's control momentarily weakens.",
   "conditions": [
     "Opponent has secured double underhooks under both of your legs with hands clasped behind your back",
     "Your hips are being elevated with forward stacking pressure compressing your spine",
@@ -240,8 +241,16 @@
         "answer": "The optimal window occurs when the top player shifts their weight to adjust grips, transitions between passing angles, or pauses to consolidate position. These micro-moments create brief reductions in forward pressure that allow frame creation and hip movement to be significantly more effective. Attempting recovery during peak pressure wastes energy and has minimal chance of success. Develop sensitivity to the rhythm of their pressure application."
       },
       {
+        "question": "What conditions must exist before you can realistically attempt guard recovery from double unders?",
+        "answer": "You need at least one free arm to build a frame against the jawline or neck, enough hip mobility to turn to at least one side rather than being pinned flat, and a passer whose knees have not yet walked fully past your hip line. If all three are absent — both arms trapped, hips flat, knees already past — the recovery window has closed and you should redirect to a granby roll or deep half entry that uses their momentum instead."
+      },
+      {
         "question": "What frame structure provides the most effective initial separation against double unders stacking pressure?",
         "answer": "A cross-face frame with both forearms positioned against the opponent's jawline and neck creates the strongest initial separation. This structure uses skeletal alignment through the forearms and elbows rather than muscular pushing, meaning it can be sustained against significantly heavier opponents. The frame must anchor at the elbows against your own ribcage to prevent collapse under forward drive."
+      },
+      {
+        "question": "In which direction should you direct your escape energy when stacked in double unders, and why not straight into the opponent?",
+        "answer": "Direct your energy laterally through a hip escape rather than pushing straight back against their forward stack. Pushing directly into the passer pits your arms against their full body weight and the strongest vector of their pressure, which you cannot win. Escaping to the side redirects that committed forward drive past you, opening the angle and space beneath their underhooks that the near-side leg needs to extract."
       },
       {
         "question": "Your opponent tightens their grip and drives harder as you begin establishing frames - how do you adjust your recovery approach?",
@@ -254,6 +263,10 @@
       {
         "question": "Your opponent begins walking their knees forward during your frame-based recovery attempt - what critical adjustment do you make?",
         "answer": "If knees are advancing past your hips, the standard guard recovery window is closing rapidly. Abandon the frame-and-hip-escape sequence and commit fully to either a granby roll using their forward momentum or dive to deep half guard by threading underneath their advancing hips. Both alternatives use their forward movement as fuel rather than fighting against the direction of their pass completion."
+      },
+      {
+        "question": "Your frame-and-hip-escape recovery stalls because the passer matches your hip movement step for step - what do you chain into?",
+        "answer": "Stop fighting for the straight recovery and switch to a momentum-based or hook-based option before they consolidate. Thread the near-side foot inside their thigh to insert a butterfly hook and elevate, dive under for a deep half entry on the side you were escaping toward, or load a granby roll using their chase as momentum. The passer's commitment to mirroring your hips leaves them over-extended and vulnerable to the very angle change you set up."
       },
       {
         "question": "What grip adjustments should you prioritize immediately after successfully closing guard from double unders recovery?",

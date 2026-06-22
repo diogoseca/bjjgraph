@@ -158,7 +158,7 @@ The defensive framework operates on a hierarchy of priorities: first, protect yo
 
 The critical defensive window occurs during the grip change phase - the moment your opponent releases their front headlock grip to slide deeper for the guillotine. This is when their control is weakest and your escape opportunities are greatest. Training to recognize this transition moment and respond with pre-programmed defensive reactions is essential for surviving against opponents with strong front headlock systems.
 
-**Opponent's Starting Position**: [[Positions/Turtle]] (Top)
+**Opponent's Starting Position**: [[Positions/Front Headlock]] (Top)
 
 </section>
 

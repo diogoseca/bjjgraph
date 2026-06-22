@@ -4,11 +4,46 @@
 
 ---
 title: "Inside Position Recovery | BJJ Technique | BJJ Graph"
-description: "Master Inside Position Recovery from Leg Drag Control. Step-by-step escape to Butterfly Guard with frame mechanics and hook insertion timing."
+description: "Master Inside Position Recovery from Leg Drag Control bottom. Step-by-step escape to Butterfly Guard covering frame mechanics, hip escape timing, and butterfly hook insertion."
 ---
 
 
 <body data-content-type="transitions-hub">
+
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Inside Position Recovery",
+  "description": "Master Inside Position Recovery from Leg Drag Control bottom. Step-by-step escape to Butterfly Guard covering frame mechanics, hip escape timing, and butterfly hook insertion.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Inside Position Recovery", "item": "https://bjjgraph.org/Transitions/Inside-Position-Recovery" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Inside Position Recovery",
+  "description": "Inside Position Recovery is a bottom-player escape from leg drag control that uses framing and a precisely timed hip escape to extract the trapped leg and insert a butterfly hook, converting a passing-defense crisis into an offensive butterfly guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -22,7 +57,9 @@ description: "Master Inside Position Recovery from Leg Drag Control. Step-by-ste
 
 <section id="overview" class="content-section">
 
-Inside Position Recovery is a critical escape technique from leg drag control that focuses on re-establishing an inside position with your legs before your opponent can consolidate to side control or take your back. When caught in the leg drag, your primary defensive goal is preventing back exposure and positional advancement. Inside Position Recovery addresses this by using precise hip movement and frame positioning to extract your trapped leg and insert a butterfly hook, transitioning you from a compromised defensive position to an active offensive guard.
+**Inside Position Recovery is a bottom-player escape from leg drag control that uses framing and a precisely timed hip escape to extract the trapped leg and insert a butterfly hook, converting a passing-defense crisis into an offensive butterfly guard.**
+
+When you are caught in leg drag control, you have only a brief window before your opponent consolidates to side control or takes your back, and Inside Position Recovery is the highest-percentage response when you retain hip mobility. This escape re-establishes an inside position with your legs by extracting the trapped leg and inserting a butterfly hook before the passer can settle. Your primary defensive goal throughout is preventing back exposure and positional advancement, and the technique addresses this by using precise hip movement and frame positioning to free your trapped leg and transition from a compromised defensive position to an active offensive guard.
 
 The technical foundation of this escape relies on understanding the mechanical disadvantage created by the leg drag configuration. Your opponent uses your crossed leg as a control point while driving pressure into your hip. Inside Position Recovery exploits the moment when your opponent must shift weight to advance, creating a window to extract your leg and establish inside position. The key is timing your hip escape precisely with their weight transition while maintaining frames that prevent them from flattening you or taking your back.
 
@@ -226,5 +263,7 @@ Inside Position Recovery sits at the intersection of guard retention and guard r
 
 
 </section>
+
+
 
 </main>

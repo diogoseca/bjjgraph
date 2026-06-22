@@ -20,32 +20,32 @@ description: "Master Knee on Belly Top control in BJJ. Dynamic offensive positio
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 33% of exchanges from this position.",
+      "name": "Execute KOB to Mount",
+      "text": "From this position, attempt KOB to Mount. This technique is attempted in 25% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Far Side Armbar from KOB",
-      "text": "From this position, attempt Far Side Armbar from KOB. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Far Side Armbar from KOB. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Baseball Bat Choke from Knee on Belly",
-      "text": "From this position, attempt Baseball Bat Choke from Knee on Belly. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Baseball Bat Choke from Knee on Belly. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Side Control to North-South",
-      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 10% of exchanges from this position.",
-      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Cross Collar Choke from Knee on Belly",
       "text": "From this position, attempt Cross Collar Choke from Knee on Belly. This technique is attempted in 11% of exchanges from this position.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute KOB to Side Control",
+      "text": "From this position, attempt KOB to Side Control. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
@@ -116,6 +116,7 @@ description: "Master Knee on Belly Top control in BJJ. Dynamic offensive positio
   "@type": "WebPage",
   "name": "Knee on Belly Top",
   "description": "Master Knee on Belly Top control in BJJ. Dynamic offensive position balancing mobility with pressure. Complete guide covering setup, transitions, and submission attacks.",
+  "alternateName": ["Knee Mount", "Knee on Stomach", "Knee on Chest", "KOB", "Uki Gatame", "Joelho na Barriga"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -155,6 +156,9 @@ description: "Master Knee on Belly Top control in BJJ. Dynamic offensive positio
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Knee Mount</strong>, <strong>Knee on Stomach</strong>, <strong>Knee on Chest</strong>, <strong>KOB</strong>, <strong>Uki Gatame</strong>, <strong>Joelho na Barriga</strong> <span class="role-hint">(top)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 Knee on Belly Top is a highly effective transitional control position where the top practitioner places one knee across the opponent's torso while maintaining a wide base with the other leg extended. This position creates immense pressure on the bottom player's diaphragm and solar plexus, making it difficult to breathe and forcing defensive reactions. The top player maintains constant forward pressure while staying light on their feet, ready to transition to mount, side control, or submission attacks. From a strategic standpoint, Knee on Belly Top serves as an excellent position for consolidating control after passing the guard, scoring IBJJF points, and setting up a variety of attacks. The mobility inherent in this position allows the top player to quickly respond to escape attempts while maintaining dominant pressure. Unlike more static positions like mount or side control, Knee on Belly requires active weight distribution and constant micro-adjustments to maintain effectiveness. This position is particularly valuable in competition settings where maintaining pressure while remaining mobile is essential. The threat of submissions, transitions to mount, and back takes forces the bottom player into a reactive defensive posture, allowing the top player to dictate the pace and direction of the match.
@@ -216,7 +220,7 @@ Knee on Belly Top is a highly effective transitional control position where the 
 
 **If opponent remains flat and defensive without creating frames:**
 - Execute **[[Submissions/Baseball Bat Choke/Attacker|Baseball Bat Choke]]** → [[game-over]] (Probability: 55%)
-- Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 65%)
+- Execute **[[Transitions/KOB to Mount/Attacker|KOB to Mount]]** → [[Positions/Mount]] (Probability: 65%)
 
 
 **If opponent pushes against knee or creates frames with arms:**
@@ -226,7 +230,7 @@ Knee on Belly Top is a highly effective transitional control position where the 
 
 **If opponent turns to side attempting to escape:**
 - Execute **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** → [[Positions/Back Control]] (Probability: 50%)
-- Execute **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** → [[Positions/North-South]] (Probability: 70%)
+- Execute **[[Transitions/S-Mount Transition/Attacker|S-Mount Transition]]** → [[Positions/Mount/S Mount]] (Probability: 70%)
 
 
 **If opponent successfully creates space by shrimping away:**
@@ -346,6 +350,22 @@ Partner gives feedback on pressure levels as you experiment with different weigh
 - **[[Transitions/Far Side Armbar from KOB]]** - Primary arm attack when opponent extends frames against knee
 - **[[Submissions/Kimura]]** - Alternative arm attack targeting opponent's far arm from top control
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/IBJJF-Strategy-Guide" data-cta="related-system-card" data-system-slug="systems/ibjjf-strategy-guide" data-system-name="IBJJF Strategy Guide" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">IBJJF Strategy Guide</span><span class="system-card__unlocks-badge">Unlocks 27 techniques</span><span class="system-card__blurb">2-point scoring position useful for accumulating points and advantages</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/MMA-Crossover-Strategy" data-cta="related-system-card" data-system-slug="systems/mma-crossover-strategy" data-system-name="MMA Crossover Strategy" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">MMA Crossover Strategy</span><span class="system-card__unlocks-badge">Unlocks 27 techniques</span><span class="system-card__blurb">Top pressure position for strikes and quick submission transitions</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Blue-to-Purple-Progression" data-cta="related-system-card" data-system-slug="systems/blue-to-purple-progression" data-system-name="Blue to Purple Progression" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Blue to Purple Progression</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Transitional control position useful for maintaining top pressure while setting up submissions</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Competition-Scoring-Strategy" data-cta="related-system-card" data-system-slug="systems/competition-scoring-strategy" data-system-name="Competition Scoring Strategy" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Competition Scoring Strategy</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">2-point scoring position with transition advantages to mount or back</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Roger-Gracie-Fundamental-System" data-cta="related-system-card" data-system-slug="systems/roger-gracie-fundamental-system" data-system-name="Roger Gracie Fundamental System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Roger Gracie Fundamental System</span><span class="system-card__unlocks-badge">Unlocks 22 techniques</span><span class="system-card__blurb">Transitional position in Roger&#x27;s system - used briefly during advancement to more dominant positions</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Defensive-Prioritization-Framework" data-cta="related-system-card" data-system-slug="systems/defensive-prioritization-framework" data-system-name="Defensive Prioritization Framework" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Defensive Prioritization Framework</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Medium threat position requiring specific defensive response within framework</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Self-Defense-Application-Framework" data-cta="related-system-card" data-system-slug="systems/self-defense-application-framework" data-system-name="Self-Defense Application Framework" data-member-count="18"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Self-Defense Application Framework</span><span class="system-card__unlocks-badge">Unlocks 18 techniques</span><span class="system-card__blurb">Mobile top control position allowing rapid disengagement and environmental awareness</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

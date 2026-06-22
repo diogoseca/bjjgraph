@@ -10,6 +10,41 @@ description: "Master the Grip Break and Face escape from standing back control. 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Grip Break and Face",
+  "description": "Master the Grip Break and Face escape from standing back control. Learn systematic grip fighting and hip rotation to face your opponent with 30-65% success rates.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Grip Break and Face", "item": "https://bjjgraph.org/Transitions/Grip-Break-and-Face" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Grip Break and Face",
+  "description": "Grip Break and Face is a standing back control escape where the bottom player strips the opponent's harness grip with two-on-one control, then explosively rotates their hips to turn and face them in a neutral clinch.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Grip Break and Face escape from standing back control. 
 
 <section id="overview" class="content-section">
 
-The Grip Break and Face technique is a fundamental standing back control escape that prioritizes breaking the opponent's harness grip while simultaneously rotating to face them. This escape exploits the inherent instability of standing back control by using explosive hip rotation combined with systematic grip fighting to transition from a highly vulnerable defensive position to a neutral clinch where both practitioners can engage face-to-face.
+**Grip Break and Face is a standing back control escape where the bottom player strips the opponent's harness grip with two-on-one control, then explosively rotates their hips to turn and face them in a neutral clinch.**
+
+Among the escapes available from standing back control, Grip Break and Face is the highest-percentage option whenever the opponent has secured a harness but has not yet inserted hooks or a body triangle. It exploits the inherent instability of vertical back control: the attacker must constantly manage their own balance, and by stripping their primary grip you create the brief window needed to spin to safety.
 
 The technique operates on the principle that standing back control is transitional by nature - the attacker must constantly manage their balance while maintaining control. By targeting the harness grip first, you eliminate their primary control mechanism, then use the moment of grip disruption to explosively turn your hips and shoulders to face the opponent. The timing is critical: the rotation must occur in the window between breaking the grip and the opponent re-establishing control.
 
@@ -216,5 +253,7 @@ Grip Break and Face is a cornerstone escape from standing back control that fits
 
 
 </section>
+
+
 
 </main>

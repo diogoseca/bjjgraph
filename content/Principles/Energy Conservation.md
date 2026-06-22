@@ -142,11 +142,24 @@ description: "Master energy conservation in BJJ. Learn strategic resource manage
 }
 </script>
 
-> Energy Conservation is a medium complexity BJJ principle applicable at the Intermediate level. Develop over Beginner to Advanced.
 
-**Application Level**: Intermediate
-**Complexity**: Medium
-**Development Timeline**: Beginner to Advanced
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Energy Conservation",
+  "description": "Energy Conservation is the strategic, selective management of physical and mental resources in BJJ, spending effort through efficient movement, frame-based defense, and well-timed explosions so you stay technical and dangerous while your opponent fatigues.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Intermediate</span>
+<span class="meta-chip">Medium complexity</span>
+<span class="meta-chip">Beginner to Advanced</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -155,7 +168,9 @@ description: "Master energy conservation in BJJ. Learn strategic resource manage
 
 ## What is Energy Conservation?
 
-Energy Conservation is a critical strategic principle in Brazilian Jiu-Jitsu that involves managing physical and mental resources throughout training sessions and competitive matches. This principle recognizes that BJJ is fundamentally a war of attrition where the practitioner who can maintain effective performance while expending less energy often prevails. Energy conservation is not about being passive or lazy; rather, it's about being strategically selective with effort expenditure, using efficient movement patterns, and recognizing when to apply force versus when to redirect or yield. Mastery of this principle allows practitioners to maintain technical proficiency deep into matches when opponents are fatigued, creating decisive advantages in the final moments of competition.
+**Energy Conservation is the strategic, selective management of physical and mental resources in BJJ, spending effort through efficient movement, frame-based defense, and well-timed explosions so you stay technical and dangerous while your opponent fatigues.**
+
+In Brazilian Jiu-Jitsu, matches are frequently decided not by who is more skilled in the abstract, but by who can still execute clean technique in the final minutes when both athletes are exhausted. Energy Conservation addresses this reality directly: it recognizes that grappling is fundamentally a war of attrition where the practitioner who maintains effective performance while expending less fuel often prevails. It is not about being passive or lazy; rather, it is about being strategically selective with effort expenditure, using efficient movement patterns, and recognizing when to apply force versus when to redirect or yield. Mastery of this principle allows practitioners to maintain technical proficiency deep into matches when opponents are fatigued, creating decisive advantages in the closing exchanges of competition.
 
 </section>
 
@@ -346,7 +361,6 @@ Regular practice against larger or stronger opponents requiring technical effici
 - **[[Base]]** (Prerequisite): Stable base using skeletal structure conserves energy compared to muscular defensive efforts
 - **[[Pressure]]** (Alternative): Constant pressure represents an opposite strategic approach focused on opponent energy depletion
 - **[[Distance Control]]** (Extension): Efficient space creation conserves energy by using frames and hip movement rather than strength-based guard retention or escapes
-- **[[Timing and Rhythm]]** (Complementary): Proper timing allows explosive efforts at optimal moments, conserving energy between opportunities
 - **[[Flow Rolling]]** (Extension): Flow rolling practice directly develops energy conservation awareness through controlled tempo and movement efficiency
 - **[[Frames]]** (Prerequisite): Structural frames conserve energy by using skeletal leverage rather than muscular resistance
 - **[[Center of Gravity]]** (Complementary): Strategic weight distribution conserves energy by using gravity and skeletal alignment rather than muscular effort
@@ -356,7 +370,7 @@ Regular practice against larger or stronger opponents requiring technical effici
 
 ### Related Content
 - [[Maximum Efficiency Principle]] (Principle) - Complementary principle focusing on technical efficiency supporting energy conservation
-- [[Timing and Rhythm]] (Principle) - Direct implementation of energy conservation through strategic tempo and timing control
+- [[Flow Rolling]] (Principle) - Training method that directly develops energy conservation through controlled tempo and movement efficiency
 - [[Base]] (Principle) - Prerequisite skill enabling energy-efficient defensive positioning
 - [[Frames]] (Principle) - Prerequisite skill providing energy-efficient defensive structures
 - [[Closed Guard]] (Position) - Recovery position allowing energy conservation while maintaining control
@@ -368,6 +382,26 @@ Regular practice against larger or stronger opponents requiring technical effici
 - [[Defensive Prioritization Framework]] (System) - Systematic implementation of energy conservation principles through defensive priority assessment
 - [[Deep Half Guard]] (Position) - Defensive recovery position exemplifying energy conservation under pressure
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/IBJJF-Strategy-Guide" data-cta="related-system-card" data-system-slug="systems/ibjjf-strategy-guide" data-system-name="IBJJF Strategy Guide" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">IBJJF Strategy Guide</span><span class="system-card__unlocks-badge">Unlocks 27 techniques</span><span class="system-card__blurb">Critical principle for multi-match tournament performance and pacing across bracket</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/MMA-Crossover-Strategy" data-cta="related-system-card" data-system-slug="systems/mma-crossover-strategy" data-system-name="MMA Crossover Strategy" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">MMA Crossover Strategy</span><span class="system-card__unlocks-badge">Unlocks 27 techniques</span><span class="system-card__blurb">Pacing principle accounting for increased cardio demands of MMA</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Competition-Scoring-Strategy" data-cta="related-system-card" data-system-slug="systems/competition-scoring-strategy" data-system-name="Competition Scoring Strategy" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Competition Scoring Strategy</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Pacing explosive scoring attempts with conservative control phases</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Competition-Strategy" data-cta="related-system-card" data-system-slug="systems/competition-strategy" data-system-name="Competition Strategy" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Competition Strategy</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Principle governing effort distribution and pacing throughout match duration and tournament day</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Back-Defense-Protocol" data-cta="related-system-card" data-system-slug="systems/back-defense-protocol" data-system-name="Back Defense Protocol" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Back Defense Protocol</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Critical for surviving extended back control situations</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/No-Gi-Competition-Approach" data-cta="related-system-card" data-system-slug="systems/no-gi-competition-approach" data-system-name="No-Gi Competition Approach" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">No-Gi Competition Approach</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Critical for pacing and performance across competition rounds</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Teaching-Methodology-Framework" data-cta="related-system-card" data-system-slug="systems/teaching-methodology-framework" data-system-name="Teaching Methodology Framework" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Teaching Methodology Framework</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Important concept for sustainable training practices, pacing, and long-term practitioner longevity</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Competition-Preparation-System" data-cta="related-system-card" data-system-slug="systems/competition-preparation-system" data-system-name="Competition Preparation System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Competition Preparation System</span><span class="system-card__unlocks-badge">Unlocks 21 techniques</span><span class="system-card__blurb">Energy expenditure regulation across tournament duration</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Defensive-Prioritization-Framework" data-cta="related-system-card" data-system-slug="systems/defensive-prioritization-framework" data-system-name="Defensive Prioritization Framework" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Defensive Prioritization Framework</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Guides energy allocation decisions central to framework efficiency and long-round survival</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Self-Defense-Application-Framework" data-cta="related-system-card" data-system-slug="systems/self-defense-application-framework" data-system-name="Self-Defense Application Framework" data-member-count="18"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Self-Defense Application Framework</span><span class="system-card__unlocks-badge">Unlocks 18 techniques</span><span class="system-card__blurb">Managing energy expenditure during high-stress confrontations</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Mental-Game-Framework" data-cta="related-system-card" data-system-slug="systems/mental-game-framework" data-system-name="Mental Game Framework" data-member-count="15"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Mental Game Framework</span><span class="system-card__unlocks-badge">Unlocks 15 techniques</span><span class="system-card__blurb">Physical energy management enhanced by emotional regulation and breath control techniques</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

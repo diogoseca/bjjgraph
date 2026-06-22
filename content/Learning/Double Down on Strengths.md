@@ -86,6 +86,18 @@ description: "Learn why depth beats breadth in BJJ game development. Discover ho
 }
 </script>
 
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Double Down on Strengths",
+  "description": "Double Down on Strengths is a BJJ game-development strategy of investing disproportionate training time into one elite 'A-game' area and funneling every match toward it, rather than spreading effort thinly across all positions.",
+  "inDefinedTermSet": "https://bjjgraph.org/Learning/"
+}
+</script>
+
+
 > **Category**: Strategy
 
 
@@ -94,6 +106,8 @@ description: "Learn why depth beats breadth in BJJ game development. Discover ho
 <section id="overview" class="content-section">
 
 ## What is Double Down on Strengths?
+
+**Double Down on Strengths is a BJJ game-development strategy of investing disproportionate training time into one elite 'A-game' area and funneling every match toward it, rather than spreading effort thinly across all positions.**
 
 There is a persistent myth in BJJ that you need to be good at everything. That you need a dangerous open guard, sharp half guard, crushing top pressure, slick leg locks, and a complete takedown game to be successful. In reality, the most successful competitive grapplers in history are specialists. They have one area that is devastatingly good, and they funnel every match into that area. Gordon Ryan does not have twenty equally developed positions -- he has a heel hook game and a body lock passing system that he steers every match toward. Roger Gracie did not play fifty different guards -- he played closed guard and cross collar choke from mount, and nobody could stop it.
 
@@ -150,7 +164,7 @@ Pick three positions: one guard, one top position, and one bad position escape. 
 ## Common Mistakes
 - **Mistake**: Constantly chasing the newest technique or system instead of deepening your existing game
   - **Consequence**: Your game becomes a collection of half-learned techniques. You know the first step of many positions but the finishing details of none. Against good opponents, nothing works because nothing is sharp enough.
-  - **Correction**: Adopt a 80/20 training split: 80% of your drilling time on your A-game, 20% on exploration and new techniques. Only integrate new techniques if they connect to your existing game.
+  - **Correction**: Adopt an 80/20 training split: 80% of your drilling time on your A-game, 20% on exploration and new techniques. Only integrate new techniques if they connect to your existing game.
 - **Mistake**: Choosing your A-game based on what looks cool or what is trending rather than what fits your body and temperament
   - **Consequence**: You fight against your own attributes. A short-legged grappler forcing triangle choke specialization or a stiff-hipped grappler forcing rubber guard creates an uphill battle that undermines the whole point of specialization.
   - **Correction**: Observe where you succeed naturally against training partners of equal skill. What positions do you gravitate to? What techniques do you hit without thinking? Start there.
@@ -209,13 +223,14 @@ A: Roger Gracie won multiple world championships using primarily closed guard an
 
 ## Related
 - [[Position Chains]] (Principle) - Position chains are how you build pathways to funnel the match toward your A-game
+- [[Funneling]] (Learning) - Funneling is the tactical method for steering every match toward your area of excellence
 - [[Asymmetric Warfare]] (Learning) - Complementary strategy -- doubling down on strengths gives you the weapon to impose in asymmetric matchups
 - [[Competition Mindset]] (Principle) - Competition success requires a focused game plan built around your strongest techniques
 - [[Positional Sparring]] (Principle) - Positional sparring is the training method that develops depth in specific positions
 - [[Closed Guard]] (Position) - Classic example of a position that rewards deep specialization
 - [[Half Guard]] (Position) - Half guard is a common specialization position with many sub-systems to explore in depth
 - [[Mount]] (Position) - Mount is a high-value position that benefits from deep study of maintenance and submission setups
-- [[Submission Chains]] (Principle) - Submission chains from your best position are a direct product of depth-based training
+- [[Technique Chaining]] (Learning) - Chaining techniques together within your A-game is how depth-based specialization produces unstoppable offense
 - [[Escape Fundamentals]] (Principle) - Functional escape ability is the necessary complement to offensive specialization
 
 

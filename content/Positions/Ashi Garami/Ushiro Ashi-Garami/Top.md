@@ -21,37 +21,37 @@ description: "Attacking perspective in reversed leg entanglement. Master control
     {
       "@type": "HowToStep",
       "name": "Execute Inside Heel Hook from Ushiro",
-      "text": "From this position, attempt Inside Heel Hook from Ushiro. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Inside Heel Hook from Ushiro. This technique is attempted in 11% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Follow to Back Control",
-      "text": "From this position, attempt Follow to Back Control. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Follow to Back Control. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Ankle Lock Finish",
-      "text": "From this position, attempt Ankle Lock Finish. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Ankle Lock Finish. This technique is attempted in 6% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Cross Ashi Transition",
-      "text": "From this position, attempt Cross Ashi Transition. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Cross Ashi Transition. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Outside Heel Hook Adjustment",
-      "text": "From this position, attempt Outside Heel Hook Adjustment. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Outside Heel Hook Adjustment. This technique is attempted in 4% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Return to Outside Ashi",
-      "text": "From this position, attempt Return to Outside Ashi. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Return to Outside Ashi. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -352,6 +352,16 @@ Begin in ushiro ashi-garami with both practitioners working at 60% intensity. De
 - **[[Positions/Ashi Garami/Cross Ashi-Garami]]** - Related entanglement with different mechanical properties for transition options
 - **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - Alternative standard configuration for comparison of finishing mechanics
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Danaher-Leg-Lock-System" data-cta="related-system-card" data-system-slug="systems/danaher-leg-lock-system" data-system-name="Danaher Leg Lock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Danaher Leg Lock System</span><span class="system-card__unlocks-badge">Unlocks 30 techniques</span><span class="system-card__blurb">Back-facing ashi variation offering unique submission angles</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

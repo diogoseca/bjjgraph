@@ -162,7 +162,7 @@ description: "Defend against the gogoplata to armbar chain attack. Learn recogni
 
 Defending the gogoplata to armbar transition requires awareness of the chain attack concept and the ability to recognize the switch point between submissions. The defender, trapped in gogoplata control, must balance between defending the primary choke threat and protecting against the armbar transition. The critical defensive window occurs during the attacker's hip pivot phase, where the transition between gogoplata and armbar creates a brief moment of reduced control. Defenders who recognize this window and react with proper posture recovery or arm protection can prevent the armbar from establishing while potentially escaping the submission chain entirely. Understanding that every gogoplata defense carries armbar risk fundamentally changes defensive strategy from isolated submission defense to comprehensive chain awareness.
 
-**Opponent's Starting Position**: [[Positions/Gogoplata Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Gogoplata Control]] (Top)
 
 </section>
 

@@ -10,6 +10,41 @@ description: "Learn Mat Return to Back Mount in BJJ. Step-by-step execution from
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Mat Return to Back Mount",
+  "description": "Learn Mat Return to Back Mount in BJJ. Step-by-step execution from Standing Back Control to grounded Back Control with hook establishment and control consolidation.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Mat Return to Back Mount", "item": "https://bjjgraph.org/Transitions/Mat-Return-to-Back-Mount" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Mat Return to Back Mount",
+  "description": "The Mat Return to Back Mount is a transition from standing back control to grounded back control, using a locked harness grip and lower-body base breaks to bring a standing opponent to the mat while preserving back exposure for the finish.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Learn Mat Return to Back Mount in BJJ. Step-by-step execution from
 
 <section id="overview" class="content-section">
 
-The Mat Return to Back Mount is a fundamental transition that bridges the gap between standing back control and grounded back control, allowing the attacking practitioner to consolidate their dominant position on the mat where submissions become more accessible and escapes more difficult for the defender. This technique capitalizes on the inherent instability of standing back control by bringing the fight to the ground in a controlled manner that preserves upper body control throughout the descent.
+**The Mat Return to Back Mount is a transition from standing back control to grounded back control, using a locked harness grip and lower-body base breaks to bring a standing opponent to the mat while preserving back exposure for the finish.**
+
+Few positions punish hesitation like standing back control, where both the attacker's finish and the defender's escape hinge on the next few seconds, and the mat return is how elite back attackers resolve that tension in their favor. By converting the unstable vertical entanglement into grounded back control, the attacking practitioner consolidates a dominant position on the mat where submissions become more accessible and escapes more difficult for the defender, capitalizing on the inherent instability of standing back control by bringing the fight to the ground in a controlled manner that preserves upper body control throughout the descent.
 
 Strategically, the Mat Return addresses the key limitation of standing back control: the difficulty of finishing submissions while both practitioners are upright. By transitioning to grounded back control, the attacker gains access to rear naked choke finishes with proper leverage, body triangle control, and the psychological pressure that comes with the defender being unable to use their feet for balance. The technique is particularly valuable when the opponent has strong neck defense standing or when the match context favors ground fighting over standing exchanges.
 
@@ -222,5 +259,7 @@ The Mat Return to Back Mount serves as the critical bridge between standing back
 
 
 </section>
+
+
 
 </main>

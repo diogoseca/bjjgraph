@@ -10,6 +10,41 @@ description: "Master Modified Scarf Hold in BJJ. Complete guide covering control
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Modified Scarf Hold",
+  "description": "Master Modified Scarf Hold in BJJ. Complete guide covering control mechanics, submission setups, and escape prevention with detailed perspective analysis.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Modified Scarf Hold", "item": "https://bjjgraph.org/Positions/Modified-Scarf-Hold" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Modified Scarf Hold",
+  "description": "Modified Scarf Hold (Kuzure Kesa-Gatame) is a side-control-family pin where the top player drives chest-to-chest pressure across the opponent's torso while trapping the near arm, immobilizing them and opening armbar, kimura, and choke attacks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master Modified Scarf Hold in BJJ. Complete guide covering control
 
 <section id="overview" class="content-section">
 
-Modified Scarf Hold (Kuzure Kesa-Gatame) is a powerful pin position that combines elements of traditional scarf hold with side control positioning. This position offers exceptional control through chest-to-chest pressure while maintaining superior submission opportunities compared to standard side control variations.
+**Modified Scarf Hold (Kuzure Kesa-Gatame) is a side-control-family pin where the top player drives chest-to-chest pressure across the opponent's torso while trapping the near arm, immobilizing them and opening armbar, kimura, and choke attacks.**
+
+Within the side control family, Modified Scarf Hold occupies the ground between classical Kesa Gatame and orthodox side control, borrowing the head-and-arm entanglement of the former while keeping the squarer chest alignment of the latter. The result is a pin that trades a measure of the scarf hold's hip mobility for heavier, more centered chest pressure and a cleaner platform for upper-body submissions.
 
 The Modified Scarf Hold is characterized by the top player's chest positioned directly over the bottom player's chest, with the near arm controlled and the head typically trapped or pressured. Unlike traditional Kesa Gatame where the head is positioned at the opponent's hip, Modified Scarf Hold maintains a higher chest position that allows for better weight distribution and submission attacks.
 
@@ -108,23 +145,23 @@ Competition applicability is high, particularly in gi competitions where the pos
 ### Available Transitions
 
 
-- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (7% of attempts)
+- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (18% of attempts)
 
-- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (4% of attempts)
+- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (8% of attempts)
 
-- **[[Transitions/Roll to Turtle/Attacker|Roll to Turtle]]** (75% of attempts)
+- **[[Transitions/Roll to Turtle/Attacker|Roll to Turtle]]** (20% of attempts)
 
-- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (5% of attempts)
+- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (22% of attempts)
 
-- **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** (7% of attempts)
+- **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** (16% of attempts)
 
-- **[[Transitions/Ghost Escape/Attacker|Ghost Escape]]** (1% of attempts)
+- **[[Transitions/Ghost Escape/Attacker|Ghost Escape]]** (5% of attempts)
 
-- **[[Transitions/Bridge Escape from Modified Scarf Hold/Attacker|Bridge Escape from Modified Scarf Hold]]** (0% of attempts)
+- **[[Transitions/Bridge Escape from Modified Scarf Hold/Attacker|Bridge Escape from Modified Scarf Hold]]** (4% of attempts)
 
-- **[[Transitions/Bridge from Modified Scarf Hold/Attacker|Bridge from Modified Scarf Hold]]** (0% of attempts)
+- **[[Transitions/Bridge from Modified Scarf Hold/Attacker|Bridge from Modified Scarf Hold]]** (3% of attempts)
 
-- **[[Transitions/Escape Modified Scarf Hold/Attacker|Escape Modified Scarf Hold]]** (1% of attempts)
+- **[[Transitions/Escape Modified Scarf Hold/Attacker|Escape Modified Scarf Hold]]** (4% of attempts)
 
 
 ### Common Mistakes
@@ -181,11 +218,11 @@ Competition applicability is high, particularly in gi competitions where the pos
 ### Available Transitions
 
 
-- **[[Americana from Modified Scarf Hold/Attacker|Americana from Modified Scarf Hold]]** (14% of attempts)
+- **[[Americana from Modified Scarf Hold/Attacker|Americana from Modified Scarf Hold]]** (13% of attempts)
 
-- **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** (14% of attempts)
+- **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** (13% of attempts)
 
-- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (21% of attempts)
+- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (20% of attempts)
 
 - **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (12% of attempts)
 
@@ -197,7 +234,9 @@ Competition applicability is high, particularly in gi competitions where the pos
 
 - **[[Transitions/Modified Scarf to Mount/Attacker|Modified Scarf to Mount]]** (2% of attempts)
 
-- **[[Kimura from Modified Scarf Hold/Attacker|Kimura from Modified Scarf Hold]]** (15% of attempts)
+- **[[Kimura from Modified Scarf Hold/Attacker|Kimura from Modified Scarf Hold]]** (14% of attempts)
+
+- **[[Belly Down Armbar from Modified Scarf Hold/Attacker|Belly Down Armbar from Modified Scarf Hold]]** (4% of attempts)
 
 
 ### Common Mistakes
@@ -248,5 +287,7 @@ Competition applicability is high, particularly in gi competitions where the pos
 
 
 </section>
+
+
 
 </main>

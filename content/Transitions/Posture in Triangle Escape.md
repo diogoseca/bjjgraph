@@ -10,6 +10,41 @@ description: "Master posture recovery to escape triangle chokes in BJJ. Step-by-
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Posture in Triangle Escape",
+  "description": "Master posture recovery to escape triangle chokes in BJJ. Step-by-step guide covering spinal alignment, stacking pressure, and transitions to half guard top.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Posture in Triangle Escape", "item": "https://bjjgraph.org/Transitions/Posture-in-Triangle-Escape" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Posture in Triangle Escape",
+  "description": "Posture in Triangle Escape is the foundational defensive transition where a grappler trapped in a triangle choke uses hip-driven spinal extension and forward stacking pressure to recover posture, relieve arterial compression, and clear into half guard top.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,13 +57,15 @@ description: "Master posture recovery to escape triangle chokes in BJJ. Step-by-
 
 <section id="overview" class="content-section">
 
+**Posture in Triangle Escape is the foundational defensive transition where a grappler trapped in a triangle choke uses hip-driven spinal extension and forward stacking pressure to recover posture, relieve arterial compression, and clear into half guard top.**
+
 Posture in Triangle Escape is a critical defensive transition where the trapped practitioner recovers vertical spinal alignment to reduce choking pressure and create conditions for extracting from the triangle choke configuration. This technique targets the posture recovery phase specifically, serving as the foundational movement that enables all subsequent escape pathways including stacking, arm extraction, and guard passing. Without establishing posture first, higher-level escape techniques become exponentially more difficult as the attacking practitioner optimizes hip angle and tightness to complete the submission.
 
 The biomechanics of posture recovery against a locked triangle require precise coordination of posterior chain engagement, hip drive, and structural alignment. The trapped practitioner must generate upward and forward force simultaneously: upward to break the downward pulling pressure of the triangle lock, and forward to begin stacking the attacker's weight onto their shoulders, compromising hip mobility and choking angle. The force must originate from hip extension through the posterior chain rather than neck muscles, as cervical extensors generate insufficient force to overcome the compressive power of locked legs. This hip-driven approach, combined with proper free hand placement on the opponent's hip to prevent angle optimization, creates sustainable defensive pressure that progressively weakens the triangle structure.
 
 Timing is the primary determinant of success rate, outweighing physical attributes by a significant margin. The optimal posture recovery window occurs during the attacker's leg adjustment phases, when the triangle lock loosens briefly as they reposition for tighter closure. Recognizing these adjustment windows through tactile sensitivity and executing immediate posture recovery during them dramatically increases escape probability. Conversely, attempting posture against a fully cinched triangle with optimal perpendicular angle represents one of the lowest-percentage defensive scenarios in the art. The technique's success leads to half guard top when the postural disruption creates sufficient space for partial extraction and leg clearing, establishing an offensive passing platform from what was moments earlier a life-threatening submission scenario.
 
-**From Position**: [[Positions/Triangle Escape Position]] (Bottom)
+**From Position**: [[Positions/Triangle Escape Position]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -208,7 +245,7 @@ Posture in Triangle Escape serves as the foundational defensive transition withi
 
 - [[Transitions/Complete Triangle Escape]] - Full escape sequence from same position that builds upon successful posture recovery as prerequisite
 
-- [[Transitions/Complete Triangle Escape from Top]] - Related complete escape from the top perspective of triangle escape position
+- [[Transitions/Complete Triangle Escape]] - Related complete escape from the top perspective of triangle escape position
 
 - [[Transitions/Posture Up from Triangle]] - Closely related posture technique initiated from Triangle Control rather than Triangle Escape Position
 
@@ -222,5 +259,7 @@ Posture in Triangle Escape serves as the foundational defensive transition withi
 
 
 </section>
+
+
 
 </main>

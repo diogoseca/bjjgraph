@@ -10,10 +10,55 @@ description: "Master the Americana shoulder lock from Reverse Scarf Hold. Comple
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Americana from Reverse Scarf Hold targets the Shoulder joint (specifically glenohumeral joint and rotator cuff). Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Americana from Reverse Scarf Hold",
+  "description": "Master the Americana shoulder lock from Reverse Scarf Hold. Complete guide with setup, execution steps, defensive counters, and safety protocols.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Americana from Reverse Scarf Hold", "item": "https://bjjgraph.org/Submissions/Americana-from-Reverse-Scarf-Hold" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Americana from Reverse Scarf Hold",
+  "description": "The Americana from Reverse Scarf Hold is a figure-four shoulder lock applied from Ushiro Kesa Gatame, where the attacker's reverse body weight drives the trapped wrist toward the mat to force external rotation of the glenohumeral joint.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Americana from Reverse Scarf Hold is a figure-four shoulder lock applied from Ushiro Kesa Gatame, where the attacker's reverse body weight drives the trapped wrist toward the mat to force external rotation of the glenohumeral joint.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Shoulder Lock</span>
+<span class="meta-chip">Targets Shoulder joint (specifically glenohumeral joint and rotator cuff)</span>
+<span class="meta-chip">68% success</span>
+</div>
+
+> [!danger] Safety
+> Americana from Reverse Scarf Hold targets the Shoulder joint (specifically glenohumeral joint and rotator cuff). Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,57 +75,7 @@ The key mechanical advantage lies in the reverse body angle. With the attacker f
 
 Strategically, the Americana from Reverse Scarf Hold functions as both a primary attack and a positional tool. Even unsuccessful attempts force the defender to expose defensive frames that can be exploited for transitions to mount, north-south, or back control. Advanced practitioners chain the Americana threat with kimura attacks on the same arm, creating a submission dilemma that compounds the positional advantage of the reverse scarf hold.
 
-**Category**: Joint Lock
-**Type**: Shoulder Lock
-**Target Area**: Shoulder joint (specifically glenohumeral joint and rotator cuff)
-**Starting Position**: [[Positions/Side Control/Reverse Scarf Hold]]
-**From Position**: [[Positions/Side Control/Reverse Scarf Hold]] (Top)
-**Success Rate**: 68%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Rotator cuff tear (supraspinatus, infraspinatus, teres minor) | High | 3-6 months with physical therapy, possible surgical intervention |
-| Shoulder capsule damage and labral tears | High | 4-8 months, often requires surgery |
-| AC joint separation or damage | Medium | 6-12 weeks depending on grade |
-| Glenohumeral joint dislocation | CRITICAL | 3-6 months, high risk of chronic instability |
-| Biceps tendon strain or tear | Medium | 4-8 weeks for strain, 3-4 months for tear |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from initial pressure to expected tap. In drilling, apply 10-20% pressure maximum.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any verbal signal)
-- Physical hand tap on opponent or mat (minimum 2 taps)
-- Physical foot tap on mat or opponent
-- Any distress vocalization or unusual sound
-- Slapping mat with free hand repeatedly
-
-
-**Release Protocol**:
-1. Immediately stop all rotational pressure on the shoulder
-2. Release the figure-four grip on the wrist
-3. Carefully lower the arm back to neutral position (do not drop suddenly)
-4. Release control of the elbow and allow opponent to move freely
-5. Check with partner verbally to ensure they are okay
-6. If partner indicates pain, encourage them to keep shoulder mobile and seek medical attention if pain persists
-
-
-**Training Restrictions**:
-- Never spike, jerk, or apply sudden rotational force
-- Never use competition speed or full pressure in training
-- Always allow clear access to tap with free hand
-- Stop immediately at any sign of discomfort (do not wait for tap in drilling)
-- Never practice on partners with existing shoulder injuries without explicit permission and medical clearance
-- Avoid repeated submissions on the same shoulder in a single training session
-
+**Starting Position**: [[Positions/Side Control/Reverse Scarf Hold]] · **From**: [[Positions/Side Control/Reverse Scarf Hold]] (Top)
 
 </section>
 
@@ -225,40 +220,66 @@ Strategically, the Americana from Reverse Scarf Hold functions as both a primary
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Americana]]
 - [[Submissions/Kimura]]
 - [[Transitions/Arm Triangle]]
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Ezekiel Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Side Control/Reverse Scarf Hold]] - Starting position for this submission variant
-- [[Submissions/Americana]] - Parent submission family with shared mechanics
 - [[Positions/Kimura Trap]] - Related submission control position accessible from same arm trap
 - [[Positions/North-South]] - Common transition target when Americana attempt fails
 - [[Positions/Side Control]] - Entry position leading to Reverse Scarf Hold setup
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Rotator cuff tear (supraspinatus, infraspinatus, teres minor) | High | 3-6 months with physical therapy, possible surgical intervention |
+| Shoulder capsule damage and labral tears | High | 4-8 months, often requires surgery |
+| AC joint separation or damage | Medium | 6-12 weeks depending on grade |
+| Glenohumeral joint dislocation | CRITICAL | 3-6 months, high risk of chronic instability |
+| Biceps tendon strain or tear | Medium | 4-8 weeks for strain, 3-4 months for tear |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum from initial pressure to expected tap. In drilling, apply 10-20% pressure maximum.
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any verbal signal)
+- Physical hand tap on opponent or mat (minimum 2 taps)
+- Physical foot tap on mat or opponent
+- Any distress vocalization or unusual sound
+- Slapping mat with free hand repeatedly
+
+
+**Release Protocol**:
+1. Immediately stop all rotational pressure on the shoulder
+2. Release the figure-four grip on the wrist
+3. Carefully lower the arm back to neutral position (do not drop suddenly)
+4. Release control of the elbow and allow opponent to move freely
+5. Check with partner verbally to ensure they are okay
+6. If partner indicates pain, encourage them to keep shoulder mobile and seek medical attention if pain persists
+
+
+**Training Restrictions**:
+- Never spike, jerk, or apply sudden rotational force
+- Never use competition speed or full pressure in training
+- Always allow clear access to tap with free hand
+- Stop immediately at any sign of discomfort (do not wait for tap in drilling)
+- Never practice on partners with existing shoulder injuries without explicit permission and medical clearance
+- Avoid repeated submissions on the same shoulder in a single training session
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Americana from Reverse Scarf Hold leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

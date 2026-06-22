@@ -10,6 +10,41 @@ description: "Master the Butterfly Sweep with Guillotine from Hindulotine bottom
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Butterfly Sweep with Guillotine",
+  "description": "Master the Butterfly Sweep with Guillotine from Hindulotine bottom. Convert opponent\u0027s forward pressure into mount while maintaining guillotine choke throughout.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Butterfly Sweep with Guillotine", "item": "https://bjjgraph.org/Transitions/Butterfly-Sweep-with-Guillotine" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Butterfly Sweep with Guillotine",
+  "description": "The Butterfly Sweep with Guillotine is a Hindulotine-bottom attack that converts an opponent's forward pressure into a sweep to mount while keeping the guillotine locked, creating a no-win sweep-or-submit dilemma.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Butterfly Sweep with Guillotine from Hindulotine bottom
 </div>
 
 <section id="overview" class="content-section">
+
+**The Butterfly Sweep with Guillotine is a Hindulotine-bottom attack that converts an opponent's forward pressure into a sweep to mount while keeping the guillotine locked, creating a no-win sweep-or-submit dilemma.**
 
 The Butterfly Sweep with Guillotine represents one of the most powerful combinations in bottom guard attacking, merging a high-percentage sweep with continuous submission pressure. This technique exploits a fundamental defensive dilemma: when an opponent drives forward to relieve guillotine pressure, they provide the exact energy needed for a butterfly sweep. The sweep uses their forward momentum against them while the guillotine grip maintains constant threat throughout the transition.
 
@@ -220,5 +257,7 @@ The Butterfly Sweep with Guillotine serves as the primary sweep option from Hind
 
 
 </section>
+
+
 
 </main>

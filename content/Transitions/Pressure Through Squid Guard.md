@@ -10,6 +10,41 @@ description: "Master pressure passing through Squid Guard in BJJ. Systematic app
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Pressure Through Squid Guard",
+  "description": "Master pressure passing through Squid Guard in BJJ. Systematic approach to neutralizing lapel control and advancing to half guard using weight and posture.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Pressure Through Squid Guard", "item": "https://bjjgraph.org/Transitions/Pressure-Through-Squid-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Pressure Through Squid Guard",
+  "description": "Pressure Through Squid Guard is a top-player guard pass that aligns weight behind the bottom player's lapel tension and drives sustained shoulder compression to collapse the Squid Guard's hook-and-lapel structure into half guard top.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master pressure passing through Squid Guard in BJJ. Systematic app
 </div>
 
 <section id="overview" class="content-section">
+
+**Pressure Through Squid Guard is a top-player guard pass that aligns weight behind the bottom player's lapel tension and drives sustained shoulder compression to collapse the Squid Guard's hook-and-lapel structure into half guard top.**
 
 Pressure Through Squid Guard is a systematic pressure-based passing approach designed to neutralize the bottom player's lapel entanglement and asymmetric hook structure. Rather than attempting to quickly strip grips and race past the guard, this technique employs methodical weight distribution and forward drive to gradually compress the bottom player's guard structure, forcing them into increasingly compromised positions until the guard collapses into half guard or beyond.
 
@@ -220,5 +257,7 @@ Pressure Through Squid Guard occupies a critical role in the guard passing hiera
 
 
 </section>
+
+
 
 </main>

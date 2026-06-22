@@ -10,6 +10,41 @@ description: "Learn Crackhead Control to Carni transition in BJJ. Transform defe
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Crackhead Control to Carni",
+  "description": "Learn Crackhead Control to Carni transition in BJJ. Transform defensive turtle into leg entanglement attack. Complete guide with setup, execution, and defense.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Crackhead Control to Carni", "item": "https://bjjgraph.org/Transitions/Crackhead-Control-to-Carni" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Crackhead Control to Carni",
+  "description": "Crackhead Control to Carni is a 10th Planet reversal in which the bottom turtle player inverts beneath the chair-sitting top opponent to thread a Carni leg entanglement, converting defensive turtle into a heel-hook and back-take attack.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Learn Crackhead Control to Carni transition in BJJ. Transform defe
 </div>
 
 <section id="overview" class="content-section">
+
+**Crackhead Control to Carni is a 10th Planet reversal in which the bottom turtle player inverts beneath the chair-sitting top opponent to thread a Carni leg entanglement, converting defensive turtle into a heel-hook and back-take attack.**
 
 The Crackhead Control to Carni transition represents one of the most innovative defensive-to-offensive conversions in the 10th Planet Jiu-Jitsu system. When caught in the Crackhead Control defensive position on bottom, this technique allows the defender to exploit the top player's leg positioning by threading underneath and establishing the Carni leg entanglement. Rather than simply escaping to a neutral position, this transition immediately places the former defender in a dominant attacking configuration with heel hook, saddle, and back take opportunities.
 
@@ -226,5 +263,7 @@ The Crackhead Control to Carni transition represents a critical link between the
 
 
 </section>
+
+
 
 </main>

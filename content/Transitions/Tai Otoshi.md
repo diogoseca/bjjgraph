@@ -10,6 +10,41 @@ description: "Master Tai Otoshi (body drop) in BJJ and Judo. Complete execution 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Tai Otoshi",
+  "description": "Master Tai Otoshi (body drop) in BJJ and Judo. Complete execution from standing clinch to dominant position with kuzushi, blocking mechanics, and follow-ups.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Tai Otoshi", "item": "https://bjjgraph.org/Transitions/Tai-Otoshi" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Tai Otoshi",
+  "description": "Tai Otoshi (body drop) is a forward judo throw adapted for BJJ in which the attacker breaks the opponent's balance forward and projects them over an extended, near-straight blocking leg, landing in a dominant top position such as side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master Tai Otoshi (body drop) in BJJ and Judo. Complete execution 
 
 <section id="overview" class="content-section">
 
-Tai Otoshi, meaning 'body drop' in Japanese, is a fundamental judo throw that has been seamlessly integrated into modern Brazilian Jiu-Jitsu as a high-percentage standing technique. This throw exemplifies the principle of maximum efficiency with minimum effort, using timing, off-balancing, and mechanical advantage to project an opponent to the mat. Unlike many judo throws that rely heavily on hip positioning, Tai Otoshi uses the practitioner's leg as a blocking point while pulling the opponent forward and downward in a circular motion. The technique is particularly effective in no-gi grappling due to its reliance on body mechanics rather than gi grips, though traditional sleeve and lapel controls make it even more powerful in the gi. When executed correctly, Tai Otoshi allows a smaller practitioner to throw a significantly larger opponent by exploiting their forward momentum and breaking their base at precisely the right moment. The throw creates immediate scoring opportunities in competition and transitions naturally into dominant positions such as side control, knee on belly, or back control, making it a complete technique that bridges the standing and ground phases of combat.
+**Tai Otoshi (body drop) is a forward judo throw adapted for BJJ in which the attacker breaks the opponent's balance forward and projects them over an extended, near-straight blocking leg, landing in a dominant top position such as side control.**
+
+Originating in Kodokan judo, Tai Otoshi has become one of the most reliable standing entries for BJJ players who want to bypass the guard-passing phase entirely and arrive directly in a dominant pin. This throw exemplifies the principle of maximum efficiency with minimum effort, using timing, off-balancing, and mechanical advantage to project an opponent to the mat. Unlike many judo throws that rely heavily on hip positioning, Tai Otoshi uses the practitioner's leg as a blocking point while pulling the opponent forward and downward in a circular motion. The technique is particularly effective in no-gi grappling due to its reliance on body mechanics rather than gi grips, though traditional sleeve and lapel controls make it even more powerful in the gi. When executed correctly, Tai Otoshi allows a smaller practitioner to throw a significantly larger opponent by exploiting their forward momentum and breaking their base at precisely the right moment. The throw creates immediate scoring opportunities in competition and transitions naturally into dominant positions such as side control, knee on belly, or back control, making it a complete technique that bridges the standing and ground phases of combat.
 
 **From Position**: [[Positions/Standing Position]] (Top)
 **Success Rate**: 60%
@@ -221,5 +258,7 @@ Tai Otoshi serves as a crucial bridge technique in BJJ that connects the standin
 
 
 </section>
+
+
 
 </main>

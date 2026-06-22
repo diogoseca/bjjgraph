@@ -10,10 +10,55 @@ description: "Master the Kimura from Scarf Hold in BJJ. High-percentage shoulder
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Kimura from Scarf Hold Position targets the Shoulder joint, rotator cuff, and shoulder capsule. Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kimura from Scarf Hold Position",
+  "description": "Master the Kimura from Scarf Hold in BJJ. High-percentage shoulder lock using the perpendicular angle and arm isolation of kesa gatame to finish.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Kimura from Scarf Hold Position", "item": "https://bjjgraph.org/Submissions/Kimura-from-Scarf-Hold-Position" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kimura from Scarf Hold Position",
+  "description": "The Kimura from Scarf Hold Position is a figure-four shoulder lock that exploits kesa gatame's pre-trapped near arm and perpendicular seating angle to paint the opponent's hand behind their back for a high-percentage finish.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Kimura from Scarf Hold Position is a figure-four shoulder lock that exploits kesa gatame's pre-trapped near arm and perpendicular seating angle to paint the opponent's hand behind their back for a high-percentage finish.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Shoulder Lock</span>
+<span class="meta-chip">Targets Shoulder joint, rotator cuff, and shoulder capsule</span>
+<span class="meta-chip">62% success</span>
+</div>
+
+> [!danger] Safety
+> Kimura from Scarf Hold Position targets the Shoulder joint, rotator cuff, and shoulder capsule. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,54 +75,7 @@ The perpendicular seating angle unique to scarf hold creates rotational leverage
 
 The grip transition from positional control to figure-four submission is minimal. The attacker releases head control to secure the wrist, threads under the upper arm for the figure-four, and begins rotation while maintaining crushing hip pressure that limits defensive movement. This seamless transition makes the kimura from scarf hold a cornerstone technique for practitioners who build their top game around kesa gatame control systems, and it chains naturally with americana and armbar attacks when the initial kimura is defended.
 
-**Category**: Joint Lock
-**Type**: Shoulder Lock
-**Target Area**: Shoulder joint, rotator cuff, and shoulder capsule
-**Starting Position**: [[Positions/Side Control/Scarf Hold Position]]
-**From Position**: [[Positions/Side Control/Scarf Hold Position]] (Top)
-**Success Rate**: 62%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) | High | 3-9 months with potential surgery requirement |
-| Shoulder capsule damage and glenohumeral dislocation | CRITICAL | 6-12 months, may require surgical repair |
-| Labral tear (glenoid labrum) | High | 4-8 months, often requires arthroscopic surgery |
-| Bicep tendon strain or rupture at the long head | Medium | 6-12 weeks for strain, 3-6 months for rupture |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum rotation in training, allowing partner time to recognize danger and tap before structural damage occurs
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or making any verbal distress sound)
-- Physical hand tap (multiple rapid taps with free hand on any surface)
-- Physical foot tap (multiple taps with either foot on the mat)
-- Any distress signal including screaming or unusual sounds indicating pain
-
-
-**Release Protocol**:
-1. Immediately stop all rotational pressure the instant any tap signal is detected
-2. Slowly return the arm toward neutral position by externally rotating back along the same path
-3. Release the figure-four grip completely only after the arm reaches neutral
-4. Allow partner to self-assess shoulder mobility before continuing training
-5. Never release suddenly or allow the arm to spring back forcefully
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - rotation must be smooth and controlled at all times
-- Never use competition speed or surprise attacks during training rounds
-- Always ensure partner has at least one hand free to deliver a tap signal
-- Do not apply while partner is in an awkward body position that prevents tapping
-- Never combine with excessive weight pressure that restricts breathing while finishing
-- Respect immediate taps without testing or questioning partner's pain tolerance
-
+**Starting Position**: [[Positions/Side Control/Scarf Hold Position]] · **From**: [[Positions/Side Control/Scarf Hold Position]] (Top)
 
 </section>
 
@@ -240,41 +238,64 @@ The grip transition from positional control to figure-four submission is minimal
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Americana]]
 - [[Transitions/Arm Triangle]]
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Kesa Gatame Arm Crush]]
 - [[Submissions/Reverse Kimura]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Side Control/Scarf Hold Position]] - Primary starting position providing the arm isolation that enables this submission
 - [[Positions/Side Control/Kesa Gatame]] - Traditional judo terminology for the starting position with identical mechanics
-- [[Submissions/Americana]] - Primary chain submission when kimura grip is defended by straightening the arm
 - [[Positions/Kimura Trap]] - Control position entered when opponent resists the finish and attacker maintains grip
 - [[Positions/Side Control]] - Parent position family from which scarf hold derives its control principles
 - [[Positions/Side Control/Modified Scarf Hold]] - Related starting position with similar kimura mechanics using underhook variation
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) | High | 3-9 months with potential surgery requirement |
+| Shoulder capsule damage and glenohumeral dislocation | CRITICAL | 6-12 months, may require surgical repair |
+| Labral tear (glenoid labrum) | High | 4-8 months, often requires arthroscopic surgery |
+| Bicep tendon strain or rupture at the long head | Medium | 6-12 weeks for strain, 3-6 months for rupture |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum rotation in training, allowing partner time to recognize danger and tap before structural damage occurs
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or making any verbal distress sound)
+- Physical hand tap (multiple rapid taps with free hand on any surface)
+- Physical foot tap (multiple taps with either foot on the mat)
+- Any distress signal including screaming or unusual sounds indicating pain
+
+
+**Release Protocol**:
+1. Immediately stop all rotational pressure the instant any tap signal is detected
+2. Slowly return the arm toward neutral position by externally rotating back along the same path
+3. Release the figure-four grip completely only after the arm reaches neutral
+4. Allow partner to self-assess shoulder mobility before continuing training
+5. Never release suddenly or allow the arm to spring back forcefully
+
+
+**Training Restrictions**:
+- Never spike or jerk the submission - rotation must be smooth and controlled at all times
+- Never use competition speed or surprise attacks during training rounds
+- Always ensure partner has at least one hand free to deliver a tap signal
+- Do not apply while partner is in an awkward body position that prevents tapping
+- Never combine with excessive weight pressure that restricts breathing while finishing
+- Respect immediate taps without testing or questioning partner's pain tolerance
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Kimura from Scarf Hold Position leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

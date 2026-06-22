@@ -10,6 +10,41 @@ description: "Master the Rodeo Ride to Turtle transition in BJJ. Learn to conver
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Rodeo Ride to Turtle",
+  "description": "Master the Rodeo Ride to Turtle transition in BJJ. Learn to convert dynamic ride control into stable turtle top for systematic back attacks and submissions.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Rodeo Ride to Turtle", "item": "https://bjjgraph.org/Transitions/Rodeo-Ride-to-Turtle" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Rodeo Ride to Turtle",
+  "description": "Rodeo Ride to Turtle is a top-position transition where the attacker abandons dynamic asymmetric ride control to settle into standard turtle top, trading explosive attack angles for a stable seatbelt-to-hooks back-attack platform.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Rodeo Ride to Turtle transition in BJJ. Learn to conver
 </div>
 
 <section id="overview" class="content-section">
+
+**Rodeo Ride to Turtle is a top-position transition where the attacker abandons dynamic asymmetric ride control to settle into standard turtle top, trading explosive attack angles for a stable seatbelt-to-hooks back-attack platform.**
 
 The Rodeo Ride to Turtle transition represents a controlled positional adjustment where the top practitioner converts their dynamic Rodeo Ride control into standard turtle top position. While Rodeo Ride offers powerful asymmetric pressure and explosive attack angles, there are situations where transitioning to conventional turtle top provides a more systematic platform for back attacks, hook insertion, and submission setups. This transition becomes necessary when the bottom practitioner defends Rodeo Ride-specific attacks effectively or when the dynamic ride becomes unstable, forcing the top player to reset to a methodical attacking framework rather than continuing to chase diminishing returns from a compromised position.
 
@@ -211,11 +248,13 @@ The Rodeo Ride to Turtle transition occupies a critical role in the turtle attac
 
 - [[Transitions/Rodeo Ride to Back Control]] - Higher-percentage alternative transition from same starting position
 
-- [[Submissions/Calf Slicer]] - Submission threat available from Rodeo Ride that may precede this transition when defended
+- [[Calf Slicer from Rodeo Ride]] - Submission threat available from Rodeo Ride that may precede this transition when defended
 
 - [[Positions/Crucifix]] - Advanced attacking position accessible from both Rodeo Ride and turtle top
 
 
 </section>
+
+
 
 </main>

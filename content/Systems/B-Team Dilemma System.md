@@ -142,10 +142,23 @@ description: "Master B-Team Dilemma System in BJJ. Craig Jones's strategic frame
 }
 </script>
 
-> B-Team Dilemma System is a advanced difficulty Attack System system. Integrates 6 components.
 
-**System Type**: Attack System
-**Difficulty Level**: Advanced
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "B-Team Dilemma System",
+  "description": "The B-Team Dilemma System is Craig Jones's no-gi attacking framework that chains leg entanglements, back takes, and submissions so every defensive reaction an opponent makes opens the next threat in a perpetual lose-lose loop.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Attack System</span>
+<span class="meta-chip">Advanced difficulty</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -154,11 +167,31 @@ description: "Master B-Team Dilemma System in BJJ. Craig Jones's strategic frame
 
 ## What is B-Team Dilemma System?
 
+**The B-Team Dilemma System is Craig Jones's no-gi attacking framework that chains leg entanglements, back takes, and submissions so every defensive reaction an opponent makes opens the next threat in a perpetual lose-lose loop.**
+
 The B-Team Dilemma System represents a revolutionary approach to modern no-gi grappling, built on the principle of creating perpetual lose-lose scenarios for opponents. Developed and refined by Craig Jones and the B-Team crew, this system forces opponents into making decisions where every choice leads to another dangerous position. Rather than relying on singular techniques, the system connects leg entanglements, back attacks, and submissions into an endless chain of threats that compounds pressure with each defensive reaction.
 
 At its core, the dilemma system recognizes that elite-level opponents will defend your initial attacks. Instead of viewing defense as failure, the system treats every defensive reaction as an opportunity to transition into an even more dangerous position. When an opponent defends the outside heel hook, they expose the back take. When they defend the back take, they return to leg entanglements. This cyclical nature creates mental and physical exhaustion, as opponents realize there is no 'safe' defensive option.
 
 The B-Team approach differs from traditional submission hunting by prioritizing positional chains over individual finishes. Success is measured not by immediate taps, but by controlling the tempo of engagement and forcing opponents into progressively worse positions until submission becomes inevitable. This methodology has proven devastatingly effective in competition, producing multiple ADCC medalists and establishing a new paradigm for systematic offensive grappling.
+
+</section>
+
+
+
+<section id="unlock-graph" class="content-section system-unlock" data-system-unlock hidden>
+
+## Unlock this part of the graph
+
+<p class="section-subtitle">This system teaches the highlighted nodes in the graph. Mark what you already know &mdash; be honest, it's your game.</p>
+
+<div class="system-progress" data-system-progress>
+<svg class="system-progress__ring" viewBox="0 0 44 44" aria-hidden="true"><circle class="system-progress__ring-bg" cx="22" cy="22" r="19"></circle><circle class="system-progress__ring-fill" cx="22" cy="22" r="19"></circle></svg>
+<div class="system-progress__text">You've unlocked <strong class="system-progress__known">0</strong> / <span class="system-progress__total">0</span> techniques in this system</div>
+<button class="system-progress__mark-all" data-mark-system type="button">Mark whole system as known</button>
+</div>
+
+<ul class="system-members" data-system-members></ul>
 
 </section>
 

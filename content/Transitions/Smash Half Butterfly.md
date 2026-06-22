@@ -10,6 +10,41 @@ description: "Master the Smash Half Butterfly pass in BJJ. Learn to neutralize t
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Smash Half Butterfly",
+  "description": "Master the Smash Half Butterfly pass in BJJ. Learn to neutralize the butterfly hook using pressure and weight distribution to advance to half guard top.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Smash Half Butterfly", "item": "https://bjjgraph.org/Transitions/Smash-Half-Butterfly" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Smash Half Butterfly",
+  "description": "The Smash Half Butterfly is a pressure-passing transition from half butterfly top that neutralizes the bottom player's butterfly hook by driving the hips below its leverage point and flattening their hips to clear into half guard top.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Smash Half Butterfly pass in BJJ. Learn to neutralize t
 </div>
 
 <section id="overview" class="content-section">
+
+**The Smash Half Butterfly is a pressure-passing transition from half butterfly top that neutralizes the bottom player's butterfly hook by driving the hips below its leverage point and flattening their hips to clear into half guard top.**
 
 The Smash Half Butterfly is a pressure-based passing technique executed from half butterfly top, designed to neutralize the bottom player's butterfly hook through systematic weight distribution and hip positioning. Rather than attempting to extract around or backstep past the hook, this approach directly attacks the hook's mechanical advantage by driving heavy chest and hip pressure that eliminates the space needed for the hook to generate elevation. The technique represents the most direct solution to the half butterfly guard problem, favoring methodical pressure over speed or agility.
 
@@ -220,5 +257,7 @@ The Smash Half Butterfly occupies a critical role in the guard passing hierarchy
 
 
 </section>
+
+
 
 </main>

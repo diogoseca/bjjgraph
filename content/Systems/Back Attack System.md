@@ -126,10 +126,23 @@ description: "Master systematic back attack sequences in BJJ. Comprehensive fram
 }
 </script>
 
-> Back Attack System is a intermediate difficulty Attack System system. Integrates 4 components.
 
-**System Type**: Attack System
-**Difficulty Level**: Intermediate
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Back Attack System",
+  "description": "The Back Attack System is a control-first offensive framework that secures harness and hook control behind the opponent, then chains the rear naked choke, armbar, bow and arrow, and crucifix so each defensive reaction opens the next finish.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Attack System</span>
+<span class="meta-chip">Intermediate difficulty</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -138,7 +151,29 @@ description: "Master systematic back attack sequences in BJJ. Comprehensive fram
 
 ## What is Back Attack System?
 
-The Back Attack System represents one of the highest-value positions in Brazilian Jiu-Jitsu, combining superior control with multiple high-percentage finishing opportunities. This systematic approach emphasizes securing dominant back control through various entries, maintaining that control against escape attempts, and methodically advancing to submissions. The system prioritizes positional dominance over rushed submission attempts, recognizing that the back position offers such overwhelming advantages that patience and systematic progression yield the highest success rates. Key elements include establishing hooks and harness control, managing opponent defensive reactions, and creating submission opportunities through deliberate sequences rather than isolated attacks. The framework integrates seamlessly with other attacking systems, particularly front headlock series and turtle attacks, creating a comprehensive offensive game that forces opponents into defensive dilemmas. Understanding back attack mechanics transforms practitioners from opportunistic finishers into systematic hunters who can reliably take and maintain the most dominant position in grappling.
+**The Back Attack System is a control-first offensive framework that secures harness and hook control behind the opponent, then chains the rear naked choke, armbar, bow and arrow, and crucifix so each defensive reaction opens the next finish.**
+
+In Brazilian Jiu-Jitsu's positional hierarchy, back control sits at the very top: it is the only dominant position where the opponent cannot see your hands, cannot bring their own strongest submissions to bear, and faces a constant choke threat to the most vulnerable target on the body. The Back Attack System organizes that advantage into a repeatable process rather than a lucky scramble, treating taking the back, keeping the back, and finishing from the back as three connected disciplines that reinforce one another. Practitioners learn to enter from turtle, guard, standing, and transitional scrambles, lock in seatbelt-and-hooks control that survives explosive escapes, and grind through a submission loop in which choke defense feeds the armbar, armbar defense feeds the bow and arrow, and stubborn hand-fighting feeds the crucifix.
+
+The system's defining philosophy is patience. Because the back is so overwhelmingly dominant, rushing a single finish usually trades a permanent advantage for a low-percentage gamble, so the attacker maintains relentless positional pressure and lets the opponent's defensive choices dictate which submission opens next. This approach integrates naturally with front-headlock series, turtle attacks, and leg-entanglement games, all of which can funnel a defending opponent into back exposure. Mastering these mechanics converts a practitioner from an opportunistic back-taker into a systematic hunter who can reliably capture and hold the most decisive position in grappling.
+
+</section>
+
+
+
+<section id="unlock-graph" class="content-section system-unlock" data-system-unlock hidden>
+
+## Unlock this part of the graph
+
+<p class="section-subtitle">This system teaches the highlighted nodes in the graph. Mark what you already know &mdash; be honest, it's your game.</p>
+
+<div class="system-progress" data-system-progress>
+<svg class="system-progress__ring" viewBox="0 0 44 44" aria-hidden="true"><circle class="system-progress__ring-bg" cx="22" cy="22" r="19"></circle><circle class="system-progress__ring-fill" cx="22" cy="22" r="19"></circle></svg>
+<div class="system-progress__text">You've unlocked <strong class="system-progress__known">0</strong> / <span class="system-progress__total">0</span> techniques in this system</div>
+<button class="system-progress__mark-all" data-mark-system type="button">Mark whole system as known</button>
+</div>
+
+<ul class="system-members" data-system-members></ul>
 
 </section>
 
@@ -333,7 +368,7 @@ Begin with static positional drills establishing harness control and hook placem
 - [[Rolling Back Take]] (Transition) - Dynamic entry from various scramble and transition situations
 - [[Single Leg to Back Take]] (Transition) - Standing entry when opponent defends single leg takedown
 - [[Control Maintenance]] (Principle) - Core principle emphasizing positional security before submission
-- [[Submission Chains]] (Principle) - Sequential attack methodology that creates continuous pressure
+- [[Position Chains]] (Principle) - Sequential attack methodology that links positions and submissions into continuous pressure
 - [[Position-Over-Submission Approach]] (Principle) - Strategic framework prioritizing dominant position establishment
 - [[Hand Fighting]] (Principle) - Essential skill for removing defensive frames and creating submission access from back
 - [[Chin Protection]] (Principle) - Understanding opponent's primary defense helps create attack sequences

@@ -10,6 +10,41 @@ description: "Master the Leg Drag Pass in BJJ. Dominant guard passing technique 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Leg Drag Pass",
+  "description": "Master the Leg Drag Pass in BJJ. Dominant guard passing technique from open guard to side control. Success: 45% beginner, 60% intermediate, 75% advanced.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Leg Drag Pass", "item": "https://bjjgraph.org/Transitions/Leg-Drag-Pass" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Leg Drag Pass",
+  "description": "The Leg Drag Pass is an open-guard pass where the top player drags an opponent's leg across their centerline and pins it with chest pressure, collapsing guard retention and opening a direct path to side control or the back.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Leg Drag Pass in BJJ. Dominant guard passing technique 
 </div>
 
 <section id="overview" class="content-section">
+
+**The Leg Drag Pass is an open-guard pass where the top player drags an opponent's leg across their centerline and pins it with chest pressure, collapsing guard retention and opening a direct path to side control or the back.**
 
 The Leg Drag Pass is one of the most fundamental and high-percentage guard passing techniques in modern Brazilian Jiu-Jitsu. This pass works by controlling the opponent's legs and dragging them across their body, creating an angle that eliminates their guard retention capabilities while establishing dominant control. The technique is particularly effective against seated guards, butterfly guard, and various open guard positions where the opponent's legs are extended or not locked together. What makes the leg drag so powerful is its ability to simultaneously shut down the opponent's offensive options while creating a clear path to side control or back control. The pass requires precise timing, proper weight distribution, and the ability to anticipate and counter common guard retention tactics. When executed correctly, the leg drag creates a positional hierarchy shift where the passer moves from a neutral or slightly disadvantaged position directly into a dominant control position. This makes it a cornerstone technique for competitive grapplers at all levels.
 
@@ -196,7 +233,7 @@ The leg drag pass is a central technique in modern Brazilian Jiu-Jitsu passing s
 ## Related Techniques
 
 
-- [[Transitions/Knee Cut Pass]] - Alternative pass when opponent defends leg drag with frames
+- [[Transitions/Knee Slice Pass]] - Alternative pass when opponent defends leg drag with frames
 
 - [[Transitions/Knee Slice Pass]] - Complementary technique using similar angle creation principles
 
@@ -224,6 +261,18 @@ The leg drag pass is a central technique in modern Brazilian Jiu-Jitsu passing s
 
 - [[Transitions/Smash Pass]] - Transition option when opponent inserts butterfly hook during drag
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/No-Gi-Competition-Approach" data-cta="related-system-card" data-system-slug="systems/no-gi-competition-approach" data-system-name="No-Gi Competition Approach" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">No-Gi Competition Approach</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Essential passing sequence for modern no-gi game</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Modern-No-Gi-Passing-System" data-cta="related-system-card" data-system-slug="systems/modern-no-gi-passing-system" data-system-name="Modern No-Gi Passing System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Modern No-Gi Passing System</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">High-percentage floating pass chained with knee slice variations</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Gordon-Ryan-Passing-System" data-cta="related-system-card" data-system-slug="systems/gordon-ryan-passing-system" data-system-name="Gordon Ryan Passing System" data-member-count="17"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Gordon Ryan Passing System</span><span class="system-card__unlocks-badge">Unlocks 17 techniques</span><span class="system-card__blurb">High-percentage passing option that creates back exposure opportunities</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

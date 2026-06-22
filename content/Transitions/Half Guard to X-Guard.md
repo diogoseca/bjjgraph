@@ -10,6 +10,41 @@ description: "Master the Half Guard to X-Guard transition in BJJ. Comprehensive 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Half Guard to X-Guard",
+  "description": "Master the Half Guard to X-Guard transition in BJJ. Comprehensive guide covering entry mechanics, timing, sweep opportunities, and defensive counters.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Half Guard to X-Guard", "item": "https://bjjgraph.org/Transitions/Half-Guard-to-X-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Half Guard to X-Guard",
+  "description": "Half Guard to X-Guard is a bottom-position transition where you thread a butterfly hook behind your opponent's near knee and cross your outside leg over their hip, converting a trapped-leg half guard into the high-percentage X-Guard sweeping platform.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Half Guard to X-Guard transition in BJJ. Comprehensive 
 </div>
 
 <section id="overview" class="content-section">
+
+**Half Guard to X-Guard is a bottom-position transition where you thread a butterfly hook behind your opponent's near knee and cross your outside leg over their hip, converting a trapped-leg half guard into the high-percentage X-Guard sweeping platform.**
 
 The Half Guard to X-Guard transition exploits the mechanical vulnerability created when the top player's weight shifts forward or they attempt to stand from half guard. By threading a butterfly hook behind the opponent's near knee while retaining the half guard leg trap, the bottom player creates a butterfly half guard intermediate that bridges directly into the X-Guard configuration. This transition converts a defensive retention position into one of the most powerful sweeping and leg entanglement platforms in modern grappling, fundamentally changing the positional dynamic from survival to attack.
 
@@ -216,13 +253,13 @@ The Half Guard to X-Guard transition occupies a critical junction in the bottom 
 
 - [[Transitions/Deep Half Entry from Half Guard]] - Related transition using similar hip escape mechanics to get underneath opponent
 
-- [[Transitions/Half Butterfly Sweep]] - Complementary sweep technique from the intermediate butterfly half guard position
-
 - [[Positions/Dogfight Position]] - Alternative outcome when underhook battle leads to mutual standing rather than X-Guard entry
 
 - [[Positions/Ashi Garami]] - Leg entanglement system accessible through X-Guard when opponent defends sweeps
 
 
 </section>
+
+
 
 </main>

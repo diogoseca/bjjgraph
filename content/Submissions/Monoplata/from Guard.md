@@ -10,10 +10,55 @@ description: "Master the Monoplata from Guard in BJJ. Complete guide with safety
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Monoplata from Guard targets the Shoulder joint and rotator cuff. Risk: Rotator cuff tear or strain. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Monoplata from Guard",
+  "description": "Master the Monoplata from Guard in BJJ. Complete guide with safety protocols, setup, and execution steps. Success rates: Beginner 25%, Intermediate 40%, Advanced 55%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Monoplata from Guard", "item": "https://bjjgraph.org/Submissions/Monoplata-from-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Monoplata from Guard",
+  "description": "The Monoplata from Guard is an advanced shoulder lock that isolates the opponent's arm and traps it in a figure-four leg configuration, applying rotational pressure to the shoulder joint without the forward roll of a traditional omoplata.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Monoplata from Guard is an advanced shoulder lock that isolates the opponent's arm and traps it in a figure-four leg configuration, applying rotational pressure to the shoulder joint without the forward roll of a traditional omoplata.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Shoulder Lock</span>
+<span class="meta-chip">Targets Shoulder joint and rotator cuff</span>
+<span class="meta-chip">48% success</span>
+</div>
+
+> [!danger] Safety
+> Monoplata from Guard targets the Shoulder joint and rotator cuff. Primary risk: Rotator cuff tear or strain. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -24,57 +69,9 @@ description: "Master the Monoplata from Guard in BJJ. Complete guide with safety
 
 <section id="overview" class="content-section">
 
-The Monoplata from Guard is an advanced shoulder lock that combines elements of the traditional omoplata with a unique single-leg entanglement configuration. This submission attacks the opponent's shoulder joint by isolating their arm while using your legs to create a figure-four lock around their trapped limb. The technique is particularly effective when transitioning from failed omoplata attempts or when the opponent attempts to posture up aggressively from guard. The Monoplata creates severe pressure on the shoulder capsule and rotator cuff, making it a high-percentage finish once proper control is established. Unlike the traditional omoplata which rolls the opponent forward, the Monoplata maintains a more static control position while applying rotational pressure to the shoulder joint. This submission requires excellent hip mobility, precise leg positioning, and a deep understanding of shoulder mechanics to execute safely and effectively. The technique has gained popularity in modern no-gi competition due to its effectiveness against strong postural defenses and its ability to chain seamlessly with other guard attacks.
+Emerging from the rubber guard and omoplata systems of modern no-gi grappling, the Monoplata earned its place as the answer to the strong-postured opponent who reliably defends the conventional omoplata roll. This submission attacks the opponent's shoulder joint by isolating their arm while using your legs to create a figure-four lock around their trapped limb. It is particularly effective when transitioning from failed omoplata attempts or when the opponent attempts to posture up aggressively from guard. The Monoplata creates severe pressure on the shoulder capsule and rotator cuff, making it a high-percentage finish once proper control is established. Unlike the traditional omoplata which rolls the opponent forward, the Monoplata maintains a more static control position while applying rotational pressure to the shoulder joint. This submission requires excellent hip mobility, precise leg positioning, and a deep understanding of shoulder mechanics to execute safely and effectively. It chains seamlessly with triangles, armbars, and back takes, rewarding practitioners who treat it as one node in an integrated guard-attack system rather than an isolated trick.
 
-**Category**: Joint Lock
-**Type**: Shoulder Lock
-**Target Area**: Shoulder joint and rotator cuff
-**Starting Position**: [[Positions/Closed Guard]]
-**From Position**: [[Positions/Closed Guard]] (Bottom)
-**Success Rate**: 48%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Rotator cuff tear or strain | High | 6-12 weeks for minor tears, 4-6 months for major tears |
-| Shoulder dislocation or subluxation | CRITICAL | 3-6 months with potential for chronic instability |
-| Labrum damage | High | 6-9 months, may require surgical repair |
-| AC joint sprain | Medium | 2-6 weeks depending on severity |
-
-
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum pressure application with constant communication
-
-**Tap Signals**:
-- Verbal tap (primary signal)
-- Physical hand tap on legs or mat
-- Physical foot tap on mat
-- Any distress vocalization
-- Repeated tapping on your body
-
-
-**Release Protocol**:
-1. Immediately stop all rotational pressure on the shoulder
-2. Release the figure-four leg configuration
-3. Unwrap your legs from around the arm
-4. Allow the partner to extract their arm naturally
-5. Check for shoulder mobility and pain before continuing training
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - apply smooth, progressive pressure only
-- Never use competition speed in training - always start at 20-30% intensity
-- Always maintain verbal communication with training partner throughout
-- Never apply the finish without establishing full control first
-- Beginners must drill this with 0% resistance for minimum 50 repetitions
-- Never practice on partners with pre-existing shoulder injuries without explicit approval
-
+**Starting Position**: [[Positions/Closed Guard]] · **From**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
 
@@ -249,10 +246,9 @@ The Monoplata from Guard is an advanced shoulder lock that combines elements of 
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Omoplata]]
 - [[Submissions/Baratoplata]]
 - [[Submissions/Triangle Choke]]
@@ -260,14 +256,6 @@ The Monoplata from Guard is an advanced shoulder lock that combines elements of 
 - [[Transitions/Gogoplata]]
 - [[Submissions/Kimura]]
 - [[Transitions/Inverted Triangle]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Omoplata Control]] - Primary transition position - monoplata often comes from failed omoplata
 - [[Positions/Triangle Control]] - Alternative submission when opponent posts arm during triangle setup
 - [[Positions/Rubber Guard/Mission Control]] - Rubber guard position that creates excellent monoplata opportunities
@@ -279,17 +267,51 @@ The Monoplata from Guard is an advanced shoulder lock that combines elements of 
 - [[Positions/Rubber Guard]] - Guard system with multiple monoplata entry options
 - [[Positions/Gogoplata Control]] - Related advanced guard submission with similar control requirements
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Rotator cuff tear or strain | High | 6-12 weeks for minor tears, 4-6 months for major tears |
+| Shoulder dislocation or subluxation | CRITICAL | 3-6 months with potential for chronic instability |
+| Labrum damage | High | 6-9 months, may require surgical repair |
+| AC joint sprain | Medium | 2-6 weeks depending on severity |
+
+
+**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum pressure application with constant communication
+
+**Tap Signals**:
+- Verbal tap (primary signal)
+- Physical hand tap on legs or mat
+- Physical foot tap on mat
+- Any distress vocalization
+- Repeated tapping on your body
+
+
+**Release Protocol**:
+1. Immediately stop all rotational pressure on the shoulder
+2. Release the figure-four leg configuration
+3. Unwrap your legs from around the arm
+4. Allow the partner to extract their arm naturally
+5. Check for shoulder mobility and pain before continuing training
+
+
+**Training Restrictions**:
+- Never spike or jerk the submission - apply smooth, progressive pressure only
+- Never use competition speed in training - always start at 20-30% intensity
+- Always maintain verbal communication with training partner throughout
+- Never apply the finish without establishing full control first
+- Beginners must drill this with 0% resistance for minimum 50 repetitions
+- Never practice on partners with pre-existing shoulder injuries without explicit approval
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Monoplata from Guard leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

@@ -16,7 +16,7 @@ description: "How to execute Knee Tap in BJJ. Attacking perspective with setup, 
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Knee Tap in BJJ",
-  "description": "Step-by-step guide for executing Knee Tap from Butterfly Half Guard/Bottom.",
+  "description": "Step-by-step guide for executing Knee Tap from Standing Position/Top.",
   "step": [
     {
       "@type": "HowToStep",
@@ -174,7 +174,7 @@ description: "How to execute Knee Tap in BJJ. Attacking perspective with setup, 
 
 The Knee Tap is a fundamental wrestling-based takedown that exploits opponent's weight distribution and stance. By attacking the knee while controlling the upper body, you create a mechanical advantage that collapses their base. This technique is particularly effective against opponents who overcommit their weight forward or stand square in their stance. The Knee Tap works across all skill levels and translates seamlessly between gi and no-gi environments. It requires minimal setup compared to more complex takedowns, making it an essential tool for pulling guard practitioners who need reliable standing entries. The technique's beauty lies in its simplicity - by simultaneously pulling the upper body while sweeping the lower support, you create an unstoppable collapse that transitions directly into dominant top positions.
 
-**From Position**: [[Positions/Half Guard/Butterfly Half Guard]] (Bottom)
+**From Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -331,5 +331,7 @@ Develop automatic transitions when knee tap is defended. Practice knee tap to si
 The knee tap is relatively safe compared to other takedowns as it doesn't involve high amplitude throws or dangerous falling angles. Primary safety concern is avoiding guillotine exposure by keeping head position high and outside throughout entry. When drilling, the person being taken down should practice breakfalling by turning toward the attacking side and slapping the mat. Avoid jerking the knee violently during practice - use controlled pulling motion to protect your partner's knee joint. In live training, be aware of cage or wall proximity to prevent partner from impacting hard surfaces during the fall. For those with knee injuries, communicate clearly with partners before drilling this technique as the knee manipulation can aggravate existing conditions. Always release knee grip immediately upon completion in training to avoid unnecessary joint stress.
 
 </section>
+
+
 
 </main>

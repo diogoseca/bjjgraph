@@ -10,6 +10,41 @@ description: "Master the arm drag from clinch bottom in BJJ. Complete guide to g
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Arm Drag from Clinch Bottom",
+  "description": "Master the arm drag from clinch bottom in BJJ. Complete guide to grip mechanics, back take entries, and wrestling-based transitions for gi and no-gi.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Arm Drag from Clinch Bottom", "item": "https://bjjgraph.org/Transitions/Arm-Drag-from-Clinch-Bottom" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Arm Drag from Clinch Bottom",
+  "description": "The arm drag from clinch bottom is a wrestling-based back-take entry where you trap an opponent's extended arm two-on-one, drag it across your centerline, and step offline to expose their back from a disadvantaged standing clinch.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the arm drag from clinch bottom in BJJ. Complete guide to g
 </div>
 
 <section id="overview" class="content-section">
+
+**The arm drag from clinch bottom is a wrestling-based back-take entry where you trap an opponent's extended arm two-on-one, drag it across your centerline, and step offline to expose their back from a disadvantaged standing clinch.**
 
 The arm drag from clinch bottom is one of the highest-percentage back take entries available from a disadvantageous standing engagement. When you find yourself in a clinch where your opponent has established superior grips, head position, or forward pressure, the arm drag converts their offensive commitment into a pathway to the most dominant position in grappling. Rather than fighting a losing grip battle or absorbing pressure, you redirect your opponent's extended arm across your body while stepping offline, exposing their back for immediate control.
 
@@ -222,5 +259,7 @@ The arm drag from clinch bottom integrates into the broader BJJ standing game as
 
 
 </section>
+
+
 
 </main>

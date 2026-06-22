@@ -10,6 +10,41 @@ description: "Master leg drag control in BJJ. Complete analysis of this dominant
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Leg Drag Control",
+  "description": "Master leg drag control in BJJ. Complete analysis of this dominant passing position covering control mechanics, submission attacks, and strategic transitions from both perspectives.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Leg Drag Control", "item": "https://bjjgraph.org/Positions/Leg-Drag-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Leg Drag Control",
+  "description": "Leg Drag Control is a dominant guard-passing position where the top player drags an opponent's leg across their body, using it as a barrier to pin the hips, block guard recovery, and open paths to the back, mount, and side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master leg drag control in BJJ. Complete analysis of this dominant
 </div>
 
 <section id="overview" class="content-section">
+
+**Leg Drag Control is a dominant guard-passing position where the top player drags an opponent's leg across their body, using it as a barrier to pin the hips, block guard recovery, and open paths to the back, mount, and side control.**
 
 Leg drag control represents a critical transitional position in Brazilian Jiu-Jitsu where the passer has successfully controlled one of the opponent's legs and achieved significant hip dominance. This position sits at a strategic crossroads in the passing sequence—the passer has cleared the guard but has not yet achieved a traditional scoring position like side control or mount. The leg drag creates a unique control dynamic where the top player uses the opponent's own leg as a barrier to prevent re-guarding while simultaneously opening pathways to dominant positions and submissions.
 
@@ -181,13 +218,13 @@ Modern competitive grappling has elevated leg drag control from a transitional m
 ### Available Transitions
 
 
-- **[[Transitions/Leg Drag Pass to Side Control/Attacker|Leg Drag Pass to Side Control]]** (23% of attempts)
+- **[[Transitions/Leg Drag Pass to Side Control/Attacker|Leg Drag Pass to Side Control]]** (22% of attempts)
 
-- **[[Transitions/Leg Drag to Back Take/Attacker|Leg Drag to Back Take]]** (21% of attempts)
+- **[[Transitions/Leg Drag to Back Take/Attacker|Leg Drag to Back Take]]** (20% of attempts)
 
 - **[[Transitions/Leg Drag to Mount/Attacker|Leg Drag to Mount]]** (12% of attempts)
 
-- **[[Transitions/Leg Drag to Knee on Belly/Attacker|Leg Drag to Knee on Belly]]** (12% of attempts)
+- **[[Transitions/Leg Drag to Knee on Belly/Attacker|Leg Drag to Knee on Belly]]** (11% of attempts)
 
 - **[[Transitions/Leg Drag to North-South/Attacker|Leg Drag to North-South]]** (7% of attempts)
 
@@ -198,6 +235,8 @@ Modern competitive grappling has elevated leg drag control from a transitional m
 - **[[Transitions/Leg Drag to Technical Mount/Attacker|Leg Drag to Technical Mount]]** (8% of attempts)
 
 - **[[Transitions/Leg Drag to Darce Setup/Attacker|Leg Drag to Darce Setup]]** (7% of attempts)
+
+- **[[Darce Choke from Leg Drag/Attacker|Darce Choke from Leg Drag]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -252,6 +291,16 @@ Modern competitive grappling has elevated leg drag control from a transitional m
 
 - **[[Positions/X-Guard/Single Leg X-Guard]]** - Alternative guard bottom may attempt during scramble
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Modern-No-Gi-Passing-System" data-cta="related-system-card" data-system-slug="systems/modern-no-gi-passing-system" data-system-name="Modern No-Gi Passing System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Modern No-Gi Passing System</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Advanced passing position accessed from headquarters control</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

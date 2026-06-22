@@ -3,6 +3,7 @@
   "slug": "quarter-guard",
   "description": "Master Quarter Guard in BJJ. Strategic guide covering bottom defense, sweeps, back takes, top passing pressure, and control transitions with complete perspective analysis.",
   "variant_uniqueness": "Reduced leg control demands immediate action",
+  "summary": "Quarter Guard is a compromised half-guard variation where the bottom player retains only minimal leg control—roughly a quarter of the entanglement—forcing an immediate race between bottom-side sweeps or back takes and top-side pass completion.",
   "overview": "Quarter Guard represents a critical transitional position in Brazilian Jiu-Jitsu's guard passing and retention hierarchy, occupying the narrow space between functional half guard and completed pass. This position emerges when the top player has advanced significantly past the bottom player's hip line but the bottom player maintains minimal leg engagement—typically just a weakened knee shield, partial hook, or quarter lockdown. Unlike full half guard where the bottom player has substantial control and time to develop attacks, quarter guard is inherently unstable and demands immediate decision-making from both practitioners.\n\nThe position's name derives from the reduced control compared to half guard—where half guard represents roughly fifty percent leg entanglement, quarter guard represents approximately twenty-five percent, creating a 3:1 advantage for the passer. This asymmetry fundamentally alters the tactical landscape: the bottom player cannot afford passive defense and must immediately attack with sweeps, back takes, or guard recovery, while the top player must capitalize on their advantageous position by completing the pass within seconds rather than settling into static control.\n\nQuarter guard occurs most frequently during guard passing sequences when defenders attempt to retain half guard but cannot fully stop the pass, during scrambles where both players are transitioning between positions, or as part of systematic half guard approaches where the bottom player deliberately enters quarter guard to access specific techniques like the old school sweep or electric chair. Understanding quarter guard's transient nature is essential—it should be viewed as a decision point rather than a sustainable position, with success measured by how quickly and effectively practitioners transition to more advantageous states rather than how long they can maintain the position itself.",
   "key_principles": [
     "Quarter guard is fundamentally transitional—neither player should remain static, as the position deteriorates rapidly without active progression",
@@ -636,31 +637,31 @@
     "transitions": [
       {
         "transition": "Old School Sweep",
-        "attempt_probability": 10
+        "attempt_probability": 16
       },
       {
         "transition": "Half Guard to Back Take",
-        "attempt_probability": 9
+        "attempt_probability": 12
       },
       {
         "transition": "Underhook Sweep from Half",
-        "attempt_probability": 10
+        "attempt_probability": 15
       },
       {
         "transition": "Deep Half Entry",
-        "attempt_probability": 11
+        "attempt_probability": 14
       },
       {
         "transition": "Rolling Back Take",
-        "attempt_probability": 8
+        "attempt_probability": 10
       },
       {
         "transition": "Electric Chair Transition",
-        "attempt_probability": 6
+        "attempt_probability": 8
       },
       {
         "transition": "Knee Shield Retention",
-        "attempt_probability": 33
+        "attempt_probability": 12
       },
       {
         "transition": "Lockdown Recovery",

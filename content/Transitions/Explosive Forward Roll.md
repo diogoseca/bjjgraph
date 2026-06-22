@@ -10,6 +10,41 @@ description: "Master the Explosive Forward Roll escape from standing back contro
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Explosive Forward Roll",
+  "description": "Master the Explosive Forward Roll escape from standing back control. Learn step-by-step execution to recover guard. Success rates: Beginner 30%, Advanced 65%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Explosive Forward Roll", "item": "https://bjjgraph.org/Transitions/Explosive-Forward-Roll" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Explosive Forward Roll",
+  "description": "The Explosive Forward Roll is a high-commitment escape from standing back control where the bottom player tucks the chin, controls a wrist, and rolls diagonally forward to carry the opponent over and recover a top guard position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Explosive Forward Roll escape from standing back contro
 
 <section id="overview" class="content-section">
 
-The Explosive Forward Roll is a high-commitment escape from standing back control that uses momentum and inversion to break the opponent's grip structure and recover to a guard position. Unlike slower, grip-fighting based escapes, this technique relies on explosive timing and full body commitment to create a scramble situation where you can recover facing your opponent. The roll must be executed with sufficient forward drive to carry your opponent over you or force them to release their grips to avoid being swept.
+**The Explosive Forward Roll is a high-commitment escape from standing back control where the bottom player tucks the chin, controls a wrist, and rolls diagonally forward to carry the opponent over and recover a top guard position.**
+
+Among the escapes available from standing back control, this roll sits at the high-risk, high-reward extreme, trading the safety of patient grip-fighting for the chance to completely reverse a losing exchange in a single explosive movement. Unlike slower, grip-fighting based escapes, this technique relies on explosive timing and full body commitment to create a scramble situation where you can recover facing your opponent. The roll must be executed with sufficient forward drive to carry your opponent over you or force them to release their grips to avoid being swept.
 
 This escape is particularly effective when the opponent has consolidated harness control but hasn't yet secured hooks or a body triangle. The standing position creates inherent instability that you exploit by suddenly changing levels and rolling forward, using the opponent's own weight against them. The technique requires courage to commit fully, as half-hearted attempts result in worse positions. When executed with proper timing and mechanics, you can transition directly to half guard or open guard, immediately reversing the dynamic from defensive survival to offensive guard play.
 
@@ -215,5 +252,7 @@ The Explosive Forward Roll fits within the broader standing back control escape 
 
 
 </section>
+
+
 
 </main>

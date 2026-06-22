@@ -10,10 +10,55 @@ description: "Master Monoplata from Mount in BJJ. Complete safety guide covering
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Monoplata from Mount targets the Shoulder joint and rotator cuff. Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Monoplata from Mount",
+  "description": "Master Monoplata from Mount in BJJ. Complete safety guide covering setup, execution, and injury prevention. Success rates: Beginner 25%, Intermediate 40%, Advanced 55%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Monoplata from Mount", "item": "https://bjjgraph.org/Submissions/Monoplata-from-Mount" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Monoplata from Mount",
+  "description": "The Monoplata from Mount is an advanced shoulder lock that isolates one arm and uses a leg-based figure-four from the dominant mount to torque the shoulder joint, forcing a tap while closing off common omoplata escape routes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Monoplata from Mount is an advanced shoulder lock that isolates one arm and uses a leg-based figure-four from the dominant mount to torque the shoulder joint, forcing a tap while closing off common omoplata escape routes.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Shoulder Lock</span>
+<span class="meta-chip">Targets Shoulder joint and rotator cuff</span>
+<span class="meta-chip">48% success</span>
+</div>
+
+> [!danger] Safety
+> Monoplata from Mount targets the Shoulder joint and rotator cuff. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -26,55 +71,7 @@ description: "Master Monoplata from Mount in BJJ. Complete safety guide covering
 
 The Monoplata from Mount is an advanced shoulder lock submission that combines elements of the traditional omoplata with mounted control. This technique targets the opponent's shoulder joint and rotator cuff by isolating one arm and applying rotational pressure through a leg-based figure-four configuration. From the mount position, the attacker transitions to isolate the opponent's arm, threads their leg through to create the lock, and applies controlled pressure to force the tap. The monoplata is particularly effective against opponents who defend by framing with their arms or attempting to create distance from mount. Unlike the traditional omoplata which is executed from guard positions, the monoplata from mount provides superior control and eliminates many common escape routes. The technique requires excellent hip mobility, precise timing, and thorough understanding of shoulder mechanics to execute safely. When performed correctly, the monoplata creates an inescapable position where the opponent must tap or risk serious shoulder injury. This submission has gained popularity in modern no-gi grappling due to its effectiveness against athletic opponents who maintain strong defensive frames from bottom mount.
 
-**Category**: Joint Lock
-**Type**: Shoulder Lock
-**Target Area**: Shoulder joint and rotator cuff
-**Starting Position**: [[Positions/Mount]]
-**From Position**: [[Positions/Mount]] (Top)
-**Success Rate**: 48%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) | CRITICAL | 3-12 months with surgery possible |
-| Shoulder dislocation (anterior or posterior) | High | 6-12 weeks minimum |
-| Labrum tear (glenoid labrum damage) | High | 4-9 months with potential surgery |
-| AC joint separation | Medium | 4-8 weeks |
-
-
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum application time in training
-
-**Tap Signals**:
-- Verbal tap (say 'tap' clearly)
-- Physical hand tap on opponent or mat
-- Physical foot tap on mat
-- Any verbal distress signal
-- Screaming or shouting
-
-
-**Release Protocol**:
-1. Immediately release leg pressure and remove the figure-four configuration
-2. Unthread your leg from around opponent's arm slowly
-3. Return to neutral mount position without additional pressure
-4. Allow opponent time to assess shoulder before continuing
-5. Check with training partner verbally before resuming
-
-
-**Training Restrictions**:
-- Never apply this submission at competition speed during training
-- Never jerk or spike the shoulder joint
-- Always ensure training partner has access to tap with free hand
-- Do not practice on training partners with existing shoulder injuries
-- Stop immediately if opponent shows any sign of shoulder instability
-- White belts should drill mechanics only with zero resistance
-
+**Starting Position**: [[Positions/Mount]] · **From**: [[Positions/Mount]] (Top)
 
 </section>
 
@@ -238,10 +235,9 @@ The Monoplata from Mount is an advanced shoulder lock submission that combines e
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Omoplata]]
 - [[Transitions/Arm Triangle]]
 - [[Submissions/Monoplata]]
@@ -254,14 +250,6 @@ The Monoplata from Mount is an advanced shoulder lock submission that combines e
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Belly Down Armbar]]
 - [[Submissions/Armbar]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Mount]] - Primary starting position for this technique
 - [[Positions/Mount/High Mount]] - Optimal position for isolating opponent's arm before transition
 - [[Positions/Mount/S Mount]] - Alternative mount position that can transition to monoplata
@@ -273,17 +261,51 @@ The Monoplata from Mount is an advanced shoulder lock submission that combines e
 - [[Transitions/Mount to Armbar]] - Common transition that can flow into monoplata if defended
 - [[Positions/Closed Guard]] - Guard position where similar leg threading mechanics apply for omoplata
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) | CRITICAL | 3-12 months with surgery possible |
+| Shoulder dislocation (anterior or posterior) | High | 6-12 weeks minimum |
+| Labrum tear (glenoid labrum damage) | High | 4-9 months with potential surgery |
+| AC joint separation | Medium | 4-8 weeks |
+
+
+**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum application time in training
+
+**Tap Signals**:
+- Verbal tap (say 'tap' clearly)
+- Physical hand tap on opponent or mat
+- Physical foot tap on mat
+- Any verbal distress signal
+- Screaming or shouting
+
+
+**Release Protocol**:
+1. Immediately release leg pressure and remove the figure-four configuration
+2. Unthread your leg from around opponent's arm slowly
+3. Return to neutral mount position without additional pressure
+4. Allow opponent time to assess shoulder before continuing
+5. Check with training partner verbally before resuming
+
+
+**Training Restrictions**:
+- Never apply this submission at competition speed during training
+- Never jerk or spike the shoulder joint
+- Always ensure training partner has access to tap with free hand
+- Do not practice on training partners with existing shoulder injuries
+- Stop immediately if opponent shows any sign of shoulder instability
+- White belts should drill mechanics only with zero resistance
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Monoplata from Mount leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

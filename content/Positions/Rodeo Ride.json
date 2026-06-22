@@ -3,7 +3,8 @@
   "slug": "rodeo-ride",
   "description": "Master Rodeo Ride position in BJJ. Advanced turtle attack with asymmetric control mechanics. Complete guide covering both offensive attacks and defensive escapes with strategic analysis.",
   "variant_uniqueness": "Dynamic pressure replaces static control",
-  "overview": "Rodeo Ride is an advanced turtle attack position where the top practitioner maintains control over a turtled opponent using asymmetric grips and dynamic positioning. Unlike traditional turtle top control, Rodeo Ride emphasizes mobility and constant pressure adjustment, allowing the attacker to flow between various back attack entries, submission attempts, and control positions. The position gets its name from the rider-like posture and movement pattern required to maintain control while the opponent attempts to escape.\n\nThis position represents a critical transition state in the turtle attack game, bridging the gap between initial turtle control and full back control or submission positions. The top practitioner typically maintains control through a combination of hip pressure, strategic gripping (often involving the near arm and far lapel or collar), and active weight distribution that prevents the bottom practitioner from recovering guard or standing up. Success in Rodeo Ride requires excellent balance, timing, and the ability to read opponent movement patterns to capitalize on escape attempts.\n\nRodeo Ride is particularly effective in both gi and no-gi contexts, though the specific control mechanisms differ. In gi, lapel and collar grips provide powerful control points, while no-gi variants rely more heavily on body positioning, underhooks, and seat belt control. The position has gained prominence in modern competition BJJ as a high-percentage path to back control and offers multiple submission opportunities including chokes from turtle and various arm attacks. The position's effectiveness lies in its transitional nature—practitioners who excel from Rodeo Ride understand it as a launching pad for attacks rather than a static holding position.",
+  "summary": "Rodeo Ride is an advanced turtle-attack position where the top player rides a turtled opponent with asymmetric grips and dynamic, shifting pressure, using constant micro-adjustments to flow between back takes, the truck, and submissions while denying escape.",
+  "overview": "Adapted from wrestling's riding game for the modern turtle-attack systems of no-gi grappling, this position trades static top control for relentless, shifting pressure. Unlike traditional turtle top control, Rodeo Ride emphasizes mobility and constant pressure adjustment, allowing the attacker to flow between various back attack entries, submission attempts, and control positions. The position gets its name from the rider-like posture and movement pattern required to maintain control while the opponent attempts to escape.\n\nThis position represents a critical transition state in the turtle attack game, bridging the gap between initial turtle control and full back control or submission positions. The top practitioner typically maintains control through a combination of hip pressure, strategic gripping (often involving the near arm and far lapel or collar), and active weight distribution that prevents the bottom practitioner from recovering guard or standing up. Success in Rodeo Ride requires excellent balance, timing, and the ability to read opponent movement patterns to capitalize on escape attempts.\n\nRodeo Ride is particularly effective in both gi and no-gi contexts, though the specific control mechanisms differ. In gi, lapel and collar grips provide powerful control points, while no-gi variants rely more heavily on body positioning, underhooks, and seat belt control. The position has gained prominence in modern competition BJJ as a high-percentage path to back control and offers multiple submission opportunities including chokes from turtle and various arm attacks. The position's effectiveness lies in its transitional nature—practitioners who excel from Rodeo Ride understand it as a launching pad for attacks rather than a static holding position.",
   "key_principles": [
     "Maintain constant hip pressure on opponent's torso while staying mobile and ready to adjust position",
     "Control the near arm to prevent opponent from posting and creating defensive frames",
@@ -293,23 +294,23 @@
     "transitions": [
       {
         "transition": "Turtle to Back Take",
-        "attempt_probability": 30
+        "attempt_probability": 28
       },
       {
         "transition": "Crab Ride to Back",
-        "attempt_probability": 14
+        "attempt_probability": 13
       },
       {
         "transition": "Turtle to Truck",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "Crucifix from Turtle",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "Clock Choke from Rodeo Ride",
-        "attempt_probability": 8
+        "attempt_probability": 7
       },
       {
         "transition": "Bow and Arrow Choke from Rodeo Ride",
@@ -317,7 +318,7 @@
       },
       {
         "transition": "Consolidate Mount",
-        "attempt_probability": 8
+        "attempt_probability": 7
       },
       {
         "transition": "Rolling Back Take",
@@ -333,7 +334,15 @@
       },
       {
         "transition": "Rodeo Ride to Turtle",
-        "attempt_probability": 1
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Calf Slicer from Rodeo Ride",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Rear Naked Choke from Rodeo",
+        "attempt_probability": 4
       }
     ],
     "flashcards": [
@@ -581,11 +590,11 @@
     "transitions": [
       {
         "transition": "Turtle to Guard",
-        "attempt_probability": 52
+        "attempt_probability": 50
       },
       {
         "transition": "Technical Stand-up",
-        "attempt_probability": 13
+        "attempt_probability": 12
       },
       {
         "transition": "Granby Roll to Guard",
@@ -593,7 +602,7 @@
       },
       {
         "transition": "Rolling to Guard",
-        "attempt_probability": 12
+        "attempt_probability": 11
       },
       {
         "transition": "Elbow Escape to Guard",
@@ -601,7 +610,7 @@
       },
       {
         "transition": "Sit Through Escape",
-        "attempt_probability": 2
+        "attempt_probability": 3
       },
       {
         "transition": "Standing up in Base",
@@ -609,15 +618,15 @@
       },
       {
         "transition": "Escape from Rodeo Ride",
-        "attempt_probability": 0
+        "attempt_probability": 1
       },
       {
         "transition": "Roll from Rodeo Ride",
-        "attempt_probability": 0
+        "attempt_probability": 1
       },
       {
         "transition": "Shake Off Rodeo Ride",
-        "attempt_probability": 1
+        "attempt_probability": 2
       }
     ],
     "flashcards": [

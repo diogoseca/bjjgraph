@@ -3,6 +3,7 @@
   "slug": "leg-drag-control",
   "description": "Master leg drag control in BJJ. Complete analysis of this dominant passing position covering control mechanics, submission attacks, and strategic transitions from both perspectives.",
   "variant_uniqueness": "Hip control trades mount points for attacks",
+  "summary": "Leg Drag Control is a dominant guard-passing position where the top player drags an opponent's leg across their body, using it as a barrier to pin the hips, block guard recovery, and open paths to the back, mount, and side control.",
   "overview": "Leg drag control represents a critical transitional position in Brazilian Jiu-Jitsu where the passer has successfully controlled one of the opponent's legs and achieved significant hip dominance. This position sits at a strategic crossroads in the passing sequence—the passer has cleared the guard but has not yet achieved a traditional scoring position like side control or mount. The leg drag creates a unique control dynamic where the top player uses the opponent's own leg as a barrier to prevent re-guarding while simultaneously opening pathways to dominant positions and submissions.\n\nThe mechanics of leg drag control center on isolating one of the bottom player's legs and using it to control their hips. The top player typically achieves this by pulling the opponent's leg across their body while controlling the near shoulder or head, creating a powerful cross-body angle. This configuration prevents the bottom player from effectively using their legs for retention or recovery while exposing their back and creating submission opportunities. The position demands constant pressure and precise weight distribution to prevent the opponent from recovering guard or escaping to their knees.\n\nFrom the bottom perspective, leg drag control represents a critical defensive challenge. The bottom player must recognize the position early and understand that traditional guard recovery methods may not be available. The crossed leg creates a mechanical disadvantage that limits hip mobility and makes standard frames less effective. Bottom players must focus on preventing the back take, recovering their trapped leg, and creating enough space to re-establish a defensive structure. Success requires understanding the specific vulnerabilities created by the leg drag configuration and exploiting the transitional nature of the position.\n\nThe strategic significance of leg drag control lies in its position as a nexus point for multiple high-percentage sequences. For the top player, this position offers direct pathways to back control, mount, and various submission attacks while maintaining strong positional dominance. The crossed leg configuration creates natural opportunities for taking the back as the opponent attempts to turn away, and the hip control provides excellent setups for leg attacks and chokes. For the bottom player, understanding escape fundamentals from this position is essential, as delayed reactions often lead to more disadvantageous positions or submission threats.\n\nModern competitive grappling has elevated leg drag control from a transitional moment to a studied position with its own principles and techniques. High-level competitors spend significant time developing both their leg drag passing systems and their defensive responses to this specific control. The position exemplifies the evolution of guard passing beyond simple over-under or stack passes, representing a more dynamic, flow-based approach that emphasizes angles and momentum over pure pressure.",
   "key_principles": [
     "Leg drag control is always transitional—never stop moving toward consolidation",
@@ -310,11 +311,11 @@
     "transitions": [
       {
         "transition": "Leg Drag Pass to Side Control",
-        "attempt_probability": 23
+        "attempt_probability": 22
       },
       {
         "transition": "Leg Drag to Back Take",
-        "attempt_probability": 21
+        "attempt_probability": 20
       },
       {
         "transition": "Leg Drag to Mount",
@@ -322,7 +323,7 @@
       },
       {
         "transition": "Leg Drag to Knee on Belly",
-        "attempt_probability": 12
+        "attempt_probability": 11
       },
       {
         "transition": "Leg Drag to North-South",
@@ -343,6 +344,10 @@
       {
         "transition": "Leg Drag to Darce Setup",
         "attempt_probability": 7
+      },
+      {
+        "transition": "Darce Choke from Leg Drag",
+        "attempt_probability": 3
       }
     ]
   },

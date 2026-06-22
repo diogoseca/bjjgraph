@@ -182,7 +182,7 @@ description: "Learn to execute the Inside Heel Hook from Inside Ashi-Garami. Ste
 
 Executing the Inside Heel Hook from Inside Ashi-Garami requires systematic establishment of positional control before committing to the finishing sequence. The attacker must secure the inside leg across the opponent's hip, hook the outside leg behind the knee, establish hip-to-hip connection, control the knee line to prevent defensive rotation, and clear all defensive grips before reaching for the heel. The finishing grip uses a blade-of-wrist-to-Achilles configuration with a Kimura-style figure-four lock, applying rotational pressure by driving elbows toward the chest while maintaining leg control throughout. The key distinction between a successful finish and a lost position is patience—establishing complete control before attacking makes the submission dramatically higher percentage and significantly safer for both practitioners. Because Inside Ashi-Garami lacks the triangle security of Honey Hole, the attacker must be especially disciplined about maintaining leg hooks during the grip sequence. This submission carries severe injury potential and pressure must be applied with deliberate, progressive control at all times.
 
-**From Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Top)
+**From Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Bottom)
 
 
 </section>

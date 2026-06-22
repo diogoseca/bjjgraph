@@ -111,6 +111,11 @@ description: "Learn to defend the heel hook from Inside Sankaku. Recognition cue
     "@type": "WebSite",
     "name": "BJJ Graph",
     "url": "https://bjjgraph.org"
+  },
+  "mainEntityOfPage": {
+    "@type": "CollectionPage",
+    "name": "Heel Hook",
+    "url": "https://bjjgraph.org/Families/heel-hook"
   }
 }
 </script>
@@ -152,6 +157,9 @@ description: "Learn to defend the heel hook from Inside Sankaku. Recognition cue
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="part-of-family"><em>Part of the</em> <strong>Heel Hook</strong> <em>family</em></p>
+</aside>
 <section id="overview" class="content-section">
 
 Defending the heel hook from Inside Sankaku is among the most urgent defensive situations in modern grappling. The defender's trapped leg faces immediate danger from one of the highest-percentage submissions in the sport, requiring instant recognition and measured response. The fundamental defensive priority is addressing the submission threat before attempting positional escape, as forcing leg extraction while the heel hook grip is established risks catastrophic knee ligament damage that can end careers. Effective defense combines immediate heel protection by pressing the heel against your own hip, systematic distance creation through controlled hip movement, and precisely timed extraction attempts during the attacker's grip transitions. Understanding when escape is still possible versus when tapping is the only safe option distinguishes experienced practitioners from those who suffer preventable injuries.

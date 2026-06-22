@@ -1,5 +1,6 @@
 {
   "name": "Scramble to Guard",
+  "summary": "Scramble to Guard is a Twister Control escape in which the bottom player times the top player's transitional adjustments to break leg and upper-body control, reduce spinal rotation, and recover closed or half guard.",
   "description": "Master Scramble to Guard escape from Twister Control. Step-by-step technique to recover guard position. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
   "tags": [
     "bjj",
@@ -64,7 +65,7 @@
       "relationship": "Alternative escape - accepts turtle as intermediate step"
     },
     {
-      "name": "Rolling to Guard",
+      "name": "Granby Roll to Guard",
       "relationship": "Related technique - rolling guard recovery principles that apply in final phase"
     },
     {

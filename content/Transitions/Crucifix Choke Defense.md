@@ -10,6 +10,41 @@ description: "Defend chokes from crucifix bottom in BJJ. Complete guide to grip 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Crucifix Choke Defense",
+  "description": "Defend chokes from crucifix bottom in BJJ. Complete guide to grip fighting, chin defense, and escaping one of grappling\u0027s most dangerous submission positions.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Crucifix Choke Defense", "item": "https://bjjgraph.org/Transitions/Crucifix-Choke-Defense" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Crucifix Choke Defense",
+  "description": "Crucifix Choke Defense is the survival sequence from crucifix bottom—chin tuck and shoulder defense first, then two-on-one grip fighting to strip the choking hand, then incremental hip movement to escape toward turtle or back control before the choke locks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Defend chokes from crucifix bottom in BJJ. Complete guide to grip 
 </div>
 
 <section id="overview" class="content-section">
+
+**Crucifix Choke Defense is the survival sequence from crucifix bottom—chin tuck and shoulder defense first, then two-on-one grip fighting to strip the choking hand, then incremental hip movement to escape toward turtle or back control before the choke locks.**
 
 The Crucifix Choke Defense represents the critical survival skill set required when an opponent threatens choke submissions from the crucifix position. When trapped in crucifix with both arms compromised, the neck becomes the primary target, and systematic choke defense becomes the immediate priority over any escape attempt. This transition encompasses the grip fighting, structural defense, and positional adjustments needed to neutralize choking threats and create windows for position recovery.
 
@@ -217,5 +254,7 @@ The Crucifix Choke Defense occupies a critical position in the defensive hierarc
 
 
 </section>
+
+
 
 </main>

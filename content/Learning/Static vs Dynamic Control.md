@@ -94,6 +94,18 @@ description: "Understand when to hold position vs when to flow in BJJ. Learn the
 }
 </script>
 
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Static vs Dynamic Control",
+  "description": "Static vs dynamic control are the two modes of top-game dominance in BJJ: static immobilizes through pressure and weight to eliminate space, while dynamic maintains control through constant transitions and positional threats that keep the opponent reacting.",
+  "inDefinedTermSet": "https://bjjgraph.org/Learning/"
+}
+</script>
+
+
 > **Category**: Strategy
 
 
@@ -102,6 +114,8 @@ description: "Understand when to hold position vs when to flow in BJJ. Learn the
 <section id="overview" class="content-section">
 
 ## What is Static vs Dynamic Control?
+
+**Static vs dynamic control are the two modes of top-game dominance in BJJ: static immobilizes through pressure and weight to eliminate space, while dynamic maintains control through constant transitions and positional threats that keep the opponent reacting.**
 
 There are two fundamentally different ways to control an opponent in BJJ, and knowing when to use each one separates strategic grapplers from those who roll on autopilot. Static control is the art of making yourself heavy, eliminating space, and preventing movement through pressure, crossfaces, and weight distribution. It is the crushing side control that makes your opponent feel like they are under a boulder. Dynamic control is the opposite -- it is maintaining dominance through movement, transitions, and positional threats that keep the opponent reacting rather than escaping.
 
@@ -221,7 +235,7 @@ A: When you suddenly release pressure and transition, the opponent who was braci
 ## Related
 - [[Pressure]] (Principle) - Pressure is the foundation of static control -- understanding weight distribution and angle management
 - [[Control Maintenance]] (Principle) - Control maintenance principles apply to both static and dynamic control modes
-- [[Transition Management]] (Principle) - Smooth transitions are essential for effective dynamic control
+- [[Position Chains]] (Principle) - Chaining positions together is the structural backbone of effective dynamic control
 - [[Cross Face Control]] (Principle) - Crossface is a primary tool for maintaining static control from side control and mount
 - [[Shoulder Pressure]] (Principle) - Shoulder pressure is a key static control mechanism for pinning and submission setup
 - [[Side Control]] (Position) - Side control is the position where the static vs dynamic decision is most frequently encountered
@@ -229,6 +243,7 @@ A: When you suddenly release pressure and transition, the opponent who was braci
 - [[Knee on Belly]] (Position) - Knee on belly is a dynamic control position used to transition between pins
 - [[Back Control]] (Position) - Back control is the highest-value position where static control is usually optimal
 - [[Energy Conservation]] (Principle) - Choosing the right control mode conserves energy -- static against explosive opponents, dynamic against methodical ones
+- [[Technique Chaining]] (Learning) - Dynamic control depends on chaining transitions together, the same combinational logic as chaining attacks
 
 
 

@@ -10,6 +10,41 @@ description: "Master Distance Creation to Reset from Lapel Guard. Clear complex 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Distance Creation to Reset",
+  "description": "Master Distance Creation to Reset from Lapel Guard. Clear complex lapel configurations and reset to standing. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Distance Creation to Reset", "item": "https://bjjgraph.org/Transitions/Distance-Creation-to-Reset" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Distance Creation to Reset",
+  "description": "Distance Creation to Reset is a gi guard-passing transition where the top player clears a complex lapel wrap and steps back to neutral standing, resetting the exchange rather than expending energy fighting through entangled lapel control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Distance Creation to Reset from Lapel Guard. Clear complex 
 </div>
 
 <section id="overview" class="content-section">
+
+**Distance Creation to Reset is a gi guard-passing transition where the top player clears a complex lapel wrap and steps back to neutral standing, resetting the exchange rather than expending energy fighting through entangled lapel control.**
 
 Distance Creation to Reset represents a tactical retreat strategy when facing complex lapel guard configurations that resist direct passing solutions. Rather than expending significant energy fighting through entangled lapel wraps, this technique prioritizes disengaging cleanly to reset the exchange from a neutral standing position.
 
@@ -212,5 +249,7 @@ Distance Creation to Reset functions as a tactical reset button within the broad
 
 
 </section>
+
+
 
 </main>

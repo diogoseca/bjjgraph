@@ -39,7 +39,7 @@ description: "Offensive guide to mastering Russian Cowboy position. Learn contro
     {
       "@type": "HowToStep",
       "name": "Execute Rear Naked Choke from Russian Cowboy",
-      "text": "From this position, attempt Rear Naked Choke from Russian Cowboy. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Rear Naked Choke from Russian Cowboy. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
@@ -358,5 +358,7 @@ Partner in turtle position with moderate defensive posture. Practice entering Ru
 
 
 </section>
+
+
 
 </main>

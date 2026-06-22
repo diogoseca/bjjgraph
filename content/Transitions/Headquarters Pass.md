@@ -10,6 +10,41 @@ description: "Learn Headquarters Pass in BJJ. Step-by-step execution from headqu
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Headquarters Pass",
+  "description": "Learn Headquarters Pass in BJJ. Step-by-step execution from headquarters position to side control. Success: Beginner 45%, Intermediate 65%, Advanced 80%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Headquarters Pass", "item": "https://bjjgraph.org/Transitions/Headquarters-Pass" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Headquarters Pass",
+  "description": "The Headquarters Pass is a half-guard passing sequence in which the top player consolidates crossface and near-leg control from the headquarters platform, clears both legs, and advances to side control while shutting down knee shield and deep half retention.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Learn Headquarters Pass in BJJ. Step-by-step execution from headqu
 
 <section id="overview" class="content-section">
 
-The Headquarters Pass is a fundamental position and passing sequence that establishes dominant control over the half guard player before advancing to side control. This position, popularized by modern no-gi grapplers, creates a stable platform where the passer controls the opponent's legs while maintaining strong shoulder pressure and crossface control. The headquarters position neutralizes most half guard retention strategies by controlling the opponent's bottom leg and preventing them from creating frames or recovering full guard. From this controlling position, the passer can systematically break down the opponent's defenses and transition to side control with minimal risk of being swept or re-guarded. The headquarters pass is particularly effective because it allows the passer to pause, assess the opponent's defensive reactions, and choose from multiple finishing options based on how the opponent responds.
+**The Headquarters Pass is a half-guard passing sequence in which the top player consolidates crossface and near-leg control from the headquarters platform, clears both legs, and advances to side control while shutting down knee shield and deep half retention.**
+
+Drawn from modern systematic guard passing, the Headquarters Pass converts the headquarters control platform into a finishing route to side control against a half guard player. Popularized by modern no-gi grapplers, it creates a stable platform where the passer controls the opponent's legs while maintaining strong shoulder pressure and crossface control. The headquarters position neutralizes most half guard retention strategies by controlling the opponent's bottom leg and preventing them from creating frames or recovering full guard. From this controlling position, the passer can systematically break down the opponent's defenses and transition to side control with minimal risk of being swept or re-guarded. The headquarters pass is particularly effective because it allows the passer to pause, assess the opponent's defensive reactions, and choose from multiple finishing options based on how the opponent responds.
 
 **From Position**: [[Positions/Headquarters Position]] (Top)
 **Success Rate**: 72%
@@ -200,7 +237,7 @@ The headquarters pass is a fundamental component of modern half guard passing sy
 
 - [[Transitions/Smash Pass]] - Related pressure pass - uses similar shoulder pressure and control concepts
 
-- [[Transitions/Knee Cut Pass]] - Follow-up option - can be used to finish from headquarters position
+- [[Transitions/Knee Slice Pass]] - Follow-up option - can be used to finish from headquarters position
 
 - [[Transitions/Re-Guard from Headquarters]] - Counter technique - what the bottom player attempts to prevent this pass
 
@@ -210,6 +247,17 @@ The headquarters pass is a fundamental component of modern half guard passing sy
 
 - [[Transitions/Knee Shield Retention]] - Counter concept - what this pass aims to neutralize
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Modern-No-Gi-Passing-System" data-cta="related-system-card" data-system-slug="systems/modern-no-gi-passing-system" data-system-name="Modern No-Gi Passing System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Modern No-Gi Passing System</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Direct passing finish from headquarters control position</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Gordon-Ryan-Passing-System" data-cta="related-system-card" data-system-slug="systems/gordon-ryan-passing-system" data-system-name="Gordon Ryan Passing System" data-member-count="17"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Gordon Ryan Passing System</span><span class="system-card__unlocks-badge">Unlocks 17 techniques</span><span class="system-card__blurb">Systematic passing sequence from headquarters control position</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

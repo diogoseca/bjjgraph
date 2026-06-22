@@ -10,6 +10,41 @@ description: "Master guard recovery from Squid Guard in BJJ. Complete guide cove
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Guard Recovery from Squid Guard",
+  "description": "Master guard recovery from Squid Guard in BJJ. Complete guide covering lapel release timing, leg repositioning, and closed guard reestablishment techniques.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Guard Recovery from Squid Guard", "item": "https://bjjgraph.org/Transitions/Guard-Recovery-from-Squid-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Guard Recovery from Squid Guard",
+  "description": "Guard Recovery from Squid Guard is a defensive transition where the bottom player abandons the compromised asymmetrical lapel guard and reestablishes closed guard by releasing the lapel, withdrawing the threading leg, and closing distance before the passer can advance.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master guard recovery from Squid Guard in BJJ. Complete guide cove
 
 <section id="overview" class="content-section">
 
-Guard Recovery from Squid Guard is a defensive transition where the bottom player reestablishes closed guard when the Squid Guard's asymmetrical control is compromised. When the opponent strips the lapel grip or successfully clears the threading leg, the bottom player must abandon the advanced guard configuration and recover to a more fundamental closed guard position. This recovery involves withdrawing the threading leg, releasing lapel controls, and closing distance to establish closed guard before the opponent can capitalize on the guard transition to advance their passing position.
+**Guard Recovery from Squid Guard is a defensive transition where the bottom player abandons the compromised asymmetrical lapel guard and reestablishes closed guard by releasing the lapel, withdrawing the threading leg, and closing distance before the passer can advance.**
+
+Within the modern lapel-guard ecosystem, Guard Recovery from Squid Guard functions as the safety valve that returns a deteriorating advanced position to the stability of fundamental closed guard. When the opponent strips the lapel grip or successfully clears the threading leg, the bottom player must abandon the advanced guard configuration and recover to a more fundamental closed guard position. This recovery involves withdrawing the threading leg, releasing lapel controls, and closing distance to establish closed guard before the opponent can capitalize on the guard transition to advance their passing position.
 
 The critical challenge unique to Squid Guard recovery is the asymmetric leg positioning that must be converted to symmetric closed guard configuration under time pressure. Unlike recovering from bilateral guards where both legs retract symmetrically, the Squid Guard threading leg and framing leg occupy fundamentally different positions and must be independently repositioned. The recovery window is narrow because the Squid Guard structure collapses rapidly once either the lapel connection or threading leg position is compromised, leaving the bottom player temporarily without an organized guard framework. Successful recovery depends on decisive commitment to closed guard rather than attempting to rebuild the complex Squid Guard under active passing pressure.
 
@@ -218,5 +255,7 @@ Guard Recovery from Squid Guard serves as the essential safety valve within the 
 
 
 </section>
+
+
 
 </main>

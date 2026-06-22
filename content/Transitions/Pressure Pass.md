@@ -10,6 +10,41 @@ description: "Master the Pressure Pass in BJJ. Complete guide to heavy pressure 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Pressure Pass",
+  "description": "Master the Pressure Pass in BJJ. Complete guide to heavy pressure guard passing with systematic weight distribution, crossface control, and incremental advancement.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Pressure Pass", "item": "https://bjjgraph.org/Transitions/Pressure-Pass" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Pressure Pass",
+  "description": "The Pressure Pass is a guard pass in which the top player uses heavy, methodical weight distribution with crossface and hip control to flatten the opponent and incrementally advance from Combat Base to Side Control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Pressure Pass in BJJ. Complete guide to heavy pressure 
 </div>
 
 <section id="overview" class="content-section">
+
+**The Pressure Pass is a guard pass in which the top player uses heavy, methodical weight distribution with crossface and hip control to flatten the opponent and incrementally advance from Combat Base to Side Control.**
 
 The Pressure Pass is a fundamental guard passing technique that relies on controlled, heavy pressure to pin the opponent's hips and progressively advance past their legs. Unlike speed-based passes that seek to quickly bypass the guard, pressure passing emphasizes control, weight distribution, and methodical advancement. This approach is particularly effective against flexible opponents or those with strong retention, as it limits their mobility and forces them to carry your weight while you systematically break down their defensive structure. The Pressure Pass can be initiated from various guard positions including closed guard, half guard, and open guard variations. The key principle is establishing chest-to-chest or chest-to-hip pressure while controlling the opponent's hips and preventing them from creating space or recovering their guard. This pass is highly effective in gi and no-gi contexts and forms the foundation of many modern guard passing systems. The technique requires patience, proper weight distribution, and the ability to maintain pressure while advancing position incrementally.
 
@@ -223,6 +260,16 @@ The Pressure Pass is a cornerstone technique in the guard passing hierarchy and 
 
 - [[Transitions/Headquarters Pass]] - Intermediate passing position that feeds into pressure pass completion
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Gordon-Ryan-Passing-System" data-cta="related-system-card" data-system-slug="systems/gordon-ryan-passing-system" data-system-name="Gordon Ryan Passing System" data-member-count="17"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Gordon Ryan Passing System</span><span class="system-card__unlocks-badge">Unlocks 17 techniques</span><span class="system-card__blurb">Fundamental passing approach emphasizing control over speed</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

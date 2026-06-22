@@ -59,11 +59,25 @@ description: "{{ data.description }}"
   "@type": "WebPage",
   "name": "{{ data.name.split('|')[0].strip() }}",
   "description": "{{ data.description }}",
+  {%- if data.aliases is defined and data.aliases %}
+  "alternateName": [{% for alias in data.aliases %}{{ alias | tojson }}{{ ", " if not loop.last else "" }}{% endfor %}],
+  {%- endif %}
+  {%- if data.disambiguations is defined and data.disambiguations %}
+  {%- set _ns = namespace(dd='') %}
+  {%- for d in data.disambiguations %}{% set _ns.dd = _ns.dd + 'Often confused with ' + d.name + ' — ' + d.reason + '.' + (' ' if not loop.last else '') %}{% endfor %}
+  "disambiguatingDescription": {{ _ns.dd | tojson }},
+  {%- endif %}
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
     "url": "https://bjjgraph.org"
+  }{%- if data.family is defined and data.family %},
+  "mainEntityOfPage": {
+    "@type": "CollectionPage",
+    "name": "{{ data.family }}",
+    "url": "https://bjjgraph.org/Families/{{ data.family | slugify }}"
   }
+  {%- endif %}
 }
 </script>
 
@@ -95,11 +109,42 @@ description: "{{ data.description }}"
 }
 </script>
 
+{% if data.summary %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "{{ data.name }}",
+  "description": "{{ data.summary }}",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+{% endif %}
+
 {# Flexbox wrapper for CSS order-based A/B testing #}
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+{% if (data.aliases is defined and data.aliases) or (data.family is defined and data.family) or (data.disambiguations is defined and data.disambiguations) -%}
+<aside class="entity-relations">
+{%- if data.aliases is defined and data.aliases %}
+<p class="also-known-as"><em>Also known as:</em> {% for alias in data.aliases %}<strong>{{ alias | e }}</strong>{{ ", " if not loop.last else "" }}{% endfor %}</p>
+{%- endif %}
+{%- if data.family is defined and data.family %}
+<p class="part-of-family"><em>Part of the</em> <strong>{% if resolve.family_exists(data.family) %}[[Families/{{ data.family }}|{{ data.family | e }}]]{% else %}{{ data.family | e }}{% endif %}</strong> <em>family</em></p>
+{%- endif %}
+{%- if data.disambiguations is defined and data.disambiguations %}
+{%- for d in data.disambiguations %}
+<p class="often-confused-with"><em>Often confused with</em> <strong>{% if resolve.page_exists(d.name) %}[[{{ resolve(d.name) }}|{{ d.name | e }}]]{% else %}{{ d.name | e }}{% endif %}</strong> — {{ d.reason | e }}</p>
+{%- endfor %}
+{%- endif %}
+</aside>
+{% endif -%}
+
 <section id="overview" class="content-section">
 
+{% if data.summary %}**{{ data.summary }}**
+
+{% endif -%}
 {{ data.overview }}
 
 </section>
@@ -216,5 +261,7 @@ description: "{{ data.description }}"
 {% endfor %}
 
 </section>
+
+{{ resolve.related_systems_html(data.name) }}
 
 </main>

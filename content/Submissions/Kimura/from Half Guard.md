@@ -10,10 +10,55 @@ description: "Master the Kimura from Half Guard in BJJ. Complete guide with safe
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Kimura from Half Guard targets the Shoulder joint and rotator cuff. Risk: Rotator cuff tear (supraspinatus, infraspinatus tendons). Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kimura from Half Guard",
+  "description": "Master the Kimura from Half Guard in BJJ. Complete guide with safety protocols, setup from underhook battle, finishing mechanics. Beginner 35%, Intermediate 55%, Advanced 70%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Kimura from Half Guard", "item": "https://bjjgraph.org/Submissions/Kimura-from-Half-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kimura from Half Guard",
+  "description": "The Kimura from Half Guard is a figure-four shoulder lock attacked from bottom half guard that rotates the opponent's arm behind their back, creating a trilemma between submission, sweep, and back take.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Kimura from Half Guard is a figure-four shoulder lock attacked from bottom half guard that rotates the opponent's arm behind their back, creating a trilemma between submission, sweep, and back take.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Shoulder Lock</span>
+<span class="meta-chip">Targets Shoulder joint and rotator cuff</span>
+<span class="meta-chip">62% success</span>
+</div>
+
+> [!danger] Safety
+> Kimura from Half Guard targets the Shoulder joint and rotator cuff. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus tendons). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -26,53 +71,7 @@ description: "Master the Kimura from Half Guard in BJJ. Complete guide with safe
 
 The **Kimura from Half Guard** is one of the most versatile shoulder locks in Brazilian Jiu-Jitsu, applicable from both top and bottom positions. From bottom half guard, the Kimura serves as a powerful sweep, back take, and submission threat that capitalizes on the opponent's commitment to passing. The technique exploits the natural underhook battle that occurs in half guard, transforming defensive frames into offensive attack chains. The submission targets the shoulder joint through a figure-four grip configuration, creating rotational pressure on the glenohumeral joint and surrounding connective tissue. What makes this variation particularly effective is its capacity to create dilemmas: opponents must choose between defending the submission, preventing the sweep, or stopping the back take. This multi-threat system exemplifies modern half guard strategy, where single techniques branch into complete attacking sequences based on defensive reactions.
 
-**Category**: Joint Lock
-**Type**: Shoulder Lock
-**Target Area**: Shoulder joint and rotator cuff
-**Starting Position**: [[Positions/Half Guard]]
-**From Position**: [[Positions/Half Guard]] (Bottom)
-**Success Rate**: 62%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Rotator cuff tear (supraspinatus, infraspinatus tendons) | High | 3-6 months with surgical intervention possible |
-| Shoulder dislocation (anterior or posterior) | CRITICAL | 6-12 weeks minimum, potential chronic instability |
-| Labral tear (glenoid labrum damage) | High | 4-8 months with surgery |
-| Bicep tendon strain or rupture | Medium | 6-12 weeks |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from control to finish
-
-**Tap Signals**:
-- Verbal tap (any vocalization)
-- Physical hand tap on opponent or mat
-- Physical foot tap on mat or opponent
-- Any distress signal or movement cessation
-
-
-**Release Protocol**:
-1. Immediately release rotational pressure (stop arm movement)
-2. Release figure-four grip configuration
-3. Return arm to neutral position slowly
-4. Release positional control completely
-5. Check partner for injury before continuing
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission application
-- Never use competition speed during training rolls
-- Always allow clear tap access (hand/foot free)
-- Never apply full rotation in drilling without partner consent
-- Avoid repeated applications on same partner in single session
-
+**Starting Position**: [[Positions/Half Guard]] · **From**: [[Positions/Half Guard]] (Bottom)
 
 </section>
 
@@ -245,10 +244,9 @@ The **Kimura from Half Guard** is one of the most versatile shoulder locks in Br
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Kimura]]
 - [[Submissions/Reverse Kimura]]
 - [[Submissions/Americana]]
@@ -262,14 +260,6 @@ The **Kimura from Half Guard** is one of the most versatile shoulder locks in Br
 - [[Transitions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
 - [[Submissions/Baratoplata]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Transitions/Old School Sweep]] - Alternative half guard bottom attack using similar positional control and angle creation
 - [[Positions/Half Guard/Lockdown]] - Complementary half guard control system that can set up Kimura opportunities
 - [[Positions/Kimura Trap]] - Related position using figure-four grip to control opponent from various positions
@@ -278,20 +268,60 @@ The **Kimura from Half Guard** is one of the most versatile shoulder locks in Br
 - [[Positions/Crucifix]] - Advanced transition available from Kimura back take when opponent defends poorly
 - [[Positions/Half Guard]] - Parent position category from which this submission originates
 - [[Positions/Half Guard/Deep Half Guard]] - Alternative half guard position that can transition to Kimura opportunities
-- [[Submissions/Far Side Armbar]] - Chain submission when opponent straightens arm defending Kimura
 - [[Positions/Omoplata Control]] - Alternative shoulder attack available from similar half guard positioning
 - [[Positions/Closed Guard]] - Counter position defender may recover to when escaping Kimura attempt
+
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Rotator cuff tear (supraspinatus, infraspinatus tendons) | High | 3-6 months with surgical intervention possible |
+| Shoulder dislocation (anterior or posterior) | CRITICAL | 6-12 weeks minimum, potential chronic instability |
+| Labral tear (glenoid labrum damage) | High | 4-8 months with surgery |
+| Bicep tendon strain or rupture | Medium | 6-12 weeks |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum from control to finish
+
+**Tap Signals**:
+- Verbal tap (any vocalization)
+- Physical hand tap on opponent or mat
+- Physical foot tap on mat or opponent
+- Any distress signal or movement cessation
+
+
+**Release Protocol**:
+1. Immediately release rotational pressure (stop arm movement)
+2. Release figure-four grip configuration
+3. Return arm to neutral position slowly
+4. Release positional control completely
+5. Check partner for injury before continuing
+
+
+**Training Restrictions**:
+- Never spike or jerk the submission application
+- Never use competition speed during training rolls
+- Always allow clear tap access (hand/foot free)
+- Never apply full rotation in drilling without partner consent
+- Avoid repeated applications on same partner in single session
 
 
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="related-systems" class="content-section related-systems">
 
-## Match Outcome
+## Train this with a System
 
-Successful execution of Kimura from Half Guard leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Andrew-Wiltse-Half-Guard-System" data-cta="related-system-card" data-system-slug="systems/andrew-wiltse-half-guard-system" data-system-name="Andrew Wiltse Half Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Andrew Wiltse Half Guard System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Opportunistic submission attack when opponent overcommits to underhook denial</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Kimura-Trap-System" data-cta="related-system-card" data-system-slug="systems/kimura-trap-system" data-system-name="Kimura Trap System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Kimura Trap System</span><span class="system-card__unlocks-badge">Unlocks 21 techniques</span><span class="system-card__blurb">Alternative entry from bottom position with sweep integration</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

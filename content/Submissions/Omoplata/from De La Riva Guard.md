@@ -10,10 +10,55 @@ description: "Master the omoplata from De La Riva Guard. Leverage DLR hooks and 
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Omoplata from De La Riva Guard targets the Shoulder joint (rotator cuff, capsule, AC joint). Risk: Rotator cuff tear or strain. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Omoplata from De La Riva Guard",
+  "description": "Master the omoplata from De La Riva Guard. Leverage DLR hooks and angles to isolate the shoulder, with sweep-to-finish details for serious grapplers.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Omoplata from De La Riva Guard", "item": "https://bjjgraph.org/Submissions/Omoplata-from-De-La-Riva-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Omoplata from De La Riva Guard",
+  "description": "The omoplata from De La Riva Guard is a shoulder lock attacked from the DLR open guard, swinging the hooking leg over the opponent's extended arm to trap and externally rotate their shoulder for the finish or a follow-up sweep.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The omoplata from De La Riva Guard is a shoulder lock attacked from the DLR open guard, swinging the hooking leg over the opponent's extended arm to trap and externally rotate their shoulder for the finish or a follow-up sweep.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Shoulder Lock</span>
+<span class="meta-chip">Targets Shoulder joint (rotator cuff, capsule, AC joint)</span>
+<span class="meta-chip">52% success</span>
+</div>
+
+> [!danger] Safety
+> Omoplata from De La Riva Guard targets the Shoulder joint (rotator cuff, capsule, AC joint). Primary risk: Rotator cuff tear or strain. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -24,61 +69,13 @@ description: "Master the omoplata from De La Riva Guard. Leverage DLR hooks and 
 
 <section id="overview" class="content-section">
 
-The omoplata from De La Riva Guard uses the existing hook angle and sleeve control to attack the opponent's shoulder when they post or reach forward. The DLR position naturally creates the perpendicular hip alignment needed for omoplata entry, reducing the rotational adjustment required compared to entries from closed guard or half guard. When the top player extends an arm to strip the ankle grip or establish a collar tie, the guard player redirects the hooking leg over the trapped shoulder while maintaining the cross sleeve grip to prevent arm extraction.
+Because De La Riva guard already positions the hips at the angle an omoplata requires, the shoulder lock integrates into DLR offense with far less rotational adjustment than entries from closed guard or half guard. The DLR hook and sleeve control that drive sweeps and berimbolo threats double as the off-balancing and arm isolation the omoplata needs. When the top player extends an arm to strip the ankle grip or establish a collar tie, the guard player redirects the hooking leg over the trapped shoulder while maintaining the cross sleeve grip to prevent arm extraction.
 
 This entry carries strategic value because opponents defending DLR sweeps and berimbolo threats tend to neglect upper body submissions. The cross grip used for standard DLR offense doubles as the arm isolation needed for omoplata control. The transition from guard play to submission requires minimal grip adjustment, allowing the technique to flow within existing DLR attack sequences. When the omoplata finish is defended, the position chains into sweeps, wrist lock threats, and transitions to triangle or back take attempts.
 
 The finishing sequence follows standard omoplata mechanics once the leg clears the shoulder: control the opponent's far hip to shut down the forward roll escape, sit up perpendicular to the opponent, and apply controlled downward pressure through the shoulder while maintaining wrist control. The primary technical challenge specific to this DLR entry is completing the hip switch from the angled DLR configuration to the perpendicular finishing position, which demands precise timing and active hip mobility throughout the transition.
 
-**Category**: Joint Lock
-**Type**: Shoulder Lock
-**Target Area**: Shoulder joint (rotator cuff, capsule, AC joint)
-**Starting Position**: [[Positions/De La Riva Guard]]
-**From Position**: [[Positions/De La Riva Guard]] (Bottom)
-**Success Rate**: 52%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Rotator cuff tear or strain | High | 6-12 weeks for minor tears, 3-6 months for major tears |
-| AC joint separation | Medium | 4-8 weeks |
-| Shoulder capsule damage | High | 8-16 weeks |
-| Labrum tear | CRITICAL | 6-12 months with surgery |
-
-
-**Application Speed**: SLOW and progressive - 4-6 seconds minimum pressure increase
-
-**Tap Signals**:
-- Verbal tap (any vocal signal)
-- Physical hand tap on opponent or mat
-- Physical foot tap on opponent or mat
-- Any distress signal or sound
-- Roll forward escape attempt (release immediately)
-
-
-**Release Protocol**:
-1. Immediately stop all forward pressure and rotation
-2. Release leg pinch on shoulder
-3. Unwind hip position to neutral
-4. Allow opponent to extract arm slowly
-5. Check for injury before continuing
-
-
-**Training Restrictions**:
-- Never spike or jerk the shoulder rotation
-- Never apply competition speed in training
-- Always allow opponent access to tap
-- Stop immediately if opponent rolls forward (escape attempt)
-- Never apply full finishing pressure until advanced belt level
-- Always control the rate of shoulder rotation
-
+**Starting Position**: [[Positions/De La Riva Guard]] · **From**: [[Positions/De La Riva Guard]] (Bottom)
 
 </section>
 
@@ -243,24 +240,15 @@ The finishing sequence follows standard omoplata mechanics once the leg clears t
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Omoplata]]
 - [[Submissions/Triangle Choke]]
 - [[Transitions/Gogoplata]]
 - [[Submissions/Monoplata]]
 - [[Submissions/Baratoplata]]
 - [[Submissions/Bicep Slicer]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/De La Riva Guard]] - Starting position for this submission variant, providing the hook and angle for entry
 - [[Positions/Omoplata Control]] - Control position reached during the finishing sequence before applying shoulder pressure
 - [[Positions/Closed Guard]] - Common recovery position for the attacker when the omoplata attempt is countered
@@ -268,17 +256,51 @@ The finishing sequence follows standard omoplata mechanics once the leg clears t
 - [[Positions/Spider Guard]] - Complementary guard system that shares similar omoplata entry mechanics through leg-over-shoulder movements
 - [[Positions/De La Riva Guard/Reverse De La Riva Guard]] - Related guard with similar hip angle that allows alternative omoplata entry paths
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Rotator cuff tear or strain | High | 6-12 weeks for minor tears, 3-6 months for major tears |
+| AC joint separation | Medium | 4-8 weeks |
+| Shoulder capsule damage | High | 8-16 weeks |
+| Labrum tear | CRITICAL | 6-12 months with surgery |
+
+
+**Application Speed**: SLOW and progressive - 4-6 seconds minimum pressure increase
+
+**Tap Signals**:
+- Verbal tap (any vocal signal)
+- Physical hand tap on opponent or mat
+- Physical foot tap on opponent or mat
+- Any distress signal or sound
+- Roll forward escape attempt (release immediately)
+
+
+**Release Protocol**:
+1. Immediately stop all forward pressure and rotation
+2. Release leg pinch on shoulder
+3. Unwind hip position to neutral
+4. Allow opponent to extract arm slowly
+5. Check for injury before continuing
+
+
+**Training Restrictions**:
+- Never spike or jerk the shoulder rotation
+- Never apply competition speed in training
+- Always allow opponent access to tap
+- Stop immediately if opponent rolls forward (escape attempt)
+- Never apply full finishing pressure until advanced belt level
+- Always control the rate of shoulder rotation
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Omoplata from De La Riva Guard leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

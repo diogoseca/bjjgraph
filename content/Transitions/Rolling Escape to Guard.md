@@ -10,6 +10,41 @@ description: "Master the Rolling Escape to Guard from Aoki Lock. Complete guide 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Rolling Escape to Guard",
+  "description": "Master the Rolling Escape to Guard from Aoki Lock. Complete guide to forward roll escape mechanics, shoulder protection, and guard recovery techniques.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Rolling Escape to Guard", "item": "https://bjjgraph.org/Transitions/Rolling-Escape-to-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Rolling Escape to Guard",
+  "description": "Rolling Escape to Guard is a defensive transition from Aoki Lock bottom where you forward-roll toward your trapped arm, flowing with the shoulder-lock pressure to extract the arm and recover open guard rather than resisting the submission.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Rolling Escape to Guard from Aoki Lock. Complete guide 
 </div>
 
 <section id="overview" class="content-section">
+
+**Rolling Escape to Guard is a defensive transition from Aoki Lock bottom where you forward-roll toward your trapped arm, flowing with the shoulder-lock pressure to extract the arm and recover open guard rather than resisting the submission.**
 
 The Rolling Escape to Guard is a critical defensive technique for escaping the dangerous Aoki Lock position. When trapped in the leg-entangled shoulder lock, the forward roll toward your trapped arm creates momentum that disrupts the opponent's control structure while following the path of least resistance for your shoulder. This technique exploits a fundamental principle: rolling with the submission pressure rather than fighting against it reduces joint stress while creating space for arm extraction.
 
@@ -222,5 +259,7 @@ The Rolling Escape to Guard is the primary high-percentage escape from Aoki Lock
 
 
 </section>
+
+
 
 </main>

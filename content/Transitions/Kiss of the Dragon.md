@@ -10,6 +10,41 @@ description: "Learn Kiss of the Dragon in BJJ. Advanced rolling back take from t
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kiss of the Dragon",
+  "description": "Learn Kiss of the Dragon in BJJ. Advanced rolling back take from turtle that bypasses defensive layers through inversion to establish back control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Kiss of the Dragon", "item": "https://bjjgraph.org/Transitions/Kiss-of-the-Dragon" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kiss of the Dragon",
+  "description": "The Kiss of the Dragon is an advanced rolling back take from turtle top in which the attacker somersaults forward beneath the opponent's hips to surface behind them, bypassing the frames that stop conventional seatbelt entries.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Learn Kiss of the Dragon in BJJ. Advanced rolling back take from t
 </div>
 
 <section id="overview" class="content-section">
+
+**The Kiss of the Dragon is an advanced rolling back take from turtle top in which the attacker somersaults forward beneath the opponent's hips to surface behind them, bypassing the frames that stop conventional seatbelt entries.**
 
 The Kiss of the Dragon is an advanced rolling back take technique that allows the top player to bypass the turtle position's defensive structure and directly establish back control. The practitioner uses a forward somersault while maintaining grip control on the opponent's hips or belt, rolling underneath and behind the turtle position to emerge directly on the back. This dynamic movement is particularly effective against opponents who are skilled at defending traditional back take attempts such as seatbelt entries and crab rides, as it circumvents the typical defensive frames and hand fighting that occur during standard back attacks.
 
@@ -225,6 +262,17 @@ The Kiss of the Dragon is a specialized back take technique that fits within the
 
 - [[Transitions/Crucifix from Turtle]] - Alternative advanced attack from turtle top position
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Garry-Tonon-Leg-Lock-to-Back-System" data-cta="related-system-card" data-system-slug="systems/garry-tonon-leg-lock-to-back-system" data-system-name="Garry Tonon Leg Lock to Back System" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Garry Tonon Leg Lock to Back System</span><span class="system-card__unlocks-badge">Unlocks 26 techniques</span><span class="system-card__blurb">Dynamic back taking technique when opponent defends leg attacks with forward pressure</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Berimbolo" data-cta="related-system-card" data-system-slug="systems/berimbolo" data-system-name="Berimbolo" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Berimbolo</span><span class="system-card__unlocks-badge">Unlocks 21 techniques</span><span class="system-card__blurb">Related inversion-based back take that serves as alternative when Berimbolo is defended</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

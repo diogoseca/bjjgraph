@@ -142,10 +142,23 @@ description: "Master Rubber Guard to Triangle System. Framework connecting rubbe
 }
 </script>
 
-> Rubber Guard to Triangle System is a advanced difficulty Submission Chain system. Integrates 5 components.
 
-**System Type**: Submission Chain
-**Difficulty Level**: Advanced
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Rubber Guard to Triangle System",
+  "description": "The Rubber Guard to Triangle System is a 10th Planet offensive framework that chains rubber guard control through the Mission Control and New York checkpoints to set up high-percentage triangle chokes and linked submissions from closed guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Submission Chain</span>
+<span class="meta-chip">Advanced difficulty</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -154,7 +167,27 @@ description: "Master Rubber Guard to Triangle System. Framework connecting rubbe
 
 ## What is Rubber Guard to Triangle System?
 
-The Rubber Guard to Triangle System is a comprehensive offensive framework that transforms closed guard control into high-percentage triangle submissions through systematic positioning and opponent manipulation. Originating from Eddie Bravo's 10th Planet system, this approach uses extreme flexibility and unorthodox grips to break posture, control distance, and create submission opportunities that are difficult to defend. The system emphasizes creating angles and leverage through hip mobility while maintaining constant offensive pressure that forces opponents into defensive dilemmas. Unlike traditional closed guard approaches, this system relies on active leg positioning and grip creativity to generate submission threats while simultaneously defending against passes. The framework connects multiple control positions - from Mission Control to New York to the finishing triangle - creating a systematic pathway that even accounts for opponent escape attempts. Practitioners learn to use their legs as offensive weapons while their hands control critical angles, inverting the traditional closed guard paradigm where hands do the work and legs maintain position.
+**The Rubber Guard to Triangle System is a 10th Planet offensive framework that chains rubber guard control through the Mission Control and New York checkpoints to set up high-percentage triangle chokes and linked submissions from closed guard.**
+
+Developed within Eddie Bravo's 10th Planet methodology, this framework reimagines the closed guard as an aggressive submission platform rather than a holding position. It uses extreme flexibility and unorthodox grips to break posture, control distance, and manufacture triangle opportunities that are difficult to defend, while emphasizing the angles and leverage generated through hip mobility under constant offensive pressure. Unlike traditional closed guard approaches, the system relies on active leg positioning and grip creativity to generate submission threats while simultaneously defending against passes. The framework connects multiple control positions - from Mission Control to New York to the finishing triangle - creating a systematic pathway that even accounts for opponent escape attempts. Practitioners learn to use their legs as offensive weapons while their hands control critical angles, inverting the traditional closed guard paradigm where the hands do the work and the legs merely maintain position.
+
+</section>
+
+
+
+<section id="unlock-graph" class="content-section system-unlock" data-system-unlock hidden>
+
+## Unlock this part of the graph
+
+<p class="section-subtitle">This system teaches the highlighted nodes in the graph. Mark what you already know &mdash; be honest, it's your game.</p>
+
+<div class="system-progress" data-system-progress>
+<svg class="system-progress__ring" viewBox="0 0 44 44" aria-hidden="true"><circle class="system-progress__ring-bg" cx="22" cy="22" r="19"></circle><circle class="system-progress__ring-fill" cx="22" cy="22" r="19"></circle></svg>
+<div class="system-progress__text">You've unlocked <strong class="system-progress__known">0</strong> / <span class="system-progress__total">0</span> techniques in this system</div>
+<button class="system-progress__mark-all" data-mark-system type="button">Mark whole system as known</button>
+</div>
+
+<ul class="system-members" data-system-members></ul>
 
 </section>
 
@@ -358,7 +391,7 @@ Begin with static position holds to develop the hip flexibility and muscle memor
 - [[Switch to Triangle]] (Transition) - Entry mechanics from other submission attempts
 - [[Posture]] (Principle) - Foundational principle required before rubber guard establishment
 - [[Defensive Concepts]] (Principle) - Defensive framework for maintaining guard integrity throughout offensive sequences
-- [[Submission Chains]] (Principle) - Theoretical foundation for multiple submission pathways
+- [[Position Chains]] (Principle) - Theoretical foundation for linking control positions into multiple submission pathways
 - [[Hip Escape Mechanics]] (Principle) - Hip mobility foundation essential for rubber guard positioning and angle creation
 - [[Fork Attacks]] (Principle) - Strategic framework for chaining triangle with alternative attacks that force defensive choices
 - [[10th Planet Rubber Guard System]] (System) - Parent system containing complete rubber guard framework and philosophy

@@ -10,6 +10,41 @@ description: "Master Chill Dog position in BJJ. Defensive turtle variant with re
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Chill Dog",
+  "description": "Master Chill Dog position in BJJ. Defensive turtle variant with recovery options and back exposure prevention. Learn entries, escapes, and transitions with complete strategic analysis.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Chill Dog", "item": "https://bjjgraph.org/Positions/Chill-Dog" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Chill Dog",
+  "description": "Chill Dog is a 10th Planet defensive turtle variant where the bottom player stays low and compact - elbows pinned to knees, head tucked, hips angled - to deny back exposure while setting up explosive escapes to guard or standing.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master Chill Dog position in BJJ. Defensive turtle variant with re
 
 <section id="overview" class="content-section">
 
-Chill Dog is a defensive turtle position popularized by 10th Planet's and the 10th Planet Jiu-Jitsu system. It represents a specific turtle variant where the bottom practitioner maintains a low, compact posture with hips turned slightly to one side while protecting the neck and preventing back exposure. Unlike traditional turtle where the goal is often to return to guard or stand up, Chill Dog emphasizes staying safe while creating opportunities for specific escapes and recoveries.
+**Chill Dog is a 10th Planet defensive turtle variant where the bottom player stays low and compact - elbows pinned to knees, head tucked, hips angled - to deny back exposure while setting up explosive escapes to guard or standing.**
+
+Chill Dog is a defensive turtle position popularized within Eddie Bravo's 10th Planet Jiu-Jitsu system. It represents a specific turtle variant where the bottom practitioner maintains a low, compact posture with hips turned slightly to one side while protecting the neck and preventing back exposure. Unlike traditional turtle where the goal is often to return to guard or stand up, Chill Dog emphasizes staying safe while creating opportunities for specific escapes and recoveries.
 
 The position derives its name from the relaxed yet defensive nature of the posture - staying 'chill' while defending like a protective dog. The practitioner keeps their elbows tight to their knees, head tucked, and weight distributed to prevent easy rolling or flattening. This creates a strong defensive shell that makes it difficult for opponents to secure dominant positions like back control or establish powerful submission controls.
 
@@ -260,6 +297,19 @@ In the 10th Planet system, Chill Dog serves as a critical defensive position tha
 
 - **[[Positions/Half Guard/Lockdown]]** - 10th Planet half guard option after escape sequence
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Twister-System" data-cta="related-system-card" data-system-slug="systems/twister-system" data-system-name="Twister System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Twister System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">10th Planet position accessible from lockdown as alternative pathway</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/10th-Planet-No-Gi-Guard-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-no-gi-guard-system" data-system-name="10th Planet No-Gi Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">10th Planet No-Gi Guard System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Rubber guard position for gogoplata attacks</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/10th-Planet-Rubber-Guard-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-rubber-guard-system" data-system-name="10th Planet Rubber Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">10th Planet Rubber Guard System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Triangle and armbar setup position in the system</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Rubber-Guard-to-Omoplata-System" data-cta="related-system-card" data-system-slug="systems/rubber-guard-to-omoplata-system" data-system-name="Rubber Guard to Omoplata System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Rubber Guard to Omoplata System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Rubber guard position variation for different opponent reactions</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

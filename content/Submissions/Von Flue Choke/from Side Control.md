@@ -10,10 +10,55 @@ description: "Master the Von Flue Choke counter in BJJ. Complete safety guide wi
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Von Flue Choke from Side Control targets the Carotid arteries. Risk: Carotid artery compression leading to unconsciousness. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Von Flue Choke from Side Control",
+  "description": "Master the Von Flue Choke counter in BJJ. Complete safety guide with setup and execution. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Von Flue Choke from Side Control", "item": "https://bjjgraph.org/Submissions/Von-Flue-Choke-from-Side-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Von Flue Choke from Side Control",
+  "description": "The Von Flue Choke is a no-gi counter-submission applied from side control against an opponent clinging to a guillotine grip, driving your shoulder into one carotid artery while their own trapped forearm compresses the other to force the tap.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Von Flue Choke is a no-gi counter-submission applied from side control against an opponent clinging to a guillotine grip, driving your shoulder into one carotid artery while their own trapped forearm compresses the other to force the tap.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries</span>
+<span class="meta-chip">58% success</span>
+</div>
+
+> [!danger] Safety
+> Von Flue Choke from Side Control targets the Carotid arteries. Primary risk: Carotid artery compression leading to unconsciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -26,54 +71,7 @@ description: "Master the Von Flue Choke counter in BJJ. Complete safety guide wi
 
 The Von Flue Choke is a devastating counter-submission that punishes opponents who maintain an overly committed guillotine grip from bottom position. Named after Jason Von Flue who famously used it in the UFC, this technique transforms a defensive scenario into an immediate offensive threat. The choke works by using shoulder pressure combined with body weight to compress one carotid artery while the opponent's own arm compresses the other, creating a blood choke that renders the guillotine grip not only ineffective but actively dangerous for the person holding it. This submission is particularly effective in no-gi grappling where guillotine attempts are common, and it serves as a crucial defensive concept that every practitioner must understand. The psychological impact of the Von Flue choke cannot be overstated—once an opponent has been caught with it, they become hesitant to hold guillotine grips from bottom position, fundamentally changing the dynamics of guard passing exchanges. The technique demonstrates a core principle in Brazilian Jiu-Jitsu: every offensive position contains the seeds of its own defeat if held too long or too rigidly.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries
-**Starting Position**: [[Positions/Side Control]]
-**From Position**: [[Positions/Side Control]] (Top)
-**Success Rate**: 58%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Carotid artery compression leading to unconsciousness | CRITICAL | Immediate recovery if released promptly, potential brain damage if held past unconsciousness |
-| Neck strain from resisting the choke | Medium | 3-7 days with rest |
-| Shoulder impingement from pressure application | Low | 1-3 days |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow partner to recognize the danger and release their guillotine grip
-
-**Tap Signals**:
-- Verbal tap (most important as arms may be trapped)
-- Physical hand tap on your body or mat
-- Physical foot tap on mat
-- Releasing the guillotine grip immediately
-- Any distress signal including body going limp
-
-
-**Release Protocol**:
-1. Immediately remove shoulder pressure from neck
-2. Lift your head and upper body away from opponent's neck
-3. Create space by posting your hands and moving your torso back
-4. Check partner's consciousness and breathing
-5. If partner is unconscious, elevate legs and monitor recovery
-
-
-**Training Restrictions**:
-- Never apply full pressure in training—use gradual pressure to allow tap
-- Never hold the choke after partner releases their guillotine grip
-- Always allow partner's arms to be free enough to tap
-- Never use competition speed or sudden pressure in drilling
-- Stop immediately if partner's grip loosens (indicates impending unconsciousness)
-- Require verbal confirmation that partner understands the danger before practicing
-
+**Starting Position**: [[Positions/Side Control]] · **From**: [[Positions/Side Control]] (Top)
 
 </section>
 
@@ -237,17 +235,15 @@ The Von Flue Choke is a devastating counter-submission that punishes opponents w
 - [[Positions/Half Guard]]
 - [[Positions/North-South]]
 - [[Positions/Knee on Belly]]
-- [[Positions/Side Control]]
 - [[Positions/Mount]]
-- [[Positions/Standing Position]]
+- [[Positions/Clinch]]
 
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Transitions/Guillotine Choke]]
 - [[Submissions/Arm in Guillotine]]
 - [[Submissions/Chin Strap Guillotine]]
@@ -256,34 +252,58 @@ The Von Flue Choke is a devastating counter-submission that punishes opponents w
 - [[Transitions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
 - [[Submissions/Ezekiel Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Side Control]] - Primary position for applying Von Flue choke
 - [[Positions/Guillotine Control]] - Position being countered by Von Flue technique
 - [[Positions/Half Guard]] - Common position where Von Flue can be applied during passing
 - [[Positions/North-South]] - Alternative position where similar shoulder pressure can be applied
 - [[Positions/Side Control/Kesa Gatame]] - Related side control variation with similar pressure principles
 - [[Positions/Front Headlock]] - Related upper body control position used in guillotine sequences
-- [[Positions/Side Control]] - Position to consolidate after successful Von Flue forces grip release
 - [[Positions/Mount]] - Alternative finish position when opponent bridges during Von Flue attempt
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Carotid artery compression leading to unconsciousness | CRITICAL | Immediate recovery if released promptly, potential brain damage if held past unconsciousness |
+| Neck strain from resisting the choke | Medium | 3-7 days with rest |
+| Shoulder impingement from pressure application | Low | 1-3 days |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow partner to recognize the danger and release their guillotine grip
+
+**Tap Signals**:
+- Verbal tap (most important as arms may be trapped)
+- Physical hand tap on your body or mat
+- Physical foot tap on mat
+- Releasing the guillotine grip immediately
+- Any distress signal including body going limp
+
+
+**Release Protocol**:
+1. Immediately remove shoulder pressure from neck
+2. Lift your head and upper body away from opponent's neck
+3. Create space by posting your hands and moving your torso back
+4. Check partner's consciousness and breathing
+5. If partner is unconscious, elevate legs and monitor recovery
+
+
+**Training Restrictions**:
+- Never apply full pressure in training—use gradual pressure to allow tap
+- Never hold the choke after partner releases their guillotine grip
+- Always allow partner's arms to be free enough to tap
+- Never use competition speed or sudden pressure in drilling
+- Stop immediately if partner's grip loosens (indicates impending unconsciousness)
+- Require verbal confirmation that partner understands the danger before practicing
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Von Flue Choke from Side Control leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

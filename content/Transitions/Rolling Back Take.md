@@ -10,6 +10,41 @@ description: "Learn Rolling Back Take in BJJ. Step-by-step execution from Turtle
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Rolling Back Take",
+  "description": "Learn Rolling Back Take in BJJ. Step-by-step execution from Turtle to Back Control. Dynamic momentum-based technique bypassing defensive frames entirely.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Rolling Back Take", "item": "https://bjjgraph.org/Transitions/Rolling-Back-Take" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Rolling Back Take",
+  "description": "The Rolling Back Take is a momentum-driven transition from top turtle in which the attacker rolls over the opponent's shoulder to bypass their defensive frames and land directly in back control with hooks inserted.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Learn Rolling Back Take in BJJ. Step-by-step execution from Turtle
 </div>
 
 <section id="overview" class="content-section">
+
+**The Rolling Back Take is a momentum-driven transition from top turtle in which the attacker rolls over the opponent's shoulder to bypass their defensive frames and land directly in back control with hooks inserted.**
 
 The Rolling Back Take is a dynamic and highly effective transition from top turtle position to back control. This technique exploits the opponent's defensive posture by using momentum and timing to roll over their shoulder, landing directly on their back with control. Unlike static back takes that rely on breaking down the turtle position incrementally, the rolling back take uses explosive movement to bypass defensive frames entirely. This technique is particularly valuable when the opponent maintains a strong defensive turtle with their elbows tight to their knees, making traditional hook insertions difficult. The rolling back take requires precise timing, spatial awareness, and the ability to maintain connection throughout the roll. When executed correctly, it provides immediate access to high-value control positions and submission opportunities, making it a favorite among competitors at all levels.
 
@@ -221,6 +258,18 @@ The Rolling Back Take is a fundamental component of the top turtle attack system
 
 - [[Transitions/Crucifix from Turtle]] - Alternative turtle top attack when rolling back take is denied
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Danaher Straight Jacket System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Dynamic entry to back control using rolling mechanics from various positions</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Back-Attack-System" data-cta="related-system-card" data-system-slug="systems/back-attack-system" data-system-name="Back Attack System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Back Attack System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Dynamic entry from various scramble and transition situations</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Berimbolo" data-cta="related-system-card" data-system-slug="systems/berimbolo" data-system-name="Berimbolo" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Berimbolo</span><span class="system-card__unlocks-badge">Unlocks 21 techniques</span><span class="system-card__blurb">Alternative back-taking method that shares similar rotational mechanics and timing principles</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

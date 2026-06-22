@@ -10,6 +10,41 @@ description: "Master the Ghost Escape from side control in BJJ. Rotational escap
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Ghost Escape",
+  "description": "Master the Ghost Escape from side control in BJJ. Rotational escape technique to turtle with setup, execution steps, and defensive counters.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Ghost Escape", "item": "https://bjjgraph.org/Transitions/Ghost-Escape" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Ghost Escape",
+  "description": "The Ghost Escape is an advanced rotational escape from side control bottom where the trapped player spins their hips and shoulders in a continuous circular arc to slip out from under chest pressure and emerge in the turtle position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Ghost Escape from side control in BJJ. Rotational escap
 
 <section id="overview" class="content-section">
 
-The Ghost Escape is an advanced rotational escape from side control that uses circular body movement to transition to turtle position. Unlike traditional shrimping escapes that move linearly away from the opponent, the Ghost Escape rotates the entire body in a circular arc, creating angles that disrupt the top player's base and weight distribution in ways they cannot easily follow. The name refers to the bottom player seeming to vanish from underneath heavy top pressure through precise timing and coordinated hip-shoulder rotation.
+**The Ghost Escape is an advanced rotational escape from side control bottom where the trapped player spins their hips and shoulders in a continuous circular arc to slip out from under chest pressure and emerge in the turtle position.**
+
+Drawn from modern no-gi escape systems, the Ghost Escape solves the problem of shrimping being shut down by heavy chest-to-chest pressure. Unlike traditional shrimping escapes that move linearly away from the opponent, the Ghost Escape rotates the entire body in a circular arc, creating angles that disrupt the top player's base and weight distribution in ways they cannot easily follow. The name refers to the bottom player seeming to vanish from underneath heavy top pressure through precise timing and coordinated hip-shoulder rotation.
 
 The technique is most effective against opponents who maintain heavy chest-to-chest pressure and have shut down standard shrimping and framing escapes. It requires initiating movement during transitional moments when the top player shifts weight, adjusts grips, or commits to a submission setup. The explosive hip turn that begins the escape must flow continuously through shoulder rotation, arm extraction, and completion to turtle without hesitation, as any pause mid-rotation creates severe vulnerability to mount transitions or back takes.
 
@@ -227,5 +264,7 @@ The Ghost Escape belongs to the modern side control escape system that prioritiz
 
 
 </section>
+
+
 
 </main>

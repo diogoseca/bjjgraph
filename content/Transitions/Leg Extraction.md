@@ -10,6 +10,41 @@ description: "Master Leg Extraction escape from Estima Lock in BJJ. Step-by-step
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Leg Extraction",
+  "description": "Master Leg Extraction escape from Estima Lock in BJJ. Step-by-step technique guide to free your trapped foot and recover guard position safely.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Leg Extraction", "item": "https://bjjgraph.org/Transitions/Leg-Extraction" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Leg Extraction",
+  "description": "Leg Extraction is the bottom-player escape from Estima Lock Control that frees the trapped foot by counter-rotating the ankle, framing on the opponent's hips, and using the free leg as a lever to recover guard before the inverted footlock finishes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Leg Extraction escape from Estima Lock in BJJ. Step-by-step
 </div>
 
 <section id="overview" class="content-section">
+
+**Leg Extraction is the bottom-player escape from Estima Lock Control that frees the trapped foot by counter-rotating the ankle, framing on the opponent's hips, and using the free leg as a lever to recover guard before the inverted footlock finishes.**
 
 Leg Extraction from Estima Lock represents a fundamental defensive escape when caught in this dangerous inverted footlock position. The technique prioritizes systematic disengagement over explosive movements, focusing on reducing submission pressure while methodically creating space to free the trapped leg. Unlike escapes from traditional straight ankle locks, the Estima Lock's inverted grip configuration requires specific counter-rotation and angle adjustments to neutralize the attack vector before extraction becomes possible.
 
@@ -217,9 +254,11 @@ Leg Extraction serves as a foundational escape within the broader defensive leg 
 
 - [[Transitions/Counter Sweep]] - Follow-up option when opponent over-commits during extraction
 
-- [[Transitions/Leg Extraction to Guard]] - Follow-up transition for guard recovery after successful extraction
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Related entanglement whose escape mechanics transfer to this extraction
 
 
 </section>
+
+
 
 </main>

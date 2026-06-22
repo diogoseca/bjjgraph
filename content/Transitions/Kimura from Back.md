@@ -10,6 +10,41 @@ description: "Learn Kimura from Back in BJJ. Attack opponent's shoulder from rea
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kimura from Back",
+  "description": "Learn Kimura from Back in BJJ. Attack opponent\u0027s shoulder from rear triangle position with systematic grip sequences, finishing mechanics, and defensive strategies.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Kimura from Back", "item": "https://bjjgraph.org/Transitions/Kimura-from-Back" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kimura from Back",
+  "description": "Kimura from Back is a figure-four shoulder lock attacked from the rear triangle, isolating the opponent's already-trapped arm and rotating it toward their spine while the triangle structure denies the torso rotation and self-grips that normally defend a kimura.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Learn Kimura from Back in BJJ. Attack opponent's shoulder from rea
 
 <section id="overview" class="content-section">
 
-The Kimura from Back is a sophisticated shoulder attack initiated from the rear triangle position that exploits the trapped arm configuration to establish devastating rotational control over the opponent's shoulder joint. Unlike the standard kimura grip applied from guard or side control, this variation leverages the superior back control to isolate the arm while the triangle structure prevents defensive rotation and posture recovery. The technique creates a submission dilemma where the opponent must choose between defending the shoulder lock, which opens the choke, or protecting the neck, which exposes the arm to finishing pressure.
+**Kimura from Back is a figure-four shoulder lock attacked from the rear triangle, isolating the opponent's already-trapped arm and rotating it toward their spine while the triangle structure denies the torso rotation and self-grips that normally defend a kimura.**
+
+Within the rear-triangle attack system, the Kimura from Back is the secondary shoulder threat you turn to once the opponent commits to defending the triangle choke. Unlike the standard kimura grip applied from guard or side control, this variation leverages the superior back control to isolate the arm while the triangle structure prevents defensive rotation and posture recovery. The technique creates a submission dilemma where the opponent must choose between defending the shoulder lock, which opens the choke, or protecting the neck, which exposes the arm to finishing pressure.
 
 From a strategic perspective, the Kimura from Back serves dual purposes as both a submission threat and a control tool. When the opponent successfully defends the initial triangle choke by protecting their neck, their defensive positioning often leaves the trapped arm vulnerable to kimura grip capture. The back control eliminates the standard kimura defense of grabbing one's own thigh or belt, as the opponent lacks the necessary mobility to establish these anchors. This makes the submission percentage significantly higher than kimura attempts from other positions.
 
@@ -218,5 +255,7 @@ Kimura from Back occupies a central role in the rear triangle attack system, ser
 
 
 </section>
+
+
 
 </main>

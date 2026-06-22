@@ -10,6 +10,41 @@ description: "Master Lasso Guard in BJJ. Complete guide covering setup mechanics
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Lasso Guard",
+  "description": "Master Lasso Guard in BJJ. Complete guide covering setup mechanics, sweeps, submissions, and transitions. Learn advanced control systems and techniques.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Lasso Guard", "item": "https://bjjgraph.org/Positions/Lasso-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Lasso Guard",
+  "description": "Lasso Guard is a gi open guard in which the bottom player wraps a shin around the outside of the opponent's arm and grips the same-side sleeve, trapping the limb to manage distance and set up sweeps and submissions.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master Lasso Guard in BJJ. Complete guide covering setup mechanics
 
 <section id="overview" class="content-section">
 
-**Lasso Guard** is a sophisticated open guard variation that combines elements of spider guard control with a unique leg threading mechanism. The position is characterized by threading your shin across the opponent's trapped arm, creating a lasso-like control that severely restricts their mobility and posture. This guard offers exceptional control over one side of the opponent's body while maintaining the ability to attack with sweeps, submissions, and transitions.
+**Lasso Guard is a gi open guard in which the bottom player wraps a shin around the outside of the opponent's arm and grips the same-side sleeve, trapping the limb to manage distance and set up sweeps and submissions.**
+
+Within the gi open-guard family, Lasso Guard sits alongside spider guard as a sleeve-dependent control system, distinguished by the leg-threading mechanism that converts an ordinary sleeve grip into a shoulder-loading trap. This dominance over one side of the opponent's body lets you attack with sweeps, submissions, and transitions while continuously dictating distance and posture.
 
 The mechanical advantage of Lasso Guard comes from the biomechanical stress placed on the opponent's shoulder and arm. By pulling the trapped sleeve while pushing your shin against their tricep, you create a fulcrum that makes it extremely difficult for them to maintain base or generate forward pressure. This control allows you to manipulate their weight distribution and create opportunities for off-balancing attacks.
 
@@ -97,21 +134,21 @@ Understanding Lasso Guard requires appreciation for both its strengths and limit
 ### Available Transitions
 
 
-- **[[Transitions/Sickle Sweep/Attacker|Sickle Sweep]]** (48% of attempts)
+- **[[Transitions/Sickle Sweep/Attacker|Sickle Sweep]]** (24% of attempts)
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (12% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (15% of attempts)
 
-- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (8% of attempts)
+- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (13% of attempts)
 
-- **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (5% of attempts)
+- **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (8% of attempts)
 
-- **[[Transitions/Omoplata from Lasso/Attacker|Omoplata from Lasso]]** (5% of attempts)
+- **[[Transitions/Omoplata from Lasso/Attacker|Omoplata from Lasso]]** (9% of attempts)
 
-- **[[Transitions/Hook Sweep/Attacker|Hook Sweep]]** (4% of attempts)
+- **[[Transitions/Hook Sweep/Attacker|Hook Sweep]]** (5% of attempts)
 
-- **[[Transitions/Lasso Sweep/Attacker|Lasso Sweep]]** (4% of attempts)
+- **[[Transitions/Lasso Sweep/Attacker|Lasso Sweep]]** (7% of attempts)
 
-- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (3% of attempts)
+- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (5% of attempts)
 
 - **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (3% of attempts)
 
@@ -121,7 +158,9 @@ Understanding Lasso Guard requires appreciation for both its strengths and limit
 
 - **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** (2% of attempts)
 
-- **[[Transitions/Lasso Guard to Russian Leg Lasso/Attacker|Lasso Guard to Russian Leg Lasso]]** (1% of attempts)
+- **[[Transitions/Lasso Guard to Russian Leg Lasso/Attacker|Lasso Guard to Russian Leg Lasso]]** (2% of attempts)
+
+- **[[Belly Down Armbar from Lasso Guard/Attacker|Belly Down Armbar from Lasso Guard]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -184,7 +223,7 @@ Understanding Lasso Guard requires appreciation for both its strengths and limit
 
 - **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (10% of attempts)
 
-- **[[Transitions/Knee Cut Pass/Attacker|Knee Cut Pass]]** (34% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (34% of attempts)
 
 - **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (8% of attempts)
 
@@ -251,6 +290,18 @@ Understanding Lasso Guard requires appreciation for both its strengths and limit
 
 - **[[Positions/Triangle Control]]** - Natural submission progression when the opponent's posture breaks forward into the lasso
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Keenan Cornelius Lapel Guard System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Compatible guard that can be combined with lapel controls for hybrid positions</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Dynamic-Guard-System" data-cta="related-system-card" data-system-slug="systems/dynamic-guard-system" data-system-name="Dynamic Guard System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Dynamic Guard System</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Advanced guard for controlling posture and limiting mobility</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Gi-Specific-Strategy" data-cta="related-system-card" data-system-slug="systems/gi-specific-strategy" data-system-name="Gi-Specific Strategy" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Gi-Specific Strategy</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Advanced lapel-based guard using sleeve entanglement</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

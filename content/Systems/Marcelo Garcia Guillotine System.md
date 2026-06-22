@@ -134,10 +134,23 @@ description: "Master Marcelo Garcia's high-percentage guillotine system. Learn s
 }
 </script>
 
-> Marcelo Garcia Guillotine System is a intermediate difficulty Submission Chain system. Integrates 5 components.
 
-**System Type**: Submission Chain
-**Difficulty Level**: Intermediate
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Marcelo Garcia Guillotine System",
+  "description": "The Marcelo Garcia Guillotine System is a high-percentage front-headlock framework that chains guillotine grips, guard pulls, sweeps, and back takes into an interconnected attack web effective in gi and no-gi, even against larger opponents.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Submission Chain</span>
+<span class="meta-chip">Intermediate difficulty</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -146,7 +159,27 @@ description: "Master Marcelo Garcia's high-percentage guillotine system. Learn s
 
 ## What is Marcelo Garcia Guillotine System?
 
+**The Marcelo Garcia Guillotine System is a high-percentage front-headlock framework that chains guillotine grips, guard pulls, sweeps, and back takes into an interconnected attack web effective in gi and no-gi, even against larger opponents.**
+
 Marcelo Garcia's guillotine system represents one of the most refined and effective submission frameworks in modern Brazilian Jiu-Jitsu. Built on decades of competition experience and thousands of successful finishes, this system transforms the guillotine from an opportunistic submission into a systematic attacking weapon. The framework encompasses multiple entry points, grip variations, and finishing positions, all connected through a logical decision tree that responds to opponent reactions. Garcia's approach emphasizes high-elbow positioning, precise hand placement, and the integration of guillotine attacks with sweeps and back takes. What distinguishes this system is its adaptability across positions - from standing clinches to guard pulls to turtle attacks - making it equally effective in gi and no-gi contexts. The methodology prioritizes connection and control over raw strength, allowing practitioners of all sizes to implement the system successfully against larger opponents.
+
+</section>
+
+
+
+<section id="unlock-graph" class="content-section system-unlock" data-system-unlock hidden>
+
+## Unlock this part of the graph
+
+<p class="section-subtitle">This system teaches the highlighted nodes in the graph. Mark what you already know &mdash; be honest, it's your game.</p>
+
+<div class="system-progress" data-system-progress>
+<svg class="system-progress__ring" viewBox="0 0 44 44" aria-hidden="true"><circle class="system-progress__ring-bg" cx="22" cy="22" r="19"></circle><circle class="system-progress__ring-fill" cx="22" cy="22" r="19"></circle></svg>
+<div class="system-progress__text">You've unlocked <strong class="system-progress__known">0</strong> / <span class="system-progress__total">0</span> techniques in this system</div>
+<button class="system-progress__mark-all" data-mark-system type="button">Mark whole system as known</button>
+</div>
+
+<ul class="system-members" data-system-members></ul>
 
 </section>
 

@@ -22,6 +22,7 @@ Usage:
 import argparse
 import copy
 import json
+import os
 import subprocess
 import sys
 import time
@@ -38,6 +39,17 @@ if _repo_root not in sys.path:
     sys.path.insert(0, _repo_root)
 
 from scripts.validate_json import validate_json_file as _validate_json_file, load_schema, detect_position_template_type, detect_transition_template_type
+from scripts.claude_infer import call_claude as _infer_call_claude
+from scripts.peak_throttle import is_peak as _is_peak, PACIFIC as _PEAK_PACIFIC
+from scripts._atomic_io import atomic_write_json
+from scripts._prob_norm import largest_remainder_round as _largest_remainder_round
+
+
+def _is_peak_now() -> bool:
+    """True iff we're in Anthropic's weekday 05:00-11:00 PT peak window (unless disabled)."""
+    if os.environ.get("PEAK_THROTTLE_DISABLE") == "1" or _PEAK_PACIFIC is None:
+        return False
+    return _is_peak(datetime.now(_PEAK_PACIFIC))
 
 # =============================================================================
 # PATHS
@@ -52,8 +64,12 @@ LEARNING_PATH = CONTENT_PATH / "Learning"
 TEMPLATES_PATH = Path("templates")
 LOGS_PATH = Path("logs/regenerate_json")
 
-# Model to use for all Claude calls
-CLAUDE_MODEL = "claude-opus-4-6"
+# Model to use for all Claude calls.
+# Opus 4.8 with the 1M-context variant ([1m] suffix) for the largest context window.
+CLAUDE_MODEL = "claude-opus-4-8[1m]"
+# Reasoning effort for content generation (low|medium|high|xhigh|max). Content
+# regeneration is quality-critical and intermittent, so we run near the top.
+CLAUDE_EFFORT = "xhigh"
 
 # =============================================================================
 # STATS (thread-safe)
@@ -303,6 +319,14 @@ def needs_enrichment(data: dict, category: str) -> bool:
     if has_todos(data):
         return True
 
+    # Answer-first SEO: Principles/Systems must carry a one-sentence `summary`.
+    # It is OPTIONAL in the schema (so validation never hard-fails), but its
+    # absence is treated as "needs enrichment" so the regenerate pipeline
+    # backfills it via Claude. Self-terminating: once `summary` is present this
+    # returns False again, so the file is skipped on subsequent runs.
+    if category in ("Principles", "Systems") and not str(data.get("summary", "")).strip():
+        return True
+
     # Check for placeholder outcomes (Transitions/Submissions)
     outcomes = data.get("outcomes", [])
     for o in outcomes:
@@ -431,6 +455,14 @@ def build_response_schema(category: str, template_type: str = None) -> dict:
             category_schema.pop(key, None)
         # Resolve $ref for Position DUAL/FAMILY/SINGLE
         category_schema = resolve_schema_refs(category_schema)
+        # `products` is curated affiliate data — never authored by AI. Strip it from the
+        # Systems response contract so the model literally cannot return or invent it.
+        if category == "Systems" and isinstance(category_schema.get("properties"), dict):
+            category_schema["properties"].pop("products", None)
+            if isinstance(category_schema.get("required"), list):
+                category_schema["required"] = [
+                    r for r in category_schema["required"] if r != "products"
+                ]
     except Exception:
         category_schema = {"type": "object", "required": ["name"],
                           "properties": {"name": {"type": "string"}}}
@@ -517,6 +549,7 @@ REFERENCES:
 - related_content[] -> Array of objects with name/content_type/relationship (3-15 items, any type)
 
 KEY FIELDS:
+- summary: ONE self-contained definition sentence (~15-40 words, "A {filename} is..." / "{filename} are...") that leads the page for AI answer engines / featured snippets. The overview must NOT duplicate it.
 - overview: 2-3 paragraphs, 400+ characters
 - key_principles: 6-9 fundamental principles
 - component_skills: 5-8 discrete sub-skills with 50+ char descriptions
@@ -532,6 +565,7 @@ REFERENCES:
 - related_content[] -> Array of objects with name/content_type/relationship (10-30 items for comprehensive SEO)
 
 KEY FIELDS:
+- summary: ONE self-contained definition sentence (~15-40 words, "The {filename} is...") that leads the page for AI answer engines / featured snippets. The overview must NOT duplicate it.
 - overview: 2-3 paragraphs, 400+ characters
 - key_principles: 5-8 core principles
 - key_components: 4+ main elements with 50+ char descriptions
@@ -569,6 +603,9 @@ KEY FIELDS:
 
 REFERENCE_FORMAT_RULES = """
 REFERENCE FORMAT (CRITICAL - Hub-and-Spoke Architecture):
+- These rules govern REFERENCES TO OTHER ENTITIES (related_content[], related_submissions[],
+  transition targets, etc.) ONLY. They DO NOT apply to this entity's own top-level `name`,
+  which must stay verbatim (see REQUIREMENTS).
 - Use ONLY the base filename (no paths, no extensions): 'Inside Ashi-Garami', 'Deep Half Guard'
 - NEVER use Category/Name format: 'Positions/Inside Ashi-Garami' ❌
 - NEVER use folder paths with slashes ❌
@@ -608,6 +645,9 @@ REQUIREMENTS:
 - Fix all broken references using ONLY flat names from the valid reference lists above
 - For Position references: ALWAYS use specific child variant names when available (e.g., 'Mount Top' not 'Mount')
 - Match the TEMPLATE structure exactly
+- Author a root-level `summary`: ONE self-contained sentence (~15-40 words) that directly DEFINES this entity (answer-first — AI answer engines quote the first sentence). It must read standalone and be distinct from `overview`, which must NOT repeat it.
+- PRESERVE the existing graph structure: never drop or rename `transitions[]` entries (positions), and never change `from_position` or drop `outcomes[].to` targets (transitions/submissions). Probabilities may be retuned (sum=100), but graph edges must not be removed.
+- NEVER change this entity's own top-level `name`. For a nested submission variant (file lives in a `<Family>/` subfolder), `name` MUST stay the FULL `"<Family> from <Position>"` form (e.g. "Americana from Mount") — do NOT shorten it to the filename (e.g. "from Mount"). The graph keys submissions by this `name`; shortening it collides every family's same-position variant onto one node and breaks aggregation and edges.
 - All content must be technically accurate and reflect BJJ best practices
 - Safety sections must be comprehensive (especially for submissions)
 """
@@ -643,10 +683,10 @@ POSITION_PROMPT = '''You are an expert Brazilian Jiu-Jitsu black belt instructor
 ### 1. Fix All Validation Errors
 {error_guidance}
 
-### 2. Review attempt_probability Values
-- MUST sum to 100% per role (top/bottom)
-- Reflect realistic training choices for advanced hobbyists
-- Consider what techniques are actually attempted vs theoretically possible
+### 2. Preserve transitions; review attempt_probability
+- PRESERVE every existing entry in `transitions[]`. Dropping one RE-ORPHANS a submission and is NOT allowed — keep all original transition names for both roles.
+- You MAY re-tune `attempt_probability` to reflect realistic training choices, but every original transition must remain and the values MUST sum to exactly 100% per role (top/bottom).
+- Do NOT invent transitions that lack a content file; only adjust probabilities across the existing set.
 
 ### 3. Add/Improve flashcards (8-12 Q&A pairs)
 **Focus: RETENTION (maintaining this stable position)**
@@ -924,6 +964,15 @@ PRINCIPLES_PROMPT = '''You are an expert Brazilian Jiu-Jitsu black belt instruct
 - decision_framework should have 6-8 actionable steps
 - developmental_metrics must have exactly 4 levels with 3+ observable behaviors each
 
+### 4. Author the Answer-First `summary` (REQUIRED for AI/LLM SEO)
+- Add a `summary` field: ONE self-contained sentence (~15-40 words) that directly DEFINES the principle, e.g. "A wedge is any body part inserted into a gap to pry space open, redirect force, or block an opponent's movement."
+- It must read as a standalone definition an AI answer engine can quote verbatim — lead with "A {filename} is..." or "{filename} are...".
+- The `overview` must NOT repeat the summary sentence; start the overview with broader context/history instead.
+
+### 5. Author flashcards (6-12 Q&A pairs — REQUIRED for the training deck)
+- Add a `flashcards` array of 6-12 {{question, answer}} pairs covering recognition, application, key mechanics, and common errors of this principle.
+- Each `answer` must be 50+ characters and self-contained; each `question` ends with "?".
+
 ## Valid References by Category (ONLY use names from these lists):
 
 **Positions ({positions_count} available):**
@@ -986,12 +1035,22 @@ SYSTEMS_PROMPT = '''You are an expert Brazilian Jiu-Jitsu black belt instructor 
 - key_components[] should reference real techniques and positions
 - implementation_sequence should be logical and progressive
 - related_content[] should have 10-30 items for comprehensive SEO
+- DO NOT add, remove, or modify the `products` field — it is curated affiliate data managed by hand and must be omitted from your output entirely (it is re-merged automatically)
 
 ### 3. Review Content Quality
 - overview must be 400+ characters with substantive BJJ analysis
 - key_components descriptions must be 50+ characters each
 - training_methodology.drilling_approach must be 200+ characters
 - training_methodology.progression_path must have 4+ stages
+
+### 4. Author the Answer-First `summary` (REQUIRED for AI/LLM SEO)
+- Add a `summary` field: ONE self-contained sentence (~15-40 words) that directly DEFINES the system, e.g. "The Kimura Trap System is a control-and-submission framework that uses the figure-four grip to chain back takes, sweeps, and kimura finishes."
+- It must read as a standalone definition an AI answer engine can quote verbatim — lead with "The {filename} is...".
+- The `overview` must NOT repeat the summary sentence; start the overview with broader context/history instead.
+
+### 5. Author flashcards (6-12 Q&A pairs — REQUIRED for the training deck)
+- Add a `flashcards` array of 6-12 {{question, answer}} pairs covering recognition, application, key mechanics, and common errors of this system.
+- Each `answer` must be 50+ characters and self-contained; each `question` ends with "?".
 
 ## Valid References by Category (ONLY use names from these lists):
 
@@ -1203,59 +1262,10 @@ def build_prompt(file_path: Path, data: dict, validation_errors: str, refs: Dict
 # =============================================================================
 
 def call_claude(prompt: str, response_schema: dict, timeout: int = 1800) -> Tuple[Optional[str], Optional[str]]:
-    """Call Claude CLI with structured JSON output."""
-    proc = None
-    try:
-        proc = subprocess.Popen(
-            [
-                "claude",
-                "-p", "-",
-                "--model", CLAUDE_MODEL,
-                "--output-format", "json",
-                "--json-schema", json.dumps(response_schema)
-            ],
-            stdin=subprocess.PIPE,
-            stdout=subprocess.PIPE,
-            stderr=subprocess.PIPE,
-            text=True,
-            cwd=Path.cwd()
-        )
-
-        stdout, stderr = proc.communicate(input=prompt, timeout=timeout)
-
-        if proc.returncode != 0:
-            return None, f"Claude CLI error: {stderr}"
-
-        # --output-format json wraps response in {"type":"result","result":"...","structured_output":...}
-        # When using --json-schema, the schema-constrained JSON is in "structured_output"
-        # The "result" field contains plain text explanation
-        try:
-            cli_output = json.loads(stdout)
-            # Check structured_output first (for --json-schema), fall back to result
-            structured = cli_output.get("structured_output")
-            if structured is not None:
-                # structured_output is already a dict/object when present
-                if isinstance(structured, dict):
-                    return json.dumps(structured), None
-                return structured, None
-            return cli_output.get("result", stdout.strip()), None
-        except (json.JSONDecodeError, KeyError):
-            return stdout.strip(), None
-
-    except subprocess.TimeoutExpired:
-        if proc:
-            proc.kill()
-            proc.wait()
-        return None, "Claude CLI timeout"
-    except KeyboardInterrupt:
-        if proc:
-            proc.kill()
-            proc.wait()
-        raise
-    except FileNotFoundError:
-        return None, "Claude CLI not found - ensure 'claude' is in PATH"
-    except Exception as e:
-        return None, f"Claude CLI exception: {e}"
+    """Structured Claude inference via the shared helper (scripts/claude_infer.py):
+    read-only tools (explore but never write), a forced structured-output contract, and
+    usage-limit backoff. Returns (structured_json_str, None) or (None, error)."""
+    return _infer_call_claude(prompt, response_schema, CLAUDE_MODEL, CLAUDE_EFFORT, timeout=timeout, log=tprint)
 
 
 def extract_json_from_response(response: str) -> Tuple[Optional[dict], Optional[str]]:
@@ -1418,9 +1428,7 @@ def save_transition_stub(stub: dict) -> bool:
         return False
 
     try:
-        with open(file_path, 'w', encoding='utf-8') as f:
-            json.dump(stub, f, indent=2, ensure_ascii=False)
-            f.write('\n')
+        atomic_write_json(file_path, stub, indent=2, ensure_ascii=False)
         return True
     except Exception as e:
         stats_append_error(f"Failed to save stub {name}: {e}")
@@ -1442,15 +1450,108 @@ def load_json(path: Path) -> Optional[dict]:
 
 
 def save_json(path: Path, data: dict) -> bool:
-    """Save JSON file."""
+    """Save JSON file atomically."""
     try:
-        with open(path, 'w', encoding='utf-8') as f:
-            json.dump(data, f, indent=2, ensure_ascii=False)
-            f.write('\n')
+        atomic_write_json(path, data, indent=2, ensure_ascii=False)
         return True
     except Exception as e:
         stats_append_error(f"Failed to save {path}: {e}")
         return False
+
+
+def _transition_names(data: dict) -> set:
+    """Every transition name a Position references (outgoing graph edges), across roles."""
+    names: set = set()
+    lists = [r.get("transitions", []) for r in (data.get("top"), data.get("bottom")) if isinstance(r, dict)]
+    lists.append(data.get("transitions", []))  # SINGLE positions keep transitions[] at root
+    for lst in lists:
+        if isinstance(lst, list):
+            for t in lst:
+                if isinstance(t, dict) and t.get("transition"):
+                    names.add(t["transition"])
+    return names
+
+
+def check_structural_preservation(original: dict, fixed: dict, category: str) -> List[str]:
+    """Blocking errors if the regen dropped graph structure that must survive.
+
+    Positions: every original transition must remain — dropping one re-orphans a
+    submission (the v1.36.7 orphan-connection work). Transitions/Submissions:
+    from_position must be unchanged and no outcome `to` target dropped.
+    attempt_probability MAY change; its sum=100 is enforced by the schema validator.
+    """
+    errors: List[str] = []
+    if not isinstance(original, dict) or not isinstance(fixed, dict):
+        return errors
+    if category == "Positions":
+        dropped = _transition_names(original) - _transition_names(fixed)
+        if dropped:
+            errors.append(
+                "PRESERVATION: dropped transitions [" + ", ".join(sorted(dropped)) + "] — this "
+                "re-orphans submissions. Restore EVERY original transition; you may retune "
+                "attempt_probability but keep all transitions (sum=100 per role)."
+            )
+    elif category in ("Transitions", "Submissions"):
+        of, nf = str(original.get("from_position", "")).strip(), str(fixed.get("from_position", "")).strip()
+        if of and of != nf:
+            errors.append(f"PRESERVATION: from_position changed '{of}' -> '{nf or '(missing)'}'; keep the original.")
+        orig_to = {o.get("to") for o in original.get("outcomes", []) if isinstance(o, dict) and o.get("to")}
+        dropped = {t for t in (orig_to - {o.get("to") for o in fixed.get("outcomes", []) if isinstance(o, dict)}) if t}
+        if dropped:
+            errors.append("PRESERVATION: dropped outcome targets [" + ", ".join(sorted(map(str, dropped))) + "]; keep the original graph edges.")
+    elif category == "Systems":
+        # `products` is curated affiliate data the AI must never alter. The save path
+        # re-merges it from the original before this runs, so this is a sanity backstop.
+        if original.get("products") != fixed.get("products"):
+            errors.append(
+                "PRESERVATION: 'products' is curated affiliate data and must not change; "
+                "omit it from your output (it is re-merged automatically)."
+            )
+    return errors
+
+
+# _largest_remainder_round is imported from scripts._prob_norm so this module and
+# proofread_all_transitions.py share one correct normalizer (clamps negatives,
+# rescales proportionally to sum 100, even-distributes the all-zero case).
+
+
+def normalize_probabilities(data: dict, category: str) -> bool:
+    """2D: rescale probabilities to sum EXACTLY 100 per group, preserving Claude's
+    relative weighting — fixes only the sum so a near-miss never forces a retry.
+
+    Positions: `attempt_probability` per role (top/bottom, or root for SINGLE).
+    Transitions/Submissions: outcome `probability`. Returns True if it changed anything.
+    """
+    if not isinstance(data, dict):
+        return False
+    changed = False
+
+    def fix_group(items, key):
+        nonlocal changed
+        if not isinstance(items, list) or not items:
+            return
+        vals = []
+        for it in items:
+            try:
+                vals.append(max(0.0, float(it.get(key, 0)))) if isinstance(it, dict) else vals.append(0.0)
+            except (TypeError, ValueError):
+                vals.append(0.0)
+        if round(sum(vals)) == 100:
+            return
+        for it, nv in zip(items, _largest_remainder_round(vals, 100)):
+            if isinstance(it, dict) and it.get(key) != nv:
+                it[key] = nv
+                changed = True
+
+    if category == "Positions":
+        for role in ("top", "bottom"):
+            rd = data.get(role)
+            if isinstance(rd, dict):
+                fix_group(rd.get("transitions", []), "attempt_probability")
+        fix_group(data.get("transitions", []), "attempt_probability")  # SINGLE positions
+    elif category in ("Transitions", "Submissions"):
+        fix_group(data.get("outcomes", []), "probability")
+    return changed
 
 
 def process_file(file_path: Path, refs: Dict[str, List[str]], dry_run: bool = False,
@@ -1470,6 +1571,7 @@ def process_file(file_path: Path, refs: Dict[str, List[str]], dry_run: bool = Fa
         return result_info
 
     category = detect_category(file_path)
+    original_data = copy.deepcopy(data)  # pre-regen snapshot for the structural-preservation check
 
     # Pre-validation
     is_valid, has_blocking, blocking_errs, non_blocking_errs = run_validation(file_path)
@@ -1596,6 +1698,22 @@ def process_file(file_path: Path, refs: Dict[str, List[str]], dry_run: bool = Fa
             tprint(f"{tag}Correcting name '{fixed_content['name']}' -> '{expected_name}'")
             fixed_content["name"] = expected_name
 
+        # Curation-safety: `products` is hand-curated affiliate data excluded from the AI
+        # response contract. Restore it verbatim from the original so enrichment can never
+        # drop or invent affiliate links.
+        if category == "Systems":
+            orig_products = original_data.get("products") if isinstance(original_data, dict) else None
+            if orig_products is not None:
+                fixed_content["products"] = orig_products
+            else:
+                fixed_content.pop("products", None)
+
+        # Curation-safety (2D): auto-normalize probabilities to sum exactly 100 instead
+        # of failing/retrying on a near-miss. Preserves Claude's relative weighting and
+        # leaves all transitions intact (so the 2B preservation check still holds).
+        if normalize_probabilities(fixed_content, category):
+            tprint(f"{tag}Normalized probabilities to sum 100")
+
         # Save to disk
         if not save_json(file_path, fixed_content):
             tprint(f"{tag}Attempt {attempt_num}: Failed to save file")
@@ -1603,6 +1721,15 @@ def process_file(file_path: Path, refs: Dict[str, List[str]], dry_run: bool = Fa
 
         # Validate with severity
         is_valid, has_blocking, blocking_errs, non_blocking_errs = run_validation(file_path)
+
+        # Curation-safety (2B): never drop graph structure the orphan-connection work
+        # added — a dropped transition re-orphans a submission. Treat as blocking so the
+        # existing revert+retry loop re-prompts Claude (with the dropped names) to restore it.
+        preservation_errs = check_structural_preservation(original_data, fixed_content, category)
+        if preservation_errs:
+            blocking_errs = preservation_errs + blocking_errs
+            has_blocking = True
+            is_valid = False
 
         if is_valid:
             # Fully valid
@@ -1769,6 +1896,13 @@ Examples:
                        help="Number of parallel workers (default: 1, use with --batch)")
     parser.add_argument("--verbose", "-v", action="store_true",
                        help="Verbose output")
+    parser.add_argument("--peak-throttle", action="store_true",
+                       help="After EACH file, if we're in Anthropic's peak window (weekday "
+                            "05:00-11:00 PT) wait --peak-throttle-min minutes before the next file, "
+                            "so the run trickles through peak and does the bulk off-peak. Off-peak "
+                            "the wait is zero and silent. Set PEAK_THROTTLE_DISABLE=1 to force off.")
+    parser.add_argument("--peak-throttle-min", type=int, default=30,
+                       help="Minutes to wait after a file when peak (default 30).")
 
     args = parser.parse_args()
 
@@ -1779,7 +1913,7 @@ BJJ Graph Unified Content Fixer
 {'=' * 70}
 Mode: {'SINGLE FILE' if args.file else 'QUEUE'}
 Model: {CLAUDE_MODEL}
-{'File: ' + args.file if args.file else ('Batch: no delay' if args.batch else f'Interval: {args.interval}s ({86400 // args.interval} files/day)')}
+{'File: ' + args.file if args.file else ('Batch: no delay' if args.batch else (f'Interval: {args.interval}s ({86400 // args.interval} files/day)' if args.interval > 0 else 'Interval: 0s (no delay, back-to-back)'))}
 Parallel: {args.parallel} worker{'s' if args.parallel > 1 else ''}
 Category: {args.category}
 Dry Run: {args.dry_run}
@@ -1876,10 +2010,20 @@ Domain-specific prompts:
                                                label=f"{i+1}/{len(files)}")
                     run_summary["files"].append({"file": str(file_path), **file_result})
 
-                    # Wait between files (skip in batch mode)
+                    # Sustainable inter-call pacing: sleep after EVERY file (incl. the first) to
+                    # keep the weekly budget on target. During Anthropic's peak window (weekday
+                    # 05:00-11:00 PT) enforce at least the peak floor — the LONGER of the two wins
+                    # (they do NOT stack). Skipped in --batch / --dry-run / on the last file.
                     if i < len(files) - 1 and not args.dry_run and not args.batch:
-                        tprint(f"\nWaiting {args.interval}s before next file...")
-                        time.sleep(args.interval)
+                        wait = max(0, args.interval)
+                        peak_floor = args.peak_throttle_min * 60 if (args.peak_throttle and _is_peak_now()) else 0
+                        if peak_floor > wait:
+                            wait = peak_floor
+                            tprint(f"\n[pace] PEAK HOURS (weekday 05:00-11:00 PT) — waiting {wait // 60} min before next file...")
+                        elif wait > 0:
+                            tprint(f"\n[pace] sleeping ~{wait // 60} min ({wait}s) before next file...")
+                        if wait > 0:
+                            time.sleep(wait)
             except KeyboardInterrupt:
                 tprint(f"\n\nInterrupted after {i+1}/{len(files)} files.")
 

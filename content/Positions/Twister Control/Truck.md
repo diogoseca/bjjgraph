@@ -10,6 +10,41 @@ description: "Master Truck Position in BJJ with comprehensive bottom and top per
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Truck",
+  "description": "Master Truck Position in BJJ with comprehensive bottom and top perspective analysis. Defensive survival guide and offensive submission system covering twister, calf slicer, and back attacks.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Truck", "item": "https://bjjgraph.org/Positions/Truck" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Truck",
+  "description": "The Truck is a 10th Planet back-attack position where the top player traps one of the opponent's legs in a figure-four and presses a boot against their hip, generating simultaneous twister, calf slicer, and back-control threats.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Truck Position in BJJ with comprehensive bottom and top per
 </div>
 
 <section id="overview" class="content-section">
+
+**The Truck is a 10th Planet back-attack position where the top player traps one of the opponent's legs in a figure-four and presses a boot against their hip, generating simultaneous twister, calf slicer, and back-control threats.**
 
 The Truck Position is a specialized back-attack control position developed and popularized within the 10th Planet Jiu-Jitsu system. This position creates a unique control system where the controlling practitioner is positioned perpendicular to their opponent, with legs entangled in a figure-four configuration controlling the opponent's lower body while maintaining upper body control through various grips.
 
@@ -102,27 +139,25 @@ Historically, the truck evolved from wrestling's turk ride, adapted into the 10t
 ### Available Transitions
 
 
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (66% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (42% of attempts)
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (11% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (13% of attempts)
 
-- **[[Transitions/Leg Extraction to Guard/Attacker|Leg Extraction to Guard]]** (10% of attempts)
+- **[[Transitions/Leg Extraction to Guard/Attacker|Leg Extraction to Guard]]** (12% of attempts)
 
 - **[[Transitions/Rolling Back Take Reversal/Attacker|Rolling Back Take Reversal]]** (4% of attempts)
 
-- **[[Transitions/Forward Roll/Attacker|Forward Roll]]** (6% of attempts)
+- **[[Transitions/Back Door Escape/Attacker|Back Door Escape]]** (4% of attempts)
 
-- **[[Transitions/Back Door Escape/Attacker|Back Door Escape]]** (2% of attempts)
+- **[[Transitions/Defensive Roll/Attacker|Defensive Roll]]** (7% of attempts)
 
-- **[[Transitions/Defensive Roll/Attacker|Defensive Roll]]** (0% of attempts)
+- **[[Transitions/Escape from Truck/Attacker|Escape from Truck]]** (4% of attempts)
 
-- **[[Transitions/Escape from Truck/Attacker|Escape from Truck]]** (0% of attempts)
+- **[[Transitions/Hip Escape from Truck/Attacker|Hip Escape from Truck]]** (3% of attempts)
 
-- **[[Transitions/Hip Escape from Truck/Attacker|Hip Escape from Truck]]** (0% of attempts)
+- **[[Transitions/Leg Extraction from Truck/Attacker|Leg Extraction from Truck]]** (3% of attempts)
 
-- **[[Transitions/Leg Extraction from Truck/Attacker|Leg Extraction from Truck]]** (0% of attempts)
-
-- **[[Transitions/Roll to Guard from Truck/Attacker|Roll to Guard from Truck]]** (1% of attempts)
+- **[[Transitions/Roll to Guard from Truck/Attacker|Roll to Guard from Truck]]** (8% of attempts)
 
 
 ### Common Mistakes
@@ -183,19 +218,19 @@ Historically, the truck evolved from wrestling's turk ride, adapted into the 10t
 ### Available Transitions
 
 
-- **[[Transitions/Twister Entry/Attacker|Twister Entry]]** (14% of attempts)
+- **[[Transitions/Twister Entry/Attacker|Twister Entry]]** (13% of attempts)
 
 - **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** (5% of attempts)
 
-- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (21% of attempts)
+- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (20% of attempts)
 
-- **[[Bow and Arrow Choke from Truck/Attacker|Bow and Arrow Choke from Truck]]** (8% of attempts)
+- **[[Bow and Arrow Choke from Truck/Attacker|Bow and Arrow Choke from Truck]]** (7% of attempts)
 
-- **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** (8% of attempts)
+- **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** (7% of attempts)
 
 - **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** (7% of attempts)
 
-- **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** (12% of attempts)
+- **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** (11% of attempts)
 
 - **[[Transitions/Truck Maintenance/Attacker|Truck Maintenance]]** (3% of attempts)
 
@@ -205,9 +240,13 @@ Historically, the truck evolved from wrestling's turk ride, adapted into the 10t
 
 - **[[Submissions/Banana Split/Attacker|Banana Split]]** (2% of attempts)
 
-- **[[Calf Slicer from Truck/Attacker|Calf Slicer from Truck]]** (14% of attempts)
+- **[[Calf Slicer from Truck/Attacker|Calf Slicer from Truck]]** (13% of attempts)
 
-- **[[Submissions/Spine Lock/Attacker|Spine Lock]]** (1% of attempts)
+- **[[Submissions/Spine Lock/Attacker|Spine Lock]]** (2% of attempts)
+
+- **[[Banana Split from Truck/Attacker|Banana Split from Truck]]** (3% of attempts)
+
+- **[[Spine Lock from Truck/Attacker|Spine Lock from Truck]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -266,8 +305,22 @@ Historically, the truck evolved from wrestling's turk ride, adapted into the 10t
 
 - **[[Positions/Dogfight Position]]** - Scramble position related to truck escapes
 
-- **[[Positions/Standing Position]]** - Transition state during truck entries and escapes
+- **[[Positions/Combat Base]]** - Transition state during truck entries and escapes
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Danaher-Front-Headlock-System" data-cta="related-system-card" data-system-slug="systems/danaher-front-headlock-system" data-system-name="Danaher Front Headlock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Danaher Front Headlock System</span><span class="system-card__unlocks-badge">Unlocks 30 techniques</span><span class="system-card__blurb">Advanced back exposure position accessible from front headlock spiral</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Control System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Garry-Tonon-Leg-Lock-to-Back-System" data-cta="related-system-card" data-system-slug="systems/garry-tonon-leg-lock-to-back-system" data-system-name="Garry Tonon Leg Lock to Back System" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Garry Tonon Leg Lock to Back System</span><span class="system-card__unlocks-badge">Unlocks 26 techniques</span><span class="system-card__blurb">Intermediate position linking saddle defense to back attacks and twister submissions</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Twister-System" data-cta="related-system-card" data-system-slug="systems/twister-system" data-system-name="Twister System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Twister System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Primary control position that enables Twister and other submissions</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/10th-Planet-No-Gi-Guard-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-no-gi-guard-system" data-system-name="10th Planet No-Gi Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">10th Planet No-Gi Guard System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Central position for twister series attacks</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Lockdown-to-Electric-Chair-System" data-cta="related-system-card" data-system-slug="systems/lockdown-to-electric-chair-system" data-system-name="Lockdown to Electric Chair System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Lockdown to Electric Chair System</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Advanced transition destination from lockdown scrambles</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

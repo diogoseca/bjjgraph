@@ -10,6 +10,41 @@ description: "Master the Double Sleeve to Spider Guard transition in BJJ. Learn 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Double Sleeve to Spider",
+  "description": "Master the Double Sleeve to Spider Guard transition in BJJ. Learn grip transfer, bicep hook placement, and systematic foot positioning for effective guard control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Double Sleeve to Spider", "item": "https://bjjgraph.org/Transitions/Double-Sleeve-to-Spider" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Double Sleeve to Spider",
+  "description": "Double Sleeve to Spider is a gi guard transition where the bottom player slides their feet from the opponent's hips to the biceps one foot at a time, keeping both sleeve grips to upgrade distance control into spider guard's stronger leg-against-arm leverage.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Double Sleeve to Spider Guard transition in BJJ. Learn 
 </div>
 
 <section id="overview" class="content-section">
+
+**Double Sleeve to Spider is a gi guard transition where the bottom player slides their feet from the opponent's hips to the biceps one foot at a time, keeping both sleeve grips to upgrade distance control into spider guard's stronger leg-against-arm leverage.**
 
 The Double Sleeve to Spider Guard transition represents one of the most natural guard evolution pathways in gi jiu-jitsu. Starting from bilateral sleeve control with feet on the opponent's hips, the bottom player systematically repositions their feet from the hips to the biceps, establishing the distinctive spider guard hooks that create superior distance management and enhanced attacking angles. This transition leverages the existing sleeve grips as a foundation, making it one of the lowest-risk guard transitions available from the double sleeve position.
 
@@ -200,7 +237,7 @@ The Double Sleeve to Spider transition is a foundational guard evolution pathway
 
 - [[Positions/Spider Guard]] - Target position providing superior distance management and sweep options
 
-- [[Positions/Double Sleeve Guard]] - Source position providing the bilateral sleeve grips that foundation this transition
+- [[Positions/Double Sleeve Guard]] - Source position providing the bilateral sleeve grips that anchor this transition
 
 - [[Positions/Lasso Guard]] - Alternative transition target when opponent circles during spider entry
 
@@ -214,13 +251,13 @@ The Double Sleeve to Spider transition is a foundational guard evolution pathway
 
 - [[Transitions/Double Sleeve to De La Riva]] - Alternative guard transition from the same starting position
 
-- [[Transitions/Collar Sleeve to Spider Guard]] - Similar transition to spider guard from a different starting grip configuration
-
 - [[Transitions/Triangle Setup]] - Primary submission entry available after establishing spider guard
 
 - [[Transitions/Armbar Setup from Double Sleeve]] - Alternative attack path from the source position
 
 
 </section>
+
+
 
 </main>

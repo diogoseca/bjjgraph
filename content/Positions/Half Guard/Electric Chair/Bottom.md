@@ -21,13 +21,13 @@ description: "Master Electric Chair Bottom in BJJ. Complete lockdown attack guid
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 76% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 54% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
@@ -38,20 +38,20 @@ description: "Master Electric Chair Bottom in BJJ. Complete lockdown attack guid
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Straighten Leg Defense from Electric Chair",
-      "text": "From this position, attempt Straighten Leg Defense from Electric Chair. This technique is attempted in 2% of exchanges from this position.",
+      "name": "Execute Sweep from Electric Chair",
+      "text": "From this position, attempt Sweep from Electric Chair. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Sweep from Electric Chair",
-      "text": "From this position, attempt Sweep from Electric Chair. This technique is attempted in 1% of exchanges from this position.",
+      "name": "Execute Electric Chair",
+      "text": "From this position, attempt Electric Chair. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Electric Chair",
-      "text": "From this position, attempt Electric Chair. This technique is attempted in 1% of exchanges from this position.",
+      "name": "Execute Electric Chair from Electric Chair",
+      "text": "From this position, attempt Electric Chair from Electric Chair. This technique is attempted in 6% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -347,11 +347,23 @@ Start in electric chair bottom position with all grips established. Bottom pract
 - **[[Positions/Twister Control/Truck]]** - Common transition target when opponent defends electric chair
 - **[[Positions/Half Guard/Deep Half Guard]]** - Alternative transition when electric chair is defended
 - **[[Positions/Half Guard/Old School]]** - Primary sweeping technique from this position
-- **[[Positions/Half Guard/Electric Chair]]** - Primary submission threat from this position
 - **[[Submissions/Banana Split]]** - Alternative name for electric chair submission finish
 - **[[Positions/Half Guard]]** - Base guard system
 - **[[Positions/Dogfight Position]]** - Transition option when underhook is strong
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Twister-System" data-cta="related-system-card" data-system-slug="systems/twister-system" data-system-name="Twister System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Twister System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">First major attacking position achieved from lockdown whipup</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/10th-Planet-No-Gi-Guard-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-no-gi-guard-system" data-system-name="10th Planet No-Gi Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">10th Planet No-Gi Guard System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Submission position from lockdown system</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Lockdown-to-Electric-Chair-System" data-cta="related-system-card" data-system-slug="systems/lockdown-to-electric-chair-system" data-system-name="Lockdown to Electric Chair System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Lockdown to Electric Chair System</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Finishing technique in competition formats allowing crotch attacks</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/10th-Planet-Half-Guard-Bottom-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-half-guard-bottom-system" data-system-name="10th Planet Half Guard Bottom System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">10th Planet Half Guard Bottom System</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Primary submission threat position created from the Lockdown</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

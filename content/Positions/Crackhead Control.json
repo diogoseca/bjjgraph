@@ -3,6 +3,7 @@
   "slug": "crackhead-control",
   "description": "Master Crackhead Control in BJJ. Complete guide to 10th Planet's innovative turtle control system covering bottom defense and top attacks with expert analysis.",
   "variant_uniqueness": "Chair-sit mechanics create asymmetric control",
+  "summary": "Crackhead Control is a 10th Planet turtle control system in which the top player chair-sits on the opponent's hips to attack the back, while the bottom player uses constant motion and grip fighting to prevent control and recover guard.",
   "overview": "Crackhead Control is an innovative turtle position system developed within the 10th Planet Jiu-Jitsu methodology, characterized by unconventional positioning and dynamic movement patterns that challenge traditional turtle defense and attack paradigms. This position exists in two distinct perspectives: the bottom defensive position emphasizing constant movement and grip fighting to prevent back takes, and the top attacking position utilizing chair-sit mechanics to isolate the opponent's hips while threatening multiple submission and positional advancement pathways.\n\nThe system's effectiveness stems from its departure from static turtle mechanics. On bottom, practitioners maintain relentless hip mobility and aggressive hand fighting to prevent opponents from establishing the stable grips required for systematic back attacks. This transforms turtle from a passive defensive shell into an active scramble position that creates guard recovery opportunities. From top, the chair-sit position loads weight directly onto the opponent's lower back and hips, creating mechanical isolation that severely limits escape options while providing excellent platforms for back takes, truck entries, and various choke attacks.\n\nCrackhead Control represents the evolution of modern grappling's approach to turtle positions, particularly in no-gi contexts where traditional gi grips are unavailable. The position gained prominence through 10th Planet competition success and has been adopted by high-level competitors across multiple grappling organizations. Its unconventional mechanics create situations outside most practitioners' defensive vocabulary, providing significant competitive advantages for those who master the system. The position serves as a crucial link in modern back attack and leg lock systems, functioning as both a defensive survival position and an offensive control platform depending on perspective.\n\nThe name itself reflects the frenetic, unpredictable energy characteristic of the position - both perspectives require exceptional conditioning and technical precision to execute effectively. From bottom, practitioners must maintain intensity that appears almost manic while remaining strategically purposeful. From top, the unusual chair-sit positioning creates awkward leverage that opponents struggle to counter with conventional escape mechanics. This position exemplifies modern BJJ's trend toward positions that create genuine dilemmas forcing opponents to choose between multiple bad options, each leading to further disadvantage.",
   "key_principles": [
     "Bottom perspective emphasizes constant kinetic energy to prevent grip establishment and control consolidation",
@@ -551,35 +552,23 @@
     "transitions": [
       {
         "transition": "Granby Roll to Guard",
-        "attempt_probability": 14
+        "attempt_probability": 22
       },
       {
         "transition": "Standing up in Base",
-        "attempt_probability": 12
+        "attempt_probability": 16
       },
       {
         "transition": "Sit Through Escape",
-        "attempt_probability": 26
+        "attempt_probability": 30
       },
       {
         "transition": "Peterson Roll",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Crackhead Control to Carni",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Crackhead Control to Mission Control",
-        "attempt_probability": 10
-      },
-      {
-        "transition": "Crackhead Control to New York",
-        "attempt_probability": 8
+        "attempt_probability": 16
       },
       {
         "transition": "Posture Recovery to Closed Guard",
-        "attempt_probability": 6
+        "attempt_probability": 16
       }
     ],
     "flashcards": [

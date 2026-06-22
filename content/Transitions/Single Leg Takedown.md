@@ -10,6 +10,41 @@ description: "Master the Single Leg Takedown in BJJ. Complete guide covering ent
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Single Leg Takedown",
+  "description": "Master the Single Leg Takedown in BJJ. Complete guide covering entries, finishing mechanics, and defensive counters for standing grappling exchanges.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Single Leg Takedown", "item": "https://bjjgraph.org/Transitions/Single-Leg-Takedown" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Single Leg Takedown",
+  "description": "The Single Leg Takedown is a wrestling-based takedown where you capture one of the opponent's legs while controlling their upper body, off-balancing them onto one foot to drive, trip, or dump them to the mat and establish top position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Single Leg Takedown in BJJ. Complete guide covering ent
 </div>
 
 <section id="overview" class="content-section">
+
+**The Single Leg Takedown is a wrestling-based takedown where you capture one of the opponent's legs while controlling their upper body, off-balancing them onto one foot to drive, trip, or dump them to the mat and establish top position.**
 
 The Single Leg Takedown is one of the most fundamental and high-percentage takedowns in Brazilian Jiu-Jitsu and grappling arts, borrowed from wrestling. This technique involves attacking one of the opponent's legs while maintaining control of their upper body, creating an imbalance that forces them to the mat. The single leg is particularly effective in no-gi competition and MMA contexts, where traditional judo-style throws may be more difficult to execute. Unlike double leg takedowns that require deeper penetration and expose the practitioner to guillotine chokes, the single leg offers a more upright finishing position with multiple mechanical advantages. The technique's versatility lies in its numerous finishing variations - from the classic run-the-pipe to trips, dumps, and elevation finishes - allowing practitioners to adapt based on opponent reactions and defensive responses. Mastery of the single leg takedown provides a reliable method for taking the fight to the ground while maintaining dominant positioning, making it an essential skill for competitors at all levels who seek to control where and how the match is contested.
 
@@ -228,5 +265,7 @@ The single leg takedown occupies a crucial position within the broader BJJ techn
 
 
 </section>
+
+
 
 </main>

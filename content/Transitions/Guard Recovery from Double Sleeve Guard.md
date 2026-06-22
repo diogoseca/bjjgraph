@@ -10,6 +10,41 @@ description: "Master guard recovery from Double Sleeve Guard in BJJ. Step-by-ste
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Guard Recovery from Double Sleeve Guard",
+  "description": "Master guard recovery from Double Sleeve Guard in BJJ. Step-by-step guide covering grip transitions, leg retraction, and closed guard reestablishment.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Guard Recovery from Double Sleeve Guard", "item": "https://bjjgraph.org/Transitions/Guard-Recovery-from-Double-Sleeve-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Guard Recovery from Double Sleeve Guard",
+  "description": "Guard Recovery from Double Sleeve Guard is a defensive transition where the bottom player, after sleeve grips are stripped, retracts the legs and closes guard around the passer's torso before they can establish combat base or complete a pass.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master guard recovery from Double Sleeve Guard in BJJ. Step-by-ste
 
 <section id="overview" class="content-section">
 
-Guard Recovery from Double Sleeve Guard is a defensive transition where the bottom player reestablishes closed guard when bilateral sleeve control becomes compromised. When the opponent breaks one or both sleeve grips and begins advancing with passing pressure, the bottom player must abandon the open guard distance game and close the guard before the opponent can establish combat base or initiate passing sequences. This recovery requires releasing sleeve grips, retracting legs from hip or bicep frames, and closing guard around the opponent's torso while preventing them from establishing combat base or initiating passing sequences.
+**Guard Recovery from Double Sleeve Guard is a defensive transition where the bottom player, after sleeve grips are stripped, retracts the legs and closes guard around the passer's torso before they can establish combat base or complete a pass.**
+
+Grip failure against a competent passer is inevitable, and this transition is the bottom player's rehearsed answer to it—reestablishing closed guard the instant bilateral sleeve control is compromised. When the opponent breaks one or both sleeve grips and begins advancing with passing pressure, the bottom player must abandon the open guard distance game and close the guard before the opponent can establish combat base or initiate passing sequences. This recovery requires releasing sleeve grips, retracting legs from hip or bicep frames, and closing guard around the opponent's torso while preventing them from establishing combat base or initiating passing sequences.
 
 The technique exploits a narrow timing window created by the opponent's grip-stripping momentum. As the top player commits energy and body position to breaking sleeve grips, their weight often shifts forward or their hands become temporarily occupied, creating the opening the bottom player needs to retract legs and close distance. Skilled practitioners learn to read the grip-stripping pattern and initiate recovery proactively rather than reactively, turning a defensive emergency into a controlled transition that often catches the passer mid-movement with broken posture ideal for immediate closed guard attacks.
 
@@ -220,5 +257,7 @@ Guard Recovery from Double Sleeve Guard serves as the critical safety valve with
 
 
 </section>
+
+
 
 </main>

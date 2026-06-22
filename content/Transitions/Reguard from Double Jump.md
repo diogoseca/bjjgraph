@@ -10,6 +10,41 @@ description: "Master reguard from Double Jump in BJJ. Complete guide to recoveri
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Reguard from Double Jump",
+  "description": "Master reguard from Double Jump in BJJ. Complete guide to recovering closed guard from bottom with defensive framing, hip movement, and guard closure techniques.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Reguard from Double Jump", "item": "https://bjjgraph.org/Transitions/Reguard-from-Double-Jump" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Reguard from Double Jump",
+  "description": "Reguard from Double Jump is a defensive guard-recovery transition where the bottom player extracts their legs from the Double Jump entanglement and closes full guard around the opponent's waist, trading explosive sweep threats for a stable closed-guard attacking platform.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master reguard from Double Jump in BJJ. Complete guide to recoveri
 </div>
 
 <section id="overview" class="content-section">
+
+**Reguard from Double Jump is a defensive guard-recovery transition where the bottom player extracts their legs from the Double Jump entanglement and closes full guard around the opponent's waist, trading explosive sweep threats for a stable closed-guard attacking platform.**
 
 The reguard from Double Jump is a defensive recovery technique employed by the bottom player when offensive options from the Double Jump position have been neutralized or when strategic circumstances demand a positional reset to more sustainable guard play. This technique transitions the practitioner from the dynamic but energy-intensive Double Jump bottom position to the stable offensive platform of closed guard, sacrificing the explosive sweep potential of Double Jump for the systematic attack chains available from closed guard.
 
@@ -211,11 +248,13 @@ Reguard from Double Jump connects the dynamic Double Jump bottom subsystem back 
 
 - [[Positions/Half Guard/Deep Half Guard]] - Primary offensive target from Double Jump that this reguard supplements
 
-- [[Transitions/Guard Recovery from Double Unders]] - Related guard recovery concept using similar framing and hip escape principles
+- [[Positions/Half Guard/Lockdown]] - Alternative leg-entanglement recovery from Double Jump when closed guard closure is unrealistic
 
-- [[Transitions/Reguard from Butterfly Half Guard]] - Similar reguard technique from different compromised guard position
+- [[Positions/Half Guard/Electric Chair]] - Offensive option from Double Jump that the reguard substitutes for when attacks are defended
 
 
 </section>
+
+
 
 </main>

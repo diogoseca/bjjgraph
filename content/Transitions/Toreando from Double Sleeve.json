@@ -1,6 +1,7 @@
 {
   "name": "Toreando from Double Sleeve",
   "description": "Master the Toreando pass from Double Sleeve Guard. Step-by-step guide covering grip transitions, lateral passing mechanics, and side control finishing.",
+  "summary": "The Toreando from Double Sleeve is a gi guard pass where the top player breaks bilateral sleeve grips, seizes both pant legs, and swings the opponent's legs aside to circle into side control.",
   "tags": [
     "toreando pass",
     "guard passing",
@@ -77,16 +78,16 @@
       "relationship": "Counter destination when opponent closes guard during pass attempt"
     },
     {
-      "name": "Toreando Pass from De La Riva",
-      "relationship": "Similar toreando mechanics applied from different guard position"
+      "name": "Toreando Pass",
+      "relationship": "General lateral pass that this technique specializes for the double sleeve configuration"
     },
     {
-      "name": "Toreando Pass from Seated Guard",
-      "relationship": "Toreando variation against seated guard configuration"
+      "name": "Knee Slice Pass",
+      "relationship": "High-percentage chain pass when the toreando is defended"
     },
     {
       "name": "Pass Double Sleeve Guard",
-      "relationship": "General passing approach from same starting position"
+      "relationship": "General passing approach from the same starting position"
     },
     {
       "name": "Spider Guard",

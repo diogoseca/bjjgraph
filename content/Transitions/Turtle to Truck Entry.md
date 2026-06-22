@@ -10,6 +10,41 @@ description: "Learn the Turtle to Truck Entry in BJJ. Step-by-step hook insertio
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Turtle to Truck Entry",
+  "description": "Learn the Turtle to Truck Entry in BJJ. Step-by-step hook insertion from Turtle to Truck position with complete attacker and defender perspectives.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Turtle to Truck Entry", "item": "https://bjjgraph.org/Transitions/Turtle-to-Truck-Entry" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Turtle to Truck Entry",
+  "description": "The Turtle to Truck Entry is the initial hook-threading phase of establishing the Truck from behind a turtled opponent, weaving the near-side leg through their legs to lock the leg entanglement that opens the Twister system.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Learn the Turtle to Truck Entry in BJJ. Step-by-step hook insertio
 </div>
 
 <section id="overview" class="content-section">
+
+**The Turtle to Truck Entry is the initial hook-threading phase of establishing the Truck from behind a turtled opponent, weaving the near-side leg through their legs to lock the leg entanglement that opens the Twister system.**
 
 The Turtle to Truck Entry is the critical initial phase of establishing the Truck position from behind a turtled opponent. Unlike the full Turtle to Truck transition which encompasses the entire sequence from turtle top to consolidated Truck control, this entry focuses specifically on the most technically demanding portion: threading the near-side leg hook through the opponent's legs and locking the initial leg entanglement. The entry is the make-or-break moment where most failures occur, as the opponent's defensive window is widest before any leg control is established.
 
@@ -226,5 +263,7 @@ The Turtle to Truck Entry serves as the critical gateway between conventional tu
 
 
 </section>
+
+
 
 </main>

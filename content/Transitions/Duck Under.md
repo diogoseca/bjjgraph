@@ -10,6 +10,41 @@ description: "Learn the Duck Under in BJJ. Wrestling-based back take from clinch
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Duck Under",
+  "description": "Learn the Duck Under in BJJ. Wrestling-based back take from clinch using level change and arm manipulation for high-percentage standing control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Duck Under", "item": "https://bjjgraph.org/Transitions/Duck-Under" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Duck Under",
+  "description": "The Duck Under is a wrestling-derived back take from the clinch where you drop your level, thread your head and shoulder beneath the opponent's elevated arm, and circle behind to secure standing rear clinch or back control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Learn the Duck Under in BJJ. Wrestling-based back take from clinch
 </div>
 
 <section id="overview" class="content-section">
+
+**The Duck Under is a wrestling-derived back take from the clinch where you drop your level, thread your head and shoulder beneath the opponent's elevated arm, and circle behind to secure standing rear clinch or back control.**
 
 The Duck Under is a fundamental wrestling technique adapted for Brazilian Jiu-Jitsu that allows practitioners to transition from a neutral clinch position to dominant back control by ducking underneath the opponent's arm. This technique exploits the opponent's reaction to collar tie or head control pressure by using their defensive arm position as a gateway to their back. The movement requires precise timing, proper level change mechanics, and the ability to read when opponents create openings through their defensive reactions.
 
@@ -221,5 +258,7 @@ The Duck Under occupies a central position in the standing clinch game, serving 
 
 
 </section>
+
+
 
 </main>

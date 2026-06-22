@@ -142,11 +142,24 @@ description: "Master psychological preparation and mental skills for peak compet
 }
 </script>
 
-> Competition Mindset is a medium complexity BJJ principle applicable at the Intermediate level. Develop over Beginner to Advanced.
 
-**Application Level**: Intermediate
-**Complexity**: Medium
-**Development Timeline**: Beginner to Advanced
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Competition Mindset",
+  "description": "Competition Mindset is the trained psychological state—arousal regulation, process-focused attention, and constructive adversity response—that lets a competitor reliably access their full technical and physical preparation under the stress and uncertainty of live competition.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Intermediate</span>
+<span class="meta-chip">Medium complexity</span>
+<span class="meta-chip">Beginner to Advanced</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -155,7 +168,9 @@ description: "Master psychological preparation and mental skills for peak compet
 
 ## What is Competition Mindset?
 
-Competition Mindset represents the psychological state, cognitive patterns, and emotional regulation capabilities that enable optimal performance under the stress, uncertainty, and pressure inherent in competitive Brazilian Jiu-Jitsu environments. Unlike technical knowledge or physical preparation, competition mindset is the mental framework that determines how effectively athletes access their training, make tactical decisions under stress, regulate arousal levels appropriately, and respond to adversity during competition. This concept encompasses the psychological preparation, mental skills training, and strategic approach to cultivating the cognitive and emotional state that maximizes competitive performance. Competition mindset serves as both an enabling factor that allows technical and physical preparation to manifest fully under pressure, and a competitive advantage that compounds as opponents succumb to psychological pressures and performance anxiety. The ability to maintain optimal mental state throughout competitions often determines outcomes when technical and physical preparation levels are similar, making psychological preparation one of the most essential yet frequently neglected elements of competition readiness.
+**Competition Mindset is the trained psychological state—arousal regulation, process-focused attention, and constructive adversity response—that lets a competitor reliably access their full technical and physical preparation under the stress and uncertainty of live competition.**
+
+Of the three pillars of competitive readiness—technical, physical, and mental—the psychological dimension is the most frequently neglected, yet it is often the deciding factor between athletes whose skills are otherwise evenly matched. Unlike technical knowledge or physical preparation, competition mindset is the mental framework that determines how effectively athletes access their training, make tactical decisions under stress, regulate arousal levels appropriately, and respond to adversity during competition. This concept encompasses the psychological preparation, mental skills training, and strategic approach to cultivating the cognitive and emotional state that maximizes competitive performance. Competition mindset serves as both an enabling factor that allows technical and physical preparation to manifest fully under pressure, and a competitive advantage that compounds as opponents succumb to psychological pressures and performance anxiety. The ability to maintain optimal mental state throughout competitions often determines outcomes when technical and physical preparation levels are similar, making psychological preparation one of the most essential yet frequently neglected elements of competition readiness.
 
 </section>
 
@@ -375,6 +390,23 @@ Structured review process after training sessions examining both technical execu
 - [[Flow Rolling]] (Principle) - Structured rolling builds the technical automaticity that frees cognitive resources for psychological regulation during competition
 - [[Control Maintenance]] (Principle) - Sustained control from dominant positions requires mental discipline to avoid complacency or premature attacks driven by anxiety
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/IBJJF-Strategy-Guide" data-cta="related-system-card" data-system-slug="systems/ibjjf-strategy-guide" data-system-name="IBJJF Strategy Guide" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">IBJJF Strategy Guide</span><span class="system-card__unlocks-badge">Unlocks 27 techniques</span><span class="system-card__blurb">Mental framework for competition-specific strategic planning and match execution</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Standing-Defense-Strategy" data-cta="related-system-card" data-system-slug="systems/standing-defense-strategy" data-system-name="Standing Defense Strategy" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Standing Defense Strategy</span><span class="system-card__unlocks-badge">Unlocks 27 techniques</span><span class="system-card__blurb">Decision-making framework for evaluating when to defend standing vs pull guard in competition context</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Blue-to-Purple-Progression" data-cta="related-system-card" data-system-slug="systems/blue-to-purple-progression" data-system-name="Blue to Purple Progression" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Blue to Purple Progression</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Mental framework for managing pressure, executing game plans, and adapting during competitive matches</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Competition-Scoring-Strategy" data-cta="related-system-card" data-system-slug="systems/competition-scoring-strategy" data-system-name="Competition Scoring Strategy" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Competition Scoring Strategy</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Mental framework for tactical planning and scoring decision-making under pressure</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Competition-Strategy" data-cta="related-system-card" data-system-slug="systems/competition-strategy" data-system-name="Competition Strategy" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Competition Strategy</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Psychological framework for maintaining composure and confidence under competitive pressure</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/No-Gi-Competition-Approach" data-cta="related-system-card" data-system-slug="systems/no-gi-competition-approach" data-system-name="No-Gi Competition Approach" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">No-Gi Competition Approach</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Tactical and psychological decision-making framework for competition</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Competition-Preparation-System" data-cta="related-system-card" data-system-slug="systems/competition-preparation-system" data-system-name="Competition Preparation System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Competition Preparation System</span><span class="system-card__unlocks-badge">Unlocks 21 techniques</span><span class="system-card__blurb">Foundational psychological principles for competitive performance</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Mental-Game-Framework" data-cta="related-system-card" data-system-slug="systems/mental-game-framework" data-system-name="Mental Game Framework" data-member-count="15"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Mental Game Framework</span><span class="system-card__unlocks-badge">Unlocks 15 techniques</span><span class="system-card__blurb">Core psychological principle underlying entire mental game framework</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

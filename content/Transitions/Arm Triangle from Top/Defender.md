@@ -158,7 +158,7 @@ The critical defensive window occurs between the moment the attacker locks their
 
 Once the choke is fully locked with the attacker sprawled on the finishing side, escape becomes significantly more difficult but not impossible. The key late-stage defense involves turning into the attacker and walking your hips away to reduce the compression angle, combined with working your trapped hand toward your own face to create space between your bicep and neck. Understanding that the arm triangle is a blood choke with rapid onset means you must act immediately when you recognize the threat—hesitation of even a few seconds once the squeeze is applied can result in unconsciousness.
 
-**Opponent's Starting Position**: [[Positions/Hindulotine]] (Top)
+**Opponent's Starting Position**: [[Positions/Side Control]] (Top)
 
 </section>
 

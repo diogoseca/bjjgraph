@@ -343,4 +343,6 @@ The bow and arrow choke applies extreme pressure to the trachea and carotid arte
 
 </section>
 
+
+
 </main>

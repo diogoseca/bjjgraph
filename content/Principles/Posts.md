@@ -142,20 +142,35 @@ description: "Master posts in BJJ. Learn to plant extended limbs against the mat
 }
 </script>
 
-> Posts is a low complexity BJJ principle applicable at the Fundamental level. Develop over Beginner to Advanced.
 
-**Application Level**: Fundamental
-**Complexity**: Low
-**Development Timeline**: Beginner to Advanced
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Posts",
+  "description": "Posts are extended limbs — a hand, foot, elbow, or head — planted firmly against the mat or opponent in the direction of displacement, transferring toppling force through the skeleton into the ground to recover or maintain base.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Fundamental</span>
+<span class="meta-chip">Low complexity</span>
+<span class="meta-chip">Beginner to Advanced</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
 
-## What is Posts?
+## What are Posts?
 
-A post is an extended limb — hand, foot, elbow, or head — planted firmly against the mat or against the opponent's body to prevent displacement. When someone tries to sweep you and you shoot your hand out to catch yourself, that is a post. When a wrestler sprawls and drives their hips down while their hands brace against the mat, those hands are posts. When a judo player steps wide during a throw attempt to catch their balance, that foot is a post. Posting is the emergency base recovery system of grappling, and also the proactive balance maintenance system that keeps you upright and stable during every exchange.
+**Posts are extended limbs — a hand, foot, elbow, or head — planted firmly against the mat or opponent in the direction of displacement, transferring toppling force through the skeleton into the ground to recover or maintain base.**
+
+Posting is the emergency base-recovery system of grappling, and also the proactive balance-maintenance system that keeps you upright and stable during every exchange. When someone tries to sweep you and you shoot your hand out to catch yourself, that is a post. When a wrestler sprawls and drives their hips down while their hands brace against the mat, those hands are posts. When a judo player steps wide during a throw attempt to catch their balance, that foot is a post. The mechanic shows up wherever balance is threatened — which, in a live roll, is nearly everywhere.
 
 Posts work on a simple mechanical principle: an extended limb planted in the direction of displacement creates a structural strut that transfers the toppling force through the skeleton into the ground. The key word is direction. A post only works if it is placed in the direction you are falling or being pushed. Post your hand to the right when you are being swept left and it does nothing. This directional requirement means posting is a reactive skill that demands fast recognition of displacement direction and immediate limb placement. The best grapplers post reflexively before they even consciously register the sweep or off-balancing attempt.
 
@@ -371,10 +386,12 @@ From kneeling or standing positions, partner pushes and pulls in random directio
 - [[Butterfly Guard]] (Position) - Denying the top player's hand posts is the key to successful butterfly sweeps
 - [[Combat Base]] (Position) - Combat base is a designed posting structure — one foot posted for base, one knee for stability
 - [[Turtle]] (Position) - Turtle is a four-point posting structure that collapses when posts are removed
-- [[Butterfly Sweep]] (Transition) - Denying the opponent's hand posts is the critical detail that makes butterfly sweeps succeed
-- [[Bridge and Roll]] (Transition) - The bridge targets the opponent's base; the opponent's post is the primary defense against being rolled
+- [[Basic Butterfly Sweep]] (Transition) - Denying the opponent's hand posts is the critical detail that makes butterfly sweeps succeed
+- [[Balloon Sweep]] (Transition) - The sweep elevates and topples the opponent; their post is the primary defense against being rolled over
 
 
 </section>
+
+
 
 </main>

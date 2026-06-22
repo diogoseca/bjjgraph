@@ -10,10 +10,55 @@ description: "Master Armbar from Back with Legs in BJJ. Complete guide with safe
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Armbar from Back with Legs targets the Elbow joint. Risk: Elbow hyperextension or dislocation. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Armbar from Back with Legs",
+  "description": "Master Armbar from Back with Legs in BJJ. Complete guide with safety protocols, setup from back control, and finishing mechanics. Beginner 35%, Intermediate 50%, Advanced 65%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Armbar from Back with Legs", "item": "https://bjjgraph.org/Submissions/Armbar-from-Back-with-Legs" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Armbar from Back with Legs",
+  "description": "The Armbar from Back with Legs is a back-control arm lock where the attacker swings one leg over the opponent's head to trap the upper body between the thighs, hyperextending the isolated elbow across the hips without surrendering back position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Armbar from Back with Legs is a back-control arm lock where the attacker swings one leg over the opponent's head to trap the upper body between the thighs, hyperextending the isolated elbow across the hips without surrendering back position.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Arm Lock</span>
+<span class="meta-chip">Targets Elbow joint</span>
+<span class="meta-chip">58% success</span>
+</div>
+
+> [!danger] Safety
+> Armbar from Back with Legs targets the Elbow joint. Primary risk: Elbow hyperextension or dislocation. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -26,55 +71,7 @@ description: "Master Armbar from Back with Legs in BJJ. Complete guide with safe
 
 The Armbar from Back with Legs is an advanced finishing technique that leverages the superior control position of back mount to isolate and hyperextend the opponent's elbow joint. This variation differs from standard armbar attacks by maintaining leg control throughout the submission, using the legs to trap the opponent's upper body while transitioning the arm across your hips. The technique exemplifies the principle of maintaining dominant control even during submission transitions, as you never fully relinquish the back position until the armbar is secured. This submission is particularly effective against opponents who defend the rear naked choke by keeping their chin tucked and arms tight, as it punishes defensive hand fighting by converting grip breaks into submission opportunities. The leg configuration creates a powerful fulcrum that makes escape extremely difficult once properly applied, though the transition requires precise timing and body positioning to prevent rolling escapes. Success depends on understanding how to use your legs not just for control, but as active submission tools that guide the opponent's body into the finishing position.
 
-**Category**: Joint Lock
-**Type**: Arm Lock
-**Target Area**: Elbow joint
-**Starting Position**: [[Positions/Back Control]]
-**From Position**: [[Positions/Back Control]] (Top)
-**Success Rate**: 58%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Elbow hyperextension or dislocation | High | 4-12 weeks with potential permanent ligament damage |
-| Shoulder strain from torquing during transition | Medium | 2-6 weeks |
-| Neck compression from leg pressure | Medium | 1-3 weeks |
-| Rib cage compression from body triangle combination | Low | 1-2 weeks |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from catch to full extension
-
-**Tap Signals**:
-- Verbal tap (any vocal submission signal)
-- Physical hand tap (on your body or mat)
-- Physical foot tap (on mat or your body)
-- Any distress signal or unusual sound
-- Loss of resistance (treat as tap and release immediately)
-
-
-**Release Protocol**:
-1. Immediately release hip extension pressure on the arm
-2. Open your legs to remove leg pressure from their upper body
-3. Return their arm to neutral position gently
-4. Verbally confirm your partner is okay before continuing training
-5. Never jerk or spike the release - control the arm throughout
-
-
-**Training Restrictions**:
-- Never apply competition speed or explosive finishing pressure in training
-- Never use this technique on partners with existing elbow injuries without explicit consent
-- Always allow clear tap access - do not trap both arms simultaneously
-- Never combine with neck cranking or other secondary submissions
-- Begin all training reps at 30% pressure maximum and increase gradually over months
-- White belts should only practice the movement pattern without any submission pressure
-
+**Starting Position**: [[Positions/Back Control]] · **From**: [[Positions/Back Control]] (Top)
 
 </section>
 
@@ -251,10 +248,9 @@ The Armbar from Back with Legs is an advanced finishing technique that leverages
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Armbar]]
 - [[Submissions/Rear Naked Choke]]
 - [[Transitions/Armbar from Crucifix]]
@@ -266,36 +262,58 @@ The Armbar from Back with Legs is an advanced finishing technique that leverages
 - [[Submissions/Kimura]]
 - [[Submissions/Omoplata]]
 - [[Submissions/Triangle Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Back Control]] - Primary starting position providing the dominant control needed for this submission
 - [[Positions/Back Control/Body Triangle]] - Enhanced back control variation offering even tighter control during the armbar transition
 - [[Positions/Crucifix]] - Alternative transition target if armbar is defended by reaching back
 - [[Positions/Armbar Control]] - Control position established before applying finishing pressure
-- [[Submissions/Rear Naked Choke]] - Primary submission that creates armbar opportunities when defended
 - [[Submissions/Armbar/Reverse Armbar from Mount]] - Alternative armbar variation using reverse arm configuration and different finishing angle from a mounted position
-- [[Submissions/Belly Down Armbar]] - Transition option when opponent rolls or stacks during standard finish
-- [[Submissions/Bow and Arrow Choke]] - Alternative back control submission when arm isolation proves difficult
-- [[Submissions/Kimura]] - Alternative arm attack from back control when armbar angle is not available
 - [[Positions/Back Control/Seat Belt Control Back]] - Optimal grip configuration for initiating the armbar transition from back control
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Elbow hyperextension or dislocation | High | 4-12 weeks with potential permanent ligament damage |
+| Shoulder strain from torquing during transition | Medium | 2-6 weeks |
+| Neck compression from leg pressure | Medium | 1-3 weeks |
+| Rib cage compression from body triangle combination | Low | 1-2 weeks |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum from catch to full extension
+
+**Tap Signals**:
+- Verbal tap (any vocal submission signal)
+- Physical hand tap (on your body or mat)
+- Physical foot tap (on mat or your body)
+- Any distress signal or unusual sound
+- Loss of resistance (treat as tap and release immediately)
+
+
+**Release Protocol**:
+1. Immediately release hip extension pressure on the arm
+2. Open your legs to remove leg pressure from their upper body
+3. Return their arm to neutral position gently
+4. Verbally confirm your partner is okay before continuing training
+5. Never jerk or spike the release - control the arm throughout
+
+
+**Training Restrictions**:
+- Never apply competition speed or explosive finishing pressure in training
+- Never use this technique on partners with existing elbow injuries without explicit consent
+- Always allow clear tap access - do not trap both arms simultaneously
+- Never combine with neck cranking or other secondary submissions
+- Begin all training reps at 30% pressure maximum and increase gradually over months
+- White belts should only practice the movement pattern without any submission pressure
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Armbar from Back with Legs leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

@@ -10,6 +10,41 @@ description: "Master Leg Extraction to Guard from Ushiro Ashi-Garami. Learn syst
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Leg Extraction to Guard",
+  "description": "Master Leg Extraction to Guard from Ushiro Ashi-Garami. Learn systematic leg clearing to recover guard position with heel protection principles.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Leg Extraction to Guard", "item": "https://bjjgraph.org/Transitions/Leg-Extraction-to-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Leg Extraction to Guard",
+  "description": "Leg Extraction to Guard is the leg-lock escape from ushiro ashi-garami bottom that systematically clears the opponent's controlling legs while keeping the heel dorsiflexed, recovering an active guard instead of conceding turtle or top position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master Leg Extraction to Guard from Ushiro Ashi-Garami. Learn syst
 
 <section id="overview" class="content-section">
 
-Leg Extraction to Guard represents the critical defensive transition from ushiro ashi-garami bottom position to an established guard. This technique addresses the most common scenario in leg lock defense where you have partially escaped through inversion but remain entangled in the reversed leg configuration. The extraction requires systematic clearing of your opponent's controlling legs while maintaining heel protection throughout the movement sequence.
+**Leg Extraction to Guard is the leg-lock escape from ushiro ashi-garami bottom that systematically clears the opponent's controlling legs while keeping the heel dorsiflexed, recovering an active guard instead of conceding turtle or top position.**
+
+Within modern leg-lock defense, this transition is the highest-value exit from a reversed entanglement, converting a compromised inversion into a position from which you can immediately threaten back rather than conceding turtle or top position. It addresses the most common scenario in leg lock defense where you have partially escaped through inversion but remain entangled in the reversed leg configuration. The extraction requires systematic clearing of your opponent's controlling legs while maintaining heel protection throughout the movement sequence.
 
 The strategic importance of this transition lies in recovering a neutral or advantageous position from a compromised defensive situation. Unlike accepting turtle position, which concedes top position, successful leg extraction to guard allows you to immediately threaten sweeps, submissions, and guard retention. This makes it the preferred escape route when the opponent's control is shallow enough to permit full extraction without significant submission risk.
 
@@ -219,5 +256,7 @@ Leg Extraction to Guard serves as the primary positive-outcome escape from ushir
 
 
 </section>
+
+
 
 </main>

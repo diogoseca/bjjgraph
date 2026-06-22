@@ -10,10 +10,55 @@ description: "Master the calf slicer from Russian Cowboy in BJJ. Complete guide 
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Calf Slicer from Russian Cowboy targets the Calf muscle and Achilles tendon. Risk: Calf muscle tear or rupture from excessive compression. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Calf Slicer from Russian Cowboy",
+  "description": "Master the calf slicer from Russian Cowboy in BJJ. Complete guide to setup, execution, and defense of this powerful compression lock from back control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Calf Slicer from Russian Cowboy", "item": "https://bjjgraph.org/Submissions/Calf-Slicer-from-Russian-Cowboy" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Calf Slicer from Russian Cowboy",
+  "description": "The Calf Slicer from Russian Cowboy is a leg-compression submission where the attacker wedges their shin behind the opponent's bent knee from single-hook back control and folds the lower leg over it, crushing the calf against the shin bone.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Calf Slicer from Russian Cowboy is a leg-compression submission where the attacker wedges their shin behind the opponent's bent knee from single-hook back control and folds the lower leg over it, crushing the calf against the shin bone.**
+<div class="principle-meta">
+<span class="meta-chip">Compression</span>
+<span class="meta-chip">Leg Compression</span>
+<span class="meta-chip">Targets Calf muscle and Achilles tendon</span>
+<span class="meta-chip">50% success</span>
+</div>
+
+> [!danger] Safety
+> Calf Slicer from Russian Cowboy targets the Calf muscle and Achilles tendon. Primary risk: Calf muscle tear or rupture from excessive compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,55 +75,7 @@ The mechanics rely on threading your shin behind the opponent's knee crease whil
 
 Strategically, the calf slicer serves as a powerful secondary attack from Russian Cowboy, particularly effective when the opponent successfully defends truck entries or choke attempts. The threat of the calf slicer forces defenders to address leg positioning alongside neck protection, creating the multi-threat dynamic that makes Russian Cowboy such an effective attacking platform in modern no-gi grappling systems.
 
-**Category**: Compression
-**Type**: Leg Compression
-**Target Area**: Calf muscle and Achilles tendon
-**Starting Position**: [[Positions/Russian Cowboy]]
-**From Position**: [[Positions/Russian Cowboy]] (Top)
-**Success Rate**: 50%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Calf muscle tear or rupture from excessive compression | High | 6-12 weeks minimum, potential permanent damage |
-| Achilles tendon strain or rupture under combined compression and torsion | CRITICAL | 6-12 months, often requires surgical intervention |
-| Peroneal or tibial nerve damage from sustained compression | High | Weeks to months, potential permanent numbness or weakness |
-| Deep tissue bruising and risk of compartment syndrome | Medium | 2-4 weeks, rare cases require emergency fasciotomy |
-
-
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum to full pressure in training. Never spike, jerk, or bounce the compression. Gradual hip extension only.
-
-**Tap Signals**:
-- Verbal tap strongly encouraged due to leg entanglement limiting hand mobility
-- Physical hand tap on partner, their leg, or the mat
-- Foot tap on mat if hands are trapped or occupied
-- Any distress vocalization treated as immediate tap
-- Slapping the mat repeatedly with free hand
-
-
-**Release Protocol**:
-1. Immediately release foot grip and stop hip extension upon any tap signal
-2. Remove shin pressure from behind the knee slowly and in a controlled manner
-3. Unwrap legs carefully without jerking or twisting movements
-4. Allow partner to fully extend their leg naturally before disengaging upper body control
-5. Check partner's calf mobility and sensation before resuming training
-
-
-**Training Restrictions**:
-- Apply at no more than 50% speed in training, never at competition intensity
-- Never spike, bounce, or jerk the compression under any circumstances
-- Never hold after tap to consolidate position or practice control
-- Always ensure partner has clear tap access with at least one hand or verbal ability
-- Prohibited for colored belts below brown belt in IBJJF and most rule sets
-- Never practice on partners with previous calf or knee injuries without explicit discussion and consent
-
+**Starting Position**: [[Positions/Russian Cowboy]] · **From**: [[Positions/Russian Cowboy]] (Top)
 
 </section>
 
@@ -238,40 +235,64 @@ Strategically, the calf slicer serves as a powerful secondary attack from Russia
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Calf Slicer]]
 - [[Submissions/Banana Split]]
 - [[Positions/Half Guard/Electric Chair]]
 - [[Submissions/Bicep Slicer]]
 - [[Submissions/Boston Crab]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Russian Cowboy]] - Starting position providing the single-hook foundation for this submission entry
 - [[Positions/Twister Control/Truck]] - Related leg entanglement position offering alternative calf slicer entries
 - [[Positions/Back Control]] - Parent back control system from which Russian Cowboy derives
 - [[Positions/Twister Control]] - Adjacent attacking position sharing the same positional ecosystem
-- [[Submissions/Calf Slicer]] - Generic parent submission with shared finishing mechanics
+
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Calf muscle tear or rupture from excessive compression | High | 6-12 weeks minimum, potential permanent damage |
+| Achilles tendon strain or rupture under combined compression and torsion | CRITICAL | 6-12 months, often requires surgical intervention |
+| Peroneal or tibial nerve damage from sustained compression | High | Weeks to months, potential permanent numbness or weakness |
+| Deep tissue bruising and risk of compartment syndrome | Medium | 2-4 weeks, rare cases require emergency fasciotomy |
+
+
+**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum to full pressure in training. Never spike, jerk, or bounce the compression. Gradual hip extension only.
+
+**Tap Signals**:
+- Verbal tap strongly encouraged due to leg entanglement limiting hand mobility
+- Physical hand tap on partner, their leg, or the mat
+- Foot tap on mat if hands are trapped or occupied
+- Any distress vocalization treated as immediate tap
+- Slapping the mat repeatedly with free hand
+
+
+**Release Protocol**:
+1. Immediately release foot grip and stop hip extension upon any tap signal
+2. Remove shin pressure from behind the knee slowly and in a controlled manner
+3. Unwrap legs carefully without jerking or twisting movements
+4. Allow partner to fully extend their leg naturally before disengaging upper body control
+5. Check partner's calf mobility and sensation before resuming training
+
+
+**Training Restrictions**:
+- Apply at no more than 50% speed in training, never at competition intensity
+- Never spike, bounce, or jerk the compression under any circumstances
+- Never hold after tap to consolidate position or practice control
+- Always ensure partner has clear tap access with at least one hand or verbal ability
+- Prohibited for colored belts below brown belt in IBJJF and most rule sets
+- Never practice on partners with previous calf or knee injuries without explicit discussion and consent
 
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Calf Slicer from Russian Cowboy leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

@@ -10,6 +10,41 @@ description: "Master posture recovery from Williams Guard in BJJ. Complete guide
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Posture from Williams Guard",
+  "description": "Master posture recovery from Williams Guard in BJJ. Complete guide to neutralizing shoulder lock control, extracting your arm, and returning to closed guard.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Posture from Williams Guard", "item": "https://bjjgraph.org/Transitions/Posture-from-Williams-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Posture from Williams Guard",
+  "description": "Posture from Williams Guard is a defensive transition where the trapped top player extracts their controlled arm through circular elbow movement and redistributes weight to degrade the shoulder-lock grip, recovering upright posture into closed guard top.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master posture recovery from Williams Guard in BJJ. Complete guide
 </div>
 
 <section id="overview" class="content-section">
+
+**Posture from Williams Guard is a defensive transition where the trapped top player extracts their controlled arm through circular elbow movement and redistributes weight to degrade the shoulder-lock grip, recovering upright posture into closed guard top.**
 
 Posture from Williams Guard is a critical defensive transition executed by the top player trapped inside Williams Guard, where the opponent controls your arm in a shoulder lock configuration while maintaining guard structure with active legs. The primary objective is to systematically recover upright posture, neutralize the shoulder lock threat, and transition to closed guard top—a more manageable position where standard guard passing sequences can begin without the constant danger of shoulder manipulation.
 
@@ -216,5 +253,7 @@ Posture from Williams Guard serves as the critical escape pathway connecting the
 
 
 </section>
+
+
 
 </main>

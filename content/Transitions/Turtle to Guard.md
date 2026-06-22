@@ -10,6 +10,41 @@ description: "Master Turtle to Guard recovery in BJJ. Essential defensive transi
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Turtle to Guard",
+  "description": "Master Turtle to Guard recovery in BJJ. Essential defensive transition covering guard pull mechanics, hip rotation, and grip fighting from turtle position.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Turtle to Guard", "item": "https://bjjgraph.org/Transitions/Turtle-to-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Turtle to Guard",
+  "description": "Turtle to Guard is a defensive recovery transition where the bottom player escapes the turtle position with an explosive lateral hip shift and rotation to face the opponent, re-establishing a guard before a back take or submission can be secured.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Turtle to Guard recovery in BJJ. Essential defensive transi
 </div>
 
 <section id="overview" class="content-section">
+
+**Turtle to Guard is a defensive recovery transition where the bottom player escapes the turtle position with an explosive lateral hip shift and rotation to face the opponent, re-establishing a guard before a back take or submission can be secured.**
 
 The Turtle to Guard recovery is a fundamental defensive transition that allows practitioners to escape the vulnerable turtle position and re-establish their guard. This transition is critical for maintaining defensive integrity when an opponent is attempting back takes or submissions from turtle. The technique involves creating space, managing opponent's grips and hooks, and using hip movement to rotate underneath the opponent while establishing guard frames.
 
@@ -232,5 +269,7 @@ The turtle to guard recovery is a critical link in the defensive chain, sitting 
 
 
 </section>
+
+
 
 </main>

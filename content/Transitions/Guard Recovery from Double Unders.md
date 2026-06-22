@@ -10,6 +10,41 @@ description: "Master guard recovery from double unders in BJJ. Learn frame creat
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Guard Recovery from Double Unders",
+  "description": "Master guard recovery from double unders in BJJ. Learn frame creation, hip escape mechanics, and guard retention techniques to escape crushing pressure passes.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Guard Recovery from Double Unders", "item": "https://bjjgraph.org/Transitions/Guard-Recovery-from-Double-Unders" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Guard Recovery from Double Unders",
+  "description": "Guard Recovery from Double Unders is the bottom player's defensive sequence of framing, hip-escaping, and sequentially extracting both trapped legs to break the bilateral-underhook stack and reclaim closed or open guard before the pass completes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master guard recovery from double unders in BJJ. Learn frame creat
 
 <section id="overview" class="content-section">
 
-Guard Recovery from Double Unders is a critical defensive transition executed by the bottom player when trapped in the double unders passing position. The top player has established bilateral underhook control under both legs with hands clasped behind the back, creating tremendous forward pressure that stacks the bottom player's weight onto their shoulders. This guard recovery sequence represents the bottom player's systematic response to reclaim leg positioning and re-establish a functional guard, most commonly closed guard or open guard.
+**Guard Recovery from Double Unders is the bottom player's defensive sequence of framing, hip-escaping, and sequentially extracting both trapped legs to break the bilateral-underhook stack and reclaim closed or open guard before the pass completes.**
+
+This recovery sits at one of the most pressure-intensive crossroads in guard retention: the moment a passer has buried both underhooks and begun stacking. The top player has established bilateral underhook control under both legs with hands clasped behind the back, creating tremendous forward pressure that stacks the bottom player's weight onto their shoulders. The bottom player's window to reclaim leg positioning and re-establish a functional guard — most commonly closed guard or open guard — is narrow and closes the instant the passer's knees clear the hips.
 
 The technique centers on frame creation and hip escape mechanics working in concert. The bottom player must first establish skeletal frames against the top player's face, neck, or shoulders to create enough separation to begin hip movement. Once minimal space exists, the bottom player hip escapes laterally while fighting to free one or both legs from the underhook control. The freed legs are then repositioned between the bodies, either closing around the opponent's waist for closed guard or establishing feet-on-hips positioning for open guard retention.
 
@@ -221,5 +258,7 @@ Guard Recovery from Double Unders occupies a critical defensive node in the BJJ 
 
 
 </section>
+
+
 
 </main>

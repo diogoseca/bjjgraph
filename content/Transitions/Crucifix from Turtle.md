@@ -10,6 +10,41 @@ description: "Learn the Crucifix from Turtle transition in BJJ. Step-by-step gui
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Crucifix from Turtle",
+  "description": "Learn the Crucifix from Turtle transition in BJJ. Step-by-step guide to trapping both arms from turtle top for dominant crucifix control and submissions.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Crucifix from Turtle", "item": "https://bjjgraph.org/Transitions/Crucifix-from-Turtle" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Crucifix from Turtle",
+  "description": "The Crucifix from Turtle is a turtle-top back-attack transition that isolates both of the opponent's arms—threading one over the shoulder with the leg while the hands pin the other—to advance into the dominant crucifix control position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Learn the Crucifix from Turtle transition in BJJ. Step-by-step gui
 
 <section id="overview" class="content-section">
 
-The Crucifix from Turtle is a high-level back attack transition that exploits the structural vulnerability of the turtle position by isolating and trapping both of the opponent's arms through different control mechanisms. The technique converts a standard turtle top situation into one of the most dominant control positions in Brazilian Jiu-Jitsu, where the opponent loses nearly all defensive capability. The crucifix entry requires capturing the near-side arm with a leg thread over the shoulder while simultaneously controlling the far-side arm with a grip, creating bilateral arm isolation that eliminates frames, guard recovery attempts, and choke defense.
+**The Crucifix from Turtle is a turtle-top back-attack transition that isolates both of the opponent's arms—threading one over the shoulder with the leg while the hands pin the other—to advance into the dominant crucifix control position.**
+
+Sitting at the high-skill tier of turtle-top attacks, the crucifix from turtle punishes the structural vulnerability of the turtle by isolating and trapping both of the opponent's arms through different control mechanisms. The technique converts a standard turtle top situation into one of the most dominant control positions in Brazilian Jiu-Jitsu, where the opponent loses nearly all defensive capability. The crucifix entry requires capturing the near-side arm with a leg thread over the shoulder while simultaneously controlling the far-side arm with a grip, creating bilateral arm isolation that eliminates frames, guard recovery attempts, and choke defense.
 
 From a strategic standpoint, the crucifix from turtle punishes opponents who rely on static turtle defense or who expose their arms while defending back takes. When an opponent posts an arm to prevent a standard back take with hooks, that extended arm becomes the entry point for crucifix control. This makes the technique a natural complement to traditional back attack sequences - if the opponent defends the hooks, the crucifix becomes available; if they defend the crucifix, the hooks become easier to insert. This dilemma-based attack framework is central to high-level turtle top play.
 
@@ -229,5 +266,7 @@ The crucifix from turtle sits at the intersection of back attack systems and tur
 
 
 </section>
+
+
 
 </main>

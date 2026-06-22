@@ -10,9 +10,48 @@ description: "Master Harness Position in BJJ - back control with seat belt grip.
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Harness",
+  "description": "Master Harness Position in BJJ - back control with seat belt grip. Complete strategic guide covering defensive escape strategies and dominant submission paths.",
+  "alternateName": ["Seatbelt", "Seat Belt", "Seatbelt Control", "Seat Belt Control"],
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Harness", "item": "https://bjjgraph.org/Positions/Harness" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Harness",
+  "description": "The Harness, or seat belt, is a back-control grip where the attacker wraps one arm over the opponent's shoulder and the other under the far armpit and clasps the hands at the chest, anchoring the rear-mount attacking system.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Seatbelt</strong>, <strong>Seat Belt</strong>, <strong>Seatbelt Control</strong>, <strong>Seat Belt Control</strong></p>
+</aside>
 <div class="role-links">
 
 [[Harness/Bottom|Play as Bottom]]
@@ -22,7 +61,9 @@ description: "Master Harness Position in BJJ - back control with seat belt grip.
 
 <section id="overview" class="content-section">
 
-The Harness Position, also known as the Seat Belt or Seatbelt Control, is a fundamental back control configuration where the attacking practitioner secures one arm over the opponent's shoulder and the other under the opposite armpit, creating a powerful control mechanism that resembles a seat belt. This grip structure is the cornerstone of modern back attack systems and provides exceptional control while maintaining multiple offensive pathways to submissions, particularly the rear naked choke.
+**The Harness, or seat belt, is a back-control grip where the attacker wraps one arm over the opponent's shoulder and the other under the far armpit and clasps the hands at the chest, anchoring the rear-mount attacking system.**
+
+Few control systems in grappling translate as seamlessly across gi, no-gi, MMA, and self-defense as the harness, because it depends on a grip structure rather than gi material or any specific hook placement — which is why nearly every modern back-attack curriculum is built on top of it. This grip structure is the cornerstone of modern back attack systems and provides exceptional control while maintaining multiple offensive pathways to submissions, particularly the rear naked choke.
 
 The harness grip creates a mechanical advantage by connecting the attacker's hands at the opponent's centerline, typically with a grip over grip connection or a more advanced rear naked choke grip configuration. This control structure allows the top practitioner to maintain proximity to the opponent's back, control their posture, and prevent effective escape attempts. The position is distinguished from other back control variations by the specific grip configuration rather than hook placement, making it applicable from standing, seated, or fully established back control positions.
 
@@ -177,7 +218,7 @@ Strategically, the harness position serves as a transitional control point and a
 ### Available Transitions
 
 
-- **[[Rear Naked Choke from Harness/Attacker|Rear Naked Choke from Harness]]** (40% of attempts)
+- **[[Rear Naked Choke from Harness/Attacker|Rear Naked Choke from Harness]]** (41% of attempts)
 
 - **[[Transitions/Armbar from Back Transition/Attacker|Armbar from Back Transition]]** (13% of attempts)
 
@@ -200,8 +241,6 @@ Strategically, the harness position serves as a transitional control point and a
 - **[[Transitions/Hand Fighting from Back/Attacker|Hand Fighting from Back]]** (3% of attempts)
 
 - **[[Transitions/Harness to Body Lock/Attacker|Harness to Body Lock]]** (1% of attempts)
-
-- **[[Rear Naked Choke from Harness/Attacker|Rear Naked Choke from Harness]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -266,6 +305,16 @@ Strategically, the harness position serves as a transitional control point and a
 
 - **[[Positions/Mount/Mounted Crucifix]]** - Advanced control variation from back position
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Danaher Straight Jacket System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Alternative control position used when opponent maintains defensive turtle structure preventing immediate seat belt establishment</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

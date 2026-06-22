@@ -10,23 +10,70 @@ description: "Master the Mounted Crucifix Armbar in BJJ. Complete guide to arm i
 
 <body data-content-type="submissions-family">
 
-> **SAFETY**: Mounted Crucifix Armbar targets the Shoulder and elbow joint. Risk: Elbow hyperextension with ligament tear (UCL/LCL damage). Release immediately upon tap.
+<!-- Schema Markup - CollectionPage (family hub entity) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Mounted Crucifix Armbar",
+  "description": "Master the Mounted Crucifix Armbar in BJJ. Complete guide to arm isolation finishing mechanics, step-by-step execution, escape defense, and safety protocols.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Mounted Crucifix Armbar", "item": "https://bjjgraph.org/Submissions/Mounted-Crucifix-Armbar" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Mounted Crucifix Armbar",
+  "description": "An elbow-hyperextension submission that capitalizes on the mounted crucifix's leg-trapped arm, the Mounted Crucifix Armbar finishes the pre-isolated limb directly while the defender's compromised frames make standard armbar escapes unavailable.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "What is the Mounted Crucifix Armbar?", "acceptedAnswer": { "@type": "Answer", "text": "An elbow-hyperextension submission that capitalizes on the mounted crucifix\u0027s leg-trapped arm, the Mounted Crucifix Armbar finishes the pre-isolated limb directly while the defender\u0027s compromised frames make standard armbar escapes unavailable." } },
+    { "@type": "Question", "name": "What positions can you finish the Mounted Crucifix Armbar from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Mounted Crucifix Armbar from Mounted Crucifix." } },
+    { "@type": "Question", "name": "Is the Mounted Crucifix Armbar dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "Mounted Crucifix Armbar targets the Shoulder and elbow joint. Primary risk: Elbow hyperextension with ligament tear (UCL/LCL damage). Tap early and release immediately on the tap." } }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 
-<section id="variants" class="content-section">
+**An elbow-hyperextension submission that capitalizes on the mounted crucifix's leg-trapped arm, the Mounted Crucifix Armbar finishes the pre-isolated limb directly while the defender's compromised frames make standard armbar escapes unavailable.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Arm Lock</span>
+<span class="meta-chip">Targets Shoulder and elbow joint</span>
+<span class="meta-chip">~50% avg</span>
+</div>
 
-## Position Variants
-
-| From Position | Success Rate | Top Injury Risk | Key Difference |
-|---------------|-------------|-----------------|----------------|
-| [[Mounted Crucifix Armbar/from Mounted Crucifix|Mounted Crucifix]] | 50% | Elbow hyperextension with ligament tear (UCL/LCL damage) |  |
-
-
-</section>
-
+> [!danger] Safety
+> Mounted Crucifix Armbar targets the Shoulder and elbow joint. Primary risk: Elbow hyperextension with ligament tear (UCL/LCL damage). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <section id="overview" class="content-section">
 
@@ -36,10 +83,46 @@ The submission's tactical value lies in its complementary relationship with chok
 
 Mechanically, the armbar requires the attacker to pivot their hips toward the target arm while maintaining crucifix control, then extend the arm against the hip line with the elbow joint positioned for hyperextension pressure. The key distinction from a standard mount armbar is that the initial arm isolation is already established by the leg-based crucifix control, eliminating the most difficult phase of the armbar setup. This pre-existing control transforms the armbar from a multi-step sequence requiring significant positional transitions into a direct finishing technique with minimal setup time.
 
-**Category**: Joint Lock
-**Type**: Arm Lock
-**Target Area**: Shoulder and elbow joint
-**Success Rate**: 50% (average across variants)
+</section>
+
+
+<section id="variants" class="content-section">
+
+## What positions can you finish from?
+
+
+<div class="variants-table">
+
+| From Position | Seat | Success | Play as Attacker | Play as Defender |
+|---|---|---|---|---|
+| [[Submissions/Mounted Crucifix Armbar/from Mounted Crucifix|Mounted Crucifix]] | Top | 50% | [[Submissions/Mounted Crucifix Armbar/from Mounted Crucifix/Attacker|Attack →]] | [[Submissions/Mounted Crucifix Armbar/from Mounted Crucifix/Defender|Defend →]] |
+
+
+</div>
+
+
+
+</section>
+
+
+<section id="related" class="content-section">
+
+## Related
+- [[Submissions/Far Side Armbar]] - Alternative armbar variation sharing cross-body arm isolation mechanics
+- [[Submissions/Armbar]] - Dynamic armbar entry using rotational momentum from top positions
+- [[Submissions/Spinning Armbar]] - Rotational armbar setup sharing arm isolation finishing principles
+- [[Submissions/Gift Wrap Armbar]] - Related arm control submission from similar trapping control position
+- [[Submissions/Triangle Choke]] - Alternative mount-based submission sharing dominant positional control
+- [[Submissions/Bicep Slicer]] - Compression submission that chains naturally from failed armbar extension
+- [[Submissions/Belly Down Armbar]] - Armbar finishing variation when opponent rolls prone to escape extension
+- [[Transitions/Armbar from Crucifix]] - Related crucifix-based armbar sharing arm-trap isolation mechanics
+- [[Positions/Mount/Mounted Crucifix]] - Starting control position providing the arm isolation that enables this armbar
+- [[Positions/Crucifix]] - Parent control position sharing arm-trapping mechanics and submission pathways
+- [[Positions/Mount]] - Foundation position from which mounted crucifix develops through arm isolation
+- [[Positions/Armbar Control]] - Control position reached during armbar extension phase
+- [[Positions/Mount/High Mount]] - Common entry path to mounted crucifix through progressive arm isolation
+- [[Positions/Back Control]] - Alternative transition target when armbar attempt disrupts crucifix control
+- [[Positions/Gift Wrap]] - Related arm control position with complementary trapping mechanics
 
 </section>
 
@@ -78,61 +161,6 @@ Mechanically, the armbar requires the attacker to pivot their hips toward the ta
 - White and blue belts should only drill this submission with instructor supervision due to the trapped-arm dynamic reducing escape options
 - Partners must establish clear tap protocols before drilling and confirm both verbal and physical tap recognition
 
-
-</section>
-
-
-
-<section id="from-positions" class="content-section">
-
-## From Which Positions?
-
-- [[Positions/Mount/Mounted Crucifix]]
-- [[Positions/Mount]]
-- [[Positions/Crucifix]]
-
-
-</section>
-
-<section id="related-submissions" class="content-section">
-
-## Related Submissions
-
-- [[Submissions/Far Side Armbar]] - Alternative armbar variation sharing cross-body arm isolation mechanics
-- [[Submissions/Armbar]] - Dynamic armbar entry using rotational momentum from top positions
-- [[Submissions/Spinning Armbar]] - Rotational armbar setup sharing arm isolation finishing principles
-- [[Submissions/Gift Wrap Armbar]] - Related arm control submission from similar trapping control position
-- [[Submissions/Triangle Choke]] - Alternative mount-based submission sharing dominant positional control
-- [[Submissions/Bicep Slicer]] - Compression submission that chains naturally from failed armbar extension
-- [[Submissions/Belly Down Armbar]] - Armbar finishing variation when opponent rolls prone to escape extension
-- [[Transitions/Armbar from Crucifix]] - Related crucifix-based armbar sharing arm-trap isolation mechanics
-- [[Armbar from Mount]] - Standard mount armbar sharing positional context without pre-isolation advantage
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
-- [[Positions/Mount/Mounted Crucifix]] - Starting control position providing the arm isolation that enables this armbar
-- [[Positions/Crucifix]] - Parent control position sharing arm-trapping mechanics and submission pathways
-- [[Positions/Mount]] - Foundation position from which mounted crucifix develops through arm isolation
-- [[Positions/Armbar Control]] - Control position reached during armbar extension phase
-- [[Positions/Mount/High Mount]] - Common entry path to mounted crucifix through progressive arm isolation
-- [[Positions/Back Control]] - Alternative transition target when armbar attempt disrupts crucifix control
-- [[Positions/Gift Wrap]] - Related arm control position with complementary trapping mechanics
-
-
-</section>
-
-<section id="terminal-state" class="content-section">
-
-## Match Outcome
-
-Successful execution of Mounted Crucifix Armbar leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
 
 </section>
 

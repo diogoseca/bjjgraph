@@ -1,6 +1,7 @@
 {
   "name": "Spine Lock from Truck",
-  "description": "Master the Spine Lock submission in BJJ. Advanced spinal compression from truck and twister control positions targeting the lumbar vertebrae.",
+  "summary": "The Spine Lock from Truck is an advanced no-gi spinal compression submission that drives hip pressure into the opponent's lumbar spine from the 10th Planet truck position, forcing hyperextension that compels a tap to avoid disc or vertebral injury.",
+  "description": "Master the Spine Lock submission in BJJ. Advanced spinal compression applied from the truck and twister control positions, targeting the lumbar vertebrae.",
   "tags": [
     "bjj",
     "submission",
@@ -17,7 +18,7 @@
   "target_area": "Lumbar spine, thoracic vertebrae, spinal column",
   "starting_position": "Truck",
   "success_rate": 40,
-  "overview": "The Spine Lock is an advanced spinal compression submission that targets the opponent's vertebral column through hyperextension and rotational pressure. Popularized within the 10th Planet system, this technique creates extreme discomfort through mechanical pressure on the spine rather than joint manipulation. The submission is primarily accessed from the Truck position, where the attacker controls one leg while the opponent's body is inverted and vulnerable. The Spine Lock exemplifies the principle of using body positioning and leverage to create inescapable pressure without relying on limb isolation. This technique requires exceptional body awareness, precise control, and absolute commitment to safety protocols due to the vulnerability of the spinal column.\n\nThe effectiveness of the Spine Lock comes from the combination of hip pressure driving into the opponent's lower back while maintaining rotational control that prevents escape. Unlike joint locks that target a single articulation point, spinal compression affects multiple vertebrae simultaneously, creating a compound pressure that is difficult to defend once fully established. The technique is particularly effective in no-gi competition where traditional gi-based controls are unavailable and modern leg entanglement systems dominate.",
+  "overview": "Popularized within the 10th Planet system, the Spine Lock from Truck creates extreme discomfort through mechanical pressure on the spine rather than joint manipulation. The submission is primarily accessed from the Truck position, where the attacker controls one leg while the opponent's body is inverted and vulnerable. The Spine Lock exemplifies the principle of using body positioning and leverage to create inescapable pressure without relying on limb isolation. This technique requires exceptional body awareness, precise control, and absolute commitment to safety protocols due to the vulnerability of the spinal column.\n\nThe effectiveness of the Spine Lock comes from the combination of hip pressure driving into the opponent's lower back while maintaining rotational control that prevents escape. Unlike joint locks that target a single articulation point, spinal compression affects multiple vertebrae simultaneously, creating a compound pressure that is difficult to defend once fully established. The technique is particularly effective in no-gi competition where traditional gi-based controls are unavailable and modern leg entanglement systems dominate.",
   "safety_considerations": {
     "injury_risks": [
       {
@@ -69,17 +70,17 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 60,
+      "probability": 40,
       "result": "success"
     },
     {
       "to": "Truck/Top",
-      "probability": 25,
+      "probability": 40,
       "result": "failure"
     },
     {
       "to": "Turtle/Bottom",
-      "probability": 15,
+      "probability": 20,
       "result": "counter"
     }
   ],

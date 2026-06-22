@@ -345,4 +345,6 @@ When practicing this escape, be mindful of shoulder and neck strain on both part
 
 </section>
 
+
+
 </main>

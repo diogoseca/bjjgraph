@@ -10,10 +10,55 @@ description: "Master the Kimura shoulder lock from New York Control rubber guard
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Kimura from New York Control targets the Shoulder joint, rotator cuff, and shoulder capsule. Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kimura from New York Control",
+  "description": "Master the Kimura shoulder lock from New York Control rubber guard. Complete guide covering setup mechanics, grip transitions, finishing details, and defensive strategies.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Kimura from New York Control", "item": "https://bjjgraph.org/Submissions/Kimura-from-New-York-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kimura from New York Control",
+  "description": "The Kimura from New York Control is an opportunistic figure-four shoulder lock from 10th Planet rubber guard, converting the bottom player's deep overhook into the Kimura grip to torque the top opponent's shoulder when they post heavy.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Kimura from New York Control is an opportunistic figure-four shoulder lock from 10th Planet rubber guard, converting the bottom player's deep overhook into the Kimura grip to torque the top opponent's shoulder when they post heavy.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Shoulder Lock</span>
+<span class="meta-chip">Targets Shoulder joint, rotator cuff, and shoulder capsule</span>
+<span class="meta-chip">42% success</span>
+</div>
+
+> [!danger] Safety
+> Kimura from New York Control targets the Shoulder joint, rotator cuff, and shoulder capsule. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -24,60 +69,13 @@ description: "Master the Kimura shoulder lock from New York Control rubber guard
 
 <section id="overview" class="content-section">
 
-The Kimura from New York Control leverages the rubber guard system's inherent arm control to set up a high-percentage shoulder lock from bottom position. The deep overhook that defines New York Control provides a natural pathway to the figure-four Kimura grip, bypassing the most difficult phase of traditional guard-based Kimura attacks where establishing initial arm control against a defensive opponent often fails. The bottom player converts existing overhook control directly into the Kimura grip while maintaining leg pressure across the opponent's back to prevent posture recovery.
+The Kimura from New York Control leverages the rubber guard system's inherent arm control to set up an opportunistic shoulder lock from bottom position. It is a secondary attack rather than the headline finish from this position, which funnels primarily to the gogoplata, omoplata, and triangle; the Kimura becomes available when the top opponent posts heavy and exposes the overhooked arm. The deep overhook that defines New York Control provides a natural pathway to the figure-four Kimura grip, bypassing the most difficult phase of traditional guard-based Kimura attacks where establishing initial arm control against a defensive opponent often fails. The bottom player converts existing overhook control directly into the Kimura grip while maintaining leg pressure across the opponent's back to prevent posture recovery.
 
 What distinguishes this variation from standard closed guard or half guard Kimura attempts is the pre-existing arm isolation. In conventional guard positions, the attacker must first break posture, then fight to control one arm while the opponent uses both hands for defense. From New York Control, the overhook has already compromised the defender's arm positioning and eliminated their ability to post or create distance. The transition from overhook to figure-four requires only a grip conversion rather than a full arm isolation sequence, making the setup substantially faster and harder to defend.
 
 The finishing mechanics require precise hip escape movement to create the rotational angle necessary for shoulder torque. The bottom player hip escapes toward the trapped arm side while maintaining active leg pressure, generating mechanical advantage that overcomes defensive grip fighting. The combination of rubber guard positional control and classical Kimura rotational mechanics produces a submission that rewards practitioners who invest in both flexibility development and fundamental shoulder lock finishing details.
 
-**Category**: Joint Lock
-**Type**: Shoulder Lock
-**Target Area**: Shoulder joint, rotator cuff, and shoulder capsule
-**Starting Position**: [[Positions/Rubber Guard/New York Control]]
-**From Position**: [[Positions/Rubber Guard/New York Control]] (Bottom)
-**Success Rate**: 62%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) | High | 3-9 months with potential surgery requirement |
-| Shoulder capsule damage and dislocation | CRITICAL | 6-12 months, may require surgical repair |
-| Labral tear (glenoid labrum) | High | 4-8 months, often requires arthroscopic surgery |
-| Bicep tendon strain or rupture | Medium | 6-12 weeks for strain, 3-6 months for rupture |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training, allowing partner time to recognize danger and tap
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or making any verbal distress sound)
-- Physical hand tap (multiple taps with free hand)
-- Physical foot tap (multiple taps with either foot)
-- Any distress signal including screaming or unusual sounds
-
-
-**Release Protocol**:
-1. Immediately stop all rotational pressure the instant tap is felt or heard
-2. Return the arm toward neutral position (externally rotate back to starting position)
-3. Release the figure-four grip completely
-4. Allow partner to self-assess shoulder mobility before continuing
-5. Never release suddenly or allow arm to spring back forcefully
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - rotation must be smooth and controlled
-- Never use competition speed or surprise attacks in training
-- Always ensure partner has at least one hand free to tap
-- Do not apply while partner is in awkward body position that prevents tapping
-- Never combine with weight pressure that restricts breathing while finishing
-- Respect immediate taps without testing partner's pain tolerance
-
+**Starting Position**: [[Positions/Rubber Guard/New York Control]] · **From**: [[Positions/Rubber Guard/New York Control]] (Bottom)
 
 </section>
 
@@ -87,9 +85,9 @@ The finishing mechanics require precise hip escape movement to create the rotati
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 62% |
-| Failure | [[Positions/Rubber Guard/New York Control]] | 25% |
-| Counter | [[Positions/Closed Guard]] | 13% |
+| Success | [[game-over]] | 42% |
+| Failure | [[Positions/Rubber Guard/New York Control]] | 43% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -222,41 +220,63 @@ The finishing mechanics require precise hip escape movement to create the rotati
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Kimura]]
 - [[Submissions/Americana]]
 - [[Transitions/Gogoplata]]
 - [[Submissions/Reverse Kimura]]
 - [[Submissions/Triangle Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Rubber Guard/New York Control]] - Starting position for this submission variant
-- [[Submissions/Kimura]] - Parent submission technique
 - [[Positions/Rubber Guard/Mission Control]] - Entry position in rubber guard system leading to New York Control
 - [[Positions/Closed Guard]] - Recovery position when New York Control is lost
 - [[Positions/Omoplata Control]] - Alternative attack available from same position
-- [[Transitions/Gogoplata]] - Primary alternative submission from New York Control
+
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) | High | 3-9 months with potential surgery requirement |
+| Shoulder capsule damage and dislocation | CRITICAL | 6-12 months, may require surgical repair |
+| Labral tear (glenoid labrum) | High | 4-8 months, often requires arthroscopic surgery |
+| Bicep tendon strain or rupture | Medium | 6-12 weeks for strain, 3-6 months for rupture |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training, allowing partner time to recognize danger and tap
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or making any verbal distress sound)
+- Physical hand tap (multiple taps with free hand)
+- Physical foot tap (multiple taps with either foot)
+- Any distress signal including screaming or unusual sounds
+
+
+**Release Protocol**:
+1. Immediately stop all rotational pressure the instant tap is felt or heard
+2. Return the arm toward neutral position (externally rotate back to starting position)
+3. Release the figure-four grip completely
+4. Allow partner to self-assess shoulder mobility before continuing
+5. Never release suddenly or allow arm to spring back forcefully
+
+
+**Training Restrictions**:
+- Never spike or jerk the submission - rotation must be smooth and controlled
+- Never use competition speed or surprise attacks in training
+- Always ensure partner has at least one hand free to tap
+- Do not apply while partner is in awkward body position that prevents tapping
+- Never combine with weight pressure that restricts breathing while finishing
+- Respect immediate taps without testing partner's pain tolerance
 
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Kimura from New York Control leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

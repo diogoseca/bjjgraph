@@ -142,20 +142,35 @@ description: "Master hooks in BJJ. Learn curved foot and hand attachments for re
 }
 </script>
 
-> Hooks is a low complexity BJJ principle applicable at the Fundamental level. Develop over Beginner to Advanced.
 
-**Application Level**: Fundamental
-**Complexity**: Low
-**Development Timeline**: Beginner to Advanced
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Hooks",
+  "description": "Hooks are curved attachments — a foot behind a knee, an instep inside a thigh, an arm under an armpit — that use limb geometry rather than gripping force to create connections an opponent must change angles to remove.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Fundamental</span>
+<span class="meta-chip">Low complexity</span>
+<span class="meta-chip">Beginner to Advanced</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
 
-## What is Hooks?
+## What are Hooks?
 
-A hook is a curved attachment — a foot wrapped behind a knee, a hand threaded under an armpit, an instep tucked inside a thigh. Hooks are the attachment mechanic of BJJ. Unlike grips, which rely on grabbing and squeezing, hooks use the natural curve of feet, hands, and limbs to wrap around the opponent's body and create connection points that resist removal through their geometry. You cannot simply pull a hook off by yanking — you must change the angle, peel it away, or create enough space to disengage the curve. This geometric resilience makes hooks one of the most reliable control mechanisms in grappling.
+**Hooks are curved attachments — a foot behind a knee, an instep inside a thigh, an arm under an armpit — that use limb geometry rather than gripping force to create connections an opponent must change angles to remove.**
+
+Hooks sit alongside grips as one of the two foundational attachment mechanics in grappling, but where a grip is an active, muscular grab, a hook is structural. Because the connection comes from the curve of feet, hands, and limbs wrapping around the opponent's body rather than from squeezing, you cannot simply pull a hook off by yanking — you must change the angle, peel it away, or create enough space to disengage the curve. This geometric resilience is what makes hooks one of the most reliable control mechanisms in BJJ.
 
 Hooks appear everywhere. The butterfly guard is defined by feet hooked under the opponent's thighs. Back control requires heel hooks inside the opponent's thighs. The De La Riva guard wraps a foot behind the opponent's lead knee. The underhook threads an arm under the opponent's armpit and curves upward behind the shoulder. The overhook wraps over the opponent's arm and curves downward to trap it. In each case, the hook creates a persistent connection that the opponent must actively work to remove, buying the hooking player time, control, and options.
 
@@ -374,8 +389,20 @@ Positional sparring starting from back control where the attacker tries to maint
 - [[Half Guard]] (Position) - The underhook from half guard bottom is the most critical arm hook in defensive grappling
 - [[Turtle]] (Position) - The hook insertion battle from turtle defines whether the position converts to back control
 - [[Clinch]] (Position) - The underhook versus overhook battle is the defining arm hook contest of clinch grappling
-- [[Butterfly Sweep]] (Transition) - The quintessential hook-based sweep, using the butterfly hook for elevation and directional control
+- [[Basic Butterfly Sweep]] (Transition) - The quintessential hook-based sweep, using the butterfly hook for elevation and directional control
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Mikey-Musumeci-Berimbolo-System" data-cta="related-system-card" data-system-slug="systems/mikey-musumeci-berimbolo-system" data-system-name="Mikey Musumeci Berimbolo System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Mikey Musumeci Berimbolo System</span><span class="system-card__unlocks-badge">Unlocks 21 techniques</span><span class="system-card__blurb">Core to hook insertion sequencing when establishing back control after the rotation</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/10th-Planet-Half-Guard-Bottom-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-half-guard-bottom-system" data-system-name="10th Planet Half Guard Bottom System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">10th Planet Half Guard Bottom System</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Underlying principle of the Lockdown leg trap and the hooking control it establishes</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Marcelo-Garcia-Butterfly-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-butterfly-guard-system" data-system-name="Marcelo Garcia Butterfly Guard System" data-member-count="18"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Marcelo Garcia Butterfly Guard System</span><span class="system-card__unlocks-badge">Unlocks 18 techniques</span><span class="system-card__blurb">Foundational concept governing active butterfly hook engagement and elevation</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

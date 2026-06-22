@@ -10,6 +10,41 @@ description: "Learn Aoki Lock to Back Control in BJJ. Transition from shoulder l
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Aoki Lock to Back Control",
+  "description": "Learn Aoki Lock to Back Control in BJJ. Transition from shoulder lock control to dominant back position. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Aoki Lock to Back Control", "item": "https://bjjgraph.org/Transitions/Aoki-Lock-to-Back-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Aoki Lock to Back Control",
+  "description": "Aoki Lock to Back Control is a no-gi transition where the top player abandons a stalling shoulder lock to ride the opponent's rolling escape into seatbelt control and back hooks, converting a defended submission into the most dominant position in grappling.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Learn Aoki Lock to Back Control in BJJ. Transition from shoulder l
 </div>
 
 <section id="overview" class="content-section">
+
+**Aoki Lock to Back Control is a no-gi transition where the top player abandons a stalling shoulder lock to ride the opponent's rolling escape into seatbelt control and back hooks, converting a defended submission into the most dominant position in grappling.**
 
 The Aoki Lock to Back Control transition exploits the natural defensive reaction of an opponent caught in the Aoki Lock shoulder submission. When the bottom player attempts to roll through or rotate away from the shoulder pressure, the top player abandons the submission grip and follows the opponent's momentum to establish hooks and seatbelt control on the back. This is a high-percentage bail-out that converts a potentially stalled shoulder lock into the most dominant control position in grappling.
 
@@ -220,5 +257,7 @@ The Aoki Lock to Back Control transition is a critical decision point in the Aok
 
 
 </section>
+
+
 
 </main>

@@ -337,4 +337,6 @@ The Electric Chair targets the groin, hip flexors, and adductor muscles with int
 
 </section>
 
+
+
 </main>

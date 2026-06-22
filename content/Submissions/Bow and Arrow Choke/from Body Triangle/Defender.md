@@ -158,7 +158,7 @@ description: "Defend and escape the bow and arrow choke from body triangle. Reco
 
 Defending the Bow and Arrow Choke from Body Triangle is among the most challenging defensive scenarios in gi BJJ because you face simultaneous threats from the body triangle's breathing restriction and the collar choke's arterial compression. Early recognition is essential—once both grips are established and the attacker begins extending, the window for successful defense closes rapidly. Your defensive priorities must be carefully sequenced: protect the collar first to prevent the choke grip from being set, then work to strip any established grip, and only then address the body triangle. Attempting to clear the triangle while the collar grip is active typically results in being choked during the escape attempt because both hands leave the neck undefended.
 
-**Opponent's Starting Position**: [[Positions/Back Control/Body Triangle]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Back Control/Body Triangle]] (Top)
 
 
 </section>

@@ -10,6 +10,41 @@ description: "Master the Rubber Guard to Closed Guard transition in BJJ. Step-by
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Rubber Guard to Closed Guard",
+  "description": "Master the Rubber Guard to Closed Guard transition in BJJ. Step-by-step guide covering leg repositioning, grip management, and guard retention techniques.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Rubber Guard to Closed Guard", "item": "https://bjjgraph.org/Transitions/Rubber-Guard-to-Closed-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Rubber Guard to Closed Guard",
+  "description": "Rubber Guard to Closed Guard is a defensive positional reset where the bottom player lowers the high-threaded leg and re-crosses the ankles, trading the 10th Planet system's specialized arm control for closed guard's sustainable, versatile bottom game.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Rubber Guard to Closed Guard transition in BJJ. Step-by
 </div>
 
 <section id="overview" class="content-section">
+
+**Rubber Guard to Closed Guard is a defensive positional reset where the bottom player lowers the high-threaded leg and re-crosses the ankles, trading the 10th Planet system's specialized arm control for closed guard's sustainable, versatile bottom game.**
 
 The Rubber Guard to Closed Guard transition is a fundamental positional reset within the 10th Planet guard system, allowing the bottom player to return to a more sustainable and universally applicable guard position. While Rubber Guard offers unique submission pathways through its specialized leg and arm configurations, there are critical moments when transitioning back to Closed Guard becomes the strategically superior option. Flexibility fatigue, failed attack sequences, an opponent who is systematically stripping rubber guard grips, or the need to conserve energy for later exchanges all represent scenarios where this reset creates better offensive opportunities than persisting with a deteriorating rubber guard position.
 
@@ -218,5 +255,7 @@ The Rubber Guard to Closed Guard transition serves as the critical safety valve 
 
 
 </section>
+
+
 
 </main>

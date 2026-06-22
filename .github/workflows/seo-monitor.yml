@@ -1,0 +1,144 @@
+name: SEO Monitor (weekly, read-only)
+
+# Plan §A.4 — leading-indicator SEO tracking for the synonym/alias epic.
+# Sat 06:00 UTC (first/lightest weekend slot, plan §A.7). Read-only: it does NOT
+# touch site content. It tracks where bjjgraph.org ranks for the alias keywords
+# (DataForSEO SERP) and on-site search-entry/engagement (PostHog HogQL), then
+# appends a dated section to tests/artifacts/seo_trends.md.
+#
+# The report is pushed to a long-lived `seo-reports` branch (which deploy.yaml
+# ignores — deploy only fires on `main`), so trend history is git-tracked WITHOUT
+# triggering a production deploy, and it's also uploaded as a workflow artifact.
+# No GSC credential needed: DataForSEO + PostHog are already wired.
+
+on:
+  schedule:
+    - cron: "0 6 * * 6" # Saturday 06:00 UTC (plan §A.7)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: seo-monitor
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+
+      - name: Prefetch prior report (for week-over-week anomaly detection)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # The trend history lives only on the seo-reports branch. Pull the latest
+          # copy into the working tree BEFORE Claude runs so it can diff against it;
+          # otherwise Claude always sees an absent file and never detects anomalies.
+          mkdir -p tests/artifacts
+          git fetch origin seo-reports 2>/dev/null \
+            && git show origin/seo-reports:tests/artifacts/seo_trends.md > tests/artifacts/seo_trends.md 2>/dev/null \
+            || echo "No prior seo-reports history yet (first run)."
+
+      - name: Prefetch PostHog search-entry data (keeps the backend key out of the agent)
+        env:
+          # SECURITY: the PostHog PERSONAL key (phx_) is used HERE, in a non-agent step,
+          # and written to a file. It is intentionally NOT set on the Claude step below,
+          # which ingests untrusted DataForSEO SERP text (prompt-injection source). This
+          # severs the "injected SERP text -> agent -> exfiltrate backend key" path.
+          POSTHOG_PERSONAL_API_KEY: ${{ secrets.POSTHOG_PERSONAL_API_KEY }}
+          POSTHOG_PROJECT_ID: "236155"
+        run: |
+          python3 scripts/fetch_posthog_search.py /tmp/seo/posthog_search.json
+          echo "Prefetched PostHog search data to /tmp/seo/posthog_search.json"
+
+      - name: Generate SEO trend report
+        uses: anthropics/claude-code-action@51705da45eecce209d4700538bf8377d5b5fc695 # v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          # SECURITY: no backend secret in this step's env; no unrestricted Bash(python3:*)
+          # (that would be arbitrary code-exec an injected SERP string could abuse). The
+          # agent reads prefetched PostHog JSON and only Writes the report (commit is
+          # scoped to seo_trends.md below).
+          claude_args: |
+            --model claude-opus-4-8[1m]
+            --effort xhigh
+            --mcp-config '{"mcpServers":{"dataforseo":{"command":"npx","args":["-y","@modelcontextprotocol/server-dataforseo"],"env":{"DATAFORSEO_LOGIN":"${{ secrets.DATAFORSEO_LOGIN }}","DATAFORSEO_PASSWORD":"${{ secrets.DATAFORSEO_PASSWORD }}"}}}}'
+            --allowedTools 'Read,Write,Bash(mkdir:*),Bash(date:*),mcp__dataforseo__serp_organic_live_advanced'
+          prompt: |
+            You are an SEO analyst tracking the BJJGraph synonym/alias program. Produce a
+            leading-indicator trend report. Read-only: do NOT edit any site content under content/.
+
+            # Keywords to track (alias & head terms the epic targets)
+            mata leao, hadaka jime, rear naked choke bjj, toreando pass, bullfighter pass,
+            kesa gatame, scarf hold bjj, sankaku jime bjj, juji gatame, kimura bjj,
+            tate shiho gatame, mount escape bjj
+
+            # Step 1 — SERP rank (DataForSEO)
+            For each keyword, call `mcp__dataforseo__serp_organic_live_advanced`
+            (location "United States", language "en") and record:
+            - bjjgraph.org's best organic position (or "not in top 100")
+            - WHICH bjjgraph.org URL ranks (flag if it's a *variant/role* page instead of the
+              canonical hub — e.g. /Kuzure-Kesa-Gatame ranking for "kesa gatame" is WRONG)
+            - the top non-bjjgraph competitor
+
+            # Step 2 — On-site signal (PostHog, prefetched)
+            Read `/tmp/seo/posthog_search.json` (prefetched by a prior CI step). It is
+            `{"available": true, "data": {...HogQL result with columns/results...}}` for
+            the last 14 days of search-referred pageviews (top 50 by count), or
+            `{"available": false, "note": "..."}`. If unavailable, note "PostHog
+            unavailable" and continue — do not fail the report. Do NOT attempt to call the
+            PostHog API yourself (no key is available to this step by design).
+
+            # Step 3 — Append the report
+            Read tests/artifacts/seo_trends.md if it exists (create with an "# SEO Trends"
+            header if not). APPEND a new section titled with today's date (run `date -u +%F`),
+            containing:
+            - a keyword table: keyword | bjjgraph position | ranking URL | wrong-page? | top competitor
+            - the PostHog search-entry top-10
+            - an **Anomalies** list: any keyword where bjjgraph dropped out of top 20, or a
+              variant/role page ranks instead of the canonical hub, or a previously-ranking
+              keyword disappeared (compare against the most recent prior section in the file).
+            Keep the whole new section under ~150 lines. Write the file with the Write tool.
+
+      - name: Publish report to seo-reports branch + artifact
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ ! -f tests/artifacts/seo_trends.md ]; then
+            echo "No report produced (Claude step likely hit quota). Clean no-op; retries next week."
+            exit 0
+          fi
+          cp tests/artifacts/seo_trends.md /tmp/seo_trends.md
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git
+          # Remove the working-tree copy so checking out seo-reports (which tracks the
+          # same path) isn't blocked by an "untracked file would be overwritten" abort.
+          # /tmp/seo_trends.md is the source of truth across the branch switch.
+          rm -f tests/artifacts/seo_trends.md
+          # Long-lived side branch; deploy.yaml ignores it (deploy is main-only).
+          # Use an explicit local:remote refspec so the branch ref actually exists
+          # locally after fetch (a single-branch checkout clone only has FETCH_HEAD).
+          if git ls-remote --exit-code --heads origin seo-reports >/dev/null 2>&1; then
+            git fetch origin seo-reports:seo-reports
+            git checkout seo-reports
+          else
+            git checkout --orphan seo-reports
+            git rm -rf . >/dev/null 2>&1 || true
+          fi
+          mkdir -p tests/artifacts
+          cp /tmp/seo_trends.md tests/artifacts/seo_trends.md
+          git add tests/artifacts/seo_trends.md
+          git commit -m "SEO trends $(date -u +%F)" || { echo "No change to commit."; exit 0; }
+          git push origin seo-reports
+
+      - name: Upload report artifact
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: seo-trends-${{ github.run_id }}
+          path: /tmp/seo_trends.md
+          if-no-files-found: ignore

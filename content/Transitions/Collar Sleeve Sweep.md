@@ -10,6 +10,41 @@ description: "Master the Collar Sleeve Sweep in BJJ. Step-by-step guide covering
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Collar Sleeve Sweep",
+  "description": "Master the Collar Sleeve Sweep in BJJ. Step-by-step guide covering grip mechanics, off-balancing principles, and timing for this high-percentage guard sweep.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Collar Sleeve Sweep", "item": "https://bjjgraph.org/Transitions/Collar-Sleeve-Sweep" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Collar Sleeve Sweep",
+  "description": "The Collar Sleeve Sweep is a high-percentage gi guard sweep where the bottom player pairs a cross-collar grip with a same-side sleeve grip to generate rotational off-balancing that topples the opponent and lets the sweeper come up to side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Collar Sleeve Sweep in BJJ. Step-by-step guide covering
 
 <section id="overview" class="content-section">
 
-The Collar Sleeve Sweep is a fundamental sweep from collar sleeve guard that exploits the asymmetric grip structure to generate rotational force that topples the opponent. By combining a deep cross-collar pull with full sleeve extension to prevent posting, the sweeper creates a mechanical advantage where the opponent cannot distribute weight effectively to resist the sweep direction. The technique relies on coordinated upper and lower body mechanics—the grips control the opponent's structural integrity while the legs provide the driving force through hip-posted kicks and far-leg hooks.
+**The Collar Sleeve Sweep is a high-percentage gi guard sweep where the bottom player pairs a cross-collar grip with a same-side sleeve grip to generate rotational off-balancing that topples the opponent and lets the sweeper come up to side control.**
+
+Within the gi guard game, this sweep earns its reputation as the workhorse finish of collar sleeve guard because it converts ordinary grip control into immediate top position without demanding exceptional speed or flexibility. By combining a deep cross-collar pull with full sleeve extension to prevent posting, the sweeper creates a mechanical advantage where the opponent cannot distribute weight effectively to resist the sweep direction. The technique relies on coordinated upper and lower body mechanics—the grips control the opponent's structural integrity while the legs provide the driving force through hip-posted kicks and far-leg hooks.
 
 This sweep operates on the principle that controlling two diagonal points of an opponent's base creates predictable instability. The collar grip pulls the upper body off-center while the sleeve grip removes the primary posting hand, eliminating the opponent's ability to catch themselves as momentum shifts. The sweeper's legs amplify this effect: one foot frames on the opponent's hip to generate explosive kicking power, while the other hooks behind the opponent's far leg to remove their remaining base. The optimal timing window opens when the opponent commits weight forward against the collar pull or shifts laterally during grip fighting exchanges.
 
@@ -230,5 +267,7 @@ The Collar Sleeve Sweep functions as the primary sweeping threat from collar sle
 
 
 </section>
+
+
 
 </main>

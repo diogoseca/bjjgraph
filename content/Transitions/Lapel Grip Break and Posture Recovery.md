@@ -10,6 +10,41 @@ description: "Master Lapel Grip Break and Posture Recovery from Ringworm Guard. 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Lapel Grip Break and Posture Recovery",
+  "description": "Master Lapel Grip Break and Posture Recovery from Ringworm Guard. Systematic grip stripping and posture restoration to neutralize lapel control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Lapel Grip Break and Posture Recovery", "item": "https://bjjgraph.org/Transitions/Lapel-Grip-Break-and-Posture-Recovery" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Lapel Grip Break and Posture Recovery",
+  "description": "Lapel Grip Break and Posture Recovery is the top player's systematic escape from Ringworm Guard, stripping the threaded lapel with two-on-one grip fighting, securing the tail, and extracting the trapped leg to recover neutral passing posture.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Lapel Grip Break and Posture Recovery from Ringworm Guard. 
 </div>
 
 <section id="overview" class="content-section">
+
+**Lapel Grip Break and Posture Recovery is the top player's systematic escape from Ringworm Guard, stripping the threaded lapel with two-on-one grip fighting, securing the tail, and extracting the trapped leg to recover neutral passing posture.**
 
 Lapel Grip Break and Posture Recovery is an essential defensive technique for escaping Ringworm Guard, one of the most technically sophisticated lapel guard variations in modern gi-based BJJ. When caught in this position, the top player's leg is compromised by the opponent's lapel wrap, severely limiting mobility, base, and passing options. This technique addresses the mechanical disadvantage through systematic grip stripping and posture restoration.
 
@@ -216,5 +253,7 @@ Lapel Grip Break and Posture Recovery serves as the essential gateway technique 
 
 
 </section>
+
+
 
 </main>

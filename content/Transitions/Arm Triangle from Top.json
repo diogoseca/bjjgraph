@@ -11,7 +11,7 @@
     "head and arm choke",
     "blood choke"
   ],
-  "from_position": "Hindulotine/Top",
+  "from_position": "Side Control/Top",
   "outcomes": [
     {
       "to": "Arm Triangle",
@@ -30,6 +30,7 @@
     }
   ],
   "success_rate": 55,
+  "summary": "The Arm Triangle from Top is a head-and-arm blood choke that drives the opponent's own arm across their neck so their bicep occludes one carotid while your shoulder compresses the other, finished by walking around and sprawling low to the opposite side.",
   "overview": "The Arm Triangle from Top (kata gatame) is a powerful blood choke initiated from side control that traps the opponent's arm against their own neck, using your shoulder and head as the secondary compression point. The mechanic is deceptively simple: drive the opponent's arm across their centerline so their own bicep occludes one carotid artery while your shoulder compresses the other. What separates competent execution from failed attempts is the walk-around finish—once the arm-and-head configuration is locked, you must step over to the opposite side of the opponent's body, sprawling your hips low and angling your squeeze inward rather than simply bearing down with chest pressure.\n\nStrategically, this technique thrives on a predictable defensive reaction: when trapped under side control, most practitioners instinctively push on your head or neck with their near arm, which is exactly the arm placement you need. The setup exploits the natural frames your opponent creates, turning their defense into the architecture of their own submission. Because the choke operates as a blood restriction rather than an airway crush, properly applied arm triangles produce unconsciousness rapidly—often within four to six seconds of full compression—making recognition and release protocol essential training components.\n\nThe arm triangle from top integrates seamlessly with side control attacks. If the opponent defends the americana by bringing their elbow tight, they expose the arm triangle. If they frame against your neck to create escape space, they feed the configuration. This creates a submission chain where defending one attack opens the next, embodying the dilemma-based approach that characterizes high-level top control.",
   "conditions": [
     "Established side control with chest-to-chest contact and crossface pressure controlling opponent's head position",

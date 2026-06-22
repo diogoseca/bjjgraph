@@ -131,6 +131,7 @@ description: "How to execute Toreando Pass in BJJ. Attacking perspective with se
   "@type": "WebPage",
   "name": "Toreando Pass Attacker",
   "description": "How to execute Toreando Pass in BJJ. Attacking perspective with setup, execution steps, and counters.",
+  "alternateName": ["Bullfighter Pass", "Matador Pass", "Toreada Pass", "Toreador Pass"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -176,6 +177,9 @@ description: "How to execute Toreando Pass in BJJ. Attacking perspective with se
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Bullfighter Pass</strong>, <strong>Matador Pass</strong>, <strong>Toreada Pass</strong>, <strong>Toreador Pass</strong> <span class="role-hint">(attacker)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 The Toreando Pass is a standing guard pass built on bilateral leg control and explosive lateral movement. The passer grips both of the opponent's knees or pant legs, then simultaneously steps to one side while redirecting the opponent's legs to the opposite side. This opposing-vector motion breaks the guard player's hip connection and clears a direct path to side control. The technique rewards practitioners who develop strong grip fighting, explosive footwork, and the ability to read defensive reactions in real time. Because the Toreando creates a binary choice for the defender — either allow the pass or turn and expose the back — it functions as both a standalone pass and a forcing mechanism that opens chain-passing opportunities.
@@ -339,6 +343,16 @@ Explore Toreando variations including grip variations (sleeve/collar/ankle), dif
 <p class="section-subtitle">What are the safety concerns for Toreando Pass?</p>
 
 The Toreando Pass is generally a safe passing technique when practiced with proper control and awareness. Primary safety considerations include controlling your explosive lateral movement to avoid knee injuries to yourself (from sudden directional changes) and to your partner (from excessive force when redirecting their legs). When redirecting the opponent's legs, maintain awareness of their knee and hip flexibility - do not force their legs beyond their comfortable range of motion, particularly when they are less flexible. During drilling, communicate with your partner about the speed and force level, especially when first learning the explosive timing. Be cautious when executing the pass near the training area boundaries to avoid driving your partner into walls or other students. In competition or live sparring, be aware that the Toreando can create scramble situations where both practitioners may end up in awkward positions - maintain control throughout the pass to prevent accidental injuries. Partners with existing knee or hip injuries should communicate these limitations before training this pass.
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/IBJJF-Strategy-Guide" data-cta="related-system-card" data-system-slug="systems/ibjjf-strategy-guide" data-system-name="IBJJF Strategy Guide" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">IBJJF Strategy Guide</span><span class="system-card__unlocks-badge">Unlocks 27 techniques</span><span class="system-card__blurb">High-percentage guard pass effective for scoring under time pressure</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

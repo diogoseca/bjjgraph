@@ -1,6 +1,7 @@
 {
   "name": "Pull guard",
   "description": "Master the guard pull in BJJ. Complete guide to executing from standing to guard with grip setups, safe descent mechanics, and immediate offensive sequences.",
+  "summary": "A guard pull is a transition where a standing grappler uses established grips to sit to the mat under control and wrap the opponent into closed or open guard, trading top position for an offensive ground game.",
   "tags": [
     "bjj",
     "transition",
@@ -19,7 +20,7 @@
       "result": "success"
     },
     {
-      "to": "Standing Position/Top",
+      "to": "Standing Guard/Bottom",
       "probability": 20,
       "result": "failure"
     },
@@ -139,7 +140,7 @@
         "counter": "Opponent backs away or disengages as you sit",
         "effectiveness": "High",
         "your_response": "Maintain grip tension and follow them with your guard, using grips to prevent complete separation. Scoot your hips forward aggressively and re-establish connections with legs or feet on their hips to prevent them from establishing distance.",
-        "targets_outcome": "Standing Position/Top"
+        "targets_outcome": "Standing Guard/Bottom"
       },
       {
         "counter": "Opponent sprawls forward with heavy chest pressure",
@@ -285,14 +286,14 @@
       {
         "action": "Strip grips and disengage before opponent sits",
         "when_to_use": "When you recognize the pull attempt early during the grip establishment phase before opponent has committed their weight backward",
-        "targets_outcome": "Standing Position/Top",
+        "targets_outcome": "Standing Guard/Bottom",
         "if_successful": "Opponent is forced to re-engage standing without their preferred grip configuration, resetting the exchange to neutral standing",
         "risk": "If you strip grips too late, opponent may already be descending and you lose the window to apply immediate passing pressure"
       },
       {
         "action": "Drive forward with heavy chest pressure and sprawl hips during their descent",
         "when_to_use": "When opponent has already begun sitting and you cannot prevent the pull — commit forward immediately to deny them space to establish guard frames",
-        "targets_outcome": "Standing Position/Top",
+        "targets_outcome": "Standing Position/Bottom",
         "if_successful": "You flatten the opponent and arrive in a dominant top position before they can establish guard hooks, enabling immediate passing or pressure control",
         "risk": "If opponent has strong grips and good timing, your forward drive may be redirected into a sweep or they may establish closed guard around your forward momentum"
       },
@@ -313,7 +314,7 @@
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Standing Position/Top",
+        "outcome": "Standing Guard/Bottom",
         "how": "Strip opponent's grips using two-on-one grip breaks before they can commit to sitting. Step backward to create space while breaking grips, forcing them to re-engage standing. Maintain active hand fighting to deny re-establishment of pulling grips. This resets the exchange to neutral standing where you retain initiative."
       },
       {

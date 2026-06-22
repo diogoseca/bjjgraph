@@ -1,5 +1,6 @@
 {
   "name": "Seat Belt to Body Triangle",
+  "summary": "The Seat Belt to Body Triangle is a back-control upgrade in which the attacker threads one leg across the opponent's torso and locks a figure-four behind their own knee, trading hook mobility for a breathing-restricting compression lock.",
   "description": "Master the Seat Belt to Body Triangle transition in BJJ. Learn to lock figure-four legs from back control for superior retention and submission pressure.",
   "tags": [
     "bjj",
@@ -70,10 +71,6 @@
       "relationship": "Parent position category — both seat belt and body triangle are configurations within back control"
     },
     {
-      "name": "Body Triangle Squeeze",
-      "relationship": "Follow-up submission — body triangle compression can be used as a direct finishing technique once established"
-    },
-    {
       "name": "Rear Naked Choke from Body Triangle",
       "relationship": "Primary submission chain — body triangle platform enables high-percentage rear naked choke finishing"
     },
@@ -94,8 +91,8 @@
       "relationship": "Alternative attack — gi-specific submission available from seat belt that may be preferred over positional upgrade"
     },
     {
-      "name": "Escape Seat Belt Control",
-      "relationship": "Defensive context — understanding defender's escape options informs optimal timing for the transition"
+      "name": "Body Triangle Escape to Half Guard",
+      "relationship": "Defensive context — understanding the defender's escape route informs optimal timing for the transition"
     }
   ],
   "attacker": {

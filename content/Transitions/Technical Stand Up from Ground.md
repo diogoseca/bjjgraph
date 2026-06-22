@@ -10,6 +10,41 @@ description: "Master the Technical Stand Up from Ground in BJJ. Essential guide 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Technical Stand Up from Ground",
+  "description": "Master the Technical Stand Up from Ground in BJJ. Essential guide covering safe standing mechanics, proper base, hand posting, and maintaining distance.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Technical Stand Up from Ground", "item": "https://bjjgraph.org/Transitions/Technical-Stand-Up-from-Ground" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Technical Stand Up from Ground",
+  "description": "The Technical Stand Up from Ground is BJJ's foundational method for safely returning to standing from the ground, posting a hand behind the hip and kicking a leg through while maintaining a defensive frame against the opponent.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,13 +57,15 @@ description: "Master the Technical Stand Up from Ground in BJJ. Essential guide 
 
 <section id="overview" class="content-section">
 
-The Technical Stand Up from Ground is one of the most fundamental movements in Brazilian Jiu-Jitsu, enabling a practitioner to safely transition from a seated or grounded position to full standing while maintaining defensive awareness and structural integrity. Built on the principle of posting a hand behind the hip for structural support combined with a kick-through leg motion, this technique creates the elevation needed to reach standing without exposing the practitioner to takedowns or submissions during the vulnerable transition phase.
+**The Technical Stand Up from Ground is BJJ's foundational method for safely returning to standing from the ground, posting a hand behind the hip and kicking a leg through while maintaining a defensive frame against the opponent.**
+
+Few skills are more foundational in Brazilian Jiu-Jitsu than the technical stand up, the bridge that lets a grounded practitioner reclaim a standing posture without surrendering position. Built on the principle of posting a hand behind the hip for structural support combined with a kick-through leg motion, this technique creates the elevation needed to reach standing without exposing the practitioner to takedowns or submissions during the vulnerable transition phase.
 
 Strategically, the technical stand up serves dual purposes in competition and self-defense contexts. In competition, it allows guard players to reset unfavorable exchanges, deny opponents their preferred passing game, or create new engagement opportunities from standing. In self-defense, the ability to safely return to standing against a standing adversary is among the most critical skills, as remaining grounded presents significant tactical disadvantage. The movement prioritizes maintaining a defensive frame with the non-posting hand while keeping the center of gravity low throughout the transition.
 
 The effectiveness of this technique hinges on proper sequencing: creating distance through framing, establishing a stable posting base, generating momentum through the hip lift and kick-through, and finishing with immediate distance creation upon reaching standing. Equally important is recognizing when NOT to attempt a technical stand up. If the opponent has controlling grips, heavy top pressure, or tight proximity, forcing the stand up may expose you to takedowns or guard passes. The technique works best when preceded by successful frame creation and distance management, making it a natural complement to any guard retention system.
 
-**From Position**: [[Positions/Standing Guard]] (Bottom)
+**From Position**: [[Positions/Seated Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -40,7 +77,7 @@ The effectiveness of this technique hinges on proper sequencing: creating distan
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[Positions/Standing Position]] | 55% |
-| Failure | [[Positions/Standing Guard]] | 30% |
+| Failure | [[Positions/Seated Guard]] | 30% |
 | Counter | [[Positions/Open Guard]] | 15% |
 
 
@@ -218,5 +255,7 @@ The Technical Stand Up from Ground serves as a critical bridge between the groun
 
 
 </section>
+
+
 
 </main>

@@ -10,6 +10,41 @@ description: "Master the Trap and Roll escape from bottom Mount in BJJ. Complete
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Trap and Roll from Mount",
+  "description": "Master the Trap and Roll escape from bottom Mount in BJJ. Complete guide to arm trapping, bridge mechanics, and reversal timing for effective mount escapes.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Trap and Roll from Mount", "item": "https://bjjgraph.org/Transitions/Trap-and-Roll-from-Mount" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Trap and Roll from Mount",
+  "description": "The Trap and Roll is the fundamental bottom-mount reversal where you trap the opponent's arm and same-side foot, then bridge diagonally over that compromised base to sweep them and arrive in your closed guard on top.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Trap and Roll escape from bottom Mount in BJJ. Complete
 </div>
 
 <section id="overview" class="content-section">
+
+**The Trap and Roll is the fundamental bottom-mount reversal where you trap the opponent's arm and same-side foot, then bridge diagonally over that compromised base to sweep them and arrive in your closed guard on top.**
 
 The Trap and Roll is the most fundamental mount reversal in Brazilian Jiu-Jitsu, taught from the earliest days of training yet remaining a viable weapon at the highest levels when executed with proper timing and setup. The technique works by isolating the opponent's base on one side through trapping their arm and corresponding foot, then using an explosive hip bridge directed at a 45-degree angle to roll them over that compromised base. The mechanical principle is simple: a stool with four legs is stable, but remove two legs on the same side and it topples with minimal force.
 
@@ -222,5 +259,7 @@ The Trap and Roll from Mount is the cornerstone of the mount escape hierarchy, f
 
 
 </section>
+
+
 
 </main>

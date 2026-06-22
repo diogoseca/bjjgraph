@@ -10,6 +10,41 @@ description: "Master the backstep pass against worm guard in BJJ. Navigate lapel
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Backstep Around Worm Guard",
+  "description": "Master the backstep pass against worm guard in BJJ. Navigate lapel configurations by circling behind opponent\u0027s guard structure for dominant position.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Backstep Around Worm Guard", "item": "https://bjjgraph.org/Transitions/Backstep-Around-Worm-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Backstep Around Worm Guard",
+  "description": "Backstep around worm guard is a gi guard-passing transition where the top player rotates the lapel-trapped leg backward and circles behind the opponent's lapel structure to reach turtle or side control instead of forcing forward pressure.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the backstep pass against worm guard in BJJ. Navigate lapel
 </div>
 
 <section id="overview" class="content-section">
+
+**Backstep around worm guard is a gi guard-passing transition where the top player rotates the lapel-trapped leg backward and circles behind the opponent's lapel structure to reach turtle or side control instead of forcing forward pressure.**
 
 The backstep around worm guard is a fundamental guard passing solution that addresses the unique mechanical problems created by lapel-based guard configurations. When an opponent establishes worm guard by threading your lapel around your lead leg, standard pressure passing becomes ineffective because the fabric creates a persistent barrier preventing hip contact and forward progression.
 
@@ -215,11 +252,13 @@ The backstep around worm guard occupies a critical role in modern gi passing str
 
 - [[Transitions/Back Step Pass]] - Related passing technique using similar rotational mechanics
 
-- [[Transitions/Bullfighter Pass]] - Complementary pass that may combine with backstep movement
+- [[Transitions/Toreando Pass]] - Complementary pass that may combine with backstep movement
 
 - [[Transitions/Long Step Pass]] - Related passing concept sharing distance-creation principles
 
 
 </section>
+
+
 
 </main>

@@ -10,6 +10,41 @@ description: "Master Overhook Escape from New York Control. Step-by-step arm ext
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Overhook Escape",
+  "description": "Master Overhook Escape from New York Control. Step-by-step arm extraction mechanics with timing cues and spiral motion technique for rubber guard defense.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Overhook Escape", "item": "https://bjjgraph.org/Transitions/Overhook-Escape" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Overhook Escape",
+  "description": "Overhook Escape is the top player's primary defense against New York Control, freeing the trapped arm from the rubber-guard overhook through a forward shoulder rotation and elbow-to-hip spiral before clearing the leg and recovering position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Overhook Escape from New York Control. Step-by-step arm ext
 </div>
 
 <section id="overview" class="content-section">
+
+**Overhook Escape is the top player's primary defense against New York Control, freeing the trapped arm from the rubber-guard overhook through a forward shoulder rotation and elbow-to-hip spiral before clearing the leg and recovering position.**
 
 The Overhook Escape represents the critical first step in defending against New York Control, the advanced rubber guard position that combines leg pressure across your back with a deep overhook that restricts your arm movement. Without successfully extracting your trapped arm, all subsequent escape attempts become exponentially more difficult as the bottom player maintains access to gogoplata, triangle, and omoplata submission chains.
 
@@ -219,5 +256,7 @@ Overhook Escape serves as the critical gateway technique for defending the entir
 
 
 </section>
+
+
 
 </main>

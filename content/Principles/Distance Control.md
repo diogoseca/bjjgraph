@@ -142,11 +142,24 @@ description: "Master Distance Control in BJJ. Learn frame mechanics, hip escape 
 }
 </script>
 
-> Distance Control is a medium complexity BJJ principle applicable at the Fundamental level. Develop over Beginner to Advanced.
 
-**Application Level**: Fundamental
-**Complexity**: Medium
-**Development Timeline**: Beginner to Advanced
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Distance Control",
+  "description": "Distance Control is the defensive principle of generating and managing the space between your body and an opponent's controlling position, using frames, hip movement, and bridging to turn compression into the room required to escape.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Fundamental</span>
+<span class="meta-chip">Medium complexity</span>
+<span class="meta-chip">Beginner to Advanced</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -155,7 +168,9 @@ description: "Master Distance Control in BJJ. Learn frame mechanics, hip escape 
 
 ## What is Distance Control?
 
-Distance Control is one of the most fundamental defensive concepts in Brazilian Jiu-Jitsu, representing the practitioner's ability to generate distance between their body and an opponent's controlling position. This concept forms the foundation of virtually all escape sequences, as creating space is the prerequisite for recovering guard, changing positions, or executing technical stand-ups. The principle operates on a simple biomechanical reality: compression equals control, and space equals opportunity for movement.
+**Distance Control is the defensive principle of generating and managing the space between your body and an opponent's controlling position, using frames, hip movement, and bridging to turn compression into the room required to escape.**
+
+Few skills separate a calm, methodical defender from a panicking one as clearly as Distance Control, and it sits beneath virtually every escape sequence in Brazilian Jiu-Jitsu. Creating space is the prerequisite for recovering guard, changing positions, or executing technical stand-ups, which is why instructors drill shrimps and bridges from a practitioner's very first class. The principle operates on a simple biomechanical reality: compression equals control, and space equals opportunity for movement.
 
 At its core, Distance Control involves understanding how to use frames, hip movement, bridging mechanics, and timing to generate gaps in the opponent's pressure system. The concept is not merely about pushing away or using strength; rather, it requires sophisticated understanding of leverage points, weight distribution, and the opponent's base structure. Effective space creation exploits moments when the opponent's weight is transitioning, their base is compromised, or their grips are being adjusted.
 
@@ -386,6 +401,21 @@ Partner in top position is instructed to transition between different pressure a
 - [[Back Control]] (Position) - Critical defensive position where space creation prevents choking sequences
 - [[Bridge and Roll]] (Transition) - Explosive space creation technique from mount using bridging mechanics
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Standing-Defense-Strategy" data-cta="related-system-card" data-system-slug="systems/standing-defense-strategy" data-system-name="Standing Defense Strategy" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Standing Defense Strategy</span><span class="system-card__unlocks-badge">Unlocks 27 techniques</span><span class="system-card__blurb">Strategic principle for controlling engagement distance and creating separation</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Caio-Terra-Guard-Retention-System" data-cta="related-system-card" data-system-slug="systems/caio-terra-guard-retention-system" data-system-name="Caio Terra Guard Retention System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Caio Terra Guard Retention System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Foundational principle for controlling distance and preventing opponent position consolidation</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Back-Defense-Protocol" data-cta="related-system-card" data-system-slug="systems/back-defense-protocol" data-system-name="Back Defense Protocol" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Back Defense Protocol</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Core principle of generating room for escape movements</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Defensive-Prioritization-Framework" data-cta="related-system-card" data-system-slug="systems/defensive-prioritization-framework" data-system-name="Defensive Prioritization Framework" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Defensive Prioritization Framework</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Core defensive principle enabling escape execution throughout the framework</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Dynamic-Guard-System" data-cta="related-system-card" data-system-slug="systems/dynamic-guard-system" data-system-name="Dynamic Guard System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Dynamic Guard System</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Key principle for preventing pressure establishment and enabling guard recovery</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Self-Defense-Application-Framework" data-cta="related-system-card" data-system-slug="systems/self-defense-application-framework" data-system-name="Self-Defense Application Framework" data-member-count="18"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Self-Defense Application Framework</span><span class="system-card__unlocks-badge">Unlocks 18 techniques</span><span class="system-card__blurb">Essential principle for managing distance and creating escape opportunities</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

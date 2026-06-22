@@ -10,6 +10,41 @@ description: "Master the Posture Up escape from Gogoplata Control in BJJ. Learn 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Posture Up from Gogoplata",
+  "description": "Master the Posture Up escape from Gogoplata Control in BJJ. Learn systematic head extraction, posture recovery mechanics, and safe escape to open guard.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Posture Up from Gogoplata", "item": "https://bjjgraph.org/Transitions/Posture-Up-from-Gogoplata" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Posture Up from Gogoplata",
+  "description": "Posture Up from Gogoplata is the trapped top player's structured escape from gogoplata control, displacing the foot anchored behind the head and driving the hips back to relieve shin pressure and recover open guard top.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Posture Up escape from Gogoplata Control in BJJ. Learn 
 </div>
 
 <section id="overview" class="content-section">
+
+**Posture Up from Gogoplata is the trapped top player's structured escape from gogoplata control, displacing the foot anchored behind the head and driving the hips back to relieve shin pressure and recover open guard top.**
 
 The Posture Up from Gogoplata is a critical escape technique executed by the top player caught in gogoplata control. When an opponent establishes their shin across the throat with their foot locked behind the head, the trapped player must systematically recover posture to extract from this submission-control hybrid position. The technique requires careful management of choke pressure while methodically creating space to remove the head from the closed-loop configuration that makes gogoplata uniquely difficult to escape.
 
@@ -224,5 +261,7 @@ The Posture Up from Gogoplata integrates into the broader defensive framework ag
 
 
 </section>
+
+
 
 </main>

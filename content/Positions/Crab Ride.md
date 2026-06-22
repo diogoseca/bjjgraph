@@ -10,6 +10,41 @@ description: "Master Crab Ride position in BJJ. Strategic guide covering turtle 
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Crab Ride",
+  "description": "Master Crab Ride position in BJJ. Strategic guide covering turtle attack entries, back control pathways, and submission setups with complete perspective analysis.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Crab Ride", "item": "https://bjjgraph.org/Positions/Crab-Ride" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Crab Ride",
+  "description": "Crab Ride is a turtle-attacking position where the top player rides perpendicular to the opponent's spine with a single asymmetric hook under the near hip, using that one-sided control as a high-tempo gateway to back control, crucifix, and front-headlock chokes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master Crab Ride position in BJJ. Strategic guide covering turtle 
 
 <section id="overview" class="content-section">
 
-Crab Ride is a highly effective transitional position from turtle where the top practitioner establishes a dominant perpendicular control position alongside the opponent's torso. This position serves as a critical gateway to back control, allowing the top player to systematically break down the turtle defense while maintaining offensive pressure. The position derives its name from the crab-like lateral positioning, where the attacking practitioner sits perpendicular to their opponent with hooks established and weight distributed to prevent escape. From this configuration, the top player can attack the back, threaten submissions, or force positional improvements while the bottom player struggles with limited mobility and defensive options.
+**Crab Ride is a turtle-attacking position where the top player rides perpendicular to the opponent's spine with a single asymmetric hook under the near hip, using that one-sided control as a high-tempo gateway to back control, crucifix, and front-headlock chokes.**
+
+Sitting at the heart of the modern turtle-attack game, Crab Ride lets the top player systematically dismantle a defensive turtle while preserving multiple finishing paths. The attacker establishes a dominant perpendicular control position alongside the opponent's torso, serving as a critical gateway to back control while maintaining offensive pressure. The position derives its name from the crab-like lateral positioning, where the attacking practitioner sits perpendicular to their opponent with hooks established and weight distributed to prevent escape. From this configuration, the top player can attack the back, threaten submissions, or force positional improvements while the bottom player struggles with limited mobility and defensive options.
 
 Crab Ride represents one of the most systematic approaches to attacking turtle, particularly valued in modern no-gi grappling where turtle positions are commonly encountered during scrambles and guard passing sequences. The position allows for excellent control while preserving multiple offensive pathways, creating the type of positional dilemma that forces opponents into defensive errors. Unlike direct back attacks that can be telegraphed, Crab Ride provides a methodical framework for breaking down turtle defense through calculated pressure and strategic hooking.
 
@@ -250,6 +287,16 @@ From the defensive perspective, Crab Ride Bottom is a high-pressure situation th
 
 - **[[Positions/Front Headlock]]** - Alternative turtle attack position
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Danaher Straight Jacket System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Transitional control position used to attack turtle and establish initial back control entry</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

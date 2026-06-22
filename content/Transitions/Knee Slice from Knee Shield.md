@@ -10,6 +10,41 @@ description: "Master the knee slice pass from knee shield half guard. Expert gui
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Knee Slice from Knee Shield",
+  "description": "Master the knee slice pass from knee shield half guard. Expert guide to defeating the knee shield frame, driving through, and finishing the pass to side control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Knee Slice from Knee Shield", "item": "https://bjjgraph.org/Transitions/Knee-Slice-from-Knee-Shield" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Knee Slice from Knee Shield",
+  "description": "The knee slice from knee shield is a half guard pass where the top player neutralizes the opponent's shin barrier with crossface and ankle control, then drives the knee diagonally across the thigh to reach side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the knee slice pass from knee shield half guard. Expert gui
 
 <section id="overview" class="content-section">
 
-The knee slice from knee shield is one of the most essential guard passing techniques in modern Brazilian Jiu-Jitsu, specifically addressing the challenge of defeating an active knee shield frame before completing the pass to side control. Unlike the standard knee slice from flat half guard where the passer can immediately drive the knee through, this variation demands that the passer first neutralize the defensive barrier created by the opponent's shin across their torso. The technique requires precise sequencing—establishing upper body control through crossface pressure, systematically collapsing or redirecting the knee shield by controlling the ankle, then driving the passing knee diagonally across the opponent's thigh line while maintaining relentless forward pressure.
+**The knee slice from knee shield is a half guard pass where the top player neutralizes the opponent's shin barrier with crossface and ankle control, then drives the knee diagonally across the thigh to reach side control.**
+
+Among modern guard-passing systems, the knee slice from knee shield occupies a central role because it directly answers the most common defensive half guard structure a passer encounters at intermediate and advanced levels. Unlike the standard knee slice from flat half guard where the passer can immediately drive the knee through, this variation demands that the passer first neutralize the defensive barrier created by the opponent's shin across their torso. The technique requires precise sequencing—establishing upper body control through crossface pressure, systematically collapsing or redirecting the knee shield by controlling the ankle, then driving the passing knee diagonally across the opponent's thigh line while maintaining relentless forward pressure.
 
 The pass works by converting the opponent's horizontal shin frame into a manageable position that can be bypassed, typically by controlling the shield leg ankle and pinning it to the mat before initiating the slice. The crossface serves dual purpose: it prevents the bottom player from turning into the passer to establish an underhook, and it creates uncomfortable pressure that forces defensive reactions which open passing lanes. The diagonal knee drive is critical—the knee travels across the opponent's thigh at approximately 45 degrees rather than straight down, which prevents the bottom player from simply re-inserting their shield.
 
@@ -226,5 +263,7 @@ The knee slice from knee shield is a critical link in the guard passing chain, c
 
 
 </section>
+
+
 
 </main>

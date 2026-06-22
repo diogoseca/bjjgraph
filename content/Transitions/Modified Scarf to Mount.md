@@ -10,6 +10,41 @@ description: "Master the Modified Scarf Hold to Mount transition in BJJ. Learn w
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Modified Scarf to Mount",
+  "description": "Master the Modified Scarf Hold to Mount transition in BJJ. Learn weight transfer, leg clearance timing, and pressure maintenance to secure full mount control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Modified Scarf to Mount", "item": "https://bjjgraph.org/Transitions/Modified-Scarf-to-Mount" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Modified Scarf to Mount",
+  "description": "Modified Scarf to Mount is a top-position advancement that swings the free leg over a pinned opponent to convert Modified Scarf Hold into full Mount, trading lateral chest pressure for the highest-scoring control position while keeping crossface and near-arm control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Modified Scarf Hold to Mount transition in BJJ. Learn w
 </div>
 
 <section id="overview" class="content-section">
+
+**Modified Scarf to Mount is a top-position advancement that swings the free leg over a pinned opponent to convert Modified Scarf Hold into full Mount, trading lateral chest pressure for the highest-scoring control position while keeping crossface and near-arm control.**
 
 The Modified Scarf Hold to Mount transition converts one of the strongest side-control-family pins into the highest-scoring position in Brazilian Jiu-Jitsu. This advancement exploits Modified Scarf Hold's unique geometry—chest-to-chest pressure with near arm control and heavy head positioning—to create the conditions for a leg clearance into full mount. The fundamental challenge lies in maintaining pressure continuity during the positional shift, as the moment the top player lifts or repositions to swing the leg over creates a window for knee insertion and guard recovery.
 
@@ -222,5 +259,7 @@ This transition occupies a critical node in the top-position advancement hierarc
 
 
 </section>
+
+
 
 </main>

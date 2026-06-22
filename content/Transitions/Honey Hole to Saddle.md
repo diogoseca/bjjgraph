@@ -10,6 +10,41 @@ description: "Master the Honey Hole to Saddle transition in BJJ. Refine leg enta
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Honey Hole to Saddle",
+  "description": "Master the Honey Hole to Saddle transition in BJJ. Refine leg entanglement control through hip repositioning and alignment for optimal submission access.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Honey Hole to Saddle", "item": "https://bjjgraph.org/Transitions/Honey-Hole-to-Saddle" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Honey Hole to Saddle",
+  "description": "The Honey Hole to Saddle transition is an intra-system leg-entanglement upgrade where the attacker reconfigures hip angle, inside leg triangle, and perpendicular alignment to convert a loose inside-sankaku catch into the fully optimized Saddle finishing platform.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Honey Hole to Saddle transition in BJJ. Refine leg enta
 </div>
 
 <section id="overview" class="content-section">
+
+**The Honey Hole to Saddle transition is an intra-system leg-entanglement upgrade where the attacker reconfigures hip angle, inside leg triangle, and perpendicular alignment to convert a loose inside-sankaku catch into the fully optimized Saddle finishing platform.**
 
 The Honey Hole to Saddle transition represents a critical positional optimization within the modern leg lock system. While both positions share the same fundamental inside leg entanglement architecture, the distinction lies in the degree of control consolidation and perpendicular alignment achieved. The Honey Hole describes the initial catch where the inside triangle is secured but hip pressure, body angle, and grip hierarchy may not yet be fully optimized. The Saddle represents the refined dominant configuration where perpendicular alignment is maximized, hip pressure pins the opponent completely, and the submission dilemma framework is fully operational.
 
@@ -224,5 +261,7 @@ The Honey Hole to Saddle transition occupies a unique position within the leg lo
 
 
 </section>
+
+
 
 </main>

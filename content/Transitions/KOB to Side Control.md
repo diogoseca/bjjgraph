@@ -10,6 +10,41 @@ description: "Master the KOB to Side Control transition in BJJ. Learn to consoli
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "KOB to Side Control",
+  "description": "Master the KOB to Side Control transition in BJJ. Learn to consolidate from knee on belly into stable side control while denying guard recovery attempts.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "KOB to Side Control", "item": "https://bjjgraph.org/Transitions/KOB-to-Side-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "KOB to Side Control",
+  "description": "KOB to Side Control is a top-game consolidation transition where the player deliberately drops from the mobile knee-on-belly pin into stable chest-to-chest side control, trading dynamic pressure for a sustainable platform while denying guard recovery during the knee drop.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the KOB to Side Control transition in BJJ. Learn to consoli
 </div>
 
 <section id="overview" class="content-section">
+
+**KOB to Side Control is a top-game consolidation transition where the player deliberately drops from the mobile knee-on-belly pin into stable chest-to-chest side control, trading dynamic pressure for a sustainable platform while denying guard recovery during the knee drop.**
 
 The KOB to Side Control transition is a fundamental consolidation movement where the top player deliberately drops from Knee on Belly into a crossface side control position. While Knee on Belly offers dynamic attacking potential and scoring opportunities, there are strategic moments when returning to side control provides superior positional stability and access to different submission chains. This transition occurs most frequently when the bottom player's defensive activity — framing against the knee, shrimping, or attempting sit-up escapes — compromises the top player's ability to maintain effective KOB pressure.
 
@@ -214,5 +251,7 @@ KOB to Side Control functions as a key link in the top pressure cycling system t
 
 
 </section>
+
+
 
 </main>

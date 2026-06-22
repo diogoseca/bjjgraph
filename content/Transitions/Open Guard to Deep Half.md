@@ -10,6 +10,41 @@ description: "Learn Open Guard to Deep Half transition in BJJ. Step-by-step exec
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Open Guard to Deep Half",
+  "description": "Learn Open Guard to Deep Half transition in BJJ. Step-by-step execution from Open Guard Bottom to Deep Half Guard with sweep setups and timing.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Open Guard to Deep Half", "item": "https://bjjgraph.org/Transitions/Open-Guard-to-Deep-Half" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Open Guard to Deep Half",
+  "description": "Open Guard to Deep Half is a bottom-player guard recovery where you dive your head and shoulders beneath a passing opponent's hips, secure a deep underhook on the far leg, and immediately flow into a sweep.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Learn Open Guard to Deep Half transition in BJJ. Step-by-step exec
 </div>
 
 <section id="overview" class="content-section">
+
+**Open Guard to Deep Half is a bottom-player guard recovery where you dive your head and shoulders beneath a passing opponent's hips, secure a deep underhook on the far leg, and immediately flow into a sweep.**
 
 The transition from Open Guard to Deep Half represents a strategic guard recovery sequence that transforms defensive situations into powerful offensive opportunities. This technique is particularly valuable when facing aggressive standing or passing pressure from top position, allowing the bottom player to dive underneath their opponent's center of gravity and establish the deep half guard structure. The deep half position provides excellent sweeping mechanics while simultaneously nullifying many common passing strategies.
 
@@ -231,5 +268,7 @@ The open guard to deep half transition represents a critical component of modern
 
 
 </section>
+
+
 
 </main>

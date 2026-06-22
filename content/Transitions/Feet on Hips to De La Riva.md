@@ -10,6 +10,41 @@ description: "Master the feet on hips to De La Riva guard transition in BJJ. Com
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Feet on Hips to De La Riva",
+  "description": "Master the feet on hips to De La Riva guard transition in BJJ. Complete guide covering DLR hook threading, grip transfers, and optimal timing for guard changes.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Feet on Hips to De La Riva", "item": "https://bjjgraph.org/Transitions/Feet-on-Hips-to-De-La-Riva" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Feet on Hips to De La Riva",
+  "description": "Feet on Hips to De La Riva is an open-guard transition where the bottom player threads one foot off the opponent's hip into a De La Riva hook behind their lead leg, converting distance management into an angular, sweep-ready control system.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the feet on hips to De La Riva guard transition in BJJ. Com
 </div>
 
 <section id="overview" class="content-section">
+
+**Feet on Hips to De La Riva is an open-guard transition where the bottom player threads one foot off the opponent's hip into a De La Riva hook behind their lead leg, converting distance management into an angular, sweep-ready control system.**
 
 The Feet on Hips to De La Riva transition represents one of the most fundamental guard upgrades in modern open guard play, converting a basic distance-management position into a sophisticated attacking platform. When the bottom player has feet on the opponent's hips, they maintain excellent distance control but lack the angular leverage and sweeping power that characterizes advanced guard systems. By threading a De La Riva hook behind the opponent's lead leg, the guard player transforms their relationship from a purely linear push-pull dynamic into a multi-directional control system that disrupts the passer's base and opens pathways to sweeps, back takes, and leg entanglements.
 
@@ -224,5 +261,7 @@ The Feet on Hips to De La Riva transition occupies a critical junction in the op
 
 
 </section>
+
+
 
 </main>

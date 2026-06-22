@@ -2,7 +2,12 @@
   "name": "Back Control",
   "slug": "back-control",
   "description": "Master back control in BJJ. Complete guide to hooks, harness grip, body triangle, submissions, and escapes from this dominant 4-point scoring position.",
+  "aliases": [
+    "Back Mount",
+    "Rear Mount"
+  ],
   "variant_uniqueness": "Highest submission rate, lowest risk",
+  "summary": "Back Control is the dominant rear position in BJJ where you attack an opponent from behind using leg hooks or a body triangle plus a harness grip, delivering the sport's highest submission rate at minimal defensive risk.",
   "overview": "Back Control is widely considered the most dominant position in Brazilian Jiu-Jitsu. The practitioner controls the opponent from behind, with their chest against the opponent's back, legs wrapped around their waist (hooks), and arms controlling the upper body. This position offers exceptional attacking opportunities with minimal defensive risks, as the opponent cannot directly see or easily counter the attacks. The position scores 4 points in IBJJF competition and provides the highest percentage submission opportunities in grappling.\n\nFrom back control, the top practitioner maintains a significant positional advantage through multiple control mechanisms: leg hooks or body triangle for hip control, harness grip or seatbelt for upper body control, and constant chest-to-back connection for weight distribution. The opponent's inability to face their attacker creates a psychological and tactical disadvantage, making back control the premier position for finishing matches via submission. This position represents the culmination of positional dominance in BJJ, where control and submission threat reach their maximum potential.\n\nThe position can be established from numerous positions including turtle, mount, side control, and various guard positions, making it a central focus of positional progression in competition and training. The control hierarchy operates on three levels: leg hooks or body triangle provide the foundation by controlling the opponent's hips and preventing rotation, the harness grip or seatbelt dominates the upper body by limiting arm movement, and the chest-to-back connection distributes weight and creates the cooking effect that drains the opponent's energy faster than your own. Understanding these three layers and how they reinforce each other is what separates effective back controllers from practitioners who take the back but cannot maintain or finish from the position.\n\nBack control variations include the standard hooks configuration, body triangle for enhanced hip control and pressure, seatbelt-specific grips for systematic upper body management, and standing back control for takedown sequences. Each variation offers different strategic trade-offs between control stability, submission accessibility, and energy expenditure. The position integrates tightly with the broader submission system through rear naked choke as the primary finishing threat, bow and arrow choke as the premier gi-based attack, armbar transitions when opponents over-defend the neck, and crucifix entries when both arms can be trapped. This interconnected attack web forces opponents into defensive dilemmas where protecting against one threat exposes vulnerability to another.",
   "key_principles": [
     "Chest-to-back connection with constant forward pressure prevents opponent from creating escape distance or turning to face you",
@@ -92,47 +97,47 @@
     "transitions": [
       {
         "transition": "Rear Naked Choke from Back Control",
-        "attempt_probability": 49
+        "attempt_probability": 43
       },
       {
         "transition": "Back Control Maintenance",
-        "attempt_probability": 16
+        "attempt_probability": 14
       },
       {
         "transition": "Bow and Arrow Choke from Back Control",
-        "attempt_probability": 6
+        "attempt_probability": 5
       },
       {
         "transition": "Gift Wrap from Back",
-        "attempt_probability": 4
+        "attempt_probability": 3
       },
       {
         "transition": "Armbar from Back Transition",
-        "attempt_probability": 7
+        "attempt_probability": 6
       },
       {
         "transition": "Body Triangle Lock",
-        "attempt_probability": 2
+        "attempt_probability": 1
       },
       {
         "transition": "Back Control to Crucifix",
-        "attempt_probability": 2
+        "attempt_probability": 1
       },
       {
         "transition": "Short Choke Attack",
-        "attempt_probability": 1
+        "attempt_probability": 2
       },
       {
         "transition": "Armbar on Free Arm",
-        "attempt_probability": 1
+        "attempt_probability": 2
       },
       {
         "transition": "Rear Naked Choke Setup",
-        "attempt_probability": 1
+        "attempt_probability": 2
       },
       {
         "transition": "Kimura from Back",
-        "attempt_probability": 1
+        "attempt_probability": 2
       },
       {
         "transition": "Triangle from Back",
@@ -168,7 +173,23 @@
       },
       {
         "transition": "Rear Triangle Choke",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Armbar from Back",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Armbar from Back with Legs",
         "attempt_probability": 2
+      },
+      {
+        "transition": "Rear Triangle Choke from Back Control",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Short Choke from Back Control",
+        "attempt_probability": 1
       }
     ],
     "decision_tree": [

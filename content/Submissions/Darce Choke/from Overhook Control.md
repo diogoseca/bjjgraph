@@ -10,10 +10,55 @@ description: "Master the Darce Choke from Overhook Control with expert finishing
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Darce Choke from Overhook Control targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to unconsciousness. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Darce Choke from Overhook Control",
+  "description": "Master the Darce Choke from Overhook Control with expert finishing mechanics, defensive strategies, and training progressions for this arm triangle variant.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Darce Choke from Overhook Control", "item": "https://bjjgraph.org/Submissions/Darce-Choke-from-Overhook-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Darce Choke from Overhook Control",
+  "description": "The Darce Choke from Overhook Control is a no-gi arm-triangle blood choke in which the attacker converts an existing overhook into a figure-four grip beneath the opponent's neck, compressing both carotid arteries against the opponent's own trapped shoulder.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Darce Choke from Overhook Control is a no-gi arm-triangle blood choke in which the attacker converts an existing overhook into a figure-four grip beneath the opponent's neck, compressing both carotid arteries against the opponent's own trapped shoulder.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries and trachea</span>
+<span class="meta-chip">62% success</span>
+</div>
+
+> [!danger] Safety
+> Darce Choke from Overhook Control targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to unconsciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,56 +75,7 @@ The mechanics from overhook control differ from other Darce entries because the 
 
 Finishing from overhook control requires attention to body angle and hip position. Once the figure-four is locked, sprawl your hips away from the opponent while pulling their trapped arm and head toward your chest. The combination of shoulder pressure driving down and hip sprawl creating extension produces the arterial compression that forces the tap. Competition data shows this entry ranks among the highest-percentage Darce setups because the overhook pre-loads the arm isolation that other entries must fight to establish.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries and trachea
-**Starting Position**: [[Positions/Overhook Control]]
-**From Position**: [[Positions/Overhook Control]] (Top)
-**Success Rate**: 62%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Carotid artery compression leading to unconsciousness | CRITICAL | Immediate if released; prolonged compression can cause stroke |
-| Neck muscle strain from improper resistance | Medium | 7-14 days |
-| Shoulder impingement from trapped arm position | Medium | 5-10 days |
-| Tracheal compression if applied incorrectly | High | 14-21 days with medical attention |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow tap recognition
-
-**Tap Signals**:
-- Verbal tap (say 'tap' or 'stop')
-- Physical hand tap on partner's body
-- Physical foot tap on mat
-- Any distress signal or loss of resistance
-- Unconscious body going limp (IMMEDIATE RELEASE)
-
-
-**Release Protocol**:
-1. Immediately unclasp hands and release figure-four grip
-2. Remove shoulder pressure from neck first
-3. Extract choking arm slowly to avoid neck jerk
-4. Allow partner to recover in seated or supine position
-5. Monitor for 30+ seconds for dizziness or disorientation
-6. If unconsciousness occurred, keep airway clear and seek medical evaluation
-
-
-**Training Restrictions**:
-- Never apply full pressure in drilling - use positional control only
-- Never use competition speed or intensity in training
-- Always allow clear tap access with free hand
-- Never spike or jerk the choke - apply smooth progressive pressure
-- Stop immediately at any tap signal without waiting for confirmation
-- Never train this technique while fatigued or with impaired judgment
-
+**Starting Position**: [[Positions/Overhook Control]] · **From**: [[Positions/Overhook Control]] (Top)
 
 </section>
 
@@ -242,41 +238,66 @@ Finishing from overhook control requires attention to body angle and hip positio
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Transitions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
 - [[Transitions/Arm Triangle]]
 - [[Submissions/Japanese Necktie]]
 - [[Submissions/High Elbow Guillotine]]
 - [[Submissions/Brabo Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Overhook Control]] - Starting position providing the arm isolation needed for Darce entry
 - [[Positions/Darce Control]] - Control position established once the figure-four grip is secured
 - [[Positions/Front Headlock]] - Alternative control position accessible from the same overhook setup
 - [[Positions/Back Control]] - Alternative advancement target when Darce entry is not available from overhook
-- [[Transitions/Anaconda Choke]] - Related head-and-arm choke variant using opposite arm threading direction
+
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Carotid artery compression leading to unconsciousness | CRITICAL | Immediate if released; prolonged compression can cause stroke |
+| Neck muscle strain from improper resistance | Medium | 7-14 days |
+| Shoulder impingement from trapped arm position | Medium | 5-10 days |
+| Tracheal compression if applied incorrectly | High | 14-21 days with medical attention |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow tap recognition
+
+**Tap Signals**:
+- Verbal tap (say 'tap' or 'stop')
+- Physical hand tap on partner's body
+- Physical foot tap on mat
+- Any distress signal or loss of resistance
+- Unconscious body going limp (IMMEDIATE RELEASE)
+
+
+**Release Protocol**:
+1. Immediately unclasp hands and release figure-four grip
+2. Remove shoulder pressure from neck first
+3. Extract choking arm slowly to avoid neck jerk
+4. Allow partner to recover in seated or supine position
+5. Monitor for 30+ seconds for dizziness or disorientation
+6. If unconsciousness occurred, keep airway clear and seek medical evaluation
+
+
+**Training Restrictions**:
+- Never apply full pressure in drilling - use positional control only
+- Never use competition speed or intensity in training
+- Always allow clear tap access with free hand
+- Never spike or jerk the choke - apply smooth progressive pressure
+- Stop immediately at any tap signal without waiting for confirmation
+- Never train this technique while fatigued or with impaired judgment
 
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Darce Choke from Overhook Control leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

@@ -10,6 +10,41 @@ description: "Learn Standing to Single Leg X transition in BJJ. Step-by-step ent
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Standing to Single Leg X",
+  "description": "Learn Standing to Single Leg X transition in BJJ. Step-by-step entry from standing to leg entanglement with sweeps and leg lock setups for all skill levels.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Standing to Single Leg X", "item": "https://bjjgraph.org/Transitions/Standing-to-Single-Leg-X" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Standing to Single Leg X",
+  "description": "Standing to Single Leg X is a guard-pull entry where the bottom player drops beneath the opponent's lead leg from standing and wraps it in a Single Leg X (Ashi) hook, landing directly in a sweep- and leg-lock-ready entanglement.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Learn Standing to Single Leg X transition in BJJ. Step-by-step ent
 </div>
 
 <section id="overview" class="content-section">
+
+**Standing to Single Leg X is a guard-pull entry where the bottom player drops beneath the opponent's lead leg from standing and wraps it in a Single Leg X (Ashi) hook, landing directly in a sweep- and leg-lock-ready entanglement.**
 
 The Standing to Single Leg X transition is a fundamental guard pull entry that converts standing engagement into a powerful leg entanglement position. This technique allows the bottom player to bypass traditional guard establishment and immediately threaten sweeps and leg attacks from a mechanically advantageous position. The Single Leg X position provides superior control of one leg while maintaining distance management and sweep opportunities. Unlike traditional seated guard pulls, this entry creates immediate offensive pressure by compromising the opponent's base and posture simultaneously. The technique is particularly effective in no-gi grappling and modern sport BJJ competition, where dynamic guard pulling has become essential. Success depends on timing the entry during opponent movement, maintaining proper body positioning throughout the transition, and securing critical grips before the opponent can establish defensive posture. The entry functions as a gateway to the entire modern leg entanglement system, connecting standing exchanges directly to Ashi Garami variants, X-Guard sweeps, and direct submission threats like the Straight Ankle Lock.
 
@@ -213,13 +250,7 @@ The Standing to Single Leg X transition occupies a critical position in modern B
 
 - [[Transitions/Ankle Pick Sweep]] - Alternative technique - backup entry if hook is denied
 
-- [[Transitions/Shin to Shin Pull]] - Related entry - alternative standing to ground transition
-
 - [[Transitions/Guard Pull]] - Category technique - general guard pulling principles
-
-- [[Transitions/Tripod Sweep]] - Alternative sweep - available from similar leg positioning
-
-- [[Transitions/Sickle Sweep]] - Related sweep - similar leg control mechanics
 
 - [[Submissions/Straight Ankle Lock]] - Submission option - direct finish from established SLX
 
@@ -229,5 +260,7 @@ The Standing to Single Leg X transition occupies a critical position in modern B
 
 
 </section>
+
+
 
 </main>

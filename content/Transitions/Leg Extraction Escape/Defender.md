@@ -205,7 +205,7 @@ The fundamental defensive strategy centers on maintaining hip elevation and foot
 ### 2. Transition to triangle by switching the choking leg over the opponent's shoulder and locking ankles as they move their head laterally
 
 - **When to use**: When the opponent has partially extracted their head laterally and the shin is sliding off the throat but their posture is still broken
-- **Targets**: [[Positions/Gogoplata Control]]
+- **Targets**: [[Positions/Triangle Control]]
 - **If successful**: Opponent is caught in triangle control, converting their escape attempt into a new submission threat from a stronger position
 - **Risk**: If triangle lock is not secured quickly, opponent may posture up and escape both gogoplata and triangle attempt
 
@@ -237,7 +237,7 @@ The fundamental defensive strategy centers on maintaining hip elevation and foot
 
 Maintain hip elevation and foot depth throughout the opponent's extraction attempt by actively pulling the foot deeper and fighting their hip control with core engagement. Each failed escape attempt increases their fatigue and panic, making the submission finish more likely on subsequent attempts.
 
-### → [[Positions/Gogoplata Control]]
+### → [[Positions/Triangle Control]]
 
 When the escape partially succeeds and the shin slides off the throat, immediately transition to triangle by bringing the opposite leg over the opponent's shoulder. Their lateral head movement during extraction creates the angle needed for triangle entry. Alternatively, if they turn away, redirect to omoplata by controlling their arm across your hip.
 

@@ -10,6 +10,41 @@ description: "Master the Ashi Entry from Leg Entanglement in BJJ. Learn systemat
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Ashi Entry from Leg Entanglement",
+  "description": "Master the Ashi Entry from Leg Entanglement in BJJ. Learn systematic transitions to Inside Ashi-Garami with heel control, hip positioning, and attack chains.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Ashi Entry from Leg Entanglement", "item": "https://bjjgraph.org/Transitions/Ashi-Entry-from-Leg-Entanglement" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Ashi Entry from Leg Entanglement",
+  "description": "The Ashi Entry from Leg Entanglement is a positional transition that converts a loose or neutral leg entanglement into structured Inside Ashi-Garami by threading the inside leg across the opponent's hip and hooking the outside leg behind their knee.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Ashi Entry from Leg Entanglement in BJJ. Learn systemat
 </div>
 
 <section id="overview" class="content-section">
+
+**The Ashi Entry from Leg Entanglement is a positional transition that converts a loose or neutral leg entanglement into structured Inside Ashi-Garami by threading the inside leg across the opponent's hip and hooking the outside leg behind their knee.**
 
 The Ashi Entry from Leg Entanglement is a fundamental positional advancement within modern leg lock systems, converting a general or neutral leg entanglement into the structured Inside Ashi-Garami configuration. This transition bridges the gap between chaotic scramble-like leg exchanges and organized submission attacking by establishing the specific two-point leg control that defines Inside Ashi-Garami: inside leg across the opponent's hip and outside leg hooking behind their knee. Without this entry skill, practitioners remain stuck in loose entanglements where neither player has meaningful offensive advantage.
 
@@ -220,6 +257,16 @@ The Ashi Entry from Leg Entanglement occupies a critical junction in the modern 
 
 - [[Positions/Ashi Garami/Honey Hole]] - Advanced dominant position accessible from Inside Ashi-Garami after completing entry
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Lachlan-Giles-Leg-Lock-Defense-Framework" data-cta="related-system-card" data-system-slug="systems/lachlan-giles-leg-lock-defense-framework" data-system-name="Lachlan Giles Leg Lock Defense Framework" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Lachlan Giles Leg Lock Defense Framework</span><span class="system-card__unlocks-badge">Unlocks 26 techniques</span><span class="system-card__blurb">Common transition pathway creating leg entanglement opportunities that must be recognized and defended</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

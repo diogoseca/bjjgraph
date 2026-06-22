@@ -11,6 +11,7 @@
     "pressure-passing",
     "side-control"
   ],
+  "summary": "The Knee Slide from Combat Base is a high-percentage pressure guard pass where the top player drives the lead knee diagonally across the opponent's trapped thigh while controlling the upper body with a crossface, cutting through to side control.",
   "from_position": "Combat Base/Top",
   "outcomes": [
     {
@@ -30,7 +31,7 @@
     }
   ],
   "success_rate": 55,
-  "overview": "The Knee Slide from Combat Base—also known as the knee cut—is one of the highest-percentage guard passes in Brazilian Jiu-Jitsu. Initiated from combat base, this technique involves driving the lead knee diagonally across the opponent's thigh line while simultaneously controlling their upper body with crossface and underhook grips. The cutting angle of the knee, combined with forward hip pressure, creates a passing force that separates the opponent's legs and opens a direct path to side control.\n\nThe strategic value of this pass lies in its versatility and reliability across all levels of competition. Unlike speed-based passes that rely on narrow timing windows, the knee slide uses methodical pressure and upper body control to systematically dismantle guard structures. The technique works equally well in gi and no-gi, though grip variations differ. In the gi, collar and lapel grips provide additional control points, while no-gi relies more heavily on underhook position and head control through the crossface.\n\nThe knee slide integrates seamlessly into broader passing systems. When opponents defend the initial knee cut, natural chain reactions open pathways to long step passes, leg drags, or headquarters transitions. This creates a dilemma-based passing game where defending one threat exposes vulnerability to another. Mastery of the knee slide from combat base is considered a foundational skill for developing an effective top game and serves as the entry point for understanding pressure-passing mechanics that apply across all guard passing scenarios.",
+  "overview": "Regarded as one of the highest-percentage guard passes in Brazilian Jiu-Jitsu, the Knee Slide from Combat Base—also called the knee cut—earns its reputation through methodical pressure rather than speed. The cutting angle of the lead knee, combined with forward hip pressure and tight crossface control, creates a passing force that separates the opponent's legs and opens a direct path to side control, making it equally reliable for beginners and elite competitors.\n\nThe strategic value of this pass lies in its versatility and reliability across all levels of competition. Unlike speed-based passes that rely on narrow timing windows, the knee slide uses methodical pressure and upper body control to systematically dismantle guard structures. The technique works equally well in gi and no-gi, though grip variations differ. In the gi, collar and lapel grips provide additional control points, while no-gi relies more heavily on underhook position and head control through the crossface.\n\nThe knee slide integrates seamlessly into broader passing systems. When opponents defend the initial knee cut, natural chain reactions open pathways to long step passes, leg drags, or headquarters transitions. This creates a dilemma-based passing game where defending one threat exposes vulnerability to another. Mastery of the knee slide from combat base is considered a foundational skill for developing an effective top game and serves as the entry point for understanding pressure-passing mechanics that apply across all guard passing scenarios.",
   "conditions": [
     "Established combat base with one knee posted and opposite foot planted flat on the mat",
     "Opponent's closed guard has been opened or position entered from open guard engagement",
@@ -253,6 +254,10 @@
         "answer": "The knee should drive diagonally at approximately 45 degrees across the opponent's thigh, cutting from the inside hip toward the mat on the far side. A straight-down angle stalls against the thigh and allows the opponent to insert a knee shield. The diagonal path uses your hip weight to separate their legs while your crossface prevents them from following the direction of your cut."
       },
       {
+        "question": "What entry conditions must exist before you commit to the knee slide from combat base?",
+        "answer": "You need a stable combat base with one knee posted and the opposite foot planted flat, the opponent's near-side hip accessible without a strong knee shield or frame blocking the cutting path, and at least one controlling grip on their upper or lower body. Critically, you must have a forward angle that lets the lead knee drive diagonally across the thigh rather than straight down—attempting the cut without these prerequisites lets the opponent insert a frame and recover guard."
+      },
+      {
         "question": "Your opponent inserts a knee shield just as you begin the knee slide—how do you adjust your passing strategy?",
         "answer": "When the opponent inserts a knee shield, do not force the knee slide through the frame. Use your crossface shoulder pressure to flatten their shield knee toward the mat while shifting your hips to the opposite side. If the shield holds, transition to a smash pass by driving your shoulder into their knee shield and walking your hips around, or switch to a long step pass by stepping your lead leg over their shield to the far side."
       },
@@ -267,6 +272,10 @@
       {
         "question": "What is the most common timing window for initiating the knee slide from combat base?",
         "answer": "The optimal timing window occurs when the opponent is reacting to another threat—such as defending a grip break, recovering from a toreando feint, or adjusting their guard after a weight shift. The moment their attention and frames are occupied with one threat is when the knee slide cuts through most efficiently. Initiating the knee slide against a fully set, prepared guard with established frames significantly reduces the success rate."
+      },
+      {
+        "question": "What are the most common points where the knee slide fails, and how do you recognize them developing?",
+        "answer": "The pass most often fails at three points: before the cut when you initiate without crossface control and the opponent turns in; during the cut when you drive the knee straight down instead of diagonally and stall against the thigh; and after the cut when you lift your hips during trailing-leg extraction and create space for recovery. Recognize these by feeling the opponent win the underhook, your knee meeting resistance rather than sliding, or sudden space opening between your hips and theirs."
       },
       {
         "question": "How should you distribute your weight during each phase of the knee slide?",

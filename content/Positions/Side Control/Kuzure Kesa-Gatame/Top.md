@@ -21,7 +21,7 @@ description: "Offensive guide for controlling and attacking from modified scarf 
     {
       "@type": "HowToStep",
       "name": "Execute Americana from Kuzure Kesa-Gatame",
-      "text": "From this position, attempt Americana from Kuzure Kesa-Gatame. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Americana from Kuzure Kesa-Gatame. This technique is attempted in 10% of exchanges from this position.",
       "position": 1
     },
     {
@@ -39,13 +39,13 @@ description: "Offensive guide for controlling and attacking from modified scarf 
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to North-South",
-      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
@@ -362,5 +362,7 @@ Start with compliant partner, increase their resistance by 20% every minute unti
 
 
 </section>
+
+
 
 </main>

@@ -16,7 +16,7 @@ description: "How to execute Rolling Kimura Escape in BJJ. Complete guide to tim
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Rolling Kimura Escape in BJJ",
-  "description": "Step-by-step guide for executing Rolling Kimura Escape from Carni/Top.",
+  "description": "Step-by-step guide for executing Rolling Kimura Escape from Kimura Trap/Bottom.",
   "step": [
     {
       "@type": "HowToStep",
@@ -180,7 +180,7 @@ description: "How to execute Rolling Kimura Escape in BJJ. Complete guide to tim
 
 The Rolling Kimura Escape from the attacker (escaper) perspective requires mastery of forward rolling mechanics under the specific constraint of having one arm trapped in a figure-four shoulder lock. The escape works by rotating your entire body in the direction of the lock's force, temporarily relieving shoulder pressure and disrupting your opponent's control alignment. This is not a technique you force through strength but rather one you execute through precise timing and full commitment to the rolling motion. The key biomechanical insight is that your opponent's Kimura finishing mechanics require them to drive your wrist toward your spine along a specific angle. By rolling forward over your trapped shoulder, you change the geometric relationship between your shoulder, their grip, and the direction of force, creating a momentary window where the lock's pressure dissipates enough for you to reposition into guard. Success requires reading the exact moment when your opponent commits their weight forward for the finish, because this forward commitment is precisely what prevents them from following your roll.
 
-**From Position**: [[Positions/Rubber Guard/Carni]] (Top)
+**From Position**: [[Positions/Kimura Trap]] (Bottom)
 
 </section>
 
@@ -340,5 +340,7 @@ Continue practicing the rolling escape periodically (once per week minimum) to m
 The Rolling Kimura Escape is one of the highest-risk defensive techniques in Brazilian Jiu-Jitsu due to the combination of shoulder joint stress and dynamic rolling mechanics. This escape should ONLY be practiced with experienced training partners who understand the technique and can release pressure appropriately. Always ensure adequate mat space before attempting the roll. The technique requires complete commitment; hesitation mid-execution dramatically increases injury risk to both shoulder and neck. Practitioners with any shoulder injuries, instability, or previous dislocations should avoid this technique entirely and focus on alternative Kimura defenses. Never practice at full speed or pressure until rolling mechanics are mastered through hundreds of safe repetitions. Both partners must have clear communication and established tap protocols. If pressure increases rather than decreases during the escape, tap immediately. This technique is recommended only for advanced practitioners (purple belt and above) with excellent body awareness and significant mat experience.
 
 </section>
+
+
 
 </main>

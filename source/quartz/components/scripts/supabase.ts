@@ -20,7 +20,19 @@ declare global {
   interface Window {
     __SUPABASE_URL?: string
     __SUPABASE_ANON_KEY?: string
-    supabase?: { createClient: (url: string, key: string) => SupabaseClient }
+    supabase?: {
+      createClient: (url: string, key: string, options?: SupabaseClientOptions) => SupabaseClient
+    }
+  }
+}
+
+interface SupabaseClientOptions {
+  auth?: {
+    flowType?: "pkce" | "implicit"
+    autoRefreshToken?: boolean
+    persistSession?: boolean
+    detectSessionInUrl?: boolean
+    storageKey?: string
   }
 }
 
@@ -53,6 +65,10 @@ interface SupabaseQuery {
   update: (data: Record<string, unknown>) => SupabaseQuery
   eq: (column: string, value: unknown) => SupabaseQuery
   single: () => Promise<{ data: Record<string, unknown> | null; error: unknown }>
+  maybeSingle: () => Promise<{
+    data: Record<string, unknown> | null
+    error: { code?: string; message?: string } | null
+  }>
 }
 
 interface AuthResult {
@@ -97,8 +113,14 @@ let _syncTimeout: ReturnType<typeof setTimeout> | null = null
 let _syncing = false
 let _lastSyncTime = ""
 let _authListeners: AuthStateCallback[] = []
+let _syncRetryTimeout: ReturnType<typeof setTimeout> | null = null
+let _syncFailureCount = 0
+let _syncFailureNotified = false
+let _pulledThisSession = false
+let _onlineListenerWired = false
 
 const SYNC_DEBOUNCE_MS = 500
+const SYNC_RETRY_MAX_MS = 30000
 const STREAK_KEY = "bjj-streak"
 const LIFETIME_KEY = "bjj-lifetime-stats"
 const VOTES_KEY = "bjj-move-votes"
@@ -107,6 +129,15 @@ const VOTES_KEY = "bjj-move-votes"
 
 function isConfigured(): boolean {
   return !!(window.__SUPABASE_URL && window.__SUPABASE_ANON_KEY)
+}
+
+/** The localStorage key the Supabase SDK uses for the session. We pass this
+ * explicitly to createClient (equal to the SDK's historical default) so a
+ * future SDK default change can't silently move it, and isAuthenticated()
+ * reads this same single source of truth instead of re-deriving the shape. */
+function authStorageKey(): string {
+  const ref = (window.__SUPABASE_URL || "").replace("https://", "").split(".")[0]
+  return `sb-${ref}-auth-token`
 }
 
 function loadSDK(): Promise<void> {
@@ -130,10 +161,22 @@ async function getClient(): Promise<SupabaseClient> {
   if (_client) return _client
   if (!isConfigured()) throw new Error("Supabase not configured")
   await loadSDK()
-  _client = window.supabase!.createClient(window.__SUPABASE_URL!, window.__SUPABASE_ANON_KEY!)
+  // Explicit auth options so behaviour does not depend on SDK defaults that a
+  // CDN minor bump could change. detectSessionInUrl lets the SDK exchange the
+  // OAuth redirect code/token on client creation.
+  _client = window.supabase!.createClient(window.__SUPABASE_URL!, window.__SUPABASE_ANON_KEY!, {
+    auth: {
+      flowType: "pkce",
+      autoRefreshToken: true,
+      persistSession: true,
+      detectSessionInUrl: true,
+      storageKey: authStorageKey(),
+    },
+  })
 
   // Listen for auth state changes and notify listeners
   _client.auth.onAuthStateChange((event, session) => {
+    if (event === "SIGNED_OUT") _pulledThisSession = false
     const user = session?.user ?? null
     for (const cb of _authListeners) {
       try {
@@ -144,7 +187,23 @@ async function getClient(): Promise<SupabaseClient> {
     }
   })
 
+  wireOnlineRetry()
   return _client
+}
+
+/** Eagerly create the client on page load so the SDK can process an OAuth
+ * redirect (detectSessionInUrl) and the onAuthStateChange subscription is live
+ * even for currently signed-out users. Without this, the client is only created
+ * lazily behind an isAuthenticated() gate, so a Google redirect-back is never
+ * exchanged and sign-in silently never completes. Safe no-op when unconfigured
+ * or on SDK load failure. */
+export async function ensureClientInitialized(): Promise<void> {
+  if (!isConfigured()) return
+  try {
+    await getClient()
+  } catch (e) {
+    console.error("[supabase] client init failed:", e)
+  }
 }
 
 // ── Auth Functions ─────────────────────────────────────────────────────────────
@@ -227,10 +286,8 @@ export function onAuthChange(cb: AuthStateCallback) {
 export function isAuthenticated(): boolean {
   // Quick synchronous check — Supabase stores session in localStorage
   if (!isConfigured()) return false
-  const url = window.__SUPABASE_URL!
-  const ref = url.replace("https://", "").split(".")[0]
   try {
-    const raw = localStorage.getItem(`sb-${ref}-auth-token`)
+    const raw = localStorage.getItem(authStorageKey())
     if (!raw) return false
     const session = JSON.parse(raw)
     return !!session?.access_token
@@ -266,29 +323,81 @@ function gatherLocalData() {
   }
 }
 
+// ── Sync status (surface failures, retry with backoff) ──────────────────────────
+
+async function getUserId(client: SupabaseClient): Promise<string | null> {
+  // Local session read (no network round-trip); the SDK keeps it fresh via
+  // autoRefreshToken. Avoids a getUser() network call on every sync/nav.
+  const { data } = await client.auth.getSession()
+  return data.session?.user?.id ?? null
+}
+
+function markSyncSuccess() {
+  _syncFailureCount = 0
+  _syncFailureNotified = false
+  _lastSyncTime = new Date().toISOString()
+  if (_syncRetryTimeout) {
+    clearTimeout(_syncRetryTimeout)
+    _syncRetryTimeout = null
+  }
+}
+
+function markSyncFailure() {
+  // Surface once per failure streak so the user knows sync is paused, then
+  // retry with exponential backoff instead of silently diverging from cloud.
+  if (!_syncFailureNotified) {
+    _syncFailureNotified = true
+    ;(window as any).showSnackbar?.({
+      message: "Sync paused — changes are saved on this device",
+      type: "info",
+    })
+  }
+  scheduleSyncRetry()
+}
+
+function scheduleSyncRetry() {
+  if (_syncRetryTimeout) return
+  const delay = Math.min(SYNC_RETRY_MAX_MS, 1000 * 2 ** Math.min(_syncFailureCount, 5))
+  _syncFailureCount++
+  _syncRetryTimeout = setTimeout(() => {
+    _syncRetryTimeout = null
+    if (isAuthenticated()) void pushToCloud()
+  }, delay)
+}
+
+function wireOnlineRetry() {
+  if (_onlineListenerWired) return
+  _onlineListenerWired = true
+  window.addEventListener("online", () => {
+    if (isAuthenticated()) void pushToCloud()
+  })
+}
+
 export async function pushToCloud(): Promise<boolean> {
   if (_syncing) return false
   _syncing = true
   try {
     const client = await getClient()
-    const { data: userData } = await client.auth.getUser()
-    if (!userData.user) return false
+    const userId = await getUserId(client)
+    if (!userId) return false
 
     const localData = gatherLocalData()
     const { error } = await client
       .from("user_training_data")
-      .upsert({ user_id: userData.user.id, ...localData }, { onConflict: "user_id" })
+      .upsert({ user_id: userId, ...localData }, { onConflict: "user_id" })
       .single()
 
     if (error) {
       console.error("[supabase] push failed:", error)
+      markSyncFailure()
       return false
     }
 
-    _lastSyncTime = new Date().toISOString()
+    markSyncSuccess()
     return true
   } catch (e) {
     console.error("[supabase] push error:", e)
+    markSyncFailure()
     return false
   } finally {
     _syncing = false
@@ -300,17 +409,27 @@ export async function pullFromCloud(): Promise<boolean> {
   _syncing = true
   try {
     const client = await getClient()
-    const { data: userData } = await client.auth.getUser()
-    if (!userData.user) return false
+    const userId = await getUserId(client)
+    if (!userId) return false
 
     const { data, error } = await client
       .from("user_training_data")
       .select("*")
-      .eq("user_id", userData.user.id)
-      .single()
+      .eq("user_id", userId)
+      .maybeSingle()
 
-    if (error || !data) {
-      // No cloud data yet — push local data up
+    if (error) {
+      // A real read error (network/permission/5xx) — NOT "no data". Do not push
+      // local up, or we could overwrite good cloud state with empty/regressed
+      // local state. Leave cloud untouched and retry later.
+      console.error("[supabase] pull read failed:", error)
+      _syncing = false
+      markSyncFailure()
+      return false
+    }
+
+    if (!data) {
+      // Genuinely no row yet (legitimate first sync) — push local data up.
       _syncing = false
       return pushToCloud()
     }
@@ -391,10 +510,11 @@ export async function pullFromCloud(): Promise<boolean> {
     }
     localStorage.setItem("bjj-explored", JSON.stringify([...exploredMap.values()]))
 
-    _lastSyncTime = new Date().toISOString()
+    markSyncSuccess()
     return true
   } catch (e) {
     console.error("[supabase] pull error:", e)
+    markSyncFailure()
     return false
   } finally {
     _syncing = false
@@ -403,6 +523,7 @@ export async function pullFromCloud(): Promise<boolean> {
 
 /** Called on first sign-in — pull cloud data, merge, then push merged result */
 async function initialSync() {
+  _pulledThisSession = true
   const pulled = await pullFromCloud()
   if (pulled) await pushToCloud()
 }
@@ -469,9 +590,11 @@ function saveDailyProgressLocal(progress: DailyProgress) {
 
 export async function syncOnLoad() {
   if (!isAuthenticated()) return
+  if (_pulledThisSession) return
+  _pulledThisSession = true
   try {
     await pullFromCloud()
   } catch {
-    // Silent failure — data is still in localStorage
+    // Silent failure — data is still in localStorage (pull schedules a retry)
   }
 }

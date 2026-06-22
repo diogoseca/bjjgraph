@@ -1,5 +1,6 @@
 {
   "name": "Granby Roll to Guard",
+  "summary": "Granby Roll to Guard is a dynamic inverted escape from the Buggy Choke and other turtle attacks, using a diagonal shoulder roll and hip extension to spin beneath the attacker and recover a face-to-face guard before the position consolidates.",
   "description": "Learn Granby Roll escape from Buggy Choke in BJJ. Inverted rolling technique to recover guard position. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
   "tags": [
     "bjj",
@@ -12,12 +13,12 @@
   "from_position": "Buggy Choke/Bottom",
   "outcomes": [
     {
-      "to": "Closed Guard/Top",
+      "to": "Closed Guard/Bottom",
       "probability": 50,
       "result": "success"
     },
     {
-      "to": "Open Guard/Top",
+      "to": "Open Guard/Bottom",
       "probability": 15,
       "result": "success"
     },
@@ -145,7 +146,7 @@
         "counter": "Opponent maintains collar grip and follows to mounted position",
         "effectiveness": "Medium",
         "your_response": "Strip the collar grip during the roll using your far hand, or accept the collar grip and play collar defense from closed guard",
-        "targets_outcome": "Closed Guard/Top"
+        "targets_outcome": "Closed Guard/Bottom"
       },
       {
         "counter": "Opponent angles perpendicular and blocks roll with knee pressure",

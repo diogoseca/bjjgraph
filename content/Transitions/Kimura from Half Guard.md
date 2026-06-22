@@ -10,6 +10,41 @@ description: "Master the Kimura from Half Guard Bottom in BJJ. Learn grip entrie
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kimura from Half Guard",
+  "description": "Master the Kimura from Half Guard Bottom in BJJ. Learn grip entries, arm threading mechanics, and systematic transitions into the Kimura Trap control system.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Kimura from Half Guard", "item": "https://bjjgraph.org/Transitions/Kimura-from-Half-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kimura from Half Guard",
+  "description": "The Kimura from Half Guard is a bottom-side transition where the player threads their inside arm under the opponent's exposed tricep to lock a figure-four grip, capturing the shoulder and entering the Kimura Trap control system.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Kimura from Half Guard Bottom in BJJ. Learn grip entrie
 </div>
 
 <section id="overview" class="content-section">
+
+**The Kimura from Half Guard is a bottom-side transition where the player threads their inside arm under the opponent's exposed tricep to lock a figure-four grip, capturing the shoulder and entering the Kimura Trap control system.**
 
 The Kimura from Half Guard Bottom is a foundational transition in modern half guard offense that connects the bottom player's guard game to the powerful Kimura Trap control system. Initiated when the top player exposes their arm through posting, reaching for underhooks, or attempting passes, the bottom player threads their inside arm under the opponent's tricep and secures a figure-four grip on their own wrist. This grip establishment transforms the positional dynamic, giving the bottom player control over the top player's shoulder girdle and disrupting their ability to maintain stable top pressure.
 
@@ -216,6 +253,17 @@ The Kimura from Half Guard serves as the critical gateway connecting standard ha
 
 - [[Positions/Dogfight Position]] - Alternative scramble position arising from contested half guard underhook exchanges
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Andrew-Wiltse-Half-Guard-System" data-cta="related-system-card" data-system-slug="systems/andrew-wiltse-half-guard-system" data-system-name="Andrew Wiltse Half Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Andrew Wiltse Half Guard System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Opportunistic submission attack when opponent overcommits to underhook denial</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Kimura-Trap-System" data-cta="related-system-card" data-system-slug="systems/kimura-trap-system" data-system-name="Kimura Trap System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Kimura Trap System</span><span class="system-card__unlocks-badge">Unlocks 21 techniques</span><span class="system-card__blurb">Alternative entry from bottom position with sweep integration</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

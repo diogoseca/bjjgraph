@@ -10,6 +10,41 @@ description: "Master the Knee on Belly to Mount transition in BJJ. Learn weight 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "KOB to Mount",
+  "description": "Master the Knee on Belly to Mount transition in BJJ. Learn weight transfer mechanics, grip control, and timing to advance to the highest-scoring position.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "KOB to Mount", "item": "https://bjjgraph.org/Transitions/KOB-to-Mount" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "KOB to Mount",
+  "description": "KOB to Mount is a top-side positional advance in BJJ that converts the 2-point Knee on Belly into the 4-point mount by stepping the base leg over the opponent while the driving knee maintains pressure through the weight transfer.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Knee on Belly to Mount transition in BJJ. Learn weight 
 </div>
 
 <section id="overview" class="content-section">
+
+**KOB to Mount is a top-side positional advance in BJJ that converts the 2-point Knee on Belly into the 4-point mount by stepping the base leg over the opponent while the driving knee maintains pressure through the weight transfer.**
 
 The KOB to Mount transition represents one of the most direct positional advancement pathways in Brazilian Jiu-Jitsu, converting a 2-point Knee on Belly control position into the 4-point mount. This transition exploits the pressure and control advantages of Knee on Belly to slide into a more dominant and sustainable position. The fundamental challenge lies in maintaining control during the weight transfer—the moment the knee lifts or shifts creates a window where the bottom player can insert frames, recover guard, or escape to a less disadvantageous position.
 
@@ -220,5 +257,7 @@ This transition is a critical node in the top-position advancement chain, connec
 
 
 </section>
+
+
 
 </main>

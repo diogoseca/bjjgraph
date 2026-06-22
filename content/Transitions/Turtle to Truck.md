@@ -10,6 +10,41 @@ description: "Master the Turtle to Truck transition in BJJ. Step-by-step executi
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Turtle to Truck",
+  "description": "Master the Turtle to Truck transition in BJJ. Step-by-step execution from Turtle to Truck position with complete attacker and defender analysis.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Turtle to Truck", "item": "https://bjjgraph.org/Transitions/Turtle-to-Truck" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Turtle to Truck",
+  "description": "Turtle to Truck is a 10th Planet back-attack entry where the top player, facing a turtled opponent, traps one leg in a figure-four and presses a boot to the hip, opening simultaneous twister, calf slicer, and back-control threats.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Turtle to Truck transition in BJJ. Step-by-step executi
 </div>
 
 <section id="overview" class="content-section">
+
+**Turtle to Truck is a 10th Planet back-attack entry where the top player, facing a turtled opponent, traps one leg in a figure-four and presses a boot to the hip, opening simultaneous twister, calf slicer, and back-control threats.**
 
 The transition to Truck is a fundamental movement within the 10th Planet Jiu-Jitsu system and modern no-gi grappling. When an opponent assumes the turtle position, the Truck offers a devastating alternative to traditional back takes, providing access to the Twister submission, various calf slicers, and back control options. The Truck position involves controlling the opponent's leg while maintaining a specific body configuration that creates the signature "truck" shape - hence the name. This transition is particularly effective because it exploits the turtle position's inherent vulnerability to leg attacks while the opponent focuses on defending their neck and preventing traditional back takes. The Truck serves as a gateway position within the larger Twister system, allowing the attacker to create multiple submission threats simultaneously. What makes this transition especially valuable is its ability to bypass traditional back defense protocols, as most practitioners are conditioned to defend against seat belt control rather than leg-based attacks from turtle. The success of this transition relies on timing, understanding weight distribution, and the ability to coordinate upper and lower body control simultaneously.
 
@@ -207,7 +244,7 @@ The Truck transition is a critical component of modern no-gi grappling and the 1
 
 - [[Positions/Twister Control]] - Follow-up position - natural progression from Truck for submission
 
-- [[Transitions/Truck Entry]] - Alternative transition - same destination with different entry mechanics
+- [[Transitions/Roll to Truck]] - Alternative transition - dynamic entry reaching the same Truck position
 
 - [[Transitions/Crab Ride to Back]] - Related back attack - alternative approach from turtle position
 
@@ -215,16 +252,27 @@ The Truck transition is a critical component of modern no-gi grappling and the 1
 
 - [[Transitions/Turtle to Back Control]] - Alternative transition - traditional back attack when Truck is defended
 
-- [[Transitions/Lockdown Recovery]] - Technical similarity - uses similar leg triangle mechanics
+- [[Positions/Half Guard/Lockdown]] - Technical similarity - shares the figure-four leg triangle mechanics
 
-- [[Transitions/Old School Sweep]] - Related technique - uses similar leg control concepts from different position
+- [[Positions/Half Guard/Old School]] - Related position - uses similar leg control concepts from a different angle
 
 - [[Submissions/Banana Split]] - Related submission - similar leg spreading mechanics from Truck
 
-- [[Transitions/Electric Chair Transition]] - Related 10th Planet technique sharing leg entanglement principles
+- [[Positions/Half Guard/Electric Chair]] - Related 10th Planet position sharing leg entanglement principles
 
 - [[Transitions/Crucifix from Turtle]] - Alternative turtle top attack when Truck entry is unavailable
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Twister-System" data-cta="related-system-card" data-system-slug="systems/twister-system" data-system-name="Twister System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Twister System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">General transition pathway into Truck Position</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Lockdown-to-Electric-Chair-System" data-cta="related-system-card" data-system-slug="systems/lockdown-to-electric-chair-system" data-system-name="Lockdown to Electric Chair System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Lockdown to Electric Chair System</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Advanced progression when opponent defends lockdown attacks</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

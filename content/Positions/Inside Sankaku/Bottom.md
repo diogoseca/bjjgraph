@@ -116,6 +116,7 @@ description: "Master Inside Sankaku bottom perspective. Defensive strategies, es
   "@type": "WebPage",
   "name": "Inside Sankaku Bottom",
   "description": "Master Inside Sankaku bottom perspective. Defensive strategies, escape mechanics, and counter-attack options from the defending position.",
+  "alternateName": ["411", "Inside Senkaku"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -155,6 +156,9 @@ description: "Master Inside Sankaku bottom perspective. Defensive strategies, es
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>411</strong>, <strong>Inside Senkaku</strong> <span class="role-hint">(bottom)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 From the bottom perspective of Inside Sankaku, the practitioner finds themselves with their leg trapped in the opponent's figure-four entanglement, facing one of the most dangerous positions in modern leg lock systems. The bottom player's primary objective is immediate escape, as remaining in this position exposes them to high-percentage inside heel hook attacks with limited defensive options. Understanding the mechanics of how the position controls you is essential for developing effective escape strategies. The top player maintains control through hip-to-hip connection, knee line dominance, and proper leg configuration - each of these control points must be systematically addressed in the escape sequence. The bottom perspective requires recognizing the urgency of the situation while maintaining composure to execute technical escapes rather than panicking into worse positions. Common defensive priorities include protecting the heel by keeping it hidden against your own hip, preventing the top player from establishing optimal submission angles, and creating the space necessary to extract the trapped leg. Many practitioners make the critical error of attempting to pass the knee line by turning into the top player, which often leads directly into the Saddle position or exposes the heel more completely. Instead, effective defense focuses on hip mobility, creating angles that diminish the top player's control, and systematically working through escape protocols. The bottom player must also be aware that desperation attempts to escape can result in injury if the top player has already established submission grips, making it essential to defend the submission first before attempting positional escapes. Understanding both the offensive mechanics from the top perspective and defensive requirements from bottom creates a complete picture of this position's dynamics.
@@ -350,6 +354,16 @@ When opponent establishes Inside Sankaku, practice entering your own leg attacks
 - **[[Positions/Open Guard]]** - Primary escape destination after successful leg extraction
 - **[[Positions/Half Guard]]** - Alternative guard recovery position during escape sequence
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Danaher-Leg-Lock-System" data-cta="related-system-card" data-system-slug="systems/danaher-leg-lock-system" data-system-name="Danaher Leg Lock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Danaher Leg Lock System</span><span class="system-card__unlocks-badge">Unlocks 30 techniques</span><span class="system-card__blurb">Maximum control position at top of ashi-garami hierarchy</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

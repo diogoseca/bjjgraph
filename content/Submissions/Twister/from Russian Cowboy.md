@@ -10,10 +10,55 @@ description: "Learn the Twister Finish from Russian Cowboy in BJJ. Spinal lock s
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Twister from Russian Cowboy targets the Thoracic and Cervical Spine. Risk: Thoracic spine herniated disc from opposed rotational compression. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Twister from Russian Cowboy",
+  "description": "Learn the Twister Finish from Russian Cowboy in BJJ. Spinal lock submission with step-by-step execution, defense strategies, and safety protocols.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Twister from Russian Cowboy", "item": "https://bjjgraph.org/Submissions/Twister-from-Russian-Cowboy" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Twister from Russian Cowboy",
+  "description": "Twister from Russian Cowboy is an advanced spinal-lock finish that converts the position's single-leg ride into a figure-four entanglement, then rotates the trapped opponent's shoulders against their anchored hips to compress the thoracic spine until they tap.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**Twister from Russian Cowboy is an advanced spinal-lock finish that converts the position's single-leg ride into a figure-four entanglement, then rotates the trapped opponent's shoulders against their anchored hips to compress the thoracic spine until they tap.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Spinal Lock</span>
+<span class="meta-chip">Targets Thoracic and Cervical Spine</span>
+<span class="meta-chip">40% success</span>
+</div>
+
+> [!danger] Safety
+> Twister from Russian Cowboy targets the Thoracic and Cervical Spine. Primary risk: Thoracic spine herniated disc from opposed rotational compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -24,57 +69,13 @@ description: "Learn the Twister Finish from Russian Cowboy in BJJ. Spinal lock s
 
 <section id="overview" class="content-section">
 
-The Twister Finish from Russian Cowboy is an advanced spinal compression submission that exploits the asymmetric back control inherent in the Russian Cowboy position. Unlike entering the Twister from full Truck position, this pathway leverages the single-hook configuration of Russian Cowboy to create the initial rotational pressure before completing the figure-four leg lock and finishing the spinal twist. The attacker must transition the single hook into a more complete leg entanglement while simultaneously establishing head and shoulder control to create the opposed rotational forces that define the Twister.
+Within the 10th Planet no-gi system, the Russian Cowboy ride is one of the most reliable on-ramps to the Twister, and this entry is what makes the position so feared from the asymmetric back. Unlike entering the Twister from a fully established Truck, this pathway lets you begin loading rotational pressure off a single hook before the figure-four is even completed, shrinking the window your opponent has to align their spine. The attacker's job is to convert that single hook into a full leg entanglement while threading head and shoulder control, building the opposed rotational forces that the finish depends on.
 
 Strategically, the Twister Finish from Russian Cowboy represents a high-commitment attack that sacrifices positional stability for submission opportunity. The transition requires threading the free leg across the opponent's body to complete the figure-four while maintaining chest-to-back contact and upper body control. This creates a narrow execution window where the opponent can defend by preventing the second leg from crossing or by aligning their spine before the rotation locks in. Successful execution depends on reading the opponent's defensive reactions and committing to the finish only when the control sequence is complete.
 
 The submission's danger profile demands extreme caution in training. The spinal compression created by opposing the locked hips against the rotating shoulders can cause serious cervical and thoracic injury if applied too quickly. Progressive pressure over a minimum of five to seven seconds is mandatory, and both training partners must have established clear communication protocols before attempting this technique. The Twister Finish is most effective when the opponent has already exhausted their primary escape options from Russian Cowboy and is committed to a defensive posture that exposes their spine to rotational attack.
 
-**Category**: Joint Lock
-**Type**: Spinal Lock
-**Target Area**: Thoracic and Cervical Spine
-**Starting Position**: [[Positions/Russian Cowboy]]
-**From Position**: [[Positions/Russian Cowboy]] (Top)
-**Success Rate**: 40%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Thoracic spine herniated disc from opposed rotational compression | CRITICAL | 6-12 months, may require surgical intervention |
-| Cervical vertebrae fracture or subluxation from misdirected rotational force | CRITICAL | 3-12 months, potential permanent neurological damage |
-| Intercostal muscle tears and rib cartilage damage from thoracic compression | High | 4-8 weeks |
-| Thoracic and lumbar ligament sprain from rotational forces exceeding flexibility | Medium | 2-6 weeks |
-
-
-**Application Speed**: Extremely slow and progressive. Minimum 5-7 seconds of gradual pressure escalation required. Never jerk or spike this submission. The spine lacks the protective mechanisms of peripheral joints and can reach catastrophic injury threshold with minimal warning.
-
-**Tap Signals**:
-- Tap with hand on attacker's body or the mat with minimum two clear taps
-- Verbal tap shouting 'TAP' clearly, critical since hands may be trapped in the Twister position
-- Stomp feet on the mat repeatedly as emergency signal when both hands and voice are compromised
-
-
-**Release Protocol**:
-1. Release head and shoulder rotational controls first to immediately relieve spinal pressure
-2. Unwrap the figure-four leg lock second to free the hip anchor
-3. Allow opponent to return to neutral spinal alignment slowly without forcing movement
-4. Check partner's condition verbally and ask about numbness, tingling, or shooting pain in extremities
-5. If any neurological symptoms are reported, end training immediately and seek medical evaluation
-
-
-**Training Restrictions**:
-- Only attempt with experienced grapplers who understand spinal submission mechanics and will tap preventatively
-- Establish clear verbal communication protocols and tap signals before any Twister drilling
-- Prohibited for white and blue belt practitioners in most academies due to catastrophic injury risk
-- Never drill at full speed without progressive training through all phases over a minimum 8-week period
-
+**Starting Position**: [[Positions/Russian Cowboy]] · **From**: [[Positions/Russian Cowboy]] (Top)
 
 </section>
 
@@ -238,41 +239,59 @@ The submission's danger profile demands extreme caution in training. The spinal 
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Calf Slicer]]
 - [[Submissions/Banana Split]]
 - [[Positions/Half Guard/Electric Chair]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Russian Cowboy]] - Starting position providing the single-hook back control foundation
-- [[Submissions/Calf Slicer]] - Alternative submission when Twister head control is denied
-- [[Submissions/Banana Split]] - Alternative submission from the same figure-four leg position
 - [[Positions/Back Control]] - Positional alternative when Twister defense is too strong
-- [[Positions/Half Guard/Electric Chair]] - Related 10th Planet system submission from similar leg entanglement
 - [[Positions/Half Guard/Lockdown]] - Bottom half guard position that feeds into the Twister system
 - [[Transitions/Back Take]] - Primary transition for establishing back control that leads to Russian Cowboy
 - [[Positions/Half Guard]] - Recovery position for defender who successfully counters the Twister attempt
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Thoracic spine herniated disc from opposed rotational compression | CRITICAL | 6-12 months, may require surgical intervention |
+| Cervical vertebrae fracture or subluxation from misdirected rotational force | CRITICAL | 3-12 months, potential permanent neurological damage |
+| Intercostal muscle tears and rib cartilage damage from thoracic compression | High | 4-8 weeks |
+| Thoracic and lumbar ligament sprain from rotational forces exceeding flexibility | Medium | 2-6 weeks |
+
+
+**Application Speed**: Extremely slow and progressive. Minimum 5-7 seconds of gradual pressure escalation required. Never jerk or spike this submission. The spine lacks the protective mechanisms of peripheral joints and can reach catastrophic injury threshold with minimal warning.
+
+**Tap Signals**:
+- Tap with hand on attacker's body or the mat with minimum two clear taps
+- Verbal tap shouting 'TAP' clearly, critical since hands may be trapped in the Twister position
+- Stomp feet on the mat repeatedly as emergency signal when both hands and voice are compromised
+
+
+**Release Protocol**:
+1. Release head and shoulder rotational controls first to immediately relieve spinal pressure
+2. Unwrap the figure-four leg lock second to free the hip anchor
+3. Allow opponent to return to neutral spinal alignment slowly without forcing movement
+4. Check partner's condition verbally and ask about numbness, tingling, or shooting pain in extremities
+5. If any neurological symptoms are reported, end training immediately and seek medical evaluation
+
+
+**Training Restrictions**:
+- Only attempt with experienced grapplers who understand spinal submission mechanics and will tap preventatively
+- Establish clear verbal communication protocols and tap signals before any Twister drilling
+- Prohibited for white and blue belt practitioners in most academies due to catastrophic injury risk
+- Never drill at full speed without progressive training through all phases over a minimum 8-week period
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Twister from Russian Cowboy leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

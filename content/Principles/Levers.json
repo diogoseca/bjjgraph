@@ -13,7 +13,8 @@
   "application_level": "Fundamental",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
-  "overview": "Levers represent the fundamental biomechanical framework of using mechanical advantage to multiply force application, enabling practitioners to overcome size, strength, and weight disadvantages through optimal positioning, angle creation, and efficient force vectors. Unlike specific techniques, leverage principles are comprehensive conceptual frameworks that apply across all positions, submissions, sweeps, and control scenarios in BJJ. This concept encompasses the physics of fulcrums, lever arms, force multiplication, and compound leverage systems, serving as both the theoretical foundation for technique effectiveness and the practical methodology for efficient movement. The ability to recognize and create leverage opportunities often determines whether techniques succeed against stronger opponents, making it one of the most essential conceptual elements in Brazilian Jiu-Jitsu. Leverage principles explain why smaller practitioners can control larger opponents and why proper technique overcomes strength.",
+  "summary": "Levers are the biomechanical principle of using a rigid body segment pivoting around a fulcrum to multiply force, letting a smaller practitioner overcome a stronger opponent through optimal angles and arm-length ratios rather than muscular strength.",
+  "overview": "Among the conceptual foundations of Brazilian Jiu-Jitsu, leverage occupies a privileged place: it is the physics that explains why the art rewards technique over athleticism and why a well-positioned grappler can dismantle a far stronger one. Unlike specific techniques, leverage principles are comprehensive conceptual frameworks that apply across all positions, submissions, sweeps, and control scenarios in BJJ. This concept encompasses the physics of fulcrums, lever arms, force multiplication, and compound leverage systems, serving as both the theoretical foundation for technique effectiveness and the practical methodology for efficient movement. The ability to recognize and create leverage opportunities often determines whether techniques succeed against stronger opponents, making it one of the most essential conceptual elements in Brazilian Jiu-Jitsu. Leverage principles explain why smaller practitioners can control larger opponents and why proper technique overcomes strength.",
   "key_principles": [
     "Position body segments to create optimal fulcrum points for force multiplication",
     "Maximize lever arm length on effort side while minimizing resistance arm length",
@@ -392,6 +393,44 @@
       "name": "Posture",
       "content_type": "Principle",
       "relationship": "Relies fundamentally on leverage to create fulcrum points and apply force through favorable lever arm ratios to overcome opponent's structural stability"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What are the three components of any lever system in BJJ?",
+      "answer": "Every lever has a fulcrum (the pivot point), an effort arm (where you apply force), and a resistance arm (where the opponent's structure resists). Arranging these favorably is what multiplies your force."
+    },
+    {
+      "question": "Why can a smaller grappler control a much larger opponent using leverage?",
+      "answer": "By placing the fulcrum close to the resistance and applying force at the end of a long effort arm, a small input force produces a large output force, so precise positioning rather than raw strength decides the outcome."
+    },
+    {
+      "question": "How do you maximize mechanical advantage in a lever arm ratio?",
+      "answer": "Lengthen the distance from the fulcrum to your effort point while shortening the distance from the fulcrum to the opponent's resistance point, aiming for at least a 2:1 ratio in your favor."
+    },
+    {
+      "question": "At what angle should force be applied to a lever arm for maximum effect?",
+      "answer": "Force should be applied perpendicular (90 degrees) to the lever arm; even a 30-degree deviation can cut rotational effectiveness roughly in half because much of the force is lost in non-productive directions."
+    },
+    {
+      "question": "What is a compound leverage system?",
+      "answer": "It is the stacking of multiple simple levers—primary, secondary, and tertiary fulcrums—so each builds on the prior advantage, as seen in positions like the truck, ashi garami, or back control."
+    },
+    {
+      "question": "Why does a collapsed or bent arm ruin a leverage application?",
+      "answer": "Slack or flex anywhere in the kinetic chain dissipates force before it reaches the resistance point, so the lever fails even when the fulcrum and arm-length geometry are correct; rigidity is essential."
+    },
+    {
+      "question": "What is the most common leverage error among lower belts?",
+      "answer": "Substituting muscular strength for proper positioning—forcing a technique with the arms instead of directing body weight through an optimal fulcrum—which fatigues quickly and fails against stronger opponents."
+    },
+    {
+      "question": "How should you respond when a leverage system becomes compromised mid-technique?",
+      "answer": "Abandon the failing lever early and transition to a new fulcrum or angle rather than fighting to maintain it; chasing a dead leverage system wastes energy and lets the opponent improve position."
+    },
+    {
+      "question": "How do you disrupt an opponent's leverage while building your own?",
+      "answer": "Identify their fulcrum points and either eliminate them or extend their lever arms unfavorably, denying their mechanical advantage before you establish your own fulcrum and effort arm to take control."
     }
   ]
 }

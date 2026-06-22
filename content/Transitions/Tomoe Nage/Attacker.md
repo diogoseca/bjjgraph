@@ -131,6 +131,7 @@ description: "How to execute Tomoe Nage in BJJ. Attacking perspective with setup
   "@type": "WebPage",
   "name": "Tomoe Nage Attacker",
   "description": "How to execute Tomoe Nage in BJJ. Attacking perspective with setup, execution steps, and counters.",
+  "alternateName": ["Circle Throw", "Wheel Throw"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -176,6 +177,9 @@ description: "How to execute Tomoe Nage in BJJ. Attacking perspective with setup
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Circle Throw</strong>, <strong>Wheel Throw</strong> <span class="role-hint">(attacker)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 Tomoe Nage from the attacker's perspective is a commitment-based sacrifice throw that converts standing grip advantage into immediate positional dominance. The technique requires decisive action: you sacrifice your standing base to generate a lever system using your foot on the opponent's hip, your grips controlling their upper body, and their own forward momentum completing the arc. Successful execution demands precise timing of the drop, coordinated pulling force through your grips, and explosive leg extension to launch the opponent overhead. The attacker must understand that half-measures fail catastrophically with this technique. A committed drop with proper mechanics produces either a clean throw to mount or a controlled guard pull with broken posture, while hesitation leaves you flat on your back with an opponent ready to pass. Master practitioners use Tomoe Nage as both a primary scoring technique and a guard pull upgrade that forces the opponent to deal with immediate threats upon landing.
@@ -347,5 +351,7 @@ Incorporate Tomoe Nage into regular sparring from standing position. Practice us
 Tomoe Nage requires significant attention to safety due to its dynamic sacrifice nature and the risk of both practitioners landing awkwardly. Always practice on appropriate matting with sufficient space and clear boundary awareness. Develop proper breakfall mechanics before attempting the full technique with a partner. When throwing a partner, ensure you control their trajectory to prevent them from landing on their head or neck. Start all training at slow speed with cooperative partners to establish proper body mechanics and spatial awareness. Be particularly cautious about foot placement on the opponent's body, avoiding the groin and ensuring your foot is secure before committing to the throw. In competition, be aware of boundary lines to prevent throwing opponents off the mat. Never practice this technique with significant size mismatches until both practitioners are experienced with the mechanics. Partners being thrown should practice their own falling technique separately before receiving full-speed throws.
 
 </section>
+
+
 
 </main>

@@ -126,10 +126,23 @@ description: "Master the Berimbolo system in BJJ. Revolutionary guard retention 
 }
 </script>
 
-> Berimbolo is a advanced difficulty Attack System system. Integrates 4 components.
 
-**System Type**: Attack System
-**Difficulty Level**: Advanced
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Berimbolo",
+  "description": "The Berimbolo is a guard-based attacking system that uses inversion and rotational movement from De La Riva guard to spin underneath the opponent and take their back, converting defensive guard positions into dominant back control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Attack System</span>
+<span class="meta-chip">Advanced difficulty</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -138,7 +151,27 @@ description: "Master the Berimbolo system in BJJ. Revolutionary guard retention 
 
 ## What is Berimbolo?
 
-The Berimbolo is a revolutionary guard retention and back-taking system that fundamentally changed modern BJJ competition. Developed and popularized by the Mendes brothers and refined by competitors like Mikey Musumeci, this system uses dynamic inversion, grip control, and precise timing to transform defensive guard positions into dominant back control. The Berimbolo capitalizes on the opponent's forward pressure and base vulnerabilities, using rotational movement to circle underneath and behind them. What makes this system particularly powerful is its ability to retain guard under heavy pressure while simultaneously creating back-taking opportunities. The practitioner uses their legs and hips as both barriers and levers, controlling distance while inverting to attack the opponent's back. This represents a shift from static guard retention to dynamic, offensive guard work that forces opponents into constant defensive adjustments. The system integrates seamlessly with De La Riva guard, X-Guard, and single leg X positions, creating a cohesive framework for modern guard players.
+**The Berimbolo is a guard-based attacking system that uses inversion and rotational movement from De La Riva guard to spin underneath the opponent and take their back, converting defensive guard positions into dominant back control.**
+
+Emerging from the gi competition scene of the early 2010s, the Berimbolo was developed and popularized by the Mendes brothers and later refined by competitors like Mikey Musumeci, fundamentally changing how modern guard players approach back-taking. The system uses dynamic inversion, grip control, and precise timing to transform defensive guard positions into dominant back control, capitalizing on the opponent's forward pressure and base vulnerabilities by using rotational movement to circle underneath and behind them. What makes this system particularly powerful is its ability to retain guard under heavy pressure while simultaneously creating back-taking opportunities. The practitioner uses their legs and hips as both barriers and levers, controlling distance while inverting to attack the opponent's back. This represents a shift from static guard retention to dynamic, offensive guard work that forces opponents into constant defensive adjustments. The system integrates seamlessly with De La Riva guard, X-Guard, and single leg X positions, creating a cohesive framework for modern guard players.
+
+</section>
+
+
+
+<section id="unlock-graph" class="content-section system-unlock" data-system-unlock hidden>
+
+## Unlock this part of the graph
+
+<p class="section-subtitle">This system teaches the highlighted nodes in the graph. Mark what you already know &mdash; be honest, it's your game.</p>
+
+<div class="system-progress" data-system-progress>
+<svg class="system-progress__ring" viewBox="0 0 44 44" aria-hidden="true"><circle class="system-progress__ring-bg" cx="22" cy="22" r="19"></circle><circle class="system-progress__ring-fill" cx="22" cy="22" r="19"></circle></svg>
+<div class="system-progress__text">You've unlocked <strong class="system-progress__known">0</strong> / <span class="system-progress__total">0</span> techniques in this system</div>
+<button class="system-progress__mark-all" data-mark-system type="button">Mark whole system as known</button>
+</div>
+
+<ul class="system-members" data-system-members></ul>
 
 </section>
 

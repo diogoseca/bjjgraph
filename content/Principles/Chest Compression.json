@@ -15,7 +15,8 @@
   "application_level": "Fundamental",
   "complexity_level": "Low",
   "development_timeline": "Beginner to Advanced",
-  "overview": "Chest compression is the finishing mechanic that restricts breathing by applying sustained pressure to the opponent's torso, compressing the ribcage and diaphragm to prevent full lung expansion. Unlike chokes that target the neck's blood vessels or airway, chest compression works by denying the opponent the ability to draw a full breath, creating a progressive oxygen deficit that accumulates over time. The body triangle squeeze, mounted chest pressure, north-south weight distribution, and kesa gatame rib compression all use this mechanic. Chest compression is one of the most accessible finishing mechanics because it relies on body weight and positioning rather than complex grips or precise anatomical targeting.\n\nThe effectiveness of chest compression comes from its cumulative nature. A single moment of torso pressure is not dangerous, but sustained compression prevents adequate breathing and forces the opponent to work against the attacker's weight with every breath. Each inhalation requires the defender to expand their ribcage against the compressive force, which demands muscular effort that accelerates fatigue. Over minutes, this creates an oxygen deficit and carbon dioxide buildup that impairs decision-making, weakens defensive movements, and eventually forces a tap from exhaustion and breathing distress.\n\nChest compression is often underestimated as a finishing mechanic because it works slowly compared to chokes and joint locks. However, it is an integral part of dominant position maintenance and creates the conditions that make other submissions possible. A mounted opponent who cannot breathe fully makes poorer defensive decisions and has less energy to escape or resist submission attempts. Understanding chest compression mechanics improves both offensive pressure application and defensive breathing strategies that extend survival time under heavy opponents.",
+  "summary": "Chest compression is a finishing mechanic that restricts breathing by applying sustained body-weight pressure to the opponent's torso, compressing the ribcage and diaphragm to deny full lung expansion and force a cumulative oxygen deficit.",
+  "overview": "Among BJJ's finishing mechanics, chest compression stands apart from chokes and joint locks because it attacks the opponent's capacity to breathe rather than their consciousness or joints. Unlike chokes that target the neck's blood vessels or airway, chest compression works by denying the opponent the ability to draw a full breath, creating a progressive oxygen deficit that accumulates over time. The body triangle squeeze, mounted chest pressure, north-south weight distribution, and kesa gatame rib compression all use this mechanic. Chest compression is one of the most accessible finishing mechanics because it relies on body weight and positioning rather than complex grips or precise anatomical targeting.\n\nThe effectiveness of chest compression comes from its cumulative nature. A single moment of torso pressure is not dangerous, but sustained compression prevents adequate breathing and forces the opponent to work against the attacker's weight with every breath. Each inhalation requires the defender to expand their ribcage against the compressive force, which demands muscular effort that accelerates fatigue. Over minutes, this creates an oxygen deficit and carbon dioxide buildup that impairs decision-making, weakens defensive movements, and eventually forces a tap from exhaustion and breathing distress.\n\nChest compression is often underestimated as a finishing mechanic because it works slowly compared to chokes and joint locks. However, it is an integral part of dominant position maintenance and creates the conditions that make other submissions possible. A mounted opponent who cannot breathe fully makes poorer defensive decisions and has less energy to escape or resist submission attempts. Understanding chest compression mechanics improves both offensive pressure application and defensive breathing strategies that extend survival time under heavy opponents.",
   "key_principles": [
     "Chest compression restricts breathing by preventing full ribcage and diaphragm expansion, creating a cumulative oxygen deficit over time",
     "Body weight distribution is more important than size, positioning your mass to maximize downward force on the opponent's torso and ribcage",
@@ -355,6 +356,44 @@
       "name": "Submission Chains",
       "content_type": "Principle",
       "relationship": "Compression creates the conditions for effective submission chains by degrading the opponent's defensive energy before transition to finishes"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What is chest compression in BJJ?",
+      "answer": "Chest compression is a finishing mechanic that restricts breathing by applying sustained body-weight pressure to the opponent's torso, compressing the ribcage and diaphragm so they cannot draw a full breath, which builds a cumulative oxygen deficit over time."
+    },
+    {
+      "question": "Why is sustained compression far more effective than a momentary squeeze?",
+      "answer": "Its effect is cumulative. Each restricted breath forces the defender to expand the ribcage against your weight, compounding fatigue and oxygen debt over minutes until exhaustion and breathing distress force the tap."
+    },
+    {
+      "question": "Which muscle is the primary target of chest compression and why?",
+      "answer": "The diaphragm, the main breathing muscle. It contracts downward during inhalation, so loading the abdomen and lower ribs blocks that downward movement and forces shallow, inefficient chest breathing that cannot sustain exertion."
+    },
+    {
+      "question": "How do you concentrate weight to maximize compression instead of just feeling heavy?",
+      "answer": "Drive weight through focal contact points such as the shoulder into the sternum, the hips onto the lower ribs, or a body-triangle squeeze around the midsection. Less contact area with the same weight produces greater pressure."
+    },
+    {
+      "question": "What is lateral breathing and why does it matter on defense?",
+      "answer": "Lateral breathing means drawing air into the sides and back of the ribcage, where compression is lighter when the sternum and front ribs are loaded. It extends survival time and preserves clear decision-making under heavy pressure."
+    },
+    {
+      "question": "Which positions are the highest-percentage platforms for chest compression?",
+      "answer": "Mount, side control, kesa gatame, north-south, and back control with a body triangle all let you rest concentrated body weight on the torso while denying the space needed to expand the ribcage and breathe."
+    },
+    {
+      "question": "What is the most common attacking error with chest compression?",
+      "answer": "Muscling the squeeze instead of using gravity and skeletal alignment. Active squeezing tires the attacker quickly, while resting bodyweight through an aligned skeleton can be sustained for the minutes compression requires to work."
+    },
+    {
+      "question": "How does chest compression set up submissions?",
+      "answer": "By draining the opponent's energy and slowing their defensive reactions, sustained compression opens transitions to chokes and joint locks that a fresh, rested defender could otherwise resist or escape."
+    },
+    {
+      "question": "What safety risk must you manage when applying a body-triangle squeeze in training?",
+      "answer": "Excessive force can crack ribs, especially with smaller partners or those with lower bone density. Apply pressure progressively, watch for partner distress, and calibrate the squeeze to the size difference."
     }
   ]
 }

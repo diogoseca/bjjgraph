@@ -1,6 +1,7 @@
 {
   "name": "Upa Escape",
   "description": "Master the Upa Escape (bridge and roll) from bottom Mount in BJJ. Complete guide to trapping, bridging mechanics, and reversal timing for all skill levels.",
+  "summary": "The Upa Escape, also called the bridge and roll, is the highest-percentage escape from bottom mount, reversing the opponent by trapping their same-side arm and leg and bridging explosively over the trapped shoulder into top position.",
   "tags": [
     "bjj",
     "escape",
@@ -37,7 +38,7 @@
     "Opponent's weight is distributed forward enough to be displaced by rotational bridge force",
     "You can hook opponent's foot on the same side as the trapped arm to eliminate their posting base"
   ],
-  "overview": "The Upa Escape, also known as the bridge and roll or trap and roll escape, is the most fundamental and highest-percentage escape from bottom mount position. This technique leverages explosive hip power and proper weight distribution to reverse an opponent who has achieved the dominant mount position. The escape works by creating a powerful bridge while simultaneously trapping one of the opponent's arms and the corresponding leg, forcing them to post with their free hand while you drive them over your shoulder. The beauty of the Upa lies in its mechanical efficiency — it does not require superior strength or flexibility, making it accessible to practitioners of all sizes and athletic abilities.\n\nWhen executed with proper timing and technique, the Upa can completely reverse a seemingly hopeless position, transitioning you from bottom mount into your opponent's closed guard or even to a top position. The technique exploits a fundamental biomechanical principle: the glutes and hamstrings generate more force per unit of muscle mass than almost any other muscle group, and the rotational bridge converts this force into angular momentum that even a much heavier opponent cannot resist when their base is structurally compromised on one side.\n\nThis escape forms the cornerstone of mount defense and is typically the first escape taught to beginners due to its reliability and fundamental movement patterns that translate to many other techniques. At advanced levels, the Upa becomes part of a comprehensive escape matrix where it chains with elbow escape and hip escape to create an unsolvable defensive puzzle for the mounted opponent.",
+  "overview": "Taught in virtually every beginner curriculum as the first answer to the crisis of being mounted, the Upa Escape leverages explosive hip power and proper weight distribution to reverse an opponent who has achieved the dominant mount position. The escape works by creating a powerful bridge while simultaneously trapping one of the opponent's arms and the corresponding leg, forcing them to post with their free hand while you drive them over your shoulder. The beauty of the Upa lies in its mechanical efficiency — it does not require superior strength or flexibility, making it accessible to practitioners of all sizes and athletic abilities.\n\nWhen executed with proper timing and technique, the Upa can completely reverse a seemingly hopeless position, transitioning you from bottom mount into your opponent's closed guard or even to a top position. The technique exploits a fundamental biomechanical principle: the glutes and hamstrings generate more force per unit of muscle mass than almost any other muscle group, and the rotational bridge converts this force into angular momentum that even a much heavier opponent cannot resist when their base is structurally compromised on one side.\n\nThis escape forms the cornerstone of mount defense and is typically the first escape taught to beginners due to its reliability and fundamental movement patterns that translate to many other techniques. At advanced levels, the Upa becomes part of a comprehensive escape matrix where it chains with elbow escape and hip escape to create an unsolvable defensive puzzle for the mounted opponent.",
   "variants_and_adaptations": [
     {
       "variant_name": "Double trap variation for heavy opponents",
@@ -63,12 +64,8 @@
   "position_integration": "The upa escape serves as the foundational mount escape and entry point to understanding defensive principles from bottom positions. Within the positional hierarchy, it represents the primary method for reversing from one of BJJ's most dominant positions back to neutral or advantageous positions. The technique integrates into broader defensive systems by teaching essential movement patterns — explosive bridging, directional control, and timing recognition — that transfer to escapes from side control, back control, and other pins. As practitioners advance, the upa becomes part of a comprehensive mount defense matrix where they flow between upa, elbow escape, and hip escape based on opponent reactions, creating an unsolvable defensive puzzle. The escape also integrates into offensive guard strategies, as successfully executing the upa often lands you in closed guard where you can immediately attack with sweeps and submissions. Competition strategists view the upa as essential for point recovery, as successfully escaping mount immediately erases a 4-point deficit while potentially scoring sweep points. The movement patterns developed through upa drilling — explosive hip power, body rotation, and directional bridging — also enhance performance in numerous other techniques including sweeps, takedown defenses, and back escape sequences.",
   "related_content": [
     {
-      "name": "Elbow Escape to Guard",
+      "name": "Elbow Escape from Mount",
       "relationship": "Complementary escape that works when opponent sits back in high mount where upa is less effective"
-    },
-    {
-      "name": "Hip Escape to Guard",
-      "relationship": "Complementary shrimping escape that creates defensive dilemma with upa"
     },
     {
       "name": "Frame and Shrimp to Guard",
@@ -107,8 +104,8 @@
       "relationship": "Related explosive bridging escape from mount using similar hip mechanics"
     },
     {
-      "name": "Scramble to Guard",
-      "relationship": "Alternative defensive strategy when upa and other primary escapes are unavailable"
+      "name": "Trap and Roll from Mount",
+      "relationship": "Closely related bridge-and-roll escape sharing the same trap-and-reversal mechanics"
     }
   ],
   "attacker": {

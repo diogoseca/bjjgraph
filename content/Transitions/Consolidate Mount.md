@@ -10,6 +10,41 @@ description: "Master mount consolidation in BJJ. Learn to secure dominant positi
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Consolidate Mount",
+  "description": "Master mount consolidation in BJJ. Learn to secure dominant position with systematic pressure, frame elimination, and high mount advancement techniques.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Consolidate Mount", "item": "https://bjjgraph.org/Transitions/Consolidate-Mount" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Consolidate Mount",
+  "description": "Consolidate Mount is the positional transition where the top player secures a freshly-achieved mount by dropping weight, inserting grapevines, and clearing frames before climbing knees toward the armpits, converting a fragile pin into a dominant attacking platform.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master mount consolidation in BJJ. Learn to secure dominant positi
 </div>
 
 <section id="overview" class="content-section">
+
+**Consolidate Mount is the positional transition where the top player secures a freshly-achieved mount by dropping weight, inserting grapevines, and clearing frames before climbing knees toward the armpits, converting a fragile pin into a dominant attacking platform.**
 
 Consolidate Mount is the critical transition between achieving mount position and establishing dominant control. Too many practitioners rush to attack immediately after achieving mount, only to have their opponent escape during the chaotic moments of position change. This technique emphasizes the fundamental principle that position must be secured before submission hunting begins. The consolidation process involves controlling hip movement, eliminating frames, and advancing to higher mount variations.
 
@@ -216,5 +253,7 @@ Consolidate Mount bridges the gap between achieving mount and launching effectiv
 
 
 </section>
+
+
 
 </main>

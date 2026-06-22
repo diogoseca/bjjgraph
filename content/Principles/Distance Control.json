@@ -15,7 +15,8 @@
   "application_level": "Fundamental",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
-  "overview": "Distance Control is one of the most fundamental defensive concepts in Brazilian Jiu-Jitsu, representing the practitioner's ability to generate distance between their body and an opponent's controlling position. This concept forms the foundation of virtually all escape sequences, as creating space is the prerequisite for recovering guard, changing positions, or executing technical stand-ups. The principle operates on a simple biomechanical reality: compression equals control, and space equals opportunity for movement.\n\nAt its core, Distance Control involves understanding how to use frames, hip movement, bridging mechanics, and timing to generate gaps in the opponent's pressure system. The concept is not merely about pushing away or using strength; rather, it requires sophisticated understanding of leverage points, weight distribution, and the opponent's base structure. Effective space creation exploits moments when the opponent's weight is transitioning, their base is compromised, or their grips are being adjusted.\n\nThe mastery of Distance Control fundamentally changes a practitioner's defensive capabilities. Beginners often make the mistake of accepting compression and trying to escape from completely flattened positions, which is biomechanically nearly impossible against skilled opponents. Advanced practitioners understand that space must be created in increments—first creating breathing room, then hip mobility, then full body movement—and that each increment requires different techniques and timing. This concept underlies every escape in BJJ, from simple elbow escapes from side control to complex granby rolls from back control.",
+  "summary": "Distance Control is the defensive principle of generating and managing the space between your body and an opponent's controlling position, using frames, hip movement, and bridging to turn compression into the room required to escape.",
+  "overview": "Few skills separate a calm, methodical defender from a panicking one as clearly as Distance Control, and it sits beneath virtually every escape sequence in Brazilian Jiu-Jitsu. Creating space is the prerequisite for recovering guard, changing positions, or executing technical stand-ups, which is why instructors drill shrimps and bridges from a practitioner's very first class. The principle operates on a simple biomechanical reality: compression equals control, and space equals opportunity for movement.\n\nAt its core, Distance Control involves understanding how to use frames, hip movement, bridging mechanics, and timing to generate gaps in the opponent's pressure system. The concept is not merely about pushing away or using strength; rather, it requires sophisticated understanding of leverage points, weight distribution, and the opponent's base structure. Effective space creation exploits moments when the opponent's weight is transitioning, their base is compromised, or their grips are being adjusted.\n\nThe mastery of Distance Control fundamentally changes a practitioner's defensive capabilities. Beginners often make the mistake of accepting compression and trying to escape from completely flattened positions, which is biomechanically nearly impossible against skilled opponents. Advanced practitioners understand that space must be created in increments—first creating breathing room, then hip mobility, then full body movement—and that each increment requires different techniques and timing. This concept underlies every escape in BJJ, from simple elbow escapes from side control to complex granby rolls from back control.",
   "key_principles": [
     "Frames must be established before hip movement can occur - structural integrity precedes mobility",
     "Space is created in increments, not all at once - progressive distance generation is more effective than explosive attempts",
@@ -397,6 +398,40 @@
       "name": "Bridge and Roll",
       "content_type": "Transition",
       "relationship": "Explosive space creation technique from mount using bridging mechanics"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What is the core biomechanical premise behind Distance Control?",
+      "answer": "Compression equals control and space equals opportunity — every escape first requires converting an opponent's tight pressure into usable distance for movement."
+    },
+    {
+      "question": "Why must a frame be established before initiating hip movement?",
+      "answer": "The frame creates a rigid pivot point and stops the opponent from simply following your hips; shrimping without one just slides you across the mat while they keep full compression."
+    },
+    {
+      "question": "Why is space best created in increments rather than one explosive movement?",
+      "answer": "Large explosive attempts are telegraphed, energy-expensive, and easily countered; building breathing room, then hip mobility, then escape paths makes each stage easier and conserves your gas tank."
+    },
+    {
+      "question": "When are the best windows to attempt space creation against a skilled top player?",
+      "answer": "During weight transitions — when the opponent shifts weight, re-grips, or advances position — because their base and pressure are momentarily compromised and easiest to exploit."
+    },
+    {
+      "question": "How does the primary space-creation mechanic differ between mount and side control?",
+      "answer": "Mount relies mainly on bridging to elevate and disrupt the opponent's base, while side control relies on shoulder frames combined with hip escape (shrimping) to generate lateral distance."
+    },
+    {
+      "question": "What is the most common error when shrimping, and how is it corrected?",
+      "answer": "Shrimping with flat hips, which yields no leverage; the fix is to turn onto your side and create a hip angle (one shoulder lower) before driving the hips away from the opponent."
+    },
+    {
+      "question": "Why should a bridge be directed toward the opponent's weak side rather than straight up?",
+      "answer": "A straight bridge lets the opponent settle right back down; angling toward their head or narrower base disrupts their structure and opens a genuine escape path."
+    },
+    {
+      "question": "What must happen the instant space is created, and why?",
+      "answer": "It must be used immediately — inserting a knee shield, recovering guard, or continuing the escape — because an aware opponent recovers compression within roughly one to two seconds."
     }
   ]
 }

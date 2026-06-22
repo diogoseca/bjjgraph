@@ -142,11 +142,24 @@ description: "Master strategic pressure application in BJJ. Learn bodyweight dis
 }
 </script>
 
-> Pressure is a medium complexity BJJ principle applicable at the Fundamental level. Develop over Beginner to Advanced.
 
-**Application Level**: Fundamental
-**Complexity**: Medium
-**Development Timeline**: Beginner to Advanced
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Pressure",
+  "description": "Pressure is the disciplined transfer of bodyweight through skeletal alignment and deliberate connection points, directing sustained force into an opponent to restrict movement, collapse defensive frames, and compound control across every top position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Fundamental</span>
+<span class="meta-chip">Medium complexity</span>
+<span class="meta-chip">Beginner to Advanced</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -155,7 +168,9 @@ description: "Master strategic pressure application in BJJ. Learn bodyweight dis
 
 ## What is Pressure?
 
-Pressure represents the strategic utilization of bodyweight, positioning, and connection points to create discomfort, restriction, and control against an opponent. Unlike specific techniques, pressure application is a comprehensive conceptual framework that governs how force is directed, maintained, and intensified to serve specific strategic objectives across all positions. This concept encompasses understanding optimal weight distribution, directional force application, connection management, and the psychological aspects of pressure-based control. Pressure application serves as both an offensive weapon that compromises opponent's defensive structures and a control mechanism that limits mobility and creates submission opportunities. The ability to apply effective pressure often determines whether a practitioner can break through sophisticated defenses or merely maintains positional stalemates, making it one of the most nuanced yet fundamental conceptual elements in BJJ.
+**Pressure is the disciplined transfer of bodyweight through skeletal alignment and deliberate connection points, directing sustained force into an opponent to restrict movement, collapse defensive frames, and compound control across every top position.**
+
+Unlike a discrete technique with a defined start and finish, pressure is a conceptual framework that practitioners feel long before they can articulate it. It governs how force is directed, maintained, and intensified to serve strategic objectives across every position, encompassing optimal weight distribution, directional force application, connection management, and the psychological dimension of sustained discomfort. Pressure serves simultaneously as an offensive weapon that compromises an opponent's defensive structures and as a control mechanism that limits mobility and manufactures submission opportunities. The ability to apply it well often determines whether a practitioner breaks through sophisticated defenses or merely maintains positional stalemates, making it one of the most nuanced yet fundamental conceptual elements in BJJ.
 
 </section>
 
@@ -362,6 +377,22 @@ Video analysis and deliberate practice focused on identifying and eliminating un
 - [[Energy Conservation]] (Principle) - Strategic framework within which efficient pressure application serves as primary energy conservation mechanism
 - [[Bernardo Faria Pressure System]] (System) - Comprehensive systematic approach built entirely around pressure-based passing and control methodologies
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Bernardo-Faria-Pressure-System" data-cta="related-system-card" data-system-slug="systems/bernardo-faria-pressure-system" data-system-name="Bernardo Faria Pressure System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Bernardo Faria Pressure System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Technical principle for applying weight effectively during passing</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Marcelo-Garcia-Guillotine-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-guillotine-system" data-system-name="Marcelo Garcia Guillotine System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Marcelo Garcia Guillotine System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Fundamental principle for effective choking mechanics</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/No-Gi-Tactical-Framework" data-cta="related-system-card" data-system-slug="systems/no-gi-tactical-framework" data-system-name="No-Gi Tactical Framework" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">No-Gi Tactical Framework</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Critical for position maintenance without gi grips</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/No-Gi-Competition-Approach" data-cta="related-system-card" data-system-slug="systems/no-gi-competition-approach" data-system-name="No-Gi Competition Approach" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">No-Gi Competition Approach</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Essential control mechanism in no-gi environment</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Teaching-Methodology-Framework" data-cta="related-system-card" data-system-slug="systems/teaching-methodology-framework" data-system-name="Teaching Methodology Framework" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Teaching Methodology Framework</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Core concept for progressive resistance drilling, teaching students to apply and withstand pressure systematically</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Roger-Gracie-Fundamental-System" data-cta="related-system-card" data-system-slug="systems/roger-gracie-fundamental-system" data-system-name="Roger Gracie Fundamental System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Roger Gracie Fundamental System</span><span class="system-card__unlocks-badge">Unlocks 22 techniques</span><span class="system-card__blurb">Key to making basic positions inescapable - Roger&#x27;s pressure felt impossibly heavy</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Gordon-Ryan-Passing-System" data-cta="related-system-card" data-system-slug="systems/gordon-ryan-passing-system" data-system-name="Gordon Ryan Passing System" data-member-count="17"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Gordon Ryan Passing System</span><span class="system-card__unlocks-badge">Unlocks 17 techniques</span><span class="system-card__blurb">Core principle underlying entire passing system approach</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

@@ -10,6 +10,41 @@ description: "Master Honey Hole position in BJJ. Advanced leg entanglement with 
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Honey Hole",
+  "description": "Master Honey Hole position in BJJ. Advanced leg entanglement with inside control, heel hook access, and systematic defense protocols. Complete perspective analysis.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Honey Hole", "item": "https://bjjgraph.org/Positions/Honey-Hole" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Honey Hole",
+  "description": "Honey Hole is a dominant inside leg entanglement (inside sankaku) where one player traps the opponent's leg in an inside leg triangle, pinning the hip and unlocking direct heel hook, kneebar, and toe hold attacks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Honey Hole position in BJJ. Advanced leg entanglement with 
 </div>
 
 <section id="overview" class="content-section">
+
+**Honey Hole is a dominant inside leg entanglement (inside sankaku) where one player traps the opponent's leg in an inside leg triangle, pinning the hip and unlocking direct heel hook, kneebar, and toe hold attacks.**
 
 Honey Hole position, also known as Inside Sankaku, Saddle, or 4/11, represents one of the most dominant and dangerous leg entanglement positions in modern Brazilian Jiu-Jitsu. This position features an inside leg configuration where one practitioner traps their opponent's leg between their own legs with an inside leg triangle, creating mechanical control that severely limits escape options while providing direct access to heel hooks, kneebars, and toe holds.
 
@@ -185,25 +222,27 @@ From a competitive standpoint, Honey Hole has revolutionized modern no-gi grappl
 ### Available Transitions
 
 
-- **[[Outside Heel Hook from Honey Hole/Attacker|Outside Heel Hook from Honey Hole]]** (12% of attempts)
+- **[[Outside Heel Hook from Honey Hole/Attacker|Outside Heel Hook from Honey Hole]]** (10% of attempts)
 
-- **[[Heel Hook from Honey Hole/Attacker|Heel Hook from Honey Hole]]** (42% of attempts)
+- **[[Heel Hook from Honey Hole/Attacker|Heel Hook from Honey Hole]]** (37% of attempts)
 
-- **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** (14% of attempts)
+- **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** (12% of attempts)
 
-- **[[Toe Hold from Honey Hole/Attacker|Toe Hold from Honey Hole]]** (8% of attempts)
+- **[[Toe Hold from Honey Hole/Attacker|Toe Hold from Honey Hole]]** (7% of attempts)
 
-- **[[Transitions/Back Take from Ashi/Attacker|Back Take from Ashi]]** (14% of attempts)
+- **[[Transitions/Back Take from Ashi/Attacker|Back Take from Ashi]]** (12% of attempts)
 
-- **[[Estima Lock from Honey Hole/Attacker|Estima Lock from Honey Hole]]** (3% of attempts)
+- **[[Estima Lock from Honey Hole/Attacker|Estima Lock from Honey Hole]]** (2% of attempts)
 
-- **[[Transitions/Backside 50-50 Entry from Ashi/Attacker|Backside 50-50 Entry from Ashi]]** (3% of attempts)
+- **[[Transitions/Backside 50-50 Entry from Ashi/Attacker|Backside 50-50 Entry from Ashi]]** (2% of attempts)
 
 - **[[Calf Slicer from Honey Hole/Attacker|Calf Slicer from Honey Hole]]** (2% of attempts)
 
-- **[[Transitions/Honey Hole to Saddle/Attacker|Honey Hole to Saddle]]** (1% of attempts)
+- **[[Transitions/Honey Hole to Saddle/Attacker|Honey Hole to Saddle]]** (2% of attempts)
 
-- **[[Inside Heel Hook from Honey Hole/Attacker|Inside Heel Hook from Honey Hole]]** (1% of attempts)
+- **[[Inside Heel Hook from Honey Hole/Attacker|Inside Heel Hook from Honey Hole]]** (2% of attempts)
+
+- **[[Kneebar from Honey Hole/Attacker|Kneebar from Honey Hole]]** (12% of attempts)
 
 
 ### Common Mistakes
@@ -266,6 +305,17 @@ From a competitive standpoint, Honey Hole has revolutionized modern no-gi grappl
 
 - **[[Positions/Leg Entanglement]]** - Conceptual framework governing all leg lock positions
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Danaher-Leg-Lock-System" data-cta="related-system-card" data-system-slug="systems/danaher-leg-lock-system" data-system-name="Danaher Leg Lock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Danaher Leg Lock System</span><span class="system-card__unlocks-badge">Unlocks 30 techniques</span><span class="system-card__blurb">Maximum control configuration - primary finishing position in system hierarchy</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Straight-Footlock-to-Kneebar-Chain" data-cta="related-system-card" data-system-slug="systems/straight-footlock-to-kneebar-chain" data-system-name="Straight Footlock to Kneebar Chain" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Straight Footlock to Kneebar Chain</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Related leg entanglement position for expanded leg attack system</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

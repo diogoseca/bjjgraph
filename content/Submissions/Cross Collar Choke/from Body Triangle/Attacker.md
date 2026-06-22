@@ -176,7 +176,7 @@ description: "Learn to execute the cross collar choke from body triangle. Step-b
 
 Attacking the cross collar choke from body triangle gives you an exceptionally stable platform for collar work. Your legs handle all positional control through the figure-four lock, freeing both hands entirely for grip fighting and choking. The breathing restriction from the body triangle creates urgency that forces your opponent into defensive errors, opening collar access. This combination of mechanical control and choking threat makes the cross collar choke from body triangle one of the highest-percentage gi finishes from back control, especially when integrated into a submission chain with the RNC and bow and arrow.
 
-**From Position**: [[Positions/Back Control/Body Triangle]] (Bottom)
+**From Position**: [[Positions/Back Control/Body Triangle]] (Top)
 
 
 </section>

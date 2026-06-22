@@ -10,8 +10,70 @@ description: "{{ description }}"
 {# PostHog A/B Testing Metadata #}
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": {{ name | tojson }},
+  "description": {{ description | tojson }},
+  {%- if aliases is defined and aliases %}
+  "alternateName": [{% for alias in aliases %}{{ alias | tojson }}{{ ", " if not loop.last else "" }}{% endfor %}],
+  {%- endif %}
+  {%- if disambiguations is defined and disambiguations %}
+  {%- set _ns = namespace(dd='') %}
+  {%- for d in disambiguations %}{% set _ns.dd = _ns.dd + 'Often confused with ' + d.name + ' — ' + d.reason + '.' + (' ' if not loop.last else '') %}{% endfor %}
+  "disambiguatingDescription": {{ _ns.dd | tojson }},
+  {%- endif %}
+  {%- if sameAs is defined and sameAs %}
+  "sameAs": [{% for u in sameAs %}{{ u | tojson }}{{ ", " if not loop.last else "" }}{% endfor %}],
+  {%- endif %}
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": {{ name | tojson }}, "item": {{ ("https://bjjgraph.org/Transitions/" ~ (name | replace(" ", "-"))) | tojson }} }
+  ]
+}
+</script>
+
+{% if summary %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "{{ name }}",
+  "description": "{{ summary }}",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+{% endif %}
+
 {# Flexbox wrapper for A/B testing #}
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+{% if (aliases is defined and aliases) or (family is defined and family) or (disambiguations is defined and disambiguations) -%}
+<aside class="entity-relations">
+{%- if aliases is defined and aliases %}
+<p class="also-known-as"><em>Also known as:</em> {% for alias in aliases %}<strong>{{ alias | e }}</strong>{{ ", " if not loop.last else "" }}{% endfor %}</p>
+{%- endif %}
+{%- if family is defined and family %}
+<p class="part-of-family"><em>Part of the</em> <strong>{% if resolve.family_exists(family) %}[[Families/{{ family }}|{{ family | e }}]]{% else %}{{ family | e }}{% endif %}</strong> <em>family</em></p>
+{%- endif %}
+{%- if disambiguations is defined and disambiguations %}
+{%- for d in disambiguations %}
+<p class="often-confused-with"><em>Often confused with</em> <strong>{% if resolve.page_exists(d.name) %}[[{{ resolve(d.name) }}|{{ d.name | e }}]]{% else %}{{ d.name | e }}{% endif %}</strong> — {{ d.reason | e }}</p>
+{%- endfor %}
+{%- endif %}
+</aside>
+{% endif -%}
 
 <div class="role-links">
 
@@ -22,6 +84,9 @@ description: "{{ description }}"
 
 <section id="overview" class="content-section">
 
+{% if summary %}**{{ summary }}**
+
+{% endif -%}
 {{ overview }}
 
 **From Position**: [[{{ resolve(from_position.split('/')[0]) }}]] ({{ from_position.split('/')[1] if '/' in from_position else '' }})
@@ -139,5 +204,7 @@ description: "{{ description }}"
 {% endfor %}
 
 </section>
+
+{{ resolve.related_systems_html(name) }}
 
 </main>

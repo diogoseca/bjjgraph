@@ -1,5 +1,6 @@
 {
   "name": "Knee Slice from Deep Half",
+  "summary": "The knee slice from deep half guard is a top-player pass that cuts the trapped knee diagonally across the bottom player's body while crossface pressure flattens them, converting deep half top into side control.",
   "description": "Master the knee slice pass from deep half guard in BJJ. Complete guide covering setup requirements, execution steps, counters, and defensive strategies.",
   "tags": [
     "bjj",
@@ -29,7 +30,7 @@
     }
   ],
   "success_rate": 50,
-  "overview": "The knee slice from deep half guard is a high-priority passing technique for the top player trapped in an opponent's deep half guard. When an opponent secures deep half, they create a powerful lever system underneath your hips that threatens constant sweeps. The knee slice provides a direct, efficient path to side control by cutting the knee across the opponent's body while using upper body pressure to flatten them and neutralize their sweep mechanics. This pass requires careful coordination between crossface pressure, weight distribution, and leg extraction timing.\n\nStrategically, the knee slice is often the best option when the top player has managed to establish crossface control and partially freed their trapped leg. Unlike the backstep pass which requires disengaging and circling, the knee slice drives directly through the opponent's guard using forward pressure. This makes it particularly effective against opponents who rely on maintaining close proximity and deep underhook control, as the forward drive and crossface pressure work to collapse their guard structure from above.\n\nThe technique demands precise timing because the moment you lift your knee to slice, you briefly reduce your base and create a window for the bottom player to execute sweeps. Successful execution requires committing to the pass with conviction while maintaining enough upper body pressure that the opponent cannot exploit the transitional instability. At higher levels, the knee slice from deep half becomes a chess match between the passer's pressure timing and the guard player's sweep timing.",
+  "overview": "For the top player caught in deep half guard, the knee slice is one of the most direct escape-to-pass options available once upper body control is established. When an opponent secures deep half, they create a powerful lever system underneath your hips that threatens constant sweeps. The knee slice provides a direct, efficient path to side control by cutting the knee across the opponent's body while using upper body pressure to flatten them and neutralize their sweep mechanics. This pass requires careful coordination between crossface pressure, weight distribution, and leg extraction timing.\n\nStrategically, the knee slice is often the best option when the top player has managed to establish crossface control and partially freed their trapped leg. Unlike the backstep pass which requires disengaging and circling, the knee slice drives directly through the opponent's guard using forward pressure. This makes it particularly effective against opponents who rely on maintaining close proximity and deep underhook control, as the forward drive and crossface pressure work to collapse their guard structure from above.\n\nThe technique demands precise timing because the moment you lift your knee to slice, you briefly reduce your base and create a window for the bottom player to execute sweeps. Successful execution requires committing to the pass with conviction while maintaining enough upper body pressure that the opponent cannot exploit the transitional instability. At higher levels, the knee slice from deep half becomes a chess match between the passer's pressure timing and the guard player's sweep timing.",
   "conditions": [
     "Crossface control established against opponent's deep half guard",
     "Opponent's deep underhook partially compromised or manageable",
@@ -77,24 +78,24 @@
       "relationship": "Dangerous counter-sweep the bottom player can execute during knee slice"
     },
     {
-      "name": "Knee Slice from DLR",
-      "relationship": "Related knee slice variation from a different guard position"
-    },
-    {
-      "name": "Knee Slice from Butterfly Half",
-      "relationship": "Related knee slice variation sharing similar mechanics"
-    },
-    {
-      "name": "Knee Cut from Headquarters",
-      "relationship": "Continuation technique if leg extraction transitions through headquarters"
-    },
-    {
       "name": "Half Guard",
       "relationship": "Position that may result from incomplete pass or opponent's guard recovery"
     },
     {
+      "name": "Headquarters Position",
+      "relationship": "Intermediate position the leg may transition through during extraction"
+    },
+    {
       "name": "Deep Half Entry from Half Guard",
       "relationship": "Transition the bottom player uses to re-enter deep half if pass stalls"
+    },
+    {
+      "name": "Knee Shield Half Guard",
+      "relationship": "Defensive structure the bottom player may use to halt the knee slice"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Alternative finishing position when continuing the slice past side control"
     }
   ],
   "attacker": {
@@ -277,6 +278,14 @@
       {
         "question": "After clearing the legs with the knee slice, what are the immediate priorities for consolidation?",
         "answer": "Immediately establish heavy hip-to-hip contact to prevent guard recovery, maintain or intensify crossface pressure to control their upper body, and position your near knee tight against their far hip to block knee insertion. Transition grips from passing configuration to standard side control within two seconds. The first three seconds after clearing the legs are the highest risk for guard recovery, so consolidation speed is critical."
+      },
+      {
+        "question": "What grip on the opponent's far side most effectively shuts down their framing while you slice?",
+        "answer": "Securing an underhook or far-arm overhook on the opponent's far side removes their primary framing arm and creates a tighter passing lane. In gi this can be reinforced with a cross-collar grip, in no-gi with wrist control. Controlling the far arm prevents them from posting, framing on your hip, or initiating the waiter sweep while your knee cuts through."
+      },
+      {
+        "question": "Your knee slice stalls halfway and the opponent begins recovering their underhook - what chain attack opens up?",
+        "answer": "When the slice stalls and the opponent re-establishes deep half leverage, abandon forcing the slice and chain into a backstep pass, using their underhook commitment against them by stepping the trapped leg back and around. Alternatively, if their far arm is exposed during the scramble, attack a kimura grip to occupy the arm before resetting your passing pressure."
       }
     ],
     "safety_considerations": "The knee slice from deep half guard involves significant pressure on the opponent's neck and face from the crossface, as well as knee pressure across their body. Apply crossface with controlled force, avoiding excessive cranking of the neck. During training, communicate with partners about pressure intensity. Be cautious of your knee landing on the opponent's ribs or hip bones during the slice. If the opponent taps due to pressure rather than submission, release immediately and adjust your technique to distribute pressure more broadly."

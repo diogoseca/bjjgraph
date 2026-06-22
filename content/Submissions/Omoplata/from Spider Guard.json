@@ -1,6 +1,7 @@
 {
   "name": "Omoplata from Spider Guard",
   "description": "Master the Omoplata from Spider Guard in BJJ. Complete guide covering entry mechanics, shoulder lock finish, defense strategies, and competition tactics.",
+  "summary": "The Omoplata from Spider Guard is a gi shoulder lock in which the bottom player swings a leg over the opponent's same-side shoulder while retaining the sleeve grip, then sits up perpendicular to crank the trapped arm's shoulder joint.",
   "tags": [
     "bjj",
     "submission",
@@ -47,7 +48,7 @@
     }
   ],
   "success_rate": 40,
-  "overview": "The Omoplata from Spider Guard is a high-percentage shoulder lock submission that exploits the natural arm isolation created by spider guard grips. When the bottom player controls both sleeves with feet on the opponent's biceps, one arm becomes vulnerable to the omoplata entry by swinging the attacking leg over the opponent's shoulder and pivoting the hips to create rotational pressure on the glenohumeral joint. This submission capitalizes on the distance management and sleeve control inherent to spider guard, converting a controlling position into a direct finishing threat.\n\nThe entry relies on breaking the opponent's posture to one side using asymmetric foot pressure and sleeve pulling, then threading the attacking leg over the targeted shoulder while maintaining the sleeve grip. Once the leg clears the shoulder and the attacker sits up perpendicular to the opponent, the shoulder lock mechanics take effect through hip extension and forward pressure on the opponent's flattened torso. The trapped arm acts as a lever against the shoulder joint, with the attacker's legs and hips providing the force multiplication necessary to achieve the tap.\n\nStrategically, the omoplata from spider guard creates a powerful dilemma: opponents who posture up to break spider guard grips expose themselves to the leg swing entry, while those who drive forward with pressure create the angle needed for the hip pivot. This submission integrates seamlessly into spider guard attack chains alongside triangles and armbars, making it a cornerstone technique for any guard player who relies on sleeve-based open guard systems.",
+  "overview": "Among spider guard's submission options, the omoplata stands out for converting the position's built-in arm isolation directly into a finish rather than first passing through a sweep. When the bottom player controls both sleeves with feet on the opponent's biceps, one arm becomes vulnerable to the omoplata entry by swinging the attacking leg over the opponent's shoulder and pivoting the hips to create rotational pressure on the glenohumeral joint. This submission capitalizes on the distance management and sleeve control inherent to spider guard, converting a controlling position into a direct finishing threat.\n\nThe entry relies on breaking the opponent's posture to one side using asymmetric foot pressure and sleeve pulling, then threading the attacking leg over the targeted shoulder while maintaining the sleeve grip. Once the leg clears the shoulder and the attacker sits up perpendicular to the opponent, the shoulder lock mechanics take effect through hip extension and forward pressure on the opponent's flattened torso. The trapped arm acts as a lever against the shoulder joint, with the attacker's legs and hips providing the force multiplication necessary to achieve the tap.\n\nStrategically, the omoplata from spider guard creates a powerful dilemma: opponents who posture up to break spider guard grips expose themselves to the leg swing entry, while those who drive forward with pressure create the angle needed for the hip pivot. This submission integrates seamlessly into spider guard attack chains alongside triangles and armbars, making it a cornerstone technique for any guard player who relies on sleeve-based open guard systems.",
   "safety_considerations": {
     "injury_risks": [
       {
@@ -96,9 +97,9 @@
     "Triangle Choke",
     "Baratoplata",
     "Gogoplata",
-    "Triangle Choke",
     "Americana",
-    "Belly Down Armbar"
+    "Belly Down Armbar",
+    "Armbar"
   ],
   "related_content": [
     {
@@ -135,7 +136,7 @@
     }
   ],
   "attacker": {
-    "name": "from Spider Guard Attacker",
+    "name": "Omoplata from Spider Guard Attacker",
     "description": "Master attacking the Omoplata from Spider Guard. Step-by-step entry mechanics, finishing details, grip management, and chain attacks for shoulder lock success.",
     "overview": "Attacking the Omoplata from Spider Guard requires converting your bilateral sleeve control and foot-on-bicep positioning into a unilateral shoulder lock. The entry begins by creating asymmetric pressure - pulling one sleeve strongly while pushing the opposite bicep away - to isolate the target arm and create the angle needed to swing your leg over the opponent's shoulder. The key mechanical principle is that your spider guard already has the opponent's arm extended and controlled, making the omoplata entry a natural extension of the position rather than a dramatic change of configuration. Success depends on maintaining sleeve control throughout the transition, achieving a perpendicular hip angle to the opponent, and sitting up to apply progressive rotational pressure on the trapped shoulder joint.",
     "key_principles": [
@@ -346,7 +347,7 @@
     ]
   },
   "defender": {
-    "name": "from Spider Guard Defender",
+    "name": "Omoplata from Spider Guard Defender",
     "description": "Learn to defend and escape the Omoplata from Spider Guard. Recognition cues, prevention strategies, escape techniques, and recovery methods for BJJ.",
     "overview": "Defending the Omoplata from Spider Guard requires understanding both early prevention and late-stage escape mechanics. The most effective defense begins before the omoplata is fully established - recognizing the setup cues from spider guard and disrupting the entry before the attacker's leg clears your shoulder. Once the leg is over and the attacker begins sitting up, escape becomes significantly more difficult and the window for safe defense narrows rapidly. The defender must prioritize posture maintenance and grip fighting in spider guard to prevent the conditions that allow the omoplata entry. When caught in a developing omoplata, the forward roll is the highest-percentage escape but must be executed before the attacker secures hip control, or it will be blocked. Understanding the progression from early defense to emergency escape is critical for surviving this submission against skilled spider guard players.",
     "key_principles": [

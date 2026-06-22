@@ -2,6 +2,7 @@
   "name": "Ashi Garami",
   "slug": "ashi-garami",
   "description": "Master Ashi Garami leg entanglements in BJJ. Complete guide to systematic control, hierarchical advancement, heel hooks, and leg lock defense strategies.",
+  "summary": "Ashi Garami is a family of leg-entanglement positions where you trap and isolate an opponent's leg between your own to control their hip, advance through a control hierarchy, and threaten heel hooks, kneebars, and ankle locks.",
   "variant_uniqueness": "Horizontal control negates size advantages",
   "overview": "**Ashi Garami** (足絡み, Japanese for \"leg entanglement\") represents a comprehensive family of leg control positions that form the foundation of modern leg lock systems. Unlike traditional top-bottom positional hierarchies, Ashi Garami positions exist in a horizontal plane where both practitioners compete for leg control and finishing opportunities. This position family has revolutionized competitive Brazilian Jiu-Jitsu and submission grappling, particularly in no-gi formats where the absence of grips makes leg attacks more accessible and effective.\n\nThe Ashi Garami system encompasses multiple variations, each offering distinct tactical advantages and submission pathways. From the fundamental **Outside Ashi-Garami** (standard outside leg entanglement) to the advanced **Saddle** position (the apex of the leg entanglement hierarchy), these positions create a strategic landscape where control, attack, and counter-attack occur simultaneously. The position family includes **50-50 Guard** (bilateral leg entanglement), **Inside Ashi-Garami** (inside leg control), **Cross Ashi-Garami** (cross-body leg control), **Backside 50-50** (reverse bilateral entanglement), **Honey Hole** (legacy name for Saddle), and **Ushiro Ashi-Garami** (reverse leg entanglement), each with specific biomechanical advantages and submission chains.\n\nModern Ashi Garami systems emphasize hierarchical position progression, systematic entry sequences, and mechanical understanding of heel exposure. Unlike older leg lock approaches that relied on explosive attacks from isolated positions, contemporary Ashi Garami methodology treats leg entanglements as positions requiring control maintenance, gradual advancement, and strategic positioning before submission attempts. This systematic approach has proven devastatingly effective at the highest levels of competition in both gi and no-gi formats, with the position hierarchy concept transforming how practitioners approach the leg lock game.\n\nThe strategic value of Ashi Garami positions extends beyond submission threats. These positions offer unique tactical advantages including neutralization of size and strength differentials through horizontal body alignment, creation of scoring opportunities through sweeps and reversals, and forcing opponents into defensive postures that limit their offensive capabilities. The bilateral nature of many Ashi Garami variations creates dilemma situations where defensive actions against one threat expose vulnerabilities to alternative attacks, embodying the modern competition principle of forcing opponents to choose between multiple negative outcomes. This makes Ashi Garami particularly effective for smaller practitioners who can negate physical advantages through technical leg control.\n\nUnderstanding Ashi Garami requires recognizing the position as a complete system rather than isolated techniques. Success in these positions demands mastery of fundamental principles including hip positioning, inside space control, heel exposure mechanics, and transitional pathways between variations. The position family's effectiveness has fundamentally altered competitive grappling strategy, making leg lock defense and Ashi Garami understanding essential components of any complete grappling game. Training progression should follow the positional hierarchy—mastering Outside Ashi control before advancing to Inside Ashi, then Cross Ashi, and finally Saddle—building mechanical understanding at each level before progressing to the next.",
   "key_principles": [
@@ -373,63 +374,67 @@
     "transitions": [
       {
         "transition": "Inside Ashi Entry",
-        "attempt_probability": 70
+        "attempt_probability": 58
       },
       {
         "transition": "Cross Ashi Transition",
-        "attempt_probability": 6
+        "attempt_probability": 4
       },
       {
         "transition": "Heel Hook from Ashi Garami",
-        "attempt_probability": 3
+        "attempt_probability": 2
       },
       {
         "transition": "Straight Ankle Lock Entry",
-        "attempt_probability": 11
+        "attempt_probability": 9
       },
       {
         "transition": "50-50 Entry",
-        "attempt_probability": 4
+        "attempt_probability": 2
       },
       {
         "transition": "Toe Hold from Ashi Garami",
-        "attempt_probability": 4
+        "attempt_probability": 2
       },
       {
         "transition": "Kneebar Setup",
-        "attempt_probability": 1
+        "attempt_probability": 2
       },
       {
         "transition": "Single Leg X Transition",
-        "attempt_probability": 0
+        "attempt_probability": 2
       },
       {
         "transition": "Backside 50-50 Entry from Ashi",
-        "attempt_probability": 0
+        "attempt_probability": 2
       },
       {
         "transition": "Back Take from Ashi",
-        "attempt_probability": 0
+        "attempt_probability": 1
       },
       {
         "transition": "Ashi Garami Maintenance",
-        "attempt_probability": 0
+        "attempt_probability": 1
       },
       {
         "transition": "Heel Strip from Ashi Garami",
-        "attempt_probability": 0
+        "attempt_probability": 1
       },
       {
         "transition": "Standing Up from Ashi Garami",
-        "attempt_probability": 0
+        "attempt_probability": 1
       },
       {
-        "transition": "Aoki Lock",
-        "attempt_probability": 0
+        "transition": "Aoki Lock from Ashi Garami",
+        "attempt_probability": 1
       },
       {
         "transition": "Heel Hook",
         "attempt_probability": 1
+      },
+      {
+        "transition": "Ashi Garami to Toe Hold Control",
+        "attempt_probability": 11
       }
     ],
     "decision_tree": [

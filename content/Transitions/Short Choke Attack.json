@@ -31,7 +31,8 @@
     }
   ],
   "success_rate": 58,
-  "overview": "The Short Choke Attack is a highly efficient strangle executed from the Gift Wrap position that capitalizes on the opponent's compromised defensive capability. With one arm already trapped across their body, the defender has severely limited ability to protect their neck, making this choke significantly higher percentage than standard rear naked choke attempts from back control.\n\nThe mechanics of the Short Choke differ from traditional rear naked chokes in that you use the opponent's own trapped arm as part of the choking structure. Your free arm slides under the chin and connects to your bicep or forearm of the Gift Wrap controlling arm, creating a figure-four configuration that compresses both sides of the neck. This structure requires less space to establish than a standard RNC because you're not threading a second arm behind the head.\n\nStrategically, the Short Choke represents the most direct submission threat from Gift Wrap and should be viewed as the primary attack from this position. When the opponent defends the Short Choke by tucking their chin or using their free hand, this creates openings for secondary attacks including armbar on the free arm, transition to crucifix, or advancement to mounted positions. Understanding this attack tree transforms the Gift Wrap into a systematic submission hunting position rather than a static control.",
+  "summary": "Short Choke Attack is a high-percentage strangle from the Gift Wrap where the attacker slides their free arm under the chin and links it to the opponent's already-trapped arm, forming a figure-four that crushes both carotid arteries.",
+  "overview": "The Short Choke earns its place as the highest-percentage strangle available from the Gift Wrap because the position has already done half the defensive work for you. With one of the opponent's arms pinned high across their own body, they can no longer bring two hands to the neck, and that same trapped limb becomes a structural part of the choke rather than an obstacle to it.\n\nThe mechanics of the Short Choke differ from traditional rear naked chokes in that you use the opponent's own trapped arm as part of the choking structure. Your free arm slides under the chin and connects to your bicep or forearm of the Gift Wrap controlling arm, creating a figure-four configuration that compresses both sides of the neck. This structure requires less space to establish than a standard RNC because you're not threading a second arm behind the head.\n\nStrategically, the Short Choke represents the most direct submission threat from Gift Wrap and should be viewed as the primary attack from this position. When the opponent defends the Short Choke by tucking their chin or using their free hand, this creates openings for secondary attacks including armbar on the free arm, transition to crucifix, or advancement to mounted positions. Understanding this attack tree transforms the Gift Wrap into a systematic submission hunting position rather than a static control.",
   "conditions": [
     "Gift Wrap control fully established with opponent's arm trapped high across chest",
     "Back control maintained with hooks or body triangle",
@@ -52,7 +53,7 @@
       "relationship": "Chain attack - available when opponent uses free arm to defend choke"
     },
     {
-      "name": "Crucifix Transition",
+      "name": "Back Control to Crucifix",
       "relationship": "Positional advancement - accessible when opponent defends choke by turning away"
     },
     {

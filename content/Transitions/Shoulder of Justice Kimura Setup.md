@@ -10,6 +10,41 @@ description: "Master the Kimura setup from Shoulder of Justice in BJJ. Learn how
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Shoulder of Justice Kimura Setup",
+  "description": "Master the Kimura setup from Shoulder of Justice in BJJ. Learn how shoulder pressure forces arm exposure for high-percentage Kimura Trap entries.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Shoulder of Justice Kimura Setup", "item": "https://bjjgraph.org/Transitions/Shoulder-of-Justice-Kimura-Setup" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Shoulder of Justice Kimura Setup",
+  "description": "The Shoulder of Justice Kimura Setup is a top-side-control transition that weaponizes crushing shoulder-to-jaw pressure to bait the opponent's near arm into extending, then threads a figure-four grip to capture Kimura Trap control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Kimura setup from Shoulder of Justice in BJJ. Learn how
 </div>
 
 <section id="overview" class="content-section">
+
+**The Shoulder of Justice Kimura Setup is a top-side-control transition that weaponizes crushing shoulder-to-jaw pressure to bait the opponent's near arm into extending, then threads a figure-four grip to capture Kimura Trap control.**
 
 The Shoulder of Justice Kimura Setup is a high-percentage transition that exploits the natural defensive reactions provoked by relentless jaw pressure. When the top player drives their shoulder blade deep into the opponent's temporomandibular joint, the bottom player faces a critical dilemma: endure the crushing discomfort or extend their near arm to relieve the pressure. This extension is the exact trigger the top player waits for, as it exposes the arm for a figure-four Kimura grip that transitions into the devastating Kimura Trap control position.
 
@@ -226,5 +263,7 @@ The Shoulder of Justice Kimura Setup serves as the primary bridge between the Sh
 
 
 </section>
+
+
 
 </main>

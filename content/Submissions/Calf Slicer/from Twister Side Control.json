@@ -1,5 +1,6 @@
 {
   "name": "Calf Slicer from Twister Side Control",
+  "summary": "The calf slicer from twister side control is a leg compression submission that exploits the 10th Planet position's leg entanglement, threading the shin behind the opponent's knee and folding the foot toward the buttocks to compress the calf and stretch the Achilles tendon.",
   "description": "Learn the calf slicer from twister side control with expert finishing mechanics, defensive strategies, and safety protocols for advanced BJJ practitioners.",
   "tags": [
     "bjj",
@@ -327,7 +328,8 @@
       },
       {
         "question": "In competition, what finishing adjustments maximize tap probability against a flexible opponent who is resisting the compression?",
-        "answer": "Against flexible opponents, increase the mechanical advantage by deepening the shin placement slightly toward the thicker part of the calf and using a figure-four ankle lock grip for maximum foot control. Increase hip drive incrementally rather than all at once. If standard compression is insufficient, add a slight lateral twist to the fold that attacks the Achilles tendon at an angle rather than pure compression. Combine with verbal pressure and constant positional threat to create psychological urgency alongside the physical pressure."
+        "answer": "Against flexible opponents, increase the mechanical advantage by deepening the shin placement slightly toward the thicker part of the calf and using a figure-four ankle lock grip for maximum foot control. Increase hip drive incrementally rather than all at once. If standard compression is insufficient, add a slight lateral twist to the fold that attacks the Achilles tendon at an angle rather than pure compression. Combine with verbal pressure and constant positional threat to create psychological urgency alongside the physical pressure.",
+        "safety_critical": false
       }
     ]
   },

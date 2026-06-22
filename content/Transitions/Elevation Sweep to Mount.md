@@ -10,6 +10,41 @@ description: "Learn Elevation Sweep from Reverse X-Guard in BJJ. Step-by-step ex
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Elevation Sweep to Mount",
+  "description": "Learn Elevation Sweep from Reverse X-Guard in BJJ. Step-by-step execution using hip lift mechanics. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Elevation Sweep to Mount", "item": "https://bjjgraph.org/Transitions/Elevation-Sweep-to-Mount" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Elevation Sweep to Mount",
+  "description": "Elevation Sweep to Mount is a high-amplitude Reverse X-Guard sweep that uses explosive hip extension and stacked hooks to lift a standing opponent vertically and topple them backward, depositing the guard player directly into mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Learn Elevation Sweep from Reverse X-Guard in BJJ. Step-by-step ex
 
 <section id="overview" class="content-section">
 
-The Elevation Sweep to Mount is a high-amplitude sweep executed from Reverse X-Guard that uses powerful hip extension to lift and topple the opponent directly into the mounted position. This technique capitalizes on the inverted hook configuration of Reverse X-Guard, where the primary hook behind the opponent's knee and secondary hook on the hip create an optimal platform for vertical lifting. The sweep generates power through coordinated hip elevation, leg extension, and upper body grip manipulation to completely disrupt the opponent's base.
+**Elevation Sweep to Mount is a high-amplitude Reverse X-Guard sweep that uses explosive hip extension and stacked hooks to lift a standing opponent vertically and topple them backward, depositing the guard player directly into mount.**
+
+Within the modern leg-entanglement and X-Guard family, the Elevation Sweep occupies the role of the highest-reward direct attack from Reverse X-Guard: rather than grinding through intermediate sweeps or scrambles, it converts the inverted hook structure into a single vertical lift that ends in the most dominant pin in the sport. This technique capitalizes on the inverted hook configuration of Reverse X-Guard, where the primary hook behind the opponent's knee and secondary hook on the hip create an optimal platform for vertical lifting. The sweep generates power through coordinated hip elevation, leg extension, and upper body grip manipulation to completely disrupt the opponent's base.
 
 Strategically, the Elevation Sweep represents the highest-reward option from Reverse X-Guard because it bypasses intermediate positions entirely, taking you directly to the 4-point mount position. The technique works best against opponents who maintain an upright posture with evenly distributed weight, as this positioning makes them vulnerable to being lifted straight up and over. The key mechanical principle involves loading your hips underneath the opponent's center of gravity, then explosively extending to project them backward while you follow to establish mount.
 
@@ -220,5 +257,7 @@ The Elevation Sweep to Mount occupies a central position within the Reverse X-Gu
 
 
 </section>
+
+
 
 </main>

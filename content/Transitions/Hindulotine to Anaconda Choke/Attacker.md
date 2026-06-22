@@ -16,7 +16,7 @@ description: "How to execute Hindulotine to Anaconda Choke in BJJ. Attacking per
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Hindulotine to Anaconda Choke in BJJ",
-  "description": "Step-by-step guide for executing Hindulotine to Anaconda Choke from Hindulotine/Top.",
+  "description": "Step-by-step guide for executing Hindulotine to Anaconda Choke from Hindulotine/Bottom.",
   "step": [
     {
       "@type": "HowToStep",
@@ -178,7 +178,7 @@ This transition is particularly effective from the bottom Hindulotine position b
 
 Strategically, threatening this transition forces opponents into a dilemma: maintain tight defensive posture and remain vulnerable to the guillotine, or create space to relieve pressure and expose themselves to the anaconda. Advanced practitioners use this dynamic to control the pace of engagement, keeping opponents reactive rather than allowing them to establish settled defensive positions.
 
-**From Position**: [[Positions/Hindulotine]] (Top)
+**From Position**: [[Positions/Hindulotine]] (Bottom)
 
 </section>
 
@@ -325,5 +325,7 @@ Integrate into full sparring from front headlock and guard positions. Work on cr
 The anaconda choke applies pressure to the carotid arteries and can cause rapid loss of consciousness. Always practice with controlled pressure and tap early when caught. During drilling, apply submissions progressively and release immediately upon tap. Partners should establish clear tap signals before training. Avoid jerking or explosive movements when applying the choke, as this can cause neck strain. If training partner becomes unresponsive, release immediately and place them in recovery position. This technique should not be practiced at full intensity without proper supervision. Those with neck injuries or cervical spine issues should consult medical professionals before training this position.
 
 </section>
+
+
 
 </main>

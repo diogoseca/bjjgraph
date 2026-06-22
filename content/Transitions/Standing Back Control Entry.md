@@ -10,6 +10,41 @@ description: "Master the Standing Back Control Entry in BJJ. Learn to follow opp
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Standing Back Control Entry",
+  "description": "Master the Standing Back Control Entry in BJJ. Learn to follow opponents to standing while maintaining hooks, seatbelt grip, and chest-to-back connection.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Standing Back Control Entry", "item": "https://bjjgraph.org/Transitions/Standing-Back-Control-Entry" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Standing Back Control Entry",
+  "description": "Standing Back Control Entry is the technique of riding an opponent's stand-up escape to transition from grounded back control into standing back control while keeping both hooks, the seatbelt grip, and chest-to-back connection intact through the vertical plane change.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Standing Back Control Entry in BJJ. Learn to follow opp
 </div>
 
 <section id="overview" class="content-section">
+
+**Standing Back Control Entry is the technique of riding an opponent's stand-up escape to transition from grounded back control into standing back control while keeping both hooks, the seatbelt grip, and chest-to-back connection intact through the vertical plane change.**
 
 Standing Back Control Entry is the critical transition of following your opponent from grounded back control to standing back control as they attempt to rise to their feet. This technique occurs most frequently when an opponent in bottom back control uses a standing escape strategy, driving upward from the ground to break the controlling player's hooks and create separation. Rather than abandoning back control during this positional change, the skilled practitioner rides the movement, adjusting hooks, maintaining seatbelt grip, and preserving chest-to-back connection throughout the vertical transition.
 
@@ -208,7 +245,7 @@ Standing Back Control Entry occupies a crucial role in the back attack system as
 
 - [[Positions/Half Guard]] - Counter outcome position where the attacker may end up if the transition fails and the opponent escapes
 
-- [[Transitions/Mat Return from Standing Rear Clinch]] - Follow-up technique used to bring the fight back to the ground after achieving standing back control
+- [[Transitions/Mat Return to Back Mount]] - Follow-up technique used to bring the fight back to the ground after achieving standing back control
 
 - [[Transitions/Back Control Maintenance]] - Complementary retention technique for maintaining grounded back control when the standing transition is not pursued
 
@@ -222,5 +259,7 @@ Standing Back Control Entry occupies a crucial role in the back attack system as
 
 
 </section>
+
+
 
 </main>

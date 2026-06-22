@@ -38,20 +38,20 @@ description: "Master Williams Guard Top defense and passing strategies. Learn to
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Knee Cut Pass",
-      "text": "From this position, attempt Knee Cut Pass. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Posture Recovery",
+      "text": "From this position, attempt Posture Recovery. This technique is attempted in 30% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Posture Recovery",
-      "text": "From this position, attempt Posture Recovery. This technique is attempted in 30% of exchanges from this position.",
+      "name": "Execute Knee Slice Pass",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 25% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Posture from Williams Guard",
+      "text": "From this position, attempt Posture from Williams Guard. This technique is attempted in 5% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -223,7 +223,7 @@ Williams Guard Top represents the challenging defensive and passing position fac
 
 
 **Else if opponent sets up triangle by opening guard wider:**
-- Execute **[[Transitions/Knee Cut Pass/Attacker|Knee Cut Pass]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Cut Pass]]** → [[Positions/Side Control]] (Probability: 70%)
 - Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
@@ -353,5 +353,7 @@ Start in Williams Guard Top with arm controlled. Partner works for submissions a
 
 
 </section>
+
+
 
 </main>

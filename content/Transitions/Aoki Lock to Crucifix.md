@@ -10,6 +10,41 @@ description: "Learn Aoki Lock to Crucifix transition in BJJ. Convert shoulder lo
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Aoki Lock to Crucifix",
+  "description": "Learn Aoki Lock to Crucifix transition in BJJ. Convert shoulder lock control to bilateral arm trap for dominant crucifix position with multiple submission options.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Aoki Lock to Crucifix", "item": "https://bjjgraph.org/Transitions/Aoki-Lock-to-Crucifix" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Aoki Lock to Crucifix",
+  "description": "Aoki Lock to Crucifix is an advanced no-gi transition that converts unilateral shoulder-lock control into bilateral arm trapping, keeping the near arm pinned by the legs while capturing the exposed far arm to reach the dominant crucifix position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Learn Aoki Lock to Crucifix transition in BJJ. Convert shoulder lo
 </div>
 
 <section id="overview" class="content-section">
+
+**Aoki Lock to Crucifix is an advanced no-gi transition that converts unilateral shoulder-lock control into bilateral arm trapping, keeping the near arm pinned by the legs while capturing the exposed far arm to reach the dominant crucifix position.**
 
 The Aoki Lock to Crucifix transition represents a high-level positional advancement that converts unilateral shoulder lock control into the devastatingly dominant bilateral arm trap of the crucifix. This transition capitalizes on the opponent's defensive responses to the Aoki Lock—when they focus on protecting their trapped shoulder and preventing the finish, they often expose their far arm, creating the opportunity to capture both limbs and achieve complete weapons denial.
 
@@ -222,5 +259,7 @@ The Aoki Lock to Crucifix transition sits within the advanced turtle and back at
 
 
 </section>
+
+
 
 </main>

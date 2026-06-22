@@ -10,6 +10,41 @@ description: "Master the Double Sleeve Sweep in BJJ. Complete guide to executing
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Double Sleeve Sweep",
+  "description": "Master the Double Sleeve Sweep in BJJ. Complete guide to executing and defending this high-percentage guard sweep from bilateral sleeve control to mount.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Double Sleeve Sweep", "item": "https://bjjgraph.org/Transitions/Double-Sleeve-Sweep" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Double Sleeve Sweep",
+  "description": "The Double Sleeve Sweep is a gi open-guard reversal that uses bilateral sleeve control and feet-on-hips frames to off-balance the top player with asymmetric push-pull force, toppling them sideways into mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,9 +57,11 @@ description: "Master the Double Sleeve Sweep in BJJ. Complete guide to executing
 
 <section id="overview" class="content-section">
 
-The Double Sleeve Sweep is a fundamental sweep from Double Sleeve Guard that exploits bilateral sleeve control to generate rotational force and off-balance the top player. By combining asymmetric sleeve pulls with strategic foot placement on the hips, the bottom player creates a push-pull dynamic that compromises the top player's base and directs their fall to one side. The sweep's effectiveness stems from controlling both arms simultaneously, which prevents the opponent from posting to stop the sweep and limits their ability to create a counterbalancing frame.
+**The Double Sleeve Sweep is a gi open-guard reversal that uses bilateral sleeve control and feet-on-hips frames to off-balance the top player with asymmetric push-pull force, toppling them sideways into mount.**
 
-This sweep serves as the signature offensive technique from Double Sleeve Guard, differentiating it from the Tripod Sweep or Sickle Sweep through its reliance on upper body directional control rather than ankle hooks. The bilateral sleeve control provides a unique mechanical advantage: when one sleeve is pulled across the body while the opposite foot pushes the hip, the opponent faces a rotational force they cannot resist without freeing at least one arm. This creates a dilemma where grip fighting to free the arms opens the sweep, and maintaining defensive posture invites continued off-balancing pressure.
+Within the gi open-guard hierarchy, this sweep is the signature reversal that turns Double Sleeve Guard from a holding pattern into a genuine offensive threat. By combining asymmetric sleeve pulls with strategic foot placement on the hips, the bottom player creates a push-pull dynamic that compromises the top player's base and directs their fall to one side. The sweep's effectiveness stems from controlling both arms simultaneously, which prevents the opponent from posting to stop the sweep and limits their ability to create a counterbalancing frame.
+
+This sweep serves as the primary offensive technique from Double Sleeve Guard, differentiating it from the Tripod Sweep or Sickle Sweep through its reliance on upper body directional control rather than ankle hooks. The bilateral sleeve control provides a unique mechanical advantage: when one sleeve is pulled across the body while the opposite foot pushes the hip, the opponent faces a rotational force they cannot resist without freeing at least one arm. This creates a dilemma where grip fighting to free the arms opens the sweep, and maintaining defensive posture invites continued off-balancing pressure.
 
 At intermediate and advanced levels, the Double Sleeve Sweep becomes the entry point for a broader sweep chain system. When the opponent defends the primary sweep direction by posting wide, the bottom player can redirect to an overhead sweep using both feet on hips. When the opponent drives forward to prevent the overhead, the scissor variation becomes available. This adaptability makes the sweep difficult to defend against skilled practitioners who can read weight distribution and redirect force accordingly.
 
@@ -220,5 +257,7 @@ The Double Sleeve Sweep integrates into the Double Sleeve Guard system as the pr
 
 
 </section>
+
+
 
 </main>

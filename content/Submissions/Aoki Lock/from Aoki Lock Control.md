@@ -4,16 +4,61 @@
 
 ---
 title: "Aoki Lock from Aoki Lock Control | BJJ Submission | BJJ Graph"
-description: "Complete guide to finishing the Aoki Lock submission from Aoki Lock control. Shoulder lock mechanics, progressive pressure application, and key defensive counters."
+description: "Complete guide to finishing the Aoki Lock leg compression from Aoki Lock control. Figure-four foot trap, plantar-flexion mechanics, and key defensive counters."
 ---
 
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Aoki Lock from Aoki Lock Control targets the Shoulder joint (glenohumeral complex and rotator cuff). Risk: Shoulder dislocation (glenohumeral subluxation or complete dislocation from excessive rotational force). Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Aoki Lock from Aoki Lock Control",
+  "description": "Complete guide to finishing the Aoki Lock leg compression from Aoki Lock control. Figure-four foot trap, plantar-flexion mechanics, and key defensive counters.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Aoki Lock from Aoki Lock Control", "item": "https://bjjgraph.org/Submissions/Aoki-Lock-from-Aoki-Lock-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Aoki Lock from Aoki Lock Control",
+  "description": "The Aoki Lock from Aoki Lock Control is a leg-compression finish where the attacker traps the foot in a figure-four and squeezes the legs together to drive extreme plantar flexion, crushing the shin and calf to force a rapid tap.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Aoki Lock from Aoki Lock Control is a leg-compression finish where the attacker traps the foot in a figure-four and squeezes the legs together to drive extreme plantar flexion, crushing the shin and calf to force a rapid tap.**
+<div class="principle-meta">
+<span class="meta-chip">Compression</span>
+<span class="meta-chip">Leg Compression</span>
+<span class="meta-chip">Targets Shin and ankle compression (forced plantar flexion crushing the shin, calf, and Achilles)</span>
+<span class="meta-chip">50% success</span>
+</div>
+
+> [!danger] Safety
+> Aoki Lock from Aoki Lock Control targets the Shin and ankle compression (forced plantar flexion crushing the shin, calf, and Achilles). Primary risk: Achilles tendon strain or rupture from sudden loading in extreme plantar flexion. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -24,57 +69,13 @@ description: "Complete guide to finishing the Aoki Lock submission from Aoki Loc
 
 <section id="overview" class="content-section">
 
-The Aoki Lock from Aoki Lock control represents the culmination of this signature shoulder lock system, where the attacker converts established leg entanglement into a fight-ending submission through progressive rotational pressure on the glenohumeral joint. This finish is mechanically distinct from other shoulder locks because the primary control is leg-based rather than grip-based, freeing the hands to manage hip control and prevent defensive rotation. The biomechanical advantage is substantial: the attacker's entire lower body generates torque against a single joint.
+The Aoki Lock from Aoki Lock control represents the culmination of this signature leg-entanglement system, where the attacker converts established foot and ankle isolation into a fight-ending compression submission. Named after Japanese MMA fighter Shinya Aoki, the lock attacks the shin, calf, and ankle simultaneously through extreme plantar flexion rather than isolating a single joint, which makes it brutally effective and hard to ride out once locked. The primary control is leg-based: the attacker traps the opponent's foot inside a figure-four configuration and uses the large muscles of the legs and hips to generate compression, freeing the hands to manage distance and prevent the opponent from spinning out.
 
-From the Aoki Lock position, the attacker has already secured the critical leg entanglement with thigh over the opponent's shoulder and shin controlling the upper arm. The finishing sequence focuses on driving the hips forward and downward to create external rotation on the trapped shoulder while maintaining arm extension through leg pressure. Unlike Americana or Kimura finishes where grip strength is paramount, the Aoki Lock finish relies on body positioning and hip movement for force generation.
+From the Aoki Lock control position, the attacker has already secured the leg entanglement with the foot trapped between the legs and the figure-four closing the loop. The finishing sequence focuses on squeezing the knees together while extending the hips, forcing the trapped foot into extreme plantar flexion while crushing the shin and calf against the attacker's own leg. Unlike a heel hook, which isolates rotational force on the knee through tibial torsion, the Aoki Lock distributes pressure across multiple structures of the lower leg at once, so it can finish even when classic heel-hook defenses are strong.
 
-Strategically, this finish carries a 50% overall success rate reflecting the strong positional control offset by the technical precision required for safe application. When defended, the attacker retains positional advantage and can flow to back control, crucifix, or truck positions, making the Aoki Lock a versatile offensive hub rather than a single-dimension attack.
+Strategically, this finish carries a 50% overall success rate reflecting strong positional control offset by the leg dexterity and precision required for safe application. When defended, the attacker retains the entanglement and can flow back to control, re-isolate for a heel hook or kneebar, or chase the scramble, making the Aoki Lock a versatile offensive hub rather than a single-dimension attack.
 
-**Category**: Joint Lock
-**Type**: Shoulder Lock
-**Target Area**: Shoulder joint (glenohumeral complex and rotator cuff)
-**Starting Position**: [[Positions/Aoki Lock Control]]
-**From Position**: [[Positions/Aoki Lock Control]] (Top)
-**Success Rate**: 50%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Shoulder dislocation (glenohumeral subluxation or complete dislocation from excessive rotational force) | CRITICAL | 3-6 months, may require surgical repair and extensive rehabilitation |
-| Rotator cuff tear (partial or complete tear of supraspinatus, infraspinatus, or subscapularis tendons) | High | 2-6 months, surgery required for complete tears |
-| Glenoid labrum tear from excessive rotational force on shoulder capsule | High | 3-6 months, often requires arthroscopic surgery |
-| Shoulder capsule sprain (stretching or tearing of glenohumeral ligaments) | Medium | 2-8 weeks with rest and rehabilitation |
-
-
-**Application Speed**: SLOW and PROGRESSIVE. Apply pressure gradually over 3-5 seconds minimum using controlled hip drive. Never jerk, spike, or explosively apply rotational force to the shoulder joint. Allow adequate time for partner to recognize danger and tap.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner, mat, or any available surface
-- Physical foot tap on mat with free leg
-- Any unusual screaming, groaning, or distress vocalization
-
-
-**Release Protocol**:
-1. Release leg entanglement pressure immediately upon any tap signal without question or hesitation
-2. If in doubt whether partner tapped, release immediately and ask before continuing
-3. After release, allow opponent's shoulder to return to neutral position naturally without forcing it
-4. Monitor partner for shoulder injury after release — check mobility, pain level, and range of motion before continuing
-
-
-**Training Restrictions**:
-- Practice finishing pressure only with experienced partners who understand shoulder lock risks and mechanics
-- Never apply full finishing pressure speed in training — always use slow progressive application even when drilling at speed
-- Beginners should not attempt this finish until they have demonstrated shoulder lock safety awareness under qualified instruction
-- Do not apply this submission to partners with pre-existing shoulder injuries or recent shoulder surgery
-
+**Starting Position**: [[Positions/Aoki Lock Control]] · **From**: [[Positions/Aoki Lock Control]] (Top)
 
 </section>
 
@@ -98,7 +99,7 @@ Strategically, this finish carries a 50% overall success rate reflecting the str
 | &nbsp; | Attacker | Defender |
 |--------|----------|----------|
 | **Focus** | Execute and finish | Escape and survive |
-| **Key Principles** | Control the shoulder rotation angle through precise leg enta... | Keep shoulder internally rotated to resist the external rota... |
+| **Key Principles** | Secure the foot in the figure-four before applying any compr... | Keep the foot in dorsiflexion (toes toward shin) to resist t... |
 | **Options** | 7 execution steps | 4 defensive options |
 
 </section>
@@ -112,51 +113,51 @@ Strategically, this finish carries a 50% overall success rate reflecting the str
 ### Key Principles
 
 
-- Control the shoulder rotation angle through precise leg entanglement positioning before initiating any finish pressure
+- Secure the foot in the figure-four before applying any compression so the closed loop, not your arms, generates the force
 
-- Drive hips forward and downward to generate rotational force on the glenohumeral joint using body weight rather than muscular effort
+- Squeeze the knees together while extending the hips to drive the trapped foot into extreme plantar flexion using body mechanics rather than grip
 
-- Maintain posted leg base close to opponent's body creating a stable platform for sustained pressure generation
+- Distribute pressure across the entire shin and calf rather than isolating the ankle joint so flexible opponents cannot ride it out
 
-- Keep opponent's trapped elbow extended away from their torso through active leg squeezing to maximize shoulder torque
+- Keep the foot seated deep in the compression pocket — any slack lets the opponent dorsiflex and relieve the lock
 
-- Apply pressure progressively over 3-5 seconds minimum with constant monitoring for tap signals
+- Apply pressure progressively over 5-7 seconds minimum with constant monitoring for tap signals
 
-- Control opponent's far hip with both hands to prevent the defensive rotation that neutralizes shoulder pressure
+- Use your hands to manage the opponent's distance and posture, preventing the sit-up or spin that neutralizes the compression
 
 
 ### Execution Steps
 
 
-- **Confirm Leg Entanglement**: Verify your thigh is positioned directly over opponent's shoulder joint with your shin wrapping thei...
+- **Confirm the Figure-Four Trap**: Verify the opponent's foot is trapped between your legs with the figure-four loop closed by hooking ...
 
-- **Establish Base Position**: Post your free leg close to opponent's body on the mat-side hip, distributing your weight through yo...
+- **Seat the Foot in the Pocket**: Use your hands to guide the opponent's heel and ankle deep into the space created by your figure-fou...
 
-- **Secure Hip Control**: Place both hands on opponent's far hip to block their primary escape route, preventing them from rot...
+- **Manage Distance and Posture**: Brace your hands on the opponent's knee or hip to block their sit-up and prevent them from spinning ...
 
-- **Set Shoulder Angle**: Use your leg entanglement to keep opponent's trapped elbow pointing away from their torso, maximizin...
+- **Set the Hip Extension**: Position your hips so you can extend and elevate away from the opponent while keeping the figure-fou...
 
-- **Initiate Progressive Pressure**: Begin driving your hips forward and downward into the opponent's shoulder joint slowly over three to...
+- **Apply Gradual Compression**: Begin squeezing your knees together while extending your hips slowly over five to seven seconds, cru...
 
-- **Monitor Tap Signals**: While increasing pressure, maintain constant awareness of all tap indicators including verbal signal...
+- **Monitor Tap Signals**: While increasing compression, maintain constant awareness of all tap indicators including verbal sig...
 
-- **Complete or Transition**: If opponent taps, release immediately following safety protocol. If they defend effectively by adjus...
+- **Complete or Transition**: If opponent taps, release immediately following safety protocol. If they defend effectively by dorsi...
 
 
 ### Common Mistakes
 
 
-- **Applying explosive or jerking pressure instead of progressive gradual application**
-  - Consequence: Serious shoulder injury to training partner including dislocation, rotator cuff tear, or labrum damage with months of recovery
-  - Correction: Always build pressure over 3-5 seconds minimum using controlled hip drive. Treat every training application as if your partner's shoulder health depends on your control — because it does.
+- **Applying explosive or jerking compression instead of progressive gradual application**
+  - Consequence: Serious lower-leg injury to training partner including Achilles rupture, ankle ligament damage, or calf tear with months of recovery
+  - Correction: Always build compression over 5-7 seconds minimum using a smooth leg squeeze and hip extension. Treat every training application as if your partner's ankle and Achilles depend on your control — because they do.
 
-- **Posting free leg too far from opponent's body reducing hip pressure effectiveness**
-  - Consequence: Opponent gains space to rotate their shoulder, reducing torque and creating openings for arm extraction or guard recovery
-  - Correction: Keep posted leg close to opponent's body maintaining constant downward hip pressure into the shoulder joint throughout the finish
+- **Seating the foot too shallow in the compression pocket**
+  - Consequence: Opponent gains slack to dorsiflex and pull the foot free, reducing plantar flexion and creating openings for extraction or scramble
+  - Correction: Guide the heel and ankle deep into the figure-four pocket and keep the loop tight so any squeeze drives the foot into plantar flexion rather than letting it slip out
 
-- **Allowing opponent's elbow to bend back toward their torso**
-  - Consequence: Shoulder lock loses mechanical advantage as the moment arm shortens, allowing opponent to resist the rotational pressure
-  - Correction: Maintain active leg squeeze around opponent's upper arm keeping elbow extended away from their body throughout the finishing sequence
+- **Relying only on the leg squeeze while neglecting hip extension**
+  - Consequence: Minimal breaking force is generated and a flexible opponent rides out the compression, allowing them to defend or escape
+  - Correction: Combine the knee squeeze with active hip extension — the opposing forces are what crush the shin and force plantar flexion together
 
 
 </section>
@@ -170,41 +171,41 @@ Strategically, this finish carries a 50% overall success rate reflecting the str
 ### Key Principles
 
 
-- Keep shoulder internally rotated to resist the external rotation pressure generated by opponent's hip drive
+- Keep the foot in dorsiflexion (toes toward shin) to resist the plantar flexion the attacker needs to finish
 
-- Address the leg entanglement first before attempting arm extraction — pulling your arm without freeing the legs increases shoulder torque
+- Address the figure-four and foot trap first — pulling your leg straight back without freeing the loop drives the foot deeper into compression
 
-- Roll toward your trapped arm direction following the path of least resistance rather than fighting against the pressure angle
+- Extract the foot before the figure-four closes, using internal hip rotation and a knee-to-chest pull while the loop still has slack
 
-- Use your free hand to attack opponent's posted leg base or control their hip to create escape angles
+- Sit up and posture forward to collapse the attacker's hip extension and break the compression structure
 
-- Recognize your tap threshold early — shoulder injuries from this position include rotator cuff tears, labrum damage, and dislocation
+- Recognize your tap threshold early — Aoki Lock injuries include Achilles rupture, ankle ligament damage, and calf tears that accumulate before pain registers
 
-- Create continuous movement toward escape rather than holding static defensive positions that allow opponent to perfect their pressure
+- Create continuous movement toward escape rather than holding static positions that let the attacker perfect the squeeze
 
 
 ### Recognition Cues
 
 
-- Opponent's legs wrapping around your arm and shoulder with their thigh settling directly over your shoulder joint
+- Opponent weaving their legs into a figure-four around your lower leg and trapping your foot between their legs
 
-- Increasing rotational pressure on your shoulder from opponent's hip drive pushing forward and downward
+- Increasing squeezing compression on your shin and calf rather than a twisting force on your knee
 
-- Your trapped arm being forced into extension with elbow pointing away from your body through leg pressure
+- Your foot being guided into plantar flexion (toes pointing) as it is seated deeper into the compression pocket
 
-- Opponent's hands controlling your far hip preventing you from rotating to relieve shoulder pressure
+- Opponent extending and elevating their hips away from you while keeping the leg entanglement tight
 
-- Loss of ability to bend your trapped elbow back toward your torso indicating the entanglement is fully secured
+- Loss of ability to dorsiflex or extract your foot indicating the figure-four is fully secured
 
 
 ### Escape Paths
 
 
-- Roll toward trapped arm to relieve shoulder torque, using opponent's forward pressure momentum to assist guard recovery
+- Extract the foot through dorsiflexion, internal hip rotation, and a knee-to-chest pull before the figure-four locks, returning to neutral entanglement control
 
-- Attack opponent's posted leg base with free hand to destabilize their platform, then extract arm through loosened leg entanglement
+- Sit up and posture forward to collapse the attacker's hip extension, breaking the figure-four structure before compression engages
 
-- Hip escape toward trapped arm side when leg entanglement loosens during opponent's adjustments to recover open guard
+- Roll toward the trapped leg following the entanglement to create a scramble and recover closed guard when the loop loosens
 
 
 </section>
@@ -215,13 +216,13 @@ Strategically, this finish carries a 50% overall success rate reflecting the str
 ## Variations
 
 
-**Standard Hip Drive Finish**: The primary finishing method where the attacker drives hips forward and downward to generate external rotation on the trapped shoulder. Relies on body weight through hip positioning rather than muscular effort, creating sustainable pressure that is difficult to defend through strength alone. (When to use: Default finishing approach when leg entanglement is secure and opponent's shoulder is properly isolated with elbow extended)
+**Standard Squeeze-and-Extend Finish**: The primary finishing method where the attacker squeezes the knees together while extending the hips to drive the trapped foot into extreme plantar flexion. Relies on the large leg muscles and the closed figure-four loop rather than grip strength, creating sustainable compression that is difficult to defend through dorsiflexion alone. (When to use: Default finishing approach when the figure-four is secure and the opponent's foot is seated correctly in the compression pocket)
 
 
-**Rolling Follow Finish**: When the opponent initiates a forward roll to escape, the attacker follows their momentum while maintaining leg entanglement and shoulder control. The roll often tightens the shoulder lock as the opponent's rotation compounds the existing rotational pressure on the joint. (When to use: When opponent attempts to roll through the position — follow rather than resist their movement to compound shoulder torque)
+**Rolling Follow Finish**: When the opponent initiates a roll to escape, the attacker follows their momentum while maintaining the figure-four and entanglement. The roll often tightens the compression as the opponent's rotation seats the foot deeper into plantar flexion against the attacker's leg. (When to use: When opponent attempts to roll through the position — follow rather than resist their movement to compound the compression)
 
 
-**Wrist Control Compound Finish**: Adding wrist manipulation to the standard hip drive by controlling the opponent's trapped hand and rotating it palm-up while applying shoulder pressure. This compounds the submission by attacking both the shoulder and wrist simultaneously, reducing defensive options. (When to use: When opponent's shoulder defense is strong and standard hip drive alone is insufficient to generate the tap)
+**Heel Hook Dilemma Finish**: Threaten an inside heel hook to draw the opponent into rotation defense, then close the figure-four and finish with compression when they overcommit to defending the knee. The setup appears similar to a heel hook but finishes through shin and ankle crush, creating a powerful dilemma. (When to use: When the opponent's heel-hook defense is strong and standard compression alone is being resisted)
 
 
 
@@ -233,45 +234,63 @@ Strategically, this finish carries a 50% overall success rate reflecting the str
 ## From Which Positions?
 
 - [[Positions/Aoki Lock Control]]
-- [[Positions/Omoplata Control]]
+- [[Positions/Ashi Garami]]
 
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Transitions/Aoki Lock]]
-- [[Submissions/Americana]]
-- [[Submissions/Kimura]]
-- [[Submissions/Monoplata]]
-- [[Positions/Half Guard/Electric Chair]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
+- [[Submissions/Inside Heel Hook]]
+- [[Transitions/Outside Heel Hook]]
+- [[Transitions/Kneebar]]
+- [[Submissions/Straight Ankle Lock]]
 - [[Positions/Aoki Lock Control]] - Starting control position for this finish
-- [[Positions/Omoplata Control]] - Similar shoulder lock control mechanics with different leg configuration
-- [[Positions/Back Control]] - Primary transition target when finish is defended
-- [[Transitions/Aoki Lock]] - Generic finishing technique across all entry positions
-- [[Positions/Kimura Trap]] - Related shoulder lock control system with grip-based isolation
+- [[Positions/Ashi Garami]] - Related leg-entanglement control with the same compression mechanics
+
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Achilles tendon strain or rupture from sudden loading in extreme plantar flexion | CRITICAL | 8-16 weeks, potential surgery and extensive rehabilitation |
+| Ankle ligament damage (ATFL, deltoid ligament) from forced plantar flexion and compression | High | 6-12 weeks for grade 2-3 sprains |
+| Plantar fascia strain or tear from extreme foot extension | High | 4-8 weeks with potential chronic issues |
+| Calf muscle tear or compartment syndrome from sustained shin and calf compression | Medium | 3-6 weeks |
+
+
+**Application Speed**: SLOW and PROGRESSIVE. Apply compression gradually over 5-7 seconds minimum using a smooth leg squeeze and hip extension. Never jerk, spike, or explosively load the foot into plantar flexion. Allow adequate time for partner to recognize danger and tap.
+
+**Tap Signals**:
+- Verbal tap (most common due to leg entanglement restricting the arms)
+- Physical hand tap on partner, mat, or any available surface
+- Physical foot tap on mat with free leg
+- Any unusual screaming, groaning, or distress vocalization
+
+
+**Release Protocol**:
+1. Release the squeezing pressure with your legs immediately upon any tap signal without question or hesitation
+2. If in doubt whether partner tapped, release immediately and ask before continuing
+3. Uncross your legs to open the figure-four and free the trapped foot, allowing their leg to straighten naturally without pulling or twisting
+4. Monitor partner for ankle, Achilles, or calf injury after release — check mobility, pain level, and range of motion before continuing
+
+
+**Training Restrictions**:
+- Practice finishing pressure only with experienced partners who understand leg-lock risks and compression mechanics
+- Never apply full finishing pressure speed in training — always use slow progressive application even when drilling at speed
+- Beginners should not attempt this finish until they have demonstrated leg-lock safety awareness under qualified instruction
+- Do not apply this submission to partners with pre-existing ankle, Achilles, or knee injuries or recent lower-limb surgery
 
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Aoki Lock from Aoki Lock Control leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

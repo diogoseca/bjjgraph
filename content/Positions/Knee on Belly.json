@@ -2,8 +2,17 @@
   "name": "Knee on Belly",
   "slug": "knee-on-belly",
   "description": "Master Knee on Belly in BJJ. Strategic control position balancing mobility with pressure. Complete guide covering both top control and bottom escapes.",
+  "aliases": [
+    "Knee Mount",
+    "Knee on Stomach",
+    "Knee on Chest",
+    "KOB",
+    "Uki Gatame",
+    "Joelho na Barriga"
+  ],
   "variant_uniqueness": "Mobile pressure trading stability for speed",
-  "overview": "Knee on Belly is a dynamic control position in Brazilian Jiu-Jitsu where one practitioner places their knee on the opponent's torso while maintaining a mobile base. This position uniquely combines high pressure with exceptional mobility, creating a transitional platform that scores points while setting up submissions and positional advancements. Unlike static control positions such as mount or side control, Knee on Belly requires continuous weight adjustments and active pressure management. The position creates a strategic dilemma for the bottom player: defend against submissions, prevent transitions to more dominant positions, or alleviate the crushing diaphragm pressure. From the top perspective, this position offers point-scoring opportunities, submission threats, and rapid transition potential to mount, back control, or north-south. From the bottom perspective, it represents a high-risk defensive scenario requiring immediate escape protocols combining frame creation, hip movement, and systematic re-guard strategies. The position exemplifies the principle of dynamic control over static dominance, rewarding practitioners who master the balance between pressure application and transitional readiness. The top player's knee acts as a fulcrum through which bodyweight is channeled into the bottom player's solar plexus, creating respiratory distress that forces panicked defensive reactions. These reactions — pushing with extended arms, turning away, bridging — each open specific attack pathways that a prepared top player can exploit. The bottom player must recognize that every second spent flat under this pressure compounds the disadvantage, making immediate and systematic escape attempts essential. Understanding both perspectives transforms Knee on Belly from a simple pressure position into a complex strategic node within the positional hierarchy.",
+  "summary": "Knee on Belly is a mobile top control position where one practitioner drives a knee across the opponent's torso while posting the other leg wide, trading static stability for rapid transitions, point-scoring pressure, and submission threats.",
+  "overview": "Within the BJJ positional hierarchy, Knee on Belly occupies a distinctive role because it prioritizes mobility as much as dominance, sitting between side control and mount as an aggressive launching point. This position uniquely combines high pressure with exceptional mobility, creating a transitional platform that scores points while setting up submissions and positional advancements. Unlike static control positions such as mount or side control, Knee on Belly requires continuous weight adjustments and active pressure management. The position creates a strategic dilemma for the bottom player: defend against submissions, prevent transitions to more dominant positions, or alleviate the crushing diaphragm pressure. From the top perspective, this position offers point-scoring opportunities, submission threats, and rapid transition potential to mount, back control, or north-south. From the bottom perspective, it represents a high-risk defensive scenario requiring immediate escape protocols combining frame creation, hip movement, and systematic re-guard strategies. The position exemplifies the principle of dynamic control over static dominance, rewarding practitioners who master the balance between pressure application and transitional readiness. The top player's knee acts as a fulcrum through which bodyweight is channeled into the bottom player's solar plexus, creating respiratory distress that forces panicked defensive reactions. These reactions — pushing with extended arms, turning away, bridging — each open specific attack pathways that a prepared top player can exploit. The bottom player must recognize that every second spent flat under this pressure compounds the disadvantage, making immediate and systematic escape attempts essential. Understanding both perspectives transforms Knee on Belly from a simple pressure position into a complex strategic node within the positional hierarchy.",
   "key_principles": [
     "Knee on Belly combines mobility with pressure, requiring dynamic weight shifts rather than static settling",
     "Top player must maintain offensive momentum through constant submission and transition threats",
@@ -100,7 +109,7 @@
             "probability": 55
           },
           {
-            "technique": "Side Control to Mount",
+            "technique": "KOB to Mount",
             "target": "Mount",
             "probability": 65
           }
@@ -130,8 +139,8 @@
             "probability": 50
           },
           {
-            "technique": "Side Control to North-South",
-            "target": "North-South",
+            "technique": "S-Mount Transition",
+            "target": "S Mount",
             "probability": 70
           }
         ]
@@ -257,24 +266,24 @@
     },
     "transitions": [
       {
-        "transition": "Side Control to Mount",
-        "attempt_probability": 33
+        "transition": "KOB to Mount",
+        "attempt_probability": 25
       },
       {
         "transition": "Far Side Armbar from KOB",
-        "attempt_probability": 13
+        "attempt_probability": 14
       },
       {
         "transition": "Baseball Bat Choke from Knee on Belly",
-        "attempt_probability": 11
-      },
-      {
-        "transition": "Side Control to North-South",
-        "attempt_probability": 10
+        "attempt_probability": 12
       },
       {
         "transition": "Cross Collar Choke from Knee on Belly",
         "attempt_probability": 11
+      },
+      {
+        "transition": "KOB to Side Control",
+        "attempt_probability": 8
       },
       {
         "transition": "Kimura from Knee on Belly",
@@ -289,12 +298,12 @@
         "attempt_probability": 6
       },
       {
-        "transition": "KOB to Mount",
-        "attempt_probability": 1
+        "transition": "Armbar from Knee on Belly",
+        "attempt_probability": 5
       },
       {
-        "transition": "KOB to Side Control",
-        "attempt_probability": 1
+        "transition": "Belly Down Armbar from Knee on Belly",
+        "attempt_probability": 5
       }
     ],
     "flashcards": [

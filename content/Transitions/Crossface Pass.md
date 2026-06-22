@@ -10,6 +10,41 @@ description: "Master the Crossface Pass from half guard top to side control. Ste
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Crossface Pass",
+  "description": "Master the Crossface Pass from half guard top to side control. Step-by-step pressure passing with crossface control, leg extraction, and common counter strategies.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Crossface Pass", "item": "https://bjjgraph.org/Transitions/Crossface-Pass" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Crossface Pass",
+  "description": "The Crossface Pass is a half-guard-top pressure pass that drives a forearm crossface across the opponent's jaw to flatten them and turn their head away, neutralizing frames while the trapped leg is extracted to side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Crossface Pass from half guard top to side control. Ste
 
 <section id="overview" class="content-section">
 
-The Crossface Pass is a fundamental pressure-passing technique used to pass the half guard by controlling the opponent's head and neck with the crossface while clearing the trapped leg. This technique exemplifies the principle of controlling the head to control the body, using heavy shoulder pressure to flatten the opponent and restrict their mobility. The crossface creates a powerful wedge that prevents the opponent from turning into you or creating effective defensive frames, while simultaneously setting up the leg extraction necessary to achieve side control.
+**The Crossface Pass is a half-guard-top pressure pass that drives a forearm crossface across the opponent's jaw to flatten them and turn their head away, neutralizing frames while the trapped leg is extracted to side control.**
+
+Among the highest-percentage answers to half guard top, the Crossface Pass earns its place by making head control the engine of the pass rather than an afterthought. This technique exemplifies the principle of controlling the head to control the body, using heavy shoulder pressure to flatten the opponent and restrict their mobility. The crossface creates a powerful wedge that prevents the opponent from turning into you or creating effective defensive frames, while simultaneously setting up the leg extraction necessary to achieve side control.
 
 This pass is particularly effective against opponents who rely on the underhook battle in half guard, as the crossface neutralizes their framing attempts and creates a severe defensive dilemma. The technique requires proper weight distribution, precise timing, and the ability to maintain heavy pressure while systematically clearing the bottom leg. The biomechanical advantage lies in the perpendicular force vector created by the shoulder-to-jaw contact: the passer drives diagonally downward and across, which simultaneously flattens the defender and turns their head away, eliminating their ability to generate rotational power for sweeps or guard recovery.
 
@@ -227,5 +264,7 @@ The Crossface Pass is a fundamental component of the half guard passing system a
 
 
 </section>
+
+
 
 </main>

@@ -98,6 +98,14 @@ description: "Master the straighten leg kneebar defense execution in BJJ. Step-b
     },
     {
       "@type": "Question",
+      "name": "In which direction should you drive your extension force against a kneebar, and why does a straight backward pull on the leg fail?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Drive the knee toward full extension while simultaneously rotating your hips toward the attacker, so the force runs at an angle that misaligns their fulcrum rather than straight back. A pure backward pull pits your single trapped leg against their two-arm grip plus hip bridge in a straight line they are built to win. Angling the force shortens their lever and lets your posted free leg and hips contribute whole-body power instead of isolated quad strength."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "How should you adjust your defense if the opponent switches from kneebar to a heel hook during your leg extension attempt?",
       "acceptedAnswer": {
         "@type": "Answer",
@@ -106,18 +114,10 @@ description: "Master the straighten leg kneebar defense execution in BJJ. Step-b
     },
     {
       "@type": "Question",
-      "name": "What is the most common mistake practitioners make when attempting the straighten leg defense, and how does it leave them vulnerable?",
+      "name": "Your straightening attempt stalls and the attacker re-breaks your knee back to a bent position — what chain of options keeps you in the fight?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The most common mistake is attempting to straighten the leg using only quad strength without creating a proper hip angle first. This results in a brute-force contest where the attacker's two-arm pull plus hip bridge typically overpowers the defender's single-leg push. Without hip rotation to change the force angle, the defender burns energy rapidly while the attacker maintains optimal leverage, eventually leading to exhaustion and submission."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "After successfully straightening your leg and breaking free from kneebar control, what position should you immediately pursue?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "After extraction, immediately advance to half guard top by stepping over the prone attacker and establishing chest-to-chest pressure. Do not remain standing or create distance, as this allows the attacker to re-engage with another leg entry or recover guard. Consolidate half guard top by driving crossface pressure, controlling the nearside arm, and beginning your passing sequence while the attacker is still recovering from the failed submission attempt."
+        "text": "Do not keep grinding the same failed extension. Use the brief grip shift during their re-break to insert a hip escape and create a new angle, then re-attempt extension along that fresh line. If their grip migrates toward your foot, switch to defending the ankle and heel by pointing your toes and hiding the heel. If they fully reset control, abandon the knee battle entirely and hunt a reversal or 50-50 entry rather than burning energy on a losing position."
       }
     }
   ]
@@ -326,5 +326,7 @@ Full resistance positional sparring starting from kneebar control. Attacker work
 Kneebar attacks create significant hyperextension risk to the knee joint. During training, the defender should tap immediately if extension pressure becomes uncomfortable rather than testing the limits of the defense. Both practitioners must communicate clearly about intensity level before beginning. The attacker should apply finishing pressure gradually in drilling, never explosively. Training partners should establish a clear tap signal before positional sparring. Never attempt explosive straightening defenses against a fully locked kneebar as this can cause the knee to hyperextend during the escape attempt itself.
 
 </section>
+
+
 
 </main>

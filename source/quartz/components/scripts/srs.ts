@@ -14,40 +14,96 @@ export interface SRSCard {
   flashcardsMastered: number[] // indices of flashcards answered correctly (Hard/Easy)
 }
 
+import { safeSetItem } from "./util"
+import { localDateKey, addDays } from "./dateUtil"
+
 const STORAGE_KEY = "bjj-srs-cards"
 
-function today(): string {
-  return new Date().toISOString().slice(0, 10)
+const today = localDateKey
+
+// SM-2 tuning. Ease is bounded so "easy" streaks cannot run away; intervals use
+// fixed graduating steps for the first reps, then grow by ease, with an absolute
+// ceiling so a card can never disappear from review for years.
+const MIN_EASE = 1.3
+const MAX_EASE = 3.0
+const HARD_FACTOR = 1.2
+const GRADUATING_INTERVAL = 1 // days — first successful review
+const SECOND_INTERVAL = 6 // days — second successful review
+const MAX_INTERVAL = 365 // days — absolute ceiling
+
+function clampEase(ease: number): number {
+  return Math.min(MAX_EASE, Math.max(MIN_EASE, ease))
 }
 
-function addDays(dateStr: string, days: number): string {
-  const d = new Date(dateStr)
-  d.setDate(d.getDate() + Math.round(days))
-  return d.toISOString().slice(0, 10)
+function clampInterval(days: number): number {
+  return Math.min(MAX_INTERVAL, Math.max(1, Math.round(days)))
+}
+
+/** The interval (days) a rating would produce from the card's CURRENT state.
+ * Pure — used by both reviewCard and the on-button interval preview so they
+ * can never disagree. */
+export function nextInterval(card: SRSCard, rating: "again" | "hard" | "easy"): number {
+  if (rating === "again") return GRADUATING_INTERVAL
+  if (card.repetitions <= 0) return GRADUATING_INTERVAL
+  if (card.repetitions === 1) return SECOND_INTERVAL
+  const factor = rating === "hard" ? HARD_FACTOR : card.easeFactor
+  return clampInterval(card.interval * factor)
+}
+
+/** Single source of truth for "mastered" — used by getMasteredCards, the
+ * flashcard badge, the move-card badge, and the dice mastery bonus. */
+export function isMastered(card: SRSCard): boolean {
+  return card.repetitions >= 5 && card.easeFactor >= 2.5
+}
+
+// Coerce a value to a finite number, else fall back.
+function num(v: unknown, fallback: number): number {
+  return typeof v === "number" && Number.isFinite(v) ? v : fallback
+}
+
+function intGE0(v: unknown, fallback: number): number {
+  const n = num(v, fallback)
+  return Math.max(0, Math.round(n))
 }
 
 export function loadSRSCards(): SRSCard[] {
   try {
-    const raw = JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]") as Array<
-      SRSCard & { questionsMastered?: number[] }
-    >
-    // Ensure flashcardsMastered exists on every card. Also handles in-memory
-    // migration for any legacy card that still has questionsMastered (the
-    // persisted migration runs once in flashcard.inline.ts).
-    for (const card of raw) {
-      if (!card.flashcardsMastered) {
-        card.flashcardsMastered = card.questionsMastered ?? []
+    const parsed = JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]")
+    if (!Array.isArray(parsed)) return []
+    const out: SRSCard[] = []
+    for (const c of parsed as Array<SRSCard & { questionsMastered?: number[] }>) {
+      // Drop entries that aren't a usable card (technique must be a string).
+      if (!c || typeof c !== "object" || typeof c.technique !== "string") continue
+
+      // Migrate legacy questionsMastered → flashcardsMastered in-memory.
+      const mastered = Array.isArray(c.flashcardsMastered)
+        ? c.flashcardsMastered
+        : (c.questionsMastered ?? [])
+
+      const card: SRSCard = {
+        technique: c.technique,
+        type: c.type === "submission" ? "submission" : "transition",
+        slug: typeof c.slug === "string" ? c.slug : "",
+        easeFactor: num(c.easeFactor, 2.5),
+        interval: num(c.interval, 1),
+        nextReview: typeof c.nextReview === "string" ? c.nextReview : today(),
+        repetitions: intGE0(c.repetitions, 0),
+        lastReview: typeof c.lastReview === "string" ? c.lastReview : today(),
+        history: Array.isArray(c.history) ? c.history : [],
+        flashcardsMastered: (Array.isArray(mastered) ? mastered : []).filter(
+          (n) => typeof n === "number" && Number.isFinite(n),
+        ),
       }
-      if (card.questionsMastered) delete card.questionsMastered
+      out.push(card)
     }
-    return raw as SRSCard[]
+    return out
   } catch {
     return []
   }
 }
 
 export function saveSRSCards(cards: SRSCard[]) {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(cards))
+  safeSetItem(STORAGE_KEY, JSON.stringify(cards))
   import("./supabase").then((m) => m.syncAfterWrite()).catch(() => {})
 }
 
@@ -90,21 +146,22 @@ export function reviewCard(technique: string, rating: "again" | "hard" | "easy")
   card.lastReview = now
   card.history.push({ date: now, rating })
 
+  // Compute the new interval from the CURRENT state, before mutating repetitions.
+  const newInterval = nextInterval(card, rating)
+
   if (rating === "easy") {
-    card.interval = Math.max(1, card.interval * card.easeFactor)
-    card.easeFactor += 0.15
+    card.easeFactor = clampEase(card.easeFactor + 0.15)
     card.repetitions++
   } else if (rating === "hard") {
-    card.interval = Math.max(1, card.interval * 1.2)
-    card.easeFactor = Math.max(1.3, card.easeFactor - 0.15)
+    card.easeFactor = clampEase(card.easeFactor - 0.15)
     card.repetitions++
   } else {
-    // again
-    card.interval = 1
+    // again — lapse: reset progress and drop ease
     card.repetitions = 0
-    card.easeFactor = Math.max(1.3, card.easeFactor - 0.2)
+    card.easeFactor = clampEase(card.easeFactor - 0.2)
   }
 
+  card.interval = newInterval
   card.nextReview = addDays(now, card.interval)
   saveSRSCards(cards)
 }
@@ -122,7 +179,7 @@ export function getUpcomingCards(): SRSCard[] {
 }
 
 export function getMasteredCards(): SRSCard[] {
-  return loadSRSCards().filter((c) => c.repetitions >= 5 && c.easeFactor >= 2.5)
+  return loadSRSCards().filter(isMastered)
 }
 
 export function masterFlashcard(technique: string, flashcardIndex: number) {

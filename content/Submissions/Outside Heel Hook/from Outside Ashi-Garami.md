@@ -10,10 +10,55 @@ description: "Master the outside heel hook from outside ashi-garami with complet
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Outside Heel Hook from Outside Ashi-Garami targets the Knee joint, ankle joint, and surrounding ligaments. Risk: ACL tear (anterior cruciate ligament rupture). Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Outside Heel Hook from Outside Ashi-Garami",
+  "description": "Master the outside heel hook from outside ashi-garami with complete finishing mechanics, defensive strategies, and safety protocols for leg lock practitioners.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Outside Heel Hook from Outside Ashi-Garami", "item": "https://bjjgraph.org/Submissions/Outside-Heel-Hook-from-Outside-Ashi-Garami" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Outside Heel Hook from Outside Ashi-Garami",
+  "description": "The outside heel hook from outside ashi-garami is a rotational knee submission that twists the trapped heel laterally from a figure-four entanglement, attacking the ACL and LCL to produce one of no-gi grappling's highest-percentage leg-lock finishes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The outside heel hook from outside ashi-garami is a rotational knee submission that twists the trapped heel laterally from a figure-four entanglement, attacking the ACL and LCL to produce one of no-gi grappling's highest-percentage leg-lock finishes.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Leg Lock</span>
+<span class="meta-chip">Targets Knee joint, ankle joint, and surrounding ligaments</span>
+<span class="meta-chip">45% success</span>
+</div>
+
+> [!danger] Safety
+> Outside Heel Hook from Outside Ashi-Garami targets the Knee joint, ankle joint, and surrounding ligaments. Primary risk: ACL tear (anterior cruciate ligament rupture). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -24,67 +69,13 @@ description: "Master the outside heel hook from outside ashi-garami with complet
 
 <section id="overview" class="content-section">
 
-The outside heel hook from outside ashi-garami is one of the highest-percentage leg lock finishes in modern no-gi grappling. From the outside ashi-garami entanglement, the attacker's figure-four leg configuration naturally isolates the opponent's leg while their perpendicular body alignment creates rotational leverage against the knee joint. The outside angle provides direct access to the heel, making this a mechanically efficient finishing position that rewards technical precision over raw strength.
+From the outside ashi-garami entanglement, the attacker's figure-four leg configuration naturally isolates the opponent's leg while their perpendicular body alignment creates rotational leverage against the knee joint. The outside angle provides direct access to the heel, making this a mechanically efficient finishing position that rewards technical precision over raw strength. Because the finish is available directly from a foundational entanglement rather than requiring advancement to saddle or inside ashi first, it sees heavy use across no-gi and submission-only competition.
 
 The attacker cups the opponent's heel with both hands in a figure-four or butterfly grip, then applies controlled rotational force by turning the heel laterally while extending their hips. Because outside ashi-garami attacks from an outside angle, the rotation targets the lateral collateral ligament complex and can compromise the anterior cruciate ligament. This makes the technique exceptionally dangerous and demands strict adherence to safety protocols during training.
 
 Unlike finishing from saddle or inside ashi where both legs are controlled, outside ashi-garami leaves the opponent's far leg free, creating viable escape routes. The attacker must balance maintaining the leg triangle with committing their upper body to the heel hook grip. This tension between control and attack makes timing critical and distinguishes the technique from more dominant finishing positions where positional security allows deliberate finishing attempts.
 
-**Category**: Joint Lock
-**Type**: Leg Lock
-**Target Area**: Knee joint, ankle joint, and surrounding ligaments
-**Starting Position**: [[Positions/Ashi Garami/Outside Ashi-Garami]]
-**From Position**: [[Positions/Ashi Garami/Outside Ashi-Garami]] (Bottom)
-**Success Rate**: 45%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| ACL tear (anterior cruciate ligament rupture) | CRITICAL | 9-12 months with surgical reconstruction |
-| MCL tear (medial collateral ligament damage) | CRITICAL | 6-12 months depending on grade |
-| Meniscus tear | High | 3-6 months with potential surgery |
-| LCL damage (lateral collateral ligament) | High | 6-8 weeks to 6 months |
-| PCL strain (posterior cruciate ligament) | High | 3-6 months |
-| Ankle ligament damage | Medium | 4-8 weeks |
-
-
-**Application Speed**: EXTREMELY SLOW - minimum 5-7 seconds progressive pressure in training, NEVER sudden rotation
-
-**Tap Signals**:
-- Verbal tap (primary)
-- Physical hand tap on partner or mat
-- Physical foot tap with free leg
-- Any vocal distress signal
-- Frantic movement or panic response
-- Any indication of discomfort
-
-
-**Release Protocol**:
-1. Immediately release rotational pressure on heel
-2. Release the figure-four grip or heel cup
-3. Remove hip pressure and extension
-4. Allow opponent to straighten leg naturally
-5. Check partner's condition before continuing
-6. Never apply rotation while releasing
-
-
-**Training Restrictions**:
-- NEVER apply sudden rotational force - always slow and progressive
-- NEVER practice at competition speed during training
-- NEVER continue past first sign of discomfort
-- Only train with experienced partners who understand leg locks
-- Always ensure clear communication before training leg locks
-- Tap early and often - do not test flexibility limits
-- Prohibited for white and blue belts in most IBJJF competitions
-- Never practice on injured knees or with prior knee injuries without medical clearance
-
+**Starting Position**: [[Positions/Ashi Garami/Outside Ashi-Garami]] · **From**: [[Positions/Ashi Garami/Outside Ashi-Garami]] (Bottom)
 
 </section>
 
@@ -250,24 +241,15 @@ Unlike finishing from saddle or inside ashi where both legs are controlled, outs
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Inside Heel Hook]]
 - [[Transitions/Heel Hook]]
 - [[Submissions/Achilles Lock]]
 - [[Submissions/Calf Slicer]]
-- [[Positions/Aoki Lock Control]]
-- [[Submissions/Inside Heel Hook]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
+- [[Transitions/Aoki Lock]]
+- [[Transitions/Estima Lock]]
 - [[Positions/Ashi Garami/Outside Ashi-Garami]] - Primary starting position for this submission variant
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Related leg entanglement offering inside heel hook
 - [[Positions/Ashi Garami/Saddle]] - Advanced entanglement commonly transitioned to from outside ashi
@@ -276,17 +258,57 @@ Unlike finishing from saddle or inside ashi where both legs are controlled, outs
 - [[Positions/Ashi Garami/Backside 50-50]] - Back-facing variation where outside heel hook is also available
 - [[Positions/Ashi Garami/Honey Hole]] - Alternative advanced entanglement with higher finishing percentage
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| ACL tear (anterior cruciate ligament rupture) | CRITICAL | 9-12 months with surgical reconstruction |
+| MCL tear (medial collateral ligament damage) | CRITICAL | 6-12 months depending on grade |
+| Meniscus tear | High | 3-6 months with potential surgery |
+| LCL damage (lateral collateral ligament) | High | 6-8 weeks to 6 months |
+| PCL strain (posterior cruciate ligament) | High | 3-6 months |
+| Ankle ligament damage | Medium | 4-8 weeks |
+
+
+**Application Speed**: EXTREMELY SLOW - minimum 5-7 seconds progressive pressure in training, NEVER sudden rotation
+
+**Tap Signals**:
+- Verbal tap (primary)
+- Physical hand tap on partner or mat
+- Physical foot tap with free leg
+- Any vocal distress signal
+- Frantic movement or panic response
+- Any indication of discomfort
+
+
+**Release Protocol**:
+1. Immediately release rotational pressure on heel
+2. Release the figure-four grip or heel cup
+3. Remove hip pressure and extension
+4. Allow opponent to straighten leg naturally
+5. Check partner's condition before continuing
+6. Never apply rotation while releasing
+
+
+**Training Restrictions**:
+- NEVER apply sudden rotational force - always slow and progressive
+- NEVER practice at competition speed during training
+- NEVER continue past first sign of discomfort
+- Only train with experienced partners who understand leg locks
+- Always ensure clear communication before training leg locks
+- Tap early and often - do not test flexibility limits
+- Prohibited for white and blue belts in most IBJJF competitions
+- Never practice on injured knees or with prior knee injuries without medical clearance
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Outside Heel Hook from Outside Ashi-Garami leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

@@ -10,6 +10,41 @@ description: "Master the Ringworm to Spider Guard transition in BJJ. Convert lap
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Ringworm to Spider Guard",
+  "description": "Master the Ringworm to Spider Guard transition in BJJ. Convert lapel wrap control into sleeve grips and bicep hooks for versatile open guard sweeps and attacks.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Ringworm to Spider Guard", "item": "https://bjjgraph.org/Transitions/Ringworm-to-Spider-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Ringworm to Spider Guard",
+  "description": "Ringworm to Spider Guard is a gi guard transition in which the bottom player abandons the lapel wrap to secure both sleeve grips and plant the feet on the opponent's biceps, converting specialized lapel control into Spider Guard's distance-managing offense.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Ringworm to Spider Guard transition in BJJ. Convert lap
 </div>
 
 <section id="overview" class="content-section">
+
+**Ringworm to Spider Guard is a gi guard transition in which the bottom player abandons the lapel wrap to secure both sleeve grips and plant the feet on the opponent's biceps, converting specialized lapel control into Spider Guard's distance-managing offense.**
 
 The Ringworm to Spider Guard transition represents a strategic conversion from lapel-based control to sleeve-based open guard, allowing the bottom player to shift from the specialized Ringworm Guard system to the more versatile Spider Guard framework. This transition is particularly valuable when the opponent begins systematically addressing the lapel wrap or when the guard player wants to access Spider Guard's proven sweep and submission chains. Rather than clinging to a deteriorating lapel configuration, the skilled practitioner recognizes the optimal moment to convert their positional advantage into a guard system with broader offensive options.
 
@@ -214,5 +251,7 @@ The Ringworm to Spider Guard transition serves as a critical bridge between the 
 
 
 </section>
+
+
 
 </main>

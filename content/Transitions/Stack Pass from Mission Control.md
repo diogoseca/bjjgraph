@@ -10,6 +10,41 @@ description: "Master the Stack Pass from Mission Control in BJJ. Learn stacking 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Stack Pass from Mission Control",
+  "description": "Master the Stack Pass from Mission Control in BJJ. Learn stacking pressure mechanics to collapse rubber guard and advance to half guard top position.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Stack Pass from Mission Control", "item": "https://bjjgraph.org/Transitions/Stack-Pass-from-Mission-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Stack Pass from Mission Control",
+  "description": "The Stack Pass from Mission Control is a top-player escape that drives forward stacking pressure to fold the bottom player's hips over their shoulders, collapsing the rubber guard's high-guard structure and advancing into half guard top.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Stack Pass from Mission Control in BJJ. Learn stacking 
 </div>
 
 <section id="overview" class="content-section">
+
+**The Stack Pass from Mission Control is a top-player escape that drives forward stacking pressure to fold the bottom player's hips over their shoulders, collapsing the rubber guard's high-guard structure and advancing into half guard top.**
 
 The Stack Pass from Mission Control is a pressure-based guard passing technique used by the top player trapped in the rubber guard's Mission Control position. Rather than attempting to recover posture or extract the trapped arm—the standard defensive responses—the stack pass leverages aggressive forward driving pressure to collapse the bottom player's high guard structure entirely, folding their hips over their shoulders and dismantling the control framework that makes Mission Control effective.
 
@@ -218,5 +255,7 @@ The Stack Pass from Mission Control occupies a critical role in the Mission Cont
 
 
 </section>
+
+
 
 </main>

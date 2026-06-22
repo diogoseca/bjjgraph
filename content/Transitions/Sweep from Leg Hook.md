@@ -10,6 +10,41 @@ description: "Master the Sweep from Leg Hook in BJJ. Learn step-by-step executio
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Sweep from Leg Hook",
+  "description": "Master the Sweep from Leg Hook in BJJ. Learn step-by-step execution, timing, counters, and defense for this high-percentage half guard reversal to mount.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Sweep from Leg Hook", "item": "https://bjjgraph.org/Transitions/Sweep-from-Leg-Hook" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Sweep from Leg Hook",
+  "description": "Sweep from Leg Hook is a high-percentage half guard bottom reversal in which the bottom player combines an active leg hook on the opponent's near leg with an underhook to off-balance the top passer and roll them over into mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Sweep from Leg Hook in BJJ. Learn step-by-step executio
 </div>
 
 <section id="overview" class="content-section">
+
+**Sweep from Leg Hook is a high-percentage half guard bottom reversal in which the bottom player combines an active leg hook on the opponent's near leg with an underhook to off-balance the top passer and roll them over into mount.**
 
 The Sweep from Leg Hook is a fundamental reversal technique executed from the bottom leg hook position, a dynamic half guard variant characterized by active leg entanglement around the top player's near leg. This sweep exploits the mechanical leverage created by the hook to displace the top player's base laterally, driving them over the fulcrum of the hooked leg and achieving a full reversal to mount position. The technique rewards precise timing and coordinated upper-lower body mechanics rather than raw explosive strength.
 
@@ -214,13 +251,13 @@ The Sweep from Leg Hook occupies a critical role in the half guard offensive sys
 
 - [[Transitions/Counter Leg Hook]] - Opposing transition from top player attempting to neutralize the hook
 
-- [[Transitions/Dogfight Sweep]] - Complementary sweep available from nearby dogfight position
+- [[Transitions/Deep Half Entry]] - Chain option when sweep attempt is stuffed and opponent drives forward
 
-- [[Transitions/Deep Half Entry from Half Guard]] - Chain option when sweep attempt is stuffed and opponent drives forward
-
-- [[Transitions/Half Butterfly Sweep]] - Related sweep technique using similar lower body elevation mechanics
+- [[Positions/Butterfly Guard/Half Butterfly]] - Related position using similar lower body elevation mechanics for sweeps
 
 
 </section>
+
+
 
 </main>

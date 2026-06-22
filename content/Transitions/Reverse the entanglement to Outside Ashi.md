@@ -10,6 +10,41 @@ description: "Master the Leg Knot reversal to Outside Ashi in BJJ. Transform def
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Reverse the entanglement to Outside Ashi",
+  "description": "Master the Leg Knot reversal to Outside Ashi in BJJ. Transform defensive entanglement into attacking position with systematic hip rotation mechanics.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Reverse the entanglement to Outside Ashi", "item": "https://bjjgraph.org/Transitions/Reverse-the-entanglement-to-Outside-Ashi" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Reverse the entanglement to Outside Ashi",
+  "description": "Reverse the entanglement to Outside Ashi is a leg-lock counter from Leg Knot Bottom that controls the opponent's far leg and uses a hip-switch rotation to clear the trapped leg, establishing a dominant Outside Ashi-Garami and turning defense into a heel-hook attack.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Leg Knot reversal to Outside Ashi in BJJ. Transform def
 </div>
 
 <section id="overview" class="content-section">
+
+**Reverse the entanglement to Outside Ashi is a leg-lock counter from Leg Knot Bottom that controls the opponent's far leg and uses a hip-switch rotation to clear the trapped leg, establishing a dominant Outside Ashi-Garami and turning defense into a heel-hook attack.**
 
 Reversing the entanglement to Outside Ashi represents one of the most critical defensive counters in modern leg lock warfare. When caught in Leg Knot Bottom, the practitioner faces immediate submission threats while simultaneously having unique opportunities to invert the positional hierarchy. This technique capitalizes on the inherent instability of the Leg Knot configuration, where neither player has achieved complete dominance, to execute a systematic reversal that transforms defensive crisis into offensive opportunity.
 
@@ -216,5 +253,7 @@ The reversal to Outside Ashi fits within the broader defensive leg lock system a
 
 
 </section>
+
+
 
 </main>

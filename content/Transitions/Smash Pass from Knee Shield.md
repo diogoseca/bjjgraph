@@ -10,6 +10,41 @@ description: "Master the Smash Pass from Knee Shield in BJJ. Step-by-step guide 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Smash Pass from Knee Shield",
+  "description": "Master the Smash Pass from Knee Shield in BJJ. Step-by-step guide covering pressure mechanics, hip switching, and shield collapse to reach side control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Smash Pass from Knee Shield", "item": "https://bjjgraph.org/Transitions/Smash-Pass-from-Knee-Shield" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Smash Pass from Knee Shield",
+  "description": "The Smash Pass from Knee Shield is a pressure-based half guard pass where the top player drives the bottom player's shin shield laterally across their body, pins it with a hip switch, and clears the legs to reach side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Smash Pass from Knee Shield in BJJ. Step-by-step guide 
 </div>
 
 <section id="overview" class="content-section">
+
+**The Smash Pass from Knee Shield is a pressure-based half guard pass where the top player drives the bottom player's shin shield laterally across their body, pins it with a hip switch, and clears the legs to reach side control.**
 
 The Smash Pass from Knee Shield is a fundamental pressure-based guard passing technique designed to defeat one of the most effective defensive half guard structures in modern BJJ. When the bottom player establishes a knee shield—positioning their shin horizontally across the passer's torso to create distance and prevent consolidation—the smash pass answers by collapsing this barrier through deliberate shoulder pressure, hip switching, and strategic weight distribution rather than speed or athleticism.
 
@@ -220,5 +257,7 @@ The Smash Pass from Knee Shield is a cornerstone technique in the top player's h
 
 
 </section>
+
+
 
 </main>

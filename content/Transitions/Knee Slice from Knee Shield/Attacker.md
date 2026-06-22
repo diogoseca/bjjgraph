@@ -82,6 +82,14 @@ description: "Complete attacking guide for the knee slice pass against knee shie
     },
     {
       "@type": "Question",
+      "name": "Which two controls must be established simultaneously before the knee shield can be reliably collapsed?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The crossface and the shield-leg ankle grip must be established together. The crossface breaks the head-shoulder-hip alignment that gives the shield its rigidity, while the ankle grip prevents the opponent from re-angling or re-inserting the shield. With only one control in place, the opponent retains enough mobility to defend and reset their frame; with both established, the shield becomes a non-functional limb you can bypass with the diagonal knee drive while keeping your hips low and heavy."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "Why must you angle your body at 45 degrees rather than driving straight into the knee shield?",
       "acceptedAnswer": {
         "@type": "Answer",
@@ -110,14 +118,6 @@ description: "Complete attacking guide for the knee slice pass against knee shie
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately strip or swim past the bicep frame using your elbow to clear their hand, then re-establish forward pressure. Do not allow the hip escape to create distance—follow their hip movement with your own hips and maintain chest connection. If they create significant angle through the hip escape, consider switching to a long step pass that capitalizes on the new angle rather than fighting to return to the original passing line. Control their far hip with your free hand to limit further hip escape distance."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What direction should the force of your knee drive travel during the slice?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The knee should travel diagonally from the opponent's hip crease toward the mat on the far side of their body, approximately 45 degrees relative to their centerline. The force is directed forward and downward through the thigh, not straight down toward the mat. Your shin slides across their thigh surface rather than driving into their knee or shin. This diagonal vector makes it mechanically difficult for the opponent to block because they would need to redirect their defensive structure to match the angle, which requires abandoning their current shield position."
       }
     }
   ]
@@ -343,5 +343,7 @@ During open rolling, actively seek knee shield half guard top positions and atte
 The knee slice pass involves significant pressure through the opponent's torso and can strain the bottom player's hip and knee joints, particularly when the shield leg is pinned and rotated. Apply pressure progressively rather than explosively, especially when driving the knee across the thigh. Be aware of your partner's knee position throughout the pass to avoid hyperextending their trapped leg. In training, communicate about pressure levels and release immediately if your partner indicates discomfort in their knee, hip, or lower back. Avoid explosive weight drops onto a compromised knee shield, as this can cause MCL or meniscus injuries to the bottom player.
 
 </section>
+
+
 
 </main>

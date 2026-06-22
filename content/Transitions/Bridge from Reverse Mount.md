@@ -10,6 +10,41 @@ description: "Master the Bridge from Reverse Mount escape in BJJ. Complete guide
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Bridge from Reverse Mount",
+  "description": "Master the Bridge from Reverse Mount escape in BJJ. Complete guide to explosive bridging mechanics, timing windows, and escape sequences to turtle.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Bridge from Reverse Mount", "item": "https://bjjgraph.org/Transitions/Bridge-from-Reverse-Mount" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Bridge from Reverse Mount",
+  "description": "Bridge from Reverse Mount is a bottom escape that uses an angled, explosive hip bridge to displace a backward-facing top opponent and turn face-down into turtle, trading a pinned reverse mount for a more recoverable defensive base.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Bridge from Reverse Mount escape in BJJ. Complete guide
 
 <section id="overview" class="content-section">
 
-The Bridge from Reverse Mount is a fundamental escape technique used by the bottom player to create space and transition from the highly disadvantageous reverse mount position to turtle. Unlike standard mount escapes where the defender can frame against the opponent's chest and hips, reverse mount requires bridging into an opponent whose weight is distributed backward, creating different leverage dynamics. The bridge exploits the inherent instability of reverse mount—the top player's backward orientation means they lack the head control and visual cues available in standard mount, making explosive movement harder to anticipate and counter.
+**Bridge from Reverse Mount is a bottom escape that uses an angled, explosive hip bridge to displace a backward-facing top opponent and turn face-down into turtle, trading a pinned reverse mount for a more recoverable defensive base.**
+
+Because reverse mount is an inherently transitional, backward-facing pin, the bottom player's escape options diverge sharply from standard mount defense, and the angled bridge becomes the highest-utility tool when traditional frames cannot be established. Unlike standard mount escapes where the defender can frame against the opponent's chest and hips, reverse mount requires bridging into an opponent whose weight is distributed backward, creating different leverage dynamics. The bridge exploits the inherent instability of reverse mount—the top player's backward orientation means they lack the head control and visual cues available in standard mount, making explosive movement harder to anticipate and counter.
 
 The technique relies on creating angles before the explosive bridge rather than bridging straight up. The bottom player must first shift their hips to establish a bridging direction, then execute an explosive hip extension combined with a shoulder turn to create enough space to begin turning to turtle. Timing is critical—the bridge must coincide with moments when the top player's weight shifts or they reach for grips, compromising their base. Successful execution requires committing fully to the movement, as partial bridges allow the top player to settle weight and potentially advance to back control.
 
@@ -224,5 +261,7 @@ The Bridge from Reverse Mount is a critical connector between the reverse mount 
 
 
 </section>
+
+
 
 </main>

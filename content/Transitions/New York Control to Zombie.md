@@ -10,6 +10,41 @@ description: "Master New York Control to Zombie transition in BJJ. 10th Planet r
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "New York Control to Zombie",
+  "description": "Master New York Control to Zombie transition in BJJ. 10th Planet rubber guard progression when opponent extracts leg. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "New York Control to Zombie", "item": "https://bjjgraph.org/Transitions/New-York-Control-to-Zombie" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "New York Control to Zombie",
+  "description": "New York Control to Zombie is a 10th Planet rubber guard transition that converts a failing New York overhook into a lockdown-based Zombie half guard the instant the opponent extracts their trapped shoulder, preserving offensive momentum.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master New York Control to Zombie transition in BJJ. 10th Planet r
 </div>
 
 <section id="overview" class="content-section">
+
+**New York Control to Zombie is a 10th Planet rubber guard transition that converts a failing New York overhook into a lockdown-based Zombie half guard the instant the opponent extracts their trapped shoulder, preserving offensive momentum.**
 
 The New York Control to Zombie transition represents a critical continuation within the 10th Planet Rubber Guard system, executed when the opponent begins successfully extracting their trapped shoulder from your New York configuration. Rather than fighting to maintain a failing position, this transition redirects offensive energy into the Zombie position - a lockdown-based half guard variant that preserves offensive momentum while adapting to the changed circumstances.
 
@@ -216,5 +253,7 @@ New York Control to Zombie represents the systematic philosophy of 10th Planet J
 
 
 </section>
+
+
 
 </main>

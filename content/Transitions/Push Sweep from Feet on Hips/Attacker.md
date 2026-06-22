@@ -88,6 +88,22 @@ description: "Learn to execute the push sweep from feet on hips guard. Step-by-s
     },
     {
       "@type": "Question",
+      "name": "Before committing to the push sweep, what entry conditions must be in place?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You need both feet planted on the opponent's hip bones with ball-of-foot contact, at least one upper-body grip on a sleeve, collar, or wrist to coordinate the pull, your hips elevated off the mat with a curved lower back for full extension range, and the opponent's posting ability compromised by your grips or their forward posture. Missing the grip or the hip elevation drops the sweep's effectiveness dramatically because you lose either the push-pull coordination or the extension power."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is hip elevation essential during the leg extension, and what happens if your hips stay flat?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hip elevation with a curved lower back lets you drive force through your hips and complete a full-range leg extension, generating the power needed to break the opponent's base. If your hips stay flat on the mat, the push stalls at partial extension and produces weak, short-range force that the opponent simply rides out while maintaining strong passing posture. Elevated hips also let you redirect the push angle mid-extension to track the opponent."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "Your opponent has a strong symmetrical base and resists your straight backward push—how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
@@ -108,22 +124,6 @@ description: "Learn to execute the push sweep from feet on hips guard. Step-by-s
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A cross-collar grip combined with a same-side sleeve grip provides the strongest combined pulling vector because the collar grip breaks posture while the sleeve grip prevents the opponent from posting with that hand. Bilateral sleeve grips are a strong alternative that controls both posting options. The key is having at least one grip that prevents the opponent from using their hands to catch themselves as they fall backward."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "The sweep succeeds and your opponent falls backward—what is the immediate follow-up sequence?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Begin retracting your legs and sitting up during the opponent's fall, not after they land. Pull yourself upright using your grips on their upper body, bring your legs underneath you, and come to your feet through a technical stand-up motion. Maintain at least one controlling grip throughout the transition and advance immediately into a passing position before the opponent can recover guard or sit up. Delayed follow-up negates the sweep's positional advantage."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Your opponent consistently posts one hand behind them when you attempt the push—what systematic approach defeats this defense?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Control the posting hand preemptively through sleeve grips before initiating the sweep—if you grip their same-side sleeve with your pulling hand, they cannot use that hand to post. Alternatively, direct the push toward the side of the posting hand to collapse the post under their body weight, or redirect the push to the opposite side where no post exists. The most effective long-term solution is the sleeve control approach since it eliminates the defense at its source."
       }
     }
   ]
@@ -342,5 +342,7 @@ Positional sparring from feet-on-hips guard with full resistance. Practice chain
 The push sweep is a low-risk technique with minimal injury potential for both practitioners. Primary safety concern involves the opponent falling backward unexpectedly—ensure adequate mat space behind the training partner and avoid performing this technique near walls or other practitioners. Avoid hyperextending your own knees during explosive leg extension by maintaining a slight bend at full extension. When drilling, communicate intensity levels clearly and progress gradually from cooperative to full resistance.
 
 </section>
+
+
 
 </main>

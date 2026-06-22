@@ -10,6 +10,41 @@ description: "Master the Step Over pass from X-Guard in BJJ. Complete technical 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Step Over from X-Guard",
+  "description": "Master the Step Over pass from X-Guard in BJJ. Complete technical guide covering execution mechanics, timing windows, and defensive counters to side control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Step Over from X-Guard", "item": "https://bjjgraph.org/Transitions/Step-Over-from-X-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Step Over from X-Guard",
+  "description": "Step Over from X-Guard is a timing-based guard pass in which the top player lifts their free leg over the bottom player's X-Guard structure in one committed arc, clearing the legs to land directly in side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Step Over pass from X-Guard in BJJ. Complete technical 
 </div>
 
 <section id="overview" class="content-section">
+
+**Step Over from X-Guard is a timing-based guard pass in which the top player lifts their free leg over the bottom player's X-Guard structure in one committed arc, clearing the legs to land directly in side control.**
 
 The Step Over from X-Guard is a direct passing technique where the top player steps their free leg over the bottom player's X-Guard configuration to land in side control. Unlike more common X-Guard passes that rely on systematic hook removal or gradual pressure application, the step over capitalizes on moments when the bottom player's hooks become shallow or their grip on the trapped ankle weakens, allowing the top player to clear the guard structure with a single decisive movement. The pass rewards precise timing and committed weight transfer over grinding positional work.
 
@@ -218,5 +255,7 @@ The Step Over from X-Guard occupies a niche but important role within the top pl
 
 
 </section>
+
+
 
 </main>

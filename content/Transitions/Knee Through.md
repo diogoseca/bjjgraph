@@ -10,6 +10,41 @@ description: "Master the Knee Through pass in BJJ. Systematic half guard passing
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Knee Through",
+  "description": "Master the Knee Through pass in BJJ. Systematic half guard passing technique using knee insertion and forward pressure to achieve side control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Knee Through", "item": "https://bjjgraph.org/Transitions/Knee-Through" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Knee Through",
+  "description": "Knee Through is a pressure-based guard pass where the top player drives their trapped knee in a straight line through the opponent's leg entanglement while maintaining crossface and shoulder pressure, clearing the legs to establish side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Knee Through pass in BJJ. Systematic half guard passing
 
 <section id="overview" class="content-section">
 
-The Knee Through pass is a fundamental half guard passing technique that involves systematically inserting the trapped knee through the opponent's guard while maintaining upper body control. This pass is particularly effective against defensive half guard players who rely on the knee shield or traditional half guard frames. The technique exploits the natural weakness in the half guard structure when proper shoulder pressure and knee positioning combine to create an overwhelming passing sequence.
+**Knee Through is a pressure-based guard pass where the top player drives their trapped knee in a straight line through the opponent's leg entanglement while maintaining crossface and shoulder pressure, clearing the legs to establish side control.**
+
+As a cornerstone of pressure-based passing, the Knee Through is most effective against defensive guard players who rely on the knee shield or traditional half guard frames. The technique exploits the natural weakness in their structure when proper shoulder pressure and knee positioning combine to create an overwhelming passing sequence, systematically inserting the trapped knee through the opponent's guard while maintaining upper body control.
 
 The Knee Through differs from the Knee Slice in that it emphasizes driving the knee completely through the guard rather than cutting across, making it especially effective when the opponent has a strong underhook or is attempting to recover full guard. Where the Knee Slice uses lateral hip movement and an angular cutting motion, the Knee Through relies on forward drive and sustained pressure along a straight line. This distinction matters because opponents who defend well against the lateral cut of the Knee Slice often leave themselves vulnerable to the direct penetration of the Knee Through.
 
@@ -222,5 +259,7 @@ The Knee Through pass represents a fundamental element in the pressure passing s
 
 
 </section>
+
+
 
 </main>

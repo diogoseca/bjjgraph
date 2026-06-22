@@ -10,6 +10,41 @@ description: "Master the Darce to Anaconda Switch in BJJ. Complete guide to grip
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Darce to Anaconda Switch",
+  "description": "Master the Darce to Anaconda Switch in BJJ. Complete guide to grip reconfiguration mechanics, timing windows, and chain attacks from front headlock control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Darce to Anaconda Switch", "item": "https://bjjgraph.org/Transitions/Darce-to-Anaconda-Switch" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Darce to Anaconda Switch",
+  "description": "The Darce to Anaconda Switch is a front-headlock grip reconfiguration in which the attacker abandons a defended Darce choke and re-threads the choking arm into an Anaconda configuration, attacking a fresh choking angle while preserving top control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Darce to Anaconda Switch in BJJ. Complete guide to grip
 
 <section id="overview" class="content-section">
 
-The Darce to Anaconda Switch is an advanced grip reconfiguration technique that allows practitioners to transition between two closely related arm-in head-and-arm choke systems while maintaining continuous control from the front headlock position. When the Darce choke angle becomes compromised through the opponent's defensive arm positioning, chin tuck, or shoulder alignment, the switch to an Anaconda configuration offers a fresh submission pathway that exploits a different choking angle and arm-in structure. This technique is most commonly employed when the opponent has successfully denied the Darce finishing angle but remains vulnerable to the complementary Anaconda attack.
+**The Darce to Anaconda Switch is a front-headlock grip reconfiguration in which the attacker abandons a defended Darce choke and re-threads the choking arm into an Anaconda configuration, attacking a fresh choking angle while preserving top control.**
+
+Within the modern front headlock system, this switch sits between the Darce and Anaconda choke families as the connective tissue that keeps a defended attack alive. When the Darce choke angle becomes compromised through the opponent's defensive arm positioning, chin tuck, or shoulder alignment, the switch to an Anaconda configuration offers a fresh submission pathway that exploits a different choking angle and arm-in structure. This technique is most commonly employed when the opponent has successfully denied the Darce finishing angle but remains vulnerable to the complementary Anaconda attack.
 
 The fundamental mechanics involve releasing the Darce figure-four lock while maintaining chest and shoulder pressure on the opponent's upper back, then re-threading the choking arm from the Darce path (under the armpit, across the back of the neck) to the Anaconda path (under the near arm, around the front of the neck). The critical challenge lies in maintaining sufficient control during the brief transition period when neither grip is fully locked, as this represents the primary window for the opponent to escape or recover to a safer position.
 
@@ -222,5 +259,7 @@ The Darce to Anaconda Switch serves as a critical link within the front headlock
 
 
 </section>
+
+
 
 </main>

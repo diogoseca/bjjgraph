@@ -182,7 +182,7 @@ description: "How to finish the straight ankle lock from ankle lock control. Ste
 
 Finishing the straight ankle lock from established control requires mastering the coordination between grip placement, hip extension, and back arch that generates breaking pressure on the Achilles tendon and ankle joint. From ankle lock control, the attacker must balance immediate finishing pressure with awareness of the defender's escape attempts, using the submission threat to maintain offensive initiative while remaining ready to transition when the finish is unavailable. The key distinction between novice ankle lock attempts and expert-level finishing is the integration of leg control throughout the entire sequence—your legs actively prevent the hip rotation that would relieve pressure rather than passively holding position. Every element of the finish works as an interconnected system where grip security, leg wrapping, hip alignment, and breaking mechanics must function together to produce the tap.
 
-**From Position**: [[Positions/Straight Ankle Lock Control]] (Bottom)
+**From Position**: [[Positions/Straight Ankle Lock Control]] (Top)
 
 
 </section>

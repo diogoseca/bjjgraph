@@ -10,6 +10,41 @@ description: "Master the Roll Defense from Anaconda in BJJ. Counter the anaconda
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Roll Defense from Anaconda",
+  "description": "Master the Roll Defense from Anaconda in BJJ. Counter the anaconda roll-through finish with proper posting, hip positioning, and escape timing to recover turtle.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Roll Defense from Anaconda", "item": "https://bjjgraph.org/Transitions/Roll-Defense-from-Anaconda" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Roll Defense from Anaconda",
+  "description": "The Roll Defense from Anaconda is a bottom escape that counters the opponent's anaconda roll-through by posting the free hand, widening the base, and driving the hips against the rotation to deny the finish and recover turtle.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Roll Defense from Anaconda in BJJ. Counter the anaconda
 
 <section id="overview" class="content-section">
 
-The Roll Defense from Anaconda is a critical survival technique employed when an opponent with an established anaconda grip initiates the roll-through finishing sequence. The anaconda choke becomes most dangerous during the roll because the rotation tightens the constriction around the neck and trapped arm while the attacker settles into a dominant finishing angle. Defending this specific moment is often the last viable window before the choke reaches terminal tightness and escape becomes impossible.
+**The Roll Defense from Anaconda is a bottom escape that counters the opponent's anaconda roll-through by posting the free hand, widening the base, and driving the hips against the rotation to deny the finish and recover turtle.**
+
+Within the anaconda survival chain, this defense activates at the most dangerous moment of the attack — the instant an opponent with an established anaconda grip initiates their roll-through finish. The anaconda choke becomes most dangerous during the roll because the rotation tightens the constriction around the neck and trapped arm while the attacker settles into a dominant finishing angle. Defending this specific moment is often the last viable window before the choke reaches terminal tightness and escape becomes impossible.
 
 The defense centers on disrupting the rolling mechanics through posting, base widening, and directional resistance. Rather than simply resisting the roll with pure strength, effective defense requires understanding the attacker's momentum vector and positioning your body to deny the rotation angle. The free hand posts on the mat or blocks the opponent's hip, while your hips drive away from the roll direction, removing the leverage the attacker needs to complete the technique.
 
@@ -226,5 +263,7 @@ The Roll Defense from Anaconda sits at a critical juncture in the front headlock
 
 
 </section>
+
+
 
 </main>

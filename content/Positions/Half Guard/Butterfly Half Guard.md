@@ -10,6 +10,41 @@ description: "Master Butterfly Half Guard in BJJ - a powerful hybrid position co
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Butterfly Half Guard",
+  "description": "Master Butterfly Half Guard in BJJ - a powerful hybrid position combining butterfly and half guard mechanics. Learn setup, sweeps, transitions, and counters with detailed success rates by skill level.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Butterfly Half Guard", "item": "https://bjjgraph.org/Positions/Butterfly-Half-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Butterfly Half Guard",
+  "description": "Butterfly Half Guard is a hybrid bottom guard that traps one of the opponent's legs in half guard while inserting a butterfly hook under their free leg, creating sweep leverage and quick transitions to deep half, X-guard, and back attacks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Butterfly Half Guard in BJJ - a powerful hybrid position co
 </div>
 
 <section id="overview" class="content-section">
+
+**Butterfly Half Guard is a hybrid bottom guard that traps one of the opponent's legs in half guard while inserting a butterfly hook under their free leg, creating sweep leverage and quick transitions to deep half, X-guard, and back attacks.**
 
 Butterfly Half Guard represents a sophisticated fusion of two fundamental guard systems in Brazilian Jiu-Jitsu, combining the mechanical elevation potential of butterfly guard with the leg entanglement control of half guard. This hybrid position creates an asymmetric platform where one leg is trapped in traditional half guard configuration while a butterfly hook is inserted under the opponent's free leg. The result is a versatile offensive position that maintains defensive security while offering multiple high-percentage sweeping opportunities and seamless transitions to related guard systems.
 
@@ -102,19 +139,17 @@ Both bottom and top perspectives of butterfly half guard require distinct strate
 ### Available Transitions
 
 
-- **[[Transitions/100% Sweep/Attacker|100% Sweep]]** (33% of attempts)
+- **[[Transitions/100% Sweep/Attacker|100% Sweep]]** (36% of attempts)
 
 - **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (10% of attempts)
 
-- **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** (6% of attempts)
+- **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** (8% of attempts)
 
 - **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (8% of attempts)
 
 - **[[Transitions/Waiter Sweep/Attacker|Waiter Sweep]]** (4% of attempts)
 
 - **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (6% of attempts)
-
-- **[[Transitions/Knee Tap/Attacker|Knee Tap]]** (5% of attempts)
 
 - **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (6% of attempts)
 
@@ -266,6 +301,16 @@ Both bottom and top perspectives of butterfly half guard require distinct strate
 
 - **[[Positions/Overhook Control]]** - Essential upper body control mechanism for maintaining offensive advantage
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/10th-Planet-Half-Guard-Bottom-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-half-guard-bottom-system" data-system-name="10th Planet Half Guard Bottom System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">10th Planet Half Guard Bottom System</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Related hybrid bottom configuration that feeds the underhook and elevation game</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

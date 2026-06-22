@@ -10,6 +10,41 @@ description: "Master guard recovery from the Jailbreak position in BJJ. Complete
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Guard Recovery from Jailbreak",
+  "description": "Master guard recovery from the Jailbreak position in BJJ. Complete guide to post-inversion framing, hip escape mechanics, and open guard recomposition techniques.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Guard Recovery from Jailbreak", "item": "https://bjjgraph.org/Transitions/Guard-Recovery-from-Jailbreak" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Guard Recovery from Jailbreak",
+  "description": "Guard Recovery from Jailbreak is a defensive transition where the bottom player, after a stalled Jailbreak escape, uses post-inversion framing and hip escapes to reinsert legs and rebuild open guard before the passer consolidates side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master guard recovery from the Jailbreak position in BJJ. Complete
 
 <section id="overview" class="content-section">
 
-Guard Recovery from Jailbreak is a defensive transition where the bottom player reestablishes open guard after the explosive Jailbreak escape from half guard. When the Jailbreak roll or inversion does not achieve turtle or back take, the bottom player must recover to a functional guard position rather than remaining in the compromised Jailbreak state. This recovery involves using frames and hip escapes to reinsert legs between the players, establishing distance through knee shields or feet-on-hips positioning, and preventing the top player from consolidating side control during the transition.
+**Guard Recovery from Jailbreak is a defensive transition where the bottom player, after a stalled Jailbreak escape, uses post-inversion framing and hip escapes to reinsert legs and rebuild open guard before the passer consolidates side control.**
+
+This recovery transition handles the failure branch of the Jailbreak escape system from bottom half guard. When the Jailbreak roll or inversion does not achieve turtle or back take, the bottom player must recover to a functional guard position rather than remaining in the compromised Jailbreak state. This recovery involves using frames and hip escapes to reinsert legs between the players, establishing distance through knee shields or feet-on-hips positioning, and preventing the top player from consolidating side control during the transition.
 
 The biomechanical challenge of this recovery lies in the non-standard body alignment that results from a failed inversion. Unlike standard guard recovery from side control where the defender starts flat on their back with a predictable orientation, the post-Jailbreak position may leave the bottom player twisted, partially inverted, or angled away from the opponent. This requires an additional orientation step before the standard frame-escape-recompose sequence can begin. The recovery window is narrow: the bottom player typically has three to five seconds before the top player capitalizes on the disorganized body position to establish dominant control. Practitioners who develop automatic post-inversion orientation and framing responses dramatically increase their guard recovery success rate, transforming what would otherwise be a catastrophic positional failure into a manageable defensive transition.
 
@@ -218,5 +255,7 @@ Guard Recovery from Jailbreak occupies a critical defensive node in the half gua
 
 
 </section>
+
+
 
 </main>

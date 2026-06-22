@@ -10,6 +10,41 @@ description: "Master the Inside Sankaku to Saddle transition in BJJ. Learn syste
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Inside Sankaku to Saddle",
+  "description": "Master the Inside Sankaku to Saddle transition in BJJ. Learn systematic leg reconfiguration for deeper control and higher-percentage heel hook finishes.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Inside Sankaku to Saddle", "item": "https://bjjgraph.org/Transitions/Inside-Sankaku-to-Saddle" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Inside Sankaku to Saddle",
+  "description": "Inside Sankaku to Saddle is a leg-entanglement transition where the attacker switches hips and releases the figure-four to trade single-leg Inside Sankaku control for the Saddle's perpendicular, bilateral grip on the trapped leg, unlocking higher-percentage inside heel hooks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Inside Sankaku to Saddle transition in BJJ. Learn syste
 </div>
 
 <section id="overview" class="content-section">
+
+**Inside Sankaku to Saddle is a leg-entanglement transition where the attacker switches hips and releases the figure-four to trade single-leg Inside Sankaku control for the Saddle's perpendicular, bilateral grip on the trapped leg, unlocking higher-percentage inside heel hooks.**
 
 The Inside Sankaku to Saddle transition is a critical positional upgrade within modern leg lock systems, converting a strong single-leg entanglement into the most dominant leg control configuration in Brazilian Jiu-Jitsu. Inside Sankaku provides excellent heel hook opportunities but remains vulnerable to defensive rotations and knee line clearance attempts. The Saddle eliminates most of these defensive pathways by establishing perpendicular hip pressure with both legs controlling the opponent's trapped limb, creating a near-checkmate scenario where every defensive reaction opens a new submission pathway.
 
@@ -218,5 +255,7 @@ The Inside Sankaku to Saddle transition serves as the primary positional upgrade
 
 
 </section>
+
+
 
 </main>

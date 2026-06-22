@@ -3,6 +3,7 @@
   "slug": "vaporizer",
   "description": "Master Vaporizer position in BJJ. 10th Planet innovation for lockdown control with transitions to sweeps and submissions. Strategic guide covering both attacking and defending perspectives.",
   "variant_uniqueness": "Lockdown whip-up trades stability for leverage",
+  "summary": "The Vaporizer is a 10th Planet half-guard control where the bottom player combines a deep lockdown with a hip-driven whip-up motion and an upper-body underhook to off-balance the top player, opening sweeps, the Electric Chair, and Truck entries.",
   "overview": "The Vaporizer is an advanced controlling position within the 10th Planet system, representing a strategic extension of the lockdown half guard. This position is characterized by establishing a deep lockdown while simultaneously creating a powerful whip-up motion that forces the opponent onto their side or back. The practitioner uses the lockdown to control the opponent's leg while employing an underhook or overhook to manipulate their upper body, creating a mechanical advantage that makes escape extremely difficult.\n\nThe Vaporizer serves as a gateway position within the 10th Planet methodology, offering multiple pathways to sweeps, back takes, and submission opportunities. Unlike traditional half guard approaches that focus primarily on distance management, the Vaporizer emphasizes extreme proximity and pressure, using the lockdown to break down the opponent's base while the upper body control creates attacking opportunities. This position is particularly effective in no-gi grappling where traditional gi grips are unavailable, forcing practitioners to rely on body positioning and structural control.\n\nThe effectiveness of the Vaporizer lies in its ability to force reactions from opponents. By creating an uncomfortable position with the whip-up motion and lockdown pressure, defenders are compelled to make defensive choices that often expose them to further attacks. Whether transitioning to the Electric Chair, advancing to the Truck position, or sweeping to dominant positions, the Vaporizer exemplifies the systematic approach to position advancement that defines modern no-gi BJJ strategy. This position demands technical proficiency from both perspectives - the bottom player must coordinate multiple control points while maintaining offensive pressure, and the top player must employ systematic defensive protocols to neutralize the compound threats inherent in this sophisticated control position.",
   "key_principles": [
     "Maintain constant lockdown pressure by extending the trapped leg away from opponent's body while keeping the lock tight",
@@ -298,7 +299,7 @@
     "transitions": [
       {
         "transition": "Half Guard Pass",
-        "attempt_probability": 27
+        "attempt_probability": 33
       },
       {
         "transition": "Knee Slice Pass",
@@ -313,12 +314,8 @@
         "attempt_probability": 12
       },
       {
-        "transition": "Lockdown Escape to Half Guard Pass",
-        "attempt_probability": 12
-      },
-      {
         "transition": "Whizzer",
-        "attempt_probability": 12
+        "attempt_probability": 18
       },
       {
         "transition": "Defend Vaporizer Sweep",

@@ -10,6 +10,41 @@ description: "Master the gogoplata to armbar chain in BJJ. Complete guide to tra
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Gogoplata to Armbar",
+  "description": "Master the gogoplata to armbar chain in BJJ. Complete guide to transitioning from shin-across-throat control to armbar when opponents defend the choke.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Gogoplata to Armbar", "item": "https://bjjgraph.org/Transitions/Gogoplata-to-Armbar" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Gogoplata to Armbar",
+  "description": "Gogoplata to Armbar is a rubber-guard chain attack where the bottom player abandons the shin-across-throat gogoplata to secure wrist control, pivot the hips ninety degrees, and isolate the opponent's extended arm for an armbar finish.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,13 +57,15 @@ description: "Master the gogoplata to armbar chain in BJJ. Complete guide to tra
 
 <section id="overview" class="content-section">
 
+**Gogoplata to Armbar is a rubber-guard chain attack where the bottom player abandons the shin-across-throat gogoplata to secure wrist control, pivot the hips ninety degrees, and isolate the opponent's extended arm for an armbar finish.**
+
 The gogoplata to armbar transition represents one of the most effective chain attacks available from the rubber guard system. When a practitioner has established gogoplata control from the bottom position with the shin across the opponent's throat and foot secured behind their head, opponents commonly defend by posturing up, extending their arms to create distance, or attempting to remove the shin. These defensive reactions expose the arms and create optimal conditions for transitioning to an armbar attack.
 
 The mechanical basis of this transition lies in the hip pivot. The bottom player releases the gogoplata configuration by removing the foot from behind the opponent's head while simultaneously securing wrist control on the extended arm. The hips then rotate approximately ninety degrees to create the perpendicular angle necessary for armbar control. The leg that was creating shin-across-throat pressure swings over the opponent's head to establish the leg-over-face control characteristic of the armbar position. This pivot exploits the opponent's compromised posture and extended arm positioning.
 
 Strategically, the gogoplata to armbar chain creates a powerful offensive dilemma. Opponents who defend the gogoplata by keeping arms tight remain vulnerable to the choke finish. Those who extend arms to create distance provide the opening for the armbar transition. This no-win scenario for the defender is the hallmark of effective chain attack systems. The transition demands hip flexibility, precise timing, and the ability to recognize defensive patterns that signal the optimal moment to switch attacks.
 
-**From Position**: [[Positions/Gogoplata Control]] (Bottom)
+**From Position**: [[Positions/Gogoplata Control]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -222,5 +259,7 @@ The gogoplata to armbar transition fits within the broader rubber guard chain at
 
 
 </section>
+
+
 
 </main>

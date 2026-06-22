@@ -10,6 +10,41 @@ description: "Master the Electric Chair entry from Deep Half Guard in BJJ. Lockd
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Electric Chair Entry from Deep Half",
+  "description": "Master the Electric Chair entry from Deep Half Guard in BJJ. Lockdown mechanics, hip extension timing, and sweep-submission chains for advanced grapplers.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Electric Chair Entry from Deep Half", "item": "https://bjjgraph.org/Transitions/Electric-Chair-Entry-from-Deep-Half" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Electric Chair Entry from Deep Half",
+  "description": "The Electric Chair Entry from Deep Half is a bottom-game transition that layers the lockdown onto an existing deep-half underhook, trapping the opponent's near leg to split their base and create a simultaneous sweep-and-submission threat from the Electric Chair.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Electric Chair entry from Deep Half Guard in BJJ. Lockd
 </div>
 
 <section id="overview" class="content-section">
+
+**The Electric Chair Entry from Deep Half is a bottom-game transition that layers the lockdown onto an existing deep-half underhook, trapping the opponent's near leg to split their base and create a simultaneous sweep-and-submission threat from the Electric Chair.**
 
 The Electric Chair Entry from Deep Half Guard is a critical transition in the lockdown system that bridges two of the most powerful bottom positions in modern grappling. From the deep half guard, where the bottom player has already established a deep underhook and positioned themselves underneath the opponent's center of gravity, this technique adds the lockdown leg configuration to trap the opponent's near leg while maintaining the existing underhook control. The result is a seamless transition into the Electric Chair position, which creates devastating sweep-submission chains that force the top player to address multiple threats simultaneously.
 
@@ -208,8 +245,6 @@ The Electric Chair Entry from Deep Half sits at the intersection of two major bo
 
 - [[Positions/Half Guard]] - Parent guard system encompassing both deep half and lockdown
 
-- [[Positions/Half Guard/Electric Chair]] - Primary submission available from the target Electric Chair position
-
 - [[Positions/Twister Control/Truck]] - Alternative follow-up position when opponent defends the Electric Chair sweep
 
 - [[Positions/Half Guard/Old School]] - Complementary sweep that chains with Electric Chair from deep half
@@ -224,5 +259,7 @@ The Electric Chair Entry from Deep Half sits at the intersection of two major bo
 
 
 </section>
+
+
 
 </main>

@@ -20,6 +20,10 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from _slug import slugify  # shared single-source slugify (node keys + alias map)
+from _atomic_io import atomic_write_json
+
 
 # Neutral positions don't have top/bottom roles
 NEUTRAL_POSITIONS = {
@@ -29,22 +33,16 @@ NEUTRAL_POSITIONS = {
 TERMINAL_POSITIONS = {'game-over'}
 
 
+# Collects (path, error) for every source JSON that failed to parse during a run.
+# A single corrupt content/*.json must NOT be silently dropped from the graph
+# (that orphans everything referencing it). In strict mode (default) main() prints
+# these and exits non-zero BEFORE graph.json is written.
+_PARSE_FAILURES: list[tuple[str, str]] = []
+
+
 # ---------------------------------------------------------------------------
 # Helpers
 # ---------------------------------------------------------------------------
-
-def slugify(name: str) -> str:
-    """Convert a name to a lowercase URL-friendly slug (for dictionary keys/lookups)."""
-    slug = name.lower().strip()
-    slug = slug.replace('%', ' percent ')
-    slug = slug.replace('&', ' and ')
-    slug = slug.replace("'", '')
-    slug = slug.replace('"', '')
-    slug = re.sub(r'[^\w\s-]', '', slug)
-    slug = re.sub(r'[\s_]+', '-', slug)
-    slug = re.sub(r'-+', '-', slug)
-    return slug.strip('-')
-
 
 def quartz_slug(name: str) -> str:
     """Convert name to URL path matching Quartz's sluggify (case-preserving)."""
@@ -55,6 +53,117 @@ def quartz_slug(name: str) -> str:
     slug = slug.replace('#', '')
     slug = re.sub(r'\s+', '-', slug)
     return slug
+
+
+# ---------------------------------------------------------------------------
+# Alias resolution — old references to merged/renamed techniques still resolve
+# ---------------------------------------------------------------------------
+
+def build_alias_maps(content_dir: Path) -> tuple[dict, dict]:
+    """Scan every content JSON's aliases[] and build two lookup maps.
+
+    Returns (position_alias_map, technique_alias_map):
+      - position_alias_map: slug(alias) -> slug(canonical position node)
+      - technique_alias_map: slug(alias) -> {'slug': canonical_node_slug, 'name': canonical_name}
+
+    Used by rewrite_aliases() so that when a synonym is merged (e.g. Bullfighter
+    Pass folded into Toreando Pass with alias "Bullfighter Pass"), any edge that
+    still references the old slug resolves to the canonical node instead of
+    dangling. No-op until aliases[] arrays are populated (epic phase 12).
+    """
+    position_alias_map: dict[str, str] = {}
+    technique_alias_map: dict[str, dict] = {}
+
+    def _aliases_of(data: dict):
+        a = data.get('aliases')
+        return a if isinstance(a, list) else []
+
+    pos_dir = content_dir / 'Positions'
+    if pos_dir.exists():
+        for data in load_json_files(pos_dir):
+            name = data.get('name')
+            if not name:
+                continue
+            canonical_slug = slugify(data.get('slug', name))
+            for alias in _aliases_of(data):
+                if isinstance(alias, str) and alias.strip():
+                    position_alias_map[slugify(alias)] = canonical_slug
+
+    for subdir in ('Transitions', 'Submissions'):
+        d = content_dir / subdir
+        if not d.exists():
+            continue
+        for data in load_json_files(d):
+            name = data.get('name')
+            if not name:
+                continue
+            canonical_slug = slugify(name)
+            for alias in _aliases_of(data):
+                if isinstance(alias, str) and alias.strip():
+                    technique_alias_map[slugify(alias)] = {'slug': canonical_slug, 'name': name}
+
+    return position_alias_map, technique_alias_map
+
+
+def _resolve_pos_or_tech(ref: str, pos_map: dict, tech_map: dict) -> str:
+    """Resolve a position-or-submission reference (optionally with /role) through alias maps."""
+    if not ref or ref == 'game-over':
+        return ref
+    # Whole-slug submission alias (no role suffix on submissions)
+    if ref in tech_map:
+        return tech_map[ref]['slug']
+    if '/' in ref:
+        base, role = ref.split('/', 1)
+        if base in pos_map:
+            return f"{pos_map[base]}/{role}"
+        return ref
+    return pos_map.get(ref, ref)
+
+
+def rewrite_aliases(graph: dict, pos_map: dict, tech_map: dict) -> int:
+    """Rewrite every edge reference through the alias maps. Returns count rewritten."""
+    if not pos_map and not tech_map:
+        return 0
+
+    count = 0
+
+    def rewrite_technique_target(t: dict) -> None:
+        nonlocal count
+        entry = tech_map.get(t.get('target', ''))
+        if entry:
+            t['target'] = entry['slug']
+            t['targetPath'] = quartz_slug(entry['name'])
+            count += 1
+
+    for pos in graph.get('positions', {}).values():
+        for t in pos.get('transitions', []):
+            rewrite_technique_target(t)
+        for t in pos.get('opponentTransitions', []):
+            rewrite_technique_target(t)
+            so = t.get('successOutcome', '')
+            new_so = _resolve_pos_or_tech(so, pos_map, tech_map)
+            if new_so != so:
+                t['successOutcome'] = new_so
+                count += 1
+
+    for collection in ('transitions', 'submissions'):
+        for entry in graph.get(collection, {}).values():
+            for o in entry.get('outcomes', []):
+                new_to = _resolve_pos_or_tech(o.get('to', ''), pos_map, tech_map)
+                if new_to != o.get('to', ''):
+                    o['to'] = new_to
+                    count += 1
+            ep = entry.get('endingPosition', '')
+            new_ep = _resolve_pos_or_tech(ep, pos_map, tech_map)
+            if new_ep != ep:
+                entry['endingPosition'] = new_ep
+                count += 1
+            sp = entry.get('startingPosition', '')
+            if sp in pos_map:
+                entry['startingPosition'] = pos_map[sp]
+                count += 1
+
+    return count
 
 
 def load_json_files(directory: Path) -> list[dict]:
@@ -74,7 +183,10 @@ def load_json_files(directory: Path) -> list[dict]:
                 data['_source_file'] = str(json_file)
                 files.append(data)
         except (json.JSONDecodeError, IOError) as e:
-            print(f"Warning: Could not load {json_file}: {e}")
+            # Don't silently drop: record the failure so main() can hard-fail
+            # before graph.json is written (a dropped node orphans its references).
+            print(f"ERROR: Could not load {json_file}: {e}")
+            _PARSE_FAILURES.append((str(json_file), str(e)))
 
     return files
 
@@ -113,6 +225,59 @@ def dedupe_flashcards(cards: list[dict]) -> list[dict]:
             continue
         seen.add(q)
         out.append(card)
+    return out
+
+
+# Family-hub flashcard curation. A family hub (e.g. "rear-naked-choke") aggregates
+# the flashcards of all its from-position variants; raw aggregation yields ~200
+# cards, far more than one trainable session. Curate to a capped, breadth-balanced
+# deck weighted toward the highest-percentage / most-canonical positions.
+HUB_FLASHCARD_CAP = 45
+MIN_PER_VARIANT = 2
+
+# Strips a trailing "from <position>" clause so the same question re-asked per
+# variant position collapses to one card. Conservative + used only as a dedup key.
+_HUB_FROM_CLAUSE = re.compile(r'\s+from\s+[\w\s\-/]+\??$', re.IGNORECASE)
+
+
+def _hub_dedupe_key(question: str) -> str:
+    """Loose normalized key for hub-only near-duplicate collapse (key only —
+    the original card text is preserved)."""
+    q = _HUB_FROM_CLAUSE.sub('', (question or '').strip())
+    return re.sub(r'[^a-z0-9]+', ' ', q.lower()).strip()
+
+
+def curate_hub_flashcards(variants: list[dict]) -> list[dict]:
+    """Curate a family-hub deck from its variants' (already exact-deduped) decks.
+
+    Weighted Top-K per variant (more cards from higher-successRate positions) with
+    a per-variant floor, round-robin interleaved for positional breadth, then a
+    hub-only near-duplicate collapse, hard-capped at HUB_FLASHCARD_CAP.
+    """
+    rates = [max(0.0, float(v.get('successRate') or 0)) for v in variants]
+    total = sum(rates)
+    kept: list[list[dict]] = []
+    for v, rate in zip(variants, rates):
+        cards = v.get('flashcards', [])
+        keep = max(MIN_PER_VARIANT, round(HUB_FLASHCARD_CAP * rate / total)) if total > 0 else MIN_PER_VARIANT
+        kept.append(cards[:keep])
+
+    out: list[dict] = []
+    seen: set[str] = set()
+    i = 0
+    while len(out) < HUB_FLASHCARD_CAP and any(i < len(k) for k in kept):
+        for k in kept:
+            if i >= len(k):
+                continue
+            card = k[i]
+            key = _hub_dedupe_key(card.get('question', ''))
+            if not key or key in seen:
+                continue
+            seen.add(key)
+            out.append(card)
+            if len(out) >= HUB_FLASHCARD_CAP:
+                break
+        i += 1
     return out
 
 
@@ -510,16 +675,15 @@ def process_submissions(content_dir: Path) -> tuple[dict, set, dict]:
     family_hubs: dict[str, dict] = {}
     for family_slug, meta in family_hub_metadata.items():
         prefix = f"{family_slug}-from-"
-        aggregated: list[dict] = []
-        for key, variant in submissions.items():
-            if not key.startswith(prefix):
-                continue
-            aggregated.extend(variant.get('flashcards', []))
+        variant_decks = [
+            variant for key, variant in submissions.items()
+            if key.startswith(prefix)
+        ]
         family_hubs[family_slug] = {
             **meta,
             'isFamily': True,
             'isTerminal': True,
-            'flashcards': dedupe_flashcards(aggregated),
+            'flashcards': curate_hub_flashcards(variant_decks),
         }
 
     return submissions, hub_slugs, family_hubs
@@ -561,8 +725,105 @@ def process_principles(content_dir: Path) -> dict:
     return _process_flat_content(content_dir, 'Principles')
 
 
-def process_systems(content_dir: Path) -> dict:
-    return _process_flat_content(content_dir, 'Systems')
+# System members that referenced a node name we couldn't resolve to a real page.
+# Collected during process_systems and reported once at the end (non-fatal).
+_SYSTEM_UNRESOLVED: list = []
+
+
+def _node_id_for_path(plural: str, rel_path: Path) -> str:
+    """Quartz node id for a content file: 'Plural/Hyphenated-Segments' (case-preserving,
+    spaces->hyphens per segment), matching the slugs the graph renderer uses."""
+    return plural + '/' + '/'.join(quartz_slug(seg) for seg in rel_path.with_suffix('').parts)
+
+
+def build_node_index(content_dir: Path) -> dict:
+    """Map a content node's name (and aliases) to its graph identity.
+
+    Returns {(type, name_lower): entry, ('', name_lower): entry} where entry is
+    {'path': '<NodeId>', 'slug': '<nodeid lowercased>', 'type': 'position'|...}.
+    Node ids are derived from the FILE PATH (the authoritative Quartz slug source),
+    so nested variants like Submissions/Calf-Slicer/from-Carni resolve correctly.
+    """
+    cat_map = {
+        'Positions': 'position',
+        'Transitions': 'transition',
+        'Submissions': 'submission',
+        'Principles': 'principle',
+    }
+    index: dict = {}
+    for plural, typ in cat_map.items():
+        d = content_dir / plural
+        if not d.exists():
+            continue
+        for jf in d.rglob('*.json'):
+            try:
+                data = json.loads(jf.read_text(encoding='utf-8'))
+            except Exception:
+                continue
+            name = data.get('name')
+            if not name:
+                continue
+            node_path = _node_id_for_path(plural, jf.relative_to(d))
+            entry = {'path': node_path, 'slug': node_path.lower(), 'type': typ}
+            names = [name] + [a for a in (data.get('aliases') or []) if isinstance(a, str)]
+            for nm in names:
+                key = str(nm).strip().lower()
+                index.setdefault((typ, key), entry)
+                index.setdefault(('', key), entry)
+    return index
+
+
+def process_systems(content_dir: Path, node_index: dict | None = None) -> dict:
+    """Systems carry base flat-content fields plus resolved graph membership.
+
+    `members[]` is derived from related_content (the canonical edge list): each
+    Position/Transition/Submission/Principle reference is resolved to its node id so
+    a System page can highlight exactly the part of the graph it teaches. `products[]`
+    is curated affiliate data passed through verbatim.
+    """
+    systems = _process_flat_content(content_dir, 'Systems')
+    if node_index is None:
+        node_index = build_node_index(content_dir)
+
+    files = load_json_files(content_dir / 'Systems')
+    by_name = {str(d.get('name', '')).strip().lower(): d for d in files if d.get('name')}
+
+    for slug, entry in systems.items():
+        data = by_name.get(str(entry.get('name', '')).strip().lower())
+        if not data:
+            continue
+        members = []
+        seen = set()
+        for item in data.get('related_content', []) or []:
+            if not isinstance(item, dict):
+                continue
+            ct = (item.get('content_type') or '').strip()
+            if ct == 'System':
+                continue  # a System isn't a highlightable graph node
+            nm = (item.get('name') or '').strip()
+            if not nm:
+                continue
+            typ = ct.lower()
+            node = node_index.get((typ, nm.lower())) or node_index.get(('', nm.lower()))
+            if not node:
+                _SYSTEM_UNRESOLVED.append((entry.get('name', slug), nm, ct))
+                continue
+            if node['path'] in seen:
+                continue
+            seen.add(node['path'])
+            members.append({
+                'slug': node['slug'],
+                'path': node['path'],
+                'type': node['type'],
+                'name': nm,
+                'relationship': item.get('relationship', ''),
+            })
+        entry['members'] = members
+        products = data.get('products')
+        if isinstance(products, list) and products:
+            entry['products'] = products
+
+    return systems
 
 
 # ---------------------------------------------------------------------------
@@ -690,7 +951,17 @@ def generate_state_graph(project_root: Path) -> dict:
     print(f"  Processed {len(principles)} principles")
 
     systems = process_systems(content_dir)
-    print(f"  Processed {len(systems)} systems")
+    member_total = sum(len(s.get('members', [])) for s in systems.values())
+    product_total = sum(len(s.get('products', [])) for s in systems.values())
+    print(f"  Processed {len(systems)} systems ({member_total} resolved members, "
+          f"{product_total} affiliate products)")
+    if _SYSTEM_UNRESOLVED:
+        print(f"  WARNING: {len(_SYSTEM_UNRESOLVED)} system member reference(s) did not "
+              f"resolve to a page (skipped):")
+        for sys_name, ref_name, ref_type in _SYSTEM_UNRESOLVED[:25]:
+            print(f"    - {sys_name}: [{ref_type}] {ref_name}")
+        if len(_SYSTEM_UNRESOLVED) > 25:
+            print(f"    ... and {len(_SYSTEM_UNRESOLVED) - 25} more")
 
     # Override success rates with community votes
     if vote_rates:
@@ -846,6 +1117,19 @@ def generate_state_graph(project_root: Path) -> dict:
         if family_slug not in submissions:
             submissions[family_slug] = family_entry
 
+    # Resolve alias references: any edge still pointing at a merged/renamed
+    # technique's old slug is rewritten to the canonical node. No-op until
+    # aliases[] are populated (epic phase 12).
+    pos_alias_map, tech_alias_map = build_alias_maps(content_dir)
+    assembled = {
+        'positions': positions,
+        'transitions': transitions,
+        'submissions': submissions,
+    }
+    rewritten = rewrite_aliases(assembled, pos_alias_map, tech_alias_map)
+    if rewritten:
+        print(f"  Resolved {rewritten} alias reference(s) to canonical nodes")
+
     return {
         'positions': positions,
         'transitions': transitions,
@@ -859,6 +1143,7 @@ def generate_state_graph(project_root: Path) -> dict:
             'submissionCount': len(submissions),
             'principleCount': len(principles),
             'systemCount': len(systems),
+            'unresolvedSystemMemberCount': len(_SYSTEM_UNRESOLVED),
         },
     }
 
@@ -869,6 +1154,13 @@ def main():
                         help='Print every missing/orphan node')
     parser.add_argument('--strict', action='store_true',
                         help='Exit non-zero if missing nodes are found (for CI)')
+    parser.add_argument('--strict-sources', dest='strict_sources',
+                        action=argparse.BooleanOptionalAction, default=True,
+                        help='Hard-fail (exit non-zero) if any source JSON failed '
+                             'to parse, before writing graph.json (default: on; '
+                             'use --no-strict-sources / --lenient to opt out)')
+    parser.add_argument('--lenient', dest='strict_sources', action='store_false',
+                        help='Alias for --no-strict-sources: skip unparseable files')
     args = parser.parse_args()
 
     script_dir = Path(__file__).parent
@@ -876,13 +1168,27 @@ def main():
 
     state_graph = generate_state_graph(project_root)
 
+    # Hard-fail on corrupt source files BEFORE writing graph.json so a single
+    # malformed content/*.json never silently vanishes (orphaning its references)
+    # while the script still exits 0.
+    if _PARSE_FAILURES:
+        print(f"\nERROR: {len(_PARSE_FAILURES)} source JSON file(s) failed to parse:")
+        for path, err in _PARSE_FAILURES:
+            print(f"  - {path}: {err}")
+        if args.strict_sources:
+            print("\n  Refusing to write graph.json with missing source files. "
+                  "(use --no-strict-sources / --lenient to override)")
+            sys.exit(1)
+        else:
+            print("\n  --lenient: continuing with these files omitted from the graph.")
+
     # Validate graph integrity
     report = validate_graph(state_graph, verbose=args.verbose)
 
-    # Write output
+    # Write output (atomic: never leave a truncated graph.json on crash/Ctrl-C)
     output_file = project_root / 'graph.json'
-    with open(output_file, 'w', encoding='utf-8') as f:
-        json.dump(state_graph, f, indent=2, ensure_ascii=False)
+    atomic_write_json(output_file, state_graph, indent=2, ensure_ascii=False,
+                      trailing_newline=False)
 
     print(f"\nGenerated: {output_file}")
     print(f"  Positions: {len(state_graph['positions'])}")

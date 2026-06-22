@@ -2,7 +2,11 @@
   "name": "Z-Guard",
   "slug": "z-guard",
   "description": "Master Z-Guard in BJJ. Advanced knee shield variation with high shoulder framing. Complete guide covering setup, control, sweeps, and transitions.",
+  "aliases": [
+    "Z Guard"
+  ],
   "variant_uniqueness": "High knee shield targets shoulder for distance",
+  "summary": "Z-Guard is an advanced half guard variation where the bottom player wedges a high knee shield against the opponent's shoulder or upper chest, forming a 'Z' shape that denies pressure passing while loading sweeps, back takes, and deep half entries.",
   "overview": "Z-Guard represents an advanced evolution of knee shield half guard where the bottom player elevates the knee shield to target the opponent's shoulder or upper chest rather than the hip, creating a more complete defensive structure that resembles the letter 'Z' when viewed from the side. This specialized positioning fundamentally changes the guard's defensive geometry, making it exceptionally difficult for pressure passers to settle their weight while simultaneously creating powerful sweeping angles. The position gained prominence in modern BJJ as competitors discovered that the higher knee placement not only prevents the pass more effectively but also generates superior leverage for off-balancing attacks and back takes.\n\nThe strategic value of Z-Guard lies in its ability to transform defensive framing into offensive opportunity. Unlike traditional half guard where the bottom player often accepts significant pressure before countering, Z-Guard maintains active distance management that prevents the opponent from establishing effective passing sequences. The elevated knee shield creates a barrier that redirects the opponent's weight distribution, making forward pressure mechanically disadvantageous while simultaneously loading the defensive structure like a spring that can extend to create space or compress to facilitate transitions. This dual-purpose nature makes Z-Guard particularly effective against heavy pressure passers who rely on weight consolidation to break down guard positions.\n\nFrom both offensive and defensive perspectives, Z-Guard serves as a critical hub position in the modern half guard ecosystem. For the bottom player, it provides exceptional retention capabilities while maintaining constant threat of sweeps to old school, underhook variations, or transitions to deep half and back attacks. The position's effectiveness stems from creating multiple simultaneous frames that work together as an integrated defensive matrix rather than isolated points of contact. For the top player, Z-Guard represents a significant passing challenge that requires systematic breakdown of the knee shield structure through grip fighting, pressure application, and angular passing movements. Understanding both perspectives is essential for modern BJJ practitioners, as Z-Guard has become a fundamental position in contemporary guard retention and passing strategies across all skill levels and competition formats.",
   "key_principles": [
     "Maintain high knee shield placement targeting opponent's shoulder or collarbone to maximize distance and prevent weight consolidation",
@@ -252,15 +256,11 @@
     "transitions": [
       {
         "transition": "Knee Slice Pass",
-        "attempt_probability": 29
+        "attempt_probability": 40
       },
       {
         "transition": "Knee Slice from Half",
         "attempt_probability": 13
-      },
-      {
-        "transition": "Knee Cut Pass",
-        "attempt_probability": 11
       },
       {
         "transition": "Long Step Pass",
@@ -413,11 +413,6 @@
             "technique": "Electric Chair Transition",
             "target": "Electric Chair",
             "probability": 50
-          },
-          {
-            "technique": "Turtle to Truck",
-            "target": "Twister Control",
-            "probability": 55
           }
         ]
       },
@@ -502,7 +497,7 @@
       },
       {
         "name": "Back Take Reaction Drill",
-        "description": "Top player attempts to circle toward backstep position around knee shield. Bottom player practices recognizing circling movement and immediately reacting with appropriate back take or truck entry. Start slow to develop recognition, then progress to live speed. Focus on using opponent's circling momentum to facilitate transitions rather than fighting against their movement.",
+        "description": "Top player attempts to circle toward backstep position around knee shield. Bottom player practices recognizing circling movement and immediately reacting with the appropriate underhook back take or electric chair entry. Start slow to develop recognition, then progress to live speed. Focus on using opponent's circling momentum to facilitate transitions rather than fighting against their movement.",
         "duration": "3 minutes per round, 3-4 rounds per position"
       },
       {
@@ -569,7 +564,7 @@
     "transitions": [
       {
         "transition": "Old School Sweep",
-        "attempt_probability": 30
+        "attempt_probability": 35
       },
       {
         "transition": "Underhook Sweep from Half",
@@ -581,11 +576,7 @@
       },
       {
         "transition": "Back Take from Bottom",
-        "attempt_probability": 9
-      },
-      {
-        "transition": "Turtle to Truck",
-        "attempt_probability": 8
+        "attempt_probability": 12
       },
       {
         "transition": "X-Guard Sweep",

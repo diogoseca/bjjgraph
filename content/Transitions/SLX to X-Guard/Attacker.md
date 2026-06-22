@@ -82,10 +82,26 @@ description: "Learn to execute the SLX to X-Guard transition. Step-by-step leg t
     },
     {
       "@type": "Question",
+      "name": "What conditions must already be in place before you commit to threading the outside leg into X-Guard?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You need a deep, active inside hook behind the trapped knee generating genuine elevation, the opponent's free leg within reach of your outside foot rather than stepped far back, at least one anchoring grip on the trapped-side ankle, and your hips scooted underneath their center of gravity at a perpendicular angle. If elevation and reach are not established first, removing your outside foot from the hip simply surrenders your distance frame with no replacement control, leaving you exposed to the pass."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "What grip should your near hand maintain during the threading sequence and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your near hand should control the opponent's trapped-side ankle or lower pant leg throughout the threading sequence. This grip prevents them from extracting their trapped leg while you temporarily remove your outside foot from their hip, which is your primary distance management frame. Without this anchor grip, they can step backward and disengage completely during the transition window when your outside leg is between positions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "In which direction do you drive your elevation, and why does that direction matter for completing the thread?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Drive your hips upward and slightly toward the opponent's trapped side, lifting their weight onto the free leg while opening clearance underneath their stance. The upward vector raises the trapped leg to create the gap your foot travels through, while angling toward the trapped side stations the free leg as a predictable, loaded target. Pushing straight away instead of up collapses your own elevation and lets them re-base before your outside foot arrives behind the knee."
       }
     },
     {
@@ -102,22 +118,6 @@ description: "Learn to execute the SLX to X-Guard transition. Step-by-step leg t
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the opponent retreats their free leg before you complete the thread, immediately redirect to an SLX sweep or ashi garami entry rather than chasing the retreating leg. Their backward step often compromises their base on the trapped side, opening sweep opportunities that exploit their shifting weight distribution. Alternatively, follow their retreating hip by scooting forward, but only if you can maintain strong inside hook control during the pursuit without overextending."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the critical mechanical detail that prevents your inside hook from slipping during the transition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The inside hook must maintain active calf pressure against the opponent's hamstring throughout the thread, with your foot positioned past the back of their knee joint. The key detail is curling your toes and engaging your hamstring to create an active hooking action rather than relying on passive contact. If you relax this hook even momentarily during the threading motion, the opponent can extract their leg before you complete the X configuration, collapsing your entire guard."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "If the opponent blocks your X-Guard attempt by driving forward with pressure, what chain attack becomes available?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When the opponent drives forward against your threading attempt, their forward momentum creates an ideal entry to ashi garami or inside ashi positions. Their forward pressure means their leg is extending toward you rather than retracting away, making it easier to capture for leg entanglement. You can redirect your outside foot from the failed thread into an ashi hooking position, converting their defensive pressure into a leg lock opportunity they created themselves."
       }
     }
   ]
@@ -335,5 +335,7 @@ Full resistance positional rounds starting from SLX. Score points for successful
 This transition involves controlled leg manipulation and carries low injury risk when performed with proper technique. Avoid explosive hooking motions that could hyperextend your own knee or ankle during the threading sequence. When drilling, ensure the standing partner maintains safe balance and has adequate space to step or fall safely if swept unexpectedly during the transition. Communicate with training partners about knee sensitivity before practicing repeated hook insertions behind the knee joint, as the back of the knee can be sensitive to pressure from the hooking calf.
 
 </section>
+
+
 
 </main>

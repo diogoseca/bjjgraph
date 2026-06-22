@@ -10,6 +10,41 @@ description: "Master the Inverted Lasso Sweep in BJJ. Complete guide to sweep me
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Inverted Lasso Sweep",
+  "description": "Master the Inverted Lasso Sweep in BJJ. Complete guide to sweep mechanics, overhead entries, berimbolo chains, and counter-defense from inverted lasso guard.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Inverted Lasso Sweep", "item": "https://bjjgraph.org/Transitions/Inverted-Lasso-Sweep" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Inverted Lasso Sweep",
+  "description": "The Inverted Lasso Sweep is an advanced overhead sweep from inverted lasso guard that threads a leg through the opponent's arm and uses the lasso hook as a fulcrum to dump them forward into mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Inverted Lasso Sweep in BJJ. Complete guide to sweep me
 
 <section id="overview" class="content-section">
 
-The Inverted Lasso Sweep is a high-percentage overhead sweep executed from inverted lasso guard that exploits the fulcrum effect created by the lasso hook and inverted body positioning. By threading the leg through the opponent's arm and rolling onto the shoulders, the bottom player generates rotational force that multiplies through the lasso connection, creating an overhead trajectory that dumps the opponent forward directly into mount. The technique requires precise timing, maintained lasso tension, and coordinated hip extension to succeed.
+**The Inverted Lasso Sweep is an advanced overhead sweep from inverted lasso guard that threads a leg through the opponent's arm and uses the lasso hook as a fulcrum to dump them forward into mount.**
+
+Within the modern inverted lasso guard system, this sweep is the principal scoring threat, converting the position's geometric advantage into a forward dump that finishes in mount. By threading the leg through the opponent's arm and rolling onto the shoulders, the bottom player generates rotational force that multiplies through the lasso connection, creating an overhead trajectory that carries the opponent forward and over. The technique requires precise timing, maintained lasso tension, and coordinated hip extension to succeed.
 
 The technique's effectiveness stems from the geometric advantage of the inverted position. Traditional lasso sweeps generate lateral or diagonal force, but the inverted variation produces vertical lifting force that compounds with the opponent's forward weight. This makes the sweep particularly effective against opponents who drive forward to pressure pass, as their own momentum feeds into the sweep mechanics. The timing window opens when the opponent commits weight forward while attempting to establish passing pressure or when they lean in to address the lasso hook.
 
@@ -222,5 +259,7 @@ The Inverted Lasso Sweep integrates into the broader lasso guard system as the p
 
 
 </section>
+
+
 
 </main>

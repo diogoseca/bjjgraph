@@ -142,11 +142,24 @@ description: "Master pressure defense in BJJ with comprehensive strategies for f
 }
 </script>
 
-> Dealing with Pressure is a medium complexity BJJ principle applicable at the Fundamental level. Develop over Beginner to Advanced.
 
-**Application Level**: Fundamental
-**Complexity**: Medium
-**Development Timeline**: Beginner to Advanced
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Dealing with Pressure",
+  "description": "Dealing with Pressure is the defensive skill of preserving breathing, structure, and escape options under an opponent's top weight by combining frames, angles, strategic breathing, and psychological composure to survive control and create escapes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Fundamental</span>
+<span class="meta-chip">Medium complexity</span>
+<span class="meta-chip">Beginner to Advanced</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -155,7 +168,9 @@ description: "Master pressure defense in BJJ with comprehensive strategies for f
 
 ## What is Dealing with Pressure?
 
-Dealing with Pressure represents the fundamental skill of maintaining defensive effectiveness, structural integrity, and tactical options when subjected to heavy top pressure from an opponent's controlled position. Unlike specific escape techniques, dealing with pressure is a comprehensive conceptual framework that applies across all bottom positions where opponent applies weight, compression, and control to limit mobility and breathing. This concept encompasses the physical endurance, technical positioning, psychological composure, and strategic approach to surviving and escaping pressure-based control systems. Dealing with pressure serves as both a survival mechanism that prevents submission and positional deterioration, and a foundation for creating escape opportunities through managed space creation and frame maintenance. The ability to effectively deal with pressure often determines whether a practitioner can escape bad positions or succumbs to submission or exhaustion, making it one of the most essential defensive elements in BJJ.
+**Dealing with Pressure is the defensive skill of preserving breathing, structure, and escape options under an opponent's top weight by combining frames, angles, strategic breathing, and psychological composure to survive control and create escapes.**
+
+In Brazilian Jiu-Jitsu, many top-game specialists win primarily by imposing crushing, suffocating control rather than by chaining submissions, which makes the bottom player's ability to manage that load a decisive skill. Unlike specific escape techniques, dealing with pressure is a comprehensive conceptual framework that applies across all bottom positions where an opponent applies weight, compression, and control to limit mobility and breathing. This concept encompasses the physical endurance, technical positioning, psychological composure, and strategic approach required to survive and escape pressure-based control systems. Dealing with pressure serves as both a survival mechanism that prevents submission and positional deterioration, and a foundation for creating escape opportunities through managed space creation and frame maintenance. The ability to effectively deal with pressure often determines whether a practitioner can escape bad positions or succumbs to submission or exhaustion, making it one of the most essential defensive elements in BJJ.
 
 </section>
 
@@ -380,6 +395,18 @@ Extended rounds (5+ minutes) under sustained pressure with focus on maintaining 
 - [[Positional Hierarchy]] (Principle) - Strategic framework for prioritizing which pressure situations to escape first based on positional danger
 - [[Defensive Prioritization Framework]] (System) - Systematic approach to defensive decision-making that applies pressure management principles across all bottom positions
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Caio-Terra-Guard-Retention-System" data-cta="related-system-card" data-system-slug="systems/caio-terra-guard-retention-system" data-system-name="Caio Terra Guard Retention System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Caio Terra Guard Retention System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Strategic principle for managing opponent pressure while optimizing frame placement and energy efficiency</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Back-Defense-Protocol" data-cta="related-system-card" data-system-slug="systems/back-defense-protocol" data-system-name="Back Defense Protocol" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Back Defense Protocol</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Overall strategic approach to handling dominant pressure situations</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Mental-Game-Framework" data-cta="related-system-card" data-system-slug="systems/mental-game-framework" data-system-name="Mental Game Framework" data-member-count="15"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Mental Game Framework</span><span class="system-card__unlocks-badge">Unlocks 15 techniques</span><span class="system-card__blurb">Core skill developed through pressure inoculation and emotional regulation training</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

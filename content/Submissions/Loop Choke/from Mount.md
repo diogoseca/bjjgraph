@@ -10,10 +10,55 @@ description: "Master the Loop Choke from Mount in BJJ. Complete guide with safet
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Loop Choke from Mount targets the Carotid arteries and jugular veins. Risk: Loss of consciousness from carotid artery compression. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Loop Choke from Mount",
+  "description": "Master the Loop Choke from Mount in BJJ. Complete guide with safety protocols, setup requirements, and execution. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Loop Choke from Mount", "item": "https://bjjgraph.org/Submissions/Loop-Choke-from-Mount" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Loop Choke from Mount",
+  "description": "The Loop Choke from Mount is a gi blood choke where the top player threads one hand deep into the far collar and grips the opposite lapel, turning the opponent's own jacket into a noose that compresses both carotid arteries without ever giving up mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Loop Choke from Mount is a gi blood choke where the top player threads one hand deep into the far collar and grips the opposite lapel, turning the opponent's own jacket into a noose that compresses both carotid arteries without ever giving up mount.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries and jugular veins</span>
+<span class="meta-chip">58% success</span>
+</div>
+
+> [!danger] Safety
+> Loop Choke from Mount targets the Carotid arteries and jugular veins. Primary risk: Loss of consciousness from carotid artery compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -24,53 +69,9 @@ description: "Master the Loop Choke from Mount in BJJ. Complete guide with safet
 
 <section id="overview" class="content-section">
 
-The Loop Choke from Mount is a devastating gi-based blood choke that leverages the attacker's dominant top position to create an inescapable strangling mechanism using the opponent's own collar. This technique exemplifies the principle of using positional control to set up high-percentage submissions. From mount, the practitioner feeds one hand deep into the opponent's collar while securing the opposite side lapel with the other hand, creating a loop configuration that tightens around the neck as pressure is applied. The beauty of this submission lies in its ability to be applied from one of the most dominant positions in BJJ, making it extremely difficult to defend once properly set up. Unlike many other mount attacks that require significant positional shifts, the loop choke can be finished while maintaining full mount control, allowing the attacker to threaten the submission without compromising position. The technique works on a biomechanical principle where the opponent's own collar becomes a noose, with the attacker's grips creating opposing vectors of force that compress both carotid arteries simultaneously.
+Prized by pressure passers for letting them strangle an opponent with their own collar while never surrendering the position, the Loop Choke ranks among the highest-value finishes available from top mount. This technique exemplifies the principle of using positional control to set up high-percentage submissions. From mount, the practitioner feeds one hand deep into the opponent's collar while securing the opposite side lapel with the other hand, creating a loop configuration that tightens around the neck as pressure is applied. The beauty of this submission lies in its ability to be applied from one of the most dominant positions in BJJ, making it extremely difficult to defend once properly set up. Unlike many other mount attacks that require significant positional shifts, the loop choke can be finished while maintaining full mount control, allowing the attacker to threaten the submission without compromising position. The technique works on a biomechanical principle where the opponent's own collar becomes a noose, with the attacker's grips creating opposing vectors of force that compress both carotid arteries simultaneously.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries and jugular veins
-**Starting Position**: [[Positions/Mount]]
-**From Position**: [[Positions/Mount]] (Top)
-**Success Rate**: 58%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Loss of consciousness from carotid artery compression | High | Immediate with proper release, potential for confusion lasting 30-60 seconds |
-| Trachea damage from improper collar placement | Medium | 3-7 days for minor bruising, weeks for significant damage |
-| Neck strain from defensive bridging against choke | Low | 1-3 days |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from initial tightness to full pressure
-
-**Tap Signals**:
-- Verbal tap or verbal statement of submission
-- Physical hand tap on opponent's body or mat
-- Physical foot tap on mat
-- Any distress signal including unusual sounds or loss of resistance
-
-
-**Release Protocol**:
-1. Immediately release both collar grips completely
-2. Remove all chest pressure and sit back to neutral mount
-3. Check partner's alertness and awareness before continuing
-4. Allow minimum 60 seconds recovery time before resuming training
-
-
-**Training Restrictions**:
-- Never apply sudden jerking or yanking motions with collar grips
-- Never use competition speed in training - always give partner time to recognize and tap
-- Never continue pressure after tap is felt or heard
-- Always ensure training partner can freely tap with at least one hand
-- Never practice on partners who are visibly fatigued or disoriented
-
+**Starting Position**: [[Positions/Mount]] · **From**: [[Positions/Mount]] (Top)
 
 </section>
 
@@ -244,10 +245,9 @@ The Loop Choke from Mount is a devastating gi-based blood choke that leverages t
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Loop Choke]]
 - [[Submissions/Cross Collar Choke]]
 - [[Submissions/Ezekiel Choke]]
@@ -256,36 +256,54 @@ The Loop Choke from Mount is a devastating gi-based blood choke that leverages t
 - [[Transitions/Arm Triangle]]
 - [[Submissions/Bow and Arrow Choke]]
 - [[Submissions/Baseball Bat Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Mount]] - Primary starting position providing control and weight distribution for collar attacks
 - [[Positions/Mount/High Mount]] - Advanced variation position offering enhanced collar access and submission control
 - [[Positions/Gift Wrap]] - Control position that facilitates deep collar grip by limiting opponent's defensive capability
-- [[Submissions/Cross Collar Choke]] - Complementary attack that sets up loop choke when defended
-- [[Submissions/Far Side Armbar]] - Alternative submission to threaten when opponent defends collar, creating arm isolation reactions
-- [[Submissions/Americana]] - Arm attack that can be used to force opponent to expose collar while defending shoulder lock
 - [[Positions/Mount/Technical Mount]] - Modified position that can enhance loop choke finishing mechanics through improved angle
-- [[Submissions/Ezekiel Choke]] - Alternative mount choke useful against opponents who defend their collar differently
 - [[Positions/Side Control]] - Common transition destination if opponent turns during loop choke attempt
 - [[Positions/Back Control]] - Alternative position to transition to when opponent turns away during choke attempt
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Loss of consciousness from carotid artery compression | High | Immediate with proper release, potential for confusion lasting 30-60 seconds |
+| Trachea damage from improper collar placement | Medium | 3-7 days for minor bruising, weeks for significant damage |
+| Neck strain from defensive bridging against choke | Low | 1-3 days |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum from initial tightness to full pressure
+
+**Tap Signals**:
+- Verbal tap or verbal statement of submission
+- Physical hand tap on opponent's body or mat
+- Physical foot tap on mat
+- Any distress signal including unusual sounds or loss of resistance
+
+
+**Release Protocol**:
+1. Immediately release both collar grips completely
+2. Remove all chest pressure and sit back to neutral mount
+3. Check partner's alertness and awareness before continuing
+4. Allow minimum 60 seconds recovery time before resuming training
+
+
+**Training Restrictions**:
+- Never apply sudden jerking or yanking motions with collar grips
+- Never use competition speed in training - always give partner time to recognize and tap
+- Never continue pressure after tap is felt or heard
+- Always ensure training partner can freely tap with at least one hand
+- Never practice on partners who are visibly fatigued or disoriented
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Loop Choke from Mount leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

@@ -1,6 +1,7 @@
 {
   "name": "Body Triangle Squeeze",
   "description": "Master the body triangle squeeze finish in BJJ. Detailed guide covering rib compression mechanics, breathing restriction tactics, and escape strategies.",
+  "summary": "The Body Triangle Squeeze is a back-control compression finish that turns the figure-four leg lock into a submission, crushing the opponent's floating ribs and diaphragm to restrict breathing and force a tap from accumulated pressure.",
   "tags": [
     "bjj",
     "transition",
@@ -10,7 +11,7 @@
     "body-compression",
     "squeeze"
   ],
-  "from_position": "Body Triangle/Bottom",
+  "from_position": "Body Triangle/Top",
   "outcomes": [
     {
       "to": "game-over",

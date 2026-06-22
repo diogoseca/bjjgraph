@@ -10,6 +10,41 @@ description: "Master the Piranha to Worm Guard transition in BJJ. Learn to conve
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Piranha to Worm Guard",
+  "description": "Master the Piranha to Worm Guard transition in BJJ. Learn to convert lapel threading into a worm wrap for enhanced sweeping power and back take setups.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Piranha to Worm Guard", "item": "https://bjjgraph.org/Transitions/Piranha-to-Worm-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Piranha to Worm Guard",
+  "description": "Piranha to Worm Guard is a gi lapel-guard transition where the bottom player re-routes the opponent's lapel from threading through their own legs to wrapping it around the opponent's lead leg, upgrading into Worm Guard's higher-percentage sweeping control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Piranha to Worm Guard transition in BJJ. Learn to conve
 </div>
 
 <section id="overview" class="content-section">
+
+**Piranha to Worm Guard is a gi lapel-guard transition where the bottom player re-routes the opponent's lapel from threading through their own legs to wrapping it around the opponent's lead leg, upgrading into Worm Guard's higher-percentage sweeping control.**
 
 The Piranha to Worm Guard transition represents a sophisticated guard evolution within the modern lapel guard system, converting the Piranha Guard's through-the-legs lapel threading into the Worm Guard's leg-wrapping configuration. This transition is strategically valuable because Worm Guard offers superior sweeping mechanics through its mechanical connection to the opponent's leg, more diverse attacking chains including omoplata and back take sequences, and greater positional stability than Piranha Guard's collar-through-legs configuration. The move is a natural progression when the opponent's defensive posture exposes their lead leg for the worm wrap.
 
@@ -222,5 +259,7 @@ The Piranha to Worm Guard transition sits at the heart of the modern lapel guard
 
 
 </section>
+
+
 
 </main>

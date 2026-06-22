@@ -1,9 +1,17 @@
 {
   "name": "Economy of Motion",
   "description": "Discover why the most effective BJJ players move less, not more. Learn how minimal movement and maximum efficiency let smaller grapplers dominate larger opponents on the mat.",
-  "tags": ["bjj", "strategy", "efficiency", "energy-management", "movement", "fundamentals"],
+  "summary": "Economy of motion is the BJJ principle of producing maximum positional effect with the least possible movement and energy, substituting small, precisely timed adjustments for large, explosive, wasteful actions.",
+  "tags": [
+    "bjj",
+    "strategy",
+    "efficiency",
+    "energy-management",
+    "movement",
+    "fundamentals"
+  ],
   "category": "Strategy",
-  "overview": "Watch a black belt roll with a strong white belt and you will notice something counterintuitive: the black belt barely moves. While the white belt explodes, scrambles, grabs, and thrashes, the black belt makes small adjustments -- a hip shift here, a grip change there -- and consistently ends up in dominant position. This is economy of motion: achieving maximum effect with minimum movement and energy expenditure.\n\nEvery unnecessary movement in BJJ costs energy and creates openings. When you reach for a grip you do not need, you open space your opponent can exploit. When you bridge explosively without direction, you burn energy without improving your position. When you scramble wildly, you create the very chaos that favors the less skilled grappler. The efficient player replaces large movements with small ones, replaces speed with timing, and replaces strength with leverage. They do not move until moving accomplishes something specific.\n\nEconomy of motion is why a 140-pound black belt can control a 220-pound athletic white belt. The larger person generates more force but wastes most of it on movements that accomplish nothing. The smaller person conserves energy, moves only with purpose, and applies force precisely where it matters. Over the course of a five-minute round, the efficient player has spent a fraction of the energy while accomplishing more positional work. This is not mystical -- it is physics and game theory applied to grappling.",
+  "overview": "Watch a black belt roll with a strong white belt and you will notice something counterintuitive: the black belt barely moves. While the white belt explodes, scrambles, grabs, and thrashes, the black belt makes small adjustments -- a hip shift here, a grip change there -- and consistently ends up in dominant position. This is the visible signature of an efficient grappler: maximum effect drawn from minimum movement.\n\nEvery unnecessary movement in BJJ costs energy and creates openings. When you reach for a grip you do not need, you open space your opponent can exploit. When you bridge explosively without direction, you burn energy without improving your position. When you scramble wildly, you create the very chaos that favors the less skilled grappler. The efficient player replaces large movements with small ones, replaces speed with timing, and replaces strength with leverage. They do not move until moving accomplishes something specific.\n\nEconomy of motion is why a 140-pound black belt can control a 220-pound athletic white belt. The larger person generates more force but wastes most of it on movements that accomplish nothing. The smaller person conserves energy, moves only with purpose, and applies force precisely where it matters. Over the course of a five-minute round, the efficient player has spent a fraction of the energy while accomplishing more positional work. This is not mystical -- it is physics and game theory applied to grappling.",
   "key_takeaways": [
     "Every movement should accomplish a specific goal -- if you cannot identify what a movement achieves, do not make it",
     "Replace large explosive movements with small precise adjustments: a two-inch hip shift can be as effective as a full bridge when applied at the right moment",
@@ -108,52 +116,52 @@
   ],
   "related_content": [
     {
-      "name": "Principles/Maximum Efficiency Principle",
+      "name": "Maximum Efficiency Principle",
       "content_type": "Principle",
       "relationship": "The foundational Judo principle of maximum efficiency with minimum effort that underpins economy of motion"
     },
     {
-      "name": "Principles/Energy Conservation",
+      "name": "Energy Conservation",
       "content_type": "Principle",
       "relationship": "Specific strategies for conserving energy through efficient technique selection and timing"
     },
     {
-      "name": "Principles/Frames",
+      "name": "Frames",
       "content_type": "Principle",
       "relationship": "Frames use skeletal structure instead of muscle, embodying the economy of motion principle in defense"
     },
     {
-      "name": "Principles/Levers",
+      "name": "Levers",
       "content_type": "Principle",
       "relationship": "Lever principles multiply force, allowing small movements to create large effects"
     },
     {
-      "name": "Principles/Wedges",
+      "name": "Making Smaller Circles",
       "content_type": "Principle",
-      "relationship": "Wedges create space efficiently using body structure rather than explosive effort"
+      "relationship": "Reducing the radius of every motion is the literal expression of economy of motion -- smaller circles mean less wasted travel"
     },
     {
-      "name": "Principles/Pressure",
+      "name": "Pressure",
       "content_type": "Principle",
       "relationship": "Effective pressure uses body weight and positioning rather than muscular exertion"
     },
     {
-      "name": "Principles/Center of Gravity",
+      "name": "Center of Gravity",
       "content_type": "Principle",
       "relationship": "Understanding center of gravity allows efficient movement with minimal displacement"
     },
     {
-      "name": "Principles/Kuzushi",
+      "name": "Kuzushi",
       "content_type": "Principle",
       "relationship": "Off-balancing through efficient redirection rather than brute force"
     },
     {
-      "name": "Learning/Timing Windows",
+      "name": "Timing Windows",
       "content_type": "Learning",
       "relationship": "Acting at the right moment is the ultimate economy -- zero wasted effort when timing is perfect"
     },
     {
-      "name": "Learning/Funneling",
+      "name": "Funneling",
       "content_type": "Learning",
       "relationship": "Funneling opponents into your game reduces the total movement and effort needed to win"
     }

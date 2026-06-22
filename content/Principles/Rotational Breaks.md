@@ -142,20 +142,35 @@ description: "Master rotational submission mechanics in BJJ. Learn how twisting 
 }
 </script>
 
-> Rotational Breaks is a high complexity BJJ principle applicable at the Intermediate level. Develop over Intermediate to Expert.
 
-**Application Level**: Intermediate
-**Complexity**: High
-**Development Timeline**: Intermediate to Expert
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Rotational Breaks",
+  "description": "Rotational breaks are joint submissions that apply twisting force along a joint's rotational axis past its anatomical limit, loading the ligaments that resist rotation — the shared mechanic behind Kimuras, Americanas, heel hooks, and the Twister.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Intermediate</span>
+<span class="meta-chip">High complexity</span>
+<span class="meta-chip">Intermediate to Expert</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
 
-## What is Rotational Breaks?
+## What are Rotational Breaks?
 
-Rotational breaks are the submission mechanic that exploits a joint's limited rotational range of motion by applying twisting force past its anatomical limit. While hyperextension attacks like armbars push a joint in one linear plane, rotational breaks twist the joint along its rotational axis, attacking ligaments and tendons that resist rotation. The shoulder's internal and external rotation limits are exploited by the Kimura and Americana respectively. The knee's rotational vulnerability is exploited by inside and outside heel hooks. Even the spine's rotational limits come into play with twisting attacks like the Twister.
+**Rotational breaks are joint submissions that apply twisting force along a joint's rotational axis past its anatomical limit, loading the ligaments that resist rotation — the shared mechanic behind Kimuras, Americanas, heel hooks, and the Twister.**
+
+Joint attacks in submission grappling fall into two broad families, and rotational breaks are the family defined by the plane of attack rather than by the joint targeted. Whereas hyperextension attacks like the armbar drive a joint in a single linear plane, rotational breaks twist the joint along its rotational axis, loading the ligaments and tendons that resist rotation. The shoulder's internal and external rotation limits are exploited by the Kimura and Americana respectively. The knee's rotational vulnerability is exploited by inside and outside heel hooks. Even the spine's rotational limits come into play with twisting attacks like the Twister.
 
 What makes rotational breaks particularly dangerous is the relative lack of proprioceptive feedback compared to hyperextension. When someone straightens your arm, you feel the stretch gradually and can tap in time. When someone rotates your knee past its limit, the ligament damage can occur before you register significant pain. This is why heel hooks have historically been restricted in many competition rulesets and why understanding the mechanics is critical for both attacking safely and defending intelligently.
 
@@ -369,5 +384,7 @@ Partner provides graduated resistance to submission finishes, starting at 30% an
 
 
 </section>
+
+
 
 </main>

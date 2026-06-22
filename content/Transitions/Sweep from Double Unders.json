@@ -1,5 +1,6 @@
 {
   "name": "Sweep from Double Unders",
+  "summary": "The Sweep from Double Unders is a bottom-player counter-reversal that harnesses the passer's committed forward stacking pressure through overhead, lateral-bridge, or leg-hook mechanics to dump them and come up into Side Control top.",
   "description": "Master the Sweep from Double Unders in BJJ. Learn to use your opponent's stacking pressure against them with overhead and hip-based counter-sweeps to reverse.",
   "tags": [
     "bjj",
@@ -86,12 +87,12 @@
       "relationship": "Alternative escape position from double unders when sweep and guard recovery both fail"
     },
     {
-      "name": "Butterfly Hook Sweep",
-      "relationship": "Related sweeping technique sharing similar hip elevation and hook mechanics"
+      "name": "Deep Half Entry",
+      "relationship": "Companion escape transition from the same position that uses the opponent's forward drive as entry momentum"
     },
     {
-      "name": "Homer Simpson Sweep",
-      "relationship": "Related sweep concept using opponent's forward pressure as the primary sweeping engine"
+      "name": "Granby Roll to Guard",
+      "relationship": "Alternative momentum-based escape from double unders bottom when a sweep is countered by drive-through"
     },
     {
       "name": "Open Guard",

@@ -12,10 +12,17 @@
     "windpipe",
     "intermediate"
   ],
+  "disambiguations": [
+    {
+      "name": "Blood Chokes",
+      "reason": "Blood Chokes compress the carotid arteries (vascular), a different mechanism"
+    }
+  ],
   "application_level": "Intermediate",
   "complexity_level": "Medium",
   "development_timeline": "Intermediate to Advanced",
-  "overview": "Air chokes restrict the opponent's breathing by compressing the trachea (windpipe), preventing airflow to the lungs. Unlike blood chokes that cut circulation to the brain and cause unconsciousness in seconds, air chokes create a suffocation effect that forces a tap through oxygen deprivation and the panic of being unable to breathe. This makes air chokes generally slower to finish than blood chokes, but they remain a viable and sometimes unavoidable finishing mechanic, particularly when the choking angle compresses the front of the throat rather than the sides of the neck.\n\nSeveral common submissions operate as air chokes or have air choke components. The Ezekiel choke uses the sleeve or wrist bone across the trachea. Certain cross collar choke angles push directly into the windpipe. Some guillotine variations, particularly when the forearm sits on the throat rather than the side of the neck, function primarily as air chokes. Many practitioners encounter air choke mechanics even when attempting blood chokes, especially early in their development when choke placement is imprecise.\n\nUnderstanding air choke mechanics is important for two reasons. First, recognizing when you are applying an air choke rather than a blood choke allows you to adjust your technique for a more effective finish. Second, air chokes carry specific injury risks to the trachea and larynx that practitioners must understand. Tracheal compression can cause bruising, cartilage damage, or in extreme cases structural injury to the airway. Training partners should tap early when they feel windpipe pressure, and the attacker should be aware that extended tracheal compression is more likely to cause lasting discomfort than arterial compression. The goal in training should always be to refine placement toward vascular strangles, but air choke awareness ensures safety when the technique lands on the trachea.",
+  "summary": "Air chokes are strangulation techniques that compress the trachea (windpipe) to block airflow to the lungs, forcing a submission through suffocation rather than the rapid blood-flow cutoff of a vascular blood choke.",
+  "overview": "Within the broader family of strangulation techniques, air chokes occupy a distinct mechanical category from the vascular blood chokes that dominate high-level competition. Unlike blood chokes that cut circulation to the brain and cause unconsciousness in seconds, air chokes create a suffocation effect that forces a tap through oxygen deprivation and the panic of being unable to breathe. This makes air chokes generally slower to finish than blood chokes, but they remain a viable and sometimes unavoidable finishing mechanic, particularly when the choking angle compresses the front of the throat rather than the sides of the neck.\n\nSeveral common submissions operate as air chokes or have air choke components. The Ezekiel choke uses the sleeve or wrist bone across the trachea. Certain cross collar choke angles push directly into the windpipe. Some guillotine variations, particularly when the forearm sits on the throat rather than the side of the neck, function primarily as air chokes. Many practitioners encounter air choke mechanics even when attempting blood chokes, especially early in their development when choke placement is imprecise.\n\nUnderstanding air choke mechanics is important for two reasons. First, recognizing when you are applying an air choke rather than a blood choke allows you to adjust your technique for a more effective finish. Second, air chokes carry specific injury risks to the trachea and larynx that practitioners must understand. Tracheal compression can cause bruising, cartilage damage, or in extreme cases structural injury to the airway. Training partners should tap early when they feel windpipe pressure, and the attacker should be aware that extended tracheal compression is more likely to cause lasting discomfort than arterial compression. The goal in training should always be to refine placement toward vascular strangles, but air choke awareness ensures safety when the technique lands on the trachea.",
   "key_principles": [
     "Air chokes compress the trachea to restrict airflow, producing a suffocation effect that is slower but still effective for forcing a submission",
     "Distinguish between air choke and blood choke sensations: air chokes feel like choking and breathing difficulty, blood chokes feel like pressure and dimming vision",
@@ -326,6 +333,40 @@
       "name": "Von Flue Choke",
       "content_type": "Submission",
       "relationship": "A shoulder-pressure-based choke from side control that can produce air choke effects through throat compression"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What is the mechanical difference between an air choke and a blood choke?",
+      "answer": "An air choke compresses the trachea (windpipe) to block airflow to the lungs and finishes through suffocation, while a blood choke compresses the carotid arteries to cut blood flow to the brain, causing rapid unconsciousness."
+    },
+    {
+      "question": "During a roll, how do you recognize that you have an air choke rather than a blood choke?",
+      "answer": "The choking surface sits on the front of the throat and the opponent coughs, gasps, or reports throat pain, whereas a blood choke sits on the sides of the neck and produces dimming vision or a limp opponent within seconds."
+    },
+    {
+      "question": "Which common BJJ submission is the most dedicated air choke, and from where is it typically applied?",
+      "answer": "The Ezekiel choke is the most common dedicated air choke, driving the wrist or forearm bone across the trachea while the sleeve hand controls behind the neck, typically from mount or top half guard."
+    },
+    {
+      "question": "Why should a defender tap early to tracheal pressure instead of trying to ride it out?",
+      "answer": "Tracheal compression can cause bruising, cartilage damage, or laryngeal injury before the defender runs out of air, and unlike blood chokes the risk is lasting structural airway damage rather than brief unconsciousness."
+    },
+    {
+      "question": "Why are air chokes generally considered less efficient than blood chokes?",
+      "answer": "Air chokes finish through suffocation, which is slower than cutting blood flow to the brain, so the opponent gets more time to defend, escape, or simply endure the pressure before being forced to tap."
+    },
+    {
+      "question": "How can an attacker convert an air choke into a blood choke for a faster finish?",
+      "answer": "By rotating the forearm, shifting body position, or changing grip depth to redirect the choking surface off the front of the throat and onto the carotid arteries at the sides of the neck."
+    },
+    {
+      "question": "Why can tucking the chin be the wrong defense against an air choke?",
+      "answer": "If the choking surface is already on the windpipe, tucking the chin can drive it deeper into the trachea; the better response is to create space and clear the choking surface off the front of the throat."
+    },
+    {
+      "question": "What makes the Ezekiel choke particularly risky to train at full intensity?",
+      "answer": "It concentrates significant force on a small area of the windpipe through the sharp ulna bone of the wrist, so it must be applied with progressive pressure and released immediately on the tap to avoid tracheal injury."
     }
   ]
 }

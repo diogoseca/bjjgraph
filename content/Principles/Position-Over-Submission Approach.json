@@ -14,7 +14,8 @@
   "application_level": "Intermediate",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
-  "overview": "The Position Over Submission Approach is a foundational strategic philosophy in Brazilian Jiu-Jitsu that prioritizes establishing and improving positional dominance before attempting submissions. This concept recognizes that superior positioning creates more reliable submission opportunities while reducing risk of counter-attacks or position loss. The approach operates on the principle that each positional advancement increases control, reduces opponent options, and creates submission opportunities from positions of safety and dominance.\n\nThis strategic framework guides practitioners to think hierarchically about positions, moving systematically through progressively more dominant positions (guard passing to side control to mount to back control) before committing to submission attempts. By prioritizing positional advancement, practitioners develop better control mechanics, reduce energy expenditure through premature submission attempts, and create psychological pressure on opponents who face continuous positional degradation. The position-first mindset also develops superior defensive awareness, as practitioners learn to recognize when their position is compromised and prioritize recovery over offensive action.\n\nThe Position Over Submission philosophy extends beyond individual technique execution to encompass overall match strategy, training methodology, and skill development. It teaches practitioners to view grappling exchanges as strategic campaigns rather than isolated submission attempts, building cumulative advantages through positional chess rather than gambling on low-percentage finishing attempts. This approach proves particularly effective in competition, where positional points reward systematic advancement and where submission attempts from poor positions often result in sweeps, reversals, or position loss that negates earlier work.",
+  "summary": "A Position-Over-Submission Approach is the strategy of securing dominant, control-secure positions before attempting submissions, since higher positions yield safer, higher-percentage finishes with far less risk of escapes or reversals.",
+  "overview": "Position before submission is one of the oldest pieces of strategic wisdom in Brazilian Jiu-Jitsu, popularized through Gracie-era competition and later reinforced by points-based rulesets that explicitly reward systematic advancement. Rather than treating a match as a hunt for the first available submission, this framework treats it as a campaign to climb the positional hierarchy — guard retention or passing, then side control, mount, and back control — where each rung makes the opponent's escapes harder and your finishes higher-percentage.\n\nThis strategic framework guides practitioners to think hierarchically about positions, moving systematically through progressively more dominant positions (guard passing to side control to mount to back control) before committing to submission attempts. By prioritizing positional advancement, practitioners develop better control mechanics, reduce energy expenditure through premature submission attempts, and create psychological pressure on opponents who face continuous positional degradation. The position-first mindset also develops superior defensive awareness, as practitioners learn to recognize when their position is compromised and prioritize recovery over offensive action.\n\nThe Position Over Submission philosophy extends beyond individual technique execution to encompass overall match strategy, training methodology, and skill development. It teaches practitioners to view grappling exchanges as strategic campaigns rather than isolated submission attempts, building cumulative advantages through positional chess rather than gambling on low-percentage finishing attempts. This approach proves particularly effective in competition, where positional points reward systematic advancement and where submission attempts from poor positions often result in sweeps, reversals, or position loss that negates earlier work.",
   "key_principles": [
     "Positional hierarchy dictates that dominant positions create safer, higher-percentage submission opportunities than neutral or inferior positions",
     "Each positional improvement compounds control advantages while reducing opponent's offensive options and escape pathways",
@@ -72,9 +73,9 @@
       "description": "Control point hierarchy works synergistically with position-over-submission philosophy by identifying specific control mechanics that must be established before submissions become high-percentage options from each position."
     },
     {
-      "principle_name": "Submission Defense",
+      "principle_name": "Defensive Concepts",
       "relationship_type": "Complementary",
-      "description": "Submission defense frameworks inform position-over-submission decisions by illustrating how failed attacks create vulnerabilities, reinforcing why positional security must precede offensive commitments."
+      "description": "Defensive concepts inform position-over-submission decisions by illustrating how failed attacks create vulnerabilities, reinforcing why positional security must precede offensive commitments."
     },
     {
       "principle_name": "Energy Conservation",
@@ -102,16 +103,6 @@
       "description": "Guard passing principles exemplify position-over-submission philosophy by prioritizing systematic pass completion and consolidation before attempting submissions from top positions."
     },
     {
-      "principle_name": "Submission Chains",
-      "relationship_type": "Extension",
-      "description": "Understanding submission chains demonstrates how position-over-submission philosophy manifests in practice, using positional dominance to create sequential submission threats that compound pressure on the opponent."
-    },
-    {
-      "principle_name": "Defensive Concepts",
-      "relationship_type": "Complementary",
-      "description": "Defensive concepts align with position-over-submission by prioritizing positional recovery and escape over offensive actions when in inferior positions, maintaining strategic discipline under pressure."
-    },
-    {
       "principle_name": "Position Chains",
       "relationship_type": "Extension",
       "description": "Position chains exemplify the systematic positional advancement that position-over-submission philosophy advocates, showing how positions link together to create pathways to dominance."
@@ -128,16 +119,12 @@
       "how_applied": "From mount, the position-over-submission approach emphasizes securing high mount or technical mount control before attempting armbars or chokes, ensuring that submission attempts don't compromise the dominant position and allow opponent to escape back to guard."
     },
     {
-      "context": "Side Control",
-      "how_applied": "In side control, practitioners focus on establishing cross-face, weight distribution, and base control before transitioning to mount or submissions, recognizing that premature submission attempts often result in opponent recovering guard or initiating scrambles."
+      "context": "Knee on Belly",
+      "how_applied": "When in knee on belly, practitioners use the position to score points and create submission threats while prioritizing transitions to mount or side control when opponent's defenses create openings, rather than forcing low-percentage submissions."
     },
     {
       "context": "Back Control",
       "how_applied": "From back control, the approach prioritizes securing both hooks, seat belt grip, and preventing opponent's defensive hand fighting before attempting rear naked chokes, understanding that rushed submission attempts allow opponents to escape the position."
-    },
-    {
-      "context": "Knee on Belly",
-      "how_applied": "When in knee on belly, practitioners use the position to score points and create submission threats while prioritizing transitions to mount or side control when opponent's defenses create openings, rather than forcing low-percentage submissions."
     },
     {
       "context": "North-South",
@@ -180,7 +167,7 @@
       "how_applied": "From ashi garami leg entanglements, the approach emphasizes securing proper control positions and breaking opponent's defensive structure before committing to heel hook or kneebar finishing mechanics that might allow positional escapes."
     },
     {
-      "context": "Standing Position",
+      "context": "Clinch",
       "how_applied": "In standing exchanges, the position-over-submission philosophy prioritizes executing takedowns to achieve top position rather than attempting guillotines or other submissions that might result in guard pulls or failed attempts."
     }
   ],
@@ -357,11 +344,6 @@
       "relationship": "Exemplifies a dominant position where position-over-submission philosophy supports securing high mount before attempting submissions"
     },
     {
-      "name": "Side Control",
-      "content_type": "Position",
-      "relationship": "Demonstrates intermediate dominant position where control establishment precedes submission attempts or transitions to mount"
-    },
-    {
       "name": "Back Control",
       "content_type": "Position",
       "relationship": "Represents highest position in hierarchy where position-first approach emphasizes hook and grip security before choke attempts"
@@ -377,9 +359,9 @@
       "relationship": "Broader strategic framework that incorporates position-over-submission as fundamental principle for competition success"
     },
     {
-      "name": "Submission Defense",
+      "name": "Control Maintenance",
       "content_type": "Principle",
-      "relationship": "Provides analytical framework for understanding why failed attacks create positional vulnerabilities, reinforcing position-first philosophy"
+      "relationship": "Provides the control mechanics that must be secured at each position before failed attacks can create positional vulnerabilities, reinforcing position-first philosophy"
     },
     {
       "name": "Energy Conservation",
@@ -395,6 +377,44 @@
       "name": "Roger Gracie Fundamental System",
       "content_type": "System",
       "relationship": "Exemplifies traditional position-over-submission philosophy through systematic positional advancement and control-based finishing"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What is the core idea behind the Position-Over-Submission Approach?",
+      "answer": "It prioritizes establishing dominant, control-secure positions before attempting submissions, because higher positions in the hierarchy yield safer, higher-percentage finishes and dramatically reduce the risk of escapes, sweeps, or reversals."
+    },
+    {
+      "question": "How do you know when a position is secure enough to start hunting a submission?",
+      "answer": "When you have established that position's key control points — cross-face and pinning weight in side control, or both hooks and a seat belt on the back — so the opponent's escape pathways are blocked and a failed attempt will not cost you the position."
+    },
+    {
+      "question": "Why are submission attempts from neutral or inferior positions discouraged?",
+      "answer": "Because attacking from poor position frequently lets the opponent escape, counter, or sweep, which negates earlier work and can reverse the positional advantage entirely; the risk-reward trade is simply unfavorable."
+    },
+    {
+      "question": "How does this principle change your priorities when you are stuck and flattened in bottom half guard?",
+      "answer": "It mandates that guard recovery and escape become the exclusive priority; you forego all submission attempts until you re-establish a neutral or superior position, since offense from an inferior spot only deepens the hole."
+    },
+    {
+      "question": "What common error involves position quality, and how do you correct it?",
+      "answer": "Treating every instance of a position as equal — attacking from any side control regardless of control. Correct it by assessing the specific control points achieved, since a tight cross-face-and-weight pin is fundamentally different from a loose one."
+    },
+    {
+      "question": "How should submission threats be used within this philosophy rather than as all-or-nothing finishes?",
+      "answer": "Use them as tools that force defensive reactions, opening positional advancement or chained attacks; if a submission begins to threaten your position, abandon it to retain control rather than gambling away the position."
+    },
+    {
+      "question": "Why does the Position-Over-Submission Approach align so well with points-based competition?",
+      "answer": "Because IBJJF-style scoring rewards systematic advancement — passes, mounts, and back takes — letting you build a guaranteed lead and apply psychological pressure while keeping your counter-attack risk low."
+    },
+    {
+      "question": "How does this approach improve energy efficiency during a match?",
+      "answer": "By channeling effort into consolidating control instead of forcing premature, low-percentage submissions, you avoid the explosive scrambles and wasted grip fights that failed early attacks typically create."
+    },
+    {
+      "question": "What is the relationship between Position-Over-Submission and the Positional Hierarchy principle?",
+      "answer": "Positional Hierarchy is the prerequisite framework that defines which positions are dominant, while Position-Over-Submission is the strategic rule for using that hierarchy: climb it and secure control before you ever commit to a finish."
     }
   ]
 }

@@ -3,7 +3,8 @@
   "slug": "deep-half-guard",
   "description": "Master Deep Half Guard in BJJ. Strategic guide covering sweeps, back takes, and defensive counters with complete bottom and top perspective analysis.",
   "variant_uniqueness": "Inverted leverage trades exposure for sweeps",
-  "overview": "Deep Half Guard is an advanced guard position where the bottom player positions themselves underneath one of the opponent's legs, creating a powerful leverage point for sweeps and back takes. Unlike traditional half guard where the opponent's leg is trapped between the bottom player's legs, deep half involves the bottom player getting their entire upper body underneath the opponent's center of gravity, often with the shoulder positioned at the opponent's far hip. This position offers exceptional sweeping leverage and is particularly effective for smaller practitioners against larger opponents.\n\nThe deep half guard represents a fundamental shift in guard philosophy, moving from traditional frames and distance management to an inverted leverage-based approach. By positioning underneath the opponent's center of gravity, the bottom player gains mechanical advantage that transcends size and strength differences. The position is characterized by extreme proximity and connection, with the bottom player using their entire body as a lever to disrupt the opponent's base. This creates opportunities for powerful sweeps that can lead directly to dominant positions or back control.\n\nFrom the top perspective, deep half guard presents a deceptive challenge - while you appear to be winning because you're on top, the bottom player has created a sophisticated lever system using your body weight against you. Understanding the sweep mechanics from both perspectives is essential for modern BJJ practitioners, as this position has become a cornerstone of competitive grappling at all levels.",
+  "summary": "Deep Half Guard is a bottom half-guard position where the player burrows their shoulder and head beneath the opponent's hips with a deep underhook on the far leg, turning the top player's own weight into leverage for sweeps and back takes.",
+  "overview": "Among half guard variations, deep half guard inverts the usual top-bottom dynamic by sending the bottom player beneath the opponent's base rather than fighting for distance, a leverage-first approach that made it a competitive staple for smaller grapplers. Unlike traditional half guard where the opponent's leg is trapped between the bottom player's legs, deep half involves the bottom player getting their entire upper body underneath the opponent's center of gravity, often with the shoulder positioned at the opponent's far hip. This position offers exceptional sweeping leverage and is particularly effective for smaller practitioners against larger opponents.\n\nThe deep half guard represents a fundamental shift in guard philosophy, moving from traditional frames and distance management to an inverted leverage-based approach. By positioning underneath the opponent's center of gravity, the bottom player gains mechanical advantage that transcends size and strength differences. The position is characterized by extreme proximity and connection, with the bottom player using their entire body as a lever to disrupt the opponent's base. This creates opportunities for powerful sweeps that can lead directly to dominant positions or back control.\n\nFrom the top perspective, deep half guard presents a deceptive challenge - while you appear to be winning because you're on top, the bottom player has created a sophisticated lever system using your body weight against you. Understanding the sweep mechanics from both perspectives is essential for modern BJJ practitioners, as this position has become a cornerstone of competitive grappling at all levels.",
   "key_principles": [
     "Deep underhook control is the primary mechanism for sweeps and back takes",
     "Bottom player creates fulcrum with shoulder and head against opponent's hip",
@@ -549,27 +550,27 @@
     "transitions": [
       {
         "transition": "Waiter Sweep",
-        "attempt_probability": 14
+        "attempt_probability": 12
       },
       {
         "transition": "Old School Sweep",
-        "attempt_probability": 41
+        "attempt_probability": 39
       },
       {
         "transition": "Rolling Back Take",
-        "attempt_probability": 11
+        "attempt_probability": 9
       },
       {
-        "transition": "Electric Chair",
+        "transition": "Electric Chair from Deep Half Guard",
         "attempt_probability": 6
       },
       {
         "transition": "Underhook Sweep from Half",
-        "attempt_probability": 9
+        "attempt_probability": 8
       },
       {
         "transition": "X-Guard Sweep",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "Single Leg X Entry",
@@ -581,15 +582,19 @@
       },
       {
         "transition": "Deep Half to X-Guard",
-        "attempt_probability": 0
+        "attempt_probability": 2
       },
       {
         "transition": "Electric Chair Entry from Deep Half",
-        "attempt_probability": 0
+        "attempt_probability": 2
       },
       {
         "transition": "Homer Simpson Sweep",
-        "attempt_probability": 1
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Electric Chair",
+        "attempt_probability": 3
       }
     ]
   }

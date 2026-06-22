@@ -10,6 +10,41 @@ description: "Master Cross Ashi-Garami position in BJJ. Strategic guide covering
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Cross Ashi-Garami",
+  "description": "Master Cross Ashi-Garami position in BJJ. Strategic guide covering crossed leg entanglement mechanics, defensive escapes, and offensive attacks with complete perspective analysis.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Cross Ashi-Garami", "item": "https://bjjgraph.org/Positions/Cross-Ashi-Garami" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Cross Ashi-Garami",
+  "description": "Cross Ashi-Garami is a crossed-leg entanglement where the top player's legs cross over the opponent's trapped leg, forming a figure-four wedge that maximizes rotational control for heel hooks while sharply limiting the bottom player's escape options.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Cross Ashi-Garami position in BJJ. Strategic guide covering
 </div>
 
 <section id="overview" class="content-section">
+
+**Cross Ashi-Garami is a crossed-leg entanglement where the top player's legs cross over the opponent's trapped leg, forming a figure-four wedge that maximizes rotational control for heel hooks while sharply limiting the bottom player's escape options.**
 
 Cross Ashi-Garami is a fundamental leg entanglement position in modern Brazilian Jiu-Jitsu characterized by a crossed leg configuration that provides exceptional control over the opponent's hip and lower leg. Unlike standard Ashi-Garami where the controlling practitioner's legs run parallel to the opponent's trapped leg, Cross Ashi features the top player's legs crossing over each other, creating a figure-four-like structure that enhances rotational control and limits the bottom player's escape options significantly.
 
@@ -108,7 +145,7 @@ The strategic importance of Cross Ashi-Garami in contemporary BJJ cannot be over
 
 - **[[Transitions/X-Guard to Ashi Garami/Attacker|X-Guard to Ashi Garami]]** (4% of attempts)
 
-- **[[Transitions/Heel Hook Defense Escape/Attacker|Heel Hook Defense Escape]]** (47% of attempts)
+- **[[Transitions/Heel Hook Defense Escape/Attacker|Heel Hook Defense Escape]]** (43% of attempts)
 
 - **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (7% of attempts)
 
@@ -122,9 +159,9 @@ The strategic importance of Cross Ashi-Garami in contemporary BJJ cannot be over
 
 - **[[Transitions/Leg Extraction/Attacker|Leg Extraction]]** (7% of attempts)
 
-- **[[Transitions/Counter Entangle from Cross Ashi/Attacker|Counter Entangle from Cross Ashi]]** (0% of attempts)
+- **[[Transitions/Counter Entangle from Cross Ashi/Attacker|Counter Entangle from Cross Ashi]]** (2% of attempts)
 
-- **[[Transitions/Leg Extraction from Cross Ashi/Attacker|Leg Extraction from Cross Ashi]]** (0% of attempts)
+- **[[Transitions/Leg Extraction from Cross Ashi/Attacker|Leg Extraction from Cross Ashi]]** (2% of attempts)
 
 - **[[Transitions/Sweep from Cross Ashi-Garami/Attacker|Sweep from Cross Ashi-Garami]]** (1% of attempts)
 
@@ -189,7 +226,7 @@ The strategic importance of Cross Ashi-Garami in contemporary BJJ cannot be over
 ### Available Transitions
 
 
-- **[[Outside Heel Hook from Cross Ashi-Garami/Attacker|Outside Heel Hook from Cross Ashi-Garami]]** (39% of attempts)
+- **[[Outside Heel Hook from Cross Ashi-Garami/Attacker|Outside Heel Hook from Cross Ashi-Garami]]** (40% of attempts)
 
 - **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** (3% of attempts)
 
@@ -208,8 +245,6 @@ The strategic importance of Cross Ashi-Garami in contemporary BJJ cannot be over
 - **[[Transitions/Cross Ashi Transition/Attacker|Cross Ashi Transition]]** (3% of attempts)
 
 - **[[Transitions/Cross Ashi to 50-50/Attacker|Cross Ashi to 50-50]]** (1% of attempts)
-
-- **[[Outside Heel Hook from Cross Ashi-Garami/Attacker|Outside Heel Hook from Cross Ashi-Garami]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -268,6 +303,19 @@ The strategic importance of Cross Ashi-Garami in contemporary BJJ cannot be over
 
 - **[[Positions/Ashi Garami/Backside 50-50]]** - Related leg entanglement with different hip orientation
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Danaher-Leg-Lock-System" data-cta="related-system-card" data-system-slug="systems/danaher-leg-lock-system" data-system-name="Danaher Leg Lock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Danaher Leg Lock System</span><span class="system-card__unlocks-badge">Unlocks 30 techniques</span><span class="system-card__blurb">Alternative attack angle for switching between ashi-garami configurations</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Straight-Footlock-to-Kneebar-Chain" data-cta="related-system-card" data-system-slug="systems/straight-footlock-to-kneebar-chain" data-system-name="Straight Footlock to Kneebar Chain" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Straight Footlock to Kneebar Chain</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Alternative ashi variation for chain execution</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Lachlan-Giles-Leg-Lock-Defense-Framework" data-cta="related-system-card" data-system-slug="systems/lachlan-giles-leg-lock-defense-framework" data-system-name="Lachlan Giles Leg Lock Defense Framework" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Lachlan Giles Leg Lock Defense Framework</span><span class="system-card__unlocks-badge">Unlocks 26 techniques</span><span class="system-card__blurb">High-danger position requiring immediate defensive response to prevent saddle transition</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Craig-Jones-Leg-Lock-System" data-cta="related-system-card" data-system-slug="systems/craig-jones-leg-lock-system" data-system-name="Craig Jones Leg Lock System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Craig Jones Leg Lock System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Transitional gateway position serving as entry point to saddle and standalone finishing platform</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

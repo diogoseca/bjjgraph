@@ -15,7 +15,8 @@
   "application_level": "Fundamental",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
-  "overview": "Shoulder Pressure is a fundamental control concept involving the strategic application of body weight through the shoulder to pin, control, and immobilize an opponent. This principle transcends specific positions and represents one of the most efficient methods of maintaining top control while minimizing energy expenditure. The concept relies on proper weight distribution, skeletal alignment, and understanding of pressure vectors to create sustained, uncomfortable control that drains the opponent's defensive capacity.\n\nEffective shoulder pressure requires precise positioning where the practitioner's shoulder contacts specific anatomical targets on the opponent's body—typically the sternum, chin, jaw, or neck area. The pressure is not generated through muscular effort but through proper body positioning that allows gravity and skeletal structure to do the work. This creates a sustainable control mechanism that can be maintained for extended periods without fatigue.\n\nMastery of shoulder pressure fundamentally changes a practitioner's top game, transforming scrambles into dominant positions and making escapes significantly more difficult for opponents. The concept integrates seamlessly with other control principles like crossface control, hip pressure, and weight distribution to create layered control systems that are extremely difficult to escape.",
+  "summary": "Shoulder Pressure is a top-control principle in which body weight is driven through the shoulder—transmitted by skeletal alignment rather than muscle—into targets such as the sternum, jaw, or neck to pin and immobilize an opponent.",
+  "overview": "Among top-game control concepts, shoulder pressure is prized for converting simple positional dominance into a relentless, energy-cheap form of control. It transcends specific positions, relying on weight distribution, skeletal alignment, and an understanding of pressure vectors to create sustained, uncomfortable control that steadily drains an opponent's defensive capacity.\n\nEffective shoulder pressure requires precise positioning where the practitioner's shoulder contacts specific anatomical targets on the opponent's body—typically the sternum, chin, jaw, or neck area. The pressure is not generated through muscular effort but through proper body positioning that allows gravity and skeletal structure to do the work. This creates a sustainable control mechanism that can be maintained for extended periods without fatigue.\n\nMastery of shoulder pressure fundamentally changes a practitioner's top game, transforming scrambles into dominant positions and making escapes significantly more difficult for opponents. The concept integrates seamlessly with other control principles like crossface control, hip pressure, and weight distribution to create layered control systems that are extremely difficult to escape.",
   "key_principles": [
     "Direct force through skeletal structure rather than muscle to create sustainable pressure",
     "Target anatomical landmarks (sternum, chin, jaw) for maximum discomfort and control",
@@ -130,7 +131,7 @@
       "how_applied": "Press shoulder into opponent's face while sitting heavy on chest, creating uncomfortable pressure that motivates escape attempts into submission traps"
     },
     {
-      "context": "Scarf Hold Position",
+      "context": "Reverse Scarf Hold",
       "how_applied": "Drive shoulder into opponent's jaw to turn their head away while controlling near arm, using shoulder as primary control mechanism for the entire position"
     },
     {
@@ -146,24 +147,24 @@
       "how_applied": "Drive shoulder into opponent's chest while facing away, using bodyweight to create crushing pressure on ribcage and restrict breathing capacity"
     },
     {
-      "context": "Shoulder of Justice",
-      "how_applied": "Apply maximum shoulder pressure to opponent's face and jaw while sprawling hips back, creating extremely heavy concentrated pressure through skeletal alignment that is difficult to maintain defenses against"
+      "context": "Kuzure Kesa-Gatame",
+      "how_applied": "Apply maximum shoulder pressure to opponent's face and jaw while sprawling hips back, creating extremely heavy concentrated pressure through skeletal alignment that is difficult to defend against"
     },
     {
-      "context": "Half Guard Pass",
-      "how_applied": "Use shoulder to drive into opponent's chest while cutting knee across, preventing them from recovering guard by pinning upper body to mat"
+      "context": "Half Guard",
+      "how_applied": "Use shoulder to drive into opponent's chest while cutting knee across, preventing them from recovering guard by pinning upper body to mat during the pass"
     },
     {
       "context": "High Mount",
       "how_applied": "Press shoulder into opponent's face to set up armbar or collar choke, using pressure to force defensive arm positioning that opens submission opportunities"
     },
     {
-      "context": "Side Control",
-      "how_applied": "Establish shoulder pressure immediately after passing to prevent immediate re-guard attempts, using the shoulder to anchor the position while securing additional control points"
+      "context": "Flattened Half Guard",
+      "how_applied": "Establish shoulder pressure immediately after flattening the opponent to prevent re-guard attempts, using the shoulder to anchor the position while securing additional control points"
     },
     {
-      "context": "Technical Mount",
-      "how_applied": "Apply shoulder pressure to opponent's jaw or neck area while establishing high mount position, using pressure to limit their ability to turn into turtle"
+      "context": "Mount",
+      "how_applied": "Apply shoulder pressure to opponent's jaw or neck area while establishing technical mount, using pressure to limit their ability to turn into turtle"
     },
     {
       "context": "Turtle",
@@ -367,11 +368,6 @@
       "relationship": "Primary defensive counter to shoulder pressure from bottom position"
     },
     {
-      "name": "Pressure Pass",
-      "content_type": "Transition",
-      "relationship": "Passing methodology utilizing shoulder pressure as primary control mechanism"
-    },
-    {
       "name": "Kesa Gatame",
       "content_type": "Position",
       "relationship": "Position exemplifying shoulder-based control as primary pinning mechanism"
@@ -390,6 +386,45 @@
       "name": "Base",
       "content_type": "Principle",
       "relationship": "Essential principle for maintaining stability while applying shoulder pressure"
+    },
+    {
+      "name": "Forward Pressure",
+      "content_type": "Principle",
+      "relationship": "Related directional-pressure concept that shoulder pressure concentrates through a single point"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What is the core mechanical principle behind effective shoulder pressure?",
+      "answer": "Pressure is generated by aligning the shoulder, spine, and hips so body weight is transmitted through skeletal structure and gravity rather than muscular effort, which makes the control sustainable without fatigue."
+    },
+    {
+      "question": "Which anatomical targets are most effective for shoulder pressure and why?",
+      "answer": "The sternum for crushing chest pressure, the jaw or chin to turn the head and create discomfort, and the neck to restrict breathing—each chosen based on the opponent's defensive posture and the reaction you want to provoke."
+    },
+    {
+      "question": "How does shoulder pressure combine with hip pressure to stop escapes?",
+      "answer": "Driving the shoulder into the upper body while pinning the hips creates a two-point control system that prevents shrimping, because the opponent cannot generate the space needed to recover guard or turn in."
+    },
+    {
+      "question": "Why does relying on muscular effort to create shoulder pressure fail against good opponents?",
+      "answer": "Muscle-driven pressure fatigues quickly, letting a patient opponent simply wait it out and escape; correct skeletal alignment lets gravity do the work, so the pressure feels effortless and can be held almost indefinitely."
+    },
+    {
+      "question": "What is a pressure dilemma, and how do you create one with shoulder pressure?",
+      "answer": "A pressure dilemma forces the opponent to choose which threat to defend; by shifting between sternum, jaw, and neck targets, defending one pressure point opens vulnerability to another, keeping them permanently reactive."
+    },
+    {
+      "question": "How should you balance pressure against base when applying shoulder pressure?",
+      "answer": "Keep a hand or leg posted for base and avoid committing 100% of your weight unless the opponent is fully flattened, otherwise that committed weight can be used against you for sweeps, rolls, or reversals."
+    },
+    {
+      "question": "What must you do about an opponent's frames before applying shoulder pressure?",
+      "answer": "Clear the frames systematically using grips, weight distribution, or positional adjustments first, because intact frames keep the shoulder off its target and waste energy on ineffective pressure attempts."
+    },
+    {
+      "question": "How can you recognize that shoulder pressure is genuinely effective rather than just uncomfortable?",
+      "answer": "Watch the opponent's breathing and movement—labored breathing, reduced hip mobility, and reactive, panicked defending indicate the pressure is truly limiting their oxygen and structure, not merely feeling unpleasant."
     }
   ]
 }

@@ -131,6 +131,7 @@ description: "How to execute Fireman's Carry in BJJ. Attacking perspective with 
   "@type": "WebPage",
   "name": "Fireman's Carry Attacker",
   "description": "How to execute Fireman's Carry in BJJ. Attacking perspective with setup, execution steps, and counters.",
+  "alternateName": ["Kata Guruma", "Shoulder Wheel"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -176,6 +177,9 @@ description: "How to execute Fireman's Carry in BJJ. Attacking perspective with 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Kata Guruma</strong>, <strong>Shoulder Wheel</strong> <span class="role-hint">(attacker)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 The Fireman's Carry is a classical wrestling takedown that has found valuable application in Brazilian Jiu-Jitsu, particularly in no-gi and MMA contexts. This technique involves using a combination of off-balancing, level change, and explosive lifting to elevate your opponent onto your shoulders before driving them to the mat. The Fireman's Carry is particularly effective against opponents who maintain an upright posture in the clinch, as it exploits their high center of gravity and creates a sudden positional reversal. Unlike many BJJ takedowns that rely on pulling or tripping, the Fireman's Carry demonstrates the principle of lifting and redirecting an opponent's weight, making it an excellent complement to guard pulling and other ground-focused entries. The technique requires precise timing, proper body mechanics, and the ability to coordinate multiple movements simultaneously - the level change, arm control, penetration step, and lifting motion must all flow together seamlessly. When executed correctly, the Fireman's Carry not only achieves the takedown but also places you in an advantageous top position, often side control or modified mount, allowing for immediate passing or submission attempts. This makes it a high-percentage technique for competitors who want to establish top control early in a match.
@@ -241,8 +245,8 @@ The Fireman's Carry is a classical wrestling takedown that has found valuable ap
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Side Control]] | 70% |
-| Failure | [[Positions/Clinch]] | 20% |
+| Success | [[Positions/Side Control]] | 60% |
+| Failure | [[Positions/Clinch]] | 30% |
 | Counter | [[Positions/Clinch]] | 10% |
 
 
@@ -348,5 +352,7 @@ Regularly drill technique to maintain muscle memory and explosive power. Study h
 When practicing the Fireman's Carry, controlled execution is paramount to prevent injury to both yourself and your training partner. The most critical safety concern is the descent phase - you must guide your partner to the mat in a controlled manner rather than slamming or dropping them, particularly being mindful of their head and neck positioning. Never release control during the throw; maintain grips throughout the descent to control the landing. For your own safety, always maintain a straight back during the lifting phase and generate power from your legs, not your back, to prevent spinal injury. Start practice with cooperative drilling where your partner is lifted and gently placed down, gradually progressing to more dynamic execution only after mastering the mechanics. Ensure you're practicing on appropriate matting that provides cushioning for takedowns. Communication with your partner is essential - agree on the level of resistance and speed beforehand, and use verbal or tap signals if anything feels unsafe during execution. Be particularly cautious about your partner's shoulder and arm positioning during the carry phase to avoid joint stress. When learning, practice the level change and penetration components separately before adding the lift, and only add rotation and dynamic landing after mastering controlled static versions.
 
 </section>
+
+
 
 </main>

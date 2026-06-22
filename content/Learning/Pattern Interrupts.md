@@ -86,6 +86,18 @@ description: "Learn how to break your opponent's pre-programmed BJJ responses wi
 }
 </script>
 
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Pattern Interrupts",
+  "description": "Pattern interrupts are deliberate deviations from expected technique -- unusual grips, odd angles, or sudden tempo changes -- that force an opponent out of fast automatic defense into slower deliberate thinking, opening a brief window to attack.",
+  "inDefinedTermSet": "https://bjjgraph.org/Learning/"
+}
+</script>
+
+
 > **Category**: Strategy
 
 
@@ -94,6 +106,8 @@ description: "Learn how to break your opponent's pre-programmed BJJ responses wi
 <section id="overview" class="content-section">
 
 ## What is Pattern Interrupts?
+
+**Pattern interrupts are deliberate deviations from expected technique -- unusual grips, odd angles, or sudden tempo changes -- that force an opponent out of fast automatic defense into slower deliberate thinking, opening a brief window to attack.**
 
 Every grappler develops automatic responses to common situations. When someone goes for an armbar from closed guard, they stack and pull their arm out. When someone attempts a scissor sweep, they post their leg. When someone shoots a double leg, they sprawl. These automatic responses are fast, reliable, and the product of thousands of repetitions. Pattern interrupts are the art of breaking these pre-programmed reactions by doing something your opponent has not drilled a response to.
 
@@ -208,6 +222,7 @@ A: Advanced opponents recover from confusion faster than less experienced ones. 
 - [[Timing and Rhythm]] (Principle) - Tempo changes are the most fundamental pattern interrupt available
 - [[Action and Reaction]] (Principle) - Pattern interrupts exploit the action-reaction cycle by producing actions the opponent has no drilled reaction for
 - [[Mask Your Intentions]] (Learning) - Complementary strategy -- masking intentions hides your plan while pattern interrupts break the opponent's plan
+- [[Predictable Responses]] (Learning) - Pattern interrupts are the offensive counterpart -- you exploit the very predictability this article teaches you to avoid in yourself
 - [[Grips]] (Principle) - Unusual grips are a powerful pattern interrupt that changes the entire defensive calculation
 - [[Dominant Angles]] (Principle) - Attacking from unexpected angles is one of the most effective pattern interrupts
 - [[Submission Chains]] (Principle) - Chains that end with an unexpected technique choice function as pattern interrupts

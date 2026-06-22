@@ -142,18 +142,33 @@ description: "Master submission chains in BJJ. Learn systematic attack sequences
 }
 </script>
 
-> Submission Chains is a high complexity BJJ principle applicable at the Intermediate level. Develop over Intermediate to Expert.
 
-**Application Level**: Intermediate
-**Complexity**: High
-**Development Timeline**: Intermediate to Expert
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Submission Chains",
+  "description": "Submission Chains are systematic sequences of linked submission attempts in which each defensive response to one attack mechanically opens the setup for the next, turning isolated finishes into continuous, self-perpetuating offensive pressure.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Intermediate</span>
+<span class="meta-chip">High complexity</span>
+<span class="meta-chip">Intermediate to Expert</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
 
-## What is Submission Chains?
+## What are Submission Chains?
+
+**Submission Chains are systematic sequences of linked submission attempts in which each defensive response to one attack mechanically opens the setup for the next, turning isolated finishes into continuous, self-perpetuating offensive pressure.**
 
 Submission Chains represent the systematic linking of multiple submission attempts into cohesive offensive sequences where each defensive response opens a new attacking opportunity. Rather than viewing submissions as isolated techniques, chain thinking creates a web of interconnected attacks where the opponent's escape from one submission feeds directly into the setup for another. This conceptual framework transforms submission attempts from binary win-lose scenarios into continuous offensive pressure systems that compound defensive errors and create submission inevitability.
 
@@ -210,21 +225,15 @@ At the highest levels of competition, submission chains represent the difference
 
 **Closed Guard**: Guard chains often flow through triangle-kimura-omoplata-armbar sequences, using opponent's posture changes and arm positioning to determine the next attack. Hip movement and angle creation drive the transitions between submissions.
 
-**Triangle Control**: From triangle position, chains typically include armbar when opponent pulls arm out, omoplata when they turn into the choke, and kimura when they attempt to posture and push. The triangle position itself serves as a control platform for multiple finishing options.
-
 **Armbar Control**: Armbar chains include triangle when opponent pulls arm free, omoplata when they roll, and kimura when they attempt to stack. Maintaining leg control on the shoulder and head is critical for all transitions.
 
 **Kimura Trap**: Kimura Trap chains from top positions flow to guillotine when opponent turtles, to armbar when they try to roll out, and to back take when they turn away. The kimura grip serves as both submission threat and steering mechanism for position advancement and further chain attacks.
 
 **North-South**: North-South chains typically involve kimura-to-armbar-to-north-south choke sequences, with opponent's defensive turns and arm movements dictating the transition path. Weight distribution and shoulder pressure maintain control between attacks.
 
-**Side Control**: Side control chains include kimura-to-armbar-to-triangle-to-crucifix sequences as opponent attempts various escapes. Maintaining chest-to-chest pressure and controlling the far arm creates the control base for chain attacks.
-
 **Crucifix**: Crucifix chains flow between rear naked choke and various armbar variations as opponent defends their neck or arms. The crucifix's inherent control allows for methodical chain progression with minimal position risk.
 
 **Omoplata Control**: Omoplata chains include triangle when opponent rolls out, sweep to mount when they post, and wristlock or armbar when they attempt to pull their arm free. Hip control and weight distribution enable smooth transitions.
-
-**S Mount**: S-mount provides an ideal platform for armbar-triangle-armbar chains with exceptional control. The high position and leg configuration allow for rapid transitions between submissions with minimal position loss risk.
 
 **Turtle**: Defensive chains from turtle include transitioning between guillotine defense, darce defense, and back exposure based on opponent's attack choices. Understanding the relationship between these attacks allows systematic defensive sequencing.
 
@@ -351,11 +360,9 @@ Set specific chain completion goals (e.g., 'Complete triangle-armbar-omoplata ch
 - **[[Action and Reaction]]** (Prerequisite): Understanding action-reaction principles is fundamental to chain building, as chains exploit the predictable defensive reactions that submissions create
 - **[[Forward Pressure]]** (Extension): Submission chains extend forward pressure principles into the submission domain, maintaining continuous offensive momentum through linked attack sequences that never allow the opponent to rest or reset
 - **[[Control Point Hierarchy]]** (Prerequisite): Maintaining control points during chain transitions requires deep understanding of which control elements can be sacrificed and which must be preserved
-- **[[Timing and Rhythm]]** (Complementary): Effective chains require sophisticated timing to transition between attacks at the precise moment when defensive movements create new opportunities
 - **[[Energy Conservation]]** (Complementary): Chains must be executed with energy efficiency in mind, using opponent's defensive energy against them rather than fighting through each transition with strength
 - **[[Fork Attacks]]** (Advanced form): Submission chains are the ultimate expression of dilemma creation, where every defensive option leads to another offensive threat
 - **[[Position Chains]]** (Complementary): Submission chains and position chains work together—positional advancement creates submission opportunities, and submission threats create positional advancement
-- **[[Transition Management]]** (Extension): Submission chains are specialized transition management focused specifically on linking finishing attempts, requiring precise control of the transitional windows between submissions
 - **[[Positional Hierarchy]]** (Prerequisite): Understanding positional hierarchy informs chain construction by identifying which positions offer the best platforms for chain attacks and where chain attempts should be abandoned in favor of positional advancement
 
 
@@ -372,6 +379,28 @@ Set specific chain completion goals (e.g., 'Complete triangle-armbar-omoplata ch
 - [[Action and Reaction]] (Principle) - Fundamental principle underlying all chain logic—chains exploit predictable defensive reactions
 - [[Ryan Hall Triangle System]] (System) - Comprehensive chain system built around triangle as central hub position
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Submission-Clinic-System" data-cta="related-system-card" data-system-slug="systems/submission-clinic-system" data-system-name="Submission Clinic System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Submission Clinic System</span><span class="system-card__unlocks-badge">Unlocks 30 techniques</span><span class="system-card__blurb">Core theoretical framework underlying entire system</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Danaher Straight Jacket System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Framework for creating submission sequences where defensive reactions open alternative finishes</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Ryan-Hall-Triangle-System" data-cta="related-system-card" data-system-slug="systems/ryan-hall-triangle-system" data-system-name="Ryan Hall Triangle System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Ryan Hall Triangle System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Theoretical framework underlying entire system</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Straight-Footlock-to-Kneebar-Chain" data-cta="related-system-card" data-system-slug="systems/straight-footlock-to-kneebar-chain" data-system-name="Straight Footlock to Kneebar Chain" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Straight Footlock to Kneebar Chain</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Core concept that defines the systematic approach to submissions</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Garry-Tonon-Leg-Lock-to-Back-System" data-cta="related-system-card" data-system-slug="systems/garry-tonon-leg-lock-to-back-system" data-system-name="Garry Tonon Leg Lock to Back System" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Garry Tonon Leg Lock to Back System</span><span class="system-card__unlocks-badge">Unlocks 26 techniques</span><span class="system-card__blurb">Core principle of linking multiple submission attempts across position categories</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Craig-Jones-Leg-Lock-System" data-cta="related-system-card" data-system-slug="systems/craig-jones-leg-lock-system" data-system-name="Craig Jones Leg Lock System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Craig Jones Leg Lock System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Concept of linking multiple submission attempts to prevent opponent&#x27;s defensive success</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Marcelo-Garcia-Guillotine-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-guillotine-system" data-system-name="Marcelo Garcia Guillotine System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Marcelo Garcia Guillotine System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Core principle of connecting guillotine with sweeps and transitions</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Twister-System" data-cta="related-system-card" data-system-slug="systems/twister-system" data-system-name="Twister System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Twister System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Principle of linking submissions together based on defensive reactions</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/10th-Planet-No-Gi-Guard-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-no-gi-guard-system" data-system-name="10th Planet No-Gi Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">10th Planet No-Gi Guard System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Strategic framework connecting system attacks</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Rubber-Guard-to-Omoplata-System" data-cta="related-system-card" data-system-slug="systems/rubber-guard-to-omoplata-system" data-system-name="Rubber Guard to Omoplata System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Rubber Guard to Omoplata System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Conceptual framework for connecting multiple attacks</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/B-Team-Dilemma-System" data-cta="related-system-card" data-system-slug="systems/b-team-dilemma-system" data-system-name="B-Team Dilemma System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">B-Team Dilemma System</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Conceptual framework for connecting submission attempts into continuous offensive sequences</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Marcelo-Garcia-X-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-x-guard-system" data-system-name="Marcelo Garcia X-Guard System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Marcelo Garcia X-Guard System</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Framework for connecting sweeps to submission opportunities</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Kimura-Trap-System" data-cta="related-system-card" data-system-slug="systems/kimura-trap-system" data-system-name="Kimura Trap System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Kimura Trap System</span><span class="system-card__unlocks-badge">Unlocks 21 techniques</span><span class="system-card__blurb">Conceptual framework for linking kimura to other submission attempts</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

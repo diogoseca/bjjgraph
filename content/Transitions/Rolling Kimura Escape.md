@@ -10,6 +10,41 @@ description: "Learn Rolling Kimura Escape in BJJ. Dynamic rolling technique from
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Rolling Kimura Escape",
+  "description": "Learn Rolling Kimura Escape in BJJ. Dynamic rolling technique from Kimura Trap to guard recovery with systematic execution and timing principles.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Rolling Kimura Escape", "item": "https://bjjgraph.org/Transitions/Rolling-Kimura-Escape" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Rolling Kimura Escape",
+  "description": "The Rolling Kimura Escape is an advanced, last-resort defensive technique that uses a committed forward roll over the trapped shoulder to neutralize a tight Kimura grip's leverage and recover open guard before the shoulder lock finishes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,13 +57,15 @@ description: "Learn Rolling Kimura Escape in BJJ. Dynamic rolling technique from
 
 <section id="overview" class="content-section">
 
-The Rolling Kimura Escape is an advanced defensive technique used to escape when an opponent has secured a tight Kimura grip on your arm from a top or controlling position. This dynamic escape utilizes forward rolling mechanics to relieve shoulder pressure and create space for guard recovery. The technique is particularly effective when traditional defensive frames have failed and the shoulder lock is being applied with significant forward pressure.
+**The Rolling Kimura Escape is an advanced, last-resort defensive technique that uses a committed forward roll over the trapped shoulder to neutralize a tight Kimura grip's leverage and recover open guard before the shoulder lock finishes.**
+
+Sitting at the very bottom of the Kimura defensive hierarchy, the Rolling Kimura Escape is reserved for the moment when grip fighting, posture recovery, and hip escape have all failed and the shoulder lock is closing under heavy forward pressure. Rather than resisting the lock's force vector, this dynamic escape uses forward rolling mechanics to relieve shoulder pressure and create space for guard recovery. It becomes viable specifically when the opponent has committed their weight forward to finish the submission.
 
 The rolling motion works by using momentum and body rotation to change the angle of attack, transforming what would be a devastating submission into an opportunity to return to a neutral guard position. Rather than resisting against the lock's force vector, you move with it in a way that creates momentary relief and allows repositioning. This escape requires excellent timing, spatial awareness, and complete commitment to the rolling motion.
 
 Success depends heavily on recognizing the exact moment when your opponent is committed forward to the finish and cannot easily adjust their base to follow your roll. The technique represents a last-resort option in the Kimura defense hierarchy, employed only after conventional defenses such as grip fighting, posture recovery, and hip escape have been exhausted. Understanding the biomechanics of the Kimura lock progression is essential for identifying the narrow timing window where this escape becomes viable without excessive injury risk.
 
-**From Position**: [[Positions/Rubber Guard/Carni]] (Top)
+**From Position**: [[Positions/Kimura Trap]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -226,5 +263,7 @@ The Rolling Kimura Escape occupies a unique position in the BJJ defensive hierar
 
 
 </section>
+
+
 
 </main>

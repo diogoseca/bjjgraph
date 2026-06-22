@@ -82,6 +82,14 @@ description: "Execute the Smash Half Butterfly pass with systematic pressure to 
     },
     {
       "@type": "Question",
+      "name": "When is the optimal moment to commit to the smash rather than another passing option from half butterfly top?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Commit to the smash when you have already secured upper body control (crossface or underhook) and the bottom player is holding the hook passively to maintain position rather than actively elevating for a sweep. If they are mid-elevation or scrambling for the underhook, address that threat first—the smash works best against a defensive, retention-focused hook, not an attacking one."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "Your opponent elevates with their butterfly hook just as you begin lowering your hips—how do you recover?",
       "acceptedAnswer": {
         "@type": "Answer",
@@ -110,14 +118,6 @@ description: "Execute the Smash Half Butterfly pass with systematic pressure to 
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately counter with a deep overhook or whizzer on their underhook arm while maintaining your crossface pressure. Drive your shoulder into their chin to turn their head away, which weakens their underhook leverage. If they achieve the underhook fully, switch to driving them flat with concentrated hip pressure rather than trying to strip the underhook—a flat opponent with an underhook has limited offensive capability."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What grip adjustments are needed when transitioning from the smash to half guard top consolidation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "As you clear the butterfly hook, maintain your crossface grip but shift your hip pressure to center over the remaining half guard entanglement. Your inside hand should immediately control their bottom knee or hip to prevent butterfly hook reinsertion. Avoid releasing the crossface during this transition, as the bottom player's primary recovery window occurs during the moment you shift from smash pressure to half guard top control."
       }
     }
   ]
@@ -335,5 +335,7 @@ Use the smash as the opening move in a passing chain. When partner defends the s
 When executing the Smash Half Butterfly, be mindful of the pressure applied to your partner's knee and hip joints through the butterfly hook. Excessive lateral force on the trapped hook can strain the medial collateral ligament or hip flexors. Apply pressure progressively rather than explosively, and be responsive to your training partner's discomfort signals. In drilling, communicate about pressure intensity and allow your partner to tap to positional discomfort, not just submissions. Avoid dropping your full bodyweight suddenly onto a loaded butterfly hook.
 
 </section>
+
+
 
 </main>

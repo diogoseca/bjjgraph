@@ -10,6 +10,41 @@ description: "Master Float Passing in BJJ. Dynamic guard passing using movement,
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Float Passing",
+  "description": "Master Float Passing in BJJ. Dynamic guard passing using movement, timing, and minimal pressure to bypass defensive frames and leg configurations.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Float Passing", "item": "https://bjjgraph.org/Transitions/Float-Passing" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Float Passing",
+  "description": "Float Passing is a movement-based guard pass where the top player stays light on their feet and circles with leg-control grips, breaking down the opponent's guard structure through constant angle changes before explosively committing to side control or knee-on-belly.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Float Passing in BJJ. Dynamic guard passing using movement,
 </div>
 
 <section id="overview" class="content-section">
+
+**Float Passing is a movement-based guard pass where the top player stays light on their feet and circles with leg-control grips, breaking down the opponent's guard structure through constant angle changes before explosively committing to side control or knee-on-belly.**
 
 Float Passing is a dynamic guard passing approach that emphasizes movement, timing, and minimal pressure to navigate around the opponent's guard. Unlike traditional pressure passing, float passing relies on quick transitions, constant movement, and strategic positioning to bypass defensive frames and leg configurations. The technique is particularly effective against flexible opponents or those with strong retention games who excel at recovering guard under pressure.
 
@@ -220,11 +257,13 @@ Float passing serves as a primary guard passing strategy that integrates seamles
 
 - [[Positions/Open Guard]] - Starting position where float passing is initiated
 
-- [[Transitions/Bullfighter Pass]] - Related lateral passing technique with similar grip control principles
+- [[Transitions/Toreando Pass]] - Related lateral passing technique with similar grip control principles
 
 - [[Transitions/Back Step Pass]] - Complementary technique using direction reversal during floating movement
 
 
 </section>
+
+
 
 </main>

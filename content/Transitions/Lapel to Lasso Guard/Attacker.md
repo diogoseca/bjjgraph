@@ -172,11 +172,11 @@ description: "How to execute Lapel to Lasso Transition in BJJ. Attacking perspec
 
 <section id="overview" class="content-section">
 
-The Lapel to Lasso Transition represents a critical guard retention pathway that converts the mechanically complex lapel guard into the proven control system of lasso guard. This transition becomes essential when opponents successfully strip your primary lapel configuration or when the lapel grip begins failing under sustained passing pressure. Rather than losing guard position entirely, skilled practitioners flow seamlessly into lasso control, maintaining offensive threats while denying the pass.
+From the attacker's seat, the Lapel to Lasso Transition is a reactive guard-retention sequence triggered the instant your lapel configuration begins to fail. Instead of chasing the dying lapel grip, you convert the sleeve control you already own into a lasso by threading your shin across the opponent's arm, preserving the same offensive platform under a new mechanical structure.
 
-Strategically, this transition exploits the opponent's moment of success—when they've invested energy clearing your lapel, their posture and grip fighting typically creates openings for lasso entry. The sleeve grip you maintained during lapel guard often transfers directly into lasso control, while your leg threading across their arm replaces the lapel barrier with an equally effective mechanical obstruction. This continuity of control frustrates passers who believed they'd solved the guard puzzle.
+The execution hinges on timing and grip continuity. The window opens when the passer commits energy to clearing the lapel—their posture, hands, and weight are occupied, which is exactly when the space for leg threading appears. You exploit that distraction to rotate your hips perpendicular, drive the shin between their elbow and shoulder, and load tension by pulling the sleeve toward your chest while extending the leg.
 
-The transition also serves as intelligent position management within gi-based guard systems. Both lapel guard and lasso guard share sleeve control as a foundation, making the transition mechanically intuitive once drilled. Advanced practitioners treat these positions as interconnected systems rather than isolated guards, flowing between them based on opponent reactions. Mastering this transition transforms potential guard recovery situations into offensive opportunities, maintaining constant pressure even when your primary guard is threatened.
+Done well, the transition feels like the pass was never close. The lasso re-establishes distance management, restores sweep and submission threats (triangle, omoplata, sickle sweep), and forces the passer back into problem-solving mode. Treat lapel and lasso as two faces of the same sleeve-based control system rather than separate positions, and the transition becomes an automatic answer to lapel-clearing pressure.
 
 **From Position**: [[Positions/Lapel Guard]] (Bottom)
 
@@ -323,5 +323,7 @@ Full intensity situational sparring starting from lapel guard. Partner actively 
 This transition involves threading your shin across an opponent's arm, which carries minimal injury risk when performed correctly. The primary safety concern is ensuring you don't hyperextend your own knee while creating the lasso extension—maintain slight bend at maximum extension rather than locking out completely. When drilling, communicate with partners about pressure levels as aggressive sleeve pulling combined with leg extension can strain shoulder joints. Practitioners with knee injuries should be cautious with the threading motion and may need to modify by using a shallower lasso angle. When transitioning under pressure, avoid explosive movements that could result in collision injuries. This technique is safe at all training intensities when both partners understand the mechanics.
 
 </section>
+
+
 
 </main>

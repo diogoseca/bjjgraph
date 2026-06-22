@@ -10,6 +10,41 @@ description: "Master the reversal from triangle escape position in BJJ. Learn st
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Reversal from Triangle Escape",
+  "description": "Master the reversal from triangle escape position in BJJ. Learn stacking mechanics and lateral passing to convert triangle defense into dominant side control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Reversal from Triangle Escape", "item": "https://bjjgraph.org/Transitions/Reversal-from-Triangle-Escape" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Reversal from Triangle Escape",
+  "description": "The Reversal from Triangle Escape is a transition where the grappler defending a triangle choke redirects stacking pressure into a lateral guard pass, clearing the legs to land directly in side control instead of returning to neutral.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,13 +57,15 @@ description: "Master the reversal from triangle escape position in BJJ. Learn st
 
 <section id="overview" class="content-section">
 
-The Reversal from Triangle Escape converts the defensive mechanics of a triangle escape into an offensive guard pass, landing directly in side control rather than merely returning to a neutral position. This technique capitalizes on the structural changes created during the stacking escape process. As the triangle holder's legs lose integrity and their hips are compressed toward their shoulders, a critical window opens where the escaping practitioner can redirect energy from extraction into a lateral passing movement. The key insight is that the partially dismantled triangle creates a transitional state where the opponent's guard recovery is compromised by the position of their own legs, making the pass significantly easier than a standard guard pass attempt.
+**The Reversal from Triangle Escape is a transition where the grappler defending a triangle choke redirects stacking pressure into a lateral guard pass, clearing the legs to land directly in side control instead of returning to neutral.**
+
+Where most triangle defense concludes with the escaping player disengaging back to a neutral guard, this reversal treats the escape itself as the entry to an offensive pass, landing directly in side control rather than merely surviving. This technique capitalizes on the structural changes created during the stacking escape process. As the triangle holder's legs lose integrity and their hips are compressed toward their shoulders, a critical window opens where the escaping practitioner can redirect energy from extraction into a lateral passing movement. The key insight is that the partially dismantled triangle creates a transitional state where the opponent's guard recovery is compromised by the position of their own legs, making the pass significantly easier than a standard guard pass attempt.
 
 Execution demands precise timing and commitment. The practitioner must recognize when the triangle structure has been sufficiently weakened through stacking pressure, then initiate a circular stepping pattern toward the trapped arm side while maintaining unbroken forward pressure. The arm extraction and lateral pass happen as one continuous movement. Any pause between phases allows the opponent to re-establish guard, re-lock the triangle, or transition to alternative attacks such as armbar or omoplata. The most successful practitioners treat the entire sequence from initial stack through side control establishment as a single technique rather than a chain of separate actions.
 
 This reversal carries moderate risk because committing to the pass requires continued proximity to the triangle. If the triangle structure has not been sufficiently compromised, the lateral movement can actually tighten the choke. Proper assessment of the triangle's remaining integrity is therefore the most critical skill in this technique, separating successful reversals from accelerated submissions. Training this technique develops the broader ability to recognize offensive opportunities within defensive sequences, a skill that distinguishes advanced practitioners from those who treat defense and offense as entirely separate phases of grappling.
 
-**From Position**: [[Positions/Triangle Escape Position]] (Bottom)
+**From Position**: [[Positions/Triangle Escape Position]] (Top)
 **Success Rate**: 38%
 
 </section>
@@ -200,9 +237,9 @@ The Reversal from Triangle Escape sits at the intersection of submission defense
 
 - [[Transitions/Complete Triangle Escape]] - Standard escape sequence that this reversal extends by adding an offensive guard pass component
 
-- [[Transitions/Complete Triangle Escape from Top]] - Alternative full escape technique that disengages entirely rather than converting to a pass
+- [[Transitions/Complete Triangle Escape]] - Alternative full escape technique that disengages entirely rather than converting to a pass
 
-- [[Transitions/Posture in Triangle]] - Essential precursor technique establishing the postural foundation needed to initiate the reversal
+- [[Transitions/Posture in Triangle Escape]] - Essential precursor technique establishing the postural foundation needed to initiate the reversal
 
 - [[Positions/Side Control]] - Target position achieved when the reversal succeeds, requiring immediate consolidation
 
@@ -220,5 +257,7 @@ The Reversal from Triangle Escape sits at the intersection of submission defense
 
 
 </section>
+
+
 
 </main>

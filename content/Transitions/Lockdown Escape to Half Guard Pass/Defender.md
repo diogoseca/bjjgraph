@@ -158,7 +158,7 @@ The critical defensive window occurs when the top player begins addressing your 
 
 Understanding the escape mechanics from the defender's perspective allows you to anticipate each step and insert your counter at the optimal moment. The top player's extraction follows a predictable sequence: forward pressure, limp leg, triangle break, extraction, pass. Your goal is to disrupt this sequence as early as possible, ideally preventing them from ever reaching the triangle break stage by keeping them reactive to your offensive threats.
 
-**Opponent's Starting Position**: [[Positions/Vaporizer]] (Top)
+**Opponent's Starting Position**: [[Positions/Half Guard/Lockdown]] (Top)
 
 </section>
 

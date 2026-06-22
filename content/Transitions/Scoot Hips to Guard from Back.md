@@ -10,6 +10,41 @@ description: "Escape back control using the hip scoot to recover half guard in B
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Scoot Hips to Guard from Back",
+  "description": "Escape back control using the hip scoot to recover half guard in BJJ. Step-by-step hip movement, hook clearing, and guard recovery techniques explained.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Scoot Hips to Guard from Back", "item": "https://bjjgraph.org/Transitions/Scoot-Hips-to-Guard-from-Back" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Scoot Hips to Guard from Back",
+  "description": "Scoot Hips to Guard from Back is a back-control escape where the bottom player slides their hips below the opponent's hooks to clear them, then turns into the attacker to recover half guard from the sport's worst position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Escape back control using the hip scoot to recover half guard in B
 
 <section id="overview" class="content-section">
 
-The Scoot Hips to Guard from Back is a fundamental back escape technique where the bottom player systematically slides their hips downward, below the opponent's hook line, to create the space necessary for turning and recovering guard. This escape operates on the principle that back control depends on the opponent's hooks controlling your hip movement, and by lowering your hips below their hooks through controlled scooting, you remove their primary control mechanism. The technique is particularly effective when the opponent has standard hooks rather than a body triangle, and works best when combined with solid hand fighting to neutralize the choking threat.
+**Scoot Hips to Guard from Back is a back-control escape where the bottom player slides their hips below the opponent's hooks to clear them, then turns into the attacker to recover half guard from the sport's worst position.**
+
+Within the broader back-escape hierarchy, this technique sits at the methodical, low-athleticism end of the spectrum, prized for its reliability across body types and flexibility levels. It operates on the principle that back control depends on the opponent's hooks controlling your hip movement, and by lowering your hips below their hooks through controlled scooting, you remove their primary control mechanism. The technique is particularly effective when the opponent has standard hooks rather than a body triangle, and works best when combined with solid hand fighting to neutralize the choking threat.
 
 The strategic value of this escape lies in its directness and reliability. Unlike rolling escapes or inversion-based techniques that require significant athleticism, the hip scoot relies on methodical positioning and incremental movement that works across body types and flexibility levels. The escape creates a natural pathway to half guard, which represents a massive positional improvement from back control bottom. By scooting below the hooks and turning into the opponent, you transition from a position where you cannot see your attacker to one where you face them with established guard frames.
 
@@ -220,5 +257,7 @@ The hip scoot escape from back control occupies a critical role in the BJJ posit
 
 
 </section>
+
+
 
 </main>

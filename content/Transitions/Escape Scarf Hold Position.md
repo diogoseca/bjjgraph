@@ -10,6 +10,41 @@ description: "Master the Escape from Scarf Hold Position in BJJ. Complete guide 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Escape Scarf Hold Position",
+  "description": "Master the Escape from Scarf Hold Position in BJJ. Complete guide to bridge-and-turn mechanics, frame creation, and guard recovery from kesa gatame.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Escape Scarf Hold Position", "item": "https://bjjgraph.org/Transitions/Escape-Scarf-Hold-Position" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Escape Scarf Hold Position",
+  "description": "Escape Scarf Hold Position is the bottom player's system for breaking free of kesa gatame, using frames, base disruption, and a 45-degree bridge-and-turn rather than lateral shrimping to recover half guard or reach turtle.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Escape from Scarf Hold Position in BJJ. Complete guide 
 </div>
 
 <section id="overview" class="content-section">
+
+**Escape Scarf Hold Position is the bottom player's system for breaking free of kesa gatame, using frames, base disruption, and a 45-degree bridge-and-turn rather than lateral shrimping to recover half guard or reach turtle.**
 
 Escaping Scarf Hold Position represents one of the most technically demanding pin escapes in Brazilian Jiu-Jitsu, requiring mechanics fundamentally different from standard side control escapes. The perpendicular angle of kesa gatame negates lateral shrimping, forcing the bottom player to rely on bridge-and-turn mechanics, backdoor escapes, and precisely timed frame creation to recover guard or reach turtle. The escape system centers on exploiting the inherent vulnerabilities in scarf hold's structure: the exposed back when the top player commits weight forward, the potential to attack posted limbs to destroy base, and timing windows created when the top player shifts weight for submissions or positional transitions.
 
@@ -39,9 +76,10 @@ Modern scarf hold escape methodology integrates both classical judo bridge-and-r
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Half Guard]] | 35% |
+| Success | [[Positions/Side Control]] | 15% |
+| Success | [[Positions/Half Guard]] | 25% |
 | Success | [[Positions/Turtle]] | 10% |
-| Failure | [[Positions/Side Control/Scarf Hold Position]] | 40% |
+| Failure | [[Positions/Side Control/Scarf Hold Position]] | 35% |
 | Counter | [[Positions/Mount]] | 15% |
 
 
@@ -224,5 +262,7 @@ Escape Scarf Hold Position sits within the broader pin escape system, connecting
 
 
 </section>
+
+
 
 </main>

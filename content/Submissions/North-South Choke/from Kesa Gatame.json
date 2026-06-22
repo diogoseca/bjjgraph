@@ -1,5 +1,6 @@
 {
   "name": "North-South Choke from Kesa Gatame",
+  "summary": "The North-South Choke from Kesa Gatame is a blood choke where the top player uses scarf-hold head control to thread the choking arm deep, then rotates toward the opponent's head to compress both carotid arteries with sprawling shoulder pressure.",
   "description": "Complete guide to the North-South Choke from Kesa Gatame in BJJ. Detailed execution steps, defensive counters, safety protocols, and training progressions.",
   "tags": [
     "bjj",
@@ -319,6 +320,16 @@
       {
         "question": "The choke feels close but your opponent is surviving your sprawl pressure - what micro-adjustment should you try?",
         "answer": "Walk your hips slightly toward the choking-arm side to change the compression angle on the carotid arteries. This small lateral shift often closes the gap between almost-finishing and a clean tap. You can also try pulling your choking elbow tighter toward your own hip to increase the arm's compression while maintaining sprawl weight. Another adjustment is driving your shoulder forward and slightly downward, aiming to press the bony point of your shoulder directly into the carotid groove on the neck.",
+        "safety_critical": false
+      },
+      {
+        "question": "How do you know the choke has passed the point of no escape, and what should you do once it has?",
+        "answer": "Once both carotid arteries are fully compressed - your shoulder buried into one side of the neck and your forearm locked across the other - the opponent has roughly three to five seconds before unconsciousness. The reliable indicators are their defensive frames going slack, their bridging slowing or stopping, and a short surge of panicked movement followed by stillness. At that point the finish is locked and they must tap. Maintain steady progressive pressure rather than cranking harder, and release instantly the moment they tap or go limp.",
+        "safety_critical": true
+      },
+      {
+        "question": "In competition, when should you commit to the North-South Choke versus staying in Kesa Gatame to keep scoring?",
+        "answer": "Commit to the choke only when your arm is threaded past the centerline of the throat and the opponent is flat with their near arm controlled, because from there the rotation is high-percentage and ends the match outright. If your arm is shallow, the opponent is actively turning into you, or you are already ahead late on points, stay in Kesa Gatame and keep accumulating pressure and arm-attack threats instead of gambling the rotation, which can open a guard recovery or scramble. Treat the choke as a match-ender you take only when the entry is genuinely there.",
         "safety_critical": false
       }
     ]

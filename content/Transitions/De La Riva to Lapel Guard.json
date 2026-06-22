@@ -1,0 +1,350 @@
+{
+  "name": "De La Riva to Lapel Guard",
+  "description": "Learn the De La Riva to Lapel Guard entry in BJJ. Extract the opponent's lapel from De La Riva and feed it around their leg to establish worm-style lapel control.",
+  "tags": [
+    "bjj",
+    "transition",
+    "guard",
+    "de_la_riva",
+    "lapel_guard",
+    "gi_specific",
+    "guard_entry"
+  ],
+  "aliases": [
+    "De La Riva Worm Guard Entry",
+    "DLR Lapel Extraction"
+  ],
+  "from_position": "De La Riva Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Lapel Guard/Bottom",
+      "probability": 58,
+      "result": "success"
+    },
+    {
+      "to": "De La Riva Guard/Bottom",
+      "probability": 27,
+      "result": "failure"
+    },
+    {
+      "to": "Open Guard/Top",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 58,
+  "summary": "The De La Riva to Lapel Guard entry is a gi-specific guard transition where the bottom player, controlling a De La Riva hook, extracts the opponent's same-side lapel and feeds it behind their hooked knee to establish worm-style lapel control.",
+  "overview": "The De La Riva to Lapel Guard entry is the canonical, most commonly-taught pathway into the modern lapel guard system, popularized through Keenan Cornelius's worm guard. From a strong De La Riva hook on the bottom, the player frees the opponent's same-side lapel, threads it under their own De La Riva leg, and feeds it behind the opponent's hooked knee so the fabric itself becomes a persistent control point that does not depend on continuous grip strength.\n\nThe transition works because De La Riva already establishes the exact geometry the lapel wrap requires: the bottom player's hook is wrapped around the outside of the opponent's lead leg, and the opponent's posture is committed forward over that hook. This gives a clear window to pull the lapel free of the belt, pass it under the leg, and re-grip it on the far side of the opponent's knee. Once the lapel is threaded and the De La Riva hook is replaced by the fabric, the player has entered worm guard, the primary configuration of lapel guard, with the opponent's leg trapped by their own gi.\n\nStrategically this entry converts a dynamic, grip-dependent open guard into a low-energy, semi-permanent control structure. It is most reliable when the opponent stands or postures upright with their lead leg committed, and it underpins the entire downstream lapel-guard offense of sweeps, back takes, and the omoplata/triangle dilemmas. Beginners struggle with the timing of freeing the lapel without losing the De La Riva hook, while advanced players chain it seamlessly so the opponent rarely recognizes the entry until the wrap is complete.",
+  "conditions": [
+    "De La Riva hook established around the outside of the opponent's lead leg",
+    "Opponent posturing upright or standing with their lead leg committed forward",
+    "Bottom player has a free hand available to extract the opponent's lapel from the belt",
+    "Sleeve or ankle control maintained to prevent the opponent from immediately backstepping out"
+  ],
+  "related_content": [
+    {
+      "name": "De La Riva Guard",
+      "relationship": "Starting position - the open guard from which the lapel is extracted and fed"
+    },
+    {
+      "name": "Lapel Guard",
+      "relationship": "Target position - the lapel control system established on successful entry"
+    },
+    {
+      "name": "Worm Guard",
+      "relationship": "Specific lapel configuration created when the lapel is wrapped behind the opponent's knee"
+    },
+    {
+      "name": "Worm Guard Entry",
+      "relationship": "Downstream transition that develops the wrap further once lapel guard is reached"
+    },
+    {
+      "name": "Lapel Sweep to Back",
+      "relationship": "Primary offensive payoff available once lapel guard is established"
+    },
+    {
+      "name": "Lapel to De La Riva",
+      "relationship": "Reverse transition - returns to De La Riva when the lapel grip is lost"
+    },
+    {
+      "name": "Backstep from De La Riva",
+      "relationship": "Opponent counter that can negate the entry before the lapel is threaded"
+    },
+    {
+      "name": "Squid Guard Entry",
+      "relationship": "Alternative lapel configuration reachable after entering lapel guard"
+    },
+    {
+      "name": "Spider Guard",
+      "relationship": "Complementary gi guard that shares grip strategy and serves as a backup if the lapel is stripped"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Position the opponent reaches if they counter the extraction by passing the loose lapel"
+    }
+  ],
+  "attacker": {
+    "name": "De La Riva to Lapel Guard Attacker",
+    "description": "How to enter lapel guard from De La Riva in BJJ. Attacking perspective with lapel extraction, threading mechanics, worm guard establishment, and counters.",
+    "overview": "As the bottom player in De La Riva, you are the attacker in this entry, working to convert a grip-dependent hook into a fabric-based control system. The objective is to free the opponent's same-side lapel, thread it under your De La Riva leg, and feed it behind their hooked knee so their own gi traps the leg. This is the foundational entry into worm guard and the broader lapel guard system.\n\nThe entry capitalizes on the geometry De La Riva already provides: your hook is around the outside of their committed lead leg, and their forward posture exposes the lapel for extraction. The critical skill is maintaining your De La Riva hook and sleeve control while your free hand pulls the lapel from their belt and passes it underneath your leg, then re-grips on the far side of their knee. Done correctly, the wrap persists even if your hand grip is later broken, giving you a low-energy control point from which to launch sweeps, back takes, and submissions.\n\nThe transition rewards patience and timing over speed. Rushing the extraction before the opponent commits their weight forward usually results in losing the hook and conceding the guard. The strongest entries happen when the opponent stands to pass or postures aggressively, momentarily fixing their lead leg in place and giving you the window to complete the wrap.",
+    "key_principles": [
+      "Preserve your De La Riva hook throughout the extraction - the hook holds the leg in place while you thread the lapel",
+      "Free the opponent's same-side lapel from the belt with your free hand before they settle their base",
+      "Thread the lapel under your own De La Riva leg, not over it, so the fabric wraps behind their knee",
+      "Re-grip the lapel on the far side of the opponent's hooked knee to lock the worm configuration",
+      "Maintain sleeve or ankle control so the opponent cannot immediately backstep out of the entanglement",
+      "Use structural grips and skeletal alignment, not a forearm death-grip, to feed and re-grip the fabric",
+      "Time the extraction to when the opponent commits their lead-leg weight forward, fixing the leg for the wrap"
+    ],
+    "setup_requirements": [
+      "De La Riva hook firmly established around the outside of the opponent's lead leg",
+      "Sleeve, ankle, or collar control on the opponent to limit their posture and prevent an early backstep",
+      "Opponent's same-side lapel accessible and not buried under a tightly cinched belt",
+      "A free hand available to perform the lapel extraction and threading sequence",
+      "Opponent posturing upright or standing so the lead leg is committed and weight is forward"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish and load the De La Riva hook",
+        "description": "From open guard, drive your De La Riva foot around the outside of the opponent's lead leg, hooking behind their knee with your shin and instep. Pull on their sleeve or ankle to load the hook and draw their weight forward over your hook, fixing their lead leg in place so it cannot easily retreat during the extraction."
+      },
+      {
+        "step_number": 2,
+        "action": "Extract the same-side lapel from the belt",
+        "description": "With your free hand, reach to the opponent's same-side lapel (the side of your De La Riva hook) and pull the tail of the lapel free from underneath their belt. Strip enough fabric so you have a workable length of lapel to feed, keeping your De La Riva hook active and your sleeve control intact while you free the cloth."
+      },
+      {
+        "step_number": 3,
+        "action": "Pass the lapel under your De La Riva leg",
+        "description": "Feed the extracted lapel underneath your own De La Riva leg, passing the fabric from the inside to the outside so it travels beneath your hooking shin. This routing is what positions the lapel to wrap behind the opponent's hooked knee rather than simply being a loose collar grip across your body."
+      },
+      {
+        "step_number": 4,
+        "action": "Wrap the lapel behind the opponent's knee",
+        "description": "Guide the fabric so it threads behind the opponent's hooked knee, replacing the function of your De La Riva hook with the cloth itself. The lapel now wraps the back of their leg, beginning to trap the limb with their own gi and creating the persistent worm-guard control point that does not rely on your hook strength."
+      },
+      {
+        "step_number": 5,
+        "action": "Re-grip the lapel on the far side",
+        "description": "Reach your other hand across and collect the lapel tail emerging on the far side of the opponent's knee, securing a structural grip with the fingers hooked through the fabric. This completes the wrap and locks the worm configuration; the leg is now controlled by the cloth even if either hand grip is momentarily released."
+      },
+      {
+        "step_number": 6,
+        "action": "Settle into lapel guard and clear the hook",
+        "description": "With the lapel secured behind the knee, release or slide your original De La Riva hook free, replacing it with the fabric wrap and keeping your hips angled toward the controlled leg. Re-establish your secondary grip on the far sleeve or collar, keep your free leg active as a frame, and settle into lapel guard ready to threaten sweeps and back takes."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent backsteps and circles their lead leg out before the lapel is threaded",
+        "effectiveness": "High",
+        "your_response": "Maintain heavy sleeve and ankle control to delay the backstep, and if they begin to circle, follow their rotation to re-establish the De La Riva hook or re-pummel the leg rather than chasing the lapel; reset and re-attempt once their leg recommits.",
+        "targets_outcome": "De La Riva Guard/Bottom"
+      },
+      {
+        "counter": "Opponent strips the loose lapel and drives forward to pass while the cloth is unsecured",
+        "effectiveness": "Medium",
+        "your_response": "If they catch the lapel mid-feed, abandon the wrap, recover your De La Riva hook and frames, and re-close to open guard rather than fighting to complete a compromised configuration that exposes you to the pass.",
+        "targets_outcome": "Open Guard/Top"
+      },
+      {
+        "counter": "Opponent kills the De La Riva hook by sitting their weight back and pulling the leg free",
+        "effectiveness": "Medium",
+        "your_response": "Use their backward weight shift to re-extend your hook or switch to a reverse De La Riva entanglement, keeping sleeve control so you can re-load the leg and re-attempt the extraction from the renewed hook.",
+        "targets_outcome": "De La Riva Guard/Bottom"
+      },
+      {
+        "counter": "Opponent pins the lapel-feeding hand to your chest to prevent the threading",
+        "effectiveness": "Low",
+        "your_response": "Switch the feed to your other hand or use a small hip rotation to create the space to pass the cloth under your leg; their commitment to pinning the hand often frees their posture for the wrap or a direct sweep.",
+        "targets_outcome": "De La Riva Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Releasing the De La Riva hook before the lapel is wrapped behind the knee",
+        "consequence": "The opponent's lead leg comes free and they backstep or pass, leaving you with a loose lapel grip and no leg control during a vulnerable transition.",
+        "correction": "Keep your De La Riva hook fully loaded until the cloth has replaced its function behind the knee. The hook and the wrap should overlap; only clear the hook once the lapel re-grip is secured."
+      },
+      {
+        "error": "Feeding the lapel over the leg instead of underneath it",
+        "consequence": "The fabric ends up as a simple cross-collar grip rather than a wrap, so it does not trap the leg and provides none of the persistent worm-guard control you are after.",
+        "correction": "Always route the lapel from inside to outside underneath your own De La Riva shin so it threads behind the opponent's knee, creating a true wrap that entangles the limb."
+      },
+      {
+        "error": "Attempting the extraction before the opponent's weight is committed forward",
+        "consequence": "With their weight back and lead leg mobile, they simply retract the leg or stand up, and you lose both the hook and the guard while reaching for the lapel.",
+        "correction": "Bait their forward posture or wait for them to stand to pass, fixing the lead leg in place, then extract and thread while the leg is committed and the window is open."
+      },
+      {
+        "error": "Gripping the lapel with a tense forearm death-grip throughout the feed",
+        "consequence": "Your forearm fatigues quickly and your fingers cannot perform the precise threading and re-grip, so the wrap is rushed, sloppy, or never completed.",
+        "correction": "Use a relaxed, structural grip - hook the fingers through the fabric and let body and hip positioning maintain tension, saving forearm strength for the final re-grip that locks the wrap."
+      },
+      {
+        "error": "Neglecting secondary sleeve or ankle control during the extraction",
+        "consequence": "Without a second point of control the opponent freely backsteps, circles, or posts to pass while both of your hands are occupied feeding the lapel.",
+        "correction": "Maintain a sleeve, ankle, or collar grip throughout the feed so the opponent is pinned in place, and only commit both hands to the threading once their escape routes are limited."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2: Lapel Extraction Mechanics",
+        "focus": "Freeing the lapel and routing it under the leg with a compliant partner",
+        "description": "From a static De La Riva hook, drill pulling the same-side lapel free of the belt and feeding it under your own leg without resistance. Reset every repetition. Focus on the routing (inside to outside) and on keeping the hook loaded throughout. 20-30 repetitions per session, alternating sides."
+      },
+      {
+        "phase": "Week 3-4: Completing the Wrap and Re-Grip",
+        "focus": "Threading behind the knee and securing the far-side re-grip",
+        "description": "Partner maintains a forward posture with light resistance. Practice the full sequence through to the far-side re-grip and clearing the De La Riva hook into the fabric wrap. Emphasize the overlap between hook and wrap so leg control is never lost. 15-20 repetitions per session."
+      },
+      {
+        "phase": "Week 5-8: Timing Against Posture and Standing",
+        "focus": "Catching the entry as the opponent commits the lead leg",
+        "description": "Partner alternates between sitting back, posturing up, and standing to pass at medium resistance. Recognize the committed-leg window and execute the extraction in that moment, resetting when the window is missed. Develop the read for when the leg is fixed enough to wrap."
+      },
+      {
+        "phase": "Month 3+: Live Entry Into Offense",
+        "focus": "Chaining the completed lapel guard into sweeps and back takes",
+        "description": "From open and De La Riva guard with full resistance, work to enter lapel guard and immediately flow into the downstream worm-guard offense. 5-minute rounds, multiple per session, integrating the entry into a complete bottom game and adapting to backstep and pass counters."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "Why must you keep your De La Riva hook loaded until the lapel is wrapped behind the knee?",
+        "answer": "The De La Riva hook holds the opponent's lead leg fixed in place while you free and thread the lapel. If you release the hook before the fabric has taken over its function behind the knee, the leg comes free and the opponent can backstep or pass, leaving you with a loose lapel grip and no leg control during a vulnerable transition. The hook and the wrap should overlap so leg control is continuous."
+      },
+      {
+        "question": "Which direction should you route the lapel relative to your own leg, and why does it matter?",
+        "answer": "You route the lapel from inside to outside underneath your own De La Riva shin so the fabric threads behind the opponent's knee. This matters because routing the cloth over your leg produces only a cross-collar grip that does not trap the limb, whereas routing it under creates a true wrap that entangles the leg with the opponent's own gi, giving the persistent worm-guard control point."
+      },
+      {
+        "question": "What is the ideal timing window to extract the lapel during this entry?",
+        "answer": "The ideal window is when the opponent commits their lead-leg weight forward, typically as they posture up or stand to pass, because this fixes the lead leg in place over your hook. With the leg committed, it cannot easily retract while you reach for and thread the lapel. Attempting the extraction with their weight back lets them simply pull the leg free and lose you the hook and the guard."
+      },
+      {
+        "question": "How should you grip the lapel during the feed to avoid losing the wrap?",
+        "answer": "Use a relaxed, structural grip rather than a tense forearm death-grip. Hook your fingers through the fabric and let your body and hip positioning maintain tension, which preserves forearm endurance and dexterity for the precise threading and the final far-side re-grip that locks the wrap. A death-grip fatigues quickly and produces a rushed, sloppy feed that often fails to complete."
+      },
+      {
+        "question": "Why is secondary sleeve or ankle control important while you feed the lapel?",
+        "answer": "Feeding the lapel occupies your hands, so without a second point of control the opponent is free to backstep, circle, or post and pass during that window. A retained sleeve, ankle, or collar grip pins them in place and limits their escape routes, allowing you to commit both hands to the threading. You only fully commit to the feed once those escape routes are restricted."
+      }
+    ],
+    "safety_considerations": "This entry is a positional gi transition with low inherent injury risk, but a few precautions apply. Avoid cinching the lapel wrap so aggressively around the opponent's knee that it torques the joint laterally - the goal is to trap and control the leg, not to apply a leg lock, so feed the fabric with control and release immediately if your partner signals knee discomfort. Be mindful of finger entanglement in the gi during the feed and re-grip; keep fingers hooked rather than deeply threaded to prevent finger sprains if the opponent rips free. When drilling the standing-pass timing, communicate clearly so neither partner is surprised by the sudden leg entanglement, which can unbalance a standing opponent."
+  },
+  "defender": {
+    "name": "De La Riva to Lapel Guard Defender",
+    "description": "How to defend the De La Riva to Lapel Guard entry in BJJ. Recognition cues, lapel-extraction prevention, backstep counters, and passing opportunities.",
+    "overview": "As the top player facing a De La Riva hook, you are the defender against this lapel-guard entry. Your opponent is attempting to free your own lapel and wrap it behind your knee, converting their grip-dependent hook into a semi-permanent fabric control that is far harder to escape once complete. The decisive defensive principle is prevention: it is dramatically easier to deny the lapel extraction than to escape a finished worm-guard wrap.\n\nThe critical defensive window opens the moment you feel your opponent reach for your lapel and begins to close as the fabric threads behind your knee. During this window you have several responses: protect and pin your own lapel to deny the extraction, kill the De La Riva hook by sitting your weight back and circling the leg out, or backstep aggressively to clear the entanglement before the wrap completes. Each carries trade-offs, and once the lapel is secured on the far side of your knee, your options narrow sharply to specialized lapel-clearing sequences.\n\nThe highest-percentage defense keeps your posture and base such that your opponent never gets the committed-leg window they need. By managing your weight and protecting your lapel, you deny the entry at its source. When the extraction is already underway, decisive early action - stripping their feeding hand or backstepping out - prevents you from being trapped in a control system specifically designed to neutralize athletic, pressure-based passing.",
+    "key_principles": [
+      "Prevent the lapel extraction at its source - it is far easier than escaping a completed worm-guard wrap",
+      "Keep your weight off the committed lead leg so the opponent cannot fix it in place for the wrap",
+      "Pin or protect your own lapel with a hand or by keeping the belt cinched when you feel the reach",
+      "Recognize the loose-lapel window as the moment to backstep and circle the hooked leg out",
+      "Avoid feeding your weight forward over the De La Riva hook, which gives the wrap its geometry",
+      "If the wrap completes, address the fabric directly with technical clearing rather than forcing the leg free"
+    ],
+    "recognition_cues": [
+      "The bottom player loads their De La Riva hook hard and pulls your sleeve or ankle to draw your weight forward over the hooked leg",
+      "Their free hand reaches across to your same-side lapel and you feel the tail being pulled free from underneath your belt",
+      "You feel the fabric of your own lapel being passed underneath their leg and beginning to wrap the back of your hooked knee",
+      "Your hooked leg suddenly feels trapped by cloth rather than by their shin, with reduced ability to retract or circle it"
+    ],
+    "defensive_options": [
+      {
+        "action": "Backstep and circle your hooked leg out before the lapel threads behind your knee",
+        "when_to_use": "Early to mid recognition - as soon as you feel them reach for the lapel but before the fabric has wrapped your knee",
+        "targets_outcome": "De La Riva Guard/Bottom",
+        "if_successful": "You clear the De La Riva hook and the entanglement, returning the opponent to a basic De La Riva or open guard without lapel control",
+        "risk": "If you backstep into a poorly controlled angle the opponent can follow and re-establish the hook or chase your back as you turn"
+      },
+      {
+        "action": "Pin your own lapel and strip the opponent's feeding hand to deny the extraction",
+        "when_to_use": "Preventive - the moment you feel their free hand reach for the lapel, before they pull enough fabric free to feed",
+        "targets_outcome": "De La Riva Guard/Bottom",
+        "if_successful": "Without a workable length of lapel the entry stalls and the opponent is forced back to grip fighting from De La Riva",
+        "risk": "Committing a hand to pin your lapel can leave your posture or far-side grips momentarily undefended for other De La Riva attacks"
+      },
+      {
+        "action": "Strip the loose lapel and drive forward to pass while the fabric is still unsecured",
+        "when_to_use": "When the opponent has freed the lapel but has not yet completed the wrap behind your knee",
+        "targets_outcome": "Open Guard/Top",
+        "if_successful": "You clear the half-formed wrap, free your leg, and convert the opponent's incomplete entry into a guard-passing opportunity",
+        "risk": "If you misjudge and the wrap is more complete than it appears, driving forward can tighten the entanglement and feed their sweep"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "De La Riva Guard/Bottom",
+        "how": "Deny the entry by protecting your lapel and managing your weight so the lead leg is never committed, then backstep and circle the hooked leg out to reset the exchange to a basic De La Riva where you can resume passing without facing lapel control."
+      },
+      {
+        "outcome": "Open Guard/Top",
+        "how": "When the opponent frees the lapel but has not yet secured the wrap behind your knee, strip the loose fabric, clear the De La Riva hook, and drive forward into the opening to begin a guard pass against their now-disrupted open guard."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Posturing forward over the De La Riva hook while the opponent reaches for your lapel",
+        "consequence": "Your forward weight fixes your lead leg exactly where the opponent needs it, giving them the committed-leg window to complete the wrap with ease.",
+        "correction": "Keep your weight balanced or slightly back off the hooked leg when you sense the extraction, denying them the fixed leg they require and preserving your ability to circle out."
+      },
+      {
+        "error": "Ignoring the lapel reach and focusing only on the leg entanglement",
+        "consequence": "By the time you address the trapped leg the fabric has already wrapped behind your knee, and you are now defending a completed worm guard rather than preventing the entry.",
+        "correction": "Treat the hand reaching for your lapel as the primary threat. Pin or protect the lapel and strip the feeding hand the instant you recognize the reach, defeating the entry before the wrap forms."
+      },
+      {
+        "error": "Forcing the trapped leg straight out against a completed lapel wrap",
+        "consequence": "Muscling the leg against the secured fabric fatigues you, often fails because the cloth traps the limb regardless of grip, and exposes you to sweeps and back takes as you strain.",
+        "correction": "Once the wrap is complete, do not yank the leg free. Address the fabric directly with technical lapel-clearing sequences, unwinding the configuration systematically while managing the sweep and back-take threats."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "Why is preventing the lapel extraction more important than escaping a completed wrap?",
+        "answer": "Once the lapel is wrapped behind your knee, your own gi traps the leg independently of the opponent's hand grip, so the control persists even when you break their grips and your escape options narrow to specialized lapel-clearing sequences. Denying the extraction at its source - by protecting your lapel and stripping their feeding hand - is dramatically easier and faster than dismantling a finished worm-guard configuration."
+      },
+      {
+        "question": "What weight management denies the opponent the window they need for this entry?",
+        "answer": "Keep your weight balanced or slightly back off the committed lead leg rather than posturing forward over the De La Riva hook. The entry depends on your lead-leg weight being committed forward so the leg is fixed in place for the wrap. By staying off that leg you keep it mobile, deny them the committed-leg window, and preserve your ability to circle the leg out and backstep to safety."
+      },
+      {
+        "question": "When you feel the lapel freed but not yet wrapped, what is your best response?",
+        "answer": "Strip the loose lapel and drive forward to pass while the fabric is still unsecured. At this stage the wrap is incomplete, so clearing the half-formed configuration frees your leg and converts the opponent's incomplete entry into a passing opportunity against their disrupted open guard. The key is acting decisively before the far-side re-grip locks the wrap - hesitation lets the configuration complete and tightens the entanglement."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2: Recognition and Lapel Protection",
+        "focus": "Identifying the extraction reach and protecting your own lapel",
+        "description": "Partner attempts the lapel extraction at 30% speed from a De La Riva hook. Practice recognizing the reach and immediately pinning or protecting your lapel and stripping their feeding hand. Reset each repetition. Build the reflex of treating the hand reach as the primary threat. 20-30 repetitions per session."
+      },
+      {
+        "phase": "Week 3-4: Backstep and Hook Clearing",
+        "focus": "Circling the leg out before the wrap completes",
+        "description": "Partner commits to the entry at 50% intensity. Practice backstepping and circling your hooked leg out at the moment you feel the lapel freed but not yet wrapped. Emphasize clearing into a safe angle so the opponent cannot follow to re-hook or take your back. 10-15 repetitions per side."
+      },
+      {
+        "phase": "Month 2+: Live Defense and Pass Conversion",
+        "focus": "Defending the full entry and converting incomplete wraps into passes",
+        "description": "From De La Riva at full resistance, the opponent works the lapel entry while you defend with prevention, backstep, and strip-and-pass responses. When you clear a half-formed wrap, immediately convert into a guard pass. 5-minute rounds, integrating the defense into a complete passing game against the lapel system."
+      }
+    ]
+  },
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Reverse De La Riva to Lapel Guard",
+      "description": "Instead of a standard De La Riva hook, begin from a reverse De La Riva entanglement on the inside of the opponent's leg, then extract and feed the lapel behind the knee from that angle. The threading direction is mirrored but the resulting worm configuration is the same.",
+      "when_to_use": "When the opponent counters the standard De La Riva by sitting their weight back, making the reverse De La Riva entry more available"
+    },
+    {
+      "variant_name": "Standing-Opponent Worm Entry",
+      "description": "When the opponent stands fully to pass, the committed lead leg is at its most fixed. Extract and wrap the lapel while they are standing, which can also load an immediate elevator or technical-standup sweep as the leg is trapped under load.",
+      "when_to_use": "Against opponents who prefer to stand and pass De La Riva, fixing the lead leg and exposing the lapel for a clean extraction"
+    }
+  ],
+  "position_integration": "The De La Riva to Lapel Guard entry is the primary on-ramp into the entire lapel guard system and a key node in the modern gi open-guard hierarchy. It connects the widely-played De La Riva guard - itself reachable from numerous open-guard and standing exchanges - to worm guard and the broader lapel configurations (squid, ringworm) that follow. By converting a dynamic, grip-dependent hook into a semi-permanent fabric control, this transition unlocks the downstream lapel-guard offense: lapel sweeps to the back, omoplata and triangle dilemmas, and configuration changes between worm and squid guard. Strategically it allows a guard player to shift from high-energy grip fighting into a low-energy, mechanically dominant control structure, inverting the usual energy economy of bottom play. Because De La Riva is one of the most common open guards in gi competition, this entry serves as the realistic, commonly-taught bridge that makes the lapel guard reachable within a complete bottom game rather than an isolated curiosity."
+}

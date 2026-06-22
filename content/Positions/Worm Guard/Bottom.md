@@ -21,19 +21,19 @@ description: "Master Worm Guard Bottom in BJJ. Advanced lapel guard system with 
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata Sweep",
-      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 30% of exchanges from this position.",
+      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 33% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, attempt Triangle Setup. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata to Back",
-      "text": "From this position, attempt Omoplata to Back. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Omoplata to Back. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
@@ -45,7 +45,7 @@ description: "Master Worm Guard Bottom in BJJ. Advanced lapel guard system with 
     {
       "@type": "HowToStep",
       "name": "Execute X-Guard Sweep",
-      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
@@ -232,7 +232,7 @@ Worm Guard Bottom is an innovative lapel-based guard system developed by Keenan 
 
 
 **If opponent attempts to clear lapel wrap by extracting their trapped leg:**
-- Execute **[[Transitions/Triangle from Guard/Attacker|Triangle from Guard]]** → [[Positions/Triangle Control]] (Probability: 45%)
+- Execute **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 45%)
 - Execute **[[Transitions/Bolo Sweep/Attacker|Bolo Sweep]]** → [[Positions/Back Control]] (Probability: 50%)
 
 
@@ -351,6 +351,16 @@ Start in neutral open guard. Both partners grip fight—you attempt to establish
 - **[[Positions/Back Control]]** - High-value transition - omoplata to back is key sequence
 - **[[Positions/Ringworm Guard]]** - Related lapel guard with similar mechanics
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Keenan Cornelius Lapel Guard System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Primary position within the system - foundation for all other lapel guard variations</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

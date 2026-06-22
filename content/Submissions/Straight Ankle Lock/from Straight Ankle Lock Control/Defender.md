@@ -150,7 +150,7 @@ description: "Defend the straight ankle lock from ankle lock control. Boot defen
 
 Defending the straight ankle lock from ankle lock control requires immediate recognition that the attacker has secured a mechanically sound finishing position. The defender's primary concern is preventing the attacker from completing the breaking mechanics—hip extension combined with back arch—that generate dangerous pressure on the Achilles tendon and ankle ligaments. Every defensive action must serve dual purposes: relieving immediate submission pressure while simultaneously creating the conditions for full escape. Boot defense, grip fighting, and hip rotation are the three core defensive tools, and the timing and sequencing of their deployment determines whether the escape succeeds or the attacker advances to a more dominant leg entanglement. The critical window for escape is the first 5-12 seconds after the attacker establishes control, before they can consolidate grips and complete their leg wrap around the trapped leg.
 
-**Opponent's Starting Position**: [[Positions/Straight Ankle Lock Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Straight Ankle Lock Control]] (Top)
 
 
 </section>

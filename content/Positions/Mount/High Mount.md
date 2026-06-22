@@ -10,6 +10,41 @@ description: "Master High Mount in BJJ. Strategic guide covering advanced mount 
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "High Mount",
+  "description": "Master High Mount in BJJ. Strategic guide covering advanced mount control, submission chains, and escape strategies from both top and bottom perspectives.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "High Mount", "item": "https://bjjgraph.org/Positions/High-Mount" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "High Mount",
+  "description": "High Mount is an advanced mount variation where the top player climbs both knees up to the opponent's armpits, pinning the upper chest to eliminate bridging power and unlock the highest-percentage submission finishes in grappling.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master High Mount in BJJ. Strategic guide covering advanced mount 
 </div>
 
 <section id="overview" class="content-section">
+
+**High Mount is an advanced mount variation where the top player climbs both knees up to the opponent's armpits, pinning the upper chest to eliminate bridging power and unlock the highest-percentage submission finishes in grappling.**
 
 High Mount represents the most dominant variation of the mount position in Brazilian Jiu-Jitsu, where the top player positions their knees high on the opponent's torso—near the armpits or shoulders—creating an elevated platform that maximizes submission opportunities while severely restricting escape options. This advanced position serves as the final checkpoint before submission, offering the highest finishing rate of any mount variation.
 
@@ -185,15 +222,15 @@ In competition contexts, High Mount represents the culmination of successful pas
 ### Available Transitions
 
 
-- **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** (32% of attempts)
+- **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** (30% of attempts)
 
-- **[[Cross Collar Choke from High Mount/Attacker|Cross Collar Choke from High Mount]]** (13% of attempts)
+- **[[Cross Collar Choke from High Mount/Attacker|Cross Collar Choke from High Mount]]** (12% of attempts)
 
-- **[[Americana from High Mount/Attacker|Americana from High Mount]]** (8% of attempts)
+- **[[Americana from High Mount/Attacker|Americana from High Mount]]** (7% of attempts)
 
-- **[[Transitions/Triangle from Mount/Attacker|Triangle from Mount]]** (8% of attempts)
+- **[[Transitions/Triangle from Mount/Attacker|Triangle from Mount]]** (7% of attempts)
 
-- **[[Kimura from High Mount/Attacker|Kimura from High Mount]]** (8% of attempts)
+- **[[Kimura from High Mount/Attacker|Kimura from High Mount]]** (7% of attempts)
 
 - **[[Arm Triangle from High Mount/Attacker|Arm Triangle from High Mount]]** (6% of attempts)
 
@@ -207,7 +244,9 @@ In competition contexts, High Mount represents the culmination of successful pas
 
 - **[[Transitions/High Mount to S Mount/Attacker|High Mount to S Mount]]** (2% of attempts)
 
-- **[[Transitions/Arm Triangle/Attacker|Arm Triangle]]** (1% of attempts)
+- **[[Transitions/Arm Triangle/Attacker|Arm Triangle]]** (2% of attempts)
+
+- **[[Armbar from High Mount/Attacker|Armbar from High Mount]]** (5% of attempts)
 
 
 ### Common Mistakes
@@ -270,6 +309,18 @@ In competition contexts, High Mount represents the culmination of successful pas
 
 - **[[Positions/Mount/Mounted Crucifix]]** - Advanced control variation isolating both arms for submission attacks
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Submission-Clinic-System" data-cta="related-system-card" data-system-slug="systems/submission-clinic-system" data-system-name="Submission Clinic System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Submission Clinic System</span><span class="system-card__unlocks-badge">Unlocks 30 techniques</span><span class="system-card__blurb">Advanced mount control with enhanced submission access</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Bernardo-Faria-Pressure-System" data-cta="related-system-card" data-system-slug="systems/bernardo-faria-pressure-system" data-system-name="Bernardo Faria Pressure System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Bernardo Faria Pressure System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Advanced mount position for submission attacks after passing</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Roger-Gracie-Fundamental-System" data-cta="related-system-card" data-system-slug="systems/roger-gracie-fundamental-system" data-system-name="Roger Gracie Fundamental System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Roger Gracie Fundamental System</span><span class="system-card__unlocks-badge">Unlocks 22 techniques</span><span class="system-card__blurb">Advanced mount variation used to prevent bridge escapes and set up cross collar chokes</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

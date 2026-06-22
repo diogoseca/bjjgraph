@@ -10,6 +10,41 @@ description: "Master the Scarf Hold to Side Control transition in BJJ. Learn gri
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Scarf Hold to Side Control",
+  "description": "Master the Scarf Hold to Side Control transition in BJJ. Learn grip changes, hip repositioning, and crossface establishment for secure positional advancement.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Scarf Hold to Side Control", "item": "https://bjjgraph.org/Transitions/Scarf-Hold-to-Side-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Scarf Hold to Side Control",
+  "description": "Scarf Hold to Side Control is a top-control transition in which the player rotates from the perpendicular kesa-gatame pinning angle into standard chest-to-chest side control, trading scarf hold's hip pressure for side control's broader submission and advancement options.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Scarf Hold to Side Control transition in BJJ. Learn gri
 
 <section id="overview" class="content-section">
 
-Scarf Hold to Side Control is a fundamental positional transition where the top player rotates from the perpendicular kesa gatame angle into standard side control alignment. This transition addresses a critical tactical need: while scarf hold offers strong pinning pressure, it exposes the top player's back and limits submission chains compared to the more versatile side control platform. The transition requires precise grip switching, controlled hip rotation, and immediate crossface establishment to prevent the bottom player from exploiting the momentary instability during the angle change.
+**Scarf Hold to Side Control is a top-control transition in which the player rotates from the perpendicular kesa-gatame pinning angle into standard chest-to-chest side control, trading scarf hold's hip pressure for side control's broader submission and advancement options.**
+
+Rooted in judo's kesa gatame, this transition exists because scarf hold, while delivering strong perpendicular pinning pressure, exposes the top player's back and limits the submission chains available compared to the more versatile side control platform. Rotating into standard side control alignment requires precise grip switching, controlled hip rotation, and immediate crossface establishment to prevent the bottom player from exploiting the momentary instability during the angle change. The defining technical demand is overlapping control: new contact points must be secured before old ones release so pressure never fully drops.
 
 The primary challenge lies in maintaining continuous pressure throughout the rotation. As the top player releases head control and arm trap to reposition, a brief window opens where the bottom player can insert frames, recover guard, or initiate escapes. Skilled practitioners minimize this window by sequencing the grip changes so that new control points are established before old ones are released, creating overlapping control that denies escape opportunities. The hip rotation must be smooth and committed, avoiding the common error of pausing in no-man's-land between the two positions.
 
@@ -218,5 +255,7 @@ Scarf Hold to Side Control sits at a critical junction in the top control system
 
 
 </section>
+
+
 
 </main>

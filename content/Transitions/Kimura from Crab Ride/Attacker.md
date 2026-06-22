@@ -336,4 +336,6 @@ The Kimura attacks the shoulder joint through forced external rotation and can c
 
 </section>
 
+
+
 </main>

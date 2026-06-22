@@ -10,6 +10,41 @@ description: "Master the Sweep from Standing Guard in BJJ. Complete guide to off
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Sweep from Standing Guard",
+  "description": "Master the Sweep from Standing Guard in BJJ. Complete guide to off-balancing a standing opponent from guard position and achieving dominant top control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Sweep from Standing Guard", "item": "https://bjjgraph.org/Transitions/Sweep-from-Standing-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Sweep from Standing Guard",
+  "description": "The Sweep from Standing Guard is a bottom-player reversal that off-balances a standing passer by pushing their hips with the feet while pulling their ankles or upper body, toppling them and coming up into top control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Sweep from Standing Guard in BJJ. Complete guide to off
 </div>
 
 <section id="overview" class="content-section">
+
+**The Sweep from Standing Guard is a bottom-player reversal that off-balances a standing passer by pushing their hips with the feet while pulling their ankles or upper body, toppling them and coming up into top control.**
 
 The Sweep from Standing Guard targets the inherent vulnerability created when an opponent stands up in your guard. A standing posture raises the opponent's center of gravity while narrowing their base, making them susceptible to coordinated push-pull mechanics. The bottom player uses feet on the opponent's hips as a primary control mechanism, creating a fulcrum point that enables powerful leverage-based sweeps. Success depends on disrupting the standing player's base through asymmetric force application, pushing their upper body in one direction while removing support from their feet in the opposite direction.
 
@@ -225,5 +262,7 @@ The Sweep from Standing Guard integrates into the broader open guard retention a
 
 
 </section>
+
+
 
 </main>

@@ -339,4 +339,6 @@ When practicing Morote Seoi Nage, safety is paramount due to the potential for i
 
 </section>
 
+
+
 </main>

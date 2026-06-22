@@ -86,6 +86,18 @@ description: "Learn why chaining techniques together creates unstoppable offense
 }
 </script>
 
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Technique Chaining",
+  "description": "Technique chaining is the practice of linking attacks in sequence so that each defensive reaction your opponent gives creates a predictable opening for your next move, turning isolated techniques into continuous offense.",
+  "inDefinedTermSet": "https://bjjgraph.org/Learning/"
+}
+</script>
+
+
 > **Category**: Strategy
 
 
@@ -94,6 +106,8 @@ description: "Learn why chaining techniques together creates unstoppable offense
 <section id="overview" class="content-section">
 
 ## What is Technique Chaining?
+
+**Technique chaining is the practice of linking attacks in sequence so that each defensive reaction your opponent gives creates a predictable opening for your next move, turning isolated techniques into continuous offense.**
 
 A single attack in BJJ is a question. A chain of attacks is a conversation your opponent cannot keep up with. When you attempt an armbar from mount and your opponent defends, that defense creates a new opening -- perhaps a triangle, a back take, or a collar choke. Technique chaining means planning for the defense before you even launch the first attack.
 
@@ -204,15 +218,16 @@ A: Chaining means each follow-up is triggered by a specific defensive reaction -
 <section id="related" class="content-section">
 
 ## Related
-- [[Principles/Fork Attacks]] (Principle) - Fork attacks force opponents to choose between two bad options, creating the dilemma that makes chains effective
-- [[Principles/Action and Reaction]] (Principle) - Chains exploit the predictable reactions opponents have to specific attacks
-- [[Principles/Submission Chains]] (Principle) - Submission-specific chaining principles for linking finishing sequences
-- [[Principles/Position Chains]] (Principle) - Positional advancement chains that complement submission chains
-- [[Principles/Transition Management]] (Principle) - Managing the moments between techniques where chains succeed or fail
-- [[Positions/Closed Guard]] (Position) - Classic position for building first attack chains with sweeps and submissions
-- [[Positions/Mount]] (Position) - Dominant position where submission chains are most effective
-- [[Learning/Predictable Responses]] (Learning) - Understanding predictable defensive reactions is the foundation of effective chains
-- [[Learning/Funneling]] (Learning) - Chains can funnel opponents into increasingly narrow defensive options
+- [[Fork Attacks]] (Principle) - Fork attacks force opponents to choose between two bad options, creating the dilemma that makes chains effective
+- [[Action and Reaction]] (Principle) - Chains exploit the predictable reactions opponents have to specific attacks
+- [[Position Chains]] (Principle) - Positional advancement chains apply the same trigger-and-follow-up logic to improving position rather than finishing
+- [[Connection Principles]] (Principle) - Managing the connection between linked techniques is the moment where chains succeed or fail
+- [[Closed Guard]] (Position) - Classic position for building first-attack chains with sweeps and submissions
+- [[Mount]] (Position) - Dominant position where submission chains are most effective
+- [[Predictable Responses]] (Learning) - Understanding predictable defensive reactions is the foundation of effective chains
+- [[Funneling]] (Learning) - Chains can funnel opponents into increasingly narrow defensive options
+- [[Mask Your Intentions]] (Learning) - Disguising the first attack as the real threat makes the follow-up in a chain land cleanly
+- [[Pattern Interrupts]] (Learning) - Breaking an opponent's defensive rhythm complements chaining by denying them a predictable counter
 
 
 

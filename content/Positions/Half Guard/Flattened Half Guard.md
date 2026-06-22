@@ -10,6 +10,41 @@ description: "Master the flattened half guard position in BJJ. Complete guide co
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Flattened Half Guard",
+  "description": "Master the flattened half guard position in BJJ. Complete guide covering defensive escapes, frame recovery, and survival tactics when pinned flat.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Flattened Half Guard", "item": "https://bjjgraph.org/Positions/Flattened-Half-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Flattened Half Guard",
+  "description": "Flattened Half Guard is a pinned variation of half guard where the top player collapses the bottom player's frames and settles chest-to-chest with the leg still trapped, reducing the bottom game to survival and frame recovery.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the flattened half guard position in BJJ. Complete guide co
 </div>
 
 <section id="overview" class="content-section">
+
+**Flattened Half Guard is a pinned variation of half guard where the top player collapses the bottom player's frames and settles chest-to-chest with the leg still trapped, reducing the bottom game to survival and frame recovery.**
 
 Flattened Half Guard represents one of the most challenging defensive scenarios in Brazilian Jiu-Jitsu. Unlike the traditional half guard where the bottom player maintains an active frame and hip mobility, the flattened variation occurs when the top player successfully collapses the bottom player's structure, driving their chest and weight directly onto the opponent's torso while controlling the trapped leg. This position eliminates most of the bottom player's offensive capabilities and transforms half guard from a dynamic attacking position into a pure survival scenario.
 
@@ -246,5 +283,7 @@ The position's place in the BJJ positional hierarchy reflects its defensive natu
 
 
 </section>
+
+
 
 </main>

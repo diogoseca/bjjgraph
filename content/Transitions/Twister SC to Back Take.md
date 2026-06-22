@@ -10,6 +10,41 @@ description: "Master the Twister Side Control to Back Take in BJJ. Complete guid
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Twister SC to Back Take",
+  "description": "Master the Twister Side Control to Back Take in BJJ. Complete guide with step-by-step execution, defensive counters, and training strategies for this 10th Planet transition.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Twister SC to Back Take", "item": "https://bjjgraph.org/Transitions/Twister-SC-to-Back-Take" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Twister SC to Back Take",
+  "description": "Twister SC to Back Take is a 10th Planet transition where the top player follows the opponent's defensive turn out of Twister Side Control, threading hooks behind the hips and securing a seatbelt to convert lateral control into dominant back control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Twister Side Control to Back Take in BJJ. Complete guid
 </div>
 
 <section id="overview" class="content-section">
+
+**Twister SC to Back Take is a 10th Planet transition where the top player follows the opponent's defensive turn out of Twister Side Control, threading hooks behind the hips and securing a seatbelt to convert lateral control into dominant back control.**
 
 The Twister Side Control to Back Take is a high-percentage transitional technique within the 10th Planet system that capitalizes on the unique lateral control mechanics of Twister Side Control to establish the most dominant position in grappling. When the bottom player attempts to relieve spinal pressure by turning away or creating frames, the top player follows the rotation and threads hooks behind the opponent's hips, converting lateral torque control into full rear body control with seatbelt grip and dual hooks.
 
@@ -214,8 +251,6 @@ The Twister Side Control to Back Take occupies a critical junction in the 10th P
 
 - [[Transitions/Escape Twister Side Control]] - Primary defensive transition the bottom player uses to prevent or abort the back take sequence
 
-- [[Transitions/Truck to Back Control]] - Analogous back take transition from the closely related truck position sharing similar mechanics and timing
-
 - [[Transitions/Turn In from Twister Side Control]] - Defensive counter-movement where the bottom player turns toward the attacker to prevent back exposure
 
 - [[Transitions/Frame from Twister Side Control]] - Defender's frame-based escape that must be prevented for the back take to succeed
@@ -224,5 +259,7 @@ The Twister Side Control to Back Take occupies a critical junction in the 10th P
 
 
 </section>
+
+
 
 </main>

@@ -10,10 +10,55 @@ description: "Master the Spinning Armbar from Closed Guard in BJJ. Complete guid
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Spinning Armbar from Closed Guard targets the Elbow joint. Risk: Elbow hyperextension with ligament damage (UCL/MCL tears). Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Spinning Armbar from Closed Guard",
+  "description": "Master the Spinning Armbar from Closed Guard in BJJ. Complete guide to this dynamic rotational armbar entry with attack strategies and defensive counters.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Spinning Armbar from Closed Guard", "item": "https://bjjgraph.org/Submissions/Spinning-Armbar-from-Closed-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Spinning Armbar from Closed Guard",
+  "description": "The Spinning Armbar from Closed Guard is a dynamic bottom attack where you isolate the opponent's arm, break their posture, and rotate your hips underneath to finish a hyperextending elbow lock when standard armbar entries are stuffed.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Spinning Armbar from Closed Guard is a dynamic bottom attack where you isolate the opponent's arm, break their posture, and rotate your hips underneath to finish a hyperextending elbow lock when standard armbar entries are stuffed.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Arm Lock</span>
+<span class="meta-chip">Targets Elbow joint</span>
+<span class="meta-chip">60% success</span>
+</div>
+
+> [!danger] Safety
+> Spinning Armbar from Closed Guard targets the Elbow joint. Primary risk: Elbow hyperextension with ligament damage (UCL/MCL tears). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,53 +75,7 @@ The technique's effectiveness lies in its ability to catch opponents off-guard t
 
 From a biomechanical standpoint, the spinning armbar exploits the principle that rotational force applied around a fixed point (the opponent's shoulder) generates tremendous leverage at the distal end (the elbow). The attacker's entire body mass participates in the rotation, creating a force multiplier that static armbar entries cannot replicate. This makes it particularly effective against larger, stronger opponents who can resist conventional armbar mechanics through brute force alone.
 
-**Category**: Joint Lock
-**Type**: Arm Lock
-**Target Area**: Elbow joint
-**Starting Position**: [[Positions/Closed Guard]]
-**From Position**: [[Positions/Closed Guard]] (Bottom)
-**Success Rate**: 60%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Elbow hyperextension with ligament damage (UCL/MCL tears) | High | 6-12 weeks with potential surgery |
-| Elbow dislocation with capsular damage | CRITICAL | 3-6 months with extensive rehabilitation |
-| Shoulder strain from rotational torque during spin | Medium | 2-4 weeks |
-| Neck strain if opponent's head is trapped during rotation | Medium | 1-3 weeks |
-
-
-**Application Speed**: SLOW and progressive - 4-6 seconds minimum for the full rotation and extension
-
-**Tap Signals**:
-- Verbal tap (especially during rotation phase)
-- Physical hand tap on opponent's body or mat
-- Physical foot tap on mat
-- Any distress signal or loss of balance indication
-
-
-**Release Protocol**:
-1. Immediately stop all extension pressure on the elbow
-2. Release leg pressure across opponent's face and chest
-3. Allow opponent's arm to return to natural position without jerking
-4. Roll away from the submission to create space
-5. Check opponent's elbow mobility and comfort before continuing
-
-
-**Training Restrictions**:
-- Never spike or snap the armbar during the spinning motion
-- Never use competition speed in training - control the rotation carefully
-- Always allow opponent to tap during the spin phase before full extension
-- Never grip the wrist only - control above and below the elbow joint
-- Avoid spinning if opponent's base is compromised and they may land awkwardly
-
+**Starting Position**: [[Positions/Closed Guard]] · **From**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
 
@@ -257,10 +256,9 @@ From a biomechanical standpoint, the spinning armbar exploits the principle that
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Armbar]]
 - [[Submissions/Mounted Crucifix Armbar]]
 - [[Submissions/Triangle Choke]]
@@ -271,38 +269,56 @@ From a biomechanical standpoint, the spinning armbar exploits the principle that
 - [[Submissions/Gift Wrap Armbar]]
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Baratoplata]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
-- [[Submissions/Flying Armbar]] - Another explosive armbar variation requiring timing and commitment
-- [[Submissions/Far Side Armbar]] - Alternative armbar finishing position when spinning past the opponent's centerline
-- [[Submissions/Triangle Choke]] - Creates arm isolation that can lead to spinning armbar entry
-- [[Submissions/Omoplata]] - Alternative dynamic attack from similar positions
 - [[Submissions/Armbar/Reverse Armbar from Mount]] - Complementary armbar variation sharing arm isolation and rotational control principles
 - [[Positions/Closed Guard]] - Primary starting position for spinning armbar entries
 - [[Positions/Mount]] - Dominant position offering spinning armbar opportunities
 - [[Positions/Standing Position]] - Dynamic environment where spinning armbar opportunities emerge
 - [[Positions/Triangle Control]] - Position that provides arm isolation leading to spinning armbar
-- [[Submissions/Belly Down Armbar]] - Alternative finishing position when opponent stacks during spin
-- [[Submissions/Kimura]] - Complementary shoulder lock that chains with spinning armbar
 - [[Positions/Armbar Control]] - Target control position after completing the spin
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Elbow hyperextension with ligament damage (UCL/MCL tears) | High | 6-12 weeks with potential surgery |
+| Elbow dislocation with capsular damage | CRITICAL | 3-6 months with extensive rehabilitation |
+| Shoulder strain from rotational torque during spin | Medium | 2-4 weeks |
+| Neck strain if opponent's head is trapped during rotation | Medium | 1-3 weeks |
+
+
+**Application Speed**: SLOW and progressive - 4-6 seconds minimum for the full rotation and extension
+
+**Tap Signals**:
+- Verbal tap (especially during rotation phase)
+- Physical hand tap on opponent's body or mat
+- Physical foot tap on mat
+- Any distress signal or loss of balance indication
+
+
+**Release Protocol**:
+1. Immediately stop all extension pressure on the elbow
+2. Release leg pressure across opponent's face and chest
+3. Allow opponent's arm to return to natural position without jerking
+4. Roll away from the submission to create space
+5. Check opponent's elbow mobility and comfort before continuing
+
+
+**Training Restrictions**:
+- Never spike or snap the armbar during the spinning motion
+- Never use competition speed in training - control the rotation carefully
+- Always allow opponent to tap during the spin phase before full extension
+- Never grip the wrist only - control above and below the elbow joint
+- Avoid spinning if opponent's base is compromised and they may land awkwardly
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Spinning Armbar from Closed Guard leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

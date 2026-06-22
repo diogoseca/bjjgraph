@@ -10,10 +10,55 @@ description: "Master the toe hold from Backside 50-50 in BJJ. Complete guide cov
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Toe Hold from Backside 50-50 targets the Ankle, toes, and foot ligaments. Risk: Ankle ligament tears (lateral and medial collateral ligaments). Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Toe Hold from Backside 50-50",
+  "description": "Master the toe hold from Backside 50-50 in BJJ. Complete guide covering grip mechanics, rotational finishing details, and position-specific leg lock strategy.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Toe Hold from Backside 50-50", "item": "https://bjjgraph.org/Submissions/Toe-Hold-from-Backside-50-50" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Toe Hold from Backside 50-50",
+  "description": "The toe hold from Backside 50-50 is a rotational foot lock where the top player figure-fours the opponent's trapped toes and twists inward, attacking the ankle and midfoot while chest-to-back pressure prevents escape.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The toe hold from Backside 50-50 is a rotational foot lock where the top player figure-fours the opponent's trapped toes and twists inward, attacking the ankle and midfoot while chest-to-back pressure prevents escape.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Leg Lock</span>
+<span class="meta-chip">Targets Ankle, toes, and foot ligaments</span>
+<span class="meta-chip">60% success</span>
+</div>
+
+> [!danger] Safety
+> Toe Hold from Backside 50-50 targets the Ankle, toes, and foot ligaments. Primary risk: Ankle ligament tears (lateral and medial collateral ligaments). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,56 +75,7 @@ The submission works by securing a figure-four grip around the opponent's toes a
 
 In competition, the toe hold from Backside 50-50 serves as both a primary finishing tool and a strategic complement to heel hook attacks. Practitioners who develop proficiency with both submissions from this position force opponents into a defensive dilemma: protecting the heel exposes the toes, and protecting the toes opens the heel. This dual-threat system, combined with the ever-present possibility of abandoning legs entirely for back control, makes the Backside 50-50 top position one of the most dangerous attacking platforms in submission grappling.
 
-**Category**: Joint Lock
-**Type**: Leg Lock
-**Target Area**: Ankle, toes, and foot ligaments
-**Starting Position**: [[Positions/Ashi Garami/Backside 50-50]]
-**From Position**: [[Positions/Ashi Garami/Backside 50-50]] (Top)
-**Success Rate**: 60%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Ankle ligament tears (lateral and medial collateral ligaments) | High | 6-12 weeks with potential for chronic instability |
-| Toe fractures and dislocations | Medium | 4-8 weeks |
-| Plantar fascia rupture | High | 8-16 weeks |
-| Lisfranc joint injury (midfoot dislocation) | CRITICAL | 3-6 months, may require surgery |
-| Achilles tendon strain | Medium | 4-6 weeks |
-
-
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum from initial grip to any pressure. The rotational force compounds rapidly once applied. This is NOT a technique to snap on in training.
-
-**Tap Signals**:
-- Verbal tap (say 'tap' loudly)
-- Physical hand tap on partner or mat (multiple taps)
-- Physical foot tap with free leg
-- Any verbal distress signal
-- Slapping the mat with hand
-
-
-**Release Protocol**:
-1. Immediately stop all rotational pressure upon tap
-2. Release toe grip completely before releasing heel control
-3. Allow opponent's foot to return to neutral position naturally
-4. Do not let go abruptly - maintain light contact until opponent signals they are okay
-5. Check with training partner before continuing
-
-
-**Training Restrictions**:
-- Never apply sudden rotational force - all pressure must be gradual and controlled
-- Never grip individual toes - always grip across multiple toes and ball of foot
-- Never combine toe hold rotation with explosive hip extension
-- Always allow clear tap access for both hands and verbal tap
-- Stop immediately at any sign of discomfort from training partner
-- Never train this submission at full competition speed or intensity
-
+**Starting Position**: [[Positions/Ashi Garami/Backside 50-50]] · **From**: [[Positions/Ashi Garami/Backside 50-50]] (Top)
 
 </section>
 
@@ -226,41 +222,64 @@ In competition, the toe hold from Backside 50-50 serves as both a primary finish
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Transitions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
-- [[Positions/Estima Lock Control]]
+- [[Transitions/Estima Lock]]
 - [[Submissions/Calf Slicer]]
 - [[Submissions/Achilles Lock]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Ashi Garami/Backside 50-50]] - Primary starting position providing chest-to-back pressure advantage
 - [[Positions/Ashi Garami/50-50 Guard]] - Related leg entanglement with toe hold access from face-to-face angle
-- [[Transitions/Heel Hook]] - Primary chain partner - heel hook defense exposes ball of foot for toe hold
-- [[Submissions/Inside Heel Hook]] - Complementary inside rotation attack from same entanglement
 - [[Positions/Ashi Garami/Saddle]] - Superior leg control position accessible when toe hold is defended
-- [[Submissions/Calf Slicer]] - Alternative compression attack available from similar leg positioning
+
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Ankle ligament tears (lateral and medial collateral ligaments) | High | 6-12 weeks with potential for chronic instability |
+| Toe fractures and dislocations | Medium | 4-8 weeks |
+| Plantar fascia rupture | High | 8-16 weeks |
+| Lisfranc joint injury (midfoot dislocation) | CRITICAL | 3-6 months, may require surgery |
+| Achilles tendon strain | Medium | 4-6 weeks |
+
+
+**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum from initial grip to any pressure. The rotational force compounds rapidly once applied. This is NOT a technique to snap on in training.
+
+**Tap Signals**:
+- Verbal tap (say 'tap' loudly)
+- Physical hand tap on partner or mat (multiple taps)
+- Physical foot tap with free leg
+- Any verbal distress signal
+- Slapping the mat with hand
+
+
+**Release Protocol**:
+1. Immediately stop all rotational pressure upon tap
+2. Release toe grip completely before releasing heel control
+3. Allow opponent's foot to return to neutral position naturally
+4. Do not let go abruptly - maintain light contact until opponent signals they are okay
+5. Check with training partner before continuing
+
+
+**Training Restrictions**:
+- Never apply sudden rotational force - all pressure must be gradual and controlled
+- Never grip individual toes - always grip across multiple toes and ball of foot
+- Never combine toe hold rotation with explosive hip extension
+- Always allow clear tap access for both hands and verbal tap
+- Stop immediately at any sign of discomfort from training partner
+- Never train this submission at full competition speed or intensity
 
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Toe Hold from Backside 50-50 leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

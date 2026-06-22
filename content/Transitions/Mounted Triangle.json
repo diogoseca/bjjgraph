@@ -1,5 +1,6 @@
 {
   "name": "Mounted Triangle",
+  "summary": "The Mounted Triangle is a mount-attack transition in which you isolate the opponent's head and one arm from Modified Mount, then swing a leg over to lock a figure-four triangle, fusing top control with an immediate strangle and armbar threat.",
   "description": "Master Mounted Triangle from Modified Mount. Step-by-step entry from mount to triangle control with arm isolation, angle cutting, and finishing mechanics.",
   "tags": [
     "bjj",
@@ -46,7 +47,7 @@
     },
     {
       "name": "Triangle Choke",
-      "relationship": "Same strangling mechanics applied from different position"
+      "relationship": "Same strangling mechanics applied from the mounted control position to finish"
     },
     {
       "name": "Mount to Armbar",
@@ -73,8 +74,8 @@
       "relationship": "Position opponent may recover to if counter is successful"
     },
     {
-      "name": "Triangle Choke",
-      "relationship": "Submission finish accessible from mounted triangle control"
+      "name": "Back Control",
+      "relationship": "Back take available when the opponent turns away to escape the triangle, converting their defensive turn into a dominant transition"
     }
   ],
   "attacker": {

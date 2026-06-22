@@ -10,6 +10,41 @@ description: "Learn Stack Defense in BJJ. Counter stack passes with frame manage
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Stack Defense",
+  "description": "Learn Stack Defense in BJJ. Counter stack passes with frame management, hip escape mechanics, and angle recovery to maintain guard position effectively.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Stack Defense", "item": "https://bjjgraph.org/Transitions/Stack-Defense" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Stack Defense",
+  "description": "Stack Defense is the guard-bottom counter to stacking passes, using upper-body frames, lateral hip escapes, and a knee shield to break the passer's forward pressure and recover guard before the spine compresses.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Learn Stack Defense in BJJ. Counter stack passes with frame manage
 </div>
 
 <section id="overview" class="content-section">
+
+**Stack Defense is the guard-bottom counter to stacking passes, using upper-body frames, lateral hip escapes, and a knee shield to break the passer's forward pressure and recover guard before the spine compresses.**
 
 Stack Defense is a fundamental defensive skill for maintaining guard when an opponent attempts to stack you by driving your knees toward your shoulders and passing around your legs. This defensive framework combines frame management, hip escape mechanics, and strategic angle recovery to neutralize one of the most common guard passing approaches in both gi and no-gi grappling. The stack pass creates pressure by folding your body, compressing your spine, and limiting your hip mobility, making it essential to understand proper defensive posture and escape mechanics before the position becomes consolidated.
 
@@ -233,5 +270,7 @@ Stack defense integrates into the broader guard retention system as one of sever
 
 
 </section>
+
+
 
 </main>

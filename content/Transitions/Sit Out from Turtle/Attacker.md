@@ -248,7 +248,8 @@ Executing the sit out from turtle requires explosive hip rotation through a stab
 | Success | [[Positions/Half Guard]] | 35% |
 | Success | [[Positions/Open Guard]] | 10% |
 | Failure | [[Positions/Turtle]] | 30% |
-| Counter | [[Positions/Side Control]] | 25% |
+| Counter | [[Positions/Back Control]] | 15% |
+| Counter | [[Positions/Side Control]] | 10% |
 
 
 </section>
@@ -343,5 +344,7 @@ Full resistance positional sparring starting from turtle position. Bottom player
 The sit out involves rapid hip rotation and weight bearing on the posted arm, creating potential for wrist, shoulder, and neck strain if performed with poor mechanics. Always warm up wrists and shoulders before drilling. Partners should provide graduated resistance rather than sudden explosive counters that could cause the posting arm to collapse. Keep chin tucked throughout to protect the cervical spine during rotation. In live sparring, avoid forcing the sit out when opponent has deep grips on your neck, as the rotation against neck control can cause cervical injury. Communicate with training partners about intensity level before positional rounds.
 
 </section>
+
+
 
 </main>

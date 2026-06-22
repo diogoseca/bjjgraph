@@ -17,6 +17,7 @@
   "starting_position": "Honey Hole",
   "from_position": "Honey Hole/Top",
   "success_rate": 50,
+  "summary": "The Inside Heel Hook from Honey Hole is a rotational knee submission applied from the inside sankaku leg entanglement, twisting the trapped heel to load the ACL, MCL, and meniscus — the highest-percentage finish in modern no-gi leg locking.",
   "overview": "The Inside Heel Hook from Honey Hole represents the highest-percentage finishing technique in modern no-gi Brazilian Jiu-Jitsu leg lock systems. Executed from the dominant Honey Hole (also known as Inside Sankaku, Saddle, or 411) entanglement, this submission attacks the knee joint through controlled rotational force applied via the heel, targeting the medial collateral ligament, anterior cruciate ligament, and meniscus simultaneously. The Honey Hole's structural control—inside leg triangle restricting hip rotation, perpendicular body alignment creating optimal leverage—allows the attacker to methodically establish grip, clear defenses, and apply breaking pressure without rushing.\n\nFrom a competitive standpoint, the Inside Heel Hook from Honey Hole has become the most feared finish in submission grappling, consistently appearing as the dominant submission at elite no-gi events. The position's inherent control means success rates are significantly higher than heel hooks attempted from looser entanglements like Outside Ashi-Garami or standard Ashi Garami. The inside configuration exposes the heel at an angle that maximizes rotational leverage against the knee's weakest axis, creating mechanical advantage that neutralizes size and strength differentials.\n\nThis submission demands absolute safety awareness. The rotational force attacks ligaments that provide minimal proprioceptive warning before failure—the defender often cannot feel the submission tightening until structural damage has already occurred. Controlled application, immediate release on any tap signal, and comprehensive training protocols are non-negotiable requirements for responsible practice of this technique.",
   "safety_considerations": {
     "injury_risks": [
@@ -91,7 +92,6 @@
     "Inside Heel Hook",
     "Outside Heel Hook",
     "from Ushiro Ashi",
-    "Inside Heel Hook",
     "Aoki Lock",
     "Estima Lock"
   ],

@@ -10,6 +10,41 @@ description: "Master the straighten leg kneebar defense in BJJ. Complete guide t
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Straighten Leg Kneebar Defense",
+  "description": "Master the straighten leg kneebar defense in BJJ. Complete guide to leg extension mechanics, escape timing, and transitions from kneebar control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Straighten Leg Kneebar Defense", "item": "https://bjjgraph.org/Transitions/Straighten-Leg-Kneebar-Defense" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Straighten Leg Kneebar Defense",
+  "description": "The Straighten Leg Kneebar Defense is a bottom-position escape where the defender forcibly extends their trapped knee against kneebar pressure, denying the bent-leg fulcrum required for hyperextension and creating space to extract the leg to half guard top.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the straighten leg kneebar defense in BJJ. Complete guide t
 
 <section id="overview" class="content-section">
 
-The Straighten Leg Kneebar Defense is a fundamental defensive technique employed when an opponent has established kneebar control and is threatening to hyperextend the knee joint. The core mechanic involves actively extending the knee against the attacker's finishing pressure, denying them the bent-leg position necessary to create the fulcrum for hyperextension. This defense relies on a combination of quadriceps strength, hip positioning, and timing to create enough resistance to either prevent the finish entirely or create space for leg extraction and escape.
+**The Straighten Leg Kneebar Defense is a bottom-position escape where the defender forcibly extends their trapped knee against kneebar pressure, denying the bent-leg fulcrum required for hyperextension and creating space to extract the leg to half guard top.**
+
+When an opponent has locked kneebar control and is pulling your knee toward hyperextension, the straighten leg defense attacks the finish at its mechanical root rather than waiting to escape after the joint is loaded. The core mechanic involves actively extending the knee against the attacker's finishing pressure, denying them the bent-leg position necessary to create the fulcrum for hyperextension. This defense relies on a combination of quadriceps strength, hip positioning, and timing to create enough resistance to either prevent the finish entirely or create space for leg extraction and escape.
 
 This defense occupies a critical role in the leg lock defense hierarchy because it addresses the kneebar at its most dangerous phase—when the attacker has control but has not yet achieved full extension. Unlike rotational leg lock defenses that focus on controlling the foot and ankle, the straighten leg defense targets the knee angle directly, making it mechanically straightforward but physically demanding. The defender must generate enough extension force through their quadriceps to overcome the attacker's pulling pressure with both arms and hip bridge, while simultaneously working to free their leg from the entanglement.
 
@@ -214,5 +251,7 @@ The straighten leg kneebar defense integrates directly into the broader leg lock
 
 
 </section>
+
+
 
 </main>

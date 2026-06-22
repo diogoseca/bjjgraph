@@ -10,6 +10,41 @@ description: "Transition from collar sleeve guard to De La Riva guard in BJJ. Le
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Collar Sleeve to De La Riva",
+  "description": "Transition from collar sleeve guard to De La Riva guard in BJJ. Learn grip conversion, hook insertion timing, and guard switching mechanics for bottom game.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Collar Sleeve to De La Riva", "item": "https://bjjgraph.org/Transitions/Collar-Sleeve-to-De-La-Riva" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Collar Sleeve to De La Riva",
+  "description": "Collar Sleeve to De La Riva is a gi guard switch where the bottom player threads a De La Riva hook around a standing passer's lead leg and converts the sleeve grip to ankle control, trading collar-sleeve's posture break for DLR's off-balancing leverage.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Transition from collar sleeve guard to De La Riva guard in BJJ. Le
 </div>
 
 <section id="overview" class="content-section">
+
+**Collar Sleeve to De La Riva is a gi guard switch where the bottom player threads a De La Riva hook around a standing passer's lead leg and converts the sleeve grip to ankle control, trading collar-sleeve's posture break for DLR's off-balancing leverage.**
 
 The collar sleeve to De La Riva transition is a fundamental guard switching technique that converts the asymmetric grip control of collar sleeve guard into the hook-based leverage system of De La Riva guard. This transition typically occurs when the top player stands to initiate a passing sequence, creating the standing posture that De La Riva guard exploits most effectively. The bottom player threads their outside leg around the opponent's lead leg to establish the signature DLR hook while converting their existing grips to match the new guard structure.
 
@@ -222,5 +259,7 @@ The collar sleeve to De La Riva transition is a critical link in the modern open
 
 
 </section>
+
+
 
 </main>

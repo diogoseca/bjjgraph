@@ -10,7 +10,8 @@
     "guard-passing",
     "side-control"
   ],
-  "from_position": "Triangle Escape Position/Bottom",
+  "summary": "The Reversal from Triangle Escape is a transition where the grappler defending a triangle choke redirects stacking pressure into a lateral guard pass, clearing the legs to land directly in side control instead of returning to neutral.",
+  "from_position": "Triangle Escape Position/Top",
   "outcomes": [
     {
       "to": "Side Control/Top",
@@ -18,7 +19,7 @@
       "result": "success"
     },
     {
-      "to": "Triangle Escape Position/Bottom",
+      "to": "Triangle Escape Position/Top",
       "probability": 37,
       "result": "failure"
     },
@@ -29,7 +30,7 @@
     }
   ],
   "success_rate": 38,
-  "overview": "The Reversal from Triangle Escape converts the defensive mechanics of a triangle escape into an offensive guard pass, landing directly in side control rather than merely returning to a neutral position. This technique capitalizes on the structural changes created during the stacking escape process. As the triangle holder's legs lose integrity and their hips are compressed toward their shoulders, a critical window opens where the escaping practitioner can redirect energy from extraction into a lateral passing movement. The key insight is that the partially dismantled triangle creates a transitional state where the opponent's guard recovery is compromised by the position of their own legs, making the pass significantly easier than a standard guard pass attempt.\n\nExecution demands precise timing and commitment. The practitioner must recognize when the triangle structure has been sufficiently weakened through stacking pressure, then initiate a circular stepping pattern toward the trapped arm side while maintaining unbroken forward pressure. The arm extraction and lateral pass happen as one continuous movement. Any pause between phases allows the opponent to re-establish guard, re-lock the triangle, or transition to alternative attacks such as armbar or omoplata. The most successful practitioners treat the entire sequence from initial stack through side control establishment as a single technique rather than a chain of separate actions.\n\nThis reversal carries moderate risk because committing to the pass requires continued proximity to the triangle. If the triangle structure has not been sufficiently compromised, the lateral movement can actually tighten the choke. Proper assessment of the triangle's remaining integrity is therefore the most critical skill in this technique, separating successful reversals from accelerated submissions. Training this technique develops the broader ability to recognize offensive opportunities within defensive sequences, a skill that distinguishes advanced practitioners from those who treat defense and offense as entirely separate phases of grappling.",
+  "overview": "Where most triangle defense concludes with the escaping player disengaging back to a neutral guard, this reversal treats the escape itself as the entry to an offensive pass, landing directly in side control rather than merely surviving. This technique capitalizes on the structural changes created during the stacking escape process. As the triangle holder's legs lose integrity and their hips are compressed toward their shoulders, a critical window opens where the escaping practitioner can redirect energy from extraction into a lateral passing movement. The key insight is that the partially dismantled triangle creates a transitional state where the opponent's guard recovery is compromised by the position of their own legs, making the pass significantly easier than a standard guard pass attempt.\n\nExecution demands precise timing and commitment. The practitioner must recognize when the triangle structure has been sufficiently weakened through stacking pressure, then initiate a circular stepping pattern toward the trapped arm side while maintaining unbroken forward pressure. The arm extraction and lateral pass happen as one continuous movement. Any pause between phases allows the opponent to re-establish guard, re-lock the triangle, or transition to alternative attacks such as armbar or omoplata. The most successful practitioners treat the entire sequence from initial stack through side control establishment as a single technique rather than a chain of separate actions.\n\nThis reversal carries moderate risk because committing to the pass requires continued proximity to the triangle. If the triangle structure has not been sufficiently compromised, the lateral movement can actually tighten the choke. Proper assessment of the triangle's remaining integrity is therefore the most critical skill in this technique, separating successful reversals from accelerated submissions. Training this technique develops the broader ability to recognize offensive opportunities within defensive sequences, a skill that distinguishes advanced practitioners from those who treat defense and offense as entirely separate phases of grappling.",
   "conditions": [
     "Triangle lock has been partially compromised through sustained stacking pressure or successful posture recovery",
     "Sufficient breathing space exists at the neck to maintain consciousness while executing the lateral movement",
@@ -61,11 +62,11 @@
       "relationship": "Standard escape sequence that this reversal extends by adding an offensive guard pass component"
     },
     {
-      "name": "Complete Triangle Escape from Top",
+      "name": "Complete Triangle Escape",
       "relationship": "Alternative full escape technique that disengages entirely rather than converting to a pass"
     },
     {
-      "name": "Posture in Triangle",
+      "name": "Posture in Triangle Escape",
       "relationship": "Essential precursor technique establishing the postural foundation needed to initiate the reversal"
     },
     {
@@ -158,7 +159,7 @@
         "counter": "Opponent re-locks triangle tighter and pulls head back down during lateral stepping",
         "effectiveness": "High",
         "your_response": "Reset stacking pressure by driving forward more aggressively before reattempting the circular movement. The triangle was not sufficiently compromised. Rebuild the stack until neck pressure decreases before initiating the lateral pass again.",
-        "targets_outcome": "Triangle Escape Position/Bottom"
+        "targets_outcome": "Triangle Escape Position/Top"
       },
       {
         "counter": "Opponent transitions to armbar on the trapped arm during the extraction phase",
@@ -170,7 +171,7 @@
         "counter": "Opponent hip scoots and recovers guard before the lateral pass completes",
         "effectiveness": "Medium",
         "your_response": "Maintain constant downward pressure on their far hip with your free hand and accelerate the lateral movement. Never release hip control during the transition. If they begin scooting, increase your passing speed rather than resetting.",
-        "targets_outcome": "Triangle Escape Position/Bottom"
+        "targets_outcome": "Triangle Escape Position/Top"
       },
       {
         "counter": "Opponent uses momentum to sweep during your forward weight commitment",
@@ -292,21 +293,21 @@
       {
         "action": "Re-lock triangle and pull head down using both hands behind the head",
         "when_to_use": "When the opponent's lateral movement has begun but the trapped arm is still inside the triangle and the leg configuration can still be tightened",
-        "targets_outcome": "Triangle Escape Position/Bottom",
+        "targets_outcome": "Triangle Escape Position/Top",
         "if_successful": "Opponent is pulled back into full triangle pressure and must restart their escape sequence from the beginning",
         "risk": "If the triangle is already too loose, the pulling motion may not generate sufficient pressure and the opponent accelerates through the pass"
       },
       {
         "action": "Transition to omoplata by releasing triangle and controlling the trapped arm at the wrist while swinging hips to the outside",
         "when_to_use": "When the opponent initiates circular arm extraction and the triangle lock is compromised beyond recovery but the arm is still within reach",
-        "targets_outcome": "Triangle Escape Position/Bottom",
+        "targets_outcome": "Triangle Escape Position/Top",
         "if_successful": "Opponent's arm is caught in omoplata control, creating a new submission threat and sweeping opportunity from a different angle",
         "risk": "If timing is late and the arm has already cleared, you lose both the triangle and the omoplata opportunity"
       },
       {
         "action": "Hip scoot away and establish defensive guard frames to prevent pass completion",
         "when_to_use": "When the pass angle becomes inevitable and the triangle cannot be re-established, prioritizing guard recovery over submission retention",
-        "targets_outcome": "Triangle Escape Position/Bottom",
+        "targets_outcome": "Triangle Escape Position/Top",
         "if_successful": "Creates sufficient distance to recover open guard or closed guard before the opponent establishes side control",
         "risk": "Requires releasing the triangle lock entirely, giving up the submission attempt and returning to a neutral guard position"
       },
@@ -320,7 +321,7 @@
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Triangle Escape Position/Bottom",
+        "outcome": "Triangle Escape Position/Top",
         "how": "Maintain triangle integrity through active leg squeezing, continuous angle adjustment following the opponent's lateral movement, and wrist control on the trapped arm. Prevent the arm extraction by gripping the wrist or sleeve and pulling it back into the triangle whenever the opponent attempts circular extraction. Follow their hip movement with your own hip adjustments to preserve the perpendicular choking angle."
       },
       {

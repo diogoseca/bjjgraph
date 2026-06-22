@@ -13,7 +13,8 @@
   ],
   "system_type": "Passing System",
   "difficulty_level": "Intermediate",
-  "overview": "The Bernardo Faria Pressure System is a comprehensive top game framework built on relentless forward pressure, precise weight distribution, and systematic guard passing principles. Developed through years of elite competition, this system prioritizes making opponents carry your weight while maintaining dominant control positions. The methodology emphasizes knee slice variations, over-under passing, and bodylock control as primary weapons, combined with strategic grip fighting and base management. Rather than speed or explosiveness, this system relies on technical precision, timing, and pressure application to systematically break down guards and achieve dominant positions. The framework is particularly effective in gi competition where grips and control can be maximized, though the fundamental pressure principles translate effectively to no-gi contexts. This system represents a masterclass in making opponents exhausted through constant pressure while conserving your own energy through proper technique and weight placement.",
+  "summary": "The Bernardo Faria Pressure System is a gi-focused top game framework that uses relentless forward weight, knee slice, over-under, and bodylock passing to exhaust opponents and systematically advance to dominant pinning positions.",
+  "overview": "Forged across years of elite gi competition that produced five IBJJF World Championships, this top game emerged from a deliberate rejection of speed and athleticism in favor of weight, timing, and relentless patience. Rather than scrambling to pass, the practitioner makes opponents carry bodyweight on their hips, chest, and shoulders until their guard collapses from exhaustion. The methodology emphasizes knee slice variations, over-under passing, and bodylock control as primary weapons, combined with strategic grip fighting and base management. Rather than speed or explosiveness, this system relies on technical precision, timing, and pressure application to systematically break down guards and achieve dominant positions. The framework is particularly effective in gi competition where grips and control can be maximized, though the fundamental pressure principles translate effectively to no-gi contexts. This system represents a masterclass in making opponents exhausted through constant pressure while conserving your own energy through proper technique and weight placement.",
   "key_principles": [
     "Constant forward pressure forces opponent to work continuously",
     "Weight distribution creates exhaustion without requiring strength",
@@ -392,6 +393,40 @@
       "name": "Ezekiel Choke",
       "content_type": "Submission",
       "relationship": "Primary submission attack from consolidated mount position"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What is the core philosophy of the Bernardo Faria Pressure System?",
+      "answer": "It prioritizes relentless forward weight and pressure over speed or athleticism, forcing opponents to carry your bodyweight until their guard collapses from exhaustion rather than from explosive scrambling."
+    },
+    {
+      "question": "Which three passing techniques serve as the system's primary weapons?",
+      "answer": "Knee slice variations, over-under passing, and bodylock control are the core passing tools, selected based on the opponent's guard structure and defensive reactions."
+    },
+    {
+      "question": "Why does the bodylock pass work especially well against butterfly and half guard?",
+      "answer": "Connecting the hands around the torso eliminates grip-fighting exchanges and controls the opponent's core directly, removing the framing and hooking options those guards rely on."
+    },
+    {
+      "question": "What should you prioritize first when an opponent establishes half guard against you?",
+      "answer": "Win the underhook battle immediately, then apply a crossface to flatten the opponent's back to the mat before systematically clearing the trapped bottom leg."
+    },
+    {
+      "question": "How does the system generate pressure without exhausting the practitioner?",
+      "answer": "By using weight distribution and skeletal alignment rather than muscular effort, dropping the hips and channeling bodyweight through chest and shoulder contact onto the opponent's hips and torso."
+    },
+    {
+      "question": "What is the most common mistake practitioners make when learning this system?",
+      "answer": "Substituting muscular strength for proper weight distribution, which burns energy quickly and produces far less effective pressure than letting the skeleton and bodyweight do the work."
+    },
+    {
+      "question": "How should you handle a flexible opponent with a highly mobile guard?",
+      "answer": "Prioritize controlling the hips rather than the legs, and use bodylock and over-under positions that neutralize flexibility while systematically exhausting the opponent's mobility over time."
+    },
+    {
+      "question": "Why is immediate position consolidation emphasized after a successful pass?",
+      "answer": "Securing crossface, underhook, or grapevines right away prevents the opponent from using the transitional moment to bridge, recover guard, or escape before pressure is reestablished."
     }
   ]
 }

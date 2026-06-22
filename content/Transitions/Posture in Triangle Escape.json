@@ -1,5 +1,6 @@
 {
   "name": "Posture in Triangle Escape",
+  "summary": "Posture in Triangle Escape is the foundational defensive transition where a grappler trapped in a triangle choke uses hip-driven spinal extension and forward stacking pressure to recover posture, relieve arterial compression, and clear into half guard top.",
   "description": "Master posture recovery to escape triangle chokes in BJJ. Step-by-step guide covering spinal alignment, stacking pressure, and transitions to half guard top.",
   "tags": [
     "triangle escape",
@@ -10,7 +11,7 @@
     "submission escape",
     "half guard transition"
   ],
-  "from_position": "Triangle Escape Position/Bottom",
+  "from_position": "Triangle Escape Position/Top",
   "outcomes": [
     {
       "to": "Half Guard/Top",
@@ -18,7 +19,7 @@
       "result": "success"
     },
     {
-      "to": "Triangle Escape Position/Bottom",
+      "to": "Triangle Escape Position/Top",
       "probability": 30,
       "result": "failure"
     },
@@ -73,7 +74,7 @@
       "relationship": "Full escape sequence from same position that builds upon successful posture recovery as prerequisite"
     },
     {
-      "name": "Complete Triangle Escape from Top",
+      "name": "Complete Triangle Escape",
       "relationship": "Related complete escape from the top perspective of triangle escape position"
     },
     {
@@ -163,13 +164,13 @@
         "counter": "Opponent pulls head down aggressively with both hands behind the neck while extending hips to maximize choking pressure",
         "effectiveness": "High",
         "your_response": "Maintain chin tuck and focus entirely on hip drive rather than fighting the head pull directly. Walk knees forward to establish base and use incremental posterior chain extension to build posture against their pull. The hip-driven approach generates far more force than their arm pulling can resist when your base is properly established.",
-        "targets_outcome": "Triangle Escape Position/Bottom"
+        "targets_outcome": "Triangle Escape Position/Top"
       },
       {
         "counter": "Opponent scoots hips laterally to re-establish perpendicular choking angle as you attempt to square your shoulders",
         "effectiveness": "High",
         "your_response": "Follow their angle adjustment by walking your knees laterally in the same direction, treating the squaring effort as an ongoing process rather than a one-time correction. Intensify hip control hand pressure to restrict their scooting mobility while continuing upward drive.",
-        "targets_outcome": "Triangle Escape Position/Bottom"
+        "targets_outcome": "Triangle Escape Position/Top"
       },
       {
         "counter": "Opponent isolates the trapped arm by pulling it across your neck and pivoting hips to transition to armbar",
@@ -181,7 +182,7 @@
         "counter": "Opponent re-locks figure-four tighter by squeezing knees together and adjusting leg position during your posture attempt",
         "effectiveness": "Medium",
         "your_response": "Pause the upward drive momentarily and increase forward stacking pressure to compromise their leg structure from a different angle. Once the lock settles, resume incremental posture recovery. Each re-lock requires the opponent to momentarily loosen before retightening, creating brief extraction windows you can exploit.",
-        "targets_outcome": "Triangle Escape Position/Bottom"
+        "targets_outcome": "Triangle Escape Position/Top"
       }
     ],
     "common_errors": [
@@ -254,7 +255,7 @@
       },
       {
         "question": "You feel the triangle loosening momentarily as your opponent readjusts their figure-four leg position - how do you exploit this window?",
-        "answer": "Immediately accelerate your posture recovery by driving explosively through your hips while maintaining forward stacking pressure. This adjustment window is the highest-percentage moment for posture gain because the triangle structure is temporarily compromised during the leg repositioning. Simultaneously begin stepping toward your trapped arm side and continue the upward drive with increased urgency. The key is recognizing these windows through tactile sensitivity, as the loosening is brief and the opponent will re-cinch within seconds."
+        "answer": "Immediately accelerate your posture recovery with an urgent, committed hip drive while maintaining forward stacking pressure - urgency here means seizing the moment, not jerking explosively, which would feed the choke. This adjustment window is the highest-percentage moment for posture gain because the triangle structure is temporarily compromised during the leg repositioning. Simultaneously begin stepping toward your trapped arm side and continue the upward drive. The key is recognizing these windows through tactile sensitivity, as the loosening is brief and the opponent will re-cinch within seconds."
       },
       {
         "question": "What is the correct placement and function of the free hand during posture recovery?",
@@ -275,6 +276,14 @@
       {
         "question": "After achieving partial posture but before full escape, your opponent re-breaks your posture by pulling you back down - what is the correct recovery approach?",
         "answer": "Reset immediately to fundamental defensive configuration: re-pin your trapped arm elbow to ribs, re-post your free hand on their hip, re-tuck your chin, and re-establish your knee base. Take a controlled breath to stabilize before reinitiating the complete posture sequence from the beginning with emphasis on hip drive rather than continuing a broken sequence. Each recovery attempt must start from the fundamentals rather than trying to salvage a failed attempt. Build systematic pressure through repeated correct technique, as the opponent's grip fatigue from multiple re-breaking efforts progressively weakens their defense."
+      },
+      {
+        "question": "Which side should you step and circle toward as the triangle loosens, and why does direction matter?",
+        "answer": "Always step and circle toward your trapped arm side, never toward the free arm side. Moving toward the trapped arm opens the triangle's leg structure and works with the natural escape geometry, whereas circling toward the free arm drives you deeper into the choking angle the opponent wants and tightens the lock. As you gain posture, this directional discipline converts your upward drive into a clearing path toward half guard top rather than feeding the submission."
+      },
+      {
+        "question": "What entry conditions must exist before posture recovery becomes a realistic high-percentage option?",
+        "answer": "You need at least one knee or foot posted on the mat to generate hip-driven force, a free arm available to control the opponent's hip rather than being captured, your trapped-arm elbow pinned to your ribs, chin tucked to protect the carotids, and crucially a triangle that is not yet fully cinched at the optimal perpendicular angle. Against a fully locked triangle with a perfected angle, posture recovery is one of the lowest-percentage scenarios; the realistic window is during the opponent's leg adjustments when the lock briefly loosens."
       }
     ],
     "safety_considerations": "Posture recovery during triangle escapes involves direct resistance against an active choking mechanism that compresses the carotid arteries and can cause unconsciousness within 4-8 seconds without warning. Never attempt to fight through a fully locked triangle past the point where you feel tunnel vision, lightheadedness, or bilateral neck pressure distortion. Tap immediately when consciousness is threatened rather than risking loss of consciousness during the posture attempt. The stacking component places compressive force on the opponent's cervical spine, so stack gradually rather than explosively during training to protect your partner. Training partners should communicate openly about pressure levels and release immediately upon tap. Never explosively jerk your head upward against locked triangle pressure, as this risks cervical vertebrae compression injuries."
@@ -302,14 +311,14 @@
       {
         "action": "Pull head down aggressively with both hands behind the neck while extending hips and squeezing knees to maximize choking pressure",
         "when_to_use": "Immediately when you feel opponent establishing free hand on your hip or beginning any upward drive through knee walking",
-        "targets_outcome": "Triangle Escape Position/Bottom",
+        "targets_outcome": "Triangle Escape Position/Top",
         "if_successful": "Opponent's posture recovery is defeated and they remain trapped in the triangle with choking pressure maintained or increased",
         "risk": "If their posterior chain drive overpowers your pulling force, they may achieve partial posture while your grip energy is depleted"
       },
       {
         "action": "Hip-walk laterally to maintain perpendicular 30-45 degree choking angle as opponent attempts to square their shoulders",
         "when_to_use": "When you feel opponent rotating their torso or walking their knees laterally to square their shoulders to your hips",
-        "targets_outcome": "Triangle Escape Position/Bottom",
+        "targets_outcome": "Triangle Escape Position/Top",
         "if_successful": "Optimal choking geometry is preserved despite their squaring effort, maintaining full submission threat and arterial compression",
         "risk": "Hip movement under stacking pressure may momentarily loosen the triangle lock, creating a brief extraction window"
       },
@@ -323,14 +332,14 @@
       {
         "action": "Attack opponent's base by hip-bumping or using underhook to sweep when their weight shifts upward during posture attempt",
         "when_to_use": "When opponent's center of gravity rises above their base during the upward drive phase, compromising their lateral stability",
-        "targets_outcome": "Triangle Escape Position/Bottom",
+        "targets_outcome": "Triangle Escape Position/Top",
         "if_successful": "Opponent is swept or destabilized, breaking their posture recovery momentum and resetting them back into broken posture within the triangle",
         "risk": "If sweep attempt fails, the triangle may loosen during the sweep motion and opponent may exploit the momentary instability"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Triangle Escape Position/Bottom",
+        "outcome": "Triangle Escape Position/Top",
         "how": "Prevent posture recovery by maintaining constant head pull, hip extension, and angle preservation working together as an integrated system. Attack the opponent's base positioning by disrupting their knee-walking with hip bumps, and control their free hand placement on your hip by stripping or redirecting it. Force repeated posture recovery resets until opponent fatigues from the sustained effort of fighting against your combined defensive mechanisms."
       },
       {

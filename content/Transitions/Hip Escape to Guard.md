@@ -10,6 +10,41 @@ description: "Master the Hip Escape to Guard escape from Gift Wrap Bottom in BJJ
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Hip Escape to Guard",
+  "description": "Master the Hip Escape to Guard escape from Gift Wrap Bottom in BJJ. Complete guide to shrimping mechanics, frame insertion, and arm extraction for guard recovery.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Hip Escape to Guard", "item": "https://bjjgraph.org/Transitions/Hip-Escape-to-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Hip Escape to Guard",
+  "description": "Hip Escape to Guard is the primary escape from Gift Wrap Bottom, chaining sequential shrimps and knee-shield frames to create space, extract the trapped arm, and recover open guard while never abandoning neck defense.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Hip Escape to Guard escape from Gift Wrap Bottom in BJJ
 
 <section id="overview" class="content-section">
 
-The Hip Escape to Guard is a fundamental defensive transition used to escape the Gift Wrap position and recover to an open guard configuration. This escape addresses one of the most precarious situations in BJJ where one arm is trapped across your body while your opponent maintains back control, severely limiting your defensive options.
+**Hip Escape to Guard is the primary escape from Gift Wrap Bottom, chaining sequential shrimps and knee-shield frames to create space, extract the trapped arm, and recover open guard while never abandoning neck defense.**
+
+Among the limited escape options available from Gift Wrap Bottom, the hip escape stands out as the most reliable path back to a neutral guard. This escape addresses one of the most precarious situations in BJJ where one arm is trapped across your body while your opponent maintains back control, severely limiting your defensive options.
 
 The technique relies on creating space through precise hip movement rather than attempting to forcefully remove the trapped arm. By shrimping away from your opponent while maintaining neck protection with your free hand, you create the angular displacement necessary to withdraw your hips from their control and begin inserting defensive frames. The escape exploits the momentary gaps created when your opponent adjusts their position or initiates submission attacks.
 
@@ -208,8 +245,6 @@ Hip Escape to Guard is the primary escape pathway from Gift Wrap Bottom, one of 
 
 - [[Transitions/Back Door Escape]] - Related escape - broader back defense methodology
 
-- [[Transitions/Elbow Escape to Guard]] - Alternative escape - similar hip movement principles from mount
-
 - [[Transitions/Arm Recovery to Guard]] - Follow-up concept - establishing guard after recovering trapped arm
 
 - [[Transitions/Granby Roll to Guard]] - Alternative technique - rolling escape option from same position
@@ -218,10 +253,20 @@ Hip Escape to Guard is the primary escape pathway from Gift Wrap Bottom, one of 
 
 - [[Positions/Back Control]] - Parent position - Gift Wrap evolves from back control
 
-- [[Principles/Frames]] - Supporting concept - establishing defensive frames during escape
-
 - [[Positions/Mount]] - Counter outcome - where failed escape can lead
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/IBJJF-Strategy-Guide" data-cta="related-system-card" data-system-slug="systems/ibjjf-strategy-guide" data-system-name="IBJJF Strategy Guide" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">IBJJF Strategy Guide</span><span class="system-card__unlocks-badge">Unlocks 27 techniques</span><span class="system-card__blurb">Fundamental defensive movement preventing opponent&#x27;s 3-point guard passes</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Caio-Terra-Guard-Retention-System" data-cta="related-system-card" data-system-slug="systems/caio-terra-guard-retention-system" data-system-name="Caio Terra Guard Retention System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Caio Terra Guard Retention System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Fundamental movement pattern essential for all guard retention sequences</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Back-Defense-Protocol" data-cta="related-system-card" data-system-slug="systems/back-defense-protocol" data-system-name="Back Defense Protocol" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Back Defense Protocol</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Fundamental movement for creating space during escapes</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

@@ -16,7 +16,7 @@ description: "How to execute Turtle to Standing escape in BJJ. Complete attackin
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Turtle to Standing in BJJ",
-  "description": "Step-by-step guide for executing Turtle to Standing from Turtle/Top.",
+  "description": "Step-by-step guide for executing Turtle to Standing from Turtle/Bottom.",
   "step": [
     {
       "@type": "HowToStep",
@@ -180,7 +180,7 @@ description: "How to execute Turtle to Standing escape in BJJ. Complete attackin
 
 Executing the Turtle to Standing transition requires coordinating explosive hip extension with strategic hand posting, directional choice, and continuous neck protection. The attacker in this context is the bottom player escaping turtle, and the technique succeeds when you generate enough upward and forward momentum to overcome opponent's downward pressure while maintaining defensive integrity against chokes and back takes. The critical principle is that this escape must be executed as a single explosive movement rather than a gradual rise. Every moment spent in transition between turtle and standing is a moment of vulnerability where the opponent can attack the exposed neck, insert hooks, or drive you flat. Timing the attempt to coincide with the opponent's weight shifting or grip adjustment creates the optimal window. The direction of the stand should always move away from the opponent's center of mass, and the first action after reaching feet must be creating distance through lateral footwork rather than standing directly into the opponent's chest.
 
-**From Position**: [[Positions/Turtle]] (Top)
+**From Position**: [[Positions/Turtle]] (Bottom)
 
 </section>
 
@@ -347,5 +347,7 @@ Incorporate the turtle to standing escape as an automatic response whenever turt
 The turtle to standing transition is generally low-risk but requires awareness of several safety considerations. The primary injury risk is to the neck: rising with poor chin tuck mechanics can result in being caught in a guillotine or front headlock choke, and practitioners should tap immediately if a choke tightens during drilling rather than trying to power through. When training the explosive stand-up, ensure adequate warm-up of quadriceps, hip flexors, and shoulders, as the movement demands sudden power generation from a compressed starting position. Partners applying top pressure during resistance drills should avoid suddenly dropping their full bodyweight, as this can cause wrist, shoulder, or cervical spine injuries to the person posting. On hard or thin mat surfaces, be cautious of knee impact when driving the lead leg forward into the lunge position. Communication between training partners about intensity levels is essential, particularly during the transition from cooperative to resistant drilling phases. When practicing guillotine defense during stand-up drills, always tap early and reset rather than testing neck durability.
 
 </section>
+
+
 
 </main>

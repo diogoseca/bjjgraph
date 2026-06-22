@@ -10,6 +10,41 @@ description: "Master the technical standup from turtle bottom in BJJ. Step-by-st
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Standing up in Base",
+  "description": "Master the technical standup from turtle bottom in BJJ. Step-by-step base-building sequence to safely return to standing with defensive posture intact.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Standing up in Base", "item": "https://bjjgraph.org/Transitions/Standing-up-in-Base" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Standing up in Base",
+  "description": "Standing up in Base is a fundamental turtle-bottom escape where the bottom player posts a hand, frames for distance, and sequentially builds base to rise into standing guard while defending the back take.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the technical standup from turtle bottom in BJJ. Step-by-st
 </div>
 
 <section id="overview" class="content-section">
+
+**Standing up in Base is a fundamental turtle-bottom escape where the bottom player posts a hand, frames for distance, and sequentially builds base to rise into standing guard while defending the back take.**
 
 The technical standup from base is a fundamental defensive movement that allows a grounded fighter to safely return to standing position while maintaining defensive posture and base. This essential skill bridges the gap between ground-based positions and standing engagement, providing both escape utility and offensive opportunity. The technique emphasizes proper weight distribution, frame creation, and sequential base-building to prevent opponent interference during the standup process. Understanding this movement is critical for guard retention, scramble navigation, and preventing opponents from consolidating top position control.
 
@@ -230,5 +267,7 @@ The technical standup from base serves as a fundamental bridge movement connecti
 
 
 </section>
+
+
 
 </main>

@@ -21,7 +21,7 @@ description: "Master Z-Guard Bottom position in BJJ. Complete guide covering kne
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 30% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 35% of exchanges from this position.",
       "position": 1
     },
     {
@@ -39,19 +39,19 @@ description: "Master Z-Guard Bottom position in BJJ. Complete guide covering kne
     {
       "@type": "HowToStep",
       "name": "Execute Back Take from Bottom",
-      "text": "From this position, attempt Back Take from Bottom. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Back Take from Bottom. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Turtle to Truck",
-      "text": "From this position, attempt Turtle to Truck. This technique is attempted in 8% of exchanges from this position.",
-      "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute X-Guard Sweep",
       "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 10% of exchanges from this position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Lockdown Recovery",
+      "text": "From this position, attempt Lockdown Recovery. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -116,6 +116,7 @@ description: "Master Z-Guard Bottom position in BJJ. Complete guide covering kne
   "@type": "WebPage",
   "name": "Z-Guard Bottom",
   "description": "Master Z-Guard Bottom position in BJJ. Complete guide covering knee shield retention, sweeps, and back takes. Defensive half guard variation with exceptional retention capabilities.",
+  "alternateName": ["Z Guard"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -155,6 +156,9 @@ description: "Master Z-Guard Bottom position in BJJ. Complete guide covering kne
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Z Guard</strong> <span class="role-hint">(bottom)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 Z-Guard Bottom is a dynamic half guard variation characterized by an active knee shield that creates distance and frames against the top player's pressure. This position, also known as Knee Shield Half Guard in some systems, represents one of the most versatile defensive positions in modern BJJ, offering exceptional retention capabilities while maintaining offensive sweep and back-take options. The fundamental structure involves trapping one of the opponent's legs with your inside leg while your outside leg creates a shield with the knee pressed into the opponent's shoulder or upper chest, preventing them from settling their weight and establishing effective passing pressure.
@@ -232,7 +236,6 @@ From a strategic perspective, Z-Guard Bottom represents a critical position in t
 **If opponent attempts to circle around knee shield toward backstep position:**
 - Execute **[[Transitions/Back Take from Bottom/Attacker|Back Take from Bottom]]** → [[Positions/Back Control]] (Probability: 60%)
 - Execute **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** → [[Positions/Half Guard/Electric Chair]] (Probability: 50%)
-- Execute **[[Transitions/Turtle to Truck/Attacker|Turtle to Truck]]** → [[Positions/Twister Control]] (Probability: 55%)
 
 
 **If opponent successfully collapses knee shield but has not yet established full passing pressure:**
@@ -316,7 +319,7 @@ Partner starts in top half guard with light resistance. Bottom player flows thro
 
 ### Back Take Reaction Drill
 
-Top player attempts to circle toward backstep position around knee shield. Bottom player practices recognizing circling movement and immediately reacting with appropriate back take or truck entry. Start slow to develop recognition, then progress to live speed. Focus on using opponent's circling momentum to facilitate transitions rather than fighting against their movement.
+Top player attempts to circle toward backstep position around knee shield. Bottom player practices recognizing circling movement and immediately reacting with the appropriate underhook back take or electric chair entry. Start slow to develop recognition, then progress to live speed. Focus on using opponent's circling momentum to facilitate transitions rather than fighting against their movement.
 
 **Duration**: 3 minutes per round, 3-4 rounds per position
 
@@ -372,5 +375,7 @@ Start from flattened half guard or nearly-passed position. Bottom player must re
 
 
 </section>
+
+
 
 </main>

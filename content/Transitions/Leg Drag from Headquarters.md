@@ -10,6 +10,41 @@ description: "Master the leg drag pass from headquarters in BJJ. Step-by-step gu
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Leg Drag from Headquarters",
+  "description": "Master the leg drag pass from headquarters in BJJ. Step-by-step guide covering execution mechanics, defensive counters, and training drills for guard passing.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Leg Drag from Headquarters", "item": "https://bjjgraph.org/Transitions/Leg-Drag-from-Headquarters" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Leg Drag from Headquarters",
+  "description": "The leg drag from headquarters is a guard pass where the top player drags the opponent's controlled leg across their centerline and pins it, killing guard recovery and opening direct paths to side control and the back.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the leg drag pass from headquarters in BJJ. Step-by-step gu
 </div>
 
 <section id="overview" class="content-section">
+
+**The leg drag from headquarters is a guard pass where the top player drags the opponent's controlled leg across their centerline and pins it, killing guard recovery and opening direct paths to side control and the back.**
 
 The leg drag from headquarters is one of the highest-percentage guard passing techniques in modern Brazilian Jiu-Jitsu, functioning as a core component of systematic passing methodology. From the headquarters position, where the top player already controls one of the opponent's legs between their own, the leg drag extends this control by pulling the controlled leg across the opponent's centerline and pinning it to the mat. This creates a powerful angular passing position that simultaneously eliminates the opponent's ability to use their legs for guard retention while opening direct pathways to side control, back control, and submission attacks.
 
@@ -218,9 +255,9 @@ The leg drag from headquarters occupies a central position in the modern systema
 
 - [[Transitions/Body Lock Pass]] - Alternative passing method from headquarters that addresses different defensive reactions
 
-- [[Transitions/Leg Drag from DLR]] - Related leg drag entry from a different starting guard that shares similar finishing mechanics
-
 
 </section>
+
+
 
 </main>

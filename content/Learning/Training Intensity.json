@@ -1,7 +1,16 @@
 {
   "name": "Training Intensity",
   "description": "How to manage speed, energy, and intensity across BJJ training, competition, and self-defense. The 80% capacity principle and stress inoculation for combat sports.",
-  "tags": ["bjj", "training", "intensity", "competition-prep", "stress-inoculation", "energy-management", "pacing"],
+  "summary": "Training intensity in BJJ is the deliberate calibration of speed, effort, and resistance across drilling, sparring, and competition prep, anchored by the 80% principle and stress inoculation so technique holds up under adrenaline.",
+  "tags": [
+    "bjj",
+    "training",
+    "intensity",
+    "competition-prep",
+    "stress-inoculation",
+    "energy-management",
+    "pacing"
+  ],
   "category": "Training",
   "overview": "Your brain does not work the same way under adrenaline as it does when you are relaxed. The prefrontal cortex, the part responsible for decision-making, pattern recognition, and technique selection, degrades significantly under stress. Heart rate spikes above 145 BPM and your fine motor skills start to erode. Above 175 BPM and complex decision-making becomes unreliable. If you have never trained at intensity levels that produce these physiological responses, your first experience with them will be in competition or a self-defense situation, and that is the worst possible time to discover that your technique collapses under pressure.\n\nThe solution is not to train at maximum intensity all the time. That leads to injuries, burned-out training partners, and a gym culture built on survival rather than learning. The solution is the 80% principle: train at roughly 80% of your maximum capacity, reserving 20% for recovery, adjustment, and the unexpected. This is the sweet spot where your body experiences meaningful stress without crossing into recklessness. It is hard enough that your nervous system adapts to pressure, but controlled enough that you can still learn and correct mistakes in real time.\n\nDifferent training contexts demand different intensity calibrations. Drilling should be deliberate and controlled, around 40-60%. Positional sparring sits at 60-80%, where you apply real resistance within a defined scope. Live rolling ranges from 70-90% depending on goals. Competition preparation rounds should periodically reach 90-95% to simulate match conditions. The mistake most people make is training at the same flat intensity for everything, which means they either drill too hard and miss details, or roll too light and never build the neural pathways needed for real performance.",
   "key_takeaways": [
@@ -117,52 +126,57 @@
   ],
   "related_content": [
     {
-      "name": "Principles/Energy Conservation",
+      "name": "Energy Conservation",
       "content_type": "Principle",
       "relationship": "Energy conservation principles directly govern how you allocate effort across different intensity levels"
     },
     {
-      "name": "Principles/Positional Sparring",
+      "name": "Positional Sparring",
       "content_type": "Principle",
       "relationship": "Positional sparring is the primary format for training at controlled intensity with specific technical goals"
     },
     {
-      "name": "Principles/Flow Rolling",
+      "name": "Flow Rolling",
       "content_type": "Principle",
       "relationship": "Flow rolling represents the low end of the intensity spectrum, used for technique exploration and recovery sessions"
     },
     {
-      "name": "Principles/Competition Mindset",
+      "name": "Competition Mindset",
       "content_type": "Principle",
       "relationship": "Competition mindset requires training at match-level intensity to build neural pathways that function under adrenaline"
     },
     {
-      "name": "Systems/Competition Preparation System",
+      "name": "Competition Preparation System",
       "content_type": "System",
       "relationship": "Competition preparation requires systematic intensity escalation leading up to match day"
     },
     {
-      "name": "Principles/Timing and Rhythm",
-      "content_type": "Principle",
-      "relationship": "Timing and rhythm change at different intensity levels, requiring practice across the full spectrum"
+      "name": "Timing Windows",
+      "content_type": "Learning",
+      "relationship": "Recognizing and exploiting timing windows depends on having trained at the speeds where those windows actually appear, which only higher-intensity rolling provides"
     },
     {
-      "name": "Principles/Defensive Concepts",
+      "name": "Dealing with Pressure",
+      "content_type": "Principle",
+      "relationship": "Managing physical and psychological pressure is the core competency that stress-inoculation training is designed to build"
+    },
+    {
+      "name": "Defensive Concepts",
       "content_type": "Principle",
       "relationship": "Defensive techniques must be stress-tested at high intensity to verify they work under real pressure"
     },
     {
-      "name": "Learning/Training Partner Diversity",
+      "name": "Training Partner Diversity",
       "content_type": "Learning",
       "relationship": "Diverse training partners naturally create varied intensity levels that prepare you for unknown opponents"
     },
     {
-      "name": "Positions/Mount",
+      "name": "Mount",
       "content_type": "Position",
       "relationship": "Mount escapes are commonly the first techniques to fail under high-intensity pressure, making them key stress-test positions"
     },
     {
-      "name": "Positions/Back Control",
+      "name": "Back Control",
       "content_type": "Position",
       "relationship": "Defending back control under competition-pace attacks requires stress inoculation to prevent panic"
     }

@@ -10,10 +10,55 @@ description: "Master the Cross Collar Choke from High Mount in BJJ. Complete gui
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Cross Collar Choke from High Mount targets the Neck. Risk: Loss of consciousness from bilateral carotid compression. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Cross Collar Choke from High Mount",
+  "description": "Master the Cross Collar Choke from High Mount in BJJ. Complete guide to grip placement, finishing mechanics, defense strategies, and safety protocols.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Cross Collar Choke from High Mount", "item": "https://bjjgraph.org/Submissions/Cross-Collar-Choke-from-High-Mount" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Cross Collar Choke from High Mount",
+  "description": "The Cross Collar Choke from High Mount is a gi blood choke in which deep crossed collar grips and a scissoring wrist action compress both carotid arteries simultaneously, finishing from the bridge-proof, knees-to-armpits platform of high mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Cross Collar Choke from High Mount is a gi blood choke in which deep crossed collar grips and a scissoring wrist action compress both carotid arteries simultaneously, finishing from the bridge-proof, knees-to-armpits platform of high mount.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Neck</span>
+<span class="meta-chip">50% success</span>
+</div>
+
+> [!danger] Safety
+> Cross Collar Choke from High Mount targets the Neck. Primary risk: Loss of consciousness from bilateral carotid compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -24,58 +69,13 @@ description: "Master the Cross Collar Choke from High Mount in BJJ. Complete gui
 
 <section id="overview" class="content-section">
 
-The Cross Collar Choke from High Mount is one of the highest-percentage gi submissions in Brazilian Jiu-Jitsu, combining the extreme positional dominance of high mount with the mechanical efficiency of a bilateral carotid compression. By establishing deep cross-collar grips from the elevated platform of high mount, the attacker creates a choking mechanism that becomes progressively tighter as the opponent's defensive options are systematically eliminated. The high mount position places the attacker's hands at optimal collar height, reducing the grip-insertion distance compared to standard mount and making the initial setup significantly more accessible.
+Few mounted finishes are as feared in gi grappling as the high-mount cross collar choke. By climbing the knees toward the armpits before committing the hands, the attacker trades a small amount of base stability for an elevated platform that brings the hands to collar height while stripping away the opponent's ability to bridge. The choking mechanism becomes progressively tighter as defensive options are systematically eliminated, and the elevated position reduces the grip-insertion distance compared to standard mount, making the initial setup significantly more accessible.
 
 Strategically, this choke functions as the centerpiece of the high mount submission dilemma. When the opponent tucks their elbows to defend armbar threats, the collar becomes exposed for grip entry. Conversely, when they reach up to fight collar grips, their arms extend and armbars become available. This binary creates an unsolvable defensive problem at the core of high mount offense. Elite practitioners use the cross collar choke as a constant positional threat that forces defensive reactions, even when the finish itself is not the primary goal.
 
 The finishing mechanics rely on proper wrist alignment against the carotid arteries rather than raw squeezing force. The attacker's forearms create a scissoring action across both sides of the neck, compressing the carotid arteries bilaterally and restricting blood flow to the brain. Applied correctly, unconsciousness can occur within 5-8 seconds, making this choke both highly effective and requiring strict safety awareness during training. The choke is a blood choke, not an airway choke, and proper technique ensures the trachea remains protected while the vascular structures are compressed.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Neck
-**Starting Position**: [[Positions/Mount/High Mount]]
-**From Position**: [[Positions/Mount/High Mount]] (Top)
-**Success Rate**: 50%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Loss of consciousness from bilateral carotid compression | High | Immediate recovery if released promptly; prolonged compression beyond 10 seconds after unconsciousness risks brain injury |
-| Tracheal bruising or damage from improper wrist placement compressing the airway | Medium | 1-3 weeks for mild bruising; seek medical attention for persistent pain or difficulty swallowing |
-| Neck muscle strain from sustained defensive tension against choke pressure | Low | 3-7 days with rest and anti-inflammatory treatment |
-
-
-**Application Speed**: SLOW and progressive. Feed collar grips gradually, increase pressure steadily over 3-5 seconds. Never jerk or spike the choke. Monitor opponent's consciousness throughout application.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner, own body, or mat
-- Physical foot tap on mat or partner
-- Any unusual vocalization, gurgling, or distress sounds
-- Going limp or losing consciousness (treat as immediate tap)
-
-
-**Release Protocol**:
-1. Release immediately upon any tap signal without waiting for confirmation
-2. If opponent goes limp or unconscious, release immediately and place in recovery position
-3. If in doubt whether opponent tapped, release - position can always be re-established
-4. After release, check partner's responsiveness and breathing before continuing
-5. Allow partner 30-60 seconds to recover orientation after a deep choke application
-
-
-**Training Restrictions**:
-- Beginners should drill grip placement and positioning without applying finishing pressure until technique is refined
-- Never apply full choking pressure during positional drilling - reserve for live sparring with experienced partners only
-- Partners with any history of carotid artery issues, stroke, or cardiovascular conditions should avoid this technique entirely
-- Competition-level pressure should only be applied under instructor supervision
-
+**Starting Position**: [[Positions/Mount/High Mount]] · **From**: [[Positions/Mount/High Mount]] (Top)
 
 </section>
 
@@ -240,10 +240,9 @@ The finishing mechanics rely on proper wrist alignment against the carotid arter
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Belly Down Armbar]]
 - [[Submissions/Americana]]
@@ -251,33 +250,53 @@ The finishing mechanics rely on proper wrist alignment against the carotid arter
 - [[Transitions/Arm Triangle]]
 - [[Submissions/Ezekiel Choke]]
 - [[Submissions/Kimura]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Mount/High Mount]] - Primary starting position providing elevated platform for collar grip access
 - [[Positions/Mount]] - Parent position from which high mount is established before choke entry
 - [[Positions/Mount/S Mount]] - Alternative attacking platform offering similar collar access with different body mechanics
-- [[Submissions/Far Side Armbar]] - Primary chain submission when opponent extends arms to defend collar grips
-- [[Submissions/Americana]] - Alternative submission targeting opponents who tuck elbows tight against collar grips
 - [[Positions/Closed Guard]] - Common counter position when defender successfully disrupts mount during choke attempt
-- [[Submissions/Cross Collar Choke]] - Parent submission family applicable from multiple positions
+
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Loss of consciousness from bilateral carotid compression | High | Immediate recovery if released promptly; prolonged compression beyond 10 seconds after unconsciousness risks brain injury |
+| Tracheal bruising or damage from improper wrist placement compressing the airway | Medium | 1-3 weeks for mild bruising; seek medical attention for persistent pain or difficulty swallowing |
+| Neck muscle strain from sustained defensive tension against choke pressure | Low | 3-7 days with rest and anti-inflammatory treatment |
+
+
+**Application Speed**: SLOW and progressive. Feed collar grips gradually, increase pressure steadily over 3-5 seconds. Never jerk or spike the choke. Monitor opponent's consciousness throughout application.
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any distress signal)
+- Physical hand tap on partner, own body, or mat
+- Physical foot tap on mat or partner
+- Any unusual vocalization, gurgling, or distress sounds
+- Going limp or losing consciousness (treat as immediate tap)
+
+
+**Release Protocol**:
+1. Release immediately upon any tap signal without waiting for confirmation
+2. If opponent goes limp or unconscious, release immediately and place in recovery position
+3. If in doubt whether opponent tapped, release - position can always be re-established
+4. After release, check partner's responsiveness and breathing before continuing
+5. Allow partner 30-60 seconds to recover orientation after a deep choke application
+
+
+**Training Restrictions**:
+- Beginners should drill grip placement and positioning without applying finishing pressure until technique is refined
+- Never apply full choking pressure during positional drilling - reserve for live sparring with experienced partners only
+- Partners with any history of carotid artery issues, stroke, or cardiovascular conditions should avoid this technique entirely
+- Competition-level pressure should only be applied under instructor supervision
 
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Cross Collar Choke from High Mount leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

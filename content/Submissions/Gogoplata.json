@@ -1,6 +1,7 @@
 {
   "name": "Gogoplata",
   "description": "Master the Gogoplata shin choke in BJJ. Complete guide with safety protocols, rubber guard setup, and execution steps. Success rates: Beginner 15%, Intermediate 30%, Advanced 50%.",
+  "summary": "The Gogoplata is an advanced shin choke—most associated with the 10th Planet rubber guard system—in which the attacker threads a shin bone across the opponent's throat while pulling the head forward to compress the trachea.",
   "tags": [
     "bjj",
     "submission",
@@ -129,10 +130,6 @@
     {
       "name": "Guillotine Choke",
       "relationship": "Alternative neck attack available from complementary guard positions when head control is established"
-    },
-    {
-      "name": "Gogoplata",
-      "relationship": "The finishing transition submission executed from established Gogoplata Control position to complete the choke"
     },
     {
       "name": "Arm Triangle",

@@ -176,7 +176,7 @@ description: "Complete attacking guide for the short choke from body triangle. S
 
 Executing the short choke from body triangle requires patient lapel manipulation from the most mechanically secure back control variant in BJJ. The body triangle eliminates positional maintenance concerns entirely, freeing both hands for systematic grip work on the collar and lapel. Your tactical advantage is a dual pressure system where legs compress the ribcage while arms constrict the carotid arteries, forcing the defender into an unsolvable dilemma between breathing defense and choke defense. The lapel feed must be precise—work the material diagonally across the throat, seating it in the grooves alongside the trachea where the carotid arteries run closest to the surface. Timing the choke finish with a body triangle squeeze creates compounding pressure that dramatically shortens the window to unconsciousness, making this one of the most reliable gi finishes from back control.
 
-**From Position**: [[Positions/Back Control/Body Triangle]] (Bottom)
+**From Position**: [[Positions/Back Control/Body Triangle]] (Top)
 
 
 </section>

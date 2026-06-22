@@ -10,10 +10,55 @@ description: "Learn the Short Choke from Harness in BJJ. Master gi lapel choke m
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Short Choke from Harness targets the Carotid arteries. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Short Choke from Harness",
+  "description": "Learn the Short Choke from Harness in BJJ. Master gi lapel choke mechanics, grip threading sequences, and finishing details from seatbelt back control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Short Choke from Harness", "item": "https://bjjgraph.org/Submissions/Short-Choke-from-Harness" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Short Choke from Harness",
+  "description": "The Short Choke from Harness is a gi blood choke from back control where the attacker drives a forearm across the neck and feeds the hand into their own opposite sleeve, compressing both carotids without needing to clear the chin.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Short Choke from Harness is a gi blood choke from back control where the attacker drives a forearm across the neck and feeds the hand into their own opposite sleeve, compressing both carotids without needing to clear the chin.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries</span>
+<span class="meta-chip">58% success</span>
+</div>
+
+> [!danger] Safety
+> Short Choke from Harness targets the Carotid arteries. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -24,58 +69,13 @@ description: "Learn the Short Choke from Harness in BJJ. Master gi lapel choke m
 
 <section id="overview" class="content-section">
 
-The Short Choke from Harness is a gi-specific blood choke executed from back control with seatbelt grip. The attacker threads the choking arm across the opponent's neck and feeds the hand into their own opposite sleeve, creating a compact compression mechanism against the carotid arteries. Unlike the Rear Naked Choke, which requires threading the arm fully behind the head, the Short Choke uses the gi sleeve as an anchor point, making it effective even when the opponent maintains a strong chin tuck defense.
+Few back-control finishes solve the chin-tuck problem as cleanly as this attack. When an opponent buries their chin and fights the choking arm with both hands, the traditional Rear Naked Choke stalls because it must thread fully behind the head to lock the figure-four. By feeding the choking hand into the opposite gi sleeve instead of reaching for the far shoulder, the attacker converts the fabric into a structural anchor and shortens the lever, so the carotid compression survives even a committed defensive frame.
 
-This submission is particularly valuable when the opponent defends the traditional RNC by keeping their chin buried and both hands fighting the choking arm. The Short Choke bypasses this defense because the sleeve grip creates a shorter lever that can compress the neck without needing to get behind the chin. The choking pressure comes from the forearm driving across the throat while the sleeve connection prevents the arm from being stripped, creating a tight loop around the neck.
+This makes it most valuable precisely when the opponent has invested everything in classic RNC defense. The sleeve connection prevents the choking arm from being stripped no matter how hard they two-on-one the wrist, and because the forearm only needs to ride across the throat rather than circle the head, there is far less travel for the defender to interrupt. The result is a short, tight loop that compresses both carotid arteries while the attacker retains every layer of back control.
 
-From the Harness position specifically, the seatbelt grip provides the ideal starting configuration. The over-arm is already positioned near the neck, and the transition to the Short Choke requires minimal positional adjustment. The attacker maintains chest-to-back connection and hook control throughout, making this a low-risk, high-reward attack that preserves back control even if the finish is unsuccessful.
+From the Harness position specifically, the seatbelt grip provides the ideal starting configuration. The over-arm already sits near the neck, so the transition demands minimal positional adjustment, and chest-to-back connection plus hook control are maintained throughout. That preservation of position is what makes the Short Choke a low-risk, high-reward attack: a failed attempt almost always returns to dominant Harness control rather than surrendering the back.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries
-**Starting Position**: [[Positions/Harness]]
-**From Position**: [[Positions/Harness]] (Top)
-**Success Rate**: 58%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Carotid artery compression leading to loss of consciousness | High | Immediate recovery if released promptly; potential for confusion lasting 30-60 seconds |
-| Trachea compression if technique is misapplied | Medium | 1-3 days of throat soreness; seek medical attention if breathing difficulty persists |
-| Neck strain from rotational pressure | Low | 2-5 days with rest |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training
-
-**Tap Signals**:
-- Verbal tap or verbal signal
-- Physical hand tap on partner or mat
-- Physical foot tap on mat
-- Any distress signal including body going limp
-
-
-**Release Protocol**:
-1. Immediately release lapel grip and remove all pressure from neck
-2. Remove your weight from opponent's torso to allow breathing
-3. Check partner's consciousness and breathing status
-4. If partner is unconscious, elevate legs and monitor airway
-5. Never apply the choke again in the same training session if unconsciousness occurred
-
-
-**Training Restrictions**:
-- Never apply sudden jerking motions with the lapel
-- Never continue pressure after tap signal
-- Never practice on partners with neck injuries or medical conditions
-- Always ensure partner can tap with at least one hand
-- Never use competition speed during initial learning phases
-
+**Starting Position**: [[Positions/Harness]] · **From**: [[Positions/Harness]] (Top)
 
 </section>
 
@@ -219,40 +219,61 @@ From the Harness position specifically, the seatbelt grip provides the ideal sta
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Bow and Arrow Choke]]
 - [[Submissions/Ezekiel Choke]]
 - [[Submissions/Cross Collar Choke]]
 - [[Submissions/Rear Naked Choke]]
 - [[Transitions/Clock Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Harness]] - Starting position for this submission variant
 - [[Positions/Back Control]] - Parent position category with hooks established
-- [[Submissions/Bow and Arrow Choke]] - Alternative gi choke from back control
 - [[Positions/Turtle]] - Common entry point before establishing harness for choke
 - [[Positions/Gift Wrap]] - Transition option when opponent defends the choke
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Carotid artery compression leading to loss of consciousness | High | Immediate recovery if released promptly; potential for confusion lasting 30-60 seconds |
+| Trachea compression if technique is misapplied | Medium | 1-3 days of throat soreness; seek medical attention if breathing difficulty persists |
+| Neck strain from rotational pressure | Low | 2-5 days with rest |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training
+
+**Tap Signals**:
+- Verbal tap or verbal signal
+- Physical hand tap on partner or mat
+- Physical foot tap on mat
+- Any distress signal including body going limp
+
+
+**Release Protocol**:
+1. Immediately release lapel grip and remove all pressure from neck
+2. Remove your weight from opponent's torso to allow breathing
+3. Check partner's consciousness and breathing status
+4. If partner is unconscious, elevate legs and monitor airway
+5. Never apply the choke again in the same training session if unconsciousness occurred
+
+
+**Training Restrictions**:
+- Never apply sudden jerking motions with the lapel
+- Never continue pressure after tap signal
+- Never practice on partners with neck injuries or medical conditions
+- Always ensure partner can tap with at least one hand
+- Never use competition speed during initial learning phases
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Short Choke from Harness leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

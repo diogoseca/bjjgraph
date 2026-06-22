@@ -10,6 +10,41 @@ description: "Master the Omoplata from Lasso Guard in BJJ. Complete guide to con
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Omoplata from Lasso",
+  "description": "Master the Omoplata from Lasso Guard in BJJ. Complete guide to converting lasso control into shoulder lock position with sweep chains and transitions.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Omoplata from Lasso", "item": "https://bjjgraph.org/Transitions/Omoplata-from-Lasso" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Omoplata from Lasso",
+  "description": "Omoplata from Lasso is a gi guard transition in which the bottom player swings the lasso leg over the opponent's trapped shoulder, converting an established sleeve-and-shin arm trap directly into omoplata shoulder-lock control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Omoplata from Lasso Guard in BJJ. Complete guide to con
 </div>
 
 <section id="overview" class="content-section">
+
+**Omoplata from Lasso is a gi guard transition in which the bottom player swings the lasso leg over the opponent's trapped shoulder, converting an established sleeve-and-shin arm trap directly into omoplata shoulder-lock control.**
 
 The Omoplata from Lasso Guard is a high-percentage transition that exploits the arm isolation already established by the lasso configuration. When the bottom player has their shin threaded across the opponent's tricep with a tight sleeve grip, the opponent's shoulder is already partially compromised and their arm mobility restricted. By pivoting the hips and swinging the lasso leg over the opponent's shoulder, the bottom player converts the lasso control directly into a full omoplata configuration without the typical struggle of isolating the arm that plagues omoplata entries from other guard positions.
 
@@ -222,5 +259,7 @@ The Omoplata from Lasso Guard occupies a critical junction in the open guard att
 
 
 </section>
+
+
 
 </main>

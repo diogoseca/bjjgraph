@@ -10,9 +10,48 @@ description: "Master X-Guard in BJJ with comprehensive analysis covering sweeps,
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "X-Guard",
+  "description": "Master X-Guard in BJJ with comprehensive analysis covering sweeps, entries, and guard retention from both perspectives. Advanced position for all levels.",
+  "alternateName": ["X Guard"],
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "X-Guard", "item": "https://bjjgraph.org/Positions/X-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "X-Guard",
+  "description": "X-Guard is a bottom open-guard position where you trap one of a standing opponent's legs between both of your own in an X-shaped configuration, removing a posting base to power high-percentage elevation sweeps and leg-lock entries.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>X Guard</strong></p>
+</aside>
 <div class="role-links">
 
 [[X-Guard/Bottom|Play as Bottom]]
@@ -22,7 +61,9 @@ description: "Master X-Guard in BJJ with comprehensive analysis covering sweeps,
 
 <section id="overview" class="content-section">
 
-X-Guard is an advanced open guard position where the bottom practitioner entangles one of the opponent's legs using both of their own legs in an 'X' configuration, creating powerful leverage for sweeps and transitions. This position provides exceptional control over the opponent's balance and mobility by eliminating one of their posting bases while creating strong elevating forces. Developed and popularized by Marcelo Garcia, X-Guard has become a fundamental component of modern BJJ guard systems, particularly in no-gi competition where it offers high-percentage sweeps against standing opponents. The position serves as a critical junction point between traditional sweeping guards and modern leg entanglement systems, offering both offensive sweep opportunities and pathways to ashi garami positions. The mechanical advantage stems from creating a fulcrum underneath the opponent's center of gravity while simultaneously removing one of their two posting bases, resulting in a dramatic reduction in their base stability. The X-Guard configuration uses the inside leg to hook deeply behind the opponent's near knee while the outside leg crosses their hip line, forming the characteristic 'X' pattern. This dual-leg control system creates three simultaneous mechanical advantages: elevation through the inside hook, distance management through the outside leg frame, and rotational control through the combined angular pressure of both legs working in opposition. The position fundamentally changes the dynamics of a standing-versus-guard engagement because the bottom player's legs are stronger than any grip-based retention system. Unlike guards that rely on sleeve, collar, or pant grips for control, X-Guard derives its power entirely from structural leg placement and hip positioning. This makes it uniquely resistant to grip-breaking strategies and equally effective in gi and no-gi competition. The guard integrates naturally with Single Leg X-Guard, Reverse X-Guard, and Butterfly Guard, creating an interconnected system where defensive reactions to one variation expose vulnerabilities to another. For advanced practitioners, X-Guard represents more than just a sweeping position. It serves as an entry platform to modern leg entanglement systems including ashi garami, honey hole, and outside ashi positions. When the opponent attempts to sit back or disengage from sweeps, they often expose their legs to entanglement entries that lead directly to heel hooks, kneebars, and other lower body submissions. This dual-threat nature, combining sweeps with leg lock entries, makes X-Guard one of the most strategically valuable open guard positions in contemporary grappling.
+**X-Guard is a bottom open-guard position where you trap one of a standing opponent's legs between both of your own in an X-shaped configuration, removing a posting base to power high-percentage elevation sweeps and leg-lock entries.**
+
+Few bottom positions reshape a standing exchange as decisively as X-Guard, which turns the bottom player's legs into the strongest control structure on the mat. This position provides exceptional control over the opponent's balance and mobility by eliminating one of their posting bases while creating strong elevating forces. Developed and popularized by Marcelo Garcia, X-Guard has become a fundamental component of modern BJJ guard systems, particularly in no-gi competition where it offers high-percentage sweeps against standing opponents. The position serves as a critical junction point between traditional sweeping guards and modern leg entanglement systems, offering both offensive sweep opportunities and pathways to ashi garami positions. The mechanical advantage stems from creating a fulcrum underneath the opponent's center of gravity while simultaneously removing one of their two posting bases, resulting in a dramatic reduction in their base stability. The X-Guard configuration uses the inside leg to hook deeply behind the opponent's near knee while the outside leg crosses their hip line, forming the characteristic 'X' pattern. This dual-leg control system creates three simultaneous mechanical advantages: elevation through the inside hook, distance management through the outside leg frame, and rotational control through the combined angular pressure of both legs working in opposition. The position fundamentally changes the dynamics of a standing-versus-guard engagement because the bottom player's legs are stronger than any grip-based retention system. Unlike guards that rely on sleeve, collar, or pant grips for control, X-Guard derives its power entirely from structural leg placement and hip positioning. This makes it uniquely resistant to grip-breaking strategies and equally effective in gi and no-gi competition. The guard integrates naturally with Single Leg X-Guard, Reverse X-Guard, and Butterfly Guard, creating an interconnected system where defensive reactions to one variation expose vulnerabilities to another. For advanced practitioners, X-Guard represents more than just a sweeping position. It serves as an entry platform to modern leg entanglement systems including ashi garami, honey hole, and outside ashi positions. When the opponent attempts to sit back or disengage from sweeps, they often expose their legs to entanglement entries that lead directly to heel hooks, kneebars, and other lower body submissions. This dual-threat nature, combining sweeps with leg lock entries, makes X-Guard one of the most strategically valuable open guard positions in contemporary grappling.
 
 </section>
 
@@ -93,11 +134,11 @@ X-Guard is an advanced open guard position where the bottom practitioner entangl
 ### Available Transitions
 
 
-- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (37% of attempts)
+- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (35% of attempts)
 
-- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (16% of attempts)
+- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (15% of attempts)
 
-- **[[Transitions/X-Guard to Ashi Garami/Attacker|X-Guard to Ashi Garami]]** (14% of attempts)
+- **[[Transitions/X-Guard to Ashi Garami/Attacker|X-Guard to Ashi Garami]]** (13% of attempts)
 
 - **[[Transitions/Technical Stand Up to Single Leg/Attacker|Technical Stand Up to Single Leg]]** (7% of attempts)
 
@@ -105,11 +146,13 @@ X-Guard is an advanced open guard position where the bottom practitioner entangl
 
 - **[[Transitions/Butterfly Guard to X-Guard/Attacker|Butterfly Guard to X-Guard]]** (6% of attempts)
 
-- **[[Transitions/Tomahawk Sweep/Attacker|Tomahawk Sweep]]** (11% of attempts)
+- **[[Transitions/Tomahawk Sweep/Attacker|Tomahawk Sweep]]** (10% of attempts)
 
 - **[[Transitions/X-Guard Technical Stand Up/Attacker|X-Guard Technical Stand Up]]** (2% of attempts)
 
-- **[[Transitions/X-Guard to Single Leg X/Attacker|X-Guard to Single Leg X]]** (1% of attempts)
+- **[[Transitions/X-Guard to Single Leg X/Attacker|X-Guard to Single Leg X]]** (2% of attempts)
+
+- **[[Ankle Lock from X-Guard/Attacker|Ankle Lock from X-Guard]]** (4% of attempts)
 
 
 ### Common Mistakes
@@ -170,27 +213,27 @@ X-Guard is an advanced open guard position where the bottom practitioner entangl
 ### Available Transitions
 
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (61% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (16% of attempts)
 
-- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (6% of attempts)
+- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (9% of attempts)
 
-- **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (4% of attempts)
+- **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (7% of attempts)
 
-- **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (2% of attempts)
+- **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (5% of attempts)
 
-- **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (6% of attempts)
+- **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (9% of attempts)
 
-- **[[Transitions/Back Step/Attacker|Back Step]]** (2% of attempts)
+- **[[Transitions/Back Step/Attacker|Back Step]]** (5% of attempts)
 
-- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (6% of attempts)
+- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (8% of attempts)
 
-- **[[Transitions/Knee Pin from X-Guard/Attacker|Knee Pin from X-Guard]]** (0% of attempts)
+- **[[Transitions/Knee Pin from X-Guard/Attacker|Knee Pin from X-Guard]]** (7% of attempts)
 
-- **[[Transitions/Step Over from X-Guard/Attacker|Step Over from X-Guard]]** (0% of attempts)
+- **[[Transitions/Step Over from X-Guard/Attacker|Step Over from X-Guard]]** (6% of attempts)
 
-- **[[Transitions/Smash Pass from X-Guard/Attacker|Smash Pass from X-Guard]]** (12% of attempts)
+- **[[Transitions/Smash Pass from X-Guard/Attacker|Smash Pass from X-Guard]]** (18% of attempts)
 
-- **[[Transitions/Standing Escape from X-Guard/Attacker|Standing Escape from X-Guard]]** (1% of attempts)
+- **[[Transitions/Standing Escape from X-Guard/Attacker|Standing Escape from X-Guard]]** (10% of attempts)
 
 
 ### Common Mistakes
@@ -239,6 +282,25 @@ X-Guard is an advanced open guard position where the bottom practitioner entangl
 
 - **[[Positions/De La Riva Guard]]** - Alternative guard sharing similar leg control concepts
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Keenan Cornelius Lapel Guard System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Sweep destination from several lapel guard attacking sequences</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/IBJJF-Strategy-Guide" data-cta="related-system-card" data-system-slug="systems/ibjjf-strategy-guide" data-system-name="IBJJF Strategy Guide" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">IBJJF Strategy Guide</span><span class="system-card__unlocks-badge">Unlocks 27 techniques</span><span class="system-card__blurb">Sweeping guard position effective for 2-point scoring sequences</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Garry-Tonon-Leg-Lock-to-Back-System" data-cta="related-system-card" data-system-slug="systems/garry-tonon-leg-lock-to-back-system" data-system-name="Garry Tonon Leg Lock to Back System" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Garry Tonon Leg Lock to Back System</span><span class="system-card__unlocks-badge">Unlocks 26 techniques</span><span class="system-card__blurb">Transitional position connecting sweeps, leg attacks, and back taking sequences</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Caio-Terra-Guard-Retention-System" data-cta="related-system-card" data-system-slug="systems/caio-terra-guard-retention-system" data-system-name="Caio Terra Guard Retention System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Caio Terra Guard Retention System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Technical guard position requiring retention when hooks are compromised</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Marcelo-Garcia-Guillotine-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-guillotine-system" data-system-name="Marcelo Garcia Guillotine System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Marcelo Garcia Guillotine System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Connected through Marcelo Garcia&#x27;s integrated guard system</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Marcelo-Garcia-X-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-x-guard-system" data-system-name="Marcelo Garcia X-Guard System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Marcelo Garcia X-Guard System</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Primary position of the system - all techniques build from this foundation</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Berimbolo" data-cta="related-system-card" data-system-slug="systems/berimbolo" data-system-name="Berimbolo" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Berimbolo</span><span class="system-card__unlocks-badge">Unlocks 21 techniques</span><span class="system-card__blurb">Alternative position to chain with Berimbolo - if opponent sits back to counter Berimbolo, transition to X-Guard sweep</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Competition-Preparation-System" data-cta="related-system-card" data-system-slug="systems/competition-preparation-system" data-system-name="Competition Preparation System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Competition Preparation System</span><span class="system-card__unlocks-badge">Unlocks 21 techniques</span><span class="system-card__blurb">Offensive guard position useful for sweep-oriented game plans</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Dynamic-Guard-System" data-cta="related-system-card" data-system-slug="systems/dynamic-guard-system" data-system-name="Dynamic Guard System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Dynamic Guard System</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Sweep-focused position integrated into switching sequences</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Marcelo-Garcia-Butterfly-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-butterfly-guard-system" data-system-name="Marcelo Garcia Butterfly Guard System" data-member-count="18"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Marcelo Garcia Butterfly Guard System</span><span class="system-card__unlocks-badge">Unlocks 18 techniques</span><span class="system-card__blurb">Related guard position sharing similar sweeping mechanics</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

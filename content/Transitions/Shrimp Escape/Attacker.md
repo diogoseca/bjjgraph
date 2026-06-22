@@ -233,8 +233,8 @@ The Shrimp Escape, also known as the hip escape, is one of the most fundamental 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Closed Guard]] | 50% |
-| Success | [[Positions/Half Guard/Knee Shield Half Guard]] | 20% |
+| Success | [[Positions/Half Guard/Knee Shield Half Guard]] | 45% |
+| Success | [[Positions/Closed Guard]] | 25% |
 | Failure | [[Positions/Side Control]] | 20% |
 | Counter | [[Positions/Mount]] | 10% |
 
@@ -329,6 +329,18 @@ Positional sparring from side control with full resistance. Bottom player's goal
 <p class="section-subtitle">What are the safety concerns for Shrimp Escape?</p>
 
 When practicing shrimp escapes, controlled application is essential to develop proper mechanics safely. Begin with cooperative partners who allow the technique to complete, gradually building up resistance over weeks of training. Ensure adequate mat space as shrimping can move you across the mat quickly—be aware of mat boundaries and other training pairs to avoid collisions. When drilling, the top partner should allow the escape to complete and avoid sudden weight drops or aggressive pressure that could injure the bottom player's ribs or prevent proper breathing. Build up explosiveness gradually, starting with slow technical repetitions before adding speed and power. The bridging motion should be controlled to protect your neck and spine—avoid over-bridging or jerky movements. As bottom player, if you cannot breathe properly under pressure, tap immediately and reset. As top partner, check in regularly with your partner about pressure levels, especially during the learning phase. Practice on proper BJJ mats with adequate padding to protect hips and shoulders during the repetitive movements.
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Caio-Terra-Guard-Retention-System" data-cta="related-system-card" data-system-slug="systems/caio-terra-guard-retention-system" data-system-name="Caio Terra Guard Retention System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Caio Terra Guard Retention System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Primary hip movement technique used throughout retention system</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Back-Defense-Protocol" data-cta="related-system-card" data-system-slug="systems/back-defense-protocol" data-system-name="Back Defense Protocol" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Back Defense Protocol</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Core movement pattern used in hip escape sequences</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Defensive-Prioritization-Framework" data-cta="related-system-card" data-system-slug="systems/defensive-prioritization-framework" data-system-name="Defensive Prioritization Framework" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Defensive Prioritization Framework</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Fundamental movement creating space for higher-level escapes in the framework</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

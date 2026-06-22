@@ -10,6 +10,41 @@ description: "Master the Sweep from Diamond Guard in BJJ. Learn to leverage the 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Sweep from Diamond Guard",
+  "description": "Master the Sweep from Diamond Guard in BJJ. Learn to leverage the diamond guard structure to off-balance opponents and achieve mount position.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Sweep from Diamond Guard", "item": "https://bjjgraph.org/Transitions/Sweep-from-Diamond-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Sweep from Diamond Guard",
+  "description": "The Sweep from Diamond Guard is a closed-guard reversal that uses the overhook-and-head-control diamond frame to off-balance an opponent over their trapped-arm side and land in mount, where they cannot post to stop the rotation.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Sweep from Diamond Guard in BJJ. Learn to leverage the 
 
 <section id="overview" class="content-section">
 
-The Sweep from Diamond Guard exploits the structural advantages of the diamond frame — the overhook combined with head control — to create a high-percentage sweeping opportunity toward mount. Unlike standard closed guard sweeps that require isolating an opponent's posting arm, the diamond guard configuration already eliminates one posting option through the deep overhook, making the sweep mechanically simpler and more reliable against resisting opponents.
+**The Sweep from Diamond Guard is a closed-guard reversal that uses the overhook-and-head-control diamond frame to off-balance an opponent over their trapped-arm side and land in mount, where they cannot post to stop the rotation.**
+
+Strategically, this sweep is the pressure half of the diamond guard's submit-or-sweep dilemma rather than a standalone reversal. Unlike standard closed guard sweeps that require isolating an opponent's posting arm, the diamond guard configuration already eliminates one posting option through the deep overhook, making the sweep mechanically simpler and more reliable against resisting opponents.
 
 The sweep operates on a fundamental principle: when an opponent's posture is broken within the diamond frame, their weight is driven forward and their base is compromised on the overhook side. By angling the hips and executing an explosive sit-up motion toward that compromised side, the sweeper leverages the existing frame to redirect the opponent's forward momentum into a rotation that ends in mount. The opponent cannot post their trapped arm to prevent the sweep, and the head control prevents them from posturing away from the sweeping direction.
 
@@ -208,10 +245,6 @@ The Sweep from Diamond Guard serves as the positional pressure component within 
 
 - [[Positions/Overhook Guard]] - Related guard sharing overhook control mechanics applicable to sweep setups
 
-- [[Transitions/Overhook Control Sweep]] - Related sweep technique using overhook as primary control for off-balancing
-
-- [[Transitions/Overhook Guard Sweep]] - Alternative sweep from overhook position with similar mechanical principles
-
 - [[Positions/Kimura Trap]] - Chain attack option accessible when opponent posts free arm to defend the sweep
 
 - [[Positions/Rubber Guard]] - Related guard system using head control concepts that inform sweep timing
@@ -220,5 +253,7 @@ The Sweep from Diamond Guard serves as the positional pressure component within 
 
 
 </section>
+
+
 
 </main>

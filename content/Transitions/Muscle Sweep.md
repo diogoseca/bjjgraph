@@ -10,6 +10,41 @@ description: "Master the Muscle Sweep from Closed Guard to Mount. Learn setup, g
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Muscle Sweep",
+  "description": "Master the Muscle Sweep from Closed Guard to Mount. Learn setup, grip mechanics, hip angle creation, explosive timing, and defensive counter-strategies.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Muscle Sweep", "item": "https://bjjgraph.org/Transitions/Muscle-Sweep" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Muscle Sweep",
+  "description": "The Muscle Sweep is a fundamental Closed Guard sweep where the bottom player breaks the opponent's posture, controls the collar and sleeve, then drives them over with coordinated hip elevation and an upper-body pull to land in Mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Muscle Sweep from Closed Guard to Mount. Learn setup, g
 </div>
 
 <section id="overview" class="content-section">
+
+**The Muscle Sweep is a fundamental Closed Guard sweep where the bottom player breaks the opponent's posture, controls the collar and sleeve, then drives them over with coordinated hip elevation and an upper-body pull to land in Mount.**
 
 The Muscle Sweep is a fundamental attacking technique from Closed Guard that exploits the opponent's forward pressure and broken posture. Unlike more technical sweeps that rely on precise leverage points, the Muscle Sweep uses a combination of hip movement, upper body control, and explosive power to drive the opponent backward and sweep them to Mount position. This sweep is particularly effective when the opponent is defending other attacks and their weight is distributed forward, or when they attempt to posture up from a broken-down position. The technique requires good timing and the ability to coordinate upper body pulling with lower body hip elevation. While often considered a 'strength-based' technique by its name, proper execution relies more on timing the opponent's weight distribution and creating the correct angle of attack. The Muscle Sweep serves as an excellent foundational sweep for beginners while remaining effective at advanced levels when combined with other guard attacks.
 
@@ -213,5 +250,7 @@ The Muscle Sweep serves as a fundamental component of the Closed Guard Bottom at
 
 
 </section>
+
+
 
 </main>

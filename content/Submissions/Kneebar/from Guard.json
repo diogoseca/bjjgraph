@@ -1,5 +1,6 @@
 {
   "name": "Kneebar from Guard",
+  "summary": "Kneebar from Guard is a bottom-position leg lock where the guard player pivots perpendicular to an isolated leg, traps it with a figure-four, and hyperextends the knee by driving the hips upward while pinning the heel tight to the chest.",
   "description": "Master Kneebar from Guard in BJJ. Complete guide with safety protocols, setup, execution. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.",
   "tags": [
     "bjj",
@@ -171,7 +172,7 @@
     }
   ],
   "attacker": {
-    "name": "from Guard Attacker",
+    "name": "Kneebar from Guard Attacker",
     "description": "How to execute Kneebar from Guard in BJJ. Attacking perspective with setup, execution, and finishing mechanics.",
     "overview": "The Kneebar from Guard represents a powerful attacking option from bottom positions, allowing the guard player to transition from defensive positioning to an immediate submission threat. This technique targets the knee joint through hyperextension, creating mechanical stress on the posterior cruciate ligament and collateral ligaments. The kneebar from guard is particularly effective because it capitalizes on the opponent's forward pressure and weight distribution, using their momentum against them. The technique can be executed from multiple guard variations including closed guard, butterfly guard, open guard, and De La Riva guard, each offering unique entry mechanics and control positions. Modern leg lock systems have elevated the kneebar from guard to a fundamental attacking position, with practitioners developing sophisticated entries that blend seamlessly with sweeps and back takes. The position requires precise timing, hip positioning, and leg control to prevent escape while maintaining offensive pressure. When executed correctly, the kneebar from guard creates an inescapable submission that forces immediate tap or results in serious injury.",
     "key_principles": [
@@ -384,7 +385,7 @@
     ]
   },
   "defender": {
-    "name": "from Guard Defender",
+    "name": "Kneebar from Guard Defender",
     "description": "How to defend against Kneebar from Guard in BJJ. Recognition, escape paths, and defensive strategies.",
     "overview": "Defending the kneebar from guard requires early recognition and immediate structural responses to prevent your opponent from achieving the three critical control points: perpendicular hip angle, locked leg triangle, and tight heel control. As the top player in this scenario, your primary advantage is posture and the ability to use your free leg and upper body to disrupt the attacker's positional progression. The window for successful defense narrows dramatically once the attacker establishes a locked figure-four leg triangle on your trapped thigh, making early intervention essential.\n\nThe most dangerous phase occurs during the transition from guard to kneebar position, when your opponent pivots their hips perpendicular and begins threading their leg across your thigh. Your defensive priorities follow a clear hierarchy: first, prevent the perpendicular pivot by maintaining forward pressure and posture; second, if the pivot occurs, immediately fight to prevent leg isolation by grabbing your own knee or shin; third, if leg isolation is achieved, sit up aggressively to face the attacker and strip their heel control before they can lock the finishing position. Understanding this hierarchy allows you to deploy the correct defense at each stage rather than panicking or applying the wrong counter at the wrong time.\n\nCritical safety awareness is paramount when defending kneebars. If your opponent achieves full control with tight heel grip and begins hip extension, you must tap immediately rather than attempting a late escape. The knee joint has minimal tolerance for hyperextension, and the difference between a controlled tap and a catastrophic ligament tear can be less than one second of delayed response. Never attempt explosive rotational escapes once finishing pressure has begun, as this adds torque that dramatically increases injury risk to your own knee.",
     "key_principles": [

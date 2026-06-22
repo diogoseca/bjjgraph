@@ -336,4 +336,6 @@ The standing switch defense involves dynamic movement with both practitioners on
 
 </section>
 
+
+
 </main>

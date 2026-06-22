@@ -10,6 +10,41 @@ description: "Master the Pressure Pass from Leg Knot in BJJ. Systematic guide to
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Pressure Pass from Leg Knot",
+  "description": "Master the Pressure Pass from Leg Knot in BJJ. Systematic guide to disengaging leg entanglements and advancing to half guard through pressure-based passing.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Pressure Pass from Leg Knot", "item": "https://bjjgraph.org/Transitions/Pressure-Pass-from-Leg-Knot" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Pressure Pass from Leg Knot",
+  "description": "Pressure Pass from Leg Knot is a top-side guard pass in which the entangled player abandons leg-lock exchanges, drives a crossface and forward chest weight, then methodically extracts the trapped leg to advance into half guard or side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Pressure Pass from Leg Knot in BJJ. Systematic guide to
 </div>
 
 <section id="overview" class="content-section">
+
+**Pressure Pass from Leg Knot is a top-side guard pass in which the entangled player abandons leg-lock exchanges, drives a crossface and forward chest weight, then methodically extracts the trapped leg to advance into half guard or side control.**
 
 The Pressure Pass from Leg Knot is a strategic positional advancement technique where the top player disengages from the leg entanglement exchange and uses superior pressure and body mechanics to pass the guard. Rather than continuing to battle for heel hooks, toe holds, or kneebars in the entangled position, the top player commits to establishing upper body control and systematically extracting their legs to achieve a dominant passing position. This technique represents a critical decision point in modern leg lock warfare, acknowledging that positional advancement may offer more strategic value than continuing a contested entanglement.
 
@@ -219,5 +256,7 @@ The Pressure Pass from Leg Knot occupies a critical strategic niche at the inter
 
 
 </section>
+
+
 
 </main>

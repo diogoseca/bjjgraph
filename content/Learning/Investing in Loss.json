@@ -1,7 +1,16 @@
 {
   "name": "Investing in Loss",
   "description": "The psychology of being behind in BJJ competition and how to use loss as a systematic improvement tool. Turning bad positions into training advantages.",
-  "tags": ["bjj", "competition", "mindset", "loss", "psychology", "improvement", "resilience"],
+  "summary": "Investing in loss is the deliberate practice of starting from disadvantaged positions and treating every defeat as diagnostic data, accepting short-term tapping in training to systematically eliminate weaknesses and build a game with no catastrophic gaps.",
+  "tags": [
+    "bjj",
+    "competition",
+    "mindset",
+    "loss",
+    "psychology",
+    "improvement",
+    "resilience"
+  ],
   "category": "Competition",
   "overview": "Nobody likes losing. But the practitioner who treats every loss as a data point improves faster than the one who treats it as a failure. When you get swept, passed, or submitted, you have just received free information about a gap in your game. The question is whether you are willing to look at that data honestly or whether your ego will file it under 'bad day' and move on.\n\nThe concept of investing in loss goes further than just accepting defeat gracefully. It means deliberately putting yourself in bad positions during training to develop the skills that only emerge under pressure. The best competitors in the world spend significant training time starting from bottom mount, from inside submissions, from positions where they are already losing. They do this because escaping from bad positions is a skill that can only be built by actually being in bad positions. You cannot develop a reliable mount escape if you never let anyone mount you.\n\nThis is fundamentally different from being lazy or giving up position carelessly. Investing in loss is intentional and strategic. You choose to start from disadvantage. You choose to play your weak side. You choose to engage with the scramble you usually avoid. The investment is the discomfort and the temporary increase in getting tapped. The return is a game that has no catastrophic weak points because you have systematically tested and reinforced every vulnerable area.",
   "key_takeaways": [
@@ -113,67 +122,67 @@
   ],
   "related_content": [
     {
-      "name": "Principles/Competition Mindset",
+      "name": "Competition Mindset",
       "content_type": "Principle",
       "relationship": "Competition mindset must include the ability to perform effectively when behind on points or in bad positions"
     },
     {
-      "name": "Principles/Escape Fundamentals",
+      "name": "Escape Fundamentals",
       "content_type": "Principle",
       "relationship": "Escape skills are the primary return on investment when you practice from bad positions"
     },
     {
-      "name": "Principles/Positional Hierarchy",
+      "name": "Positional Hierarchy",
       "content_type": "Principle",
       "relationship": "Understanding the positional hierarchy tells you exactly how far behind you are and what recovery path to take"
     },
     {
-      "name": "Principles/Positional Sparring",
+      "name": "Positional Sparring",
       "content_type": "Principle",
       "relationship": "Positional sparring is the ideal format for investing in loss because you can repeatedly start from bad positions"
     },
     {
-      "name": "Positions/Mount",
+      "name": "Mount",
       "content_type": "Position",
       "relationship": "One of the most common positions where practitioners avoid training from the bottom, creating a dangerous gap"
     },
     {
-      "name": "Positions/Back Control",
+      "name": "Back Control",
       "content_type": "Position",
       "relationship": "Back control defense is critical and can only be developed by spending time in the worst defensive position in BJJ"
     },
     {
-      "name": "Positions/Side Control",
+      "name": "Side Control",
       "content_type": "Position",
       "relationship": "Side control escapes require practice under real pressure and are a common weak point for practitioners who avoid bottom positions"
     },
     {
-      "name": "Systems/Competition Preparation System",
+      "name": "Competition Preparation System",
       "content_type": "System",
       "relationship": "Competition preparation must include training from disadvantaged positions to prepare for worst-case scenarios"
     },
     {
-      "name": "Systems/Mental Game Framework",
+      "name": "Mental Game Framework",
       "content_type": "System",
       "relationship": "The mental framework for handling loss and using it constructively is central to long-term competitive development"
     },
     {
-      "name": "Principles/Defensive Concepts",
+      "name": "Defensive Concepts",
       "content_type": "Principle",
       "relationship": "Defensive concepts are stress-tested and refined through the practice of investing in loss"
     },
     {
-      "name": "Learning/Training Intensity",
+      "name": "Training Intensity",
       "content_type": "Learning",
       "relationship": "Training at appropriate intensity while in bad positions is essential for realistic skill development"
     },
     {
-      "name": "Learning/Defend With Purpose",
+      "name": "Defend With Purpose",
       "content_type": "Learning",
       "relationship": "Investing in loss creates opportunities to practice purposeful defense rather than passive survival"
     },
     {
-      "name": "Positions/Turtle",
+      "name": "Turtle",
       "content_type": "Position",
       "relationship": "Turtle is a common recovery position that practitioners must practice defending and escaping through investing in loss"
     }

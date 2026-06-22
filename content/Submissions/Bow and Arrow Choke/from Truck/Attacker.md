@@ -40,26 +40,26 @@ description: "Attack the Bow and Arrow Choke from Truck. Collar grip setup from 
     },
     {
       "@type": "HowToStep",
-      "name": "Control the far leg or establish second anchor point",
-      "text": "With your free hand, reach across and grab the opponent's far pants leg at the knee or shin. If the leg entanglement is deep enough, your entangled legs serve as the second anchor. The goal is to establish two opposing force vectors: collar pulling the neck toward you, and the leg or entanglement pulling or bracing the opponent's body away from you.",
+      "name": "Release the figure-four and climb to back control",
+      "text": "With the collar locked, release the truck figure-four and climb your hips up the opponent's back, threading both hooks in and locking a seatbelt over the shoulder and under the armpit. The truck only opened the door; the bow and arrow is a back-control finish, so you must abandon the perpendicular entanglement to reach genuine back mount with your chest sealed to their upper back. Keep the collar grip the entire climb so the choke stays primed as you arrive on the back.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Begin extension and create the bow shape",
-      "text": "Extend your entangled legs while pulling the collar grip toward your hip. The opponent's body should begin stretching between the collar pull and the leg anchor, creating the characteristic bow-and-arrow shape. Use your boot leg as a brace against their hip to amplify the extension force. Your body may slide slightly toward the mat as you extend, which increases the leverage angle.",
+      "name": "Take the far-leg hand grip and create the bow shape",
+      "text": "From back control, reach your free hand down and grip the opponent's far pant leg or hip: this hand grip is the bow's far-leg anchor, supplying the lower-body force vector that the truck entanglement never could. Fall back to the choking-arm side, swing your hips out, and stretch your torso away while pulling the collar toward your hip and driving the hand-gripped far leg the opposite direction. The opponent's body stretches between the collar pull and the hand-gripped leg, creating the characteristic bow-and-arrow shape.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Apply progressive finishing pressure",
-      "text": "With the bow shape established, progressively tighten the choke by pulling the collar toward your chest while extending legs and arching slightly. The two-directional force compresses the collar deep into the carotid arteries. Apply pressure over 3-5 seconds, monitoring for tap signals. Squeeze elbows toward ribs and extend hips to maximize the pull. Release immediately upon any tap indication.",
+      "text": "With the bow shape established from back control, progressively tighten the choke by pulling the collar toward your chest while stretching your torso back and arching slightly. The two-directional force, collar toward you and the hand-gripped far leg away, compresses the collar deep into the carotid arteries. Apply pressure over 3-5 seconds, monitoring for tap signals. Squeeze elbows toward ribs and arch the spine to maximize the pull. Release immediately upon any tap indication.",
       "position": 6
     },
     {
       "@type": "HowToStep",
       "name": "Complete finish or transition to alternative attack",
-      "text": "If the opponent taps, immediately release all pressure and grips. If they survive by tucking chin or fighting collar, maintain position and regrip deeper using caterpillar motion. If the choke stalls completely, transition to calf slicer by redirecting leg extension pressure to the trapped knee, or release collar and attack the twister using the upper body access you have established.",
+      "text": "If the opponent taps, immediately release all pressure and grips. If they survive by tucking chin or fighting collar, maintain back control and regrip the collar deeper using caterpillar motion. If the choke stalls completely, you still own the back: switch to a rear naked choke with the same seatbelt, or re-establish the truck to threaten the calf slicer and twister again. Do not surrender back position to force a stalled bow.",
       "position": 7
     }
   ],
@@ -87,7 +87,7 @@ description: "Attack the Bow and Arrow Choke from Truck. Collar grip setup from 
       "name": "How does the Truck position's perpendicular angle change the collar grip setup compared to standard back control?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The Truck's perpendicular alignment means the attacker is already beside the opponent rather than behind them. This provides more direct access to the far collar because the hand does not need to reach around from behind. The perpendicular angle also means the natural pulling direction of the collar grip aligns with the body's position, requiring less repositioning to reach the finishing angle."
+        "text": "The Truck's perpendicular alignment means the attacker is beside the opponent with one leg trapped, giving early access to the far collar before back control is fully established. However, the perpendicular angle cannot finish the bow on its own: the attacker must release the figure-four and climb up to genuine back control with a seatbelt and hooks to reach the finishing geometry. The advantage is timing, feeding the collar early, not eliminating the climb to the back."
       }
     },
     {
@@ -103,7 +103,7 @@ description: "Attack the Bow and Arrow Choke from Truck. Collar grip setup from 
       "name": "What is the point of no escape for the defender once the Bow and Arrow from Truck is fully engaged?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The point of no escape occurs when the collar grip is locked deep past the chin with the wrist blade across both carotids AND the leg extension or entanglement anchor is established creating opposing force. Once both vectors are active and the attacker begins extension, the mechanical advantage is overwhelming. The defender must address either the collar grip or the leg control before both are simultaneously locked."
+        "text": "The point of no escape occurs when the collar grip is locked deep past the chin with the wrist blade across both carotids AND the attacker has climbed to genuine back control with a seatbelt and hooks and taken a hand grip on the far leg or hip. Once both vectors are active and the attacker begins the back-stretch, the mechanical advantage is overwhelming. The defender must address either the collar grip or the climb to the back before both are simultaneously locked."
       }
     },
     {
@@ -180,7 +180,7 @@ description: "Attack the Bow and Arrow Choke from Truck. Collar grip setup from 
 
 <section id="overview" class="content-section">
 
-Attacking with the Bow and Arrow Choke from the Truck requires understanding that the perpendicular angle and leg entanglement already provide most of the mechanical framework needed for the choke. Unlike the back control variation, you do not need to transition to a side angle because the truck gives you that geometry naturally. Your primary challenge is establishing the deep collar grip while maintaining boot pressure and leg entanglement. The key insight is that the truck's existing control points serve double duty: the legs that maintain truck position also create the extension force for the choke finish. Patient collar establishment combined with the inherent leverage of the truck position makes this one of the most mechanically efficient bow and arrow entries when properly executed.
+Attacking with the Bow and Arrow Choke from the Truck requires understanding that the truck is the entry, not the finishing position. The perpendicular figure-four traps only one leg in the wrong plane, so you cannot complete the bow from inside it; you must release the figure-four and climb up to genuine back control with a seatbelt and both hooks to reach the angle the choke actually needs. Your primary challenge is establishing the deep collar grip while maintaining control through that conversion. The key insight is that the bow's far-leg anchor comes from a HAND grip on the opponent's far pant leg or hip, taken once you are on the back, not from the truck entanglement. Patient collar establishment combined with a disciplined climb to the back makes this one of the more reliable collar entries from the truck when properly executed.
 
 **From Position**: [[Positions/Twister Control/Truck]] (Top)
 
@@ -193,10 +193,10 @@ Attacking with the Bow and Arrow Choke from the Truck requires understanding tha
 
 <p class="section-subtitle">What are the key principles for executing Bow and Arrow Choke from Truck?</p>
 
-- Maintain boot pressure on the opponent's hip throughout the collar grip setup to preserve the perpendicular angle and rotational control
-- Feed the collar grip deep past the chin line using the perpendicular angle advantage that the truck provides
-- Use the existing leg entanglement as the extension platform for the finish rather than releasing legs to reposition
-- Coordinate upper body collar pull with lower body leg extension to create the opposing-force mechanism
+- Maintain boot pressure on the opponent's hip throughout the collar grip setup to preserve rotational control before you convert to back control
+- Feed the collar grip deep past the chin line early, using the truck's control to buy time before you climb to the finishing angle
+- Release the truck figure-four and climb to a seatbelt with both hooks in: the bow and arrow is a back-control finish, not a truck finish
+- Take the far-leg anchor with your free HAND, gripping the opponent's far pant leg or hip from back control, then stretch the torso back while pulling the collar to create the opposing-force mechanism
 - Threaten the twister and calf slicer to force defensive reactions that expose the collar for grip access
 - Monitor the opponent's hand position constantly: hands defending low means the collar is open, hands defending high means redirect to leg attacks
 
@@ -227,10 +227,10 @@ Attacking with the Bow and Arrow Choke from the Truck requires understanding tha
 1. **Consolidate Truck control and assess collar access**: Ensure your boot is firmly planted against the opponent's hip with your entangled legs controlling their lower body. Verify your chest or shoulder is pressing against their upper back. Assess which collar is accessible based on the angle of their neck relative to your hand position. The far collar is typically the target from the truck angle. (Timing: 2-3 seconds for assessment)
 2. **Initiate collar grip with non-boot hand**: Using the hand not controlling the boot-side leg, reach across to grab the opponent's far lapel. Feed four fingers inside the collar and pull the material deep past the chin so the wrist blade sits directly across the carotid arteries. Use a caterpillar grip motion to walk the collar progressively deeper if the opponent resists the initial feed. Maintain boot pressure throughout. (Timing: 3-5 seconds for grip establishment)
 3. **Lock the collar and secure choking position**: Once the collar grip is deep, lock your wrist position by pulling your elbow toward your ribs. Adjust your chest pressure against their upper back to prevent them from turning into you. Your choking hand should feel the collar tighten across the front of the neck when you apply even slight pulling pressure toward your hip. (Timing: 1-2 seconds to lock grip)
-4. **Control the far leg or establish second anchor point**: With your free hand, reach across and grab the opponent's far pants leg at the knee or shin. If the leg entanglement is deep enough, your entangled legs serve as the second anchor. The goal is to establish two opposing force vectors: collar pulling the neck toward you, and the leg or entanglement pulling or bracing the opponent's body away from you. (Timing: 1-3 seconds for leg control)
-5. **Begin extension and create the bow shape**: Extend your entangled legs while pulling the collar grip toward your hip. The opponent's body should begin stretching between the collar pull and the leg anchor, creating the characteristic bow-and-arrow shape. Use your boot leg as a brace against their hip to amplify the extension force. Your body may slide slightly toward the mat as you extend, which increases the leverage angle. (Timing: 2-3 seconds for extension)
-6. **Apply progressive finishing pressure**: With the bow shape established, progressively tighten the choke by pulling the collar toward your chest while extending legs and arching slightly. The two-directional force compresses the collar deep into the carotid arteries. Apply pressure over 3-5 seconds, monitoring for tap signals. Squeeze elbows toward ribs and extend hips to maximize the pull. Release immediately upon any tap indication. (Timing: 3-5 seconds progressive application)
-7. **Complete finish or transition to alternative attack**: If the opponent taps, immediately release all pressure and grips. If they survive by tucking chin or fighting collar, maintain position and regrip deeper using caterpillar motion. If the choke stalls completely, transition to calf slicer by redirecting leg extension pressure to the trapped knee, or release collar and attack the twister using the upper body access you have established. (Timing: Varies based on opponent response)
+4. **Release the figure-four and climb to back control**: With the collar locked, release the truck figure-four and climb your hips up the opponent's back, threading both hooks in and locking a seatbelt over the shoulder and under the armpit. The truck only opened the door; the bow and arrow is a back-control finish, so you must abandon the perpendicular entanglement to reach genuine back mount with your chest sealed to their upper back. Keep the collar grip the entire climb so the choke stays primed as you arrive on the back. (Timing: 2-3 seconds for the climb to back control)
+5. **Take the far-leg hand grip and create the bow shape**: From back control, reach your free hand down and grip the opponent's far pant leg or hip: this hand grip is the bow's far-leg anchor, supplying the lower-body force vector that the truck entanglement never could. Fall back to the choking-arm side, swing your hips out, and stretch your torso away while pulling the collar toward your hip and driving the hand-gripped far leg the opposite direction. The opponent's body stretches between the collar pull and the hand-gripped leg, creating the characteristic bow-and-arrow shape. (Timing: 2-3 seconds for the grip and stretch)
+6. **Apply progressive finishing pressure**: With the bow shape established from back control, progressively tighten the choke by pulling the collar toward your chest while stretching your torso back and arching slightly. The two-directional force, collar toward you and the hand-gripped far leg away, compresses the collar deep into the carotid arteries. Apply pressure over 3-5 seconds, monitoring for tap signals. Squeeze elbows toward ribs and arch the spine to maximize the pull. Release immediately upon any tap indication. (Timing: 3-5 seconds progressive application)
+7. **Complete finish or transition to alternative attack**: If the opponent taps, immediately release all pressure and grips. If they survive by tucking chin or fighting collar, maintain back control and regrip the collar deeper using caterpillar motion. If the choke stalls completely, you still own the back: switch to a rear naked choke with the same seatbelt, or re-establish the truck to threaten the calf slicer and twister again. Do not surrender back position to force a stalled bow. (Timing: Varies based on opponent response)
 
 
 </section>
@@ -283,10 +283,10 @@ Attacking with the Bow and Arrow Choke from the Truck requires understanding tha
 - **Consequence**: Opponent anticipates the collar grip and defends with both hands, making grip establishment extremely difficult against a prepared defender
 - **Correction**: Threaten the twister or calf slicer first to force defensive reactions. When their hands go low to defend legs, the collar opens. When hands protect the neck, redirect to leg attacks.
 
-### 4. Extending legs explosively for the finish before the collar grip is properly locked and deep
+### 4. Committing explosively to the back-control stretch before the collar grip is properly locked and deep
 
 - **Consequence**: The shallow collar slides off or creates a jaw crank rather than a choke, wasting the positional advantage and alerting the opponent to the attack
-- **Correction**: Confirm the collar grip is deep and locked before committing to extension. Test the grip by applying light tension. If you feel the blade of your wrist across the front of the neck, proceed to the finish.
+- **Correction**: Confirm the collar grip is deep and locked before releasing the figure-four, climbing to back control, and stretching. Test the grip by applying light tension. If you feel the blade of your wrist across the front of the neck, proceed to the finish.
 
 ### 5. Losing chest-to-back connection during the collar feed, allowing the opponent to create space and turn
 
@@ -312,7 +312,7 @@ Attacking with the Bow and Arrow Choke from the Truck requires understanding tha
 With a stationary partner in truck bottom position, practice reaching for and feeding the collar grip while maintaining boot pressure and leg entanglement. Focus on grip depth past the chin, wrist blade placement across the carotids, and keeping boot pressure constant. Drill 20 repetitions per side.
 
 **Phase 2: Full Sequence Drill** - Complete attack chain from truck to finished choke
-Drill the entire sequence with a compliant partner: establish truck, assess collar, feed grip, lock collar, establish leg anchor, extend for the bow shape, and apply progressive pressure. Practice both the entanglement-based finish and the traditional leg grab finish. Ten full repetitions per side.
+Drill the entire sequence with a compliant partner: establish truck, assess collar, feed grip, lock collar, release the figure-four and climb to back control with seatbelt and hooks, take the far-leg hand grip, extend for the bow shape, and apply progressive pressure. Emphasize the clean handoff from truck entry to back-control finish. Ten full repetitions per side.
 
 **Phase 3: Dilemma Chain Integration** - Using twister and calf slicer threats to open collar access
 Partner provides moderate resistance focusing on collar defense. Practice threatening the twister to draw hands low, then transitioning to the collar grip. Alternate with calf slicer threats. Develop recognition of when the collar is open based on the opponent's defensive posture.

@@ -86,6 +86,18 @@ description: "Learn why choosing BJJ techniques with high position retention on 
 }
 </script>
 
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Committed Techniques",
+  "description": "A committed technique is one whose failure returns you to your starting position or better, while a speculative technique surrenders position when it fails -- committed selection weighs the cost of failure, not just the odds of success.",
+  "inDefinedTermSet": "https://bjjgraph.org/Learning/"
+}
+</script>
+
+
 > **Category**: Strategy
 
 
@@ -94,6 +106,8 @@ description: "Learn why choosing BJJ techniques with high position retention on 
 <section id="overview" class="content-section">
 
 ## What is Committed Techniques?
+
+**A committed technique is one whose failure returns you to your starting position or better, while a speculative technique surrenders position when it fails -- committed selection weighs the cost of failure, not just the odds of success.**
 
 Every technique in BJJ carries a cost on failure. An armbar from mount that does not finish usually returns you to mount -- cost is near zero. A flying armbar that does not finish dumps you to bottom with your opponent in your guard or worse -- cost is enormous. Committed technique selection means evaluating not just how likely a move is to work, but what happens when it does not.
 
@@ -204,14 +218,14 @@ A: Ask two questions: where do I end up when this works, and where do I end up w
 <section id="related" class="content-section">
 
 ## Related
-- [[Learning/Position Over Submission]] (Learning) - Position-first strategy relies on choosing committed techniques that retain dominant positions
-- [[Learning/Probabilistic Thinking]] (Learning) - Evaluating techniques by their expected value including failure outcomes
-- [[Principles/Positional Hierarchy]] (Principle) - Understanding the positional ladder helps assess the cost of technique failure
-- [[Principles/Control Maintenance]] (Principle) - Committed techniques inherently support control maintenance because they do not sacrifice position
-- [[Principles/Base]] (Principle) - Good base allows you to attempt committed techniques without losing balance or position
-- [[Positions/Mount]] (Position) - The classic position where committed technique selection matters most due to the value of mount retention
-- [[Positions/Side Control]] (Position) - Multiple committed submission options available that retain the side control position
-- [[Positions/Back Control]] (Position) - Back control offers committed choke attacks where failure typically retains the back position
+- [[Position Over Submission]] (Learning) - Position-first strategy relies on choosing committed techniques that retain dominant positions
+- [[Probabilistic Thinking]] (Learning) - Evaluating techniques by their expected value including failure outcomes
+- [[Positional Hierarchy]] (Principle) - Understanding the positional ladder helps assess the cost of technique failure
+- [[Control Maintenance]] (Principle) - Committed techniques inherently support control maintenance because they do not sacrifice position
+- [[Base]] (Principle) - Good base allows you to attempt committed techniques without losing balance or position
+- [[Mount]] (Position) - The classic position where committed technique selection matters most due to the value of mount retention
+- [[Side Control]] (Position) - Multiple committed submission options available that retain the side control position
+- [[Back Control]] (Position) - Back control offers committed choke attacks where failure typically retains the back position
 
 
 

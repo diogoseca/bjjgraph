@@ -10,6 +10,41 @@ description: "Master Worm Guard in BJJ. Innovative lapel-based guard with sweeps
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Worm Guard",
+  "description": "Master Worm Guard in BJJ. Innovative lapel-based guard with sweeps and back takes. Complete guide to this advanced gi position with techniques from both perspectives.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Worm Guard", "item": "https://bjjgraph.org/Positions/Worm-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Worm Guard",
+  "description": "Worm Guard is a gi-only lapel guard in which you thread the opponent's own lapel under their leg and wrap it around your shin, immobilizing that leg to create high-percentage sweeps and back takes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master Worm Guard in BJJ. Innovative lapel-based guard with sweeps
 
 <section id="overview" class="content-section">
 
-Worm Guard is an advanced lapel-based open guard position developed and popularized by Keenan Cornelius. The position is characterized by feeding the opponent's lapel behind their back and around their leg, creating a lasso-like configuration that immobilizes their movement and creates powerful sweeping and back-taking opportunities. The name derives from the serpentine path the lapel takes around the opponent's body. This guard represents a modern evolution in gi-based grappling, utilizing the gi itself as an extension of your limbs to create control and leverage that would be impossible in no-gi grappling. The position excels at neutralizing larger, stronger opponents through technical manipulation rather than physical force.
+**Worm Guard is a gi-only lapel guard in which you thread the opponent's own lapel under their leg and wrap it around your shin, immobilizing that leg to create high-percentage sweeps and back takes.**
+
+Pioneered and popularized by Keenan Cornelius during the mid-2010s competition scene, Worm Guard represents a modern evolution in gi-based grappling that weaponizes the lapel itself as an extension of your limbs. The configuration feeds the opponent's lapel behind their back and around their leg, creating a lasso-like web that immobilizes their movement, and the name derives from the serpentine path the lapel takes around their body. This control and leverage would be impossible in no-gi grappling, and the position excels at neutralizing larger, stronger opponents through technical manipulation rather than physical force.
 
 The Worm Guard is particularly effective because it simultaneously controls the opponent's posture, limits their base, and creates offensive opportunities. By wrapping the lapel around the opponent's leg and maintaining a firm grip, you create a mechanical disadvantage for your opponent that makes passing extremely difficult. The position allows for seamless transitions to other lapel guards like Squid Guard and Ringworm, as well as traditional positions like De La Riva and X-Guard. Understanding the Worm Guard system opens up an entire universe of lapel-based techniques that can dominate gi competition.
 
@@ -100,21 +137,19 @@ At its core, Worm Guard is about creating a web of control using the gi that res
 ### Available Transitions
 
 
-- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (30% of attempts)
+- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (33% of attempts)
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (9% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (11% of attempts)
 
-- **[[Transitions/Omoplata to Back/Attacker|Omoplata to Back]]** (9% of attempts)
+- **[[Transitions/Omoplata to Back/Attacker|Omoplata to Back]]** (10% of attempts)
 
 - **[[Transitions/Lapel Elevator Sweep/Attacker|Lapel Elevator Sweep]]** (10% of attempts)
 
-- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (11% of attempts)
+- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (13% of attempts)
 
 - **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (10% of attempts)
 
 - **[[Transitions/Bolo Sweep/Attacker|Bolo Sweep]]** (8% of attempts)
-
-- **[[Transitions/Triangle from Guard/Attacker|Triangle from Guard]]** (8% of attempts)
 
 - **[[Transitions/Collar Drag from Worm Guard/Attacker|Collar Drag from Worm Guard]]** (3% of attempts)
 
@@ -252,6 +287,16 @@ At its core, Worm Guard is about creating a web of control using the gi that res
 
 - **[[Positions/Collar Sleeve Guard]]** - Foundation guard that shares grip fighting principles
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Keenan Cornelius Lapel Guard System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Primary position within the system - foundation for all other lapel guard variations</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

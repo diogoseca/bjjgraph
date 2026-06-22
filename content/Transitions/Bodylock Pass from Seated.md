@@ -10,6 +10,41 @@ description: "Master the Bodylock Pass from Seated Guard in BJJ. Learn grip stra
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Bodylock Pass from Seated",
+  "description": "Master the Bodylock Pass from Seated Guard in BJJ. Learn grip strategies, level changes, and pressure mechanics to complete this high-percentage pass.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Bodylock Pass from Seated", "item": "https://bjjgraph.org/Transitions/Bodylock-Pass-from-Seated" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Bodylock Pass from Seated",
+  "description": "The Bodylock Pass from Seated is a pressure-passing technique in which the top player clamps a tight body lock around a seated opponent's lower ribs, drives them flat, and clears their legs to reach side control while bypassing leg-based defenses.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Bodylock Pass from Seated Guard in BJJ. Learn grip stra
 
 <section id="overview" class="content-section">
 
-The Bodylock Pass from Seated Guard is a pressure-based guard passing technique where the top player closes distance on a seated opponent, establishes a tight body lock around their torso, and uses that connection to drive them backward while clearing their legs to achieve side control. This technique has become increasingly prevalent in modern no-gi grappling due to its effectiveness against the seated guard player's distance management capabilities, directly neutralizing the opponent's primary defensive tool: their ability to frame and create space with their legs.
+**The Bodylock Pass from Seated is a pressure-passing technique in which the top player clamps a tight body lock around a seated opponent's lower ribs, drives them flat, and clears their legs to reach side control while bypassing leg-based defenses.**
+
+Increasingly prevalent in modern no-gi grappling, the Bodylock Pass from Seated has become a go-to answer for the seated guard that frustrates leg-based passing. Rather than fight the seated player's distance management, it neutralizes their primary defensive tool — their ability to frame and create space with their legs — by attacking the torso directly. The top player closes distance, clamps a body lock around the lower ribs, drives the opponent flat, and clears their legs to consolidate side control.
 
 The strategic value of this pass lies in its ability to bypass the seated guard player's leg-based defense entirely. Rather than fighting to control or redirect the opponent's legs as with toreando or leg drag passes, the bodylock pass attacks the torso directly, establishing chest-to-chest connection that renders leg frames ineffective. The level change and forward drive create a dilemma: if the seated player posts their hands to maintain base, they cannot frame against the incoming bodylock; if they bring their hands forward to defend, they lose structural support and are easily driven backward.
 
@@ -218,5 +255,7 @@ The Bodylock Pass from Seated Guard integrates into the broader guard passing sy
 
 
 </section>
+
+
 
 </main>

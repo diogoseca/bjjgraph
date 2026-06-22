@@ -10,6 +10,41 @@ description: "Master the Anaconda Setup from front headlock. Learn arm threading
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Anaconda Setup",
+  "description": "Master the Anaconda Setup from front headlock. Learn arm threading, grip mechanics, and control principles for securing anaconda control position.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Anaconda Setup", "item": "https://bjjgraph.org/Transitions/Anaconda-Setup" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Anaconda Setup",
+  "description": "The Anaconda Setup is a front-headlock attack from turtle top where the attacker threads a choking arm under the opponent's neck to trap their near arm against it, locking the arm-in anaconda grip that threatens the choke.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Anaconda Setup from front headlock. Learn arm threading
 
 <section id="overview" class="content-section">
 
-The Anaconda Setup is a fundamental front headlock attack that capitalizes on an opponent's defensive turtle position. This technique involves securing a specific arm-in configuration where you thread your arm under the opponent's neck and trap their near-side arm, creating the distinctive anaconda grip position. The setup is particularly effective in no-gi grappling but translates well to gi competition with proper adaptations.
+**The Anaconda Setup is a front-headlock attack from turtle top where the attacker threads a choking arm under the opponent's neck to trap their near arm against it, locking the arm-in anaconda grip that threatens the choke.**
+
+Sitting at the core of the modern front headlock system, the Anaconda Setup is most often hunted the moment an opponent retreats into a defensive turtle and exposes their neck and near arm. This technique involves securing a specific arm-in configuration where you thread your arm under the opponent's neck and trap their near-side arm, creating the distinctive anaconda grip position. The setup is particularly effective in no-gi grappling but translates well to gi competition with proper adaptations.
 
 Unlike the traditional guillotine or Darce choke setups, the anaconda requires precise arm positioning and body mechanics to create the crushing pressure characteristic of this submission. The key distinguishing feature is the direction of your choking arm - it threads under the opponent's neck from the near side, wrapping around to capture their far shoulder while your other arm completes the gable grip or S-grip configuration.
 
@@ -221,6 +258,16 @@ The anaconda setup is a fundamental component of the modern front headlock syste
 
 - [[Positions/Anaconda Control]] - Target control position after successful setup
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Danaher-Front-Headlock-System" data-cta="related-system-card" data-system-slug="systems/danaher-front-headlock-system" data-system-name="Danaher Front Headlock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Danaher Front Headlock System</span><span class="system-card__unlocks-badge">Unlocks 30 techniques</span><span class="system-card__blurb">Setup mechanics for anaconda pathway entry</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Control System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

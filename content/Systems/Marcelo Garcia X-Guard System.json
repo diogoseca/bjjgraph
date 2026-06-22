@@ -1,5 +1,17 @@
 {
   "name": "Marcelo Garcia X-Guard System",
+  "products": [
+    {
+      "id": "marcelo-garcia-x-guard-formula",
+      "title": "The X-Guard Formula",
+      "instructor": "Marcelo Garcia",
+      "vendor": "BJJFanatics",
+      "affiliate_url": "https://bjjfanatics.com/products/the-x-guard-formula-by-marcelo-garcia?ref=REPLACE_ME",
+      "image": "https://placehold.co/640x360/1e293b/ffffff?text=The+X-Guard+Formula",
+      "blurb": "The X-Guard from its creator — entries, sweeps, and back takes that work against bigger, stronger opponents.",
+      "price_usd": 87
+    }
+  ],
   "description": "Master Marcelo Garcia's X-Guard System. Complete framework from entries to sweeps, back takes, and submission chains. Competition-proven systematic approach to X-Guard mastery.",
   "tags": [
     "bjj",
@@ -12,6 +24,7 @@
   ],
   "system_type": "Guard System",
   "difficulty_level": "Advanced",
+  "summary": "The Marcelo Garcia X-Guard System is a competition-proven guard framework that uses deep leg-hook elevation and off-balancing from underneath the opponent to chain sweeps, back takes, and submissions into interconnected dilemmas.",
   "overview": "Marcelo Garcia's X-Guard System represents one of the most dominant guard frameworks in modern Brazilian Jiu-Jitsu. This systematic approach transforms the X-Guard from a single position into a comprehensive attacking platform that seamlessly connects entries, sweeps, back takes, and submissions. Unlike traditional guards that rely on grips and frames, the X-Guard uses precise leg positioning and weight distribution to create mechanical advantages that work against opponents of any size. The system's genius lies in its interconnected nature - every defensive response from the opponent opens a new attacking opportunity, creating the dilemmas that define high-level guard play. Marcelo refined this system through years of competition at the highest levels, developing entry sequences from standing, seated, and butterfly positions that flow naturally into powerful sweeping mechanics. The X-Guard's core principle of elevating and off-balancing the opponent while maintaining control through leg hooks creates opportunities for both sweeps and transitions to more dominant positions like the back or mount.",
   "key_principles": [
     "Elevation and off-balancing through precise leg hook positioning",
@@ -376,6 +389,40 @@
       "name": "Back Attack System",
       "content_type": "System",
       "relationship": "Back take methodology that connects to X-Guard transitions"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What core mechanical principle makes the X-Guard System effective against larger, stronger opponents?",
+      "answer": "It relies on deep leg-hook positioning and weight elevation rather than upper-body grips, using the legs to lift and off-balance the opponent so leverage—not strength—generates the sweep, which neutralizes size and power advantages."
+    },
+    {
+      "question": "What are the primary entry pathways into X-Guard in Marcelo Garcia's system?",
+      "answer": "Entries flow from butterfly guard by converting butterfly hooks, from seated guard using foot-on-hip and ankle-pick mechanics, and from standing scenarios off failed takedowns or guard pulls, giving multiple high-percentage routes into the position."
+    },
+    {
+      "question": "When should a practitioner favor a back take over a sweep from X-Guard?",
+      "answer": "When the opponent defends the sweep by lowering their hips or shifting weight forward to widen their base, a back-exposure window opens; the same leg hooks that controlled the sweep are then used to insert hooks and take the back."
+    },
+    {
+      "question": "Why is chaining attacks essential rather than committing to a single sweep?",
+      "answer": "Single committed attacks become predictable and easy to defend; chaining sweeps, back takes, and submissions creates dilemmas where every defensive reaction the opponent makes opens a new attacking window and sustains offensive pressure."
+    },
+    {
+      "question": "What is a common mistake beginners make when learning the X-Guard System?",
+      "answer": "Attempting sweeps before establishing proper elevation and hook depth, and relying on upper-body grips or muscle tension instead of leg mechanics, which lets opponents flatten the structure or strip the hooks cleanly."
+    },
+    {
+      "question": "How should you respond when an opponent strips a leg out of the X-Guard hooks?",
+      "answer": "Prioritize hook depth and angle over squeezing pressure, use frames and grips to stop base widening, and rely on re-hooking sequences plus transitions to butterfly, seated, or deep half guard when extraction becomes inevitable."
+    },
+    {
+      "question": "What role do submissions play within the primarily sweep-based X-Guard System?",
+      "answer": "Submissions such as guillotines, arm-drag-to-armbar sequences, and triangle transitions complement the sweeping game, emerging when the opponent posts hands or lowers their head, and they keep the attack pattern from becoming one-dimensional."
+    },
+    {
+      "question": "What conditioning challenge does sustained X-Guard play create and how is it managed?",
+      "answer": "Holding the elevated position fatigues the core and hip flexors, especially against heavier opponents; it is managed by pulsing elevation instead of constant pressure, targeted strength work, and technical stand-up variations that reduce sustained leg strain."
     }
   ]
 }

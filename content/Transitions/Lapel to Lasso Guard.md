@@ -10,6 +10,41 @@ description: "Master the Lapel to Lasso Transition in BJJ. Convert lapel guard t
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Lapel to Lasso Guard",
+  "description": "Master the Lapel to Lasso Transition in BJJ. Convert lapel guard to lasso control when grips are stripped. Complete guide with attacker and defender perspectives.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Lapel to Lasso Guard", "item": "https://bjjgraph.org/Transitions/Lapel-to-Lasso-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Lapel to Lasso Guard",
+  "description": "Lapel to Lasso Guard is a gi guard-retention transition where the bottom player abandons a failing lapel configuration and threads a shin across the opponent's arm—keeping the sleeve grip—to establish lasso control instead of being passed.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Lapel to Lasso Transition in BJJ. Convert lapel guard t
 </div>
 
 <section id="overview" class="content-section">
+
+**Lapel to Lasso Guard is a gi guard-retention transition where the bottom player abandons a failing lapel configuration and threads a shin across the opponent's arm—keeping the sleeve grip—to establish lasso control instead of being passed.**
 
 The Lapel to Lasso Transition represents a critical guard retention pathway that converts the mechanically complex lapel guard into the proven control system of lasso guard. This transition becomes essential when opponents successfully strip your primary lapel configuration or when the lapel grip begins failing under sustained passing pressure. Rather than losing guard position entirely, skilled practitioners flow seamlessly into lasso control, maintaining offensive threats while denying the pass.
 
@@ -206,8 +243,6 @@ The Lapel to Lasso Transition represents critical guard retention infrastructure
 
 - [[Transitions/Lasso Guard Pass]] - Opponent's counter-technique - primary passing method against established lasso
 
-- [[Transitions/Closed Guard to Triangle]] - Follow-up submission chain - available when opponent's posture breaks after lasso establishment
-
 - [[Transitions/Omoplata Sweep]] - Follow-up attack - effective when opponent drives forward against new lasso control
 
 - [[Positions/Collar Sleeve Guard]] - Related system - shares sleeve control principles with both lapel and lasso
@@ -216,5 +251,7 @@ The Lapel to Lasso Transition represents critical guard retention infrastructure
 
 
 </section>
+
+
 
 </main>

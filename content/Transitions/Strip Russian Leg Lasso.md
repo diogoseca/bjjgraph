@@ -10,6 +10,41 @@ description: "Master Strip Russian Leg Lasso in BJJ. Complete step-by-step guide
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Strip Russian Leg Lasso",
+  "description": "Master Strip Russian Leg Lasso in BJJ. Complete step-by-step guide to dismantling this advanced guard and restoring your open guard passing position.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Strip Russian Leg Lasso", "item": "https://bjjgraph.org/Transitions/Strip-Russian-Leg-Lasso" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Strip Russian Leg Lasso",
+  "description": "Strip Russian Leg Lasso is a top-player grip-fighting sequence that breaks the collar and sleeve grips, creates slack with hip distance, then rotationally extracts the trapped arm to dismantle the lasso and return to a neutral Open Guard passing position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master Strip Russian Leg Lasso in BJJ. Complete step-by-step guide
 
 <section id="overview" class="content-section">
 
-Strip Russian Leg Lasso is a guard-neutralization technique executed by the top player to systematically dismantle the Russian Leg Lasso guard configuration and return to a neutral open guard passing position. This technique addresses one of the most sophisticated lasso guard variations in modern BJJ, requiring precise grip fighting, coordinated body mechanics, and strategic sequencing to remove the multiple control points that define the Russian Leg Lasso system.
+**Strip Russian Leg Lasso is a top-player grip-fighting sequence that breaks the collar and sleeve grips, creates slack with hip distance, then rotationally extracts the trapped arm to dismantle the lasso and return to a neutral Open Guard passing position.**
+
+As modern gi guards have grown more layered, the Russian Leg Lasso has become a passing problem that defeats conventional approaches, and a clean strip is what converts it back into a neutral open guard engagement. This technique addresses one of the most sophisticated lasso guard variations in modern BJJ, requiring precise grip fighting, coordinated body mechanics, and strategic sequencing to remove the multiple control points that define the Russian Leg Lasso system.
 
 The stripping process involves a coordinated sequence of grip breaks and positional adjustments rather than a single explosive movement. The top player must address the sleeve grip, collar grip, and the lasso leg itself in proper order, with each step creating conditions for the next. Rushing this process or attempting to strip the lasso through pure force typically results in the bottom player re-establishing controls or capitalizing on the resulting instability to execute sweeps. The key insight is that the lasso functions as an integrated system where removing one control point weakens the others, so the correct stripping sequence creates a cascading collapse of the entire guard structure.
 
@@ -220,5 +257,7 @@ Strip Russian Leg Lasso occupies a critical role in the guard passing hierarchy 
 
 
 </section>
+
+
 
 </main>

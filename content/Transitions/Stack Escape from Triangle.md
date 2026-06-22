@@ -10,6 +10,41 @@ description: "Master the Stack Escape from Triangle choke in BJJ. Step-by-step g
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Stack Escape from Triangle",
+  "description": "Master the Stack Escape from Triangle choke in BJJ. Step-by-step guide covering stacking mechanics, posture recovery, and passing to half guard or side control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Stack Escape from Triangle", "item": "https://bjjgraph.org/Transitions/Stack-Escape-from-Triangle" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Stack Escape from Triangle",
+  "description": "The Stack Escape from Triangle is a top-player defense that drives the trapped opponent's hips above their shoulders, collapsing the choke's perpendicular angle so the legs can be cleared and the position passed toward half guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Stack Escape from Triangle choke in BJJ. Step-by-step g
 </div>
 
 <section id="overview" class="content-section">
+
+**The Stack Escape from Triangle is a top-player defense that drives the trapped opponent's hips above their shoulders, collapsing the choke's perpendicular angle so the legs can be cleared and the position passed toward half guard.**
 
 The Stack Escape from Triangle is a fundamental defensive technique employed by the top player caught in an opponent's triangle choke. Rather than attempting to create lateral separation or extract the head, the stack escape uses forward driving pressure to fold the opponent's body onto their own shoulders and neck, collapsing the triangle's choking geometry by eliminating the perpendicular angle required for effective arterial compression. The technique exploits a critical vulnerability in the triangle position: when the bottom player's hips are driven above their shoulders, their legs lose the ability to extend and generate squeezing force, transforming the position from an active choking threat into a structurally weakened configuration.
 
@@ -206,13 +243,13 @@ The Stack Escape from Triangle occupies a critical role in the defensive guard e
 
 - [[Positions/Omoplata Control]] - Counter position opponent may transition to when stack compromises triangle angle
 
-- [[Transitions/Complete Triangle Escape from Top]] - Alternative triangle escape using lateral head extraction rather than stacking mechanics
+- [[Transitions/Complete Triangle Escape]] - Alternative triangle escape using lateral head extraction rather than stacking mechanics
 
 - [[Transitions/Complete Triangle Escape]] - Related escape technique addressing triangle defense from a different mechanical approach
 
 - [[Transitions/Posture Up from Triangle]] - Prerequisite technique for establishing the posture needed to initiate the stack sequence
 
-- [[Transitions/Posture in Triangle]] - Related defensive concept for managing posture inside triangle control before escaping
+- [[Transitions/Posture in Triangle Escape]] - Related defensive concept for managing posture inside triangle control before escaping
 
 - [[Submissions/Triangle Choke]] - The primary submission threat being escaped through the stacking mechanism
 
@@ -222,5 +259,7 @@ The Stack Escape from Triangle occupies a critical role in the defensive guard e
 
 
 </section>
+
+
 
 </main>

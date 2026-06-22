@@ -10,6 +10,41 @@ description: "Learn Counter Leg Attack from Inside Sankaku Bottom. Turn defense 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Counter Leg Attack",
+  "description": "Learn Counter Leg Attack from Inside Sankaku Bottom. Turn defense into offense by attacking opponent\u0027s free leg to reach 50-50 Guard or Ashi Garami.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Counter Leg Attack", "item": "https://bjjgraph.org/Transitions/Counter-Leg-Attack" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Counter Leg Attack",
+  "description": "The Counter Leg Attack is a leg-lock counter from Inside Sankaku bottom where you entangle the opponent's free leg to neutralize their heel-hook control, reaching a mutual 50-50 Guard or your own Ashi Garami.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Learn Counter Leg Attack from Inside Sankaku Bottom. Turn defense 
 </div>
 
 <section id="overview" class="content-section">
+
+**The Counter Leg Attack is a leg-lock counter from Inside Sankaku bottom where you entangle the opponent's free leg to neutralize their heel-hook control, reaching a mutual 50-50 Guard or your own Ashi Garami.**
 
 The Counter Leg Attack from Inside Sankaku Bottom represents one of the most sophisticated defensive-offensive transitions in modern leg lock systems. When trapped in the dangerous Inside Sankaku (Honey Hole) position, rather than purely defending the heel hook threat, the bottom player can neutralize the positional disadvantage by entering their own leg entanglement on the opponent's free leg. This strategy transforms a defensive situation into a mutual exchange where both practitioners have submission threats, often resulting in a 50-50 position or creating enough chaos to facilitate escape.
 
@@ -219,5 +256,7 @@ The Counter Leg Attack represents the final defensive option in the Inside Sanka
 
 
 </section>
+
+
 
 </main>

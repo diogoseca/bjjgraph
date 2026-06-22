@@ -1,5 +1,6 @@
 {
   "name": "Leg Extraction from Inside Ashi",
+  "summary": "Leg Extraction from Inside Ashi is the fundamental defensive escape that frees a trapped leg from Inside Ashi-Garami by first stripping the opponent's heel control, then clearing their inside and outside leg hooks to recover a safe Open Guard.",
   "description": "Learn the leg extraction escape from Inside Ashi-Garami in BJJ. Step-by-step guide to freeing your trapped leg and recovering safe guard position.",
   "tags": [
     "bjj",
@@ -70,10 +71,6 @@
       "relationship": "Parent position family governing leg entanglement mechanics"
     },
     {
-      "name": "Heel Hook Defense Escape",
-      "relationship": "Complementary defensive technique addressing heel hook submissions specifically"
-    },
-    {
       "name": "Leg Entanglement",
       "relationship": "Conceptual framework governing all leg lock positions and escapes"
     },
@@ -102,8 +99,8 @@
       "relationship": "Offensive alternative to extraction that creates counter-entanglement"
     },
     {
-      "name": "Inversion Escape from Leg Entanglement",
-      "relationship": "Alternative escape method using inversion to clear entanglement"
+      "name": "Guard Recovery from Inside Ashi-Garami",
+      "relationship": "Companion guard-recovery transition reaching Open Guard from the same entanglement"
     }
   ],
   "attacker": {

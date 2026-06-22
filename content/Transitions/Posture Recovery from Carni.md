@@ -10,6 +10,41 @@ description: "Master posture recovery from Carni in BJJ. Systematic escape using
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Posture Recovery from Carni",
+  "description": "Master posture recovery from Carni in BJJ. Systematic escape using forward pressure and stacking to neutralize leg entanglement and recover to closed guard.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Posture Recovery from Carni", "item": "https://bjjgraph.org/Transitions/Posture-Recovery-from-Carni" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Posture Recovery from Carni",
+  "description": "Posture Recovery from Carni is a defensive escape for the top player trapped in the Carni leg entanglement, using controlled forward stacking pressure and hip frames to collapse the bottom player's attacking angles and recover to closed guard top.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master posture recovery from Carni in BJJ. Systematic escape using
 
 <section id="overview" class="content-section">
 
-Posture Recovery from Carni is a fundamental defensive technique for the top player caught in the Carni leg entanglement. Rather than attempting explosive extraction or rolling escapes that risk deeper entanglement or back exposure, this technique employs controlled forward pressure and systematic posture reconstruction to neutralize the bottom player's offensive angles. The concept is straightforward: by driving forward with chest pressure and establishing frames against the bottom player's hips, the top player collapses the space needed for effective heel hook attacks and saddle transitions.
+**Posture Recovery from Carni is a defensive escape for the top player trapped in the Carni leg entanglement, using controlled forward stacking pressure and hip frames to collapse the bottom player's attacking angles and recover to closed guard top.**
+
+Caught inside the Carni, the top player faces a cascade of overlapping threats—heel hooks, saddle entries, and back exposure—where most instinctive escapes only deepen the danger. Posture recovery answers this problem by employing controlled forward pressure and systematic posture reconstruction to neutralize the bottom player's offensive angles, rather than attempting explosive extraction or rolling escapes that risk deeper entanglement or back exposure. The concept is straightforward: by driving forward with chest pressure and establishing frames against the bottom player's hips, the top player collapses the space needed for effective heel hook attacks and saddle transitions.
 
 The key strategic insight behind this recovery is that the Carni position depends on the bottom player maintaining specific angular relationships between their hips and the trapped leg. Forward stacking pressure disrupts these angles, forcing the bottom player to either abandon the leg entanglement in favor of closing their guard defensively, or risk being smashed through their own guard. When executed with proper timing—particularly during the brief windows where the bottom player is transitioning between attack sequences—the posture recovery offers a safe pathway out of an otherwise extremely dangerous position.
 
@@ -212,11 +249,13 @@ Posture Recovery from Carni serves as a critical safety valve within the broader
 
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Related leg entanglement - recovery principles transfer between positions
 
-- [[Transitions/Heel Hook Defense Escape]] - Prerequisite skill - must protect heel while recovering posture
+- [[Transitions/Ashi Garami Escape]] - Prerequisite skill - must protect heel while clearing the entanglement to recover posture
 
 - [[Positions/Ashi Garami/Outside Ashi-Garami]] - Related entanglement position sharing defensive methodology
 
 
 </section>
+
+
 
 </main>

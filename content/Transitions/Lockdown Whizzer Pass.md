@@ -10,6 +10,41 @@ description: "Master the Lockdown Whizzer Pass in BJJ. Use overhook control to c
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Lockdown Whizzer Pass",
+  "description": "Master the Lockdown Whizzer Pass in BJJ. Use overhook control to counter the lockdown underhook, flatten your opponent, and complete the pass to side control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Lockdown Whizzer Pass", "item": "https://bjjgraph.org/Transitions/Lockdown-Whizzer-Pass" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Lockdown Whizzer Pass",
+  "description": "The Lockdown Whizzer Pass is a half guard pass where the top player accepts the bottom player's underhook, counters it with an overhook (whizzer), drives shoulder pressure to flatten them, and frees the trapped leg to complete the pass to side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Lockdown Whizzer Pass in BJJ. Use overhook control to c
 
 <section id="overview" class="content-section">
 
-The Lockdown Whizzer Pass is a specialized half guard passing technique used by the top player trapped in the 10th Planet lockdown configuration. Rather than fighting to strip the bottom player's underhook directly, this pass accepts the underhook and counters it with a whizzer (overhook), using that lever to flatten the opponent, kill their hip mobility, and systematically extract the trapped leg to complete the pass to side control.
+**The Lockdown Whizzer Pass is a half guard pass where the top player accepts the bottom player's underhook, counters it with an overhook (whizzer), drives shoulder pressure to flatten them, and frees the trapped leg to complete the pass to side control.**
+
+Sitting within the 10th Planet lockdown ecosystem, the Lockdown Whizzer Pass solves the central problem the trapped top player faces: the bottom player's underhook powers every primary lockdown attack, so stripping it directly rarely works. Rather than fighting to strip the bottom player's underhook head-on, this pass accepts the underhook and counters it with a whizzer (overhook), using that lever to flatten the opponent, kill their hip mobility, and systematically extract the trapped leg to complete the pass to side control.
 
 The strategic logic exploits a fundamental lockdown dynamic: the bottom player's reliance on the underhook as their primary offensive weapon for whip-up sweeps, Old School attempts, and Electric Chair entries. By overhooking the underhook arm and driving heavy shoulder pressure downward, the top player neutralizes these sweep threats while simultaneously creating a passing angle. The whizzer functions as a lever that drives the bottom player's shoulder to the mat, removing the hip angle they need for all primary lockdown attacks.
 
@@ -214,5 +251,7 @@ The Lockdown Whizzer Pass occupies a specific tactical niche within the half gua
 
 
 </section>
+
+
 
 </main>

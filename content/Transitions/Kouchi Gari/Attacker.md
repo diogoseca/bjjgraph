@@ -125,6 +125,7 @@ description: "How to execute Kouchi Gari in BJJ. Attacking perspective with setu
   "@type": "WebPage",
   "name": "Kouchi Gari Attacker",
   "description": "How to execute Kouchi Gari in BJJ. Attacking perspective with setup, execution steps, and counters.",
+  "alternateName": ["Minor Inner Reap", "Ko Uchi Gari"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -170,6 +171,9 @@ description: "How to execute Kouchi Gari in BJJ. Attacking perspective with setu
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Minor Inner Reap</strong>, <strong>Ko Uchi Gari</strong> <span class="role-hint">(attacker)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 As the attacker executing Kouchi Gari, your primary objective is to remove your opponent's base through a coordinated upper-body pull and lower-body reap that dumps them diagonally backward onto the mat. The technique demands precise timing: you must read when your opponent's weight settles onto the target leg, generate diagonal kuzushi with your grips, and execute the small reaping motion in a single fluid sequence. Unlike power throws, Kouchi Gari rewards sensitivity and combination thinking over brute force. The attacker who treats this as the opening move in a series—rather than a standalone throw—will find dramatically higher returns, because every defensive reaction your opponent makes opens a clear follow-up attack.
@@ -330,5 +334,7 @@ Incorporate Kouchi Gari into regular stand-up sparring and competition preparati
 Kouchi Gari is one of the safer takedown techniques when executed properly, as the falling direction is controlled and predictable. However, training partners should be aware of proper breakfall techniques, particularly falling backward with the chin tucked to avoid head impact. When drilling, ensure mat space is clear of obstacles and other rolling pairs. The person executing the technique should maintain grips and control throughout the fall to prevent the partner from landing awkwardly on their shoulder or neck. In competition or live sparring, be mindful of the edge of the mat area, as the backward motion can carry both practitioners out of bounds. For older practitioners or those with knee issues, the reaping motion should be executed smoothly rather than explosively to avoid strain on the base leg's knee joint.
 
 </section>
+
+
 
 </main>

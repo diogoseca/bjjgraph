@@ -10,10 +10,55 @@ description: "Master the Williams Shoulder Lock from Williams Guard. Learn finis
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Williams Shoulder Lock from Williams Guard targets the Shoulder joint (glenohumeral joint and rotator cuff). Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Williams Shoulder Lock from Williams Guard",
+  "description": "Master the Williams Shoulder Lock from Williams Guard. Learn finishing mechanics, grip details, defensive counters, and safety protocols for this shoulder lock.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Williams Shoulder Lock from Williams Guard", "item": "https://bjjgraph.org/Submissions/Williams-Shoulder-Lock-from-Williams-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Williams Shoulder Lock from Williams Guard",
+  "description": "The Williams Shoulder Lock from Williams Guard is a bottom-position shoulder lock that traps the opponent's arm in a figure-four overhook behind the tricep and torques the glenohumeral joint into external (posterior) rotation, forcing a tap or feeding omoplata, triangle, and armbar chains.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Williams Shoulder Lock from Williams Guard is a bottom-position shoulder lock that traps the opponent's arm in a figure-four overhook behind the tricep and torques the glenohumeral joint into external (posterior) rotation, forcing a tap or feeding omoplata, triangle, and armbar chains.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Shoulder Lock</span>
+<span class="meta-chip">Targets Shoulder joint (glenohumeral joint and rotator cuff)</span>
+<span class="meta-chip">52% success</span>
+</div>
+
+> [!danger] Safety
+> Williams Shoulder Lock from Williams Guard targets the Shoulder joint (glenohumeral joint and rotator cuff). Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -24,61 +69,13 @@ description: "Master the Williams Shoulder Lock from Williams Guard. Learn finis
 
 <section id="overview" class="content-section">
 
-The Williams Shoulder Lock from Williams Guard attacks the glenohumeral joint through controlled internal rotation using the unique overhook figure-four grip inherent to the Williams Guard position. The guard player secures the opponent's arm in a figure-four configuration behind the tricep, pins the elbow against their own chest to create a rotational fulcrum, then uses hip angle and full body mechanics to generate progressive shoulder torque. This submission integrates seamlessly with the Williams Guard control system, functioning as both the primary finishing threat and the central mechanism that forces defensive reactions exploitable through sweep chains.
+The Williams Shoulder Lock from Williams Guard attacks the glenohumeral joint through controlled external (posterior) rotation using the unique overhook figure-four grip inherent to the Williams Guard position. Mechanically it shares the kimura/omoplata family direction, driving the forearm upward and rotating the humerus rearward rather than the medial direction an Americana exploits. The guard player secures the opponent's arm in a figure-four configuration behind the tricep, pins the elbow against their own chest to create a rotational fulcrum, then uses hip angle and full body mechanics to generate progressive shoulder torque. This submission integrates seamlessly with the Williams Guard control system, functioning as both the primary finishing threat and the central mechanism that forces defensive reactions exploitable through sweep chains.
 
 What distinguishes this variant from standing or top-position shoulder locks is the mechanical integration with guard retention. The same leg frames that maintain guard structure also prevent the opponent from changing angle to relieve shoulder pressure. The opponent faces a compounding dilemma: defending the shoulder lock requires movements that feed omoplata and triangle transitions, while maintaining posture to prevent those transitions increases shoulder lock vulnerability. This creates a systematic attacking environment where each defensive choice opens specific offensive opportunities.
 
 At the competition level, the Williams Shoulder Lock from Williams Guard functions best as the anchor of a submission chain rather than an isolated technique. The lock itself forces reactions—pulling back opens armbar, driving forward feeds omoplata, circling away creates back take opportunities. Understanding this chain logic transforms the shoulder lock from a single submission into a complete positional attacking system built around shoulder joint vulnerability and predictable defensive patterns.
 
-**Category**: Joint Lock
-**Type**: Shoulder Lock
-**Target Area**: Shoulder joint (glenohumeral joint and rotator cuff)
-**Starting Position**: [[Positions/Williams Guard]]
-**From Position**: [[Positions/Williams Guard]] (Bottom)
-**Success Rate**: 52%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) | High | 3-6 months with potential surgery required |
-| Glenohumeral joint dislocation or subluxation | CRITICAL | 6-12 months with high risk of chronic instability |
-| Labral tear (glenoid labrum damage) | High | 4-8 months, often requiring surgical repair |
-| Shoulder capsule strain or tear | Medium | 6-12 weeks with proper rehabilitation |
-
-
-**Application Speed**: EXTREMELY SLOW - minimum 5-7 seconds progressive pressure, never spike or jerk
-
-**Tap Signals**:
-- Verbal tap (loudly say 'tap' or 'stop')
-- Physical hand tap on partner or mat (multiple rapid taps)
-- Physical foot tap on mat or partner
-- Any verbal distress signal or scream
-- Any unusual shoulder clicking or popping sounds
-
-
-**Release Protocol**:
-1. Immediately stop all rotational pressure upon tap signal
-2. Release the overhook grip completely and allow arm to return to neutral position
-3. Do not abruptly release - guide the arm back to safe position slowly
-4. Check with partner verbally to ensure they are okay before continuing training
-5. If any pain persists beyond 30 seconds, stop training and seek medical evaluation
-
-
-**Training Restrictions**:
-- Never apply this submission at competition speed during training
-- Never spike, jerk, or apply sudden rotational force
-- Always ensure training partner has clear tap access with free hand
-- Never practice on training partners with previous shoulder injuries without explicit consent
-- Beginners should only practice the position control, not the finishing mechanics
-- Never combine with sudden movement transitions or scrambles
-
+**Starting Position**: [[Positions/Williams Guard]] · **From**: [[Positions/Williams Guard]] (Bottom)
 
 </section>
 
@@ -140,11 +137,11 @@ At the competition level, the Williams Shoulder Lock from Williams Guard functio
 
 - **Pin Elbow to Chest**: Pull the opponent's elbow tight against your sternum using the figure-four grip. This creates the fu...
 
-- **Engage Core and Begin Rotation**: Engage your entire posterior chain—core, hips, and legs—to begin rotating the opponent's shoulder in...
+- **Engage Core and Begin Rotation**: Engage your entire posterior chain—core, hips, and legs—to begin rotating the opponent's shoulder ex...
 
 - **Close Escape Angles with Leg Pressure**: As you apply rotational pressure use your legs to prevent the opponent from circling away or driving...
 
-- **Finish with Progressive Pressure**: Complete the submission by continuing gradual internal rotation while maintaining all control points...
+- **Finish with Progressive Pressure**: Complete the submission by continuing gradual external (posterior) rotation while maintaining all co...
 
 - **Monitor and Release Safely**: Throughout the finish maintain verbal awareness and watch for all tap signals including verbal and p...
 
@@ -176,7 +173,7 @@ At the competition level, the Williams Shoulder Lock from Williams Guard functio
 ### Key Principles
 
 
-- Protect shoulder alignment first—keep elbow close to body and prevent full internal rotation before addressing anything else
+- Protect shoulder alignment first—keep elbow close to body and prevent full external rotation before addressing anything else
 
 - Address the grip structure through circular extraction rather than fighting the rotational force directly
 
@@ -247,41 +244,64 @@ At the competition level, the Williams Shoulder Lock from Williams Guard functio
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Americana]]
 - [[Submissions/Kimura]]
 - [[Transitions/Arm Triangle]]
 - [[Submissions/Far Side Armbar]]
 - [[Transitions/Inverted Triangle]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Williams Guard]] - Starting position for this submission variant
 - [[Positions/Overhook Guard]] - Related arm isolation guard with similar control mechanics
 - [[Positions/Closed Guard]] - Base guard position from which Williams Guard can be established
 - [[Positions/Omoplata Control]] - Primary transition target when shoulder lock is defended
-- [[Submissions/Americana]] - Related shoulder lock attacking opposite rotation direction
-- [[Submissions/Kimura]] - Complementary shoulder attack from similar guard positions
+
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) | High | 3-6 months with potential surgery required |
+| Glenohumeral joint dislocation or subluxation | CRITICAL | 6-12 months with high risk of chronic instability |
+| Labral tear (glenoid labrum damage) | High | 4-8 months, often requiring surgical repair |
+| Shoulder capsule strain or tear | Medium | 6-12 weeks with proper rehabilitation |
+
+
+**Application Speed**: EXTREMELY SLOW - minimum 5-7 seconds progressive pressure, never spike or jerk
+
+**Tap Signals**:
+- Verbal tap (loudly say 'tap' or 'stop')
+- Physical hand tap on partner or mat (multiple rapid taps)
+- Physical foot tap on mat or partner
+- Any verbal distress signal or scream
+- Any unusual shoulder clicking or popping sounds
+
+
+**Release Protocol**:
+1. Immediately stop all rotational pressure upon tap signal
+2. Release the overhook grip completely and allow arm to return to neutral position
+3. Do not abruptly release - guide the arm back to safe position slowly
+4. Check with partner verbally to ensure they are okay before continuing training
+5. If any pain persists beyond 30 seconds, stop training and seek medical evaluation
+
+
+**Training Restrictions**:
+- Never apply this submission at competition speed during training
+- Never spike, jerk, or apply sudden rotational force
+- Always ensure training partner has clear tap access with free hand
+- Never practice on training partners with previous shoulder injuries without explicit consent
+- Beginners should only practice the position control, not the finishing mechanics
+- Never combine with sudden movement transitions or scrambles
 
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Williams Shoulder Lock from Williams Guard leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

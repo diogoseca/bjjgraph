@@ -10,10 +10,55 @@ description: "Master Reverse Kimura in BJJ. Complete guide with safety protocols
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Reverse Kimura from Standing Position targets the Shoulder joint and rotator cuff. Risk: Rotator cuff tear. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Reverse Kimura from Standing Position",
+  "description": "Master Reverse Kimura in BJJ. Complete guide with safety protocols, setup from various positions, and execution. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Reverse Kimura from Standing Position", "item": "https://bjjgraph.org/Submissions/Reverse-Kimura-from-Standing-Position" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Reverse Kimura from Standing Position",
+  "description": "The Reverse Kimura from Standing Position is a shoulder lock that traps the opponent's arm in a reversed figure-four grip—forearm in front rather than behind—to drive internal rotation, entered from standing clinches, front headlocks, and turtle scrambles.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Reverse Kimura from Standing Position is a shoulder lock that traps the opponent's arm in a reversed figure-four grip—forearm in front rather than behind—to drive internal rotation, entered from standing clinches, front headlocks, and turtle scrambles.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Shoulder Lock</span>
+<span class="meta-chip">Targets Shoulder joint and rotator cuff</span>
+<span class="meta-chip">52% success</span>
+</div>
+
+> [!danger] Safety
+> Reverse Kimura from Standing Position targets the Shoulder joint and rotator cuff. Primary risk: Rotator cuff tear. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -24,58 +69,9 @@ description: "Master Reverse Kimura in BJJ. Complete guide with safety protocols
 
 <section id="overview" class="content-section">
 
-The Reverse Kimura is a shoulder lock variation that applies the same rotational mechanics as the traditional Kimura but with a reversed grip configuration. Instead of the standard figure-four grip with your hand grabbing your own wrist behind the opponent's arm, the Reverse Kimura involves gripping your wrist in front of the opponent's arm, creating a different leverage angle and control pattern. This submission is particularly effective from standing positions, front headlocks, and scrambles where traditional Kimura grips may not be accessible. The Reverse Kimura shares the same target area and injury mechanism as the standard Kimura—the shoulder joint and rotator cuff—but the reversed grip often provides superior control in dynamic situations and allows for unique transitions to back takes and other submissions. The technique is highly valued in wrestling-based grappling and no-gi contexts where grip fighting and hand fighting create opportunities for unconventional entries. Understanding both the standard and reverse Kimura variations creates a more complete shoulder lock system that adapts to different gripping scenarios.
+Belonging to the Kimura family of shoulder locks, this reverse-grip variation evolved out of wrestling and no-gi grip fighting, where the orthodox figure-four is often unavailable and practitioners needed a rotation attack that lives in the chaos of scrambles and front-headlock exchanges. Instead of the standard figure-four grip with your hand grabbing your own wrist behind the opponent's arm, the Reverse Kimura involves gripping your wrist in front of the opponent's arm, creating a different leverage angle and control pattern. This submission is particularly effective from standing positions, front headlocks, and scrambles where traditional Kimura grips may not be accessible. The Reverse Kimura shares the same target area and injury mechanism as the standard Kimura—the shoulder joint and rotator cuff—but the reversed grip often provides superior control in dynamic situations and allows for unique transitions to back takes and other submissions. The technique is highly valued in wrestling-based grappling and no-gi contexts where grip fighting and hand fighting create opportunities for unconventional entries. Understanding both the standard and reverse Kimura variations creates a more complete shoulder lock system that adapts to different gripping scenarios.
 
-**Category**: Joint Lock
-**Type**: Shoulder Lock
-**Target Area**: Shoulder joint and rotator cuff
-**Starting Position**: [[Positions/Standing Position]]
-**From Position**: [[Positions/Standing Position]] (Top)
-**Success Rate**: 52%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Rotator cuff tear | High | 3-6 months with surgery potential |
-| Shoulder dislocation | High | 6-12 weeks minimum |
-| AC joint separation | Medium | 4-8 weeks |
-| Labrum tear | CRITICAL | 6-12 months with surgery likely |
-
-
-**Application Speed**: SLOW and progressive - 4-6 seconds minimum with constant communication
-
-**Tap Signals**:
-- Verbal tap (most important for standing submissions)
-- Physical hand tap on any available surface
-- Physical tap with free hand on partner
-- Any distress vocalization
-- Tapping feet if hands unavailable
-
-
-**Release Protocol**:
-1. Immediately stop all rotational pressure
-2. Release grip completely and step back
-3. Allow partner to externally rotate shoulder naturally
-4. Do not force arm back to neutral position
-5. Check with partner before continuing training
-
-
-**Training Restrictions**:
-- Never apply quickly or explosively in training
-- Never continue rotation past 90 degrees in practice
-- Always maintain verbal communication during application
-- Never spike or drop weight during standing applications
-- Always allow partner clear tap access with free hand
-- Stop immediately at first sign of discomfort
-- Never practice on injured shoulders
-
+**Starting Position**: [[Positions/Standing Position]] · **From**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -247,10 +243,9 @@ The Reverse Kimura is a shoulder lock variation that applies the same rotational
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Kimura]]
 - [[Submissions/Americana]]
 - [[Transitions/Arm Triangle]]
@@ -261,35 +256,60 @@ The Reverse Kimura is a shoulder lock variation that applies the same rotational
 - [[Transitions/Anaconda Choke]]
 - [[Submissions/Japanese Necktie]]
 - [[Submissions/High Elbow Guillotine]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Kimura Trap]] - Control position incorporating reverse grip variations and systematic shoulder attacks
 - [[Transitions/Back Take]] - Primary transition when reverse Kimura is defended by rotation, attacker follows to back control
 - [[Positions/Overhook Control]] - Standing setup position for reverse Kimura entry
 - [[Positions/Gift Wrap]] - Alternative arm trap leading to similar submission mechanics
 - [[Positions/Turtle]] - Common position where reverse Kimura is applied from top control
 - [[Positions/Front Headlock]] - Position system where reverse Kimura is commonly applied
-- [[Submissions/Americana]] - Similar shoulder lock targeting internal rotation from different position
 - [[Positions/Crucifix]] - Control position offering high-percentage reverse Kimura entries with limited defense
-- [[Submissions/Kimura]] - Complete system of Kimura-family shoulder lock techniques
+
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Rotator cuff tear | High | 3-6 months with surgery potential |
+| Shoulder dislocation | High | 6-12 weeks minimum |
+| AC joint separation | Medium | 4-8 weeks |
+| Labrum tear | CRITICAL | 6-12 months with surgery likely |
+
+
+**Application Speed**: SLOW and progressive - 4-6 seconds minimum with constant communication
+
+**Tap Signals**:
+- Verbal tap (most important for standing submissions)
+- Physical hand tap on any available surface
+- Physical tap with free hand on partner
+- Any distress vocalization
+- Tapping feet if hands unavailable
+
+
+**Release Protocol**:
+1. Immediately stop all rotational pressure
+2. Release grip completely and step back
+3. Allow partner to externally rotate shoulder naturally
+4. Do not force arm back to neutral position
+5. Check with partner before continuing training
+
+
+**Training Restrictions**:
+- Never apply quickly or explosively in training
+- Never continue rotation past 90 degrees in practice
+- Always maintain verbal communication during application
+- Never spike or drop weight during standing applications
+- Always allow partner clear tap access with free hand
+- Stop immediately at first sign of discomfort
+- Never practice on injured shoulders
 
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Reverse Kimura from Standing Position leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

@@ -25,13 +25,14 @@
       "result": "failure"
     },
     {
-      "to": "Ashi Garami/Top",
+      "to": "Saddle/Bottom",
       "probability": 20,
       "result": "counter"
     }
   ],
   "success_rate": 45,
-  "overview": "Leg Extraction Escape from Entanglement is the fundamental defensive technique for freeing a trapped leg from an opponent's leg entanglement control. Unlike inversion-based escapes that use rotational movement or boot scoot escapes that create linear distance, leg extraction focuses on systematically clearing each connection point that anchors the entanglement structure, then withdrawing the leg through the created gap. This escape addresses the most common leg entanglement scenarios where the opponent has established outside or inside ashi garami control but has not yet advanced to a fully consolidated finishing position like the saddle.\n\nThe technique operates on a simple biomechanical principle: leg entanglements rely on multiple contact points working together to trap the leg. By addressing these connection points sequentially rather than trying to rip the leg free explosively, the escaping practitioner can methodically dismantle the control structure without exposing the heel to dangerous finishing angles. The extraction sequence typically begins with controlling the opponent's grip on the foot or ankle, continues with clearing the inside hook behind the knee, and finishes with withdrawing the leg through the gap while transitioning to a safe guard position.\n\nStrategically, leg extraction escape represents the most energy-efficient defensive option from leg entanglements when the opponent has not yet advanced deep into the positional hierarchy. Compared to inversions, which require significant athletic ability and carry rotational injury risk, or boot scoot escapes that demand sustained hip movement, leg extraction relies primarily on precise hand fighting and mechanical clearing that any body type can execute. The key timing window occurs before the opponent consolidates tight hip-to-hip pressure and secures a finishing grip on the heel. Once those two conditions are met, alternative escape methods become necessary, making early recognition and immediate action critical to this escape's success.",
+  "summary": "Leg Extraction Escape from Entanglement is a defensive BJJ technique for freeing a trapped leg by sequentially clearing each connection point of an opponent's leg entanglement, then withdrawing the leg to recover open guard while keeping the heel protected.",
+  "overview": "Within the systematic leg lock defense game, leg extraction is the first-response escape that purple and brown belts reach for before an opponent consolidates a finishing position. Unlike inversion-based escapes that use rotational movement or boot scoot escapes that create linear distance, leg extraction focuses on systematically clearing each connection point that anchors the entanglement structure, then withdrawing the leg through the created gap. This escape addresses the most common leg entanglement scenarios where the opponent has established outside or inside ashi garami control but has not yet advanced to a fully consolidated finishing position like the saddle.\n\nThe technique operates on a simple biomechanical principle: leg entanglements rely on multiple contact points working together to trap the leg. By addressing these connection points sequentially rather than trying to rip the leg free explosively, the escaping practitioner can methodically dismantle the control structure without exposing the heel to dangerous finishing angles. The extraction sequence typically begins with controlling the opponent's grip on the foot or ankle, continues with clearing the inside hook behind the knee, and finishes with withdrawing the leg through the gap while transitioning to a safe guard position.\n\nStrategically, leg extraction escape represents the most energy-efficient defensive option from leg entanglements when the opponent has not yet advanced deep into the positional hierarchy. Compared to inversions, which require significant athletic ability and carry rotational injury risk, or boot scoot escapes that demand sustained hip movement, leg extraction relies primarily on precise hand fighting and mechanical clearing that any body type can execute. The key timing window occurs before the opponent consolidates tight hip-to-hip pressure and secures a finishing grip on the heel. Once those two conditions are met, alternative escape methods become necessary, making early recognition and immediate action critical to this escape's success.",
   "conditions": [
     "Opponent has established a leg entanglement but has not yet consolidated the saddle or achieved tight hip-to-hip pressure",
     "Your heel is not currently controlled in a finishing grip and you can still straighten or rotate your trapped leg",
@@ -184,13 +185,13 @@
         "counter": "Opponent transitions to a deeper entanglement (inside ashi or saddle) during your extraction attempt",
         "effectiveness": "High",
         "your_response": "Abort the extraction immediately and address the new entanglement configuration. If they advance to saddle, transition to boot scoot escape. If they achieve inside ashi, reset your connection point clearing sequence for the new configuration before attempting extraction again.",
-        "targets_outcome": "Ashi Garami/Top"
+        "targets_outcome": "Saddle/Bottom"
       },
       {
         "counter": "Opponent grabs the heel during extraction when foot passes through exposed angle",
         "effectiveness": "High",
         "your_response": "Immediately straighten the leg and begin heel strip defense using two-on-one wrist control. Do not continue the extraction with their hand on your heel. The heel strip must be completed before resuming any extraction movement to prevent submission during the escape.",
-        "targets_outcome": "Ashi Garami/Top"
+        "targets_outcome": "Saddle/Bottom"
       },
       {
         "counter": "Opponent uses upper body grips to prevent you from establishing the base needed for extraction",
@@ -343,14 +344,14 @@
       {
         "action": "Advance to inside ashi or saddle during the opponent's grip-stripping phase when their hands are occupied",
         "when_to_use": "When the opponent uses both hands to strip your foot grip, their legs and hips are momentarily undefended, creating a window for advancement",
-        "targets_outcome": "Ashi Garami/Top",
+        "targets_outcome": "Saddle/Bottom",
         "if_successful": "Opponent's extraction attempt fails and they are now in a deeper entanglement with reduced escape options",
         "risk": "If the advancement is sloppy, you may lose the original entanglement without securing the deeper position"
       },
       {
         "action": "Attack the heel when it becomes momentarily exposed during the extraction movement",
         "when_to_use": "When the opponent bends the trapped knee during clearing or changes leg angle during extraction, creating brief heel exposure",
-        "targets_outcome": "Ashi Garami/Top",
+        "targets_outcome": "Saddle/Bottom",
         "if_successful": "Opponent must abandon extraction and address the immediate heel hook threat, resetting their entire escape sequence",
         "risk": "If the heel grab misses, you may have released a connection point to reach for it, facilitating their extraction"
       },
@@ -368,7 +369,7 @@
         "how": "Maintain persistent hip pressure and immediately re-pummel any cleared hooks. Follow the opponent's lateral hip movement to prevent gap creation. Control their free leg to eliminate the push-kick force. Patient retention of the existing entanglement exhausts the opponent's escape energy and preserves your attacking position."
       },
       {
-        "outcome": "Ashi Garami/Top",
+        "outcome": "Saddle/Bottom",
         "how": "Capitalize on the window created when the opponent uses both hands to strip grips by advancing to inside ashi or saddle. Alternatively, attack the heel during momentary exposure created by the opponent's extraction angle changes. Convert their escape attempt into a deeper positional problem through opportunistic advancement."
       }
     ],

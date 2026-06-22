@@ -10,6 +10,41 @@ description: "Master Russian Leg Lasso position in BJJ. Strategic guide covering
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Russian Leg Lasso",
+  "description": "Master Russian Leg Lasso position in BJJ. Strategic guide covering both bottom guard retention and top passing strategies with systematic technical analysis.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Russian Leg Lasso", "item": "https://bjjgraph.org/Positions/Russian-Leg-Lasso" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Russian Leg Lasso",
+  "description": "Russian Leg Lasso is an advanced gi open-guard variation where the bottom player threads a deep lasso behind the opponent's arm and reinforces it with collar and sleeve grips, forming a rotational pulley system for sweeps and submissions.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master Russian Leg Lasso position in BJJ. Strategic guide covering
 
 <section id="overview" class="content-section">
 
-Russian Leg Lasso is an advanced variation of the traditional lasso guard that incorporates additional control points and mechanical advantages to create a highly technical and effective guard position. This position distinguishes itself from standard lasso guard through its deeper lasso configuration, strategic collar and sleeve grip combinations, and the ability to create multiple offensive threats simultaneously. The Russian variation emerged from the evolution of modern competition jiu-jitsu, where practitioners sought ways to enhance the already effective lasso guard with additional control mechanisms that would work against increasingly sophisticated guard passing strategies. From the bottom perspective, this guard offers exceptional control over the opponent's posture and base, creating opportunities for sweeps, submissions, and transitions that are difficult to defend when properly executed. The lasso itself functions as a mechanical pulley system, with the guard player's leg threaded through the opponent's arm creating a binding effect that can be amplified through proper grip configurations and hip positioning. From the top perspective, Russian Leg Lasso presents a complex passing puzzle that requires systematic dismantling of multiple control points, excellent base and posture maintenance, and the patience to work through defensive layers without rushing into sweep traps. The position demands high-level technical understanding from both practitioners - the bottom player must coordinate multiple grips and pressure points while managing distance and angles, while the top player must methodically address each control mechanism without creating openings for the guard player's offensive arsenal. Understanding both perspectives provides comprehensive insight into one of modern BJJ's most sophisticated guard systems, revealing the strategic depth that makes this position effective at the highest levels of competition.
+**Russian Leg Lasso is an advanced gi open-guard variation where the bottom player threads a deep lasso behind the opponent's arm and reinforces it with collar and sleeve grips, forming a rotational pulley system for sweeps and submissions.**
+
+Emerging from the competitive evolution of the traditional lasso guard, the Russian variation layers additional control mechanisms onto an already powerful structure to defeat increasingly sophisticated passing games. It distinguishes itself from standard lasso guard through its deeper lasso configuration, strategic collar and sleeve grip combinations, and the ability to create multiple offensive threats simultaneously. The Russian variation emerged from the evolution of modern competition jiu-jitsu, where practitioners sought ways to enhance the already effective lasso guard with additional control mechanisms that would work against increasingly sophisticated guard passing strategies. From the bottom perspective, this guard offers exceptional control over the opponent's posture and base, creating opportunities for sweeps, submissions, and transitions that are difficult to defend when properly executed. The lasso itself functions as a mechanical pulley system, with the guard player's leg threaded through the opponent's arm creating a binding effect that can be amplified through proper grip configurations and hip positioning. From the top perspective, Russian Leg Lasso presents a complex passing puzzle that requires systematic dismantling of multiple control points, excellent base and posture maintenance, and the patience to work through defensive layers without rushing into sweep traps. The position demands high-level technical understanding from both practitioners - the bottom player must coordinate multiple grips and pressure points while managing distance and angles, while the top player must methodically address each control mechanism without creating openings for the guard player's offensive arsenal. Understanding both perspectives provides comprehensive insight into one of modern BJJ's most sophisticated guard systems, revealing the strategic depth that makes this position effective at the highest levels of competition.
 
 </section>
 
@@ -244,5 +281,7 @@ Russian Leg Lasso is an advanced variation of the traditional lasso guard that i
 
 
 </section>
+
+
 
 </main>

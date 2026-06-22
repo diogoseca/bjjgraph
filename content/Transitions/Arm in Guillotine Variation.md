@@ -10,6 +10,41 @@ description: "Master the arm-in guillotine variation from top control in BJJ. De
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Arm in Guillotine Variation",
+  "description": "Master the arm-in guillotine variation from top control in BJJ. Detailed guide to grip mechanics, trapped-arm finishing details, and escape strategies.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Arm in Guillotine Variation", "item": "https://bjjgraph.org/Transitions/Arm-in-Guillotine-Variation" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Arm in Guillotine Variation",
+  "description": "The arm-in guillotine variation is a front-headlock finish from top guillotine control where the opponent's own trapped near-side arm compresses one carotid while the attacker's forearm attacks the other, producing bilateral blood-choke pressure.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the arm-in guillotine variation from top control in BJJ. De
 </div>
 
 <section id="overview" class="content-section">
+
+**The arm-in guillotine variation is a front-headlock finish from top guillotine control where the opponent's own trapped near-side arm compresses one carotid while the attacker's forearm attacks the other, producing bilateral blood-choke pressure.**
 
 The arm-in guillotine variation occurs when the opponent's near-side arm becomes trapped inside the choking loop during a guillotine attempt from top position. Rather than a flaw in technique, this trapped arm creates a distinct finishing mechanic where the opponent's own shoulder and bicep compress against one side of their neck while the attacker's forearm pressures the opposite side. This bilateral compression produces one of the most efficient blood chokes in the front headlock system, requiring less raw squeezing force than the standard guillotine because the opponent's anatomy assists in creating the submission pressure.
 
@@ -218,5 +255,7 @@ The arm-in guillotine variation integrates into the guillotine control system as
 
 
 </section>
+
+
 
 </main>

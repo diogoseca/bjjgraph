@@ -10,6 +10,41 @@ description: "Master the clinch position in BJJ with comprehensive grip fighting
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Clinch",
+  "description": "Master the clinch position in BJJ with comprehensive grip fighting, takedown setups, and standing control strategies for gi and no-gi grappling.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Clinch", "item": "https://bjjgraph.org/Positions/Clinch" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Clinch",
+  "description": "The clinch is a close-range standing position in BJJ where both grapplers fight for upper-body control through underhooks, overhooks, and collar ties, contesting head position and balance to set up takedowns, throws, or guard pulls.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the clinch position in BJJ with comprehensive grip fighting
 </div>
 
 <section id="overview" class="content-section">
+
+**The clinch is a close-range standing position in BJJ where both grapplers fight for upper-body control through underhooks, overhooks, and collar ties, contesting head position and balance to set up takedowns, throws, or guard pulls.**
 
 The Clinch Position represents a fundamental standing control scenario where practitioners engage in close-range upper body control through various grip configurations and body positioning. Unlike pure striking range or ground positions, the clinch creates a specialized engagement zone where practitioners battle for positional dominance through upper body ties, head position, and balanced pressure. This position serves as a critical junction point between standing exchanges and ground transitions, offering pathways to takedowns, throws, and tactical repositioning. The clinch encompasses numerous specialized variations based on the specific grips employed (over/under hooks, collar ties, body locks) and the strategic objectives of the practitioners. Its importance spans across BJJ, wrestling, judo, and MMA contexts, making it a universal element of grappling systems worldwide.
 
@@ -175,13 +212,13 @@ In modern Brazilian Jiu-Jitsu, the clinch has evolved beyond simple takedown set
 
 - **[[Transitions/Double Leg Entry/Attacker|Double Leg Entry]]** (10% of attempts)
 
-- **[[Transitions/Single Leg Takedown/Attacker|Single Leg Takedown]]** (10% of attempts)
+- **[[Transitions/Single Leg Takedown/Attacker|Single Leg Takedown]]** (9% of attempts)
 
-- **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (10% of attempts)
+- **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (9% of attempts)
 
-- **[[Transitions/Duck Under/Attacker|Duck Under]]** (10% of attempts)
+- **[[Transitions/Duck Under/Attacker|Duck Under]]** (9% of attempts)
 
-- **[[Transitions/Fireman's Carry/Attacker|Fireman's Carry]]** (10% of attempts)
+- **[[Transitions/Fireman's Carry/Attacker|Fireman's Carry]]** (9% of attempts)
 
 - **[[Transitions/Kouchi Gari/Attacker|Kouchi Gari]]** (9% of attempts)
 
@@ -200,6 +237,8 @@ In modern Brazilian Jiu-Jitsu, the clinch has evolved beyond simple takedown set
 - **[[Transitions/Body Lock Takedown from Clinch/Attacker|Body Lock Takedown from Clinch]]** (2% of attempts)
 
 - **[[Transitions/Two-on-One to Back Take/Attacker|Two-on-One to Back Take]]** (2% of attempts)
+
+- **[[Guillotine Choke from Clinch/Attacker|Guillotine Choke from Clinch]]** (4% of attempts)
 
 
 ### Common Mistakes
@@ -264,6 +303,18 @@ In modern Brazilian Jiu-Jitsu, the clinch has evolved beyond simple takedown set
 
 - **[[Transitions/Snap Down to Front Headlock]]** - Key clinch-to-control transition via level change
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/MMA-Crossover-Strategy" data-cta="related-system-card" data-system-slug="systems/mma-crossover-strategy" data-system-name="MMA Crossover Strategy" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">MMA Crossover Strategy</span><span class="system-card__unlocks-badge">Unlocks 27 techniques</span><span class="system-card__blurb">Standing control position bridging striking and grappling exchanges</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Standing-Defense-Strategy" data-cta="related-system-card" data-system-slug="systems/standing-defense-strategy" data-system-name="Standing Defense Strategy" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Standing Defense Strategy</span><span class="system-card__unlocks-badge">Unlocks 27 techniques</span><span class="system-card__blurb">Close-range standing position where grip fighting and takedown defense occur</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Self-Defense-Application-Framework" data-cta="related-system-card" data-system-slug="systems/self-defense-application-framework" data-system-name="Self-Defense Application Framework" data-member-count="18"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Self-Defense Application Framework</span><span class="system-card__unlocks-badge">Unlocks 18 techniques</span><span class="system-card__blurb">Critical control position for neutralizing strikes and controlling distance</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

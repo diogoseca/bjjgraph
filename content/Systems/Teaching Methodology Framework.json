@@ -13,7 +13,8 @@
   ],
   "system_type": "Training Methodology",
   "difficulty_level": "Advanced",
-  "overview": "The Teaching Methodology Framework represents a comprehensive systematic approach to Brazilian Jiu-Jitsu instruction that synthesizes the most effective pedagogical principles from elite-level coaches. This framework emphasizes progressive resistance training, positional hierarchy understanding, and technical precision over athleticism. The system recognizes that effective BJJ instruction requires more than demonstrating techniques - it demands a structured progression that develops both technical knowledge and problem-solving abilities. The methodology integrates three critical components: conceptual understanding of fundamental principles, systematic drilling progressions that build muscle memory, and controlled sparring environments that allow safe experimentation. Unlike traditional approaches that focus on memorizing large numbers of techniques, this framework emphasizes depth over breadth, ensuring students develop robust foundational skills before progressing to advanced material. The system also addresses the critical relationship between instruction methodology and student retention, recognizing that properly structured classes create confident practitioners who remain engaged long-term.",
+  "summary": "The Teaching Methodology Framework is a systematic BJJ instruction model that sequences learning through the positional hierarchy and a five-tier progressive-resistance protocol, building defensive survival before offense and conceptual understanding before technique.",
+  "overview": "Synthesizing the most effective pedagogical principles from elite-level coaches, this framework treats instruction as more than demonstrating techniques: it demands a structured progression that develops both technical knowledge and problem-solving ability. It emphasizes progressive resistance training, positional hierarchy understanding, and technical precision over athleticism. The methodology integrates three critical components: conceptual understanding of fundamental principles, systematic drilling progressions that build muscle memory, and controlled sparring environments that allow safe experimentation. Unlike traditional approaches that focus on memorizing large numbers of techniques, this framework emphasizes depth over breadth, ensuring students develop robust foundational skills before progressing to advanced material. The system also addresses the critical relationship between instruction methodology and student retention, recognizing that properly structured classes create confident practitioners who remain engaged long-term. By organizing the curriculum around defensive survival first, neutral control second, and offensive dominance third, instructors give students a logical map that mirrors actual fighting priorities and prevents the formation of incomplete games with positional gaps.",
   "key_principles": [
     "Position before submission - establish and maintain dominant positions before attempting finishes",
     "Progressive resistance - gradually increase opponent resistance as student competence develops",
@@ -378,6 +379,40 @@
       "name": "Energy Conservation",
       "content_type": "Principle",
       "relationship": "Important concept for sustainable training practices, pacing, and long-term practitioner longevity"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What is the core sequencing principle of the Teaching Methodology Framework?",
+      "answer": "Students master defensive survival from the worst positions before learning any offense, and grasp the conceptual 'why' before drilling the technical 'how', following the positional hierarchy from defense to neutral to offense."
+    },
+    {
+      "question": "What are the five resistance levels in the progressive resistance drilling protocol?",
+      "answer": "Static positioning (0%), cooperative movement (25%), light resistance with known defense (50%), moderate resistance with limited options (75%), and full resistance with all options available (100%); students must succeed consistently at each before advancing."
+    },
+    {
+      "question": "Why does the framework teach defensive escapes before offensive submissions?",
+      "answer": "Survival skills mirror real fighting priorities — a student must be able to protect themselves from bottom mount and side control before learning to attack, which prevents incomplete games with dangerous positional gaps."
+    },
+    {
+      "question": "How does positional sparring improve on random rolling for skill development?",
+      "answer": "Positional sparring starts from defined positions with specific objectives, constraints, and time limits, producing far more relevant repetitions of a target skill and letting the instructor observe and correct specific deficiencies."
+    },
+    {
+      "question": "What is the most common drilling error this framework is designed to prevent?",
+      "answer": "Introducing too much resistance too early, which forces students to rely on strength and athleticism instead of technique and reinforces poor mechanics before the movement pattern is established."
+    },
+    {
+      "question": "How should an instructor limit technique volume per class under this framework?",
+      "answer": "Present only 2-3 related movements per class and require extensive drilling with progressive resistance, prioritizing depth and quality of execution over breadth and variety of techniques demonstrated."
+    },
+    {
+      "question": "What does the Conceptual Framework Integration component aim to develop?",
+      "answer": "It teaches every technique within universal concepts like framing, hip escape mechanics, weight distribution, and connection breaking, turning students into pattern-recognizing problem solvers rather than technique collectors."
+    },
+    {
+      "question": "How does the framework determine whether a student is ready to advance?",
+      "answer": "Through structured positional sparring and comprehensive assessments across all major positions, verifying positional proficiency, technical execution quality, and conceptual understanding before allowing progression to advanced material."
     }
   ]
 }

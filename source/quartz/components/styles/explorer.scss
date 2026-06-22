@@ -39,8 +39,11 @@
   // Render the webkit/Firefox scrollbar on the LEFT edge of the list while
   // keeping child layout LTR. Vertical mask gradient is unaffected.
   direction: rtl;
-  // Default `overscroll-behavior: auto` — when this inner list reaches its
-  // top/bottom edge, the scroll continues into the parent .explorer.
+  // overscroll-behavior intentionally left `auto`: when this inner list reaches
+  // its top/bottom edge, the wheel CHAINS up to the outer .sidebar.left so the
+  // explorer keeps scrolling. The body-leak guard lives one layer up on
+  // .sidebar.left { overscroll-behavior-y: contain } (base.scss), so the chain
+  // stops there and never moves <body> / the --drawer-progress graph mechanic.
 
   // Fade mask: transparent at top/bottom edges, opaque in middle
   mask-image: linear-gradient(
@@ -133,6 +136,29 @@
 
   > #explorer-ul {
     max-height: none;
+
+    // This <ul> is the drawer's real scroll container: inside #sidebar-overlay the base
+    // `.sidebar { overflow-y: auto }` rule doesn't apply (it's scoped to the page grid the
+    // drawer is lifted out of), so scrolling falls to this `ul.overflow`. Flip its direction
+    // so the scrollbar sits on the LEFT edge of the drawer, matching the inner
+    // .scrollable-list scrollbars; restore ltr on the items so text/indentation are intact.
+    direction: rtl;
+
+    > li {
+      direction: ltr;
+    }
+
+    // Subtle 4px scrollbar to match .scrollable-list / .sidebar (instead of the chunky default)
+    &::-webkit-scrollbar {
+      width: 4px;
+    }
+    &::-webkit-scrollbar-thumb {
+      background: var(--lightgray);
+      border-radius: 4px;
+    }
+    &:hover::-webkit-scrollbar-thumb {
+      background: var(--gray);
+    }
   }
 }
 

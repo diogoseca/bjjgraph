@@ -439,7 +439,7 @@ Master Keenan Cornelius Lapel Guard System in BJJ. Comprehensive framework using
 
 ### [[Kimura Trap System]]
 
-Master Kimura Trap System in BJJ. Framework connecting control to submissions and back takes. Danaher's systematic approach to offensive dominance.
+Master the Kimura Trap System in BJJ: a control-and-submission framework that chains the figure-four grip into back takes, sweeps, mounts, and finishes.
 
 ### [[Lachlan Giles Leg Lock Defense Framework]]
 

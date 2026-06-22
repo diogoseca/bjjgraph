@@ -10,6 +10,41 @@ description: "Master underhook pummeling from the clinch in BJJ. Complete guide 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Underhook Pummeling from Clinch",
+  "description": "Master underhook pummeling from the clinch in BJJ. Complete guide to pummel sequences, timing windows, and hand fighting for dominant inside position control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Underhook Pummeling from Clinch", "item": "https://bjjgraph.org/Transitions/Underhook-Pummeling-from-Clinch" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Underhook Pummeling from Clinch",
+  "description": "Underhook pummeling from the clinch is the systematic arm-swimming battle to recover inside position, threading your forearm beneath the opponent's controlling arm to establish an underhook that grants head control, takedown entries, and back-take access.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master underhook pummeling from the clinch in BJJ. Complete guide 
 </div>
 
 <section id="overview" class="content-section">
+
+**Underhook pummeling from the clinch is the systematic arm-swimming battle to recover inside position, threading your forearm beneath the opponent's controlling arm to establish an underhook that grants head control, takedown entries, and back-take access.**
 
 Underhook pummeling is the foundational skill for winning inside position battles in the clinch. When your opponent has established dominant grips through overhooks, collar ties, or superior underhook positioning, pummeling provides the systematic methodology to fight back to an advantageous position. The technique involves swimming your arm underneath your opponent's controlling arm to establish an underhook, granting inside position and access to takedown entries, back takes, and positional control.
 
@@ -223,5 +260,7 @@ Underhook pummeling is the critical link between defensive clinch play and offen
 
 
 </section>
+
+
 
 </main>

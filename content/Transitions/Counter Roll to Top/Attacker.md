@@ -243,9 +243,9 @@ The mechanical chain requires coordinated action across your entire body: feet d
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Gift Wrap]] | 55% |
-| Failure | [[Positions/Gift Wrap]] | 30% |
-| Counter | [[Positions/Back Control]] | 15% |
+| Success | [[Positions/Gift Wrap]] | 28% |
+| Failure | [[Positions/Gift Wrap]] | 47% |
+| Counter | [[Positions/Back Control]] | 25% |
 
 
 </section>
@@ -340,5 +340,7 @@ Positional sparring from Gift Wrap Bottom with full resistance. Defender attempt
 The Counter Roll to Top involves explosive rotational movement from a compromised position, which carries inherent risks. Primary injury concerns include: neck strain from rolling while under choke threat (never attempt if choke is already locked in), shoulder injury if the trapped arm is pulled beyond comfortable range during rotation, and collision injuries if training space is limited. Start all drilling with cooperative partners at low speed to develop the rolling mechanics safely. Never attempt this technique when a rear naked choke is fully secured - focus on choke defense first. Avoid this technique if you have pre-existing neck or shoulder injuries. In training, tap immediately if anything feels wrong during the rotation rather than trying to power through. Ensure adequate mat space before attempting in live rolling.
 
 </section>
+
+
 
 </main>

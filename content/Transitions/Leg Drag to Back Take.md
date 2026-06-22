@@ -10,6 +10,41 @@ description: "Master Leg Drag to Back Take in BJJ. Execute this high-percentage 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Leg Drag to Back Take",
+  "description": "Master Leg Drag to Back Take in BJJ. Execute this high-percentage transition from leg drag control to back control with systematic grip changes and hook insertion.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Leg Drag to Back Take", "item": "https://bjjgraph.org/Transitions/Leg-Drag-to-Back-Take" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Leg Drag to Back Take",
+  "description": "Leg Drag to Back Take is a high-percentage guard-passing transition where the top player exploits the opponent's instinct to turn away from leg drag control, following the rotation to insert hooks and secure dominant back control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Leg Drag to Back Take in BJJ. Execute this high-percentage 
 </div>
 
 <section id="overview" class="content-section">
+
+**Leg Drag to Back Take is a high-percentage guard-passing transition where the top player exploits the opponent's instinct to turn away from leg drag control, following the rotation to insert hooks and secure dominant back control.**
 
 The Leg Drag to Back Take represents one of the highest-percentage transitions in modern Brazilian Jiu-Jitsu, capitalizing on the positional dominance already established through leg drag control. When you have successfully dragged your opponent's leg across their body and established hip control, the natural defensive reaction of turning away to protect their guard creates the perfect opportunity for back exposure. This transition exploits fundamental biomechanics: the crossed leg limits hip mobility while your pressure forces a choice between staying flat and giving up side control, or turning away and exposing the back.
 
@@ -224,5 +261,7 @@ The Leg Drag to Back Take is a cornerstone technique in modern guard passing sys
 
 
 </section>
+
+
 
 </main>

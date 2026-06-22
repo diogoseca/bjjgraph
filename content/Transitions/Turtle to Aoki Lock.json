@@ -1,0 +1,343 @@
+{
+  "name": "Turtle to Aoki Lock",
+  "description": "Enter the Aoki Lock from Turtle Top in no-gi BJJ. Isolate the arm, thread your leg over the shoulder, and entangle to secure this leg-trapped shoulder lock control.",
+  "tags": [
+    "bjj",
+    "transition",
+    "no-gi",
+    "turtle",
+    "shoulder-lock",
+    "aoki-lock",
+    "leg-entanglement",
+    "advanced"
+  ],
+  "from_position": "Turtle/Top",
+  "outcomes": [
+    {
+      "to": "Aoki Lock Control/Top",
+      "probability": 50,
+      "result": "success"
+    },
+    {
+      "to": "Turtle/Top",
+      "probability": 32,
+      "result": "failure"
+    },
+    {
+      "to": "Back Control/Bottom",
+      "probability": 18,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 50,
+  "summary": "Turtle to Aoki Lock is a no-gi entry in which the top player attacking a turtled opponent isolates the near arm, threads a leg over the shoulder, and entangles the limb to secure the leg-trapped shoulder lock control.",
+  "overview": "Turtle to Aoki Lock is the primary leg-entanglement entry into the Aoki Lock shoulder-lock control, executed by the top player who is breaking down or attacking a turtled opponent. From a strong front-headlock or side-riding position over the turtle, the attacker isolates the opponent's near arm, drives a knee in front of the far shoulder, and threads a leg over the trapped arm to create the signature leg-over-shoulder entanglement that defines the Aoki Lock. Named after Shinya Aoki, who popularized leg-trapped shoulder locks in MMA, this entry converts the relatively neutral turtle exchange into a high-control submission state.\n\nThe entry exploits the fact that a turtling opponent must keep their elbows tight to protect their neck and back, but in doing so they leave the shoulder girdle accessible to a vertical leg trap. By stuffing the head, peeling the near arm away from the body, and stepping the leg over, the attacker isolates the shoulder complex before the opponent can return to a tight defensive shell. Timing is critical: the leg must come over while the arm is extended and before the opponent can either re-tuck the elbow or explode out the back door to attack the legs.\n\nBecause the turtle is a scramble-heavy position, this entry carries genuine risk. A premature or loose leg trap invites the opponent to roll through, attack the entangling leg, or scramble to the attacker's back. Done correctly, however, it lands the attacker in dominant Aoki Lock top control with immediate finishing, back-take, truck, and crucifix threats, making it one of the highest-value sequences available against a defensive turtle in modern no-gi grappling.",
+  "conditions": [
+    "Attacker has established top control over a turtled opponent, ideally with a front headlock or side-ride",
+    "Opponent's near arm can be peeled away from their body and extended",
+    "Attacker has a free leg available to thread over the opponent's shoulder",
+    "Opponent has not yet exploded back to standing or initiated a scramble to the legs"
+  ],
+  "related_content": [
+    {
+      "name": "Aoki Lock Control",
+      "relationship": "Target position - the leg-trapped shoulder lock control reached on success"
+    },
+    {
+      "name": "Aoki Lock",
+      "relationship": "Primary submission finish available immediately after this entry succeeds"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Starting position - the entry is launched from top control over a turtled opponent"
+    },
+    {
+      "name": "Front Headlock",
+      "relationship": "Common preceding control that sets up the arm isolation for this entry"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Counter outcome - opponent can scramble to attacker's back if the leg trap fails"
+    },
+    {
+      "name": "Aoki Lock to Back Control",
+      "relationship": "Follow-up transition once Aoki Lock control is established"
+    },
+    {
+      "name": "Aoki Lock to Crucifix",
+      "relationship": "Follow-up transition when the opponent's far arm becomes exposed"
+    },
+    {
+      "name": "Truck",
+      "relationship": "Alternative control destination reachable from Aoki Lock after this entry"
+    }
+  ],
+  "attacker": {
+    "name": "Turtle to Aoki Lock Attacker",
+    "description": "How to enter the Aoki Lock from Turtle Top in no-gi. Arm isolation, leg-over-shoulder entanglement, and finishing setup with counters and common errors.",
+    "overview": "As the attacker, your goal is to convert top control over a turtled opponent into the leg-entangled Aoki Lock shoulder lock. The sequence hinges on isolating the near arm, breaking it away from the opponent's tight defensive shell, and threading your leg over their shoulder to trap the arm vertically against your hip and thigh. This is a no-gi specialty entry that rewards aggressive arm-hunting and precise timing over strength.\n\nThe controlling concept is that a turtling opponent protects their neck and back by keeping elbows pinned, which paradoxically presents the shoulder joint as the weak link. Once you peel the elbow up and away, the shoulder loses its protective alignment and your leg can cross over to trap it. From there, you sit your hips back and rotate, loading omoplata-style pressure onto the isolated shoulder while your legs form the entanglement that gives the position its control.\n\nSpeed and commitment matter because the turtle is inherently scramble-prone. Hesitating after you peel the arm lets the opponent re-tuck the elbow or spin to your back. The most reliable entries come from a strong front headlock or side-ride where you have already compromised the opponent's posture and isolated the head and one arm before stepping the leg over.",
+    "key_principles": [
+      "Isolate and extend the opponent's near arm before attempting to step your leg over - a tucked elbow blocks the entry",
+      "Stuff the head and control posture first so the opponent cannot stand up or spin out during the entry",
+      "Thread your leg over the shoulder, not the bicep, to trap the full shoulder complex and create rotational leverage",
+      "Sit your hips back and rotate as the leg crosses to load omoplata-style pressure and tighten the entanglement",
+      "Keep your legs actively squeezing the trapped arm so the opponent cannot extract before you settle",
+      "Commit decisively once the arm is peeled - hesitation invites the back-door scramble to your back",
+      "Control the far hip or far side with your hands to prevent the opponent from rolling through the entanglement"
+    ],
+    "setup_requirements": [
+      "Top control established over a turtled opponent, ideally with a front headlock or tight side-ride",
+      "The opponent's near arm peeled away from their torso and extended enough to thread a leg over",
+      "Your hips positioned close to the opponent's shoulder so your thigh can cross the shoulder line",
+      "A free leg available and unweighted, ready to step over the trapped arm",
+      "Head and posture control on the opponent so they cannot drive forward to stand or roll backward"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Break down the turtle and establish a front headlock",
+        "description": "From top position over the turtled opponent, drive your weight forward and snag a front headlock or tight chin-strap, flattening their posture so their head is low and their hips cannot rise. This removes their ability to stand up and forces them to commit to defending in the turtle shell, where their arms become accessible."
+      },
+      {
+        "step_number": 2,
+        "action": "Isolate and peel the near arm",
+        "description": "Reach across and dig your hand under the opponent's near elbow, then peel the arm up and away from their ribs. You must break it free of the tight defensive tuck so the shoulder loses its protective alignment. Pin the wrist or upper arm against your body so the limb stays extended and cannot be re-tucked once you commit to the leg."
+      },
+      {
+        "step_number": 3,
+        "action": "Drive your knee in front of the shoulder",
+        "description": "Step your near-side knee forward so it lands in front of the opponent's isolated shoulder, creating a wedge between their arm and their body. This knee wedge prevents the arm from returning and prepares the lane for your shin and thigh to cross over the shoulder line on the next step."
+      },
+      {
+        "step_number": 4,
+        "action": "Thread the leg over the shoulder",
+        "description": "With the arm extended and the knee wedged, swing your free leg over the top of the opponent's shoulder so your thigh lands across the back of their shoulder and your shin controls the upper arm. This is the defining moment of the Aoki Lock entry - the leg-over-shoulder trap isolates the entire shoulder complex rather than just the bicep."
+      },
+      {
+        "step_number": 5,
+        "action": "Lock the entanglement and sit to your hip",
+        "description": "Cross or triangle your legs around the trapped arm to lock the entanglement, then sit your hips back toward the mat on the trapped-arm side. Sitting back loads rotational, omoplata-style pressure onto the shoulder and removes the opponent's ability to follow you and relieve the tension. Keep your legs squeezing throughout so the arm cannot slide out."
+      },
+      {
+        "step_number": 6,
+        "action": "Settle into Aoki Lock control and manage the far side",
+        "description": "Post your free leg for base and reach to control the opponent's far hip or far-side limb with your hands, killing their ability to roll through the entanglement. Settle your weight to consolidate the Aoki Lock top control, from which you can now threaten the finish, the back take, the truck, or the crucifix."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent re-tucks the elbow tight to their ribs before you can thread the leg",
+        "effectiveness": "High",
+        "your_response": "Maintain your peel and use your knee wedge to keep the lane open; if the elbow is fully recovered, abandon the leg-over and switch to a front-headlock attack or back take rather than forcing a closed entry.",
+        "targets_outcome": "Turtle/Top"
+      },
+      {
+        "counter": "Opponent explodes backward and spins to attack your back as you commit the leg",
+        "effectiveness": "Medium",
+        "your_response": "Recognize the spin early and either follow to maintain top control over the turtle, or if they win the angle, fight hands immediately to deny the seatbelt and prevent them from securing your back.",
+        "targets_outcome": "Back Control/Bottom"
+      },
+      {
+        "counter": "Opponent grips your entangling leg and tries to strip it off the shoulder",
+        "effectiveness": "Medium",
+        "your_response": "Sit deeper to your hip and apply the rotational shoulder pressure so they must release the grip to defend the joint; tighten the leg triangle so the limb cannot be peeled away.",
+        "targets_outcome": "Turtle/Top"
+      },
+      {
+        "counter": "Opponent drives forward to stand and run out the front door",
+        "effectiveness": "Low",
+        "your_response": "Your prior head and posture control should already deny this; if they begin to rise, re-flatten the head with the front headlock and reset the arm isolation before re-attempting the leg-over.",
+        "targets_outcome": "Turtle/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Stepping the leg over before the arm is peeled and extended",
+        "consequence": "The trapped arm stays tucked and the entanglement isolates only the bicep, giving the opponent an easy arm extraction and escape back to turtle.",
+        "correction": "Always peel and extend the near arm fully and wedge your knee in front of the shoulder before threading the leg, so the leg traps the whole shoulder complex."
+      },
+      {
+        "error": "Neglecting head and posture control during the entry",
+        "consequence": "The opponent stands up or drives forward out the front door, completely escaping the entry and resetting to a neutral scramble.",
+        "correction": "Secure a front headlock or chin-strap and flatten the opponent's posture first, keeping their head low throughout the arm isolation and leg-over steps."
+      },
+      {
+        "error": "Hesitating after peeling the arm instead of committing to the leg-over",
+        "consequence": "The pause gives the opponent time to re-tuck the elbow or spin to your back, turning a dominant entry into a scramble you may lose.",
+        "correction": "Treat the peel and the leg-over as one continuous, committed motion - once the arm is free, the leg must come over immediately."
+      },
+      {
+        "error": "Failing to control the far hip after the entanglement is set",
+        "consequence": "The opponent rolls through the trapped shoulder and either escapes or reverses, since nothing prevents them turning into the entanglement.",
+        "correction": "As you settle, reach to control the far hip or far-side limb with your hands and post your free leg to kill the roll-through escape."
+      },
+      {
+        "error": "Applying rotational shoulder pressure explosively as soon as you settle",
+        "consequence": "A sudden crank risks a serious shoulder injury to your partner before they can recognize and tap, which is both dangerous and unsporting.",
+        "correction": "Settle the control first, then apply shoulder pressure gradually over several seconds while watching for tap signals, releasing immediately on any tap."
+      },
+      {
+        "error": "Letting the leg triangle loosen while you reach to control the far side",
+        "consequence": "The opponent extracts the trapped arm through the gap and escapes to turtle or to your back during the transition.",
+        "correction": "Keep your legs actively squeezing the trapped arm the entire time; only reach with one hand at a time so leg tension is never sacrificed for grip."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2: Arm Isolation Mechanics",
+        "focus": "Peeling and extending the near arm from a static turtle",
+        "description": "With a compliant partner in turtle, drill digging under the near elbow, peeling the arm away from the ribs, and wedging your knee in front of the shoulder. Repeat 15-20 times per side, focusing on breaking the elbow tuck cleanly without yet stepping the leg over."
+      },
+      {
+        "phase": "Week 3-4: Leg-Over Entry",
+        "focus": "Threading the leg over the shoulder and locking the entanglement",
+        "description": "From the isolated-arm position, drill threading the free leg over the shoulder, locking the leg triangle, and sitting to your hip. Partner provides light resistance. Emphasize the continuous peel-to-leg-over motion and maintaining leg tension throughout. 10-15 repetitions per side."
+      },
+      {
+        "phase": "Week 5-8: Entry Against Reactive Defense",
+        "focus": "Completing the entry while the opponent defends",
+        "description": "Partner provides medium resistance and actively re-tucks the elbow, grips the leg, or attempts to spin out. Practice reading and beating each defense, and recognizing when to abandon the entry for a back take or front headlock attack instead. 3-minute rounds, multiple per session."
+      },
+      {
+        "phase": "Month 3+: Live Turtle Attacking",
+        "focus": "Hitting the entry in live scrambles from the turtle",
+        "description": "Start with one partner in turtle and the other attacking with full resistance. Work to set up the front headlock, isolate the arm, and hit the Aoki Lock entry against a fully resisting, scrambling opponent. Develop timing, transition awareness, and safe finishing under pressure."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "Why must you peel and extend the opponent's near arm before threading your leg over the shoulder?",
+        "answer": "A turtling opponent keeps their elbows tucked tight to protect the neck and back, which also keeps the shoulder in a protected alignment. If you step the leg over before peeling the arm, you trap only the bicep and the opponent can easily extract. Peeling and extending the arm first breaks the protective alignment so the leg-over isolates the entire shoulder complex, which is what gives the Aoki Lock its control and finishing leverage."
+      },
+      {
+        "question": "What role does the front headlock or head control play in the Turtle to Aoki Lock entry?",
+        "answer": "Head and posture control via a front headlock flattens the opponent and removes their primary turtle escapes: standing up and driving forward out the front door. With the head pinned low, the opponent is forced to defend in the shell where their arm is accessible, and they cannot generate the upward drive needed to escape while you peel the arm and step the leg over. Without this control, the opponent simply stands and runs out of the entry."
+      },
+      {
+        "question": "What is the biggest risk if you hesitate after peeling the arm, and how do you avoid it?",
+        "answer": "Hesitation gives the opponent time to either re-tuck their elbow tight to the ribs, restoring their defensive shell, or explode backward and spin to attack your back, turning a dominant entry into a losing scramble. You avoid this by treating the arm peel and the leg-over as a single continuous, committed motion - the moment the arm is free and extended, the leg comes over immediately and the entanglement locks before the opponent can react."
+      },
+      {
+        "question": "After locking the entanglement, why is controlling the far hip important?",
+        "answer": "Once your legs trap the shoulder, the opponent's primary escape is to roll through the entanglement by turning into it. Reaching to control the far hip or far-side limb, combined with posting your free leg, kills that roll-through by removing the opponent's ability to turn and reverse. Without far-side control, the opponent can spin out of the trapped shoulder and escape to turtle or even to your back during the transition."
+      },
+      {
+        "question": "How should you apply the shoulder pressure safely once you have settled into Aoki Lock control?",
+        "answer": "Settle and consolidate the control first, then apply the rotational, omoplata-style shoulder pressure gradually over several seconds using a controlled hip rotation rather than an explosive crank. Watch your partner constantly for verbal or physical tap signals and release immediately on any tap. The shoulder joint is fragile and a sudden application can cause rotator cuff tears, labrum damage, or dislocation before the partner can react, so progressive pressure is mandatory."
+      }
+    ],
+    "safety_considerations": "The Aoki Lock is a shoulder lock and carries genuine injury risk - rotator cuff tears, labrum damage, and shoulder dislocation are all possible if pressure is applied too fast or held past the tap. Apply the rotational shoulder pressure gradually over several seconds and release instantly on any verbal or physical tap. Because this entry happens in a scramble-heavy turtle exchange, also protect both players' necks during the front headlock phase by never cranking the neck for control, and ensure adequate mat space since the leg-over and roll-through reactions cover ground."
+  },
+  "defender": {
+    "name": "Turtle to Aoki Lock Defender",
+    "description": "Defend the Aoki Lock entry from Turtle Bottom in no-gi. Recognize the arm peel and leg-over, keep your elbow tucked, and escape before the shoulder lock entanglement locks.",
+    "overview": "As the defender, you are in the turtle being attacked by a top player who is hunting your near arm to enter the Aoki Lock shoulder lock. Your entire defense rests on protecting the shoulder by keeping your elbows tucked tight to your body and denying the attacker the extended arm they need to thread their leg over. Once the leg crosses your shoulder and the entanglement locks, you are in a dangerous, hard-to-escape control, so the battle must be won during the entry, not after.\n\nThe key recognition is feeling the attacker dig under your near elbow and try to peel your arm away from your ribs. The moment you sense this, you must fight to keep the elbow glued to your side and your shoulder rolled under, because an exposed, extended arm is exactly what the entry requires. If they wedge a knee in front of your shoulder, the leg-over is imminent and you must act immediately by either re-tucking, exploding out, or spinning to deny the entanglement.\n\nBecause the turtle is a scramble position, your best escapes are dynamic: spinning to face the attacker, exploding backward to attack their back, or standing up before they flatten your head. The worst outcome is staying static while they isolate the arm. Defended early and aggressively, this entry is low-percentage; defended late, after the leg is over, you may be forced to tap to protect the shoulder.",
+    "key_principles": [
+      "Keep your elbows tucked tight to your ribs - an extended arm is the prerequisite the attacker needs",
+      "Roll your near shoulder under and protect the joint the instant you feel the arm being peeled",
+      "Recognize the knee-wedge in front of your shoulder as the final warning before the leg comes over",
+      "Stay dynamic - spin, stand, or explode rather than defending statically inside the shell",
+      "Fight the head and posture control early so you retain the option to stand up and out",
+      "Tap early if the leg-over locks and shoulder pressure builds - the joint is not worth an injury"
+    ],
+    "recognition_cues": [
+      "You feel the top player dig a hand under your near elbow and begin peeling the arm away from your ribs",
+      "The attacker drives a knee forward so it wedges in front of your shoulder, blocking your arm from re-tucking",
+      "You sense the attacker's hips lowering and a leg beginning to swing over the top of your shoulder line"
+    ],
+    "defensive_options": [
+      {
+        "action": "Glue your elbow to your ribs and roll your shoulder under to deny the arm peel",
+        "when_to_use": "The instant you feel the attacker dig under your near elbow, before the arm is extended",
+        "targets_outcome": "Turtle/Top",
+        "if_successful": "The attacker cannot extend your arm or thread their leg, and you remain in a defensible turtle",
+        "risk": "Fixating on the arm can let the attacker advance to a back take or front headlock if you stop moving"
+      },
+      {
+        "action": "Explode backward and spin to attack the top player's back as they commit the leg",
+        "when_to_use": "When the attacker commits weight forward to step the leg over, opening a path behind them",
+        "targets_outcome": "Back Control/Bottom",
+        "if_successful": "You spin out of the entry and take the attacker's back, reversing the exchange entirely",
+        "risk": "If you mistime the spin, you feed the attacker the extended arm and accelerate the Aoki Lock entry"
+      },
+      {
+        "action": "Stand up and drive forward out the front door before your head is flattened",
+        "when_to_use": "Early, while you still have posture and the attacker has not secured a tight front headlock",
+        "targets_outcome": "Turtle/Top",
+        "if_successful": "You rise out of the turtle to a neutral standing or scramble position, denying the entry completely",
+        "risk": "Standing exposes your back briefly, and a strong front headlock can snap you back down if you are late"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Turtle/Top",
+        "how": "Defend the entry by keeping your elbow tucked and your shoulder protected so the attacker fails to peel the arm, forcing them to abandon the leg-over and reset. Stay heavy and mobile in the turtle so you retain the option to stand or spin."
+      },
+      {
+        "outcome": "Back Control/Bottom",
+        "how": "Time the attacker's forward commitment to the leg-over and explode backward, spinning behind them to take the back. The same forward weight that powers their entry creates the lane for your spin if you act decisively."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Letting your near arm drift away from your ribs while defending the turtle",
+        "consequence": "The exposed, extendable arm is exactly what the attacker needs, and they can peel it and thread the leg over to enter the Aoki Lock.",
+        "correction": "Keep both elbows pinned tight to your sides at all times in the turtle, treating the arm as the single most important thing to protect."
+      },
+      {
+        "error": "Defending statically inside the shell instead of moving",
+        "consequence": "A static turtle gives the attacker unlimited time to isolate the arm, wedge the knee, and complete the leg-over entry.",
+        "correction": "Stay dynamic - constantly threaten to stand, spin, or explode backward so the attacker cannot settle into the methodical arm isolation."
+      },
+      {
+        "error": "Waiting too long to tap once the leg is over and the shoulder is loaded",
+        "consequence": "Once the entanglement is locked and rotational pressure builds, defending past the safe range risks rotator cuff tears, labrum damage, or dislocation.",
+        "correction": "If the leg-over locks and you cannot immediately spin or extract, tap early to protect the shoulder rather than enduring dangerous joint pressure."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "Why is keeping your elbow tucked the single most important defense against the Aoki Lock entry from turtle?",
+        "answer": "The entry requires the attacker to peel your near arm away from your ribs and extend it so they can thread a leg over the shoulder and trap the whole shoulder complex. If your elbow stays glued to your side and your shoulder is rolled under, there is no extended arm to trap, the knee-wedge has nothing to exploit, and the leg-over cannot isolate the shoulder. Protecting the tucked elbow denies the prerequisite for the entire technique."
+      },
+      {
+        "question": "What is the final warning sign that the leg-over is imminent, and how should you respond?",
+        "answer": "The final warning is feeling the attacker wedge a knee in front of your shoulder, which blocks your arm from re-tucking and clears the lane for the leg to come over. When you feel that knee wedge, you must act immediately - either explode backward to spin to their back using their forward commitment, or stand up and drive out the front door before the leg crosses. Waiting passively at this point almost guarantees the entanglement locks."
+      },
+      {
+        "question": "When should you stop defending and tap during this sequence?",
+        "answer": "You should tap early once the leg-over has locked the entanglement and you feel rotational pressure building on the shoulder without an immediate spin or extraction available. The Aoki Lock is a true shoulder lock that can cause rotator cuff tears, labrum damage, or dislocation, and these injuries occur quickly once pressure is applied. If you cannot escape the moment the lock is set, protecting the joint by tapping is the correct decision rather than risking a serious shoulder injury."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2: Arm Protection in Turtle",
+        "focus": "Keeping elbows tucked and shoulders protected under pressure",
+        "description": "With a partner attacking your turtle at light intensity, drill keeping both elbows glued to your ribs while they try to dig under and peel your near arm. Focus on rolling the shoulder under and never letting the arm extend. 3-minute defensive rounds."
+      },
+      {
+        "phase": "Week 3-4: Dynamic Escapes",
+        "focus": "Spinning out and standing up before the entry completes",
+        "description": "Partner attacks the arm at medium intensity. Practice timing your spin to their back as they commit to the leg, and standing up out the front door before your head is flattened. Emphasize moving early rather than waiting inside the shell. 10-15 repetitions of each escape."
+      },
+      {
+        "phase": "Week 5+: Live Defense and Safe Tapping",
+        "focus": "Defending the full entry under resistance and recognizing the tap point",
+        "description": "Partner attempts the complete Turtle to Aoki Lock entry with progressive resistance. Practice winning the exchange early through arm protection and dynamic escapes, and practice recognizing when the lock is set and tapping safely. Build the reflex to protect the shoulder and tap early when escape is unavailable."
+      }
+    ]
+  },
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Front Headlock Entry",
+      "description": "Establish a tight front headlock first to flatten the opponent's posture, then peel the now-exposed near arm and step the leg over the shoulder. The front headlock removes the stand-up and drive-forward escapes, making the arm isolation cleaner and the leg-over more reliable.",
+      "when_to_use": "When the opponent has good base in the turtle and threatens to stand up out the front door"
+    },
+    {
+      "variant_name": "Side-Ride Entry",
+      "description": "From a side-ride with a seatbelt or harness over the turtle, abandon the back-take attempt and instead drive the near knee in front of the shoulder, peel the arm, and thread the leg over from the side. This keeps the entry available even when the opponent is defending the back well.",
+      "when_to_use": "When the opponent is defending the back take strongly and hand-fighting your seatbelt"
+    }
+  ],
+  "position_integration": "The Turtle to Aoki Lock entry is the principal feeder transition that makes the Aoki Lock control reachable from the standard top-turtle attacking framework. It slots directly into the front-headlock and side-ride system that strong no-gi top players already use against the turtle, offering a shoulder-lock branch alongside the more familiar back-take and front-headlock-choke options. Once the entry succeeds, it connects forward into the full Aoki Lock attack tree - the direct shoulder-lock finish, the back take when the opponent defends the joint, the truck entry, and the crucifix when the far arm exposes - making this transition the gateway that links the turtle exchange to an entire advanced control-and-finishing system in modern no-gi grappling."
+}

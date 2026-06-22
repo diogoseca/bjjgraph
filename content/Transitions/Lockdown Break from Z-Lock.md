@@ -10,6 +10,41 @@ description: "Master the Lockdown Break from Z-Lock Half Guard. Systematic leg e
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Lockdown Break from Z-Lock",
+  "description": "Master the Lockdown Break from Z-Lock Half Guard. Systematic leg extraction to neutralize lockdown control and restore standard half guard passing options.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Lockdown Break from Z-Lock", "item": "https://bjjgraph.org/Transitions/Lockdown-Break-from-Z-Lock" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Lockdown Break from Z-Lock",
+  "description": "The Lockdown Break from Z-Lock is a top-player half guard transition that neutralizes the butterfly hook, strips the lockdown ankle hook, and extracts the trapped leg to restore standard Half Guard top passing control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Lockdown Break from Z-Lock Half Guard. Systematic leg e
 </div>
 
 <section id="overview" class="content-section">
+
+**The Lockdown Break from Z-Lock is a top-player half guard transition that neutralizes the butterfly hook, strips the lockdown ankle hook, and extracts the trapped leg to restore standard Half Guard top passing control.**
 
 The Lockdown Break from Z-Lock Half Guard is a critical positional maintenance technique for the top player who finds their leg trapped in the bottom player's Z-Lock configuration. The Z-Lock combines traditional lockdown mechanics with a butterfly hook element, creating a dual-threat entanglement that restricts the top player's mobility and exposes them to sweeps from multiple angles. Breaking this configuration is often the first tactical priority before attempting any guard pass, as the Z-Lock's enhanced control makes standard passing sequences ineffective or dangerous.
 
@@ -216,5 +253,7 @@ The Lockdown Break from Z-Lock occupies a critical role in the top player's half
 
 
 </section>
+
+
 
 </main>

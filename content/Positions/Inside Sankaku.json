@@ -2,7 +2,12 @@
   "name": "Inside Sankaku",
   "slug": "inside-sankaku",
   "description": "Master Inside Sankaku (Honey Hole) in BJJ. Complete guide covering setup, control mechanics, escapes, and finishing sequences with systematic breakdown.",
+  "aliases": [
+    "411",
+    "Inside Senkaku"
+  ],
   "variant_uniqueness": "Hip entanglement optimizes inside heel hook angle",
+  "summary": "Inside Sankaku is a dominant leg entanglement that traps the opponent's leg in a figure-four with your legs, exposing their inside heel for high-percentage inside heel hook attacks while controlling their hip and knee line.",
   "overview": "Inside Sankaku, also known as the 'Honey Hole' or '411', is an advanced leg entanglement position where the opponent's leg is trapped in a figure-four configuration that exposes the inside of their heel. This position is considered one of the most dominant leg entanglements in modern Brazilian Jiu-Jitsu, offering exceptional control and high-percentage submission opportunities. The configuration allows for devastating mechanical advantage in applying inside heel hooks while severely limiting the opponent's defensive options. The position is characterized by the practitioner's legs forming a triangle around the opponent's trapped leg, with the heel facing toward the attacker's centerline. This entanglement emerged as a cornerstone of modern leg lock systems, particularly in no-gi grappling, and has become essential knowledge for advanced practitioners competing in submission-only formats. The position provides superior control over the opponent's hip mobility while creating optimal angles for attacking with the inside heel hook. Understanding the systematic breakdown of defensive barriers - establishing the fundamental entanglement structure, controlling hip mobility, dominating the knee line to prevent rotation, and isolating heel exposure - is critical for success from this position. The strategic trade-off of Inside Sankaku is that while it offers tremendous offensive control, both practitioners are engaged in leg entanglements, requiring the top player to maintain superior positioning and control to prevent counter-attacks. Modern competition has proven this position to be among the highest percentage finishing positions when proper control protocols are followed.",
   "key_principles": [
     "Establish and maintain tight hip-to-hip connection to prevent opponent from creating escape space",
@@ -346,27 +351,35 @@
     },
     "transitions": [
       {
-        "transition": "Heel Hook from Inside Sankaku",
+        "transition": "Inside Sankaku Heel Hook",
         "attempt_probability": 40
       },
       {
+        "transition": "Heel Hook from Inside Sankaku",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Inside Sankaku to Saddle",
+        "attempt_probability": 8
+      },
+      {
         "transition": "Toe Hold from Inside Sankaku",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "Outside Ashi Entry",
-        "attempt_probability": 8
+        "attempt_probability": 7
       },
       {
         "transition": "Saddle Entry from Top",
-        "attempt_probability": 8
+        "attempt_probability": 5
       },
       {
         "transition": "50-50 Entry",
         "attempt_probability": 3
       },
       {
-        "transition": "Kneebar Finish",
+        "transition": "Kneebar from Inside Sankaku",
         "attempt_probability": 8
       },
       {
@@ -375,23 +388,11 @@
       },
       {
         "transition": "Rolling Back Take",
-        "attempt_probability": 10
+        "attempt_probability": 7
       },
       {
         "transition": "Inside Ashi-Garami to Honey Hole",
-        "attempt_probability": 6
-      },
-      {
-        "transition": "Inside Sankaku Heel Hook",
-        "attempt_probability": 1
-      },
-      {
-        "transition": "Inside Sankaku to Saddle",
-        "attempt_probability": 1
-      },
-      {
-        "transition": "Inside Heel Hook from Inside Sankaku",
-        "attempt_probability": 2
+        "attempt_probability": 5
       }
     ]
   },

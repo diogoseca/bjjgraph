@@ -10,6 +10,41 @@ description: "Master the Complete Pass from Quarter Guard in BJJ. Expert guide t
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Complete Pass from Quarter",
+  "description": "Master the Complete Pass from Quarter Guard in BJJ. Expert guide to leg extraction, crossface pressure, and finishing the pass to dominant side control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Complete Pass from Quarter", "item": "https://bjjgraph.org/Transitions/Complete-Pass-from-Quarter" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Complete Pass from Quarter",
+  "description": "The Complete Pass from Quarter Guard is the final guard-passing action in which the top player extracts their trapped leg from a deteriorated quarter guard while maintaining continuous crossface pressure to establish dominant side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Complete Pass from Quarter Guard in BJJ. Expert guide t
 </div>
 
 <section id="overview" class="content-section">
+
+**The Complete Pass from Quarter Guard is the final guard-passing action in which the top player extracts their trapped leg from a deteriorated quarter guard while maintaining continuous crossface pressure to establish dominant side control.**
 
 The Complete Pass from Quarter Guard represents the decisive final phase in the guard passing sequence, where the top player converts their near-dominant quarter guard position into established side control. This transition occurs when the bottom player's defensive structure has deteriorated to minimal leg engagement—typically just a weakened knee shield, partial hook, or ankle grip—and the top player must execute precise leg extraction while maintaining continuous upper body pressure. The technique demands immediate action because quarter guard is inherently unstable; delays of even three to five seconds allow the bottom player to rebuild defensive structures that transform the position back to contested half guard.
 
@@ -218,5 +255,7 @@ Complete Pass from Quarter Guard serves as the critical final checkpoint in the 
 
 
 </section>
+
+
 
 </main>

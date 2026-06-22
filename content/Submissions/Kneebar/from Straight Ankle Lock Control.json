@@ -1,5 +1,6 @@
 {
   "name": "Kneebar from Straight Ankle Lock Control",
+  "summary": "The kneebar from straight ankle lock control is a chain leg-lock submission that hyperextends the opponent's knee when their defense against the ankle lock—straightening the leg, standing, or rotating in—exposes the joint over the attacker's hip.",
   "description": "Master the kneebar from straight ankle lock control in BJJ. Complete guide covering setup mechanics, finishing details, defensive counters, and safety protocols.",
   "tags": [
     "bjj",
@@ -139,7 +140,7 @@
     }
   ],
   "attacker": {
-    "name": "from Straight Ankle Lock Control Attacker",
+    "name": "Kneebar from Straight Ankle Lock Control Attacker",
     "description": "Learn to execute the kneebar from straight ankle lock control. Step-by-step guide covering grip transitions, hip mechanics, and finishing details for this leg lock chain.",
     "overview": "Attacking with the kneebar from straight ankle lock control requires reading defensive reactions and converting them into knee hyperextension opportunities. The attacker must maintain constant connection to the opponent's leg throughout the grip transition from ankle to thigh, because any disconnection allows the defender to retract their leg and escape. The key tactical advantage is that the ankle lock threat forces a committed defensive response, and the kneebar punishes the most common defensive movements. This makes the combination a reliable two-attack chain where the first threat creates the opening for the second. Successful execution demands smooth hip repositioning, tight thigh control, and patient progressive finishing pressure that prevents the defender from spinning free or straightening the attacking line.",
     "key_principles": [
@@ -321,11 +322,16 @@
         "question": "How do you determine the point of no escape when finishing the kneebar from this position?",
         "answer": "The point of no escape occurs when three conditions are met simultaneously: the leg triangle is locked around the thigh preventing extraction, the foot is controlled preventing knee rotation, and your hips are positioned directly under the knee with extension pressure initiated. Once all three controls are established and hip extension begins, the opponent cannot escape through any single defensive movement and must tap or risk ligament damage.",
         "safety_critical": false
+      },
+      {
+        "question": "What is the most effective competition finishing strategy for the kneebar from this position?",
+        "answer": "Lock all three controls first - leg triangle around the thigh, foot pinned under the armpit, and hips directly beneath the knee - then finish with one committed, continuous hip extension rather than slow pumping that lets a fresh opponent spin or stack out. Against high-level defenders, deny the stall by keeping constant forward pressure and following them if they roll, so any rotation only deepens your alignment. The breaking force still comes from controlled hip drive, not a violent jerk, which finishes cleanly while leaving the opponent a fair window to tap.",
+        "safety_critical": false
       }
     ]
   },
   "defender": {
-    "name": "from Straight Ankle Lock Control Defender",
+    "name": "Kneebar from Straight Ankle Lock Control Defender",
     "description": "Defend the kneebar from straight ankle lock control. Recognition cues, escape sequences, and counter strategies to survive this dangerous leg lock transition.",
     "overview": "Defending the kneebar from straight ankle lock control requires recognizing the transition before it completes and executing immediate preventive action. The defender's primary challenge is that they are already in a compromised position defending the ankle lock when the kneebar threat emerges, creating a layered problem where addressing one threat may expose the other. Successful defense depends on early recognition of the grip change from ankle to thigh, immediate knee flexion to prevent hyperextension, and intelligent hip rotation that denies the attacker proper finishing alignment. The window for effective defense narrows rapidly once the attacker establishes the leg triangle around the thigh, making proactive prevention far more reliable than reactive escape.",
     "key_principles": [

@@ -10,6 +10,41 @@ description: "Master Restore Back Control in BJJ. Re-establish hooks and seat be
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Restore Back Control",
+  "description": "Master Restore Back Control in BJJ. Re-establish hooks and seat belt when opponent partially escapes back control through hook re-insertion, grip recovery, and hip adjustment.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Restore Back Control", "item": "https://bjjgraph.org/Transitions/Restore-Back-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Restore Back Control",
+  "description": "Restore Back Control is the recovery transition where an attacker re-establishes full back control—re-inserting hooks, recovering grips, and tightening chest connection—after an opponent partially escapes by clearing a hook or stripping the seat belt.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Restore Back Control in BJJ. Re-establish hooks and seat be
 </div>
 
 <section id="overview" class="content-section">
+
+**Restore Back Control is the recovery transition where an attacker re-establishes full back control—re-inserting hooks, recovering grips, and tightening chest connection—after an opponent partially escapes by clearing a hook or stripping the seat belt.**
 
 Restore Back Control is the critical recovery skill that separates elite back attackers from those who lose the position after initial resistance. When an opponent begins escaping back control—clearing a hook, pummeling out of the seat belt, or turning their hips—the window to restore full control is narrow but highly consequential. Rather than accepting the positional loss and transitioning to turtle top or half guard, skilled practitioners recognize the escape pattern early and execute targeted re-attachment sequences that return to full back control.
 
@@ -216,5 +253,7 @@ Restore Back Control sits at the critical junction between maintaining the most 
 
 
 </section>
+
+
 
 </main>

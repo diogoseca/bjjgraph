@@ -10,11 +10,59 @@ description: "Master the Kimura from Butterfly Guard in BJJ. Learn grip setup, h
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Kimura from Butterfly Guard targets the Shoulder joint, rotator cuff, and shoulder capsule. Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kimura from Butterfly Guard",
+  "description": "Master the Kimura from Butterfly Guard in BJJ. Learn grip setup, hook leverage, finishing mechanics, and counters for this high-percentage bottom submission.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Kimura from Butterfly Guard", "item": "https://bjjgraph.org/Submissions/Kimura-from-Butterfly-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kimura from Butterfly Guard",
+  "description": "The Kimura from Butterfly Guard is a bottom-position shoulder lock that uses butterfly hooks to off-balance the opponent while a figure-four grip rotates their trapped arm behind their back, forcing internal rotation past the shoulder's safe range.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+**The Kimura from Butterfly Guard is a bottom-position shoulder lock that uses butterfly hooks to off-balance the opponent while a figure-four grip rotates their trapped arm behind their back, forcing internal rotation past the shoulder's safe range.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Shoulder Lock</span>
+<span class="meta-chip">Targets Shoulder joint, rotator cuff, and shoulder capsule</span>
+<span class="meta-chip">62% success</span>
+</div>
+
+> [!danger] Safety
+> Kimura from Butterfly Guard targets the Shoulder joint, rotator cuff, and shoulder capsule. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
+
+<aside class="entity-relations">
+<p class="part-of-family"><em>Part of the</em> <strong>Kimura</strong> <em>family</em></p>
+</aside>
 <div class="role-links">
 
 [[Submissions/Kimura/from Butterfly Guard/Attacker|Play as Attacker]]
@@ -24,60 +72,13 @@ description: "Master the Kimura from Butterfly Guard in BJJ. Learn grip setup, h
 
 <section id="overview" class="content-section">
 
-The Kimura from Butterfly Guard is a high-percentage shoulder lock attack launched from the bottom position, leveraging the unique mechanical advantages of butterfly hooks to off-balance the opponent while securing the figure-four grip. Unlike Kimura attacks from closed guard or half guard, the butterfly guard version benefits from the seated upright posture and active hook engagement, allowing the attacker to use elevation and angle changes to expose the opponent's arm and create finishing opportunities. The setup integrates naturally with butterfly guard offense, making it a seamless addition to an already threatening position.
+Among butterfly guard's offensive arsenal, the Kimura stands out as the position's most reliable submission, converting a guard built primarily around sweeps into a genuine finishing threat. Unlike Kimura attacks from closed guard or half guard, the butterfly guard version benefits from the seated upright posture and active hook engagement, allowing the attacker to use elevation and angle changes to expose the opponent's arm and create finishing opportunities. The setup integrates naturally with butterfly guard offense, making it a seamless addition to an already threatening position.
 
 The attack typically arises when the opponent posts a hand to defend against butterfly sweeps or reaches forward to establish grips, creating the opening for wrist control and the subsequent figure-four lock. The butterfly hooks serve a dual purpose during the attack: they prevent the opponent from posturing away to break the grip, and they provide the elevation needed to create rotational space for the finish. This integration of sweep threat and submission attack creates a powerful dilemma where the opponent must choose between defending the sweep and exposing the arm, or defending the Kimura and becoming vulnerable to elevation.
 
 Advanced practitioners chain the Kimura attempt directly off failed or feinted butterfly sweeps, using the opponent's defensive hand posting as the entry point. The position also offers natural transitions to the Kimura Trap when the opponent resists the initial rotation, allowing the attacker to maintain the grip and advance to a more dominant finishing position. The butterfly guard Kimura rewards practitioners who develop sensitivity to weight distribution shifts and timing, as the technique depends heavily on catching the opponent in transitional moments rather than forcing the grip against a fully defended posture.
 
-**Category**: Joint Lock
-**Type**: Shoulder Lock
-**Target Area**: Shoulder joint, rotator cuff, and shoulder capsule
-**Starting Position**: [[Positions/Butterfly Guard]]
-**From Position**: [[Positions/Butterfly Guard]] (Bottom)
-**Success Rate**: 62%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) | High | 3-9 months with potential surgery requirement |
-| Shoulder capsule damage and dislocation | CRITICAL | 6-12 months, may require surgical repair |
-| Labral tear (glenoid labrum) | High | 4-8 months, often requires arthroscopic surgery |
-| Bicep tendon strain or rupture | Medium | 6-12 weeks for strain, 3-6 months for rupture |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training, allowing partner time to recognize danger and tap
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or making any verbal distress sound)
-- Physical hand tap (multiple taps with free hand)
-- Physical foot tap (multiple taps with either foot)
-- Any distress signal including screaming or unusual sounds
-
-
-**Release Protocol**:
-1. Immediately stop all rotational pressure the instant tap is felt or heard
-2. Return the arm toward neutral position (externally rotate back to starting position)
-3. Release the figure-four grip completely
-4. Allow partner to self-assess shoulder mobility before continuing
-5. Never release suddenly or allow arm to spring back forcefully
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - rotation must be smooth and controlled
-- Never use competition speed or surprise attacks in training
-- Always ensure partner has at least one hand free to tap
-- Do not apply while partner is in awkward body position that prevents tapping
-- Never combine with weight pressure that restricts breathing while finishing
-- Respect immediate taps without testing partner's pain tolerance
-
+**Starting Position**: [[Positions/Butterfly Guard]] · **From**: [[Positions/Butterfly Guard]] (Bottom)
 
 </section>
 
@@ -240,39 +241,63 @@ Advanced practitioners chain the Kimura attempt directly off failed or feinted b
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Kimura]]
 - [[Transitions/Guillotine Choke]]
 - [[Submissions/Americana]]
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Arm in Guillotine]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Butterfly Guard]] - Starting position for this submission variant
 - [[Positions/Kimura Trap]] - Control position transitioned to when opponent defends the initial Kimura rotation
 - [[Positions/Closed Guard]] - Alternative guard position if butterfly hooks are cleared during the Kimura attempt
 - [[Positions/Half Guard]] - Transitional fallback position when one hook is lost during the attack sequence
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) | High | 3-9 months with potential surgery requirement |
+| Shoulder capsule damage and dislocation | CRITICAL | 6-12 months, may require surgical repair |
+| Labral tear (glenoid labrum) | High | 4-8 months, often requires arthroscopic surgery |
+| Bicep tendon strain or rupture | Medium | 6-12 weeks for strain, 3-6 months for rupture |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training, allowing partner time to recognize danger and tap
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or making any verbal distress sound)
+- Physical hand tap (multiple taps with free hand)
+- Physical foot tap (multiple taps with either foot)
+- Any distress signal including screaming or unusual sounds
+
+
+**Release Protocol**:
+1. Immediately stop all rotational pressure the instant tap is felt or heard
+2. Return the arm toward neutral position (externally rotate back to starting position)
+3. Release the figure-four grip completely
+4. Allow partner to self-assess shoulder mobility before continuing
+5. Never release suddenly or allow arm to spring back forcefully
+
+
+**Training Restrictions**:
+- Never spike or jerk the submission - rotation must be smooth and controlled
+- Never use competition speed or surprise attacks in training
+- Always ensure partner has at least one hand free to tap
+- Do not apply while partner is in awkward body position that prevents tapping
+- Never combine with weight pressure that restricts breathing while finishing
+- Respect immediate taps without testing partner's pain tolerance
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Kimura from Butterfly Guard leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

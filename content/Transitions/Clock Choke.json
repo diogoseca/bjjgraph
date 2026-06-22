@@ -1,5 +1,6 @@
 {
   "name": "Clock Choke",
+  "summary": "The Clock Choke is a gi blood choke applied from turtle top, using a deep collar grip and a rotational walk around the opponent's head with a sprawling finish to compress both carotid arteries.",
   "description": "Master the Clock Choke in BJJ. Step-by-step gi choke from Turtle top using rotational pressure and body weight for a high-percentage blood choke finish.",
   "tags": [
     "bjj",
@@ -15,13 +16,18 @@
   "from_position": "Turtle/Top",
   "outcomes": [
     {
-      "to": "Clock Choke",
-      "probability": 58,
+      "to": "game-over",
+      "probability": 55,
       "result": "success"
     },
     {
+      "to": "Clock Choke",
+      "probability": 18,
+      "result": "failure"
+    },
+    {
       "to": "Turtle/Top",
-      "probability": 30,
+      "probability": 15,
       "result": "failure"
     },
     {
@@ -30,7 +36,7 @@
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": 55,
   "overview": "The Clock Choke is a highly effective gi submission that derives its name from the rotational movement pattern used during execution—the attacker walks around the opponent's head like the hands of a clock while maintaining collar pressure. This technique is most commonly applied against a turtled opponent, exploiting their defensive posture by using their own gi collar as the choking mechanism. The choke combines collar grip mechanics with positional pressure, creating a blood choke that attacks both carotid arteries simultaneously.\n\nStrategically, the Clock Choke serves as a primary threat against turtle position, forcing opponents to choose between defending the choke and exposing their back or maintaining turtle and being submitted. This dilemma-based approach makes it a cornerstone technique for controlling and finishing turtled opponents. The technique requires precise grip placement—the choking hand must achieve deep collar penetration with the thumb inside, while the non-choking arm controls the far hip to prevent rolling escape.\n\nThe rotational finishing mechanic distinguishes the Clock Choke from static collar chokes. Rather than simply pulling on the collar, the attacker creates pressure by walking their body perpendicular to the opponent while sprawling their hips down, using body weight and leverage rather than arm strength alone. This makes the technique sustainable and difficult to defend once properly established, as the defender must address both the grip and the positional pressure simultaneously.",
   "conditions": [
     "Opponent is in turtle position on hands and knees",
@@ -149,13 +155,13 @@
         "counter": "Opponent brings hands up to grip fight and strip the collar grip",
         "effectiveness": "Medium",
         "your_response": "Accelerate your rotation and sprawl to apply pressure before they can complete the grip break, or switch to back take if they expose their back during the grip fight",
-        "targets_outcome": "Turtle/Top"
+        "targets_outcome": "Clock Choke"
       },
       {
         "counter": "Opponent flattens out completely to the mat to reduce neck exposure",
         "effectiveness": "Low",
         "your_response": "Maintain collar grip and walk further around to reapply pressure from a tighter angle, or transition to back control since flattening opens hook insertion opportunities",
-        "targets_outcome": "Turtle/Top"
+        "targets_outcome": "Clock Choke"
       }
     ],
     "common_errors": [
@@ -274,7 +280,7 @@
       {
         "action": "Two-on-one grip strip on the choking hand before it sinks deep into the collar",
         "when_to_use": "Immediately upon feeling the attacker's hand entering your collar, before the grip is fully established",
-        "targets_outcome": "Turtle/Top",
+        "targets_outcome": "Clock Choke",
         "if_successful": "Attacker loses their primary choking grip and must re-establish, resetting to neutral turtle top position",
         "risk": "Lifting your arm to grip fight briefly exposes your back to potential hook insertion or harness control"
       },

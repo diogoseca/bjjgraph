@@ -111,6 +111,11 @@ description: "Defend against the heel hook from Ashi Garami with early recogniti
     "@type": "WebSite",
     "name": "BJJ Graph",
     "url": "https://bjjgraph.org"
+  },
+  "mainEntityOfPage": {
+    "@type": "CollectionPage",
+    "name": "Heel Hook",
+    "url": "https://bjjgraph.org/Families/heel-hook"
   }
 }
 </script>
@@ -152,6 +157,9 @@ description: "Defend against the heel hook from Ashi Garami with early recogniti
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="part-of-family"><em>Part of the</em> <strong>Heel Hook</strong> <em>family</em></p>
+</aside>
 <section id="overview" class="content-section">
 
 Defending the heel hook from Ashi Garami demands early recognition and immediate response before the attacker establishes a secure grip configuration. Once the heel is captured and the figure-four is locked, defensive options narrow dramatically and the timeline to tap shrinks with each second of applied rotation. The defender must prioritize preventing heel exposure through leg straightening and inward knee positioning, stripping grips before they solidify into figure-four configurations, and extracting the trapped leg through systematic clearing sequences rather than explosive ripping that creates worse exposure angles. Understanding the danger timeline—from initial heel capture through locked figure-four to progressive rotational pressure—determines which defensive response is appropriate at each stage and when tapping becomes the safest and most intelligent choice.

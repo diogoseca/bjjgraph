@@ -10,10 +10,55 @@ description: "Master the Kimura from Kimura Trap in BJJ. Complete guide to finis
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Kimura from Kimura Trap targets the Shoulder joint (glenohumeral) and elbow. Risk: Shoulder dislocation (glenohumeral subluxation or full anterior dislocation). Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kimura from Kimura Trap",
+  "description": "Master the Kimura from Kimura Trap in BJJ. Complete guide to finishing the shoulder lock from figure-four control with attacking and defensive strategies.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Kimura from Kimura Trap", "item": "https://bjjgraph.org/Submissions/Kimura-from-Kimura-Trap" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kimura from Kimura Trap",
+  "description": "The Kimura from Kimura Trap is a figure-four shoulder lock that finishes the Kimura Trap control system by rotating the opponent's trapped arm behind their back, attacking the glenohumeral joint and threatening dislocation from either top or bottom.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Kimura from Kimura Trap is a figure-four shoulder lock that finishes the Kimura Trap control system by rotating the opponent's trapped arm behind their back, attacking the glenohumeral joint and threatening dislocation from either top or bottom.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Shoulder Lock</span>
+<span class="meta-chip">Targets Shoulder joint (glenohumeral) and elbow</span>
+<span class="meta-chip">50% success</span>
+</div>
+
+> [!danger] Safety
+> Kimura from Kimura Trap targets the Shoulder joint (glenohumeral) and elbow. Primary risk: Shoulder dislocation (glenohumeral subluxation or full anterior dislocation). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -24,56 +69,13 @@ description: "Master the Kimura from Kimura Trap in BJJ. Complete guide to finis
 
 <section id="overview" class="content-section">
 
-The Kimura from Kimura Trap is the primary finishing technique within the Kimura Trap system, converting established figure-four grip control into a devastating shoulder lock. This submission uses rotational force against the glenohumeral joint by driving the opponent's hand behind their back in a controlled arc motion. Unlike isolated Kimura attempts from side control or guard, this finish benefits from the systematic control infrastructure already established through the Kimura Trap position—the opponent's arm is deeply compromised, their base disrupted, and defensive options severely constrained by the preceding positional control and grip depth.
+Within the broader Kimura Trap framework, this finish represents the system's primary submission threat and the natural conclusion of its grip-based control. The mechanism applies rotational force against the glenohumeral joint by driving the opponent's hand behind their back in a controlled arc motion. Unlike isolated Kimura attempts from side control or guard, this finish benefits from the systematic control infrastructure already established through the Kimura Trap position—the opponent's arm is deeply compromised, their base disrupted, and defensive options severely constrained by the preceding positional control and grip depth.
 
 The finishing mechanics demand precise angle creation through walking the feet toward the opponent's head, progressive rotational pressure coordinated with hip positioning rather than arm strength, and unwavering chest pressure that prevents the opponent from creating escape space. The figure-four grip structure multiplies mechanical advantage at the shoulder joint, making the finish achievable even against significantly stronger opponents when proper technique and angle are applied consistently.
 
 Strategically, the Kimura from Kimura Trap creates compounding dilemmas: defending the finish typically forces the opponent to compromise positional integrity, opening sweeps, back takes, or transitions to alternative submissions like the Americana or armbar. Even when the finish itself does not produce the tap, the constant rotational threat creates defensive reactions that advance the attacker's position, embodying modern BJJ's emphasis on interconnected attacking systems rather than isolated techniques.
 
-**Category**: Joint Lock
-**Type**: Shoulder Lock
-**Target Area**: Shoulder joint (glenohumeral) and elbow
-**Starting Position**: [[Positions/Kimura Trap]]
-**From Position**: [[Positions/Kimura Trap]] (Top)
-**Success Rate**: 50%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Shoulder dislocation (glenohumeral subluxation or full anterior dislocation) | CRITICAL | 3-12 months, may require surgical repair of labrum and ligaments |
-| Rotator cuff tear (supraspinatus, infraspinatus, or subscapularis tendon damage) | High | 4-8 months with possible surgical intervention |
-| Medial collateral ligament strain of the elbow from combined rotation and extension force | Medium | 2-6 weeks with rest and progressive rehabilitation |
-
-
-**Application Speed**: SLOW and progressive. The Kimura generates enormous torque on the shoulder joint through the figure-four lever. Apply rotational pressure gradually in a smooth arc, allowing the opponent adequate time to recognize the threat and tap. Never jerk, spike, or explosively wrench the arm behind the back.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress vocalization)
-- Physical hand tap on partner, mat, or own body with free hand
-- Physical foot tap on mat with either leg
-- Any unusual screaming, grunting, or visible facial distress indicating pain
-
-
-**Release Protocol**:
-1. Release all rotational pressure immediately upon any tap signal without hesitation
-2. Return opponent's arm gently to a neutral anatomical position after releasing the grip
-3. If in doubt about whether a signal was a tap, release immediately—the position can always be re-established
-4. Check on training partner's shoulder condition and range of motion after release before continuing
-
-
-**Training Restrictions**:
-- White belts should drill at controlled speed without full rotational pressure until they demonstrate consistent grip mechanics and tap recognition
-- Never apply the Kimura with explosive or jerking force in training—always use slow progressive pressure that allows the partner to tap safely
-- Avoid applying this technique to training partners with known shoulder injuries, prior dislocations, or hypermobility conditions
-- In competition, release immediately upon tap regardless of perceived submission legitimacy or referee response time
-
+**Starting Position**: [[Positions/Kimura Trap]] · **From**: [[Positions/Kimura Trap]] (Top)
 
 </section>
 
@@ -237,42 +239,60 @@ Strategically, the Kimura from Kimura Trap creates compounding dilemmas: defendi
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Americana]]
 - [[Submissions/Kimura]]
 - [[Transitions/Arm Triangle]]
 - [[Submissions/Far Side Armbar]]
 - [[Transitions/Darce Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Kimura Trap]] - Primary starting position providing the grip control infrastructure for the finish
 - [[Positions/Half Guard]] - Common entry point where Kimura grip is established before transitioning to Kimura Trap
 - [[Positions/Side Control]] - Alternative entry position where the Kimura grip can be secured on an exposed arm
 - [[Positions/Back Control]] - Transition target when opponent rolls to defend the Kimura finish
 - [[Positions/North-South]] - Alternative finishing platform providing different rotational angle on the shoulder
-- [[Submissions/Americana]] - Related shoulder lock from the same positional family with reversed rotational direction
-- [[Transitions/Arm Triangle]] - Chain submission available when opponent defends Kimura by bringing arm across their neck
+
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Shoulder dislocation (glenohumeral subluxation or full anterior dislocation) | CRITICAL | 3-12 months, may require surgical repair of labrum and ligaments |
+| Rotator cuff tear (supraspinatus, infraspinatus, or subscapularis tendon damage) | High | 4-8 months with possible surgical intervention |
+| Medial collateral ligament strain of the elbow from combined rotation and extension force | Medium | 2-6 weeks with rest and progressive rehabilitation |
+
+
+**Application Speed**: SLOW and progressive. The Kimura generates enormous torque on the shoulder joint through the figure-four lever. Apply rotational pressure gradually in a smooth arc, allowing the opponent adequate time to recognize the threat and tap. Never jerk, spike, or explosively wrench the arm behind the back.
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any distress vocalization)
+- Physical hand tap on partner, mat, or own body with free hand
+- Physical foot tap on mat with either leg
+- Any unusual screaming, grunting, or visible facial distress indicating pain
+
+
+**Release Protocol**:
+1. Release all rotational pressure immediately upon any tap signal without hesitation
+2. Return opponent's arm gently to a neutral anatomical position after releasing the grip
+3. If in doubt about whether a signal was a tap, release immediately—the position can always be re-established
+4. Check on training partner's shoulder condition and range of motion after release before continuing
+
+
+**Training Restrictions**:
+- White belts should drill at controlled speed without full rotational pressure until they demonstrate consistent grip mechanics and tap recognition
+- Never apply the Kimura with explosive or jerking force in training—always use slow progressive pressure that allows the partner to tap safely
+- Avoid applying this technique to training partners with known shoulder injuries, prior dislocations, or hypermobility conditions
+- In competition, release immediately upon tap regardless of perceived submission legitimacy or referee response time
 
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Kimura from Kimura Trap leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

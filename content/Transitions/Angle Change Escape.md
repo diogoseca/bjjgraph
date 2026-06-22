@@ -10,6 +10,41 @@ description: "Angle Change Escape from Gogoplata Control. Lateral movement defen
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Angle Change Escape",
+  "description": "Angle Change Escape from Gogoplata Control. Lateral movement defense to relieve throat pressure. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Angle Change Escape", "item": "https://bjjgraph.org/Transitions/Angle-Change-Escape" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Angle Change Escape",
+  "description": "The Angle Change Escape is a defensive transition from Gogoplata Control where the trapped top player shifts their whole body laterally to convert perpendicular shin-across-throat pressure into harmless tangential contact, extracting the head to recover Half Guard top.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Angle Change Escape from Gogoplata Control. Lateral movement defen
 </div>
 
 <section id="overview" class="content-section">
+
+**The Angle Change Escape is a defensive transition from Gogoplata Control where the trapped top player shifts their whole body laterally to convert perpendicular shin-across-throat pressure into harmless tangential contact, extracting the head to recover Half Guard top.**
 
 The Angle Change Escape represents a systematic defensive response to Gogoplata Control that exploits the positional vulnerability created by the bottom player's shin-across-throat configuration. Rather than attempting to pull straight back against the closed-loop system of the gogoplata, this technique utilizes lateral movement to change the angle of the shin relative to the trachea, reducing compression and creating space for extraction.
 
@@ -218,5 +255,7 @@ The Angle Change Escape occupies a critical role in the defensive hierarchy agai
 
 
 </section>
+
+
 
 </main>

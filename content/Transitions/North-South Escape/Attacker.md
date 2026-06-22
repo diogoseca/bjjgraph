@@ -172,7 +172,7 @@ description: "How to execute North-South Escape in BJJ. Attacking perspective wi
 
 <section id="overview" class="content-section">
 
-The North-South Escape is a fundamental defensive technique designed to recover guard from one of the most dominant pinning positions in Brazilian Jiu-Jitsu. When trapped in north-south position, the top player maintains heavy chest pressure and controls your movement with their hips and arms, making escape extremely difficult without proper technique. This escape relies on precise hip movement, frame creation, and timing to create the space necessary to recover to a safer bottom position. The technique emphasizes the principle of creating distance through bridging and shrimping mechanics while preventing your opponent from transitioning to more dangerous positions like mount or side control. Success requires understanding weight distribution, maintaining defensive posture throughout the escape sequence, and capitalizing on small windows of opportunity when the top player adjusts their position. The north-south escape is essential for any practitioner's defensive arsenal, as it addresses a common scenario where opponents achieve dominant control through passing or transitioning from other top positions.
+From the escapee's perspective, north-south bottom is a race against fatigue and rising submission danger: the longer you stay flat under the top player's chest, the more breathing degrades and the more openings appear for the north-south choke, kimura, and armbar. Your job is to convert that pressure into structure by framing on the hips and shoulders, manufacturing space with a committed bridge, and turning to your side so a knee can wedge between the bodies. The escape is sequential, not explosive - frames first, then space, then bridge, then turn, then knee, then guard - and rushing any stage hands control back to the top player. Read their weight shifts and grip changes as your timing cues, since every adjustment they make to attack or advance briefly lightens the pressure you need to move against.
 
 **From Position**: [[Positions/North-South]] (Bottom)
 
@@ -336,5 +336,7 @@ Develop the ability to flow between north-south escape and related escapes (side
 When practicing the north-south escape, ensure controlled execution to avoid neck injuries from improper bridging mechanics or excessive force. The bridging motion should be powerful but controlled, with proper foot positioning to prevent strain on the lower back and neck. Partners should communicate clearly about resistance levels during training, especially when adding submission attempts into the drill. Beginners should master the basic movements with light resistance before progressing to full-speed execution. Be aware of submission threats throughout the escape sequence, particularly kimura, armbar, and choke attacks from the top position. If your partner attacks a submission during escape training, pause the escape and address the submission defense first. Never force the escape if it causes pain in your neck, shoulders, or spine. Proper mat space should be available for the bridging and rolling movements to prevent collisions with other practitioners.
 
 </section>
+
+
 
 </main>

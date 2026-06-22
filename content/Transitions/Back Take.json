@@ -1,5 +1,6 @@
 {
   "name": "Back Take",
+  "summary": "The Back Take from Crackhead Control is a 10th Planet turtle-attack transition where the top player exploits chair-sit hip pressure and an inside leg hook to rotate around the defender's body and secure dominant back control.",
   "description": "Master the Back Take from Crackhead Control in BJJ. Step-by-step execution with chair-sit mechanics. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
   "tags": [
     "bjj",
@@ -38,10 +39,6 @@
     {
       "name": "Back Control",
       "relationship": "Target position"
-    },
-    {
-      "name": "Chair Sit to Back",
-      "relationship": "Related technique from similar starting position"
     },
     {
       "name": "Crab Ride to Back",

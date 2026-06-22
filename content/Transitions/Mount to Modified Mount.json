@@ -1,0 +1,365 @@
+{
+  "name": "Mount to Modified Mount",
+  "description": "Master the Mount to Modified Mount transition in BJJ. Post one leg, climb the hips high, and convert symmetric mount into a bridge-resistant armbar platform.",
+  "tags": [
+    "bjj",
+    "transition",
+    "mount",
+    "modified-mount",
+    "positional-advancement",
+    "armbar-setup",
+    "base-stability"
+  ],
+  "from_position": "Mount/Top",
+  "outcomes": [
+    {
+      "to": "Modified Mount/Top",
+      "probability": 58,
+      "result": "success"
+    },
+    {
+      "to": "Mount/Top",
+      "probability": 27,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 58,
+  "summary": "Mount to Modified Mount is a deliberate positional adjustment where the top player posts one leg wide and shifts the hips high, converting symmetric mount into an asymmetric, bridge-resistant platform optimized for armbars and triangles.",
+  "overview": "Mount to Modified Mount is the deliberate conversion of standard, bilateral mount into the asymmetric modified mount by posting one leg out wide for base while keeping the opposite knee pinned across the opponent's torso and climbing the hips high toward the chest. Rather than waiting to fall into the position reactively, the top player chooses it as a calculated trade: surrendering a small amount of even pinning pressure in exchange for a wide, kickstand-like base that defeats the explosive bridge-and-roll and pre-loads the body into armbar and mounted-triangle entries.\n\nThe transition is a staple of the mount offense system and is taught explicitly as the bridge between holding mount and finishing from it. The top player walks the knees up toward the armpits, posts the foot flat on the mat at roughly forty-five degrees, and shifts weight diagonally so the posted leg carries the stability load while the across-body knee retains primary control. Because the hips are already rotated toward one shoulder, the modified mount funnels naturally into the swing-over armbar or the mounted triangle without any further repositioning of the base.\n\nStrategically, the move is deployed against opponents whose primary escape is the upa or bridge-and-roll: the posted leg neutralizes that escape almost entirely. The principal risks are posting the leg too far, which gifts the opponent space to insert a knee shield and recover half guard, and losing across-body knee pressure during the climb, which lets the opponent frame and shrimp. Executed with a tight, close post and continuous chest connection, it is one of the highest-percentage stabilizing transitions available from mount."
+,
+  "conditions": [
+    "Stable standard mount established with consistent chest and hip pressure on opponent's torso",
+    "At least one controlling grip secured on the opponent's upper body to maintain connection during the weight shift",
+    "Opponent's near-side arm and legs positioned so a leg can be posted close to their hip without obstruction",
+    "Top player intends to defeat bridge-and-roll escapes or pre-load an armbar or mounted-triangle attack"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Bridge-Defeating Post",
+      "description": "Triggered preemptively against an opponent loading for an upa or bridge-and-roll. The top player posts the leg on the side the opponent is bridging toward, turning the explosive escape into wasted energy against the kickstand base while keeping the across-body knee heavy.",
+      "when_to_use": "When the opponent telegraphs or repeatedly attempts bridge-and-roll escapes from standard mount"
+    },
+    {
+      "variant_name": "High Hips Armbar Pre-Load",
+      "description": "The top player climbs the knees high toward the armpits and posts the leg specifically to rotate the hips toward the opponent's near shoulder, placing the body one motion away from a swing-over armbar. The posted leg becomes the pivot point for the armbar entry.",
+      "when_to_use": "When the opponent's near-side arm is exposed or framing and you intend to chain directly into an armbar attack"
+    },
+    {
+      "variant_name": "S-Adjacent Settle",
+      "description": "A shallower version where the posted foot tucks closer under the opponent's far shoulder, edging toward an S-mount shape while retaining the simpler modified-mount base. This keeps both the armbar and the deeper S-mount progression available as the opponent reacts.",
+      "when_to_use": "When you want to keep the option open to deepen into S-mount or stay in the more stable modified mount depending on the opponent's defense"
+    }
+  ],
+  "position_integration": "Within the mount offense progression, Mount to Modified Mount is the stabilizing pivot that links holding standard mount to finishing from it. It sits upstream of the swing-over armbar, the mounted triangle, and the deeper S-mount settle, functioning as a shared launch point for the position's primary attacks. Because the posted leg neutralizes bridge-and-roll escapes, the transition also serves a defensive-insurance role, letting a practitioner consolidate a precarious mount before committing to a submission. It complements the Mount to Technical Mount line: technical mount answers an opponent who turns away, while modified mount answers an opponent who stays flat and tries to bridge.",
+  "related_content": [
+    {
+      "name": "Mount",
+      "relationship": "Source position from which the modified mount is deliberately established"
+    },
+    {
+      "name": "Modified Mount",
+      "relationship": "Target position providing a bridge-resistant, armbar-oriented asymmetric platform"
+    },
+    {
+      "name": "S Mount",
+      "relationship": "Deeper asymmetric progression sharing the same leg-posting and high-hips mechanics"
+    },
+    {
+      "name": "Technical Mount",
+      "relationship": "Sister mount transition used when the opponent turns away rather than bridging"
+    },
+    {
+      "name": "Mount to Armbar",
+      "relationship": "Primary submission the modified mount pre-loads after the leg posts"
+    },
+    {
+      "name": "Mounted Triangle",
+      "relationship": "Alternative finish accessible directly from the established modified mount"
+    },
+    {
+      "name": "High Mount",
+      "relationship": "Related high-hips mount variation reached by climbing the knees toward the armpits"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Counter outcome position when the opponent inserts a knee shield against an overextended post"
+    }
+  ],
+  "attacker": {
+    "name": "Mount to Modified Mount Attacker",
+    "description": "Master the offensive mechanics of converting standard mount into modified mount. Learn to post the leg, climb the hips high, and pre-load armbar and triangle attacks.",
+    "overview": "From the attacker's perspective, Mount to Modified Mount is a proactive choice to trade a sliver of even pinning pressure for a wide, bridge-proof base and a body already rotated toward submission. The attacker walks the knees up toward the opponent's armpits, posts one foot flat on the mat for a kickstand base, and shifts weight diagonally so the across-body knee keeps primary control while the posted leg defeats the upa. The key challenge is the climb: lifting the hips high without lightening the across-body knee, and posting close enough that no knee-shield space opens. Done correctly, the attacker arrives in a position one motion from the swing-over armbar or the mounted triangle, having neutralized the opponent's most explosive escape in the process.",
+    "key_principles": [
+      "Climb the knees high toward the opponent's armpits before posting so the hips load over the chest, not the belt line",
+      "Post the foot flat and close to the opponent's hip with the shin angled out to build a wide kickstand base",
+      "Shift weight diagonally so the across-body knee retains 60-70% of control pressure and the posted leg only carries stability",
+      "Maintain continuous chest and cross-face connection throughout the climb so no framing space opens",
+      "Choose the post side toward the opponent's expected bridge direction to convert their escape energy into wasted effort",
+      "Rotate the hips toward the near shoulder during the post to pre-load the swing-over armbar entry",
+      "Treat modified mount as an attacking launch point, not a resting position—threaten a submission within seconds of settling"
+    ],
+    "setup_requirements": [
+      "Stable standard mount with chest pressure established and at least one upper-body controlling grip secured",
+      "Knees walked high toward the opponent's armpits so the hips can climb over the chest line",
+      "Cross-face, underhook, or collar grip maintained to preserve connection during the weight shift",
+      "One leg free to post close to the opponent's hip without being caught by their legs or frames",
+      "Across-body knee positioned to keep diagonal downward pressure as the posted leg extends out"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Climb the hips high",
+        "description": "From standard mount, walk both knees up toward the opponent's armpits so your hips ride over their chest rather than their belt line. This high position reduces the leverage available to their bridge and sets the platform from which the posted leg will operate. Keep your chest heavy and your weight forward as you climb so you do not float and invite a buck."
+      },
+      {
+        "step_number": 2,
+        "action": "Secure upper-body connection",
+        "description": "Before any leg moves, lock in a cross-face with your near-side arm driving your shoulder into the opponent's jaw, or establish a collar grip or underhook. This connection is your anchor during the weight shift and prevents the opponent from framing and creating distance as your base becomes momentarily asymmetric."
+      },
+      {
+        "step_number": 3,
+        "action": "Shift weight onto the across-body knee",
+        "description": "Transfer your weight diagonally onto the knee that will stay across the opponent's torso, freeing the opposite leg to post. The shift must be smooth and continuous so your control pressure never lifts. Keep the across-body shin pressing down across their abdomen so it remains the primary pin throughout the transition."
+      },
+      {
+        "step_number": 4,
+        "action": "Post the free leg wide",
+        "description": "Swing the freed leg out and plant the foot flat on the mat with the toes angled outward at roughly forty-five degrees, knee bent, close to the opponent's hip. This is the kickstand: it should be wide enough to brace against a bridge but close enough that no gap opens for a knee shield. The posted foot, the across-body knee, and your chest now form a stable tripod."
+      },
+      {
+        "step_number": 5,
+        "action": "Rotate the hips toward the near shoulder",
+        "description": "With the leg posted, open your hips toward the opponent's near-side shoulder so your pelvis faces the arm you intend to attack. This rotation is what makes modified mount an armbar platform rather than just a stable hold—your body is now pre-loaded for a swing-over without any further base adjustment. Keep your weight settled through the across-body knee as you turn."
+      },
+      {
+        "step_number": 6,
+        "action": "Settle and absorb the base load",
+        "description": "Drive the posted foot into the mat and let it absorb your stability load while the across-body knee carries control. Test the position by feeling for the opponent's bridge—your posted leg should buttress it without your weight lifting. Adjust the post distance if you feel space opening on that side, sliding the foot back toward their hip."
+      },
+      {
+        "step_number": 7,
+        "action": "Initiate the attack",
+        "description": "Modified mount is transitional, so commit to an attack within seconds. If the near arm is exposed, trap the wrist and begin the swing-over armbar; if they defend the arm low, climb into the mounted triangle; if they turn away, deepen toward S-mount or technical mount. Continuous threat is what prevents the opponent from rebuilding frames and recovering."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent inserts a knee shield into the gap when the leg is posted too far, recovering half guard",
+        "effectiveness": "High",
+        "your_response": "Slide the posted foot back toward their hip to close the space, or if the shield is already in, switch to knee-slice mechanics to clear it rather than fighting from a stalled half-mount. Keep cross-face pressure to slow their reguard.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Opponent frames on the near hip and shrimps as the across-body knee lightens during the climb",
+        "effectiveness": "Medium",
+        "your_response": "Re-drive the across-body knee forward and downward to crush the frame, keeping chest connection. Attack the framing arm with an Americana or wrist control to force its retraction before re-settling the post.",
+        "targets_outcome": "Mount/Top"
+      },
+      {
+        "counter": "Opponent bridges hard into the posted leg side hoping to roll before the base settles",
+        "effectiveness": "Medium",
+        "your_response": "Drive the posted foot into the mat and widen the base to buttress the bridge—let the kickstand absorb it. Use the bridge momentum to deepen your hip rotation toward the armbar as they return flat.",
+        "targets_outcome": "Mount/Top"
+      },
+      {
+        "counter": "Opponent catches the posting leg with their legs before the post settles, trapping it in half guard",
+        "effectiveness": "High",
+        "your_response": "Use knee-slice mechanics to free the trapped leg and pass to side control, or withdraw the leg and re-establish standard mount rather than grinding from a compromised half mount.",
+        "targets_outcome": "Half Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Posting the leg too far from the opponent's body to feel more stable",
+        "consequence": "The gap between the posted leg and the opponent invites a knee shield, allowing half guard recovery or an escape underneath",
+        "correction": "Post the foot close to the opponent's hip with the shin angled out—wide enough to brace a bridge but tight enough that no knee-shield space opens"
+      },
+      {
+        "error": "Lifting the across-body knee or floating the chest while climbing the hips high",
+        "consequence": "Control pressure disappears for a moment, letting the opponent frame, shrimp, and recover guard during the climb",
+        "correction": "Keep the across-body shin pressing down and the chest heavy throughout the climb—the hips rise but the pin never lightens"
+      },
+      {
+        "error": "Treating modified mount as a static holding position after posting",
+        "consequence": "The opponent rebuilds frames, addresses the posted leg, and systematically escapes the reduced-pressure position",
+        "correction": "Attack immediately—swing-over armbar, mounted triangle, or deepen to S-mount within a few seconds of settling the post"
+      },
+      {
+        "error": "Posting on the wrong side relative to the opponent's bridge direction",
+        "consequence": "The base ends up away from the escape vector, so the post fails to defeat the bridge-and-roll it was meant to stop",
+        "correction": "Read the bridge direction and post the leg on that side so the kickstand sits directly in the path of the roll"
+      },
+      {
+        "error": "Failing to rotate the hips toward the near shoulder after posting",
+        "consequence": "The position becomes merely a stable hold with no submission pre-loaded, forcing a second large adjustment to attack",
+        "correction": "Open the hips toward the target arm as the leg posts so the body arrives already aligned for the swing-over armbar"
+      },
+      {
+        "error": "Posting the leg with a stiff, straight knee instead of a flexed kickstand",
+        "consequence": "A straight leg is easy to bump out and provides poor shock absorption against a bridge, collapsing the base",
+        "correction": "Keep the posted knee bent and the foot flat so the leg can flex and re-drive into the mat to absorb explosive escapes"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics",
+        "focus": "Isolated leg post and hip climb mechanics",
+        "description": "With a compliant partner, climb the knees high from mount, post one foot flat and close to the hip, and rotate the hips toward the near shoulder. Focus on keeping the across-body knee heavy throughout. Repeat 20 times per side until the post-and-rotate sequence is one smooth motion."
+      },
+      {
+        "phase": "Phase 2: Bridge Defeat",
+        "focus": "Using the posted leg to neutralize bridge-and-roll escapes",
+        "description": "Partner attempts upa and bridge-and-roll escapes at 40% resistance. Practice posting the leg toward the bridge direction and absorbing the explosion with the kickstand base. Develop the timing of posting before the bridge peaks rather than reacting after."
+      },
+      {
+        "phase": "Phase 3: Attack Integration",
+        "focus": "Chaining the transition into armbar and triangle finishes",
+        "description": "After settling modified mount, immediately flow into the swing-over armbar or mounted triangle. Partner gives 50% resistance and varies arm position so you learn to select the finish based on which arm is exposed. Build automatic attack selection from the posted position."
+      },
+      {
+        "phase": "Phase 4: Live Application",
+        "focus": "Executing under full resistance from positional sparring",
+        "description": "Positional sparring starting from mount. Top player aims to establish modified mount and finish a submission; bottom player resists fully with bridges and frames. Track success rate and identify whether failures stem from a loose post or a lightened across-body knee."
+      },
+      {
+        "phase": "Phase 5: Competition Scenarios",
+        "focus": "Time-pressured execution under fatigue",
+        "description": "Simulate match conditions by entering mount after wrestling or passing exchanges, then establishing modified mount under fatigue and time pressure. Practice consolidating the bridge-proof base and finishing efficiently when energy is depleted."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "Why do you climb the hips high toward the armpits before posting the leg in this transition?",
+        "answer": "Climbing the hips high places your weight over the opponent's chest rather than their belt line, which strips leverage from their bridge and sets the platform from which the posted leg operates. From the high position the across-body knee can pin the ribcage while the posted leg braces wide, and your pelvis ends up close to the near shoulder so the swing-over armbar is pre-loaded. Posting from a low, belt-line mount leaves you vulnerable to the very bridge the position is meant to defeat."
+      },
+      {
+        "question": "What is the single most common mistake when posting the leg, and what does it cost you?",
+        "answer": "Posting the leg too far from the opponent's body in search of a feeling of stability. The gap that opens between the posted leg and the opponent is exactly the space a knee shield needs, so the opponent inserts a knee and recovers half guard or escapes underneath. The correction is to post the foot close to their hip with the shin angled out—wide enough to brace a bridge but tight enough that no knee-shield space exists. The base should feel like a buttress against their hip, not a leg planted far out to the side."
+      },
+      {
+        "question": "How should weight be distributed between the posted leg and the across-body knee, and why?",
+        "answer": "The across-body knee should carry roughly 60-70% of your control pressure through bone-on-bone contact with the ribcage, while the posted leg carries only the stability load as a kickstand. The knee is the pin; the posted leg is the brace. If you let weight drain into the posted leg, the across-body knee lightens, the opponent frames and shrimps, and you lose the control that justified posting in the first place. The post defeats the bridge precisely because it lets you stay heavy on the knee without fear of being rolled."
+      },
+      {
+        "question": "Your opponent is loading for a hard bridge-and-roll—on which side do you post and why?",
+        "answer": "Post on the side the opponent is bridging toward. The posted leg becomes a kickstand directly in the path of the roll, so the explosive escape spends itself against your braced foot instead of turning you over. Posting on the opposite side leaves your base away from the escape vector and accomplishes nothing. Reading the bridge direction—usually telegraphed by which way they turn their head and load their hips—lets you convert their most powerful escape into wasted energy and even use the momentum to deepen your armbar hip rotation."
+      },
+      {
+        "question": "After posting the leg, what rotation must happen to make modified mount an attacking position rather than just a stable hold?",
+        "answer": "You must open your hips toward the opponent's near-side shoulder so your pelvis faces the arm you intend to attack. This rotation pre-loads the swing-over armbar: your body arrives already aligned for the finish, requiring no second large base adjustment. Without it, modified mount is merely a bridge-proof hold and you would have to re-position to attack, giving the opponent time to rebuild frames. The whole point of the transition is to combine stability with a body that is one motion from a submission."
+      },
+      {
+        "question": "Your opponent frames on your near hip and starts to shrimp as you climb—how do you recover control?",
+        "answer": "Re-drive the across-body knee forward and downward to crush the frame while keeping your chest connection and cross-face intact, so you regain the heavy pin you lost during the climb. If the frame is already deep, treat the extended framing arm as an invitation: attack it with an Americana or wrist control to force its retraction, then re-settle your post. The error that caused the shrink was almost always lightening the across-body knee while raising the hips, so the fix is to climb without ever letting that knee float."
+      }
+    ],
+    "safety_considerations": "This transition is low-risk for acute injury because it is positional rather than a joint or choke attack, but the posted leg places stress on the knee and ankle, especially on hard or slippery mats where the foot may slide—warm up the hips, knees, and ankles before heavy drilling. The bottom partner should tap or call out if cross-face pressure compresses the neck or if the across-body knee restricts breathing. When chaining into the armbar that this position pre-loads, apply the finish slowly and respect the early tap, as the swing-over can load the elbow quickly once the hips are already rotated."
+  },
+  "defender": {
+    "name": "Mount to Modified Mount Defender",
+    "description": "Defend against the Mount to Modified Mount transition in BJJ. Learn recognition cues, knee-shield timing, and how to exploit the posted leg before the armbar loads.",
+    "overview": "Defending Mount to Modified Mount means disrupting the transition during the brief window when the top player climbs their hips and posts the leg, before the bridge-proof base and the armbar threat consolidate. Once the post settles and the hips rotate toward your shoulder, an armbar is one motion away and the kickstand has neutralized your bridge, so prevention is far easier than escape. The defender's best tools are reading the high-hips climb early, inserting a knee shield into the space a loose post creates, and protecting the near-side arm before it can be isolated. If the position fully establishes, the priority shifts to keeping the elbow bent and tight while working a frame-and-shrimp recovery toward half guard on the posted-leg side.",
+    "key_principles": [
+      "Recognize the hip climb toward your armpits as the setup, and react before the foot posts rather than after",
+      "Keep the near-side elbow bent and glued to your ribs—the position exists to isolate that arm for an armbar",
+      "Attack the space of a loose post immediately with a knee shield to recover half guard",
+      "Do not waste energy on a straight bridge-and-roll once the leg is posted; the kickstand is built to absorb it",
+      "Frame on the across-body knee and hip, not on the chest with straight arms that invite the armbar",
+      "Escape toward the posted-leg side, where the base is lighter and the gap is largest",
+      "Turn in toward the top player if the armbar loads, denying the hip rotation the finish requires"
+    ],
+    "recognition_cues": [
+      "The top player's knees walk up toward your armpits and their weight rides higher onto your chest before any leg moves",
+      "Pressure shifts diagonally onto one of their knees as they prepare to free the opposite leg",
+      "One of their feet plants flat on the mat out to the side, replacing a knee that was previously down",
+      "Their hips open and rotate toward your near-side shoulder, aligning their pelvis with your arm",
+      "Cross-face or collar pressure intensifies on one side as they lock in connection before the post"
+    ],
+    "defensive_options": [
+      {
+        "action": "Insert a knee shield into the posted-leg gap",
+        "when_to_use": "The instant the top player posts the leg and any space opens between their hip and your body",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "You wedge a knee between your bodies and recover half guard, denying the modified mount and resetting to a position with frames",
+        "risk": "If the post is tight and no space exists, forcing the knee in can leave your arm exposed to the armbar the position threatens"
+      },
+      {
+        "action": "Pin the near elbow and grip your own collar or wrist",
+        "when_to_use": "As soon as you feel the hips rotate toward your shoulder, before wrist control is established",
+        "targets_outcome": "Mount/Top",
+        "if_successful": "The arm stays bent and connected, denying the armbar and forcing the top player to abandon the attack and re-settle",
+        "risk": "Focusing only on the arm can let the top player consolidate the base and begin a different attack such as the mounted triangle"
+      },
+      {
+        "action": "Bridge into the posted leg before the base settles",
+        "when_to_use": "In the brief moment the foot first plants, before the kickstand is loaded and weight transfers onto it",
+        "targets_outcome": "Mount/Top",
+        "if_successful": "A well-timed bump unsettles the post before it absorbs load, forcing the top player to withdraw the leg and return to standard mount",
+        "risk": "If mistimed, the bridge feeds the kickstand and creates extra space for the top player to deepen the position"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "As the leg posts, frame on the across-body knee with your near forearm and shrimp your hips toward the posted-leg side, then insert your bottom knee into the space the post created. Hook the top player's posted leg with your top leg to stop them re-adjusting, converting the modified-mount attempt into a half guard where you hold frames and distance."
+      },
+      {
+        "outcome": "Mount/Top",
+        "how": "Keep the near elbow bent and pin it to your ribs while re-driving your frames into the across-body knee, denying both the armbar and the hip rotation. With no submission available and your frames intact, the top player is forced to withdraw the post and re-settle into standard mount, leaving you back in a familiar defensive position rather than the more dangerous modified mount."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Reacting only after the modified mount is fully established with the hips rotated",
+        "consequence": "The bridge is already neutralized and the armbar is loaded, so the available defenses shrink to difficult last-ditch armbar escapes",
+        "correction": "React to the hip climb and the diagonal weight shift—the setup cues—rather than the finished position; drill recognizing the post before the foot lands"
+      },
+      {
+        "error": "Extending the near arm to push on the top player's chest",
+        "consequence": "The straightened arm is exactly what the position is built to isolate, handing the top player the swing-over armbar",
+        "correction": "Keep the elbow bent and tight to your ribs and frame with the forearm against the across-body knee instead of pushing with a straight arm"
+      },
+      {
+        "error": "Spending energy on a straight bridge-and-roll after the leg is posted",
+        "consequence": "The kickstand base is engineered to absorb exactly that escape, so the effort exhausts you while the top player settles and attacks",
+        "correction": "Once the leg is posted switch to technical hip escapes and knee-shield insertion toward the posted-leg side rather than explosive bridging"
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "What is the earliest reliable cue that the top player is moving from standard mount into modified mount?",
+        "answer": "The earliest cue is the knees walking up toward your armpits with the weight riding higher onto your chest, usually followed by pressure shifting diagonally onto one knee as they prepare to free the other leg. Recognizing this hip climb is critical because it precedes the actual post. If you wait until the foot plants and the hips rotate, the bridge is already defeated and the armbar is loading; reacting to the climb gives you the window to insert a knee shield or pin your arm before the position consolidates."
+      },
+      {
+        "question": "Why is a straight bridge-and-roll a poor escape choice once the top player has posted the leg?",
+        "answer": "The posted leg is a kickstand built specifically to absorb the bridge-and-roll—planting the foot wide on the side you would roll toward turns your explosion into wasted energy against a braced base, and can even feed the top player extra space to deepen toward an armbar. Instead of bridging, you should use technical hip escapes and insert a knee shield toward the posted-leg side, where the base is lighter and the gap between their hip and your body is largest. Save explosive bridges for standard mount, where there is no posted leg to absorb them."
+      },
+      {
+        "question": "Once you feel the hips rotate toward your shoulder, what is your immediate priority and why?",
+        "answer": "Protect the near-side arm by keeping the elbow bent and glued to your ribs, gripping your own collar or opposite wrist to reinforce it. The hip rotation toward your shoulder is the pre-load for the swing-over armbar, and that finish requires your arm to extend—so denying extension denies the submission. If you also keep framing on the across-body knee you prevent the top player from settling, often forcing them to withdraw the post and return to standard mount, which is the safer of the two positions for you."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition",
+        "focus": "Identifying the hip climb and post setup under controlled conditions",
+        "description": "Partner alternates between holding standard mount and slowly entering modified mount. Practice feeling the knees climb toward your armpits and the diagonal weight shift, calling out 'post' the moment you sense the leg freeing. Build recognition speed until you reliably catch the setup before the foot lands."
+      },
+      {
+        "phase": "Phase 2: Prevention Mechanics",
+        "focus": "Knee-shield insertion and arm protection during the post window",
+        "description": "Partner enters modified mount at 40% speed. Drill inserting a knee shield into the posted-leg gap and pinning the near elbow tight before the hips rotate. Work one defensive response per round, then chain them, increasing partner speed to 60% as timing improves."
+      },
+      {
+        "phase": "Phase 3: Escape from Established Position",
+        "focus": "Frame-and-shrimp recovery and armbar denial after consolidation",
+        "description": "Partner establishes full modified mount with the hips rotated. Practice keeping the elbow bent, framing on the across-body knee, and shrimping toward the posted-leg side to recover half guard under moderate resistance. Develop composure so prevention failure flows into a systematic escape rather than panic."
+      }
+    ]
+  }
+}

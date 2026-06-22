@@ -10,6 +10,41 @@ description: "Master the High Guard to Rubber Guard transition in BJJ. Complete 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "High Guard to Rubber Guard",
+  "description": "Master the High Guard to Rubber Guard transition in BJJ. Complete guide to entering Mission Control from closed guard with execution steps and defense.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "High Guard to Rubber Guard", "item": "https://bjjgraph.org/Transitions/High-Guard-to-Rubber-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "High Guard to Rubber Guard",
+  "description": "High Guard to Rubber Guard is a closed-guard-bottom transition where the bottom player climbs the guard high, threads a leg across the opponent's back, and secures the foot to establish Mission Control, the foundational Rubber Guard position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the High Guard to Rubber Guard transition in BJJ. Complete 
 </div>
 
 <section id="overview" class="content-section">
+
+**High Guard to Rubber Guard is a closed-guard-bottom transition where the bottom player climbs the guard high, threads a leg across the opponent's back, and secures the foot to establish Mission Control, the foundational Rubber Guard position.**
 
 The High Guard to Rubber Guard transition is a specialized positional advancement from closed guard bottom that leverages hip flexibility and systematic posture control to establish the foundational Rubber Guard position known as Mission Control. The technique begins when the bottom player climbs their guard high on the opponent's back, creating the high guard configuration, then systematically repositions one leg across the opponent's shoulder line while securing the foot with the same-side hand to lock in the control position.
 
@@ -222,5 +259,7 @@ The High Guard to Rubber Guard transition occupies a critical junction in the cl
 
 
 </section>
+
+
 
 </main>

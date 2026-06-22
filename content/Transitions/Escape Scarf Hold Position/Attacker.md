@@ -238,9 +238,10 @@ As the attacker executing the Escape from Scarf Hold Position, your objective is
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Half Guard]] | 35% |
+| Success | [[Positions/Side Control]] | 15% |
+| Success | [[Positions/Half Guard]] | 25% |
 | Success | [[Positions/Turtle]] | 10% |
-| Failure | [[Positions/Side Control/Scarf Hold Position]] | 40% |
+| Failure | [[Positions/Side Control/Scarf Hold Position]] | 35% |
 | Counter | [[Positions/Mount]] | 15% |
 
 
@@ -336,5 +337,7 @@ Positional sparring starting in scarf hold with full resistance. Bottom player w
 Escaping scarf hold involves explosive bridging movements that stress the cervical spine and lower back. Practice bridge mechanics gradually with progressive resistance to build tolerance. Tap immediately if opponent secures deep submission grips during escape attempts rather than fighting through joint locks. Avoid violent bridging without proper warm-up. When drilling, partners should communicate about pressure levels to prevent rib injuries from sustained hip compression. Stop immediately if experiencing sharp neck pain during bridge-and-turn execution.
 
 </section>
+
+
 
 </main>

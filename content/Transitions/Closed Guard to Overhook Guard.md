@@ -10,6 +10,41 @@ description: "Master the transition to overhook guard from closed guard in BJJ. 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Closed Guard to Overhook Guard",
+  "description": "Master the transition to overhook guard from closed guard in BJJ. Complete guide covering grip establishment, posture breaking, and offensive control setup.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Closed Guard to Overhook Guard", "item": "https://bjjgraph.org/Transitions/Closed-Guard-to-Overhook-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Closed Guard to Overhook Guard",
+  "description": "Closed Guard to Overhook Guard is a grip-change transition where the bottom player threads a deep overhook over one of the top player's arms, converting a neutral closed guard into an asymmetric offensive platform for sweeps, back takes, and submissions.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the transition to overhook guard from closed guard in BJJ. 
 
 <section id="overview" class="content-section">
 
-Transitioning to Overhook Guard from Closed Guard is a deliberate grip change that converts a neutral guard position into an asymmetrical offensive platform. The bottom player threads their arm over and around the opponent's arm, establishing a deep overhook that compromises the top player's ability to posture, post, and pass. This grip change fundamentally alters the positional dynamic by removing one of the top player's primary defensive tools while creating direct pathways to sweeps, back takes, and submissions.
+**Closed Guard to Overhook Guard is a grip-change transition where the bottom player threads a deep overhook over one of the top player's arms, converting a neutral closed guard into an asymmetric offensive platform for sweeps, back takes, and submissions.**
+
+Within the closed guard's grip-fighting game, this transition is the deliberate choice to weaponize one of the top player's committed arms rather than chase a direct sweep or submission from a symmetrical base. The bottom player threads their arm over and around the opponent's arm, establishing a deep overhook that compromises the top player's ability to posture, post, and pass. This grip change fundamentally alters the positional dynamic by removing one of the top player's primary defensive tools while creating direct pathways to sweeps, back takes, and submissions.
 
 The transition requires precise timing and coordination between upper body grip work and lower body control. The bottom player must break the opponent's posture sufficiently to access the arm, secure the overhook deep enough to prevent easy extraction, and immediately establish secondary control on the opposite side to prevent defensive recovery. Rushing the overhook without proper setup leads to shallow grips that the top player strips easily, while waiting too long allows the opponent to establish defensive posture that makes the overhook inaccessible.
 
@@ -216,5 +253,7 @@ The transition to overhook guard occupies a critical junction in the closed guar
 
 
 </section>
+
+
 
 </main>

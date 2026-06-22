@@ -21,13 +21,13 @@ description: "Master Kesa Gatame Top position in BJJ. Dominant scarf hold with 7
     {
       "@type": "HowToStep",
       "name": "Execute Kimura from Kesa Gatame",
-      "text": "From this position, attempt Kimura from Kesa Gatame. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Kimura from Kesa Gatame. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Far Side Armbar",
-      "text": "From this position, attempt Far Side Armbar. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Far Side Armbar. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
@@ -39,19 +39,19 @@ description: "Master Kesa Gatame Top position in BJJ. Dominant scarf hold with 7
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 17% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to North-South",
-      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 32% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Triangle from Kesa Gatame",
-      "text": "From this position, attempt Arm Triangle from Kesa Gatame. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Arm Triangle from Kesa Gatame. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -352,6 +352,16 @@ Bottom player attempts one specific escape type (hip escape, bridge and roll, or
 - **[[Submissions/Kimura]]** - High-percentage submission transition
 - **[[Transitions/Arm Triangle]]** - Submission chain option from heavy pressure
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Roger-Gracie-Fundamental-System" data-cta="related-system-card" data-system-slug="systems/roger-gracie-fundamental-system" data-system-name="Roger Gracie Fundamental System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Roger Gracie Fundamental System</span><span class="system-card__unlocks-badge">Unlocks 22 techniques</span><span class="system-card__blurb">Traditional control position emphasizing fundamental pinning mechanics and pressure</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

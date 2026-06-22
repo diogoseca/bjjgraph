@@ -140,10 +140,23 @@ description: "Master Caio Terra's guard retention framework with systematic hip 
 }
 </script>
 
-> Caio Terra Guard Retention System is a intermediate difficulty Defense System system. Integrates 5 components.
 
-**System Type**: Defense System
-**Difficulty Level**: Intermediate
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Caio Terra Guard Retention System",
+  "description": "The Caio Terra Guard Retention System is a defensive framework that combines continuous small-amplitude hip movement, dynamic angle-based frames, and a prioritized connection-breaking hierarchy to keep or recover guard against pressure passing.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Defense System</span>
+<span class="meta-chip">Intermediate difficulty</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -152,11 +165,31 @@ description: "Master Caio Terra's guard retention framework with systematic hip 
 
 ## What is Caio Terra Guard Retention System?
 
-The Caio Terra Guard Retention System represents one of the most comprehensive defensive frameworks in modern Brazilian Jiu-Jitsu. Developed by multiple-time world champion Caio Terra, this system emphasizes intelligent guard retention through superior hip movement, precise frame management, and systematic recovery sequences. Unlike reactive defensive approaches, Terra's methodology treats guard retention as an active skill that can be trained, refined, and mastered through deliberate practice.
+**The Caio Terra Guard Retention System is a defensive framework that combines continuous small-amplitude hip movement, dynamic angle-based frames, and a prioritized connection-breaking hierarchy to keep or recover guard against pressure passing.**
+
+Multiple-time world and Pan American champion Caio Terra built his competitive reputation as one of the smallest athletes to consistently defeat far larger opponents, and his retention methodology grew directly out of that necessity. Because he could rarely rely on strength or weight to stop a pass, he reverse-engineered guard retention into a structured, trainable discipline rather than a collection of reactive scrambles. The result is one of the most complete defensive frameworks in modern Brazilian Jiu-Jitsu, applicable across gi and no-gi guard games.
 
 At its core, the system operates on the principle that maintaining guard is far more energy-efficient than recovering guard or escaping from inferior positions. Terra's approach breaks down guard retention into distinct phases: initial contact management, mid-range retention, and emergency recovery. Each phase has specific technical requirements, movement patterns, and decision trees that practitioners must internalize. The system is particularly effective against pressure passing styles, as it provides clear answers to common passing attacks while maintaining offensive opportunities.
 
 What distinguishes Terra's system from traditional guard retention is its emphasis on connection management and systematic recovery loops. Rather than simply blocking or stiff-arming opponents, practitioners learn to manipulate connections, create angles, and use precise hip movements to continuously reset guard positions. The system integrates seamlessly with various guard styles—from closed guard to open guard variations—making it universally applicable regardless of a practitioner's preferred guard game.
+
+</section>
+
+
+
+<section id="unlock-graph" class="content-section system-unlock" data-system-unlock hidden>
+
+## Unlock this part of the graph
+
+<p class="section-subtitle">This system teaches the highlighted nodes in the graph. Mark what you already know &mdash; be honest, it's your game.</p>
+
+<div class="system-progress" data-system-progress>
+<svg class="system-progress__ring" viewBox="0 0 44 44" aria-hidden="true"><circle class="system-progress__ring-bg" cx="22" cy="22" r="19"></circle><circle class="system-progress__ring-fill" cx="22" cy="22" r="19"></circle></svg>
+<div class="system-progress__text">You've unlocked <strong class="system-progress__known">0</strong> / <span class="system-progress__total">0</span> techniques in this system</div>
+<button class="system-progress__mark-all" data-mark-system type="button">Mark whole system as known</button>
+</div>
+
+<ul class="system-members" data-system-members></ul>
 
 </section>
 

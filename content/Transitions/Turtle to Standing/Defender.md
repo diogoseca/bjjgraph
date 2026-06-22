@@ -146,7 +146,7 @@ description: "How to prevent the Turtle to Standing escape in BJJ. Recognition c
 
 As the top player in turtle, your objective when the bottom player attempts to stand is to maintain control and either keep them on the mat or capitalize on their movement to advance to a superior position such as back control. The defender in this context is the turtle top player who must recognize the stand-up attempt early through specific physical cues and respond with the appropriate counter-strategy. The critical defensive principle is that preventing the stand-up requires forward pressure and grip establishment before the explosive phase begins. Once the bottom player commits to the explosive upward drive, your ability to stop them drops dramatically. Therefore, early recognition and pre-emptive grip and weight management are the foundation of effective defense. The secondary principle is converting failed prevention into position advancement: if the bottom player partially stands, their movement creates opportunities for seatbelt control, front headlock transitions, or leg attacks that would not be available against a static turtle.
 
-**Opponent's Starting Position**: [[Positions/Turtle]] (Top)
+**Opponent's Starting Position**: [[Positions/Turtle]] (Bottom)
 
 </section>
 

@@ -10,6 +10,41 @@ description: "Master the 3-4 Mount to S Mount transition in BJJ. Complete techni
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "3-4 Mount to S Mount",
+  "description": "Master the 3-4 Mount to S Mount transition in BJJ. Complete technical guide covering perpendicular positioning, arm isolation, and armbar setup mechanics.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "3-4 Mount to S Mount", "item": "https://bjjgraph.org/Transitions/3-4-Mount-to-S-Mount" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "3-4 Mount to S Mount",
+  "description": "The 3-4 Mount to S Mount transition is a perpendicular repositioning from asymmetric mount where the top player swings the posted leg over the opponent's head and isolates the near arm, converting positional control into a high-percentage armbar platform.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the 3-4 Mount to S Mount transition in BJJ. Complete techni
 </div>
 
 <section id="overview" class="content-section">
+
+**The 3-4 Mount to S Mount transition is a perpendicular repositioning from asymmetric mount where the top player swings the posted leg over the opponent's head and isolates the near arm, converting positional control into a high-percentage armbar platform.**
 
 The 3-4 Mount to S Mount transition represents a critical positional advancement within the mount hierarchy, converting asymmetric mount control into a perpendicular attacking platform optimized for armbar finishes. This movement exploits the existing leg configuration of 3-4 Mount—where one leg is already posted outside the opponent's body—to create the angular rotation necessary for S Mount entry without exposing the transitional vulnerabilities that arise when moving directly from standard mount.
 
@@ -222,5 +259,7 @@ The 3-4 Mount to S Mount transition serves as a critical link in the mount submi
 
 
 </section>
+
+
 
 </main>

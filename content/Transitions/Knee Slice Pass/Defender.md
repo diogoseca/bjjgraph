@@ -125,6 +125,7 @@ description: "How to defend and counter the Knee Slice Pass in BJJ. Recognition 
   "@type": "WebPage",
   "name": "Knee Slice Pass Defender",
   "description": "How to defend and counter the Knee Slice Pass in BJJ. Recognition cues, defensive options, escape strategies, and counter-attacks from half guard bottom.",
+  "alternateName": ["Knee Cut Pass", "Knee Cut", "Knee Slide Pass", "Knee Through Pass", "Knee Slide", "Knee Cut Through"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -170,6 +171,9 @@ description: "How to defend and counter the Knee Slice Pass in BJJ. Recognition 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Knee Cut Pass</strong>, <strong>Knee Cut</strong>, <strong>Knee Slide Pass</strong>, <strong>Knee Through Pass</strong>, <strong>Knee Slide</strong>, <strong>Knee Cut Through</strong> <span class="role-hint">(defender)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 Defending the knee slice pass requires the bottom player to recognize the attack early through specific tactile and visual cues, then deploy the appropriate defensive structure before the passer establishes the four pressure points that make the pass nearly unstoppable. The defender's primary objective is preventing the passer's knee from completing the diagonal cut across their thighs by maintaining frames, controlling distance, and disrupting the passer's grip sequence. Effective defense operates on a hierarchy: first prevent the slice from starting through proactive framing, then disrupt the slice mid-execution through hip movement and knee recovery, and finally counter-attack by exploiting the positional commitments the passer makes during the attempt.

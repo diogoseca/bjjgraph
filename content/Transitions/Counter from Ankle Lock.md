@@ -10,6 +10,41 @@ description: "Master the ankle lock counter in BJJ. Complete guide to neutralizi
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Counter from Ankle Lock",
+  "description": "Master the ankle lock counter in BJJ. Complete guide to neutralizing straight ankle lock control and passing to side control with boot defense and grip fighting.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Counter from Ankle Lock", "item": "https://bjjgraph.org/Transitions/Counter-from-Ankle-Lock" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Counter from Ankle Lock",
+  "description": "The counter from ankle lock is a defensive escape from straight ankle lock control that nullifies the submission with boot defense and two-on-one grip stripping, then drives forward to pass the attacker's guard into side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the ankle lock counter in BJJ. Complete guide to neutralizi
 </div>
 
 <section id="overview" class="content-section">
+
+**The counter from ankle lock is a defensive escape from straight ankle lock control that nullifies the submission with boot defense and two-on-one grip stripping, then drives forward to pass the attacker's guard into side control.**
 
 The counter from ankle lock is a critical defensive transition that transforms a dangerous submission predicament into an opportunity for positional dominance. When caught in straight ankle lock control, the instinct to yank the leg free plays directly into the attacker's hands by extending the ankle and tightening their grip mechanics. This counter instead uses deliberate structural defense followed by aggressive forward pressure to neutralize the submission threat and pass the attacker's guard into side control.
 
@@ -221,5 +258,7 @@ The counter from ankle lock occupies a vital position within the leg lock defens
 
 
 </section>
+
+
 
 </main>

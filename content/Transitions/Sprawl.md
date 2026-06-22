@@ -10,6 +10,41 @@ description: "Master the Sprawl takedown defense in BJJ. Essential defensive tec
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Sprawl",
+  "description": "Master the Sprawl takedown defense in BJJ. Essential defensive technique against single and double leg attacks with front headlock follow-ups and submissions.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Sprawl", "item": "https://bjjgraph.org/Transitions/Sprawl" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Sprawl",
+  "description": "The Sprawl is a takedown defense where you explosively drive your hips back and down while dropping chest weight onto a shooting opponent's shoulders, stuffing single- and double-leg attacks and transitioning to front headlock control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Sprawl takedown defense in BJJ. Essential defensive tec
 </div>
 
 <section id="overview" class="content-section">
+
+**The Sprawl is a takedown defense where you explosively drive your hips back and down while dropping chest weight onto a shooting opponent's shoulders, stuffing single- and double-leg attacks and transitioning to front headlock control.**
 
 The Sprawl is a fundamental defensive technique in Brazilian Jiu-Jitsu and wrestling, designed to counter opponent takedown attempts, particularly single leg and double leg attacks. When executed properly, the sprawl allows you to stuff the opponent's shot, prevent them from completing the takedown, and transition to a dominant position such as front headlock control. The sprawl works by explosively driving your hips down and back while simultaneously driving your weight onto the opponent's shoulders and head, breaking their posture and eliminating their ability to lift or drive forward. This creates an immediate shift in positional hierarchy, turning a potentially dangerous defensive situation into an offensive opportunity.
 
@@ -223,6 +260,18 @@ The sprawl serves as the foundational takedown defense technique connecting stan
 
 - [[Positions/Standing Position]] - Starting position where sprawl is initiated
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Danaher-Front-Headlock-System" data-cta="related-system-card" data-system-slug="systems/danaher-front-headlock-system" data-system-name="Danaher Front Headlock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Danaher Front Headlock System</span><span class="system-card__unlocks-badge">Unlocks 30 techniques</span><span class="system-card__blurb">Defensive entry to front headlock from takedown attempts</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Control System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/MMA-Crossover-Strategy" data-cta="related-system-card" data-system-slug="systems/mma-crossover-strategy" data-system-name="MMA Crossover Strategy" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">MMA Crossover Strategy</span><span class="system-card__unlocks-badge">Unlocks 27 techniques</span><span class="system-card__blurb">Primary takedown defense leading to front headlock and guillotine opportunities</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Standing-Defense-Strategy" data-cta="related-system-card" data-system-slug="systems/standing-defense-strategy" data-system-name="Standing Defense Strategy" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Standing Defense Strategy</span><span class="system-card__unlocks-badge">Unlocks 27 techniques</span><span class="system-card__blurb">Primary defensive technique against leg attack takedowns</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

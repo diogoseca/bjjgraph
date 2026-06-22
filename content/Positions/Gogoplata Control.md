@@ -10,6 +10,41 @@ description: "Master gogoplata control in BJJ. Complete technical guide covering
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Gogoplata Control",
+  "description": "Master gogoplata control in BJJ. Complete technical guide covering shin-across-throat positioning, submission mechanics, defensive maintenance, and strategic applications.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Gogoplata Control", "item": "https://bjjgraph.org/Positions/Gogoplata-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Gogoplata Control",
+  "description": "Gogoplata Control is a submission-control hybrid where the bottom player presses a shin across the opponent's throat while hooking that same foot behind their head, simultaneously controlling and choking from rubber guard or high-guard positions.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master gogoplata control in BJJ. Complete technical guide covering
 </div>
 
 <section id="overview" class="content-section">
+
+**Gogoplata Control is a submission-control hybrid where the bottom player presses a shin across the opponent's throat while hooking that same foot behind their head, simultaneously controlling and choking from rubber guard or high-guard positions.**
 
 Gogoplata Control represents one of Brazilian Jiu-Jitsu's most technically demanding and strategically unique control positions. This position establishes a shin-across-throat configuration that creates both a controlling position and an immediate submission threat simultaneously. Unlike traditional control positions that prioritize stability before submission attacks, Gogoplata Control merges these concepts into a single unified state where the controlling mechanics are inseparable from the finishing mechanics.
 
@@ -108,17 +145,15 @@ The position also demonstrates important principles about submission-based contr
 ### Available Transitions
 
 
-- **[[Transitions/Gogoplata/Attacker|Gogoplata]]** (27% of attempts)
+- **[[Transitions/Gogoplata/Attacker|Gogoplata]]** (35% of attempts)
 
-- **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (15% of attempts)
+- **[[Transitions/Switch to Triangle/Attacker|Switch to Triangle]]** (22% of attempts)
 
-- **[[Transitions/Back Take/Attacker|Back Take]]** (14% of attempts)
+- **[[Transitions/Back Take/Attacker|Back Take]]** (18% of attempts)
 
-- **[[Transitions/Mission Control Recovery/Attacker|Mission Control Recovery]]** (24% of attempts)
+- **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (17% of attempts)
 
-- **[[Transitions/Switch to Triangle/Attacker|Switch to Triangle]]** (18% of attempts)
-
-- **[[Transitions/Gogoplata/Attacker|Gogoplata]]** (2% of attempts)
+- **[[Transitions/Mission Control Recovery/Attacker|Mission Control Recovery]]** (8% of attempts)
 
 
 ### Common Mistakes
@@ -179,27 +214,29 @@ The position also demonstrates important principles about submission-based contr
 ### Available Transitions
 
 
-- **[[Transitions/Head Extraction to Posture/Attacker|Head Extraction to Posture]]** (32% of attempts)
+- **[[Transitions/Head Extraction to Posture/Attacker|Head Extraction to Posture]]** (29% of attempts)
 
 - **[[Transitions/Shin Removal to Pass/Attacker|Shin Removal to Pass]]** (3% of attempts)
 
 - **[[Transitions/Leg Extraction Escape/Attacker|Leg Extraction Escape]]** (3% of attempts)
 
-- **[[Transitions/Stack Defense/Attacker|Stack Defense]]** (8% of attempts)
+- **[[Transitions/Stack Defense/Attacker|Stack Defense]]** (7% of attempts)
 
-- **[[Transitions/Angle Change Escape/Attacker|Angle Change Escape]]** (13% of attempts)
+- **[[Transitions/Angle Change Escape/Attacker|Angle Change Escape]]** (12% of attempts)
 
-- **[[Transitions/Hand Control to Extract/Attacker|Hand Control to Extract]]** (10% of attempts)
+- **[[Transitions/Hand Control to Extract/Attacker|Hand Control to Extract]]** (9% of attempts)
 
-- **[[Transitions/Roll to Turtle/Attacker|Roll to Turtle]]** (13% of attempts)
+- **[[Transitions/Roll to Turtle/Attacker|Roll to Turtle]]** (12% of attempts)
 
-- **[[Transitions/Explosive Bridge to Guard Recovery/Attacker|Explosive Bridge to Guard Recovery]]** (6% of attempts)
+- **[[Transitions/Explosive Bridge to Guard Recovery/Attacker|Explosive Bridge to Guard Recovery]]** (5% of attempts)
 
-- **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** (10% of attempts)
+- **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** (9% of attempts)
 
-- **[[Transitions/Gogoplata to Armbar/Attacker|Gogoplata to Armbar]]** (1% of attempts)
+- **[[Transitions/Gogoplata to Armbar/Attacker|Gogoplata to Armbar]]** (2% of attempts)
 
-- **[[Transitions/Posture Up from Gogoplata/Attacker|Posture Up from Gogoplata]]** (1% of attempts)
+- **[[Transitions/Posture Up from Gogoplata/Attacker|Posture Up from Gogoplata]]** (2% of attempts)
+
+- **[[Gogoplata from Gogoplata Control/Attacker|Gogoplata from Gogoplata Control]]** (7% of attempts)
 
 
 ### Common Mistakes
@@ -258,6 +295,16 @@ The position also demonstrates important principles about submission-based contr
 
 - **[[game-over]]** - Terminal state when gogoplata submission is completed successfully
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Rubber-Guard-to-Triangle-System" data-cta="related-system-card" data-system-slug="systems/rubber-guard-to-triangle-system" data-system-name="Rubber Guard to Triangle System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Rubber Guard to Triangle System</span><span class="system-card__unlocks-badge">Unlocks 22 techniques</span><span class="system-card__blurb">Alternative finish available from Mission Control and New York</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

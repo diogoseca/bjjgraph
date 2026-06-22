@@ -234,7 +234,7 @@ The X-Guard Sweep is a fundamental attacking technique from X-Guard that uses su
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Mount]] | 65% |
+| Success | [[Positions/Combat Base]] | 65% |
 | Failure | [[Positions/X-Guard]] | 25% |
 | Counter | [[Positions/X-Guard]] | 10% |
 
@@ -333,6 +333,17 @@ Develop personal X-Guard attacking system integrating sweeps, submissions, and t
 <p class="section-subtitle">What are the safety concerns for X-Guard Sweep?</p>
 
 The X-Guard Sweep is generally low-risk when practiced correctly, but practitioners should be aware of several safety factors. When falling after being swept, avoid posting with stiff arms as this can lead to wrist, elbow, or shoulder injuries. Instead, practice proper breakfall technique by slapping the mat with your arm and tucking your chin. The sweeping player must control the descent and avoid spiking the opponent or causing them to land on their head or neck. Release hooks if the sweep goes wrong to prevent knee or ankle torque. For the bottom player, be cautious of your own knee health by not forcing hooks into positions that create excessive twisting pressure on your knee joints. Start with slow, controlled repetitions and gradually increase speed as both partners develop familiarity with the movement patterns.
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Marcelo-Garcia-X-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-x-guard-system" data-system-name="Marcelo Garcia X-Guard System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Marcelo Garcia X-Guard System</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Fundamental sweep technique of the system</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Berimbolo" data-cta="related-system-card" data-system-slug="systems/berimbolo" data-system-name="Berimbolo" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Berimbolo</span><span class="system-card__unlocks-badge">Unlocks 21 techniques</span><span class="system-card__blurb">Chained attack when opponent sits back to counter Berimbolo - creates offensive dilemma</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

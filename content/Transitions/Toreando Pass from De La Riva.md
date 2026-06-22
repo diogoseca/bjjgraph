@@ -10,6 +10,41 @@ description: "Master the Toreando Pass from De La Riva Guard in BJJ. Step-by-ste
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Toreando Pass from De La Riva",
+  "description": "Master the Toreando Pass from De La Riva Guard in BJJ. Step-by-step guide covering DLR hook removal, grip strategies, and explosive passing to side control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Toreando Pass from De La Riva", "item": "https://bjjgraph.org/Transitions/Toreando-Pass-from-De-La-Riva" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Toreando Pass from De La Riva",
+  "description": "The Toreando Pass from De La Riva is a mobile, bullfighter-style guard pass that strips the DLR hook and ankle grip, pins both legs, and circles dynamically around them to reach side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Toreando Pass from De La Riva Guard in BJJ. Step-by-ste
 </div>
 
 <section id="overview" class="content-section">
+
+**The Toreando Pass from De La Riva is a mobile, bullfighter-style guard pass that strips the DLR hook and ankle grip, pins both legs, and circles dynamically around them to reach side control.**
 
 The Toreando Pass from De La Riva Guard is a speed-based guard passing technique where the top player strips the DLR hook and ankle grip, establishes bilateral control of the opponent's legs, and uses explosive lateral movement to redirect the legs to one side while circling around to achieve side control. This pass directly exploits a structural vulnerability in De La Riva guard: the bottom player's offensive power depends entirely on the hook-plus-grip control system, so once these controls are neutralized, the guard framework collapses and the legs become manageable obstacles rather than offensive weapons. The toreando's lateral passing vector is particularly effective against DLR because it moves perpendicular to the guard player's primary sweeping axis, making it difficult for them to generate off-balancing force during the pass.
 
@@ -220,5 +257,7 @@ The Toreando Pass from De La Riva Guard occupies a central role in the DLR passi
 
 
 </section>
+
+
 
 </main>

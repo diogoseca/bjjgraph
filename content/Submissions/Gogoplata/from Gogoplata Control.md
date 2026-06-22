@@ -10,10 +10,55 @@ description: "Master the Gogoplata shin choke in BJJ. Complete guide with safety
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Gogoplata from Gogoplata Control targets the Trachea and carotid arteries. Risk: Tracheal damage or crushing. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Gogoplata from Gogoplata Control",
+  "description": "Master the Gogoplata shin choke in BJJ. Complete guide with safety protocols, rubber guard setup, and execution steps. Success rates: Beginner 15%, Intermediate 30%, Advanced 50%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Gogoplata from Gogoplata Control", "item": "https://bjjgraph.org/Submissions/Gogoplata-from-Gogoplata-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Gogoplata from Gogoplata Control",
+  "description": "The Gogoplata is an advanced shin choke—most associated with the 10th Planet rubber guard—in which the attacker drives the blade of the shin across the opponent's throat while pulling the head forward to compress the trachea.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Gogoplata is an advanced shin choke—most associated with the 10th Planet rubber guard—in which the attacker drives the blade of the shin across the opponent's throat while pulling the head forward to compress the trachea.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Shin Choke</span>
+<span class="meta-chip">Targets Trachea and carotid arteries</span>
+<span class="meta-chip">40% success</span>
+</div>
+
+> [!danger] Safety
+> Gogoplata from Gogoplata Control targets the Trachea and carotid arteries. Primary risk: Tracheal damage or crushing. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -24,63 +69,13 @@ description: "Master the Gogoplata shin choke in BJJ. Complete guide with safety
 
 <section id="overview" class="content-section">
 
-The Gogoplata is an advanced submission technique that utilizes the shin bone to create a choke by pressing against the opponent's trachea while simultaneously pulling their head forward. This highly technical submission is most commonly associated with the rubber guard system and requires exceptional flexibility, precise positioning, and excellent timing. The Gogoplata is executed primarily from rubber guard positions, though variations exist from mount and other control positions.
+Emerging from Eddie Bravo's 10th Planet system, the Gogoplata earned its reputation as one of grappling's most flexibility-dependent finishes, prized for catching opponents who have never had to defend a hard shin driven across their windpipe. This highly technical submission is most commonly associated with the rubber guard system and requires exceptional flexibility, precise positioning, and excellent timing. The Gogoplata is executed primarily from rubber guard positions, though variations exist from mount and other control positions.
 
 What makes the Gogoplata particularly effective is its unexpected nature and the difficulty opponents face in defending once the position is established. Unlike traditional chokes that rely on arm or collar grips, the Gogoplata uses the shin bone as the primary choking mechanism, making it extremely difficult to grip-fight or hand-fight out of the submission. The technique's success heavily depends on the practitioner's ability to maintain high guard control, break the opponent's posture, and possess the hip flexibility necessary to bring the shin across the throat.
 
 While the Gogoplata has a reputation as a low-percentage submission due to its technical complexity and flexibility requirements, when executed by practitioners with the proper physical attributes and technical understanding, it becomes a powerful addition to the submission arsenal. The technique has been successfully used in high-level competition by flexibility-focused grapplers. The Gogoplata represents the evolution of submission grappling beyond traditional techniques, showcasing how creativity and physical attributes can be leveraged to create finishing opportunities from seemingly neutral positions.
 
-**Category**: Choke
-**Type**: Shin Choke
-**Target Area**: Trachea and carotid arteries
-**Starting Position**: [[Positions/Rubber Guard]]
-**From Position**: [[Positions/Gogoplata Control]] (Top)
-**Success Rate**: 40%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Tracheal damage or crushing | CRITICAL | 4-12 weeks or permanent damage |
-| Carotid artery compression leading to loss of consciousness | CRITICAL | Immediate (but risk of brain damage if held too long) |
-| Neck hyperextension or cervical spine injury | High | 2-8 weeks |
-| Jaw or facial bone stress fractures | Medium | 4-6 weeks |
-
-
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum from initial shin placement to full pressure. This is one of the most dangerous chokes due to tracheal vulnerability.
-
-**Tap Signals**:
-- Verbal tap (any sound indicating distress)
-- Physical hand tap (rapid tapping on partner's body or mat)
-- Physical foot tap (stomping or tapping with feet)
-- Any distress signal or change in breathing pattern
-- Loss of resistance or body going limp (IMMEDIATE RELEASE)
-
-
-**Release Protocol**:
-1. IMMEDIATELY remove shin from across throat at first sign of tap
-2. Release head control and allow head to return to neutral position
-3. Remove top leg from over opponent's head completely
-4. Lower hips and release all pressure
-5. Check on training partner's condition before continuing
-6. Allow adequate recovery time (minimum 2-3 minutes) before resuming training
-
-
-**Training Restrictions**:
-- NEVER apply rapid or explosive pressure to the throat
-- NEVER practice at competition speed during training
-- NEVER use excessive pulling force on the head
-- Always allow training partner immediate tap access
-- Beginners should drill position only without applying pressure for first 6-12 months
-- Only practice with trusted partners who understand the dangers
-- Never practice when fatigued or with impaired judgment
-
+**Starting Position**: [[Positions/Rubber Guard]] · **From**: [[Positions/Gogoplata Control]] (Top)
 
 </section>
 
@@ -256,10 +251,9 @@ While the Gogoplata has a reputation as a low-percentage submission due to its t
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Triangle Choke]]
 - [[Submissions/Omoplata]]
 - [[Submissions/Baratoplata]]
@@ -267,37 +261,61 @@ While the Gogoplata has a reputation as a low-percentage submission due to its t
 - [[Transitions/Guillotine Choke]]
 - [[Transitions/Gogoplata]]
 - [[Transitions/Inverted Triangle]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Rubber Guard]] - Primary position for gogoplata setup - provides the high guard control and broken posture necessary for successful execution
 - [[Positions/Rubber Guard/Mission Control]] - Optimal rubber guard configuration for gogoplata - arm trap and posture control create ideal conditions for shin placement
-- [[Submissions/Triangle Choke]] - Complementary submission - failed triangle can transition to gogoplata, and vice versa. Both require broken posture and high guard control
-- [[Submissions/Omoplata]] - Part of the rubber guard submission system - can chain together with gogoplata as opponent defends one attack
-- [[Submissions/Baratoplata]] - Another shin-based submission from rubber guard - similar setup requirements and flexibility demands
 - [[Positions/Closed Guard]] - Starting position before establishing rubber guard - must transition through closed guard to access gogoplata setups
 - [[Positions/Mount/Mounted Triangle]] - Alternative finishing position - can transition from mount to gogoplata when flexibility allows
 - [[Positions/Inverted Guard]] - Advanced position allowing inverted gogoplata variations for extremely flexible practitioners
-- [[Submissions/Far Side Armbar]] - Alternative submission from similar control positions - if gogoplata is defended by posturing, the exposed arm often becomes available for armbar attacks
 - [[Positions/Gogoplata Control]] - Control position achieved before finishing the gogoplata submission
 - [[Positions/Triangle Control]] - Related control position - often transitions between triangle and gogoplata based on opponent defense
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Tracheal damage or crushing | CRITICAL | 4-12 weeks or permanent damage |
+| Carotid artery compression leading to loss of consciousness | CRITICAL | Immediate (but risk of brain damage if held too long) |
+| Neck hyperextension or cervical spine injury | High | 2-8 weeks |
+| Jaw or facial bone stress fractures | Medium | 4-6 weeks |
+
+
+**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum from initial shin placement to full pressure. This is one of the most dangerous chokes due to tracheal vulnerability.
+
+**Tap Signals**:
+- Verbal tap (any sound indicating distress)
+- Physical hand tap (rapid tapping on partner's body or mat)
+- Physical foot tap (stomping or tapping with feet)
+- Any distress signal or change in breathing pattern
+- Loss of resistance or body going limp (IMMEDIATE RELEASE)
+
+
+**Release Protocol**:
+1. IMMEDIATELY remove shin from across throat at first sign of tap
+2. Release head control and allow head to return to neutral position
+3. Remove top leg from over opponent's head completely
+4. Lower hips and release all pressure
+5. Check on training partner's condition before continuing
+6. Allow adequate recovery time (minimum 2-3 minutes) before resuming training
+
+
+**Training Restrictions**:
+- NEVER apply rapid or explosive pressure to the throat
+- NEVER practice at competition speed during training
+- NEVER use excessive pulling force on the head
+- Always allow training partner immediate tap access
+- Beginners should drill position only without applying pressure for first 6-12 months
+- Only practice with trusted partners who understand the dangers
+- Never practice when fatigued or with impaired judgment
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Gogoplata from Gogoplata Control leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

@@ -15,7 +15,8 @@
   "application_level": "Intermediate",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
-  "overview": "Hand Fighting represents the dynamic battle for upper body positional control through strategic management of hand positioning, engagement, and prevention. Unlike grip fighting which focuses specifically on establishing and breaking grips, hand fighting encompasses a broader tactical framework involving all aspects of upper body control through hand placement, movement, and sequencing. This concept applies across all phases of BJJ but is particularly critical in the standing phase, clinch exchanges, and upper body dominant positions. Hand fighting serves as both an offensive mechanism for establishing dominant control pathways and a defensive system for preventing opponent's preferred control structures. The ability to win the hand fighting battle often determines subsequent positional advantages and creates the foundation for effective technique application, making it one of the most fundamental yet frequently overlooked conceptual elements in BJJ.",
+  "summary": "Hand Fighting is the continuous tactical battle for upper-body control in which practitioners use hand placement, movement, and timing to establish their own grips and controls while denying the opponent theirs.",
+  "overview": "Often conflated with grip fighting, hand fighting operates at a broader tactical level that governs the entire upper-body control exchange. Unlike grip fighting, which focuses specifically on establishing and breaking grips, hand fighting encompasses all aspects of upper body control through hand placement, movement, and sequencing. This concept applies across all phases of BJJ but is particularly critical in the standing phase, clinch exchanges, and upper body dominant positions. Hand fighting serves as both an offensive mechanism for establishing dominant control pathways and a defensive system for preventing opponent's preferred control structures. The ability to win the hand fighting battle often determines subsequent positional advantages and creates the foundation for effective technique application, making it one of the most fundamental yet frequently overlooked conceptual elements in BJJ.",
   "key_principles": [
     "Establish inside position control when possible to gain mechanical advantage",
     "Maintain active hand movement to prevent opponent's preferred controls",
@@ -399,6 +400,48 @@
       "name": "Front Headlock",
       "content_type": "Position",
       "relationship": "Position where hand fighting for head and arm control determines choke and go-behind opportunities"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "How does hand fighting differ from grip fighting?",
+      "answer": "Grip fighting focuses narrowly on establishing and breaking specific grips, while hand fighting is the broader tactical battle for upper-body positioning—hand placement, movement, and timing—that creates the foundation for grips and controls."
+    },
+    {
+      "question": "Why is inside position so valuable in hand fighting?",
+      "answer": "Inside position places your hands inside the opponent's arms, granting mechanical advantage for pushing, pulling, and controlling posture while limiting the opponent's ability to establish their own grips and controls."
+    },
+    {
+      "question": "What is the most common error practitioners make in hand fighting?",
+      "answer": "Reaching for grips from poor hand positioning before winning the positional battle, producing weak controls that break easily and waste energy; superior hand position should be established first."
+    },
+    {
+      "question": "How should hand fighting coordinate with the rest of the body?",
+      "answer": "Hand movements must integrate with footwork, weight distribution, and body angles so upper and lower body work together; isolated hand fighting creates disconnected, mechanically weak control that is easily countered."
+    },
+    {
+      "question": "What role does tactile sensitivity play in hand fighting?",
+      "answer": "Tactile sensitivity lets you feel the opponent's pressure changes, grip attempts, and movement intentions through contact, enabling anticipatory responses and timing advantages before you can see the threat develop."
+    },
+    {
+      "question": "Why is static hand positioning a problem during exchanges?",
+      "answer": "Holding the hands static gives the opponent time to establish their preferred grips and controls, surrendering initiative; continuous tactical circulation denies those grips and keeps you dictating the exchange."
+    },
+    {
+      "question": "How does hand fighting change between guard retention and guard passing?",
+      "answer": "For the guard player it prevents the passer's controlling grips while maintaining retention grips like sleeve and collar; for the passer it strips retention grips and establishes passing controls while denying frames."
+    },
+    {
+      "question": "How do feints and misdirection function in hand fighting?",
+      "answer": "Strategic hand movements create false threats that bait the opponent's defensive reactions, opening pathways elsewhere; presenting multiple simultaneous threats prevents them from fully committing to any single defense."
+    },
+    {
+      "question": "When should you transition from hand fighting to executing a technique?",
+      "answer": "Once you hold a decisive hand-control advantage—inside position, broken posture, or a dominant grip—you should capitalize immediately, since hand fighting is a means to set up sweeps, passes, takedowns, and submissions."
+    },
+    {
+      "question": "What is the priority of hand fighting in the clinch?",
+      "answer": "In the clinch the underhook battle is paramount; winning inside control, preventing the opponent's overhooks, and establishing head control directly determine takedown success and defensive positioning."
     }
   ]
 }

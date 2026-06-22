@@ -10,10 +10,55 @@ description: "Master the rear triangle choke finish from rear triangle position.
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Rear Triangle Choke from Rear Triangle targets the Neck. Risk: Loss of consciousness from bilateral carotid compression. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Rear Triangle Choke from Rear Triangle",
+  "description": "Master the rear triangle choke finish from rear triangle position. Learn squeeze mechanics, hip angle adjustments, and systematic finishing sequences for competition BJJ.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Rear Triangle Choke from Rear Triangle", "item": "https://bjjgraph.org/Submissions/Rear-Triangle-Choke-from-Rear-Triangle" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Rear Triangle Choke from Rear Triangle",
+  "description": "The Rear Triangle Choke from Rear Triangle is a bilateral blood choke from back control: the attacker's figure-four legs compress both carotids—shin blade on one side, the opponent's own trapped shoulder on the other—forcing a rapid tap.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Rear Triangle Choke from Rear Triangle is a bilateral blood choke from back control: the attacker's figure-four legs compress both carotids—shin blade on one side, the opponent's own trapped shoulder on the other—forcing a rapid tap.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Neck</span>
+<span class="meta-chip">50% success</span>
+</div>
+
+> [!danger] Safety
+> Rear Triangle Choke from Rear Triangle targets the Neck. Primary risk: Loss of consciousness from bilateral carotid compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,52 +75,7 @@ What distinguishes the rear triangle finish from other back attacks is that the 
 
 Strategically, this finish sits at the apex of a submission chain from rear triangle position. Opponents who defend the choke expose the trapped arm to armbars; those who address the arm expose the neck to tighter compression. This dilemma-based attack structure makes the rear triangle choke a high-percentage competition finish that rewards patience and systematic tightening over explosive force.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Neck
-**Starting Position**: [[Positions/Triangle Control/Rear Triangle]]
-**From Position**: [[Positions/Triangle Control/Rear Triangle]] (Top)
-**Success Rate**: 50%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Loss of consciousness from bilateral carotid compression | CRITICAL | Seconds to minutes if released promptly; permanent neurological damage possible if held beyond 10-15 seconds after unconsciousness |
-| Tracheal bruising or cartilage damage from improper shin placement across the windpipe | High | 1-4 weeks for bruising; 6-12 weeks for cartilage injury |
-| Cervical spine strain from excessive posture breaking or neck cranking during finish | Medium | 1-3 weeks for mild strain; 4-8 weeks for moderate injury |
-
-
-**Application Speed**: SLOW and progressive. Blood chokes can cause unconsciousness in 4-6 seconds once fully locked. Apply squeeze gradually and monitor opponent continuously. Never jerk, spike, or explosively tighten the triangle.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner, your body, or the mat
-- Physical foot tap with free leg on mat or partner
-- Any unusual vocalization, gurgling, or distress sounds
-- Body going limp or cessation of all defensive movement (unconsciousness indicator—release immediately)
-
-
-**Release Protocol**:
-1. Release immediately upon any tap signal without hesitation
-2. If opponent goes limp or stops responding, release immediately and alert instructor
-3. If in doubt whether a tap occurred, release—position can always be re-established
-4. After release, check opponent's consciousness and responsiveness before continuing
-5. Place unconscious training partner in recovery position and call for medical assistance
-
-
-**Training Restrictions**:
-- Never apply full squeeze pressure on training partners below blue belt or with less than one year of consistent training
-- Always use controlled, progressive application during drilling—save competitive-speed finishing for supervised sparring only
-- Do not hold the choke after the tap to demonstrate control; release is immediate and unconditional
-- Practitioners with neck injuries, cardiovascular conditions, or blood pressure disorders should consult a physician before training this technique
-
+**Starting Position**: [[Positions/Triangle Control/Rear Triangle]] · **From**: [[Positions/Triangle Control/Rear Triangle]] (Top)
 
 </section>
 
@@ -224,39 +224,58 @@ Strategically, this finish sits at the apex of a submission chain from rear tria
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/Bow and Arrow Choke]]
 - [[Transitions/Arm Triangle]]
 - [[Transitions/Gogoplata]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Triangle Control/Rear Triangle]] - Primary starting position for this submission finish
 - [[Positions/Back Control]] - Parent position from which rear triangle is entered
-- [[Submissions/Rear Naked Choke]] - Alternative choking submission from back control when triangle configuration is unavailable
-- [[Submissions/Bow and Arrow Choke]] - Alternative choking submission from back control
-- [[Transitions/Arm Triangle]] - Related triangle choking mechanics from different angle
+
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Loss of consciousness from bilateral carotid compression | CRITICAL | Seconds to minutes if released promptly; permanent neurological damage possible if held beyond 10-15 seconds after unconsciousness |
+| Tracheal bruising or cartilage damage from improper shin placement across the windpipe | High | 1-4 weeks for bruising; 6-12 weeks for cartilage injury |
+| Cervical spine strain from excessive posture breaking or neck cranking during finish | Medium | 1-3 weeks for mild strain; 4-8 weeks for moderate injury |
+
+
+**Application Speed**: SLOW and progressive. Blood chokes can cause unconsciousness in 4-6 seconds once fully locked. Apply squeeze gradually and monitor opponent continuously. Never jerk, spike, or explosively tighten the triangle.
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any distress signal)
+- Physical hand tap on partner, your body, or the mat
+- Physical foot tap with free leg on mat or partner
+- Any unusual vocalization, gurgling, or distress sounds
+- Body going limp or cessation of all defensive movement (unconsciousness indicator—release immediately)
+
+
+**Release Protocol**:
+1. Release immediately upon any tap signal without hesitation
+2. If opponent goes limp or stops responding, release immediately and alert instructor
+3. If in doubt whether a tap occurred, release—position can always be re-established
+4. After release, check opponent's consciousness and responsiveness before continuing
+5. Place unconscious training partner in recovery position and call for medical assistance
+
+
+**Training Restrictions**:
+- Never apply full squeeze pressure on training partners below blue belt or with less than one year of consistent training
+- Always use controlled, progressive application during drilling—save competitive-speed finishing for supervised sparring only
+- Do not hold the choke after the tap to demonstrate control; release is immediate and unconditional
+- Practitioners with neck injuries, cardiovascular conditions, or blood pressure disorders should consult a physician before training this technique
 
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Rear Triangle Choke from Rear Triangle leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

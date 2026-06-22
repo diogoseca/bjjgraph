@@ -10,6 +10,41 @@ description: "Master the Inside Ashi-Garami to Honey Hole transition in BJJ. Thr
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Inside Ashi-Garami to Honey Hole",
+  "description": "Master the Inside Ashi-Garami to Honey Hole transition in BJJ. Threading inside leg to saddle position for dominant heel hook control and finishing.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Inside Ashi-Garami to Honey Hole", "item": "https://bjjgraph.org/Transitions/Inside-Ashi-Garami-to-Honey-Hole" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Inside Ashi-Garami to Honey Hole",
+  "description": "The Inside Ashi-Garami to Honey Hole transition threads the outside leg through the opponent's legs to form an inside-leg triangle, converting a foundational ashi-garami into the dominant saddle for high-percentage heel hook control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,13 +57,15 @@ description: "Master the Inside Ashi-Garami to Honey Hole transition in BJJ. Thr
 
 <section id="overview" class="content-section">
 
+**The Inside Ashi-Garami to Honey Hole transition threads the outside leg through the opponent's legs to form an inside-leg triangle, converting a foundational ashi-garami into the dominant saddle for high-percentage heel hook control.**
+
 The Inside Ashi-Garami to Honey Hole transition represents one of the most important positional advancements in modern leg lock systems. This transition converts a foundational leg entanglement into the dominant saddle configuration, dramatically increasing control and submission threat. The movement requires threading your outside leg through opponent's legs to establish the figure-four triangle that defines Honey Hole position.
 
 Strategically, this transition should be attempted when opponent defends your initial attacks by rotating their knee inward or when you need greater control before finishing. The Honey Hole provides superior heel exposure and hip control compared to basic Inside Ashi-Garami, making submissions significantly higher percentage. The transition exploits opponent's defensive reactions—when they focus on hiding their heel, they often neglect the space you need to advance your leg configuration.
 
 The timing window for this transition typically opens when opponent commits weight to defend one attack, creating the momentary looseness in their defensive posture that allows your leg to thread through. Masters of this transition recognize that it functions as part of an attack chain: threatening straight ankle lock forces defensive posture that opens Honey Hole entry, and vice versa. The position after successful transition places you in arguably the most dominant leg entanglement in grappling.
 
-**From Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -222,5 +259,7 @@ The Inside Ashi-Garami to Honey Hole transition occupies a critical junction in 
 
 
 </section>
+
+
 
 </main>

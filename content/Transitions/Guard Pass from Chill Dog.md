@@ -10,6 +10,41 @@ description: "Master the Guard Pass from Chill Dog in BJJ. Learn to advance from
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Guard Pass from Chill Dog",
+  "description": "Master the Guard Pass from Chill Dog in BJJ. Learn to advance from turtle top to side control by breaking defensive frames and flattening your opponent.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Guard Pass from Chill Dog", "item": "https://bjjgraph.org/Transitions/Guard-Pass-from-Chill-Dog" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Guard Pass from Chill Dog",
+  "description": "The Guard Pass from Chill Dog is a turtle-top advancement where the top player breaks the elbow-to-knee frame, flattens the opponent's hips to the mat, and slides into perpendicular side control instead of taking the back.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Guard Pass from Chill Dog in BJJ. Learn to advance from
 </div>
 
 <section id="overview" class="content-section">
+
+**The Guard Pass from Chill Dog is a turtle-top advancement where the top player breaks the elbow-to-knee frame, flattens the opponent's hips to the mat, and slides into perpendicular side control instead of taking the back.**
 
 The Guard Pass from Chill Dog is a direct positional advancement technique that converts turtle top control into side control. Rather than pursuing the more common back-take approach against the Chill Dog defensive turtle, this pass targets the structural integrity of the defensive shell itself, breaking down the elbow-to-knee connection and flattening the opponent to establish perpendicular side control. The technique is rooted in systematic pressure application and sequential frame destruction rather than speed or athleticism.
 
@@ -222,5 +259,7 @@ The Guard Pass from Chill Dog connects the turtle attacking system directly to t
 
 
 </section>
+
+
 
 </main>

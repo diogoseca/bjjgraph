@@ -10,6 +10,41 @@ description: "Master the Meathook position in BJJ. Strategic Rubber Guard contro
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Meathook",
+  "description": "Master the Meathook position in BJJ. Strategic Rubber Guard control that isolates the opponent\u0027s arm while breaking posture for high-percentage attacks.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Meathook", "item": "https://bjjgraph.org/Positions/Meathook" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Meathook",
+  "description": "Meathook is a 10th Planet Rubber Guard control where the bottom player hooks a shin over the opponent's trapped arm to isolate it and break posture, opening gogoplata, triangle, and omoplata attack chains.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Meathook position in BJJ. Strategic Rubber Guard contro
 </div>
 
 <section id="overview" class="content-section">
+
+**Meathook is a 10th Planet Rubber Guard control where the bottom player hooks a shin over the opponent's trapped arm to isolate it and break posture, opening gogoplata, triangle, and omoplata attack chains.**
 
 The Meathook is an advanced Rubber Guard control position that represents one of the most powerful arm isolation systems in Brazilian Jiu-Jitsu. Developed within the 10th Planet Jiu-Jitsu system, the Meathook creates a unique control dynamic where the bottom player uses their leg to hook and control the opponent's arm while simultaneously breaking their posture. This position serves as a critical transition point in the Rubber Guard system, offering pathways to high-percentage submissions including the Gogoplata, Omoplata, Triangle, and various arm attacks.
 
@@ -262,6 +299,18 @@ Understanding Meathook requires grasping its place in the larger Rubber Guard ec
 
 - **[[Positions/Back Control]]** - Available when opponent attempts to stack or pressure pass
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/10th-Planet-No-Gi-Guard-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-no-gi-guard-system" data-system-name="10th Planet No-Gi Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">10th Planet No-Gi Guard System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Advanced rubber guard control for omoplata paths</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/10th-Planet-Rubber-Guard-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-rubber-guard-system" data-system-name="10th Planet Rubber Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">10th Planet Rubber Guard System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Omoplata setup and transitional control position</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Rubber-Guard-to-Omoplata-System" data-cta="related-system-card" data-system-slug="systems/rubber-guard-to-omoplata-system" data-system-name="Rubber Guard to Omoplata System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Rubber Guard to Omoplata System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Alternative rubber guard control used for pressure-based entries</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

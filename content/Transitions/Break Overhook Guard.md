@@ -10,6 +10,41 @@ description: "Master the Break Overhook Guard technique in BJJ. Complete guide t
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Break Overhook Guard",
+  "description": "Master the Break Overhook Guard technique in BJJ. Complete guide to stripping overhook control from guard top with systematic grip breaking mechanics.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Break Overhook Guard", "item": "https://bjjgraph.org/Transitions/Break-Overhook-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Break Overhook Guard",
+  "description": "Break Overhook Guard is the top player's grip-stripping sequence that peels an opponent's overhook (whizzer) control off the shoulder—using posture, wrist control, and circular elbow mechanics—to recover neutral closed guard top and unlock the passing game.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Break Overhook Guard technique in BJJ. Complete guide t
 
 <section id="overview" class="content-section">
 
-Break Overhook Guard is a fundamental grip-stripping technique executed by the top player when trapped inside an opponent's overhook guard. The overhook creates significant control problems for the top player, limiting posting ability on the trapped side, compromising posture, and opening pathways for sweeps and submissions. Breaking this control is essential before meaningful guard passing can begin, as attempting to pass while the overhook remains intact dramatically increases vulnerability to back takes, omoplatas, and overhook sweeps.
+**Break Overhook Guard is the top player's grip-stripping sequence that peels an opponent's overhook (whizzer) control off the shoulder—using posture, wrist control, and circular elbow mechanics—to recover neutral closed guard top and unlock the passing game.**
+
+When the bottom player locks an overhook (whizzer) on one of your arms, your entire passing game stalls until you can strip it — and stripping it is precisely what Break Overhook Guard accomplishes. The overhook creates significant control problems for the top player, limiting posting ability on the trapped side, compromising posture, and opening pathways for sweeps and submissions. Breaking this control is essential before meaningful guard passing can begin, as attempting to pass while the overhook remains intact dramatically increases vulnerability to back takes, omoplatas, and overhook sweeps.
 
 The technique requires a systematic approach rather than brute force. The top player must first establish whatever base and posture is available, then strategically isolate and strip the overhook through a combination of wrist control, posture creation, and elbow circulation mechanics. Timing is critical: the break must happen during windows when the bottom player is transitioning between attacks or adjusting grip depth, rather than when maximum tension is applied on the overhook.
 
@@ -220,5 +257,7 @@ Break Overhook Guard occupies a critical defensive role in the guard top player'
 
 
 </section>
+
+
 
 </main>

@@ -21,19 +21,19 @@ description: "Master North-South top position in BJJ. Complete guide to establis
     {
       "@type": "HowToStep",
       "name": "Execute North-South Choke from North-South",
-      "text": "From this position, attempt North-South Choke from North-South. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt North-South Choke from North-South. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute North-South to Kimura",
-      "text": "From this position, attempt North-South to Kimura. This technique is attempted in 21% of exchanges from this position.",
+      "text": "From this position, attempt North-South to Kimura. This technique is attempted in 17% of exchanges from this position.",
       "position": 3
     },
     {
@@ -45,13 +45,13 @@ description: "Master North-South top position in BJJ. Complete guide to establis
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to North-South",
-      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 6% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Americana from North-South",
-      "text": "From this position, attempt Americana from North-South. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Americana from North-South. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -116,6 +116,8 @@ description: "Master North-South top position in BJJ. Complete guide to establis
   "@type": "WebPage",
   "name": "North-South Top",
   "description": "Master North-South top position in BJJ. Complete guide to establishing crushing pressure control, submission attacks, and positional transitions from this dominant pinning position.",
+  "alternateName": ["Kami Shiho Gatame", "North South Position", "69 Position"],
+  "disambiguatingDescription": "Often confused with North-South Choke \u2014 the North-South Choke is a submission finished from this position, not the position itself.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -155,6 +157,10 @@ description: "Master North-South top position in BJJ. Complete guide to establis
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Kami Shiho Gatame</strong>, <strong>North South Position</strong>, <strong>69 Position</strong> <span class="role-hint">(top)</span></p>
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Transitions/North-South Choke|North-South Choke]]</strong> — the North-South Choke is a submission finished from this position, not the position itself</p>
+</aside>
 <section id="overview" class="content-section">
 
 North-South top is one of Brazilian Jiu-Jitsu's most dominant pinning positions, characterized by perpendicular chest-to-chest alignment where you distribute your entire body weight across your opponent's upper body while your heads point in opposite directions. This position offers exceptional control with relatively low energy expenditure once properly established, making it ideal for recovering stamina while maintaining offensive pressure.
@@ -359,6 +365,19 @@ Maintain maximum chest pressure in North-South while partner attempts only frame
 - **[[Positions/Back Control]]** - Available when opponent turns to turtle
 - **[[Positions/Kimura Trap]]** - Control position for finishing arm attacks
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Submission-Clinic-System" data-cta="related-system-card" data-system-slug="systems/submission-clinic-system" data-system-name="Submission Clinic System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Submission Clinic System</span><span class="system-card__unlocks-badge">Unlocks 30 techniques</span><span class="system-card__blurb">Transition position connecting side control to mount with kimura access</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Competition-Scoring-Strategy" data-cta="related-system-card" data-system-slug="systems/competition-scoring-strategy" data-system-name="Competition Scoring Strategy" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Competition Scoring Strategy</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Control position for lead preservation and submission threats</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Roger-Gracie-Fundamental-System" data-cta="related-system-card" data-system-slug="systems/roger-gracie-fundamental-system" data-system-name="Roger Gracie Fundamental System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Roger Gracie Fundamental System</span><span class="system-card__unlocks-badge">Unlocks 22 techniques</span><span class="system-card__blurb">Control position reached during certain passing sequences and mount escape defenses</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Kimura-Trap-System" data-cta="related-system-card" data-system-slug="systems/kimura-trap-system" data-system-name="Kimura Trap System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Kimura Trap System</span><span class="system-card__unlocks-badge">Unlocks 21 techniques</span><span class="system-card__blurb">Transitional position offering kimura opportunities during passing</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

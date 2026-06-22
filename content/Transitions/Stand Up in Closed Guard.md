@@ -10,6 +10,41 @@ description: "Master the stand up in closed guard in BJJ. Complete guide to stan
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Stand Up in Closed Guard",
+  "description": "Master the stand up in closed guard in BJJ. Complete guide to standing guard breaks with proper mechanics, balance, and transitions to high-percentage passing.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Stand Up in Closed Guard", "item": "https://bjjgraph.org/Transitions/Stand-Up-in-Closed-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Stand Up in Closed Guard",
+  "description": "Stand Up in Closed Guard is a top-player guard break in which the trapped passer rises to their feet and uses hip extension and gravity to force the bottom player's crossed ankles apart, opening a path to pass.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the stand up in closed guard in BJJ. Complete guide to stan
 </div>
 
 <section id="overview" class="content-section">
+
+**Stand Up in Closed Guard is a top-player guard break in which the trapped passer rises to their feet and uses hip extension and gravity to force the bottom player's crossed ankles apart, opening a path to pass.**
 
 Standing up in closed guard is one of the most fundamental and highest-percentage methods for opening an opponent's closed guard. Rather than attempting to break the guard from the knees—where the bottom player maintains maximum leverage for sweeps, submissions, and posture control—standing shifts the dynamic entirely by using gravity and structural alignment to create unsustainable pressure on the ankle lock maintaining guard closure. The technique neutralizes the majority of the bottom player's offensive arsenal, as techniques like the hip bump sweep, scissor sweep, and armbar from guard all require the top player to be on their knees within the guard player's hip-to-hip connection zone.
 
@@ -216,11 +253,13 @@ Standing up in closed guard connects the fundamental closed guard battle to the 
 
 - [[Transitions/Hip Bump Sweep]] - Common counter-attack from bottom player during the stand-up transition
 
-- [[Positions/Standing Position]] - Related position for guard engagement and passing from standing
+- [[Transitions/Standing up in Base]] - Related kneeling-to-standing transition for guard engagement and passing
 
-- [[Transitions/Pull Guard from Standing]] - Opponent's tactical option when facing a standing guard break
+- [[Transitions/Guard Opening Sequence]] - Alternative guard opening method the standing break can be chained with
 
 
 </section>
+
+
 
 </main>

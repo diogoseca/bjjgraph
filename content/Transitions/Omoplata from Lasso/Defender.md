@@ -91,7 +91,7 @@ description: "Learn to defend and counter the Omoplata from Lasso Guard as the t
       "name": "How should you manage the lasso guard position to minimize the omoplata threat while still working to pass?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Address the sleeve grip systematically before applying forward pressure. Use grip breaks combined with posture to reduce the lasso's effectiveness. When the lasso is partially neutralized, pass laterally around the guard rather than driving forward through it. Stepping over the lasso leg or using backstep passes reduces the perpendicular angle that enables the omoplata entry. Never settle into a static position where the bottom player can optimize their lasso depth."
+        "text": "Address the sleeve grip systematically before applying forward pressure. Use grip breaks combined with posture to reduce the lasso's effectiveness. When the lasso is partially neutralized, pass laterally around the guard rather than driving forward. Stepping over the lasso leg or using backstep passes reduces the perpendicular angle that enables the omoplata entry. Never settle into a static position where the bottom player can optimize their lasso depth."
       }
     }
   ]

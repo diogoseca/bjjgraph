@@ -10,6 +10,41 @@ description: "Master the Bridge and Turn to Turtle escape from North-South. Step
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Bridge and Turn to Turtle",
+  "description": "Master the Bridge and Turn to Turtle escape from North-South. Step-by-step execution with timing cues and defensive counters for both perspectives.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Bridge and Turn to Turtle", "item": "https://bjjgraph.org/Transitions/Bridge-and-Turn-to-Turtle" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Bridge and Turn to Turtle",
+  "description": "Bridge and Turn to Turtle is a North-South bottom escape in which the pinned player times an angled bridge to a weight shift, then rotates toward the opponent to surface on hands and knees in turtle rather than stay crushed under the pin.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Bridge and Turn to Turtle escape from North-South. Step
 
 <section id="overview" class="content-section">
 
-The Bridge and Turn to Turtle is a fundamental escape from North-South control that converts crushing chest pressure into a defensive turtle position. This technique exploits the inherent instability created when you generate upward force through an explosive bridge, combined with rotational momentum toward your opponent. The escape requires precise timing—executing during the opponent's weight shifts creates the best opportunity for success.
+**Bridge and Turn to Turtle is a North-South bottom escape in which the pinned player times an angled bridge to a weight shift, then rotates toward the opponent to surface on hands and knees in turtle rather than stay crushed under the pin.**
+
+Among the handful of reliable answers to North-South control, the Bridge and Turn earns its place by trading a suffocating pin for a position you can actually work from. This technique exploits the inherent instability created when you generate upward force through an explosive bridge, combined with rotational momentum toward your opponent. The escape requires precise timing—executing during the opponent's weight shifts creates the best opportunity for success.
 
 Strategically, the Bridge and Turn serves as the primary escape pathway from one of BJJ's most suffocating pins. North-South control restricts breathing and limits hip mobility, making traditional escapes ineffective. By bridging at an angle and turning toward the opponent rather than away, you protect your back while achieving a defensible position. The turtle, while not ideal, offers significantly more escape options than remaining pinned under North-South pressure.
 
@@ -222,5 +259,7 @@ The Bridge and Turn to Turtle occupies a critical role in the North-South escape
 
 
 </section>
+
+
 
 </main>

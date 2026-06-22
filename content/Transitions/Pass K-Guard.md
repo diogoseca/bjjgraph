@@ -10,6 +10,41 @@ description: "Master the K-Guard pass in BJJ. Systematic approach to neutralizin
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Pass K-Guard",
+  "description": "Master the K-Guard pass in BJJ. Systematic approach to neutralizing inverted hook systems, breaking guard retention, and advancing to side control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Pass K-Guard", "item": "https://bjjgraph.org/Transitions/Pass-K-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Pass K-Guard",
+  "description": "Pass K-Guard is a systematic top-game sequence that neutralizes the bottom player's inverted inside hook and butterfly hook through pressure and angle changes, clearing the leg entanglement to advance from K-Guard to side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the K-Guard pass in BJJ. Systematic approach to neutralizin
 </div>
 
 <section id="overview" class="content-section">
+
+**Pass K-Guard is a systematic top-game sequence that neutralizes the bottom player's inverted inside hook and butterfly hook through pressure and angle changes, clearing the leg entanglement to advance from K-Guard to side control.**
 
 Passing K-Guard requires systematic dismantling of the bottom player's inverted hook configuration, which presents dual threats through its inside hook pulling the trapped leg across centerline and the butterfly hook threatening constant elevation. Unlike standard half guard passes that primarily address a single leg entanglement, the K-Guard demands simultaneous neutralization of both hooks while preventing the guard player from creating angles for sweeps or back takes. The guard's dynamic retention mechanics mean that any gap in pressure or poorly timed commitment is immediately exploited.
 
@@ -221,5 +258,7 @@ Pass K-Guard occupies a critical position within the guard passing hierarchy as 
 
 
 </section>
+
+
 
 </main>

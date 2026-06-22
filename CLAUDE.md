@@ -357,8 +357,9 @@ All commands run from the repo root (`bjjgraph/`):
 | `npm run regenerate:md` | Regenerate markdown from JSON |
 | `npm run regenerate:hubs` | Generate category hub pages |
 | `npm run regenerate:votes` | Generate community voting data |
-| `npm run regenerate:graph` | Generate graph.json |
-| `npm run regenerate` | Run all 7 steps: issues → json → explode → md → hubs → votes → graph |
+| `npm run regenerate:graph` | Umbrella: graph-base (graph.json) → graph-layout → graph-strength |
+| `npm run regenerate:graph-base` | Generate graph.json only (no layout/strength) |
+| `npm run regenerate` | Full pipeline: issues → json → explode → **validate:graph** (gate) → md → hubs → votes → graph → explorer |
 | `npm run build` | Build static site (~10 min, 4287 files) |
 | `npm run regenerate:build` | Regenerate + build (full workflow) |
 | `npm run dev` | Build then serve locally on port 8080 |

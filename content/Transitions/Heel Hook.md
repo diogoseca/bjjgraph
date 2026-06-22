@@ -10,6 +10,41 @@ description: "Master the Heel Hook submission in BJJ. Complete guide covering ex
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Heel Hook",
+  "description": "Master the Heel Hook submission in BJJ. Complete guide covering execution from Ashi Garami, rotational mechanics, defense, and safety protocols.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Heel Hook", "item": "https://bjjgraph.org/Transitions/Heel-Hook" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Heel Hook",
+  "description": "The Heel Hook is a rotational leg-lock submission that twists the heel to torque the knee's ligaments (ACL, MCL, meniscus), finished from Ashi Garami leg entanglements and regarded as the most dangerous attack in modern grappling.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Heel Hook submission in BJJ. Complete guide covering ex
 
 <section id="overview" class="content-section">
 
-The Heel Hook is the most dangerous and effective leg lock submission in Brazilian Jiu-Jitsu, attacking the knee's ligaments through rotational force applied to the heel while controlling the hip and leg. Unlike ankle locks that attack the ankle joint directly, the heel hook creates a twisting force that travels up the tibia and fibula to attack the knee's ACL, MCL, and meniscus. This submission has become the cornerstone of modern leg lock systems, particularly in no-gi grappling where the absence of friction makes leg entanglement control more accessible.
+**The Heel Hook is a rotational leg-lock submission that twists the heel to torque the knee's ligaments (ACL, MCL, meniscus), finished from Ashi Garami leg entanglements and regarded as the most dangerous attack in modern grappling.**
+
+Sitting at the finishing end of every modern leg lock system, the heel hook owes its fearsome reputation to a mechanical quirk that sets it apart from every other footlock. Rather than attacking the ankle joint directly the way straight ankle locks do, it applies rotational force to the heel that travels up the tibia and fibula to load the knee's ACL, MCL, and meniscus—ligaments that fail with minimal warning before structural damage. This is why it became the cornerstone of modern leg lock systems, particularly in no-gi grappling where the absence of friction makes leg entanglement control more accessible.
 
 The technique exists in two primary variations: the inside heel hook (attacking with rotation toward the opponent's centerline) and the outside heel hook (rotating away from centerline). Inside heel hooks are generally considered more dangerous due to their attack angle on the knee structures. Success requires proper positional hierarchy—attempting heel hooks from inferior Ashi Garami positions dramatically reduces effectiveness and increases counter-attack exposure.
 
@@ -39,7 +76,7 @@ Strategically, the heel hook represents the finishing sequence of the modern leg
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Transitions/Heel Hook]] | 55% |
+| Success | [[game-over]] | 55% |
 | Failure | [[Positions/Ashi Garami]] | 30% |
 | Counter | [[Positions/Ashi Garami/50-50 Guard]] | 15% |
 
@@ -223,6 +260,19 @@ The Heel Hook represents the apex finishing technique of the modern Ashi Garami 
 
 - [[Transitions/Outside Heel Hook]] - Outside rotation variation targeting lateral knee structures from 50-50 and Outside Ashi
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Danaher-Leg-Lock-System" data-cta="related-system-card" data-system-slug="systems/danaher-leg-lock-system" data-system-name="Danaher Leg Lock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Danaher Leg Lock System</span><span class="system-card__unlocks-badge">Unlocks 30 techniques</span><span class="system-card__blurb">Primary submission family for entire system with multiple variations</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Straight-Footlock-to-Kneebar-Chain" data-cta="related-system-card" data-system-slug="systems/straight-footlock-to-kneebar-chain" data-system-name="Straight Footlock to Kneebar Chain" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Straight Footlock to Kneebar Chain</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Advanced leg attack that can be integrated into expanded system</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Garry-Tonon-Leg-Lock-to-Back-System" data-cta="related-system-card" data-system-slug="systems/garry-tonon-leg-lock-to-back-system" data-system-name="Garry Tonon Leg Lock to Back System" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Garry Tonon Leg Lock to Back System</span><span class="system-card__unlocks-badge">Unlocks 26 techniques</span><span class="system-card__blurb">Primary leg submission that forces defensive movements exposing back attacks</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Lachlan-Giles-Leg-Lock-Defense-Framework" data-cta="related-system-card" data-system-slug="systems/lachlan-giles-leg-lock-defense-framework" data-system-name="Lachlan Giles Leg Lock Defense Framework" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Lachlan Giles Leg Lock Defense Framework</span><span class="system-card__unlocks-badge">Unlocks 26 techniques</span><span class="system-card__blurb">Primary submission threat this defensive system addresses</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

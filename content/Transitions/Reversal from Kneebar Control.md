@@ -10,6 +10,41 @@ description: "Master the reversal from kneebar control in BJJ. Step-by-step guid
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Reversal from Kneebar Control",
+  "description": "Master the reversal from kneebar control in BJJ. Step-by-step guide covering escape mechanics, timing, and transitions to dominant side control position.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Reversal from Kneebar Control", "item": "https://bjjgraph.org/Transitions/Reversal-from-Kneebar-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Reversal from Kneebar Control",
+  "description": "The reversal from kneebar control is a bottom-position sweep where the leg-entangled player redirects their kneebar grips and hooks into off-balancing leverage, coming on top to establish side control instead of forcing the finish.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the reversal from kneebar control in BJJ. Step-by-step guid
 
 <section id="overview" class="content-section">
 
-The reversal from kneebar control is a positional technique where the bottom player in a kneebar entanglement uses their leg control and body mechanics to come on top and establish side control. Rather than committing fully to the kneebar finish from bottom, this transition capitalizes on the opponent's defensive reactions to create sweeping opportunities. The technique bridges the gap between leg attack systems and positional advancement, offering a pathway from bottom leg entanglement to dominant top position.
+**The reversal from kneebar control is a bottom-position sweep where the leg-entangled player redirects their kneebar grips and hooks into off-balancing leverage, coming on top to establish side control instead of forcing the finish.**
+
+Within modern leg lock systems, the reversal from kneebar control serves as the offensive escape hatch for the bottom player: rather than committing fully to the kneebar finish from bottom, this transition capitalizes on the opponent's defensive reactions to create sweeping opportunities that carry the practitioner on top to side control. The technique bridges the gap between leg attack systems and positional advancement, offering a pathway from bottom leg entanglement to dominant top position by using the existing entanglement as a sweeping lever.
 
 This reversal becomes particularly valuable when the kneebar finish is well-defended and the bottom player recognizes that continuing to fight for the submission from their back yields diminishing returns. By redirecting energy from the submission attempt into a positional transition, the practitioner trades a low-percentage finish for a high-value positional gain. The technique requires reading the opponent's defensive posture and weight distribution, then using the existing leg entanglement as leverage for the sweep rather than as a submission mechanism.
 
@@ -220,5 +257,7 @@ The reversal from kneebar control connects the leg lock subsystem to the positio
 
 
 </section>
+
+
 
 </main>

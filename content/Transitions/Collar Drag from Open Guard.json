@@ -1,5 +1,6 @@
 {
   "name": "Collar Drag from Open Guard",
+  "summary": "The collar drag from open guard is a bottom-player off-balancing technique that uses a deep collar grip to redirect a forward-leaning passer's momentum downward, collapsing their posture into a front headlock for the guard player.",
   "description": "Master the collar drag from open guard in BJJ. Complete guide covering grip mechanics, timing windows, and systematic execution for front headlock control.",
   "tags": [
     "bjj",
@@ -30,7 +31,7 @@
     }
   ],
   "success_rate": 55,
-  "overview": "The collar drag from open guard is a high-percentage off-balancing technique where the bottom guard player uses a collar grip to pull the top player forward and down, creating the opportunity to come up into a front headlock position. This technique exploits a fundamental vulnerability in the standing or kneeling passer's posture: forward weight commitment during guard engagement becomes a liability when redirected through precise grip timing and explosive hip movement. The collar drag rewards reading your opponent's weight distribution rather than relying on raw strength, making it effective across all body types.\n\nThe strategic value of the collar drag lies in its efficiency as a position-reversal mechanism. Unlike sweeps requiring complex mechanical setups with multiple grips and hooks, the collar drag leverages the opponent's own forward energy against them. When the opponent commits weight forward to initiate a pass or establish grips, the guard player seizes the collar, sits up explosively while pulling diagonally downward, and circles to achieve front headlock control. This makes it particularly devastating against aggressive passers who lead with upper body pressure, and it creates a dilemma where passive engagement allows other guard attacks while forward commitment opens the drag.\n\nThe collar drag integrates into modern open guard systems as both a primary attack and a secondary option that punishes forward pressure. It chains naturally with arm drags, sit-up attacks, and various guard transitions, creating a comprehensive off-balancing system that forces the passer to respect multiple threats simultaneously. At the competition level, the collar drag remains one of the most energy-efficient paths from bottom to top position, requiring precise timing rather than superior athleticism. The resulting front headlock provides immediate access to guillotine, anaconda, darce, and back take systems, making the collar drag a gateway technique to multiple high-percentage finishing sequences.",
+  "overview": "Among open guard's off-balancing tools, the collar drag stands out as an energy-efficient path from bottom to top against forward-pressuring passers. This technique exploits a fundamental vulnerability in the standing or kneeling passer's posture: forward weight commitment during guard engagement becomes a liability when redirected through precise grip timing and explosive hip movement. The collar drag rewards reading your opponent's weight distribution rather than relying on raw strength, making it effective across all body types.\n\nThe strategic value of the collar drag lies in its efficiency as a position-reversal mechanism. Unlike sweeps requiring complex mechanical setups with multiple grips and hooks, the collar drag leverages the opponent's own forward energy against them. When the opponent commits weight forward to initiate a pass or establish grips, the guard player seizes the collar, sits up explosively while pulling diagonally downward, and circles to achieve front headlock control. This makes it particularly devastating against aggressive passers who lead with upper body pressure, and it creates a dilemma where passive engagement allows other guard attacks while forward commitment opens the drag.\n\nThe collar drag integrates into modern open guard systems as both a primary attack and a secondary option that punishes forward pressure. It chains naturally with arm drags, sit-up attacks, and various guard transitions, creating a comprehensive off-balancing system that forces the passer to respect multiple threats simultaneously. At the competition level, the collar drag remains one of the most energy-efficient paths from bottom to top position, requiring precise timing rather than superior athleticism. The resulting front headlock provides immediate access to guillotine, anaconda, darce, and back take systems, making the collar drag a gateway technique to multiple high-percentage finishing sequences.",
   "conditions": [
     "Opponent is within gripping range from open guard with upper body accessible for collar control",
     "You can establish or have established a deep collar grip with fingers inside the collar fabric",
@@ -70,12 +71,8 @@
       "relationship": "Complementary off-balancing technique creating similar angle opportunities from guard"
     },
     {
-      "name": "Guillotine Setup",
-      "relationship": "Follow-up submission attack available from front headlock after successful drag"
-    },
-    {
       "name": "Anaconda Setup",
-      "relationship": "Alternative submission pathway from front headlock after collar drag success"
+      "relationship": "Submission pathway from front headlock available after collar drag success"
     },
     {
       "name": "Front Headlock to Back",

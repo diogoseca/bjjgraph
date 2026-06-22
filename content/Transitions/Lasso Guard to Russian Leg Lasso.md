@@ -10,6 +10,41 @@ description: "Master the transition to Russian Leg Lasso in BJJ. Learn double-le
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Lasso Guard to Russian Leg Lasso",
+  "description": "Master the transition to Russian Leg Lasso in BJJ. Learn double-leg threading mechanics, grip reconfiguration, timing cues, and sweep setups from lasso guard.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Lasso Guard to Russian Leg Lasso", "item": "https://bjjgraph.org/Transitions/Lasso-Guard-to-Russian-Leg-Lasso" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Lasso Guard to Russian Leg Lasso",
+  "description": "Lasso Guard to Russian Leg Lasso is a gi guard transition in which the bottom player threads a second leg behind the opponent's free arm, upgrading single-leg lasso control into a bilateral double-lasso bind that powers rotational sweeps.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the transition to Russian Leg Lasso in BJJ. Learn double-le
 </div>
 
 <section id="overview" class="content-section">
+
+**Lasso Guard to Russian Leg Lasso is a gi guard transition in which the bottom player threads a second leg behind the opponent's free arm, upgrading single-leg lasso control into a bilateral double-lasso bind that powers rotational sweeps.**
 
 The Transition to Russian Leg Lasso converts a standard single-leg lasso guard into the double-leg threading variation by reconfiguring grips and threading the second leg through the opponent's free arm. Where standard lasso controls one side of the opponent's body, the Russian variation binds both arms simultaneously, creating a dramatically more restrictive control system that eliminates the top player's ability to establish any effective passing grips. This upgrade in control comes at the cost of committing both legs to the lasso configuration, which reduces the bottom player's mobility and fallback options.
 
@@ -214,5 +251,7 @@ The transition to Russian Leg Lasso occupies a critical escalation point within 
 
 
 </section>
+
+
 
 </main>

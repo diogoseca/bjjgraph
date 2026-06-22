@@ -10,6 +10,41 @@ description: "Master the Lapel Sweep to Back in BJJ. Step-by-step execution from
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Lapel Sweep to Back",
+  "description": "Master the Lapel Sweep to Back in BJJ. Step-by-step execution from Lapel Guard to Back Control with dilemma-based sweep-to-back-take mechanics.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Lapel Sweep to Back", "item": "https://bjjgraph.org/Transitions/Lapel-Sweep-to-Back" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Lapel Sweep to Back",
+  "description": "Lapel Sweep to Back is a gi-specific attack from lapel guard where the bottom player uses a sweep threat to force a defensive rotation, then follows the opponent's turn—anchored by the lapel grip—to take the back.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Lapel Sweep to Back in BJJ. Step-by-step execution from
 </div>
 
 <section id="overview" class="content-section">
+
+**Lapel Sweep to Back is a gi-specific attack from lapel guard where the bottom player uses a sweep threat to force a defensive rotation, then follows the opponent's turn—anchored by the lapel grip—to take the back.**
 
 The Lapel Sweep to Back represents one of the highest-percentage attacks available from lapel guard systems, combining sweep mechanics with immediate back exposure. This technique capitalizes on the opponent's natural defensive reactions when threatened with lapel guard sweeps, using their weight distribution adjustments to create pathways directly to the back. The fundamental concept involves creating a sweep threat that forces the opponent to post or base, then following their defensive rotation to establish back control rather than settling for the sweep position.
 
@@ -219,5 +256,7 @@ The Lapel Sweep to Back serves as a cornerstone technique within the lapel guard
 
 
 </section>
+
+
 
 </main>

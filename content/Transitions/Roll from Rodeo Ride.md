@@ -10,6 +10,41 @@ description: "Master the Roll from Rodeo Ride escape in BJJ. Learn defensive rol
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Roll from Rodeo Ride",
+  "description": "Master the Roll from Rodeo Ride escape in BJJ. Learn defensive rolling mechanics to recover half guard from turtle against dynamic Rodeo Ride pressure.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Roll from Rodeo Ride", "item": "https://bjjgraph.org/Transitions/Roll-from-Rodeo-Ride" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Roll from Rodeo Ride",
+  "description": "Roll from Rodeo Ride is a defensive rolling escape from bottom turtle that uses explosive hip-driven rotation to exploit the rider's forward weight commitment, recovering half or open guard before the opponent can advance to back control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Roll from Rodeo Ride escape in BJJ. Learn defensive rol
 </div>
 
 <section id="overview" class="content-section">
+
+**Roll from Rodeo Ride is a defensive rolling escape from bottom turtle that uses explosive hip-driven rotation to exploit the rider's forward weight commitment, recovering half or open guard before the opponent can advance to back control.**
 
 The Roll from Rodeo Ride is a defensive rolling escape executed from bottom turtle under Rodeo Ride pressure, where the practitioner uses rotational momentum to dislodge the top player's dynamic control and recover to a guard position. This escape targets the inherent instability of Rodeo Ride—unlike static pin positions, the top player's asymmetric weight distribution and perpendicular angle create windows of vulnerability that a well-timed roll can exploit. The technique is most effective when the top player commits their weight forward for hook insertion or choke attacks, creating the momentum imbalance necessary for successful rotation.
 
@@ -221,5 +258,7 @@ The Roll from Rodeo Ride integrates into the broader turtle escape system as a m
 
 
 </section>
+
+
 
 </main>

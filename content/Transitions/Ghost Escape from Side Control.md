@@ -10,6 +10,41 @@ description: "Learn the Ghost Escape from Side Control in BJJ. Expert guide cove
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Ghost Escape from Side Control",
+  "description": "Learn the Ghost Escape from Side Control in BJJ. Expert guide covering turning mechanics, knee threading, and direct guard recovery techniques for all levels.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Ghost Escape from Side Control", "item": "https://bjjgraph.org/Transitions/Ghost-Escape-from-Side-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Ghost Escape from Side Control",
+  "description": "The Ghost Escape from Side Control is a turn-away escape where the bottom player rotates with the crossface and threads the near knee through during the turn to recover directly to open guard, bypassing turtle exposure.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Learn the Ghost Escape from Side Control in BJJ. Expert guide cove
 
 <section id="overview" class="content-section">
 
-The Ghost Escape from Side Control is a turn-away escape that recovers directly to open guard rather than stopping at turtle. Where the standard ghost escape uses rotational movement to reach hands and knees, this variation threads the near knee through during the turn to establish a leg barrier between you and the opponent, landing in open guard with feet engaged. The technique exploits the same counterintuitive principle of turning in the direction the crossface pushes you, but adds the critical knee insertion that bypasses turtle entirely and denies the top player the back attack opportunities that turtle exposure creates.
+**The Ghost Escape from Side Control is a turn-away escape where the bottom player rotates with the crossface and threads the near knee through during the turn to recover directly to open guard, bypassing turtle exposure.**
+
+This escape sits in the advanced tier of side control defense, reserved for practitioners who already trust the standard ghost escape but want to skip the dangerous turtle phase it leaves behind. Where the standard ghost escape uses rotational movement to reach hands and knees, this variation threads the near knee through during the turn to establish a leg barrier between you and the opponent, landing in open guard with feet engaged. The technique exploits the counterintuitive principle of turning in the direction the crossface pushes you, but adds the critical knee insertion that bypasses turtle entirely and denies the top player the back attack opportunities that turtle exposure creates.
 
 The strategic value of this escape lies in its end position. Recovering to open guard rather than turtle eliminates the most dangerous phase of the standard ghost escape, where the bottom player must defend back takes from turtle before recovering guard. By threading the knee during the turn itself, you skip turtle and arrive in a guard position with offensive options immediately available. This makes the technique particularly valuable against opponents who are skilled at following ghost escape rotations to establish back control.
 
@@ -218,5 +255,7 @@ The Ghost Escape from Side Control occupies the advanced tier of the side contro
 
 
 </section>
+
+
 
 </main>

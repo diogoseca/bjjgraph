@@ -12,6 +12,7 @@
   ],
   "system_type": "Defense System",
   "difficulty_level": "Advanced",
+  "summary": "The Lachlan Giles Leg Lock Defense Framework is a defensive system that neutralizes heel hooks and ankle locks through early entanglement prevention, hip alignment, position-danger recognition, and systematic clearing sequences that work regardless of flexibility or strength.",
   "overview": "The Lachlan Giles Leg Lock Defense Framework represents one of the most comprehensive and scientifically-informed approaches to defending leg attacks in modern Brazilian Jiu-Jitsu. Developed through extensive competition experience at the highest levels including ADCC, this system emphasizes prevention over reaction, teaching practitioners to recognize and neutralize leg entanglement threats before they fully develop. The framework is built on understanding the mechanical hierarchy of leg lock positions, from least to most dangerous, and provides specific defensive protocols for each stage of entanglement. Rather than relying on strength or flexibility, Giles' methodology focuses on proper positioning, hip alignment, and systematic counter-mechanics that work regardless of physical attributes. The system integrates seamlessly with modern guard retention principles while specifically addressing the unique challenges posed by contemporary leg lock specialists who build their entire games around the lower body.",
   "key_principles": [
     "Prevention over escape - recognize entanglement patterns early and shut them down before full control is established",
@@ -365,6 +366,40 @@
       "name": "Kneebar",
       "content_type": "Submission",
       "relationship": "Alternative leg attack requiring modifications to standard defensive protocols"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What is the core philosophy of the Lachlan Giles Leg Lock Defense Framework?",
+      "answer": "It prioritizes prevention over reaction — recognizing and shutting down leg entanglement entries before full control is established, rather than relying on explosive escapes once the leg is already trapped."
+    },
+    {
+      "question": "Why is maintaining square hips so important when defending leg locks?",
+      "answer": "When your hips stay square or facing the opponent, they cannot achieve the rotational angle needed to finish heel hooks or ankle locks, making the submission mechanically very difficult regardless of how much control they have."
+    },
+    {
+      "question": "How does the framework rank ashi garami positions by danger level?",
+      "answer": "From least to most dangerous: standard and outside ashi garami (escape time exists), then 50-50, then cross ashi, then inside sankaku and saddle, where finishes can occur within seconds and demand an immediate response."
+    },
+    {
+      "question": "What is the recommended response the instant your leg is caught?",
+      "answer": "Stay calm and clear the opponent's hooks systematically rather than panic-scrambling or yanking the leg out, which usually worsens the position; in most entanglements you have time to work a methodical escape."
+    },
+    {
+      "question": "How does the framework convert defense into offense?",
+      "answer": "By using the opponent's commitment to a leg attack as an opening to counter-enter their legs, take the back, or establish a dominant passing position — transforming reactive defense into a strategic advantage."
+    },
+    {
+      "question": "Why is inside position emphasized in leg lock defense?",
+      "answer": "Controlling inside space denies the opponent access to cross-ashi and saddle entries, which are the high-danger configurations from which the inside heel hook becomes available."
+    },
+    {
+      "question": "What is a common mistake practitioners make when escaping leg entanglements?",
+      "answer": "Focusing only on stripping the opponent's grips while neglecting hip alignment, or applying the same escape to every position regardless of its danger level — escapes must be specific to the position you are in."
+    },
+    {
+      "question": "Which submissions does this framework primarily defend against?",
+      "answer": "Inside and outside heel hooks, the straight ankle lock, and kneebars, with the inside heel hook from saddle and inside sankaku treated as the highest-priority threat to neutralize first."
     }
   ]
 }

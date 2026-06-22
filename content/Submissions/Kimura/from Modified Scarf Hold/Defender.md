@@ -10,7 +10,7 @@ description: "Complete defense guide for the Kimura from Modified Scarf Hold. Re
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kimura from Modified Scarf Hold targets the Shoulder and elbow joint. Tap early and often. Your safety is more important than any training round.
+> **SAFETY**: Kimura from Modified Scarf Hold targets the Shoulder joint, rotator cuff, and shoulder capsule. Tap early and often. Your safety is more important than any training round.
 
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">

@@ -125,6 +125,7 @@ description: "How to execute Kosoto Gake in BJJ. Attacking perspective with setu
   "@type": "WebPage",
   "name": "Kosoto Gake Attacker",
   "description": "How to execute Kosoto Gake in BJJ. Attacking perspective with setup, execution steps, and counters for this minor outer reaping throw.",
+  "alternateName": ["Minor Outer Hook", "Ko Soto Gake"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -170,6 +171,9 @@ description: "How to execute Kosoto Gake in BJJ. Attacking perspective with setu
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Minor Outer Hook</strong>, <strong>Ko Soto Gake</strong> <span class="role-hint">(attacker)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 Kosoto Gake is a fundamental standing technique where you reap your opponent's weighted rear leg from the outside while pulling their upper body backward, driving them directly to the mat and into your side control. The technique excels as a low-risk, high-reward entry to groundwork because it requires minimal explosive athleticism compared to hip throws or sacrifice throws. The key mechanical insight is that Kosoto Gake functions as a force couple: your upper body grips generate backward rotational momentum while your reaping leg eliminates the structural support beneath their center of gravity. When these two forces coordinate properly, even a physically weaker practitioner can complete the throw against a larger opponent. The technique is particularly effective against opponents who adopt defensive stances with rearward weight distribution, making it an excellent counter to backward movement and a reliable chain option when other takedown attempts are defended.
@@ -327,5 +331,7 @@ Attempt Kosoto Gake during regular standup sparring with full resistance. Focus 
 Kosoto Gake is generally one of the safest takedowns to practice and execute. The primary safety concerns involve controlled landing for both participants. The person being thrown should practice breakfall technique (slapping the mat with their arm to disperse impact) to prevent head or shoulder injury. The thrower must be careful not to land with excessive weight directly on opponent's ribs or head, instead distributing pressure across the torso. When drilling at beginner levels, both partners should practice on soft mats and communicate about execution speed. In competition, be aware that aggressive execution can result in the thrown person's head impacting the mat if their posture is severely broken. Control the upper body pull to ensure safe landing.
 
 </section>
+
+
 
 </main>

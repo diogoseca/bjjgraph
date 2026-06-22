@@ -9,6 +9,7 @@
     "10th planet",
     "flexibility"
   ],
+  "summary": "Mission Control Recovery is a rubber guard transition that returns the bottom player from a failed gogoplata attempt back to Mission Control, salvaging the position to re-cycle triangle, omoplata, and gogoplata attacks instead of conceding the guard.",
   "from_position": "Gogoplata Control/Bottom",
   "outcomes": [
     {

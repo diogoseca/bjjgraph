@@ -10,6 +10,41 @@ description: "Master the ankle lock escape to standing in BJJ. Step-by-step guid
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Ankle Lock Escape to Standing",
+  "description": "Master the ankle lock escape to standing in BJJ. Step-by-step guide to grip breaks, foot extraction, and safely returning to neutral standing position.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Ankle Lock Escape to Standing", "item": "https://bjjgraph.org/Transitions/Ankle-Lock-Escape-to-Standing" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Ankle Lock Escape to Standing",
+  "description": "The ankle lock escape to standing is a defensive leg-lock counter in which the trapped player breaks the ankle grip, clears the leg entanglement, and drives upward to fully disengage into a neutral standing position rather than trading into another entanglement.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the ankle lock escape to standing in BJJ. Step-by-step guid
 
 <section id="overview" class="content-section">
 
-The ankle lock escape to standing is one of the most critical defensive techniques in the leg lock game, offering a direct path from a threatened submission position back to completely neutral standing. When caught in straight ankle lock control, the defender faces a narrowing window of opportunity where every second allows the attacker to deepen grips, complete leg entanglements, and transition to more dangerous positions like inside ashi garami or saddle. The escape to standing directly addresses this time pressure by prioritizing complete disengagement over positional improvement.
+**The ankle lock escape to standing is a defensive leg-lock counter in which the trapped player breaks the ankle grip, clears the leg entanglement, and drives upward to fully disengage into a neutral standing position rather than trading into another entanglement.**
+
+Among defensive responses to straight ankle lock control, the escape to standing carries unique strategic weight because it resolves the engagement completely rather than improving position incrementally. When caught in straight ankle lock control, the defender faces a narrowing window of opportunity where every second allows the attacker to deepen grips, complete leg entanglements, and transition to more dangerous positions like inside ashi garami or saddle. The escape to standing directly addresses this time pressure by prioritizing complete disengagement over positional improvement.
 
 The technique requires coordinated action across multiple control points simultaneously. Breaking the attacker's grip on your ankle, preventing their legs from establishing a controlling triangle, maintaining proper hip rotation to deny transition pathways, and generating the upward drive needed to reach standing position must all occur within a compressed timeframe. Unlike positional escapes that trade one entanglement for another, the standing escape aims to fully reset the engagement, removing you entirely from the leg attack chain.
 
@@ -220,6 +257,16 @@ The ankle lock escape to standing occupies a critical position in the defensive 
 
 - [[Positions/Ashi Garami/Outside Ashi-Garami]] - Alternate dangerous entanglement defender must avoid during escape
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Lachlan-Giles-Leg-Lock-Defense-Framework" data-cta="related-system-card" data-system-slug="systems/lachlan-giles-leg-lock-defense-framework" data-system-name="Lachlan Giles Leg Lock Defense Framework" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Lachlan Giles Leg Lock Defense Framework</span><span class="system-card__unlocks-badge">Unlocks 26 techniques</span><span class="system-card__blurb">Key defensive transition for escaping ankle lock control and returning to a safe standing position</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

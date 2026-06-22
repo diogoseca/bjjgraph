@@ -10,6 +10,41 @@ description: "Master the Clock Choke in BJJ. Step-by-step gi choke from Turtle t
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Clock Choke",
+  "description": "Master the Clock Choke in BJJ. Step-by-step gi choke from Turtle top using rotational pressure and body weight for a high-percentage blood choke finish.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Clock Choke", "item": "https://bjjgraph.org/Transitions/Clock-Choke" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Clock Choke",
+  "description": "The Clock Choke is a gi blood choke applied from turtle top, using a deep collar grip and a rotational walk around the opponent's head with a sprawling finish to compress both carotid arteries.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,6 +57,8 @@ description: "Master the Clock Choke in BJJ. Step-by-step gi choke from Turtle t
 
 <section id="overview" class="content-section">
 
+**The Clock Choke is a gi blood choke applied from turtle top, using a deep collar grip and a rotational walk around the opponent's head with a sprawling finish to compress both carotid arteries.**
+
 The Clock Choke is a highly effective gi submission that derives its name from the rotational movement pattern used during execution—the attacker walks around the opponent's head like the hands of a clock while maintaining collar pressure. This technique is most commonly applied against a turtled opponent, exploiting their defensive posture by using their own gi collar as the choking mechanism. The choke combines collar grip mechanics with positional pressure, creating a blood choke that attacks both carotid arteries simultaneously.
 
 Strategically, the Clock Choke serves as a primary threat against turtle position, forcing opponents to choose between defending the choke and exposing their back or maintaining turtle and being submitted. This dilemma-based approach makes it a cornerstone technique for controlling and finishing turtled opponents. The technique requires precise grip placement—the choking hand must achieve deep collar penetration with the thumb inside, while the non-choking arm controls the far hip to prevent rolling escape.
@@ -29,7 +66,7 @@ Strategically, the Clock Choke serves as a primary threat against turtle positio
 The rotational finishing mechanic distinguishes the Clock Choke from static collar chokes. Rather than simply pulling on the collar, the attacker creates pressure by walking their body perpendicular to the opponent while sprawling their hips down, using body weight and leverage rather than arm strength alone. This makes the technique sustainable and difficult to defend once properly established, as the defender must address both the grip and the positional pressure simultaneously.
 
 **From Position**: [[Positions/Turtle]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 55%
 
 </section>
 
@@ -39,8 +76,9 @@ The rotational finishing mechanic distinguishes the Clock Choke from static coll
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Transitions/Clock Choke]] | 58% |
-| Failure | [[Positions/Turtle]] | 30% |
+| Success | [[game-over]] | 55% |
+| Failure | [[Transitions/Clock Choke]] | 18% |
+| Failure | [[Positions/Turtle]] | 15% |
 | Counter | [[Positions/Half Guard]] | 12% |
 
 
@@ -216,6 +254,16 @@ The Clock Choke is a cornerstone submission for the turtle attack system, workin
 
 - [[Transitions/Guillotine Choke]] - Alternative neck attack when opponent lifts head defending clock rotation
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Gi-Specific-Strategy" data-cta="related-system-card" data-system-slug="systems/gi-specific-strategy" data-system-name="Gi-Specific Strategy" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Gi-Specific Strategy</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Turtle attack using collar control unique to gi</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

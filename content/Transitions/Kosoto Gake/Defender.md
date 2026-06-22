@@ -105,6 +105,7 @@ description: "How to defend against Kosoto Gake in BJJ. Recognition cues, defens
   "@type": "WebPage",
   "name": "Kosoto Gake Defender",
   "description": "How to defend against Kosoto Gake in BJJ. Recognition cues, defensive options, and escape strategies for the minor outer reaping throw.",
+  "alternateName": ["Minor Outer Hook", "Ko Soto Gake"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -150,6 +151,9 @@ description: "How to defend against Kosoto Gake in BJJ. Recognition cues, defens
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Minor Outer Hook</strong>, <strong>Ko Soto Gake</strong> <span class="role-hint">(defender)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 Defending Kosoto Gake requires early recognition and immediate action because the throw's simplicity means it executes quickly once committed. The defender's primary objective is to deny the two essential conditions for the throw: rearward weight loading on the target leg and close upper body control by the attacker. Because Kosoto Gake relies on a force couple between the upper body pull and leg reap, disrupting either component neutralizes the entire technique. The most effective defensive window is during the setup phase before the attacker positions their reaping leg. Once the reap begins, defensive options narrow significantly but recovery is still possible through proper base adjustment and counter-pressure. Understanding Kosoto Gake defense is essential for any practitioner who engages in standup exchanges, as it is one of the most commonly attempted throws in BJJ competition due to its accessibility and reliability.

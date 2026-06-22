@@ -10,6 +10,41 @@ description: "Master the bridge escape from Modified Mount in BJJ. Learn to expl
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Bridge Escape from Modified Mount",
+  "description": "Master the bridge escape from Modified Mount in BJJ. Learn to exploit asymmetric weight distribution for half guard recovery and systematic escape chains.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Bridge Escape from Modified Mount", "item": "https://bjjgraph.org/Transitions/Bridge-Escape-from-Modified-Mount" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Bridge Escape from Modified Mount",
+  "description": "The Bridge Escape from Modified Mount is a directional bottom escape that drives an explosive bridge toward the opponent's posted leg, exploiting the asymmetric base to capture that leg and recover half guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the bridge escape from Modified Mount in BJJ. Learn to expl
 </div>
 
 <section id="overview" class="content-section">
+
+**The Bridge Escape from Modified Mount is a directional bottom escape that drives an explosive bridge toward the opponent's posted leg, exploiting the asymmetric base to capture that leg and recover half guard.**
 
 The bridge escape from Modified Mount is a fundamental positional escape that exploits the inherent structural weakness of asymmetric mount positioning. When the top practitioner posts one leg out for stability while maintaining the across-body knee, they create a directional vulnerability that this escape specifically targets. By directing explosive hip power toward the posted leg side, the bottom practitioner disrupts the stability anchor that makes Modified Mount resistant to standard escape attempts from the opposite direction. The technique requires precise directional awareness and immediate follow-through to convert momentary destabilization into lasting positional improvement.
 
@@ -216,5 +253,7 @@ The bridge escape from Modified Mount functions as a critical link in the mount 
 
 
 </section>
+
+
 
 </main>

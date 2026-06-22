@@ -146,7 +146,7 @@ description: "Master the defender perspective against Kimura Defense Arm Extract
 
 As the defender against the Kimura Defense Arm Extraction, you are the Kimura grip holder working to maintain your figure-four configuration while the opponent attempts to free their trapped arm. Your defensive strategy centers on keeping elbows tight to your body, maintaining grip depth near the opponent's elbow, and using hip movement combined with secondary controls to prevent the straightening and mat-driving mechanics that break the grip. When the opponent commits to extraction, this creates predictable movement patterns you can exploit for sweeps, back takes, and submission transitions. A sustained extraction attempt actually opens offensive opportunities because the opponent's focus on their arm creates vulnerabilities in their base, pressure, and positional awareness that an active Kimura Trap player can exploit systematically.
 
-**Opponent's Starting Position**: [[Positions/Kimura Trap]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Kimura Trap]] (Top)
 
 </section>
 

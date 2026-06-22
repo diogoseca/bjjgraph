@@ -10,6 +10,41 @@ description: "Master the Underhook from Knee Shield in BJJ. Essential half guard
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Underhook from Knee Shield",
+  "description": "Master the Underhook from Knee Shield in BJJ. Essential half guard transition to Dogfight with setup details, timing windows, and grip fighting strategy.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Underhook from Knee Shield", "item": "https://bjjgraph.org/Transitions/Underhook-from-Knee-Shield" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Underhook from Knee Shield",
+  "description": "The Underhook from Knee Shield is a half guard transition where the bottom player trades the knee shield frame for a deep underhook and drives forward to elevate into the Dogfight position, unlocking sweeps and back takes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Underhook from Knee Shield in BJJ. Essential half guard
 </div>
 
 <section id="overview" class="content-section">
+
+**The Underhook from Knee Shield is a half guard transition where the bottom player trades the knee shield frame for a deep underhook and drives forward to elevate into the Dogfight position, unlocking sweeps and back takes.**
 
 The Underhook from Knee Shield is one of the most fundamental and high-percentage transitions in the half guard system, representing the critical bridge between defensive retention and offensive initiative. From the knee shield half guard bottom position, the practitioner removes the knee shield frame and simultaneously drives their near-side arm deep under the opponent's armpit, establishing the underhook that serves as the primary offensive weapon in Dogfight and subsequent sweeping sequences. The timing of this exchange defines the transition's success—the bottom player deliberately trades the safety of the defensive knee shield frame for aggressive forward pressure and the ability to come to their knees.
 
@@ -226,5 +263,7 @@ The Underhook from Knee Shield sits at the critical junction between the defensi
 
 
 </section>
+
+
 
 </main>

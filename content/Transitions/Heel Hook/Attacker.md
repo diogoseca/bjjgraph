@@ -235,7 +235,7 @@ Your body mechanics drive the finish, not arm strength. The rotation comes from 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Transitions/Heel Hook]] | 55% |
+| Success | [[game-over]] | 55% |
 | Failure | [[Positions/Ashi Garami]] | 30% |
 | Counter | [[Positions/Ashi Garami/50-50 Guard]] | 15% |
 
@@ -327,6 +327,19 @@ Incorporate heel hooks into live positional sparring from Ashi Garami positions.
 <p class="section-subtitle">What are the safety concerns for Heel Hook?</p>
 
 The heel hook is the most dangerous submission in Brazilian Jiu-Jitsu and requires strict safety protocols. Unlike joint locks that cause escalating pain before damage, heel hooks attack ligaments with minimal pain receptors—significant knee damage (ACL, MCL, meniscus tears) can occur before the defender feels warning pain. ALWAYS apply pressure gradually and smoothly in training. Practice catch-and-release: secure the position and grip, demonstrate the finish is available, then release without applying finishing force. TAP EARLY when caught—ego has no place in heel hook defense. Understand that knee ligament injuries can require surgery and 6-12 months of rehabilitation, potentially ending training for extended periods or permanently affecting mobility. Never apply heel hooks explosively in training. Ensure training partners understand heel hook danger before drilling. Consider using lower leg locks (straight ankle lock, toe hold) for positional sparring until both partners have heel hook experience. Competition heel hooks should only be attempted with full understanding of the potential consequences.
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Danaher-Leg-Lock-System" data-cta="related-system-card" data-system-slug="systems/danaher-leg-lock-system" data-system-name="Danaher Leg Lock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Danaher Leg Lock System</span><span class="system-card__unlocks-badge">Unlocks 30 techniques</span><span class="system-card__blurb">Primary submission family for entire system with multiple variations</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Straight-Footlock-to-Kneebar-Chain" data-cta="related-system-card" data-system-slug="systems/straight-footlock-to-kneebar-chain" data-system-name="Straight Footlock to Kneebar Chain" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Straight Footlock to Kneebar Chain</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Advanced leg attack that can be integrated into expanded system</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Garry-Tonon-Leg-Lock-to-Back-System" data-cta="related-system-card" data-system-slug="systems/garry-tonon-leg-lock-to-back-system" data-system-name="Garry Tonon Leg Lock to Back System" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Garry Tonon Leg Lock to Back System</span><span class="system-card__unlocks-badge">Unlocks 26 techniques</span><span class="system-card__blurb">Primary leg submission that forces defensive movements exposing back attacks</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Lachlan-Giles-Leg-Lock-Defense-Framework" data-cta="related-system-card" data-system-slug="systems/lachlan-giles-leg-lock-defense-framework" data-system-name="Lachlan Giles Leg Lock Defense Framework" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Lachlan Giles Leg Lock Defense Framework</span><span class="system-card__unlocks-badge">Unlocks 26 techniques</span><span class="system-card__blurb">Primary submission threat this defensive system addresses</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

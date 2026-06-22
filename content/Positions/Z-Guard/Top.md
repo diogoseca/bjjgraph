@@ -21,7 +21,7 @@ description: "Master Z-Guard Top in BJJ. Complete guide covering passing strateg
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 29% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 40% of exchanges from this position.",
       "position": 1
     },
     {
@@ -32,26 +32,26 @@ description: "Master Z-Guard Top in BJJ. Complete guide covering passing strateg
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Knee Cut Pass",
-      "text": "From this position, attempt Knee Cut Pass. This technique is attempted in 11% of exchanges from this position.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute Long Step Pass",
       "text": "From this position, attempt Long Step Pass. This technique is attempted in 10% of exchanges from this position.",
-      "position": 4
+      "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
       "text": "From this position, attempt Smash Pass. This technique is attempted in 11% of exchanges from this position.",
-      "position": 5
+      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Step",
       "text": "From this position, attempt Back Step. This technique is attempted in 9% of exchanges from this position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Underhook Pass",
+      "text": "From this position, attempt Underhook Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -116,6 +116,7 @@ description: "Master Z-Guard Top in BJJ. Complete guide covering passing strateg
   "@type": "WebPage",
   "name": "Z-Guard Top",
   "description": "Master Z-Guard Top in BJJ. Complete guide covering passing strategies, pressure tactics, and transitions. Offensive passing position with systematic breakdown techniques.",
+  "alternateName": ["Z Guard"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -155,6 +156,9 @@ description: "Master Z-Guard Top in BJJ. Complete guide covering passing strateg
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Z Guard</strong> <span class="role-hint">(top)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 Z-Guard Top represents the passing position where the top player faces an opponent utilizing the Z-guard (knee shield half guard) variation. From this position, the top player aims to neutralize the bottom player's knee shield frame while establishing dominant passing angles. The position is characterized by the bottom player's shin creating a horizontal barrier across the top player's upper chest or shoulder, using their top leg to frame and create distance. The top player must systematically break down this defensive structure through a combination of pressure, grip fighting, and angle creation. Success in this position requires understanding how to collapse the knee shield, control the underhook battle, and transition to more dominant positions like side control, mount, or back control. The Z-Guard Top position is fundamental in modern BJJ as it represents one of the most common defensive frames encountered during the passing game, particularly against skilled guard players who excel at maintaining distance and threatening sweeps.
@@ -228,7 +232,7 @@ From a competitive perspective, mastering Z-Guard Top passing is essential for a
 
 **If bottom player turns to their side to defend:**
 - Execute **[[Transitions/Back Step/Attacker|Back Step]]** → [[Positions/Back Control]] (Probability: 55%)
-- Execute **[[Transitions/Knee Cut Pass/Attacker|Knee Cut Pass]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Cut Pass]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 **If bottom player attempts to go inverted or create scramble:**
@@ -349,5 +353,7 @@ Positional sparring starting from Z-Guard with emphasis on grip fighting. Top pl
 
 
 </section>
+
+
 
 </main>

@@ -10,6 +10,41 @@ description: "Master the bridge escape from S Mount in BJJ. Technical guide to t
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Bridge Escape from S Mount",
+  "description": "Master the bridge escape from S Mount in BJJ. Technical guide to timing, arm protection, bridge mechanics, and guard recovery from this dominant position.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Bridge Escape from S Mount", "item": "https://bjjgraph.org/Transitions/Bridge-Escape-from-S-Mount" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Bridge Escape from S Mount",
+  "description": "The Bridge Escape from S Mount is a defensive escape where the bottom player explosively bridges toward the opponent's posted leg to disrupt their perpendicular base, retract the trapped arm, and recover guard before the armbar finishes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the bridge escape from S Mount in BJJ. Technical guide to t
 </div>
 
 <section id="overview" class="content-section">
+
+**The Bridge Escape from S Mount is a defensive escape where the bottom player explosively bridges toward the opponent's posted leg to disrupt their perpendicular base, retract the trapped arm, and recover guard before the armbar finishes.**
 
 The bridge escape from S Mount is a fundamental defensive technique employed when trapped beneath an opponent's perpendicular mount configuration. S Mount creates severe offensive pressure by isolating the near arm for armbar attacks while the top player's perpendicular body angle limits conventional escape routes. The bridge disrupts the top player's balance and critical hip-to-shoulder connection by generating explosive upward and lateral force, creating a momentary window to retract the isolated arm and begin guard recovery.
 
@@ -224,5 +261,7 @@ The bridge escape from S Mount integrates directly into the broader mount escape
 
 
 </section>
+
+
 
 </main>

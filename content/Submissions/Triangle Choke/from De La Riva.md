@@ -10,10 +10,55 @@ description: "Master Triangle from De La Riva in BJJ. Complete guide with setup 
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Triangle Choke from De La Riva targets the Carotid arteries and jugular veins. Risk: Neck strain or cervical spine compression. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Triangle Choke from De La Riva",
+  "description": "Master Triangle from De La Riva in BJJ. Complete guide with setup requirements, execution steps, and safety protocols. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Triangle Choke from De La Riva", "item": "https://bjjgraph.org/Submissions/Triangle-Choke-from-De-La-Riva" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Triangle Choke from De La Riva",
+  "description": "The Triangle Choke from De La Riva is a blood choke that uses the De La Riva hook to off-balance the opponent and swing a leg over their shoulder, trapping the head and one arm to compress both carotid arteries.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Triangle Choke from De La Riva is a blood choke that uses the De La Riva hook to off-balance the opponent and swing a leg over their shoulder, trapping the head and one arm to compress both carotid arteries.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries and jugular veins</span>
+<span class="meta-chip">52% success</span>
+</div>
+
+> [!danger] Safety
+> Triangle Choke from De La Riva targets the Carotid arteries and jugular veins. Primary risk: Neck strain or cervical spine compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -26,50 +71,7 @@ description: "Master Triangle from De La Riva in BJJ. Complete guide with setup 
 
 The Triangle from De La Riva is a sophisticated blood choke that capitalizes on the unique angular control provided by the De La Riva guard position. This submission represents a fundamental offensive option from one of modern BJJ's most dynamic open guard systems. The De La Riva hook on the opponent's leg creates natural off-balancing opportunities while the opposite leg controls posture and distance, establishing perfect conditions for transitioning to the triangle position. The technical challenge lies in transitioning from the linear De La Riva guard structure to the circular enclosure required for an effective triangle choke. Success depends on precise timing, grip manipulation, and understanding how to use the De La Riva hook as a pivot point rather than abandoning it prematurely. When executed correctly, this technique combines the sweeping threat inherent in De La Riva with a finishing submission, creating a true dilemma for the opponent.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries and jugular veins
-**Starting Position**: [[Positions/De La Riva Guard]]
-**From Position**: [[Positions/De La Riva Guard]] (Bottom)
-**Success Rate**: 52%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Neck strain or cervical spine compression | Medium | 1-2 weeks |
-| Loss of consciousness from blood choke | High | Immediate recovery if released promptly, potential complications if held too long |
-| Shoulder or rotator cuff strain from arm trap | Low | 3-7 days |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from initial lock to any significant pressure
-
-**Tap Signals**:
-- Verbal tap or vocal distress
-- Physical hand tap on partner's body or mat
-- Physical foot tap on mat or partner
-- Any sudden change in resistance or body going limp
-
-
-**Release Protocol**:
-1. Immediately open legs and release triangle configuration
-2. Release arm trap and posture control
-3. Allow partner to return to neutral position with full neck mobility
-4. Check partner's consciousness and neck comfort before continuing
-
-
-**Training Restrictions**:
-- Never apply sudden jerking motions to the neck
-- Never use competition finishing speed during drilling or light sparring
-- Always ensure partner has at least one arm free to tap
-- Release immediately upon any tap signal without testing tightness
-
+**Starting Position**: [[Positions/De La Riva Guard]] · **From**: [[Positions/De La Riva Guard]] (Bottom)
 
 </section>
 
@@ -239,44 +241,63 @@ The Triangle from De La Riva is a sophisticated blood choke that capitalizes on 
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Triangle Choke]]
 - [[Submissions/Omoplata]]
 - [[Submissions/Far Side Armbar]]
 - [[Transitions/Inverted Triangle]]
 - [[Submissions/Baratoplata]]
 - [[Transitions/Gogoplata]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Transitions/De La Riva Sweep]] - Primary sweeping option from same guard position when triangle is defended
 - [[Transitions/Berimbolo Entry]] - Back take option from De La Riva when opponent defends triangle by turning away
 - [[Transitions/Omoplata Sweep]] - Direct transition when opponent hides arm to defend triangle
 - [[Positions/De La Riva Guard]] - Starting position and guard system from which this submission is executed
-- [[Submissions/Triangle Choke]] - Parent submission technique that this position-specific variation is derived from
 - [[Positions/Closed Guard]] - Related guard position where triangle entries share core finishing mechanics
 - [[Positions/Back Control]] - Position achieved when opponent turns away from triangle pressure
 - [[Positions/Open Guard]] - Parent guard family from which De La Riva guard is a specialized variation
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Neck strain or cervical spine compression | Medium | 1-2 weeks |
+| Loss of consciousness from blood choke | High | Immediate recovery if released promptly, potential complications if held too long |
+| Shoulder or rotator cuff strain from arm trap | Low | 3-7 days |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum from initial lock to any significant pressure
+
+**Tap Signals**:
+- Verbal tap or vocal distress
+- Physical hand tap on partner's body or mat
+- Physical foot tap on mat or partner
+- Any sudden change in resistance or body going limp
+
+
+**Release Protocol**:
+1. Immediately open legs and release triangle configuration
+2. Release arm trap and posture control
+3. Allow partner to return to neutral position with full neck mobility
+4. Check partner's consciousness and neck comfort before continuing
+
+
+**Training Restrictions**:
+- Never apply sudden jerking motions to the neck
+- Never use competition finishing speed during drilling or light sparring
+- Always ensure partner has at least one arm free to tap
+- Release immediately upon any tap signal without testing tightness
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Triangle Choke from De La Riva leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

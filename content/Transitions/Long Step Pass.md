@@ -10,6 +10,41 @@ description: "Master the Long Step Pass in BJJ. Complete guide to pressure passi
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Long Step Pass",
+  "description": "Master the Long Step Pass in BJJ. Complete guide to pressure passing open guard with step-by-step execution, defensive counters, and training progressions.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Long Step Pass", "item": "https://bjjgraph.org/Transitions/Long-Step-Pass" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Long Step Pass",
+  "description": "The Long Step Pass is a standing pressure pass where the top player steps one leg deep behind the opponent's hip while driving chest weight forward, clearing open-guard frames to settle into side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Long Step Pass in BJJ. Complete guide to pressure passi
 
 <section id="overview" class="content-section">
 
-The Long Step Pass is a fundamental pressure passing technique used to navigate past open guard positions by stepping deep to the side while maintaining heavy forward pressure. The pass involves establishing grips on the opponent's pants, belt, or legs, then using a long stepping motion to bypass the guard while driving chest weight onto the opponent's torso. The technique is particularly effective against seated guards, butterfly guard, and De La Riva variations where the passer can control distance and dictate the pace of engagement.
+**The Long Step Pass is a standing pressure pass where the top player steps one leg deep behind the opponent's hip while driving chest weight forward, clearing open-guard frames to settle into side control.**
+
+Sitting at the heart of modern pressure-passing systems, the Long Step Pass earns its name from the deep lateral step that carries the passer's lead leg past the guard player's hip line in a single committing motion. The pass involves establishing grips on the opponent's pants, belt, or legs, then using a long stepping motion to bypass the guard while driving chest weight onto the opponent's torso. The technique is particularly effective against seated guards, butterfly guard, and De La Riva variations where the passer can control distance and dictate the pace of engagement.
 
 The Long Step Pass exemplifies the principle of pressure over speed, using superior positioning and weight distribution to nullify the guard player's defensive frames and movement. By stepping deep to the side while controlling the opponent's lower body, the passer creates angles that make guard retention extremely difficult. This technique forms the foundation of many modern passing systems and connects seamlessly with other pressure-based approaches like the Knee Slice Pass and Over-Under Pass.
 
@@ -230,6 +267,18 @@ The Long Step Pass is a cornerstone technique in the guard passing hierarchy and
 
 - [[Positions/Open Guard]] - Starting position where this pass is initiated from top
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Bernardo-Faria-Pressure-System" data-cta="related-system-card" data-system-slug="systems/bernardo-faria-pressure-system" data-system-name="Bernardo Faria Pressure System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Bernardo Faria Pressure System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Alternative passing technique used when knee slice is defended</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Modern-No-Gi-Passing-System" data-cta="related-system-card" data-system-slug="systems/modern-no-gi-passing-system" data-system-name="Modern No-Gi Passing System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Modern No-Gi Passing System</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Floating pass variation used to bypass guard retention attempts</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Gordon-Ryan-Passing-System" data-cta="related-system-card" data-system-slug="systems/gordon-ryan-passing-system" data-system-name="Gordon Ryan Passing System" data-member-count="17"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Gordon Ryan Passing System</span><span class="system-card__unlocks-badge">Unlocks 17 techniques</span><span class="system-card__blurb">Passing variation effective against butterfly and open guards</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

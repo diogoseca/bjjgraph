@@ -10,6 +10,41 @@ description: "Master the Sweep from Electric Chair in BJJ. Complete lockdown swe
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Sweep from Electric Chair",
+  "description": "Master the Sweep from Electric Chair in BJJ. Complete lockdown sweep guide covering setup, execution mechanics, and defensive counters for all levels.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Sweep from Electric Chair", "item": "https://bjjgraph.org/Transitions/Sweep-from-Electric-Chair" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Sweep from Electric Chair",
+  "description": "The Sweep from Electric Chair is a high-percentage lockdown half-guard reversal that exploits the position's split-or-be-swept dilemma to roll the top player over their trapped leg and arrive in dominant mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Sweep from Electric Chair in BJJ. Complete lockdown swe
 
 <section id="overview" class="content-section">
 
-The Sweep from Electric Chair is the primary positional reversal from the lockdown half guard system, converting the bottom Electric Chair position into dominant mount. This technique capitalizes on the splitting pressure and structural off-balance created by the lockdown configuration, using coordinated hip extension, underhook leverage, and ankle control to roll the opponent over their trapped leg and come up to top position. The sweep represents the culmination of the Electric Chair attack sequence, where submission pressure naturally transitions into sweeping momentum.
+**The Sweep from Electric Chair is a high-percentage lockdown half-guard reversal that exploits the position's split-or-be-swept dilemma to roll the top player over their trapped leg and arrive in dominant mount.**
+
+Within the 10th Planet lockdown system, this sweep is the payoff that justifies hunting the Electric Chair in the first place. It capitalizes on the splitting pressure and structural off-balance created by the lockdown configuration, using coordinated hip extension, underhook leverage, and ankle control to roll the opponent over their trapped leg and come up to top position. The sweep represents the culmination of the Electric Chair attack sequence, where submission pressure naturally transitions into sweeping momentum.
 
 The technique's effectiveness derives from the fundamental dilemma inherent in the Electric Chair position. As the bottom player extends their hips and splits the opponent's legs apart, the top player faces an impossible choice: defend the crotch-splitting submission by pulling their leg inward, which shifts their weight and creates the momentum needed for the sweep, or base out to prevent the sweep, which increases their exposure to the submission finish. This binary threat structure makes the sweep one of the highest-percentage reversals available from bottom half guard.
 
@@ -216,15 +253,17 @@ The Sweep from Electric Chair occupies a central role within the lockdown half g
 
 - [[Positions/Dogfight Position]] - Transition option when underhook is maintained but lockdown is lost
 
-- [[Transitions/Old School Sweep]] - Related sweep from the same lockdown system with different mechanics
+- [[Positions/Half Guard/Old School]] - Related sweep from the same lockdown system with different mechanics
 
 - [[Submissions/Banana Split]] - Submission threat from Electric Chair that creates the sweep dilemma
 
 - [[Transitions/Hip Rotation Escape from Electric Chair]] - Primary defensive counter used by the top player against this sweep
 
-- [[Transitions/Electric Chair Entry from Deep Half]] - Entry pathway into the source position for this sweep
+- [[Transitions/Deep Half Entry]] - Entry pathway into the lockdown system feeding the source position for this sweep
 
 
 </section>
+
+
 
 </main>

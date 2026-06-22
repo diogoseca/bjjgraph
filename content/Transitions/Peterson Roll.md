@@ -10,6 +10,41 @@ description: "Master the Peterson Roll escape from turtle in BJJ. Step-by-step e
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Peterson Roll",
+  "description": "Master the Peterson Roll escape from turtle in BJJ. Step-by-step execution for reversing position and achieving top control with expert technique.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Peterson Roll", "item": "https://bjjgraph.org/Transitions/Peterson-Roll" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Peterson Roll",
+  "description": "The Peterson Roll is a wrestling-derived reversal from turtle bottom that traps the opponent's attacking arm and channels their forward pressure into a roll, landing you on top in side control or half guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Peterson Roll escape from turtle in BJJ. Step-by-step e
 
 <section id="overview" class="content-section">
 
-The Peterson Roll is a fundamental wrestling-based reversal adapted for BJJ that allows the bottom turtle player to reverse position and come out on top. Named after wrestler John Peterson, this technique exploits the opponent's weight commitment when they drive into you from behind. The roll uses the opponent's forward pressure against them, channeling their momentum into a rolling reversal that lands you in a dominant top position, typically side control or half guard top. The Peterson Roll is particularly effective against opponents who over-commit their weight forward while attempting to break down your turtle or establish back control. Unlike the granby roll which aims primarily for guard recovery, the Peterson Roll is an offensive reversal that puts you directly into a scoring position. The technique requires precise timing, proper arm positioning to capture the opponent's attacking limb, and explosive hip movement to generate the rotation needed to complete the roll. It forms an essential part of any complete turtle defense system, giving you a legitimate threatening option that forces opponents to respect your ability to reverse position rather than simply attacking freely.
+**The Peterson Roll is a wrestling-derived reversal from turtle bottom that traps the opponent's attacking arm and channels their forward pressure into a roll, landing you on top in side control or half guard.**
+
+Named after Olympic wrestler John Peterson, this turtle-bottom reversal migrated into Brazilian Jiu-Jitsu as a way to punish opponents who over-commit their weight forward while breaking down your turtle or hunting back control. It exploits that weight commitment by capturing the attacking limb and channeling the opponent's forward pressure into a rolling reversal that lands you in a dominant top position, typically side control or half guard top. The Peterson Roll is particularly effective against opponents who drive into you from behind without managing their base. Unlike the granby roll, which aims primarily for guard recovery, the Peterson Roll is an offensive reversal that puts you directly into a scoring position. The technique requires precise timing, proper arm positioning to capture the opponent's attacking limb, and explosive hip movement to generate the rotation needed to complete the roll. It forms an essential part of any complete turtle defense system, giving you a legitimate threatening option that forces opponents to respect your ability to reverse position rather than simply attacking freely.
 
 **From Position**: [[Positions/Turtle]] (Bottom)
 **Success Rate**: 58%
@@ -209,5 +246,7 @@ The Peterson Roll occupies a critical role in a complete turtle defense system, 
 
 
 </section>
+
+
 
 </main>

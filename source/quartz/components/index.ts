@@ -21,7 +21,6 @@ import NotDesktop from "./NotDesktop"
 import RecentNotes from "./RecentNotes"
 import Breadcrumbs from "./Breadcrumbs"
 import Comments from "./Comments"
-import EditOnGithub from "./EditOnGithub"
 import MoveCards from "./MoveCards"
 import OutcomeCards from "./OutcomeCards"
 import Snackbar from "./Snackbar"
@@ -37,8 +36,9 @@ import FlashcardsHeader from "./FlashcardsHeader"
 import DecksModal from "./DecksModal"
 import SettingsModal from "./SettingsModal"
 import SessionChevrons from "./SessionChevrons"
-import FirstLoadHint from "./FirstLoadHint"
 import RollSessionButton from "./RollSessionButton"
+import SystemProgress from "./SystemProgress"
+import AffiliateTracking from "./AffiliateTracking"
 
 export {
   ArticleTitle,
@@ -64,7 +64,6 @@ export {
   NotFound,
   Breadcrumbs,
   Comments,
-  EditOnGithub,
   MoveCards,
   OutcomeCards,
   Snackbar,
@@ -80,6 +79,7 @@ export {
   DecksModal,
   SettingsModal,
   SessionChevrons,
-  FirstLoadHint,
   RollSessionButton,
+  SystemProgress,
+  AffiliateTracking,
 }

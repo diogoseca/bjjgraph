@@ -10,9 +10,48 @@ description: "Master Uchi Mata in BJJ. Complete standing throw from Clinch to Si
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Uchi Mata",
+  "description": "Master Uchi Mata in BJJ. Complete standing throw from Clinch to Side Control with setup, execution, and defense. Judo-based inner thigh technique.",
+  "alternateName": ["Inner Thigh Throw"],
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Uchi Mata", "item": "https://bjjgraph.org/Transitions/Uchi-Mata" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Uchi Mata",
+  "description": "Uchi Mata is a judo-derived standing throw where the attacker off-balances the opponent forward, loads them onto the hip, and sweeps the inside of their supporting thigh to rotate them to the mat into side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Inner Thigh Throw</strong></p>
+</aside>
 <div class="role-links">
 
 [[Uchi Mata/Attacker|Play as Attacker]]
@@ -21,6 +60,8 @@ description: "Master Uchi Mata in BJJ. Complete standing throw from Clinch to Si
 </div>
 
 <section id="overview" class="content-section">
+
+**Uchi Mata is a judo-derived standing throw where the attacker off-balances the opponent forward, loads them onto the hip, and sweeps the inside of their supporting thigh to rotate them to the mat into side control.**
 
 The Uchi Mata (inner thigh throw) is one of judo's most powerful and versatile throwing techniques, highly effective in both gi and no-gi grappling. Translated as 'inner thigh reap,' this technique involves using your inner thigh to sweep your opponent's supporting leg while simultaneously rotating them over your hip. The Uchi Mata is particularly effective against taller opponents or those who stand upright in the clinch, as it exploits their high center of gravity. When executed properly, this throw generates tremendous force and typically results in a direct transition to side control or mount, making it one of the highest-percentage scoring techniques in BJJ competition. The technique requires precise timing, proper kuzushi (off-balancing), and coordinated hip and leg movement. Unlike some throws that rely purely on strength, Uchi Mata is a technical throw that uses rotational momentum and leverage to amplify your power. Its effectiveness has made it a staple in the arsenals of many high-level BJJ competitors who incorporate judo into their standing game.
 
@@ -226,5 +267,7 @@ Uchi Mata serves as a fundamental cornerstone of an effective standing game in B
 
 
 </section>
+
+
 
 </main>

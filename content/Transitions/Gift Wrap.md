@@ -10,6 +10,41 @@ description: "Master the Gift Wrap setup from Mount in BJJ. Complete guide to ar
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Gift Wrap",
+  "description": "Master the Gift Wrap setup from Mount in BJJ. Complete guide to arm isolation technique trapping opponent\u0027s arm across their body for back takes and submissions.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Gift Wrap", "item": "https://bjjgraph.org/Transitions/Gift-Wrap" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Gift Wrap",
+  "description": "The Gift Wrap from Mount is an arm-trapping transition where the top player threads an arm under the opponent's armpit and pins it high across their chest, stripping half their defense and opening back takes, chokes, and armbars.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Gift Wrap setup from Mount in BJJ. Complete guide to ar
 
 <section id="overview" class="content-section">
 
-The Gift Wrap is a fundamental arm-trapping transition executed from Mount that establishes dominant control by wrapping one of the opponent's arms across their own body and securing it with your grip. This technique systematically removes half of the opponent's defensive capability in a single action, transforming the already dominant mount position into a submission-rich control configuration. The position derives its name from the visual appearance of the trapped arm being 'wrapped' like a present across the defender's chest.
+**The Gift Wrap from Mount is an arm-trapping transition where the top player threads an arm under the opponent's armpit and pins it high across their chest, stripping half their defense and opening back takes, chokes, and armbars.**
+
+Within the mount attack hierarchy, the Gift Wrap occupies the rung between raw positional control and direct submission, refining Mount's dominance into systematic limb isolation. By stripping away half of the opponent's defensive capability in a single action, it converts the already dominant mount into a submission-rich control configuration. The technique derives its name from the visual appearance of the trapped arm being 'wrapped' like a present across the defender's chest.
 
 Strategically, the Gift Wrap serves as a critical transitional hub within the mount attack system. Once the arm is trapped across the opponent's chest toward their opposite shoulder, multiple high-percentage attack paths become available: the rear naked choke becomes substantially easier due to reduced hand fighting, back control transitions open as the opponent is forced to turn away, and the free arm becomes an isolated target for armbar attacks. The Gift Wrap exemplifies modern positional methodology where control is refined before submission attempts.
 
@@ -218,6 +255,20 @@ The Gift Wrap functions as a critical transitional hub within the mount attack s
 
 - [[Submissions/Rear Naked Choke]] - Primary submission threat from established Gift Wrap control
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Danaher-Front-Headlock-System" data-cta="related-system-card" data-system-slug="systems/danaher-front-headlock-system" data-system-name="Danaher Front Headlock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Danaher Front Headlock System</span><span class="system-card__unlocks-badge">Unlocks 30 techniques</span><span class="system-card__blurb">Back control variation accessible from front headlock spiral sequences</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Control System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Submission-Clinic-System" data-cta="related-system-card" data-system-slug="systems/submission-clinic-system" data-system-name="Submission Clinic System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Submission Clinic System</span><span class="system-card__unlocks-badge">Unlocks 30 techniques</span><span class="system-card__blurb">Arm-isolation position transitioning to crucifix or mounted attacks</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Danaher Straight Jacket System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Intermediate control level representing first major advancement in system hierarchy</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Garry-Tonon-Leg-Lock-to-Back-System" data-cta="related-system-card" data-system-slug="systems/garry-tonon-leg-lock-to-back-system" data-system-name="Garry Tonon Leg Lock to Back System" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Garry Tonon Leg Lock to Back System</span><span class="system-card__unlocks-badge">Unlocks 26 techniques</span><span class="system-card__blurb">Arm control position that enhances back attack finishing and prevents hand fighting</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Back-Attack-System" data-cta="related-system-card" data-system-slug="systems/back-attack-system" data-system-name="Back Attack System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Back Attack System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Arm isolation position that sets up back attacks and submissions</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

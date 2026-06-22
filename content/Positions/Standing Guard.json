@@ -3,6 +3,7 @@
   "slug": "standing-guard",
   "description": "Master Standing Guard in BJJ. Strategic guide covering defensive structure, distance management, and transitions from upright posture with perspective analysis.",
   "variant_uniqueness": "Upright posture for mobility and distance control",
+  "summary": "Standing Guard is the neutral upright engagement where both grapplers contest grips and manage distance, deciding whether to pull guard, shoot a takedown, or continue standup exchanges before committing to the ground.",
   "overview": "Standing Guard represents a critical transitional phase where both practitioners maintain upright postures while engaging in grip fighting and distance management. This position serves as the gateway between initial engagement and ground-based grappling, where strategic decisions about guard pulling, takedown attempts, or continued standup exchanges are made. The position is characterized by active hand fighting, footwork-based positioning, and the constant tension between offensive opportunity and defensive responsibility.\n\nFrom Standing Guard, practitioners must balance multiple competing objectives: maintaining safe distance to prevent disadvantageous engagement, controlling grips to dictate terms of transition to ground fighting, and creating opportunities for either offensive takedowns or strategic guard pulls to favorable positions. The position appears simple but contains significant depth in grip fighting strategy, distance management, timing recognition for transitions, and tactical decision-making based on opponent tendencies and competition circumstances.\n\nModern BJJ competition has elevated the importance of Standing Guard mastery, as most matches begin from this position and strategic guard pulling has become the primary method of initiating ground engagement. Success requires understanding not just the mechanics of standing and gripping, but the tactical frameworks for when to pull guard versus when to attempt takedowns, how to create favorable grip configurations before transitioning, and how to prevent opponents from dictating the terms of engagement. The position demands both technical precision in grip fighting and strategic thinking about match flow and positional advantage.",
   "key_principles": [
     "Active grip fighting prevents opponent from establishing dominant grips that control engagement",
@@ -640,7 +641,7 @@
     "transitions": [
       {
         "transition": "Pull guard",
-        "attempt_probability": 36
+        "attempt_probability": 37
       },
       {
         "transition": "Sitting Guard Pull",
@@ -681,10 +682,6 @@
       {
         "transition": "Pull Guard from Ground",
         "attempt_probability": 2
-      },
-      {
-        "transition": "Technical Stand Up from Ground",
-        "attempt_probability": 1
       },
       {
         "transition": "Sweep from Standing Guard",

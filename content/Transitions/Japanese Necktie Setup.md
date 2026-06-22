@@ -10,6 +10,41 @@ description: "Master the Japanese Necktie Setup from Front Headlock in BJJ. Step
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Japanese Necktie Setup",
+  "description": "Master the Japanese Necktie Setup from Front Headlock in BJJ. Step-by-step execution, arm threading mechanics, and rolling finish details for competition-proven results.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Japanese Necktie Setup", "item": "https://bjjgraph.org/Transitions/Japanese-Necktie-Setup" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Japanese Necktie Setup",
+  "description": "The Japanese Necktie Setup is a front-headlock attack where the attacker threads an arm deep under a turtled opponent's neck, locks a figure-four grip, and rolls to one side to establish a rolling blood choke.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Japanese Necktie Setup from Front Headlock in BJJ. Step
 
 <section id="overview" class="content-section">
 
-The Japanese Necktie Setup is a sophisticated transition from Front Headlock control that capitalizes on the opponent's defensive turtle position. This technique creates a powerful blood choke by threading the arm under the opponent's neck while establishing a specific body configuration that amplifies pressure. Unlike traditional front chokes that rely purely on arm strength, the Japanese Necktie uses body positioning and weight distribution to generate overwhelming force. The setup phase is critical—proper arm threading, head positioning, and hip placement determine whether the submission becomes viable.
+**The Japanese Necktie Setup is a front-headlock attack where the attacker threads an arm deep under a turtled opponent's neck, locks a figure-four grip, and rolls to one side to establish a rolling blood choke.**
+
+Borrowed from catch wrestling and refined for modern no-gi competition, this front-headlock attack capitalizes on the opponent's defensive turtle position to convert positional control into an immediate blood choke. The technique creates overwhelming pressure by threading the arm under the opponent's neck while establishing a specific body configuration that amplifies the strangle. Unlike traditional front chokes that rely purely on arm strength, the Japanese Necktie uses body positioning and weight distribution to generate force. The setup phase is critical—proper arm threading, head positioning, and hip placement determine whether the submission becomes viable.
 
 When executed correctly, this transition catches opponents off-guard because it appears to be a standard front headlock attack until the choking mechanism suddenly materializes. The technique gained prominence in modern no-gi competition due to its effectiveness against defensive turtling and its ability to finish from seemingly neutral scramble positions. The arm-threading depth and far-arm control distinguish this technique from other front headlock attacks, and the rolling finish creates a unique choking angle that many defenders fail to recognize until it is too late.
 
@@ -39,7 +76,7 @@ Strategically, the Japanese Necktie functions as a high-value option within the 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Darce Control]] | 55% |
+| Success | [[Submissions/Japanese Necktie]] | 55% |
 | Failure | [[Positions/Front Headlock]] | 30% |
 | Counter | [[Positions/Turtle]] | 15% |
 
@@ -200,7 +237,7 @@ The Japanese Necktie Setup is a crucial component of the front headlock attack s
 
 - [[Positions/Front Headlock]] - Starting position for setup
 
-- [[Positions/Darce Control]] - Finishing control position reached on success
+- [[Submissions/Japanese Necktie]] - Finishing strangle reached on success
 
 - [[Transitions/Darce Setup]] - Alternative attack from same position
 
@@ -224,5 +261,7 @@ The Japanese Necktie Setup is a crucial component of the front headlock attack s
 
 
 </section>
+
+
 
 </main>

@@ -14,6 +14,7 @@
   ],
   "system_type": "Submission Chain",
   "difficulty_level": "Advanced",
+  "summary": "The Rubber Guard to Omoplata System is a flexibility-based 10th Planet attacking framework that uses high-guard control positions like Mission Control and New York to chain omoplata shoulder locks, sweeps, and back takes from closed guard.",
   "overview": "The Rubber Guard to Omoplata System represents one of the most sophisticated submission chains in modern Brazilian Jiu-Jitsu, bridging Eddie Bravo's innovative 10th Planet methodology with classical shoulder lock finishing mechanics. This system leverages extreme hip flexibility and systematic control positions to create a network of attacking options that flow seamlessly from rubber guard's high-control positions into omoplata shoulder locks, sweeps, and back takes. Unlike isolated techniques, this system teaches practitioners to view rubber guard not as a static position but as a dynamic control framework that naturally progresses toward omoplata-based attacks. The methodology emphasizes posture breaking from closed guard, establishing rubber guard control points like Mission Control and New York, then transitioning through specific pathways that exploit opponent reactions to set up omoplata attacks with multiple finishing variations. Mastery of this system requires substantial flexibility training, understanding of leverage principles in both rubber guard maintenance and omoplata mechanics, and the ability to chain attacks when opponents defend the primary submission. Advanced practitioners can integrate this system with triangle attacks and back takes, creating a complete offensive framework from closed guard that keeps opponents constantly defending against interconnected threats.",
   "key_principles": [
     "Systematic progression from closed guard posture breaking through rubber guard control to omoplata finish",
@@ -366,6 +367,40 @@
       "name": "Ryan Hall Triangle System",
       "content_type": "System",
       "relationship": "Alternative triangle-focused approach with omoplata connections"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What is the Rubber Guard to Omoplata System and where does it originate?",
+      "answer": "It is a flexibility-based attacking framework rooted in Eddie Bravo's 10th Planet methodology that uses rubber guard high-control positions to chain omoplata shoulder locks, sweeps, and back takes from closed guard."
+    },
+    {
+      "question": "Which two rubber guard positions form the backbone of the system's progression toward the omoplata?",
+      "answer": "Mission Control, which secures a deep overhook with the high-guard leg pinning the shoulder, and New York, which threads the arm across the back for deeper shoulder isolation and the primary omoplata entry."
+    },
+    {
+      "question": "How do you select the correct omoplata entry from New York based on the opponent's reaction?",
+      "answer": "If the opponent stays stationary use a direct swing-through; if they pull the trapped arm back threaten the triangle to drive it forward again; if they drive forward with pressure use a meathook entry to facilitate the leg over the shoulder."
+    },
+    {
+      "question": "What are the three primary outcomes available once the leg is over the shoulder with wrist control secured?",
+      "answer": "A traditional sit-up rotational omoplata finish against a static opponent, following their forward roll to take the back, and sweeping to top position while keeping shoulder isolation when the submission is defended."
+    },
+    {
+      "question": "Why is maintaining wrist control critical throughout the omoplata entry and finish?",
+      "answer": "Wrist control prevents the opponent from posting their hand on the mat, which is the primary defense that stalls the leg-over-shoulder rotation and lets them spin out, stack, or roll free of the shoulder lock."
+    },
+    {
+      "question": "How does the system convert an opponent's forward-roll defense into an advantage?",
+      "answer": "When the opponent rolls forward to relieve omoplata pressure you follow the roll, establish seat-belt control as they rotate, and secure hooks to transition into dominant back control before they complete the escape."
+    },
+    {
+      "question": "What is the most common foundational mistake practitioners make when learning this system?",
+      "answer": "Attempting the system without sufficient hip flexibility, which causes poor maintenance of high guard and Mission Control and leads to failed transitions; dedicated mobility work and half rubber guard variations help bridge the gap."
+    },
+    {
+      "question": "How do integrated triangle and armbar threats make the omoplata harder to defend?",
+      "answer": "The triangle threatens when the opponent pulls the trapped arm back and the armbar threatens when they stack or drive weight forward, creating a fork where defending one attack opens another and preventing single-focus defense."
     }
   ]
 }

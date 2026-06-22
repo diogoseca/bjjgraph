@@ -10,6 +10,41 @@ description: "Master Leg Extraction from Leg Knot in BJJ. Systematic technique f
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Leg Extraction from Leg Knot",
+  "description": "Master Leg Extraction from Leg Knot in BJJ. Systematic technique for disengaging from complex leg entanglements to establish dominant Half Guard Top position.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Leg Extraction from Leg Knot", "item": "https://bjjgraph.org/Transitions/Leg-Extraction-from-Leg-Knot" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Leg Extraction from Leg Knot",
+  "description": "Leg Extraction from Leg Knot is the conservative top-game disengagement in which the top player systematically peels the opponent's hooks off their trapped leg — ankle then knee — to exit the leg entanglement and consolidate dominant Half Guard Top.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master Leg Extraction from Leg Knot in BJJ. Systematic technique f
 
 <section id="overview" class="content-section">
 
-Leg Extraction from Leg Knot is a fundamental positional advancement technique where the top player systematically frees their trapped leg from a complex leg entanglement to establish Half Guard Top. Unlike the backstep pass which aims for side control, this extraction focuses on controlled disengagement into a manageable passing position, making it the conservative but reliable option when the leg knot configuration is deteriorating or when the top player wants to exit the leg lock exchange entirely without committing to a dramatic passing movement.
+**Leg Extraction from Leg Knot is the conservative top-game disengagement in which the top player systematically peels the opponent's hooks off their trapped leg — ankle then knee — to exit the leg entanglement and consolidate dominant Half Guard Top.**
+
+Within the leg knot subsystem, the extraction is the disciplined alternative to chasing a finish — rather than forcing a heel hook or committing to a backstep, the top player elects to safely free their trapped leg and bank a known passing platform. Unlike the backstep pass which aims for side control, this extraction focuses on controlled disengagement into a manageable passing position, making it the conservative but reliable option when the leg knot configuration is deteriorating or when the top player wants to exit the leg lock exchange entirely without committing to a dramatic passing movement.
 
 The technique relies on a combination of hip pressure, systematic peel mechanics, and precise timing to strip the opponent's hooks and weaves without creating space for counter-attacks. The key mechanical principle is using forward pressure and weight distribution to flatten the opponent's hip mobility while incrementally freeing the trapped leg segment by segment — ankle first, then knee, then full extraction. This methodical approach contrasts with explosive extraction attempts that often tighten the entanglement or create scramble situations favoring the bottom player.
 
@@ -216,10 +253,6 @@ Leg Extraction from Leg Knot serves as the primary conservative exit from the le
 
 - [[Transitions/Ashi Garami Escape]] - Related disengagement technique from other leg entanglement configurations
 
-- [[Transitions/Leg Extraction from Cross Ashi]] - Similar extraction technique from a different leg entanglement position
-
-- [[Transitions/Leg Extraction from Inside Ashi]] - Related extraction technique sharing core peel mechanics
-
 - [[Transitions/Knee Slice Pass]] - High-percentage follow-up pass from the resulting Half Guard Top
 
 - [[Positions/Ashi Garami/Saddle]] - Deeper entanglement that must be avoided during extraction timing decisions
@@ -228,5 +261,7 @@ Leg Extraction from Leg Knot serves as the primary conservative exit from the le
 
 
 </section>
+
+
 
 </main>

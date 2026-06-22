@@ -10,6 +10,41 @@ description: "Learn the Seat Belt Peel Escape in BJJ. Systematic two-on-one grip
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Seat Belt Peel Escape",
+  "description": "Learn the Seat Belt Peel Escape in BJJ. Systematic two-on-one grip breaking technique from back control bottom to recover half guard with 30% success rate.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Seat Belt Peel Escape", "item": "https://bjjgraph.org/Transitions/Seat-Belt-Peel-Escape" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Seat Belt Peel Escape",
+  "description": "The Seat Belt Peel Escape is a back-control escape in which the bottom player uses two-on-one grip-breaking mechanics to strip the opponent's clasped seat belt hands apart, destroying the diagonal control structure and recovering half guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Learn the Seat Belt Peel Escape in BJJ. Systematic two-on-one grip
 </div>
 
 <section id="overview" class="content-section">
+
+**The Seat Belt Peel Escape is a back-control escape in which the bottom player uses two-on-one grip-breaking mechanics to strip the opponent's clasped seat belt hands apart, destroying the diagonal control structure and recovering half guard.**
 
 The Seat Belt Peel Escape is a fundamental grip-breaking technique executed from the bottom of seat belt back control, targeting the specific hand connection that forms the structural foundation of the opponent's control. Unlike general back escapes that address hooks and body positioning simultaneously, this technique isolates the seat belt grip itself, using systematic two-on-one peeling mechanics to separate the opponent's hands and destroy the diagonal force structure that makes seat belt control so effective. The escape derives its name from the deliberate peeling motion used to strip the opponent's top hand away from their bottom hand, breaking the clasped connection that holds the entire control configuration together.
 
@@ -224,5 +261,7 @@ The Seat Belt Peel Escape integrates into the broader back escape system as a gr
 
 
 </section>
+
+
 
 </main>

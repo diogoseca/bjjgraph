@@ -10,6 +10,41 @@ description: "Master Back Take from Ashi Garami in BJJ. Step-by-step transition 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Back Take from Ashi",
+  "description": "Master Back Take from Ashi Garami in BJJ. Step-by-step transition from leg entanglement to back control with systematic setup and execution.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Back Take from Ashi", "item": "https://bjjgraph.org/Transitions/Back-Take-from-Ashi" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Back Take from Ashi",
+  "description": "Back Take from Ashi is a leg-entanglement transition where the attacker converts Inside Ashi-Garami control into back control by exploiting the opponent's forward weight commitment when they sit up or reach to defend leg attacks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Back Take from Ashi Garami in BJJ. Step-by-step transition 
 </div>
 
 <section id="overview" class="content-section">
+
+**Back Take from Ashi is a leg-entanglement transition where the attacker converts Inside Ashi-Garami control into back control by exploiting the opponent's forward weight commitment when they sit up or reach to defend leg attacks.**
 
 The Back Take from Ashi Garami represents a critical strategic pivot in the modern leg lock game, allowing practitioners to convert leg entanglement control into the most dominant position in Brazilian Jiu-Jitsu. When an opponent successfully defends leg attacks by hiding their heel or creates defensive frames that prevent submission finishes, the back take offers an alternative path to victory that maintains offensive momentum rather than resetting to neutral positions.
 
@@ -214,6 +251,16 @@ The Back Take from Ashi represents a critical branch point in the modern leg loc
 
 - [[Transitions/Armbar from Back Transition]] - Secondary submission option after achieving back control
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Craig-Jones-Leg-Lock-System" data-cta="related-system-card" data-system-slug="systems/craig-jones-leg-lock-system" data-system-name="Craig Jones Leg Lock System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Craig Jones Leg Lock System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Critical transition converting leg entanglement control to back control when opponent successfully defends submissions</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

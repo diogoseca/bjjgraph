@@ -15,6 +15,7 @@
   "application_level": "Fundamental",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
+  "summary": "Posture is the spinal and head alignment that lets a top player generate pressure, pass, and defend submissions; breaking an opponent's posture is the primary offensive priority from every guard.",
   "overview": "Posture represents the fundamental skill of disrupting an opponent's spinal alignment and structural stability from guard positions to create offensive opportunities and prevent defensive capability. Unlike specific techniques, posture breaking is a comprehensive conceptual framework that applies across all guard variations and directly determines success in bottom positions. This concept encompasses the biomechanical understanding that an opponent with broken posture cannot effectively generate passing pressure, defend submissions, or maintain base, making posture breaking the primary offensive priority from guard. Posture breaking serves as both an offensive prerequisite that enables sweeps and submissions, and a defensive mechanism that prevents guard passing by eliminating opponent's pressure capability. The ability to consistently break and maintain broken posture often determines success from guard positions, making it one of the most essential conceptual elements in bottom game development.",
   "key_principles": [
     "Control opponent's head to disrupt spinal alignment and prevent postural recovery",
@@ -378,6 +379,44 @@
       "name": "Action and Reaction",
       "content_type": "Principle",
       "relationship": "Works synergistically with posture breaking to exploit opponent's predictable recovery responses from guard"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What is posture in the context of guard, and why is breaking it the primary offensive priority from the bottom?",
+      "answer": "Posture is the opponent's spinal and head alignment that lets them generate passing pressure and defend submissions. Breaking it is the priority because a posture-broken opponent cannot pass, submit, or maintain stable base, which opens sweeps and submissions."
+    },
+    {
+      "question": "Why does breaking posture with arm strength alone usually fail against a competent opponent?",
+      "answer": "The arms are far weaker than the opponent's legs and core, so isolated arm pulling rapidly fatigues you while they easily maintain alignment. Effective posture breaking integrates leg squeeze, hooks, or frames plus hip angles for genuine mechanical advantage."
+    },
+    {
+      "question": "When is the optimal timing window to break an opponent's posture?",
+      "answer": "During weight shifts, grip changes, or forward movement, when their structure is transitional rather than statically braced. Attacking a settled, braced opponent demands far more energy and produces much lower success rates."
+    },
+    {
+      "question": "Why must broken posture be maintained throughout an offensive sequence rather than released early?",
+      "answer": "If you release posture control mid-technique, the opponent re-postures and defends the sweep or submission. Premature release is a primary reason guard attacks fail despite correct execution, so posture control should be the last thing you release."
+    },
+    {
+      "question": "How does head control contribute to breaking and keeping posture broken?",
+      "answer": "Controlling the head via collar grips, overhooks, or direct placement prevents the opponent from lifting their chin and extending their spine. Removing chin extension eliminates their ability to generate forward pressure and creates immediate submission vulnerability."
+    },
+    {
+      "question": "Why is pulling an opponent straight down often less effective than pulling at an angle?",
+      "answer": "Straight pulling lets the opponent distribute weight across a wide base and stay stable. Combining the pull with hip movement that creates an angle off their centerline produces rotational force that compromises their base and prevents stable posting."
+    },
+    {
+      "question": "How does posture breaking function as a defensive guard-retention tool, not just offense?",
+      "answer": "A posture-broken opponent cannot generate the forward pressure needed to pass. By breaking posture before they establish a passing position, you neutralize passing pressure at its source, making posture breaking simultaneously offense and guard retention."
+    },
+    {
+      "question": "How do posture-breaking mechanics differ between closed guard and spider guard?",
+      "answer": "Closed guard uses a leg squeeze plus collar-and-sleeve grips to pull the opponent forward and down. Spider guard uses foot pressure on the biceps with sleeve grips to extend the arms, removing their ability to bring hands close for postural support."
+    },
+    {
+      "question": "What signals confirm an opponent's posture is sufficiently broken to launch an attack?",
+      "answer": "Their spine is curved forward, their head is below their hips, and they cannot generate forward pressure. These signs indicate the structure is compromised enough that planned sweeps or submissions will not be easily defended."
     }
   ]
 }

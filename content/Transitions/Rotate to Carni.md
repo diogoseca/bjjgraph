@@ -10,6 +10,41 @@ description: "Learn Rotate to Carni from New York in BJJ. Step-by-step rotation 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Rotate to Carni",
+  "description": "Learn Rotate to Carni from New York in BJJ. Step-by-step rotation mechanics to Carni position with omoplata attacks. Complete guide for purple and brown belts.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Rotate to Carni", "item": "https://bjjgraph.org/Transitions/Rotate-to-Carni" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Rotate to Carni",
+  "description": "Rotate to Carni is a 10th Planet Rubber Guard transition where the bottom player swings their hips 90 degrees from New York control to the Carni position, turning the opponent's lateral defensive movement into a shoulder-lock omoplata attack.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Learn Rotate to Carni from New York in BJJ. Step-by-step rotation 
 </div>
 
 <section id="overview" class="content-section">
+
+**Rotate to Carni is a 10th Planet Rubber Guard transition where the bottom player swings their hips 90 degrees from New York control to the Carni position, turning the opponent's lateral defensive movement into a shoulder-lock omoplata attack.**
 
 Rotate to Carni is a critical transition within the 10th Planet Rubber Guard system that converts New York control into the powerful Carni position for omoplata-based attacks. The technique exploits the opponent's compromised posture and trapped arm by initiating a rotational movement that swings the bottom player's hips perpendicular to the opponent, creating the angle necessary for shoulder lock attacks.
 
@@ -218,5 +255,7 @@ Rotate to Carni is a cornerstone transition within the 10th Planet Rubber Guard 
 
 
 </section>
+
+
 
 </main>

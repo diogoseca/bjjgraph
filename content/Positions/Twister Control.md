@@ -10,6 +10,41 @@ description: "Master Twister Control in BJJ. Complete guide covering entries, sp
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Twister Control",
+  "description": "Master Twister Control in BJJ. Complete guide covering entries, spinal rotation mechanics, submission paths, and strategic analysis for advanced practitioners.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Twister Control", "item": "https://bjjgraph.org/Positions/Twister-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Twister Control",
+  "description": "Twister Control is a 10th Planet no-gi position that traps one of the opponent's legs while torquing their spine into rotation, simultaneously exposing the back and opening the twister, leg locks, and neck attacks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Twister Control in BJJ. Complete guide covering entries, sp
 </div>
 
 <section id="overview" class="content-section">
+
+**Twister Control is a 10th Planet no-gi position that traps one of the opponent's legs while torquing their spine into rotation, simultaneously exposing the back and opening the twister, leg locks, and neck attacks.**
 
 Twister Control represents one of Brazilian Jiu-Jitsu's most distinctive control positions, originating from the 10th Planet system and gaining prominence through high-level no-gi competition. This position creates a unique biomechanical dilemma by combining back exposure with spinal rotation, forcing the opponent into an extremely uncomfortable configuration that severely limits their defensive options.
 
@@ -229,6 +266,17 @@ The position's effectiveness scales with skill level and understanding. Beginner
 
 - **[[Positions/Crucifix]]** - Alternative arm control position from similar entries
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Twister-System" data-cta="related-system-card" data-system-slug="systems/twister-system" data-system-name="Twister System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Twister System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Final control position before Twister submission finish</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/10th-Planet-No-Gi-Guard-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-no-gi-guard-system" data-system-name="10th Planet No-Gi Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">10th Planet No-Gi Guard System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Finishing position for signature submission</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

@@ -10,10 +10,55 @@ description: "Master the Suloev Stretch in BJJ. Devastating knee compression sub
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Suloev Stretch from Half Guard targets the Knee joint and calf muscle. Risk: Posterior knee ligament damage (PCL tear or strain). Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Suloev Stretch from Half Guard",
+  "description": "Master the Suloev Stretch in BJJ. Devastating knee compression submission from top half guard and leg control positions. Complete attacker and defender guide.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Suloev Stretch from Half Guard", "item": "https://bjjgraph.org/Submissions/Suloev-Stretch-from-Half-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Suloev Stretch from Half Guard",
+  "description": "The Suloev Stretch from Half Guard is a knee-compression submission where the top player traps the opponent's bent leg in a figure-four and drives the heel toward their buttocks, crushing the calf into the hamstring while loading the posterior knee.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Suloev Stretch from Half Guard is a knee-compression submission where the top player traps the opponent's bent leg in a figure-four and drives the heel toward their buttocks, crushing the calf into the hamstring while loading the posterior knee.**
+<div class="principle-meta">
+<span class="meta-chip">Compression</span>
+<span class="meta-chip">Knee Compression</span>
+<span class="meta-chip">Targets Knee joint and calf muscle</span>
+<span class="meta-chip">60% success</span>
+</div>
+
+> [!danger] Safety
+> Suloev Stretch from Half Guard targets the Knee joint and calf muscle. Primary risk: Posterior knee ligament damage (PCL tear or strain). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -26,55 +71,7 @@ description: "Master the Suloev Stretch in BJJ. Devastating knee compression sub
 
 The Suloev Stretch is a sophisticated knee compression submission that combines elements of both joint manipulation and muscular pressure. Named after Russian MMA fighter Amar Suloev, this technique attacks the posterior knee joint while simultaneously compressing the calf muscle against the hamstring, creating a dual-threat submission that can finish fights rapidly when applied correctly. The position is typically entered from top positions where the attacker has controlled one of the opponent's legs, most commonly from half guard top, knee shield passes, or leg entanglement positions. Unlike traditional straight leg locks that attack the ankle or traditional knee bars that hyperextend the knee joint, the Suloev Stretch creates a bending compression force on the knee while the practitioner's body weight drives the opponent's heel toward their own buttocks. This creates an intense pressure that combines knee joint stress with severe calf muscle compression, often resulting in immediate taps from even experienced grapplers. The technique requires excellent positional control and precise body mechanics, as the finishing pressure comes from hip extension and proper angle creation rather than raw pulling force. Understanding the biomechanics of knee compression and maintaining control throughout the entry and finish are essential for safe and effective application of this powerful submission.
 
-**Category**: Compression
-**Type**: Knee Compression
-**Target Area**: Knee joint and calf muscle
-**Starting Position**: [[Positions/Half Guard]]
-**From Position**: [[Positions/Half Guard]] (Top)
-**Success Rate**: 60%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Posterior knee ligament damage (PCL tear or strain) | High | 6-12 months for complete tear |
-| Calf muscle tear or severe strain | Medium | 4-8 weeks |
-| Meniscus damage from rotational forces | High | 3-6 months depending on severity |
-| Hamstring attachment strain | Medium | 3-6 weeks |
-
-
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum in training, progressive pressure only
-
-**Tap Signals**:
-- Verbal tap (recommended due to position)
-- Multiple rapid hand taps on opponent or mat
-- Foot tap if hands unavailable
-- Any verbal distress signal
-- Immediate physical reaction indicating pain
-
-
-**Release Protocol**:
-1. Immediately stop all forward hip pressure and extension
-2. Release the leg from the figure-four configuration
-3. Allow the leg to extend naturally without forcing
-4. Create space by moving your hips backward
-5. Check partner's condition before continuing training
-
-
-**Training Restrictions**:
-- Never apply competition speed or explosive pressure in training
-- Never spike or jerk the submission - smooth progressive pressure only
-- Never continue pressure after partner taps
-- Never practice on partners with existing knee injuries without explicit permission
-- Always communicate during slow practice to calibrate pressure
-- Always allow clear tap access for training partner
-
+**Starting Position**: [[Positions/Half Guard]] · **From**: [[Positions/Half Guard]] (Top)
 
 </section>
 
@@ -245,10 +242,9 @@ The Suloev Stretch is a sophisticated knee compression submission that combines 
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Transitions/Kneebar]]
 - [[Submissions/Toe Hold]]
 - [[Submissions/Calf Slicer]]
@@ -259,33 +255,57 @@ The Suloev Stretch is a sophisticated knee compression submission that combines 
 - [[Submissions/Banana Split]]
 - [[Submissions/Inside Heel Hook]]
 - [[Submissions/Twister]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Ashi Garami/50-50 Guard]] - Related position - Leg entanglement context where similar compression attacks are available, sharing leg control concepts with the Suloev Stretch
 - [[Positions/Half Guard]] - Primary entry - The most common context for setting up the Suloev Stretch is during half guard passing sequences
 - [[Positions/Leg Entanglement]] - Related concept - Understanding leg entanglement principles helps both entering and defending the Suloev Stretch
 - [[Positions/Half Guard/Knee Shield Half Guard]] - Related transition - Can transition between knee cut passing and Suloev Stretch entries depending on opponent's leg positioning
 - [[Positions/Twister Control/Truck]] - Related position - Similar leg control concepts, both attack from top position with leg configurations
-- [[Transitions/Kneebar]] - Alternative leg attack - Both target the knee joint but through different mechanical approaches
-- [[Submissions/Calf Slicer]] - Closely related submission - Uses similar calf compression principles but with different body positioning
+
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Posterior knee ligament damage (PCL tear or strain) | High | 6-12 months for complete tear |
+| Calf muscle tear or severe strain | Medium | 4-8 weeks |
+| Meniscus damage from rotational forces | High | 3-6 months depending on severity |
+| Hamstring attachment strain | Medium | 3-6 weeks |
+
+
+**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum in training, progressive pressure only
+
+**Tap Signals**:
+- Verbal tap (recommended due to position)
+- Multiple rapid hand taps on opponent or mat
+- Foot tap if hands unavailable
+- Any verbal distress signal
+- Immediate physical reaction indicating pain
+
+
+**Release Protocol**:
+1. Immediately stop all forward hip pressure and extension
+2. Release the leg from the figure-four configuration
+3. Allow the leg to extend naturally without forcing
+4. Create space by moving your hips backward
+5. Check partner's condition before continuing training
+
+
+**Training Restrictions**:
+- Never apply competition speed or explosive pressure in training
+- Never spike or jerk the submission - smooth progressive pressure only
+- Never continue pressure after partner taps
+- Never practice on partners with existing knee injuries without explicit permission
+- Always communicate during slow practice to calibrate pressure
+- Always allow clear tap access for training partner
 
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Suloev Stretch from Half Guard leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

@@ -21,37 +21,37 @@ description: "Master standing position in BJJ. Complete guide covering grips, ta
     {
       "@type": "HowToStep",
       "name": "Execute Pull Guard from Standing",
-      "text": "From this position, attempt Pull Guard from Standing. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Pull Guard from Standing. This technique is attempted in 24% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Standing Guard Pull",
-      "text": "From this position, attempt Standing Guard Pull. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Standing Guard Pull. This technique is attempted in 22% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Guard Pull",
-      "text": "From this position, attempt Butterfly Guard Pull. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Butterfly Guard Pull. This technique is attempted in 18% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Sprawl Defense from Standing",
-      "text": "From this position, attempt Sprawl Defense from Standing. This technique is attempted in 15% of exchanges from this position.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute Arm Drag from Standing",
-      "text": "From this position, attempt Arm Drag from Standing. This technique is attempted in 10% of exchanges from this position.",
-      "position": 5
+      "text": "From this position, attempt Arm Drag from Standing. This technique is attempted in 13% of exchanges from this position.",
+      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Level Change Takedown",
       "text": "From this position, attempt Level Change Takedown. This technique is attempted in 8% of exchanges from this position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Takedown from Bottom",
+      "text": "From this position, attempt Takedown from Bottom. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -372,6 +372,18 @@ Practice multiple guard pull variations from standing engagement, focusing on gr
 - **[[Positions/Back Control]]** - High-value target from standing arm drags and back takes
 - **[[Transitions/Snap Down to Front Headlock]]** - Primary snapdown transition to establish front headlock control
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Danaher-Front-Headlock-System" data-cta="related-system-card" data-system-slug="systems/danaher-front-headlock-system" data-system-name="Danaher Front Headlock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Danaher Front Headlock System</span><span class="system-card__unlocks-badge">Unlocks 30 techniques</span><span class="system-card__blurb">Starting position for snap down and sprawl entries</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Control System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Standing-Defense-Strategy" data-cta="related-system-card" data-system-slug="systems/standing-defense-strategy" data-system-name="Standing Defense Strategy" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Standing Defense Strategy</span><span class="system-card__unlocks-badge">Unlocks 27 techniques</span><span class="system-card__blurb">Primary position where standing defense system is applied</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Marcelo-Garcia-Guillotine-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-guillotine-system" data-system-name="Marcelo Garcia Guillotine System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Marcelo Garcia Guillotine System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Primary entry position for guillotine attacks during clinch exchanges</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

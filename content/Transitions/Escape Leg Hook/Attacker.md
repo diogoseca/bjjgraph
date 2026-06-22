@@ -342,4 +342,6 @@ The Escape Leg Hook is a low-risk defensive technique with minimal injury potent
 
 </section>
 
+
+
 </main>

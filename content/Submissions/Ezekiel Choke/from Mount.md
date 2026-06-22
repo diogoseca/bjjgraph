@@ -10,10 +10,55 @@ description: "Master the Ezekiel Choke from Mount in BJJ. Learn sleeve grip mech
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Ezekiel Choke from Mount targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Ezekiel Choke from Mount",
+  "description": "Master the Ezekiel Choke from Mount in BJJ. Learn sleeve grip mechanics, weight-driven finishing sequences, and defenses against this devastating gi blood choke.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Ezekiel Choke from Mount", "item": "https://bjjgraph.org/Submissions/Ezekiel-Choke-from-Mount" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Ezekiel Choke from Mount",
+  "description": "The Ezekiel Choke from Mount is a gi blood choke where the top player threads a sleeve grip and drives the blade of the free forearm across the opponent's throat, using mount's gravity to compress both carotid arteries.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Ezekiel Choke from Mount is a gi blood choke where the top player threads a sleeve grip and drives the blade of the free forearm across the opponent's throat, using mount's gravity to compress both carotid arteries.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries and trachea</span>
+<span class="meta-chip">58% success</span>
+</div>
+
+> [!danger] Safety
+> Ezekiel Choke from Mount targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,54 +75,7 @@ The technique works by threading four fingers into the opposite sleeve cuff to c
 
 From a strategic perspective, the Ezekiel Choke from Mount fills a critical role in the mount attack system. When opponents defend the cross collar choke by keeping elbows tight and chin tucked, the Ezekiel bypasses these defenses because it attacks through the sleeve rather than requiring collar access. This creates an additional layer in the mount submission dilemma, forcing defenders to address yet another threat vector while already managing armbar, americana, and collar choke attacks.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries and trachea
-**Starting Position**: [[Positions/Mount]]
-**From Position**: [[Positions/Mount]] (Top)
-**Success Rate**: 58%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Carotid artery compression leading to loss of consciousness | High | Immediate recovery if released promptly, potential complications if held too long |
-| Trachea damage from improper blade angle favoring windpipe over arteries | Medium | 1-2 weeks for minor trauma, longer for severe damage |
-| Neck strain from resisting or jerking movements under mount pressure | Low | 3-7 days |
-| Jaw injury from improper forearm placement across the chin rather than throat | Low | 1-2 weeks |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum. Blood chokes should never be spiked or jerked. Apply steady, increasing pressure using body weight through the choking structure and release immediately upon tap.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress vocalization)
-- Physical hand tap on partner or mat (multiple rapid taps)
-- Physical foot tap on mat or partner
-- Any unusual sound or sudden loss of resistance (immediate release required)
-
-
-**Release Protocol**:
-1. Immediately release blade hand grip and sleeve grip upon any tap signal
-2. Remove forearm pressure from neck completely in a smooth controlled motion
-3. Maintain mount position briefly to ensure partner is conscious and oriented
-4. Allow partner to recover without immediate movement requirements or positional scrambles
-5. Check partner's verbal confirmation they are okay before continuing training
-
-
-**Training Restrictions**:
-- Never apply sudden or jerking pressure to the choke - progressive pressure only
-- Never hold the choke after tap signal for any reason
-- Never practice on partners with known neck injuries without explicit medical clearance
-- Never apply full pressure during initial learning phase (use 20-30% pressure maximum)
-- Always ensure partner has clear access to tap with at least one hand
-- Never combine with explosive weight drops or sudden postural changes
-
+**Starting Position**: [[Positions/Mount]] · **From**: [[Positions/Mount]] (Top)
 
 </section>
 
@@ -239,40 +237,59 @@ From a strategic perspective, the Ezekiel Choke from Mount fills a critical role
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
-- [[Americana from Mount]]
+## Related
 - [[Transitions/Arm Triangle]]
-- [[Arm Triangle from High Mount]]
-- [[Americana from High Mount]]
 - [[Submissions/Arm in Guillotine]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Mount]] - Primary position providing dominant control platform for Ezekiel Choke execution
 - [[Positions/Mount/High Mount]] - Advanced mount variation offering alternative angle for sleeve grip entry and choke finish
-- [[Americana from Mount]] - Alternative mount submission creating attack dilemma when defender addresses Ezekiel threat
-- [[Transitions/Arm Triangle]] - Alternative choking submission available when Ezekiel setup is defended and arm position opens
 - [[Positions/Back Control]] - Alternative positional advancement when defender turns away to escape Ezekiel pressure
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Carotid artery compression leading to loss of consciousness | High | Immediate recovery if released promptly, potential complications if held too long |
+| Trachea damage from improper blade angle favoring windpipe over arteries | Medium | 1-2 weeks for minor trauma, longer for severe damage |
+| Neck strain from resisting or jerking movements under mount pressure | Low | 3-7 days |
+| Jaw injury from improper forearm placement across the chin rather than throat | Low | 1-2 weeks |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum. Blood chokes should never be spiked or jerked. Apply steady, increasing pressure using body weight through the choking structure and release immediately upon tap.
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any distress vocalization)
+- Physical hand tap on partner or mat (multiple rapid taps)
+- Physical foot tap on mat or partner
+- Any unusual sound or sudden loss of resistance (immediate release required)
+
+
+**Release Protocol**:
+1. Immediately release blade hand grip and sleeve grip upon any tap signal
+2. Remove forearm pressure from neck completely in a smooth controlled motion
+3. Maintain mount position briefly to ensure partner is conscious and oriented
+4. Allow partner to recover without immediate movement requirements or positional scrambles
+5. Check partner's verbal confirmation they are okay before continuing training
+
+
+**Training Restrictions**:
+- Never apply sudden or jerking pressure to the choke - progressive pressure only
+- Never hold the choke after tap signal for any reason
+- Never practice on partners with known neck injuries without explicit medical clearance
+- Never apply full pressure during initial learning phase (use 20-30% pressure maximum)
+- Always ensure partner has clear access to tap with at least one hand
+- Never combine with explosive weight drops or sudden postural changes
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Ezekiel Choke from Mount leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

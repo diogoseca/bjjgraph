@@ -10,6 +10,41 @@ description: "Master the Leg Drag While Clearing Lapel pass in BJJ. Simultaneous
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Leg Drag While Clearing Lapel",
+  "description": "Master the Leg Drag While Clearing Lapel pass in BJJ. Simultaneous lapel clearing and leg drag technique for passing modern lapel guard systems.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Leg Drag While Clearing Lapel", "item": "https://bjjgraph.org/Transitions/Leg-Drag-While-Clearing-Lapel" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Leg Drag While Clearing Lapel",
+  "description": "Leg Drag While Clearing Lapel is a gi guard pass that strips an opponent's lapel-guard wrap and drags their legs across the body in one motion, converting lapel control directly into dominant leg drag passing position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Leg Drag While Clearing Lapel pass in BJJ. Simultaneous
 </div>
 
 <section id="overview" class="content-section">
+
+**Leg Drag While Clearing Lapel is a gi guard pass that strips an opponent's lapel-guard wrap and drags their legs across the body in one motion, converting lapel control directly into dominant leg drag passing position.**
 
 The Leg Drag While Clearing Lapel is a sophisticated guard passing technique that addresses two critical problems simultaneously: neutralizing the opponent's lapel configuration and establishing dominant passing position. This technique recognizes that attempting to clear lapel grips separately from passing often allows the bottom player to re-establish control during the transition.
 
@@ -220,5 +257,7 @@ The Leg Drag While Clearing Lapel functions as a critical bridge technique in th
 
 
 </section>
+
+
 
 </main>

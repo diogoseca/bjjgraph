@@ -142,20 +142,35 @@ description: "Master connection principles in BJJ. Learn grip management, frame 
 }
 </script>
 
-> Connection Principles is a medium complexity BJJ principle applicable at the Fundamental level. Develop over Beginner to Advanced.
 
-**Application Level**: Fundamental
-**Complexity**: Medium
-**Development Timeline**: Beginner to Advanced
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Connection Principles",
+  "description": "Connection Principles are the framework governing how grips, frames, hooks, and contact points are established, maintained, broken, and chained to control an opponent's body while preserving your own mobility and tactical options.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Fundamental</span>
+<span class="meta-chip">Medium complexity</span>
+<span class="meta-chip">Beginner to Advanced</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
 
-## What is Connection Principles?
+## What are Connection Principles?
 
-Connection Principles constitute one of the most fundamental yet nuanced concepts in Brazilian Jiu-Jitsu, governing how practitioners establish, maintain, and break physical contact points with their opponents. At its core, this concept recognizes that grappling is fundamentally about controlling another person's body through strategic points of contact - connections that can either enable control or create vulnerability depending on their application. Understanding connection principles transforms random grabbing into systematic control, allowing practitioners to dictate their opponent's movement possibilities while preserving their own mobility and options.
+**Connection Principles are the framework governing how grips, frames, hooks, and contact points are established, maintained, broken, and chained to control an opponent's body while preserving your own mobility and tactical options.**
+
+In grappling, every exchange is mediated by points of physical contact, and the difference between a practitioner who controls those points and one who merely grabs at them often decides the outcome. At its core, this concept recognizes that grappling is fundamentally about controlling another person's body through strategic points of contact - connections that can either enable control or create vulnerability depending on their application. Understanding connection principles transforms random grabbing into systematic control, allowing practitioners to dictate their opponent's movement possibilities while preserving their own mobility and options.
 
 The concept operates on multiple levels simultaneously: offensive connections that enable attacks and control, defensive connections that create barriers and preserve space, and neutral connections that establish positional awareness. Every grip, frame, hook, and contact point represents a connection that either enhances or diminishes tactical position. Master grapplers distinguish themselves not through superior strength or flexibility, but through their sophisticated understanding of which connections to establish, which to maintain, which to break, and when to transition between these states. This knowledge allows them to control opponents who may be physically stronger by strategically managing the quality and positioning of connection points.
 
@@ -368,7 +383,7 @@ Sparring sessions with specific connection limitations such as one-arm only, no 
 - **[[Distance Control]]** (Complementary): Distance Control and Connection Principles work together; connections enable control of distance and positioning, while space awareness informs which connections to establish or break
 - **[[Center of Gravity]]** (Complementary): Proper weight distribution enhances connection effectiveness by ensuring grips and frames are supported by skeletal structure rather than muscular tension
 - **[[Posture]]** (Extension): Posture techniques require proper connections to transmit destabilizing forces; connection principles provide the foundation for effective kuzushi and off-balancing application
-- **[[Sleeve Control]]** (Extension): Sleeve Control applies connection principles to specific arm management, using sleeve grips to neutralize opponent's offensive and defensive capabilities through targeted connection dominance
+- **[[Collar Control]]** (Extension): Collar Control applies connection principles to specific collar grips, using lapel and collar connections to dominate posture and set up attacks through targeted connection management
 
 
 ### Related Content
@@ -385,6 +400,22 @@ Sparring sessions with specific connection limitations such as one-arm only, no 
 - [[Grips]] (Principle) - Competitive application of connection principles in establishing grip dominance
 - [[Defensive Concepts]] (Principle) - Defensive counterpart encompassing space-preserving connections and escape frameworks
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Keenan Cornelius Lapel Guard System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Biomechanical foundations explaining why lapel controls create superior leverage</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Standing-Defense-Strategy" data-cta="related-system-card" data-system-slug="systems/standing-defense-strategy" data-system-name="Standing Defense Strategy" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Standing Defense Strategy</span><span class="system-card__unlocks-badge">Unlocks 27 techniques</span><span class="system-card__blurb">Understanding connection and contact principles is essential for recognizing and defending takedown setups</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Caio-Terra-Guard-Retention-System" data-cta="related-system-card" data-system-slug="systems/caio-terra-guard-retention-system" data-system-name="Caio Terra Guard Retention System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Caio Terra Guard Retention System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Critical principle governing grip management and connection breaking during retention battles</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/No-Gi-Tactical-Framework" data-cta="related-system-card" data-system-slug="systems/no-gi-tactical-framework" data-system-name="No-Gi Tactical Framework" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">No-Gi Tactical Framework</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Essential principles governing connection and disconnection in no-gi contexts</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Marcelo-Garcia-X-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-x-guard-system" data-system-name="Marcelo Garcia X-Guard System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Marcelo Garcia X-Guard System</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Governs smooth flow between X-Guard and other positions</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Modern-No-Gi-Passing-System" data-cta="related-system-card" data-system-slug="systems/modern-no-gi-passing-system" data-system-name="Modern No-Gi Passing System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Modern No-Gi Passing System</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Essential skill for managing defensive connections and establishing offensive grips</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Gordon-Ryan-Passing-System" data-cta="related-system-card" data-system-slug="systems/gordon-ryan-passing-system" data-system-name="Gordon Ryan Passing System" data-member-count="17"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Gordon Ryan Passing System</span><span class="system-card__unlocks-badge">Unlocks 17 techniques</span><span class="system-card__blurb">Strategy for managing connections and breaking opponent&#x27;s defensive frames and grips</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

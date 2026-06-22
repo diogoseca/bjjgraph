@@ -10,6 +10,41 @@ description: "Master the knee slide from flattened half guard in BJJ. Step-by-st
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Knee Slide from Flattened Half",
+  "description": "Master the knee slide from flattened half guard in BJJ. Step-by-step passing mechanics, crossface pressure, and hip movement for completing the guard pass.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Knee Slide from Flattened Half", "item": "https://bjjgraph.org/Transitions/Knee-Slide-from-Flattened-Half" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Knee Slide from Flattened Half",
+  "description": "The Knee Slide from Flattened Half Guard is a top-position guard pass that extracts the trapped leg by angling the knee diagonally across the flattened opponent's thigh line while maintaining crushing crossface and chest pressure to reach side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the knee slide from flattened half guard in BJJ. Step-by-st
 
 <section id="overview" class="content-section">
 
-The Knee Slide from Flattened Half Guard is a high-percentage guard pass that capitalizes on the dominant upper body control already established when the bottom player has been flattened. Unlike a standard knee slice from active half guard, this variation begins from a position of significant advantage where the bottom player's frames have been collapsed, their back is flat against the mat, and the top player maintains heavy crossface pressure. The primary technical challenge is extracting the trapped leg while maintaining the pressure that keeps the bottom player immobilized.
+**The Knee Slide from Flattened Half Guard is a top-position guard pass that extracts the trapped leg by angling the knee diagonally across the flattened opponent's thigh line while maintaining crushing crossface and chest pressure to reach side control.**
+
+Within the pressure-passing hierarchy, the Knee Slide from Flattened Half Guard is one of the most direct finishes available once the bottom player has been flattened, capitalizing on the dominant upper body control already established. Unlike a standard knee slice from active half guard, this variation begins from a position of significant advantage where the bottom player's frames have been collapsed, their back is flat against the mat, and the top player maintains heavy crossface pressure. The primary technical challenge is extracting the trapped leg while maintaining the pressure that keeps the bottom player immobilized.
 
 The pass works by creating an angular displacement of the knee across the bottom player's thigh line while driving forward pressure through the crossface and chest. The top player shifts their hips toward the passing side, angles the trapped knee diagonally across the opponent's body, and slides through the gap between the opponent's legs. The critical detail is maintaining chest-to-chest contact throughout the movement. Any lift in pressure during the knee slide gives the bottom player the space they need to re-insert frames, recover knee shield, or initiate hip escapes that can stall or reverse the pass.
 
@@ -220,5 +257,7 @@ The Knee Slide from Flattened Half Guard serves as the primary completion mechan
 
 
 </section>
+
+
 
 </main>

@@ -10,6 +10,41 @@ description: "Master guard recovery from guillotine control in BJJ. Step-by-step
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Guard Recovery from Guillotine Control",
+  "description": "Master guard recovery from guillotine control in BJJ. Step-by-step guide to reestablishing open guard with frames and hip movement after a failed guillotine.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Guard Recovery from Guillotine Control", "item": "https://bjjgraph.org/Transitions/Guard-Recovery-from-Guillotine-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Guard Recovery from Guillotine Control",
+  "description": "Guard Recovery from Guillotine Control is a defensive transition where the bottom player releases a failing guillotine and converts choking grips into leg frames and guard structure before the opponent can capitalize on the freed head to pass.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master guard recovery from guillotine control in BJJ. Step-by-step
 
 <section id="overview" class="content-section">
 
-Guard Recovery from Guillotine Control is a defensive transition where the bottom player works to reestablish an open guard position after losing or releasing the guillotine grip. When the guillotine choke attempt fails or the opponent begins extracting their head, the bottom player must transition from the compromised guillotine control into a functional guard to prevent the opponent from passing. This recovery requires coordinating the release of head control with immediate leg reattachment and frame establishment to maintain distance and prevent positional advancement.
+**Guard Recovery from Guillotine Control is a defensive transition where the bottom player releases a failing guillotine and converts choking grips into leg frames and guard structure before the opponent can capitalize on the freed head to pass.**
+
+This recovery sits at a decisive crossroads in the bottom game, where a collapsing submission attempt must be converted into renewed positional safety before momentum swings to the passer. When the guillotine choke attempt fails or the opponent begins extracting their head, the bottom player must transition from the compromised guillotine control into a functional guard to prevent the opponent from passing. This recovery requires coordinating the release of head control with immediate leg reattachment and frame establishment to maintain distance and prevent positional advancement.
 
 The transition is fundamentally a race condition: the bottom player must convert choking grips into guard-retention structures faster than the top player can capitalize on the freed head to initiate passing. The grip transition window—typically one to two seconds—determines whether the exchange resolves into a functional open guard or a completed guard pass to side control. Successful execution demands that leg barriers be established before the guillotine is released, ensuring continuous distance management while the hands switch roles from offense to defense.
 
@@ -210,8 +247,6 @@ Guard Recovery from Guillotine Control occupies a critical junction in the botto
 
 - [[Positions/Front Headlock]] - Related control position the opponent may transition to when extracting from guillotine
 
-- [[Transitions/Guillotine Defense]] - Opponent's technique for escaping the guillotine that triggers the need for guard recovery
-
 - [[Transitions/Guillotine Escape via Posture]] - Common escape method that creates the posture break requiring guard recomposition
 
 - [[Positions/Butterfly Guard]] - Alternative guard recovery option using butterfly hooks when opponent stays close
@@ -220,5 +255,7 @@ Guard Recovery from Guillotine Control occupies a critical junction in the botto
 
 
 </section>
+
+
 
 </main>

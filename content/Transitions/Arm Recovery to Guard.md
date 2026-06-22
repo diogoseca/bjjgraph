@@ -10,6 +10,41 @@ description: "Learn Arm Recovery to Guard from Kuzure Kesa-Gatame bottom. Step-b
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Arm Recovery to Guard",
+  "description": "Learn Arm Recovery to Guard from Kuzure Kesa-Gatame bottom. Step-by-step arm extraction to re-guard. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Arm Recovery to Guard", "item": "https://bjjgraph.org/Transitions/Arm-Recovery-to-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Arm Recovery to Guard",
+  "description": "Arm Recovery to Guard is a defensive transition from Kuzure Kesa-Gatame bottom that extracts the trapped arm through internal shoulder rotation, a frame, and a perpendicular bridge to recover Closed Guard or Half Guard with both arms free.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Learn Arm Recovery to Guard from Kuzure Kesa-Gatame bottom. Step-b
 </div>
 
 <section id="overview" class="content-section">
+
+**Arm Recovery to Guard is a defensive transition from Kuzure Kesa-Gatame bottom that extracts the trapped arm through internal shoulder rotation, a frame, and a perpendicular bridge to recover Closed Guard or Half Guard with both arms free.**
 
 Arm Recovery to Guard is the critical defensive transition from Kuzure Kesa-Gatame bottom that addresses the position's primary problem: the trapped arm. Unlike escapes that work around the arm isolation (such as the Granby Roll to Turtle), this technique directly solves the trapped arm by extracting it through precise shoulder rotation, frame creation, and hip movement to recover a guard position. The technique transforms a severely disadvantaged pin into an active guard where offensive options become available.
 
@@ -217,12 +254,23 @@ Arm Recovery to Guard is one of the primary escape transitions from Kuzure Kesa-
 
 - [[Positions/Armbar Control]] - Counter risk—opponent may transition to armbar during failed extraction
 
-- [[Submissions/Americana]] - Opponent's submission threat that creates the timing window for extraction
+- [[Americana from Kuzure Kesa-Gatame]] - Opponent's submission threat that creates the timing window for extraction
 
 - [[Positions/Half Guard/Knee Shield Half Guard]] - Intermediate recovery position when Closed Guard is not reachable
 
 - [[Positions/Side Control/Kesa Gatame]] - Related parent position with similar but distinct arm control dynamics
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Caio-Terra-Guard-Retention-System" data-cta="related-system-card" data-system-slug="systems/caio-terra-guard-retention-system" data-system-name="Caio Terra Guard Retention System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Caio Terra Guard Retention System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Core recovery transition for re-establishing guard structure after partial pass attempts</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Back-Defense-Protocol" data-cta="related-system-card" data-system-slug="systems/back-defense-protocol" data-system-name="Back Defense Protocol" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Back Defense Protocol</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Final phase of escape protocol returning to guard position</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

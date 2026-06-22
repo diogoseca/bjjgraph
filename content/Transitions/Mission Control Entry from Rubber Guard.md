@@ -10,6 +10,41 @@ description: "Master Mission Control entry from Rubber Guard in BJJ. Learn grip 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Mission Control Entry from Rubber Guard",
+  "description": "Master Mission Control entry from Rubber Guard in BJJ. Learn grip transitions, hip elevation mechanics, and timing to secure this dominant 10th Planet position.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Mission Control Entry from Rubber Guard", "item": "https://bjjgraph.org/Transitions/Mission-Control-Entry-from-Rubber-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Mission Control Entry from Rubber Guard",
+  "description": "Mission Control Entry from Rubber Guard is the 10th Planet transition where the bottom player threads the overhook arm under their own elevated shin and locks the grip, converting basic rubber guard into the shoulder-isolating Mission Control control position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master Mission Control entry from Rubber Guard in BJJ. Learn grip 
 
 <section id="overview" class="content-section">
 
-The Mission Control Entry from Rubber Guard is the critical positional advancement within the 10th Planet system that converts basic rubber guard control into the locked Mission Control configuration. This transition occurs when the bottom player, having already established rubber guard with their leg threaded high across the opponent's back, secures their own shin or ankle with the same-side hand while maintaining aggressive posture control. The resulting Mission Control position creates severe shoulder isolation and opens systematic submission chains including triangles, omoplatas, and gogoplatas.
+**Mission Control Entry from Rubber Guard is the 10th Planet transition where the bottom player threads the overhook arm under their own elevated shin and locks the grip, converting basic rubber guard into the shoulder-isolating Mission Control control position.**
+
+Within the 10th Planet rubber guard hierarchy, this entry is the structural lock that separates a player merely holding high guard from one operating a full submission platform. The transition occurs when the bottom player, having already established rubber guard with their leg threaded high across the opponent's back, secures their own shin or ankle with the same-side hand while maintaining aggressive posture control. The resulting Mission Control position creates severe shoulder isolation and opens systematic submission chains including triangles, omoplatas, and gogoplatas.
 
 The mechanical challenge of this transition centers on the grip switch: the bottom player must release one point of control (typically the head grip or wrist control) to reach under their elevated leg and secure the shin, creating a momentary vulnerability window. During this grip transition, the opponent has their best opportunity to recover posture or extract the trapped arm. Successful execution requires precise timing, sufficient hip elevation to create space for the arm to thread under the leg, and the ability to maintain posture control with the remaining grip throughout the switch.
 
@@ -204,8 +241,6 @@ Mission Control Entry from Rubber Guard sits at the critical junction between ba
 
 - [[Positions/Closed Guard]] - Base position from which rubber guard is originally entered before this transition
 
-- [[Transitions/High Guard to Rubber Guard]] - Preceding transition in the system that establishes the rubber guard needed for this entry
-
 - [[Transitions/New York Entry from Rubber Guard]] - Alternative advancement from rubber guard bypassing Mission Control for direct New York entry
 
 - [[Transitions/Crackhead Control Entry]] - Alternative rubber guard advancement option when Mission Control entry is defended
@@ -222,5 +257,7 @@ Mission Control Entry from Rubber Guard sits at the critical junction between ba
 
 
 </section>
+
+
 
 </main>

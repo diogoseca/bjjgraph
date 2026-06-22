@@ -253,7 +253,7 @@ Learn why early defense in BJJ is far more effective than late escapes. Discover
 
 ### [[Probabilistic Thinking]]
 
-Learn how to play the percentages in BJJ by choosing high-probability techniques, assessing risk and reward, and making smarter decisions on the mat through probabilistic thinking.
+Learn probabilistic thinking in BJJ: choose high-percentage techniques, weigh risk against reward, and make smarter decisions on the mat under match pressure.
 
 ### [[Static vs Dynamic Control]]
 

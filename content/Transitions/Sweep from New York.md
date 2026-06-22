@@ -10,6 +10,41 @@ description: "Master the Sweep from New York in BJJ's Rubber Guard system. Compl
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Sweep from New York",
+  "description": "Master the Sweep from New York in BJJ\u0027s Rubber Guard system. Complete guide to hip bump mechanics, overhook leverage, and mount acquisition from 10th Planet control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Sweep from New York", "item": "https://bjjgraph.org/Transitions/Sweep-from-New-York" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Sweep from New York",
+  "description": "The Sweep from New York is a 10th Planet Rubber Guard reversal where the bottom player times an angled hip bump against the overhook-and-shin control to roll a posturing opponent over and claim mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Sweep from New York in BJJ's Rubber Guard system. Compl
 </div>
 
 <section id="overview" class="content-section">
+
+**The Sweep from New York is a 10th Planet Rubber Guard reversal where the bottom player times an angled hip bump against the overhook-and-shin control to roll a posturing opponent over and claim mount.**
 
 The Sweep from New York is a high-percentage reversal within 10th Planet's Rubber Guard system that converts the bottom player's overhook-and-shin control into a direct path to mount. The sweep exploits the structural asymmetry created by New York control: one of the opponent's arms is completely trapped in an overhook, their posture is broken forward by the shin across their back, and their base is already compromised on the trapped-arm side. This creates an ideal platform for a modified hip bump that the opponent cannot post against because their primary posting arm is neutralized.
 
@@ -208,11 +245,11 @@ The Sweep from New York occupies a critical branch point in the Rubber Guard att
 
 - [[Positions/Rubber Guard/Mission Control]] - Primary entry point to New York from which sweep becomes available
 
-- [[Transitions/Rubber Guard Sweep]] - Related sweep from earlier in the Rubber Guard progression with similar mechanics
+- [[Transitions/Hip Bump Sweep]] - Related sweep sharing the same angled-bridge hip bump mechanics from the broader closed/rubber guard family
 
-- [[Transitions/New York Entry from Rubber Guard]] - Transition that establishes New York position before sweep attempt
+- [[Transitions/Armbar from New York]] - Alternative attack from New York that combines with the sweep to create a sweep-or-submit dilemma
 
-- [[Transitions/New York Control to Invisible Collar]] - Alternative attacking path from New York creating sweep-or-submit dilemma
+- [[Positions/Rubber Guard/Carni]] - Omoplata-focused attacking position reached by rotating from New York, an alternative to attempting the sweep
 
 - [[Positions/Rubber Guard/Invisible Collar]] - Advanced attacking position accessible if sweep is not attempted
 
@@ -220,5 +257,7 @@ The Sweep from New York occupies a critical branch point in the Rubber Guard att
 
 
 </section>
+
+
 
 </main>

@@ -4,7 +4,7 @@
 
 ---
 title: "Rolling Kimura Attacker | BJJ Technique Guide | BJJ Graph"
-description: "How to execute the Rolling Kimura in BJJ. Attacking perspective with setup, execution steps, counters, and training progressions from turtle top."
+description: "How to execute the Rolling Kimura in BJJ. Attacking perspective with setup, execution steps, counters, and training progressions from Kimura Trap bottom."
 ---
 
 
@@ -20,44 +20,44 @@ description: "How to execute the Rolling Kimura in BJJ. Attacking perspective wi
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Secure kimura grip",
-      "text": "From top turtle position, reach over the opponent's back and secure a kimura grip on their far arm. Your same-side hand grips their wrist while your opposite hand threads under their arm and grabs your own wrist, creating the figure-four kimura configuration. Ensure the grip is tight and positioned at or above their elbow for maximum rotational control over the shoulder joint.",
+      "name": "Secure and deepen the kimura grip",
+      "text": "From half guard or Kimura Trap bottom, lock the figure-four on the opponent's arm: your near hand grips their wrist while your other hand threads under their arm and clamps your own wrist. Slide the grip up toward their elbow so the lock controls the shoulder joint, not just the hand, and pin their trapped wrist toward their own back to pre-load the rotation.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Break down posture and isolate the arm",
-      "text": "Pull the trapped arm away from the opponent's body at approximately a 90-degree angle while driving your chest weight into their back. This breaks their base and prevents them from posting effectively with their free hand. Your head should be positioned near their far hip, creating downward pressure that pins their upper body and limits their ability to resist the upcoming rotation.",
+      "name": "Read the weight and bait the drive",
+      "text": "Keep your elbows tight and your hips live, threatening the shoulder lock just enough that the opponent reacts. The roll needs their weight moving toward you, so either wait for them to posture and drive forward to flatten you, or bump your hips to provoke that forward pressure. Initiating against a settled, wide base wastes the roll and stalls you in a stuck position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Position body perpendicular for the roll",
-      "text": "Adjust your body position so you are perpendicular to the opponent, with your hips near their trapped arm's shoulder. Your inside leg closest to the opponent should be ready to post for stability, while your outside leg prepares to initiate the rolling motion by swinging over. Maintain constant tension on the kimura grip throughout this repositioning phase to prevent any arm recovery.",
+      "name": "Turn to your side and set the rolling angle",
+      "text": "As they bring weight forward, turn onto the shoulder of your trapped-arm side and tuck that shoulder under, creating the diagonal axis you will roll across. Bring your knees toward your chest to compact your body so the rotation is tight and fast rather than long and slow, keeping the figure-four glued to your sternum the whole time.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Initiate the roll with leg drive",
-      "text": "In one fluid motion, throw your outside leg over your own head while simultaneously pulling the kimura grip toward your chest. Roll diagonally over your outside shoulder at approximately a 45-degree angle, keeping your hips close to the opponent's body throughout the rotation. Your momentum should pull the opponent's upper body with you through the connected kimura grip, forcing them to rotate or accept shoulder damage.",
+      "name": "Initiate the roll, pulling the shoulder under",
+      "text": "Drive off your feet and roll diagonally over your tucked shoulder, pulling the kimura grip tight to your chest so the opponent's trapped shoulder leads the rotation. Their loaded arm forces their upper body to follow you over the top: they either roll or take shoulder damage. Stay compact and keep the grip locked so the loaded joint does the steering.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Maintain control during rotation",
-      "text": "As you roll, keep the kimura grip tight and pull the opponent's trapped arm across their body. Your body should rotate completely while maintaining physical connection to the opponent's torso. Drive your near-side elbow to the mat to guide the roll direction and maintain balance. The opponent is forced to follow your rotation due to the submission pressure on their shoulder joint throughout the movement.",
+      "name": "Stay connected and surface on top",
+      "text": "Throughout the roll keep your chest and hips wrapped to the opponent so you come up on top of them, not beside them. Use your free hand to post and steer the rotation and to stop them sliding off your hips. The goal is to surface chest-to-back, having rolled them over rather than spinning yourself away into open space.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Read opponent's reaction and select finish",
-      "text": "As the roll completes, immediately assess the opponent's body position and defensive response. If their back is exposed, prepare to insert hooks for back control. If their far arm is available for trapping, set up the crucifix entry. If the kimura grip remains dominant and their arm is behind their back, begin applying rotational pressure to finish the shoulder lock directly. Your choice depends on which opening the opponent has given you.",
+      "name": "Read the landing and choose the finish",
+      "text": "As you come up, assess what the opponent gave you. If their back is exposed, drive to back control and prepare your hooks. If their free arm is within reach of your legs, trap it for the crucifix. If the grip is still dominant with their arm behind their back, settle into top kimura trap and hunt the finish. The opening they leave dictates the choice you committed to before rolling.",
       "position": 6
     },
     {
       "@type": "HowToStep",
-      "name": "Secure finishing position and consolidate",
-      "text": "Immediately consolidate your chosen position without hesitation. For back control, insert both hooks and establish seat belt grip with chest-to-back connection. For crucifix, trap the free arm between your legs while maintaining the kimura grip. For kimura finish, drive your hips toward their shoulder while rotating the trapped arm behind their back. Speed of consolidation during this transition moment determines whether you maintain your advantage or the opponent escapes.",
+      "name": "Consolidate the position immediately",
+      "text": "Lock down your chosen finish without pausing. For back control, secure the seatbelt and both hooks with chest-to-back pressure. For crucifix, pin the free arm between your legs while keeping the kimura. For the top kimura, walk your hips toward their head and rotate the arm to finish. Speed here decides whether you keep the advantage or let them scramble out during the transition.",
       "position": 7
     }
   ],
@@ -74,50 +74,50 @@ description: "How to execute the Rolling Kimura in BJJ. Attacking perspective wi
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary mechanical advantage of the rolling motion in the Rolling Kimura technique?",
+      "name": "When is the optimal moment to initiate the Rolling Kimura from Kimura Trap bottom?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The rolling motion uses your entire body weight and rotational momentum to amplify the leverage on the opponent's shoulder joint, making it far more effective than relying on arm strength alone. The rotation also creates a dynamic situation where the opponent must move with you or risk serious shoulder injury, limiting their defensive options while simultaneously advancing your position toward back control or submission finish."
+        "text": "Roll when the opponent brings their weight toward you, as they posture up and drive forward to flatten you, or as they fight to extract the trapped arm. That incoming pressure is the momentum you redirect. Initiating against a settled, wide base gives you nothing to roll on, so bait the drive or wait for it rather than forcing the rotation into a heavy, balanced opponent."
       }
     },
     {
       "@type": "Question",
-      "name": "Why is it critical to maintain hip connection to the opponent's body throughout the rolling kimura?",
+      "name": "What grip detail most determines whether the roll succeeds, and where should it sit?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Maintaining hip connection ensures that you and the opponent move as a single unit during the roll, preventing them from escaping the kimura grip or creating distance. If your hips separate from their body during the rotation, they can use the space to extract their arm, defend the submission, or potentially reverse the position. The hip connection transforms this from an isolated arm lock attempt into a full-body control technique."
+        "text": "The figure-four must sit deep at the opponent's elbow, not their wrist, with their trapped wrist pinned toward their own back. A shallow wrist grip lets the arm straighten and slip during rotation, killing both the sweep and the submission. The elbow-deep lock controls the shoulder joint itself, so the loaded shoulder leads the roll and drags the opponent's upper body over the top with you."
       }
     },
     {
       "@type": "Question",
-      "name": "Your opponent grabs their own belt with both hands to defend the arm isolation. How do you break this grip and continue the attack?",
+      "name": "Which direction do you roll, and why does the diagonal angle matter?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Use your body weight rather than arm strength to break the defensive grip. Drive your chest into their back while peeling the trapped arm away from their body using the kimura configuration as a lever. If the grip persists, switch tactics by trapping their gripping arm between your legs to establish crucifix position, or circle to attack the near arm instead. You can also use a push-pull motion where you briefly push their arm toward their body then explosively pull it away when they relax their grip."
+        "text": "Tuck your trapped-side shoulder and roll diagonally across it at roughly a 45-degree angle rather than straight backward. The diagonal axis loads the shoulder joint progressively through the arc and keeps your body wrapped tight to the opponent, preserving the chest and hip connection that sweeps them over you. A flat backward roll produces weak, slow leverage and hands the opponent time to strip the grip or base out."
       }
     },
     {
       "@type": "Question",
-      "name": "What is the correct timing to initiate the Rolling Kimura?",
+      "name": "What is the single most common reason a Rolling Kimura dumps the attacker onto the bottom?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The optimal timing is when the opponent is stationary and defensive in turtle position, with their weight settled and their base established but not actively mobile. Avoid initiating the roll when they are already moving, standing, or turning, as their momentum will work against your technique. The best moment is immediately after breaking their posture by pulling the trapped arm away from their body, when they are most unstable and committed to defending their arm rather than their position."
+        "text": "Rolling away from the opponent instead of rolling them over you. If your hips and chest separate from their body during the rotation, you spin out underneath them and surface on the bottom, often in their guard. Keep your chest and hips wrapped around the opponent the entire time so you roll around and over them, taking them with you rather than vacating the space they fall into."
       }
     },
     {
       "@type": "Question",
-      "name": "Your roll completes but you land with the opponent facing you rather than exposing their back. What finishing option do you pursue?",
+      "name": "Your opponent widens their base and posts a heavy far leg to refuse the roll. What do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "If the opponent turns to face you during the roll, maintain the kimura grip and transition to finishing the kimura submission directly from the top position. Drive your hips toward their shoulder while rotating the trapped arm behind their back. Alternatively, if they are on their side, use the kimura grip to sweep them flat and transition to side control with the kimura trap maintained, which gives you a dominant control position with multiple submission options available."
+        "text": "Do not fight a strong base with the rotation. Their wide base exposes the far ankle, so hook it and convert the kimura grip into an Old School sweep up to the top, or shift your hips to chase the back take instead. The Rolling Kimura is one branch of the Kimura Trap system, so when the roll is walled off, the same grip feeds the sweep and back-take branches: flow to whichever the opponent's reaction opens."
       }
     },
     {
       "@type": "Question",
-      "name": "Why is the Rolling Kimura considered a dilemma technique in modern BJJ?",
+      "name": "The opponent counter-rolls with your momentum and threatens to come up on top. How do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The Rolling Kimura creates a true dilemma because the opponent must simultaneously defend both a dangerous shoulder lock submission and prevent a major positional advancement to back control. If they focus entirely on defending the submission by keeping their arm close, they make the positional advancement easier because their base weakens. If they focus on preventing the back take by turning into you, they expose their shoulder to greater submission danger. This dual-threat nature makes the technique effective even when the opponent knows it is coming."
+        "text": "Never let go of the figure-four. Ride their counter-roll and finish the kimura from wherever you land, since you frequently surface in a top kimura trap anyway. If they overcommit and roll past neutral, release the figure-four and extend the arm into an armbar as they pass. The grip keeps you dangerous regardless of which way the roll resolves, so the cardinal rule is to keep it locked."
       }
     }
   ]
@@ -130,7 +130,7 @@ description: "How to execute the Rolling Kimura in BJJ. Attacking perspective wi
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Rolling Kimura Attacker",
-  "description": "How to execute the Rolling Kimura in BJJ. Attacking perspective with setup, execution steps, counters, and training progressions from turtle top.",
+  "description": "How to execute the Rolling Kimura in BJJ. Attacking perspective with setup, execution steps, counters, and training progressions from Kimura Trap bottom.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -178,9 +178,7 @@ description: "How to execute the Rolling Kimura in BJJ. Attacking perspective wi
 
 <section id="overview" class="content-section">
 
-The Rolling Kimura from turtle top combines sweeping mechanics with submission threats to create one of the most effective dynamic attacks in modern grappling. The technique uses a secured kimura grip as the control mechanism while your body generates a rolling motion that forces the opponent to follow or risk immediate shoulder damage. The beauty of this technique lies in its dual-threat nature: the opponent must defend both positional advancement toward back control and the kimura submission itself, creating a dilemma that is extremely difficult to solve under pressure.
-
-The rolling motion amplifies your leverage far beyond what arm strength alone produces, making this technique effective against larger opponents when executed with proper timing. The key mechanical insight is that your entire body weight drives the rotation through the opponent's trapped shoulder, while their defensive options are limited by the figure-four grip configuration. When the roll completes successfully, you land in either back control with hooks available, kimura trap control for direct submission, or crucifix position with both arms trapped. Each finishing position represents a significant positional advantage that chains into high-percentage submissions.
+The Rolling Kimura from Kimura Trap bottom converts the figure-four grip into a dynamic sweep and back-take engine. Rather than waiting to finish a static shoulder lock, you use the opponent's posture and forward pressure against them: as they drive in or fight to free the arm, you roll through the trapped shoulder, dragging their upper body over the top while the kimura stays loaded. The dual threat is what makes it so hard to stop, because every honest answer to the submission helps the sweep and every honest answer to the sweep endangers the shoulder. A clean roll lands you in back control with hooks available, in a top kimura trap with the grip intact, or, at worst, in a neutral turtle scramble on top rather than stuck on the bottom. The rolling momentum multiplies your leverage, so the technique stays effective against bigger, stronger opponents when your timing and connection are right.
 
 **From Position**: [[Positions/Kimura Trap]] (Bottom)
 
@@ -192,13 +190,13 @@ The rolling motion amplifies your leverage far beyond what arm strength alone pr
 
 <p class="section-subtitle">What are the key principles for executing Rolling Kimura?</p>
 
-- Establish dominant kimura grip before initiating the roll to maintain control throughout the entire movement
-- Use body weight and rotational momentum during the roll rather than relying on arm strength alone
-- Keep hips close to the opponent's body throughout the rotation to prevent separation and escape opportunities
-- Maintain continuous shoulder pressure through the kimura grip to limit defensive options
-- Time the roll when opponent is defensive and stationary rather than actively mobile or standing
-- Stay connected to the opponent's body throughout the transition so you move together as one unit
-- Anticipate opponent's reactions and be prepared to chain to crucifix, back take, or submission finish based on their response
+- Secure a deep figure-four near the opponent's elbow before committing to the roll, because a shallow wrist grip slips during rotation and surrenders the sweep
+- Let the opponent's forward pressure power the roll; you supply the timing and direction, not raw strength
+- Keep your hips and chest connected to the opponent throughout the rotation so you sweep them with you instead of rolling away underneath them
+- Maintain constant shoulder pressure through the grip so every defensive choice feeds either the sweep or the submission
+- Initiate the roll when the opponent drives in or postures, not when they are settled and based wide; read their weight before you commit
+- Have your finish chosen before you roll: back control, top kimura trap, or crucifix, based on what their free arm and base are doing
+- Consolidate the instant the roll completes, because the transition window is where the position is won or lost
 
 
 </section>
@@ -209,12 +207,12 @@ The rolling motion amplifies your leverage far beyond what arm strength alone pr
 
 <p class="section-subtitle">What do you need before attempting Rolling Kimura?</p>
 
-- Opponent must be in defensive turtle position with you positioned on top or to the side
-- Clear access to one of the opponent's arms, typically the far arm, for kimura grip establishment
-- Ability to establish and maintain kimura grip configuration with figure-four on the arm
-- Positional dominance with opponent not actively escaping or in the process of standing up
-- Enough mat space to execute the rolling motion without environmental obstacles
-- Strong base and balance to initiate the rolling motion without losing control of the grip
+- A secured figure-four kimura grip on one of the opponent's arms from half guard bottom, Kimura Trap bottom, or a scramble
+- Control of the trapped arm near the elbow so the rotation loads the shoulder rather than just the wrist
+- Mobile hips that are not flattened, allowing you to turn and initiate the rotation
+- An opponent who is posting, posturing, or driving forward so the connection has momentum to redirect
+- Enough mat space to complete a full roll without hitting an obstacle or the cage
+- A free hand or framing leg ready to control the opponent's far side or block their counter-roll
 
 
 </section>
@@ -225,13 +223,13 @@ The rolling motion amplifies your leverage far beyond what arm strength alone pr
 
 <p class="section-subtitle">How do you execute Rolling Kimura step by step?</p>
 
-1. **Secure kimura grip**: From top turtle position, reach over the opponent's back and secure a kimura grip on their far arm. Your same-side hand grips their wrist while your opposite hand threads under their arm and grabs your own wrist, creating the figure-four kimura configuration. Ensure the grip is tight and positioned at or above their elbow for maximum rotational control over the shoulder joint.
-2. **Break down posture and isolate the arm**: Pull the trapped arm away from the opponent's body at approximately a 90-degree angle while driving your chest weight into their back. This breaks their base and prevents them from posting effectively with their free hand. Your head should be positioned near their far hip, creating downward pressure that pins their upper body and limits their ability to resist the upcoming rotation.
-3. **Position body perpendicular for the roll**: Adjust your body position so you are perpendicular to the opponent, with your hips near their trapped arm's shoulder. Your inside leg closest to the opponent should be ready to post for stability, while your outside leg prepares to initiate the rolling motion by swinging over. Maintain constant tension on the kimura grip throughout this repositioning phase to prevent any arm recovery.
-4. **Initiate the roll with leg drive**: In one fluid motion, throw your outside leg over your own head while simultaneously pulling the kimura grip toward your chest. Roll diagonally over your outside shoulder at approximately a 45-degree angle, keeping your hips close to the opponent's body throughout the rotation. Your momentum should pull the opponent's upper body with you through the connected kimura grip, forcing them to rotate or accept shoulder damage.
-5. **Maintain control during rotation**: As you roll, keep the kimura grip tight and pull the opponent's trapped arm across their body. Your body should rotate completely while maintaining physical connection to the opponent's torso. Drive your near-side elbow to the mat to guide the roll direction and maintain balance. The opponent is forced to follow your rotation due to the submission pressure on their shoulder joint throughout the movement.
-6. **Read opponent's reaction and select finish**: As the roll completes, immediately assess the opponent's body position and defensive response. If their back is exposed, prepare to insert hooks for back control. If their far arm is available for trapping, set up the crucifix entry. If the kimura grip remains dominant and their arm is behind their back, begin applying rotational pressure to finish the shoulder lock directly. Your choice depends on which opening the opponent has given you.
-7. **Secure finishing position and consolidate**: Immediately consolidate your chosen position without hesitation. For back control, insert both hooks and establish seat belt grip with chest-to-back connection. For crucifix, trap the free arm between your legs while maintaining the kimura grip. For kimura finish, drive your hips toward their shoulder while rotating the trapped arm behind their back. Speed of consolidation during this transition moment determines whether you maintain your advantage or the opponent escapes.
+1. **Secure and deepen the kimura grip**: From half guard or Kimura Trap bottom, lock the figure-four on the opponent's arm: your near hand grips their wrist while your other hand threads under their arm and clamps your own wrist. Slide the grip up toward their elbow so the lock controls the shoulder joint, not just the hand, and pin their trapped wrist toward their own back to pre-load the rotation.
+2. **Read the weight and bait the drive**: Keep your elbows tight and your hips live, threatening the shoulder lock just enough that the opponent reacts. The roll needs their weight moving toward you, so either wait for them to posture and drive forward to flatten you, or bump your hips to provoke that forward pressure. Initiating against a settled, wide base wastes the roll and stalls you in a stuck position.
+3. **Turn to your side and set the rolling angle**: As they bring weight forward, turn onto the shoulder of your trapped-arm side and tuck that shoulder under, creating the diagonal axis you will roll across. Bring your knees toward your chest to compact your body so the rotation is tight and fast rather than long and slow, keeping the figure-four glued to your sternum the whole time.
+4. **Initiate the roll, pulling the shoulder under**: Drive off your feet and roll diagonally over your tucked shoulder, pulling the kimura grip tight to your chest so the opponent's trapped shoulder leads the rotation. Their loaded arm forces their upper body to follow you over the top: they either roll or take shoulder damage. Stay compact and keep the grip locked so the loaded joint does the steering.
+5. **Stay connected and surface on top**: Throughout the roll keep your chest and hips wrapped to the opponent so you come up on top of them, not beside them. Use your free hand to post and steer the rotation and to stop them sliding off your hips. The goal is to surface chest-to-back, having rolled them over rather than spinning yourself away into open space.
+6. **Read the landing and choose the finish**: As you come up, assess what the opponent gave you. If their back is exposed, drive to back control and prepare your hooks. If their free arm is within reach of your legs, trap it for the crucifix. If the grip is still dominant with their arm behind their back, settle into top kimura trap and hunt the finish. The opening they leave dictates the choice you committed to before rolling.
+7. **Consolidate the position immediately**: Lock down your chosen finish without pausing. For back control, secure the seatbelt and both hooks with chest-to-back pressure. For crucifix, pin the free arm between your legs while keeping the kimura. For the top kimura, walk your hips toward their head and rotate the arm to finish. Speed here decides whether you keep the advantage or let them scramble out during the transition.
 
 
 </section>
@@ -256,11 +254,11 @@ The rolling motion amplifies your leverage far beyond what arm strength alone pr
 
 <p class="section-subtitle">How might your opponent counter Rolling Kimura?</p>
 
-- **Opponent grabs their own belt or pants to prevent arm isolation** (Effectiveness: Medium) - Your Response: Break the grip by using your body weight to pry the arm away while posting with your free hand. Alternatively, switch to attacking the near arm or transition to crucifix entry by trapping the gripping arm between your legs. → Leads to [[Positions/Turtle]]
-- **Opponent rolls with you to prevent the sweep and recover guard** (Effectiveness: High) - Your Response: Maintain the kimura grip throughout their counter-roll and use their momentum to establish the submission finish from top position. If they overcommit to the counter-roll, transition to armbar by extending their arm as they rotate past neutral. → Leads to [[Positions/Turtle]]
-- **Opponent postures up and stands to escape the roll** (Effectiveness: Medium) - Your Response: If they stand before you commit to the roll, abandon the rolling kimura and transition to standing back take or single leg takedown using the kimura grip to control their posture and break their balance forward. → Leads to [[Positions/Turtle]]
-- **Opponent drops their trapped shoulder to the mat to relieve pressure** (Effectiveness: Low) - Your Response: This actually facilitates the roll. Follow their shoulder to the mat and continue the rolling motion. Their defensive movement helps complete your technique and often exposes their back more readily for hook insertion. → Leads to [[Positions/Back Control]]
-- **Opponent uses their free arm to frame against your hip or shoulder to block rotation** (Effectiveness: Medium) - Your Response: Use your chest weight to collapse their frame before initiating the roll. Alternatively, trap their free arm with your leg to establish crucifix position, then proceed with the roll having control of both arms. → Leads to [[Positions/Turtle]]
+- **Opponent bases out wide with a heavy far leg and posts to refuse the roll** (Effectiveness: High) - Your Response: Do not force the rotation into a strong base. Hook the exposed far ankle and convert to an Old School sweep, or switch your hips to chase the back take instead, since their wide base feeds those branches more readily than the roll. → Leads to [[Positions/Turtle]]
+- **Opponent counter-rolls with your momentum to come out on top** (Effectiveness: High) - Your Response: Never release the figure-four. Ride their counter-roll and finish the kimura from wherever you land, or if they overshoot, extend the arm into an armbar as they pass neutral. The grip keeps you in the fight even when the roll goes their way. → Leads to [[Positions/Turtle]]
+- **Opponent strips or straightens the trapped arm before you commit** (Effectiveness: Medium) - Your Response: Re-pin the wrist to their back and re-establish the figure-four at the elbow before rolling. If the grip is truly gone, switch to the opposite arm or chain to another half guard sweep rather than rolling into nothing. → Leads to [[Positions/Turtle]]
+- **Opponent drops the trapped shoulder and follows the rotation early** (Effectiveness: Low) - Your Response: This helps you. Follow their shoulder through the roll and keep rotating, because their compliance usually exposes the back even faster, so drive straight to the hooks and seatbelt for back control. → Leads to [[Positions/Back Control]]
+- **Opponent frames their free forearm into your hip to block the rotation** (Effectiveness: Medium) - Your Response: Collapse the frame with your chest and free hand before initiating, or trap that framing arm with your leg and roll into the crucifix, taking both arms with you and converting their defense into your most controlling finish. → Leads to [[Positions/Turtle]]
 
 
 </section>
@@ -271,35 +269,35 @@ The rolling motion amplifies your leverage far beyond what arm strength alone pr
 
 <p class="section-subtitle">What mistakes should you avoid when executing Rolling Kimura?</p>
 
-### 1. Rolling too far away from the opponent's body during the rotation
+### 1. Rolling away from the opponent instead of rolling them over you
 
-- **Consequence**: Loss of control allows opponent to escape the kimura grip and recover position, often ending up on bottom in their guard
-- **Correction**: Keep your hips glued to the opponent throughout the entire roll. Think of rolling around them rather than away from them. Your body should maintain constant contact with their torso.
+- **Consequence**: You spin out from under them and surface on the bottom or give up the grip, often ending in their guard or worse
+- **Correction**: Keep your hips and chest wrapped to the opponent the whole roll; think of rolling around and over them, never away from them
 
-### 2. Releasing or loosening the kimura grip during the roll
+### 2. Loosening the figure-four during the rotation
 
-- **Consequence**: Opponent escapes their arm and can defend effectively, potentially reversing position or achieving top position
-- **Correction**: Maintain maximum tension on the kimura grip throughout the entire technique. Your grip should actually tighten during the roll as the rotation loads the shoulder. The submission threat is what controls the opponent.
+- **Consequence**: The opponent frees the arm, kills the submission threat, and rides out the roll to land on top
+- **Correction**: The grip should tighten as you roll; the loaded shoulder is what drags them over, so glue the figure-four to your chest
 
-### 3. Initiating the roll before properly breaking the opponent's base
+### 3. Initiating the roll against a settled, wide base
 
-- **Consequence**: Opponent maintains strong base and can resist the roll, potentially countering with their own movement or standing up
-- **Correction**: Take time to properly break their posture and base before starting the roll. Pull the trapped arm away from their body and ensure they are destabilized before committing to the rotation.
+- **Consequence**: There is no momentum to redirect, the opponent simply posts, and you burn energy spinning into a stuck position
+- **Correction**: Bait or wait for the forward drive and roll on their weight coming in, not when they are heavy and based out
 
-### 4. Rolling straight backward instead of diagonally over the shoulder
+### 4. Rolling straight backward instead of diagonally over the tucked shoulder
 
-- **Consequence**: Poor mechanics create weak leverage and slow rotation, giving opponent time to defend or escape the kimura grip
-- **Correction**: Roll diagonally over your outside shoulder at approximately a 45-degree angle. This creates proper momentum and allows you to maintain control through the arc of the movement.
+- **Consequence**: Flat mechanics produce weak, slow leverage and give the opponent time to strip the grip or base out
+- **Correction**: Tuck the trapped-side shoulder and roll diagonally across it at roughly 45 degrees to load the joint progressively through the arc
 
-### 5. Failing to immediately secure position after completing the roll
+### 5. Having no finish chosen before the roll
 
-- **Consequence**: Opponent escapes during the critical transition moment when you have completed the roll but have not yet established hooks or submission finish
-- **Correction**: Have a clear plan before initiating the roll. Know whether you are going to back control, crucifix, or kimura finish. Execute this plan immediately as the roll completes without hesitation.
+- **Consequence**: You complete the rotation but hesitate, and the opponent escapes during the transition window
+- **Correction**: Decide back control, crucifix, or top kimura before you commit, and read their free arm and base on the way up
 
-### 6. Using only arm strength to pull the opponent rather than using body weight and rotation
+### 6. Powering the roll with arm strength instead of body momentum
 
-- **Consequence**: Technique becomes exhausting and ineffective against larger opponents, burning energy without achieving results
-- **Correction**: Use your entire body weight and the rolling momentum to move the opponent. Your arms maintain the grip while your core and legs generate the power for the movement.
+- **Consequence**: The technique gasses you out and stalls against bigger opponents who can resist an arm-only pull
+- **Correction**: Drive the rotation with your legs, hips, and the opponent's own forward pressure; the arms only maintain the grip
 
 
 
@@ -311,23 +309,23 @@ The rolling motion amplifies your leverage far beyond what arm strength alone pr
 
 <p class="section-subtitle">How do you train Rolling Kimura (Attacker)?</p>
 
-**Week 1-2: Grip and Position Fundamentals** - Establishing proper kimura grip and body positioning from turtle top
-Practice securing the kimura grip from top turtle position with a completely stationary partner. Focus on correct hand placement, figure-four configuration, and maintaining grip tension. Drill the proper angle and body position before initiating the roll. Partner provides zero resistance. Aim for 30 repetitions per session.
+**Week 1-2: Grip and Position Fundamentals** - Securing the figure-four and setting the rolling angle from Kimura Trap bottom
+Practice locking the figure-four from half guard and Kimura Trap bottom with a stationary partner. Focus on correct hand placement, grip depth at the elbow, pinning the trapped wrist, and turning onto the trapped-side shoulder to set the diagonal axis. Partner provides zero resistance. Aim for 30 repetitions per session.
 
-**Week 3-4: Rolling Mechanics** - Developing smooth rolling motion while maintaining grip connection
-Execute the complete rolling motion with partner remaining passive. Focus on keeping hips connected throughout the roll, maintaining kimura grip tension, and landing in a strong finishing position. Practice rolling in both directions. Repeat 20-30 repetitions per session to build muscle memory for the diagonal shoulder roll.
+**Week 3-4: Rolling Mechanics** - Developing a smooth roll while keeping the grip and connection
+Execute the full roll with a passive partner. Focus on keeping hips and chest wrapped to the opponent, maintaining grip tension, and surfacing on top rather than spinning away. Drill both rolling directions for 20 to 30 repetitions per session to build the muscle memory for the diagonal shoulder roll.
 
-**Week 5-6: Defensive Recognition** - Identifying and countering common defensive reactions
-Partner begins using light defensive grips such as grabbing belt, framing with free arm, or dropping the shoulder. Practice breaking grips and adjusting your roll based on their positioning. Develop the ability to feel when the opponent is most vulnerable to the roll through changes in their weight distribution.
+**Week 5-6: Reading Pressure and Reactions** - Timing the roll to the opponent's weight and defensive choices
+Partner cycles through light reactions: driving forward, basing wide, fighting the grip, and framing the hip. Practice baiting the forward drive, timing the roll to incoming weight, and branching to Old School or the back take when the roll is walled off. Develop the feel for when the opponent is most vulnerable to the rotation.
 
-**Week 7-9: Dynamic Application with Resistance** - Executing the technique against moderate to strong resistance
-Partner uses defensive framing, grip fighting, and attempts to stand or turn into you. Practice timing the roll for moments of vulnerability. Work on transitioning between rolling kimura, crucifix, and back take based on their reactions. Begin recognizing which finish is available in real time.
+**Week 7-9: Dynamic Application with Resistance** - Executing against moderate to strong resistance
+Partner uses grip fighting, base management, counter-rolls, and attempts to flatten you. Practice timing the roll for vulnerable moments and transitioning in real time between the Rolling Kimura, Old School sweep, crucifix, and back take based on their reactions. Begin recognizing which finish is available as you surface.
 
-**Week 10-12: Positional Sparring Integration** - Applying technique in live positional sparring from turtle top
-Start from top turtle position in 3-5 minute rounds of positional sparring. Partner uses full defensive skills. Work on setups, feints, and combinations that create opportunities for the rolling kimura. Chain with other turtle attacks like darce, anaconda, and standard back takes to develop a complete attack system.
+**Week 10-12: Positional Sparring Integration** - Applying the technique in live sparring from Kimura Trap bottom
+Start in Kimura Trap bottom in 3 to 5 minute positional rounds against full defense. Work setups, feints, and grip fights that create the forward pressure you need, and chain the Rolling Kimura with the rest of the Kimura Trap system to build a complete bottom attacking game.
 
-**Ongoing: Systematic Development** - Building a complete turtle attack system incorporating rolling kimura
-Integrate rolling kimura into your overall game as part of a systematic turtle attack sequence. Develop the ability to read opponent's defensive patterns and select the highest percentage option. Study high-level competition footage and analyze successful applications across gi and no-gi formats.
+**Ongoing: Systematic Development** - Building a complete Kimura Trap bottom system around the roll
+Integrate the Rolling Kimura into your half guard and Kimura Trap game as one branch of a connected attack web. Develop the ability to read defensive patterns and pick the highest-percentage option, and study high-level gi and no-gi footage of the grip-based bottom system.
 
 
 
@@ -341,7 +339,17 @@ Integrate rolling kimura into your overall game as part of a systematic turtle a
 
 <p class="section-subtitle">What are the safety concerns for Rolling Kimura?</p>
 
-The Rolling Kimura involves significant rotational stress on the shoulder joint and must be practiced with appropriate caution and progression. Always start with zero resistance and gradually build up to full-speed application over weeks of dedicated practice. Communicate clearly with training partners about the shoulder pressure, and both partners should understand proper tap protocols before drilling. The person executing the technique must maintain controlled movement throughout the roll and never jerk or spike the rotation, as this can cause shoulder injuries even without full submission pressure. For the person defending, tap early when you feel significant shoulder discomfort, as shoulder injuries can be severe with long recovery times. When first learning, use crash pads or soft surfaces to practice the rolling mechanics safely. In competition or advanced training, be aware that the momentum of the roll can create unexpected joint stress, so maintain awareness and respect your partner's safety at all times.
+The Rolling Kimura loads the shoulder joint under rotational momentum, so it must be drilled with strict progression: start with zero resistance and add speed only over weeks. The attacker must keep the rotation controlled and never jerk or spike the roll, since the combination of body momentum and a locked figure-four can injure the shoulder even without a deliberate finish. Communicate clearly with your partner, drill on soft mats while learning the roll, and have both players confirm tap protocols beforehand. Defenders should tap early to shoulder pressure rather than riding it out, because torn shoulder ligaments and labrum injuries carry long recoveries. In hard rolling and competition, respect that the dynamic nature of the roll can create unexpected joint loading mid-rotation, so maintain awareness and protect your partner at all times.
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Kimura-Trap-System" data-cta="related-system-card" data-system-slug="systems/kimura-trap-system" data-system-name="Kimura Trap System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Kimura Trap System</span><span class="system-card__unlocks-badge">Unlocks 21 techniques</span><span class="system-card__blurb">Dynamic variation to break opponent&#x27;s static defensive structure</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

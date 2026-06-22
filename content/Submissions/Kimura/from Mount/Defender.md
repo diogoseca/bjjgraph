@@ -77,7 +77,7 @@ description: "How to defend against Kimura from Mount in BJJ. Recognition, escap
       "name": "At what point during the Kimura from mount defense should you tap rather than continue fighting?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "You should tap when the attacker has established proper perpendicular angle, your grip defense has been broken, your elbow has been elevated to ribcage height, and the circular rotation toward your head has begun with your hand past the midpoint of the arc. At this stage, the mechanical advantage is overwhelmingly in the attacker's favor and continued resistance risks rotator cuff tears, shoulder dislocation, or labrum damage. Tapping early preserves your training longevity. There is no shame in tapping to a properly executed Kimura - the mistake was allowing the position to reach this stage, not the decision to tap."
+        "text": "You should tap when the attacker has established proper perpendicular angle, your grip defense has been broken, your elbow has been elevated to ribcage height, and the circular rotation driving your hand down toward your hip and lower back has begun with your hand past the midpoint of the arc. At this stage, the mechanical advantage is overwhelmingly in the attacker's favor and continued resistance risks rotator cuff tears, shoulder dislocation, or labrum damage. Tapping early preserves your training longevity. There is no shame in tapping to a properly executed Kimura - the mistake was allowing the position to reach this stage, not the decision to tap."
       }
     },
     {

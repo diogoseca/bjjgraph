@@ -3,6 +3,7 @@
   "slug": "overhook-guard",
   "description": "Master Overhook Guard in BJJ. Strategic guide covering control mechanics, sweeps, and back takes with complete bottom/top perspective analysis.",
   "variant_uniqueness": "Arm control sacrifices symmetry for sweeps",
+  "summary": "Overhook Guard traps one of the opponent's arms with a deep overhook (whizzer) from a guard structure, using that asymmetric control to break posture and open direct routes to sweeps, back takes, and submissions.",
   "overview": "Overhook Guard is a specialized guard position where the bottom practitioner controls one of the opponent's arms with an overhook (overhand grip over the shoulder) while maintaining guard structure. This position creates powerful off-balancing opportunities and direct pathways to sweeps and back takes by compromising the opponent's base and posture. The overhook functions as both a defensive frame to prevent passes and an offensive tool to break down the top player's structure.\n\nThe position is highly versatile and can be applied from closed guard, half guard, butterfly guard, or open guard variations. By controlling the opponent's shoulder and limiting their posting ability, the bottom player creates systematic attacking sequences while simultaneously defending against passes. The overhook is particularly effective against opponents who pressure forward or drive their weight into the guard player, as it redirects their momentum into sweep and submission opportunities.\n\nOverhook Guard represents a fundamental control concept that appears throughout Brazilian Jiu-Jitsu at all levels. From white belt fundamentals to black belt competition strategies, the ability to establish, maintain, and attack from the overhook creates a comprehensive system for guard retention and offensive development. The position emphasizes leverage over strength, making it accessible to practitioners of all sizes while remaining devastatingly effective when executed with precision.",
   "key_principles": [
     "Maintain deep overhook with hand behind opponent's shoulder, not just around the arm",
@@ -541,15 +542,15 @@
     "transitions": [
       {
         "transition": "Overhook Sweep",
-        "attempt_probability": 13
+        "attempt_probability": 12
       },
       {
         "transition": "Hip Bump Sweep",
-        "attempt_probability": 21
+        "attempt_probability": 20
       },
       {
         "transition": "Closed Guard to Omoplata",
-        "attempt_probability": 11
+        "attempt_probability": 10
       },
       {
         "transition": "Arm Drag to Back",
@@ -557,15 +558,15 @@
       },
       {
         "transition": "Triangle Setup",
-        "attempt_probability": 13
+        "attempt_probability": 12
       },
       {
         "transition": "Kimura Sweep",
-        "attempt_probability": 11
+        "attempt_probability": 10
       },
       {
         "transition": "Flower Sweep",
-        "attempt_probability": 13
+        "attempt_probability": 12
       },
       {
         "transition": "Overhook Guard Sweep",
@@ -574,6 +575,10 @@
       {
         "transition": "Overhook to Closed Guard",
         "attempt_probability": 3
+      },
+      {
+        "transition": "Omoplata from Guard",
+        "attempt_probability": 6
       }
     ],
     "flashcards": [

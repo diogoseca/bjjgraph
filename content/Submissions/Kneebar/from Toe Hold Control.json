@@ -1,6 +1,7 @@
 {
   "name": "Kneebar from Toe Hold Control",
   "description": "Master the kneebar from toe hold control in BJJ. Complete guide to reading defensive reactions, transitioning attacks, and finishing the knee hyperextension.",
+  "summary": "The kneebar from toe hold control is a chain submission that exploits an opponent's toe hold defense — straightening or rotating the trapped leg — by repositioning the hips against the back of the knee to force a hyperextension finish.",
   "tags": [
     "bjj",
     "submission",
@@ -19,7 +20,7 @@
   "starting_position": "Toe Hold Control",
   "from_position": "Toe Hold Control/Top",
   "success_rate": 60,
-  "overview": "The kneebar from toe hold control is a chain submission that capitalizes on defensive reactions to ankle rotation attacks by transitioning to hyperextension pressure against the knee joint. When an opponent defends the toe hold by straightening their leg, rotating their knee inward, or creating distance, these movements expose the posterior aspect of the knee to attack. The attacker releases their figure-four toe hold grip and repositions their hips against the popliteal fossa while securing the opponent's thigh between their knees, converting the existing leg entanglement into a kneebar finishing position.\n\nThis technique embodies dilemma-based leg lock strategy at its core. The toe hold threat forces defensive reactions that open kneebar opportunities, creating a tactical problem with no clean solution: defend the ankle and expose the knee, or protect the knee and remain vulnerable to the toe hold. This two-attack dynamic makes the combination far more dangerous than either submission alone, as each defense feeds directly into the complementary attack.\n\nThe positional advantage is substantial because the leg is already isolated within the entanglement before the transition begins. Unlike kneebar entries from passing or scrambles, the attacker starts with established leg control. The primary technical challenge is the grip transition window — the brief moment between releasing the toe hold and securing the kneebar. Maintaining continuous leg control through this window separates successful application from positional loss.",
+  "overview": "This technique sits at a critical junction in the leg lock hierarchy, weaponizing the predictable defensive reactions that a genuine toe hold threat produces. When an opponent defends the toe hold by straightening their leg, rotating their knee inward, or creating distance, these movements expose the posterior aspect of the knee to attack. The attacker releases their figure-four toe hold grip and repositions their hips against the popliteal fossa while securing the opponent's thigh between their knees, converting the existing leg entanglement into a kneebar finishing position.\n\nThis technique embodies dilemma-based leg lock strategy at its core. The toe hold threat forces defensive reactions that open kneebar opportunities, creating a tactical problem with no clean solution: defend the ankle and expose the knee, or protect the knee and remain vulnerable to the toe hold. This two-attack dynamic makes the combination far more dangerous than either submission alone, as each defense feeds directly into the complementary attack.\n\nThe positional advantage is substantial because the leg is already isolated within the entanglement before the transition begins. Unlike kneebar entries from passing or scrambles, the attacker starts with established leg control. The primary technical challenge is the grip transition window — the brief moment between releasing the toe hold and securing the kneebar. Maintaining continuous leg control through this window separates successful application from positional loss.",
   "safety_considerations": {
     "injury_risks": [
       {
@@ -75,7 +76,7 @@
     "Calf Slicer",
     "Achilles Lock",
     "Flying Kneebar",
-    "Estima Lock Control"
+    "Estima Lock"
   ],
   "related_content": [
     {

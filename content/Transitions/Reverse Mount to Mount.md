@@ -10,6 +10,41 @@ description: "Master the Reverse Mount to Mount transition in BJJ. Complete guid
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Reverse Mount to Mount",
+  "description": "Master the Reverse Mount to Mount transition in BJJ. Complete guide to rotating from reverse mount into standard mount with control retention.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Reverse Mount to Mount", "item": "https://bjjgraph.org/Transitions/Reverse-Mount-to-Mount" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Reverse Mount to Mount",
+  "description": "Reverse Mount to Mount is the 180-degree rotation that converts the unstable, backward-facing reverse mount into standard mount, trading a transient pin for jiu-jitsu's highest-percentage control-and-submission platform while keeping constant hip pressure throughout the turn.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Reverse Mount to Mount transition in BJJ. Complete guid
 
 <section id="overview" class="content-section">
 
-The Reverse Mount to Mount transition is the fundamental positional conversion that transforms an unstable backward-facing mount into the highest-percentage controlling position in Brazilian Jiu-Jitsu. Rather than attempting submissions from the inherently transient reverse mount, this rotation prioritizes establishing standard mount where the full arsenal of chokes, armbars, and americanas becomes available with superior stability and visual awareness of the opponent's defensive reactions.
+**Reverse Mount to Mount is the 180-degree rotation that converts the unstable, backward-facing reverse mount into standard mount, trading a transient pin for jiu-jitsu's highest-percentage control-and-submission platform while keeping constant hip pressure throughout the turn.**
+
+Reverse mount is an incidental position—it materializes during scrambles, stalled back-take attempts, or when an opponent spins away beneath standard mount—and experienced top players treat it as a mandatory waypoint rather than an attacking base. Rather than attempting submissions from this inherently transient backward-facing mount, this rotation prioritizes establishing standard mount where the full arsenal of chokes, armbars, and americanas becomes available with superior stability and visual awareness of the opponent's defensive reactions.
 
 The core mechanic involves a controlled 180-degree rotation while maintaining hip pressure on the opponent's torso. The top practitioner must transfer weight smoothly through the turning arc, never creating a gap between their hips and the opponent's chest that would allow bridging or hip escape. This is fundamentally a weight management problem: the rotation must feel like a millstone grinding across the opponent's sternum rather than a hop or lift that momentarily relieves pressure.
 
@@ -222,5 +259,7 @@ The Reverse Mount to Mount transition sits at a critical junction in the top-pla
 
 
 </section>
+
+
 
 </main>

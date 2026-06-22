@@ -10,6 +10,41 @@ description: "Master the Transition to K-Guard from Half Guard Bottom in BJJ. Co
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Half Guard to K-Guard",
+  "description": "Master the Transition to K-Guard from Half Guard Bottom in BJJ. Complete guide with inverted hook entry mechanics, counters, and defensive strategies.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Half Guard to K-Guard", "item": "https://bjjgraph.org/Transitions/Half-Guard-to-K-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Half Guard to K-Guard",
+  "description": "Half Guard to K-Guard is a bottom-game reconfiguration in which the half-guard player swaps a standard inside hook for an inverted hook crossing the opponent's trapped leg plus an elevating butterfly hook, turning passing pressure into sweep and back-take threats.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Transition to K-Guard from Half Guard Bottom in BJJ. Co
 
 <section id="overview" class="content-section">
 
-The Transition to K-Guard is a guard reconfiguration technique executed from Half Guard Bottom, where the bottom player restructures their leg entanglement from standard half guard hooks into the characteristic inverted butterfly hook configuration that defines K-Guard. This transition converts a position that may be under passing pressure into a dynamic offensive platform capable of generating sweeps, back takes, and guard transitions. The entry hinges on replacing the standard inside hook with an inverted hook that crosses over the opponent's trapped leg while simultaneously establishing an outside butterfly hook at hip level, creating the distinctive 'K' shape that gives the position its name.
+**Half Guard to K-Guard is a bottom-game reconfiguration in which the half-guard player swaps a standard inside hook for an inverted hook crossing the opponent's trapped leg plus an elevating butterfly hook, turning passing pressure into sweep and back-take threats.**
+
+Within a deteriorating or pressured half guard bottom, the Transition to K-Guard offers a proactive upgrade: rather than continuing to defend a smashing top player, the bottom practitioner reconfigures their leg entanglement to seize the initiative. The entry hinges on replacing the standard inside hook with an inverted hook that crosses over the opponent's trapped leg while simultaneously establishing an outside butterfly hook at hip level, creating the distinctive 'K' shape that gives the position its name. This converts a position that may be under passing pressure into a dynamic offensive platform capable of generating sweeps, back takes, and guard transitions.
 
 The transition is particularly valuable against pressure-based top players who commit their weight forward attempting to flatten and smash through traditional half guard structures. By inverting the inside hook, the bottom player disrupts the top player's base laterally rather than simply resisting forward pressure, creating off-balancing forces that prevent the top player from settling into effective passing positions. The coordinated action of the inverted hook pulling the trapped leg across centerline while the butterfly hook threatens elevation generates a push-pull dynamic that is fundamentally different from standard half guard retention.
 
@@ -206,7 +243,7 @@ The Transition to K-Guard occupies a critical position within the half guard bot
 
 - [[Positions/K-Guard]] - Target position after successful entry
 
-- [[Transitions/Deep Half Entry]] - Alternative guard reconfiguration from half guard bottom when K-Guard entry is denied
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative guard reconfiguration from half guard bottom when K-Guard entry is denied
 
 - [[Positions/Butterfly Guard]] - Recovery position if K-Guard hooks collapse but butterfly hook remains
 
@@ -224,5 +261,7 @@ The Transition to K-Guard occupies a critical position within the half guard bot
 
 
 </section>
+
+
 
 </main>

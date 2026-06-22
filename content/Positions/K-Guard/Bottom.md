@@ -116,6 +116,7 @@ description: "Master K-Guard Bottom in BJJ. Dynamic half guard variation with in
   "@type": "WebPage",
   "name": "K-Guard Bottom",
   "description": "Master K-Guard Bottom in BJJ. Dynamic half guard variation with inverted hook retention, sweep mechanics, and back-take opportunities. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.",
+  "alternateName": ["K Guard"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -155,6 +156,9 @@ description: "Master K-Guard Bottom in BJJ. Dynamic half guard variation with in
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>K Guard</strong> <span class="role-hint">(bottom)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 K-Guard Bottom is a dynamic half guard variation characterized by an inverted butterfly hook configuration that creates a distinct 'K' shape with the legs. This position combines elements of deep half guard retention with butterfly guard mechanics, allowing the bottom practitioner to maintain distance control while threatening immediate sweeps and back-takes. The K-Guard distinguishes itself from traditional half guard by utilizing an inside hook that crosses over the trapped leg while the outside leg creates a butterfly hook, generating powerful leverage for off-balancing and elevating the opponent.
@@ -350,6 +354,16 @@ Partner commits weight forward attempting various passing grips while bottom pra
 - **[[Transitions/Waiter Sweep]]** - Butterfly-based sweep utilizing K-Guard's outside hook for elevation
 - **[[Transitions/Half Guard to Back Take]]** - Primary back attack entry when opponent commits forward pressure
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Craig-Jones-Leg-Lock-System" data-cta="related-system-card" data-system-slug="systems/craig-jones-leg-lock-system" data-system-name="Craig Jones Leg Lock System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Craig Jones Leg Lock System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Specialized seated guard optimized for direct entries into leg entanglement positions</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

@@ -10,6 +10,41 @@ description: "Master the Underhook Sweep from Pocket Half Guard. Step-by-step gu
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Underhook Sweep from Pocket Half",
+  "description": "Master the Underhook Sweep from Pocket Half Guard. Step-by-step guide covering deep underhook mechanics, timing windows, and counter defense for BJJ practitioners.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Underhook Sweep from Pocket Half", "item": "https://bjjgraph.org/Transitions/Underhook-Sweep-from-Pocket-Half" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Underhook Sweep from Pocket Half",
+  "description": "The Underhook Sweep from Pocket Half is a come-up reversal from pocket half guard bottom that converts a deep cross-back underhook plus the passer's forward pressure into a drive that lands you in side control top.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Underhook Sweep from Pocket Half Guard. Step-by-step gu
 </div>
 
 <section id="overview" class="content-section">
+
+**The Underhook Sweep from Pocket Half is a come-up reversal from pocket half guard bottom that converts a deep cross-back underhook plus the passer's forward pressure into a drive that lands you in side control top.**
 
 The Underhook Sweep from Pocket Half Guard is a fundamental come-up sweep available when the bottom player has established deep underhook control in pocket half guard. The technique exploits the mechanical advantage created by the deep underhook controlling the opponent's upper body rotation, combined with the pocket space maintained by the bottom leg frame against the opponent's hip. By rising to the knees while maintaining underhook control, the bottom player generates sweeping momentum that compromises the top player's base and drives them onto their back.
 
@@ -224,5 +261,7 @@ The Underhook Sweep from Pocket Half Guard occupies a central role in the half g
 
 
 </section>
+
+
 
 </main>

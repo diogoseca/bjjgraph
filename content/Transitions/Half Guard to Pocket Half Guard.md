@@ -10,6 +10,41 @@ description: "Master the Transition to Pocket Half Guard from Half Guard Top. Es
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Half Guard to Pocket Half Guard",
+  "description": "Master the Transition to Pocket Half Guard from Half Guard Top. Establish deep underhook control and flattening pressure to create dominant passing position in BJJ.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Half Guard to Pocket Half Guard", "item": "https://bjjgraph.org/Transitions/Half-Guard-to-Pocket-Half-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Half Guard to Pocket Half Guard",
+  "description": "Half Guard to Pocket Half Guard is a Half Guard Top transition in which the top player threads a deep far-side underhook into the opponent's hip-to-rib pocket and flattens their hips, converting a contested exchange into a dominant pressure-passing platform.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Transition to Pocket Half Guard from Half Guard Top. Es
 
 <section id="overview" class="content-section">
 
-The Transition to Pocket Half Guard is a positional refinement executed from Half Guard Top that converts a contested guard exchange into a dominant pressure-passing platform. The technique centers on establishing a deep underhook on the bottom player's far side while simultaneously driving chest pressure forward to flatten their defensive structure. This converts a neutral Half Guard exchange where the bottom player retains offensive options into a controlled position where the top player dictates the pace and direction of all subsequent action.
+**Half Guard to Pocket Half Guard is a Half Guard Top transition in which the top player threads a deep far-side underhook into the opponent's hip-to-rib pocket and flattens their hips, converting a contested exchange into a dominant pressure-passing platform.**
+
+Within the Half Guard passing hierarchy, this transition is the gateway that converts a stalled or contested top game into a systematic pressure-passing sequence. The technique centers on establishing a deep underhook on the bottom player's far side while simultaneously driving chest pressure forward to flatten their defensive structure. It transforms a neutral Half Guard exchange where the bottom player retains sweeps, frames, and back-take threats into a controlled position where the top player dictates the pace and direction of all subsequent action.
 
 The transition addresses a fundamental problem in Half Guard Top: the bottom player's ability to maintain frames, create angles, and threaten sweeps or back takes. By securing the deep underhook and flattening the bottom player's hip angle, the top player eliminates the space required for most bottom-player offenses. The underhook reaches across the opponent's back to grip the far lat or belt line, creating a tight connection that prevents the bottom player from turning away or establishing their own underhook. Combined with crossface pressure on the opposite side, this creates a vise-like control that systematically removes defensive options.
 
@@ -224,5 +261,7 @@ The Transition to Pocket Half Guard occupies a critical position in the Half Gua
 
 
 </section>
+
+
 
 </main>

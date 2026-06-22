@@ -10,6 +10,41 @@ description: "Learn the Transition to Clamp Guard in BJJ. Complete guide to esta
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Transition to Clamp Guard",
+  "description": "Learn the Transition to Clamp Guard in BJJ. Complete guide to establishing shin-on-bicep arm isolation from open guard for armbars, triangles, and sweeps.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Transition to Clamp Guard", "item": "https://bjjgraph.org/Transitions/Transition-to-Clamp-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Transition to Clamp Guard",
+  "description": "The Transition to Clamp Guard is an open-guard entry where the bottom player intercepts the opponent's reaching arm and traps it between the legs with a shin across the bicep, isolating the limb to set up armbars, triangles, and sweeps.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Learn the Transition to Clamp Guard in BJJ. Complete guide to esta
 
 <section id="overview" class="content-section">
 
-The Transition to Clamp Guard is the entry sequence from open guard into the clamp guard position, where the bottom player isolates one of the opponent's arms by trapping it between the legs with a shin pressing across the bicep. This transition exploits a fundamental timing window — the moment the top player reaches inside the guard player's legs to establish grips or initiate a pass. That reaching arm becomes the target for the clamp, transforming a passing attempt into a positional disadvantage.
+**The Transition to Clamp Guard is an open-guard entry where the bottom player intercepts the opponent's reaching arm and traps it between the legs with a shin across the bicep, isolating the limb to set up armbars, triangles, and sweeps.**
+
+Sitting at the boundary between defensive open guard and offensive limb isolation, the Transition to Clamp Guard turns a passer's reaching arm into your primary target. This transition exploits a fundamental timing window — the moment the top player reaches inside the guard player's legs to establish grips or initiate a pass. That reaching arm becomes the target for the clamp, transforming a passing attempt into a positional disadvantage where the bottom player isolates the limb with a shin pressing across the bicep.
 
 The entry relies on precise shin placement and hip angle creation rather than strength. The guard player must time the catch to intercept the arm at the bicep rather than the forearm, as the wider cross-section of the bicep makes the clamp mechanically secure. Once the shin seats across the bicep and the opposite leg reinforces the trap, the opponent loses one arm from their defensive and passing framework, creating an asymmetric situation where the guard player has numerical superiority in available limbs.
 
@@ -220,5 +257,7 @@ The Transition to Clamp Guard sits within the broader open guard ecosystem as a 
 
 
 </section>
+
+
 
 </main>

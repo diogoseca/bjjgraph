@@ -1,5 +1,17 @@
 {
   "name": "Danaher Leg Lock System",
+  "products": [
+    {
+      "id": "danaher-leglocks-enter-the-system",
+      "title": "Enter The System: Leglocks",
+      "instructor": "John Danaher",
+      "vendor": "BJJFanatics",
+      "affiliate_url": "https://bjjfanatics.com/products/enter-the-system-leglocks-by-john-danaher?ref=REPLACE_ME",
+      "image": "https://placehold.co/640x360/1e293b/ffffff?text=Enter+The+System%3A+Leglocks",
+      "blurb": "The complete leg-lock system that defined modern no-gi — ashi garami entries, controls, and breaking mechanics, taught step by step.",
+      "price_usd": 77
+    }
+  ],
   "description": "Master the Danaher Leg Lock System. Systematic framework for ashi-garami positions, leg control, and lower body submissions with 70%+ finish rates.",
   "tags": [
     "bjj",
@@ -13,6 +25,7 @@
   ],
   "system_type": "Submission Chain",
   "difficulty_level": "Advanced",
+  "summary": "The Danaher Leg Lock System is a no-gi submission framework that treats ashi-garami leg entanglements as a positional hierarchy—establishing control, advancing position, and systematically breaking the leg before finishing with heel hooks and other lower-body submissions.",
   "overview": "The Danaher Leg Lock System represents a paradigmatic shift in modern Brazilian Jiu-Jitsu, transforming leg attacks from opportunistic submissions into a comprehensive positional hierarchy. Developed by John Danaher and perfected by his students at the Renzo Gracie Academy, this system treats leg entanglements as positions rather than submissions, establishing control hierarchies, transition pathways, and finishing mechanics that mirror traditional upper body systems.\n\nAt its core, the system is built upon the ashi-garami family of positions—a spectrum of leg entanglements ranging from outside ashi-garami (least control) to inside sankaku (maximum control). Each position offers distinct control advantages, submission options, and transition pathways. The revolutionary aspect lies in treating these positions with the same systematic rigor as mount or back control, establishing clear objectives for control maintenance, position advancement, and systematic breaking before finishing.\n\nThe system's effectiveness stems from its emphasis on mechanical hierarchy over opportunism. Rather than attempting submissions from weak positions, practitioners learn to recognize positional deficiencies, advance through the hierarchy systematically, and only commit to finishing attempts from positions of overwhelming control. This approach has proven devastatingly effective in competition, with Danaher's students achieving unprecedented success through leg locks at the highest levels of no-gi grappling.",
   "key_principles": [
     "Position Before Submission - Establish dominant leg entanglement before attempting finishes",
@@ -402,6 +415,40 @@
       "name": "Leg Entanglement",
       "content_type": "Principle",
       "relationship": "Fundamental principle underlying all ashi-garami control concepts"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What is the core organizing principle of the Danaher Leg Lock System?",
+      "answer": "It treats ashi-garami leg entanglements as positions in a control hierarchy. You must establish dominant control and advance position before attempting any submission, applying the same position-before-submission logic used for mount or back control."
+    },
+    {
+      "question": "How does the ashi-garami hierarchy progress from least to most control?",
+      "answer": "Control increases from outside ashi-garami and 50-50 (least), through standard ashi-garami, to inside ashi-garami, the saddle/honey hole, and finally inside sankaku, which offers maximum control and the highest-percentage heel hook finishes."
+    },
+    {
+      "question": "What control benchmarks must be met before committing to a heel hook?",
+      "answer": "The inside heel exposure defense must be cleared, the leg straightened, and the knee line cleared to reach the ideal bite point. Finishing before these are achieved typically leads to escapes and loss of position."
+    },
+    {
+      "question": "Why is the single leg X-guard considered a primary gateway in the system?",
+      "answer": "Single leg X-guard reliably feeds entries into the ashi-garami family, letting practitioners transition into outside, standard, and inside ashi configurations rather than waiting for opportunistic, low-percentage leg-lock openings."
+    },
+    {
+      "question": "What is the most common error practitioners make with this system, and how is it corrected?",
+      "answer": "Attempting heel hooks from weak positions like outside ashi or 50-50 without advancing the hierarchy first. The fix is drilling position advancement to the saddle until improving position becomes automatic before any finish."
+    },
+    {
+      "question": "Why must defensive training be developed in parallel with the offensive system?",
+      "answer": "Heel hooks damage knee ligaments without warning pain, so practitioners must understand inside-heel-exposure defense, safe rolling directions, and tap-early protocols to train the system safely and avoid serious injury."
+    },
+    {
+      "question": "How does the system's breaking approach differ from explosive leg-lock finishing?",
+      "answer": "It emphasizes gradual, systematic pressure, straightening the leg and clearing the knee line under control, rather than explosive cranking, which preserves position, reduces escape risk, and protects the training partner from injury."
+    },
+    {
+      "question": "What role does the straight ankle lock play within the system?",
+      "answer": "Beyond being a finish, the straight ankle lock serves as a position-maintenance and control tool throughout ashi-garami transitions, helping keep the leg trapped while advancing toward higher-control positions like the saddle."
     }
   ]
 }

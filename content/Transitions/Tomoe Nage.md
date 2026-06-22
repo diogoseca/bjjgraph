@@ -10,9 +10,48 @@ description: "Learn Tomoe Nage sacrifice throw for BJJ. Master execution from st
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Tomoe Nage",
+  "description": "Learn Tomoe Nage sacrifice throw for BJJ. Master execution from standing, guard transitions, and follow-up attacks. Complete guide with defense strategies.",
+  "alternateName": ["Circle Throw", "Wheel Throw"],
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Tomoe Nage", "item": "https://bjjgraph.org/Transitions/Tomoe-Nage" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Tomoe Nage",
+  "description": "Tomoe Nage is a judo sacrifice throw where you drop to your back and plant a foot on the opponent's hip or lower abdomen to launch them overhead in a circular arc, landing in closed guard or following through to mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Circle Throw</strong>, <strong>Wheel Throw</strong></p>
+</aside>
 <div class="role-links">
 
 [[Tomoe Nage/Attacker|Play as Attacker]]
@@ -21,6 +60,8 @@ description: "Learn Tomoe Nage sacrifice throw for BJJ. Master execution from st
 </div>
 
 <section id="overview" class="content-section">
+
+**Tomoe Nage is a judo sacrifice throw where you drop to your back and plant a foot on the opponent's hip or lower abdomen to launch them overhead in a circular arc, landing in closed guard or following through to mount.**
 
 Tomoe Nage, known as the circle throw or stomach throw, is a dynamic sacrifice technique borrowed from judo that has found significant application in sport Brazilian Jiu-Jitsu. The technique involves dropping to your back while using foot placement on the opponent's hip or abdomen to elevate and throw them overhead, typically transitioning directly into closed guard or mount depending on follow-through. This technique is particularly effective in gi competition where grips are secure, and it has become a staple for guard pullers who want to combine offensive takedown scoring with immediate guard establishment. The circular motion that gives Tomoe Nage its name refers to the arc created as the opponent is thrown over your body.
 
@@ -233,5 +274,7 @@ Tomoe Nage functions as a critical bridge between standing exchanges and guard-b
 
 
 </section>
+
+
 
 </main>

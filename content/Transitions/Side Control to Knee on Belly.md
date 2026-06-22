@@ -4,11 +4,46 @@
 
 ---
 title: "Side Control to Knee on Belly | BJJ Technique | BJJ Graph"
-description: "Master the Consolidation to Knee on Belly transition in BJJ. Learn optimal timing, grip transfers, and knee placement for dynamic top advancement."
+description: "Master the Side Control to Knee on Belly transition in BJJ. Learn optimal timing, grip transfers, and explosive knee placement for dynamic top advancement."
 ---
 
 
 <body data-content-type="transitions-hub">
+
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Side Control to Knee on Belly",
+  "description": "Master the Side Control to Knee on Belly transition in BJJ. Learn optimal timing, grip transfers, and explosive knee placement for dynamic top advancement.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Side Control to Knee on Belly", "item": "https://bjjgraph.org/Transitions/Side-Control-to-Knee-on-Belly" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Side Control to Knee on Belly",
+  "description": "Side Control to Knee on Belly is a top-game transition where the controlling player briefly trades chest-to-chest pressure to drive a knee across the opponent's torso, upgrading static side control into a mobile, point-scoring attacking platform.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -22,7 +57,9 @@ description: "Master the Consolidation to Knee on Belly transition in BJJ. Learn
 
 <section id="overview" class="content-section">
 
-The Consolidation to Knee on Belly transition represents a critical positional advancement in the top-game hierarchy, bridging the gap between the static grinding pressure of consolidated side control and the dynamic mobile pressure of knee on belly. This technique allows the top player to upgrade their position from a holding pattern to an active attacking platform that scores additional competition points and opens multiple submission pathways including baseball bat chokes, armbars, and cross collar chokes.
+**Side Control to Knee on Belly is a top-game transition where the controlling player briefly trades chest-to-chest pressure to drive a knee across the opponent's torso, upgrading static side control into a mobile, point-scoring attacking platform.**
+
+The Side Control to Knee on Belly transition represents a critical positional advancement in the top-game hierarchy, bridging the gap between the static grinding pressure of consolidated side control and the dynamic mobile pressure of knee on belly. This technique allows the top player to upgrade their position from a holding pattern to an active attacking platform that scores additional competition points and opens multiple submission pathways including baseball bat chokes, armbars, and cross collar chokes.
 
 The fundamental challenge in this transition lies in the brief but critical moment when the top player must sacrifice chest-to-chest connection to elevate their hips and insert their knee onto the opponent's torso. This window of reduced pressure is precisely when the bottom player has their best opportunity to escape, re-guard, or initiate scrambles. Expert execution minimizes this vulnerability through precise timing coordinated with the opponent's breathing rhythm, efficient grip transfers that maintain control throughout the movement, and explosive hip elevation that replaces chest pressure with knee pressure before the bottom player can react.
 
@@ -204,8 +241,6 @@ This transition serves as the primary gateway between the consolidation phase of
 
 - [[Positions/Half Guard]] - Counter outcome position where the bottom player recovers guard during the transition window
 
-- [[Positions/Side Control]] - Parent position category encompassing the consolidation phase where this transition begins
-
 - [[Positions/Mount]] - Alternative positional advancement from side control and common follow-up from knee on belly
 
 - [[Positions/North-South]] - Alternative advancement option when knee on belly transition is not available due to opponent positioning
@@ -220,5 +255,7 @@ This transition serves as the primary gateway between the consolidation phase of
 
 
 </section>
+
+
 
 </main>

@@ -16,7 +16,7 @@ description: "How to execute Rolling Back Take Reversal in BJJ. Attacking perspe
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Rolling Back Take Reversal in BJJ",
-  "description": "Step-by-step guide for executing Rolling Back Take Reversal from Body Triangle/Top.",
+  "description": "Step-by-step guide for executing Rolling Back Take Reversal from Body Triangle/Bottom.",
   "step": [
     {
       "@type": "HowToStep",
@@ -178,7 +178,7 @@ This reversal represents a high-risk, high-reward option in the back defense hie
 
 Strategically, this escape works best against opponents who squeeze aggressively with the body triangle while hunting for chokes. Their focus on the submission creates momentary lapses in base maintenance, providing the window needed to execute the roll. The technique is particularly effective in no-gi where friction is reduced and rolling mechanics are more fluid.
 
-**From Position**: [[Positions/Back Control/Body Triangle]] (Top)
+**From Position**: [[Positions/Back Control/Body Triangle]] (Bottom)
 
 </section>
 
@@ -329,5 +329,7 @@ Implement in positional sparring starting from body triangle. Partner uses full 
 This technique involves a controlled rolling motion while under body triangle pressure, which carries inherent risks. The breathing restriction from the body triangle means you should never attempt this when already exhausted or oxygen-depleted - failed attempts in this state can lead to panic and poor decision-making. Practice the rolling mechanics extensively at low resistance before attempting against aggressive partners. Be aware that the roll can place stress on neck and shoulder structures if executed improperly. If you feel your neck being cranked during the rotation, abandon the attempt immediately. Partners should release the body triangle if the rolling person taps or shows signs of distress. In training, establish clear communication about resistance levels before starting positional rounds.
 
 </section>
+
+
 
 </main>

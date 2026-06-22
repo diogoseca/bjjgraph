@@ -1,379 +1,240 @@
-// Content Panel — JS-driven state machine for graph ↔ content toggle.
-// Two states: content (normal view, graph peeks 60px above) ↔ graph (full graph, title peeks ~50px at bottom).
-// Toggle via wheel intent (40px / 200ms), touch drag, Ctrl+G, Escape, or button.
+// Content Panel — scroll-driven drawer mechanic.
+// Body scrollY is the source of truth. A passive scroll listener writes
+// --drawer-progress (0..1) to :root; CSS transforms paint the drawer. JS
+// handles only: SPA scroll restoration, mode-latch toggling, keyboard shortcuts,
+// the panel-toggle button, canvas overscroll-dismiss in graph mode, and BFCache
+// recovery. No wheel handlers, no intent thresholds, no snap state machine.
+//
+// Layout contract:
+// - <div id="scroll-runway" /> (100svh, above #quartz-root) gives the body
+//   scrollable height that the drawer transform latches onto.
+// - scrollY = 0           → graph mode (drawer slid down to a --graph-peek title peek)
+// - scrollY = innerHeight → content mode (drawer docked at translateY(--content-peek))
+// - in between            → continuous transitioning state
 
-// Graph mode shows full graph but the page title always peeks at the bottom
-const GRAPH_PEEK_PX = 50
-// Content mode: card offset slightly so graph peeks above
-const INITIAL_PEEK_PX = 60
-// Wheel intent: accumulated |deltaY| within a rolling window commits the snap.
-// One normal mouse-wheel click (~100px) clears WHEEL_INTENT_PX in a single event.
-const WHEEL_INTENT_PX = 40
-const WHEEL_INTENT_WINDOW_MS = 200
-// Sub-threshold wheel feedback — only fired for meaningful events to avoid
-// twitch-rubber-banding on small trackpad deltas (which accumulate silently).
-const WHEEL_RUBBERBAND_MIN_DELTA = 20
-const WHEEL_RUBBERBAND_PX = 16
-// Touch drag: 1:1 finger tracking up to 30%, soft resistance past that.
-const TOUCH_RUBBERBAND_THRESHOLD = 0.3
-// Symmetric commit threshold for touch drag (fraction of viewport).
-const TOUCH_COMMIT_THRESHOLD = 0.2
+const CONTENT_PEEK_PX = 60
 
-// Motion curves
-const FORWARD_TRANSITION = "transform 450ms cubic-bezier(0.34, 1.56, 0.64, 1)"
-const REVERSE_TRANSITION = "transform 380ms cubic-bezier(0.4, 0, 0.2, 1)"
-const OVERLAY_FADE_OUT = "opacity 200ms ease-out"
-const OVERLAY_FADE_IN = "opacity 180ms ease-out 80ms"
+const MODE_GRAPH_ENTER = 0.97
+const MODE_GRAPH_LEAVE = 0.94
+const MODE_CONTENT_ENTER = 0.03
+const MODE_CONTENT_LEAVE = 0.06
 
-type PanelState = "content" | "dragging" | "graph"
-let state: PanelState = "content"
-let dragProgress = 0 // 0 = content, 1 = graph (touch path only)
-// Tracks which state the user was in when touch-dragging started, for direction-aware release.
-let dragStartedFrom: PanelState | null = null
+type Mode = "content" | "transitioning" | "graph"
 
-// Exposed for backgroundGraph.inline.ts via (window as any).__snapToContent / __snapToGraph
+function dockY(): number {
+  return window.innerHeight
+}
 
-function getGraphProgress(): number {
-  // Graph position as a fraction of viewport
-  return (window.innerHeight - GRAPH_PEEK_PX) / window.innerHeight
+function getProgress(): number {
+  // 1 = graph (top of page), 0 = content (drawer docked)
+  return Math.min(1, Math.max(0, 1 - window.scrollY / dockY()))
+}
+
+// Disable native scroll-restoration once; we land users at the dock on every nav.
+if (typeof history !== "undefined" && "scrollRestoration" in history) {
+  history.scrollRestoration = "manual"
+}
+
+// Pre-paint initial drawer-progress so the first frame is in content mode and
+// doesn't flash from translateY(0) before JS runs.
+if (typeof document !== "undefined") {
+  document.documentElement.style.setProperty("--drawer-progress", "0")
+}
+
+function isTypingTarget(el: EventTarget | null): boolean {
+  if (!(el instanceof HTMLElement)) return false
+  const tag = el.tagName
+  if (tag === "INPUT" || tag === "TEXTAREA" || tag === "SELECT") return true
+  return el.isContentEditable
 }
 
 document.addEventListener("nav", () => {
-  state = "content"
-  const initProg = INITIAL_PEEK_PX / window.innerHeight
-  dragProgress = initProg
-  dragStartedFrom = null
-
-  // Home page: ContentPanel is hidden (see custom.scss). Skip wiring its
-  // wheel/touch/keyboard handlers so they don't hijack normal scroll.
+  // Home page: ContentPanel hidden, skip all wiring.
   if (document.body.dataset.slug === "index") {
-    const homePage = document.getElementById("quartz-root") as HTMLElement | null
-    const homeOverlay = document.getElementById("graph-overlay") as HTMLElement | null
-    if (homePage) {
-      homePage.style.transition = "none"
-      homePage.style.transform = ""
-    }
-    if (homeOverlay) homeOverlay.style.opacity = "0"
+    document.body.removeAttribute("data-mode")
     document.body.classList.remove("graph-focused")
+    document.documentElement.style.setProperty("--drawer-progress", "0")
     return
   }
 
-  const page = document.getElementById("quartz-root") as HTMLElement
-  const overlay = document.getElementById("graph-overlay") as HTMLElement
-  const toggleBtn = document.getElementById("panel-toggle") as HTMLElement
-  if (!page || !overlay) return
-
   const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches
+  const toggleBtn = document.getElementById("panel-toggle") as HTMLElement | null
+  const canvas = document.getElementById("background-graph") as HTMLElement | null
 
-  // Apply initial state: content card offset 60px so graph peeks above. No
-  // transition on init — each subsequent snap/drag sets its own transition.
-  page.style.transition = "none"
-  page.style.transform = `translateY(${INITIAL_PEEK_PX}px)`
-  overlay.style.transition = "none"
-  overlay.style.opacity = String(1 - initProg)
-  document.body.classList.remove("graph-focused")
+  let currentMode: Mode = "content"
+  let zoomOutRevealFired = false
 
-  // Wheel intent accumulator (rolling window).
-  let wheelIntentAccum = 0
-  let wheelIntentDir: "up" | "down" | null = null
-  let wheelIntentLastTime = 0
-
-  // Rubber-band gate (prevents stacking sub-threshold feedback animations).
-  let rubberBandTimer1: ReturnType<typeof setTimeout> | null = null
-  let rubberBandTimer2: ReturnType<typeof setTimeout> | null = null
-
-  function clearRubberBandTimers() {
-    if (rubberBandTimer1) {
-      clearTimeout(rubberBandTimer1)
-      rubberBandTimer1 = null
+  function setMode(next: Mode) {
+    if (currentMode === next) return
+    currentMode = next
+    document.body.dataset.mode = next
+    // Maintain `graph-focused` class as a backward-compat alias so existing CSS
+    // and the backgroundGraph MutationObserver continue to work.
+    if (next === "graph") {
+      document.body.classList.add("graph-focused")
+      if (!zoomOutRevealFired) {
+        zoomOutRevealFired = true
+        const reveal = (window as any).__zoomOutReveal
+        if (typeof reveal === "function") reveal()
+      }
+    } else {
+      document.body.classList.remove("graph-focused")
     }
-    if (rubberBandTimer2) {
-      clearTimeout(rubberBandTimer2)
-      rubberBandTimer2 = null
-    }
-  }
-
-  function rubberBand(direction: "down" | "up") {
-    if (reducedMotion) return
-    if (state === "dragging") return
-    if (rubberBandTimer1 || rubberBandTimer2) return
-    const baseY = state === "content" ? INITIAL_PEEK_PX : window.innerHeight - GRAPH_PEEK_PX
-    const offset = direction === "down" ? WHEEL_RUBBERBAND_PX : -WHEEL_RUBBERBAND_PX
-    page.style.transition = "transform 120ms ease-out"
-    page.style.transform = `translateY(${baseY + offset}px)`
-    rubberBandTimer1 = setTimeout(() => {
-      rubberBandTimer1 = null
-      page.style.transition = "transform 200ms cubic-bezier(0.4, 0, 0.2, 1)"
-      page.style.transform = `translateY(${baseY}px)`
-      rubberBandTimer2 = setTimeout(() => {
-        rubberBandTimer2 = null
-      }, 200)
-    }, 120)
-  }
-
-  // Soft rubber-band for touch drag: 1:1 up to 30%, decaying past.
-  function softResist(raw: number): number {
-    if (raw <= TOUCH_RUBBERBAND_THRESHOLD) return raw
-    return TOUCH_RUBBERBAND_THRESHOLD + (raw - TOUCH_RUBBERBAND_THRESHOLD) * 0.5
-  }
-
-  // --- Transform (touch drag only) ---
-  function applyTransform(progress: number) {
-    page.style.transform = `translateY(${progress * 100}vh)`
-    overlay.style.opacity = String(1 - progress)
     if (toggleBtn) {
-      toggleBtn.setAttribute("aria-label", progress > 0.5 ? "Show content" : "Show graph")
+      toggleBtn.setAttribute("aria-label", next === "graph" ? "Show content" : "Show graph")
+      toggleBtn.setAttribute("aria-pressed", next === "graph" ? "true" : "false")
     }
   }
 
-  // --- Snap to graph (title always peeks at bottom) ---
+  function updateProgress() {
+    const p = getProgress()
+    document.documentElement.style.setProperty("--drawer-progress", String(p))
+    // Mode latch with hysteresis (dead-band on both edges to prevent oscillation).
+    // Commit to an end state whenever progress reaches an extreme, regardless of
+    // the current mode — single-pass, so a lone settle event (e.g. `scrollend`
+    // after a programmatic smooth/instant snap) latches all the way to graph or
+    // content instead of stalling in "transitioning". The dead-band only governs
+    // when an already-committed mode releases back to "transitioning".
+    if (p >= MODE_GRAPH_ENTER) setMode("graph")
+    else if (p <= MODE_CONTENT_ENTER) setMode("content")
+    else if (currentMode === "graph" && p < MODE_GRAPH_LEAVE) setMode("transitioning")
+    else if (currentMode === "content" && p > MODE_CONTENT_LEAVE) setMode("transitioning")
+  }
+
+  let rafPending = false
+  function onScroll() {
+    if (rafPending) return
+    rafPending = true
+    requestAnimationFrame(() => {
+      rafPending = false
+      updateProgress()
+    })
+  }
+
+  // Initial state: land at dock (content mode visible) — unless this nav came
+  // from a graph-node click, in which case stay docked at the bottom (graph
+  // mode) so onNodeClick can animate the controlled drawer rise after the new
+  // content morphs in. The new page's title shows in the bottom peek first.
+  if ((window as any).__graphClickNav) {
+    zoomOutRevealFired = true // suppress the 1200ms zoom-out reveal for this nav
+    window.scrollTo({ top: 0, behavior: "instant" as ScrollBehavior })
+    setMode("graph")
+    updateProgress()
+  } else {
+    // Deep link to a heading (#hash) — honor it instead of bare-docking, which
+    // would otherwise clobber spa.inline.ts's scrollIntoView and land the user at
+    // the top of the article. Falls back to the dock when there's no hash target.
+    const hashId = location.hash ? decodeURIComponent(location.hash.slice(1)) : ""
+    const hashTarget = hashId ? document.getElementById(hashId) : null
+    if (hashTarget) {
+      hashTarget.scrollIntoView({ block: "start" })
+      updateProgress()
+    } else {
+      window.scrollTo({ top: dockY(), behavior: "instant" as ScrollBehavior })
+      setMode("content")
+      updateProgress()
+    }
+  }
+
+  // Snap helpers — JS-driven smooth scroll-to. The transform follows naturally.
   function snapToGraph() {
-    clearRubberBandTimers()
-    const graphProg = getGraphProgress()
-    state = "graph"
-    dragProgress = graphProg
-    if (reducedMotion) {
-      page.style.transition = "none"
-      overlay.style.transition = "opacity 150ms linear"
-    } else {
-      page.style.transition = FORWARD_TRANSITION
-      overlay.style.transition = OVERLAY_FADE_OUT
-    }
-    page.style.transform = `translateY(calc(100vh - ${GRAPH_PEEK_PX}px))`
-    overlay.style.opacity = "0"
-    document.body.classList.add("graph-focused")
-    if (toggleBtn) toggleBtn.setAttribute("aria-label", "Show content")
-    // Trigger first-reveal zoom-out animation (10x → fit-all)
-    const reveal = (window as any).__zoomOutReveal
-    if (reveal) reveal()
+    window.scrollTo({
+      top: 0,
+      behavior: (reducedMotion ? "instant" : "smooth") as ScrollBehavior,
+    })
   }
-
   function snapToContent() {
-    clearRubberBandTimers()
-    state = "content"
-    const initProg = INITIAL_PEEK_PX / window.innerHeight
-    dragProgress = initProg
-    if (reducedMotion) {
-      page.style.transition = "none"
-      overlay.style.transition = "opacity 150ms linear"
-    } else {
-      page.style.transition = REVERSE_TRANSITION
-      overlay.style.transition = OVERLAY_FADE_IN
-    }
-    page.style.transform = `translateY(${INITIAL_PEEK_PX}px)`
-    overlay.style.opacity = String(1 - initProg)
-    document.body.classList.remove("graph-focused")
-    if (toggleBtn) toggleBtn.setAttribute("aria-label", "Show graph")
+    window.scrollTo({
+      top: dockY(),
+      behavior: (reducedMotion ? "instant" : "smooth") as ScrollBehavior,
+    })
   }
-
-  // Expose globally
   ;(window as any).__snapToContent = snapToContent
   ;(window as any).__snapToGraph = snapToGraph
 
-  // --- Wheel handler (intent-commit, no drag-coupling) ---
-  function onWheel(e: WheelEvent) {
-    const now = performance.now()
-    const dir: "up" | "down" = e.deltaY < 0 ? "up" : "down"
+  // Scroll listener — coalesce per frame via rAF; never preventDefault.
+  window.addEventListener("scroll", onScroll, { passive: true })
+  // Settle guarantee: a programmatic smooth/instant snap (panel toggle, Ctrl+G,
+  // graph-node click, title-bar resume) may not emit a scroll event exactly at
+  // the resting progress, leaving the latch stuck mid-transition. `scrollend`
+  // fires once after motion stops; re-running updateProgress there commits the
+  // final mode. Harmless on browsers that fire it after manual scrolls too.
+  window.addEventListener("scrollend", onScroll, { passive: true })
 
-    // Reset accumulator on direction change or window expiry.
-    if (wheelIntentDir !== dir || now - wheelIntentLastTime > WHEEL_INTENT_WINDOW_MS) {
-      wheelIntentAccum = 0
-      wheelIntentDir = dir
-    }
-    wheelIntentLastTime = now
-
-    // Content → graph: scroll up at top of article.
-    if (state === "content" && window.scrollY <= 0 && dir === "up") {
-      e.preventDefault()
-      wheelIntentAccum += Math.abs(e.deltaY)
-      if (wheelIntentAccum >= WHEEL_INTENT_PX) {
-        wheelIntentAccum = 0
-        snapToGraph()
-      } else if (Math.abs(e.deltaY) >= WHEEL_RUBBERBAND_MIN_DELTA) {
-        rubberBand("down")
-      }
-      return
-    }
-
-    // Graph → content: scroll down. Excess motion past the commit threshold
-    // spills into body scroll so a big swipe transitions AND scrolls in one motion.
-    if (state === "graph" && dir === "down") {
-      e.preventDefault()
-      wheelIntentAccum += Math.abs(e.deltaY)
-      if (wheelIntentAccum >= WHEEL_INTENT_PX) {
-        const excess = wheelIntentAccum - WHEEL_INTENT_PX
-        wheelIntentAccum = 0
-        snapToContent()
-        if (excess > 0) {
-          window.scrollBy({ top: excess, behavior: "auto" })
-        }
-      } else if (Math.abs(e.deltaY) >= WHEEL_RUBBERBAND_MIN_DELTA) {
-        rubberBand("up")
-      }
-      return
-    }
-
-    // Graph → content via overscroll: at min zoom, scroll up dismisses (same intent rule).
-    if (state === "graph" && dir === "up") {
-      const isAtMinZoom = (window as any).__isGraphAtMinZoom
-      if (isAtMinZoom && isAtMinZoom()) {
-        e.preventDefault()
-        wheelIntentAccum += Math.abs(e.deltaY)
-        if (wheelIntentAccum >= WHEEL_INTENT_PX) {
-          wheelIntentAccum = 0
-          snapToContent()
-        }
-      }
-    }
-  }
-
-  // --- Touch handlers (1:1 finger tracking with rubber-band resistance) ---
-  let touchStartY = 0
-  let touchStartScrollY = 0
-
-  function onTouchStart(e: TouchEvent) {
-    touchStartY = e.touches[0].clientY
-    touchStartScrollY = window.scrollY
-  }
-
-  function onTouchMove(e: TouchEvent) {
-    const currentY = e.touches[0].clientY
-    const deltaY = touchStartY - currentY // positive = finger moved up
-
-    if (state === "content" && touchStartScrollY <= 0 && deltaY < 0) {
-      // Start drag from content (finger moved down at top of page)
-      e.preventDefault()
-      dragStartedFrom = "content"
-      state = "dragging"
-      page.style.transition = "none"
-      overlay.style.transition = "none"
-      const rawMovement = Math.min(1, Math.abs(deltaY) / window.innerHeight)
-      dragProgress = softResist(rawMovement)
-      applyTransform(dragProgress)
-    } else if (state === "dragging") {
-      e.preventDefault()
-      const totalDelta = touchStartY - currentY // positive = finger up
-      let rawMovement: number
-      if (dragStartedFrom === "graph") {
-        // From graph: finger up = movement toward content (upward).
-        rawMovement = Math.max(0, Math.min(1, totalDelta / window.innerHeight))
-      } else {
-        // From content: finger down (totalDelta < 0) = movement toward graph.
-        rawMovement = Math.max(0, Math.min(1, -totalDelta / window.innerHeight))
-      }
-      const resisted = softResist(rawMovement)
-      if (dragStartedFrom === "graph") {
-        const graphProg = getGraphProgress()
-        dragProgress = Math.max(0, graphProg - resisted)
-      } else {
-        dragProgress = resisted
-      }
-      applyTransform(dragProgress)
-    } else if (state === "graph" && deltaY > 0) {
-      // Start drag from graph (finger swipes up)
-      e.preventDefault()
-      dragStartedFrom = "graph"
-      state = "dragging"
-      page.style.transition = "none"
-      overlay.style.transition = "none"
-      const graphProg = getGraphProgress()
-      const rawMovement = Math.min(1, deltaY / window.innerHeight)
-      dragProgress = Math.max(0, graphProg - softResist(rawMovement))
-      applyTransform(dragProgress)
-    } else if (state === "graph" && deltaY < 0) {
-      // Touch overscroll at min zoom: finger swipe down → dismiss (reuses wheel intent rule).
-      const isAtMinZoom = (window as any).__isGraphAtMinZoom
-      if (isAtMinZoom && isAtMinZoom()) {
-        wheelIntentAccum += Math.abs(deltaY)
-        if (wheelIntentAccum >= WHEEL_INTENT_PX) {
-          wheelIntentAccum = 0
-          snapToContent()
-        }
-      }
-    }
-  }
-
-  function onTouchEnd() {
-    wheelIntentAccum = 0
-    onRelease()
-  }
-
-  // --- Touch release: symmetric 20%-of-viewport commit in both directions ---
-  function onRelease() {
-    if (state !== "dragging") return
-    const graphProg = getGraphProgress()
-    if (dragStartedFrom === "graph") {
-      // Moved down by at least TOUCH_COMMIT_THRESHOLD of viewport → commit to content.
-      if (dragProgress < graphProg - TOUCH_COMMIT_THRESHOLD) {
-        snapToContent()
-      } else {
-        snapToGraph()
-      }
-    } else {
-      // Moved up by at least TOUCH_COMMIT_THRESHOLD of viewport → commit to graph.
-      if (dragProgress > TOUCH_COMMIT_THRESHOLD) {
-        snapToGraph()
-      } else {
-        snapToContent()
-      }
-    }
-    dragStartedFrom = null
-  }
-
-  // --- Keyboard shortcuts ---
+  // Keyboard shortcuts
   function onKeydown(e: KeyboardEvent) {
+    if (isTypingTarget(e.target)) return
     if (e.key === "g" && (e.ctrlKey || e.metaKey) && !e.shiftKey) {
       e.preventDefault()
-      state === "graph" ? snapToContent() : snapToGraph()
+      currentMode === "graph" ? snapToContent() : snapToGraph()
+      return
     }
-    if (e.key === "Escape" && state === "graph") {
+    if (e.key === "Escape" && currentMode === "graph") {
       e.preventDefault()
       snapToContent()
     }
   }
+  document.addEventListener("keydown", onKeydown)
 
-  // --- Button click ---
+  // Panel toggle button
   function onToggleClick() {
-    state === "graph" ? snapToContent() : snapToGraph()
+    currentMode === "graph" ? snapToContent() : snapToGraph()
   }
+  toggleBtn?.addEventListener("click", onToggleClick)
 
-  // --- Top-stripe click: tapping the bar above the drawer (anywhere except the
-  // 5 buttons that live in it) does the same thing as the chevron expand button.
-  // The strip is the area y < INITIAL_PEEK_PX (60px) where the graph peeks
-  // above the content card in content mode.
+  // Stripe click: tapping the peeking strip (anywhere except the chrome buttons)
+  // toggles modes, same as the panel-toggle chevron.
+  //  - content mode: the 60px graph peek above the drawer → expand to graph.
+  //  - graph mode:   the title bar at the bottom (the only on-screen part of
+  //                  #quartz-root, lifted above the drawer via the z4 rule in
+  //                  custom.scss) → resume (snap back to content).
   const TOP_STRIPE_BTN_SELECTOR =
-    "#tree-toggle, #search-button, #flashcards-header, #roll-session-btn, #panel-toggle, #topbar-auth, #graph-close-btn, #fit-all-btn"
-  function onTopStripeClick(e: MouseEvent) {
-    if (state !== "content") return
-    if (e.clientY >= INITIAL_PEEK_PX) return
+    "#tree-toggle, #search-button, #flashcards-header, #roll-session-btn, #panel-toggle, #topbar-auth, #fit-all-btn"
+  function onStripeClick(e: MouseEvent) {
     const target = e.target as HTMLElement | null
     if (!target) return
     if (target.closest(TOP_STRIPE_BTN_SELECTOR)) return
-    snapToGraph()
+    if (currentMode === "content" && e.clientY < CONTENT_PEEK_PX) {
+      snapToGraph()
+    } else if (currentMode === "graph" && target.closest("#quartz-root")) {
+      // Only the bottom title bar of #quartz-root is on screen in graph mode;
+      // gating on it avoids hijacking graph clicks in the side gaps.
+      snapToContent()
+    }
   }
+  document.addEventListener("click", onStripeClick)
 
-  // --- Register events ---
-  window.addEventListener("wheel", onWheel, { passive: false })
-  window.addEventListener("touchstart", onTouchStart, { passive: true })
-  window.addEventListener("touchmove", onTouchMove, { passive: false })
-  window.addEventListener("touchend", onTouchEnd)
-  document.addEventListener("keydown", onKeydown)
-  document.addEventListener("click", onTopStripeClick)
-  toggleBtn?.addEventListener("click", onToggleClick)
-
-  if (reducedMotion) {
-    overlay.style.backdropFilter = "none"
-    ;(overlay.style as any).webkitBackdropFilter = "none"
+  // Canvas overscroll-dismiss (iOS Maps pattern): while in graph mode at min
+  // zoom, a wheel-down on the canvas exits to content. D3 doesn't process
+  // wheel-down past min zoom (it clamps), so we intercept here and dismiss.
+  function onCanvasWheel(e: WheelEvent) {
+    if (currentMode !== "graph") return
+    if (e.deltaY <= 30) return
+    const atMin = (window as any).__isGraphAtMinZoom
+    if (typeof atMin === "function" && atMin()) {
+      e.preventDefault()
+      snapToContent()
+    }
   }
+  canvas?.addEventListener("wheel", onCanvasWheel, { passive: false })
+
+  // BFCache: if the browser restored a mid-runway scroll position, snap to dock.
+  function onPageShow(e: PageTransitionEvent) {
+    if (!e.persisted) return
+    const sy = window.scrollY
+    if (sy > 0 && sy < dockY()) {
+      window.scrollTo({ top: dockY(), behavior: "instant" as ScrollBehavior })
+    }
+  }
+  window.addEventListener("pageshow", onPageShow)
 
   window.addCleanup(() => {
-    window.removeEventListener("wheel", onWheel)
-    window.removeEventListener("touchstart", onTouchStart)
-    window.removeEventListener("touchmove", onTouchMove)
-    window.removeEventListener("touchend", onTouchEnd)
+    window.removeEventListener("scroll", onScroll)
+    window.removeEventListener("scrollend", onScroll)
     document.removeEventListener("keydown", onKeydown)
-    document.removeEventListener("click", onTopStripeClick)
+    document.removeEventListener("click", onStripeClick)
     toggleBtn?.removeEventListener("click", onToggleClick)
-    clearRubberBandTimers()
+    canvas?.removeEventListener("wheel", onCanvasWheel)
+    window.removeEventListener("pageshow", onPageShow)
   })
 })

@@ -1,5 +1,6 @@
 {
   "name": "Counter Roll to Top",
+  "summary": "Counter Roll to Top is a high-variance Gift Wrap Bottom reversal where the bottom player grips the controlling arm and bridges explosively toward the trapped-arm side, riding the opponent's committed weight over into Gift Wrap Top.",
   "description": "Master Counter Roll to Top reversal from Gift Wrap Bottom in BJJ. Complete guide to timing, bridge mechanics, and position reversal from back control.",
   "tags": [
     "bjj",
@@ -15,22 +16,22 @@
   "outcomes": [
     {
       "to": "Gift Wrap/Top",
-      "probability": 55,
+      "probability": 28,
       "result": "success"
     },
     {
       "to": "Gift Wrap/Bottom",
-      "probability": 30,
+      "probability": 47,
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 15,
+      "probability": 25,
       "result": "counter"
     }
   ],
-  "success_rate": 55,
-  "overview": "The Counter Roll to Top is a high-risk, high-reward reversal technique executed from the Gift Wrap Bottom position. This escape exploits the moment when the top player commits their weight to establish deeper control or initiates a submission attack. By timing a coordinated roll that uses the opponent's committed weight against them, the defender can reverse the position entirely and end up in a dominant Gift Wrap control position.\n\nThe technique requires precise timing and commitment. Unlike incremental escapes that focus on recovering the trapped arm or creating defensive frames, the Counter Roll to Top embraces the chaos of full positional reversal. The defender must accept the risk of accelerating their opponent's attack if the timing is wrong, but the reward is a complete reversal of fortune from one of the worst defensive positions in grappling.\n\nFrom a strategic perspective, this escape is most effective against aggressive opponents who overcommit to submission attacks or positional advancement. The technique capitalizes on the temporary weight distribution changes that occur when the top player shifts to attack the neck, transition to mount, or secure a tighter arm trap. Understanding these windows is essential for successful execution.",
+  "success_rate": 28,
+  "overview": "Sitting at the high-risk, high-reward end of the Gift Wrap Bottom escape menu, this technique trades the safety of incremental arm recovery for a shot at total positional inversion. It exploits the moment when the top player commits their weight to establish deeper control or initiates a submission attack. By timing a coordinated roll that uses the opponent's committed weight against them, the defender can reverse the position entirely and end up in a dominant Gift Wrap control position.\n\nThe technique requires precise timing and commitment. Unlike incremental escapes that focus on recovering the trapped arm or creating defensive frames, the Counter Roll to Top embraces the chaos of full positional reversal. The defender must accept the risk of accelerating their opponent's attack if the timing is wrong, but the reward is a complete reversal of fortune from one of the worst defensive positions in grappling.\n\nFrom a strategic perspective, this escape is most effective against aggressive opponents who overcommit to submission attacks or positional advancement. The technique capitalizes on the temporary weight distribution changes that occur when the top player shifts to attack the neck, transition to mount, or secure a tighter arm trap. Understanding these windows is essential for successful execution.",
   "conditions": [
     "One arm is trapped across the body in Gift Wrap configuration",
     "Opponent commits weight forward during attack or adjustment",
@@ -52,8 +53,8 @@
       "relationship": "Broader escape system this technique complements as a high-variance option"
     },
     {
-      "name": "Bridge and Roll",
-      "relationship": "Related escape mechanic using similar explosive bridging principles"
+      "name": "Granby Roll to Guard",
+      "relationship": "Related explosive rolling escape from back exposure sharing the high-commitment reversal mechanic"
     },
     {
       "name": "Crucifix",

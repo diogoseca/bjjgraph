@@ -10,6 +10,41 @@ description: "Master the transition from Side Control to Shoulder of Justice in 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Side Control to Shoulder of Justice",
+  "description": "Master the transition from Side Control to Shoulder of Justice in BJJ. Step-by-step guide to establishing devastating jaw pressure for submissions and control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Side Control to Shoulder of Justice", "item": "https://bjjgraph.org/Transitions/Side-Control-to-Shoulder-of-Justice" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Side Control to Shoulder of Justice",
+  "description": "Side Control to Shoulder of Justice is a top-side transition that redirects flat crossface pressure into a concentrated, angled shoulder-blade drive into the opponent's jaw, escalating standard side control into a high-pressure submission-and-advancement platform.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the transition from Side Control to Shoulder of Justice in 
 </div>
 
 <section id="overview" class="content-section">
+
+**Side Control to Shoulder of Justice is a top-side transition that redirects flat crossface pressure into a concentrated, angled shoulder-blade drive into the opponent's jaw, escalating standard side control into a high-pressure submission-and-advancement platform.**
 
 The Transition to Shoulder of Justice is a positional advancement from standard side control into one of the most punishing control variations in Brazilian Jiu-Jitsu. This transition focuses on redirecting your shoulder pressure from a general crossface into a concentrated, angled drive directly into the opponent's jaw and temporomandibular joint. The result is a position that creates extreme discomfort, forces defensive reactions, and opens multiple high-percentage submission and advancement pathways.
 
@@ -226,5 +263,7 @@ The Transition to Shoulder of Justice sits at a critical juncture in the top-sid
 
 
 </section>
+
+
 
 </main>

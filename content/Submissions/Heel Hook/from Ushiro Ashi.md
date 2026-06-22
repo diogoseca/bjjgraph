@@ -10,10 +10,55 @@ description: "Master the Heel Hook from Ushiro Ashi-Garami. Complete guide cover
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Heel Hook from Ushiro Ashi targets the Knee ligaments (MCL, LCL, meniscus) via rotational force through heel. Risk: MCL/LCL tear from rotational force exceeding ligament tolerance. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Heel Hook from Ushiro Ashi",
+  "description": "Master the Heel Hook from Ushiro Ashi-Garami. Complete guide covering reversed leg entanglement finishing mechanics, grip adjustments, safety, and defense.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Heel Hook from Ushiro Ashi", "item": "https://bjjgraph.org/Submissions/Heel-Hook-from-Ushiro-Ashi" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Heel Hook from Ushiro Ashi",
+  "description": "The Heel Hook from Ushiro Ashi-Garami is a rotational knee submission finished from the reversed leg entanglement, where the opponent's inverted hips force a compact grip and body-driven rotation to attack the knee ligaments through the heel.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Heel Hook from Ushiro Ashi-Garami is a rotational knee submission finished from the reversed leg entanglement, where the opponent's inverted hips force a compact grip and body-driven rotation to attack the knee ligaments through the heel.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Leg Lock</span>
+<span class="meta-chip">Targets Knee ligaments (MCL, LCL, meniscus) via rotational force through heel</span>
+<span class="meta-chip">45% success</span>
+</div>
+
+> [!danger] Safety
+> Heel Hook from Ushiro Ashi targets the Knee ligaments (MCL, LCL, meniscus) via rotational force through heel. Primary risk: MCL/LCL tear from rotational force exceeding ligament tolerance. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,53 +75,7 @@ This submission typically arises when an opponent attempts to escape standard le
 
 The heel hook from ushiro ashi-garami attacks the knee joint through rotational force applied via the heel and ankle complex. The reversed orientation creates different leverage angles compared to standard heel hooks, often requiring the blade of the wrist to seat behind the Achilles from an adjusted angle. Success demands precise understanding of how the inverted configuration affects biomechanical leverage, grip placement, and the timing of rotational force application. The submission carries extreme injury risk due to the rotational nature of the attack on the knee ligaments, making controlled application and immediate recognition of tap signals absolutely essential for safe training.
 
-**Category**: Joint Lock
-**Type**: Leg Lock
-**Target Area**: Knee ligaments (MCL, LCL, meniscus) via rotational force through heel
-**Starting Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
-**From Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Top)
-**Success Rate**: 45%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| MCL/LCL tear from rotational force exceeding ligament tolerance | CRITICAL | 6-12 months, often requiring surgical reconstruction |
-| Meniscus damage from combined rotational and compressive forces on the knee | High | 3-9 months depending on tear severity and surgical intervention |
-| ACL tear from excessive rotational torque transmitted through the tibia | CRITICAL | 9-12 months with surgical reconstruction and rehabilitation |
-| Ankle ligament sprain from grip pressure on the heel and foot complex | Medium | 2-6 weeks for mild to moderate sprains |
-
-
-**Application Speed**: EXTREMELY SLOW and progressive. Heel hooks attack ligaments that provide no pain warning before catastrophic failure. Apply rotational force incrementally over several seconds, pausing frequently to allow partner time to recognize danger and tap. Never jerk, spike, or explosively rotate the heel under any circumstances.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner, own body, or mat (any rapid tapping motion)
-- Physical foot tap with free leg on mat or partner
-- Any unusual vocalization, screaming, or distress sound
-- Pushing away or attempting to physically disengage from the submission
-
-
-**Release Protocol**:
-1. Release ALL rotational pressure immediately upon any tap signal - do not wait for confirmation
-2. Slowly unwind grip and leg control after releasing rotational pressure - do not abruptly release the leg
-3. If in doubt about whether partner tapped, release immediately - position can always be re-established
-4. Check on partner's knee condition after every training repetition, even when no tap occurred
-5. If partner becomes unresponsive or does not tap but appears in distress, release immediately and seek medical attention
-
-
-**Training Restrictions**:
-- Live heel hook finishing with rotational force restricted to brown and black belts with established trust between training partners
-- Lower belts practice catch-and-release only: establish grip control and position without applying any rotational finishing force
-- All practitioners must receive specific heel hook safety instruction before training this technique in any format
-- Never apply heel hooks during high-intensity scrambles where control and awareness may be compromised
-
+**Starting Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] · **From**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Top)
 
 </section>
 
@@ -242,24 +241,15 @@ The heel hook from ushiro ashi-garami attacks the knee joint through rotational 
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Transitions/Heel Hook]]
 - [[Submissions/Achilles Lock]]
 - [[Transitions/Aoki Lock]]
 - [[Submissions/Calf Slicer]]
 - [[Submissions/Inside Heel Hook]]
 - [[Transitions/Estima Lock]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Ashi Garami/Ushiro Ashi-Garami]] - Primary starting position providing the reversed leg entanglement control for this submission
 - [[Positions/Ashi Garami/Outside Ashi-Garami]] - Standard ashi position that commonly transitions to ushiro during opponent inversion escapes
 - [[Positions/Ashi Garami/Saddle]] - Higher-control leg entanglement offering alternative heel hook finishing opportunities
@@ -270,17 +260,49 @@ The heel hook from ushiro ashi-garami attacks the knee joint through rotational 
 - [[Positions/Ashi Garami/Honey Hole]] - High-control position accessible through transition from ushiro configuration
 - [[Positions/Ashi Garami/Backside 50-50]] - Related reversed entanglement position sharing similar finishing angles
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| MCL/LCL tear from rotational force exceeding ligament tolerance | CRITICAL | 6-12 months, often requiring surgical reconstruction |
+| Meniscus damage from combined rotational and compressive forces on the knee | High | 3-9 months depending on tear severity and surgical intervention |
+| ACL tear from excessive rotational torque transmitted through the tibia | CRITICAL | 9-12 months with surgical reconstruction and rehabilitation |
+| Ankle ligament sprain from grip pressure on the heel and foot complex | Medium | 2-6 weeks for mild to moderate sprains |
+
+
+**Application Speed**: EXTREMELY SLOW and progressive. Heel hooks attack ligaments that provide no pain warning before catastrophic failure. Apply rotational force incrementally over several seconds, pausing frequently to allow partner time to recognize danger and tap. Never jerk, spike, or explosively rotate the heel under any circumstances.
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any distress signal)
+- Physical hand tap on partner, own body, or mat (any rapid tapping motion)
+- Physical foot tap with free leg on mat or partner
+- Any unusual vocalization, screaming, or distress sound
+- Pushing away or attempting to physically disengage from the submission
+
+
+**Release Protocol**:
+1. Release ALL rotational pressure immediately upon any tap signal - do not wait for confirmation
+2. Slowly unwind grip and leg control after releasing rotational pressure - do not abruptly release the leg
+3. If in doubt about whether partner tapped, release immediately - position can always be re-established
+4. Check on partner's knee condition after every training repetition, even when no tap occurred
+5. If partner becomes unresponsive or does not tap but appears in distress, release immediately and seek medical attention
+
+
+**Training Restrictions**:
+- Live heel hook finishing with rotational force restricted to brown and black belts with established trust between training partners
+- Lower belts practice catch-and-release only: establish grip control and position without applying any rotational finishing force
+- All practitioners must receive specific heel hook safety instruction before training this technique in any format
+- Never apply heel hooks during high-intensity scrambles where control and awareness may be compromised
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Heel Hook from Ushiro Ashi leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

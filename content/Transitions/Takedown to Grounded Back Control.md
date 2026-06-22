@@ -10,6 +10,41 @@ description: "Learn the Takedown to Grounded Back Control in BJJ. Step-by-step m
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Takedown to Grounded Back Control",
+  "description": "Learn the Takedown to Grounded Back Control in BJJ. Step-by-step mat return from standing back exposure to dominant hooks-in position with seatbelt grip.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Takedown to Grounded Back Control", "item": "https://bjjgraph.org/Transitions/Takedown-to-Grounded-Back-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Takedown to Grounded Back Control",
+  "description": "The Takedown to Grounded Back Control is the mat-return transition that converts unstable standing back exposure into grounded back control, breaking the opponent's base while preserving the seatbelt grip and threading hooks during the descent.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Learn the Takedown to Grounded Back Control in BJJ. Step-by-step m
 
 <section id="overview" class="content-section">
 
-The Takedown to Grounded Back Control is the critical conversion step that transforms a precarious standing back exposure into the most dominant control position in Brazilian Jiu-Jitsu. Standing back control is inherently unstable, and every second spent standing increases the probability of the bottom player escaping through explosive hip turns, grip strips, or controlled descents that land them in turtle rather than flat on the mat with hooks in. The mat return solves this problem by bringing the fight to the ground on the top player's terms, preserving seatbelt control and immediately establishing hooks or body triangle during the descent.
+**The Takedown to Grounded Back Control is the mat-return transition that converts unstable standing back exposure into grounded back control, breaking the opponent's base while preserving the seatbelt grip and threading hooks during the descent.**
+
+Standing back control is one of the most fragile dominant positions in Brazilian Jiu-Jitsu, and the mat return is the conversion that resolves that fragility before it costs you the back entirely. Every second spent standing increases the probability of the bottom player escaping through explosive hip turns, grip strips, or controlled descents that land them in turtle rather than flat on the mat with hooks in. The mat return solves this problem by bringing the fight to the ground on the top player's terms, preserving seatbelt control and immediately establishing hooks or body triangle during the descent.
 
 The technique operates on a simple mechanical principle: gravity is your ally when you control the angle and speed of the fall. By breaking the opponent's base through lateral displacement, rear-directed pulling, or trip mechanics, you remove their ability to post and dictate where they land. The key differentiator between a successful mat return and a scramble is maintaining chest-to-back connection throughout the entire descent. Losing that connection, even for a fraction of a second, gives the bottom player the space they need to turn, frame, or recover guard.
 
@@ -230,5 +267,7 @@ The Takedown to Grounded Back Control occupies a pivotal role in the back attack
 
 
 </section>
+
+
 
 </main>

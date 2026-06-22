@@ -10,6 +10,41 @@ description: "Master the Scarf Hold to Mount transition in BJJ. Complete guide c
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Scarf Hold to Mount",
+  "description": "Master the Scarf Hold to Mount transition in BJJ. Complete guide covering step-over mechanics, timing windows, and pressure maintenance for kesa gatame advancement.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Scarf Hold to Mount", "item": "https://bjjgraph.org/Transitions/Scarf-Hold-to-Mount" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Scarf Hold to Mount",
+  "description": "Scarf Hold to Mount is a top-position advancement where you step or slide a leg across a supine opponent to move from the perpendicular scarf hold (kesa gatame) directly into full mount, the highest-scoring control in BJJ.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Scarf Hold to Mount transition in BJJ. Complete guide c
 </div>
 
 <section id="overview" class="content-section">
+
+**Scarf Hold to Mount is a top-position advancement where you step or slide a leg across a supine opponent to move from the perpendicular scarf hold (kesa gatame) directly into full mount, the highest-scoring control in BJJ.**
 
 The Scarf Hold to Mount transition converts the perpendicular kesa gatame pin into the highest-value positional control in Brazilian Jiu-Jitsu. This advancement exploits the existing head and arm control from scarf hold as a launching platform to step or slide across the opponent's torso into full mount. The technique represents a natural progression when the bottom player's defensive reactions expose their far hip or when they turn away from the top player, creating the space necessary for the leg to clear the opponent's body.
 
@@ -220,5 +257,7 @@ The Scarf Hold to Mount transition serves as a critical link in the top player's
 
 
 </section>
+
+
 
 </main>

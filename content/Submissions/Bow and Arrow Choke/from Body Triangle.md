@@ -10,10 +10,55 @@ description: "Master the bow and arrow choke from body triangle in BJJ. Learn de
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Bow and Arrow Choke from Body Triangle targets the Carotid arteries. Risk: Carotid artery compression leading to unconsciousness. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Bow and Arrow Choke from Body Triangle",
+  "description": "Master the bow and arrow choke from body triangle in BJJ. Learn deep collar grip mechanics, body extension finishing details, and proven defensive strategies.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Bow and Arrow Choke from Body Triangle", "item": "https://bjjgraph.org/Submissions/Bow-and-Arrow-Choke-from-Body-Triangle" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Bow and Arrow Choke from Body Triangle",
+  "description": "The Bow and Arrow Choke from Body Triangle is a high-percentage gi blood choke from back control where the figure-four leg lock prevents rotational escape while a deep cross-collar grip and body extension compress both carotid arteries.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Bow and Arrow Choke from Body Triangle is a high-percentage gi blood choke from back control where the figure-four leg lock prevents rotational escape while a deep cross-collar grip and body extension compress both carotid arteries.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries</span>
+<span class="meta-chip">62% success</span>
+</div>
+
+> [!danger] Safety
+> Bow and Arrow Choke from Body Triangle targets the Carotid arteries. Primary risk: Carotid artery compression leading to unconsciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,55 +75,7 @@ The mechanics differ from the standard bow and arrow in critical ways. The body 
 
 At the competition level, this combination represents one of the most dominant finishing sequences from back control. The defender faces a near-impossible defensive puzzle: clearing the collar grip requires removing hands from triangle defense, while addressing the triangle opens the neck to deeper collar penetration. This technical dilemma makes the body triangle bow and arrow a reliable finish even against skilled opponents who typically survive standard back attacks.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries
-**Starting Position**: [[Positions/Back Control/Body Triangle]]
-**From Position**: [[Positions/Back Control/Body Triangle]] (Bottom)
-**Success Rate**: 62%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Carotid artery compression leading to unconsciousness | High | Immediate if released promptly; medical evaluation required if unconsciousness occurs |
-| Neck strain from excessive torque and rotation | Medium | 3-7 days for minor strain; 2-4 weeks for moderate strain |
-| Jaw or TMJ injury from improper collar placement riding up onto chin | Medium | 1-3 weeks for minor injury; 4-8 weeks for significant TMJ damage |
-| Rib compression injury from body triangle squeeze combined with choke extension | Low | 2-5 days for minor discomfort |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow tap recognition
-
-**Tap Signals**:
-- Verbal tap
-- Physical hand tap on body or mat
-- Physical foot tap on mat
-- Any audible distress signal
-- Loss of resistance (immediate release required)
-
-
-**Release Protocol**:
-1. Immediately release collar grip upon tap signal
-2. Release leg extension and body triangle simultaneously
-3. Allow opponent's head to return to neutral position
-4. Check for consciousness and responsiveness
-5. If opponent was unconscious, elevate legs and monitor until full recovery
-
-
-**Training Restrictions**:
-- Never spike or jerk the choke - apply smooth progressive pressure only
-- Never use competition speed in training rolls
-- Always maintain communication with training partner throughout
-- Never continue pressure after any tap signal
-- Beginners must drill grip placement and position control before attempting the finish
-- Always allow partner clear access to tap with hands or voice
-
+**Starting Position**: [[Positions/Back Control/Body Triangle]] · **From**: [[Positions/Back Control/Body Triangle]] (Top)
 
 </section>
 
@@ -223,40 +220,63 @@ At the competition level, this combination represents one of the most dominant f
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Bow and Arrow Choke]]
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/Cross Collar Choke]]
 - [[Transitions/Clock Choke]]
 - [[Transitions/Arm Triangle]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Back Control/Body Triangle]] - Starting position providing leg control and breathing restriction
 - [[Positions/Back Control]] - Parent position category for body triangle control
-- [[Submissions/Bow and Arrow Choke]] - Parent submission family - standard version without body triangle
-- [[Rear Naked Choke from Body Triangle]] - Alternative high-percentage choke from same control position
 - [[Positions/Crucifix]] - Transition target when opponent reaches back to defend collar grip
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Carotid artery compression leading to unconsciousness | High | Immediate if released promptly; medical evaluation required if unconsciousness occurs |
+| Neck strain from excessive torque and rotation | Medium | 3-7 days for minor strain; 2-4 weeks for moderate strain |
+| Jaw or TMJ injury from improper collar placement riding up onto chin | Medium | 1-3 weeks for minor injury; 4-8 weeks for significant TMJ damage |
+| Rib compression injury from body triangle squeeze combined with choke extension | Low | 2-5 days for minor discomfort |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow tap recognition
+
+**Tap Signals**:
+- Verbal tap
+- Physical hand tap on body or mat
+- Physical foot tap on mat
+- Any audible distress signal
+- Loss of resistance (immediate release required)
+
+
+**Release Protocol**:
+1. Immediately release collar grip upon tap signal
+2. Release leg extension and body triangle simultaneously
+3. Allow opponent's head to return to neutral position
+4. Check for consciousness and responsiveness
+5. If opponent was unconscious, elevate legs and monitor until full recovery
+
+
+**Training Restrictions**:
+- Never spike or jerk the choke - apply smooth progressive pressure only
+- Never use competition speed in training rolls
+- Always maintain communication with training partner throughout
+- Never continue pressure after any tap signal
+- Beginners must drill grip placement and position control before attempting the finish
+- Always allow partner clear access to tap with hands or voice
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Bow and Arrow Choke from Body Triangle leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

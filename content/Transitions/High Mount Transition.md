@@ -10,6 +10,41 @@ description: "Master the High Mount Transition from Gogoplata Control. Learn to 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "High Mount Transition",
+  "description": "Master the High Mount Transition from Gogoplata Control. Learn to convert gogoplata defense into dominant high mount with systematic execution and timing.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "High Mount Transition", "item": "https://bjjgraph.org/Transitions/High-Mount-Transition" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "High Mount Transition",
+  "description": "The High Mount Transition is a positional advance from bottom Gogoplata Control in which, as the opponent defends the choke by driving forward, the attacker releases the foot-behind-head lock and swings a leg over to establish knees-in-armpits high mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the High Mount Transition from Gogoplata Control. Learn to 
 </div>
 
 <section id="overview" class="content-section">
+
+**The High Mount Transition is a positional advance from bottom Gogoplata Control in which, as the opponent defends the choke by driving forward, the attacker releases the foot-behind-head lock and swings a leg over to establish knees-in-armpits high mount.**
 
 The High Mount Transition from Gogoplata Control represents a strategic positional advancement that capitalizes on defensive reactions to the gogoplata submission threat. When an opponent defends the gogoplata by rolling forward, tucking their chin, or attempting to posture out of the submission, the bottom player can release the shin-across-throat configuration and follow the opponent's momentum to establish high mount. This transition exemplifies the principle that submission control positions should offer alternative advancement pathways when the primary attack is defended.
 
@@ -220,5 +257,7 @@ The High Mount Transition integrates gogoplata attacks with positional advanceme
 
 
 </section>
+
+
 
 </main>

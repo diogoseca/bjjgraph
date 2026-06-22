@@ -1,6 +1,7 @@
 {
   "name": "Americana from Reverse Kesa-Gatame",
   "description": "Master the Americana shoulder lock from Reverse Kesa-Gatame. Complete finishing guide covering setup, execution, counters, and safety protocols.",
+  "summary": "The Americana from Reverse Kesa-Gatame is a figure-four shoulder lock applied from the reverse scarf-hold pin, where the top player isolates the far arm and rotates the shoulder against the mat for a high-percentage finish.",
   "tags": [
     "bjj",
     "submission",
@@ -82,9 +83,9 @@
     "Americana",
     "Kimura",
     "Arm Triangle",
-    "Far Side Armbar",
-    "Kesa Gatame Arm Crush",
-    "Arm Crush"
+    "Arm Crush",
+    "Americana from Reverse Scarf Hold",
+    "Americana from Kesa Gatame"
   ],
   "related_content": [
     {
@@ -147,7 +148,7 @@
     }
   ],
   "attacker": {
-    "name": "from Reverse Kesa-Gatame Attacker",
+    "name": "Americana from Reverse Kesa-Gatame Attacker",
     "description": "Step-by-step guide to finishing the Americana shoulder lock from Reverse Kesa-Gatame, covering grip mechanics, rotational pressure, and counter responses.",
     "overview": "Attacking with the Americana from Reverse Kesa-Gatame leverages the natural arm isolation created by the reverse scarf hold orientation. The top player's perpendicular chest pressure pins the defender's shoulder flat to the mat, and once the figure-four grip is established on the far arm, the rotational force against the glenohumeral joint is amplified by the attacker's body weight positioned directly over the target. This makes the finish highly efficient, requiring controlled rotational pressure rather than brute force. The key is systematic grip establishment: isolating the wrist, securing the figure-four, and applying slow steady rotation while maintaining chest pressure throughout the entire sequence.",
     "key_principles": [
@@ -338,7 +339,7 @@
     ]
   },
   "defender": {
-    "name": "from Reverse Kesa-Gatame Defender",
+    "name": "Americana from Reverse Kesa-Gatame Defender",
     "description": "Complete defensive guide against the Americana from Reverse Kesa-Gatame, covering recognition cues, grip defense, escape paths, and guard recovery options.",
     "overview": "Defending the Americana from Reverse Kesa-Gatame demands immediate recognition of the grip sequence and proactive arm protection before the figure-four is locked. The reverse orientation eliminates traditional framing options against the attacker's face, forcing the defender to rely on grip fighting, arm positioning, and precisely timed hip escapes to prevent the submission. Early intervention is critical because once the figure-four is fully secured with the wrist pinned to the mat, escape becomes exponentially more difficult. The defender's best strategy combines preventing wrist isolation through active hand fighting with systematic hip movement to disrupt the attacker's base and create space for guard recovery.",
     "key_principles": [

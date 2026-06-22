@@ -10,6 +10,41 @@ description: "Master the stand up from combat base in BJJ. Complete guide to saf
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Stand Up from Combat Base",
+  "description": "Master the stand up from combat base in BJJ. Complete guide to safely transitioning from kneeling to standing guard passing position with proper timing and base.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Stand Up from Combat Base", "item": "https://bjjgraph.org/Transitions/Stand-Up-from-Combat-Base" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Stand Up from Combat Base",
+  "description": "Stand Up from Combat Base is a guard-passing transition in which the top player rises from a kneeling combat base to a standing posture, unlocking dynamic standing passes while managing the brief sweep-vulnerable window during elevation.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the stand up from combat base in BJJ. Complete guide to saf
 
 <section id="overview" class="content-section">
 
-The Stand Up from Combat Base is a fundamental positional transition in Brazilian Jiu-Jitsu where the top player elevates from a kneeling combat base posture to a fully standing position while maintaining engagement with the opponent's guard. This movement unlocks the entire arsenal of standing guard passes—Toreando, leg drags, X-passes, and long step passes—that are inaccessible from a kneeling position. The standing posture provides superior leverage for breaking grips, superior mobility for creating passing angles, and the gravitational advantage of fighting from above the opponent's guard structure.
+**Stand Up from Combat Base is a guard-passing transition in which the top player rises from a kneeling combat base to a standing posture, unlocking dynamic standing passes while managing the brief sweep-vulnerable window during elevation.**
+
+Within a modern passing game, the Stand Up from Combat Base is the gateway between pressure-based kneeling passes and the faster, more mobile standing passing system. The movement unlocks the entire arsenal of standing guard passes—Toreando, leg drags, X-passes, and long step passes—that are inaccessible from a kneeling position. The standing posture provides superior leverage for breaking grips, superior mobility for creating passing angles, and the gravitational advantage of fighting from above the opponent's guard structure.
 
 The critical challenge lies in the transition window—the 1-2 seconds during which the practitioner's base shifts from the stable three-point combat base structure to a two-foot standing position. During this window, the center of gravity rises and the base narrows, creating vulnerability to sweeps, guard closures, and leg entanglements. Skilled guard players specifically train to attack this moment, making execution technique and timing paramount. The safest approach involves loading weight forward through controlling grips before lifting the posted knee, ensuring the opponent bears downward pressure throughout the entire elevation sequence.
 
@@ -220,5 +257,7 @@ The Stand Up from Combat Base serves as the critical bridge between kneeling and
 
 
 </section>
+
+
 
 </main>

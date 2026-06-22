@@ -34,13 +34,14 @@
     }
   ],
   "success_rate": 50,
+  "summary": "Escape Reverse Mount is a bottom-position guard recovery where you protect your neck, hip-escape to build an angle, then turn to face the opponent and trap a leg—recovering half guard out of the reverse-facing mount.",
   "conditions": [
     "Opponent has established reverse mount with hips on your torso while facing your feet",
     "Your back is partially or fully exposed with opponent's weight settled",
     "You have not been fully flattened and retain some hip mobility",
     "Opponent has not yet inserted hooks or established seatbelt control for back take"
   ],
-  "overview": "Escape Reverse Mount is a critical defensive technique for recovering guard from the reverse mount bottom position, where the opponent sits on your torso facing your feet. Unlike standard mount escapes that rely on bridging into the opponent's chest, this escape requires the bottom player to create angles through hip escapes and turn to face the opponent, leveraging the inherent instability of reverse mount's backward orientation. The primary target is half guard, where the bottom player can immediately begin working offensive sequences.\n\nThe escape exploits a fundamental weakness of reverse mount: the top player cannot see the bottom player's upper body movements and lacks the head control available in standard mount. This reduced sensory feedback creates windows for the bottom player to initiate turns and hip escapes that would be more easily detected and countered from standard mount. The technique demands precise timing — escaping too early before creating proper angles wastes energy, while waiting too long allows the top player to transition to more stable positions like standard mount or back control.\n\nStrategically, this escape fits within the broader reverse mount survival framework. When combined with neck protection and continuous defensive movement, the hip escape to half guard provides a reliable pathway out of this dangerous transitional position. The technique is particularly effective against opponents who hesitate in reverse mount rather than immediately transitioning, punishing positional indecision with systematic guard recovery.",
+  "overview": "Recovering guard from reverse mount bottom is fundamentally a problem of timing and angle creation rather than strength, since the top player's backward orientation denies them the head control and visual feedback that make standard mount so oppressive. Unlike standard mount escapes that rely on bridging into the opponent's chest, this escape requires the bottom player to create angles through hip escapes and turn to face the opponent, leveraging the inherent instability of reverse mount's backward orientation. The primary target is half guard, where the bottom player can immediately begin working offensive sequences.\n\nThe escape exploits a fundamental weakness of reverse mount: the top player cannot see the bottom player's upper body movements and lacks the head control available in standard mount. This reduced sensory feedback creates windows for the bottom player to initiate turns and hip escapes that would be more easily detected and countered from standard mount. The technique demands precise timing — escaping too early before creating proper angles wastes energy, while waiting too long allows the top player to transition to more stable positions like standard mount or back control.\n\nStrategically, this escape fits within the broader reverse mount survival framework. When combined with neck protection and continuous defensive movement, the hip escape to half guard provides a reliable pathway out of this dangerous transitional position. The technique is particularly effective against opponents who hesitate in reverse mount rather than immediately transitioning, punishing positional indecision with systematic guard recovery.",
   "variants_and_adaptations": [
     {
       "variant_name": "Bridge and Turn Escape",
@@ -97,7 +98,7 @@
       "relationship": "Related position — opponent may convert to standard mount during failed escape attempt"
     },
     {
-      "name": "Elbow Escape from Mount",
+      "name": "Elbow Escape to Guard",
       "relationship": "Related escape concept using similar hip escape mechanics adapted for reverse orientation"
     }
   ],

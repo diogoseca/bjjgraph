@@ -10,6 +10,41 @@ description: "Master the North-South Recovery from Jailbreak in BJJ. Learn weigh
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "North-South Recovery from Jailbreak",
+  "description": "Master the North-South Recovery from Jailbreak in BJJ. Learn weight redistribution, hip clearing, and pressure consolidation to secure dominant north-south control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "North-South Recovery from Jailbreak", "item": "https://bjjgraph.org/Transitions/North-South-Recovery-from-Jailbreak" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "North-South Recovery from Jailbreak",
+  "description": "The North-South Recovery from Jailbreak is a top-game consolidation where a passer stalled against extended leg defense abandons forward pressure and walks circularly around the opponent's head to establish the crushing perpendicular pin of North-South control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the North-South Recovery from Jailbreak in BJJ. Learn weigh
 </div>
 
 <section id="overview" class="content-section">
+
+**The North-South Recovery from Jailbreak is a top-game consolidation where a passer stalled against extended leg defense abandons forward pressure and walks circularly around the opponent's head to establish the crushing perpendicular pin of North-South control.**
 
 The North-South Recovery from Jailbreak is a positional consolidation technique used by the top player when direct guard passing from the Jailbreak position encounters persistent leg defense. Rather than continuing to fight through extended leg barriers with forward pressure, the top player redirects their energy by walking circularly around the bottom player's head to establish the perpendicular chest-to-chest alignment characteristic of North-South control.
 
@@ -216,5 +253,7 @@ The North-South Recovery from Jailbreak functions as a critical decision point i
 
 
 </section>
+
+
 
 </main>

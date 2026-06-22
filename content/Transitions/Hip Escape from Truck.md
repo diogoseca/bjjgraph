@@ -10,6 +10,41 @@ description: "Master the hip escape from truck position in BJJ. Step-by-step esc
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Hip Escape from Truck",
+  "description": "Master the hip escape from truck position in BJJ. Step-by-step escape mechanics to recover half guard while defending against twister and calf slicer.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Hip Escape from Truck", "item": "https://bjjgraph.org/Transitions/Hip-Escape-from-Truck" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Hip Escape from Truck",
+  "description": "The hip escape from truck is a defensive escape that uses sequential shrimping to extract the trapped leg and recover half guard from the 10th Planet truck position while defending the twister and calf slicer threats.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the hip escape from truck position in BJJ. Step-by-step esc
 
 <section id="overview" class="content-section">
 
-The hip escape from truck is a fundamental positional escape that uses shrimping mechanics to extract the trapped leg and recover half guard from one of BJJ's most dangerous back-attack positions. The technique exploits windows of opportunity created when the truck top player's upper body control loosens, particularly during transitions between submission attempts or when boot pressure has been partially addressed. By creating lateral distance through systematic hip movement and addressing the opponent's boot pressure as the primary obstacle, the bottom player methodically works toward a recoverable guard position where the positional threat is dramatically reduced.
+**The hip escape from truck is a defensive escape that uses sequential shrimping to extract the trapped leg and recover half guard from the 10th Planet truck position while defending the twister and calf slicer threats.**
+
+Within the truck bottom escape hierarchy, the hip escape serves as the methodical, moderate-risk alternative to the more dynamic granby roll, applying universal shrimping mechanics to one of BJJ's most dangerous back-attack positions. The technique exploits windows of opportunity created when the truck top player's upper body control loosens, particularly during transitions between submission attempts or when boot pressure has been partially addressed. By creating lateral distance through systematic hip movement and addressing the opponent's boot pressure as the primary obstacle, the bottom player methodically works toward a recoverable guard position where the positional threat is dramatically reduced.
 
 The strategic value of this escape lies in its reliability as a moderate-risk, controlled option compared to more dynamic alternatives like the granby roll. While rolling escapes offer higher reward potential through complete guard recovery or scrambles, the hip escape provides a more predictable path with lower risk of additional back exposure during execution. The technique demands patience, proper timing coordinated with the opponent's weight shifts, and sequential use of frames followed by hip movement to succeed against a competent truck player.
 
@@ -222,5 +259,7 @@ The hip escape from truck occupies a critical position within the truck bottom e
 
 
 </section>
+
+
 
 </main>

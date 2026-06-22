@@ -142,11 +142,24 @@ description: "Master the Position-Over-Submission philosophy in BJJ. Learn strat
 }
 </script>
 
-> Position-Over-Submission Approach is a medium complexity BJJ principle applicable at the Intermediate level. Develop over Beginner to Advanced.
 
-**Application Level**: Intermediate
-**Complexity**: Medium
-**Development Timeline**: Beginner to Advanced
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Position-Over-Submission Approach",
+  "description": "A Position-Over-Submission Approach is the strategy of securing dominant, control-secure positions before attempting submissions, since higher positions yield safer, higher-percentage finishes with far less risk of escapes or reversals.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Intermediate</span>
+<span class="meta-chip">Medium complexity</span>
+<span class="meta-chip">Beginner to Advanced</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -155,7 +168,9 @@ description: "Master the Position-Over-Submission philosophy in BJJ. Learn strat
 
 ## What is Position-Over-Submission Approach?
 
-The Position Over Submission Approach is a foundational strategic philosophy in Brazilian Jiu-Jitsu that prioritizes establishing and improving positional dominance before attempting submissions. This concept recognizes that superior positioning creates more reliable submission opportunities while reducing risk of counter-attacks or position loss. The approach operates on the principle that each positional advancement increases control, reduces opponent options, and creates submission opportunities from positions of safety and dominance.
+**A Position-Over-Submission Approach is the strategy of securing dominant, control-secure positions before attempting submissions, since higher positions yield safer, higher-percentage finishes with far less risk of escapes or reversals.**
+
+Position before submission is one of the oldest pieces of strategic wisdom in Brazilian Jiu-Jitsu, popularized through Gracie-era competition and later reinforced by points-based rulesets that explicitly reward systematic advancement. Rather than treating a match as a hunt for the first available submission, this framework treats it as a campaign to climb the positional hierarchy — guard retention or passing, then side control, mount, and back control — where each rung makes the opponent's escapes harder and your finishes higher-percentage.
 
 This strategic framework guides practitioners to think hierarchically about positions, moving systematically through progressively more dominant positions (guard passing to side control to mount to back control) before committing to submission attempts. By prioritizing positional advancement, practitioners develop better control mechanics, reduce energy expenditure through premature submission attempts, and create psychological pressure on opponents who face continuous positional degradation. The position-first mindset also develops superior defensive awareness, as practitioners learn to recognize when their position is compromised and prioritize recovery over offensive action.
 
@@ -207,11 +222,9 @@ The Position Over Submission philosophy extends beyond individual technique exec
 ## Where to Apply
 **Mount**: From mount, the position-over-submission approach emphasizes securing high mount or technical mount control before attempting armbars or chokes, ensuring that submission attempts don't compromise the dominant position and allow opponent to escape back to guard.
 
-**Side Control**: In side control, practitioners focus on establishing cross-face, weight distribution, and base control before transitioning to mount or submissions, recognizing that premature submission attempts often result in opponent recovering guard or initiating scrambles.
+**Knee on Belly**: When in knee on belly, practitioners use the position to score points and create submission threats while prioritizing transitions to mount or side control when opponent's defenses create openings, rather than forcing low-percentage submissions.
 
 **Back Control**: From back control, the approach prioritizes securing both hooks, seat belt grip, and preventing opponent's defensive hand fighting before attempting rear naked chokes, understanding that rushed submission attempts allow opponents to escape the position.
-
-**Knee on Belly**: When in knee on belly, practitioners use the position to score points and create submission threats while prioritizing transitions to mount or side control when opponent's defenses create openings, rather than forcing low-percentage submissions.
 
 **North-South**: From north-south, the concept guides practitioners to establish tight chest pressure and arm control before attempting north-south chokes or kimuras, recognizing that positional stability creates better finishing opportunities than rushed attempts.
 
@@ -233,7 +246,7 @@ The Position Over Submission philosophy extends beyond individual technique exec
 
 **Ashi Garami**: From ashi garami leg entanglements, the approach emphasizes securing proper control positions and breaking opponent's defensive structure before committing to heel hook or kneebar finishing mechanics that might allow positional escapes.
 
-**Standing Position**: In standing exchanges, the position-over-submission philosophy prioritizes executing takedowns to achieve top position rather than attempting guillotines or other submissions that might result in guard pulls or failed attempts.
+**Clinch**: In standing exchanges, the position-over-submission philosophy prioritizes executing takedowns to achieve top position rather than attempting guillotines or other submissions that might result in guard pulls or failed attempts.
 
 
 
@@ -356,14 +369,12 @@ Training exercises where practitioners must maintain dominant positions for spec
 ### Related Principles
 - **[[Positional Hierarchy]]** (Prerequisite): Understanding the positional hierarchy is fundamental to the position-over-submission approach, as it provides the framework for determining which positions warrant submission attempts versus which require further advancement.
 - **[[Control Point Hierarchy]]** (Complementary): Control point hierarchy works synergistically with position-over-submission philosophy by identifying specific control mechanics that must be established before submissions become high-percentage options from each position.
-- **[[Submission Defense]]** (Complementary): Submission defense frameworks inform position-over-submission decisions by illustrating how failed attacks create vulnerabilities, reinforcing why positional security must precede offensive commitments.
+- **[[Defensive Concepts]]** (Complementary): Defensive concepts inform position-over-submission decisions by illustrating how failed attacks create vulnerabilities, reinforcing why positional security must precede offensive commitments.
 - **[[Energy Conservation]]** (Extension): The position-first approach extends energy conservation principles by reducing wasted energy on premature submission attempts, instead channeling effort into efficient positional advancement that creates sustainable control.
 - **[[Escape Fundamentals]]** (Complementary): Understanding escape fundamentals complements position-over-submission by illustrating how defensive strategy also prioritizes positional recovery over offensive gambles when in inferior positions.
 - **[[Competition Mindset]]** (Extension): Position-over-submission philosophy serves as a foundational element of competition mindset, particularly in point-scoring formats where positional advancement directly contributes to winning while reducing counter-attack risks.
 - **[[Control Maintenance]]** (Complementary): Control maintenance principles support position-over-submission by emphasizing the importance of securing and retaining positional advantages before committing to offensive finishing attempts.
 - **[[Guard Passing]]** (Extension): Guard passing principles exemplify position-over-submission philosophy by prioritizing systematic pass completion and consolidation before attempting submissions from top positions.
-- **[[Submission Chains]]** (Extension): Understanding submission chains demonstrates how position-over-submission philosophy manifests in practice, using positional dominance to create sequential submission threats that compound pressure on the opponent.
-- **[[Defensive Concepts]]** (Complementary): Defensive concepts align with position-over-submission by prioritizing positional recovery and escape over offensive actions when in inferior positions, maintaining strategic discipline under pressure.
 - **[[Position Chains]]** (Extension): Position chains exemplify the systematic positional advancement that position-over-submission philosophy advocates, showing how positions link together to create pathways to dominance.
 - **[[Positional Sparring]]** (Complementary): Positional sparring methodologies support position-over-submission development by allowing practitioners to build positional control under gradually increasing resistance before adding submission finishing.
 
@@ -372,15 +383,35 @@ Training exercises where practitioners must maintain dominant positions for spec
 - [[Positional Hierarchy]] (Principle) - Foundational framework that defines which positions are superior and should be prioritized in the position-over-submission approach
 - [[Control Point Hierarchy]] (Principle) - Identifies specific control mechanisms that must be established at each position before submissions become high-percentage options
 - [[Mount]] (Position) - Exemplifies a dominant position where position-over-submission philosophy supports securing high mount before attempting submissions
-- [[Side Control]] (Position) - Demonstrates intermediate dominant position where control establishment precedes submission attempts or transitions to mount
 - [[Back Control]] (Position) - Represents highest position in hierarchy where position-first approach emphasizes hook and grip security before choke attempts
 - [[Defensive Concepts]] (Principle) - Illustrates the defensive application of position-over-submission where positional recovery takes absolute priority over offensive actions from inferior positions
 - [[Competition Mindset]] (Principle) - Broader strategic framework that incorporates position-over-submission as fundamental principle for competition success
-- [[Submission Defense]] (Principle) - Provides analytical framework for understanding why failed attacks create positional vulnerabilities, reinforcing position-first philosophy
+- [[Control Maintenance]] (Principle) - Provides the control mechanics that must be secured at each position before failed attacks can create positional vulnerabilities, reinforcing position-first philosophy
 - [[Energy Conservation]] (Principle) - Complements position-first approach by demonstrating energy efficiency gained through positional control versus submission chasing
 - [[Escape Fundamentals]] (Principle) - Shows defensive parallel to position-over-submission where positional recovery precedes offensive considerations
 - [[Roger Gracie Fundamental System]] (System) - Exemplifies traditional position-over-submission philosophy through systematic positional advancement and control-based finishing
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Submission-Clinic-System" data-cta="related-system-card" data-system-slug="systems/submission-clinic-system" data-system-name="Submission Clinic System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Submission Clinic System</span><span class="system-card__unlocks-badge">Unlocks 30 techniques</span><span class="system-card__blurb">Philosophical foundation prioritizing control before finishing</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/IBJJF-Strategy-Guide" data-cta="related-system-card" data-system-slug="systems/ibjjf-strategy-guide" data-system-name="IBJJF Strategy Guide" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">IBJJF Strategy Guide</span><span class="system-card__unlocks-badge">Unlocks 27 techniques</span><span class="system-card__blurb">Core tactical principle for IBJJF competition where position secures points before submission attempts</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Lachlan-Giles-Leg-Lock-Defense-Framework" data-cta="related-system-card" data-system-slug="systems/lachlan-giles-leg-lock-defense-framework" data-system-name="Lachlan Giles Leg Lock Defense Framework" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Lachlan Giles Leg Lock Defense Framework</span><span class="system-card__unlocks-badge">Unlocks 26 techniques</span><span class="system-card__blurb">Strategic philosophy emphasizing positional escape before attempting counter-attacks</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Back-Attack-System" data-cta="related-system-card" data-system-slug="systems/back-attack-system" data-system-name="Back Attack System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Back Attack System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Strategic framework prioritizing dominant position establishment</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Blue-to-Purple-Progression" data-cta="related-system-card" data-system-slug="systems/blue-to-purple-progression" data-system-name="Blue to Purple Progression" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Blue to Purple Progression</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Strategic framework emphasizing positional dominance before submission attempts</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Competition-Scoring-Strategy" data-cta="related-system-card" data-system-slug="systems/competition-scoring-strategy" data-system-name="Competition Scoring Strategy" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Competition Scoring Strategy</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Strategic philosophy prioritizing point accumulation before finishes</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Competition-Strategy" data-cta="related-system-card" data-system-slug="systems/competition-strategy" data-system-name="Competition Strategy" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Competition Strategy</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Strategic principle prioritizing positional dominance before submission hunting to minimize reversal risk</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Teaching-Methodology-Framework" data-cta="related-system-card" data-system-slug="systems/teaching-methodology-framework" data-system-name="Teaching Methodology Framework" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Teaching Methodology Framework</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Strategic philosophy emphasizing positional control before attacking submissions</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Roger-Gracie-Fundamental-System" data-cta="related-system-card" data-system-slug="systems/roger-gracie-fundamental-system" data-system-name="Roger Gracie Fundamental System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Roger Gracie Fundamental System</span><span class="system-card__unlocks-badge">Unlocks 22 techniques</span><span class="system-card__blurb">Core philosophy - perfect position makes submission inevitable</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Mikey-Musumeci-Berimbolo-System" data-cta="related-system-card" data-system-slug="systems/mikey-musumeci-berimbolo-system" data-system-name="Mikey Musumeci Berimbolo System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Mikey Musumeci Berimbolo System</span><span class="system-card__unlocks-badge">Unlocks 21 techniques</span><span class="system-card__blurb">Guides consolidating back control fully before chasing finishes</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Defensive-Prioritization-Framework" data-cta="related-system-card" data-system-slug="systems/defensive-prioritization-framework" data-system-name="Defensive Prioritization Framework" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Defensive Prioritization Framework</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Prioritization principle that informs threat evaluation and risk-reward decisions in the framework</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Mental-Game-Framework" data-cta="related-system-card" data-system-slug="systems/mental-game-framework" data-system-name="Mental Game Framework" data-member-count="15"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Mental Game Framework</span><span class="system-card__unlocks-badge">Unlocks 15 techniques</span><span class="system-card__blurb">Strategic philosophy requiring mental discipline and patient execution</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

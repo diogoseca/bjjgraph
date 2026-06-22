@@ -1,6 +1,7 @@
 {
   "name": "Kimura from Armbar Control",
   "description": "Master the Kimura shoulder lock from Armbar Control in BJJ. Learn figure-four grip transitions, finishing mechanics, and high-percentage chain attacks.",
+  "summary": "The Kimura from Armbar Control is a shoulder-lock chain attack where the top player, facing an opponent who bends their arm to defend the armbar, secures a figure-four grip and internally rotates the trapped forearm, driving the wrist toward the lower back to threaten the shoulder.",
   "tags": [
     "bjj",
     "submission",
@@ -174,25 +175,25 @@
       {
         "step_number": 4,
         "action": "Secure Elbow-to-Chest Contact",
-        "description": "Pull the opponent's bent elbow tight against your chest using the figure-four grip. This creates the critical fulcrum point for the rotational finish. The closer their elbow sits to your sternum, the greater the mechanical advantage you generate when applying the external rotation to the shoulder.",
+        "description": "Pull the opponent's bent elbow tight against your chest using the figure-four grip. This creates the critical fulcrum point for the rotational finish. The closer their elbow sits to your sternum, the greater the mechanical advantage you generate when applying the internal rotation to the shoulder.",
         "timing": "0.5-1 second to establish contact"
       },
       {
         "step_number": 5,
         "action": "Adjust Hip Angle for Rotation",
-        "description": "Scoot your hips slightly toward the opponent's head to create the optimal angle for external rotation of their shoulder joint. Your hip bone should press firmly into the back of their shoulder, anchoring the joint in place while your arms control the lever formed by their forearm.",
+        "description": "Scoot your hips slightly toward the opponent's head to create the optimal angle for internal rotation of their shoulder joint. Your hip bone should press firmly into the back of their shoulder, anchoring the joint in place while your arms control the lever formed by their forearm.",
         "timing": "1-2 seconds for positional adjustment"
       },
       {
         "step_number": 6,
-        "action": "Apply Controlled External Rotation",
-        "description": "Using your figure-four grip, rotate the opponent's forearm away from their body in a controlled arc toward their hip. Drive the rotation through your core and hip pressure rather than arm strength alone. In training, apply pressure progressively over three to five seconds, giving your partner time to recognize the danger and tap safely.",
+        "action": "Apply Controlled Internal Rotation",
+        "description": "Using your figure-four grip, rotate the opponent's forearm in a controlled arc toward their lower back and feet, driving their wrist behind their back. Drive the rotation through your core and hip pressure rather than arm strength alone. In training, apply pressure progressively over three to five seconds, giving your partner time to recognize the danger and tap safely.",
         "timing": "3-5 seconds progressive application in training"
       },
       {
         "step_number": 7,
         "action": "Complete the Finish with Combined Pressure",
-        "description": "Complete the submission by simultaneously maintaining hip pressure against the shoulder, squeezing your knees to prevent escape, and continuing the external rotation until your partner taps. The three-dimensional pressure system of hip anchor, elbow fulcrum, and rotational force creates a finish that is extremely difficult to resist once properly locked in place.",
+        "description": "Complete the submission by simultaneously maintaining hip pressure against the shoulder, squeezing your knees to prevent escape, and continuing the internal rotation until your partner taps. The three-dimensional pressure system of hip anchor, elbow fulcrum, and rotational force creates a finish that is extremely difficult to resist once properly locked in place.",
         "timing": "1-3 seconds to finish once rotation begins"
       }
     ],
@@ -241,7 +242,7 @@
       {
         "error": "Failing to pin opponent's elbow to chest before attempting the rotation",
         "consequence": "Without the elbow as a fixed fulcrum point, rotational force dissipates across the entire arm instead of concentrating on the shoulder joint, making the finish ineffective",
-        "correction": "Before any rotation, pull the elbow tight to your sternum using the figure-four grip. Verify you feel bone-to-bone contact before beginning external rotation."
+        "correction": "Before any rotation, pull the elbow tight to your sternum using the figure-four grip. Verify you feel bone-to-bone contact before beginning internal rotation."
       },
       {
         "error": "Attempting the kimura transition when the opponent's arm is still relatively straight",
@@ -251,7 +252,7 @@
       {
         "error": "Threading the figure-four grip from the wrong side of the forearm",
         "consequence": "Grip ends up in a reverse configuration that applies pressure in the wrong rotational direction, producing no submission threat and wasting a transition opportunity",
-        "correction": "Thread your near-side hand under the opponent's forearm from the outside (toward their hand), then connect to your own wrist. Verify the grip produces external rotation when you push the forearm away from their body."
+        "correction": "Thread your near-side hand under the opponent's forearm from the outside (toward their hand), then connect to your own wrist. Verify the grip produces internal rotation, driving the wrist toward their lower back, when you rotate the forearm."
       }
     ],
     "training_progressions": [
@@ -279,7 +280,7 @@
     "flashcards": [
       {
         "question": "What anatomical structures does the Kimura from Armbar Control primarily attack?",
-        "answer": "The Kimura from Armbar Control targets the shoulder joint through forced external rotation, specifically stressing the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the shoulder capsule, the glenoid labrum, and the surrounding ligaments. The rotational force is concentrated on the glenohumeral joint where the humerus meets the scapula.",
+        "answer": "The Kimura from Armbar Control targets the shoulder joint through forced internal rotation, driving the bent forearm and wrist toward the opponent's lower back, specifically stressing the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the shoulder capsule, the glenoid labrum, and the surrounding ligaments. The rotational force is concentrated on the glenohumeral joint where the humerus meets the scapula.",
         "safety_critical": false
       },
       {
@@ -289,7 +290,7 @@
       },
       {
         "question": "What is the critical mechanical difference between finishing an armbar and finishing a kimura from the same armbar control position?",
-        "answer": "The armbar uses linear extension force through hip elevation against a straightened elbow joint, with the fulcrum at the elbow. The kimura uses rotational force through external rotation of a bent arm, with the fulcrum at the shoulder. The armbar requires arm straightness while the kimura requires arm bend. Both use hip-to-shoulder proximity but the force vector changes from vertical extension to lateral rotation.",
+        "answer": "The armbar uses linear extension force through hip elevation against a straightened elbow joint, with the fulcrum at the elbow. The kimura uses rotational force through internal rotation of a bent arm, driving the wrist toward the lower back, with the fulcrum at the shoulder. The armbar requires arm straightness while the kimura requires arm bend. Both use hip-to-shoulder proximity but the force vector changes from vertical extension to rotation of the shoulder.",
         "safety_critical": false
       },
       {
@@ -319,7 +320,7 @@
       },
       {
         "question": "What indicates you have reached the point of no escape when finishing the Kimura from Armbar Control?",
-        "answer": "The point of no escape is reached when three conditions align simultaneously: the opponent's elbow is pinned firmly against your chest creating an immovable fulcrum, your hips are anchored tight against their shoulder preventing any forward escape, and the external rotation has moved their forearm past the plane of their own torso. Once the forearm passes behind the line of their back, the rotational leverage becomes mechanically impossible to resist through strength alone.",
+        "answer": "The point of no escape is reached when three conditions align simultaneously: the opponent's elbow is pinned firmly against your chest creating an immovable fulcrum, your hips are anchored tight against their shoulder preventing any forward escape, and the internal rotation has moved their forearm past the plane of their own torso. Once the forearm passes behind the line of their back, the rotational leverage becomes mechanically impossible to resist through strength alone.",
         "safety_critical": false
       },
       {
@@ -393,7 +394,7 @@
       },
       {
         "error": "Bridging in the wrong direction away from the kimura side",
-        "consequence": "Bridging away from the kimura side actually assists the attacker's rotational direction, accelerating the external rotation of your shoulder toward the tap",
+        "consequence": "Bridging away from the kimura side actually assists the attacker's rotational direction, accelerating the internal rotation of your shoulder toward the tap",
         "correction": "Always bridge toward the kimura side, meaning toward the direction your forearm is being rotated. This counters the rotational force and disrupts the attacker's hip anchor."
       },
       {
@@ -410,12 +411,12 @@
       },
       {
         "question": "When should you tap to the Kimura from Armbar Control to prevent injury?",
-        "answer": "Tap as soon as you feel the external rotation of your shoulder reaching the limit of your comfortable range of motion. Do not wait for pain, as shoulder damage often occurs before significant pain registers. If the figure-four is locked, the elbow is pinned, and the rotation has begun, the mechanical advantage is overwhelmingly in the attacker's favor. Tapping early in training preserves your shoulder health and allows you to train the next day.",
+        "answer": "Tap as soon as you feel the internal rotation of your shoulder reaching the limit of your comfortable range of motion. Do not wait for pain, as shoulder damage often occurs before significant pain registers. If the figure-four is locked, the elbow is pinned, and the rotation has begun, the mechanical advantage is overwhelmingly in the attacker's favor. Tapping early in training preserves your shoulder health and allows you to train the next day.",
         "safety_critical": true
       },
       {
         "question": "What defensive positioning prevents the kimura rotation from being effective?",
-        "answer": "The most effective defensive positioning combines three elements: keeping your elbow pinned tight against your own ribs to deny the fulcrum, pointing your hand toward the ceiling to strengthen the rotator cuff's resistance to external rotation, and turning your body toward the trapped arm side so your torso rotation counteracts the attacker's rotational force. This three-layer defense addresses the submission's mechanics at each point of the lever system.",
+        "answer": "The most effective defensive positioning combines three elements: keeping your elbow pinned tight against your own ribs to deny the fulcrum, pointing your hand toward the ceiling to strengthen the rotator cuff's resistance to internal rotation, and turning your body toward the trapped arm side so your torso rotation counteracts the attacker's rotational force. This three-layer defense addresses the submission's mechanics at each point of the lever system.",
         "safety_critical": false
       },
       {

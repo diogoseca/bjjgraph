@@ -86,6 +86,18 @@ description: "Master BJJ funneling strategy. Systematically reduce opponent opti
 }
 </script>
 
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Funneling",
+  "description": "Funneling is the BJJ strategy of systematically removing an opponent's options -- through grips, positioning, and pressure -- until the only remaining choices force them to fight where you are strongest.",
+  "inDefinedTermSet": "https://bjjgraph.org/Learning/"
+}
+</script>
+
+
 > **Category**: Strategy
 
 
@@ -95,7 +107,9 @@ description: "Master BJJ funneling strategy. Systematically reduce opponent opti
 
 ## What is Funneling?
 
-Funneling is the strategic process of systematically eliminating your opponent's options until they have no choice but to engage where you are strongest. Instead of chasing techniques, you remove escape routes, block defensive pathways, and tighten the available space until the only remaining options all favor you. It is the difference between hunting a rabbit in an open field and guiding it into a narrowing corridor.
+**Funneling is the BJJ strategy of systematically removing an opponent's options -- through grips, positioning, and pressure -- until the only remaining choices force them to fight where you are strongest.**
+
+Every grappling exchange is a contest over options. The player with more available techniques and escape routes dictates the pace; the one whose choices have been stripped away is reacting rather than acting. Funneling is the deliberate management of that asymmetry -- instead of chasing techniques in open space, you remove escape routes, block defensive pathways, and tighten the available room until every remaining option favors you. It is the difference between hunting a rabbit in an open field and guiding it into a narrowing corridor.
 
 In practical terms, funneling happens at every level of BJJ. At the grip level, you strip their grips while establishing yours, removing their ability to create distance or redirect your pressure. At the positional level, you block hip escapes, eliminate frames, and control their ability to turn, until only one direction of movement remains -- and you have a technique ready for that direction. At the game-plan level, you steer the entire match toward the position or submission system where your skills are deepest.
 
@@ -204,16 +218,18 @@ A: Funnel toward your strongest positions -- the ones where you have the deepest
 <section id="related" class="content-section">
 
 ## Related
-- [[Principles/Grips]] (Principle) - Grip fighting is the first and most important layer of the funneling process
-- [[Principles/Frames]] (Principle) - Killing opponent's frames is a key step in removing their defensive options
-- [[Principles/Dominant Angles]] (Principle) - Establishing dominant angles removes escape directions and narrows the opponent's choices
-- [[Principles/Pressure]] (Principle) - Pressure applied correctly limits the opponent's ability to create space and options
-- [[Principles/Distance Control]] (Principle) - Controlling distance determines which techniques are available, a fundamental funneling tool
-- [[Principles/Control Maintenance]] (Principle) - Maintaining control at each stage of the funnel prevents the opponent from reopening options
-- [[Positions/Side Control]] (Position) - Classic position where funneling -- killing frames, blocking escapes, advancing -- is clearly visible
-- [[Positions/Back Control]] (Position) - Back control funneling focuses on trapping defending arms to open the choke
-- [[Learning/Technique Chaining]] (Learning) - Chains that funnel the opponent's defenses into increasingly narrow options
-- [[Learning/Predictable Responses]] (Learning) - Funneling works because reduced options make responses predictable
+- [[Grips]] (Principle) - Grip fighting is the first and most important layer of the funneling process
+- [[Hand Fighting]] (Principle) - Hand fighting is how grip-based funneling is won, controlling which grips are available to both players
+- [[Frames]] (Principle) - Killing opponent's frames is a key step in removing their defensive options
+- [[Dominant Angles]] (Principle) - Establishing dominant angles removes escape directions and narrows the opponent's choices
+- [[Pressure]] (Principle) - Pressure applied correctly limits the opponent's ability to create space and options
+- [[Distance Control]] (Principle) - Controlling distance determines which techniques are available, a fundamental funneling tool
+- [[Control Maintenance]] (Principle) - Maintaining control at each stage of the funnel prevents the opponent from reopening options
+- [[Side Control]] (Position) - Classic position where funneling -- killing frames, blocking escapes, advancing -- is clearly visible
+- [[Back Control]] (Position) - Back control funneling focuses on trapping defending arms to open the choke
+- [[Technique Chaining]] (Learning) - Chains that funnel the opponent's defenses into increasingly narrow options
+- [[Predictable Responses]] (Learning) - Funneling works because reduced options make responses predictable
+- [[Mask Your Intentions]] (Learning) - Funneling often disguises the real attack so the opponent's defensive reaction opens the intended path
 
 
 

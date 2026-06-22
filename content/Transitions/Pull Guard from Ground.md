@@ -10,6 +10,41 @@ description: "Master pulling guard from ground position in BJJ. Complete guide c
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Pull Guard from Ground",
+  "description": "Master pulling guard from ground position in BJJ. Complete guide covering grip strategy, hip mechanics, and timing for seated and grounded guard pull entries.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Pull Guard from Ground", "item": "https://bjjgraph.org/Transitions/Pull-Guard-from-Ground" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Pull Guard from Ground",
+  "description": "Pull Guard from Ground is a guard pull initiated from a seated, kneeling, or partially grounded base, where the bottom player uses established grips and an explosive hip bridge to wrap and lock closed guard around an advancing opponent.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master pulling guard from ground position in BJJ. Complete guide c
 </div>
 
 <section id="overview" class="content-section">
+
+**Pull Guard from Ground is a guard pull initiated from a seated, kneeling, or partially grounded base, where the bottom player uses established grips and an explosive hip bridge to wrap and lock closed guard around an advancing opponent.**
 
 Pull Guard from Ground is a transitional technique executed when the bottom player initiates a guard pull from a seated, kneeling, or partially grounded position rather than from a full standing engagement. This variation arises frequently in competition when a practitioner has been knocked down, has voluntarily sat to guard, or finds themselves in a ground-level scramble where traditional standing guard pulls are not viable. The technique requires specific grip configurations and timing adjustments compared to standing guard pulls because the hip elevation and momentum mechanics differ substantially when starting from a lower base.
 
@@ -222,5 +259,7 @@ Pull Guard from Ground integrates into the broader guard pulling system as a gro
 
 
 </section>
+
+
 
 </main>

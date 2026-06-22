@@ -10,6 +10,41 @@ description: "Master Technical Mount to Mount consolidation in BJJ. Learn leg re
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Technical Mount to Mount",
+  "description": "Master Technical Mount to Mount consolidation in BJJ. Learn leg retraction mechanics, pressure maintenance, and escape prevention for dominant mount cycling.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Technical Mount to Mount", "item": "https://bjjgraph.org/Transitions/Technical-Mount-to-Mount" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Technical Mount to Mount",
+  "description": "Technical Mount to Mount is a positional consolidation that retracts the posted leg back into a symmetric full-mount base, preserving top dominance when armbar and back-take threats from the asymmetric technical mount have been defended.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Technical Mount to Mount consolidation in BJJ. Learn leg re
 </div>
 
 <section id="overview" class="content-section">
+
+**Technical Mount to Mount is a positional consolidation that retracts the posted leg back into a symmetric full-mount base, preserving top dominance when armbar and back-take threats from the asymmetric technical mount have been defended.**
 
 Technical Mount to Mount is the consolidation transition where the top player returns from the asymmetric Technical Mount configuration to standard full Mount. This transition typically occurs when armbar and submission opportunities from Technical Mount have not materialized—either the bottom player successfully defended arm isolation, retracted their arm before the swing-over, or defensive framing made continued Technical Mount suboptimal. Rather than forcing a low-percentage finish, the experienced practitioner recognizes when consolidation preserves positional dominance more effectively than persistent attacking from a compromised angle.
 
@@ -220,5 +257,7 @@ Technical Mount to Mount sits at the core of the mount variation cycling system 
 
 
 </section>
+
+
 
 </main>

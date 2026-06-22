@@ -172,11 +172,7 @@ description: "How to execute Ushiro Ashi-Garami to Deep Half in BJJ. Attacking p
 
 <section id="overview" class="content-section">
 
-The Ushiro Ashi-Garami to Deep Half Guard transition is an advanced defensive technique that converts a compromised reversed leg entanglement into a strong sweeping and recovery position. When trapped in ushiro ashi-garami bottom, the defender leverages their inverted hip orientation to thread underneath the opponent's hips and establish deep half guard, simultaneously clearing the leg entanglement and creating offensive opportunities.
-
-This transition exploits a fundamental biomechanical reality: the inverted hip position that makes ushiro ashi-garami dangerous also creates a natural pathway underneath the opponent's center of gravity. By redirecting escape momentum downward rather than continuing rotation toward turtle, the defender can thread their body beneath the opponent's hips, establish an underhook on the far leg, and consolidate deep half guard. The opponent's commitment to maintaining the reversed leg entanglement often leaves them poorly based to resist the deep half entry.
-
-Strategically, this transition is most valuable when standard escape routes to turtle or standing are blocked by the opponent's superior leg control. Rather than fighting against deep entanglement with diminishing returns, the deep half entry accepts proximity to the opponent while fundamentally changing the positional dynamic. Once deep half guard is established, the defender gains access to waiter sweeps, Homer Simpson sweeps, and electric chair variations that can completely reverse the position. The transition requires precise timing during the opponent's grip adjustment phases and strong understanding of both leg entanglement mechanics and deep half guard principles.
+From ushiro ashi-garami bottom, the player executing this escape treats the reversed entanglement not as a trap to survive but as a pre-loaded angle to exploit. The inverted hips that the opponent created by following your inversion are precisely what let you thread your head and shoulders beneath their center of gravity. Your job as the bottom player is to redirect that momentum downward rather than continuing to spin toward turtle, secure a deep underhook on the far leg, and extract the trapped leg into a deep half hook before they can deepen to saddle or finish a heel hook. Success converts a compromised leg-lock defense into a dominant sweeping platform where the opponent is poorly based and immediately vulnerable to waiter and Homer Simpson sweeps.
 
 **From Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Bottom)
 
@@ -331,5 +327,7 @@ Incorporate the deep half entry into live rolling from ushiro ashi-garami bottom
 This transition involves movement through active leg entanglement positions where heel hook and ankle lock submissions are live threats throughout. Never relax dorsiflexion during any phase of the entry - heel hook injuries occur most frequently during transitions when defensive attention is divided between positional movement and submission defense. If any heel hook grip is established during the threading phase, immediately stop all positional movement and address the submission. Practice at low intensity initially, with partners understanding the tap-early protocol for any rotational pressure on the knee. Avoid training this transition when fatigued, as the precise foot positioning and timing requirements degrade significantly with exhaustion, increasing injury risk. Partners should apply submission attempts slowly and release immediately upon tap during drilling phases.
 
 </section>
+
+
 
 </main>

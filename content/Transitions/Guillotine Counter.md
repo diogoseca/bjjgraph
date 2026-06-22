@@ -10,6 +10,41 @@ description: "Master the Guillotine Counter in BJJ. Systematic defense turning a
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Guillotine Counter",
+  "description": "Master the Guillotine Counter in BJJ. Systematic defense turning a dangerous choke into dominant Side Control through posture, pressure, and circular escape.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Guillotine Counter", "item": "https://bjjgraph.org/Transitions/Guillotine-Counter" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Guillotine Counter",
+  "description": "The Guillotine Counter is a systematic escape in which the trapped player tucks the chin, controls the choking arm, and drives forward pressure while circling away from the choke to extract the head and pass to Side Control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Guillotine Counter in BJJ. Systematic defense turning a
 
 <section id="overview" class="content-section">
 
-The Guillotine Counter is a critical defensive technique that transforms a dangerous submission threat into a dominant top position. When caught in a guillotine choke, whether standing or on the ground, understanding proper defensive mechanics can mean the difference between tapping and establishing control. This counter relies on fundamental principles of posture management, pressure application, and strategic hand positioning to neutralize the choking threat while simultaneously advancing position. The technique is particularly valuable in both gi and no-gi contexts, as guillotine attempts are common across all levels of competition. By mastering this counter, practitioners develop confidence in scramble situations and learn to remain calm under submission pressure. The guillotine counter exemplifies the BJJ principle that every offensive technique has a systematic defense, and that proper technique overcomes strength and panic.
+**The Guillotine Counter is a systematic escape in which the trapped player tucks the chin, controls the choking arm, and drives forward pressure while circling away from the choke to extract the head and pass to Side Control.**
+
+When a guillotine snaps tight around your neck — whether off a failed shot, a guard pull, or a scramble — the instinct to rip your head straight back is exactly what finishes the choke, and the systematic counter exists to replace that panic with a repeatable sequence. This counter relies on fundamental principles of posture management, pressure application, and strategic hand positioning to neutralize the choking threat while simultaneously advancing position. The technique is particularly valuable in both gi and no-gi contexts, as guillotine attempts are common across all levels of competition. By mastering this counter, practitioners develop confidence in scramble situations and learn to remain calm under submission pressure. The guillotine counter exemplifies the BJJ principle that every offensive technique has a systematic defense, and that proper technique overcomes strength and panic.
 
 **From Position**: [[Positions/Guillotine Control]] (Top)
 **Success Rate**: 78%
@@ -221,5 +258,7 @@ The Guillotine Counter is a critical component of front headlock defense and scr
 
 
 </section>
+
+
 
 </main>

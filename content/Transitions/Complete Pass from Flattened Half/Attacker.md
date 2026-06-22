@@ -343,4 +343,6 @@ The Complete Pass from Flattened Half Guard is a relatively low-risk transition 
 
 </section>
 
+
+
 </main>

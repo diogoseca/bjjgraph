@@ -10,6 +10,41 @@ description: "Learn Anaconda from Turtle in BJJ. Step-by-step execution from Tur
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Anaconda from Turtle",
+  "description": "Learn Anaconda from Turtle in BJJ. Step-by-step execution from Turtle Top to Anaconda Control with rolling mechanics, grip details, and defensive strategies.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Anaconda from Turtle", "item": "https://bjjgraph.org/Transitions/Anaconda-from-Turtle" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Anaconda from Turtle",
+  "description": "Anaconda from Turtle is a front-headlock attack from turtle top where you thread an arm under the opponent's neck, trap their near arm, lock a figure-four grip, and roll to secure anaconda control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Learn Anaconda from Turtle in BJJ. Step-by-step execution from Tur
 </div>
 
 <section id="overview" class="content-section">
+
+**Anaconda from Turtle is a front-headlock attack from turtle top where you thread an arm under the opponent's neck, trap their near arm, lock a figure-four grip, and roll to secure anaconda control.**
 
 The Anaconda from Turtle is a dynamic submission setup that transitions from turtle top position to anaconda control through a committed rolling motion. This technique is mechanically related to the Darce choke but distinguished by trapping the near arm instead of the far arm, and it requires rolling to your side or back rather than finishing from top position. The anaconda exploits the opponent's defensive turtle posture by threading your arm under their neck while trapping their near arm, then using a figure-four grip and rolling motion to secure the optimal choking angle.
 
@@ -53,7 +90,7 @@ This technique has become a staple of modern no-gi grappling, particularly effec
 | &nbsp; | Attacker | Defender |
 |--------|----------|----------|
 | **Focus** | Execute technique | Prevent or counter |
-| **Key Principles** | Thread far arm deep under neck with palm-down orientation to... | Prevention is vastly easier than escape - deny the arm trap ... |
+| **Key Principles** | Thread near arm deep under neck with palm-down orientation t... | Prevention is vastly easier than escape - deny the arm trap ... |
 | **Options** | 7 execution steps | 4 defensive options |
 
 </section>
@@ -67,7 +104,7 @@ This technique has become a staple of modern no-gi grappling, particularly effec
 ### Key Principles
 
 
-- Thread far arm deep under neck with palm-down orientation toward near shoulder for optimal bone alignment
+- Thread near arm deep under neck with palm-down orientation toward far shoulder for optimal bone alignment
 
 - Trap the near arm (not far arm) between your choking arm and their neck to create the anaconda-specific bilateral pressure
 
@@ -87,7 +124,7 @@ This technique has become a staple of modern no-gi grappling, particularly effec
 
 - **Establish Turtle Top Control**: Secure turtle top position with chest pressure on opponent's back while controlling their near-side ...
 
-- **Thread Choking Arm Under Neck**: Thread your far-side arm under opponent's neck toward their near shoulder, maintaining palm-down ori...
+- **Thread Choking Arm Under Neck**: Thread your near-side arm under opponent's neck toward their far shoulder, maintaining palm-down ori...
 
 - **Trap the Near Arm**: Ensure opponent's near arm is trapped between your choking arm and their neck. This is the critical ...
 
@@ -232,5 +269,7 @@ The anaconda from turtle is part of the front headlock attack family and represe
 
 
 </section>
+
+
 
 </main>

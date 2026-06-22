@@ -10,6 +10,41 @@ description: "Master the Seat Belt Control transition from Mounted Crucifix in B
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Seat Belt Control Back",
+  "description": "Master the Seat Belt Control transition from Mounted Crucifix in BJJ. Step-by-step grip establishment for securing Back Control with immediate submission threat.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Seat Belt Control Back", "item": "https://bjjgraph.org/Transitions/Seat-Belt-Control-Back" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Seat Belt Control Back",
+  "description": "Seat Belt Control Back is the transition from mounted crucifix to full back control, where you establish an over-under harness grip before releasing the leg entanglement and sliding your hips behind the opponent to secure hooks or a body triangle.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Seat Belt Control transition from Mounted Crucifix in B
 </div>
 
 <section id="overview" class="content-section">
+
+**Seat Belt Control Back is the transition from mounted crucifix to full back control, where you establish an over-under harness grip before releasing the leg entanglement and sliding your hips behind the opponent to secure hooks or a body triangle.**
 
 The Seat Belt Control Back transition represents a critical link between mounted crucifix dominance and full back control. When you have achieved the mounted crucifix position with arm isolation established, transitioning to seat belt back control allows you to capitalize on that control while securing one of the highest-percentage finishing positions in jiu-jitsu.
 
@@ -206,16 +243,25 @@ Seat Belt Control Back serves as the critical link between mounted crucifix domi
 
 - [[Transitions/Armbar from Crucifix]] - Alternative attack from the starting position instead of transitioning
 
-- [[Submissions/Choke from Crucifix]] - Alternative attack from the starting position instead of transitioning
-
 - [[Positions/Mount/High Mount]] - Common entry path leading to mounted crucifix before this transition
-
-- [[Positions/Mount/S Mount]] - Alternative mount attack position that also leads to crucifix entries
 
 - [[Transitions/Back Take from Top]] - Related back take transition from other top positions
 
 - [[Transitions/Gift Wrap Transition]] - Alternative arm control transition from similar starting positions
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Danaher Straight Jacket System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Foundational control configuration that serves as the base level for all system progressions</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Garry-Tonon-Leg-Lock-to-Back-System" data-cta="related-system-card" data-system-slug="systems/garry-tonon-leg-lock-to-back-system" data-system-name="Garry Tonon Leg Lock to Back System" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Garry Tonon Leg Lock to Back System</span><span class="system-card__unlocks-badge">Unlocks 26 techniques</span><span class="system-card__blurb">Specific back control configuration achieved from leg attack transitions</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Back-Attack-System" data-cta="related-system-card" data-system-slug="systems/back-attack-system" data-system-name="Back Attack System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Back Attack System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Fundamental control configuration that enables all back attacks</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Back-Defense-Protocol" data-cta="related-system-card" data-system-slug="systems/back-defense-protocol" data-system-name="Back Defense Protocol" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Back Defense Protocol</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Specific grip configuration this system defends against</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

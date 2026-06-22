@@ -1,5 +1,6 @@
 {
   "name": "Omoplata from Guard",
+  "summary": "The Omoplata from Guard is a bottom-guard shoulder lock that traps the opponent's arm with your legs and rotates their shoulder through forward hip extension, doubling as a high-percentage sweep and back-take launchpad.",
   "description": "Master Omoplata from Guard in BJJ. Complete shoulder lock guide with safety protocols, setup, execution. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.",
   "tags": [
     "bjj",
@@ -16,7 +17,7 @@
   "starting_position": "Closed Guard",
   "from_position": "Overhook Guard/Bottom",
   "success_rate": 60,
-  "overview": "The Omoplata from Guard is a versatile shoulder lock that attacks the opponent's rotator cuff and shoulder joint through hip extension and shoulder rotation. This submission originated from Brazilian Jiu-Jitsu's guard-playing traditions and has evolved into a central hub technique that connects sweeps, back takes, and other submissions. The Omoplata creates a mechanical advantage by using the legs to control the opponent's arm while the hips generate rotational pressure on the shoulder. Unlike many submissions that finish quickly, the Omoplata is often used as a position to create movement and opportunity - sweeps when opponent defends by rolling, back takes when they turn away, or transitions to triangles and armbars when they posture. The technique requires excellent hip mobility, timing, and understanding of how to maintain control throughout the finish. As a fundamental guard submission, the Omoplata teaches important principles about using legs for control, creating angles, and maintaining offensive pressure from bottom positions.",
+  "overview": "Although it lives in the submission category, the Omoplata from Guard earns its place in a serious guard game as a positional hub rather than a pure finishing hold. By threading a leg over the opponent's shoulder and trapping the arm against your hip, you force a dilemma: defend the shoulder lock and concede a sweep, or roll and surrender the back. The finish itself comes from rotating the shoulder past its range through forward hip extension while the leg triangle and hip-to-back connection deny every escape lane.\n\nWhat makes the Omoplata so valuable for the developing player is its connectivity. A well-defended Triangle flows into it, a posture-up defense opens the armbar, a forward roll becomes a sweep to mount, and a turn-away becomes a back take. This web of follow-ups means the position keeps paying dividends even when the tap never comes, which is why it remains a staple from blue belt through the black-belt competition scene. Mastery rewards hip mobility, precise angle creation, and the discipline to maintain offensive pressure from underneath rather than chasing a single outcome.",
   "safety_considerations": {
     "injury_risks": [
       {
@@ -94,7 +95,6 @@
   "related_submissions": [
     "Omoplata",
     "Triangle Choke",
-    "Triangle Choke",
     "Far Side Armbar",
     "Kimura",
     "Gogoplata",
@@ -149,7 +149,7 @@
     }
   ],
   "attacker": {
-    "name": "from Guard Attacker",
+    "name": "Omoplata from Guard Attacker",
     "description": "How to execute Omoplata from Guard in BJJ. Attacking perspective with setup, execution, and finishing mechanics.",
     "overview": "The Omoplata from Guard is a versatile shoulder lock that attacks the opponent's rotator cuff and shoulder joint through hip extension and shoulder rotation. This submission originated from Brazilian Jiu-Jitsu's guard-playing traditions and has evolved into a central hub technique that connects sweeps, back takes, and other submissions. The Omoplata creates a mechanical advantage by using the legs to control the opponent's arm while the hips generate rotational pressure on the shoulder. Unlike many submissions that finish quickly, the Omoplata is often used as a position to create movement and opportunity - sweeps when opponent defends by rolling, back takes when they turn away, or transitions to triangles and armbars when they posture. The technique requires excellent hip mobility, timing, and understanding of how to maintain control throughout the finish. As a fundamental guard submission, the Omoplata teaches important principles about using legs for control, creating angles, and maintaining offensive pressure from bottom positions.",
     "key_principles": [
@@ -374,7 +374,7 @@
     ]
   },
   "defender": {
-    "name": "from Guard Defender",
+    "name": "Omoplata from Guard Defender",
     "description": "How to defend against Omoplata from Guard in BJJ. Recognition, escape paths, and defensive strategies.",
     "overview": "Defending the Omoplata from Guard requires early recognition, immediate posture recovery, and systematic escape sequences that prevent the attacker from establishing the finishing position. The Omoplata is unusual among submissions because the danger escalates gradually through a series of control checkpoints rather than a sudden catch, giving the defender multiple windows to escape if they recognize each stage. However, the technique's dual nature as both submission and sweep means that poorly executed escapes often result in losing position rather than returning to safety. The defender must understand that the three critical defensive windows are: before the leg swings over the shoulder (highest percentage escape), during the transition before the attacker sits up (moderate difficulty), and once the attacker has established full finishing position (lowest percentage, highest injury risk). Each window requires different defensive responses, and attempting the wrong escape at the wrong stage can accelerate the submission or expose the back. Successful defense demands posture awareness, arm extraction mechanics, and the discipline to concede guard position rather than risk shoulder injury when the submission is fully locked.",
     "key_principles": [

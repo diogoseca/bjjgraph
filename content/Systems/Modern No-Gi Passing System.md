@@ -134,10 +134,23 @@ description: "Master modern no-gi guard passing with systematic pressure, connec
 }
 </script>
 
-> Modern No-Gi Passing System is a advanced difficulty Passing System system. Integrates 6 components.
 
-**System Type**: Passing System
-**Difficulty Level**: Advanced
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Modern No-Gi Passing System",
+  "description": "The Modern No-Gi Passing System is a pressure-and-connection framework for defeating contemporary gripless guards, using headquarters control, systematic connection breaking, and dynamic floating passes to advance safely past the legs to dominant position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Passing System</span>
+<span class="meta-chip">Advanced difficulty</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -146,11 +159,31 @@ description: "Master modern no-gi guard passing with systematic pressure, connec
 
 ## What is Modern No-Gi Passing System?
 
+**The Modern No-Gi Passing System is a pressure-and-connection framework for defeating contemporary gripless guards, using headquarters control, systematic connection breaking, and dynamic floating passes to advance safely past the legs to dominant position.**
+
 The Modern No-Gi Passing System represents the evolution of guard passing for contemporary grappling, addressing the unique challenges of passing without gi grips. This comprehensive framework integrates pressure-based control, dynamic floating passes, and leg entanglement awareness to systematically defeat modern guard structures including butterfly, half guard, and leg-based guards. The system emphasizes connection breaking, hip pressure application, and transitional fluidity rather than static gripping strategies.
 
 Unlike traditional gi-based passing, this system prioritizes body positioning, weight distribution, and constant forward pressure to nullify the mobility advantages of no-gi guard players. The framework incorporates headquarters position as a central hub, allowing the passer to systematically break down defensive structures while maintaining offensive initiative. Each passing sequence includes both finishing mechanics and recovery protocols when opponents create scrambles or re-guard attempts.
 
 The system's effectiveness stems from its adaptability to different guard types and body types, with specific solutions for common defensive reactions. By mastering this framework, practitioners develop the ability to maintain consistent passing pressure while reading and exploiting defensive patterns in real-time, making it essential for competitive no-gi grappling.
+
+</section>
+
+
+
+<section id="unlock-graph" class="content-section system-unlock" data-system-unlock hidden>
+
+## Unlock this part of the graph
+
+<p class="section-subtitle">This system teaches the highlighted nodes in the graph. Mark what you already know &mdash; be honest, it's your game.</p>
+
+<div class="system-progress" data-system-progress>
+<svg class="system-progress__ring" viewBox="0 0 44 44" aria-hidden="true"><circle class="system-progress__ring-bg" cx="22" cy="22" r="19"></circle><circle class="system-progress__ring-fill" cx="22" cy="22" r="19"></circle></svg>
+<div class="system-progress__text">You've unlocked <strong class="system-progress__known">0</strong> / <span class="system-progress__total">0</span> techniques in this system</div>
+<button class="system-progress__mark-all" data-mark-system type="button">Mark whole system as known</button>
+</div>
+
+<ul class="system-members" data-system-members></ul>
 
 </section>
 

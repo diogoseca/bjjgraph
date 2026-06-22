@@ -142,10 +142,23 @@ description: "Master the fundamental leg lock chain connecting straight ankle lo
 }
 </script>
 
-> Straight Footlock to Kneebar Chain is a advanced difficulty Submission Chain system. Integrates 5 components.
 
-**System Type**: Submission Chain
-**Difficulty Level**: Advanced
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Straight Footlock to Kneebar Chain",
+  "description": "The Straight Footlock to Kneebar Chain is a foundational leg-attack framework that links the straight ankle lock and the kneebar from ashi garami, exploiting each submission's defense to set up the other in a continuous loop.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Submission Chain</span>
+<span class="meta-chip">Advanced difficulty</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -154,11 +167,31 @@ description: "Master the fundamental leg lock chain connecting straight ankle lo
 
 ## What is Straight Footlock to Kneebar Chain?
 
+**The Straight Footlock to Kneebar Chain is a foundational leg-attack framework that links the straight ankle lock and the kneebar from ashi garami, exploiting each submission's defense to set up the other in a continuous loop.**
+
 The Straight Footlock to Kneebar Chain represents one of the most fundamental submission sequences in modern leg lock systems. This attacking framework capitalizes on the biomechanical connection between ankle and knee control, creating a seamless transition pathway that forces opponents into defensive dilemmas. When executed properly, the defender's attempts to defend the footlock naturally expose the knee, while kneebar defense creates footlock opportunities.
 
 This system is built on the principle that leg attacks should never be isolated techniques, but rather interconnected threats that compound pressure on the opponent. The chain begins with establishing positional control in ashi garami variations, securing the straight ankle lock as the primary attack, then transitioning to the kneebar when the opponent attempts specific defensive reactions. The beauty of this system lies in its simplicity—both submissions target the same leg, require similar positional prerequisites, and create natural transition opportunities through opponent movement.
 
 Developed and popularized by modern leg lock specialists, this chain has become a cornerstone of contemporary no-gi grappling. It demonstrates the systematic approach to leg attacks where each submission feeds into the next, creating a closed loop of offensive threats. Mastery of this chain provides a reliable foundation for more complex leg lock systems while teaching the fundamental principles of submission chaining, reaction anticipation, and positional control maintenance.
+
+</section>
+
+
+
+<section id="unlock-graph" class="content-section system-unlock" data-system-unlock hidden>
+
+## Unlock this part of the graph
+
+<p class="section-subtitle">This system teaches the highlighted nodes in the graph. Mark what you already know &mdash; be honest, it's your game.</p>
+
+<div class="system-progress" data-system-progress>
+<svg class="system-progress__ring" viewBox="0 0 44 44" aria-hidden="true"><circle class="system-progress__ring-bg" cx="22" cy="22" r="19"></circle><circle class="system-progress__ring-fill" cx="22" cy="22" r="19"></circle></svg>
+<div class="system-progress__text">You've unlocked <strong class="system-progress__known">0</strong> / <span class="system-progress__total">0</span> techniques in this system</div>
+<button class="system-progress__mark-all" data-mark-system type="button">Mark whole system as known</button>
+</div>
+
+<ul class="system-members" data-system-members></ul>
 
 </section>
 

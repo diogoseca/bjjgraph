@@ -10,10 +10,55 @@ description: "Master the toe hold from Outside Ashi-Garami in BJJ. Complete guid
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Toe Hold from Outside Ashi targets the Foot and ankle joint complex. Risk: Lateral ankle ligament tears (anterior talofibular, calcaneofibular ligaments). Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Toe Hold from Outside Ashi",
+  "description": "Master the toe hold from Outside Ashi-Garami in BJJ. Complete guide to rotational foot lock mechanics, safe finishing technique, and defensive strategies.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Toe Hold from Outside Ashi", "item": "https://bjjgraph.org/Submissions/Toe-Hold-from-Outside-Ashi" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Toe Hold from Outside Ashi",
+  "description": "The Toe Hold from Outside Ashi-Garami is a rotational foot lock applied as a counter from the top of an outside leg entanglement, where the attacker figure-fours the opponent's trapped foot and twists it inward to attack the ankle, foot, and knee.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Toe Hold from Outside Ashi-Garami is a rotational foot lock applied as a counter from the top of an outside leg entanglement, where the attacker figure-fours the opponent's trapped foot and twists it inward to attack the ankle, foot, and knee.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Foot Lock</span>
+<span class="meta-chip">Targets Foot and ankle joint complex</span>
+<span class="meta-chip">40% success</span>
+</div>
+
+> [!danger] Safety
+> Toe Hold from Outside Ashi targets the Foot and ankle joint complex. Primary risk: Lateral ankle ligament tears (anterior talofibular, calcaneofibular ligaments). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -24,59 +69,13 @@ description: "Master the toe hold from Outside Ashi-Garami in BJJ. Complete guid
 
 <section id="overview" class="content-section">
 
-The **Toe Hold from Outside Ashi-Garami** is a rotational foot lock applied as a counter-attack from the top position in an Outside Ashi-Garami leg entanglement. The attacker—whose leg is trapped in the opponent's entanglement—reaches for the bottom player's exposed foot and secures a figure-four grip, creating powerful rotational force through the ankle, foot, and knee structures. This technique serves as a critical counter-attacking weapon that punishes opponents for maintaining loose leg configurations or becoming overly focused on their own offensive attacks.
+Few counter-attacks reframe a defensive leg-entanglement exchange as sharply as the toe hold from the top of Outside Ashi-Garami. The attacker—whose own leg is trapped in the opponent's entanglement—reaches for the bottom player's exposed foot and secures a figure-four grip, creating powerful rotational force through the ankle, foot, and knee structures. This technique serves as a critical counter-attacking weapon that punishes opponents for maintaining loose leg configurations or becoming overly focused on their own offensive attacks.
 
 The toe hold functions by isolating the opponent's foot and twisting it inward using a kimura-style figure-four grip locked around the ankle. The rotational force attacks multiple structures simultaneously: the lateral ankle ligaments, the metatarsal joints of the foot, and transmits torque through the tibial-fibular connection to the knee. This multi-joint vulnerability makes the toe hold particularly dangerous and demands careful, progressive application during training. Unlike heel hooks which primarily attack the knee through rotational force on the heel, the toe hold distributes stress across the entire foot-ankle-knee kinetic chain.
 
 Strategically, the toe hold from Outside Ashi creates a powerful dilemma for the bottom player. They must choose between maintaining their offensive leg entanglement and defending their foot from the rotational attack. When the bottom player commits both hands to a heel hook attempt on the top player's trapped leg, their own feet become unprotected. This counter-attacking dynamic makes the toe hold an essential technique for anyone regularly defending leg entanglements, transforming a defensive position into an immediate submission threat that forces the opponent to reconsider their offensive commitment.
 
-**Category**: Joint Lock
-**Type**: Foot Lock
-**Target Area**: Foot and ankle joint complex
-**Starting Position**: [[Positions/Ashi Garami/Outside Ashi-Garami]]
-**From Position**: [[Positions/Ashi Garami/Outside Ashi-Garami]] (Top)
-**Success Rate**: 40%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Lateral ankle ligament tears (anterior talofibular, calcaneofibular ligaments) | High | 6-12 weeks with physical therapy, potential surgical intervention for complete tears |
-| Knee ligament damage (MCL, meniscus) from transmitted rotational torque through kinetic chain | CRITICAL | 3-6 months, potential surgical repair required for significant tears |
-| Metatarsal fracture from excessive rotational force on the forefoot | Medium | 6-8 weeks in walking boot or cast |
-| Ankle joint dislocation from combined rotational and hyperextension forces | CRITICAL | 3-6 months with surgical reduction and rehabilitation |
-
-
-**Application Speed**: SLOW and progressive. The toe hold can cause structural damage before the opponent registers sufficient pain to tap. Never spike, jerk, or explosively apply rotational pressure. The ankle's structural failure threshold and pain threshold are dangerously close, meaning damage can occur simultaneously with pain onset.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner, own body, or mat (multiple rapid taps)
-- Physical foot tap with free leg on partner or mat
-- Any unusual screaming, gasping, or distress vocalization
-- Going limp or sudden cessation of defensive movement (treat as emergency tap)
-
-
-**Release Protocol**:
-1. Release immediately upon any tap signal—do not maintain torque while unwinding the grip
-2. If opponent shows distress, goes limp, or stops defending, release immediately and check on them
-3. If in doubt about whether opponent tapped, release and re-establish position—safety over position
-4. Unwind the figure-four smoothly rather than simply dropping the foot, as residual tension can cause injury
-
-
-**Training Restrictions**:
-- Toe holds prohibited for white and blue belts under IBJJF rules—train only at appropriate belt levels with qualified instruction
-- No explosive or rapid application under any circumstances—always use slow, progressive rotational pressure
-- Begin drilling with zero resistance and graduated pressure protocols (30%, 50%, 75%) before any live application
-- Training partners must discuss tap threshold and signals before drilling toe holds
-- Avoid toe holds on partners with known ankle or knee injuries or recent surgical history
-
+**Starting Position**: [[Positions/Ashi Garami/Outside Ashi-Garami]] · **From**: [[Positions/Ashi Garami/Outside Ashi-Garami]] (Top)
 
 </section>
 
@@ -244,26 +243,15 @@ Strategically, the toe hold from Outside Ashi creates a powerful dilemma for the
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Transitions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
 - [[Submissions/Achilles Lock]]
 - [[Transitions/Estima Lock]]
 - [[Transitions/Aoki Lock]]
 - [[Submissions/Calf Slicer]]
-- [[Submissions/Inside Heel Hook]]
-- [[Transitions/Estima Lock]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Ashi Garami/Outside Ashi-Garami]] - Primary starting position where this toe hold is executed as a counter-attack from top
 - [[Positions/Ashi Garami]] - Parent position family encompassing all leg entanglement variations where toe holds apply
 - [[Positions/Ashi Garami/50-50 Guard]] - Related leg entanglement where toe holds are also available as counter-attacks
@@ -273,17 +261,49 @@ Strategically, the toe hold from Outside Ashi creates a powerful dilemma for the
 - [[Positions/Straight Ankle Lock Control]] - Related ankle attack position sharing foot and ankle targeting mechanics
 - [[Positions/Leg Entanglement]] - General category of positions where toe hold counter-attacks are strategically relevant
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Lateral ankle ligament tears (anterior talofibular, calcaneofibular ligaments) | High | 6-12 weeks with physical therapy, potential surgical intervention for complete tears |
+| Knee ligament damage (MCL, meniscus) from transmitted rotational torque through kinetic chain | CRITICAL | 3-6 months, potential surgical repair required for significant tears |
+| Metatarsal fracture from excessive rotational force on the forefoot | Medium | 6-8 weeks in walking boot or cast |
+| Ankle joint dislocation from combined rotational and hyperextension forces | CRITICAL | 3-6 months with surgical reduction and rehabilitation |
+
+
+**Application Speed**: SLOW and progressive. The toe hold can cause structural damage before the opponent registers sufficient pain to tap. Never spike, jerk, or explosively apply rotational pressure. The ankle's structural failure threshold and pain threshold are dangerously close, meaning damage can occur simultaneously with pain onset.
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any distress signal)
+- Physical hand tap on partner, own body, or mat (multiple rapid taps)
+- Physical foot tap with free leg on partner or mat
+- Any unusual screaming, gasping, or distress vocalization
+- Going limp or sudden cessation of defensive movement (treat as emergency tap)
+
+
+**Release Protocol**:
+1. Release immediately upon any tap signal—do not maintain torque while unwinding the grip
+2. If opponent shows distress, goes limp, or stops defending, release immediately and check on them
+3. If in doubt about whether opponent tapped, release and re-establish position—safety over position
+4. Unwind the figure-four smoothly rather than simply dropping the foot, as residual tension can cause injury
+
+
+**Training Restrictions**:
+- Toe holds prohibited for white and blue belts under IBJJF rules—train only at appropriate belt levels with qualified instruction
+- No explosive or rapid application under any circumstances—always use slow, progressive rotational pressure
+- Begin drilling with zero resistance and graduated pressure protocols (30%, 50%, 75%) before any live application
+- Training partners must discuss tap threshold and signals before drilling toe holds
+- Avoid toe holds on partners with known ankle or knee injuries or recent surgical history
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Toe Hold from Outside Ashi leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

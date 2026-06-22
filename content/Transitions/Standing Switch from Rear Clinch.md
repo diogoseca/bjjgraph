@@ -10,6 +10,41 @@ description: "Master the Standing Switch from Rear Clinch in BJJ. Wrestling-base
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Standing Switch from Rear Clinch",
+  "description": "Master the Standing Switch from Rear Clinch in BJJ. Wrestling-based reversal escaping standing back control to reverse position or achieve neutral clinch.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Standing Switch from Rear Clinch", "item": "https://bjjgraph.org/Transitions/Standing-Switch-from-Rear-Clinch" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Standing Switch from Rear Clinch",
+  "description": "The Standing Switch from Rear Clinch is a wrestling-based standing reversal in which the controlled grappler drops their level, anchors an arm behind the opponent's hip, and explosively pivots to clear rear control and turn into a dominant rear clinch or neutral clinch.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Standing Switch from Rear Clinch in BJJ. Wrestling-base
 
 <section id="overview" class="content-section">
 
-The Standing Switch from Rear Clinch is a fundamental wrestling-based reversal technique adapted for BJJ that allows a practitioner controlled from behind in standing to pivot, clear the opponent's grips, and rotate into a dominant or neutral position. When an opponent has secured chest-to-back control with a bodylock or seatbelt grip, the switch exploits momentary weight distribution imbalances by redirecting the opponent's forward pressure through a sharp hip rotation combined with arm clearing mechanics. This technique bridges wrestling and jiu-jitsu skill sets, making it essential for practitioners who compete in no-gi or MMA formats where standing rear clinch encounters are frequent.
+**The Standing Switch from Rear Clinch is a wrestling-based standing reversal in which the controlled grappler drops their level, anchors an arm behind the opponent's hip, and explosively pivots to clear rear control and turn into a dominant rear clinch or neutral clinch.**
+
+Bridging the worlds of wrestling and Brazilian Jiu-Jitsu, the Standing Switch is the go-to reversal for a grappler who has been forced into standing rear control and needs to invert the engagement before it reaches the mat. When an opponent has secured chest-to-back control with a bodylock or seatbelt grip, the switch exploits momentary weight distribution imbalances by redirecting the opponent's forward pressure through a sharp hip rotation combined with arm clearing mechanics. This technique bridges wrestling and jiu-jitsu skill sets, making it essential for practitioners who compete in no-gi or MMA formats where standing rear clinch encounters are frequent.
 
 Strategically, the standing switch creates a genuine reversal threat that forces the controlling player to respect defensive capabilities, preventing them from committing fully to takedown entries or mat returns. The technique is most effective when timed against the opponent's weight shifts during grip transitions or takedown setups, transforming their offensive commitment into vulnerability. Executing the switch at the precise moment when the opponent shifts their weight to one side or reaches for a new grip dramatically increases success probability.
 
@@ -225,5 +262,7 @@ The Standing Switch from Rear Clinch occupies a critical node in the standing es
 
 
 </section>
+
+
 
 </main>

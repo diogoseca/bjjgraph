@@ -172,9 +172,9 @@ description: "How to execute Kneebar entry in BJJ. Attacking perspective with se
 
 <section id="overview" class="content-section">
 
-The Kneebar entry from 50-50 Guard Bottom represents a strategic offensive option when heel hook attacks are defended or unavailable. This transition exploits the inherent vulnerability of your opponent's knee joint when their leg is already entangled in the 50-50 configuration. Rather than fighting for heel exposure against a savvy defender, the kneebar entry redirects your attack to target the hyperextension of the knee joint.
+As the top player in 50-50 Guard, the Kneebar entry is your strategic offensive option when heel hook attacks are defended or unavailable. This transition exploits the inherent vulnerability of your opponent's knee joint when their leg is already entangled in the 50-50 configuration. Rather than fighting for heel exposure against a savvy defender, the kneebar entry redirects your attack to target the hyperextension of the knee joint.
 
-From the bottom 50-50 position, you use hip movement and leg control to isolate opponent's leg above the knee while transitioning your body perpendicular to their leg line. The key mechanical principle involves trapping their foot in your armpit or against your shoulder while creating hip pressure against the back of their knee. This forces the knee into hyperextension when you bridge your hips upward.
+From the top 50-50 position, you use hip movement and leg control to isolate the opponent's leg above the knee while transitioning your body perpendicular to their leg line. The key mechanical principle involves trapping their foot in your armpit or against your shoulder while creating hip pressure against the back of their knee. This forces the knee into hyperextension when you bridge your hips upward.
 
 This entry is particularly effective against opponents who focus entirely on heel defense by hiding their heel or rotating their knee inward. Their defensive posture actually facilitates the kneebar entry by presenting their leg in an extended position. The transition also serves as an excellent chain attack when heel hooks are stalled, creating offensive pressure that prevents opponents from establishing comfortable defensive positions.
 
@@ -324,5 +324,7 @@ Apply kneebar entry in live rolling starting from 50-50 position. Focus on readi
 Kneebar attacks target the knee joint and can cause serious ligament damage (ACL, PCL, MCL, LCL) if applied without control. Always apply pressure gradually and give training partners time to tap. Never explosively bridge into the knee. When caught in a kneebar, tap early - the joint can be damaged before significant pain occurs. Beginners should practice positioning and entry without finishing pressure until mechanics are understood. Avoid this technique if you or your partner has pre-existing knee injuries. In training, establish clear tap protocols and release immediately upon tap or verbal submission.
 
 </section>
+
+
 
 </main>

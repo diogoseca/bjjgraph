@@ -24,6 +24,7 @@
     "Turtle"
   ],
   "success_rate": 45,
+  "summary": "The Darce Choke from Leg Drag is an arm-triangle blood choke applied during guard passing — the attacker threads the choking arm under the opponent's neck and far armpit when they turn into the passer, compressing both carotid arteries.",
   "overview": "The Darce choke from leg drag control exploits a natural defensive reaction that occurs during guard passing. When the top player establishes leg drag control and drives pressure, the bottom player frequently turns into the passer to recover guard or escape to turtle. This turning motion exposes the critical neck-and-armpit channel that the Darce choke requires. The leg drag position provides an ideal platform for this submission because the top player already has significant hip control and a strong angle that facilitates threading the choking arm under the opponent's neck.\n\nThe mechanics of this particular Darce entry differ from traditional setups in that the leg drag provides continuous hip pressure throughout the submission sequence. Unlike Darce entries from front headlock or turtle where the attacker must chase the opponent, the leg drag configuration keeps the bottom player anchored and unable to create distance. The attacker threads the near arm under the opponent's neck, through the far armpit, and secures a figure-four grip with the free hand clasping the bicep. Finishing pressure comes primarily from sprawling the hips and walking toward the opponent's head, compressing the carotid arteries bilaterally.\n\nThis submission represents a high-percentage finishing option within the leg drag passing system because it punishes the most common defensive response. When combined with back take threats and mount transitions, the Darce from leg drag creates a three-way dilemma: turning away gives up the back, staying flat allows mount or side control consolidation, and turning in opens the Darce. Advanced practitioners use this submission as part of an integrated passing-to-submission chain where the guard pass and the choke become a single continuous sequence rather than separate events.",
   "safety_considerations": {
     "injury_risks": [
@@ -153,7 +154,7 @@
     }
   ],
   "attacker": {
-    "name": "from Leg Drag Attacker",
+    "name": "Darce Choke from Leg Drag Attacker",
     "description": "Master the Darce choke attack from leg drag control. Step-by-step guide to threading, locking, and finishing this high-percentage arm-triangle choke during guard passing sequences.",
     "overview": "Attacking the Darce choke from leg drag control requires precise timing and understanding of the mechanical relationship between the passing position and the choking mechanism. The leg drag creates a powerful platform for this submission because you already control your opponent's hips and have established a dominant angle. Your primary task is recognizing the moment your opponent commits to turning into you—this reaction, while a sound defensive instinct against the back take, opens the neck-armpit channel that the Darce requires. The key distinction from other Darce entries is that the leg drag provides continuous control throughout the entire submission sequence, preventing the opponent from creating distance or rolling free. Threading the arm must be decisive and deep; half-committed attempts allow the opponent to tuck their chin or frame against your shoulder. Once the figure-four grip is secured, finishing pressure comes from your hips and body positioning rather than arm strength, making this a sustainable and efficient submission that larger opponents cannot simply muscle out of.",
     "key_principles": [
@@ -365,7 +366,7 @@
     ]
   },
   "defender": {
-    "name": "from Leg Drag Defender",
+    "name": "Darce Choke from Leg Drag Defender",
     "description": "Defend and escape the Darce choke from leg drag position. Recognition cues, prevention strategies, and escape techniques for surviving this dangerous arm-triangle attack.",
     "overview": "Defending the Darce choke from leg drag requires understanding that your defensive reaction to the leg drag itself is what creates the submission opportunity. When you turn toward the passer to prevent the back take or recover guard, you inadvertently expose the neck-armpit channel that the Darce exploits. Effective defense starts with awareness of this trap and making calculated decisions about when and how to turn during leg drag escape attempts. The hierarchy of defense is clear: prevention before the arm threads is far easier than escaping after the grip locks. Once the figure-four is secured and hips are sprawled, escape becomes extremely difficult and energy-intensive. Your defensive strategy must prioritize keeping the chin tucked, maintaining frames against the threading arm, and controlling the distance between your shoulder and your neck to close the choking channel. If the choke locks, your best options involve creating space through body positioning and extracting the trapped arm, but these become progressively harder as the attacker adjusts their angle and increases pressure.",
     "key_principles": [

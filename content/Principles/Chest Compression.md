@@ -142,11 +142,24 @@ description: "Master chest compression mechanics in BJJ. Learn diaphragm restric
 }
 </script>
 
-> Chest Compression is a low complexity BJJ principle applicable at the Fundamental level. Develop over Beginner to Advanced.
 
-**Application Level**: Fundamental
-**Complexity**: Low
-**Development Timeline**: Beginner to Advanced
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Chest Compression",
+  "description": "Chest compression is a finishing mechanic that restricts breathing by applying sustained body-weight pressure to the opponent's torso, compressing the ribcage and diaphragm to deny full lung expansion and force a cumulative oxygen deficit.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Fundamental</span>
+<span class="meta-chip">Low complexity</span>
+<span class="meta-chip">Beginner to Advanced</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -155,7 +168,9 @@ description: "Master chest compression mechanics in BJJ. Learn diaphragm restric
 
 ## What is Chest Compression?
 
-Chest compression is the finishing mechanic that restricts breathing by applying sustained pressure to the opponent's torso, compressing the ribcage and diaphragm to prevent full lung expansion. Unlike chokes that target the neck's blood vessels or airway, chest compression works by denying the opponent the ability to draw a full breath, creating a progressive oxygen deficit that accumulates over time. The body triangle squeeze, mounted chest pressure, north-south weight distribution, and kesa gatame rib compression all use this mechanic. Chest compression is one of the most accessible finishing mechanics because it relies on body weight and positioning rather than complex grips or precise anatomical targeting.
+**Chest compression is a finishing mechanic that restricts breathing by applying sustained body-weight pressure to the opponent's torso, compressing the ribcage and diaphragm to deny full lung expansion and force a cumulative oxygen deficit.**
+
+Among BJJ's finishing mechanics, chest compression stands apart from chokes and joint locks because it attacks the opponent's capacity to breathe rather than their consciousness or joints. Unlike chokes that target the neck's blood vessels or airway, chest compression works by denying the opponent the ability to draw a full breath, creating a progressive oxygen deficit that accumulates over time. The body triangle squeeze, mounted chest pressure, north-south weight distribution, and kesa gatame rib compression all use this mechanic. Chest compression is one of the most accessible finishing mechanics because it relies on body weight and positioning rather than complex grips or precise anatomical targeting.
 
 The effectiveness of chest compression comes from its cumulative nature. A single moment of torso pressure is not dangerous, but sustained compression prevents adequate breathing and forces the opponent to work against the attacker's weight with every breath. Each inhalation requires the defender to expand their ribcage against the compressive force, which demands muscular effort that accelerates fatigue. Over minutes, this creates an oxygen deficit and carbon dioxide buildup that impairs decision-making, weakens defensive movements, and eventually forces a tap from exhaustion and breathing distress.
 
@@ -360,5 +375,7 @@ Extended top control rounds (5-10 minutes) where the attacker focuses on maintai
 
 
 </section>
+
+
 
 </main>

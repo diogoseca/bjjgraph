@@ -27,7 +27,7 @@ description: "How to execute Anaconda from Turtle in BJJ. Attacking perspective 
     {
       "@type": "HowToStep",
       "name": "Thread Choking Arm Under Neck",
-      "text": "Thread your far-side arm under opponent's neck toward their near shoulder, maintaining palm-down orientation throughout the threading motion. Drive your arm deep until your wrist clears past their near shoulder to ensure proper depth for the choking position. The deeper the threading, the tighter the eventual finish will be. Palm-down alignment positions the radius bone optimally against the carotid artery.",
+      "text": "Thread your near-side arm under opponent's neck toward their far shoulder, maintaining palm-down orientation throughout the threading motion. Drive your arm deep until your wrist clears past their far shoulder to ensure proper depth for the choking position. The deeper the threading, the tighter the eventual finish will be. Palm-down alignment positions the radius bone optimally against the carotid artery.",
       "position": 2
     },
     {
@@ -101,7 +101,7 @@ description: "How to execute Anaconda from Turtle in BJJ. Attacking perspective 
       "name": "What must be accomplished before rolling in the anaconda setup?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Before rolling you must achieve three critical elements in sequence: first, the near arm must be trapped between your choking arm and their neck with no gap; second, your threading arm must have cleared deep past their near shoulder with palm-down orientation; and third, the figure-four grip must be locked with elbows pulled maximally together. All three elements must be verified before committing to the roll. A roll with any element missing will fail and likely result in losing the position entirely."
+        "text": "Before rolling you must achieve three critical elements in sequence: first, the near arm must be trapped between your choking arm and their neck with no gap; second, your threading arm must have cleared deep past their far shoulder with palm-down orientation; and third, the figure-four grip must be locked with elbows pulled maximally together. All three elements must be verified before committing to the roll. A roll with any element missing will fail and likely result in losing the position entirely."
       }
     },
     {
@@ -190,7 +190,7 @@ The Anaconda from Turtle is a dynamic submission setup that transitions from tur
 
 <p class="section-subtitle">What are the key principles for executing Anaconda from Turtle?</p>
 
-- Thread far arm deep under neck with palm-down orientation toward near shoulder for optimal bone alignment
+- Thread near arm deep under neck with palm-down orientation toward far shoulder for optimal bone alignment
 - Trap the near arm (not far arm) between your choking arm and their neck to create the anaconda-specific bilateral pressure
 - Secure tight figure-four grip before initiating roll - grip integrity determines finish quality
 - Commit immediately to the roll once grip is locked, as hesitation of even one second allows defensive base establishment
@@ -212,7 +212,7 @@ The Anaconda from Turtle is a dynamic submission setup that transitions from tur
 - Control of opponent's near arm established with your hand before threading begins
 - Opponent has not anticipated roll or secured extremely strong base with wide posting
 - Sufficient mat space alongside opponent to execute rolling motion without wall obstruction
-- Ability to thread arm deep under neck past near shoulder with palm-down orientation
+- Ability to thread arm deep under neck past far shoulder with palm-down orientation
 - Opponent's posture is forward or neutral rather than extremely defensive with chin buried
 
 
@@ -225,7 +225,7 @@ The Anaconda from Turtle is a dynamic submission setup that transitions from tur
 <p class="section-subtitle">How do you execute Anaconda from Turtle step by step?</p>
 
 1. **Establish Turtle Top Control**: Secure turtle top position with chest pressure on opponent's back while controlling their near-side arm with your hand. Maintain tight top pressure to prevent them from standing or initiating a granby roll before you attack. Your weight should be distributed forward through your chest to keep them compressed and unable to create defensive space or retract their near arm.
-2. **Thread Choking Arm Under Neck**: Thread your far-side arm under opponent's neck toward their near shoulder, maintaining palm-down orientation throughout the threading motion. Drive your arm deep until your wrist clears past their near shoulder to ensure proper depth for the choking position. The deeper the threading, the tighter the eventual finish will be. Palm-down alignment positions the radius bone optimally against the carotid artery.
+2. **Thread Choking Arm Under Neck**: Thread your near-side arm under opponent's neck toward their far shoulder, maintaining palm-down orientation throughout the threading motion. Drive your arm deep until your wrist clears past their far shoulder to ensure proper depth for the choking position. The deeper the threading, the tighter the eventual finish will be. Palm-down alignment positions the radius bone optimally against the carotid artery.
 3. **Trap the Near Arm**: Ensure opponent's near arm is trapped between your choking arm and their neck. This is the critical distinction between anaconda and Darce: the near arm creates compression on one carotid while your bicep targets the other. Verify the arm is fully enclosed within the loop before proceeding. If the arm slips free, you must re-trap before continuing to grip lock.
 4. **Lock Figure-Four Grip**: Secure figure-four grip by grabbing your own bicep with your opposite hand while your choking hand grabs your free arm's wrist or forearm. Pull your elbows together forcefully to eliminate all space in the lock and maximize structural compression. The grip must be extremely tight before initiating the roll to prevent any escape during the transition. This is the commitment point - once locked, you must execute the roll.
 5. **Initiate Decisive Roll**: Roll decisively to your side or onto your back, bringing the opponent with you using explosive momentum generated through your legs and hip rotation. Roll toward the side that brings opponent over their trapped arm for optimal pressure angle. Step your far leg over their back to generate torque and commit fully without hesitation. The roll must happen within one second of grip lock to prevent defensive posting.
@@ -289,10 +289,10 @@ The Anaconda from Turtle is a dynamic submission setup that transitions from tur
 - **Consequence**: Space opens during the most vulnerable phase of the technique, allowing opponent to extract their head or arm and escape completely, wasting the entire setup sequence
 - **Correction**: Lock figure-four grip extremely tight before initiating roll and maintain maximum compression throughout the entire rolling transition. Pull elbows together continuously during the roll as a conscious cue.
 
-### 5. Threading arm too shallow without reaching past near shoulder
+### 5. Threading arm too shallow without reaching past far shoulder
 
 - **Consequence**: Insufficient arm depth means the loop cannot close tightly enough for effective choking position, resulting in a squeeze that creates discomfort but never finishes the submission
-- **Correction**: Drive threading arm deep until your wrist clearly clears past opponent's near shoulder. If you cannot achieve sufficient depth due to their defense, attack a different technique rather than forcing a shallow anaconda.
+- **Correction**: Drive threading arm deep until your wrist clearly clears past opponent's far shoulder. If you cannot achieve sufficient depth due to their defense, attack a different technique rather than forcing a shallow anaconda.
 
 ### 6. Failing to control near arm before threading choking arm
 
@@ -342,5 +342,7 @@ Work with advanced partners who defend with various reactions and counter-techni
 When practicing the anaconda from turtle, execute the rolling motion smoothly and controlled to prevent partner from landing awkwardly on their neck or being thrown with excessive force. Apply choking pressure gradually in training, never explosively or with full force, as bilateral chokes can cause unconsciousness within seconds once properly locked. Monitor partner's response carefully and release immediately upon tap signal - never hold chokes after submission. Ensure partner is prepared for the rolling motion before initiating and communicate during initial drilling phases. Be particularly mindful of neck safety during the roll transition, supporting partner's head and neck during the movement. In drilling, use progressive resistance to build coordination before attempting at full speed. Partners should communicate clearly about comfort level with rolling techniques and inversion. Never practice this technique on untrained partners who do not understand tap protocols. Be aware that bilateral blood chokes produce rapid unconsciousness - maintain constant awareness of partner's consciousness state and look for signs of distress beyond verbal tapping such as body going limp.
 
 </section>
+
+
 
 </main>

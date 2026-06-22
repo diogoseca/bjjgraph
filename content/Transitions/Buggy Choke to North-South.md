@@ -10,6 +10,41 @@ description: "Master the Buggy Choke to North-South transition in BJJ. Convert s
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Buggy Choke to North-South",
+  "description": "Master the Buggy Choke to North-South transition in BJJ. Convert stalled turtle choke attacks into dominant north-south pin control with precision timing.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Buggy Choke to North-South", "item": "https://bjjgraph.org/Transitions/Buggy-Choke-to-North-South" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Buggy Choke to North-South",
+  "description": "The Buggy Choke to North-South is a top-game transition that abandons a stalling turtle buggy choke and converts the existing chest pressure and grips into a dominant perpendicular north-south pin before the defender can recover.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Buggy Choke to North-South transition in BJJ. Convert s
 </div>
 
 <section id="overview" class="content-section">
+
+**The Buggy Choke to North-South is a top-game transition that abandons a stalling turtle buggy choke and converts the existing chest pressure and grips into a dominant perpendicular north-south pin before the defender can recover.**
 
 The Buggy Choke to North-South transition represents a critical positional decision point in turtle attack systems where the top player recognizes that the buggy choke submission is not progressing and converts the existing control into dominant north-south pressure. This transition capitalizes on the structural advantages already established by buggy choke grips — chest pressure, postural breakdown, and arm threading — to facilitate a smooth slide into perpendicular alignment without creating escape windows for the bottom player.
 
@@ -208,7 +245,7 @@ The Buggy Choke to North-South transition serves as a critical branching point i
 
 - [[Positions/Side Control]] - Alternative control position accessible from north-south or during transition
 
-- [[Positions/Buggy Choke]] - Primary submission alternative if choke is progressing rather than stalling
+- [[Positions/Anaconda Control]] - Alternative front-headlock turtle attack to switch to when both the choke and the north-south slide are contested
 
 - [[Transitions/North-South Choke]] - High-percentage submission available immediately after establishing north-south from this transition
 
@@ -220,5 +257,7 @@ The Buggy Choke to North-South transition serves as a critical branching point i
 
 
 </section>
+
+
 
 </main>

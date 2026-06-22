@@ -1,6 +1,7 @@
 {
   "name": "Toe Hold from Estima Lock",
   "description": "Master the toe hold from Estima Lock in BJJ. Expert guide covering grip transitions, rotational finishing mechanics, and defensive escapes from this leg lock attack.",
+  "summary": "The toe hold from Estima Lock is a chained footlock in which the attacker abandons the inverted Estima grip for a figure-four around the forefoot, twisting the ankle and small foot joints when the opponent's Estima defense exposes their toes.",
   "tags": [
     "bjj",
     "submission",
@@ -385,6 +386,21 @@
         "question": "What role does your free leg play in defending the toe hold from Estima Lock?",
         "answer": "The free leg is your primary defensive tool for creating the distance needed to escape. Place your free foot on the attacker's hip, inner thigh, or behind their knee and push to generate separation. The push disrupts their hip pressure contact against your trapped leg's calf, which is the mechanical anchor preventing leg extraction. Without an active free leg, you surrender your most effective escape lever and the attacker can maintain control with minimal effort.",
         "safety_critical": false
+      },
+      {
+        "question": "At what point does the toe hold from Estima Lock become impossible to escape, and what is the correct decision?",
+        "answer": "Escape becomes effectively impossible once the figure-four is fully consolidated and rotational pressure has begun—the attacker's cupping hand is seated on your forefoot, their other arm is threaded behind your Achilles, and their hips are tight to your calf eliminating retraction slack. Past this point, continuing to fight only burns the one to two seconds you have before the small foot joints fail. The correct decision is to tap immediately; preserving the ankle and midfoot for long-term training always outweighs escaping a single position.",
+        "safety_critical": true
+      },
+      {
+        "question": "What three tactile signs confirm the attacker has fully locked the figure-four so that foot retraction is no longer available?",
+        "answer": "First, you feel their cupping hand seated over the ball of your foot and toes rather than just brushing it. Second, you feel their forearm or biceps threaded snugly behind your Achilles tendon, completing the figure-four structure. Third, you feel their hip driven tight against your calf, removing the slack you would need to pull your knee back. When all three are present simultaneously, leg extraction is gone and your only remaining options are counter-rotation to buy time or an immediate tap.",
+        "safety_critical": false
+      },
+      {
+        "question": "How should your defensive risk tolerance against this toe hold differ between training and competition?",
+        "answer": "In competition you may ride slightly closer to the threshold to attempt a counter-rotation escape or a scramble, because conceding the position can cost the match. However, foot and ankle locks give an extremely short injury window—often one to two seconds from lock to damage—so the practical margin is far smaller than with shoulder or elbow locks. In training there is no justification for testing that margin: tap early, protect the Lisfranc and ankle ligaments, and treat every repetition as a chance to refine recognition rather than to prove escape ability.",
+        "safety_critical": true
       }
     ],
     "training_progressions": [

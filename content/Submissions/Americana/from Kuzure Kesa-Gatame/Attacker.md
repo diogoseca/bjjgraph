@@ -53,7 +53,7 @@ description: "Learn to finish the Americana from Kuzure Kesa-Gatame with step-by
     {
       "@type": "HowToStep",
       "name": "Paint the arm toward the hip",
-      "text": "Begin sliding their hand along the mat in a controlled arc toward their hip while simultaneously applying upward pressure on their elbow through your figure-four grip. This coordinated dual motion creates internal rotation at the shoulder joint that attacks the rotator cuff and capsular ligaments. Move slowly and progressively over three to five seconds.",
+      "text": "Begin sliding their hand along the mat in a controlled arc toward their hip while simultaneously applying upward pressure on their elbow through your figure-four grip. This coordinated dual motion creates external rotation at the shoulder joint that attacks the rotator cuff and capsular ligaments. Move slowly and progressively over three to five seconds.",
       "position": 6
     },
     {
@@ -79,7 +79,7 @@ description: "Learn to finish the Americana from Kuzure Kesa-Gatame with step-by
       "name": "What anatomical structures does the Americana from Kuzure Kesa-Gatame specifically attack?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The Americana attacks the glenohumeral joint through forced internal rotation, stressing the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the shoulder capsule, and the associated ligaments. The paint motion creates maximum torque on these structures by using the forearm as a lever against the pinned shoulder, with the elbow serving as the fulcrum point."
+        "text": "The Americana attacks the glenohumeral joint through forced external rotation, stressing the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the shoulder capsule, and the associated ligaments. The paint motion creates maximum torque on these structures by using the forearm as a lever against the pinned shoulder, with the elbow serving as the fulcrum point."
       }
     },
     {
@@ -228,7 +228,7 @@ Attacking with the Americana from Kuzure Kesa-Gatame leverages the position's in
 3. **Pin the wrist to the mat**: Drive the controlled wrist to the mat beside your opponent's head using your body weight dropping onto the forearm rather than muscular pulling. Keep your elbow tight to your own body throughout the pinning motion. The wrist should contact the mat with your weight preventing any lift. (Timing: 1-2 seconds for a controlled pin)
 4. **Thread the figure-four grip**: Slide your far-side arm underneath their elbow, threading from the outside inward until you can clasp your own wrist in a figure-four configuration. Keep the wrist pinned with constant downward pressure from your near hand throughout the entire threading process to prevent arm recovery or hitchhiker escape. (Timing: 2-3 seconds for careful threading without losing wrist control)
 5. **Adjust hip angle for optimal leverage**: Shift your hip pressure vector slightly so it drives through their shoulder at approximately 45 degrees toward the mat surface. This angular adjustment maximizes the rotational force you can generate on the glenohumeral joint during the paint and prevents them from absorbing pressure by flattening their shoulder blade. (Timing: 1 second for subtle angle adjustment)
-6. **Paint the arm toward the hip**: Begin sliding their hand along the mat in a controlled arc toward their hip while simultaneously applying upward pressure on their elbow through your figure-four grip. This coordinated dual motion creates internal rotation at the shoulder joint that attacks the rotator cuff and capsular ligaments. Move slowly and progressively over three to five seconds. (Timing: 3-5 seconds of progressive pressure)
+6. **Paint the arm toward the hip**: Begin sliding their hand along the mat in a controlled arc toward their hip while simultaneously applying upward pressure on their elbow through your figure-four grip. This coordinated dual motion creates external rotation at the shoulder joint that attacks the rotator cuff and capsular ligaments. Move slowly and progressively over three to five seconds. (Timing: 3-5 seconds of progressive pressure)
 7. **Apply finishing pressure and monitor for tap**: Continue the arc progressively while maintaining constant hip pressure to prevent bridging escapes. Monitor your opponent's body language, breathing, and limbs for any tap signal including verbal taps, hand taps, foot taps, or distress vocalizations. Never jerk or spike the pressure. Release immediately upon any tap signal and carefully return the arm to neutral. (Timing: Ongoing until tap - maintain controlled pressure throughout)
 
 

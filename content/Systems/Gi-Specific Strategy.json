@@ -12,6 +12,7 @@
   ],
   "system_type": "Competition Strategy",
   "difficulty_level": "Intermediate",
+  "summary": "The Gi-Specific Strategy is a control framework that exploits the jacket, collar, sleeves, lapels, and pants as leverage points to win grip exchanges, pass, sweep, and finish with gi-only chokes and entanglements.",
   "overview": "Gi-specific strategy represents the fundamental framework for leveraging the jacket and pants in Brazilian Jiu-Jitsu competition and training. Unlike no-gi grappling, the gi provides numerous control points through collar grips, sleeve grips, lapel control, and pant grips that fundamentally change the game's dynamics. This strategic system encompasses grip fighting hierarchies, control-based passing systems, collar choke mechanics, and lapel-based guards that are impossible without the gi. The core philosophy centers on establishing dominant grip configurations that limit opponent mobility while maximizing your offensive options. Understanding gi-specific strategy is essential for competitors who primarily train in the kimono, as it unlocks entire position families, submission categories, and control systems unavailable in no-gi formats. This framework emphasizes patience, grip discipline, and systematic control progression over explosive athleticism.",
   "key_principles": [
     "Establish dominant grips before initiating attacks or movements",
@@ -318,6 +319,40 @@
       "name": "Mikey Musumeci Berimbolo System",
       "content_type": "System",
       "relationship": "Modern gi system combining lapel guards with berimbolo entries"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What fundamentally distinguishes gi strategy from no-gi grappling?",
+      "answer": "The gi adds collar, sleeve, lapel, and pant grips as fixed control points that slow the pace, enable friction-based control, and unlock chokes and entanglements that are impossible in no-gi."
+    },
+    {
+      "question": "Why is grip fighting considered the first battle in every gi exchange?",
+      "answer": "Whoever establishes dominant grips first dictates distance, posture, and tempo; controlling grips precedes and enables every sweep, pass, and submission, so losing the grip battle usually means losing the position."
+    },
+    {
+      "question": "Which submission category is unique to the gi and considered high-percentage?",
+      "answer": "Collar chokes such as the cross collar, bow and arrow, baseball bat, loop, and clock choke use the lapel as a built-in rope to attack the neck from guard, mount, back, and turtle."
+    },
+    {
+      "question": "What are lapel-based guards and what advantage do they provide?",
+      "answer": "Guards like lasso, worm, and squid guard wrap the opponent's own lapel around their limbs, creating entanglements that break posture, off-balance, and neutralize passing without relying on grip strength."
+    },
+    {
+      "question": "How should you respond when an opponent strips your grips faster than you can establish them?",
+      "answer": "Grip fight proactively rather than reactively: anticipate breaks, immediately re-grip with alternates, and use two-on-one grip fighting to overwhelm single-handed grip breaks."
+    },
+    {
+      "question": "Why do strong opponents sometimes overpower gi grips, and how do you counter it?",
+      "answer": "Relying on grip strength alone loses to raw power; instead use grip angles and leverage, combine multiple grips to distribute the load, and break grips before they fully establish."
+    },
+    {
+      "question": "What is a common mistake practitioners make when gripping the gi?",
+      "answer": "Gripping without strategic purpose; random or meaningless grips waste energy and grip endurance without controlling distance, posture, or setting up an attack."
+    },
+    {
+      "question": "How does gi strategy change the role of pace compared to no-gi?",
+      "answer": "Gi friction and grips slow the game, rewarding patience, grip discipline, and methodical positional advancement over the explosive scrambles and athleticism that dominate no-gi grappling."
     }
   ]
 }

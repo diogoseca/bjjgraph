@@ -10,10 +10,55 @@ description: "Master the Twister spinal lock from Cross Body Ride. Complete guid
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Twister from Cross Body Ride targets the Cervical and thoracic spine, shoulder girdle. Risk: Cervical spine damage including herniated discs and ligament tears. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Twister from Cross Body Ride",
+  "description": "Master the Twister spinal lock from Cross Body Ride. Complete guide with finishing mechanics, safety protocols, and defensive strategies for advanced grapplers.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Twister from Cross Body Ride", "item": "https://bjjgraph.org/Submissions/Twister-from-Cross-Body-Ride" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Twister from Cross Body Ride",
+  "description": "The Twister from Cross Body Ride is a spinal lock that converts dominant turtle-top control into a leg-entangled chin-strap finish, torquing the cervical and thoracic spine through opposing upper- and lower-body rotation.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Twister from Cross Body Ride is a spinal lock that converts dominant turtle-top control into a leg-entangled chin-strap finish, torquing the cervical and thoracic spine through opposing upper- and lower-body rotation.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Spinal Lock</span>
+<span class="meta-chip">Targets Cervical and thoracic spine, shoulder girdle</span>
+<span class="meta-chip">40% success</span>
+</div>
+
+> [!danger] Safety
+> Twister from Cross Body Ride targets the Cervical and thoracic spine, shoulder girdle. Primary risk: Cervical spine damage including herniated discs and ligament tears. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -24,61 +69,13 @@ description: "Master the Twister spinal lock from Cross Body Ride. Complete guid
 
 <section id="overview" class="content-section">
 
-The Twister from Cross Body Ride is a devastating spinal lock submission that exploits the perpendicular chest-to-back control of the cross body ride to establish the rotational mechanics necessary for the finish. This submission begins from a dominant turtle-top position where the attacker has already achieved heavy cross-body pressure, then systematically transitions into the leg entanglement and chin strap grip that define the Twister's finishing mechanics. The cross body pressure breaks down the opponent's turtle structure before the attacker threads legs for the rotational base and controls the opponent's hips.
+Built from a dominant cross body ride, this entry leverages perpendicular chest-to-back pressure that has already compromised the opponent's turtle before any rotational mechanics are introduced. The submission begins from a turtle-top position where the attacker has already achieved heavy cross-body pressure, then systematically transitions into the leg entanglement and chin strap grip that define the Twister's finishing mechanics. The cross body pressure breaks down the opponent's turtle structure before the attacker threads legs for the rotational base and controls the opponent's hips.
 
 The strategic value of entering the Twister from Cross Body Ride lies in the positional advantage already established. Unlike entries from scrambles or bottom positions, the Cross Body Ride provides a stable platform where the attacker can methodically build each layer of control without urgency. The perpendicular pressure has already compromised the opponent's defensive posture, making leg entanglement significantly easier to achieve and maintain throughout the finishing sequence.
 
 This submission demands extreme caution due to the direct spinal torque it generates. The combination of lower body rotation through the leg entanglement and upper body rotation through the chin strap creates compound forces across the cervical and thoracic spine that can cause severe injury with very little warning. Practitioners must prioritize slow, controlled application and immediate release on any tap signal. The Twister is best understood as the highest-risk option within a broader attack system from Cross Body Ride that includes calf slicers, banana splits, and back takes.
 
-**Category**: Joint Lock
-**Type**: Spinal Lock
-**Target Area**: Cervical and thoracic spine, shoulder girdle
-**Starting Position**: [[Positions/Cross Body Ride]]
-**From Position**: [[Positions/Cross Body Ride]] (Top)
-**Success Rate**: 40%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Cervical spine damage including herniated discs and ligament tears | CRITICAL | 3-12 months, potentially permanent |
-| Thoracic spine strain or vertebral subluxation | High | 4-8 weeks |
-| Shoulder dislocation or rotator cuff damage from forced rotation | High | 6-12 weeks |
-| Intercostal muscle tears from rib cage torque | Medium | 2-4 weeks |
-
-
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum progression, never spike or jerk the spine
-
-**Tap Signals**:
-- Verbal tap (most common due to limited hand mobility in this position)
-- Physical hand tap on attacker's body or the mat
-- Physical foot tap if accessible
-- Any distress signal or unusual vocalization treated as immediate tap
-
-
-**Release Protocol**:
-1. Immediately release the head and neck control completely upon any tap signal
-2. Release all upper body grips and allow opponent to turn face-up naturally
-3. Slowly unwind the leg entanglement without pulling or twisting
-4. Do not apply any force during release - let opponent move at their own pace
-5. Check with partner verbally after release to confirm they are okay
-
-
-**Training Restrictions**:
-- NEVER apply at competition speed in training - always 50% speed maximum
-- NEVER use on beginners or those unfamiliar with the position and its dangers
-- NEVER apply sudden or explosive rotational pressure to the spine
-- NEVER continue if partner shows any signs of distress or resistance stops suddenly
-- ALWAYS ensure clear tap access and communicate throughout application
-- NEVER practice without supervision from a qualified instructor
-- Limit Twister-specific drilling to prevent cumulative spinal stress
-
+**Starting Position**: [[Positions/Cross Body Ride]] · **From**: [[Positions/Cross Body Ride]] (Top)
 
 </section>
 
@@ -246,41 +243,65 @@ This submission demands extreme caution due to the direct spinal torque it gener
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Banana Split]]
 - [[Submissions/Calf Slicer]]
 - [[Positions/Half Guard/Electric Chair]]
 - [[Submissions/Spine Lock]]
 - [[Positions/Aoki Lock Control]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Cross Body Ride]] - Starting control position providing the perpendicular pressure foundation for this submission
 - [[Positions/Twister Control/Truck]] - Primary entry variation and leg entanglement platform for the Twister
 - [[Positions/Back Control]] - Alternative control position accessible when Twister setup breaks down
 - [[Positions/Twister Control/Twister Side Control]] - Related lateral control variation with alternative Twister entry angles
-- [[Submissions/Banana Split]] - Alternative submission available from the same leg entanglement position
 - [[Positions/Half Guard/Lockdown]] - Bottom half guard position that creates Twister entry opportunities
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Cervical spine damage including herniated discs and ligament tears | CRITICAL | 3-12 months, potentially permanent |
+| Thoracic spine strain or vertebral subluxation | High | 4-8 weeks |
+| Shoulder dislocation or rotator cuff damage from forced rotation | High | 6-12 weeks |
+| Intercostal muscle tears from rib cage torque | Medium | 2-4 weeks |
+
+
+**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum progression, never spike or jerk the spine
+
+**Tap Signals**:
+- Verbal tap (most common due to limited hand mobility in this position)
+- Physical hand tap on attacker's body or the mat
+- Physical foot tap if accessible
+- Any distress signal or unusual vocalization treated as immediate tap
+
+
+**Release Protocol**:
+1. Immediately release the head and neck control completely upon any tap signal
+2. Release all upper body grips and allow opponent to turn face-up naturally
+3. Slowly unwind the leg entanglement without pulling or twisting
+4. Do not apply any force during release - let opponent move at their own pace
+5. Check with partner verbally after release to confirm they are okay
+
+
+**Training Restrictions**:
+- NEVER apply at competition speed in training - always 50% speed maximum
+- NEVER use on beginners or those unfamiliar with the position and its dangers
+- NEVER apply sudden or explosive rotational pressure to the spine
+- NEVER continue if partner shows any signs of distress or resistance stops suddenly
+- ALWAYS ensure clear tap access and communicate throughout application
+- NEVER practice without supervision from a qualified instructor
+- Limit Twister-specific drilling to prevent cumulative spinal stress
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Twister from Cross Body Ride leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

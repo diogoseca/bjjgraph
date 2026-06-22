@@ -10,6 +10,41 @@ description: "Master the Mount to Knee on Belly transition in BJJ. Complete guid
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Mount to Knee on Belly",
+  "description": "Master the Mount to Knee on Belly transition in BJJ. Complete guide covering setup, weight shift mechanics, and establishing dynamic KOB pressure control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Mount to Knee on Belly", "item": "https://bjjgraph.org/Transitions/Mount-to-Knee-on-Belly" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Mount to Knee on Belly",
+  "description": "Mount to Knee on Belly is a top transition that trades mount's four-point straddle for a single knee driving into the opponent's diaphragm, gaining mobility and submission angles at the cost of a brief control gap during the weight shift.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Mount to Knee on Belly transition in BJJ. Complete guid
 </div>
 
 <section id="overview" class="content-section">
+
+**Mount to Knee on Belly is a top transition that trades mount's four-point straddle for a single knee driving into the opponent's diaphragm, gaining mobility and submission angles at the cost of a brief control gap during the weight shift.**
 
 The Mount to Knee on Belly transition represents a strategic positional shift from static four-point dominance to dynamic concentrated pressure. While mount provides crushing weight distribution across the opponent's torso and diverse submission chains, Knee on Belly offers superior mobility, concentrated diaphragm pressure through a single contact point, and rapid transition potential to multiple offensive positions. This transition is particularly effective when the mounted opponent has established strong defensive frames that limit direct submission entries, or when the top practitioner seeks to change offensive angles and create new attack pathways.
 
@@ -220,5 +257,7 @@ The Mount to Knee on Belly transition connects two of the most dominant top posi
 
 
 </section>
+
+
 
 </main>

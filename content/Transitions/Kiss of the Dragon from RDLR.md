@@ -10,6 +10,41 @@ description: "Master the Kiss of the Dragon from Reverse De La Riva Guard. Compl
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kiss of the Dragon from RDLR",
+  "description": "Master the Kiss of the Dragon from Reverse De La Riva Guard. Complete guide to this inversion-based back take with execution steps and defensive counters.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Kiss of the Dragon from RDLR", "item": "https://bjjgraph.org/Transitions/Kiss-of-the-Dragon-from-RDLR" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kiss of the Dragon from RDLR",
+  "description": "Kiss of the Dragon from RDLR is an inversion-based back take in which the bottom player rotates underneath a standing opponent from the Reverse De La Riva hook, threading through their legs to emerge behind them and secure back control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Kiss of the Dragon from Reverse De La Riva Guard. Compl
 </div>
 
 <section id="overview" class="content-section">
+
+**Kiss of the Dragon from RDLR is an inversion-based back take in which the bottom player rotates underneath a standing opponent from the Reverse De La Riva hook, threading through their legs to emerge behind them and secure back control.**
 
 The Kiss of the Dragon is an inversion-based back take executed from Reverse De La Riva Guard, where the bottom player threads their body underneath the opponent by rotating through the space between their legs. This technique exploits the unique angular advantages of the RDLR hook to create a pathway for deep inversion, emerging on the opponent's back side to establish hooks and upper body control. The technique gained prominence through modern competitors and has become a staple of advanced guard play, particularly in gi competition where pants grips enhance control during the rotation.
 
@@ -220,5 +257,7 @@ Kiss of the Dragon occupies a central role in the Reverse De La Riva attack syst
 
 
 </section>
+
+
 
 </main>

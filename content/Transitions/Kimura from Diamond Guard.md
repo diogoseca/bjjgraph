@@ -10,6 +10,41 @@ description: "Master the Kimura from Diamond Guard in BJJ. Convert overhook cont
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kimura from Diamond Guard",
+  "description": "Master the Kimura from Diamond Guard in BJJ. Convert overhook control into a powerful Kimura grip attack for sweeps and submission entries from closed guard.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Kimura from Diamond Guard", "item": "https://bjjgraph.org/Transitions/Kimura-from-Diamond-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kimura from Diamond Guard",
+  "description": "The Kimura from Diamond Guard is a bottom closed-guard attack that converts the diamond frame's existing overhook into a figure-four shoulder lock on the trapped arm, using the opponent's broken posture to power a hip-bump sweep into Kimura Trap top position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Kimura from Diamond Guard in BJJ. Convert overhook cont
 </div>
 
 <section id="overview" class="content-section">
+
+**The Kimura from Diamond Guard is a bottom closed-guard attack that converts the diamond frame's existing overhook into a figure-four shoulder lock on the trapped arm, using the opponent's broken posture to power a hip-bump sweep into Kimura Trap top position.**
 
 The Kimura from Diamond Guard exploits the unique grip architecture of the diamond frame to transition from overhook-based control into a powerful Kimura figure-four attack. The bottom player already possesses one of the most critical prerequisites for a Kimura: a deep overhook controlling the opponent's arm across their body. By releasing head control and securing the opponent's wrist with the freed hand, the bottom player converts the existing overhook into a figure-four shoulder lock configuration without ever losing arm control during the transition.
 
@@ -222,5 +259,7 @@ The Kimura from Diamond Guard integrates into the broader diamond guard offensiv
 
 
 </section>
+
+
 
 </main>

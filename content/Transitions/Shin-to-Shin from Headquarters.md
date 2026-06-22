@@ -10,6 +10,41 @@ description: "Learn Shin-to-Shin entry from Headquarters Position in BJJ. Step-b
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Shin-to-Shin from Headquarters",
+  "description": "Learn Shin-to-Shin entry from Headquarters Position in BJJ. Step-by-step guide to inserting shin connection, disrupting passing pressure, and establishing guard.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Shin-to-Shin from Headquarters", "item": "https://bjjgraph.org/Transitions/Shin-to-Shin-from-Headquarters" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Shin-to-Shin from Headquarters",
+  "description": "Shin-to-Shin from Headquarters is a guard-recovery transition where the bottom player, pinned under headquarters passing pressure, inserts their free shin across the passer's lead shin to arrest forward momentum and rebuild an offensive open guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Learn Shin-to-Shin entry from Headquarters Position in BJJ. Step-b
 
 <section id="overview" class="content-section">
 
-Shin-to-Shin from Headquarters is a critical guard recovery and counter-attack transition executed by the bottom player when trapped in the headquarters passing position. The top player in headquarters controls one leg while maintaining an elevated, stable base designed to funnel into systematic passing sequences. The bottom player's objective is to disrupt this system by inserting their free shin across the top player's lead shin, creating a perpendicular connection that immediately compromises their triangulated base and arrests passing momentum.
+**Shin-to-Shin from Headquarters is a guard-recovery transition where the bottom player, pinned under headquarters passing pressure, inserts their free shin across the passer's lead shin to arrest forward momentum and rebuild an offensive open guard.**
+
+Headquarters is one of the most oppressive passing hubs in modern jiu-jitsu, and a bottom player who only defends knee cuts and leg drags from underneath is fighting a losing battle of attrition. This transition flips that dynamic: instead of reacting to each pass, the bottom player inserts their free shin across the top player's lead shin, creating a perpendicular connection that immediately compromises the triangulated base and arrests passing momentum. The top player in headquarters controls one leg while maintaining an elevated, stable base designed to funnel into systematic passing sequences, so disrupting that posting leg is the lever that reopens offensive guard.
 
 This transition represents a paradigm shift from passive guard retention to active guard creation. Rather than simply defending the knee cut, leg drag, or toreando that headquarters threatens, the bottom player proactively establishes a new guard structure that inverts the positional dynamic. The shin connection functions as a biomechanical lever that prevents the top player from driving forward, creates immediate off-balancing potential, and opens pathways to single leg X-guard, X-guard, and leg entanglement entries that are unavailable from the flattened headquarters bottom position.
 
@@ -224,5 +261,7 @@ Shin-to-Shin from Headquarters occupies a vital role in the guard retention ecos
 
 
 </section>
+
+
 
 </main>

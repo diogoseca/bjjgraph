@@ -125,6 +125,7 @@ description: "How to execute Ippon Seoi Nage in BJJ. Attacking perspective cover
   "@type": "WebPage",
   "name": "Ippon Seoi Nage Attacker",
   "description": "How to execute Ippon Seoi Nage in BJJ. Attacking perspective covering kuzushi, entry mechanics, loading, throwing execution, and ground transition.",
+  "alternateName": ["One-Arm Shoulder Throw"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -170,6 +171,9 @@ description: "How to execute Ippon Seoi Nage in BJJ. Attacking perspective cover
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>One-Arm Shoulder Throw</strong> <span class="role-hint">(attacker)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 As the attacker executing Ippon Seoi Nage, your objective is to break your opponent's balance forward, rotate beneath their center of gravity, load their weight onto your back and shoulders, and complete a powerful forward rotation that deposits them on the mat while you maintain grip control to immediately establish a dominant ground position. This throw rewards precise timing and coordinated body mechanics over raw strength. The entry must be decisive and committed once you recognize the opening, because hesitation allows defensive reactions that neutralize your positional advantage.
@@ -332,5 +336,7 @@ Attempt throw opportunities during regular sparring rounds against varied oppone
 When practicing Ippon Seoi Nage, ensure proper breakfall (ukemi) training before attempting live throws, as the technique generates significant rotational force and impact. Beginners should practice on crash mats and progress gradually to standard mats. The person being thrown must tuck their chin and execute a proper slapping breakfall to distribute impact and protect the head, neck, and shoulder. The thrower must control the speed and power of the throw to match their partner's breakfall ability. Never practice this technique against partners who cannot breakfall safely. In competition, landing with your weight on your opponent's neck or head risks serious cervical injury and disqualification. Always warm up shoulders, hips, and lower back thoroughly before throwing practice. If you feel sharp pain in your lower back during the loading phase, stop immediately as this indicates improper mechanics that risk disc injury.
 
 </section>
+
+
 
 </main>

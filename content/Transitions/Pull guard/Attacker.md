@@ -234,7 +234,7 @@ Pulling guard is a strategic defensive maneuver that transitions from standing t
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[Positions/Closed Guard]] | 70% |
-| Failure | [[Positions/Standing Position]] | 20% |
+| Failure | [[Positions/Standing Guard]] | 20% |
 | Counter | [[Positions/Standing Position]] | 10% |
 
 
@@ -246,7 +246,7 @@ Pulling guard is a strategic defensive maneuver that transitions from standing t
 
 <p class="section-subtitle">How might your opponent counter Pull guard?</p>
 
-- **Opponent backs away or disengages as you sit** (Effectiveness: High) - Your Response: Maintain grip tension and follow them with your guard, using grips to prevent complete separation. Scoot your hips forward aggressively and re-establish connections with legs or feet on their hips to prevent them from establishing distance. → Leads to [[Positions/Standing Position]]
+- **Opponent backs away or disengages as you sit** (Effectiveness: High) - Your Response: Maintain grip tension and follow them with your guard, using grips to prevent complete separation. Scoot your hips forward aggressively and re-establish connections with legs or feet on their hips to prevent them from establishing distance. → Leads to [[Positions/Standing Guard]]
 - **Opponent sprawls forward with heavy chest pressure** (Effectiveness: Medium) - Your Response: Use the pressure to establish underhooks or create angles for off-balancing sweeps. Convert the forward pressure into sweep opportunities rather than fighting it directly. Rotate hips to side and look for butterfly hooks or deep half guard entries. → Leads to [[Positions/Closed Guard]]
 - **Opponent immediately begins passing sequence** (Effectiveness: High) - Your Response: Establish strong guard retention frames, create distance with pushing frames on hips and shoulders, and circle your hips away from the passing pressure. Use grip fighting to break their grips and re-establish your preferred guard configuration. → Leads to [[Positions/Standing Position]]
 - **Opponent grabs your pants or belt during descent** (Effectiveness: Medium) - Your Response: Accelerate your descent and immediately establish closed guard or tight hooks to prevent them from using the grips for stacking or pressure passing. Break their grips with hand fighting while securing your guard position. → Leads to [[Positions/Closed Guard]]
@@ -330,5 +330,7 @@ Full resistance training where guard pull flows directly into sweep or submissio
 When pulling guard, descend with control to avoid hard impact on your tailbone or spine, which can cause acute injury or cumulative damage over time. Always ensure adequate mat space behind you before initiating the pull to prevent collisions with walls or other practitioners. Communicate with training partners when practicing guard pulls, especially when learning new variations, as unexpected movements can cause both partners to lose balance. Release grips immediately if you feel yourself falling in an uncontrolled manner to prevent wrist, finger, or elbow injuries. Never pull guard on hard surfaces or inadequate mats. Be aware that pulling guard in self-defense situations may be inappropriate as it concedes top position and may involve landing on concrete or other dangerous surfaces. In competition, understand the rules regarding guard pulling and whether penalties apply for immediate disengagement attempts. Warm up properly before drilling guard pulls as the hip and back movements require flexibility and core strength.
 
 </section>
+
+
 
 </main>

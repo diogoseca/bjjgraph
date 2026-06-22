@@ -10,6 +10,41 @@ description: "Master the Reverse Heel Hook Counter from Ushiro Ashi-Garami. Coun
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Reverse Heel Hook Counter",
+  "description": "Master the Reverse Heel Hook Counter from Ushiro Ashi-Garami. Counter-attack technique turning defensive leg entanglement into inside ashi-garami offense.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Reverse Heel Hook Counter", "item": "https://bjjgraph.org/Transitions/Reverse-Heel-Hook-Counter" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Reverse Heel Hook Counter",
+  "description": "The Reverse Heel Hook Counter is a leg-lock counter-attack from Ushiro Ashi-Garami bottom that exploits an opponent's heel-hook commitment to enter inside ashi-garami on their attacking leg, converting defense into a submission race.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Reverse Heel Hook Counter from Ushiro Ashi-Garami. Coun
 </div>
 
 <section id="overview" class="content-section">
+
+**The Reverse Heel Hook Counter is a leg-lock counter-attack from Ushiro Ashi-Garami bottom that exploits an opponent's heel-hook commitment to enter inside ashi-garami on their attacking leg, converting defense into a submission race.**
 
 The Reverse Heel Hook Counter is a sophisticated defensive technique executed when trapped in ushiro ashi-garami. Rather than purely escaping, this counter-attack capitalizes on the opponent's commitment to their heel hook attempt by entering your own leg entanglement on their exposed leg. The technique requires precise timing—executing too early reveals your intention, while waiting too long allows the opponent to finish their submission.
 
@@ -222,5 +259,7 @@ The Reverse Heel Hook Counter represents an advanced evolution in leg lock defen
 
 
 </section>
+
+
 
 </main>

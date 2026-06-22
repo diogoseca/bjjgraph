@@ -86,6 +86,18 @@ description: "Learn how feints, misdirection, and setups make BJJ techniques eff
 }
 </script>
 
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Mask Your Intentions",
+  "description": "Masking your intentions in BJJ means disguising your true attack behind a credible threat, so your opponent commits to the wrong defense and exposes the exact opening you intended to exploit.",
+  "inDefinedTermSet": "https://bjjgraph.org/Learning/"
+}
+</script>
+
+
 > **Category**: Strategy
 
 
@@ -94,6 +106,8 @@ description: "Learn how feints, misdirection, and setups make BJJ techniques eff
 <section id="overview" class="content-section">
 
 ## What is Mask Your Intentions?
+
+**Masking your intentions in BJJ means disguising your true attack behind a credible threat, so your opponent commits to the wrong defense and exposes the exact opening you intended to exploit.**
 
 A technique your opponent sees coming almost never works. The armbar that gets caught is the one they did not expect. The sweep that dumps them is the one they were not bracing for. Masking your intentions is not about dishonesty -- it is about understanding that BJJ at any level above pure beginner involves reading and reacting to your opponent's movements. If your movements scream your intentions, your opponent's reactions will shut you down before you are halfway through the technique.
 
@@ -213,10 +227,11 @@ A: Regular training partners learn patterns quickly. If you always use the choke
 
 ## Related
 - [[Action and Reaction]] (Principle) - Feints exploit action-reaction dynamics by provoking defensive responses that create openings
-- [[Submission Chains]] (Principle) - Chaining submissions is the primary vehicle for masking intentions -- each link disguises the next
+- [[Technique Chaining]] (Learning) - Chaining techniques is the primary vehicle for masking intentions -- each link disguises the next
 - [[Fork Attacks]] (Principle) - Fork attacks present multiple threats simultaneously, forcing the opponent to choose which to defend
-- [[Timing and Rhythm]] (Principle) - Tempo changes are a powerful way to disguise intentions and break opponent's timing
+- [[Timing Windows]] (Learning) - Tempo changes and well-timed setups create the brief windows where disguised attacks land
 - [[Pattern Interrupts]] (Learning) - Complementary concept -- breaking predictable patterns is another form of masking intentions
+- [[Predictable Responses]] (Learning) - Masking intentions works by triggering predictable defensive responses you can anticipate and exploit
 - [[Closed Guard]] (Position) - Classic position for learning attack chains and misdirection (choke to armbar to triangle)
 - [[Mount]] (Position) - Mount provides many opportunities for dilemma-based attacks that rely on masking intentions
 - [[Butterfly Guard]] (Position) - Butterfly guard sweeps often rely on directional feints to load the opponent's weight incorrectly

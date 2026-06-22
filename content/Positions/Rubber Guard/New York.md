@@ -10,6 +10,41 @@ description: "Master New York position control in 10th Planet's Rubber Guard sys
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "New York",
+  "description": "Master New York position control in 10th Planet\u0027s Rubber Guard system. Complete guide covering rubber guard fundamentals, flexible control mechanics, and offensive attacks.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "New York", "item": "https://bjjgraph.org/Positions/New-York" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "New York",
+  "description": "New York is a deep Rubber Guard control in the 10th Planet system where the bottom player pairs an overhook with a shin across the opponent's back to break posture and chain into chokes, gogoplata, and omoplata attacks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master New York position control in 10th Planet's Rubber Guard sys
 </div>
 
 <section id="overview" class="content-section">
+
+**New York is a deep Rubber Guard control in the 10th Planet system where the bottom player pairs an overhook with a shin across the opponent's back to break posture and chain into chokes, gogoplata, and omoplata attacks.**
 
 New York is a fundamental control position within 10th Planet's Rubber Guard system, serving as a critical gateway between Mission Control and advanced attacking positions like Invisible Collar and Zombie. The position is characterized by the bottom practitioner establishing a strong overhook on one arm while simultaneously controlling their own shin across the opponent's back using the opposite hand, creating a flexible yet controlling frame that neutralizes posture and opens multiple submission pathways.
 
@@ -118,19 +155,21 @@ The learning curve for New York is steep, typically requiring 6-12 months of ded
 
 - **[[Transitions/Rotate to Carni/Attacker|Rotate to Carni]]** (9% of attempts)
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (18% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (17% of attempts)
 
 - **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (7% of attempts)
 
 - **[[Transitions/Gogoplata/Attacker|Gogoplata]]** (6% of attempts)
 
-- **[[Transitions/Armbar from New York/Attacker|Armbar from New York]]** (10% of attempts)
+- **[[Transitions/Armbar from New York/Attacker|Armbar from New York]]** (9% of attempts)
 
-- **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (10% of attempts)
+- **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (9% of attempts)
 
 - **[[Transitions/Omoplata to Back/Attacker|Omoplata to Back]]** (9% of attempts)
 
 - **[[Transitions/Sweep from New York/Attacker|Sweep from New York]]** (3% of attempts)
+
+- **[[Belly Down Armbar from New York/Attacker|Belly Down Armbar from New York]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -268,6 +307,19 @@ The learning curve for New York is steep, typically requiring 6-12 months of ded
 
 - **[[Positions/Omoplata Control]]** - Submission control available from New York via Carni pathway
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/10th-Planet-No-Gi-Guard-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-no-gi-guard-system" data-system-name="10th Planet No-Gi Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">10th Planet No-Gi Guard System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Key rubber guard position for triangle setups</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/10th-Planet-Rubber-Guard-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-rubber-guard-system" data-system-name="10th Planet Rubber Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">10th Planet Rubber Guard System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Advanced control position with highest submission percentage</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Rubber-Guard-to-Omoplata-System" data-cta="related-system-card" data-system-slug="systems/rubber-guard-to-omoplata-system" data-system-name="Rubber Guard to Omoplata System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Rubber Guard to Omoplata System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Key transition position before omoplata entry</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Rubber-Guard-to-Triangle-System" data-cta="related-system-card" data-system-slug="systems/rubber-guard-to-triangle-system" data-system-name="Rubber Guard to Triangle System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Rubber Guard to Triangle System</span><span class="system-card__unlocks-badge">Unlocks 22 techniques</span><span class="system-card__blurb">Final positioning checkpoint before triangle completion</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

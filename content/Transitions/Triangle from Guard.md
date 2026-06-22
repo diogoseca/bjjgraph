@@ -10,6 +10,41 @@ description: "Learn the Triangle from Guard in BJJ. Step-by-step entry from Miss
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Triangle from Guard",
+  "description": "Learn the Triangle from Guard in BJJ. Step-by-step entry from Mission Control to Triangle Control. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Triangle from Guard", "item": "https://bjjgraph.org/Transitions/Triangle-from-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Triangle from Guard",
+  "description": "Triangle from Guard is a high-guard submission entry that swings one leg across the opponent's neck while their arm stays trapped inside, converting broken posture into a figure-four triangle that compresses the carotid arteries.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Learn the Triangle from Guard in BJJ. Step-by-step entry from Miss
 </div>
 
 <section id="overview" class="content-section">
+
+**Triangle from Guard is a high-guard submission entry that swings one leg across the opponent's neck while their arm stays trapped inside, converting broken posture into a figure-four triangle that compresses the carotid arteries.**
 
 The Triangle from Guard is the primary submission setup from Mission Control within the rubber guard system, converting shoulder isolation and broken posture into a locked triangle position. Unlike a standard closed guard triangle that requires creating an angle and isolating the head and arm from scratch, the Mission Control triangle leverages the pre-existing structural control: the opponent's shoulder is already trapped, their posture is already broken, and their arm is already isolated on the inside of the high guard leg. This makes the triangle entry from Mission Control significantly higher-percentage than traditional guard triangle setups.
 
@@ -223,6 +260,17 @@ The Triangle from Guard is the central submission threat that makes the entire M
 
 - [[Transitions/Inverted Triangle]] - Variation - alternative triangle configuration available from similar setups
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/10th-Planet-No-Gi-Guard-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-no-gi-guard-system" data-system-name="10th Planet No-Gi Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">10th Planet No-Gi Guard System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Primary submission finish from rubber guard</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Rubber-Guard-to-Triangle-System" data-cta="related-system-card" data-system-slug="systems/rubber-guard-to-triangle-system" data-system-name="Rubber Guard to Triangle System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Rubber Guard to Triangle System</span><span class="system-card__unlocks-badge">Unlocks 22 techniques</span><span class="system-card__blurb">Primary submission finish of the system</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

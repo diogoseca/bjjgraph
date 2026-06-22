@@ -10,6 +10,41 @@ description: "Master the knee slice pass from closed guard in BJJ. Complete guid
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Knee Slice from Closed Guard",
+  "description": "Master the knee slice pass from closed guard in BJJ. Complete guide covering guard opening, knee insertion, crossface pressure, and defense strategies.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Knee Slice from Closed Guard", "item": "https://bjjgraph.org/Transitions/Knee-Slice-from-Closed-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Knee Slice from Closed Guard",
+  "description": "Knee Slice from Closed Guard is a compound guard pass that chains the guard break directly into a diagonal knee-cut across the opponent's thigh, advancing to half guard top before they can recover an open guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the knee slice pass from closed guard in BJJ. Complete guid
 
 <section id="overview" class="content-section">
 
-The knee slice from closed guard is a compound passing transition where the top player opens the opponent's closed guard and immediately drives their knee diagonally across the thigh to advance toward half guard top. This technique bridges the gap between guard opening and guard passing, combining both phases into a single flowing sequence that denies the bottom player time to establish alternative defensive guards such as butterfly, spider, or De La Riva.
+**Knee Slice from Closed Guard is a compound guard pass that chains the guard break directly into a diagonal knee-cut across the opponent's thigh, advancing to half guard top before they can recover an open guard.**
+
+Unlike passes that treat guard opening and guard passing as two separate events, the knee slice from closed guard fuses them: the instant the closed guard breaks, the top player is already driving forward rather than resetting to a neutral open-guard exchange. This technique bridges the gap between guard opening and guard passing, combining both phases into a single flowing sequence that denies the bottom player time to establish alternative defensive guards such as butterfly, spider, or De La Riva.
 
 Strategically, the knee slice from closed guard eliminates the dangerous intermediate phase where the bottom player could transition to an open guard system after their closed guard is broken. By committing to the knee slice upon ankle separation, the top player maintains forward pressure and momentum, keeping the bottom player reactive rather than allowing them to proactively build new defensive structures. The technique is particularly effective against opponents with strong open guard retention, as it bypasses that phase entirely.
 
@@ -220,5 +257,7 @@ The knee slice from closed guard occupies a critical position in the guard passi
 
 
 </section>
+
+
 
 </main>

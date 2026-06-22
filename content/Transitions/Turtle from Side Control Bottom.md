@@ -10,6 +10,41 @@ description: "Master the turtle turn escape from side control bottom in BJJ. Com
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Turtle from Side Control Bottom",
+  "description": "Master the turtle turn escape from side control bottom in BJJ. Complete guide covering turning mechanics, timing, and grip fighting for positional recovery.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Turtle from Side Control Bottom", "item": "https://bjjgraph.org/Transitions/Turtle-from-Side-Control-Bottom" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Turtle from Side Control Bottom",
+  "description": "Turtle from Side Control Bottom is a defensive escape in which the pinned bottom player frames, bridges, and rotates to hands and knees, trading the flat side-control pin for a transitional turtle from which to recover guard or stand.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the turtle turn escape from side control bottom in BJJ. Com
 </div>
 
 <section id="overview" class="content-section">
+
+**Turtle from Side Control Bottom is a defensive escape in which the pinned bottom player frames, bridges, and rotates to hands and knees, trading the flat side-control pin for a transitional turtle from which to recover guard or stand.**
 
 The turtle turn from side control bottom is one of the most fundamental escape pathways in Brazilian Jiu-Jitsu. When trapped under heavy side control pressure, turning to turtle provides a viable positional improvement that creates immediate opportunities for guard recovery, technical stand-ups, and scrambles. While turtle carries inherent risk from back exposure, it represents a significant upgrade from the flat, pinned state of side control bottom where submission threats are constant and movement options are severely limited.
 
@@ -218,5 +255,7 @@ The turtle turn from side control bottom occupies a critical position in the BJJ
 
 
 </section>
+
+
 
 </main>

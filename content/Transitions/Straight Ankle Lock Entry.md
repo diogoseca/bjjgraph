@@ -10,6 +10,41 @@ description: "Learn Straight Ankle Lock Entry from Grasshopper Guard in BJJ. Ste
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Straight Ankle Lock Entry",
+  "description": "Learn Straight Ankle Lock Entry from Grasshopper Guard in BJJ. Step-by-step leg capture to ankle lock control. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Straight Ankle Lock Entry", "item": "https://bjjgraph.org/Transitions/Straight-Ankle-Lock-Entry" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Straight Ankle Lock Entry",
+  "description": "The Straight Ankle Lock Entry is a leg-lock transition from Grasshopper Guard bottom where the inverted player threads their legs around a standing opponent's lead leg, isolates the ankle, and establishes straight ankle lock control for an Achilles-tendon finish.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Learn Straight Ankle Lock Entry from Grasshopper Guard in BJJ. Ste
 </div>
 
 <section id="overview" class="content-section">
+
+**The Straight Ankle Lock Entry is a leg-lock transition from Grasshopper Guard bottom where the inverted player threads their legs around a standing opponent's lead leg, isolates the ankle, and establishes straight ankle lock control for an Achilles-tendon finish.**
 
 The Straight Ankle Lock Entry from Grasshopper Guard exploits the inverted positioning to capture the opponent's ankle before they can clear your legs or establish a passing sequence. From the grasshopper configuration, your elevated hips and active leg engagement create natural pathways to thread under the opponent's lead leg and isolate the ankle joint for a straight footlock attack.
 
@@ -221,5 +258,7 @@ The Straight Ankle Lock Entry is the primary submission-oriented exit from Grass
 
 
 </section>
+
+
 
 </main>

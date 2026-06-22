@@ -10,6 +10,41 @@ description: "Master the Escape from Truck position in BJJ. Complete guide cover
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Escape from Truck",
+  "description": "Master the Escape from Truck position in BJJ. Complete guide covering boot clearing, leg extraction, granby roll mechanics, and scramble recovery techniques.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Escape from Truck", "item": "https://bjjgraph.org/Transitions/Escape-from-Truck" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Escape from Truck",
+  "description": "The Escape from Truck is a defensive sequence from truck bottom that systematically clears boot pressure, extracts the trapped leg, and uses a granby roll to recover guard or reverse to side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Escape from Truck position in BJJ. Complete guide cover
 </div>
 
 <section id="overview" class="content-section">
+
+**The Escape from Truck is a defensive sequence from truck bottom that systematically clears boot pressure, extracts the trapped leg, and uses a granby roll to recover guard or reverse to side control.**
 
 The Escape from Truck is one of the most critical defensive techniques in modern no-gi grappling. The truck position, popularized by the 10th Planet Jiu-Jitsu system, creates a dangerous control platform where the top player can threaten twisters, calf slicers, banana splits, and back takes simultaneously. Successfully escaping requires methodical attention to the position's three control layers: boot pressure on the hip generating torque through the spine, leg entanglement of the trapped limb restricting lower body mobility, and upper body control through harness or arm positioning limiting defensive movement. The escape carries significant urgency because remaining in truck bottom exposes you to spinal submissions with very short windows before injury occurs.
 
@@ -218,5 +255,7 @@ The Escape from Truck integrates with the broader defensive hierarchy in BJJ by 
 
 
 </section>
+
+
 
 </main>

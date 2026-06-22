@@ -10,6 +10,41 @@ description: "Learn the Hindulotine to Darce Choke transition in BJJ. Convert gu
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Hindulotine to Darce Choke",
+  "description": "Learn the Hindulotine to Darce Choke transition in BJJ. Convert guillotine control to Darce when opponent frames. Chain submissions for no-gi front headlock dominance.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Hindulotine to Darce Choke", "item": "https://bjjgraph.org/Transitions/Hindulotine-to-Darce-Choke" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Hindulotine to Darce Choke",
+  "description": "The Hindulotine to Darce Choke is a front-headlock submission chain that converts a stalled guillotine into a Darce when the opponent frames with their near-side arm, threading the choking arm under that armpit to trap the limb they defended with.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,13 +57,15 @@ description: "Learn the Hindulotine to Darce Choke transition in BJJ. Convert gu
 
 <section id="overview" class="content-section">
 
+**The Hindulotine to Darce Choke is a front-headlock submission chain that converts a stalled guillotine into a Darce when the opponent frames with their near-side arm, threading the choking arm under that armpit to trap the limb they defended with.**
+
 The Hindulotine to Darce Choke transition represents a sophisticated submission chain that capitalizes on common defensive reactions to guillotine attacks. When an opponent defends the Hindulotine by creating a frame with their near-side arm or turning their shoulder into the attacker, they inadvertently create the arm-in configuration necessary for a Darce choke. This transition exploits the fundamental principle that defensive movements often create new vulnerabilities.
 
 From the bottom Hindulotine position, the attacker recognizes the defensive frame and threads their choking arm deeper under the opponent's armpit rather than continuing to pull on the neck. The grip transitions from a standard guillotine configuration to the figure-four or gable grip characteristic of the Darce. This requires releasing the original guillotine grip momentarily to rethread the arm, making timing and execution critical to prevent the opponent from escaping during the transition.
 
 Strategically, this transition exemplifies the modern submission hunting approach where attackers flow between related chokes based on defensive reactions. The Hindulotine and Darce share similar positional requirements and head control mechanics, making the transition natural once the pattern recognition develops. Advanced practitioners often set up this transition deliberately by applying guillotine pressure that they know will generate the defensive frame they need for the Darce entry.
 
-**From Position**: [[Positions/Hindulotine]] (Top)
+**From Position**: [[Positions/Hindulotine]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -220,5 +257,7 @@ The Hindulotine to Darce Choke transition exemplifies the modern submission chai
 
 
 </section>
+
+
 
 </main>

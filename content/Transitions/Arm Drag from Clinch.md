@@ -10,6 +10,41 @@ description: "Master the arm drag from clinch in BJJ. Complete guide to grip mec
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Arm Drag from Clinch",
+  "description": "Master the arm drag from clinch in BJJ. Complete guide to grip mechanics, timing, and standing back take entries with systematic execution breakdowns.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Arm Drag from Clinch", "item": "https://bjjgraph.org/Transitions/Arm-Drag-from-Clinch" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Arm Drag from Clinch",
+  "description": "The arm drag from clinch is a standing back-take entry where you secure two-on-one control of an opponent's arm, pull it across your centerline with hip rotation, and step past their shoulder line to establish dominant rear control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the arm drag from clinch in BJJ. Complete guide to grip mec
 </div>
 
 <section id="overview" class="content-section">
+
+**The arm drag from clinch is a standing back-take entry where you secure two-on-one control of an opponent's arm, pull it across your centerline with hip rotation, and step past their shoulder line to establish dominant rear control.**
 
 The arm drag from the clinch is one of the highest-percentage back take entries in standing grappling, combining simplicity of execution with devastating positional advancement. The technique exploits a fundamental vulnerability in the clinch: when both practitioners are engaged in upper body grip fighting, the arms become available targets for redirection. By controlling one arm and pulling it across your body while stepping laterally, you create an angular bypass of your opponent's defensive structure, clearing their shoulder line to establish dominant rear control.
 
@@ -218,5 +255,7 @@ The arm drag from clinch occupies a critical junction in the standing grappling 
 
 
 </section>
+
+
 
 </main>

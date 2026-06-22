@@ -125,6 +125,7 @@ description: "How to execute Sumi Gaeshi in BJJ. Attacking perspective with setu
   "@type": "WebPage",
   "name": "Sumi Gaeshi Attacker",
   "description": "How to execute Sumi Gaeshi in BJJ. Attacking perspective with setup, execution steps, and counters for this sacrifice throw.",
+  "alternateName": ["Corner Throw", "Corner Reversal"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -170,6 +171,9 @@ description: "How to execute Sumi Gaeshi in BJJ. Attacking perspective with setu
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Corner Throw</strong>, <strong>Corner Reversal</strong> <span class="role-hint">(attacker)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 Sumi Gaeshi is a classical sacrifice throw borrowed from Judo that has proven highly effective in BJJ competition and training. The technique involves sacrificing your base by dropping to your back while using your legs to elevate and off-balance your opponent, resulting in a complete reversal of position. The name translates to 'corner reversal throw' in Japanese, referring to the angular entry that creates the throwing opportunity.
@@ -334,5 +338,7 @@ Implement Sumi Gaeshi in live rolling and competition scenarios. Develop persona
 When practicing Sumi Gaeshi, ensure adequate mat space exists behind you for the backward drop. The person being thrown must be comfortable with rotational breakfalls and overhead throws. Begin all training with slow, controlled repetitions with clear communication between partners. The thrower should maintain grip control throughout to guide the landing. Advanced practitioners must still exercise control to prevent dangerous spikes or uncontrolled landings. Avoid practicing on hard surfaces or when fatigued. Stop immediately if either partner experiences discomfort or uncertainty about the rotation.
 
 </section>
+
+
 
 </main>

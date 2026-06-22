@@ -10,6 +10,9 @@
     "sacrifice-throw",
     "valley-drop"
   ],
+  "aliases": [
+    "Valley Drop"
+  ],
   "from_position": "Standing Position/Top",
   "outcomes": [
     {
@@ -29,6 +32,7 @@
     }
   ],
   "success_rate": 55,
+  "summary": "Tani Otoshi (Valley Drop) is a Judo-derived sacrifice throw where you drop to a seated hip position while blocking the opponent's leg and pulling their upper body across it to land directly in side control.",
   "overview": "Tani Otoshi, or Valley Drop, is a sacrifice throwing technique borrowed from Judo that has proven highly effective in Brazilian Jiu-Jitsu competition and no-gi grappling. Unlike traditional forward throws that require significant breaking of opponent's posture, Tani Otoshi capitalizes on lateral movement and timing, making it accessible to practitioners who may lack explosive power or superior size. The technique involves dropping to a seated position while simultaneously blocking the opponent's leg and controlling their upper body, creating a mechanical advantage that sends them over your blocking leg.\n\nWhat makes this throw particularly valuable in BJJ is its seamless transition potential - the throwing motion naturally places you in a dominant position (typically side control or knee on belly) as your opponent lands. The sacrifice nature of the technique also makes it psychologically surprising, as opponents often don't expect you to willingly drop your base. In modern competition, Tani Otoshi has gained popularity because it works effectively in both gi and no-gi contexts, requires minimal setup compared to other throws, and can be executed with relatively low energy expenditure when timed correctly.\n\nStrategically, Tani Otoshi fits into a broader standing game as a counter-offensive weapon. It punishes opponents who drive forward aggressively, circle into your preferred angle, or overcommit to grip fighting. The technique chains naturally with other judo-derived throws: if your opponent defends by stepping back, Osoto Gari becomes available; if they circle away, Tai Otoshi opens up. This makes Tani Otoshi not just a standalone technique but a central node in a standing attack system.",
   "related_content": [
     {

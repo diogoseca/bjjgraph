@@ -10,6 +10,41 @@ description: "Master Carni position in BJJ. Advanced leg entanglement with syste
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Carni",
+  "description": "Master Carni position in BJJ. Advanced leg entanglement with systematic heel hook and back take paths. Strategic guide covering both attacking and defending perspectives.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Carni", "item": "https://bjjgraph.org/Positions/Carni" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Carni",
+  "description": "Carni is an advanced no-gi leg entanglement where you trap one of the opponent's legs from the inside while threading your top leg over their hip, forcing a dilemma between heel-hook defense and back exposure.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master Carni position in BJJ. Advanced leg entanglement with syste
 
 <section id="overview" class="content-section">
 
-The Carni position is an advanced leg entanglement control position that emerged from modern no-gi grappling, particularly popularized by Australian grapplers like Lachlan Giles and adopted by Craig Jones and the B-Team. Named after the "carnivore" concept of aggressively attacking the legs, this position represents a transitional control state between standard ashi garami variants and more dominant positions like the saddle or back control. The Carni is characterized by controlling one of the opponent's legs while maintaining inside positioning with your own legs, creating immediate threats of heel hooks, transitions to the saddle, or unexpected paths to the back.
+**Carni is an advanced no-gi leg entanglement where you trap one of the opponent's legs from the inside while threading your top leg over their hip, forcing a dilemma between heel-hook defense and back exposure.**
+
+Emerging from modern no-gi grappling, the Carni was popularized by Australian grapplers like Lachlan Giles and adopted by Craig Jones and the B-Team. Named after the "carnivore" concept of aggressively attacking the legs, it functions as a transitional control state between standard ashi garami variants and more dominant positions like the saddle or back control. The Carni is characterized by controlling one of the opponent's legs while maintaining inside positioning with your own legs, creating immediate threats of heel hooks, transitions to the saddle, or unexpected paths to the back.
 
 What distinguishes the Carni from other leg entanglement positions is its versatility and the high-percentage nature of its attack paths. Unlike static leg lock positions, the Carni emphasizes dynamic control and transition, forcing opponents into defensive reactions that open up multiple submission and positional advancement opportunities. The position is particularly effective in no-gi competition where leg attacks are legal, and it has become a cornerstone of modern leg lock systems.
 
@@ -102,23 +139,21 @@ From the attacking perspective (bottom), the Carni offers exceptional offensive 
 ### Available Transitions
 
 
-- **[[Heel Hook from Carni/Attacker|Heel Hook from Carni]]** (12% of attempts)
+- **[[Heel Hook from Carni/Attacker|Heel Hook from Carni]]** (25% of attempts)
 
-- **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (17% of attempts)
-
-- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (11% of attempts)
+- **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (15% of attempts)
 
 - **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** (12% of attempts)
 
-- **[[Calf Slicer from Carni/Attacker|Calf Slicer from Carni]]** (11% of attempts)
+- **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** (12% of attempts)
 
-- **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (12% of attempts)
+- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (11% of attempts)
 
-- **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** (11% of attempts)
+- **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (11% of attempts)
 
-- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (9% of attempts)
+- **[[Calf Slicer from Carni/Attacker|Calf Slicer from Carni]]** (10% of attempts)
 
-- **[[Transitions/Carni to Gogoplata Setup/Attacker|Carni to Gogoplata Setup]]** (5% of attempts)
+- **[[Transitions/Carni to Gogoplata Setup/Attacker|Carni to Gogoplata Setup]]** (4% of attempts)
 
 
 ### Common Mistakes
@@ -183,17 +218,15 @@ From the attacking perspective (bottom), the Carni offers exceptional offensive 
 ### Available Transitions
 
 
-- **[[Transitions/Stack Defense/Attacker|Stack Defense]]** (24% of attempts)
+- **[[Transitions/Stack Defense/Attacker|Stack Defense]]** (29% of attempts)
 
-- **[[Transitions/Rolling Kimura Escape/Attacker|Rolling Kimura Escape]]** (16% of attempts)
+- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (18% of attempts)
 
-- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (14% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (17% of attempts)
 
-- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (13% of attempts)
+- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (15% of attempts)
 
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (14% of attempts)
-
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (11% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (13% of attempts)
 
 - **[[Transitions/Posture Recovery from Carni/Attacker|Posture Recovery from Carni]]** (5% of attempts)
 
@@ -258,5 +291,7 @@ From the attacking perspective (bottom), the Carni offers exceptional offensive 
 
 
 </section>
+
+
 
 </main>

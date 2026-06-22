@@ -10,6 +10,41 @@ description: "Master the Triangle from Spider Guard in BJJ. Learn to convert sle
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Triangle from Spider Guard",
+  "description": "Master the Triangle from Spider Guard in BJJ. Learn to convert sleeve control into high-percentage triangle submissions with systematic setup sequences.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Triangle from Spider Guard", "item": "https://bjjgraph.org/Transitions/Triangle-from-Spider-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Triangle from Spider Guard",
+  "description": "Triangle from Spider Guard is a gi guard attack that converts double-sleeve and bicep control into a triangle choke by pushing one arm away, pulling the other across your centerline, and swinging a leg over the opponent's shoulder.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Triangle from Spider Guard in BJJ. Learn to convert sle
 </div>
 
 <section id="overview" class="content-section">
+
+**Triangle from Spider Guard is a gi guard attack that converts double-sleeve and bicep control into a triangle choke by pushing one arm away, pulling the other across your centerline, and swinging a leg over the opponent's shoulder.**
 
 The Triangle from Spider Guard is one of the highest-percentage triangle entries in gi jiu-jitsu, leveraging the inherent arm isolation created by double sleeve control and bicep hooks. From Spider Guard Bottom, you already control both of the opponent's arms through sleeve grips while your feet maintain distance on their biceps. This existing control structure makes isolating one arm—the fundamental prerequisite for any triangle—a natural consequence of the position rather than something you must fight to create.
 
@@ -226,5 +263,7 @@ The Triangle from Spider Guard occupies a central role in the spider guard offen
 
 
 </section>
+
+
 
 </main>

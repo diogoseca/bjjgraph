@@ -10,6 +10,41 @@ description: "Master the Lumberjack Sweep from half guard in BJJ. Step-by-step e
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Lumberjack Sweep",
+  "description": "Master the Lumberjack Sweep from half guard in BJJ. Step-by-step execution with underhook control. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Lumberjack Sweep", "item": "https://bjjgraph.org/Transitions/Lumberjack-Sweep" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Lumberjack Sweep",
+  "description": "The Lumberjack Sweep is a half guard bottom sweep that uses a deep far-side underhook and an explosive chopping hip elevation to off-balance a forward-pressuring opponent and rotate them over into side control top.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Lumberjack Sweep from half guard in BJJ. Step-by-step e
 
 <section id="overview" class="content-section">
 
-The Lumberjack Sweep is a fundamental half guard sweep that capitalizes on underhook control to off-balance and sweep an opponent who is attempting to pass. Named for the chopping motion used to break down the opponent's base, this technique is particularly effective against opponents who overcommit their weight forward or fail to establish proper crossface control. The sweep combines hip movement, underhook leverage, and precise timing to elevate the opponent and transition to a dominant top position.
+**The Lumberjack Sweep is a half guard bottom sweep that uses a deep far-side underhook and an explosive chopping hip elevation to off-balance a forward-pressuring opponent and rotate them over into side control top.**
+
+Named for the chopping motion used to break down the opponent's base, the Lumberjack Sweep earned its place as a cornerstone of modern half guard precisely because it punishes the most common passing mistake: overcommitting weight forward without crossface control. It is particularly effective against opponents who pressure into the pass while leaving their far-side armpit exposed to a deep underhook. The sweep combines hip movement, underhook leverage, and precise timing to elevate the opponent and transition to a dominant top position.
 
 This technique serves as a cornerstone of modern half guard systems, providing a reliable option when the opponent is pressuring into your half guard. The Lumberjack Sweep's effectiveness lies in its ability to exploit the opponent's forward momentum, turning their pressure into a liability. By controlling the underhook and creating the proper angle, the bottom player can generate significant leverage despite being in an inferior position.
 
@@ -219,9 +256,11 @@ The lumberjack sweep is a cornerstone technique of modern half guard bottom syst
 
 - [[Positions/Butterfly Guard]] - Recovery option if opponent extracts leg during sweep attempt
 
-- [[Transitions/Deep Half Entry]] - Chain transition when crossface prevents sweep completion
+- [[Transitions/Deep Half Entry from Half Guard]] - Chain transition when crossface prevents sweep completion
 
 
 </section>
+
+
 
 </main>

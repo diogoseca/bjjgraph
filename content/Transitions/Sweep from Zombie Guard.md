@@ -10,6 +10,41 @@ description: "Master the Sweep from Zombie Guard in BJJ. Learn lockdown-based re
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Sweep from Zombie Guard",
+  "description": "Master the Sweep from Zombie Guard in BJJ. Learn lockdown-based reversal mechanics from the 10th Planet Zombie position to achieve dominant mount control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Sweep from Zombie Guard", "item": "https://bjjgraph.org/Transitions/Sweep-from-Zombie-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Sweep from Zombie Guard",
+  "description": "Sweep from Zombie Guard is a 10th Planet lockdown reversal from the Zombie bottom position that combines a lockdown leg stretch, a deep underhook, and an explosive hip bridge to overturn the top player and arrive in mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Sweep from Zombie Guard in BJJ. Learn lockdown-based re
 </div>
 
 <section id="overview" class="content-section">
+
+**Sweep from Zombie Guard is a 10th Planet lockdown reversal from the Zombie bottom position that combines a lockdown leg stretch, a deep underhook, and an explosive hip bridge to overturn the top player and arrive in mount.**
 
 The Sweep from Zombie Guard is a lockdown-based reversal originating from the 10th Planet Jiu-Jitsu system that transforms the defensive Zombie bottom position into an offensive platform for achieving mount. The technique exploits the mechanical advantage created by the lockdown entanglement on the opponent's leg, combining it with underhook control and strategic hip elevation to systematically dismantle the top player's base and complete the reversal. The sweep rewards practitioners who develop sensitivity to weight distribution changes and precise timing of the coordinated force application.
 
@@ -218,5 +255,7 @@ The Sweep from Zombie Guard occupies a central role in the 10th Planet half guar
 
 
 </section>
+
+
 
 </main>

@@ -10,23 +10,70 @@ description: "Master the Kesa Gatame Arm Crush in BJJ. Complete guide covering e
 
 <body data-content-type="submissions-family">
 
-> **SAFETY**: Kesa Gatame Arm Crush targets the Elbow/Forearm. Risk: Elbow hyperextension or dislocation from excessive pressure against the fulcrum point. Release immediately upon tap.
+<!-- Schema Markup - CollectionPage (family hub entity) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Kesa Gatame Arm Crush",
+  "description": "Master the Kesa Gatame Arm Crush in BJJ. Complete guide covering execution, defense, and safety for this powerful compression lock from scarf hold position.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Kesa Gatame Arm Crush", "item": "https://bjjgraph.org/Submissions/Kesa-Gatame-Arm-Crush" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kesa Gatame Arm Crush",
+  "description": "The Kesa Gatame Arm Crush is a grip-independent compression submission from scarf hold that pins the opponent's near arm across the attacker's torso and drives the hip and ribcage into the elbow as a fulcrum to force the tap.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "What is the Kesa Gatame Arm Crush?", "acceptedAnswer": { "@type": "Answer", "text": "The Kesa Gatame Arm Crush is a grip-independent compression submission from scarf hold that pins the opponent\u0027s near arm across the attacker\u0027s torso and drives the hip and ribcage into the elbow as a fulcrum to force the tap." } },
+    { "@type": "Question", "name": "What positions can you finish the Kesa Gatame Arm Crush from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Kesa Gatame Arm Crush from Kesa Gatame." } },
+    { "@type": "Question", "name": "Is the Kesa Gatame Arm Crush dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "Kesa Gatame Arm Crush targets the Elbow/Forearm. Primary risk: Elbow hyperextension or dislocation from excessive pressure against the fulcrum point. Tap early and release immediately on the tap." } }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 
-<section id="variants" class="content-section">
+**The Kesa Gatame Arm Crush is a grip-independent compression submission from scarf hold that pins the opponent's near arm across the attacker's torso and drives the hip and ribcage into the elbow as a fulcrum to force the tap.**
+<div class="principle-meta">
+<span class="meta-chip">Compression</span>
+<span class="meta-chip">Arm Crush</span>
+<span class="meta-chip">Targets Elbow/Forearm</span>
+<span class="meta-chip">~45% avg</span>
+</div>
 
-## Position Variants
-
-| From Position | Success Rate | Top Injury Risk | Key Difference |
-|---------------|-------------|-----------------|----------------|
-| [[Kesa Gatame Arm Crush/from Kesa Gatame|Kesa Gatame]] | 45% | Elbow hyperextension or dislocation from excessive pressure against the fulcrum point |  |
-
-
-</section>
-
+> [!danger] Safety
+> Kesa Gatame Arm Crush targets the Elbow/Forearm. Primary risk: Elbow hyperextension or dislocation from excessive pressure against the fulcrum point. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <section id="overview" class="content-section">
 
@@ -36,10 +83,49 @@ This submission represents a natural evolution of kesa gatame offense, capitaliz
 
 The technique is especially valuable in no-gi contexts where maintaining traditional kesa gatame submissions like the americana can be difficult without sleeve grips. The arm crush relies purely on body mechanics and positioning, making it grip-independent and highly effective regardless of attire. Competition practitioners have increasingly adopted this submission as a high-percentage finish from an already dominant position, particularly when opponents become defensive and static under the crushing pressure of scarf hold. The arm crush also chains naturally with americana and kimura attempts, creating a submission flow that keeps the opponent guessing which joint attack is coming next.
 
-**Category**: Compression
-**Type**: Arm Crush
-**Target Area**: Elbow/Forearm
-**Success Rate**: 45% (average across variants)
+</section>
+
+
+<section id="variants" class="content-section">
+
+## What positions can you finish from?
+
+
+<div class="variants-table">
+
+| From Position | Seat | Success | Play as Attacker | Play as Defender |
+|---|---|---|---|---|
+| [[Submissions/Kesa Gatame Arm Crush/from Kesa Gatame|Kesa Gatame]] | Top | 45% | [[Submissions/Kesa Gatame Arm Crush/from Kesa Gatame/Attacker|Attack →]] | [[Submissions/Kesa Gatame Arm Crush/from Kesa Gatame/Defender|Defend →]] |
+
+
+</div>
+
+
+<details class="mechanical-variations">
+<summary>Mechanical variations (how the choke is finished)</summary>
+
+- **Standard Hip Fulcrum Arm Crush**: The fundamental version where the attacker positions the opponent's elbow directly against their hip bone and drives forward while controlling the wrist. The hip serves as the primary fulcrum, and the crush is completed through forward hip pressure and slight arching of the back. (When to use: When opponent's arm is already trapped flat against your torso from standard kesa gatame control and they are not actively fighting the arm position)
+- **Figure-Four Grip Arm Crush**: The attacker secures a figure-four grip around the opponent's trapped forearm, interlocking both hands for maximum control. This variation provides superior wrist control and prevents the opponent from rotating their arm to escape the crush. The figure-four grip also allows the attacker to apply torque in addition to compression. (When to use: When opponent is actively fighting wrist control and single-hand grip on the forearm is insufficient to maintain arm positioning for the finish)
+- **Arm Crush from Kuzure Kesa-Gatame Transition**: Starting from the modified scarf hold where the arm is already isolated under the attacker's armpit, the attacker threads both arms around the trapped limb and transitions the elbow to their hip. This entry is particularly effective because the arm isolation in kuzure kesa provides a head start on the arm positioning required for the crush. (When to use: When controlling from modified scarf hold and opponent resists americana or kimura attempts by keeping their arm rigid and extended)
+
+
+</details>
+
+
+</section>
+
+
+<section id="related" class="content-section">
+
+## Related
+- [[Submissions/Kimura]] - Primary submission chain partner from kesa gatame - kimura defense often exposes the arm for the crush
+- [[Submissions/Arm Crush]] - Parent submission category sharing compression mechanics and elbow attack principles
+- [[Transitions/Arm Triangle]] - Alternative submission from same position when opponent defends the arm crush by tucking elbow
+- [[Submissions/Americana]] - Complementary shoulder lock creating attack chains from scarf hold positions
+- [[Submissions/Bicep Slicer]] - Related compression submission attacking similar forearm and bicep anatomical structures
+- [[Positions/Side Control/Kesa Gatame]] - Primary starting position providing the control framework for the arm crush setup
+- [[Positions/Side Control/Kuzure Kesa-Gatame]] - Alternative starting position with pre-isolated arm control that facilitates the crush entry
+- [[Positions/Side Control/Scarf Hold Position]] - Positional family sharing control mechanics and arm trapping principles
 
 </section>
 
@@ -76,74 +162,6 @@ The technique is especially valuable in no-gi contexts where maintaining traditi
 - Avoid explosive hip drives into the arm crush - always apply pressure gradually to allow partner adequate time to recognize and signal the tap
 - White and blue belts should practice the positioning and grip mechanics without applying finishing pressure until the setup is consistent
 
-
-</section>
-
-
-<section id="variation-details" class="content-section hide-minimal">
-
-## Variation Details
-
-
-**Standard Hip Fulcrum Arm Crush**: The fundamental version where the attacker positions the opponent's elbow directly against their hip bone and drives forward while controlling the wrist. The hip serves as the primary fulcrum, and the crush is completed through forward hip pressure and slight arching of the back. (When to use: When opponent's arm is already trapped flat against your torso from standard kesa gatame control and they are not actively fighting the arm position)
-
-
-**Figure-Four Grip Arm Crush**: The attacker secures a figure-four grip around the opponent's trapped forearm, interlocking both hands for maximum control. This variation provides superior wrist control and prevents the opponent from rotating their arm to escape the crush. The figure-four grip also allows the attacker to apply torque in addition to compression. (When to use: When opponent is actively fighting wrist control and single-hand grip on the forearm is insufficient to maintain arm positioning for the finish)
-
-
-**Arm Crush from Kuzure Kesa-Gatame Transition**: Starting from the modified scarf hold where the arm is already isolated under the attacker's armpit, the attacker threads both arms around the trapped limb and transitions the elbow to their hip. This entry is particularly effective because the arm isolation in kuzure kesa provides a head start on the arm positioning required for the crush. (When to use: When controlling from modified scarf hold and opponent resists americana or kimura attempts by keeping their arm rigid and extended)
-
-
-
-</section>
-
-
-<section id="from-positions" class="content-section">
-
-## From Which Positions?
-
-- [[Positions/Side Control/Kesa Gatame]]
-- [[Positions/Side Control/Kuzure Kesa-Gatame]]
-- [[Positions/Side Control/Scarf Hold Position]]
-
-
-</section>
-
-<section id="related-submissions" class="content-section">
-
-## Related Submissions
-
-- [[Submissions/Kimura]] - Primary submission chain partner from kesa gatame - kimura defense often exposes the arm for the crush
-- [[Submissions/Arm Crush]] - Parent submission category sharing compression mechanics and elbow attack principles
-- [[Transitions/Arm Triangle]] - Alternative submission from same position when opponent defends the arm crush by tucking elbow
-- [[Submissions/Americana]] - Complementary shoulder lock creating attack chains from scarf hold positions
-- [[Submissions/Bicep Slicer]] - Related compression submission attacking similar forearm and bicep anatomical structures
-- [[Americana from Kesa Gatame]] - Position-specific variant frequently chained with arm crush when opponent defends one attack
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
-- [[Positions/Side Control/Kesa Gatame]] - Primary starting position providing the control framework for the arm crush setup
-- [[Positions/Side Control/Kuzure Kesa-Gatame]] - Alternative starting position with pre-isolated arm control that facilitates the crush entry
-- [[Positions/Side Control/Scarf Hold Position]] - Positional family sharing control mechanics and arm trapping principles
-- [[Submissions/Americana]] - Primary submission chain partner from kesa gatame - americana defense often exposes the arm for the crush
-- [[Submissions/Arm Crush]] - Parent submission category sharing compression mechanics and elbow attack principles
-- [[Transitions/Arm Triangle]] - Alternative submission from same position when opponent defends the arm crush by tucking elbow
-
-
-</section>
-
-<section id="terminal-state" class="content-section">
-
-## Match Outcome
-
-Successful execution of Kesa Gatame Arm Crush leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
 
 </section>
 

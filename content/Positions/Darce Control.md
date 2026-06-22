@@ -10,6 +10,41 @@ description: "Master Darce Control position in BJJ. Dominant front headlock vari
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Darce Control",
+  "description": "Master Darce Control position in BJJ. Dominant front headlock variant with high submission rate. Learn entries, arm triangle mechanics, transition chains, and defensive strategies.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Darce Control", "item": "https://bjjgraph.org/Positions/Darce-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Darce Control",
+  "description": "Darce Control is a dominant front-headlock position where the attacker threads one arm under the opponent's near armpit and across the neck, locking a figure-four grip that threatens a blood choke while pinning the trapped arm and upper body.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master Darce Control position in BJJ. Dominant front headlock vari
 
 <section id="overview" class="content-section">
 
-Darce Control is a highly effective front headlock variation where the attacking practitioner secures a figure-four grip around the opponent's neck and shoulder, creating intense pressure on the carotid arteries. Named after its popularizer Joe D'Arce, this position combines elements of the arm triangle and anaconda choke, offering both submission threat and positional dominance. The position is characterized by the attacker threading their arm under the opponent's near armpit, across the back of their neck, and catching their own bicep with the opposite hand to complete the choke.
+**Darce Control is a dominant front-headlock position where the attacker threads one arm under the opponent's near armpit and across the neck, locking a figure-four grip that threatens a blood choke while pinning the trapped arm and upper body.**
+
+Popularized by Joe D'Arce and refined across modern no-gi competition, this front-headlock control sits at the intersection of the arm triangle and anaconda choke families. The attacker threads their arm under the opponent's near armpit, drives it across the back of the neck, and catches their own bicep with the opposite hand, building a figure-four that compresses both carotid arteries while trapping the near arm against the head.
 
 Darce Control serves as both a submission position and a controlling platform for advancing position. It is most commonly entered from turtle, front headlock, failed single leg attempts, or scrambles where the opponent's posture is compromised. The position creates an immediate submission threat while maintaining strong control over the opponent's upper body, making it difficult for them to escape or counter. Advanced practitioners use Darce Control as a hub position, flowing between submission attempts and positional advances.
 
@@ -224,6 +261,17 @@ The effectiveness of Darce Control lies in its ability to create multiple dilemm
 
 - **[[Positions/Back Control]]** - High-percentage transition when opponent rolls to escape
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Danaher-Front-Headlock-System" data-cta="related-system-card" data-system-slug="systems/danaher-front-headlock-system" data-system-name="Danaher Front Headlock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Danaher Front Headlock System</span><span class="system-card__unlocks-badge">Unlocks 30 techniques</span><span class="system-card__blurb">Control position for darce choke pathway</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Control System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/No-Gi-Tactical-Framework" data-cta="related-system-card" data-system-slug="systems/no-gi-tactical-framework" data-system-name="No-Gi Tactical Framework" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">No-Gi Tactical Framework</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">No-gi specific choke control from multiple positions</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

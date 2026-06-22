@@ -10,7 +10,7 @@
     "stacking mechanics",
     "arm extraction"
   ],
-  "from_position": "Triangle Escape Position/Bottom",
+  "from_position": "Triangle Escape Position/Top",
   "outcomes": [
     {
       "to": "Closed Guard/Top",
@@ -18,7 +18,7 @@
       "result": "success"
     },
     {
-      "to": "Triangle Escape Position/Bottom",
+      "to": "Triangle Escape Position/Top",
       "probability": 30,
       "result": "failure"
     },
@@ -29,6 +29,7 @@
     }
   ],
   "success_rate": 50,
+  "summary": "The Complete Triangle Escape is the finishing sequence of triangle defense in which the trapped grappler stacks forward, circles toward the trapped-arm side, and rotates the arm free to break the lock and settle into closed guard top.",
   "overview": "The Complete Triangle Escape represents the definitive finishing sequence of triangle defense where the practitioner converts established defensive posture into full positional extraction, transitioning from immediate submission danger to closed guard top. Unlike intermediate defensive measures such as posture recovery or hip control that merely stabilize the position, this technique encompasses the entire escape chain from consolidated defensive structure through systematic dismantling of the triangle lock to complete arm and head extraction, culminating in guard engagement that prevents re-attack.\n\nThis escape demands precise coordination of multiple mechanics operating simultaneously: sustained forward stacking pressure to compromise the opponent's hip elevation and triangle tightness, deliberate circular stepping toward the trapped arm side to progressively weaken the leg lock configuration, controlled rotational arm extraction that avoids triggering armbar counters, and immediate transition to closed guard engagement that prevents the opponent from re-establishing offensive threats. Each phase must execute in proper sequence because attempting to shortcut any step typically results in re-capture, tighter triangle re-lock, or exposure to secondary attacks including armbars and omoplatas.\n\nStrategic context positions this technique as the culmination of triangle defense methodology. While earlier defensive measures buy time and reduce immediate danger, the Complete Triangle Escape converts defensive survival into genuine positional improvement. The resulting closed guard top position, while not dominant, represents a massive improvement from submission danger and provides the platform for systematic guard passing. Understanding when defensive structure is sufficient to initiate the complete escape versus when further consolidation is needed separates competent triangle defenders from practitioners who repeatedly escape only to be re-caught in the same cycle.",
   "conditions": [
     "Defensive posture must be established with spine approaching vertical alignment",
@@ -161,7 +162,7 @@
         "counter": "Opponent re-locks triangle tighter by pulling head down and readjusting figure-four during circular step",
         "effectiveness": "High",
         "your_response": "Immediately halt circular stepping, re-establish maximum forward stack pressure, and wait for opponent to loosen for readjustment before resuming escape sequence. Do not fight the re-lock with force.",
-        "targets_outcome": "Triangle Escape Position/Bottom"
+        "targets_outcome": "Triangle Escape Position/Top"
       },
       {
         "counter": "Opponent transitions to armbar on trapped arm by uncrossing legs and pivoting hips for arm isolation",
@@ -173,7 +174,7 @@
         "counter": "Opponent adjusts angle by scooting hips to match your circular step direction, maintaining optimal choking position",
         "effectiveness": "Medium",
         "your_response": "Increase stacking pressure while continuing to circle. The opponent cannot maintain both hip elevation for choking power and lateral hip movement for angle matching simultaneously. Force them to choose between angle and power.",
-        "targets_outcome": "Triangle Escape Position/Bottom"
+        "targets_outcome": "Triangle Escape Position/Top"
       },
       {
         "counter": "Opponent attempts omoplata transition by releasing triangle lock and swinging leg over trapped shoulder",
@@ -185,7 +186,7 @@
         "counter": "Opponent grabs posturing arm with both hands to prevent stacking and maintain broken posture",
         "effectiveness": "Low",
         "your_response": "Since opponent has released their own leg control to grab your arm, their triangle structure is weakened. Continue circular stepping with increased tempo while using your trapped arm to swim inside their grip.",
-        "targets_outcome": "Triangle Escape Position/Bottom"
+        "targets_outcome": "Triangle Escape Position/Top"
       }
     ],
     "common_errors": [
@@ -313,7 +314,7 @@
       {
         "action": "Re-lock and tighten triangle by pulling head down forcefully while squeezing legs and readjusting figure-four position",
         "when_to_use": "When you detect early stacking pressure increase or circular stepping initiation, before significant triangle looseness develops",
-        "targets_outcome": "Triangle Escape Position/Bottom",
+        "targets_outcome": "Triangle Escape Position/Top",
         "if_successful": "Opponent's escape progress resets to zero, requiring them to re-establish defensive posture and restart the entire escape sequence",
         "risk": "If re-locking fails, you may have temporarily loosened your own triangle during the readjustment, creating an extraction window"
       },
@@ -327,7 +328,7 @@
       {
         "action": "Match opponent's circular step by scooting hips laterally to maintain perpendicular choking angle",
         "when_to_use": "When opponent begins circular stepping pattern and you have sufficient hip mobility to track their movement despite stacking pressure",
-        "targets_outcome": "Triangle Escape Position/Bottom",
+        "targets_outcome": "Triangle Escape Position/Top",
         "if_successful": "Opponent's circular stepping fails to create angular change, preserving your triangle structure and forcing them to find alternative escape routes",
         "risk": "Hip scooting under stacking pressure is energy-intensive and may compromise your hip elevation, reducing choking effectiveness"
       },
@@ -341,7 +342,7 @@
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Triangle Escape Position/Bottom",
+        "outcome": "Triangle Escape Position/Top",
         "how": "Maintain active triangle pressure by constantly re-locking when looseness develops, matching opponent's circular stepping with hip angle adjustments, and pulling their head down to counter postural recovery. Force repeated escape attempt resets until opponent fatigues or makes an exploitable error."
       },
       {

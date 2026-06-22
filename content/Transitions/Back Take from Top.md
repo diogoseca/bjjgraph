@@ -10,6 +10,41 @@ description: "Master the Back Take from Hindulotine in BJJ. Capitalize on oppone
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Back Take from Top",
+  "description": "Master the Back Take from Hindulotine in BJJ. Capitalize on opponent\u0027s turning escape to secure back control with systematic grip transitions.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Back Take from Top", "item": "https://bjjgraph.org/Transitions/Back-Take-from-Top" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Back Take from Top",
+  "description": "The Back Take from Top is a front-headlock transition that converts an opponent's turning escape from the top Hindulotine into dominant back control, capitalizing on their defensive rotation to insert hooks and secure the seatbelt.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Back Take from Hindulotine in BJJ. Capitalize on oppone
 </div>
 
 <section id="overview" class="content-section">
+
+**The Back Take from Top is a front-headlock transition that converts an opponent's turning escape from the top Hindulotine into dominant back control, capitalizing on their defensive rotation to insert hooks and secure the seatbelt.**
 
 The Back Take from Top Hindulotine represents one of the highest-percentage transitions in the front headlock attack system. When an opponent defends the guillotine choke by turning away to relieve neck pressure, they expose their back as a direct consequence of their defensive movement. This technique capitalizes on that predictable reaction, converting a potential submission loss into dominant back control.
 
@@ -218,5 +255,7 @@ The Back Take from Hindulotine is a critical component of the front headlock att
 
 
 </section>
+
+
 
 </main>

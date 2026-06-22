@@ -12,10 +12,15 @@ Usage:
 """
 
 import argparse
+import html
 import json
+import re
 import sys
 from pathlib import Path
 from jinja2 import Template, Environment, FileSystemLoader
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from _slug import slugify  # shared single-source slugify
 
 try:
     import jsonschema
@@ -35,8 +40,48 @@ CATEGORIES = {
 }
 
 
+# Shared Jinja2 environment with custom filters. slugify comes from scripts/_slug.py
+# (single source of truth shared with the graph, redirect, and validation scripts).
+_JINJA_ENV = Environment()
+_JINJA_ENV.filters["slugify"] = slugify
+
+
+def _quartz_url_slug(name: str) -> str:
+    """URL path segment matching Quartz / regenerate_graph.quartz_slug (case-preserving,
+    spaces->hyphens). Used to build hrefs to content pages from raw HTML."""
+    s = str(name).strip()
+    s = s.replace('&', '-and-').replace('%', '-percent').replace('?', '').replace('#', '')
+    s = re.sub(r'\s+', '-', s)
+    return s
+
+
+def _with_utm(url, system_name='', product_id=''):
+    """Append BJJGraph UTM params to a curated affiliate URL for the PostHog funnel.
+    Never touches the vendor's existing query (e.g. ref=) — only adds utm_*."""
+    if not url:
+        return url
+    from urllib.parse import quote
+    params = ['utm_source=bjjgraph', 'utm_medium=affiliate', 'utm_campaign=systems']
+    if system_name:
+        params.append('utm_content=' + quote(_quartz_url_slug(system_name).lower()))
+    if product_id:
+        params.append('utm_term=' + quote(str(product_id)))
+    sep = '&' if '?' in str(url) else '?'
+    return str(url) + sep + '&'.join(params)
+
+
+_JINJA_ENV.filters["with_utm"] = _with_utm
+
+
 def build_wikilink_resolver():
-    """Build name->category lookup for unambiguous wikilinks."""
+    """Build name->category lookup for unambiguous wikilinks.
+
+    Returns the `resolve` callable, with two predicates attached as attributes:
+    `resolve.page_exists(name)` and `resolve.family_exists(name)`. Templates use
+    these to render a wikilink ONLY when its target file actually exists,
+    falling back to plain text otherwise — so `family:` and `disambiguations[]`
+    entries that point at not-yet-created pages don't emit dangling links (H6).
+    """
     index = {}
     for category, folder in CATEGORIES.items():
         folder_path = Path(folder)
@@ -51,6 +96,129 @@ def build_wikilink_resolver():
                 else:
                     index[name] = f"{category}/{rel}"
 
+    # Family hubs live under content/Families/ (created in epic phase 14). Track
+    # them separately so the "Part of the X family" link only fires once the hub exists.
+    family_names = set()
+    families_dir = Path("content/Families")
+    if families_dir.exists():
+        for json_file in families_dir.rglob("*.json"):
+            family_names.add(json_file.stem)
+
+    # Alias map: a reference to a merged/renamed technique's name (e.g. "Bullfighter
+    # Pass" after it merged into Toreando Pass) should wikilink to the CANONICAL page,
+    # not dangle. Map slugify(alias) -> canonical resolved path ("Category/Name").
+    alias_to_canonical = {}
+    for category, folder in CATEGORIES.items():
+        folder_path = Path(folder)
+        if not folder_path.exists():
+            continue
+        for json_file in folder_path.rglob("*.json"):
+            try:
+                data = json.loads(json_file.read_text(encoding="utf-8"))
+            except (json.JSONDecodeError, OSError):
+                continue
+            aliases = data.get("aliases") if isinstance(data, dict) else None
+            if not isinstance(aliases, list) or not aliases:
+                continue
+            canonical_name = json_file.stem
+            rel = json_file.relative_to(folder_path).parent
+            canonical_path = canonical_name if str(rel) == '.' else None
+            cat_prefix = category if str(rel) == '.' else f"{category}/{rel}"
+            for alias in aliases:
+                if isinstance(alias, str) and alias.strip():
+                    alias_to_canonical.setdefault(slugify(alias), f"{cat_prefix}/{canonical_name}")
+
+    # Reverse system membership: which Systems reference each node. Powers the
+    # "Related Systems" CTA cards on every node page (the funnel's entry point).
+    # Built from each system's related_content[] — the same canonical edge list the
+    # graph uses for membership — so cards and graph highlight stay consistent.
+    reverse_systems = {}  # slugify(node_name) -> [card dict, ...]
+    systems_dir = Path("content/Systems")
+    if systems_dir.exists():
+        for json_file in sorted(systems_dir.glob("*.json")):
+            try:
+                sdata = json.loads(json_file.read_text(encoding="utf-8"))
+            except (json.JSONDecodeError, OSError):
+                continue
+            sys_name = sdata.get("name") or json_file.stem
+            related = sdata.get("related_content") or []
+            member_count = sum(
+                1 for it in related
+                if isinstance(it, dict)
+                and (it.get("content_type") or "") != "System"
+                and (it.get("name") or "").strip()
+            )
+            base_card = {
+                "system_name": sys_name,
+                "system_url": "/Systems/" + _quartz_url_slug(sys_name),
+                "system_slug": "systems/" + _quartz_url_slug(sys_name).lower(),
+                "system_type": sdata.get("system_type", ""),
+                "difficulty": sdata.get("difficulty_level", ""),
+                "member_count": member_count,
+            }
+            for it in related:
+                if not isinstance(it, dict) or (it.get("content_type") or "") == "System":
+                    continue
+                nm = (it.get("name") or "").strip()
+                if not nm:
+                    continue
+                card = dict(base_card, relationship=it.get("relationship", ""))
+                reverse_systems.setdefault(slugify(nm), []).append(card)
+
+    def related_systems_html(node_name):
+        """Render the 'Related Systems' CTA card section for a node, or '' if none.
+
+        Cards are crawlable internal <a> links to system pages (no affiliate links —
+        those live only on system pages). data-* attributes feed the PostHog funnel.
+        """
+        if not node_name:
+            return ""
+        cards = reverse_systems.get(slugify(node_name))
+        if not cards:
+            return ""
+        # Dedupe by system (a node may be listed twice), keep the richest relationship,
+        # order by how much of the system this node unlocks.
+        by_sys = {}
+        for c in cards:
+            existing = by_sys.get(c["system_slug"])
+            if existing is None or len(c.get("relationship", "")) > len(existing.get("relationship", "")):
+                by_sys[c["system_slug"]] = c
+        ordered = sorted(by_sys.values(), key=lambda c: (-c["member_count"], c["system_name"]))
+
+        parts = [
+            '<section id="related-systems" class="content-section related-systems">',
+            '',
+            '## Train this with a System',
+            '',
+            '<div class="related-systems-grid">',
+        ]
+        for c in ordered:
+            name_e = html.escape(c["system_name"])
+            rel_e = html.escape(c.get("relationship") or "")
+            n = c["member_count"]
+            badge = f"Unlocks {n} technique" + ("s" if n != 1 else "")
+            chips = ""
+            if c["difficulty"]:
+                chips += f'<span class="system-card__chip">{html.escape(c["difficulty"])}</span>'
+            if c["system_type"]:
+                chips += f'<span class="system-card__chip">{html.escape(c["system_type"])}</span>'
+            parts.append(
+                f'<a class="system-card" href="{html.escape(c["system_url"])}" '
+                f'data-cta="related-system-card" data-system-slug="{html.escape(c["system_slug"])}" '
+                f'data-system-name="{name_e}" data-member-count="{n}">'
+                '<span class="system-card__shine" aria-hidden="true"></span>'
+                '<span class="system-card__type-chip">System</span>'
+                f'<span class="system-card__name">{name_e}</span>'
+                f'<span class="system-card__unlocks-badge">{badge}</span>'
+                + (f'<span class="system-card__blurb">{rel_e}</span>' if rel_e else '')
+                + (f'<span class="system-card__chips">{chips}</span>' if chips else '')
+                + '<span class="system-card__cta">Explore system'
+                '<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span>'
+                '</a>'
+            )
+        parts += ['</div>', '', '</section>']
+        return "\n".join(parts)
+
     def resolve(name):
         if not name:
             return name
@@ -63,8 +231,25 @@ def build_wikilink_resolver():
             return 'game-over'
         if name in index:
             return f"{index[name]}/{name}"
+        # Alias fallback: link a merged/renamed name to its canonical page.
+        canon = alias_to_canonical.get(slugify(name))
+        if canon:
+            return canon
         return name  # fallback: bare name
 
+    def page_exists(name):
+        if isinstance(name, dict):
+            name = name.get('name', '')
+        if not isinstance(name, str) or not name:
+            return False
+        return name in index or name in family_names or slugify(name) in alias_to_canonical
+
+    def family_exists(name):
+        return isinstance(name, str) and name in family_names
+
+    resolve.page_exists = page_exists
+    resolve.family_exists = family_exists
+    resolve.related_systems_html = related_systems_html
     return resolve
 
 
@@ -128,7 +313,12 @@ def detect_transition_template_type(json_file, data=None):
 
 
 def load_template(category, template_name):
-    """Load Jinja2 template from templates/"""
+    """Load Jinja2 template from templates/ using the shared environment.
+
+    Uses the shared _JINJA_ENV so templates have access to custom filters
+    (e.g. {{ alias | slugify }}). Falls back to flat-structure path for
+    legacy templates without category subdirectories.
+    """
     if category in ("Positions", "Transitions", "Submissions"):
         # These categories have templates in subdirectories
         template_path = Path(f"templates/{category}/{template_name}")
@@ -144,7 +334,7 @@ def load_template(category, template_name):
 
     try:
         with open(template_path, 'r', encoding='utf-8') as f:
-            return Template(f.read())
+            return _JINJA_ENV.from_string(f.read())
     except Exception as e:
         raise Exception(f"Failed to load template {template_path}: {e}")
 
@@ -268,6 +458,11 @@ def aggregate_submission_variants(data, json_path):
             variants_comparison.append({
                 'variant_name': variant_ref['name'],
                 'from_position': from_pos,
+                # Seat the attacker plays from (Top/Bottom), parsed from "Position/Role".
+                'seat': from_pos.split('/')[1] if '/' in from_pos else '',
+                # Whether this variant generates Attacker/Defender role pages, so the
+                # hub variants table only emits Play-as links where targets exist.
+                'is_dual': 'attacker' in variant_data and 'defender' in variant_data,
                 'success_rate': variant_data.get('success_rate', 0),
                 'top_risk': top_risk,
                 'uniqueness': variant_data.get('variant_uniqueness', ''),
@@ -275,6 +470,10 @@ def aggregate_submission_variants(data, json_path):
         except Exception as e:
             print(f"⚠️  Error loading submission variant {variant_file}: {e}")
             continue
+
+    # Highest-percentage / most-canonical variants first. Python's sort is stable,
+    # so equal rates keep their source order -> deterministic regeneration diffs.
+    variants_comparison.sort(key=lambda v: v['success_rate'], reverse=True)
 
     return variants_comparison
 
@@ -387,6 +586,14 @@ def process_json_file(json_path, dry_run=False, resolve_fn=None):
             write_markdown_file(hub_path, hub_content, dry_run)
             generated_files.append(hub_path)
 
+            # Synonym/variant/false-synonym surfaces shared by all role pages
+            role_extras = dict(
+                aliases=data.get('aliases', []),
+                family=data.get('family', ''),
+                disambiguations=data.get('disambiguations', []),
+                sameAs=data.get('sameAs', []),
+            )
+
             # Render attacker page
             attacker_template = load_template(category, "TEMPLATE-ATTACKER.md.jinja2")
             attacker_content = attacker_template.render(
@@ -397,6 +604,7 @@ def process_json_file(json_path, dry_run=False, resolve_fn=None):
                 safety_considerations=data.get('safety_considerations', {}),
                 target_area=data.get('target_area', ''),
                 resolve=resolve_fn,
+                **role_extras,
             )
             attacker_path = json_path.parent / json_path.stem / "Attacker.md"
             attacker_path.parent.mkdir(parents=True, exist_ok=True)
@@ -413,6 +621,7 @@ def process_json_file(json_path, dry_run=False, resolve_fn=None):
                 safety_considerations=data.get('safety_considerations', {}),
                 target_area=data.get('target_area', ''),
                 resolve=resolve_fn,
+                **role_extras,
             )
             defender_path = json_path.parent / json_path.stem / "Defender.md"
             write_markdown_file(defender_path, defender_content, dry_run)
@@ -468,10 +677,23 @@ def process_json_file(json_path, dry_run=False, resolve_fn=None):
         write_markdown_file(hub_path, hub_content, dry_run)
         generated_files.append(hub_path)
 
+        # Synonym/variant/false-synonym surfaces shared by role pages
+        position_extras = dict(
+            aliases=data.get('aliases', []),
+            family=data.get('family', ''),
+            disambiguations=data.get('disambiguations', []),
+            sameAs=data.get('sameAs', []),
+        )
+
         # Render bottom page
         position_name = data.get('name', json_path.stem)  # Use position name for clean URLs
         bottom_template = load_template(category, "TEMPLATE-BOTTOM.md.jinja2")
-        bottom_content = bottom_template.render(bottom=data['bottom'], position_name=position_name, resolve=resolve_fn)
+        bottom_content = bottom_template.render(
+            bottom=data['bottom'],
+            position_name=position_name,
+            resolve=resolve_fn,
+            **position_extras,
+        )
         bottom_path = json_path.parent / position_name / "Bottom.md"
         bottom_path.parent.mkdir(parents=True, exist_ok=True)
         write_markdown_file(bottom_path, bottom_content, dry_run)
@@ -479,7 +701,12 @@ def process_json_file(json_path, dry_run=False, resolve_fn=None):
 
         # Render top page
         top_template = load_template(category, "TEMPLATE-TOP.md.jinja2")
-        top_content = top_template.render(top=data['top'], position_name=position_name, resolve=resolve_fn)
+        top_content = top_template.render(
+            top=data['top'],
+            position_name=position_name,
+            resolve=resolve_fn,
+            **position_extras,
+        )
         top_path = json_path.parent / position_name / "Top.md"
         write_markdown_file(top_path, top_content, dry_run)
         generated_files.append(top_path)

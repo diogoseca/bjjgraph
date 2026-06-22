@@ -338,4 +338,6 @@ The collar drag is a relatively low-risk technique for both practitioners. Prima
 
 </section>
 
+
+
 </main>

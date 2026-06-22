@@ -10,10 +10,55 @@ description: "Master the Clock Choke from Rodeo Ride in BJJ. Learn gi-based bloo
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Clock Choke from Rodeo Ride targets the Carotid arteries and jugular veins. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Clock Choke from Rodeo Ride",
+  "description": "Master the Clock Choke from Rodeo Ride in BJJ. Learn gi-based blood choke mechanics using dynamic turtle control and circular walking pressure to finish.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Clock Choke from Rodeo Ride", "item": "https://bjjgraph.org/Submissions/Clock-Choke-from-Rodeo-Ride" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Clock Choke from Rodeo Ride",
+  "description": "The Clock Choke from Rodeo Ride is a gi blood choke finished by feeding a deep cross-collar grip on a turtled opponent and walking your hips around their head, sprawling weight through the lapel to compress both carotid arteries.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Clock Choke from Rodeo Ride is a gi blood choke finished by feeding a deep cross-collar grip on a turtled opponent and walking your hips around their head, sprawling weight through the lapel to compress both carotid arteries.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries and jugular veins</span>
+<span class="meta-chip">58% success</span>
+</div>
+
+> [!danger] Safety
+> Clock Choke from Rodeo Ride targets the Carotid arteries and jugular veins. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,50 +75,7 @@ What makes this variation particularly dangerous is that the Rodeo Ride's consta
 
 This submission is most effective when chained with other Rodeo Ride attacks—threatening the back take forces the opponent to defend their hips, which opens the collar for the choke entry. The technique requires precise timing between releasing near-arm control to feed the lapel and maintaining enough positional pressure to prevent escape during the grip transition.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries and jugular veins
-**Starting Position**: [[Positions/Rodeo Ride]]
-**From Position**: [[Positions/Rodeo Ride]] (Top)
-**Success Rate**: 58%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Carotid artery compression leading to loss of consciousness | High | Immediate recovery if released promptly; potential for serious injury if held after unconsciousness |
-| Neck strain or cervical spine stress from rotational pressure | Medium | 3-7 days for minor strains; 2-4 weeks for more severe cases |
-| Jaw or temporomandibular joint (TMJ) compression | Medium | 1-2 weeks for minor discomfort; longer for existing TMJ issues |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow partner to recognize the choke and tap
-
-**Tap Signals**:
-- Verbal tap or verbal submission signal
-- Physical hand tap on attacker's body or mat
-- Physical foot tap on mat
-- Any rapid or frantic movement indicating distress
-
-
-**Release Protocol**:
-1. Immediately release the lapel grip upon receiving tap signal
-2. Remove your weight from opponent's back and create space
-3. Allow partner to recover in a neutral position without pressure
-4. Check on partner's condition before continuing training
-
-
-**Training Restrictions**:
-- Never apply the choke rapidly or explosively in training
-- Never maintain pressure after partner taps or shows distress
-- Always ensure partner has clear access to tap with hands or feet
-- Avoid training this technique with partners who have neck injuries or cardiovascular conditions
-
+**Starting Position**: [[Positions/Rodeo Ride]] · **From**: [[Positions/Rodeo Ride]] (Top)
 
 </section>
 
@@ -218,42 +220,61 @@ This submission is most effective when chained with other Rodeo Ride attacks—t
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Transitions/Clock Choke]]
 - [[Submissions/Bow and Arrow Choke]]
 - [[Transitions/Darce Choke]]
 - [[Transitions/Arm Triangle]]
 - [[Submissions/Ezekiel Choke]]
 - [[Submissions/Breadcutter Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Rodeo Ride]] - Starting position providing dynamic control for this choke entry
 - [[Positions/Turtle]] - Opponent's base position that enables Clock Choke attacks
-- [[Transitions/Clock Choke]] - Parent submission family this variant belongs to
 - [[Positions/Back Control]] - Alternative advancement when choke is defended
 - [[Positions/Crucifix]] - Alternative attack when opponent exposes arms defending choke
 - [[Positions/Crab Ride]] - Related turtle attack position that chains with Clock Choke threats
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Carotid artery compression leading to loss of consciousness | High | Immediate recovery if released promptly; potential for serious injury if held after unconsciousness |
+| Neck strain or cervical spine stress from rotational pressure | Medium | 3-7 days for minor strains; 2-4 weeks for more severe cases |
+| Jaw or temporomandibular joint (TMJ) compression | Medium | 1-2 weeks for minor discomfort; longer for existing TMJ issues |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow partner to recognize the choke and tap
+
+**Tap Signals**:
+- Verbal tap or verbal submission signal
+- Physical hand tap on attacker's body or mat
+- Physical foot tap on mat
+- Any rapid or frantic movement indicating distress
+
+
+**Release Protocol**:
+1. Immediately release the lapel grip upon receiving tap signal
+2. Remove your weight from opponent's back and create space
+3. Allow partner to recover in a neutral position without pressure
+4. Check on partner's condition before continuing training
+
+
+**Training Restrictions**:
+- Never apply the choke rapidly or explosively in training
+- Never maintain pressure after partner taps or shows distress
+- Always ensure partner has clear access to tap with hands or feet
+- Avoid training this technique with partners who have neck injuries or cardiovascular conditions
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Clock Choke from Rodeo Ride leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

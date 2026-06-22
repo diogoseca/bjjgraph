@@ -10,10 +10,55 @@ description: "Master the Breadcutter Choke from Side Control. Learn gi collar gr
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Breadcutter Choke from Side Control targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Breadcutter Choke from Side Control",
+  "description": "Master the Breadcutter Choke from Side Control. Learn gi collar grip mechanics, finishing details, and defensive counters for this high-percentage blood choke.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Breadcutter Choke from Side Control", "item": "https://bjjgraph.org/Submissions/Breadcutter-Choke-from-Side-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Breadcutter Choke from Side Control",
+  "description": "The Breadcutter Choke from Side Control is a gi blood choke where the top player feeds a collar deep behind the opponent's neck and drives the forearm across the throat, scissoring both carotid arteries to force a rapid tap.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Breadcutter Choke from Side Control is a gi blood choke where the top player feeds a collar deep behind the opponent's neck and drives the forearm across the throat, scissoring both carotid arteries to force a rapid tap.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries and trachea</span>
+<span class="meta-chip">58% success</span>
+</div>
+
+> [!danger] Safety
+> Breadcutter Choke from Side Control targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,55 +75,7 @@ The setup rewards patience and positional dominance. From established side contr
 
 This choke is particularly effective because opponents under side control typically prioritize defending arm attacks and preventing mount transitions, leaving the collar relatively accessible. The breadcutter can be set up incrementally during normal pressure maintenance, with the critical behind-the-neck grip established over several seconds before the opponent recognizes the threat. When combined with strong crossface pressure and hip control, the choke becomes extremely difficult to defend once both grips are secured.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries and trachea
-**Starting Position**: [[Positions/Side Control]]
-**From Position**: [[Positions/Side Control]] (Top)
-**Success Rate**: 58%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Carotid artery compression leading to loss of consciousness | High | Immediate with proper release; prolonged compression can cause serious injury |
-| Tracheal damage from misaligned forearm pressure or sudden force | High | 2-6 weeks for minor damage; surgery required for severe cases |
-| Neck strain or cervical spine stress from resistance under pressure | Medium | 1-3 weeks |
-| Jaw or facial pressure causing TMJ irritation | Medium | 2-4 weeks |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training, never spike or jerk
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress vocalization)
-- Physical hand tap on opponent's body
-- Physical foot tap on mat
-- Any rapid tapping motion with hand or foot
-- Body going limp (automatic release required)
-
-
-**Release Protocol**:
-1. Immediately release collar grip upon tap signal
-2. Remove body weight and pressure from opponent's neck
-3. Allow opponent to turn to safe position (typically supine or seated)
-4. Check that opponent is breathing normally and conscious
-5. Give partner time to recover before continuing training
-
-
-**Training Restrictions**:
-- Never apply competition speed or force in training
-- Never spike or jerk the choke - always apply gradually
-- Always ensure partner has clear access to tap
-- Stop immediately at any sign of distress, even without tap
-- Never practice on partners with neck or throat injuries
-- Beginners must drill under supervision for first 20+ repetitions
-
+**Starting Position**: [[Positions/Side Control]] · **From**: [[Positions/Side Control]] (Top)
 
 </section>
 
@@ -237,46 +234,71 @@ This choke is particularly effective because opponents under side control typica
 ## From Which Positions?
 
 - [[Positions/Side Control]]
-- [[Positions/Side Control]]
+- [[Positions/Side Control/Kesa Gatame]]
 
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Breadcutter Choke]]
 - [[Submissions/Cross Collar Choke]]
 - [[Submissions/Baseball Bat Choke]]
 - [[Transitions/Arm Triangle]]
 - [[Submissions/Ezekiel Choke]]
 - [[Submissions/Brabo Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Side Control]] - Starting position providing the perpendicular alignment needed for collar access
 - [[Positions/North-South]] - Alternative dominant position if choke setup is disrupted during transition
 - [[Positions/Knee on Belly]] - Transitional position available if opponent defends the collar grip
 - [[Positions/Side Control/Kesa Gatame]] - Related side control variation offering alternative collar choke entries
 - [[Positions/Closed Guard]] - Position opponent may recover to when countering the choke attempt
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Carotid artery compression leading to loss of consciousness | High | Immediate with proper release; prolonged compression can cause serious injury |
+| Tracheal damage from misaligned forearm pressure or sudden force | High | 2-6 weeks for minor damage; surgery required for severe cases |
+| Neck strain or cervical spine stress from resistance under pressure | Medium | 1-3 weeks |
+| Jaw or facial pressure causing TMJ irritation | Medium | 2-4 weeks |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training, never spike or jerk
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any distress vocalization)
+- Physical hand tap on opponent's body
+- Physical foot tap on mat
+- Any rapid tapping motion with hand or foot
+- Body going limp (automatic release required)
+
+
+**Release Protocol**:
+1. Immediately release collar grip upon tap signal
+2. Remove body weight and pressure from opponent's neck
+3. Allow opponent to turn to safe position (typically supine or seated)
+4. Check that opponent is breathing normally and conscious
+5. Give partner time to recover before continuing training
+
+
+**Training Restrictions**:
+- Never apply competition speed or force in training
+- Never spike or jerk the choke - always apply gradually
+- Always ensure partner has clear access to tap
+- Stop immediately at any sign of distress, even without tap
+- Never practice on partners with neck or throat injuries
+- Beginners must drill under supervision for first 20+ repetitions
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Breadcutter Choke from Side Control leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

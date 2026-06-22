@@ -16,7 +16,7 @@ description: "How to execute Hip Escape to Turtle from body triangle in BJJ. Ste
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Hip Escape to Turtle in BJJ",
-  "description": "Step-by-step guide for executing Hip Escape to Turtle from Body Triangle/Top.",
+  "description": "Step-by-step guide for executing Hip Escape to Turtle from Body Triangle/Bottom.",
   "step": [
     {
       "@type": "HowToStep",
@@ -182,7 +182,7 @@ As the attacker executing Hip Escape to Turtle, you are the person trapped in bo
 
 The key insight is that the body triangle has a specific structural weakness at the figure-four lock point where the foot tucks behind the knee. By turning toward the triangle leg and creating space through controlled hip escapes, you position yourself to attack this weakness. The escape is iterative rather than explosive - you alternate between defending your neck and clearing the triangle, making incremental progress each cycle until you break free and establish turtle position.
 
-**From Position**: [[Positions/Back Control/Body Triangle]] (Top)
+**From Position**: [[Positions/Back Control/Body Triangle]] (Bottom)
 
 </section>
 
@@ -335,5 +335,7 @@ Full resistance positional sparring starting in body triangle. Partner uses all 
 Practice body triangle escapes with clear communication about pressure levels, especially regarding breathing restriction. Partners should use moderate squeeze pressure during drilling rather than competition-level compression to allow technical learning. If the bottom person taps or signals distress, immediately release all pressure. Build up intensity gradually over training sessions as the defender develops comfort with restricted breathing. Avoid drilling this escape when fatigued as judgment and timing suffer under oxygen restriction. The neck attack component requires careful training - partners should not apply full choke pressure during escape drilling. Those with rib injuries or breathing conditions should modify training intensity and communicate limitations before starting.
 
 </section>
+
+
 
 </main>

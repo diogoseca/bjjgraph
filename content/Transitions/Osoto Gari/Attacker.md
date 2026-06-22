@@ -125,6 +125,7 @@ description: "How to execute Osoto Gari in BJJ. Attacking perspective with setup
   "@type": "WebPage",
   "name": "Osoto Gari Attacker",
   "description": "How to execute Osoto Gari in BJJ. Attacking perspective with setup, execution steps, and counters.",
+  "alternateName": ["Major Outer Reap", "O Soto Gari"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -170,6 +171,9 @@ description: "How to execute Osoto Gari in BJJ. Attacking perspective with setup
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Major Outer Reap</strong>, <strong>O Soto Gari</strong> <span class="role-hint">(attacker)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 Osoto Gari (Major Outer Reap) is a fundamental judo throw that has been successfully integrated into Brazilian Jiu-Jitsu as a high-percentage standing technique. This technique involves reaping your opponent's weight-bearing leg from the outside while simultaneously driving their upper body backward, creating a powerful off-balancing motion that results in a controlled takedown. The beauty of Osoto Gari lies in its simplicity and effectiveness - it requires minimal setup compared to other throws and can be executed from various gripping configurations. In the BJJ context, Osoto Gari is particularly valuable because it allows the practitioner to maintain upper body control throughout the throw, often landing directly in dominant positions such as Side Control or Scarf Hold (Kesa Gatame). The technique capitalizes on fundamental principles of off-balancing and leverage, making it accessible to practitioners of all levels while remaining effective at the highest levels of competition. Unlike many judo throws that require extensive kuzushi (off-balancing) preparation, Osoto Gari can be executed explosively when the opponent is slightly forward-weighted, making it an excellent counter-attacking technique.
@@ -331,5 +335,7 @@ Full resistance standing sparring with emphasis on Osoto Gari as part of your ta
 When practicing Osoto Gari, both training partners must be aware of proper falling mechanics to prevent injury. The person being thrown should understand how to breakfall correctly, turning their head away from the impact and slapping the mat with their arm to dissipate force. The person executing the throw must maintain grip connection throughout the technique to control the speed and direction of the fall, never simply throwing the opponent away. Adequate mat space should be verified before attempting the technique - ensure there are no obstacles or other grapplers in the fall zone. Begin all training at reduced speed and with cooperative partners before progressing to full resistance. Both partners should communicate clearly about resistance levels during drilling phases. The thrower should be particularly careful not to follow through with excessive weight if the opponent is unable to complete a proper breakfall. In competition scenarios, be aware of the edge of the mat area to avoid throwing opponents off the competition surface. Practitioners with knee or ankle issues should be cautious with the reaping motion and may need to modify the technique or use alternative takedowns.
 
 </section>
+
+
 
 </main>

@@ -134,10 +134,23 @@ description: "Master back defense in BJJ with systematic escape protocols. Learn
 }
 </script>
 
-> Back Defense Protocol is a intermediate difficulty Defense System system. Integrates 4 components.
 
-**System Type**: Defense System
-**Difficulty Level**: Intermediate
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Back Defense Protocol",
+  "description": "The Back Defense Protocol is a systematic defensive framework for escaping back control by prioritizing chin protection and hand fighting first, then using frames, hip escapes, and hook removal to recover guard or a neutral position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Defense System</span>
+<span class="meta-chip">Intermediate difficulty</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -146,7 +159,27 @@ description: "Master back defense in BJJ with systematic escape protocols. Learn
 
 ## What is Back Defense Protocol?
 
-The Back Defense Protocol is a comprehensive defensive framework designed to systematically escape from back control, one of the most dominant positions in Brazilian Jiu-Jitsu. This system prioritizes survival through chin protection and hand fighting, followed by methodical hip escapes and guard recovery. The protocol emphasizes preventing the finish first, then creating space and frames to escape the position entirely. Unlike reactive scrambling, this system teaches practitioners to follow a clear hierarchy of defensive actions: protect the neck, fight the grips, create frames, hip escape, and recover guard or standing position. The framework scales from fundamental survival techniques for beginners to advanced re-guard strategies for experienced practitioners. By mastering this protocol, students develop the confidence and technical skill to remain calm under back control pressure and systematically work their way back to safety.
+**The Back Defense Protocol is a systematic defensive framework for escaping back control by prioritizing chin protection and hand fighting first, then using frames, hip escapes, and hook removal to recover guard or a neutral position.**
+
+Back control is widely considered the most dominant position in Brazilian Jiu-Jitsu, handing the attacker the seatbelt grip, two hooks, and direct access to the neck — which is precisely why a structured escape methodology matters more here than almost anywhere else on the mat. This protocol replaces panicked scrambling with a disciplined hierarchy of defensive actions: protect the neck, fight the grips, build frames, hip escape, clear the hooks, and recover guard or standing. Each phase is deliberately sequenced so that survival is never sacrificed for escape speed — the practitioner only advances to the next stage once the previous threat is neutralized. The framework scales from fundamental survival techniques for beginners to advanced re-guard strategies for experienced grapplers, and because it targets the position rather than any single submission, it remains effective against rear naked chokes, collar chokes, body-triangle control, and arm attacks alike. Mastering this protocol builds the calm, methodical mindset needed to work back to safety under sustained pressure.
+
+</section>
+
+
+
+<section id="unlock-graph" class="content-section system-unlock" data-system-unlock hidden>
+
+## Unlock this part of the graph
+
+<p class="section-subtitle">This system teaches the highlighted nodes in the graph. Mark what you already know &mdash; be honest, it's your game.</p>
+
+<div class="system-progress" data-system-progress>
+<svg class="system-progress__ring" viewBox="0 0 44 44" aria-hidden="true"><circle class="system-progress__ring-bg" cx="22" cy="22" r="19"></circle><circle class="system-progress__ring-fill" cx="22" cy="22" r="19"></circle></svg>
+<div class="system-progress__text">You've unlocked <strong class="system-progress__known">0</strong> / <span class="system-progress__total">0</span> techniques in this system</div>
+<button class="system-progress__mark-all" data-mark-system type="button">Mark whole system as known</button>
+</div>
+
+<ul class="system-members" data-system-members></ul>
 
 </section>
 
@@ -341,11 +374,10 @@ Begin with static positional drilling where partner has back control but doesn't
 - [[Arm Recovery to Guard]] (Transition) - Final phase of escape protocol returning to guard position
 - [[Hand Fighting]] (Principle) - Critical defensive skill for preventing chokes from back control
 - [[Chin Protection]] (Principle) - First priority in back defense protocol
-- [[Submission Defense]] (Principle) - Specific application of chin protection and grip fighting against chokes
+- [[Defensive Concepts]] (Principle) - Body positioning principles that maximize defensive effectiveness
 - [[Frames]] (Principle) - Essential principle for preventing opponent from flattening you
 - [[Hip Escape Mechanics]] (Principle) - Fundamental movement principle underlying all escape sequences
 - [[Escape Fundamentals]] (Principle) - Strategic framework defining priority order of defensive actions
-- [[Defensive Concepts]] (Principle) - Body positioning principles that maximize defensive effectiveness
 - [[Distance Control]] (Principle) - Core principle of generating room for escape movements
 - [[Energy Conservation]] (Principle) - Critical for surviving extended back control situations
 - [[Dealing with Pressure]] (Principle) - Overall strategic approach to handling dominant pressure situations

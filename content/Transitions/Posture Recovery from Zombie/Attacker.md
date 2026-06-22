@@ -245,7 +245,7 @@ As the attacker executing Posture Recovery from Zombie, your objective is to sys
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Side Control]] | 48% |
+| Success | [[Positions/Half Guard]] | 48% |
 | Failure | [[Positions/Rubber Guard/Zombie]] | 32% |
 | Counter | [[Positions/Closed Guard]] | 20% |
 
@@ -342,5 +342,7 @@ Start every round in Zombie Top with partner at full resistance from Zombie Bott
 Posture recovery from Zombie involves significant forces on the knee and ankle of the trapped leg due to lockdown tension. Never attempt explosive jerking motions to free the leg, as this can cause medial collateral ligament strain or ankle injuries. During training, communicate with your partner about lockdown tightness and tap if you feel sharp pain in the trapped knee. The crossface pressure used during recovery should be firm but controlled, avoiding direct pressure on the throat or windpipe. Partners playing Zombie bottom should gradually release lockdown tension if the top player signals discomfort rather than maintaining maximum grip.
 
 </section>
+
+
 
 </main>

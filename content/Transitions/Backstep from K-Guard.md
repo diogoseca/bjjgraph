@@ -10,6 +10,41 @@ description: "Master the Backstep from K-Guard in BJJ. Extract your trapped leg 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Backstep from K-Guard",
+  "description": "Master the Backstep from K-Guard in BJJ. Extract your trapped leg using backstep mechanics to clear the inverted hook system and advance to dominant passing positions.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Backstep from K-Guard", "item": "https://bjjgraph.org/Transitions/Backstep-from-K-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Backstep from K-Guard",
+  "description": "Backstep from K-Guard is a guard-passing technique where the top player extracts their trapped leg in a circular backward arc around the bottom player's inverted hook system, clearing K-Guard to advance into half guard or headquarters passing positions.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Backstep from K-Guard in BJJ. Extract your trapped leg 
 
 <section id="overview" class="content-section">
 
-The Backstep from K-Guard is a specialized guard passing technique where the top player extracts their trapped leg from the K-Guard's inverted hook system by stepping it backward and around the bottom player's leg configuration. Unlike forward-pressure passes that attempt to drive through the hook structure, the backstep uses directional change to circumvent the bottom player's strongest retention mechanics. This makes it a valuable secondary option when conventional pressure passing stalls against an active K-Guard retention system.
+**Backstep from K-Guard is a guard-passing technique where the top player extracts their trapped leg in a circular backward arc around the bottom player's inverted hook system, clearing K-Guard to advance into half guard or headquarters passing positions.**
+
+Within a systematic K-Guard passing game, the backstep functions as the directional-change answer to active hook retention. Unlike forward-pressure passes that attempt to drive through the hook structure, the backstep circumvents the bottom player's strongest retention mechanics by changing the plane of engagement — the top player posts on the free leg and withdraws the trapped leg backward and around the bottom player's leg configuration rather than fighting through it. This makes it a valuable secondary option when conventional pressure passing stalls against an active K-Guard retention system, and it pairs naturally with the knee slice and smash attempts that bait the very reactions it exploits.
 
 The technique exploits a fundamental vulnerability in K-Guard's architecture: the inverted hook generates its strongest pulling force in a forward-to-lateral plane, making it less effective against backward extraction. By posting on the free leg and withdrawing the trapped leg in a circular arc behind the bottom player's hooks, the top player bypasses the primary retention mechanism entirely. The movement requires precise timing, as the bottom player's hooks are momentarily disengaged during the extraction, creating both opportunity for the passer and vulnerability if the bottom player transitions to Single Leg X-Guard or other leg entanglements.
 
@@ -223,5 +260,7 @@ The Backstep from K-Guard integrates into the broader guard passing system as a 
 
 
 </section>
+
+
 
 </main>

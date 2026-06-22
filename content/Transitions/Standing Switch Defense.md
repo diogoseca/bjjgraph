@@ -10,6 +10,41 @@ description: "Learn the Standing Switch Defense for BJJ rear clinch control. Cou
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Standing Switch Defense",
+  "description": "Learn the Standing Switch Defense for BJJ rear clinch control. Counter switch escapes with hip pressure, base widening, and grip retention techniques.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Standing Switch Defense", "item": "https://bjjgraph.org/Transitions/Standing-Switch-Defense" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Standing Switch Defense",
+  "description": "Standing Switch Defense is the controlling player's counter to a switch escape from standing rear clinch, using forward hip pressure, a widened base, and grip retention to stop the opponent's 180-degree pivot and preserve back control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Learn the Standing Switch Defense for BJJ rear clinch control. Cou
 </div>
 
 <section id="overview" class="content-section">
+
+**Standing Switch Defense is the controlling player's counter to a switch escape from standing rear clinch, using forward hip pressure, a widened base, and grip retention to stop the opponent's 180-degree pivot and preserve back control.**
 
 The Standing Switch Defense is a critical counter-technique employed by the controlling player in a standing rear clinch when their opponent attempts a switch escape. The switch is among the most effective wrestling-based reversals from rear standing control, where the controlled practitioner drops their hips, reaches one arm back between the controller's legs, and pivots 180 degrees to reverse or neutralize the position. Without reliable switch defense, maintaining rear clinch control becomes unsustainable against experienced wrestlers or grapplers with strong standing reversal skills.
 
@@ -218,5 +255,7 @@ The Standing Switch Defense is a critical retention skill within the standing re
 
 
 </section>
+
+
 
 </main>

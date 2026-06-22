@@ -1,6 +1,7 @@
 {
   "name": "Limp leg extraction to Half Guard",
   "description": "Master Limp Leg Extraction to Half Guard in BJJ. Escape leg entanglements using strategic relaxation and precise hip movement to reach guard safety.",
+  "summary": "The Limp Leg Extraction to Half Guard is a defensive leg-entanglement escape in which the bottom player deliberately relaxes the trapped leg, then hip escapes and frames to slide the limp limb free and recover the safety of Half Guard.",
   "tags": [
     "bjj",
     "transition",
@@ -13,7 +14,7 @@
   "from_position": "Leg Knot/Bottom",
   "outcomes": [
     {
-      "to": "Half Guard/Top",
+      "to": "Half Guard/Bottom",
       "probability": 55,
       "result": "success"
     },

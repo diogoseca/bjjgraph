@@ -20,38 +20,38 @@ description: "Master Technical Mount Top in BJJ. Complete offensive guide coveri
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Mount to Armbar",
-      "text": "From this position, attempt Mount to Armbar. This technique is attempted in 52% of exchanges from this position.",
+      "name": "Execute Armbar from Technical Mount",
+      "text": "From this position, attempt Armbar from Technical Mount. This technique is attempted in 42% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take",
-      "text": "From this position, attempt Back Take. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Back Take. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Consolidate Mount",
-      "text": "From this position, attempt Consolidate Mount. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Triangle Setup",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 8% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Triangle Setup",
-      "text": "From this position, attempt Triangle Setup. This technique is attempted in 6% of exchanges from this position.",
+      "name": "Execute Consolidate Mount",
+      "text": "From this position, attempt Consolidate Mount. This technique is attempted in 6% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Gift Wrap Control",
-      "text": "From this position, attempt Gift Wrap Control. This technique is attempted in 4% of exchanges from this position.",
+      "text": "From this position, attempt Gift Wrap Control. This technique is attempted in 6% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute High Mount Transition",
-      "text": "From this position, attempt High Mount Transition. This technique is attempted in 3% of exchanges from this position.",
+      "text": "From this position, attempt High Mount Transition. This technique is attempted in 4% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -220,7 +220,7 @@ This position represents a critical junction in mount offense where the practiti
 <p class="section-subtitle">What should you do from Technical Mount (Top)?</p>
 
 **If opponent extends arm defensively while in mount and fails to immediately retract:**
-- Execute **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** → [[Positions/Armbar Control]] (Probability: 70%)
+- Execute **[[Armbar from Technical Mount/Attacker|Armbar from Technical Mount]]** → [[Positions/Armbar Control]] (Probability: 70%)
 - Execute **[[Transitions/High Mount Transition/Attacker|High Mount Transition]]** → [[Positions/Mount/S Mount]] (Probability: 60%)
 
 
@@ -235,7 +235,7 @@ This position represents a critical junction in mount offense where the practiti
 
 
 **If opponent bridges explosively or attempts to roll while arm is controlled:**
-- Execute **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** → [[Positions/Armbar Control]] (Probability: 65%)
+- Execute **[[Armbar from Technical Mount/Attacker|Armbar from Technical Mount]]** → [[Positions/Armbar Control]] (Probability: 65%)
 - Execute **[[Transitions/Back Take/Attacker|Back Take]]** → [[Positions/Back Control]] (Probability: 60%)
 
 
@@ -344,9 +344,19 @@ Partner cycles through three defenses in sequence: arm retraction (recover mount
 - **[[Positions/Back Control]]** - Secondary transition target - common result when opponent defends armbar
 - **[[Positions/Gift Wrap]]** - Alternative attack - available when opponent uses free arm to defend
 - **[[Positions/Mount/Mounted Triangle]]** - Alternative submission - available when opponent creates space defending armbar
-- **[[Transitions/Mount to Armbar]]** - Primary technique - main transition used from this position
+- **[[Armbar from Technical Mount]]** - Primary technique - main transition used from this position
 - **[[Armbar from Armbar Control]]** - Primary submission finish - completion technique from armbar control
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Submission-Clinic-System" data-cta="related-system-card" data-system-slug="systems/submission-clinic-system" data-system-name="Submission Clinic System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Submission Clinic System</span><span class="system-card__unlocks-badge">Unlocks 30 techniques</span><span class="system-card__blurb">Mount variation providing back take and armbar opportunities</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

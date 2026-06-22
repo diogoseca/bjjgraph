@@ -1,5 +1,6 @@
 {
   "name": "Boot Defense from Toe Hold",
+  "summary": "Boot Defense from Toe Hold is a leg-lock escape where the trapped player plantarflexes and internally rotates the foot into a rigid, boot-like structure that resists the toe hold's rotational torque, buying time to grip-fight and extract the leg.",
   "description": "Master the Boot Defense from Toe Hold in BJJ. Complete guide covering ankle rigidity mechanics, grip escape sequences, and guard recovery from leg entanglement.",
   "tags": [
     "bjj",
@@ -271,6 +272,14 @@
       {
         "question": "What role does the free leg play during boot defense execution?",
         "answer": "The free leg serves as an active defensive frame that pushes against the opponent's hips to create space, hooks their far leg to limit their angle adjustments, or prepares counter-entanglement positions like butterfly hook. Without active free leg engagement, the opponent has unrestricted ability to tighten control, adjust angles to defeat the boot, and prevent the space creation needed for leg extraction and guard recovery."
+      },
+      {
+        "question": "What grip configuration must exist before you commit to extracting the trapped leg?",
+        "answer": "You must first compromise the opponent's figure-four by breaking or significantly loosening the top hand's grip on your foot; extracting against an intact grip simply lets them re-establish control after a failed attempt. Confirm the top hand has been peeled toward the bottom hand and the closed chain is broken, then extract through circular hip motion. Grip break precedes extraction in every successful sequence."
+      },
+      {
+        "question": "Your opponent loosens the toe hold to switch to a straight ankle lock—what does this transition window offer you?",
+        "answer": "The grip transition is the best escape window you will get because the closed chain is momentarily open and rotational pressure drops to near zero. Accelerate circular leg extraction immediately, driving the knee toward your chest before the new ankle lock grip establishes its own closed chain. Hesitating lets them settle into a fresh controlling grip; exploiting the loosening converts their adjustment into your escape."
       }
     ],
     "safety_considerations": "The boot defense has a limited effective window of three to five seconds. If the opponent breaks through the rigidity or the ankle experiences significant rotational stress despite the defense, tap immediately without hesitation. Ankle ligament injuries from toe holds can be severe and slow to heal, potentially requiring surgical intervention and months of rehabilitation. Never extend defense past the point where escape options are exhausted. In training, communicate openly with partners about pressure levels and maintain a tap-early culture for all rotational ankle submissions. Practice the boot initially at low resistance to develop proper mechanics before applying against realistic intensity. If you feel any sharp pain, popping, or sudden instability in the ankle, stop immediately regardless of the competitive situation."

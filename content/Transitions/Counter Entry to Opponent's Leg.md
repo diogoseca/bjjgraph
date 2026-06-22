@@ -10,6 +10,41 @@ description: "Learn Counter Entry to Opponent's Leg in BJJ. Neutralize ankle loc
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Counter Entry to Opponent\u0027s Leg",
+  "description": "Learn Counter Entry to Opponent\u0027s Leg in BJJ. Neutralize ankle lock attacks by entering 50-50 Guard with counter-offense from defensive position.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Counter Entry to Opponent\u0027s Leg", "item": "https://bjjgraph.org/Transitions/Counter-Entry-to-Opponent\u0027s-Leg" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Counter Entry to Opponent's Leg",
+  "description": "Counter Entry to Opponent's Leg is a defensive-to-offensive leg-lock transition in which a defender trapped in straight ankle lock control threads through to attack the opponent's far leg, establishing 50-50 Guard and equalizing the exchange.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Learn Counter Entry to Opponent's Leg in BJJ. Neutralize ankle loc
 </div>
 
 <section id="overview" class="content-section">
+
+**Counter Entry to Opponent's Leg is a defensive-to-offensive leg-lock transition in which a defender trapped in straight ankle lock control threads through to attack the opponent's far leg, establishing 50-50 Guard and equalizing the exchange.**
 
 The Counter Entry to Opponent's Leg represents a critical defensive-offensive transition that transforms a disadvantageous position into a symmetrical leg entanglement. When caught in straight ankle lock control, rather than simply defending the submission threat, this technique allows the defender to establish their own attack on the opponent's far leg, creating a 50-50 Guard situation where both practitioners face equal threats.
 
@@ -218,5 +255,7 @@ Counter Entry to Opponent's Leg serves as a critical bridge between defensive su
 
 
 </section>
+
+
 
 </main>

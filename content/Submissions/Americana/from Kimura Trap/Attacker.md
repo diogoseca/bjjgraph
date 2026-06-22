@@ -53,7 +53,7 @@ description: "How to finish the Americana from Kimura Trap position. Step-by-ste
     {
       "@type": "HowToStep",
       "name": "Apply the paintbrush finish",
-      "text": "With the elbow pinned and your weight settled, drive the opponent's wrist in a slow arc along the mat away from their body. Imagine painting a line on the mat with their knuckles. This creates progressive internal rotation of the shoulder joint. Keep the motion parallel to the mat rather than lifting upward.",
+      "text": "With the elbow pinned and your weight settled, drive the opponent's wrist in a slow arc along the mat away from their body. Imagine painting a line on the mat with their knuckles. This creates progressive external rotation of the shoulder joint. Keep the motion parallel to the mat rather than lifting upward.",
       "position": 6
     },
     {
@@ -79,7 +79,7 @@ description: "How to finish the Americana from Kimura Trap position. Step-by-ste
       "name": "What anatomical structure does the Americana from Kimura Trap primarily attack?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The Americana attacks the glenohumeral (shoulder) joint through internal rotation, specifically stressing the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, and subscapularis), the shoulder capsule, and the labrum. The lever created by pinning the elbow and driving the wrist forces the humeral head into an extreme internally rotated position that exceeds the joint's natural range of motion."
+        "text": "The Americana attacks the glenohumeral (shoulder) joint through external rotation, specifically stressing the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, and subscapularis), the shoulder capsule, and the labrum. The lever created by pinning the elbow and driving the wrist forces the humeral head into an extreme externally rotated position that exceeds the joint's natural range of motion."
       }
     },
     {
@@ -103,7 +103,7 @@ description: "How to finish the Americana from Kimura Trap position. Step-by-ste
       "name": "Why is pinning the elbow to the mat essential before applying Americana rotational pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The pinned elbow serves as the fixed fulcrum point for the entire Americana lever system. Without it, when you drive the wrist, the entire arm simply moves together as a unit and no torque is generated on the shoulder joint. The elbow pin creates two separate lever segments: the upper arm is fixed to the mat, and the forearm rotates around the elbow, creating the internal rotation that stresses the shoulder. Without this fulcrum, the submission is mechanically impossible."
+        "text": "The pinned elbow serves as the fixed fulcrum point for the entire Americana lever system. Without it, when you drive the wrist, the entire arm simply moves together as a unit and no torque is generated on the shoulder joint. The elbow pin creates two separate lever segments: the upper arm is fixed to the mat, and the forearm rotates around the elbow, creating the external rotation that stresses the shoulder. Without this fulcrum, the submission is mechanically impossible."
       }
     },
     {
@@ -180,7 +180,7 @@ description: "How to finish the Americana from Kimura Trap position. Step-by-ste
 
 <section id="overview" class="content-section">
 
-Executing the Americana from Kimura Trap requires reading your opponent's defensive reaction to the Kimura threat and smoothly redirecting pressure from external to internal shoulder rotation. The figure-four grip is already established, so you change the direction of force rather than reconfiguring your hands. This makes the transition nearly invisible to the defender, who is focused on protecting against the Kimura. Maintain heavy chest pressure throughout the redirection to prevent the defender from creating space or straightening their arm. The finish relies on pinning the opponent's elbow to the mat while driving their wrist in a controlled arc toward the mat on the far side, creating a lever that applies progressive internal rotation to the glenohumeral joint. The opponent's own Kimura defense—elbow tight, hand low—provides the ideal starting position for the Americana finishing angle.
+Executing the Americana from Kimura Trap requires reading your opponent's defensive reaction to the Kimura threat and smoothly redirecting pressure from internal (Kimura) to external (Americana) shoulder rotation. The figure-four grip is already established, so you change the direction of force rather than reconfiguring your hands. This makes the transition nearly invisible to the defender, who is focused on protecting against the Kimura. Maintain heavy chest pressure throughout the redirection to prevent the defender from creating space or straightening their arm. The finish relies on pinning the opponent's elbow to the mat while driving their wrist in a controlled arc toward the mat on the far side, creating a lever that applies progressive external rotation to the glenohumeral joint. The opponent's own Kimura defense—elbow tight, hand low—provides the ideal starting position for the Americana finishing angle.
 
 **From Position**: [[Positions/Kimura Trap]] (Top)
 
@@ -229,7 +229,7 @@ Executing the Americana from Kimura Trap requires reading your opponent's defens
 3. **Redirect wrist pressure downward**: Without adjusting your figure-four grip, reverse the direction of pressure on the opponent's wrist. Instead of pulling upward for the Kimura, press their wrist downward toward the mat on the far side of their body. Flow with their defensive momentum rather than fighting against it. (Timing: Smooth transition over 1-2 seconds)
 4. **Pin the elbow to the mat**: As you redirect the wrist, use your chest weight and the figure-four structure to drive the opponent's elbow firmly into the mat. This elbow contact point becomes the fulcrum for the Americana lever. Without the elbow pinned, the submission has no fixed point to generate rotational force against. (Timing: Simultaneous with wrist redirection)
 5. **Settle weight and establish finishing position**: Drop your chest weight heavily onto the opponent's shoulder and upper arm area. Walk your feet slightly toward their head to increase the angle of pressure. Your body should feel like a heavy blanket pinning their upper body while your arms control the submission mechanics. (Timing: 1-2 seconds to settle position)
-6. **Apply the paintbrush finish**: With the elbow pinned and your weight settled, drive the opponent's wrist in a slow arc along the mat away from their body. Imagine painting a line on the mat with their knuckles. This creates progressive internal rotation of the shoulder joint. Keep the motion parallel to the mat rather than lifting upward. (Timing: 3-5 seconds of slow, controlled pressure)
+6. **Apply the paintbrush finish**: With the elbow pinned and your weight settled, drive the opponent's wrist in a slow arc along the mat away from their body. Imagine painting a line on the mat with their knuckles. This creates progressive external rotation of the shoulder joint. Keep the motion parallel to the mat rather than lifting upward. (Timing: 3-5 seconds of slow, controlled pressure)
 7. **Increase pressure to completion**: Progressively increase the arc of the wrist movement while maintaining the elbow pin. The opponent will reach their rotational limit and tap. If they resist, micro-adjust your chest position closer to their head to increase leverage. Never jerk or spike the pressure—maintain steady, progressive force throughout. (Timing: 1-3 seconds to tap, stop immediately on tap signal)
 
 

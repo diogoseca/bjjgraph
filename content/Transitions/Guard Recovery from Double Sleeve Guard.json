@@ -1,5 +1,6 @@
 {
   "name": "Guard Recovery from Double Sleeve Guard",
+  "summary": "Guard Recovery from Double Sleeve Guard is a defensive transition where the bottom player, after sleeve grips are stripped, retracts the legs and closes guard around the passer's torso before they can establish combat base or complete a pass.",
   "description": "Master guard recovery from Double Sleeve Guard in BJJ. Step-by-step guide covering grip transitions, leg retraction, and closed guard reestablishment.",
   "tags": [
     "bjj",
@@ -23,13 +24,13 @@
       "result": "failure"
     },
     {
-      "to": "Combat Base/Top",
+      "to": "Combat Base/Bottom",
       "probability": 20,
       "result": "counter"
     }
   ],
   "success_rate": 45,
-  "overview": "Guard Recovery from Double Sleeve Guard is a defensive transition where the bottom player reestablishes closed guard when bilateral sleeve control becomes compromised. When the opponent breaks one or both sleeve grips and begins advancing with passing pressure, the bottom player must abandon the open guard distance game and close the guard before the opponent can establish combat base or initiate passing sequences. This recovery requires releasing sleeve grips, retracting legs from hip or bicep frames, and closing guard around the opponent's torso while preventing them from establishing combat base or initiating passing sequences.\n\nThe technique exploits a narrow timing window created by the opponent's grip-stripping momentum. As the top player commits energy and body position to breaking sleeve grips, their weight often shifts forward or their hands become temporarily occupied, creating the opening the bottom player needs to retract legs and close distance. Skilled practitioners learn to read the grip-stripping pattern and initiate recovery proactively rather than reactively, turning a defensive emergency into a controlled transition that often catches the passer mid-movement with broken posture ideal for immediate closed guard attacks.\n\nThis recovery is a foundational skill for any open guard player, as grip failure is inevitable against competent passers. The ability to smoothly transition from compromised open guard to secure closed guard provides a critical safety net that allows practitioners to play aggressive open guard games without fear of catastrophic guard loss. Without this recovery pathway, every grip break becomes a passing crisis rather than a manageable positional transition.",
+  "overview": "Grip failure against a competent passer is inevitable, and this transition is the bottom player's rehearsed answer to it—reestablishing closed guard the instant bilateral sleeve control is compromised. When the opponent breaks one or both sleeve grips and begins advancing with passing pressure, the bottom player must abandon the open guard distance game and close the guard before the opponent can establish combat base or initiate passing sequences. This recovery requires releasing sleeve grips, retracting legs from hip or bicep frames, and closing guard around the opponent's torso while preventing them from establishing combat base or initiating passing sequences.\n\nThe technique exploits a narrow timing window created by the opponent's grip-stripping momentum. As the top player commits energy and body position to breaking sleeve grips, their weight often shifts forward or their hands become temporarily occupied, creating the opening the bottom player needs to retract legs and close distance. Skilled practitioners learn to read the grip-stripping pattern and initiate recovery proactively rather than reactively, turning a defensive emergency into a controlled transition that often catches the passer mid-movement with broken posture ideal for immediate closed guard attacks.\n\nThis recovery is a foundational skill for any open guard player, as grip failure is inevitable against competent passers. The ability to smoothly transition from compromised open guard to secure closed guard provides a critical safety net that allows practitioners to play aggressive open guard games without fear of catastrophic guard loss. Without this recovery pathway, every grip break becomes a passing crisis rather than a manageable positional transition.",
   "conditions": [
     "At least one sleeve grip has been compromised or is actively being stripped by the top player",
     "Top player is advancing forward with passing pressure rather than retreating to reset",
@@ -163,7 +164,7 @@
         "counter": "Opponent drives heavy forward pressure after grip break, pinning your hips flat and preventing the hip escape needed for guard closure",
         "effectiveness": "High",
         "your_response": "Frame on the opponent's shoulders with both hands to create immediate distance, then use the frame as a platform for a powerful hip escape. If they establish combat base, transition to combat base guard recovery mechanics rather than fighting for closed guard.",
-        "targets_outcome": "Combat Base/Top"
+        "targets_outcome": "Combat Base/Bottom"
       },
       {
         "counter": "Opponent grabs your ankles or pants and redirects your legs to one side, initiating a toreando or leg drag pass",
@@ -292,14 +293,14 @@
       {
         "action": "Drive forward through the bottom player's centerline immediately after grip stripping, pinning their hips flat with chest pressure to prevent hip escape",
         "when_to_use": "Immediately after stripping one or both sleeve grips when the bottom player's legs are still in extended position",
-        "targets_outcome": "Combat Base/Top",
+        "targets_outcome": "Combat Base/Bottom",
         "if_successful": "Bottom player's hips are pinned flat preventing guard closure angle, allowing you to establish combat base and begin systematic passing",
         "risk": "If bottom player frames on your shoulders effectively, your forward pressure may stall and they recover composure for alternative guard recomposition"
       },
       {
         "action": "Grab the bottom player's ankles or pants as their legs retract and redirect them to one side for a toreando pass",
         "when_to_use": "When the bottom player begins retracting their legs from extended position but has not yet gotten knees to their chest",
-        "targets_outcome": "Combat Base/Top",
+        "targets_outcome": "Combat Base/Bottom",
         "if_successful": "Legs are displaced to one side eliminating guard closure possibility and opening direct toreando or leg drag passing lanes",
         "risk": "If the bottom player pummels legs back to centerline, you may lose your grip advantage and they can recompose guard"
       },
@@ -313,7 +314,7 @@
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Combat Base/Top",
+        "outcome": "Combat Base/Bottom",
         "how": "Strip both sleeve grips explosively and immediately drive forward with heavy chest pressure while blocking the far hip with your hand, preventing the hip escape needed for guard closure and establishing combat base for systematic passing"
       }
     ],

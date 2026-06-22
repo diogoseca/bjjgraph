@@ -10,6 +10,41 @@ description: "Master the Leg Drag to Technical Mount transition in BJJ. Step-by-
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Leg Drag to Technical Mount",
+  "description": "Master the Leg Drag to Technical Mount transition in BJJ. Step-by-step execution from Leg Drag Control to dominant technical mount position.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Leg Drag to Technical Mount", "item": "https://bjjgraph.org/Transitions/Leg-Drag-to-Technical-Mount" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Leg Drag to Technical Mount",
+  "description": "Leg Drag to Technical Mount is a guard-passing advancement where the top player converts leg drag hip control into technical mount, sliding a knee behind the turned opponent's back to arrive with immediate armbar and arm-triangle threats.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Leg Drag to Technical Mount transition in BJJ. Step-by-
 </div>
 
 <section id="overview" class="content-section">
+
+**Leg Drag to Technical Mount is a guard-passing advancement where the top player converts leg drag hip control into technical mount, sliding a knee behind the turned opponent's back to arrive with immediate armbar and arm-triangle threats.**
 
 The Leg Drag to Technical Mount transition represents a highly efficient pathway from guard passing to a dominant top position. Unlike the standard mount transition which requires clearing the opponent's hips completely, technical mount allows you to secure a controlling position while the opponent remains partially on their side—the exact orientation created by effective leg drag pressure.
 
@@ -220,5 +257,7 @@ From technical mount, you have direct chains to arm triangles, mounted triangles
 
 
 </section>
+
+
 
 </main>

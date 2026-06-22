@@ -10,6 +10,41 @@ description: "Learn Stand and Circle Away escape from Front Headlock. Step-by-st
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Stand and Circle Away",
+  "description": "Learn Stand and Circle Away escape from Front Headlock. Step-by-step technique to regain standing position with angular movement and grip stripping.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Stand and Circle Away", "item": "https://bjjgraph.org/Transitions/Stand-and-Circle-Away" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Stand and Circle Away",
+  "description": "Stand and Circle Away is a front headlock escape where the bottom player rebuilds posture, drives to standing while keeping the chin tucked, then circles away from the choking arm to strip the grip and reach neutral standing.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Learn Stand and Circle Away escape from Front Headlock. Step-by-st
 
 <section id="overview" class="content-section">
 
-The Stand and Circle Away is a fundamental defensive escape from the front headlock position that prioritizes returning to a neutral standing position through deliberate posture recovery and angular movement. Unlike rolling escapes or guard recovery options, this technique directly addresses the core problem of the front headlock — compromised posture — by rebuilding your base from the ground up and then using lateral movement to break free of the opponent's controlling grips.
+**Stand and Circle Away is a front headlock escape where the bottom player rebuilds posture, drives to standing while keeping the chin tucked, then circles away from the choking arm to strip the grip and reach neutral standing.**
+
+Within the front headlock bottom defensive system, the Stand and Circle Away is the escape of choice when you want to disengage entirely rather than continue groundwork. Unlike rolling escapes or guard recovery options, this technique directly addresses the core problem of the front headlock — compromised posture — by rebuilding your base from the ground up and then using lateral movement to break free of the opponent's controlling grips.
 
 Strategically, the Stand and Circle Away occupies a unique niche among front headlock escapes because it returns you to the safest possible position: standing with distance. Where a Granby Roll or guard pull keeps the fight on the ground and potentially still in danger, standing and circling creates complete separation. The technique is most effective when the opponent's grip is not yet fully consolidated, their weight distribution is forward-heavy, or they are transitioning between attack options. Timing is everything — attempting this escape against a deep, settled front headlock with locked grips dramatically reduces success probability.
 
@@ -224,5 +261,7 @@ The Stand and Circle Away is a critical component of the front headlock bottom d
 
 
 </section>
+
+
 
 </main>

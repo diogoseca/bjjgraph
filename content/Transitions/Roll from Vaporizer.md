@@ -10,6 +10,41 @@ description: "Master the Roll from Vaporizer transition in BJJ. Complete guide t
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Roll from Vaporizer",
+  "description": "Master the Roll from Vaporizer transition in BJJ. Complete guide to this lockdown-to-turtle technique with steps, timing, counters, and offensive chain attacks.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Roll from Vaporizer", "item": "https://bjjgraph.org/Transitions/Roll-from-Vaporizer" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Roll from Vaporizer",
+  "description": "The Roll from Vaporizer is a 10th Planet transition where the bottom player releases the lockdown and forward-rolls underneath a defending opponent to reach an active turtle, keeping the back-attack chain alive toward truck and crab ride.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Roll from Vaporizer transition in BJJ. Complete guide t
 </div>
 
 <section id="overview" class="content-section">
+
+**The Roll from Vaporizer is a 10th Planet transition where the bottom player releases the lockdown and forward-rolls underneath a defending opponent to reach an active turtle, keeping the back-attack chain alive toward truck and crab ride.**
 
 The Roll from Vaporizer is a tactical transition within the 10th Planet lockdown system where the bottom player abandons the Vaporizer configuration and executes a controlled forward roll to transition to turtle position. While moving to turtle may appear counterintuitive for someone in an offensive position, this technique serves as a critical chain link in the lockdown-to-back-attack pathway, enabling continued offensive sequences through truck entries, crab ride, and back control.
 
@@ -220,5 +257,7 @@ The Roll from Vaporizer occupies a critical junction in the 10th Planet attack c
 
 
 </section>
+
+
 
 </main>

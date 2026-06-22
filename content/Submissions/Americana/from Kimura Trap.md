@@ -10,10 +10,55 @@ description: "Master the Americana from Kimura Trap in BJJ. Convert your Kimura 
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Americana from Kimura Trap targets the Shoulder joint (specifically glenohumeral joint and rotator cuff). Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Americana from Kimura Trap",
+  "description": "Master the Americana from Kimura Trap in BJJ. Convert your Kimura grip into a high-percentage shoulder lock when opponents pull their arm down to defend.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Americana from Kimura Trap", "item": "https://bjjgraph.org/Submissions/Americana-from-Kimura-Trap" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Americana from Kimura Trap",
+  "description": "The Americana from Kimura Trap is a shoulder lock that redirects an already-established figure-four grip into external rotation when the opponent defends the Kimura by pulling their elbow down, finishing the same shoulder from the opposite angle.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Americana from Kimura Trap is a shoulder lock that redirects an already-established figure-four grip into external rotation when the opponent defends the Kimura by pulling their elbow down, finishing the same shoulder from the opposite angle.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Shoulder Lock</span>
+<span class="meta-chip">Targets Shoulder joint (specifically glenohumeral joint and rotator cuff)</span>
+<span class="meta-chip">68% success</span>
+</div>
+
+> [!danger] Safety
+> Americana from Kimura Trap targets the Shoulder joint (specifically glenohumeral joint and rotator cuff). Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -24,63 +69,13 @@ description: "Master the Americana from Kimura Trap in BJJ. Convert your Kimura 
 
 <section id="overview" class="content-section">
 
-The Americana from Kimura Trap exploits the most predictable defensive reaction in the Kimura Trap system. When a top player threatens the standard Kimura finish with external shoulder rotation, skilled defenders instinctively respond by pulling their elbow tight to their ribs and driving their hand toward the mat. This defensive posture neutralizes the Kimura but creates the ideal setup for the Americana—the attacker redirects the captured wrist downward and away in a paintbrush motion, applying internal rotation to the same shoulder joint from the opposite angle.
+The Americana from Kimura Trap exploits the most predictable defensive reaction in the Kimura Trap system. When a top player threatens the standard Kimura finish with internal shoulder rotation, skilled defenders instinctively respond by pulling their elbow tight to their ribs and driving their hand toward the mat. This defensive posture neutralizes the Kimura but creates the ideal setup for the Americana—the attacker redirects the captured wrist downward and away in a paintbrush motion, applying external rotation to the same shoulder joint from the opposite angle.
 
 The figure-four grip transfers seamlessly between Kimura and Americana without any grip reconfiguration, making this one of the fastest submission transitions in grappling. The defender's own protective reaction—elbow pinned, hand low—provides the starting geometry the Americana requires. Combined with the positional dominance inherent in Kimura Trap Top, this creates a submission with an unusually high completion rate because the attacker never relinquishes control during the transition.
 
 At the purple and brown belt level, this technique punishes opponents who have developed strong Kimura defense but have not yet internalized the Americana counter-threat. The dual-direction submission threat—Kimura pulling upward, Americana pressing downward—creates a genuine dilemma where defending one attack directly feeds the other. This forced-choice dynamic is the hallmark of high-level submission grappling and represents the Kimura Trap system's philosophical core: every defense creates a new attack.
 
-**Category**: Joint Lock
-**Type**: Shoulder Lock
-**Target Area**: Shoulder joint (specifically glenohumeral joint and rotator cuff)
-**Starting Position**: [[Positions/Kimura Trap]]
-**From Position**: [[Positions/Kimura Trap]] (Top)
-**Success Rate**: 68%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Rotator cuff tear (supraspinatus, infraspinatus, teres minor) | High | 3-6 months with physical therapy, possible surgical intervention |
-| Shoulder capsule damage and labral tears | High | 4-8 months, often requires surgery |
-| AC joint separation or damage | Medium | 6-12 weeks depending on grade |
-| Glenohumeral joint dislocation | CRITICAL | 3-6 months, high risk of chronic instability |
-| Biceps tendon strain or tear | Medium | 4-8 weeks for strain, 3-4 months for tear |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from initial pressure to expected tap. The Kimura-to-Americana redirect must be controlled, not snapped. In drilling, apply 10-20% pressure maximum.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any verbal signal)
-- Physical hand tap on opponent or mat (minimum 2 taps)
-- Physical foot tap on mat or opponent
-- Any distress vocalization or unusual sound
-- Slapping mat with free hand repeatedly
-
-
-**Release Protocol**:
-1. Immediately stop all rotational pressure on the shoulder
-2. Release the figure-four grip on the wrist
-3. Carefully lower the arm back to neutral position (do not drop suddenly)
-4. Release control of the elbow and allow opponent to move freely
-5. Check with partner verbally to ensure they are okay
-6. If partner indicates pain, encourage them to keep shoulder mobile and seek medical attention if pain persists
-
-
-**Training Restrictions**:
-- Never spike, jerk, or apply sudden rotational force during the Kimura-to-Americana redirect
-- Never use competition speed or full pressure in training
-- Always allow clear access to tap with free hand
-- Stop immediately at any sign of discomfort (do not wait for tap in drilling)
-- Never practice on partners with existing shoulder injuries without explicit permission and medical clearance
-- Avoid repeated submissions on the same shoulder in a single training session
-
+**Starting Position**: [[Positions/Kimura Trap]] · **From**: [[Positions/Kimura Trap]] (Top)
 
 </section>
 
@@ -244,41 +239,67 @@ At the purple and brown belt level, this technique punishes opponents who have d
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Americana]]
 - [[Submissions/Kimura]]
 - [[Submissions/Reverse Kimura]]
 - [[Transitions/Arm Triangle]]
 - [[Submissions/Far Side Armbar]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Kimura Trap]] - Primary starting position where the figure-four grip is already established
-- [[Submissions/Americana]] - Parent submission family sharing identical finishing mechanics
 - [[Positions/Side Control]] - Most common positional platform for establishing Kimura Trap Top
 - [[Positions/North-South]] - Alternative finishing angle when side control Americana is defended
 - [[Positions/Half Guard]] - Entry position where Kimura grip is often first established
 - [[Systems/Kimura Trap System]] - Parent system encompassing the Kimura-Americana forced-choice dynamic
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Rotator cuff tear (supraspinatus, infraspinatus, teres minor) | High | 3-6 months with physical therapy, possible surgical intervention |
+| Shoulder capsule damage and labral tears | High | 4-8 months, often requires surgery |
+| AC joint separation or damage | Medium | 6-12 weeks depending on grade |
+| Glenohumeral joint dislocation | CRITICAL | 3-6 months, high risk of chronic instability |
+| Biceps tendon strain or tear | Medium | 4-8 weeks for strain, 3-4 months for tear |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum from initial pressure to expected tap. The Kimura-to-Americana redirect must be controlled, not snapped. In drilling, apply 10-20% pressure maximum.
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any verbal signal)
+- Physical hand tap on opponent or mat (minimum 2 taps)
+- Physical foot tap on mat or opponent
+- Any distress vocalization or unusual sound
+- Slapping mat with free hand repeatedly
+
+
+**Release Protocol**:
+1. Immediately stop all rotational pressure on the shoulder
+2. Release the figure-four grip on the wrist
+3. Carefully lower the arm back to neutral position (do not drop suddenly)
+4. Release control of the elbow and allow opponent to move freely
+5. Check with partner verbally to ensure they are okay
+6. If partner indicates pain, encourage them to keep shoulder mobile and seek medical attention if pain persists
+
+
+**Training Restrictions**:
+- Never spike, jerk, or apply sudden rotational force during the Kimura-to-Americana redirect
+- Never use competition speed or full pressure in training
+- Always allow clear access to tap with free hand
+- Stop immediately at any sign of discomfort (do not wait for tap in drilling)
+- Never practice on partners with existing shoulder injuries without explicit permission and medical clearance
+- Avoid repeated submissions on the same shoulder in a single training session
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Americana from Kimura Trap leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

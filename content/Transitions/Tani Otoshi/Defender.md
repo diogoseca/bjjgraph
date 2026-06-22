@@ -105,6 +105,7 @@ description: "How to defend against Tani Otoshi in BJJ. Recognition cues, defens
   "@type": "WebPage",
   "name": "Tani Otoshi Defender",
   "description": "How to defend against Tani Otoshi in BJJ. Recognition cues, defensive options, and escape strategies from the valley drop sacrifice throw.",
+  "alternateName": ["Valley Drop"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -150,6 +151,9 @@ description: "How to defend against Tani Otoshi in BJJ. Recognition cues, defens
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Valley Drop</strong> <span class="role-hint">(defender)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 Defending Tani Otoshi requires early recognition and immediate reaction, because once the thrower commits to the sacrifice drop with proper angle and leg placement, the mechanical advantage makes escape extremely difficult. The defender's primary goal is to prevent the throw from developing by recognizing the setup cues - the lateral angle step, the grip tightening, and the weight shift that precede the drop. If the throw is already in progress, the defender must choose between widening their base to step over the blocking leg, sprawling their hips back to deny the rotational pull, or posting a hand to arrest the fall and convert to a scramble. Understanding the attacker's mechanics is essential: the throw relies on your forward weight commitment combined with the rigid leg block, so maintaining a balanced, reactive stance with hips slightly back is the strongest preventive posture. Successful defense often leads to advantageous positions because a failed sacrifice throw leaves the attacker seated on the mat.

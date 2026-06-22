@@ -10,6 +10,41 @@ description: "Master the Matrix to Back Control counter in BJJ. Follow your oppo
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Matrix to Back Control",
+  "description": "Master the Matrix to Back Control counter in BJJ. Follow your opponent\u0027s rotation from top position to secure dominant back control with hooks and seatbelt.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Matrix to Back Control", "item": "https://bjjgraph.org/Transitions/Matrix-to-Back-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Matrix to Back Control",
+  "description": "Matrix to Back Control is a top-position counter where, instead of resisting your opponent's Matrix rolling back take, you follow their rotation and ride its momentum to their exposed back, arriving with hooks and seatbelt control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Matrix to Back Control counter in BJJ. Follow your oppo
 
 <section id="overview" class="content-section">
 
-The Matrix to Back Control is a high-level counter-transition executed from the top position when the opponent initiates a Matrix rolling back take. Rather than simply defending the rotation by sprawling or widening base, the top player reads the entry, follows the rotational movement, and capitalizes on the brief window when the bottom player's back becomes exposed during their inverted roll. This technique converts a defensive scenario into the most dominant position in Brazilian Jiu-Jitsu.
+**Matrix to Back Control is a top-position counter where, instead of resisting your opponent's Matrix rolling back take, you follow their rotation and ride its momentum to their exposed back, arriving with hooks and seatbelt control.**
+
+This counter-transition flips the most dangerous moment of a Matrix attack into the top player's best opportunity. Rather than simply defending the rotation by sprawling or widening base, the top player reads the entry, follows the rotational movement, and capitalizes on the brief window when the bottom player's back becomes exposed during their inverted roll. The technique converts a defensive scenario into the most dominant position in Brazilian Jiu-Jitsu.
 
 The critical insight underlying this transition is that the Matrix rotation, while powerful when properly timed, necessarily exposes the attacker's back during the inversion phase. A top player who recognizes the Matrix entry early enough can match the rotation speed, maintain chest-to-back proximity, and begin inserting hooks while the bottom player is still mid-roll and unable to defend. The rotational momentum that makes the Matrix effective becomes the very mechanism that delivers the top player to back control.
 
@@ -218,5 +255,7 @@ The Matrix to Back Control counter sits at the intersection of Matrix defense an
 
 
 </section>
+
+
 
 </main>

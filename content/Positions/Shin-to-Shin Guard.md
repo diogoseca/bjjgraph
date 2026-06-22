@@ -10,6 +10,41 @@ description: "Master Shin-to-Shin Guard in BJJ. Complete guide covering setup, c
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Shin-to-Shin Guard",
+  "description": "Master Shin-to-Shin Guard in BJJ. Complete guide covering setup, control mechanics, sweep entries, and transitions to X-Guard and leg entanglements with 65% sweep success rate.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Shin-to-Shin Guard", "item": "https://bjjgraph.org/Positions/Shin-to-Shin-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Shin-to-Shin Guard",
+  "description": "Shin-to-Shin Guard is a seated open guard where the bottom player presses one shin across the opponent's same-side shin, forming a perpendicular lever that off-balances their base and opens entries to Single Leg X, X-Guard, and leg entanglements.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Shin-to-Shin Guard in BJJ. Complete guide covering setup, c
 </div>
 
 <section id="overview" class="content-section">
+
+**Shin-to-Shin Guard is a seated open guard where the bottom player presses one shin across the opponent's same-side shin, forming a perpendicular lever that off-balances their base and opens entries to Single Leg X, X-Guard, and leg entanglements.**
 
 Shin-to-Shin Guard represents a sophisticated intersection between traditional open guard concepts and modern leg entanglement systems. This position is characterized by the guard player placing their shin across the opponent's same-side shin, creating a perpendicular connection point that serves multiple strategic purposes. Unlike passive guard positions that simply create barriers, shin-to-shin actively compromises the opponent's base through constant angular pressure and leverage manipulation. The position excels in several key areas: distance management against aggressive standing passers, entry pathways to powerful positions like single leg X-guard and X-guard, and immediate threatening potential through off-balancing sweeps. Modern Brazilian Jiu-Jitsu has elevated shin-to-shin from a transitional position to a cornerstone of guard retention and attack systems, particularly in no-gi competition where traditional grip-based guards are less effective. The position's power derives from its ability to create dilemmas—opponents who attempt to clear the shin connection open entries to leg entanglements, while those who maintain distance allow the guard player to dictate engagement range and set up technical attacks. High-level competitors utilize shin-to-shin as part of integrated guard systems, flowing seamlessly between this position and related guards based on opponent reactions. The shin connection itself acts as both a defensive barrier preventing forward pressure and an offensive tool for generating sweep mechanics through off-balancing. Understanding shin-to-shin requires grasping its role within the broader guard retention ecosystem—it's not meant to be held statically but rather used dynamically as a launching pad for transitions and attacks. The position's effectiveness scales dramatically with technical proficiency, as advanced practitioners can maintain the connection while simultaneously controlling upper body positioning and anticipating defensive reactions.
 
@@ -262,5 +299,7 @@ Shin-to-Shin Guard represents a sophisticated intersection between traditional o
 
 
 </section>
+
+
 
 </main>

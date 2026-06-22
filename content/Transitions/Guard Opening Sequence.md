@@ -10,6 +10,41 @@ description: "Master guard opening in BJJ. Systematic approaches to opening clos
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Guard Opening Sequence",
+  "description": "Master guard opening in BJJ. Systematic approaches to opening closed guard using posture, grips, and leverage for high-percentage passing entries. Essential fundamental.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Guard Opening Sequence", "item": "https://bjjgraph.org/Transitions/Guard-Opening-Sequence" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Guard Opening Sequence",
+  "description": "Guard Opening Sequence is the top player's systematic method of breaking a locked closed guard, chaining posture, grip fighting, distance creation, and leverage-based pressure to force the guard open and enter a passing position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master guard opening in BJJ. Systematic approaches to opening clos
 
 <section id="overview" class="content-section">
 
-Guard Opening Sequence represents the systematic approach to breaking closed guard and transitioning to an open guard passing position. This foundational technique encompasses posture establishment, grip fighting, and the application of specific opening mechanics to force the opponent's guard open. The sequence is fundamental to all guard passing systems, as no pass can begin without first opening the closed guard.
+**Guard Opening Sequence is the top player's systematic method of breaking a locked closed guard, chaining posture, grip fighting, distance creation, and leverage-based pressure to force the guard open and enter a passing position.**
+
+As the foundational gateway to every guard pass, the Guard Opening Sequence chains several distinct skills - posture establishment, grip fighting, and the application of specific opening mechanics - into one flowing progression rather than functioning as a single isolated technique. No pass can begin until the closed guard is broken, which makes this the highest-leverage skill in any top player's passing arsenal and the prerequisite for every passing system that follows.
 
 Understanding proper opening mechanics prevents common injuries, maintains positional control, and sets up high-percentage passing opportunities. The technique involves careful attention to base maintenance, grip control, and strategic pressure application to overcome the opponent's defensive structure while maintaining safety and control throughout the transition. The guard opener must balance defensive awareness against sweeps and submissions with the offensive progression of systematically dismantling the closed guard structure.
 
@@ -236,5 +273,7 @@ Guard Opening Sequence serves as the critical gateway from closed guard top to a
 
 
 </section>
+
+
 
 </main>

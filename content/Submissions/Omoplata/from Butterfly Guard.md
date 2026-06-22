@@ -10,10 +10,55 @@ description: "Master the Omoplata from Butterfly Guard. Learn hook elevation ent
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Omoplata from Butterfly Guard targets the Shoulder joint (rotator cuff, capsule, AC joint). Risk: Rotator cuff tear or strain. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Omoplata from Butterfly Guard",
+  "description": "Master the Omoplata from Butterfly Guard. Learn hook elevation entries, overhook setups, and finishing mechanics for this dynamic BJJ shoulder lock submission.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Omoplata from Butterfly Guard", "item": "https://bjjgraph.org/Submissions/Omoplata-from-Butterfly-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Omoplata from Butterfly Guard",
+  "description": "The Omoplata from Butterfly Guard is a shoulder lock launched from the seated bottom position, using butterfly-hook elevation and an overhook to clear a leg over the opponent's trapped shoulder and apply rotational pressure.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Omoplata from Butterfly Guard is a shoulder lock launched from the seated bottom position, using butterfly-hook elevation and an overhook to clear a leg over the opponent's trapped shoulder and apply rotational pressure.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Shoulder Lock</span>
+<span class="meta-chip">Targets Shoulder joint (rotator cuff, capsule, AC joint)</span>
+<span class="meta-chip">52% success</span>
+</div>
+
+> [!danger] Safety
+> Omoplata from Butterfly Guard targets the Shoulder joint (rotator cuff, capsule, AC joint). Primary risk: Rotator cuff tear or strain. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,55 +75,7 @@ This entry chains naturally with butterfly sweep attempts, creating a powerful a
 
 Strategically, the Omoplata from Butterfly Guard occupies a high-value position in modern guard systems because it punishes defensive postures that would otherwise neutralize butterfly sweep threats. Opponents who post wide and low to resist elevation become vulnerable to the leg swing, while those who stay tight and upright remain susceptible to standard butterfly sweeps. This creates a compounding offensive cycle where each defensive adjustment opens a different line of attack, making the butterfly guard bottom player increasingly dangerous as the exchange progresses.
 
-**Category**: Joint Lock
-**Type**: Shoulder Lock
-**Target Area**: Shoulder joint (rotator cuff, capsule, AC joint)
-**Starting Position**: [[Positions/Butterfly Guard]]
-**From Position**: [[Positions/Butterfly Guard]] (Bottom)
-**Success Rate**: 52%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Rotator cuff tear or strain | High | 6-12 weeks for minor tears, 3-6 months for major tears |
-| AC joint separation | Medium | 4-8 weeks |
-| Shoulder capsule damage | High | 8-16 weeks |
-| Labrum tear | CRITICAL | 6-12 months with surgery |
-
-
-**Application Speed**: SLOW and progressive - 4-6 seconds minimum pressure increase
-
-**Tap Signals**:
-- Verbal tap (any vocal signal)
-- Physical hand tap on opponent or mat
-- Physical foot tap on opponent or mat
-- Any distress signal or sound
-- Roll forward escape attempt (release immediately)
-
-
-**Release Protocol**:
-1. Immediately stop all forward pressure and rotation
-2. Release leg pinch on shoulder
-3. Unwind hip position to neutral
-4. Allow opponent to extract arm slowly
-5. Check for injury before continuing
-
-
-**Training Restrictions**:
-- Never spike or jerk the shoulder rotation
-- Never apply competition speed in training
-- Always allow opponent access to tap
-- Stop immediately if opponent rolls forward (escape attempt)
-- Never apply full finishing pressure until advanced belt level
-- Always control the rate of shoulder rotation
-
+**Starting Position**: [[Positions/Butterfly Guard]] · **From**: [[Positions/Butterfly Guard]] (Bottom)
 
 </section>
 
@@ -233,39 +230,64 @@ Strategically, the Omoplata from Butterfly Guard occupies a high-value position 
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Omoplata]]
 - [[Submissions/Triangle Choke]]
 - [[Submissions/Kimura]]
 - [[Transitions/Gogoplata]]
 - [[Submissions/Arm in Guillotine]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Butterfly Guard]] - Primary starting position for this submission variant
 - [[Positions/Omoplata Control]] - Dominant control position established before applying the finish
 - [[Positions/Closed Guard]] - Alternative guard position offering traditional omoplata entry
 - [[Positions/Butterfly Guard/Half Butterfly]] - Asymmetric butterfly variant that also supports omoplata entries
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Rotator cuff tear or strain | High | 6-12 weeks for minor tears, 3-6 months for major tears |
+| AC joint separation | Medium | 4-8 weeks |
+| Shoulder capsule damage | High | 8-16 weeks |
+| Labrum tear | CRITICAL | 6-12 months with surgery |
+
+
+**Application Speed**: SLOW and progressive - 4-6 seconds minimum pressure increase
+
+**Tap Signals**:
+- Verbal tap (any vocal signal)
+- Physical hand tap on opponent or mat
+- Physical foot tap on opponent or mat
+- Any distress signal or sound
+- Roll forward escape attempt (release immediately)
+
+
+**Release Protocol**:
+1. Immediately stop all forward pressure and rotation
+2. Release leg pinch on shoulder
+3. Unwind hip position to neutral
+4. Allow opponent to extract arm slowly
+5. Check for injury before continuing
+
+
+**Training Restrictions**:
+- Never spike or jerk the shoulder rotation
+- Never apply competition speed in training
+- Always allow opponent access to tap
+- Stop immediately if opponent rolls forward (escape attempt)
+- Never apply full finishing pressure until advanced belt level
+- Always control the rate of shoulder rotation
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Omoplata from Butterfly Guard leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

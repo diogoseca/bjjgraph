@@ -16,7 +16,7 @@ description: "How to execute the Guillotine Choke finish in BJJ. Attacking persp
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Guillotine Choke in BJJ",
-  "description": "Step-by-step guide for executing Guillotine Choke from Guillotine Control/Top.",
+  "description": "Step-by-step guide for executing Guillotine Choke from Guillotine Control/Bottom.",
   "step": [
     {
       "@type": "HowToStep",
@@ -178,13 +178,13 @@ description: "How to execute the Guillotine Choke finish in BJJ. Attacking persp
 
 <section id="overview" class="content-section">
 
-The Guillotine Choke finish from bottom is a full-body compression technique that coordinates the choking arm, hip angle, guard positioning, and bridging mechanics to generate submission pressure against the opponent's trachea and carotid arteries. The attacker must understand that the finish is not an arm squeeze but a systemic application of leverage where the hips provide the primary force multiplier and the legs control the opponent's ability to create defensive space.
+The Guillotine Choke finish is a full-body compression technique that coordinates the choking arm, hip angle, guard positioning, and bridging mechanics to generate submission pressure against the opponent's trachea and carotid arteries. The attacker must understand that the finish is not an arm squeeze but a systemic application of leverage where the hips provide the primary force multiplier and the legs control the opponent's ability to create defensive space.
 
-From Guillotine Control Bottom, the finish requires precise coordination between upper body compression and lower body control. The choking arm must maintain constant inward pressure while the legs work to break the opponent's posture and prevent escape. The critical distinction between a controlled guillotine position and a finishing guillotine lies in the activation of the hips and the elevation of the choking elbow. Without proper hip engagement, even a deep grip will stall against a determined defender. The finish demands that you treat the choke as a full-body movement rather than an arm-only squeeze.
+From Guillotine Control, the finish requires precise coordination between upper body compression and lower body control. The choking arm must maintain constant inward pressure while the legs work to break the opponent's posture and prevent escape. The critical distinction between a controlled guillotine position and a finishing guillotine lies in the activation of the hips and the elevation of the choking elbow. Without proper hip engagement, even a deep grip will stall against a determined defender. The finish demands that you treat the choke as a full-body movement rather than an arm-only squeeze.
 
 Strategically, the Guillotine Choke creates a powerful dilemma for defenders: protecting the neck requires postural adjustments that often open sweep opportunities, while defending the sweep exposes the neck to tighter finishing pressure. This binary trap makes the guillotine particularly effective when integrated into a systematic guard attack framework that chains submissions with positional improvements.
 
-**From Position**: [[Positions/Guillotine Control]] (Top)
+**From Position**: [[Positions/Guillotine Control]] (Bottom)
 
 </section>
 
@@ -242,9 +242,10 @@ Strategically, the Guillotine Choke creates a powerful dilemma for defenders: pr
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Transitions/Guillotine Choke]] | 55% |
-| Failure | [[Positions/Guillotine Control]] | 30% |
-| Counter | [[Positions/Side Control]] | 15% |
+| Success | [[game-over]] | 55% |
+| Failure | [[Positions/Guillotine Control]] | 18% |
+| Failure | [[Positions/Closed Guard]] | 15% |
+| Counter | [[Positions/Side Control]] | 12% |
 
 
 </section>
@@ -335,6 +336,22 @@ Positional sparring starting from guillotine control. Win by submission or sweep
 <p class="section-subtitle">What are the safety concerns for Guillotine Choke?</p>
 
 The Guillotine Choke is a blood choke targeting the carotid arteries and a compression choke affecting the trachea—both mechanisms can cause rapid unconsciousness (within 5-10 seconds of proper application) and potential injury if held after the tap. Always release immediately when your partner taps, regardless of how close you feel to finishing. During training, apply progressive pressure rather than explosive cranking. Partners should tap early when caught in deep positions rather than fighting to the point of unconsciousness. Watch for signs of distress including color change in face, cessation of defensive movement, or unusual sounds. When drilling, establish clear communication protocols. The guillotine can cause tracheal damage if excessive forward pressure is applied with poor technique—focus on proper angle and compression mechanics rather than crushing force. Never apply the guillotine in anger or continue after a tap as cervical spine injuries and unconsciousness are real risks.
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Danaher-Front-Headlock-System" data-cta="related-system-card" data-system-slug="systems/danaher-front-headlock-system" data-system-name="Danaher Front Headlock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Danaher Front Headlock System</span><span class="system-card__unlocks-badge">Unlocks 30 techniques</span><span class="system-card__blurb">Primary finishing technique in guillotine pathway</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Control System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Submission-Clinic-System" data-cta="related-system-card" data-system-slug="systems/submission-clinic-system" data-system-name="Submission Clinic System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Submission Clinic System</span><span class="system-card__unlocks-badge">Unlocks 30 techniques</span><span class="system-card__blurb">Guard and front headlock submission</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/MMA-Crossover-Strategy" data-cta="related-system-card" data-system-slug="systems/mma-crossover-strategy" data-system-name="MMA Crossover Strategy" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">MMA Crossover Strategy</span><span class="system-card__unlocks-badge">Unlocks 27 techniques</span><span class="system-card__blurb">Primary submission from sprawl and front headlock in MMA</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Marcelo-Garcia-Guillotine-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-guillotine-system" data-system-name="Marcelo Garcia Guillotine System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Marcelo Garcia Guillotine System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Primary submission finish of the system</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/No-Gi-Tactical-Framework" data-cta="related-system-card" data-system-slug="systems/no-gi-tactical-framework" data-system-name="No-Gi Tactical Framework" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">No-Gi Tactical Framework</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Versatile no-gi submission from standing and ground</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/No-Gi-Competition-Approach" data-cta="related-system-card" data-system-slug="systems/no-gi-competition-approach" data-system-name="No-Gi Competition Approach" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">No-Gi Competition Approach</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">High-percentage no-gi submission from multiple positions</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Self-Defense-Application-Framework" data-cta="related-system-card" data-system-slug="systems/self-defense-application-framework" data-system-name="Self-Defense Application Framework" data-member-count="18"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Self-Defense Application Framework</span><span class="system-card__unlocks-badge">Unlocks 18 techniques</span><span class="system-card__blurb">High-percentage submission from standing and clinch positions</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

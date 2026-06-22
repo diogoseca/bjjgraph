@@ -172,7 +172,7 @@ description: "How to execute Side Control to Mount in BJJ. Attacking perspective
 
 <section id="overview" class="content-section">
 
-The transition to mount from side control represents one of the most fundamental and high-percentage positional advancements in Brazilian Jiu-Jitsu. This transition is the natural progression when an opponent's defensive frames are compromised or when they turn into you attempting to recover guard. The movement capitalizes on controlling the near side of the opponent's body while stepping over to establish the dominant mount position. Understanding this transition is critical for developing a systematic top game, as mount offers superior control and submission opportunities compared to side control. The technique relies on precise weight distribution, maintaining connection throughout the movement, and timing the transition when defensive frames collapse or opponent movement creates openings. This is a bread-and-butter technique that every practitioner from white belt to black belt uses regularly in training and competition. The transition can be executed with various grips and entry methods, but the fundamental mechanics remain consistent: control the near side, step the leg over, and establish mount with proper weight distribution.
+As the top player, your objective is to convert a stable side control pin into mount by isolating the near-side arm, collapsing the opponent's frames, and stepping your near leg over their body in a wide, high arc while never letting your chest pressure leak. The transition lives or dies on timing: you advance when frames collapse, when the opponent turns into you to recover guard, or in the exhausted moment immediately after they finish a bridge. Maintaining a crossface and constant shoulder weight throughout the step-over is what prevents the two primary failure modes - the opponent turning away to turtle, or catching your trailing leg in half guard - so treat the movement as dragging your chest across their sternum rather than lifting and reaching with the leg. Done correctly, this is one of the highest-percentage advances in jiu-jitsu and the gateway to the mount submission system.
 
 **From Position**: [[Positions/Side Control]] (Top)
 
@@ -334,6 +334,16 @@ Apply the transition in regular sparring against various body types and skill le
 <p class="section-subtitle">What are the safety concerns for Side Control to Mount?</p>
 
 The transition to mount is generally one of the safest fundamental transitions in BJJ with minimal injury risk when executed properly. The primary safety concern is maintaining control throughout the movement to avoid accidentally posting weight on opponent's face or neck with your knee during the step-over. Keep your stepping leg trajectory wide and high to clear over their head and chest area. Partners should communicate if they feel excessive pressure on ribs or sternum during the consolidation phase, especially with significant weight differences. When drilling, the bottom partner should not bridge at full explosive force during early learning stages as this can cause the top partner to lose balance and fall awkwardly. As resistance increases, both partners should maintain awareness of mat space to avoid transitioning near walls or other practitioners. For competitors with knee injuries, the torque on the stepping knee during the wide arc motion may require modification or temporary avoidance. Overall, this is considered a fundamental low-risk transition appropriate for all skill levels including beginners when taught with proper progression.
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Bernardo-Faria-Pressure-System" data-cta="related-system-card" data-system-slug="systems/bernardo-faria-pressure-system" data-system-name="Bernardo Faria Pressure System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Bernardo Faria Pressure System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Position advancement sequence after successful passing</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

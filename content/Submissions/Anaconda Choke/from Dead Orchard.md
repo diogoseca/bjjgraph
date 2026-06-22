@@ -10,10 +10,55 @@ description: "Master the Anaconda Choke from Dead Orchard in BJJ. Complete guide
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Anaconda Choke from Dead Orchard targets the Neck. Risk: Carotid artery compression causing unconsciousness. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Anaconda Choke from Dead Orchard",
+  "description": "Master the Anaconda Choke from Dead Orchard in BJJ. Complete guide to finishing mechanics, grip adjustments, and pressure application for this blood choke.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Anaconda Choke from Dead Orchard", "item": "https://bjjgraph.org/Submissions/Anaconda-Choke-from-Dead-Orchard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Anaconda Choke from Dead Orchard",
+  "description": "The Anaconda Choke from Dead Orchard is a 10th Planet arm-in blood choke finished from front-headlock control, compressing both carotid arteries with the opponent's own trapped arm to exploit the defensive fatigue built during extended Dead Orchard pressure.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Anaconda Choke from Dead Orchard is a 10th Planet arm-in blood choke finished from front-headlock control, compressing both carotid arteries with the opponent's own trapped arm to exploit the defensive fatigue built during extended Dead Orchard pressure.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Neck</span>
+<span class="meta-chip">50% success</span>
+</div>
+
+> [!danger] Safety
+> Anaconda Choke from Dead Orchard targets the Neck. Primary risk: Carotid artery compression causing unconsciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,53 +75,7 @@ The mechanics target bilateral compression of the carotid arteries through an ar
 
 Strategically, this finish thrives on the dilemma it creates within the broader Dead Orchard system. Opponents who defend aggressively during the control phase burn energy that compromises their ability to resist the finish. Those who conserve energy accept sustained positional damage that progressively weakens their defensive structure. This lose-lose dynamic makes the Anaconda Choke from Dead Orchard one of the highest-percentage finishes available from front headlock-based control systems.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Neck
-**Starting Position**: [[Positions/Dead Orchard Control]]
-**From Position**: [[Positions/Dead Orchard Control]] (Top)
-**Success Rate**: 50%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Carotid artery compression causing unconsciousness | CRITICAL | Seconds to minutes if released promptly; permanent neurological damage possible if held beyond consciousness loss |
-| Cervical spine strain from sustained rotational pressure on neck | Medium | 1-3 weeks with rest and physical therapy |
-| Tracheal compression or bruising from misaligned choke placement | High | 1-4 weeks; seek medical attention for any breathing difficulty or persistent soreness |
-
-
-**Application Speed**: SLOW and progressive. Apply pressure gradually over 5-10 seconds. Never jerk, spike, or explosively tighten the choke. Blood chokes can render opponents unconscious in 4-6 seconds once fully locked. Always allow adequate time to tap.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner, own body, or mat
-- Physical foot tap on mat or partner with either leg
-- Any unusual vocalization, gurgling, or distress sound
-- Going limp or losing consciousness (treat as immediate tap)
-
-
-**Release Protocol**:
-1. Release ALL pressure immediately upon any tap signal
-2. If opponent goes limp or appears unconscious, release immediately and place in recovery position
-3. If in doubt whether a tap occurred, release and check—position can always be re-established
-4. After release, monitor partner for delayed distress including disorientation, nausea, or vision changes
-5. Never re-apply choke pressure immediately after release without confirming partner is fully recovered
-
-
-**Training Restrictions**:
-- Begin drilling at 50% pressure until both partners understand mechanics and tap timing
-- No full-pressure anaconda finishing attempts for white belts—focus on positional control only
-- Partners must verbally confirm readiness before live finishing attempts during sparring
-- Stop immediately if partner shows signs of panic, disorientation, or loss of motor control
-- Avoid training choke finishes when fatigued or with new or unfamiliar training partners
-
+**Starting Position**: [[Positions/Dead Orchard Control]] · **From**: [[Positions/Dead Orchard Control]] (Top)
 
 </section>
 
@@ -242,43 +241,65 @@ Strategically, this finish thrives on the dilemma it creates within the broader 
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Transitions/Anaconda Choke]]
 - [[Submissions/Brabo Choke]]
 - [[Transitions/Arm Triangle]]
 - [[Submissions/Arm in Guillotine]]
 - [[Submissions/Chin Strap Guillotine]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Dead Orchard Control]] - Source position—the established control state from which this finish is executed
 - [[Positions/Anaconda Control]] - Parent control position—standard anaconda configuration that precedes Dead Orchard establishment
 - [[Positions/Front Headlock]] - Entry position—common setup state where the anaconda grip is initially established
 - [[Positions/Turtle]] - Common entry state—opponent turtle position frequently creates anaconda finishing opportunities
-- [[Transitions/Anaconda Choke]] - Primary submission variant—standard anaconda finish without the extended Dead Orchard control phase
 - [[Positions/Darce Control]] - Sister position—alternative arm-in choke control with different arm threading mechanics
 - [[Positions/Back Control]] - Alternative advancement—transition target when the anaconda finish is successfully defended
 - [[Positions/North-South]] - Positional alternative—transition option when opponent neutralizes choke mechanics through strong defensive grips
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Carotid artery compression causing unconsciousness | CRITICAL | Seconds to minutes if released promptly; permanent neurological damage possible if held beyond consciousness loss |
+| Cervical spine strain from sustained rotational pressure on neck | Medium | 1-3 weeks with rest and physical therapy |
+| Tracheal compression or bruising from misaligned choke placement | High | 1-4 weeks; seek medical attention for any breathing difficulty or persistent soreness |
+
+
+**Application Speed**: SLOW and progressive. Apply pressure gradually over 5-10 seconds. Never jerk, spike, or explosively tighten the choke. Blood chokes can render opponents unconscious in 4-6 seconds once fully locked. Always allow adequate time to tap.
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any distress signal)
+- Physical hand tap on partner, own body, or mat
+- Physical foot tap on mat or partner with either leg
+- Any unusual vocalization, gurgling, or distress sound
+- Going limp or losing consciousness (treat as immediate tap)
+
+
+**Release Protocol**:
+1. Release ALL pressure immediately upon any tap signal
+2. If opponent goes limp or appears unconscious, release immediately and place in recovery position
+3. If in doubt whether a tap occurred, release and check—position can always be re-established
+4. After release, monitor partner for delayed distress including disorientation, nausea, or vision changes
+5. Never re-apply choke pressure immediately after release without confirming partner is fully recovered
+
+
+**Training Restrictions**:
+- Begin drilling at 50% pressure until both partners understand mechanics and tap timing
+- No full-pressure anaconda finishing attempts for white belts—focus on positional control only
+- Partners must verbally confirm readiness before live finishing attempts during sparring
+- Stop immediately if partner shows signs of panic, disorientation, or loss of motor control
+- Avoid training choke finishes when fatigued or with new or unfamiliar training partners
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Anaconda Choke from Dead Orchard leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

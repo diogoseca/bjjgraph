@@ -10,6 +10,41 @@ description: "Master the Sweep from Matrix in BJJ. Complete guide to rotational 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Sweep from Matrix",
+  "description": "Master the Sweep from Matrix in BJJ. Complete guide to rotational sweep mechanics, timing windows, and back take completion from the bottom Matrix position.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Sweep from Matrix", "item": "https://bjjgraph.org/Transitions/Sweep-from-Matrix" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Sweep from Matrix",
+  "description": "The Sweep from Matrix is a leverage-based reversal from the bottom Matrix position in which the practitioner elevates their hips and pulls on grips to off-balance the top player and arrive at back control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Sweep from Matrix in BJJ. Complete guide to rotational 
 
 <section id="overview" class="content-section">
 
-The Sweep from Matrix is a dynamic reversal technique that exploits the rotational mechanics inherent in the Matrix bottom position to displace the top player's base and achieve back control. Unlike the standard Matrix back take which relies on continuous rolling motion to circle behind the opponent, the sweep variant uses leveraged off-balancing combined with hip elevation to break the opponent's base structure and follow through to a dominant position. The sweep requires the bottom player to generate directional force through their grip connections while elevating their hips as a fulcrum, creating a rotational displacement that crosses the opponent's center of gravity beyond their support boundary.
+**The Sweep from Matrix is a leverage-based reversal from the bottom Matrix position in which the practitioner elevates their hips and pulls on grips to off-balance the top player and arrive at back control.**
+
+Unlike the standard Matrix back take, which relies on continuous rolling motion to circle behind the opponent, the sweep variant uses leveraged off-balancing combined with hip elevation to break the opponent's base structure and follow through to a dominant position. The sweep requires the bottom player to generate directional force through their grip connections while elevating their hips as a fulcrum, creating a rotational displacement that crosses the opponent's center of gravity beyond their support boundary.
 
 The technique is most effective when the top player maintains a narrow or static base while controlling the Matrix position. The bottom player generates sweeping force through explosive hip elevation combined with directional grip pulling, creating a rotational displacement that overwhelms the opponent's structural resistance. The sweep demands precise timing—initiating during moments of opponent stillness or weight transition—and full commitment to the rotational motion without hesitation. Partial attempts leave the sweeper in compromised inverted positions with back exposed.
 
@@ -224,5 +261,7 @@ The Sweep from Matrix integrates into the broader back-take and bottom game syst
 
 
 </section>
+
+
 
 </main>

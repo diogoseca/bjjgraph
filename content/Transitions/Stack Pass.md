@@ -10,6 +10,41 @@ description: "Master the Stack Pass in BJJ. High-pressure guard passing techniqu
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Stack Pass",
+  "description": "Master the Stack Pass in BJJ. High-pressure guard passing technique that drives opponent\u0027s hips over their shoulders to eliminate guard retention and secure side control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Stack Pass", "item": "https://bjjgraph.org/Transitions/Stack-Pass" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Stack Pass",
+  "description": "The Stack Pass is a top-pressure guard pass that drives the opponent's knees over their shoulders to invert their spine, neutralizing hip mobility and clearing the legs into side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Stack Pass in BJJ. High-pressure guard passing techniqu
 </div>
 
 <section id="overview" class="content-section">
+
+**The Stack Pass is a top-pressure guard pass that drives the opponent's knees over their shoulders to invert their spine, neutralizing hip mobility and clearing the legs into side control.**
 
 The Stack Pass is a fundamental pressure passing technique that uses vertical pressure and weight distribution to break through the closed guard. By driving the opponent's knees toward their chest and stacking their hips over their shoulders, you create a mechanical disadvantage that makes guard retention extremely difficult. The stacking action inverts the bottom player's spine, shifting their weight onto their upper back and shoulders, which severely compromises their ability to generate hip movement for shrimping, framing, or recomposing guard.
 
@@ -211,7 +248,7 @@ The stack pass occupies a central position within pressure passing systems and i
 
 - [[Transitions/Knee Slice Pass]] - Common follow-up when opponent defends the stack by turning their knees to one side
 
-- [[Transitions/Bullfighter Pass]] - Alternative speed-based pass when opponent keeps knees wide to prevent stacking
+- [[Transitions/Toreando Pass]] - Alternative speed-based pass when opponent keeps knees wide to prevent stacking
 
 - [[Transitions/Pressure Pass]] - Related pressure-based passing approach often used in combination with stack mechanics
 
@@ -231,6 +268,16 @@ The stack pass occupies a central position within pressure passing systems and i
 
 - [[Transitions/Guard Opening Sequence]] - Prerequisite technique for breaking the closed guard before initiating the stack
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/IBJJF-Strategy-Guide" data-cta="related-system-card" data-system-slug="systems/ibjjf-strategy-guide" data-system-name="IBJJF Strategy Guide" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">IBJJF Strategy Guide</span><span class="system-card__unlocks-badge">Unlocks 27 techniques</span><span class="system-card__blurb">Pressure-based pass offering clear scoring criteria when stabilized</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

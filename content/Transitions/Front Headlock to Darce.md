@@ -10,6 +10,41 @@ description: "Learn Front Headlock to Darce transition in BJJ. Step-by-step exec
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Front Headlock to Darce",
+  "description": "Learn Front Headlock to Darce transition in BJJ. Step-by-step execution from Front Headlock to Darce Control with chain attacks and defense.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Front Headlock to Darce", "item": "https://bjjgraph.org/Transitions/Front-Headlock-to-Darce" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Front Headlock to Darce",
+  "description": "Front Headlock to Darce is a no-gi submission setup from front headlock top where you insert a deep underhook under the opponent's near arm and lock a figure-four around their head and trapped arm to establish Darce Control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Learn Front Headlock to Darce transition in BJJ. Step-by-step exec
 </div>
 
 <section id="overview" class="content-section">
+
+**Front Headlock to Darce is a no-gi submission setup from front headlock top where you insert a deep underhook under the opponent's near arm and lock a figure-four around their head and trapped arm to establish Darce Control.**
 
 The Front Headlock to Darce transition represents one of the most powerful finishing sequences from the front headlock position. This technique capitalizes on the opponent's defensive posture in turtle or scramble situations, where they attempt to protect their neck while maintaining a low base. The transition exploits the natural tendency of opponents to circle away from the choking arm, creating the perfect angle for the Darce configuration.
 
@@ -227,5 +264,7 @@ The Front Headlock to Darce transition is a cornerstone technique within the sys
 
 
 </section>
+
+
 
 </main>

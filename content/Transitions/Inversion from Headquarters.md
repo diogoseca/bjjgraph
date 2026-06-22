@@ -10,6 +10,41 @@ description: "Master the Inversion from Headquarters in BJJ. Complete guide to i
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Inversion from Headquarters",
+  "description": "Master the Inversion from Headquarters in BJJ. Complete guide to inverting under passing pressure to recover De La Riva Guard with technical detail.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Inversion from Headquarters", "item": "https://bjjgraph.org/Transitions/Inversion-from-Headquarters" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Inversion from Headquarters",
+  "description": "Inversion from Headquarters is a bottom-player guard recovery in which the trapped grappler executes a granby-style shoulder roll underneath the passer's base, threading a leg through to establish De La Riva Guard from the dominant headquarters control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Inversion from Headquarters in BJJ. Complete guide to i
 
 <section id="overview" class="content-section">
 
-The Inversion from Headquarters is a guard recovery technique executed by the bottom player when caught in the passer's headquarters position. Rather than fighting the trapped leg directly through frames and hip escapes, the bottom player uses a granby-style shoulder roll to rotate underneath the passer, threading legs through to establish De La Riva Guard. This technique exploits the geometric reality that the headquarters passer must maintain forward-facing pressure, making them vulnerable to angular attacks that travel underneath their base.
+**Inversion from Headquarters is a bottom-player guard recovery in which the trapped grappler executes a granby-style shoulder roll underneath the passer's base, threading a leg through to establish De La Riva Guard from the dominant headquarters control.**
+
+When a methodical passer settles into headquarters and pins one leg, the bottom player faces a choice between grinding resistance and angular escape, and the inversion is the angular answer. Rather than fighting the trapped leg directly through frames and hip escapes, the bottom player uses a granby-style shoulder roll to rotate underneath the passer, threading legs through to establish De La Riva Guard. This technique exploits the geometric reality that the headquarters passer must maintain forward-facing pressure, making them vulnerable to angular attacks that travel underneath their base.
 
 This movement represents a critical skill for modern guard players facing systematic passing pressure. Headquarters has become the central hub of methodical guard passing systems, and direct resistance against a well-positioned headquarters passer is often futile. The inversion offers an asymmetric response: rather than matching the passer's pressure with frames and hip escapes, the guard player redirects the engagement entirely by changing the plane of movement. This makes the inversion particularly effective against heavier or stronger passers who rely on grinding, forward-driving pressure from headquarters.
 
@@ -220,5 +257,7 @@ The Inversion from Headquarters serves as a critical bridge between defensive gu
 
 
 </section>
+
+
 
 </main>

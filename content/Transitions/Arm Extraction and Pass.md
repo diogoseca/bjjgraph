@@ -10,6 +10,41 @@ description: "Learn Arm Extraction and Pass from Crackhead Control in BJJ. Syste
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Arm Extraction and Pass",
+  "description": "Learn Arm Extraction and Pass from Crackhead Control in BJJ. Systematic technique to clear trapped arm and transition to Side Control. Success rates: 30-65%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Arm Extraction and Pass", "item": "https://bjjgraph.org/Transitions/Arm-Extraction-and-Pass" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Arm Extraction and Pass",
+  "description": "Arm Extraction and Pass is a top-turtle transition from Crackhead Control where you pin the opponent's near shoulder, clear their trapped arm, and sprawl perpendicular to consolidate dominant Side Control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Learn Arm Extraction and Pass from Crackhead Control in BJJ. Syste
 </div>
 
 <section id="overview" class="content-section">
+
+**Arm Extraction and Pass is a top-turtle transition from Crackhead Control where you pin the opponent's near shoulder, clear their trapped arm, and sprawl perpendicular to consolidate dominant Side Control.**
 
 The Arm Extraction and Pass is a systematic transition from Crackhead Control that addresses one of the most common obstacles when attacking from turtle top: the opponent's arm blocking your path to side control. When controlling an opponent in turtle from the chair-sit position, their near arm often becomes wedged between your body and theirs, preventing you from flattening them out or advancing to traditional side control. This technique provides a methodical approach to clearing that arm while maintaining dominant position throughout the transition.
 
@@ -214,5 +251,7 @@ Arm Extraction and Pass serves as a critical bridge between the 10th Planet turt
 
 
 </section>
+
+
 
 </main>

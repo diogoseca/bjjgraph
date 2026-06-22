@@ -10,6 +10,41 @@ description: "Master Overhook Guard in BJJ. Strategic guide covering control mec
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Overhook Guard",
+  "description": "Master Overhook Guard in BJJ. Strategic guide covering control mechanics, sweeps, and back takes with complete bottom/top perspective analysis.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Overhook Guard", "item": "https://bjjgraph.org/Positions/Overhook-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Overhook Guard",
+  "description": "Overhook Guard traps one of the opponent's arms with a deep overhook (whizzer) from a guard structure, using that asymmetric control to break posture and open direct routes to sweeps, back takes, and submissions.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Overhook Guard in BJJ. Strategic guide covering control mec
 </div>
 
 <section id="overview" class="content-section">
+
+**Overhook Guard traps one of the opponent's arms with a deep overhook (whizzer) from a guard structure, using that asymmetric control to break posture and open direct routes to sweeps, back takes, and submissions.**
 
 Overhook Guard is a specialized guard position where the bottom practitioner controls one of the opponent's arms with an overhook (overhand grip over the shoulder) while maintaining guard structure. This position creates powerful off-balancing opportunities and direct pathways to sweeps and back takes by compromising the opponent's base and posture. The overhook functions as both a defensive frame to prevent passes and an offensive tool to break down the top player's structure.
 
@@ -100,23 +137,25 @@ Overhook Guard represents a fundamental control concept that appears throughout 
 ### Available Transitions
 
 
-- **[[Transitions/Overhook Sweep/Attacker|Overhook Sweep]]** (13% of attempts)
+- **[[Transitions/Overhook Sweep/Attacker|Overhook Sweep]]** (12% of attempts)
 
-- **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (21% of attempts)
+- **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (20% of attempts)
 
-- **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (11% of attempts)
+- **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (10% of attempts)
 
 - **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (10% of attempts)
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (13% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (12% of attempts)
 
-- **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** (11% of attempts)
+- **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** (10% of attempts)
 
-- **[[Transitions/Flower Sweep/Attacker|Flower Sweep]]** (13% of attempts)
+- **[[Transitions/Flower Sweep/Attacker|Flower Sweep]]** (12% of attempts)
 
 - **[[Transitions/Overhook Guard Sweep/Attacker|Overhook Guard Sweep]]** (5% of attempts)
 
 - **[[Transitions/Overhook to Closed Guard/Attacker|Overhook to Closed Guard]]** (3% of attempts)
+
+- **[[Omoplata from Guard/Attacker|Omoplata from Guard]]** (6% of attempts)
 
 
 ### Common Mistakes
@@ -256,5 +295,7 @@ Overhook Guard represents a fundamental control concept that appears throughout 
 
 
 </section>
+
+
 
 </main>

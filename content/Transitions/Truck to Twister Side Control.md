@@ -10,6 +10,41 @@ description: "Master the Truck to Twister Side Control transition in BJJ. Step-b
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Truck to Twister Side Control",
+  "description": "Master the Truck to Twister Side Control transition in BJJ. Step-by-step guide covering leg repositioning, shoulder pressure, and lateral control mechanics.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Truck to Twister Side Control", "item": "https://bjjgraph.org/Transitions/Truck-to-Twister-Side-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Truck to Twister Side Control",
+  "description": "Truck to Twister Side Control is a 10th Planet positional advance where the top player rotates to the opponent's side while preserving the leg entanglement, converting truck control into a lateral pin that opens twister and choke finishes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Truck to Twister Side Control transition in BJJ. Step-b
 </div>
 
 <section id="overview" class="content-section">
+
+**Truck to Twister Side Control is a 10th Planet positional advance where the top player rotates to the opponent's side while preserving the leg entanglement, converting truck control into a lateral pin that opens twister and choke finishes.**
 
 The Transition to Twister Side Control converts the perpendicular back-attack orientation of the Truck into a lateral chest-to-chest control position that emphasizes spinal torque and shoulder pressure. Where the Truck threatens primarily through boot pressure and vertical leg entanglement, Twister Side Control redirects that control into a lateral plane, opening submission chains including the twister finish, darce choke, and kimura that are unavailable from standard truck positioning.
 
@@ -224,5 +261,7 @@ This transition connects the Truck system to the Twister Side Control system, se
 
 
 </section>
+
+
 
 </main>

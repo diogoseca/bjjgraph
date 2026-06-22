@@ -10,6 +10,41 @@ description: "Master Reverse Scarf Hold (Ushiro Kesa Gatame) in BJJ. Complete gu
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Reverse Scarf Hold",
+  "description": "Master Reverse Scarf Hold (Ushiro Kesa Gatame) in BJJ. Complete guide covering defensive survival, offensive control, and transitions from both perspectives.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Reverse Scarf Hold", "item": "https://bjjgraph.org/Positions/Reverse-Scarf-Hold" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Reverse Scarf Hold",
+  "description": "Reverse Scarf Hold (Ushiro Kesa Gatame) is a judo-derived side pin where the top player sits chest-down facing the opponent's legs, trading head-side vision for crushing sternum pressure and arm-isolation attacks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Reverse Scarf Hold (Ushiro Kesa Gatame) in BJJ. Complete gu
 </div>
 
 <section id="overview" class="content-section">
+
+**Reverse Scarf Hold (Ushiro Kesa Gatame) is a judo-derived side pin where the top player sits chest-down facing the opponent's legs, trading head-side vision for crushing sternum pressure and arm-isolation attacks.**
 
 Reverse Scarf Hold (Ushiro Kesa Gatame) represents a unique judo-derived pinning position where the top player faces away from the opponent's head, creating an unconventional control scenario with distinct mechanical properties. Unlike traditional scarf hold positions, the reverse orientation fundamentally alters both the control mechanics and defensive responses, requiring practitioners to abandon standard escape patterns and develop position-specific skills.
 
@@ -177,9 +214,9 @@ Both perspectives require specialized drilling and positional understanding, as 
 ### Available Transitions
 
 
-- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (22% of attempts)
+- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (28% of attempts)
 
-- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (13% of attempts)
+- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (18% of attempts)
 
 - **[[Americana from Reverse Scarf Hold/Attacker|Americana from Reverse Scarf Hold]]** (11% of attempts)
 
@@ -187,13 +224,11 @@ Both perspectives require specialized drilling and positional understanding, as 
 
 - **[[Transitions/Back Step/Attacker|Back Step]]** (10% of attempts)
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (15% of attempts)
-
 - **[[Arm Triangle from Reverse Scarf Hold/Attacker|Arm Triangle from Reverse Scarf Hold]]** (9% of attempts)
 
 - **[[Transitions/Reverse Scarf to North-South/Attacker|Reverse Scarf to North-South]]** (4% of attempts)
 
-- **[[Transitions/Reverse Scarf to Side Control/Attacker|Reverse Scarf to Side Control]]** (2% of attempts)
+- **[[Transitions/Reverse Scarf to Side Control/Attacker|Reverse Scarf to Side Control]]** (6% of attempts)
 
 - **[[North-South Choke from Reverse Scarf/Attacker|North-South Choke from Reverse Scarf]]** (2% of attempts)
 
@@ -258,5 +293,7 @@ Both perspectives require specialized drilling and positional understanding, as 
 
 
 </section>
+
+
 
 </main>

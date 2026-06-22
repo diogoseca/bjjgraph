@@ -10,6 +10,41 @@ description: "Master the Stack Pass Over Lapel Barrier in BJJ. Defeat lapel guar
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Stack Pass Over Lapel Barrier",
+  "description": "Master the Stack Pass Over Lapel Barrier in BJJ. Defeat lapel guard by driving forward pressure to fold opponent and pass despite fabric entanglement.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Stack Pass Over Lapel Barrier", "item": "https://bjjgraph.org/Transitions/Stack-Pass-Over-Lapel-Barrier" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Stack Pass Over Lapel Barrier",
+  "description": "Stack Pass Over Lapel Barrier is a high-pressure gi guard pass that defeats lapel guard by driving the opponent's knees toward their face, compressing their spine to nullify the fabric entanglement and complete the pass to side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Stack Pass Over Lapel Barrier in BJJ. Defeat lapel guar
 
 <section id="overview" class="content-section">
 
-The Stack Pass Over Lapel Barrier is a high-pressure passing technique designed to neutralize lapel guard configurations by driving the opponent's knees toward their face, compressing their spine and eliminating the mechanical advantages created by the lapel wrap. Unlike techniques that attempt to clear the lapel configuration first, this pass embraces direct confrontation by using superior pressure and body positioning to pass despite the fabric entanglement.
+**Stack Pass Over Lapel Barrier is a high-pressure gi guard pass that defeats lapel guard by driving the opponent's knees toward their face, compressing their spine to nullify the fabric entanglement and complete the pass to side control.**
+
+Within the lapel guard passing hierarchy, the stack occupies the role of the brute-force solution—the option you reach for when grip-fighting the fabric would cost more energy than simply folding the opponent in half. Unlike techniques that attempt to clear the lapel configuration first, this pass embraces direct confrontation, using superior pressure and body positioning to advance despite the fabric entanglement wrapped around your leg.
 
 This technique becomes particularly effective when the opponent has established a worm guard or similar lapel configuration around your leg. Rather than spending energy fighting the grip, you accept the entanglement temporarily while using forward pressure to fold the opponent, making their lapel control irrelevant. The compressed position prevents them from using hip movement or angle changes that make lapel guard dangerous.
 
@@ -218,5 +255,7 @@ Stack Pass Over Lapel Barrier occupies a specific niche in the guard passing hie
 
 
 </section>
+
+
 
 </main>

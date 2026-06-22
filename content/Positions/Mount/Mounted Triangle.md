@@ -10,6 +10,41 @@ description: "Master mounted triangle position in BJJ. High-risk, high-reward po
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Mounted Triangle",
+  "description": "Master mounted triangle position in BJJ. High-risk, high-reward position combining mount control with triangle mechanics for devastating submissions.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Mounted Triangle", "item": "https://bjjgraph.org/Positions/Mounted-Triangle" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Mounted Triangle",
+  "description": "Mounted Triangle is a hybrid top position where the attacker threads one leg over the opponent's shoulder and under their neck while retaining mount, fusing positional control with an immediate triangle-choke and armbar threat.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master mounted triangle position in BJJ. High-risk, high-reward po
 </div>
 
 <section id="overview" class="content-section">
+
+**Mounted Triangle is a hybrid top position where the attacker threads one leg over the opponent's shoulder and under their neck while retaining mount, fusing positional control with an immediate triangle-choke and armbar threat.**
 
 Mounted Triangle represents one of Brazilian Jiu-Jitsu's most dynamic and high-reward positions, blending the dominant control characteristics of mount with the submission threat of triangle mechanics. This hybrid position emerges when the top practitioner transitions from standard mount or high mount into a triangle configuration while maintaining superior positioning.
 
@@ -104,17 +141,17 @@ Success in mounted triangle requires understanding the biomechanical principles 
 ### Available Transitions
 
 
-- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (11% of attempts)
+- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (18% of attempts)
 
-- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (35% of attempts)
+- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (12% of attempts)
 
 - **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (5% of attempts)
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (13% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (19% of attempts)
 
-- **[[Transitions/Upa Escape/Attacker|Upa Escape]]** (9% of attempts)
+- **[[Transitions/Upa Escape/Attacker|Upa Escape]]** (13% of attempts)
 
-- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (12% of attempts)
+- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (18% of attempts)
 
 - **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** (5% of attempts)
 
@@ -185,7 +222,7 @@ Success in mounted triangle requires understanding the biomechanical principles 
 ### Available Transitions
 
 
-- **[[Triangle Choke from Mounted Triangle/Attacker|Triangle Choke from Mounted Triangle]]** (22% of attempts)
+- **[[Triangle Choke from Mounted Triangle/Attacker|Triangle Choke from Mounted Triangle]]** (21% of attempts)
 
 - **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** (9% of attempts)
 
@@ -193,15 +230,15 @@ Success in mounted triangle requires understanding the biomechanical principles 
 
 - **[[Transitions/Back Take/Attacker|Back Take]]** (8% of attempts)
 
-- **[[Transitions/Consolidate Mount/Attacker|Consolidate Mount]]** (9% of attempts)
+- **[[Transitions/Consolidate Mount/Attacker|Consolidate Mount]]** (8% of attempts)
 
 - **[[Positions/Gift Wrap/Attacker|Gift Wrap]]** (6% of attempts)
 
 - **[[Transitions/Kimura to Back Take/Attacker|Kimura to Back Take]]** (6% of attempts)
 
-- **[[Transitions/S-Mount Transition/Attacker|S-Mount Transition]]** (9% of attempts)
+- **[[Transitions/S-Mount Transition/Attacker|S-Mount Transition]]** (8% of attempts)
 
-- **[[Transitions/Triangle to Armbar/Attacker|Triangle to Armbar]]** (9% of attempts)
+- **[[Transitions/Triangle to Armbar/Attacker|Triangle to Armbar]]** (8% of attempts)
 
 - **[[Transitions/Triangle to Back/Attacker|Triangle to Back]]** (7% of attempts)
 
@@ -210,6 +247,8 @@ Success in mounted triangle requires understanding the biomechanical principles 
 - **[[Transitions/Mounted Triangle to S Mount/Attacker|Mounted Triangle to S Mount]]** (2% of attempts)
 
 - **[[Submissions/Triangle Choke/Attacker|Triangle Choke]]** (2% of attempts)
+
+- **[[Belly Down Armbar from Mounted Triangle/Attacker|Belly Down Armbar from Mounted Triangle]]** (4% of attempts)
 
 
 ### Common Mistakes
@@ -268,6 +307,16 @@ Success in mounted triangle requires understanding the biomechanical principles 
 
 - **[[Positions/Mount/Technical Mount]]** - Transitional position during mounted triangle setup
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Ryan-Hall-Triangle-System" data-cta="related-system-card" data-system-slug="systems/ryan-hall-triangle-system" data-system-name="Ryan Hall Triangle System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Ryan Hall Triangle System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Advanced triangle variation from mount position</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

@@ -1,5 +1,6 @@
 {
   "name": "Strip Grip from Zombie",
+  "summary": "Strip Grip from Zombie is a top-position grip-breaking sequence that dismantles the 10th Planet Zombie by neutralizing the underhook, clearing frames, and breaking the lockdown in priority order to free the trapped leg for open guard passing.",
   "description": "Master the Strip Grip from Zombie in BJJ. Learn systematic grip breaking techniques to neutralize lockdown control and advance to open guard passing.",
   "tags": [
     "bjj",
@@ -85,8 +86,8 @@
       "relationship": "Alternative guard recovery the bottom player may transition to when Zombie structure fails"
     },
     {
-      "name": "Lockdown Whizzer Pass",
-      "relationship": "Related passing technique that uses whizzer mechanics to defeat lockdown control"
+      "name": "Knee Shield Half Guard",
+      "relationship": "New guard structure the bottom player may recover to during the post-extraction scramble window"
     }
   ],
   "attacker": {
@@ -258,6 +259,10 @@
       {
         "question": "What grip should you establish immediately after extracting your leg from the lockdown?",
         "answer": "Immediately control both of the opponent's knees by gripping their pants or pinching their knees together. This prevents them from inserting butterfly hooks, establishing knee shield, or creating any new guard structure. Push their knees to one side to begin your toreando or leg drag passing sequence. If you cannot control both knees, at minimum control the near knee and pin it to the mat while driving forward with chest pressure to prevent guard recovery. Speed in establishing this post-extraction control is the difference between a successful grip strip and a wasted effort."
+      },
+      {
+        "question": "Your opponent sprawls their hips back and drives forward to defend the lockdown extraction — what chain attack does their defensive posture open up?",
+        "answer": "When the bottom player commits to sprawling and driving forward to stop the leg extraction, they typically turn away from your pressure and expose their back and neck. Rather than continuing to fight the lockdown, follow them toward turtle and switch your objective from passing to back exposure: secure a seat belt grip and attack a back take or front headlock series. The energy they invest in defending the trapped leg leaves their upper body vulnerable, so a stalled grip strip converts directly into a higher-value back-control or front-headlock attack. Recognize the turn early and ride it rather than forcing the now-defended extraction."
       }
     ],
     "safety_considerations": "Avoid explosive yanking movements when breaking the lockdown as this can cause knee or ankle injuries to both players. Use steady progressive pressure for leg extraction. Be aware that the lockdown configuration places stress on the trapped leg's knee joint — if you feel sharp pain, communicate and reset rather than forcing through. During grip stripping, avoid cranking the opponent's wrist or fingers when clearing frames. Both training partners should agree on intensity levels before drilling this sequence."

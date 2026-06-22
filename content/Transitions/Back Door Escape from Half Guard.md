@@ -10,6 +10,41 @@ description: "Master the Back Door Escape from Half Guard in BJJ. Complete guide
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Back Door Escape from Half Guard",
+  "description": "Master the Back Door Escape from Half Guard in BJJ. Complete guide to escaping flattened half guard by turning out to turtle with step-by-step technique.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Back Door Escape from Half Guard", "item": "https://bjjgraph.org/Transitions/Back-Door-Escape-from-Half-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Back Door Escape from Half Guard",
+  "description": "The Back Door Escape from Half Guard is a bottom-player escape that abandons the underhook battle, turns away from a flattening top opponent, releases the leg entanglement, and exits to turtle to reset the positional exchange.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Back Door Escape from Half Guard in BJJ. Complete guide
 </div>
 
 <section id="overview" class="content-section">
+
+**The Back Door Escape from Half Guard is a bottom-player escape that abandons the underhook battle, turns away from a flattening top opponent, releases the leg entanglement, and exits to turtle to reset the positional exchange.**
 
 The Back Door Escape from Half Guard is a critical positional escape used when the bottom player's conventional offensive options have been neutralized by the top player's crushing crossface and pressure. Rather than continuing to fight for the underhook in a losing battle, the bottom player reverses direction entirely, turning away from the opponent, releasing the leg entanglement, and escaping to turtle position. This technique represents a fundamental paradigm shift in half guard strategy that recognizes when fighting toward the opponent has become counterproductive.
 
@@ -218,6 +255,16 @@ The Back Door Escape connects half guard bottom to the turtle position ecosystem
 
 - [[Positions/Half Guard/Lockdown]] - Alternative half guard variation that can set up back door escape timing through posture disruption
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/10th-Planet-Half-Guard-Bottom-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-half-guard-bottom-system" data-system-name="10th Planet Half Guard Bottom System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">10th Planet Half Guard Bottom System</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Deep Half Guard escape and reversal pathway integrated when Lockdown is countered</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

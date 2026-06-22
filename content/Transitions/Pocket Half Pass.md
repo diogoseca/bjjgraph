@@ -10,6 +10,41 @@ description: "Master the Pocket Half Pass in BJJ. Complete guide to passing from
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Pocket Half Pass",
+  "description": "Master the Pocket Half Pass in BJJ. Complete guide to passing from pocket half guard using underhook pressure, leg extraction, and systematic side control advancement.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Pocket Half Pass", "item": "https://bjjgraph.org/Transitions/Pocket-Half-Pass" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Pocket Half Pass",
+  "description": "The Pocket Half Pass is the leg-extraction finish that converts a flattened, deep-underhook pocket half guard top position into side control by isolating and clearing the trapped leg while preserving underhook and crossface pressure throughout.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,9 +57,11 @@ description: "Master the Pocket Half Pass in BJJ. Complete guide to passing from
 
 <section id="overview" class="content-section">
 
-The Pocket Half Pass is the systematic completion of a guard pass from the pocket half guard top position, where the passer has already secured a deep underhook and established flattening pressure against the bottom player. This technique represents the critical final phase of pressure passing through half guard, converting positional dominance into a complete guard pass to side control. The defining characteristic is the coordinated use of underhook pulling pressure, crossface control, and methodical trapped leg extraction that prevents the bottom player from recovering guard or executing sweeps during the transition.
+**The Pocket Half Pass is the leg-extraction finish that converts a flattened, deep-underhook pocket half guard top position into side control by isolating and clearing the trapped leg while preserving underhook and crossface pressure throughout.**
 
-Strategically, the Pocket Half Pass occupies a pivotal position in pressure-passing systems because it addresses the most common stalling point in half guard passing: the final leg extraction. Many practitioners can achieve underhook control and flattening from half guard top, but fail to complete the pass because they rush the leg extraction without maintaining sufficient upper body control. The Pocket Half Pass solves this by establishing a systematic progression where each phase builds on the previous one - flattening the opponent completely, isolating the trapped leg, extracting it through controlled knee movement, and consolidating into side control without leaving space for recovery. Competition data shows that practitioners who master this systematic approach achieve significantly higher pass completion rates than those who rely on explosive or scramble-based passing from this position.
+Within pressure-passing systems, the Pocket Half Pass occupies the decisive final phase where positional dominance is converted into a completed pass. The passer arrives at this moment having already secured a deep underhook and established flattening pressure against the bottom player from pocket half guard top, and the technique now hinges on extracting the trapped leg without surrendering any of that hard-won control. The defining characteristic is the coordinated use of underhook pulling pressure, crossface control, and methodical trapped leg extraction that prevents the bottom player from recovering guard or executing sweeps during the transition.
+
+Strategically, the Pocket Half Pass addresses the most common stalling point in half guard passing: the final leg extraction. Many practitioners can achieve underhook control and flattening from half guard top, but fail to complete the pass because they rush the leg extraction without maintaining sufficient upper body control. The Pocket Half Pass solves this by establishing a systematic progression where each phase builds on the previous one - flattening the opponent completely, isolating the trapped leg, extracting it through controlled knee movement, and consolidating into side control without leaving space for recovery. Competition data shows that practitioners who master this systematic approach achieve significantly higher pass completion rates than those who rely on explosive or scramble-based passing from this position.
 
 The technique draws from fundamental pressure-passing principles while requiring specific adaptations for the pocket half guard configuration. The deep underhook provides superior upper body control compared to standard half guard top, but the bottom player's tight leg entanglement creates additional extraction challenges. Success depends on patient progression through each phase, recognizing that the underhook advantage means the bottom player's only viable defense is preventing leg extraction - which the passer can overcome through systematic weight distribution and controlled hip movement rather than explosive force.
 
@@ -222,5 +259,7 @@ The Pocket Half Pass integrates into the broader half guard passing hierarchy as
 
 
 </section>
+
+
 
 </main>

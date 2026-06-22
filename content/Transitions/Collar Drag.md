@@ -10,6 +10,41 @@ description: "Master the Collar Drag in BJJ. Essential standing technique for cr
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Collar Drag",
+  "description": "Master the Collar Drag in BJJ. Essential standing technique for creating angles and transitioning to back control through collar and arm manipulation.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Collar Drag", "item": "https://bjjgraph.org/Transitions/Collar-Drag" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Collar Drag",
+  "description": "The Collar Drag is a standing BJJ technique where you pull an opponent's collar or neck across their centerline while controlling their opposite arm, rotating them off-balance to open a path to back control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Collar Drag in BJJ. Essential standing technique for cr
 
 <section id="overview" class="content-section">
 
-The Collar Drag is a fundamental standing technique that creates dominant angles by pulling the opponent's collar or neck across their body while simultaneously controlling their opposite arm. This creates a powerful torque that disrupts their structure and opens pathways to back control, single leg attacks, or forced guard pulls. The technique relies on precise timing, proper grip placement, and explosive hip movement to generate the necessary pulling force. When executed correctly, the Collar Drag compromises the opponent's base and posture simultaneously, making it extremely difficult to defend.
+**The Collar Drag is a standing BJJ technique where you pull an opponent's collar or neck across their centerline while controlling their opposite arm, rotating them off-balance to open a path to back control.**
+
+Adapted from wrestling and refined for both gi and no-gi grappling, the Collar Drag is prized as one of the highest-percentage standing entries to the back. It works by pulling the opponent's collar or neck across their body while simultaneously controlling their opposite arm, generating a powerful torque that disrupts their structure and opens pathways to back control, single leg attacks, or forced guard pulls. The technique relies on precise timing, proper grip placement, and explosive hip movement to generate the necessary pulling force. When executed correctly, the Collar Drag compromises the opponent's base and posture simultaneously, making it extremely difficult to defend.
 
 The beauty of this technique lies in its versatility—it works equally well in gi and no-gi contexts (using the neck in no-gi), functions as both an offensive attack and a counter to aggressive opponents, and chains seamlessly into multiple follow-up options. The Collar Drag represents a core principle of BJJ: using leverage and angles to overcome strength, making it effective regardless of size differential when timing and technique are sound.
 
@@ -222,6 +259,16 @@ The Collar Drag functions as a critical bridge technique between standing engage
 
 - [[Positions/Back Control]] - Primary finish - target position after successful execution
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Keenan Cornelius Lapel Guard System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Fundamental dragging mechanic that underpins many lapel-based sweeps</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

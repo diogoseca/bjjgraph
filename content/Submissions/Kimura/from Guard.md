@@ -10,10 +10,55 @@ description: "Master the Kimura from Guard in BJJ. Complete guide covering setup
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Kimura from Guard targets the Shoulder joint and rotator cuff. Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kimura from Guard",
+  "description": "Master the Kimura from Guard in BJJ. Complete guide covering setup, execution, and finishing mechanics from closed guard with safety protocols and defensive strategies.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Kimura from Guard", "item": "https://bjjgraph.org/Submissions/Kimura-from-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kimura from Guard",
+  "description": "The Kimura from Guard is a figure-four shoulder lock applied from bottom guard positions that isolates and internally rotates the opponent's arm (wrist driven behind their back toward the lower back), threatening submission while doubling as a control hub for sweeps, back takes, and the Kimura trap.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Kimura from Guard is a figure-four shoulder lock applied from bottom guard positions that isolates and internally rotates the opponent's arm (wrist driven behind their back toward the lower back), threatening submission while doubling as a control hub for sweeps, back takes, and the Kimura trap.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Shoulder Lock</span>
+<span class="meta-chip">Targets Shoulder joint and rotator cuff</span>
+<span class="meta-chip">58% success</span>
+</div>
+
+> [!danger] Safety
+> Kimura from Guard targets the Shoulder joint and rotator cuff. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -24,61 +69,13 @@ description: "Master the Kimura from Guard in BJJ. Complete guide covering setup
 
 <section id="overview" class="content-section">
 
-The Kimura from Guard is a fundamental shoulder lock that can be applied from multiple guard positions, with the closed guard variation being one of the most reliable entries. This submission targets the shoulder joint and surrounding structures through a figure-four grip configuration, creating rotational pressure that can damage the rotator cuff, shoulder capsule, and associated ligaments if applied forcefully. The technique's versatility lies in its dual nature as both a finishing submission and a powerful control position that opens pathways to sweeps, back takes, and other submissions.
+Applicable from closed, butterfly, half, and most open guards, the Kimura is a cornerstone of the bottom player's attacking arsenal, with the closed guard entry being one of the most reliable. This submission targets the shoulder joint and surrounding structures through a figure-four grip configuration, creating rotational pressure that can damage the rotator cuff, shoulder capsule, and associated ligaments if applied forcefully. The technique's versatility lies in its dual nature as both a finishing submission and a powerful control position that opens pathways to sweeps, back takes, and other submissions.
 
 From the bottom position, the Kimura provides exceptional control over your opponent's posture and base, allowing you to dictate the pace of the engagement while maintaining offensive threats. The figure-four grip configuration creates a mechanical advantage that allows smaller practitioners to control and submit larger opponents through proper technique rather than raw strength. Understanding the Kimura from guard is essential for developing a complete bottom game, as it integrates seamlessly with guard retention, sweeping systems, and transitional attacks.
 
 The position operates on the principle that the figure-four grip isolates the shoulder joint by fixing the elbow as a fulcrum while applying rotational force through wrist manipulation. When combined with a perpendicular hip angle, this creates a mechanical system where the attacker's entire body generates torque against a single joint. The defender faces a cascading dilemma: defending the submission weakens their base for sweeps, defending sweeps exposes the arm for reattack, and rolling to escape gives up the back. This interconnected threat network makes the Kimura from guard one of the most strategically rich positions in the bottom player's arsenal.
 
-**Category**: Joint Lock
-**Type**: Shoulder Lock
-**Target Area**: Shoulder joint and rotator cuff
-**Starting Position**: [[Positions/Closed Guard]]
-**From Position**: [[Positions/Closed Guard]] (Bottom)
-**Success Rate**: 58%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Rotator cuff tear (supraspinatus, infraspinatus, teres minor) | High | 3-6 months with physical therapy, potential surgery |
-| Shoulder capsule damage and labral tears | High | 4-8 months, often requires surgical repair |
-| Posterior shoulder dislocation | CRITICAL | 6-12 months including surgery and rehabilitation |
-| Spiral fracture of humerus (rare but catastrophic) | CRITICAL | 6-12+ months with surgical fixation required |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum application time, with constant awareness of partner's tap
-
-**Tap Signals**:
-- Verbal tap (spoken word or sound)
-- Physical hand tap on opponent or mat
-- Physical foot tap on mat or opponent
-- Any distress signal or unusual vocalization
-- Rapid repeated tapping motions
-
-
-**Release Protocol**:
-1. Immediately stop all rotational pressure on the shoulder
-2. Release the figure-four grip while maintaining gentle arm support
-3. Allow partner to control their arm's return to neutral position
-4. Do not suddenly release the arm - guide it back safely
-5. Check with partner before resuming training
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - smooth, progressive pressure only
-- Never use competition speed or intensity during drilling
-- Never continue applying pressure after feeling resistance pop or crack
-- Always allow clear tap access with the free hand
-- Never apply Kimura during warm-up or cooldown periods
-- Avoid training Kimuras with injured shoulders or recent shoulder injuries
-
+**Starting Position**: [[Positions/Closed Guard]] · **From**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
 
@@ -122,7 +119,7 @@ The position operates on the principle that the figure-four grip isolates the sh
 
 - **Elbow Isolation**: Pin opponent's elbow to your chest or body to create a fixed fulcrum point; the shoulder lock requires a stable pivot point to generate rotational pressure
 
-- **Rotational Direction**: Apply pressure by rotating the arm away from opponent's back (externally rotating the shoulder); internal rotation reduces effectiveness and may allow escape
+- **Rotational Direction**: Apply pressure by rotating the forearm toward the opponent's lower back and feet, driving their wrist behind their back (internally rotating the shoulder); rotating toward the head is the Americana arc, not the Kimura, and reduces effectiveness here
 
 - **Progressive Pressure**: Gradually increase rotational force over 3-5 seconds minimum; sudden jerking movements risk catastrophic injury and prevent partner from tapping safely
 
@@ -144,7 +141,7 @@ The position operates on the principle that the figure-four grip isolates the sh
 
 - **Secure hip connection and arm positioning**: Bring opponent's elbow tight to your chest while placing your right leg over their back or shoulder....
 
-- **Apply controlled rotational pressure**: Keeping the elbow fixed to your chest, slowly rotate opponent's wrist toward their head and away fro...
+- **Apply controlled rotational pressure**: Keeping the elbow fixed to your chest, slowly rotate opponent's wrist toward their lower back and fe...
 
 
 ### Common Mistakes
@@ -235,7 +232,7 @@ The position operates on the principle that the figure-four grip isolates the sh
 **Triangle to Kimura Transition**: When opponent defends triangle choke by straightening their trapped arm, release the triangle and immediately transition to Kimura on the extended arm. The extended arm position makes it extremely difficult for them to defend the shoulder lock. (When to use: When triangle choke is defended with arm extension. The transition is seamless and capitalizes on their defensive posture.)
 
 
-**Reverse Kimura (Americana Mechanics from Guard)**: Apply Kimura grip but rotate opponent's wrist toward their own hip instead of their head, creating internal rotation pressure. Less common from guard but effective when standard Kimura angle is unavailable. (When to use: When opponent successfully defends external rotation by turning their thumb down or when angle prevents standard Kimura application.)
+**Reverse Kimura (Americana Mechanics from Guard)**: Apply the figure-four grip but rotate opponent's wrist toward their head instead of their lower back, creating external rotation pressure (the Americana arc). Less common from guard but effective when the standard Kimura internal-rotation angle is unavailable. (When to use: When opponent successfully defends the Kimura's internal rotation by pointing the hand toward the ceiling, or when the angle prevents standard Kimura application and the head-side arc is open.)
 
 
 
@@ -258,10 +255,9 @@ The position operates on the principle that the figure-four grip isolates the sh
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Kimura]]
 - [[Submissions/Monoplata]]
 - [[Transitions/Arm Triangle]]
@@ -273,36 +269,59 @@ The position operates on the principle that the figure-four grip isolates the sh
 - [[Submissions/Americana]]
 - [[Submissions/Baratoplata]]
 - [[Submissions/Reverse Kimura]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Kimura Trap]] - Control position that enables this submission and multiple transitions
 - [[Transitions/Kimura to Back Take]] - Primary transition when opponent defends by rolling forward
 - [[Transitions/Hip Bump Sweep]] - Sweep that creates Kimura opportunity when opponent posts to defend
-- [[Submissions/Triangle Choke]] - Alternative submission when opponent defends Kimura by pulling arm back
-- [[Submissions/Omoplata]] - Related shoulder attack that can be chained with Kimura attempts
 - [[Positions/Closed Guard]] - Primary starting position for this submission variation
-- [[Submissions/Flying Armbar]] - Alternative armbar finish when opponent straightens arm defending Kimura
 - [[Positions/Butterfly Guard]] - Alternative guard position for Kimura application with dynamic hooks
 - [[Positions/Half Guard]] - Related guard position where Kimura can be effectively applied
 - [[Positions/Back Control]] - Common transition destination when opponent rolls to defend Kimura
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Rotator cuff tear (supraspinatus, infraspinatus, teres minor) | High | 3-6 months with physical therapy, potential surgery |
+| Shoulder capsule damage and labral tears | High | 4-8 months, often requires surgical repair |
+| Posterior shoulder dislocation | CRITICAL | 6-12 months including surgery and rehabilitation |
+| Spiral fracture of humerus (rare but catastrophic) | CRITICAL | 6-12+ months with surgical fixation required |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum application time, with constant awareness of partner's tap
+
+**Tap Signals**:
+- Verbal tap (spoken word or sound)
+- Physical hand tap on opponent or mat
+- Physical foot tap on mat or opponent
+- Any distress signal or unusual vocalization
+- Rapid repeated tapping motions
+
+
+**Release Protocol**:
+1. Immediately stop all rotational pressure on the shoulder
+2. Release the figure-four grip while maintaining gentle arm support
+3. Allow partner to control their arm's return to neutral position
+4. Do not suddenly release the arm - guide it back safely
+5. Check with partner before resuming training
+
+
+**Training Restrictions**:
+- Never spike or jerk the submission - smooth, progressive pressure only
+- Never use competition speed or intensity during drilling
+- Never continue applying pressure after feeling resistance pop or crack
+- Always allow clear tap access with the free hand
+- Never apply Kimura during warm-up or cooldown periods
+- Avoid training Kimuras with injured shoulders or recent shoulder injuries
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Kimura from Guard leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

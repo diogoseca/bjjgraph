@@ -18,6 +18,7 @@
   "starting_position": "Turtle",
   "from_position": "Turtle/Top",
   "success_rate": 62,
+  "summary": "The arm triangle from turtle is a head-and-arm blood choke that exploits a turtled opponent's tucked-in arm, trapping their own shoulder against one carotid while your forearm compresses the other, finished after collapsing their four-point base.",
   "overview": "The arm triangle from turtle exploits the natural arm positioning of a turtled opponent to trap their shoulder against their own neck. When attacking from turtle top, the practitioner threads an arm under the opponent's chin while using chest pressure to drive the near arm tight against the neck, creating a figure-four squeeze that compresses both carotid arteries simultaneously. The turtle position offers a distinct advantage for this entry because the opponent's defensive posture naturally brings their arms close to their head, making the initial arm-trapping phase more accessible than from mount or side control.\n\nThe primary challenge with this variation is generating sufficient finishing pressure while the opponent maintains their four-point turtle base. The attacker must transition the opponent to their side or flatten them completely before the squeeze becomes effective. This typically involves walking the hips toward the opponent while maintaining the locked grip, using shoulder pressure to collapse the turtle structure. The technique chains naturally with other turtle attacks—when opponents defend back takes by tucking elbows tight and lowering their base, they often create the exact arm-and-head alignment needed for the arm triangle entry.\n\nAt the competition level, this submission serves as a powerful secondary attack that punishes opponents for over-defending the back take. The setup appears in high-level no-gi grappling as a complement to anaconda and darce entries from the same position, creating a three-way attacking dilemma that forces the turtled opponent to choose which threat to address.",
   "safety_considerations": {
     "injury_risks": [
@@ -105,7 +106,7 @@
       "result": "failure"
     },
     {
-      "to": "Closed Guard/Bottom",
+      "to": "Closed Guard/Top",
       "probability": 13,
       "result": "counter"
     }
@@ -207,7 +208,7 @@
         "counter": "Opponent rolls through to guard to escape the choke and create distance",
         "effectiveness": "Medium",
         "your_response": "Maintain the grip through the roll and finish in the new position. If they recover closed guard, the arm triangle is still viable from inside guard with proper head positioning and hip pressure.",
-        "targets_outcome": "Closed Guard/Bottom"
+        "targets_outcome": "Closed Guard/Top"
       },
       {
         "counter": "Opponent extends trapped arm to remove it from the choking configuration",
@@ -355,7 +356,7 @@
       {
         "action": "Sit-through to guard recovery as attacker transitions to finishing position",
         "when_to_use": "When the attacker begins walking over or driving you to your side to finish—their weight shift creates an opening for the sit-through",
-        "targets_outcome": "Closed Guard/Bottom",
+        "targets_outcome": "Closed Guard/Top",
         "if_successful": "Recover to closed guard where the arm triangle is far more difficult to finish and you have full guard defense options",
         "risk": "If the attacker maintains the grip through the sit-through, you may end in a worse finishing position for them"
       },
@@ -375,7 +376,7 @@
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Closed Guard/Bottom",
+        "outcome": "Closed Guard/Top",
         "how": "Execute a sit-through during the attacker's transition to side control, turning to face them and closing your guard before they can re-establish the choke from the new position"
       },
       {

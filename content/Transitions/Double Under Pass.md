@@ -10,6 +10,41 @@ description: "Master the Double Under Pass in BJJ. Pressure-based guard pass usi
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Double Under Pass",
+  "description": "Master the Double Under Pass in BJJ. Pressure-based guard pass using bilateral underhooks to neutralize hip movement and clear legs for side control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Double Under Pass", "item": "https://bjjgraph.org/Transitions/Double-Under-Pass" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Double Under Pass",
+  "description": "The Double Under Pass is a pressure-based guard pass where the top player threads both arms under the opponent's thighs, stacks the hips toward the head, and rides chest-to-chest weight around the legs to land in side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Double Under Pass in BJJ. Pressure-based guard pass usi
 </div>
 
 <section id="overview" class="content-section">
+
+**The Double Under Pass is a pressure-based guard pass where the top player threads both arms under the opponent's thighs, stacks the hips toward the head, and rides chest-to-chest weight around the legs to land in side control.**
 
 The Double Under Pass is a fundamental pressure-based guard passing technique that relies on establishing bilateral underhooks beneath the opponent's legs. This pass is characterized by its heavy control orientation, making it extremely difficult for the opponent to retain guard once proper positioning is achieved. The technique involves methodically breaking down the opponent's defensive frames, consolidating position with chest-to-chest pressure, and using controlled lateral movement to clear the legs and establish side control.
 
@@ -223,10 +260,20 @@ The double under pass is a cornerstone technique within the pressure passing sys
 
 - [[Positions/Half Guard]] - Common defensive recovery position opponent may achieve during pass
 
-- [[Transitions/Double Under Pass]] - Related passing technique from similar position configuration
+- [[Positions/North-South]] - Alternative dominant position reachable from side control after completing the pass
 
 - [[Positions/Closed Guard]] - Guard position opponent may recover to counter the pass attempt
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Bernardo-Faria-Pressure-System" data-cta="related-system-card" data-system-slug="systems/bernardo-faria-pressure-system" data-system-name="Bernardo Faria Pressure System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Bernardo Faria Pressure System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Passing variation using bilateral underhook control for pressure application</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

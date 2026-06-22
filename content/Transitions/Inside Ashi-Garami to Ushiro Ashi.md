@@ -10,6 +10,41 @@ description: "Master Inside Ashi-Garami to Ushiro Ashi transition in BJJ. Follow
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Inside Ashi-Garami to Ushiro Ashi",
+  "description": "Master Inside Ashi-Garami to Ushiro Ashi transition in BJJ. Follow opponent rotation to maintain leg control and access reversed heel hook finishing angles.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Inside Ashi-Garami to Ushiro Ashi", "item": "https://bjjgraph.org/Transitions/Inside-Ashi-Garami-to-Ushiro-Ashi" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Inside Ashi-Garami to Ushiro Ashi",
+  "description": "Inside Ashi-Garami to Ushiro Ashi is a leg-entanglement transition where the attacker follows the opponent's hip inversion out of standard inside ashi-garami, reorganizing into the reversed ushiro figure-four to preserve heel control and open new finishing angles.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Inside Ashi-Garami to Ushiro Ashi transition in BJJ. Follow
 </div>
 
 <section id="overview" class="content-section">
+
+**Inside Ashi-Garami to Ushiro Ashi is a leg-entanglement transition where the attacker follows the opponent's hip inversion out of standard inside ashi-garami, reorganizing into the reversed ushiro figure-four to preserve heel control and open new finishing angles.**
 
 The Inside Ashi-Garami to Ushiro Ashi transition is a critical positional advancement within modern leg lock systems that allows the attacker to maintain offensive control when the opponent attempts to escape standard inside ashi through hip rotation or inversion. Rather than losing the entanglement during the opponent's defensive movement, the skilled practitioner follows the rotation while adapting their leg configuration to establish the reversed ushiro ashi-garami position, preserving attacking opportunities from an entirely new angle.
 
@@ -220,5 +257,7 @@ Inside Ashi-Garami to Ushiro Ashi serves as a critical link in the leg entanglem
 
 
 </section>
+
+
 
 </main>

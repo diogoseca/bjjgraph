@@ -10,6 +10,41 @@ description: "Master the New York Control to Invisible Collar rubber guard trans
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "New York Control to Invisible Collar",
+  "description": "Master the New York Control to Invisible Collar rubber guard transition. Step-by-step guide covering shin repositioning, posture control, and chain attack setups.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "New York Control to Invisible Collar", "item": "https://bjjgraph.org/Transitions/New-York-Control-to-Invisible-Collar" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "New York Control to Invisible Collar",
+  "description": "New York Control to Invisible Collar is a 10th Planet rubber guard transition where the bottom player slides the controlling shin from over the opponent's shoulder to behind the neck, swapping the overhook for a calf collar that threatens the gogoplata.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the New York Control to Invisible Collar rubber guard trans
 </div>
 
 <section id="overview" class="content-section">
+
+**New York Control to Invisible Collar is a 10th Planet rubber guard transition where the bottom player slides the controlling shin from over the opponent's shoulder to behind the neck, swapping the overhook for a calf collar that threatens the gogoplata.**
 
 The New York Control to Invisible Collar transition represents a critical lateral reconfiguration within the 10th Planet Rubber Guard system. The bottom player repositions their controlling leg from the overhook-and-shoulder-wrap configuration of New York to slide the shin behind the opponent's neck, creating the signature invisible collar that mimics a cross-collar grip using the practitioner's own calf and shin rather than gi material. This transition maintains offensive pressure during what is fundamentally a grip change, preventing the top player from establishing defensive structures that become effective against any single rubber guard position held too long.
 
@@ -220,5 +257,7 @@ The New York Control to Invisible Collar transition serves as a critical connect
 
 
 </section>
+
+
 
 </main>

@@ -23,7 +23,7 @@ description: "How to execute Reverse Armbar in BJJ. Attacking perspective with s
     {
       "@type": "HowToStep",
       "name": "Establish Standard Armbar Control",
-      "text": "From mount or guard, secure traditional armbar position with both hands gripping opponent's wrist and forearm. Ensure their arm is fully extended with thumb pointing upward. Your legs should control their head and far shoulder, with your near leg across their chest or face. This standard position serves as the foundation for the reversal.",
+      "text": "From mount or guard, secure traditional armbar position with both hands gripping opponent's wrist and forearm. As the opponent defends by rotating their arm thumb-down (pronated), keep their arm fully extended in that pronated orientation rather than fighting to re-supinate it. Your legs should control their head and far shoulder, with your near leg across their chest or face. This defended standard position serves as the foundation for the reversal.",
       "position": 1
     },
     {
@@ -188,7 +188,7 @@ The Reverse Armbar is an advanced elbow hyperextension technique distinguished b
 <p class="section-subtitle">What are the key principles for executing Reverse Armbar from Mount?</p>
 
 - Hip rotation must precede extension to establish proper angle
-- Arm isolation requires thumb-up positioning before rotation begins
+- Arm isolation targets the opponent's thumb-down (pronated) arm, the defensive orientation the reverse rotation attacks
 - Head and shoulder control prevents rolling escapes during transition
 - Your hips must stay high and tight to the arm throughout
 - Rotational momentum must be controlled to maintain arm security
@@ -205,7 +205,7 @@ The Reverse Armbar is an advanced elbow hyperextension technique distinguished b
 <p class="section-subtitle">What do you need before attempting Reverse Armbar from Mount?</p>
 
 - Secure two-on-one arm control with opponent's arm fully extended
-- Opponent's thumb must be pointing up (supinated position)
+- Opponent's thumb is pointing down (pronated position), the defensive orientation the reverse armbar is designed to attack
 - Clear space to rotate your body 180 degrees without obstruction
 - Head and shoulder control established with your legs
 - Hip positioning must be tight to their arm before rotation
@@ -221,7 +221,7 @@ The Reverse Armbar is an advanced elbow hyperextension technique distinguished b
 
 <p class="section-subtitle">How do you execute Reverse Armbar from Mount step by step?</p>
 
-1. **Establish Standard Armbar Control**: From mount or guard, secure traditional armbar position with both hands gripping opponent's wrist and forearm. Ensure their arm is fully extended with thumb pointing upward. Your legs should control their head and far shoulder, with your near leg across their chest or face. This standard position serves as the foundation for the reversal. (Timing: 2-3 seconds to secure)
+1. **Establish Standard Armbar Control**: From mount or guard, secure traditional armbar position with both hands gripping opponent's wrist and forearm. As the opponent defends by rotating their arm thumb-down (pronated), keep their arm fully extended in that pronated orientation rather than fighting to re-supinate it. Your legs should control their head and far shoulder, with your near leg across their chest or face. This defended standard position serves as the foundation for the reversal. (Timing: 2-3 seconds to secure)
 2. **Pin Arm to Your Chest**: Pull opponent's arm tightly across your chest, pinning their tricep against your sternum with both hands maintaining wrist control. This pin is critical—any space between their arm and your body will allow escape during rotation. Your elbows should be tight to your sides, creating an unbreakable connection. Keep their elbow slightly bent to prevent them from pulling out. (Timing: 1-2 seconds)
 3. **Initiate Hip Rotation**: Begin rotating your entire body 180 degrees toward opponent's feet while maintaining the arm pin to your chest. This rotation must be smooth and controlled—jerky movement will lose arm control. Your head should track toward their feet as your hips rotate over their arm. Keep your knees tight together during this phase to prevent their arm from slipping between your legs. The rotation happens around the axis of their trapped arm. (Timing: 2-3 seconds controlled rotation)
 4. **Reestablish Leg Control in Reverse**: As you complete the 180-degree rotation, reposition your legs so your near leg crosses their head/neck area and your far leg pins their near shoulder. Your body is now inverted—your hips face their feet while controlling their arm. Squeeze your knees together to trap their arm between your thighs. Their arm should be deeply isolated with their elbow pointing upward and their wrist still secured at your chest. (Timing: 2-3 seconds to stabilize)

@@ -10,6 +10,41 @@ description: "Master the transition to Butterfly Hook Control in BJJ. Learn to c
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Butterfly Guard to Butterfly Hook Control",
+  "description": "Master the transition to Butterfly Hook Control in BJJ. Learn to consolidate double hooks from butterfly guard for powerful sweeps and back takes.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Butterfly Guard to Butterfly Hook Control", "item": "https://bjjgraph.org/Transitions/Butterfly-Guard-to-Butterfly-Hook-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Butterfly Guard to Butterfly Hook Control",
+  "description": "Butterfly Guard to Butterfly Hook Control is the bottom player's consolidation transition that converts a loose butterfly guard into locked hook control by deepening both hooks to the hip crease, recovering upright seated posture, and securing upper-body grips for sweeps and back takes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the transition to Butterfly Hook Control in BJJ. Learn to c
 </div>
 
 <section id="overview" class="content-section">
+
+**Butterfly Guard to Butterfly Hook Control is the bottom player's consolidation transition that converts a loose butterfly guard into locked hook control by deepening both hooks to the hip crease, recovering upright seated posture, and securing upper-body grips for sweeps and back takes.**
 
 Transition to Butterfly Hook Control is the fundamental consolidation movement where the bottom player converts a general butterfly guard configuration into a locked, offensive butterfly hook control position with deep hooks, upright posture, and dominant upper body grips. While butterfly guard provides a general framework with hooks inserted, butterfly hook control represents the refined, combat-ready state where every element is optimized for sweeping power and transition capability.
 
@@ -220,5 +257,7 @@ Transition to Butterfly Hook Control sits at a critical junction in the guard re
 
 
 </section>
+
+
 
 </main>

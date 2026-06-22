@@ -1,0 +1,340 @@
+{
+  "name": "Open Guard to Double Unders",
+  "description": "Establish the Double Unders stacking control from Open Guard top. Setup, both-leg scoop, hip elevation, and back-clasp to enter a dominant pressure pass in BJJ.",
+  "tags": [
+    "bjj",
+    "transition",
+    "guard_pass",
+    "open_guard",
+    "double_unders",
+    "pressure_passing",
+    "stack_pass"
+  ],
+  "aliases": [
+    "Double Unders Entry",
+    "Double Underhook Stack Entry"
+  ],
+  "from_position": "Open Guard/Top",
+  "outcomes": [
+    {
+      "to": "Double Unders/Top",
+      "probability": 60,
+      "result": "success"
+    },
+    {
+      "to": "Open Guard/Top",
+      "probability": 28,
+      "result": "failure"
+    },
+    {
+      "to": "Open Guard/Bottom",
+      "probability": 12,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 60,
+  "summary": "Open Guard to Double Unders is the entry in which the top passer scoops both of the opponent's legs onto their shoulders, elevates the hips, and clasps the hands behind the back to establish the bilateral-underhook stacking control.",
+  "overview": "Open Guard to Double Unders is the foundational entry into one of Brazilian Jiu-Jitsu's most punishing pressure-passing controls, achieved when the top player digs both arms underneath the opponent's thighs from an open-guard passing posture, lifts the hips off the mat, and clasps the hands behind the opponent's lower back. Rather than passing immediately, this transition establishes the double-underhook stack as a stable controlling position from which side control, mount, or the back become available.\n\nThe entry shines against open guards where the legs are presented in front of the passer, particularly butterfly guard, seated/shin-to-shin guard, and supine open guards where the feet are not deeply pinning the hips. By committing both arms under the legs and driving the knees toward the opponent's armpits, the passer stacks the defender onto their shoulders, eliminating frames and hip mobility before any passing motion begins. The defining requirement is timing: the underhooks must be dug as the opponent's hips are momentarily light or as their guard opens, before they can re-pummel a foot or knee inside to create a frame.\n\nFor the passer this entry is a commitment. Diving both arms under the legs surrenders the ability to post, so it must be done with the head and chest already controlling the stack and the base wide. Done correctly it converts a neutral open-guard exchange into a dominant, fatiguing control. Done carelessly it exposes the passer to back-takes, hip-bump-style reversals, and deep half entries as the defender uses the passer's committed posture against them.",
+  "conditions": [
+    "Top player is in a passing posture facing the open guard with the opponent's legs in front of them",
+    "Opponent's guard is open with feet not deeply pinning the hips or framing on the head",
+    "Opponent's hips are momentarily light, elevated, or being driven backward by the passer's pressure",
+    "Top player can clear or pin both of the opponent's feet long enough to dig the underhooks"
+  ],
+  "related_content": [
+    {
+      "name": "Double Unders",
+      "relationship": "Destination control established by this entry, from which pressure passing continues"
+    },
+    {
+      "name": "Double Under Pass",
+      "relationship": "Follow-up pass that completes the journey from this control to side control"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Starting position from which the top passer digs the double underhooks"
+    },
+    {
+      "name": "Stack Pass from Double Unders",
+      "relationship": "Primary advancing technique available once this control is secured"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Most common end position after passing from the established double unders control"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Counter destination if the defender dives underneath the passer's committed posture"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Alternative finish when the defender turns away to escape the stacking pressure"
+    },
+    {
+      "name": "Butterfly Guard",
+      "relationship": "Common open guard variation that this entry effectively neutralizes"
+    },
+    {
+      "name": "Leg Weave",
+      "relationship": "Adjacent pressure-pass control reached if one leg escapes during the entry"
+    }
+  ],
+  "attacker": {
+    "name": "Open Guard to Double Unders Attacker",
+    "description": "How to enter Double Unders from Open Guard top in BJJ. Scoop both legs, elevate the hips, clasp behind the back, and stack to establish a dominant pressure-pass control.",
+    "overview": "As the attacker entering Double Unders from Open Guard, your objective is to convert a neutral open-guard exchange into a crushing bilateral-underhook stack before the defender can re-establish frames. The technique is a commitment pass: you thread both arms under the opponent's thighs, drive their knees toward their own shoulders, and clasp your hands behind their lower back so their legs and hips become a single controlled unit.\n\nThe entry succeeds on timing and pressure rather than strength. You wait until the opponent's hips are light or their guard opens, dig both underhooks in one motion, and immediately stack their weight onto their shoulders so they cannot frame or insert a knee shield. Once the stack is set and your hands are clasped, you have entered the Double Unders control, from which the Double Under Pass to side control, a back-take when they turn, or a mount transition all become available.\n\nBecause committing both arms under the legs removes your ability to post, your head position, chest pressure, and wide base are what keep you safe. A clean entry leaves the defender stacked and exhausted; a sloppy one invites deep half entries, back exposure, and reversals. Drill the entry as a single explosive scoop-and-stack rather than a slow two-handed reach.",
+    "key_principles": [
+      "Dig both underhooks simultaneously in one motion - a staggered, one-arm-at-a-time reach lets the opponent frame on the slow side",
+      "Drive the opponent's knees toward their own shoulders to stack their weight before clasping, killing frames and hip mobility",
+      "Clasp the hands behind the lower back (gable or S-grip) or grip the belt so both legs become a single controlled unit",
+      "Keep your head pressuring into the chest or hip so the committed posture does not expose your back",
+      "Maintain a wide, mobile base on the toes so you can ride bridges and resist being rolled during the commitment",
+      "Time the entry to the moment the hips are light or the guard opens, never against deeply pinning feet",
+      "Treat the control, not the pass, as the goal of this entry - secure the stack first, advance second"
+    ],
+    "setup_requirements": [
+      "Passing posture facing the open guard with the opponent's legs presented in front of you",
+      "Opponent's feet cleared off your hips or pinned long enough to dig under the thighs",
+      "Both forearms able to slide fully under the opponent's thighs, not just under the knees",
+      "Chest and head positioned to immediately stack the opponent onto their shoulders once arms are in",
+      "Wide base with knees and feet set to drive forward and absorb a bridge or reversal attempt"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Clear the feet and close distance",
+        "description": "From your open-guard passing posture, control or strip the opponent's feet off your hips with downward grips or a quick pummel, then step or shuffle your hips forward to close the distance to their thighs. You must remove their primary framing tools before committing your arms, otherwise the underhooks will be blocked by a foot or knee shield."
+      },
+      {
+        "step_number": 2,
+        "action": "Scoop both arms under the thighs",
+        "description": "In a single explosive motion, drive both forearms underneath the opponent's thighs, not merely under the knees, so your shoulders end up beneath their hamstrings. Reaching only under the knees leaves a shallow control they can easily separate. Both arms must penetrate together so neither side stays exposed for a frame or knee-shield insertion."
+      },
+      {
+        "step_number": 3,
+        "action": "Elevate and stack the hips",
+        "description": "Straighten your legs slightly and lift with your shoulders to elevate the opponent's hips off the mat, driving their knees back toward their own shoulders. This stacking action rolls their weight onto their upper back and neutralizes any attempt to shrimp, frame, or insert a butterfly hook between your arms."
+      },
+      {
+        "step_number": 4,
+        "action": "Clasp the hands behind the back",
+        "description": "With the hips stacked and elevated, bring your hands together behind the opponent's lower back using a gable grip or S-grip, or grip the belt or waistband. This connection turns both legs and the hips into a single unit, locking the double-underhook control. Keep your elbows pinched to your ribs so they cannot wedge their arms in to break the grip."
+      },
+      {
+        "step_number": 5,
+        "action": "Bring head and chest into the stack",
+        "description": "Drop your chest heavily onto the backs of the opponent's thighs and place your head against their chest or driven into their near hip. This forward pressure consolidates the stack, prevents them from rotating to escape, and protects your back from exposure now that both of your arms are committed underneath them."
+      },
+      {
+        "step_number": 6,
+        "action": "Settle the base and confirm the control",
+        "description": "Widen your knees and come onto the balls of your feet so you can ride a bridge or lateral roll without losing the grip. Confirm you are in the Double Unders control: hands clasped behind the back, hips stacked, chest pressuring the thighs, head blocking rotation. From here you transition to the Double Under Pass, a back-take, or a mount entry depending on their reaction."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent inserts a knee shield or re-pummels a foot inside before you dig the second underhook",
+        "effectiveness": "High",
+        "your_response": "Abandon the symmetric entry and commit to the single underhook you secured, switching to a leg-weave or over-under control on the framing side rather than fighting to force both arms in against an established frame.",
+        "targets_outcome": "Open Guard/Top"
+      },
+      {
+        "counter": "Opponent dives underneath your committed posture to enter deep half guard",
+        "effectiveness": "Medium",
+        "your_response": "Keep your hips low and connected, sprawl your weight back onto their hips, and switch your head to the opposite side to block the rotation before they get their head below your hip line.",
+        "targets_outcome": "Open Guard/Top"
+      },
+      {
+        "counter": "Opponent uses your committed arms to bridge and roll you, exposing your back",
+        "effectiveness": "Medium",
+        "your_response": "Widen your base immediately, post your head into the mat or their chest to anchor, and ride the bridge by staying heavy rather than resisting upright, then re-settle the stack once their momentum stalls.",
+        "targets_outcome": "Open Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Reaching under one leg at a time instead of digging both underhooks together",
+        "consequence": "The opponent frames or inserts a knee shield on the slow side, blocking the second underhook and stuffing the entry entirely",
+        "correction": "Treat the scoop as a single explosive motion driving both forearms under the thighs simultaneously so neither side is left exposed"
+      },
+      {
+        "error": "Securing the underhooks only under the knees rather than the thighs",
+        "consequence": "The control is shallow, the opponent easily separates the legs, and the stack never consolidates",
+        "correction": "Drive your shoulders under their hamstrings so your forearms are deep beneath the thighs before you clasp"
+      },
+      {
+        "error": "Clasping the hands before stacking the hips",
+        "consequence": "You lock a grip on an opponent who still has frames and mobility, allowing them to shrimp out or recover guard despite the grip",
+        "correction": "Elevate and stack the hips onto their shoulders first, then clasp the hands once their weight is already compromised"
+      },
+      {
+        "error": "Letting the elbows flare wide while clasping",
+        "consequence": "The opponent wedges a forearm into the gap, breaks the connection, and pummels back to open guard",
+        "correction": "Pinch both elbows tight to your ribs throughout, treating the two arms as a single closed loop around the legs"
+      },
+      {
+        "error": "Committing both arms without bringing the head and chest into the stack",
+        "consequence": "Your back is exposed and the opponent can turn to take it or bridge and roll you over your committed posture",
+        "correction": "Immediately drop chest pressure onto the thighs and drive your head into their chest or hip to anchor and protect against rotation"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2: Underhook Penetration Mechanics",
+        "focus": "Digging both underhooks under the thighs simultaneously",
+        "description": "With a compliant partner in a static open guard, drill clearing the feet and scooping both arms deep under the thighs in one motion. No stacking or grip yet - focus purely on penetration depth and getting shoulders under the hamstrings. 20-30 repetitions per session alternating which side you initiate from."
+      },
+      {
+        "phase": "Week 3-4: Stack and Clasp Sequence",
+        "focus": "Elevating the hips and locking the grip",
+        "description": "Partner provides light resistance. Practice the full scoop, stack the hips onto their shoulders, then clasp behind the back and bring head and chest into the stack. Emphasize the order - stack before clasp - and keeping elbows pinched. 15-20 repetitions per session."
+      },
+      {
+        "phase": "Week 5-8: Reactive Entry Against Frames",
+        "focus": "Timing the entry and handling defensive frames",
+        "description": "Partner actively works knee shields, foot frames, and re-pummels at 50-60% resistance. Practice reading when the hips are light, committing the entry, and bailing to single-underhook leg-weave control when the symmetric entry is denied. 10-15 entries per session with feedback on timing."
+      },
+      {
+        "phase": "Month 3+: Live Open-Guard Passing",
+        "focus": "Entering Double Unders in full positional sparring",
+        "description": "Start in neutral open guard with full resistance. The passer works to create the moment, commit the double-underhook entry, and consolidate the stack while protecting against deep half and back exposure. 5-minute rounds with role resets when the control is established or the guard is recovered."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "Why must both underhooks be dug simultaneously rather than one arm at a time?",
+        "answer": "Reaching one arm at a time leaves the slow side exposed for the opponent to insert a knee shield or re-pummel a foot inside, which blocks the second underhook and stuffs the entry. A single explosive scoop with both forearms penetrating together denies that framing window and ensures neither side is left open during the most vulnerable moment of the commitment."
+      },
+      {
+        "question": "What is the correct order of operations between stacking the hips and clasping the hands?",
+        "answer": "Stack first, clasp second. You must elevate the opponent's hips and drive their knees toward their shoulders to compromise their frames and mobility before you lock your grip. Clasping first traps an opponent who still has framing and shrimping options, allowing them to recover guard despite the grip. The stack is what makes the locked control meaningful."
+      },
+      {
+        "question": "How deep should the underhooks be, and why does depth matter?",
+        "answer": "The forearms must penetrate fully under the thighs so your shoulders end up beneath the opponent's hamstrings, not merely under the knees. Shallow control under the knees lets the opponent separate their legs and prevents the stack from consolidating. Deep underhooks under the thighs turn both legs into a single controllable unit and make the stacking pressure effective."
+      },
+      {
+        "question": "Since committing both arms removes your ability to post, what keeps your back safe during this entry?",
+        "answer": "Your head position, chest pressure, and wide base replace the missing post. Driving your head into the opponent's chest or near hip blocks their rotation toward your back, dropping chest weight onto the thighs consolidates the stack, and a wide base on the balls of your feet lets you ride a bridge or lateral roll without being turned over. Without these, the committed posture invites back-takes and reversals."
+      },
+      {
+        "question": "When the opponent inserts a strong knee shield before you complete both underhooks, what is the better adjustment than forcing the symmetric entry?",
+        "answer": "Stop fighting to force both arms in against the established frame and instead commit to the single underhook you already secured, transitioning to a leg-weave or over-under control on the framing side. Chasing both legs against a knee shield only creates space and stalls; redirecting to a one-side pressure control keeps your advantage and avoids resetting to neutral."
+      }
+    ],
+    "safety_considerations": "This entry stacks the opponent's weight onto their head, neck, and upper back, so apply elevation and pressure progressively rather than slamming the hips overhead - sudden or forced stacking can compress the cervical spine. The defender should always have room to roll or tap, and partners must communicate during heavy stacking drills. The passer's committed arms also create scramble and rolling situations, so train on adequate mat space and control the speed of any bridge or roll to protect both practitioners' necks and shoulders."
+  },
+  "defender": {
+    "name": "Open Guard to Double Unders Defender",
+    "description": "How to defend the Double Unders entry from Open Guard bottom in BJJ. Recognize the scoop, frame before the stack, fight the underhooks, and prevent the dominant control.",
+    "overview": "As the defender, your job is to prevent the top player from converting a neutral open-guard exchange into the punishing Double Unders stack. The danger window is narrow: it opens the instant the passer clears your feet and begins to scoop both arms under your thighs, and it closes once they stack your hips and clasp their hands behind your back. Everything depends on acting inside that window.\n\nYour primary defense is denying the underhooks before they are dug. Keep at least one foot or knee framing on the passer's hip or shoulder so they cannot slide both arms under your thighs cleanly, and fight to insert a knee shield on the side they reach. If they secure one underhook, immediately make the position asymmetric by framing hard on the open side so they cannot complete the second - a half-entry is far easier to escape than a locked stack.\n\nIf the stack is already forming, shift to escape-oriented defense rather than pure resistance. Turning your hips to one side preserves a deep half entry on the low side and lets you use the passer's committed posture against them. Because both of the passer's arms are buried under your legs, their back and their balance are vulnerable - a well-timed dive underneath or a bridge-and-roll can turn their commitment into your reversal. The worst outcome is accepting a flat, fully stacked position where the locked control is complete."
+,
+    "key_principles": [
+      "Treat the moment the passer clears your feet as the alarm - the underhook entry is imminent and you have a narrow window to act",
+      "Keep a foot or knee framing on the hip or shoulder to deny clean penetration of both arms under your thighs",
+      "Make the entry asymmetric - if one underhook is in, frame hard on the open side to stop the second",
+      "Turn your hips to one side rather than accepting a flat stack, preserving a deep half entry on the low side",
+      "Exploit the passer's committed arms - their back and balance are exposed, so dive under or bridge-and-roll when the stack forms",
+      "Use frames built on skeletal alignment, not muscle, so you survive the stack pressure without exhausting"
+    ],
+    "recognition_cues": [
+      "The passer clears or strips your feet off their hips and steps their hips forward to close distance to your thighs",
+      "You feel one or both of the passer's forearms sliding under your thighs and their shoulders dropping beneath your hamstrings",
+      "Your hips begin to elevate off the mat as the passer lifts with their shoulders and drives your knees toward your own shoulders"
+    ],
+    "defensive_options": [
+      {
+        "action": "Insert a knee shield or keep a foot framing on the passer's hip to block the second underhook",
+        "when_to_use": "The instant the passer clears your feet and reaches for the first underhook, before both arms are under your thighs",
+        "targets_outcome": "Open Guard/Top",
+        "if_successful": "The passer cannot dig both arms in cleanly and is forced to a one-sided control or back to a neutral passing exchange while you retain a framing structure",
+        "risk": "If your frame is shallow or late, the passer drives past it and completes both underhooks anyway"
+      },
+      {
+        "action": "Dive underneath the passer's committed posture to enter deep half guard",
+        "when_to_use": "As the stack begins and the passer drives their weight forward but before the hands are clasped and the head is anchored",
+        "targets_outcome": "Open Guard/Bottom",
+        "if_successful": "You get your head below the passer's hip line, take the underhook on their near leg, and rotate underneath into deep half, neutralizing the stack and threatening sweeps",
+        "risk": "If you fail to get your head below their hip, you end up flattened and stacked with both their arms locked around your legs"
+      },
+      {
+        "action": "Bridge and roll into the passer's committed arms to off-balance and reverse them",
+        "when_to_use": "When both of the passer's arms are buried under your legs and their base narrows or their head is not yet anchored",
+        "targets_outcome": "Open Guard/Bottom",
+        "if_successful": "The passer cannot post with their buried arms, so a sharp bridge toward the open side tips them over and you come up on top",
+        "risk": "A mistimed bridge feeds the stack, drives your own weight onto your shoulders, and helps the passer consolidate the control"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Open Guard/Top",
+        "how": "Defend before the entry completes by framing on the hip and inserting a knee shield so the passer cannot dig both underhooks. Forcing them to a one-sided control keeps you in a neutral open-guard exchange rather than the locked stack."
+      },
+      {
+        "outcome": "Open Guard/Bottom",
+        "how": "Exploit the passer's committed posture: either dive underneath to deep half before their hands clasp, or bridge and roll into their buried arms while their base is narrow, converting their commitment into your reversal or sweep entry."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Letting both feet leave the passer's hips with no frame as they close distance",
+        "consequence": "The passer slides both arms under your thighs unopposed and digs clean underhooks before you can react",
+        "correction": "Keep at least one foot or knee framing on the hip or shoulder until you have a knee shield established, never surrendering both frames at once"
+      },
+      {
+        "error": "Accepting a flat, square stack instead of turning your hips to one side",
+        "consequence": "A flat back lets the passer stack you completely and clasp behind your back, completing the locked control with no escape angle left",
+        "correction": "Constantly turn your hips to one side as the stack forms, preserving a deep half entry on the low side and a roll on the high side"
+      },
+      {
+        "error": "Pushing straight against the passer's chest instead of attacking their committed arms",
+        "consequence": "You waste energy against their strongest pressure vector while their buried arms remain free to clasp and consolidate",
+        "correction": "Redirect to exploiting the committed posture - dive underneath or bridge-and-roll while their arms cannot post, rather than pushing on the chest"
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "What is the single most important moment to recognize when defending the Double Unders entry?",
+        "answer": "The moment the passer clears your feet off their hips and steps forward to close distance to your thighs. This is the alarm that the underhook entry is imminent. Acting in that narrow window - framing on the hip and inserting a knee shield before both arms are under your thighs - is far easier than escaping a fully locked and stacked control after the hands have clasped."
+      },
+      {
+        "question": "Why does turning your hips to one side beat accepting a flat stack?",
+        "answer": "A flat, square back lets the passer stack you completely and clasp behind your back to finish the locked control with no escape angle remaining. Turning your hips to one side reduces the stacking pressure on your spine and preserves two escape paths: a deep half entry on the low side and a bridge-and-roll on the high side. Staying angled keeps the position dynamic instead of letting it consolidate."
+      },
+      {
+        "question": "How can the passer's commitment of both arms under your legs be turned against them?",
+        "answer": "Because both of the passer's arms are buried under your legs, they cannot post, which leaves their back and their balance exposed. Before their hands clasp and their head anchors, you can dive your head below their hip line into deep half guard, or bridge sharply toward the open side to tip their unpostable base over and come up on top. Their commitment becomes your reversal opportunity."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2: Recognition and Framing",
+        "focus": "Spotting the entry and denying the underhooks",
+        "description": "Partner slowly clears your feet and reaches for the underhooks at 30% speed. Practice keeping a foot or knee frame on the hip and inserting a knee shield before both arms penetrate. Focus on recognizing the feet-clearing cue and reacting immediately. 20-30 repetitions per session."
+      },
+      {
+        "phase": "Week 3-4: Asymmetric Defense and Deep Half Entry",
+        "focus": "Stopping the second underhook and diving underneath",
+        "description": "Partner secures one underhook at 50% resistance. Practice framing hard on the open side to deny the second, and when the stack begins, diving your head below their hip into deep half. Drill both the frame-and-deny and the dive-underneath responses. 10-15 repetitions of each per session."
+      },
+      {
+        "phase": "Month 2+: Live Stack Defense and Reversals",
+        "focus": "Escaping and reversing under full resistance",
+        "description": "Start with the passer committing the Double Unders entry at full resistance. Work to deny, dive to deep half, or bridge-and-roll into their committed arms before the control locks. Reset when you escape, reverse, or are fully stacked and controlled. 4-5 minute rounds."
+      }
+    ]
+  },
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Belt/Waistband Grip Entry",
+      "description": "Instead of clasping the hands behind the lower back, the passer grips the belt or waistband (gi) once both arms are under the thighs. This grip is harder to break than a hand clasp and gives a strong handle to steer the hips during the subsequent pass, at the cost of slightly slower entry speed.",
+      "when_to_use": "Gi training where a belt or sturdy waistband is available and grip security is prioritized over entry speed"
+    },
+    {
+      "variant_name": "Body-Lock Double Unders Entry",
+      "description": "A no-gi adaptation where, after digging both underhooks, the passer connects the hands into a body lock meeting on the far hip rather than the lower back. This deepens the connection for no-gi where sweat makes grips slip and emphasizes a tighter chest-to-thigh stack.",
+      "when_to_use": "No-gi or MMA contexts where grips are slippery and a deeper body-lock connection is more reliable than a behind-the-back clasp"
+    }
+  ],
+  "position_integration": "Open Guard to Double Unders is the bridge between neutral open-guard passing and the dedicated double-underhook pressure-passing system. It sits at the top of a passing tree whose branches include the Double Under Pass to side control, a back-take when the defender turns away, and a mount entry when the legs are cleared - all of which depend on first establishing the stacking control this entry provides. Within a passer's game it complements other open-guard pass entries such as the toreando, knee cut, and leg weave, offering the heavy, committed option for opponents who present their legs in front rather than framing deeply on the hips. Strategically, mastering this entry teaches the passer to read when the hips are light enough to commit both arms and to consolidate control before advancing, a discipline that transfers across the entire pressure-passing hierarchy. For the guard player, understanding the entry from the defensive side is equally essential, since recognizing and interrupting it before the stack locks is one of the highest-value open-guard retention skills."
+}

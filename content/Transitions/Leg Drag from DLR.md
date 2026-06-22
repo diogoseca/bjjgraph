@@ -10,6 +10,41 @@ description: "Master the leg drag pass from De La Riva Guard. Complete BJJ guide
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Leg Drag from DLR",
+  "description": "Master the leg drag pass from De La Riva Guard. Complete BJJ guide covering grip sequences, hook clearing, timing windows, and defensive counters for all levels.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Leg Drag from DLR", "item": "https://bjjgraph.org/Transitions/Leg-Drag-from-DLR" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Leg Drag from DLR",
+  "description": "Leg Drag from DLR is a guard pass where the top player clears the De La Riva hook, controls the bottom player's leg, and drags it across their centerline to establish dominant leg drag control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the leg drag pass from De La Riva Guard. Complete BJJ guide
 </div>
 
 <section id="overview" class="content-section">
+
+**Leg Drag from DLR is a guard pass where the top player clears the De La Riva hook, controls the bottom player's leg, and drags it across their centerline to establish dominant leg drag control.**
 
 The leg drag from De La Riva Guard is one of the most effective guard passing techniques in modern BJJ, used extensively at the highest levels of competition. The passer strips or neutralizes the DLR hook, controls the bottom player's legs at the ankle or pants level, and drags one leg across the opponent's body while stepping around to establish dominant hip control. This technique exploits the inherent vulnerability in DLR guard structure—the bottom player's commitment to the hook creates predictable leg positioning that the passer can redirect into a powerful passing angle.
 
@@ -220,5 +257,7 @@ The leg drag from DLR is a core component of any systematic guard passing game. 
 
 
 </section>
+
+
 
 </main>

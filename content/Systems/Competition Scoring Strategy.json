@@ -12,7 +12,8 @@
   ],
   "system_type": "Competition Strategy",
   "difficulty_level": "Intermediate",
-  "overview": "Competition Scoring Strategy is a comprehensive tactical framework designed to maximize point accumulation and positional dominance in Brazilian Jiu-Jitsu tournaments. This system integrates deep understanding of ruleset variations, positional hierarchy, and risk-reward calculations to create winning game plans across all competition formats. The framework addresses both IBJJF point-based competitions and submission-only events, emphasizing intelligent position selection, transition timing, and strategic decision-making under pressure. Practitioners learn to build commanding leads through systematic point accumulation while maintaining submission threats, creating a dual-threat approach that forces opponents into defensive reactions. The system incorporates energy management principles, understanding when to explode for positional advancement versus when to consolidate control and drain opponent resources. Advanced competitors use this framework to construct entire match narratives, dictating pace, position selection, and engagement timing to maximize their competitive advantages while minimizing risk exposure.",
+  "summary": "The Competition Scoring Strategy is a tactical framework for Brazilian Jiu-Jitsu tournaments that maximizes point accumulation and positional dominance by combining positional hierarchy, risk-reward calculation, and ruleset-specific game planning.",
+  "overview": "In modern competitive Brazilian Jiu-Jitsu, the gap between champions and contenders often comes down to tactical scoring decisions rather than raw technique. This system integrates deep understanding of ruleset variations, positional hierarchy, and risk-reward calculations to create winning game plans across all competition formats. The framework addresses both IBJJF point-based competitions and submission-only events, emphasizing intelligent position selection, transition timing, and strategic decision-making under pressure. Practitioners learn to build commanding leads through systematic point accumulation while maintaining submission threats, creating a dual-threat approach that forces opponents into defensive reactions. The system incorporates energy management principles, understanding when to explode for positional advancement versus when to consolidate control and drain opponent resources. Advanced competitors use this framework to construct entire match narratives, dictating pace, position selection, and engagement timing to maximize their competitive advantages while minimizing risk exposure.",
   "key_principles": [
     "Position before submission - secure dominant positions systematically before hunting finishes",
     "Point optimization - maximize scoring opportunities through efficient position transitions",
@@ -264,7 +265,7 @@
       "relationship": "Active guard for sweep attempts and advantage generation"
     },
     {
-      "name": "X-Guard",
+      "name": "Reverse X-Guard",
       "content_type": "Position",
       "relationship": "High-percentage sweep position for recovering point deficits"
     },
@@ -279,11 +280,6 @@
       "relationship": "Control position for lead preservation and submission threats"
     },
     {
-      "name": "Pass to Side Control",
-      "content_type": "Transition",
-      "relationship": "Primary 3-point scoring action from top position"
-    },
-    {
       "name": "Guard Pull",
       "content_type": "Transition",
       "relationship": "Strategic opening that sacrifices takedown points for guard game"
@@ -294,14 +290,9 @@
       "relationship": "4-point scoring transition to highest value position"
     },
     {
-      "name": "Side Control to Mount",
+      "name": "Ankle Pick",
       "content_type": "Transition",
-      "relationship": "4-point scoring advancement from side control or knee on belly"
-    },
-    {
-      "name": "Single Leg Takedown",
-      "content_type": "Transition",
-      "relationship": "2-point opening strategy with lower energy investment"
+      "relationship": "2-point opening takedown strategy with lower energy investment"
     },
     {
       "name": "Positional Hierarchy",
@@ -334,9 +325,9 @@
       "relationship": "Pacing explosive scoring attempts with conservative control phases"
     },
     {
-      "name": "Timing and Rhythm",
+      "name": "Position Chains",
       "content_type": "Principle",
-      "relationship": "Controlling match tempo to favor your strategic advantages"
+      "relationship": "Linking positions into sequences that maximize cumulative point accumulation"
     },
     {
       "name": "Competition Preparation System",
@@ -372,6 +363,48 @@
       "name": "Kimura",
       "content_type": "Submission",
       "relationship": "Versatile submission threat across multiple positions for advantage accumulation"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What point values does IBJJF award for the highest-value positions?",
+      "answer": "Mount and back control each award 4 points, the highest in IBJJF competition, followed by guard passing at 3 points and sweeps, takedowns, and knee-on-belly at 2 points each."
+    },
+    {
+      "question": "Why should you integrate submission threats even when your primary goal is point accumulation?",
+      "answer": "Pure point-chasing lets opponents defend predictably; legitimate submission threats force defensive reactions that open additional scoring opportunities, creating a dual-threat dilemma that makes position maintenance and advancement easier."
+    },
+    {
+      "question": "What is an example of a high-value point chain starting from a guard pass?",
+      "answer": "Passing the guard (3 points), transitioning to knee-on-belly (2 points), then advancing to mount (4 points) accumulates 9 points in a single connected sequence."
+    },
+    {
+      "question": "How should your strategy shift after establishing a 6-plus point lead?",
+      "answer": "Shift to lead consolidation: control grips, distance, and pace to deny scoring opportunities while maintaining the minimum referee-acceptable activity level needed to avoid stalling penalties."
+    },
+    {
+      "question": "What decides the winner in a closely contested match where points are equal?",
+      "answer": "Advantages serve as the tiebreaker; they are generated by near-submissions, incomplete sweeps, and almost-completed guard passes, so deliberate advantage-hunting often decides defensively even matches."
+    },
+    {
+      "question": "What trade-off does a guard puller accept at the start of a match?",
+      "answer": "A guard puller forgoes the potential 2-point takedown to immediately start their guard game, often pulling to sweep-threatening positions like De La Riva or X-Guard to recover the deficit."
+    },
+    {
+      "question": "What is a common mistake competitors make when ahead on points late in a match?",
+      "answer": "Becoming overly passive, which draws stalling penalties and surrenders momentum; the correct balance is staying just active enough to satisfy referees while controlling position and pace."
+    },
+    {
+      "question": "How should risk acceptance change when trailing on points in the final two minutes?",
+      "answer": "Risk should escalate with the size of the deficit and shrinking clock; with two minutes left calculated risks like sweep attempts become necessary, and with thirty seconds desperation techniques may be warranted."
+    },
+    {
+      "question": "How does energy management factor into a scoring game plan?",
+      "answer": "Competitors must alternate explosive bursts for positional advancement with conservative control phases, timing aggressive scoring attempts to coincide with the opponent's fatigue while preserving late-match capacity."
+    },
+    {
+      "question": "Why is referee awareness a critical competition scoring skill?",
+      "answer": "Referee interpretation of stalling and advantages varies; understanding these tendencies lets competitors maintain penalty-free activity and frame near-scoring sequences so they are rewarded with advantages."
     }
   ]
 }

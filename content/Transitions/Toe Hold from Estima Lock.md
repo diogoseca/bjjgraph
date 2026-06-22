@@ -10,6 +10,41 @@ description: "Master the Toe Hold from Estima Lock in BJJ. Learn grip transition
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Toe Hold from Estima Lock",
+  "description": "Master the Toe Hold from Estima Lock in BJJ. Learn grip transitions, rotational mechanics, finishing details, and defensive counters for this leg attack chain.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Toe Hold from Estima Lock", "item": "https://bjjgraph.org/Transitions/Toe-Hold-from-Estima-Lock" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Toe Hold from Estima Lock",
+  "description": "Toe Hold from Estima Lock is a chain-attack transition where the attacker redirects the inverted footlock into an inward-rotating toe hold the instant the defender counter-rotates to defend the Estima Lock, exploiting two complementary foot-attack angles.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Toe Hold from Estima Lock in BJJ. Learn grip transition
 </div>
 
 <section id="overview" class="content-section">
+
+**Toe Hold from Estima Lock is a chain-attack transition where the attacker redirects the inverted footlock into an inward-rotating toe hold the instant the defender counter-rotates to defend the Estima Lock, exploiting two complementary foot-attack angles.**
 
 The Toe Hold from Estima Lock is a chain attack transition that capitalizes on the opponent's defensive response to the primary Estima Lock submission. When the defender counter-rotates their foot or adjusts their ankle angle to neutralize the Estima Lock's rotational pressure, the top player transitions to a toe hold by redirecting the attack vector. The foot is already isolated and controlled, making this grip change efficient and difficult to defend when timed correctly with the opponent's maximum defensive commitment.
 
@@ -216,5 +253,7 @@ The Toe Hold from Estima Lock functions as a critical secondary attack within mo
 
 
 </section>
+
+
 
 </main>

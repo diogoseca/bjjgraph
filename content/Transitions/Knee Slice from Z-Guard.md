@@ -10,6 +10,41 @@ description: "Master the Knee Slice from Z-Guard in BJJ. Complete guide covering
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Knee Slice from Z-Guard",
+  "description": "Master the Knee Slice from Z-Guard in BJJ. Complete guide covering shield collapse, passing mechanics, and defense for this essential half guard pass.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Knee Slice from Z-Guard", "item": "https://bjjgraph.org/Transitions/Knee-Slice-from-Z-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Knee Slice from Z-Guard",
+  "description": "The Knee Slice from Z-Guard is a guard pass where the top player collapses the elevated knee shield, then drives a knee diagonally across the trapped thigh to clear the legs and settle into side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Knee Slice from Z-Guard in BJJ. Complete guide covering
 </div>
 
 <section id="overview" class="content-section">
+
+**The Knee Slice from Z-Guard is a guard pass where the top player collapses the elevated knee shield, then drives a knee diagonally across the trapped thigh to clear the legs and settle into side control.**
 
 The Knee Slice from Z-Guard is a fundamental guard passing technique that addresses one of the most challenging defensive structures in modern half guard play. Z-Guard positions the bottom player's knee shield at shoulder height rather than hip level, creating exceptional distance management that neutralizes many standard passing approaches. The knee slice overcomes this elevated barrier through systematic shield collapse combined with angular knee movement that penetrates the guard structure at its weakest transition point—the gap between the collapsed shield frame and the bottom player's hip control. This makes the technique essential knowledge for any practitioner regularly encountering Z-Guard in training or competition.
 
@@ -218,5 +255,7 @@ The Knee Slice from Z-Guard occupies a central role in the top player's half gua
 
 
 </section>
+
+
 
 </main>

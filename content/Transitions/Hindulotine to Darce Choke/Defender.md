@@ -158,7 +158,7 @@ The defender must address two concurrent threats during this transition: the mom
 
 Strategically, the best defense against this transition operates at the prevention level. Recognizing the attacker's intent before the grip change occurs allows the defender to retract their frame, deny the threading path, or create enough distance to fully escape the head control. When prevention fails, the defender must work systematically through escape sequences that address the Darce grip while maintaining awareness of the guillotine fallback threat.
 
-**Opponent's Starting Position**: [[Positions/Hindulotine]] (Top)
+**Opponent's Starting Position**: [[Positions/Hindulotine]] (Bottom)
 
 </section>
 

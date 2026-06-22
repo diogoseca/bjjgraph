@@ -134,10 +134,23 @@ description: "Master 10th Planet Half Guard Bottom System with Lockdown, Electri
 }
 </script>
 
-> 10th Planet Half Guard Bottom System is a intermediate difficulty Guard System system. Integrates 5 components.
 
-**System Type**: Guard System
-**Difficulty Level**: Intermediate
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "10th Planet Half Guard Bottom System",
+  "description": "The 10th Planet Half Guard Bottom System is Eddie Bravo's no-gi framework that weaponizes the Lockdown leg trap to off-balance opponents and chain whip-up sweeps, the Old School, back takes, and the Electric Chair submission from bottom half guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Guard System</span>
+<span class="meta-chip">Intermediate difficulty</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -146,7 +159,27 @@ description: "Master 10th Planet Half Guard Bottom System with Lockdown, Electri
 
 ## What is 10th Planet Half Guard Bottom System?
 
-The 10th Planet Half Guard Bottom System represents Eddie Bravo's revolutionary approach to bottom half guard, transforming what was traditionally a defensive position into a powerful offensive platform. At its core, the system centers around the Lockdown control mechanism - a unique leg configuration that traps the opponent's leg and disrupts their base while creating multiple offensive pathways. This systematic framework connects control positions like the Lockdown and Deep Half Guard to powerful sweeps, back takes, and the signature Electric Chair submission. Unlike traditional half guard systems that rely primarily on underhooks and conventional sweeps, the 10th Planet approach emphasizes leg control, creating leverage through the Lockdown to off-balance opponents and generate explosive attacking opportunities. The system is particularly effective in no-gi grappling where traditional gi grips are unavailable, making it a cornerstone of modern submission grappling competition. Through systematic application of the Lockdown's control principles, practitioners learn to dominate from what opponents perceive as a neutral or defensive position, consistently generating submission threats and positional advances.
+**The 10th Planet Half Guard Bottom System is Eddie Bravo's no-gi framework that weaponizes the Lockdown leg trap to off-balance opponents and chain whip-up sweeps, the Old School, back takes, and the Electric Chair submission from bottom half guard.**
+
+Developed by Eddie Bravo as a cornerstone of 10th Planet Jiu-Jitsu, this framework grew out of the no-gi competition era where conventional gi-grip half guard sweeps were unavailable, forcing innovation around leg control rather than collar and sleeve grips. Historically, bottom half guard was treated as a defensive holding pattern; the 10th Planet approach reframes it as an offensive platform built on the Lockdown control mechanism - a unique figure-four leg configuration that traps the opponent's leg, disrupts their base, and creates multiple offensive pathways. This systematic framework connects control positions like the Lockdown and Deep Half Guard to powerful sweeps, back takes, and the signature Electric Chair submission. Unlike traditional half guard systems that rely primarily on underhooks and conventional sweeps, the 10th Planet approach emphasizes leg control, creating leverage through the Lockdown to off-balance opponents and generate explosive attacking opportunities. Through systematic application of the Lockdown's control principles, practitioners learn to dominate from what opponents perceive as a neutral or defensive position, consistently generating submission threats and positional advances.
+
+</section>
+
+
+
+<section id="unlock-graph" class="content-section system-unlock" data-system-unlock hidden>
+
+## Unlock this part of the graph
+
+<p class="section-subtitle">This system teaches the highlighted nodes in the graph. Mark what you already know &mdash; be honest, it's your game.</p>
+
+<div class="system-progress" data-system-progress>
+<svg class="system-progress__ring" viewBox="0 0 44 44" aria-hidden="true"><circle class="system-progress__ring-bg" cx="22" cy="22" r="19"></circle><circle class="system-progress__ring-fill" cx="22" cy="22" r="19"></circle></svg>
+<div class="system-progress__text">You've unlocked <strong class="system-progress__known">0</strong> / <span class="system-progress__total">0</span> techniques in this system</div>
+<button class="system-progress__mark-all" data-mark-system type="button">Mark whole system as known</button>
+</div>
+
+<ul class="system-members" data-system-members></ul>
 
 </section>
 
@@ -334,22 +367,20 @@ The 10th Planet Half Guard Bottom System requires drilling that emphasizes both 
 - [[Electric Chair]] (Position) - Primary submission threat position created from the Lockdown
 - [[Old School]] (Position) - Classic sweep position accessed from Lockdown when opponent defends Electric Chair
 - [[Dogfight Position]] (Position) - Transitional position reached when coming up on underhook from bottom half guard
-- [[Rubber Guard]] (Position) - Connected 10th Planet system that shares control principles and can be accessed from half guard transitions
+- [[Half Guard]] (Position) - Base position from which the Lockdown and the entire bottom system is established
 - [[Lockdown Recovery]] (Transition) - Family of sweep techniques executed from the Lockdown position
 - [[Old School Sweep]] (Transition) - Signature sweep of the system using underhook and arm triangle from Lockdown
-- [[Underhook Sweep from Half]] (Transition) - Traditional half guard sweep that complements the Lockdown-based attacks
-- [[Deep Half Entry]] (Transition) - Escape route and alternative attack platform when Lockdown is countered
-- [[Half Guard to Back Take]] (Transition) - Common result of successful Old School sweeps and whip-up attacks
-- [[Whizzer]] (Transition) - Opponent's common defensive response that must be countered within the system
+- [[Back Door Escape from Half Guard]] (Transition) - Deep Half Guard escape and reversal pathway integrated when Lockdown is countered
+- [[Back Take from Lockdown Defense]] (Transition) - Common back-take result of successful Old School sweeps and whip-up attacks
 - [[Electric Chair]] (Submission) - Primary submission finish from the Lockdown position
-- [[Kimura from Half Guard]] (Submission) - Alternative submission option when opponent extends arm during Lockdown battles
-- [[Triangle from Guard]] (Submission) - Possible transition when opponent posts arm during sweep defense
+- [[Kimura Trap]] (Position) - Alternative attacking control when opponent extends their arm during Lockdown battles
+- [[Butterfly Half Guard]] (Position) - Related hybrid bottom configuration that feeds the underhook and elevation game
 - [[Grips]] (Principle) - Critical principle for winning the underhook battle and controlling grips from bottom half guard
-- [[Whizzer Control]] (Principle) - Understanding opponent's whizzer defense to counter it effectively
-- [[Kuzushi]] (Principle) - Fundamental principles underlying all Lockdown-based sweeps
+- [[Hooks]] (Principle) - Underlying principle of the Lockdown leg trap and the hooking control it establishes
+- [[Kuzushi]] (Principle) - Fundamental off-balancing principle underlying all Lockdown-based sweeps
 - [[Frames]] (Principle) - Prevents opponent from smashing and flattening before Lockdown is established
 - [[Fork Attacks]] (Principle) - Using Electric Chair threats to force defensive movements that open sweep and back take opportunities
-- [[Control Maintenance]] (Principle) - The Lockdown as an ultimate guard retention tool that prevents passing and maintains bottom position control
+- [[Control Maintenance]] (Principle) - The Lockdown as a guard retention tool that prevents passing and maintains bottom position control
 - [[Position Chains]] (Principle) - How individual techniques connect to form a cohesive attacking system with logical progressions
 - [[10th Planet Rubber Guard System]] (System) - Related 10th Planet system that shares Eddie Bravo's systematic approach to guard play
 - [[10th Planet No-Gi Guard System]] (System) - Broader 10th Planet framework that encompasses half guard as one component

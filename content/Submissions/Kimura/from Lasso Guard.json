@@ -1,6 +1,7 @@
 {
   "name": "Kimura from Lasso Guard",
   "description": "Master the Kimura shoulder lock from Lasso Guard top position. Learn setup mechanics, figure-four grip details, finishing sequences, and defensive counters.",
+  "summary": "The Kimura from Lasso Guard is a figure-four shoulder lock the top player applies to the bottom player's exposed non-lasso arm, using internal rotation to attack the shoulder while simultaneously threatening to clear the lasso and pass.",
   "tags": [
     "bjj",
     "submission",
@@ -18,7 +19,7 @@
   "starting_position": "Lasso Guard",
   "from_position": "Lasso Guard/Top",
   "success_rate": 62,
-  "overview": "The Kimura from Lasso Guard is an opportunistic shoulder lock attack available to the top player when the guard player over-commits to maintaining lasso control. When the bottom player threads their shin across your arm and focuses on extending the lasso, their non-lasso arm often becomes vulnerable—typically the hand gripping the collar or posting on the mat. By isolating this arm with a figure-four grip and applying controlled rotational force, the top player transforms a defensive guard-passing scenario into a direct submission threat.\n\nThis attack exploits the fundamental trade-off inherent in lasso guard: the bottom player commits significant body structure to maintaining the lasso, leaving secondary control points exposed. The top player must recognize the window when the non-lasso arm drifts away from a protected position—usually when the bottom player reaches for collar grips, attempts sweep setups, or adjusts hip positioning. Timing the Kimura entry during these moments of commitment dramatically increases finishing probability.\n\nThe Kimura from Lasso Guard creates a powerful tactical dilemma. If the bottom player defends the Kimura by releasing their lasso grips, the top player gains favorable passing position with the primary obstacle removed. If they stubbornly maintain the lasso while defending the Kimura, their posture collapses and the submission pressure compounds. This win-win dynamic makes the Kimura attempt valuable even when it does not result in a direct tap, as it systematically degrades the bottom player's guard structure.",
+  "overview": "Lasso guard is built on a structural trade-off: the bottom player commits their shin, hips, and sleeve grip to trapping one of your arms, and that heavy commitment routinely leaves their other arm unguarded. When the bottom player threads their shin across your arm and focuses on extending the lasso, their non-lasso arm often becomes vulnerable—typically the hand gripping the collar or posting on the mat. By isolating this arm with a figure-four grip and applying controlled rotational force, the top player transforms a defensive guard-passing scenario into a direct submission threat.\n\nThis attack exploits the fundamental trade-off inherent in lasso guard: the bottom player commits significant body structure to maintaining the lasso, leaving secondary control points exposed. The top player must recognize the window when the non-lasso arm drifts away from a protected position—usually when the bottom player reaches for collar grips, attempts sweep setups, or adjusts hip positioning. Timing the Kimura entry during these moments of commitment dramatically increases finishing probability.\n\nThe Kimura from Lasso Guard creates a powerful tactical dilemma. If the bottom player defends the Kimura by releasing their lasso grips, the top player gains favorable passing position with the primary obstacle removed. If they stubbornly maintain the lasso while defending the Kimura, their posture collapses and the submission pressure compounds. This win-win dynamic makes the Kimura attempt valuable even when it does not result in a direct tap, as it systematically degrades the bottom player's guard structure.",
   "safety_considerations": {
     "injury_risks": [
       {
@@ -124,7 +125,7 @@
     }
   ],
   "attacker": {
-    "name": "from Lasso Guard Attacker",
+    "name": "Kimura from Lasso Guard Attacker",
     "description": "Learn to execute the Kimura shoulder lock from Lasso Guard top. Complete guide covering grip setup, arm isolation, finishing mechanics, and counter responses.",
     "overview": "Attacking with the Kimura from Lasso Guard top requires recognizing the moment when the bottom player's non-lasso arm becomes vulnerable. The attack capitalizes on the guard player's structural commitment to maintaining the lasso—their focus on sleeve control and shin placement creates a window where the free arm drifts into an exposed position. Success depends on rapid arm isolation, heavy chest pressure to pin the opponent's hips, and controlled rotational finishing mechanics that attack the shoulder joint through the figure-four grip system. The dual-purpose nature of this attack makes it especially valuable: even unsuccessful attempts degrade the opponent's guard by forcing them to release grips or compromise posture to defend.",
     "key_principles": [
@@ -314,7 +315,7 @@
     ]
   },
   "defender": {
-    "name": "from Lasso Guard Defender",
+    "name": "Kimura from Lasso Guard Defender",
     "description": "Complete defense guide for the Kimura from Lasso Guard. Learn early recognition cues, arm protection mechanics, escape paths, and safe recovery strategies.",
     "overview": "Defending against the Kimura from Lasso Guard requires understanding the specific moments of vulnerability that the top player exploits. As the lasso guard player, your commitment to maintaining sleeve control and shin positioning creates windows where your non-lasso arm becomes exposed—particularly when reaching for collar grips, posting on the mat, or adjusting hip angles. Successful defense begins with recognizing the attack early, before the figure-four grip locks, and involves a combination of arm retraction, hip movement, and grip fighting to prevent the top player from establishing the mechanical advantage needed to finish the submission. The critical defensive principle is maintaining elbow connection to your torso at all times, denying the space the attacker needs to thread the figure-four.",
     "key_principles": [

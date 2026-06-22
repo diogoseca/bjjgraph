@@ -1,5 +1,6 @@
 {
   "name": "Reguard from Double Jump",
+  "summary": "Reguard from Double Jump is a defensive guard-recovery transition where the bottom player extracts their legs from the Double Jump entanglement and closes full guard around the opponent's waist, trading explosive sweep threats for a stable closed-guard attacking platform.",
   "description": "Master reguard from Double Jump in BJJ. Complete guide to recovering closed guard from bottom with defensive framing, hip movement, and guard closure techniques.",
   "tags": [
     "guard-recovery",
@@ -86,12 +87,12 @@
       "relationship": "Primary offensive target from Double Jump that this reguard supplements"
     },
     {
-      "name": "Guard Recovery from Double Unders",
-      "relationship": "Related guard recovery concept using similar framing and hip escape principles"
+      "name": "Lockdown",
+      "relationship": "Alternative leg-entanglement recovery from Double Jump when closed guard closure is unrealistic"
     },
     {
-      "name": "Reguard from Butterfly Half Guard",
-      "relationship": "Similar reguard technique from different compromised guard position"
+      "name": "Electric Chair",
+      "relationship": "Offensive option from Double Jump that the reguard substitutes for when attacks are defended"
     }
   ],
   "attacker": {
@@ -263,6 +264,10 @@
       {
         "question": "What happens if you can only recover half guard instead of full closed guard during the reguard attempt?",
         "answer": "If only one leg gets through to hook the opponent's leg, accept half guard as an intermediate position rather than forcing an exposed guard closure attempt. From half guard bottom, you can work to upgrade to closed guard through knee shield adjustments, or transition to offensive half guard systems like deep half or lockdown. A solid half guard recovery is significantly better than an exposed position from a failed forced reguard."
+      },
+      {
+        "question": "If the opponent shuts down your closed guard closure by widening their base, what chain attack keeps you offensive?",
+        "answer": "When full closure is denied, hook one leg to establish half guard and immediately battle for the underhook, then chain into an old school sweep or deep half entry. Treat the failed reguard as the opening move of a half guard attack sequence rather than a dead end, keeping the opponent reacting to live sweep threats instead of consolidating their pass through your reorganizing legs."
       }
     ],
     "safety_considerations": "The reguard from Double Jump involves explosive hip movement under load, creating potential strain on hip flexors and lower back. Ensure adequate warm-up before drilling, particularly focusing on hip mobility and groin flexibility. Avoid forcing the guard closure if hip range of motion is insufficient, as this can lead to groin strains or hip impingement. During drilling, communicate clearly with training partners about resistance levels to prevent injury during the vulnerable leg extraction phase. If you experience hip or lower back discomfort during the movement, stop and reassess your body positioning before continuing."

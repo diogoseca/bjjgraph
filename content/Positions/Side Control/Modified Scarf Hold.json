@@ -3,7 +3,8 @@
   "slug": "modified-scarf-hold",
   "description": "Master Modified Scarf Hold in BJJ. Complete guide covering control mechanics, submission setups, and escape prevention with detailed perspective analysis.",
   "variant_uniqueness": "Chest pressure trades mobility for control",
-  "overview": "Modified Scarf Hold (Kuzure Kesa-Gatame) is a powerful pin position that combines elements of traditional scarf hold with side control positioning. This position offers exceptional control through chest-to-chest pressure while maintaining superior submission opportunities compared to standard side control variations.\n\nThe Modified Scarf Hold is characterized by the top player's chest positioned directly over the bottom player's chest, with the near arm controlled and the head typically trapped or pressured. Unlike traditional Kesa Gatame where the head is positioned at the opponent's hip, Modified Scarf Hold maintains a higher chest position that allows for better weight distribution and submission attacks.\n\nThis position excels in both gi and no-gi contexts, though the control mechanics differ slightly. In gi, lapel and sleeve grips enhance control and create additional submission pathways. In no-gi, underhooks and head control become paramount for maintaining the position against explosive escape attempts.\n\nThe strategic value of Modified Scarf Hold lies in its ability to immobilize the bottom player while keeping multiple submission options readily available. The chest-to-chest pressure creates a suffocating feeling that drains energy and limits breathing, making it particularly effective for wearing down opponents over time.\n\nFrom a tactical perspective, Modified Scarf Hold serves as an excellent transitional position. It can be entered from side control, mount transitions, or takedown completions. The position allows practitioners to maintain dominant control while setting up armbars, kimuras, and various chokes.\n\nThe learning curve for Modified Scarf Hold is moderate. Beginners can achieve basic control relatively quickly, but mastering the subtle weight distribution and pressure application requires significant mat time. Advanced practitioners develop the ability to flow between Modified Scarf Hold and other dominant positions while maintaining constant pressure and submission threats.\n\nCompetition applicability is high, particularly in gi competitions where the position scores as side control (3 points in IBJJF) and offers excellent opportunities for submission finishes. The position is equally effective in MMA and self-defense contexts due to its superior control and ground-and-pound potential.",
+  "summary": "Modified Scarf Hold (Kuzure Kesa-Gatame) is a side-control-family pin where the top player drives chest-to-chest pressure across the opponent's torso while trapping the near arm, immobilizing them and opening armbar, kimura, and choke attacks.",
+  "overview": "Within the side control family, Modified Scarf Hold occupies the ground between classical Kesa Gatame and orthodox side control, borrowing the head-and-arm entanglement of the former while keeping the squarer chest alignment of the latter. The result is a pin that trades a measure of the scarf hold's hip mobility for heavier, more centered chest pressure and a cleaner platform for upper-body submissions.\n\nThe Modified Scarf Hold is characterized by the top player's chest positioned directly over the bottom player's chest, with the near arm controlled and the head typically trapped or pressured. Unlike traditional Kesa Gatame where the head is positioned at the opponent's hip, Modified Scarf Hold maintains a higher chest position that allows for better weight distribution and submission attacks.\n\nThis position excels in both gi and no-gi contexts, though the control mechanics differ slightly. In gi, lapel and sleeve grips enhance control and create additional submission pathways. In no-gi, underhooks and head control become paramount for maintaining the position against explosive escape attempts.\n\nThe strategic value of Modified Scarf Hold lies in its ability to immobilize the bottom player while keeping multiple submission options readily available. The chest-to-chest pressure creates a suffocating feeling that drains energy and limits breathing, making it particularly effective for wearing down opponents over time.\n\nFrom a tactical perspective, Modified Scarf Hold serves as an excellent transitional position. It can be entered from side control, mount transitions, or takedown completions. The position allows practitioners to maintain dominant control while setting up armbars, kimuras, and various chokes.\n\nThe learning curve for Modified Scarf Hold is moderate. Beginners can achieve basic control relatively quickly, but mastering the subtle weight distribution and pressure application requires significant mat time. Advanced practitioners develop the ability to flow between Modified Scarf Hold and other dominant positions while maintaining constant pressure and submission threats.\n\nCompetition applicability is high, particularly in gi competitions where the position scores as side control (3 points in IBJJF) and offers excellent opportunities for submission finishes. The position is equally effective in MMA and self-defense contexts due to its superior control and ground-and-pound potential.",
   "key_principles": [
     "Chest-to-chest pressure is the foundation of control - maintain constant downward force through your sternum",
     "Control the near arm at all times - this prevents frames and creates submission pathways",
@@ -263,15 +264,15 @@
     "transitions": [
       {
         "transition": "Americana from Modified Scarf Hold",
-        "attempt_probability": 14
+        "attempt_probability": 13
       },
       {
         "transition": "Armbar on Free Arm",
-        "attempt_probability": 14
+        "attempt_probability": 13
       },
       {
         "transition": "Side Control to Mount",
-        "attempt_probability": 21
+        "attempt_probability": 20
       },
       {
         "transition": "Side Control to North-South",
@@ -295,7 +296,11 @@
       },
       {
         "transition": "Kimura from Modified Scarf Hold",
-        "attempt_probability": 15
+        "attempt_probability": 14
+      },
+      {
+        "transition": "Belly Down Armbar from Modified Scarf Hold",
+        "attempt_probability": 4
       }
     ]
   },
@@ -510,39 +515,39 @@
     "transitions": [
       {
         "transition": "Elbow Escape to Guard",
-        "attempt_probability": 7
+        "attempt_probability": 18
       },
       {
         "transition": "Bridge and Roll",
-        "attempt_probability": 4
+        "attempt_probability": 8
       },
       {
         "transition": "Roll to Turtle",
-        "attempt_probability": 75
+        "attempt_probability": 20
       },
       {
         "transition": "Frame and Shrimp to Guard",
-        "attempt_probability": 5
+        "attempt_probability": 22
       },
       {
         "transition": "Arm Extraction",
-        "attempt_probability": 7
+        "attempt_probability": 16
       },
       {
         "transition": "Ghost Escape",
-        "attempt_probability": 1
+        "attempt_probability": 5
       },
       {
         "transition": "Bridge Escape from Modified Scarf Hold",
-        "attempt_probability": 0
+        "attempt_probability": 4
       },
       {
         "transition": "Bridge from Modified Scarf Hold",
-        "attempt_probability": 0
+        "attempt_probability": 3
       },
       {
         "transition": "Escape Modified Scarf Hold",
-        "attempt_probability": 1
+        "attempt_probability": 4
       }
     ]
   }

@@ -1,6 +1,7 @@
 {
   "name": "Hindulotine to Darce Choke",
   "description": "Learn the Hindulotine to Darce Choke transition in BJJ. Convert guillotine control to Darce when opponent frames. Chain submissions for no-gi front headlock dominance.",
+  "summary": "The Hindulotine to Darce Choke is a front-headlock submission chain that converts a stalled guillotine into a Darce when the opponent frames with their near-side arm, threading the choking arm under that armpit to trap the limb they defended with.",
   "tags": [
     "bjj",
     "transition",
@@ -11,7 +12,7 @@
     "hindulotine",
     "submission-chain"
   ],
-  "from_position": "Hindulotine/Top",
+  "from_position": "Hindulotine/Bottom",
   "outcomes": [
     {
       "to": "Darce Control/Top",

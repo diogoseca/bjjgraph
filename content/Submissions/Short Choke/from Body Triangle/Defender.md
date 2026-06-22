@@ -156,7 +156,7 @@ description: "Complete defense guide against the short choke from body triangle.
 
 Defending the short choke from body triangle presents a layered challenge that combines breathing restriction from the locked leg configuration with arterial compression from the lapel choke. Your defensive priorities must be immediate and sequential: protect the neck by blocking lapel access with chin positioning and active hand fighting, manage breathing under ribcage compression through controlled shallow breaths, and work systematically toward clearing the body triangle to create escape opportunities. Time works decisively against you in this position because the dual pressure systems compound—the longer you remain trapped, the less energy and oxygen you have available to execute escape sequences. Early recognition of the lapel feed setup and immediate defensive action before the grip is established are essential for survival. Once the cross-grip is locked in with the lapel seated across both carotid arteries, your window to escape closes rapidly.
 
-**Opponent's Starting Position**: [[Positions/Back Control/Body Triangle]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Back Control/Body Triangle]] (Top)
 
 
 </section>

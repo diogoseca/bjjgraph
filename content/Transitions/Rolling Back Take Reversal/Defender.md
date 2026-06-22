@@ -158,7 +158,7 @@ The critical defensive concept is that the rolling reversal requires three seque
 
 Your positional advantage as the back controller with body triangle is substantial - you have gravity, mechanical leverage, and breathing restriction working in your favor. The rolling reversal is a desperation technique that requires precise timing and full commitment from your opponent, meaning that even partial defense typically results in your opponent returning to the same disadvantageous position with less energy. Recognize the setup cues early, maintain your base discipline, and use your opponent's failed attempts as opportunities to tighten control and accelerate your submission attacks.
 
-**Opponent's Starting Position**: [[Positions/Back Control/Body Triangle]] (Top)
+**Opponent's Starting Position**: [[Positions/Back Control/Body Triangle]] (Bottom)
 
 </section>
 

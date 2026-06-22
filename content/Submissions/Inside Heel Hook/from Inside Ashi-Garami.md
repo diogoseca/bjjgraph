@@ -10,10 +10,55 @@ description: "Master the Inside Heel Hook from Inside Ashi-Garami. Complete guid
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Inside Heel Hook from Inside Ashi-Garami targets the Knee and ankle joint. Risk: ACL (anterior cruciate ligament) tear from rotational force exceeding joint tolerance. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Inside Heel Hook from Inside Ashi-Garami",
+  "description": "Master the Inside Heel Hook from Inside Ashi-Garami. Complete guide to finishing mechanics, grip sequences, safety protocols, and defensive strategies.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Inside Heel Hook from Inside Ashi-Garami", "item": "https://bjjgraph.org/Submissions/Inside-Heel-Hook-from-Inside-Ashi-Garami" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Inside Heel Hook from Inside Ashi-Garami",
+  "description": "The Inside Heel Hook from Inside Ashi-Garami is a rotational knee submission that twists the captured heel inward to load torque across the knee's ligaments, attacked directly from the foundational ashi-garami entanglement before advancing to more secure leg-lock positions.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Inside Heel Hook from Inside Ashi-Garami is a rotational knee submission that twists the captured heel inward to load torque across the knee's ligaments, attacked directly from the foundational ashi-garami entanglement before advancing to more secure leg-lock positions.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Leg Lock</span>
+<span class="meta-chip">Targets Knee and ankle joint</span>
+<span class="meta-chip">50% success</span>
+</div>
+
+> [!danger] Safety
+> Inside Heel Hook from Inside Ashi-Garami targets the Knee and ankle joint. Primary risk: ACL (anterior cruciate ligament) tear from rotational force exceeding joint tolerance. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,54 +75,7 @@ This submission represents one of the most dangerous techniques in Brazilian Jiu
 
 In modern no-gi competition, the Inside Heel Hook from Inside Ashi-Garami serves as both a direct finishing threat and a forcing function that drives opponents into defensive reactions exploitable for transitions into Honey Hole, Saddle, or other advanced leg entanglements. Mastering this submission from the foundational position develops the control sensitivity and safety awareness essential for the entire leg lock system.
 
-**Category**: Joint Lock
-**Type**: Leg Lock
-**Target Area**: Knee and ankle joint
-**Starting Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]]
-**From Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Top)
-**Success Rate**: 50%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| ACL (anterior cruciate ligament) tear from rotational force exceeding joint tolerance | CRITICAL | 9-12 months with surgical reconstruction required |
-| MCL (medial collateral ligament) tear from medial rotational stress on the knee | CRITICAL | 6-12 months depending on grade, surgery often required for grade 3 |
-| Meniscus tear from combined rotational force and compression through the knee joint | High | 3-6 months, frequently requiring arthroscopic surgery |
-| Lateral ankle ligament damage from rotational overpressure transmitted through the heel | Medium | 4-8 weeks with rest and rehabilitation |
-
-
-**Application Speed**: EXTREMELY SLOW and progressive. The inside heel hook is the most dangerous submission in BJJ because the knee provides almost zero pain warning before catastrophic ligament failure. Apply rotational pressure incrementally over 2-3 seconds minimum, pausing at each stage to allow the defender time to perceive the threat and tap. Never jerk, spike, or explosively crank under any circumstances—including competition.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner, their body, or the mat
-- Physical foot tap with free leg on partner or mat
-- Any unusual vocalization, screaming, or distress sound
-- Nodding head rapidly or any panicked body language
-
-
-**Release Protocol**:
-1. Release ALL rotational pressure immediately upon any tap signal—do not finish the rotation
-2. Maintain leg entanglement briefly to allow controlled disengagement without dropping the leg suddenly
-3. If in doubt about whether partner tapped, release immediately—position can be re-established but ligaments cannot
-4. After release, check with partner about knee and ankle condition before resuming training
-5. If partner shows any signs of injury (limping, holding knee, reluctance to continue), stop the round completely
-
-
-**Training Restrictions**:
-- Inside heel hooks should only be trained by practitioners at purple belt or above, or lower belts under direct black belt supervision with explicit safety instruction
-- Always apply with slow, progressive pressure—never explosively crank regardless of competition simulation intensity
-- New training partners must be briefed on heel hook danger and tap protocols before any leg lock sparring begins
-- Do not train heel hooks when fatigued, as diminished proprioception increases injury risk for both attacker and defender
-- Competition-intensity heel hook sparring should only occur between experienced partners who have established trust and communication protocols
-
+**Starting Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] · **From**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Bottom)
 
 </section>
 
@@ -241,24 +239,15 @@ In modern no-gi competition, the Inside Heel Hook from Inside Ashi-Garami serves
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Inside Heel Hook]]
 - [[Transitions/Outside Heel Hook]]
 - [[Transitions/Aoki Lock]]
 - [[Positions/Aoki Lock Control]]
 - [[Submissions/Achilles Lock]]
 - [[Transitions/Estima Lock]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Primary starting position providing foundational leg entanglement control for this submission
 - [[Positions/Ashi Garami/Honey Hole]] - Advanced entanglement offering superior control for the same heel hook finish
 - [[Positions/Inside Sankaku]] - Alternative terminology for advanced inside entanglement in different BJJ lineages
@@ -268,17 +257,50 @@ In modern no-gi competition, the Inside Heel Hook from Inside Ashi-Garami serves
 - [[Positions/Leg Entanglement]] - Conceptual framework governing all leg lock positions and systematic progression
 - [[Positions/Ashi Garami]] - Parent position family encompassing all ashi garami variations including this entanglement
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| ACL (anterior cruciate ligament) tear from rotational force exceeding joint tolerance | CRITICAL | 9-12 months with surgical reconstruction required |
+| MCL (medial collateral ligament) tear from medial rotational stress on the knee | CRITICAL | 6-12 months depending on grade, surgery often required for grade 3 |
+| Meniscus tear from combined rotational force and compression through the knee joint | High | 3-6 months, frequently requiring arthroscopic surgery |
+| Lateral ankle ligament damage from rotational overpressure transmitted through the heel | Medium | 4-8 weeks with rest and rehabilitation |
+
+
+**Application Speed**: EXTREMELY SLOW and progressive. The inside heel hook is the most dangerous submission in BJJ because the knee provides almost zero pain warning before catastrophic ligament failure. Apply rotational pressure incrementally over 2-3 seconds minimum, pausing at each stage to allow the defender time to perceive the threat and tap. Never jerk, spike, or explosively crank under any circumstances—including competition.
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any distress signal)
+- Physical hand tap on partner, their body, or the mat
+- Physical foot tap with free leg on partner or mat
+- Any unusual vocalization, screaming, or distress sound
+- Nodding head rapidly or any panicked body language
+
+
+**Release Protocol**:
+1. Release ALL rotational pressure immediately upon any tap signal—do not finish the rotation
+2. Maintain leg entanglement briefly to allow controlled disengagement without dropping the leg suddenly
+3. If in doubt about whether partner tapped, release immediately—position can be re-established but ligaments cannot
+4. After release, check with partner about knee and ankle condition before resuming training
+5. If partner shows any signs of injury (limping, holding knee, reluctance to continue), stop the round completely
+
+
+**Training Restrictions**:
+- Inside heel hooks should only be trained by practitioners at purple belt or above, or lower belts under direct black belt supervision with explicit safety instruction
+- Always apply with slow, progressive pressure—never explosively crank regardless of competition simulation intensity
+- New training partners must be briefed on heel hook danger and tap protocols before any leg lock sparring begins
+- Do not train heel hooks when fatigued, as diminished proprioception increases injury risk for both attacker and defender
+- Competition-intensity heel hook sparring should only occur between experienced partners who have established trust and communication protocols
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Inside Heel Hook from Inside Ashi-Garami leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

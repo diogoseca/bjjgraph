@@ -10,6 +10,41 @@ description: "Master Butterfly Hook Control in BJJ. Strategic guide covering hoo
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Butterfly Hook Control",
+  "description": "Master Butterfly Hook Control in BJJ. Strategic guide covering hook mechanics, sweeps, back takes, and defensive strategies with complete bottom and top perspective analysis.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Butterfly Hook Control", "item": "https://bjjgraph.org/Positions/Butterfly-Hook-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Butterfly Hook Control",
+  "description": "Butterfly Hook Control is a dynamic seated guard where the bottom player wedges both insteps inside the opponent's thighs as active elevation hooks, creating off-balancing leverage for sweeps and back takes while the top player fights to flatten the hooks and pass.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Butterfly Hook Control in BJJ. Strategic guide covering hoo
 </div>
 
 <section id="overview" class="content-section">
+
+**Butterfly Hook Control is a dynamic seated guard where the bottom player wedges both insteps inside the opponent's thighs as active elevation hooks, creating off-balancing leverage for sweeps and back takes while the top player fights to flatten the hooks and pass.**
 
 Butterfly Hook Control represents one of the most dynamic and offensive guard positions in Brazilian Jiu-Jitsu, characterized by the bottom practitioner's use of butterfly hooks—feet positioned inside the opponent's thighs—to create constant elevation and off-balancing opportunities. This position excels in both gi and no-gi grappling due to its reliance on fundamental leverage mechanics rather than grip-dependent controls.
 
@@ -100,7 +137,7 @@ The position serves as a crucial gateway in modern BJJ, connecting standing posi
 ### Available Transitions
 
 
-- **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** (42% of attempts)
+- **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** (41% of attempts)
 
 - **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (9% of attempts)
 
@@ -130,7 +167,7 @@ The position serves as a crucial gateway in modern BJJ, connecting standing posi
 
 - **[[Transitions/Arm Drag Sweep/Attacker|Arm Drag Sweep]]** (2% of attempts)
 
-- **[[Transitions/Butterfly Hook Sweep/Attacker|Butterfly Hook Sweep]]** (0% of attempts)
+- **[[Transitions/Butterfly Hook Sweep/Attacker|Butterfly Hook Sweep]]** (1% of attempts)
 
 - **[[Transitions/Reguard to Butterfly Guard/Attacker|Reguard to Butterfly Guard]]** (1% of attempts)
 
@@ -276,6 +313,17 @@ The position serves as a crucial gateway in modern BJJ, connecting standing posi
 
 - **[[Positions/Combat Base]]** - Standard opponent position when engaging with butterfly hooks
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Marcelo-Garcia-X-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-x-guard-system" data-system-name="Marcelo Garcia X-Guard System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Marcelo Garcia X-Guard System</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Foundational control position that leads to X-Guard entries</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Marcelo-Garcia-Butterfly-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-butterfly-guard-system" data-system-name="Marcelo Garcia Butterfly Guard System" data-member-count="18"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Marcelo Garcia Butterfly Guard System</span><span class="system-card__unlocks-badge">Unlocks 18 techniques</span><span class="system-card__blurb">Core control mechanism enabling all sweeps and transitions</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

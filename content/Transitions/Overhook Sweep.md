@@ -10,6 +10,41 @@ description: "Master the Overhook Sweep from closed guard in BJJ. Complete guide
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Overhook Sweep",
+  "description": "Master the Overhook Sweep from closed guard in BJJ. Complete guide covering execution, chain attacks, defense strategies, and training progressions.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Overhook Sweep", "item": "https://bjjgraph.org/Transitions/Overhook-Sweep" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Overhook Sweep",
+  "description": "The Overhook Sweep is a closed-guard bottom sweep that traps an opponent's posted arm with a deep overhook, then creates a 45-degree angle and uses leg leverage to roll them over and arrive in top mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Overhook Sweep from closed guard in BJJ. Complete guide
 </div>
 
 <section id="overview" class="content-section">
+
+**The Overhook Sweep is a closed-guard bottom sweep that traps an opponent's posted arm with a deep overhook, then creates a 45-degree angle and uses leg leverage to roll them over and arrive in top mount.**
 
 The Overhook Sweep is a fundamental attacking technique from closed guard that capitalizes on controlling one of the opponent's arms with an overhook grip. This sweep is particularly effective when the opponent posts their hand on the mat or extends their arm, creating the opportunity to trap it and use their own base against them. The technique combines off-balancing principles with leverage mechanics to elevate and roll the opponent, transitioning from a bottom position to a dominant top position.
 
@@ -207,7 +244,7 @@ The overhook sweep is a cornerstone technique within the closed guard bottom att
 
 - [[Transitions/Flower Sweep]] - Follow-up sweep when opponent posts free hand wide
 
-- [[Submissions/Kimura]] - Submission attack from the same overhook control
+- [[Kimura from Guard]] - Submission attack from the same overhook control
 
 - [[Transitions/Closed Guard to Triangle]] - Alternative attack when opponent pulls arm free from overhook
 
@@ -223,5 +260,7 @@ The overhook sweep is a cornerstone technique within the closed guard bottom att
 
 
 </section>
+
+
 
 </main>

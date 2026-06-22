@@ -86,6 +86,18 @@ description: "Learn why early defense in BJJ is far more effective than late esc
 }
 </script>
 
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Prevention Over Cure",
+  "description": "Prevention over cure is the BJJ principle that intercepting a position at its earliest stage—before grips lock, weight settles, or control consolidates—is roughly ten times easier and less energy-intensive than escaping once the position is fully established.",
+  "inDefinedTermSet": "https://bjjgraph.org/Learning/"
+}
+</script>
+
+
 > **Category**: Strategy
 
 
@@ -94,6 +106,8 @@ description: "Learn why early defense in BJJ is far more effective than late esc
 <section id="overview" class="content-section">
 
 ## What is Prevention Over Cure?
+
+**Prevention over cure is the BJJ principle that intercepting a position at its earliest stage—before grips lock, weight settles, or control consolidates—is roughly ten times easier and less energy-intensive than escaping once the position is fully established.**
 
 Every experienced grappler knows the feeling: you let someone settle into mount for just two seconds too long, and suddenly an escape that should have been easy becomes a grinding five-minute ordeal. This is the core lesson of prevention over cure in BJJ. Defending before a position is consolidated is roughly ten times easier than escaping after your opponent has settled their weight, established grips, and begun attacking. The energy difference is staggering -- a simple hip frame costs almost nothing, while a full bridge-and-shrimp escape from a locked-down mount demands enormous effort.
 
@@ -215,6 +229,9 @@ A: Prevention: framing on the opponent's hips the instant they begin walking the
 - [[Mount]] (Position) - Mount is where the prevention vs cure difference is most dramatic -- preventing high mount vs escaping it
 - [[Side Control]] (Position) - Side control consolidation is a prime example of why early defense matters
 - [[Back Control]] (Position) - Preventing the back take during scrambles is far easier than escaping established back control
+- [[Hip Escape Mechanics]] (Principle) - Hip escaping early creates the space that prevents pins from consolidating in the first place
+- [[Defensive Prioritization Framework]] (System) - Provides the layered triage logic for which threats to prevent first when several develop at once
+- [[Timing Windows]] (Learning) - Prevention depends on recognizing and acting within the brief windows before a position consolidates
 
 
 

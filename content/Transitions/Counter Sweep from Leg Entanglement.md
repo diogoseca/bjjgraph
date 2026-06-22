@@ -10,6 +10,41 @@ description: "Master the counter sweep from leg entanglement in BJJ. Complete gu
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Counter Sweep from Leg Entanglement",
+  "description": "Master the counter sweep from leg entanglement in BJJ. Complete guide to reversing leg lock attacks, sweeping to side control, and punishing overcommitted ashi garami players.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Counter Sweep from Leg Entanglement", "item": "https://bjjgraph.org/Transitions/Counter-Sweep-from-Leg-Entanglement" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Counter Sweep from Leg Entanglement",
+  "description": "The Counter Sweep from Leg Entanglement is a bottom-position reversal in which the defender weaponizes a leg-lock attacker's committed weight and compromised base, off-balancing them with explosive hip drive to sweep into Side Control before the submission finishes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the counter sweep from leg entanglement in BJJ. Complete gu
 </div>
 
 <section id="overview" class="content-section">
+
+**The Counter Sweep from Leg Entanglement is a bottom-position reversal in which the defender weaponizes a leg-lock attacker's committed weight and compromised base, off-balancing them with explosive hip drive to sweep into Side Control before the submission finishes.**
 
 The counter sweep from leg entanglement is a positional reversal technique executed by the bottom player when their opponent is attacking from an ashi garami or related entanglement configuration. Rather than defending purely through leg extraction or guard recovery, this technique weaponizes the opponent's commitment to the leg attack, using the entanglement itself as a fulcrum to off-balance and sweep the attacker before establishing side control.
 
@@ -222,5 +259,7 @@ The counter sweep from leg entanglement occupies a critical position in the mode
 
 
 </section>
+
+
 
 </main>

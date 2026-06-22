@@ -10,10 +10,55 @@ description: "Master the Armbar from Back Control in BJJ. Complete safety guide 
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Armbar from Back targets the Elbow joint. Risk: Elbow hyperextension or dislocation. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Armbar from Back",
+  "description": "Master the Armbar from Back Control in BJJ. Complete safety guide with setup, execution, and finish. Success rates: Beginner 35%, Intermediate 50%, Advanced 70%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Armbar from Back", "item": "https://bjjgraph.org/Submissions/Armbar-from-Back" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Armbar from Back",
+  "description": "The Armbar from Back is a joint lock attacked from back control: when the opponent defends the choke and exposes an arm, the attacker isolates it, swings a leg over the head, and extends the hips to hyperextend the elbow.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Armbar from Back is a joint lock attacked from back control: when the opponent defends the choke and exposes an arm, the attacker isolates it, swings a leg over the head, and extends the hips to hyperextend the elbow.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Arm Lock</span>
+<span class="meta-chip">Targets Elbow joint</span>
+<span class="meta-chip">60% success</span>
+</div>
+
+> [!danger] Safety
+> Armbar from Back targets the Elbow joint. Primary risk: Elbow hyperextension or dislocation. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -26,52 +71,7 @@ description: "Master the Armbar from Back Control in BJJ. Complete safety guide 
 
 The Armbar from Back Control represents one of the most devastating finishing sequences in Brazilian Jiu-Jitsu, combining positional dominance with precise joint manipulation. From the back mount position, where you already control the most advantageous position in grappling, the armbar becomes available when the opponent defends the rear naked choke by gripping their hands together or tucking their chin. This submission targets the elbow joint through hip extension and leg control, creating a mechanical advantage that makes escape nearly impossible once properly locked. The transition from back control to armbar requires careful weight distribution and timing, as abandoning the back position prematurely can result in losing dominant control. Elite grapplers use this technique as part of a systematic attack chain, forcing opponents into defensive dilemmas where defending the choke opens the arm, and protecting the arm exposes the neck. The armbar from back is particularly effective in competition because it maintains control throughout the transition, preventing opponents from improving position even if they defend the initial submission attempt.
 
-**Category**: Joint Lock
-**Type**: Arm Lock
-**Target Area**: Elbow joint
-**Starting Position**: [[Positions/Back Control]]
-**From Position**: [[Positions/Back Control]] (Top)
-**Success Rate**: 60%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Elbow hyperextension or dislocation | High | 6-12 weeks with potential surgery |
-| Ligament tears (UCL, LCL) | CRITICAL | 3-6 months, often requires surgical reconstruction |
-| Bicep tendon strain from resistance | Medium | 2-4 weeks |
-| Shoulder joint stress from improper angle | Medium | 3-6 weeks |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum application time in training. Competition speed only in competition.
-
-**Tap Signals**:
-- Verbal tap or verbal submission
-- Physical hand tap on partner's body or mat
-- Physical foot tap on mat or partner
-- Any distress signal, vocalization, or panic movement
-
-
-**Release Protocol**:
-1. Immediately stop hip extension and lower hips
-2. Release leg pressure across opponent's face and chest
-3. Loosen arm control and allow opponent to bend elbow
-4. Maintain communication and check for injury before continuing
-
-
-**Training Restrictions**:
-- Never spike, jerk, or explosively extend the armbar in training
-- Never use competition speed or intensity during drilling
-- Always ensure training partner has clear tap access
-- Never continue pressure after tap signal is given
-- Avoid training armbar from back at full resistance until both partners are experienced
-
+**Starting Position**: [[Positions/Back Control]] · **From**: [[Positions/Back Control]] (Top)
 
 </section>
 
@@ -248,10 +248,9 @@ The Armbar from Back Control represents one of the most devastating finishing se
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Belly Down Armbar]]
@@ -261,14 +260,6 @@ The Armbar from Back Control represents one of the most devastating finishing se
 - [[Transitions/Armbar from Crucifix]]
 - [[Submissions/Kimura]]
 - [[Submissions/Choke from Crucifix]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Back Control]] - Primary starting position for this submission
 - [[Positions/Back Control/Body Triangle]] - Alternative back control configuration offering superior control during armbar transition
 - [[Positions/Armbar Control]] - Control position established during armbar finish
@@ -280,17 +271,48 @@ The Armbar from Back Control represents one of the most devastating finishing se
 - [[Positions/Gift Wrap]] - Alternative back control grip enabling armbar entry
 - [[Positions/Back Control/Seat Belt Control Back]] - Standard grip configuration for back control armbar setup
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Elbow hyperextension or dislocation | High | 6-12 weeks with potential surgery |
+| Ligament tears (UCL, LCL) | CRITICAL | 3-6 months, often requires surgical reconstruction |
+| Bicep tendon strain from resistance | Medium | 2-4 weeks |
+| Shoulder joint stress from improper angle | Medium | 3-6 weeks |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum application time in training. Competition speed only in competition.
+
+**Tap Signals**:
+- Verbal tap or verbal submission
+- Physical hand tap on partner's body or mat
+- Physical foot tap on mat or partner
+- Any distress signal, vocalization, or panic movement
+
+
+**Release Protocol**:
+1. Immediately stop hip extension and lower hips
+2. Release leg pressure across opponent's face and chest
+3. Loosen arm control and allow opponent to bend elbow
+4. Maintain communication and check for injury before continuing
+
+
+**Training Restrictions**:
+- Never spike, jerk, or explosively extend the armbar in training
+- Never use competition speed or intensity during drilling
+- Always ensure training partner has clear tap access
+- Never continue pressure after tap signal is given
+- Avoid training armbar from back at full resistance until both partners are experienced
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Armbar from Back leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

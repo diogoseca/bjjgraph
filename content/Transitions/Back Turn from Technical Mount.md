@@ -10,6 +10,41 @@ description: "Master the Back Turn from Technical Mount in BJJ. Learn timing, ar
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Back Turn from Technical Mount",
+  "description": "Master the Back Turn from Technical Mount in BJJ. Learn timing, arm protection, and rotation mechanics for this calculated defensive escape from armbar threat.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Back Turn from Technical Mount", "item": "https://bjjgraph.org/Transitions/Back-Turn-from-Technical-Mount" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Back Turn from Technical Mount",
+  "description": "Back Turn from Technical Mount is a deliberate defensive transition where the bottom player, facing an imminent armbar, rotates away to concede back control as a calculated trade rather than be submitted on the spot.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Back Turn from Technical Mount in BJJ. Learn timing, ar
 </div>
 
 <section id="overview" class="content-section">
+
+**Back Turn from Technical Mount is a deliberate defensive transition where the bottom player, facing an imminent armbar, rotates away to concede back control as a calculated trade rather than be submitted on the spot.**
 
 The Back Turn from Technical Mount is a defensive transition executed by the bottom player when facing imminent armbar or submission threat from the technical mount position. Rather than remaining in the immediate danger zone where the opponent's stepped leg creates devastating armbar angles, the bottom player deliberately rotates away, accepting the transition to back control as a calculated positional trade against being submitted on the spot.
 
@@ -220,5 +257,7 @@ The Back Turn from Technical Mount occupies a unique place in the BJJ positional
 
 
 </section>
+
+
 
 </main>

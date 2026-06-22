@@ -21,37 +21,37 @@ description: "Master Seated Guard Bottom in BJJ. Upright open guard with posted 
     {
       "@type": "HowToStep",
       "name": "Execute Technical Stand-up",
-      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 9% of exchanges from this position.",
       "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Technical Stand Up from Ground",
+      "text": "From this position, attempt Technical Stand Up from Ground. This technique is attempted in 3% of exchanges from this position.",
+      "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Sweep",
       "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 11% of exchanges from this position.",
-      "position": 2
+      "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Scissor Sweep",
       "text": "From this position, attempt Scissor Sweep. This technique is attempted in 12% of exchanges from this position.",
-      "position": 3
+      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg X Entry",
       "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 11% of exchanges from this position.",
-      "position": 4
+      "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Ankle Pick",
       "text": "From this position, attempt Ankle Pick. This technique is attempted in 10% of exchanges from this position.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Tripod Sweep",
-      "text": "From this position, attempt Tripod Sweep. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -237,7 +237,7 @@ Seated Guard works best when opponent is standing or on knees with distance, but
 
 **If opponent establishes chest-to-chest pressure:**
 - Execute **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** → [[Positions/Half Guard]] (Probability: 55%)
-- Execute **[[Hip Escape/Attacker|Hip Escape]]** → [[Positions/Half Guard]] (Probability: 50%)
+- Execute **[[Principles/Hip Escape Mechanics/Attacker|Hip Escape]]** → [[Positions/Half Guard]] (Probability: 50%)
 - Execute **[[Frame and Shrimp/Attacker|Frame and Shrimp]]** → [[Positions/Butterfly Guard]] (Probability: 45%)
 
 
@@ -366,6 +366,20 @@ Start in seated guard. Partner attempts to pass. You defend and look for sweeps 
 - **[[Positions/De La Riva Guard]]** - Alternative guard when opponent stands with leg forward
 - **[[Positions/Shin-to-Shin Guard]]** - Transitional guard connecting seated to leg entanglements
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Danaher-Leg-Lock-System" data-cta="related-system-card" data-system-slug="systems/danaher-leg-lock-system" data-system-name="Danaher Leg Lock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Danaher Leg Lock System</span><span class="system-card__unlocks-badge">Unlocks 30 techniques</span><span class="system-card__blurb">Guard position offering immediate leg entanglement entries</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Caio-Terra-Guard-Retention-System" data-cta="related-system-card" data-system-slug="systems/caio-terra-guard-retention-system" data-system-name="Caio Terra Guard Retention System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Caio Terra Guard Retention System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Starting position for many retention sequences when standing opponent applies pressure</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Marcelo-Garcia-X-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-x-guard-system" data-system-name="Marcelo Garcia X-Guard System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Marcelo Garcia X-Guard System</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Alternative entry position and recovery option from failed X-Guard</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Berimbolo" data-cta="related-system-card" data-system-slug="systems/berimbolo" data-system-name="Berimbolo" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Berimbolo</span><span class="system-card__unlocks-badge">Unlocks 21 techniques</span><span class="system-card__blurb">Recovery position if Berimbolo entry fails - allows retention and re-establishment of guard control</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Dynamic-Guard-System" data-cta="related-system-card" data-system-slug="systems/dynamic-guard-system" data-system-name="Dynamic Guard System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Dynamic Guard System</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Mobile guard position for creating angles and distance</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

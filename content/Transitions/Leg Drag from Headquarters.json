@@ -1,5 +1,6 @@
 {
   "name": "Leg Drag from Headquarters",
+  "summary": "The leg drag from headquarters is a guard pass where the top player drags the opponent's controlled leg across their centerline and pins it, killing guard recovery and opening direct paths to side control and the back.",
   "description": "Master the leg drag pass from headquarters in BJJ. Step-by-step guide covering execution mechanics, defensive counters, and training drills for guard passing.",
   "tags": [
     "guard-passing",
@@ -94,10 +95,6 @@
     {
       "name": "Body Lock Pass",
       "relationship": "Alternative passing method from headquarters that addresses different defensive reactions"
-    },
-    {
-      "name": "Leg Drag from DLR",
-      "relationship": "Related leg drag entry from a different starting guard that shares similar finishing mechanics"
     }
   ],
   "attacker": {
@@ -269,6 +266,10 @@
       {
         "question": "What distinguishes the leg drag entry from headquarters compared to a leg drag from open guard?",
         "answer": "From headquarters, the passer already has knee-line control, a triangulated base, and the opponent's hip mobility restricted. This eliminates the need for the initial grip fight and distance closing that open guard leg drags require. The headquarters leg drag is a shorter, more direct motion because the leg is already partially controlled. The trade-off is that the opponent knows a pass is imminent from headquarters, so their defensive reactions are more prepared. The headquarters version compensates through the systematic decision tree where defending the leg drag opens other passes."
+      },
+      {
+        "question": "Your opponent keeps both legs tightly together and bent, denying you an isolated leg to drag - what is your entry?",
+        "answer": "Against tightly stacked, bent legs, do not force a single-leg drag. Use the cross-grip variation: reach across with your opposite hand to grip the far ankle or pants leg at the knee, which lets you displace both legs as a unit across the centerline. Alternatively, apply a knee-cut feint or collar drag to provoke a frame or leg extension, then attack the leg that separates first. The principle is to manufacture the extension you need rather than fighting against the strongest bent-leg retraction structure."
       }
     ],
     "safety_considerations": "The leg drag involves lateral pressure on the opponent's knee and hip joints. Apply controlled force during the drag motion to avoid hyperextending the knee or straining the MCL through excessive lateral torque. Be particularly mindful of your training partner's hip flexibility when pinning the dragged leg, as forcing the leg past its natural range of motion can cause groin or hip flexor injuries. During drilling, allow partners to tap or verbally signal if they experience discomfort in the knee, hip, or groin during the drag motion, and release pressure immediately upon any signal."

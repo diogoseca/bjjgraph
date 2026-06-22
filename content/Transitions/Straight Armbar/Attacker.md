@@ -16,7 +16,7 @@ description: "How to execute Straight Armbar in BJJ. Attacking perspective with 
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Straight Armbar in BJJ",
-  "description": "Step-by-step guide for executing Straight Armbar from Armbar Control/Top.",
+  "description": "Step-by-step guide for executing Straight Armbar from Mounted Crucifix/Top.",
   "step": [
     {
       "@type": "HowToStep",
@@ -190,7 +190,7 @@ Strategically, the Straight Armbar functions as the primary limb attack within t
 
 The execution demands precise hip positioning and controlled transition from crucifix control to armbar finishing position. The critical challenge is maintaining arm isolation throughout the transition. Rushing the finish before securing proper hip alignment across the elbow is the most common failure point. A systematic approach — isolate, control, align, then extend — produces the highest completion rates and prevents the opponent from extracting the arm during the transition phase.
 
-**From Position**: [[Positions/Armbar Control]] (Top)
+**From Position**: [[Positions/Mount/Mounted Crucifix]] (Top)
 
 </section>
 
@@ -343,5 +343,7 @@ Apply the straight armbar from mounted crucifix in positional sparring rounds. S
 The straight armbar applies hyperextension force directly to the elbow joint, which can cause serious ligament damage (UCL/LCL tears), joint dislocation, or fracture if applied too quickly or with excessive force. Always apply finishing pressure gradually and progressively — never jerk or slam the hips into the extension. The mounted crucifix configuration makes this technique particularly dangerous because the opponent's defensive options are limited and the trapped arm cannot easily escape, meaning the submission can be fully locked before the defender recognizes the danger. In training, communicate clearly with your partner, apply pressure slowly enough for them to tap, and release immediately upon any tap signal (hand tap, verbal tap, or foot tap). Avoid this technique on partners with pre-existing elbow injuries. Beginners should drill the transition mechanics extensively before adding any finishing pressure.
 
 </section>
+
+
 
 </main>

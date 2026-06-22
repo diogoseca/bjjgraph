@@ -28,7 +28,16 @@ from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
-from tqdm import tqdm
+sys.path.insert(0, str(Path(__file__).resolve().parent))  # make the shared helper importable
+from claude_infer import call_claude as _infer_call_claude
+from _atomic_io import atomic_write_json
+from _prob_norm import largest_remainder_round as _largest_remainder_round
+
+try:
+    from tqdm import tqdm
+except ImportError:  # CI / minimal envs without tqdm — degrade to a plain iterator
+    def tqdm(iterable=None, *args, **kwargs):
+        return iterable if iterable is not None else []
 
 # =============================================================================
 # CONSTANTS
@@ -40,7 +49,10 @@ SUBMISSIONS_PATH = CONTENT_PATH / "Submissions"
 LOGS_PATH = Path("logs/proofread")
 SUGGESTIONS_CSV = Path("tests/artifacts/suggested_new_files.csv")
 
-CLAUDE_MODEL = "claude-opus-4-6"
+CLAUDE_MODEL = "claude-opus-4-8[1m]"
+# Reasoning effort (low|medium|high|xhigh|max). Bulk audit is one call per file
+# (~25h for the full corpus at xhigh); scope with --file/--category as needed.
+CLAUDE_EFFORT = "xhigh"
 
 # =============================================================================
 # REFERENCE LIST BUILDING (matches regenerate_content_json.py pattern)
@@ -83,43 +95,10 @@ def detect_category(file_path: Path) -> str:
 # CLAUDE INTERACTION (matches regenerate_content_json.py pattern)
 # =============================================================================
 
-def call_claude(prompt: str, response_schema: dict, timeout: int = 300) -> Tuple[Optional[str], Optional[str]]:
-    """Call Claude CLI with structured JSON output."""
-    try:
-        result = subprocess.run(
-            [
-                "claude",
-                "-p", prompt,
-                "--model", CLAUDE_MODEL,
-                "--output-format", "json",
-                "--json-schema", json.dumps(response_schema),
-            ],
-            capture_output=True,
-            text=True,
-            timeout=timeout,
-            cwd=Path.cwd(),
-        )
-
-        if result.returncode != 0:
-            return None, f"Claude CLI error: {result.stderr}"
-
-        try:
-            cli_output = json.loads(result.stdout)
-            structured = cli_output.get("structured_output")
-            if structured is not None:
-                if isinstance(structured, dict):
-                    return json.dumps(structured), None
-                return structured, None
-            return cli_output.get("result", result.stdout.strip()), None
-        except (json.JSONDecodeError, KeyError):
-            return result.stdout.strip(), None
-
-    except subprocess.TimeoutExpired:
-        return None, "Claude CLI timeout"
-    except FileNotFoundError:
-        return None, "Claude CLI not found - ensure 'claude' is in PATH"
-    except Exception as e:
-        return None, f"Claude CLI exception: {e}"
+def call_claude(prompt: str, response_schema: dict, timeout: int = 900) -> Tuple[Optional[str], Optional[str]]:
+    """Structured Claude inference via the shared helper (scripts/claude_infer.py):
+    read-only tools (explore but never write), forced structured output, usage-limit backoff."""
+    return _infer_call_claude(prompt, response_schema, CLAUDE_MODEL, CLAUDE_EFFORT, timeout=timeout)
 
 
 def extract_json(response: str) -> Tuple[Optional[dict], Optional[str]]:
@@ -471,21 +450,28 @@ def build_response_schema(category: str) -> dict:
 # =============================================================================
 
 def normalize_probabilities(items: List[dict], key: str = "attempt_probability") -> List[dict]:
-    """Normalize probability values to sum to exactly 100.
+    """Normalize probability values to sum to exactly 100, in place.
 
-    Adjusts the largest value to absorb rounding error.
+    Uses the shared largest-remainder normalizer (scripts/_prob_norm.py) so this
+    matches regenerate_content_json.py: negatives are clamped to 0, all items are
+    rescaled proportionally to integers summing to exactly 100, and the all-zero
+    case is distributed evenly.
     """
     if not items:
         return items
 
-    total = sum(item.get(key, 0) for item in items)
-    if total == 100 or total == 0:
+    vals = []
+    for item in items:
+        try:
+            vals.append(float(item.get(key, 0)))
+        except (TypeError, ValueError):
+            vals.append(0.0)
+
+    if round(sum(max(0.0, v) for v in vals)) == 100:
         return items
 
-    diff = 100 - total
-    # Find item with largest probability to absorb the difference
-    max_idx = max(range(len(items)), key=lambda i: items[i].get(key, 0))
-    items[max_idx][key] = items[max_idx].get(key, 0) + diff
+    for item, nv in zip(items, _largest_remainder_round(vals, 100)):
+        item[key] = nv
     return items
 
 
@@ -724,9 +710,7 @@ def process_file(file_path: Path, refs: Dict[str, List[str]], dry_run: bool = Fa
     if change_log:
         # Save modified file
         try:
-            with open(file_path, "w", encoding="utf-8") as f:
-                json.dump(data, f, indent=2, ensure_ascii=False)
-                f.write("\n")
+            atomic_write_json(file_path, data, indent=2, ensure_ascii=False)
             print(f"  Applied {len(change_log)} changes")
             for entry in change_log[:5]:
                 print(f"    - {entry}")

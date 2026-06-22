@@ -10,6 +10,41 @@ description: "Master the Omoplata Sweep from closed guard in BJJ. Step-by-step e
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Omoplata Sweep",
+  "description": "Master the Omoplata Sweep from closed guard in BJJ. Step-by-step execution combining shoulder lock threat with sweeping mechanics to reach mount.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Omoplata Sweep", "item": "https://bjjgraph.org/Transitions/Omoplata-Sweep" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Omoplata Sweep",
+  "description": "The Omoplata Sweep is a closed-guard reversal that weaponizes the omoplata shoulder-lock threat, redirecting the opponent's defensive reaction into a forward roll that delivers the bottom player to mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Omoplata Sweep from closed guard in BJJ. Step-by-step e
 
 <section id="overview" class="content-section">
 
-The Omoplata Sweep is a reaction-based sweeping technique that combines the threat of the omoplata shoulder lock with dynamic hip movement to reverse position from closed guard to mount. This technique exploits the opponent's defensive reaction to the omoplata attack, using their resistance and weight distribution to execute a powerful sweep. The dual-threat nature creates a classic dilemma: if the opponent defends the submission by driving forward or rolling, you redirect their momentum into the sweep; if they freeze to prevent the sweep, you finish the omoplata.
+**The Omoplata Sweep is a closed-guard reversal that weaponizes the omoplata shoulder-lock threat, redirecting the opponent's defensive reaction into a forward roll that delivers the bottom player to mount.**
+
+Built around a genuine submission threat, the Omoplata Sweep exploits the opponent's defensive reaction to the shoulder lock rather than relying on raw power to complete the reversal. The dual-threat nature creates a classic dilemma: if the opponent defends the submission by driving forward or rolling, you redirect their momentum into the sweep; if they freeze to prevent the sweep, you finish the omoplata. This positions it as one of the most reliable transitions in the closed-guard attack system, because it converts the opponent's own defense into the mechanism of their reversal.
 
 The sweep initiates from the standard omoplata entry where your leg crosses the opponent's back and their arm is isolated. Rather than committing to the shoulder lock finish, you use your perpendicular body angle and hip drive to roll the opponent forward over their trapped shoulder. The right leg hooking their hip serves as a fulcrum, while the left leg across their back acts as a lever preventing them from rolling out. Arm control throughout prevents posting, which is the primary defense against the sweep.
 
@@ -219,14 +256,24 @@ The omoplata sweep is a central technique in the closed guard attack system, rep
 
 - [[Transitions/Kimura Sweep]] - Attack on posted arm when opponent defends sweep by bracing on the mat
 
-- [[Transitions/Roll Forward from Omoplata]] - Dynamic transition when opponent rolls forward aggressively during omoplata control
-
-- [[Transitions/Omoplata to Sweep]] - Related sweep transition from omoplata control position
+- [[Transitions/Omoplata to Back]] - Dynamic transition when opponent rolls forward aggressively during omoplata control
 
 - [[Positions/Closed Guard]] - Starting position from which this technique is initiated
 
 - [[Positions/Mount]] - Primary target position upon successful sweep completion
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Keenan Cornelius Lapel Guard System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Alternative attacking option when opponent defends primary lapel sweeps</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/10th-Planet-No-Gi-Guard-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-no-gi-guard-system" data-system-name="10th Planet No-Gi Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">10th Planet No-Gi Guard System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Alternative attack from rubber guard positions</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Rubber-Guard-to-Omoplata-System" data-cta="related-system-card" data-system-slug="systems/rubber-guard-to-omoplata-system" data-system-name="Rubber Guard to Omoplata System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Rubber Guard to Omoplata System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Alternative pathway when submission is defended</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

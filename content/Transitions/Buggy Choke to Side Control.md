@@ -10,6 +10,41 @@ description: "Learn Buggy Choke to Side Control transition in BJJ. Strategic pos
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Buggy Choke to Side Control",
+  "description": "Learn Buggy Choke to Side Control transition in BJJ. Strategic positional advancement when choke fails. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Buggy Choke to Side Control", "item": "https://bjjgraph.org/Transitions/Buggy-Choke-to-Side-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Buggy Choke to Side Control",
+  "description": "Buggy Choke to Side Control is a turtle-attack transition where the top player abandons a defended buggy choke, converting threading grips into crossface and underhook control to flatten the opponent and secure dominant side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Learn Buggy Choke to Side Control transition in BJJ. Strategic pos
 </div>
 
 <section id="overview" class="content-section">
+
+**Buggy Choke to Side Control is a turtle-attack transition where the top player abandons a defended buggy choke, converting threading grips into crossface and underhook control to flatten the opponent and secure dominant side control.**
 
 The Buggy Choke to Side Control transition represents a critical positional advancement option when the primary submission threat is neutralized through effective grip defense. This technique exemplifies the principle that control positions in BJJ should never be single-purpose—when the choke fails, the grip configuration and body positioning should naturally facilitate advancement to a dominant passing position rather than returning to neutral.
 
@@ -218,5 +255,7 @@ The Buggy Choke to Side Control transition functions as a critical failsafe in t
 
 
 </section>
+
+
 
 </main>

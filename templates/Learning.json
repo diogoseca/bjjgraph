@@ -7,6 +7,7 @@
   "required": [
     "name",
     "description",
+    "summary",
     "tags",
     "category",
     "overview",
@@ -61,9 +62,15 @@
       ],
       "description": "Article category"
     },
+    "summary": {
+      "type": "string",
+      "minLength": 30,
+      "maxLength": 300,
+      "description": "One-sentence, self-contained definition that leads the page (answer-first for AI / featured snippets). ~15-40 words. If present, the overview must NOT repeat it."
+    },
     "overview": {
       "type": "string",
-      "description": "2-3 paragraph article introduction (400+ characters)",
+      "description": "2-3 paragraph article introduction (400+ characters). LEAD with a self-contained one-sentence definition that directly answers 'what is X' before history/context — AI answer engines quote the first sentence; if a summary field is present, start the overview with context instead.",
       "minLength": 400
     },
     "key_takeaways": {

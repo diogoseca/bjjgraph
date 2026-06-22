@@ -1,6 +1,7 @@
 {
   "name": "Frame from Reverse Scarf Hold",
   "description": "Master the frame escape from Reverse Scarf Hold in BJJ. Complete guide to defensive framing mechanics, hip escape timing, and guard recovery from reverse pin.",
+  "summary": "Frame from Reverse Scarf Hold is an energy-efficient escape where the bottom player wedges forearm frames against the top player's hip and shoulder, then chains incremental hip escapes to accumulate space and recover half guard.",
   "tags": [
     "bjj",
     "transition",
@@ -77,10 +78,6 @@
       "relationship": "Related escape technique from same starting position"
     },
     {
-      "name": "Frame Escape from Kuzure Kesa",
-      "relationship": "Analogous frame escape from related scarf hold variant sharing core mechanics"
-    },
-    {
       "name": "Kesa Gatame",
       "relationship": "Related scarf hold position where similar framing principles apply"
     },
@@ -89,8 +86,8 @@
       "relationship": "Advanced recovery target offering immediate offensive frames after escape"
     },
     {
-      "name": "Escape Scarf Hold Position",
-      "relationship": "Related escape from traditional scarf hold sharing defensive framing concepts"
+      "name": "Modified Scarf Hold",
+      "relationship": "Related scarf hold variant sharing core defensive framing mechanics"
     },
     {
       "name": "Side Control",

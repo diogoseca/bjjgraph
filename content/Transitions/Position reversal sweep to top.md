@@ -10,6 +10,41 @@ description: "Master 50-50 Guard reversal sweep in BJJ. Hip elevation technique 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Position reversal sweep to top",
+  "description": "Master 50-50 Guard reversal sweep in BJJ. Hip elevation technique from bottom to top position. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Position reversal sweep to top", "item": "https://bjjgraph.org/Transitions/Position-reversal-sweep-to-top" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Position reversal sweep to top",
+  "description": "The Position reversal sweep to top is a 50-50 Guard reversal from bottom that uses inside-leg control and explosive hip elevation to lift and rotate the top player, claiming top position and its leg-lock offense.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master 50-50 Guard reversal sweep in BJJ. Hip elevation technique 
 </div>
 
 <section id="overview" class="content-section">
+
+**The Position reversal sweep to top is a 50-50 Guard reversal from bottom that uses inside-leg control and explosive hip elevation to lift and rotate the top player, claiming top position and its leg-lock offense.**
 
 The Position Reversal Sweep from 50-50 Guard Bottom is a fundamental technique for escaping the defensive 50-50 position and achieving top control. This sweep exploits the symmetrical nature of the 50-50 configuration, where small positional advantages can dramatically shift the control hierarchy. The technique centers on gaining inside position control with your leg while using hip elevation and directional momentum to reverse your opponent's top pressure.
 
@@ -216,5 +253,7 @@ The position reversal sweep is a cornerstone defensive technique within the bott
 
 
 </section>
+
+
 
 </main>

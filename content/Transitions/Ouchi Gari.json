@@ -1,6 +1,7 @@
 {
   "name": "Ouchi Gari",
   "description": "Master Ouchi Gari inner reap takedown in BJJ. Step-by-step execution from standing clinch to side control with combinations, counters, and defense strategies.",
+  "summary": "Ouchi Gari (major inner reap) is a standing takedown in which you sweep the opponent's inside leg out from under them while breaking their posture to the rear corner, typically landing in side control top.",
   "tags": [
     "bjj",
     "transition",
@@ -10,6 +11,10 @@
     "standing",
     "foot-sweep",
     "off-balancing"
+  ],
+  "aliases": [
+    "Major Inner Reap",
+    "O Uchi Gari"
   ],
   "from_position": "Standing Position/Top",
   "outcomes": [

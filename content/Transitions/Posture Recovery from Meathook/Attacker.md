@@ -244,7 +244,7 @@ As the attacker executing Posture Recovery from Meathook, you are the top player
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Side Control]] | 45% |
+| Success | [[Positions/Closed Guard]] | 45% |
 | Failure | [[Positions/Rubber Guard/Meathook]] | 35% |
 | Counter | [[Positions/Back Control]] | 20% |
 
@@ -338,5 +338,7 @@ Partner establishes Meathook with full resistance and actively pursues submissio
 Posture recovery from Meathook carries moderate injury risk centered on the trapped shoulder and elbow. Never yank the trapped arm explosively without rotational mechanics, as straight-line force against the shin hook creates sustained tension on the rotator cuff and can cause strain or tears. If the bottom player transitions to a submission during recovery attempts, tap early rather than fighting through mechanically compromised positions. Partners drilling this technique should communicate clearly about shoulder discomfort and release hook pressure immediately upon request. The bottom player must never crank the shin hook aggressively to prevent extraction, as this can hyperextend the trapped elbow or compress the shoulder beyond safe range.
 
 </section>
+
+
 
 </main>

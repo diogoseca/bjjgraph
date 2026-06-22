@@ -10,6 +10,41 @@ description: "Master Electric Chair Transition from Lockdown. Step-by-step eleva
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Electric Chair Transition",
+  "description": "Master Electric Chair Transition from Lockdown. Step-by-step elevation to Electric Chair control. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Electric Chair Transition", "item": "https://bjjgraph.org/Transitions/Electric-Chair-Transition" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Electric Chair Transition",
+  "description": "The Electric Chair Transition is the 10th Planet sequence that converts lockdown half-guard control into the Electric Chair attacking position, using hip extension and a deep underhook to elevate the opponent's trapped leg and threaten a simultaneous sweep and submission.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Electric Chair Transition from Lockdown. Step-by-step eleva
 </div>
 
 <section id="overview" class="content-section">
+
+**The Electric Chair Transition is the 10th Planet sequence that converts lockdown half-guard control into the Electric Chair attacking position, using hip extension and a deep underhook to elevate the opponent's trapped leg and threaten a simultaneous sweep and submission.**
 
 The Electric Chair Transition is the fundamental pathway from lockdown half guard to the devastating Electric Chair attacking position. This transition represents the core mechanics of the 10th Planet half guard system, converting defensive lockdown control into an aggressive sweep and submission platform. The technique requires precise sequencing of grip establishment, hip elevation, and upper body control to create the characteristic splitting pressure that defines the Electric Chair.
 
@@ -222,5 +259,7 @@ The Electric Chair Transition is the cornerstone movement of the 10th Planet loc
 
 
 </section>
+
+
 
 </main>

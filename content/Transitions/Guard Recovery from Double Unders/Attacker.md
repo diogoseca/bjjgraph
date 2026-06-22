@@ -82,10 +82,26 @@ description: "Master the attacker perspective for guard recovery from double und
     },
     {
       "@type": "Question",
+      "name": "What conditions must exist before you can realistically attempt guard recovery from double unders?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You need at least one free arm to build a frame against the jawline or neck, enough hip mobility to turn to at least one side rather than being pinned flat, and a passer whose knees have not yet walked fully past your hip line. If all three are absent — both arms trapped, hips flat, knees already past — the recovery window has closed and you should redirect to a granby roll or deep half entry that uses their momentum instead."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "What frame structure provides the most effective initial separation against double unders stacking pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A cross-face frame with both forearms positioned against the opponent's jawline and neck creates the strongest initial separation. This structure uses skeletal alignment through the forearms and elbows rather than muscular pushing, meaning it can be sustained against significantly heavier opponents. The frame must anchor at the elbows against your own ribcage to prevent collapse under forward drive."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "In which direction should you direct your escape energy when stacked in double unders, and why not straight into the opponent?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Direct your energy laterally through a hip escape rather than pushing straight back against their forward stack. Pushing directly into the passer pits your arms against their full body weight and the strongest vector of their pressure, which you cannot win. Escaping to the side redirects that committed forward drive past you, opening the angle and space beneath their underhooks that the near-side leg needs to extract."
       }
     },
     {
@@ -102,22 +118,6 @@ description: "Master the attacker perspective for guard recovery from double und
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Prioritize freeing the leg on the side you are hip escaping toward, as this near-side leg has significantly greater range of motion due to the angle your hip escape has created. The near-side leg can be extracted by pulling the knee toward your chest while pushing against their bicep on the same side. Once free, this leg immediately becomes your primary frame and barrier against re-entry."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Your opponent begins walking their knees forward during your frame-based recovery attempt - what critical adjustment do you make?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "If knees are advancing past your hips, the standard guard recovery window is closing rapidly. Abandon the frame-and-hip-escape sequence and commit fully to either a granby roll using their forward momentum or dive to deep half guard by threading underneath their advancing hips. Both alternatives use their forward movement as fuel rather than fighting against the direction of their pass completion."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What grip adjustments should you prioritize immediately after successfully closing guard from double unders recovery?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Immediately establish a dominant collar grip with one hand deep behind the neck and a sleeve or wrist grip with the other hand to control their posture. Pull them forward to break their upright positioning and prevent them from immediately re-initiating guard opening sequences. Your legs should actively squeeze with heels pulling into their lower back to consolidate the recovered position before they can counter."
       }
     }
   ]
@@ -328,5 +328,7 @@ Positional sparring starting from double unders bottom against partner applying 
 Guard recovery from double unders involves significant spinal compression during the stacking phase. Both practitioners must be aware of cervical and lumbar strain risks when the bottom player is heavily stacked onto their shoulders. The top player should monitor the bottom player's comfort level and avoid driving excessive weight through the neck during training. Tap immediately if experiencing sharp neck pain, numbness in extremities, or difficulty breathing due to compression. Practice recovery techniques at controlled intensity with cooperative partners before applying under full resistance.
 
 </section>
+
+
 
 </main>

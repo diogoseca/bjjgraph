@@ -12,7 +12,8 @@
   ],
   "system_type": "Competition Strategy",
   "difficulty_level": "Intermediate",
-  "overview": "The No-Gi Tactical Framework is a comprehensive strategic approach to Brazilian Jiu-Jitsu practiced without the traditional gi. This system addresses the unique challenges and opportunities presented by no-gi grappling, where the absence of collar and sleeve grips fundamentally changes position control, submission mechanics, and transitional strategies. The framework emphasizes body lock controls, underhook battles, and explosive movements that capitalize on reduced friction and grip security. Unlike gi-based systems that rely heavily on fabric manipulation, this tactical approach prioritizes frames, body positioning, and dynamic transitions that account for the slippery nature of skin-on-skin or rashguard contact. The system integrates modern leg attack entries, back exposure opportunities, and submission chains optimized for no-gi competition rules, making it essential for MMA fighters, submission grappling competitors, and practitioners seeking a well-rounded grappling game applicable across rule sets.",
+  "summary": "The No-Gi Tactical Framework is a strategic system for grip-free grappling that replaces gi controls with body locks, underhooks, and front-headlock pressure to chain takedowns, leg entanglements, and back attacks into competition-ready submission sequences.",
+  "overview": "As submission grappling and MMA have surged in popularity, the demands of competing without collar and sleeve grips have reshaped how serious practitioners build their games. This system addresses the unique challenges and opportunities presented by no-gi grappling, where the absence of collar and sleeve grips fundamentally changes position control, submission mechanics, and transitional strategies. The framework emphasizes body lock controls, underhook battles, and explosive movements that capitalize on reduced friction and grip security. Unlike gi-based systems that rely heavily on fabric manipulation, this tactical approach prioritizes frames, body positioning, and dynamic transitions that account for the slippery nature of skin-on-skin or rashguard contact. The system integrates modern leg attack entries, back exposure opportunities, and submission chains optimized for no-gi competition rules, making it essential for MMA fighters, submission grappling competitors, and practitioners seeking a well-rounded grappling game applicable across rule sets.",
   "key_principles": [
     "Control through body positioning and frames rather than gi grips",
     "Maintain aggressive underhook and overhook battles in all positions",
@@ -390,6 +391,40 @@
       "name": "Back Attack System",
       "content_type": "System",
       "relationship": "Comprehensive approach to securing and finishing from back control"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What replaces collar and sleeve grips as the primary control mechanism in the No-Gi Tactical Framework?",
+      "answer": "Body locks become the primary control mechanism, supplemented by underhooks, overhooks, wrist control, and head/cross-face pressure to dictate posture and engagement without any fabric to grip."
+    },
+    {
+      "question": "Why is the front headlock emphasized more heavily in no-gi than in gi grappling?",
+      "answer": "Without collar and lapel grips to control posture from other positions, the front headlock becomes a high-frequency hub for guillotines, darces, anacondas, and back takes arising from scrambles and failed takedowns."
+    },
+    {
+      "question": "What makes maintaining dominant positions harder in no-gi, and how does the framework address it?",
+      "answer": "Reduced friction and grip security make static holds slippery, so the framework prioritizes constant pressure, position chaining, and preemptive readjustment instead of stationary control."
+    },
+    {
+      "question": "Which leg entanglement positions are central to the framework's leg attack integration?",
+      "answer": "Inside ashi garami and outside ashi garami are central, supplying heel hook entries, the transitions between them, and the back-exposure opportunities created when opponents defend the legs."
+    },
+    {
+      "question": "What submission threats does the system prioritize from back control?",
+      "answer": "Rear naked chokes, short chokes, and arm attacks keep the opponent defensive while you maintain seat belt and body triangle control against the increased escape mobility seen in no-gi."
+    },
+    {
+      "question": "How should a practitioner condition for the explosive demands of no-gi under this framework?",
+      "answer": "Build no-gi-specific conditioning emphasizing short explosive bursts with active rest, and learn to modulate intensity by using pressure and control to conserve energy between scrambles."
+    },
+    {
+      "question": "What is a common mistake when transitioning a gi game to no-gi?",
+      "answer": "Attempting to rely on gi-specific grips and controls, and neglecting body lock opportunities in favor of less secure controls that simply fail against a sweaty, slippery opponent."
+    },
+    {
+      "question": "Why does the framework treat leg attacks as both offense and a route to other positions?",
+      "answer": "Leg entanglements are primary submission weapons via heel hooks, but they also force defensive reactions that create back exposure and passing opportunities when opponents extract their legs."
     }
   ]
 }

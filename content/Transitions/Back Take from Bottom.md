@@ -10,6 +10,41 @@ description: "Master the Back Take from Bottom Hindulotine in BJJ. Capitalize on
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Back Take from Bottom",
+  "description": "Master the Back Take from Bottom Hindulotine in BJJ. Capitalize on opponent\u0027s turn to escape neck pressure and secure dominant back control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Back Take from Bottom", "item": "https://bjjgraph.org/Transitions/Back-Take-from-Bottom" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Back Take from Bottom",
+  "description": "Back Take from Bottom Hindulotine is a transition that converts a stalling guillotine into dominant back control by releasing the choke to establish a seatbelt and insert hooks the instant the opponent turns away to escape neck pressure.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Back Take from Bottom Hindulotine in BJJ. Capitalize on
 </div>
 
 <section id="overview" class="content-section">
+
+**Back Take from Bottom Hindulotine is a transition that converts a stalling guillotine into dominant back control by releasing the choke to establish a seatbelt and insert hooks the instant the opponent turns away to escape neck pressure.**
 
 The Back Take from Bottom Hindulotine is a high-percentage transition that exploits the most common defensive reaction to guillotine pressure: turning away to relieve neck strain. When an opponent rotates to escape the choking grip from bottom Hindulotine, they inadvertently expose their back, creating an optimal entry point for back control. This transition epitomizes the modern submission grappling philosophy where defensive movements create offensive opportunities.
 
@@ -218,6 +255,16 @@ The Back Take from Bottom Hindulotine is a critical component of the front headl
 
 - [[Transitions/Arm Drag to Back]] - Related back take technique from different entry
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Mikey-Musumeci-Berimbolo-System" data-cta="related-system-card" data-system-slug="systems/mikey-musumeci-berimbolo-system" data-system-name="Mikey Musumeci Berimbolo System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Mikey Musumeci Berimbolo System</span><span class="system-card__unlocks-badge">Unlocks 21 techniques</span><span class="system-card__blurb">Back attack completion when opponent turtles during berimbolo sequence</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

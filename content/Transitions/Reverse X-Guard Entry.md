@@ -10,6 +10,41 @@ description: "Learn Reverse X-Guard Entry from inverted guard. Step-by-step exec
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Reverse X-Guard Entry",
+  "description": "Learn Reverse X-Guard Entry from inverted guard. Step-by-step execution for leg entanglement access. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Reverse X-Guard Entry", "item": "https://bjjgraph.org/Transitions/Reverse-X-Guard-Entry" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Reverse X-Guard Entry",
+  "description": "Reverse X-Guard Entry is a leg-entanglement transition from inverted guard in which the bottom player threads a leg beneath the opponent and stacks both hooks on one leg to establish the explosive, face-away Reverse X-Guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Learn Reverse X-Guard Entry from inverted guard. Step-by-step exec
 </div>
 
 <section id="overview" class="content-section">
+
+**Reverse X-Guard Entry is a leg-entanglement transition from inverted guard in which the bottom player threads a leg beneath the opponent and stacks both hooks on one leg to establish the explosive, face-away Reverse X-Guard.**
 
 Reverse X-Guard Entry is a dynamic transition from inverted guard that establishes powerful leg entanglement control beneath your opponent. Unlike standard X-Guard where you face your opponent, Reverse X-Guard positions you facing away, with your hooks controlling their near leg while your body extends beneath them. This creates exceptional off-balancing potential and sweep opportunities that are difficult to defend because your opponent cannot see your lower body mechanics.
 
@@ -214,5 +251,7 @@ Reverse X-Guard Entry serves as a critical bridge between inverted guard mobilit
 
 
 </section>
+
+
 
 </main>

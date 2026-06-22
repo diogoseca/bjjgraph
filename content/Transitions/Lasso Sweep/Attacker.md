@@ -56,8 +56,8 @@ description: "Master executing the Lasso Sweep from bottom position. Learn grip 
     },
     {
       "@type": "HowToStep",
-      "name": "Consolidate mount position",
-      "text": "Immediately establish heavy hip pressure in mount by driving your hips forward, positioning your knees tight to the opponent's sides, and establishing chest-to-chest control before they can create defensive frames or initiate escape sequences.",
+      "name": "Establish top position and advance toward mount",
+      "text": "As you come up on top inside the opponent's guard, immediately establish base and posture, then begin advancing past their legs. Drive your hips forward and consolidate chest-to-chest control as you climb to mount before they can create defensive frames or recover guard.",
       "position": 7
     }
   ],
@@ -178,7 +178,7 @@ description: "Master executing the Lasso Sweep from bottom position. Learn grip 
 
 <section id="overview" class="content-section">
 
-Executing the Lasso Sweep requires understanding the precise mechanical interaction between your lasso leg, your pulling grips, and the opponent's compromised base. As the attacker, your primary advantage is the structural imbalance created by the lasso—the opponent's trapped arm cannot post or generate defensive force on that side. Your objective is to amplify this imbalance through coordinated extension of the lasso leg, a strong secondary pulling grip, and decisive hip rotation that converts the off-balance into a full sweep to mount. Timing is critical: the sweep succeeds when the opponent's weight shifts forward or toward the lasso side, and fails when attempted against a seated, disengaged opponent.
+Executing the Lasso Sweep requires understanding the precise mechanical interaction between your lasso leg, your pulling grips, and the opponent's compromised base. As the attacker, your primary advantage is the structural imbalance created by the lasso—the opponent's trapped arm cannot post or generate defensive force on that side. Your objective is to amplify this imbalance through coordinated extension of the lasso leg, a strong secondary pulling grip, and decisive hip rotation that converts the off-balance into a full reversal, bringing you up on top inside their open guard with the option to keep climbing forward to mount. Timing is critical: the sweep succeeds when the opponent's weight shifts forward or toward the lasso side, and fails when attempted against a seated, disengaged opponent.
 
 **From Position**: [[Positions/Lasso Guard]] (Bottom)
 
@@ -227,7 +227,7 @@ Executing the Lasso Sweep requires understanding the precise mechanical interact
 4. **Load the sweep by breaking posture**: Pull the secondary grip firmly toward your chest while extending the lasso leg upward, creating combined forward and rotational pressure that breaks the opponent's upright posture and shifts their weight toward the compromised side.
 5. **Execute hip rotation to sweep**: Drive your hips explosively toward the lasso side while simultaneously pushing with your foot on the hip and pulling with the secondary grip, directing the opponent's weight over the side where their trapped arm cannot post to resist.
 6. **Follow through to complete the reversal**: Continue the rotation fully through the sweep arc, releasing the lasso control as you rise to the top position while maintaining body contact throughout to prevent the opponent from posting or recovering their base.
-7. **Consolidate mount position**: Immediately establish heavy hip pressure in mount by driving your hips forward, positioning your knees tight to the opponent's sides, and establishing chest-to-chest control before they can create defensive frames or initiate escape sequences.
+7. **Establish top position and advance toward mount**: As you come up on top inside the opponent's guard, immediately establish base and posture, then begin advancing past their legs. Drive your hips forward and consolidate chest-to-chest control as you climb to mount before they can create defensive frames or recover guard.
 
 
 </section>
@@ -238,7 +238,8 @@ Executing the Lasso Sweep requires understanding the precise mechanical interact
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Mount]] | 55% |
+| Success | [[Positions/Open Guard]] | 40% |
+| Success | [[Positions/Mount]] | 15% |
 | Failure | [[Positions/Lasso Guard]] | 30% |
 | Counter | [[Positions/Open Guard]] | 15% |
 
@@ -335,5 +336,7 @@ Begin every round in lasso guard with the objective of completing the sweep. Par
 The Lasso Sweep carries relatively low injury risk as a sweeping technique, but practitioners should be mindful of shoulder stress on the lassoed arm during explosive sweep attempts. The trapped arm experiences rotational force during the sweep that can strain the shoulder if the partner resists violently. Always release the sleeve grip promptly if your partner signals discomfort. During drilling, communicate clearly about resistance levels and allow controlled falls rather than forcing partners to absorb impact at awkward angles. Be particularly careful when training with significant size differences, as heavier practitioners falling during the sweep require additional mat awareness from both partners.
 
 </section>
+
+
 
 </main>

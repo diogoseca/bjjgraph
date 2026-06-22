@@ -10,6 +10,41 @@ description: "Master the Z-Guard Sweep in BJJ. Step-by-step guide to using knee 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Z-Guard Sweep",
+  "description": "Master the Z-Guard Sweep in BJJ. Step-by-step guide to using knee shield leverage and frame control to sweep opponents from half guard to side control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Z-Guard Sweep", "item": "https://bjjgraph.org/Transitions/Z-Guard-Sweep" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Z-Guard Sweep",
+  "description": "The Z-Guard Sweep is a half guard reversal in which the bottom player uses the elevated knee shield as a lever, paired with far-side collar or sleeve control, to topple a pressuring opponent into side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Z-Guard Sweep in BJJ. Step-by-step guide to using knee 
 </div>
 
 <section id="overview" class="content-section">
+
+**The Z-Guard Sweep is a half guard reversal in which the bottom player uses the elevated knee shield as a lever, paired with far-side collar or sleeve control, to topple a pressuring opponent into side control.**
 
 The Z-Guard Sweep is a frame-based sweeping technique from the Z-Guard bottom position that uses the elevated knee shield as a mechanical lever combined with far-side collar or sleeve control to topple the opponent toward side control. Unlike the underhook-driven Sweep from Z-Guard that targets mount, this variation relies on the push-pull dynamic between the knee shield extension and upper body grip control, making it available even when the underhook battle is contested or unavailable. The sweep capitalizes on the geometric advantage inherent in the elevated knee shield, which creates a powerful fulcrum against the opponent's shoulder that amplifies the bottom player's hip extension force into lateral displacement.
 
@@ -220,5 +257,7 @@ The Z-Guard Sweep integrates into the broader half guard ecosystem as one of the
 
 
 </section>
+
+
 
 </main>

@@ -9,6 +9,7 @@
     "slug",
     "description",
     "variant_uniqueness",
+    "summary",
     "overview",
     "key_principles",
     "related_positions",
@@ -42,6 +43,46 @@
         "Master turtle position in BJJ. Strategic guide covering when to use turtle, defensive escapes, and offensive attacks with complete perspective analysis."
       ]
     },
+    "aliases": {
+      "type": "array",
+      "description": "Strict synonyms — other names for THIS EXACT position. Examples: ['Tate Shiho Gatame', 'Full Mount'] on Mount. DO NOT use for variants. See docs/Synonyms.md.",
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "family": {
+      "type": "string",
+      "description": "Name of the variant-family hub this position belongs to. Empty = standalone. Example: 'Side Control' (for Kesa Gatame, Kuzure Kesa-Gatame). See docs/Synonyms.md."
+    },
+    "bot_metadata": {
+      "type": "object",
+      "description": "Automation bookkeeping written by the content bots (not hand-authored). select_oldest_files.sh reads last_improved to skip recently-improved files.",
+      "additionalProperties": true,
+      "properties": {
+        "last_improved": { "type": "string", "description": "ISO date (YYYY-MM-DD) of the last bot edit" },
+        "optimization_pass": { "type": "string" },
+        "last_improved_by": { "type": "string" }
+      }
+    },
+    "sameAs": {
+      "type": "array",
+      "description": "Authoritative external URLs for THIS technique (Wikipedia article and/or Wikidata entity). schema.org sameAs — feeds Google's Knowledge Graph entity reconciliation and surfaces cross-language names. See docs/Synonyms.md.",
+      "uniqueItems": true,
+      "items": { "type": "string", "format": "uri" }
+    },
+    "disambiguations": {
+      "type": "array",
+      "description": "False-synonym callouts. Renders 'Often confused with X — reason'. Mutual: both pages should declare the other. See docs/Synonyms.md.",
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "reason"],
+        "properties": {
+          "name": { "type": "string", "minLength": 1 },
+          "reason": { "type": "string", "minLength": 10, "description": "Short reason this is distinct, completing 'differs because …'." }
+        }
+      }
+    },
     "variant_uniqueness": {
       "type": "string",
       "description": "What makes this DUAL position unique - distinguishes bottom from top perspective",
@@ -51,9 +92,15 @@
         "Hands-and-knees posture trades back exposure for submission protection"
       ]
     },
+    "summary": {
+      "type": "string",
+      "minLength": 30,
+      "maxLength": 300,
+      "description": "One-sentence, self-contained definition that leads the page (answer-first for AI / featured snippets). ~15-40 words. If present, the overview must NOT repeat it."
+    },
     "overview": {
       "type": "string",
-      "description": "Hub overview covering both perspectives (400+ words minimum)",
+      "description": "Hub overview covering both perspectives (400+ words minimum). LEAD with a self-contained one-sentence definition that directly answers 'what is X' before history/context — AI answer engines quote the first sentence; if a summary field is present, start the overview with context instead.",
       "minLength": 400,
       "examples": [
         "Turtle position is a transitional defensive posture in Brazilian Jiu-Jitsu where the practitioner is on hands and knees..."
@@ -106,6 +153,7 @@
       "additionalProperties": false,
       "required": [
         "overview",
+        "flashcards",
         "state_properties",
         "state_invariants",
         "prerequisites",
@@ -185,6 +233,7 @@
       "additionalProperties": false,
       "required": [
         "overview",
+        "flashcards",
         "state_properties",
         "state_invariants",
         "prerequisites",

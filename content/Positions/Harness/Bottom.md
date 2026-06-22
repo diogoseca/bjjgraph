@@ -116,6 +116,7 @@ description: "Master defensive strategies from Harness Bottom Position in BJJ. L
   "@type": "WebPage",
   "name": "Harness Bottom",
   "description": "Master defensive strategies from Harness Bottom Position in BJJ. Learn systematic escapes, hand fighting techniques, and survival protocols against back control with 40-65% escape rates.",
+  "alternateName": ["Seatbelt", "Seat Belt", "Seatbelt Control", "Seat Belt Control"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -155,6 +156,9 @@ description: "Master defensive strategies from Harness Bottom Position in BJJ. L
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Seatbelt</strong>, <strong>Seat Belt</strong>, <strong>Seatbelt Control</strong>, <strong>Seat Belt Control</strong> <span class="role-hint">(bottom)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 Harness Bottom Position represents the defensive perspective when an opponent has secured back control with a harness (seatbelt) grip configuration. This position is characterized by the opponent wrapping one arm over the shoulder and the other under the armpit, establishing a strong controlling mechanism. The harness grip is one of the most fundamental and effective control systems in Brazilian Jiu-Jitsu, as it provides the top player with both offensive submission opportunities and positional dominance while severely limiting the bottom player's mobility and defensive options.
@@ -355,6 +359,16 @@ Start from harness bottom with no hooks. Work through complete escape sequence: 
 - **[[Positions/Clinch]]** - Escape destination via technical standup
 - **[[Positions/Armbar Control]]** - Secondary submission threat if defending choke exposes arm
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Danaher Straight Jacket System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Alternative control position used when opponent maintains defensive turtle structure preventing immediate seat belt establishment</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

@@ -10,6 +10,41 @@ description: "Master the Sweep from Headquarters in BJJ. Complete guide to rever
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Sweep from Headquarters",
+  "description": "Master the Sweep from Headquarters in BJJ. Complete guide to reversing headquarters guard passing with underhook sweeps, hooks, and technical entries.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Sweep from Headquarters", "item": "https://bjjgraph.org/Transitions/Sweep-from-Headquarters" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Sweep from Headquarters",
+  "description": "The Sweep from Headquarters is a bottom-player reversal that exploits the passer's committed weight and triangulated base, combining an underhook or shin contact with a free-leg hook to topple them diagonally past their support and recover top position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Sweep from Headquarters in BJJ. Complete guide to rever
 </div>
 
 <section id="overview" class="content-section">
+
+**The Sweep from Headquarters is a bottom-player reversal that exploits the passer's committed weight and triangulated base, combining an underhook or shin contact with a free-leg hook to topple them diagonally past their support and recover top position.**
 
 The Sweep from Headquarters represents a critical counter-offensive response when the top player establishes headquarters position with one of the bottom player's legs trapped between their knees. Rather than passively accepting the guard pass, the bottom player exploits structural vulnerabilities inherent in the headquarters stance—specifically the wide base, elevated posting leg, and the top player's directional weight commitment—to create off-balancing opportunities that reverse the positional hierarchy entirely. This sweep chain is fundamental to making headquarters a contested position rather than a one-sided passing platform.
 
@@ -224,5 +261,7 @@ The Sweep from Headquarters occupies a pivotal role in the guard retention and r
 
 
 </section>
+
+
 
 </main>

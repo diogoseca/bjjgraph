@@ -1,5 +1,6 @@
 {
   "name": "Posture Up from Triangle",
+  "summary": "Posture Up from Triangle is a top-position triangle escape where the trapped player connects their hands behind the opponent's hips and drives spinal extension through the posterior chain to relieve carotid pressure and recover to open guard top.",
   "description": "Master the Posture Up from Triangle escape in BJJ. Break triangle control with systematic posture recovery to reach open guard safely and effectively.",
   "tags": [
     "bjj",
@@ -29,7 +30,7 @@
     }
   ],
   "success_rate": 55,
-  "overview": "Posture Up from Triangle is a fundamental defensive technique executed when caught in an opponent's triangle choke from the top position. The escape centers on recovering spinal alignment and driving upward through the hips to create enough vertical space to relieve arterial compression and begin working free from the leg configuration. This technique addresses the most immediate survival need in triangle control—relieving the choking pressure—while creating a pathway to transition into open guard top position where the previously trapped player can begin guard passing.\n\nThe mechanics of posturing up require coordinating multiple body systems simultaneously. The trapped player must connect their hands together behind the opponent's lower back or hips, tuck their chin to protect the neck, and drive their spine into extension using the powerful posterior chain. The critical insight is that posture recovery is hip-driven rather than neck-driven—the feeling should resemble a deadlift or hip extension against the resistance of the opponent's legs. This hip-first approach generates substantially more force than neck muscles alone and creates a structural advantage that the bottom player's leg compression cannot easily overcome.\n\nStrategic timing is critical for success. Attempting to posture too early before securing proper grips and base wastes energy, while waiting too long allows the bottom player to optimize their choking angle and hip extension. The ideal window opens when the triangle is locked but the bottom player has not yet achieved their 30-45 degree angle adjustment, as this is the phase where the choking mechanics are least efficient and posture recovery faces the least resistance. The posture-up functions as part of a complete triangle defense system alongside stacking, lateral clearing, and grip fighting escapes.",
+  "overview": "Within the triangle defense hierarchy, posturing up is the first-line response the trapped top player reaches for the moment the legs lock around their neck. The escape centers on recovering spinal alignment and driving upward through the hips to create enough vertical space to relieve arterial compression and begin working free from the leg configuration. This technique addresses the most immediate survival need in triangle control—relieving the choking pressure—while creating a pathway to transition into open guard top position where the previously trapped player can begin guard passing.\n\nThe mechanics of posturing up require coordinating multiple body systems simultaneously. The trapped player must connect their hands together behind the opponent's lower back or hips, tuck their chin to protect the neck, and drive their spine into extension using the powerful posterior chain. The critical insight is that posture recovery is hip-driven rather than neck-driven—the feeling should resemble a deadlift or hip extension against the resistance of the opponent's legs. This hip-first approach generates substantially more force than neck muscles alone and creates a structural advantage that the bottom player's leg compression cannot easily overcome.\n\nStrategic timing is critical for success. Attempting to posture too early before securing proper grips and base wastes energy, while waiting too long allows the bottom player to optimize their choking angle and hip extension. The ideal window opens when the triangle is locked but the bottom player has not yet achieved their 30-45 degree angle adjustment, as this is the phase where the choking mechanics are least efficient and posture recovery faces the least resistance. The posture-up functions as part of a complete triangle defense system alongside stacking, lateral clearing, and grip fighting escapes.",
   "conditions": [
     "Caught in opponent's triangle control with one arm trapped inside the leg configuration",
     "Triangle is locked but not yet at maximum tightness with full hip extension and optimal angle",
@@ -73,8 +74,8 @@
       "relationship": "Related defensive concept sharing core posture mechanics applicable across guard positions"
     },
     {
-      "name": "Complete Triangle Escape from Top",
-      "relationship": "Comprehensive escape sequence that may incorporate posture-up as initial phase"
+      "name": "Triangle Escape",
+      "relationship": "Comprehensive escape sequence that may incorporate posture-up as its initial phase"
     },
     {
       "name": "Stack Defense",

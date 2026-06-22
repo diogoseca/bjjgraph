@@ -1,5 +1,6 @@
 {
   "name": "Kimura from High Mount",
+  "summary": "The Kimura from High Mount is a figure-four shoulder lock applied from the elevated mount: the attacker isolates one arm and rotates it behind the defender's back while chest weight on the upper torso removes their bridging escape.",
   "description": "Master the Kimura shoulder lock from High Mount. Complete finishing guide with figure-four grip mechanics, rotational force application, and defensive counters.",
   "tags": [
     "bjj",
@@ -193,7 +194,7 @@
       {
         "step_number": 7,
         "action": "Complete the finish with structural pressure",
-        "description": "Continue the controlled rotation until the opponent taps or you reach the natural endpoint of shoulder external rotation. Maintain chest pressure on the defender's upper body throughout the entire finishing sequence to prevent them from rolling toward you to relieve rotational pressure on the shoulder. The finishing force comes from your body structure and weight distribution, not from muscular effort in your arms.",
+        "description": "Continue the controlled rotation until the opponent taps or you reach the natural endpoint of shoulder internal rotation. Maintain chest pressure on the defender's upper body throughout the entire finishing sequence to prevent them from rolling toward you to relieve rotational pressure on the shoulder. The finishing force comes from your body structure and weight distribution, not from muscular effort in your arms.",
         "timing": "1-2 seconds"
       }
     ],
@@ -280,7 +281,7 @@
     "flashcards": [
       {
         "question": "What anatomical structures does the Kimura from High Mount primarily attack?",
-        "answer": "The Kimura targets the shoulder joint through forced external rotation, specifically stressing the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the shoulder capsule ligaments, and the glenoid labrum. The figure-four grip creates a lever that rotates the humerus past its natural range of motion within the glenohumeral socket, with the elbow serving as the fulcrum point. Secondary stress occurs on the bicep tendon and the acromioclavicular joint.",
+        "answer": "The Kimura targets the shoulder joint through forced internal rotation, driving the bent forearm and wrist toward the lower back, specifically stressing the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the shoulder capsule ligaments, and the glenoid labrum. The figure-four grip creates a lever that rotates the humerus past its natural range of motion within the glenohumeral socket, with the elbow serving as the fulcrum point. Secondary stress occurs on the bicep tendon and the acromioclavicular joint.",
         "safety_critical": false
       },
       {

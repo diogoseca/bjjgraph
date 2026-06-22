@@ -131,6 +131,7 @@ description: "How to execute Uchi Mata in BJJ. Attacking perspective with setup,
   "@type": "WebPage",
   "name": "Uchi Mata Attacker",
   "description": "How to execute Uchi Mata in BJJ. Attacking perspective with setup, execution steps, and counters.",
+  "alternateName": ["Inner Thigh Throw"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -176,6 +177,9 @@ description: "How to execute Uchi Mata in BJJ. Attacking perspective with setup,
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Inner Thigh Throw</strong> <span class="role-hint">(attacker)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 The Uchi Mata (inner thigh throw) is one of judo's most powerful and versatile throwing techniques, highly effective in both gi and no-gi grappling. Translated as 'inner thigh reap,' this technique involves using your inner thigh to sweep your opponent's supporting leg while simultaneously rotating them over your hip. The Uchi Mata is particularly effective against taller opponents or those who stand upright in the clinch, as it exploits their high center of gravity. When executed properly, this throw generates tremendous force and typically results in a direct transition to side control or mount, making it one of the highest-percentage scoring techniques in BJJ competition. The technique requires precise timing, proper kuzushi (off-balancing), and coordinated hip and leg movement. Unlike some throws that rely purely on strength, Uchi Mata is a technical throw that uses rotational momentum and leverage to amplify your power. Its effectiveness has made it a staple in the arsenals of many high-level BJJ competitors who incorporate judo into their standing game.
@@ -339,5 +343,7 @@ Continuously refine mechanics based on success rate in live training. Develop se
 Uchi Mata is a high-impact throwing technique that requires proper safety protocols during training. Both partners must be competent in breakfalls (ukemi) before practicing this throw with any speed or power. The person being thrown should keep their chin tucked and slap the mat with their arm to dissipate impact force. Never practice on hard surfaces without proper mats (minimum 1.5 inch thickness recommended). When first learning, use crash pads or stacked mats for extra cushioning. The thrower must control the descent and not release grips until the throw is complete, as releasing mid-air can cause the opponent to land awkwardly on their head or neck. Start all training at slow speed with cooperative partners and gradually increase resistance over weeks. Avoid practicing throws when fatigued, as this leads to poor technique and increased injury risk. If you have pre-existing knee, hip, or ankle injuries, consult with a sports medicine professional before training Uchi Mata, as the rotational forces place significant stress on these joints. During competition, ensure proper warm-up and understand the rules regarding slamming versus controlled throws.
 
 </section>
+
+
 
 </main>

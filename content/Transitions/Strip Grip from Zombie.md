@@ -10,6 +10,41 @@ description: "Master the Strip Grip from Zombie in BJJ. Learn systematic grip br
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Strip Grip from Zombie",
+  "description": "Master the Strip Grip from Zombie in BJJ. Learn systematic grip breaking techniques to neutralize lockdown control and advance to open guard passing.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Strip Grip from Zombie", "item": "https://bjjgraph.org/Transitions/Strip-Grip-from-Zombie" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Strip Grip from Zombie",
+  "description": "Strip Grip from Zombie is a top-position grip-breaking sequence that dismantles the 10th Planet Zombie by neutralizing the underhook, clearing frames, and breaking the lockdown in priority order to free the trapped leg for open guard passing.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Strip Grip from Zombie in BJJ. Learn systematic grip br
 </div>
 
 <section id="overview" class="content-section">
+
+**Strip Grip from Zombie is a top-position grip-breaking sequence that dismantles the 10th Planet Zombie by neutralizing the underhook, clearing frames, and breaking the lockdown in priority order to free the trapped leg for open guard passing.**
 
 The Strip Grip from Zombie is a systematic grip-breaking sequence executed from the top position against an opponent utilizing the Zombie lockdown structure from the 10th Planet system. This technique addresses the fundamental challenge of neutralizing the bottom player's lockdown, underhook, and frame grips that constitute the Zombie's defensive architecture, transforming a complex and frustrating passing problem into a manageable open guard scenario.
 
@@ -210,9 +247,11 @@ The Strip Grip from Zombie is a critical utility technique within the passing to
 
 - [[Positions/Half Guard/Deep Half Guard]] - Alternative guard recovery the bottom player may transition to when Zombie structure fails
 
-- [[Transitions/Lockdown Whizzer Pass]] - Related passing technique that uses whizzer mechanics to defeat lockdown control
+- [[Positions/Half Guard/Knee Shield Half Guard]] - New guard structure the bottom player may recover to during the post-extraction scramble window
 
 
 </section>
+
+
 
 </main>

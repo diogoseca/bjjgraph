@@ -10,6 +10,41 @@ description: "Master the Hindulotine position in BJJ. High-pressure guillotine v
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Hindulotine",
+  "description": "Master the Hindulotine position in BJJ. High-pressure guillotine variation combining head control with body positioning for submission or back take opportunities.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Hindulotine", "item": "https://bjjgraph.org/Positions/Hindulotine" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Hindulotine",
+  "description": "The Hindulotine is a high-pressure front-headlock guillotine variation that adds rotational hip torque to standard choking mechanics, forcing defensive reactions that open back takes, Darce, and anaconda finishes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Hindulotine position in BJJ. High-pressure guillotine v
 </div>
 
 <section id="overview" class="content-section">
+
+**The Hindulotine is a high-pressure front-headlock guillotine variation that adds rotational hip torque to standard choking mechanics, forcing defensive reactions that open back takes, Darce, and anaconda finishes.**
 
 The Hindulotine is a specialized guillotine variation that combines elements of traditional guillotine mechanics with unique body positioning that creates exceptional pressure on the opponent's neck and spine. Named for its origins in catch wrestling and modern no-gi grappling, this position represents an evolution of front headlock attacks where the controlling practitioner uses their hips and legs to generate torque while maintaining the guillotine grip.
 
@@ -102,23 +139,25 @@ The strategic value of the Hindulotine lies in its ability to force defensive re
 ### Available Transitions
 
 
-- **[[Guillotine Choke from Hindulotine/Attacker|Guillotine Choke from Hindulotine]]** (32% of attempts)
+- **[[Guillotine Choke from Hindulotine/Attacker|Guillotine Choke from Hindulotine]]** (30% of attempts)
 
-- **[[Transitions/Hindulotine to Darce Choke/Attacker|Hindulotine to Darce Choke]]** (8% of attempts)
+- **[[Transitions/Hindulotine to Darce Choke/Attacker|Hindulotine to Darce Choke]]** (7% of attempts)
 
 - **[[Transitions/Hindulotine to Anaconda Choke/Attacker|Hindulotine to Anaconda Choke]]** (6% of attempts)
 
-- **[[Transitions/Back Take from Bottom/Attacker|Back Take from Bottom]]** (13% of attempts)
+- **[[Transitions/Back Take from Bottom/Attacker|Back Take from Bottom]]** (12% of attempts)
 
-- **[[Transitions/High Elbow Guillotine Variation/Attacker|High Elbow Guillotine Variation]]** (8% of attempts)
+- **[[Transitions/High Elbow Guillotine Variation/Attacker|High Elbow Guillotine Variation]]** (7% of attempts)
 
-- **[[Transitions/Butterfly Sweep with Guillotine/Attacker|Butterfly Sweep with Guillotine]]** (20% of attempts)
+- **[[Transitions/Butterfly Sweep with Guillotine/Attacker|Butterfly Sweep with Guillotine]]** (19% of attempts)
 
-- **[[Transitions/Guard Recovery from Hindulotine/Attacker|Guard Recovery from Hindulotine]]** (8% of attempts)
+- **[[Transitions/Guard Recovery from Hindulotine/Attacker|Guard Recovery from Hindulotine]]** (7% of attempts)
 
 - **[[Transitions/Arm Triangle Transition/Attacker|Arm Triangle Transition]]** (3% of attempts)
 
 - **[[Transitions/Sweep to Mount/Attacker|Sweep to Mount]]** (2% of attempts)
+
+- **[[High Elbow Guillotine from Hindulotine/Attacker|High Elbow Guillotine from Hindulotine]]** (7% of attempts)
 
 
 ### Common Mistakes
@@ -175,23 +214,19 @@ The strategic value of the Hindulotine lies in its ability to force defensive re
 ### Available Transitions
 
 
-- **[[Guillotine Choke from Hindulotine/Attacker|Guillotine Choke from Hindulotine]]** (31% of attempts)
+- **[[Guillotine Choke from Hindulotine/Attacker|Guillotine Choke from Hindulotine]]** (42% of attempts)
 
-- **[[Transitions/Hindulotine to Darce Choke/Attacker|Hindulotine to Darce Choke]]** (10% of attempts)
+- **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** (17% of attempts)
 
-- **[[Transitions/Hindulotine to Anaconda Choke/Attacker|Hindulotine to Anaconda Choke]]** (8% of attempts)
+- **[[Transitions/Front Headlock to Back/Attacker|Front Headlock to Back]]** (12% of attempts)
 
-- **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** (13% of attempts)
-
-- **[[Transitions/Front Headlock to Back/Attacker|Front Headlock to Back]]** (10% of attempts)
-
-- **[[Transitions/Arm Triangle from Top/Attacker|Arm Triangle from Top]]** (9% of attempts)
-
-- **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (13% of attempts)
+- **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (15% of attempts)
 
 - **[[Hindulotine from Hindulotine/Attacker|Hindulotine from Hindulotine]]** (4% of attempts)
 
 - **[[Transitions/Finish from Hindulotine/Attacker|Finish from Hindulotine]]** (2% of attempts)
+
+- **[[Arm Triangle from Hindulotine/Attacker|Arm Triangle from Hindulotine]]** (8% of attempts)
 
 
 ### Common Mistakes
@@ -240,9 +275,11 @@ The strategic value of the Hindulotine lies in its ability to force defensive re
 
 - **[[Positions/Turtle]]** - Entry position when attacking flattened opponent
 
-- **[[Positions/Standing Position]]** - Starting position for takedown defense entries
+- **[[Positions/Clinch]]** - Standing entry point for takedown defense and front headlock setups
 
 
 </section>
+
+
 
 </main>

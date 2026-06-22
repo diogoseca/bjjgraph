@@ -10,6 +10,41 @@ description: "Master Kesa Gatame (Scarf Hold) in BJJ. Strategic guide covering c
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kesa Gatame",
+  "description": "Master Kesa Gatame (Scarf Hold) in BJJ. Strategic guide covering control mechanics, submissions, escapes, and transitions with complete perspective analysis for both bottom and top players.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Kesa Gatame", "item": "https://bjjgraph.org/Positions/Kesa-Gatame" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kesa Gatame",
+  "description": "Kesa Gatame (Scarf Hold) is a judo-derived side pin where the top player sits perpendicular to a supine opponent, trapping the head and near arm to immobilize the upper body while trading some back exposure for crushing chest control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Kesa Gatame (Scarf Hold) in BJJ. Strategic guide covering c
 </div>
 
 <section id="overview" class="content-section">
+
+**Kesa Gatame (Scarf Hold) is a judo-derived side pin where the top player sits perpendicular to a supine opponent, trapping the head and near arm to immobilize the upper body while trading some back exposure for crushing chest control.**
 
 Kesa Gatame, also known as Scarf Hold, represents one of judo's most effective pinning positions adapted for Brazilian Jiu-Jitsu. This position creates a unique control dynamic where the top practitioner sits perpendicular to their supine opponent, wrapping one arm around the opponent's head while controlling the near arm. The position's defining characteristic is the trade-off between offensive control and defensive vulnerability—while offering exceptional upper body immobilization and powerful submission opportunities, it simultaneously exposes the top player's back to potential attacks if proper awareness is not maintained.
 
@@ -183,25 +220,27 @@ Kesa Gatame functions as a positional hub within the side control family, offeri
 ### Available Transitions
 
 
-- **[[Kimura from Kesa Gatame/Attacker|Kimura from Kesa Gatame]]** (10% of attempts)
+- **[[Kimura from Kesa Gatame/Attacker|Kimura from Kesa Gatame]]** (13% of attempts)
 
-- **[[Submissions/Far Side Armbar/Attacker|Far Side Armbar]]** (9% of attempts)
+- **[[Submissions/Far Side Armbar/Attacker|Far Side Armbar]]** (11% of attempts)
 
 - **[[North-South Choke from Kesa Gatame/Attacker|North-South Choke from Kesa Gatame]]** (8% of attempts)
 
-- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (14% of attempts)
+- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (17% of attempts)
 
-- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (32% of attempts)
+- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (10% of attempts)
 
-- **[[Arm Triangle from Kesa Gatame/Attacker|Arm Triangle from Kesa Gatame]]** (7% of attempts)
+- **[[Arm Triangle from Kesa Gatame/Attacker|Arm Triangle from Kesa Gatame]]** (9% of attempts)
 
 - **[[Transitions/Kesa Gatame to Modified Scarf Hold/Attacker|Kesa Gatame to Modified Scarf Hold]]** (2% of attempts)
 
 - **[[Transitions/Kesa Gatame to Reverse Kesa-Gatame/Attacker|Kesa Gatame to Reverse Kesa-Gatame]]** (2% of attempts)
 
-- **[[Americana from Kesa Gatame/Attacker|Americana from Kesa Gatame]]** (14% of attempts)
+- **[[Americana from Kesa Gatame/Attacker|Americana from Kesa Gatame]]** (20% of attempts)
 
-- **[[Submissions/Kesa Gatame Arm Crush/Attacker|Kesa Gatame Arm Crush]]** (2% of attempts)
+- **[[Submissions/Kesa Gatame Arm Crush/Attacker|Kesa Gatame Arm Crush]]** (4% of attempts)
+
+- **[[Belly Down Armbar from Kesa Gatame/Attacker|Belly Down Armbar from Kesa Gatame]]** (4% of attempts)
 
 
 ### Common Mistakes
@@ -258,6 +297,16 @@ Kesa Gatame functions as a positional hub within the side control family, offeri
 
 - **[[Positions/Kimura Trap]]** - Alternative arm lock control when opponent defends americana
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Roger-Gracie-Fundamental-System" data-cta="related-system-card" data-system-slug="systems/roger-gracie-fundamental-system" data-system-name="Roger Gracie Fundamental System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Roger Gracie Fundamental System</span><span class="system-card__unlocks-badge">Unlocks 22 techniques</span><span class="system-card__blurb">Traditional control position emphasizing fundamental pinning mechanics and pressure</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

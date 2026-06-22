@@ -2,6 +2,7 @@
   "name": "Triangle Control",
   "slug": "triangle-control",
   "description": "Master Triangle Control in BJJ. Dominant submission platform with 75% finish rate at advanced levels. Complete guide to setup, control, and submission chains.",
+  "summary": "Triangle Control is a guard-based submission position where one leg traps the opponent's neck and the other locks over it in a figure-four, isolating one arm to compress the carotids and anchor a chain of chokes, armbars, and omoplatas.",
   "variant_uniqueness": "Submission threat trades positional safety",
   "overview": "Triangle Control represents one of the most powerful submission positions in Brazilian Jiu-Jitsu, where the practitioner has locked their legs around the opponent's neck and one arm, creating an imminent choking threat while simultaneously establishing a control platform for multiple submission chains. This position exemplifies the fundamental principle of using the body's strongest muscles—the legs and hips—against the opponent's most vulnerable structure—the neck. The triangle configuration creates a mechanical advantage where the practitioner compresses the carotid arteries while trapping one of the opponent's arms across their own neck, amplifying the choking pressure through their own trapped limb.\n\nFrom a strategic perspective, triangle control functions as both a high-percentage submission and a dynamic hub position for launching multiple attacks. The position offers exceptional control over the opponent's upper body while simultaneously threatening the choke, armbar transitions, omoplata variations, and back takes. Advanced practitioners understand that the triangle itself is often a forcing mechanism—creating defensive reactions that open pathways to other submissions. The position's power lies in its ability to control distance, limit the opponent's defensive options, and create a submission chain that becomes increasingly difficult to escape as time progresses.\n\nThe biomechanics of triangle control favor the attacking practitioner significantly, as the leg muscles are substantially stronger than the neck and arm muscles the opponent must use to defend. Proper angle adjustment and hip positioning are critical—the practitioner must angle their body approximately 30-45 degrees relative to the opponent's centerline to maximize choking pressure while minimizing the opponent's ability to posture or stack. This position is most commonly reached from closed guard, spider guard, or various open guard positions when the opponent's posture is broken and one arm is isolated. Understanding triangle control from both offensive and defensive perspectives is essential for all practitioners, as it remains one of the most frequently attempted submissions in both training and competition environments across all skill levels and weight classes.\n\nThe triangle choke has evolved significantly since its popularization in competitive BJJ. Modern practitioners have refined the position's mechanics through systematic study of angle geometry, hip elevation principles, and submission chain sequencing. The position connects directly to the broader guard attack system, functioning as a centerpiece technique around which entire offensive guard games are constructed. The rear triangle variation extends these principles to back control scenarios, demonstrating the versatility of the triangular leg configuration across multiple positional contexts.",
   "key_principles": [
@@ -78,35 +79,31 @@
     "transitions": [
       {
         "transition": "Triangle Escape",
-        "attempt_probability": 22
+        "attempt_probability": 35
       },
       {
         "transition": "Posture Recovery",
-        "attempt_probability": 16
+        "attempt_probability": 26
       },
       {
         "transition": "Stack Defense",
-        "attempt_probability": 12
+        "attempt_probability": 20
       },
       {
         "transition": "Guard Recovery from Triangle Control",
-        "attempt_probability": 5
+        "attempt_probability": 7
       },
       {
         "transition": "Triangle Clear to Side",
-        "attempt_probability": 5
-      },
-      {
-        "transition": "Triangle Choke from Triangle Control",
-        "attempt_probability": 37
+        "attempt_probability": 7
       },
       {
         "transition": "Posture Up from Triangle",
-        "attempt_probability": 2
+        "attempt_probability": 3
       },
       {
         "transition": "Stack Escape from Triangle",
-        "attempt_probability": 1
+        "attempt_probability": 2
       }
     ],
     "decision_tree": [

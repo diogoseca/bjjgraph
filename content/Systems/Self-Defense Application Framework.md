@@ -134,10 +134,23 @@ description: "Master self-defense applications of BJJ with systematic framework 
 }
 </script>
 
-> Self-Defense Application Framework is a intermediate difficulty Training Methodology system. Integrates 4 components.
 
-**System Type**: Training Methodology
-**Difficulty Level**: Intermediate
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Self-Defense Application Framework",
+  "description": "The Self-Defense Application Framework is a reality-based system that adapts sport BJJ for street confrontations, prioritizing awareness, de-escalation, strike defense, decisive control, and escape within a legally defensible use-of-force structure.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Training Methodology</span>
+<span class="meta-chip">Intermediate difficulty</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -146,7 +159,27 @@ description: "Master self-defense applications of BJJ with systematic framework 
 
 ## What is Self-Defense Application Framework?
 
-The Self-Defense Application Framework provides a systematic approach to translating sport BJJ techniques into effective self-defense strategies. This system addresses the fundamental differences between competition grappling and real-world confrontations, including the presence of strikes, environmental hazards, multiple attackers, and legal implications. The framework emphasizes efficiency, decisiveness, and de-escalation while maintaining technical excellence. Unlike sport BJJ which rewards points and positional control, self-defense applications prioritize rapid neutralization, escape, and personal safety. The system integrates striking defense, clinch control, takedown defense, and ground control principles specifically adapted for self-defense scenarios. It addresses pre-fight awareness, verbal de-escalation, legal use of force considerations, and post-incident protocols. The framework is built on the principle that sport BJJ provides an excellent foundation but requires specific modifications and additions to be truly effective for self-defense. Training methodology emphasizes stress inoculation, scenario-based drilling, and understanding the legal and ethical dimensions of physical confrontation.
+**The Self-Defense Application Framework is a reality-based system that adapts sport BJJ for street confrontations, prioritizing awareness, de-escalation, strike defense, decisive control, and escape within a legally defensible use-of-force structure.**
+
+Sport BJJ provides an excellent foundation for personal protection, but competition grappling and real-world confrontations diverge in critical ways - the presence of strikes, environmental hazards, multiple attackers, weapons, and legal implications. This system addresses those differences head-on, emphasizing efficiency, decisiveness, and de-escalation while maintaining technical excellence. Unlike sport BJJ which rewards points and positional control, self-defense applications prioritize rapid neutralization, escape, and personal safety. The system integrates striking defense, clinch control, takedown defense, and ground control principles specifically adapted for self-defense scenarios. It addresses pre-fight awareness, verbal de-escalation, legal use of force considerations, and post-incident protocols. The framework is built on the principle that sport BJJ provides an excellent foundation but requires specific modifications and additions to be truly effective for self-defense. Training methodology emphasizes stress inoculation, scenario-based drilling, and understanding the legal and ethical dimensions of physical confrontation.
+
+</section>
+
+
+
+<section id="unlock-graph" class="content-section system-unlock" data-system-unlock hidden>
+
+## Unlock this part of the graph
+
+<p class="section-subtitle">This system teaches the highlighted nodes in the graph. Mark what you already know &mdash; be honest, it's your game.</p>
+
+<div class="system-progress" data-system-progress>
+<svg class="system-progress__ring" viewBox="0 0 44 44" aria-hidden="true"><circle class="system-progress__ring-bg" cx="22" cy="22" r="19"></circle><circle class="system-progress__ring-fill" cx="22" cy="22" r="19"></circle></svg>
+<div class="system-progress__text">You've unlocked <strong class="system-progress__known">0</strong> / <span class="system-progress__total">0</span> techniques in this system</div>
+<button class="system-progress__mark-all" data-mark-system type="button">Mark whole system as known</button>
+</div>
+
+<ul class="system-members" data-system-members></ul>
 
 </section>
 

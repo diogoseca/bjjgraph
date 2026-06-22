@@ -10,10 +10,55 @@ description: "Master the Arm Triangle from Shoulder of Justice. Learn how intens
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Arm Triangle from Shoulder of Justice targets the Carotid arteries (compressed by opponent's own shoulder and attacker's arm). Risk: Loss of consciousness from bilateral carotid compression. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Arm Triangle from Shoulder of Justice",
+  "description": "Master the Arm Triangle from Shoulder of Justice. Learn how intense jaw pressure forces the defensive reaction that creates this high-percentage blood choke finish.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Arm Triangle from Shoulder of Justice", "item": "https://bjjgraph.org/Submissions/Arm-Triangle-from-Shoulder-of-Justice" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Arm Triangle from Shoulder of Justice",
+  "description": "The Arm Triangle from Shoulder of Justice is a head-and-arm blood choke that weaponizes the position's jaw pressure: the crushing shoulder forces the defender's far arm across their own neck, and you trap it to compress both carotids.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Arm Triangle from Shoulder of Justice is a head-and-arm blood choke that weaponizes the position's jaw pressure: the crushing shoulder forces the defender's far arm across their own neck, and you trap it to compress both carotids.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries (compressed by opponent's own shoulder and attacker's arm)</span>
+<span class="meta-chip">62% success</span>
+</div>
+
+> [!danger] Safety
+> Arm Triangle from Shoulder of Justice targets the Carotid arteries (compressed by opponent's own shoulder and attacker's arm). Primary risk: Loss of consciousness from bilateral carotid compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,53 +75,7 @@ The submission works by compressing both carotid arteries simultaneously. The op
 
 The finishing sequence involves locking the head-and-arm grip, walking to a perpendicular angle on the trapped-arm side, and applying progressive chest-to-chest compression. The Shoulder of Justice setup provides a significant advantage over other arm triangle entries because the opponent is already under maximum pressure and has limited defensive options before the choke is even initiated.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries (compressed by opponent's own shoulder and attacker's arm)
-**Starting Position**: [[Positions/Shoulder of Justice]]
-**From Position**: [[Positions/Shoulder of Justice]] (Top)
-**Success Rate**: 62%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Loss of consciousness from bilateral carotid compression | High | Immediate recovery if released promptly; potential stroke risk if held beyond 10 seconds after unconsciousness |
-| Neck strain from improper pressure angle or cranking | Medium | 3-7 days with rest |
-| Shoulder compression injury to trapped arm | Medium | 5-14 days depending on severity |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from lock to tap. Blood chokes can cause unconsciousness in 6-8 seconds.
-
-**Tap Signals**:
-- Verbal tap (say 'tap' clearly)
-- Physical hand tap (multiple taps on opponent or mat)
-- Physical foot tap (multiple taps with foot)
-- Any distress signal or loss of resistance
-- Immediately release if opponent goes limp
-
-
-**Release Protocol**:
-1. Immediately release arm squeeze and remove chest pressure
-2. Step back from opponent's head and shoulders
-3. Allow opponent to breathe and recover (30-60 seconds)
-4. Check for consciousness and normal breathing
-5. If unconscious: position on side, elevate legs, monitor breathing until conscious
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - apply smooth progressive pressure only
-- Never hold after tap signal - release immediately upon any tap
-- Always allow tap access - do not trap both arms in training
-- Never use competition speed in training - practice control first
-- Stop immediately if opponent's face changes color (purple/red indicates excessive pressure)
-
+**Starting Position**: [[Positions/Shoulder of Justice]] · **From**: [[Positions/Shoulder of Justice]] (Top)
 
 </section>
 
@@ -240,43 +239,58 @@ The finishing sequence involves locking the head-and-arm grip, walking to a perp
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Transitions/Arm Triangle]]
-- [[Arm Triangle from Side Control]]
-- [[Arm Triangle from Kesa Gatame]]
-- [[Arm Triangle from Kuzure Kesa-Gatame]]
-- [[Arm Triangle from Hindulotine]]
-- [[Americana from Shoulder of Justice]]
 - [[Transitions/Anaconda Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Shoulder of Justice]] - Starting position - intense jaw pressure forces the far-arm-across reaction
 - [[Positions/Side Control]] - Parent position category for Shoulder of Justice
-- [[Transitions/Arm Triangle]] - Parent submission family
-- [[Arm Triangle from Side Control]] - Similar arm triangle entry from standard side control
-- [[Americana from Shoulder of Justice]] - Alternative submission from same starting position when near arm extends
 - [[Positions/North-South]] - Common transition target if arm triangle fails and opponent turns
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Loss of consciousness from bilateral carotid compression | High | Immediate recovery if released promptly; potential stroke risk if held beyond 10 seconds after unconsciousness |
+| Neck strain from improper pressure angle or cranking | Medium | 3-7 days with rest |
+| Shoulder compression injury to trapped arm | Medium | 5-14 days depending on severity |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum from lock to tap. Blood chokes can cause unconsciousness in 6-8 seconds.
+
+**Tap Signals**:
+- Verbal tap (say 'tap' clearly)
+- Physical hand tap (multiple taps on opponent or mat)
+- Physical foot tap (multiple taps with foot)
+- Any distress signal or loss of resistance
+- Immediately release if opponent goes limp
+
+
+**Release Protocol**:
+1. Immediately release arm squeeze and remove chest pressure
+2. Step back from opponent's head and shoulders
+3. Allow opponent to breathe and recover (30-60 seconds)
+4. Check for consciousness and normal breathing
+5. If unconscious: position on side, elevate legs, monitor breathing until conscious
+
+
+**Training Restrictions**:
+- Never spike or jerk the submission - apply smooth progressive pressure only
+- Never hold after tap signal - release immediately upon any tap
+- Always allow tap access - do not trap both arms in training
+- Never use competition speed in training - practice control first
+- Stop immediately if opponent's face changes color (purple/red indicates excessive pressure)
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Arm Triangle from Shoulder of Justice leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

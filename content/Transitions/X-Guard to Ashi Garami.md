@@ -10,6 +10,41 @@ description: "Master the X-Guard to Ashi Garami transition in BJJ. Strategic leg
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "X-Guard to Ashi Garami",
+  "description": "Master the X-Guard to Ashi Garami transition in BJJ. Strategic leg entanglement entry with systematic control breakdown. Beginner 35%, Intermediate 50%, Advanced 65%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "X-Guard to Ashi Garami", "item": "https://bjjgraph.org/Transitions/X-Guard-to-Ashi-Garami" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "X-Guard to Ashi Garami",
+  "description": "X-Guard to Ashi Garami is a bottom-position transition that reconfigures X-Guard's trapped-leg control into an Inside Ashi-Garami leg entanglement, converting a sweep threat into direct access to ankle locks and heel hooks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the X-Guard to Ashi Garami transition in BJJ. Strategic leg
 </div>
 
 <section id="overview" class="content-section">
+
+**X-Guard to Ashi Garami is a bottom-position transition that reconfigures X-Guard's trapped-leg control into an Inside Ashi-Garami leg entanglement, converting a sweep threat into direct access to ankle locks and heel hooks.**
 
 The X-Guard to Ashi Garami transition represents a fundamental connection between traditional sweeping systems and modern leg entanglement attacks. This transition exploits the inherent vulnerability of the standing opponent's near leg while maintaining the control framework established in X-Guard. The technique creates a seamless progression from a sweep-oriented position into a submission-focused leg entanglement, forcing opponents into a defensive dilemma where defending the sweep opens the leg lock, and defending the leg opens the sweep. This dual-threat system exemplifies modern no-gi grappling's evolution toward integrated positional systems. The transition requires precise timing, as the window of opportunity opens when the opponent attempts to disengage from X-Guard by pulling their trapped leg backward. Success depends on maintaining hip connection throughout the transition while simultaneously transitioning grip configurations from sweep-oriented controls to leg entanglement frames. Mastery of this transition fundamentally changes the threat landscape from X-Guard, transforming it from a purely sweeping position into a submission entry system.
 
@@ -229,6 +266,18 @@ The X-Guard to Ashi transition represents a critical link between traditional gu
 
 - [[Positions/Half Guard/Deep Half Guard]] - Backup Position If Transition Fails
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Danaher-Leg-Lock-System" data-cta="related-system-card" data-system-slug="systems/danaher-leg-lock-system" data-system-name="Danaher Leg Lock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Danaher Leg Lock System</span><span class="system-card__unlocks-badge">Unlocks 30 techniques</span><span class="system-card__blurb">Critical entry pathway from X-guard positions to leg entanglements</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Straight-Footlock-to-Kneebar-Chain" data-cta="related-system-card" data-system-slug="systems/straight-footlock-to-kneebar-chain" data-system-name="Straight Footlock to Kneebar Chain" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Straight Footlock to Kneebar Chain</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Common entry pathway from guard positions</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Garry-Tonon-Leg-Lock-to-Back-System" data-cta="related-system-card" data-system-slug="systems/garry-tonon-leg-lock-to-back-system" data-system-name="Garry Tonon Leg Lock to Back System" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Garry Tonon Leg Lock to Back System</span><span class="system-card__unlocks-badge">Unlocks 26 techniques</span><span class="system-card__blurb">Conversion pathway from x-guard position to leg entanglement positions</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

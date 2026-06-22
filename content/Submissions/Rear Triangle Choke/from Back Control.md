@@ -10,10 +10,55 @@ description: "Master Triangle Choke from Back Control in BJJ. Complete guide wit
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Rear Triangle Choke from Back Control targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Rear Triangle Choke from Back Control",
+  "description": "Master Triangle Choke from Back Control in BJJ. Complete guide with safety protocols, setup, execution. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Rear Triangle Choke from Back Control", "item": "https://bjjgraph.org/Submissions/Rear-Triangle-Choke-from-Back-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Rear Triangle Choke from Back Control",
+  "description": "The Rear Triangle Choke from Back Control is a blood choke where the attacker isolates one of the defender's arms and laces a leg across the neck, compressing both carotid arteries between thigh and trapped shoulder while retaining back control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Rear Triangle Choke from Back Control is a blood choke where the attacker isolates one of the defender's arms and laces a leg across the neck, compressing both carotid arteries between thigh and trapped shoulder while retaining back control.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries and trachea</span>
+<span class="meta-chip">58% success</span>
+</div>
+
+> [!danger] Safety
+> Rear Triangle Choke from Back Control targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,57 +75,7 @@ This technique exemplifies the principle of submission chains and dilemma creati
 
 The Triangle Choke from Back Control requires precise leg positioning, hip mobility, and understanding of angle creation. Success depends on maintaining back control throughout the transition, controlling one of the opponent's arms inside the triangle, and applying proper finishing mechanics. This submission is particularly valuable in competition and no-gi scenarios where rear naked choke defenses are well-developed, providing an alternative finishing path that catches opponents by surprise.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries and trachea
-**Starting Position**: [[Positions/Back Control]]
-**From Position**: [[Positions/Back Control]] (Top)
-**Success Rate**: 58%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Carotid artery compression leading to loss of consciousness | CRITICAL | Immediate with proper release, potential complications if held too long |
-| Trachea damage from improper angle or excessive force | High | 1-2 weeks for minor damage, surgery for severe cases |
-| Neck strain or cervical spine stress | Medium | 3-7 days with rest and proper care |
-| Shoulder hyperextension of trapped arm | Medium | 5-10 days depending on severity |
-
-
-**Application Speed**: EXTREMELY SLOW and progressive - 4-6 seconds minimum in training, allowing partner clear opportunity to tap
-
-**Tap Signals**:
-- Verbal tap or verbal signal of any kind
-- Physical hand tap on opponent's body or mat
-- Physical foot tap on mat
-- Any distress signal including sounds or movements indicating panic
-- Loss of resistance or going limp (immediate release required)
-
-
-**Release Protocol**:
-1. Immediately unlock legs and open triangle configuration
-2. Release trapped arm completely
-3. Allow opponent's head to return to neutral position
-4. Reduce all pressure and maintain stillness
-5. Check partner's condition and ensure they are alert and breathing normally
-6. Wait for verbal confirmation before resuming training
-
-
-**Training Restrictions**:
-- Never apply full pressure during initial learning phases (first 3-4 weeks)
-- Never spike or jerk the submission - all pressure must be gradual
-- Never continue applying pressure after tap signal
-- Never practice on partners significantly smaller or less experienced without explicit agreement
-- Always ensure training partner has clear access to tap (free hand available)
-- Never combine with additional submissions during learning phases
-- Strictly avoid competition-speed application in training environment
-
+**Starting Position**: [[Positions/Back Control]] · **From**: [[Positions/Back Control]] (Top)
 
 </section>
 
@@ -250,50 +245,72 @@ The Triangle Choke from Back Control requires precise leg positioning, hip mobil
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Triangle Choke]]
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/Belly Down Armbar]]
-- [[Submissions/Triangle Choke]]
 - [[Transitions/Gogoplata]]
 - [[Transitions/Inverted Triangle]]
 - [[Submissions/Choke from Crucifix]]
 - [[Submissions/Gift Wrap Armbar]]
 - [[Submissions/Bow and Arrow Choke]]
 - [[Submissions/Triangle Choke Side]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Back Control]] - Primary starting position for this submission
-- [[Submissions/Triangle Choke]] - Base technique variation (front triangle) with similar finishing mechanics
-- [[Submissions/Rear Naked Choke]] - Primary back attack that creates the setup for this triangle through defensive reactions
-- [[Submissions/Belly Down Armbar]] - Alternative armbar finish accessible when triangle is defended and opponent's arm is extended during escape
 - [[Positions/Back Control/Body Triangle]] - Optimal back control variation for setting up this triangle due to stable base
 - [[Positions/Gift Wrap]] - Alternative back control position that creates excellent triangle setup
 - [[Positions/Back Control/Seat Belt Control Back]] - Standard back control grip used during the initial phase of this technique
 - [[Positions/Mount/Mounted Triangle]] - Related triangle variation from mount position with similar finishing mechanics
 - [[Positions/Crucifix]] - Alternative back control position for arm isolation and finishing attacks
-- [[Submissions/Gift Wrap Armbar]] - Chain submission from gift wrap back control when triangle setup creates arm isolation opportunity
+
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Carotid artery compression leading to loss of consciousness | CRITICAL | Immediate with proper release, potential complications if held too long |
+| Trachea damage from improper angle or excessive force | High | 1-2 weeks for minor damage, surgery for severe cases |
+| Neck strain or cervical spine stress | Medium | 3-7 days with rest and proper care |
+| Shoulder hyperextension of trapped arm | Medium | 5-10 days depending on severity |
+
+
+**Application Speed**: EXTREMELY SLOW and progressive - 4-6 seconds minimum in training, allowing partner clear opportunity to tap
+
+**Tap Signals**:
+- Verbal tap or verbal signal of any kind
+- Physical hand tap on opponent's body or mat
+- Physical foot tap on mat
+- Any distress signal including sounds or movements indicating panic
+- Loss of resistance or going limp (immediate release required)
+
+
+**Release Protocol**:
+1. Immediately unlock legs and open triangle configuration
+2. Release trapped arm completely
+3. Allow opponent's head to return to neutral position
+4. Reduce all pressure and maintain stillness
+5. Check partner's condition and ensure they are alert and breathing normally
+6. Wait for verbal confirmation before resuming training
+
+
+**Training Restrictions**:
+- Never apply full pressure during initial learning phases (first 3-4 weeks)
+- Never spike or jerk the submission - all pressure must be gradual
+- Never continue applying pressure after tap signal
+- Never practice on partners significantly smaller or less experienced without explicit agreement
+- Always ensure training partner has clear access to tap (free hand available)
+- Never combine with additional submissions during learning phases
+- Strictly avoid competition-speed application in training environment
 
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Rear Triangle Choke from Back Control leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

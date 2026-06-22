@@ -12,6 +12,7 @@
   ],
   "system_type": "Guard System",
   "difficulty_level": "Advanced",
+  "summary": "The Andrew Wiltse Half Guard System is an offense-first bottom half guard framework using knee shield frames and underhook control to chain sweeps, single leg X entries, and high-value back takes, treating half guard as an attacking platform rather than a defensive position.",
   "overview": "Andrew Wiltse's half guard system represents a modern evolution of bottom half guard play, emphasizing active offensive pressure over defensive stalling. The system builds around knee shield frames as the primary defensive structure, but immediately transitions into dynamic sweeping and back-taking sequences rather than passive guard retention. Wiltse's approach differs from traditional half guard systems by treating the position as a transitional hub rather than a destination, constantly creating dilemmas that force opponents to choose between defending sweeps or preventing back exposure.\n\nThe system integrates seamlessly with leg entanglement positions, particularly single leg X-guard and ashi garami variations, creating a comprehensive lower body control framework. Unlike purely sweep-focused half guard systems, Wiltse's methodology prioritizes back takes as the highest-value outcome, using sweep threats to create the angular openings necessary for taking the back. This offensive philosophy transforms half guard from a defensive recovery position into a legitimate attacking platform capable of generating high-percentage scoring opportunities against elite-level opponents.\n\nThe technical foundation rests on precise underhook management, hip mobility, and the ability to shift between knee shield and deep half guard variations based on opponent reactions. Practitioners learn to read pressure direction and weight distribution, using these cues to select optimal attack pathways. The system's effectiveness stems from its systematic approach to creating and exploiting defensive dilemmas, forcing opponents into lose-lose scenarios where every defensive choice opens a different offensive opportunity.",
   "key_principles": [
     "Knee shield frames create distance and angles for offensive entries rather than pure defense",
@@ -365,6 +366,40 @@
       "name": "Darce Choke",
       "content_type": "Submission",
       "relationship": "Submission option when opponent turtles during sweep attempts"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What distinguishes the Andrew Wiltse Half Guard System from traditional half guard play?",
+      "answer": "It treats half guard as an offensive transitional hub rather than a defensive resting position, using knee shield frames and underhook control to constantly threaten sweeps and back takes instead of stalling and surviving."
+    },
+    {
+      "question": "Why does the system prioritize back takes over sweeps?",
+      "answer": "Back takes are the highest-value outcome in the decision hierarchy, generating points plus the best submission opportunities, so practitioners abandon sweep completion the instant back exposure appears during defensive scrambles."
+    },
+    {
+      "question": "What offensive role does the knee shield serve beyond defense?",
+      "answer": "The knee shield creates the angular leverage and space needed for underhook entries and offensive setups, acting as a mobile launching platform rather than a static frame while denying the opponent's crossface control."
+    },
+    {
+      "question": "How does underhook depth determine which attack becomes available?",
+      "answer": "Shallow underhooks are used primarily for sweeps, while deep underhooks open the pathway to climb to the dogfight position and take the back, so managing underhook depth dictates the optimal offensive option."
+    },
+    {
+      "question": "When should you transition from knee shield into deep half guard?",
+      "answer": "Deep half is accessed when the opponent flattens the knee shield or applies heavy crossface pressure, offering waiter and Homer Simpson sweeps while allowing a return to knee shield half if those attacks are defended."
+    },
+    {
+      "question": "How does single leg X-guard integrate into this half guard system?",
+      "answer": "When opponents posture up to deny underhook sweeps, the bottom butterfly hook converts to single leg X, bridging into leg entanglements and outside ashi garami heel hook threats that force defenders to split their attention."
+    },
+    {
+      "question": "What is the recommended response when an opponent sprawls hard to defend a sweep?",
+      "answer": "The hard sprawl naturally exposes the back, so you abandon the sweep and flow into back take sequences, or convert to deep half or single leg X where the new weight distribution creates fresh sweeping openings."
+    },
+    {
+      "question": "What is a common mistake when adding single leg X transitions to the system?",
+      "answer": "Entering single leg X without protecting the inside heel creates leg lock exposure; keep the heel close to your own hip with the knee oriented outward and refine defense before using it against leg lock specialists."
     }
   ]
 }

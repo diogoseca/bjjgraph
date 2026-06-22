@@ -142,11 +142,24 @@ description: "Master Whizzer Control in BJJ. Learn overhook mechanics, pressure 
 }
 </script>
 
-> Whizzer Control is a medium complexity BJJ principle applicable at the Intermediate level. Develop over Beginner to Advanced.
 
-**Application Level**: Intermediate
-**Complexity**: Medium
-**Development Timeline**: Beginner to Advanced
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Whizzer Control",
+  "description": "Whizzer Control is a defensive overhook position, borrowed from wrestling, where you thread your arm over an opponent's underhooking arm and apply downward pressure to neutralize their control while creating counter-attacking opportunities.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Intermediate</span>
+<span class="meta-chip">Medium complexity</span>
+<span class="meta-chip">Beginner to Advanced</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -155,7 +168,9 @@ description: "Master Whizzer Control in BJJ. Learn overhook mechanics, pressure 
 
 ## What is Whizzer Control?
 
-Whizzer Control represents a fundamental defensive control mechanism in Brazilian Jiu-Jitsu, derived from wrestling, where a practitioner establishes an overhook over an opponent's underhooking arm. This control serves dual purposes: neutralizing an opponent's offensive underhook control while simultaneously creating offensive counter-attacking opportunities. The Whizzer's effectiveness stems from its ability to apply downward pressure on the opponent's arm, disrupting their posture and base while maintaining the defender's structural integrity.
+**Whizzer Control is a defensive overhook position, borrowed from wrestling, where you thread your arm over an opponent's underhooking arm and apply downward pressure to neutralize their control while creating counter-attacking opportunities.**
+
+The battle for the underhook is one of the most consequential exchanges in grappling, frequently determining whether a position is held, passed, or reversed. The Whizzer is jiu-jitsu's primary answer when that battle is being lost—a counter borrowed from wrestling that turns an opponent's underhook into an opportunity rather than a liability. Its effectiveness stems from applying downward pressure on the opponent's arm, disrupting their posture and base while maintaining the defender's structural integrity.
 
 The concept transcends simple arm positioning, embodying a comprehensive approach to managing an opponent's attempts to establish dominant control through underhooks. Proper Whizzer application requires coordinated integration of arm pressure, body positioning, footwork, and base management. The control proves particularly valuable in transitions between positions, where the battle for underhook dominance often determines positional outcomes.
 
@@ -223,8 +238,6 @@ Whizzer Control finds application across numerous positional contexts, from stan
 **Butterfly Guard**: Use Whizzer when opponent attempts to establish controlling underhook from top of butterfly guard, preventing their passing attempts while maintaining sweep threats
 
 **Overhook Control**: Establish Whizzer as primary defensive tool when losing the underhook battle, converting opponent's offensive control into neutralized position with counter-attacking potential through sustained overhook pressure
-
-**Standing Position**: Apply Whizzer during standing exchanges to control opponent's movement and prevent them from establishing dominant position while maintaining positional awareness
 
 **Back Control**: Use Whizzer defensively when opponent attempts to establish controlling underhook while attacking the back, preventing them from securing body triangle or improving control
 
@@ -366,7 +379,6 @@ Scenario-based training where partner employs common Whizzer counters while prac
 - [[Defensive Concepts]] (Principle) - Parent concept - Whizzer Control serves as primary counter-mechanism within broader defensive strategy framework
 - [[Half Guard]] (Position) - Primary application context where Whizzer control proves tactically essential for defensive integrity
 - [[Frames]] (Principle) - Complementary defensive concept - Whizzer represents specialized framing application for underhook scenarios
-- [[Underhook Sweep from Half]] (Transition) - Counter-offensive technique commonly executed from established Whizzer control position
 - [[Turtle]] (Position) - Critical application context where Whizzer prevents back exposure and maintains defensive soundness
 - [[Control Maintenance]] (Principle) - Broader principle category within which Whizzer Control operates as specialized application
 - [[Levers]] (Principle) - Foundational concept underlying effective Whizzer mechanics and pressure application
@@ -374,9 +386,11 @@ Scenario-based training where partner employs common Whizzer counters while prac
 - [[Dogfight Position]] (Position) - Transitional position where Whizzer control determines success in achieving dominant angle
 - [[Posture]] (Principle) - Tactical outcome achieved through proper Whizzer pressure application and angle manipulation to disrupt opponent alignment
 - [[Front Headlock]] (Position) - Scramble position where Whizzer control prevents opponent underhook dominance
-- [[Whizzer]] (Transition) - Technical execution of the Whizzer control concept in transitional contexts
+- [[Overhook Control]] (Position) - Positional expression of sustained Whizzer pressure where the overhook becomes the dominant controlling structure
 
 
 </section>
+
+
 
 </main>

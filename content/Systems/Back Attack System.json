@@ -11,7 +11,8 @@
   ],
   "system_type": "Attack System",
   "difficulty_level": "Intermediate",
-  "overview": "The Back Attack System represents one of the highest-value positions in Brazilian Jiu-Jitsu, combining superior control with multiple high-percentage finishing opportunities. This systematic approach emphasizes securing dominant back control through various entries, maintaining that control against escape attempts, and methodically advancing to submissions. The system prioritizes positional dominance over rushed submission attempts, recognizing that the back position offers such overwhelming advantages that patience and systematic progression yield the highest success rates. Key elements include establishing hooks and harness control, managing opponent defensive reactions, and creating submission opportunities through deliberate sequences rather than isolated attacks. The framework integrates seamlessly with other attacking systems, particularly front headlock series and turtle attacks, creating a comprehensive offensive game that forces opponents into defensive dilemmas. Understanding back attack mechanics transforms practitioners from opportunistic finishers into systematic hunters who can reliably take and maintain the most dominant position in grappling.",
+  "summary": "The Back Attack System is a control-first offensive framework that secures harness and hook control behind the opponent, then chains the rear naked choke, armbar, bow and arrow, and crucifix so each defensive reaction opens the next finish.",
+  "overview": "In Brazilian Jiu-Jitsu's positional hierarchy, back control sits at the very top: it is the only dominant position where the opponent cannot see your hands, cannot bring their own strongest submissions to bear, and faces a constant choke threat to the most vulnerable target on the body. The Back Attack System organizes that advantage into a repeatable process rather than a lucky scramble, treating taking the back, keeping the back, and finishing from the back as three connected disciplines that reinforce one another. Practitioners learn to enter from turtle, guard, standing, and transitional scrambles, lock in seatbelt-and-hooks control that survives explosive escapes, and grind through a submission loop in which choke defense feeds the armbar, armbar defense feeds the bow and arrow, and stubborn hand-fighting feeds the crucifix.\n\nThe system's defining philosophy is patience. Because the back is so overwhelmingly dominant, rushing a single finish usually trades a permanent advantage for a low-percentage gamble, so the attacker maintains relentless positional pressure and lets the opponent's defensive choices dictate which submission opens next. This approach integrates naturally with front-headlock series, turtle attacks, and leg-entanglement games, all of which can funnel a defending opponent into back exposure. Mastering these mechanics converts a practitioner from an opportunistic back-taker into a systematic hunter who can reliably capture and hold the most decisive position in grappling.",
   "key_principles": [
     "Position before submission - secure control before attacking",
     "Harness control creates submission opportunity - seatbelt grip is foundational",
@@ -308,9 +309,9 @@
       "relationship": "Core principle emphasizing positional security before submission"
     },
     {
-      "name": "Submission Chains",
+      "name": "Position Chains",
       "content_type": "Principle",
-      "relationship": "Sequential attack methodology that creates continuous pressure"
+      "relationship": "Sequential attack methodology that links positions and submissions into continuous pressure"
     },
     {
       "name": "Position-Over-Submission Approach",
@@ -351,6 +352,48 @@
       "name": "Defensive Prioritization Framework",
       "content_type": "System",
       "relationship": "Understanding defensive hierarchies informs systematic attack sequences"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "Why does the Back Attack System prioritize control before submission?",
+      "answer": "Because back control is so overwhelmingly dominant that rushing a single finish usually trades a permanent positional advantage for a low-percentage attempt; holding seatbelt and hooks lets the attacker grind through defensive reactions until a high-percentage finish appears."
+    },
+    {
+      "question": "What is the harness (seatbelt) grip and why is it foundational to back attacks?",
+      "answer": "The harness is an asymmetric grip with one arm over the shoulder and one under the opposite armpit. It controls the opponent's upper body, prevents hip escapes, and doubles as a submission setup since defensive reactions to it open armbar and crucifix opportunities."
+    },
+    {
+      "question": "How does the submission loop chain rear naked choke, armbar, and bow and arrow?",
+      "answer": "Choke defense exposes the arms for an armbar, armbar defense frees a hand to attack the collar for a bow and arrow, and persistent hand-fighting opens the crucifix. Each defensive action generates the next attack, creating continuous pressure rather than isolated attempts."
+    },
+    {
+      "question": "When should you choose a body triangle over inside hooks for back control?",
+      "answer": "Use the body triangle for maximum compression against explosive, athletic escape attempts, accepting reduced mobility. Keep inside hooks for superior steering, off-balancing, and quick transitions when the opponent is moving rather than bridging hard."
+    },
+    {
+      "question": "What is the most common reason practitioners fail to finish the rear naked choke from a secured back?",
+      "answer": "Chin protection. The opponent buries the chin and fights the choking hand, so the attacker must hand-fight to clear defensive grips and slide the choking arm under the chin rather than across the face, or transition to the armbar instead of forcing a low-percentage choke."
+    },
+    {
+      "question": "How do you prevent losing back control during an aggressive hip-escape sequence?",
+      "answer": "Anticipate the escape direction from the hook and weight configuration, use the hooks actively to steer the opponent instead of passively holding, transition to a body triangle as they explode, and follow their movement while keeping the harness rather than resisting in place."
+    },
+    {
+      "question": "Why is entry diversity treated as a core component rather than a luxury?",
+      "answer": "Relying on one or two back-take entries makes the attack predictable and easy to defend. Mastering turtle chair-sits, guard arm-drags, standing single-leg back-takes, and scramble captures lets a practitioner thread back attacks throughout the entire game from any scenario."
+    },
+    {
+      "question": "How does the Back Attack System integrate with other offensive frameworks?",
+      "answer": "It connects to front-headlock series, turtle attacks, and leg-entanglement games. When an opponent defends a front headlock or a guard pass by turning in, that reaction funnels them toward back exposure, letting the attacker convert those situations into back control."
+    },
+    {
+      "question": "What does a high back-take conversion rate require beyond simply grabbing the back?",
+      "answer": "It requires securing harness control with at least one hook before completing the take. Breaking entries into angle creation, inside control, and harness completion prevents rushed takes that achieve the position but immediately lose it to a defensive scramble."
+    },
+    {
+      "question": "Why is hand-fighting an essential skill for systematic back attacks?",
+      "answer": "Skilled defenders survive on strong hand frames protecting the neck. Hand-fighting strips those grips to open choking-hand pathways and forces the opponent to choose between defending the choke and protecting the arms, which is exactly what creates the submission dilemmas the system relies on."
     }
   ]
 }

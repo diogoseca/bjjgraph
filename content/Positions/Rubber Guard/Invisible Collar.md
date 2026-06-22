@@ -10,6 +10,41 @@ description: "Master Invisible Collar position in BJJ. Advanced back control set
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Invisible Collar",
+  "description": "Master Invisible Collar position in BJJ. Advanced back control setup for collar chokes, RNC transitions, and crucifix attacks with complete tactical guide.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Invisible Collar", "item": "https://bjjgraph.org/Positions/Invisible-Collar" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Invisible Collar",
+  "description": "The Invisible Collar is an advanced gi-based back-control attack where the top player disguises a deep collar grip as passive positional control, locking in a strangle that opponents rarely recognize until the choke is already finishing.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Invisible Collar position in BJJ. Advanced back control set
 </div>
 
 <section id="overview" class="content-section">
+
+**The Invisible Collar is an advanced gi-based back-control attack where the top player disguises a deep collar grip as passive positional control, locking in a strangle that opponents rarely recognize until the choke is already finishing.**
 
 The Invisible Collar represents a sophisticated approach to back control where grip concealment creates submission opportunities while appearing defensive. This position emerged from high-level competition as practitioners developed methods to disguise choking setups within seemingly passive control positions. The invisible collar uses strategic gi material placement to create immediate finishing pressure that opponents often fail to recognize until the technique is already locked in.
 
@@ -232,6 +269,17 @@ The invisible collar serves multiple strategic functions within back attack syst
 
 - **[[Positions/Back Control/Standing Back Control]]** - Variation where invisible collar can be applied while standing
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/10th-Planet-Rubber-Guard-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-rubber-guard-system" data-system-name="10th Planet Rubber Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">10th Planet Rubber Guard System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">No-gi collar control substitute position</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Rubber-Guard-to-Omoplata-System" data-cta="related-system-card" data-system-slug="systems/rubber-guard-to-omoplata-system" data-system-name="Rubber Guard to Omoplata System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Rubber Guard to Omoplata System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Advanced rubber guard variation integrating with system</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

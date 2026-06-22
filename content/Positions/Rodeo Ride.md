@@ -10,6 +10,41 @@ description: "Master Rodeo Ride position in BJJ. Advanced turtle attack with asy
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Rodeo Ride",
+  "description": "Master Rodeo Ride position in BJJ. Advanced turtle attack with asymmetric control mechanics. Complete guide covering both offensive attacks and defensive escapes with strategic analysis.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Rodeo Ride", "item": "https://bjjgraph.org/Positions/Rodeo-Ride" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Rodeo Ride",
+  "description": "Rodeo Ride is an advanced turtle-attack position where the top player rides a turtled opponent with asymmetric grips and dynamic, shifting pressure, using constant micro-adjustments to flow between back takes, the truck, and submissions while denying escape.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master Rodeo Ride position in BJJ. Advanced turtle attack with asy
 
 <section id="overview" class="content-section">
 
-Rodeo Ride is an advanced turtle attack position where the top practitioner maintains control over a turtled opponent using asymmetric grips and dynamic positioning. Unlike traditional turtle top control, Rodeo Ride emphasizes mobility and constant pressure adjustment, allowing the attacker to flow between various back attack entries, submission attempts, and control positions. The position gets its name from the rider-like posture and movement pattern required to maintain control while the opponent attempts to escape.
+**Rodeo Ride is an advanced turtle-attack position where the top player rides a turtled opponent with asymmetric grips and dynamic, shifting pressure, using constant micro-adjustments to flow between back takes, the truck, and submissions while denying escape.**
+
+Adapted from wrestling's riding game for the modern turtle-attack systems of no-gi grappling, this position trades static top control for relentless, shifting pressure. Unlike traditional turtle top control, Rodeo Ride emphasizes mobility and constant pressure adjustment, allowing the attacker to flow between various back attack entries, submission attempts, and control positions. The position gets its name from the rider-like posture and movement pattern required to maintain control while the opponent attempts to escape.
 
 This position represents a critical transition state in the turtle attack game, bridging the gap between initial turtle control and full back control or submission positions. The top practitioner typically maintains control through a combination of hip pressure, strategic gripping (often involving the near arm and far lapel or collar), and active weight distribution that prevents the bottom practitioner from recovering guard or standing up. Success in Rodeo Ride requires excellent balance, timing, and the ability to read opponent movement patterns to capitalize on escape attempts.
 
@@ -100,25 +137,25 @@ Rodeo Ride is particularly effective in both gi and no-gi contexts, though the s
 ### Available Transitions
 
 
-- **[[Transitions/Turtle to Guard/Attacker|Turtle to Guard]]** (52% of attempts)
+- **[[Transitions/Turtle to Guard/Attacker|Turtle to Guard]]** (50% of attempts)
 
-- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (13% of attempts)
+- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (12% of attempts)
 
 - **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (11% of attempts)
 
-- **[[Transitions/Rolling to Guard/Attacker|Rolling to Guard]]** (12% of attempts)
+- **[[Transitions/Rolling to Guard/Attacker|Rolling to Guard]]** (11% of attempts)
 
 - **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (7% of attempts)
 
-- **[[Transitions/Sit Through Escape/Attacker|Sit Through Escape]]** (2% of attempts)
+- **[[Transitions/Sit Through Escape/Attacker|Sit Through Escape]]** (3% of attempts)
 
 - **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (2% of attempts)
 
-- **[[Transitions/Escape from Rodeo Ride/Attacker|Escape from Rodeo Ride]]** (0% of attempts)
+- **[[Transitions/Escape from Rodeo Ride/Attacker|Escape from Rodeo Ride]]** (1% of attempts)
 
-- **[[Transitions/Roll from Rodeo Ride/Attacker|Roll from Rodeo Ride]]** (0% of attempts)
+- **[[Transitions/Roll from Rodeo Ride/Attacker|Roll from Rodeo Ride]]** (1% of attempts)
 
-- **[[Transitions/Shake Off Rodeo Ride/Attacker|Shake Off Rodeo Ride]]** (1% of attempts)
+- **[[Transitions/Shake Off Rodeo Ride/Attacker|Shake Off Rodeo Ride]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -183,19 +220,19 @@ Rodeo Ride is particularly effective in both gi and no-gi contexts, though the s
 ### Available Transitions
 
 
-- **[[Transitions/Turtle to Back Take/Attacker|Turtle to Back Take]]** (30% of attempts)
+- **[[Transitions/Turtle to Back Take/Attacker|Turtle to Back Take]]** (28% of attempts)
 
-- **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** (14% of attempts)
+- **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** (13% of attempts)
 
-- **[[Transitions/Turtle to Truck/Attacker|Turtle to Truck]]** (10% of attempts)
+- **[[Transitions/Turtle to Truck/Attacker|Turtle to Truck]]** (9% of attempts)
 
-- **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** (10% of attempts)
+- **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** (9% of attempts)
 
-- **[[Clock Choke from Rodeo Ride/Attacker|Clock Choke from Rodeo Ride]]** (8% of attempts)
+- **[[Clock Choke from Rodeo Ride/Attacker|Clock Choke from Rodeo Ride]]** (7% of attempts)
 
 - **[[Bow and Arrow Choke from Rodeo Ride/Attacker|Bow and Arrow Choke from Rodeo Ride]]** (6% of attempts)
 
-- **[[Transitions/Consolidate Mount/Attacker|Consolidate Mount]]** (8% of attempts)
+- **[[Transitions/Consolidate Mount/Attacker|Consolidate Mount]]** (7% of attempts)
 
 - **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (6% of attempts)
 
@@ -203,7 +240,11 @@ Rodeo Ride is particularly effective in both gi and no-gi contexts, though the s
 
 - **[[Transitions/Rodeo Ride to Back Control/Attacker|Rodeo Ride to Back Control]]** (2% of attempts)
 
-- **[[Transitions/Rodeo Ride to Turtle/Attacker|Rodeo Ride to Turtle]]** (1% of attempts)
+- **[[Transitions/Rodeo Ride to Turtle/Attacker|Rodeo Ride to Turtle]]** (2% of attempts)
+
+- **[[Calf Slicer from Rodeo Ride/Attacker|Calf Slicer from Rodeo Ride]]** (2% of attempts)
+
+- **[[Rear Naked Choke from Rodeo/Attacker|Rear Naked Choke from Rodeo]]** (4% of attempts)
 
 
 ### Common Mistakes
@@ -262,5 +303,7 @@ Rodeo Ride is particularly effective in both gi and no-gi contexts, though the s
 
 
 </section>
+
+
 
 </main>

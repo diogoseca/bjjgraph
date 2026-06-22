@@ -10,6 +10,41 @@ description: "Master inverted guard in BJJ. Complete guide covering berimbolo en
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Inverted Guard",
+  "description": "Master inverted guard in BJJ. Complete guide covering berimbolo entries, back takes, defensive mobility, and transitional pathways with modern competition applications.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Inverted Guard", "item": "https://bjjgraph.org/Positions/Inverted-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Inverted Guard",
+  "description": "Inverted Guard is a dynamic, upside-down open guard in which the practitioner rotates onto their shoulders with legs elevated toward the opponent, creating unconventional angles for berimbolos, back takes, and leg-entanglement entries.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master inverted guard in BJJ. Complete guide covering berimbolo en
 
 <section id="overview" class="content-section">
 
-Inverted Guard is a modern guard position where the practitioner turns upside-down, with their back facing the ground and legs positioned upward toward the opponent. This position creates unique angles for controlling the opponent's movement and setting up sweeps, leg entanglements, and back takes. While physically demanding and technically complex, Inverted Guard offers exceptional defensive capabilities through its mobility and creates offensive opportunities that are difficult to counter using traditional passing approaches. This position has become increasingly prominent in modern BJJ competition, particularly in the context of berimbolo sequences and leg entanglement entries. The inverted position is typically transitional rather than static, serving as a critical link between guard retention sequences and more dominant attacking positions. The position's strategic value lies in creating unconventional angles that disrupt traditional passing mechanics while simultaneously establishing pathways to back control and leg attacks. Inverted guard requires significant hip and spine flexibility combined with spatial awareness while upside-down. The position emerged prominently in the early 2000s through competition innovations by the Mendes brothers and has since evolved into a comprehensive system with multiple entry methods and transition pathways. Modern practitioners integrate inversion throughout their guard retention systems, using it defensively against pressure passing while maintaining offensive threats. The position's effectiveness stems from forcing opponents to navigate unfamiliar angles and grips while the inverted practitioner maintains superior mobility and transition options.
+**Inverted Guard is a dynamic, upside-down open guard in which the practitioner rotates onto their shoulders with legs elevated toward the opponent, creating unconventional angles for berimbolos, back takes, and leg-entanglement entries.**
+
+Unlike defensive guards that merely stall a pass, Inverted Guard weaponizes rotation: by turning beneath the passer, the practitioner trades a brief moment of vulnerability for direct access to the back and to leg entanglements. This position creates unique angles for controlling the opponent's movement and setting up sweeps, leg entanglements, and back takes. While physically demanding and technically complex, Inverted Guard offers exceptional defensive capabilities through its mobility and creates offensive opportunities that are difficult to counter using traditional passing approaches. This position has become increasingly prominent in modern BJJ competition, particularly in the context of berimbolo sequences and leg entanglement entries. The inverted position is typically transitional rather than static, serving as a critical link between guard retention sequences and more dominant attacking positions. The position's strategic value lies in creating unconventional angles that disrupt traditional passing mechanics while simultaneously establishing pathways to back control and leg attacks. Inverted guard requires significant hip and spine flexibility combined with spatial awareness while upside-down. The position emerged prominently in the early 2000s through competition innovations by the Mendes brothers and has since evolved into a comprehensive system with multiple entry methods and transition pathways. Modern practitioners integrate inversion throughout their guard retention systems, using it defensively against pressure passing while maintaining offensive threats. The position's effectiveness stems from forcing opponents to navigate unfamiliar angles and grips while the inverted practitioner maintains superior mobility and transition options.
 
 </section>
 
@@ -185,29 +222,29 @@ Inverted Guard is a modern guard position where the practitioner turns upside-do
 ### Available Transitions
 
 
-- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (8% of attempts)
+- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (16% of attempts)
 
-- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (6% of attempts)
+- **[[Transitions/Headquarters Pass/Attacker|Headquarters Pass]]** (14% of attempts)
 
-- **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** (7% of attempts)
-
-- **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (4% of attempts)
-
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (6% of attempts)
-
-- **[[Transitions/Headquarters Pass/Attacker|Headquarters Pass]]** (8% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (12% of attempts)
 
 - **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (11% of attempts)
 
-- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (29% of attempts)
-
 - **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (10% of attempts)
 
-- **[[Transitions/Stack Pass from Inversion/Attacker|Stack Pass from Inversion]]** (8% of attempts)
+- **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** (9% of attempts)
 
-- **[[Transitions/Stack from Inverted/Attacker|Stack from Inverted]]** (2% of attempts)
+- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (8% of attempts)
 
-- **[[Transitions/Toreando from Inverted/Attacker|Toreando from Inverted]]** (1% of attempts)
+- **[[Transitions/Stack Pass from Inversion/Attacker|Stack Pass from Inversion]]** (6% of attempts)
+
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (5% of attempts)
+
+- **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (4% of attempts)
+
+- **[[Transitions/Stack from Inverted/Attacker|Stack from Inverted]]** (3% of attempts)
+
+- **[[Transitions/Toreando from Inverted/Attacker|Toreando from Inverted]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -270,6 +307,17 @@ Inverted Guard is a modern guard position where the practitioner turns upside-do
 
 - **[[Positions/Butterfly Guard]]** - Alternative mobile guard system with sweep emphasis
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/10th-Planet-No-Gi-Guard-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-no-gi-guard-system" data-system-name="10th Planet No-Gi Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">10th Planet No-Gi Guard System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Transitional position in system flow</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Berimbolo" data-cta="related-system-card" data-system-slug="systems/berimbolo" data-system-name="Berimbolo" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Berimbolo</span><span class="system-card__unlocks-badge">Unlocks 21 techniques</span><span class="system-card__blurb">Intermediate position during Berimbolo rotation - requires similar flexibility and inversion mechanics</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

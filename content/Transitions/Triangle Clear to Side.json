@@ -10,7 +10,8 @@
     "guard-recovery",
     "side-control"
   ],
-  "from_position": "Body Triangle/Top",
+  "summary": "Triangle Clear to Side is a defensive escape from body triangle back control in which the trapped player attacks the figure-four lock at the ankle, then rotates the hips laterally to extract and establish side control.",
+  "from_position": "Body Triangle/Bottom",
   "outcomes": [
     {
       "to": "Side Control/Top",
@@ -18,7 +19,7 @@
       "result": "success"
     },
     {
-      "to": "Body Triangle/Top",
+      "to": "Body Triangle/Bottom",
       "probability": 30,
       "result": "failure"
     },
@@ -56,8 +57,8 @@
       "relationship": "Primary threat - submission you must defend during the clearing process"
     },
     {
-      "name": "Half Guard Recovery",
-      "relationship": "Follow-up - alternative guard recovery if side control is not achieved"
+      "name": "Frame and Shrimp to Guard",
+      "relationship": "Related technique - framing principles applied after clearing the triangle"
     },
     {
       "name": "Side Control Escape",
@@ -68,8 +69,8 @@
       "relationship": "Opposing transition - the technique used to establish the position you are escaping"
     },
     {
-      "name": "Frame and Shrimp to Guard",
-      "relationship": "Related technique - framing principles applied after clearing the triangle"
+      "name": "Elbow Escape to Remove Hooks",
+      "relationship": "Related back escape - alternative hip-based clearing option from back control"
     }
   ],
   "attacker": {
@@ -133,7 +134,7 @@
         "counter": "Opponent re-locks the triangle during your clearing attempt by pulling their ankle back behind the knee before you can complete the extraction",
         "effectiveness": "High",
         "your_response": "Maintain your frame between your body and their legs after each clearing attempt. Keep your elbow wedged in the space you created so the triangle cannot fully re-lock. Repeat the bridge-and-clear sequence with the frame already in place to prevent full re-establishment.",
-        "targets_outcome": "Body Triangle/Top"
+        "targets_outcome": "Body Triangle/Bottom"
       },
       {
         "counter": "Opponent attacks rear naked choke aggressively when they feel you redirecting a hand from neck defense to attack the triangle lock",
@@ -145,7 +146,7 @@
         "counter": "Opponent shifts their hips and adjusts the triangle angle to maintain pressure as you turn toward the triangle side, following your rotation",
         "effectiveness": "Medium",
         "your_response": "Accelerate your rotation and combine it with a strong shrimp away from their hips. Their adjustment requires them to loosen chest-to-back connection momentarily, creating a window to extract. Use the momentum of their adjustment to drive your hip escape further than they can follow.",
-        "targets_outcome": "Body Triangle/Top"
+        "targets_outcome": "Body Triangle/Bottom"
       },
       {
         "counter": "Opponent transitions to hooks or rear triangle when they feel the body triangle being compromised to maintain back control",
@@ -275,7 +276,7 @@
       {
         "action": "Re-lock the triangle by pulling your ankle deeper behind your knee the moment you feel any loosening, using your free hand to assist repositioning the foot if necessary",
         "when_to_use": "Immediately when you feel the opponent's hand contact your ankle or when the figure-four begins to loosen during their bridge, before they can insert a frame to block re-locking",
-        "targets_outcome": "Body Triangle/Top",
+        "targets_outcome": "Body Triangle/Bottom",
         "if_successful": "Triangle is fully re-established with opponent having wasted energy on the failed clearing attempt, increasing fatigue and breathing difficulty while resetting their escape progress to zero",
         "risk": "If you reach down to assist your ankle repositioning with your hand, you momentarily reduce upper body control, potentially allowing them to create distance or improve their turning angle"
       },
@@ -289,7 +290,7 @@
       {
         "action": "Shift your hips and adjust the triangle angle to follow their rotation, maintaining your position behind them as they attempt to turn toward the triangle side",
         "when_to_use": "When opponent begins rotating their torso and hips toward the triangle side after partially loosening the lock, before they can complete the full lateral escape to side-facing position",
-        "targets_outcome": "Body Triangle/Top",
+        "targets_outcome": "Body Triangle/Bottom",
         "if_successful": "You remain behind the opponent with the triangle still engaged, denying them the side-facing angle they need to complete the escape and forcing them to restart the clearing sequence from scratch",
         "risk": "Following their rotation requires you to loosen chest-to-back connection momentarily, and if your timing is off they can accelerate through the gap to complete the escape"
       },
@@ -303,7 +304,7 @@
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Body Triangle/Top",
+        "outcome": "Body Triangle/Bottom",
         "how": "Re-lock the triangle immediately when you feel loosening by pulling your ankle deeper behind your knee and tightening the figure-four. Use your free hand to assist foot repositioning if needed. Increase squeeze pressure after re-locking to punish the failed escape attempt and accelerate their fatigue. Combine with aggressive upper body control to reduce future clearing opportunities."
       },
       {
@@ -395,7 +396,7 @@
       "when_to_use": "When opponent has their hips elevated off the mat rather than posted beside you, making them vulnerable to being rolled, particularly effective against smaller opponents or those with poor base"
     }
   ],
-  "position_integration": "Triangle Clear to Side is the primary lateral escape from body triangle back control, sitting within the broader back escape system as a specialized response to the figure-four leg lock that standard hook-clearing techniques cannot address. It integrates directly with the body triangle defense hierarchy: first protect your neck, then manage breathing, then attack the lock. Successful execution feeds into the side control recovery chain, connecting to guard replacement, half guard recovery, or establishing top side control. It pairs with Hip Escape to Turtle and Back Escape Series as parallel escape options from the same position, giving the defender a branching decision tree based on opponent reactions. Within the broader positional map, this technique represents the critical pathway from one of BJJ's most dominant control positions back to a contested neutral or advantageous position, making it essential knowledge for anyone facing back attack specialists.",
+  "position_integration": "Triangle Clear to Side is the primary lateral escape from body triangle back control, sitting within the broader back escape system as a specialized response to the figure-four leg lock that standard hook-clearing techniques cannot address. It integrates directly with the body triangle defense hierarchy: first protect your neck, then manage breathing, then attack the lock. Successful execution feeds into the side control recovery chain, connecting to guard replacement, half guard recovery, or establishing top side control. It pairs with Hip Escape to Turtle and Back Door Escape as parallel escape options from the same position, giving the defender a branching decision tree based on opponent reactions. Within the broader positional map, this technique represents the critical pathway from one of BJJ's most dominant control positions back to a contested neutral or advantageous position, making it essential knowledge for anyone facing back attack specialists.",
   "conditions": [
     "Opponent has body triangle locked in figure-four configuration around your torso",
     "You have established basic neck defense with chin tucked and at least one hand protecting throat",

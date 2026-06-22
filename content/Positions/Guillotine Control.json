@@ -3,6 +3,7 @@
   "slug": "guillotine-control",
   "description": "Master Guillotine Control position in BJJ. Complete strategic guide covering setup mechanics, grip variations, and finishing paths from both bottom and top perspectives.",
   "variant_uniqueness": "Neck control trades stability for tap threat",
+  "summary": "Guillotine Control is a front-headlock attacking position where one player encircles the opponent's neck and clasps the hands to threaten an immediate choke, forcing the trapped opponent to defend their neck and their position at once.",
   "overview": "Guillotine Control represents a fundamental attacking position in Brazilian Jiu-Jitsu where one practitioner secures a front headlock grip with submission intent, controlling the opponent's head and neck while threatening immediate choke submission. This position exists across a spectrum of scenarios—from standing clinch exchanges to ground-based situations—and creates powerful strategic dilemmas for the defender who must simultaneously protect against the submission while preventing positional advancement. The guillotine's effectiveness stems from its versatility as both a high-percentage finishing technique and a control position that severely limits the opponent's offensive options.\n\nThe position manifests in two distinct perspectives: bottom and top. From bottom, the practitioner uses the guillotine as an offensive weapon from what would otherwise be a defensive position, transforming guard retention scenarios into immediate submission threats. This creates forcing situations where the opponent must choose between defending the choke or advancing position, with either choice potentially leading to the bottom player's success. From top, the guillotine becomes a dominant control position offering superior leverage and multiple pathways to victory, whether through direct submission finish, positional advancement to mount or back control, or transitions to related attacks like anaconda and darce chokes.\n\nStrategically, Guillotine Control exemplifies the principle of creating binary defensive choices. Opponents must decide whether to prioritize neck defense through hand fighting and chin protection, or positional defense by preventing guard closure or position advancement. This decision tree, combined with the constant pressure of the choking threat, creates energy-draining scenarios where defenders must work actively while attackers can maintain relative efficiency. Modern systems emphasize the guillotine as part of comprehensive front headlock frameworks that include multiple submission variations and seamless transitions to dominant positions, making it a cornerstone technique in both gi and no-gi competition at all levels.",
   "key_principles": [
     "Maintain deep front headlock grip with choking arm positioned against neck structures for immediate submission threat",
@@ -326,46 +327,54 @@
     "transitions": [
       {
         "transition": "Guillotine Choke from Guillotine Control",
-        "attempt_probability": 52
+        "attempt_probability": 44
       },
       {
         "transition": "High Elbow Guillotine Variation",
-        "attempt_probability": 15
+        "attempt_probability": 12
       },
       {
         "transition": "Front Headlock to Anaconda",
-        "attempt_probability": 6
+        "attempt_probability": 5
       },
       {
         "transition": "Front Headlock to Darce",
-        "attempt_probability": 6
+        "attempt_probability": 5
       },
       {
         "transition": "Side Control to Mount",
-        "attempt_probability": 6
+        "attempt_probability": 5
       },
       {
         "transition": "Side Control to North-South",
-        "attempt_probability": 4
+        "attempt_probability": 3
       },
       {
         "transition": "Pass to Side Control",
-        "attempt_probability": 9
+        "attempt_probability": 7
       },
       {
         "transition": "Arm in Guillotine Variation",
-        "attempt_probability": 1
+        "attempt_probability": 2
       },
       {
         "transition": "Guillotine Counter",
-        "attempt_probability": 0
+        "attempt_probability": 2
       },
       {
         "transition": "Ten Finger Guillotine Variation",
-        "attempt_probability": 0
+        "attempt_probability": 1
       },
       {
-        "transition": "Guillotine Choke",
+        "transition": "Arm in Guillotine from Guillotine Control",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "High Elbow Guillotine from Guillotine Control",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Ten Finger Guillotine from Guillotine Control",
         "attempt_probability": 1
       }
     ]
@@ -645,7 +654,11 @@
     "transitions": [
       {
         "transition": "Guillotine Choke from Guillotine Control",
-        "attempt_probability": 50
+        "attempt_probability": 49
+      },
+      {
+        "transition": "Guillotine Choke",
+        "attempt_probability": 1
       },
       {
         "transition": "High Elbow Guillotine Variation",

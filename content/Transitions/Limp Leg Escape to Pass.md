@@ -10,6 +10,41 @@ description: "Master the Limp Leg Escape from Electric Chair in BJJ. Nullify loc
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Limp Leg Escape to Pass",
+  "description": "Master the Limp Leg Escape from Electric Chair in BJJ. Nullify lockdown pressure through deliberate leg relaxation and systematic extraction to pass.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Limp Leg Escape to Pass", "item": "https://bjjgraph.org/Transitions/Limp-Leg-Escape-to-Pass" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Limp Leg Escape to Pass",
+  "description": "The Limp Leg Escape to Pass is the top player's primary counter to the Electric Chair, deliberately relaxing the trapped leg to erase the lockdown's leverage point, then extracting and chaining directly into a half-guard pass.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Limp Leg Escape from Electric Chair in BJJ. Nullify loc
 </div>
 
 <section id="overview" class="content-section">
+
+**The Limp Leg Escape to Pass is the top player's primary counter to the Electric Chair, deliberately relaxing the trapped leg to erase the lockdown's leverage point, then extracting and chaining directly into a half-guard pass.**
 
 The Limp Leg Escape is the fundamental defensive technique for escaping the Electric Chair position from top half guard. When caught in the opponent's lockdown with their hips extended and splitting pressure applied, the natural instinct is to pull the trapped leg out forcefully. This approach fails because muscular tension makes the leg rigid and more susceptible to the joint manipulation that defines the Electric Chair submission. The limp leg concept reverses this paradigm by deliberately relaxing the trapped leg, reducing its diameter and making extraction significantly easier.
 
@@ -218,5 +255,7 @@ The Limp Leg Escape represents the primary defensive pathway from Electric Chair
 
 
 </section>
+
+
 
 </main>

@@ -10,10 +10,55 @@ description: "Learn to execute and defend the belly down armbar from turtle in B
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Belly Down Armbar from Turtle targets the Elbow joint and shoulder girdle. Risk: Elbow hyperextension and ligament damage (MCL/LCL/joint capsule tears). Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Belly Down Armbar from Turtle",
+  "description": "Learn to execute and defend the belly down armbar from turtle in BJJ. Covers arm isolation, step-over transition, prone finishing, and escape paths.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Belly Down Armbar from Turtle", "item": "https://bjjgraph.org/Submissions/Belly-Down-Armbar-from-Turtle" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Belly Down Armbar from Turtle",
+  "description": "The belly down armbar from turtle is a prone elbow lock where the top player isolates a turtled opponent's exposed arm, steps over their back, and settles belly-down to hyperextend the trapped elbow under body weight.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The belly down armbar from turtle is a prone elbow lock where the top player isolates a turtled opponent's exposed arm, steps over their back, and settles belly-down to hyperextend the trapped elbow under body weight.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Arm Lock</span>
+<span class="meta-chip">Targets Elbow joint and shoulder girdle</span>
+<span class="meta-chip">60% success</span>
+</div>
+
+> [!danger] Safety
+> Belly Down Armbar from Turtle targets the Elbow joint and shoulder girdle. Primary risk: Elbow hyperextension and ligament damage (MCL/LCL/joint capsule tears). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -26,52 +71,7 @@ description: "Learn to execute and defend the belly down armbar from turtle in B
 
 The belly down armbar from turtle exploits arm exposure that naturally occurs when the bottom player posts a hand, reaches for underhooks, or attempts to create defensive frames during turtle defense. From turtle top, the attacker identifies an isolated arm, secures two-on-one wrist control, and transitions into a prone finishing position by stepping over the opponent's body and settling belly-down on the trapped limb. This entry differs from the standard armbar control variant because the initial arm isolation must happen against an actively defending turtle player who retains strong hip mobility, rolling escape options, and the ability to explosively stand. The turtle-specific challenge lies in the narrow transition window: the bottom player can granby roll, sit through, or stand during the step-over, making decisive commitment and grip security essential for success. Once the belly-down position is established on the trapped arm, the prone finish generates overwhelming pressure through body weight and gravity, making the submission extremely difficult to defend. The key strategic insight is reading the opponent's defensive reactions for arm isolation opportunities rather than attempting to force the attack against a tight, elbows-to-knees defensive shell.
 
-**Category**: Joint Lock
-**Type**: Arm Lock
-**Target Area**: Elbow joint and shoulder girdle
-**Starting Position**: [[Positions/Turtle]]
-**From Position**: [[Positions/Turtle]] (Top)
-**Success Rate**: 60%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Elbow hyperextension and ligament damage (MCL/LCL/joint capsule tears) | High | 4-12 weeks for moderate sprains, 3-6 months for severe tears, potential surgery required |
-| Shoulder dislocation or rotator cuff strain from torque during prone extension | Medium | 2-8 weeks depending on severity, potential for chronic instability |
-| Bicep tendon strain or tear from sudden pressure application in belly-down position | Medium | 3-6 weeks for strains, 3-6 months for complete tears |
-
-
-**Application Speed**: SLOW and progressive - minimum 3-5 seconds from prone position establishment to full extension in training. The belly-down position generates significant force through body weight alone, requiring even more caution than standard armbar.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or making verbal distress sounds)
-- Physical hand tap on your body or the mat with the free hand
-- Physical foot tap on the mat
-- Any distress signal including unusual movement or sounds
-
-
-**Release Protocol**:
-1. Immediately stop arching and release extension pressure on the arm
-2. Release the wrist grip while maintaining light positional control
-3. Lift your hips off the opponent's arm to remove body weight pressure
-4. Allow opponent to retract their arm naturally without resistance
-5. Check with training partner verbally before continuing
-
-
-**Training Restrictions**:
-- Never spike, jerk, or explosively extend the submission in training - the belly-down position amplifies force
-- Never use competition-speed application during drilling or light rolling
-- Always ensure training partner has at least one hand free to tap
-- Never continue pressure after feeling resistance or hearing joint sounds
-- Avoid this submission with beginners until they understand proper defensive reactions and tap timing
-
+**Starting Position**: [[Positions/Turtle]] · **From**: [[Positions/Turtle]] (Top)
 
 </section>
 
@@ -233,42 +233,63 @@ The belly down armbar from turtle exploits arm exposure that naturally occurs wh
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Belly Down Armbar]]
 - [[Submissions/Arm Crush]]
 - [[Submissions/Far Side Armbar]]
 - [[Transitions/Anaconda Choke]]
 - [[Transitions/Clock Choke]]
 - [[Submissions/Americana]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Turtle]] - Starting position for this submission - arm isolation begins from turtle top control
-- [[Submissions/Belly Down Armbar]] - Parent submission family - generic belly down armbar technique
 - [[Positions/Back Control]] - Primary alternative attack from turtle top when armbar is unavailable
 - [[Positions/Armbar Control]] - Intermediate control position reached during the step-over transition
 - [[Positions/Front Headlock]] - Alternative attacking position from turtle top for chaining attacks
 - [[Positions/Crab Ride]] - Alternative turtle control that provides similar arm isolation opportunities
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Elbow hyperextension and ligament damage (MCL/LCL/joint capsule tears) | High | 4-12 weeks for moderate sprains, 3-6 months for severe tears, potential surgery required |
+| Shoulder dislocation or rotator cuff strain from torque during prone extension | Medium | 2-8 weeks depending on severity, potential for chronic instability |
+| Bicep tendon strain or tear from sudden pressure application in belly-down position | Medium | 3-6 weeks for strains, 3-6 months for complete tears |
+
+
+**Application Speed**: SLOW and progressive - minimum 3-5 seconds from prone position establishment to full extension in training. The belly-down position generates significant force through body weight alone, requiring even more caution than standard armbar.
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or making verbal distress sounds)
+- Physical hand tap on your body or the mat with the free hand
+- Physical foot tap on the mat
+- Any distress signal including unusual movement or sounds
+
+
+**Release Protocol**:
+1. Immediately stop arching and release extension pressure on the arm
+2. Release the wrist grip while maintaining light positional control
+3. Lift your hips off the opponent's arm to remove body weight pressure
+4. Allow opponent to retract their arm naturally without resistance
+5. Check with training partner verbally before continuing
+
+
+**Training Restrictions**:
+- Never spike, jerk, or explosively extend the submission in training - the belly-down position amplifies force
+- Never use competition-speed application during drilling or light rolling
+- Always ensure training partner has at least one hand free to tap
+- Never continue pressure after feeling resistance or hearing joint sounds
+- Avoid this submission with beginners until they understand proper defensive reactions and tap timing
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Belly Down Armbar from Turtle leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

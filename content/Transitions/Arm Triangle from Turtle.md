@@ -10,6 +10,41 @@ description: "Master the Arm Triangle from Turtle in BJJ. Complete guide coverin
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Arm Triangle from Turtle",
+  "description": "Master the Arm Triangle from Turtle in BJJ. Complete guide covering setup from turtle top, arm isolation, shoulder penetration, and finishing mechanics.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Arm Triangle from Turtle", "item": "https://bjjgraph.org/Transitions/Arm-Triangle-from-Turtle" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Arm Triangle from Turtle",
+  "description": "The Arm Triangle from Turtle is a head-and-arm blood choke launched from top turtle, where the attacker isolates the opponent's near arm against their own neck and uses shoulder-and-chest compression to threaten a finish or back-take scramble.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Arm Triangle from Turtle in BJJ. Complete guide coverin
 </div>
 
 <section id="overview" class="content-section">
+
+**The Arm Triangle from Turtle is a head-and-arm blood choke launched from top turtle, where the attacker isolates the opponent's near arm against their own neck and uses shoulder-and-chest compression to threaten a finish or back-take scramble.**
 
 The Arm Triangle from Turtle is a powerful submission attack that exploits the defensive turtle position by isolating one of the opponent's arms and converting to a blood choke. This transition combines elements of front headlock control with precise shoulder positioning to create a devastating finishing sequence. The technique is particularly effective against opponents who rely heavily on the turtle as a defensive refuge, as it punishes the common error of keeping the elbows too wide or allowing the head to drift away from the body. Unlike traditional arm triangles from side control or mount, this variation requires the attacker to generate the necessary compression while transitioning from a top turtle position, making timing and weight distribution critical factors.
 
@@ -228,5 +265,7 @@ The arm triangle from turtle represents a crucial component of the top turtle at
 
 
 </section>
+
+
 
 </main>

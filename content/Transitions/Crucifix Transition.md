@@ -10,6 +10,41 @@ description: "Learn the Crucifix Transition from standing back control. Capture 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Crucifix Transition",
+  "description": "Learn the Crucifix Transition from standing back control. Capture opponent\u0027s arm while maintaining back exposure for high-percentage submissions.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Crucifix Transition", "item": "https://bjjgraph.org/Transitions/Crucifix-Transition" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Crucifix Transition",
+  "description": "The Crucifix Transition advances from standing back control to the dominant crucifix position by capturing an opponent's arm when their defensive grip fighting extends it, isolating both arms for high-percentage choke and armbar finishes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Learn the Crucifix Transition from standing back control. Capture 
 </div>
 
 <section id="overview" class="content-section">
+
+**The Crucifix Transition advances from standing back control to the dominant crucifix position by capturing an opponent's arm when their defensive grip fighting extends it, isolating both arms for high-percentage choke and armbar finishes.**
 
 The Crucifix Transition from standing back control represents a sophisticated positional advancement that capitalizes on defensive grip fighting attempts by your opponent. When you have standing back control and your opponent begins actively fighting your harness grip with one or both hands, they create the opening for this transition by exposing their arms. The crucifix position that results is one of the most dominant control positions in grappling, offering complete arm isolation and multiple high-percentage submission options including rear naked choke variations, armbar attacks, and neck cranks.
 
@@ -220,5 +257,7 @@ The Crucifix Transition fits into the standing back control attack system as a p
 
 
 </section>
+
+
 
 </main>

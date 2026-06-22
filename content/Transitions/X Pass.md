@@ -10,6 +10,41 @@ description: "Master the X Pass guard pass in BJJ. Step-by-step guide covering c
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "X Pass",
+  "description": "Master the X Pass guard pass in BJJ. Step-by-step guide covering crossface pressure, angular movement, and leg clearing from half guard top positions.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "X Pass", "item": "https://bjjgraph.org/Transitions/X-Pass" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "X Pass",
+  "description": "The X Pass is a pressure guard pass from top half guard where the passer establishes a crossface, steps the free leg wide, and drives a diagonal line from the opponent's near shoulder to far hip, collapsing their frames to clear the trapped leg into side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the X Pass guard pass in BJJ. Step-by-step guide covering c
 
 <section id="overview" class="content-section">
 
-The X Pass is a highly effective guard passing technique that combines pressure, angle creation, and strategic weight distribution to neutralize the bottom player's defensive structure. Originating from top half guard positions, this pass leverages crossface control and hip pressure to flatten the opponent while simultaneously clearing the legs. The technique's name derives from the cross-body angle created during execution, where the passer's torso forms an 'X' shape relative to the opponent's body. This pass is particularly effective against knee shield and standard half guard variations, as it attacks the fundamental defensive frames that bottom players rely upon.
+**The X Pass is a pressure guard pass from top half guard where the passer establishes a crossface, steps the free leg wide, and drives a diagonal line from the opponent's near shoulder to far hip, collapsing their frames to clear the trapped leg into side control.**
+
+Within modern pressure-passing systems, the X Pass earned its place as the dedicated answer to half guard players who rely on framing and knee-shield distance management. Originating from top half guard positions, this pass leverages crossface control and hip pressure to flatten the opponent while simultaneously clearing the legs. The technique's name derives from the cross-body angle created during execution, where the passer's torso forms an 'X' shape relative to the opponent's body. This pass is particularly effective against knee shield and standard half guard variations, as it attacks the fundamental defensive frames that bottom players rely upon.
 
 The X Pass exemplifies modern pressure passing principles by combining forward pressure with lateral movement, creating a dilemma where the opponent must choose between maintaining their guard structure or preventing the pass. The angular drive across the opponent's body is what separates this pass from linear pressure passes: rather than pushing straight through the guard, the passer drives diagonally from the opponent's near shoulder toward their far hip, collapsing defensive frames from an angle they were not designed to resist. When executed with proper timing and pressure application, the X Pass becomes a cornerstone technique for any guard passing system, seamlessly transitioning into dominant side control.
 
@@ -194,7 +231,7 @@ The X Pass represents a cornerstone technique in modern pressure passing systems
 ## Related Techniques
 
 
-- [[Transitions/Knee Cut Pass]] - Alternative pressure pass that can transition into X Pass when defended with strong frames
+- [[Transitions/Knee Slice Pass]] - Alternative pressure pass that can transition into X Pass when defended with strong frames
 
 - [[Transitions/Smash Pass]] - Complementary pressure pass with similar flattening principles but different leg clearing mechanics
 
@@ -220,5 +257,7 @@ The X Pass represents a cornerstone technique in modern pressure passing systems
 
 
 </section>
+
+
 
 </main>

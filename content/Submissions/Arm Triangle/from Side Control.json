@@ -1,5 +1,6 @@
 {
   "name": "Arm Triangle from Side Control",
+  "summary": "The arm triangle from side control is a head-and-arm blood choke that pins the defender's own shoulder against one carotid while the attacker's forearm compresses the other, finished by walking to a perpendicular angle and dropping chest weight.",
   "description": "Master the Arm Triangle from Side Control in BJJ. Complete finishing mechanics, defensive counters, and progressive training drills for this high-percentage blood choke.",
   "tags": [
     "bjj",
@@ -116,7 +117,7 @@
       "result": "failure"
     },
     {
-      "to": "Closed Guard/Bottom",
+      "to": "Closed Guard/Top",
       "probability": 13,
       "result": "counter"
     }
@@ -224,7 +225,7 @@
         "counter": "Opponent shrimps away and recovers closed guard during the hip walk-around transition",
         "effectiveness": "Medium",
         "your_response": "If the opponent recovers guard while you still have the head-and-arm grip, maintain the grip and work to pass the guard back to side control before finishing. If the grip is compromised during guard recovery, release and work standard guard passing to re-establish side control.",
-        "targets_outcome": "Closed Guard/Bottom"
+        "targets_outcome": "Closed Guard/Top"
       }
     ],
     "common_errors": [
@@ -369,7 +370,7 @@
       {
         "action": "Bridge toward the trapped-arm side and recover closed guard",
         "when_to_use": "When the arm triangle is partially locked but the attacker has not sealed the position with their hip and head on the mat",
-        "targets_outcome": "Closed Guard/Bottom",
+        "targets_outcome": "Closed Guard/Top",
         "if_successful": "Creates enough space to pull the attacker into your closed guard where the perpendicular finishing angle is disrupted and chest compression is neutralized",
         "risk": "A bridge against a well-positioned attacker who has already dropped their hip will fail and waste critical energy"
       },
@@ -393,8 +394,8 @@
         "how": "Retract your near arm during the grip transition or successfully disrupt the attacker's walk-around angle with hip frames, forcing them to abandon the arm triangle attempt and return to standard side control where you resume normal escape sequences."
       },
       {
-        "outcome": "Closed Guard/Bottom",
-        "how": "Bridge powerfully toward the trapped-arm side while shrimping your hips away and pulling the attacker into your closed guard. The guard position eliminates the perpendicular chest compression needed to finish the arm triangle and resets the engagement to a guard passing scenario."
+        "outcome": "Closed Guard/Top",
+        "how": "Bridge powerfully toward the trapped-arm side while shrimping your hips away and pulling the attacker into your closed guard. The guard position eliminates the perpendicular chest compression needed to finish the arm triangle and resets the engagement to a guard passing scenario, with the attacker now on top inside your guard needing to pass."
       }
     ],
     "common_errors": [

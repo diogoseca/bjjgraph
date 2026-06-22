@@ -10,6 +10,41 @@ description: "Master the Lapel Clear to Toreando Pass. Strip lapel grips and exe
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Lapel Clear to Toreando Pass",
+  "description": "Master the Lapel Clear to Toreando Pass. Strip lapel grips and execute bullfighter pass to Side Control. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Lapel Clear to Toreando Pass", "item": "https://bjjgraph.org/Transitions/Lapel-Clear-to-Toreando-Pass" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Lapel Clear to Toreando Pass",
+  "description": "The Lapel Clear to Toreando Pass is a gi guard-pass in which the top player strips the opponent's lapel grips and unwinds the trapped fabric, then immediately executes a bullfighter-style toreando to drive the legs aside and reach side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Lapel Clear to Toreando Pass. Strip lapel grips and exe
 
 <section id="overview" class="content-section">
 
-The Lapel Clear to Toreando Pass is a systematic approach to defeating lapel guard configurations by addressing the fabric obstruction before executing a classic bullfighter-style pass. Unlike attempting to pass through or around the lapel, this technique prioritizes clearing the mechanical barrier first, then immediately capitalizing on the momentary window when the opponent loses their primary control mechanism.
+**The Lapel Clear to Toreando Pass is a gi guard-pass in which the top player strips the opponent's lapel grips and unwinds the trapped fabric, then immediately executes a bullfighter-style toreando to drive the legs aside and reach side control.**
+
+Emerging as a direct counter to modern lapel guard systems, this pass solves the problem in two distinct phases rather than attempting to pass through or around the fabric. The first phase prioritizes clearing the mechanical barrier completely; the second immediately capitalizes on the momentary window when the opponent loses their primary control mechanism, driving a classic bullfighter-style toreando through to side control.
 
 The strategic value of this pass lies in its direct problem-solving approach. Lapel guards create persistent control structures that conventional passing struggles to overcome. By dedicating specific technical steps to stripping the lapel configuration—whether worm, squid, or hybrid—you neutralize the guard's primary advantage before it can be redeployed. The toreando component then exploits the opponent's compromised position while they attempt to re-establish control.
 
@@ -200,7 +237,7 @@ The Lapel Clear to Toreando Pass occupies a crucial position in modern gi guard 
 
 - [[Positions/Side Control]] - Primary target position upon successful pass completion
 
-- [[Transitions/Bullfighter Pass]] - Core passing mechanic used after clearing lapel configuration
+- [[Transitions/Toreando Pass]] - Core passing mechanic used after clearing lapel configuration
 
 - [[Transitions/Backstep Around Worm Guard]] - Alternative passing solution for worm guard configurations
 
@@ -220,5 +257,7 @@ The Lapel Clear to Toreando Pass occupies a crucial position in modern gi guard 
 
 
 </section>
+
+
 
 </main>

@@ -10,6 +10,41 @@ description: "Transition from Buggy Choke to Front Headlock control. Step-by-ste
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Buggy Choke to Front Headlock",
+  "description": "Transition from Buggy Choke to Front Headlock control. Step-by-step guide when choke fails. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Buggy Choke to Front Headlock", "item": "https://bjjgraph.org/Transitions/Buggy-Choke-to-Front-Headlock" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Buggy Choke to Front Headlock",
+  "description": "The Buggy Choke to Front Headlock is a turtle-attack salvage transition where the top player abandons a defended buggy choke, retains chin-strap head control, and circles to the opponent's head to establish front headlock as they turn into the choke.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Transition from Buggy Choke to Front Headlock control. Step-by-ste
 </div>
 
 <section id="overview" class="content-section">
+
+**The Buggy Choke to Front Headlock is a turtle-attack salvage transition where the top player abandons a defended buggy choke, retains chin-strap head control, and circles to the opponent's head to establish front headlock as they turn into the choke.**
 
 The Buggy Choke to Front Headlock transition represents a critical positional salvage technique when the primary choking attack meets defensive resistance or grip stripping. When the opponent successfully defends the buggy choke by turning into the attack, posting defensively, or stripping the primary collar grip, maintaining head control while transitioning to front headlock preserves offensive initiative rather than returning to neutral turtle top position.
 
@@ -220,5 +257,7 @@ The Buggy Choke to Front Headlock transition exemplifies systematic turtle attac
 
 
 </section>
+
+
 
 </main>

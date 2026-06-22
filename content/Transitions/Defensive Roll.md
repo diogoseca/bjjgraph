@@ -10,6 +10,41 @@ description: "Learn the Defensive Roll escape from Twister Control. Step-by-step
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Defensive Roll",
+  "description": "Learn the Defensive Roll escape from Twister Control. Step-by-step technique to reverse spinal rotation and escape to safety. Success rates: Beginner 30%, Advanced 65%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Defensive Roll", "item": "https://bjjgraph.org/Transitions/Defensive-Roll" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Defensive Roll",
+  "description": "The Defensive Roll is an explosive escape from Twister Control in which the bottom player redirects the opponent's spinal rotation into a forward roll, freeing the trapped leg and surfacing in Turtle or Half Guard before the twister can finish.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Learn the Defensive Roll escape from Twister Control. Step-by-step
 </div>
 
 <section id="overview" class="content-section">
+
+**The Defensive Roll is an explosive escape from Twister Control in which the bottom player redirects the opponent's spinal rotation into a forward roll, freeing the trapped leg and surfacing in Turtle or Half Guard before the twister can finish.**
 
 The Defensive Roll is a critical escape technique when caught in Twister Control, one of the most dangerous positions in no-gi grappling. This technique leverages the momentum of your opponent's rotational control against them, using a calculated rolling motion to reduce spinal torque and escape to a recoverable position. The key insight is that while Twister Control creates tremendous rotational pressure, this same rotation can be redirected through proper timing and body mechanics to facilitate escape.
 
@@ -223,5 +260,7 @@ The Defensive Roll fits into the broader Twister Control escape system as one of
 
 
 </section>
+
+
 
 </main>

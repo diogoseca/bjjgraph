@@ -10,6 +10,41 @@ description: "Master the Seat Belt to Full Back Control transition in BJJ. Secur
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Seat Belt to Full Back Control",
+  "description": "Master the Seat Belt to Full Back Control transition in BJJ. Secure hooks and consolidate dominant 4-point back position from seat belt grip for maximum control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Seat Belt to Full Back Control", "item": "https://bjjgraph.org/Transitions/Seat-Belt-to-Full-Back-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Seat Belt to Full Back Control",
+  "description": "Seat Belt to Full Back Control is the consolidation transition that converts a seat belt grip into complete, hooks-in back control, adding the hip dominance that prevents escape and scores four points in IBJJF competition.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Seat Belt to Full Back Control transition in BJJ. Secur
 
 <section id="overview" class="content-section">
 
-Seat Belt to Full Back Control is the critical consolidation transition that converts an initial seat belt grip attachment into the complete, competition-scoring back control position with hooks established inside the defender's thighs. The seat belt grip alone—one arm over the shoulder, one arm under the armpit with hands connected—provides excellent upper body control but lacks the hip dominance that prevents escape. Inserting hooks transforms the position from a grip-dependent control state into the mechanically complete back control configuration that scores 4 points in IBJJF competition and unlocks the full submission chain.
+**Seat Belt to Full Back Control is the consolidation transition that converts a seat belt grip into complete, hooks-in back control, adding the hip dominance that prevents escape and scores four points in IBJJF competition.**
+
+Sitting at the junction between back-take entry and back-attack execution, this transition is what separates practitioners who merely arrive on the back from those who systematically own it. The seat belt grip alone—one arm over the shoulder, one arm under the armpit with hands connected—provides excellent upper body control but lacks the hip dominance that prevents escape. Inserting hooks transforms the position from a grip-dependent control state into the mechanically complete back control configuration that scores 4 points in IBJJF competition and unlocks the full submission chain.
 
 The transition centers on a precise sequencing problem: you must insert hooks one at a time without creating enough space for the defender to turn, escape to turtle, or recover guard. The first hook insertion is the critical moment—it requires temporarily adjusting hip position and leg angle while maintaining chest-to-back pressure and seat belt integrity. Elite practitioners treat this as a timing-based operation, inserting the bottom hook first by threading it between the defender's legs during a moment of defensive stillness or immediately after a failed escape attempt when the defender resets.
 
@@ -222,5 +259,7 @@ Seat Belt to Full Back Control sits at the pivotal junction between back take en
 
 
 </section>
+
+
 
 </main>

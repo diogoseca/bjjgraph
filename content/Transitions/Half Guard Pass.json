@@ -1,5 +1,6 @@
 {
   "name": "Half Guard Pass",
+  "summary": "The Half Guard Pass is the top player's systematic progression from Half Guard, where one of their legs is trapped, to dominant Side Control by winning upper-body control, neutralizing the underhook, and extracting the trapped leg.",
   "description": "Master the Half Guard Pass in BJJ. Systematic approach to passing from Half Guard Top to Side Control with pressure, underhook control, and leg extraction.",
   "tags": [
     "bjj",
@@ -18,12 +19,12 @@
       "result": "success"
     },
     {
-      "to": "Half Guard/Bottom",
+      "to": "Half Guard/Top",
       "probability": 15,
       "result": "failure"
     },
     {
-      "to": "Half Guard/Top",
+      "to": "Half Guard/Bottom",
       "probability": 10,
       "result": "counter"
     }
@@ -173,25 +174,25 @@
         "counter": "Bottom player establishes lockdown (legs crossed) and prevents leg extraction",
         "effectiveness": "High",
         "your_response": "Address lockdown by whipping your trapped leg violently to break the hold, or systematically attack the lockdown by controlling their top leg's foot and prying it away from your trapped leg while maintaining upper body pressure. Do not try to forcefully rip your leg out - this often fails and wastes energy.",
-        "targets_outcome": "Half Guard/Bottom"
+        "targets_outcome": "Half Guard/Top"
       },
       {
         "counter": "Bottom player achieves underhook and uses it to come up on their side for sweep or back take",
         "effectiveness": "High",
         "your_response": "Immediately whizzer their underhook arm and drive your weight onto their shoulder, forcing them flat to the mat. Alternatively, if they've already started to come up, you may need to transition to a front headlock position or back step to defend the sweep. Prevention is key - never allow them to establish and maintain the underhook without addressing it.",
-        "targets_outcome": "Half Guard/Top"
+        "targets_outcome": "Half Guard/Bottom"
       },
       {
         "counter": "Bottom player creates strong knee shield and uses it to create distance for guard recovery",
         "effectiveness": "Medium",
         "your_response": "Either step over the knee shield to knee slice position, or pressure through by controlling the knee with your hand while driving your hips forward and low. Another option is to transition to a different passing angle such as headquarters position or long step pass. Do not remain static against an established knee shield.",
-        "targets_outcome": "Half Guard/Bottom"
+        "targets_outcome": "Half Guard/Top"
       },
       {
         "counter": "Bottom player pumps their trapped leg (the leg controlling yours) to off-balance you and create sweeping opportunities",
         "effectiveness": "Medium",
         "your_response": "Counter leg pumping by keeping your hips extremely low and heavy, maintaining chest pressure, and timing your leg extraction for moments when their leg is extended. Use your posting hand to maintain base and prevent being rolled. Some passers prefer to control opponent's bottom knee with their hand to limit the pumping motion.",
-        "targets_outcome": "Half Guard/Top"
+        "targets_outcome": "Half Guard/Bottom"
       },
       {
         "counter": "Bottom player transitions to deep half guard by getting underneath your hips",
@@ -323,14 +324,14 @@
       {
         "action": "Establish underhook and come up to your side to threaten sweep or back take",
         "when_to_use": "As early as possible before the passer establishes crossface - ideally during the initial positional battle when both players are competing for upper body control",
-        "targets_outcome": "Half Guard/Top",
+        "targets_outcome": "Half Guard/Bottom",
         "if_successful": "You gain dominant upper body positioning that enables old school sweep, dogfight position, or back take sequence, potentially reversing the position entirely",
         "risk": "If the passer counters with a strong whizzer and drives you back flat, you lose the underhook battle and they advance their crossface control"
       },
       {
         "action": "Insert knee shield frame between your bodies and manage distance to prevent chest-to-chest pressure",
         "when_to_use": "When the passer is driving forward with heavy chest pressure and you cannot secure the underhook - the knee shield creates immediate distance and buys time to recompose",
-        "targets_outcome": "Half Guard/Bottom",
+        "targets_outcome": "Half Guard/Top",
         "if_successful": "You create enough distance to prevent the passer from using pressure to extract their leg, and you can recompose your grips and offensive structure from behind the shield",
         "risk": "Passer may step over the knee shield into headquarters position or smash the shield down with their hand to re-establish pressure passing"
       },
@@ -344,26 +345,26 @@
       {
         "action": "Establish lockdown on the trapped leg to control passer's posture and prevent leg extraction",
         "when_to_use": "When the passer begins actively working to extract their trapped leg and you need to stall their progress while setting up your offensive sequence",
-        "targets_outcome": "Half Guard/Bottom",
+        "targets_outcome": "Half Guard/Top",
         "if_successful": "The lockdown prevents leg extraction entirely and gives you control over the passer's posture, enabling electric chair sweeps and whip-up sequences",
         "risk": "Strong passers can break the lockdown by controlling your top foot or transitioning to headquarters position, and holding lockdown passively without attacking allows them to methodically address it"
       },
       {
         "action": "Hip escape and recompose to full closed guard or butterfly guard",
         "when_to_use": "When the passer momentarily lifts their hips during leg extraction or transitions - this brief window allows you to withdraw your trapped leg and reinsert both legs into a full guard position",
-        "targets_outcome": "Half Guard/Bottom",
+        "targets_outcome": "Half Guard/Top",
         "if_successful": "You recover to a full guard position (closed guard, butterfly guard, or open guard) which resets the passing exchange entirely and gives you a fresh defensive structure",
         "risk": "If your timing is off and the passer maintains chest pressure during your hip escape, they may complete the pass during your recovery attempt"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Half Guard/Bottom",
-        "how": "Maintain the leg entanglement by keeping your legs active and your hips mobile. When the passer attempts to extract, follow their hip movement with yours, re-tighten your leg grip, and reinsert frames or knee shield to reset the positional exchange. The goal is to deny the pass completion and return to an active half guard where you have offensive options."
+        "outcome": "Half Guard/Top",
+        "how": "Maintain the leg entanglement by keeping your legs active and your hips mobile. When the passer attempts to extract, follow their hip movement with yours, re-tighten your leg grip, and reinsert frames or knee shield to reset the positional exchange. The goal is to deny the pass completion and stall the passer in an active Half Guard Top where you retain offensive options below."
       },
       {
-        "outcome": "Half Guard/Top",
-        "how": "Execute a sweep from half guard bottom using the underhook as your primary weapon. The old school sweep, dogfight to single leg, or deep half sweep sequences all reverse the position and put you on top. Time your sweep attempt for moments when the passer overcommits to their crossface or leg extraction, shifting their weight forward and making them vulnerable to being rolled."
+        "outcome": "Half Guard/Bottom",
+        "how": "Execute a sweep from half guard bottom using the underhook as your primary weapon. The old school sweep, dogfight to single leg, or deep half sweep sequences all reverse the position. Time your sweep attempt for moments when the passer overcommits to their crossface or leg extraction, shifting their weight forward and making them vulnerable to being rolled into bottom-driven reversals."
       }
     ],
     "common_errors": [

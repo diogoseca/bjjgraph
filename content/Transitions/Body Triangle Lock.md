@@ -10,6 +10,41 @@ description: "Learn Body Triangle Lock from Gift Wrap in BJJ. Step-by-step execu
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Body Triangle Lock",
+  "description": "Learn Body Triangle Lock from Gift Wrap in BJJ. Step-by-step execution for securing dominant leg control with complete attacker and defender analysis.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Body Triangle Lock", "item": "https://bjjgraph.org/Transitions/Body-Triangle-Lock" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Body Triangle Lock",
+  "description": "Body Triangle Lock is a back-control transition from Gift Wrap where the attacker threads one leg across the opponent's midsection and figure-fours it behind the knee, converting hooks into a mechanical lock that eliminates hip escapes while keeping the arm trapped.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Learn Body Triangle Lock from Gift Wrap in BJJ. Step-by-step execu
 </div>
 
 <section id="overview" class="content-section">
+
+**Body Triangle Lock is a back-control transition from Gift Wrap where the attacker threads one leg across the opponent's midsection and figure-fours it behind the knee, converting hooks into a mechanical lock that eliminates hip escapes while keeping the arm trapped.**
 
 The Body Triangle Lock is a transitional technique executed from Gift Wrap position that establishes one of the most dominant leg control configurations in Brazilian Jiu-Jitsu. By threading one leg across the opponent's midsection and locking it with the opposite ankle, the attacker creates a crushing control mechanism that immobilizes the opponent's hips while maintaining the arm trap advantage of the Gift Wrap.
 
@@ -208,5 +245,7 @@ Body Triangle Lock serves as a critical transition within the back attack system
 
 
 </section>
+
+
 
 </main>

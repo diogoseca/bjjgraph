@@ -1,5 +1,6 @@
 {
   "name": "Kimura from Side Control",
+  "summary": "The Kimura from Side Control is a figure-four shoulder lock from the dominant side-control pin, isolating the opponent's near arm and combining elbow elevation with rotation of the forearm behind the back to torque the shoulder and force the tap.",
   "description": "Master the Kimura from Side Control in BJJ. Comprehensive guide covering setup, execution, and safety protocols. Success rates: Beginner 40%, Intermediate 55%, Advanced 70%.",
   "tags": [
     "bjj",
@@ -86,7 +87,6 @@
     "Knee on Belly",
     "Scarf Hold Position",
     "Modified Scarf Hold",
-    "Side Control",
     "Turtle"
   ],
   "related_submissions": [
@@ -152,7 +152,7 @@
     }
   ],
   "attacker": {
-    "name": "from Side Control Attacker",
+    "name": "Kimura from Side Control Attacker",
     "description": "How to execute Kimura from Side Control in BJJ. Attacking perspective with setup, execution, and finishing mechanics.",
     "overview": "The Kimura from Side Control is one of the most fundamental and high-percentage shoulder locks in Brazilian Jiu-Jitsu, offering exceptional control and finishing potential from a dominant top position. This submission targets the shoulder joint through figure-four grip mechanics, creating rotational and elevational stress that forces the tap. From side control, the attacker has superior positioning, weight distribution, and multiple angles to establish the lock while the opponent's mobility is severely restricted. The technique's versatility allows for seamless transitions to other submissions, back takes, or positional advancements if the opponent defends. The Kimura grip itself becomes a powerful control mechanism, enabling the top player to manipulate the opponent's posture, break their defensive frames, and create submission opportunities even when the finish isn't immediately available. This makes it an essential tool for maintaining offensive pressure from side control while constantly threatening the finish.",
     "key_principles": [
@@ -351,7 +351,7 @@
       },
       {
         "question": "What anatomical structure does the Kimura specifically attack, and what creates the breaking point?",
-        "answer": "The Kimura attacks the shoulder joint, specifically targeting the glenohumeral joint through extreme external rotation combined with elevation. The breaking point occurs when the rotator cuff muscles (subscapularis, supraspinatus, infraspinatus, teres minor) can no longer resist the rotational force being applied. The shoulder capsule and labrum are also stressed. The tap typically comes when the opponent feels the shoulder being forced past its natural range of motion in the rotational plane, creating sharp pain in the anterior shoulder.",
+        "answer": "The Kimura attacks the shoulder joint, specifically targeting the glenohumeral joint through forced rotation combined with elevation. The breaking point occurs when the rotator cuff muscles (subscapularis, supraspinatus, infraspinatus, teres minor) can no longer resist the rotational force being applied. The shoulder capsule and labrum are also stressed. The tap typically comes when the opponent feels the shoulder being forced past its natural range of motion in the rotational plane, creating sharp pain in the anterior shoulder.",
         "safety_critical": false
       },
       {
@@ -372,7 +372,7 @@
     ]
   },
   "defender": {
-    "name": "from Side Control Defender",
+    "name": "Kimura from Side Control Defender",
     "description": "How to defend against Kimura from Side Control in BJJ. Recognition, escape paths, and defensive strategies.",
     "overview": "Defending the Kimura from Side Control requires immediate recognition and proactive countermeasures, as the submission can be secured rapidly once the figure-four grip is established. The bottom player faces a compounding problem: the dominant side control position already restricts movement, and the Kimura grip adds a direct joint attack on top of positional disadvantage. Successful defense demands understanding the sequential stages of the attack, because each stage has different defensive priorities and escape windows. Early-stage defense focuses on preventing arm isolation and grip establishment through elbow connection and hand fighting. Mid-stage defense involves breaking the figure-four grip or preventing elevation through body positioning and grip defense. Late-stage defense requires emergency measures including turning into the attacker, rolling with the submission, or tapping before injury occurs. The defender must internalize that passive resistance leads to submission - active defense with systematic grip fighting and body movement is essential. The Kimura defense is also deeply connected to side control escape fundamentals, as many successful defenses transition directly into guard recovery or positional reversals.",
     "key_principles": [

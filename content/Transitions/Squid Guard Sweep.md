@@ -10,6 +10,41 @@ description: "Master the Squid Guard Sweep in BJJ. Complete guide to lapel-based
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Squid Guard Sweep",
+  "description": "Master the Squid Guard Sweep in BJJ. Complete guide to lapel-based sweep mechanics, timing windows, and finishing to mount from this advanced open guard.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Squid Guard Sweep", "item": "https://bjjgraph.org/Transitions/Squid-Guard-Sweep" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Squid Guard Sweep",
+  "description": "The Squid Guard Sweep is a lapel-based off-balancing technique from bottom Squid Guard that combines lapel tension with a threading-leg hook to collapse the top player's base and sweep them into mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Squid Guard Sweep in BJJ. Complete guide to lapel-based
 
 <section id="overview" class="content-section">
 
-The Squid Guard Sweep is an advanced technique that leverages the unique asymmetrical control of the Squid Guard position to off-balance and sweep the top player into mount. The sweep combines the mechanical advantage of the lapel wrap around the opponent's leg with the threading hook behind their knee, creating a compound off-balancing force that simultaneously attacks the opponent's lateral and posterior base. Standard posting reactions become insufficient because the lapel restriction limits the top player's ability to widen their base or step back, while the hook elevation removes their ability to drive forward.
+**The Squid Guard Sweep is a lapel-based off-balancing technique from bottom Squid Guard that combines lapel tension with a threading-leg hook to collapse the top player's base and sweep them into mount.**
+
+Sitting at the heart of the modern lapel-guard movement, the Squid Guard Sweep is the position's primary point-scoring weapon and the engine that powers its broader attacking system. The sweep combines the mechanical advantage of the lapel wrap around the opponent's leg with the threading hook behind their knee, creating a compound off-balancing force that simultaneously attacks the opponent's lateral and posterior base. Standard posting reactions become insufficient because the lapel restriction limits the top player's ability to widen their base or step back, while the hook elevation removes their ability to drive forward.
 
 The sweep's effectiveness depends on precise coordination between the lapel pull, hook extension, and hip rotation. The bottom player loads the opponent's weight forward and laterally onto the threading leg side, then uses a sharp hip rotation combined with lapel tension to collapse the opponent's base in the direction where they have the least support. Timing is paramount — the sweep works best when the opponent commits their weight forward to attempt a pass or reaches with their hands to strip grips, temporarily compromising their base stability and creating the window for execution.
 
@@ -222,5 +259,7 @@ The Squid Guard Sweep occupies a central position within the lapel guard ecosyst
 
 
 </section>
+
+
 
 </main>

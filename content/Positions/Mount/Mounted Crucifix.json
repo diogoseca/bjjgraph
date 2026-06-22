@@ -3,6 +3,7 @@
   "slug": "mounted-crucifix",
   "description": "Master the mounted crucifix in BJJ. Complete guide covering arm isolation, back exposure attacks, submission chains, and defensive escapes from this dominant control position.",
   "variant_uniqueness": "Mount stability with arm isolation control",
+  "summary": "The Mounted Crucifix is a dominant top control that fuses mount with crucifix arm-trapping, using the legs to isolate one or both of the opponent's arms and strip their defensive frames for high-percentage chokes, armbars, and back takes.",
   "overview": "The Mounted Crucifix represents one of Brazilian Jiu-Jitsu's most dominant control positions, seamlessly blending the positional advantages of mount with the arm-trapping mechanics of the traditional crucifix. This hybrid position creates an exceptionally powerful platform for attacks while severely limiting the opponent's defensive capabilities.\n\nFrom a strategic perspective, the mounted crucifix emerges when the top practitioner secures mount and successfully isolates one or both of the opponent's arms using their legs, creating a configuration where the opponent's defensive frames are completely neutralized. Unlike standard mount, where the bottom player maintains both arms for framing and defense, the mounted crucifix removes these fundamental defensive tools, leaving the opponent vulnerable to a wide array of submissions and transitions.\n\nThe position's effectiveness lies in its systematic approach to control hierarchy. First, the mount establishes superior positioning and point advantage. Second, the leg-based arm traps eliminate the opponent's primary escape mechanisms. Third, the exposed position of the opponent's neck, remaining arm, and back create multiple high-percentage finishing opportunities. This layered control system makes the mounted crucifix particularly valuable in both gi and no-gi competition contexts.\n\nTechnically, the mounted crucifix requires precise positioning of the top player's legs to trap the opponent's arms while maintaining balance and weight distribution. The most common configuration involves threading one or both legs over the opponent's arms while keeping the knees tight to prevent escape. The top player's weight shifts slightly forward to prevent bridging escapes while maintaining the ability to attack the neck or transition to the back.\n\nThe submission landscape from mounted crucifix is exceptionally diverse. Chokes become highly accessible due to the opponent's inability to defend their neck with trapped arms. Armbars on the free arm or trapped arms present themselves with minimal defensive resistance. The transition to full back control or technical mount flows naturally from this position, allowing the top player to advance position while maintaining dominant control.\n\nDefensively, escaping the mounted crucifix presents significant challenges. The bottom player must first address the arm entanglement before attempting traditional mount escapes. This often requires specific techniques like arm extraction through hip movement, explosive bridging to create space, or accepting positional transitions to less dangerous configurations. Understanding these escape pathways is crucial for developing a complete defensive game.\n\nThe mounted crucifix also serves as an excellent teaching position for understanding control principles. It demonstrates how removing defensive tools systematically increases offensive success rates, how positional transitions can compound advantages, and how multiple threats force opponents into tactical dilemmas. These lessons extend beyond this specific position into broader strategic thinking about positional dominance and submission hunting.",
   "key_principles": [
     "Mounted crucifix combines mount stability with crucifix arm isolation for maximum control",
@@ -296,11 +297,15 @@
     "transitions": [
       {
         "transition": "Armbar from Crucifix",
-        "attempt_probability": 16
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Straight Armbar",
+        "attempt_probability": 8
       },
       {
         "transition": "Rear Naked Choke from Mounted Crucifix",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "Back Control to Crucifix",
@@ -308,11 +313,11 @@
       },
       {
         "transition": "Armbar on Free Arm",
-        "attempt_probability": 9
+        "attempt_probability": 8
       },
       {
         "transition": "Gift Wrap to Technical Mount",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "Neck Crank from Mounted Crucifix",
@@ -320,11 +325,11 @@
       },
       {
         "transition": "Mount to Armbar",
-        "attempt_probability": 9
+        "attempt_probability": 4
       },
       {
         "transition": "Mounted Crucifix to S Mount",
-        "attempt_probability": 9
+        "attempt_probability": 8
       },
       {
         "transition": "Gift Wrap Transition",
@@ -332,7 +337,7 @@
       },
       {
         "transition": "Back Take from Top",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "Seat Belt Control Back",
@@ -341,6 +346,14 @@
       {
         "transition": "Mounted Crucifix Armbar",
         "attempt_probability": 2
+      },
+      {
+        "transition": "Belly Down Armbar from Mounted Crucifix",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Mounted Crucifix Armbar from Mounted Crucifix",
+        "attempt_probability": 4
       }
     ],
     "flashcards": [
@@ -605,8 +618,8 @@
     },
     "transitions": [
       {
-        "transition": "Arm Extraction",
-        "attempt_probability": 32
+        "transition": "Hip Escape from Mounted Crucifix",
+        "attempt_probability": 33
       },
       {
         "transition": "Bridge and Roll",
@@ -635,10 +648,6 @@
       {
         "transition": "Rolling Escape to Guard",
         "attempt_probability": 6
-      },
-      {
-        "transition": "Hip Escape from Mounted Crucifix",
-        "attempt_probability": 1
       },
       {
         "transition": "Bridge Escape from Mounted Crucifix",

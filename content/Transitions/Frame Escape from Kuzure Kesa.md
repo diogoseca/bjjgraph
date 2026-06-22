@@ -10,6 +10,41 @@ description: "Master the frame escape from Kuzure Kesa-Gatame in BJJ. Learn syst
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Frame Escape from Kuzure Kesa",
+  "description": "Master the frame escape from Kuzure Kesa-Gatame in BJJ. Learn systematic framing mechanics, hip escape timing, and guard recovery from modified scarf hold.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Frame Escape from Kuzure Kesa", "item": "https://bjjgraph.org/Transitions/Frame-Escape-from-Kuzure-Kesa" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Frame Escape from Kuzure Kesa",
+  "description": "The Frame Escape from Kuzure Kesa-Gatame is an energy-efficient bottom escape that uses forearm frames against the top player's hip and chained hip escapes to manufacture space, insert a knee shield, and recover half guard from modified scarf hold.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the frame escape from Kuzure Kesa-Gatame in BJJ. Learn syst
 
 <section id="overview" class="content-section">
 
-The Frame Escape from Kuzure Kesa-Gatame is a systematic escape technique that uses skeletal frames and timed hip escapes to create space and recover guard from the modified scarf hold position. Unlike explosive bridge-based escapes that rely on power and timing, the frame escape employs a methodical approach where the bottom practitioner uses forearm and elbow structures against the top person's hip and shoulder to incrementally create the space necessary for knee insertion and guard recovery.
+**The Frame Escape from Kuzure Kesa-Gatame is an energy-efficient bottom escape that uses forearm frames against the top player's hip and chained hip escapes to manufacture space, insert a knee shield, and recover half guard from modified scarf hold.**
+
+Within the defensive toolkit available from modified scarf hold bottom, the frame escape is the steady-state option practitioners turn to when explosive reversals are unavailable or too risky against a heavy, well-based opponent. Unlike bridge-based escapes that rely on power and precise limb trapping, this escape employs a methodical approach where the bottom practitioner uses forearm and elbow structures against the top person's hip and shoulder to incrementally create the space necessary for knee insertion and guard recovery.
 
 The technique's strategic value lies in its energy efficiency and reliability. While bridge-and-roll escapes require precise limb trapping and explosive power, the frame escape works through persistent mechanical advantage, making it effective even when fatigued or outweighed. The free arm establishes a structural barrier that prevents the top person from re-closing distance after each hip escape increment, allowing the bottom practitioner to chain small movements into meaningful positional change.
 
@@ -220,5 +257,7 @@ The Frame Escape from Kuzure Kesa-Gatame occupies a central role in the defensiv
 
 
 </section>
+
+
 
 </main>

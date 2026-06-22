@@ -10,6 +10,41 @@ description: "Master the counter entangle to 50-50 from ashi garami. Complete gu
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Counter Entangle to 50-50 from Ashi",
+  "description": "Master the counter entangle to 50-50 from ashi garami. Complete guide to leg threading mechanics, timing windows, and attack transitions in leg lock systems.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Counter Entangle to 50-50 from Ashi", "item": "https://bjjgraph.org/Transitions/Counter-Entangle-to-50-50-from-Ashi" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Counter Entangle to 50-50 from Ashi",
+  "description": "The counter entangle to 50-50 from ashi is a leg-lock system change in which the bottom player in Inside Ashi-Garami threads their free leg over the opponent's near thigh to build the symmetrical 50-50 entanglement, unlocking fresh heel hook angles.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the counter entangle to 50-50 from ashi garami. Complete gu
 
 <section id="overview" class="content-section">
 
-The counter entangle to 50-50 from ashi garami is a deliberate positional transition within the leg lock system where the practitioner in Inside Ashi-Garami threads their free leg around the opponent's near leg to create the symmetrical 50-50 Guard entanglement. This technique serves as a critical system change when direct attacks from standard ashi garami are being effectively defended, offering new heel hook angles and submission entries from the 50-50 configuration.
+**The counter entangle to 50-50 from ashi is a leg-lock system change in which the bottom player in Inside Ashi-Garami threads their free leg over the opponent's near thigh to build the symmetrical 50-50 entanglement, unlocking fresh heel hook angles.**
+
+Within modern leg-lock systems, the counter entangle to 50-50 from ashi garami is the response to a stalled Inside Ashi-Garami attack — rather than disengaging and re-entering, the practitioner threads their free leg around the opponent's near leg to flow directly into the symmetrical 50-50 Guard entanglement. This technique serves as a critical system change when direct attacks from standard ashi garami are being effectively defended, offering new heel hook angles and submission entries from the 50-50 configuration.
 
 The transition capitalizes on the mechanical principle that when an opponent successfully defends their heel in ashi garami—typically by rotating their knee inward or pulling their leg back—the space created during their defense actually facilitates leg threading for the 50-50 entry. Skilled practitioners recognize this defensive reaction as a trigger for the counter entangle rather than continuing to force attacks from a compromised ashi position.
 
@@ -217,5 +254,7 @@ The counter entangle to 50-50 from ashi garami sits at a critical junction in th
 
 
 </section>
+
+
 
 </main>

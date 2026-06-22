@@ -142,11 +142,24 @@ description: "Master transition management in BJJ. Learn timing recognition, ris
 }
 </script>
 
-> Transition Management is a medium complexity BJJ principle applicable at the Intermediate level. Develop over Beginner to Advanced.
 
-**Application Level**: Intermediate
-**Complexity**: Medium
-**Development Timeline**: Beginner to Advanced
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Transition Management",
+  "description": "Transition Management is the strategic skill of controlling movement between positions in BJJ — recognizing timing windows, weighing risk against reward, and preserving structure — so each position change advances your game rather than exposing you to counters.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Intermediate</span>
+<span class="meta-chip">Medium complexity</span>
+<span class="meta-chip">Beginner to Advanced</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -155,7 +168,9 @@ description: "Master transition management in BJJ. Learn timing recognition, ris
 
 ## What is Transition Management?
 
-Transition Management represents the systematic skill of controlling and optimizing position changes between distinct states in the BJJ hierarchy, encompassing the timing, risk assessment, and technical execution required to move safely and effectively between positions. Unlike specific techniques which address singular movements, transition management is a comprehensive strategic framework that governs how practitioners navigate the dynamic flow between positions, balancing offensive opportunity against defensive vulnerability. This concept encompasses the decision-making processes, awareness requirements, and tactical considerations that determine whether transitions advance positional objectives or expose practitioners to counterattacks and reversals. Transition management serves as both an offensive framework for creating progressive position advancement chains and a defensive protocol for minimizing vulnerability during necessary movements. The ability to manage transitions effectively often determines the difference between controlled positional progression and chaotic scrambles, making it one of the most critical strategic elements separating intermediate from advanced practitioners.
+**Transition Management is the strategic skill of controlling movement between positions in BJJ — recognizing timing windows, weighing risk against reward, and preserving structure — so each position change advances your game rather than exposing you to counters.**
+
+Every competitive exchange in BJJ is, at its core, a continuous chain of position changes, and the practitioner who governs how those changes unfold controls the pace and trajectory of the entire match. Unlike specific techniques, which address singular movements, transition management is a comprehensive strategic framework that determines how practitioners navigate the dynamic flow between positions, balancing offensive opportunity against defensive vulnerability. This concept encompasses the decision-making processes, awareness requirements, and tactical considerations that determine whether transitions advance positional objectives or expose practitioners to counterattacks and reversals. Transition management serves as both an offensive framework for creating progressive position advancement chains and a defensive protocol for minimizing vulnerability during necessary movements. The ability to manage transitions effectively often determines the difference between controlled positional progression and chaotic scrambles, making it one of the most critical strategic elements separating intermediate from advanced practitioners.
 
 </section>
 
@@ -374,6 +389,19 @@ Recording rolling sessions and analyzing transition attempts to evaluate timing 
 - [[Hip Escape to Guard]] (Transition) - Fundamental defensive transition requiring careful timing and structural maintenance
 - [[Bridge and Roll]] (Transition) - Classic transition demonstrating importance of timing recognition and momentum control
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Straight-Footlock-to-Kneebar-Chain" data-cta="related-system-card" data-system-slug="systems/straight-footlock-to-kneebar-chain" data-system-name="Straight Footlock to Kneebar Chain" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Straight Footlock to Kneebar Chain</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Broader concept governing smooth transitions between submission attempts</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/B-Team-Dilemma-System" data-cta="related-system-card" data-system-slug="systems/b-team-dilemma-system" data-system-name="B-Team Dilemma System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">B-Team Dilemma System</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Systematic approach to managing position changes that underpins the dilemma system&#x27;s transitional framework</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Berimbolo" data-cta="related-system-card" data-system-slug="systems/berimbolo" data-system-name="Berimbolo" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Berimbolo</span><span class="system-card__unlocks-badge">Unlocks 21 techniques</span><span class="system-card__blurb">Framework for understanding smooth movement between De La Riva, inversion, and back control phases</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Kimura-Trap-System" data-cta="related-system-card" data-system-slug="systems/kimura-trap-system" data-system-name="Kimura Trap System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Kimura Trap System</span><span class="system-card__unlocks-badge">Unlocks 21 techniques</span><span class="system-card__blurb">Guides smooth movement between positions while maintaining control</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

@@ -10,6 +10,41 @@ description: "Master Vaporizer sweep defense in BJJ. Learn to counter lockdown w
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Defend Vaporizer Sweep",
+  "description": "Master Vaporizer sweep defense in BJJ. Learn to counter lockdown whip-up sweeps, maintain top position, and escape to half guard with proven defensive techniques.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Defend Vaporizer Sweep", "item": "https://bjjgraph.org/Transitions/Defend-Vaporizer-Sweep" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Defend Vaporizer Sweep",
+  "description": "Defend Vaporizer Sweep is the top player's defensive sequence against the 10th Planet Vaporizer, using base widening, shoulder pressure, and systematic lockdown clearing to neutralize whip-up sweeps and escape to half guard top.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Vaporizer sweep defense in BJJ. Learn to counter lockdown w
 </div>
 
 <section id="overview" class="content-section">
+
+**Defend Vaporizer Sweep is the top player's defensive sequence against the 10th Planet Vaporizer, using base widening, shoulder pressure, and systematic lockdown clearing to neutralize whip-up sweeps and escape to half guard top.**
 
 Defending the Vaporizer sweep is a critical survival skill for practitioners caught in the 10th Planet lockdown system. When the bottom player establishes the Vaporizer position with a deep lockdown and aggressive whip-up motion, the top player faces immediate sweep threats including the Old School sweep, rolling back takes, and transitions to the Electric Chair or Truck. This defensive transition focuses on neutralizing sweep mechanics while systematically working to extract from the lockdown and return to a standard half guard passing position.
 
@@ -216,5 +253,7 @@ The Defend Vaporizer Sweep transition is essential for any practitioner regularl
 
 
 </section>
+
+
 
 </main>

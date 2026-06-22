@@ -10,6 +10,41 @@ description: "Master the 50-50 Guard to Single Leg X-Guard transition in BJJ. Co
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "50-50 Guard to Single Leg X-Guard",
+  "description": "Master the 50-50 Guard to Single Leg X-Guard transition in BJJ. Convert symmetrical leg entanglement into an asymmetrical sweeping platform.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "50-50 Guard to Single Leg X-Guard", "item": "https://bjjgraph.org/Transitions/50-50-Guard-to-Single-Leg-X-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "50-50 Guard to Single Leg X-Guard",
+  "description": "The 50-50 Guard to Single Leg X-Guard transition extracts your outside leg from the symmetrical 50-50 entanglement while retaining control of the opponent's trapped leg, converting a heel-hook-prone stalemate into an asymmetrical sweeping platform.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the 50-50 Guard to Single Leg X-Guard transition in BJJ. Co
 </div>
 
 <section id="overview" class="content-section">
+
+**The 50-50 Guard to Single Leg X-Guard transition extracts your outside leg from the symmetrical 50-50 entanglement while retaining control of the opponent's trapped leg, converting a heel-hook-prone stalemate into an asymmetrical sweeping platform.**
 
 The 50-50 Guard to Single Leg X-Guard transition represents a strategic positional upgrade that transforms a symmetrical leg entanglement into an asymmetrical sweeping platform. From the defensive 50-50 bottom position, this technique extracts your outside leg while maintaining control of opponent's leg, allowing you to establish the powerful Single Leg X-Guard configuration. The biomechanical principle at work is converting a mirrored entanglement where both players have equal leverage into one where you possess superior off-balancing architecture.
 
@@ -222,5 +259,7 @@ The 50-50 to Single Leg X-Guard transition occupies a critical junction in the l
 
 
 </section>
+
+
 
 </main>

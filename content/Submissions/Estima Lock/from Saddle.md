@@ -10,10 +10,55 @@ description: "Learn the Estima Lock from Saddle position with expert finishing m
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Estima Lock from Saddle targets the Foot and ankle joints (forced dorsiflexion targeting tarsometatarsal and ankle ligaments). Risk: Ankle ligament sprain or tear (deltoid ligament, talofibular ligaments). Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Estima Lock from Saddle",
+  "description": "Learn the Estima Lock from Saddle position with expert finishing mechanics, grip details, safety protocols, and defensive strategies for BJJ practitioners.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Estima Lock from Saddle", "item": "https://bjjgraph.org/Submissions/Estima-Lock-from-Saddle" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Estima Lock from Saddle",
+  "description": "The Estima Lock from Saddle is a foot lock that seals the opponent's foot in your armpit and forces dorsiflexion through back extension, attacking the Lisfranc joint and ankle ligaments as the highest-percentage counter to heel hook defense.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Estima Lock from Saddle is a foot lock that seals the opponent's foot in your armpit and forces dorsiflexion through back extension, attacking the Lisfranc joint and ankle ligaments as the highest-percentage counter to heel hook defense.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Foot Lock</span>
+<span class="meta-chip">Targets Foot and ankle joints (forced dorsiflexion targeting tarsometatarsal and ankle ligaments)</span>
+<span class="meta-chip">55% success</span>
+</div>
+
+> [!danger] Safety
+> Estima Lock from Saddle targets the Foot and ankle joints (forced dorsiflexion targeting tarsometatarsal and ankle ligaments). Primary risk: Ankle ligament sprain or tear (deltoid ligament, talofibular ligaments). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,56 +75,7 @@ The finishing mechanics involve trapping the opponent's foot tightly in the croo
 
 Strategically, the Estima Lock from Saddle occupies a critical role in modern leg lock systems as the secondary attack that punishes heel hook defense. Practitioners who develop proficiency with both the heel hook and Estima Lock from this position become exponentially more dangerous, as the opponent faces a genuine two-threat problem with no safe defensive resting position. The technique demands careful attention to safety protocols given how rapidly foot and ankle damage can occur, particularly at the Lisfranc joint where injury consequences are severe and recovery times are prolonged.
 
-**Category**: Joint Lock
-**Type**: Foot Lock
-**Target Area**: Foot and ankle joints (forced dorsiflexion targeting tarsometatarsal and ankle ligaments)
-**Starting Position**: [[Positions/Ashi Garami/Saddle]]
-**From Position**: [[Positions/Ashi Garami/Saddle]] (Top)
-**Success Rate**: 55%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Ankle ligament sprain or tear (deltoid ligament, talofibular ligaments) | High | 2-8 weeks depending on severity |
-| Tarsometatarsal (Lisfranc) joint ligament damage | CRITICAL | 6-16 weeks, may require surgical intervention |
-| Achilles tendon strain from forced dorsiflexion | Medium | 2-4 weeks |
-| Metatarsal stress fracture under extreme force | CRITICAL | 6-12 weeks |
-
-
-**Application Speed**: EXTREMELY SLOW - minimum 5-7 seconds from initial foot capture to maximum pressure. The Lisfranc joint can sustain structural failure with minimal warning sensation. Allow partner multiple clear tap opportunities throughout application.
-
-**Tap Signals**:
-- Verbal tap (shout 'TAP' or any verbal signal)
-- Physical hand tap on partner's body or mat
-- Physical foot tap with free leg
-- Any distress signal or unusual sounds
-- Sudden cessation of defensive resistance (potential injury)
-
-
-**Release Protocol**:
-1. Immediately release hand grip and armpit pressure on the foot
-2. Open elbow to free the trapped foot completely
-3. Allow opponent's foot to return to neutral position naturally without jerking
-4. Maintain visual contact to ensure partner is responsive and okay
-5. Never spike or jerk the release—controlled withdrawal only
-
-
-**Training Restrictions**:
-- Never apply at competition speed during training
-- Restricted to practitioners familiar with leg lock tapping protocols
-- Always ensure partner understands all tap signals before drilling
-- Never apply with sudden jerking or spiking motions
-- Always allow clear tap access with at least one hand free
-- Stop immediately if any popping or unusual sounds occur in the foot
-- Communicate verbally throughout application during all drilling
-
+**Starting Position**: [[Positions/Ashi Garami/Saddle]] · **From**: [[Positions/Ashi Garami/Saddle]] (Top)
 
 </section>
 
@@ -243,42 +239,64 @@ Strategically, the Estima Lock from Saddle occupies a critical role in modern le
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Positions/Estima Lock Control]]
 - [[Transitions/Estima Lock]]
 - [[Transitions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
 - [[Positions/Aoki Lock Control]]
 - [[Submissions/Calf Slicer]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Ashi Garami/Saddle]] - Primary starting position for this submission variant
 - [[Positions/Ashi Garami/Honey Hole]] - Alternative name for the starting Saddle position
-- [[Positions/Estima Lock Control]] - Parent submission family and associated control position
-- [[Transitions/Heel Hook]] - Primary alternative submission from Saddle creating attack chain
-- [[Submissions/Inside Heel Hook]] - Complementary submission creating finishing dilemma from same position
-- [[Transitions/Estima Lock]] - Related finishing technique within the Estima Lock family
+
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Ankle ligament sprain or tear (deltoid ligament, talofibular ligaments) | High | 2-8 weeks depending on severity |
+| Tarsometatarsal (Lisfranc) joint ligament damage | CRITICAL | 6-16 weeks, may require surgical intervention |
+| Achilles tendon strain from forced dorsiflexion | Medium | 2-4 weeks |
+| Metatarsal stress fracture under extreme force | CRITICAL | 6-12 weeks |
+
+
+**Application Speed**: EXTREMELY SLOW - minimum 5-7 seconds from initial foot capture to maximum pressure. The Lisfranc joint can sustain structural failure with minimal warning sensation. Allow partner multiple clear tap opportunities throughout application.
+
+**Tap Signals**:
+- Verbal tap (shout 'TAP' or any verbal signal)
+- Physical hand tap on partner's body or mat
+- Physical foot tap with free leg
+- Any distress signal or unusual sounds
+- Sudden cessation of defensive resistance (potential injury)
+
+
+**Release Protocol**:
+1. Immediately release hand grip and armpit pressure on the foot
+2. Open elbow to free the trapped foot completely
+3. Allow opponent's foot to return to neutral position naturally without jerking
+4. Maintain visual contact to ensure partner is responsive and okay
+5. Never spike or jerk the release—controlled withdrawal only
+
+
+**Training Restrictions**:
+- Never apply at competition speed during training
+- Restricted to practitioners familiar with leg lock tapping protocols
+- Always ensure partner understands all tap signals before drilling
+- Never apply with sudden jerking or spiking motions
+- Always allow clear tap access with at least one hand free
+- Stop immediately if any popping or unusual sounds occur in the foot
+- Communicate verbally throughout application during all drilling
 
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Estima Lock from Saddle leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

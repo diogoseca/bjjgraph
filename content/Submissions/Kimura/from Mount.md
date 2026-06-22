@@ -10,10 +10,55 @@ description: "Master the Kimura from Mount in BJJ. Complete guide with safety pr
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Kimura from Mount targets the Shoulder joint (glenohumeral joint, rotator cuff). Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kimura from Mount",
+  "description": "Master the Kimura from Mount in BJJ. Complete guide with safety protocols, setup requirements, and execution steps for this high-percentage shoulder lock.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Kimura from Mount", "item": "https://bjjgraph.org/Submissions/Kimura-from-Mount" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kimura from Mount",
+  "description": "The Kimura from Mount is a high-percentage shoulder lock applied from the mount that uses a figure-four double-wrist grip to isolate the opponent's bent arm and internally rotate it behind their back until the shoulder joint forces a tap.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Kimura from Mount is a high-percentage shoulder lock applied from the mount that uses a figure-four double-wrist grip to isolate the opponent's bent arm and internally rotate it behind their back until the shoulder joint forces a tap.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Shoulder Lock</span>
+<span class="meta-chip">Targets Shoulder joint (glenohumeral joint, rotator cuff)</span>
+<span class="meta-chip">72% success</span>
+</div>
+
+> [!danger] Safety
+> Kimura from Mount targets the Shoulder joint (glenohumeral joint, rotator cuff). Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -26,56 +71,7 @@ description: "Master the Kimura from Mount in BJJ. Complete guide with safety pr
 
 The Kimura from Mount represents one of the highest-percentage shoulder lock attacks in Brazilian Jiu-Jitsu, combining the dominant control of mount with the mechanical advantage of the double-wrist grip. This submission targets the shoulder joint through a figure-four grip configuration that isolates the opponent's arm while leveraging superior positional control. From mount, the attacking grappler can transition seamlessly between maintaining positional dominance and applying submission pressure, creating a strategic dilemma where defensive movements often expose additional attacks. The technique's effectiveness stems from the ability to use bodyweight, hip pressure, and precise angle creation to generate overwhelming torque on the shoulder capsule. Unlike Kimuras from other positions, the mount variation offers exceptional control over the opponent's ability to roll or escape, making it particularly reliable in both training and competition scenarios. The submission can be finished while maintaining mount or used as a transition mechanism to take the back or establish other dominant positions.
 
-**Category**: Joint Lock
-**Type**: Shoulder Lock
-**Target Area**: Shoulder joint (glenohumeral joint, rotator cuff)
-**Starting Position**: [[Positions/Mount]]
-**From Position**: [[Positions/Mount]] (Top)
-**Success Rate**: 72%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Rotator cuff tear (supraspinatus, infraspinatus, teres minor) | High | 3-6 months with potential surgery requirement |
-| Shoulder dislocation (anterior or posterior) | High | 6-12 weeks, possible surgical intervention |
-| Labrum tear | High | 4-9 months with surgery |
-| Bicep tendon strain or rupture | Medium | 4-8 weeks for strain, 3-6 months for rupture |
-| Acromioclavicular joint separation | Medium | 6-12 weeks depending on grade |
-
-
-**Application Speed**: SLOW and progressive - minimum 3-5 seconds from initial pressure to maximum torque in training
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress vocalization)
-- Physical hand tap on opponent or mat (multiple rapid taps)
-- Physical foot tap on mat or opponent
-- Any audible distress signal or change in breathing pattern
-- Shoulder popping or cracking sounds (immediate release)
-
-
-**Release Protocol**:
-1. Immediately stop all rotational pressure on the shoulder
-2. Release the figure-four grip while maintaining control of the arm
-3. Gently guide the arm back to neutral position without sudden movements
-4. Allow opponent to move shoulder through safe range of motion before resuming training
-5. Check for pain, instability, or reduced range of motion before continuing
-
-
-**Training Restrictions**:
-- Never apply explosive or jerking motions to the shoulder
-- Never use competition-speed application in training
-- Always ensure training partner has clear tap access with free hand
-- Stop immediately at first sign of discomfort or unusual joint sensation
-- Never apply Kimura when opponent's arm is already compromised or injured
-- Avoid practicing on training partners with known shoulder injuries or hypermobility
-
+**Starting Position**: [[Positions/Mount]] · **From**: [[Positions/Mount]] (Top)
 
 </section>
 
@@ -139,7 +135,7 @@ The Kimura from Mount represents one of the highest-percentage shoulder lock att
 
 - **Lift the Elbow and Control Height**: Using your figure-four grip, lift their elbow off the mat while keeping their hand pinned toward the...
 
-- **Walk Hands Toward Head**: While maintaining elbow height and grip integrity, begin moving their hand in a circular arc toward ...
+- **Walk Hands Toward Hip**: While maintaining elbow height and grip integrity, begin moving their hand in a circular arc down to...
 
 - **Finish or Transition**: Continue the circular rotation until opponent taps. If they resist strongly or begin to roll, be pre...
 
@@ -155,9 +151,9 @@ The Kimura from Mount represents one of the highest-percentage shoulder lock att
   - Consequence: Insufficient leverage to generate adequate shoulder torque - submission lacks power and opponent can easily defend
   - Correction: Grip your own wrist as far from opponent's arm as possible. Maximum distance between your hands creates maximum leverage. Extend your bottom arm fully when establishing the figure-four.
 
-- **Lifting straight up instead of rotating in circular arc toward head**
+- **Lifting straight up instead of rotating in a circular arc toward the hip**
   - Consequence: Incorrect pressure angle fails to engage shoulder joint properly - submission feels weak and opponent can resist indefinitely
-  - Correction: The motion must be circular and rotational, not linear. Move their hand in an arc toward their head while maintaining elbow height. Think of stirring a large pot rather than lifting a weight.
+  - Correction: The motion must be circular and rotational, not linear. Move their hand in an arc down toward their hip and lower back while maintaining elbow height. Think of stirring a large pot rather than lifting a weight.
 
 
 </section>
@@ -218,7 +214,7 @@ The Kimura from Mount represents one of the highest-percentage shoulder lock att
 ## Variations
 
 
-**S-Mount Kimura**: From S-mount position (one leg extended toward opponent's head), establish the figure-four grip and use the elevated hip position to increase downward pressure while rotating toward their head. The S-mount variation provides superior control and prevents rolling defenses more effectively than standard mount. (When to use: When opponent is defending aggressively and attempting to roll or bridge - S-mount provides maximum stability and control)
+**S-Mount Kimura**: From S-mount position (one leg extended toward opponent's head), establish the figure-four grip and use the elevated hip position to increase downward pressure while rotating their hand down toward their hip and lower back. The S-mount variation provides superior control and prevents rolling defenses more effectively than standard mount. (When to use: When opponent is defending aggressively and attempting to roll or bridge - S-mount provides maximum stability and control)
 
 
 **High Mount to Kimura Bait**: From high mount with your knees under opponent's armpits, threaten a cross collar choke or armbar to opposite side. When opponent frames or reaches across their body to defend, immediately transition to Kimura on the extended arm. The threat creates the opening. (When to use: Against defensive opponents who keep arms tight - use attacking threats to force arm extension)
@@ -250,10 +246,9 @@ The Kimura from Mount represents one of the highest-percentage shoulder lock att
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Kimura]]
 - [[Submissions/Americana]]
 - [[Submissions/Far Side Armbar]]
@@ -264,14 +259,6 @@ The Kimura from Mount represents one of the highest-percentage shoulder lock att
 - [[Submissions/Belly Down Armbar]]
 - [[Submissions/Triangle Choke]]
 - [[Submissions/Gift Wrap Armbar]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Mount]] - Primary starting position - mount control must be established before attempting submission
 - [[Positions/Mount/High Mount]] - Optimal setup position - provides chest pressure and arm isolation opportunities
 - [[Positions/Mount/S Mount]] - Enhanced control variation - prevents rolling defenses more effectively
@@ -282,19 +269,53 @@ The Kimura from Mount represents one of the highest-percentage shoulder lock att
 - [[Positions/Crucifix]] - Advanced control position accessible via Kimura grip when opponent defends
 - [[Positions/Gift Wrap]] - Control position that can transition to Kimura setup from mount
 - [[Positions/Mount/Technical Mount]] - Mount variation allowing Kimura attacks with enhanced head control
-- [[Submissions/Americana]] - Related shoulder lock submission sharing similar mechanics from mount
+
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Rotator cuff tear (supraspinatus, infraspinatus, teres minor) | High | 3-6 months with potential surgery requirement |
+| Shoulder dislocation (anterior or posterior) | High | 6-12 weeks, possible surgical intervention |
+| Labrum tear | High | 4-9 months with surgery |
+| Bicep tendon strain or rupture | Medium | 4-8 weeks for strain, 3-6 months for rupture |
+| Acromioclavicular joint separation | Medium | 6-12 weeks depending on grade |
+
+
+**Application Speed**: SLOW and progressive - minimum 3-5 seconds from initial pressure to maximum torque in training
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any distress vocalization)
+- Physical hand tap on opponent or mat (multiple rapid taps)
+- Physical foot tap on mat or opponent
+- Any audible distress signal or change in breathing pattern
+- Shoulder popping or cracking sounds (immediate release)
+
+
+**Release Protocol**:
+1. Immediately stop all rotational pressure on the shoulder
+2. Release the figure-four grip while maintaining control of the arm
+3. Gently guide the arm back to neutral position without sudden movements
+4. Allow opponent to move shoulder through safe range of motion before resuming training
+5. Check for pain, instability, or reduced range of motion before continuing
+
+
+**Training Restrictions**:
+- Never apply explosive or jerking motions to the shoulder
+- Never use competition-speed application in training
+- Always ensure training partner has clear tap access with free hand
+- Stop immediately at first sign of discomfort or unusual joint sensation
+- Never apply Kimura when opponent's arm is already compromised or injured
+- Avoid practicing on training partners with known shoulder injuries or hypermobility
 
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Kimura from Mount leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

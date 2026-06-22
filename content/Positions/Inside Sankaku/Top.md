@@ -20,38 +20,38 @@ description: "Master Inside Sankaku top perspective. Complete control mechanics,
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Heel Hook from Inside Sankaku",
-      "text": "From this position, attempt Heel Hook from Inside Sankaku. This technique is attempted in 40% of exchanges from this position.",
+      "name": "Execute Inside Sankaku Heel Hook",
+      "text": "From this position, attempt Inside Sankaku Heel Hook. This technique is attempted in 40% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Toe Hold from Inside Sankaku",
-      "text": "From this position, attempt Toe Hold from Inside Sankaku. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Heel Hook from Inside Sankaku",
+      "text": "From this position, attempt Heel Hook from Inside Sankaku. This technique is attempted in 5% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Outside Ashi Entry",
-      "text": "From this position, attempt Outside Ashi Entry. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Inside Sankaku to Saddle",
+      "text": "From this position, attempt Inside Sankaku to Saddle. This technique is attempted in 8% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Saddle Entry from Top",
-      "text": "From this position, attempt Saddle Entry from Top. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Toe Hold from Inside Sankaku",
+      "text": "From this position, attempt Toe Hold from Inside Sankaku. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute 50-50 Entry",
-      "text": "From this position, attempt 50-50 Entry. This technique is attempted in 3% of exchanges from this position.",
+      "name": "Execute Outside Ashi Entry",
+      "text": "From this position, attempt Outside Ashi Entry. This technique is attempted in 7% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kneebar Finish",
-      "text": "From this position, attempt Kneebar Finish. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Saddle Entry from Top",
+      "text": "From this position, attempt Saddle Entry from Top. This technique is attempted in 5% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -116,6 +116,7 @@ description: "Master Inside Sankaku top perspective. Complete control mechanics,
   "@type": "WebPage",
   "name": "Inside Sankaku Top",
   "description": "Master Inside Sankaku top perspective. Complete control mechanics, submission paths, and systematic breakdown of defensive barriers.",
+  "alternateName": ["411", "Inside Senkaku"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -155,6 +156,9 @@ description: "Master Inside Sankaku top perspective. Complete control mechanics,
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>411</strong>, <strong>Inside Senkaku</strong> <span class="role-hint">(top)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 Inside Sankaku from the top perspective represents one of the most dominant and highly-controlled positions in modern leg lock systems, offering exceptional mechanical advantage for inside heel hook attacks while severely limiting the opponent's defensive and escape options. From this position, the top player has established a figure-four leg entanglement around the opponent's leg with the heel exposed toward their centerline, creating optimal biomechanical alignment for devastating submissions. The position's effectiveness derives from its multi-layered control system - hip-to-hip connection prevents the opponent from creating escape distance, knee line dominance prevents defensive rotation, and the leg configuration itself isolates the trapped limb from defensive resources. Understanding the systematic approach to this position is critical: first establish the fundamental entanglement structure, then secure hip connection, next dominate the knee line, and finally isolate heel exposure before attempting the submission. Many practitioners fail by rushing to the submission before establishing complete positional control, which allows skilled opponents to escape or counter-attack. The top player must also maintain awareness of their own leg positioning, as engagement in leg entanglements creates mutual vulnerability that must be managed through superior positioning and control. Modern competition has proven Inside Sankaku to be among the highest percentage finishing positions, with success rates climbing significantly as practitioners develop systematic understanding of the position's control mechanics. The strategic depth of the position extends beyond simple submission hunting - it can be used to force opponents into bad positions, drain their energy through defensive efforts, and create multiple attack pathways that form dilemmas where every defensive choice opens different offensive opportunities.
@@ -371,6 +375,16 @@ Start in established Inside Sankaku position. Top player works to maintain posit
 - **[[Positions/Ashi Garami/Honey Hole]]** - Alternative name for Inside Sankaku - same position with different terminology
 - **[[Positions/Kneebar Control]]** - Alternative finishing position when heel hook defenses are effective
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Danaher-Leg-Lock-System" data-cta="related-system-card" data-system-slug="systems/danaher-leg-lock-system" data-system-name="Danaher Leg Lock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Danaher Leg Lock System</span><span class="system-card__unlocks-badge">Unlocks 30 techniques</span><span class="system-card__blurb">Maximum control position at top of ashi-garami hierarchy</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

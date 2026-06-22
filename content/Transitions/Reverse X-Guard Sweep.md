@@ -10,6 +10,41 @@ description: "Master the Reverse X-Guard Sweep in BJJ. Complete guide to elevati
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Reverse X-Guard Sweep",
+  "description": "Master the Reverse X-Guard Sweep in BJJ. Complete guide to elevation sweep mechanics from Reverse X-Guard to Mount with hook placement and timing.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Reverse X-Guard Sweep", "item": "https://bjjgraph.org/Transitions/Reverse-X-Guard-Sweep" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Reverse X-Guard Sweep",
+  "description": "The Reverse X-Guard Sweep is an inverted-guard elevation sweep in which the bottom player stacks both hooks on one of the opponent's legs, then lifts and rotates to off-balance a standing or based opponent and come up directly into Mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Reverse X-Guard Sweep in BJJ. Complete guide to elevati
 
 <section id="overview" class="content-section">
 
-The Reverse X-Guard Sweep is a high-percentage elevation sweep executed from the inverted X-Guard configuration where both hooks control the same side of the opponent's body. This technique exploits the mechanical advantage created by positioning the primary hook behind the opponent's near knee while the secondary hook controls their hip, generating powerful upward and rotational force that destabilizes their base entirely. The sweep succeeds by coordinating leg extension with upper body grip manipulation to off-balance the opponent backward or laterally.
+**The Reverse X-Guard Sweep is an inverted-guard elevation sweep in which the bottom player stacks both hooks on one of the opponent's legs, then lifts and rotates to off-balance a standing or based opponent and come up directly into Mount.**
+
+A signature offensive weapon of the modern leg-entanglement era, the Reverse X-Guard Sweep weaponizes the inverted hook configuration where both legs stack on the same side of the opponent's body. The technique exploits the mechanical advantage created by positioning the primary hook behind the opponent's near knee while the secondary hook controls their hip, generating powerful upward and rotational force that destabilizes their base entirely. The sweep succeeds by coordinating leg extension with upper-body grip manipulation to off-balance the opponent backward or laterally.
 
 This sweep represents one of the primary offensive weapons from Reverse X-Guard, making it essential for practitioners developing modern leg entanglement games. The technique is particularly effective against standing opponents who maintain upright posture, as their elevated center of gravity becomes a liability when subjected to the elevation and rotation mechanics. The sweep transitions naturally into Mount or Side Control, providing immediate positional advancement worth significant points in competition.
 
@@ -222,5 +259,7 @@ The Reverse X-Guard Sweep functions as a primary offensive weapon within the Rev
 
 
 </section>
+
+
 
 </main>

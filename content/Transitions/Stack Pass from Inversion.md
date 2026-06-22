@@ -4,11 +4,46 @@
 
 ---
 title: "Stack Pass from Inversion | BJJ Technique | BJJ Graph"
-description: "Master Stack Pass from Inversion in BJJ. Defeat inverted guards by driving hips over shoulders to compress spine and eliminate leg mobility."
+description: "Master the Stack Pass from Inversion in BJJ. Defeat inverted guards like grasshopper guard by driving the hips over the shoulders to compress the spine and kill leg mobility."
 ---
 
 
 <body data-content-type="transitions-hub">
+
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Stack Pass from Inversion",
+  "description": "Master the Stack Pass from Inversion in BJJ. Defeat inverted guards like grasshopper guard by driving the hips over the shoulders to compress the spine and kill leg mobility.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Stack Pass from Inversion", "item": "https://bjjgraph.org/Transitions/Stack-Pass-from-Inversion" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Stack Pass from Inversion",
+  "description": "The Stack Pass from Inversion is a pressure-passing technique that defeats inverted guards like grasshopper guard by folding the opponent's hips back over their own shoulders, compressing the spine to kill leg mobility and clear a path to side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -22,7 +57,9 @@ description: "Master Stack Pass from Inversion in BJJ. Defeat inverted guards by
 
 <section id="overview" class="content-section">
 
-The Stack Pass from Inversion is a high-pressure passing technique designed to neutralize inverted guard players by driving their hips over their shoulders, compressing their spine and eliminating their mobility. When facing grasshopper guard or similar inverted positions, the bottom player relies on hip elevation and leg mobility to threaten sweeps and leg entanglements. The stack pass directly attacks this mechanic by reversing the pressure dynamic - instead of allowing them to use their elevated hips offensively, you fold them over themselves, making their legs heavy and immobile.
+**The Stack Pass from Inversion is a pressure-passing technique that defeats inverted guards like grasshopper guard by folding the opponent's hips back over their own shoulders, compressing the spine to kill leg mobility and clear a path to side control.**
+
+Inverted guards like grasshopper guard win by trading stability for leg access, basing on the shoulders and elevating the hips to hunt sweeps and leg entanglements against a standing or kneeling passer. The stack pass weaponizes that very elevation against them: instead of letting the bottom player use their high hips offensively, you fold those hips back over their own shoulders, compressing the spine into flexion until their legs become heavy, immobile dead weight that can no longer generate sweeping or entangling power.
 
 This pass requires precise timing, as attempting to stack against a fully established inversion with active legs will likely result in leg entanglements or sweeps. The optimal window occurs when the bottom player's hips begin to drop from fatigue or during transitions between leg configurations. Recognizing this window separates successful stack passers from those who get caught in leg attacks.
 
@@ -216,5 +253,7 @@ The Stack Pass from Inversion fits within the pressure passing system as a respo
 
 
 </section>
+
+
 
 </main>

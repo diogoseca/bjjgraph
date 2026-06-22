@@ -10,6 +10,41 @@ description: "Master the Reverse Scarf Hold to Side Control transition in BJJ. L
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Reverse Scarf to Side Control",
+  "description": "Master the Reverse Scarf Hold to Side Control transition in BJJ. Learn rotational mechanics, pressure maintenance, and timing for seamless positional advancement.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Reverse Scarf to Side Control", "item": "https://bjjgraph.org/Transitions/Reverse-Scarf-to-Side-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Reverse Scarf to Side Control",
+  "description": "Reverse Scarf to Side Control is a top-game positional adjustment in which the player rotates from the reverse-facing scarf hold orientation into standard perpendicular side control, trading transitional chest pressure for a stable platform with broader submission and advancement options.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Reverse Scarf Hold to Side Control transition in BJJ. L
 
 <section id="overview" class="content-section">
 
-The Reverse Scarf to Side Control transition is a fundamental positional adjustment where the top player rotates from the reverse scarf hold orientation—facing the opponent's legs—to standard perpendicular side control. This transition addresses the primary limitation of reverse scarf hold: its inherently transitional nature and reduced visibility of the opponent's defensive movements. By rotating to standard side control, the top player gains access to a more stable control platform with superior submission chains and advancement pathways to mount, knee on belly, and north-south.
+**Reverse Scarf to Side Control is a top-game positional adjustment in which the player rotates from the reverse-facing scarf hold orientation into standard perpendicular side control, trading transitional chest pressure for a stable platform with broader submission and advancement options.**
+
+Because reverse scarf hold is inherently transitional—trading head-side vision for crushing chest pressure—skilled top players rarely treat it as a destination; this rotation is how they convert that fleeting pin into the stable, submission-rich platform of standard side control. The transition addresses the primary limitations of reverse scarf hold: its reduced visibility of the opponent's defensive movements and its short retention window. By rotating to standard perpendicular side control, the top player gains access to a more stable control platform with superior submission chains and advancement pathways to mount, knee on belly, and north-south.
 
 The technical challenge lies in maintaining continuous pressure throughout the rotation. The brief window during body rotation represents the highest-risk moment, as reduced hip pressure allows the bottom player to insert frames, recover guard, or initiate escape sequences. Successful execution requires coordinated hip switching, controlled weight transfer, and immediate establishment of crossface control upon completing the rotation. The transition is most effective when initiated proactively while the bottom player is still processing reverse scarf pressure, rather than as a reactive adjustment when control deteriorates.
 
@@ -220,5 +257,7 @@ This transition connects the judo-derived reverse scarf hold system to the broad
 
 
 </section>
+
+
 
 </main>

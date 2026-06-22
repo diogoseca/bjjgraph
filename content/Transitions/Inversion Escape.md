@@ -10,6 +10,41 @@ description: "Master Inversion Escape from Honey Hole in BJJ. Step-by-step techn
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Inversion Escape",
+  "description": "Master Inversion Escape from Honey Hole in BJJ. Step-by-step technique for escaping leg entanglements using explosive rotational movement and hip mechanics.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Inversion Escape", "item": "https://bjjgraph.org/Transitions/Inversion-Escape" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Inversion Escape",
+  "description": "The Inversion Escape is a defensive technique for escaping the Honey Hole (inside sankaku) in which the trapped player explosively inverts over the shoulder to change their leg's angle and extract it before the opponent secures a heel hook grip.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master Inversion Escape from Honey Hole in BJJ. Step-by-step techn
 
 <section id="overview" class="content-section">
 
-The Inversion Escape is a critical defensive technique used to extract yourself from the Honey Hole (Inside Sankaku/Saddle) position, one of the most dangerous leg entanglements in modern grappling. This escape relies on explosive rotational movement combined with inversion mechanics to free your trapped leg before your opponent can secure a heel hook grip. The technique exploits the brief window when your opponent transitions between controlling your leg and attacking the heel.
+**The Inversion Escape is a defensive technique for escaping the Honey Hole (inside sankaku) in which the trapped player explosively inverts over the shoulder to change their leg's angle and extract it before the opponent secures a heel hook grip.**
+
+Within modern leg-lock defense, the Inversion Escape is the highest-commitment of the early-stage escapes available from the Honey Hole (Inside Sankaku/Saddle) - one of the most dangerous leg entanglements in modern grappling. It exploits the brief window when your opponent transitions between controlling your leg and attacking the heel, using explosive rotational movement combined with inversion mechanics to free your trapped leg before a heel hook grip can be established.
 
 Strategically, the Inversion Escape represents a high-risk, high-reward defensive option. Unlike linear extraction attempts that work against the mechanical advantage of the inside leg triangle, inversion creates a completely different angle that can temporarily nullify your opponent's control. The escape is most effective when initiated in the first 1-2 seconds after your leg becomes trapped, before the attacker settles weight and establishes heel hook grips.
 
@@ -221,5 +258,7 @@ The Inversion Escape is a critical component of any modern leg lock defense syst
 
 
 </section>
+
+
 
 </main>

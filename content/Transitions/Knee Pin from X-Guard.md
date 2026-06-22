@@ -10,6 +10,41 @@ description: "Learn the Knee Pin from X-Guard pass in BJJ. Detailed guide coveri
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Knee Pin from X-Guard",
+  "description": "Learn the Knee Pin from X-Guard pass in BJJ. Detailed guide covering hook neutralization, knee pinning mechanics, weight transfer, and Half Guard entry.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Knee Pin from X-Guard", "item": "https://bjjgraph.org/Transitions/Knee-Pin-from-X-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Knee Pin from X-Guard",
+  "description": "The Knee Pin from X-Guard is a pressure-based guard pass in which the top player drives the bottom player's inside hooking knee to the mat, collapsing the X-structure to extract the trapped leg and advance into Half Guard Top.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Learn the Knee Pin from X-Guard pass in BJJ. Detailed guide coveri
 
 <section id="overview" class="content-section">
 
-The Knee Pin from X-Guard is a direct pressure-based passing technique where the top player collapses the X-Guard structure by driving the bottom player's inside hooking knee to the mat. X-Guard derives its sweeping power from the inside hook creating upward elevation behind the top player's knee. By physically pinning this knee downward, the top player neutralizes the guard's primary offensive mechanism and creates a pathway to extract their trapped leg and advance to Half Guard Top.
+**The Knee Pin from X-Guard is a pressure-based guard pass in which the top player drives the bottom player's inside hooking knee to the mat, collapsing the X-structure to extract the trapped leg and advance into Half Guard Top.**
+
+Within the X-Guard top passing arsenal, the Knee Pin is the most direct response to a deep, active inside hook that resists movement-based passes like the knee slice or long step. X-Guard derives its sweeping power from the inside hook creating upward elevation behind the top player's knee. By physically pinning this knee downward, the top player neutralizes the guard's primary offensive mechanism and creates a pathway to extract their trapped leg and advance to Half Guard Top.
 
 Strategically, the Knee Pin addresses situations where the bottom player's inside hook is too deep or active for indirect passing approaches like knee slice or long step techniques. Rather than attempting to navigate around the hooks, the knee pin directly removes the foundation of the X-Guard architecture. This forcing approach is particularly effective against athletic guard players who can re-pummel hooks faster than the top player can extract their leg through movement-based passes. The technique creates a transitional pressure state where the bottom player must choose between fighting to recover the pinned hook or defending against the pass itself.
 
@@ -220,5 +257,7 @@ The Knee Pin from X-Guard integrates into the broader X-Guard passing system as 
 
 
 </section>
+
+
 
 </main>

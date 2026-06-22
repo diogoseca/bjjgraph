@@ -10,6 +10,41 @@ description: "Master the transition to leg entanglement from Ashi Garami top pos
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Ashi Garami to Leg Entanglement",
+  "description": "Master the transition to leg entanglement from Ashi Garami top position. Learn systematic entries, counter-entanglement setups, and positional advancement strategies.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Ashi Garami to Leg Entanglement", "item": "https://bjjgraph.org/Transitions/Ashi-Garami-to-Leg-Entanglement" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Ashi Garami to Leg Entanglement",
+  "description": "Ashi Garami to Leg Entanglement is a counter-offensive transition in which a top player trapped in an opponent's Ashi Garami threads their own free leg into a reciprocal entanglement, converting a defensive predicament into a bilateral leg-control exchange.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the transition to leg entanglement from Ashi Garami top pos
 
 <section id="overview" class="content-section">
 
-Transition to Leg Entanglement is a counter-offensive technique executed by the top player caught in an opponent's Ashi Garami control. Rather than simply extracting the trapped leg and retreating, this transition converts a defensive predicament into a bilateral leg control exchange by threading your own legs into entanglement configurations around the opponent's lower body. The technique exploits the inherent vulnerability of Ashi Garami positions: the bottom player's legs are committed to controlling your leg, which means their own legs are exposed to counter-entanglement if you can establish reciprocal hooks and inside space control.
+**Ashi Garami to Leg Entanglement is a counter-offensive transition in which a top player trapped in an opponent's Ashi Garami threads their own free leg into a reciprocal entanglement, converting a defensive predicament into a bilateral leg-control exchange.**
+
+This transition sits at the heart of modern leg-lock defense, addressing the moment a top player recognizes that clean extraction from an opponent's Ashi Garami is no longer available because the bottom player holds strong connection points and inside space dominance. Rather than simply extracting the trapped leg and retreating, this transition converts a defensive predicament into a bilateral leg control exchange by threading your own legs into entanglement configurations around the opponent's lower body. The technique exploits the inherent vulnerability of Ashi Garami positions: the bottom player's legs are committed to controlling your leg, which means their own legs are exposed to counter-entanglement if you can establish reciprocal hooks and inside space control.
 
 The strategic value of this transition lies in the paradigm shift it creates. Instead of fighting to escape the opponent's leg control system, you enter their system and compete within it. This is particularly effective when clean extraction is difficult because the opponent maintains strong connection points and inside space dominance. By establishing your own entanglement, you neutralize their positional advantage and create a bilateral exchange where your base, posture, and upper body freedom can become decisive advantages. The top player's existing base and ability to drive weight downward often creates favorable conditions for winning the subsequent inside space battle.
 
@@ -220,5 +257,7 @@ This transition occupies a critical junction in the leg lock defense decision tr
 
 
 </section>
+
+
 
 </main>

@@ -10,6 +10,41 @@ description: "Master Single Leg X-Guard in BJJ. Strategic guide covering setup, 
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Single Leg X-Guard",
+  "description": "Master Single Leg X-Guard in BJJ. Strategic guide covering setup, control, sweeps, and leg lock entries with complete perspective analysis.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Single Leg X-Guard", "item": "https://bjjgraph.org/Positions/Single-Leg-X-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Single Leg X-Guard",
+  "description": "Single Leg X-Guard is a leg-entanglement open guard where the bottom player traps one of the opponent's legs with an inside-leg wrap and an active hip hook, creating a dual platform for sweeps and modern leg-lock entries.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master Single Leg X-Guard in BJJ. Strategic guide covering setup, 
 
 <section id="overview" class="content-section">
 
-Single Leg X-Guard (SLX) is a specialized open guard variation where the bottom player entangles one of the opponent's legs using a specific hooking configuration. The bottom player wraps one leg around the opponent's trapped leg (typically at the ankle or lower calf) while the other foot creates an active hook on the opponent's hip or inner thigh. This configuration creates exceptional control over the opponent's balance and base, offering powerful sweeping leverage and direct pathways to modern leg lock positions. SLX serves as both a high-percentage sweeping platform and a critical gateway position in the contemporary leg entanglement game, bridging traditional guard play with submission-oriented leg locking systems. The position's effectiveness stems from its ability to control the opponent's weight distribution while maintaining active offensive threats. By elevating and off-balancing the opponent, the bottom player can create sweep opportunities in multiple directions or transition seamlessly into more complex leg entanglements. The versatility of SLX makes it particularly valuable in no-gi competition, where it serves as a foundational element of modern guard retention and attack systems. The modern game has evolved significantly in how both players approach this position, with systematic methods emerging from competitors who have refined the position for maximum effectiveness. Understanding both perspectives—bottom and top—is essential for complete mastery of this critical modern BJJ position.
+**Single Leg X-Guard is a leg-entanglement open guard where the bottom player traps one of the opponent's legs with an inside-leg wrap and an active hip hook, creating a dual platform for sweeps and modern leg-lock entries.**
+
+Within the modern leg-entanglement game, Single Leg X-Guard (SLX) has become a cornerstone position that bridges traditional guard play with submission-oriented leg locking systems. The bottom player wraps one leg around the opponent's trapped leg (typically at the ankle or lower calf) while the other foot creates an active hook on the opponent's hip or inner thigh. This configuration creates exceptional control over the opponent's balance and base, offering powerful sweeping leverage and direct pathways to modern leg lock positions. SLX serves as both a high-percentage sweeping platform and a critical gateway position in the contemporary leg entanglement game, allowing practitioners to flow between upper body attacks through sweeps and lower body attacks through leg locks. The position's effectiveness stems from its ability to control the opponent's weight distribution while maintaining active offensive threats. By elevating and off-balancing the opponent, the bottom player can create sweep opportunities in multiple directions or transition seamlessly into more complex leg entanglements. The versatility of SLX makes it particularly valuable in no-gi competition, where it serves as a foundational element of modern guard retention and attack systems. The modern game has evolved significantly in how both players approach this position, with systematic methods emerging from competitors who have refined the position for maximum effectiveness. Understanding both perspectives—bottom and top—is essential for complete mastery of this critical modern BJJ position.
 
 </section>
 
@@ -96,29 +133,33 @@ Single Leg X-Guard (SLX) is a specialized open guard variation where the bottom 
 ### Available Transitions
 
 
-- **[[Transitions/Single Leg X Sweep/Attacker|Single Leg X Sweep]]** (22% of attempts)
+- **[[Transitions/Single Leg X Sweep/Attacker|Single Leg X Sweep]]** (18% of attempts)
 
-- **[[Transitions/Ashi Entry from Leg Entanglement/Attacker|Ashi Entry from Leg Entanglement]]** (12% of attempts)
+- **[[Transitions/Ashi Entry from Leg Entanglement/Attacker|Ashi Entry from Leg Entanglement]]** (10% of attempts)
 
 - **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (3% of attempts)
 
-- **[[Transitions/Technical Stand Up to Single Leg/Attacker|Technical Stand Up to Single Leg]]** (10% of attempts)
+- **[[Transitions/Technical Stand Up to Single Leg/Attacker|Technical Stand Up to Single Leg]]** (9% of attempts)
 
-- **[[Transitions/Butterfly Guard to X-Guard/Attacker|Butterfly Guard to X-Guard]]** (5% of attempts)
+- **[[Transitions/Butterfly Guard to X-Guard/Attacker|Butterfly Guard to X-Guard]]** (4% of attempts)
 
 - **[[Transitions/De La Riva to X-Guard Transition/Attacker|De La Riva to X-Guard Transition]]** (3% of attempts)
 
-- **[[Transitions/Ankle Pick Sweep/Attacker|Ankle Pick Sweep]]** (10% of attempts)
+- **[[Transitions/Ankle Pick Sweep/Attacker|Ankle Pick Sweep]]** (8% of attempts)
 
-- **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (8% of attempts)
+- **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (7% of attempts)
 
 - **[[Transitions/Standing to Single Leg X/Attacker|Standing to Single Leg X]]** (2% of attempts)
 
-- **[[Transitions/Heel Grab Sweep/Attacker|Heel Grab Sweep]]** (10% of attempts)
+- **[[Transitions/Heel Grab Sweep/Attacker|Heel Grab Sweep]]** (8% of attempts)
 
-- **[[Transitions/SLX to Ashi Garami/Attacker|SLX to Ashi Garami]]** (10% of attempts)
+- **[[Transitions/SLX to Ashi Garami/Attacker|SLX to Ashi Garami]]** (8% of attempts)
 
-- **[[Transitions/SLX to X-Guard/Attacker|SLX to X-Guard]]** (5% of attempts)
+- **[[Transitions/SLX to X-Guard/Attacker|SLX to X-Guard]]** (4% of attempts)
+
+- **[[Transitions/Single Leg X-Guard to Inside Sankaku/Attacker|Single Leg X-Guard to Inside Sankaku]]** (8% of attempts)
+
+- **[[Transitions/Single Leg X to Estima Lock/Attacker|Single Leg X to Estima Lock]]** (8% of attempts)
 
 
 ### Common Mistakes
@@ -256,6 +297,27 @@ Single Leg X-Guard (SLX) is a specialized open guard variation where the bottom 
 
 - **[[Positions/Ashi Garami/50-50 Guard]]** - Related leg entanglement position with different control dynamics
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Danaher-Leg-Lock-System" data-cta="related-system-card" data-system-slug="systems/danaher-leg-lock-system" data-system-name="Danaher Leg Lock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Danaher Leg Lock System</span><span class="system-card__unlocks-badge">Unlocks 30 techniques</span><span class="system-card__blurb">Primary gateway position for entries to ashi-garami family</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Keenan Cornelius Lapel Guard System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Common transitional position during lapel guard sweeps and entries</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Garry-Tonon-Leg-Lock-to-Back-System" data-cta="related-system-card" data-system-slug="systems/garry-tonon-leg-lock-to-back-system" data-system-name="Garry Tonon Leg Lock to Back System" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Garry Tonon Leg Lock to Back System</span><span class="system-card__unlocks-badge">Unlocks 26 techniques</span><span class="system-card__blurb">Entry position from standing that bridges to ashi garami variations</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Lachlan-Giles-Leg-Lock-Defense-Framework" data-cta="related-system-card" data-system-slug="systems/lachlan-giles-leg-lock-defense-framework" data-system-name="Lachlan Giles Leg Lock Defense Framework" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Lachlan Giles Leg Lock Defense Framework</span><span class="system-card__unlocks-badge">Unlocks 26 techniques</span><span class="system-card__blurb">Entry position for many leg attacks, key area for prevention strategies</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Caio-Terra-Guard-Retention-System" data-cta="related-system-card" data-system-slug="systems/caio-terra-guard-retention-system" data-system-name="Caio Terra Guard Retention System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Caio Terra Guard Retention System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Leg entanglement guard utilizing retention principles for hook maintenance</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Craig-Jones-Leg-Lock-System" data-cta="related-system-card" data-system-slug="systems/craig-jones-leg-lock-system" data-system-name="Craig Jones Leg Lock System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Craig Jones Leg Lock System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Elevation platform that creates favorable entry angles for cross ashi-garami transitions</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Andrew-Wiltse-Half-Guard-System" data-cta="related-system-card" data-system-slug="systems/andrew-wiltse-half-guard-system" data-system-name="Andrew Wiltse Half Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Andrew Wiltse Half Guard System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Transitional position bridging half guard to leg entanglement attacks</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Competition-Strategy" data-cta="related-system-card" data-system-slug="systems/competition-strategy" data-system-name="Competition Strategy" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Competition Strategy</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Modern guard position providing powerful sweeps and leg entanglement entries in no-gi competition</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Marcelo-Garcia-X-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-x-guard-system" data-system-name="Marcelo Garcia X-Guard System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Marcelo Garcia X-Guard System</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Complementary position with shared mechanics and transitional connections</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Berimbolo" data-cta="related-system-card" data-system-slug="systems/berimbolo" data-system-name="Berimbolo" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Berimbolo</span><span class="system-card__unlocks-badge">Unlocks 21 techniques</span><span class="system-card__blurb">Complementary guard position that creates sweep dilemmas when chained with Berimbolo attacks</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Dynamic-Guard-System" data-cta="related-system-card" data-system-slug="systems/dynamic-guard-system" data-system-name="Dynamic Guard System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Dynamic Guard System</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Lower body control position for sweeps and leg attacks</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Marcelo-Garcia-Butterfly-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-butterfly-guard-system" data-system-name="Marcelo Garcia Butterfly Guard System" data-member-count="18"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Marcelo Garcia Butterfly Guard System</span><span class="system-card__unlocks-badge">Unlocks 18 techniques</span><span class="system-card__blurb">Alternative guard position when opponent leans back to counter butterfly</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

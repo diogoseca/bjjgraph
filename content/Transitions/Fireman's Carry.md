@@ -10,9 +10,48 @@ description: "Master the Fireman's Carry takedown in BJJ. Complete guide coverin
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Fireman\u0027s Carry",
+  "description": "Master the Fireman\u0027s Carry takedown in BJJ. Complete guide covering setup from clinch, explosive lifting mechanics, and landing in side control.",
+  "alternateName": ["Kata Guruma", "Shoulder Wheel"],
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Fireman\u0027s Carry", "item": "https://bjjgraph.org/Transitions/Fireman\u0027s-Carry" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Fireman's Carry",
+  "description": "The Fireman's Carry (Kata Guruma) is a standing wrestling takedown where you trap an opponent's arm, change levels to drop beneath their hips, load them across your shoulders, then rotate them to the mat and follow into side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Kata Guruma</strong>, <strong>Shoulder Wheel</strong></p>
+</aside>
 <div class="role-links">
 
 [[Fireman's Carry/Attacker|Play as Attacker]]
@@ -21,6 +60,8 @@ description: "Master the Fireman's Carry takedown in BJJ. Complete guide coverin
 </div>
 
 <section id="overview" class="content-section">
+
+**The Fireman's Carry (Kata Guruma) is a standing wrestling takedown where you trap an opponent's arm, change levels to drop beneath their hips, load them across your shoulders, then rotate them to the mat and follow into side control.**
 
 The Fireman's Carry is a classical wrestling takedown that has found valuable application in Brazilian Jiu-Jitsu, particularly in no-gi and MMA contexts. This technique involves using a combination of off-balancing, level change, and explosive lifting to elevate your opponent onto your shoulders before driving them to the mat. The Fireman's Carry is particularly effective against opponents who maintain an upright posture in the clinch, as it exploits their high center of gravity and creates a sudden positional reversal. Unlike many BJJ takedowns that rely on pulling or tripping, the Fireman's Carry demonstrates the principle of lifting and redirecting an opponent's weight, making it an excellent complement to guard pulling and other ground-focused entries. The technique requires precise timing, proper body mechanics, and the ability to coordinate multiple movements simultaneously - the level change, arm control, penetration step, and lifting motion must all flow together seamlessly. When executed correctly, the Fireman's Carry not only achieves the takedown but also places you in an advantageous top position, often side control or modified mount, allowing for immediate passing or submission attempts. This makes it a high-percentage technique for competitors who want to establish top control early in a match.
 
@@ -35,8 +76,8 @@ The Fireman's Carry is a classical wrestling takedown that has found valuable ap
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Side Control]] | 70% |
-| Failure | [[Positions/Clinch]] | 20% |
+| Success | [[Positions/Side Control]] | 60% |
+| Failure | [[Positions/Clinch]] | 30% |
 | Counter | [[Positions/Clinch]] | 10% |
 
 
@@ -228,5 +269,7 @@ The Fireman's Carry occupies a unique position in the BJJ technical ecosystem as
 
 
 </section>
+
+
 
 </main>

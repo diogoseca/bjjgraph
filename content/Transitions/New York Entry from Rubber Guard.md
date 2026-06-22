@@ -10,6 +10,41 @@ description: "Learn the New York entry from Rubber Guard position. Complete guid
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "New York Entry from Rubber Guard",
+  "description": "Learn the New York entry from Rubber Guard position. Complete guide covering overhook threading mechanics, shin control, and 10th Planet system progression.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "New York Entry from Rubber Guard", "item": "https://bjjgraph.org/Transitions/New-York-Entry-from-Rubber-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "New York Entry from Rubber Guard",
+  "description": "The New York Entry from Rubber Guard is a 10th Planet transition where the bottom player threads a deep overhook around the opponent's trapped arm while keeping shin-across-back control, advancing from Mission Control into the more offensive New York position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Learn the New York entry from Rubber Guard position. Complete guid
 </div>
 
 <section id="overview" class="content-section">
+
+**The New York Entry from Rubber Guard is a 10th Planet transition where the bottom player threads a deep overhook around the opponent's trapped arm while keeping shin-across-back control, advancing from Mission Control into the more offensive New York position.**
 
 The New York Entry from Rubber Guard represents one of the most critical transitions in the 10th Planet Rubber Guard system, advancing the bottom practitioner from the foundational Mission Control position into the more offensively loaded New York configuration. This entry involves threading a deep overhook around the opponent's trapped arm while maintaining the shin-across-back control that defines Rubber Guard. The addition of the overhook creates a second major control point that dramatically increases offensive options and further compromises the top player's ability to recover posture, extract their arm, or establish any meaningful base for escape.
 
@@ -226,5 +263,7 @@ The New York Entry from Rubber Guard occupies a pivotal position in the 10th Pla
 
 
 </section>
+
+
 
 </main>

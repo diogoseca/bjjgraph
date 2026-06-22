@@ -10,6 +10,41 @@ description: "Master the transition from back control to reverse half guard in B
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Back Control to Reverse Half Guard",
+  "description": "Master the transition from back control to reverse half guard in BJJ. Learn how to retain offensive advantage when hooks are cleared using backstep techniques.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Back Control to Reverse Half Guard", "item": "https://bjjgraph.org/Transitions/Back-Control-to-Reverse-Half-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Back Control to Reverse Half Guard",
+  "description": "Back Control to Reverse Half Guard is a backstep transition where the back attacker, facing cleared hooks, threads their free leg between the opponent's legs to convert deteriorating back control into a dominant reverse half guard top position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the transition from back control to reverse half guard in B
 </div>
 
 <section id="overview" class="content-section">
+
+**Back Control to Reverse Half Guard is a backstep transition where the back attacker, facing cleared hooks, threads their free leg between the opponent's legs to convert deteriorating back control into a dominant reverse half guard top position.**
 
 The transition to reverse half guard from back control occurs when the back attacker's hooks are being cleared or the bottom player begins successfully turning to face their opponent. Rather than fighting to maintain deteriorating back control, the top player proactively backsteps into reverse half guard, preserving top position and offensive momentum. This transition converts a potentially losing positional battle into a strong passing position with back take and leg drag options.
 
@@ -206,7 +243,7 @@ This transition sits at the intersection of back control retention and half guar
 
 - [[Positions/Crab Ride]] - Intermediate position that can be used during the backstep conversion
 
-- [[Transitions/Leg Drag Pass]] - Primary follow-up passing technique from reverse half guard top
+- [[Positions/Leg Drag Control]] - Primary follow-up passing control from reverse half guard top
 
 - [[Transitions/Back Control Maintenance]] - Alternative to this transition when hooks can still be retained
 
@@ -222,5 +259,7 @@ This transition sits at the intersection of back control retention and half guar
 
 
 </section>
+
+
 
 </main>

@@ -10,6 +10,41 @@ description: "Master Gift Wrap to Back in BJJ. Transition from S Mount to Back C
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Gift Wrap to Back",
+  "description": "Master Gift Wrap to Back in BJJ. Transition from S Mount to Back Control using arm control. Complete guide with setup, execution, and defense.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Gift Wrap to Back", "item": "https://bjjgraph.org/Transitions/Gift-Wrap-to-Back" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Gift Wrap to Back",
+  "description": "Gift Wrap to Back is a high-percentage mount-to-back transition where the top player feeds the opponent's near arm across their own neck and traps it, forcing back exposure and rotation into back control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Gift Wrap to Back in BJJ. Transition from S Mount to Back C
 </div>
 
 <section id="overview" class="content-section">
+
+**Gift Wrap to Back is a high-percentage mount-to-back transition where the top player feeds the opponent's near arm across their own neck and traps it, forcing back exposure and rotation into back control.**
 
 The Gift Wrap to Back transition represents one of the most reliable pathways from mount to back control in Brazilian Jiu-Jitsu. This technique capitalizes on the opponent's natural defensive instinct to turn away from submission threats by using their own arm against them. When you establish the gift wrap grip—wrapping their arm across their body and securing it with your hand reaching under their neck—you create a mechanical trap that forces them to expose their back.
 
@@ -210,11 +247,11 @@ The Gift Wrap to Back transition fits into the broader mount attack system as a 
 
 - [[Positions/Mount/High Mount]] - Related dominant position that can also serve as gift wrap entry point
 
-- [[Transitions/Gift Wrap to Technical Mount]] - Alternative gift wrap pathway maintaining top control without back take
-
 - [[Submissions/Rear Naked Choke]] - Primary submission available after successful back take completion
 
 
 </section>
+
+
 
 </main>

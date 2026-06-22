@@ -10,6 +10,41 @@ description: "Master RDLR to Crab Ride in BJJ. Complete guide covering inversion
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "RDLR to Crab Ride",
+  "description": "Master RDLR to Crab Ride in BJJ. Complete guide covering inversion mechanics, hook insertion, and systematic back exposure from reverse De La Riva guard.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "RDLR to Crab Ride", "item": "https://bjjgraph.org/Transitions/RDLR-to-Crab-Ride" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "RDLR to Crab Ride",
+  "description": "RDLR to Crab Ride is an inversion where the bottom player threads under their opponent from Reverse De La Riva and arrests the rotation at the crab ride, securing a single hook and perpendicular upper-body control instead of committing to a full berimbolo back-take.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master RDLR to Crab Ride in BJJ. Complete guide covering inversion
 
 <section id="overview" class="content-section">
 
-RDLR to Crab Ride is an inversion-based transition that converts Reverse De La Riva guard into a dominant turtle-attacking position. Rather than committing to a full berimbolo rotation to back control, this technique stops at the crab ride—a more secure intermediate position that preserves multiple attacking options while reducing the risk of overcommitting to the inversion. The transition exploits the same rotational mechanics that power kiss of the dragon entries but channels them into perpendicular back exposure rather than direct hook insertion.
+**RDLR to Crab Ride is an inversion where the bottom player threads under their opponent from Reverse De La Riva and arrests the rotation at the crab ride, securing a single hook and perpendicular upper-body control instead of committing to a full berimbolo back-take.**
+
+Sitting within the modern inversion-based back-attack game, this transition gives the Reverse De La Riva guard player a controlled stopping point short of a full back-take. Rather than committing to a full berimbolo rotation to back control, the technique arrests the inversion at the crab ride—a more secure intermediate position that preserves multiple attacking options while reducing the risk of overcommitting to the inversion. It exploits the same rotational mechanics that power kiss of the dragon entries but channels them into perpendicular back exposure rather than direct hook insertion.
 
 The technique begins with standard RDLR hook and ankle control, using hip elevation and shoulder rotation to initiate the inversion. As the bottom player threads underneath their opponent, instead of fully rotating to establish back hooks, they arrest the motion at crab ride by inserting a single hook while establishing upper body control from the side. This requires precise timing—too early and you haven't created enough angle, too late and the opponent can sprawl or disengage. The crab ride endpoint offers a natural consolidation point where the attacker can reassess before advancing to full back control or attacking submissions.
 
@@ -206,19 +243,15 @@ RDLR to Crab Ride serves as a critical link in the modern inversion-based back a
 
 - [[Positions/Open Guard]] - Fallback position if the transition is countered and guard structure is compromised
 
-- [[Positions/Turtle]] - Intermediate positional state the opponent enters as the attacker arrives at crab ride
-
 - [[Positions/Twister Control/Truck]] - Related twister system position accessible from crab ride sharing similar rotational control mechanics
 
 - [[Transitions/Kiss of the Dragon from RDLR]] - Related back-taking technique from the same starting position using similar inversion mechanics
 
 - [[Transitions/Berimbolo Entry]] - Alternative inversion-based back attack from RDLR that commits to full rotation rather than stopping at crab ride
 
-- [[Transitions/Crab Ride Escape to Guard]] - Defender's primary escape technique from the target position
-
-- [[Transitions/RDLR Backstep Counter]] - Opponent's primary counter-passing technique that must be addressed before attempting the inversion
-
 
 </section>
+
+
 
 </main>

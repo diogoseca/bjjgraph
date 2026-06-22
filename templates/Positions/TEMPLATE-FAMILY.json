@@ -8,6 +8,7 @@
     "name",
     "slug",
     "description",
+    "summary",
     "variant_uniqueness",
     "overview",
     "key_principles",
@@ -33,15 +34,61 @@
       "minLength": 150,
       "maxLength": 160
     },
+    "aliases": {
+      "type": "array",
+      "description": "Strict synonyms — other names for THIS EXACT position family. DO NOT use for variants. See docs/Synonyms.md.",
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "family": {
+      "type": "string",
+      "description": "Name of the variant-family hub this position belongs to. Empty for top-level families. See docs/Synonyms.md."
+    },
+    "bot_metadata": {
+      "type": "object",
+      "description": "Automation bookkeeping written by the content bots (not hand-authored). select_oldest_files.sh reads last_improved to skip recently-improved files.",
+      "additionalProperties": true,
+      "properties": {
+        "last_improved": { "type": "string", "description": "ISO date (YYYY-MM-DD) of the last bot edit" },
+        "optimization_pass": { "type": "string" },
+        "last_improved_by": { "type": "string" }
+      }
+    },
+    "sameAs": {
+      "type": "array",
+      "description": "Authoritative external URLs for THIS technique (Wikipedia article and/or Wikidata entity). schema.org sameAs — feeds Google's Knowledge Graph entity reconciliation and surfaces cross-language names. See docs/Synonyms.md.",
+      "uniqueItems": true,
+      "items": { "type": "string", "format": "uri" }
+    },
+    "disambiguations": {
+      "type": "array",
+      "description": "False-synonym callouts. Renders 'Often confused with X — reason'. Mutual: both pages should declare the other. See docs/Synonyms.md.",
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "reason"],
+        "properties": {
+          "name": { "type": "string", "minLength": 1 },
+          "reason": { "type": "string", "minLength": 10 }
+        }
+      }
+    },
     "variant_uniqueness": {
       "type": "string",
       "description": "What makes this variant unique - strategic trade-off explanation (20-50 characters)",
       "minLength": 20,
       "maxLength": 50
     },
+    "summary": {
+      "type": "string",
+      "minLength": 30,
+      "maxLength": 300,
+      "description": "One-sentence, self-contained definition that leads the page (answer-first for AI / featured snippets). ~15-40 words. If present, the overview must NOT repeat it."
+    },
     "overview": {
       "type": "string",
-      "description": "Comprehensive overview of the position family (400+ words minimum)",
+      "description": "Comprehensive overview of the position family (400+ words minimum) LEAD with a self-contained one-sentence definition that directly answers 'what is X' before history/context — AI answer engines quote the first sentence; if a summary field is present, start the overview with context instead.",
       "minLength": 400
     },
     "key_principles": {

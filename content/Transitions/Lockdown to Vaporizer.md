@@ -10,6 +10,41 @@ description: "Master the Transition to Vaporizer from Lockdown in BJJ. Learn whi
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Lockdown to Vaporizer",
+  "description": "Master the Transition to Vaporizer from Lockdown in BJJ. Learn whip-up mechanics, underhook control, and hip drive to advance into this 10th Planet attacking platform.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Lockdown to Vaporizer", "item": "https://bjjgraph.org/Transitions/Lockdown-to-Vaporizer" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Lockdown to Vaporizer",
+  "description": "Lockdown to Vaporizer is a 10th Planet half-guard transition where the bottom player layers a deep underhook and a hip-driven whip-up onto an established lockdown to break the top player's base and advance into the Vaporizer attacking platform.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Transition to Vaporizer from Lockdown in BJJ. Learn whi
 </div>
 
 <section id="overview" class="content-section">
+
+**Lockdown to Vaporizer is a 10th Planet half-guard transition where the bottom player layers a deep underhook and a hip-driven whip-up onto an established lockdown to break the top player's base and advance into the Vaporizer attacking platform.**
 
 The Transition to Vaporizer represents the critical positional advancement within the 10th Planet lockdown system where the bottom practitioner escalates from a static lockdown half guard into the dynamic Vaporizer attacking platform. This transition centers on combining the existing lockdown leg entanglement with coordinated upper body control and the signature whip-up hip motion to break the top player's posture and base, creating the unstable configuration that defines the Vaporizer position. The transition requires the bottom player to secure a deep underhook while maintaining tight lockdown pressure, then generate powerful hip drive forward and upward to shift the opponent's weight onto their hands.
 
@@ -220,5 +257,7 @@ The Transition to Vaporizer occupies a central node in the 10th Planet half guar
 
 
 </section>
+
+
 
 </main>

@@ -1,5 +1,6 @@
 {
   "name": "Suloev Stretch",
+  "summary": "The Suloev Stretch is a knee-compression submission from top half guard and leg-control positions in which the attacker folds the opponent's lower leg and drives the heel toward their buttock, crushing the calf into the hamstring while loading the knee joint.",
   "description": "Master the Suloev Stretch in BJJ. Devastating knee compression submission from top half guard and leg control positions. Complete attacker and defender guide.",
   "tags": [
     "bjj",
@@ -10,15 +11,13 @@
     "suloev-stretch",
     "advanced-technique"
   ],
-  "is_family": true,
   "submission_category": "Compression",
   "submission_type": "Knee Compression",
   "target_area": "Knee joint and calf muscle",
   "starting_position": "Half Guard",
   "from_position": "Half Guard/Top",
   "success_rate": 60,
-  "variant_uniqueness": "Body weight drives heel to buttock for knee compression",
-  "overview": "The Suloev Stretch is a sophisticated knee compression submission that combines elements of both joint manipulation and muscular pressure. Named after Russian MMA fighter Amar Suloev, this technique attacks the posterior knee joint while simultaneously compressing the calf muscle against the hamstring, creating a dual-threat submission that can finish fights rapidly when applied correctly. The position is typically entered from top positions where the attacker has controlled one of the opponent's legs, most commonly from half guard top, knee shield passes, or leg entanglement positions. Unlike traditional straight leg locks that attack the ankle or traditional knee bars that hyperextend the knee joint, the Suloev Stretch creates a bending compression force on the knee while the practitioner's body weight drives the opponent's heel toward their own buttocks. This creates an intense pressure that combines knee joint stress with severe calf muscle compression, often resulting in immediate taps from even experienced grapplers. The technique requires excellent positional control and precise body mechanics, as the finishing pressure comes from hip extension and proper angle creation rather than raw pulling force. Understanding the biomechanics of knee compression and maintaining control throughout the entry and finish are essential for safe and effective application of this powerful submission.",
+  "overview": "Named after Russian MMA fighter Amar Suloev, this technique earned its reputation in no-gi and MMA competition, where folding an opponent's leg against itself produces rapid, fight-ending taps even against seasoned grapplers. The position is typically entered from top positions where the attacker has isolated one of the opponent's legs — most commonly half guard top, knee shield passing sequences, or leg entanglement transitions. Unlike straight ankle locks that attack the ankle or kneebars that hyperextend the joint, the Suloev Stretch creates a bending compression: the practitioner's body weight drives the opponent's heel toward their own buttock while the calf is crushed against the hamstring, layering knee-joint stress on top of severe muscular compression. The finishing pressure comes from hip extension and precise angle creation rather than raw pulling force, so positional control through the entry and the finish is what separates a clean tap from a scramble. Because the structures under attack are dense and unforgiving, understanding the biomechanics of knee compression and maintaining unhurried, progressive pressure are essential for both safe training and reliable competition application.",
   "safety_considerations": {
     "injury_risks": [
       {
@@ -66,93 +65,21 @@
       "Always allow clear tap access for training partner"
     ]
   },
-  "from_positions": [
-    "Half Guard",
-    "Deep Half Guard",
-    "Z-Guard",
-    "Lockdown",
-    "Knee Shield Half Guard",
-    "Quarter Guard",
-    "Turtle",
-    "Side Control"
-  ],
-  "related_submissions": [
+  "outcomes": [
     {
-      "name": "Kneebar",
-      "relationship": "Both target the knee joint through different mechanical approaches - kneebar hyperextends while Suloev Stretch compresses"
+      "to": "game-over",
+      "probability": 60,
+      "result": "success"
     },
     {
-      "name": "Toe Hold",
-      "relationship": "Complementary leg attack targeting the foot and ankle that chains from failed Suloev Stretch attempts"
+      "to": "Half Guard/Top",
+      "probability": 28,
+      "result": "failure"
     },
     {
-      "name": "Calf Slicer",
-      "relationship": "Closely related compression submission using similar calf compression principles with different body positioning"
-    },
-    {
-      "name": "Heel Hook",
-      "relationship": "Alternative leg attack from similar positions, often available when Suloev Stretch entry is defended"
-    },
-    {
-      "name": "Straight Ankle Lock",
-      "relationship": "Foundational leg lock sharing positional entries with the Suloev Stretch from half guard top"
-    },
-    {
-      "name": "Achilles Lock",
-      "relationship": "Related compression-based ankle attack available from similar leg entanglement positions"
-    },
-    {
-      "name": "Estima Lock",
-      "relationship": "Foot lock variant that can chain with Suloev Stretch entries during guard passing sequences"
-    },
-    {
-      "name": "Banana Split",
-      "relationship": "Groin and hip flexibility attack sharing similar control positions and leg manipulation concepts"
-    },
-    {
-      "name": "Inside Heel Hook",
-      "relationship": "High-percentage heel attack accessible from transitions where Suloev Stretch is defended"
-    },
-    {
-      "name": "Electric Chair",
-      "relationship": "Related lockdown submission sharing half guard entries and leg control concepts"
-    }
-  ],
-  "related_content": [
-    {
-      "name": "50-50 Guard",
-      "relationship": "Related position - Leg entanglement context where similar compression attacks are available, sharing leg control concepts with the Suloev Stretch"
-    },
-    {
-      "name": "Half Guard",
-      "relationship": "Primary entry - The most common context for setting up the Suloev Stretch is during half guard passing sequences"
-    },
-    {
-      "name": "Leg Entanglement",
-      "relationship": "Related concept - Understanding leg entanglement principles helps both entering and defending the Suloev Stretch"
-    },
-    {
-      "name": "Knee Shield Half Guard",
-      "relationship": "Related transition - Can transition between knee cut passing and Suloev Stretch entries depending on opponent's leg positioning"
-    },
-    {
-      "name": "Truck",
-      "relationship": "Related position - Similar leg control concepts, both attack from top position with leg configurations"
-    },
-    {
-      "name": "Kneebar Control",
-      "relationship": "Alternative leg attack position - Both target the knee joint but through different mechanical approaches"
-    },
-    {
-      "name": "Calf Slicer",
-      "relationship": "Closely related submission - Uses similar calf compression principles but with different body positioning"
-    }
-  ],
-  "variations": [
-    {
-      "name": "from Half Guard",
-      "slug": "from-half-guard",
-      "description": "Primary entry from top half guard during passing sequences"
+      "to": "Half Guard/Bottom",
+      "probability": 12,
+      "result": "counter"
     }
   ],
   "variations_and_setups": [
@@ -176,5 +103,392 @@
       "description": "An advanced variation where you add rotational torque to the compression by adjusting your hip angle and creating a slight twisting motion on the knee joint. This combines the compression with rotational stress, increasing effectiveness but also increasing injury risk.",
       "when_to_use": "Against extremely flexible opponents where standard compression alone may not be sufficient, or in competition situations where standard application is being defended (use with extreme caution in training)"
     }
-  ]
+  ],
+  "from_positions": [
+    "Half Guard",
+    "Deep Half Guard",
+    "Z-Guard",
+    "Lockdown",
+    "Knee Shield Half Guard",
+    "Quarter Guard",
+    "Turtle",
+    "Side Control"
+  ],
+  "related_submissions": [
+    "Calf Slicer",
+    "Heel Hook",
+    "Inside Heel Hook",
+    "Kneebar",
+    "Toe Hold",
+    "Achilles Lock",
+    "Estima Lock",
+    "Banana Split",
+    "Electric Chair",
+    "Boston Crab"
+  ],
+  "related_content": [
+    {
+      "name": "Half Guard",
+      "relationship": "Primary entry — most Suloev Stretch attacks develop from top half guard passing sequences"
+    },
+    {
+      "name": "Knee Shield Half Guard",
+      "relationship": "Related entry — addressing the knee shield often exposes the opponent's near leg for the figure-four catch"
+    },
+    {
+      "name": "Leg Entanglement",
+      "relationship": "Related concept — understanding leg-entanglement control underpins both entering and defending the Suloev Stretch"
+    },
+    {
+      "name": "Kneebar Control",
+      "relationship": "Alternative leg attack — both target the knee but the kneebar hyperextends while the Suloev Stretch compresses"
+    },
+    {
+      "name": "Calf Slicer",
+      "relationship": "Closely related submission — shares calf-against-bone compression mechanics with different body positioning"
+    },
+    {
+      "name": "50-50 Guard",
+      "relationship": "Related position — a leg-entanglement context where similar compression and counter-leg-lock battles occur"
+    },
+    {
+      "name": "Lockdown",
+      "relationship": "Related control — the figure-four leg configuration mirrors the lockdown's posture-breaking structure"
+    }
+  ],
+  "attacker": {
+    "name": "Suloev Stretch Attacker",
+    "description": "Finish the Suloev Stretch: figure-four the trapped leg, drive the heel to the buttocks, and apply slow hip extension to compress the knee and calf for the tap.",
+    "overview": "As the attacker you are converting leg control into a finishing knee compression, and the entire submission lives or dies on the quality of your figure-four and the angle of your hips. Your job is to trap the opponent's lower leg so their heel is pinned against their own backside, then use bodyweight and hip extension — not arm strength — to fold the calf into the hamstring and load the knee joint. Because the finishing structures are dense and the tap arrives suddenly, you must win the positional battle first: kill their ability to straighten the leg or rotate their hip away, and only then apply pressure. Rushing the finish before the leg is isolated lets the opponent kick free and reverse the entanglement; patient, layered control followed by slow extension is what produces the consistent tap.",
+    "key_principles": [
+      "Isolate the leg before you compress — the heel must be trapped against the opponent's own buttock with no path to straighten the knee before you apply any finishing pressure.",
+      "Generate the finish from hip extension and bodyweight, never from pulling with the arms; the arms only maintain the figure-four while your hips drive the compression.",
+      "Control the opponent's hip and far side so they cannot rotate away or invert to relieve the angle — a mobile hip defeats the submission.",
+      "Keep the knee line and the compression vector aligned; the heel should travel toward the buttock and slightly toward the centerline to stack calf against hamstring.",
+      "Stay chest-heavy and connected so the opponent cannot create the space needed to kick the leg free or scramble to a counter-entanglement.",
+      "Apply pressure progressively and read the tap early — the dense knee and calf structures fail fast, so smooth incremental loading replaces any explosive motion."
+    ],
+    "setup_requirements": [
+      "Top control over one of the opponent's legs, typically from half guard top, a stalled knee-shield pass, or a turtle leg-ride.",
+      "A secured figure-four (or equivalent ankle/foot trap) folding the opponent's lower leg so the heel points toward their own buttock.",
+      "Control of the opponent's hip on the attacking side to prevent them rotating away from the compression.",
+      "Your bodyweight stacked over the trapped leg so hip extension translates directly into compression rather than the opponent absorbing it as slack.",
+      "Awareness of the opponent's far-side framing and free leg so you can shut down the kick-out and reversal before finishing."
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish leg control",
+        "description": "From top half guard or a stalled pass, pin and isolate the opponent's near leg, clearing their framing so their lower leg is exposed and you can begin folding it.",
+        "timing": "Entry"
+      },
+      {
+        "step_number": 2,
+        "action": "Fold the lower leg and trap the foot",
+        "description": "Bend the opponent's knee and bring their heel toward their own buttock, trapping the foot with a figure-four of your legs or by clamping the instep against your hip so the knee cannot straighten.",
+        "timing": "Control phase"
+      },
+      {
+        "step_number": 3,
+        "action": "Kill the hip",
+        "description": "Pin or hook the opponent's hip on the attacking side so they cannot rotate away or invert; without hip mobility the opponent loses the primary escape and the compression angle stays intact.",
+        "timing": "Control phase"
+      },
+      {
+        "step_number": 4,
+        "action": "Stack your weight over the trapped leg",
+        "description": "Drop your chest and shift your bodyweight directly over the folded leg so that any hip extension you produce loads straight into the calf and knee rather than feeding slack into the entanglement.",
+        "timing": "Pre-finish"
+      },
+      {
+        "step_number": 5,
+        "action": "Drive the heel toward the buttock",
+        "description": "Using your hips and bodyweight, press the trapped heel down and toward the opponent's backside, beginning to crush the calf muscle into the hamstring while the bent knee absorbs the compressive load.",
+        "timing": "Finish"
+      },
+      {
+        "step_number": 6,
+        "action": "Extend the hips to finish",
+        "description": "Slowly extend your hips and lever the compression on, increasing the fold of the knee and the calf-to-hamstring crush in a smooth progressive motion until the opponent taps.",
+        "timing": "Finish"
+      },
+      {
+        "step_number": 7,
+        "action": "Read the tap and release",
+        "description": "Watch for verbal or physical taps and any sudden pain reaction; the moment a tap registers, immediately stop hip extension and let the leg straighten naturally without forcing.",
+        "timing": "Release"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent straightens the trapped leg before the figure-four is locked",
+        "effectiveness": "High",
+        "your_response": "Re-fold the knee immediately and clamp the instep; if the leg is fully extended, switch to a kneebar or ankle attack rather than forcing a failed compression.",
+        "targets_outcome": "Half Guard/Top"
+      },
+      {
+        "counter": "Opponent rotates their hip away from the compression to unload the angle",
+        "effectiveness": "High",
+        "your_response": "Pin the hip and follow the rotation with your chest, re-stacking your weight so the heel-to-buttock vector is restored before re-applying pressure.",
+        "targets_outcome": "Half Guard/Top"
+      },
+      {
+        "counter": "Opponent kicks the free leg through and reverses into a counter-entanglement",
+        "effectiveness": "Medium",
+        "your_response": "Maintain inside position and hand-fight for your own leg control; if you are losing the entanglement, retreat to top half guard rather than chasing the lost leg.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Opponent grips your near leg and bridges to create scrambling space",
+        "effectiveness": "Medium",
+        "your_response": "Re-establish chest pressure and re-pin the hip, killing the bridge before it generates the space needed to free the trapped leg.",
+        "targets_outcome": "Half Guard/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Applying compression before the leg is fully isolated",
+        "consequence": "The opponent straightens the knee and kicks free, often reversing into a dominant leg entanglement",
+        "correction": "Confirm the heel is trapped against the buttock and the knee cannot straighten before adding any finishing pressure"
+      },
+      {
+        "error": "Pulling with the arms instead of driving with the hips",
+        "consequence": "The finish stalls and your arms fatigue while the opponent works their escape",
+        "correction": "Use the figure-four only to maintain the trap and generate all compression from hip extension and bodyweight"
+      },
+      {
+        "error": "Letting the opponent's hip stay mobile",
+        "consequence": "The opponent rotates away, unloads the compression angle, and recovers the leg or scrambles to a counter",
+        "correction": "Pin or hook the attacking-side hip and follow any rotation with your chest before re-applying pressure"
+      },
+      {
+        "error": "Floating your weight off the trapped leg",
+        "consequence": "Hip extension feeds slack into the entanglement rather than compression, and the submission produces no finishing pressure",
+        "correction": "Stay chest-heavy and stacked directly over the folded leg so every degree of hip extension loads the knee and calf"
+      },
+      {
+        "error": "Cranking explosively for a fast tap",
+        "consequence": "Dense knee and calf structures can be injured before the opponent can physically tap, creating serious training and competition risk",
+        "correction": "Apply slow, progressive pressure and read the tap early; the compression finishes reliably without any sudden or jerking motion"
+      },
+      {
+        "error": "Ignoring the opponent's free leg and far-side frames",
+        "consequence": "The opponent bridges or frames into space, kicks the free leg through, and reverses the position",
+        "correction": "Monitor and control the free leg and far-side frames so the opponent cannot generate the space needed to escape"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Isolation drilling",
+        "focus": "Trapping and folding the leg",
+        "description": "With a compliant partner, drill entering from top half guard and folding the lower leg into the figure-four trap, confirming the heel is pinned to the buttock without applying compression."
+      },
+      {
+        "phase": "Phase 2: Positional control",
+        "focus": "Killing the hip and stacking weight",
+        "description": "Add the hip pin and weight stack against light resistance, focusing on preventing your partner from rotating away or straightening the leg while you maintain the trap."
+      },
+      {
+        "phase": "Phase 3: Slow finish calibration",
+        "focus": "Progressive compression and tap recognition",
+        "description": "Introduce extremely slow finishing pressure with constant communication, learning to feel the compression threshold and releasing immediately on the tap to keep the drill safe."
+      },
+      {
+        "phase": "Phase 4: Live entry sparring",
+        "focus": "Catching the submission in scrambles",
+        "description": "From positional sparring in half guard top and leg-ride situations, hunt the entry against full resistance while keeping all finishes controlled and progressive."
+      },
+      {
+        "phase": "Phase 5: Chaining and competition application",
+        "focus": "Integrating counters and follow-ups",
+        "description": "Drill flowing between the Suloev Stretch and kneebars, ankle locks, and heel hooks when the primary attack is defended, building a connected leg-attack system for live rounds."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "What anatomical structures does the Suloev Stretch attack?",
+        "answer": "It attacks the knee joint and the calf muscle simultaneously — the bent knee is loaded under compression while the calf is crushed against the hamstring as the heel is driven toward the buttock.",
+        "safety_critical": false
+      },
+      {
+        "question": "What must be true about the trapped leg before you apply any finishing pressure?",
+        "answer": "The opponent's heel must be folded and trapped against their own buttock with the knee unable to straighten; if the leg can extend, the compression has no structure to work against and the opponent will kick free.",
+        "safety_critical": true
+      },
+      {
+        "question": "Your opponent rotates their hip away from the compression — what does this tell you and how do you respond?",
+        "answer": "Hip rotation is the primary escape because it unloads the compression angle; you must pin the hip and follow the rotation with your chest to restore the heel-to-buttock vector before re-applying pressure, otherwise the opponent recovers the leg.",
+        "safety_critical": false
+      },
+      {
+        "question": "Where should the finishing power of the Suloev Stretch come from?",
+        "answer": "From hip extension and stacked bodyweight, not from pulling with the arms; the figure-four only maintains the trap while your hips drive the heel down and toward the buttock to compress the calf and knee.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your opponent posts and tries to bridge to create space — what adjustment prevents the escape?",
+        "answer": "Re-establish chest pressure and re-pin the attacking-side hip to kill the bridge before it generates space; staying chest-heavy and connected removes the room the opponent needs to free the trapped leg or scramble.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why does floating your weight off the trapped leg cause the submission to fail?",
+        "answer": "Floating your weight lets hip extension feed slack into the entanglement instead of compression, so no finishing pressure reaches the knee or calf; you must stay stacked directly over the folded leg for the finish to load.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why must the Suloev Stretch be applied slowly and progressively in training?",
+        "answer": "The knee and calf are dense, unforgiving structures that can be injured before a partner can physically tap; slow progressive pressure with clear communication lets the partner tap safely and prevents PCL, meniscus, and calf injuries.",
+        "safety_critical": true
+      },
+      {
+        "question": "What signs indicate the compression is reaching its breaking point and you should be ready to release?",
+        "answer": "A sudden increase in resistance giving way, the opponent's verbal distress or rapid tapping, and a sharp pain reaction; because the tap comes fast, you should expect it and be prepared to release hip extension instantly.",
+        "safety_critical": true
+      },
+      {
+        "question": "In competition, how do you keep the Suloev Stretch high-percentage when opponents defend the entry?",
+        "answer": "Use it as part of a connected leg-attack chain — when the compression is defended, immediately flow to a kneebar, ankle lock, or heel hook from the same control, forcing the opponent to defend multiple threats rather than one.",
+        "safety_critical": false
+      },
+      {
+        "question": "If the opponent fully straightens the trapped leg before you lock the finish, what is the better option than forcing the compression?",
+        "answer": "Switch attacks rather than forcing a failed compression — a straightened leg is exposed to a kneebar or straight ankle lock, so transition to those finishes instead of fighting to re-fold against a strong defense.",
+        "safety_critical": false
+      }
+    ]
+  },
+  "defender": {
+    "name": "Suloev Stretch Defender",
+    "description": "Defend the Suloev Stretch: recognize the leg fold early, straighten the knee and rotate your hip out before the heel is trapped against your buttock, and escape to safety.",
+    "overview": "As the defender your safety depends almost entirely on early recognition, because the Suloev Stretch attacks dense knee and calf structures that give very little warning before the tap. The danger begins the moment the attacker folds your lower leg and starts driving your heel toward your own buttock; once that fold is locked and your hip is pinned, escape becomes extremely difficult and forcing it risks serious injury. Your priorities are to feel the leg being folded before it is trapped, to fight to keep the knee straight and the hip mobile, and to rotate away from the compression to unload the angle. If you cannot prevent the trap, recover the position by kicking the free leg through to reverse the entanglement or by clearing the trapped foot before the attacker stacks their weight. Above all, tap early to compression on the knee or calf rather than testing your tolerance against a structure that fails suddenly.",
+    "key_principles": [
+      "Recognize the attack early — the fold of your lower leg and the heel travelling toward your buttock are the first and most important warning signs.",
+      "Fight to keep the knee straight; a leg that cannot be folded cannot be compressed, so resist the bend before the figure-four is locked.",
+      "Keep your hip mobile and rotate away from the compression to unload the finishing angle before the attacker stacks their weight.",
+      "Hand-fight to clear the trapped foot and prevent the attacker from securing the figure-four that locks the heel against your buttock.",
+      "Use your free leg actively — kicking it through or framing with it lets you reverse the entanglement or create the space to escape.",
+      "Tap early and verbally to knee or calf compression; the structures under attack fail fast and are not worth testing for the sake of a position."
+    ],
+    "recognition_cues": [
+      "Your lower leg is being folded and your heel is being driven toward your own buttock.",
+      "The attacker stacks their chest and bodyweight directly over your bent leg, pinning your hip on that side.",
+      "A building compressive ache in the calf and a pinching pressure behind the knee as the figure-four tightens.",
+      "Loss of your ability to straighten the trapped knee or rotate your hip away from the attacker."
+    ],
+    "defensive_options": [
+      {
+        "action": "Straighten the trapped leg before the fold is locked",
+        "when_to_use": "At the first sign the attacker is folding your lower leg, before the figure-four is secured",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "You deny the compression structure and the attacker stays in top half guard without the submission",
+        "risk": "Committing to extension can expose the leg to a kneebar if the attacker switches attacks"
+      },
+      {
+        "action": "Rotate your hip away from the compression",
+        "when_to_use": "When the leg is trapped but the attacker has not yet stacked their full weight and killed your hip",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "The compression angle unloads and you can begin clearing the trapped foot",
+        "risk": "Rotating into the attacker rather than away can deepen the entanglement"
+      },
+      {
+        "action": "Kick the free leg through to reverse the entanglement",
+        "when_to_use": "When the trap is set but you still have an active free leg and framing space",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "You reverse into your own top control or a counter leg entanglement, escaping the compression",
+        "risk": "A mistimed kick can give up your back or feed a deeper leg attack"
+      },
+      {
+        "action": "Tap immediately to building compression",
+        "when_to_use": "When the heel is locked to your buttock, your hip is pinned, and the compression is increasing with no escape available",
+        "targets_outcome": "game-over",
+        "risk": "Delaying the tap risks PCL, meniscus, or calf injury that can take months to heal"
+      }
+    ],
+    "escape_paths": [
+      "Extend the knee and recover top half guard before the figure-four locks",
+      "Rotate the hip out and clear the trapped foot to re-pummel the legs",
+      "Kick the free leg through to reverse into a counter leg entanglement"
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Half Guard/Top",
+        "how": "By straightening the knee and rotating the hip out early, you deny the compression and leave the attacker stalled in top half guard with no submission."
+      },
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "By kicking the free leg through while you still have framing space, you reverse the entanglement and come up into your own bottom-to-top scramble."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Recognizing the attack too late, after the heel is already trapped against the buttock",
+        "consequence": "The compression structure is locked and escape becomes extremely difficult and dangerous",
+        "correction": "Train early recognition so you feel the leg being folded and react before the figure-four is secured"
+      },
+      {
+        "error": "Allowing the knee to bend instead of fighting to keep it straight",
+        "consequence": "The bent knee gives the attacker the fold they need to compress the calf and load the joint",
+        "correction": "Resist the bend actively and keep the leg long until you can clear the foot or rotate away"
+      },
+      {
+        "error": "Staying flat and letting the hip get pinned",
+        "consequence": "A pinned hip removes your primary escape and locks the compression angle in the attacker's favor",
+        "correction": "Keep the hip mobile and rotate away from the compression before the attacker stacks their weight"
+      },
+      {
+        "error": "Testing your tolerance instead of tapping to compression",
+        "consequence": "The knee and calf fail suddenly, turning a lost position into a serious injury",
+        "correction": "Tap early and verbally to knee or calf compression; the position is never worth a months-long injury"
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "What is the earliest and most important warning sign that you are being attacked with a Suloev Stretch?",
+        "answer": "The fold of your lower leg with your heel being driven toward your own buttock; recognizing this before the figure-four locks is your best chance to straighten the leg and escape safely.",
+        "safety_critical": true
+      },
+      {
+        "question": "Why is keeping your knee straight the key to defending the Suloev Stretch?",
+        "answer": "A leg that cannot be folded cannot be compressed; if you keep the knee straight you deny the attacker the bent-knee structure they need to crush the calf and load the joint, stalling the attack.",
+        "safety_critical": false
+      },
+      {
+        "question": "When should you tap to the Suloev Stretch rather than continue defending?",
+        "answer": "Tap immediately once the heel is locked to your buttock, your hip is pinned, and the compression is building with no escape; the knee and calf fail suddenly, so testing your tolerance risks a months-long injury.",
+        "safety_critical": true
+      },
+      {
+        "question": "How does rotating your hip help you escape the compression?",
+        "answer": "Rotating the hip away from the attacker unloads the finishing angle that drives the heel into your buttock, relieving the compression and creating the space needed to clear the trapped foot and recover position.",
+        "safety_critical": false
+      },
+      {
+        "question": "What role does your free leg play in escaping the Suloev Stretch?",
+        "answer": "Your free leg is an active escape tool — framing or kicking it through lets you reverse the entanglement into your own control or create the space to clear the trapped leg before the finish locks on.",
+        "safety_critical": false
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition drilling",
+        "focus": "Feeling the fold early",
+        "description": "Have a partner slowly enter the leg fold from top half guard while you practice identifying the trap the moment your heel starts toward your buttock, before any compression is applied."
+      },
+      {
+        "phase": "Phase 2: Knee-straight defense",
+        "focus": "Denying the fold",
+        "description": "Against light resistance, drill keeping the trapped knee straight and the hip mobile so the partner cannot secure the figure-four, resetting each time you successfully deny the trap."
+      },
+      {
+        "phase": "Phase 3: Hip rotation and foot clearing",
+        "focus": "Unloading and escaping",
+        "description": "Add hip rotation away from the compression and hand-fighting to clear the trapped foot, learning to recover top half guard before the partner stacks their weight."
+      },
+      {
+        "phase": "Phase 4: Reversal and live defense",
+        "focus": "Escaping under pressure",
+        "description": "From positional sparring with the trap already partially set, practice kicking the free leg through to reverse the entanglement while tapping early to any genuine compression."
+      }
+    ]
+  }
 }

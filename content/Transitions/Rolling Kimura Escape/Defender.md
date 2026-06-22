@@ -154,7 +154,7 @@ description: "How to counter the Rolling Kimura Escape in BJJ. Recognition cues,
 
 As the Kimura attacker (defender against the rolling escape), your primary concern is maintaining the submission or converting to a superior position when your opponent attempts this dynamic escape. The Rolling Kimura Escape relies on forward momentum and your forward weight commitment to succeed, so understanding its mechanics allows you to either prevent it entirely or capitalize on the failed attempt. Your defensive strategy centers on three priorities: recognizing the escape attempt before it gains momentum, maintaining your Kimura grip through the rotation by following the roll, and transitioning to back control or mount if the grip breaks during the exchange. The key insight is that a rolling escape attempt, whether successful or not, creates a scramble moment that rewards the practitioner with better awareness and preparation. By staying connected to your opponent's body throughout their roll and keeping your base low and mobile, you transform their escape attempt into a positional advancement opportunity for yourself.
 
-**Opponent's Starting Position**: [[Positions/Rubber Guard/Carni]] (Top)
+**Opponent's Starting Position**: [[Positions/Kimura Trap]] (Bottom)
 
 </section>
 

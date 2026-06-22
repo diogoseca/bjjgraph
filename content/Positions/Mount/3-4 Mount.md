@@ -10,6 +10,41 @@ description: "Master 3-4 Mount position in BJJ. Complete guide covering asymmetr
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "3-4 Mount",
+  "description": "Master 3-4 Mount position in BJJ. Complete guide covering asymmetric mount control, submission attacks, and defensive strategies from both top and bottom perspectives.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "3-4 Mount", "item": "https://bjjgraph.org/Positions/3-4-Mount" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "3-4 Mount",
+  "description": "The 3-4 Mount is an asymmetric mount variation where the top player crosses one leg over the opponent's torso while posting the other leg outside, trading symmetric stability for faster transitions to S-mount, technical mount, and armbar attacks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master 3-4 Mount position in BJJ. Complete guide covering asymmetr
 </div>
 
 <section id="overview" class="content-section">
+
+**The 3-4 Mount is an asymmetric mount variation where the top player crosses one leg over the opponent's torso while posting the other leg outside, trading symmetric stability for faster transitions to S-mount, technical mount, and armbar attacks.**
 
 The 3-4 Mount represents a sophisticated asymmetric variation of traditional mount where the top player positions one leg fully crossed over the opponent's body while the other leg remains posted outside. This configuration creates unique mechanical properties that distinguish it from standard mount—the asymmetry generates directional vulnerabilities that both players must understand to succeed. The name derives from the leg positioning: one leg in the traditional mount configuration (the '4' position) and one leg posted outside (the '3' position), creating a three-point to four-point contact pattern.
 
@@ -260,5 +297,7 @@ The position scores 4 points in IBJJF competition when held from top, placing it
 
 
 </section>
+
+
 
 </main>

@@ -10,6 +10,41 @@ description: "Master the transition to Double Sleeve Guard in BJJ. Learn grip se
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Open Guard to Double Sleeve Guard",
+  "description": "Master the transition to Double Sleeve Guard in BJJ. Learn grip sequencing, foot placement, and distance control to establish bilateral sleeve dominance from open guard.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Open Guard to Double Sleeve Guard", "item": "https://bjjgraph.org/Transitions/Open-Guard-to-Double-Sleeve-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Open Guard to Double Sleeve Guard",
+  "description": "Open Guard to Double Sleeve Guard is a gi guard-establishment transition where the bottom player sequentially secures both of the opponent's sleeve cuffs while framing on the hips, converting neutral open guard into a controlling double sleeve attacking platform.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the transition to Double Sleeve Guard in BJJ. Learn grip se
 </div>
 
 <section id="overview" class="content-section">
+
+**Open Guard to Double Sleeve Guard is a gi guard-establishment transition where the bottom player sequentially secures both of the opponent's sleeve cuffs while framing on the hips, converting neutral open guard into a controlling double sleeve attacking platform.**
 
 The Transition to Double Sleeve Guard is a fundamental guard establishment technique where the bottom player converts a general open guard position into a specific attacking system by securing bilateral sleeve grips on both of the opponent's wrists or cuffs. This transition is the entry point for one of the most versatile gi-based guard systems, providing the bottom player with immediate control over the opponent's upper body, neutralizing their ability to establish passing grips, and creating a platform for sweeps, submissions, and further guard transitions.
 
@@ -218,5 +255,7 @@ The Transition to Double Sleeve Guard sits at the intersection of open guard ret
 
 
 </section>
+
+
 
 </main>

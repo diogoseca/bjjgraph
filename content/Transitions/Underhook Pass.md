@@ -10,6 +10,41 @@ description: "Master the Underhook Pass from Half Guard. Complete guide with ste
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Underhook Pass",
+  "description": "Master the Underhook Pass from Half Guard. Complete guide with step-by-step execution, pressure mechanics, and counter strategies for all skill levels.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Underhook Pass", "item": "https://bjjgraph.org/Transitions/Underhook-Pass" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Underhook Pass",
+  "description": "The Underhook Pass is a half-guard top guard pass in which the top player secures a deep far-side underhook and crossface to flatten the bottom player, then clears the trapped leg to advance to side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Underhook Pass from Half Guard. Complete guide with ste
 
 <section id="overview" class="content-section">
 
-The Underhook Pass is a fundamental pressure passing technique used to advance from half guard top position to side control. This pass exploits the powerful control provided by securing an underhook on the bottom player's far side, combined with strategic weight distribution and hip pressure to flatten the opponent and clear the leg entanglement. The technique is built on the principle of controlling the opponent's shoulder and hip simultaneously, creating a cross-body pressure system that limits their defensive frames and movement options.
+**The Underhook Pass is a half-guard top guard pass in which the top player secures a deep far-side underhook and crossface to flatten the bottom player, then clears the trapped leg to advance to side control.**
+
+Few half-guard exchanges are decided as cleanly as the underhook battle, and the Underhook Pass is the technique that cashes that battle in for a completed pass. It exploits the powerful control provided by securing an underhook on the bottom player's far side, combined with strategic weight distribution and hip pressure to flatten the opponent and clear the leg entanglement. The technique is built on the principle of controlling the opponent's shoulder and hip simultaneously, creating a cross-body pressure system that limits their defensive frames and movement options.
 
 The underhook provides both offensive control and defensive protection, preventing the bottom player from establishing their own underhook or recovering full guard. This pass is particularly effective against players who rely on knee shield or traditional half guard retention, as it addresses their primary defensive structures through systematic breakdown and methodical advancement. Against high-level opponents who actively battle for the underhook, the pass becomes a chess match of upper body positioning where the first player to secure a deep underhook gains a decisive mechanical advantage.
 
@@ -204,7 +241,7 @@ The underhook pass is a cornerstone technique in the pressure passing system and
 ## Related Techniques
 
 
-- [[Transitions/Knee Cut Pass]] - Alternative pass when knee shield prevents underhook pass
+- [[Transitions/Knee Slice Pass]] - Alternative pass when knee shield prevents underhook pass
 
 - [[Transitions/Knee Slice Pass]] - Combination option from underhook position
 
@@ -230,5 +267,7 @@ The underhook pass is a cornerstone technique in the pressure passing system and
 
 
 </section>
+
+
 
 </main>

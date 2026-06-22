@@ -134,10 +134,23 @@ description: "Master Garry Tonon's leg lock to back system. Learn seamless trans
 }
 </script>
 
-> Garry Tonon Leg Lock to Back System is a advanced difficulty Attack System system. Integrates 5 components.
 
-**System Type**: Attack System
-**Difficulty Level**: Advanced
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Garry Tonon Leg Lock to Back System",
+  "description": "The Garry Tonon Leg Lock to Back System is a no-gi attack framework that cycles between lower-body submissions and back control, using each defensive reaction to expose the opposite attack category in a perpetual dilemma.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Attack System</span>
+<span class="meta-chip">Advanced difficulty</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -146,7 +159,27 @@ description: "Master Garry Tonon's leg lock to back system. Learn seamless trans
 
 ## What is Garry Tonon Leg Lock to Back System?
 
+**The Garry Tonon Leg Lock to Back System is a no-gi attack framework that cycles between lower-body submissions and back control, using each defensive reaction to expose the opposite attack category in a perpetual dilemma.**
+
 The Garry Tonon Leg Lock to Back System represents one of the most sophisticated attack frameworks in modern no-gi Brazilian Jiu-Jitsu. This system creates a continuous threat cycle between lower body submissions and back control, forcing opponents into a constant state of defensive decision-making. When an opponent defends the leg attack, they expose pathways to the back. When they defend the back attack, they expose the legs again. The system is built on the principle that no position is terminal—every defensive movement creates an offensive opportunity. Tonon developed this approach through years of high-level competition, recognizing that opponents who successfully defend one attack category often do so by compromising their defense in another area. The beauty of this system lies in its adaptability: it works from standing exchanges, guard passing scenarios, and scrambles. Rather than viewing leg locks and back attacks as separate skillsets, this framework treats them as interconnected components of a unified offensive strategy. Practitioners learn to flow seamlessly between ashi garami variations, truck positions, and back control, maintaining offensive pressure regardless of which position they occupy.
+
+</section>
+
+
+
+<section id="unlock-graph" class="content-section system-unlock" data-system-unlock hidden>
+
+## Unlock this part of the graph
+
+<p class="section-subtitle">This system teaches the highlighted nodes in the graph. Mark what you already know &mdash; be honest, it's your game.</p>
+
+<div class="system-progress" data-system-progress>
+<svg class="system-progress__ring" viewBox="0 0 44 44" aria-hidden="true"><circle class="system-progress__ring-bg" cx="22" cy="22" r="19"></circle><circle class="system-progress__ring-fill" cx="22" cy="22" r="19"></circle></svg>
+<div class="system-progress__text">You've unlocked <strong class="system-progress__known">0</strong> / <span class="system-progress__total">0</span> techniques in this system</div>
+<button class="system-progress__mark-all" data-mark-system type="button">Mark whole system as known</button>
+</div>
+
+<ul class="system-members" data-system-members></ul>
 
 </section>
 
@@ -352,9 +385,9 @@ The system requires both isolated component drilling and integrated flow trainin
 - [[Kneebar]] (Submission) - Alternative leg submission when heel hook positioning is defended
 - [[Leg Entanglement]] (Position) - Foundational concept governing all leg attack positions in system
 - [[Submission Chains]] (Principle) - Core principle of linking multiple submission attempts across position categories
-- [[Transition Management]] (Principle) - Conceptual framework for smooth positional changes while maintaining offensive pressure
+- [[Control Maintenance]] (Principle) - Conceptual framework for smooth positional changes while maintaining offensive pressure
 - [[Fork Attacks]] (Principle) - Strategic concept of forcing opponent to choose between defending legs or back
-- [[Control Maintenance]] (Principle) - Critical principle of maintaining connection throughout all system transitions
+- [[Control Point Hierarchy]] (Principle) - Critical principle of prioritizing connection points throughout all system transitions
 - [[Danaher Leg Lock System]] (System) - Foundational leg lock system that provides technical framework for leg attack components
 - [[Back Attack System]] (System) - Complementary system focusing on back control and upper body submissions
 - [[Craig Jones Leg Lock System]] (System) - Alternative modern leg lock system sharing common positional concepts

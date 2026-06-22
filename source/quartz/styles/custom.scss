@@ -8,6 +8,15 @@ html {
   width: 100% !important;
 }
 
+// Cap the overall article shell width and center it. Modals, drawers, FABs, and
+// the background graph are siblings of #quartz-root, so they keep full viewport.
+#quartz-root {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid var(--lightgray);
+}
+
 // Constrain grid column on mobile — "auto" lets content push the page wider than
 // the viewport; "minmax(0, 1fr)" takes available space without exceeding it.
 @media (max-width: 800px) {
@@ -20,11 +29,6 @@ html {
 // Landing Page (Homepage)
 // ============================================================================
 
-// Google-style homepage: hide sidebar, meta; center content vertically
-body[data-slug="index"] .content-meta {
-  display: none;
-}
-
 // Note: previously this section forcibly hid `.sidebar` on the homepage with
 // width:0/height:0/etc. That predated the tree-drawer pattern. Now the drawer
 // is closed by default everywhere (including the homepage) via JS state; opening
@@ -34,6 +38,8 @@ body[data-slug="index"] .content-meta {
 // intro backdrop: starts opaque, holds while text reads, then fades out together
 // with the title/tagline lines to reveal the live #background-graph behind.
 // A bottom-center Roll FAB fades in at the end as the primary CTA.
+// Home doesn't render #quartz-root / <Body> at all — see renderPage.tsx;
+// the title + tagline live in a flat #home-hero element instead.
 body[data-slug="index"] {
   // Drawer-handle UI stays hidden — the graph is the hero, not the panel.
   #panel-toggle,
@@ -41,15 +47,21 @@ body[data-slug="index"] {
     display: none !important;
   }
 
-  // The page card normally paints a semi-transparent dark scrim
-  // (rgba(22,22,24,0.9) at z-index 2) over the live #background-graph.
-  // Home has no article content, so drop the scrim AND make the .page
-  // pointer-transparent — wheel/drag pass through to the graph canvas
-  // behind, enabling pan/zoom. Re-enable pointer events on any
-  // descendant <a>/<button> defensively.
-  #quartz-root {
-    background: transparent;
+  // Centered hero shell (replaces the .center inside #quartz-root for home).
+  // Fixed-inset + pointer-events: none lets wheel/drag pass through to the
+  // graph canvas behind. Children re-enable pointer events for interactivity.
+  #home-hero {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
     pointer-events: none;
+    text-align: center;
+    padding: 0 1rem;
+    box-sizing: border-box;
 
     a,
     button {
@@ -57,8 +69,13 @@ body[data-slug="index"] {
     }
   }
 
+  // The base #graph-overlay is inert (no tint); the cinematic intro repaints it
+  // here as the dark backdrop that holds, then fades to reveal the live graph.
   #graph-overlay {
     display: block !important;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
     opacity: 1;
     animation: home-overlay-fade 5s ease-out forwards;
     pointer-events: none;
@@ -157,71 +174,9 @@ body[data-slug="index"] #search-container {
   pointer-events: auto;
 }
 
-// Collapse grid to single centered column with exactly 2 rows (matches areas).
-// Without grid-template-rows, the base "auto 1fr auto" leaks in and pushes
-// the document past 100vh, causing scroll-bounce.
-body[data-slug="index"] #quartz-body {
-  grid-template-columns: 1fr !important;
-  grid-template-rows: auto auto !important;
-  grid-template-areas:
-    "grid-center"
-    "grid-footer" !important;
-  row-gap: 0 !important; // base grid has a 5px row-gap that bleeds through even with footer hidden
-  max-width: 400px;
-  margin: 0 auto;
-  padding: 0 1rem;
-  box-sizing: border-box;
-}
-
-// Belt-and-suspenders: home is a single-screen experience, no scroll-bounce.
-body[data-slug="index"] {
-  overflow: hidden;
-}
-
-// Vertically center above-fold content
-body[data-slug="index"] .center {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  text-align: center;
-}
-
-body[data-slug="index"] .page-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-body[data-slug="index"] .center > article {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-// Hide afterBody (EditOnGithub etc) and hr on homepage
-body[data-slug="index"] .page-footer {
-  display: none;
-}
-
-body[data-slug="index"] hr {
-  display: none;
-}
-
-// Hide the BETA / GitHub-CTA / © footer on home — the home is a single-screen
-// experience. Footer stays visible on all other pages.
-body[data-slug="index"] footer {
-  display: none;
-}
-
-// Right sidebar isn't in the home's grid-template-areas ("grid-center"/"grid-footer"),
-// so it gets placed in an implicit grid row that pushes the document past 100vh.
-// Home has no TableOfContents anyway — hide the column entirely. !important
-// to override `.page > #quartz-body .sidebar { display: flex }` from base layout.
-body[data-slug="index"] .right.sidebar {
-  display: none !important;
-}
+// Home doesn't render the article shell (#quartz-root, #quartz-body, .center,
+// .page-footer, hr, footer, .right.sidebar) — see renderPage.tsx. The intro
+// title + tagline live in a flat #home-hero element instead.
 
 // Hero content
 .tagline {
@@ -1480,6 +1435,27 @@ article {
   order: 0; // Default fallback
 }
 
+// Metadata chip row at the top of Principle / System pages
+// (replaces the old filler blockquote + duplicate bold metadata lines)
+.principle-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0 0 1.25rem;
+}
+
+.meta-chip {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.2em 0.6em;
+  border-radius: 999px;
+  white-space: nowrap;
+  background: rgba(132, 165, 157, 0.15);
+  color: var(--secondary);
+}
+
 // Question-based subtitles below section headings (SEO + readability)
 .section-subtitle {
   font-size: 0.85rem;
@@ -2324,6 +2300,102 @@ summary::-webkit-details-marker {
 }
 
 // ============================================================================
+// Submission family "What positions can you finish from?" variants table
+// ============================================================================
+
+.variants-table {
+  overflow-x: auto; // graceful horizontal scroll on mid-width screens
+
+  // Play-as cells (cols 4 & 5) read as tappable launchers, matching .role-links.
+  td:nth-child(4) a,
+  td:nth-child(5) a {
+    display: inline-block;
+    padding: 0.3rem 0.7rem;
+    border: 1px solid var(--secondary);
+    border-radius: 8px;
+    color: var(--secondary);
+    font-weight: 500;
+    font-size: 0.85rem;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: all 0.15s;
+
+    &:hover {
+      background: var(--secondary);
+      color: var(--light) !important;
+    }
+  }
+}
+
+.mechanical-variations {
+  margin: 0.5rem 0 1.25rem;
+
+  summary {
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: var(--secondary);
+  }
+}
+
+// Mobile: stack each variant row into a self-contained card (no horizontal scroll).
+@media (max-width: 600px) {
+  .variants-table {
+    overflow-x: visible;
+
+    table,
+    thead,
+    tbody,
+    tr,
+    td {
+      display: block;
+      width: auto;
+    }
+
+    thead {
+      display: none;
+    }
+
+    tr {
+      border: 1px solid var(--lightgray);
+      border-radius: 8px;
+      padding: 0.6rem 0.8rem;
+      margin-bottom: 0.6rem;
+    }
+
+    td {
+      border: none;
+      padding: 0.15rem 0;
+    }
+
+    td:nth-child(1) {
+      font-weight: 600;
+      font-size: 1rem;
+    }
+
+    td:nth-child(2),
+    td:nth-child(3) {
+      display: inline-block;
+      font-size: 0.75rem;
+      opacity: 0.7;
+      margin-right: 0.75rem;
+    }
+
+    td:nth-child(4),
+    td:nth-child(5) {
+      display: inline-block;
+      margin: 0.4rem 0.4rem 0 0;
+
+      a {
+        min-height: 44px;
+        line-height: 44px;
+        padding: 0 1rem;
+      }
+    }
+  }
+}
+
+// ============================================================================
 // Dark Mode Adjustments for A/B Testing Variants
 // ============================================================================
 
@@ -2374,79 +2446,6 @@ summary::-webkit-details-marker {
   #toc-content ul > li > a:hover {
     color: #fff !important;
   }
-}
-
-// ── Title add-to-training button ─────────────────────────────────────
-.title-add-training {
-  display: inline-flex;
-  align-items: center;
-  vertical-align: middle;
-  margin-left: 0.4em;
-  font-size: 0.5em;
-  line-height: 1;
-}
-
-.title-add-btn {
-  background: none;
-  border: none;
-  padding: 0;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  color: var(--gray);
-  font-size: 1em;
-  transition:
-    color 0.15s,
-    opacity 0.15s;
-
-  &:hover {
-    color: var(--secondary);
-  }
-
-  // Green filled bookmark for "added" state
-  &--added {
-    color: #16a34a;
-
-    &:hover {
-      color: #dc2626;
-    }
-  }
-}
-
-// Counter scroll animation
-.title-add-counter {
-  display: inline-flex;
-  flex-direction: column;
-  overflow: hidden;
-  height: 1.4em;
-  line-height: 1.4em;
-  font-weight: 600;
-  font-variant-numeric: tabular-nums;
-}
-
-.title-add-counter span {
-  display: block;
-  height: 1.4em;
-  transition: transform 0.4s ease-out;
-}
-
-.title-add-counter.animate span {
-  transform: translateY(-100%);
-}
-
-// Green for add counter
-.title-add-counter .count-new {
-  color: #16a34a;
-}
-
-// Red for remove counter
-.title-add-counter.counter-remove .count-new {
-  color: #dc2626;
-}
-
-.title-add-counter.counter-remove .count-old {
-  color: inherit;
 }
 
 // ── Explorer SRS overlay (Training page) ────────────────────────────
@@ -2926,34 +2925,124 @@ body[data-slug="training"] .explorer-faded {
 // Background Graph — full-viewport graph behind content
 // ============================================================================
 
-// Dark blur overlay between graph and content (dark-mode only, hardcoded).
-// Opacity transition is injected per-direction by contentPanel.inline.ts so
-// the overlay can lead the card fade-out and lag its fade-in.
+// Scroll-driven drawer mechanic. Body scrollY is the source of truth.
+// contentPanel.inline.ts writes --drawer-progress (0..1) to :root on every
+// scroll frame (rAF-coalesced, passive). CSS reads it and paints the drawer
+// transform + overlay opacity directly. No JS-driven transitions on the hot
+// path — the only smooth-scroll comes from window.scrollTo({behavior:'smooth'})
+// on Ctrl+G / Escape / panel-toggle / graph-node-click.
+:root {
+  --drawer-progress: 0; // 0 = content (docked), 1 = graph (fully expanded)
+  --graph-peek: 50px;
+  --content-peek: 60px;
+}
+
+// Don't fight transform-positioned drawer on layout shifts.
+html {
+  overflow-anchor: none;
+  scroll-behavior: auto;
+  scroll-padding-top: 60px;
+}
+
+// 100svh sentinel above #quartz-root. Gives <body> scrollable height that the
+// drawer transform latches onto. Empty, decorative, never receives events.
+#scroll-runway {
+  height: 100svh;
+  width: 1px;
+  pointer-events: none;
+  position: relative;
+  z-index: -1;
+}
+
+// Full-viewport layer between graph and content. Inert by default — no tint, no
+// blur, so scrolling up reveals the live graph (and its nodes) cleanly. Only the
+// cinematic home intro repaints it (see body[data-slug="index"] #graph-overlay).
 #graph-overlay {
   position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100vh;
+  height: 100svh;
   z-index: 1;
-  background: rgba(0, 0, 0, 0.4);
-  backdrop-filter: blur(3px);
-  -webkit-backdrop-filter: blur(3px);
   pointer-events: none;
-  will-change: opacity;
+  opacity: 0;
 }
 
-// Content card floats above graph — 90% opaque drawer with rounded top bevel.
-// Transform transition is injected per-direction by contentPanel.inline.ts:
-// 450ms cubic-bezier(0.34, 1.56, 0.64, 1) forward (drawer thunks into dock),
-// 380ms cubic-bezier(0.4, 0, 0.2, 1) reverse (snappy return, no overshoot).
+// Content card floats above graph — 80% opaque drawer with rounded top bevel.
+// Transform is a pure expression over --drawer-progress. The card sits one
+// runway-height (100svh, via #scroll-runway above it) down the document, so at
+// the dock (scrollY = innerHeight) it renders at the viewport top. From there:
+//   progress 0 (content): translateY(content-peek)  → card top peeks below the
+//                          graph by content-peek px.
+//   progress 1 (graph):   translateY(-graph-peek)   → card slid fully down so
+//                          only its top graph-peek px (the title bar) peeks at
+//                          the bottom of the viewport.
+// Rendered top = naturalTop(100svh) - scrollY + translateY, which lands at
+// content-peek when docked and at (innerHeight - graph-peek) in graph mode.
 .page {
-  background: color-mix(in srgb, var(--light) 90%, transparent);
+  background: color-mix(in srgb, var(--light) 80%, transparent);
   border-radius: 16px 16px 0 0;
-  box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.4);
+  // Side glow (in addition to the top shadow) so the floating card reads
+  // against the background graph on its now-visible left/right edges.
+  box-shadow:
+    0 -4px 24px rgba(0, 0, 0, 0.4),
+    0 0 60px rgba(0, 0, 0, 0.22);
   position: relative;
   z-index: 2;
   will-change: transform;
+  transform: translateY(
+    calc(var(--content-peek) - (var(--graph-peek) + var(--content-peek)) * var(--drawer-progress))
+  );
+
+  // Fluid side gap so the drawer floats over the graph (graph peeks on the
+  // left/right, mirroring the top peek). 0 at/below the 800px mobile
+  // breakpoint, then ~11% of the overflow past 800px, capped at 240px.
+  // `min()` pins the card at its 1200px max-width; beyond that,
+  // `margin-inline: auto` lets the gaps absorb all remaining width — an
+  // ever-wider screen yields ever-wider margins, card stays put.
+  --page-gap: clamp(0px, calc((100vw - 800px) * 0.11), 240px);
+  // Shared horizontal inner gutter (~12px mobile, ~24px tablet, 48px desktop).
+  --content-gutter: clamp(0.75rem, 3vw, 3rem);
+  max-width: min(1200px, calc(100vw - 2 * var(--page-gap)));
+  margin-inline: auto;
+}
+
+// Graph-click drawer rise: a real CSS transition instead of a JS scroll tween.
+// backgroundGraph.inline.ts sets [data-drawer-rising] on <html> for the rise's
+// duration; .page's transform animates to its content-mode value on the
+// compositor (immune to the main-thread WebGL render). On transitionend the JS
+// reconciles scrollY/--drawer-progress to the dock and clears the marker, so the
+// base value matches and there's no snap.
+html[data-drawer-rising] .page {
+  transition: transform 0.55s cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translateY(var(--content-peek)); // == base transform at progress 0
+}
+@media (prefers-reduced-motion: reduce) {
+  html[data-drawer-rising] .page {
+    transition-duration: 0.001s;
+  }
+}
+
+// Symmetric inner gutters so content no longer hugs the card's left edge
+// (previously only the 320px right sidebar padded the right side). Applied
+// consistently to the title (`.page-header`), the body article, and the
+// footer so they share one left/right inset; the right sidebar's existing
+// 3rem padding already mirrors this on the right. The article and the title
+// each sit inside a `.popover-hint` wrapper, so descendant selectors are used
+// — content pages have exactly one article, no nesting. Top padding untouched.
+.page > #quartz-body .center .page-header,
+.page > #quartz-body .center article,
+.page > #quartz-body > footer {
+  padding-inline: var(--content-gutter);
+}
+
+// Tables: align the table box with the article content gutter. Quartz's default
+// (.table-container > table in base.scss) adds margin:1rem + padding:1.5rem, pushing
+// tables ~2.5rem further in than body paragraphs. Drop the horizontal offset (keep
+// vertical rhythm); th/td cell padding still provides the inner spacing.
+.page > #quartz-body .center article .table-container > table {
+  margin-inline: 0;
+  padding: 0;
 }
 
 // When wrapped in document.startViewTransition() (graph-node clicks via
@@ -2978,26 +3067,92 @@ html:not([data-spa-transition]) .page {
   }
 }
 
-// In content mode the graph is purely visual — pointer-events off so D3's
-// zoom-on-wheel handler can't intercept scroll events when the cursor hovers
-// over the 60px graph-peek strip above the article. Re-enabled in graph mode
-// AND on the home page (where the graph IS the hero — always interactive).
+// In content/transitioning modes the graph is purely visual — pointer-events
+// off so D3's zoom-on-wheel handler can't intercept scroll events when the
+// cursor hovers over the 60px graph-peek strip above the article. Re-enabled
+// in graph mode AND on the home page (where the graph IS the hero).
 #background-graph {
   pointer-events: none;
 }
 
 body[data-slug="index"] #background-graph,
+body[data-mode="graph"] #background-graph,
 body.graph-focused #background-graph {
   pointer-events: auto;
 }
 
-// Graph mode: full graph visible, title always peeks at the bottom (~50px)
+// Graph mode latch: freezes body scroll so wheel falls through to D3-zoom on
+// the canvas (mutual exclusion — exactly one handler owns wheel at any time).
+// .page transform is already driven by --drawer-progress which the scroll
+// listener pins at 1 when scrollY=0; no transform rule needed here.
+body[data-mode="graph"],
 body.graph-focused {
-  .page {
-    transform: translateY(calc(100vh - 50px));
+  overflow: hidden;
+}
+
+// Minimized (graph mode): the peeking title strip becomes a clickable title bar.
+// Lift it above the auto-opened tree drawer (#sidebar-overlay z3) so the title
+// reads clearly and clicks land on it (→ resume). Scoped to graph mode only; in
+// content mode the drawer stays on top (z3 > .page z2) while the user scrolls.
+body[data-mode="graph"] .page {
+  z-index: 4;
+  cursor: pointer;
+}
+
+// Collapse the title's dead top margin so the full line centers in the ~50px
+// peek — its 2rem top margin otherwise pushes the bottom half below the fold.
+// The transition lives on the base rule so the shift rides the mode latch
+// smoothly (both directions) instead of popping.
+.article-title {
+  transition: margin-top 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+body[data-mode="graph"] .article-title {
+  margin-top: 0.4rem;
+}
+
+// On mobile the canvas needs touch-action: none in graph mode so two-finger
+// pinches reach D3 instead of being captured for layout pan/zoom. Outside
+// graph mode, pan-y lets vertical swipes drive body scroll (the drawer).
+#background-graph {
+  touch-action: pan-y;
+}
+body[data-mode="graph"] #background-graph,
+body.graph-focused #background-graph,
+body[data-slug="index"] #background-graph {
+  touch-action: none;
+}
+
+// Anchor links land below the drawer dock (matches --content-peek).
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a[id] {
+  scroll-margin-top: 60px;
+}
+
+// Reduced-motion: parallax via native scroll is the user's gesture (allowed),
+// but explicit JS-driven smooth-scrolls collapse to instant (handled in JS).
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto; // belt-and-suspenders; JS already passes 'instant'
   }
-  #graph-overlay {
-    opacity: 0;
+}
+
+// Print: drawer is a static article; graph + runway hidden.
+@media print {
+  .page {
+    transform: none !important;
+    position: static !important;
+    box-shadow: none !important;
+    background: var(--light) !important;
+  }
+  #background-graph,
+  #graph-overlay,
+  #scroll-runway {
+    display: none !important;
   }
 }
 
@@ -3060,7 +3215,7 @@ body.graph-focused {
 body.graph-focused #panel-toggle {
   top: auto;
   right: auto;
-  bottom: calc(50px + 0.5rem); // sits just above the 50px title-peek strip
+  bottom: calc(var(--graph-peek) + 0.5rem); // sits just above the title-peek strip
   left: 50%;
   transform: translateX(-50%);
 
@@ -3122,19 +3277,32 @@ body.graph-focused #panel-toggle {
   transform: translateX(-100%);
   transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   pointer-events: none;
-  // Dark gradient for readability — strong on the left so explorer text reads
-  // clearly over the content card peek; fades to transparent by 60% to keep the
-  // graph background visible toward the right edge.
+  // Frosted-glass panel: horizontal gradient on the tint (fades to transparent
+  // toward the right) over a uniform backdrop blur. Adapts to whatever sits
+  // behind it — the dark graph in graph mode, the light content card in content
+  // mode.
+  //
+  // Note: we deliberately do NOT use `mask-image` for the soft right edge.
+  // `mask-image` creates an isolated compositing layer in Chromium that
+  // silently breaks `backdrop-filter` — the blur ends up sampling the masked
+  // (transparent) layer instead of the real backdrop, so it renders invisibly.
+  // Fading the TINT as a gradient instead keeps the blur working uniformly
+  // across the panel; the visible darkness melts away to the right, and the
+  // panel's right edge is just a clean drawer boundary.
+  //
+  // -webkit-backdrop-filter listed first, unprefixed last, so esbuild's CSS
+  // minifier keeps the standard property (Firefox lacks the -webkit- prefix).
+  //
+  // Bump the start alpha (0.55) if the tree text reads too faint over the
+  // light content card.
   background: linear-gradient(
     90deg,
-    rgba(0, 0, 0, 0.85) 0%,
-    rgba(0, 0, 0, 0.75) 15%,
-    rgba(0, 0, 0, 0.55) 30%,
-    rgba(0, 0, 0, 0.25) 45%,
-    transparent 60%
+    rgba(8, 8, 10, 0.55) 0%,
+    rgba(8, 8, 10, 0.5) 55%,
+    rgba(8, 8, 10, 0) 100%
   );
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(14px) saturate(0.9);
+  backdrop-filter: blur(14px) saturate(0.9);
 
   & > .sidebar.left {
     pointer-events: auto;
@@ -3152,6 +3320,15 @@ body.graph-focused #panel-toggle {
 body.drawer-open #sidebar-overlay {
   transform: translateX(0);
   pointer-events: auto;
+}
+
+// In graph mode the minimized title bar is lifted above the drawer's bottom edge
+// (body[data-mode="graph"] .page z4). Reserve that strip in the drawer's scroll
+// content so explorer items end above the bar instead of hiding under it — they
+// fade out cleanly via the sidebar's existing bottom mask. Height = the peeking
+// title strip + a UX margin.
+body[data-mode="graph"] #sidebar-overlay > .sidebar.left {
+  padding-bottom: calc(var(--graph-peek) + 1rem);
 }
 
 // Tree toggle button — top-left, mirrors the search button on top-right
@@ -3186,19 +3363,16 @@ body.drawer-open #sidebar-overlay {
 // Tree button stays visible whether drawer is open or closed (Claude-style toggle).
 // Click toggles open ↔ closed.
 
-// Content card layout: full-width by default; offset right when drawer is open (desktop only)
+// Content card layout (desktop). The tree drawer (#sidebar-overlay) is a fixed
+// overlay that slides in ON TOP of the content, so the article no longer shifts
+// right when the drawer opens.
 @media (min-width: 801px) {
   #quartz-body {
-    padding-left: 0;
-    transition: padding-left 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     grid-template-columns: auto 320px !important;
     grid-template-areas:
       "grid-header grid-sidebar-right"
       "grid-center grid-sidebar-right"
       "grid-footer grid-sidebar-right" !important;
-  }
-  body.drawer-open:not(.graph-focused) #quartz-body {
-    padding-left: 320px;
   }
 }
 @media (min-width: 801px) and (max-width: 1200px) {
@@ -3551,6 +3725,116 @@ body.drawer-open #sidebar-overlay {
   color: var(--gray);
   font-size: 1.1rem;
   line-height: 1;
+  transition: transform 0.15s;
+}
+
+.decks-modal-row--expanded .decks-modal-row-chev {
+  transform: rotate(180deg);
+}
+
+// ── Suggested-for-you inline preview (factor chips) ─────────────────────────
+.decks-suggested-preview {
+  margin: 0 0.25rem 0.5rem 1rem;
+  padding: 0.25rem 0 0.5rem;
+  border-left: 2px solid color-mix(in srgb, var(--secondary) 30%, transparent);
+  padding-left: 0.85rem;
+}
+
+.decks-suggested-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.suggestion-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  padding: 0.5rem 0.6rem;
+  border-radius: 6px;
+  background: color-mix(in srgb, var(--lightgray) 35%, transparent);
+}
+
+.suggestion-card-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.suggestion-card-title {
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: var(--dark);
+}
+
+.suggestion-card-type {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--gray);
+  white-space: nowrap;
+}
+
+.suggestion-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.suggestion-chip {
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  padding: 0.12em 0.55em;
+  border-radius: 999px;
+  white-space: nowrap;
+  cursor: help;
+  background: color-mix(in srgb, var(--secondary) 14%, transparent);
+  color: var(--secondary);
+
+  &--effective {
+    background: color-mix(in srgb, #16a34a 14%, transparent);
+    color: #16a34a;
+  }
+
+  &--newground {
+    background: color-mix(in srgb, #d97706 16%, transparent);
+    color: #d97706;
+  }
+
+  &--fitsyourgame {
+    background: color-mix(in srgb, #6366f1 14%, transparent);
+    color: #6366f1;
+  }
+}
+
+.suggestion-more {
+  margin: 0.5rem 0 0;
+  font-size: 0.78rem;
+  color: var(--gray);
+}
+
+.decks-suggested-drill {
+  margin-top: 0.6rem;
+  width: 100%;
+  padding: 0.55rem 0.75rem;
+  border: 1px solid var(--secondary);
+  border-radius: 8px;
+  background: var(--secondary);
+  color: var(--light);
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition:
+    opacity 0.15s,
+    filter 0.15s;
+
+  &:hover,
+  &:focus-visible {
+    filter: brightness(1.08);
+    outline: none;
+  }
 }
 
 .decks-modal-footer {
@@ -4002,56 +4286,6 @@ html[data-spa-transition="backward"]::view-transition-new(root) {
 }
 
 // ============================================================================
-// FirstLoadHint — one-time ghost tooltip under the Flashcards strip
-// Discrete dark pill that mirrors the strip's geometry (inverted colors).
-// Symmetrical cycle: 0.35s fade-in → 1.5s hold at 0.5 opacity → 0.35s fade-out → removed.
-// Manual dismiss (click anywhere / Esc) cuts straight to the 0.35s fade-out
-// from whatever opacity the hint is currently at — same speed, just sooner.
-// Positioned in JS (top/left set inline based on label rect).
-// ============================================================================
-
-.first-load-hint {
-  position: fixed;
-  z-index: 9988;
-  transform: translateX(-50%);
-  pointer-events: none;
-  display: inline-flex;
-  align-items: center;
-  height: 36px;
-  padding: 0 0.75rem;
-  background: var(--dark);
-  color: var(--light);
-  border-radius: 8px;
-  font-size: 0.85rem;
-  font-weight: 500;
-  opacity: 0;
-  // 0.35s fade-in + 1.5s hold + 0.35s fade-out = 2.2s total
-  // Keyframe stops: 15.91% (0.35/2.2) and 84.09% (1.85/2.2)
-  animation: first-load-hint-cycle 2.2s ease-in-out forwards;
-}
-
-.first-load-hint.first-load-hint--leaving {
-  animation: none;
-  transition: opacity 0.35s ease-in-out;
-  opacity: 0;
-}
-
-@keyframes first-load-hint-cycle {
-  0% {
-    opacity: 0;
-  }
-  15.91% {
-    opacity: 0.5;
-  }
-  84.09% {
-    opacity: 0.5;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-// ============================================================================
 // Active-session focus mode
 // While body[data-training-active], dim non-flashcard article content so the
 // user's attention lands on the flashcard area. Subtle highlight ring + slight
@@ -4102,47 +4336,6 @@ body[data-training-active] {
   body[data-training-active] #flashcard-container::before {
     animation: none;
   }
-}
-
-// ============================================================================
-// Graph-close button (×) — top-right corner in graph mode
-// Conventional exit affordance; complements the bottom-center chevron metaphor.
-// ============================================================================
-#graph-close-btn {
-  position: fixed;
-  top: 1rem;
-  right: 1rem;
-  z-index: 10;
-  width: 44px;
-  height: 36px;
-  border-radius: 8px;
-  border: 1px solid var(--lightgray);
-  background: var(--light);
-  color: var(--dark);
-  cursor: pointer;
-  opacity: 0;
-  pointer-events: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0;
-  transition:
-    opacity 0.25s ease,
-    background-color 0.2s;
-
-  &:hover,
-  &:focus-visible {
-    background: var(--lightgray);
-    outline: none;
-  }
-}
-
-body.graph-focused #graph-close-btn {
-  opacity: 0.85;
-  pointer-events: auto;
-}
-body.graph-focused #graph-close-btn:hover {
-  opacity: 1;
 }
 
 // ============================================================================
@@ -4345,4 +4538,585 @@ body.graph-focused #roll-session-btn {
 // ============================================================================
 #sidebar-overlay .explorer {
   display: flex;
+}
+
+// ============================================================================
+// Synonym / Variant / False-Synonym surfaces (aliases, family, disambiguations)
+// Rendered as an <aside class="entity-relations"> at the top of <main>,
+// directly under the H1, mirroring Wikipedia's infobox-row + hatnote idiom.
+// ============================================================================
+.entity-relations {
+  margin: 0 0 1.25rem 0;
+  padding: 0.6rem 0.85rem;
+  border-left: 3px solid var(--lightgray);
+  background: var(--light);
+  font-size: 0.92rem;
+  line-height: 1.45;
+  color: var(--darkgray);
+
+  p {
+    margin: 0.15rem 0;
+  }
+
+  em {
+    color: var(--gray);
+    font-style: italic;
+  }
+
+  strong {
+    color: var(--dark);
+    font-weight: 600;
+  }
+
+  a {
+    color: var(--secondary);
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .role-hint {
+    color: var(--gray);
+    font-size: 0.85em;
+    margin-left: 0.25rem;
+  }
+}
+
+// "Often confused with" hatnote gets a warning tint so it visually separates
+// from neutral alias/family lines.
+.entity-relations .often-confused-with {
+  border-left: 2px solid var(--secondary);
+  padding-left: 0.6rem;
+  margin-left: -0.6rem;
+  background: linear-gradient(to right, rgba(186, 38, 55, 0.04), transparent 30%);
+}
+
+// ============================================================================
+// Synonym / Variant / False-Synonym surfaces (aliases, family, disambiguations)
+// Rendered as an <aside class="entity-relations"> at the top of <main>,
+// directly under the H1, mirroring Wikipedia's infobox-row + hatnote idiom.
+// ============================================================================
+.entity-relations {
+  margin: 0 0 1.25rem 0;
+  padding: 0.6rem 0.85rem;
+  border-left: 3px solid var(--lightgray);
+  background: var(--light);
+  font-size: 0.92rem;
+  line-height: 1.45;
+  color: var(--darkgray);
+
+  p {
+    margin: 0.15rem 0;
+  }
+
+  em {
+    color: var(--gray);
+    font-style: italic;
+  }
+
+  strong {
+    color: var(--dark);
+    font-weight: 600;
+  }
+
+  a {
+    color: var(--secondary);
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .role-hint {
+    color: var(--gray);
+    font-size: 0.85em;
+    margin-left: 0.25rem;
+  }
+}
+
+// "Often confused with" hatnote gets a warning tint so it visually separates
+// from neutral alias/family lines.
+.entity-relations .often-confused-with {
+  border-left: 2px solid var(--secondary);
+  padding-left: 0.6rem;
+  margin-left: -0.6rem;
+  background: linear-gradient(to right, rgba(186, 38, 55, 0.04), transparent 30%);
+}
+
+// ===========================================================================
+// Systems conversion funnel — Related-Systems CTA cards (node pages),
+// Pokémon-style affiliate product cards (system pages), and the "unlock the
+// graph" progress UI. v1.41.0
+// ===========================================================================
+
+// --- Related Systems CTA cards (positions/transitions/submissions/principles) ---
+.related-systems {
+  .related-systems-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 0.9rem;
+    margin-top: 0.5rem;
+  }
+}
+
+.system-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  padding: 1rem 1.1rem;
+  border-radius: 14px;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  text-decoration: none !important;
+  color: var(--dark);
+  overflow: hidden;
+  isolation: isolate;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+  animation: systemCardIn 0.5s ease both;
+
+  &:hover {
+    transform: translateY(-4px) scale(1.015);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.14);
+    border-color: var(--graphSystem, var(--secondary));
+  }
+
+  // staggered entrance
+  @for $i from 1 through 8 {
+    &:nth-child(#{$i}) {
+      animation-delay: #{0.04 * $i}s;
+    }
+  }
+
+  &__shine {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background: linear-gradient(
+      105deg,
+      transparent 30%,
+      rgba(255, 255, 255, 0.35) 50%,
+      transparent 70%
+    );
+    transform: translateX(-120%);
+    transition: transform 0.6s ease;
+    pointer-events: none;
+  }
+  &:hover &__shine {
+    transform: translateX(120%);
+  }
+
+  &__type-chip {
+    align-self: flex-start;
+    font-size: 0.62rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    padding: 0.15em 0.55em;
+    border-radius: 999px;
+    background: var(--graphSystem, var(--secondary));
+    color: #fff;
+  }
+
+  &__name {
+    font-size: 1.05rem;
+    font-weight: 700;
+    line-height: 1.25;
+  }
+
+  &__unlocks-badge {
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: var(--secondary);
+  }
+
+  &__blurb {
+    font-size: 0.82rem;
+    color: var(--darkgray);
+    line-height: 1.4;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  &__chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+  }
+  &__chip {
+    font-size: 0.62rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    padding: 0.15em 0.5em;
+    border-radius: 999px;
+    background: rgba(132, 165, 157, 0.15);
+    color: var(--secondary);
+  }
+
+  &__cta {
+    margin-top: auto;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--graphSystem, var(--secondary));
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+  }
+  &__arrow {
+    transition: transform 0.2s ease;
+  }
+  &:hover &__arrow {
+    transform: translateX(4px);
+  }
+}
+
+@keyframes systemCardIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+// --- Pokémon-style affiliate product cards (system pages only) ---
+.product-cards {
+  .product-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.1rem;
+    margin-top: 0.5rem;
+  }
+}
+
+.product-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+  overflow: hidden;
+  isolation: isolate;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+  animation: productCardIn 0.55s ease both;
+
+  // subtle gradient ring (the "card" frame)
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 16px;
+    padding: 1px;
+    background: linear-gradient(135deg, var(--graphSystem, #4477aa), var(--secondary));
+    -webkit-mask:
+      linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    opacity: 0.55;
+    pointer-events: none;
+    z-index: 3;
+  }
+
+  &:hover {
+    transform: perspective(800px) rotateX(2deg) rotateY(-3deg) translateY(-6px);
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.22);
+  }
+
+  &__holo {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background: repeating-linear-gradient(
+      115deg,
+      rgba(255, 0, 128, 0.06),
+      rgba(0, 200, 255, 0.06) 12px,
+      rgba(180, 255, 0, 0.06) 24px,
+      rgba(255, 0, 128, 0.06) 36px
+    );
+    mix-blend-mode: color-dodge;
+    pointer-events: none;
+  }
+
+  &__shine {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    background: linear-gradient(
+      105deg,
+      transparent 35%,
+      rgba(255, 255, 255, 0.45) 50%,
+      transparent 65%
+    );
+    transform: translateX(-130%);
+    transition: transform 0.7s ease;
+    pointer-events: none;
+  }
+  &:hover &__shine {
+    transform: translateX(130%);
+  }
+
+  &__cover {
+    position: relative;
+    aspect-ratio: 16 / 9;
+    background: var(--lightgray);
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      margin: 0;
+    }
+  }
+  &__vendor-badge {
+    position: absolute;
+    top: 0.6rem;
+    left: 0.6rem;
+    z-index: 4;
+    font-size: 0.62rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 0.2em 0.6em;
+    border-radius: 999px;
+    background: rgba(0, 0, 0, 0.65);
+    color: #fff;
+  }
+
+  &__body {
+    position: relative;
+    z-index: 4;
+    padding: 0.9rem 1rem 0.6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+  &__title {
+    font-size: 1.05rem;
+    font-weight: 800;
+    margin: 0;
+    line-height: 1.2;
+  }
+  &__instructor {
+    font-size: 0.8rem;
+    color: var(--darkgray);
+    margin: 0;
+  }
+  &__unlocks-badge {
+    align-self: flex-start;
+    font-size: 0.68rem;
+    font-weight: 700;
+    padding: 0.2em 0.6em;
+    border-radius: 999px;
+    background: var(--graphSystem, #4477aa);
+    color: #fff;
+  }
+  &__blurb {
+    font-size: 0.82rem;
+    color: var(--darkgray);
+    line-height: 1.4;
+    margin: 0.1rem 0 0;
+  }
+
+  &__cta {
+    position: relative;
+    z-index: 4;
+    margin: 0.4rem 1rem 1rem;
+    padding: 0.7rem 1rem;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 0.9rem;
+    text-decoration: none !important;
+    color: #fff;
+    background: var(--secondary);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    transition:
+      filter 0.15s ease,
+      transform 0.15s ease;
+    &:hover {
+      filter: brightness(1.08);
+    }
+  }
+  &__cta-arrow {
+    transition: transform 0.2s ease;
+  }
+  &__cta:hover &__cta-arrow {
+    transform: translateX(4px);
+  }
+}
+
+@keyframes productCardIn {
+  from {
+    opacity: 0;
+    transform: translateY(16px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+// --- "Unlock this part of the graph" progress + member checklist ---
+.system-unlock[hidden] {
+  display: none;
+}
+
+.system-progress {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 0.4rem 0 1rem;
+
+  &__ring {
+    width: 56px;
+    height: 56px;
+    flex: 0 0 auto;
+    transform: rotate(-90deg);
+  }
+  &__ring-bg {
+    fill: none;
+    stroke: var(--lightgray);
+    stroke-width: 4;
+  }
+  &__ring-fill {
+    fill: none;
+    stroke: var(--graphSystem, #4477aa);
+    stroke-width: 4;
+    stroke-linecap: round;
+    transition: stroke-dashoffset 0.45s ease;
+  }
+  &__text {
+    font-size: 0.92rem;
+    color: var(--dark);
+    strong {
+      color: var(--secondary);
+    }
+  }
+  &__mark-all {
+    margin-left: auto;
+    padding: 0.5rem 0.9rem;
+    border-radius: 8px;
+    border: 1px solid var(--graphSystem, var(--secondary));
+    background: transparent;
+    color: var(--graphSystem, var(--secondary));
+    font-weight: 700;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition:
+      background 0.15s ease,
+      color 0.15s ease;
+    &:hover {
+      background: var(--graphSystem, var(--secondary));
+      color: #fff;
+    }
+  }
+}
+.system-unlock[data-complete="true"] .system-progress__text strong {
+  color: var(--graphSystem, #4477aa);
+}
+
+.system-members {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 0.4rem 0.9rem;
+}
+.system-member {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+
+  &__toggle {
+    flex: 0 0 auto;
+    width: 1.25rem;
+    height: 1.25rem;
+    border-radius: 5px;
+    border: 1.5px solid var(--gray);
+    background: transparent;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    transition:
+      background 0.15s ease,
+      border-color 0.15s ease;
+  }
+  &__check {
+    font-size: 0.8rem;
+    line-height: 1;
+    color: #fff;
+    opacity: 0;
+    transform: scale(0.6);
+    transition:
+      opacity 0.15s ease,
+      transform 0.15s ease;
+  }
+  &.is-known &__toggle {
+    background: var(--graphSystem, #4477aa);
+    border-color: var(--graphSystem, #4477aa);
+  }
+  &.is-known &__check {
+    opacity: 1;
+    transform: scale(1);
+  }
+  &__name {
+    text-decoration: none;
+    color: var(--dark);
+    &:hover {
+      color: var(--secondary);
+    }
+  }
+  &.is-known &__name {
+    color: var(--darkgray);
+  }
+  &__type {
+    margin-left: auto;
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--gray);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .system-card,
+  .product-card {
+    animation: none;
+    opacity: 1;
+  }
+  .system-card:hover,
+  .product-card:hover {
+    transform: none;
+  }
+  .system-card__shine,
+  .product-card__shine {
+    display: none;
+  }
+  .system-progress__ring-fill {
+    transition: none;
+  }
 }

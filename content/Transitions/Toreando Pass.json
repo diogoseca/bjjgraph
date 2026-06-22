@@ -1,5 +1,6 @@
 {
   "name": "Toreando Pass",
+  "summary": "The Toreando Pass is a standing open-guard pass where you grip both of the opponent's knees or pant legs and step laterally while redirecting their legs the opposite way, clearing a direct path to side control.",
   "description": "Master the Toreando Pass in BJJ. Control opponent's legs, create angles, pass to dominant position. Success: Beginner 35%, Intermediate 50%, Advanced 65%.",
   "tags": [
     "bjj",
@@ -9,6 +10,12 @@
     "pressure passing",
     "toreando",
     "bullfighter pass"
+  ],
+  "aliases": [
+    "Bullfighter Pass",
+    "Matador Pass",
+    "Toreada Pass",
+    "Toreador Pass"
   ],
   "from_position": "Open Guard/Top",
   "outcomes": [
@@ -85,10 +92,6 @@
     {
       "name": "Knee on Belly",
       "relationship": "Alternative end position - can transition here instead of side control"
-    },
-    {
-      "name": "Bullfighter Pass",
-      "relationship": "Alternate name reference - Bullfighter Pass and Toreando Pass are the same technique"
     },
     {
       "name": "Open Guard",
@@ -176,7 +179,7 @@
         "counter": "Opponent follows the movement and re-guards by turning toward the passer during lateral step",
         "effectiveness": "Medium",
         "your_response": "If opponent turns successfully, immediately switch to back take as they expose their back, or establish headquarters position and chain to knee slice or double under pass",
-        "targets_outcome": "Open Guard/Top"
+        "targets_outcome": "Open Guard/Bottom"
       },
       {
         "counter": "Opponent grips passer's sleeves or wrists to prevent effective hand pressure on knees",
@@ -352,7 +355,7 @@
       {
         "action": "Insert knee shield and transition to half guard retention as passer's hips approach your hip line",
         "when_to_use": "As a last-resort defense when the passer has cleared your open guard legs and is settling toward side control — insert the near-side knee between your bodies",
-        "targets_outcome": "Open Guard/Top",
+        "targets_outcome": "Side Control/Top",
         "if_successful": "You prevent full side control consolidation and establish a defensive half guard or knee shield position from which you can work systematic escapes",
         "risk": "If the passer anticipates the knee insertion, they can switch to a knee cut or backstep to pass through the half guard immediately"
       }

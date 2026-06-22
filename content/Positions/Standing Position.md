@@ -10,6 +10,41 @@ description: "Master standing position in BJJ. Complete guide covering grips, ta
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Standing Position",
+  "description": "Master standing position in BJJ. Complete guide covering grips, takedowns, guard pulls, and maintaining balance with offensive and defensive strategies.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Standing Position", "item": "https://bjjgraph.org/Positions/Standing-Position" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Standing Position",
+  "description": "The Standing Position is the neutral, upright starting state of a BJJ match where both grapplers contest grips and balance, choosing between takedown entries and tactical guard pulls to dictate how the fight reaches the ground.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master standing position in BJJ. Complete guide covering grips, ta
 </div>
 
 <section id="overview" class="content-section">
+
+**The Standing Position is the neutral, upright starting state of a BJJ match where both grapplers contest grips and balance, choosing between takedown entries and tactical guard pulls to dictate how the fight reaches the ground.**
 
 The Standing Position represents the fundamental neutral starting state in BJJ and grappling competitions. This position is characterized by both practitioners standing upright and engaging through various grips, postures, and movements while seeking advantageous entries to ground exchanges. In competition, this is typically the position where matches begin and can also result from stand-ups or resets. The Standing Position encompasses a wide range of specific scenarios depending on grip configurations, stance, and relative positioning, but generally involves both practitioners seeking to establish dominant grips, create off-balancing opportunities, and set up either takedowns or tactical guard pulls. This position serves as the gateway to all subsequent BJJ exchanges and requires a unique blend of skills that differ from ground-based grappling. Mastery of the standing position involves understanding distance management, timing, grip sequences, footwork patterns, and the ability to transition seamlessly between offensive takedown attempts and defensive sprawls or guard pulls. The strategic depth of this position is often underestimated, yet it determines how the majority of competitive matches begin and can significantly impact the overall flow and outcome of a match.
 
@@ -96,21 +133,19 @@ The Standing Position represents the fundamental neutral starting state in BJJ a
 ### Available Transitions
 
 
-- **[[Transitions/Pull Guard from Standing/Attacker|Pull Guard from Standing]]** (20% of attempts)
+- **[[Transitions/Pull Guard from Standing/Attacker|Pull Guard from Standing]]** (24% of attempts)
 
-- **[[Transitions/Standing Guard Pull/Attacker|Standing Guard Pull]]** (18% of attempts)
+- **[[Transitions/Standing Guard Pull/Attacker|Standing Guard Pull]]** (22% of attempts)
 
-- **[[Transitions/Butterfly Guard Pull/Attacker|Butterfly Guard Pull]]** (15% of attempts)
+- **[[Transitions/Butterfly Guard Pull/Attacker|Butterfly Guard Pull]]** (18% of attempts)
 
-- **[[Transitions/Sprawl Defense from Standing/Attacker|Sprawl Defense from Standing]]** (15% of attempts)
-
-- **[[Transitions/Arm Drag from Standing/Attacker|Arm Drag from Standing]]** (10% of attempts)
+- **[[Transitions/Arm Drag from Standing/Attacker|Arm Drag from Standing]]** (13% of attempts)
 
 - **[[Transitions/Level Change Takedown/Attacker|Level Change Takedown]]** (8% of attempts)
 
 - **[[Transitions/Takedown from Bottom/Attacker|Takedown from Bottom]]** (7% of attempts)
 
-- **[[Transitions/Snap Down from Standing/Attacker|Snap Down from Standing]]** (7% of attempts)
+- **[[Transitions/Snap Down from Standing/Attacker|Snap Down from Standing]]** (8% of attempts)
 
 
 ### Common Mistakes
@@ -175,33 +210,37 @@ The Standing Position represents the fundamental neutral starting state in BJJ a
 ### Available Transitions
 
 
-- **[[Transitions/Guard Pull/Attacker|Guard Pull]]** (44% of attempts)
+- **[[Transitions/Guard Pull/Attacker|Guard Pull]]** (33% of attempts)
 
-- **[[Transitions/Double Leg Setup/Attacker|Double Leg Setup]]** (7% of attempts)
+- **[[Transitions/Sprawl Defense from Standing/Attacker|Sprawl Defense from Standing]]** (10% of attempts)
 
-- **[[Transitions/Single Leg Entry/Attacker|Single Leg Entry]]** (8% of attempts)
+- **[[Transitions/Single Leg Entry/Attacker|Single Leg Entry]]** (7% of attempts)
 
-- **[[Transitions/Sprawl/Attacker|Sprawl]]** (7% of attempts)
+- **[[Transitions/Double Leg Setup/Attacker|Double Leg Setup]]** (6% of attempts)
 
-- **[[Transitions/Double Leg Entry/Attacker|Double Leg Entry]]** (4% of attempts)
+- **[[Transitions/Sprawl/Attacker|Sprawl]]** (6% of attempts)
 
-- **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (4% of attempts)
+- **[[Transitions/Knee Tap/Attacker|Knee Tap]]** (3% of attempts)
 
-- **[[Transitions/Arm Drag/Attacker|Arm Drag]]** (4% of attempts)
+- **[[Transitions/Double Leg Entry/Attacker|Double Leg Entry]]** (3% of attempts)
 
-- **[[Transitions/Ankle Pick/Attacker|Ankle Pick]]** (2% of attempts)
+- **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (3% of attempts)
 
-- **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (2% of attempts)
+- **[[Transitions/Arm Drag/Attacker|Arm Drag]]** (3% of attempts)
 
-- **[[Transitions/Body Lock Takedown/Attacker|Body Lock Takedown]]** (2% of attempts)
+- **[[Transitions/Ankle Pick/Attacker|Ankle Pick]]** (1% of attempts)
 
-- **[[Transitions/Jumping Guard/Attacker|Jumping Guard]]** (2% of attempts)
+- **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (1% of attempts)
 
-- **[[Transitions/Osoto Gari/Attacker|Osoto Gari]]** (2% of attempts)
+- **[[Transitions/Body Lock Takedown/Attacker|Body Lock Takedown]]** (1% of attempts)
 
-- **[[Transitions/Ouchi Gari/Attacker|Ouchi Gari]]** (2% of attempts)
+- **[[Transitions/Jumping Guard/Attacker|Jumping Guard]]** (1% of attempts)
 
-- **[[Transitions/Tomoe Nage/Attacker|Tomoe Nage]]** (2% of attempts)
+- **[[Transitions/Osoto Gari/Attacker|Osoto Gari]]** (1% of attempts)
+
+- **[[Transitions/Ouchi Gari/Attacker|Ouchi Gari]]** (1% of attempts)
+
+- **[[Transitions/Tomoe Nage/Attacker|Tomoe Nage]]** (1% of attempts)
 
 - **[[Transitions/Deashi Harai/Attacker|Deashi Harai]]** (1% of attempts)
 
@@ -215,25 +254,31 @@ The Standing Position represents the fundamental neutral starting state in BJJ a
 
 - **[[Transitions/Tani Otoshi/Attacker|Tani Otoshi]]** (1% of attempts)
 
-- **[[Transitions/50-50 Entry from Standing/Attacker|50-50 Entry from Standing]]** (0% of attempts)
+- **[[Transitions/50-50 Entry from Standing/Attacker|50-50 Entry from Standing]]** (1% of attempts)
 
-- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (0% of attempts)
+- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (1% of attempts)
 
-- **[[Transitions/Kosoto Gake/Attacker|Kosoto Gake]]** (0% of attempts)
+- **[[Transitions/Kosoto Gake/Attacker|Kosoto Gake]]** (1% of attempts)
 
-- **[[Transitions/Kosoto Gari/Attacker|Kosoto Gari]]** (0% of attempts)
+- **[[Transitions/Kosoto Gari/Attacker|Kosoto Gari]]** (1% of attempts)
 
-- **[[Transitions/Morote Seoi Nage/Attacker|Morote Seoi Nage]]** (0% of attempts)
+- **[[Transitions/Morote Seoi Nage/Attacker|Morote Seoi Nage]]** (1% of attempts)
 
-- **[[Transitions/Sasae Tsurikomi Ashi/Attacker|Sasae Tsurikomi Ashi]]** (0% of attempts)
+- **[[Transitions/Sasae Tsurikomi Ashi/Attacker|Sasae Tsurikomi Ashi]]** (1% of attempts)
 
-- **[[Transitions/Tai Otoshi/Attacker|Tai Otoshi]]** (0% of attempts)
+- **[[Transitions/Tai Otoshi/Attacker|Tai Otoshi]]** (1% of attempts)
 
 - **[[Submissions/Flying Kneebar/Attacker|Flying Kneebar]]** (1% of attempts)
 
-- **[[Submissions/Reverse Kimura/Attacker|Reverse Kimura]]** (0% of attempts)
+- **[[Submissions/Reverse Kimura/Attacker|Reverse Kimura]]** (1% of attempts)
 
 - **[[Transitions/Single Leg to Back Take/Attacker|Single Leg to Back Take]]** (1% of attempts)
+
+- **[[Flying Kneebar from Standing Position/Attacker|Flying Kneebar from Standing Position]]** (1% of attempts)
+
+- **[[Kimura from Standing/Attacker|Kimura from Standing]]** (1% of attempts)
+
+- **[[Reverse Kimura from Standing Position/Attacker|Reverse Kimura from Standing Position]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -298,6 +343,18 @@ The Standing Position represents the fundamental neutral starting state in BJJ a
 
 - **[[Transitions/Snap Down to Front Headlock]]** - Primary snapdown transition to establish front headlock control
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Danaher-Front-Headlock-System" data-cta="related-system-card" data-system-slug="systems/danaher-front-headlock-system" data-system-name="Danaher Front Headlock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Danaher Front Headlock System</span><span class="system-card__unlocks-badge">Unlocks 30 techniques</span><span class="system-card__blurb">Starting position for snap down and sprawl entries</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Control System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Standing-Defense-Strategy" data-cta="related-system-card" data-system-slug="systems/standing-defense-strategy" data-system-name="Standing Defense Strategy" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Standing Defense Strategy</span><span class="system-card__unlocks-badge">Unlocks 27 techniques</span><span class="system-card__blurb">Primary position where standing defense system is applied</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Marcelo-Garcia-Guillotine-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-guillotine-system" data-system-name="Marcelo Garcia Guillotine System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Marcelo Garcia Guillotine System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Primary entry position for guillotine attacks during clinch exchanges</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

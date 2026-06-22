@@ -10,6 +10,41 @@ description: "Learn the Triangle to Omoplata transition in BJJ. Convert failed t
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Triangle to Omoplata",
+  "description": "Learn the Triangle to Omoplata transition in BJJ. Convert failed triangle chokes into omoplata shoulder locks using opponent\u0027s defensive reactions as entry.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Triangle to Omoplata", "item": "https://bjjgraph.org/Transitions/Triangle-to-Omoplata" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Triangle to Omoplata",
+  "description": "Triangle to Omoplata is a guard submission chain that converts a defended triangle choke into an omoplata shoulder lock, exploiting the opponent's forward-driving stack defense to swing a leg over their back and isolate the trapped arm.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Learn the Triangle to Omoplata transition in BJJ. Convert failed t
 
 <section id="overview" class="content-section">
 
-The Triangle to Omoplata transition is a fundamental submission chain that exploits the opponent's defensive reactions to the triangle choke. When an opponent successfully defends the triangle by posturing, stacking, or driving forward, the bottom player can seamlessly transition to an omoplata shoulder lock by releasing the triangle configuration and capturing the trapped arm with a leg swing over the opponent's back. This transition represents a core principle in modern guard work: using the opponent's escape attempts to create new attacking opportunities.
+**Triangle to Omoplata is a guard submission chain that converts a defended triangle choke into an omoplata shoulder lock, exploiting the opponent's forward-driving stack defense to swing a leg over their back and isolate the trapped arm.**
+
+Within the triangle attack system, the Triangle to Omoplata transition is the answer to one of the most common defensive reactions—the forward stack. When an opponent successfully defends the triangle by posturing, stacking, or driving forward, the bottom player can seamlessly transition to an omoplata shoulder lock by releasing the triangle configuration and capturing the trapped arm with a leg swing over the opponent's back. This transition represents a core principle in modern guard work: using the opponent's escape attempts to create new attacking opportunities.
 
 The technique is particularly effective because the opponent's defensive posture—driving forward to relieve triangle pressure—naturally feeds into the omoplata setup. The stacking motion that relieves neck compression simultaneously extends the trapped arm and exposes the shoulder to rotational pressure. This creates a true dilemma where defending one submission opens the path to another, and the defender must choose between absorbing choking pressure or accepting shoulder lock vulnerability.
 
@@ -224,6 +261,18 @@ The triangle to omoplata transition is a cornerstone of modern guard attack syst
 
 - [[Submissions/Triangle Choke]] - Primary submission threat that forces the defensive reaction
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Submission-Clinic-System" data-cta="related-system-card" data-system-slug="systems/submission-clinic-system" data-system-name="Submission Clinic System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Submission Clinic System</span><span class="system-card__unlocks-badge">Unlocks 30 techniques</span><span class="system-card__blurb">Alternative chain when triangle is defended</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Ryan-Hall-Triangle-System" data-cta="related-system-card" data-system-slug="systems/ryan-hall-triangle-system" data-system-name="Ryan Hall Triangle System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Ryan Hall Triangle System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Alternative submission chain pathway</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Rubber-Guard-to-Triangle-System" data-cta="related-system-card" data-system-slug="systems/rubber-guard-to-triangle-system" data-system-name="Rubber Guard to Triangle System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Rubber Guard to Triangle System</span><span class="system-card__unlocks-badge">Unlocks 22 techniques</span><span class="system-card__blurb">Fallback transition when triangle defense is successful</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

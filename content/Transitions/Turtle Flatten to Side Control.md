@@ -10,6 +10,41 @@ description: "Learn Turtle Flatten to Side Control in BJJ. Step-by-step breakdow
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Turtle Flatten to Side Control",
+  "description": "Learn Turtle Flatten to Side Control in BJJ. Step-by-step breakdown from Turtle Top to Side Control. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Turtle Flatten to Side Control", "item": "https://bjjgraph.org/Transitions/Turtle-Flatten-to-Side-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Turtle Flatten to Side Control",
+  "description": "Turtle Flatten to Side Control is a pressure-based pass where the top player collapses a turtled opponent's four-point base with lateral hip-and-chest drive, flattening them belly-down before circling into a dominant side control pin.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Learn Turtle Flatten to Side Control in BJJ. Step-by-step breakdow
 </div>
 
 <section id="overview" class="content-section">
+
+**Turtle Flatten to Side Control is a pressure-based pass where the top player collapses a turtled opponent's four-point base with lateral hip-and-chest drive, flattening them belly-down before circling into a dominant side control pin.**
 
 Turtle Flatten to Side Control is a fundamental top-game transition that converts the attacking position behind a turtled opponent into a stable, dominant side control. Rather than pursuing the back take, which requires hook insertion and harness control, flattening the turtle bypasses the opponent's strongest defensive structure — the rounded four-point base — by driving them onto their hip or belly, then circling to establish crossface and underhook control in side control. This technique is particularly valuable when the opponent is defending back takes effectively by keeping elbows tight, fighting hands aggressively, or threatening sit-throughs that make maintaining turtle top risky.
 
@@ -220,5 +257,7 @@ Turtle Flatten to Side Control occupies a critical decision point in the turtle 
 
 
 </section>
+
+
 
 </main>

@@ -1,5 +1,6 @@
 {
   "name": "New York Pass to Side Control",
+  "summary": "New York Pass to Side Control is a methodical escape-to-pass from the trapped top position in 10th Planet's New York rubber guard, recovering posture, extracting the overhooked arm, and driving through to dominant side control.",
   "description": "Master the New York pass to side control in BJJ. Complete guide to escaping rubber guard with systematic posture recovery and pressure passing technique.",
   "tags": [
     "guard pass",
@@ -29,7 +30,7 @@
     }
   ],
   "success_rate": 55,
-  "overview": "The New York Pass to Side Control is a systematic guard passing technique for escaping 10th Planet's Rubber Guard system. When trapped in the New York position with your arm caught in a deep overhook and your posture broken by the opponent's shin across your back, this pass provides a methodical pathway to achieve dominant side control through sequential posture recovery, grip fighting, and pressure application. The pass prioritizes patient, step-by-step dismantling of the rubber guard controls over explosive escape attempts that typically fail against competent guard players.\n\nThe fundamental mechanics involve first establishing a wide, stable base to resist sweeps, then systematically attacking the opponent's shin grip to create the opening for posture recovery. Once posture is partially recovered, the trapped arm is extracted through a corkscrew motion while maintaining constant forward pressure to prevent re-establishment of control. The final phase drives the knee through the centerline and consolidates side control with crossface pressure before the bottom player can recover guard or transition to alternative rubber guard positions.\n\nStrategically, this pass is most effective when the bottom player has committed to static New York control rather than actively transitioning to more advanced positions like Invisible Collar or Zombie. The pass exploits moments when the bottom player's shin grip weakens or when they initiate offensive transitions that momentarily compromise their structural control. The 55% success rate reflects the technical difficulty of escaping an established rubber guard but increases substantially when the passer maintains methodical execution and avoids the common error of rushing the arm extraction before securing adequate posture.",
+  "overview": "Within the 10th Planet Rubber Guard system, the New York position is one of the most frustrating places a top player can find themselves—arm trapped in a deep overhook, posture folded forward by a shin pinned across the back. The New York Pass to Side Control answers that problem with a methodical pathway to dominant side control built on sequential posture recovery, grip fighting, and pressure application. The pass prioritizes patient, step-by-step dismantling of the rubber guard controls over explosive escape attempts that typically fail against competent guard players.\n\nThe fundamental mechanics involve first establishing a wide, stable base to resist sweeps, then systematically attacking the opponent's shin grip to create the opening for posture recovery. Once posture is partially recovered, the trapped arm is extracted through a corkscrew motion while maintaining constant forward pressure to prevent re-establishment of control. The final phase drives the knee through the centerline and consolidates side control with crossface pressure before the bottom player can recover guard or transition to alternative rubber guard positions.\n\nStrategically, this pass is most effective when the bottom player has committed to static New York control rather than actively transitioning to more advanced positions like Invisible Collar or Zombie. The pass exploits moments when the bottom player's shin grip weakens or when they initiate offensive transitions that momentarily compromise their structural control. The 55% success rate reflects the technical difficulty of escaping an established rubber guard but increases substantially when the passer maintains methodical execution and avoids the common error of rushing the arm extraction before securing adequate posture.",
   "conditions": [
     "Opponent has established full New York control with deep overhook and shin across back",
     "Top player has at least one free hand available for grip fighting the shin control",
@@ -68,20 +69,8 @@
       "relationship": "Counter outcome position if the bottom player recovers guard during the pass"
     },
     {
-      "name": "Rubber Guard",
-      "relationship": "Parent guard system containing New York and related positions"
-    },
-    {
       "name": "Mission Control",
       "relationship": "Related rubber guard position that precedes New York in the system progression"
-    },
-    {
-      "name": "Guard Pass from New York Control",
-      "relationship": "Alternative passing technique from the same trapped position"
-    },
-    {
-      "name": "New York Control Escape",
-      "relationship": "Related escape that returns to closed guard rather than passing to side control"
     },
     {
       "name": "Invisible Collar",

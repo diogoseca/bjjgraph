@@ -10,6 +10,41 @@ description: "Master the Crab Ride Escape to Guard in BJJ. Complete guide to hoo
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Crab Ride Escape to Guard",
+  "description": "Master the Crab Ride Escape to Guard in BJJ. Complete guide to hook stripping, hip turning mechanics, and guard recovery from crab ride bottom position.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Crab Ride Escape to Guard", "item": "https://bjjgraph.org/Transitions/Crab-Ride-Escape-to-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Crab Ride Escape to Guard",
+  "description": "Crab Ride Escape to Guard is a controlled defensive transition where the bottom player trapped under a crab ride strips the single hook, rotates their hips into the opponent, and recovers closed or half guard before the back take can be completed.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Crab Ride Escape to Guard in BJJ. Complete guide to hoo
 
 <section id="overview" class="content-section">
 
-The Crab Ride Escape to Guard is a fundamental defensive transition that allows the bottom player trapped in crab ride to recover an established guard position by turning into their opponent and re-establishing leg control. This escape addresses one of the most common predicaments in modern grappling: being stuck underneath a crab ride where the opponent systematically works toward back control or submission entries. The technique prioritizes hook neutralization and controlled hip rotation as the primary escape mechanisms, creating a direct pathway from a deteriorating defensive position to an offensive guard.
+**Crab Ride Escape to Guard is a controlled defensive transition where the bottom player trapped under a crab ride strips the single hook, rotates their hips into the opponent, and recovers closed or half guard before the back take can be completed.**
+
+Within the modern turtle-attack landscape, this escape addresses one of the most common predicaments in grappling: being stuck underneath a crab ride where the opponent systematically works toward back control or submission entries. By prioritizing hook neutralization and controlled hip rotation as the primary escape mechanisms, the bottom player creates a direct pathway from a deteriorating defensive position to an offensive guard rather than gambling on athletic, low-percentage scrambles. The technique converts a position that normally bleeds into the back take into a structured, repeatable guard recovery.
 
 Strategically, this escape occupies a critical junction in the turtle defense decision tree. While athletic escapes like the Granby roll offer explosive options, the guard recovery escape provides a more controlled, methodical approach that works regardless of flexibility or athleticism. The bottom player uses sequential mechanics - first protecting the neck, then addressing the hook, then rotating the hips, and finally establishing guard structure - to systematically dismantle the top player's control. This sequential approach means each phase can be attempted independently, allowing the escape to resume from any point if initial attempts are partially blocked.
 
@@ -221,5 +258,7 @@ The Crab Ride Escape to Guard sits at the critical intersection between turtle d
 
 
 </section>
+
+
 
 </main>

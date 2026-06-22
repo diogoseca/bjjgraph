@@ -20,7 +20,9 @@
     "common_errors",
     "training_approaches",
     "developmental_metrics",
-    "related_content"
+    "related_content",
+    "summary",
+    "flashcards"
   ],
   "properties": {
     "name": {
@@ -57,6 +59,46 @@
         ]
       ]
     },
+    "aliases": {
+      "type": "array",
+      "description": "Strict synonyms — other names for THIS EXACT principle. See docs/Synonyms.md.",
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "family": {
+      "type": "string",
+      "description": "Name of a parent family hub. Usually empty for principles."
+    },
+    "bot_metadata": {
+      "type": "object",
+      "description": "Automation bookkeeping written by the content bots (not hand-authored). select_oldest_files.sh reads last_improved to skip recently-improved files.",
+      "additionalProperties": true,
+      "properties": {
+        "last_improved": { "type": "string", "description": "ISO date (YYYY-MM-DD) of the last bot edit" },
+        "optimization_pass": { "type": "string" },
+        "last_improved_by": { "type": "string" }
+      }
+    },
+    "sameAs": {
+      "type": "array",
+      "description": "Authoritative external URLs for THIS principle (Wikipedia/Wikidata). schema.org sameAs. See docs/Synonyms.md.",
+      "uniqueItems": true,
+      "items": { "type": "string", "format": "uri" }
+    },
+    "disambiguations": {
+      "type": "array",
+      "description": "False-synonym callouts. Renders 'Often confused with X — reason'. See docs/Synonyms.md.",
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "reason"],
+        "properties": {
+          "name": { "type": "string", "minLength": 1 },
+          "reason": { "type": "string", "minLength": 10 }
+        }
+      }
+    },
     "application_level": {
       "type": "string",
       "enum": [
@@ -82,9 +124,15 @@
         "Intermediate to Expert"
       ]
     },
+    "summary": {
+      "type": "string",
+      "description": "One-sentence, self-contained definition that leads the page (answer-first for AI/featured snippets). ~15-40 words, e.g. 'A wedge is any body part inserted into a gap to pry space open or redirect force.' If present, the overview should NOT repeat it.",
+      "minLength": 30,
+      "maxLength": 300
+    },
     "overview": {
       "type": "string",
-      "description": "2-3 paragraph principle description (400+ characters)",
+      "description": "2-3 paragraph principle description (400+ characters). LEAD with a self-contained one-sentence definition that directly answers 'what is X' before adding history/context — AI answer engines quote the first sentence. If a `summary` field is present, start the overview with context instead, to avoid duplicating it.",
       "minLength": 400,
       "examples": [
         "Base Maintenance is a fundamental principle describing the ability to maintain stable positioning..."
@@ -325,7 +373,7 @@
     "flashcards": {
       "type": "array",
       "description": "Q&A flashcards for self-assessment and SRS training (optional, 6-12 recommended)",
-      "minItems": 0,
+      "minItems": 6,
       "maxItems": 20,
       "items": {
         "type": "object",

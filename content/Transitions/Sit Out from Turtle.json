@@ -1,6 +1,7 @@
 {
   "name": "Sit Out from Turtle",
   "description": "Master the sit out escape from turtle in BJJ. Learn hip rotation mechanics, posting technique, guard recovery timing, and complete attacker-defender strategies.",
+  "summary": "The Sit Out from Turtle is a wrestling-derived escape where the bottom player posts a hand and rotates the hips 180 degrees to thread a leg through and face the opponent, recovering guard from turtle bottom.",
   "tags": [
     "bjj",
     "transition",
@@ -28,8 +29,13 @@
       "result": "failure"
     },
     {
+      "to": "Back Control/Bottom",
+      "probability": 15,
+      "result": "counter"
+    },
+    {
       "to": "Side Control/Bottom",
-      "probability": 25,
+      "probability": 10,
       "result": "counter"
     }
   ],

@@ -10,6 +10,41 @@ description: "Master the inversion escape from leg entanglement in BJJ. Complete
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Inversion Escape from Leg Entanglement",
+  "description": "Master the inversion escape from leg entanglement in BJJ. Complete guide to rolling mechanics, heel protection, timing windows, and butterfly guard recovery.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Inversion Escape from Leg Entanglement", "item": "https://bjjgraph.org/Transitions/Inversion-Escape-from-Leg-Entanglement" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Inversion Escape from Leg Entanglement",
+  "description": "The Inversion Escape from Leg Entanglement is a rolling defensive technique where the trapped bottom player inverts over the shoulder on the entangled side to carry their knee past the attacker's leg lines, extract the foot, and recover to butterfly guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the inversion escape from leg entanglement in BJJ. Complete
 </div>
 
 <section id="overview" class="content-section">
+
+**The Inversion Escape from Leg Entanglement is a rolling defensive technique where the trapped bottom player inverts over the shoulder on the entangled side to carry their knee past the attacker's leg lines, extract the foot, and recover to butterfly guard.**
 
 The inversion escape from leg entanglement is an advanced defensive technique where the bottom player uses an inverted rolling motion to extract their trapped leg from ashi garami configurations and recover to a playable guard position. This escape exploits a fundamental vulnerability in leg entanglements: the attacker's control relies on the defender's leg remaining in a predictable plane of motion, and inversion disrupts that plane by rotating the entire body around the trapped limb. When executed with proper timing, the inversion creates enough angular momentum to clear the knee line and free the trapped foot before the attacker can adjust their grips and leg configuration.
 
@@ -222,5 +259,7 @@ The inversion escape occupies a specific niche within the leg entanglement defen
 
 
 </section>
+
+
 
 </main>

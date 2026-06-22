@@ -3,6 +3,7 @@
   "slug": "feet-on-hips-guard",
   "description": "Master feet on hips guard in BJJ. Strategic guide covering distance management, sweep mechanics, and guard retention with complete bottom and top perspective analysis.",
   "variant_uniqueness": "Leg frames maximize mobility and transitions",
+  "summary": "Feet on Hips Guard is an open guard where the bottom player plants both feet on the opponent's hip bones, using extended leg frames to manage distance, deny passing, and load off-balancing sweeps.",
   "overview": "Feet on Hips Guard represents one of the most fundamental distance management positions in Brazilian Jiu-Jitsu, where the guard player places both feet on the opponent's hip bones to create controllable space. This position serves as a critical gateway between closed guard and more advanced open guard systems, teaching practitioners the essential principle that effective guard play relies on leg frames rather than grip strength alone. The feet-on-hips configuration provides immediate defensive structure while maintaining maximum mobility for transitions, sweeps, and submissions.\n\nThe position's strategic value lies in its dual nature as both a retention mechanism and an offensive platform. When under pressure, the feet-on-hips frame creates instant distance that prevents the opponent from consolidating passing position. When attacking, the same frame provides the structural foundation for off-balancing, creating angles, and launching sweep attempts. The hip bones serve as ideal contact points because they offer bony landmarks that maximize force transmission while minimizing the energy required to maintain frames.\n\nFrom a pedagogical standpoint, feet on hips guard teaches beginners the fundamental concept that open guard is an active, dynamic state rather than a passive defensive posture. The position requires constant hip movement, angle adjustment, and grip fighting—skills that translate directly to all advanced guard variations including Spider Guard, De La Riva, X-Guard, and beyond. Understanding feet on hips mechanics provides the foundation for guard retention theory and creates the technical vocabulary needed for sophisticated open guard play.\n\nThe position excels against standing and combat base opponents, using leg extension to manage engagement distance. However, its effectiveness depends on active implementation—static feet-on-hips frames eventually succumb to persistent pressure and grip control. Successful practitioners use this position as a transitional hub, constantly threatening attacks and guard changes that prevent the opponent from settling into passing sequences. The position's low risk profile and medium energy cost make it sustainable for extended periods, but its true power emerges when used dynamically as part of a comprehensive guard system.",
   "key_principles": [
     "Place feet on hip bones (anterior superior iliac spine) not thighs or stomach for maximum structural connection and pushing efficiency",
@@ -294,7 +295,7 @@
         "attempt_probability": 37
       },
       {
-        "transition": "Knee Cut Pass",
+        "transition": "Knee Slice Pass",
         "attempt_probability": 11
       },
       {

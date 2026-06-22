@@ -10,6 +10,41 @@ description: "Master the Sweep from Inside Sankaku in BJJ. Learn to reverse leg 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Sweep from Inside Sankaku",
+  "description": "Master the Sweep from Inside Sankaku in BJJ. Learn to reverse leg entanglements using hip mechanics and leverage to achieve mount from bottom position.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Sweep from Inside Sankaku", "item": "https://bjjgraph.org/Transitions/Sweep-from-Inside-Sankaku" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Sweep from Inside Sankaku",
+  "description": "The Sweep from Inside Sankaku is a bottom-position reversal that exploits the opponent's weight commitment to the heel hook, using hip elevation and the leg entanglement itself as a lever to off-balance them and arrive in mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Sweep from Inside Sankaku in BJJ. Learn to reverse leg 
 </div>
 
 <section id="overview" class="content-section">
+
+**The Sweep from Inside Sankaku is a bottom-position reversal that exploits the opponent's weight commitment to the heel hook, using hip elevation and the leg entanglement itself as a lever to off-balance them and arrive in mount.**
 
 The Sweep from Inside Sankaku is a high-level reversal technique that transforms one of the most dangerous defensive positions in modern leg lock systems into an offensive opportunity. When trapped in Inside Sankaku, the bottom player faces immediate inside heel hook threats with limited escape options. However, the interconnection that gives the top player control also creates a mechanical link that can be exploited for sweeps when timing and leverage align correctly. The technique requires the bottom player to first neutralize the immediate submission threat by hiding the heel before committing to the reversal.
 
@@ -224,5 +261,7 @@ The Sweep from Inside Sankaku occupies a critical role in the leg entanglement d
 
 
 </section>
+
+
 
 </main>

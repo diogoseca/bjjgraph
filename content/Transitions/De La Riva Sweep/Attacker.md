@@ -172,11 +172,9 @@ description: "How to execute De La Riva Sweep in BJJ. Attacking perspective with
 
 <section id="overview" class="content-section">
 
-The De La Riva Sweep is a fundamental attacking technique from the De La Riva Guard position that allows the bottom player to off-balance and sweep their opponent to achieve top position. This sweep exploits the mechanical disadvantage created when the opponent's weight is distributed across a compromised base, using the De La Riva hook and strategic grips to control and manipulate their center of gravity. The technique is highly effective in gi-based Brazilian Jiu-Jitsu and forms the foundation of an entire guard system.
+As the attacker, your objective is to convert the De La Riva hook and your grips into a coordinated off-balancing action that drops the passer to their side and lets you rise into top position. The sweep lives or dies on the simultaneity of three actions: extending the DLR hook to elevate and steer the near leg, pulling the same-side sleeve to kill the post, and using the collar or belt grip to break posture forward. When these fire together against an opponent whose weight is committed forward or who is trying to step out of the hook, the passer has no base to recover and rolls over their compromised leg.
 
-The De La Riva Sweep works by creating a powerful lever system using the De La Riva hook (leg wrapped around opponent's leg from outside), combined with strategic sleeve and collar grips. By extending the hooked leg while pulling with the grips, the practitioner generates rotational force that disrupts the opponent's base and drives them to the mat. The sweep can lead to various dominant positions including side control, mount, or back control, depending on how the opponent reacts and falls.
-
-This technique represents a cornerstone of modern sport jiu-jitsu, particularly in IBJJF competition formats where the De La Riva guard is extensively used. Mastering the De La Riva Sweep requires understanding timing, grip fighting, hip movement, and the ability to chain multiple attacks together. The sweep becomes increasingly effective as practitioners develop sensitivity to weight distribution and learn to capitalize on their opponent's forward pressure or attempts to pass the guard.
+The highest-percentage entries come not from forcing the sweep but from reading the passer's reaction. A passer who drives forward feeds you their momentum; a passer who steps back or stands tall opens the under-transitions and back takes that share the same hook. Treat the sweep as the lead threat in a dilemma chain rather than an isolated move—if it stalls, the omoplata, X-Guard entry, and Kiss of the Dragon back take are all one reaction away, keeping the passer perpetually defensive.
 
 **From Position**: [[Positions/De La Riva Guard]] (Bottom)
 
@@ -335,6 +333,16 @@ Integrate multiple sweep variations, submission attacks, and back take options f
 <p class="section-subtitle">What are the safety concerns for De La Riva Sweep?</p>
 
 The De La Riva Sweep should be executed with controlled force to protect both practitioners from injury. When sweeping, be mindful of the rotational torque placed on the opponent's knee from the hook position—avoid jerking or explosive movements that could stress knee ligaments. Ensure training partners understand proper falling technique (breakfalls) before practicing at full speed. The bottom player should maintain awareness of their own knee and ankle positioning in the De La Riva hook to prevent hyperextension injuries. When practicing, start slowly and gradually increase speed as both partners develop familiarity with the technique. Communication is essential, particularly when partner is airborne during sweep completion. Practice on appropriate mat surfaces with adequate padding. If you experience knee or ankle discomfort while in De La Riva Guard, release the position immediately and assess before continuing.
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Berimbolo" data-cta="related-system-card" data-system-slug="systems/berimbolo" data-system-name="Berimbolo" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Berimbolo</span><span class="system-card__unlocks-badge">Unlocks 21 techniques</span><span class="system-card__blurb">Complementary attack from De La Riva guard that creates entry dilemmas for Berimbolo</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

@@ -10,6 +10,41 @@ description: "Master the Overhook Guard Sweep in BJJ. Step-by-step guide to exec
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Overhook Guard Sweep",
+  "description": "Master the Overhook Guard Sweep in BJJ. Step-by-step guide to executing this high-percentage closed guard sweep to mount using deep overhook arm control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Overhook Guard Sweep", "item": "https://bjjgraph.org/Transitions/Overhook-Guard-Sweep" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Overhook Guard Sweep",
+  "description": "The Overhook Guard Sweep reverses a top opponent to mount by trapping one of their arms with a deep overhook, removing that side's post and rolling them over the immobilized limb while controlling the free arm.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Overhook Guard Sweep in BJJ. Step-by-step guide to exec
 </div>
 
 <section id="overview" class="content-section">
+
+**The Overhook Guard Sweep reverses a top opponent to mount by trapping one of their arms with a deep overhook, removing that side's post and rolling them over the immobilized limb while controlling the free arm.**
 
 The Overhook Guard Sweep is a fundamental closed guard technique that exploits the structural imbalance created when the bottom player secures a deep overhook on one of the top player's arms. By trapping the arm and eliminating the opponent's ability to post on that side, the sweep creates a mechanically efficient and predictable pathway to the mount position. The technique combines hip angle creation, coordinated leg drive, and upper body pulling mechanics to produce one of the highest-percentage sweeps available from the overhook guard system.
 
@@ -216,5 +253,7 @@ The Overhook Guard Sweep sits at the center of the overhook guard offensive syst
 
 
 </section>
+
+
 
 </main>

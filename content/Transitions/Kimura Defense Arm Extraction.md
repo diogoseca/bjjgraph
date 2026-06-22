@@ -10,6 +10,41 @@ description: "Master the Kimura Defense Arm Extraction in BJJ. Step-by-step guid
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kimura Defense Arm Extraction",
+  "description": "Master the Kimura Defense Arm Extraction in BJJ. Step-by-step guide to freeing your trapped arm from the Kimura grip and returning to half guard safely.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Kimura Defense Arm Extraction", "item": "https://bjjgraph.org/Transitions/Kimura-Defense-Arm-Extraction" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kimura Defense Arm Extraction",
+  "description": "The Kimura Defense Arm Extraction is a defensive escape where the trapped player straightens and drives the captured arm toward the mat to break the opponent's figure-four Kimura grip and recover to half guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,13 +57,15 @@ description: "Master the Kimura Defense Arm Extraction in BJJ. Step-by-step guid
 
 <section id="overview" class="content-section">
 
+**The Kimura Defense Arm Extraction is a defensive escape where the trapped player straightens and drives the captured arm toward the mat to break the opponent's figure-four Kimura grip and recover to half guard.**
+
 The Kimura Defense Arm Extraction is a critical defensive transition for practitioners caught in the Kimura Trap from bottom half guard. When the bottom player secures a figure-four Kimura grip on the top player's arm, the top player must act decisively to extract the compromised arm before the bottom player can develop sweeps, back takes, or submission finishes from the grip. This technique prioritizes systematic grip breaking and arm recovery over explosive movement, using posture, pressure, and precise hand positioning to dismantle the Kimura configuration.
 
 The extraction requires understanding the mechanical weaknesses of the figure-four grip structure. The Kimura grip is strongest when the holder maintains elbows tight to their body and keeps the trapped arm bent at 90 degrees. The top player exploits these limitations by straightening the trapped arm, driving it toward the mat, and using body weight to create pressure angles that make grip retention increasingly difficult. Proper weight distribution through the hips and chest prevents the bottom player from creating the movement and leverage needed to maintain offensive control.
 
 Timing is paramount in this technique. The extraction must be initiated before the bottom player can consolidate secondary controls such as lockdown legs or underhook positioning that compound the Kimura threat. Practitioners who recognize the Kimura grip establishment early and immediately begin the extraction process have significantly higher success rates than those who allow the grip to settle and strengthen. The technique integrates naturally with half guard passing sequences, as a successful extraction typically returns both players to a standard half guard configuration where the top player can resume their passing campaign.
 
-**From Position**: [[Positions/Kimura Trap]] (Bottom)
+**From Position**: [[Positions/Kimura Trap]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -226,5 +263,7 @@ The Kimura Defense Arm Extraction integrates directly with the half guard passin
 
 
 </section>
+
+
 
 </main>

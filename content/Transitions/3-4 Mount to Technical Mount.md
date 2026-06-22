@@ -10,6 +10,41 @@ description: "Master the 3-4 Mount to Technical Mount transition in BJJ. Complet
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "3-4 Mount to Technical Mount",
+  "description": "Master the 3-4 Mount to Technical Mount transition in BJJ. Complete execution guide with leg posting mechanics, back exposure reads, and drill progressions.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "3-4 Mount to Technical Mount", "item": "https://bjjgraph.org/Transitions/3-4-Mount-to-Technical-Mount" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "3-4 Mount to Technical Mount",
+  "description": "The 3-4 Mount to Technical Mount transition advances from asymmetric mount control into a stepped-leg position by isolating the opponent's near arm and sliding the posted knee toward their head as they turn or frame, unlocking high-percentage armbar and back-take threats.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the 3-4 Mount to Technical Mount transition in BJJ. Complet
 </div>
 
 <section id="overview" class="content-section">
+
+**The 3-4 Mount to Technical Mount transition advances from asymmetric mount control into a stepped-leg position by isolating the opponent's near arm and sliding the posted knee toward their head as they turn or frame, unlocking high-percentage armbar and back-take threats.**
 
 The 3-4 Mount to Technical Mount transition capitalizes on the bottom player's natural defensive reactions to advance from asymmetric mount control into a position optimized for armbar attacks and back takes. This represents one of the most organic progressions within the mount hierarchy, as the bottom player's attempts to turn away or create space on the lighter side of 3-4 Mount naturally expose the angles needed for Technical Mount entry. The asymmetric weight distribution of 3-4 Mount creates predictable defensive patterns that a prepared top player exploits through precise timing and arm isolation.
 
@@ -218,5 +255,7 @@ The 3-4 Mount to Technical Mount transition sits at the heart of the mount offen
 
 
 </section>
+
+
 
 </main>

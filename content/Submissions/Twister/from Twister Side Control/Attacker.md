@@ -111,7 +111,7 @@ description: "Step-by-step guide to finishing the Twister spinal lock from Twist
       "name": "How should you release the Twister immediately after your partner taps?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Upon any tap signal, immediately release the head and neck control by unclasp your grip and removing the arm from under their head. Then release all upper body grips to allow the opponent to turn face-up and decompress their spine. Finally, slowly unwind the leg entanglement without pulling or twisting. Let the opponent move naturally into a comfortable position. Always check with your partner verbally after release to confirm they are uninjured. Never maintain any aspect of the position after a tap."
+        "text": "Upon any tap signal, immediately release the head and neck control by unclasping your grip and removing the arm from under their head. Then release all upper body grips to allow the opponent to turn face-up and decompress their spine. Finally, slowly unwind the leg entanglement without pulling or twisting. Let the opponent move naturally into a comfortable position. Always check with your partner verbally after release to confirm they are uninjured. Never maintain any aspect of the position after a tap."
       }
     },
     {

@@ -10,6 +10,41 @@ description: "Master Counter Sweep defense in BJJ. Transform opponent's sweep at
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Counter Sweep",
+  "description": "Master Counter Sweep defense in BJJ. Transform opponent\u0027s sweep attempts into your offensive advantage with precise timing and base mechanics.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Counter Sweep", "item": "https://bjjgraph.org/Transitions/Counter-Sweep" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Counter Sweep",
+  "description": "Counter Sweep is the top player's skill of reading and neutralizing an opponent's sweep attempt from guard, then exploiting their committed weight and momentum to pass or advance to a dominant position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,11 +57,13 @@ description: "Master Counter Sweep defense in BJJ. Transform opponent's sweep at
 
 <section id="overview" class="content-section">
 
+**Counter Sweep is the top player's skill of reading and neutralizing an opponent's sweep attempt from guard, then exploiting their committed weight and momentum to pass or advance to a dominant position.**
+
 Counter sweeping represents the critical defensive skill of neutralizing an opponent's sweep attempt while simultaneously converting their momentum into your own offensive advantage. This meta-technique encompasses the timing, weight distribution, and positional awareness necessary to prevent being swept from top position or to counter an opponent's sweep with your own reversal from bottom. The essence of counter sweeping lies in reading your opponent's commitment to a sweep direction, maintaining optimal base and posture, and exploiting the vulnerable moments created when they overcommit to the sweep attempt.
 
 Against any sweep, the top player must recognize the early indicators: grip changes, hip movement, hook placement, and weight shifts that telegraph the sweep direction. By maintaining proper base principles while remaining mobile enough to follow your opponent's movement, you can either shut down the sweep entirely or use their momentum against them. From bottom position, counter sweeping involves recognizing when your opponent has committed to defending your initial sweep, creating a situation where you can chain to a secondary sweep or transition. This skill separates intermediate practitioners from advanced competitors, as it requires reading multiple layers of action and reaction simultaneously.
 
-**From Position**: [[Positions/Estima Lock Control]] (Bottom)
+**From Position**: [[Positions/Open Guard]] (Top)
 **Success Rate**: 60%
 
 </section>
@@ -216,7 +253,7 @@ Counter-sweep ability is fundamental to all top position work in BJJ and serves 
 
 - [[Transitions/Leg Drag Pass]] - High-percentage pass after successful sweep defense
 
-- [[Transitions/Knee Cut Pass]] - Follow-up pass capitalizing on disrupted guard structure
+- [[Transitions/Knee Slice Pass]] - Follow-up pass capitalizing on disrupted guard structure
 
 - [[Positions/Open Guard]] - Starting position for many sweep attempts you must defend
 
@@ -224,5 +261,7 @@ Counter-sweep ability is fundamental to all top position work in BJJ and serves 
 
 
 </section>
+
+
 
 </main>

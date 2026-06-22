@@ -10,6 +10,41 @@ description: "Learn Triangle from Back in BJJ. Step-by-step setup from Harness t
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Triangle from Back",
+  "description": "Learn Triangle from Back in BJJ. Step-by-step setup from Harness to Rear Triangle control. Master the leg threading sequence and chain attacks.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Triangle from Back", "item": "https://bjjgraph.org/Transitions/Triangle-from-Back" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Triangle from Back",
+  "description": "The Triangle from Back is an advanced back attack where the top player threads one leg over the opponent's defending shoulder from the harness, locking a figure-four around the head and one trapped arm to establish Rear Triangle control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Learn Triangle from Back in BJJ. Step-by-step setup from Harness t
 
 <section id="overview" class="content-section">
 
-The Triangle from Back is an advanced submission setup that transitions from the harness (seat belt) back control position into a rear triangle configuration. Rather than attacking the neck directly with a rear naked choke, the practitioner threads one leg over the opponent's shoulder and locks a figure-four triangle around the head and one arm, establishing the Rear Triangle control position. This technique exploits a common defensive pattern where the opponent strips the choking arm or tucks their chin aggressively against the rear naked choke, opening the space needed to insert the leg over the shoulder.
+**The Triangle from Back is an advanced back attack where the top player threads one leg over the opponent's defending shoulder from the harness, locking a figure-four around the head and one trapped arm to establish Rear Triangle control.**
+
+Within the modern back-attack arsenal, the Triangle from Back is the answer to opponents who survive the rear naked choke by burying both hands on the choking arm. Rather than attacking the neck directly with a rear naked choke, the practitioner threads one leg over the opponent's shoulder and locks a figure-four triangle around the head and one arm, establishing the Rear Triangle control position. This technique exploits a common defensive pattern where the opponent strips the choking arm or tucks their chin aggressively against the rear naked choke, opening the space needed to insert the leg over the shoulder.
 
 Strategically, the Triangle from Back is a high-level chain attack that punishes opponents who commit both hands to defending the rear naked choke. When the opponent pulls the choking arm below chin level with a two-on-one grip, their shoulder opens and the top player can swing the leg over the trapped shoulder to establish the triangle. The technique requires excellent hip dexterity and the ability to maintain back control while transitioning leg position, making it a technique that separates intermediate from advanced practitioners. Once the rear triangle is locked, the bottom player faces a severe positional disadvantage with multiple submission threats including the triangle choke squeeze, armbar on the trapped arm, and wrist locks.
 
@@ -208,8 +245,6 @@ The Triangle from Back occupies a critical branch point in the back attack decis
 
 - [[Transitions/Armbar from Back Transition]] - Alternative submission path when triangle entry is blocked
 
-- [[Submissions/Rear Triangle Choke]] - Related technique - alternative triangle entry from body triangle control
-
 - [[Positions/Back Control/Body Triangle]] - Related control - alternative leg configuration that can transition to triangle
 
 - [[Positions/Crucifix]] - Alternative advancement when opponent defends both choke and triangle
@@ -220,5 +255,7 @@ The Triangle from Back occupies a critical branch point in the back attack decis
 
 
 </section>
+
+
 
 </main>

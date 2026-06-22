@@ -10,6 +10,41 @@ description: "Master the Suplex from Rear Clinch in BJJ. High-impact takedown co
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Suplex from Rear Clinch",
+  "description": "Master the Suplex from Rear Clinch in BJJ. High-impact takedown converting standing back control to side control with explosive lifting and arc mechanics.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Suplex from Rear Clinch", "item": "https://bjjgraph.org/Transitions/Suplex-from-Rear-Clinch" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Suplex from Rear Clinch",
+  "description": "Suplex from Rear Clinch is a high-amplitude wrestling takedown in which the attacker secures a body lock behind a standing opponent and explosively arcs them overhead or laterally to land in dominant side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Suplex from Rear Clinch in BJJ. High-impact takedown co
 
 <section id="overview" class="content-section">
 
-The Suplex from Rear Clinch is a high-amplitude takedown that converts standing back control into dominant ground position, typically landing in side control. Rooted in wrestling tradition and adapted for BJJ competition, this technique uses explosive hip extension and lifting mechanics to arc the opponent overhead or laterally, bypassing their base entirely. The suplex represents one of the most decisive takedown options available from the rear clinch because it eliminates the opponent's ability to use footwork or hand fighting to escape, relying instead on raw mechanical advantage generated through proper body positioning and committed explosive effort.
+**Suplex from Rear Clinch is a high-amplitude wrestling takedown in which the attacker secures a body lock behind a standing opponent and explosively arcs them overhead or laterally to land in dominant side control.**
+
+Rooted in wrestling tradition and adapted for BJJ competition, the suplex stands apart from the safer rear-clinch takedowns by trading methodical control for raw finishing power. The technique uses explosive hip extension and lifting mechanics to arc the opponent overhead or laterally, bypassing their base entirely. It represents one of the most decisive takedown options available from the rear clinch because it eliminates the opponent's ability to use footwork or hand fighting to escape, relying instead on raw mechanical advantage generated through proper body positioning and committed explosive effort.
 
 Strategically, the suplex serves as a powerful deterrent against opponents who fight aggressively to remain standing when controlled from behind. While the mat return and body lock takedown offer safer, more controlled alternatives, the suplex provides a dramatically higher finishing rate against opponents who maintain excellent base and sprawl defense. The technique's effectiveness comes from the element of surprise and the difficulty of defending against a properly timed lift when the opponent's weight is already committed forward or their base is momentarily compromised. However, the high reward comes with proportional risk—a poorly executed suplex can result in the attacker losing position entirely, ending up in half guard bottom or creating a scramble.
 
@@ -222,5 +259,7 @@ The Suplex from Rear Clinch integrates into the standing grappling system as the
 
 
 </section>
+
+
 
 </main>

@@ -10,6 +10,41 @@ description: "Master Arm Extraction escape from Side Control. Learn systematic a
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Arm Extraction",
+  "description": "Master Arm Extraction escape from Side Control. Learn systematic arm removal to recover guard. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Arm Extraction", "item": "https://bjjgraph.org/Transitions/Arm-Extraction" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Arm Extraction",
+  "description": "Arm Extraction is a Side Control escape in which the bottom player frees their trapped arm from the opponent's crossface or underhook, then uses the resulting shoulder-rotation and framing space to recover half guard or closed guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Arm Extraction escape from Side Control. Learn systematic a
 </div>
 
 <section id="overview" class="content-section">
+
+**Arm Extraction is a Side Control escape in which the bottom player frees their trapped arm from the opponent's crossface or underhook, then uses the resulting shoulder-rotation and framing space to recover half guard or closed guard.**
 
 Arm Extraction is a fundamental defensive technique used to escape side control by systematically removing the opponent's underhook or crossface control. This escape creates the necessary space to insert frames and recover guard position. The technique exploits the opponent's commitment to chest-to-chest pressure by using precise timing and hip movement to extract the trapped arm.
 
@@ -226,5 +263,7 @@ Arm extraction serves as a critical defensive connector in the BJJ positional hi
 
 
 </section>
+
+
 
 </main>

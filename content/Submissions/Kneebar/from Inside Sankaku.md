@@ -10,10 +10,55 @@ description: "Master the kneebar from Inside Sankaku in BJJ. Complete finishing 
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Kneebar from Inside Sankaku targets the Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule). Risk: Posterior cruciate ligament (PCL) tear. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kneebar from Inside Sankaku",
+  "description": "Master the kneebar from Inside Sankaku in BJJ. Complete finishing guide covering setup mechanics, hip extension technique, defensive counters, and safety protocols.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Kneebar from Inside Sankaku", "item": "https://bjjgraph.org/Submissions/Kneebar-from-Inside-Sankaku" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kneebar from Inside Sankaku",
+  "description": "The kneebar from Inside Sankaku is a secondary leg attack that exploits the entanglement's leg isolation to hyperextend the opponent's knee via hip extension, capitalizing on the heel-hiding defense to the inside heel hook.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The kneebar from Inside Sankaku is a secondary leg attack that exploits the entanglement's leg isolation to hyperextend the opponent's knee via hip extension, capitalizing on the heel-hiding defense to the inside heel hook.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Leg Lock</span>
+<span class="meta-chip">Targets Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule)</span>
+<span class="meta-chip">60% success</span>
+</div>
+
+> [!danger] Safety
+> Kneebar from Inside Sankaku targets the Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule). Primary risk: Posterior cruciate ligament (PCL) tear. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,53 +75,7 @@ This attack is particularly effective from Inside Sankaku because the figure-fou
 
 The kneebar from Inside Sankaku represents an essential component of a complete leg lock game, transforming the position from a single-attack threat into a multi-dimensional offensive platform that forces opponents to divide their defensive attention and significantly increases overall finishing rates from the entanglement.
 
-**Category**: Joint Lock
-**Type**: Leg Lock
-**Target Area**: Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule)
-**Starting Position**: [[Positions/Inside Sankaku]]
-**From Position**: [[Positions/Inside Sankaku]] (Top)
-**Success Rate**: 60%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Posterior cruciate ligament (PCL) tear | High | 6-12 months with surgical intervention |
-| Medial collateral ligament (MCL) strain or tear | Medium | 4-8 weeks for grade 1-2, 3-6 months for grade 3 |
-| Joint capsule damage | Medium | 6-12 weeks |
-| Meniscus tear (medial or lateral) | High | 3-6 months, may require surgery |
-
-
-**Application Speed**: SLOW and progressive - minimum 3-5 seconds from initial pressure to finish in training
-
-**Tap Signals**:
-- Verbal tap or verbal signal
-- Physical hand tap on opponent or mat
-- Physical foot tap on opponent or mat
-- Any distress vocalization or signal
-
-
-**Release Protocol**:
-1. Immediately stop all hip extension the moment tap is received
-2. Release hip pressure by dropping hips away from opponent's leg
-3. Maintain positional control while releasing the leg slowly
-4. Allow opponent to extract their leg at their own pace
-5. Check with partner verbally after release
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - always apply smooth, progressive pressure
-- Never use competition speed or intensity in training rolls
-- Always communicate with training partners about leg lock experience level
-- Never continue pressure after any tap signal
-- Avoid training kneebars with partners who have pre-existing knee injuries without explicit permission
-
+**Starting Position**: [[Positions/Inside Sankaku]] · **From**: [[Positions/Inside Sankaku]] (Top)
 
 </section>
 
@@ -236,42 +235,64 @@ The kneebar from Inside Sankaku represents an essential component of a complete 
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
-- [[Submissions/Inside Heel Hook]]
+## Related
 - [[Submissions/Inside Heel Hook]]
 - [[Transitions/Heel Hook]]
+- [[Submissions/Toe Hold]]
 - [[Submissions/Calf Slicer]]
 - [[Submissions/Flying Kneebar]]
 - [[Submissions/Achilles Lock]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Inside Sankaku]] - Starting position for this kneebar variation
 - [[Positions/Ashi Garami/Saddle]] - Related leg entanglement with similar kneebar mechanics
 - [[Positions/Kneebar Control]] - Control position for establishing the kneebar finish
-- [[Submissions/Inside Heel Hook]] - Primary alternative submission from the same position
 - [[Positions/Ashi Garami/50-50 Guard]] - Related leg entanglement that also allows kneebar attacks
 - [[Positions/Ashi Garami/Honey Hole]] - Alternative name for Inside Sankaku position
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Posterior cruciate ligament (PCL) tear | High | 6-12 months with surgical intervention |
+| Medial collateral ligament (MCL) strain or tear | Medium | 4-8 weeks for grade 1-2, 3-6 months for grade 3 |
+| Joint capsule damage | Medium | 6-12 weeks |
+| Meniscus tear (medial or lateral) | High | 3-6 months, may require surgery |
+
+
+**Application Speed**: SLOW and progressive - minimum 3-5 seconds from initial pressure to finish in training
+
+**Tap Signals**:
+- Verbal tap or verbal signal
+- Physical hand tap on opponent or mat
+- Physical foot tap on opponent or mat
+- Any distress vocalization or signal
+
+
+**Release Protocol**:
+1. Immediately stop all hip extension the moment tap is received
+2. Release hip pressure by dropping hips away from opponent's leg
+3. Maintain positional control while releasing the leg slowly
+4. Allow opponent to extract their leg at their own pace
+5. Check with partner verbally after release
+
+
+**Training Restrictions**:
+- Never spike or jerk the submission - always apply smooth, progressive pressure
+- Never use competition speed or intensity in training rolls
+- Always communicate with training partners about leg lock experience level
+- Never continue pressure after any tap signal
+- Avoid training kneebars with partners who have pre-existing knee injuries without explicit permission
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Kneebar from Inside Sankaku leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

@@ -10,6 +10,41 @@ description: "Master the Aoki Lock in BJJ. Advanced shoulder lock from Aoki Lock
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Aoki Lock",
+  "description": "Master the Aoki Lock in BJJ. Advanced shoulder lock from Aoki Lock Control using leg entanglement and hip-driven pressure. Setup, finish, and counters explained.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Aoki Lock", "item": "https://bjjgraph.org/Transitions/Aoki-Lock" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Aoki Lock",
+  "description": "The Aoki Lock is a no-gi shoulder-lock submission finished from Aoki Lock Control, where the top player traps the opponent's isolated arm between their legs and drives the hips forward to force external rotation on the shoulder until the tap.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Aoki Lock in BJJ. Advanced shoulder lock from Aoki Lock
 </div>
 
 <section id="overview" class="content-section">
+
+**The Aoki Lock is a no-gi shoulder-lock submission finished from Aoki Lock Control, where the top player traps the opponent's isolated arm between their legs and drives the hips forward to force external rotation on the shoulder until the tap.**
 
 The Aoki Lock is an advanced shoulder lock submission executed from a leg-entangled shoulder control position, named after Japanese MMA fighter Shinya Aoki. This technique combines omoplata-style shoulder manipulation with leg-based trapping, creating rotational pressure on the shoulder joint through hip drive and proper angle maintenance. The finish requires precise mechanical understanding of shoulder anatomy and progressive pressure application to force the tap while minimizing injury risk.
 
@@ -218,5 +255,7 @@ The Aoki Lock represents the terminal offensive option from Aoki Lock top contro
 
 
 </section>
+
+
 
 </main>

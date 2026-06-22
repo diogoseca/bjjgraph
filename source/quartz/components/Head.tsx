@@ -2,6 +2,7 @@ import { i18n } from "../i18n"
 import { FullSlug, joinSegments, pathToRoot } from "../util/path"
 import { JSResourceToScriptElement } from "../util/resources"
 import { googleFontHref } from "../util/theme"
+import { escapeScriptContent } from "../util/escape"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 
 export default (() => {
@@ -35,6 +36,30 @@ export default (() => {
 
     // Get extracted schemas from SchemaExtractor transformer
     const extractedSchemas = fileData.schemas || []
+
+    // Brand/site as the institutional publisher — an Organization, never a Person
+    // (content is co-authored). Plus freshness dates from CreatedModifiedDate.
+    const publisher = {
+      "@type": "Organization",
+      name: "BJJ Graph",
+      url: `https://${cfg.baseUrl}`,
+    }
+    const published = fileData.dates?.created?.toISOString()
+    const modified = fileData.dates?.modified?.toISOString()
+    // Stamp page-level entities with publisher + dates (signals AI answer engines
+    // use). CollectionPage covers the submission family hubs.
+    const enrichSchema = (schema: any) => {
+      const t = schema?.["@type"]
+      if (t === "WebPage" || t === "Article" || t === "CollectionPage") {
+        return {
+          ...schema,
+          ...(published ? { datePublished: published } : {}),
+          ...(modified ? { dateModified: modified } : {}),
+          publisher,
+        }
+      }
+      return schema
+    }
 
     return (
       <head>
@@ -75,7 +100,7 @@ export default (() => {
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify(organizationSchema),
+            __html: escapeScriptContent(JSON.stringify(organizationSchema)),
           }}
         />
         {extractedSchemas.map((schema: object, i: number) => (
@@ -83,7 +108,7 @@ export default (() => {
             key={`schema-${i}`}
             type="application/ld+json"
             dangerouslySetInnerHTML={{
-              __html: JSON.stringify(schema),
+              __html: escapeScriptContent(JSON.stringify(enrichSchema(schema))),
             }}
           />
         ))}

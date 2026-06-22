@@ -1,5 +1,6 @@
 {
   "name": "Triangle Choke Side from Side Control",
+  "summary": "The Triangle Choke Side from Side Control is a blood choke where the top player traps the opponent's near arm across their neck and locks a figure-four from a perpendicular angle, compressing both carotid arteries to force the tap.",
   "description": "Master Triangle Choke Side from top position in BJJ. Complete safety guide covering setup from side control, execution mechanics, and defense patterns.",
   "tags": [
     "bjj",
@@ -88,8 +89,6 @@
   "from_positions": [
     "Side Control",
     "North-South",
-    "Standing Position",
-    "Side Control",
     "Kesa Gatame"
   ],
   "related_submissions": [

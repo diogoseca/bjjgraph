@@ -21,37 +21,37 @@ description: "Master attacking from Carni position in BJJ. Advanced leg entangle
     {
       "@type": "HowToStep",
       "name": "Execute Heel Hook from Carni",
-      "text": "From this position, attempt Heel Hook from Carni. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Heel Hook from Carni. This technique is attempted in 25% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Saddle Entry from Top",
-      "text": "From this position, attempt Saddle Entry from Top. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Saddle Entry from Top. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Rolling Back Take",
-      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 11% of exchanges from this position.",
-      "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Roll to Truck",
       "text": "From this position, attempt Roll to Truck. This technique is attempted in 12% of exchanges from this position.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Kneebar Finish",
+      "text": "From this position, attempt Kneebar Finish. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Calf Slicer from Carni",
-      "text": "From this position, attempt Calf Slicer from Carni. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Rolling Back Take",
+      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Outside Ashi Entry",
-      "text": "From this position, attempt Outside Ashi Entry. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Outside Ashi Entry. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -376,5 +376,7 @@ Start from Carni position with clear rules: if heel is defended, transition to s
 
 
 </section>
+
+
 
 </main>

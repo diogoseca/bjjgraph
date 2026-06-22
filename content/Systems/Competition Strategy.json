@@ -13,7 +13,8 @@
   ],
   "system_type": "Competition Strategy",
   "difficulty_level": "Advanced",
-  "overview": "Competition Strategy represents a comprehensive framework for tournament success that integrates technical preparation, tactical decision-making, and psychological readiness. This system addresses the unique demands of competitive BJJ, where practitioners must execute techniques under pressure while managing time, scoring positions, and adapting to opponents' strategies. Unlike training scenarios, competition requires immediate decision-making with consequences for every positional choice. The framework encompasses pre-match preparation including weight management and opponent analysis, in-match tactics such as grip fighting sequences and positional advancement strategies, and post-match review protocols for continuous improvement. Success in competition demands not only technical proficiency but also the ability to implement game plans under stress, recognize and exploit opponent weaknesses in real-time, and maintain composure when trailing on points or caught in dangerous positions. This strategic approach transforms random technical knowledge into a coherent competitive methodology that maximizes win probability across different rule sets, from IBJJF gi competitions to submission-only superfights.",
+  "summary": "The Competition Strategy system is a comprehensive tournament framework that integrates pre-match preparation, in-match tactical decision-making, scoring optimization, and psychological readiness to maximize win probability across gi, no-gi, and submission-only rule sets.",
+  "overview": "Competitive Brazilian Jiu-Jitsu rewards practitioners who can convert technical knowledge into points and submissions while managing a ticking clock, an unfamiliar opponent, and the adrenaline of the platform. This system addresses the unique demands of competition, where practitioners must execute techniques under pressure while managing time, scoring positions, and adapting to opponents' strategies. Unlike training scenarios, competition requires immediate decision-making with consequences for every positional choice. The framework encompasses pre-match preparation including weight management and opponent analysis, in-match tactics such as grip fighting sequences and positional advancement strategies, and post-match review protocols for continuous improvement. Success in competition demands not only technical proficiency but also the ability to implement game plans under stress, recognize and exploit opponent weaknesses in real-time, and maintain composure when trailing on points or caught in dangerous positions. This strategic approach transforms random technical knowledge into a coherent competitive methodology that maximizes win probability across different rule sets, from IBJJF gi competitions to submission-only superfights.",
   "key_principles": [
     "Position before submission - establish dominant control before hunting finishes to minimize reversal risk",
     "Points management - understand scoring hierarchies and optimize positional sequences for maximum point accumulation",
@@ -261,11 +262,6 @@
       "relationship": "Tactical adaptations for submission-only and no-gi tournament formats"
     },
     {
-      "name": "Timing and Rhythm",
-      "content_type": "Principle",
-      "relationship": "Core principle governing in-match tactical timing, tempo control, and recognizing windows for attacks and transitions"
-    },
-    {
       "name": "Competition Mindset",
       "content_type": "Principle",
       "relationship": "Psychological framework for maintaining composure and confidence under competitive pressure"
@@ -294,6 +290,11 @@
       "name": "Defensive Concepts",
       "content_type": "Principle",
       "relationship": "Decision-making framework for evaluating defensive options, risk tolerance, and maintaining composure in inferior positions"
+    },
+    {
+      "name": "Positional Sparring",
+      "content_type": "Principle",
+      "relationship": "Core training principle for isolating competition-relevant scenarios and building reliable scoring and defensive patterns under resistance"
     },
     {
       "name": "Guard Pull",
@@ -379,6 +380,40 @@
       "name": "Kimura",
       "content_type": "Submission",
       "relationship": "Versatile submission available from multiple positions, often used to force reactions and create advancement opportunities"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "Why should you establish position before hunting submissions in competition?",
+      "answer": "Securing a dominant, stable position first banks points and minimizes reversal risk; if the submission fails you retain control and your lead rather than scrambling into a counter or losing the position."
+    },
+    {
+      "question": "How should risk tolerance change when leading on points with under one minute remaining?",
+      "answer": "Shift to defensive maintenance: minimize movement, consolidate the dominant position, and defend intelligently rather than chasing finishes, since any sweep or reversal in that window could erase the lead."
+    },
+    {
+      "question": "What is the purpose of a predetermined opening sequence in the first 30-60 seconds?",
+      "answer": "It establishes tempo on your terms by dictating grip fighting, stance, and the takedown-versus-guard-pull decision, so you impose your game instead of reacting to the opponent's preferred strategy."
+    },
+    {
+      "question": "Why is studying the specific rule set a critical part of competition preparation?",
+      "answer": "Different formats such as IBJJF gi, no-gi, and submission-only reward different scoring and legal techniques; misreading them costs matches through illegal moves, penalties, or suboptimal positional choices."
+    },
+    {
+      "question": "What should you do when an opponent successfully counters your primary game plan?",
+      "answer": "Switch to a pre-drilled contingency pathway rather than improvising; having multiple attack routes from each position makes adaptation systematic instead of desperate, keeping you ahead of their defenses."
+    },
+    {
+      "question": "How does effective energy management influence competition performance?",
+      "answer": "Pacing efforts during neutral exchanges preserves explosive capacity for scoring windows and overtime; recognizing when an opponent is more fatigued lets you raise tempo and pressure at the decisive moment."
+    },
+    {
+      "question": "What is a common mistake practitioners make in the weeks before a tournament?",
+      "answer": "Trying to learn entirely new techniques instead of sharpening an existing high-percentage game plan; competition is won with reliable, drilled tools, not freshly introduced low-confidence moves."
+    },
+    {
+      "question": "Why should you review footage of both wins and losses after competing?",
+      "answer": "Victories often hide exploitable weaknesses that stronger opponents will punish, while losses reveal concrete technical and tactical gaps; objective review converts every match into actionable training data."
     }
   ]
 }

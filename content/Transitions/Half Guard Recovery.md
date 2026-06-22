@@ -10,6 +10,41 @@ description: "Master Half Guard Recovery from leg drag bottom. Step-by-step defe
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Half Guard Recovery",
+  "description": "Master Half Guard Recovery from leg drag bottom. Step-by-step defense to recover knee shield position with precise timing and frame mechanics.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Half Guard Recovery", "item": "https://bjjgraph.org/Transitions/Half-Guard-Recovery" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Half Guard Recovery",
+  "description": "Half Guard Recovery is a defensive transition from leg drag bottom where the trapped player builds frames, times the passer's movement, and inserts a knee shield to rebuild half guard before the pass consolidates.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Half Guard Recovery from leg drag bottom. Step-by-step defe
 </div>
 
 <section id="overview" class="content-section">
+
+**Half Guard Recovery is a defensive transition from leg drag bottom where the trapped player builds frames, times the passer's movement, and inserts a knee shield to rebuild half guard before the pass consolidates.**
 
 Half Guard Recovery from the leg drag bottom is a critical defensive transition that allows you to re-establish a functional guard position when your opponent has compromised your hip and leg control. This technique represents the primary pathway for transforming a dangerous passing situation into a manageable half guard where you can rebuild your offensive and defensive options. The recovery requires precise timing, proper frame creation, and explosive hip movement to insert your knee shield before the pass completes.
 
@@ -209,7 +246,7 @@ Half Guard Recovery is a cornerstone defensive transition within the guard reten
 
 - [[Transitions/Granby Roll to Guard]] - Alternative escape pathway when half guard recovery fails
 
-- [[Transitions/Butterfly Hook Recovery]] - Alternative guard recovery option using butterfly hook insertion
+- [[Positions/Butterfly Guard]] - Alternative guard recovery option using butterfly hook insertion
 
 - [[Positions/Back Control]] - Danger position if recovery timing fails and opponent backsteps
 
@@ -219,5 +256,7 @@ Half Guard Recovery is a cornerstone defensive transition within the guard reten
 
 
 </section>
+
+
 
 </main>

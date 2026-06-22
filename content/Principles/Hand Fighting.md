@@ -142,11 +142,24 @@ description: "Master hand fighting fundamentals in BJJ. Learn strategic position
 }
 </script>
 
-> Hand Fighting is a medium complexity BJJ principle applicable at the Intermediate level. Develop over Beginner to Advanced.
 
-**Application Level**: Intermediate
-**Complexity**: Medium
-**Development Timeline**: Beginner to Advanced
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Hand Fighting",
+  "description": "Hand Fighting is the continuous tactical battle for upper-body control in which practitioners use hand placement, movement, and timing to establish their own grips and controls while denying the opponent theirs.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Intermediate</span>
+<span class="meta-chip">Medium complexity</span>
+<span class="meta-chip">Beginner to Advanced</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -155,7 +168,9 @@ description: "Master hand fighting fundamentals in BJJ. Learn strategic position
 
 ## What is Hand Fighting?
 
-Hand Fighting represents the dynamic battle for upper body positional control through strategic management of hand positioning, engagement, and prevention. Unlike grip fighting which focuses specifically on establishing and breaking grips, hand fighting encompasses a broader tactical framework involving all aspects of upper body control through hand placement, movement, and sequencing. This concept applies across all phases of BJJ but is particularly critical in the standing phase, clinch exchanges, and upper body dominant positions. Hand fighting serves as both an offensive mechanism for establishing dominant control pathways and a defensive system for preventing opponent's preferred control structures. The ability to win the hand fighting battle often determines subsequent positional advantages and creates the foundation for effective technique application, making it one of the most fundamental yet frequently overlooked conceptual elements in BJJ.
+**Hand Fighting is the continuous tactical battle for upper-body control in which practitioners use hand placement, movement, and timing to establish their own grips and controls while denying the opponent theirs.**
+
+Often conflated with grip fighting, hand fighting operates at a broader tactical level that governs the entire upper-body control exchange. Unlike grip fighting, which focuses specifically on establishing and breaking grips, hand fighting encompasses all aspects of upper body control through hand placement, movement, and sequencing. This concept applies across all phases of BJJ but is particularly critical in the standing phase, clinch exchanges, and upper body dominant positions. Hand fighting serves as both an offensive mechanism for establishing dominant control pathways and a defensive system for preventing opponent's preferred control structures. The ability to win the hand fighting battle often determines subsequent positional advantages and creates the foundation for effective technique application, making it one of the most fundamental yet frequently overlooked conceptual elements in BJJ.
 
 </section>
 
@@ -376,6 +391,19 @@ Training focused on developing tactile sensitivity, reaction speed, and anticipa
 - [[Combat Base]] (Position) - Passing position where hand fighting determines guard retention versus passing success
 - [[Front Headlock]] (Position) - Position where hand fighting for head and arm control determines choke and go-behind opportunities
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Keenan Cornelius Lapel Guard System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Grip-fighting skill essential for winning the lapel exchange and securing controls before the opponent can strip them</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Back-Attack-System" data-cta="related-system-card" data-system-slug="systems/back-attack-system" data-system-name="Back Attack System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Back Attack System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Essential skill for removing defensive frames and creating submission access from back</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Back-Defense-Protocol" data-cta="related-system-card" data-system-slug="systems/back-defense-protocol" data-system-name="Back Defense Protocol" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Back Defense Protocol</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Critical defensive skill for preventing chokes from back control</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Gi-Specific-Strategy" data-cta="related-system-card" data-system-slug="systems/gi-specific-strategy" data-system-name="Gi-Specific Strategy" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Gi-Specific Strategy</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Strategic framework for grip establishment and denial in standup and ground exchanges</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

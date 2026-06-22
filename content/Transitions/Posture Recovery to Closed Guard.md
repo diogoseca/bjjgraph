@@ -10,6 +10,41 @@ description: "Learn Posture Recovery to Closed Guard in BJJ. Systematic guard re
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Posture Recovery to Closed Guard",
+  "description": "Learn Posture Recovery to Closed Guard in BJJ. Systematic guard recovery from turtle using frames, hip escapes, and precise timing to escape back attack threats.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Posture Recovery to Closed Guard", "item": "https://bjjgraph.org/Transitions/Posture-Recovery-to-Closed-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Posture Recovery to Closed Guard",
+  "description": "Posture Recovery to Closed Guard is a turtle-bottom escape where the bottom player uses frames and a hip escape to rotate out of Crackhead Control and close guard before the opponent can take the back.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Learn Posture Recovery to Closed Guard in BJJ. Systematic guard re
 </div>
 
 <section id="overview" class="content-section">
+
+**Posture Recovery to Closed Guard is a turtle-bottom escape where the bottom player uses frames and a hip escape to rotate out of Crackhead Control and close guard before the opponent can take the back.**
 
 Posture Recovery to Closed Guard is a fundamental defensive transition from turtle bottom positions, particularly from the Crackhead Control bottom perspective developed in the 10th Planet system. This technique represents the systematic approach to converting a disadvantageous turtle position into a neutral or advantageous closed guard position where offensive options become available.
 
@@ -220,5 +257,7 @@ Posture Recovery to Closed Guard is a critical escape in the turtle defense syst
 
 
 </section>
+
+
 
 </main>

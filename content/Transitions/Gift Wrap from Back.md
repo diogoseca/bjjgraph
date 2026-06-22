@@ -10,6 +10,41 @@ description: "Master the Gift Wrap from Back transition in BJJ. Learn arm thread
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Gift Wrap from Back",
+  "description": "Master the Gift Wrap from Back transition in BJJ. Learn arm threading technique, wrist isolation, and systematic control upgrade from back control position.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Gift Wrap from Back", "item": "https://bjjgraph.org/Transitions/Gift-Wrap-from-Back" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Gift Wrap from Back",
+  "description": "Gift Wrap from Back is a back-control transition where the attacker threads one arm under the defender's armpit and pins their captured arm high across the chest, upgrading standard back control into a position with roughly half the defensive resistance.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Gift Wrap from Back transition in BJJ. Learn arm thread
 
 <section id="overview" class="content-section">
 
-The Gift Wrap from Back is a positional control transition where the attacker, having established back control, isolates one of the defender's arms by threading their controlling arm underneath the defender's armpit and securing the wrist or forearm on the far side of the body. This action pulls the defender's arm across their own chest in a diagonal line, creating the Gift Wrap configuration that removes roughly half of the defender's defensive capability.
+**Gift Wrap from Back is a back-control transition where the attacker threads one arm under the defender's armpit and pins their captured arm high across the chest, upgrading standard back control into a position with roughly half the defensive resistance.**
+
+Within the back attack hierarchy, the Gift Wrap from Back is the bridge between simply holding the back and reliably finishing from it. Having established back control, the attacker isolates one of the defender's arms by threading their controlling arm underneath the defender's armpit and securing the wrist or forearm on the far side of the body. This action pulls the defender's arm across their own chest in a diagonal line, creating the Gift Wrap configuration that removes roughly half of the defender's defensive capability.
 
 This transition represents a critical intermediate step in the back attack system. Rather than attempting submissions directly from standard back control against a well-defending opponent who maintains active hand fighting, the Gift Wrap entry allows the attacker to methodically strip away defensive tools before committing to finishing attempts. The technique exploits moments when the defender's arm becomes exposed during grip exchanges, or when the defender commits one arm heavily to neck defense, leaving the other arm vulnerable to isolation.
 
@@ -220,5 +257,7 @@ The Gift Wrap from Back occupies a pivotal role in the back attack system as the
 
 
 </section>
+
+
 
 </main>

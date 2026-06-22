@@ -10,6 +10,41 @@ description: "Escape the body triangle to half guard in BJJ. Complete guide to s
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Body Triangle Escape to Half Guard",
+  "description": "Escape the body triangle to half guard in BJJ. Complete guide to systematic triangle clearing, hip movement, and guard recovery from dominant back control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Body Triangle Escape to Half Guard", "item": "https://bjjgraph.org/Transitions/Body-Triangle-Escape-to-Half-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Body Triangle Escape to Half Guard",
+  "description": "The Body Triangle Escape to Half Guard dismantles the figure-four leg lock of body triangle back control by clearing the foot from behind the opponent's knee, then hip escaping to thread the legs and recover half guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Escape the body triangle to half guard in BJJ. Complete guide to s
 </div>
 
 <section id="overview" class="content-section">
+
+**The Body Triangle Escape to Half Guard dismantles the figure-four leg lock of body triangle back control by clearing the foot from behind the opponent's knee, then hip escaping to thread the legs and recover half guard.**
 
 The Body Triangle Escape to Half Guard is one of the most technically demanding escapes in Brazilian Jiu-Jitsu, requiring practitioners to systematically dismantle the figure-four leg lock that characterizes body triangle back control before recovering a viable guard position. Unlike standard back escape sequences where hook clearing enables rotation, the body triangle creates a locked mechanical structure that must be specifically attacked at its weakest point—the foot tucked behind the opponent's knee—before any meaningful positional change is possible.
 
@@ -218,5 +255,7 @@ The Body Triangle Escape to Half Guard occupies a specialized node within the ba
 
 
 </section>
+
+
 
 </main>

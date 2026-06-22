@@ -10,6 +10,41 @@ description: "Master the Matrix Back Take from turtle. Step-by-step execution wi
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Matrix Back Take",
+  "description": "Master the Matrix Back Take from turtle. Step-by-step execution with control maintenance, weight distribution, and dynamic hip slide mechanics for securing back control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Matrix Back Take", "item": "https://bjjgraph.org/Transitions/Matrix-Back-Take" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Matrix Back Take",
+  "description": "The Matrix Back Take is an advanced no-gi turtle attack where the attacker threads an arm and leg through the opponent's elbow-knee gap and slides the hips underneath to surface on the far side with back-control hooks already set.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Matrix Back Take from turtle. Step-by-step execution wi
 </div>
 
 <section id="overview" class="content-section">
+
+**The Matrix Back Take is an advanced no-gi turtle attack where the attacker threads an arm and leg through the opponent's elbow-knee gap and slides the hips underneath to surface on the far side with back-control hooks already set.**
 
 The Matrix Back Take is an advanced transition from turtle top position that uses a dynamic hip slide to bypass the opponent's defensive frames and establish back control. Rather than fighting through the tight elbow-to-knee structure of a well-defended turtle, the attacker threads an arm and leg through available space, then slides the hips underneath the opponent's center of gravity to emerge on the far side with hooks already in position. The technique derives its name from the characteristic backward lean during the hip slide phase, and it is particularly effective when the opponent is tightly defending their turtle with good base and posture that makes traditional seat belt back takes difficult.
 
@@ -223,6 +260,16 @@ The matrix back take is an advanced component of a comprehensive turtle top atta
 
 - [[Positions/Matrix]] - Parent position representing the dynamic rolling back take system
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Danaher Straight Jacket System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Advanced back take entry from specific guard positions using matrix movement pattern</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

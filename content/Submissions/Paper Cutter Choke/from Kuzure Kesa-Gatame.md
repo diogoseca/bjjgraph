@@ -10,10 +10,55 @@ description: "Master the paper cutter choke from kuzure kesa-gatame. Complete gu
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Paper Cutter Choke from Kuzure Kesa-Gatame targets the Carotid arteries (bilateral compression). Risk: Loss of consciousness from carotid artery compression. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Paper Cutter Choke from Kuzure Kesa-Gatame",
+  "description": "Master the paper cutter choke from kuzure kesa-gatame. Complete guide covering lapel grip mechanics, finishing details, and defense strategies.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Paper Cutter Choke from Kuzure Kesa-Gatame", "item": "https://bjjgraph.org/Submissions/Paper-Cutter-Choke-from-Kuzure-Kesa-Gatame" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Paper Cutter Choke from Kuzure Kesa-Gatame",
+  "description": "The paper cutter choke from Kuzure Kesa-Gatame is a gi blood choke where the top player feeds the far lapel behind the neck and cuts the forearm blade across both carotid arteries while pinning with hip pressure and a trapped arm.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The paper cutter choke from Kuzure Kesa-Gatame is a gi blood choke where the top player feeds the far lapel behind the neck and cuts the forearm blade across both carotid arteries while pinning with hip pressure and a trapped arm.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries (bilateral compression)</span>
+<span class="meta-chip">62% success</span>
+</div>
+
+> [!danger] Safety
+> Paper Cutter Choke from Kuzure Kesa-Gatame targets the Carotid arteries (bilateral compression). Primary risk: Loss of consciousness from carotid artery compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,55 +75,7 @@ What makes this variation particularly dangerous is the positional pressure that
 
 Strategically, this choke pairs exceptionally well with the americana and armbar threats already present from kuzure kesa-gatame. When the opponent defends the arm attacks by keeping their elbow tight, they expose the neck. When they address the choke threat by reaching for your choking hand, they expose the arm. This creates a genuine submission dilemma where every defensive action opens a different finishing path.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries (bilateral compression)
-**Starting Position**: [[Positions/Side Control/Kuzure Kesa-Gatame]]
-**From Position**: [[Positions/Side Control/Kuzure Kesa-Gatame]] (Top)
-**Success Rate**: 62%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Loss of consciousness from carotid artery compression | High | Immediate to 1-2 minutes if released promptly; potential neurological damage if held beyond tap |
-| Trachea damage from improper angle or excessive force | High | 2-6 weeks for minor bruising; months for severe damage |
-| Neck strain or cervical spine stress from head rotation | Medium | 1-3 weeks |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training, allowing partner to recognize danger and tap
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any verbal distress)
-- Physical hand tap on opponent or mat
-- Physical foot tap on mat
-- Any distress signal or unusual sound
-- Loss of defensive hand fighting (possible unconsciousness)
-
-
-**Release Protocol**:
-1. Immediately release the choking collar grip completely
-2. Remove your forearm from across the neck
-3. Allow opponent's head to return to neutral position
-4. Check partner's responsiveness verbally
-5. If unconscious, position partner on their side in recovery position and monitor breathing
-6. Never shake or move an unconscious partner roughly
-
-
-**Training Restrictions**:
-- Never apply this choke at competition speed in training
-- Never jerk or spike the submission with sudden force
-- Always ensure partner has both hands free to tap
-- Do not practice on beginners who do not understand blood chokes
-- Never continue applying pressure after feeling partner go limp
-- Avoid practicing when partner has neck or throat injuries
-
+**Starting Position**: [[Positions/Side Control/Kuzure Kesa-Gatame]] · **From**: [[Positions/Side Control/Kuzure Kesa-Gatame]] (Top)
 
 </section>
 
@@ -230,40 +227,64 @@ Strategically, this choke pairs exceptionally well with the americana and armbar
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Breadcutter Choke]]
 - [[Submissions/Cross Collar Choke]]
 - [[Submissions/Ezekiel Choke]]
 - [[Submissions/Baseball Bat Choke]]
 - [[Transitions/Arm Triangle]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Side Control/Kuzure Kesa-Gatame]] - Primary starting position for this choke variant
 - [[Positions/Side Control]] - Parent position family with shared control principles
-- [[Submissions/Breadcutter Choke]] - Similar cross-collar choke from side control positions
 - [[Positions/Side Control/Kesa Gatame]] - Related scarf hold position with alternative choke entries
 - [[Positions/North-South]] - Transition option when choke defense creates positional openings
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Loss of consciousness from carotid artery compression | High | Immediate to 1-2 minutes if released promptly; potential neurological damage if held beyond tap |
+| Trachea damage from improper angle or excessive force | High | 2-6 weeks for minor bruising; months for severe damage |
+| Neck strain or cervical spine stress from head rotation | Medium | 1-3 weeks |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training, allowing partner to recognize danger and tap
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any verbal distress)
+- Physical hand tap on opponent or mat
+- Physical foot tap on mat
+- Any distress signal or unusual sound
+- Loss of defensive hand fighting (possible unconsciousness)
+
+
+**Release Protocol**:
+1. Immediately release the choking collar grip completely
+2. Remove your forearm from across the neck
+3. Allow opponent's head to return to neutral position
+4. Check partner's responsiveness verbally
+5. If unconscious, position partner on their side in recovery position and monitor breathing
+6. Never shake or move an unconscious partner roughly
+
+
+**Training Restrictions**:
+- Never apply this choke at competition speed in training
+- Never jerk or spike the submission with sudden force
+- Always ensure partner has both hands free to tap
+- Do not practice on beginners who do not understand blood chokes
+- Never continue applying pressure after feeling partner go limp
+- Avoid practicing when partner has neck or throat injuries
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Paper Cutter Choke from Kuzure Kesa-Gatame leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

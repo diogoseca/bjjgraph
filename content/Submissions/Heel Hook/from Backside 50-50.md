@@ -10,10 +10,55 @@ description: "Master the heel hook from Backside 50-50 in BJJ. Complete guide to
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Heel Hook from Backside 50-50 targets the Knee (MCL, LCL, ACL, meniscus). Risk: MCL tear from medial rotational force transmitted through the heel to the knee joint. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Heel Hook from Backside 50-50",
+  "description": "Master the heel hook from Backside 50-50 in BJJ. Complete guide to opportunistic leg lock finishing from disadvantaged entanglement with expert breakdowns.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Heel Hook from Backside 50-50", "item": "https://bjjgraph.org/Submissions/Heel-Hook-from-Backside-50-50" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Heel Hook from Backside 50-50",
+  "description": "The heel hook from Backside 50-50 is an opportunistic inside heel hook attacked from the disadvantaged bottom of the entanglement, exploiting moments when the top player commits to passing or back control to rotationally break the knee.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The heel hook from Backside 50-50 is an opportunistic inside heel hook attacked from the disadvantaged bottom of the entanglement, exploiting moments when the top player commits to passing or back control to rotationally break the knee.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Heel Hook</span>
+<span class="meta-chip">Targets Knee (MCL, LCL, ACL, meniscus)</span>
+<span class="meta-chip">45% success</span>
+</div>
+
+> [!danger] Safety
+> Heel Hook from Backside 50-50 targets the Knee (MCL, LCL, ACL, meniscus). Primary risk: MCL tear from medial rotational force transmitted through the heel to the knee joint. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,51 +75,7 @@ The mechanics of this heel hook rely on the same fundamental rotational breaking
 
 Competition analysis reveals that this attack succeeds most often as a counter-attack rather than a proactive offense. When the top player shifts weight to pursue back control or commits to their own leg attack, their heel becomes momentarily accessible and their defensive posture toward their own legs weakens. The attempt probability is low but the finish rate is meaningful when conditions align, making it a critical deterrent that prevents top players from attacking with impunity. Recognizing these windows and executing with precision separates the opportunistic finisher from the practitioner who simply absorbs pressure from bottom.
 
-**Category**: Joint Lock
-**Type**: Heel Hook
-**Target Area**: Knee (MCL, LCL, ACL, meniscus)
-**Starting Position**: [[Positions/Ashi Garami/Backside 50-50]]
-**From Position**: [[Positions/Ashi Garami/Backside 50-50]] (Bottom)
-**Success Rate**: 45%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| MCL tear from medial rotational force transmitted through the heel to the knee joint | CRITICAL | 6-12 months, often requiring surgical reconstruction and extensive rehabilitation |
-| Meniscus tear from combined rotational and compressive forces on the knee | High | 3-6 months, may require arthroscopic surgery |
-| ACL damage from excessive rotational torque transmitted through the tibia to the knee | CRITICAL | 9-12 months with surgical reconstruction and rehabilitation |
-| LCL sprain or tear from lateral rotational stress during outside heel hook variation | High | 4-8 months depending on severity grade |
-
-
-**Application Speed**: Extremely fast onset. Heel hooks can cause structural ligament damage within fractions of a second after the breaking mechanism engages, often before pain signals reach the brain. Always apply pressure progressively in training and pause when the mechanism locks to allow your partner time to tap.
-
-**Tap Signals**:
-- Verbal tap - clearly say 'tap' or 'stop' loud enough for partner to hear
-- Physical tap - tap partner's body, legs, or the mat at least twice with hand or foot
-- Foot tap - tap the mat or opponent with the free foot when hands are trapped in the entanglement
-- Any visible distress, panic response, or sudden stillness should be treated as a tap immediately
-
-
-**Release Protocol**:
-1. Release grip immediately upon any tap signal without completing or maintaining the rotation
-2. Maintain leg entanglement position briefly after release to allow partner to assess their knee before moving
-3. Do not re-engage the same leg attack immediately after release - allow recovery and assessment time
-4. If partner shows any signs of injury after release, stop the round entirely and assess before continuing
-
-
-**Training Restrictions**:
-- Purple belt and above only for live heel hook exchanges - lower belts should drill grip acquisition and positioning without finishing pressure
-- Always communicate comfort level with heel hooks before rolling with new or unfamiliar training partners
-- No explosive or jerking application of finishing force in training - progressive pressure only with clear pauses
-- Avoid heel hook exchanges when fatigued as reaction time for recognizing danger and tapping slows significantly
-
+**Starting Position**: [[Positions/Ashi Garami/Backside 50-50]] · **From**: [[Positions/Ashi Garami/Backside 50-50]] (Bottom)
 
 </section>
 
@@ -241,25 +242,15 @@ Competition analysis reveals that this attack succeeds most often as a counter-a
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Transitions/Heel Hook]]
 - [[Submissions/Achilles Lock]]
 - [[Positions/Aoki Lock Control]]
 - [[Transitions/Estima Lock]]
 - [[Submissions/Calf Slicer]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Ashi Garami/Backside 50-50]] - Source position where this heel hook attack originates from bottom
-- [[Transitions/Heel Hook]] - Parent submission family with shared finishing mechanics and grip configurations
 - [[Positions/Ashi Garami/Saddle]] - Superior leg entanglement offering higher-percentage heel hook finishes for comparison
 - [[Positions/Ashi Garami/50-50 Guard]] - Parent position family sharing the mirrored leg entanglement structure
 - [[Positions/Ashi Garami/Honey Hole]] - Superior entanglement the top player may transition toward if heel hook fails
@@ -267,19 +258,48 @@ Competition analysis reveals that this attack succeeds most often as a counter-a
 - [[Transitions/Ashi Garami Escape]] - Escape pathway available when heel hook attempt fails and position must be abandoned
 - [[Transitions/Back Take from 50-50]] - Top player positional advancement that creates the opening for this heel hook
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Related leg entanglement with similar heel hook finishing mechanics
-- [[Submissions/Achilles Lock]] - Alternative leg lock available from similar entanglement positions as secondary threat
+
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| MCL tear from medial rotational force transmitted through the heel to the knee joint | CRITICAL | 6-12 months, often requiring surgical reconstruction and extensive rehabilitation |
+| Meniscus tear from combined rotational and compressive forces on the knee | High | 3-6 months, may require arthroscopic surgery |
+| ACL damage from excessive rotational torque transmitted through the tibia to the knee | CRITICAL | 9-12 months with surgical reconstruction and rehabilitation |
+| LCL sprain or tear from lateral rotational stress during outside heel hook variation | High | 4-8 months depending on severity grade |
+
+
+**Application Speed**: Extremely fast onset. Heel hooks can cause structural ligament damage within fractions of a second after the breaking mechanism engages, often before pain signals reach the brain. Always apply pressure progressively in training and pause when the mechanism locks to allow your partner time to tap.
+
+**Tap Signals**:
+- Verbal tap - clearly say 'tap' or 'stop' loud enough for partner to hear
+- Physical tap - tap partner's body, legs, or the mat at least twice with hand or foot
+- Foot tap - tap the mat or opponent with the free foot when hands are trapped in the entanglement
+- Any visible distress, panic response, or sudden stillness should be treated as a tap immediately
+
+
+**Release Protocol**:
+1. Release grip immediately upon any tap signal without completing or maintaining the rotation
+2. Maintain leg entanglement position briefly after release to allow partner to assess their knee before moving
+3. Do not re-engage the same leg attack immediately after release - allow recovery and assessment time
+4. If partner shows any signs of injury after release, stop the round entirely and assess before continuing
+
+
+**Training Restrictions**:
+- Purple belt and above only for live heel hook exchanges - lower belts should drill grip acquisition and positioning without finishing pressure
+- Always communicate comfort level with heel hooks before rolling with new or unfamiliar training partners
+- No explosive or jerking application of finishing force in training - progressive pressure only with clear pauses
+- Avoid heel hook exchanges when fatigued as reaction time for recognizing danger and tapping slows significantly
 
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Heel Hook from Backside 50-50 leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

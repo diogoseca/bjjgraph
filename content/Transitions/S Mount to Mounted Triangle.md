@@ -10,6 +10,41 @@ description: "Master the S Mount to Mounted Triangle transition in BJJ. Learn le
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "S Mount to Mounted Triangle",
+  "description": "Master the S Mount to Mounted Triangle transition in BJJ. Learn leg threading mechanics, triangle lock timing, submission chains, and how to counter defensive reactions.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "S Mount to Mounted Triangle", "item": "https://bjjgraph.org/Transitions/S-Mount-to-Mounted-Triangle" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "S Mount to Mounted Triangle",
+  "description": "S Mount to Mounted Triangle is a submission-chain transition where the top player, meeting armbar defense, threads the head-side leg under the opponent's chin to convert arm isolation into a mounted triangle that threatens both choke and armbar.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the S Mount to Mounted Triangle transition in BJJ. Learn le
 </div>
 
 <section id="overview" class="content-section">
+
+**S Mount to Mounted Triangle is a submission-chain transition where the top player, meeting armbar defense, threads the head-side leg under the opponent's chin to convert arm isolation into a mounted triangle that threatens both choke and armbar.**
 
 The S Mount to Mounted Triangle transition represents one of the most natural submission chains in Brazilian Jiu-Jitsu, capitalizing on a common defensive reaction to armbar threats from S Mount. When the bottom player successfully defends the armbar by bending their arm, clasping their hands, or tucking their elbow tight, the top practitioner can redirect the attack by threading their leg under the opponent's chin to establish a mounted triangle configuration. The leg already positioned over the opponent's head in S Mount provides the structural foundation, making this thread mechanically efficient when executed with proper timing.
 
@@ -224,5 +261,7 @@ The S Mount to Mounted Triangle transition occupies a critical position in the m
 
 
 </section>
+
+
 
 </main>

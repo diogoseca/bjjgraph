@@ -148,10 +148,23 @@ description: "Master the Twister System in BJJ. Complete framework from lockdown
 }
 </script>
 
-> Twister System is a advanced difficulty Submission Chain system. Integrates 6 components.
 
-**System Type**: Submission Chain
-**Difficulty Level**: Advanced
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Twister System",
+  "description": "The Twister System is Eddie Bravo's 10th Planet submission chain that uses lockdown half-guard control to advance through the Electric Chair and Truck positions to the Twister, a no-gi lateral spinal lock.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Submission Chain</span>
+<span class="meta-chip">Advanced difficulty</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -160,11 +173,31 @@ description: "Master the Twister System in BJJ. Complete framework from lockdown
 
 ## What is Twister System?
 
-The Twister System is Eddie Bravo's revolutionary submission chain that begins from the lockdown half guard position and progresses through a series of controlling positions (Electric Chair, Truck, Twister Side Control) to the signature Twister submission - a devastating spinal lock. This system represents a fundamental departure from traditional Brazilian Jiu-Jitsu, emphasizing flexibility, unconventional positioning, and attacking the spine rather than joints. The system is built on the principle of progressive control, where each position offers its own submission threats while also serving as a gateway to more dominant positions.
+**The Twister System is Eddie Bravo's 10th Planet submission chain that uses lockdown half-guard control to advance through the Electric Chair and Truck positions to the Twister, a no-gi lateral spinal lock.**
+
+Emerging from Eddie Bravo's 10th Planet Jiu-Jitsu in the early 2000s, the Twister System adapted a classic wrestling spinal lock into a complete no-gi attacking framework anchored to the lockdown half guard. It represents a fundamental departure from traditional Brazilian Jiu-Jitsu, emphasizing flexibility, unconventional positioning, and attacking the spine rather than the joints. The system is built on the principle of progressive control, where each position (Electric Chair, Truck, Twister Side Control) offers its own submission threats while also serving as a gateway to more dominant positions.
 
 What makes the Twister System unique is its emphasis on creating uncomfortable, flexibility-demanding positions that many traditionally-trained opponents struggle to defend. The lockdown provides exceptional control of the opponent's leg, preventing them from establishing traditional half guard passing mechanics. From there, the system offers multiple pathways: the Electric Chair attacks the groin and inner thigh, the Old School Sweep provides positional advancement, and the Truck Position opens the door to back attacks and the Twister itself. Each component of the system works synergistically, with transitions flowing naturally from one position to the next based on the opponent's defensive reactions.
 
 The Twister System has proven effective at the highest levels of no-gi competition and has influenced modern BJJ by demonstrating that flexibility-based controls and spinal attacks can be systematically developed and applied. While the system has a reputation for being unorthodox, it's built on sound mechanical principles: controlling the hips, disrupting the opponent's base, and attacking structures (the spine) that are difficult to defend when proper control is established. The system requires dedicated practice to master the lockdown mechanics, body positioning for the truck, and the technical details of the Twister finish, but rewards practitioners with a comprehensive attack sequence that opponents often have limited experience defending.
+
+</section>
+
+
+
+<section id="unlock-graph" class="content-section system-unlock" data-system-unlock hidden>
+
+## Unlock this part of the graph
+
+<p class="section-subtitle">This system teaches the highlighted nodes in the graph. Mark what you already know &mdash; be honest, it's your game.</p>
+
+<div class="system-progress" data-system-progress>
+<svg class="system-progress__ring" viewBox="0 0 44 44" aria-hidden="true"><circle class="system-progress__ring-bg" cx="22" cy="22" r="19"></circle><circle class="system-progress__ring-fill" cx="22" cy="22" r="19"></circle></svg>
+<div class="system-progress__text">You've unlocked <strong class="system-progress__known">0</strong> / <span class="system-progress__total">0</span> techniques in this system</div>
+<button class="system-progress__mark-all" data-mark-system type="button">Mark whole system as known</button>
+</div>
+
+<ul class="system-members" data-system-members></ul>
 
 </section>
 

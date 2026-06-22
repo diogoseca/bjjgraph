@@ -142,11 +142,24 @@ description: "Master neck defense mechanics in BJJ. Learn protective posture pri
 }
 </script>
 
-> Chin Protection is a medium complexity BJJ principle applicable at the Fundamental level. Develop over Beginner to Advanced.
 
-**Application Level**: Fundamental
-**Complexity**: Medium
-**Development Timeline**: Beginner to Advanced
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Chin Protection",
+  "description": "Chin Protection is the constant postural discipline of tucking the chin to the chest and elevating the shoulders to deny an opponent the space needed to slide an arm or collar across the neck and finish a choke.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Fundamental</span>
+<span class="meta-chip">Medium complexity</span>
+<span class="meta-chip">Beginner to Advanced</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -154,6 +167,8 @@ description: "Master neck defense mechanics in BJJ. Learn protective posture pri
 <section id="overview" class="content-section">
 
 ## What is Chin Protection?
+
+**Chin Protection is the constant postural discipline of tucking the chin to the chest and elevating the shoulders to deny an opponent the space needed to slide an arm or collar across the neck and finish a choke.**
 
 Chin Protection represents the fundamental defensive principle of maintaining proper head and neck positioning to eliminate available space for opponent's choking attacks, particularly in back control and front headlock scenarios. Unlike active defensive techniques that require complex technical execution, chin protection is a constant postural discipline that creates structural barriers preventing opponent's arms from accessing the neck's vulnerable surfaces. This concept encompasses the biomechanical understanding of neck protection, head positioning strategies, shoulder coordination, and the integration of chin protection with other defensive elements to create comprehensive submission defense. Chin protection serves as both the first line of defense against choking attacks by denying opponent access to required anatomical targets, and as a foundational element supporting all other defensive techniques by maintaining defensive structural integrity. The ability to maintain proper chin protection reflexively, even under pressure and during transitional movements, often represents the difference between surviving dangerous positions and succumbing to high-percentage submissions, making it one of the most essential fundamental concepts for all BJJ practitioners.
 
@@ -381,6 +396,18 @@ Work on maintaining chin protection during dynamic scrambles and rapid position 
 - [[Darce Choke]] (Submission) - Front headlock choke that chin protection helps defend against by preventing deep arm positioning around the neck
 - [[Defensive Concepts]] (Principle) - Chin protection exemplifies core defensive concepts specifically applied to neck defense contexts
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/MMA-Crossover-Strategy" data-cta="related-system-card" data-system-slug="systems/mma-crossover-strategy" data-system-name="MMA Crossover Strategy" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">MMA Crossover Strategy</span><span class="system-card__unlocks-badge">Unlocks 27 techniques</span><span class="system-card__blurb">Critical safety principle for preventing knockout damage</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Back-Attack-System" data-cta="related-system-card" data-system-slug="systems/back-attack-system" data-system-name="Back Attack System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Back Attack System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Understanding opponent&#x27;s primary defense helps create attack sequences</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Back-Defense-Protocol" data-cta="related-system-card" data-system-slug="systems/back-defense-protocol" data-system-name="Back Defense Protocol" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Back Defense Protocol</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">First priority in back defense protocol</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

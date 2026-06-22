@@ -10,6 +10,41 @@ description: "Master the far side armbar from knee on belly in BJJ. Complete gui
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Far Side Armbar from KOB",
+  "description": "Master the far side armbar from knee on belly in BJJ. Complete guide covering setup, execution, counters, and defense for this dynamic submission attack.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Far Side Armbar from KOB", "item": "https://bjjgraph.org/Transitions/Far-Side-Armbar-from-KOB" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Far Side Armbar from KOB",
+  "description": "The far side armbar from knee on belly is a top-position arm attack that isolates the opponent's far arm — exposed when they frame against knee pressure — and swings a leg over the head to enter armbar control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the far side armbar from knee on belly in BJJ. Complete gui
 
 <section id="overview" class="content-section">
 
-The far side armbar from knee on belly is a high-percentage submission setup that exploits the natural defensive reactions of the bottom player under intense diaphragm pressure. When the top player establishes knee on belly, the bottom player instinctively pushes against the knee or reaches across their body to alleviate the crushing weight — both reactions expose the far arm to isolation and attack. This technique capitalizes on that defensive vulnerability by reaching across to control the far wrist, then swinging the leg over the opponent's head to transition into armbar control.
+**The far side armbar from knee on belly is a top-position arm attack that isolates the opponent's far arm — exposed when they frame against knee pressure — and swings a leg over the head to enter armbar control.**
+
+Within the knee-on-belly attack hierarchy, this technique stands out as a high-percentage setup precisely because it punishes the natural defensive reactions of the bottom player under intense diaphragm pressure. When the top player establishes knee on belly, the bottom player instinctively pushes against the knee or reaches across their body to alleviate the crushing weight — both reactions expose the far arm to isolation and attack. The attacker capitalizes on that defensive vulnerability by reaching across to control the far wrist, then swinging the leg over the opponent's head to transition into armbar control.
 
 What makes the far side armbar particularly effective is the element of misdirection. Most practitioners defending knee on belly focus their awareness on near-side threats — the near arm is typically closer to baseball bat choke setups and standard armbar entries. The far side attack comes from an unexpected angle, catching opponents in the gap between their defensive awareness and the actual threat vector. The transition requires precise timing and weight management, as the attacker must maintain enough knee pressure to keep the opponent reactive while simultaneously freeing their hands and legs to execute the armbar entry.
 
@@ -218,5 +255,7 @@ The far side armbar from knee on belly integrates into the KOB attack system as 
 
 
 </section>
+
+
 
 </main>

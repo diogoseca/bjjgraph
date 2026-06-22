@@ -14,7 +14,8 @@
   ],
   "system_type": "Attack System",
   "difficulty_level": "Advanced",
-  "overview": "The Craig Jones Leg Lock System represents a modern, competition-tested approach to lower body submissions that prioritizes high-percentage control positions and systematic finishing mechanics. Unlike traditional leg lock systems that rely on explosive entries and raw athleticism, this framework emphasizes positional control, opponent management, and creating genuine submission threats from stable configurations. The system integrates seamlessly with contemporary guard passing and top game strategies, allowing practitioners to transition fluidly between leg attacks and traditional positional advancement. Jones's methodology centers on the saddle position (inside sankaku) as the primary control platform, with systematic pathways to enter, maintain, and finish from this dominant configuration. The approach emphasizes controlling the opponent's ability to clear their trapped leg while simultaneously attacking both the near and far leg, creating dilemmas that force defensive errors. This dual-threat framework prevents common escape sequences and maintains offensive pressure throughout the engagement.",
+  "summary": "The Craig Jones Leg Lock System is a modern, competition-proven framework for lower-body submissions that prioritizes high-percentage control—chiefly the saddle (inside sankaku)—and dual-leg dilemma attacks to force defensive errors and finish heel hooks.",
+  "overview": "Developed and popularized by Australian black belt Craig Jones through his submission-only competition success and his widely studied instructionals, this framework distills modern leg locking into a compact set of reliable control positions and finishing chains. Unlike traditional leg lock approaches that rely on explosive entries and raw athleticism, it emphasizes positional control, opponent management, and creating genuine submission threats from stable configurations. The system integrates seamlessly with contemporary guard passing and top game strategies, allowing practitioners to transition fluidly between leg attacks and traditional positional advancement. Jones's methodology centers on the saddle position (inside sankaku) as the primary control platform, with systematic pathways to enter, maintain, and finish from this dominant configuration. The approach emphasizes controlling the opponent's ability to clear their trapped leg while simultaneously attacking both the near and far leg, creating dilemmas that force defensive errors. This dual-threat framework prevents common escape sequences and maintains offensive pressure throughout the engagement.",
   "key_principles": [
     "Control before submission - establish dominant leg entanglement positions before attempting finishes",
     "Dual-threat attacks - simultaneously threaten multiple legs to create defensive dilemmas",
@@ -387,6 +388,44 @@
       "name": "B-Team Dilemma System",
       "content_type": "System",
       "relationship": "Related submission system emphasizing dual-threat attack creation and systematic position advancement"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What control position anchors the Craig Jones Leg Lock System, and why?",
+      "answer": "The saddle (inside sankaku) is the primary platform because it traps one leg deep while pinning the opponent's hips, giving simultaneous access to heel hook mechanics with strong rotational control and limited escape routes."
+    },
+    {
+      "question": "How does the 'fork' or dual-threat concept generate finishes in this system?",
+      "answer": "By threatening the near-leg heel hook and the far-leg straight ankle lock at the same time, the attacker forces the opponent to defend one and expose the other, manufacturing submissions from their own defensive choices."
+    },
+    {
+      "question": "Why does the system prioritize controlling the opponent's outside (far) leg?",
+      "answer": "Controlling the far leg limits the opponent's ability to rotate, stand, or hide the trapped knee line, removing the most common escape routes and keeping the knee exposed for the heel hook finish."
+    },
+    {
+      "question": "What should you do when the opponent defends the heel hook by extending and hiding the knee line?",
+      "answer": "Stop forcing the finish, switch to the far-leg straight ankle lock or rotate to backside 50-50, using their defensive extension as the entry to an alternative submission rather than fighting a strong frame."
+    },
+    {
+      "question": "What is the most common error when learning this system, and how is it corrected?",
+      "answer": "Rushing to finish before locking down control; the fix is to establish stable saddle or cross ashi-garami control plus outside-leg control first, treating the submission as the last step of a positional sequence."
+    },
+    {
+      "question": "How does single leg X-guard integrate into the system's entries?",
+      "answer": "SLX provides elevation and off-balancing; when the opponent defends the sweep by basing or backstepping, that defensive posture is converted into a cross ashi-garami or direct saddle entry."
+    },
+    {
+      "question": "Why is 50-50 management treated as a critical pillar of this system?",
+      "answer": "50-50 is symmetrical and prone to stalling, so the system uses asymmetric grip fighting and hip angles to break symmetry into cross ashi-garami dominance, or to attack directly when the opponent stays passive."
+    },
+    {
+      "question": "What role does cross ashi-garami play relative to the saddle?",
+      "answer": "Cross ashi-garami is both a standalone finishing platform and the main transitional gateway: the attacker keeps outside-leg control and rotates underneath the trapped leg to invert into the saddle position."
+    },
+    {
+      "question": "How can leg-lock threats support a top-game or passing strategy?",
+      "answer": "When a pass stalls, retreating to a leg entanglement creates a submission threat that forces a defensive reaction, reopening passing lanes or yielding the back when the opponent commits to defending the legs."
     }
   ]
 }

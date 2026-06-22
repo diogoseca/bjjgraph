@@ -142,11 +142,24 @@ description: "Master Positional Sparring in BJJ. Learn structured resistance tra
 }
 </script>
 
-> Positional Sparring is a medium complexity BJJ principle applicable at the Intermediate level. Develop over Beginner to Advanced.
 
-**Application Level**: Intermediate
-**Complexity**: Medium
-**Development Timeline**: Beginner to Advanced
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Positional Sparring",
+  "description": "Positional sparring is a structured resistance-training method where partners start from a fixed position with asymmetric objectives — one attacks, one defends — resetting on completion to maximize focused repetitions of a specific scenario.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Intermediate</span>
+<span class="meta-chip">Medium complexity</span>
+<span class="meta-chip">Beginner to Advanced</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -155,7 +168,9 @@ description: "Master Positional Sparring in BJJ. Learn structured resistance tra
 
 ## What is Positional Sparring?
 
-Positional Sparring represents the structured resistance training methodology where practitioners begin from predetermined positions with specific objectives and constraints, creating focused development opportunities for position-specific skills that bridge drilling and live sparring. Unlike full sparring with open starting position, positional sparring is a comprehensive training framework that isolates specific scenarios to maximize repetition density and technical problem-solving opportunities across targeted positional contexts. This concept encompasses the pedagogical structure, reset protocols, and objective-setting mechanisms that transform general rolling into focused skill development with measurable progression indicators. Positional sparring serves as both a diagnostic tool that reveals technical gaps in specific positions, and an accelerated learning environment that provides 5-10x more repetitions of target scenarios compared to live sparring. The ability to implement effective positional sparring methodology often determines the efficiency of skill acquisition and competitive preparation, making it one of the most valuable training tools in modern BJJ pedagogy.
+**Positional sparring is a structured resistance-training method where partners start from a fixed position with asymmetric objectives — one attacks, one defends — resetting on completion to maximize focused repetitions of a specific scenario.**
+
+Within modern BJJ pedagogy, positional sparring emerged as the critical bridge between cooperative drilling and unstructured live rolling, formalized by competition-focused academies seeking to compress skill acquisition. By constraining where a round begins and what each partner is trying to achieve, it isolates specific scenarios to maximize repetition density and technical problem-solving across targeted positional contexts. This methodology encompasses the pedagogical structure, reset protocols, and objective-setting mechanisms that transform general rolling into focused skill development with measurable progression indicators. Positional sparring serves as both a diagnostic tool that reveals technical gaps in specific positions, and an accelerated learning environment that provides 5-10x more repetitions of target scenarios compared to live sparring. The ability to implement effective positional sparring methodology often determines the efficiency of skill acquisition and competitive preparation, making it one of the most valuable training tools in modern BJJ pedagogy.
 
 </section>
 
@@ -374,6 +389,20 @@ Recording detailed metrics (success rates, time to completion, specific techniqu
 - [[Back Control]] (Position) - High-value positional sparring scenario for back attack development
 - [[Competition Preparation System]] (System) - Comprehensive framework incorporating positional sparring as core methodology
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Straight-Footlock-to-Kneebar-Chain" data-cta="related-system-card" data-system-slug="systems/straight-footlock-to-kneebar-chain" data-system-name="Straight Footlock to Kneebar Chain" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Straight Footlock to Kneebar Chain</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Training methodology for developing chain proficiency through structured practice</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Competition-Strategy" data-cta="related-system-card" data-system-slug="systems/competition-strategy" data-system-name="Competition Strategy" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Competition Strategy</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Core training principle for isolating competition-relevant scenarios and building reliable scoring and defensive patterns under resistance</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Teaching-Methodology-Framework" data-cta="related-system-card" data-system-slug="systems/teaching-methodology-framework" data-system-name="Teaching Methodology Framework" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Teaching Methodology Framework</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Core training method for developing positional proficiency with targeted practice</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Kimura-Trap-System" data-cta="related-system-card" data-system-slug="systems/kimura-trap-system" data-system-name="Kimura Trap System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Kimura Trap System</span><span class="system-card__unlocks-badge">Unlocks 21 techniques</span><span class="system-card__blurb">Training methodology for developing kimura trap recognition and pathway selection through focused repetition</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Mental-Game-Framework" data-cta="related-system-card" data-system-slug="systems/mental-game-framework" data-system-name="Mental Game Framework" data-member-count="15"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Mental Game Framework</span><span class="system-card__unlocks-badge">Unlocks 15 techniques</span><span class="system-card__blurb">Training method supporting mental preparation through controlled scenario-based drilling</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

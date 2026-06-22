@@ -178,9 +178,7 @@ description: "How to execute Turtle Flatten to Side Control in BJJ. Attacking pe
 
 <section id="overview" class="content-section">
 
-Turtle Flatten to Side Control is a fundamental top-game transition that converts the attacking position behind a turtled opponent into a stable, dominant side control. Rather than pursuing the back take, which requires hook insertion and harness control, flattening the turtle bypasses the opponent's strongest defensive structure — the rounded four-point base — by driving them onto their hip or belly, then circling to establish crossface and underhook control in side control. This technique is particularly valuable when the opponent is defending back takes effectively by keeping elbows tight, fighting hands aggressively, or threatening sit-throughs that make maintaining turtle top risky.
-
-Strategically, the flatten is a high-percentage option when the opponent has excellent turtle defense or when you recognize that forcing the back take will result in scrambles that favor the bottom player. The flatten works by exploiting the structural weakness of turtle position: the base collapses when lateral pressure is applied at the hip line while controlling the upper body. By breaking the four-point base down to a flat position, you eliminate the opponent's ability to execute granby rolls, sit-throughs, or stand-ups, converting a volatile scramble-prone position into a controlled passing scenario. Competition-proven athletes frequently use this transition as a reliable pathway when back take attempts stall, particularly against opponents with strong turtle defense built around constant motion and grip fighting.
+From turtle top, the flatten is your structural answer to an opponent who is shutting down the back take. Where the back take asks you to win the hand fight, establish a seatbelt, and insert hooks against a moving target, the flatten ignores that race entirely and instead attacks the geometry of the four-point base, collapsing it laterally so the opponent ends up belly-down with no platform for granby rolls, sit-throughs, or stand-ups. Your job as the attacker is to win two control points — a hip anchor and an upper-body tie — and then convert lateral drive into a seamless circle to crossface-and-underhook side control before the opponent can reorganize. Done correctly, it trades the volatility of a back-take scramble for the reliability of a pin, which is exactly why it shines in competition when you need guaranteed positional advancement over a low-percentage finish chase.
 
 **From Position**: [[Positions/Turtle]] (Top)
 
@@ -338,5 +336,7 @@ Live positional sparring starting from turtle top against fully resisting oppone
 When drilling the turtle flatten, control the speed and force of the lateral drive to avoid slamming your partner's hip or ribs into the mat. The sudden lateral collapse can strain the opponent's shoulders if their arm is trapped underneath during the flatten — always allow your partner to clear their arms. In live training, be aware that the crossface can apply significant pressure to the jaw and neck; use measured force and release immediately if your partner signals discomfort. Avoid using the flatten on partners with pre-existing shoulder, rib, or neck injuries, as the lateral compression forces can aggravate these conditions. During the drive phase, keep your own base stable to prevent your knee from sliding into your partner's spine or kidney area.
 
 </section>
+
+
 
 </main>

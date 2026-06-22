@@ -10,6 +10,41 @@ description: "Master Reverse X to Single Leg X Entry in BJJ. Convert inverted gu
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Reverse X to Single Leg X Entry",
+  "description": "Master Reverse X to Single Leg X Entry in BJJ. Convert inverted guard hooks into linear leg control for sweeps and leg attacks with expert execution details.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Reverse X to Single Leg X Entry", "item": "https://bjjgraph.org/Transitions/Reverse-X-to-Single-Leg-X-Entry" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Reverse X to Single Leg X Entry",
+  "description": "Reverse X to Single Leg X Entry reconfigures the bottom player's stacked inverted hooks from Reverse X-Guard into a Single Leg X-Guard, trading explosive lifting control for the linear leg isolation that powers sweeps and modern leg-lock entries.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Reverse X to Single Leg X Entry in BJJ. Convert inverted gu
 </div>
 
 <section id="overview" class="content-section">
+
+**Reverse X to Single Leg X Entry reconfigures the bottom player's stacked inverted hooks from Reverse X-Guard into a Single Leg X-Guard, trading explosive lifting control for the linear leg isolation that powers sweeps and modern leg-lock entries.**
 
 The Reverse X to Single Leg X Entry is a fundamental transition within the modern leg entanglement system that converts the inverted hook configuration of Reverse X-Guard into the more linear control of Single Leg X-Guard. This transition is essential when your opponent begins to address your Reverse X hooks or when you need a more stable platform for leg attacks or sweeps. The movement capitalizes on the opponent's attempts to clear your inverted hooks by following their leg extraction with a simplified but equally powerful control position.
 
@@ -220,5 +257,7 @@ Reverse X to Single Leg X Entry functions as a critical connector within the mod
 
 
 </section>
+
+
 
 </main>

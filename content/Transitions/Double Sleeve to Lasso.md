@@ -10,6 +10,41 @@ description: "Master the Double Sleeve to Lasso guard transition in BJJ. Learn g
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Double Sleeve to Lasso",
+  "description": "Master the Double Sleeve to Lasso guard transition in BJJ. Learn grip threading mechanics, entry timing, and guard evolution from sleeve control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Double Sleeve to Lasso", "item": "https://bjjgraph.org/Transitions/Double-Sleeve-to-Lasso" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Double Sleeve to Lasso",
+  "description": "Double Sleeve to Lasso is a gi guard transition where the bottom player threads one shin across the opponent's trapped sleeve arm, converting balanced double-sleeve control into the asymmetric shoulder-loading leverage of lasso guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Double Sleeve to Lasso guard transition in BJJ. Learn g
 </div>
 
 <section id="overview" class="content-section">
+
+**Double Sleeve to Lasso is a gi guard transition where the bottom player threads one shin across the opponent's trapped sleeve arm, converting balanced double-sleeve control into the asymmetric shoulder-loading leverage of lasso guard.**
 
 The Double Sleeve to Lasso transition is one of the most fundamental guard evolution pathways in gi Brazilian Jiu-Jitsu. From an established Double Sleeve Guard, the bottom player threads one shin across the opponent's trapped arm to create the signature lasso control. This transition upgrades balanced bilateral sleeve control into asymmetric positional dominance, trading the distributed nature of double sleeve grips for the powerful lever system that defines Lasso Guard. The mechanical advantage gained through the lasso creates a fulcrum against the opponent's shoulder that dramatically restricts their mobility on one side, opening superior sweep angles and submission entries that were unavailable from the starting position.
 
@@ -212,8 +249,6 @@ The Double Sleeve to Lasso transition occupies a central role in the open guard 
 
 - [[Positions/Lasso Guard/Inverted Lasso Guard]] - Advanced lasso variation accessible after establishing initial lasso control
 
-- [[Positions/Lasso Guard/Russian Leg Lasso]] - Double lasso variation that can be built from the initial single lasso entry
-
 - [[Transitions/Armbar Setup from Double Sleeve]] - Alternative offensive option from the starting position when lasso entry is unavailable
 
 - [[Transitions/Double Sleeve Sweep]] - Direct sweep alternative from double sleeve when guard transition is not needed
@@ -224,5 +259,7 @@ The Double Sleeve to Lasso transition occupies a central role in the open guard 
 
 
 </section>
+
+
 
 </main>

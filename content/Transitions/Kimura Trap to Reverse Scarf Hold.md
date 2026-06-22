@@ -10,6 +10,41 @@ description: "Master the Kimura Trap to Reverse Scarf Hold transition in BJJ. Le
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kimura Trap to Reverse Scarf Hold",
+  "description": "Master the Kimura Trap to Reverse Scarf Hold transition in BJJ. Learn hip rotation mechanics, arm control retention, and pressure transfer for dominant pinning control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Kimura Trap to Reverse Scarf Hold", "item": "https://bjjgraph.org/Transitions/Kimura-Trap-to-Reverse-Scarf-Hold" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kimura Trap to Reverse Scarf Hold",
+  "description": "Kimura Trap to Reverse Scarf Hold is a top-position transition that converts a defended figure-four arm lock into the chest-crushing Ushiro Kesa Gatame pin by pivoting the hips 180 degrees around the grip while retaining arm control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Kimura Trap to Reverse Scarf Hold transition in BJJ. Le
 </div>
 
 <section id="overview" class="content-section">
+
+**Kimura Trap to Reverse Scarf Hold is a top-position transition that converts a defended figure-four arm lock into the chest-crushing Ushiro Kesa Gatame pin by pivoting the hips 180 degrees around the grip while retaining arm control.**
 
 The Transition to Reverse Scarf Hold from Kimura Trap Top is a positional advancement technique that converts the figure-four grip control of the Kimura Trap into the crushing chest-compression pin of Reverse Scarf Hold (Ushiro Kesa Gatame). This transition exploits a specific defensive pattern where the opponent tucks their elbow tight and resists the Kimura finish by keeping their arm close to their body. Rather than forcing the submission against a well-defended arm, the top player pivots their hips and rotates their body orientation to face away from the opponent's head, establishing heavy hip-on-chest pressure while maintaining arm control throughout the movement.
 
@@ -208,7 +245,7 @@ This transition occupies a critical junction in the Kimura Trap system's decisio
 
 - [[Transitions/Side Control to Mount]] - Alternative positional advancement from similar starting configuration
 
-- [[Submissions/Americana]] - Follow-up submission available from Reverse Scarf Hold after transition
+- [[Americana from Reverse Scarf Hold]] - Follow-up submission available from Reverse Scarf Hold after transition
 
 - [[Positions/North-South]] - Secondary transition target accessible from Reverse Scarf Hold
 
@@ -218,9 +255,11 @@ This transition occupies a critical junction in the Kimura Trap system's decisio
 
 - [[Positions/Half Guard]] - Position opponent may recover to if transition is poorly executed
 
-- [[Transitions/Arm Triangle]] - Submission option available from Reverse Scarf Hold after successful transition
+- [[Arm Triangle from Reverse Scarf Hold]] - Submission option available from Reverse Scarf Hold after successful transition
 
 
 </section>
+
+
 
 </main>

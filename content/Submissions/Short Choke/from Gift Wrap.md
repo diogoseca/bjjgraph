@@ -10,10 +10,55 @@ description: "Master the Short Choke from Gift Wrap in BJJ. Complete guide to fi
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Short Choke from Gift Wrap targets the Carotid arteries. Risk: Loss of consciousness from bilateral carotid artery compression causing cerebral hypoxia. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Short Choke from Gift Wrap",
+  "description": "Master the Short Choke from Gift Wrap in BJJ. Complete guide to finishing this forearm choke using arm trap control, with safety protocols and defense strategies.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Short Choke from Gift Wrap", "item": "https://bjjgraph.org/Submissions/Short-Choke-from-Gift-Wrap" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Short Choke from Gift Wrap",
+  "description": "The Short Choke from Gift Wrap is a high-percentage blood choke that exploits the Gift Wrap arm trap, threading the choking forearm beneath the chin to compress both carotid arteries while the defender has only one free hand left to resist.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Short Choke from Gift Wrap is a high-percentage blood choke that exploits the Gift Wrap arm trap, threading the choking forearm beneath the chin to compress both carotid arteries while the defender has only one free hand left to resist.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries</span>
+<span class="meta-chip">58% success</span>
+</div>
+
+> [!danger] Safety
+> Short Choke from Gift Wrap targets the Carotid arteries. Primary risk: Loss of consciousness from bilateral carotid artery compression causing cerebral hypoxia. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -24,59 +69,13 @@ description: "Master the Short Choke from Gift Wrap in BJJ. Complete guide to fi
 
 <section id="overview" class="content-section">
 
-The Short Choke from Gift Wrap is a high-percentage blood choke that exploits the unique arm trapping mechanics of the Gift Wrap position. With one of the defender's arms pinned across their own body, the attacker threads the choking forearm beneath the chin and applies bilateral carotid compression using body weight and shoulder pressure. The Gift Wrap's arm trap is the critical differentiator: it removes the defender's primary hand-fighting tool, making the forearm insertion significantly easier than from standard back control or cross body ride.
+Within the Gift Wrap attack system, the short choke is the dedicated finishing mechanism that converts the position's arm-trap advantage directly into a submission rather than a positional advance. It works because one of the defender's arms is pinned across their own body, so the attacker can thread the choking forearm beneath the chin and apply bilateral carotid compression using body weight and shoulder pressure against only a single defending hand. The Gift Wrap's arm trap is the critical differentiator: it removes the defender's primary hand-fighting tool, making the forearm insertion significantly easier than from standard back control or cross body ride.
 
 Strategically, this choke creates a cascading dilemma within the Gift Wrap attack system. When the defender commits their only free hand to blocking the forearm from threading under the chin, they lose the ability to create hip escape frames or fight hook removal. When they prioritize positional escape instead, the neck becomes exposed for the choke entry. This forcing function means the attacker can systematically funnel the defender toward submission by alternating between positional pressure and choke threats.
 
 The finishing mechanics rely on shoulder-driven pressure rather than pure arm squeeze. Once the forearm is seated beneath the chin with the blade of the wrist across one carotid artery, the attacker drives their shoulder into the back of the opponent's head while pulling the choking elbow tight to their own ribcage. This creates a vise effect compressing both carotid arteries simultaneously. The choke can produce unconsciousness in eight to twelve seconds once fully locked, making controlled application and immediate tap recognition essential for safe training.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries
-**Starting Position**: [[Positions/Gift Wrap]]
-**From Position**: [[Positions/Gift Wrap]] (Top)
-**Success Rate**: 58%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Loss of consciousness from bilateral carotid artery compression causing cerebral hypoxia | CRITICAL | Immediate to minutes if released promptly; permanent brain damage possible if held beyond 20 seconds after unconsciousness |
-| Tracheal damage from improper forearm placement directly across the windpipe instead of carotid arteries | High | 2-6 weeks for soft tissue damage; laryngeal fracture may require surgical intervention |
-| Cervical spine strain from combined rotational and compressive force on the neck | Medium | 1-3 weeks with rest and rehabilitation |
-
-
-**Application Speed**: SLOW and progressive. Build pressure incrementally over 3-5 seconds minimum. The Gift Wrap arm trap amplifies force significantly because the defender cannot create counter-pressure, so controlled application is essential to give adequate time to tap.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner, mat, or any available surface
-- Physical foot tap with either leg on mat
-- Any unusual vocalization, gurgling, or distress sound indicating inability to verbally tap
-- Body going limp indicating loss of consciousness - release immediately
-
-
-**Release Protocol**:
-1. Release immediately upon any tap signal without hesitation or delay
-2. If in doubt about whether a tap occurred, release immediately - the Gift Wrap position can be re-established
-3. Remove all choking pressure and body weight from the neck area
-4. Monitor partner for signs of unconsciousness including unresponsiveness, limp limbs, or glazed expression
-5. If partner loses consciousness, place in recovery position, elevate legs, and seek medical attention if not conscious within 15 seconds
-
-
-**Training Restrictions**:
-- Never apply sudden jerking or explosive motions when threading the forearm under the chin
-- Never continue pressure after tap signal - the arm trap makes this choke tighter than standard variations
-- Do not practice on partners with known neck injuries, cervical spine conditions, or cardiovascular problems
-- Beginners should practice forearm placement and threading mechanics without compression before adding any pressure
-- Always train with a qualified instructor present when first learning this submission
-
+**Starting Position**: [[Positions/Gift Wrap]] · **From**: [[Positions/Gift Wrap]] (Top)
 
 </section>
 
@@ -241,41 +240,63 @@ The finishing mechanics rely on shoulder-driven pressure rather than pure arm sq
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/Gift Wrap Armbar]]
 - [[Submissions/Bow and Arrow Choke]]
 - [[Transitions/Darce Choke]]
 - [[Transitions/Clock Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Gift Wrap]] - Primary starting position providing arm trap control for the choke
 - [[Positions/Back Control]] - Parent position that Gift Wrap evolves from with added arm isolation
 - [[Positions/Crucifix]] - Alternative attack position accessible when choke is defended by turning
 - [[Positions/Mount/Technical Mount]] - Positional advancement option maintaining Gift Wrap arm control
 - [[Positions/Back Control/Seat Belt Control Back]] - Entry grip system that precedes Gift Wrap establishment
-- [[Submissions/Rear Naked Choke]] - Primary alternative choke sharing the same positional platform
+
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Loss of consciousness from bilateral carotid artery compression causing cerebral hypoxia | CRITICAL | Immediate to minutes if released promptly; permanent brain damage possible if held beyond 20 seconds after unconsciousness |
+| Tracheal damage from improper forearm placement directly across the windpipe instead of carotid arteries | High | 2-6 weeks for soft tissue damage; laryngeal fracture may require surgical intervention |
+| Cervical spine strain from combined rotational and compressive force on the neck | Medium | 1-3 weeks with rest and rehabilitation |
+
+
+**Application Speed**: SLOW and progressive. Build pressure incrementally over 3-5 seconds minimum. The Gift Wrap arm trap amplifies force significantly because the defender cannot create counter-pressure, so controlled application is essential to give adequate time to tap.
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any distress signal)
+- Physical hand tap on partner, mat, or any available surface
+- Physical foot tap with either leg on mat
+- Any unusual vocalization, gurgling, or distress sound indicating inability to verbally tap
+- Body going limp indicating loss of consciousness - release immediately
+
+
+**Release Protocol**:
+1. Release immediately upon any tap signal without hesitation or delay
+2. If in doubt about whether a tap occurred, release immediately - the Gift Wrap position can be re-established
+3. Remove all choking pressure and body weight from the neck area
+4. Monitor partner for signs of unconsciousness including unresponsiveness, limp limbs, or glazed expression
+5. If partner loses consciousness, place in recovery position, elevate legs, and seek medical attention if not conscious within 15 seconds
+
+
+**Training Restrictions**:
+- Never apply sudden jerking or explosive motions when threading the forearm under the chin
+- Never continue pressure after tap signal - the arm trap makes this choke tighter than standard variations
+- Do not practice on partners with known neck injuries, cervical spine conditions, or cardiovascular problems
+- Beginners should practice forearm placement and threading mechanics without compression before adding any pressure
+- Always train with a qualified instructor present when first learning this submission
 
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Short Choke from Gift Wrap leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

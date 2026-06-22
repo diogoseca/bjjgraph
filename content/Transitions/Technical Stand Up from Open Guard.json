@@ -1,5 +1,6 @@
 {
   "name": "Technical Stand Up from Open Guard",
+  "summary": "The Technical Stand Up from Open Guard is a defensive reset in which the bottom player posts a hand and same-side foot into a tripod base, then rises to their feet behind leg frames that block the opponent from re-engaging.",
   "description": "Master the Technical Stand Up from Open Guard in BJJ. Complete guide covering proper base mechanics, timing, and defensive frames for safely returning to standing.",
   "tags": [
     "bjj",
@@ -73,10 +74,6 @@
       "relationship": "Complementary transition for cycling between standing and guard"
     },
     {
-      "name": "Standing Position",
-      "relationship": "Target position reached when stand-up is successfully completed"
-    },
-    {
       "name": "Standing Up from Combat Base",
       "relationship": "Related standing transition using combat base as intermediate position"
     },
@@ -86,15 +83,11 @@
     },
     {
       "name": "Clinch",
-      "relationship": "Position that may result if opponent closes distance as you stand"
+      "relationship": "Common resulting position when the stand-up is contested and the opponent closes distance"
     },
     {
       "name": "Closed Guard",
       "relationship": "Alternative guard position that can also transition to standing"
-    },
-    {
-      "name": "Clinch",
-      "relationship": "Common resulting position when stand-up is contested by opponent"
     },
     {
       "name": "Guard Pull from Clinch",

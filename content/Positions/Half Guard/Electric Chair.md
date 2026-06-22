@@ -10,6 +10,41 @@ description: "Master Electric Chair position in BJJ. 10th Planet's lockdown swee
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Electric Chair",
+  "description": "Master Electric Chair position in BJJ. 10th Planet\u0027s lockdown sweep combining submission threat with positional control. Complete top and bottom guide with decision trees.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Electric Chair", "item": "https://bjjgraph.org/Positions/Electric-Chair" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Electric Chair",
+  "description": "Electric Chair is a lockdown half-guard attack from 10th Planet Jiu-Jitsu that simultaneously threatens a crotch-splitting submission and a high-percentage sweep, forcing the top player into a no-win dilemma between defending the finish and conceding position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Electric Chair position in BJJ. 10th Planet's lockdown swee
 </div>
 
 <section id="overview" class="content-section">
+
+**Electric Chair is a lockdown half-guard attack from 10th Planet Jiu-Jitsu that simultaneously threatens a crotch-splitting submission and a high-percentage sweep, forcing the top player into a no-win dilemma between defending the finish and conceding position.**
 
 Electric Chair is a devastating attacking position from the lockdown half guard system, popularized by 10th Planet Jiu-Jitsu. This position combines elements of a sweep, submission threat, and positional control, creating a powerful offensive weapon from bottom half guard. The practitioner uses the lockdown to control the opponent's leg while simultaneously elevating their hips and creating a crotch-splitting pressure that forces the opponent into increasingly compromised positions.
 
@@ -102,19 +139,17 @@ From a tactical perspective, Electric Chair serves as a cornerstone of the lockd
 ### Available Transitions
 
 
-- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (76% of attempts)
+- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (54% of attempts)
 
-- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (13% of attempts)
+- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (14% of attempts)
 
 - **[[Transitions/Hip Rotation Escape from Electric Chair/Attacker|Hip Rotation Escape from Electric Chair]]** (6% of attempts)
 
-- **[[Transitions/Straighten Leg Defense from Electric Chair/Attacker|Straighten Leg Defense from Electric Chair]]** (2% of attempts)
+- **[[Transitions/Sweep from Electric Chair/Attacker|Sweep from Electric Chair]]** (8% of attempts)
 
-- **[[Transitions/Sweep from Electric Chair/Attacker|Sweep from Electric Chair]]** (1% of attempts)
+- **[[Positions/Half Guard/Electric Chair/Attacker|Electric Chair]]** (12% of attempts)
 
-- **[[Positions/Half Guard/Electric Chair/Attacker|Electric Chair]]** (1% of attempts)
-
-- **[[Transitions/Electric Chair from Electric Chair/Attacker|Electric Chair from Electric Chair]]** (1% of attempts)
+- **[[Transitions/Electric Chair from Electric Chair/Attacker|Electric Chair from Electric Chair]]** (6% of attempts)
 
 
 ### Common Mistakes
@@ -175,13 +210,15 @@ From a tactical perspective, Electric Chair serves as a cornerstone of the lockd
 ### Available Transitions
 
 
-- **[[Transitions/Lockdown Break and Pass/Attacker|Lockdown Break and Pass]]** (28% of attempts)
+- **[[Transitions/Lockdown Break and Pass/Attacker|Lockdown Break and Pass]]** (32% of attempts)
 
-- **[[Transitions/Limp Leg Escape to Pass/Attacker|Limp Leg Escape to Pass]]** (24% of attempts)
+- **[[Transitions/Limp Leg Escape to Pass/Attacker|Limp Leg Escape to Pass]]** (28% of attempts)
 
-- **[[Transitions/Back Take from Lockdown Defense/Attacker|Back Take from Lockdown Defense]]** (18% of attempts)
+- **[[Transitions/Straighten Leg Defense from Electric Chair/Attacker|Straighten Leg Defense from Electric Chair]]** (16% of attempts)
 
-- **[[Transitions/Darce from Lockdown Counter/Attacker|Darce from Lockdown Counter]]** (30% of attempts)
+- **[[Transitions/Back Take from Lockdown Defense/Attacker|Back Take from Lockdown Defense]]** (20% of attempts)
+
+- **[[Transitions/Darce from Lockdown Counter/Attacker|Darce from Lockdown Counter]]** (4% of attempts)
 
 
 ### Common Mistakes
@@ -236,6 +273,19 @@ From a tactical perspective, Electric Chair serves as a cornerstone of the lockd
 
 - **[[Positions/Dogfight Position]]** - Transition option when underhook is strong but lockdown is compromised
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Twister-System" data-cta="related-system-card" data-system-slug="systems/twister-system" data-system-name="Twister System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Twister System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">First major attacking position achieved from lockdown whipup</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/10th-Planet-No-Gi-Guard-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-no-gi-guard-system" data-system-name="10th Planet No-Gi Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">10th Planet No-Gi Guard System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Submission position from lockdown system</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Lockdown-to-Electric-Chair-System" data-cta="related-system-card" data-system-slug="systems/lockdown-to-electric-chair-system" data-system-name="Lockdown to Electric Chair System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Lockdown to Electric Chair System</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Finishing technique in competition formats allowing crotch attacks</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/10th-Planet-Half-Guard-Bottom-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-half-guard-bottom-system" data-system-name="10th Planet Half Guard Bottom System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">10th Planet Half Guard Bottom System</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Primary submission threat position created from the Lockdown</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

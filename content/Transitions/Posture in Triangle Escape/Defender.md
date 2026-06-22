@@ -154,7 +154,7 @@ description: "Prevent posture recovery against your triangle choke in BJJ. Maint
 
 As the triangle holder, your primary defensive objective against the posture recovery attempt is maintaining broken posture and preventing your opponent from recovering the vertical spinal alignment that enables escape. The posture-up is the most fundamental escape your opponent will attempt, and your ability to shut it down determines whether your triangle finishes or fails. Your defensive system relies on three interconnected mechanisms working simultaneously: active head control that resists the upward drive, hip extension that maintains choking pressure and leg compression, and angle preservation that ensures optimal choking geometry even as the opponent fights for posture. Understanding that the opponent's posture recovery is hip-driven rather than neck-driven is the critical insight that informs your defensive strategy, because you must address their hip movement and base positioning rather than simply pulling their head down. When the posture recovery does begin to succeed, recognizing the transition window to armbar on the trapped arm provides a secondary offensive pathway that maintains your submission threat throughout the exchange.
 
-**Opponent's Starting Position**: [[Positions/Triangle Escape Position]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Triangle Escape Position]] (Top)
 
 </section>
 

@@ -154,7 +154,7 @@ description: "How to counter the Forward Roll escape from turtle in BJJ. Recogni
 
 As the defender (turtle top player), your goal when the bottom player attempts a forward roll is to either prevent the roll from initiating, follow through the roll to maintain back control, or capitalize on the rolling motion to advance to side control. The forward roll creates a brief window of vulnerability as the bottom player commits their weight forward and temporarily loses their defensive shell. Recognizing the setup cues early gives you the ability to either shut down the attempt before it begins or position yourself to follow the motion and maintain dominant control. The key defensive principle is maintaining chest-to-back connection throughout the opponent's rolling motion rather than letting them roll away from you. If you cannot prevent the roll, your secondary objective is to follow their hips and arrive in a controlling position as they complete the rotation, denying them the seated guard recovery they are seeking.
 
-**Opponent's Starting Position**: [[Positions/Twister Control/Truck]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Turtle]] (Bottom)
 
 </section>
 

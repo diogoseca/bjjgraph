@@ -10,6 +10,41 @@ description: "Master the belly down armbar transition from armbar control. Learn
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Belly Down Armbar Transition",
+  "description": "Master the belly down armbar transition from armbar control. Learn to follow rolling opponents, secure the finish, and defend against this dangerous position.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Belly Down Armbar Transition", "item": "https://bjjgraph.org/Transitions/Belly-Down-Armbar-Transition" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Belly Down Armbar Transition",
+  "description": "The Belly Down Armbar Transition is a follow-the-roll finish where the attacker chases an opponent escaping the supine armbar by turning to their stomach, maintaining arm isolation to complete the submission from a gravity-assisted prone position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the belly down armbar transition from armbar control. Learn
 </div>
 
 <section id="overview" class="content-section">
+
+**The Belly Down Armbar Transition is a follow-the-roll finish where the attacker chases an opponent escaping the supine armbar by turning to their stomach, maintaining arm isolation to complete the submission from a gravity-assisted prone position.**
 
 The belly down armbar transition is executed from armbar control when the opponent attempts to escape by rolling to their stomach. This is one of the most common armbar defense reactions, particularly at intermediate and advanced levels where practitioners instinctively turn away from the hyperextension threat. Rather than releasing the submission, a skilled attacker follows the roll, maintaining arm isolation throughout the transition and converting the escape attempt into a prone finishing position where the opponent has drastically fewer defensive options.
 
@@ -218,5 +255,7 @@ The belly down armbar transition is a critical link in the armbar chain attack s
 
 
 </section>
+
+
 
 </main>

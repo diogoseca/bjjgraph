@@ -10,6 +10,41 @@ description: "Master the Transition to 3-4 Mount from standard mount. Learn asym
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Mount to 3-4 Mount",
+  "description": "Master the Transition to 3-4 Mount from standard mount. Learn asymmetric leg repositioning, weight shifting mechanics, and setup conditions for this BJJ mount variation.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Mount to 3-4 Mount", "item": "https://bjjgraph.org/Transitions/Mount-to-3-4-Mount" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Mount to 3-4 Mount",
+  "description": "Mount to 3-4 Mount is a positional adjustment from standard mount where the top player extracts one leg and posts the foot outside the opponent's body, trading symmetric stability for faster entries to S-mount, armbars, and back takes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Transition to 3-4 Mount from standard mount. Learn asym
 </div>
 
 <section id="overview" class="content-section">
+
+**Mount to 3-4 Mount is a positional adjustment from standard mount where the top player extracts one leg and posts the foot outside the opponent's body, trading symmetric stability for faster entries to S-mount, armbars, and back takes.**
 
 The Transition to 3-4 Mount is a positional adjustment from standard mount where the top player extracts one leg from the traditional mount configuration and posts it outside the opponent's body, creating an asymmetric three-quarter contact pattern. This transition converts the bilateral symmetry of standard mount into a directional control platform optimized for specific submission entries and positional advancements. The movement itself is deceptively simple—pulling one knee out and posting the foot—but executing it without creating escape windows requires precise timing, weight management, and understanding of when the asymmetric configuration provides tactical advantage over standard mount.
 
@@ -222,5 +259,7 @@ The Transition to 3-4 Mount occupies a critical junction in the mount variation 
 
 
 </section>
+
+
 
 </main>

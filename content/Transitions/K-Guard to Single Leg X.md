@@ -10,6 +10,41 @@ description: "Master the K-Guard to Single Leg X transition in BJJ. Step-by-step
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "K-Guard to Single Leg X",
+  "description": "Master the K-Guard to Single Leg X transition in BJJ. Step-by-step guide covering hook mechanics, timing, entries, and defensive counters for this guard flow.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "K-Guard to Single Leg X", "item": "https://bjjgraph.org/Transitions/K-Guard-to-Single-Leg-X" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "K-Guard to Single Leg X",
+  "description": "K-Guard to Single Leg X is a bottom-game guard transition where the player converts K-Guard's inverted inside hook into an SLX ankle wrap while repositioning the butterfly hook to the hip, unlocking stronger sweeps and leg-lock entries.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the K-Guard to Single Leg X transition in BJJ. Step-by-step
 </div>
 
 <section id="overview" class="content-section">
+
+**K-Guard to Single Leg X is a bottom-game guard transition where the player converts K-Guard's inverted inside hook into an SLX ankle wrap while repositioning the butterfly hook to the hip, unlocking stronger sweeps and leg-lock entries.**
 
 The K-Guard to Single Leg X transition is a fundamental guard evolution pathway in modern BJJ that converts a retention-oriented half guard variation into a powerful sweeping and leg attack platform. When the K-Guard bottom player faces an opponent who begins to posture up, create distance, or attempt to extract their trapped leg, the natural response is to follow their movement by transitioning the existing hook connections into the Single Leg X-Guard configuration. This transition capitalizes on the mechanical similarities between K-Guard's inverted hook system and SLX's ankle wrap and hip hook structure, making it one of the smoothest guard-to-guard flows available.
 
@@ -228,5 +265,7 @@ The K-Guard to Single Leg X transition occupies a critical junction point in the
 
 
 </section>
+
+
 
 </main>

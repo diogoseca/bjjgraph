@@ -1,6 +1,7 @@
 {
   "name": "Toe Hold from Inside Sankaku",
   "description": "Master the toe hold from Inside Sankaku. Learn grip mechanics, rotational finishing details, defensive counters, and safety protocols for this leg lock.",
+  "summary": "The toe hold from Inside Sankaku is a figure-four footlock that rotates the trapped foot medially to torque the ankle and midfoot, functioning as the primary chain attack when the opponent hides their heel to defend the inside heel hook.",
   "tags": [
     "bjj",
     "submission",
@@ -79,10 +80,9 @@
   ],
   "related_submissions": [
     "Inside Heel Hook",
-    "Inside Heel Hook",
     "Heel Hook",
     "Calf Slicer",
-    "Aoki Lock Control",
+    "Aoki Lock",
     "Estima Lock",
     "Achilles Lock"
   ],

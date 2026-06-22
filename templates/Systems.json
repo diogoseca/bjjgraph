@@ -17,7 +17,9 @@
     "common_obstacles",
     "assessment_metrics",
     "training_methodology",
-    "related_content"
+    "related_content",
+    "summary",
+    "flashcards"
   ],
   "properties": {
     "name": {
@@ -54,6 +56,46 @@
         ]
       ]
     },
+    "aliases": {
+      "type": "array",
+      "description": "Strict synonyms — other names for THIS EXACT system. Examples: ['DDS', 'Modern Leg Locks'] for Danaher Leg Lock System. See docs/Synonyms.md.",
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "family": {
+      "type": "string",
+      "description": "Name of a parent family hub. Usually empty for systems."
+    },
+    "bot_metadata": {
+      "type": "object",
+      "description": "Automation bookkeeping written by the content bots (not hand-authored). select_oldest_files.sh reads last_improved to skip recently-improved files.",
+      "additionalProperties": true,
+      "properties": {
+        "last_improved": { "type": "string", "description": "ISO date (YYYY-MM-DD) of the last bot edit" },
+        "optimization_pass": { "type": "string" },
+        "last_improved_by": { "type": "string" }
+      }
+    },
+    "sameAs": {
+      "type": "array",
+      "description": "Authoritative external URLs for THIS system (Wikipedia/Wikidata). schema.org sameAs. See docs/Synonyms.md.",
+      "uniqueItems": true,
+      "items": { "type": "string", "format": "uri" }
+    },
+    "disambiguations": {
+      "type": "array",
+      "description": "False-synonym callouts. Renders 'Often confused with X — reason'. See docs/Synonyms.md.",
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "reason"],
+        "properties": {
+          "name": { "type": "string", "minLength": 1 },
+          "reason": { "type": "string", "minLength": 10 }
+        }
+      }
+    },
     "system_type": {
       "type": "string",
       "enum": [
@@ -76,9 +118,15 @@
         "Expert"
       ]
     },
+    "summary": {
+      "type": "string",
+      "description": "One-sentence, self-contained definition that leads the page (answer-first for AI/featured snippets). ~15-40 words. If present, the overview should NOT repeat it.",
+      "minLength": 30,
+      "maxLength": 300
+    },
     "overview": {
       "type": "string",
-      "description": "2-3 paragraph system description (400+ characters)",
+      "description": "2-3 paragraph system description (400+ characters). LEAD with a self-contained one-sentence definition that directly answers 'what is X' before adding history/context — AI answer engines quote the first sentence. If a `summary` field is present, start the overview with context instead, to avoid duplicating it.",
       "minLength": 400,
       "examples": [
         "The Kimura Trap System is a comprehensive control and submission framework..."
@@ -285,7 +333,7 @@
     "flashcards": {
       "type": "array",
       "description": "Q&A flashcards for self-assessment and SRS training (optional, 6-12 recommended)",
-      "minItems": 0,
+      "minItems": 6,
       "maxItems": 20,
       "items": {
         "type": "object",
@@ -304,6 +352,57 @@
             "type": "string",
             "minLength": 50,
             "description": "Detailed answer (50+ characters)"
+          }
+        }
+      }
+    },
+    "products": {
+      "type": "array",
+      "description": "Curated BJJFanatics affiliate products mapped to this system. NEVER authored or modified by AI — managed by hand. Each entry maps the system to one instructional.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "title",
+          "affiliate_url"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Stable kebab-case identifier, unique across all products"
+          },
+          "title": {
+            "type": "string"
+          },
+          "instructor": {
+            "type": "string"
+          },
+          "vendor": {
+            "type": "string",
+            "description": "Affiliate vendor, e.g. BJJFanatics"
+          },
+          "affiliate_url": {
+            "type": "string",
+            "format": "uri",
+            "description": "Curated affiliate URL including any vendor ref param. UTM is appended at build time."
+          },
+          "image": {
+            "type": "string",
+            "description": "Cover image URL"
+          },
+          "blurb": {
+            "type": "string",
+            "description": "Short 'what it unlocks' marketing line"
+          },
+          "price_usd": {
+            "type": "number"
+          },
+          "covers": {
+            "type": "array",
+            "description": "Optional member-node display names this product specifically teaches",
+            "items": {
+              "type": "string"
+            }
           }
         }
       }

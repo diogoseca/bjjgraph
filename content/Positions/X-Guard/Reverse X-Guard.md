@@ -10,6 +10,41 @@ description: "Master Reverse X-Guard in BJJ. Strategic guide covering when to us
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Reverse X-Guard",
+  "description": "Master Reverse X-Guard in BJJ. Strategic guide covering when to use inverted leg control, sweeps, and back takes with complete perspective analysis for bottom and top players.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Reverse X-Guard", "item": "https://bjjgraph.org/Positions/Reverse-X-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Reverse X-Guard",
+  "description": "Reverse X-Guard is an inverted open guard where the bottom player traps one of the opponent's legs with both hooks stacked on the same side and faces away to generate explosive elevation sweeps, back takes, and leg-entanglement entries.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master Reverse X-Guard in BJJ. Strategic guide covering when to us
 
 <section id="overview" class="content-section">
 
-Reverse X-Guard is an inverted guard position where the bottom practitioner controls their opponent using leg entanglement while facing away from them. This position creates powerful sweeping mechanics by combining hip elevation, leg control, and rotational pressure. The guard player's outside leg hooks behind the opponent's near knee while the inside leg extends across their far hip, creating a scissoring action that destabilizes their base.
+**Reverse X-Guard is an inverted open guard where the bottom player traps one of the opponent's legs with both hooks stacked on the same side and faces away to generate explosive elevation sweeps, back takes, and leg-entanglement entries.**
+
+Emerging from the modern leg-entanglement era, Reverse X-Guard reorients the classic X-Guard so the bottom player faces away from the opponent while controlling a single leg with both hooks stacked on one side. This position creates powerful sweeping mechanics by combining hip elevation, leg control, and rotational pressure. The guard player's outside leg hooks behind the opponent's near knee while the inside leg extends across their far hip, creating a scissoring action that destabilizes their base.
 
 Developed as an evolution of traditional X-Guard, Reverse X-Guard offers unique advantages in both gi and no-gi contexts. The inverted orientation allows the guard player to generate explosive lifting power while simultaneously controlling distance and preventing passes. This position is particularly effective against standing opponents and creates natural pathways to back takes, leg attacks, and traditional sweeps.
 
@@ -248,6 +285,17 @@ Reverse X-Guard has gained prominence in modern competition BJJ as athletes like
 
 - **[[Positions/K-Guard]]** - Modern leg entanglement guard with complementary entries
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Competition-Scoring-Strategy" data-cta="related-system-card" data-system-slug="systems/competition-scoring-strategy" data-system-name="Competition Scoring Strategy" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Competition Scoring Strategy</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">High-percentage sweep position for recovering point deficits</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Mikey-Musumeci-Berimbolo-System" data-cta="related-system-card" data-system-slug="systems/mikey-musumeci-berimbolo-system" data-system-name="Mikey Musumeci Berimbolo System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Mikey Musumeci Berimbolo System</span><span class="system-card__unlocks-badge">Unlocks 21 techniques</span><span class="system-card__blurb">Key backup position when berimbolo entry is blocked by heavy base defense</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

@@ -10,6 +10,41 @@ description: "Master the Escape from Rodeo Ride in BJJ. Complete guide covering 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Escape from Rodeo Ride",
+  "description": "Master the Escape from Rodeo Ride in BJJ. Complete guide covering grip disruption, weight shift exploitation, and systematic transition to side control top.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Escape from Rodeo Ride", "item": "https://bjjgraph.org/Transitions/Escape-from-Rodeo-Ride" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Escape from Rodeo Ride",
+  "description": "The Escape from Rodeo Ride is a dynamic turtle-defense transition where the bottom player strips the rider's near-arm control and exploits weight shifts to collapse their base, rotating underneath into side control top.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Escape from Rodeo Ride in BJJ. Complete guide covering 
 </div>
 
 <section id="overview" class="content-section">
+
+**The Escape from Rodeo Ride is a dynamic turtle-defense transition where the bottom player strips the rider's near-arm control and exploits weight shifts to collapse their base, rotating underneath into side control top.**
 
 The Escape from Rodeo Ride is a critical defensive transition that every turtle player must master. When an opponent establishes Rodeo Ride—a dynamic turtle attack position characterized by asymmetric grips, loaded hip pressure, and constant positional adjustments—the bottom practitioner faces an escalating threat of back control, submissions, and positional advancement. Unlike escaping static top control positions, escaping Rodeo Ride requires matching the attacker's dynamism with precisely timed defensive movements that exploit moments of weight shift and grip transition.
 
@@ -216,5 +253,7 @@ The Escape from Rodeo Ride sits at a critical junction in the turtle defense sys
 
 
 </section>
+
+
 
 </main>

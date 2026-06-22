@@ -10,6 +10,41 @@ description: "Master the Inside Ashi to Outside Ashi transition in BJJ. Learn sy
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Inside Ashi to Outside Ashi",
+  "description": "Master the Inside Ashi to Outside Ashi transition in BJJ. Learn systematic leg reconfiguration for outside heel hook access and advanced entanglement control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Inside Ashi to Outside Ashi", "item": "https://bjjgraph.org/Transitions/Inside-Ashi-to-Outside-Ashi" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Inside Ashi to Outside Ashi",
+  "description": "Inside Ashi to Outside Ashi is a leg-lock transition where the attacker rotates the figure-four around the trapped leg from the inside angle to the outside, opening outside heel hook and ankle lock finishes without releasing heel control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Inside Ashi to Outside Ashi transition in BJJ. Learn sy
 </div>
 
 <section id="overview" class="content-section">
+
+**Inside Ashi to Outside Ashi is a leg-lock transition where the attacker rotates the figure-four around the trapped leg from the inside angle to the outside, opening outside heel hook and ankle lock finishes without releasing heel control.**
 
 Inside Ashi to Outside Ashi is a fundamental leg entanglement reconfiguration that expands the attacker's submission arsenal by switching from inside leg positioning to outside angle control. This transition is a core component of systematic leg lock systems, allowing practitioners to access outside heel hooks, different ankle lock angles, and alternative finishing mechanics without releasing the trapped leg. The ability to flow between inside and outside ashi configurations represents a key skill differentiator at the intermediate and advanced levels of no-gi grappling.
 
@@ -228,5 +265,7 @@ Inside Ashi to Outside Ashi serves as a critical link in the leg lock positional
 
 
 </section>
+
+
 
 </main>

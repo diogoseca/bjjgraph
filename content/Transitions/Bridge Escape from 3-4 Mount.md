@@ -10,6 +10,41 @@ description: "Master the bridge escape from 3-4 mount in BJJ. Complete guide to 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Bridge Escape from 3-4 Mount",
+  "description": "Master the bridge escape from 3-4 mount in BJJ. Complete guide to exploiting asymmetric weight distribution for mount reversals and guard recovery.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Bridge Escape from 3-4 Mount", "item": "https://bjjgraph.org/Transitions/Bridge-Escape-from-3-4-Mount" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Bridge Escape from 3-4 Mount",
+  "description": "The Bridge Escape from 3-4 Mount is a mount-bottom reversal that exploits the asymmetric base of three-quarter mount, bridging toward the posted-leg side to roll the top player over their compromised support point and recover top position or guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the bridge escape from 3-4 mount in BJJ. Complete guide to 
 </div>
 
 <section id="overview" class="content-section">
+
+**The Bridge Escape from 3-4 Mount is a mount-bottom reversal that exploits the asymmetric base of three-quarter mount, bridging toward the posted-leg side to roll the top player over their compromised support point and recover top position or guard.**
 
 The Bridge Escape from 3-4 Mount exploits the fundamental weakness inherent in the asymmetric weight distribution of the three-quarter mount position. Unlike escaping traditional mount where weight is evenly distributed across both sides, the 3-4 Mount's posted leg creates a predictable weak point in the top player's base that can be targeted with a well-timed bridge. The bottom player bridges toward the heavier mounted-knee side to maximally disrupt the top player's balance, then directs the escape movement toward the lighter posted-leg side where base recovery is most difficult.
 
@@ -223,5 +260,7 @@ The bridge escape from 3-4 mount integrates into the broader mount escape system
 
 
 </section>
+
+
 
 </main>

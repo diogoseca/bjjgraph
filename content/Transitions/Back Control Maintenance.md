@@ -10,6 +10,41 @@ description: "Master Back Control Maintenance in BJJ. Systematic approach to pre
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Back Control Maintenance",
+  "description": "Master Back Control Maintenance in BJJ. Systematic approach to preserving dominant back position through hook control, grip adjustments, and threat cycling.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Back Control Maintenance", "item": "https://bjjgraph.org/Transitions/Back-Control-Maintenance" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Back Control Maintenance",
+  "description": "Back Control Maintenance is the systematic preservation of back control achieved through continuous hook adjustments, cycling between seatbelt and collar grips, and constant submission threats that keep the opponent reactive and unable to establish any escape rhythm.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Back Control Maintenance in BJJ. Systematic approach to pre
 </div>
 
 <section id="overview" class="content-section">
+
+**Back Control Maintenance is the systematic preservation of back control achieved through continuous hook adjustments, cycling between seatbelt and collar grips, and constant submission threats that keep the opponent reactive and unable to establish any escape rhythm.**
 
 Back Control Maintenance represents the systematic methodology for preserving the most dominant position in grappling. Rather than rushing submissions, elite practitioners understand that maintaining back control creates cumulative pressure that breaks opponent's defensive structures over time. This positional discipline transforms back control from a fleeting opportunity into a sustainable attacking platform where every defensive movement by the opponent can be converted into deeper control or submission opportunities.
 
@@ -220,5 +257,7 @@ Back Control Maintenance serves as the foundational skill that transforms back c
 
 
 </section>
+
+
 
 </main>

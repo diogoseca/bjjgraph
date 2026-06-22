@@ -10,10 +10,55 @@ description: "Master the Short Choke from Cross Body Ride in BJJ. Complete guide
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Short Choke from Cross Body targets the Neck. Risk: Loss of consciousness from bilateral carotid artery compression causing cerebral hypoxia. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Short Choke from Cross Body",
+  "description": "Master the Short Choke from Cross Body Ride in BJJ. Complete guide covering forearm choke mechanics, finishing pressure, and defensive strategies with safety protocols.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Short Choke from Cross Body", "item": "https://bjjgraph.org/Submissions/Short-Choke-from-Cross-Body" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Short Choke from Cross Body",
+  "description": "The Short Choke from Cross Body is a no-gi blood choke that threads the attacker's forearm under a turtled opponent's chin from the cross body ride, compressing both carotid arteries with driving chest-to-back pressure to force the tap.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Short Choke from Cross Body is a no-gi blood choke that threads the attacker's forearm under a turtled opponent's chin from the cross body ride, compressing both carotid arteries with driving chest-to-back pressure to force the tap.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Neck</span>
+<span class="meta-chip">50% success</span>
+</div>
+
+> [!danger] Safety
+> Short Choke from Cross Body targets the Neck. Primary risk: Loss of consciousness from bilateral carotid artery compression causing cerebral hypoxia. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -24,56 +69,13 @@ description: "Master the Short Choke from Cross Body Ride in BJJ. Complete guide
 
 <section id="overview" class="content-section">
 
-The Short Choke from Cross Body is a high-percentage blood choke applied from the cross body ride position against a turtled opponent. The attacker threads their choking forearm under the opponent's chin while maintaining perpendicular chest-to-back pressure, using body weight and arm compression to attack both carotid arteries simultaneously. This submission capitalizes on the unique control dynamics of the cross body ride, where the attacker's weight distribution and perpendicular angle create a choking platform that becomes extremely difficult to defend once the forearm is positioned beneath the chin.
+As the primary finishing threat of the cross body ride attack system, the Short Choke converts perpendicular control over a turtled opponent into a fight-ending submission. The attacker threads their choking forearm under the opponent's chin while maintaining perpendicular chest-to-back pressure, using body weight and arm compression to attack both carotid arteries simultaneously. This submission capitalizes on the unique control dynamics of the cross body ride, where the attacker's weight distribution and perpendicular angle create a choking platform that becomes extremely difficult to defend once the forearm is positioned beneath the chin.
 
 Strategically, the Short Choke creates a forcing function within the cross body ride attack system. When the opponent dedicates both hands to defending the choke by fighting grips and protecting the neck, they sacrifice the posting ability needed to prevent back takes and crucifix entries. When they prioritize preventing positional advancement by maintaining strong base and arm position, the choking arm can be threaded more easily under the exposed chin. This systematic dilemma structure is what makes the cross body ride such a potent attacking platform and the Short Choke its primary finishing threat.
 
 The choke operates on blood restriction principles, compressing the carotid arteries bilaterally. When applied correctly with proper forearm positioning and body weight pressure, unconsciousness can occur within eight to twelve seconds of a fully locked submission. The cross body angle provides significant mechanical advantages because the attacker uses their entire body weight to drive the forearm into the neck rather than relying solely on arm squeeze, making this choke particularly effective even against larger opponents or in fatigued conditions where grip strength is compromised.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Neck
-**Starting Position**: [[Positions/Cross Body Ride]]
-**From Position**: [[Positions/Cross Body Ride]] (Top)
-**Success Rate**: 50%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Loss of consciousness from bilateral carotid artery compression causing cerebral hypoxia | CRITICAL | Immediate to minutes if released promptly; permanent brain damage possible if held beyond 20 seconds after unconsciousness |
-| Tracheal damage from improper forearm placement across the windpipe instead of carotid arteries | High | 2-6 weeks for soft tissue damage; laryngeal fracture may require surgical intervention |
-| Cervical spine strain from combined neck compression and body weight pressure at perpendicular angle | Medium | 1-3 weeks with rest and rehabilitation |
-
-
-**Application Speed**: SLOW and progressive. Build pressure incrementally over several seconds. Never jerk, spike, or explosively crank the choke. The cross body weight amplifies force significantly, so controlled application is essential to give the defender adequate time to tap.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner, mat, or any available surface
-- Physical foot tap with either leg
-- Any unusual vocalization, gurgling, or distress sound indicating inability to verbally tap
-
-
-**Release Protocol**:
-1. Release immediately upon any tap signal without hesitation
-2. If in doubt about whether a tap occurred, release immediately - the position can be re-established
-3. Monitor partner for signs of unconsciousness after release including unresponsiveness, limp limbs, or glazed expression
-4. If partner loses consciousness, place in recovery position, elevate legs, and seek medical attention if not conscious within 15 seconds
-
-
-**Training Restrictions**:
-- Never apply at full force during drilling; use progressive resistance building from 30% to controlled competition intensity
-- Do not practice on partners with known neck injuries, cervical spine conditions, or cardiovascular problems
-- Beginners should practice grip placement and arm threading mechanics without pressure before adding any compression
-- Always train with a qualified instructor present when first learning this submission
-
+**Starting Position**: [[Positions/Cross Body Ride]] · **From**: [[Positions/Cross Body Ride]] (Top)
 
 </section>
 
@@ -240,41 +242,60 @@ The choke operates on blood restriction principles, compressing the carotid arte
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/Bow and Arrow Choke]]
 - [[Submissions/Choke from Crucifix]]
 - [[Transitions/Clock Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Cross Body Ride]] - Primary starting position providing the perpendicular control platform for the choke
 - [[Positions/Back Control]] - Related dominant position with similar choking mechanics from behind the opponent
 - [[Positions/Crucifix]] - Alternative attack position accessible from cross body ride when choke is defended
 - [[Positions/Turtle]] - Opponent's base defensive position during the choke attempt
 - [[Positions/Harness]] - Grip system that supports cross body control setup before choke initiation
 - [[Positions/Side Control]] - Alternative controlling position where similar short choke mechanics can be applied
-- [[Submissions/Rear Naked Choke]] - Related blood choke from back control sharing similar forearm-on-neck finishing mechanics
+
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Loss of consciousness from bilateral carotid artery compression causing cerebral hypoxia | CRITICAL | Immediate to minutes if released promptly; permanent brain damage possible if held beyond 20 seconds after unconsciousness |
+| Tracheal damage from improper forearm placement across the windpipe instead of carotid arteries | High | 2-6 weeks for soft tissue damage; laryngeal fracture may require surgical intervention |
+| Cervical spine strain from combined neck compression and body weight pressure at perpendicular angle | Medium | 1-3 weeks with rest and rehabilitation |
+
+
+**Application Speed**: SLOW and progressive. Build pressure incrementally over several seconds. Never jerk, spike, or explosively crank the choke. The cross body weight amplifies force significantly, so controlled application is essential to give the defender adequate time to tap.
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any distress signal)
+- Physical hand tap on partner, mat, or any available surface
+- Physical foot tap with either leg
+- Any unusual vocalization, gurgling, or distress sound indicating inability to verbally tap
+
+
+**Release Protocol**:
+1. Release immediately upon any tap signal without hesitation
+2. If in doubt about whether a tap occurred, release immediately - the position can be re-established
+3. Monitor partner for signs of unconsciousness after release including unresponsiveness, limp limbs, or glazed expression
+4. If partner loses consciousness, place in recovery position, elevate legs, and seek medical attention if not conscious within 15 seconds
+
+
+**Training Restrictions**:
+- Never apply at full force during drilling; use progressive resistance building from 30% to controlled competition intensity
+- Do not practice on partners with known neck injuries, cervical spine conditions, or cardiovascular problems
+- Beginners should practice grip placement and arm threading mechanics without pressure before adding any compression
+- Always train with a qualified instructor present when first learning this submission
 
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Short Choke from Cross Body leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

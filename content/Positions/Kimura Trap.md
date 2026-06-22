@@ -10,6 +10,41 @@ description: "Master Kimura Trap position in BJJ. Complete guide covering bottom
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kimura Trap",
+  "description": "Master Kimura Trap position in BJJ. Complete guide covering bottom defensive control and top offensive pressure, with systematic sweeps, submissions, and transitions.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Kimura Trap", "item": "https://bjjgraph.org/Positions/Kimura-Trap" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kimura Trap",
+  "description": "The Kimura Trap is a grip-based control system in BJJ where a figure-four grip on the opponent's arm dominates their shoulder and inverts positional hierarchy, enabling sweeps, back takes, and submissions from either the top or bottom.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Kimura Trap position in BJJ. Complete guide covering bottom
 </div>
 
 <section id="overview" class="content-section">
+
+**The Kimura Trap is a grip-based control system in BJJ where a figure-four grip on the opponent's arm dominates their shoulder and inverts positional hierarchy, enabling sweeps, back takes, and submissions from either the top or bottom.**
 
 The Kimura Trap is a revolutionary position system in Brazilian Jiu-Jitsu that fundamentally challenges traditional notions of top and bottom control. At its core, the Kimura Trap uses a figure-four Kimura grip to create a control mechanism that transcends positional hierarchy—the practitioner with the Kimura grip controls their opponent's shoulder girdle and arm structure regardless of whether they are on top or bottom. This position represents a paradigm shift from purely positional thinking to grip-based control systems.
 
@@ -104,13 +141,13 @@ Strategically, the Kimura Trap excels at creating dilemmas where opponents must 
 ### Available Transitions
 
 
-- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (31% of attempts)
+- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (29% of attempts)
 
 - **[[Transitions/Kimura to Back Take/Attacker|Kimura to Back Take]]** (14% of attempts)
 
-- **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** (10% of attempts)
-
 - **[[Transitions/Rolling Kimura/Attacker|Rolling Kimura]]** (10% of attempts)
+
+- **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** (9% of attempts)
 
 - **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (6% of attempts)
 
@@ -122,9 +159,11 @@ Strategically, the Kimura Trap excels at creating dilemmas where opponents must 
 
 - **[[Transitions/Half Guard Pass/Attacker|Half Guard Pass]]** (6% of attempts)
 
+- **[[Transitions/Kimura Defense/Attacker|Kimura Defense]]** (3% of attempts)
+
 - **[[Transitions/Kimura Counter via Roll/Attacker|Kimura Counter via Roll]]** (3% of attempts)
 
-- **[[Transitions/Kimura Defense Arm Extraction/Attacker|Kimura Defense Arm Extraction]]** (2% of attempts)
+- **[[Transitions/Rolling Kimura Escape/Attacker|Rolling Kimura Escape]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -197,11 +236,11 @@ Strategically, the Kimura Trap excels at creating dilemmas where opponents must 
 
 - **[[Americana from Kimura Trap/Attacker|Americana from Kimura Trap]]** (6% of attempts)
 
-- **[[Transitions/Kimura Defense/Attacker|Kimura Defense]]** (3% of attempts)
+- **[[Transitions/Kimura Defense Arm Extraction/Attacker|Kimura Defense Arm Extraction]]** (2% of attempts)
 
 - **[[Transitions/Kimura Trap to Reverse Scarf Hold/Attacker|Kimura Trap to Reverse Scarf Hold]]** (2% of attempts)
 
-- **[[Kimura from Kimura Trap/Attacker|Kimura from Kimura Trap]]** (32% of attempts)
+- **[[Kimura from Kimura Trap/Attacker|Kimura from Kimura Trap]]** (33% of attempts)
 
 
 ### Common Mistakes
@@ -260,6 +299,18 @@ Strategically, the Kimura Trap excels at creating dilemmas where opponents must 
 
 - **[[Positions/Half Guard/Deep Half Guard]]** - Alternative bottom position when opponent defends Kimura by sprawling back
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Danaher Straight Jacket System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Related control system emphasizing arm immobilization principles similar to straight jacket methodology</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Kimura-Trap-System" data-cta="related-system-card" data-system-slug="systems/kimura-trap-system" data-system-name="Kimura Trap System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Kimura Trap System</span><span class="system-card__unlocks-badge">Unlocks 21 techniques</span><span class="system-card__blurb">Primary control position from which the entire system operates</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/10th-Planet-Half-Guard-Bottom-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-half-guard-bottom-system" data-system-name="10th Planet Half Guard Bottom System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">10th Planet Half Guard Bottom System</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Alternative attacking control when opponent extends their arm during Lockdown battles</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

@@ -10,10 +10,55 @@ description: "Master the Darce choke from leg drag control in BJJ. Complete guid
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Darce Choke from Leg Drag targets the Neck (Carotid Arteries). Risk: Loss of consciousness from bilateral carotid compression. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Darce Choke from Leg Drag",
+  "description": "Master the Darce choke from leg drag control in BJJ. Complete guide covering entry mechanics, finishing details, and defensive responses for grapplers.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Darce Choke from Leg Drag", "item": "https://bjjgraph.org/Submissions/Darce-Choke-from-Leg-Drag" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Darce Choke from Leg Drag",
+  "description": "The Darce Choke from Leg Drag is an arm-triangle blood choke applied during guard passing — the attacker threads the choking arm under the opponent's neck and far armpit when they turn into the passer, compressing both carotid arteries.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Darce Choke from Leg Drag is an arm-triangle blood choke applied during guard passing — the attacker threads the choking arm under the opponent's neck and far armpit when they turn into the passer, compressing both carotid arteries.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Arm-Triangle Choke</span>
+<span class="meta-chip">Targets Neck (Carotid Arteries)</span>
+<span class="meta-chip">45% success</span>
+</div>
+
+> [!danger] Safety
+> Darce Choke from Leg Drag targets the Neck (Carotid Arteries). Primary risk: Loss of consciousness from bilateral carotid compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,54 +75,7 @@ The mechanics of this particular Darce entry differ from traditional setups in t
 
 This submission represents a high-percentage finishing option within the leg drag passing system because it punishes the most common defensive response. When combined with back take threats and mount transitions, the Darce from leg drag creates a three-way dilemma: turning away gives up the back, staying flat allows mount or side control consolidation, and turning in opens the Darce. Advanced practitioners use this submission as part of an integrated passing-to-submission chain where the guard pass and the choke become a single continuous sequence rather than separate events.
 
-**Category**: Choke
-**Type**: Arm-Triangle Choke
-**Target Area**: Neck (Carotid Arteries)
-**Starting Position**: [[Positions/Leg Drag Control]]
-**From Position**: [[Positions/Leg Drag Control]] (Top)
-**Success Rate**: 45%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Loss of consciousness from bilateral carotid compression | CRITICAL | Seconds to minutes if released immediately; potential brain damage if held beyond 10 seconds after unconsciousness |
-| Tracheal bruising or damage from improperly applied pressure on the windpipe | High | 1-4 weeks depending on severity; may require medical evaluation |
-| Cervical spine compression from combined neck pressure and body weight | Medium | Days to weeks; seek medical attention if numbness or radiating pain occurs |
-| Shoulder strain on the trapped arm from forced internal rotation under pressure | Medium | 1-3 weeks with rest and rehabilitation |
-
-
-**Application Speed**: MODERATE. Blood chokes take effect within 4-8 seconds once fully locked. Apply finishing pressure progressively and be prepared for opponent to lose consciousness without tapping. Never jerk or spike the choke.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner, own body, or mat
-- Physical foot tap on mat or partner with either leg
-- Any unusual vocalization, gurgling, or distress sound
-- Body going limp or cessation of defensive movement (indicates unconsciousness - release immediately)
-
-
-**Release Protocol**:
-1. Release all choking pressure immediately upon any tap signal
-2. Release immediately if opponent goes limp or loses consciousness - do not wait for verbal confirmation
-3. Place unconscious opponent in recovery position on their side
-4. If in doubt about whether opponent tapped, release immediately - the position can be re-established
-5. Monitor recovered opponent for confusion, dizziness, or delayed symptoms after release
-
-
-**Training Restrictions**:
-- Apply finishing pressure gradually and progressively - never explosively crank the choke
-- Beginners should practice grip mechanics and positioning without applying finishing pressure until comfortable with the release protocol
-- Do not train this technique when fatigued to the point of impaired reaction time for release
-- Partners should establish clear tap signals before drilling, especially in no-gi where sound may be muffled
-- Stop immediately if opponent shows any signs of distress beyond normal discomfort
-
+**Starting Position**: [[Positions/Leg Drag Control]] · **From**: [[Positions/Leg Drag Control]] (Top)
 
 </section>
 
@@ -245,44 +243,67 @@ This submission represents a high-percentage finishing option within the leg dra
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Transitions/Anaconda Choke]]
 - [[Transitions/Arm Triangle]]
 - [[Submissions/Brabo Choke]]
 - [[Transitions/Darce Choke]]
 - [[Submissions/Arm in Guillotine]]
 - [[Submissions/Chin Strap Guillotine]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Leg Drag Control]] - Primary starting position for this submission entry
 - [[Positions/Darce Control]] - Intermediate control position when Darce is locked but not yet finished
 - [[Positions/Side Control]] - Alternative consolidation if Darce attempt fails from leg drag
 - [[Positions/Half Guard]] - Position where similar Darce entries are available when opponent underhooks
 - [[Positions/Front Headlock]] - Related control position offering similar head-arm choke entries
-- [[Transitions/Anaconda Choke]] - Sister submission using reverse arm threading direction from same family
 - [[Positions/Back Control]] - Alternative attack when opponent turns away from leg drag instead of into Darce
 - [[Positions/Turtle]] - Common transitional position where Darce becomes available during scrambles
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Loss of consciousness from bilateral carotid compression | CRITICAL | Seconds to minutes if released immediately; potential brain damage if held beyond 10 seconds after unconsciousness |
+| Tracheal bruising or damage from improperly applied pressure on the windpipe | High | 1-4 weeks depending on severity; may require medical evaluation |
+| Cervical spine compression from combined neck pressure and body weight | Medium | Days to weeks; seek medical attention if numbness or radiating pain occurs |
+| Shoulder strain on the trapped arm from forced internal rotation under pressure | Medium | 1-3 weeks with rest and rehabilitation |
+
+
+**Application Speed**: MODERATE. Blood chokes take effect within 4-8 seconds once fully locked. Apply finishing pressure progressively and be prepared for opponent to lose consciousness without tapping. Never jerk or spike the choke.
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any distress signal)
+- Physical hand tap on partner, own body, or mat
+- Physical foot tap on mat or partner with either leg
+- Any unusual vocalization, gurgling, or distress sound
+- Body going limp or cessation of defensive movement (indicates unconsciousness - release immediately)
+
+
+**Release Protocol**:
+1. Release all choking pressure immediately upon any tap signal
+2. Release immediately if opponent goes limp or loses consciousness - do not wait for verbal confirmation
+3. Place unconscious opponent in recovery position on their side
+4. If in doubt about whether opponent tapped, release immediately - the position can be re-established
+5. Monitor recovered opponent for confusion, dizziness, or delayed symptoms after release
+
+
+**Training Restrictions**:
+- Apply finishing pressure gradually and progressively - never explosively crank the choke
+- Beginners should practice grip mechanics and positioning without applying finishing pressure until comfortable with the release protocol
+- Do not train this technique when fatigued to the point of impaired reaction time for release
+- Partners should establish clear tap signals before drilling, especially in no-gi where sound may be muffled
+- Stop immediately if opponent shows any signs of distress beyond normal discomfort
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Darce Choke from Leg Drag leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

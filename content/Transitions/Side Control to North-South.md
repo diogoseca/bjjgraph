@@ -10,6 +10,41 @@ description: "Master the Side Control to North-South transition in BJJ. Maintain
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Side Control to North-South",
+  "description": "Master the Side Control to North-South transition in BJJ. Maintain crushing pressure while advancing position for kimuras, chokes, and armbars.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Side Control to North-South", "item": "https://bjjgraph.org/Transitions/Side-Control-to-North-South" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Side Control to North-South",
+  "description": "Side Control to North-South is a top-position transition where you walk your feet around a pinned opponent's head while keeping chest pressure, rotating from a perpendicular side pin to a head-to-head pin that opens kimuras, chokes, and armbars.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Side Control to North-South transition in BJJ. Maintain
 </div>
 
 <section id="overview" class="content-section">
+
+**Side Control to North-South is a top-position transition where you walk your feet around a pinned opponent's head while keeping chest pressure, rotating from a perpendicular side pin to a head-to-head pin that opens kimuras, chokes, and armbars.**
 
 The transition from Side Control to North-South is a fundamental positional advancement that creates new submission opportunities and eliminates defensive frames. This movement maintains maximum pressure while rotating your body perpendicular to your opponent, placing your head near their hips and your hips near their head. The North-South position offers unique attacking angles for chokes, kimuras, and armbars while severely limiting your opponent's escape options.
 
@@ -224,5 +261,7 @@ The North-South transition is a critical component of top control maintenance an
 
 
 </section>
+
+
 
 </main>

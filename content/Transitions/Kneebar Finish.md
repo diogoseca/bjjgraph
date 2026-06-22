@@ -10,6 +10,41 @@ description: "Master the Kneebar Finish from Carni position in BJJ. Complete gui
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kneebar Finish",
+  "description": "Master the Kneebar Finish from Carni position in BJJ. Complete guide to hyperextension mechanics, timing, and chain attacks when opponent extends leg.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Kneebar Finish", "item": "https://bjjgraph.org/Transitions/Kneebar-Finish" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kneebar Finish",
+  "description": "The Kneebar Finish is a no-gi leg-lock submission applied from the Carni entanglement that hyperextends the opponent's knee by trapping their ankle to your chest and driving your hips forward when they straighten the trapped leg.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Kneebar Finish from Carni position in BJJ. Complete gui
 </div>
 
 <section id="overview" class="content-section">
+
+**The Kneebar Finish is a no-gi leg-lock submission applied from the Carni entanglement that hyperextends the opponent's knee by trapping their ankle to your chest and driving your hips forward when they straighten the trapped leg.**
 
 The Kneebar Finish from Carni represents a high-percentage submission opportunity that arises when the opponent makes the defensive error of extending their trapped leg to create distance. Unlike the heel hook which attacks rotational stability of the knee, the kneebar attacks the hyperextension plane, making it a devastating complement to heel hook threats from the same position. The technique capitalizes on the opponent's natural instinct to straighten their leg when under leg entanglement pressure.
 
@@ -212,5 +249,7 @@ The Kneebar Finish integrates into the Carni attack system as the complementary 
 
 
 </section>
+
+
 
 </main>

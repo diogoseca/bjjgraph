@@ -75,7 +75,7 @@ description: "Learn to defend the Sweep from Inverted Guard. Recognition cues, b
       "name": "Your opponent has secured a hook behind your leg and gripped your pants - what is your immediate defensive priority?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Your immediate priority is stripping the pants grip before the opponent generates rotational momentum. The grip is the connection point through which sweep force is transmitted, and without it the hook alone cannot complete the sweep effectively. Use both hands to peel their grip while simultaneously backstipping away from the hook side. If the grip cannot be broken quickly, drop your hips and sprawl to remove the angle the sweep requires."
+        "text": "Your immediate priority is stripping the pants grip before the opponent generates rotational momentum. The grip is the connection point through which sweep force is transmitted, and without it the hook alone cannot complete the sweep effectively. Use both hands to peel their grip while simultaneously backstepping away from the hook side. If the grip cannot be broken quickly, drop your hips and sprawl to remove the angle the sweep requires."
       }
     },
     {
@@ -238,7 +238,7 @@ When the opponent commits to deep inversion with elevated hips, immediately appl
 
 ### → [[Positions/Inverted Guard]]
 
-Strip the opponent's grips early before they can establish the dual-grip connection needed for the sweep. Use both hands to peel their pants grip while backstipping away from the hook side. Without grip connections, the sweep cannot generate sufficient force and the opponent remains in inverted guard without offensive capability, allowing you to re-engage on your terms.
+Strip the opponent's grips early before they can establish the dual-grip connection needed for the sweep. Use both hands to peel their pants grip while backstepping away from the hook side. Without grip connections, the sweep cannot generate sufficient force and the opponent remains in inverted guard without offensive capability, allowing you to re-engage on your terms.
 
 
 

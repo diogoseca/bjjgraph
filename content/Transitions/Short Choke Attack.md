@@ -10,6 +10,41 @@ description: "Learn Short Choke Attack from Gift Wrap in BJJ. Step-by-step execu
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Short Choke Attack",
+  "description": "Learn Short Choke Attack from Gift Wrap in BJJ. Step-by-step execution for this strangle. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Short Choke Attack", "item": "https://bjjgraph.org/Transitions/Short-Choke-Attack" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Short Choke Attack",
+  "description": "Short Choke Attack is a high-percentage strangle from the Gift Wrap where the attacker slides their free arm under the chin and links it to the opponent's already-trapped arm, forming a figure-four that crushes both carotid arteries.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Learn Short Choke Attack from Gift Wrap in BJJ. Step-by-step execu
 
 <section id="overview" class="content-section">
 
-The Short Choke Attack is a highly efficient strangle executed from the Gift Wrap position that capitalizes on the opponent's compromised defensive capability. With one arm already trapped across their body, the defender has severely limited ability to protect their neck, making this choke significantly higher percentage than standard rear naked choke attempts from back control.
+**Short Choke Attack is a high-percentage strangle from the Gift Wrap where the attacker slides their free arm under the chin and links it to the opponent's already-trapped arm, forming a figure-four that crushes both carotid arteries.**
+
+The Short Choke earns its place as the highest-percentage strangle available from the Gift Wrap because the position has already done half the defensive work for you. With one of the opponent's arms pinned high across their own body, they can no longer bring two hands to the neck, and that same trapped limb becomes a structural part of the choke rather than an obstacle to it.
 
 The mechanics of the Short Choke differ from traditional rear naked chokes in that you use the opponent's own trapped arm as part of the choking structure. Your free arm slides under the chin and connects to your bicep or forearm of the Gift Wrap controlling arm, creating a figure-four configuration that compresses both sides of the neck. This structure requires less space to establish than a standard RNC because you're not threading a second arm behind the head.
 
@@ -206,7 +243,7 @@ The Short Choke Attack occupies a central position within the Gift Wrap attack s
 
 - [[Transitions/Armbar from Back Transition]] - Chain attack - available when opponent uses free arm to defend choke
 
-- [[Transitions/Crucifix Transition]] - Positional advancement - accessible when opponent defends choke by turning away
+- [[Transitions/Back Control to Crucifix]] - Positional advancement - accessible when opponent defends choke by turning away
 
 - [[Transitions/Gift Wrap to Technical Mount]] - Positional chain - advancement option maintaining arm control
 
@@ -218,5 +255,7 @@ The Short Choke Attack occupies a central position within the Gift Wrap attack s
 
 
 </section>
+
+
 
 </main>

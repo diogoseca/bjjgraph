@@ -1,5 +1,6 @@
 {
   "name": "Leg Extraction Pass",
+  "summary": "The Leg Extraction Pass frees the top player's leg from an opponent's leg entanglement by neutralizing the heel grip and driving the knee to the mat to strip hooks, then advancing directly to half guard or side control top.",
   "description": "Master the Leg Extraction Pass from leg entanglements. Step-by-step guide to freeing your trapped leg, clearing hooks, and advancing to half guard top.",
   "tags": [
     "bjj",
@@ -99,10 +100,6 @@
     {
       "name": "Leg Extraction Escape from Entanglement",
       "relationship": "Related escape technique from bottom player perspective in entanglements"
-    },
-    {
-      "name": "Heel Hook Defense Escape",
-      "relationship": "Complementary defensive technique addressing the submission threat during extraction"
     },
     {
       "name": "Knee Slice Pass",

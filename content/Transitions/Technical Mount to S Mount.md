@@ -10,6 +10,41 @@ description: "Master the Technical Mount to S Mount transition in BJJ. Learn per
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Technical Mount to S Mount",
+  "description": "Master the Technical Mount to S Mount transition in BJJ. Learn perpendicular hip rotation, arm isolation mechanics, and body angle adjustments for armbar setups.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Technical Mount to S Mount", "item": "https://bjjgraph.org/Transitions/Technical-Mount-to-S-Mount" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Technical Mount to S Mount",
+  "description": "Technical Mount to S Mount is a mount-offense transition that pivots the hips around the opponent's isolated arm, converting Technical Mount's diagonal stepped-leg angle into S Mount's fully perpendicular alignment to maximize armbar finishing leverage.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Technical Mount to S Mount transition in BJJ. Learn per
 </div>
 
 <section id="overview" class="content-section">
+
+**Technical Mount to S Mount is a mount-offense transition that pivots the hips around the opponent's isolated arm, converting Technical Mount's diagonal stepped-leg angle into S Mount's fully perpendicular alignment to maximize armbar finishing leverage.**
 
 The Technical Mount to S Mount transition is a critical positional advancement within the mount offense system that converts the stepped-leg asymmetry of Technical Mount into the fully perpendicular body angle defining S Mount. This transition centers on rotating the hips from a diagonal orientation to a perpendicular alignment relative to the opponent's torso, while maintaining continuous two-on-one arm control throughout the movement. The perpendicular angle creates dramatically superior mechanical leverage for armbar attacks by aligning the practitioner's entire body along the axis of the opponent's isolated arm.
 
@@ -222,5 +259,7 @@ The Technical Mount to S Mount transition occupies a pivotal role in the mount s
 
 
 </section>
+
+
 
 </main>

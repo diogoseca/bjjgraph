@@ -240,7 +240,7 @@ The Butterfly Smash from the attacker's perspective is a pressure-based guard ne
 |--------|----------|-------------|
 | Success | [[Positions/Half Guard]] | 55% |
 | Failure | [[Positions/Butterfly Guard/Butterfly Hook Control]] | 30% |
-| Counter | [[Positions/Mount]] | 15% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -251,10 +251,10 @@ The Butterfly Smash from the attacker's perspective is a pressure-based guard ne
 
 <p class="section-subtitle">How might your opponent counter Smash from Butterfly Hook Control?</p>
 
-- **Opponent elevates hooks explosively and sweeps during weight transfer, using the committed weight against you** (Effectiveness: High) - Your Response: Maintain wide base on the non-smashing side and keep weight behind your knees during the initial transfer. If you feel significant elevation beginning, immediately abort the smash by sprawling hips back and resetting your base before re-attempting. → Leads to [[Positions/Mount]]
+- **Opponent elevates hooks explosively and sweeps during weight transfer, using the committed weight against you** (Effectiveness: High) - Your Response: Maintain wide base on the non-smashing side and keep weight behind your knees during the initial transfer. If you feel significant elevation beginning, immediately abort the smash by sprawling hips back and resetting your base before re-attempting. → Leads to [[Positions/Half Guard]]
 - **Opponent frames against crossface and hip escapes laterally to recover distance and re-insert hooks** (Effectiveness: Medium) - Your Response: Maintain heavy head pressure and crossface throughout the entire smash sequence. Control their far hip with your free hand to block the hip escape angle. If they begin creating distance, drive forward to close the gap before they can fully re-establish hooks. → Leads to [[Positions/Butterfly Guard/Butterfly Hook Control]]
 - **Opponent gets shoulder underneath your hips during hook collapse and transitions to deep half guard** (Effectiveness: Medium) - Your Response: Keep your weight forward through chest and shoulders rather than sitting back onto your heels. If you feel them beginning to get underneath, immediately post your hands and sprawl hips away from their body. Controlling their far hip prevents the initial hip escape motion needed for the deep half entry. → Leads to [[Positions/Butterfly Guard/Butterfly Hook Control]]
-- **Opponent executes arm drag on your posting arm during the weight shift, taking the back** (Effectiveness: High) - Your Response: Keep elbows tight to your ribs throughout the smash. Never extend arms away from your torso while transferring weight. If the drag initiates, immediately circle away from the drag direction while dropping your weight to prevent them from clearing your hip line. → Leads to [[Positions/Mount]]
+- **Opponent arm drags your posting arm during the weight shift, clears your hip line, and comes up to sweep you onto the bottom** (Effectiveness: High) - Your Response: Keep elbows tight to your ribs throughout the smash. Never extend arms away from your torso while transferring weight. If the drag initiates, immediately circle away from the drag direction while dropping your weight to prevent them from clearing your hip line and coming up on top. → Leads to [[Positions/Half Guard]]
 
 
 </section>
@@ -335,5 +335,7 @@ Execute the butterfly smash then immediately flow into your preferred half guard
 When executing the butterfly smash, apply pressure gradually and avoid sudden explosive weight drops that could cause knee or hip injury to the bottom player. Be aware that your knee driving through their hook can compress the ankle joint—if you feel resistance indicating their foot is trapped at an awkward angle, adjust your knee position before driving further. During training, communicate with partners about pressure levels and ensure neither practitioner's knees are being stressed by the weight transfer mechanics. Avoid driving the knee directly into the opponent's inner thigh or groin area.
 
 </section>
+
+
 
 </main>

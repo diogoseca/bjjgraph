@@ -202,7 +202,7 @@ Successful defense requires early recognition of the counter attempt, ideally be
 ### 1. Accelerate heel hook finish before counter-entanglement is established
 
 - **When to use**: When you already have a deep heel grip and opponent is only beginning their counter rotation—your positional advantage is clear
-- **Targets**: [[Positions/Ashi Garami/Inside Ashi-Garami]]
+- **Targets**: [[Transitions/Heel Hook]]
 - **If successful**: You finish the heel hook before opponent can establish inside ashi on your leg, ending the exchange in your favor
 - **Risk**: If your grip is not as deep as you believe, racing to finish creates a chaotic exchange where both practitioners may be injured
 
@@ -237,7 +237,7 @@ Successful defense requires early recognition of the counter attempt, ideally be
 
 <p class="section-subtitle">What is the best outcome when defending Reverse Heel Hook Counter?</p>
 
-### → [[Positions/Ashi Garami/Inside Ashi-Garami]]
+### → [[Transitions/Heel Hook]]
 
 Accelerate your heel hook finish when you detect the counter attempt but already have deep grip control. Your positional advantage from the original ushiro top position means your grip was established first—commit to the finish before their counter-entanglement becomes dangerous.
 

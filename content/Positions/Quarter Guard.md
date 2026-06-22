@@ -10,6 +10,41 @@ description: "Master Quarter Guard in BJJ. Strategic guide covering bottom defen
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Quarter Guard",
+  "description": "Master Quarter Guard in BJJ. Strategic guide covering bottom defense, sweeps, back takes, top passing pressure, and control transitions with complete perspective analysis.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Quarter Guard", "item": "https://bjjgraph.org/Positions/Quarter-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Quarter Guard",
+  "description": "Quarter Guard is a compromised half-guard variation where the bottom player retains only minimal leg control—roughly a quarter of the entanglement—forcing an immediate race between bottom-side sweeps or back takes and top-side pass completion.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Quarter Guard in BJJ. Strategic guide covering bottom defen
 </div>
 
 <section id="overview" class="content-section">
+
+**Quarter Guard is a compromised half-guard variation where the bottom player retains only minimal leg control—roughly a quarter of the entanglement—forcing an immediate race between bottom-side sweeps or back takes and top-side pass completion.**
 
 Quarter Guard represents a critical transitional position in Brazilian Jiu-Jitsu's guard passing and retention hierarchy, occupying the narrow space between functional half guard and completed pass. This position emerges when the top player has advanced significantly past the bottom player's hip line but the bottom player maintains minimal leg engagement—typically just a weakened knee shield, partial hook, or quarter lockdown. Unlike full half guard where the bottom player has substantial control and time to develop attacks, quarter guard is inherently unstable and demands immediate decision-making from both practitioners.
 
@@ -98,19 +135,19 @@ Quarter guard occurs most frequently during guard passing sequences when defende
 ### Available Transitions
 
 
-- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (10% of attempts)
+- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (16% of attempts)
 
-- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (9% of attempts)
+- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (12% of attempts)
 
-- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (10% of attempts)
+- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (15% of attempts)
 
-- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (11% of attempts)
+- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (14% of attempts)
 
-- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (8% of attempts)
+- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (10% of attempts)
 
-- **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** (6% of attempts)
+- **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** (8% of attempts)
 
-- **[[Transitions/Knee Shield Retention/Attacker|Knee Shield Retention]]** (33% of attempts)
+- **[[Transitions/Knee Shield Retention/Attacker|Knee Shield Retention]]** (12% of attempts)
 
 - **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** (9% of attempts)
 
@@ -262,5 +299,7 @@ Quarter guard occurs most frequently during guard passing sequences when defende
 
 
 </section>
+
+
 
 </main>

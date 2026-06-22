@@ -10,6 +10,41 @@ description: "Master the Jailbreak to Back Take in BJJ. Convert defensive half g
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Jailbreak to Back Take",
+  "description": "Master the Jailbreak to Back Take in BJJ. Convert defensive half guard escape into dominant back control using rolling momentum and underhook mechanics.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Jailbreak to Back Take", "item": "https://bjjgraph.org/Transitions/Jailbreak-to-Back-Take" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Jailbreak to Back Take",
+  "description": "The Jailbreak to Back Take is an advanced 10th Planet half guard escape that converts a defensive jailbreak roll into back control by riding the chasing top player's momentum with a maintained underhook.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Jailbreak to Back Take in BJJ. Convert defensive half g
 </div>
 
 <section id="overview" class="content-section">
+
+**The Jailbreak to Back Take is an advanced 10th Planet half guard escape that converts a defensive jailbreak roll into back control by riding the chasing top player's momentum with a maintained underhook.**
 
 The Jailbreak to Back Take is an advanced continuation of the standard jailbreak escape from bottom half guard, transforming a defensive escape into an offensive back control opportunity. When the top player follows your jailbreak roll rather than disengaging, you capitalize on their momentum by continuing your rotation and using your underhook connection to pull yourself behind them as they chase. This technique represents the pinnacle of the jailbreak system, converting defensive disadvantage into the most dominant position in BJJ.
 
@@ -218,5 +255,7 @@ The Jailbreak to Back Take fits within the 10th Planet half guard system as the 
 
 
 </section>
+
+
 
 </main>

@@ -10,6 +10,41 @@ description: "Master the Tripod Sweep from Spider Guard in BJJ. Technical breakd
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Tripod Sweep",
+  "description": "Master the Tripod Sweep from Spider Guard in BJJ. Technical breakdown of setup, execution, and follow-ups. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Tripod Sweep", "item": "https://bjjgraph.org/Transitions/Tripod-Sweep" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Tripod Sweep",
+  "description": "The Tripod Sweep is a Spider Guard sweep where the bottom player uses sleeve and bicep control plus a far-ankle grip to off-balance a standing opponent backward, removing their base and coming up on top as they fall.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Tripod Sweep from Spider Guard in BJJ. Technical breakd
 </div>
 
 <section id="overview" class="content-section">
+
+**The Tripod Sweep is a Spider Guard sweep where the bottom player uses sleeve and bicep control plus a far-ankle grip to off-balance a standing opponent backward, removing their base and coming up on top as they fall.**
 
 The Tripod Sweep is a fundamental open guard technique that creates a mechanical advantage through angles and off-balancing. From Spider Guard, the practitioner establishes a three-point base (two feet and one hand on the opponent) to create an unstable platform, forcing the opponent to react and creating sweep opportunities. This technique is particularly effective against opponents attempting to maintain distance and posture in the guard, as it exploits their upright stance and converts their weight distribution into a sweeping motion. The name 'tripod' refers to the three points of contact that control the opponent's base while simultaneously removing one of their legs from the equation. This sweep is a cornerstone of modern Spider Guard systems and provides entry points into multiple dominant positions including mount, knee on belly, or standing control. The tripod structure allows for dynamic transitions and combinations, making it an essential technique for competitors at all levels who wish to develop an active, attacking guard game.
 
@@ -218,5 +255,7 @@ The Tripod Sweep is a foundational technique within the Spider Guard attack syst
 
 
 </section>
+
+
 
 </main>

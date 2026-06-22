@@ -10,6 +10,41 @@ description: "Master the Escape from Shoulder of Justice in BJJ. Complete guide 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Escape Shoulder of Justice",
+  "description": "Master the Escape from Shoulder of Justice in BJJ. Complete guide to relieving jaw pressure, creating frames, and recovering half guard position.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Escape Shoulder of Justice", "item": "https://bjjgraph.org/Transitions/Escape-Shoulder-of-Justice" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Escape Shoulder of Justice",
+  "description": "The Escape from Shoulder of Justice is a defensive sequence from under this high-pressure side control pin, using forearm micro-frames and timed hip escapes to relieve jaw pressure and recover half guard while shielding the near arm from kimura attacks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Escape from Shoulder of Justice in BJJ. Complete guide 
 </div>
 
 <section id="overview" class="content-section">
+
+**The Escape from Shoulder of Justice is a defensive sequence from under this high-pressure side control pin, using forearm micro-frames and timed hip escapes to relieve jaw pressure and recover half guard while shielding the near arm from kimura attacks.**
 
 The Escape from Shoulder of Justice is a specialized defensive technique designed to address one of the most physically punishing pin variations in Brazilian Jiu-Jitsu. The Shoulder of Justice concentrates enormous pressure through the opponent's shoulder blade into your jaw and temporomandibular joint, creating intense discomfort that provokes reactive movements. This escape specifically targets the mechanical vulnerabilities inherent in the position by using precise forearm framing, well-timed hip escapes, and systematic guard recovery rather than desperate reactive movements that play directly into the top player's submission dilemma system.
 
@@ -222,5 +259,7 @@ The Escape from Shoulder of Justice occupies a critical role within the side con
 
 
 </section>
+
+
 
 </main>

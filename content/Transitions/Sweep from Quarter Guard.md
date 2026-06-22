@@ -10,6 +10,41 @@ description: "Master the Sweep from Quarter Guard in BJJ. Learn underhook-driven
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Sweep from Quarter Guard",
+  "description": "Master the Sweep from Quarter Guard in BJJ. Learn underhook-driven reversals from compromised half guard with step-by-step execution and defensive counters.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Sweep from Quarter Guard", "item": "https://bjjgraph.org/Transitions/Sweep-from-Quarter-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Sweep from Quarter Guard",
+  "description": "The Sweep from Quarter Guard is an underhook-driven reversal in which the bottom player, with their guard nearly passed, elevates and redirects the forward-committed top player to land in side control top.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Sweep from Quarter Guard in BJJ. Learn underhook-driven
 </div>
 
 <section id="overview" class="content-section">
+
+**The Sweep from Quarter Guard is an underhook-driven reversal in which the bottom player, with their guard nearly passed, elevates and redirects the forward-committed top player to land in side control top.**
 
 The Sweep from Quarter Guard is a critical reversal technique executed from the compromised quarter guard bottom position, where the bottom player retains minimal leg engagement but has secured an underhook against the top player's body. This sweep exploits the mechanical vulnerability created when the top player commits weight forward during pass completion, using the underhook as the primary lever to redirect the top player's momentum and achieve a full reversal to side control top.
 
@@ -220,5 +257,7 @@ The Sweep from Quarter Guard occupies a critical position in the half guard rete
 
 
 </section>
+
+
 
 </main>

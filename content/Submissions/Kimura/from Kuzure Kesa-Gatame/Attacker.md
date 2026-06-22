@@ -73,7 +73,7 @@ description: "Step-by-step guide to attacking with the Kimura from Kuzure Kesa-G
       "name": "What anatomical structures does the Kimura from Kuzure Kesa-Gatame primarily attack?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The Kimura targets the shoulder joint's external rotation limit, specifically stressing the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the glenohumeral ligaments, the glenoid labrum, and the shoulder capsule. Secondary stress occurs at the acromioclavicular joint when rotation is taken past the normal range of motion."
+        "text": "The Kimura targets the shoulder joint's internal rotation limit, specifically stressing the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the glenohumeral ligaments, the glenoid labrum, and the shoulder capsule. Secondary stress occurs at the acromioclavicular joint when rotation is taken past the normal range of motion."
       }
     },
     {
@@ -97,7 +97,7 @@ description: "Step-by-step guide to attacking with the Kimura from Kuzure Kesa-G
       "name": "At what point during the rotation does the Kimura become dangerous where the opponent can no longer safely resist?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The critical danger point occurs when the opponent's wrist passes behind the plane of their back. Before this point, the shoulder has natural range-of-motion buffer and muscular defense. Once the wrist moves behind the back, external rotation has exceeded the shoulder's safe structural limit and further pressure causes immediate ligament and tendon damage. Controlled application speed is essential to give the opponent time to tap before this point."
+        "text": "The critical danger point occurs when the opponent's wrist passes behind the plane of their back. Before this point, the shoulder has natural range-of-motion buffer and muscular defense. Once the wrist moves behind the back, internal rotation has exceeded the shoulder's safe structural limit and further pressure causes immediate ligament and tendon damage. Controlled application speed is essential to give the opponent time to tap before this point."
       }
     },
     {
@@ -174,7 +174,7 @@ description: "Step-by-step guide to attacking with the Kimura from Kuzure Kesa-G
 
 <section id="overview" class="content-section">
 
-Attacking with the Kimura from Kuzure Kesa-Gatame leverages the position's built-in arm isolation to create one of the most mechanically advantageous shoulder lock setups available. The trapped arm is already partially controlled, reducing grip acquisition to a single decisive action—securing the figure-four on the wrist. From there, the attacker uses hip pressure as an anchor while rotating the opponent's arm behind their back, attacking the shoulder's external rotation limit. The key distinction from other Kimura positions is that you never need to sacrifice positional control to pursue the submission, as the finishing mechanics work in harmony with the pin mechanics. The seated base, posted leg, and chest pressure all remain intact throughout the submission sequence, meaning a failed attempt simply returns you to a dominant control position.
+Attacking with the Kimura from Kuzure Kesa-Gatame leverages the position's built-in arm isolation to create one of the most mechanically advantageous shoulder lock setups available. The trapped arm is already partially controlled, reducing grip acquisition to a single decisive action—securing the figure-four on the wrist. From there, the attacker uses hip pressure as an anchor while rotating the opponent's arm behind their back, attacking the shoulder's internal rotation limit. The key distinction from other Kimura positions is that you never need to sacrifice positional control to pursue the submission, as the finishing mechanics work in harmony with the pin mechanics. The seated base, posted leg, and chest pressure all remain intact throughout the submission sequence, meaning a failed attempt simply returns you to a dominant control position.
 
 **From Position**: [[Positions/Side Control/Kuzure Kesa-Gatame]] (Top)
 
@@ -274,7 +274,7 @@ Attacking with the Kimura from Kuzure Kesa-Gatame leverages the position's built
 ### 3. Attempting to finish by pulling the opponent's wrist upward toward the ceiling
 
 - **Consequence**: Attacks the wrong plane of shoulder rotation and is easily defended by the opponent simply flattening their arm against the mat
-- **Correction**: Rotate the wrist behind the opponent's back toward the mat, attacking the external rotation limit of the shoulder joint where defensive strength is minimal
+- **Correction**: Rotate the wrist behind the opponent's back toward the mat, attacking the internal rotation limit of the shoulder joint where defensive strength is minimal
 
 ### 4. Rushing the grip acquisition before establishing solid wrist control
 

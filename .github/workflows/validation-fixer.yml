@@ -1,0 +1,143 @@
+name: Validation Fixer (weekly)
+
+# Plan §A.3 — drains the validation backlog. Sat 12:00 UTC (plan §A.7).
+# Step 1 is DETERMINISTIC (no Claude): audit + fix_from_position clears the
+# from_position_mismatch errors for free. Step 2 is a CAPPED, best-effort Claude
+# pass (regenerate_content_json.py on the files still carrying error-severity
+# issues, e.g. missing_outcomes). The Claude step is continue-on-error so quota
+# exhaustion just means "deterministic fixes only" — still a useful PR — and the
+# job never fails loudly on a dry weekend. PR (never direct-to-main; deploy
+# triggers on main push).
+
+on:
+  schedule:
+    - cron: "0 12 * * 6" # Saturday 12:00 UTC (plan §A.7)
+  workflow_dispatch:
+    inputs:
+      max_claude_files:
+        description: "Max files to send through the Claude pass"
+        required: false
+        default: "15"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: validation-fixer
+  cancel-in-progress: false
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@7f4fc3e22c37d6ff65e88745f38bd3157c663f7c # v4
+        with:
+          python-version: "3.11"
+
+      - name: Install Python dependencies
+        run: pip install jsonschema jinja2 requests
+
+      - name: Install Claude CLI
+        run: |
+          curl -fsSL https://claude.ai/install.sh | bash
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+
+      - name: Deterministic from_position fixes (no Claude)
+        run: |
+          python3 scripts/audit_from_position.py
+          python3 scripts/fix_from_position.py
+
+      - name: Claude pass over remaining validation errors (capped, best-effort)
+        id: claudepass
+        continue-on-error: true
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          MAX_CLAUDE_FILES: ${{ github.event.inputs.max_claude_files || '15' }}
+        run: |
+          python3 scripts/validate_graph_integrity.py || true   # (re)writes audit_report.json
+          # Distinct files with error-severity issues, capped.
+          python3 - <<'PY' > /tmp/errfiles.txt
+          import json, os
+          report = json.load(open("tests/artifacts/audit_report.json"))
+          cap = int(os.environ.get("MAX_CLAUDE_FILES", "15"))
+          seen = []
+          for i in report["issues"]:
+              f = i.get("file")
+              if i.get("severity") == "error" and f and f not in seen:
+                  seen.append(f)
+          print("\n".join(seen[:cap]))
+          PY
+          while IFS= read -r f; do
+            [ -z "$f" ] && continue
+            [ -f "$f" ] || continue
+            echo "Claude-fixing: $f"
+            # --file is the script's single-file mode (no positional arg); --batch skips delays.
+            python3 scripts/regenerate_content_json.py --file "$f" --batch \
+              || echo "  (regenerate failed for $f; continuing — quota or content issue)"
+          done < /tmp/errfiles.txt
+
+      - name: Detect changes
+        id: changes
+        run: |
+          if git diff --quiet -- content/; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No fixes this run (clean backlog or quota exhausted). Retries next week."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Validate + regenerate markdown (changed files only)
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          fail=0
+          while IFS= read -r f; do
+            [ -z "$f" ] && continue
+            echo "Validating $f"
+            # Gate on exit code, not an stdout substring.
+            if python3 scripts/validate_json.py --file "$f"; then
+              python3 scripts/regenerate_md_from_json.py --file "$f"
+            else
+              echo "::error::Fixer produced invalid JSON ($f). Aborting PR; will retry next run."
+              fail=1
+            fi
+          done < <(git -c core.quotepath=false diff --name-only -- content/ | grep '\.json$')
+          [ "$fail" -eq 0 ]
+
+      - name: Create Pull Request
+        if: steps.changes.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          BRANCH="validation-fixer/$(date +%Y%m%d-%H%M%S)"
+          git checkout -b "$BRANCH"
+          git add content/
+          JSON_N=$(git -c core.quotepath=false diff --cached --name-only -- content/ | grep -c '\.json$' || true)
+          git commit -m "Validation fixer ($(date +%Y-%m-%d)) — from_position + content error backlog"
+          git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git
+          git push origin "$BRANCH"
+          cat > /tmp/pr-body.md <<EOFBODY
+          ## Validation fixer
+
+          Drains the validation backlog (plan §A.3):
+          - **Deterministic** \`fix_from_position\` (no Claude) — \`from_position_mismatch\` errors.
+          - **Capped Claude pass** (Opus 4.8 1M @ xhigh) over files with error-severity issues (e.g. \`missing_outcomes\`), max ${{ github.event.inputs.max_claude_files || '15' }} files.
+
+          JSON files changed: ${JSON_N}. Validated inline (per-file schema check). After merging, lower \`tests/artifacts/graph_validation_baseline.json\` so the ratchet tightens.
+
+          🤖 Generated by the validation-fixer workflow.
+          EOFBODY
+          gh pr create \
+            --title "Validation fixer ($(date +%Y-%m-%d))" \
+            --body-file /tmp/pr-body.md \
+            --base main \
+            --head "$BRANCH"
+          gh pr edit "$BRANCH" --add-label automated || true

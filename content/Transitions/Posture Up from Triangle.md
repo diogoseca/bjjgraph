@@ -10,6 +10,41 @@ description: "Master the Posture Up from Triangle escape in BJJ. Break triangle 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Posture Up from Triangle",
+  "description": "Master the Posture Up from Triangle escape in BJJ. Break triangle control with systematic posture recovery to reach open guard safely and effectively.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Posture Up from Triangle", "item": "https://bjjgraph.org/Transitions/Posture-Up-from-Triangle" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Posture Up from Triangle",
+  "description": "Posture Up from Triangle is a top-position triangle escape where the trapped player connects their hands behind the opponent's hips and drives spinal extension through the posterior chain to relieve carotid pressure and recover to open guard top.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Posture Up from Triangle escape in BJJ. Break triangle 
 
 <section id="overview" class="content-section">
 
-Posture Up from Triangle is a fundamental defensive technique executed when caught in an opponent's triangle choke from the top position. The escape centers on recovering spinal alignment and driving upward through the hips to create enough vertical space to relieve arterial compression and begin working free from the leg configuration. This technique addresses the most immediate survival need in triangle control—relieving the choking pressure—while creating a pathway to transition into open guard top position where the previously trapped player can begin guard passing.
+**Posture Up from Triangle is a top-position triangle escape where the trapped player connects their hands behind the opponent's hips and drives spinal extension through the posterior chain to relieve carotid pressure and recover to open guard top.**
+
+Within the triangle defense hierarchy, posturing up is the first-line response the trapped top player reaches for the moment the legs lock around their neck. The escape centers on recovering spinal alignment and driving upward through the hips to create enough vertical space to relieve arterial compression and begin working free from the leg configuration. This technique addresses the most immediate survival need in triangle control—relieving the choking pressure—while creating a pathway to transition into open guard top position where the previously trapped player can begin guard passing.
 
 The mechanics of posturing up require coordinating multiple body systems simultaneously. The trapped player must connect their hands together behind the opponent's lower back or hips, tuck their chin to protect the neck, and drive their spine into extension using the powerful posterior chain. The critical insight is that posture recovery is hip-driven rather than neck-driven—the feeling should resemble a deadlift or hip extension against the resistance of the opponent's legs. This hip-first approach generates substantially more force than neck muscles alone and creates a structural advantage that the bottom player's leg compression cannot easily overcome.
 
@@ -206,7 +243,7 @@ Posture Up from Triangle is a critical component of the complete triangle defens
 
 - [[Transitions/Posture Recovery]] - Related defensive concept sharing core posture mechanics applicable across guard positions
 
-- [[Transitions/Complete Triangle Escape from Top]] - Comprehensive escape sequence that may incorporate posture-up as initial phase
+- [[Transitions/Triangle Escape]] - Comprehensive escape sequence that may incorporate posture-up as its initial phase
 
 - [[Transitions/Stack Defense]] - Alternative triangle defense that combines with posture-up in chain escapes
 
@@ -220,5 +257,7 @@ Posture Up from Triangle is a critical component of the complete triangle defens
 
 
 </section>
+
+
 
 </main>

@@ -1,6 +1,7 @@
 {
   "name": "Roll from Dead Orchard",
   "description": "Master the Roll from Dead Orchard escape in BJJ. Complete guide to rolling mechanics, timing windows, and turtle recovery from dangerous choke control.",
+  "summary": "The Roll from Dead Orchard is a last-resort forward-rolling escape from the bottom of dead orchard control, redirecting the top player's committed finishing pressure into rotational momentum that breaks the anaconda grip and delivers the defender into turtle.",
   "tags": [
     "bjj",
     "transition",
@@ -87,12 +88,12 @@
       "relationship": "Submission threat that motivates this escape attempt"
     },
     {
-      "name": "Roll Defense from Anaconda",
-      "relationship": "Similar rolling escape mechanics from standard anaconda control"
+      "name": "Granby Roll to Guard",
+      "relationship": "Similar rolling escape mechanic for recovering guard from a back-exposed scramble"
     },
     {
-      "name": "Frame and Posture from Anaconda",
-      "relationship": "Higher-priority escape to attempt before resorting to the roll"
+      "name": "Anaconda Grip Break to Front Headlock",
+      "relationship": "Higher-priority grip-breaking escape from related control that downgrades the threat before rolling becomes necessary"
     },
     {
       "name": "Darce Control",

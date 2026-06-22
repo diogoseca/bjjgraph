@@ -1,6 +1,7 @@
 {
   "name": "Anaconda Choke from Dead Orchard",
   "description": "Master the Anaconda Choke from Dead Orchard in BJJ. Complete guide to finishing mechanics, grip adjustments, and pressure application for this blood choke.",
+  "summary": "The Anaconda Choke from Dead Orchard is a 10th Planet arm-in blood choke finished from front-headlock control, compressing both carotid arteries with the opponent's own trapped arm to exploit the defensive fatigue built during extended Dead Orchard pressure.",
   "tags": [
     "bjj",
     "submission",
@@ -293,7 +294,8 @@
     "flashcards": [
       {
         "question": "What anatomical structures does the Anaconda Choke from Dead Orchard primarily target, and how does the arm-in configuration create compression?",
-        "answer": "The finish targets bilateral compression of the carotid arteries on both sides of the neck. The arm-in configuration creates a triangle of pressure: the choking arm compresses one carotid, the opponent's own trapped arm acts as a fulcrum pressing against the opposite carotid, and the shoulder drives downward to seal the compression. This bilateral blood restriction produces unconsciousness by cutting cerebral blood flow rather than restricting the airway."
+        "answer": "The finish targets bilateral compression of the carotid arteries on both sides of the neck. The arm-in configuration creates a triangle of pressure: the choking arm compresses one carotid, the opponent's own trapped arm acts as a fulcrum pressing against the opposite carotid, and the shoulder drives downward to seal the compression. This bilateral blood restriction produces unconsciousness by cutting cerebral blood flow rather than restricting the airway.",
+        "safety_critical": false
       },
       {
         "question": "How do you recognize when the opponent has reached the point of no escape during the finishing sequence?",

@@ -10,6 +10,41 @@ description: "Master the transition from Kesa Gatame to Reverse Kesa-Gatame. Com
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kesa Gatame to Reverse Kesa-Gatame",
+  "description": "Master the transition from Kesa Gatame to Reverse Kesa-Gatame. Complete guide covering rotation mechanics, arm isolation, pressure maintenance, and defensive counters.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Kesa Gatame to Reverse Kesa-Gatame", "item": "https://bjjgraph.org/Transitions/Kesa-Gatame-to-Reverse-Kesa-Gatame" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kesa Gatame to Reverse Kesa-Gatame",
+  "description": "Kesa Gatame to Reverse Kesa-Gatame is a 180-degree top-side rotation that swings the hips from beside the opponent's head toward their legs, trapping the far arm under the armpit and erasing the frames the bottom player built against standard scarf hold.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the transition from Kesa Gatame to Reverse Kesa-Gatame. Com
 
 <section id="overview" class="content-section">
 
-The Transition to Reverse Kesa-Gatame is a rotational pinning adjustment where the top player pivots 180 degrees from standard Kesa Gatame to face the opponent's legs rather than their head. This transition fundamentally changes the control dynamics by eliminating the bottom player's ability to frame against the top player's face and neck while simultaneously isolating the far arm for immediate submission threats. The rotation itself is deceptively technical, requiring precise weight transfer through the chest to prevent the bottom player from exploiting the momentary instability.
+**Kesa Gatame to Reverse Kesa-Gatame is a 180-degree top-side rotation that swings the hips from beside the opponent's head toward their legs, trapping the far arm under the armpit and erasing the frames the bottom player built against standard scarf hold.**
+
+Within the scarf-hold family, this rotation is the top player's primary answer to a bottom player who has built strong defensive frames from standard Kesa Gatame. By pivoting 180 degrees to face the opponent's legs rather than their head, the top player eliminates the bottom player's ability to frame against the face and neck while simultaneously isolating the far arm for immediate submission threats. The rotation itself is deceptively technical, requiring precise weight transfer through the chest to prevent the bottom player from exploiting the momentary instability.
 
 Strategically, this transition serves multiple purposes within the pinning hierarchy. It functions as both a positional upgrade and a submission setup, since the reverse orientation naturally traps the far arm under the top player's armpit, creating immediate Kimura and Americana opportunities without additional grip fighting. The transition is particularly effective against opponents who have developed strong defensive frames from standard Kesa Gatame, as the rotation bypasses their established frame architecture entirely.
 
@@ -224,5 +261,7 @@ This transition sits at the intersection of the scarf hold family and the broade
 
 
 </section>
+
+
 
 </main>

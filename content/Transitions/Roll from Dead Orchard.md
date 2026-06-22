@@ -10,6 +10,41 @@ description: "Master the Roll from Dead Orchard escape in BJJ. Complete guide to
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Roll from Dead Orchard",
+  "description": "Master the Roll from Dead Orchard escape in BJJ. Complete guide to rolling mechanics, timing windows, and turtle recovery from dangerous choke control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Roll from Dead Orchard", "item": "https://bjjgraph.org/Transitions/Roll-from-Dead-Orchard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Roll from Dead Orchard",
+  "description": "The Roll from Dead Orchard is a last-resort forward-rolling escape from the bottom of dead orchard control, redirecting the top player's committed finishing pressure into rotational momentum that breaks the anaconda grip and delivers the defender into turtle.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Roll from Dead Orchard escape in BJJ. Complete guide to
 </div>
 
 <section id="overview" class="content-section">
+
+**The Roll from Dead Orchard is a last-resort forward-rolling escape from the bottom of dead orchard control, redirecting the top player's committed finishing pressure into rotational momentum that breaks the anaconda grip and delivers the defender into turtle.**
 
 The Roll from Dead Orchard is a high-stakes defensive escape technique used when trapped in dead orchard control, an advanced anaconda choke variation where the top player maintains crushing pressure with deep grip configuration and committed shoulder drive. When frame-based escapes and arm extraction attempts have been exhausted or are unavailable, the forward roll represents the bottom player's last viable option before the choke becomes inescapable. The technique leverages the opponent's own forward pressure commitment as the escape mechanism, redirecting their energy into rotational momentum that disrupts the circular compression necessary for the blood choke finish.
 
@@ -214,9 +251,9 @@ The Roll from Dead Orchard serves as a last-resort escape option within the dead
 
 - [[Anaconda Choke from Dead Orchard]] - Submission threat that motivates this escape attempt
 
-- [[Transitions/Roll Defense from Anaconda]] - Similar rolling escape mechanics from standard anaconda control
+- [[Transitions/Granby Roll to Guard]] - Similar rolling escape mechanic for recovering guard from a back-exposed scramble
 
-- [[Transitions/Frame and Posture from Anaconda]] - Higher-priority escape to attempt before resorting to the roll
+- [[Transitions/Anaconda Grip Break to Front Headlock]] - Higher-priority grip-breaking escape from related control that downgrades the threat before rolling becomes necessary
 
 - [[Positions/Darce Control]] - Sister position with similar escape principles applicable to this technique
 
@@ -226,5 +263,7 @@ The Roll from Dead Orchard serves as a last-resort escape option within the dead
 
 
 </section>
+
+
 
 </main>

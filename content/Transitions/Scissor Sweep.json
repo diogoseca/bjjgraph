@@ -1,5 +1,6 @@
 {
   "name": "Scissor Sweep",
+  "summary": "The Scissor Sweep is a fundamental closed-guard reversal where the bottom player breaks posture, angles off, and scissors the legs—one shin driving the hips back, the other knee chopping behind the shoulder—to topple the opponent into Mount.",
   "description": "Master the Scissor Sweep from Closed Guard in BJJ. Complete guide with step-by-step execution, defense strategies, and systematic integration for sweeping to Mount.",
   "tags": [
     "bjj",
@@ -14,22 +15,22 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 75,
+      "probability": 55,
       "result": "success"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 15,
+      "probability": 30,
       "result": "failure"
     },
     {
-      "to": "Closed Guard/Top",
-      "probability": 10,
+      "to": "Side Control/Bottom",
+      "probability": 15,
       "result": "counter"
     }
   ],
-  "success_rate": 75,
-  "overview": "The Scissor Sweep is one of the most fundamental and high-percentage sweeps in Brazilian Jiu-Jitsu, executed from closed guard. This classical technique exploits an opponent's weight distribution and posture by using a scissoring leg motion combined with upper body control to reverse positions. The sweep derives its power from the biomechanical advantage created when one leg pushes while the other pulls, creating a lever system that off-balances even larger, stronger opponents.\n\nWhat makes the Scissor Sweep particularly effective is its reliance on timing and leverage rather than raw strength. When executed properly, the technique uses the opponent's own weight and forward pressure against them, making it accessible to practitioners of all sizes. The sweep creates a direct path to mount position, one of the most dominant positions in BJJ, making it both a fundamental technique for beginners and a reliable option for advanced competitors.\n\nThe Scissor Sweep integrates seamlessly into the closed guard attack system, working in combination with other sweeps like the Hip Bump and Pendulum Sweep. When opponents defend one sweep, they often create the opening for another, establishing a systematic approach to attacking from guard. Mastering this technique provides practitioners with a cornerstone skill that remains effective throughout their BJJ journey.",
+  "success_rate": 55,
+  "overview": "Among the first sweeps every practitioner learns, the Scissor Sweep endures into advanced competition because it converts an opponent's forward posture into a clean reversal through leverage rather than strength. This classical closed-guard technique exploits an opponent's weight distribution and posture by using a scissoring leg motion combined with upper body control to reverse positions. The sweep derives its power from the biomechanical advantage created when one leg pushes while the other pulls, creating a lever system that off-balances even larger, stronger opponents.\n\nWhat makes the Scissor Sweep particularly effective is its reliance on timing and leverage rather than raw strength. When executed properly, the technique uses the opponent's own weight and forward pressure against them, making it accessible to practitioners of all sizes. The sweep creates a direct path to mount position, one of the most dominant positions in BJJ, making it both a fundamental technique for beginners and a reliable option for advanced competitors.\n\nThe Scissor Sweep integrates seamlessly into the closed guard attack system, working in combination with other sweeps like the Hip Bump and Pendulum Sweep. When opponents defend one sweep, they often create the opening for another, establishing a systematic approach to attacking from guard. Mastering this technique provides practitioners with a cornerstone skill that remains effective throughout their BJJ journey.",
   "related_content": [
     {
       "name": "Hip Bump Sweep",
@@ -148,7 +149,7 @@
         "counter": "Opponent steps over your bottom leg to prevent the scissor motion",
         "effectiveness": "Medium",
         "your_response": "Convert to a Hook Sweep using the top leg as a hook, or transition to Flower Sweep by switching your leg positioning",
-        "targets_outcome": "Closed Guard/Top"
+        "targets_outcome": "Closed Guard/Bottom"
       },
       {
         "counter": "Opponent grips your pants at the knees to control your legs",
@@ -296,8 +297,8 @@
       {
         "action": "Step over the bottom leg (the shin across your abdomen) by driving your knee past their leg and re-establishing base on the other side",
         "when_to_use": "When you recognize the shin placement across your abdomen early before the full scissor motion develops, and you have enough posture to move your hips",
-        "targets_outcome": "Closed Guard/Top",
-        "if_successful": "You neutralize the sweep entirely by removing the pushing leg from the equation and can immediately initiate a guard pass from the new angle",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "You neutralize the sweep entirely by removing the pushing leg from the equation and can immediately initiate a guard pass from the new angle, passing through to side control",
         "risk": "If mistimed, stepping over can result in your leg being caught in half guard or the opponent converting to a different sweep using your movement"
       },
       {
@@ -310,8 +311,8 @@
       {
         "action": "Drive your weight forward and sprawl your hips into the bottom player, flattening their angle and collapsing the space needed for the scissor motion",
         "when_to_use": "When you have strong posture and feel the opponent beginning to create the perpendicular angle but before their legs are fully positioned",
-        "targets_outcome": "Closed Guard/Top",
-        "if_successful": "You crush the sweep setup by denying the space and angle required, and can use the forward pressure to begin your own guard opening sequence",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "You crush the sweep setup by denying the space and angle required, and can use the forward pressure to begin your own guard opening sequence and pass to side control",
         "risk": "Driving forward with broken posture plays directly into the sweep - this defense only works when you have structural integrity in your spine and base"
       }
     ],
@@ -321,8 +322,8 @@
         "how": "Maintain strong posture and wide base throughout. Strip grips proactively to deny the setup. Post your free hand immediately when you feel lateral pressure. Once the sweep attempt fails, recover your grips and resume your guard passing strategy from inside their now-open guard."
       },
       {
-        "outcome": "Closed Guard/Top",
-        "how": "Step over the bottom leg when you recognize the shin placement early, landing on the opposite side with your base re-established. Alternatively, use the opponent's failed sweep attempt to initiate a guard pass by immediately pinning their legs and advancing to a dominant angle while they are recovering from the failed technique."
+        "outcome": "Side Control/Bottom",
+        "how": "Step over the bottom leg when you recognize the shin placement early, landing on the opposite side with your base re-established. Use the opponent's failed sweep attempt to drive an immediate guard pass: their guard is already open from the sweep entry, so pin their legs, clear the knee line, and advance to a dominant angle, passing through to side control while they are recovering from the failed technique."
       }
     ],
     "common_errors": [

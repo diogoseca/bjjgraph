@@ -3,6 +3,7 @@
   "slug": "mounted-triangle",
   "description": "Master mounted triangle position in BJJ. High-risk, high-reward position combining mount control with triangle mechanics for devastating submissions.",
   "variant_uniqueness": "Trades mount stability for submission access",
+  "summary": "Mounted Triangle is a hybrid top position where the attacker threads one leg over the opponent's shoulder and under their neck while retaining mount, fusing positional control with an immediate triangle-choke and armbar threat.",
   "overview": "Mounted Triangle represents one of Brazilian Jiu-Jitsu's most dynamic and high-reward positions, blending the dominant control characteristics of mount with the submission threat of triangle mechanics. This hybrid position emerges when the top practitioner transitions from standard mount or high mount into a triangle configuration while maintaining superior positioning.\n\nThe mounted triangle is characterized by the top player threading one leg over the opponent's shoulder and under their neck while maintaining mount pressure, creating simultaneous positional control and submission threat. Unlike traditional triangles from guard, the mounted variation allows the attacker to maintain top position and point advantage while pursuing the finish.\n\nFrom a strategic perspective, mounted triangle occupies a unique space in the positional hierarchy. It sacrifices some of the stability inherent in standard mount positions for immediate submission potential. The bottom player gains defensive framing opportunities and potential escape paths, but faces constant submission danger from triangle, armbar, and transition attacks.\n\nThe position demands precise technical execution - premature commitment can result in loss of mount entirely, while hesitant execution allows the opponent to defend and escape. Advanced practitioners use mounted triangle as a hub position, flowing seamlessly between triangle finish, mounted armbar, back take, and return to standard mount based on defensive reactions.\n\nSuccess in mounted triangle requires understanding the biomechanical principles of both mount control and triangle mechanics, managing the inherent instability of the position, and recognizing the optimal moments to commit to submissions versus maintaining positional control. The mounted triangle exemplifies modern BJJ's emphasis on dynamic, submission-oriented grappling while maintaining strategic positional awareness.",
   "key_principles": [
     "Mounted triangle sacrifices mount stability for immediate submission access",
@@ -285,7 +286,7 @@
     "transitions": [
       {
         "transition": "Triangle Choke from Mounted Triangle",
-        "attempt_probability": 22
+        "attempt_probability": 21
       },
       {
         "transition": "Armbar on Free Arm",
@@ -301,7 +302,7 @@
       },
       {
         "transition": "Consolidate Mount",
-        "attempt_probability": 9
+        "attempt_probability": 8
       },
       {
         "transition": "Gift Wrap",
@@ -313,11 +314,11 @@
       },
       {
         "transition": "S-Mount Transition",
-        "attempt_probability": 9
+        "attempt_probability": 8
       },
       {
         "transition": "Triangle to Armbar",
-        "attempt_probability": 9
+        "attempt_probability": 8
       },
       {
         "transition": "Triangle to Back",
@@ -334,6 +335,10 @@
       {
         "transition": "Triangle Choke",
         "attempt_probability": 2
+      },
+      {
+        "transition": "Belly Down Armbar from Mounted Triangle",
+        "attempt_probability": 4
       }
     ],
     "flashcards": [
@@ -572,11 +577,11 @@
     "transitions": [
       {
         "transition": "Bridge and Roll",
-        "attempt_probability": 11
+        "attempt_probability": 18
       },
       {
         "transition": "Elbow Escape to Guard",
-        "attempt_probability": 35
+        "attempt_probability": 12
       },
       {
         "transition": "Granby Roll to Guard",
@@ -584,15 +589,15 @@
       },
       {
         "transition": "Hip Escape to Guard",
-        "attempt_probability": 13
+        "attempt_probability": 19
       },
       {
         "transition": "Upa Escape",
-        "attempt_probability": 9
+        "attempt_probability": 13
       },
       {
         "transition": "Frame and Shrimp to Guard",
-        "attempt_probability": 12
+        "attempt_probability": 18
       },
       {
         "transition": "Shrimp Escape",

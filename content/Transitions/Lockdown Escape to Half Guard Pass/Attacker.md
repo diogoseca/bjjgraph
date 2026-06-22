@@ -16,7 +16,7 @@ description: "How to execute Lockdown Escape to Half Guard Pass in BJJ. Attackin
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Lockdown Escape to Half Guard Pass in BJJ",
-  "description": "Step-by-step guide for executing Lockdown Escape to Half Guard Pass from Vaporizer/Top.",
+  "description": "Step-by-step guide for executing Lockdown Escape to Half Guard Pass from Lockdown/Top.",
   "step": [
     {
       "@type": "HowToStep",
@@ -178,7 +178,7 @@ The key insight is that the lockdown's power derives from the triangled leg conf
 
 Strategically, this technique transforms a defensive predicament into offensive momentum. By flowing directly from escape into a passing sequence, you capitalize on the momentary disruption caused by breaking the opponent's primary control structure. This prevents them from re-establishing the lockdown or transitioning to alternative guards, converting what could be an exhausting positional battle into efficient advancement to dominant position.
 
-**From Position**: [[Positions/Vaporizer]] (Top)
+**From Position**: [[Positions/Half Guard/Lockdown]] (Top)
 
 </section>
 
@@ -330,5 +330,7 @@ Positional sparring starting in Lockdown Top against training partners who activ
 The Lockdown Escape to Half Guard Pass involves significant torque potential on the trapped knee joint, making proper technique essential for injury prevention. Never attempt to forcefully yank your leg free without first breaking the foot triangle—this can cause MCL, LCL, or meniscus damage. If you feel sharp pain in your knee during the sequence, tap and reset rather than continuing through discomfort. When drilling, partners should apply lockdown pressure progressively, allowing the escaping player to work technique before adding resistance. Practitioners with existing knee injuries should approach this technique cautiously and may need to modify the extraction angle. Communication with training partners is essential throughout to prevent injury.
 
 </section>
+
+
 
 </main>

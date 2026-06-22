@@ -10,10 +10,15 @@
     "guard",
     "fundamentals"
   ],
+  "aliases": [
+    "Off-balancing",
+    "Breaking Balance"
+  ],
   "application_level": "Fundamental",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Expert",
-  "overview": "Kuzushi represents the fundamental principles governing successful positional reversals from bottom positions in Brazilian Jiu-Jitsu. At its core, sweeping is the art of disrupting an opponent's base and equilibrium while simultaneously elevating or rotating your own body to achieve a superior position. Understanding sweep mechanics transcends individual techniques—it provides a systematic framework for analyzing weight distribution, leverage points, timing windows, and mechanical advantage across all guard positions. These principles apply universally whether executing a basic scissor sweep from closed guard or a complex berimbolo sequence from De La Riva guard.\n\nEffective sweep mechanics rely on three interconnected elements: base disruption (removing or compromising your opponent's points of contact with the ground), directional control (guiding their body along specific vectors where balance cannot be recovered), and explosive execution (capitalizing on the brief window when their weight is committed and recovery is impossible). The most successful sweeps create what systematic approach calls \"structural collapse\"—a cascade effect where removing one base point forces weight transfer that automatically compromises remaining points of stability. This systematic approach explains why certain sweeps have dramatically different success rates across skill levels: beginners struggle to identify and exploit these mechanical windows, while advanced practitioners instinctively recognize and chain multiple leverage points together.\n\nThe development of sweep mechanics follows a predictable progression from gross motor patterns (bridging, hip elevation) to fine motor control (grip manipulation, angle adjustment) to conceptual mastery (creating reactions, timing opponent movement). Beginners often attempt sweeps with muscular effort alone, intermediates learn to combine leverage with timing, and advanced practitioners develop the ability to chain sweeps together and capitalize on defensive reactions. Understanding these mechanics transforms sweeping from a collection of isolated techniques into a systematic skill set applicable across all bottom positions.",
+  "summary": "Kuzushi is the art of breaking an opponent's balance — disrupting their base and equilibrium along a vector where they cannot post or recover — so a sweep, takedown, or reversal succeeds through leverage and timing rather than strength.",
+  "overview": "Kuzushi represents the fundamental principles governing successful positional reversals from bottom positions in Brazilian Jiu-Jitsu. At its core, sweeping is the act of disrupting an opponent's base and equilibrium while simultaneously elevating or rotating your own body to achieve a superior position. Understanding sweep mechanics transcends individual techniques—it provides a systematic framework for analyzing weight distribution, leverage points, timing windows, and mechanical advantage across all guard positions. These principles apply universally whether executing a basic scissor sweep from closed guard or a complex berimbolo sequence from De La Riva guard.\n\nEffective sweep mechanics rely on three interconnected elements: base disruption (removing or compromising your opponent's points of contact with the ground), directional control (guiding their body along specific vectors where balance cannot be recovered), and explosive execution (capitalizing on the brief window when their weight is committed and recovery is impossible). The most successful sweeps create what systematic approach calls \"structural collapse\"—a cascade effect where removing one base point forces weight transfer that automatically compromises remaining points of stability. This systematic approach explains why certain sweeps have dramatically different success rates across skill levels: beginners struggle to identify and exploit these mechanical windows, while advanced practitioners instinctively recognize and chain multiple leverage points together.\n\nThe development of sweep mechanics follows a predictable progression from gross motor patterns (bridging, hip elevation) to fine motor control (grip manipulation, angle adjustment) to conceptual mastery (creating reactions, timing opponent movement). Beginners often attempt sweeps with muscular effort alone, intermediates learn to combine leverage with timing, and advanced practitioners develop the ability to chain sweeps together and capitalize on defensive reactions. Understanding these mechanics transforms sweeping from a collection of isolated techniques into a systematic skill set applicable across all bottom positions.",
   "key_principles": [
     "Off-balancing requires disrupting multiple base points simultaneously rather than attacking one point in isolation",
     "Leverage multiplication occurs when body positioning creates mechanical advantage exceeding opponent's ability to counter with strength",
@@ -412,6 +417,48 @@
       "name": "Levers",
       "content_type": "Principle",
       "relationship": "Explains why specific grip and hook configurations multiply force effectiveness in sweeps"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What is kuzushi in Brazilian Jiu-Jitsu?",
+      "answer": "Kuzushi is the act of breaking an opponent's balance—disrupting their base and equilibrium along a vector where they cannot post or recover—so a sweep, takedown, or reversal succeeds through leverage and timing rather than raw strength."
+    },
+    {
+      "question": "What three interconnected elements make a sweep succeed?",
+      "answer": "Base disruption (removing or compromising contact points with the ground), directional control (guiding the body where balance cannot be recovered), and explosive execution (capitalizing on the brief window when weight is committed)."
+    },
+    {
+      "question": "Why is a moving opponent generally easier to sweep than a stationary one?",
+      "answer": "Movement and weight transfer create brief windows where base points are temporarily lifted or committed; a static opponent with an established base can absorb sweep force, so timing the transition is far higher percentage than forcing it."
+    },
+    {
+      "question": "Why does attacking a single base point usually fail to off-balance an opponent?",
+      "answer": "If only one contact point is compromised, the opponent simply posts with a free hand or foot to recover. Effective kuzushi removes or threatens multiple base points at once so no posting option remains."
+    },
+    {
+      "question": "What is \"structural collapse\" in the context of sweeping?",
+      "answer": "A cascade effect where removing one base point forces the opponent to transfer weight, which in turn compromises their remaining points of stability—so a single well-placed disruption topples the whole structure rather than one corner."
+    },
+    {
+      "question": "How does grip configuration determine which sweeps are available?",
+      "answer": "Grips control the opponent's ability to post: collar grips break posture, sleeve grips remove arm posts, and pant grips control the legs. The grips you win dictate which posting directions are closed off and which sweep vectors stay open."
+    },
+    {
+      "question": "Why does relying on strength alone produce low-percentage sweeps?",
+      "answer": "Without leverage points and proper angles you fight the opponent's full base and strength directly, leading to exhaustion without reversal. Establishing mechanical advantage first lets a smaller force topple a committed weight."
+    },
+    {
+      "question": "How can creating a reaction open a sweep opportunity?",
+      "answer": "A false threat or pressure in one direction—a submission attempt or aggressive pass-stuff—forces the opponent to shift weight to defend, momentarily compromising their base in the opposite or perpendicular direction where the real sweep lands."
+    },
+    {
+      "question": "What should you do when your initial sweep attempt is defended?",
+      "answer": "Chain immediately to a secondary option rather than resetting to neutral. The opponent's defensive reaction—posting, base recovery, or weight shift—becomes the setup for an opposite-direction sweep, keeping continuous offensive pressure."
+    },
+    {
+      "question": "Why are hip elevation and bridging central to kuzushi?",
+      "answer": "Bridging and hip elevation generate the vertical force needed to lift an opponent off their base and create the angles required for rotational sweeps. This hip engine, timed with grip pulling and leg extension, powers most sweeping mechanics."
     }
   ]
 }

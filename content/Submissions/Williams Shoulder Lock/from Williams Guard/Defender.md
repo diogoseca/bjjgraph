@@ -154,7 +154,7 @@ description: "Defend the Williams Shoulder Lock from Williams Guard. Recognition
 
 <section id="overview" class="content-section">
 
-Defending the Williams Shoulder Lock from Williams Guard requires immediate recognition of the overhook figure-four grip configuration and understanding of shoulder joint vulnerability during internal rotation. The defender must prioritize joint protection above all else—posture recovery and arm extraction are secondary to preventing the submission from reaching its mechanical breaking point. Effective defense combines proper shoulder alignment to reduce rotational vulnerability with systematic grip breaking and base recovery techniques that address the lock's structure rather than fighting its force directly. The most dangerous aspect of this submission is that it chains seamlessly into omoplata, triangle, and armbar attacks, meaning defensive actions that relieve shoulder pressure may inadvertently open alternative submission pathways.
+Defending the Williams Shoulder Lock from Williams Guard requires immediate recognition of the overhook figure-four grip configuration and understanding of shoulder joint vulnerability during external (posterior) rotation. The defender must prioritize joint protection above all else—posture recovery and arm extraction are secondary to preventing the submission from reaching its mechanical breaking point. Effective defense combines proper shoulder alignment to reduce rotational vulnerability with systematic grip breaking and base recovery techniques that address the lock's structure rather than fighting its force directly. The most dangerous aspect of this submission is that it chains seamlessly into omoplata, triangle, and armbar attacks, meaning defensive actions that relieve shoulder pressure may inadvertently open alternative submission pathways.
 
 **Opponent's Starting Position**: [[Positions/Williams Guard]] (Bottom)
 
@@ -182,7 +182,7 @@ Defending the Williams Shoulder Lock from Williams Guard requires immediate reco
 
 <p class="section-subtitle">What are the key principles for defending Williams Shoulder Lock from Williams Guard?</p>
 
-- Protect shoulder alignment first—keep elbow close to body and prevent full internal rotation before addressing anything else
+- Protect shoulder alignment first—keep elbow close to body and prevent full external rotation before addressing anything else
 - Address the grip structure through circular extraction rather than fighting the rotational force directly
 - Maintain posture and base to prevent the guard player from establishing optimal hip angle for the lock
 - Recognize transition triggers early since the shoulder lock chains to omoplata, triangle, and armbar

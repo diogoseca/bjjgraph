@@ -10,10 +10,55 @@ description: "Master the cross collar choke from knee on belly. Learn grip seque
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Cross Collar Choke from Knee on Belly targets the Carotid arteries. Risk: Carotid artery compression leading to temporary loss of consciousness. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Cross Collar Choke from Knee on Belly",
+  "description": "Master the cross collar choke from knee on belly. Learn grip sequencing, pressure-to-choke transitions, and finishing mechanics for this devastating gi attack.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Cross Collar Choke from Knee on Belly", "item": "https://bjjgraph.org/Submissions/Cross-Collar-Choke-from-Knee-on-Belly" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Cross Collar Choke from Knee on Belly",
+  "description": "The cross collar choke from knee on belly is a gi blood choke that threads both lapels across the opponent's neck while knee pressure forces defensive reactions, then drops to low side control to compress both carotid arteries.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The cross collar choke from knee on belly is a gi blood choke that threads both lapels across the opponent's neck while knee pressure forces defensive reactions, then drops to low side control to compress both carotid arteries.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries</span>
+<span class="meta-chip">58% success</span>
+</div>
+
+> [!danger] Safety
+> Cross Collar Choke from Knee on Belly targets the Carotid arteries. Primary risk: Carotid artery compression leading to temporary loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,50 +75,7 @@ Unlike the cross collar choke from mount or closed guard, the knee on belly vari
 
 The key strategic consideration is grip sequencing. The first grip must be deep and established during a moment of distraction—typically when the opponent reacts to the initial knee pressure. The second grip must be inserted rapidly before the opponent recognizes the threat. Training this submission develops sensitivity to defensive reactions under pressure and the ability to chain positional control into submission finishes.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries
-**Starting Position**: [[Positions/Knee on Belly]]
-**From Position**: [[Positions/Knee on Belly]] (Top)
-**Success Rate**: 58%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Carotid artery compression leading to temporary loss of consciousness | High | Immediate recovery if released promptly; potential for serious injury if held past unconsciousness |
-| Trachea damage from improper hand placement or crushing grip angle | Medium | 1-2 weeks for minor irritation; months for severe cartilage damage |
-| Neck strain from defensive thrashing under combined knee and choke pressure | Low | 3-7 days |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum application time in training
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any verbal signal)
-- Physical hand tap on partner's body or mat
-- Physical foot tap on mat or partner
-- Any distress signal including facial expressions or loss of resistance
-
-
-**Release Protocol**:
-1. Immediately release both collar grips upon tap signal
-2. Remove knee from belly and disengage to neutral position
-3. Allow partner space to recover breathing and circulation
-4. Check partner's alertness and ensure full recovery before continuing
-
-
-**Training Restrictions**:
-- Never apply full choking pressure during initial learning phases—drill grip insertion and positioning first
-- Never hold the choke past the tap signal under any circumstances
-- Never combine full KOB pressure with full choke pressure on training partners with neck or circulation issues
-- Always ensure partner has clear access to tap with hands or feet despite knee pressure
-
+**Starting Position**: [[Positions/Knee on Belly]] · **From**: [[Positions/Knee on Belly]] (Top)
 
 </section>
 
@@ -237,39 +239,57 @@ The key strategic consideration is grip sequencing. The first grip must be deep 
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Cross Collar Choke]]
 - [[Submissions/Baseball Bat Choke]]
 - [[Submissions/Ezekiel Choke]]
 - [[Transitions/Arm Triangle]]
 - [[Submissions/Breadcutter Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Knee on Belly]] - Starting position providing the pressure platform for grip acquisition
-- [[Submissions/Cross Collar Choke]] - Parent submission family sharing core grip mechanics and finishing principles
-- [[Submissions/Baseball Bat Choke]] - Alternative collar choke from the same position using different grip configuration
 - [[Positions/Side Control]] - Common transition position before establishing KOB and after the drop finish
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Carotid artery compression leading to temporary loss of consciousness | High | Immediate recovery if released promptly; potential for serious injury if held past unconsciousness |
+| Trachea damage from improper hand placement or crushing grip angle | Medium | 1-2 weeks for minor irritation; months for severe cartilage damage |
+| Neck strain from defensive thrashing under combined knee and choke pressure | Low | 3-7 days |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum application time in training
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any verbal signal)
+- Physical hand tap on partner's body or mat
+- Physical foot tap on mat or partner
+- Any distress signal including facial expressions or loss of resistance
+
+
+**Release Protocol**:
+1. Immediately release both collar grips upon tap signal
+2. Remove knee from belly and disengage to neutral position
+3. Allow partner space to recover breathing and circulation
+4. Check partner's alertness and ensure full recovery before continuing
+
+
+**Training Restrictions**:
+- Never apply full choking pressure during initial learning phases—drill grip insertion and positioning first
+- Never hold the choke past the tap signal under any circumstances
+- Never combine full KOB pressure with full choke pressure on training partners with neck or circulation issues
+- Always ensure partner has clear access to tap with hands or feet despite knee pressure
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Cross Collar Choke from Knee on Belly leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

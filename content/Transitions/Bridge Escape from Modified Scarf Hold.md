@@ -10,6 +10,41 @@ description: "Master the bridge escape from Modified Scarf Hold in BJJ. Complete
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Bridge Escape from Modified Scarf Hold",
+  "description": "Master the bridge escape from Modified Scarf Hold in BJJ. Complete guide to timing, hip mechanics, and guard recovery from this oppressive chest-pressure pin.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Bridge Escape from Modified Scarf Hold", "item": "https://bjjgraph.org/Transitions/Bridge-Escape-from-Modified-Scarf-Hold" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Bridge Escape from Modified Scarf Hold",
+  "description": "The Bridge Escape from Modified Scarf Hold is a bottom-position escape that times an explosive, angled hip bridge to a moment of the pinner's weight shift, displacing their chest pressure to recover half guard or turtle.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the bridge escape from Modified Scarf Hold in BJJ. Complete
 </div>
 
 <section id="overview" class="content-section">
+
+**The Bridge Escape from Modified Scarf Hold is a bottom-position escape that times an explosive, angled hip bridge to a moment of the pinner's weight shift, displacing their chest pressure to recover half guard or turtle.**
 
 The Bridge Escape from Modified Scarf Hold is a fundamental positional escape that uses explosive hip extension combined with directional rotation to create sufficient space for guard recovery. Modified Scarf Hold presents unique escape challenges compared to standard side control due to the concentrated chest-to-chest pressure and near-arm entanglement that characterize the position. The bridge escape exploits the inherent instability of the scarf hold configuration by generating force at angles where the top player's base is weakest, specifically toward the direction of their head or away from their posted arm.
 
@@ -220,5 +257,7 @@ The Bridge Escape from Modified Scarf Hold connects directly to the half guard r
 
 
 </section>
+
+
 
 </main>

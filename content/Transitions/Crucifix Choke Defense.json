@@ -1,5 +1,6 @@
 {
   "name": "Crucifix Choke Defense",
+  "summary": "Crucifix Choke Defense is the survival sequence from crucifix bottom—chin tuck and shoulder defense first, then two-on-one grip fighting to strip the choking hand, then incremental hip movement to escape toward turtle or back control before the choke locks.",
   "description": "Defend chokes from crucifix bottom in BJJ. Complete guide to grip fighting, chin defense, and escaping one of grappling's most dangerous submission positions.",
   "tags": [
     "bjj",
@@ -173,7 +174,7 @@
       {
         "counter": "Opponent traps the defensive hand by overhooking it with their non-choking arm, eliminating grip fighting capability before re-applying the choke",
         "effectiveness": "High",
-        "your_response": "Keep your free arm active and moving—a static defensive hand is easy to trap. If the hand is being overhauled, immediately pull it back toward your body and use elbow positioning rather than hand positioning for neck defense. A trapped free hand in crucifix makes the position nearly inescapable.",
+        "your_response": "Keep your free arm active and moving—a static defensive hand is easy to trap. If the hand is being overhooked, immediately pull it back toward your body and use elbow positioning rather than hand positioning for neck defense. A trapped free hand in crucifix makes the position nearly inescapable.",
         "targets_outcome": "Crucifix/Bottom"
       }
     ],

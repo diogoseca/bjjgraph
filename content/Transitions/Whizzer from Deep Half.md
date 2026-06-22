@@ -10,6 +10,41 @@ description: "Master the Whizzer from Deep Half Guard in BJJ. Complete guide to 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Whizzer from Deep Half",
+  "description": "Master the Whizzer from Deep Half Guard in BJJ. Complete guide to using the overhook to neutralize sweeps, extract your trapped leg, and pass to side control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Whizzer from Deep Half", "item": "https://bjjgraph.org/Transitions/Whizzer-from-Deep-Half" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Whizzer from Deep Half",
+  "description": "The Whizzer from Deep Half is a top-game counter where the trapped player overhooks the bottom player's deep underhooking arm and sprawls, jamming their sweep leverage to flatten them, free the trapped leg, and pass to side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Whizzer from Deep Half Guard in BJJ. Complete guide to 
 
 <section id="overview" class="content-section">
 
-The Whizzer from Deep Half Guard is a critical counter-passing technique employed by the top player when caught in deep half guard. When the bottom player has successfully wedged underneath and established a deep underhook around the far leg, the top player applies an overhook (whizzer) on that same underhooking arm, creating counter-leverage that neutralizes the sweep mechanics powering the deep half position. This technique represents the primary defensive tool for managing deep half guard from the top perspective, converting a precarious position into a systematic passing opportunity.
+**The Whizzer from Deep Half is a top-game counter where the trapped player overhooks the bottom player's deep underhooking arm and sprawls, jamming their sweep leverage to flatten them, free the trapped leg, and pass to side control.**
+
+Caught on top of a committed deep half guard, the top player faces relentless sweep threats from every angle until the bottom player's deep underhook is neutralized, and the whizzer is the answer. When the bottom player has successfully wedged underneath and established a deep underhook around the far leg, the top player threads an overhook on that same underhooking arm, creating counter-leverage that strips the sweep mechanics powering the deep half position. This technique represents the primary defensive tool for managing deep half guard from the top perspective, converting a precarious position into a systematic passing opportunity.
 
 The mechanics of the whizzer work by jamming the bottom player's primary offensive weapon. The overhook applied at the bicep or shoulder level, combined with hip sprawling and downward pressure, removes the elevation and rotation the bottom player needs for waiter sweeps, homer simpson sweeps, and old school sweeps. By driving weight through the overhook while simultaneously widening base and sprawling hips back, the top player flattens the bottom player against the mat and eliminates the leverage fulcrum created by their deep positioning underneath.
 
@@ -218,5 +255,7 @@ The whizzer from deep half guard occupies a critical role in the top player's ha
 
 
 </section>
+
+
 
 </main>

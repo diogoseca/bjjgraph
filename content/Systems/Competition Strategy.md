@@ -142,10 +142,23 @@ description: "Master BJJ competition strategy. Framework for tournament preparat
 }
 </script>
 
-> Competition Strategy is a advanced difficulty Competition Strategy system. Integrates 6 components.
 
-**System Type**: Competition Strategy
-**Difficulty Level**: Advanced
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Competition Strategy",
+  "description": "The Competition Strategy system is a comprehensive tournament framework that integrates pre-match preparation, in-match tactical decision-making, scoring optimization, and psychological readiness to maximize win probability across gi, no-gi, and submission-only rule sets.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Competition Strategy</span>
+<span class="meta-chip">Advanced difficulty</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -154,7 +167,27 @@ description: "Master BJJ competition strategy. Framework for tournament preparat
 
 ## What is Competition Strategy?
 
-Competition Strategy represents a comprehensive framework for tournament success that integrates technical preparation, tactical decision-making, and psychological readiness. This system addresses the unique demands of competitive BJJ, where practitioners must execute techniques under pressure while managing time, scoring positions, and adapting to opponents' strategies. Unlike training scenarios, competition requires immediate decision-making with consequences for every positional choice. The framework encompasses pre-match preparation including weight management and opponent analysis, in-match tactics such as grip fighting sequences and positional advancement strategies, and post-match review protocols for continuous improvement. Success in competition demands not only technical proficiency but also the ability to implement game plans under stress, recognize and exploit opponent weaknesses in real-time, and maintain composure when trailing on points or caught in dangerous positions. This strategic approach transforms random technical knowledge into a coherent competitive methodology that maximizes win probability across different rule sets, from IBJJF gi competitions to submission-only superfights.
+**The Competition Strategy system is a comprehensive tournament framework that integrates pre-match preparation, in-match tactical decision-making, scoring optimization, and psychological readiness to maximize win probability across gi, no-gi, and submission-only rule sets.**
+
+Competitive Brazilian Jiu-Jitsu rewards practitioners who can convert technical knowledge into points and submissions while managing a ticking clock, an unfamiliar opponent, and the adrenaline of the platform. This system addresses the unique demands of competition, where practitioners must execute techniques under pressure while managing time, scoring positions, and adapting to opponents' strategies. Unlike training scenarios, competition requires immediate decision-making with consequences for every positional choice. The framework encompasses pre-match preparation including weight management and opponent analysis, in-match tactics such as grip fighting sequences and positional advancement strategies, and post-match review protocols for continuous improvement. Success in competition demands not only technical proficiency but also the ability to implement game plans under stress, recognize and exploit opponent weaknesses in real-time, and maintain composure when trailing on points or caught in dangerous positions. This strategic approach transforms random technical knowledge into a coherent competitive methodology that maximizes win probability across different rule sets, from IBJJF gi competitions to submission-only superfights.
+
+</section>
+
+
+
+<section id="unlock-graph" class="content-section system-unlock" data-system-unlock hidden>
+
+## Unlock this part of the graph
+
+<p class="section-subtitle">This system teaches the highlighted nodes in the graph. Mark what you already know &mdash; be honest, it's your game.</p>
+
+<div class="system-progress" data-system-progress>
+<svg class="system-progress__ring" viewBox="0 0 44 44" aria-hidden="true"><circle class="system-progress__ring-bg" cx="22" cy="22" r="19"></circle><circle class="system-progress__ring-fill" cx="22" cy="22" r="19"></circle></svg>
+<div class="system-progress__text">You've unlocked <strong class="system-progress__known">0</strong> / <span class="system-progress__total">0</span> techniques in this system</div>
+<button class="system-progress__mark-all" data-mark-system type="button">Mark whole system as known</button>
+</div>
+
+<ul class="system-members" data-system-members></ul>
 
 </section>
 
@@ -352,13 +385,13 @@ Competition strategy development requires three-phase drilling methodology: isol
 - [[Mental Game Framework]] (System) - Psychological preparation system addressing competition anxiety and performance under pressure
 - [[IBJJF Strategy Guide]] (System) - Rule-set specific strategic framework for International Brazilian Jiu-Jitsu Federation competitions
 - [[No-Gi Competition Approach]] (System) - Tactical adaptations for submission-only and no-gi tournament formats
-- [[Timing and Rhythm]] (Principle) - Core principle governing in-match tactical timing, tempo control, and recognizing windows for attacks and transitions
 - [[Competition Mindset]] (Principle) - Psychological framework for maintaining composure and confidence under competitive pressure
 - [[Position Chains]] (Principle) - Strategic principle for planning sequential positional advances and linking techniques into coherent game plans
 - [[Positional Hierarchy]] (Principle) - Fundamental principle defining position quality and advancement priorities for scoring optimization
 - [[Energy Conservation]] (Principle) - Principle governing effort distribution and pacing throughout match duration and tournament day
 - [[Position-Over-Submission Approach]] (Principle) - Strategic principle prioritizing positional dominance before submission hunting to minimize reversal risk
 - [[Defensive Concepts]] (Principle) - Decision-making framework for evaluating defensive options, risk tolerance, and maintaining composure in inferior positions
+- [[Positional Sparring]] (Principle) - Core training principle for isolating competition-relevant scenarios and building reliable scoring and defensive patterns under resistance
 - [[Guard Pull]] (Transition) - Strategic opening technique allowing immediate ground engagement and avoidance of takedown exchanges
 - [[Double Leg Entry]] (Transition) - High-percentage takedown for establishing top position and early point scoring in standing phase
 - [[Knee Slice Pass]] (Transition) - Fundamental guard pass providing reliable route to side control and point accumulation

@@ -10,6 +10,41 @@ description: "Master the Roll from Chill Dog escape in BJJ. Complete guide to ro
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Roll from Chill Dog",
+  "description": "Master the Roll from Chill Dog escape in BJJ. Complete guide to rolling mechanics, timing, and open guard recovery from the compact turtle defensive position.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Roll from Chill Dog", "item": "https://bjjgraph.org/Transitions/Roll-from-Chill-Dog" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Roll from Chill Dog",
+  "description": "Roll from Chill Dog is a forward shoulder-roll escape from the compact 10th Planet turtle that converts the rounded defensive ball into rotational momentum to recover open guard when the top player's weight shifts back or their grips loosen.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Roll from Chill Dog escape in BJJ. Complete guide to ro
 </div>
 
 <section id="overview" class="content-section">
+
+**Roll from Chill Dog is a forward shoulder-roll escape from the compact 10th Planet turtle that converts the rounded defensive ball into rotational momentum to recover open guard when the top player's weight shifts back or their grips loosen.**
 
 The Roll from Chill Dog is a forward rolling escape executed from the compact Chill Dog turtle variant, designed to create distance from the top player and recover open guard. This technique exploits the rounded back posture inherent to Chill Dog by converting the defensive ball shape into rotational momentum. When the top player commits their weight backward or momentarily loosens their grip control, the bottom player tucks their chin, drives off their hands, and rolls diagonally forward to emerge facing the opponent with legs available for guard retention.
 
@@ -218,5 +255,7 @@ The Roll from Chill Dog occupies a specific niche within the turtle escape hiera
 
 
 </section>
+
+
 
 </main>

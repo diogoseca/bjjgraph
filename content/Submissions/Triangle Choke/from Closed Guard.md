@@ -10,10 +10,55 @@ description: "Master triangle choke from closed guard in BJJ. Complete guide cov
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Triangle Choke from Closed Guard targets the Carotid arteries and jugular veins. Risk: Loss of consciousness from carotid compression. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Triangle Choke from Closed Guard",
+  "description": "Master triangle choke from closed guard in BJJ. Complete guide covering setup, angle creation, finishing mechanics, and defense with safety protocols.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Triangle Choke from Closed Guard", "item": "https://bjjgraph.org/Submissions/Triangle-Choke-from-Closed-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Triangle Choke from Closed Guard",
+  "description": "The Triangle Choke from Closed Guard is a blood choke applied from the bottom that traps one of the opponent's arms and their neck between your legs, using your thigh and their own shoulder to compress both carotid arteries.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Triangle Choke from Closed Guard is a blood choke applied from the bottom that traps one of the opponent's arms and their neck between your legs, using your thigh and their own shoulder to compress both carotid arteries.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries and jugular veins</span>
+<span class="meta-chip">65% success</span>
+</div>
+
+> [!danger] Safety
+> Triangle Choke from Closed Guard targets the Carotid arteries and jugular veins. Primary risk: Loss of consciousness from carotid compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,57 +75,7 @@ What makes the triangle from closed guard particularly powerful is its accessibi
 
 The technical execution of the triangle from closed guard requires precise angle creation, hip mobility, and an understanding of how to break the opponent's defensive posture while maintaining control throughout the transition. Success depends not on strength or speed, but on proper positioning of the legs, correct angle relative to the opponent, and the ability to control their posture and arm placement. When executed with proper technique, the triangle becomes nearly unstoppable, which is why it remains a cornerstone submission across all levels of competition from local tournaments to the highest levels of professional grappling.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries and jugular veins
-**Starting Position**: [[Positions/Closed Guard]]
-**From Position**: [[Positions/Closed Guard]] (Bottom)
-**Success Rate**: 65%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Loss of consciousness from carotid compression | CRITICAL | Immediate with proper release, potential complications if held after unconsciousness |
-| Neck strain or cervical spine stress | Medium | 3-7 days for minor strain, weeks for more severe cases |
-| Shoulder compression injury from trapped arm | Medium | 1-2 weeks for minor strain |
-| Rib or intercostal muscle strain from leg pressure | Low | 3-5 days |
-
-
-**Application Speed**: SLOW and progressive - 5-7 seconds minimum in training, never snap or jerk the choke
-
-**Tap Signals**:
-- Verbal tap or any verbal distress signal
-- Physical hand tap on partner's body or mat
-- Physical foot tap on mat or partner
-- Any unusual breathing sounds or struggle patterns
-- Loss of resistance or going limp (immediate release required)
-
-
-**Release Protocol**:
-1. Immediately open legs and release triangle configuration
-2. Push opponent's head away gently while maintaining awareness of their neck
-3. Allow opponent to recover posture slowly without sudden movements
-4. Check partner's awareness and ensure they are responsive
-5. Never maintain pressure after tap or loss of consciousness
-6. Give partner time to recover before resuming training
-
-
-**Training Restrictions**:
-- Never hold choke after partner taps or goes unconscious
-- Never spike or slam opponent while setting up triangle
-- Always allow partner clear tap access with at least one arm
-- Never use competition speed or finishing pressure in drilling
-- Stop immediately if partner shows distress or unusual breathing
-- Communicate clearly about pressure levels during positional training
-- White belts should drill under supervision until mechanics are understood
-
+**Starting Position**: [[Positions/Closed Guard]] · **From**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
 
@@ -260,10 +255,9 @@ The technical execution of the triangle from closed guard requires precise angle
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Triangle Choke]]
 - [[Submissions/Kimura/from Guard]]
 - [[Transitions/Gogoplata]]
@@ -272,38 +266,62 @@ The technical execution of the triangle from closed guard requires precise angle
 - [[Submissions/Baratoplata]]
 - [[Submissions/Omoplata]]
 - [[Transitions/Inverted Triangle]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Closed Guard]] - Primary starting position for this submission; fundamental guard position where triangle is most commonly initiated
 - [[Positions/Triangle Control]] - The control position achieved when triangle is locked but not yet finished; intermediate position before submission completion
-- [[Submissions/Kimura/from Guard]] - Primary follow-up submission when opponent defends triangle by turning or extracting arm; creates submission chain with triangle
-- [[Submissions/Triangle Choke]] - Generic triangle choke technique applicable from multiple positions; this is specific closed guard variation
 - [[Positions/Rubber Guard]] - Advanced guard system that provides excellent triangle setups through high guard and Mission Control positions
 - [[Positions/Rubber Guard/Mission Control]] - 10th Planet rubber guard position that creates ideal conditions for triangle entry with extreme posture control
 - [[Positions/Spider Guard]] - Alternative guard providing triangle opportunities when opponent's posture is managed with foot placement on biceps
 - [[Positions/Omoplata Control]] - Alternative finish when opponent turns away from triangle; completes the triangle-armbar-omoplata attack system
-- [[Transitions/Guillotine Choke]] - Related blood choke that can be combined with triangle attempts or used as alternative when triangle is defended
 - [[Positions/Lasso Guard]] - Guard variation that can transition to triangle when opponent attempts to clear the lasso control
-- [[Transitions/Gogoplata]] - Advanced submission available from triangle position when posture is completely broken and shin can access throat
 - [[Positions/Collar Sleeve Guard]] - Guard variation providing excellent triangle setups through sleeve control and collar grip posture breaking
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Loss of consciousness from carotid compression | CRITICAL | Immediate with proper release, potential complications if held after unconsciousness |
+| Neck strain or cervical spine stress | Medium | 3-7 days for minor strain, weeks for more severe cases |
+| Shoulder compression injury from trapped arm | Medium | 1-2 weeks for minor strain |
+| Rib or intercostal muscle strain from leg pressure | Low | 3-5 days |
+
+
+**Application Speed**: SLOW and progressive - 5-7 seconds minimum in training, never snap or jerk the choke
+
+**Tap Signals**:
+- Verbal tap or any verbal distress signal
+- Physical hand tap on partner's body or mat
+- Physical foot tap on mat or partner
+- Any unusual breathing sounds or struggle patterns
+- Loss of resistance or going limp (immediate release required)
+
+
+**Release Protocol**:
+1. Immediately open legs and release triangle configuration
+2. Push opponent's head away gently while maintaining awareness of their neck
+3. Allow opponent to recover posture slowly without sudden movements
+4. Check partner's awareness and ensure they are responsive
+5. Never maintain pressure after tap or loss of consciousness
+6. Give partner time to recover before resuming training
+
+
+**Training Restrictions**:
+- Never hold choke after partner taps or goes unconscious
+- Never spike or slam opponent while setting up triangle
+- Always allow partner clear tap access with at least one arm
+- Never use competition speed or finishing pressure in drilling
+- Stop immediately if partner shows distress or unusual breathing
+- Communicate clearly about pressure levels during positional training
+- White belts should drill under supervision until mechanics are understood
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Triangle Choke from Closed Guard leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

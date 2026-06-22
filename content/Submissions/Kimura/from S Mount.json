@@ -1,5 +1,6 @@
 {
   "name": "Kimura from S Mount",
+  "summary": "The Kimura from S Mount is a figure-four shoulder lock that isolates the opponent's near arm when they bend it to defend the armbar, rotating the wrist toward their lower back to crank the shoulder past its safe range.",
   "description": "Master the Kimura shoulder lock from S Mount in BJJ. Complete finishing guide covering figure-four grip mechanics, rotational pressure, and defensive counters for grapplers.",
   "tags": [
     "bjj",
@@ -283,7 +284,7 @@
     "flashcards": [
       {
         "question": "What specific anatomical structures does the Kimura from S Mount attack?",
-        "answer": "The Kimura from S Mount attacks the shoulder joint complex, specifically the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the glenohumeral ligaments, the glenoid labrum, and the shoulder capsule. The rotational force created by the figure-four grip forces the humerus into external rotation past its safe range, stressing all of these structures simultaneously.",
+        "answer": "The Kimura from S Mount attacks the shoulder joint complex, specifically the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the glenohumeral ligaments, the glenoid labrum, and the shoulder capsule. The rotational force created by the figure-four grip forces the humerus into internal rotation past its safe range, driving the wrist toward the lower back, stressing all of these structures simultaneously.",
         "safety_critical": false
       },
       {

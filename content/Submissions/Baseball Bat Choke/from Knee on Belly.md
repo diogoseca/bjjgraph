@@ -10,10 +10,55 @@ description: "Master the Baseball Bat Choke from Knee on Belly in BJJ. Learn gi 
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Baseball Bat Choke from Knee on Belly targets the Carotid arteries and jugular veins. Risk: Loss of consciousness from bilateral carotid compression. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Baseball Bat Choke from Knee on Belly",
+  "description": "Master the Baseball Bat Choke from Knee on Belly in BJJ. Learn gi collar grip mechanics, spinning finish details, and pressure-based setups unique to KOB.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Baseball Bat Choke from Knee on Belly", "item": "https://bjjgraph.org/Submissions/Baseball-Bat-Choke-from-Knee-on-Belly" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Baseball Bat Choke from Knee on Belly",
+  "description": "The Baseball Bat Choke from Knee on Belly is a gi blood choke that uses a same-direction double-collar grip and a spinning finish, weaponizing the position's diaphragm pressure to open the collar and compress both carotid arteries.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Baseball Bat Choke from Knee on Belly is a gi blood choke that uses a same-direction double-collar grip and a spinning finish, weaponizing the position's diaphragm pressure to open the collar and compress both carotid arteries.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries and jugular veins</span>
+<span class="meta-chip">58% success</span>
+</div>
+
+> [!danger] Safety
+> Baseball Bat Choke from Knee on Belly targets the Carotid arteries and jugular veins. Primary risk: Loss of consciousness from bilateral carotid compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,52 +75,7 @@ From a strategic standpoint, Knee on Belly creates a dual threat that is extreme
 
 The finishing mechanic involves a controlled spin away from the opponent after securing both collar grips, dropping the chest to the mat on the far side while tightening the cross-collar strangle. The spin generates torsion through the collar fabric that compresses both carotid arteries simultaneously. Timing the spin with the opponent's defensive movement is critical: spinning too early before grips are deep results in a loose choke, while waiting too long allows the opponent to strip grips or recover guard.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries and jugular veins
-**Starting Position**: [[Positions/Knee on Belly]]
-**From Position**: [[Positions/Knee on Belly]] (Top)
-**Success Rate**: 58%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Loss of consciousness from bilateral carotid compression | High | Immediate with proper release; potential neurological complications if held beyond unconsciousness |
-| Trachea damage from improper collar placement or windpipe pressure | Medium | 1-2 weeks with rest |
-| Neck strain from explosive spinning finish or resisting the rotation | Medium | 3-7 days |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training. The spin should be controlled, not explosive.
-
-**Tap Signals**:
-- Verbal tap saying 'tap' clearly
-- Physical hand tap on partner or mat (minimum two taps)
-- Physical foot tap on mat when hands are trapped
-- Any distress signal including going limp or loss of muscle tone
-
-
-**Release Protocol**:
-1. Immediately release all collar grips upon any tap signal
-2. Remove hands completely from opponent's neck and collar area
-3. Roll off opponent and allow them to recover in side-lying position
-4. Check partner's awareness, breathing, and orientation before continuing
-5. Wait for verbal confirmation of readiness before resuming training
-
-
-**Training Restrictions**:
-- Never apply at competition speed during drilling — control the spin
-- Never jerk or spike the choke to force a finish
-- Always ensure partner can signal a tap with at least one hand or verbally
-- Never continue past initial resistance in training — reset and refine grip depth
-- Stop immediately if partner shows any signs of distress, color change, or unconsciousness
-
+**Starting Position**: [[Positions/Knee on Belly]] · **From**: [[Positions/Knee on Belly]] (Top)
 
 </section>
 
@@ -226,41 +226,61 @@ The finishing mechanic involves a controlled spin away from the opponent after s
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Baseball Bat Choke]]
 - [[Submissions/Cross Collar Choke]]
 - [[Transitions/Arm Triangle]]
 - [[Submissions/Ezekiel Choke]]
 - [[Submissions/Breadcutter Choke]]
 - [[Submissions/Bow and Arrow Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Knee on Belly]] - Primary starting position providing pressure platform for grip insertion
 - [[Positions/Side Control]] - Alternative entry position and common landing position after spinning finish
-- [[Submissions/Baseball Bat Choke]] - Parent submission family — this is the Knee on Belly-specific variant
 - [[Positions/North-South]] - Intermediate position during spinning finish transition
-- [[Submissions/Cross Collar Choke]] - Related collar choke sharing similar grip mechanics and collar depth requirements
+
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Loss of consciousness from bilateral carotid compression | High | Immediate with proper release; potential neurological complications if held beyond unconsciousness |
+| Trachea damage from improper collar placement or windpipe pressure | Medium | 1-2 weeks with rest |
+| Neck strain from explosive spinning finish or resisting the rotation | Medium | 3-7 days |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training. The spin should be controlled, not explosive.
+
+**Tap Signals**:
+- Verbal tap saying 'tap' clearly
+- Physical hand tap on partner or mat (minimum two taps)
+- Physical foot tap on mat when hands are trapped
+- Any distress signal including going limp or loss of muscle tone
+
+
+**Release Protocol**:
+1. Immediately release all collar grips upon any tap signal
+2. Remove hands completely from opponent's neck and collar area
+3. Roll off opponent and allow them to recover in side-lying position
+4. Check partner's awareness, breathing, and orientation before continuing
+5. Wait for verbal confirmation of readiness before resuming training
+
+
+**Training Restrictions**:
+- Never apply at competition speed during drilling — control the spin
+- Never jerk or spike the choke to force a finish
+- Always ensure partner can signal a tap with at least one hand or verbally
+- Never continue past initial resistance in training — reset and refine grip depth
+- Stop immediately if partner shows any signs of distress, color change, or unconsciousness
 
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Baseball Bat Choke from Knee on Belly leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

@@ -38,7 +38,8 @@
     }
   ],
   "success_rate": 50,
-  "overview": "The Mounted Crucifix Armbar is a high-percentage joint lock executed from one of the most dominant control positions in Brazilian Jiu-Jitsu. The attacker leverages the mounted crucifix's inherent arm isolation—where one or both of the defender's arms are trapped by the attacker's legs—to hyperextend the elbow joint on the trapped arm. Because the defender's normal armbar defense mechanisms are severely compromised by the crucifix control, this submission converts at a significantly higher rate than standard armbar variations from mount.\n\nThe submission's tactical value lies in its complementary relationship with choke attacks from the mounted crucifix. When the defender commits their free arm entirely to neck defense against rear naked choke or collar choke attempts, the trapped arm becomes available for the armbar with minimal resistance. Conversely, if the defender attempts to free their trapped arm, the neck becomes exposed to choking attacks. This binary dilemma makes the mounted crucifix one of the highest-converting positions to submission finish in competitive grappling.\n\nMechanically, the armbar requires the attacker to pivot their hips toward the target arm while maintaining crucifix control, then extend the arm against the hip line with the elbow joint positioned for hyperextension pressure. The key distinction from a standard mount armbar is that the initial arm isolation is already established by the leg-based crucifix control, eliminating the most difficult phase of the armbar setup. This pre-existing control transforms the armbar from a multi-step sequence requiring significant positional transitions into a direct finishing technique with minimal setup time.",
+  "summary": "The Mounted Crucifix Armbar is an elbow-hyperextension finish applied from the mounted crucifix, where the attacker's legs have already trapped the arm—eliminating the hardest phase of a standard armbar and forcing the defender into a choke-or-armbar dilemma.",
+  "overview": "Within the mounted crucifix's layered attacking system, the armbar serves as the joint-lock counterpart to the position's many choke threats. The attacker leverages the mounted crucifix's inherent arm isolation—where one or both of the defender's arms are trapped by the attacker's legs—to hyperextend the elbow joint on the trapped arm. Because the defender's normal armbar defense mechanisms are severely compromised by the crucifix control, this submission converts at a significantly higher rate than standard armbar variations from mount.\n\nThe submission's tactical value lies in its complementary relationship with choke attacks from the mounted crucifix. When the defender commits their free arm entirely to neck defense against rear naked choke or collar choke attempts, the trapped arm becomes available for the armbar with minimal resistance. Conversely, if the defender attempts to free their trapped arm, the neck becomes exposed to choking attacks. This binary dilemma makes the mounted crucifix one of the highest-converting positions to submission finish in competitive grappling.\n\nMechanically, the armbar requires the attacker to pivot their hips toward the target arm while maintaining crucifix control, then extend the arm against the hip line with the elbow joint positioned for hyperextension pressure. The key distinction from a standard mount armbar is that the initial arm isolation is already established by the leg-based crucifix control, eliminating the most difficult phase of the armbar setup. This pre-existing control transforms the armbar from a multi-step sequence requiring significant positional transitions into a direct finishing technique with minimal setup time.",
   "safety_considerations": {
     "injury_risks": [
       {
@@ -296,8 +297,18 @@
         "safety_critical": true
       },
       {
+        "question": "What cues tell you the armbar has reached the elbow's breaking point so you can control the final pressure?",
+        "answer": "The breaking point is signaled when the arm is fully straight with the elbow stacked directly over the center of your pelvis, the defender's forearm rotation has stopped, and resistance suddenly firms as the joint reaches end range—often accompanied by a wince or verbal cue. From the mounted crucifix this point arrives sooner and with less range of motion than a standard armbar because the arm is already pre-extended by the leg trap. Apply hip pressure in small increments past this point, pausing at each one to give the defender time to tap before ligament damage occurs.",
+        "safety_critical": true
+      },
+      {
         "question": "How does grip positioning on the wrist affect the armbar's finishing angle and effectiveness?",
         "answer": "The C-grip should be positioned with the thumb on the back of the wrist and fingers wrapped around the radial side (thumb side) of the forearm. This grip controls wrist rotation, preventing the defender from turning the thumb toward the ground which would misalign the elbow for hyperextension. Pulling the wrist toward your chest with the defender's thumb pointing toward the ceiling ensures the elbow's natural hinge aligns directly against your hip pressure. Gripping too far down the forearm reduces rotational control, while gripping the hand itself allows the wrist to flex and absorb extension force.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the single most common error that causes the Mounted Crucifix Armbar to fail at the finish, and how do you correct it?",
+        "answer": "The most common failure is sacrificing crucifix leg control to chase the armbar position—releasing the leg traps or lifting your hips to reposition, which lets the defender extract their arms and escape to standard mount bottom or scramble. Correct it by building the armbar incrementally from within the crucifix: keep the knees pinched and weight heavy throughout the pivot, sliding your hips along the torso rather than jumping into position. The finish should be the culmination of unbroken control, never a transition that abandons it.",
         "safety_critical": false
       },
       {
@@ -421,7 +432,8 @@
       },
       {
         "question": "What positional escape should you prioritize if the attacker's armbar attempt loosens the crucifix leg control?",
-        "answer": "If the armbar attempt loosens the crucifix control, immediately prioritize extracting your trapped arm(s) through hip movement and elbow retraction. Do not attempt to counter the armbar itself—use the loosened control to escape the crucifix first. Once arms are free, you are in standard mount bottom which has a much broader defensive toolkit. Even accepting mount bottom is a significant positional improvement over mounted crucifix. Bridge toward the side where control is loosest and work to insert a knee shield for half guard recovery."
+        "answer": "If the armbar attempt loosens the crucifix control, immediately prioritize extracting your trapped arm(s) through hip movement and elbow retraction. Do not attempt to counter the armbar itself—use the loosened control to escape the crucifix first. Once arms are free, you are in standard mount bottom which has a much broader defensive toolkit. Even accepting mount bottom is a significant positional improvement over mounted crucifix. Bridge toward the side where control is loosest and work to insert a knee shield for half guard recovery.",
+        "safety_critical": false
       }
     ],
     "training_progressions": [

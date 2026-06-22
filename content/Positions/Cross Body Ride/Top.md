@@ -21,13 +21,13 @@ description: "Master Cross Body Ride Top position in BJJ. Dominant turtle top co
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Back Control",
-      "text": "From this position, attempt Turtle to Back Control. This technique is attempted in 52% of exchanges from this position.",
+      "text": "From this position, attempt Turtle to Back Control. This technique is attempted in 50% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crucifix from Turtle",
-      "text": "From this position, attempt Crucifix from Turtle. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Crucifix from Turtle. This technique is attempted in 17% of exchanges from this position.",
       "position": 2
     },
     {
@@ -39,19 +39,19 @@ description: "Master Cross Body Ride Top position in BJJ. Dominant turtle top co
     {
       "@type": "HowToStep",
       "name": "Execute Turtle Flatten to Side Control",
-      "text": "From this position, attempt Turtle Flatten to Side Control. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Turtle Flatten to Side Control. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Truck",
-      "text": "From this position, attempt Turtle to Truck. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Turtle to Truck. This technique is attempted in 6% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crab Ride to Back",
-      "text": "From this position, attempt Crab Ride to Back. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Crab Ride to Back. This technique is attempted in 6% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -358,6 +358,16 @@ Start from cross body ride, bottom player given full freedom to escape using any
 - **[[Submissions/Bow and Arrow Choke]]** - High-percentage submission from back control transition
 - **[[Positions/Back Control/Seat Belt Control Back]]** - Control configuration after securing back position
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Danaher Straight Jacket System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Alternative turtle attack position that creates back exposure and system entry opportunities</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

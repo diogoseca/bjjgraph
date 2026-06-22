@@ -10,6 +10,41 @@ description: "Master the Dead Orchard to Darce Switch in BJJ. Learn grip reconfi
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Dead Orchard to Darce Switch",
+  "description": "Master the Dead Orchard to Darce Switch in BJJ. Learn grip reconfiguration, timing windows, and systematic mechanics for switching between choke types.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Dead Orchard to Darce Switch", "item": "https://bjjgraph.org/Transitions/Dead-Orchard-to-Darce-Switch" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Dead Orchard to Darce Switch",
+  "description": "The Dead Orchard to Darce Switch is a no-gi front-headlock chain attack that reconfigures an anaconda-style Dead Orchard grip into a Darce choke the instant the opponent defends by extracting their trapped arm or creating space.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Dead Orchard to Darce Switch in BJJ. Learn grip reconfi
 </div>
 
 <section id="overview" class="content-section">
+
+**The Dead Orchard to Darce Switch is a no-gi front-headlock chain attack that reconfigures an anaconda-style Dead Orchard grip into a Darce choke the instant the opponent defends by extracting their trapped arm or creating space.**
 
 The Dead Orchard to Darce Switch is an advanced grip transition within the front headlock choke family, converting an anaconda-style Dead Orchard configuration into a Darce (brabo) choke setup. This switch exploits a fundamental defensive dilemma: when opponents defend the anaconda compression by creating space on the trapped arm side or attempting arm extraction, they inadvertently expose the threading pathway for the darce grip. The technique is most commonly applied in no-gi contexts where the absence of collar grips makes front headlock choke transitions especially potent.
 
@@ -220,5 +257,7 @@ The Dead Orchard to Darce Switch occupies a critical position within the front h
 
 
 </section>
+
+
 
 </main>

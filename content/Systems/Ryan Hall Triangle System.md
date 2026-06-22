@@ -148,10 +148,23 @@ description: "Master Ryan Hall's Triangle System. Comprehensive framework connec
 }
 </script>
 
-> Ryan Hall Triangle System is a advanced difficulty Submission Chain system. Integrates 6 components.
 
-**System Type**: Submission Chain
-**Difficulty Level**: Advanced
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Ryan Hall Triangle System",
+  "description": "The Ryan Hall Triangle System is a closed-guard submission framework that treats the triangle as a control platform from which armbars, omoplatas, and back takes chain together, forcing opponents into no-win defensive dilemmas.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Submission Chain</span>
+<span class="meta-chip">Advanced difficulty</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -160,11 +173,31 @@ description: "Master Ryan Hall's Triangle System. Comprehensive framework connec
 
 ## What is Ryan Hall Triangle System?
 
-The Ryan Hall Triangle System represents one of the most comprehensive and technically refined approaches to the triangle choke and its associated submission chains in Brazilian Jiu-Jitsu. Hall's system is built on the fundamental principle that the triangle is not merely a single submission, but rather the centerpiece of an interconnected web of attacks including armbars, omoplatas, and back takes. This system emphasizes positional control, precise angle creation, and the ability to flow seamlessly between submissions based on defensive reactions.
+**The Ryan Hall Triangle System is a closed-guard submission framework that treats the triangle as a control platform from which armbars, omoplatas, and back takes chain together, forcing opponents into no-win defensive dilemmas.**
+
+Developed by Ryan Hall, one of the sport's most analytically rigorous competitors and instructors, this approach grew out of his observation that the triangle choke is too often trained as an isolated, low-percentage finish rather than as a position of control. Hall's system is built on the fundamental principle that the triangle is not merely a single submission, but rather the centerpiece of an interconnected web of attacks including armbars, omoplatas, and back takes. It emphasizes positional control, precise angle creation, and the ability to flow seamlessly between submissions based on defensive reactions.
 
 What distinguishes Hall's approach is the emphasis on creating genuine dilemmas for opponents through systematic pressure and positioning. Rather than forcing single submissions, the system creates scenarios where every defensive option opens a new offensive pathway. The triangle position becomes a control platform from which multiple high-percentage finishes become available. Hall's methodology breaks down the complex mechanics of triangle attacks into learnable progressions that build upon fundamental principles of leverage, angle manipulation, and timing.
 
 The system integrates seamlessly with modern guard play, particularly from closed guard, but extends to applications from spider guard, De La Riva, and even standing positions. Hall's technical innovations include specific grip sequences, hip positioning strategies, and transitional mechanics that maximize finishing percentages while minimizing energy expenditure. This system has proven effective at the highest levels of competition and represents a comprehensive blueprint for developing world-class triangle attacks.
+
+</section>
+
+
+
+<section id="unlock-graph" class="content-section system-unlock" data-system-unlock hidden>
+
+## Unlock this part of the graph
+
+<p class="section-subtitle">This system teaches the highlighted nodes in the graph. Mark what you already know &mdash; be honest, it's your game.</p>
+
+<div class="system-progress" data-system-progress>
+<svg class="system-progress__ring" viewBox="0 0 44 44" aria-hidden="true"><circle class="system-progress__ring-bg" cx="22" cy="22" r="19"></circle><circle class="system-progress__ring-fill" cx="22" cy="22" r="19"></circle></svg>
+<div class="system-progress__text">You've unlocked <strong class="system-progress__known">0</strong> / <span class="system-progress__total">0</span> techniques in this system</div>
+<button class="system-progress__mark-all" data-mark-system type="button">Mark whole system as known</button>
+</div>
+
+<ul class="system-members" data-system-members></ul>
 
 </section>
 

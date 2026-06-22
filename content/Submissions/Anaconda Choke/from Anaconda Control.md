@@ -10,10 +10,55 @@ description: "Master the Anaconda Choke in BJJ. Complete guide covering setup fr
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Anaconda Choke from Anaconda Control targets the Carotid arteries and trachea. Risk: Loss of consciousness from carotid artery compression. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Anaconda Choke from Anaconda Control",
+  "description": "Master the Anaconda Choke in BJJ. Complete guide covering setup from turtle and front headlock, finishing mechanics, safety protocols, and defensive strategies.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Anaconda Choke from Anaconda Control", "item": "https://bjjgraph.org/Submissions/Anaconda-Choke-from-Anaconda-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Anaconda Choke from Anaconda Control",
+  "description": "The Anaconda Choke from Anaconda Control is a front-headlock blood choke in which you thread an arm under the opponent's neck and trapped near-arm, lock a figure-four grip, and roll to your side to compress both carotid arteries simultaneously.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Anaconda Choke from Anaconda Control is a front-headlock blood choke in which you thread an arm under the opponent's neck and trapped near-arm, lock a figure-four grip, and roll to your side to compress both carotid arteries simultaneously.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries and trachea</span>
+<span class="meta-chip">65% success</span>
+</div>
+
+> [!danger] Safety
+> Anaconda Choke from Anaconda Control targets the Carotid arteries and trachea. Primary risk: Loss of consciousness from carotid artery compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -24,61 +69,13 @@ description: "Master the Anaconda Choke in BJJ. Complete guide covering setup fr
 
 <section id="overview" class="content-section">
 
-The Anaconda Choke is a front headlock blood choke that targets the carotid arteries through a figure-four configuration of the arms. Named for the constricting serpent, this submission wraps around the opponent's neck and arm, creating a powerful strangling mechanism. The technique is most commonly applied from turtle position or front headlock control when the opponent is defending with their head down. Unlike the rear naked choke which attacks from behind, the Anaconda approaches from the side, threading one arm under the opponent's neck and opposite armpit while the other arm completes the figure-four grip.
+Within the front headlock attack system, the Anaconda is the highest-percentage arm-in strangle available against a turtled or sprawled opponent, converting head-and-arm control into a fight-ending blood choke. Named for the constricting serpent, it earns its reputation through a self-tightening mechanism: the deeper you thread and the harder you roll, the more the opponent's own trapped shoulder becomes the second jaw of the vice. The technique is most commonly applied from turtle or front headlock control when the opponent defends with their head down and posture broken, and unlike the rear naked choke it approaches from the side rather than from behind.
 
-The submission's effectiveness comes from the combined pressure of the choking arm against the carotid artery while the opponent's own shoulder is driven into their opposite carotid. This dual-sided pressure creates a rapid loss of consciousness if not defended immediately. The Anaconda is particularly effective in no-gi grappling where the absence of collar grips forces opponents to defend with posture, creating the head-down position ideal for this attack.
+The submission's effectiveness comes from the combined pressure of the choking arm against one carotid artery while the opponent's own shoulder is driven into their opposite carotid. This dual-sided pressure creates a rapid loss of consciousness if not defended immediately. The Anaconda is particularly effective in no-gi grappling where the absence of collar grips forces opponents to defend with posture, creating the head-down position ideal for this attack.
 
 The technique has become a staple in modern BJJ competition, with the Anaconda-to-Darce chain representing one of the highest-percentage front headlock attack systems available. Mastering the Anaconda requires understanding the precise arm threading depth, the critical role of the opponent's trapped shoulder in creating bilateral compression, and the rolling mechanics that generate finishing pressure through hip drive rather than arm strength alone.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries and trachea
-**Starting Position**: [[Positions/Front Headlock]]
-**From Position**: [[Positions/Anaconda Control]] (Top)
-**Success Rate**: 65%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Loss of consciousness from carotid artery compression | High | Immediate recovery if released promptly; potential for confusion lasting 5-30 seconds |
-| Tracheal compression and airway damage | Medium | 1-3 days for minor bruising; 1-2 weeks for significant trauma |
-| Neck strain or cervical spine stress | Medium | 3-7 days for minor strain; 2-4 weeks for moderate injury |
-| Shoulder impingement from trapped arm position | Low | 1-3 days |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from initial pressure to full compression. Allow partner time to recognize position and tap.
-
-**Tap Signals**:
-- Verbal tap (any verbal signal of submission)
-- Physical hand tap on opponent's body
-- Physical foot tap on mat
-- Desperate hand waving or frantic movement
-- Any loss of resistance or limpness
-
-
-**Release Protocol**:
-1. Immediately open figure-four grip upon tap signal
-2. Remove choking arm from under opponent's neck
-3. Create space by moving body away from opponent
-4. Monitor partner for 10-15 seconds to ensure full consciousness
-5. If partner shows signs of unconsciousness, place in recovery position and alert instructor
-
-
-**Training Restrictions**:
-- Never crank or jerk the choke - apply pressure smoothly and progressively
-- Never use competition speed during drilling or light sparring
-- Always ensure partner has clear tap access with at least one hand
-- Stop immediately if partner makes any distress sound or shows panic
-- Never continue pressure after tap signal - instant release required
-- Avoid practicing on partners with known neck injuries without instructor approval
-
+**Starting Position**: [[Positions/Front Headlock]] · **From**: [[Positions/Anaconda Control]] (Top)
 
 </section>
 
@@ -272,10 +269,9 @@ The technique has become a staple in modern BJJ competition, with the Anaconda-t
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Transitions/Darce Choke]]
 - [[Transitions/Guillotine Choke]]
 - [[Transitions/Arm Triangle]]
@@ -283,14 +279,6 @@ The technique has become a staple in modern BJJ competition, with the Anaconda-t
 - [[Submissions/Brabo Choke]]
 - [[Submissions/Arm in Guillotine]]
 - [[Submissions/Chin Strap Guillotine]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Transitions/Front Headlock to Anaconda]] - Primary setup transition from front headlock control
 - [[Transitions/Anaconda from Turtle]] - Common entry transition from opponent's turtle position
 - [[Transitions/Anaconda Setup]] - General setup technique for establishing Anaconda control
@@ -303,17 +291,51 @@ The technique has become a staple in modern BJJ competition, with the Anaconda-t
 - [[Positions/Darce Control]] - Control position closely related to Anaconda mechanics
 - [[Positions/Anaconda Control]] - Specific control position for setting up the Anaconda finish
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Loss of consciousness from carotid artery compression | High | Immediate recovery if released promptly; potential for confusion lasting 5-30 seconds |
+| Tracheal compression and airway damage | Medium | 1-3 days for minor bruising; 1-2 weeks for significant trauma |
+| Neck strain or cervical spine stress | Medium | 3-7 days for minor strain; 2-4 weeks for moderate injury |
+| Shoulder impingement from trapped arm position | Low | 1-3 days |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum from initial pressure to full compression. Allow partner time to recognize position and tap.
+
+**Tap Signals**:
+- Verbal tap (any verbal signal of submission)
+- Physical hand tap on opponent's body
+- Physical foot tap on mat
+- Desperate hand waving or frantic movement
+- Any loss of resistance or limpness
+
+
+**Release Protocol**:
+1. Immediately open figure-four grip upon tap signal
+2. Remove choking arm from under opponent's neck
+3. Create space by moving body away from opponent
+4. Monitor partner for 10-15 seconds to ensure full consciousness
+5. If partner shows signs of unconsciousness, place in recovery position and alert instructor
+
+
+**Training Restrictions**:
+- Never crank or jerk the choke - apply pressure smoothly and progressively
+- Never use competition speed during drilling or light sparring
+- Always ensure partner has clear tap access with at least one hand
+- Stop immediately if partner makes any distress sound or shows panic
+- Never continue pressure after tap signal - instant release required
+- Avoid practicing on partners with known neck injuries without instructor approval
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Anaconda Choke from Anaconda Control leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

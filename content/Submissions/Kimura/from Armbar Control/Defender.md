@@ -63,7 +63,7 @@ description: "Defend against the Kimura from Armbar Control in BJJ. Recognition 
       "name": "When should you tap to the Kimura from Armbar Control to prevent injury?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Tap as soon as you feel the external rotation of your shoulder reaching the limit of your comfortable range of motion. Do not wait for pain, as shoulder damage often occurs before significant pain registers. If the figure-four is locked, the elbow is pinned, and the rotation has begun, the mechanical advantage is overwhelmingly in the attacker's favor. Tapping early in training preserves your shoulder health and allows you to train the next day."
+        "text": "Tap as soon as you feel the internal rotation of your shoulder reaching the limit of your comfortable range of motion. Do not wait for pain, as shoulder damage often occurs before significant pain registers. If the figure-four is locked, the elbow is pinned, and the rotation has begun, the mechanical advantage is overwhelmingly in the attacker's favor. Tapping early in training preserves your shoulder health and allows you to train the next day."
       }
     },
     {
@@ -71,7 +71,7 @@ description: "Defend against the Kimura from Armbar Control in BJJ. Recognition 
       "name": "What defensive positioning prevents the kimura rotation from being effective?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The most effective defensive positioning combines three elements: keeping your elbow pinned tight against your own ribs to deny the fulcrum, pointing your hand toward the ceiling to strengthen the rotator cuff's resistance to external rotation, and turning your body toward the trapped arm side so your torso rotation counteracts the attacker's rotational force. This three-layer defense addresses the submission's mechanics at each point of the lever system."
+        "text": "The most effective defensive positioning combines three elements: keeping your elbow pinned tight against your own ribs to deny the fulcrum, pointing your hand toward the ceiling to strengthen the rotator cuff's resistance to internal rotation, and turning your body toward the trapped arm side so your torso rotation counteracts the attacker's rotational force. This three-layer defense addresses the submission's mechanics at each point of the lever system."
       }
     },
     {
@@ -260,7 +260,7 @@ Successfully bridge and roll to disrupt the attacker's positional control, extra
 
 ### 3. Bridging in the wrong direction away from the kimura side
 
-- **Consequence**: Bridging away from the kimura side actually assists the attacker's rotational direction, accelerating the external rotation of your shoulder toward the tap
+- **Consequence**: Bridging away from the kimura side actually assists the attacker's rotational direction, accelerating the internal rotation of your shoulder toward the tap
 - **Correction**: Always bridge toward the kimura side, meaning toward the direction your forearm is being rotated. This counters the rotational force and disrupts the attacker's hip anchor.
 
 ### 4. Refusing to tap when the shoulder rotation has clearly passed the defensive threshold

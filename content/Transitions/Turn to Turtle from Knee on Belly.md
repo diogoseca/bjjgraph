@@ -10,6 +10,41 @@ description: "Master the Turn to Turtle escape from Knee on Belly in BJJ. Comple
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Turn to Turtle from Knee on Belly",
+  "description": "Master the Turn to Turtle escape from Knee on Belly in BJJ. Complete guide covering timing, rotational mechanics, and back defense for this critical pressure escape.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Turn to Turtle from Knee on Belly", "item": "https://bjjgraph.org/Transitions/Turn-to-Turtle-from-Knee-on-Belly" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Turn to Turtle from Knee on Belly",
+  "description": "Turn to Turtle from Knee on Belly is a defensive escape in which the pinned bottom player corkscrews away from the crushing knee to reach a four-point turtle base, trading suffocating diaphragm pressure for the lesser risk of temporary back exposure.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Turn to Turtle escape from Knee on Belly in BJJ. Comple
 
 <section id="overview" class="content-section">
 
-The Turn to Turtle from Knee on Belly is a defensive escape where the bottom player rotates away from crushing knee pressure to establish a four-point turtle base. This transition occurs most frequently when the intensity of diaphragm compression makes standard guard recovery techniques like framing and shrimping impractical or impossible. Rather than fighting the pressure directly, the bottom player redirects their energy into a controlled rotation that removes the knee from their torso, trading the immediate respiratory distress of Knee on Belly for the positional challenges of turtle defense.
+**Turn to Turtle from Knee on Belly is a defensive escape in which the pinned bottom player corkscrews away from the crushing knee to reach a four-point turtle base, trading suffocating diaphragm pressure for the lesser risk of temporary back exposure.**
+
+Within the hierarchy of Knee on Belly escapes, the Turn to Turtle sits at the high-risk, high-relief end of the spectrum — the option practitioners reach for when diaphragm compression has shut down standard guard recovery techniques like framing and shrimping. Rather than fighting the pressure directly, the bottom player redirects their energy into a controlled rotation that removes the knee from their torso, trading the immediate respiratory distress of Knee on Belly for the positional challenges of turtle defense.
 
 While this escape provides immediate relief from one of BJJ's most uncomfortable pressure positions, it carries significant strategic risk. Turning away from an opponent inherently exposes the back, and a skilled top player will anticipate this reaction and follow the turn directly into back control. The transition must therefore be executed with deliberate speed and immediately followed by tight turtle defense — chin tucked, elbows connected to knees, and an immediate plan to recover guard or stand up. The escape should never be treated as a final destination; turtle is a transitional state that demands immediate follow-up action.
 
@@ -216,5 +253,7 @@ The Turn to Turtle from Knee on Belly occupies a critical junction in the defens
 
 
 </section>
+
+
 
 </main>

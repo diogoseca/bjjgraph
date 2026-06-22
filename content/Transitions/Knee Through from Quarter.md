@@ -10,6 +10,41 @@ description: "Master Knee Through from Quarter Guard in BJJ. Complete guide to d
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Knee Through from Quarter",
+  "description": "Master Knee Through from Quarter Guard in BJJ. Complete guide to driving your knee past remaining leg control to achieve full mount from quarter guard top.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Knee Through from Quarter", "item": "https://bjjgraph.org/Transitions/Knee-Through-from-Quarter" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Knee Through from Quarter",
+  "description": "Knee Through from Quarter is the mount-completing pass where the top player drives the passing knee fully across the opponent's remaining leg control to convert quarter guard top into full mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Knee Through from Quarter Guard in BJJ. Complete guide to d
 </div>
 
 <section id="overview" class="content-section">
+
+**Knee Through from Quarter is the mount-completing pass where the top player drives the passing knee fully across the opponent's remaining leg control to convert quarter guard top into full mount.**
 
 The Knee Through from Quarter Guard is the direct path to achieving mount from an advanced passing position. When the top player has navigated past the majority of the bottom player's defensive structures and established quarter guard, the knee through represents the final mechanical action—driving the passing knee completely past remaining leg entanglement to establish full mount control. This technique sits at the critical juncture between near-complete pass and dominant position, where proper execution converts positional advantage into four points and direct submission access.
 
@@ -220,5 +257,7 @@ The Knee Through from Quarter Guard occupies a critical position in the guard pa
 
 
 </section>
+
+
 
 </main>

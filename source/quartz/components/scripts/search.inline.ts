@@ -482,8 +482,15 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
 
   document.addEventListener("keydown", shortcutHandler)
   window.addCleanup(() => document.removeEventListener("keydown", shortcutHandler))
-  searchButton?.addEventListener("click", () => showSearch("basic"))
-  window.addCleanup(() => searchButton?.removeEventListener("click", () => showSearch("basic")))
+  // #search-button is inside the data-persist .search wrapper, so it survives SPA
+  // navigation. Bind the click ONCE (guarded) to avoid stacking a new listener on
+  // every nav. The previous removeEventListener passed a fresh arrow (different ref)
+  // and was a no-op, so listeners accumulated.
+  const onSearchButtonClick = () => showSearch("basic")
+  if (searchButton && !(searchButton as any).__searchBtnBound) {
+    searchButton.addEventListener("click", onSearchButtonClick)
+    ;(searchButton as any).__searchBtnBound = true
+  }
   searchBar?.addEventListener("input", onType)
   window.addCleanup(() => searchBar?.removeEventListener("input", onType))
 

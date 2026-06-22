@@ -10,6 +10,41 @@ description: "Master the Ankle Pick Sweep from seated guard. Step-by-step execut
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Ankle Pick Sweep",
+  "description": "Master the Ankle Pick Sweep from seated guard. Step-by-step execution with grip control and off-balancing mechanics for sweeping standing opponents.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Ankle Pick Sweep", "item": "https://bjjgraph.org/Transitions/Ankle-Pick-Sweep" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Ankle Pick Sweep",
+  "description": "The Ankle Pick Sweep is a seated-guard reversal where the bottom player traps a standing opponent's ankle while pulling their upper body diagonally, removing the supporting leg's base to dump them to the mat and come up on top.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Ankle Pick Sweep from seated guard. Step-by-step execut
 
 <section id="overview" class="content-section">
 
-The Ankle Pick Sweep is a fundamental technique from seated guard that exploits the opponent's standing posture through precise grip control and off-balancing mechanics. This sweep targets the opponent's base by controlling their ankle while simultaneously disrupting their upper body balance, creating a powerful lever system that dumps them to the mat.
+**The Ankle Pick Sweep is a seated-guard reversal where the bottom player traps a standing opponent's ankle while pulling their upper body diagonally, removing the supporting leg's base to dump them to the mat and come up on top.**
+
+Within the modern seated-guard game, this wrestling-derived attack exploits a standing passer's posture through precise grip control and off-balancing mechanics. The sweep targets the opponent's base by controlling their ankle while simultaneously disrupting their upper body balance, creating a powerful lever system that dumps them to the mat.
 
 The technique is particularly effective against opponents who maintain an upright, standing posture while attempting to pass seated guard. By combining a strong collar or wrist grip with a well-timed ankle grab, the practitioner creates a mechanical disadvantage that makes it extremely difficult for the opponent to maintain their base. The sweep works on the principle of removing support from one leg while pulling the upper body in the opposite direction, creating a rotational force that the opponent cannot resist.
 
@@ -234,5 +271,7 @@ In the broader context of guard systems, the ankle pick sweep represents the bri
 
 
 </section>
+
+
 
 </main>

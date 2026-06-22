@@ -90,6 +90,14 @@ description: "Learn to escape twister side control using systematic framing tech
     },
     {
       "@type": "Question",
+      "name": "What conditions must exist before you commit to the frame escape from twister side control?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Your spine must not be locked in a finishing twister position, you need at least one hand free from the opponent's grips, and you should have read the top player's weight distribution to identify framing targets. If your spine is under active rotational torque or both hands are controlled, prioritize spine protection and grip fighting first before attempting any framing sequence."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "Your opponent collapses your shoulder frame with heavy pressure - how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
@@ -110,14 +118,6 @@ description: "Learn to escape twister side control using systematic framing tech
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately establish a knee shield or fight for the underhook on the trapped leg side. The knee shield creates a physical barrier preventing the opponent from re-establishing chest-to-chest pressure and transitioning back to twister side control. Failing to establish retention grips immediately leaves you vulnerable to being re-passed before the half guard position is consolidated."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do you prevent back exposure during the framing and hip escape sequence?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Maintain facing toward the opponent's hips throughout all frame movements and hip escapes. Never turn your back during any phase of the escape, as this gifts back control and potentially deepens twister mechanics. The hip escape should move your hips away while your shoulders and chest continue facing the opponent. If back exposure begins, halt the escape and re-orient before continuing."
       }
     }
   ]
@@ -332,5 +332,7 @@ Full positional sparring starting from twister side control bottom. Top player u
 Frame escape from twister side control involves managing significant spinal rotation forces. Never attempt explosive bridging movements while under active twister torque, as this can amplify rotational stress on the cervical and thoracic spine. If the twister submission is fully locked and you cannot prevent spinal rotation through framing, tap immediately rather than risk neck or spine injury. During training, communicate with your partner about the intensity of spinal pressure and use controlled resistance progressions. Begin all drills with light resistance and increase gradually as technique proficiency develops.
 
 </section>
+
+
 
 </main>

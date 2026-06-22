@@ -10,6 +10,41 @@ description: "Master the Overhook to Closed Guard transition in BJJ. Learn guard
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Overhook to Closed Guard",
+  "description": "Master the Overhook to Closed Guard transition in BJJ. Learn guard consolidation techniques using overhook control to lock closed guard and expand your offense.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Overhook to Closed Guard", "item": "https://bjjgraph.org/Transitions/Overhook-to-Closed-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Overhook to Closed Guard",
+  "description": "Overhook to Closed Guard is a bottom-player guard consolidation that converts deep overhook (whizzer) arm control into a locked closed guard by breaking the opponent's posture, walking the hips in, and crossing the ankles behind their back.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Overhook to Closed Guard transition in BJJ. Learn guard
 
 <section id="overview" class="content-section">
 
-The Overhook to Closed Guard transition is a guard consolidation technique where the bottom player uses their overhook arm control to secure a closed guard configuration by locking their ankles behind the opponent's back. This technique becomes essential when the overhook grip is being threatened, when the bottom player wants access to the broader closed guard submission and sweep arsenal, or when defensive consolidation is needed against an aggressive passer who is beginning to work around the overhook guard structure.
+**Overhook to Closed Guard is a bottom-player guard consolidation that converts deep overhook (whizzer) arm control into a locked closed guard by breaking the opponent's posture, walking the hips in, and crossing the ankles behind their back.**
+
+Within the guard retention system, this transition acts as a strategic escape hatch from a specialized control into a fundamental one. It becomes essential when the overhook grip is being threatened, when the bottom player wants access to the broader closed guard submission and sweep arsenal, or when defensive consolidation is needed against an aggressive passer who is beginning to work around the overhook guard structure.
 
 Strategically, this transition trades the specialized attacking opportunities of the overhook position for the greater positional security and wider offensive platform that closed guard provides. The overhook serves as an excellent tool during the transition itself, as it breaks the opponent's posture and restricts their arm, making it significantly easier to walk the hips in and lock the ankles. The bottom player must time the closure carefully, committing to the leg movement only when the opponent's posture is sufficiently broken and their base is compromised by the overhook pressure.
 
@@ -224,5 +261,7 @@ The Overhook to Closed Guard transition sits at a critical junction in the guard
 
 
 </section>
+
+
 
 </main>

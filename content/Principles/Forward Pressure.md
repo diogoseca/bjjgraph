@@ -142,11 +142,24 @@ description: "Master Forward Pressure in BJJ. Learn strategic force application,
 }
 </script>
 
-> Forward Pressure is a medium complexity BJJ principle applicable at the Intermediate level. Develop over Beginner to Advanced.
 
-**Application Level**: Intermediate
-**Complexity**: Medium
-**Development Timeline**: Beginner to Advanced
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Forward Pressure",
+  "description": "Forward Pressure is the principle of applying continuous, directional advancing force through weight, connection points, and body structure to collapse an opponent's frames, eliminate space, and drive positional advancement.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Intermediate</span>
+<span class="meta-chip">Medium complexity</span>
+<span class="meta-chip">Beginner to Advanced</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -155,7 +168,9 @@ description: "Master Forward Pressure in BJJ. Learn strategic force application,
 
 ## What is Forward Pressure?
 
-Forward Pressure represents the strategic application of advancing force, momentum, and weight distribution to overcome defensive barriers, eliminate space, and create positional advancement opportunities. Unlike specific techniques, forward pressure is a conceptual framework applicable across all offensive phases of BJJ, particularly in guard passing, pin consolidation, and submission setups. This concept encompasses the mechanical principles, directional control, and psychological aspects of creating consistent, purposeful advancing force that compromises opponent's defensive structures. Forward pressure serves as both an offensive weapon that breaks through resistance and a control mechanism that limits opponent's mobility and recovery options. The ability to apply effective forward pressure often determines whether a practitioner can overcome sophisticated defensive systems or remains neutralized by opponent's frames and space creation, making it one of the most essential conceptual elements for offensive BJJ.
+**Forward Pressure is the principle of applying continuous, directional advancing force through weight, connection points, and body structure to collapse an opponent's frames, eliminate space, and drive positional advancement.**
+
+Across every offensive phase of jiu-jitsu - guard passing, pin consolidation, and submission setups - the difference between a practitioner who advances and one who stalls often comes down to the quality of their advancing force. Forward pressure is a conceptual framework rather than a single technique, encompassing the mechanical principles, directional control, and psychological aspects of creating consistent, purposeful advancing force that compromises an opponent's defensive structures. It functions both as an offensive weapon that breaks through resistance and as a control mechanism that limits an opponent's mobility and recovery options. The ability to apply effective forward pressure often determines whether a practitioner can overcome sophisticated defensive systems or remains neutralized by an opponent's frames and space creation, making it one of the most essential conceptual elements for offensive BJJ.
 
 </section>
 
@@ -363,6 +378,18 @@ Drilling where bottom player is instructed to perform specific defensive reactio
 - [[Base]] (Principle) - Prerequisite defensive skill necessary to apply Forward Pressure without creating counter vulnerabilities
 - [[Shoulder Pressure]] (Principle) - Specific mechanism for Forward Pressure application through shoulder-driven force
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Bernardo-Faria-Pressure-System" data-cta="related-system-card" data-system-slug="systems/bernardo-faria-pressure-system" data-system-name="Bernardo Faria Pressure System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Bernardo Faria Pressure System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Fundamental concept of maintaining constant offensive pressure</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Modern-No-Gi-Passing-System" data-cta="related-system-card" data-system-slug="systems/modern-no-gi-passing-system" data-system-name="Modern No-Gi Passing System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Modern No-Gi Passing System</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Constant offensive pressure principle maintaining passing initiative</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Gordon-Ryan-Passing-System" data-cta="related-system-card" data-system-slug="systems/gordon-ryan-passing-system" data-system-name="Gordon Ryan Passing System" data-member-count="17"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Gordon Ryan Passing System</span><span class="system-card__unlocks-badge">Unlocks 17 techniques</span><span class="system-card__blurb">Essential pressure application principle for maintaining offensive control</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

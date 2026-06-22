@@ -10,6 +10,41 @@ description: "Master the knee slice pass from deep half guard in BJJ. Complete g
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Knee Slice from Deep Half",
+  "description": "Master the knee slice pass from deep half guard in BJJ. Complete guide covering setup requirements, execution steps, counters, and defensive strategies.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Knee Slice from Deep Half", "item": "https://bjjgraph.org/Transitions/Knee-Slice-from-Deep-Half" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Knee Slice from Deep Half",
+  "description": "The knee slice from deep half guard is a top-player pass that cuts the trapped knee diagonally across the bottom player's body while crossface pressure flattens them, converting deep half top into side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the knee slice pass from deep half guard in BJJ. Complete g
 
 <section id="overview" class="content-section">
 
-The knee slice from deep half guard is a high-priority passing technique for the top player trapped in an opponent's deep half guard. When an opponent secures deep half, they create a powerful lever system underneath your hips that threatens constant sweeps. The knee slice provides a direct, efficient path to side control by cutting the knee across the opponent's body while using upper body pressure to flatten them and neutralize their sweep mechanics. This pass requires careful coordination between crossface pressure, weight distribution, and leg extraction timing.
+**The knee slice from deep half guard is a top-player pass that cuts the trapped knee diagonally across the bottom player's body while crossface pressure flattens them, converting deep half top into side control.**
+
+For the top player caught in deep half guard, the knee slice is one of the most direct escape-to-pass options available once upper body control is established. When an opponent secures deep half, they create a powerful lever system underneath your hips that threatens constant sweeps. The knee slice provides a direct, efficient path to side control by cutting the knee across the opponent's body while using upper body pressure to flatten them and neutralize their sweep mechanics. This pass requires careful coordination between crossface pressure, weight distribution, and leg extraction timing.
 
 Strategically, the knee slice is often the best option when the top player has managed to establish crossface control and partially freed their trapped leg. Unlike the backstep pass which requires disengaging and circling, the knee slice drives directly through the opponent's guard using forward pressure. This makes it particularly effective against opponents who rely on maintaining close proximity and deep underhook control, as the forward drive and crossface pressure work to collapse their guard structure from above.
 
@@ -212,17 +249,19 @@ The knee slice from deep half guard serves as a critical escape-to-offense tool 
 
 - [[Transitions/Homer Simpson Sweep]] - Dangerous counter-sweep the bottom player can execute during knee slice
 
-- [[Transitions/Knee Slice from DLR]] - Related knee slice variation from a different guard position
-
-- [[Transitions/Knee Slice from Butterfly Half]] - Related knee slice variation sharing similar mechanics
-
-- [[Transitions/Knee Cut from Headquarters]] - Continuation technique if leg extraction transitions through headquarters
-
 - [[Positions/Half Guard]] - Position that may result from incomplete pass or opponent's guard recovery
+
+- [[Positions/Headquarters Position]] - Intermediate position the leg may transition through during extraction
 
 - [[Transitions/Deep Half Entry from Half Guard]] - Transition the bottom player uses to re-enter deep half if pass stalls
 
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Defensive structure the bottom player may use to halt the knee slice
+
+- [[Positions/Mount]] - Alternative finishing position when continuing the slice past side control
+
 
 </section>
+
+
 
 </main>

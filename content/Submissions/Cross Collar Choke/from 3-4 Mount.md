@@ -10,10 +10,55 @@ description: "Master the cross collar choke from 3-4 mount in BJJ. Complete guid
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Cross Collar Choke from 3-4 Mount targets the Carotid arteries. Risk: Carotid artery compression leading to temporary loss of consciousness. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Cross Collar Choke from 3-4 Mount",
+  "description": "Master the cross collar choke from 3-4 mount in BJJ. Complete guide covering grip mechanics, finishing details, and defensive counters for gi grapplers.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Cross Collar Choke from 3-4 Mount", "item": "https://bjjgraph.org/Submissions/Cross-Collar-Choke-from-3-4-Mount" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Cross Collar Choke from 3-4 Mount",
+  "description": "The cross collar choke from 3-4 mount is a gi blood choke where the asymmetric mount's posted-leg base lets the attacker commit both hands to deep cross-collar grips, compressing both carotid arteries to force the tap.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The cross collar choke from 3-4 mount is a gi blood choke where the asymmetric mount's posted-leg base lets the attacker commit both hands to deep cross-collar grips, compressing both carotid arteries to force the tap.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries</span>
+<span class="meta-chip">58% success</span>
+</div>
+
+> [!danger] Safety
+> Cross Collar Choke from 3-4 Mount targets the Carotid arteries. Primary risk: Carotid artery compression leading to temporary loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,51 +75,7 @@ Strategically, this submission functions as a high-pressure finishing tool withi
 
 The 3-4 mount also allows the attacker to use their posted leg to drive forward pressure during the finishing sequence, amplifying the choking force while maintaining balance. This makes the choke particularly dangerous against opponents who rely on bridging as their primary mount escape, since the bridge actually tightens the collar across the neck when grips are already established. Competition footage consistently shows this as a high-percentage finish at the purple belt level and above.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries
-**Starting Position**: [[Positions/Mount/3-4 Mount]]
-**From Position**: [[Positions/Mount/3-4 Mount]] (Top)
-**Success Rate**: 58%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Carotid artery compression leading to temporary loss of consciousness | High | Immediate recovery if released promptly; potential for serious injury if held past unconsciousness |
-| Trachea damage from improper hand placement centering pressure on the windpipe | Medium | 1-2 weeks for minor irritation; months for severe cartilage damage |
-| Neck strain from defensive bridging and turning reactions under pressure | Low | 3-7 days |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum application time in training
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any verbal signal)
-- Physical hand tap on partner's body or mat
-- Physical foot tap on mat or partner
-- Any distress signal including facial expressions or loss of resistance
-
-
-**Release Protocol**:
-1. Immediately release both collar grips upon tap signal
-2. Open mount and disengage controlling position to allow recovery
-3. Allow partner space to recover breathing and circulation
-4. Check partner's alertness and ensure full recovery before continuing
-
-
-**Training Restrictions**:
-- Never apply full choking pressure during initial learning phases - focus on grip mechanics first
-- Never hold the choke past the tap signal under any circumstances
-- Never use competition speed or intensity in basic drilling
-- Never practice on partners with neck or circulation issues without instructor supervision
-- Always ensure partner has clear access to tap with hands or feet
-
+**Starting Position**: [[Positions/Mount/3-4 Mount]] · **From**: [[Positions/Mount/3-4 Mount]] (Top)
 
 </section>
 
@@ -217,40 +218,60 @@ The 3-4 mount also allows the attacker to use their posted leg to drive forward 
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Cross Collar Choke]]
 - [[Submissions/Ezekiel Choke]]
 - [[Submissions/Americana]]
 - [[Transitions/Arm Triangle]]
 - [[Submissions/Bow and Arrow Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Mount/3-4 Mount]] - Starting position for this submission variant
 - [[Positions/Mount]] - Parent position family for mount-based chokes
-- [[Submissions/Cross Collar Choke]] - Parent submission - generic cross collar choke technique
 - [[Positions/Mount/High Mount]] - Alternative mount position for collar choke attacks
 - [[Positions/Closed Guard]] - Common escape destination when choke attempt is countered
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Carotid artery compression leading to temporary loss of consciousness | High | Immediate recovery if released promptly; potential for serious injury if held past unconsciousness |
+| Trachea damage from improper hand placement centering pressure on the windpipe | Medium | 1-2 weeks for minor irritation; months for severe cartilage damage |
+| Neck strain from defensive bridging and turning reactions under pressure | Low | 3-7 days |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum application time in training
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any verbal signal)
+- Physical hand tap on partner's body or mat
+- Physical foot tap on mat or partner
+- Any distress signal including facial expressions or loss of resistance
+
+
+**Release Protocol**:
+1. Immediately release both collar grips upon tap signal
+2. Open mount and disengage controlling position to allow recovery
+3. Allow partner space to recover breathing and circulation
+4. Check partner's alertness and ensure full recovery before continuing
+
+
+**Training Restrictions**:
+- Never apply full choking pressure during initial learning phases - focus on grip mechanics first
+- Never hold the choke past the tap signal under any circumstances
+- Never use competition speed or intensity in basic drilling
+- Never practice on partners with neck or circulation issues without instructor supervision
+- Always ensure partner has clear access to tap with hands or feet
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Cross Collar Choke from 3-4 Mount leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

@@ -10,6 +10,41 @@ description: "Master the Knee Shield to Closed Guard recovery in BJJ. Complete g
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Knee Shield to Closed Guard",
+  "description": "Master the Knee Shield to Closed Guard recovery in BJJ. Complete guide covering leg extraction, hip mechanics, and guard closure from half guard bottom.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Knee Shield to Closed Guard", "item": "https://bjjgraph.org/Transitions/Knee-Shield-to-Closed-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Knee Shield to Closed Guard",
+  "description": "Knee Shield to Closed Guard is a bottom-player half guard recovery in which the knee shield frame creates the distance to thread the trapped leg free and lock full closed guard, upgrading from a defensive frame to an offensive sweep-and-submission platform.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Knee Shield to Closed Guard recovery in BJJ. Complete g
 </div>
 
 <section id="overview" class="content-section">
+
+**Knee Shield to Closed Guard is a bottom-player half guard recovery in which the knee shield frame creates the distance to thread the trapped leg free and lock full closed guard, upgrading from a defensive frame to an offensive sweep-and-submission platform.**
 
 The Knee Shield to Closed Guard transition is a fundamental guard recovery technique where the bottom player leverages their knee shield frame to create the space necessary for extracting their trapped leg and establishing full closed guard around the opponent's waist. This represents a strategic position upgrade—moving from the half guard family, where one leg remains entangled, to the closed guard system where both legs wrap the opponent and create a complete control circuit. The technique is particularly valuable when offensive options from knee shield are limited and the practitioner seeks the superior sweep and submission platforms that closed guard offers.
 
@@ -216,5 +253,7 @@ The Knee Shield to Closed Guard transition occupies a critical junction in the h
 
 
 </section>
+
+
 
 </main>

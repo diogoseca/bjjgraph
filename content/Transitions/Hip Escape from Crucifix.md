@@ -10,6 +10,41 @@ description: "Master the hip escape from crucifix in BJJ. Complete guide to shri
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Hip Escape from Crucifix",
+  "description": "Master the hip escape from crucifix in BJJ. Complete guide to shrimping mechanics, arm extraction timing, and turtle recovery from bottom position.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Hip Escape from Crucifix", "item": "https://bjjgraph.org/Transitions/Hip-Escape-from-Crucifix" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Hip Escape from Crucifix",
+  "description": "The Hip Escape from Crucifix is a methodical bottom escape that uses lateral shrimping to change the leg-trap angle, generate slack around the trapped arm, and extract it to recover turtle from one of grappling's most dominant pins.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the hip escape from crucifix in BJJ. Complete guide to shri
 </div>
 
 <section id="overview" class="content-section">
+
+**The Hip Escape from Crucifix is a methodical bottom escape that uses lateral shrimping to change the leg-trap angle, generate slack around the trapped arm, and extract it to recover turtle from one of grappling's most dominant pins.**
 
 The hip escape from crucifix is a fundamental defensive technique for recovering from one of BJJ's most dominant control positions. When trapped in crucifix with both arms compromised—one caught in the opponent's leg triangle and the other controlled by their hands—the hip escape uses the shrimping motion to change the angle of entrapment and create space for arm extraction. The technique prioritizes systematic hip movement over brute strength, exploiting the geometric relationship between hip angle and leg trap tightness.
 
@@ -226,5 +263,7 @@ The hip escape from crucifix integrates into the broader crucifix survival frame
 
 
 </section>
+
+
 
 </main>

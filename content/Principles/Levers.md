@@ -142,20 +142,35 @@ description: "Master fundamental leverage mechanics in BJJ. Learn fulcrum positi
 }
 </script>
 
-> Levers is a medium complexity BJJ principle applicable at the Fundamental level. Develop over Beginner to Advanced.
 
-**Application Level**: Fundamental
-**Complexity**: Medium
-**Development Timeline**: Beginner to Advanced
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Levers",
+  "description": "Levers are the biomechanical principle of using a rigid body segment pivoting around a fulcrum to multiply force, letting a smaller practitioner overcome a stronger opponent through optimal angles and arm-length ratios rather than muscular strength.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Fundamental</span>
+<span class="meta-chip">Medium complexity</span>
+<span class="meta-chip">Beginner to Advanced</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
 
-## What is Levers?
+## What are Levers?
 
-Levers represent the fundamental biomechanical framework of using mechanical advantage to multiply force application, enabling practitioners to overcome size, strength, and weight disadvantages through optimal positioning, angle creation, and efficient force vectors. Unlike specific techniques, leverage principles are comprehensive conceptual frameworks that apply across all positions, submissions, sweeps, and control scenarios in BJJ. This concept encompasses the physics of fulcrums, lever arms, force multiplication, and compound leverage systems, serving as both the theoretical foundation for technique effectiveness and the practical methodology for efficient movement. The ability to recognize and create leverage opportunities often determines whether techniques succeed against stronger opponents, making it one of the most essential conceptual elements in Brazilian Jiu-Jitsu. Leverage principles explain why smaller practitioners can control larger opponents and why proper technique overcomes strength.
+**Levers are the biomechanical principle of using a rigid body segment pivoting around a fulcrum to multiply force, letting a smaller practitioner overcome a stronger opponent through optimal angles and arm-length ratios rather than muscular strength.**
+
+Among the conceptual foundations of Brazilian Jiu-Jitsu, leverage occupies a privileged place: it is the physics that explains why the art rewards technique over athleticism and why a well-positioned grappler can dismantle a far stronger one. Unlike specific techniques, leverage principles are comprehensive conceptual frameworks that apply across all positions, submissions, sweeps, and control scenarios in BJJ. This concept encompasses the physics of fulcrums, lever arms, force multiplication, and compound leverage systems, serving as both the theoretical foundation for technique effectiveness and the practical methodology for efficient movement. The ability to recognize and create leverage opportunities often determines whether techniques succeed against stronger opponents, making it one of the most essential conceptual elements in Brazilian Jiu-Jitsu. Leverage principles explain why smaller practitioners can control larger opponents and why proper technique overcomes strength.
 
 </section>
 
@@ -379,6 +394,17 @@ Flow rolling with constraint that techniques must be abandoned immediately when 
 - [[Hip Escape Mechanics]] (Principle) - Hip escapes leverage fulcrum repositioning to create space and recover guard, demonstrating leverage principles applied defensively from bottom positions
 - [[Posture]] (Principle) - Relies fundamentally on leverage to create fulcrum points and apply force through favorable lever arm ratios to overcome opponent's structural stability
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Straight-Footlock-to-Kneebar-Chain" data-cta="related-system-card" data-system-slug="systems/straight-footlock-to-kneebar-chain" data-system-name="Straight Footlock to Kneebar Chain" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Straight Footlock to Kneebar Chain</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Biomechanical leverage principles underlying both submissions in chain</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Roger-Gracie-Fundamental-System" data-cta="related-system-card" data-system-slug="systems/roger-gracie-fundamental-system" data-system-name="Roger Gracie Fundamental System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Roger Gracie Fundamental System</span><span class="system-card__unlocks-badge">Unlocks 22 techniques</span><span class="system-card__blurb">Explains why fundamental techniques work - Roger maximized leverage in every position</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

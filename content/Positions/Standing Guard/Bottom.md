@@ -21,7 +21,7 @@ description: "Master Standing Guard Bottom in BJJ. Defensive position with dista
     {
       "@type": "HowToStep",
       "name": "Execute Pull guard",
-      "text": "From this position, attempt Pull guard. This technique is attempted in 36% of exchanges from this position.",
+      "text": "From this position, attempt Pull guard. This technique is attempted in 37% of exchanges from this position.",
       "position": 1
     },
     {
@@ -373,6 +373,16 @@ Start standing with grips engaged. Bottom player must successfully pull guard to
 - **[[Transitions/Sitting Guard Pull]]** - Essential transition to seated guard positions
 - **[[Positions/Front Headlock]]** - Position to achieve after successful snap-down
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Standing-Defense-Strategy" data-cta="related-system-card" data-system-slug="systems/standing-defense-strategy" data-system-name="Standing Defense Strategy" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Standing Defense Strategy</span><span class="system-card__unlocks-badge">Unlocks 27 techniques</span><span class="system-card__blurb">Position that bridges standing exchanges and guard play</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

@@ -10,6 +10,41 @@ description: "Master the hip escape from Russian Cowboy in BJJ. Learn systematic
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Hip Escape from Russian Cowboy",
+  "description": "Master the hip escape from Russian Cowboy in BJJ. Learn systematic escape mechanics, frame creation, and half guard recovery from single-hook back control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Hip Escape from Russian Cowboy", "item": "https://bjjgraph.org/Transitions/Hip-Escape-from-Russian-Cowboy" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Hip Escape from Russian Cowboy",
+  "description": "The Hip Escape from Russian Cowboy is a defensive escape where the bottom player frames, controls the hooking ankle, and shrimps toward the opponent's free-leg side to clear the single hook and recover half guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the hip escape from Russian Cowboy in BJJ. Learn systematic
 </div>
 
 <section id="overview" class="content-section">
+
+**The Hip Escape from Russian Cowboy is a defensive escape where the bottom player frames, controls the hooking ankle, and shrimps toward the opponent's free-leg side to clear the single hook and recover half guard.**
 
 The Hip Escape from Russian Cowboy is a fundamental defensive technique that addresses the unique challenges of escaping single-hook back control. Unlike escapes from traditional back control where both hooks must be addressed symmetrically, this escape exploits the asymmetric nature of the Russian Cowboy's single-hook configuration by directing movement toward the opponent's free leg side. The bottom player uses systematic framing, controlled hip escape movement, and precise hook management to transition from a dangerous back exposure position into the relative safety of Half Guard, where the previously hooking leg becomes the trapped leg.
 
@@ -210,8 +247,6 @@ The Hip Escape from Russian Cowboy occupies a critical role in the defensive hie
 
 - [[Transitions/Escape from Russian Cowboy]] - Related escape technique with alternative recovery targets
 
-- [[Transitions/Hip Escape from Back Control]] - Similar escape technique from traditional back control position
-
 - [[Positions/Back Control]] - Related dominant position sharing similar escape mechanics
 
 - [[Transitions/Arm Extraction to Turtle]] - Primary alternative escape from Russian Cowboy targeting turtle recovery
@@ -224,5 +259,7 @@ The Hip Escape from Russian Cowboy occupies a critical role in the defensive hie
 
 
 </section>
+
+
 
 </main>

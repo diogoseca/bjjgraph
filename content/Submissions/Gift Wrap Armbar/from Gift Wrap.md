@@ -10,10 +10,55 @@ description: "Master the Gift Wrap Armbar in BJJ. Complete guide to attacking th
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Gift Wrap Armbar from Gift Wrap targets the Elbow joint. Risk: Elbow hyperextension causing damage to the ulnar collateral ligament, radial collateral ligament, or joint capsule. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Gift Wrap Armbar from Gift Wrap",
+  "description": "Master the Gift Wrap Armbar in BJJ. Complete guide to attacking the isolated arm from gift wrap control with finishing mechanics, defenses, and safety.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Gift Wrap Armbar from Gift Wrap", "item": "https://bjjgraph.org/Submissions/Gift-Wrap-Armbar-from-Gift-Wrap" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Gift Wrap Armbar from Gift Wrap",
+  "description": "The Gift Wrap Armbar is a joint lock that hyperextends the opponent's free elbow from gift wrap back control, exploiting the trapped arm to strip away half their armbar defense for a high-percentage finish.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Gift Wrap Armbar is a joint lock that hyperextends the opponent's free elbow from gift wrap back control, exploiting the trapped arm to strip away half their armbar defense for a high-percentage finish.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Arm Lock</span>
+<span class="meta-chip">Targets Elbow joint</span>
+<span class="meta-chip">50% success</span>
+</div>
+
+> [!danger] Safety
+> Gift Wrap Armbar from Gift Wrap targets the Elbow joint. Primary risk: Elbow hyperextension causing damage to the ulnar collateral ligament, radial collateral ligament, or joint capsule. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -24,56 +69,13 @@ description: "Master the Gift Wrap Armbar in BJJ. Complete guide to attacking th
 
 <section id="overview" class="content-section">
 
-The Gift Wrap Armbar is a high-percentage joint lock submission that exploits the fundamental asymmetry created by gift wrap arm control. When one of the opponent's arms is trapped across their body in the gift wrap configuration, their remaining free arm becomes isolated and vulnerable to armbar attacks. This submission capitalizes on the opponent's inability to use both arms defensively, transforming dominant positional control into a finishing opportunity that is exceptionally difficult to defend.
+Emerging from dominant back control and mounted positions, the Gift Wrap Armbar weaponizes the arm-trap asymmetry that defines gift wrap control. When one of the opponent's arms is trapped across their body in the gift wrap configuration, their remaining free arm becomes isolated and vulnerable to armbar attacks. This submission capitalizes on the opponent's inability to use both arms defensively, transforming dominant positional control into a finishing opportunity that is exceptionally difficult to defend.
 
 The technique operates on a simple biomechanical principle: the elbow joint can only withstand force in one direction. By securing the free arm with a two-on-one grip and positioning the hips beneath the elbow as a fulcrum, the attacker creates a lever system where even moderate hip elevation generates sufficient force to hyperextend the joint. The gift wrap arm trap removes the opponent's primary defense mechanism, reducing the armbar defense to a single-arm problem that heavily favors the attacker.
 
 Strategically, the Gift Wrap Armbar functions as part of a broader submission chain from dominant back control and mounted positions. It pairs naturally with choke attacks: when the opponent defends the neck with their free arm, that arm extends and becomes vulnerable to the armbar. When they retract the arm to defend the armbar, the neck opens for choke entries. This binary creates an offensive dilemma that makes the gift wrap one of the most effective submission setups in modern grappling.
 
-**Category**: Joint Lock
-**Type**: Arm Lock
-**Target Area**: Elbow joint
-**Starting Position**: [[Positions/Gift Wrap]]
-**From Position**: [[Positions/Gift Wrap]] (Top)
-**Success Rate**: 50%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Elbow hyperextension causing damage to the ulnar collateral ligament, radial collateral ligament, or joint capsule | High | 4-12 weeks for mild sprain, 3-6 months for ligament tear, surgical repair may require 6-12 months |
-| Shoulder strain on the trapped arm from sustained gift wrap pressure combined with body rotation during armbar transition | Medium | 1-4 weeks for mild strain, 4-8 weeks for moderate rotator cuff irritation |
-| Radial nerve compression from prolonged forearm pressure during wrist control phase of the armbar | Low | Hours to days for temporary numbness, 2-4 weeks if nerve irritation persists |
-
-
-**Application Speed**: MODERATE to SLOW. The armbar extension phase must be applied progressively with controlled hip elevation. Never jerk, spike, or explosively extend the arm. Allow the opponent time to recognize the submission and tap before reaching full extension. The transition from gift wrap control to armbar position can be executed at normal speed, but the finishing pressure must always be gradual.
-
-**Tap Signals**:
-- Verbal tap saying 'tap' or any distress vocalization
-- Physical hand tap on partner, own body, or mat with free hand
-- Physical foot tap on mat or partner with either leg
-- Any unusual screaming, grunting, or verbal distress signal
-
-
-**Release Protocol**:
-1. Release all hip pressure immediately upon any tap signal before releasing arm grip
-2. Lower hips completely and open leg clamp before releasing wrist control
-3. If opponent cannot tap verbally or physically due to position, watch for body tension changes and release if in doubt
-4. Return to neutral position and allow partner to assess arm condition before continuing
-
-
-**Training Restrictions**:
-- Apply finishing extension at 50% speed or slower during drilling and allow training partner to tap early
-- White and blue belts should practice the setup and transition without applying full finishing pressure
-- Never crank or bounce the armbar extension to overcome resistance during training
-- Partners with previous elbow injuries should communicate limitations before drilling this technique
-
+**Starting Position**: [[Positions/Gift Wrap]] · **From**: [[Positions/Gift Wrap]] (Top)
 
 </section>
 
@@ -239,10 +241,9 @@ Strategically, the Gift Wrap Armbar functions as part of a broader submission ch
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/Mounted Crucifix Armbar]]
@@ -250,34 +251,53 @@ Strategically, the Gift Wrap Armbar functions as part of a broader submission ch
 - [[Submissions/Americana]]
 - [[Submissions/Bow and Arrow Choke]]
 - [[Submissions/Choke from Crucifix]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Gift Wrap]] - Primary source position providing the arm trap control that enables this submission
 - [[Positions/Back Control]] - Parent position from which gift wrap control is most commonly established
 - [[Positions/Mount]] - Alternative base position for executing the gift wrap armbar after positional advancement
 - [[Positions/Mount/Technical Mount]] - Transitional position that facilitates the hip angle change needed for armbar entry
-- [[Submissions/Far Side Armbar]] - Related armbar submission sharing similar finishing mechanics and elbow hyperextension principle
-- [[Submissions/Rear Naked Choke]] - Primary choke alternative from gift wrap that creates the armbar-choke dilemma chain
 - [[Positions/Crucifix]] - Alternative arm control position that creates similar isolation for armbar attacks
 - [[Positions/Armbar Control]] - Control position reached during execution when the armbar is partially locked but not yet finished
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Elbow hyperextension causing damage to the ulnar collateral ligament, radial collateral ligament, or joint capsule | High | 4-12 weeks for mild sprain, 3-6 months for ligament tear, surgical repair may require 6-12 months |
+| Shoulder strain on the trapped arm from sustained gift wrap pressure combined with body rotation during armbar transition | Medium | 1-4 weeks for mild strain, 4-8 weeks for moderate rotator cuff irritation |
+| Radial nerve compression from prolonged forearm pressure during wrist control phase of the armbar | Low | Hours to days for temporary numbness, 2-4 weeks if nerve irritation persists |
+
+
+**Application Speed**: MODERATE to SLOW. The armbar extension phase must be applied progressively with controlled hip elevation. Never jerk, spike, or explosively extend the arm. Allow the opponent time to recognize the submission and tap before reaching full extension. The transition from gift wrap control to armbar position can be executed at normal speed, but the finishing pressure must always be gradual.
+
+**Tap Signals**:
+- Verbal tap saying 'tap' or any distress vocalization
+- Physical hand tap on partner, own body, or mat with free hand
+- Physical foot tap on mat or partner with either leg
+- Any unusual screaming, grunting, or verbal distress signal
+
+
+**Release Protocol**:
+1. Release all hip pressure immediately upon any tap signal before releasing arm grip
+2. Lower hips completely and open leg clamp before releasing wrist control
+3. If opponent cannot tap verbally or physically due to position, watch for body tension changes and release if in doubt
+4. Return to neutral position and allow partner to assess arm condition before continuing
+
+
+**Training Restrictions**:
+- Apply finishing extension at 50% speed or slower during drilling and allow training partner to tap early
+- White and blue belts should practice the setup and transition without applying full finishing pressure
+- Never crank or bounce the armbar extension to overcome resistance during training
+- Partners with previous elbow injuries should communicate limitations before drilling this technique
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Gift Wrap Armbar from Gift Wrap leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

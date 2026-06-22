@@ -10,9 +10,48 @@ description: "Master Knee on Belly in BJJ. Strategic control position balancing 
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Knee on Belly",
+  "description": "Master Knee on Belly in BJJ. Strategic control position balancing mobility with pressure. Complete guide covering both top control and bottom escapes.",
+  "alternateName": ["Knee Mount", "Knee on Stomach", "Knee on Chest", "KOB", "Uki Gatame", "Joelho na Barriga"],
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Knee on Belly", "item": "https://bjjgraph.org/Positions/Knee-on-Belly" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Knee on Belly",
+  "description": "Knee on Belly is a mobile top control position where one practitioner drives a knee across the opponent's torso while posting the other leg wide, trading static stability for rapid transitions, point-scoring pressure, and submission threats.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Knee Mount</strong>, <strong>Knee on Stomach</strong>, <strong>Knee on Chest</strong>, <strong>KOB</strong>, <strong>Uki Gatame</strong>, <strong>Joelho na Barriga</strong></p>
+</aside>
 <div class="role-links">
 
 [[Knee on Belly/Bottom|Play as Bottom]]
@@ -22,7 +61,9 @@ description: "Master Knee on Belly in BJJ. Strategic control position balancing 
 
 <section id="overview" class="content-section">
 
-Knee on Belly is a dynamic control position in Brazilian Jiu-Jitsu where one practitioner places their knee on the opponent's torso while maintaining a mobile base. This position uniquely combines high pressure with exceptional mobility, creating a transitional platform that scores points while setting up submissions and positional advancements. Unlike static control positions such as mount or side control, Knee on Belly requires continuous weight adjustments and active pressure management. The position creates a strategic dilemma for the bottom player: defend against submissions, prevent transitions to more dominant positions, or alleviate the crushing diaphragm pressure. From the top perspective, this position offers point-scoring opportunities, submission threats, and rapid transition potential to mount, back control, or north-south. From the bottom perspective, it represents a high-risk defensive scenario requiring immediate escape protocols combining frame creation, hip movement, and systematic re-guard strategies. The position exemplifies the principle of dynamic control over static dominance, rewarding practitioners who master the balance between pressure application and transitional readiness. The top player's knee acts as a fulcrum through which bodyweight is channeled into the bottom player's solar plexus, creating respiratory distress that forces panicked defensive reactions. These reactions — pushing with extended arms, turning away, bridging — each open specific attack pathways that a prepared top player can exploit. The bottom player must recognize that every second spent flat under this pressure compounds the disadvantage, making immediate and systematic escape attempts essential. Understanding both perspectives transforms Knee on Belly from a simple pressure position into a complex strategic node within the positional hierarchy.
+**Knee on Belly is a mobile top control position where one practitioner drives a knee across the opponent's torso while posting the other leg wide, trading static stability for rapid transitions, point-scoring pressure, and submission threats.**
+
+Within the BJJ positional hierarchy, Knee on Belly occupies a distinctive role because it prioritizes mobility as much as dominance, sitting between side control and mount as an aggressive launching point. This position uniquely combines high pressure with exceptional mobility, creating a transitional platform that scores points while setting up submissions and positional advancements. Unlike static control positions such as mount or side control, Knee on Belly requires continuous weight adjustments and active pressure management. The position creates a strategic dilemma for the bottom player: defend against submissions, prevent transitions to more dominant positions, or alleviate the crushing diaphragm pressure. From the top perspective, this position offers point-scoring opportunities, submission threats, and rapid transition potential to mount, back control, or north-south. From the bottom perspective, it represents a high-risk defensive scenario requiring immediate escape protocols combining frame creation, hip movement, and systematic re-guard strategies. The position exemplifies the principle of dynamic control over static dominance, rewarding practitioners who master the balance between pressure application and transitional readiness. The top player's knee acts as a fulcrum through which bodyweight is channeled into the bottom player's solar plexus, creating respiratory distress that forces panicked defensive reactions. These reactions — pushing with extended arms, turning away, bridging — each open specific attack pathways that a prepared top player can exploit. The bottom player must recognize that every second spent flat under this pressure compounds the disadvantage, making immediate and systematic escape attempts essential. Understanding both perspectives transforms Knee on Belly from a simple pressure position into a complex strategic node within the positional hierarchy.
 
 </section>
 
@@ -177,15 +218,15 @@ Knee on Belly is a dynamic control position in Brazilian Jiu-Jitsu where one pra
 ### Available Transitions
 
 
-- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (33% of attempts)
+- **[[Transitions/KOB to Mount/Attacker|KOB to Mount]]** (25% of attempts)
 
-- **[[Transitions/Far Side Armbar from KOB/Attacker|Far Side Armbar from KOB]]** (13% of attempts)
+- **[[Transitions/Far Side Armbar from KOB/Attacker|Far Side Armbar from KOB]]** (14% of attempts)
 
-- **[[Baseball Bat Choke from Knee on Belly/Attacker|Baseball Bat Choke from Knee on Belly]]** (11% of attempts)
-
-- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (10% of attempts)
+- **[[Baseball Bat Choke from Knee on Belly/Attacker|Baseball Bat Choke from Knee on Belly]]** (12% of attempts)
 
 - **[[Cross Collar Choke from Knee on Belly/Attacker|Cross Collar Choke from Knee on Belly]]** (11% of attempts)
+
+- **[[Transitions/KOB to Side Control/Attacker|KOB to Side Control]]** (8% of attempts)
 
 - **[[Kimura from Knee on Belly/Attacker|Kimura from Knee on Belly]]** (7% of attempts)
 
@@ -193,9 +234,9 @@ Knee on Belly is a dynamic control position in Brazilian Jiu-Jitsu where one pra
 
 - **[[Transitions/S-Mount Transition/Attacker|S-Mount Transition]]** (6% of attempts)
 
-- **[[Transitions/KOB to Mount/Attacker|KOB to Mount]]** (1% of attempts)
+- **[[Armbar from Knee on Belly/Attacker|Armbar from Knee on Belly]]** (5% of attempts)
 
-- **[[Transitions/KOB to Side Control/Attacker|KOB to Side Control]]** (1% of attempts)
+- **[[Belly Down Armbar from Knee on Belly/Attacker|Belly Down Armbar from Knee on Belly]]** (5% of attempts)
 
 
 ### Common Mistakes
@@ -250,6 +291,22 @@ Knee on Belly is a dynamic control position in Brazilian Jiu-Jitsu where one pra
 
 - **[[Positions/Open Guard]]** - Re-guard destination requiring frame creation and hip escape execution
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/IBJJF-Strategy-Guide" data-cta="related-system-card" data-system-slug="systems/ibjjf-strategy-guide" data-system-name="IBJJF Strategy Guide" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">IBJJF Strategy Guide</span><span class="system-card__unlocks-badge">Unlocks 27 techniques</span><span class="system-card__blurb">2-point scoring position useful for accumulating points and advantages</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/MMA-Crossover-Strategy" data-cta="related-system-card" data-system-slug="systems/mma-crossover-strategy" data-system-name="MMA Crossover Strategy" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">MMA Crossover Strategy</span><span class="system-card__unlocks-badge">Unlocks 27 techniques</span><span class="system-card__blurb">Top pressure position for strikes and quick submission transitions</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Blue-to-Purple-Progression" data-cta="related-system-card" data-system-slug="systems/blue-to-purple-progression" data-system-name="Blue to Purple Progression" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Blue to Purple Progression</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Transitional control position useful for maintaining top pressure while setting up submissions</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Competition-Scoring-Strategy" data-cta="related-system-card" data-system-slug="systems/competition-scoring-strategy" data-system-name="Competition Scoring Strategy" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Competition Scoring Strategy</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">2-point scoring position with transition advantages to mount or back</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Roger-Gracie-Fundamental-System" data-cta="related-system-card" data-system-slug="systems/roger-gracie-fundamental-system" data-system-name="Roger Gracie Fundamental System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Roger Gracie Fundamental System</span><span class="system-card__unlocks-badge">Unlocks 22 techniques</span><span class="system-card__blurb">Transitional position in Roger&#x27;s system - used briefly during advancement to more dominant positions</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Defensive-Prioritization-Framework" data-cta="related-system-card" data-system-slug="systems/defensive-prioritization-framework" data-system-name="Defensive Prioritization Framework" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Defensive Prioritization Framework</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Medium threat position requiring specific defensive response within framework</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Self-Defense-Application-Framework" data-cta="related-system-card" data-system-slug="systems/self-defense-application-framework" data-system-name="Self-Defense Application Framework" data-member-count="18"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Self-Defense Application Framework</span><span class="system-card__unlocks-badge">Unlocks 18 techniques</span><span class="system-card__blurb">Mobile top control position allowing rapid disengagement and environmental awareness</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

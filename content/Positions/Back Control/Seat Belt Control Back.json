@@ -3,6 +3,7 @@
   "slug": "seat-belt-control-back",
   "description": "Master Seat Belt Control from Back position in BJJ. Dominant 4-point configuration with 75% retention rate covering grips, hooks, and submission chains from both perspectives.",
   "variant_uniqueness": "Diagonal over-under grip prevents rotation",
+  "summary": "Seat Belt Control is the dominant back-control configuration in which one arm crosses over the opponent's shoulder and the other threads under the far armpit, hands joined across the chest while both hooks pin the hips.",
   "overview": "Seat Belt Control Back represents the gold standard configuration for back control, characterized by a diagonal over-under grip across opponent's chest and back combined with both legs hooked inside opponent's thighs. This position scores 4 points in IBJJF competition and offers the highest submission success rates in Brazilian Jiu-Jitsu, particularly for the rear naked choke and various armbar attacks. The seat belt grip configuration creates a powerful control structure that prevents opponent's rotation while enabling smooth transitions between multiple submission threats.\n\nThe position's strategic value derives from the combination of grip control, hook placement, and body positioning that severely limits opponent's defensive options while maximizing attacker's offensive opportunities. Unlike other back control configurations, the seat belt specifically uses one arm over opponent's shoulder and the other under their armpit, creating diagonal pressure across their body that is extremely difficult to break. This control framework enables the practitioner to maintain dominant position for extended periods while systematically attacking submissions.\n\nFrom both perspectives, this position demands technical precision and strategic awareness. The top player must maintain constant pressure and grip security while creating submission opportunities through defensive reactions. The bottom player faces one of the most dangerous positions in grappling, requiring calm defensive protocols, systematic grip breaking, and intelligent escape sequences. Understanding both perspectives provides complete mastery of this fundamental back control configuration.\n\nThe seat belt grip itself functions as a force multiplier. The over-arm creates downward diagonal pressure while the under-arm creates upward diagonal pressure, and these opposing vectors lock opponent's torso in place far more effectively than parallel grips would. This biomechanical reality explains why the seat belt has become universal across all competition formats. Breaking this grip requires addressing each arm independently, which creates the fundamental timing dilemma for the bottom player: releasing neck defense to fight grips exposes the throat, while ignoring grips allows the top player to maintain indefinite control and systematically work toward finishes.",
   "key_principles": [
     "Diagonal grip dominance creates biomechanically superior control through opposing force vectors",
@@ -594,7 +595,7 @@
     "transitions": [
       {
         "transition": "Hand Fighting from Back",
-        "attempt_probability": 45
+        "attempt_probability": 43
       },
       {
         "transition": "Back Door Escape",
@@ -622,11 +623,11 @@
       },
       {
         "transition": "Escape Seat Belt Control",
-        "attempt_probability": 0
+        "attempt_probability": 1
       },
       {
         "transition": "Hand Fight from Seat Belt Control",
-        "attempt_probability": 0
+        "attempt_probability": 1
       },
       {
         "transition": "Seat Belt Peel Escape",

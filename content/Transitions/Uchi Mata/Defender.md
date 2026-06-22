@@ -105,6 +105,7 @@ description: "How to defend against Uchi Mata in BJJ. Recognition cues, defensiv
   "@type": "WebPage",
   "name": "Uchi Mata Defender",
   "description": "How to defend against Uchi Mata in BJJ. Recognition cues, defensive options, and escape strategies for the inner thigh throw.",
+  "alternateName": ["Inner Thigh Throw"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -150,6 +151,9 @@ description: "How to defend against Uchi Mata in BJJ. Recognition cues, defensiv
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Inner Thigh Throw</strong> <span class="role-hint">(defender)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 Defending Uchi Mata requires early recognition and decisive action because once the thrower commits to full rotation with proper kuzushi, the throw becomes extremely difficult to stop. The defender's primary goal is to prevent the attacker from achieving the conditions necessary for the throw: close hip contact, forward off-balancing, and the inner thigh sweep. Effective defense begins long before the throw itself, starting with grip fighting to deny dominant grips and maintaining a posture that keeps your center of gravity low and your hips away from the attacker's hip line. Understanding the mechanical requirements of Uchi Mata allows you to systematically remove each element the attacker needs. If you can deny hip contact, the throw has no fulcrum. If you can prevent forward kuzushi, there is no weight to sweep. If you can read the entry early enough, you can counter-attack before the rotation develops. The most dangerous moment is when the attacker has already stepped in and begun rotating. At this stage, your options narrow to sprawling, posting, or attempting a counter-throw. Developing the ability to recognize Uchi Mata entries early, ideally during the kuzushi phase before the step-in, gives you the maximum number of defensive options and the best chance of maintaining or improving your position.

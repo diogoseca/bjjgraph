@@ -10,6 +10,41 @@ description: "Master the collar drag from open guard in BJJ. Complete guide cove
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Collar Drag from Open Guard",
+  "description": "Master the collar drag from open guard in BJJ. Complete guide covering grip mechanics, timing windows, and systematic execution for front headlock control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Collar Drag from Open Guard", "item": "https://bjjgraph.org/Transitions/Collar-Drag-from-Open-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Collar Drag from Open Guard",
+  "description": "The collar drag from open guard is a bottom-player off-balancing technique that uses a deep collar grip to redirect a forward-leaning passer's momentum downward, collapsing their posture into a front headlock for the guard player.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the collar drag from open guard in BJJ. Complete guide cove
 
 <section id="overview" class="content-section">
 
-The collar drag from open guard is a high-percentage off-balancing technique where the bottom guard player uses a collar grip to pull the top player forward and down, creating the opportunity to come up into a front headlock position. This technique exploits a fundamental vulnerability in the standing or kneeling passer's posture: forward weight commitment during guard engagement becomes a liability when redirected through precise grip timing and explosive hip movement. The collar drag rewards reading your opponent's weight distribution rather than relying on raw strength, making it effective across all body types.
+**The collar drag from open guard is a bottom-player off-balancing technique that uses a deep collar grip to redirect a forward-leaning passer's momentum downward, collapsing their posture into a front headlock for the guard player.**
+
+Among open guard's off-balancing tools, the collar drag stands out as an energy-efficient path from bottom to top against forward-pressuring passers. This technique exploits a fundamental vulnerability in the standing or kneeling passer's posture: forward weight commitment during guard engagement becomes a liability when redirected through precise grip timing and explosive hip movement. The collar drag rewards reading your opponent's weight distribution rather than relying on raw strength, making it effective across all body types.
 
 The strategic value of the collar drag lies in its efficiency as a position-reversal mechanism. Unlike sweeps requiring complex mechanical setups with multiple grips and hooks, the collar drag leverages the opponent's own forward energy against them. When the opponent commits weight forward to initiate a pass or establish grips, the guard player seizes the collar, sits up explosively while pulling diagonally downward, and circles to achieve front headlock control. This makes it particularly devastating against aggressive passers who lead with upper body pressure, and it creates a dilemma where passive engagement allows other guard attacks while forward commitment opens the drag.
 
@@ -202,9 +239,7 @@ The collar drag from open guard serves as a critical bridge between bottom guard
 
 - [[Transitions/Arm Drag]] - Complementary off-balancing technique creating similar angle opportunities from guard
 
-- [[Transitions/Guillotine Setup]] - Follow-up submission attack available from front headlock after successful drag
-
-- [[Transitions/Anaconda Setup]] - Alternative submission pathway from front headlock after collar drag success
+- [[Transitions/Anaconda Setup]] - Submission pathway from front headlock available after collar drag success
 
 - [[Transitions/Front Headlock to Back]] - Positional advancement option from front headlock achieved via collar drag
 
@@ -218,5 +253,7 @@ The collar drag from open guard serves as a critical bridge between bottom guard
 
 
 </section>
+
+
 
 </main>

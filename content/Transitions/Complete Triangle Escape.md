@@ -10,6 +10,41 @@ description: "Master the complete triangle escape in BJJ. Step-by-step guide to 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Complete Triangle Escape",
+  "description": "Master the complete triangle escape in BJJ. Step-by-step guide to posture recovery, stacking mechanics, and arm extraction for reliable triangle defense.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Complete Triangle Escape", "item": "https://bjjgraph.org/Transitions/Complete-Triangle-Escape" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Complete Triangle Escape",
+  "description": "The Complete Triangle Escape is the finishing sequence of triangle defense in which the trapped grappler stacks forward, circles toward the trapped-arm side, and rotates the arm free to break the lock and settle into closed guard top.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,13 +57,15 @@ description: "Master the complete triangle escape in BJJ. Step-by-step guide to 
 
 <section id="overview" class="content-section">
 
+**The Complete Triangle Escape is the finishing sequence of triangle defense in which the trapped grappler stacks forward, circles toward the trapped-arm side, and rotates the arm free to break the lock and settle into closed guard top.**
+
 The Complete Triangle Escape represents the definitive finishing sequence of triangle defense where the practitioner converts established defensive posture into full positional extraction, transitioning from immediate submission danger to closed guard top. Unlike intermediate defensive measures such as posture recovery or hip control that merely stabilize the position, this technique encompasses the entire escape chain from consolidated defensive structure through systematic dismantling of the triangle lock to complete arm and head extraction, culminating in guard engagement that prevents re-attack.
 
 This escape demands precise coordination of multiple mechanics operating simultaneously: sustained forward stacking pressure to compromise the opponent's hip elevation and triangle tightness, deliberate circular stepping toward the trapped arm side to progressively weaken the leg lock configuration, controlled rotational arm extraction that avoids triggering armbar counters, and immediate transition to closed guard engagement that prevents the opponent from re-establishing offensive threats. Each phase must execute in proper sequence because attempting to shortcut any step typically results in re-capture, tighter triangle re-lock, or exposure to secondary attacks including armbars and omoplatas.
 
 Strategic context positions this technique as the culmination of triangle defense methodology. While earlier defensive measures buy time and reduce immediate danger, the Complete Triangle Escape converts defensive survival into genuine positional improvement. The resulting closed guard top position, while not dominant, represents a massive improvement from submission danger and provides the platform for systematic guard passing. Understanding when defensive structure is sufficient to initiate the complete escape versus when further consolidation is needed separates competent triangle defenders from practitioners who repeatedly escape only to be re-caught in the same cycle.
 
-**From Position**: [[Positions/Triangle Escape Position]] (Bottom)
+**From Position**: [[Positions/Triangle Escape Position]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -226,5 +263,7 @@ The Complete Triangle Escape serves as the terminal node in the triangle defense
 
 
 </section>
+
+
 
 </main>

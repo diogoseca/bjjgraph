@@ -10,6 +10,41 @@ description: "Learn Counter-entangle to 50-50 Guard in BJJ. Defensive leg revers
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Counter-entangle to 50-50 Guard",
+  "description": "Learn Counter-entangle to 50-50 Guard in BJJ. Defensive leg reversal from Leg Knot to symmetric 50-50 position. Complete execution and defense guide.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Counter-entangle to 50-50 Guard", "item": "https://bjjgraph.org/Transitions/Counter-entangle-to-50-50-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Counter-entangle to 50-50 Guard",
+  "description": "Counter-entangle to 50-50 Guard is a defensive leg reversal from Leg Knot Bottom in which you thread your free leg through your opponent's legs to reach the symmetric 50-50 position, neutralizing their dominant entanglement and equalizing leg-lock threats.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Learn Counter-entangle to 50-50 Guard in BJJ. Defensive leg revers
 </div>
 
 <section id="overview" class="content-section">
+
+**Counter-entangle to 50-50 Guard is a defensive leg reversal from Leg Knot Bottom in which you thread your free leg through your opponent's legs to reach the symmetric 50-50 position, neutralizing their dominant entanglement and equalizing leg-lock threats.**
 
 The Counter-entangle to 50-50 Guard is a critical defensive transition used when caught in the bottom position of a leg knot entanglement. Rather than simply trying to escape the entanglement entirely, this technique uses the opponent's own leg control against them by weaving your free leg through their legs to achieve the symmetric 50-50 position. This transforms a defensive crisis into a neutral battleground where both practitioners have equal leg lock threats.
 
@@ -218,5 +255,7 @@ The Counter-entangle to 50-50 Guard sits within the broader leg entanglement def
 
 
 </section>
+
+
 
 </main>

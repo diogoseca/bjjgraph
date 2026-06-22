@@ -157,9 +157,19 @@ Submissions generate 3 pages: Hub, Attacker, Defender. Same attacker/defender pa
 
 ---
 
+## Answer-First Summary (Required)
+
+Every content type carries a **required** root-level `summary`: ONE self-contained sentence (~15-40 words) that DEFINES the entity, written answer-first so AI answer engines can quote it. It renders as a bold lead under the page heading plus a `DefinedTerm` JSON-LD block on canonical (hub/single) pages. The `overview` must NOT repeat it — start the overview with context/history instead.
+
+## Curation-Safe Regeneration
+
+`regenerate_content_json.py` enriches content via Claude without damaging the graph: it PRESERVES every `transitions[]` entry (positions) and `from_position` / `outcomes[].to` targets (transitions/submissions) — dropping a transition re-orphans a submission and is rejected (blocking retry). `attempt_probability` may be retuned; sums are auto-normalized to exactly 100 per role after Claude returns.
+
 ## Flashcards Guidelines
 
 The `flashcards` array (5-20 Q&A pairs) should be tailored to each content type's nature:
+
+**Authoring vs aggregation (hub/leaf):** flashcards are authored at the **leaf/role** level — `top`/`bottom` for positions, `attacker`/`defender` for transitions/submissions, or the flat root for principles/systems. **Hub pages aggregate** their children's cards at build time (`regenerate_graph.py` dedupes top+bottom; family hubs dedupe all variants); role/specific pages show only their own. Author cards on the leaves — never on a family hub.
 
 ### Positions = Stable States (Focus: RETENTION)
 

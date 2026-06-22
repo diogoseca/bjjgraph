@@ -10,6 +10,41 @@ description: "Master guard recovery from Inside Ashi-Garami. Complete guide cove
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Guard Recovery from Inside Ashi-Garami",
+  "description": "Master guard recovery from Inside Ashi-Garami. Complete guide covering leg disengagement timing, hip rotation mechanics, and guard recomposition.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Guard Recovery from Inside Ashi-Garami", "item": "https://bjjgraph.org/Transitions/Guard-Recovery-from-Inside-Ashi-Garami" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Guard Recovery from Inside Ashi-Garami",
+  "description": "Guard Recovery from Inside Ashi-Garami is the bottom player's escape from a failed leg entanglement—sequentially releasing the leg controls, framing on the opponent's hips, and rotating to recompose an active open guard before the opponent can pass or counter-entangle.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master guard recovery from Inside Ashi-Garami. Complete guide cove
 
 <section id="overview" class="content-section">
 
-Guard Recovery from Inside Ashi-Garami is a defensive transition where the bottom player abandons a failing leg entanglement to reestablish open guard. When submission attempts from Inside Ashi-Garami are successfully defended and the opponent begins extracting their heel or stepping over the inside leg, the bottom player must release the entanglement and recover to a functional guard rather than holding a compromised position. This recovery requires disengaging leg controls while simultaneously establishing frames and distance management to prevent the opponent from advancing to a top position or counter-entangling.
+**Guard Recovery from Inside Ashi-Garami is the bottom player's escape from a failed leg entanglement—sequentially releasing the leg controls, framing on the opponent's hips, and rotating to recompose an active open guard before the opponent can pass or counter-entangle.**
+
+When submission attempts from Inside Ashi-Garami have been defended and the opponent begins extracting their heel or stepping over the inside leg, the bottom player must release the entanglement and recover to a functional guard rather than holding a compromised position. Instead of burning grip strength chasing a failing attack, the recovery converts a deteriorating leg-lock exchange into an active open guard with restored distance and leg activity. This recovery requires disengaging leg controls while simultaneously establishing frames and distance management to prevent the opponent from advancing to a top position or counter-entangling. Executed well, it turns the opponent's own extraction movement into the momentum that powers your hip rotation and guard recomposition.
 
 **From Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Bottom)
 **Success Rate**: 40%
@@ -215,5 +252,7 @@ Guard Recovery from Inside Ashi-Garami bridges the leg entanglement positional f
 
 
 </section>
+
+
 
 </main>

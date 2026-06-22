@@ -10,6 +10,41 @@ description: "Master escaping Russian Cowboy in BJJ. Complete guide covering fra
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Escape from Russian Cowboy",
+  "description": "Master escaping Russian Cowboy in BJJ. Complete guide covering frame creation, hook removal, guard recovery, and reversal techniques from back control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Escape from Russian Cowboy", "item": "https://bjjgraph.org/Transitions/Escape-from-Russian-Cowboy" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Escape from Russian Cowboy",
+  "description": "The Escape from Russian Cowboy is a single-hook back-defense sequence in which the bottom player protects the neck, strips the leg hook, and frames to recover guard or reverse to side control top rather than feeding the opponent's truck entry.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master escaping Russian Cowboy in BJJ. Complete guide covering fra
 </div>
 
 <section id="overview" class="content-section">
+
+**The Escape from Russian Cowboy is a single-hook back-defense sequence in which the bottom player protects the neck, strips the leg hook, and frames to recover guard or reverse to side control top rather than feeding the opponent's truck entry.**
 
 The Escape from Russian Cowboy is a critical defensive technique for practitioners trapped in this asymmetric back control variant. Unlike escaping traditional back control where both hooks must be addressed symmetrically, the Russian Cowboy's single-hook configuration creates specific vulnerabilities that a knowledgeable bottom player can exploit through systematic frame creation and strategic turning. The escape targets the inherent instability of the position—the asymmetric hook structure means the top player's control relies heavily on chest-to-back connection and seatbelt grip rather than balanced bilateral leg control, leaving gaps that can be exploited with proper timing.
 
@@ -210,15 +247,17 @@ The Escape from Russian Cowboy sits within the broader back defense system and c
 
 - [[Positions/Crab Ride]] - Related asymmetric back control with similar escape principles
 
-- [[Transitions/Escape from Rodeo Ride]] - Similar escape methodology from related back control variant
+- [[Transitions/Back Door Escape]] - Related back escape system sharing systematic positional-improvement principles
 
-- [[Transitions/Escape Seat Belt Control]] - Complementary escape addressing seatbelt grip specifically
+- [[Transitions/Hand Fighting from Back]] - Complementary defensive technique for neutralizing the choking arm during the escape
 
-- [[Transitions/Escape from Crab Ride]] - Parallel escape technique from similar single-hook position
+- [[Transitions/Hip Escape to Turtle]] - Parallel back escape sharing hip-movement and turtle-recovery mechanics
 
-- [[Transitions/Elbow Escape from Back]] - Related back escape sharing frame creation principles
+- [[Transitions/Elbow Escape from Back]] - Related back escape sharing frame creation and hook-removal principles
 
 
 </section>
+
+
 
 </main>

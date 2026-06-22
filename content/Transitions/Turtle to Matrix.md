@@ -10,6 +10,41 @@ description: "Master the Transition to Matrix position from turtle top in BJJ. S
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Turtle to Matrix",
+  "description": "Master the Transition to Matrix position from turtle top in BJJ. Setup mechanics, hip threading, and rotational entry for establishing the dynamic back take platform.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Turtle to Matrix", "item": "https://bjjgraph.org/Transitions/Turtle-to-Matrix" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Turtle to Matrix",
+  "description": "Turtle to Matrix is a turtle-top entry where the attacker threads perpendicular to a turtled opponent and establishes the angular Matrix platform, the launching point for back takes, truck entries, and crucifix attacks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Transition to Matrix position from turtle top in BJJ. S
 </div>
 
 <section id="overview" class="content-section">
+
+**Turtle to Matrix is a turtle-top entry where the attacker threads perpendicular to a turtled opponent and establishes the angular Matrix platform, the launching point for back takes, truck entries, and crucifix attacks.**
 
 The Transition to Matrix is the critical entry sequence that moves the attacker from a standard turtle top position into the Matrix position, the dynamic rotational platform from which back takes, truck entries, and other advanced attacks become available. This transition represents the setup phase before the actual Matrix Back Take execution, focusing on establishing the angular positioning, grip connections, and hip alignment required to launch the rolling movement.
 
@@ -222,5 +259,7 @@ The Transition to Matrix serves as the bridge between standard turtle top contro
 
 
 </section>
+
+
 
 </main>

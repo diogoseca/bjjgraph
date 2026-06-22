@@ -10,6 +10,41 @@ description: "Master the Jailbreak position in BJJ. Advanced half guard escape s
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Jailbreak",
+  "description": "Master the Jailbreak position in BJJ. Advanced half guard escape system with 60% success rate covering defensive mechanics, offensive opportunities, and complete perspective analysis.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Jailbreak", "item": "https://bjjgraph.org/Positions/Jailbreak" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Jailbreak",
+  "description": "The Jailbreak is a dynamic half guard junction where the bottom player explosively inverts off an underhook to escape crushing pressure while the top player navigates extended leg frames to finish the pass.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Jailbreak position in BJJ. Advanced half guard escape s
 </div>
 
 <section id="overview" class="content-section">
+
+**The Jailbreak is a dynamic half guard junction where the bottom player explosively inverts off an underhook to escape crushing pressure while the top player navigates extended leg frames to finish the pass.**
 
 The Jailbreak position represents a critical dynamic state in the half guard game, characterized by explosive movement and strategic risk-taking to escape dominant pressure. This position manifests in two distinct perspectives: from bottom, it is an advanced escape technique using inversion and momentum to break free from crushing pressure, while from top, it is a transitional passing position where maintaining control through extended leg barriers determines success.
 
@@ -254,5 +291,7 @@ The biomechanical principle underlying the Jailbreak from bottom involves conver
 
 
 </section>
+
+
 
 </main>

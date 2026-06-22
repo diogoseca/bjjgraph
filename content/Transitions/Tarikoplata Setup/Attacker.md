@@ -340,4 +340,6 @@ The Tarikoplata attacks the shoulder joint through compound loading—omoplata h
 
 </section>
 
+
+
 </main>

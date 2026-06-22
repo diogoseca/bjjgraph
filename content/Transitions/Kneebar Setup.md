@@ -10,6 +10,41 @@ description: "Master Kneebar Setup from Outside Ashi-Garami. Step-by-step leg ex
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kneebar Setup",
+  "description": "Master Kneebar Setup from Outside Ashi-Garami. Step-by-step leg extension attack with chain submissions and defensive counters for all levels.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Kneebar Setup", "item": "https://bjjgraph.org/Transitions/Kneebar-Setup" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kneebar Setup",
+  "description": "Kneebar Setup is a leg-lock transition from Outside Ashi-Garami that converts an opponent's extended leg—triggered by their forward stacking pressure or heel-hook defense—into isolated kneebar control threatening a knee-joint hyperextension finish.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Kneebar Setup from Outside Ashi-Garami. Step-by-step leg ex
 </div>
 
 <section id="overview" class="content-section">
+
+**Kneebar Setup is a leg-lock transition from Outside Ashi-Garami that converts an opponent's extended leg—triggered by their forward stacking pressure or heel-hook defense—into isolated kneebar control threatening a knee-joint hyperextension finish.**
 
 The Kneebar Setup from Outside Ashi-Garami is a high-percentage leg lock transition that capitalizes on forward pressure from your opponent. When an opponent drives into your outside ashi position attempting to stack or smash, their knee naturally extends—creating the perfect opportunity to transition into kneebar control. This technique represents a fundamental principle in modern leg lock systems: using your opponent's defensive reactions as offensive triggers.
 
@@ -222,5 +259,7 @@ The Kneebar Setup represents a critical branch in the leg lock system tree from 
 
 
 </section>
+
+
 
 </main>

@@ -10,6 +10,41 @@ description: "Master kneebar control maintenance in BJJ. Learn grip adjustments,
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kneebar Control Maintenance",
+  "description": "Master kneebar control maintenance in BJJ. Learn grip adjustments, hip positioning, and pressure mechanics to retain top kneebar control against escape attempts.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Kneebar Control Maintenance", "item": "https://bjjgraph.org/Transitions/Kneebar-Control-Maintenance" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kneebar Control Maintenance",
+  "description": "Kneebar Control Maintenance is the top-position skill of retaining an isolated-leg kneebar against active escapes by constantly re-closing the hip-to-knee gap, re-tightening grips, and cycling between extension pressure and consolidation.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master kneebar control maintenance in BJJ. Learn grip adjustments,
 </div>
 
 <section id="overview" class="content-section">
+
+**Kneebar Control Maintenance is the top-position skill of retaining an isolated-leg kneebar against active escapes by constantly re-closing the hip-to-knee gap, re-tightening grips, and cycling between extension pressure and consolidation.**
 
 Kneebar Control Maintenance from top position is the systematic process of consolidating and retaining your leg isolation control when your opponent actively resists your kneebar position. Unlike the initial entry or the finishing sequence, maintenance addresses the critical middle phase where opponents generate their most desperate and explosive escape attempts. The practitioner must continuously audit grip integrity, hip proximity to the knee joint, and base stability while managing the opponent's rotational and bridging escape patterns.
 
@@ -220,5 +257,7 @@ Kneebar control maintenance occupies a critical stabilization role within the br
 
 
 </section>
+
+
 
 </main>

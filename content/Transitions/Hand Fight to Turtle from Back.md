@@ -10,6 +10,41 @@ description: "Master hand fighting to escape back control and reach turtle posit
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Hand Fight to Turtle from Back",
+  "description": "Master hand fighting to escape back control and reach turtle position in BJJ. Systematic guide to grip stripping, hip movement, and defensive transitions.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Hand Fight to Turtle from Back", "item": "https://bjjgraph.org/Transitions/Hand-Fight-to-Turtle-from-Back" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Hand Fight to Turtle from Back",
+  "description": "Hand Fight to Turtle from Back is a back-control escape where the bottom player strips the opponent's harness grip through two-on-one hand fighting, then rotates out to the turtle position to regain vision and recovery options.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master hand fighting to escape back control and reach turtle posit
 </div>
 
 <section id="overview" class="content-section">
+
+**Hand Fight to Turtle from Back is a back-control escape where the bottom player strips the opponent's harness grip through two-on-one hand fighting, then rotates out to the turtle position to regain vision and recovery options.**
 
 Hand Fight to Turtle from Back is a fundamental defensive transition used to escape the most dominant position in Brazilian Jiu-Jitsu. When an opponent has established back control with hooks and harness grip, the immediate priority is preventing the rear naked choke through chin protection and systematic grip fighting. Once neck defense is secured, the practitioner methodically strips the opponent's controlling grips using two-on-one hand fighting principles, then creates the hip movement necessary to rotate from back exposure into the turtle position.
 
@@ -214,13 +251,13 @@ Hand Fight to Turtle from Back occupies a central role in the defensive hierarch
 
 - [[Transitions/Elbow Escape from Back]] - Complementary escape technique that can chain with hand fighting
 
-- [[Transitions/Escape Seat Belt Control]] - Related grip stripping technique specifically addressing seatbelt configuration
-
 - [[Transitions/Body Triangle Escape to Half Guard]] - Alternative escape route when body triangle prevents turtle rotation
 
 - [[Transitions/Back Control Maintenance]] - Opponent's retention technique that this escape must overcome
 
 
 </section>
+
+
 
 </main>

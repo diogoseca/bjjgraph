@@ -10,6 +10,41 @@ description: "Master the Two-on-One to Back Take in BJJ. Step-by-step execution 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Two-on-One to Back Take",
+  "description": "Master the Two-on-One to Back Take in BJJ. Step-by-step execution from standing clinch using Russian tie control to access the back with multiple pathway options.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Two-on-One to Back Take", "item": "https://bjjgraph.org/Transitions/Two-on-One-to-Back-Take" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Two-on-One to Back Take",
+  "description": "The Two-on-One to Back Take is a standing wrestling transition where you trap one of the opponent's arms with both hands (a Russian tie), break their posture across their centerline, and circle behind to seat-belt back control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Two-on-One to Back Take in BJJ. Step-by-step execution 
 </div>
 
 <section id="overview" class="content-section">
+
+**The Two-on-One to Back Take is a standing wrestling transition where you trap one of the opponent's arms with both hands (a Russian tie), break their posture across their centerline, and circle behind to seat-belt back control.**
 
 The Two-on-One to Back Take is a fundamental wrestling-based transition that exploits control of a single arm to access the opponent's back from standing positions. This technique leverages the asymmetrical control created when both hands control one of the opponent's arms, creating a mechanical disadvantage that prevents effective defense while opening pathways to superior positioning. The two-on-one grip, also known as a Russian tie in wrestling, is one of the most dominant control positions in standing grappling because it simultaneously neutralizes one of the opponent's primary defensive tools while creating clear paths to the back.
 
@@ -224,6 +261,16 @@ The two-on-one to back take serves as a critical bridge position in the standing
 
 - [[Transitions/Back Take]] - Generic back take transition sharing core principles
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Danaher Straight Jacket System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Standing clinch entry using two-on-one grip control to access back position</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

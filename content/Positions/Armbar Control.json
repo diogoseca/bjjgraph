@@ -3,6 +3,7 @@
   "slug": "armbar-control",
   "description": "Master armbar control in BJJ from both offensive and defensive perspectives. Complete strategic guide covering submission mechanics, defense strategies, and position-specific tactics.",
   "variant_uniqueness": "Limb isolation through multi-point control",
+  "summary": "Armbar Control is a submission control position where one player isolates and pins an opponent's extended arm with their legs, hips, and grips to threaten elbow hyperextension, attacked from the top role and survived or escaped from the bottom role.",
   "overview": "Armbar Control represents one of Brazilian Jiu-Jitsu's most fundamental submission control positions, accessible from both offensive (top) and defensive (bottom) perspectives. The position centers on isolating and controlling a single arm through a combination of leg control, hip positioning, and grip management. From the top position, the practitioner uses their entire body to attack a single joint, creating overwhelming mechanical advantage. From the bottom position, the defender must employ systematic defensive principles to prevent hyperextension and create escape opportunities.\n\nThe armbar's effectiveness stems from its ability to control multiple points simultaneously while concentrating force on the vulnerable elbow joint. The top player controls the opponent's head and torso with their legs while both hands isolate the arm, creating a multi-point control system that severely limits defensive options. The bottom player, conversely, must understand the same mechanics in reverse - identifying and systematically removing the conditions necessary for the finish.\n\nThis position appears across all levels of competition and training, making proficiency from both perspectives essential for complete grappling development. The top perspective requires understanding leverage mechanics, hip positioning, and submission chains. The bottom perspective demands calm decision-making under pressure, technical precision in defensive movements, and recognition of escape timing windows.\n\nFrom the top, the practitioner's body functions as a unified machine where the legs act as clamps controlling the opponent's torso and head, the hips serve as a fulcrum positioned against the shoulder, and the hands direct the finishing vector by pulling the wrist toward the chest. Every component must work in concert: if the legs lose control, the opponent sits up; if the hips drift from the shoulder, leverage disappears; if the hands lose the wrist, the arm retracts. This interconnected control system is what makes the armbar both powerful when executed correctly and vulnerable to systematic defense when any single element is compromised.\n\nFrom the bottom, survival depends on understanding the same five-point control system and methodically removing each element. The defender who bends the arm, rotates the thumb upward, controls the leg across the face, stacks the hips, and creates angles has addressed every finishing requirement simultaneously. This is not a position where a single defensive action suffices - the defender must layer multiple defensive principles to create genuine escape opportunities. The urgency of escape is real: armbar control is inherently time-limited for the bottom player because the top player can make incremental adjustments that progressively close escape windows.",
   "key_principles": [
     "Armbar control is fundamentally about limb isolation through multi-point body control",
@@ -138,8 +139,8 @@
         "condition": "If opponent attempts to roll through or turn into the submission",
         "actions": [
           {
-            "technique": "Straight Armbar",
-            "target": "Armbar Control",
+            "technique": "Belly Down Armbar Transition",
+            "target": "Belly Down Armbar",
             "probability": 55
           },
           {
@@ -284,11 +285,11 @@
     "transitions": [
       {
         "transition": "Armbar from Armbar Control",
-        "attempt_probability": 51
+        "attempt_probability": 55
       },
       {
         "transition": "Triangle Setup",
-        "attempt_probability": 21
+        "attempt_probability": 23
       },
       {
         "transition": "Omoplata from Armbar Control",
@@ -296,11 +297,7 @@
       },
       {
         "transition": "Kimura from Armbar Control",
-        "attempt_probability": 7
-      },
-      {
-        "transition": "Straight Armbar",
-        "attempt_probability": 7
+        "attempt_probability": 8
       },
       {
         "transition": "Back Take from Armbar",

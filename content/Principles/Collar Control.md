@@ -142,11 +142,24 @@ description: "Master collar grip mechanics in BJJ. Learn deep grip penetration, 
 }
 </script>
 
-> Collar Control is a medium complexity BJJ principle applicable at the Intermediate level. Develop over Beginner to Advanced.
 
-**Application Level**: Intermediate
-**Complexity**: Medium
-**Development Timeline**: Beginner to Advanced
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Collar Control",
+  "description": "Collar Control is the gi-specific skill of gripping and manipulating an opponent's collar to break posture, dictate head and spine position, and create leverage for chokes, sweeps, and transitions.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Intermediate</span>
+<span class="meta-chip">Medium complexity</span>
+<span class="meta-chip">Beginner to Advanced</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -155,7 +168,9 @@ description: "Master collar grip mechanics in BJJ. Learn deep grip penetration, 
 
 ## What is Collar Control?
 
-Collar Control represents the fundamental skill of gripping and manipulating opponent's gi collar to establish posture control, create submission opportunities, and generate powerful leverage for sweeps and transitions. Unlike specific techniques, collar control is a comprehensive conceptual framework that applies across all phases of gi BJJ, from standing exchanges to dominant control positions. This concept encompasses the mechanics of collar grip establishment, the strategic use of deep collar grips to control opponent's head and spine positioning, and the integration of collar control with choking mechanics and sweep execution. Collar control serves as both a defensive mechanism that breaks opponent's posture and prevents effective pressure application, and an offensive foundation that enables direct choke submissions and powerful leverage-based attacks. The ability to establish and maintain effective collar control often determines success in both guard positions and dominant controls, making it one of the most essential and versatile conceptual elements in gi BJJ.
+**Collar Control is the gi-specific skill of gripping and manipulating an opponent's collar to break posture, dictate head and spine position, and create leverage for chokes, sweeps, and transitions.**
+
+In gi jiu-jitsu the collar is the single most contested piece of fabric on the body, and the practitioners who win the grip exchanges around it tend to dictate the terms of every subsequent scramble. Unlike specific techniques, collar control is a comprehensive conceptual framework that applies across all phases of gi BJJ, from standing exchanges to dominant control positions. This concept encompasses the mechanics of collar grip establishment, the strategic use of deep collar grips to control opponent's head and spine positioning, and the integration of collar control with choking mechanics and sweep execution. Collar control serves as both a defensive mechanism that breaks opponent's posture and prevents effective pressure application, and an offensive foundation that enables direct choke submissions and powerful leverage-based attacks. The ability to establish and maintain effective collar control often determines success in both guard positions and dominant controls, making it one of the most essential and versatile conceptual elements in gi BJJ.
 
 </section>
 
@@ -353,11 +368,10 @@ Free rolling with conscious emphasis on establishing collar control early in exc
 - **[[Grips]]** (Prerequisite): Collar control depends on winning grip fighting exchanges to establish collar grips before opponent can prevent them or establish their own dominant grips
 - **[[Posture]]** (Complementary): Collar control is the primary mechanism for breaking opponent's posture in guard positions, while posture breaking is often the strategic objective of collar control
 - **[[Head Position]]** (Extension): Deep collar grips extend into direct head control by manipulating the collar material around opponent's neck and base of skull
-- **[[Sleeve Control]]** (Complementary): Collar and sleeve control work together to create comprehensive upper body control, with each grip type compensating for limitations of the other
+- **[[Hand Fighting]]** (Complementary): Collar and sleeve hand fighting work together to create comprehensive upper body control, with each grip type compensating for limitations of the other
 - **[[Frames]]** (Complementary): Collar control from guard positions complements frame creation by controlling opponent's posture and weight distribution, while frames maintain defensive structure when collar grips are temporarily lost
-- **[[Hand Fighting]]** (Extension): Collar control represents a specific strategic grip priority within the broader hand fighting framework, where winning collar access often determines the tactical direction of an exchange
-- **[[Control Point Hierarchy]]** (Complementary): Collar grips represent high-value control points in the hierarchy due to their direct connection to choking mechanics and posture control
 - **[[Connection Principles]]** (Prerequisite): Effective collar control requires maintaining strong connection points while preventing opponent from breaking the connection through grip strips or position changes
+- **[[Control Point Hierarchy]]** (Complementary): Collar grips represent high-value control points in the hierarchy due to their direct connection to choking mechanics and posture control
 - **[[Levers]]** (Extension): Collar grips provide powerful leverage for manipulating opponent's upper body, head position, and overall base through biomechanical advantage
 
 
@@ -375,6 +389,17 @@ Free rolling with conscious emphasis on establishing collar control early in exc
 - [[Posture]] (Principle) - Primary tactical application of collar control in guard positions
 - [[Head Position]] (Principle) - Advanced form of control that extends from deep collar grip penetration
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Keenan Cornelius Lapel Guard System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Core control principle that extends to lapel manipulation and grip fighting</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Gi-Specific-Strategy" data-cta="related-system-card" data-system-slug="systems/gi-specific-strategy" data-system-name="Gi-Specific Strategy" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Gi-Specific Strategy</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Core principle for establishing gi-based dominance</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

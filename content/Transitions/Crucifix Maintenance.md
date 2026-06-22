@@ -10,6 +10,41 @@ description: "Master Crucifix Maintenance in BJJ. Learn systematic control adjus
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Crucifix Maintenance",
+  "description": "Master Crucifix Maintenance in BJJ. Learn systematic control adjustments to retain arm-trapping dominance and prevent escapes for submission setups.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Crucifix Maintenance", "item": "https://bjjgraph.org/Transitions/Crucifix-Maintenance" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Crucifix Maintenance",
+  "description": "Crucifix Maintenance is the set of active control adjustments — re-squeezing the leg triangle, securing the far arm, and pinning the upper back — used to retain the crucifix's bilateral arm trap against escapes while setting up chokes and arm attacks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Crucifix Maintenance in BJJ. Learn systematic control adjus
 </div>
 
 <section id="overview" class="content-section">
+
+**Crucifix Maintenance is the set of active control adjustments — re-squeezing the leg triangle, securing the far arm, and pinning the upper back — used to retain the crucifix's bilateral arm trap against escapes while setting up chokes and arm attacks.**
 
 Crucifix Maintenance encompasses the systematic techniques and adjustments required to retain the crucifix position against an opponent's escape attempts. As one of the most dominant control positions in Brazilian Jiu-Jitsu—offering simultaneous isolation of both arms through a leg triangle and hand control system—the crucifix demands active maintenance because trapped opponents will immediately begin working to extract their arms and rebuild defensive structures.
 
@@ -222,5 +259,7 @@ Crucifix Maintenance sits at the critical junction between achieving the crucifi
 
 
 </section>
+
+
 
 </main>

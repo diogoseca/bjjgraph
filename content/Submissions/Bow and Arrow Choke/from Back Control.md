@@ -10,10 +10,55 @@ description: "Master the Bow and Arrow Choke from back control. Learn collar gri
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Bow and Arrow Choke from Back Control targets the Carotid arteries. Risk: Carotid artery compression leading to unconsciousness. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Bow and Arrow Choke from Back Control",
+  "description": "Master the Bow and Arrow Choke from back control. Learn collar grip setup, leg leverage mechanics, finishing details, and defenses for this high-percentage gi submission.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Bow and Arrow Choke from Back Control", "item": "https://bjjgraph.org/Submissions/Bow-and-Arrow-Choke-from-Back-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Bow and Arrow Choke from Back Control",
+  "description": "The Bow and Arrow Choke from back control is a gi strangle where one hand pulls the far collar while the other controls the opponent's leg, stretching their body into a bow shape that compresses both carotid arteries.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Bow and Arrow Choke from back control is a gi strangle where one hand pulls the far collar while the other controls the opponent's leg, stretching their body into a bow shape that compresses both carotid arteries.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries</span>
+<span class="meta-chip">62% success</span>
+</div>
+
+> [!danger] Safety
+> Bow and Arrow Choke from Back Control targets the Carotid arteries. Primary risk: Carotid artery compression leading to unconsciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,55 +75,7 @@ From back control, the choke benefits from the attacker's complete positional do
 
 Strategically, the bow and arrow choke serves as the premier gi-specific attack from back control. It forces opponents into a defensive dilemma: defending the collar grip exposes the neck to rear naked choke attempts, while defending the RNC leaves the collar open for bow and arrow entry. Advanced practitioners use this complementary threat pairing to systematically break down defenses. The choke also chains naturally into armbar transitions when opponents extend their arms to fight the collar grip, making it a cornerstone technique in any systematic back attack game.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries
-**Starting Position**: [[Positions/Back Control]]
-**From Position**: [[Positions/Back Control]] (Top)
-**Success Rate**: 62%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Carotid artery compression leading to unconsciousness | High | Immediate if released promptly; medical evaluation required if unconsciousness occurs |
-| Neck strain from excessive torque and rotation | Medium | 3-7 days for minor strain; 2-4 weeks for moderate strain |
-| Jaw or TMJ injury from improper collar placement | Medium | 1-3 weeks for minor injury; 4-8 weeks for significant TMJ damage |
-| Knee or hip stress from forced leg extension | Low | 2-5 days for minor discomfort |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow tap recognition
-
-**Tap Signals**:
-- Verbal tap
-- Physical hand tap on body or mat
-- Physical foot tap on mat
-- Any audible distress signal
-- Loss of resistance (immediate release required)
-
-
-**Release Protocol**:
-1. Immediately release collar grip upon tap signal
-2. Release leg extension and hooks simultaneously
-3. Allow opponent's head to return to neutral position
-4. Check for consciousness and responsiveness
-5. If opponent was unconscious, elevate legs and monitor until full recovery
-
-
-**Training Restrictions**:
-- Never spike or jerk the choke - apply smooth progressive pressure only
-- Never use competition speed in training rolls
-- Always maintain communication with training partner
-- Never continue pressure after tap signal
-- Beginners must drill position control before attempting finish
-- Always allow partner clear access to tap with hands or voice
-
+**Starting Position**: [[Positions/Back Control]] · **From**: [[Positions/Back Control]] (Top)
 
 </section>
 
@@ -242,40 +239,65 @@ Strategically, the bow and arrow choke serves as the premier gi-specific attack 
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/Cross Collar Choke]]
 - [[Transitions/Clock Choke]]
 - [[Transitions/Arm Triangle]]
 - [[Submissions/Ezekiel Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Back Control]] - Starting position providing hooks and seatbelt control for choke setup
 - [[Positions/Back Control/Seat Belt Control Back]] - Specific grip configuration used to initiate collar access for the choke
 - [[Positions/Gift Wrap]] - Arm trap that eliminates defensive hand fighting before transitioning to bow and arrow
 - [[Positions/Crucifix]] - Alternative back attack position when opponent defends collar grip with both hands
 - [[Positions/Turtle]] - Common preceding position from which back control is established before attacking
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Carotid artery compression leading to unconsciousness | High | Immediate if released promptly; medical evaluation required if unconsciousness occurs |
+| Neck strain from excessive torque and rotation | Medium | 3-7 days for minor strain; 2-4 weeks for moderate strain |
+| Jaw or TMJ injury from improper collar placement | Medium | 1-3 weeks for minor injury; 4-8 weeks for significant TMJ damage |
+| Knee or hip stress from forced leg extension | Low | 2-5 days for minor discomfort |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow tap recognition
+
+**Tap Signals**:
+- Verbal tap
+- Physical hand tap on body or mat
+- Physical foot tap on mat
+- Any audible distress signal
+- Loss of resistance (immediate release required)
+
+
+**Release Protocol**:
+1. Immediately release collar grip upon tap signal
+2. Release leg extension and hooks simultaneously
+3. Allow opponent's head to return to neutral position
+4. Check for consciousness and responsiveness
+5. If opponent was unconscious, elevate legs and monitor until full recovery
+
+
+**Training Restrictions**:
+- Never spike or jerk the choke - apply smooth progressive pressure only
+- Never use competition speed in training rolls
+- Always maintain communication with training partner
+- Never continue pressure after tap signal
+- Beginners must drill position control before attempting finish
+- Always allow partner clear access to tap with hands or voice
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Bow and Arrow Choke from Back Control leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

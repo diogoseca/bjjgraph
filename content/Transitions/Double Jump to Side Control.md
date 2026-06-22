@@ -10,6 +10,41 @@ description: "Master the Double Jump to Side Control transition in BJJ. Systemat
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Double Jump to Side Control",
+  "description": "Master the Double Jump to Side Control transition in BJJ. Systematic approach to consolidating side control from turtle top leg hooks when back take is defended.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Double Jump to Side Control", "item": "https://bjjgraph.org/Transitions/Double-Jump-to-Side-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Double Jump to Side Control",
+  "description": "Double Jump to Side Control is a positional consolidation transition where the top player abandons bilateral leg hooks and walks their hips laterally around a sealed turtle defender to establish dominant side control when the back-take is defended.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Double Jump to Side Control transition in BJJ. Systemat
 </div>
 
 <section id="overview" class="content-section">
+
+**Double Jump to Side Control is a positional consolidation transition where the top player abandons bilateral leg hooks and walks their hips laterally around a sealed turtle defender to establish dominant side control when the back-take is defended.**
 
 The Double Jump to Side Control transition is a pragmatic positional consolidation technique employed when the primary back-taking pathway from Double Jump Top is effectively defended by the bottom player's turtle defense. Rather than continuing to fight for back exposure against a well-protected turtle shell, the top player abandons bilateral leg hooks and transitions laterally into side control, securing dominant positional control worth three competition points.
 
@@ -220,5 +257,7 @@ The Double Jump to Side Control transition connects the specialized turtle attac
 
 
 </section>
+
+
 
 </main>

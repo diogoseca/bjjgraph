@@ -23,6 +23,9 @@ import sys
 from pathlib import Path
 from collections import defaultdict
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))  # make the shared helper importable
+from _atomic_io import atomic_write_json
+
 CONTENT_PATH = Path("content")
 POSITIONS_PATH = CONTENT_PATH / "Positions"
 TRANSITIONS_PATH = CONTENT_PATH / "Transitions"
@@ -40,9 +43,7 @@ def load_json(path):
 
 
 def save_json(path, data):
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
-        f.write("\n")
+    atomic_write_json(path, data, indent=2, ensure_ascii=False)
 
 
 # ---------------------------------------------------------------------------

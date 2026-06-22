@@ -10,6 +10,41 @@ description: "Master the Butterfly Smash in BJJ. Learn to collapse butterfly hoo
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Smash from Butterfly Hook Control",
+  "description": "Master the Butterfly Smash in BJJ. Learn to collapse butterfly hooks with pressure passing, transitioning to half guard for systematic guard passing success.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Smash from Butterfly Hook Control", "item": "https://bjjgraph.org/Transitions/Smash-from-Butterfly-Hook-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Smash from Butterfly Hook Control",
+  "description": "Smash from Butterfly Hook Control is a pressure-passing transition where the top player drives diagonal weight and one knee through a single butterfly hook to collapse it, halving the guard's elevation power and entering Half Guard Top.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Butterfly Smash in BJJ. Learn to collapse butterfly hoo
 
 <section id="overview" class="content-section">
 
-The Butterfly Smash is a fundamental pressure-based passing technique executed from Butterfly Hook Control Top, where the top player drives weight and knee through one of the opponent's butterfly hooks to collapse the guard structure and transition to Half Guard Top. This technique capitalizes on the inherent vulnerability of butterfly hooks to direct downward pressure when the bottom player's elevation mechanics are neutralized through proper upper body control and weight distribution.
+**Smash from Butterfly Hook Control is a pressure-passing transition where the top player drives diagonal weight and one knee through a single butterfly hook to collapse it, halving the guard's elevation power and entering Half Guard Top.**
+
+Among pressure-passing tools, the Butterfly Smash earns its place by solving one of grappling's hardest problems—how to neutralize an active, elevation-based guard without surrendering your base to a sweep. Rather than fighting the hooks head-on, it attacks the structural weakness that every butterfly hook shares: vulnerability to direct downward compression once the bottom player's upper-body connections and posture are controlled. Collapsing one hook to the mat halves the guard's offensive output and delivers the top player into a controllable Half Guard Top, where systematic passing becomes available.
 
 The smash operates on a straightforward mechanical principle: butterfly hooks generate offensive power through elevation and angle creation, but they are vulnerable to direct compression when the top player drives weight diagonally through one side while maintaining crossface or collar control. By pinning one hook to the mat with the shin and knee, the top player eliminates half of the guard's offensive capability and creates a clear passing pathway into half guard, where systematic pressure passing sequences become available.
 
@@ -41,7 +78,7 @@ Strategic integration of the butterfly smash into a broader passing system creat
 |--------|----------|-------------|
 | Success | [[Positions/Half Guard]] | 55% |
 | Failure | [[Positions/Butterfly Guard/Butterfly Hook Control]] | 30% |
-| Counter | [[Positions/Mount]] | 15% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -220,5 +257,7 @@ The Butterfly Smash serves as a critical bridge between open guard engagement an
 
 
 </section>
+
+
 
 </main>

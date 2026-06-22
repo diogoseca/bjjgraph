@@ -1,5 +1,6 @@
 {
   "name": "Kimura from Half Guard",
+  "summary": "The Kimura from Half Guard is a figure-four shoulder lock attacked from bottom half guard that rotates the opponent's arm behind their back, creating a trilemma between submission, sweep, and back take.",
   "description": "Master the Kimura from Half Guard in BJJ. Complete guide with safety protocols, setup from underhook battle, finishing mechanics. Beginner 35%, Intermediate 55%, Advanced 70%.",
   "tags": [
     "bjj",
@@ -354,7 +355,7 @@
       },
       {
         "question": "What anatomical structure does the Kimura primarily attack, and at what point does the submission become inescapable?",
-        "answer": "The Kimura attacks the glenohumeral joint (shoulder) through external rotation, stressing the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis) and the labrum. The submission becomes inescapable once the opponent's wrist passes behind their hip line with their elbow pinned. At this angle, the shoulder joint reaches its rotational limit and any further movement creates joint failure. Before this point, opponents can still bridge, roll, or extract their arm.",
+        "answer": "The Kimura attacks the glenohumeral joint (shoulder) through internal rotation, driving the bent forearm toward the lower back, stressing the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis) and the labrum. The submission becomes inescapable once the opponent's wrist passes behind their hip line with their elbow pinned. At this angle, the shoulder joint reaches its rotational limit and any further movement creates joint failure. Before this point, opponents can still bridge, roll, or extract their arm.",
         "safety_critical": false
       },
       {
@@ -374,7 +375,7 @@
       },
       {
         "question": "What is the point of no return in the Kimura finish, and how do you recognize when to stop applying pressure in training?",
-        "answer": "The point of no return occurs when the opponent's wrist reaches approximately mid-back level (between shoulder blades) with their elbow remaining tight to their ribs. At this position, the shoulder has reached maximum external rotation and any additional pressure will cause tissue damage. In training, stop at approximately 70-80% of this rotation - when you feel firm resistance in the joint rather than muscular resistance. If your partner hasn't tapped by this point, verbal check or slight pressure increase signals them to tap without risking injury.",
+        "answer": "The point of no return occurs when the opponent's wrist reaches approximately mid-back level (between shoulder blades) with their elbow remaining tight to their ribs. At this position, the shoulder has reached maximum internal rotation and any additional pressure will cause tissue damage. In training, stop at approximately 70-80% of this rotation - when you feel firm resistance in the joint rather than muscular resistance. If your partner hasn't tapped by this point, verbal check or slight pressure increase signals them to tap without risking injury.",
         "safety_critical": true
       }
     ]

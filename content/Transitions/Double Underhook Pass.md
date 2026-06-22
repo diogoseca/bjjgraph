@@ -10,6 +10,41 @@ description: "Master Double Underhook Pass from Crackhead Control. Step-by-step 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Double Underhook Pass",
+  "description": "Master Double Underhook Pass from Crackhead Control. Step-by-step guide to passing turtle to Side Control with bilateral underhook mechanics and Gable grip.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Double Underhook Pass", "item": "https://bjjgraph.org/Transitions/Double-Underhook-Pass" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Double Underhook Pass",
+  "description": "The Double Underhook Pass is a turtle-passing technique from Crackhead Control in which the top player threads both arms under the opponent's armpits, locks a Gable grip, and flattens them to advance directly to Side Control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Double Underhook Pass from Crackhead Control. Step-by-step 
 </div>
 
 <section id="overview" class="content-section">
+
+**The Double Underhook Pass is a turtle-passing technique from Crackhead Control in which the top player threads both arms under the opponent's armpits, locks a Gable grip, and flattens them to advance directly to Side Control.**
 
 The Double Underhook Pass is a systematic transition from Crackhead Control that uses bilateral underhook control to flatten the turtle defender and advance to Side Control. This technique capitalizes on the chair-sit mechanics of Crackhead Control to thread both arms under the opponent's armpits, creating a powerful scooping action that eliminates their defensive base.
 
@@ -216,5 +253,7 @@ The Double Underhook Pass represents one of three primary pathways from Crackhea
 
 
 </section>
+
+
 
 </main>

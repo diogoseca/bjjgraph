@@ -10,6 +10,41 @@ description: "Master Kimura on Trapped Arm from Gift Wrap in BJJ. Step-by-step s
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kimura on Trapped Arm",
+  "description": "Master Kimura on Trapped Arm from Gift Wrap in BJJ. Step-by-step shoulder lock execution on isolated arm with complete attacker and defender guides.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Kimura on Trapped Arm", "item": "https://bjjgraph.org/Transitions/Kimura-on-Trapped-Arm" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kimura on Trapped Arm",
+  "description": "Kimura on Trapped Arm is a shoulder lock attacked from Gift Wrap back control, where the opponent's already-isolated arm sits pre-rotated into the figure-four, stripping away their primary defenses before the submission even begins.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Kimura on Trapped Arm from Gift Wrap in BJJ. Step-by-step s
 </div>
 
 <section id="overview" class="content-section">
+
+**Kimura on Trapped Arm is a shoulder lock attacked from Gift Wrap back control, where the opponent's already-isolated arm sits pre-rotated into the figure-four, stripping away their primary defenses before the submission even begins.**
 
 The Kimura on Trapped Arm represents a high-percentage submission opportunity that exploits the fundamental vulnerability created by Gift Wrap control. When the opponent's arm is already wrapped across their own body, the shoulder joint is pre-rotated into a compromised position that dramatically reduces the force required to create submission pressure. This technique capitalizes on the strategic advantage of systematic limb isolation.
 
@@ -212,6 +249,16 @@ The Kimura on Trapped Arm integrates seamlessly into the Gift Wrap attack system
 
 - [[Transitions/Armbar on Free Arm]] - Complementary attack - creates dilemma when combined with Kimura threat
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Danaher Straight Jacket System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Arm attack targeting immobilized limbs during back control and turtle-to-back transitions</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

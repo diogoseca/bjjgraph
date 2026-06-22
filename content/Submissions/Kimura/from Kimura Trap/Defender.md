@@ -55,7 +55,7 @@ description: "Learn to defend and escape the Kimura from Kimura Trap. Recognitio
       "name": "What are the earliest recognition cues that indicate a Kimura finish is being initiated from Kimura Trap?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The earliest cues include the attacker's feet beginning to walk in an arc toward your head, a shift in their chest pressure from holding to actively driving, their grip tightening and beginning to rotate your wrist outward, and increased downward pressure from their hips. Recognizing these early signals provides a critical window where defensive options like clasping hands and initiating hip movement remain viable before the finish becomes difficult to stop."
+        "text": "The earliest cues include the attacker's feet beginning to walk in an arc toward your head, a shift in their chest pressure from holding to actively driving, their grip tightening and beginning to rotate your wrist down behind your back, and increased downward pressure from their hips. Recognizing these early signals provides a critical window where defensive options like clasping hands and initiating hip movement remain viable before the finish becomes difficult to stop."
       }
     },
     {

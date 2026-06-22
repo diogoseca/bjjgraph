@@ -10,6 +10,41 @@ description: "Master hand fighting to remove collar grip from invisible collar b
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Hand Fighting to Remove Collar Grip",
+  "description": "Master hand fighting to remove collar grip from invisible collar bottom. Two-on-one grip breaking mechanics and bridging techniques for back control escape.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Hand Fighting to Remove Collar Grip", "item": "https://bjjgraph.org/Transitions/Hand-Fighting-to-Remove-Collar-Grip" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Hand Fighting to Remove Collar Grip",
+  "description": "Hand Fighting to Remove Collar Grip is a defensive back-escape technique where the bottom player uses two-on-one wrist control and a coordinated bridge to strip the attacker's deep gi collar grip, neutralizing an invisible collar choke before it can finish.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master hand fighting to remove collar grip from invisible collar b
 </div>
 
 <section id="overview" class="content-section">
+
+**Hand Fighting to Remove Collar Grip is a defensive back-escape technique where the bottom player uses two-on-one wrist control and a coordinated bridge to strip the attacker's deep gi collar grip, neutralizing an invisible collar choke before it can finish.**
 
 Hand Fighting to Remove Collar Grip represents the critical first layer of defense when trapped in the invisible collar position from bottom. The technique addresses the most immediate threat—the deep collar grip that can finish the match within seconds. Unlike generic hand fighting, this defensive sequence specifically targets the biomechanics of collar grip removal, using two-on-one control to systematically peel fingers from the gi material before the attacker can apply finishing pressure.
 
@@ -222,5 +259,7 @@ Hand Fighting to Remove Collar Grip serves as the essential first step in all ba
 
 
 </section>
+
+
 
 </main>

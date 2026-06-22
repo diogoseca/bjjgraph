@@ -10,6 +10,41 @@ description: "Master Lockdown Escape to Half Guard Pass in BJJ. Systematic leg e
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Lockdown Escape to Half Guard Pass",
+  "description": "Master Lockdown Escape to Half Guard Pass in BJJ. Systematic leg extraction and pass from Lockdown Top. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Lockdown Escape to Half Guard Pass", "item": "https://bjjgraph.org/Transitions/Lockdown-Escape-to-Half-Guard-Pass" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Lockdown Escape to Half Guard Pass",
+  "description": "The Lockdown Escape to Half Guard Pass is a top-game counter to the 10th Planet lockdown: break the foot triangle, extract the trapped leg with limp-leg mechanics and forward pressure, then pass directly to side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,13 +57,15 @@ description: "Master Lockdown Escape to Half Guard Pass in BJJ. Systematic leg e
 
 <section id="overview" class="content-section">
 
-The Lockdown Escape to Half Guard Pass is the essential counter-technique for the top player trapped in an opponent's lockdown half guard. When your leg is caught in the figure-four lockdown configuration, your mobility is severely compromised and you face constant sweep and submission threats from the Electric Chair, Old School, and whip-up attacks. This technique provides a systematic pathway to extract your trapped leg and immediately advance to side control rather than settling for neutral half guard.
+**The Lockdown Escape to Half Guard Pass is a top-game counter to the 10th Planet lockdown: break the foot triangle, extract the trapped leg with limp-leg mechanics and forward pressure, then pass directly to side control.**
+
+Getting your leg triangled in the 10th Planet lockdown is one of the most frustrating predicaments for a top player: your mobility is severely compromised and you face constant sweep and submission threats from the Electric Chair, Old School, and whip-up attacks. This technique provides a systematic pathway to extract your trapped leg and immediately advance to side control rather than settling for neutral half guard.
 
 The key insight is that the lockdown's power derives from the triangled leg configuration gripping your trapped leg. Simply yanking your leg free plays into the lockdown's mechanical strength and risks knee injury. Instead, this technique employs forward pressure to limit the opponent's hip extension, the limp leg concept to reduce grip effectiveness, and systematic breaking of the foot triangle before extraction. The combination of these principles creates the mechanical advantage needed to escape the entanglement safely.
 
 Strategically, this technique transforms a defensive predicament into offensive momentum. By flowing directly from escape into a passing sequence, you capitalize on the momentary disruption caused by breaking the opponent's primary control structure. This prevents them from re-establishing the lockdown or transitioning to alternative guards, converting what could be an exhausting positional battle into efficient advancement to dominant position.
 
-**From Position**: [[Positions/Vaporizer]] (Top)
+**From Position**: [[Positions/Half Guard/Lockdown]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -222,5 +259,7 @@ The Lockdown Escape to Half Guard Pass represents the critical defensive respons
 
 
 </section>
+
+
 
 </main>

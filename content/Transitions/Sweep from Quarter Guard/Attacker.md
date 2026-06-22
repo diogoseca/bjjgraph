@@ -74,6 +74,14 @@ description: "Learn to execute the Sweep from Quarter Guard as the bottom player
   "mainEntity": [
     {
       "@type": "Question",
+      "name": "What conditions must exist before you commit to the sweep from quarter guard?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Four conditions must be present before committing: a deep underhook with your forearm on their lat and elbow pointing toward the ceiling, at least a thirty-degree hip angle off the mat so you are not flattened, your free foot posted flat near your hip for driving power, and—most critically—the top player's weight committed forward during pass completion rather than settled in a wide base. If any of these are missing, recover a defensive frame instead of sweeping, because an under-prepared attempt only accelerates the pass."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "What is the most critical grip for initiating the sweep from quarter guard?",
       "acceptedAnswer": {
         "@type": "Answer",
@@ -110,14 +118,6 @@ description: "Learn to execute the Sweep from Quarter Guard as the bottom player
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During follow-through, maintain continuous chest-to-chest contact and keep your underhook connected until you have fully rotated to top position. The most common guard recovery occurs when the sweeper creates space between bodies during the transition. After achieving top position, immediately transition from underhook to crossface control and establish heavy hip pressure to prevent knee insertion."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What happens if you attempt the sweep without first creating an angle with your hips?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Attempting the sweep from a flat position without hip angle results in insufficient mechanical leverage because your body cannot generate the rotational force needed to elevate the opponent. The flat position also allows the top player to use their weight directly against you since your underhook lacks the angular advantage needed to redirect their mass. Always create at least a thirty-degree hip angle through hip escape before committing to the sweep."
       }
     }
   ]
@@ -335,5 +335,7 @@ Apply the sweep during live rolling starting from quarter guard position, develo
 The Sweep from Quarter Guard is a relatively low-risk reversal technique with no direct joint manipulation or choking pressure. Primary safety concern is neck strain during aggressive crossface pressure from the top player—communicate with training partners about pressure levels. During the sweep itself, ensure controlled landing when achieving top position to avoid knee-on-knee collisions. Partners should practice cooperative drilling before adding resistance to prevent injury from unexpected weight shifts during the reversal.
 
 </section>
+
+
 
 </main>

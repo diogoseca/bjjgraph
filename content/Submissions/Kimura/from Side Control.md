@@ -10,10 +10,55 @@ description: "Master the Kimura from Side Control in BJJ. Comprehensive guide co
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Kimura from Side Control targets the Shoulder joint (rotation and elevation). Risk: Shoulder dislocation (anterior or posterior). Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kimura from Side Control",
+  "description": "Master the Kimura from Side Control in BJJ. Comprehensive guide covering setup, execution, and safety protocols. Success rates: Beginner 40%, Intermediate 55%, Advanced 70%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Kimura from Side Control", "item": "https://bjjgraph.org/Submissions/Kimura-from-Side-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kimura from Side Control",
+  "description": "The Kimura from Side Control is a figure-four shoulder lock from the dominant side-control pin, isolating the opponent's near arm and combining elbow elevation with rotation of the forearm behind the back to torque the shoulder and force the tap.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Kimura from Side Control is a figure-four shoulder lock from the dominant side-control pin, isolating the opponent's near arm and combining elbow elevation with rotation of the forearm behind the back to torque the shoulder and force the tap.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Shoulder Lock</span>
+<span class="meta-chip">Targets Shoulder joint (rotation and elevation)</span>
+<span class="meta-chip">62% success</span>
+</div>
+
+> [!danger] Safety
+> Kimura from Side Control targets the Shoulder joint (rotation and elevation). Primary risk: Shoulder dislocation (anterior or posterior). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -26,53 +71,7 @@ description: "Master the Kimura from Side Control in BJJ. Comprehensive guide co
 
 The Kimura from Side Control is one of the most fundamental and high-percentage shoulder locks in Brazilian Jiu-Jitsu, offering exceptional control and finishing potential from a dominant top position. This submission targets the shoulder joint through figure-four grip mechanics, creating rotational and elevational stress that forces the tap. From side control, the attacker has superior positioning, weight distribution, and multiple angles to establish the lock while the opponent's mobility is severely restricted. The technique's versatility allows for seamless transitions to other submissions, back takes, or positional advancements if the opponent defends. The Kimura grip itself becomes a powerful control mechanism, enabling the top player to manipulate the opponent's posture, break their defensive frames, and create submission opportunities even when the finish isn't immediately available. This makes it an essential tool for maintaining offensive pressure from side control while constantly threatening the finish.
 
-**Category**: Joint Lock
-**Type**: Shoulder Lock
-**Target Area**: Shoulder joint (rotation and elevation)
-**Starting Position**: [[Positions/Side Control]]
-**From Position**: [[Positions/Side Control]] (Top)
-**Success Rate**: 62%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Shoulder dislocation (anterior or posterior) | High | 6-12 weeks with potential surgical intervention |
-| Rotator cuff tear (supraspinatus, infraspinatus) | High | 8-16 weeks, may require surgery |
-| Labrum tear (SLAP lesion) | High | 12-24 weeks with surgical repair |
-| Biceps tendon strain or rupture | Medium | 4-8 weeks for strain, 12+ weeks for rupture |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from position establishment to submission pressure
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any verbal signal)
-- Physical hand tap on opponent or mat
-- Physical foot tap on mat
-- Any distress vocalization or signal
-
-
-**Release Protocol**:
-1. Immediately release rotational pressure on the arm
-2. Lower the opponent's arm back toward the mat in controlled manner
-3. Release the figure-four grip completely
-4. Allow opponent to move arm freely and check for injury
-5. Never jerk or spike the arm during release
-
-
-**Training Restrictions**:
-- Never apply explosive or jerking motions to the shoulder
-- Always pause at 50-70% pressure to allow tap response time
-- Never use competition finishing speed during drilling
-- Stop immediately if partner cannot tap with free hand
-- Avoid training this submission with injured or recovering partners
-
+**Starting Position**: [[Positions/Side Control]] · **From**: [[Positions/Side Control]] (Top)
 
 </section>
 
@@ -241,16 +240,14 @@ The Kimura from Side Control is one of the most fundamental and high-percentage 
 - [[Positions/Knee on Belly]]
 - [[Positions/Side Control/Scarf Hold Position]]
 - [[Positions/Side Control/Modified Scarf Hold]]
-- [[Positions/Side Control]]
 - [[Positions/Turtle]]
 
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Kimura]]
 - [[Transitions/Kimura from Half Guard]]
 - [[Submissions/Americana]]
@@ -261,14 +258,6 @@ The Kimura from Side Control is one of the most fundamental and high-percentage 
 - [[Transitions/Darce Choke]]
 - [[Submissions/Kesa Gatame Arm Crush]]
 - [[Submissions/Ezekiel Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Kimura Trap]] - Control system based on maintaining Kimura grip for positional dominance
 - [[Transitions/Kimura to Back Take]] - Transition when opponent defends by turning into the submission
 - [[Transitions/Rolling Kimura]] - Variation that follows opponent's defensive turn with forward roll
@@ -279,20 +268,50 @@ The Kimura from Side Control is one of the most fundamental and high-percentage 
 - [[Positions/Crucifix]] - Alternative control position accessible via Kimura grip when opponent turns
 - [[Positions/Side Control]] - Primary starting position for this submission
 - [[Positions/Back Control]] - Position accessible when opponent defends by turning away
-- [[Submissions/Far Side Armbar]] - Alternative submission when opponent straightens arm to escape
-- [[Submissions/Americana]] - Related shoulder lock attacking the same joint from opposite direction
+
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Shoulder dislocation (anterior or posterior) | High | 6-12 weeks with potential surgical intervention |
+| Rotator cuff tear (supraspinatus, infraspinatus) | High | 8-16 weeks, may require surgery |
+| Labrum tear (SLAP lesion) | High | 12-24 weeks with surgical repair |
+| Biceps tendon strain or rupture | Medium | 4-8 weeks for strain, 12+ weeks for rupture |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum from position establishment to submission pressure
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any verbal signal)
+- Physical hand tap on opponent or mat
+- Physical foot tap on mat
+- Any distress vocalization or signal
+
+
+**Release Protocol**:
+1. Immediately release rotational pressure on the arm
+2. Lower the opponent's arm back toward the mat in controlled manner
+3. Release the figure-four grip completely
+4. Allow opponent to move arm freely and check for injury
+5. Never jerk or spike the arm during release
+
+
+**Training Restrictions**:
+- Never apply explosive or jerking motions to the shoulder
+- Always pause at 50-70% pressure to allow tap response time
+- Never use competition finishing speed during drilling
+- Stop immediately if partner cannot tap with free hand
+- Avoid training this submission with injured or recovering partners
 
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Kimura from Side Control leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

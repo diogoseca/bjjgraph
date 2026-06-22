@@ -10,6 +10,41 @@ description: "Master passing the feet on hips guard in BJJ. Complete guide to br
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Pass Feet on Hips Guard",
+  "description": "Master passing the feet on hips guard in BJJ. Complete guide to breaking leg frames, establishing grip control, and executing systematic passes from top.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Pass Feet on Hips Guard", "item": "https://bjjgraph.org/Transitions/Pass-Feet-on-Hips-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Pass Feet on Hips Guard",
+  "description": "Pass Feet on Hips Guard is the top player's systematic dismantling of an open-guard player's bilateral foot frames, controlling the knees with pants grips, breaking one frame at a time to create asymmetry, then driving through to side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master passing the feet on hips guard in BJJ. Complete guide to br
 </div>
 
 <section id="overview" class="content-section">
+
+**Pass Feet on Hips Guard is the top player's systematic dismantling of an open-guard player's bilateral foot frames, controlling the knees with pants grips, breaking one frame at a time to create asymmetry, then driving through to side control.**
 
 Passing the feet on hips guard is one of the most common guard passing scenarios in Brazilian Jiu-Jitsu, encountered whenever the bottom player establishes open guard with both feet placed on the passer's hip bones. This passing sequence requires systematic dismantling of the guard player's leg frames through precise grip control, forward pressure management, and strategic angle changes. The technique represents the fundamental challenge of open guard passing: neutralizing an opponent's primary defensive structure without exposing yourself to sweeps or submissions during the process. Success depends entirely on methodical execution rather than explosive athleticism.
 
@@ -226,5 +263,7 @@ Pass Feet on Hips Guard sits at the foundation of the open guard passing system,
 
 
 </section>
+
+
 
 </main>

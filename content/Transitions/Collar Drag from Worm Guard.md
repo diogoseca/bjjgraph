@@ -10,6 +10,41 @@ description: "Master the collar drag from worm guard in BJJ. Step-by-step guide 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Collar Drag from Worm Guard",
+  "description": "Master the collar drag from worm guard in BJJ. Step-by-step guide to converting lapel guard control into a powerful drag to dominant front headlock position.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Collar Drag from Worm Guard", "item": "https://bjjgraph.org/Transitions/Collar-Drag-from-Worm-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Collar Drag from Worm Guard",
+  "description": "The collar drag from worm guard is a gi-specific transition where a deep collar grip pulls a posturing opponent forward and down while the lapel-trapped lead leg blocks their retreat, converting bottom guard into front headlock control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the collar drag from worm guard in BJJ. Step-by-step guide 
 </div>
 
 <section id="overview" class="content-section">
+
+**The collar drag from worm guard is a gi-specific transition where a deep collar grip pulls a posturing opponent forward and down while the lapel-trapped lead leg blocks their retreat, converting bottom guard into front headlock control.**
 
 The collar drag from worm guard is an advanced gi-specific transition that exploits the unique mechanical advantages of worm guard to execute a wrestling-style collar drag, pulling the opponent forward and down into front headlock control. The worm guard's lapel wrap immobilizes the opponent's lead leg, preventing them from stepping back to resist the drag, which dramatically increases the success rate compared to collar drags from other guard positions. This makes the collar drag one of the most reliable methods for the worm guard player to transition from bottom position to a dominant top position without relying on traditional sweeping mechanics.
 
@@ -222,5 +259,7 @@ The collar drag from worm guard integrates into the broader worm guard attack sy
 
 
 </section>
+
+
 
 </main>

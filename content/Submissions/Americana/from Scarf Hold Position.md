@@ -10,10 +10,55 @@ description: "Master the Americana shoulder lock from Scarf Hold Position. Learn
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Americana from Scarf Hold Position targets the Shoulder joint (specifically glenohumeral joint and rotator cuff). Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Americana from Scarf Hold Position",
+  "description": "Master the Americana shoulder lock from Scarf Hold Position. Learn figure-four grip setup, perpendicular finishing angle, and safe application from kesa gatame.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Americana from Scarf Hold Position", "item": "https://bjjgraph.org/Submissions/Americana-from-Scarf-Hold-Position" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Americana from Scarf Hold Position",
+  "description": "The Americana from Scarf Hold Position is a figure-four shoulder lock applied from kesa gatame, using the top player's perpendicular seating angle to rotate the trapped near arm and torque the opponent's glenohumeral joint until they tap.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Americana from Scarf Hold Position is a figure-four shoulder lock applied from kesa gatame, using the top player's perpendicular seating angle to rotate the trapped near arm and torque the opponent's glenohumeral joint until they tap.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Shoulder Lock</span>
+<span class="meta-chip">Targets Shoulder joint (specifically glenohumeral joint and rotator cuff)</span>
+<span class="meta-chip">68% success</span>
+</div>
+
+> [!danger] Safety
+> Americana from Scarf Hold Position targets the Shoulder joint (specifically glenohumeral joint and rotator cuff). Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -24,63 +69,13 @@ description: "Master the Americana shoulder lock from Scarf Hold Position. Learn
 
 <section id="overview" class="content-section">
 
-The Americana from Scarf Hold Position leverages the unique perpendicular angle of kesa gatame to attack the opponent's trapped near arm with a figure-four shoulder lock. Unlike the Americana from mount or side control, the scarf hold variant benefits from existing head-and-arm control that naturally positions the attacker's hands near the target wrist. The perpendicular seating angle generates rotational leverage on the glenohumeral joint through body mechanics rather than pure arm strength, making this one of the highest-percentage americana setups in grappling.
+Within the americana family, the scarf hold entry occupies a distinct niche because kesa gatame already supplies the head-and-arm control that other variants must first establish. Unlike the Americana from mount or side control, this variant positions the attacker's hands near the target wrist from the outset, shortening the path to the figure-four. The perpendicular seating angle generates rotational leverage on the glenohumeral joint through body mechanics rather than pure arm strength, making this one of the highest-percentage americana setups in grappling.
 
 From the scarf hold, the attacker transitions from head control to wrist control while maintaining crushing hip pressure against the opponent's ribcage. The figure-four grip is established with the near arm securing the wrist and the far arm threading behind it, creating the classic paint brush finishing motion. The perpendicular angle means the attacker can use their entire torso rotation to drive the wrist toward the mat, applying substantially more force than arm-based finishes from parallel positions.
 
 Defensively, the bottom player must recognize the grip transition early and fight to straighten their arm before the figure-four locks in. Once the figure-four is secured with the elbow pinned, escape becomes extremely difficult. The scarf hold Americana represents a fundamental submission that rewards patience, grip precision, and understanding of rotational shoulder mechanics over explosive athleticism.
 
-**Category**: Joint Lock
-**Type**: Shoulder Lock
-**Target Area**: Shoulder joint (specifically glenohumeral joint and rotator cuff)
-**Starting Position**: [[Positions/Side Control/Scarf Hold Position]]
-**From Position**: [[Positions/Side Control/Scarf Hold Position]] (Top)
-**Success Rate**: 68%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Rotator cuff tear (supraspinatus, infraspinatus, teres minor) | High | 3-6 months with physical therapy, possible surgical intervention |
-| Shoulder capsule damage and labral tears | High | 4-8 months, often requires surgery |
-| AC joint separation or damage | Medium | 6-12 weeks depending on grade |
-| Glenohumeral joint dislocation | CRITICAL | 3-6 months, high risk of chronic instability |
-| Biceps tendon strain or tear | Medium | 4-8 weeks for strain, 3-4 months for tear |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from initial pressure to expected tap. In drilling, apply 10-20% pressure maximum.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any verbal signal)
-- Physical hand tap on opponent or mat (minimum 2 taps)
-- Physical foot tap on mat or opponent
-- Any distress vocalization or unusual sound
-- Slapping mat with free hand repeatedly
-
-
-**Release Protocol**:
-1. Immediately stop all rotational pressure on the shoulder
-2. Release the figure-four grip on the wrist
-3. Carefully lower the arm back to neutral position (do not drop suddenly)
-4. Release control of the elbow and allow opponent to move freely
-5. Check with partner verbally to ensure they are okay
-6. If partner indicates pain, encourage them to keep shoulder mobile and seek medical attention if pain persists
-
-
-**Training Restrictions**:
-- Never spike, jerk, or apply sudden rotational force
-- Never use competition speed or full pressure in training
-- Always allow clear access to tap with free hand
-- Stop immediately at any sign of discomfort (do not wait for tap in drilling)
-- Never practice on partners with existing shoulder injuries without explicit permission and medical clearance
-- Avoid repeated submissions on the same shoulder in a single training session
-
+**Starting Position**: [[Positions/Side Control/Scarf Hold Position]] · **From**: [[Positions/Side Control/Scarf Hold Position]] (Top)
 
 </section>
 
@@ -225,41 +220,66 @@ Defensively, the bottom player must recognize the grip transition early and figh
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Americana]]
 - [[Submissions/Kimura]]
 - [[Transitions/Arm Triangle]]
 - [[Submissions/Kesa Gatame Arm Crush]]
 - [[Submissions/Far Side Armbar]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Side Control/Scarf Hold Position]] - Primary starting position for this submission variant
-- [[Submissions/Americana]] - Parent submission family - this is the scarf hold specific variant
 - [[Positions/Side Control/Kesa Gatame]] - Traditional judo name for scarf hold - alternate entry point
 - [[Positions/Side Control]] - Adjacent position family with different americana mechanics
-- [[Submissions/Kimura]] - Chain submission when opponent defends americana by straightening arm
 - [[Positions/Side Control/Modified Scarf Hold]] - Variant position where similar americana setup applies
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Rotator cuff tear (supraspinatus, infraspinatus, teres minor) | High | 3-6 months with physical therapy, possible surgical intervention |
+| Shoulder capsule damage and labral tears | High | 4-8 months, often requires surgery |
+| AC joint separation or damage | Medium | 6-12 weeks depending on grade |
+| Glenohumeral joint dislocation | CRITICAL | 3-6 months, high risk of chronic instability |
+| Biceps tendon strain or tear | Medium | 4-8 weeks for strain, 3-4 months for tear |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum from initial pressure to expected tap. In drilling, apply 10-20% pressure maximum.
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any verbal signal)
+- Physical hand tap on opponent or mat (minimum 2 taps)
+- Physical foot tap on mat or opponent
+- Any distress vocalization or unusual sound
+- Slapping mat with free hand repeatedly
+
+
+**Release Protocol**:
+1. Immediately stop all rotational pressure on the shoulder
+2. Release the figure-four grip on the wrist
+3. Carefully lower the arm back to neutral position (do not drop suddenly)
+4. Release control of the elbow and allow opponent to move freely
+5. Check with partner verbally to ensure they are okay
+6. If partner indicates pain, encourage them to keep shoulder mobile and seek medical attention if pain persists
+
+
+**Training Restrictions**:
+- Never spike, jerk, or apply sudden rotational force
+- Never use competition speed or full pressure in training
+- Always allow clear access to tap with free hand
+- Stop immediately at any sign of discomfort (do not wait for tap in drilling)
+- Never practice on partners with existing shoulder injuries without explicit permission and medical clearance
+- Avoid repeated submissions on the same shoulder in a single training session
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Americana from Scarf Hold Position leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

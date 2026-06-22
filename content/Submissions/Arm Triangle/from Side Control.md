@@ -10,10 +10,55 @@ description: "Master the Arm Triangle from Side Control in BJJ. Complete finishi
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: Arm Triangle from Side Control targets the Carotid arteries (compressed by opponent's own shoulder and your arm). Risk: Loss of consciousness from bilateral carotid compression. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Arm Triangle from Side Control",
+  "description": "Master the Arm Triangle from Side Control in BJJ. Complete finishing mechanics, defensive counters, and progressive training drills for this high-percentage blood choke.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Arm Triangle from Side Control", "item": "https://bjjgraph.org/Submissions/Arm-Triangle-from-Side-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Arm Triangle from Side Control",
+  "description": "The arm triangle from side control is a head-and-arm blood choke that pins the defender's own shoulder against one carotid while the attacker's forearm compresses the other, finished by walking to a perpendicular angle and dropping chest weight.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The arm triangle from side control is a head-and-arm blood choke that pins the defender's own shoulder against one carotid while the attacker's forearm compresses the other, finished by walking to a perpendicular angle and dropping chest weight.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries (compressed by opponent's own shoulder and your arm)</span>
+<span class="meta-chip">62% success</span>
+</div>
+
+> [!danger] Safety
+> Arm Triangle from Side Control targets the Carotid arteries (compressed by opponent's own shoulder and your arm). Primary risk: Loss of consciousness from bilateral carotid compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,53 +75,7 @@ What makes the arm triangle from side control particularly dangerous is its natu
 
 At the highest levels of competition, the arm triangle from side control remains one of the most reliable and frequently used finishes in both gi and no-gi formats. Its effectiveness stems from the fact that the submission becomes available precisely when the opponent is most active in their escape attempts, turning their defensive energy into the mechanism of their own defeat.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries (compressed by opponent's own shoulder and your arm)
-**Starting Position**: [[Positions/Side Control]]
-**From Position**: [[Positions/Side Control]] (Top)
-**Success Rate**: 62%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Loss of consciousness from bilateral carotid compression | High | Immediate recovery if released promptly; potential neurological risk if held beyond 10 seconds after unconsciousness |
-| Neck strain from improper pressure angle or cranking | Medium | 3-7 days with rest |
-| Shoulder compression injury to trapped arm | Medium | 5-14 days depending on severity |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from lock to tap. Blood chokes can cause unconsciousness in 6-8 seconds. Never spike or jerk the squeeze.
-
-**Tap Signals**:
-- Verbal tap (say 'tap' clearly)
-- Physical hand tap (multiple taps on opponent or mat)
-- Physical foot tap (multiple taps with foot)
-- Any distress signal or sudden loss of resistance
-- Immediately release if opponent goes limp
-
-
-**Release Protocol**:
-1. Immediately release arm squeeze and remove chest pressure upon any tap signal
-2. Disengage from head-and-arm grip and move away from opponent's head
-3. Allow opponent to breathe and recover fully (30-60 seconds minimum)
-4. Check for consciousness, normal breathing, and coherent verbal response
-5. If unconscious: position on side in recovery position, elevate legs, monitor breathing, seek medical attention if not conscious within 20 seconds
-
-
-**Training Restrictions**:
-- Apply smooth progressive pressure only - never spike or jerk the squeeze
-- Release immediately upon any tap signal without hesitation
-- Always allow at least one hand free for tapping during training
-- Never apply competition-speed finishing pressure in training - prioritize control over speed
-- Stop immediately if opponent's face changes color or shows signs of distress
-
+**Starting Position**: [[Positions/Side Control]] · **From**: [[Positions/Side Control]] (Top)
 
 </section>
 
@@ -240,44 +239,59 @@ At the highest levels of competition, the arm triangle from side control remains
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Transitions/Arm Triangle]]
-- [[Arm Triangle from High Mount]]
-- [[Arm Triangle from Kesa Gatame]]
-- [[Arm Triangle from Kuzure Kesa-Gatame]]
-- [[Americana from Side Control]]
-- [[Kimura from Side Control]]
 - [[Transitions/Anaconda Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Side Control]] - Starting position where the arm triangle setup begins through crossface pressure and arm trapping
-- [[Transitions/Arm Triangle]] - Parent submission family encompassing all head-and-arm choke variations
 - [[Positions/Mount]] - Alternative dominant position to advance to if arm triangle setup stalls
 - [[Positions/North-South]] - Transition option when opponent defends the arm triangle by keeping arms tight
-- [[Americana from Side Control]] - Alternative shoulder lock attack available from the same side control position
-- [[Kimura from Side Control]] - Complementary shoulder lock that chains with arm triangle when opponent extends arm to defend
 - [[Positions/Half Guard]] - Common position defender may recover to during failed arm triangle attempts
 
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Loss of consciousness from bilateral carotid compression | High | Immediate recovery if released promptly; potential neurological risk if held beyond 10 seconds after unconsciousness |
+| Neck strain from improper pressure angle or cranking | Medium | 3-7 days with rest |
+| Shoulder compression injury to trapped arm | Medium | 5-14 days depending on severity |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum from lock to tap. Blood chokes can cause unconsciousness in 6-8 seconds. Never spike or jerk the squeeze.
+
+**Tap Signals**:
+- Verbal tap (say 'tap' clearly)
+- Physical hand tap (multiple taps on opponent or mat)
+- Physical foot tap (multiple taps with foot)
+- Any distress signal or sudden loss of resistance
+- Immediately release if opponent goes limp
+
+
+**Release Protocol**:
+1. Immediately release arm squeeze and remove chest pressure upon any tap signal
+2. Disengage from head-and-arm grip and move away from opponent's head
+3. Allow opponent to breathe and recover fully (30-60 seconds minimum)
+4. Check for consciousness, normal breathing, and coherent verbal response
+5. If unconscious: position on side in recovery position, elevate legs, monitor breathing, seek medical attention if not conscious within 20 seconds
+
+
+**Training Restrictions**:
+- Apply smooth progressive pressure only - never spike or jerk the squeeze
+- Release immediately upon any tap signal without hesitation
+- Always allow at least one hand free for tapping during training
+- Never apply competition-speed finishing pressure in training - prioritize control over speed
+- Stop immediately if opponent's face changes color or shows signs of distress
+
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of Arm Triangle from Side Control leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

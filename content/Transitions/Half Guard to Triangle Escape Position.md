@@ -10,6 +10,41 @@ description: "Learn how to recognize and transition into triangle escape positio
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Half Guard to Triangle Escape Position",
+  "description": "Learn how to recognize and transition into triangle escape position from half guard top in BJJ. Covers posture recovery, defensive frames, and escape mechanics.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Half Guard to Triangle Escape Position", "item": "https://bjjgraph.org/Transitions/Half-Guard-to-Triangle-Escape-Position" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Half Guard to Triangle Escape Position",
+  "description": "Half Guard to Triangle Escape Position is the defensive transition where a half guard top player caught in a developing triangle establishes posture, base, and arm protection to convert the submission threat into a structured, escapable position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Learn how to recognize and transition into triangle escape positio
 </div>
 
 <section id="overview" class="content-section">
+
+**Half Guard to Triangle Escape Position is the defensive transition where a half guard top player caught in a developing triangle establishes posture, base, and arm protection to convert the submission threat into a structured, escapable position.**
 
 Transition to Triangle Escape Position addresses one of the most dangerous moments for a half guard top player: getting caught in a triangle choke during a passing attempt. When the top player leads with their head during knee slice or pressure passes, the bottom player can capture the head and one arm in a triangle configuration. This transition covers the critical defensive sequence of recognizing the triangle threat and immediately establishing a structured escape position rather than panicking or making the situation worse through explosive, uncontrolled reactions.
 
@@ -220,5 +257,7 @@ This transition occupies a critical defensive junction in the BJJ positional hie
 
 
 </section>
+
+
 
 </main>

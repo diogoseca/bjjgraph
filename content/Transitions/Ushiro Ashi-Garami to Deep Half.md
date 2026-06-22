@@ -10,6 +10,41 @@ description: "Learn Ushiro Ashi-Garami to Deep Half Guard transition in BJJ. Esc
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Ushiro Ashi-Garami to Deep Half",
+  "description": "Learn Ushiro Ashi-Garami to Deep Half Guard transition in BJJ. Escape reversed leg entanglement to sweeping position. Success: Beginner 25%, Intermediate 45%, Advanced 65%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Ushiro Ashi-Garami to Deep Half", "item": "https://bjjgraph.org/Transitions/Ushiro-Ashi-Garami-to-Deep-Half" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Ushiro Ashi-Garami to Deep Half",
+  "description": "Ushiro Ashi-Garami to Deep Half is a bottom escape that redirects the inversion of a reversed leg entanglement downward, threading beneath the opponent's hips to clear the trapped leg and consolidate a sweeping deep half guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Learn Ushiro Ashi-Garami to Deep Half Guard transition in BJJ. Esc
 
 <section id="overview" class="content-section">
 
-The Ushiro Ashi-Garami to Deep Half Guard transition is an advanced defensive technique that converts a compromised reversed leg entanglement into a strong sweeping and recovery position. When trapped in ushiro ashi-garami bottom, the defender leverages their inverted hip orientation to thread underneath the opponent's hips and establish deep half guard, simultaneously clearing the leg entanglement and creating offensive opportunities.
+**Ushiro Ashi-Garami to Deep Half is a bottom escape that redirects the inversion of a reversed leg entanglement downward, threading beneath the opponent's hips to clear the trapped leg and consolidate a sweeping deep half guard.**
+
+Within the modern leg-lock escape hierarchy, the Ushiro Ashi-Garami to Deep Half Guard transition occupies the narrow band between fighting for a turtle escape and accepting deeper entanglement. When trapped in ushiro ashi-garami bottom, the defender leverages their inverted hip orientation to thread underneath the opponent's hips and establish deep half guard, simultaneously clearing the leg entanglement and creating offensive opportunities.
 
 This transition exploits a fundamental biomechanical reality: the inverted hip position that makes ushiro ashi-garami dangerous also creates a natural pathway underneath the opponent's center of gravity. By redirecting escape momentum downward rather than continuing rotation toward turtle, the defender can thread their body beneath the opponent's hips, establish an underhook on the far leg, and consolidate deep half guard. The opponent's commitment to maintaining the reversed leg entanglement often leaves them poorly based to resist the deep half entry.
 
@@ -218,5 +255,7 @@ The Ushiro Ashi-Garami to Deep Half transition fills a critical gap in the leg e
 
 
 </section>
+
+
 
 </main>

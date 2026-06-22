@@ -10,9 +10,48 @@ description: "Master K-Guard position in BJJ. Dynamic half guard variation with 
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "K-Guard",
+  "description": "Master K-Guard position in BJJ. Dynamic half guard variation with inverted hook mechanics, sweep chains, and back-take opportunities. Complete perspective analysis.",
+  "alternateName": ["K Guard"],
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "K-Guard", "item": "https://bjjgraph.org/Positions/K-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "K-Guard",
+  "description": "K-Guard is a dynamic half-guard variation where the bottom player threads an inverted inside hook across the opponent's trapped leg while a butterfly hook elevates, forming a 'K' shape that powers sweeps and back-takes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>K Guard</strong></p>
+</aside>
 <div class="role-links">
 
 [[K-Guard/Bottom|Play as Bottom]]
@@ -22,7 +61,9 @@ description: "Master K-Guard position in BJJ. Dynamic half guard variation with 
 
 <section id="overview" class="content-section">
 
-K-Guard is a dynamic half guard variation characterized by an inverted butterfly hook configuration that creates a distinct 'K' shape with the legs. This position combines elements of deep half guard retention with butterfly guard mechanics, allowing the bottom practitioner to maintain distance control while threatening immediate sweeps and back-takes. From the top perspective, it presents unique passing challenges requiring systematic pressure and grip dominance to overcome the bottom player's active hook system and framing structures.
+**K-Guard is a dynamic half-guard variation where the bottom player threads an inverted inside hook across the opponent's trapped leg while a butterfly hook elevates, forming a 'K' shape that powers sweeps and back-takes.**
+
+Sitting at the intersection of deep half guard and butterfly guard, K-Guard weaponizes an inverted hook configuration to convert an opponent's passing pressure into sweep and back-take chains. This position combines elements of deep half guard retention with butterfly guard mechanics, allowing the bottom practitioner to maintain distance control while threatening immediate sweeps and back-takes. From the top perspective, it presents unique passing challenges requiring systematic pressure and grip dominance to overcome the bottom player's active hook system and framing structures.
 
 The position excels as both a retention platform and an offensive launching point, particularly effective against pressure passers who attempt to flatten or smash through traditional half guard structures. The inverted hook configuration naturally creates angles that disrupt the top player's base while maintaining connection points that prevent disengagement. This makes K-Guard particularly valuable in modern no-gi competition where traditional half guard grips may be unavailable.
 
@@ -262,6 +303,16 @@ Strategically, K-Guard represents a transitional hub position where the bottom p
 
 - **[[Positions/Headquarters Position]]** - Systematic passing framework applicable to K-Guard top scenarios
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Craig-Jones-Leg-Lock-System" data-cta="related-system-card" data-system-slug="systems/craig-jones-leg-lock-system" data-system-name="Craig Jones Leg Lock System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Craig Jones Leg Lock System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Specialized seated guard optimized for direct entries into leg entanglement positions</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

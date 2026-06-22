@@ -13,7 +13,8 @@
   "application_level": "Intermediate",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
-  "overview": "Positional Hierarchy represents the fundamental strategic concept of ranking BJJ positions by their relative value based on control capability, submission potential, escape difficulty, and competitive scoring, providing systematic framework for tactical decision-making throughout rolling and competition. Unlike specific techniques, positional hierarchy is comprehensive strategic guideline determining which positions to seek, which to avoid, and when to trade positions for tactical advantage. This concept encompasses the game-theoretic understanding that positions exist on continuum from highly advantageous (mount, back control) to highly disadvantageous (mounted, back controlled), with intermediate positions (guards, turtle) offering varying degrees of defensive and offensive potential. Positional hierarchy serves as both strategic compass guiding position selection and risk management tool enabling intelligent position trading decisions. The ability to understand and apply positional hierarchy consistently determines strategic sophistication and tactical decision quality, making it one of the most essential conceptual elements for strategic BJJ development.",
+  "summary": "Positional Hierarchy is the strategic ranking of BJJ positions by control, submission access, escape difficulty, and competitive scoring, guiding which positions to seek, hold, or trade for advantage.",
+  "overview": "Every grappling exchange is governed by an implicit ranking of positions that experienced competitors internalize long before they can articulate it — the difference between a white belt who scrambles randomly and a brown belt who methodically climbs toward dominance. Unlike specific techniques, this framework is a comprehensive strategic guideline determining which positions to seek, which to avoid, and when to trade positions for tactical advantage. It encompasses the game-theoretic understanding that positions exist on a continuum from highly advantageous (mount, back control) to highly disadvantageous (being mounted, back controlled), with intermediate positions (guards, turtle) offering varying degrees of defensive and offensive potential. The concept serves as both a strategic compass guiding position selection and a risk-management tool enabling intelligent position-trading decisions. The ability to apply positional hierarchy consistently — converting it from conscious calculation into reflexive navigation — is what separates strategically sophisticated grapplers from those who merely accumulate techniques without an organizing logic to deploy them.",
   "key_principles": [
     "Recognize that positions have objective value hierarchy independent of personal preference",
     "Prioritize achieving higher-value positions before attempting submissions from lower-value positions",
@@ -81,9 +82,9 @@
       "description": "Energy Conservation utilizes hierarchical understanding to allocate energy efficiently, expending more energy to achieve significant hierarchical gains while conserving energy in neutral or favorable positions."
     },
     {
-      "principle_name": "Timing and Rhythm",
+      "principle_name": "Position Chains",
       "relationship_type": "Prerequisite",
-      "description": "Timing and Rhythm provides foundational decision-making framework that enables intelligent application of positional hierarchy by evaluating when to commit to hierarchical advancement and when to maintain current position."
+      "description": "Position Chains provide the connected technical progressions that enable intelligent application of positional hierarchy, supplying the sequenced pathways needed to climb from lower-value to higher-value positions deliberately."
     },
     {
       "principle_name": "Competition Mindset",
@@ -116,9 +117,9 @@
       "description": "Connection Principles utilize hierarchical understanding to select optimal transitional paths between positions, ensuring movements consistently advance up hierarchy rather than creating lateral or descending positional changes."
     },
     {
-      "principle_name": "Position Chains",
-      "relationship_type": "Extension",
-      "description": "Position Chains apply hierarchical principles to construct multi-step sequences that systematically climb positional hierarchy through connected technical progressions."
+      "principle_name": "Positional Sparring",
+      "relationship_type": "Complementary",
+      "description": "Positional Sparring operationalizes hierarchy training by isolating specific tiers, letting practitioners repeatedly experience the control, submission, and escape characteristics that define each level of the hierarchy."
     }
   ],
   "application_contexts": [
@@ -175,12 +176,8 @@
       "how_applied": "Holds medium hierarchical position with excellent sweep mechanics and back take opportunities, using hierarchical understanding to balance between sweep attempts and guard retention when pressure threatens position loss."
     },
     {
-      "context": "Standing Position",
+      "context": "Clinch",
       "how_applied": "Occupies neutral hierarchical position where both offensive takedown opportunities and defensive sprawl requirements exist, using hierarchy to determine whether to initiate engagement or maintain distance based on takedown skill differential."
-    },
-    {
-      "context": "Standing Position",
-      "how_applied": "Represents neutral hierarchical state requiring rapid position value assessment to determine which emerging position to pursue, using hierarchy to guide split-second decisions about committing to specific positional outcomes during transitions."
     },
     {
       "context": "Technical Mount",
@@ -396,14 +393,48 @@
       "relationship": "Resource allocation framework - uses hierarchical understanding to optimize energy investment for maximum strategic return"
     },
     {
-      "name": "Timing and Rhythm",
+      "name": "Position Chains",
       "content_type": "Principle",
-      "relationship": "Decision-making foundation - provides timing evaluation framework enabling intelligent hierarchical advancement decisions and risk assessment"
+      "relationship": "Sequenced progression framework - supplies the connected technical pathways used to climb deliberately from lower-value to higher-value positions"
     },
     {
       "name": "Competition Mindset",
       "content_type": "Principle",
       "relationship": "Strategic extension - extends hierarchical understanding into comprehensive game planning and match strategy for competitive contexts"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What is positional hierarchy in BJJ?",
+      "answer": "It is the strategic ranking of positions by control, submission access, escape difficulty, and competitive scoring, used to decide which positions to seek, hold, or trade for advantage rather than treating all positions as equal."
+    },
+    {
+      "question": "Why should you advance position before attempting a submission from an inferior spot?",
+      "answer": "Submissions from inferior positions have low success rates and high downside; if they fail you often descend further, so securing mount or back control first raises the finish rate while stripping the opponent of escapes."
+    },
+    {
+      "question": "When is giving up a position actually a strategic gain?",
+      "answer": "When the position you trade into ranks higher on the hierarchy - offering better control, more submission access, or harder escapes for the opponent - making the exchange a net climb rather than a loss."
+    },
+    {
+      "question": "What does the defensive hierarchy tell you to prioritize when stuck in a bad position?",
+      "answer": "Prevent further descent first: stop the worse position, such as a back take from turtle, before attempting any offense, allocating defensive urgency in proportion to the hierarchical danger of each position."
+    },
+    {
+      "question": "How does competition scoring relate to positional hierarchy?",
+      "answer": "Points roughly mirror the hierarchy - mount and back control score highest while sweeps and passes reward climbing - so playing the hierarchy and maximizing points usually align in a competition setting."
+    },
+    {
+      "question": "What common error involves personal position preference?",
+      "answer": "Chasing favorite or comfortable positions that rank lower than available alternatives, sacrificing objective strategic advantage for familiarity instead of developing the higher-value positions that the hierarchy favors."
+    },
+    {
+      "question": "How do you decide whether to attack a submission or keep advancing position?",
+      "answer": "Compare the submission's likely success from the current spot against the gain from advancing first; if a higher position would raise the finish rate more than an immediate attempt, keep climbing before attacking."
+    },
+    {
+      "question": "Why is abandoning a dominant position for a low-percentage submission a mistake?",
+      "answer": "It trades a secure high-hierarchy position for a speculative finish; if the submission fails you often lose the position entirely, a poor risk-reward exchange that discards hard-earned strategic advantage."
     }
   ]
 }

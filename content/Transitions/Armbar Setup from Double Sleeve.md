@@ -10,6 +10,41 @@ description: "Master the armbar setup from double sleeve guard in BJJ. Complete 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Armbar Setup from Double Sleeve",
+  "description": "Master the armbar setup from double sleeve guard in BJJ. Complete guide to sleeve control, hip rotation mechanics, and high-percentage submission entries.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Armbar Setup from Double Sleeve", "item": "https://bjjgraph.org/Transitions/Armbar-Setup-from-Double-Sleeve" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Armbar Setup from Double Sleeve",
+  "description": "Armbar Setup from Double Sleeve is a gi guard attack where the bottom player uses bilateral sleeve grips and a foot-on-bicep frame to isolate one arm, break posture, and pivot the hips into armbar control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the armbar setup from double sleeve guard in BJJ. Complete 
 </div>
 
 <section id="overview" class="content-section">
+
+**Armbar Setup from Double Sleeve is a gi guard attack where the bottom player uses bilateral sleeve grips and a foot-on-bicep frame to isolate one arm, break posture, and pivot the hips into armbar control.**
 
 The Armbar Setup from Double Sleeve Guard is a high-percentage submission entry that exploits bilateral sleeve control to isolate one arm and transition into armbar control. This technique represents one of the most direct offensive threats available from the double sleeve guard system, converting grip dominance into a submission opportunity through precise hip rotation and leg placement mechanics. The setup is particularly effective because controlling both sleeves simultaneously prevents the opponent from posting defensively or framing against the pivoting motion that establishes the armbar position.
 
@@ -222,5 +259,7 @@ The armbar setup from double sleeve guard occupies a critical position in the op
 
 
 </section>
+
+
 
 </main>

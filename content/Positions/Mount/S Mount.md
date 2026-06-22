@@ -10,6 +10,41 @@ description: "Master S Mount in BJJ - the ultimate armbar setup position. Comple
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "S Mount",
+  "description": "Master S Mount in BJJ - the ultimate armbar setup position. Complete technical guide covering control mechanics, submission chains, and transition strategies from both perspectives.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "S Mount", "item": "https://bjjgraph.org/Positions/S-Mount" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "S Mount",
+  "description": "S Mount is a dominant mount variation where the top player sits perpendicular to a flattened opponent, one leg over the head and one across the torso, isolating the near arm to create a near-inescapable armbar threat.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master S Mount in BJJ - the ultimate armbar setup position. Comple
 </div>
 
 <section id="overview" class="content-section">
+
+**S Mount is a dominant mount variation where the top player sits perpendicular to a flattened opponent, one leg over the head and one across the torso, isolating the near arm to create a near-inescapable armbar threat.**
 
 S Mount, also known as technical mount or mounted armbar position, represents one of the most dominant and submission-oriented positions in Brazilian Jiu-Jitsu. This position is characterized by the top practitioner sitting perpendicular to their opponent while maintaining mount control, with one leg extended over the opponent's head and the other leg positioned across their torso. The name derives from the S-shaped configuration created by the top person's body position relative to their opponent.
 
@@ -171,23 +208,25 @@ Historically, S Mount has been a fundamental component of Japanese judo groundwo
 ### Available Transitions
 
 
-- **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** (35% of attempts)
+- **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** (32% of attempts)
 
-- **[[Transitions/Triangle from Mount/Attacker|Triangle from Mount]]** (15% of attempts)
+- **[[Transitions/Triangle from Mount/Attacker|Triangle from Mount]]** (14% of attempts)
 
 - **[[Americana from S Mount/Attacker|Americana from S Mount]]** (7% of attempts)
 
 - **[[Kimura from S Mount/Attacker|Kimura from S Mount]]** (7% of attempts)
 
-- **[[Transitions/Back Take/Attacker|Back Take]]** (11% of attempts)
+- **[[Transitions/Back Take/Attacker|Back Take]]** (10% of attempts)
 
-- **[[Transitions/Mounted Crucifix Entry/Attacker|Mounted Crucifix Entry]]** (7% of attempts)
+- **[[Transitions/Mounted Crucifix Entry/Attacker|Mounted Crucifix Entry]]** (6% of attempts)
 
-- **[[Transitions/Gift Wrap to Back/Attacker|Gift Wrap to Back]]** (12% of attempts)
+- **[[Transitions/Gift Wrap to Back/Attacker|Gift Wrap to Back]]** (11% of attempts)
 
 - **[[Transitions/S Mount Armbar Setup/Attacker|S Mount Armbar Setup]]** (4% of attempts)
 
 - **[[Transitions/S Mount to Mounted Triangle/Attacker|S Mount to Mounted Triangle]]** (2% of attempts)
+
+- **[[Armbar from S Mount/Attacker|Armbar from S Mount]]** (7% of attempts)
 
 
 ### Common Mistakes
@@ -246,6 +285,16 @@ Historically, S Mount has been a fundamental component of Japanese judo groundwo
 
 - **[[Positions/Gift Wrap]]** - Arm control position - can lead to S Mount entry when opponent's arm is trapped
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Submission-Clinic-System" data-cta="related-system-card" data-system-slug="systems/submission-clinic-system" data-system-name="Submission Clinic System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Submission Clinic System</span><span class="system-card__unlocks-badge">Unlocks 30 techniques</span><span class="system-card__blurb">Advanced mount variation providing superior armbar and choke access</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

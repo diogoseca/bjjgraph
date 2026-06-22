@@ -325,4 +325,6 @@ The omoplata attacks the shoulder joint through rotational force on the humerus.
 
 </section>
 
+
+
 </main>

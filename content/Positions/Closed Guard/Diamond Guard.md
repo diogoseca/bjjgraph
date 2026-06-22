@@ -10,6 +10,41 @@ description: "Master Diamond Guard in BJJ. Closed guard variation using overhook
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Diamond Guard",
+  "description": "Master Diamond Guard in BJJ. Closed guard variation using overhook and head control to create a diamond frame for posture breaking, triangle setups, and omoplata chains.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Diamond Guard", "item": "https://bjjgraph.org/Positions/Diamond-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Diamond Guard",
+  "description": "Diamond Guard is a closed guard variation that pairs an overhook on one arm with head control to build a diamond-shaped frame, amplifying posture breaks and chaining triangle, omoplata, and kimura attacks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master Diamond Guard in BJJ. Closed guard variation using overhook
 
 <section id="overview" class="content-section">
 
-Diamond Guard is a specialized closed guard variation where the guard player establishes an overhook on one of the opponent's arms while simultaneously controlling the opponent's head with the other hand, creating a diamond-shaped frame between the arms, head, and chest. This configuration dramatically amplifies posture-breaking effectiveness and creates direct pathways to high-percentage submissions including triangles, omoplatas, and kimuras.
+**Diamond Guard is a closed guard variation that pairs an overhook on one arm with head control to build a diamond-shaped frame, amplifying posture breaks and chaining triangle, omoplata, and kimura attacks.**
+
+Born from modern high-control guard systems, Diamond Guard answers a recurring closed-guard problem: how to break the opponent's posture and keep it broken long enough to chain submissions. The guard player establishes an overhook on one of the opponent's arms while simultaneously controlling the opponent's head with the other hand, locking the arms, head, and chest into a tight enclosed frame. This configuration dramatically amplifies posture-breaking effectiveness and creates direct pathways to high-percentage submissions including triangles, omoplatas, and kimuras.
 
 The position derives its name from the geometric shape formed when the overhook arm, the head-controlling arm, the opponent's trapped arm, and the opponent's head create a diamond-shaped enclosed space. This structure provides exceptional control over the opponent's upper body posture and shoulder alignment, making it nearly impossible for the top player to posture up without first addressing both control points simultaneously.
 
@@ -61,10 +98,10 @@ Diamond Guard transforms standard closed guard into an aggressive submission-hun
 
 | &nbsp; | Bottom | Top |
 |--------|--------|-----|
-| **Position Type** | Offensive/Controlling | Offensive/Controlling |
-| **Risk Level** | Low to Medium | Low to Medium |
-| **Energy Cost** | Low | Low |
-| **Time** | Long | Long |
+| **Position Type** | Offensive/Controlling | Defensive |
+| **Risk Level** | Low to Medium | Medium to High |
+| **Energy Cost** | Low | High |
+| **Time** | Long | Short |
 
 **Key Difference:** Dual control trades guard mobility for sub access
 
@@ -153,19 +190,19 @@ Diamond Guard transforms standard closed guard into an aggressive submission-hun
 ### Key Principles
 
 
-- Overhook and head control work as an integrated system — losing either element significantly reduces the position's effectiveness
+- Address head control before yanking the trapped arm — broken posture makes arm extraction nearly impossible until the head is freed
 
-- The diamond shape creates a closed frame that amplifies posture-breaking force beyond standard collar grips
+- Posture recovery is the priority: re-stack the spine and lift the head above the hip line to neutralize the diamond's pulling force
 
-- Submission chains flow naturally from grip adjustments within the diamond: triangle, omoplata, kimura
+- Stripping either control point (overhook or head grip) collapses the frame, but doing so opens triangle and omoplata windows that must be managed
 
-- Maintain closed guard legs throughout to prevent distance creation and preserve the offensive framework
+- Stay heavy and drive forward to deny the distance the guard player needs to angle off for submissions
 
-- Create dilemmas by threatening multiple submissions that require different defensive responses
+- Beware committing the free hand to grip fighting — keep it available to base and prevent being swept
 
-- Position requires active management of overhook depth and head control angle to maintain offensive options
+- Escaping burns significant energy against the structural frame, so commit to a clean posture break rather than slow grinding
 
-- Energy advantage favors the guard player as maintaining the frame requires less effort than escaping it
+- Energy disadvantage favors the guard player, so the trapped top must act decisively before fatigue sets in
 
 
 ### Available Transitions
@@ -238,5 +275,7 @@ Diamond Guard transforms standard closed guard into an aggressive submission-hun
 
 
 </section>
+
+
 
 </main>

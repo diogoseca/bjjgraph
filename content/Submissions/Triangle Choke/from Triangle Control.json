@@ -1,5 +1,6 @@
 {
   "name": "Triangle Choke from Triangle Control",
+  "summary": "The triangle choke from triangle control is a blood choke finished by squeezing the legs around the opponent's neck and one trapped arm at a 30-45 degree angle, compressing both carotid arteries to force the tap.",
   "description": "Master the triangle choke finish from triangle control. Learn precise angle adjustments, hip elevation, and squeeze mechanics to tap opponents consistently.",
   "tags": [
     "bjj",
@@ -15,7 +16,7 @@
   "submission_type": "Blood Choke",
   "target_area": "Carotid arteries and brachial plexus",
   "starting_position": "Triangle Control",
-  "from_position": "Triangle Control/Bottom",
+  "from_position": "Triangle Control/Top",
   "success_rate": 65,
   "overview": "The triangle choke from triangle control is one of the highest-percentage finishes in Brazilian Jiu-Jitsu, executed once the bottom practitioner has established a locked triangle configuration around the opponent's head and one arm. Unlike triangle entries from open guard or spider guard where the lock itself is contested, this finish begins with the triangle already secured, shifting the technical focus entirely to angle optimization, hip elevation, and progressive arterial compression. The position uses the legs and hips against the vulnerable structures of the neck, creating a mechanical advantage that is difficult to overcome through strength alone.\n\nFrom a strategic standpoint, the triangle choke finish from triangle control operates as the centerpiece of a submission chain that includes armbar, omoplata, and back take transitions. The finish requires three simultaneous mechanical actions: squeezing the knees together to compress the carotid arteries, pulling the opponent's head down to eliminate posture, and elevating the hips to create a downward pressure vector. Proper angle is critical—the attacker must position their body approximately 30-45 degrees off the opponent's centerline, with the choking leg's knee pointing toward the trapped shoulder. This geometric alignment maximizes compression on both carotid arteries while the opponent's own trapped arm acts as a wedge amplifying the choke.\n\nThe finish timeline is surprisingly short once mechanics are correct. A properly locked and angled triangle can produce unconsciousness in 4-8 seconds of sustained arterial compression, making this both a highly effective and potentially dangerous technique that demands respect in training. The attacker must develop sensitivity to the opponent's defensive reactions—posturing attempts open armbar transitions, stacking opens omoplata paths, and arm extraction creates back take opportunities. This means the triangle finish is not a static hold but a dynamic interaction where the attacker constantly adjusts to maintain optimal finishing position while the defender cycles through increasingly desperate escape attempts.",
   "safety_considerations": {
@@ -66,9 +67,9 @@
   "related_submissions": [
     "Triangle Choke",
     "Inverted Triangle",
-    "Triangle Choke",
     "Gogoplata",
-    "Arm Triangle"
+    "Arm Triangle",
+    "Armbar"
   ],
   "related_content": [
     {

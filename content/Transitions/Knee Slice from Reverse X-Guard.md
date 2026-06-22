@@ -10,6 +10,41 @@ description: "Master the Knee Slice from Reverse X-Guard pass in BJJ. Complete g
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Knee Slice from Reverse X-Guard",
+  "description": "Master the Knee Slice from Reverse X-Guard pass in BJJ. Complete guide to cutting through inverted hooks with precise technique for passing to side control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Knee Slice from Reverse X-Guard", "item": "https://bjjgraph.org/Transitions/Knee-Slice-from-Reverse-X-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Knee Slice from Reverse X-Guard",
+  "description": "The Knee Slice from Reverse X-Guard is a top guard pass in which the passer degrades the bottom player's inverted hooks, then drives a knee diagonally across their thigh line to clear the legs and consolidate side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Knee Slice from Reverse X-Guard pass in BJJ. Complete g
 
 <section id="overview" class="content-section">
 
-The Knee Slice from Reverse X-Guard is a precision guard pass that exploits momentary weaknesses in the bottom player's inverted hook structure to drive a cutting knee across their thigh line and establish side control. Unlike a standard knee slice from half guard or headquarters, this variation requires the passer to first address the unique inverted hook configuration of Reverse X-Guard before committing to the slice. The technique bridges the gap between hook management and committed passing, making it essential for any top player regularly facing modern X-Guard systems.
+**The Knee Slice from Reverse X-Guard is a top guard pass in which the passer degrades the bottom player's inverted hooks, then drives a knee diagonally across their thigh line to clear the legs and consolidate side control.**
+
+Born from the modern leg-entanglement era, the Knee Slice from Reverse X-Guard adapts the familiar knee-cut mechanic to the specific problem of inverted, same-side hooks. Unlike a standard knee slice from half guard or headquarters, this variation requires the passer to first address the unique inverted hook configuration of Reverse X-Guard before committing to the slice. The technique bridges the gap between hook management and committed passing, making it essential for any top player regularly facing modern X-Guard systems.
 
 Strategically, this pass succeeds when the bottom player's primary hook behind the knee begins to weaken—whether from fatigue, failed sweep attempts, or the top player's systematic grip fighting. The passer must recognize this window and immediately transition from defensive base management to aggressive passing. Timing is critical: too early and the hooks catch the slice, too late and the bottom player re-establishes full control. The pass combines effectively with backstep passes and smash approaches, as the bottom player cannot defend all angles simultaneously.
 
@@ -223,5 +260,7 @@ The Knee Slice from Reverse X-Guard connects the defensive passing game against 
 
 
 </section>
+
+
 
 </main>

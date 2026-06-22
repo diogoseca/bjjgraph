@@ -140,10 +140,23 @@ description: "Master Andrew Wiltse's modern half guard system. Comprehensive fra
 }
 </script>
 
-> Andrew Wiltse Half Guard System is a advanced difficulty Guard System system. Integrates 5 components.
 
-**System Type**: Guard System
-**Difficulty Level**: Advanced
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Andrew Wiltse Half Guard System",
+  "description": "The Andrew Wiltse Half Guard System is an offense-first bottom half guard framework using knee shield frames and underhook control to chain sweeps, single leg X entries, and high-value back takes, treating half guard as an attacking platform rather than a defensive position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Guard System</span>
+<span class="meta-chip">Advanced difficulty</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -152,11 +165,31 @@ description: "Master Andrew Wiltse's modern half guard system. Comprehensive fra
 
 ## What is Andrew Wiltse Half Guard System?
 
+**The Andrew Wiltse Half Guard System is an offense-first bottom half guard framework using knee shield frames and underhook control to chain sweeps, single leg X entries, and high-value back takes, treating half guard as an attacking platform rather than a defensive position.**
+
 Andrew Wiltse's half guard system represents a modern evolution of bottom half guard play, emphasizing active offensive pressure over defensive stalling. The system builds around knee shield frames as the primary defensive structure, but immediately transitions into dynamic sweeping and back-taking sequences rather than passive guard retention. Wiltse's approach differs from traditional half guard systems by treating the position as a transitional hub rather than a destination, constantly creating dilemmas that force opponents to choose between defending sweeps or preventing back exposure.
 
 The system integrates seamlessly with leg entanglement positions, particularly single leg X-guard and ashi garami variations, creating a comprehensive lower body control framework. Unlike purely sweep-focused half guard systems, Wiltse's methodology prioritizes back takes as the highest-value outcome, using sweep threats to create the angular openings necessary for taking the back. This offensive philosophy transforms half guard from a defensive recovery position into a legitimate attacking platform capable of generating high-percentage scoring opportunities against elite-level opponents.
 
 The technical foundation rests on precise underhook management, hip mobility, and the ability to shift between knee shield and deep half guard variations based on opponent reactions. Practitioners learn to read pressure direction and weight distribution, using these cues to select optimal attack pathways. The system's effectiveness stems from its systematic approach to creating and exploiting defensive dilemmas, forcing opponents into lose-lose scenarios where every defensive choice opens a different offensive opportunity.
+
+</section>
+
+
+
+<section id="unlock-graph" class="content-section system-unlock" data-system-unlock hidden>
+
+## Unlock this part of the graph
+
+<p class="section-subtitle">This system teaches the highlighted nodes in the graph. Mark what you already know &mdash; be honest, it's your game.</p>
+
+<div class="system-progress" data-system-progress>
+<svg class="system-progress__ring" viewBox="0 0 44 44" aria-hidden="true"><circle class="system-progress__ring-bg" cx="22" cy="22" r="19"></circle><circle class="system-progress__ring-fill" cx="22" cy="22" r="19"></circle></svg>
+<div class="system-progress__text">You've unlocked <strong class="system-progress__known">0</strong> / <span class="system-progress__total">0</span> techniques in this system</div>
+<button class="system-progress__mark-all" data-mark-system type="button">Mark whole system as known</button>
+</div>
+
+<ul class="system-members" data-system-members></ul>
 
 </section>
 

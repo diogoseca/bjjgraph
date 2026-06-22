@@ -78,6 +78,14 @@ description: "Complete attacking guide for the Kimura from Reverse Kesa-Gatame c
     },
     {
       "@type": "Question",
+      "name": "What sensation tells you the shoulder is reaching its breaking point, and what must you do at that moment?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "As you rotate the forearm toward the mat you will feel the opponent's elbow and shoulder hit a hard stop where the joint stops yielding and the arm refuses to rotate any further—this is the anatomical limit of internal rotation, and tissue damage begins immediately past it. At that instant apply no additional force: hold steady pressure, watch and feel for the tap, and release the moment it comes. Crossing that limit explosively is what causes rotator cuff tears and dislocations."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "Why is maintaining chest pressure critical during the figure-four grip transition?",
       "acceptedAnswer": {
         "@type": "Answer",
@@ -106,14 +114,6 @@ description: "Complete attacking guide for the Kimura from Reverse Kesa-Gatame c
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Apply rotation over 3-5 seconds minimum using slow progressive pressure that gives your training partner time to recognize the danger and tap. Never jerk or spike the rotation. The shoulder joint's anatomical limit approaches gradually, and sudden force can cause rotator cuff tears or shoulder dislocation before the partner can respond. Shoulder injuries from sudden Kimura application can require surgery and months of recovery."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does body rotation generate more finishing power than arm strength alone?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hip and core rotation engages the largest muscle groups in the body rather than relying on forearm and bicep strength which fatigue quickly. Rotating the entire torso generates torque through the kinetic chain from legs through hips and core into the figure-four grip, producing significantly more force with less effort. Body rotation also maintains the chest pressure that prevents escape, whereas arm-only rotation tends to lift your body off the opponent."
       }
     }
   ]

@@ -1,5 +1,6 @@
 {
   "name": "Outside Heel Hook from 50-50 Guard",
+  "summary": "The outside heel hook from 50-50 guard is a rotational leg lock that secures the opponent's foot in a figure-four grip and rotates the heel laterally to attack the knee ligaments, finished directly from the symmetrical 50-50 entanglement.",
   "description": "Master the outside heel hook from 50-50 guard. Learn grip mechanics, heel exposure techniques, and safe finishing details for this high-risk leg lock attack.",
   "tags": [
     "bjj",
@@ -90,8 +91,8 @@
     "Heel Hook",
     "Inside Heel Hook",
     "Calf Slicer",
-    "Inside Heel Hook",
-    "Achilles Lock"
+    "Achilles Lock",
+    "Estima Lock"
   ],
   "related_content": [
     {
@@ -150,7 +151,7 @@
     }
   ],
   "attacker": {
-    "name": "from 50-50 Guard Attacker",
+    "name": "Outside Heel Hook from 50-50 Guard Attacker",
     "description": "Learn to attack with the outside heel hook from 50-50 guard. Step-by-step execution covering heel exposure, grip mechanics, and safe rotational finishing.",
     "overview": "Attacking with the outside heel hook from 50-50 guard requires establishing inside leg position, winning the grip fighting battle, exposing the opponent's heel, and applying controlled rotational force through the figure-four grip. The 50-50 configuration provides natural heel access on the outside of the opponent's leg and positional stability that allows sustained offensive pressure without risking catastrophic positional loss on failure. Success depends on systematic grip stripping, proper hip angle for maximum rotational leverage, and disciplined knee line control to prevent the spinning defense that relieves rotational pressure on the knee joint.",
     "key_principles": [
@@ -336,7 +337,7 @@
     ]
   },
   "defender": {
-    "name": "from 50-50 Guard Defender",
+    "name": "Outside Heel Hook from 50-50 Guard Defender",
     "description": "Defend the outside heel hook from 50-50 guard. Recognition cues, heel protection methods, grip fighting defense, and escape techniques for safe training.",
     "overview": "Defending the outside heel hook from 50-50 guard demands immediate heel protection through inward knee rotation, aggressive grip denial to prevent the figure-four lock, and strategic decision-making about whether to fight for positional reversal or extract to standing. The outside heel hook attacks lateral knee rotation, and once the figure-four grip is established with knee line control, escape options narrow dramatically. Early recognition and prevention within the first three seconds of the attack setup are far more effective than attempting late-stage defense against a locked submission. Understanding both the mechanical danger and the defensive timeline is essential for training this position safely.",
     "key_principles": [
@@ -444,7 +445,8 @@
       },
       {
         "question": "How do you decide between fighting for position reversal versus extracting to standing from 50-50 bottom?",
-        "answer": "Assess inside position control within the first three to five seconds. If you have inside position parity or can quickly recover it, fight for reversal using sweep mechanics and counter-attacks. If the attacker has clear inside control advantage that you cannot match, immediately shift strategy to leg extraction and standing. Fighting for reversal without inside position wastes energy, increases submission risk, and extends your time in a disadvantageous configuration."
+        "answer": "Assess inside position control within the first three to five seconds. If you have inside position parity or can quickly recover it, fight for reversal using sweep mechanics and counter-attacks. If the attacker has clear inside control advantage that you cannot match, immediately shift strategy to leg extraction and standing. Fighting for reversal without inside position wastes energy, increases submission risk, and extends your time in a disadvantageous configuration.",
+        "safety_critical": false
       }
     ],
     "training_progressions": [

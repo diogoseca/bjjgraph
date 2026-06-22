@@ -10,6 +10,41 @@ description: "Master the Transition to Z-Guard from Knee Shield Half Guard. Lear
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Knee Shield Half Guard to Z-Guard",
+  "description": "Master the Transition to Z-Guard from Knee Shield Half Guard. Learn to elevate your knee shield for superior distance control, sweep setups, and back take entries.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Knee Shield Half Guard to Z-Guard", "item": "https://bjjgraph.org/Transitions/Knee-Shield-Half-Guard-to-Z-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Knee Shield Half Guard to Z-Guard",
+  "description": "Knee Shield Half Guard to Z-Guard is a bottom-player guard upgrade that drives the knee shield from the opponent's hip up to their shoulder, forming a taller Z-shaped frame that denies pressure passing while loading sweeps and back takes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Transition to Z-Guard from Knee Shield Half Guard. Lear
 </div>
 
 <section id="overview" class="content-section">
+
+**Knee Shield Half Guard to Z-Guard is a bottom-player guard upgrade that drives the knee shield from the opponent's hip up to their shoulder, forming a taller Z-shaped frame that denies pressure passing while loading sweeps and back takes.**
 
 The Transition to Z-Guard is a positional upgrade performed by the bottom player in Knee Shield Half Guard, where the knee shield is elevated from the opponent's hip or mid-torso to target the shoulder or collarbone. This elevation fundamentally transforms the guard's defensive geometry by creating a taller, more rigid frame that prevents the top player from settling weight and eliminates most direct pressure passing options. The transition requires coordinated hip movement, grip adjustment, and precise knee placement to achieve the characteristic Z-shaped body configuration that gives the position its name.
 
@@ -221,5 +258,7 @@ The Transition to Z-Guard sits at a critical junction in the half guard hierarch
 
 
 </section>
+
+
 
 </main>

@@ -10,6 +10,41 @@ description: "Master New York Control Escape in BJJ. Systematic overhook extract
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "New York Control Escape",
+  "description": "Master New York Control Escape in BJJ. Systematic overhook extraction, posture recovery, and passing strategies against rubber guard control positions.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "New York Control Escape", "item": "https://bjjgraph.org/Transitions/New-York-Control-Escape" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "New York Control Escape",
+  "description": "The New York Control Escape is the top player's disciplined extraction from 10th Planet rubber guard New York Control: free the trapped overhook first, then clear the shoulder leg wrap to recover open guard top while defending triangle, omoplata, and gogoplata threats.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master New York Control Escape in BJJ. Systematic overhook extract
 
 <section id="overview" class="content-section">
 
-The New York Control Escape is a systematic defensive technique executed by the top player trapped in the 10th Planet rubber guard New York Control position. This escape addresses one of the most challenging defensive scenarios in modern no-gi grappling, where the bottom player's combination of a leg wrapped over the shoulder and a deep overhook creates a controlling web that nullifies standard passing mechanics while threatening gogoplata, triangle, and omoplata submissions simultaneously.
+**The New York Control Escape is the top player's disciplined extraction from 10th Planet rubber guard New York Control: free the trapped overhook first, then clear the shoulder leg wrap to recover open guard top while defending triangle, omoplata, and gogoplata threats.**
+
+Few defensive scenarios in modern no-gi grappling are as punishing as being trapped beneath the 10th Planet rubber guard's New York Control, where the bottom player's combination of a leg wrapped over the shoulder and a deep overhook creates a controlling web that nullifies standard passing mechanics while threatening gogoplata, triangle, and omoplata submissions simultaneously.
 
 The escape follows a strict sequential protocol where overhook extraction must occur before any leg removal attempts. Reversing this priority exposes the top player to cascading submission threats as the trapped arm prevents effective defensive hand fighting. The technique emphasizes lateral movement and circular base distribution rather than the forward pressure that intuitively feels correct but feeds directly into the bottom player's submission chains. Success requires patience, disciplined arm positioning with elbows tight to the body, and recognition of brief windows when the bottom player adjusts grips or transitions between attacks.
 
@@ -222,5 +259,7 @@ The New York Control Escape integrates into the broader rubber guard defensive f
 
 
 </section>
+
+
 
 </main>

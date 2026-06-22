@@ -44,8 +44,6 @@ export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
   afterBody: [
-    Component.ContentMeta({ showReadingTime: false }),
-    Component.EditOnGithub(),
     Component.Snackbar(),
     Component.TopBar(),
     Component.AuthUI(),
@@ -56,9 +54,9 @@ export const sharedPageComponents: SharedLayout = {
     Component.DecksModal(),
     Component.SettingsModal(),
     Component.SessionChevrons(),
-    Component.FirstLoadHint(),
     Component.RollSessionButton(),
     Component.Search(),
+    Component.AffiliateTracking(),
   ],
   // Footer with no links - may add social links later
   footer: Component.Footer({
@@ -71,10 +69,12 @@ export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     ...breadcrumbs,
     Component.ArticleTitle(),
+    Component.ContentMeta({ showReadingTime: false }),
     Component.VictoryDisplay(),
     Component.TreeExplorer(),
     Component.MoveCards(),
     Component.OutcomeCards(),
+    Component.SystemProgress(),
     Component.Flashcard(),
     Component.Graph({
       localGraph: { showTags: false, depth: 1 },

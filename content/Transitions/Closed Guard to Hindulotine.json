@@ -1,0 +1,355 @@
+{
+  "name": "Closed Guard to Hindulotine",
+  "description": "Catch the high-elbow guillotine from closed guard and rotate your hips to enter the Hindulotine, adding spinal torque to the choke for a high-percentage no-gi finish.",
+  "tags": [
+    "bjj",
+    "transition",
+    "guillotine",
+    "closed_guard",
+    "no-gi",
+    "submission_entry",
+    "front_headlock"
+  ],
+  "aliases": [
+    "High Elbow Guillotine to Hindulotine",
+    "Closed Guard Guillotine to Hindulotine"
+  ],
+  "from_position": "Closed Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Hindulotine/Bottom",
+      "probability": 55,
+      "result": "success"
+    },
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Side Control/Bottom",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 55,
+  "summary": "Closed Guard to Hindulotine is a guillotine entry in which the bottom player catches a high-elbow guillotine as the opponent postures forward, then angles their hips perpendicular to the spine to enter the rotational-torque Hindulotine.",
+  "overview": "Closed Guard to Hindulotine is the primary guard-based entry into the Hindulotine, the front-headlock guillotine variation that layers spinal-twisting hip torque onto a standard choke. The transition begins from closed guard, where the bottom player breaks the opponent's posture and snatches the chin the instant their head drops below the chest line. Rather than simply pulling the head straight down toward the sternum as in a conventional guillotine, the attacker opens the guard, shifts their hips out to one side, and rotates perpendicular to the opponent's spine, converting a linear pull into the rotational pressure that defines the Hindulotine.\n\nThis entry is one of the most commonly taught ways to reach the Hindulotine because closed guard naturally produces the broken-posture, head-low scenario the position requires. The closed-guard frame already controls the opponent's hips, preventing them from circling or standing while the attacker establishes grip and angle. As the bottom player pivots, the guard transitions from a hip-clamp into either butterfly hooks or an open knee-shield that lets the hips finish rotating to roughly 45-90 degrees, the angle range that generates the Hindulotine's torque.\n\nStrategically the entry is valuable because it threatens immediately while preserving fallback options. If the choke does not finish, the rotational angle feeds directly into a butterfly sweep to mount, a back take when the opponent turns away, or a Darce when they frame the near arm. The chief risk is the Von Flue counter and the stack pass, both of which the attacker mitigates by keeping their hips off-line and their grip high under the chin before committing to the rotation.",
+  "conditions": [
+    "Closed guard established with the opponent's posture broken forward and their head dropping below your chest line",
+    "A high-elbow or arm-in guillotine grip secured with the blade of the forearm high under the chin",
+    "Hips free to shift out to one side rather than pinned flat and square beneath the opponent",
+    "Opponent has not yet stacked their weight forward over your hips or driven a shoulder into your throat"
+  ],
+  "related_content": [
+    {
+      "name": "Hindulotine",
+      "relationship": "Target position reached on a successful entry"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Starting position from which this entry is executed"
+    },
+    {
+      "name": "Guillotine Choke from Hindulotine",
+      "relationship": "Primary finishing transition available once the Hindulotine is established"
+    },
+    {
+      "name": "Hip Bump Sweep",
+      "relationship": "Shares the broken-posture trigger from closed guard and chains with guillotine catches"
+    },
+    {
+      "name": "Butterfly Sweep with Guillotine",
+      "relationship": "Fallback transition if the Hindulotine choke stalls and the opponent drives forward"
+    },
+    {
+      "name": "Back Take from Bottom",
+      "relationship": "Follow-up when the opponent turns away from the rotational pressure"
+    },
+    {
+      "name": "Hindulotine to Darce Choke",
+      "relationship": "Alternative finish when the opponent frames their near arm against the choke"
+    }
+  ],
+  "attacker": {
+    "name": "Closed Guard to Hindulotine Attacker",
+    "description": "How to enter the Hindulotine from closed guard. Catch the high-elbow guillotine, angle your hips, and convert linear choke pressure into rotational spinal torque.",
+    "overview": "As the attacker, your job in the Closed Guard to Hindulotine entry is to convert the broken-posture moment in closed guard into a guillotine grip and then immediately upgrade that grip from a straight pull into the Hindulotine's rotational torque. The window opens whenever the opponent posts their hands to stand or drives their head forward to begin a posture-up; their chin becomes available and you snatch it before they can re-stack their spine. The key mental shift from a normal closed-guard guillotine is that you are not trying to finish square on your back. You are using the catch as the doorway into a new position where your hips, not your arms, carry the choke.\n\nThe mechanics live in the angle. Once the grip is locked high under the chin, you open the closed guard, shrimp your hips out to your choking-arm side, and rotate perpendicular to the opponent's spine. Your legs convert from a hip-clamp into butterfly hooks or a knee shield that keeps the opponent from circling out or stacking you. From that off-line angle, every degree of hip rotation adds torque the opponent cannot defend with a simple chin tuck, because the pressure now wraps around the neck rather than pressing straight into it.\n\nBecause this is an entry rather than a finish, you should think in branches. If they stall the choke by driving forward, your hooks are already loaded for a butterfly sweep to mount. If they turn away, their back is yours. If they frame, the Darce is one elbow-thread away. Establishing the Hindulotine first, with control over their posture and hips, is what makes all of those branches high percentage."
+,
+    "key_principles": [
+      "Catch the chin the instant posture breaks and the head drops below your chest line, before the opponent can re-stack their spine",
+      "Lock the blade of your forearm high under the chin on the carotids, not low on the trachea or shoulder, before you commit to rotation",
+      "Open the guard and shift your hips off-line to your choking-arm side rather than staying flat and square",
+      "Generate the choke with hip rotation and core, treating your arms only as a fixed frame that transmits the torque",
+      "Keep your legs working as control, butterfly hooks or a knee shield, so the opponent cannot circle out or stack you flat",
+      "Stay tight to the head and shoulders so the opponent cannot insert a near-arm frame or drive a Von Flue shoulder into your throat",
+      "Read the opponent's reaction early so the entry flows into a sweep, back take, or Darce if the choke alone stalls"
+    ],
+    "setup_requirements": [
+      "Closed guard established with ankles locked and the ability to control the opponent's posture",
+      "Opponent's posture broken forward with their head dropping below your chest line, or the opponent posting to stand",
+      "A high-elbow or arm-in guillotine grip secured with the forearm blade high under the chin",
+      "Hip mobility and space to shrimp out to one side rather than being pinned flat beneath the opponent",
+      "Awareness of the opponent's near arm so you can deny a defensive frame before rotating",
+      "A free leg ready to convert into a butterfly hook or knee shield as the guard opens"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Break posture and bait the head down",
+        "description": "From closed guard, use collar or head grips and the clamp of your knees to break the opponent's posture forward. Pull their head down toward your chest, or wait for them to post their hands and drive forward as they attempt to stand, which momentarily lowers their head below your chest line and exposes the chin."
+      },
+      {
+        "step_number": 2,
+        "action": "Snatch the high-elbow guillotine grip",
+        "description": "As the chin clears your chest line, thread your choking arm around the neck and bring the blade of your forearm high under the chin onto the carotid line. Lift your choking elbow high and lock a gable grip or grab your opposite bicep, keeping the wrist high so the pressure lands on the neck rather than the trachea or shoulder."
+      },
+      {
+        "step_number": 3,
+        "action": "Open the guard and clear your hips",
+        "description": "Unlock your ankles and open the closed guard. This is the commitment point that separates the Hindulotine from a flat-back guillotine. Keep the grip glued tight to the neck so opening the legs does not give the opponent room to lift their head or re-posture while your hips become free to move."
+      },
+      {
+        "step_number": 4,
+        "action": "Shrimp off-line to your choking-arm side",
+        "description": "Shrimp your hips out toward the side of your choking arm so your spine is no longer stacked square beneath the opponent. Aim to angle your hips roughly 45 to 90 degrees relative to their spine. This off-line position is what lets your core, instead of your biceps, drive the choke and is the structural heart of the Hindulotine."
+      },
+      {
+        "step_number": 5,
+        "action": "Convert the legs into control hooks",
+        "description": "As your hips rotate, replace the hip-clamp of closed guard with active control: insert a butterfly hook under the near thigh or set a knee shield across the opponent's torso. The legs must now stop the opponent from circling out, standing, or stacking you, holding the angle you just created so the rotation is not undone."
+      },
+      {
+        "step_number": 6,
+        "action": "Rotate the hips to load the torque and settle the Hindulotine",
+        "description": "With the grip fixed and the angle set, rotate your hips and pull your choking elbow toward your opposite hip, wrapping rotational pressure around the neck. Keep your chest tight to the trapped head and shoulder so no frame can form. You are now in the Hindulotine, controlling posture and hips with the choke loaded and sweep, back-take, and Darce branches available."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent drives forward and stacks their weight over your hips to flatten you before you can clear your hips off-line",
+        "effectiveness": "High",
+        "your_response": "Do not fight the stack head-on. Load their forward weight onto a butterfly hook and execute a butterfly sweep with the grip intact, or use the drive to come up to the angle. Their forward pressure becomes the energy that frees your hips.",
+        "targets_outcome": "Side Control/Bottom"
+      },
+      {
+        "counter": "Opponent tucks their chin hard and pulls their head straight back to defend the grip",
+        "effectiveness": "Medium",
+        "your_response": "Walk the choking arm incrementally higher on the neck without releasing pressure and increase hip rotation. The rotational angle of the Hindulotine works around a chin tuck that would stall a straight pull.",
+        "targets_outcome": "Closed Guard/Bottom"
+      },
+      {
+        "counter": "Opponent drives a Von Flue shoulder pressure into your throat to counter the guillotine",
+        "effectiveness": "Medium",
+        "your_response": "Keep your hips off-line so the shoulder cannot line up on your neck, and rotate away from the pressure. If the Von Flue commits, abandon the straight choke and use the hooks to sweep or re-clamp guard rather than getting passed.",
+        "targets_outcome": "Side Control/Bottom"
+      },
+      {
+        "counter": "Opponent frames their near arm between your chest and their neck to create space",
+        "effectiveness": "Medium",
+        "your_response": "Thread your choking arm deeper across the neck and under the framing armpit to convert to a Darce, trapping the frame against their own neck rather than fighting to strip it.",
+        "targets_outcome": "Closed Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Trying to finish the guillotine flat on your back and square, never clearing your hips off-line",
+        "consequence": "You get a standard guillotine instead of the Hindulotine, the opponent defends with a chin tuck and stack, and you never gain the rotational pressure or the sweep and back-take branches.",
+        "correction": "Treat the catch as a doorway. The moment the grip is locked, open the guard and shrimp your hips out to your choking-arm side so your core can drive the choke."
+      },
+      {
+        "error": "Opening the closed guard before the grip is locked high and tight",
+        "consequence": "Opening the legs gives the opponent room to lift their head, re-posture, or begin passing while your choke is not yet secured, and you lose both the submission and your guard.",
+        "correction": "Secure the high-elbow grip on the carotids first and confirm it is tight, then open the guard. Grip security must precede the hip clearance."
+      },
+      {
+        "error": "Gripping low on the neck near the shoulder or pressing into the trachea instead of high under the chin",
+        "consequence": "Pressure lands on muscle or windpipe rather than the carotids, so the opponent can endure it and methodically work an escape while you burn out your arms.",
+        "correction": "Set the blade of your forearm high under the chin on the carotid line with a high choking elbow before committing to rotation."
+      },
+      {
+        "error": "Failing to convert the legs into control after opening the guard",
+        "consequence": "Without hooks or a knee shield the opponent circles out, stands, or stacks you, undoing the angle you created and passing your now-open guard.",
+        "correction": "As the hips rotate, immediately insert a butterfly hook or knee shield to lock the off-line angle and control the opponent's hips and posture."
+      },
+      {
+        "error": "Squeezing the choke with arm strength rather than driving it with hip rotation and core",
+        "consequence": "Your arms fatigue quickly, the choke stalls, and you are forced to release the position before the finish or a transition becomes available.",
+        "correction": "Use your arms only as a fixed frame and generate the choke by rotating your hips and pulling the choking elbow toward your opposite hip, letting your core do the work."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2: Grip catch from broken posture",
+        "focus": "Snatching the high-elbow guillotine the instant posture breaks",
+        "description": "From closed guard with a compliant partner, drill breaking posture and catching the high-elbow grip high under the chin as their head drops. Focus purely on grip quality and timing, resetting every repetition. 20-30 catches per session, alternating the choking arm, with no finishing attempt yet."
+      },
+      {
+        "phase": "Week 3-4: Hip clearance and angle creation",
+        "focus": "Opening the guard and shrimping off-line without losing the grip",
+        "description": "With the grip pre-established and a partner at 30 percent resistance, practice opening the closed guard and shrimping your hips 45 to 90 degrees off-line while keeping the choke tight. Partner gives feedback on whether the grip loosened during the hip clearance. Emphasis on the angle, not the finish."
+      },
+      {
+        "phase": "Week 5-8: Leg conversion and torque generation",
+        "focus": "Replacing the hip-clamp with hooks and driving the choke from the core",
+        "description": "Add the leg conversion to butterfly hooks or a knee shield as the hips rotate, then load the rotational torque. Partner gives 50 percent resistance, posturing and trying to circle out, while you hold the angle with your legs and generate pressure from hip rotation rather than arm strength. Short holds, frequent resets."
+      },
+      {
+        "phase": "Week 9-12: Branch reading and chaining",
+        "focus": "Flowing from the entry into sweep, back take, or Darce",
+        "description": "Partner gives specific reactions at 60 to 70 percent: stacking forward, turning away, or framing the near arm. Practice reading each reaction and flowing from the Hindulotine into a butterfly sweep, back take, or Darce respectively. Develop the habit of treating the entry as a hub rather than a single finish."
+      },
+      {
+        "phase": "Month 4+: Live positional sparring",
+        "focus": "Entering the Hindulotine under full resistance from closed guard",
+        "description": "Start in closed guard with a fully resisting partner who defends posture, the grip, and the angle while threatening to pass. Work to create the broken-posture window, catch the grip, clear the hips, and settle the Hindulotine against real resistance. 5-minute rounds with multiple rounds per session."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "What single mechanical change converts a normal closed-guard guillotine into the Hindulotine entry?",
+        "answer": "Clearing your hips off-line. Instead of finishing flat on your back and square, you open the guard and shrimp your hips 45 to 90 degrees to your choking-arm side so your core drives rotational pressure around the neck rather than pulling the head straight down. That off-line angle is the structural difference that defines the Hindulotine."
+      },
+      {
+        "question": "Why must you secure the grip before opening the closed guard during this entry?",
+        "answer": "Opening the guard is the commitment point that frees your hips but also surrenders the hip-clamp that controls the opponent. If the grip is not yet locked high and tight under the chin, opening the legs gives the opponent room to lift their head, re-posture, or begin passing, so you lose both the choke and your guard. Grip security must always precede hip clearance."
+      },
+      {
+        "question": "When the opponent stacks forward to flatten you before you clear your hips, what is the highest-percentage response?",
+        "answer": "Do not fight the stack directly. Load their forward weight onto a butterfly hook and execute a butterfly sweep with the guillotine grip still locked, or ride their drive up into the off-line angle. Their forward pressure becomes the energy that frees your hips, so the stack feeds your branch instead of stopping the entry."
+      },
+      {
+        "question": "How does the Hindulotine angle defeat a chin tuck that would stall an ordinary guillotine?",
+        "answer": "An ordinary guillotine pulls the head straight back, which a hard chin tuck can resist. The Hindulotine wraps rotational pressure around the neck because your hips are off-line and your core rotates the choking elbow toward your opposite hip. That torque works around the chin tuck, so you walk the grip higher and increase hip rotation rather than pulling harder."
+      },
+      {
+        "question": "What role do the legs play once you have opened the guard to enter the Hindulotine?",
+        "answer": "The legs convert from a hip-clamp into active control, a butterfly hook under the near thigh or a knee shield across the torso. Their job is to stop the opponent from circling out, standing, or stacking you flat, holding the off-line angle you created so the rotation is not undone. Without this leg control the angle collapses and the opponent passes the open guard."
+      },
+      {
+        "question": "Why should the attacker treat this guillotine catch as an entry rather than a finish?",
+        "answer": "Establishing the Hindulotine first gives you control over the opponent's posture and hips with the choke loaded, which makes every follow-up high percentage. If the choke stalls, the loaded hooks feed a butterfly sweep to mount, a turn-away exposes the back, and a near-arm frame opens the Darce. Chasing only the finish forfeits those branches and lowers the overall success rate."
+      }
+    ],
+    "safety_considerations": "Guillotine-family chokes are blood and air chokes that can render a partner unconscious quickly, so apply rotational pressure progressively and release the instant a partner taps verbally or physically. Avoid cranking the neck laterally during the hip rotation, as the spinal torque that makes the Hindulotine effective also raises cervical injury risk if applied explosively. When drilling the stack and Von Flue counters, the bottom player must protect their own neck and not let the top player drive shoulder pressure into the throat at full force. Beginners should build the hip-clearance and rotation slowly with light resistance before adding finishing pressure."
+  },
+  "defender": {
+    "name": "Closed Guard to Hindulotine Defender",
+    "description": "How to defend the Hindulotine entry from closed guard. Recognize the high-elbow guillotine catch, deny the off-line angle, and counter with the Von Flue or stack pass.",
+    "overview": "As the defender you are the top player in closed guard facing a bottom player who is trying to upgrade a guillotine catch into the Hindulotine. Your defense has two distinct phases. The first is prevention: deny the broken-posture, head-low moment that lets the attacker catch your chin in the first place. If you keep your head up, your spine stacked, and your hands fighting the choking grip, the entry never starts. The second phase is reaction: once the grip is caught, you must stop the attacker from clearing their hips off-line, because the off-line angle is what transforms a survivable straight guillotine into the much tighter rotational Hindulotine.\n\nRecognition is everything here. The danger signal is not the choke itself but the attacker opening their guard and shrimping their hips out to one side. That hip clearance is the doorway to the Hindulotine, and if you feel it beginning you must immediately drive your weight forward to stack, square your hips back over them, and pressure their off-line shrimp before the angle and the leg hooks lock in. The Von Flue choke is your most aggressive counter: as they hold the guillotine, drop your near shoulder into the side of their neck and drive forward toward their head, which both relieves the choke on you and threatens to finish them.\n\nThe most important strategic point is timing. Defending before the hips clear is a high-percentage stack or pass. Defending after the Hindulotine is fully set, with hooks in and the angle established, is far harder because you now face rotational pressure and active leg control. Commit early, stay heavy, and keep your own neck protected throughout."
+,
+    "key_principles": [
+      "Prevent the entry by keeping your head up and spine stacked so your chin never drops below the attacker's chest line",
+      "Fight the choking grip with both hands before it locks high under your chin",
+      "Recognize the hip clearance, the attacker opening the guard and shrimping off-line, as the true Hindulotine danger signal",
+      "Drive your weight forward to stack and square your hips back over the attacker the instant you feel them angle away",
+      "Use the Von Flue shoulder pressure into the neck as an aggressive counter while the guillotine is being held",
+      "Protect your own neck and keep your chin tucked so the rotational pressure cannot wrap cleanly around the carotids"
+    ],
+    "recognition_cues": [
+      "The bottom player breaks your posture and your head drops below their chest line as they reach for your chin",
+      "You feel a forearm blade slide high under your chin onto the carotid line with the choking elbow lifting high",
+      "The bottom player unlocks their ankles and opens the closed guard while keeping the grip glued tight to your neck",
+      "The bottom player shrimps their hips out to one side so their spine is no longer square beneath you and a butterfly hook or knee shield appears"
+    ],
+    "defensive_options": [
+      {
+        "action": "Posture up early and pull your head out before the grip locks, keeping your spine stacked and chin up",
+        "when_to_use": "Preventive defense, the moment you feel your posture being broken and the bottom player reaching for your chin",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "The grip never locks, the entry is denied at the source, and you stay in closed guard top with strong posture",
+        "risk": "Posturing hard can briefly expose you to other closed-guard attacks such as the hip bump sweep or armbar if you overcommit upright"
+      },
+      {
+        "action": "Drive forward to stack and square your hips back over the bottom player as they try to clear their hips off-line",
+        "when_to_use": "When the grip is already caught and you feel the bottom player opening the guard and shrimping to one side",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "You deny the off-line angle, flatten the attacker square, relieve the choke, and can begin passing the now-open guard toward side control",
+        "risk": "Driving forward into a held guillotine can momentarily tighten the choke if your head is not positioned correctly, so keep your chin tucked"
+      },
+      {
+        "action": "Execute the Von Flue choke by dropping your near shoulder into the side of their neck and driving toward their head",
+        "when_to_use": "While the bottom player holds the guillotine and has not yet locked the off-line angle and leg hooks",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "The shoulder pressure relieves the choke on you and threatens to finish the attacker, letting you pass to side control or finish",
+        "risk": "If the attacker has already cleared their hips off-line, your shoulder cannot line up on their neck and you may be swept or rolled instead"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Closed Guard/Bottom",
+        "how": "Win the fight before it starts by keeping your head up and spine stacked, fighting the choking grip with both hands, and pulling your head free before the forearm locks under your chin. Denying the grip returns the exchange to a neutral closed guard with you on top and strong posture restored."
+      },
+      {
+        "outcome": "Side Control/Bottom",
+        "how": "Once the grip is caught, drive forward to stack and square your hips before the attacker clears their hips off-line, or commit to a Von Flue by dropping your shoulder into their neck. Both deny the rotational angle and open a path to pass the guard and consolidate side control."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Allowing your posture to stay broken with your head low after the grip is caught",
+        "consequence": "A low head and broken spine are exactly what the attacker needs to clear their hips off-line and lock the Hindulotine, giving you rotational pressure that is far harder to survive.",
+        "correction": "The instant the grip is on, fight to stack forward and square your hips back over the attacker before they can angle away, and keep your chin tucked to protect the carotids."
+      },
+      {
+        "error": "Pulling your head straight back against a held guillotine instead of stacking and squaring",
+        "consequence": "Pulling straight back plays into the choke and, once the attacker is off-line, into the rotational torque, often tightening the finish rather than escaping it.",
+        "correction": "Drive your weight forward to stack the attacker and deny the off-line angle, or commit to the Von Flue shoulder pressure rather than retreating your head."
+      },
+      {
+        "error": "Reacting only to the choke and ignoring the hip clearance",
+        "consequence": "By the time the choke feels tight, the attacker has already opened the guard, shrimped off-line, and set their hooks, so you are defending a fully established Hindulotine instead of a catch.",
+        "correction": "Treat the guard opening and the off-line hip shrimp as the real alarm. Stack and square the moment you feel the attacker angle away, well before the rotational pressure builds."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "What is the true danger signal that the attacker is entering the Hindulotine rather than just holding a guillotine?",
+        "answer": "The hip clearance. When the bottom player opens their closed guard and shrimps their hips out to one side so their spine is no longer square beneath you, they are creating the off-line angle that turns a survivable straight guillotine into the rotational Hindulotine. Recognizing that shrimp, not the choke pressure, is what lets you stack and square before the angle locks in."
+      },
+      {
+        "question": "Why should you drive forward to stack rather than pull your head straight back against this entry?",
+        "answer": "Pulling your head straight back plays into both the linear choke and, once the attacker is off-line, the rotational torque, which can tighten the finish. Driving your weight forward to stack and square your hips over the attacker denies the off-line angle, flattens them, relieves the choke, and opens a path to pass the now-open guard toward side control."
+      },
+      {
+        "question": "When is the Von Flue choke an effective counter to this entry, and when does it fail?",
+        "answer": "The Von Flue works while the bottom player still holds the guillotine but has not yet cleared their hips off-line: you drop your near shoulder into the side of their neck and drive toward their head, relieving the choke and threatening a finish. It fails once the attacker has already angled off-line, because your shoulder can no longer line up on their neck and you risk being swept instead, so timing it before the angle sets is essential."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2: Posture and grip prevention",
+        "focus": "Denying the catch by keeping posture and fighting the grip",
+        "description": "From closed guard top with a partner attempting the catch at 30 percent, drill keeping your head up, spine stacked, and both hands fighting the choking grip before it locks under your chin. Reset every repetition and focus on never letting your head drop below their chest line."
+      },
+      {
+        "phase": "Week 3-4: Recognizing the hip clearance",
+        "focus": "Reacting to the off-line shrimp before the angle locks",
+        "description": "Partner catches the grip and then opens the guard to shrimp off-line at 50 percent. Practice feeling the guard opening and the hip shrimp and immediately driving forward to stack and square your hips. Partner gives feedback on whether you reacted to the choke or to the earlier hip clearance cue."
+      },
+      {
+        "phase": "Week 5-8: Stack passing and the Von Flue counter",
+        "focus": "Converting the defense into a pass or finish",
+        "description": "With the grip held at 60 to 70 percent, drill both counters: stacking forward to square the hips and pass toward side control, and dropping the near shoulder into the neck for the Von Flue. Work the timing so you commit before the attacker locks their hooks and off-line angle, while keeping your own neck protected throughout."
+      }
+    ]
+  },
+  "variants_and_adaptations": [
+    {
+      "variant_name": "No-Gi High-Elbow Entry",
+      "description": "Without collar grips, break posture using head and tricep control, then catch a high-elbow arm-in guillotine before clearing the hips off-line into the Hindulotine. The grip relies on a tight gable lock since sweat reduces friction, so the hip rotation must do even more of the finishing work.",
+      "when_to_use": "No-gi training and MMA where collar grips are unavailable and the Hindulotine is most commonly seen"
+    },
+    {
+      "variant_name": "Gi Collar-Assisted Entry",
+      "description": "In the gi, use a cross-collar grip to break posture and pin the head down, making the chin easier to catch. The collar grip also helps hold the head in place while you open the guard and shrimp off-line, stabilizing the angle as you transition into the Hindulotine.",
+      "when_to_use": "Gi training where collar control accelerates posture breaking and head pinning"
+    },
+    {
+      "variant_name": "Butterfly-Hook Entry",
+      "description": "Rather than fully opening to a flat angle, insert butterfly hooks as you clear your hips, using the hooks to both elevate the opponent and lock the off-line angle. This keeps the sweep branch immediately loaded so a stalled choke flows straight into a butterfly sweep to mount.",
+      "when_to_use": "When the opponent drives forward heavily and you want the sweep branch primed alongside the choke"
+    }
+  ],
+  "position_integration": "Closed Guard to Hindulotine is the principal guard-based on-ramp into the Hindulotine sub-system and sits within the broader family of closed-guard front-headlock attacks. It shares its broken-posture trigger with the hip bump sweep and the closed-guard guillotine, so it chains naturally out of the same posture-breaking sequence every closed-guard player drills. Once the Hindulotine is established, the entry hands off to the position's internal transitions: the guillotine finish, the butterfly sweep with the grip retained, the back take when the opponent turns, and the Darce when they frame. Strategically it converts a defensive-looking guard into an offensive submission hub, giving the bottom player a reachable path from a neutral closed guard into a high-pressure choke that threatens both the finish and positional advancement, which is precisely why it is one of the most commonly taught ways to arrive at the Hindulotine."
+}

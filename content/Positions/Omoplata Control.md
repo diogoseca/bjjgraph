@@ -10,6 +10,41 @@ description: "Master Omoplata Control in BJJ. Strategic guide covering shoulder 
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Omoplata Control",
+  "description": "Master Omoplata Control in BJJ. Strategic guide covering shoulder lock mechanics, sweep chains, and back take transitions with complete perspective analysis.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Omoplata Control", "item": "https://bjjgraph.org/Positions/Omoplata-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Omoplata Control",
+  "description": "Omoplata Control is a leg-based shoulder-lock position where one leg threads over the opponent's trapped shoulder and across their back, isolating the arm to threaten the omoplata submission while opening sweeps and back takes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Omoplata Control in BJJ. Strategic guide covering shoulder 
 </div>
 
 <section id="overview" class="content-section">
+
+**Omoplata Control is a leg-based shoulder-lock position where one leg threads over the opponent's trapped shoulder and across their back, isolating the arm to threaten the omoplata submission while opening sweeps and back takes.**
 
 Omoplata Control represents a sophisticated transitional position in Brazilian Jiu-Jitsu where the practitioner uses their legs to isolate and control the opponent's shoulder joint while creating multiple offensive pathways. This position exists at the intersection of submission attacks, sweeps, and positional advancement, making it one of the most versatile control positions in modern BJJ. The mechanics involve threading one leg over the opponent's trapped shoulder while maintaining hip connection, creating a lever system that applies rotational pressure to the shoulder capsule. What distinguishes Omoplata Control from other guard positions is its ability to force opponents into predictable defensive reactions, each of which opens different offensive opportunities. The position demonstrates the principle of using leg strength against arm strength, creating a mechanical advantage that limits the opponent's mobility while providing the controller with numerous high-percentage options. Understanding when to finish the submission, when to sweep, and when to transition to back control is essential for maximizing the position's effectiveness. The Omoplata Control position has evolved significantly in competitive BJJ, with modern practitioners recognizing that the control itself often provides more value than the submission finish, as it creates reliable pathways to dominant positions and forces opponents into defensive postures that drain energy and create openings for submission chains.
 
@@ -234,6 +271,19 @@ Omoplata Control represents a sophisticated transitional position in Brazilian J
 
 - **[[Positions/Lasso Guard]]** - Entry position with arm isolation for omoplata setup
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Ryan-Hall-Triangle-System" data-cta="related-system-card" data-system-slug="systems/ryan-hall-triangle-system" data-system-name="Ryan Hall Triangle System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Ryan Hall Triangle System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Alternative submission pathway from triangle position</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/10th-Planet-Rubber-Guard-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-rubber-guard-system" data-system-name="10th Planet Rubber Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">10th Planet Rubber Guard System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Submission control reached from Meathook position</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Rubber-Guard-to-Omoplata-System" data-cta="related-system-card" data-system-slug="systems/rubber-guard-to-omoplata-system" data-system-name="Rubber Guard to Omoplata System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Rubber Guard to Omoplata System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Final control position before submission or transition</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Rubber-Guard-to-Triangle-System" data-cta="related-system-card" data-system-slug="systems/rubber-guard-to-triangle-system" data-system-name="Rubber Guard to Triangle System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Rubber Guard to Triangle System</span><span class="system-card__unlocks-badge">Unlocks 22 techniques</span><span class="system-card__blurb">Primary alternative submission position when triangle is defended</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

@@ -21,25 +21,25 @@ description: "Technical Mount Bottom escape guide in BJJ. Comprehensive defense 
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape to Guard",
-      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 50% of exchanges from this position.",
+      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 40% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Upa Escape",
-      "text": "From this position, attempt Upa Escape. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Upa Escape. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Shrimp Escape",
-      "text": "From this position, attempt Shrimp Escape. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Shrimp Escape. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
@@ -51,7 +51,7 @@ description: "Technical Mount Bottom escape guide in BJJ. Comprehensive defense 
     {
       "@type": "HowToStep",
       "name": "Execute Back Turn from Technical Mount",
-      "text": "From this position, attempt Back Turn from Technical Mount. This technique is attempted in 0% of exchanges from this position.",
+      "text": "From this position, attempt Back Turn from Technical Mount. This technique is attempted in 3% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -333,6 +333,16 @@ Start with partner giving 50% resistance in technical mount, allowing you to wor
 - **[[Transitions/Frame and Shrimp to Guard]]** - Essential escape concept - Fundamental defensive movement from pins
 - **[[Transitions/Upa Escape]]** - Complementary escape - Bridge and roll reversal when base is compromised
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Submission-Clinic-System" data-cta="related-system-card" data-system-slug="systems/submission-clinic-system" data-system-name="Submission Clinic System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Submission Clinic System</span><span class="system-card__unlocks-badge">Unlocks 30 techniques</span><span class="system-card__blurb">Mount variation providing back take and armbar opportunities</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

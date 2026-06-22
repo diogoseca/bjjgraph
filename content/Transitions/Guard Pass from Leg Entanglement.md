@@ -10,6 +10,41 @@ description: "Master the Guard Pass from Leg Entanglement in BJJ. Complete guide
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Guard Pass from Leg Entanglement",
+  "description": "Master the Guard Pass from Leg Entanglement in BJJ. Complete guide to leg extraction, hook clearing, and systematic passing to side control from top leg lock positions.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Guard Pass from Leg Entanglement", "item": "https://bjjgraph.org/Transitions/Guard-Pass-from-Leg-Entanglement" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Guard Pass from Leg Entanglement",
+  "description": "The Guard Pass from Leg Entanglement is a top-position transition in which the passer safely extracts their trapped leg, clears the opponent's hooks, and advances to side control rather than trading leg-lock attacks from the entanglement.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Guard Pass from Leg Entanglement in BJJ. Complete guide
 </div>
 
 <section id="overview" class="content-section">
+
+**The Guard Pass from Leg Entanglement is a top-position transition in which the passer safely extracts their trapped leg, clears the opponent's hooks, and advances to side control rather than trading leg-lock attacks from the entanglement.**
 
 The Guard Pass from Leg Entanglement is a critical positional transition for the top player who finds themselves engaged in lower body entanglements but determines that disengaging and advancing to a traditional passing position is strategically superior to exchanging leg attacks. This technique addresses the common competitive scenario where the top player has been drawn into a leg entanglement by an aggressive bottom player, and rather than accepting a potentially disadvantageous leg lock exchange, opts to extract their legs, clear the hooks, and pass to side control. The strategic decision to pass rather than counter-attack with legs requires reading the positional hierarchy correctly—if you lack dominant inside position or the bottom player has superior heel exposure on your leg, extraction and passing becomes the higher-percentage path.
 
@@ -220,5 +257,7 @@ The Guard Pass from Leg Entanglement bridges the modern leg lock positional syst
 
 
 </section>
+
+
 
 </main>

@@ -10,6 +10,41 @@ description: "Master Leg Drag Escape to Closed Guard in BJJ. Frame, hip escape, 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Leg Drag Escape to Closed Guard",
+  "description": "Master Leg Drag Escape to Closed Guard in BJJ. Frame, hip escape, and leg recovery sequence to neutralize leg drag passing and recover offensive guard.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Leg Drag Escape to Closed Guard", "item": "https://bjjgraph.org/Transitions/Leg-Drag-Escape-to-Closed-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Leg Drag Escape to Closed Guard",
+  "description": "The Leg Drag Escape to Closed Guard is a bottom-player recovery that frames the opponent's upper body, hip-escapes to create an extraction angle, and frees the trapped leg to re-establish closed guard and neutralize the leg drag pass.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Leg Drag Escape to Closed Guard in BJJ. Frame, hip escape, 
 </div>
 
 <section id="overview" class="content-section">
+
+**The Leg Drag Escape to Closed Guard is a bottom-player recovery that frames the opponent's upper body, hip-escapes to create an extraction angle, and frees the trapped leg to re-establish closed guard and neutralize the leg drag pass.**
 
 The Leg Drag Escape to Closed Guard represents a fundamental defensive recovery when caught in the compromised leg drag position. This escape addresses one of the most dangerous transitional moments in guard passing—when your opponent has successfully dragged your leg across your body and is threatening to consolidate to side control or take your back. The technique requires precise timing, efficient framing, and coordinated hip movement to extract your trapped leg and establish a closed guard position that neutralizes the passing threat.
 
@@ -211,7 +248,7 @@ The Leg Drag Escape to Closed Guard functions as a critical defensive recovery w
 
 - [[Transitions/Leg Drag Counter to Half Guard]] - Alternative escape technique from same starting position
 
-- [[Transitions/Hip Escape to Guard]] - Core movement mechanic used in this escape
+- [[Transitions/Roll to Turtle]] - Defensive fallback when the leg cannot be freed and guard recovery is unavailable
 
 - [[Transitions/Frame and Shrimp to Guard]] - Related escape using similar framing principles
 
@@ -225,5 +262,7 @@ The Leg Drag Escape to Closed Guard functions as a critical defensive recovery w
 
 
 </section>
+
+
 
 </main>

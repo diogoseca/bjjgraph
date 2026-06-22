@@ -10,6 +10,41 @@ description: "Escape Rubber Guard from top by recovering posture and extracting 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Rubber Guard Top Posture Escape",
+  "description": "Escape Rubber Guard from top by recovering posture and extracting trapped arm. Systematic protocol to break 10th Planet control and reach open guard.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Rubber Guard Top Posture Escape", "item": "https://bjjgraph.org/Transitions/Rubber-Guard-Top-Posture-Escape" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Rubber Guard Top Posture Escape",
+  "description": "The Rubber Guard Top Posture Escape is a top-position defensive transition that breaks 10th Planet Rubber Guard control by framing the controlling leg down, extracting the trapped arm in a circular path, and driving the hips back to recover posture and reach Open Guard top.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Escape Rubber Guard from top by recovering posture and extracting 
 </div>
 
 <section id="overview" class="content-section">
+
+**The Rubber Guard Top Posture Escape is a top-position defensive transition that breaks 10th Planet Rubber Guard control by framing the controlling leg down, extracting the trapped arm in a circular path, and driving the hips back to recover posture and reach Open Guard top.**
 
 The Rubber Guard Top Posture Escape is a systematic defensive transition designed to free the top player from the highly controlling Rubber Guard position. When trapped in an opponent's Rubber Guard, the top player faces severe posture compromise with one arm isolated against the bottom player's chest by their elevated leg. This escape addresses the core mechanical problem: the bottom player's leg acting as a lever to break posture while simultaneously trapping the arm. The escape sequence prioritizes creating structural frames with the free hand, disrupting the bottom player's leg configuration, and systematically recovering upright posture before the opponent can advance through the 10th Planet positional hierarchy toward submissions.
 
@@ -214,5 +251,7 @@ The Rubber Guard Top Posture Escape occupies a critical defensive node in the BJ
 
 
 </section>
+
+
 
 </main>

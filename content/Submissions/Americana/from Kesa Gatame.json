@@ -1,5 +1,6 @@
 {
   "name": "Americana from Kesa Gatame",
+  "summary": "The Americana from Kesa Gatame is a figure-four shoulder lock applied from the scarf hold that exploits the already-trapped near arm, cranking the opponent's bent arm toward the mat to force a tap through external rotation of the glenohumeral joint.",
   "description": "Master the Americana shoulder lock from Kesa Gatame in BJJ. Complete guide covering figure-four mechanics, finishing details, and defensive strategies.",
   "tags": [
     "bjj",
@@ -135,7 +136,7 @@
     }
   ],
   "attacker": {
-    "name": "from Kesa Gatame Attacker",
+    "name": "Americana from Kesa Gatame Attacker",
     "description": "Complete attacking guide for finishing the Americana shoulder lock from Kesa Gatame. Figure-four mechanics, grip transitions, and finishing sequences.",
     "overview": "Executing the Americana from Kesa Gatame requires precise sequencing of grip transitions while maintaining positional pressure. The top player must convert the existing arm trap into a figure-four control without surrendering the chest pressure that prevents escape. Success depends on pinning the opponent's wrist before releasing head control, then efficiently threading the figure-four grip while keeping hips heavy and base stable. The finishing motion is a controlled paint of the opponent's hand toward the mat, using the body's rotational mechanics rather than arm strength to generate the breaking force at the shoulder joint. The critical tactical insight is that the transition from head control to arm control creates a brief vulnerability window—managing this window through chest pressure and speed determines whether the submission succeeds or the opponent escapes.",
     "key_principles": [
@@ -342,7 +343,7 @@
     ]
   },
   "defender": {
-    "name": "from Kesa Gatame Defender",
+    "name": "Americana from Kesa Gatame Defender",
     "description": "Complete defensive guide for surviving and escaping the Americana from Kesa Gatame. Recognition cues, prevention timing, and escape strategies.",
     "overview": "Defending the Americana from Kesa Gatame requires recognizing the submission threat before the figure-four grip is secured. The critical defensive window occurs when the attacker transitions from head control to arm control—this momentary release of head pressure creates the best opportunity for escape. The defender must prioritize preventing wrist isolation, maintaining the trapped arm in a bent protective position, and timing explosive escapes to coincide with the attacker's grip transitions rather than fighting against peak pressure. Once the figure-four is fully locked and the paint motion begins, defensive options narrow dramatically, making early recognition and immediate proactive defense essential for survival. Understanding the mechanical progression of the Americana allows the defender to intervene at the optimal point in the sequence rather than reacting to the finished position.",
     "key_principles": [

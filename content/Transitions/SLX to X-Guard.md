@@ -10,6 +10,41 @@ description: "Master the SLX to X-Guard transition in BJJ. Learn leg threading m
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "SLX to X-Guard",
+  "description": "Master the SLX to X-Guard transition in BJJ. Learn leg threading mechanics, hook placement, and how to upgrade from single leg X to full X-Guard control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "SLX to X-Guard", "item": "https://bjjgraph.org/Transitions/SLX-to-X-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "SLX to X-Guard",
+  "description": "SLX to X-Guard is a positional upgrade where the bottom player threads their outside foot behind a standing opponent's free knee, capturing the second leg to convert single-leg X control into the higher-leverage double-leg X-Guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the SLX to X-Guard transition in BJJ. Learn leg threading m
 
 <section id="overview" class="content-section">
 
-The SLX to X-Guard transition is a positional upgrade where the bottom player captures the opponent's free leg to establish full X-Guard control from an existing Single Leg X-Guard position. This represents one of the most important guard transitions in modern BJJ because it dramatically increases sweeping leverage and directional attack variety. In Single Leg X, the bottom player controls one leg effectively but remains vulnerable to backstep passes, leg extraction, and systematic hook clearing. By threading the outside leg behind the opponent's free knee and establishing the full X configuration, the bottom player creates bilateral control that is exponentially harder to escape and opens high-percentage sweeps in multiple directions.
+**SLX to X-Guard is a positional upgrade where the bottom player threads their outside foot behind a standing opponent's free knee, capturing the second leg to convert single-leg X control into the higher-leverage double-leg X-Guard.**
+
+Within the modern leg-entanglement system, this transition serves as the natural escalation point from single-leg control to a far more dominant double-leg platform, capturing the opponent's free leg to establish full X-Guard from an existing Single Leg X-Guard position. It represents one of the most important guard transitions in modern BJJ because it dramatically increases sweeping leverage and directional attack variety. In Single Leg X, the bottom player controls one leg effectively but remains vulnerable to backstep passes, leg extraction, and systematic hook clearing. By threading the outside leg behind the opponent's free knee and establishing the full X configuration, the bottom player creates bilateral control that is exponentially harder to escape and opens high-percentage sweeps in multiple directions.
 
 The transition requires precise timing and hip positioning. The bottom player must create enough elevation and perpendicular angle on the trapped leg to generate the space needed to capture the second leg. Rushing the thread without proper setup results in the opponent stepping their free leg away, while waiting too long allows the top player to establish passing grips and begin systematic guard dismantling. The optimal window exists when the opponent's weight shifts toward the trapped side, momentarily loading the free leg in a predictable position that brings it within threading range.
 
@@ -220,5 +257,7 @@ The SLX to X-Guard transition occupies a critical junction in the modern guard h
 
 
 </section>
+
+
 
 </main>

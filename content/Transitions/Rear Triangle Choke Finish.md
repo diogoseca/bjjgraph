@@ -10,6 +10,41 @@ description: "Master the Rear Triangle Choke Finish in BJJ. Learn squeeze mechan
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Rear Triangle Choke Finish",
+  "description": "Master the Rear Triangle Choke Finish in BJJ. Learn squeeze mechanics, angle optimization, and defensive counters for this high-percentage back submission.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Rear Triangle Choke Finish", "item": "https://bjjgraph.org/Transitions/Rear-Triangle-Choke-Finish" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Rear Triangle Choke Finish",
+  "description": "The Rear Triangle Choke Finish is the culminating blood choke from the rear triangle position, where the attacker squeezes a figure-four leg lock and angles the hips toward the trapped arm to compress both carotid arteries simultaneously.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Rear Triangle Choke Finish in BJJ. Learn squeeze mechan
 
 <section id="overview" class="content-section">
 
-The Rear Triangle Choke Finish is the culminating squeeze applied from the established rear triangle position, compressing the carotid arteries through the figure-four leg configuration locked behind the opponent's neck and around their trapped arm. Unlike many chokes that require hand involvement, the rear triangle finish generates primary choking force through leg mechanics—knee compression and hip extension—while the hands remain free to control the opponent's defensive responses and optimize the finishing angle.
+**The Rear Triangle Choke Finish is the culminating blood choke from the rear triangle position, where the attacker squeezes a figure-four leg lock and angles the hips toward the trapped arm to compress both carotid arteries simultaneously.**
+
+As the terminal finish of the rear triangle attack system, this submission converts established back-and-triangle control into a tap without relying on grip strength. Unlike many chokes that require hand involvement, the rear triangle finish generates primary choking force through leg mechanics—knee compression and hip extension—while the hands remain free to control the opponent's defensive responses and optimize the finishing angle.
 
 Strategically, this finish represents the terminal point of the rear triangle attack system. The choking mechanism attacks both carotid arteries simultaneously: the choking leg compresses one side while the opponent's own trapped shoulder is driven into the opposite carotid by the squeeze. This bilateral compression creates rapid unconsciousness when properly applied, making early recognition and defense critical for the bottom player. The attacker's primary challenge lies not in raw squeezing power but in optimizing the angle of their hips relative to the opponent's neck—walking the hips toward the trapped arm side creates the cutting angle that transforms a compression hold into an efficient blood choke.
 
@@ -220,5 +257,7 @@ The Rear Triangle Choke Finish sits at the apex of the back control submission h
 
 
 </section>
+
+
 
 </main>

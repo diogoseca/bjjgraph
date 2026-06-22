@@ -10,6 +10,41 @@ description: "Master the body triangle squeeze finish in BJJ. Detailed guide cov
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Body Triangle Squeeze",
+  "description": "Master the body triangle squeeze finish in BJJ. Detailed guide covering rib compression mechanics, breathing restriction tactics, and escape strategies.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Body Triangle Squeeze", "item": "https://bjjgraph.org/Transitions/Body-Triangle-Squeeze" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Body Triangle Squeeze",
+  "description": "The Body Triangle Squeeze is a back-control compression finish that turns the figure-four leg lock into a submission, crushing the opponent's floating ribs and diaphragm to restrict breathing and force a tap from accumulated pressure.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,13 +57,15 @@ description: "Master the body triangle squeeze finish in BJJ. Detailed guide cov
 
 <section id="overview" class="content-section">
 
+**The Body Triangle Squeeze is a back-control compression finish that turns the figure-four leg lock into a submission, crushing the opponent's floating ribs and diaphragm to restrict breathing and force a tap from accumulated pressure.**
+
 The Body Triangle Squeeze is a compression submission executed from the body triangle position where the attacker uses the figure-four leg configuration as a direct finishing mechanism rather than merely a control tool. By progressively increasing the squeezing pressure of the locked legs around the defender's lower ribcage and diaphragm, the attacker creates unbearable torso compression that restricts breathing, threatens rib injury, and forces a tap from accumulated pain and inability to breathe.
 
 Unlike choke-based submissions from back control, the body triangle squeeze attacks the torso rather than the neck, making it effective even against opponents with strong chin-tuck and collar defense. The mechanical advantage of the figure-four lock means relatively small increases in leg engagement translate to significant pressure increases on the ribcage. The submission works through cumulative pressure rather than instant danger, making it a grinding technique that rewards patience and positional dominance.
 
 The squeeze is most effective when the triangle is locked at optimal height around the floating ribs and diaphragm, and when the attacker engages their entire posterior chain to generate maximum compression. At the competitive level, this technique functions as both a legitimate finishing threat and a pressure tool that degrades the defender's respiratory capacity, creating the dilemma-based attacking framework that defines elite back control. Combined with choke threats, the squeeze forces the opponent into choosing between protecting their ribs or their neck, a lose-lose defensive prioritization problem.
 
-**From Position**: [[Positions/Back Control/Body Triangle]] (Bottom)
+**From Position**: [[Positions/Back Control/Body Triangle]] (Top)
 **Success Rate**: 35%
 
 </section>
@@ -220,5 +257,7 @@ The Body Triangle Squeeze integrates into the back attack system as a force mult
 
 
 </section>
+
+
 
 </main>

@@ -10,6 +10,41 @@ description: "Master Sit Through Escape from Crab Ride. Wrestling-based hip rota
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Sit Through Escape",
+  "description": "Master Sit Through Escape from Crab Ride. Wrestling-based hip rotation technique to recover guard. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Sit Through Escape", "item": "https://bjjgraph.org/Transitions/Sit-Through-Escape" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Sit Through Escape",
+  "description": "The Sit Through Escape is a wrestling-based guard recovery from Crab Ride bottom where you load your base, drop the near-side hip, and swing the trapped leg through the opponent's hook to arrive face-to-face in open guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Sit Through Escape from Crab Ride. Wrestling-based hip rota
 </div>
 
 <section id="overview" class="content-section">
+
+**The Sit Through Escape is a wrestling-based guard recovery from Crab Ride bottom where you load your base, drop the near-side hip, and swing the trapped leg through the opponent's hook to arrive face-to-face in open guard.**
 
 The Sit Through Escape is a fundamental wrestling-based escape from the Crab Ride position that creates rotational momentum to clear the opponent's hook and establish a facing guard position. This technique exploits the inherent weakness in the crab ride control structure—the top player's commitment to maintaining their hooking leg creates a momentary vulnerability when the bottom player shifts weight and rotates through the space between the hook and the opponent's base leg.
 
@@ -214,5 +251,7 @@ The Sit Through Escape occupies a critical role in the defensive hierarchy from 
 
 
 </section>
+
+
 
 </main>

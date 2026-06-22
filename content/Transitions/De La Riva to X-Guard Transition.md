@@ -10,6 +10,41 @@ description: "Master the De La Riva to X-Guard transition in BJJ. Convert DLR ho
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "De La Riva to X-Guard Transition",
+  "description": "Master the De La Riva to X-Guard transition in BJJ. Convert DLR hook control into powerful X-Guard elevation and sweeping position with systematic entries.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "De La Riva to X-Guard Transition", "item": "https://bjjgraph.org/Transitions/De-La-Riva-to-X-Guard-Transition" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "De La Riva to X-Guard Transition",
+  "description": "The De La Riva to X-Guard transition is a bottom-player sequence that swaps a De La Riva hook for an X-Guard leg entanglement beneath a standing opponent, trading horizontal off-balancing for vertical elevation sweeps and leg-lock entries.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the De La Riva to X-Guard transition in BJJ. Convert DLR ho
 
 <section id="overview" class="content-section">
 
-The De La Riva to X-Guard Transition represents the systematic framework for converting the controlling mechanics of De La Riva Guard into the elevating and sweeping power of X-Guard position. Unlike isolated techniques, this concept encompasses the biomechanical principles, timing considerations, and strategic decision-making that enable seamless positional flow between these two fundamental guard systems. This transition serves as both an offensive adaptation when initial De La Riva attacks are defended and a proactive entry strategy that leverages opponent's posture and base positioning to create superior sweeping opportunities.
+**The De La Riva to X-Guard transition is a bottom-player sequence that swaps a De La Riva hook for an X-Guard leg entanglement beneath a standing opponent, trading horizontal off-balancing for vertical elevation sweeps and leg-lock entries.**
+
+Within the modern open-guard ecosystem, this transition is the bottom player's primary answer when a based-out, upright passer stalls direct De La Riva sweeps and refuses to be pulled forward. Unlike isolated techniques, this concept encompasses the biomechanical principles, timing considerations, and strategic decision-making that enable seamless positional flow between these two fundamental guard systems. This transition serves as both an offensive adaptation when initial De La Riva attacks are defended and a proactive entry strategy that leverages opponent's posture and base positioning to create superior sweeping opportunities.
 
 The ability to flow between these positions transforms static guard retention into dynamic offensive pressure, making it one of the most powerful conceptual frameworks in modern guard play. When the top player maintains upright posture and resists DLR sweeps, the guard player converts underneath into X-Guard where the elevation mechanics become dominant. This reaction-based entry is what separates competent DLR players from dangerous ones: every defensive reaction opens a different offensive pathway.
 
@@ -220,6 +257,16 @@ The De La Riva to X-Guard transition represents a critical connection in modern 
 
 - [[Transitions/Butterfly Guard to X-Guard]] - Alternative X-Guard entry from different guard system sharing similar hook mechanics
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Marcelo-Garcia-X-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-x-guard-system" data-system-name="Marcelo Garcia X-Guard System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Marcelo Garcia X-Guard System</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Advanced entry from De La Riva guard system</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

@@ -1,6 +1,7 @@
 {
   "name": "Probabilistic Thinking",
-  "description": "Learn how to play the percentages in BJJ by choosing high-probability techniques, assessing risk and reward, and making smarter decisions on the mat through probabilistic thinking.",
+  "description": "Learn probabilistic thinking in BJJ: choose high-percentage techniques, weigh risk against reward, and make smarter decisions on the mat under match pressure.",
+  "summary": "Probabilistic thinking in BJJ is the practice of choosing techniques and match strategies based on their real success rates and the cost of failure, rather than on ego, habit, or what looks impressive.",
   "tags": [
     "bjj",
     "strategy",
@@ -114,42 +115,47 @@
   ],
   "related_content": [
     {
-      "name": "Learning/Committed Techniques",
+      "name": "Committed Techniques",
       "content_type": "Learning",
       "relationship": "Committed techniques factor failure cost into the probability equation"
     },
     {
-      "name": "Learning/Position Over Submission",
+      "name": "Position Over Submission",
       "content_type": "Learning",
       "relationship": "Positional advancement is a probabilistic strategy -- better position means higher submission probability"
     },
     {
-      "name": "Principles/Positional Hierarchy",
+      "name": "Positional Hierarchy",
       "content_type": "Principle",
       "relationship": "The positional hierarchy reflects probability -- higher positions yield higher submission success rates"
     },
     {
-      "name": "Principles/Fork Attacks",
+      "name": "Fork Attacks",
       "content_type": "Principle",
       "relationship": "Fork attacks increase overall success probability by offering multiple finishing paths simultaneously"
     },
     {
-      "name": "Principles/Control Maintenance",
+      "name": "Control Maintenance",
       "content_type": "Principle",
       "relationship": "Maintaining control increases the number of attempts you get, which improves cumulative success probability"
     },
     {
-      "name": "Positions/Back Control",
+      "name": "Competition Mindset",
+      "content_type": "Principle",
+      "relationship": "Probabilistic risk assessment under score and clock pressure is core to a sound competition mindset"
+    },
+    {
+      "name": "Back Control",
       "content_type": "Position",
       "relationship": "The highest-percentage submission position in BJJ, where probabilistic thinking clearly favors the rear naked choke"
     },
     {
-      "name": "Positions/Mount",
+      "name": "Mount",
       "content_type": "Position",
       "relationship": "Mount offers multiple high-percentage submissions with high position retention on failure"
     },
     {
-      "name": "Positions/Closed Guard",
+      "name": "Closed Guard",
       "content_type": "Position",
       "relationship": "Closed guard bottom provides reliable high-percentage sweeps and submissions from a secure position"
     }

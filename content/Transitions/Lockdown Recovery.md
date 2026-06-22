@@ -10,6 +10,41 @@ description: "Master Lockdown Recovery from Modified Mount bottom. Step-by-step 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Lockdown Recovery",
+  "description": "Master Lockdown Recovery from Modified Mount bottom. Step-by-step escape capturing opponent\u0027s posted leg. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Lockdown Recovery", "item": "https://bjjgraph.org/Transitions/Lockdown-Recovery" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Lockdown Recovery",
+  "description": "Lockdown Recovery is a bottom escape from Modified Mount where you capture the opponent's posted leg in a figure-four lockdown, converting the mounted position into an attacking 10th Planet half guard with sweep and Electric Chair threats.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master Lockdown Recovery from Modified Mount bottom. Step-by-step 
 </div>
 
 <section id="overview" class="content-section">
+
+**Lockdown Recovery is a bottom escape from Modified Mount where you capture the opponent's posted leg in a figure-four lockdown, converting the mounted position into an attacking 10th Planet half guard with sweep and Electric Chair threats.**
 
 Lockdown Recovery is a specialized escape from Modified Mount that exploits the position's asymmetric structure to capture the opponent's posted leg and establish the powerful Lockdown half guard control. When mounted in Modified Mount, the opponent's posted leg creates both stability for them and an opportunity for the bottom practitioner - that extended leg is vulnerable to being captured if proper timing and technique are applied. The escape centers on creating enough hip space through frames and movement to shoot your legs around the posted leg and establish the figure-four lockdown configuration before the opponent can retract. This technique represents a fundamental principle in BJJ defensive strategy: rather than fighting directly against the mount, you transition to a position where your leg control creates immediate problems for the top player. Once Lockdown is established, the dynamic shifts dramatically - the opponent cannot effectively pass or mount because their leg mobility is completely compromised. The technique requires precise timing, as attempting the leg capture too early leaves you vulnerable to submission attempts, while waiting too long allows the opponent to consolidate mount or transition to a more dominant position. Advanced practitioners use this recovery as part of a broader escape system, threatening the Lockdown entry to create reactions that open other escape paths like deep half guard or standard hip escapes.
 
@@ -212,6 +249,18 @@ Lockdown Recovery occupies a critical position in the BJJ escape hierarchy, spec
 
 - [[Positions/Half Guard]] - Alternative recovery - standard half guard achieved if Lockdown configuration is incomplete
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Twister-System" data-cta="related-system-card" data-system-slug="systems/twister-system" data-system-name="Twister System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Twister System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Collection of sweeping techniques available from lockdown position</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Lockdown-to-Electric-Chair-System" data-cta="related-system-card" data-system-slug="systems/lockdown-to-electric-chair-system" data-system-name="Lockdown to Electric Chair System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Lockdown to Electric Chair System</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Collection of sweeping techniques enabled by lockdown control</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/10th-Planet-Half-Guard-Bottom-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-half-guard-bottom-system" data-system-name="10th Planet Half Guard Bottom System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">10th Planet Half Guard Bottom System</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Family of sweep techniques executed from the Lockdown position</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

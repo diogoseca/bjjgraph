@@ -21,38 +21,32 @@ description: "Master Crackhead Control Bottom in BJJ. 10th Planet's innovative t
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 22% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Standing up in Base",
-      "text": "From this position, attempt Standing up in Base. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Standing up in Base. This technique is attempted in 16% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Sit Through Escape",
-      "text": "From this position, attempt Sit Through Escape. This technique is attempted in 26% of exchanges from this position.",
+      "text": "From this position, attempt Sit Through Escape. This technique is attempted in 30% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Peterson Roll",
-      "text": "From this position, attempt Peterson Roll. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Peterson Roll. This technique is attempted in 16% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Crackhead Control to Carni",
-      "text": "From this position, attempt Crackhead Control to Carni. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Posture Recovery to Closed Guard",
+      "text": "From this position, attempt Posture Recovery to Closed Guard. This technique is attempted in 16% of exchanges from this position.",
       "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Crackhead Control to Mission Control",
-      "text": "From this position, attempt Crackhead Control to Mission Control. This technique is attempted in 10% of exchanges from this position.",
-      "position": 6
     }
   ],
   "totalTime": "PT2M"
@@ -353,6 +347,16 @@ Continuous flow drill alternating between turtle bottom and various guard positi
 - **[[Positions/Closed Guard]]** - Primary guard recovery target
 - **[[Positions/Half Guard]]** - Alternative guard recovery target
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Twister-System" data-cta="related-system-card" data-system-slug="systems/twister-system" data-system-name="Twister System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Twister System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">10th Planet back control variation that shares control concepts with Truck</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

@@ -3,7 +3,8 @@
   "slug": "lasso-guard",
   "description": "Master Lasso Guard in BJJ. Complete guide covering setup mechanics, sweeps, submissions, and transitions. Learn advanced control systems and techniques.",
   "variant_uniqueness": "Sleeve extension trades mobility for sweeps",
-  "overview": "**Lasso Guard** is a sophisticated open guard variation that combines elements of spider guard control with a unique leg threading mechanism. The position is characterized by threading your shin across the opponent's trapped arm, creating a lasso-like control that severely restricts their mobility and posture. This guard offers exceptional control over one side of the opponent's body while maintaining the ability to attack with sweeps, submissions, and transitions.\n\nThe mechanical advantage of Lasso Guard comes from the biomechanical stress placed on the opponent's shoulder and arm. By pulling the trapped sleeve while pushing your shin against their tricep, you create a fulcrum that makes it extremely difficult for them to maintain base or generate forward pressure. This control allows you to manipulate their weight distribution and create opportunities for off-balancing attacks.\n\nLasso Guard is particularly effective in gi-based Brazilian Jiu-Jitsu where sleeve grips provide the necessary control foundation. The position can be played from various configurations - with the non-lasso leg establishing hooks, creating distance with foot placement on the hip or bicep, or combining with other guard elements like collar control or De La Riva hooks. Advanced practitioners often use Lasso Guard as a transitional position, flowing between different open guard systems while maintaining constant pressure on the opponent.\n\nThe guard's effectiveness lies in its ability to control distance while simultaneously threatening with attacks. When the opponent attempts to stand or pass, the lasso creates immediate off-balancing opportunities. When they stay low to avoid sweeps, the position opens up submission opportunities including triangles, omoplatas, and armbar variations. This dual threat system forces opponents into constant defensive reactions, making it a high-percentage control position for both sport competition and self-defense scenarios.\n\nHistorically, Lasso Guard gained prominence through Brazilian competitors in the early 2000s, with athletes like Robson Moura, Samuel Braga, and Michael Langhi demonstrating its effectiveness at the highest levels of competition. The position has since evolved to include numerous variations, entry methods, and integration with modern guard systems. Contemporary competitors continue to develop new applications, particularly in no-gi adaptations using overhook control instead of sleeve grips.\n\nUnderstanding Lasso Guard requires appreciation for both its strengths and limitations. While it offers tremendous control over one arm, it commits your leg to a specific position that can be vulnerable to certain passing methods. Successful application demands constant grip management, hip mobility, and the ability to transition fluidly when the opponent begins to counter the position. Mastery involves developing the sensitivity to recognize when to maintain the lasso and when to abandon it for superior positions.",
+  "summary": "Lasso Guard is a gi open guard in which the bottom player wraps a shin around the outside of the opponent's arm and grips the same-side sleeve, trapping the limb to manage distance and set up sweeps and submissions.",
+  "overview": "Within the gi open-guard family, Lasso Guard sits alongside spider guard as a sleeve-dependent control system, distinguished by the leg-threading mechanism that converts an ordinary sleeve grip into a shoulder-loading trap. This dominance over one side of the opponent's body lets you attack with sweeps, submissions, and transitions while continuously dictating distance and posture.\n\nThe mechanical advantage of Lasso Guard comes from the biomechanical stress placed on the opponent's shoulder and arm. By pulling the trapped sleeve while pushing your shin against their tricep, you create a fulcrum that makes it extremely difficult for them to maintain base or generate forward pressure. This control allows you to manipulate their weight distribution and create opportunities for off-balancing attacks.\n\nLasso Guard is particularly effective in gi-based Brazilian Jiu-Jitsu where sleeve grips provide the necessary control foundation. The position can be played from various configurations - with the non-lasso leg establishing hooks, creating distance with foot placement on the hip or bicep, or combining with other guard elements like collar control or De La Riva hooks. Advanced practitioners often use Lasso Guard as a transitional position, flowing between different open guard systems while maintaining constant pressure on the opponent.\n\nThe guard's effectiveness lies in its ability to control distance while simultaneously threatening with attacks. When the opponent attempts to stand or pass, the lasso creates immediate off-balancing opportunities. When they stay low to avoid sweeps, the position opens up submission opportunities including triangles, omoplatas, and armbar variations. This dual threat system forces opponents into constant defensive reactions, making it a high-percentage control position for both sport competition and self-defense scenarios.\n\nHistorically, Lasso Guard gained prominence through Brazilian competitors in the early 2000s, with athletes like Robson Moura, Samuel Braga, and Michael Langhi demonstrating its effectiveness at the highest levels of competition. The position has since evolved to include numerous variations, entry methods, and integration with modern guard systems. Contemporary competitors continue to develop new applications, particularly in no-gi adaptations using overhook control instead of sleeve grips.\n\nUnderstanding Lasso Guard requires appreciation for both its strengths and limitations. While it offers tremendous control over one arm, it commits your leg to a specific position that can be vulnerable to certain passing methods. Successful application demands constant grip management, hip mobility, and the ability to transition fluidly when the opponent begins to counter the position. Mastery involves developing the sensitivity to recognize when to maintain the lasso and when to abandon it for superior positions.",
   "key_principles": [
     "Maintain constant tension on the trapped sleeve while extending your lasso leg to create maximum leverage against the opponent's shoulder joint",
     "Control distance with your non-lasso leg by posting on the hip, bicep, or establishing secondary hooks to prevent forward pressure",
@@ -85,7 +86,7 @@
         "attempt_probability": 10
       },
       {
-        "transition": "Knee Cut Pass",
+        "transition": "Knee Slice Pass",
         "attempt_probability": 34
       },
       {
@@ -347,35 +348,35 @@
     "transitions": [
       {
         "transition": "Sickle Sweep",
-        "attempt_probability": 48
+        "attempt_probability": 24
       },
       {
         "transition": "Triangle Setup",
-        "attempt_probability": 12
+        "attempt_probability": 15
       },
       {
         "transition": "Omoplata Sweep",
-        "attempt_probability": 8
+        "attempt_probability": 13
       },
       {
         "transition": "De La Riva Sweep",
-        "attempt_probability": 5
+        "attempt_probability": 8
       },
       {
         "transition": "Omoplata from Lasso",
-        "attempt_probability": 5
+        "attempt_probability": 9
       },
       {
         "transition": "Hook Sweep",
-        "attempt_probability": 4
+        "attempt_probability": 5
       },
       {
         "transition": "Lasso Sweep",
-        "attempt_probability": 4
+        "attempt_probability": 7
       },
       {
         "transition": "X-Guard Sweep",
-        "attempt_probability": 3
+        "attempt_probability": 5
       },
       {
         "transition": "Berimbolo Entry",
@@ -395,7 +396,11 @@
       },
       {
         "transition": "Lasso Guard to Russian Leg Lasso",
-        "attempt_probability": 1
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Belly Down Armbar from Lasso Guard",
+        "attempt_probability": 2
       }
     ],
     "decision_tree": [

@@ -10,6 +10,41 @@ description: "Master Elbow Escape to Remove Hooks from back control. Step-by-ste
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Elbow Escape to Remove Hooks",
+  "description": "Master Elbow Escape to Remove Hooks from back control. Step-by-step hook removal mechanics with elbow wedge framing and systematic hip escape sequences.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Elbow Escape to Remove Hooks", "item": "https://bjjgraph.org/Transitions/Elbow-Escape-to-Remove-Hooks" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Elbow Escape to Remove Hooks",
+  "description": "The Elbow Escape to Remove Hooks is a systematic back-control escape where the bottom player wedges an elbow against each hook and shrimps free one hook at a time, clearing leg control to recover guard while keeping the neck defended.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master Elbow Escape to Remove Hooks from back control. Step-by-ste
 
 <section id="overview" class="content-section">
 
-The Elbow Escape to Remove Hooks is a systematic defensive technique used to escape back control by methodically clearing the opponent's hooks using elbow-based framing and hip movement. When trapped in the invisible collar position, the defender faces both positional disadvantage and immediate submission threat. This escape addresses the hook control that anchors back position before dealing with upper body attacks.
+**The Elbow Escape to Remove Hooks is a systematic back-control escape where the bottom player wedges an elbow against each hook and shrimps free one hook at a time, clearing leg control to recover guard while keeping the neck defended.**
+
+Because back control rests on the opponent's hooks anchoring your hips, no rotation or guard recovery is possible until those hooks are cleared—this escape attacks that foundation first. When trapped in the invisible collar position, the defender faces both positional disadvantage and immediate submission threat, so this escape addresses the hook control that anchors back position before dealing with upper body attacks.
 
 The fundamental concept involves using your elbows as wedges against your opponent's hooks while creating space through hip escapes. Rather than fighting the choking grip directly, this technique attacks the foundation of their control—the hooks that prevent you from turning. By systematically removing hooks one at a time, you create rotational freedom that eventually allows guard recovery.
 
@@ -222,5 +259,7 @@ The Elbow Escape to Remove Hooks is a critical defensive transition in the back 
 
 
 </section>
+
+
 
 </main>

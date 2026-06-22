@@ -10,10 +10,55 @@ description: "Master the North-South Choke from Reverse Scarf Hold. Complete fin
 
 <body data-content-type="submissions-hub">
 
-> **SAFETY**: North-South Choke from Reverse Scarf targets the Neck (Carotid Arteries). Risk: Loss of consciousness from bilateral carotid compression. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "North-South Choke from Reverse Scarf",
+  "description": "Master the North-South Choke from Reverse Scarf Hold. Complete finishing mechanics, escape strategies, and progressive training drills for BJJ grapplers.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "North-South Choke from Reverse Scarf", "item": "https://bjjgraph.org/Submissions/North-South-Choke-from-Reverse-Scarf" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "North-South Choke from Reverse Scarf",
+  "description": "The North-South Choke from Reverse Scarf Hold is a bilateral blood choke that converts the reverse scarf pin into carotid compression by threading the choking arm beneath the opponent's neck and shifting the hips into north-south alignment.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The North-South Choke from Reverse Scarf Hold is a bilateral blood choke that converts the reverse scarf pin into carotid compression by threading the choking arm beneath the opponent's neck and shifting the hips into north-south alignment.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Neck (Carotid Arteries)</span>
+<span class="meta-chip">42% success</span>
+</div>
+
+> [!danger] Safety
+> North-South Choke from Reverse Scarf targets the Neck (Carotid Arteries). Primary risk: Loss of consciousness from bilateral carotid compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -30,50 +75,7 @@ The mechanics of this choke create a particularly effective strangling angle. Th
 
 Strategically, this submission serves as the primary threat from reverse scarf hold, forcing the bottom player into a defensive dilemma: protect the neck and concede positional advancement, or maintain frames against the pin and risk the choke. This dilemma creation makes the reverse scarf hold significantly more dangerous when the top player has developed proficiency with the north-south choke finish, transforming an often-overlooked transitional pin into a lethal submission platform.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Neck (Carotid Arteries)
-**Starting Position**: [[Positions/Side Control/Reverse Scarf Hold]]
-**From Position**: [[Positions/Side Control/Reverse Scarf Hold]] (Top)
-**Success Rate**: 42%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Loss of consciousness from bilateral carotid compression | CRITICAL | Minutes to hours for full cognitive recovery; medical evaluation required if unconsciousness exceeds 10 seconds |
-| Tracheal damage from improper technique applying pressure to windpipe instead of carotid arteries | High | 1-4 weeks depending on severity; may require medical attention for swelling or difficulty swallowing |
-| Cervical spine strain from excessive neck cranking or lateral pressure during choke application | Medium | 3-14 days with rest and appropriate treatment |
-
-
-**Application Speed**: SLOW and progressive. Blood chokes can cause unconsciousness in 4-8 seconds once locked. Never jerk or spike the choke. Apply pressure gradually and give your partner adequate time to tap. In training, pause briefly after initial engagement to allow recognition and tap response.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner, own body, or mat
-- Physical foot tap on mat or partner with either leg
-- Any unusual vocalization, gurgling, or distress sound indicating inability to verbally tap
-
-
-**Release Protocol**:
-1. Release ALL pressure immediately upon any tap signal - do not wait to confirm
-2. If partner goes limp or stops resisting unexpectedly, release immediately and check consciousness
-3. If in doubt about whether a tap occurred, release - position can always be re-established
-4. After release, maintain awareness of partner's consciousness and breathing for 15-30 seconds
-
-
-**Training Restrictions**:
-- Beginners should practice positioning and mechanics only without applying full choking pressure until instructor approval
-- Never apply this choke at full speed or force during drilling - save intensity for controlled positional sparring
-- Partners with neck injuries, cardiovascular conditions, or blood pressure issues should avoid this technique entirely
-- Always train with a qualified instructor present when first learning this choke
-
+**Starting Position**: [[Positions/Side Control/Reverse Scarf Hold]] · **From**: [[Positions/Side Control/Reverse Scarf Hold]] (Top)
 
 </section>
 
@@ -241,43 +243,61 @@ Strategically, this submission serves as the primary threat from reverse scarf h
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Americana]]
 - [[Submissions/Kimura]]
 - [[Transitions/Arm Triangle]]
 - [[Submissions/Kesa Gatame Arm Crush]]
 - [[Submissions/Ezekiel Choke]]
 - [[Submissions/Breadcutter Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Side Control/Reverse Scarf Hold]] - Primary starting position for this choke - reverse orientation provides the entry angle
 - [[Positions/North-South]] - Related control position with similar choking mechanics and alignment
 - [[Positions/Side Control]] - Common upstream position from which reverse scarf hold is established before choke entry
 - [[Positions/Side Control/Kesa Gatame]] - Related scarf hold family position with different choking opportunities
-- [[Submissions/Americana]] - Alternative submission from reverse scarf hold when neck is defended and arm is exposed
 - [[Positions/Kimura Trap]] - Control position accessible when choke attempt fails and arm becomes available
-- [[Transitions/Arm Triangle]] - Alternative choke from top control positions using head-and-arm compression
+
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Loss of consciousness from bilateral carotid compression | CRITICAL | Minutes to hours for full cognitive recovery; medical evaluation required if unconsciousness exceeds 10 seconds |
+| Tracheal damage from improper technique applying pressure to windpipe instead of carotid arteries | High | 1-4 weeks depending on severity; may require medical attention for swelling or difficulty swallowing |
+| Cervical spine strain from excessive neck cranking or lateral pressure during choke application | Medium | 3-14 days with rest and appropriate treatment |
+
+
+**Application Speed**: SLOW and progressive. Blood chokes can cause unconsciousness in 4-8 seconds once locked. Never jerk or spike the choke. Apply pressure gradually and give your partner adequate time to tap. In training, pause briefly after initial engagement to allow recognition and tap response.
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any distress signal)
+- Physical hand tap on partner, own body, or mat
+- Physical foot tap on mat or partner with either leg
+- Any unusual vocalization, gurgling, or distress sound indicating inability to verbally tap
+
+
+**Release Protocol**:
+1. Release ALL pressure immediately upon any tap signal - do not wait to confirm
+2. If partner goes limp or stops resisting unexpectedly, release immediately and check consciousness
+3. If in doubt about whether a tap occurred, release - position can always be re-established
+4. After release, maintain awareness of partner's consciousness and breathing for 15-30 seconds
+
+
+**Training Restrictions**:
+- Beginners should practice positioning and mechanics only without applying full choking pressure until instructor approval
+- Never apply this choke at full speed or force during drilling - save intensity for controlled positional sparring
+- Partners with neck injuries, cardiovascular conditions, or blood pressure issues should avoid this technique entirely
+- Always train with a qualified instructor present when first learning this choke
 
 
 </section>
 
-<section id="terminal-state" class="content-section">
 
-## Match Outcome
-
-Successful execution of North-South Choke from Reverse Scarf leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

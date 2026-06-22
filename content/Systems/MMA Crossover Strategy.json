@@ -12,7 +12,8 @@
   ],
   "system_type": "Competition Strategy",
   "difficulty_level": "Advanced",
-  "overview": "MMA Crossover Strategy represents the systematic adaptation of Brazilian Jiu-Jitsu techniques for mixed martial arts competition, where striking threats fundamentally alter positional priorities and technical execution. This comprehensive framework addresses the unique challenges of grappling in a striking environment: maintaining defensive posture against strikes, utilizing cage geometry for positional advantage, modifying traditional submissions for strike-heavy scenarios, and implementing ground-and-pound strategies. The system emphasizes positions that offer strike protection while maintaining offensive capability, transitions that minimize exposure to strikes, and submissions that can be secured quickly before opponents create striking opportunities. Success in MMA grappling requires abandoning certain high-risk BJJ techniques in favor of conservative, strike-aware positioning combined with explosive finishing sequences when opportunities present themselves.",
+  "summary": "The MMA Crossover Strategy is a competition framework that adapts Brazilian Jiu-Jitsu for striking environments, prioritizing strike-aware posture, cage geometry, wrestling-based top control, ground-and-pound, and explosive high-percentage submissions over high-risk traditional guard play.",
+  "overview": "As mixed martial arts matured beyond its early grappling-dominant era, competitors learned that pure Brazilian Jiu-Jitsu had to be substantially modified to survive and win under the constant threat of strikes. MMA Crossover Strategy grew out of that evolution, addressing the unique challenges of grappling in a striking environment: maintaining defensive posture against strikes, utilizing cage geometry for positional advantage, modifying traditional submissions for strike-heavy scenarios, and implementing ground-and-pound strategies. The system emphasizes positions that offer strike protection while maintaining offensive capability, transitions that minimize exposure to strikes, and submissions that can be secured quickly before opponents create striking opportunities. Success in MMA grappling requires abandoning certain high-risk BJJ techniques in favor of conservative, strike-aware positioning combined with explosive finishing sequences when opportunities present themselves.",
   "key_principles": [
     "Posture and chin protection take absolute priority over traditional positional advancement",
     "Cage geometry becomes a critical factor in takedowns, position maintenance, and escape sequences",
@@ -374,6 +375,40 @@
       "name": "Energy Conservation",
       "content_type": "Principle",
       "relationship": "Pacing principle accounting for increased cardio demands of MMA"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "Why do top positions like mount and back control become more valuable in MMA than in sport BJJ?",
+      "answer": "In MMA they enable ground-and-pound while shielding the top fighter from strikes, making mount, back control, and side control exponentially more dangerous and decisive than in pure grappling, where they primarily set up submissions."
+    },
+    {
+      "question": "Which traditional guards become high-risk in MMA, and what should replace them?",
+      "answer": "Open guards like spider, lasso, and De La Riva expose the head to strikes and become dangerous. They are replaced by closed guard for protection, plus explosive sweeps or technical standups to exit the bottom quickly."
+    },
+    {
+      "question": "How does cage geometry change grappling strategy compared to an open mat?",
+      "answer": "The cage enables wall-walking standups, cage-assisted takedowns that trap opponents against the fence, and corner control to limit mobility. Fighters use cage angles to pin opponents where their striking power is reduced."
+    },
+    {
+      "question": "What makes a submission appropriate for MMA versus sport grappling?",
+      "answer": "MMA submissions must be explosive and high-percentage, securing the finish before strikes create danger. Guillotines from sprawls, the hooks-free rear naked choke, and arm triangles from side control are favored over slow, complex setups."
+    },
+    {
+      "question": "What is the single most important postural priority when grappling in MMA?",
+      "answer": "Chin protection and head positioning take absolute priority over positional advancement, because a knockout strike ends the fight instantly regardless of grappling position; the hands and posture must serve dual defensive duty."
+    },
+    {
+      "question": "How should a fighter decide between striking and advancing position on the ground?",
+      "answer": "Prioritize grappling advances from dominant positions like mount and back, strike from the bottom to create space and standup chances, and strike from neutral positions to force defensive reactions that open grappling entries."
+    },
+    {
+      "question": "Why does MMA grappling demand different conditioning than pure BJJ?",
+      "answer": "Combined striking and grappling exchanges drain cardio far faster than pure grappling, so training must integrate both skills in the same sessions and emphasize pacing and efficient transitions to preserve energy reserves."
+    },
+    {
+      "question": "What is a common mistake when transitioning from sport BJJ to MMA grappling?",
+      "answer": "Over-committing to complex guard play and intricate sweep sequences that work on the mat but create excessive strike vulnerability in the cage; fighters must trade beautiful-but-slow techniques for conservative, strike-aware positioning."
     }
   ]
 }

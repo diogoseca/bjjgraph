@@ -10,6 +10,41 @@ description: "Learn Deashi Harai in BJJ. Step-by-step execution from Standing Po
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Deashi Harai",
+  "description": "Learn Deashi Harai in BJJ. Step-by-step execution from Standing Position to Side Control. Success: Beginner 30%, Intermediate 50%, Advanced 70%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Deashi Harai", "item": "https://bjjgraph.org/Transitions/Deashi-Harai" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Deashi Harai",
+  "description": "Deashi Harai is a Judo foot sweep adapted for BJJ that brushes the opponent's advancing lead foot away the instant their weight commits forward, off-balancing them backward into a controlled fall to top side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Learn Deashi Harai in BJJ. Step-by-step execution from Standing Po
 </div>
 
 <section id="overview" class="content-section">
+
+**Deashi Harai is a Judo foot sweep adapted for BJJ that brushes the opponent's advancing lead foot away the instant their weight commits forward, off-balancing them backward into a controlled fall to top side control.**
 
 Deashi Harai, also known as the advanced foot sweep, is a foundational Judo technique that has been successfully integrated into modern Brazilian Jiu-Jitsu standup game. This technique exploits the opponent's forward momentum and weight transfer, using precise timing to sweep their leading leg as it advances. Unlike more forceful throws, Deashi Harai relies on perfect synchronization between grip control, body positioning, and the sweeping action of your foot against the opponent's ankle or lower shin.
 
@@ -227,5 +264,7 @@ Deashi Harai serves as a fundamental component of a complete BJJ standup system,
 
 
 </section>
+
+
 
 </main>

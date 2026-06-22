@@ -10,6 +10,41 @@ description: "Master the Stack from Williams Guard in BJJ. Learn to neutralize s
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Stack from Williams Guard",
+  "description": "Master the Stack from Williams Guard in BJJ. Learn to neutralize shoulder lock control and advance position using systematic stacking pressure techniques.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Stack from Williams Guard", "item": "https://bjjgraph.org/Transitions/Stack-from-Williams-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Stack from Williams Guard",
+  "description": "The Stack from Williams Guard is a top-side guard pass that drives forward pressure to fold the bottom player's hips over their shoulders, collapsing the guard structure and neutralizing the shoulder lock without grip fighting.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Stack from Williams Guard in BJJ. Learn to neutralize s
 </div>
 
 <section id="overview" class="content-section">
+
+**The Stack from Williams Guard is a top-side guard pass that drives forward pressure to fold the bottom player's hips over their shoulders, collapsing the guard structure and neutralizing the shoulder lock without grip fighting.**
 
 The Stack from Williams Guard is a fundamental guard passing technique executed by the top player when caught in Williams Guard's shoulder lock control. Rather than fighting the grip configuration directly, the top player drives forward with controlled pressure to fold the bottom player's hips over their shoulders, compressing the guard structure and neutralizing the shoulder lock mechanics through positional pressure rather than grip fighting. This stacking approach exploits a key mechanical vulnerability in Williams Guard: the shoulder lock requires space and hip mobility to maintain effective leverage, and the stack systematically removes both.
 
@@ -216,5 +253,7 @@ The Stack from Williams Guard occupies a critical role in the guard passing hier
 
 
 </section>
+
+
 
 </main>

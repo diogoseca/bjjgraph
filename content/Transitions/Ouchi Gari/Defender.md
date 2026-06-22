@@ -105,6 +105,7 @@ description: "How to defend against Ouchi Gari in BJJ. Recognition cues, defensi
   "@type": "WebPage",
   "name": "Ouchi Gari Defender",
   "description": "How to defend against Ouchi Gari in BJJ. Recognition cues, defensive options, and escape strategies.",
+  "alternateName": ["Major Inner Reap", "O Uchi Gari"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -150,6 +151,9 @@ description: "How to defend against Ouchi Gari in BJJ. Recognition cues, defensi
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Major Inner Reap</strong>, <strong>O Uchi Gari</strong> <span class="role-hint">(defender)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 Defending Ouchi Gari requires recognizing the attack early and responding with the appropriate counter-movement before the throw reaches full commitment. The defender's primary challenge is that Ouchi Gari combines a leg attack with upper body manipulation, meaning a purely upper-body or purely lower-body defensive response will be insufficient. Effective defense begins well before the throw itself—it starts with grip denial and posture maintenance that prevent the attacker from establishing the control needed to initiate the technique. Once the attack is in progress, the defender must choose between stepping the attacked leg clear, sprawling to deny the reaping action, or using circular movement to create an angle that nullifies the throw. At the highest levels, skilled defenders convert Ouchi Gari defense into counter-attack opportunities, using the attacker's forward commitment against them through counter-throws or guard pulls that exploit their momentary single-leg base. Understanding the biomechanics of why Ouchi Gari works—the combination of rear-corner kuzushi with inside leg removal—allows the defender to address the root causes rather than merely reacting to symptoms.

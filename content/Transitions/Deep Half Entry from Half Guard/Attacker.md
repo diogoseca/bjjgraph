@@ -343,4 +343,6 @@ The Deep Half Entry from Half Guard involves significant neck loading as the hea
 
 </section>
 
+
+
 </main>

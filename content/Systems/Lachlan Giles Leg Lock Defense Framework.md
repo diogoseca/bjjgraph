@@ -134,10 +134,23 @@ description: "Master defensive leg lock strategies from ADCC champion Lachlan Gi
 }
 </script>
 
-> Lachlan Giles Leg Lock Defense Framework is a advanced difficulty Defense System system. Integrates 5 components.
 
-**System Type**: Defense System
-**Difficulty Level**: Advanced
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Lachlan Giles Leg Lock Defense Framework",
+  "description": "The Lachlan Giles Leg Lock Defense Framework is a defensive system that neutralizes heel hooks and ankle locks through early entanglement prevention, hip alignment, position-danger recognition, and systematic clearing sequences that work regardless of flexibility or strength.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Defense System</span>
+<span class="meta-chip">Advanced difficulty</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -146,7 +159,27 @@ description: "Master defensive leg lock strategies from ADCC champion Lachlan Gi
 
 ## What is Lachlan Giles Leg Lock Defense Framework?
 
+**The Lachlan Giles Leg Lock Defense Framework is a defensive system that neutralizes heel hooks and ankle locks through early entanglement prevention, hip alignment, position-danger recognition, and systematic clearing sequences that work regardless of flexibility or strength.**
+
 The Lachlan Giles Leg Lock Defense Framework represents one of the most comprehensive and scientifically-informed approaches to defending leg attacks in modern Brazilian Jiu-Jitsu. Developed through extensive competition experience at the highest levels including ADCC, this system emphasizes prevention over reaction, teaching practitioners to recognize and neutralize leg entanglement threats before they fully develop. The framework is built on understanding the mechanical hierarchy of leg lock positions, from least to most dangerous, and provides specific defensive protocols for each stage of entanglement. Rather than relying on strength or flexibility, Giles' methodology focuses on proper positioning, hip alignment, and systematic counter-mechanics that work regardless of physical attributes. The system integrates seamlessly with modern guard retention principles while specifically addressing the unique challenges posed by contemporary leg lock specialists who build their entire games around the lower body.
+
+</section>
+
+
+
+<section id="unlock-graph" class="content-section system-unlock" data-system-unlock hidden>
+
+## Unlock this part of the graph
+
+<p class="section-subtitle">This system teaches the highlighted nodes in the graph. Mark what you already know &mdash; be honest, it's your game.</p>
+
+<div class="system-progress" data-system-progress>
+<svg class="system-progress__ring" viewBox="0 0 44 44" aria-hidden="true"><circle class="system-progress__ring-bg" cx="22" cy="22" r="19"></circle><circle class="system-progress__ring-fill" cx="22" cy="22" r="19"></circle></svg>
+<div class="system-progress__text">You've unlocked <strong class="system-progress__known">0</strong> / <span class="system-progress__total">0</span> techniques in this system</div>
+<button class="system-progress__mark-all" data-mark-system type="button">Mark whole system as known</button>
+</div>
+
+<ul class="system-members" data-system-members></ul>
 
 </section>
 

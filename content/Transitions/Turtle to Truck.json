@@ -1,5 +1,6 @@
 {
   "name": "Turtle to Truck",
+  "summary": "Turtle to Truck is a 10th Planet back-attack entry where the top player, facing a turtled opponent, traps one leg in a figure-four and presses a boot to the hip, opening simultaneous twister, calf slicer, and back-control threats.",
   "description": "Master the Turtle to Truck transition in BJJ. Step-by-step execution from Turtle to Truck position with complete attacker and defender analysis.",
   "tags": [
     "bjj",
@@ -45,8 +46,8 @@
       "relationship": "Follow-up position - natural progression from Truck for submission"
     },
     {
-      "name": "Truck Entry",
-      "relationship": "Alternative transition - same destination with different entry mechanics"
+      "name": "Roll to Truck",
+      "relationship": "Alternative transition - dynamic entry reaching the same Truck position"
     },
     {
       "name": "Crab Ride to Back",
@@ -61,20 +62,20 @@
       "relationship": "Alternative transition - traditional back attack when Truck is defended"
     },
     {
-      "name": "Lockdown Recovery",
-      "relationship": "Technical similarity - uses similar leg triangle mechanics"
+      "name": "Lockdown",
+      "relationship": "Technical similarity - shares the figure-four leg triangle mechanics"
     },
     {
-      "name": "Old School Sweep",
-      "relationship": "Related technique - uses similar leg control concepts from different position"
+      "name": "Old School",
+      "relationship": "Related position - uses similar leg control concepts from a different angle"
     },
     {
       "name": "Banana Split",
       "relationship": "Related submission - similar leg spreading mechanics from Truck"
     },
     {
-      "name": "Electric Chair Transition",
-      "relationship": "Related 10th Planet technique sharing leg entanglement principles"
+      "name": "Electric Chair",
+      "relationship": "Related 10th Planet position sharing leg entanglement principles"
     },
     {
       "name": "Crucifix from Turtle",

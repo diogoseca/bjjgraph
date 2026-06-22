@@ -10,6 +10,41 @@ description: "Master the Guard Pass from Diamond Guard in BJJ. Systematic techni
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Guard Pass from Diamond Guard",
+  "description": "Master the Guard Pass from Diamond Guard in BJJ. Systematic techniques for breaking the overhook-head control frame and passing to dominant side control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Guard Pass from Diamond Guard", "item": "https://bjjgraph.org/Transitions/Guard-Pass-from-Diamond-Guard" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Guard Pass from Diamond Guard",
+  "description": "Guard Pass from Diamond Guard is a sequential top passing method that neutralizes the overhook-and-head-control frame in order — circling the head free, stripping the overhook, then opening the closed guard — to advance into side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Guard Pass from Diamond Guard in BJJ. Systematic techni
 </div>
 
 <section id="overview" class="content-section">
+
+**Guard Pass from Diamond Guard is a sequential top passing method that neutralizes the overhook-and-head-control frame in order — circling the head free, stripping the overhook, then opening the closed guard — to advance into side control.**
 
 The Guard Pass from Diamond Guard addresses one of the most technically demanding closed guard configurations in modern BJJ. Diamond Guard combines an overhook on one arm with head control behind the neck, creating a self-reinforcing frame that amplifies posture-breaking effectiveness and provides direct pathways to triangles, omoplatas, and kimuras. Passing this guard requires a systematic, sequential approach to grip stripping that differs fundamentally from standard closed guard passing.
 
@@ -220,5 +257,7 @@ Guard Pass from Diamond Guard occupies a critical role in the passing hierarchy 
 
 
 </section>
+
+
 
 </main>

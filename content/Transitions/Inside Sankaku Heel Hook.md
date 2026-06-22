@@ -10,6 +10,41 @@ description: "Master the Inside Sankaku Heel Hook in BJJ. Comprehensive guide to
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Inside Sankaku Heel Hook",
+  "description": "Master the Inside Sankaku Heel Hook in BJJ. Comprehensive guide to grip sequences, rotational breaking mechanics, and proven defensive counter strategies.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Inside Sankaku Heel Hook", "item": "https://bjjgraph.org/Transitions/Inside-Sankaku-Heel-Hook" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Inside Sankaku Heel Hook",
+  "description": "Executed from the Inside Sankaku (Honey Hole) leg entanglement, the Inside Sankaku Heel Hook isolates the opponent's exposed inside heel with a two-on-one blade grip and applies rotational torque to the knee, making it one of no-gi grappling's highest-percentage finishes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Inside Sankaku Heel Hook in BJJ. Comprehensive guide to
 </div>
 
 <section id="overview" class="content-section">
+
+**Executed from the Inside Sankaku (Honey Hole) leg entanglement, the Inside Sankaku Heel Hook isolates the opponent's exposed inside heel with a two-on-one blade grip and applies rotational torque to the knee, making it one of no-gi grappling's highest-percentage finishes.**
 
 The Inside Sankaku Heel Hook is the primary finishing technique from the Inside Sankaku leg entanglement, widely regarded as one of the highest-percentage submissions in modern no-gi grappling. This transition represents the culmination of the leg lock attack sequence where established positional control converts into a match-ending submission. The attacker leverages the structural advantages of the Inside Sankaku figure-four configuration to isolate the opponent's heel and apply devastating rotational force to the knee joint through precise breaking mechanics.
 
@@ -206,8 +243,6 @@ The Inside Sankaku Heel Hook sits at the apex of the modern leg lock system as t
 
 - [[Inside Heel Hook from Honey Hole]] - Same submission from the alternative name position
 
-- [[Submissions/Inside Heel Hook]] - Submission finish page for this technique
-
 - [[Positions/Ashi Garami/Honey Hole]] - Alternative name for the Inside Sankaku position
 
 - [[Positions/Ashi Garami/Saddle]] - Alternative leg entanglement for finishing when Inside Sankaku control is compromised
@@ -224,5 +259,7 @@ The Inside Sankaku Heel Hook sits at the apex of the modern leg lock system as t
 
 
 </section>
+
+
 
 </main>

@@ -10,6 +10,41 @@ description: "Master the Duck Under from Clinch in BJJ. Complete guide to level 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Duck Under from Clinch",
+  "description": "Master the Duck Under from Clinch in BJJ. Complete guide to level changes, arm clearance, and circling behind opponents for Standing Rear Clinch control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Duck Under from Clinch", "item": "https://bjjgraph.org/Transitions/Duck-Under-from-Clinch" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Duck Under from Clinch",
+  "description": "The Duck Under from Clinch is a wrestling-based level change in which you dip your head beneath an opponent's controlling arm and circle behind them, converting a clinch exchange into dominant Standing Rear Clinch back control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Duck Under from Clinch in BJJ. Complete guide to level 
 </div>
 
 <section id="overview" class="content-section">
+
+**The Duck Under from Clinch is a wrestling-based level change in which you dip your head beneath an opponent's controlling arm and circle behind them, converting a clinch exchange into dominant Standing Rear Clinch back control.**
 
 The duck under is a fundamental wrestling-based technique adapted for BJJ clinch work that converts a neutral or disadvantaged clinch position into dominant back control. From the clinch, the practitioner uses a level change to dip beneath the opponent's arm—typically an overhook, collar tie, or extended grip—then circles behind to establish the Standing Rear Clinch. The technique exploits the opponent's commitment to upper body control by changing the plane of engagement, converting horizontal grip fighting into a vertical level change that bypasses their defensive structure entirely.
 
@@ -222,5 +259,7 @@ The Duck Under from Clinch serves as a critical bridge between neutral standing 
 
 
 </section>
+
+
 
 </main>

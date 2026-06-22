@@ -10,6 +10,41 @@ description: "Master standing up from combat base in BJJ. Learn grip retention, 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Standing Up from Combat Base",
+  "description": "Master standing up from combat base in BJJ. Learn grip retention, posture mechanics, and balance control for transitioning to effective standing guard passes.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Standing Up from Combat Base", "item": "https://bjjgraph.org/Transitions/Standing-Up-from-Combat-Base" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Standing Up from Combat Base",
+  "description": "Standing Up from Combat Base is a guard-passing transition where the top player rises from a kneeling combat base to a fully standing stance while controlling the opponent's legs, unlocking high-leverage standing passes like the toreando and leg drag.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master standing up from combat base in BJJ. Learn grip retention, 
 
 <section id="overview" class="content-section">
 
-Standing Up from Combat Base is a fundamental guard passing transition where the top player elevates from a kneeling combat base position to a fully standing stance while maintaining grip control on the opponent's legs. This transition is strategically critical because it changes the entire passing dynamic—standing provides greater grip-breaking leverage, wider passing angles, and access to high-velocity passes like the toreando, leg drag, and x-pass that are unavailable from the knees. The height differential also reduces the effectiveness of many bottom player attacks that depend on proximity and hip-level engagement.
+**Standing Up from Combat Base is a guard-passing transition where the top player rises from a kneeling combat base to a fully standing stance while controlling the opponent's legs, unlocking high-leverage standing passes like the toreando and leg drag.**
+
+Within the guard-passing hierarchy, standing marks the decision to abandon kneeling pressure in favor of elevation and mobility. This transition is strategically critical because it changes the entire passing dynamic—standing provides greater grip-breaking leverage, wider passing angles, and access to high-velocity passes like the toreando, leg drag, and x-pass that are unavailable from the knees. The height differential also reduces the effectiveness of many bottom player attacks that depend on proximity and hip-level engagement.
 
 The decision to stand typically arises when the bottom player establishes strong distance-based frames, lasso or spider grips, or foot-on-hip configurations that neutralize kneeling passing pressure. Rather than fighting through these structures from the knees, standing breaks those control mechanisms by changing the angle and elevation of engagement. The passer gains the ability to redirect the opponent's legs laterally with far greater mechanical advantage than kneeling passes allow, creating immediate passing opportunities.
 
@@ -222,5 +259,7 @@ Standing Up from Combat Base occupies a critical junction in the guard passing d
 
 
 </section>
+
+
 
 </main>

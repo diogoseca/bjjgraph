@@ -2,7 +2,13 @@
   "name": "De La Riva Guard",
   "slug": "de-la-riva-guard",
   "description": "Master De La Riva Guard in BJJ. Hook-based open guard with berimbolo entries, sweeps, back takes, and 65% advanced success rates. Complete technical guide.",
+  "aliases": [
+    "De La Riva",
+    "DLR Guard",
+    "DLR"
+  ],
   "variant_uniqueness": "Dynamic hooks trade static frames for leverage",
+  "summary": "De La Riva Guard is a hook-based open guard in which the bottom player wraps a foot around the opponent's lead leg to off-balance them, opening sweeps, berimbolo back-takes, and entries to X-Guard and leg locks.",
   "overview": "De La Riva Guard (DLR) is a sophisticated open guard variation where the bottom player hooks the opponent's lead leg with their outside foot while controlling the ankle or pant with their hand on the same side. The other hand typically controls the opponent's sleeve or collar, creating a structure that limits the opponent's mobility and generates powerful sweeping leverage. This guard has become fundamental in modern BJJ, particularly for setting up berimbolo sequences, back takes, and creating connections to other guard systems.\n\nDeveloped by Ricardo De La Riva in the 1980s as a counter to the traditional standing guard pass, this position revolutionized modern guard play by introducing a systematic approach to controlling the opponent's base from an off-angle relationship. The DLR hook creates a powerful mechanical advantage that disrupts the opponent's weight distribution and limits their passing options, forcing them into predictable responses that can be exploited through sweeps, back takes, or transitions to other guard systems. The position's effectiveness lies in its ability to create constant threats while maintaining defensive security, making it a cornerstone of contemporary competitive BJJ at all belt levels.\n\nThe De La Riva system offers exceptional versatility for practitioners of all levels. Beginners can learn fundamental off-balancing principles and basic sweeps that work at percentage rates around 35-40%. Intermediate practitioners develop sophisticated berimbolo entries and guard retention strategies that increase success rates to 50-60%. Advanced competitors master the full DLR ecosystem, including kiss of the dragon variations, seamless transitions to X-Guard and Single Leg X, and leg entanglement systems that achieve success rates of 65-75% in competition. The position's adaptability to both gi and no-gi contexts, combined with its direct pathways to dominant positions like back control and mount, makes it an essential component of any modern BJJ game plan.\n\nThe strategic genius of De La Riva Guard lies in its dilemma-based attack structure. Every defensive reaction by the top player opens a different offensive pathway for the guard player. Driving forward exposes the passer to berimbolo and inversion entries. Standing tall with weight back invites under-transitions to X-Guard and Single Leg X. Attempting to strip grips creates timing windows for basic sweeps. This layered threat matrix forces the top player into a reactive posture, constantly defending rather than initiating their own passing sequences. Understanding and exploiting this reaction-based framework is what separates competent DLR players from truly dangerous ones.",
   "key_principles": [
     "Control opponent's lead leg with both foot hook and hand grip, creating a two-point connection that limits their mobility and establishes the foundation for all DLR attacks",
@@ -88,7 +94,7 @@
     "transitions": [
       {
         "transition": "Toreando Pass",
-        "attempt_probability": 22
+        "attempt_probability": 25
       },
       {
         "transition": "Knee Slice Pass",
@@ -121,10 +127,6 @@
       {
         "transition": "Stack Pass",
         "attempt_probability": 2
-      },
-      {
-        "transition": "Bullfighter Pass",
-        "attempt_probability": 3
       },
       {
         "transition": "Toreando Pass from De La Riva",
@@ -345,35 +347,35 @@
     "transitions": [
       {
         "transition": "De La Riva Sweep",
-        "attempt_probability": 11
-      },
-      {
-        "transition": "De La Riva to X-Guard Transition",
-        "attempt_probability": 21
-      },
-      {
-        "transition": "Berimbolo Entry",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Kiss of the Dragon",
         "attempt_probability": 8
       },
       {
+        "transition": "De La Riva to X-Guard Transition",
+        "attempt_probability": 17
+      },
+      {
+        "transition": "Berimbolo Entry",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Kiss of the Dragon",
+        "attempt_probability": 7
+      },
+      {
         "transition": "Single Leg X Entry",
-        "attempt_probability": 12
+        "attempt_probability": 9
       },
       {
         "transition": "Waiter Sweep",
-        "attempt_probability": 6
+        "attempt_probability": 5
       },
       {
         "transition": "Balloon Sweep",
-        "attempt_probability": 5
+        "attempt_probability": 4
       },
       {
         "transition": "Outside Ashi Entry",
-        "attempt_probability": 5
+        "attempt_probability": 4
       },
       {
         "transition": "Sickle Sweep",
@@ -381,7 +383,7 @@
       },
       {
         "transition": "Tripod Sweep",
-        "attempt_probability": 8
+        "attempt_probability": 6
       },
       {
         "transition": "Omoplata from De La Riva Guard",
@@ -389,7 +391,23 @@
       },
       {
         "transition": "Triangle Setup from De La Riva",
-        "attempt_probability": 4
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Triangle Choke from De La Riva",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "De La Riva to Inverted Guard",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "De La Riva to Grasshopper Guard",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "De La Riva to Lapel Guard",
+        "attempt_probability": 6
       }
     ],
     "decision_tree": [

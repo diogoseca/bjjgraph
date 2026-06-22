@@ -28,16 +28,6 @@ document.addEventListener("nav", () => {
     ;(treeBtn as any).__treeBound = true
   }
 
-  // Graph-mode close button (×) → snap back to content via contentPanel's API
-  const graphCloseBtn = document.getElementById("graph-close-btn")
-  if (graphCloseBtn && !(graphCloseBtn as any).__closeGraphBound) {
-    graphCloseBtn.addEventListener("click", () => {
-      const snapToContent = (window as any).__snapToContent as (() => void) | undefined
-      if (snapToContent) snapToContent()
-    })
-    ;(graphCloseBtn as any).__closeGraphBound = true
-  }
-
   // Backdrop click on mobile: tapping outside the drawer closes it
   function onBackdropClick(e: MouseEvent) {
     if (!document.body.classList.contains("drawer-open")) return

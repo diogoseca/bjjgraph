@@ -10,6 +10,41 @@ description: "Master the Sweep from Double Jump in BJJ. Explosive technique conv
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Sweep from Double Jump",
+  "description": "Master the Sweep from Double Jump in BJJ. Explosive technique converting bottom leg insertion into mount through systematic hip elevation and sweep mechanics.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Sweep from Double Jump", "item": "https://bjjgraph.org/Transitions/Sweep-from-Double-Jump" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Sweep from Double Jump",
+  "description": "Sweep from Double Jump is an explosive bottom reversal that elevates a forward-committed passer off their compromised base via bilateral leg insertion and near-arm control, rolling them directly to mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Sweep from Double Jump in BJJ. Explosive technique conv
 </div>
 
 <section id="overview" class="content-section">
+
+**Sweep from Double Jump is an explosive bottom reversal that elevates a forward-committed passer off their compromised base via bilateral leg insertion and near-arm control, rolling them directly to mount.**
 
 The Sweep from Double Jump is an advanced offensive technique executed from the bottom Double Jump position, where the practitioner has successfully inserted both legs underneath the opponent's hips during an explosive guard recovery entry. This sweep capitalizes on the destabilized platform created by bilateral leg insertion, using coordinated hip extension, leg elevation, and upper body control to off-balance the top player and achieve a direct reversal to mount. The technique represents the most efficient positional advancement available from the Double Jump system, bypassing intermediate positions entirely to reach the highest-value control position in the BJJ hierarchy.
 
@@ -216,5 +253,7 @@ The Sweep from Double Jump occupies a critical terminal position within the Doub
 
 
 </section>
+
+
 
 </main>

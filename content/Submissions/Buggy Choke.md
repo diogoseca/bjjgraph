@@ -3,40 +3,263 @@
 
 
 ---
-title: "Buggy Choke | BJJ Submission Family | BJJ Graph"
+title: "Buggy Choke | BJJ Submission | BJJ Graph"
 description: "Master the Buggy Choke in BJJ. Powerful half guard compression choke targeting the carotid arteries from bottom position with detailed attack and defense."
 ---
 
 
-<body data-content-type="submissions-family">
+<body data-content-type="submissions-hub">
 
-> **SAFETY**: Buggy Choke targets the Carotid arteries and neck compression. Risk: Carotid artery compression leading to unconsciousness. Release immediately upon tap.
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Buggy Choke",
+  "description": "Master the Buggy Choke in BJJ. Powerful half guard compression choke targeting the carotid arteries from bottom position with detailed attack and defense.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Buggy Choke", "item": "https://bjjgraph.org/Submissions/Buggy-Choke" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Buggy Choke",
+  "description": "The Buggy Choke is a deceptive bottom-position blood choke from half guard where the attacker traps the opponent's near arm and head, then closes a loop with their own same-side leg to compress the carotid arteries while seemingly being passed.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 
-<section id="variants" class="content-section">
+**The Buggy Choke is a deceptive bottom-position blood choke from half guard where the attacker traps the opponent's near arm and head, then closes a loop with their own same-side leg to compress the carotid arteries while seemingly being passed.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries and neck compression</span>
+<span class="meta-chip">52% success</span>
+</div>
 
-## Position Variants
+> [!danger] Safety
+> Buggy Choke targets the Carotid arteries and neck compression. Primary risk: Carotid artery compression leading to unconsciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
-| From Position | Success Rate | Top Injury Risk | Key Difference |
-|---------------|-------------|-----------------|----------------|
-| [[Buggy Choke/from Half Guard|Half Guard]] | 52% | Carotid artery compression leading to unconsciousness |  |
-| [[Buggy Choke/from Buggy Choke|Buggy Choke]] | 45% | Carotid artery compression causing loss of consciousness |  |
+<div class="role-links">
+
+[[Submissions/Buggy Choke/Attacker|Play as Attacker]]
+[[Submissions/Buggy Choke/Defender|Play as Defender]]
+
+</div>
+
+<section id="overview" class="content-section">
+
+Once dismissed as a fluke, the Buggy Choke earned mainstream credibility after a string of high-profile competition finishes showed that a flattened half-guard bottom player could threaten a legitimate submission while seemingly being passed. Its appeal is mechanical rather than athletic: by trapping the opponent's near arm and head and closing a loop with the same-side leg, a smaller grappler converts the opponent's own forward pressure into carotid compression, finishing without ever escaping to a dominant position.
+
+Strategically, the Buggy Choke reframes the worst moment of the half-guard exchange — being smashed and flattened — into a trap. The top player commits weight to finish the pass, drops their head, and extends the crossface arm; those are precisely the inputs the choke needs. Because the threat is invisible until the loop closes, defenders routinely walk into it, and once the knee is drawn toward the head there is very little slack to recover. It functions in both gi and no-gi, and chains naturally with lockdown control and the Electric Chair when the opponent defends by freeing the trapped arm.
+
+For the purple-to-brown belt grappler, the value of the Buggy Choke is less about the finish rate in any single match and more about what the threat forces: opponents must keep their head up and protect the crossface arm while passing half guard, which in turn opens the underhook, sweeps, and back takes that define modern bottom half-guard play.
+
+**Starting Position**: [[Positions/Half Guard]] · **From**: [[Positions/Half Guard]] (Bottom)
+
+</section>
+
+<section id="outcomes" class="content-section">
+
+## Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[game-over]] | 52% |
+| Failure | [[Positions/Half Guard]] | 30% |
+| Counter | [[Positions/Side Control]] | 18% |
+
+
+</section>
+
+<section class="content-section">
+
+## Attacker vs Defender
+
+| &nbsp; | Attacker | Defender |
+|--------|----------|----------|
+| **Focus** | Execute and finish | Escape and survive |
+| **Key Principles** | Trap before you strap — secure the opponent's near arm and h... | Keep your head and posture up — the Buggy Choke needs your h... |
+| **Options** | 6 execution steps | 3 defensive options |
+
+</section>
+
+<section id="attacker-summary" class="content-section">
+
+## Playing as Attacker
+
+[[Submissions/Buggy Choke/Attacker|→ Full Attacker Guide]]
+
+### Key Principles
+
+
+- Trap before you strap — secure the opponent's near arm and head across your centerline before reaching for your own leg, or the choke has only one wall.
+
+- The leg is the second wall — your same-side knee drawn toward your head turns a weak arm-only squeeze into a full carotid compression.
+
+- Bait the flatten — invite the opponent to commit their weight and drop their head, because their passing pressure supplies the choke's compression.
+
+- Connect hand to shin to close the loop — a sealed loop between your arm and leg removes the slack the opponent needs to spin out.
+
+- Finish with structure, not strength — draw the knee to your head and bridge rather than muscling the squeeze, conserving energy and protecting your partner.
+
+- Keep the trapped arm pinned throughout — releasing the crossface arm gives the single highest-percentage escape.
+
+
+### Execution Steps
+
+
+- **Bait the flatten**: Allow the opponent to drive their crossface and begin flattening you in half guard; their committed ...
+
+- **Trap the crossface arm**: Use your near hand to pin the opponent's crossface arm across your jaw and neck, controlling the wri...
+
+- **Insert the choking arm**: Thread your top-side arm over the back of the opponent's neck and around their trapped head and shou...
+
+- **Chamber the knee to your head**: Drive your same-side knee up and over the opponent's trapped head and arm, bringing the knee toward ...
+
+- **Connect hand to shin**: Grip your own shin or instep with your choking-side hand to close the loop between your arm and leg,...
+
+- **Compress and finish**: Draw your knee toward your head, squeeze elbow and knee together, and bridge or turn into the oppone...
+
+
+### Common Mistakes
+
+
+- **Reaching for your shin before trapping the opponent's arm**
+  - Consequence: The choke has only one wall and the opponent simply pulls their head and arm free
+  - Correction: Always trap and pin the crossface arm across your neck first, then build the loop
+
+- **Choking with the arm alone and never bringing the leg**
+  - Consequence: Arm-only pressure cannot compress both carotids and the opponent waits it out
+  - Correction: Commit the same-side knee toward your head to form the second wall before squeezing
+
+- **Failing to get the opponent's head past your centerline**
+  - Consequence: Without the head trapped low and across, there is no gap to surround and the loop will not seal
+  - Correction: Bait the flatten and use the crossface-arm control to draw their head down and across
+
+
+</section>
+
+<section id="defender-summary" class="content-section">
+
+## Playing as Defender
+
+[[Submissions/Buggy Choke/Defender|→ Full Defender Guide]]
+
+### Key Principles
+
+
+- Keep your head and posture up — the Buggy Choke needs your head dropped low and past the bottom player's centerline.
+
+- Never leave the crossface arm extended and exposed — keep the elbow tight so it cannot be trapped as a wall of the choke.
+
+- Recognize the entry early — the bottom player chambering a knee toward their own head is the signal to defend immediately.
+
+- Extract the trapped arm before the loop seals — the arm is your escape, and once the hand-to-shin loop closes it is gone.
+
+- Do not drive forward into the pressure — your forward weight is the choke's fuel; posture out instead.
+
+- When in doubt, give up the pass to save the neck — resetting to half guard top beats getting caught in a sealed loop.
+
+
+### Recognition Cues
+
+
+- The bottom player chambers and drives their same-side knee up toward their own head and ear.
+
+- Your crossface arm suddenly feels pinned across their neck and you cannot straighten or extract it.
+
+- The bottom player reaches a hand toward their own shin or instep to close a loop around your head.
+
+- You feel compression building on the sides of your neck rather than on your windpipe.
+
+
+### Escape Paths
+
+
+- Straighten and extract the trapped crossface arm, then posture up to reset to half guard top.
+
+- Pull your head out backward away from the loop before the hand-to-shin connection seals.
+
+- Drive forward to complete the pass to side control when the loop is still incomplete.
 
 
 </section>
 
 
-<section id="overview" class="content-section">
+<section id="variations" class="content-section hide-minimal">
 
-The Buggy Choke is a devastating compression choke originating from half guard bottom positions, particularly effective when the opponent attempts to flatten you out or consolidate side control. This submission creates a unique angle of attack by combining upper body pressure with leg positioning to trap the opponent's head and arm, cutting off blood flow to the carotid arteries. The technique gained prominence in modern BJJ as a highly effective counter-attack from defensive positions, allowing smaller practitioners to finish larger opponents through precise mechanics rather than brute strength. What makes the Buggy Choke particularly dangerous is its deceptive setup—opponents often don't recognize the threat until the choke is deeply locked, making escape extremely difficult. The submission can be finished from various half guard configurations and transitions seamlessly into other attacks when defended properly.
+## Variations
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries and neck compression
-**Success Rate**: 52% (average across variants)
+
+**Buggy Choke from Lockdown**: Establish lockdown control with your legs before setting up the choke. The lockdown prevents opponent from posturing and creates additional breaking pressure on their posture, making the choke easier to secure. This is a high-percentage 10th Planet system variation. (When to use: When opponent is attempting to smash through your half guard with heavy pressure)
+
+
+**Buggy Choke from Flattened Half Guard**: When opponent has successfully flattened you in half guard and is consolidating for the pass, use their committed weight against them by threading the arm behind their head and creating the compression angle from the flattened position. The opponent's heavy forward pressure actually assists the choke mechanics. (When to use: When you have been flattened in half guard and opponent is driving heavy crossface pressure, making standard sweeps difficult)
+
+
+**Buggy Choke to Electric Chair Combination**: If opponent defends the choke by freeing their trapped arm, immediately transition to the electric chair position by controlling their far leg and extending your lockdown. This creates a devastating submission chain. (When to use: When opponent successfully defends the initial choke attempt but remains in your half guard)
+
+
+**Rolling Buggy Choke**: If opponent attempts to roll away from the pressure, maintain all your grips and follow them through the roll. Often the submission actually tightens during the roll, or you can take the back if they complete the rotation. (When to use: Against explosive opponents who try to scramble out of bad positions)
+
+
+
+</section>
+
+
+<section id="from-positions" class="content-section">
+
+## From Which Positions?
+
+- [[Positions/Half Guard]]
+- [[Positions/Half Guard/Lockdown]]
+- [[Positions/Half Guard/Deep Half Guard]]
+- [[Positions/Quarter Guard]]
+- [[Positions/Butterfly Guard/Half Butterfly]]
+- [[Positions/Half Guard/Flattened Half Guard]]
+
+
+</section>
+
+<section id="related" class="content-section">
+
+## Related
+- [[Transitions/Anaconda Choke]]
+- [[Submissions/Brabo Choke]]
+- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm in Guillotine]]
+- [[Submissions/Baseball Bat Choke]]
+- [[Submissions/Kimura]]
+- [[Submissions/Rear Naked Choke]]
+- [[Transitions/Guillotine Choke]]
+- [[Transitions/Old School Sweep]] - Alternative attack from same half guard position when choke is defended
+- [[Positions/Half Guard/Deep Half Guard]] - Recovery position when Buggy Choke setup is defended
+- [[Positions/Half Guard/Electric Chair]] - Primary follow-up submission when opponent defends the Buggy Choke
+- [[Positions/Crab Ride]] - Position that can develop from successful Buggy Choke angle creation
+- [[Positions/Half Guard/Lockdown]] - Complementary leg entanglement that enhances Buggy Choke control and posture breaking
+- [[Transitions/Half Guard Pass]] - What opponent is attempting when Buggy Choke becomes available
+- [[Positions/Half Guard]] - Primary starting position and positional context for the Buggy Choke system
 
 </section>
 
@@ -84,80 +307,5 @@ The Buggy Choke is a devastating compression choke originating from half guard b
 </section>
 
 
-<section id="variation-details" class="content-section hide-minimal">
-
-## Variation Details
-
-
-**Buggy Choke from Lockdown**: Establish lockdown control with your legs before setting up the choke. The lockdown prevents opponent from posturing and creates additional breaking pressure on their posture, making the choke easier to secure. This is a high-percentage 10th Planet system variation. (When to use: When opponent is attempting to smash through your half guard with heavy pressure)
-
-
-**Buggy Choke from Flattened Half Guard**: When opponent has successfully flattened you in half guard and is consolidating for the pass, use their committed weight against them by threading the arm behind their head and creating the compression angle from the flattened position. The opponent's heavy forward pressure actually assists the choke mechanics. (When to use: When you have been flattened in half guard and opponent is driving heavy crossface pressure, making standard sweeps difficult)
-
-
-**Buggy Choke to Electric Chair Combination**: If opponent defends the choke by freeing their trapped arm, immediately transition to the electric chair position by controlling their far leg and extending your lockdown. This creates a devastating submission chain. (When to use: When opponent successfully defends the initial choke attempt but remains in your half guard)
-
-
-**Rolling Buggy Choke**: If opponent attempts to roll away from the pressure, maintain all your grips and follow them through the roll. Often the submission actually tightens during the roll, or you can take the back if they complete the rotation. (When to use: Against explosive opponents who try to scramble out of bad positions)
-
-
-
-</section>
-
-
-<section id="from-positions" class="content-section">
-
-## From Which Positions?
-
-- [[Positions/Half Guard]]
-- [[Positions/Half Guard/Lockdown]]
-- [[Positions/Half Guard/Deep Half Guard]]
-- [[Positions/Quarter Guard]]
-- [[Positions/Butterfly Guard/Half Butterfly]]
-- [[Positions/Half Guard/Flattened Half Guard]]
-
-
-</section>
-
-<section id="related-submissions" class="content-section">
-
-## Related Submissions
-
-- [[Transitions/Anaconda Choke]] - Related head-and-arm compression choke with similar neck targeting mechanics from front headlock positions
-- [[Transitions/Darce Choke]] - Complementary compression choke that attacks similar angles when Buggy Choke position is unavailable
-- [[Transitions/Guillotine Choke]] - Alternative front-facing choke with similar carotid artery compression mechanism and blood choke finish
-- [[Transitions/Arm Triangle]] - Related head-and-arm choke using shoulder compression that shares defensive concepts and escape patterns
-- [[Submissions/Arm in Guillotine]] - Variation creating similar arm-trapped compression dynamics applicable from half guard transitions
-- [[Positions/Half Guard/Electric Chair]] - Primary follow-up submission from lockdown when Buggy Choke is defended and opponent frees trapped arm
-- [[Submissions/Kimura]] - Alternative submission threat from half guard bottom that chains with Buggy Choke setups through grip transitions
-- [[Submissions/Rear Naked Choke]] - Gold standard blood choke for comparison of carotid artery compression mechanics and finish timing
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
-- [[Transitions/Old School Sweep]] - Alternative attack from same half guard position when choke is defended
-- [[Positions/Half Guard/Deep Half Guard]] - Recovery position when Buggy Choke setup is defended
-- [[Positions/Half Guard/Electric Chair]] - Primary follow-up submission when opponent defends the Buggy Choke
-- [[Positions/Crab Ride]] - Position that can develop from successful Buggy Choke angle creation
-- [[Positions/Half Guard/Lockdown]] - Complementary leg entanglement that enhances Buggy Choke control and posture breaking
-- [[Transitions/Half Guard Pass]] - What opponent is attempting when Buggy Choke becomes available
-- [[Positions/Half Guard]] - Primary starting position and positional context for the Buggy Choke system
-
-
-</section>
-
-<section id="terminal-state" class="content-section">
-
-## Match Outcome
-
-Successful execution of Buggy Choke leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
-
-</section>
 
 </main>

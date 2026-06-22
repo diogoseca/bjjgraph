@@ -12,6 +12,16 @@
     "hub",
     "finishing-guide"
   ],
+  "disambiguations": [
+    {
+      "name": "Heel Hook",
+      "reason": "the Heel Hook attacks the knee via the heel — a different joint"
+    }
+  ],
+  "aliases": [
+    "Ashi Dori Garami",
+    "American Toe Hold"
+  ],
   "is_family": true,
   "submission_category": "Joint Lock",
   "submission_type": "Leg Lock",
@@ -20,6 +30,7 @@
   "from_position": "Toe Hold Control/Top",
   "success_rate": 60,
   "variant_uniqueness": "Rotational ankle attack with rapid onset from multiple leg entanglements",
+  "summary": "The Toe Hold is a rotational ankle lock in which you grip the opponent's toes and forefoot while bracing their heel, twisting the foot inward to torque the ankle and midfoot joints into a fast, low-warning tap.",
   "overview": "The Toe Hold is a powerful leg lock submission that attacks the ankle joint and foot by controlling the heel and applying rotational pressure to the toes and forefoot. Unlike straight ankle locks that compress the joint, the Toe Hold creates a twisting, hyperextending force that threatens multiple structures simultaneously - the ankle ligaments, the small joints of the toes, and the plantar fascia. This makes it an extremely effective finishing technique when applied correctly, but also one that requires exceptional control and awareness due to the injury potential.\n\nThe Toe Hold is most commonly applied from leg entanglement positions such as Ashi Garami, 50-50 Guard, or the Saddle position. The submission works by securing the opponent's heel against your chest or shoulder while gripping the toes and ball of the foot, then rotating the foot inward (internally rotating) while extending the ankle. This combination of rotation and extension creates tremendous pressure on the ankle joint and can force a tap very quickly. The technique is legal in most advanced no-gi competitions but often restricted at lower belt levels due to its injury potential.\n\nWhat makes the Toe Hold particularly dangerous and effective is the speed at which it can be applied and the difficulty opponents have in recognizing the danger until it's too late. Unlike heel hooks which have clear warning signs, the Toe Hold can go from a controlling position to a fight-ending submission in a fraction of a second. This rapid application, combined with the fact that the ankle and foot contain numerous small, vulnerable structures, makes proper safety protocols absolutely essential when training this technique.",
   "safety_considerations": {
     "injury_risks": [
@@ -220,10 +231,6 @@
     {
       "name": "Estima Lock",
       "relationship": "Foot lock attacking the instep, alternative finishing option from similar guard passing and entanglement positions"
-    },
-    {
-      "name": "Estima Lock",
-      "relationship": "Finishing variation of Estima Lock from overlapping positional setups during leg attack sequences"
     },
     {
       "name": "Aoki Lock",

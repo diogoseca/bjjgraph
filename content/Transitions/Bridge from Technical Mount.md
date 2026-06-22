@@ -10,6 +10,41 @@ description: "Master the bridge escape from technical mount in BJJ. Complete gui
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Bridge from Technical Mount",
+  "description": "Master the bridge escape from technical mount in BJJ. Complete guide to timing, hip mechanics, guard recovery, and countering armbar threats from bottom.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Bridge from Technical Mount", "item": "https://bjjgraph.org/Transitions/Bridge-from-Technical-Mount" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Bridge from Technical Mount",
+  "description": "The Bridge from Technical Mount is a bottom-player escape that drives explosive hip extension toward the opponent's weaker inside-leg side—timed to their forward weight shifts during submission attempts—to create space for recovering half guard or closed guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the bridge escape from technical mount in BJJ. Complete gui
 </div>
 
 <section id="overview" class="content-section">
+
+**The Bridge from Technical Mount is a bottom-player escape that drives explosive hip extension toward the opponent's weaker inside-leg side—timed to their forward weight shifts during submission attempts—to create space for recovering half guard or closed guard.**
 
 The bridge from technical mount is one of the most critical defensive movements available to the bottom player trapped in this asymmetric mount variation. Unlike bridging from standard mount where both sides offer roughly equal bridging angles, technical mount's stepped leg configuration restricts effective bridging direction, demanding precise directional awareness and explosive timing to generate meaningful displacement. The bottom player must bridge toward the opponent's inside leg—the weaker base side—rather than the posted leg, which acts as a stabilizing tripod that absorbs bridging force.
 
@@ -219,5 +256,7 @@ The bridge from technical mount occupies a critical role in the mount escape hie
 
 
 </section>
+
+
 
 </main>

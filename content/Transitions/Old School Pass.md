@@ -10,6 +10,41 @@ description: "Master the Old School Pass in BJJ. Systematic guide to breaking lo
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Old School Pass",
+  "description": "Master the Old School Pass in BJJ. Systematic guide to breaking lockdown control and passing half guard to side control with pressure techniques.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Old School Pass", "item": "https://bjjgraph.org/Transitions/Old-School-Pass" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Old School Pass",
+  "description": "The Old School Pass is the top player's systematic method for passing the 10th Planet Old School half guard, neutralizing the lockdown, underhook, and head control with whizzer and crossface pressure to extract the trapped leg and reach side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Old School Pass in BJJ. Systematic guide to breaking lo
 
 <section id="overview" class="content-section">
 
-The Old School Pass is the top player's systematic approach to passing the bottom player's Old School half guard position, where lockdown control, underhook, and head control create a formidable defensive and offensive structure. This pass demands patience, methodical pressure application, and precise technical execution to neutralize the lockdown's sweeping power before extracting the trapped leg and completing the pass to side control. The technique gained critical importance as the 10th Planet lockdown system became widespread, forcing top players to develop reliable counters to what was previously a difficult-to-address control configuration.
+**The Old School Pass is the top player's systematic method for passing the 10th Planet Old School half guard, neutralizing the lockdown, underhook, and head control with whizzer and crossface pressure to extract the trapped leg and reach side control.**
+
+Few half guard configurations frustrate top players as reliably as the lockdown-based Old School position, where the figure-four leg control, deep underhook, and head control combine into a formidable defensive and offensive structure. Passing it demands patience, methodical pressure application, and precise technical execution to neutralize the lockdown's sweeping power before extracting the trapped leg and completing the pass to side control. The technique gained critical importance as the 10th Planet lockdown system became widespread, forcing top players to develop reliable counters to what was previously a difficult-to-address control configuration.
 
 The fundamental challenge lies in the bottom player's multi-layered control system. The lockdown figure-four immobilizes the trapped leg, the underhook provides sweeping leverage, and the head control breaks posture. Attempting to address any single element in isolation typically feeds directly into the bottom player's sweep timing. The pass requires simultaneous management of all three control points through whizzer pressure, heavy crossface, and systematic hip positioning that progressively degrades the bottom player's offensive structure without creating the space they need for sweeps.
 
@@ -224,5 +261,7 @@ The Old School Pass connects the lockdown half guard defensive system to the sid
 
 
 </section>
+
+
 
 </main>

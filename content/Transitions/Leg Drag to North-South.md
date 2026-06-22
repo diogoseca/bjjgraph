@@ -10,6 +10,41 @@ description: "Master leg drag to north-south transition in BJJ. Consolidate cont
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Leg Drag to North-South",
+  "description": "Master leg drag to north-south transition in BJJ. Consolidate control when opponent blocks mount. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Leg Drag to North-South", "item": "https://bjjgraph.org/Transitions/Leg-Drag-to-North-South" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Leg Drag to North-South",
+  "description": "Leg Drag to North-South is a guard-passing consolidation where the top player circles around to the opponent's head when frames block mount or side control, establishing crushing perpendicular pressure with immediate kimura and choke threats.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master leg drag to north-south transition in BJJ. Consolidate cont
 </div>
 
 <section id="overview" class="content-section">
+
+**Leg Drag to North-South is a guard-passing consolidation where the top player circles around to the opponent's head when frames block mount or side control, establishing crushing perpendicular pressure with immediate kimura and choke threats.**
 
 The leg drag to north-south transition represents a critical consolidation pathway when your opponent successfully defends against mount and side control entries from leg drag control. Rather than fighting an uphill battle against strong frames, this transition capitalizes on opponent energy expenditure by circling to their head, establishing chest-to-chest pressure in the north-south position where their defensive options become severely limited.
 
@@ -212,5 +249,7 @@ The leg drag to north-south transition serves as the third leg of a complete leg
 
 
 </section>
+
+
 
 </main>

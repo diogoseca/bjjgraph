@@ -134,10 +134,23 @@ description: "Master the 10th Planet Rubber Guard System. Eddie Bravo's revoluti
 }
 </script>
 
-> 10th Planet Rubber Guard System is a advanced difficulty Guard System system. Integrates 6 components.
 
-**System Type**: Guard System
-**Difficulty Level**: Advanced
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "10th Planet Rubber Guard System",
+  "description": "The 10th Planet Rubber Guard System is Eddie Bravo's no-gi closed-guard framework that uses leg flexibility to break and trap an opponent's posture, chaining named controls like Mission Control and New York into triangles, omoplatas, gogoplatas, and back takes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Guard System</span>
+<span class="meta-chip">Advanced difficulty</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -146,7 +159,27 @@ description: "Master the 10th Planet Rubber Guard System. Eddie Bravo's revoluti
 
 ## What is 10th Planet Rubber Guard System?
 
+**The 10th Planet Rubber Guard System is Eddie Bravo's no-gi closed-guard framework that uses leg flexibility to break and trap an opponent's posture, chaining named controls like Mission Control and New York into triangles, omoplatas, gogoplatas, and back takes.**
+
 The 10th Planet Rubber Guard System represents one of the most innovative and controversial developments in modern Brazilian Jiu-Jitsu. Created by Eddie Bravo, this comprehensive guard framework leverages extreme flexibility and unconventional positioning to control opponents and create submission opportunities from closed guard. The system centers around using your legs to break posture and control your opponent's upper body while freeing your hands to attack or defend. Unlike traditional closed guard systems that rely on gi grips, the Rubber Guard was specifically designed for no-gi competition where conventional controls are less effective. The core innovation lies in using your leg as a substitute for collar control, wrapping it around the opponent's head and shoulder to break their posture while simultaneously preventing them from establishing base. This creates a unique control position from which multiple submission paths and sweeps become available. The system progresses through named control positions—Mission Control, New York, Chill Dog, Meathook—each serving as a checkpoint in the overall framework and each offering distinct offensive opportunities.
+
+</section>
+
+
+
+<section id="unlock-graph" class="content-section system-unlock" data-system-unlock hidden>
+
+## Unlock this part of the graph
+
+<p class="section-subtitle">This system teaches the highlighted nodes in the graph. Mark what you already know &mdash; be honest, it's your game.</p>
+
+<div class="system-progress" data-system-progress>
+<svg class="system-progress__ring" viewBox="0 0 44 44" aria-hidden="true"><circle class="system-progress__ring-bg" cx="22" cy="22" r="19"></circle><circle class="system-progress__ring-fill" cx="22" cy="22" r="19"></circle></svg>
+<div class="system-progress__text">You've unlocked <strong class="system-progress__known">0</strong> / <span class="system-progress__total">0</span> techniques in this system</div>
+<button class="system-progress__mark-all" data-mark-system type="button">Mark whole system as known</button>
+</div>
+
+<ul class="system-members" data-system-members></ul>
 
 </section>
 
@@ -355,7 +388,7 @@ Begin with positional isolation drilling, spending dedicated time on each contro
 - [[Defensive Concepts]] (Principle) - Fundamental guard retention principles maintained throughout system application
 - [[Hip Escape Mechanics]] (Principle) - Hip mobility and flexibility mechanics essential for effective Rubber Guard positioning
 - [[Posture]] (Principle) - Core mechanical principle enabling all Rubber Guard positions
-- [[Submission Chains]] (Principle) - Strategic framework connecting all system submissions
+- [[Position Chains]] (Principle) - Strategic framework connecting all system submissions and controls
 - [[10th Planet No-Gi Guard System]] (System) - Broader system framework containing Rubber Guard as component
 - [[Rubber Guard to Triangle System]] (System) - Specific subsystem focusing on Triangle pathways
 - [[Rubber Guard to Omoplata System]] (System) - Specific subsystem focusing on Omoplata pathways

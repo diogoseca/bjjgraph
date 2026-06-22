@@ -10,6 +10,41 @@ description: "Master the Russian Leg Lasso guard pass in BJJ. Systematic approac
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Pass Russian Leg Lasso",
+  "description": "Master the Russian Leg Lasso guard pass in BJJ. Systematic approach to dismantling grips, neutralizing the lasso, and completing the pass to side control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Pass Russian Leg Lasso", "item": "https://bjjgraph.org/Transitions/Pass-Russian-Leg-Lasso" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Pass Russian Leg Lasso",
+  "description": "Pass Russian Leg Lasso is a systematic gi guard pass that dismantles the Russian leg lasso's collar and sleeve grips in sequence before clearing the trapped-arm lasso and driving forward to side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Russian Leg Lasso guard pass in BJJ. Systematic approac
 </div>
 
 <section id="overview" class="content-section">
+
+**Pass Russian Leg Lasso is a systematic gi guard pass that dismantles the Russian leg lasso's collar and sleeve grips in sequence before clearing the trapped-arm lasso and driving forward to side control.**
 
 Passing the Russian Leg Lasso is one of the more demanding guard passing challenges in gi-based Brazilian Jiu-Jitsu. The Russian variation adds layers of control beyond standard lasso guard, combining a deep leg lasso threaded through the passer's arm with coordinated collar and sleeve grips that create a mechanical pulley system capable of generating significant rotational force. Successfully navigating this position requires a methodical, sequential approach rather than explosive or improvised passing attempts.
 
@@ -207,9 +244,9 @@ Pass Russian Leg Lasso serves as a critical technique within the broader open gu
 
 - [[Positions/Lasso Guard]] - Parent guard category sharing similar passing mechanics and grip-breaking principles
 
-- [[Transitions/Lasso Guard Backstep Pass]] - Complementary passing technique from standard lasso using backstep angle creation
+- [[Transitions/Back Step Pass]] - Complementary passing technique using backstep angle creation to defeat lasso binding
 
-- [[Transitions/Lasso Guard Stack Pass]] - Alternative pressure-based passing approach applicable to lasso guard variations
+- [[Transitions/Pressure Pass]] - Alternative pressure-based passing approach applicable once lasso grips are compromised
 
 - [[Positions/De La Riva Guard]] - Related open guard often combined with Russian Leg Lasso requiring integrated passing strategy
 
@@ -221,5 +258,7 @@ Pass Russian Leg Lasso serves as a critical technique within the broader open gu
 
 
 </section>
+
+
 
 </main>

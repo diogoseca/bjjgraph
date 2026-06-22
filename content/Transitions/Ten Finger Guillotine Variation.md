@@ -10,6 +10,41 @@ description: "Master the Ten Finger Guillotine Variation from top control in BJJ
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Ten Finger Guillotine Variation",
+  "description": "Master the Ten Finger Guillotine Variation from top control in BJJ. Expert guide to interlaced grip mechanics, finishing sequences, and counter defense.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Ten Finger Guillotine Variation", "item": "https://bjjgraph.org/Transitions/Ten-Finger-Guillotine-Variation" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Ten Finger Guillotine Variation",
+  "description": "The Ten Finger Guillotine Variation is a front-headlock choke finish that locks both hands in a fully interlaced ten-finger grip around the opponent's neck, producing cage-like compression that resists hand-fighting defenses far better than standard palm-to-palm or gable grips.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Ten Finger Guillotine Variation from top control in BJJ
 </div>
 
 <section id="overview" class="content-section">
+
+**The Ten Finger Guillotine Variation is a front-headlock choke finish that locks both hands in a fully interlaced ten-finger grip around the opponent's neck, producing cage-like compression that resists hand-fighting defenses far better than standard palm-to-palm or gable grips.**
 
 The Ten Finger Guillotine Variation is a specialized choking technique from top guillotine control that replaces traditional grip configurations with a fully interlaced ten-finger grip around the opponent's neck. This grip structure creates a cage-like compression mechanism that distributes squeezing force across all ten digits, producing intense and sustainable pressure against the trachea and carotid arteries. The variation is particularly effective against opponents who have developed strong hand-fighting defenses against standard palm-to-palm or gable grip guillotines, as the interlaced fingers create a lock that is significantly harder to peel apart.
 
@@ -214,5 +251,7 @@ The Ten Finger Guillotine Variation occupies a specialized niche within the fron
 
 
 </section>
+
+
 
 </main>

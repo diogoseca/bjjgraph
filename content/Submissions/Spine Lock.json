@@ -1,6 +1,7 @@
 {
   "name": "Spine Lock",
   "description": "Master the Spine Lock submission in BJJ. Learn advanced spinal compression techniques from truck and twister control positions targeting the lumbar spine.",
+  "summary": "The Spine Lock is a compression submission family from the 10th Planet truck and twister positions that bends or torques the opponent's spine beyond its safe range, forcing a tap through whole-column pressure rather than isolating a single joint.",
   "tags": [
     "bjj",
     "submission",
@@ -11,6 +12,9 @@
     "truck",
     "twister-system",
     "spinal-compression"
+  ],
+  "aliases": [
+    "Spinal Lock"
   ],
   "is_family": true,
   "submission_category": "Compression",

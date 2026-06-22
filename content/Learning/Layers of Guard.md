@@ -94,6 +94,18 @@ description: "Understand guard as a multi-layered defensive system in BJJ. Learn
 }
 </script>
 
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Layers of Guard",
+  "description": "The layers of guard model treats guard as concentric defensive rings -- feet, knee shield, frames, and underhook -- that a passer must peel one at a time, while the bottom player recovers fastest by re-establishing the outermost ring.",
+  "inDefinedTermSet": "https://bjjgraph.org/Learning/"
+}
+</script>
+
+
 > **Category**: Strategy
 
 
@@ -102,6 +114,8 @@ description: "Understand guard as a multi-layered defensive system in BJJ. Learn
 <section id="overview" class="content-section">
 
 ## What is Layers of Guard?
+
+**The layers of guard model treats guard as concentric defensive rings -- feet, knee shield, frames, and underhook -- that a passer must peel one at a time, while the bottom player recovers fastest by re-establishing the outermost ring.**
 
 Guard is not a single barrier -- it is an onion. Multiple concentric layers of defense sit between your opponent and a dominant position. The outermost layer is your feet on their hips or biceps, managing distance. Behind that sits your knee shield, blocking their torso from advancing. Behind that are your forearm frames, preventing crossface and shoulder pressure. Behind that is your underhook, the last line of defense before position is lost. Each layer serves a different purpose, and each one must be defeated before the next can be attacked.
 

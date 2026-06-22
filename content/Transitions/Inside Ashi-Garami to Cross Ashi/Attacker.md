@@ -16,7 +16,7 @@ description: "How to execute Inside Ashi-Garami to Cross Ashi in BJJ. Attacking 
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Inside Ashi-Garami to Cross Ashi in BJJ",
-  "description": "Step-by-step guide for executing Inside Ashi-Garami to Cross Ashi from Inside Ashi-Garami/Bottom.",
+  "description": "Step-by-step guide for executing Inside Ashi-Garami to Cross Ashi from Inside Ashi-Garami/Top.",
   "step": [
     {
       "@type": "HowToStep",
@@ -190,7 +190,7 @@ The mechanical change involves reconfiguring your leg position from parallel ash
 
 Strategically, this transition serves as an essential response when opponents successfully defend Inside Ashi attacks by rotating their knee line away from danger. Rather than forcing suboptimal attacks, advanced practitioners recognize when the opponent's defensive movement actually creates better opportunities from Cross Ashi. The ability to fluidly transition between ashi configurations based on opponent reactions is characteristic of high-level leg lock systems and demonstrates sophisticated positional awareness.
 
-**From Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Top)
 
 </section>
 
@@ -343,5 +343,7 @@ Incorporate transition into full leg lock flow training with complete resistance
 The Inside Ashi-Garami to Cross Ashi transition involves movement through leg entanglement positions where heel hook submissions are constantly available. Both training partners must understand heel hook danger and the critical importance of immediate tapping when rotation on the knee begins. During drilling, perform transitions at controlled speed to prevent accidentally catching training partners in finishing positions. Never maintain tight heel hook grips during transition practice at full speed. If partner indicates any knee discomfort during the switch, stop immediately and reset the position. Partners with prior knee injuries should drill this transition with extra caution and significantly reduced intensity. Always communicate clearly about grip pressure and rotational force throughout training.
 
 </section>
+
+
 
 </main>

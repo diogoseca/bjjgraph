@@ -10,6 +10,41 @@ description: "Master posture recovery from Mission Control in BJJ. Complete guid
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Posture Recovery from Mission Control",
+  "description": "Master posture recovery from Mission Control in BJJ. Complete guide to breaking rubber guard, fighting grips, and escaping shoulder isolation from top position.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Posture Recovery from Mission Control", "item": "https://bjjgraph.org/Transitions/Posture-Recovery-from-Mission-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Posture Recovery from Mission Control",
+  "description": "Posture Recovery from Mission Control is the top player's systematic escape from 10th Planet rubber guard, using grip fighting, weight redistribution, and progressive space creation to break the shoulder isolation and return to closed guard top.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master posture recovery from Mission Control in BJJ. Complete guid
 </div>
 
 <section id="overview" class="content-section">
+
+**Posture Recovery from Mission Control is the top player's systematic escape from 10th Planet rubber guard, using grip fighting, weight redistribution, and progressive space creation to break the shoulder isolation and return to closed guard top.**
 
 Posture Recovery from Mission Control is one of the most critical defensive transitions in modern no-gi grappling, representing the top player's systematic escape from 10th Planet's rubber guard control system. When trapped in Mission Control, the top player faces severe postural compromise with their shoulder isolated, head pulled down, and weight loaded awkwardly onto their trapped arm. This technique requires methodical execution rather than explosive movement, progressing through grip fighting, weight redistribution, and progressive space creation to neutralize the bottom player's high guard control.
 
@@ -222,5 +259,7 @@ Posture Recovery from Mission Control occupies a critical defensive junction in 
 
 
 </section>
+
+
 
 </main>

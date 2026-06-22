@@ -16,7 +16,7 @@ description: "Execute the complete triangle escape as the trapped practitioner. 
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Complete Triangle Escape in BJJ",
-  "description": "Step-by-step guide for executing Complete Triangle Escape from Triangle Escape Position/Bottom.",
+  "description": "Step-by-step guide for executing Complete Triangle Escape from Triangle Escape Position/Top.",
   "step": [
     {
       "@type": "HowToStep",
@@ -186,7 +186,7 @@ description: "Execute the complete triangle escape as the trapped practitioner. 
 
 As the person executing the Complete Triangle Escape, your objective is converting established defensive posture into full positional extraction from the triangle choke. You have already survived the initial danger phase by establishing posture and defensive frames, and now must systematically dismantle the triangle structure through coordinated stacking pressure, directional stepping, and controlled arm extraction. Your success depends on precise sequencing of these mechanics rather than explosive force, as each phase creates the conditions necessary for the next. The escape culminates in clean transition to closed guard top where you immediately shift from defensive survival to offensive guard passing, preventing your opponent from re-establishing any triangle threat. Every movement must account for the constant secondary threat of armbar transitions on your trapped arm, requiring disciplined elbow positioning throughout the extraction sequence.
 
-**From Position**: [[Positions/Triangle Escape Position]] (Bottom)
+**From Position**: [[Positions/Triangle Escape Position]] (Top)
 
 </section>
 
@@ -350,5 +350,7 @@ Full sparring sessions starting from triangle position with partner applying ful
 While the Complete Triangle Escape does not directly apply submission force, it occurs within an active triangle choke scenario where consciousness loss is a genuine risk. Practitioners must tap immediately if vision narrows, hearing distorts, or lightheadedness develops rather than continuing escape attempts. Training partners applying the triangle should maintain awareness of the defender's responsiveness and release immediately if the defender goes limp or stops actively defending. During drilling, partners should apply triangle pressure progressively and communicate openly about pressure levels. The stacking mechanics used in the escape can strain the opponent's cervical spine, so the escaping practitioner must stack gradually rather than explosively, particularly in training scenarios.
 
 </section>
+
+
 
 </main>

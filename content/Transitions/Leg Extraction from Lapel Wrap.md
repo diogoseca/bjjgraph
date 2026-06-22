@@ -10,6 +10,41 @@ description: "Master Leg Extraction from Lapel Wrap in BJJ. Systematic method to
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Leg Extraction from Lapel Wrap",
+  "description": "Master Leg Extraction from Lapel Wrap in BJJ. Systematic method to escape Ringworm Guard lapel control and restore neutral passing position.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Leg Extraction from Lapel Wrap", "item": "https://bjjgraph.org/Transitions/Leg-Extraction-from-Lapel-Wrap" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Leg Extraction from Lapel Wrap",
+  "description": "Leg Extraction from Lapel Wrap is the top player's systematic escape from Ringworm Guard, peeling the threaded gi lapel off the trapped leg and circling it free to restore a neutral combat-base passing position while defending sweeps and back takes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,11 +57,13 @@ description: "Master Leg Extraction from Lapel Wrap in BJJ. Systematic method to
 
 <section id="overview" class="content-section">
 
-Leg Extraction from Lapel Wrap is a critical defensive technique for escaping the mechanical disadvantage created when an opponent establishes Ringworm Guard. The position creates significant mobility restrictions by threading the gi lapel around your leg, effectively tethering your lower body to the bottom player's control system. This extraction technique provides a systematic method to break free from this compromised position and return to a neutral passing stance.
+**Leg Extraction from Lapel Wrap is the top player's systematic escape from Ringworm Guard, peeling the threaded gi lapel off the trapped leg and circling it free to restore a neutral combat-base passing position while defending sweeps and back takes.**
 
-The technique requires understanding the mechanical principles of how the lapel wrap functions. The wrap creates friction and leverage that restricts your leg movement and disrupts your base. Rather than fighting directly against these forces, successful extraction involves creating slack in the system, controlling the grip-fighting hand, and systematically peeling the material away while protecting against sweeps and back takes.
+The danger of Ringworm Guard is mechanical, not muscular: by threading your own gi lapel around your leg, the bottom player tethers your lower body to their control system, so every ounce of forward pressure or explosive movement you generate is converted into sweeping momentum against you. Recognizing this is the prerequisite for escaping — you cannot pass your way out, you must extract first.
 
-Strategically, this extraction must be completed before attempting any guard passing sequences. The lapel wrap converts your forward pressure and explosive movements into sweeping momentum for the bottom player, making aggressive passing attempts counterproductive. Master this extraction to neutralize modern lapel guard systems and restore your ability to implement your preferred passing game.
+The extraction works by understanding how the wrap functions. The lapel creates friction and leverage that pins your leg and disrupts your base. Rather than fighting directly against those forces, you create slack in the system, control the opponent's grip-fighting hand, and systematically peel the material away from the point of least friction while keeping your shoulders square against back-take threats.
+
+Strategically, this extraction must be completed before any passing sequence. Loose lapel material left near your legs is re-threaded within seconds, and aggressive passing against a live wrap simply feeds the sweep. Master this extraction to neutralize modern lapel guard systems — Ringworm, Worm, and Squid — and restore your ability to implement your preferred passing game from combat base or headquarters.
 
 **From Position**: [[Positions/Ringworm Guard]] (Top)
 **Success Rate**: 58%
@@ -219,5 +256,7 @@ Leg Extraction from Lapel Wrap is an essential defensive skill within the modern
 
 
 </section>
+
+
 
 </main>

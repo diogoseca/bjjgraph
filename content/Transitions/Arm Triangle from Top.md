@@ -10,6 +10,41 @@ description: "Master the Arm Triangle from Top in BJJ. Complete guide to setup f
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Arm Triangle from Top",
+  "description": "Master the Arm Triangle from Top in BJJ. Complete guide to setup from Side Control, walk-around finish, and chain attacks with defensive strategies.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Arm Triangle from Top", "item": "https://bjjgraph.org/Transitions/Arm-Triangle-from-Top" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Arm Triangle from Top",
+  "description": "The Arm Triangle from Top is a head-and-arm blood choke that drives the opponent's own arm across their neck so their bicep occludes one carotid while your shoulder compresses the other, finished by walking around and sprawling low to the opposite side.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,13 +57,15 @@ description: "Master the Arm Triangle from Top in BJJ. Complete guide to setup f
 
 <section id="overview" class="content-section">
 
+**The Arm Triangle from Top is a head-and-arm blood choke that drives the opponent's own arm across their neck so their bicep occludes one carotid while your shoulder compresses the other, finished by walking around and sprawling low to the opposite side.**
+
 The Arm Triangle from Top (kata gatame) is a powerful blood choke initiated from side control that traps the opponent's arm against their own neck, using your shoulder and head as the secondary compression point. The mechanic is deceptively simple: drive the opponent's arm across their centerline so their own bicep occludes one carotid artery while your shoulder compresses the other. What separates competent execution from failed attempts is the walk-around finish—once the arm-and-head configuration is locked, you must step over to the opposite side of the opponent's body, sprawling your hips low and angling your squeeze inward rather than simply bearing down with chest pressure.
 
 Strategically, this technique thrives on a predictable defensive reaction: when trapped under side control, most practitioners instinctively push on your head or neck with their near arm, which is exactly the arm placement you need. The setup exploits the natural frames your opponent creates, turning their defense into the architecture of their own submission. Because the choke operates as a blood restriction rather than an airway crush, properly applied arm triangles produce unconsciousness rapidly—often within four to six seconds of full compression—making recognition and release protocol essential training components.
 
 The arm triangle from top integrates seamlessly with side control attacks. If the opponent defends the americana by bringing their elbow tight, they expose the arm triangle. If they frame against your neck to create escape space, they feed the configuration. This creates a submission chain where defending one attack opens the next, embodying the dilemma-based approach that characterizes high-level top control.
 
-**From Position**: [[Positions/Hindulotine]] (Top)
+**From Position**: [[Positions/Side Control]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -229,5 +266,7 @@ The arm triangle from top is a cornerstone of the side control submission system
 
 
 </section>
+
+
 
 </main>

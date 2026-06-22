@@ -10,6 +10,41 @@ description: "Master posture defense from rear triangle in BJJ. Learn systematic
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Posture Defense from Rear Triangle",
+  "description": "Master posture defense from rear triangle in BJJ. Learn systematic posture recovery, frame creation, and escape mechanics from this dangerous choke position.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Posture Defense from Rear Triangle", "item": "https://bjjgraph.org/Transitions/Posture-Defense-from-Rear-Triangle" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Posture Defense from Rear Triangle",
+  "description": "Posture Defense from Rear Triangle is the bottom player's foundational escape sequence that recovers spinal posture by stripping the locking ankle and driving the shoulders back, relieving carotid pressure and unlocking arm extraction from this dangerous back-mounted choke.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master posture defense from rear triangle in BJJ. Learn systematic
 </div>
 
 <section id="overview" class="content-section">
+
+**Posture Defense from Rear Triangle is the bottom player's foundational escape sequence that recovers spinal posture by stripping the locking ankle and driving the shoulders back, relieving carotid pressure and unlocking arm extraction from this dangerous back-mounted choke.**
 
 Posture defense from the rear triangle addresses one of BJJ's most urgent survival scenarios. The rear triangle combines back control dominance with triangle choke mechanics, creating extreme carotid pressure while trapping one arm and severely limiting the defender's movement options. Without posture recovery, the bottom player faces rapidly escalating submission danger as the choking leg compresses the neck and the opponent optimizes finishing angles from behind.
 
@@ -226,5 +263,7 @@ Posture defense from the rear triangle occupies a critical junction in the BJJ d
 
 
 </section>
+
+
 
 </main>

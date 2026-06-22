@@ -10,6 +10,41 @@ description: "Master the Double Jump to Mount transition in BJJ. Complete guide 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Double Jump to Mount",
+  "description": "Master the Double Jump to Mount transition in BJJ. Complete guide to step-over mechanics from turtle attack hooks to establishing dominant mount control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Double Jump to Mount", "item": "https://bjjgraph.org/Transitions/Double-Jump-to-Mount" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Double Jump to Mount",
+  "description": "Double Jump to Mount is a turtle-attack transition where the top player extracts both inside leg hooks and steps over a flattened, belly-down opponent to establish dominant mount when back-taking is no longer viable.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Double Jump to Mount transition in BJJ. Complete guide 
 </div>
 
 <section id="overview" class="content-section">
+
+**Double Jump to Mount is a turtle-attack transition where the top player extracts both inside leg hooks and steps over a flattened, belly-down opponent to establish dominant mount when back-taking is no longer viable.**
 
 The Double Jump to Mount transition is an opportunistic positional advancement technique executed from the Double Jump Top position, where the top player has established bilateral leg hooks inside the opponent's thighs during a turtle attack. While the primary advancement from Double Jump typically targets back control through hook conversion or crab ride entries, the mount pathway becomes viable when the opponent flattens their base and goes belly-down, making traditional back-taking mechanics less effective due to the elimination of the space needed for hook reclassification.
 
@@ -218,5 +255,7 @@ The Double Jump to Mount transition occupies a strategic role within the turtle 
 
 
 </section>
+
+
 
 </main>

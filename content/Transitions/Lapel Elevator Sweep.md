@@ -10,6 +10,41 @@ description: "Master the Lapel Elevator Sweep from Lapel Guard to Mount. Learn s
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Lapel Elevator Sweep",
+  "description": "Master the Lapel Elevator Sweep from Lapel Guard to Mount. Learn setup, execution, and chain attacks using gi lapel mechanics for high-percentage reversals.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Lapel Elevator Sweep", "item": "https://bjjgraph.org/Transitions/Lapel-Elevator-Sweep" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Lapel Elevator Sweep",
+  "description": "The Lapel Elevator Sweep is a gi-specific reversal from lapel guard bottom that uses the opponent's own trapped lapel as a lever combined with a butterfly hook to off-balance them directly into mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Lapel Elevator Sweep from Lapel Guard to Mount. Learn s
 
 <section id="overview" class="content-section">
 
-The Lapel Elevator Sweep is a powerful off-balancing technique from lapel guard that uses the opponent's own gi fabric as a mechanical lever to execute a clean reversal to mount. This sweep capitalizes on the unique control properties of lapel guards, where the extracted lapel wrapped around the opponent's leg or torso creates persistent connection points that amplify your hip movement into dramatic off-balancing force.
+**The Lapel Elevator Sweep is a gi-specific reversal from lapel guard bottom that uses the opponent's own trapped lapel as a lever combined with a butterfly hook to off-balance them directly into mount.**
+
+Within the modern lapel guard attack system, the elevator sweep is the most direct bottom-to-top reversal, capitalizing on the unique control properties of lapel guards where the extracted lapel wrapped around the opponent's leg or torso creates persistent connection points that amplify your hip movement into dramatic off-balancing force. Because the fabric anchor does not require the constant grip maintenance of a traditional sleeve or collar tie, the bottom player can load the sweep patiently and wait for the exact reaction that makes it unstoppable.
 
 The sweep works by combining a butterfly hook elevation with the pulling tension of the lapel grip to create a compound lever system. As you elevate with your hook, the lapel prevents the opponent from posting their hand or stepping out, channeling all their momentum into the sweep direction. The result is a sweep that feels almost effortless when timed correctly, as you're leveraging mechanical advantage rather than fighting strength against strength.
 
@@ -212,5 +249,7 @@ The Lapel Elevator Sweep serves as a primary sweeping threat within the broader 
 
 
 </section>
+
+
 
 </main>

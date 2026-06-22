@@ -148,10 +148,23 @@ description: "Master BJJ teaching with systematic instruction framework. Progres
 }
 </script>
 
-> Teaching Methodology Framework is a advanced difficulty Training Methodology system. Integrates 4 components.
 
-**System Type**: Training Methodology
-**Difficulty Level**: Advanced
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Teaching Methodology Framework",
+  "description": "The Teaching Methodology Framework is a systematic BJJ instruction model that sequences learning through the positional hierarchy and a five-tier progressive-resistance protocol, building defensive survival before offense and conceptual understanding before technique.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
+
+
+<div class="principle-meta">
+<span class="meta-chip">Training Methodology</span>
+<span class="meta-chip">Advanced difficulty</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -160,7 +173,27 @@ description: "Master BJJ teaching with systematic instruction framework. Progres
 
 ## What is Teaching Methodology Framework?
 
-The Teaching Methodology Framework represents a comprehensive systematic approach to Brazilian Jiu-Jitsu instruction that synthesizes the most effective pedagogical principles from elite-level coaches. This framework emphasizes progressive resistance training, positional hierarchy understanding, and technical precision over athleticism. The system recognizes that effective BJJ instruction requires more than demonstrating techniques - it demands a structured progression that develops both technical knowledge and problem-solving abilities. The methodology integrates three critical components: conceptual understanding of fundamental principles, systematic drilling progressions that build muscle memory, and controlled sparring environments that allow safe experimentation. Unlike traditional approaches that focus on memorizing large numbers of techniques, this framework emphasizes depth over breadth, ensuring students develop robust foundational skills before progressing to advanced material. The system also addresses the critical relationship between instruction methodology and student retention, recognizing that properly structured classes create confident practitioners who remain engaged long-term.
+**The Teaching Methodology Framework is a systematic BJJ instruction model that sequences learning through the positional hierarchy and a five-tier progressive-resistance protocol, building defensive survival before offense and conceptual understanding before technique.**
+
+Synthesizing the most effective pedagogical principles from elite-level coaches, this framework treats instruction as more than demonstrating techniques: it demands a structured progression that develops both technical knowledge and problem-solving ability. It emphasizes progressive resistance training, positional hierarchy understanding, and technical precision over athleticism. The methodology integrates three critical components: conceptual understanding of fundamental principles, systematic drilling progressions that build muscle memory, and controlled sparring environments that allow safe experimentation. Unlike traditional approaches that focus on memorizing large numbers of techniques, this framework emphasizes depth over breadth, ensuring students develop robust foundational skills before progressing to advanced material. The system also addresses the critical relationship between instruction methodology and student retention, recognizing that properly structured classes create confident practitioners who remain engaged long-term. By organizing the curriculum around defensive survival first, neutral control second, and offensive dominance third, instructors give students a logical map that mirrors actual fighting priorities and prevents the formation of incomplete games with positional gaps.
+
+</section>
+
+
+
+<section id="unlock-graph" class="content-section system-unlock" data-system-unlock hidden>
+
+## Unlock this part of the graph
+
+<p class="section-subtitle">This system teaches the highlighted nodes in the graph. Mark what you already know &mdash; be honest, it's your game.</p>
+
+<div class="system-progress" data-system-progress>
+<svg class="system-progress__ring" viewBox="0 0 44 44" aria-hidden="true"><circle class="system-progress__ring-bg" cx="22" cy="22" r="19"></circle><circle class="system-progress__ring-fill" cx="22" cy="22" r="19"></circle></svg>
+<div class="system-progress__text">You've unlocked <strong class="system-progress__known">0</strong> / <span class="system-progress__total">0</span> techniques in this system</div>
+<button class="system-progress__mark-all" data-mark-system type="button">Mark whole system as known</button>
+</div>
+
+<ul class="system-members" data-system-members></ul>
 
 </section>
 

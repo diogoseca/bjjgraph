@@ -10,6 +10,41 @@ description: "Master the Toreando from Headquarters in BJJ. Systematic bullfight
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Toreando from Headquarters",
+  "description": "Master the Toreando from Headquarters in BJJ. Systematic bullfighter pass using leg redirection, grip control, and explosive lateral movement to secure side control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Toreando from Headquarters", "item": "https://bjjgraph.org/Transitions/Toreando-from-Headquarters" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Toreando from Headquarters",
+  "description": "Toreando from Headquarters is a speed-based bullfighter pass where the passer, already controlling one leg from Headquarters, grips both of the opponent's legs and redirects them laterally while stepping around to the opposite side into Side Control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -22,7 +57,9 @@ description: "Master the Toreando from Headquarters in BJJ. Systematic bullfight
 
 <section id="overview" class="content-section">
 
-The Toreando from Headquarters is a speed-based lateral guard pass that exploits the passer's established leg control from Headquarters Position to redirect the opponent's legs and circle around them to Side Control. Named after the matador's movement in bullfighting, this technique uses the opponent's own leg extension and distance-creation attempts as the trigger for explosive lateral passing. From Headquarters, the passer already controls one leg with knee-line pressure, giving the Toreando a significant structural advantage compared to executing it from open guard or standing positions where bilateral leg control must be established from scratch.
+**Toreando from Headquarters is a speed-based bullfighter pass where the passer, already controlling one leg from Headquarters, grips both of the opponent's legs and redirects them laterally while stepping around to the opposite side into Side Control.**
+
+Within the Headquarters decision tree, the Toreando is the dedicated answer to a bottom player who creates distance — extending the free leg or posting a foot on the hip — rather than turning in toward the trapped leg. Because the passer already controls one leg with knee-line pressure, the Toreando from Headquarters carries a significant structural advantage over the same pass attempted from open guard or a standing position, where bilateral leg control must be built from scratch. Named after the matador's sidestep in bullfighting, the pass converts the opponent's own leg extension and distance-creation attempts into the trigger for explosive lateral movement around to Side Control.
 
 The strategic value of the Toreando from Headquarters lies in its complementary relationship to pressure-based passes like the knee cut and leg drag. When the bottom player attempts to create distance by pushing with their free foot on the passer's hip or extending their leg to establish frames, they inadvertently create the exact conditions the Toreando exploits. The pass punishes distance creation rather than close-range defensive structure, forcing a positional dilemma: the bottom player cannot simultaneously defend pressure passes that require them to create distance and speed passes that exploit the distance they create.
 
@@ -220,5 +257,7 @@ The Toreando from Headquarters occupies a critical role in the systematic passin
 
 
 </section>
+
+
 
 </main>

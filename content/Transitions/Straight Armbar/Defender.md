@@ -156,7 +156,7 @@ Defending the Straight Armbar from Mounted Crucifix is one of the most challengi
 
 The defensive strategy centers on three phases: prevention, disruption, and escape. Prevention means recognizing the armbar setup before the attacker commits and addressing the threat while still in crucifix — typically by denying the wrist grip or keeping the elbow bent. Disruption targets the transition itself, exploiting the brief moments of instability when the attacker shifts weight from crucifix control to armbar position. Escape applies when the armbar is partially secured, requiring explosive movement combined with technical precision to extract the arm or reverse position before the finish lands. Understanding all three phases gives you multiple defensive layers rather than relying on a single desperate escape attempt.
 
-**Opponent's Starting Position**: [[Positions/Armbar Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Mount/Mounted Crucifix]] (Top)
 
 </section>
 

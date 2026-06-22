@@ -10,6 +10,41 @@ description: "Master the Back Take from Anaconda in BJJ. Learn to convert front 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Back Take from Anaconda",
+  "description": "Master the Back Take from Anaconda in BJJ. Learn to convert front headlock choke control into dominant back position with hooks and systematic grip exchange.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Back Take from Anaconda", "item": "https://bjjgraph.org/Transitions/Back-Take-from-Anaconda" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Back Take from Anaconda",
+  "description": "The Back Take from Anaconda is a positional transition where the top player abandons the anaconda choke and converts the opponent's defensive turning into dominant back control via a rapid anaconda-to-seatbelt grip exchange and hook insertion.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master the Back Take from Anaconda in BJJ. Learn to convert front 
 </div>
 
 <section id="overview" class="content-section">
+
+**The Back Take from Anaconda is a positional transition where the top player abandons the anaconda choke and converts the opponent's defensive turning into dominant back control via a rapid anaconda-to-seatbelt grip exchange and hook insertion.**
 
 The Back Take from Anaconda Control represents a critical decision point in front headlock grappling where the attacker recognizes that pursuing the anaconda choke finish is suboptimal and instead capitalizes on the opponent's defensive positioning to secure the most dominant position in Brazilian Jiu-Jitsu. This transition occurs when the defender's reactions to anaconda pressure—typically turning away, turtling tighter, or attempting to create distance—inadvertently expose their back to the attacker. Rather than forcing a choke against increasingly effective defense, the attacker reads the opponent's body language and converts positional pressure into back control.
 
@@ -224,5 +261,7 @@ The Back Take from Anaconda integrates into the broader front headlock and head-
 
 
 </section>
+
+
 
 </main>

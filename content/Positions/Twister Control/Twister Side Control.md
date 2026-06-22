@@ -10,6 +10,41 @@ description: "Master twister side control in BJJ. Complete strategic guide cover
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Twister Side Control",
+  "description": "Master twister side control in BJJ. Complete strategic guide covering control maintenance, submission threats, and perspective-specific tactics with success rates.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Twister Side Control", "item": "https://bjjgraph.org/Positions/Twister-Side-Control" }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Twister Side Control",
+  "description": "Twister Side Control is a 10th Planet lateral pin where the top player entangles the legs and drives shoulder pressure to rotate the spine, prioritizing twister and spinal submission threats over conventional positional stability.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -21,6 +56,8 @@ description: "Master twister side control in BJJ. Complete strategic guide cover
 </div>
 
 <section id="overview" class="content-section">
+
+**Twister Side Control is a 10th Planet lateral pin where the top player entangles the legs and drives shoulder pressure to rotate the spine, prioritizing twister and spinal submission threats over conventional positional stability.**
 
 Twister Side Control represents a unique positional variant within the 10th Planet system, distinguished by its emphasis on lateral spinal torque and submission-oriented control. Unlike traditional side control positions that prioritize chest-to-chest pressure and immobilization, Twister Side Control leverages leg entanglement and rotational mechanics to create devastating submission threats.
 
@@ -187,21 +224,21 @@ The learning curve for Twister Side Control is significant, requiring practition
 ### Available Transitions
 
 
-- **[[Transitions/Side Control to Shoulder of Justice/Attacker|Side Control to Shoulder of Justice]]** (14% of attempts)
+- **[[Transitions/Side Control to Shoulder of Justice/Attacker|Side Control to Shoulder of Justice]]** (13% of attempts)
 
-- **[[Transitions/Back Take/Attacker|Back Take]]** (12% of attempts)
+- **[[Transitions/Back Take/Attacker|Back Take]]** (11% of attempts)
 
-- **[[Darce Choke from Twister Side Control/Attacker|Darce Choke from Twister Side Control]]** (10% of attempts)
+- **[[Darce Choke from Twister Side Control/Attacker|Darce Choke from Twister Side Control]]** (9% of attempts)
 
-- **[[Kimura from Twister Side Control/Attacker|Kimura from Twister Side Control]]** (10% of attempts)
+- **[[Kimura from Twister Side Control/Attacker|Kimura from Twister Side Control]]** (9% of attempts)
 
-- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (12% of attempts)
+- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (11% of attempts)
 
-- **[[Transitions/Anaconda Choke/Attacker|Anaconda Choke]]** (8% of attempts)
+- **[[Transitions/Anaconda Choke/Attacker|Anaconda Choke]]** (7% of attempts)
 
 - **[[Arm Triangle from Twister Side Control/Attacker|Arm Triangle from Twister Side Control]]** (7% of attempts)
 
-- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (8% of attempts)
+- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (7% of attempts)
 
 - **[[Transitions/Turtle to Truck/Attacker|Turtle to Truck]]** (7% of attempts)
 
@@ -210,6 +247,8 @@ The learning curve for Twister Side Control is significant, requiring practition
 - **[[Transitions/Twister SC to Back Take/Attacker|Twister SC to Back Take]]** (4% of attempts)
 
 - **[[Transitions/Twister SC to Truck/Attacker|Twister SC to Truck]]** (3% of attempts)
+
+- **[[Twister from Twister Side Control/Attacker|Twister from Twister Side Control]]** (7% of attempts)
 
 
 ### Common Mistakes
@@ -264,6 +303,17 @@ The learning curve for Twister Side Control is significant, requiring practition
 
 - **[[Positions/Half Guard/Lockdown]]** - Related leg entanglement system from 10th Planet methodology
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Twister-System" data-cta="related-system-card" data-system-slug="systems/twister-system" data-system-name="Twister System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Twister System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Alternative control position in the Twister system pathway</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Lockdown-to-Electric-Chair-System" data-cta="related-system-card" data-system-slug="systems/lockdown-to-electric-chair-system" data-system-name="Lockdown to Electric Chair System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Lockdown to Electric Chair System</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Back exposure position accessible from lockdown attacks</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

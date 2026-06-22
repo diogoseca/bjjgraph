@@ -1,6 +1,7 @@
 {
   "name": "Achilles Lock",
   "description": "Master the Achilles Lock leg submission in BJJ. Complete guide covering setup mechanics, finishing details, and safety protocols from Ashi Garami positions.",
+  "summary": "The Achilles Lock is a straight-ankle leg lock that wedges the forearm or wrist bone across the Achilles tendon and extends the hips, compressing the tendon and hyperextending the ankle to force a tap from Ashi Garami positions.",
   "tags": [
     "bjj",
     "submission",
@@ -8,6 +9,12 @@
     "achilles-lock",
     "ankle-lock",
     "joint-lock"
+  ],
+  "disambiguations": [
+    {
+      "name": "Straight Ankle Lock",
+      "reason": "the Straight Ankle Lock hyperextends the ankle joint rather than compressing the tendon"
+    }
   ],
   "is_family": true,
   "submission_category": "Joint Lock",

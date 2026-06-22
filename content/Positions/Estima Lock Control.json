@@ -2,7 +2,8 @@
   "name": "Estima Lock Control",
   "slug": "estima-lock-control",
   "description": "Master Estima Lock position in BJJ. Strategic guide covering inverted footlock mechanics, control from top and bottom perspectives, and submission chains with complete technical analysis.",
-  "variant_uniqueness": "Inverted foot control creates ankle torque",
+  "variant_uniqueness": "Inverted foot grip trades base for ankle torque",
+  "summary": "Estima Lock Control is an inverted footlock entanglement in which one grappler traps and twists the opponent's foot heel-high, attacking the ankle joint and Achilles tendon through rotational rather than straight-line pressure.",
   "overview": "The Estima Lock Position represents a sophisticated leg entanglement scenario where one practitioner secures control of their opponent's foot in an inverted orientation, creating a specialized footlock submission threat that attacks the ankle joint and Achilles tendon through rotational mechanics. Named after the Estima brothers (Victor and Braulio) who popularized and refined this technique in high-level competition, this position differs fundamentally from traditional straight ankle locks through its inverted grip configuration and the unique pressure vectors it creates on the targeted structures.\n\nThis position exists as both an offensive control position for the attacker and a defensive crisis position for the defender, making it essential to understand both perspectives. The Estima Lock Position typically emerges from leg entanglement exchanges including transitions from 50-50 Guard, Single Leg X-Guard, outside ashi scenarios, or scrambles where foot control becomes available. The inverted nature of the attack—where the heel is positioned higher than the toes and rotational force is applied—creates defensive challenges distinct from conventional ankle attacks, requiring specialized escape knowledge and submission awareness.\n\nFrom the top attacking perspective, the position offers significant control advantages through proper hip placement against the opponent's lower leg, figure-four grip configuration around the heel and forefoot, and body angle optimization that maximizes torque while preventing counters. From the bottom defensive perspective, the position demands immediate recognition of the submission threat, systematic escape protocols addressing both grip control and positional hierarchy, and calm technical execution under pressure to avoid injury. Modern leg lock systems have integrated the Estima Lock as a valuable tool within comprehensive submission chains, making proficiency in both attacking and defending this position essential for contemporary grapplers at all levels.",
   "key_principles": [
     "Inverted foot orientation distinguishes Estima Lock mechanics from traditional ankle attacks requiring different defensive responses",
@@ -293,11 +294,7 @@
       },
       {
         "transition": "Estima Lock",
-        "attempt_probability": 1
-      },
-      {
-        "transition": "Estima Lock",
-        "attempt_probability": 1
+        "attempt_probability": 2
       }
     ],
     "flashcards": [
@@ -387,8 +384,8 @@
         "condition": "If opponent has deep grip with full inversion and hip pressure established",
         "actions": [
           {
-            "technique": "Counter Sweep",
-            "target": "Estima Lock",
+            "technique": "Estima Lock Counter Roll",
+            "target": "50-50 Guard",
             "probability": 35
           },
           {
@@ -402,8 +399,8 @@
         "condition": "If free leg can establish hooks or frames on opponent's body",
         "actions": [
           {
-            "technique": "Counter Sweep",
-            "target": "Estima Lock",
+            "technique": "Estima Lock Counter Roll",
+            "target": "50-50 Guard",
             "probability": 45
           },
           {
@@ -504,7 +501,7 @@
         "relationship": "Core escape technique for freeing trapped foot from inverted lock"
       },
       {
-        "name": "Counter Sweep",
+        "name": "Estima Lock Counter Roll",
         "relationship": "Offensive counter option when opponent over-commits to finishing"
       },
       {
@@ -553,11 +550,7 @@
       },
       {
         "transition": "Leg Extraction",
-        "attempt_probability": 38
-      },
-      {
-        "transition": "Counter Sweep",
-        "attempt_probability": 3
+        "attempt_probability": 41
       },
       {
         "transition": "Angle Change Escape",
