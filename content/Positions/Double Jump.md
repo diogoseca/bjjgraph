@@ -4,7 +4,7 @@
 
 ---
 title: "Double Jump | BJJ Position Guide | BJJ Graph"
-description: "Master Double Jump position in BJJ. Dynamic half guard control technique with explosive entry mechanics and systematic passing options. Complete guide covering both perspectives."
+description: "Double Jump BJJ position: explosive bilateral leg insertion for deep half guard entry and turtle back attacks. Master both bottom entry and top hook control perspectives."
 ---
 
 
@@ -22,11 +22,11 @@ description: "Master Double Jump position in BJJ. Dynamic half guard control tec
 
 <section id="overview" class="content-section">
 
-Double Jump is an advanced positional concept in Brazilian Jiu-Jitsu that exists in two distinct tactical contexts: as a dynamic guard recovery entry from bottom and as a turtle attack control position from top. This dual-perspective position represents modern approaches to creating explosive transitions and bypassing traditional defensive structures.
+**Double Jump** is an advanced positional concept in Brazilian Jiu-Jitsu existing in two distinct tactical contexts: as a dynamic guard recovery entry launching from bottom into [[Positions/Half Guard/Deep Half Guard]], and as a [[Positions/Turtle]] attack control position from top. This dual-perspective position represents modern approaches to creating explosive transitions and bypassing traditional defensive structures.
 
-From the bottom perspective, Double Jump serves as a dynamic entry to deep half guard, utilizing explosive hip extension to shoot both legs underneath the opponent's base simultaneously. This approach bypasses incremental guard recovery methods, creating immediate offensive opportunities through the element of surprise and commitment. The technique is foundational in 10th Planet systems and modern no-gi competition, where static guard recovery becomes predictable against heavy pressure passing.
+From the bottom perspective, Double Jump serves as a dynamic entry to [[Positions/Half Guard/Deep Half Guard]], utilizing explosive hip extension to shoot both legs underneath the opponent's base simultaneously. This approach bypasses incremental guard recovery methods, creating immediate offensive opportunities through the element of surprise. The technique is foundational in 10th Planet systems and modern no-gi competition, enabling high-percentage attacks including the [[Transitions/Old School Sweep]], [[Transitions/Waiter Sweep]], and [[Transitions/Rolling Back Take]] to [[Positions/Back Control]].
 
-From the top perspective, Double Jump represents an advanced turtle attack utilizing bilateral leg hooks to control the opponent's hips while maintaining upper body pressure. This configuration creates immediate back-taking opportunities by eliminating the bottom player's base through leg entanglement rather than traditional upper-body breakdowns. The position forces defensive dilemmas where protecting against back exposure opens sweep vulnerabilities and vice versa.
+From the top perspective, Double Jump represents an advanced [[Positions/Turtle]] attack utilizing bilateral leg hooks to control the opponent's hips while maintaining upper body pressure. This configuration creates immediate [[Positions/Back Control]] opportunities by eliminating the bottom player's base through leg entanglement, with transitions available to [[Positions/Crab Ride]] and [[Positions/Twister Control]]. The position forces defensive dilemmas where protecting against back exposure opens sweep vulnerabilities and vice versa.
 
 Both perspectives share the common principle of using leg-based controls to create explosive positional changes, though they operate in opposite tactical contexts. Understanding both perspectives provides complete mastery of this modern positional concept.
 

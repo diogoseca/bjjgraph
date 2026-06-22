@@ -157,11 +157,11 @@ description: "Master Deep Half Guard Bottom with powerful sweeps, back takes, an
 
 <section id="overview" class="content-section">
 
-Deep Half Guard Bottom is an advanced guard position where the bottom player wedges underneath the opponent's hips with deep underhook control of the far leg. This position creates powerful leverage for sweeps and back takes by controlling the opponent's base from below. The bottom player's head is positioned near the opponent's far hip, with their body inverted underneath, creating a stable platform for offensive attacks.
+**Deep Half Guard Bottom** is an advanced guard position where the bottom player wedges their upper body beneath the opponent's hips, wrapping a deep underhook around the far leg. This position creates powerful leverage for [[Transitions/Waiter Sweep]], [[Transitions/Old School Sweep]], [[Transitions/Homer Simpson Sweep]], and [[Transitions/Rolling Back Take]] by controlling the opponent's base from below. The bottom player's head is positioned near the opponent's far hip, with their body inverted underneath, creating a stable platform for multiple offensive attacks.
 
-This position is particularly effective against pressure passers who commit their weight forward, as it uses their momentum against them. The deep underhook of the far leg combined with the wedge created by the bottom player's shoulder and head disrupts the top player's base completely. From here, the bottom player can execute powerful hip-lift sweeps, waiter sweeps, and transitions to the back.
+This position is particularly effective against pressure passers who commit their weight forward, as it uses their momentum against them. The deep underhook of the far leg combined with the wedge created by the bottom player's shoulder and head disrupts the top player's base completely. From here, the bottom player can execute powerful hip-lift sweeps and transitions to [[Positions/Back Control]], with the [[Positions/Half Guard/Lockdown]] control system adding the [[Positions/Half Guard/Electric Chair]] submission threat when the opponent applies a whizzer.
 
-Deep Half Guard Bottom requires excellent hip mobility, core strength, and timing to enter and maintain. While it appears defensive, it is actually a highly offensive position with multiple pathways to dominant positions. The position is a cornerstone of modern no-gi grappling and has been refined into a comprehensive attacking system by elite competitors worldwide.
+Deep Half Guard Bottom requires excellent hip mobility, core strength, and timing to enter and maintain. While it appears defensive, it is actually a highly offensive position with multiple pathways to dominant positions including [[Positions/Mount]], [[Positions/Side Control]], [[Positions/Back Control]], and [[Positions/X-Guard]]. The position is a cornerstone of modern no-gi grappling and has been refined into comprehensive attacking systems by elite competitors worldwide.
 
 </section>
 

@@ -4,7 +4,7 @@
 
 ---
 title: "Deep Half Guard | BJJ Position Guide | BJJ Graph"
-description: "Master Deep Half Guard in BJJ. Strategic guide covering sweeps, back takes, and defensive counters with complete bottom and top perspective analysis."
+description: "Deep Half Guard BJJ: master the inverted underhook position for high-percentage sweeps, back takes, and submission threats. Complete top and bottom analysis."
 ---
 
 
@@ -22,9 +22,9 @@ description: "Master Deep Half Guard in BJJ. Strategic guide covering sweeps, ba
 
 <section id="overview" class="content-section">
 
-Deep Half Guard is an advanced guard position where the bottom player positions themselves underneath one of the opponent's legs, creating a powerful leverage point for sweeps and back takes. Unlike traditional half guard where the opponent's leg is trapped between the bottom player's legs, deep half involves the bottom player getting their entire upper body underneath the opponent's center of gravity, often with the shoulder positioned at the opponent's far hip. This position offers exceptional sweeping leverage and is particularly effective for smaller practitioners against larger opponents.
+**Deep Half Guard** is an advanced guard position where the bottom player drives their entire upper body beneath the opponent's hips, securing a deep underhook around the far leg to create powerful sweeping leverage. Unlike [[Positions/Half Guard]] where the opponent's leg sits between the guard player's legs, deep half inverts the bottom player completely — shoulders near the mat, head positioned at the opponent's far hip — generating mechanical advantage that negates size and strength differences. High-percentage attacks like the [[Transitions/Waiter Sweep]], [[Transitions/Old School Sweep]], [[Transitions/Homer Simpson Sweep]], and [[Transitions/Rolling Back Take]] to [[Positions/Back Control]] emerge naturally from this leverage structure.
 
-The deep half guard represents a fundamental shift in guard philosophy, moving from traditional frames and distance management to an inverted leverage-based approach. By positioning underneath the opponent's center of gravity, the bottom player gains mechanical advantage that transcends size and strength differences. The position is characterized by extreme proximity and connection, with the bottom player using their entire body as a lever to disrupt the opponent's base. This creates opportunities for powerful sweeps that can lead directly to dominant positions or back control.
+The deep half guard represents a fundamental shift in guard philosophy, moving from traditional frames and distance management to an inverted leverage-based approach. By positioning underneath the opponent's center of gravity, the bottom player gains mechanical advantage that transcends size and strength differences. The position is characterized by extreme proximity and connection, with the bottom player using their entire body as a lever to disrupt the opponent's base. This creates opportunities for powerful sweeps leading directly to [[Positions/Mount]], [[Positions/Side Control]], or [[Positions/Back Control]], and integrates with [[Positions/Half Guard/Lockdown]] and [[Positions/Half Guard/Electric Chair]] for devastating submission threats.
 
 From the top perspective, deep half guard presents a deceptive challenge - while you appear to be winning because you're on top, the bottom player has created a sophisticated lever system using your body weight against you. Understanding the sweep mechanics from both perspectives is essential for modern BJJ practitioners, as this position has become a cornerstone of competitive grappling at all levels.
 
