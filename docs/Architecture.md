@@ -55,18 +55,22 @@ Position (Hub Page)     = Board state (e.g., "Mount")
 
 ```
 Positions/
-├── Mount.md           # Hub page (canonical graph node)
+├── Mount.md           # Hub page (visual graph node; data layer has Mount/Top + Mount/Bottom role-nodes)
 └── Mount/
     ├── Top.md         # Playing as top (submissions, control)
     └── Bottom.md      # Playing as bottom (escapes, reversals)
 ```
 
-### Graph Rules
+### Graph Rules (two representations — don't conflate)
 
-- **Hub pages are graph nodes** - Positions like "Mount", "Closed Guard"
-- **Role pages excluded from graph** - Top/Bottom pages don't create separate nodes
-- **Hub aggregates links** - Both Top and Bottom links appear on hub's graph connections
-- **Prevents redundancy** - No "Mount Bottom", "Mount Top" as separate nodes
+**Data model — `graph.json` (role-based state machine):**
+- Each position emits **role-nodes** `Mount/Top` and `Mount/Bottom` that **carry the edges** — distinct states (you are in one *or* the other).
+- The bare **hub** entry (`Mount`) only aggregates flashcards and has **no edges**. Neutral positions (Standing/Clinch) are a single node; `game-over` is the terminal sink.
+
+**Rendered graph — `globalGraphLayout.json` (visual projection):**
+- **Collapses positions to hub nodes** (Top/Bottom merged) to prevent on-screen redundancy — this is the only sense in which "hub pages are the graph nodes." The state machine itself runs on role-nodes.
+
+See CLAUDE.md → "Graph Topology — canonical model & invariants" for the full edge/direction/sink contract.
 
 ---
 
@@ -100,10 +104,10 @@ Submissions/
 
 ### Graph Rules (Transitions & Submissions)
 
-- **Hub pages are graph nodes** — same as Positions
-- **Attacker/Defender pages excluded from graph** — no separate nodes
-- **Hub carries `outcomes[]`** — shared between both roles
-- **`targets_outcome`** links role-specific actions to specific outcomes in the hub's `outcomes[]` array
+- **Each Transition/Submission is a single technique node** in `graph.json` — Attacker/Defender are generated *page perspectives*, not separate nodes (techniques do **not** split into role-nodes the way positions do).
+- **`outcomes[]` are the outgoing edges** — `success | failure | counter`, summing to 100; each `to` resolves to a position **role-node**, a real **submission**, or **`game-over`** (never a bare hub or family hub).
+- **Submission success → `game-over`** (the single sink); only submissions reach it. `is_family: true` hubs are aggregators with **no** edges (not graph nodes).
+- **`targets_outcome`** links role-specific actions to specific entries in `outcomes[]`.
 
 ### Transition JSON Structure
 

@@ -173,12 +173,14 @@ Position (Hub Page)     = Board state (e.g., "Mount")
 └── Bottom (Role Page)  = Playing as Black (escape, reverse)
 ```
 
-**Graph nodes are hub pages only** - Top/Bottom excluded to prevent redundancy.
+**Two graph representations (do not conflate them):**
+- **Data model — `graph.json` (role-based state machine):** each position emits **role-nodes** `Mount/Top` and `Mount/Bottom` that carry the edges, **plus** a bare `Mount` hub entry that only aggregates flashcards (no edges). The state machine runs on role-nodes — you are in `Mount/Top` *or* `Mount/Bottom`, which are distinct states. (Neutral positions like Standing/Clinch are a single node; `game-over` is the terminal node.)
+- **Rendered graph — `globalGraphLayout.json` (visual projection):** **collapses positions to hub nodes** (Top/Bottom merged) to reduce on-screen redundancy. This is the only sense in which "graph nodes are hub pages only" — it describes the *visual* layer, not the data layer.
 
 **File structure example:**
 ```
 Positions/
-├── Mount.md           # Hub page (canonical graph node)
+├── Mount.md           # Hub page (visual graph node; data has Mount/Top + Mount/Bottom role-nodes)
 └── Mount/
     ├── Top.md         # Playing as top (submissions, control)
     └── Bottom.md      # Playing as bottom (escapes, reversals)
@@ -216,7 +218,7 @@ Transition (Hub Page)    = Technique state (e.g., "Armbar from Mount")
 └── Defender (Role Page)  = Resisting/escaping (recognition, defense, escapes)
 ```
 
-**Graph nodes are hub pages only** - Attacker/Defender excluded from graph.
+**In `graph.json` each Transition/Submission is a single technique node** — Attacker/Defender are generated *page perspectives*, not separate graph nodes/role-nodes. (Positions split into Top/Bottom role-nodes; techniques do not.)
 
 **File structure example:**
 ```
@@ -270,6 +272,25 @@ Submission Control Position → Submission Finish Transition → game-over
 ```
 
 The `game-over` page (`content/game-over.md`) is a sink node - once reached, the match ends. This replaces the previous `Won by Submission` / `Lost by Submission` split.
+
+### Graph Topology — canonical model & invariants
+
+The state machine is **bipartite**: position role-nodes point to technique nodes (attempt), technique nodes point back to position role-nodes (outcome).
+
+**Node types (in `graph.json`):**
+- **Position role-nodes** (`Mount/Top`, `Mount/Bottom`) — carry edges. Bare **hub** entries (`Mount`) and **`is_family: true` submission hubs** (e.g. `Armbar`) are flashcard/aggregator entries with **no edges** — they are *not* navigable data nodes. Neutral positions are a single node. `game-over` is the terminal.
+- **Transition nodes** and **Submission nodes** — technique nodes.
+
+**Edge types + direction:**
+1. `Position/Role —attempt_probability→ Transition | Submission` (from each role's `transitions[]`; weights sum to 100/role).
+2. `Transition —probability, result→ Position/Role | Submission | game-over` (from `outcomes[]`; sum to 100; `result ∈ success|failure|counter`).
+3. `Submission —success→ game-over` (the sink).
+- `from_position` (surfaced as `fromPosition`/`fromPositionId`/`fromRole`) is the single **origin metadata**, not a second edge. `endingPosition` is a derived copy of the first `success` outcome. `opponentTransitions` are synthesized reverse-perspective mirrors — informational, not canonical edges.
+
+**Invariants (checked by `validate_graph_integrity.py` + the topology audit):**
+- A transition has **one canonical origin** and **3–5 outcomes**; a submission's success → `game-over`.
+- **`game-over` is the only sink** (out-degree 0). Every `outcome.to` must resolve to a **role-node**, a **real (non-family) submission**, or **`game-over`** — never a bare position hub, a family hub, or a self-loop.
+- **Only submissions reach `game-over`** — a transition pointing directly to `game-over` is a misfiled finish (it should advance to a control position).
 
 ### Training System (SRS) — embedded UX (v1.20.0+)
 
