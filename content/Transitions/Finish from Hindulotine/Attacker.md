@@ -240,7 +240,7 @@ The attacker must manage two simultaneous objectives: increasing choking pressur
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Hindulotine]] | 55% |
+| Success | [[Hindulotine from Hindulotine]] | 55% |
 | Failure | [[Positions/Hindulotine]] | 30% |
 | Counter | [[Positions/Half Guard]] | 15% |
 

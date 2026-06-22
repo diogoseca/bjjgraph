@@ -243,7 +243,7 @@ From technical mount, you have direct chains to arm triangles, mounted triangles
 
 - [[Transitions/Leg Drag to Mount]] - Alternative when opponent stays flat on back
 
-- [[Transitions/Arm Triangle]] - Primary submission threat from technical mount
+- [[Submissions/Arm Triangle]] - Primary submission threat from technical mount
 
 - [[Transitions/Mount to Armbar]] - Secondary submission threat from technical mount
 

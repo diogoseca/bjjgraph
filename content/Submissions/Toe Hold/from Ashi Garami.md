@@ -224,12 +224,12 @@ Competition-level application demands patience and precise timing. The toe hold 
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
 - [[Submissions/Achilles Lock]]
 - [[Submissions/Calf Slicer]]
 - [[Transitions/Aoki Lock]]
-- [[Transitions/Estima Lock]]
+- [[Submissions/Estima Lock]]
 - [[Positions/Ashi Garami]] - Primary starting position for this toe hold variant with leg entanglement control
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Advanced leg entanglement offering improved toe hold finishing angles and control
 - [[Positions/Ashi Garami/50-50 Guard]] - Bilateral entanglement where toe hold serves as primary offensive option for both players

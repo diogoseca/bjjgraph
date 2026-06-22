@@ -257,10 +257,10 @@ The submission can be entered from various side control variations including sta
 - [[Submissions/Kimura/from Guard]]
 - [[Submissions/Kimura]]
 - [[Submissions/Americana]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Far Side Armbar]]
-- [[Transitions/North-South Choke]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/North-South Choke]]
+- [[Submissions/Darce Choke]]
 - [[Submissions/Armbar]]
 - [[Positions/Side Control]] - Primary starting position for this submission
 - [[Positions/Side Control/Kesa Gatame]] - Alternative starting position with similar mechanics

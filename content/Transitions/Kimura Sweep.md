@@ -247,7 +247,7 @@ The Kimura Sweep occupies a central position in the Closed Guard attacking syste
 
 - [[Transitions/Back Take from Bottom]] - Follow-up when opponent turns to resist sweep
 
-- [[Transitions/Guillotine Choke]] - Chain attack when opponent postures to escape grip
+- [[Submissions/Guillotine Choke]] - Chain attack when opponent postures to escape grip
 
 - [[Transitions/Scissor Sweep]] - Alternative sweep from similar guard position
 

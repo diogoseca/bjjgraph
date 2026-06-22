@@ -238,7 +238,7 @@ Leg Extraction serves as a foundational escape within the broader defensive leg 
 ## Related Techniques
 
 
-- [[Transitions/Estima Lock]] - Primary submission threat this technique escapes
+- [[Submissions/Estima Lock]] - Primary submission threat this technique escapes
 
 - [[Transitions/Ashi Garami Escape]] - Related leg entanglement escape with similar mechanics
 

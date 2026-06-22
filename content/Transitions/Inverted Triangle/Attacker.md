@@ -16,7 +16,7 @@ description: "How to execute the Inverted Triangle in BJJ. Attacking perspective
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Inverted Triangle in BJJ",
-  "description": "Step-by-step guide for executing Inverted Triangle from Triangle Control/Bottom.",
+  "description": "Step-by-step guide for executing Inverted Triangle from Triangle Escape Position/Bottom.",
   "step": [
     {
       "@type": "HowToStep",
@@ -190,7 +190,7 @@ Strategically, the inverted triangle serves as a critical tool in the triangle a
 
 The biomechanics of the inverted triangle differ significantly from the standard variation. The choking pressure comes from the opposite angle, with your legs positioned to compress the carotid arteries from behind rather than in front. This requires adjusting your hip angle, leg positioning, and grip placement to accommodate the reversed geometry. The inverted triangle also opens up different transition options, including back takes and armbar variations that aren't available from the standard triangle position.
 
-**From Position**: [[Positions/Triangle Control]] (Bottom)
+**From Position**: [[Positions/Triangle Escape Position]] (Bottom)
 
 </section>
 
@@ -249,8 +249,8 @@ The biomechanics of the inverted triangle differ significantly from the standard
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Transitions/Inverted Triangle]] | 55% |
-| Failure | [[Positions/Triangle Control]] | 30% |
+| Success | [[Positions/Triangle Control]] | 55% |
+| Failure | [[Positions/Triangle Escape Position]] | 30% |
 | Counter | [[Positions/Side Control]] | 15% |
 
 

@@ -234,7 +234,7 @@ The Darce Setup serves as a critical bridge in the front headlock submission sys
 ## Related Techniques
 
 
-- [[Transitions/Darce Choke]] - Direct finish from established Darce Control
+- [[Submissions/Darce Choke]] - Direct finish from established Darce Control
 
 - [[Transitions/Front Headlock to Darce]] - Alternative entry pathway from front headlock
 

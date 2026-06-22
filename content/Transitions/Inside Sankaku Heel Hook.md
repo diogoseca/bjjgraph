@@ -76,7 +76,7 @@ The heel hook attacks the knee's ligaments through rotational force transmitted 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Submissions/Inside Heel Hook]] | 50% |
+| Success | [[Inside Heel Hook from Inside Sankaku]] | 50% |
 | Failure | [[Positions/Inside Sankaku]] | 30% |
 | Counter | [[Positions/Ashi Garami/50-50 Guard]] | 20% |
 
@@ -251,7 +251,7 @@ The Inside Sankaku Heel Hook sits at the apex of the modern leg lock system as t
 
 - [[Heel Hook from Saddle]] - Related heel hook finish from a different leg entanglement position
 
-- [[Transitions/Outside Heel Hook]] - Opposite heel hook variant accessible when opponent rotates defensively
+- [[Submissions/Outside Heel Hook]] - Opposite heel hook variant accessible when opponent rotates defensively
 
 - [[Positions/Ashi Garami/Outside Ashi-Garami]] - Transition target when opponent clears knee line during heel hook attempt
 

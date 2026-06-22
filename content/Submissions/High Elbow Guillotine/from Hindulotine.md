@@ -228,9 +228,9 @@ Strategically, this submission thrives when the opponent attempts to defend the 
 
 ## Related
 - [[Submissions/High Elbow Guillotine]]
-- [[Transitions/Guillotine Choke]]
+- [[Submissions/Guillotine Choke]]
 - [[Submissions/Arm in Guillotine]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
 - [[Submissions/Chin Strap Guillotine]]
 - [[Submissions/Japanese Necktie]]

@@ -226,7 +226,7 @@ Leg Entanglement represents a comprehensive positional system in modern Brazilia
 
 **If opponent's heel becomes exposed with proper inside or outside positioning established:**
 - Execute **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 70%)
-- Execute **[[Transitions/Outside Heel Hook/Attacker|Outside Heel Hook]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 65%)
+- Execute **[[Submissions/Outside Heel Hook/Attacker|Outside Heel Hook]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 65%)
 
 
 **If opponent turns away from you exposing their back to escape the leg entanglement:**

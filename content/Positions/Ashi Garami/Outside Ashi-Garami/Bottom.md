@@ -219,7 +219,7 @@ From this position, the practitioner has access to outside heel hooks, straight 
 
 **If opponent attempts to rotate hip externally (turning knee outward) to escape:**
 - Execute **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 60%)
-- Execute **[[Transitions/Outside Heel Hook/Attacker|Outside Heel Hook]]** → [[game-over]] (Probability: 40%)
+- Execute **[[Submissions/Outside Heel Hook/Attacker|Outside Heel Hook]]** → [[game-over]] (Probability: 40%)
 
 
 **Else if opponent leans back or attempts to stand creating distance:**
@@ -229,7 +229,7 @@ From this position, the practitioner has access to outside heel hooks, straight 
 
 **Else if opponent remains static with leg trapped:**
 - Execute **[[Submissions/Straight Ankle Lock/Attacker|Straight Ankle Lock]]** → [[Positions/Straight Ankle Lock Control]] (Probability: 50%)
-- Execute **[[Transitions/Outside Heel Hook/Attacker|Outside Heel Hook]]** → [[game-over]] (Probability: 50%)
+- Execute **[[Submissions/Outside Heel Hook/Attacker|Outside Heel Hook]]** → [[game-over]] (Probability: 50%)
 
 
 **Else if opponent drives forward attempting to stack or smash:**
@@ -345,7 +345,7 @@ Start in established outside ashi garami, bottom player works to maintain positi
 - **[[Positions/Ashi Garami/Cross Ashi-Garami]]** - Perpendicular variation offering different submission angles
 - **[[Positions/Ashi Garami/50-50 Guard]]** - Alternative leg entanglement with mutual control
 - **[[Positions/Ashi Garami]]** - Parent position family encompassing all ashi variations
-- **[[Transitions/Outside Heel Hook]]** - Primary submission from this position
+- **[[Submissions/Outside Heel Hook]]** - Primary submission from this position
 - **[[Submissions/Straight Ankle Lock]]** - Alternative submission targeting ankle joint
 - **[[Transitions/Ashi Garami Escape]]** - Opponent's primary escape sequence to understand
 - **[[Positions/X-Guard/Single Leg X-Guard]]** - Related leg control position with different angles

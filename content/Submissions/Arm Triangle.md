@@ -130,9 +130,9 @@ The Arm Triangle (Kata Gatame) is a fundamental blood choke that uses the oppone
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Darce Choke]] - Sister head-and-arm choke with opposite arm threading direction
+- [[Submissions/Darce Choke]] - Sister head-and-arm choke with opposite arm threading direction
 - [[Transitions/Anaconda Choke]] - Related front headlock choke using similar compression mechanics
-- [[Transitions/Guillotine Choke]] - Complementary neck choke available when arm triangle defense creates space
+- [[Submissions/Guillotine Choke]] - Complementary neck choke available when arm triangle defense creates space
 - [[Submissions/Ezekiel Choke]] - Alternative choke from mount and side control positions
 - [[Transitions/Clock Choke]] - Gi-based choke sharing similar shoulder pressure mechanics
 - [[Submissions/Brabo Choke]] - Variation using lapel to enhance head-and-arm compression

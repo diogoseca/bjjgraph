@@ -332,7 +332,7 @@ Bottom player in Estima Lock position focuses exclusively on using free leg for 
 
 ## Related Positions and Techniques
 
-- **[[Transitions/Estima Lock]]** - Primary submission threat from this position
+- **[[Submissions/Estima Lock]]** - Primary submission threat from this position
 - **[[Positions/Ashi Garami/50-50 Guard]]** - Common entry position where Estima Lock threat often develops
 - **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Related leg entanglement position with similar defensive principles
 - **[[Positions/Ashi Garami]]** - Similar defensive leg entanglement requiring comparable escape mechanics

@@ -225,8 +225,8 @@ Strategically, the RNC threat serves as the primary fork in the Russian Cowboy a
 ## Related
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/Bow and Arrow Choke]]
-- [[Transitions/Darce Choke]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Darce Choke]]
+- [[Submissions/Arm Triangle]]
 - [[Positions/Russian Cowboy]] - Starting position providing single-hook back control for this submission variant
 - [[Positions/Back Control]] - Related back control position with standard RNC application and both hooks
 - [[Positions/Twister Control/Truck]] - Alternative attack pathway accessible when opponent defends the RNC from Russian Cowboy

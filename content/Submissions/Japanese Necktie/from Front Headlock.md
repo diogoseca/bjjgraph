@@ -245,15 +245,15 @@ The Japanese Necktie is a sophisticated blood choke that attacks from front head
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Guillotine Choke]]
+- [[Submissions/Guillotine Choke]]
 - [[Transitions/Anaconda Choke]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Darce Choke]]
 - [[Submissions/Peruvian Necktie]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/High Elbow Guillotine]]
 - [[Submissions/Arm in Guillotine]]
-- [[Transitions/North-South Choke]]
+- [[Submissions/North-South Choke]]
 - [[Submissions/Baseball Bat Choke]]
 - [[Submissions/Brabo Choke]]
 - [[Positions/Front Headlock]] - Primary position for Japanese Necktie setups and entries

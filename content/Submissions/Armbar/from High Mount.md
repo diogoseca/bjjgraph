@@ -250,7 +250,7 @@ Strategically, the Armbar from High Mount functions as the centerpiece of mount 
 - [[Submissions/Belly Down Armbar]]
 - [[Submissions/Gift Wrap Armbar]]
 - [[Submissions/Americana]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Cross Collar Choke]]
 - [[Submissions/Flying Armbar]]
 - [[Submissions/Kimura]]

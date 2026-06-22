@@ -118,13 +118,13 @@ The Aoki Lock, named after Japanese MMA fighter Shinya Aoki, is a sophisticated 
 ## Related
 - [[Transitions/Kneebar]] - Common transition when Aoki Lock is defended by straightening the trapped leg
 - [[Submissions/Inside Heel Hook]] - Creates attack dilemma from same leg entanglement position
-- [[Transitions/Outside Heel Hook]] - Alternative rotational attack from similar ashi garami positions
+- [[Submissions/Outside Heel Hook]] - Alternative rotational attack from similar ashi garami positions
 - [[Submissions/Straight Ankle Lock]] - Simpler compression alternative targeting the same trapped leg
 - [[Submissions/Toe Hold]] - Rotational foot attack available from same leg entanglement positions
-- [[Transitions/Estima Lock]] - Related compression-style leg submission with similar finishing mechanics
+- [[Submissions/Estima Lock]] - Related compression-style leg submission with similar finishing mechanics
 - [[Submissions/Calf Slicer]] - Complementary compression technique targeting the calf muscle
 - [[Submissions/Achilles Lock]] - Similar Achilles compression mechanics from comparable leg control positions
-- [[Transitions/Heel Hook]] - Primary rotational attack alternative from ashi garami positions
+- [[Submissions/Heel Hook]] - Primary rotational attack alternative from ashi garami positions
 - [[Submissions/Banana Split]] - Groin and hip submission accessible from similar leg control configurations
 - [[Positions/Ashi Garami]] - Primary position for entry and control
 - [[Positions/Ashi Garami/Honey Hole]] - Alternative leg entanglement for similar attacks

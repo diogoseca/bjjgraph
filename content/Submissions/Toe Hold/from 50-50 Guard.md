@@ -242,11 +242,11 @@ In competition, the toe hold from 50-50 has gained prominence as athletes develo
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
 - [[Submissions/Calf Slicer]]
 - [[Submissions/Achilles Lock]]
-- [[Transitions/Estima Lock]]
+- [[Submissions/Estima Lock]]
 - [[Transitions/Aoki Lock]]
 - [[Positions/Ashi Garami/50-50 Guard]] - Primary starting position for this toe hold variant
 - [[Positions/Ashi Garami/Backside 50-50]] - Related leg entanglement offering similar toe hold access from different angle

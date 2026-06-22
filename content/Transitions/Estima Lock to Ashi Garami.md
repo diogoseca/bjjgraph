@@ -229,7 +229,7 @@ The Estima Lock to Ashi Garami transition represents a critical link in modern l
 ## Related Techniques
 
 
-- [[Transitions/Estima Lock]] - Starting position and initial submission threat
+- [[Submissions/Estima Lock]] - Starting position and initial submission threat
 
 - [[Positions/Ashi Garami]] - Target position providing heel hook access
 
@@ -239,7 +239,7 @@ The Estima Lock to Ashi Garami transition represents a critical link in modern l
 
 - [[Positions/Ashi Garami/50-50 Guard]] - Fallback position if ashi garami entry is defended
 
-- [[Transitions/Heel Hook]] - Primary submission from ashi garami after successful transition
+- [[Submissions/Heel Hook]] - Primary submission from ashi garami after successful transition
 
 - [[Submissions/Toe Hold]] - Alternative submission available during transition phase
 

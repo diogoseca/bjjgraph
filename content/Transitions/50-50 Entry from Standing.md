@@ -256,7 +256,7 @@ Strategically, the 50-50 entry from standing is particularly valuable in no-gi c
 
 - [[Positions/Ashi Garami/Saddle]] - Follow-up position achieved by adjusting from 50-50
 
-- [[Transitions/Heel Hook]] - Common submission finish from 50-50 position
+- [[Submissions/Heel Hook]] - Common submission finish from 50-50 position
 
 - [[Positions/Standing Position]] - Starting position for this entry technique
 

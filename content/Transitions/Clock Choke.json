@@ -16,18 +16,13 @@
   "from_position": "Turtle/Top",
   "outcomes": [
     {
-      "to": "game-over",
+      "to": "Crucifix/Top",
       "probability": 55,
       "result": "success"
     },
     {
-      "to": "Clock Choke",
-      "probability": 18,
-      "result": "failure"
-    },
-    {
       "to": "Turtle/Top",
-      "probability": 15,
+      "probability": 33,
       "result": "failure"
     },
     {
@@ -155,13 +150,13 @@
         "counter": "Opponent brings hands up to grip fight and strip the collar grip",
         "effectiveness": "Medium",
         "your_response": "Accelerate your rotation and sprawl to apply pressure before they can complete the grip break, or switch to back take if they expose their back during the grip fight",
-        "targets_outcome": "Clock Choke"
+        "targets_outcome": "Turtle/Top"
       },
       {
         "counter": "Opponent flattens out completely to the mat to reduce neck exposure",
         "effectiveness": "Low",
         "your_response": "Maintain collar grip and walk further around to reapply pressure from a tighter angle, or transition to back control since flattening opens hook insertion opportunities",
-        "targets_outcome": "Clock Choke"
+        "targets_outcome": "Turtle/Top"
       }
     ],
     "common_errors": [
@@ -280,7 +275,7 @@
       {
         "action": "Two-on-one grip strip on the choking hand before it sinks deep into the collar",
         "when_to_use": "Immediately upon feeling the attacker's hand entering your collar, before the grip is fully established",
-        "targets_outcome": "Clock Choke",
+        "targets_outcome": "Turtle/Top",
         "if_successful": "Attacker loses their primary choking grip and must re-establish, resetting to neutral turtle top position",
         "risk": "Lifting your arm to grip fight briefly exposes your back to potential hook insertion or harness control"
       },

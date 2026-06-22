@@ -360,7 +360,7 @@ Start with bottom player in established Carni position. Top player attempts safe
 - **[[Positions/Twister Control/Truck]]** - Back exposure threat - position accessed when top player turns belly down
 - **[[Positions/Back Control]]** - Alternative threat - where bottom player goes when top player rolls to escape
 - **[[Positions/Combat Base]]** - Primary escape target - establishing safe base after extraction
-- **[[Transitions/Heel Hook]]** - Primary submission threat - must defend against while escaping position
+- **[[Submissions/Heel Hook]]** - Primary submission threat - must defend against while escaping position
 - **[[Positions/Kneebar Control]]** - Secondary submission threat - alternative finish when heel is defended
 - **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Related entanglement - similar defensive principles apply
 - **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - Related entanglement - shares leg lock defense requirements

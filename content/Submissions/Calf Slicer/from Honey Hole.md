@@ -240,7 +240,7 @@ Strategically, the calf slicer adds a compression dimension to the rotational at
 ## Related
 - [[Submissions/Calf Slicer]]
 - [[Submissions/Inside Heel Hook]]
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Transitions/Aoki Lock]]
 - [[Submissions/Bicep Slicer]]
 - [[Submissions/Achilles Lock]]

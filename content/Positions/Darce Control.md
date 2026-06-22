@@ -198,7 +198,7 @@ The effectiveness of Darce Control lies in its ability to create multiple dilemm
 ### Available Transitions
 
 
-- **[[Darce Choke from Darce Control/Attacker|Darce Choke from Darce Control]]** (53% of attempts)
+- **[[Darce Choke from Darce Control/Attacker|Darce Choke from Darce Control]]** (54% of attempts)
 
 - **[[Transitions/Turtle to Back Take/Attacker|Turtle to Back Take]]** (17% of attempts)
 
@@ -211,8 +211,6 @@ The effectiveness of Darce Control lies in its ability to create multiple dilemm
 - **[[Transitions/Darce Control Maintenance/Attacker|Darce Control Maintenance]]** (2% of attempts)
 
 - **[[Transitions/Darce to Anaconda Switch/Attacker|Darce to Anaconda Switch]]** (1% of attempts)
-
-- **[[Transitions/Darce Choke/Attacker|Darce Choke]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -257,7 +255,7 @@ The effectiveness of Darce Control lies in its ability to create multiple dilemm
 
 - **[[Positions/North-South]]** - Common transition target when darce finish is defended
 
-- **[[Transitions/Darce Choke]]** - Primary submission finish from this control position
+- **[[Submissions/Darce Choke]]** - Primary submission finish from this control position
 
 - **[[Positions/Back Control]]** - High-percentage transition when opponent rolls to escape
 

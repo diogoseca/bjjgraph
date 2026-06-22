@@ -225,11 +225,11 @@ The combination of inside and outside heel hook threats from the Saddle creates 
 
 ## Related
 - [[Submissions/Inside Heel Hook]]
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Calf Slicer]]
 - [[Transitions/Aoki Lock]]
 - [[Submissions/Achilles Lock]]
-- [[Transitions/Estima Lock]]
+- [[Submissions/Estima Lock]]
 - [[Positions/Ashi Garami/Saddle]] - Primary starting position for this submission variant
 - [[Positions/Ashi Garami/Honey Hole]] - Alternative name for the same starting position
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Common fallback position when saddle control is lost

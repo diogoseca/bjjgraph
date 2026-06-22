@@ -246,9 +246,9 @@ The Crossface Pass is a fundamental component of the half guard passing system a
 
 - [[Transitions/Half Guard Pass]] - Parent category - Crossface pass is one specific method within broader half guard passing system
 
-- [[Transitions/Darce Choke]] - Submission available if opponent turns into you during crossface pressure
+- [[Submissions/Darce Choke]] - Submission available if opponent turns into you during crossface pressure
 
-- [[Transitions/Arm Triangle]] - Submission option when opponent gives up far arm during pass attempt
+- [[Submissions/Arm Triangle]] - Submission option when opponent gives up far arm during pass attempt
 
 - [[Positions/Half Guard/Knee Shield Half Guard]] - Primary defensive structure from bottom that crossface pass must overcome
 

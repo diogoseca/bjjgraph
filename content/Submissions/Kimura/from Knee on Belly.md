@@ -240,7 +240,7 @@ The finishing mechanics differ from other positions because the top player can c
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Baseball Bat Choke]]
 - [[Submissions/Kimura]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Positions/Knee on Belly]] - Starting position providing the pressure platform for this kimura variant
 - [[Positions/Kimura Trap]] - Control position reached when opponent defends the initial kimura attempt
 - [[Positions/Side Control]] - Alternative finishing position when stepping off KOB to complete the kimura

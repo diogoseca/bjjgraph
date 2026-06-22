@@ -156,7 +156,7 @@ Defending the Inverted Triangle requires understanding that this attack exploits
 
 The defensive hierarchy mirrors standard triangle defense principles but with critical adjustments for the reversed angle. First priority is preventing the rotation from completing by recovering posture and creating distance during the transition. Second priority is extracting your trapped arm before the new configuration locks in. Third priority, if caught in the completed inverted triangle, is addressing the choking angle by squaring your hips and working systematic escape sequences. The inverted angle creates unique challenges because many practitioners have never drilled specific defenses against it, making recognition and early intervention even more important than technical escape ability.
 
-**Opponent's Starting Position**: [[Positions/Triangle Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Triangle Escape Position]] (Bottom)
 
 </section>
 

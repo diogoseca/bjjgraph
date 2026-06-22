@@ -235,7 +235,7 @@ The Single Leg X to Estima Lock entry sits inside the modern supine leg-lock sys
 ## Related Techniques
 
 
-- [[Transitions/Estima Lock]] - Primary submission finished after establishing the control reached by this entry
+- [[Submissions/Estima Lock]] - Primary submission finished after establishing the control reached by this entry
 
 - [[Positions/X-Guard/Single Leg X-Guard]] - Starting position - the guard from which this entry is executed
 

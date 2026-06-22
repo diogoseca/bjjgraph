@@ -329,7 +329,7 @@ Partner gives 50% resistance from top 50-50. Practice sweeping to top position u
 - **[[Positions/Ashi Garami]]** - Related leg entanglement position with similar defensive requirements
 - **[[Positions/Ashi Garami/Honey Hole]]** - Related leg lock position with similar submission threats
 - **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Alternative leg entanglement with different control dynamics
-- **[[Transitions/Heel Hook]]** - Submission attacks you must defend against from this position
+- **[[Submissions/Heel Hook]]** - Submission attacks you must defend against from this position
 
 
 </section>

@@ -242,7 +242,7 @@ Strategically, this Americana integrates into a powerful submission chain from r
 ## Related
 - [[Submissions/Americana]]
 - [[Submissions/Kimura]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Arm Crush]]
 - [[Positions/Side Control/Reverse Kesa-Gatame]] - Starting position for this submission variant
 - [[Positions/Side Control/Kesa Gatame]] - Related scarf hold family position with similar submission opportunities

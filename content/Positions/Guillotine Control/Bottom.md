@@ -21,37 +21,37 @@ description: "Master Guillotine Control Bottom in BJJ. Complete guide covering s
     {
       "@type": "HowToStep",
       "name": "Execute Guillotine Choke from Guillotine Control",
-      "text": "From this position, attempt Guillotine Choke from Guillotine Control. This technique is attempted in 49% of exchanges from this position.",
+      "text": "From this position, attempt Guillotine Choke from Guillotine Control. This technique is attempted in 50% of exchanges from this position.",
       "position": 1
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Guillotine Choke",
-      "text": "From this position, attempt Guillotine Choke. This technique is attempted in 1% of exchanges from this position.",
-      "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute High Elbow Guillotine Variation",
       "text": "From this position, attempt High Elbow Guillotine Variation. This technique is attempted in 13% of exchanges from this position.",
-      "position": 3
+      "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Bump Sweep",
       "text": "From this position, attempt Hip Bump Sweep. This technique is attempted in 10% of exchanges from this position.",
-      "position": 4
+      "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Closed Guard to Omoplata",
       "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 4% of exchanges from this position.",
-      "position": 5
+      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Closed Guard to Triangle",
       "text": "From this position, attempt Closed Guard to Triangle. This technique is attempted in 6% of exchanges from this position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Guard Recovery from Guillotine Control",
+      "text": "From this position, attempt Guard Recovery from Guillotine Control. This technique is attempted in 6% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -230,7 +230,7 @@ From a positional hierarchy perspective, Guillotine Control Bottom represents a 
 
 **If opponent turns head and shoulders away from choking arm to escape:**
 - Execute **[[Transitions/Anaconda Choke/Attacker|Anaconda Choke]]** → [[game-over]] (Probability: 60%)
-- Execute **[[Transitions/Darce Choke/Attacker|Darce Choke]]** → [[game-over]] (Probability: 55%)
+- Execute **[[Submissions/Darce Choke/Attacker|Darce Choke]]** → [[game-over]] (Probability: 55%)
 
 
 **If opponent successfully creates significant space and begins extracting head:**
@@ -239,7 +239,7 @@ From a positional hierarchy perspective, Guillotine Control Bottom represents a 
 
 
 **If opponent keeps head down and attempts to drive forward while defending neck:**
-- Execute **[[Transitions/Guillotine Choke/Attacker|Guillotine Choke]]** → [[game-over]] (Probability: 70%)
+- Execute **[[Submissions/Guillotine Choke/Attacker|Guillotine Choke]]** → [[game-over]] (Probability: 70%)
 - Execute **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** → [[Positions/Mount]] (Probability: 45%)
 
 
@@ -361,7 +361,7 @@ Start each round with bottom player establishing guillotine control in guard. Bo
 - **[[Positions/Front Headlock]]** - Similar position - related control structure
 - **[[Positions/Closed Guard]]** - Common transition - guard position for maintaining control
 - **[[Positions/Half Guard]]** - Common transition - alternative guard retention option
-- **[[Transitions/Guillotine Choke]]** - Primary submission - main finishing technique
+- **[[Submissions/Guillotine Choke]]** - Primary submission - main finishing technique
 - **[[Submissions/Arm in Guillotine]]** - Variation technique - arm-trapped finishing method
 - **[[Submissions/Chin Strap Guillotine]]** - Variation technique - alternative finishing mechanics with chin control
 - **[[Transitions/Anaconda Choke]]** - Alternative submission - counter when opponent turns

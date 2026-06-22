@@ -241,7 +241,7 @@ The Counter Sweep from Outside Ashi-Garami bridges the modern leg lock game with
 
 - [[Transitions/Ashi Garami Escape]] - Opponent's primary defensive technique that creates the sweep timing window
 
-- [[Transitions/Outside Heel Hook]] - Alternative submission attack from the same starting position when sweep conditions are absent
+- [[Submissions/Outside Heel Hook]] - Alternative submission attack from the same starting position when sweep conditions are absent
 
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Related leg entanglement with different sweep angles and mechanics
 

@@ -244,11 +244,11 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 
 ## Related
 - [[Submissions/Triangle Choke]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Kimura]]
 - [[Submissions/Far Side Armbar]]
-- [[Transitions/North-South Choke]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/North-South Choke]]
+- [[Submissions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
 - [[Submissions/Rear Triangle Choke]]
 - [[Transitions/Inverted Triangle]]

@@ -237,7 +237,7 @@ The technical requirements for effective Carni play from bottom include precise 
 
 
 **If opponent extends leg and attempts to create distance:**
-- Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[Transitions/Heel Hook]] (Probability: 70%)
+- Execute **[[Submissions/Heel Hook/Attacker|Heel Hook]]** → [[Submissions/Heel Hook]] (Probability: 70%)
 - Execute **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** → [[Positions/Kneebar Control]] (Probability: 60%)
 
 
@@ -369,7 +369,7 @@ Start from Carni position with clear rules: if heel is defended, transition to s
 - **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Related entanglement - alternative leg position with different attack angles
 - **[[Positions/De La Riva Guard/Reverse De La Riva Guard]]** - Entry position - common guard to initiate Carni entries
 - **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - Related control position - shares similar leg entanglement principles
-- **[[Transitions/Heel Hook]]** - Primary submission - most common finish from Carni position
+- **[[Submissions/Heel Hook]]** - Primary submission - most common finish from Carni position
 - **[[Calf Slicer from Truck]]** - Secondary submission - accessed via truck transition from Carni
 - **[[Transitions/Kneebar]]** - Alternative submission - opportunistic finish when opponent extends leg
 - **[[Positions/Ashi Garami/Honey Hole]]** - Related finishing position - alternative leg entanglement for submissions

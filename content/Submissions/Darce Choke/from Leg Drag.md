@@ -247,9 +247,9 @@ This submission represents a high-percentage finishing option within the leg dra
 
 ## Related
 - [[Transitions/Anaconda Choke]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Brabo Choke]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Darce Choke]]
 - [[Submissions/Arm in Guillotine]]
 - [[Submissions/Chin Strap Guillotine]]
 - [[Positions/Leg Drag Control]] - Primary starting position for this submission entry

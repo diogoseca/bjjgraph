@@ -225,7 +225,7 @@ This submission demands meticulous attention to safety in training. The mechanis
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
 - [[Positions/Aoki Lock Control]]
 - [[Submissions/Calf Slicer]]

@@ -242,7 +242,7 @@ This submission is particularly effective in competition when opponents focus on
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Transitions/Anaconda Choke]]
 - [[Positions/Side Control/Reverse Scarf Hold]] - Starting control position from which this submission is initiated
 - [[Positions/Side Control/Kesa Gatame]] - Related scarf hold with similar arm triangle entry mechanics

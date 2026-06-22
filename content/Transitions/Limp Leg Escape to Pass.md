@@ -247,7 +247,7 @@ The Limp Leg Escape represents the primary defensive pathway from Electric Chair
 
 - [[Transitions/Old School Sweep]] - Counter threat - opponent may attempt this if you create space
 
-- [[Transitions/Darce Choke]] - Counter-attack option - available if opponent turns significantly during escape
+- [[Submissions/Darce Choke]] - Counter-attack option - available if opponent turns significantly during escape
 
 - [[Transitions/Back Take from Lockdown Defense]] - Alternative outcome - possible when opponent overcommits to preventing escape
 

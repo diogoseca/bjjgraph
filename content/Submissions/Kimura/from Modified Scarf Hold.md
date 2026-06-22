@@ -245,12 +245,12 @@ The Kimura from Modified Scarf Hold appears frequently in both gi and no-gi comp
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Ezekiel Choke]]
 - [[Submissions/Americana]]
 - [[Submissions/Kesa Gatame Arm Crush]]
 - [[Submissions/Far Side Armbar]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Darce Choke]]
 - [[Positions/Side Control/Modified Scarf Hold]] - Starting position from which this submission is initiated
 - [[Positions/Side Control/Kesa Gatame]] - Related starting position offering similar kimura opportunities with different body angle
 - [[Positions/Side Control]] - Parent position family from which modified scarf hold is derived

@@ -261,7 +261,7 @@ The armbar from guard is one of the most fundamental and highest-percentage subm
 - [[Submissions/Americana]]
 - [[Submissions/Belly Down Armbar]]
 - [[Transitions/Gogoplata]]
-- [[Transitions/Guillotine Choke]]
+- [[Submissions/Guillotine Choke]]
 - [[Positions/Closed Guard]] - Primary starting position for this armbar variation
 - [[Positions/Armbar Control]] - Control position where finishing mechanics are applied
 - [[Transitions/Hip Bump Sweep]] - Complementary attack that creates armbar opportunities when defended

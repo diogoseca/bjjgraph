@@ -218,8 +218,8 @@ The 50-50 Guard Top is particularly effective in no-gi competition where heel ho
 <p class="section-subtitle">What should you do from 50-50 Guard (Top)?</p>
 
 **If opponent's heel is exposed and you have strong two-handed control with inside position maintained:**
-- Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[Submissions/Inside Heel Hook]] (Probability: 50%)
-- Execute **[[Transitions/Outside Heel Hook/Attacker|Outside Heel Hook]]** → [[Transitions/Outside Heel Hook]] (Probability: 35%)
+- Execute **[[Submissions/Heel Hook/Attacker|Heel Hook]]** → [[Submissions/Inside Heel Hook]] (Probability: 50%)
+- Execute **[[Submissions/Outside Heel Hook/Attacker|Outside Heel Hook]]** → [[Submissions/Outside Heel Hook]] (Probability: 35%)
 
 
 **If opponent hides heel by tucking it close to their body or you lose heel control:**

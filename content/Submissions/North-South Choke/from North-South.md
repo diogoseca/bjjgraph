@@ -246,11 +246,11 @@ Strategically, the North-South Choke creates a powerful dilemma when combined wi
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Arm Triangle]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Arm Triangle]]
+- [[Submissions/Darce Choke]]
 - [[Submissions/Kimura]]
 - [[Submissions/Americana]]
-- [[Transitions/Guillotine Choke]]
+- [[Submissions/Guillotine Choke]]
 - [[Submissions/Ezekiel Choke]]
 - [[Positions/North-South]] - Starting position and primary control base for this submission
 - [[Positions/Side Control]] - Common transition position before reaching North-South

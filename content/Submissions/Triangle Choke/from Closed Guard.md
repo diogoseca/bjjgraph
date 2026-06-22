@@ -262,7 +262,7 @@ The technical execution of the triangle from closed guard requires precise angle
 - [[Submissions/Kimura/from Guard]]
 - [[Transitions/Gogoplata]]
 - [[Submissions/Cross Collar Choke]]
-- [[Transitions/Guillotine Choke]]
+- [[Submissions/Guillotine Choke]]
 - [[Submissions/Baratoplata]]
 - [[Submissions/Omoplata]]
 - [[Transitions/Inverted Triangle]]

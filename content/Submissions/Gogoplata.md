@@ -122,8 +122,8 @@ While the Gogoplata has a reputation as a low-percentage submission due to its t
 - [[Submissions/Triangle Choke]] - Complementary choke from rubber guard requiring similar posture control and high guard mechanics - failed triangle often transitions directly to gogoplata
 - [[Submissions/Omoplata]] - Part of the rubber guard submission chain that transitions based on opponent defense patterns between shoulder and neck attacks
 - [[Submissions/Baratoplata]] - Fellow shin-based submission from rubber guard sharing flexibility requirements and similar setup positions
-- [[Transitions/Guillotine Choke]] - Alternative neck attack available from complementary guard positions when head control is established
-- [[Transitions/Arm Triangle]] - Alternative choke option when opponent turns sideways to defend the shin across the throat, exposing the neck-shoulder angle
+- [[Submissions/Guillotine Choke]] - Alternative neck attack available from complementary guard positions when head control is established
+- [[Submissions/Arm Triangle]] - Alternative choke option when opponent turns sideways to defend the shin across the throat, exposing the neck-shoulder angle
 - [[Positions/Rubber Guard]] - Primary position for gogoplata setup - provides the high guard control and broken posture necessary for successful execution
 - [[Positions/Rubber Guard/Mission Control]] - Optimal rubber guard configuration for gogoplata - arm trap and posture control create ideal conditions for shin placement
 - [[Positions/Triangle Control]] - Related control position - often transitions between triangle and gogoplata based on opponent defense

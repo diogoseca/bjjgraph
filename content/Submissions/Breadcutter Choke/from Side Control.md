@@ -245,7 +245,7 @@ This choke is particularly effective because opponents under side control typica
 - [[Submissions/Breadcutter Choke]]
 - [[Submissions/Cross Collar Choke]]
 - [[Submissions/Baseball Bat Choke]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Ezekiel Choke]]
 - [[Submissions/Brabo Choke]]
 - [[Positions/Side Control]] - Starting position providing the perpendicular alignment needed for collar access

@@ -254,7 +254,7 @@ Emerging from the 10th Planet system's leg-attack arsenal, the Calf Slicer from 
 - [[Positions/Half Guard/Electric Chair]]
 - [[Submissions/Achilles Lock]]
 - [[Submissions/Boston Crab]]
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Spine Lock]]
 - [[Positions/Twister Control/Truck]] - Primary starting position - truck control must be mastered before attempting this submission
 - [[Positions/Twister Control]] - Primary transition when opponent defends by straightening leg - rotate to upper body attack

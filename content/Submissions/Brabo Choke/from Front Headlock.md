@@ -252,11 +252,11 @@ The Brabo Choke is a powerful blood choke from the front headlock position, clos
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Darce Choke]]
+- [[Submissions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
-- [[Transitions/Guillotine Choke]]
-- [[Transitions/Arm Triangle]]
-- [[Transitions/North-South Choke]]
+- [[Submissions/Guillotine Choke]]
+- [[Submissions/Arm Triangle]]
+- [[Submissions/North-South Choke]]
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/Arm in Guillotine]]
 - [[Submissions/Ezekiel Choke]]

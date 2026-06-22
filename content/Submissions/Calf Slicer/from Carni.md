@@ -224,7 +224,7 @@ The finishing mechanics require precise shin placement directly behind the oppon
 
 ## Related
 - [[Submissions/Calf Slicer]]
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Banana Split]]
 - [[Submissions/Achilles Lock]]
 - [[Submissions/Bicep Slicer]]

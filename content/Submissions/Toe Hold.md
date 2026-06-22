@@ -78,7 +78,7 @@ description: "Master the Toe Hold leg lock in BJJ. Complete guide with safety pr
 
 <aside class="entity-relations">
 <p class="also-known-as"><em>Also known as:</em> <strong>Ashi Dori Garami</strong>, <strong>American Toe Hold</strong></p>
-<p class="often-confused-with"><em>Often confused with</em> <strong>[[Transitions/Heel Hook|Heel Hook]]</strong> — the Heel Hook attacks the knee via the heel — a different joint</p>
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Submissions/Heel Hook|Heel Hook]]</strong> — the Heel Hook attacks the knee via the heel — a different joint</p>
 </aside>
 <section id="overview" class="content-section">
 
@@ -143,13 +143,13 @@ What makes the Toe Hold particularly dangerous and effective is the speed at whi
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Heel Hook]] - Primary leg lock attacking knee through rotational pressure, often combined in leg attack sequences from identical entanglements
+- [[Submissions/Heel Hook]] - Primary leg lock attacking knee through rotational pressure, often combined in leg attack sequences from identical entanglements
 - [[Submissions/Inside Heel Hook]] - Inside heel attack frequently chained with Toe Hold when opponent defends one to expose the other
-- [[Transitions/Outside Heel Hook]] - Outside heel attack creating submission dilemmas when combined with Toe Hold threats from shared positions
+- [[Submissions/Outside Heel Hook]] - Outside heel attack creating submission dilemmas when combined with Toe Hold threats from shared positions
 - [[Submissions/Achilles Lock]] - Alternative ankle attack using compression rather than rotation, common fallback when Toe Hold is defended
 - [[Transitions/Kneebar]] - Complementary leg lock attacking knee hyperextension, creates submission dilemmas in leg entanglement exchanges
 - [[Submissions/Calf Slicer]] - Compression-based leg attack combinable with Toe Hold from overlapping leg entanglement positions
-- [[Transitions/Estima Lock]] - Foot lock attacking the instep, alternative finishing option from similar guard passing and entanglement positions
+- [[Submissions/Estima Lock]] - Foot lock attacking the instep, alternative finishing option from similar guard passing and entanglement positions
 - [[Transitions/Aoki Lock]] - Advanced leg submission with unique rotational mechanics, combinable in leg attack chains from shared entanglements
 - [[Positions/Ashi Garami]] - Primary starting position for Toe Hold application with inside leg control
 - [[Positions/Ashi Garami/50-50 Guard]] - Symmetrical leg entanglement position allowing Toe Hold attacks from both top and bottom

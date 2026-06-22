@@ -242,7 +242,7 @@ The guillotine setup occupies a critical junction point in the BJJ positional hi
 
 - [[Transitions/Front Headlock to Guillotine]] - Direct follow-up transition from front headlock to guillotine finish
 
-- [[Transitions/Guillotine Choke]] - Primary submission finish after successful guillotine setup
+- [[Submissions/Guillotine Choke]] - Primary submission finish after successful guillotine setup
 
 - [[Submissions/High Elbow Guillotine]] - Submission variation using elevated elbow mechanics
 

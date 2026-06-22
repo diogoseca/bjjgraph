@@ -243,7 +243,7 @@ The technique is especially valuable in no-gi contexts where maintaining traditi
 ## Related
 - [[Submissions/Kimura]]
 - [[Submissions/Arm Crush]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Americana]]
 - [[Submissions/Bicep Slicer]]
 - [[Submissions/Far Side Armbar]]

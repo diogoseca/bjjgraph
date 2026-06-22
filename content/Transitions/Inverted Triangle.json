@@ -13,15 +13,15 @@
     "inverted",
     "entry-guide"
   ],
-  "from_position": "Triangle Control/Bottom",
+  "from_position": "Triangle Escape Position/Bottom",
   "outcomes": [
     {
-      "to": "Inverted Triangle",
+      "to": "Triangle Control/Bottom",
       "probability": 55,
       "result": "success"
     },
     {
-      "to": "Triangle Control/Bottom",
+      "to": "Triangle Escape Position/Bottom",
       "probability": 30,
       "result": "failure"
     },

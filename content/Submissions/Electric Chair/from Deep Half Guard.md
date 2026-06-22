@@ -265,11 +265,11 @@ Historically developed and refined within the 10th Planet system, the Electric C
 - [[Submissions/Twister]]
 - [[Transitions/Kneebar]]
 - [[Submissions/Toe Hold]]
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Straight Ankle Lock]]
 - [[Submissions/Achilles Lock]]
 - [[Submissions/Boston Crab]]
-- [[Transitions/Estima Lock]]
+- [[Submissions/Estima Lock]]
 - [[Positions/Half Guard/Lockdown]] - Primary starting position - Electric Chair is signature submission from lockdown control
 - [[Positions/Half Guard/Old School]] - Alternative attack from same lockdown setup; often used when Electric Chair is defended
 - [[Positions/Twister Control/Truck]] - Advanced position transition available from Electric Chair defensive reactions

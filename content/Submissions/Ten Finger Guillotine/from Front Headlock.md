@@ -245,7 +245,7 @@ Strategically, this submission sits at the intersection of front headlock contro
 - [[Submissions/Ten Finger Guillotine]]
 - [[Submissions/High Elbow Guillotine]]
 - [[Submissions/Arm in Guillotine]]
-- [[Transitions/Guillotine Choke]]
+- [[Submissions/Guillotine Choke]]
 - [[Submissions/Chin Strap Guillotine]]
 - [[Positions/Guillotine Control]] - Intermediate control position established during grip transition from front headlock
 - [[Positions/Front Headlock]] - Starting control position before establishing guillotine grip and ten finger configuration

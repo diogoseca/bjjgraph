@@ -15,7 +15,7 @@
   "from_position": "Hindulotine/Bottom",
   "outcomes": [
     {
-      "to": "High Elbow Guillotine",
+      "to": "Guillotine Control/Top",
       "probability": 58,
       "result": "success"
     },

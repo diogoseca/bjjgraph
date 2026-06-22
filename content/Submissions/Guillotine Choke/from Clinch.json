@@ -28,17 +28,17 @@
       "result": "success"
     },
     {
-      "to": "Guillotine Control",
+      "to": "Guillotine Control/Bottom",
       "probability": 20,
       "result": "failure"
     },
     {
-      "to": "Clinch",
+      "to": "Clinch/Top",
       "probability": 25,
       "result": "failure"
     },
     {
-      "to": "Side Control",
+      "to": "Side Control/Bottom",
       "probability": 15,
       "result": "counter"
     }
@@ -212,25 +212,25 @@
         "counter": "Opponent postures up forcefully to create distance and strip the grip by driving their head upward and straightening their spine",
         "effectiveness": "High",
         "your_response": "Follow their posture by stepping forward and maintaining chest-to-head contact. If they create significant separation, immediately switch to pulling guard to guillotine control where gravity assists. Alternatively, if the grip breaks, transition to a snap down and re-establish front headlock control.",
-        "targets_outcome": "Clinch"
+        "targets_outcome": "Clinch/Top"
       },
       {
         "counter": "Opponent drives forward aggressively, attempting to run through the choke and take the attacker down to pass to side control",
         "effectiveness": "Medium",
         "your_response": "Sprawl your hips back to absorb the drive while maintaining the guillotine grip. If the forward pressure is too strong to resist standing, sit to guard and close your legs around their waist, converting to a ground guillotine finish from closed guard or butterfly guard. The forward drive actually tightens the choke if you maintain proper hip position.",
-        "targets_outcome": "Side Control"
+        "targets_outcome": "Side Control/Bottom"
       },
       {
         "counter": "Opponent uses two-on-one grip fighting to peel the choking hand away from under their chin, creating space in the choke",
         "effectiveness": "High",
         "your_response": "Reinforce your grip by pulling elbows tighter to your ribs and increasing the curl of your wrists. If they successfully create space on one side, switch to an arm-in variation by trapping their peeling arm inside the choke. If the grip is truly compromised, disengage to a snap down or collar tie rather than holding a weak guillotine that wastes energy.",
-        "targets_outcome": "Clinch"
+        "targets_outcome": "Clinch/Top"
       },
       {
         "counter": "Opponent tucks chin tightly to chest and turns their head to the side, blocking the forearm from settling under the jawline",
         "effectiveness": "Medium",
         "your_response": "Drive your wrist deeper by using short pumping motions while increasing chest pressure on the crown of their head. The chin tuck protects momentarily but cannot be maintained indefinitely under increasing pressure. If the chin remains tucked, shift to a high-elbow grip where the elbow rises above their shoulder line, creating an angle that bypasses the chin defense by attacking from above rather than directly under.",
-        "targets_outcome": "Guillotine Control"
+        "targets_outcome": "Guillotine Control/Bottom"
       }
     ],
     "common_errors": [
@@ -363,28 +363,28 @@
       {
         "action": "Immediate posture recovery: Plant both hands on opponent's hips, straighten spine, and drive head upward to break the chest-to-crown seal",
         "when_to_use": "Early in the attack before the grip is fully locked and before the attacker has established chest pressure. Most effective in the first one to two seconds of the attempt.",
-        "targets_outcome": "Clinch",
+        "targets_outcome": "Clinch/Top",
         "if_successful": "Returns both practitioners to neutral clinch position with the guillotine threat neutralized",
         "risk": "If the grip is already deep and locked, posturing up can actually tighten the choke by extending your neck into the forearm"
       },
       {
         "action": "Two-on-one grip strip: Use both hands to peel the attacker's choking wrist away from under your chin, pulling the forearm toward your chest to create space",
         "when_to_use": "When the attacker has the grip locked but has not yet established full chest pressure or hip fulcrum positioning. Effective when you can access the choking wrist.",
-        "targets_outcome": "Clinch",
+        "targets_outcome": "Clinch/Top",
         "if_successful": "Breaks the choke entirely, returning to neutral clinch with opportunity to re-engage on your terms",
         "risk": "Committing both hands to grip stripping leaves you unable to frame against the attacker's body, allowing them to adjust and re-establish the grip"
       },
       {
         "action": "Forward drive to side control: Drop your level, drive your shoulder into the attacker's hip, and bulldoze them backward while stepping past their hip to achieve side control",
         "when_to_use": "When the guillotine grip is deep and locked, posture recovery has failed, and you need to change the dynamics before the choke finishes. Commit fully to the forward drive.",
-        "targets_outcome": "Side Control",
+        "targets_outcome": "Side Control/Bottom",
         "if_successful": "You pass to side control where the guillotine becomes extremely difficult to maintain, and the attacker risks a Von Flue choke counter",
         "risk": "The forward drive temporarily tightens the choke as you move into it. If you stall mid-drive without completing the pass, you end up in a worse position with more choking pressure."
       },
       {
         "action": "Circle to arm-in side and extract head: Turn your body toward the same side as the attacker's choking arm while tucking chin, creating angle that loosens the grip",
         "when_to_use": "When the choke is partially set but the attacker has not achieved the high-elbow position. Circling to the arm-in side creates slack on the choking forearm.",
-        "targets_outcome": "Clinch",
+        "targets_outcome": "Clinch/Top",
         "if_successful": "Creates enough angle to extract your head from the choke and return to neutral clinch",
         "risk": "If the attacker reads the circle and adjusts their angle, they can switch to an arm-in variation that traps your near arm inside the choke"
       }
@@ -396,11 +396,11 @@
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Side Control",
+        "outcome": "Side Control/Bottom",
         "how": "Drive forward through the guillotine attempt, stepping past the attacker's hip to establish side control. From here the guillotine is nearly impossible to maintain and you can apply a Von Flue choke as a powerful counter-submission."
       },
       {
-        "outcome": "Clinch",
+        "outcome": "Clinch/Top",
         "how": "Strip the choking grip early using posture recovery and two-on-one hand fighting before the attacker establishes full chest pressure and hip positioning. Return to neutral clinch where you can re-engage with grip fighting advantage."
       }
     ],

@@ -255,9 +255,9 @@ The underhook pass is a cornerstone technique in the pressure passing system and
 
 - [[Transitions/Kimura from Half Guard]] - Submission threat when opponent defends with frames
 
-- [[Transitions/Darce Choke]] - Submission option when opponent turns into underhook
+- [[Submissions/Darce Choke]] - Submission option when opponent turns into underhook
 
-- [[Transitions/Arm Triangle]] - Submission finish from crossface pressure position
+- [[Submissions/Arm Triangle]] - Submission finish from crossface pressure position
 
 - [[Transitions/Half Guard Pass]] - Parent category of passing techniques
 

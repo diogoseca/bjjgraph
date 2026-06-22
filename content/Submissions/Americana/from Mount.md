@@ -261,7 +261,7 @@ The Americana from Mount serves as a cornerstone technique in any top game arsen
 - [[Submissions/Americana]]
 - [[Submissions/Kimura]]
 - [[Submissions/Far Side Armbar]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Cross Collar Choke]]
 - [[Submissions/Flying Armbar]]
 - [[Submissions/Gift Wrap Armbar]]

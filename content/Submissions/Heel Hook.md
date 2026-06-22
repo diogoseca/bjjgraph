@@ -136,12 +136,12 @@ Successful heel hook application demands mastery of positional control, understa
 
 ## Related
 - [[Submissions/Inside Heel Hook]] - Inside variation targeting knee ligaments through internal rotation from Saddle and Inside Ashi-Garami
-- [[Transitions/Outside Heel Hook]] - Outside variation attacking through external rotation from Outside Ashi-Garami and Cross Ashi-Garami
+- [[Submissions/Outside Heel Hook]] - Outside variation attacking through external rotation from Outside Ashi-Garami and Cross Ashi-Garami
 - [[Transitions/Kneebar]] - Alternative leg lock from similar entanglements when heel is hidden and opponent straightens leg
 - [[Submissions/Toe Hold]] - Complementary foot lock that chains with heel hook when opponent defends rotation
 - [[Submissions/Straight Ankle Lock]] - Lower-risk leg lock sharing positional requirements from ashi-garami positions
 - [[Submissions/Calf Slicer]] - Compression lock available from similar leg entanglements as secondary attack
-- [[Transitions/Estima Lock]] - Foot lock variation targeting ankle from similar guard passing scenarios
+- [[Submissions/Estima Lock]] - Foot lock variation targeting ankle from similar guard passing scenarios
 - [[Submissions/Achilles Lock]] - Related ankle submission sharing straight-line finishing mechanics from ashi-garami
 - [[Positions/Leg Entanglement]] - Foundational principle governing all heel hook positions and control mechanics
 - [[Positions/X-Guard]] - Common entry position for leg entanglements leading to heel hook opportunities

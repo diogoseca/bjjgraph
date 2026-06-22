@@ -242,7 +242,7 @@ Strategically, the inverted triangle adds a critical dimension to the triangle s
 - [[Submissions/Triangle Choke]]
 - [[Transitions/Gogoplata]]
 - [[Submissions/Armbar]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Positions/Triangle Control]] - Starting position for this submission variant
 - [[Positions/Closed Guard]] - Common guard position leading to triangle control establishment
 - [[Positions/Armbar Control]] - Alternative attack position from triangle control submission chain

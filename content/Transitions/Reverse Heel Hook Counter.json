@@ -24,7 +24,7 @@
       "result": "failure"
     },
     {
-      "to": "Heel Hook",
+      "to": "Saddle/Bottom",
       "probability": 20,
       "result": "counter"
     }
@@ -133,10 +133,10 @@
     ],
     "common_counters": [
       {
-        "counter": "Opponent accelerates their heel hook finish before you can establish counter position, forcing you to tap or accept injury",
+        "counter": "Opponent accelerates their heel hook finish before you can establish counter position, deepening into saddle control as you defend",
         "effectiveness": "High",
-        "your_response": "If opponent accelerates, abandon counter and prioritize heel defense. Resume systematic escape rather than racing to a losing exchange.",
-        "targets_outcome": "Heel Hook"
+        "your_response": "If opponent accelerates, abandon counter and prioritize heel defense. Concede position to saddle if needed rather than racing to a losing exchange.",
+        "targets_outcome": "Saddle/Bottom"
       },
       {
         "counter": "Opponent withdraws attacking leg when sensing counter attempt, returning to neutral entanglement",
@@ -281,8 +281,8 @@
       {
         "action": "Accelerate heel hook finish before counter-entanglement is established",
         "when_to_use": "When you already have a deep heel grip and opponent is only beginning their counter rotation—your positional advantage is clear",
-        "targets_outcome": "Heel Hook",
-        "if_successful": "You finish the heel hook before opponent can establish inside ashi on your leg, ending the exchange in your favor",
+        "targets_outcome": "Saddle/Bottom",
+        "if_successful": "You deepen into saddle control and finish the heel hook before opponent can establish inside ashi on your leg, ending the exchange in your favor",
         "risk": "If your grip is not as deep as you believe, racing to finish creates a chaotic exchange where both practitioners may be injured"
       },
       {
@@ -309,8 +309,8 @@
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Heel Hook",
-        "how": "Accelerate your heel hook finish when you detect the counter attempt but already have deep grip control. Your positional advantage from the original ushiro top position means your grip was established first—commit to the finish before their counter-entanglement becomes dangerous."
+        "outcome": "Saddle/Bottom",
+        "how": "Accelerate your heel hook finish and deepen into saddle control when you detect the counter attempt but already have deep grip control. Your positional advantage from the original ushiro top position means your grip was established first—commit to the finish before their counter-entanglement becomes dangerous."
       },
       {
         "outcome": "Ushiro Ashi-Garami/Bottom",

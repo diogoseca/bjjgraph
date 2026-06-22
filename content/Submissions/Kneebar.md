@@ -141,13 +141,13 @@ The technique has evolved significantly with modern leg lock systems, particular
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Heel Hook]] - Primary alternative leg attack from same entanglements, creates dilemma-based offense with kneebar
+- [[Submissions/Heel Hook]] - Primary alternative leg attack from same entanglements, creates dilemma-based offense with kneebar
 - [[Submissions/Straight Ankle Lock]] - Foundational leg lock from similar positions, often first attack before advancing to kneebar
 - [[Submissions/Toe Hold]] - Complementary foot lock from similar leg entanglements, rotational attack versus kneebar's linear force
 - [[Submissions/Inside Heel Hook]] - Primary rotational attack when opponent defends kneebar by bending knee and exposing heel
-- [[Transitions/Outside Heel Hook]] - Alternative heel attack from outside ashi positions where kneebar is also available
+- [[Submissions/Outside Heel Hook]] - Alternative heel attack from outside ashi positions where kneebar is also available
 - [[Submissions/Calf Slicer]] - Compression attack from similar positions, often available when kneebar angle is compromised
-- [[Transitions/Estima Lock]] - Foot lock attacking from different angle, available during kneebar defense transitions
+- [[Submissions/Estima Lock]] - Foot lock attacking from different angle, available during kneebar defense transitions
 - [[Submissions/Achilles Lock]] - Straight ankle attack from overlapping leg entanglement positions
 - [[Submissions/Flying Kneebar]] - Dynamic standing entry variation of the kneebar submission
 - [[Positions/Ashi Garami/Saddle]] - Primary control position for kneebar entries, offers transitions between kneebar and heel hook attacks

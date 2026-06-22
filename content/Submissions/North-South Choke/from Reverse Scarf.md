@@ -248,7 +248,7 @@ Strategically, this submission serves as the primary threat from reverse scarf h
 ## Related
 - [[Submissions/Americana]]
 - [[Submissions/Kimura]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Kesa Gatame Arm Crush]]
 - [[Submissions/Ezekiel Choke]]
 - [[Submissions/Breadcutter Choke]]

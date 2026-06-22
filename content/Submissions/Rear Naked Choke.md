@@ -136,12 +136,12 @@ The Rear Naked Choke (RNC) is widely considered the highest-percentage submissio
 - [[Submissions/Belly Down Armbar]] - Arm attack from back control when opponent turns belly down to escape
 - [[Submissions/Bow and Arrow Choke]] - Alternative high-percentage gi choke from back control using collar and leg leverage
 - [[Transitions/Clock Choke]] - Collar choke alternative from turtle and back control transitions
-- [[Transitions/Arm Triangle]] - Choke option during failed back control to front-facing transitions
-- [[Transitions/Guillotine Choke]] - Front headlock choke in scrambles when opponent escapes back control forward
+- [[Submissions/Arm Triangle]] - Choke option during failed back control to front-facing transitions
+- [[Submissions/Guillotine Choke]] - Front headlock choke in scrambles when opponent escapes back control forward
 - [[Submissions/Ezekiel Choke]] - Surprise inside choke variation available from back control position
 - [[Submissions/Cross Collar Choke]] - Gi-based choke alternative from back control using cross-collar grips
 - [[Submissions/Baseball Bat Choke]] - Cross-grip gi choke alternative from back control
-- [[Transitions/Darce Choke]] - Arm-in choke from front headlock when opponent turtles during back escape
+- [[Submissions/Darce Choke]] - Arm-in choke from front headlock when opponent turtles during back escape
 - [[Positions/Back Control]] - Primary attacking position for this submission
 - [[Positions/Gift Wrap]] - Control position that traps one arm, making neck defense difficult
 - [[Positions/Harness]] - Alternative back control grip system for controlling opponent

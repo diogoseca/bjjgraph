@@ -242,7 +242,7 @@ At the highest levels of competition, the arm triangle from side control remains
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Transitions/Anaconda Choke]]
 - [[Positions/Side Control]] - Starting position where the arm triangle setup begins through crossface pressure and arm trapping
 - [[Positions/Mount]] - Alternative dominant position to advance to if arm triangle setup stalls

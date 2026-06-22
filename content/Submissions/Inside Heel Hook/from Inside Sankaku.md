@@ -243,10 +243,10 @@ Success depends on patience and systematic control breakdown rather than explosi
 
 ## Related
 - [[Submissions/Inside Heel Hook]]
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Positions/Aoki Lock Control]]
 - [[Submissions/Calf Slicer]]
-- [[Transitions/Estima Lock]]
+- [[Submissions/Estima Lock]]
 - [[Positions/Inside Sankaku]] - Starting position providing the entanglement structure for this finish
 - [[Positions/Ashi Garami/Honey Hole]] - Alternative name for the Inside Sankaku position used in many leg lock systems
 - [[Positions/Ashi Garami/Saddle]] - Related entanglement that can be transitioned to when Inside Sankaku control is lost

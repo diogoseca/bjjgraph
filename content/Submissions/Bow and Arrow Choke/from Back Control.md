@@ -245,7 +245,7 @@ Strategically, the bow and arrow choke serves as the premier gi-specific attack 
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/Cross Collar Choke]]
 - [[Transitions/Clock Choke]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Ezekiel Choke]]
 - [[Positions/Back Control]] - Starting position providing hooks and seatbelt control for choke setup
 - [[Positions/Back Control/Seat Belt Control Back]] - Specific grip configuration used to initiate collar access for the choke

@@ -230,7 +230,7 @@ The critical finishing mechanics rely on three elements working in concert: perp
 - [[Submissions/Omoplata]]
 - [[Transitions/Gogoplata]]
 - [[Submissions/Rear Triangle Choke]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Positions/Open Guard]] - Primary starting position providing hip mobility for triangle entries
 - [[Positions/Spider Guard]] - Common guard variation with sleeve control that sets up triangle through arm isolation
 - [[Positions/Closed Guard]] - Alternative starting position with classic triangle setup sequences

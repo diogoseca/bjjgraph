@@ -240,10 +240,10 @@ Within the modern leg lock hierarchy, the toe hold from Toe Hold Control functio
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
 - [[Submissions/Achilles Lock]]
-- [[Transitions/Estima Lock]]
+- [[Submissions/Estima Lock]]
 - [[Transitions/Aoki Lock]]
 - [[Positions/Toe Hold Control]] - Primary control position for executing this submission finish
 - [[Positions/Ashi Garami/Outside Ashi-Garami]] - Common entry position leading to toe hold control and finishing opportunities

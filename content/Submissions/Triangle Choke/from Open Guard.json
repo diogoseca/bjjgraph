@@ -38,7 +38,7 @@
       "result": "failure"
     },
     {
-      "to": "Side Control",
+      "to": "Side Control/Bottom",
       "probability": 25,
       "result": "counter"
     }
@@ -193,7 +193,7 @@
         "counter": "Opponent stacks your body by driving forward and pinning your shoulders to the mat, compressing your spine",
         "effectiveness": "High",
         "your_response": "When stacked, frame on their hip with one hand to create space and use the other to maintain head control. Angle your body to the side rather than accepting the stack square-on. If you can get to your side, the triangle pressure actually increases. Alternatively, transition to omoplata which becomes available when they drive their weight forward.",
-        "targets_outcome": "Side Control"
+        "targets_outcome": "Side Control/Bottom"
       },
       {
         "counter": "Opponent clasps hands together to prevent arm isolation or to create a frame inside the triangle",
@@ -205,7 +205,7 @@
         "counter": "Opponent turns and angles their body to slip their head out while driving toward side control",
         "effectiveness": "Medium",
         "your_response": "If they begin turning, immediately tighten the triangle lock and pull their head back toward your centerline. If they create significant angle, transition to omoplata on the trapped arm as their rotation feeds directly into the omoplata hip position. Their turning defense trades one submission threat for another.",
-        "targets_outcome": "Side Control"
+        "targets_outcome": "Side Control/Bottom"
       }
     ],
     "common_errors": [
@@ -343,7 +343,7 @@
       {
         "action": "Stack the opponent by driving forward, pinning their shoulders to the mat, and compressing their spine to neutralize the squeeze",
         "when_to_use": "When the triangle is already locked and posturing alone is insufficient—drive your trapped-side shoulder into them and walk forward on your toes",
-        "targets_outcome": "Side Control",
+        "targets_outcome": "Side Control/Bottom",
         "if_successful": "Compresses attacker's spine, reduces squeeze power, and creates passing opportunity through the triangle to side control",
         "risk": "Driving forward can tighten the choke if you don't keep your posture elevated during the stack; watch for omoplata transition"
       },
@@ -369,7 +369,7 @@
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Side Control",
+        "outcome": "Side Control/Bottom",
         "how": "Stack the triangle attempt aggressively by driving forward with your shoulder, walk your feet to the far side, and pass through the triangle to establish side control as the attacker's squeeze breaks down under spinal compression"
       },
       {

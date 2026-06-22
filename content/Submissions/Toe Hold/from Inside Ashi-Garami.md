@@ -241,11 +241,11 @@ Inside Ashi-Garami provides a tactically valuable platform for the toe hold beca
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
 - [[Submissions/Achilles Lock]]
 - [[Transitions/Aoki Lock]]
-- [[Transitions/Estima Lock]]
+- [[Submissions/Estima Lock]]
 - [[Submissions/Calf Slicer]]
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Primary starting position for this toe hold variant
 - [[Positions/Ashi Garami/Saddle]] - Advanced leg entanglement for heel hook transitions when toe hold is defended

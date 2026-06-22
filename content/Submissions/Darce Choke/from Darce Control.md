@@ -240,11 +240,11 @@ From a strategic standpoint, the Darce finish from established control carries a
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Darce Choke]]
+- [[Submissions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Japanese Necktie]]
-- [[Transitions/Guillotine Choke]]
+- [[Submissions/Guillotine Choke]]
 - [[Submissions/High Elbow Guillotine]]
 - [[Submissions/Brabo Choke]]
 - [[Positions/Darce Control]] - Primary starting position for this submission finish

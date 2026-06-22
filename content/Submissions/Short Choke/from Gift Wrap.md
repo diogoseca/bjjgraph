@@ -246,7 +246,7 @@ The finishing mechanics rely on shoulder-driven pressure rather than pure arm sq
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/Gift Wrap Armbar]]
 - [[Submissions/Bow and Arrow Choke]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Darce Choke]]
 - [[Transitions/Clock Choke]]
 - [[Positions/Gift Wrap]] - Primary starting position providing arm trap control for the choke
 - [[Positions/Back Control]] - Parent position that Gift Wrap evolves from with added arm isolation

@@ -125,12 +125,12 @@
       "result": "failure"
     },
     {
-      "to": "Standing Position",
+      "to": "Standing Position/Bottom",
       "probability": 15,
       "result": "counter"
     },
     {
-      "to": "Clinch",
+      "to": "Clinch/Bottom",
       "probability": 15,
       "result": "counter"
     }
@@ -232,7 +232,7 @@
         "counter": "Opponent executes hip escape and turns to face attacker, recovering to clinch position",
         "effectiveness": "Medium",
         "your_response": "Follow their rotation by circling in the same direction, maintaining chest contact as a pivot point. If they complete partial rotation, transition to front headlock or snap down rather than fighting to regain back position against their momentum.",
-        "targets_outcome": "Clinch"
+        "targets_outcome": "Clinch/Bottom"
       },
       {
         "counter": "Opponent drops level suddenly to turtle or kneeling position to change the choke angle",
@@ -244,7 +244,7 @@
         "counter": "Opponent executes standing switch or hip reversal to escape behind the attacker",
         "effectiveness": "Low",
         "your_response": "Prevent by maintaining heavy chest-to-back pressure with hips offset to one side. If they initiate the switch, use the choking arm to anchor their upper body and circle your hips to maintain position behind them.",
-        "targets_outcome": "Standing Position"
+        "targets_outcome": "Standing Position/Bottom"
       }
     ],
     "common_errors": [
@@ -396,7 +396,7 @@
       {
         "action": "Hip escape with explosive turn to face opponent",
         "when_to_use": "When opponent's control is loose or their hooks are not secured, creating a window to rotate your hips and shoulders to recover facing position",
-        "targets_outcome": "Clinch",
+        "targets_outcome": "Clinch/Bottom",
         "if_successful": "Recovers facing position and transitions to clinch where back exposure is eliminated and offensive options become available",
         "risk": "If rotation is incomplete, opponent can tighten grips during the turn and establish deeper control or transition to a different choke angle"
       },
@@ -415,11 +415,11 @@
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Standing Position",
+        "outcome": "Standing Position/Bottom",
         "how": "Strip both controlling grips completely through persistent hand fighting, create sufficient separation through hip movement and directional changes, and recover to neutral standing position facing the opponent"
       },
       {
-        "outcome": "Clinch",
+        "outcome": "Clinch/Bottom",
         "how": "Execute successful hip escape and shoulder rotation to face the opponent while breaking their seatbelt grip, transitioning from back exposure to a neutral clinch position where both practitioners face each other"
       }
     ],

@@ -226,9 +226,9 @@ From a competition standpoint, the Estima Lock from Honey Hole functions as a se
 
 ## Related
 - [[Positions/Estima Lock Control]]
-- [[Transitions/Estima Lock]]
+- [[Submissions/Estima Lock]]
 - [[Submissions/Inside Heel Hook]]
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Positions/Aoki Lock Control]]
 - [[Positions/Ashi Garami/Honey Hole]] - Starting position providing inside leg triangle control for this submission
 - [[Positions/Ashi Garami/Saddle]] - Related leg entanglement position with equivalent attack access

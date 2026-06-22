@@ -256,7 +256,7 @@ Strategically, the guillotine finish from control forces a binary defensive dile
 - [[Submissions/High Elbow Guillotine]]
 - [[Submissions/Arm in Guillotine]]
 - [[Submissions/Chin Strap Guillotine]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
 - [[Submissions/Von Flue Choke]]
 - [[Submissions/Japanese Necktie]]

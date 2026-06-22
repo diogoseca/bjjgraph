@@ -242,7 +242,7 @@ The Back Door Escape fits into the Darce defense system as a secondary option af
 
 - [[Positions/Turtle]] - Alternative recovery position
 
-- [[Transitions/Darce Choke]] - Submission being escaped
+- [[Submissions/Darce Choke]] - Submission being escaped
 
 - [[Positions/Anaconda Control]] - Related choke position with similar escape principles
 

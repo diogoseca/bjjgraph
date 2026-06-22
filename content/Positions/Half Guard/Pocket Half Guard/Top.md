@@ -221,7 +221,7 @@ From this position, the top player enjoys significant control advantages, includ
 
 
 **If opponent turns into underhook to defend:**
-- Execute **[[Transitions/Darce Choke/Attacker|Darce Choke]]** → [[Positions/Darce Control]] (Probability: 60%)
+- Execute **[[Submissions/Darce Choke/Attacker|Darce Choke]]** → [[Positions/Darce Control]] (Probability: 60%)
 - Execute **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** → [[Positions/Back Control]] (Probability: 55%)
 - Execute **[[North-South Transition/Attacker|North-South Transition]]** → [[Positions/North-South]] (Probability: 65%)
 

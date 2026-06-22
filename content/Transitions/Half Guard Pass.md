@@ -259,7 +259,7 @@ The half guard pass is a foundational technique within the broader BJJ positiona
 
 - [[Transitions/Kimura from Half Guard]] - Submission option available during passing when opponent extends arm defensively
 
-- [[Transitions/Darce Choke]] - Opportunistic submission when opponent attempts underhook and turns to their side
+- [[Submissions/Darce Choke]] - Opportunistic submission when opponent attempts underhook and turns to their side
 
 - [[Positions/Headquarters Position]] - Transitional position when stepping over half guard legs to access multiple passing angles
 

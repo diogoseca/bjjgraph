@@ -238,7 +238,7 @@ The Darce from turtle is a cornerstone technique in the modern front headlock su
 ## Related Techniques
 
 
-- [[Transitions/Darce Choke]] - Primary submission finish from Darce Control position
+- [[Submissions/Darce Choke]] - Primary submission finish from Darce Control position
 
 - [[Transitions/Anaconda from Turtle]] - Alternative choke sharing same initial front headlock control
 

@@ -247,7 +247,7 @@ This submission demands absolute respect for its injury potential. Rotational fo
 
 ## Related
 - [[Submissions/Inside Heel Hook]]
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Calf Slicer]]
 - [[Transitions/Aoki Lock]]
 - [[Submissions/Achilles Lock]]

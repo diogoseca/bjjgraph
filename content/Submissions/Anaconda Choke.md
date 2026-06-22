@@ -76,7 +76,7 @@ description: "Master the Anaconda Choke in BJJ. Complete guide covering setup fr
 > Anaconda Choke targets the Carotid arteries and trachea. Primary risk: Loss of consciousness from carotid artery compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <aside class="entity-relations">
-<p class="often-confused-with"><em>Often confused with</em> <strong>[[Transitions/Darce Choke|Darce Choke]]</strong> — the D&#39;Arce threads under the opponent&#39;s near arm — opposite arm threading</p>
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Submissions/Darce Choke|Darce Choke]]</strong> — the D&#39;Arce threads under the opponent&#39;s near arm — opposite arm threading</p>
 </aside>
 <section id="overview" class="content-section">
 
@@ -129,9 +129,9 @@ The technique has become a staple in modern BJJ competition, with the Anaconda-t
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Darce Choke]] - Sister arm-in choke with reversed arm threading direction sharing identical setups
-- [[Transitions/Guillotine Choke]] - Front headlock choke family sharing common entries from turtle and sprawl
-- [[Transitions/Arm Triangle]] - Arm-in choke family with similar bilateral carotid compression mechanics
+- [[Submissions/Darce Choke]] - Sister arm-in choke with reversed arm threading direction sharing identical setups
+- [[Submissions/Guillotine Choke]] - Front headlock choke family sharing common entries from turtle and sprawl
+- [[Submissions/Arm Triangle]] - Arm-in choke family with similar bilateral carotid compression mechanics
 - [[Submissions/Rear Naked Choke]] - Blood choke targeting same carotid arteries from rear control position
 - [[Submissions/Brabo Choke]] - Gi-specific arm-in choke variation from front headlock and passing positions
 - [[Submissions/Arm in Guillotine]] - Arm-in guillotine variation with shared front headlock entries and transitions

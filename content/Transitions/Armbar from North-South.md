@@ -241,7 +241,7 @@ The Armbar from North-South is a cornerstone attack within the North-South contr
 
 - [[Transitions/North-South to Kimura]] - Complementary attack creating offensive dilemma
 
-- [[Transitions/North-South Choke]] - Alternative submission from same starting position
+- [[Submissions/North-South Choke]] - Alternative submission from same starting position
 
 - [[Transitions/Armbar from Crucifix]] - Related armbar entry from alternative controlling position
 

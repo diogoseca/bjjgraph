@@ -249,7 +249,7 @@ Limp Leg Extraction to Half Guard serves as a cornerstone defensive technique wi
 
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Related leg entanglement position with similar escape principles
 
-- [[Transitions/Heel Hook]] - Primary submission threat being defended during extraction
+- [[Submissions/Heel Hook]] - Primary submission threat being defended during extraction
 
 - [[Transitions/Counter-entangle to 50-50 Guard]] - Alternative defensive option when extraction is blocked
 

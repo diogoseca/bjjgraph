@@ -353,7 +353,7 @@ Start in established dead orchard control bottom position. Bottom player works t
 - **[[Positions/Guillotine Control]]** - Alternative submission threat from same control framework
 - **[[Positions/Closed Guard]]** - Primary escape target - most achievable defensive goal
 - **[[Transitions/Anaconda Choke]]** - Primary submission threat requiring specific defense
-- **[[Transitions/Darce Choke]]** - Secondary submission threat with different mechanics
+- **[[Submissions/Darce Choke]]** - Secondary submission threat with different mechanics
 - **[[Transitions/Shrimp Escape]]** - Essential escape technique from compressed positions
 - **[[Positions/Half Guard]]** - Secondary escape target accessible via granby roll
 

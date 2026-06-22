@@ -227,7 +227,7 @@ From a strategic standpoint, the Kimura from Kesa Gatame creates a powerful subm
 - [[Submissions/Kimura]]
 - [[Submissions/Americana]]
 - [[Submissions/Kesa Gatame Arm Crush]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Ezekiel Choke]]
 - [[Positions/Side Control/Kesa Gatame]] - Primary starting position for this submission variant

@@ -240,7 +240,7 @@ Strategically, the heel hook from outside Ashi serves a dual purpose. As a direc
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
 - [[Transitions/Aoki Lock]]
 - [[Submissions/Achilles Lock]]

@@ -245,7 +245,7 @@ The kneebar to 50-50 transition occupies a critical juncture in the modern leg a
 
 - [[Positions/Half Guard]] - Counter outcome position when defender successfully escapes during transition
 
-- [[Transitions/Heel Hook]] - Primary submission available from 50-50 top after successful transition
+- [[Submissions/Heel Hook]] - Primary submission available from 50-50 top after successful transition
 
 - [[Transitions/Back Take from 50-50]] - Follow-up positional advancement from established 50-50 when submissions are defended
 

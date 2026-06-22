@@ -15,7 +15,7 @@
   "from_position": "Straight Ankle Lock Control/Bottom",
   "outcomes": [
     {
-      "to": "Straight Ankle Lock",
+      "to": "Straight Ankle Lock from Straight Ankle Lock Control",
       "probability": 55,
       "result": "success"
     },

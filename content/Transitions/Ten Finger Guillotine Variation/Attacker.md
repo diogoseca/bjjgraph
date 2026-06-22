@@ -237,7 +237,7 @@ The Ten Finger Guillotine Variation from the attacker's perspective requires pre
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Submissions/Ten Finger Guillotine]] | 55% |
+| Success | [[Ten Finger Guillotine from Guillotine Control]] | 55% |
 | Failure | [[Positions/Guillotine Control]] | 30% |
 | Counter | [[Positions/Closed Guard]] | 15% |
 

@@ -243,13 +243,13 @@ The strategic value lies in the dilemma this creates within the Hindulotine atta
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Arm Triangle]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Arm Triangle]]
+- [[Submissions/Darce Choke]]
 - [[Positions/Hindulotine]]
 - [[Submissions/High Elbow Guillotine]]
 - [[Transitions/Anaconda Choke]]
 - [[Submissions/Japanese Necktie]]
-- [[Transitions/Guillotine Choke]]
+- [[Submissions/Guillotine Choke]]
 - [[Submissions/Arm in Guillotine]]
 - [[Positions/Guillotine Control]] - Related control position with standard guillotine mechanics
 - [[Positions/Front Headlock]] - Common entry position for head-and-arm attacks

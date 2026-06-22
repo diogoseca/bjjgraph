@@ -249,7 +249,7 @@ The Double Underhook Pass represents one of three primary pathways from Crackhea
 
 - [[Submissions/Kimura]] - Follow-up submission from pass completion
 
-- [[Transitions/Arm Triangle]] - Follow-up submission from pass completion
+- [[Submissions/Arm Triangle]] - Follow-up submission from pass completion
 
 
 </section>

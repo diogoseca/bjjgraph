@@ -226,11 +226,11 @@ Backside 50-50 Bottom is common in no-gi grappling and leg lock-focused competit
 
 **If opponent overcommits to leg attack and releases upper body control:**
 - Execute **[[Transitions/Counter-entangle to 50-50 Guard/Attacker|Counter-entangle to 50-50 Guard]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 55%)
-- Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[game-over]] (Probability: 40%)
+- Execute **[[Submissions/Heel Hook/Attacker|Heel Hook]]** → [[game-over]] (Probability: 40%)
 
 
 **If opponent maintains tight leg entanglement but extends their attacking leg:**
-- Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[game-over]] (Probability: 50%)
+- Execute **[[Submissions/Heel Hook/Attacker|Heel Hook]]** → [[game-over]] (Probability: 50%)
 - Execute **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** → [[game-over]] (Probability: 45%)
 
 
@@ -352,7 +352,7 @@ Both partners in backside 50-50 (alternating top/bottom) practice attacking and 
 - **[[Positions/Ashi Garami/Saddle]]** - Common transition target when opponent advances from backside 50-50 top
 - **[[Positions/Back Control]]** - Major defensive concern - position opponent may transition to from backside 50-50 top
 - **[[Positions/Leg Entanglement]]** - Fundamental concept governing mechanics of all 50-50 variations
-- **[[Transitions/Heel Hook]]** - Primary submission transition available from this position
+- **[[Submissions/Heel Hook]]** - Primary submission transition available from this position
 - **[[Positions/X-Guard]]** - Alternative leg entanglement position accessible through proper transitions
 - **[[Positions/Open Guard]]** - Recovery position when successfully escaping leg entanglement
 

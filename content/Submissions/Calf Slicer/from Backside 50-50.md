@@ -238,7 +238,7 @@ This submission serves as a critical secondary threat within the backside 50-50 
 
 ## Related
 - [[Submissions/Calf Slicer]]
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
 - [[Submissions/Banana Split]]
 - [[Submissions/Bicep Slicer]]

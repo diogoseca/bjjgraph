@@ -137,10 +137,10 @@ Advanced practitioners excel at chaining the Loop Choke with other collar attack
 - [[Submissions/Bow and Arrow Choke]] - Alternative collar choke transition when opponent defends loop choke by turning
 - [[Submissions/Breadcutter Choke]] - Similar collar-based blood choke using different finishing mechanics
 - [[Transitions/Clock Choke]] - Complementary turtle collar attack sharing similar grip mechanics
-- [[Transitions/Guillotine Choke]] - Alternative front headlock choke sharing deceptive entry characteristics
-- [[Transitions/Arm Triangle]] - Shoulder pressure choke that can be chained from failed loop choke attempts
+- [[Submissions/Guillotine Choke]] - Alternative front headlock choke sharing deceptive entry characteristics
+- [[Submissions/Arm Triangle]] - Shoulder pressure choke that can be chained from failed loop choke attempts
 - [[Submissions/Americana]] - Joint lock threat creating submission dilemmas from mount alongside loop choke
-- [[Transitions/Darce Choke]] - Related head-and-arm choke sharing positional overlap from turtle and side control
+- [[Submissions/Darce Choke]] - Related head-and-arm choke sharing positional overlap from turtle and side control
 - [[Positions/Mount]] - Primary top position for establishing loop choke setups with dominant control
 - [[Positions/Side Control]] - Alternative attacking position allowing collar access with chest pressure control
 - [[Positions/Turtle]] - Defensive position vulnerable to loop choke attacks from back exposure

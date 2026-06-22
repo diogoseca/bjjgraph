@@ -239,7 +239,7 @@ The kneebar from Backside 50-50 functions as a critical component of modern leg 
 
 - [[Submissions/Inside Heel Hook]] - Complementary attack - kneebar defense exposes heel
 
-- [[Transitions/Outside Heel Hook]] - Alternative leg attack from same position
+- [[Submissions/Outside Heel Hook]] - Alternative leg attack from same position
 
 - [[Submissions/Toe Hold]] - Complementary attack - third option in leg lock dilemma
 

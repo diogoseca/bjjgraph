@@ -243,7 +243,7 @@ The leg drag to north-south transition serves as the third leg of a complete leg
 
 - [[Transitions/Leg Drag to Knee on Belly]] - Alternative pressure option from leg drag
 
-- [[Transitions/North-South Choke]] - High-percentage choke available upon consolidation
+- [[Submissions/North-South Choke]] - High-percentage choke available upon consolidation
 
 - [[Transitions/North-South Escape]] - Defender's primary escape technique from target position
 

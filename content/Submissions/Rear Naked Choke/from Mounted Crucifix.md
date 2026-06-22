@@ -248,7 +248,7 @@ Strategically, this submission serves as the primary finishing threat from mount
 ## Related
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/Mounted Crucifix Armbar]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Ezekiel Choke]]
 - [[Positions/Mount/Mounted Crucifix]] - Primary starting position providing arm isolation and mount control for this choke
 - [[Positions/Back Control]] - Alternative position for RNC when mounted crucifix transitions fail

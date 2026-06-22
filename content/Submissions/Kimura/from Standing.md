@@ -251,8 +251,8 @@ The Kimura from Standing represents one of the most versatile shoulder lock appl
 
 ## Related
 - [[Submissions/Kimura]]
-- [[Transitions/Darce Choke]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Darce Choke]]
+- [[Submissions/Arm Triangle]]
 - [[Transitions/Anaconda Choke]]
 - [[Submissions/Japanese Necktie]]
 - [[Submissions/Far Side Armbar]]
@@ -260,7 +260,7 @@ The Kimura from Standing represents one of the most versatile shoulder lock appl
 - [[Submissions/Reverse Kimura]]
 - [[Submissions/Americana]]
 - [[Submissions/Omoplata]]
-- [[Transitions/Guillotine Choke]]
+- [[Submissions/Guillotine Choke]]
 - [[Submissions/Flying Armbar]]
 - [[Positions/Kimura Trap]] - Primary control position when opponent counter-rotates to defend standing Kimura
 - [[Transitions/Rolling Kimura]] - Ground-based variation using similar shoulder lock mechanics with rotational entry

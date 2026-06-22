@@ -123,16 +123,16 @@ Unlike traditional arm chokes that rely on conspicuous limb positioning, the Nor
 
 ## Related
 - [[Submissions/Kimura]] - Alternative submission when opponent defends choke by exposing arm
-- [[Transitions/Arm Triangle]] - Mechanically similar blood choke using body pressure and arm positioning
+- [[Submissions/Arm Triangle]] - Mechanically similar blood choke using body pressure and arm positioning
 - [[Submissions/Breadcutter Choke]] - Alternative gi choke from similar top control positions
 - [[Submissions/Far Side Armbar]] - Submission chain option when transitioning through North-South
 - [[Submissions/Cross Collar Choke]] - Alternative gi choke from top control positions
 - [[Submissions/Ezekiel Choke]] - Alternative choke applicable from similar control positions
-- [[Transitions/Darce Choke]] - Related head and arm choke with similar lateral pressure principles
+- [[Submissions/Darce Choke]] - Related head and arm choke with similar lateral pressure principles
 - [[Transitions/Anaconda Choke]] - Related front headlock choke with similar compression mechanics
 - [[Submissions/Baseball Bat Choke]] - Alternative gi choke from side control transitions
 - [[Submissions/Americana]] - Alternative shoulder lock from North-South control
-- [[Transitions/Guillotine Choke]] - Related front choke with different entry mechanics
+- [[Submissions/Guillotine Choke]] - Related front choke with different entry mechanics
 - [[Positions/North-South]] - Primary position from which this choke is executed
 - [[Positions/Side Control]] - Common transitional position before moving to North-South for the choke
 - [[Positions/Side Control/Kesa Gatame]] - Alternative pinning position with similar body positioning concepts for transitioning to North-South

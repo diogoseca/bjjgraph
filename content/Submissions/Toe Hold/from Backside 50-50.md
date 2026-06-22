@@ -225,9 +225,9 @@ In competition, the toe hold from Backside 50-50 serves as both a primary finish
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
-- [[Transitions/Estima Lock]]
+- [[Submissions/Estima Lock]]
 - [[Submissions/Calf Slicer]]
 - [[Submissions/Achilles Lock]]
 - [[Positions/Ashi Garami/Backside 50-50]] - Primary starting position providing chest-to-back pressure advantage

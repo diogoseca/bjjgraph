@@ -254,7 +254,7 @@ The Turtle to Standing transition occupies a critical node in the BJJ defensive 
 
 - [[Positions/Standing Position]] - Target neutral position upon successful completion
 
-- [[Transitions/Guillotine Choke]] - Primary submission threat during the rising phase of this escape
+- [[Submissions/Guillotine Choke]] - Primary submission threat during the rising phase of this escape
 
 - [[Transitions/Peterson Roll]] - Alternative escape option chained when stand-up is blocked
 
@@ -264,7 +264,7 @@ The Turtle to Standing transition occupies a critical node in the BJJ defensive 
 
 - [[Transitions/Anaconda Choke]] - Front headlock submission threat when neck is exposed during stand
 
-- [[Transitions/Darce Choke]] - Arm-in choke threat if elbow positioning is compromised while rising
+- [[Submissions/Darce Choke]] - Arm-in choke threat if elbow positioning is compromised while rising
 
 
 </section>

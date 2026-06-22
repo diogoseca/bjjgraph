@@ -76,7 +76,7 @@ From a system perspective, the arm-in guillotine connects directly to the broade
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Submissions/Arm in Guillotine]] | 55% |
+| Success | [[Arm in Guillotine from Guillotine Control]] | 55% |
 | Failure | [[Positions/Guillotine Control]] | 25% |
 | Counter | [[Positions/Closed Guard]] | 20% |
 

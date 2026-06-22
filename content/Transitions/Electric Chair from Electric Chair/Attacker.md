@@ -239,7 +239,7 @@ The Electric Chair from the attacker's perspective is a methodical submission th
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 45% |
+| Success | [[Positions/Mount]] | 45% |
 | Failure | [[Positions/Half Guard/Electric Chair]] | 35% |
 | Counter | [[Positions/Half Guard]] | 20% |
 

@@ -237,12 +237,12 @@ Strategically, the kneebar from kneebar control functions as the terminal submis
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
 - [[Submissions/Achilles Lock]]
 - [[Submissions/Calf Slicer]]
 - [[Submissions/Flying Kneebar]]
-- [[Transitions/Estima Lock]]
+- [[Submissions/Estima Lock]]
 - [[Positions/Kneebar Control]] - Starting control position for this submission finish
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Primary leg entanglement entry leading to kneebar control
 - [[Positions/Ashi Garami/Saddle]] - Alternative leg entanglement position when opponent defends kneebar by rotating

@@ -241,7 +241,7 @@ Strategically, this submission represents the culmination of a mount attack sequ
 - [[Submissions/Triangle Choke]]
 - [[Submissions/Armbar]]
 - [[Transitions/Gogoplata]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Transitions/Inverted Triangle]]
 - [[Submissions/Cross Collar Choke]]
 - [[Positions/Mount/Mounted Triangle]] - Starting position for this submission variant

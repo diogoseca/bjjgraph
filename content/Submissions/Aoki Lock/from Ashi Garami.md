@@ -251,13 +251,13 @@ The Aoki Lock, named after Japanese MMA fighter Shinya Aoki, is a sophisticated 
 ## Related
 - [[Transitions/Kneebar]]
 - [[Submissions/Inside Heel Hook]]
-- [[Transitions/Outside Heel Hook]]
+- [[Submissions/Outside Heel Hook]]
 - [[Submissions/Straight Ankle Lock]]
 - [[Submissions/Toe Hold]]
-- [[Transitions/Estima Lock]]
+- [[Submissions/Estima Lock]]
 - [[Submissions/Calf Slicer]]
 - [[Submissions/Achilles Lock]]
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Banana Split]]
 - [[Positions/Ashi Garami]] - Primary position for entry and control
 - [[Positions/Ashi Garami/Honey Hole]] - Alternative leg entanglement for similar attacks

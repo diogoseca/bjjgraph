@@ -265,7 +265,7 @@ The single leg entry should be viewed as part of a larger positional ecosystem t
 
 - [[Positions/Front Headlock]] - Counter position - understanding this threat improves head positioning during entry
 
-- [[Transitions/Guillotine Choke]] - Primary submission threat - awareness of this attack shapes proper head positioning
+- [[Submissions/Guillotine Choke]] - Primary submission threat - awareness of this attack shapes proper head positioning
 
 - [[Transitions/Single Leg to Back Take]] - Advanced finish - one of the highest-percentage completions from established leg control
 

@@ -243,8 +243,8 @@ Strategically, this creates a cascading dilemma system. The opponent must commit
 ## Related
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/Bow and Arrow Choke]]
-- [[Transitions/Arm Triangle]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Arm Triangle]]
+- [[Submissions/Darce Choke]]
 - [[Positions/Harness]] - Primary starting position providing seatbelt grip control
 - [[Positions/Back Control]] - Parent position category with hooks fully established
 - [[Positions/Back Control/Body Triangle]] - Alternative lower body control that pairs with RNC attacks

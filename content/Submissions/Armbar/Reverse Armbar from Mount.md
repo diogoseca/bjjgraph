@@ -259,7 +259,7 @@ The Reverse Armbar is an advanced elbow hyperextension technique distinguished b
 - [[Submissions/Armbar]]
 - [[Submissions/Belly Down Armbar]]
 - [[Transitions/Inverted Triangle]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Monoplata]]
 - [[Transitions/Mount to Armbar]] - Primary transition path, reverse armbar often flows from a failed standard mount armbar attempt
 - [[Positions/Mount/S Mount]] - High-percentage setup position, opponent's escape attempts create reverse armbar opportunities

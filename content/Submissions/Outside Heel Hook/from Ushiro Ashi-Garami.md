@@ -226,10 +226,10 @@ The strategic value lies in converting escape attempts into finishing opportunit
 
 ## Related
 - [[Submissions/Inside Heel Hook]]
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Calf Slicer]]
 - [[Submissions/Achilles Lock]]
-- [[Transitions/Estima Lock]]
+- [[Submissions/Estima Lock]]
 - [[Positions/Ashi Garami/Ushiro Ashi-Garami]] - Primary starting position for this submission variant with reversed entanglement angle
 - [[Positions/Ashi Garami/Outside Ashi-Garami]] - Standard leg entanglement that transitions to ushiro during opponent inversion escapes
 - [[Positions/Ashi Garami/Saddle]] - Higher-control entanglement offering alternative heel hook entries when ushiro control degrades

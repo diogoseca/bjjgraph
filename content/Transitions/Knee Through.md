@@ -249,7 +249,7 @@ The Knee Through pass represents a fundamental element in the pressure passing s
 
 - [[Submissions/Kimura]] - Common submission follow-up after establishing side control from the pass
 
-- [[Transitions/Darce Choke]] - Submission opportunity when opponent turns into you during pass
+- [[Submissions/Darce Choke]] - Submission opportunity when opponent turns into you during pass
 
 - [[Positions/Half Guard/Deep Half Guard]] - Counter position opponent may attempt during leg extraction phase
 

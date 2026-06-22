@@ -243,10 +243,10 @@ The strategic value of this technique lies in its complementary relationship wit
 
 ## Related
 - [[Submissions/Inside Heel Hook]]
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Calf Slicer]]
 - [[Transitions/Aoki Lock]]
-- [[Transitions/Estima Lock]]
+- [[Submissions/Estima Lock]]
 - [[Positions/Ashi Garami/Honey Hole]] - Primary starting position providing inside leg triangle control for this submission
 - [[Positions/Ashi Garami/Saddle]] - Alternative terminology for the same control position used in this attack
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Foundational leg entanglement preceding Honey Hole entry

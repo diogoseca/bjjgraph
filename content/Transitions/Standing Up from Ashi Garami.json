@@ -13,7 +13,7 @@
   "from_position": "Ashi Garami/Bottom",
   "outcomes": [
     {
-      "to": "Standing Position",
+      "to": "Standing Position/Top",
       "probability": 55,
       "result": "success"
     },
@@ -170,7 +170,7 @@
         "counter": "Opponent releases defense and immediately attacks exposed leg during transition",
         "effectiveness": "High",
         "your_response": "Accelerate the stand-up by posting explosively and clearing the leg before they can establish finishing control on the newly exposed limb",
-        "targets_outcome": "Standing Position"
+        "targets_outcome": "Standing Position/Top"
       },
       {
         "counter": "Opponent sits up and establishes open guard hooks on hips as you stand",
@@ -311,7 +311,7 @@
       {
         "action": "Follow the stand-up and return to standing position with grip advantage",
         "when_to_use": "When you prefer standing engagement over continued ground leg lock exchange and can match opponent's standing speed",
-        "targets_outcome": "Standing Position",
+        "targets_outcome": "Standing Position/Top",
         "if_successful": "Both return to standing but you establish grips during the transition, gaining initiative in the new standing exchange",
         "risk": "If opponent stands faster than you, they may establish dominant standing position or grips first"
       },
@@ -325,7 +325,7 @@
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Standing Position",
+        "outcome": "Standing Position/Top",
         "how": "Allow the clean disengagement while preparing to immediately return to standing yourself with advantageous grips. This returns you to neutral standing where you are no longer under leg lock threat—a significant improvement from the defensive ashi garami top position."
       },
       {

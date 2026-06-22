@@ -14,7 +14,7 @@
   "from_position": "Guillotine Control/Top",
   "outcomes": [
     {
-      "to": "Arm in Guillotine",
+      "to": "Arm in Guillotine from Guillotine Control",
       "probability": 55,
       "result": "success"
     },

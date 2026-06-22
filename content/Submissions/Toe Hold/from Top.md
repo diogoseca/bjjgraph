@@ -263,16 +263,16 @@ The toe hold's effectiveness comes from its ability to be applied from dominant 
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
-- [[Transitions/Outside Heel Hook]]
+- [[Submissions/Outside Heel Hook]]
 - [[Submissions/Straight Ankle Lock]]
 - [[Submissions/Flying Kneebar]]
 - [[Transitions/Aoki Lock]]
 - [[Submissions/Toe Hold]]
 - [[Submissions/Achilles Lock]]
 - [[Submissions/Calf Slicer]]
-- [[Transitions/Estima Lock]]
+- [[Submissions/Estima Lock]]
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Primary starting position for toe hold application with fundamental leg control structure
 - [[Positions/Ashi Garami/Outside Ashi-Garami]] - Alternative starting position providing excellent toe hold control and preventing opponent's counter-rotation
 - [[Positions/Ashi Garami/Saddle]] - Advanced leg entanglement position where toe hold serves as alternative to heel hook when heel is defended

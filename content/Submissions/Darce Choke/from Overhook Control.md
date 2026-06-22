@@ -241,9 +241,9 @@ Finishing from overhook control requires attention to body angle and hip positio
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Darce Choke]]
+- [[Submissions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Japanese Necktie]]
 - [[Submissions/High Elbow Guillotine]]
 - [[Submissions/Brabo Choke]]

@@ -237,7 +237,7 @@ Advanced practitioners develop multiple passing pathways and chain them together
 
 **If opponent turns to side and battles for underhook, creating scramble potential:**
 - Execute **[[Submissions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 45%)
-- Execute **[[Transitions/Darce Choke/Attacker|Darce Choke]]** → [[Positions/Darce Control]] (Probability: 40%)
+- Execute **[[Submissions/Darce Choke/Attacker|Darce Choke]]** → [[Positions/Darce Control]] (Probability: 40%)
 
 
 **If opponent attempts to go deep half or recover full guard through hip escape:**
@@ -357,7 +357,7 @@ Partner cycles through different half guard variations (Knee Shield, Lockdown, D
 - **[[Positions/Kimura Trap]]** - Submission opportunity when opponent overcommits to underhook battle
 - **[[Transitions/Knee Slice Pass]]** - High-percentage passing technique from half guard top position
 - **[[Transitions/Smash Pass]]** - Pressure-based passing technique effective against knee shield variations
-- **[[Transitions/Darce Choke]]** - Submission entry when opponent turns into crossface during pass attempts
+- **[[Submissions/Darce Choke]]** - Submission entry when opponent turns into crossface during pass attempts
 
 
 </section>

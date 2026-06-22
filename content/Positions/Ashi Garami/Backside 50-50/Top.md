@@ -21,7 +21,7 @@ description: "Master Backside 50-50 Top in BJJ. Complete guide covering dominant
     {
       "@type": "HowToStep",
       "name": "Execute Heel Hook from Backside 50-50",
-      "text": "From this position, attempt Heel Hook from Backside 50-50. This technique is attempted in 36% of exchanges from this position.",
+      "text": "From this position, attempt Heel Hook from Backside 50-50. This technique is attempted in 38% of exchanges from this position.",
       "position": 1
     },
     {
@@ -44,8 +44,8 @@ description: "Master Backside 50-50 Top in BJJ. Complete guide covering dominant
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kneebar from Backside 50-50",
-      "text": "From this position, attempt Kneebar from Backside 50-50. This technique is attempted in 5% of exchanges from this position.",
+      "name": "Execute Kneebar",
+      "text": "From this position, attempt Kneebar. This technique is attempted in 5% of exchanges from this position.",
       "position": 5
     },
     {
@@ -220,8 +220,8 @@ Backside 50-50 Top is commonly seen in no-gi competition and leg lock-focused tr
 <p class="section-subtitle">What should you do from Backside 50-50 (Top)?</p>
 
 **If opponent is primarily defending their back and creating frames to prevent you from walking up their body:**
-- Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[game-over]] (Probability: 50%)
-- Execute **[[Transitions/Outside Heel Hook/Attacker|Outside Heel Hook]]** → [[game-over]] (Probability: 45%)
+- Execute **[[Submissions/Heel Hook/Attacker|Heel Hook]]** → [[game-over]] (Probability: 50%)
+- Execute **[[Submissions/Outside Heel Hook/Attacker|Outside Heel Hook]]** → [[game-over]] (Probability: 45%)
 - Execute **[[Submissions/Toe Hold/Attacker|Toe Hold]]** → [[game-over]] (Probability: 40%)
 
 
@@ -234,7 +234,7 @@ Backside 50-50 Top is commonly seen in no-gi competition and leg lock-focused tr
 **If opponent attempts to sweep by inverting or creating angles with their hips:**
 - Execute **[[Transitions/Back Take from 50-50/Attacker|Back Take from 50-50]]** → [[Positions/Back Control]] (Probability: 60%)
 - Execute **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 55%)
-- Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[game-over]] (Probability: 45%)
+- Execute **[[Submissions/Heel Hook/Attacker|Heel Hook]]** → [[game-over]] (Probability: 45%)
 
 
 **If opponent exposes their near leg by straightening or extending it during escape attempts:**
@@ -362,8 +362,8 @@ Starting from backside 50-50 top, practice finishing sequence for heel hook, out
 - **[[Positions/Back Control]]** - High-percentage advancement option when legs are defended
 - **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - Related leg entanglement with single leg control
 - **[[Positions/Ashi Garami/Honey Hole]]** - Alternative leg entanglement configuration from top
-- **[[Transitions/Heel Hook]]** - Primary submission finish from this position
-- **[[Transitions/Outside Heel Hook]]** - Alternative heel attack option from this position
+- **[[Submissions/Heel Hook]]** - Primary submission finish from this position
+- **[[Submissions/Outside Heel Hook]]** - Alternative heel attack option from this position
 - **[[Submissions/Toe Hold]]** - Complementary leg attack when heel is defended
 
 

@@ -257,7 +257,7 @@ The outside ashi entry serves as a crucial gateway technique in modern leg entan
 
 - [[Submissions/Straight Ankle Lock]] - Primary submission available from outside ashi position
 
-- [[Transitions/Outside Heel Hook]] - Advanced submission option from outside ashi where legal
+- [[Submissions/Outside Heel Hook]] - Advanced submission option from outside ashi where legal
 
 - [[Transitions/Single Leg Entry]] - Traditional technique that can transition to outside ashi if defended
 

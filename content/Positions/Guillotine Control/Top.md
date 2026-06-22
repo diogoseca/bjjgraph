@@ -217,7 +217,7 @@ The strategic value of Guillotine Control Top lies in its versatility—the top 
 <p class="section-subtitle">What should you do from Guillotine Control (Top)?</p>
 
 **If opponent's posture is broken forward and chin is exposed:**
-- Execute **[[Transitions/Guillotine Choke/Attacker|Guillotine Choke]]** → [[game-over]] (Probability: 75%)
+- Execute **[[Submissions/Guillotine Choke/Attacker|Guillotine Choke]]** → [[game-over]] (Probability: 75%)
 - Execute **[[Transitions/High Elbow Guillotine Variation/Attacker|High Elbow Guillotine Variation]]** → [[game-over]] (Probability: 70%)
 
 
@@ -232,7 +232,7 @@ The strategic value of Guillotine Control Top lies in its versatility—the top 
 
 
 **If opponent has arm trapped inside the guillotine:**
-- Execute **[[Transitions/Guillotine Choke/Attacker|Guillotine Choke]]** → [[game-over]] (Probability: 72%)
+- Execute **[[Submissions/Guillotine Choke/Attacker|Guillotine Choke]]** → [[game-over]] (Probability: 72%)
 - Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 68%)
 
 
@@ -361,7 +361,7 @@ Start in guillotine control with partner attempting to close guard, you must mai
 - **[[Positions/Darce Control]]** - Transition target - alternative choke when opponent turns into guillotine
 - **[[Positions/Mount]]** - Transition target - position advancement using guillotine threat
 - **[[Positions/North-South]]** - Transition target - alternative advancement path
-- **[[Transitions/Guillotine Choke]]** - Primary submission - main finishing technique from this position
+- **[[Submissions/Guillotine Choke]]** - Primary submission - main finishing technique from this position
 - **[[Submissions/Chin Strap Guillotine]]** - Submission variation - alternative finishing mechanics with chin control
 - **[[Submissions/Arm in Guillotine]]** - Submission variation - opportunistic variation when arm is trapped
 - **[[Positions/Side Control]]** - Positional advancement - common transition when choke is defended

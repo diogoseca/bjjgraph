@@ -234,7 +234,7 @@ Strategically, this choke pairs exceptionally well with the americana and armbar
 - [[Submissions/Cross Collar Choke]]
 - [[Submissions/Ezekiel Choke]]
 - [[Submissions/Baseball Bat Choke]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Positions/Side Control/Kuzure Kesa-Gatame]] - Primary starting position for this choke variant
 - [[Positions/Side Control]] - Parent position family with shared control principles
 - [[Positions/Side Control/Kesa Gatame]] - Related scarf hold position with alternative choke entries

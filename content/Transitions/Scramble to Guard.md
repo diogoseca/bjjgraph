@@ -254,7 +254,7 @@ Scramble to Guard fits within the broader defensive framework for back exposure 
 
 - [[Transitions/Hip Escape to Guard]] - Component technique - used in final phase of guard recovery
 
-- [[Transitions/Guillotine Choke]] - Counter threat - must be defended during scramble
+- [[Submissions/Guillotine Choke]] - Counter threat - must be defended during scramble
 
 
 </section>

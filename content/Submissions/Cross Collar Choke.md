@@ -136,10 +136,10 @@ The Cross Collar Choke represents one of the most fundamental and effective gi s
 - [[Submissions/Breadcutter Choke]] - Collar choke variation from side control using similar cross collar mechanics
 - [[Transitions/Clock Choke]] - Collar choke from turtle position using rotational finishing pressure
 - [[Submissions/Far Side Armbar]] - Chain attack when opponent extends arms defending collar grips from mount
-- [[Transitions/Guillotine Choke]] - Alternative head and neck choke from front headlock and guard positions
-- [[Transitions/Arm Triangle]] - Head and arm choke available when opponent defends collar access with frames
+- [[Submissions/Guillotine Choke]] - Alternative head and neck choke from front headlock and guard positions
+- [[Submissions/Arm Triangle]] - Head and arm choke available when opponent defends collar access with frames
 - [[Submissions/Americana]] - Shoulder lock from mount when opponent posts arms defending choke entry
-- [[Transitions/Darce Choke]] - Head and arm choke chain when opponent turns to defend collar entries
+- [[Submissions/Darce Choke]] - Head and arm choke chain when opponent turns to defend collar entries
 - [[Transitions/Gogoplata]] - Advanced guard choke using shin pressure as alternative to collar attacks
 - [[Positions/Closed Guard]] - Primary position for attacking Cross Collar Choke from bottom
 - [[Positions/Mount]] - High-percentage position for Cross Collar Choke from top

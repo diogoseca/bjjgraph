@@ -238,8 +238,8 @@ The Kimura from Lasso Guard creates a powerful tactical dilemma. If the bottom p
 - [[Submissions/Kimura]]
 - [[Submissions/Americana]]
 - [[Submissions/Far Side Armbar]]
-- [[Transitions/Arm Triangle]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Arm Triangle]]
+- [[Submissions/Darce Choke]]
 - [[Positions/Lasso Guard]] - Starting position where this Kimura variant is executed from the top player perspective
 - [[Positions/Kimura Trap]] - Control position often reached when opponent partially defends the Kimura and the grip is maintained
 - [[Positions/Spider Guard]] - Related guard position with similar sleeve control mechanics where comparable Kimura opportunities arise

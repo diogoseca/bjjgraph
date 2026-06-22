@@ -257,7 +257,7 @@ The Transition to Quarter Guard occupies a pivotal position in the guard passing
 
 - [[Positions/Headquarters Position]] - Related passing position that can precede or follow quarter guard establishment
 
-- [[Transitions/Darce Choke]] - Submission opportunity that opens when bottom player turns during transition
+- [[Submissions/Darce Choke]] - Submission opportunity that opens when bottom player turns during transition
 
 - [[Submissions/Kimura]] - Submission threat available when bottom player overcommits to underhook recovery
 

@@ -250,7 +250,7 @@ Strategically, the Americana from 3-4 Mount functions as the centerpiece of a su
 - [[Submissions/Ezekiel Choke]]
 - [[Submissions/Cross Collar Choke]]
 - [[Submissions/Far Side Armbar]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Gift Wrap Armbar]]
 - [[Submissions/Flying Armbar]]
 - [[Positions/Mount/3-4 Mount]] - Starting position providing asymmetric base for this submission

@@ -116,11 +116,11 @@ The Brabo Choke is a powerful blood choke from the front headlock position, clos
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Darce Choke]] - Same arm-threading family with different entry angle and grip finish
+- [[Submissions/Darce Choke]] - Same arm-threading family with different entry angle and grip finish
 - [[Transitions/Anaconda Choke]] - Complementary head-and-arm choke with opposite arm threading direction
-- [[Transitions/Guillotine Choke]] - Chain submission when opponent lifts head to defend Brabo threading
-- [[Transitions/Arm Triangle]] - Related shoulder-trap choke using opponent's shoulder as part of mechanism
-- [[Transitions/North-South Choke]] - Alternative blood choke available from similar top control positions
+- [[Submissions/Guillotine Choke]] - Chain submission when opponent lifts head to defend Brabo threading
+- [[Submissions/Arm Triangle]] - Related shoulder-trap choke using opponent's shoulder as part of mechanism
+- [[Submissions/North-South Choke]] - Alternative blood choke available from similar top control positions
 - [[Submissions/Rear Naked Choke]] - Back-take alternative finish when Brabo defense gives up the back
 - [[Submissions/Arm in Guillotine]] - Similar trapped-arm choking mechanism from front headlock position
 - [[Submissions/Ezekiel Choke]] - Alternative choke available from similar controlling positions in gi

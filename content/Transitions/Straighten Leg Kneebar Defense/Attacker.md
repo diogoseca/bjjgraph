@@ -239,7 +239,7 @@ The straighten leg kneebar defense is your primary response when an opponent est
 |--------|----------|-------------|
 | Success | [[Positions/Half Guard]] | 45% |
 | Failure | [[Positions/Kneebar Control]] | 40% |
-| Counter | [[Transitions/Kneebar]] | 15% |
+| Counter | [[Kneebar from Kneebar Control]] | 15% |
 
 
 </section>

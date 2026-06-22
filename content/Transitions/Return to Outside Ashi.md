@@ -238,7 +238,7 @@ Return to Outside Ashi functions as a positional recovery tool within the compre
 
 - [[Positions/Ashi Garami/Honey Hole]] - High-control position accessible from outside ashi
 
-- [[Transitions/Heel Hook]] - Primary submission from the target outside ashi position
+- [[Submissions/Heel Hook]] - Primary submission from the target outside ashi position
 
 - [[Transitions/Kneebar from Ushiro]] - Alternative attack if transition is not viable
 

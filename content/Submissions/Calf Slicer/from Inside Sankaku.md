@@ -241,7 +241,7 @@ The technique carries particular strategic value in competition because opponent
 ## Related
 - [[Submissions/Calf Slicer]]
 - [[Submissions/Inside Heel Hook]]
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Bicep Slicer]]
 - [[Submissions/Banana Split]]
 - [[Transitions/Aoki Lock]]

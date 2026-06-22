@@ -76,7 +76,7 @@ The mechanical execution requires maintaining hip pressure against the opponent'
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Submissions/Toe Hold]] | 45% |
+| Success | [[Positions/Toe Hold Control]] | 45% |
 | Failure | [[Positions/Estima Lock Control]] | 35% |
 | Counter | [[Positions/Open Guard]] | 20% |
 
@@ -233,11 +233,11 @@ The Toe Hold from Estima Lock functions as a critical secondary attack within mo
 ## Related Techniques
 
 
-- [[Transitions/Estima Lock]] - Source position providing the established foot control from which this transition originates
+- [[Submissions/Estima Lock]] - Source position providing the established foot control from which this transition originates
 
 - [[Positions/Toe Hold Control]] - Related control position for extended toe hold attacks when immediate finish is unavailable
 
-- [[Transitions/Estima Lock]] - Primary submission from the source position that this transition complements as a chain attack
+- [[Submissions/Estima Lock]] - Primary submission from the source position that this transition complements as a chain attack
 
 - [[Transitions/Kneebar from Estima Lock]] - Alternative chain attack from same position targeting the knee rather than the ankle
 

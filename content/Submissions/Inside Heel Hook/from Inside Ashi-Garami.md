@@ -243,11 +243,11 @@ In modern no-gi competition, the Inside Heel Hook from Inside Ashi-Garami serves
 
 ## Related
 - [[Submissions/Inside Heel Hook]]
-- [[Transitions/Outside Heel Hook]]
+- [[Submissions/Outside Heel Hook]]
 - [[Transitions/Aoki Lock]]
 - [[Positions/Aoki Lock Control]]
 - [[Submissions/Achilles Lock]]
-- [[Transitions/Estima Lock]]
+- [[Submissions/Estima Lock]]
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Primary starting position providing foundational leg entanglement control for this submission
 - [[Positions/Ashi Garami/Honey Hole]] - Advanced entanglement offering superior control for the same heel hook finish
 - [[Positions/Inside Sankaku]] - Alternative terminology for advanced inside entanglement in different BJJ lineages

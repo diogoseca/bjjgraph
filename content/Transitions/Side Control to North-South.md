@@ -243,7 +243,7 @@ The North-South transition is a critical component of top control maintenance an
 
 - [[Transitions/North-South to Kimura]] - Primary submission attack after transition
 
-- [[Transitions/North-South Choke]] - High-percentage submission from arrived position
+- [[Submissions/North-South Choke]] - High-percentage submission from arrived position
 
 - [[Transitions/North-South Escape]] - Understanding opponent's defensive options from North-South
 

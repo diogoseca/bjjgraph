@@ -242,7 +242,7 @@ This submission chains directly with heel hook threats from Carni, establishing 
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
 - [[Submissions/Calf Slicer]]
 - [[Submissions/Flying Kneebar]]

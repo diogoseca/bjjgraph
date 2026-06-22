@@ -226,7 +226,7 @@ The transitional nature of top overhook distinguishes it from static control pos
 
 
 **If opponent drops their weight forward and drives into you with pressure:**
-- Execute **[[Transitions/Darce Choke/Attacker|Darce Choke]]** → [[Positions/Darce Control]] (Probability: 60%)
+- Execute **[[Submissions/Darce Choke/Attacker|Darce Choke]]** → [[Positions/Darce Control]] (Probability: 60%)
 - Execute **[[Transitions/Anaconda Choke/Attacker|Anaconda Choke]]** → [[Positions/Anaconda Control]] (Probability: 55%)
 
 

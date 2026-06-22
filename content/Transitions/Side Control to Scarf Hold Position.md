@@ -247,7 +247,7 @@ The Transition to Scarf Hold Position occupies a critical junction in the side c
 
 - [[Submissions/Kimura]] - Secondary submission threat from scarf hold exploiting isolated arm
 
-- [[Transitions/Arm Triangle]] - Choke option when opponent defends arm isolation during transition
+- [[Submissions/Arm Triangle]] - Choke option when opponent defends arm isolation during transition
 
 - [[Transitions/Side Control to Mount]] - Alternative positional advancement from the same starting position
 

@@ -238,7 +238,7 @@ The Leg Drag to Darce Setup occupies a crucial junction in the leg drag passing 
 
 - [[Positions/Darce Control]] - Primary success outcome
 
-- [[Transitions/Darce Choke]] - Finishing submission from setup
+- [[Submissions/Darce Choke]] - Finishing submission from setup
 
 - [[Positions/Front Headlock]] - Alternative control when Darce is shallow
 

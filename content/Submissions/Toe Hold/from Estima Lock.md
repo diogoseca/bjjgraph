@@ -219,8 +219,8 @@ This submission is particularly effective in no-gi grappling where the smooth su
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Estima Lock]]
-- [[Transitions/Heel Hook]]
+- [[Submissions/Estima Lock]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Achilles Lock]]
 - [[Submissions/Inside Heel Hook]]
 - [[Submissions/Calf Slicer]]

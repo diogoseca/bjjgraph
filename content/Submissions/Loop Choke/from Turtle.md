@@ -251,13 +251,13 @@ This submission chains naturally with other turtle attacks like the clock choke,
 ## Related
 - [[Transitions/Clock Choke]]
 - [[Transitions/Anaconda Choke]]
-- [[Transitions/Darce Choke]]
-- [[Transitions/Guillotine Choke]]
+- [[Submissions/Darce Choke]]
+- [[Submissions/Guillotine Choke]]
 - [[Submissions/Cross Collar Choke]]
 - [[Submissions/Bow and Arrow Choke]]
 - [[Submissions/Japanese Necktie]]
 - [[Submissions/Brabo Choke]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Ezekiel Choke]]
 - [[Positions/Turtle]] - Primary starting position where the turtled opponent's exposed collar enables the loop choke entry
 - [[Positions/Front Headlock]] - Adjacent control position that facilitates collar access and transitions into loop choke setups

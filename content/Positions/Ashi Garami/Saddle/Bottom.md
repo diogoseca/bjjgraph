@@ -341,7 +341,7 @@ Partner alternates between heel hook and ankle lock threats. Practice transition
 - **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - Common fallback position when saddle escape is partially successful
 - **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Intermediate position during escape sequence
 - **[[Transitions/Ashi Garami Escape]]** - Primary defensive transition technique
-- **[[Transitions/Heel Hook]]** - Primary submission threat requiring defense
+- **[[Submissions/Heel Hook]]** - Primary submission threat requiring defense
 - **[[Submissions/Straight Ankle Lock]]** - Secondary submission threat when heel is hidden
 - **[[Positions/Leg Entanglement]]** - Conceptual framework for understanding position hierarchy
 

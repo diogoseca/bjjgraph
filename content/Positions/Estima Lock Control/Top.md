@@ -21,7 +21,7 @@ description: "Master Estima Lock Top Position in BJJ. Control opponent's foot an
     {
       "@type": "HowToStep",
       "name": "Execute Estima Lock from Estima Lock Control",
-      "text": "From this position, attempt Estima Lock from Estima Lock Control. This technique is attempted in 39% of exchanges from this position.",
+      "text": "From this position, attempt Estima Lock from Estima Lock Control. This technique is attempted in 41% of exchanges from this position.",
       "position": 1
     },
     {
@@ -47,12 +47,6 @@ description: "Master Estima Lock Top Position in BJJ. Control opponent's foot an
       "name": "Execute Toe Hold from Estima Lock",
       "text": "From this position, attempt Toe Hold from Estima Lock. This technique is attempted in 19% of exchanges from this position.",
       "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Estima Lock",
-      "text": "From this position, attempt Estima Lock. This technique is attempted in 2% of exchanges from this position.",
-      "position": 6
     }
   ],
   "totalTime": "PT2M"
@@ -218,7 +212,7 @@ Success from the top position requires precise technical execution including pro
 <p class="section-subtitle">What should you do from Estima Lock Control (Top)?</p>
 
 **If opponent's foot is fully isolated and they are flat on their back:**
-- Execute **[[Transitions/Estima Lock/Attacker|Estima Lock]]** → [[game-over]] (Probability: 50%)
+- Execute **[[Submissions/Estima Lock/Attacker|Estima Lock]]** → [[game-over]] (Probability: 50%)
 - Execute **[[Submissions/Toe Hold/Attacker|Toe Hold]]** → [[game-over]] (Probability: 50%)
 
 
@@ -340,7 +334,7 @@ Start from established Estima Lock Top Position. Bottom player works to escape u
 
 ## Related Positions and Techniques
 
-- **[[Transitions/Estima Lock]]** - Primary submission technique from this position
+- **[[Submissions/Estima Lock]]** - Primary submission technique from this position
 - **[[Submissions/Toe Hold]]** - Alternative leg attack transition with natural grip changes
 - **[[Positions/Ashi Garami]]** - Common transition target offering expanded submission options
 - **[[Positions/Ashi Garami/Saddle]]** - Related leg entanglement position accessible through backstep

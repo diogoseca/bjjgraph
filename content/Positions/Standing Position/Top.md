@@ -230,7 +230,7 @@ The Standing Position represents the fundamental neutral starting state in BJJ a
 **If opponent is shooting for legs or lowering level aggressively:**
 - Execute **[[Transitions/Sprawl/Attacker|Sprawl]]** → [[Positions/Front Headlock]] (Probability: 65%)
 - Execute **[[Transitions/Guard Pull/Attacker|Guard Pull]]** → [[Positions/Closed Guard]] (Probability: 55%)
-- Execute **[[Transitions/Guillotine Choke/Attacker|Guillotine Choke]]** → [[Positions/Guillotine Control]] (Probability: 40%)
+- Execute **[[Submissions/Guillotine Choke/Attacker|Guillotine Choke]]** → [[Positions/Guillotine Control]] (Probability: 40%)
 
 
 **If opponent secures dominant sleeve and collar grips with strong judo posture:**

@@ -252,16 +252,16 @@ The submission works exceptionally well in no-gi situations where collar grips a
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Guillotine Choke]]
+- [[Submissions/Guillotine Choke]]
 - [[Submissions/High Elbow Guillotine]]
 - [[Submissions/Arm in Guillotine]]
 - [[Submissions/Ten Finger Guillotine]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
 - [[Submissions/Rear Naked Choke]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Von Flue Choke]]
-- [[Transitions/North-South Choke]]
+- [[Submissions/North-South Choke]]
 - [[Submissions/Brabo Choke]]
 - [[Transitions/Guillotine Setup]] - Primary entry transition for establishing chin strap position
 - [[Positions/Front Headlock]] - Broader control system containing chin strap as one finishing option

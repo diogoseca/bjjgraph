@@ -233,9 +233,8 @@ The technique creates a fundamental dilemma for the turtled opponent: defending 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 55% |
-| Failure | [[Transitions/Clock Choke]] | 18% |
-| Failure | [[Positions/Turtle]] | 15% |
+| Success | [[Positions/Crucifix]] | 55% |
+| Failure | [[Positions/Turtle]] | 33% |
 | Counter | [[Positions/Half Guard]] | 12% |
 
 
@@ -249,8 +248,8 @@ The technique creates a fundamental dilemma for the turtled opponent: defending 
 
 - **Opponent rolls toward the choking side to relieve pressure and recover guard** (Effectiveness: High) - Your Response: Maintain strong hip control with your non-choking arm and follow their roll, transitioning to side control while keeping collar grip for potential cross collar finish → Leads to [[Positions/Half Guard]]
 - **Opponent sits back into you before rotation is complete** (Effectiveness: Medium) - Your Response: Use your posted leg to prevent them from sitting fully back, or transition to back control as they create the opening by moving toward you → Leads to [[Positions/Turtle]]
-- **Opponent brings hands up to grip fight and strip the collar grip** (Effectiveness: Medium) - Your Response: Accelerate your rotation and sprawl to apply pressure before they can complete the grip break, or switch to back take if they expose their back during the grip fight → Leads to [[Transitions/Clock Choke]]
-- **Opponent flattens out completely to the mat to reduce neck exposure** (Effectiveness: Low) - Your Response: Maintain collar grip and walk further around to reapply pressure from a tighter angle, or transition to back control since flattening opens hook insertion opportunities → Leads to [[Transitions/Clock Choke]]
+- **Opponent brings hands up to grip fight and strip the collar grip** (Effectiveness: Medium) - Your Response: Accelerate your rotation and sprawl to apply pressure before they can complete the grip break, or switch to back take if they expose their back during the grip fight → Leads to [[Positions/Turtle]]
+- **Opponent flattens out completely to the mat to reduce neck exposure** (Effectiveness: Low) - Your Response: Maintain collar grip and walk further around to reapply pressure from a tighter angle, or transition to back control since flattening opens hook insertion opportunities → Leads to [[Positions/Turtle]]
 
 
 </section>

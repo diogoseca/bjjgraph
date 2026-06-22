@@ -145,7 +145,7 @@ From a strategic perspective, the Americana exemplifies positional control befor
 
 ## Related
 - [[Submissions/Kimura]] - Sister shoulder lock attacking same joint with reverse rotation; practitioners flow between both based on opponent arm positioning
-- [[Transitions/Arm Triangle]] - Complementary choke from same positions; available when opponent brings arm across body defending Americana
+- [[Submissions/Arm Triangle]] - Complementary choke from same positions; available when opponent brings arm across body defending Americana
 - [[Submissions/Ezekiel Choke]] - Complementary mount attack; available when opponent tucks elbows defending arm isolation for Americana
 - [[Submissions/Far Side Armbar]] - Alternative arm attack; transition target when opponent straightens arm to defend Americana rotation
 - [[Submissions/Cross Collar Choke]] - Complementary gi attack from mount that forces hands to neck defense, exposing arms for Americana

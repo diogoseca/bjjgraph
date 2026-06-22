@@ -253,9 +253,9 @@ The Kimura from Side Control is one of the most fundamental and high-percentage 
 - [[Submissions/Americana]]
 - [[Submissions/Reverse Kimura]]
 - [[Submissions/Far Side Armbar]]
-- [[Transitions/Arm Triangle]]
-- [[Transitions/North-South Choke]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Arm Triangle]]
+- [[Submissions/North-South Choke]]
+- [[Submissions/Darce Choke]]
 - [[Submissions/Kesa Gatame Arm Crush]]
 - [[Submissions/Ezekiel Choke]]
 - [[Positions/Kimura Trap]] - Control system based on maintaining Kimura grip for positional dominance

@@ -237,7 +237,7 @@ The 50-50 Entry functions as the primary gateway from inverted guard positions i
 
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Alternative leg entanglement from same starting positions
 
-- [[Transitions/Heel Hook]] - Primary submission from completed 50-50 position
+- [[Submissions/Heel Hook]] - Primary submission from completed 50-50 position
 
 - [[Positions/Ashi Garami/Backside 50-50]] - Follow-up position for additional heel hook angles
 

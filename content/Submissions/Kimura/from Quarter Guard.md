@@ -241,8 +241,8 @@ The Kimura from Quarter Guard is particularly effective because it punishes the 
 
 ## Related
 - [[Submissions/Americana]]
-- [[Transitions/Arm Triangle]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Arm Triangle]]
+- [[Submissions/Darce Choke]]
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Reverse Kimura]]
 - [[Positions/Quarter Guard]] - Primary starting position for this submission variant

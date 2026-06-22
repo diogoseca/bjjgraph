@@ -253,7 +253,7 @@ The Lockdown Break and Pass represents the critical defensive response to the 10
 
 - [[Transitions/Old School Sweep]] - Sweep threat to defend against during extraction
 
-- [[Transitions/Darce Choke]] - Submission opportunity during extraction
+- [[Submissions/Darce Choke]] - Submission opportunity during extraction
 
 - [[Transitions/Back Take from Lockdown Defense]] - Alternative offensive transition
 

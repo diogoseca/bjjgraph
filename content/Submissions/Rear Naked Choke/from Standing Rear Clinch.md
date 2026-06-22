@@ -248,10 +248,10 @@ From a competition perspective, the standing RNC appears most frequently in no-g
 ## Related
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/High Elbow Guillotine]]
-- [[Transitions/Guillotine Choke]]
+- [[Submissions/Guillotine Choke]]
 - [[Submissions/Bow and Arrow Choke]]
 - [[Submissions/Rear Triangle Choke]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Darce Choke]]
 - [[Positions/Standing Rear Clinch]] - Primary starting position from which this submission is initiated through seatbelt-to-choke transition
 - [[Positions/Back Control/Standing Back Control]] - Alternative standing control position with hooks that provides additional stability for the choke attempt
 - [[Positions/Back Control]] - Ground-based equivalent position offering greater stability for RNC finishing mechanics

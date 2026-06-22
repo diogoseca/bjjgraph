@@ -242,7 +242,7 @@ This variant is particularly effective because Modified Scarf Hold allows the at
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Arm in Guillotine]]
 - [[Transitions/Anaconda Choke]]
 - [[Positions/Side Control/Modified Scarf Hold]] - Starting pin position for this submission

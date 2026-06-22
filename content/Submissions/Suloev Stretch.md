@@ -246,12 +246,12 @@ Named after Russian MMA fighter Amar Suloev, this technique earned its reputatio
 
 ## Related
 - [[Submissions/Calf Slicer]]
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
 - [[Transitions/Kneebar]]
 - [[Submissions/Toe Hold]]
 - [[Submissions/Achilles Lock]]
-- [[Transitions/Estima Lock]]
+- [[Submissions/Estima Lock]]
 - [[Submissions/Banana Split]]
 - [[Positions/Half Guard/Electric Chair]]
 - [[Submissions/Boston Crab]]

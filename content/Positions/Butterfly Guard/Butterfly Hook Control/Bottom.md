@@ -349,7 +349,7 @@ Flow between butterfly guard and related positions: X-Guard, Deep Half, Back Tak
 - **[[Transitions/Arm Drag to Back]]** - Key back take technique from butterfly hooks
 - **[[Transitions/Elevator Sweep]]** - Alternative sweep when opponent drives forward
 - **[[Transitions/Hook Sweep]]** - Rotational sweep option against wide base
-- **[[Transitions/Guillotine Choke]]** - Submission threat when opponent's head drops
+- **[[Submissions/Guillotine Choke]]** - Submission threat when opponent's head drops
 - **[[Positions/Mount]]** - Primary finishing position after successful sweeps
 
 

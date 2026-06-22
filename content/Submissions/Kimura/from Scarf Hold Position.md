@@ -242,7 +242,7 @@ The grip transition from positional control to figure-four submission is minimal
 
 ## Related
 - [[Submissions/Americana]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Kesa Gatame Arm Crush]]
 - [[Submissions/Reverse Kimura]]

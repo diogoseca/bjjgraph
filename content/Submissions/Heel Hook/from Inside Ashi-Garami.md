@@ -239,7 +239,7 @@ This submission carries extreme injury risk due to the knee's limited rotational
 
 ## Related
 - [[Submissions/Inside Heel Hook]]
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Achilles Lock]]
 - [[Positions/Aoki Lock Control]]
 - [[Submissions/Calf Slicer]]

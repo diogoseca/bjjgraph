@@ -14,7 +14,7 @@
   "from_position": "Meathook/Bottom",
   "outcomes": [
     {
-      "to": "Baratoplata",
+      "to": "Omoplata Control/Top",
       "probability": 50,
       "result": "success"
     },
@@ -149,8 +149,8 @@
       {
         "counter": "Roll toward the trapped arm side to relieve shoulder pressure",
         "effectiveness": "Medium",
-        "your_response": "Their roll momentum assists your sweep—follow their roll to achieve mount while maintaining the figure-four for mounted Baratoplata finish",
-        "targets_outcome": "Baratoplata"
+        "your_response": "Their roll momentum assists your transition—follow their roll while maintaining the figure-four to consolidate the shoulder-lock control position",
+        "targets_outcome": "Omoplata Control/Top"
       },
       {
         "counter": "Stack forward to collapse the attack angle",

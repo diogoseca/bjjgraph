@@ -245,7 +245,7 @@ The finish timeline is surprisingly short once mechanics are correct. A properly
 - [[Submissions/Triangle Choke]]
 - [[Transitions/Inverted Triangle]]
 - [[Transitions/Gogoplata]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Armbar]]
 - [[Positions/Triangle Control]] - Primary control position from which this submission finish is executed
 - [[Positions/Armbar Control]] - Primary transition target when opponent defends triangle by posturing

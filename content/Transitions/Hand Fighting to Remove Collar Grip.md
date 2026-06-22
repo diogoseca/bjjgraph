@@ -78,7 +78,7 @@ Strategically, this technique serves as the gateway to all other back control es
 |--------|----------|-------------|
 | Success | [[Positions/Back Control]] | 55% |
 | Failure | [[Positions/Rubber Guard/Invisible Collar]] | 30% |
-| Counter | [[Submissions/Cross Collar Choke]] | 15% |
+| Counter | [[Cross Collar Choke from Invisible Collar]] | 15% |
 
 
 </section>

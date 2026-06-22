@@ -242,7 +242,7 @@ The North-South to Kimura transition is a cornerstone technique in modern BJJ's 
 
 - [[Transitions/Kimura from Half Guard]] - Related Kimura entry from adjacent control position
 
-- [[Transitions/North-South Choke]] - Alternative submission from the same starting position
+- [[Submissions/North-South Choke]] - Alternative submission from the same starting position
 
 - [[Positions/Side Control]] - Common entry position before reaching North-South
 

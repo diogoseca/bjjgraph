@@ -123,7 +123,7 @@ The Crotch Ripper represents the offensive potential of the lockdown system, tra
 - [[Submissions/Toe Hold]] - Complementary leg lock from similar leg entanglement configurations
 - [[Transitions/Kneebar]] - Alternative leg lock option when Crotch Ripper angle is unavailable
 - [[Submissions/Kimura]] - Upper body submission threat from lockdown when leg attacks are defended
-- [[Transitions/Guillotine Choke]] - Alternative submission when opponent postures up to escape compression
+- [[Submissions/Guillotine Choke]] - Alternative submission when opponent postures up to escape compression
 - [[Submissions/Straight Ankle Lock]] - Basic leg lock from related guard positions sharing leg control principles
 - [[Submissions/Calf Slicer]] - Related compression submission targeting calf muscle from leg entanglement
 - [[Positions/Half Guard/Lockdown]] - Primary position where Crotch Ripper is executed - lockdown control is prerequisite

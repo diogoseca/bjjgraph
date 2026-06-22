@@ -74,7 +74,7 @@ The arm triangle from turtle has become increasingly popular in modern no-gi com
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Transitions/Arm Triangle]] | 55% |
+| Success | [[Positions/Side Control]] | 55% |
 | Failure | [[Positions/Front Headlock]] | 25% |
 | Failure | [[Positions/Half Guard]] | 10% |
 | Counter | [[Positions/Closed Guard]] | 10% |
@@ -245,7 +245,7 @@ The arm triangle from turtle represents a crucial component of the top turtle at
 
 - [[Positions/Front Headlock]] - Control position during setup and failure outcome
 
-- [[Transitions/Arm Triangle]] - Parent submission system
+- [[Submissions/Arm Triangle]] - Parent submission system
 
 - [[Transitions/Anaconda from Turtle]] - Alternative front headlock attack from same position
 
@@ -255,9 +255,9 @@ The arm triangle from turtle represents a crucial component of the top turtle at
 
 - [[Transitions/Crucifix from Turtle]] - Alternative attack when opponent extends posting arm
 
-- [[Transitions/North-South Choke]] - Similar perpendicular finishing mechanics
+- [[Submissions/North-South Choke]] - Similar perpendicular finishing mechanics
 
-- [[Transitions/Darce Choke]] - Related front headlock submission system
+- [[Submissions/Darce Choke]] - Related front headlock submission system
 
 - [[Transitions/Arm Triangle from Top]] - Related arm triangle entry from side control
 

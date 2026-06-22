@@ -243,13 +243,13 @@ The Can Opener is a neck crank technique applied from within an opponent's close
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Guillotine Choke]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Guillotine Choke]]
+- [[Submissions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
 - [[Submissions/Rear Naked Choke]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Ezekiel Choke]]
-- [[Transitions/North-South Choke]]
+- [[Submissions/North-South Choke]]
 - [[Submissions/Cross Collar Choke]]
 - [[Positions/Closed Guard]] - Primary position where Can Opener is attempted as guard-breaking mechanism
 - [[Positions/Half Guard]] - Alternative position where Can Opener variation can be attempted with similar risks

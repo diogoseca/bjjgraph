@@ -257,7 +257,7 @@ The double leg finish also integrates defensively within the scrambling system. 
 
 - [[Transitions/Break Clinch]] - Defensive clinch technique - understanding clinch escape mechanics helps time the finish before opponent can disengage
 
-- [[Transitions/Guillotine Choke]] - Common counter to defend against - requires awareness and technical adjustments during finish execution
+- [[Submissions/Guillotine Choke]] - Common counter to defend against - requires awareness and technical adjustments during finish execution
 
 - [[Transitions/Guard Opening Sequence]] - Contingency technique - needed if opponent establishes guard during landing phase
 

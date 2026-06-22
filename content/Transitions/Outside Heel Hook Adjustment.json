@@ -14,7 +14,7 @@
   "from_position": "Ushiro Ashi-Garami/Top",
   "outcomes": [
     {
-      "to": "Outside Heel Hook",
+      "to": "Outside Heel Hook from Ushiro Ashi-Garami",
       "probability": 55,
       "result": "success"
     },
@@ -157,7 +157,7 @@
         "counter": "Straightening the trapped leg to reduce rotational pressure on knee",
         "effectiveness": "Low",
         "your_response": "Straight leg actually makes heel hook more dangerous. Squeeze knees tighter to prevent full extension and finish with standard mechanics.",
-        "targets_outcome": "Outside Heel Hook"
+        "targets_outcome": "Outside Heel Hook from Ushiro Ashi-Garami"
       }
     ],
     "common_errors": [

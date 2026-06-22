@@ -352,7 +352,7 @@ Partner establishes outside ashi and slowly attempts to access your heel, practi
 - **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - Similar defensive leg entanglement with inside variation
 - **[[Positions/Ashi Garami/Saddle]]** - Advanced defensive challenge with both legs trapped
 - **[[Transitions/Ashi Garami Escape]]** - Primary escape technique from this position
-- **[[Transitions/Heel Hook]]** - Primary submission threat from opponent
+- **[[Submissions/Heel Hook]]** - Primary submission threat from opponent
 - **[[Submissions/Straight Ankle Lock]]** - Secondary submission threat from opponent
 - **[[Positions/Ashi Garami/50-50 Guard]]** - Related defensive leg entanglement position
 - **[[Positions/Leg Entanglement]]** - General category this position belongs to

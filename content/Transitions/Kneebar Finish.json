@@ -15,7 +15,7 @@
   "from_position": "Carni/Bottom",
   "outcomes": [
     {
-      "to": "Kneebar",
+      "to": "Kneebar from Carni",
       "probability": 65,
       "result": "success"
     },

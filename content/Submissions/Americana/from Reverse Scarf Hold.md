@@ -225,7 +225,7 @@ Strategically, the Americana from Reverse Scarf Hold functions as both a primary
 ## Related
 - [[Submissions/Americana]]
 - [[Submissions/Kimura]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Ezekiel Choke]]
 - [[Positions/Side Control/Reverse Scarf Hold]] - Starting position for this submission variant

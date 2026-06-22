@@ -241,8 +241,8 @@ This submission integrates naturally into the Kimura Trap system used extensivel
 ## Related
 - [[Submissions/Kimura]]
 - [[Submissions/Americana]]
-- [[Transitions/Guillotine Choke]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Guillotine Choke]]
+- [[Submissions/Darce Choke]]
 - [[Submissions/Far Side Armbar]]
 - [[Positions/Half Guard/Knee Shield Half Guard]] - Starting position for this submission variant
 - [[Positions/Half Guard]] - Parent guard position family

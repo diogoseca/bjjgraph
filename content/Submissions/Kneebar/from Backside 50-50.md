@@ -246,7 +246,7 @@ This technique functions as a critical secondary attack within the Backside 50-5
 - [[Transitions/Kneebar]]
 - [[Submissions/Flying Kneebar]]
 - [[Submissions/Inside Heel Hook]]
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Straight Ankle Lock]]
 - [[Submissions/Toe Hold]]
 - [[Submissions/Calf Slicer]]

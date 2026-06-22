@@ -256,7 +256,7 @@ From a strategic perspective, the elevator sweep forces opponents to make defens
 
 - [[Transitions/Arm Drag to Back]] - Follow-up technique - use when opponent posts far arm to defend elevator sweep
 
-- [[Transitions/Guillotine Choke]] - Submission setup - available when opponent lowers head to defend sweep
+- [[Submissions/Guillotine Choke]] - Submission setup - available when opponent lowers head to defend sweep
 
 - [[Transitions/Hook Sweep]] - Alternative sweep - similar hook mechanics with different grip configuration
 

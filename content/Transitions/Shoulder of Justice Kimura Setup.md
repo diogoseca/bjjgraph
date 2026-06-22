@@ -243,7 +243,7 @@ The Shoulder of Justice Kimura Setup serves as the primary bridge between the Sh
 
 - [[Positions/Kimura Trap]] - Primary target position - successful setup establishes figure-four Kimura control
 
-- [[Transitions/North-South Choke]] - Alternative submission pathway from shoulder pressure when the opponent turns away rather than extending the near arm
+- [[Submissions/North-South Choke]] - Alternative submission pathway from shoulder pressure when the opponent turns away rather than extending the near arm
 
 - [[Positions/Side Control]] - Parent position family - Shoulder of Justice is a specialized side control variation
 

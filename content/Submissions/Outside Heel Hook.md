@@ -130,11 +130,11 @@ The position demands systematic control before any finishing attempt: hip contro
 
 ## Related
 - [[Submissions/Inside Heel Hook]] - Mirror submission from inside leg positioning with opposite rotation direction
-- [[Transitions/Heel Hook]] - Generic heel hook category encompassing all rotational heel attacks
+- [[Submissions/Heel Hook]] - Generic heel hook category encompassing all rotational heel attacks
 - [[Submissions/Toe Hold]] - Complementary rotational foot lock often chained from heel hook defense
 - [[Submissions/Achilles Lock]] - Lower-risk straight ankle lock available from same leg entanglement positions
 - [[Submissions/Calf Slicer]] - Compression submission targeting calf from leg entanglement positions
-- [[Transitions/Estima Lock]] - Foot lock variation available during leg entanglement transitions
+- [[Submissions/Estima Lock]] - Foot lock variation available during leg entanglement transitions
 - [[Transitions/Aoki Lock]] - Named leg lock variant targeting similar structures from entanglements
 - [[Submissions/Flying Kneebar]] - Dynamic kneebar entry during standing-to-ground transitions
 - [[Positions/Ashi Garami/Outside Ashi-Garami]] - Primary attacking position for this submission

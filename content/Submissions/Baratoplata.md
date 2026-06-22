@@ -122,7 +122,7 @@ The technique exemplifies the innovation within modern no-gi grappling, offering
 - [[Submissions/Far Side Armbar]] - Arm attack transition when Baratoplata shoulder lock is defended
 - [[Submissions/Kimura]] - Complementary shoulder lock targeting same joint from different angle
 - [[Submissions/Americana]] - Related shoulder lock in same joint lock family with opposite rotation
-- [[Transitions/Arm Triangle]] - Counter submission opportunity arising from Baratoplata defense scrambles
+- [[Submissions/Arm Triangle]] - Counter submission opportunity arising from Baratoplata defense scrambles
 - [[Positions/Rubber Guard]] - Primary starting position and control structure
 - [[Positions/Rubber Guard/Mission Control]] - Initial rubber guard position for Baratoplata setup
 - [[Positions/Rubber Guard/New York]] - Transition position that creates angle for arm weave

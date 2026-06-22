@@ -247,7 +247,7 @@ The Leg Drag Pass to Side Control is the primary consolidation pathway in the le
 
 - [[Submissions/Kimura]] - Follow-up submission from side control
 
-- [[Transitions/Arm Triangle]] - Follow-up submission
+- [[Submissions/Arm Triangle]] - Follow-up submission
 
 - [[Transitions/Leg Drag Counter to Half Guard]] - Opponent's primary counter
 

@@ -249,7 +249,7 @@ The Transition to Shoulder of Justice sits at a critical juncture in the top-sid
 
 - [[Submissions/Americana]] - High-percentage submission when opponent extends near arm under pressure
 
-- [[Transitions/Arm Triangle]] - Submission opportunity when opponent brings far arm across face
+- [[Submissions/Arm Triangle]] - Submission opportunity when opponent brings far arm across face
 
 - [[Transitions/Side Control to Mount]] - Alternative positional advancement from the same starting position
 

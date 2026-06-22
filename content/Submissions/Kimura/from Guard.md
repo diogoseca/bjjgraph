@@ -260,7 +260,7 @@ The position operates on the principle that the figure-four grip isolates the sh
 ## Related
 - [[Submissions/Kimura]]
 - [[Submissions/Monoplata]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Transitions/Gogoplata]]
 - [[Submissions/High Elbow Guillotine]]
 - [[Submissions/Triangle Choke]]

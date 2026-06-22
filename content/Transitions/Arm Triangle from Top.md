@@ -76,7 +76,7 @@ The arm triangle from top integrates seamlessly with side control attacks. If th
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Transitions/Arm Triangle]] | 55% |
+| Success | [[Arm Triangle from Side Control]] | 55% |
 | Failure | [[Positions/Side Control]] | 30% |
 | Counter | [[Positions/Half Guard]] | 15% |
 
@@ -240,11 +240,11 @@ The arm triangle from top is a cornerstone of the side control submission system
 ## Related Techniques
 
 
-- [[Transitions/Arm Triangle]] - Parent submission technique—the arm triangle from top is the setup transition that leads to the finishing choke
+- [[Submissions/Arm Triangle]] - Parent submission technique—the arm triangle from top is the setup transition that leads to the finishing choke
 
 - [[Positions/Side Control]] - Primary starting position from which the arm triangle is initiated
 
-- [[Transitions/Darce Choke]] - Complementary head-and-arm choke—when the opponent turns to defend the arm triangle, the darce becomes available
+- [[Submissions/Darce Choke]] - Complementary head-and-arm choke—when the opponent turns to defend the arm triangle, the darce becomes available
 
 - [[Submissions/Americana]] - Chain attack—americana defense (elbow high) creates the arm-across-neck configuration for the arm triangle
 

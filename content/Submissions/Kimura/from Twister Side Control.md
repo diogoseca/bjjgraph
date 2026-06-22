@@ -246,8 +246,8 @@ This variant integrates naturally into the broader Twister Side Control submissi
 ## Related
 - [[Submissions/Kimura]]
 - [[Submissions/Americana]]
-- [[Transitions/Darce Choke]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Darce Choke]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Calf Slicer]]
 - [[Submissions/Far Side Armbar]]
 - [[Positions/Twister Control/Twister Side Control]] - Starting position providing lateral control and leg entanglement for this Kimura variant

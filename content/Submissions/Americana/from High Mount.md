@@ -244,7 +244,7 @@ Strategically, the Americana from high mount functions as both a primary finishe
 ## Related
 - [[Submissions/Americana]]
 - [[Submissions/Kimura]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Cross Collar Choke]]
 - [[Submissions/Ezekiel Choke]]
 - [[Submissions/Gift Wrap Armbar]]

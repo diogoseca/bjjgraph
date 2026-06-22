@@ -239,9 +239,9 @@ The anaconda choke sits at the intersection of front headlock control and submis
 
 - [[Positions/Darce Control]] - Sister control position with opposite arm threading direction
 
-- [[Transitions/Darce Choke]] - Alternative submission when opponent pulls trapped arm free
+- [[Submissions/Darce Choke]] - Alternative submission when opponent pulls trapped arm free
 
-- [[Transitions/Guillotine Choke]] - Alternative front headlock submission without arm-in configuration
+- [[Submissions/Guillotine Choke]] - Alternative front headlock submission without arm-in configuration
 
 - [[Positions/Turtle]] - Common entry position where anaconda attacks are initiated from top
 

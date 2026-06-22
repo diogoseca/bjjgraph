@@ -245,7 +245,7 @@ Reverse X to Single Leg X Entry functions as a critical connector within the mod
 
 - [[Positions/Half Guard/Deep Half Guard]] - Bail-out position when transition is countered with forward pressure
 
-- [[Transitions/Heel Hook]] - Primary submission threat available from Single Leg X position
+- [[Submissions/Heel Hook]] - Primary submission threat available from Single Leg X position
 
 - [[Positions/Butterfly Guard]] - Recovery position if leg control is lost entirely
 

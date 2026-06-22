@@ -240,7 +240,7 @@ From a strategic perspective, the Ezekiel Choke from Mount fills a critical role
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Arm in Guillotine]]
 - [[Positions/Mount]] - Primary position providing dominant control platform for Ezekiel Choke execution
 - [[Positions/Mount/High Mount]] - Advanced mount variation offering alternative angle for sleeve grip entry and choke finish

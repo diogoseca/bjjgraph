@@ -226,8 +226,8 @@ This submission is particularly effective against opponents who defend side cont
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Arm Triangle]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Arm Triangle]]
+- [[Submissions/Darce Choke]]
 - [[Submissions/Kimura]]
 - [[Submissions/Americana]]
 - [[Submissions/Ezekiel Choke]]

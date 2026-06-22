@@ -243,8 +243,8 @@ Strategically, the Estima Lock from Saddle occupies a critical role in modern le
 
 ## Related
 - [[Positions/Estima Lock Control]]
-- [[Transitions/Estima Lock]]
-- [[Transitions/Heel Hook]]
+- [[Submissions/Estima Lock]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
 - [[Positions/Aoki Lock Control]]
 - [[Submissions/Calf Slicer]]

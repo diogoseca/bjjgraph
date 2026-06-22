@@ -234,8 +234,8 @@ The primary strategic consideration when attempting this finish is timing the tr
 - [[Positions/Buggy Choke]]
 - [[Positions/Half Guard/Electric Chair]]
 - [[Transitions/Anaconda Choke]]
-- [[Transitions/Guillotine Choke]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Guillotine Choke]]
+- [[Submissions/Arm Triangle]]
 - [[Positions/Half Guard]] - Primary starting position from which this finish is executed
 - [[Positions/Half Guard/Lockdown]] - Complementary leg entanglement that breaks the opponent's posture and enhances the choke
 - [[Positions/Half Guard/Deep Half Guard]] - Recovery position when the choke setup is defended

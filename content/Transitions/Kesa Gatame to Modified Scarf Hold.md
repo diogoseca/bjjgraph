@@ -247,7 +247,7 @@ This transition sits at the center of the scarf hold positional family, connecti
 
 - [[Submissions/Kimura]] - High-percentage submission available from target position
 
-- [[Transitions/Arm Triangle]] - Choke option enabled by chest-to-chest pressure in target position
+- [[Submissions/Arm Triangle]] - Choke option enabled by chest-to-chest pressure in target position
 
 - [[Transitions/Side Control to Mount]] - Advancement option from the target Modified Scarf Hold
 

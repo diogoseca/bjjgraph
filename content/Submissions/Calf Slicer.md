@@ -134,12 +134,12 @@ The submission is particularly dangerous because the pain can be delayed, meanin
 ## Related
 - [[Positions/Half Guard/Electric Chair]] - Related 10th Planet compression submission from similar leg entanglement positions
 - [[Transitions/Aoki Lock]] - Alternative leg lock targeting ankle from similar ashi garami entanglements
-- [[Transitions/Heel Hook]] - Primary alternative submission in leg entanglement sequences and chains
+- [[Submissions/Heel Hook]] - Primary alternative submission in leg entanglement sequences and chains
 - [[Submissions/Bicep Slicer]] - Compression submission using same mechanical wedge principle on upper body
 - [[Submissions/Banana Split]] - Compression-based submission from Truck position targeting groin and inner thigh
 - [[Submissions/Achilles Lock]] - Foundational straight ankle lock from similar leg entanglement positions
 - [[Submissions/Flying Kneebar]] - Dynamic leg lock entry that chains with calf slicer when kneebar is defended
-- [[Transitions/Estima Lock]] - Foot compression lock sharing similar delayed pain onset characteristics
+- [[Submissions/Estima Lock]] - Foot compression lock sharing similar delayed pain onset characteristics
 - [[Positions/Ashi Garami/50-50 Guard]] - Primary attacking position for lower body Calf Slicer entries
 - [[Positions/Twister Control/Truck]] - Highest percentage attacking position for Calf Slicer finish
 - [[Positions/Ashi Garami/Honey Hole]] - Alternative leg entanglement position with Calf Slicer options

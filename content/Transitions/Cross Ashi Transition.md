@@ -245,7 +245,7 @@ The Cross Ashi Transition is an essential component of comprehensive leg lock sy
 
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Alternative target - when opponent turns in during transition
 
-- [[Transitions/Heel Hook]] - Primary submission - main finishing option from Cross Ashi configuration
+- [[Submissions/Heel Hook]] - Primary submission - main finishing option from Cross Ashi configuration
 
 - [[Submissions/Inside Heel Hook]] - Submission option - available after successful transition to Cross Ashi
 

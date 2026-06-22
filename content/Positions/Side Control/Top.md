@@ -231,11 +231,11 @@ Side Control Top is one of the most fundamental and dominant positions in Brazil
 
 **If opponent turns into you attempting to recover guard:**
 - Execute **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** → [[Positions/North-South]] (Probability: 70%)
-- Execute **[[Transitions/Darce Choke/Attacker|Darce Choke]]** → [[game-over]] (Probability: 35%)
+- Execute **[[Submissions/Darce Choke/Attacker|Darce Choke]]** → [[game-over]] (Probability: 35%)
 
 
 **If opponent's far arm crosses their own neck while defending:**
-- Execute **[[Transitions/Arm Triangle/Attacker|Arm Triangle]]** → [[game-over]] (Probability: 55%)
+- Execute **[[Submissions/Arm Triangle/Attacker|Arm Triangle]]** → [[game-over]] (Probability: 55%)
 - Execute **[[Submissions/Breadcutter Choke/Attacker|Breadcutter Choke]]** → [[game-over]] (Probability: 40%)
 
 
@@ -356,9 +356,9 @@ Partner attempts specific escape such as elbow escape, bridge and roll, or turni
 - **[[Positions/Back Control]]** - Advanced position when opponent turns incorrectly during escape
 - **[[Submissions/Americana]]** - Primary shoulder lock submission transition from this position
 - **[[Submissions/Kimura]]** - High-percentage shoulder lock transition with back take potential
-- **[[Transitions/Arm Triangle]]** - Head and arm choke available when opponent defends arms incorrectly
-- **[[Transitions/Darce Choke]]** - Effective choke when opponent turns into you from bottom
-- **[[Transitions/North-South Choke]]** - Powerful submission from north-south transition
+- **[[Submissions/Arm Triangle]]** - Head and arm choke available when opponent defends arms incorrectly
+- **[[Submissions/Darce Choke]]** - Effective choke when opponent turns into you from bottom
+- **[[Submissions/North-South Choke]]** - Powerful submission from north-south transition
 
 
 </section>

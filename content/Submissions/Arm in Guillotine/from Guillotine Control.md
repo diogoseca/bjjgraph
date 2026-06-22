@@ -245,8 +245,8 @@ Strategically, this submission creates a particularly difficult defensive puzzle
 ## Related
 - [[Submissions/Arm in Guillotine]]
 - [[Submissions/High Elbow Guillotine]]
-- [[Transitions/Guillotine Choke]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Guillotine Choke]]
+- [[Submissions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
 - [[Submissions/Von Flue Choke]]
 - [[Submissions/Japanese Necktie]]

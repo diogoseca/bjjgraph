@@ -245,7 +245,7 @@ The Sweep to Mount occupies a critical role in the Hindulotine bottom attack sys
 
 - [[Transitions/Butterfly Sweep with Guillotine]] - Alternative sweep using butterfly hooks from the same Hindulotine bottom position
 
-- [[Transitions/Guillotine Choke]] - Direct submission option when sweep defense opens the choke finish
+- [[Submissions/Guillotine Choke]] - Direct submission option when sweep defense opens the choke finish
 
 - [[Transitions/Hindulotine to Darce Choke]] - Alternative attack when opponent creates frames while defending sweep
 

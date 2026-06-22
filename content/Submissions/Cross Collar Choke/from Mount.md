@@ -243,7 +243,7 @@ From a strategic standpoint, the Cross Collar Choke creates a powerful dilemma t
 - [[Submissions/Cross Collar Choke]]
 - [[Submissions/Ezekiel Choke]]
 - [[Submissions/Americana]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Bow and Arrow Choke]]
 - [[Positions/Mount]] - Primary starting position providing gravity advantage and control platform for choke setup
 - [[Positions/Mount/High Mount]] - Advanced mount variation offering closer collar access and increased submission leverage

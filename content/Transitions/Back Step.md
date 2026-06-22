@@ -241,7 +241,7 @@ The back step is an essential component of modern guard passing systems, particu
 
 - [[Transitions/Leg Weave Pass]] - Alternative leg entanglement counter
 
-- [[Transitions/Heel Hook]] - Primary threat requiring defense awareness
+- [[Submissions/Heel Hook]] - Primary threat requiring defense awareness
 
 - [[Positions/Knee on Belly]] - Alternative ending position
 

@@ -15,7 +15,7 @@
   "from_position": "Gift Wrap/Top",
   "outcomes": [
     {
-      "to": "Kimura",
+      "to": "Kimura from Gift Wrap",
       "probability": 55,
       "result": "success"
     },
@@ -145,7 +145,7 @@
         "counter": "Opponent turns into attacker and rolls belly-down to reduce shoulder rotation angle",
         "effectiveness": "Medium",
         "your_response": "Follow the roll and transition to mounted Kimura position or crucifix; belly-down actually improves finishing angle in many cases",
-        "targets_outcome": "Kimura"
+        "targets_outcome": "Kimura from Gift Wrap"
       },
       {
         "counter": "Opponent grabs their own belt, pants, or interlocks hands to prevent wrist movement",

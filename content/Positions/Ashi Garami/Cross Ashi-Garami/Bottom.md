@@ -343,7 +343,7 @@ From established cross ashi bottom position, partner deliberately creates openin
 - **[[Positions/Ashi Garami/Saddle]]** - Common transition target from cross ashi for top player
 - **[[Transitions/Ashi Garami Escape]]** - Primary escape technique from this position
 - **[[Transitions/Inside Ashi Entry]]** - Counter-attack transition to establish own leg control
-- **[[Transitions/Heel Hook]]** - Primary submission threat from opponent in this position
+- **[[Submissions/Heel Hook]]** - Primary submission threat from opponent in this position
 - **[[Submissions/Straight Ankle Lock]]** - Alternative submission threat from cross ashi position
 - **[[Positions/X-Guard]]** - Recovery position through X-guard to ashi transition
 - **[[Positions/X-Guard/Single Leg X-Guard]]** - Alternative recovery position from saddle defense

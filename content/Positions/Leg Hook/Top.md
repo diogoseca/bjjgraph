@@ -361,7 +361,7 @@ Start in leg hook top position. Practice transitioning to submission threats (ki
 - **[[Positions/Side Control]]** - Transition target - most common final position after successful pass
 - **[[Positions/Headquarters Position]]** - Related passing position - similar control concepts with different leg configuration
 - **[[Submissions/Kimura]]** - Submission threat - opportunistic submission from this position
-- **[[Transitions/Darce Choke]]** - Submission threat - available when bottom player makes defensive errors
+- **[[Submissions/Darce Choke]]** - Submission threat - available when bottom player makes defensive errors
 - **[[Transitions/Smash Pass]]** - Related passing concept - complementary pressure passing strategy
 - **[[Positions/Half Guard/Lockdown]]** - Defensive system - understanding opponent's control from bottom
 

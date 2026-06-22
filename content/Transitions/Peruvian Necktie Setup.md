@@ -72,7 +72,7 @@ The Peruvian Necktie Setup is an advanced submission transition that exploits op
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Submissions/Peruvian Necktie]] | 50% |
+| Success | [[Peruvian Necktie from Front Headlock]] | 50% |
 | Failure | [[Positions/Front Headlock]] | 35% |
 | Counter | [[Positions/Turtle]] | 15% |
 
@@ -246,13 +246,13 @@ The Peruvian Necktie Setup represents an advanced branch of the front headlock s
 
 - [[Transitions/Anaconda Choke]] - Complementary submission - creates threat sequence from front headlock
 
-- [[Transitions/Darce Choke]] - Complementary submission - alternative front headlock finish
+- [[Submissions/Darce Choke]] - Complementary submission - alternative front headlock finish
 
 - [[Transitions/Guillotine Setup]] - Alternative setup - backup option if Peruvian Necktie entry fails
 
 - [[Transitions/Front Headlock to Back]] - Alternative transition - positional advancement option from same control
 
-- [[Transitions/Guillotine Choke]] - Related submission - shares similar control principles and timing windows
+- [[Submissions/Guillotine Choke]] - Related submission - shares similar control principles and timing windows
 
 - [[Positions/Turtle]] - Opponent position - defensive posture being exploited for entry
 

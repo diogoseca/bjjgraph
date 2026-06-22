@@ -255,8 +255,8 @@ Building directly on spider guard's distance control and posture breaking, this 
 - [[Transitions/Inverted Triangle]]
 - [[Submissions/Baratoplata]]
 - [[Transitions/Gogoplata]]
-- [[Transitions/Guillotine Choke]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Guillotine Choke]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Kimura]]
 - [[Submissions/Cross Collar Choke]]
 - [[Positions/Spider Guard]] - Primary starting position for this triangle variation

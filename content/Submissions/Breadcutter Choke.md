@@ -124,13 +124,13 @@ The Breadcutter belongs to a family of collar chokes that includes the Clock Cho
 - [[Submissions/Bow and Arrow Choke]] - Related gi collar choke sharing grip mechanics but using leg leverage for finishing pressure
 - [[Submissions/Baseball Bat Choke]] - Another collar-based choke applicable from similar positions with cross-grip configuration
 - [[Submissions/Rear Naked Choke]] - Primary no-gi back attack alternative; Breadcutter available when RNC grips are defended
-- [[Transitions/North-South Choke]] - Alternative choke from north-south when opponent turns to side during transition
-- [[Transitions/Darce Choke]] - Head-and-arm choke option from turtle when collar access is unavailable in no-gi
+- [[Submissions/North-South Choke]] - Alternative choke from north-south when opponent turns to side during transition
+- [[Submissions/Darce Choke]] - Head-and-arm choke option from turtle when collar access is unavailable in no-gi
 - [[Transitions/Anaconda Choke]] - Front headlock choke alternative from turtle top attacking from opposite side
 - [[Submissions/Ezekiel Choke]] - Close-range gi choke applicable from multiple controlling positions
 - [[Submissions/Cross Collar Choke]] - Fundamental collar choke sharing deep grip mechanics and carotid targeting
 - [[Submissions/Brabo Choke]] - Collar-integrated arm triangle variation available from similar side positions
-- [[Transitions/Arm Triangle]] - Head-and-arm choke chain when collar-based attacks are defended
+- [[Submissions/Arm Triangle]] - Head-and-arm choke chain when collar-based attacks are defended
 - [[Positions/Turtle]] - Primary starting position for standard Breadcutter application
 - [[Positions/Back Control]] - Alternative starting position and transition opportunity from failed RNC
 - [[Positions/Side Control]] - Can transition to Breadcutter as opponent attempts turtle escape

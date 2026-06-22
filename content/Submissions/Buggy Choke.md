@@ -247,12 +247,12 @@ For the purple-to-brown belt grappler, the value of the Buggy Choke is less abou
 ## Related
 - [[Transitions/Anaconda Choke]]
 - [[Submissions/Brabo Choke]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Arm in Guillotine]]
 - [[Submissions/Baseball Bat Choke]]
 - [[Submissions/Kimura]]
 - [[Submissions/Rear Naked Choke]]
-- [[Transitions/Guillotine Choke]]
+- [[Submissions/Guillotine Choke]]
 - [[Transitions/Old School Sweep]] - Alternative attack from same half guard position when choke is defended
 - [[Positions/Half Guard/Deep Half Guard]] - Recovery position when Buggy Choke setup is defended
 - [[Positions/Half Guard/Electric Chair]] - Primary follow-up submission when opponent defends the Buggy Choke

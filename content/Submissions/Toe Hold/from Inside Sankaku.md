@@ -224,10 +224,10 @@ Strategically, the toe hold from Inside Sankaku functions as part of a dilemma s
 
 ## Related
 - [[Submissions/Inside Heel Hook]]
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Calf Slicer]]
 - [[Transitions/Aoki Lock]]
-- [[Transitions/Estima Lock]]
+- [[Submissions/Estima Lock]]
 - [[Submissions/Achilles Lock]]
 - [[Positions/Inside Sankaku]] - Starting position providing leg entanglement control for this submission
 - [[Positions/Ashi Garami/Honey Hole]] - Alternative name for Inside Sankaku position with identical mechanics

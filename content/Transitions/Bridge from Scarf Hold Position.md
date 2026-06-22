@@ -249,7 +249,7 @@ The bridge from scarf hold sits within the scarf hold bottom escape hierarchy as
 
 - [[Submissions/Americana]] - Submission threat from scarf hold top that creates timing windows for the bridge reversal when opponent attacks
 
-- [[Transitions/Arm Triangle]] - Submission threat from scarf hold top motivating urgency to execute bridge reversal before attack develops
+- [[Submissions/Arm Triangle]] - Submission threat from scarf hold top motivating urgency to execute bridge reversal before attack develops
 
 
 </section>

@@ -245,10 +245,10 @@ This submission demands absolute safety awareness. The rotational force attacks 
 ## Related
 - [[Submissions/Heel Hook/from Saddle]]
 - [[Submissions/Inside Heel Hook]]
-- [[Transitions/Outside Heel Hook]]
+- [[Submissions/Outside Heel Hook]]
 - [[Submissions/Heel Hook/from Ushiro Ashi]]
 - [[Transitions/Aoki Lock]]
-- [[Transitions/Estima Lock]]
+- [[Submissions/Estima Lock]]
 - [[Positions/Ashi Garami/Honey Hole]] - Primary starting position providing inside leg triangle control for this submission
 - [[Positions/Ashi Garami/Saddle]] - Alternative starting position with identical entanglement mechanics and heel exposure
 - [[Positions/Inside Sankaku]] - Alternative terminology for the starting position in different BJJ lineages

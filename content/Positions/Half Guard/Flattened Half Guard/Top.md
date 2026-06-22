@@ -228,7 +228,7 @@ Understanding the position's relationship to the broader passing game is essenti
 
 **If opponent extends arm to establish underhook or create frame against crossface:**
 - Execute **[[Submissions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 40%)
-- Execute **[[Transitions/Arm Triangle Setup/Attacker|Arm Triangle Setup]]** → [[Transitions/Arm Triangle]] (Probability: 45%)
+- Execute **[[Transitions/Arm Triangle Setup/Attacker|Arm Triangle Setup]]** → [[Submissions/Arm Triangle]] (Probability: 45%)
 
 
 

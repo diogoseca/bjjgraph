@@ -240,7 +240,7 @@ Strategically, this Kimura variant functions as both a direct finishing tool and
 ## Related
 - [[Submissions/Kimura]]
 - [[Submissions/Americana]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Reverse Kimura]]
 - [[Submissions/Kesa Gatame Arm Crush]]
 - [[Positions/Side Control/Reverse Kesa-Gatame]] - Starting position for this submission variant

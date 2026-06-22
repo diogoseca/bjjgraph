@@ -239,7 +239,7 @@ The 50-50 Guard to Outside Ashi transition is a critical pathway in the modern l
 
 - [[Positions/Ashi Garami/Saddle]] - Advanced position accessible from outside ashi
 
-- [[Transitions/Outside Heel Hook]] - Primary submission threat from resulting position
+- [[Submissions/Outside Heel Hook]] - Primary submission threat from resulting position
 
 - [[Transitions/50-50 Guard to Inside Ashi]] - Alternative transition option from same starting position
 

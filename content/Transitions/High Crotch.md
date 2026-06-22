@@ -244,7 +244,7 @@ The high crotch is a foundational wrestling-based takedown that has become integ
 
 - [[Transitions/Body Lock Pass]] - Alternative - different approach to controlling hips and achieving takedown
 
-- [[Transitions/Guillotine Choke]] - Counter - primary defensive submission opponent uses against high crotch
+- [[Submissions/Guillotine Choke]] - Counter - primary defensive submission opponent uses against high crotch
 
 - [[Positions/Front Headlock]] - Counter - opponent's control position if high crotch head position is compromised
 

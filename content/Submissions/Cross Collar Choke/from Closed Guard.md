@@ -242,7 +242,7 @@ Strategically, the cross collar choke threat from closed guard functions as an o
 ## Related
 - [[Submissions/Cross Collar Choke]]
 - [[Submissions/Ezekiel Choke]]
-- [[Transitions/Guillotine Choke]]
+- [[Submissions/Guillotine Choke]]
 - [[Submissions/Arm in Guillotine]]
 - [[Submissions/Kimura]]
 - [[Positions/Closed Guard]] - Primary starting position providing posture control for grip establishment

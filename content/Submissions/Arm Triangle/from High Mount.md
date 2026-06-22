@@ -242,7 +242,7 @@ Strategically, the arm triangle from high mount integrates seamlessly into syste
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Transitions/Anaconda Choke]]
 - [[Submissions/Arm in Guillotine]]
 - [[Positions/Mount/High Mount]] - Starting position providing elevated control platform for arm isolation and submission setup

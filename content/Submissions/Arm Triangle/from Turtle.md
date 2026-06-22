@@ -244,10 +244,10 @@ At the competition level, this submission serves as a powerful secondary attack 
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Arm Triangle]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Arm Triangle]]
+- [[Submissions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
-- [[Transitions/Guillotine Choke]]
+- [[Submissions/Guillotine Choke]]
 - [[Submissions/Japanese Necktie]]
 - [[Positions/Turtle]] - Primary starting position for this submission variant
 - [[Positions/Side Control]] - Common finishing position after flattening opponent

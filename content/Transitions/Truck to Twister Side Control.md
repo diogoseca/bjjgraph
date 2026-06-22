@@ -251,7 +251,7 @@ This transition connects the Truck system to the Twister Side Control system, se
 
 - [[Submissions/Calf Slicer]] - Alternative submission from truck if transition is unnecessary
 
-- [[Transitions/Darce Choke]] - High-percentage submission available from twister side control
+- [[Submissions/Darce Choke]] - High-percentage submission available from twister side control
 
 - [[Positions/Half Guard]] - Counter outcome position if opponent escapes leg entanglement
 

@@ -250,7 +250,7 @@ The Explosive Bridge to Guard Recovery occupies a critical position in the North
 
 - [[Transitions/North-South to Kimura]] - Primary threat from top player whose setup creates timing windows for escape
 
-- [[Transitions/North-South Choke]] - Submission threat that creates timing windows when opponent commits weight
+- [[Submissions/North-South Choke]] - Submission threat that creates timing windows when opponent commits weight
 
 - [[Transitions/Bridge and Roll]] - Related bridging escape sharing fundamental hip extension mechanics
 

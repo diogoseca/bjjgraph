@@ -245,11 +245,11 @@ Unlike finishing from saddle or inside ashi where both legs are controlled, outs
 
 ## Related
 - [[Submissions/Inside Heel Hook]]
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Achilles Lock]]
 - [[Submissions/Calf Slicer]]
 - [[Transitions/Aoki Lock]]
-- [[Transitions/Estima Lock]]
+- [[Submissions/Estima Lock]]
 - [[Positions/Ashi Garami/Outside Ashi-Garami]] - Primary starting position for this submission variant
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Related leg entanglement offering inside heel hook
 - [[Positions/Ashi Garami/Saddle]] - Advanced entanglement commonly transitioned to from outside ashi

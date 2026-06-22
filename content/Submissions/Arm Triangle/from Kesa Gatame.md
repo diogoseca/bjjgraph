@@ -242,7 +242,7 @@ What makes the Kesa Gatame entry particularly dangerous is the head and arm cont
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Arm in Guillotine]]
 - [[Transitions/Anaconda Choke]]
 - [[Positions/Side Control/Kesa Gatame]] - Primary starting position with head and arm control already established

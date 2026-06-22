@@ -231,7 +231,7 @@ The Estima Lock to Saddle transition sits at a critical junction in modern leg l
 ## Related Techniques
 
 
-- [[Transitions/Estima Lock]] - Starting position for this transition
+- [[Submissions/Estima Lock]] - Starting position for this transition
 
 - [[Positions/Ashi Garami/Saddle]] - Target position achieved through successful backstep
 
@@ -251,7 +251,7 @@ The Estima Lock to Saddle transition sits at a critical junction in modern leg l
 
 - [[Positions/Ashi Garami]] - Parent category of leg entanglement positions
 
-- [[Transitions/Heel Hook]] - Primary finishing submission available from Saddle
+- [[Submissions/Heel Hook]] - Primary finishing submission available from Saddle
 
 
 </section>

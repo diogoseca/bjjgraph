@@ -159,7 +159,7 @@ description: "Escape North-South bottom position in BJJ. Comprehensive guide to 
 
 <aside class="entity-relations">
 <p class="also-known-as"><em>Also known as:</em> <strong>Kami Shiho Gatame</strong>, <strong>North South Position</strong>, <strong>69 Position</strong> <span class="role-hint">(bottom)</span></p>
-<p class="often-confused-with"><em>Often confused with</em> <strong>[[Transitions/North-South Choke|North-South Choke]]</strong> — the North-South Choke is a submission finished from this position, not the position itself</p>
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Submissions/North-South Choke|North-South Choke]]</strong> — the North-South Choke is a submission finished from this position, not the position itself</p>
 </aside>
 <section id="overview" class="content-section">
 

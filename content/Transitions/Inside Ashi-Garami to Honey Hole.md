@@ -255,7 +255,7 @@ The Inside Ashi-Garami to Honey Hole transition occupies a critical junction in 
 
 - [[Positions/Leg Entanglement]] - Conceptual framework - fundamental system governing all leg lock positions and transitions
 
-- [[Transitions/Heel Hook]] - Primary submission chain - heel hook attacks become dramatically higher percentage after completing this transition
+- [[Submissions/Heel Hook]] - Primary submission chain - heel hook attacks become dramatically higher percentage after completing this transition
 
 
 </section>

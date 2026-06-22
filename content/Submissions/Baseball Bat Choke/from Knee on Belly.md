@@ -231,7 +231,7 @@ The finishing mechanic involves a controlled spin away from the opponent after s
 ## Related
 - [[Submissions/Baseball Bat Choke]]
 - [[Submissions/Cross Collar Choke]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Ezekiel Choke]]
 - [[Submissions/Breadcutter Choke]]
 - [[Submissions/Bow and Arrow Choke]]

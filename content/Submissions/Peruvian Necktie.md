@@ -115,10 +115,10 @@ The Peruvian Necktie is a sophisticated blood choke that attacks the carotid art
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Guillotine Choke]] - Alternative front headlock choke when opponent's arm is not trapped
-- [[Transitions/Darce Choke]] - Parallel arm-in choke from similar front headlock positions
+- [[Submissions/Guillotine Choke]] - Alternative front headlock choke when opponent's arm is not trapped
+- [[Submissions/Darce Choke]] - Parallel arm-in choke from similar front headlock positions
 - [[Transitions/Anaconda Choke]] - Alternative front headlock finish using opposite arm configuration
-- [[Transitions/Arm Triangle]] - Related arm-in choking attack from similar control positions
+- [[Submissions/Arm Triangle]] - Related arm-in choking attack from similar control positions
 - [[Submissions/High Elbow Guillotine]] - Guillotine variation from same starting position
 - [[Submissions/Brabo Choke]] - Related front headlock choke variation
 - [[Submissions/Arm in Guillotine]] - Guillotine variation incorporating trapped arm

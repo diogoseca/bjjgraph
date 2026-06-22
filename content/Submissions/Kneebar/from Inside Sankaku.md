@@ -239,7 +239,7 @@ The kneebar from Inside Sankaku represents an essential component of a complete 
 
 ## Related
 - [[Submissions/Inside Heel Hook]]
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Toe Hold]]
 - [[Submissions/Calf Slicer]]
 - [[Submissions/Flying Kneebar]]

@@ -243,9 +243,9 @@ The Transition to Backside 50-50 sits at a critical junction in the modern leg l
 
 - [[Transitions/Back Take from 50-50]] - Complementary transition that abandons legs for back control from similar position
 
-- [[Transitions/Heel Hook]] - Primary submission available after successful transition to Backside 50-50
+- [[Submissions/Heel Hook]] - Primary submission available after successful transition to Backside 50-50
 
-- [[Transitions/Outside Heel Hook]] - Secondary submission threat from Backside 50-50 top
+- [[Submissions/Outside Heel Hook]] - Secondary submission threat from Backside 50-50 top
 
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Related leg entanglement position in the same system hierarchy
 

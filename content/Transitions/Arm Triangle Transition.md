@@ -237,11 +237,11 @@ The Arm Triangle Transition occupies a critical role in the Hindulotine attack s
 
 - [[Positions/Side Control]] - Target position for finishing the arm triangle
 
-- [[Transitions/Arm Triangle]] - The submission finish available after completing the transition
+- [[Submissions/Arm Triangle]] - The submission finish available after completing the transition
 
 - [[Transitions/Arm Triangle Setup]] - Related transition establishing arm triangle from North-South
 
-- [[Transitions/Guillotine Choke]] - Alternative finish if opponent removes the frame
+- [[Submissions/Guillotine Choke]] - Alternative finish if opponent removes the frame
 
 - [[Transitions/Back Take from Bottom]] - Alternative transition when opponent turns away from both threats
 

@@ -254,7 +254,7 @@ The Kimura from Mount represents one of the highest-percentage shoulder lock att
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Ezekiel Choke]]
 - [[Submissions/Cross Collar Choke]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Reverse Kimura]]
 - [[Submissions/Belly Down Armbar]]
 - [[Submissions/Triangle Choke]]

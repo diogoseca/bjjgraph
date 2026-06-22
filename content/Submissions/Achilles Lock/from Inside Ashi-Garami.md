@@ -246,13 +246,13 @@ The Achilles Lock is a fundamental leg lock submission that targets the Achilles
 
 ## Related
 - [[Submissions/Straight Ankle Lock]]
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
-- [[Transitions/Outside Heel Hook]]
+- [[Submissions/Outside Heel Hook]]
 - [[Transitions/Kneebar]]
 - [[Submissions/Toe Hold]]
 - [[Submissions/Calf Slicer]]
-- [[Transitions/Estima Lock]]
+- [[Submissions/Estima Lock]]
 - [[Positions/Ashi Garami]] - Primary position for Achilles Lock setup and control
 - [[Positions/Ashi Garami/Outside Ashi-Garami]] - Alternative position providing different angle for Achilles Lock
 - [[Positions/X-Guard/Single Leg X-Guard]] - Common entry position transitioning to Achilles Lock

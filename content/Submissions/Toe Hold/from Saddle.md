@@ -224,10 +224,10 @@ Technically, the saddle amplifies the toe hold's effectiveness compared to other
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
 - [[Submissions/Calf Slicer]]
-- [[Transitions/Estima Lock]]
+- [[Submissions/Estima Lock]]
 - [[Positions/Aoki Lock Control]]
 - [[Submissions/Achilles Lock]]
 - [[Positions/Ashi Garami/Saddle]] - Primary starting position for this submission variant

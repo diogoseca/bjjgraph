@@ -245,7 +245,7 @@ What makes this variation particularly dangerous at the competitive level is the
 - [[Submissions/Baratoplata]]
 - [[Transitions/Gogoplata]]
 - [[Submissions/Omoplata]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Positions/Half Guard/Electric Chair]]
 - [[Positions/Crackhead Control]] - Primary starting position providing posture control and arm isolation for the submission
 - [[Positions/Rubber Guard/Mission Control]] - Preceding rubber guard position that transitions into crackhead control setup

@@ -243,7 +243,7 @@ What makes this chain particularly dangerous in competition is the binary dilemm
 ## Related
 - [[Submissions/Kimura]]
 - [[Submissions/Far Side Armbar]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Belly Down Armbar]]
 - [[Submissions/Baratoplata]]
 - [[Positions/Armbar Control]] - Starting position where armbar-to-omoplata chain originates

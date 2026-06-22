@@ -116,8 +116,8 @@ The Paper Cutter Choke is a highly effective blood choke executed primarily from
 
 ## Related
 - [[Submissions/Cross Collar Choke]] - Related collar choke using similar grip mechanics from top position
-- [[Transitions/Arm Triangle]] - Common backup submission when paper cutter is defended
-- [[Transitions/Darce Choke]] - Alternative head-and-arm choke from similar top control positions
+- [[Submissions/Arm Triangle]] - Common backup submission when paper cutter is defended
+- [[Submissions/Darce Choke]] - Alternative head-and-arm choke from similar top control positions
 - [[Transitions/Anaconda Choke]] - Complementary front headlock choke sharing neck compression principles
 - [[Submissions/Ezekiel Choke]] - Alternative gi choke applicable from similar top control positions
 - [[Transitions/Clock Choke]] - Related collar choke accessible when standard paper cutter is defended

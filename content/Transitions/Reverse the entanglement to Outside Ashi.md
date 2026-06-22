@@ -237,7 +237,7 @@ The reversal to Outside Ashi fits within the broader defensive leg lock system a
 
 - [[Positions/Ashi Garami/50-50 Guard]] - Alternative target when Outside Ashi blocked
 
-- [[Transitions/Heel Hook]] - Primary submission from resulting position
+- [[Submissions/Heel Hook]] - Primary submission from resulting position
 
 - [[Positions/Ashi Garami/Saddle]] - Opponent's counter-target if reversal fails
 

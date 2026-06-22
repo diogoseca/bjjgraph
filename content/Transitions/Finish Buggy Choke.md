@@ -76,7 +76,7 @@ Strategically, committing to the finish requires reading opponent defensive reac
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Buggy Choke]] | 58% |
+| Success | [[Buggy Choke from Buggy Choke]] | 58% |
 | Failure | [[Positions/Buggy Choke]] | 30% |
 | Counter | [[Positions/Half Guard]] | 12% |
 
@@ -245,7 +245,7 @@ Finish Buggy Choke represents the terminal attack option from the buggy choke co
 
 - [[Positions/Twister Control/Truck]] - Transition option when opponent granby rolls
 
-- [[Transitions/Darce Choke]] - Alternative choke when opponent turns into attack
+- [[Submissions/Darce Choke]] - Alternative choke when opponent turns into attack
 
 - [[Transitions/Anaconda Choke]] - Related front headlock submission option
 

@@ -248,7 +248,7 @@ The Kneebar from Guard represents a powerful attacking option from bottom positi
 - [[Transitions/Kneebar]]
 - [[Submissions/Flying Kneebar]]
 - [[Submissions/Inside Heel Hook]]
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Straight Ankle Lock]]
 - [[Submissions/Toe Hold]]
 - [[Submissions/Triangle Choke]]

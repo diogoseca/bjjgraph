@@ -241,7 +241,7 @@ The submission chains available from this position further elevate its strategic
 - [[Submissions/Kimura]]
 - [[Submissions/Americana]]
 - [[Submissions/Far Side Armbar]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Reverse Kimura]]
 - [[Positions/Side Control/Kuzure Kesa-Gatame]] - Starting position providing the arm isolation that enables this submission
 - [[Positions/Kimura Trap]] - Transitional control position when opponent defends the finish

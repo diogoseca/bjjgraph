@@ -115,7 +115,7 @@ The Arm Crush is a powerful shoulder lock submission that combines crushing pres
 
 ## Related
 - [[Submissions/Americana]] - Similar shoulder lock sharing rotational mechanics - alternative finish when opponent straightens arm during defense
-- [[Transitions/Arm Triangle]] - Alternative submission from side control when opponent defends Arm Crush by pulling elbow tight to body
+- [[Submissions/Arm Triangle]] - Alternative submission from side control when opponent defends Arm Crush by pulling elbow tight to body
 - [[Positions/Side Control]] - Primary attacking position - establishes the control needed for submission setup
 - [[Positions/Kimura Trap]] - Related system - Arm Crush can be integrated into Kimura-based attack sequences
 - [[Positions/Side Control/Kuzure Kesa-Gatame]] - Ideal setup position - arm is already trapped in perfect configuration

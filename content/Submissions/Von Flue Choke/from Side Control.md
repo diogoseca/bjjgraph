@@ -244,12 +244,12 @@ The Von Flue Choke is a devastating counter-submission that punishes opponents w
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Guillotine Choke]]
+- [[Submissions/Guillotine Choke]]
 - [[Submissions/Arm in Guillotine]]
 - [[Submissions/Chin Strap Guillotine]]
-- [[Transitions/North-South Choke]]
-- [[Transitions/Arm Triangle]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/North-South Choke]]
+- [[Submissions/Arm Triangle]]
+- [[Submissions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
 - [[Submissions/Ezekiel Choke]]
 - [[Positions/Side Control]] - Primary position for applying Von Flue choke

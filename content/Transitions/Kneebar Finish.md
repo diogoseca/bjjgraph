@@ -76,7 +76,7 @@ What makes this finish particularly effective from Carni is the element of surpr
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Transitions/Kneebar]] | 65% |
+| Success | [[Kneebar from Carni]] | 65% |
 | Failure | [[Positions/Rubber Guard/Carni]] | 25% |
 | Counter | [[Positions/Half Guard]] | 10% |
 
@@ -243,7 +243,7 @@ The Kneebar Finish integrates into the Carni attack system as the complementary 
 
 - [[Positions/Half Guard]] - Common recovery position for defender after successful counter-escape
 
-- [[Transitions/Heel Hook]] - Primary Carni submission that creates the dilemma enabling kneebar opportunities
+- [[Submissions/Heel Hook]] - Primary Carni submission that creates the dilemma enabling kneebar opportunities
 
 - [[Transitions/Kneebar]] - Parent submission category covering kneebar mechanics across all positions
 

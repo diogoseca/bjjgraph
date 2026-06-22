@@ -236,9 +236,9 @@ This position-specific finish demands particular attention to safety due to the 
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Estima Lock]]
+- [[Submissions/Estima Lock]]
 - [[Submissions/Achilles Lock]]
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
 - [[Submissions/Calf Slicer]]
 - [[Positions/Estima Lock Control]] - Primary control position from which this finish is executed

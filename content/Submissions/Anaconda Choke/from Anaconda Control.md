@@ -272,9 +272,9 @@ The technique has become a staple in modern BJJ competition, with the Anaconda-t
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Darce Choke]]
-- [[Transitions/Guillotine Choke]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Darce Choke]]
+- [[Submissions/Guillotine Choke]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/Brabo Choke]]
 - [[Submissions/Arm in Guillotine]]

@@ -251,7 +251,7 @@ The Crossface from Dogfight serves as the primary top player response when the b
 
 - [[Submissions/Americana]] - High-percentage submission available from resulting side control position
 
-- [[Transitions/Arm Triangle]] - Submission that develops naturally from sustained crossface pressure patterns
+- [[Submissions/Arm Triangle]] - Submission that develops naturally from sustained crossface pressure patterns
 
 
 </section>

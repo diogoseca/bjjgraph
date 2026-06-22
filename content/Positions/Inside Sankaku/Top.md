@@ -229,7 +229,7 @@ Inside Sankaku from the top perspective represents one of the most dominant and 
 **If opponent attempts to clear knee line by rotating away from you:**
 - Execute **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 65%)
 - Execute **[[Position maintenance with leg adjustment/Attacker|Position maintenance with leg adjustment]]** → [[Positions/Inside Sankaku]] (Probability: 60%)
-- Execute **[[Transitions/Outside Heel Hook/Attacker|Outside Heel Hook]]** → [[game-over]] (Probability: 50%)
+- Execute **[[Submissions/Outside Heel Hook/Attacker|Outside Heel Hook]]** → [[game-over]] (Probability: 50%)
 
 
 **If opponent turns into you attempting to pass knee line and stack:**

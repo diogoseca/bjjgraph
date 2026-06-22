@@ -239,11 +239,11 @@ The Kneebar from Half Guard represents a powerful offensive submission option th
 
 ## Related
 - [[Submissions/Inside Heel Hook]]
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Achilles Lock]]
 - [[Submissions/Calf Slicer]]
 - [[Submissions/Banana Split]]
-- [[Transitions/Estima Lock]]
+- [[Submissions/Estima Lock]]
 - [[Positions/Half Guard]] - Primary starting position for this submission—understanding half guard structure and controls is prerequisite
 - [[Transitions/Old School Sweep]] - Complementary technique from half guard that creates kneebar opportunity when defended
 - [[Positions/Half Guard/Lockdown]] - Leg entanglement that enhances control during transition to kneebar position

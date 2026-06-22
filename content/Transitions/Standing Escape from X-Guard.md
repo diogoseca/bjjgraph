@@ -255,7 +255,7 @@ The Standing Escape from X-Guard functions as a critical safety valve within the
 
 - [[Transitions/Half Guard to X-Guard]] - Reverse transition showing common pathway into X-Guard that this escape undoes
 
-- [[Transitions/Heel Hook]] - Submission threat the bottom player may pursue via ashi garami entry during failed escape, creating urgency to complete extraction
+- [[Submissions/Heel Hook]] - Submission threat the bottom player may pursue via ashi garami entry during failed escape, creating urgency to complete extraction
 
 - [[Positions/Combat Base]] - Intermediate base position that may be used during controlled extraction from X-Guard
 

@@ -225,11 +225,11 @@ Strategically, the toe hold from ushiro serves as a critical secondary attack wh
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
 - [[Submissions/Achilles Lock]]
 - [[Submissions/Calf Slicer]]
-- [[Transitions/Estima Lock]]
+- [[Submissions/Estima Lock]]
 - [[Positions/Ashi Garami/Ushiro Ashi-Garami]] - Primary starting position providing the reversed entanglement for this toe hold variant
 - [[Positions/Ashi Garami/Outside Ashi-Garami]] - Standard entanglement that transitions to ushiro configuration during opponent inversion
 - [[Positions/Ashi Garami/Saddle]] - High-control entanglement position where similar toe hold mechanics apply

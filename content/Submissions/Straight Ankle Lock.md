@@ -119,14 +119,14 @@ The Straight Ankle Lock (also called Straight Footlock) is the most fundamental 
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Heel Hook]] - Primary follow-up submission when opponent defends ankle lock by rotating knee inward, exposing the heel
+- [[Submissions/Heel Hook]] - Primary follow-up submission when opponent defends ankle lock by rotating knee inward, exposing the heel
 - [[Submissions/Inside Heel Hook]] - Advanced variant attacking inside heel exposure from deeper leg entanglements like Saddle
-- [[Transitions/Outside Heel Hook]] - Alternative heel attack available when outside leg control is established in Outside Ashi
+- [[Submissions/Outside Heel Hook]] - Alternative heel attack available when outside leg control is established in Outside Ashi
 - [[Submissions/Toe Hold]] - Alternative ankle attack capitalizing on opponent turning knee inward to defend the straight ankle lock
 - [[Transitions/Kneebar]] - Leg attack targeting the knee joint, often chained when opponent straightens leg to defend ankle lock
 - [[Submissions/Achilles Lock]] - Compression-based ankle attack sharing similar leg control positions and armpit mechanics
 - [[Submissions/Calf Slicer]] - Compression submission available from similar leg entanglement configurations when opponent bends knee
-- [[Transitions/Estima Lock]] - Ankle lock variant attacking the foot from different angles, often from top passing positions
+- [[Submissions/Estima Lock]] - Ankle lock variant attacking the foot from different angles, often from top passing positions
 - [[Submissions/Flying Kneebar]] - Dynamic standing entry into the leg attack system that can transition to ankle lock control
 - [[Positions/Ashi Garami]] - Primary control position for straight ankle lock application
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Most common variation of Ashi Garami for this submission

@@ -224,7 +224,7 @@ The twister carries extreme injury risk to the spine and neck, demanding excepti
 - [[Submissions/Banana Split]]
 - [[Positions/Half Guard/Electric Chair]]
 - [[Submissions/Calf Slicer]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Darce Choke]]
 - [[Submissions/Spine Lock]]
 - [[Positions/Twister Control/Twister Side Control]] - Primary starting position providing lateral base and leg entanglement for the twister finish
 - [[Positions/Twister Control/Truck]] - Common entry position leading to twister side control and twister setup

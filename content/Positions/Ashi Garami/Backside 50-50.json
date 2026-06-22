@@ -337,7 +337,7 @@
     "transitions": [
       {
         "transition": "Heel Hook from Backside 50-50",
-        "attempt_probability": 36
+        "attempt_probability": 38
       },
       {
         "transition": "Toe Hold from Backside 50-50",
@@ -352,7 +352,7 @@
         "attempt_probability": 10
       },
       {
-        "transition": "Kneebar from Backside 50-50",
+        "transition": "Kneebar",
         "attempt_probability": 5
       },
       {
@@ -378,14 +378,6 @@
       {
         "transition": "Outside Heel Hook from Backside 50-50",
         "attempt_probability": 10
-      },
-      {
-        "transition": "Kneebar",
-        "attempt_probability": 1
-      },
-      {
-        "transition": "Outside Heel Hook",
-        "attempt_probability": 1
       }
     ]
   },

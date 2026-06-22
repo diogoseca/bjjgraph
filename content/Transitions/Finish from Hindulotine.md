@@ -76,7 +76,7 @@ Success depends on the attacker's ability to make continuous micro-adjustments t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Hindulotine]] | 55% |
+| Success | [[Hindulotine from Hindulotine]] | 55% |
 | Failure | [[Positions/Hindulotine]] | 30% |
 | Counter | [[Positions/Half Guard]] | 15% |
 
@@ -249,7 +249,7 @@ The Finish from Hindulotine serves as the terminal submission pathway within the
 
 - [[Positions/Back Control]] - Alternative transition when opponent turns away during finish attempt
 
-- [[Transitions/Guillotine Choke]] - Related finishing technique sharing guillotine grip foundation
+- [[Submissions/Guillotine Choke]] - Related finishing technique sharing guillotine grip foundation
 
 - [[Submissions/Arm in Guillotine]] - Related submission variation with arm trapped in choking configuration
 

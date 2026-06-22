@@ -256,7 +256,7 @@ The Arm Drag Escape occupies a critical role within the front headlock defensive
 
 - [[Transitions/Arm Drag Sweep]] - Related technique - arm drag mechanics applied offensively from guard
 
-- [[Transitions/Guillotine Choke]] - Primary submission threat during failed arm drag attempts when neck is exposed
+- [[Submissions/Guillotine Choke]] - Primary submission threat during failed arm drag attempts when neck is exposed
 
 
 </section>

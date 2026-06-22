@@ -32,7 +32,7 @@
       "result": "success"
     },
     {
-      "to": "Omoplata Control",
+      "to": "Omoplata Control/Top",
       "probability": 25,
       "result": "failure"
     },
@@ -42,7 +42,7 @@
       "result": "failure"
     },
     {
-      "to": "Side Control",
+      "to": "Side Control/Bottom",
       "probability": 15,
       "result": "counter"
     }
@@ -203,7 +203,7 @@
         "counter": "Forward roll to escape the shoulder lock before it is fully secured",
         "effectiveness": "High",
         "your_response": "Grab the opponent's far hip or belt immediately when sitting up to block the roll. If they begin rolling, follow them and transition to a mounted position or re-establish omoplata control from the other side.",
-        "targets_outcome": "Side Control"
+        "targets_outcome": "Side Control/Bottom"
       },
       {
         "counter": "Posturing up and pulling the trapped arm free before the leg clears the shoulder",
@@ -215,7 +215,7 @@
         "counter": "Clasping hands together to prevent arm isolation and shoulder lock extension",
         "effectiveness": "Medium",
         "your_response": "Use your free hand to attack the clasped grip by wedging your fingers between their hands or applying wrist control to separate them. Alternatively, maintain pressure and transition to a wrist lock on the clasped hand or sweep to mount.",
-        "targets_outcome": "Omoplata Control"
+        "targets_outcome": "Omoplata Control/Top"
       },
       {
         "counter": "Stacking pressure by driving weight forward to compress the guard player's position",
@@ -376,7 +376,7 @@
       {
         "action": "Forward roll escape - tuck chin and roll over the trapped shoulder before hip control is established",
         "when_to_use": "Mid-stage - the leg is over your shoulder and the attacker is beginning to sit up, but has not yet controlled your far hip",
-        "targets_outcome": "Side Control",
+        "targets_outcome": "Side Control/Bottom",
         "if_successful": "Escape the omoplata entirely and potentially achieve a passing or scramble position",
         "risk": "Medium - if the attacker has already secured hip control, the roll will be blocked and you will be in a worse position"
       },
@@ -390,7 +390,7 @@
       {
         "action": "Clasp hands together to prevent arm extension and buy time for escape",
         "when_to_use": "Late stage - omoplata is established and you need to delay the finish while working an escape",
-        "targets_outcome": "Omoplata Control",
+        "targets_outcome": "Omoplata Control/Top",
         "if_successful": "Prevents immediate tap and creates time window for other escape attempts or grip breaks",
         "risk": "High - this is a stalling defense only, and skilled attackers will break the clasp through wrist locks or leverage"
       }
@@ -403,7 +403,7 @@
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Side Control",
+        "outcome": "Side Control/Bottom",
         "how": "Execute the forward roll escape before the attacker secures hip control, rolling over the trapped shoulder and using the momentum to establish a passing or scramble position"
       },
       {

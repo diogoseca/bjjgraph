@@ -224,7 +224,7 @@ Strategically, this submission functions as a natural chain attack from North-So
 
 ## Related
 - [[Submissions/Americana]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Kimura]]
 - [[Submissions/Far Side Armbar]]
 - [[Positions/North-South]] - Primary control position for this submission variant

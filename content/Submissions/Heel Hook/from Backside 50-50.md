@@ -245,10 +245,10 @@ Competition analysis reveals that this attack succeeds most often as a counter-a
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Achilles Lock]]
 - [[Positions/Aoki Lock Control]]
-- [[Transitions/Estima Lock]]
+- [[Submissions/Estima Lock]]
 - [[Submissions/Calf Slicer]]
 - [[Positions/Ashi Garami/Backside 50-50]] - Source position where this heel hook attack originates from bottom
 - [[Positions/Ashi Garami/Saddle]] - Superior leg entanglement offering higher-percentage heel hook finishes for comparison

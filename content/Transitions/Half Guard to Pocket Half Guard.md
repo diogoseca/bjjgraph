@@ -249,7 +249,7 @@ The Transition to Pocket Half Guard occupies a critical position in the Half Gua
 
 - [[Transitions/Crossface Pass]] - Alternative passing technique that shares crossface control mechanics
 
-- [[Transitions/Darce Choke]] - Submission opportunity when bottom player turns into underhook during transition
+- [[Submissions/Darce Choke]] - Submission opportunity when bottom player turns into underhook during transition
 
 - [[Submissions/Kimura]] - Submission threat on bottom player's defending arm during underhook battle
 

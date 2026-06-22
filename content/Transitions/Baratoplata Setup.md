@@ -76,7 +76,7 @@ The technique requires precise timing and mechanical understanding. Unlike strai
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Submissions/Baratoplata]] | 50% |
+| Success | [[Positions/Omoplata Control]] | 50% |
 | Failure | [[Positions/Rubber Guard/Meathook]] | 25% |
 | Counter | [[Positions/Armbar Control]] | 15% |
 | Counter | [[Positions/Closed Guard]] | 10% |

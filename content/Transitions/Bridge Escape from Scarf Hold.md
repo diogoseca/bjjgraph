@@ -253,7 +253,7 @@ The bridge escape from scarf hold sits within the broader scarf hold bottom defe
 
 - [[Submissions/Americana]] - Submission threat from scarf hold that creates escape windows when opponent attacks
 
-- [[Transitions/Arm Triangle]] - Submission threat motivating urgency to escape scarf hold control
+- [[Submissions/Arm Triangle]] - Submission threat motivating urgency to escape scarf hold control
 
 
 </section>

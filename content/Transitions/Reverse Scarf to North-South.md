@@ -257,7 +257,7 @@ The Reverse Scarf to North-South transition occupies a critical junction in the 
 
 - [[Transitions/Reverse Scarf to Side Control]] - Alternative advancement from the same starting position
 
-- [[Transitions/North-South Choke]] - Primary submission follow-up available after completing the transition
+- [[Submissions/North-South Choke]] - Primary submission follow-up available after completing the transition
 
 
 </section>

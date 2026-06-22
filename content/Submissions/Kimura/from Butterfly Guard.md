@@ -245,7 +245,7 @@ Advanced practitioners chain the Kimura attempt directly off failed or feinted b
 
 ## Related
 - [[Submissions/Kimura]]
-- [[Transitions/Guillotine Choke]]
+- [[Submissions/Guillotine Choke]]
 - [[Submissions/Americana]]
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Arm in Guillotine]]

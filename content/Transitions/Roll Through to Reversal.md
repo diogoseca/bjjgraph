@@ -243,11 +243,11 @@ The Roll Through to Reversal integrates into the front headlock escape system as
 
 - [[Transitions/Guillotine Defense]] - Defensive skill needed during roll execution to protect neck
 
-- [[Transitions/Guillotine Choke]] - Submission threat during roll and available attack after successful reversal
+- [[Submissions/Guillotine Choke]] - Submission threat during roll and available attack after successful reversal
 
 - [[Transitions/Anaconda Choke]] - Submission available from front headlock top after successful reversal
 
-- [[Transitions/Darce Choke]] - Submission available from front headlock top after successful reversal
+- [[Submissions/Darce Choke]] - Submission available from front headlock top after successful reversal
 
 - [[Transitions/Back Take]] - Transition option after successful reversal from front headlock top
 

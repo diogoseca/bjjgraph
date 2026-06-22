@@ -14,7 +14,7 @@
   "from_position": "Turtle/Top",
   "outcomes": [
     {
-      "to": "Arm Triangle",
+      "to": "Side Control/Top",
       "probability": 55,
       "result": "success"
     },

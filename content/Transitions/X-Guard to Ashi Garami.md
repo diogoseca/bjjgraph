@@ -256,7 +256,7 @@ The X-Guard to Ashi transition represents a critical link between traditional gu
 
 - [[Transitions/Inside Ashi Entry]] - Alternative Entry Method
 
-- [[Transitions/Heel Hook]] - Primary Submission Follow-Up
+- [[Submissions/Heel Hook]] - Primary Submission Follow-Up
 
 - [[Submissions/Inside Heel Hook]] - Specific Submission From Position
 

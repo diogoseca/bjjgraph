@@ -226,7 +226,7 @@ The learning progression for Twister Side Control top is significant, with begin
 
 
 **If bottom player attempts to turn into top player to create frames or relieve pressure:**
-- Execute **[[Transitions/Darce Choke/Attacker|Darce Choke]]** → [[game-over]] (Probability: 70%)
+- Execute **[[Submissions/Darce Choke/Attacker|Darce Choke]]** → [[game-over]] (Probability: 70%)
 - Execute **[[Transitions/Anaconda Choke/Attacker|Anaconda Choke]]** → [[game-over]] (Probability: 65%)
 
 
@@ -242,7 +242,7 @@ The learning progression for Twister Side Control top is significant, with begin
 
 **If bottom player extends near arm to frame or post during escape attempt:**
 - Execute **[[Submissions/Kimura/Attacker|Kimura]]** → [[game-over]] (Probability: 68%)
-- Execute **[[Transitions/Arm Triangle/Attacker|Arm Triangle]]** → [[game-over]] (Probability: 55%)
+- Execute **[[Submissions/Arm Triangle/Attacker|Arm Triangle]]** → [[game-over]] (Probability: 55%)
 
 
 
@@ -350,7 +350,7 @@ Start from various positions (truck, side control, failed back take). Partner pr
 
 - **[[Positions/Twister Control/Truck]]** - Primary entry position and related control structure within twister system
 - **[[Positions/Twister Control]]** - Advanced progression when achieving full twister setup mechanics
-- **[[Transitions/Darce Choke]]** - High-percentage submission option when bottom player turns into top player
+- **[[Submissions/Darce Choke]]** - High-percentage submission option when bottom player turns into top player
 - **[[Transitions/Anaconda Choke]]** - Alternative front choke option from similar positional structure
 - **[[Positions/Back Control]]** - Common transition when bottom player exposes back during escape attempts
 - **[[Positions/Kimura Trap]]** - Submission control option when bottom player extends arm to frame

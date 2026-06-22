@@ -243,10 +243,10 @@ This submission chain is particularly effective because the Shoulder of Justice 
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Kimura]]
 - [[Submissions/Americana]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Darce Choke]]
 - [[Submissions/Ezekiel Choke]]
 - [[Positions/Shoulder of Justice]] - Starting position providing the jaw pressure setup for this choke entry
 - [[Positions/North-South]] - Finishing position where the choke is completed after hip sprawl transition

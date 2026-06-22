@@ -14,7 +14,7 @@
   "from_position": "Body Triangle/Top",
   "outcomes": [
     {
-      "to": "game-over",
+      "to": "Rear Naked Choke from Body Triangle",
       "probability": 35,
       "result": "success"
     },

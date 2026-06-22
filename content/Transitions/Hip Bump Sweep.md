@@ -242,7 +242,7 @@ The Hip Bump Sweep is part of the fundamental closed guard attack system and ser
 
 - [[Transitions/Kimura Sweep]] - Primary chain attack - used when opponent posts to defend Hip Bump, transitioning to Kimura grip
 
-- [[Transitions/Guillotine Choke]] - Secondary chain attack - used when opponent pulls arm back to defend Kimura
+- [[Submissions/Guillotine Choke]] - Secondary chain attack - used when opponent pulls arm back to defend Kimura
 
 - [[Transitions/Scissor Sweep]] - Alternative sweep from closed guard with different mechanics and timing
 

@@ -225,8 +225,8 @@ From a strategic perspective, the Saddle functions differently depending on rule
 
 
 **Opponent's heel is fully exposed and you have established figure-four grip:**
-- Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[game-over]] (Probability: 80%)
-- Execute **[[Transitions/Outside Heel Hook/Attacker|Outside Heel Hook]]** → [[game-over]] (Probability: 20%)
+- Execute **[[Submissions/Heel Hook/Attacker|Heel Hook]]** → [[game-over]] (Probability: 80%)
+- Execute **[[Submissions/Outside Heel Hook/Attacker|Outside Heel Hook]]** → [[game-over]] (Probability: 20%)
 
 
 **Opponent is hiding heel by rotating knee inward:**
@@ -348,7 +348,7 @@ Establish Saddle, partner executes specific escape sequences (hip clear, frame c
 - **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Primary entry pathway via back step progression
 - **[[Positions/Ashi Garami/50-50 Guard]]** - Entry position with elevation and clearing mechanics
 - **[[Submissions/Inside Heel Hook]]** - Primary finishing submission from this position
-- **[[Transitions/Outside Heel Hook]]** - Alternative heel hook attack when inside is defended
+- **[[Submissions/Outside Heel Hook]]** - Alternative heel hook attack when inside is defended
 - **[[Submissions/Straight Ankle Lock]]** - Lower-risk finishing option when heel is hidden
 - **[[Positions/Leg Entanglement]]** - Conceptual framework for position hierarchy
 

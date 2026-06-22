@@ -327,7 +327,7 @@ Partner holds Darce Control position with moderate resistance. Practice each esc
 ## Related Positions and Techniques
 
 - **[[Positions/Darce Control]]** - Hub position covering both perspectives
-- **[[Transitions/Darce Choke]]** - Primary submission threat from this position
+- **[[Submissions/Darce Choke]]** - Primary submission threat from this position
 - **[[Positions/Turtle]]** - Common entry position and primary escape target
 - **[[Positions/Front Headlock]]** - Related defensive position with similar escape mechanics
 - **[[Positions/Anaconda Control]]** - Similar choke defense position with overlapping escape strategies

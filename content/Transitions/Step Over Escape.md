@@ -247,7 +247,7 @@ The Step Over Escape occupies a critical role in the Darce Control Bottom defens
 
 - [[Transitions/Arm Extraction]] - Complementary technique - freeing the trapped arm during or after step over
 
-- [[Transitions/Darce Choke]] - Primary submission threat this escape defends against
+- [[Submissions/Darce Choke]] - Primary submission threat this escape defends against
 
 - [[Transitions/Granby Roll to Guard]] - Related escape using similar rotational mechanics from front headlock positions
 

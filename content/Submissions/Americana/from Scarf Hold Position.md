@@ -225,7 +225,7 @@ Defensively, the bottom player must recognize the grip transition early and figh
 ## Related
 - [[Submissions/Americana]]
 - [[Submissions/Kimura]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Kesa Gatame Arm Crush]]
 - [[Submissions/Far Side Armbar]]
 - [[Positions/Side Control/Scarf Hold Position]] - Primary starting position for this submission variant

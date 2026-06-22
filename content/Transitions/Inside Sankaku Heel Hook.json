@@ -14,7 +14,7 @@
   "from_position": "Inside Sankaku/Top",
   "outcomes": [
     {
-      "to": "Inside Heel Hook",
+      "to": "Inside Heel Hook from Inside Sankaku",
       "probability": 50,
       "result": "success"
     },

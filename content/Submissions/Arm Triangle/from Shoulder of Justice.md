@@ -242,7 +242,7 @@ The finishing sequence involves locking the head-and-arm grip, walking to a perp
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Transitions/Anaconda Choke]]
 - [[Positions/Shoulder of Justice]] - Starting position - intense jaw pressure forces the far-arm-across reaction
 - [[Positions/Side Control]] - Parent position category for Shoulder of Justice

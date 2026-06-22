@@ -240,12 +240,12 @@ Finishing the choke requires precise shoulder placement deep into the pocket bet
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Arm Triangle]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Arm Triangle]]
+- [[Submissions/Darce Choke]]
 - [[Submissions/Americana]]
 - [[Submissions/Kimura]]
 - [[Submissions/Ezekiel Choke]]
-- [[Transitions/Guillotine Choke]]
+- [[Submissions/Guillotine Choke]]
 - [[Positions/Side Control/Modified Scarf Hold]] - Starting position for this submission entry
 - [[Positions/North-South]] - Transitional position reached during the choke setup
 - [[Positions/Side Control]] - Parent position family for Modified Scarf Hold

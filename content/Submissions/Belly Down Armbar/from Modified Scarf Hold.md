@@ -227,7 +227,7 @@ Strategically, this submission excels when opponents defend the standard supine 
 - [[Submissions/Americana]]
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Kimura]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Positions/Side Control/Modified Scarf Hold]] - Starting position for this submission variant
 - [[Positions/Armbar Control]] - Intermediate control position during arm isolation
 - [[Positions/Side Control/Kesa Gatame]] - Related scarf hold variant with similar arm attack setups

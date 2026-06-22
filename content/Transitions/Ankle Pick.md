@@ -257,7 +257,7 @@ In the broader BJJ system, the Ankle Pick functions as both a primary attack and
 
 - [[Positions/Standing Position]] - Starting and reset position when ankle pick attempt fails
 
-- [[Transitions/Guillotine Choke]] - Submission threat opponent can apply if head position is incorrect during level change
+- [[Submissions/Guillotine Choke]] - Submission threat opponent can apply if head position is incorrect during level change
 
 - [[Transitions/Double Leg Entry]] - Alternative takedown chain when opponent lifts ankle to defend
 

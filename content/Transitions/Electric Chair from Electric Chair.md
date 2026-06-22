@@ -76,7 +76,7 @@ As a direct submission, the Electric Chair represents the ultimate threat that m
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 45% |
+| Success | [[Positions/Mount]] | 45% |
 | Failure | [[Positions/Half Guard/Electric Chair]] | 35% |
 | Counter | [[Positions/Half Guard]] | 20% |
 

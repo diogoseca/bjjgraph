@@ -245,7 +245,7 @@ From the attacker's perspective, the Inside Sankaku Heel Hook is the highest-per
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Submissions/Inside Heel Hook]] | 50% |
+| Success | [[Inside Heel Hook from Inside Sankaku]] | 50% |
 | Failure | [[Positions/Inside Sankaku]] | 30% |
 | Counter | [[Positions/Ashi Garami/50-50 Guard]] | 20% |
 

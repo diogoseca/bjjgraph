@@ -251,7 +251,7 @@ The Cross Ashi to 50-50 transition occupies a critical junction in the modern le
 
 - [[Positions/Ashi Garami/Honey Hole]] - Alternative transition target from cross ashi with deeper control structure
 
-- [[Transitions/Outside Heel Hook]] - Primary submission available from cross ashi before deciding to transition
+- [[Submissions/Outside Heel Hook]] - Primary submission available from cross ashi before deciding to transition
 
 - [[Submissions/Inside Heel Hook]] - Submission accessible from 50-50 after completing this transition
 

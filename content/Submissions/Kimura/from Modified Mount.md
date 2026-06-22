@@ -246,7 +246,7 @@ Strategically, this submission chains effectively with armbars and americanas fr
 - [[Submissions/Americana]]
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Reverse Kimura]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Positions/Mount/Modified Mount]] - Starting position providing asymmetric base for this submission variant
 - [[Positions/Mount]] - Parent position from which Modified Mount is established
 - [[Positions/Kimura Trap]] - Control position for maintaining Kimura grip during transitions

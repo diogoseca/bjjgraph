@@ -253,7 +253,7 @@ This transition occupies a critical junction in the leg lock defense decision tr
 
 - [[Transitions/Inside Ashi Entry]] - Follow-up transition available from Leg Entanglement to establish dominant inside control
 
-- [[Transitions/Heel Hook]] - Primary submission threat available once favorable entanglement position is achieved after this transition
+- [[Submissions/Heel Hook]] - Primary submission threat available once favorable entanglement position is achieved after this transition
 
 
 </section>

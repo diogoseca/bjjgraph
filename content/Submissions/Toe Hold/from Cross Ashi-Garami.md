@@ -238,11 +238,11 @@ From a competition perspective, the toe hold from cross ashi-garami serves as bo
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
 - [[Submissions/Achilles Lock]]
 - [[Transitions/Aoki Lock]]
-- [[Transitions/Estima Lock]]
+- [[Submissions/Estima Lock]]
 - [[Submissions/Calf Slicer]]
 - [[Positions/Ashi Garami/Cross Ashi-Garami]] - Primary starting position for this toe hold variant
 - [[Positions/Ashi Garami/Outside Ashi-Garami]] - Closely related leg entanglement with similar toe hold mechanics

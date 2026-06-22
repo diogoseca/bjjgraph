@@ -240,7 +240,7 @@ The Arm Triangle from Turtle is a powerful submission attack that exploits the d
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Transitions/Arm Triangle]] | 55% |
+| Success | [[Positions/Side Control]] | 55% |
 | Failure | [[Positions/Front Headlock]] | 25% |
 | Failure | [[Positions/Half Guard]] | 10% |
 | Counter | [[Positions/Closed Guard]] | 10% |

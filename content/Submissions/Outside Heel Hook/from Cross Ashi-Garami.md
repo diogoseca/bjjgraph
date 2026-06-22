@@ -222,9 +222,9 @@ From a defensive standpoint, the cross ashi heel hook demands immediate recognit
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Outside Heel Hook]]
+- [[Submissions/Outside Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Achilles Lock]]
 - [[Positions/Aoki Lock Control]]
 - [[Positions/Ashi Garami/Cross Ashi-Garami]] - Starting position for this submission variant

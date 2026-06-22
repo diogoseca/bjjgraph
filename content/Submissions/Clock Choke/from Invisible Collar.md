@@ -230,7 +230,7 @@ In competition, this technique punishes opponents who prioritize hook defense ov
 - [[Transitions/Clock Choke]]
 - [[Submissions/Bow and Arrow Choke]]
 - [[Submissions/Cross Collar Choke]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Darce Choke]]
 - [[Submissions/Breadcutter Choke]]
 - [[Positions/Rubber Guard/Invisible Collar]] - Starting position providing concealed collar grip for this submission
 - [[Positions/Back Control]] - Parent control position from which invisible collar is established

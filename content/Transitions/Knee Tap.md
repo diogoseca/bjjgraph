@@ -246,7 +246,7 @@ The knee tap serves as a critical bridge technique in the standing-to-ground tra
 
 - [[Positions/Front Headlock]] - Counter to defend - Common opponent response to failed attempts
 
-- [[Transitions/Guillotine Choke]] - Counter to avoid - Risk when head position is too low
+- [[Submissions/Guillotine Choke]] - Counter to avoid - Risk when head position is too low
 
 - [[Transitions/Sprawl]] - Counter to overcome - Primary defensive response
 

@@ -245,7 +245,7 @@ The Inside Ashi-Garami to Cross Ashi transition is an essential component of com
 
 - [[Positions/Ashi Garami/Honey Hole]] - Alternative name for Saddle - primary advancement target from Cross Ashi
 
-- [[Transitions/Heel Hook]] - Primary submission threat - main finishing option from Cross Ashi configuration
+- [[Submissions/Heel Hook]] - Primary submission threat - main finishing option from Cross Ashi configuration
 
 - [[Submissions/Inside Heel Hook]] - Submission option - available after successful transition completion
 

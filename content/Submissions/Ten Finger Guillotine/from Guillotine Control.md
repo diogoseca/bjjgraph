@@ -246,7 +246,7 @@ Strategically, this submission chains naturally with the broader guillotine cont
 - [[Submissions/Ten Finger Guillotine]]
 - [[Submissions/High Elbow Guillotine]]
 - [[Submissions/Arm in Guillotine]]
-- [[Transitions/Guillotine Choke]]
+- [[Submissions/Guillotine Choke]]
 - [[Submissions/Chin Strap Guillotine]]
 - [[Positions/Guillotine Control]] - Starting position for this submission variant
 - [[Positions/Front Headlock]] - Precursor control position before establishing guillotine grip

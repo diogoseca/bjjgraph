@@ -234,7 +234,7 @@ The learning progression for Modified Scarf Hold top follows predictable stages.
 
 **If opponent turns into you to escape chest pressure:**
 - Execute **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** → [[Positions/North-South]] (Probability: 75%)
-- Execute **[[Transitions/North-South Choke/Attacker|North-South Choke]]** → [[Positions/North-South]] (Probability: 50%)
+- Execute **[[Submissions/North-South Choke/Attacker|North-South Choke]]** → [[Positions/North-South]] (Probability: 50%)
 
 
 
@@ -334,7 +334,7 @@ Partner attempts specific escape (bridge, turtle, turn-in) and you counter with 
 - **[[Positions/Mount]]** - Advancement position
 - **[[Submissions/Americana]]** - Primary submission attack transition
 - **[[Submissions/Kimura]]** - High-percentage submission transition
-- **[[Transitions/Arm Triangle]]** - Core choke submission
+- **[[Submissions/Arm Triangle]]** - Core choke submission
 - **[[Positions/Side Control/Reverse Scarf Hold]]** - Related scarf hold variation
 
 

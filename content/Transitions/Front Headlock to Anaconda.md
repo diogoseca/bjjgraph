@@ -256,13 +256,13 @@ The technique integrates seamlessly with wrestling-based takedown systems, where
 
 - [[Transitions/Front Headlock to Back]] - Alternative attack - positional advance when submissions are defended
 
-- [[Transitions/Darce Choke]] - Related submission - closely related choke with similar arm-in mechanics
+- [[Submissions/Darce Choke]] - Related submission - closely related choke with similar arm-in mechanics
 
 - [[Transitions/Anaconda from Turtle]] - Setup variation - same finish from different entry position
 
 - [[Positions/Turtle]] - Common starting context - opponent's defensive position being attacked
 
-- [[Transitions/Guillotine Choke]] - Alternative attack - another front headlock submission option
+- [[Submissions/Guillotine Choke]] - Alternative attack - another front headlock submission option
 
 - [[Positions/Darce Control]] - Sister position - similar arm-in submission control with different threading angle
 

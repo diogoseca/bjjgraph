@@ -227,7 +227,7 @@ Strategically, this finish represents a high-percentage option when the defender
 ## Related
 - [[Submissions/Belly Down Armbar]]
 - [[Submissions/Far Side Armbar]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Kimura]]
 - [[Positions/Mount/Mounted Triangle]] - Primary starting position for this submission variant
 - [[Positions/Armbar Control]] - Standard armbar control position used during transition

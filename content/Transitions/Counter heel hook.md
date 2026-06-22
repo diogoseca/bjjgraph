@@ -246,7 +246,7 @@ The Counter Heel Hook sits at the highest level of 50-50 Guard Bottom defense, r
 
 - [[Positions/Ashi Garami]] - Counter outcome position when opponent reverses the exchange
 
-- [[Transitions/Heel Hook]] - Core submission mechanic underlying both attack and defense
+- [[Submissions/Heel Hook]] - Core submission mechanic underlying both attack and defense
 
 - [[Transitions/Kneebar]] - Chain attack when opponent straightens leg to extract heel
 

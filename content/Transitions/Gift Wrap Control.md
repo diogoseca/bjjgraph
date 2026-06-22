@@ -243,7 +243,7 @@ Gift Wrap Control functions as a transitional hub within the side control and mo
 
 - [[Transitions/Side Control to Mount]] - Alternative transition—used when Gift Wrap is not available
 
-- [[Transitions/Arm Triangle]] - Submission option—wrapped arm position can set up arm triangle
+- [[Submissions/Arm Triangle]] - Submission option—wrapped arm position can set up arm triangle
 
 - [[Submissions/Kimura]] - Alternative attack—used when arm extends during wrap attempt
 

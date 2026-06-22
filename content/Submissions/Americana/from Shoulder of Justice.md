@@ -244,7 +244,7 @@ Strategically, this submission functions as the centerpiece of the Shoulder of J
 ## Related
 - [[Submissions/Americana]]
 - [[Submissions/Kimura]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Ezekiel Choke]]
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Cross Collar Choke]]

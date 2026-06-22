@@ -14,7 +14,7 @@
   "from_position": "Leg Weave/Bottom",
   "outcomes": [
     {
-      "to": "Dogfight Position/Top",
+      "to": "Dogfight Position/Bottom",
       "probability": 55,
       "result": "success"
     },

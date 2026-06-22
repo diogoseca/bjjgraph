@@ -14,7 +14,7 @@
   "from_position": "Inside Ashi-Garami/Bottom",
   "outcomes": [
     {
-      "to": "Standing Position",
+      "to": "Standing Position/Bottom",
       "probability": 55,
       "result": "success"
     },
@@ -306,7 +306,7 @@
       {
         "action": "Extract your trapped heel during the knee recovery phase when the attacker's inside leg releases hip pressure",
         "when_to_use": "During the brief window when the attacker's inside leg transitions from hip frame to kneeling base, creating space around your trapped leg",
-        "targets_outcome": "Standing Position",
+        "targets_outcome": "Standing Position/Bottom",
         "if_successful": "Your leg is freed from the entanglement and both players can reset to standing, eliminating the leg lock threat entirely",
         "risk": "If the attacker's outside hook remains deep, extraction may fail and you remain partially entangled in a compromised position"
       }
@@ -317,7 +317,7 @@
         "how": "Counter the standup attempt by hooking the attacker's legs as they rise, establishing open guard connection before they achieve full standing. Extract your trapped leg during the transition when their inside leg pressure releases, converting a dangerous ashi garami into a manageable open guard exchange where you have sweep and guard retention pathways available."
       },
       {
-        "outcome": "Standing Position",
+        "outcome": "Standing Position/Bottom",
         "how": "Use the attacker's standup movement as an opportunity to extract your trapped heel. As they release heel grips to post and their inside leg pressure decreases, pull your leg free by rotating your knee outward and retracting your heel. Scramble to your feet alongside them, resetting to a neutral standing position where the leg lock threat is completely eliminated."
       }
     ],

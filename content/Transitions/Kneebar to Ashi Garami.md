@@ -243,7 +243,7 @@ The Kneebar to Ashi Garami transition occupies a critical junction in the modern
 
 - [[Transitions/Kneebar to 50-50 Transition]] - Alternative leg reconfiguration pathway from defended kneebar to symmetrical entanglement
 
-- [[Transitions/Heel Hook]] - Primary submission threat available after successful transition to inside ashi-garami
+- [[Submissions/Heel Hook]] - Primary submission threat available after successful transition to inside ashi-garami
 
 - [[Transitions/Straight Ankle Lock Entry]] - Foundational submission accessible from the target inside ashi-garami position
 

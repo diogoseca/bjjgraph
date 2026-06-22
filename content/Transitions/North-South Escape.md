@@ -254,7 +254,7 @@ The north-south escape is a critical component of the comprehensive pin escape s
 
 - [[Positions/Turtle]] - Alternative ending - intermediate position during some escape variations
 
-- [[Transitions/North-South Choke]] - Submission threat - must defend against while escaping
+- [[Submissions/North-South Choke]] - Submission threat - must defend against while escaping
 
 - [[Submissions/Kimura]] - Submission threat - common attack to be aware of during escape
 

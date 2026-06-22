@@ -225,8 +225,8 @@ This submission is most effective when chained with other Rodeo Ride attacks—t
 ## Related
 - [[Transitions/Clock Choke]]
 - [[Submissions/Bow and Arrow Choke]]
-- [[Transitions/Darce Choke]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Darce Choke]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Ezekiel Choke]]
 - [[Submissions/Breadcutter Choke]]
 - [[Positions/Rodeo Ride]] - Starting position providing dynamic control for this choke entry

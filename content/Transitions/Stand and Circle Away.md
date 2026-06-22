@@ -249,7 +249,7 @@ The Stand and Circle Away is a critical component of the front headlock bottom d
 
 - [[Positions/Back Control]] - Risk position — opponent may take back if circling exposes your back
 
-- [[Transitions/Guillotine Choke]] - Primary submission threat — standing into front headlock can feed guillotine mechanics
+- [[Submissions/Guillotine Choke]] - Primary submission threat — standing into front headlock can feed guillotine mechanics
 
 - [[Positions/Guillotine Control]] - Danger position — failed escape may result in opponent establishing guillotine control
 

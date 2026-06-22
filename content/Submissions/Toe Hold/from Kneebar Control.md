@@ -237,11 +237,11 @@ What makes this combination particularly effective is the dilemma it creates for
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
 - [[Submissions/Achilles Lock]]
 - [[Submissions/Calf Slicer]]
-- [[Transitions/Estima Lock]]
+- [[Submissions/Estima Lock]]
 - [[Positions/Kneebar Control]] - Primary starting position for this toe hold variant
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Related leg entanglement offering alternative toe hold entries
 - [[Positions/Ashi Garami/50-50 Guard]] - Symmetrical entanglement where toe hold mechanics apply similarly

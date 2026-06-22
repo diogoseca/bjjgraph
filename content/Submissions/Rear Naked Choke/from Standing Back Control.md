@@ -240,9 +240,9 @@ At the competition level, standing back control finishes appear frequently in bo
 ## Related
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/Bow and Arrow Choke]]
-- [[Transitions/Arm Triangle]]
-- [[Transitions/Guillotine Choke]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Arm Triangle]]
+- [[Submissions/Guillotine Choke]]
+- [[Submissions/Darce Choke]]
 - [[Positions/Back Control/Standing Back Control]] - Primary starting position — back exposure while both practitioners are standing
 - [[Positions/Back Control]] - Ground-based alternative where choke can be consolidated with greater stability
 - [[Positions/Clinch]] - Common preceding position from which standing back control is achieved

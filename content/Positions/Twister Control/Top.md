@@ -230,7 +230,7 @@ One critical aspect that differentiates elite-level Twister Control from interme
 
 
 **Opponent turns into you sacrificing back to escape twist:**
-- Execute **[[Transitions/Guillotine Choke/Attacker|Guillotine Choke]]** → [[game-over]] (Probability: 55%)
+- Execute **[[Submissions/Guillotine Choke/Attacker|Guillotine Choke]]** → [[game-over]] (Probability: 55%)
 - Execute **[[Front Headlock Series/Attacker|Front Headlock Series]]** → [[Positions/Front Headlock]] (Probability: 45%)
 
 

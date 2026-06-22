@@ -211,7 +211,7 @@ The strategic value of Leg Knot Top lies in its ability to create submission opp
 <p class="section-subtitle">What should you do from Leg Knot (Top)?</p>
 
 **If opponent attempts to extract trapped leg by pulling knee toward chest:**
-- Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 65%)
+- Execute **[[Submissions/Heel Hook/Attacker|Heel Hook]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 65%)
 - Execute **[[Estima Lock Setup/Attacker|Estima Lock Setup]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 70%)
 
 

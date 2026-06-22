@@ -249,9 +249,9 @@ Modern no-gi competition transformed bottom half guard from a survival position 
 ## Related
 - [[Positions/Half Guard/Electric Chair]]
 - [[Transitions/Anaconda Choke]]
-- [[Transitions/Darce Choke]]
-- [[Transitions/Guillotine Choke]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Darce Choke]]
+- [[Submissions/Guillotine Choke]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Kimura]]
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/Arm in Guillotine]]

@@ -245,7 +245,7 @@ The Fallback to Inside Ashi-Garami occupies a critical role in the leg lock syst
 
 - [[Transitions/Straight Ankle Lock Entry]] - Common follow-up attack from inside ashi immediately after fallback
 
-- [[Transitions/Heel Hook]] - Primary saddle attack that may have been defended, triggering the fallback
+- [[Submissions/Heel Hook]] - Primary saddle attack that may have been defended, triggering the fallback
 
 - [[Positions/Ashi Garami/Outside Ashi-Garami]] - Alternative leg entanglement if inside ashi is also compromised after fallback
 

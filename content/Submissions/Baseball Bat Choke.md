@@ -130,9 +130,9 @@ Named for the grip configuration that resembles holding a baseball bat, this tec
 - [[Submissions/Ezekiel Choke]] - Alternative finishing option from top positions when collar grips are unavailable
 - [[Transitions/Clock Choke]] - Alternative collar choke from turtle top using rotational pressure
 - [[Submissions/Breadcutter Choke]] - Related cross-collar choke from side control with comparable grip configuration
-- [[Transitions/Darce Choke]] - Alternative arm-in choke from similar top positions with no-gi applicability
-- [[Transitions/Guillotine Choke]] - Available during scrambles when opponent lifts head defending collar grips
-- [[Transitions/Arm Triangle]] - Alternative head-and-arm choke from top when collar access is denied
+- [[Submissions/Darce Choke]] - Alternative arm-in choke from similar top positions with no-gi applicability
+- [[Submissions/Guillotine Choke]] - Available during scrambles when opponent lifts head defending collar grips
+- [[Submissions/Arm Triangle]] - Alternative head-and-arm choke from top when collar access is denied
 - [[Positions/Side Control]] - Primary attacking position for establishing initial grips
 - [[Positions/Turtle]] - High-percentage position for baseball bat setup with easy collar access
 - [[Positions/North-South]] - Alternative attacking position with different finishing angle

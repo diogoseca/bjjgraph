@@ -242,11 +242,11 @@ From a strategic perspective, the kneebar from straight ankle lock control trans
 
 ## Related
 - [[Submissions/Achilles Lock]]
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
 - [[Submissions/Calf Slicer]]
 - [[Submissions/Flying Kneebar]]
-- [[Transitions/Estima Lock]]
+- [[Submissions/Estima Lock]]
 - [[Positions/Straight Ankle Lock Control]] - Starting position for this kneebar transition
 - [[Positions/Kneebar Control]] - Control position established upon successful entry
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Alternative leg entanglement accessible from same control

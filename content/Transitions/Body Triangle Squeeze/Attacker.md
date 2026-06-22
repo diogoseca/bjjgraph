@@ -238,7 +238,7 @@ From the attacker's perspective, the Body Triangle Squeeze transforms a dominant
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 35% |
+| Success | [[Rear Naked Choke from Body Triangle]] | 35% |
 | Failure | [[Positions/Back Control/Body Triangle]] | 45% |
 | Counter | [[Positions/Back Control]] | 20% |
 

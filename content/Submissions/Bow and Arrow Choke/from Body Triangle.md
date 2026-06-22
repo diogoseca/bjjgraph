@@ -227,7 +227,7 @@ At the competition level, this combination represents one of the most dominant f
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/Cross Collar Choke]]
 - [[Transitions/Clock Choke]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Positions/Back Control/Body Triangle]] - Starting position providing leg control and breathing restriction
 - [[Positions/Back Control]] - Parent position category for body triangle control
 - [[Positions/Crucifix]] - Transition target when opponent reaches back to defend collar grip

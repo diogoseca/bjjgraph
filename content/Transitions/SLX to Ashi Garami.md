@@ -253,7 +253,7 @@ The SLX to Ashi Garami transition occupies a critical junction in the modern leg
 
 - [[Transitions/Straight Ankle Lock Entry]] - Primary submission follow-up available immediately after achieving inside ashi
 
-- [[Transitions/Heel Hook]] - Advanced submission threat available from inside ashi position after transition
+- [[Submissions/Heel Hook]] - Advanced submission threat available from inside ashi position after transition
 
 - [[Transitions/Backstep from Single Leg X]] - Alternative technique the opponent may attempt from SLX top during transition
 

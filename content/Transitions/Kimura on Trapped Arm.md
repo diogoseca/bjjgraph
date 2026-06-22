@@ -76,7 +76,7 @@ The Kimura on Trapped Arm serves as both a direct submission threat and a contro
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Submissions/Kimura]] | 55% |
+| Success | [[Kimura from Gift Wrap]] | 55% |
 | Failure | [[Positions/Gift Wrap]] | 30% |
 | Counter | [[Positions/Back Control]] | 15% |
 

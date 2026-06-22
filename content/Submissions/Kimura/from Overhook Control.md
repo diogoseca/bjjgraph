@@ -244,9 +244,9 @@ Finishing the Kimura from overhook control often requires different body mechani
 ## Related
 - [[Submissions/Kimura]]
 - [[Submissions/Americana]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Reverse Kimura]]
 - [[Positions/Overhook Control]] - Starting position for this submission variant
 - [[Positions/Kimura Trap]] - Control position accessed when Kimura grip is partially locked

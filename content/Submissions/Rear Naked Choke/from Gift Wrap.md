@@ -227,7 +227,7 @@ From a systems perspective, the Gift Wrap RNC sits at the apex of the back attac
 ## Related
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/Gift Wrap Armbar]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Bow and Arrow Choke]]
 - [[Submissions/Short Choke]]
 - [[Positions/Gift Wrap]] - Starting position providing the arm trap that enables this finish

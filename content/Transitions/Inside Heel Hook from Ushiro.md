@@ -76,7 +76,7 @@ Strategically, this submission capitalizes on opponents who have partially escap
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Submissions/Inside Heel Hook]] | 55% |
+| Success | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 55% |
 | Failure | [[Positions/Ashi Garami/Ushiro Ashi-Garami]] | 30% |
 | Counter | [[Positions/Ashi Garami/50-50 Guard]] | 15% |
 
@@ -233,7 +233,7 @@ The Inside Heel Hook from Ushiro occupies a critical position in modern leg lock
 
 - [[Positions/Ashi Garami/Ushiro Ashi-Garami]] - Starting position for this technique
 
-- [[Transitions/Heel Hook]] - Parent submission category
+- [[Submissions/Heel Hook]] - Parent submission category
 
 - [[Positions/Ashi Garami/Saddle]] - Alternative position to transition to for higher-control finish
 

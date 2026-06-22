@@ -122,7 +122,7 @@
       "result": "failure"
     },
     {
-      "to": "Turtle",
+      "to": "Turtle/Top",
       "probability": 15,
       "result": "counter"
     }
@@ -219,7 +219,7 @@
         "counter": "Opponent explosively posts and stands to feet, using the lack of hooks to create separation",
         "effectiveness": "Medium",
         "your_response": "Follow the stand-up by maintaining chest connection and harness control. Transition to standing back control and either complete the choke standing or execute a mat return to grounded back control where you can establish hooks before reattempting.",
-        "targets_outcome": "Turtle"
+        "targets_outcome": "Turtle/Top"
       },
       {
         "counter": "Opponent strips the choking arm with a two-on-one grip, peeling it away from the neck",
@@ -231,7 +231,7 @@
         "counter": "Opponent rolls laterally to create a scramble and break the chest connection",
         "effectiveness": "Medium",
         "your_response": "Follow the roll by maintaining your chest glued to their back and adjusting your leg position to stay on top throughout the rotation. If you maintain connection, the roll often improves your position by transitioning toward full back control. If separation occurs, immediately re-engage to prevent guard recovery.",
-        "targets_outcome": "Turtle"
+        "targets_outcome": "Turtle/Top"
       }
     ],
     "common_errors": [
@@ -370,14 +370,14 @@
       {
         "action": "Explosive stand to feet: post with free hand and drive upward forcefully to break the chest-to-back connection and create separation",
         "when_to_use": "When the opponent commits weight forward for the choke and their posted leg base is compromised, or before the figure-four grip is established",
-        "targets_outcome": "Turtle",
+        "targets_outcome": "Turtle/Top",
         "if_successful": "Break free from Rodeo Ride control entirely, transition to standing position or force opponent to chase from standing back control",
         "risk": "If the choke is partially locked, standing can tighten the grip through gravity—only attempt when the choke grip is not yet consolidated"
       },
       {
         "action": "Granby roll escape: invert toward the free side using shoulder roll mechanics to face the opponent and recover guard position",
         "when_to_use": "When the opponent's weight is high on your shoulders with minimal hip control, creating space for the inversion movement underneath their pressure",
-        "targets_outcome": "Turtle",
+        "targets_outcome": "Turtle/Top",
         "if_successful": "Escape the back exposure entirely and recover to a guard position where you face the opponent with defensive tools available",
         "risk": "Exposes your neck momentarily during the roll if the choking arm is already partially threaded—timing must be before the arm is under the chin"
       },
@@ -396,7 +396,7 @@
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Turtle",
+        "outcome": "Turtle/Top",
         "how": "Strip the choking arm grip through two-on-one hand fighting and create space through explosive posting or standing, forcing the opponent to release Rodeo Ride control and reset their attack entirely"
       }
     ],

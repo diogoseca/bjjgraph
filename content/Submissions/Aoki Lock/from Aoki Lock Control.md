@@ -244,7 +244,7 @@ Strategically, this finish carries a 50% overall success rate reflecting strong 
 ## Related
 - [[Transitions/Aoki Lock]]
 - [[Submissions/Inside Heel Hook]]
-- [[Transitions/Outside Heel Hook]]
+- [[Submissions/Outside Heel Hook]]
 - [[Transitions/Kneebar]]
 - [[Submissions/Straight Ankle Lock]]
 - [[Positions/Aoki Lock Control]] - Starting control position for this finish

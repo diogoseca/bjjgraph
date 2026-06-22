@@ -239,9 +239,9 @@ The Hindulotine to Darce Choke transition exemplifies the modern submission chai
 
 - [[Positions/Darce Control]] - Target position on successful transition
 
-- [[Transitions/Darce Choke]] - Primary finish from achieved position
+- [[Submissions/Darce Choke]] - Primary finish from achieved position
 
-- [[Transitions/Guillotine Choke]] - Alternative finish if opponent removes frame
+- [[Submissions/Guillotine Choke]] - Alternative finish if opponent removes frame
 
 - [[Transitions/Hindulotine to Anaconda Choke]] - Alternative transition if opponent turns away
 

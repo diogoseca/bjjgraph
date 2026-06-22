@@ -243,9 +243,9 @@ Strategically, this submission creates a powerful dilemma: the opponent must cho
 ## Related
 - [[Submissions/Americana]]
 - [[Submissions/Reverse Kimura]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Kesa Gatame Arm Crush]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Darce Choke]]
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Ezekiel Choke]]
 - [[Submissions/Bicep Slicer]]

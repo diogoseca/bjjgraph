@@ -253,7 +253,7 @@ Prized by pressure passers for letting them strangle an opponent with their own 
 - [[Submissions/Ezekiel Choke]]
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Americana]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Bow and Arrow Choke]]
 - [[Submissions/Baseball Bat Choke]]
 - [[Positions/Mount]] - Primary starting position providing control and weight distribution for collar attacks

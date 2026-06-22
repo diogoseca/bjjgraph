@@ -124,7 +124,7 @@ This submission appears frequently in both gi and no-gi competition at all level
 - [[Submissions/Arm Crush]] - Direct arm compression attack from similar side control positions
 - [[Submissions/Kimura]] - Complementary shoulder lock that chains directly with far side armbar setups
 - [[Submissions/Americana]] - Near-arm shoulder lock creating defensive reactions that expose the far arm
-- [[Transitions/Arm Triangle]] - Head and arm choke available from similar top control positions
+- [[Submissions/Arm Triangle]] - Head and arm choke available from similar top control positions
 - [[Positions/Mount/S Mount]] - Elevated mount variation providing optimal platform for far side armbar finishing mechanics
 - [[Positions/Side Control]] - Primary starting position for far side armbar
 - [[Positions/Mount]] - Alternative starting position for far side armbar

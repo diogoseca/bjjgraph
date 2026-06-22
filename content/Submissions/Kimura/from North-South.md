@@ -244,11 +244,11 @@ Among the attacks available from the north-south pin, the Kimura stands out as a
 - [[Submissions/Kimura]]
 - [[Submissions/Americana]]
 - [[Submissions/Reverse Kimura]]
-- [[Transitions/North-South Choke]]
+- [[Submissions/North-South Choke]]
 - [[Submissions/Far Side Armbar]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Kesa Gatame Arm Crush]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Darce Choke]]
 - [[Submissions/Bicep Slicer]]
 - [[Positions/North-South]] - Primary starting position providing optimal control and leverage angle
 - [[Positions/Kimura Trap]] - System utilizing Kimura grip for positional control and submission chains

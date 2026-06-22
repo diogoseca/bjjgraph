@@ -229,7 +229,7 @@ Strategically, this finish sits at the apex of a submission chain from rear tria
 ## Related
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/Bow and Arrow Choke]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Transitions/Gogoplata]]
 - [[Positions/Triangle Control/Rear Triangle]] - Primary starting position for this submission finish
 - [[Positions/Back Control]] - Parent position from which rear triangle is entered

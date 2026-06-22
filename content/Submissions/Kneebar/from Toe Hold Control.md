@@ -223,12 +223,12 @@ The positional advantage is substantial because the leg is already isolated with
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
 - [[Submissions/Calf Slicer]]
 - [[Submissions/Achilles Lock]]
 - [[Submissions/Flying Kneebar]]
-- [[Transitions/Estima Lock]]
+- [[Submissions/Estima Lock]]
 - [[Positions/Toe Hold Control]] - Primary starting position for this chain submission transition
 - [[Positions/Kneebar Control]] - Control position established when kneebar is partially secured before finishing
 - [[Positions/Ashi Garami/Outside Ashi-Garami]] - Related leg entanglement offering alternative kneebar entry pathways

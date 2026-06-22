@@ -125,8 +125,8 @@ Due to the complex mechanics and significant injury potential, the Twister is co
 - [[Positions/Half Guard/Electric Chair]] - Related 10th Planet submission that chains directly with Twister entries
 - [[Submissions/Bicep Slicer]] - Complementary arm attack from similar back-exposure positions
 - [[Submissions/Bow and Arrow Choke]] - Alternative back attack submission from similar control positions
-- [[Transitions/Guillotine Choke]] - Available when opponent turns to escape Twister rotation
-- [[Transitions/Darce Choke]] - Front headlock attack accessible during Twister scrambles
+- [[Submissions/Guillotine Choke]] - Available when opponent turns to escape Twister rotation
+- [[Submissions/Darce Choke]] - Front headlock attack accessible during Twister scrambles
 - [[Submissions/Belly Down Armbar]] - Arm attack from similar back-exposure position
 - [[Submissions/Boston Crab]] - Related spinal compression submission from back exposure
 - [[Positions/Twister Control/Truck]] - Primary setup position - master this position before attempting Twister

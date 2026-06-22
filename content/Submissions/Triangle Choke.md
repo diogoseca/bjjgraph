@@ -132,9 +132,9 @@ The triangle choke's strategic value extends beyond its finishing potential—it
 ## Related
 - [[Submissions/Far Side Armbar]] - Primary chain when opponent defends triangle by extending arm to escape lock
 - [[Submissions/Omoplata]] - Alternative finish when triangle angle is denied and opponent pulls arm free
-- [[Transitions/Guillotine Choke]] - Complementary guard submission sharing similar head control and posture-breaking principles
+- [[Submissions/Guillotine Choke]] - Complementary guard submission sharing similar head control and posture-breaking principles
 - [[Transitions/Gogoplata]] - Advanced submission from triangle configuration using shin pressure on throat
-- [[Transitions/Arm Triangle]] - Related blood choke targeting same carotid arteries from top position
+- [[Submissions/Arm Triangle]] - Related blood choke targeting same carotid arteries from top position
 - [[Submissions/Cross Collar Choke]] - Complementary gi choke creating submission dilemma with triangle from closed guard
 - [[Positions/Closed Guard]] - Most common starting position for triangle choke setup
 - [[Transitions/Pendulum Sweep]] - Sweep option that creates triangle opportunity when opponent posts hand to defend

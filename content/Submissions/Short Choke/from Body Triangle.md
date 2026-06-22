@@ -240,7 +240,7 @@ What distinguishes this variant from other short choke entries is the stability 
 - [[Submissions/Bow and Arrow Choke]]
 - [[Submissions/Cross Collar Choke]]
 - [[Submissions/Ezekiel Choke]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Darce Choke]]
 - [[Positions/Back Control/Body Triangle]] - Primary control position providing the immobilizing platform for this choke
 - [[Positions/Back Control]] - Parent position family for back-based choke attacks
 - [[Positions/Back Control/Seat Belt Control Back]] - Upper body control configuration used to set up the lapel feed

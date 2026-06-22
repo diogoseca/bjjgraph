@@ -248,7 +248,7 @@ The counter entangle to 50-50 from ashi garami sits at a critical junction in th
 
 - [[Transitions/Backside 50-50 Entry from Ashi]] - Alternative entanglement change from ashi garami to backside configuration
 
-- [[Transitions/Heel Hook]] - Primary submission attack available from the resulting 50-50 position
+- [[Submissions/Heel Hook]] - Primary submission attack available from the resulting 50-50 position
 
 - [[Transitions/Straight Ankle Lock Entry]] - Alternative attack from ashi garami when counter entangle is not needed
 

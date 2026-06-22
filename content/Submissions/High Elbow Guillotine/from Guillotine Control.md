@@ -242,11 +242,11 @@ Strategically, the high elbow variation is the primary answer to the chin tuck d
 
 ## Related
 - [[Submissions/High Elbow Guillotine]]
-- [[Transitions/Guillotine Choke]]
+- [[Submissions/Guillotine Choke]]
 - [[Submissions/Arm in Guillotine]]
 - [[Submissions/Ten Finger Guillotine]]
 - [[Submissions/Chin Strap Guillotine]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
 - [[Submissions/Von Flue Choke]]
 - [[Positions/Guillotine Control]] - Starting position providing established head control and broken posture

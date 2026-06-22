@@ -238,7 +238,7 @@ The Guillotine Counter is a critical component of front headlock defense and scr
 
 - [[Transitions/Guillotine Defense]] - Core defensive technique - systematic approach to defending all guillotine variations
 
-- [[Transitions/Guillotine Choke]] - Offensive technique being countered - understanding the attack improves defense
+- [[Submissions/Guillotine Choke]] - Offensive technique being countered - understanding the attack improves defense
 
 - [[Transitions/Front Headlock to Guillotine]] - Common entry to guillotine that this counter must defend against
 

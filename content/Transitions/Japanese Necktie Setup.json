@@ -15,7 +15,7 @@
   "from_position": "Front Headlock/Top",
   "outcomes": [
     {
-      "to": "Japanese Necktie",
+      "to": "Japanese Necktie from Front Headlock",
       "probability": 55,
       "result": "success"
     },
@@ -165,7 +165,7 @@
         "counter": "Opponent tucks chin and defends neck",
         "effectiveness": "Low",
         "your_response": "Use chin as fulcrum point for leverage, continue with technique focusing on shoulder pressure and body positioning rather than forcing through chin defense to finish the strangle",
-        "targets_outcome": "Japanese Necktie"
+        "targets_outcome": "Japanese Necktie from Front Headlock"
       }
     ],
     "common_errors": [

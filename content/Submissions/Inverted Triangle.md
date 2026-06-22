@@ -121,8 +121,8 @@ As a chaining attack born from scrambles and failed-finish situations, the Inver
 - [[Transitions/Gogoplata]] - Advanced choke sharing inverted leg positioning principles
 - [[Submissions/Baratoplata]] - Shoulder lock chain option when inverted triangle is defended
 - [[Submissions/Far Side Armbar]] - Complementary armbar attack from perpendicular body positioning
-- [[Transitions/Guillotine Choke]] - Alternative choking submission available during scramble transitions
-- [[Transitions/Arm Triangle]] - Related blood choke using arm-across-neck compression principle
+- [[Submissions/Guillotine Choke]] - Alternative choking submission available during scramble transitions
+- [[Submissions/Arm Triangle]] - Related blood choke using arm-across-neck compression principle
 - [[Positions/Closed Guard]] - Primary starting position for establishing the inverted triangle entry
 - [[Positions/Armbar Control]] - Common chain position - inverted triangle often follows failed armbar attempts when transitioning through armbar control
 - [[Submissions/Kimura]] - Alternative submission - arm control can lead to kimura or inverted triangle

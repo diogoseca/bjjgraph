@@ -244,11 +244,11 @@ In competition, the standing guillotine creates a compelling strategic dilemma. 
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Guillotine Choke]]
+- [[Submissions/Guillotine Choke]]
 - [[Submissions/Arm in Guillotine]]
 - [[Submissions/Chin Strap Guillotine]]
 - [[Transitions/Anaconda Choke]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Brabo Choke]]
 - [[Positions/Clinch]] - Primary starting position where the guillotine opportunity is created through clinch exchanges
 - [[Positions/Standing Position]] - General standing context from which clinch engagements and guillotine entries develop

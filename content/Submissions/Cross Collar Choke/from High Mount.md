@@ -247,7 +247,7 @@ The finishing mechanics rely on proper wrist alignment against the carotid arter
 - [[Submissions/Belly Down Armbar]]
 - [[Submissions/Americana]]
 - [[Submissions/Cross Collar Choke]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Ezekiel Choke]]
 - [[Submissions/Kimura]]
 - [[Positions/Mount/High Mount]] - Primary starting position providing elevated platform for collar grip access

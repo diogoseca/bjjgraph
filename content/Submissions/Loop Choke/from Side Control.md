@@ -250,11 +250,11 @@ Practitioners who develop this technique gain a powerful addition to their side 
 ## Related
 - [[Submissions/Cross Collar Choke]]
 - [[Submissions/Ezekiel Choke]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Americana]]
 - [[Submissions/Baseball Bat Choke]]
 - [[Submissions/Breadcutter Choke]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Darce Choke]]
 - [[Submissions/Brabo Choke]]
 - [[Submissions/Kimura]]
 - [[Submissions/Far Side Armbar]]

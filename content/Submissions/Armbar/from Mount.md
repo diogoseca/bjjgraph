@@ -260,7 +260,7 @@ The armbar from mount serves as a gateway submission that opens pathways to mult
 - [[Submissions/Ezekiel Choke]]
 - [[Submissions/Kimura]]
 - [[Submissions/Armbar]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Flying Armbar]]
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Belly Down Armbar]]

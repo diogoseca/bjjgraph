@@ -246,7 +246,7 @@ Strategically, this finish thrives on the dilemma it creates within the broader 
 ## Related
 - [[Transitions/Anaconda Choke]]
 - [[Submissions/Brabo Choke]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Arm in Guillotine]]
 - [[Submissions/Chin Strap Guillotine]]
 - [[Positions/Dead Orchard Control]] - Source position—the established control state from which this finish is executed

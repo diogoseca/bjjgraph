@@ -247,7 +247,7 @@ The single leg takedown occupies a crucial position within the broader BJJ techn
 
 - [[Transitions/Sprawl]] - Primary counter - main defensive response opponents will use
 
-- [[Transitions/Guillotine Choke]] - Counter submission - common attack opponents attempt during single leg
+- [[Submissions/Guillotine Choke]] - Counter submission - common attack opponents attempt during single leg
 
 - [[Transitions/Snap Down to Front Headlock]] - Setup technique - creates reactions that open single leg opportunities
 

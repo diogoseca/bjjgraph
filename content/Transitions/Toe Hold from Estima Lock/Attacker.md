@@ -238,7 +238,7 @@ The Toe Hold from Estima Lock represents a sophisticated chain attack that capit
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Submissions/Toe Hold]] | 45% |
+| Success | [[Positions/Toe Hold Control]] | 45% |
 | Failure | [[Positions/Estima Lock Control]] | 35% |
 | Counter | [[Positions/Open Guard]] | 20% |
 

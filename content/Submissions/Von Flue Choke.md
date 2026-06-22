@@ -245,11 +245,11 @@ Named after UFC veteran Jason Von Flue, who popularized the technique against Al
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Guillotine Choke]]
+- [[Submissions/Guillotine Choke]]
 - [[Submissions/Arm in Guillotine]]
-- [[Transitions/North-South Choke]]
-- [[Transitions/Arm Triangle]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/North-South Choke]]
+- [[Submissions/Arm Triangle]]
+- [[Submissions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
 - [[Submissions/Ezekiel Choke]]
 - [[Positions/Side Control]] - Primary position for applying the Von Flue choke and the position you consolidate into when it fails

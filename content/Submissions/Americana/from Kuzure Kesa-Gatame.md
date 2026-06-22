@@ -242,7 +242,7 @@ Strategically, the Americana from Kuzure Kesa-Gatame anchors a submission chain 
 ## Related
 - [[Submissions/Americana]]
 - [[Submissions/Kimura]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Ezekiel Choke]]
 - [[Positions/Side Control/Kuzure Kesa-Gatame]] - Starting position providing the arm isolation that enables this submission

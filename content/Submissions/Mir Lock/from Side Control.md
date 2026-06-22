@@ -252,9 +252,9 @@ From dominant top side control, the Mir Lock weaponizes the same arm isolation t
 ## Related
 - [[Submissions/Americana]]
 - [[Submissions/Kimura]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Far Side Armbar]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Darce Choke]]
 - [[Submissions/Kesa Gatame Arm Crush]]
 - [[Submissions/Reverse Kimura]]
 - [[Submissions/Omoplata]]

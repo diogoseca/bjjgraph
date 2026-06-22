@@ -123,7 +123,7 @@ The technique requires precise control and understanding of leg entanglement mec
 
 ## Related
 - [[Submissions/Toe Hold]] - Common transition when opponent defends Estima Lock by pulling foot free
-- [[Transitions/Heel Hook]] - High-percentage leg lock creating submission chains with Estima Lock
+- [[Submissions/Heel Hook]] - High-percentage leg lock creating submission chains with Estima Lock
 - [[Submissions/Straight Ankle Lock]] - Transition option when opponent straightens leg to defend Estima Lock
 - [[Transitions/Kneebar]] - Alternative leg attack from similar entanglement positions
 - [[Submissions/Flying Kneebar]] - Dynamic kneebar variation creating offensive dilemmas in leg lock systems

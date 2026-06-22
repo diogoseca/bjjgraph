@@ -128,8 +128,8 @@ The Darce's effectiveness stems from its applicability across multiple positions
 
 ## Related
 - [[Transitions/Anaconda Choke]] - Closely related front headlock choke—opponent defending darce by turning in opens anaconda, and vice versa
-- [[Transitions/Guillotine Choke]] - Fellow front headlock submission—guillotine defense often creates darce openings as opponent turns away from the neck attack
-- [[Transitions/Arm Triangle]] - Related arm-triangle family choke sharing similar bilateral compression mechanics targeting the carotid arteries
+- [[Submissions/Guillotine Choke]] - Fellow front headlock submission—guillotine defense often creates darce openings as opponent turns away from the neck attack
+- [[Submissions/Arm Triangle]] - Related arm-triangle family choke sharing similar bilateral compression mechanics targeting the carotid arteries
 - [[Submissions/Brabo Choke]] - Gi variation of the darce using lapel threading for the same compression angle from side control
 - [[Submissions/Arm in Guillotine]] - Alternative front headlock finish when darce entry is blocked but arm-in grip remains available
 - [[Submissions/Ezekiel Choke]] - Alternative choke from similar control positions when darce figure-four grip cannot be secured

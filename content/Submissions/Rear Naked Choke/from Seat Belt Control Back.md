@@ -249,8 +249,8 @@ Finishing mechanics require precise bilateral compression of both carotid arteri
 ## Related
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/Bow and Arrow Choke]]
-- [[Transitions/Arm Triangle]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Arm Triangle]]
+- [[Submissions/Darce Choke]]
 - [[Positions/Back Control/Seat Belt Control Back]] - Starting position providing the seat belt grip configuration for this choke
 - [[Positions/Back Control]] - Parent position category encompassing all back control configurations
 - [[Positions/Back Control/Body Triangle]] - Alternative back control configuration using figure-four leg lock that enhances RNC finishing pressure through breathing restriction

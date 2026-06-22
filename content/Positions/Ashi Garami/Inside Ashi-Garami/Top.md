@@ -224,7 +224,7 @@ The position excels in no-gi grappling where leg attacks are permitted, offering
 
 
 **If opponent turns knee inward to defend ankle lock and creates heel hook opportunity:**
-- Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 70%)
+- Execute **[[Submissions/Heel Hook/Attacker|Heel Hook]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 70%)
 - Execute **[[Transitions/Inside Ashi-Garami to Honey Hole/Attacker|Inside Ashi-Garami to Honey Hole]]** → [[Positions/Ashi Garami/Honey Hole]] (Probability: 60%)
 
 

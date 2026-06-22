@@ -229,7 +229,7 @@ In competition, the omoplata from established control carries a significantly hi
 - [[Submissions/Monoplata]]
 - [[Submissions/Baratoplata]]
 - [[Transitions/Gogoplata]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Positions/Omoplata Control]] - Starting control position for this submission finish
 - [[Positions/Closed Guard]] - Common guard position leading to omoplata entries
 - [[Positions/Spider Guard]] - Modern entry position for omoplata setups

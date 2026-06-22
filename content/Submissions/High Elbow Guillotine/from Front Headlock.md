@@ -228,9 +228,9 @@ The submission's effectiveness at high levels stems from its two-phase attack st
 
 ## Related
 - [[Submissions/High Elbow Guillotine]]
-- [[Transitions/Guillotine Choke]]
+- [[Submissions/Guillotine Choke]]
 - [[Submissions/Arm in Guillotine]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
 - [[Submissions/Chin Strap Guillotine]]
 - [[Submissions/Japanese Necktie]]

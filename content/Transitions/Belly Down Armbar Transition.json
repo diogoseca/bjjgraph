@@ -13,7 +13,7 @@
   "from_position": "Armbar Control/Top",
   "outcomes": [
     {
-      "to": "Belly Down Armbar",
+      "to": "Belly Down Armbar from Armbar Control",
       "probability": 50,
       "result": "success"
     },

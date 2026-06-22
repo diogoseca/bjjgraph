@@ -251,7 +251,7 @@ The Single Leg X Transition is a cornerstone technique connecting inverted guard
 
 - [[Positions/Ashi Garami/Outside Ashi-Garami]] - Alternative when opponent circles away
 
-- [[Transitions/Heel Hook]] - Submission threat that can bait entry
+- [[Submissions/Heel Hook]] - Submission threat that can bait entry
 
 - [[Transitions/Kneebar from Grasshopper]] - Alternative attack from starting position
 

@@ -239,7 +239,7 @@ From a strategic standpoint, this choke functions as a high-percentage finishing
 ## Related
 - [[Submissions/Cross Collar Choke]]
 - [[Submissions/Ezekiel Choke]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Americana]]
 - [[Submissions/Bow and Arrow Choke]]
 - [[Positions/Mount/Modified Mount]] - Starting position providing asymmetric base for collar grip work

@@ -239,7 +239,7 @@ The guillotine from turtle is a critical component of the complete front headloc
 ## Related Techniques
 
 
-- [[Transitions/Guillotine Choke]] - Primary submission finish from this transition
+- [[Submissions/Guillotine Choke]] - Primary submission finish from this transition
 
 - [[Positions/Front Headlock]] - Required control position before attempting technique
 

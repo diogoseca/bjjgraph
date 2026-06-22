@@ -243,10 +243,10 @@ This submission integrates naturally into front headlock attack systems. When yo
 
 ## Related
 - [[Submissions/Kimura]]
-- [[Transitions/Guillotine Choke]]
+- [[Submissions/Guillotine Choke]]
 - [[Transitions/Anaconda Choke]]
-- [[Transitions/Darce Choke]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Darce Choke]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Japanese Necktie]]
 - [[Positions/Front Headlock]] - Primary starting position for this submission variant
 - [[Positions/Kimura Trap]] - Control position for maintaining Kimura grip if initial finish is defended

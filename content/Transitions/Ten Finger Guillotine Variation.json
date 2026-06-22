@@ -15,7 +15,7 @@
   "from_position": "Guillotine Control/Top",
   "outcomes": [
     {
-      "to": "Ten Finger Guillotine",
+      "to": "Ten Finger Guillotine from Guillotine Control",
       "probability": 55,
       "result": "success"
     },

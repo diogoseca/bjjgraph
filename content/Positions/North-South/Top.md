@@ -21,7 +21,7 @@ description: "Master North-South top position in BJJ. Complete guide to establis
     {
       "@type": "HowToStep",
       "name": "Execute North-South Choke from North-South",
-      "text": "From this position, attempt North-South Choke from North-South. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt North-South Choke from North-South. This technique is attempted in 21% of exchanges from this position.",
       "position": 1
     },
     {
@@ -159,7 +159,7 @@ description: "Master North-South top position in BJJ. Complete guide to establis
 
 <aside class="entity-relations">
 <p class="also-known-as"><em>Also known as:</em> <strong>Kami Shiho Gatame</strong>, <strong>North South Position</strong>, <strong>69 Position</strong> <span class="role-hint">(top)</span></p>
-<p class="often-confused-with"><em>Often confused with</em> <strong>[[Transitions/North-South Choke|North-South Choke]]</strong> — the North-South Choke is a submission finished from this position, not the position itself</p>
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Submissions/North-South Choke|North-South Choke]]</strong> — the North-South Choke is a submission finished from this position, not the position itself</p>
 </aside>
 <section id="overview" class="content-section">
 
@@ -359,7 +359,7 @@ Maintain maximum chest pressure in North-South while partner attempts only frame
 - **[[Positions/Side Control]]** - Common entry position and alternative control option
 - **[[Positions/Mount]]** - Primary transition target for positional advancement
 - **[[Positions/Knee on Belly]]** - Alternative pressure position with different control dynamics
-- **[[Transitions/North-South Choke]]** - Primary submission from this position
+- **[[Submissions/North-South Choke]]** - Primary submission from this position
 - **[[Transitions/North-South to Kimura]]** - High-percentage submission transition
 - **[[Transitions/Side Control to Mount]]** - Primary advancement technique from North-South
 - **[[Positions/Back Control]]** - Available when opponent turns to turtle

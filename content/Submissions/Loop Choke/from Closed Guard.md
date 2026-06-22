@@ -247,7 +247,7 @@ From a strategic standpoint, the Loop Choke pairs naturally with other closed gu
 ## Related
 - [[Submissions/Loop Choke]]
 - [[Submissions/Cross Collar Choke]]
-- [[Transitions/Guillotine Choke]]
+- [[Submissions/Guillotine Choke]]
 - [[Submissions/High Elbow Guillotine]]
 - [[Transitions/Gogoplata]]
 - [[Submissions/Ezekiel Choke]]

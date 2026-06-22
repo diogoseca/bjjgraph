@@ -368,9 +368,9 @@ Establish front headlock, partner attempts to circle away to escape. You practic
 - **[[Positions/Back Control]]** - Positional advancement - front headlock transitions to back when opponent circles
 - **[[Transitions/Front Headlock to Guillotine]]** - Primary transition pathway to guillotine submission from front headlock control
 - **[[Transitions/Snap Down to Front Headlock]]** - Primary entry method from standing - snap opponent's head down to establish control
-- **[[Transitions/Guillotine Choke]]** - Primary submission finish from front headlock position
+- **[[Submissions/Guillotine Choke]]** - Primary submission finish from front headlock position
 - **[[Transitions/Anaconda Choke]]** - Arm-in choke finish available from front headlock
-- **[[Transitions/Darce Choke]]** - Arm-in choke finish available from front headlock
+- **[[Submissions/Darce Choke]]** - Arm-in choke finish available from front headlock
 
 
 </section>

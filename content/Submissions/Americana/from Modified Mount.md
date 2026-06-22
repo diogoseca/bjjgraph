@@ -242,7 +242,7 @@ Competition data consistently shows the Americana from Modified Mount as a high-
 ## Related
 - [[Submissions/Americana]]
 - [[Submissions/Kimura]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Cross Collar Choke]]
 - [[Submissions/Ezekiel Choke]]
 - [[Positions/Mount/Modified Mount]] - Starting position providing asymmetric stability for this submission variant

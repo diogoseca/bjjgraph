@@ -237,7 +237,7 @@ The arm triangle from front headlock is a critical second-layer attack in the fr
 
 - [[Positions/Side Control]] - Target position - the arm triangle is typically finished from side control after the lateral walk
 
-- [[Transitions/Arm Triangle]] - Submission finish - the choke that results from this transition setup
+- [[Submissions/Arm Triangle]] - Submission finish - the choke that results from this transition setup
 
 - [[Transitions/Arm Triangle Setup]] - Related transition - alternative entry to arm triangle from north-south position
 
@@ -247,7 +247,7 @@ The arm triangle from front headlock is a critical second-layer attack in the fr
 
 - [[Transitions/Guillotine Setup]] - Primary threat - guillotine defense often creates the opening for arm triangle
 
-- [[Transitions/Darce Choke]] - Follow-up submission - available when opponent extends arm to defend arm triangle
+- [[Submissions/Darce Choke]] - Follow-up submission - available when opponent extends arm to defend arm triangle
 
 - [[Transitions/Anaconda Choke]] - Alternative submission - another arm-in choke option from front headlock
 

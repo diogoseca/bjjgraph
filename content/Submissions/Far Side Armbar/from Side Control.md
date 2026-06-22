@@ -270,7 +270,7 @@ This submission appears frequently in both gi and no-gi competition at all level
 - [[Submissions/Triangle Choke]]
 - [[Submissions/Omoplata]]
 - [[Submissions/Americana]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Armbar/Reverse Armbar from Mount]] - Alternative armbar variation with different arm positioning and finishing mechanics from mount
 - [[Positions/Side Control]] - Primary starting position for far side armbar
 - [[Positions/Mount]] - Alternative starting position for far side armbar

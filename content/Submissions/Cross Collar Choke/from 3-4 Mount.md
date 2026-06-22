@@ -224,7 +224,7 @@ The 3-4 mount also allows the attacker to use their posted leg to drive forward 
 - [[Submissions/Cross Collar Choke]]
 - [[Submissions/Ezekiel Choke]]
 - [[Submissions/Americana]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Bow and Arrow Choke]]
 - [[Positions/Mount/3-4 Mount]] - Starting position for this submission variant
 - [[Positions/Mount]] - Parent position family for mount-based chokes

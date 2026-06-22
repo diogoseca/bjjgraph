@@ -271,7 +271,7 @@ The 100% Sweep is a crucial component of an advanced closed guard attack system,
 
 - [[Transitions/Kimura Sweep]] - Chain attack when opponent posts hand to defend sweep
 
-- [[Transitions/Guillotine Choke]] - Chain attack when opponent pulls arm back defensively
+- [[Submissions/Guillotine Choke]] - Chain attack when opponent pulls arm back defensively
 
 
 </section>

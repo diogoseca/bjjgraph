@@ -344,8 +344,8 @@ Partner in turtle defends with various escape attempts (granby, standup, sit-thr
 - **[[Positions/Front Headlock]]** - Alternative attacking position from turtle top
 - **[[Positions/Crucifix]]** - Advanced attacking position accessible from turtle
 - **[[Transitions/Anaconda Choke]]** - Direct submission option from turtle top
-- **[[Transitions/Darce Choke]]** - Alternative front headlock submission
-- **[[Transitions/Guillotine Choke]]** - Submission option when opponent lifts head
+- **[[Submissions/Darce Choke]]** - Alternative front headlock submission
+- **[[Submissions/Guillotine Choke]]** - Submission option when opponent lifts head
 - **[[Submissions/Kimura]]** - Arm attack submission when opponent extends limb
 - **[[Positions/Twister Control/Truck]]** - Advanced back attack variation from turtle
 - **[[Positions/Side Control]]** - Alternative positional advancement from turtle

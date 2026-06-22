@@ -247,7 +247,7 @@ Counter Entry to Opponent's Leg serves as a critical bridge between defensive su
 
 - [[Transitions/Back Take from 50-50]] - Follow-up attack chain from successful entry
 
-- [[Transitions/Heel Hook]] - Primary submission threat available after successful entry
+- [[Submissions/Heel Hook]] - Primary submission threat available after successful entry
 
 - [[Transitions/Counter-entangle to 50-50 Guard]] - Related counter-entanglement technique from similar scenarios
 

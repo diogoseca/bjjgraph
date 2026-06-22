@@ -222,7 +222,7 @@ At competition level, this submission serves as a critical complement to heel ho
 
 ## Related
 - [[Submissions/Calf Slicer]]
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
 - [[Submissions/Bicep Slicer]]
 - [[Positions/Aoki Lock Control]]

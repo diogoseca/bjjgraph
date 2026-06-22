@@ -227,7 +227,7 @@ Defensively, the bottom practitioner must be aware that committing to a kneebar 
 
 **If opponent's leg becomes straightened and defensive posture breaks under pulling pressure:**
 - Execute **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** → [[game-over]] (Probability: 50%)
-- Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[game-over]] (Probability: 45%)
+- Execute **[[Submissions/Heel Hook/Attacker|Heel Hook]]** → [[game-over]] (Probability: 45%)
 
 
 **If opponent rotates hips away from kneebar pressure to defend knee joint:**

@@ -248,12 +248,12 @@ The attacker must balance commitment to the choke against maintaining top positi
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Darce Choke]]
+- [[Submissions/Darce Choke]]
 - [[Submissions/Brabo Choke]]
 - [[Submissions/Cross Collar Choke]]
 - [[Submissions/Ezekiel Choke]]
-- [[Transitions/Arm Triangle]]
-- [[Transitions/Guillotine Choke]]
+- [[Submissions/Arm Triangle]]
+- [[Submissions/Guillotine Choke]]
 - [[Submissions/Kimura]]
 - [[Submissions/Baseball Bat Choke]]
 - [[Positions/Half Guard]] - Primary starting position where the top player establishes collar control for the loop choke setup

@@ -240,10 +240,10 @@ Strategically, the straight ankle lock from established control serves dual purp
 
 ## Related
 - [[Submissions/Achilles Lock]]
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
 - [[Submissions/Calf Slicer]]
-- [[Transitions/Estima Lock]]
+- [[Submissions/Estima Lock]]
 - [[Transitions/Aoki Lock]]
 - [[Positions/Straight Ankle Lock Control]] - Starting control position and primary base for this submission finish
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Transition target when defender rotates hip away during ankle lock defense

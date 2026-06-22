@@ -242,11 +242,11 @@ What makes the toe hold particularly effective from leg entanglement is the inhe
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
 - [[Submissions/Achilles Lock]]
 - [[Submissions/Calf Slicer]]
-- [[Transitions/Estima Lock]]
+- [[Submissions/Estima Lock]]
 - [[Positions/Leg Entanglement]] - Primary starting position providing the control platform for toe hold attacks
 - [[Positions/Ashi Garami]] - Foundational leg entanglement variant and most common entry point for toe hold setup
 - [[Positions/Ashi Garami/50-50 Guard]] - Neutral entanglement where the toe hold serves as a primary attack when heel hooks are defended

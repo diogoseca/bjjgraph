@@ -262,7 +262,7 @@ The Crossface to Combat Base transition is a fundamental component of systematic
 
 - [[Transitions/Leg Drag Pass]] - Follow-up technique - available from combat base against active guards
 
-- [[Transitions/Darce Choke]] - Submission option - available if opponent turns into crossface
+- [[Submissions/Darce Choke]] - Submission option - available if opponent turns into crossface
 
 
 </section>

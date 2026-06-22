@@ -76,7 +76,7 @@ Strategically, the Japanese Necktie functions as a high-value option within the 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Submissions/Japanese Necktie]] | 55% |
+| Success | [[Japanese Necktie from Front Headlock]] | 55% |
 | Failure | [[Positions/Front Headlock]] | 30% |
 | Counter | [[Positions/Turtle]] | 15% |
 
@@ -251,7 +251,7 @@ The Japanese Necktie Setup is a crucial component of the front headlock attack s
 
 - [[Positions/Turtle]] - Common opponent position for setup
 
-- [[Transitions/Darce Choke]] - Related submission from front headlock family
+- [[Submissions/Darce Choke]] - Related submission from front headlock family
 
 - [[Transitions/Anaconda Choke]] - Related submission from front headlock family
 

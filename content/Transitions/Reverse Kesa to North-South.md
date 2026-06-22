@@ -251,7 +251,7 @@ The Reverse Kesa to North-South transition functions as a critical link in the p
 
 - [[Submissions/Americana]] - Submission threat from starting position that can set up the transition when defended
 
-- [[Transitions/North-South Choke]] - Primary submission opportunity available after successful transition to north-south
+- [[Submissions/North-South Choke]] - Primary submission opportunity available after successful transition to north-south
 
 
 </section>

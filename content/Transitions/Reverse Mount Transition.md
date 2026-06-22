@@ -239,7 +239,7 @@ The Reverse Mount Transition expands your North-South attack options by providin
 
 - [[Transitions/Armbar from Reverse Mount]] - Primary submission follow-up available immediately after achieving reverse mount
 
-- [[Transitions/North-South Choke]] - Alternative submission from starting position
+- [[Submissions/North-South Choke]] - Alternative submission from starting position
 
 - [[Positions/Mount]] - Alternative positional advancement if reverse mount is defended
 

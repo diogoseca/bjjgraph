@@ -127,11 +127,11 @@ Historically developed and refined within the 10th Planet system, the Electric C
 - [[Submissions/Twister]] - Advanced spinal lock follow-up when transitioning from Electric Chair to truck position
 - [[Transitions/Kneebar]] - Alternative leg submission that can chain from failed Electric Chair attempts via leg entanglement
 - [[Submissions/Toe Hold]] - Complementary foot lock that can combine with Electric Chair leg control positions
-- [[Transitions/Heel Hook]] - Related leg attack accessible from similar leg entanglement and half guard positions
+- [[Submissions/Heel Hook]] - Related leg attack accessible from similar leg entanglement and half guard positions
 - [[Submissions/Straight Ankle Lock]] - Fundamental leg lock sharing entry paths with Electric Chair from half guard bottom
 - [[Submissions/Achilles Lock]] - Basic compression lock sharing mechanical principles with Electric Chair finishing mechanics
 - [[Submissions/Boston Crab]] - Related back compression submission with similar posterior chain targeting principles
-- [[Transitions/Estima Lock]] - Foot lock submission applicable from guard passing scenarios adjacent to Electric Chair entries
+- [[Submissions/Estima Lock]] - Foot lock submission applicable from guard passing scenarios adjacent to Electric Chair entries
 - [[Positions/Half Guard/Lockdown]] - Primary starting position - Electric Chair is signature submission from lockdown control
 - [[Positions/Half Guard/Old School]] - Alternative attack from same lockdown setup; often used when Electric Chair is defended
 - [[Positions/Twister Control/Truck]] - Advanced position transition available from Electric Chair defensive reactions

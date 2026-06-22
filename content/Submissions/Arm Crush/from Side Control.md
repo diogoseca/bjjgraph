@@ -244,7 +244,7 @@ The Arm Crush is a powerful shoulder lock submission that combines crushing pres
 - [[Submissions/Americana]]
 - [[Submissions/Kimura]]
 - [[Submissions/Kesa Gatame Arm Crush]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Bicep Slicer]]
 - [[Positions/Side Control]] - Primary attacking position - establishes the control needed for submission setup

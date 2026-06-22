@@ -15,7 +15,7 @@
   "from_position": "Reverse X-Guard/Top",
   "outcomes": [
     {
-      "to": "Standing Position",
+      "to": "Standing Position/Top",
       "probability": 45,
       "result": "success"
     },

@@ -240,7 +240,7 @@ From armbar control specifically, this finish is particularly accessible because
 - [[Submissions/Belly Down Armbar]]
 - [[Submissions/Americana]]
 - [[Submissions/Kimura]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Bicep Slicer]]
 - [[Submissions/Far Side Armbar]]
 - [[Positions/Armbar Control]] - Starting position for this finish variant

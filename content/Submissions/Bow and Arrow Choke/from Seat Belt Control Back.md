@@ -250,7 +250,7 @@ Strategically, the bow and arrow creates a devastating dilemma when combined wit
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/Cross Collar Choke]]
 - [[Transitions/Clock Choke]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Positions/Back Control/Seat Belt Control Back]] - Starting position providing the seat belt grip framework for this submission entry
 - [[Positions/Back Control]] - Parent position category encompassing all back control configurations
 - [[Positions/Turtle]] - Common entry position leading to back control and subsequent bow and arrow attacks

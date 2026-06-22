@@ -37,7 +37,7 @@
       "result": "counter"
     },
     {
-      "to": "Clinch",
+      "to": "Clinch/Bottom",
       "probability": 5,
       "result": "counter"
     }
@@ -188,7 +188,7 @@
       {
         "counter": "Opponent turns into you during the descent to face you and establish clinch",
         "effectiveness": "Medium",
-        "targets_outcome": "Clinch",
+        "targets_outcome": "Clinch/Bottom",
         "your_response": "Follow the turn by circling in the same direction and use their rotational momentum to snap them down to a front headlock. Alternatively, if you maintain partial back control, convert to a guillotine or front headlock position rather than fighting to keep the back."
       },
       {
@@ -331,7 +331,7 @@
       {
         "action": "Turn aggressively into the opponent during the descent to face them and prevent back exposure on landing",
         "when_to_use": "When the descent has already begun and you cannot stop the takedown, use the transitional moment to rotate your shoulders and hips",
-        "targets_outcome": "Clinch",
+        "targets_outcome": "Clinch/Bottom",
         "if_successful": "You land facing the opponent in a neutral clinch or scramble position rather than with your back exposed for hook insertion",
         "risk": "If the turn is incomplete, you may land in a worse position with partial back exposure and no defensive frames established"
       },
@@ -349,7 +349,7 @@
         "how": "Execute explosive two-on-one grip break during the opponent's descent phase when their hands are under maximum tension from the pulling force. The moment the grip breaks, immediately turn to face them and establish a defensive turtle position where escape options are more available."
       },
       {
-        "outcome": "Clinch",
+        "outcome": "Clinch/Bottom",
         "how": "Time a hard turn toward the opponent as they initiate the descent, using the transitional moment when their grip shifts from static control to active pulling as the window to rotate your shoulders and hips. The key is committing fully to the turn and driving your chest into their chest to establish facing position before you reach the ground."
       }
     ],

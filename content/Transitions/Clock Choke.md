@@ -76,9 +76,8 @@ The rotational finishing mechanic distinguishes the Clock Choke from static coll
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 55% |
-| Failure | [[Transitions/Clock Choke]] | 18% |
-| Failure | [[Positions/Turtle]] | 15% |
+| Success | [[Positions/Crucifix]] | 55% |
+| Failure | [[Positions/Turtle]] | 33% |
 | Counter | [[Positions/Half Guard]] | 12% |
 
 
@@ -252,7 +251,7 @@ The Clock Choke is a cornerstone submission for the turtle attack system, workin
 
 - [[Transitions/Anaconda Choke]] - Alternative turtle attack using arm-in head-and-arm control
 
-- [[Transitions/Guillotine Choke]] - Alternative neck attack when opponent lifts head defending clock rotation
+- [[Submissions/Guillotine Choke]] - Alternative neck attack when opponent lifts head defending clock rotation
 
 
 </section>

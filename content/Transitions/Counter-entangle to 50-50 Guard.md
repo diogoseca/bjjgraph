@@ -241,7 +241,7 @@ The Counter-entangle to 50-50 Guard sits within the broader leg entanglement def
 
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Related leg entanglement that counter-entangle prevents
 
-- [[Transitions/Heel Hook]] - Primary submission threat in both starting and ending positions
+- [[Submissions/Heel Hook]] - Primary submission threat in both starting and ending positions
 
 - [[Positions/X-Guard/Single Leg X-Guard]] - Alternative target position if 50-50 entry is blocked
 

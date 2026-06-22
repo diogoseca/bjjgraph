@@ -227,7 +227,7 @@ From a competitive standpoint, Kesa Gatame scores as a guard pass (3 points in I
 
 **If opponent creates space and attempts to shrimp away toward their feet:**
 - Execute **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** → [[Positions/North-South]] (Probability: 75%)
-- Execute **[[Transitions/North-South Choke/Attacker|North-South Choke]]** → [[Positions/North-South]] (Probability: 50%)
+- Execute **[[Submissions/North-South Choke/Attacker|North-South Choke]]** → [[Positions/North-South]] (Probability: 50%)
 
 
 **If opponent extends trapped arm attempting to push or frame:**
@@ -236,8 +236,8 @@ From a competitive standpoint, Kesa Gatame scores as a guard pass (3 points in I
 
 
 **If opponent remains flat and defensive without creating movement:**
-- Execute **[[Transitions/Arm Triangle/Attacker|Arm Triangle]]** → [[game-over]] (Probability: 45%)
-- Execute **[[Transitions/North-South Choke/Attacker|North-South Choke]]** → [[Positions/North-South]] (Probability: 40%)
+- Execute **[[Submissions/Arm Triangle/Attacker|Arm Triangle]]** → [[game-over]] (Probability: 45%)
+- Execute **[[Submissions/North-South Choke/Attacker|North-South Choke]]** → [[Positions/North-South]] (Probability: 40%)
 
 
 
@@ -350,7 +350,7 @@ Bottom player attempts one specific escape type (hip escape, bridge and roll, or
 - **[[Positions/Mount]]** - Common advancement target when opponent turns in
 - **[[Submissions/Americana]]** - Primary submission transition from this position
 - **[[Submissions/Kimura]]** - High-percentage submission transition
-- **[[Transitions/Arm Triangle]]** - Submission chain option from heavy pressure
+- **[[Submissions/Arm Triangle]]** - Submission chain option from heavy pressure
 
 
 </section>

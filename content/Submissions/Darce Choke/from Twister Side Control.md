@@ -240,9 +240,9 @@ In competition, this variant carries a higher finishing rate than standard Darce
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Darce Choke]]
+- [[Submissions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Japanese Necktie]]
 - [[Submissions/Brabo Choke]]
 - [[Positions/Twister Control/Twister Side Control]] - Starting position providing lateral control and leg entanglement for this variant

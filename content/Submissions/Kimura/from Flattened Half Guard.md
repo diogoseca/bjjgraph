@@ -225,8 +225,8 @@ The finishing mechanics differ from standard Kimura applications because the fla
 ## Related
 - [[Submissions/Kimura]]
 - [[Submissions/Americana]]
-- [[Transitions/Arm Triangle]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Arm Triangle]]
+- [[Submissions/Darce Choke]]
 - [[Submissions/Far Side Armbar]]
 - [[Positions/Half Guard/Flattened Half Guard]] - Primary starting position for this submission variant
 - [[Positions/Half Guard]] - Parent position where flattening pressure creates Kimura opportunities

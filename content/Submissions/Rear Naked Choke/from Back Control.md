@@ -246,8 +246,8 @@ The finishing mechanics rely on chest expansion and shoulder rotation rather tha
 ## Related
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/Bow and Arrow Choke]]
-- [[Transitions/Arm Triangle]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Arm Triangle]]
+- [[Submissions/Darce Choke]]
 - [[Positions/Back Control]] - Primary starting position providing hooks, harness, and chest-to-back connection for the choke
 - [[Positions/Back Control/Seat Belt Control Back]] - Specific grip configuration that serves as the launch point for hand fighting into RNC
 - [[Positions/Back Control/Body Triangle]] - Enhanced hip control variation providing superior stability during choking sequence

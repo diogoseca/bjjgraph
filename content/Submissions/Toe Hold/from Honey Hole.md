@@ -243,9 +243,9 @@ In competition, this technique forces opponents to choose between defending the 
 
 ## Related
 - [[Submissions/Inside Heel Hook]]
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Calf Slicer]]
-- [[Transitions/Estima Lock]]
+- [[Submissions/Estima Lock]]
 - [[Submissions/Achilles Lock]]
 - [[Positions/Ashi Garami/Honey Hole]] - Primary starting position providing inside leg triangle control for the toe hold
 - [[Positions/Ashi Garami/Saddle]] - Related control position with similar leg configuration enabling the same attack

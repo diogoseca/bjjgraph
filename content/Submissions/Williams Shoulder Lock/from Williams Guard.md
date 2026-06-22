@@ -249,7 +249,7 @@ At the competition level, the Williams Shoulder Lock from Williams Guard functio
 ## Related
 - [[Submissions/Americana]]
 - [[Submissions/Kimura]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Far Side Armbar]]
 - [[Transitions/Inverted Triangle]]
 - [[Positions/Williams Guard]] - Starting position for this submission variant

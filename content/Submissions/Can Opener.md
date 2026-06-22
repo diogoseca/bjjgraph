@@ -114,13 +114,13 @@ The Can Opener is a neck crank technique applied from within an opponent's close
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Guillotine Choke]] - Legal alternative neck attack from similar hand positioning inside closed guard
-- [[Transitions/Darce Choke]] - Legal neck attack using blood choke mechanics rather than spinal compression
+- [[Submissions/Guillotine Choke]] - Legal alternative neck attack from similar hand positioning inside closed guard
+- [[Submissions/Darce Choke]] - Legal neck attack using blood choke mechanics rather than spinal compression
 - [[Transitions/Anaconda Choke]] - Legal neck attack focusing on carotid compression rather than cervical pressure
 - [[Submissions/Rear Naked Choke]] - Highest percentage neck submission using blood choke from back control
-- [[Transitions/Arm Triangle]] - Legal head and arm compression submission accessible from top positions
+- [[Submissions/Arm Triangle]] - Legal head and arm compression submission accessible from top positions
 - [[Submissions/Ezekiel Choke]] - Legal choke applicable from inside closed guard as safer alternative
-- [[Transitions/North-South Choke]] - Legal neck attack from dominant north-south position using shoulder pressure
+- [[Submissions/North-South Choke]] - Legal neck attack from dominant north-south position using shoulder pressure
 - [[Submissions/Cross Collar Choke]] - Legal gi-based choke from closed guard using collar grip mechanics
 - [[Positions/Closed Guard]] - Primary position where Can Opener is attempted as guard-breaking mechanism
 - [[Positions/Half Guard]] - Alternative position where Can Opener variation can be attempted with similar risks

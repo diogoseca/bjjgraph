@@ -33,7 +33,7 @@ description: "Master Ashi Garami from bottom with systematic leg control, hierar
     {
       "@type": "HowToStep",
       "name": "Execute Heel Hook from Ashi Garami",
-      "text": "From this position, attempt Heel Hook from Ashi Garami. This technique is attempted in 2% of exchanges from this position.",
+      "text": "From this position, attempt Heel Hook from Ashi Garami. This technique is attempted in 3% of exchanges from this position.",
       "position": 3
     },
     {
@@ -222,7 +222,7 @@ Bottom Ashi Garami mastery requires extensive drilling of fundamental mechanics 
 
 
 **If opponent exposes heel through poor positioning, grip failure, or defensive extraction error:**
-- Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[game-over]] (Probability: 60%)
+- Execute **[[Submissions/Heel Hook/Attacker|Heel Hook]]** → [[game-over]] (Probability: 60%)
 - Execute **[[Transitions/Inside Ashi-Garami to Honey Hole/Attacker|Inside Ashi-Garami to Honey Hole]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 40%)
 
 
@@ -239,7 +239,7 @@ Bottom Ashi Garami mastery requires extensive drilling of fundamental mechanics 
 **If you have achieved Inside Ashi with good inside space control and stable connection points:**
 - Execute **[[Transitions/Inside Ashi-Garami to Cross Ashi/Attacker|Inside Ashi-Garami to Cross Ashi]]** → [[Positions/Ashi Garami/Cross Ashi-Garami]] (Probability: 45%)
 - Execute **[[Transitions/Inside Ashi-Garami to Honey Hole/Attacker|Inside Ashi-Garami to Honey Hole]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 35%)
-- Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[game-over]] (Probability: 20%)
+- Execute **[[Submissions/Heel Hook/Attacker|Heel Hook]]** → [[game-over]] (Probability: 20%)
 
 
 **If opponent's base collapses and they fall flat with limited hip mobility during extraction:**
@@ -362,7 +362,7 @@ Partner aggressively attempts leg extraction from your Outside or Inside Ashi co
 - **[[Positions/X-Guard]]** - Shares leg hooking principles and serves as transitional position between traditional guards and leg entanglements
 - **[[Positions/Ashi Garami/Saddle]]** - Apex of leg entanglement hierarchy and primary finishing position for heel hook attacks from bottom
 - **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - First major advancement from Outside Ashi providing superior control and finishing angles for submissions
-- **[[Transitions/Heel Hook]]** - Primary submission threat from advanced Ashi Garami positions when proper heel exposure is achieved
+- **[[Submissions/Heel Hook]]** - Primary submission threat from advanced Ashi Garami positions when proper heel exposure is achieved
 - **[[Positions/K-Guard]]** - Modern guard system designed for direct entries into various Ashi Garami configurations
 
 

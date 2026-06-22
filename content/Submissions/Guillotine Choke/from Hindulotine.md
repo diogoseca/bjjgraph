@@ -241,10 +241,10 @@ In competition, the Hindulotine guillotine finish is particularly effective in n
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Guillotine Choke]]
+- [[Submissions/Guillotine Choke]]
 - [[Submissions/High Elbow Guillotine]]
 - [[Submissions/Arm in Guillotine]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
 - [[Submissions/Chin Strap Guillotine]]
 - [[Submissions/Japanese Necktie]]

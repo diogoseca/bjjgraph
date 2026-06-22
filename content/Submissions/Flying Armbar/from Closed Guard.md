@@ -258,14 +258,14 @@ While spectacular when successful, the Flying Armbar carries significant risks i
 ## Related
 - [[Submissions/Armbar]]
 - [[Submissions/Triangle Choke]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Omoplata]]
 - [[Submissions/Flying Kneebar]]
 - [[Submissions/Bicep Slicer]]
 - [[Submissions/Belly Down Armbar]]
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Kimura]]
-- [[Transitions/Guillotine Choke]]
+- [[Submissions/Guillotine Choke]]
 - [[Positions/Closed Guard]] - Common starting position for flying armbar setup
 - [[Positions/Spider Guard]] - Alternative guard position providing excellent flying armbar entries
 - [[Positions/Open Guard]] - Provides standing opponent scenarios ideal for flying armbar attempts

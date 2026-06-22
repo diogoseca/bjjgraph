@@ -15,7 +15,7 @@
   "from_position": "Hindulotine/Top",
   "outcomes": [
     {
-      "to": "Hindulotine",
+      "to": "Hindulotine from Hindulotine",
       "probability": 55,
       "result": "success"
     },

@@ -237,8 +237,8 @@ The Shoulder of Justice Top is characterized by driving your shoulder blade deep
 
 
 **If opponent brings far arm across to defend face from shoulder pressure:**
-- Execute **[[Transitions/Arm Triangle/Attacker|Arm Triangle]]** → [[Positions/Armbar Control]] (Probability: 65%)
-- Execute **[[Transitions/North-South Choke/Attacker|North-South Choke]]** → [[Positions/North-South]] (Probability: 58%)
+- Execute **[[Submissions/Arm Triangle/Attacker|Arm Triangle]]** → [[Positions/Armbar Control]] (Probability: 65%)
+- Execute **[[Submissions/North-South Choke/Attacker|North-South Choke]]** → [[Positions/North-South]] (Probability: 58%)
 
 
 **If opponent flattens out completely and stops resisting to conserve energy:**

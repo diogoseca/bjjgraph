@@ -241,7 +241,7 @@ The kneebar from SLX has become an essential component of top-player strategy wh
 ## Related
 - [[Transitions/Kneebar]]
 - [[Submissions/Inside Heel Hook]]
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Straight Ankle Lock]]
 - [[Submissions/Toe Hold]]
 - [[Submissions/Calf Slicer]]

@@ -248,7 +248,7 @@ The ashi garami escape is a critical defensive skill within the modern leg lock 
 
 - [[Positions/Ashi Garami/50-50 Guard]] - Related Position - Symmetrical entanglement with different bilateral escape requirements
 
-- [[Transitions/Heel Hook]] - Primary Threat - Main submission to defend against from ashi garami positions
+- [[Submissions/Heel Hook]] - Primary Threat - Main submission to defend against from ashi garami positions
 
 - [[Submissions/Straight Ankle Lock]] - Secondary Threat - Common submission attempt from standard ashi garami
 

@@ -245,7 +245,7 @@ Guillotine defense serves as a critical bridge technique connecting multiple pos
 ## Related Techniques
 
 
-- [[Transitions/Guillotine Choke]] - Primary submission being defended - understanding offensive mechanics improves defensive success
+- [[Submissions/Guillotine Choke]] - Primary submission being defended - understanding offensive mechanics improves defensive success
 
 - [[Positions/Front Headlock]] - Starting position where guillotine threats commonly emerge
 
@@ -261,7 +261,7 @@ Guillotine defense serves as a critical bridge technique connecting multiple pos
 
 - [[Transitions/Frame and Shrimp to Guard]] - Foundational movement pattern used within guillotine defense for creating space
 
-- [[Transitions/Darce Choke]] - Related front headlock submission with similar defensive principles around arm-in neck control
+- [[Submissions/Darce Choke]] - Related front headlock submission with similar defensive principles around arm-in neck control
 
 - [[Transitions/Anaconda Choke]] - Related front headlock submission with overlapping defensive concepts for arm-in chokes
 

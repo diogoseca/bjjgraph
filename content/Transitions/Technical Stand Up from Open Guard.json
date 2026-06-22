@@ -14,7 +14,7 @@
   "from_position": "Open Guard/Bottom",
   "outcomes": [
     {
-      "to": "Standing Position",
+      "to": "Standing Position/Bottom",
       "probability": 55,
       "result": "success"
     },

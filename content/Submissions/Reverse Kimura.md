@@ -117,11 +117,11 @@ Within the broader Kimura shoulder-lock system, the Reverse Kimura occupies the 
 ## Related
 - [[Submissions/Kimura]] - Standard Kimura with traditional grip behind the arm in the same shoulder lock family
 - [[Submissions/Americana]] - Reverse-direction shoulder lock targeting external rotation from pin positions
-- [[Transitions/Arm Triangle]] - Front headlock submission system sharing similar control positions and entries
+- [[Submissions/Arm Triangle]] - Front headlock submission system sharing similar control positions and entries
 - [[Submissions/Far Side Armbar]] - Joint lock option when opponent extends arm defending the reverse grip
 - [[Submissions/Baratoplata]] - Advanced shoulder lock sharing reversed grip mechanics and similar arm isolation
-- [[Transitions/Guillotine Choke]] - Primary alternative submission from front headlock and standing positions
-- [[Transitions/Darce Choke]] - Front headlock choke system with overlapping entry positions and setups
+- [[Submissions/Guillotine Choke]] - Primary alternative submission from front headlock and standing positions
+- [[Submissions/Darce Choke]] - Front headlock choke system with overlapping entry positions and setups
 - [[Transitions/Anaconda Choke]] - Arm-in choke from front headlock sharing common control and entry mechanics
 - [[Submissions/Japanese Necktie]] - Front headlock neck crank sharing similar turtle and front headlock entries
 - [[Submissions/High Elbow Guillotine]] - Standing choke alternative when reverse Kimura grip is denied at the neck

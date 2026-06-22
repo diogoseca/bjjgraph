@@ -245,7 +245,7 @@ The key strategic consideration is grip sequencing. The first grip must be deep 
 - [[Submissions/Cross Collar Choke]]
 - [[Submissions/Baseball Bat Choke]]
 - [[Submissions/Ezekiel Choke]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Breadcutter Choke]]
 - [[Positions/Knee on Belly]] - Starting position providing the pressure platform for grip acquisition
 - [[Positions/Side Control]] - Common transition position before establishing KOB and after the drop finish

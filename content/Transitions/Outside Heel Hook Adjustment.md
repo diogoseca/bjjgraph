@@ -76,7 +76,7 @@ Strategically, the Outside Heel Hook Adjustment represents a commitment to finis
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Transitions/Outside Heel Hook]] | 55% |
+| Success | [[Outside Heel Hook from Ushiro Ashi-Garami]] | 55% |
 | Failure | [[Positions/Ashi Garami/Ushiro Ashi-Garami]] | 30% |
 | Counter | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 15% |
 
@@ -235,7 +235,7 @@ The Outside Heel Hook Adjustment sits within the comprehensive ashi-garami attac
 
 - [[Submissions/Inside Heel Hook]] - Alternative heel hook attack from reversed configuration
 
-- [[Transitions/Heel Hook]] - Parent submission category
+- [[Submissions/Heel Hook]] - Parent submission category
 
 - [[Positions/Ashi Garami/Outside Ashi-Garami]] - Standard position that often leads to ushiro through opponent inversion
 
@@ -249,7 +249,7 @@ The Outside Heel Hook Adjustment sits within the comprehensive ashi-garami attac
 
 - [[Positions/Ashi Garami/50-50 Guard]] - Related leg entanglement position in the ashi system
 
-- [[Transitions/Outside Heel Hook]] - Standard outside heel hook transition from non-reversed positions
+- [[Submissions/Outside Heel Hook]] - Standard outside heel hook transition from non-reversed positions
 
 - [[Positions/Ashi Garami/Cross Ashi-Garami]] - Alternative entanglement accessible during failed adjustment
 

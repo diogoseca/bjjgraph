@@ -258,7 +258,7 @@ While the Gogoplata has a reputation as a low-percentage submission due to its t
 - [[Submissions/Omoplata]]
 - [[Submissions/Baratoplata]]
 - [[Submissions/Far Side Armbar]]
-- [[Transitions/Guillotine Choke]]
+- [[Submissions/Guillotine Choke]]
 - [[Transitions/Gogoplata]]
 - [[Transitions/Inverted Triangle]]
 - [[Positions/Rubber Guard]] - Primary position for gogoplata setup - provides the high guard control and broken posture necessary for successful execution

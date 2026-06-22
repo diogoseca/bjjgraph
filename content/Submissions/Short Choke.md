@@ -132,9 +132,9 @@ Advanced practitioners use the Short Choke as both a primary finish and a setup 
 - [[Submissions/Cross Collar Choke]] - Traditional collar choke sharing fundamental grip principles and carotid targeting
 - [[Submissions/Bow and Arrow Choke]] - Power lapel choke from back control using similar lapel threading mechanics
 - [[Submissions/Brabo Choke]] - Arm-in lapel choke with similar neck compression dynamics from side control
-- [[Transitions/Darce Choke]] - No-gi neck compression alternative sharing side control attacking position
+- [[Submissions/Darce Choke]] - No-gi neck compression alternative sharing side control attacking position
 - [[Transitions/Anaconda Choke]] - Head-arm choke from front headlock that chains when opponent defends Short Choke by turning
-- [[Transitions/Arm Triangle]] - Head-arm choke sharing side control setup and complementing Short Choke attack chain
+- [[Submissions/Arm Triangle]] - Head-arm choke sharing side control setup and complementing Short Choke attack chain
 - [[Submissions/Americana]] - Joint lock that creates Short Choke openings when opponent defends arm attacks
 - [[Positions/Side Control]] - Primary attacking position for Short Choke setup
 - [[Positions/North-South]] - Alternative top position for Short Choke variation with perpendicular alignment

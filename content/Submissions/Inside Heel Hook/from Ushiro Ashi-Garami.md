@@ -241,7 +241,7 @@ Strategically, this submission serves as a high-percentage finishing option that
 
 ## Related
 - [[Submissions/Inside Heel Hook]]
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Achilles Lock]]
 - [[Transitions/Aoki Lock]]
 - [[Positions/Ashi Garami/Ushiro Ashi-Garami]] - Primary starting position for this submission variant

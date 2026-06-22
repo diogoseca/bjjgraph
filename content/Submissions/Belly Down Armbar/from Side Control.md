@@ -244,7 +244,7 @@ This technique is particularly effective in competition because opponents defend
 - [[Submissions/Americana]]
 - [[Submissions/Kimura]]
 - [[Submissions/Far Side Armbar]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Arm Crush]]
 - [[Positions/Side Control]] - Starting position providing the dominant control base for arm isolation and rotation
 - [[Positions/Armbar Control]] - Intermediate control position used during the transition to belly down finish

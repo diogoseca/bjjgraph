@@ -217,7 +217,7 @@ Reverse Kesa-Gatame Top is a dominant pinning position where the top practitione
 **If opponent remains flat and defensive with minimal movement:**
 - Execute **[[Submissions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 60%)
 - Execute **[[Submissions/Americana/Attacker|Americana]]** → [[Positions/Side Control]] (Probability: 55%)
-- Execute **[[Transitions/Arm Triangle/Attacker|Arm Triangle]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Submissions/Arm Triangle/Attacker|Arm Triangle]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 **If opponent attempts to bridge and create space upward:**

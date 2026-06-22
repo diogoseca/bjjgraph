@@ -256,13 +256,13 @@ More than almost any other submission, the flying armbar demands controlled mech
 ## Related
 - [[Submissions/Armbar]]
 - [[Submissions/Triangle Choke]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Omoplata]]
 - [[Submissions/Flying Kneebar]]
 - [[Submissions/Bicep Slicer]]
 - [[Submissions/Belly Down Armbar]]
 - [[Submissions/Kimura]]
-- [[Transitions/Guillotine Choke]]
+- [[Submissions/Guillotine Choke]]
 - [[Positions/Closed Guard]] - Common starting position for the flying armbar setup when opponent stands to break guard
 - [[Positions/Spider Guard]] - Alternative guard position providing excellent flying armbar entries via sleeve control
 - [[Positions/Open Guard]] - Provides standing opponent scenarios ideal for flying armbar attempts

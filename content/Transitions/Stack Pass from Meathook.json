@@ -29,7 +29,7 @@
       "result": "failure"
     },
     {
-      "to": "Gogoplata Control",
+      "to": "Gogoplata Control/Top",
       "probability": 15,
       "result": "counter"
     },
@@ -169,7 +169,7 @@
       {
         "counter": "Bottom player redirects shin to throat for gogoplata as top player drives forward",
         "effectiveness": "High",
-        "targets_outcome": "Gogoplata Control",
+        "targets_outcome": "Gogoplata Control/Top",
         "your_response": "Keep chin tucked throughout the drive and turn head away from hooking leg. If you feel shin contact near throat, immediately stop forward drive and redirect to lateral movement or retreat to posture recovery instead."
       },
       {
@@ -314,7 +314,7 @@
       {
         "action": "Redirect shin to opponent's throat as they drive forward for gogoplata entry",
         "when_to_use": "When you recognize the forward drive early and their chin tuck is imperfect, leaving throat accessible during the stacking motion",
-        "targets_outcome": "Gogoplata Control",
+        "targets_outcome": "Gogoplata Control/Top",
         "if_successful": "Opponent drives directly into your gogoplata, converting their passing energy into submission pressure",
         "risk": "If their chin is properly tucked, the shin contacts the jaw rather than the throat, providing no choke leverage and potentially losing hook position"
       },
@@ -342,7 +342,7 @@
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Gogoplata Control",
+        "outcome": "Gogoplata Control/Top",
         "how": "Read the stack initiation early through chin tuck and base widening cues. As they drive forward, adjust your shin hook from tricep position to throat position by rotating your hip slightly and extending the hooking leg. Their forward momentum carries their throat directly into your shin, establishing gogoplata control. Works best when their chin tuck is imperfect or when they lead with head rather than shoulder."
       },
       {

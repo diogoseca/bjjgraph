@@ -118,11 +118,11 @@ The Clock Choke is a highly effective gi-based blood choke primarily executed fr
 ## Related
 - [[Submissions/Rear Naked Choke]] - Primary alternative finish from back control when Clock Choke grip is unavailable
 - [[Submissions/Bow and Arrow Choke]] - Complementary gi choke from similar positions that chains with Clock Choke collar access
-- [[Transitions/Darce Choke]] - Alternative front headlock choke that chains from turtle attack sequences
+- [[Submissions/Darce Choke]] - Alternative front headlock choke that chains from turtle attack sequences
 - [[Transitions/Anaconda Choke]] - Related head and arm choke available from overlapping turtle attack positions
-- [[Transitions/Arm Triangle]] - Alternative head and arm choke accessible during turtle-to-side-control transitions
+- [[Submissions/Arm Triangle]] - Alternative head and arm choke accessible during turtle-to-side-control transitions
 - [[Submissions/Breadcutter Choke]] - Complementary gi choke using similar collar grip mechanics from top positions
-- [[Transitions/North-South Choke]] - Alternative pressure choke with overlapping positional setups from north-south
+- [[Submissions/North-South Choke]] - Alternative pressure choke with overlapping positional setups from north-south
 - [[Submissions/Cross Collar Choke]] - Related gi-based collar choke sharing fundamental grip principles
 - [[Submissions/Loop Choke]] - Related collar choke that can chain from similar lapel grip entries
 - [[Positions/Turtle]] - Primary starting position for Clock Choke setup and execution

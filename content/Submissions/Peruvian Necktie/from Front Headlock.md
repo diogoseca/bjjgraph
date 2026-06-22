@@ -241,10 +241,10 @@ Strategically, the Peruvian Necktie works best as part of a comprehensive front 
 
 ## Related
 - [[Submissions/Japanese Necktie]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
-- [[Transitions/Guillotine Choke]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Guillotine Choke]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/High Elbow Guillotine]]
 - [[Submissions/Brabo Choke]]
 - [[Positions/Front Headlock]] - Starting control position for this submission variant

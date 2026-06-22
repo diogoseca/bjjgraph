@@ -249,7 +249,7 @@ This technique demands precise understanding of perpendicular hip alignment, tig
 
 ## Related
 - [[Submissions/Inside Heel Hook]]
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Straight Ankle Lock]]
 - [[Submissions/Toe Hold]]
 - [[Submissions/Calf Slicer]]

@@ -242,7 +242,7 @@ Strategically, this submission punishes opponents who remain passive under the R
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Transitions/Anaconda Choke]]
 - [[Submissions/Arm in Guillotine]]
 - [[Positions/Side Control/Reverse Kesa-Gatame]] - Primary starting position providing natural far-arm isolation for the arm triangle

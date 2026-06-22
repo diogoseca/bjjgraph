@@ -223,7 +223,7 @@ Strategically, this submission creates a cascading dilemma: defending the triang
 ## Related
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/Bow and Arrow Choke]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Transitions/Gogoplata]]
 - [[Positions/Triangle Control/Rear Triangle]] - Primary starting position providing triangle leg control for the choke
 - [[Positions/Back Control]] - Parent position from which rear triangle is established before finishing

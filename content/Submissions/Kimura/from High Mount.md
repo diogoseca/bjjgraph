@@ -244,7 +244,7 @@ In competition, the Kimura from High Mount frequently appears as part of submiss
 - [[Submissions/Kimura]]
 - [[Submissions/Americana]]
 - [[Submissions/Far Side Armbar]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Cross Collar Choke]]
 - [[Positions/Mount/High Mount]] - Primary starting position providing elevated leverage for the figure-four finish
 - [[Positions/Kimura Trap]] - Control position when defender resists the finish and attacker transitions to sustained shoulder lock control

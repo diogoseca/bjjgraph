@@ -233,7 +233,7 @@ The Counter from Estima Lock connects the defensive Estima Lock bottom position 
 
 - [[Positions/Estima Lock Control]] - Source position where this counter is initiated from the bottom
 
-- [[Transitions/Estima Lock]] - The inverted footlock submission threat being escaped through this counter
+- [[Submissions/Estima Lock]] - The inverted footlock submission threat being escaped through this counter
 
 - [[Positions/Open Guard]] - Primary recovery target position upon successful counter execution
 

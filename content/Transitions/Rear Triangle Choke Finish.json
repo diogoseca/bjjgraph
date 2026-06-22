@@ -15,7 +15,7 @@
   "from_position": "Rear Triangle/Top",
   "outcomes": [
     {
-      "to": "Rear Triangle Choke",
+      "to": "Rear Triangle Choke from Rear Triangle",
       "probability": 55,
       "result": "success"
     },

@@ -76,7 +76,7 @@ description: "Master Inside Heel Hook in BJJ. Complete guide with safety protoco
 > Inside Heel Hook targets the Ankle, knee ligaments, and surrounding connective tissue. Primary risk: ACL, MCL, or LCL tear or rupture. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <aside class="entity-relations">
-<p class="often-confused-with"><em>Often confused with</em> <strong>[[Transitions/Outside Heel Hook|Outside Heel Hook]]</strong> — the Outside Heel Hook uses the opposite leg configuration and finishing rotation</p>
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Submissions/Outside Heel Hook|Outside Heel Hook]]</strong> — the Outside Heel Hook uses the opposite leg configuration and finishing rotation</p>
 </aside>
 <section id="overview" class="content-section">
 
@@ -121,14 +121,14 @@ The Inside Heel Hook is one of the most powerful and dangerous leg locks in Braz
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Outside Heel Hook]] - Complementary heel hook with opposite rotation direction, creates submission dilemma in leg lock exchanges
-- [[Transitions/Heel Hook]] - Parent submission family encompassing inside and outside heel hook variations
+- [[Submissions/Outside Heel Hook]] - Complementary heel hook with opposite rotation direction, creates submission dilemma in leg lock exchanges
+- [[Submissions/Heel Hook]] - Parent submission family encompassing inside and outside heel hook variations
 - [[Transitions/Kneebar]] - Alternative leg attack when heel is hidden, chains from failed heel hook attempts
 - [[Submissions/Flying Kneebar]] - Dynamic entry variation to leg entanglement and kneebar attacks
 - [[Submissions/Toe Hold]] - Complementary foot lock that chains when heel hook defense exposes the ankle
 - [[Transitions/Aoki Lock]] - Advanced leg lock variation from similar ashi-garami entanglements
 - [[Submissions/Calf Slicer]] - Compression attack available when opponent straightens leg to defend heel hook
-- [[Transitions/Estima Lock]] - Foot lock alternative targeting the foot from guard engagement scenarios
+- [[Submissions/Estima Lock]] - Foot lock alternative targeting the foot from guard engagement scenarios
 - [[Submissions/Achilles Lock]] - Foundational ankle lock from same positions, prerequisite technique in training progression
 - [[Positions/Ashi Garami]] - Parent position family for leg entanglement control
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Primary control position for establishing heel hook

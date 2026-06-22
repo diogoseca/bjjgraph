@@ -75,7 +75,7 @@
       "result": "success"
     },
     {
-      "to": "Standing Position",
+      "to": "Standing Position/Top",
       "probability": 25,
       "result": "failure"
     },
@@ -231,7 +231,7 @@
         "counter": "Straightening the trapped arm aggressively",
         "effectiveness": "Medium",
         "your_response": "Maintain elbow control and use your body weight to prevent full extension. If they succeed in straightening, transition to other attacks like front headlock chokes or re-establish the grip from a different angle.",
-        "targets_outcome": "Standing Position"
+        "targets_outcome": "Standing Position/Top"
       },
       {
         "counter": "Turning into the lock to relieve shoulder pressure",
@@ -243,13 +243,13 @@
         "counter": "Grabbing their own gi, belt, or body to create a defensive frame",
         "effectiveness": "Medium",
         "your_response": "In no-gi this defense is less effective. In gi, you may need to break the grip by increasing rotational pressure or by using your free hand to strip their defensive grip. Alternatively, use the control to transition to other positions.",
-        "targets_outcome": "Standing Position"
+        "targets_outcome": "Standing Position/Top"
       },
       {
         "counter": "Dropping weight or sitting to remove your standing leverage",
         "effectiveness": "Low",
         "your_response": "Follow them to the ground maintaining your grip and superior position. The reverse Kimura transitions well from standing to ground positions. Establish side control or north-south as you bring them down, keeping the submission threat active.",
-        "targets_outcome": "Standing Position"
+        "targets_outcome": "Standing Position/Top"
       },
       {
         "counter": "Rolling forward or granby rolling to escape",
@@ -410,21 +410,21 @@
       {
         "action": "Strip the wrist grip with your free hand and straighten your trapped arm",
         "when_to_use": "When the reverse grip is not yet fully secured or the attacker has a shallow connection on their own wrist",
-        "targets_outcome": "Standing Position",
+        "targets_outcome": "Standing Position/Top",
         "if_successful": "Breaks the entire submission structure and returns to neutral grip fighting position",
         "risk": "Requires using your free hand which may compromise your base or head defense from front headlock"
       },
       {
         "action": "Drive forward explosively to stand up and posture while keeping elbow tight",
         "when_to_use": "When attacker's weight is relatively light or during a transition moment before they settle their base",
-        "targets_outcome": "Standing Position",
+        "targets_outcome": "Standing Position/Top",
         "if_successful": "Standing posture removes most of the attacker's leverage and makes the reverse Kimura mechanically difficult to finish",
         "risk": "If attacker maintains the grip during standup, they may have submission control from a standing position which carries fall risk"
       },
       {
         "action": "Sit to guard by pulling attacker into your closed guard or half guard",
         "when_to_use": "When standing defense is failing and you need to change the positional dynamics to remove their standing leverage",
-        "targets_outcome": "Standing Position",
+        "targets_outcome": "Standing Position/Top",
         "if_successful": "Changes the angle and removes their standing base advantage, creating guard recovery opportunities",
         "risk": "Attacker may maintain the grip and continue the submission from top position, though their leverage is reduced"
       }
@@ -436,7 +436,7 @@
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Standing Position",
+        "outcome": "Standing Position/Top",
         "how": "Strip the reverse grip by attacking the wrist connection with your free hand, straighten your arm explosively, and circle away to neutral standing position before the attacker can re-establish control"
       },
       {

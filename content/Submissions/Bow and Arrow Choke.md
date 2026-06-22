@@ -145,7 +145,7 @@ The Bow and Arrow Choke is a highly effective gi-based blood choke executed from
 - [[Submissions/Gift Wrap Armbar]] - Alternative attack when arm is trapped during bow and arrow setup
 - [[Submissions/Baseball Bat Choke]] - Related collar choke using cross-grip lapel control from turtle
 - [[Submissions/Brabo Choke]] - Related lapel choke using opponent's gi as force multiplier
-- [[Transitions/Darce Choke]] - Alternative choking attack from front headlock when back control is lost
+- [[Submissions/Darce Choke]] - Alternative choking attack from front headlock when back control is lost
 - [[Submissions/Ezekiel Choke]] - Alternative gi choke option from back control using sleeve mechanics
 - [[Positions/Back Control]] - Primary starting position for bow and arrow choke entry
 - [[Positions/Back Control/Seat Belt Control Back]] - Fundamental back control configuration before transitioning to bow and arrow

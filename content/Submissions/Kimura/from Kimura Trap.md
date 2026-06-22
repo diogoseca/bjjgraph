@@ -244,9 +244,9 @@ Strategically, the Kimura from Kimura Trap creates compounding dilemmas: defendi
 ## Related
 - [[Submissions/Americana]]
 - [[Submissions/Kimura]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Far Side Armbar]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Darce Choke]]
 - [[Positions/Kimura Trap]] - Primary starting position providing the grip control infrastructure for the finish
 - [[Positions/Half Guard]] - Common entry point where Kimura grip is established before transitioning to Kimura Trap
 - [[Positions/Side Control]] - Alternative entry position where the Kimura grip can be secured on an exposed arm

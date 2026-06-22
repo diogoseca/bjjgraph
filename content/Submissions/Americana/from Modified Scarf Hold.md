@@ -238,7 +238,7 @@ Defensive awareness centers on early recognition and immediate preventive action
 ## Related
 - [[Submissions/Americana]]
 - [[Submissions/Kimura]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Kesa Gatame Arm Crush]]
 - [[Positions/Side Control/Modified Scarf Hold]] - Starting position for this submission variant

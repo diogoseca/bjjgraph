@@ -254,7 +254,7 @@ The hook sweep is a cornerstone technique within the butterfly guard system and 
 
 - [[Positions/Side Control]] - Ending position - primary finishing position after successful sweep
 
-- [[Transitions/Guillotine Choke]] - Submission threat - available when opponent drops head to defend sweep
+- [[Submissions/Guillotine Choke]] - Submission threat - available when opponent drops head to defend sweep
 
 - [[Transitions/Butterfly Guard to X-Guard]] - Alternative transition - chain option when opponent stands or sprawls to defend
 

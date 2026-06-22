@@ -244,12 +244,12 @@ The heel hook from ushiro ashi-garami attacks the knee joint through rotational 
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Achilles Lock]]
 - [[Transitions/Aoki Lock]]
 - [[Submissions/Calf Slicer]]
 - [[Submissions/Inside Heel Hook]]
-- [[Transitions/Estima Lock]]
+- [[Submissions/Estima Lock]]
 - [[Positions/Ashi Garami/Ushiro Ashi-Garami]] - Primary starting position providing the reversed leg entanglement control for this submission
 - [[Positions/Ashi Garami/Outside Ashi-Garami]] - Standard ashi position that commonly transitions to ushiro during opponent inversion escapes
 - [[Positions/Ashi Garami/Saddle]] - Higher-control leg entanglement offering alternative heel hook finishing opportunities

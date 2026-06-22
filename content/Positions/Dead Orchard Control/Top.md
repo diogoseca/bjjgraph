@@ -351,7 +351,7 @@ Partner executes specific escape sequences from dead orchard control (hip escape
 - **[[Positions/Mount]]** - Transition target - high-percentage advancement when opponent defends submission
 - **[[Positions/Back Control]]** - Alternative advancement - transition when opponent drives forward
 - **[[Positions/North-South]]** - Control alternative - transition option maintaining top pressure
-- **[[Transitions/Darce Choke]]** - Alternative submission - accessible when opponent defends anaconda by creating space
+- **[[Submissions/Darce Choke]]** - Alternative submission - accessible when opponent defends anaconda by creating space
 
 
 </section>

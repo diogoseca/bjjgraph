@@ -239,11 +239,11 @@ Strategically, the butterfly guillotine serves as a critical deterrent against a
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Guillotine Choke]]
+- [[Submissions/Guillotine Choke]]
 - [[Submissions/High Elbow Guillotine]]
 - [[Submissions/Arm in Guillotine]]
 - [[Submissions/Ten Finger Guillotine]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
 - [[Submissions/Japanese Necktie]]
 - [[Submissions/Von Flue Choke]]

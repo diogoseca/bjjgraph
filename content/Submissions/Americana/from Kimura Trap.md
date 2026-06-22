@@ -245,7 +245,7 @@ At the purple and brown belt level, this technique punishes opponents who have d
 - [[Submissions/Americana]]
 - [[Submissions/Kimura]]
 - [[Submissions/Reverse Kimura]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Far Side Armbar]]
 - [[Positions/Kimura Trap]] - Primary starting position where the figure-four grip is already established
 - [[Positions/Side Control]] - Most common positional platform for establishing Kimura Trap Top

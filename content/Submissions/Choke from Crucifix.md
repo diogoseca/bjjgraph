@@ -251,12 +251,12 @@ This technique is commonly seen in high-level competition and represents excelle
 ## Related
 - [[Submissions/Rear Naked Choke]]
 - [[Transitions/Clock Choke]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Kimura]]
 - [[Submissions/Ezekiel Choke]]
 - [[Submissions/Bow and Arrow Choke]]
 - [[Submissions/Bicep Slicer]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Darce Choke]]
 - [[Transitions/Back Control to Crucifix]] - Primary transition to reach crucifix position for this choke
 - [[Transitions/Crucifix from Turtle]] - Alternative entry to crucifix when opponent turtles
 - [[Transitions/Armbar from Crucifix]] - Alternative finish from same position when choke is defended

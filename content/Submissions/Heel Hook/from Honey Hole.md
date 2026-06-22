@@ -228,10 +228,10 @@ This submission is the primary reason Honey Hole is considered one of the most d
 
 ## Related
 - [[Submissions/Inside Heel Hook]]
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Transitions/Aoki Lock]]
 - [[Submissions/Calf Slicer]]
-- [[Transitions/Estima Lock]]
+- [[Submissions/Estima Lock]]
 - [[Positions/Ashi Garami/Honey Hole]] - Starting position providing inside leg triangle control for heel hook access
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Foundational leg entanglement that precedes full Honey Hole establishment
 - [[Positions/Ashi Garami/Saddle]] - Alternative terminology for the Honey Hole position configuration

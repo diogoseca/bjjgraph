@@ -226,7 +226,7 @@ Competition results demonstrate the heel hook from Carni as one of the highest-p
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
 - [[Submissions/Calf Slicer]]
 - [[Positions/Aoki Lock Control]]

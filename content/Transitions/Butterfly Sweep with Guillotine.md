@@ -253,7 +253,7 @@ The Butterfly Sweep with Guillotine serves as the primary sweep option from Hind
 
 - [[Transitions/Hindulotine to Anaconda Choke]] - Alternative submission chain when opponent frames and creates near-side space
 
-- [[Transitions/Guillotine Choke]] - Direct finish option when opponent posts wide to defend sweep, breaking their posture
+- [[Submissions/Guillotine Choke]] - Direct finish option when opponent posts wide to defend sweep, breaking their posture
 
 
 </section>

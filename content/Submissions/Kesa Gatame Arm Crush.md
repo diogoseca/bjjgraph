@@ -120,7 +120,7 @@ The technique is especially valuable in no-gi contexts where maintaining traditi
 ## Related
 - [[Submissions/Kimura]] - Primary submission chain partner from kesa gatame - kimura defense often exposes the arm for the crush
 - [[Submissions/Arm Crush]] - Parent submission category sharing compression mechanics and elbow attack principles
-- [[Transitions/Arm Triangle]] - Alternative submission from same position when opponent defends the arm crush by tucking elbow
+- [[Submissions/Arm Triangle]] - Alternative submission from same position when opponent defends the arm crush by tucking elbow
 - [[Submissions/Americana]] - Complementary shoulder lock creating attack chains from scarf hold positions
 - [[Submissions/Bicep Slicer]] - Related compression submission attacking similar forearm and bicep anatomical structures
 - [[Positions/Side Control/Kesa Gatame]] - Primary starting position providing the control framework for the arm crush setup

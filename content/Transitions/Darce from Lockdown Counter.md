@@ -237,7 +237,7 @@ The Darce from Lockdown Counter integrates into the half guard top game as a cri
 
 - [[Positions/Darce Control]] - Target position - where successful execution leads
 
-- [[Transitions/Darce Choke]] - Follow-up submission - finish from Darce control
+- [[Submissions/Darce Choke]] - Follow-up submission - finish from Darce control
 
 - [[Positions/Half Guard/Lockdown]] - Related system - the guard configuration you're escaping
 
@@ -247,7 +247,7 @@ The Darce from Lockdown Counter integrates into the half guard top game as a cri
 
 - [[Transitions/Back Take from Lockdown Defense]] - Alternative counter - chain if Darce unavailable
 
-- [[Transitions/Arm Triangle]] - Related choke - similar arm-in head-and-arm configuration
+- [[Submissions/Arm Triangle]] - Related choke - similar arm-in head-and-arm configuration
 
 - [[Positions/Front Headlock]] - Related position - same control family as Darce
 

@@ -361,7 +361,7 @@ Partner in turtle, practitioner establishes Rodeo Ride and flows through submiss
 - **[[Positions/Harness]]** - Related back attack control position
 - **[[Positions/Back Control/Seat Belt Control Back]]** - Control mechanism used in transitions from Rodeo Ride
 - **[[Positions/Front Headlock]]** - Alternative attack position from turtle scenarios
-- **[[Transitions/Darce Choke]]** - Submission opportunity from turtle attack sequences
+- **[[Submissions/Darce Choke]]** - Submission opportunity from turtle attack sequences
 - **[[Transitions/Crab Ride to Back]]** - Key transition technique to back control
 
 

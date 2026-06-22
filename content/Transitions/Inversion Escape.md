@@ -79,7 +79,7 @@ This technique requires significant hip mobility, spatial awareness while invert
 | Success | [[Positions/Open Guard]] | 55% |
 | Success | [[Positions/Ashi Garami/50-50 Guard]] | 15% |
 | Failure | [[Positions/Ashi Garami/Honey Hole]] | 20% |
-| Counter | [[Submissions/Inside Heel Hook]] | 10% |
+| Counter | [[Inside Heel Hook from Honey Hole]] | 10% |
 
 
 </section>

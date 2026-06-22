@@ -240,11 +240,11 @@ The anaconda setup is a fundamental component of the modern front headlock syste
 
 - [[Transitions/Anaconda Choke]] - Natural follow-up finish from this setup position
 
-- [[Transitions/Darce Choke]] - Alternative attack when near arm is tucked defensively
+- [[Submissions/Darce Choke]] - Alternative attack when near arm is tucked defensively
 
 - [[Transitions/Front Headlock to Anaconda]] - Entry pathway from standing or scramble positions
 
-- [[Transitions/Guillotine Choke]] - Alternative attack from same front headlock control
+- [[Submissions/Guillotine Choke]] - Alternative attack from same front headlock control
 
 - [[Transitions/Darce Setup]] - Complementary setup from same starting position
 
@@ -252,7 +252,7 @@ The anaconda setup is a fundamental component of the modern front headlock syste
 
 - [[Transitions/Japanese Necktie Setup]] - Alternative choke from front headlock position
 
-- [[Transitions/Arm Triangle]] - Another head-and-arm choke option from turtle top
+- [[Submissions/Arm Triangle]] - Another head-and-arm choke option from turtle top
 
 - [[Transitions/Front Headlock to Back]] - Positional alternative when submission setup fails
 

@@ -131,14 +131,14 @@ Strategically, the Ezekiel serves multiple purposes beyond just finishing the su
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Arm Triangle]] - Related blood choke using arm-in head-and-arm compression from similar top positions
+- [[Submissions/Arm Triangle]] - Related blood choke using arm-in head-and-arm compression from similar top positions
 - [[Submissions/Cross Collar Choke]] - Complementary gi choke creating attack dilemma when alternated with Ezekiel from mount
 - [[Submissions/Far Side Armbar]] - Chain submission available when opponent defends Ezekiel with high hands exposing arms
 - [[Submissions/Breadcutter Choke]] - Alternative gi choke from side control sharing similar top-position setup opportunities
-- [[Transitions/North-South Choke]] - Transition choke when moving to north-south during opponent's Ezekiel defense
+- [[Submissions/North-South Choke]] - Transition choke when moving to north-south during opponent's Ezekiel defense
 - [[Submissions/Baseball Bat Choke]] - Alternative gi choke applicable from similar dominant top control positions
-- [[Transitions/Guillotine Choke]] - Front headlock choke with similar bilateral carotid compression mechanics
-- [[Transitions/Darce Choke]] - Related arm-in choke sharing bilateral compression principles against carotid arteries
+- [[Submissions/Guillotine Choke]] - Front headlock choke with similar bilateral carotid compression mechanics
+- [[Submissions/Darce Choke]] - Related arm-in choke sharing bilateral compression principles against carotid arteries
 - [[Transitions/Anaconda Choke]] - Related arm-in choke with similar bilateral neck compression mechanics
 - [[Submissions/Triangle Choke]] - Chain submission when opponent extends arms to defend Ezekiel setup
 - [[Submissions/Americana]] - Complementary shoulder lock chaining when opponent extends arms in Ezekiel defense

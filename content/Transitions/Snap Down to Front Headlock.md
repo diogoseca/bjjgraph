@@ -259,7 +259,7 @@ The Snap Down to Front Headlock serves as a critical bridge technique in the BJJ
 
 - [[Transitions/Collar Drag]] - Related technique using similar principles with different grip
 
-- [[Transitions/Guillotine Choke]] - Most common submission finish from front headlock position
+- [[Submissions/Guillotine Choke]] - Most common submission finish from front headlock position
 
 - [[Positions/Turtle]] - Common defensive position opponent assumes after being snapped down
 

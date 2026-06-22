@@ -244,8 +244,8 @@ Strategically, the arm-in guillotine from front headlock serves as a powerful de
 ## Related
 - [[Submissions/Arm in Guillotine]]
 - [[Submissions/High Elbow Guillotine]]
-- [[Transitions/Guillotine Choke]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Guillotine Choke]]
+- [[Submissions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
 - [[Submissions/Von Flue Choke]]
 - [[Submissions/Japanese Necktie]]

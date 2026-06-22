@@ -239,7 +239,7 @@ The technique carries significant injury risk due to simultaneous compression of
 
 ## Related
 - [[Submissions/Calf Slicer]]
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
 - [[Submissions/Bicep Slicer]]
 - [[Submissions/Achilles Lock]]

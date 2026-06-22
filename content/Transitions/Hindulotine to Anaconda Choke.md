@@ -241,9 +241,9 @@ The Hindulotine to Anaconda transition fits within the broader front headlock at
 
 - [[Transitions/Hindulotine to Darce Choke]] - Alternative transition when opponent turns shoulder in
 
-- [[Transitions/Darce Choke]] - Alternative submission from same system
+- [[Submissions/Darce Choke]] - Alternative submission from same system
 
-- [[Transitions/Guillotine Choke]] - Related attack from same position
+- [[Submissions/Guillotine Choke]] - Related attack from same position
 
 - [[Transitions/Back Take from Bottom]] - Alternative if opponent turns too far
 

@@ -52,7 +52,7 @@ description: "Master North-South position in BJJ. Complete guide covering top co
 
 <aside class="entity-relations">
 <p class="also-known-as"><em>Also known as:</em> <strong>Kami Shiho Gatame</strong>, <strong>North South Position</strong>, <strong>69 Position</strong></p>
-<p class="often-confused-with"><em>Often confused with</em> <strong>[[Transitions/North-South Choke|North-South Choke]]</strong> — the North-South Choke is a submission finished from this position, not the position itself</p>
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Submissions/North-South Choke|North-South Choke]]</strong> — the North-South Choke is a submission finished from this position, not the position itself</p>
 </aside>
 <div class="role-links">
 
@@ -226,7 +226,7 @@ The position demands different strategic approaches based on whether you're esta
 ### Available Transitions
 
 
-- **[[North-South Choke from North-South/Attacker|North-South Choke from North-South]]** (18% of attempts)
+- **[[North-South Choke from North-South/Attacker|North-South Choke from North-South]]** (21% of attempts)
 
 - **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (12% of attempts)
 
@@ -245,8 +245,6 @@ The position demands different strategic approaches based on whether you're esta
 - **[[Transitions/Reverse Mount Transition/Attacker|Reverse Mount Transition]]** (5% of attempts)
 
 - **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** (5% of attempts)
-
-- **[[Transitions/North-South Choke/Attacker|North-South Choke]]** (3% of attempts)
 
 
 ### Common Mistakes

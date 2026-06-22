@@ -243,7 +243,7 @@ In competition, this attack chain is a hallmark of systematic leg lock play. Eli
 
 ## Related
 - [[Submissions/Inside Heel Hook]]
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Calf Slicer]]
 - [[Positions/Aoki Lock Control]]
 - [[Submissions/Flying Kneebar]]

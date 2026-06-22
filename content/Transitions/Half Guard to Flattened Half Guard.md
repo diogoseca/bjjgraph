@@ -256,7 +256,7 @@ This transition occupies a critical position in the half guard passing hierarchy
 
 - [[Submissions/Kimura]] - Submission opportunity arising when bottom player reaches for underhook during flattening
 
-- [[Transitions/Darce Choke]] - Submission threat created when bottom player turns into the crossface during the transition
+- [[Submissions/Darce Choke]] - Submission threat created when bottom player turns into the crossface during the transition
 
 - [[Positions/Half Guard/Lockdown]] - Leg entanglement defense that can stall the flattening progression
 

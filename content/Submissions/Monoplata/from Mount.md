@@ -239,7 +239,7 @@ The Monoplata from Mount is an advanced shoulder lock submission that combines e
 
 ## Related
 - [[Submissions/Omoplata]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Monoplata]]
 - [[Transitions/Gogoplata]]
 - [[Submissions/Baratoplata]]

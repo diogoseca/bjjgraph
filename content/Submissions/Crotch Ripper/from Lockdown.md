@@ -246,7 +246,7 @@ The Crotch Ripper represents the offensive potential of the lockdown system, tra
 - [[Submissions/Toe Hold]]
 - [[Transitions/Kneebar]]
 - [[Submissions/Kimura]]
-- [[Transitions/Guillotine Choke]]
+- [[Submissions/Guillotine Choke]]
 - [[Submissions/Straight Ankle Lock]]
 - [[Submissions/Calf Slicer]]
 - [[Positions/Half Guard/Lockdown]] - Primary position where Crotch Ripper is executed - lockdown control is prerequisite

@@ -251,7 +251,7 @@ Reverse X to Ashi Garami Entry serves as a critical connection between the moder
 
 - [[Transitions/Back Take from Ashi]] - Follow-up when opponent backsteps out of entanglement
 
-- [[Transitions/Heel Hook]] - Primary submission from completed Ashi Garami
+- [[Submissions/Heel Hook]] - Primary submission from completed Ashi Garami
 
 - [[Positions/X-Guard]] - Related guard with similar elevation and entry mechanics
 

@@ -238,7 +238,7 @@ The belly down armbar transition from the attacker's perspective requires decisi
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Submissions/Belly Down Armbar]] | 50% |
+| Success | [[Belly Down Armbar from Armbar Control]] | 50% |
 | Failure | [[Positions/Armbar Control]] | 30% |
 | Counter | [[Positions/Half Guard]] | 20% |
 

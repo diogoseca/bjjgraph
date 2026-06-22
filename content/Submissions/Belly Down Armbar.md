@@ -136,10 +136,10 @@ The key to success lies in rapid arm isolation, maintaining connection to the op
 - [[Submissions/Bicep Slicer]] - Compression lock that chains when opponent bends arm to defend armbar
 - [[Submissions/Far Side Armbar]] - Related armbar variation accessible from similar control positions
 - [[Submissions/Kimura]] - Alternative arm lock from same position creating submission combinations
-- [[Transitions/Guillotine Choke]] - Choke option from front headlock that chains with armbar attempts
-- [[Transitions/Arm Triangle]] - Head and arm choke accessible from similar turtle attack positions
+- [[Submissions/Guillotine Choke]] - Choke option from front headlock that chains with armbar attempts
+- [[Submissions/Arm Triangle]] - Head and arm choke accessible from similar turtle attack positions
 - [[Transitions/Anaconda Choke]] - Alternative submission from front headlock and turtle top positions
-- [[Transitions/Darce Choke]] - Arm-in choke that chains from similar turtle attack sequences
+- [[Submissions/Darce Choke]] - Arm-in choke that chains from similar turtle attack sequences
 - [[Positions/Turtle]] - Primary starting position where opponent is most vulnerable to this submission
 - [[Positions/Mount]] - Position where traditional armbars can transition to belly down variant when defended with stacking
 - [[Positions/Back Control]] - Common alternative attack when belly down armbar is defended from turtle

@@ -116,12 +116,12 @@ The Arm in Guillotine represents a powerful variation of the standard guillotine
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Guillotine Choke]] - Standard guillotine variant without arm trapped, primary comparison technique
+- [[Submissions/Guillotine Choke]] - Standard guillotine variant without arm trapped, primary comparison technique
 - [[Submissions/High Elbow Guillotine]] - Guillotine variant emphasizing carotid pressure through elevated elbow positioning
 - [[Submissions/Chin Strap Guillotine]] - Guillotine variant using chin strap grip for enhanced head control
 - [[Transitions/Anaconda Choke]] - Arm-in front headlock choke attacking from opposite threading angle
-- [[Transitions/Darce Choke]] - Arm-in choke accessible from similar front headlock setups with reversed arm path
-- [[Transitions/Arm Triangle]] - Related head-and-arm choke family with similar trapped arm principles
+- [[Submissions/Darce Choke]] - Arm-in choke accessible from similar front headlock setups with reversed arm path
+- [[Submissions/Arm Triangle]] - Related head-and-arm choke family with similar trapped arm principles
 - [[Positions/Guillotine Control]] - Primary control position for setting up arm-in variant
 - [[Positions/Front Headlock]] - Primary entry position and control platform for arm-in guillotine
 - [[Positions/Anaconda Control]] - Alternative arm-in choke position when opponent turns toward choking arm

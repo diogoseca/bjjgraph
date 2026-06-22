@@ -242,7 +242,7 @@ The Front Headlock to Darce transition is a cornerstone technique within the sys
 ## Related Techniques
 
 
-- [[Transitions/Darce Choke]] - Primary submission - the finishing technique applied from Darce Control after this transition succeeds
+- [[Submissions/Darce Choke]] - Primary submission - the finishing technique applied from Darce Control after this transition succeeds
 
 - [[Transitions/Front Headlock to Anaconda]] - Alternative attack - closely related transition using similar mechanics but opposite arm configuration
 
@@ -254,9 +254,9 @@ The Front Headlock to Darce transition is a cornerstone technique within the sys
 
 - [[Transitions/Anaconda Choke]] - Chain attack - common switch when Darce is defended by opponent circling toward choking arm
 
-- [[Transitions/Arm Triangle]] - Related choke - uses similar shoulder pressure and arm-in configuration principles
+- [[Submissions/Arm Triangle]] - Related choke - uses similar shoulder pressure and arm-in configuration principles
 
-- [[Transitions/Guillotine Choke]] - Chain attack - natural follow-up when opponent postures up defending the Darce
+- [[Submissions/Guillotine Choke]] - Chain attack - natural follow-up when opponent postures up defending the Darce
 
 - [[Transitions/Darce Setup]] - Related transition - alternative entry path to Darce Control from different angles
 

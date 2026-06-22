@@ -239,7 +239,7 @@ The Switch to Darce Configuration is a critical branch in the buggy choke attack
 
 - [[Positions/Darce Control]] - Target position achieved upon successful grip reconfiguration to darce
 
-- [[Transitions/Darce Choke]] - Primary submission finish available from the darce control position
+- [[Submissions/Darce Choke]] - Primary submission finish available from the darce control position
 
 - [[Transitions/Switch to Anaconda Configuration]] - Mirror sibling transition using opposite threading direction from same starting position
 

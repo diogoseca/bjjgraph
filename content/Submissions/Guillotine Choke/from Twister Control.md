@@ -240,11 +240,11 @@ Strategically, this submission functions as a trap within the broader Twister sy
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Guillotine Choke]]
+- [[Submissions/Guillotine Choke]]
 - [[Submissions/High Elbow Guillotine]]
 - [[Submissions/Arm in Guillotine]]
 - [[Submissions/Japanese Necktie]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Darce Choke]]
 - [[Submissions/Chin Strap Guillotine]]
 - [[Transitions/Anaconda Choke]]
 - [[Positions/Twister Control]] - Starting position providing leg control and spinal rotation that creates the guillotine opportunity

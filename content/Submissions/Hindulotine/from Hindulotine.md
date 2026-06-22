@@ -226,10 +226,10 @@ Strategically, this finish serves as the terminal threat within the Hindulotine 
 
 ## Related
 - [[Positions/Hindulotine]]
-- [[Transitions/Guillotine Choke]]
+- [[Submissions/Guillotine Choke]]
 - [[Submissions/High Elbow Guillotine]]
 - [[Submissions/Chin Strap Guillotine]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
 - [[Positions/Guillotine Control]] - Parent position with standard guillotine mechanics
 - [[Positions/Front Headlock]] - Primary entry position leading to Hindulotine control

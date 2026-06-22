@@ -256,7 +256,7 @@ The top kneebar serves dual purposes: as a finishing submission and as a positio
 - [[Transitions/Kneebar]]
 - [[Submissions/Straight Ankle Lock]]
 - [[Submissions/Toe Hold]]
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Kimura]]
 - [[Submissions/Americana]]

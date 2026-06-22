@@ -247,7 +247,7 @@ The Buggy Choke to North-South transition serves as a critical branching point i
 
 - [[Positions/Anaconda Control]] - Alternative front-headlock turtle attack to switch to when both the choke and the north-south slide are contested
 
-- [[Transitions/North-South Choke]] - High-percentage submission available immediately after establishing north-south from this transition
+- [[Submissions/North-South Choke]] - High-percentage submission available immediately after establishing north-south from this transition
 
 - [[Positions/Back Control]] - Alternative transition target from buggy choke when opponent sits to guard instead
 

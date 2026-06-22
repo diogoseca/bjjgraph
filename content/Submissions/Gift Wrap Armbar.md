@@ -247,7 +247,7 @@ Strategically, the Gift Wrap Armbar functions as part of a broader submission ch
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/Bow and Arrow Choke]]
 - [[Submissions/Americana]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Positions/Gift Wrap]] - Primary source position providing the arm trap control that enables this submission
 - [[Positions/Back Control]] - Parent position from which gift wrap control is most commonly established
 - [[Positions/Mount]] - Alternative base position for executing the gift wrap armbar after positional advancement

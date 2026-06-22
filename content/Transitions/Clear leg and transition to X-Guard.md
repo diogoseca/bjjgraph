@@ -245,7 +245,7 @@ Clear Leg to X-Guard fits within the defensive leg entanglement hierarchy as a p
 
 - [[Transitions/Butterfly Sweep]] - Follow-up attack from established X-Guard
 
-- [[Transitions/Heel Hook]] - Primary submission threat being escaped
+- [[Submissions/Heel Hook]] - Primary submission threat being escaped
 
 - [[Positions/Ashi Garami/50-50 Guard]] - Alternative counter-entanglement option from Leg Knot
 

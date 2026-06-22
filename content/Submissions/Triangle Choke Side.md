@@ -119,11 +119,11 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 
 ## Related
 - [[Submissions/Triangle Choke]] - Traditional bottom variation sharing core triangle mechanics but executed from closed guard rather than top position
-- [[Transitions/Arm Triangle]] - Similar blood choke from top position that can be combined with side triangle mechanics when arm is trapped across neck
+- [[Submissions/Arm Triangle]] - Similar blood choke from top position that can be combined with side triangle mechanics when arm is trapped across neck
 - [[Submissions/Kimura]] - Alternative shoulder lock available when opponent defends triangle by extracting their trapped arm from side control
 - [[Submissions/Far Side Armbar]] - Alternative arm attack when triangle setup creates arm isolation opportunities from perpendicular angle
-- [[Transitions/North-South Choke]] - Alternative blood choke from top position accessible via north-south transition during triangle attempts
-- [[Transitions/Darce Choke]] - Head and arm choke with similar perpendicular mechanics and shared defensive reactions from bottom player
+- [[Submissions/North-South Choke]] - Alternative blood choke from top position accessible via north-south transition during triangle attempts
+- [[Submissions/Darce Choke]] - Head and arm choke with similar perpendicular mechanics and shared defensive reactions from bottom player
 - [[Transitions/Anaconda Choke]] - Related front headlock blood choke accessible when opponent defends by turning into attacker
 - [[Submissions/Rear Triangle Choke]] - Triangle variation from back control using rear-mounted leg configuration rather than side angle
 - [[Transitions/Inverted Triangle]] - Bottom-up triangle variation with inverted body positioning and different leg entry mechanics

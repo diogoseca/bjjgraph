@@ -255,7 +255,7 @@ The Lockdown Escape to Half Guard Pass represents the critical defensive respons
 
 - [[Transitions/Crossface Pass]] - Upper body control method supporting extraction
 
-- [[Transitions/Darce Choke]] - Submission opportunity during extraction sequence
+- [[Submissions/Darce Choke]] - Submission opportunity during extraction sequence
 
 
 </section>

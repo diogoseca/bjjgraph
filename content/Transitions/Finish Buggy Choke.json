@@ -16,7 +16,7 @@
   "from_position": "Buggy Choke/Top",
   "outcomes": [
     {
-      "to": "Buggy Choke",
+      "to": "Buggy Choke from Buggy Choke",
       "probability": 58,
       "result": "success"
     },

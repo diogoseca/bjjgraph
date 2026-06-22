@@ -244,9 +244,9 @@ The trade-off is significant positional risk. Setting up the Ezekiel requires de
 ## Related
 - [[Submissions/Ezekiel Choke]]
 - [[Submissions/Cross Collar Choke]]
-- [[Transitions/Arm Triangle]]
-- [[Transitions/Guillotine Choke]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Arm Triangle]]
+- [[Submissions/Guillotine Choke]]
+- [[Submissions/Darce Choke]]
 - [[Positions/Closed Guard]] - Starting position where this submission is executed from top
 - [[Positions/Mount]] - Traditional and higher percentage position for Ezekiel Choke attacks
 - [[Positions/Half Guard]] - Alternative position where similar Ezekiel sleeve grip mechanics apply

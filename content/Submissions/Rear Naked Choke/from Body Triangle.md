@@ -244,8 +244,8 @@ The finishing mechanics remain identical to the standard RNC — the choking arm
 ## Related
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/Bow and Arrow Choke]]
-- [[Transitions/Arm Triangle]]
-- [[Transitions/Guillotine Choke]]
+- [[Submissions/Arm Triangle]]
+- [[Submissions/Guillotine Choke]]
 - [[Positions/Back Control/Body Triangle]] - Starting position providing figure-four leg control for this submission
 - [[Positions/Back Control]] - Parent position category encompassing body triangle control
 - [[Positions/Crucifix]] - Alternative back control position enabling undefended choke attacks when opponent's arms are trapped during body triangle defense

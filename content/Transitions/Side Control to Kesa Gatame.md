@@ -251,7 +251,7 @@ The transition to Kesa Gatame occupies a critical position within the side contr
 
 - [[Submissions/Kimura]] - High-percentage submission chain from Kesa Gatame arm control
 
-- [[Transitions/Arm Triangle]] - Submission accessible when opponent defends arm isolation during transition
+- [[Submissions/Arm Triangle]] - Submission accessible when opponent defends arm isolation during transition
 
 - [[Positions/North-South]] - Recovery position if Kesa Gatame control is lost during transition
 

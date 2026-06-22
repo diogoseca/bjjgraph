@@ -21,7 +21,7 @@
       "result": "success"
     },
     {
-      "to": "Clinch",
+      "to": "Clinch/Top",
       "probability": 15,
       "result": "success"
     },
@@ -184,7 +184,7 @@
         "counter": "Opponent releases grip voluntarily to transition to front headlock during your turn",
         "effectiveness": "Medium",
         "your_response": "Recognize the grip release and immediately circle away from the choking arm rather than turning directly into them. Establish defensive frames on their biceps before they can secure headlock control",
-        "targets_outcome": "Clinch"
+        "targets_outcome": "Clinch/Top"
       }
     ],
     "common_errors": [
@@ -326,7 +326,7 @@
       {
         "action": "Release grip to transition to front headlock control",
         "when_to_use": "When opponent successfully turns to face you during escape and lowers their head level",
-        "targets_outcome": "Clinch",
+        "targets_outcome": "Clinch/Top",
         "if_successful": "Transition from body lock to front headlock control, maintaining offensive pressure despite losing locked grip",
         "risk": "If opponent frames effectively during the transition, they may recover to neutral clinch"
       }

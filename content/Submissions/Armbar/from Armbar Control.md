@@ -254,7 +254,7 @@ The finish itself requires coordinated opposing vectors: hips drive toward the c
 - [[Submissions/Bicep Slicer]]
 - [[Submissions/Americana]]
 - [[Submissions/Far Side Armbar]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Positions/Armbar Control]] - Starting position - must establish this control before attempting the finish
 - [[Positions/Triangle Control]] - Primary chain attack when opponent stacks or postures to defend armbar
 - [[Positions/Omoplata Control]] - Chain attack when opponent bends arm defensively during finish attempt

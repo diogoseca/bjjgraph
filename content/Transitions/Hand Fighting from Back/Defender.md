@@ -200,7 +200,7 @@ Advanced back controllers use hand fighting exchanges as opportunities rather th
 ### 1. Switch choking arm by withdrawing the controlled arm and immediately attacking with the opposite arm over the other shoulder
 
 - **When to use**: When opponent has fully committed both hands to your primary choking arm and cannot redirect quickly enough
-- **Targets**: [[Submissions/Rear Naked Choke]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Opponent must release established grips and redirect both hands to new threat, creating a brief window where choke can advance past their defense
 - **Risk**: Momentarily weakens your seatbelt control during the switch, creating a potential escape window if opponent times hip escape during transition
 
@@ -214,7 +214,7 @@ Advanced back controllers use hand fighting exchanges as opportunities rather th
 ### 3. Drive choking arm elbow tight to opponent's body and re-pummel underneath their defending hands to re-establish deeper neck access
 
 - **When to use**: When opponent has stripped your choking arm to a shallow position but has not yet cleared it fully across their body
-- **Targets**: [[Submissions/Rear Naked Choke]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Regains deep choking position despite their defensive grips, advancing the choke past the point where two-on-one defense is effective
 - **Risk**: Requires significant grip strength and may fatigue your arm if opponent's defensive grips are well-established
 
@@ -239,9 +239,9 @@ Advanced back controllers use hand fighting exchanges as opportunities rather th
 
 Maintain hooks and harness control while defeating hand fighting through arm switches, re-pummel sequences, and grip fighting. Use body compression to fatigue opponent's grip endurance. Cycle between choking arm attacks and positional adjustments to keep opponent reactive and prevent them from building escape momentum.
 
-### → [[Submissions/Rear Naked Choke]]
+### → [[Positions/Mount]]
 
-Finish the rear naked choke by exploiting the windows created during hand fighting exchanges. Time arm switches when opponent is mid-grip adjustment, use gift wrap to eliminate one defensive arm, or wait for grip fatigue to allow deep choking arm penetration past their declining two-on-one resistance.
+When hand fighting is defeated, capitalize by advancing position rather than forcing a stalled choke. Time arm switches when opponent is mid-grip adjustment, use gift wrap to eliminate one defensive arm, or drain grip endurance through compression until the opponent surrenders the back and you ride the exchange forward into mount as they turn to defend.
 
 
 

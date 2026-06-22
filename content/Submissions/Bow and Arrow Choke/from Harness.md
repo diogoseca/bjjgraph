@@ -250,7 +250,7 @@ Strategically, this submission capitalizes on common defensive reactions to back
 - [[Submissions/Cross Collar Choke]]
 - [[Transitions/Clock Choke]]
 - [[Submissions/Short Choke]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Positions/Harness]] - Starting position for this submission variant
 - [[Positions/Back Control]] - Parent back control position family
 - [[Positions/Back Control/Seat Belt Control Back]] - Alternative harness configuration used as entry

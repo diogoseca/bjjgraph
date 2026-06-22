@@ -222,7 +222,7 @@ Defensive strategies fall into three categories: preventing the finish by disrup
 ### 4. Tap immediately when pressure reaches dangerous threshold on the shoulder joint
 
 - **When to use**: When you feel sharp pain in the shoulder, cannot prevent arm extension, or have no viable escape path remaining
-- **Targets**: [[Transitions/Aoki Lock]]
+- **Targets**: [[Aoki Lock from Aoki Lock Control]]
 - **If successful**: Prevents serious shoulder injury including rotator cuff tears, labrum damage, and dislocation
 - **Risk**: No physical risk - conceding the submission is always the correct choice when safety is threatened
 

@@ -241,7 +241,7 @@ Counter Ashi Entry represents the counter-attacking layer of the leg lock system
 
 - [[Transitions/Ashi Garami Escape]] - Alternative defensive option from same starting position
 
-- [[Transitions/Heel Hook]] - Primary submission threat during bilateral exchange
+- [[Submissions/Heel Hook]] - Primary submission threat during bilateral exchange
 
 - [[Submissions/Straight Ankle Lock]] - Immediate follow-up submission from established Outside Ashi
 

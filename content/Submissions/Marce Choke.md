@@ -123,9 +123,9 @@ The choke works on a fundamental principle: using the lapel as a ligature around
 - [[Submissions/Baseball Bat Choke]] - Related gi choke applicable from similar top positions
 - [[Submissions/Breadcutter Choke]] - Alternative lapel choke with different finishing angle from top
 - [[Submissions/Bow and Arrow Choke]] - Related gi choke utilizing lapel control for blood choke finish
-- [[Transitions/North-South Choke]] - Alternative choke from north-south transition with arm-triangle mechanics
+- [[Submissions/North-South Choke]] - Alternative choke from north-south transition with arm-triangle mechanics
 - [[Submissions/Ezekiel Choke]] - Related gi choke from top positions with sleeve-based mechanics
-- [[Transitions/Arm Triangle]] - Alternative head-and-arm choke available from same starting positions
+- [[Submissions/Arm Triangle]] - Alternative head-and-arm choke available from same starting positions
 - [[Submissions/Kimura]] - Complementary joint lock that chains from failed choke attempts
 - [[Submissions/Americana]] - Complementary shoulder lock from similar top control positions
 - [[Submissions/Brabo Choke]] - Related gi choke with similar cross-body pressure mechanics from top

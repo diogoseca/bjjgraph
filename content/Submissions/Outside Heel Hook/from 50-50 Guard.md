@@ -242,11 +242,11 @@ This submission carries extreme injury risk due to the nature of rotational heel
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
 - [[Submissions/Calf Slicer]]
 - [[Submissions/Achilles Lock]]
-- [[Transitions/Estima Lock]]
+- [[Submissions/Estima Lock]]
 - [[Positions/Ashi Garami/50-50 Guard]] - Primary starting position for this submission variant
 - [[Positions/Ashi Garami/Outside Ashi-Garami]] - Related leg entanglement with similar heel exposure angles
 - [[Positions/Ashi Garami/Backside 50-50]] - Alternative entanglement for outside heel hook attacks

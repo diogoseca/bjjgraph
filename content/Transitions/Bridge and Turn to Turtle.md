@@ -249,7 +249,7 @@ The Bridge and Turn to Turtle occupies a critical role in the North-South escape
 
 - [[Submissions/Kimura]] - Submission threat from top that creates timing windows for the escape
 
-- [[Transitions/North-South Choke]] - Submission threat to recognize during escape timing decisions
+- [[Submissions/North-South Choke]] - Submission threat to recognize during escape timing decisions
 
 - [[Positions/Side Control]] - Position often preceding North-South that uses similar escape concepts
 

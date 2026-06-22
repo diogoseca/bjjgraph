@@ -251,7 +251,7 @@ From a strategic perspective, this transition exemplifies the principle of submi
 
 - [[Positions/Guillotine Control]] - Ending Position - the submission control position achieved by this transition
 
-- [[Transitions/Guillotine Choke]] - Direct Submission - the finishing technique available from guillotine control
+- [[Submissions/Guillotine Choke]] - Direct Submission - the finishing technique available from guillotine control
 
 - [[Transitions/Front Headlock to Darce]] - Alternative Transition - used when opponent defends guillotine by turning in
 
@@ -267,7 +267,7 @@ From a strategic perspective, this transition exemplifies the principle of submi
 
 - [[Submissions/Arm in Guillotine]] - Submission Variation - adaptation when opponent's arm is trapped
 
-- [[Transitions/Darce Choke]] - Alternative Submission - used when opponent turns into guillotine attempt
+- [[Submissions/Darce Choke]] - Alternative Submission - used when opponent turns into guillotine attempt
 
 - [[Transitions/Anaconda Choke]] - Alternative Submission - complementary attack from front headlock
 

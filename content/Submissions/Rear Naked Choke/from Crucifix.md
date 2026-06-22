@@ -240,7 +240,7 @@ Unlike the standard RNC from back control, the crucifix variant benefits from th
 ## Related
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/Bicep Slicer]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Mounted Crucifix Armbar]]
 - [[Positions/Crucifix]] - Starting position for this submission variant with bilateral arm isolation
 - [[Positions/Back Control]] - Related control position often preceding crucifix entry

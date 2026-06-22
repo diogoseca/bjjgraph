@@ -256,7 +256,7 @@ The smash pass is a cornerstone technique within pressure passing systems and se
 
 - [[Transitions/Kimura from Half Guard]] - Submission opportunity available when opponent defends smash pass with underhook
 
-- [[Transitions/Darce Choke]] - Submission available when opponent turns in during smash pass attempt
+- [[Submissions/Darce Choke]] - Submission available when opponent turns in during smash pass attempt
 
 - [[Positions/Half Guard/Deep Half Guard]] - Counter position opponent may establish requiring pass adjustment
 

@@ -246,10 +246,10 @@ Strategically, the toe hold from Outside Ashi creates a powerful dilemma for the
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
 - [[Submissions/Achilles Lock]]
-- [[Transitions/Estima Lock]]
+- [[Submissions/Estima Lock]]
 - [[Transitions/Aoki Lock]]
 - [[Submissions/Calf Slicer]]
 - [[Positions/Ashi Garami/Outside Ashi-Garami]] - Primary starting position where this toe hold is executed as a counter-attack from top

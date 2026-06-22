@@ -21,7 +21,7 @@ description: "Master Darce Control Top in BJJ. Dominant front headlock variation
     {
       "@type": "HowToStep",
       "name": "Execute Darce Choke from Darce Control",
-      "text": "From this position, attempt Darce Choke from Darce Control. This technique is attempted in 53% of exchanges from this position.",
+      "text": "From this position, attempt Darce Choke from Darce Control. This technique is attempted in 54% of exchanges from this position.",
       "position": 1
     },
     {
@@ -223,11 +223,11 @@ From a strategic perspective, Darce Control Top exemplifies the modern submissio
 
 **Else if opponent attempts to roll through or turn into the choke:**
 - Execute **[[Transitions/Turtle to Back Take/Attacker|Turtle to Back Take]]** → [[Positions/Back Control]] (Probability: 75%)
-- Execute **[[Transitions/Darce Choke/Attacker|Darce Choke]]** → [[game-over]] (Probability: 60%)
+- Execute **[[Submissions/Darce Choke/Attacker|Darce Choke]]** → [[game-over]] (Probability: 60%)
 
 
 **Else if opponent's defensive posture breaks down and arm remains trapped:**
-- Execute **[[Transitions/Darce Choke/Attacker|Darce Choke]]** → [[game-over]] (Probability: 80%)
+- Execute **[[Submissions/Darce Choke/Attacker|Darce Choke]]** → [[game-over]] (Probability: 80%)
 - Execute **[[Transitions/Anaconda from Turtle/Attacker|Anaconda from Turtle]]** → [[Positions/Anaconda Control]] (Probability: 55%)
 
 
@@ -332,7 +332,7 @@ Start from front headlock or turtle positions and work to establish darce contro
 - **[[Positions/Darce Control]]** - Hub position covering both perspectives
 - **[[Positions/Front Headlock]]** - Precursor position and common entry point
 - **[[Positions/Anaconda Control]]** - Similar position with alternative front headlock choke configuration
-- **[[Transitions/Darce Choke]]** - Primary submission finishing technique from this position
+- **[[Submissions/Darce Choke]]** - Primary submission finishing technique from this position
 - **[[Positions/Turtle]]** - Common preceding position where darce opportunities arise
 - **[[Positions/Mount]]** - Positional advancement when choke is defended
 - **[[Positions/Back Control]]** - High-percentage transition when opponent rolls to escape

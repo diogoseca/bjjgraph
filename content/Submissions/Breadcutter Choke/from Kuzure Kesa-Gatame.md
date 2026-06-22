@@ -226,7 +226,7 @@ Strategically, this choke functions as the apex of a multi-threat attack chain f
 - [[Submissions/Breadcutter Choke]]
 - [[Submissions/Cross Collar Choke]]
 - [[Submissions/Americana]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Ezekiel Choke]]
 - [[Positions/Side Control/Kuzure Kesa-Gatame]] - Starting position providing arm isolation and hip pressure for the choke setup
 - [[Positions/Side Control]] - Related position family with alternative breadcutter choke entries

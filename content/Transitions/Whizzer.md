@@ -256,7 +256,7 @@ The Whizzer functions as a critical connecting technique within the broader BJJ 
 
 - [[Submissions/Kimura]] - Direct submission transition from Whizzer when opponent retracts arm
 
-- [[Transitions/Darce Choke]] - Submission option when opponent drops head forward under Whizzer pressure
+- [[Submissions/Darce Choke]] - Submission option when opponent drops head forward under Whizzer pressure
 
 - [[Transitions/Anaconda Choke]] - Submission option when transitioning from Whizzer to front headlock control
 

@@ -124,7 +124,7 @@ The Banana Split often works in combination with other attacks from half guard a
 - [[Submissions/Twister]] - Primary alternative submission from truck position targeting the spine
 - [[Submissions/Crotch Ripper]] - Closely related groin stretch sharing electric chair sweep mechanics
 - [[Submissions/Boston Crab]] - Similar back compression submission with leg control from turtle position
-- [[Transitions/Estima Lock]] - Alternative foot lock from similar leg entanglement configurations
+- [[Submissions/Estima Lock]] - Alternative foot lock from similar leg entanglement configurations
 - [[Submissions/Achilles Lock]] - Complementary ankle lock available from ashi garami transitions
 - [[Submissions/Toe Hold]] - Alternative foot attack when banana split leg control is partially established
 - [[Transitions/Kneebar]] - Complementary knee joint lock from similar leg entanglement positions

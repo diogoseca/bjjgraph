@@ -252,7 +252,7 @@ The mechanical advantage stems from controlling the opponent's hip rotation with
 - [[Submissions/Achilles Lock]]
 - [[Transitions/Aoki Lock]]
 - [[Submissions/Calf Slicer]]
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Positions/X-Guard]] - Primary starting position providing the leg control foundation for this submission
 - [[Positions/X-Guard/Single Leg X-Guard]] - Alternative guard position offering simplified ankle lock entries
 - [[Positions/Ashi Garami]] - Leg entanglement system providing follow-up attacks when ankle lock is defended

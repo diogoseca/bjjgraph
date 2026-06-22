@@ -242,7 +242,7 @@ This submission integrates into a broader attack system from reverse scarf hold 
 ## Related
 - [[Submissions/Kimura]]
 - [[Submissions/Americana]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Kesa Gatame Arm Crush]]
 - [[Positions/Side Control/Reverse Scarf Hold]] - Starting position for this submission variant

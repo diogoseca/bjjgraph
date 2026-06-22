@@ -249,9 +249,9 @@ The Backside 50-50 Entry from Ashi connects the foundational Inside Ashi-Garami 
 
 - [[Transitions/Back Take from Ashi]] - Related transition sharing the concept of getting behind opponent from leg entanglement
 
-- [[Transitions/Heel Hook]] - Primary submission available from the target backside 50-50 position
+- [[Submissions/Heel Hook]] - Primary submission available from the target backside 50-50 position
 
-- [[Transitions/Outside Heel Hook]] - Alternative heel attack available from backside 50-50 top
+- [[Submissions/Outside Heel Hook]] - Alternative heel attack available from backside 50-50 top
 
 - [[Positions/Ashi Garami]] - Parent position family encompassing all ashi variations including this transition's origin
 

@@ -15,7 +15,7 @@
   "from_position": "Estima Lock Control/Top",
   "outcomes": [
     {
-      "to": "Toe Hold",
+      "to": "Toe Hold Control/Top",
       "probability": 45,
       "result": "success"
     },

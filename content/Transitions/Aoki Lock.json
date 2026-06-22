@@ -14,7 +14,7 @@
   "from_position": "Aoki Lock Control/Top",
   "outcomes": [
     {
-      "to": "Aoki Lock",
+      "to": "Aoki Lock from Aoki Lock Control",
       "probability": 65,
       "result": "success"
     },
@@ -298,7 +298,7 @@
       {
         "action": "Tap immediately when pressure reaches dangerous threshold on the shoulder joint",
         "when_to_use": "When you feel sharp pain in the shoulder, cannot prevent arm extension, or have no viable escape path remaining",
-        "targets_outcome": "Aoki Lock",
+        "targets_outcome": "Aoki Lock from Aoki Lock Control",
         "if_successful": "Prevents serious shoulder injury including rotator cuff tears, labrum damage, and dislocation",
         "risk": "No physical risk - conceding the submission is always the correct choice when safety is threatened"
       }

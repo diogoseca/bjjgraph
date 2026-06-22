@@ -15,7 +15,7 @@
   "from_position": "Body Lock/Bottom",
   "outcomes": [
     {
-      "to": "Clinch",
+      "to": "Clinch/Top",
       "probability": 45,
       "result": "success"
     },

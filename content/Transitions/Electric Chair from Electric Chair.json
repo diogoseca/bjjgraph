@@ -15,7 +15,7 @@
   "from_position": "Electric Chair/Bottom",
   "outcomes": [
     {
-      "to": "game-over",
+      "to": "Mount/Top",
       "probability": 45,
       "result": "success"
     },

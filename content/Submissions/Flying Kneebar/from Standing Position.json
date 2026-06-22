@@ -85,7 +85,7 @@
       "result": "success"
     },
     {
-      "to": "Standing Position",
+      "to": "Standing Position/Top",
       "probability": 25,
       "result": "failure"
     },
@@ -229,7 +229,7 @@
         "counter": "Pull targeted leg back immediately when they recognize jump initiation",
         "effectiveness": "High",
         "your_response": "Commit fully to the jump and follow the leg backward - maintain grip security and complete rotation even if they retreat. Alternatively, switch to single leg takedown if leg withdrawal is too fast.",
-        "targets_outcome": "Standing Position"
+        "targets_outcome": "Standing Position/Top"
       },
       {
         "counter": "Turn into the kneebar to alleviate pressure (rotate toward trapped leg)",
@@ -411,7 +411,7 @@
       {
         "action": "Pull targeted leg back and change stance immediately upon recognizing the setup angle and penetration step",
         "when_to_use": "During pre-contact phase when you recognize the attacker's angle change and hand positioning before they jump - this is the highest-percentage defense",
-        "targets_outcome": "Standing Position",
+        "targets_outcome": "Standing Position/Top",
         "if_successful": "Attacker lands without securing your leg, resetting to neutral standing where you maintain top position advantage",
         "risk": "Low - simply repositioning your stance carries minimal risk and completely denies the entry"
       },
@@ -444,7 +444,7 @@
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Standing Position",
+        "outcome": "Standing Position/Top",
         "how": "Recognize the setup early and pull your targeted leg back before the attacker commits to the jump, resetting to neutral standing position with no positional disadvantage"
       },
       {

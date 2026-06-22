@@ -235,7 +235,7 @@ Strategically, the position is valued for its control density—the top player c
 
 **If opponent extends arm or loses defensive structure attempting to push or frame:**
 - Execute **[[Submissions/Kimura/Attacker|Kimura]]** → [[game-over]] (Probability: 85%)
-- Execute **[[Transitions/Arm Triangle Setup/Attacker|Arm Triangle Setup]]** → [[Transitions/Arm Triangle]] (Probability: 70%)
+- Execute **[[Transitions/Arm Triangle Setup/Attacker|Arm Triangle Setup]]** → [[Submissions/Arm Triangle]] (Probability: 70%)
 
 
 

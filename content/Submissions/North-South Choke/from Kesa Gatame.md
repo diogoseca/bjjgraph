@@ -243,13 +243,13 @@ Strategically, this technique functions as a high-percentage chain from Kesa Gat
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Americana]]
 - [[Submissions/Kimura]]
 - [[Submissions/Kesa Gatame Arm Crush]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Darce Choke]]
 - [[Submissions/Ezekiel Choke]]
-- [[Transitions/Guillotine Choke]]
+- [[Submissions/Guillotine Choke]]
 - [[Positions/Side Control/Kesa Gatame]] - Primary starting position for this choke variant
 - [[Positions/North-South]] - Target position during the rotational transition to finish the choke
 - [[Positions/Side Control]] - Related positional family with alternative choke entries

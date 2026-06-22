@@ -249,7 +249,7 @@ The Estima Lock Counter Roll integrates into the broader leg lock defense system
 
 - [[Transitions/Ashi Garami Escape]] - Alternative leg entanglement escape sharing similar defensive principles
 
-- [[Transitions/Estima Lock]] - The submission this counter roll technique is designed to escape
+- [[Submissions/Estima Lock]] - The submission this counter roll technique is designed to escape
 
 - [[Positions/Ashi Garami/50-50 Guard]] - Related leg entanglement position that commonly precedes Estima Lock situations
 

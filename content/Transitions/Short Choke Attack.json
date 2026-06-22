@@ -15,7 +15,7 @@
   "from_position": "Gift Wrap/Top",
   "outcomes": [
     {
-      "to": "Short Choke",
+      "to": "Short Choke from Gift Wrap",
       "probability": 55,
       "result": "success"
     },

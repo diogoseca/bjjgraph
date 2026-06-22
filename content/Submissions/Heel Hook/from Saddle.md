@@ -248,7 +248,7 @@ Strategically, the heel hook from saddle functions as the terminal threat within
 - [[Transitions/Aoki Lock]]
 - [[Submissions/Inside Heel Hook]]
 - [[Submissions/Achilles Lock]]
-- [[Transitions/Estima Lock]]
+- [[Submissions/Estima Lock]]
 - [[Submissions/Calf Slicer]]
 - [[Positions/Ashi Garami/Saddle]] - Primary starting position providing optimal control for heel hook finish
 - [[Positions/Ashi Garami/Honey Hole]] - Alternative terminology for the saddle position from which this submission is executed

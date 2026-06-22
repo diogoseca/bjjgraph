@@ -245,7 +245,7 @@ The Kneebar from Estima Lock occupies a pivotal position within modern leg lock 
 
 - [[Transitions/Kneebar Control Maintenance]] - Follow-up technique for maintaining control after successful entry
 
-- [[Transitions/Estima Lock]] - Primary submission from source position that this chain attack complements
+- [[Submissions/Estima Lock]] - Primary submission from source position that this chain attack complements
 
 - [[Transitions/Toe Hold from Estima Lock]] - Alternative chain attack from same position targeting the foot instead of knee
 

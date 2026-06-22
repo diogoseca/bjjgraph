@@ -225,7 +225,7 @@ This variant is particularly effective in competition because it chains naturall
 ## Related
 - [[Submissions/Bow and Arrow Choke]]
 - [[Transitions/Clock Choke]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Darce Choke]]
 - [[Submissions/Japanese Necktie]]
 - [[Submissions/Arm in Guillotine]]
 - [[Positions/Rodeo Ride]] - Starting position for this submission variant

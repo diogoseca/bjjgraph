@@ -236,7 +236,7 @@ Strategically, the Short Choke represents the most direct submission threat from
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Submissions/Short Choke]] | 55% |
+| Success | [[Short Choke from Gift Wrap]] | 55% |
 | Failure | [[Positions/Gift Wrap]] | 30% |
 | Counter | [[Positions/Back Control]] | 15% |
 

@@ -244,7 +244,7 @@ From a competitive standpoint, the Americana from Kesa Gatame is particularly ef
 
 ## Related
 - [[Submissions/Americana]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Kimura]]
 - [[Submissions/Kesa Gatame Arm Crush]]
 - [[Submissions/Far Side Armbar]]
