@@ -28,7 +28,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
 
       - name: Prefetch prior report (for week-over-week anomaly detection)
         env:
@@ -42,21 +42,31 @@ jobs:
             && git show origin/seo-reports:tests/artifacts/seo_trends.md > tests/artifacts/seo_trends.md 2>/dev/null \
             || echo "No prior seo-reports history yet (first run)."
 
-      - name: Generate SEO trend report
-        uses: anthropics/claude-code-action@v1
+      - name: Prefetch PostHog search-entry data (keeps the backend key out of the agent)
         env:
-          # PostHog Query API needs a PERSONAL key (phx_); the project key (phc_) 401s.
-          # If the secret is unset the value is empty and Claude records "PostHog
-          # unavailable" per the prompt (graceful) — set it to enable on-site signal.
+          # SECURITY: the PostHog PERSONAL key (phx_) is used HERE, in a non-agent step,
+          # and written to a file. It is intentionally NOT set on the Claude step below,
+          # which ingests untrusted DataForSEO SERP text (prompt-injection source). This
+          # severs the "injected SERP text -> agent -> exfiltrate backend key" path.
           POSTHOG_PERSONAL_API_KEY: ${{ secrets.POSTHOG_PERSONAL_API_KEY }}
           POSTHOG_PROJECT_ID: "236155"
+        run: |
+          python3 scripts/fetch_posthog_search.py /tmp/seo/posthog_search.json
+          echo "Prefetched PostHog search data to /tmp/seo/posthog_search.json"
+
+      - name: Generate SEO trend report
+        uses: anthropics/claude-code-action@51705da45eecce209d4700538bf8377d5b5fc695 # v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          # SECURITY: no backend secret in this step's env; no unrestricted Bash(python3:*)
+          # (that would be arbitrary code-exec an injected SERP string could abuse). The
+          # agent reads prefetched PostHog JSON and only Writes the report (commit is
+          # scoped to seo_trends.md below).
           claude_args: |
             --model claude-opus-4-8[1m]
             --effort xhigh
             --mcp-config '{"mcpServers":{"dataforseo":{"command":"npx","args":["-y","@modelcontextprotocol/server-dataforseo"],"env":{"DATAFORSEO_LOGIN":"${{ secrets.DATAFORSEO_LOGIN }}","DATAFORSEO_PASSWORD":"${{ secrets.DATAFORSEO_PASSWORD }}"}}}}'
-            --allowedTools 'Read,Write,Bash(mkdir:*),Bash(date:*),Bash(python3:*),mcp__dataforseo__serp_organic_live_advanced'
+            --allowedTools 'Read,Write,Bash(mkdir:*),Bash(date:*),mcp__dataforseo__serp_organic_live_advanced'
           prompt: |
             You are an SEO analyst tracking the BJJGraph synonym/alias program. Produce a
             leading-indicator trend report. Read-only: do NOT edit any site content under content/.
@@ -74,15 +84,13 @@ jobs:
               canonical hub — e.g. /Kuzure-Kesa-Gatame ranking for "kesa gatame" is WRONG)
             - the top non-bjjgraph competitor
 
-            # Step 2 — On-site signal (PostHog HogQL)
-            POST https://us.posthog.com/api/projects/$POSTHOG_PROJECT_ID/query/ with
-            `Authorization: Bearer $POSTHOG_PERSONAL_API_KEY`. Last 14 days, search-referred pageviews:
-            SELECT properties.$current_url, count() FROM events WHERE event='$pageview'
-            AND (properties.$referrer LIKE '%google%' OR properties.$referrer LIKE '%bing%')
-            AND timestamp > now() - interval 14 day GROUP BY properties.$current_url
-            ORDER BY count() DESC LIMIT 50
-            Use python3 + urllib/requests. If the key is missing or the call fails, note
-            "PostHog unavailable" and continue — do not fail the report.
+            # Step 2 — On-site signal (PostHog, prefetched)
+            Read `/tmp/seo/posthog_search.json` (prefetched by a prior CI step). It is
+            `{"available": true, "data": {...HogQL result with columns/results...}}` for
+            the last 14 days of search-referred pageviews (top 50 by count), or
+            `{"available": false, "note": "..."}`. If unavailable, note "PostHog
+            unavailable" and continue — do not fail the report. Do NOT attempt to call the
+            PostHog API yourself (no key is available to this step by design).
 
             # Step 3 — Append the report
             Read tests/artifacts/seo_trends.md if it exists (create with an "# SEO Trends"
@@ -129,7 +137,7 @@ jobs:
 
       - name: Upload report artifact
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
         with:
           name: seo-trends-${{ github.run_id }}
           path: /tmp/seo_trends.md

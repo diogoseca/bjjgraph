@@ -25,55 +25,60 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
         with:
           fetch-depth: 0
 
       - name: Setup Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@7f4fc3e22c37d6ff65e88745f38bd3157c663f7c # v4
         with:
           python-version: '3.11'
 
       - name: Install Python dependencies
         run: |
-          pip install jsonschema jinja2 requests
+          pip install jsonschema jinja2
+
+      # SECURITY: fetch analytics + build the content catalog in a NON-agent step so the
+      # PostHog key (and this job's CLAUDE_CODE_OAUTH_TOKEN) is never reachable by the
+      # Claude agent. The agent reads these prefetched files; it gets no arbitrary
+      # python3/find and no Write (see claude_args). The Query API needs the PERSONAL
+      # key (phx_) — the public project key (phc_) 401s.
+      - name: Prefetch analytics + content catalog
+        env:
+          POSTHOG_PERSONAL_API_KEY: ${{ secrets.POSTHOG_PERSONAL_API_KEY }}
+          POSTHOG_PROJECT_ID: "236155"
+        run: |
+          mkdir -p /tmp/analytics
+          python3 scripts/fetch_posthog_analytics.py /tmp/analytics/analytics.json
+          find content -type f \( -name "*.json" -o -name "*.md" \) \
+            ! -name "CONTRIBUTING-*" ! -name "TEMPLATE*" ! -name "index.md" \
+            -exec basename {} \; | sed 's/\.json$//; s/\.md$//' | sort -u > /tmp/analytics/content_catalog.txt
+          echo "Prefetched analytics + catalog to /tmp/analytics/."
 
       - name: Fetch analytics and improve content with Claude
         id: improve_content
-        uses: anthropics/claude-code-action@v1
+        uses: anthropics/claude-code-action@51705da45eecce209d4700538bf8377d5b5fc695 # v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           prompt: |
             You are a BJJ content expert improving pages based on real user analytics data.
 
-            Python libraries available: `requests`, `json`, `jsonschema`, `jinja2`.
-            PostHog API key is in env var `POSTHOG_API_KEY`.
-            PostHog project ID: 236155. API base: `https://us.posthog.com`.
-
             **CRITICAL: Never edit generated role pages (Bottom.md, Top.md, Attacker.md, Defender.md).
             They are regenerated from parent JSON files via Jinja2 templates. Edit the JSON source instead.**
 
-            # Step 1: Fetch Analytics
+            # Step 1: Read prefetched analytics
 
-            Use Python with `requests` to query the PostHog Query API:
-            ```
-            POST https://us.posthog.com/api/projects/236155/query/
-            Headers: Authorization: Bearer $POSTHOG_API_KEY
-            Content-Type: application/json
-            ```
-
-            Run HogQL queries to get last 14 days of:
-            - Pageviews per content page: `SELECT properties.$current_url, count() FROM events WHERE event = '$pageview' AND timestamp > now() - interval 14 day GROUP BY properties.$current_url ORDER BY count() DESC LIMIT 200`
-            - Session duration per page (engagement proxy): `SELECT properties.$current_url, avg(properties.$session_duration) FROM events WHERE event = '$pageview' AND timestamp > now() - interval 14 day GROUP BY properties.$current_url`
-            - Bounce rate (single-page sessions): `SELECT properties.$current_url, countIf(properties.$session_duration < 10) / count() as bounce_rate FROM events WHERE event = '$pageview' AND timestamp > now() - interval 14 day GROUP BY properties.$current_url HAVING count() > 5`
-            - Search entry pages: `SELECT properties.$current_url, count() FROM events WHERE event = '$pageview' AND properties.$referrer LIKE '%google%' OR properties.$referrer LIKE '%bing%' OR properties.$referrer LIKE '%duckduckgo%' AND timestamp > now() - interval 14 day GROUP BY properties.$current_url ORDER BY count() DESC`
+            Read `/tmp/analytics/analytics.json` (prefetched by a prior CI step). Shape:
+            `{"available": true, "pageviews": [...], "session_duration": [...],
+            "bounce_rate": [...], "search_entry": [...]}` for the last 14 days (each a list
+            of HogQL result rows `[url, value]`), or `{"available": false, "note": "..."}`.
+            If unavailable, improve the oldest/thinnest files instead and continue. Do NOT
+            call the PostHog API yourself — no key is available to this step by design.
 
             Map page URLs back to content file paths:
             - Strip domain (https://bjjgraph.org)
             - Convert URL path to file path: `/Positions/Mount` → `content/Positions/Mount.json`
             - Handle URL encoding and slug conversion
-
-            Save results to `/tmp/analytics/` for reference in the PR body.
 
             # Step 2: Select Files
 
@@ -84,15 +89,10 @@ jobs:
 
             Skip files that don't have a .json source (truly orphaned .md files are handled by the Monday content bot).
 
-            # Step 3: Generate Content Catalog
+            # Step 3: Read the content catalog
 
-            ```bash
-            find content -type f \( -name "*.json" -o -name "*.md" \) \
-              ! -name "CONTRIBUTING-*" ! -name "TEMPLATE*" ! -name "index.md" \
-              -exec basename {} \; | sed 's/\.json$//; s/\.md$//' | sort -u > /tmp/content_catalog.txt
-            ```
-
-            Use this catalog for [[Wikilink]] validation — only link to names in this list.
+            Read `/tmp/analytics/content_catalog.txt` (prefetched). Use it for
+            [[Wikilink]] validation — only link to names in this list.
 
             # Step 4: Improve Content
 
@@ -123,18 +123,21 @@ jobs:
 
             Fix any validation errors. Retry up to 3 times if needed.
 
-            # Step 6: Write Analytics Summary
+            # Step 6: Summarize
 
-            Write `/tmp/analytics/improvement_summary.txt` with:
-            - Which pages were selected and why (include traffic numbers, bounce rate, session duration)
-            - What improvements were made to each file
-            - Before/after content quality comparison
+            In your final message, summarize which pages you selected and why (traffic /
+            bounce / session-duration), what you changed, and a before/after quality note.
+
+          # SECURITY: no `Write` and no unrestricted `Bash(python3:*)` — both would let an
+          # injected analytics string run arbitrary code / write arbitrary files and
+          # exfiltrate this job's CLAUDE_CODE_OAUTH_TOKEN. The agent only Edits existing
+          # content, reads prefetched analytics, and may run the validator. python3 is
+          # restricted to that validator; the post-step re-validates and the commit is
+          # scoped to content/ below. No PostHog key is set on this step (prefetched).
           claude_args: |
             --model claude-opus-4-8[1m]
             --effort xhigh
-            --allowedTools 'Read,Edit,Write,Bash(date:*),Bash(cat:*),Bash(python3:*),Bash(find:*),Glob,Grep'
-        env:
-          POSTHOG_API_KEY: ${{ secrets.POSTHOG_API_KEY }}
+            --allowedTools 'Read,Edit,Bash(date:*),Bash(cat:*),Bash(python3 scripts/validate_json.py:*),Glob,Grep'
 
       - name: Validate and retry .json files
         id: validate_retry
@@ -198,7 +201,9 @@ jobs:
 
           BRANCH_NAME="analytics-improvement/$(date +%Y%m%d-%H%M%S)"
           git checkout -b "$BRANCH_NAME"
-          git add .
+          # SECURITY: scope to content + artifacts only; never `git add .` (keeps an
+          # injected/edited workflow/script/source file out of the auto-PR).
+          git add content/ tests/artifacts/
 
           CHANGED_FILES=$(git diff --cached --name-only)
 

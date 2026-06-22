@@ -17,6 +17,7 @@ Usage:
 
 import argparse
 import json
+import math
 import os
 import sys
 from collections import defaultdict
@@ -99,12 +100,24 @@ def fetch_posthog_events(api_key: str, project_id: str, after: str | None = None
 
     next_url = f"{url}?{urllib.parse.urlencode(params)}"
 
-    while next_url:
+    # SECURITY/robustness: the `next` cursor is server-returned, but validate it stays
+    # on the trusted PostHog host (defense against an SSRF-style redirect of the
+    # Authorization header) and bound the loop so a pathological cursor can't spin
+    # forever / exhaust memory.
+    pages = 0
+    MAX_PAGES = 1000
+    while next_url and pages < MAX_PAGES:
+        pages += 1
+        host = urllib.parse.urlparse(next_url).hostname or ""
+        if host != "us.posthog.com":
+            print(f"  ERROR: refusing to follow PostHog pagination to untrusted host {host!r}")
+            break
+
         req = urllib.request.Request(next_url)
         req.add_header("Authorization", f"Bearer {api_key}")
 
         try:
-            with urllib.request.urlopen(req) as resp:
+            with urllib.request.urlopen(req, timeout=60) as resp:
                 data = json.loads(resp.read().decode('utf-8'))
         except Exception as e:
             print(f"  ERROR: PostHog API request failed: {e}")
@@ -136,7 +149,21 @@ def compute_user_final_rates(events: list[dict]) -> dict[str, dict[str, float]]:
         if not technique or adjusted_rate is None or not distinct_id:
             continue
 
-        user_rates[technique][distinct_id] = float(adjusted_rate)
+        # SECURITY: `adjusted_rate` and `distinct_id` come from anonymous client-emitted
+        # PostHog events (the public capture key signs nothing), so this input is
+        # attacker-controlled. Reject non-finite values and CLAMP to [0,100] so a forged
+        # event cannot push a published success_rate out of range or poison it with
+        # NaN/Infinity. (Per-identity dedup below still relies on distinct_id, which can
+        # be spoofed — Sybil-resistance via authenticated voting is a deeper follow-up.)
+        try:
+            rate = float(adjusted_rate)
+        except (TypeError, ValueError):
+            continue
+        if not math.isfinite(rate):
+            continue
+        rate = max(0.0, min(100.0, rate))
+
+        user_rates[technique][distinct_id] = rate
 
     return dict(user_rates)
 

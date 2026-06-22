@@ -17,27 +17,42 @@ jobs:
       contents: read
       deployments: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
         with:
           fetch-depth: 0
 
       - name: Setup Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
           node-version: 20
 
+      - name: Setup Python
+        uses: actions/setup-python@7f4fc3e22c37d6ff65e88745f38bd3157c663f7c # v4
+        with:
+          python-version: '3.11'
+
       - name: Cache dependencies
-        uses: actions/cache@v4
+        uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
         with:
           path: ~/.npm
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-node-
 
+      # Integrity gate (same as prod): don't auto-deploy unvalidated content to the
+      # public dev preview, which carries the same secrets as prod.
+      - name: Validate content (gate)
+        run: |
+          pip install jsonschema
+          python3 scripts/validate_json.py --all
+          python3 scripts/validate_graph_integrity.py
+
       - name: Build Quartz
         run: |
           npm install
           npx quartz build -d ../content
+          python3 ../scripts/regenerate_redirects.py
+          python3 ../scripts/regenerate_headers.py
         working-directory: ./source
 
       - name: Copy raw HTML folder
@@ -46,7 +61,7 @@ jobs:
         working-directory: ./source
 
       - name: Deploy to Cloudflare Pages (preview)
-        uses: cloudflare/wrangler-action@v3
+        uses: cloudflare/wrangler-action@9acf94ace14e7dc412b076f2c5c20b8ce93c79cd # v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}

@@ -524,7 +524,64 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
       return plugins
     },
     htmlPlugins() {
-      const plugins: PluggableList = [rehypeRaw]
+      // SECURITY: the pipeline runs with allowDangerousHtml + rehype-raw and NO
+      // allowlist sanitizer, so raw HTML in content (LLM-generated, community PRs, or
+      // emitted by the autoescape-off Jinja templates — generated .md flows through
+      // here too) would reach the DOM verbatim. This targeted sanitizer removes only
+      // ACTIVE content — <script> (except inert ld+json/json data, which SchemaExtractor
+      // consumes downstream), inline event handlers, and javascript:/vbscript:/
+      // data:text-html URLs — without stripping Quartz's own markup (SVG, classes,
+      // data-*). A full rehype-sanitize allowlist schema is the stronger follow-up,
+      // but needs build/visual verification to avoid breaking components.
+      const SAFE_SCRIPT_TYPES = new Set(["application/ld+json", "application/json"])
+      const URL_ATTRS = new Set([
+        "href",
+        "src",
+        "srcset",
+        "xlinkhref",
+        "poster",
+        "action",
+        "formaction",
+        "background",
+        "longdesc",
+        "cite",
+        "ping",
+        "data",
+      ])
+      const DANGEROUS_URL = /^(?:javascript|vbscript):|^data:text\/html|^data:application\//i
+      const stripDangerousHtml = () => (tree: HtmlRoot) => {
+        visit(tree, "element", (node: Element, index, parent) => {
+          if (node.tagName === "script" || node.tagName === "noscript") {
+            const type = String(node.properties?.type ?? "").toLowerCase()
+            if (!SAFE_SCRIPT_TYPES.has(type) && parent && typeof index === "number") {
+              parent.children.splice(index, 1)
+              return [SKIP, index]
+            }
+          }
+          const props = node.properties
+          if (props) {
+            for (const key of Object.keys(props)) {
+              const lower = key.toLowerCase()
+              if (lower.startsWith("on")) {
+                // Inline event handler (onerror, onclick, onload, …).
+                delete props[key]
+                continue
+              }
+              if (URL_ATTRS.has(lower)) {
+                const val = props[key]
+                if (
+                  typeof val === "string" &&
+                  DANGEROUS_URL.test(val.replace(/[\u0000-\u0020]/g, ""))
+                ) {
+                  delete props[key]
+                }
+              }
+            }
+          }
+          return undefined
+        })
+      }
+      const plugins: PluggableList = [rehypeRaw, stripDangerousHtml]
 
       if (opts.parseBlockReferences) {
         plugins.push(() => {

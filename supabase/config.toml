@@ -149,6 +149,11 @@ max_indexes = 5
 
 [auth]
 enabled = true
+# SECURITY: this file configures LOCAL dev (supabase CLI). The PRODUCTION project's
+# Auth settings live in the Supabase dashboard and are authoritative — keep them in
+# sync with the hardening below (email confirmation ON, captcha ON, password policy)
+# and ensure the prod site_url/redirect allow-list contains ONLY bjjgraph.org URLs
+# (no wildcards) to prevent OAuth token-redirect theft.
 # The base URL of your website. Used as an allow-list for redirects and for constructing URLs used
 # in emails.
 site_url = "http://127.0.0.1:3000"
@@ -172,10 +177,10 @@ enable_anonymous_sign_ins = false
 # Allow/disallow testing manual linking of accounts
 enable_manual_linking = false
 # Passwords shorter than this value will be rejected as weak. Minimum 6, recommended 8 or more.
-minimum_password_length = 6
+minimum_password_length = 8
 # Passwords that do not meet the following requirements will be rejected as weak. Supported values
 # are: `letters_digits`, `lower_upper_letters_digits`, `lower_upper_letters_digits_symbols`
-password_requirements = ""
+password_requirements = "letters_digits"
 
 # Configure passkey sign-ins.
 # [auth.passkey]
@@ -201,10 +206,14 @@ token_verifications = 30
 web3 = 30
 
 # Configure one of the supported captcha providers: `hcaptcha`, `turnstile`.
+# SECURITY: signup uses the PUBLIC anon key, so without a captcha an attacker can
+# script mass account creation (DB bloat / abuse). Enable a captcha on the LIVE
+# project (Supabase dashboard → Auth → Attack Protection) — left commented here only
+# because local `supabase start` needs a real provider secret to boot.
 # [auth.captcha]
 # enabled = true
-# provider = "hcaptcha"
-# secret = ""
+# provider = "turnstile"
+# secret = "env(SUPABASE_AUTH_CAPTCHA_SECRET)"
 
 [auth.email]
 # Allow/disallow new user signups via email to your project.
@@ -213,9 +222,11 @@ enable_signup = true
 # addresses. If disabled, only the new email is required to confirm.
 double_confirm_changes = true
 # If enabled, users need to confirm their email address before signing in.
-enable_confirmations = false
+# SECURITY: must be true so an attacker cannot claim arbitrary email addresses /
+# mass-create unverified accounts using only the public anon key.
+enable_confirmations = true
 # If enabled, users will need to reauthenticate or have logged in recently to change their password.
-secure_password_change = false
+secure_password_change = true
 # Controls the minimum amount of time that must pass before sending another signup confirmation or password reset email.
 max_frequency = "1s"
 # Number of characters used in the email OTP.
