@@ -161,6 +161,11 @@ def main() -> None:
         adjacency.setdefault(a, set()).add(b)
         adjacency.setdefault(b, set()).add(a)
 
+    # Real technique node ids — gate edges on these so we never force-create a phantom
+    # transitions/<slug> (or submissions/<slug>) for a target that has no real graph node.
+    real_tech_ids = {f"transitions/{k}".lower() for k in (graph_data.get("transitions") or {})} \
+        | {f"submissions/{k}".lower() for k in (graph_data.get("submissions") or {})}
+
     # Positions: each entry has a path like "Mount/Top" — derive hub slug
     for key, entry in (graph_data.get("positions") or {}).items():
         path = entry.get("path", "")
@@ -177,13 +182,15 @@ def main() -> None:
             continue
         add_node(slug_lower, entry.get("name", ""))
 
-        # Outgoing edges via transitions
+        # Outgoing edges via transitions — prefix by the resolved type (isSubmission),
+        # and only link to a node that actually exists (no phantom transitions/<slug>).
         for t in entry.get("transitions", []):
             tgt = t.get("target", "")
             if not tgt:
                 continue
-            tgt_slug = f"transitions/{tgt}".lower()
-            if is_hub_node(tgt_slug):
+            prefix = "submissions/" if t.get("isSubmission") else "transitions/"
+            tgt_slug = f"{prefix}{tgt}".lower()
+            if tgt_slug in real_tech_ids and is_hub_node(tgt_slug):
                 add_node(tgt_slug)
                 add_edge(slug_lower, tgt_slug)
 

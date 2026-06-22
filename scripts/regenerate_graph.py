@@ -992,30 +992,53 @@ def generate_state_graph(project_root: Path) -> dict:
         if vote_overrides:
             print(f"  Applied {vote_overrides} community vote rate override(s)")
 
-    # Mark position transitions that target submissions (including family hubs)
+    # Resolve position transition targets BY TYPE (type-aware disambiguation):
+    #   position-specific variant > real submission > transition; NEVER an edgeless family hub.
+    # Fixes same-name collisions where a generic name exists as both a transition (entry) and a
+    # family-hub submission (grouping): the old membership-only check shadowed the entry transition
+    # and bound position attempts to edgeless hubs (silent dead-ends). The isSubmission flag now
+    # reflects the resolved target's actual type, and successRate is read from the matching node.
+    # NOTE: at this point `submissions` holds REAL variants only (family hubs merge in later, ~:1129),
+    # so `slug in submissions` == a real (non-hub) submission node.
     all_submission_slugs = set(submissions.keys()) | hub_slugs
-    marked_count = 0
-    for pos_data in positions.values():
-        for t in pos_data.get('transitions', []):
-            if t.get('target', '') in all_submission_slugs:
-                t['isSubmission'] = True
-                marked_count += 1
-    if marked_count:
-        print(f"  Marked {marked_count} position transition(s) as submission targets")
+    unresolved_targets = []
 
-    # Enrich position transitions with successRate from transition/submission data
-    enriched = 0
+    def resolve_target(slug, leaf):
+        """Return (resolved_slug, is_submission) for a position->technique target, by node type."""
+        if not slug:
+            return slug, False
+        if '-from-' not in slug and leaf:
+            sub_variant = f"{slug}-from-{leaf}"
+            if sub_variant in submissions:
+                return sub_variant, True
+            if sub_variant in transitions:
+                return sub_variant, False
+        if slug in submissions:          # real submission (hubs not in `submissions` yet)
+            return slug, True
+        if slug in transitions:          # entry/movement transition
+            return slug, False
+        # Only a family hub (or nothing) matches — do NOT bind to the edgeless hub.
+        unresolved_targets.append((slug, leaf))
+        return slug, False
+
+    resolved_count = 0
     for pos_data in positions.values():
+        leaf = pos_data.get('hub', '')
         for t in pos_data.get('transitions', []):
-            target_slug = t.get('target', '')
-            if target_slug in transitions:
-                t['successRate'] = transitions[target_slug].get('successRate', 50)
-            elif target_slug in all_submission_slugs and target_slug in submissions:
-                t['successRate'] = submissions[target_slug].get('successRate', 50)
-            else:
-                t['successRate'] = 50
-            enriched += 1
-    print(f"  Enriched {enriched} position transition(s) with successRate")
+            orig = t.get('target', '')
+            resolved, is_sub = resolve_target(orig, leaf)
+            t['target'] = resolved
+            t['isSubmission'] = is_sub
+            node = (submissions if is_sub else transitions).get(resolved, {})
+            if resolved != orig and node.get('name'):
+                t['targetPath'] = quartz_slug(node['name'])
+            t['successRate'] = node.get('successRate', 50)
+            resolved_count += 1
+    print(f"  Resolved {resolved_count} position transition target(s) by type")
+    if unresolved_targets:
+        uniq = sorted({s for s, _ in unresolved_targets})
+        print(f"  WARNING: {len(unresolved_targets)} position target(s) resolved to no real node "
+              f"(edgeless hub or missing) — {len(uniq)} distinct: {', '.join(uniq[:15])}")
 
     # Build path index for opponent transition outcome lookups
     positions_dir = content_dir / 'Positions'
@@ -1117,7 +1140,10 @@ def generate_state_graph(project_root: Path) -> dict:
         if not ending:
             continue
         base = ending.rsplit('/top', 1)[0] if ending.endswith('/top') else ending
-        if base in all_submission_slugs:
+        # Kind-D guard: a slug that is BOTH a submission and a position (e.g. buggy-choke,
+        # hindulotine) means "advance to that control position" here — don't mis-terminate it.
+        is_position = base in positions or f"{base}/top" in positions or f"{base}/bottom" in positions
+        if base in all_submission_slugs and not is_position:
             t_data['endingPosition'] = 'game-over'
             t_data['endingPositionPath'] = 'Game-Over'
             ending_rewrite_count += 1
