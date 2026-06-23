@@ -88,8 +88,13 @@ CLAUDE_EFFORT = "xhigh"               # matches regenerate_content_json.py:72
 PRIOR_VOTE_COUNT = 30  # mirror regenerate_votes.py:27 — the pure-seed sentinel
 
 # spread (pct points of inter-persona disagreement) → pseudo-count (prior strength).
-# Tight consensus ⇒ strong prior (votes move it slowly); wide split ⇒ weak prior.
-PC_MAX, PC_MIN = 40, 5
+# Tight consensus ⇒ stronger prior; wide split ⇒ weaker. HARD-CAPPED LOW because the 5 personas
+# are one correlated LLM (measured r≈0.75 ⇒ ~1.25 effective estimators), so inter-persona spread is
+# intra-model jitter, NOT epistemic uncertainty — a tight spread must not buy high Bayesian
+# confidence. Cap at 8 (< the 30-vote human seed) so ~8 real votes overturn the model prior, and
+# stratify SUBMISSIONS / EXTRAPOLATED / wide-CI entries down to the floor (least-trustworthy).
+PC_MAX, PC_MIN = 8, 3
+PC_CI_WIDTH_FLOOR = 20.0  # CI wider than this → force PC_MIN (low confidence)
 SPREAD_FLOOR, SPREAD_CAP = 3.0, 25.0
 
 BOOTSTRAP_B = 2000
@@ -805,6 +810,25 @@ def fit_compression(points: list):
             "fixed_point": round(fixed, 2) if fixed is not None else None}
 
 
+def loao_mae(points: list):
+    """Leave-One-Anchor-Out MAE: for each anchor, refit the de-bias on the OTHER anchors and
+    measure how well it recovers the held-out one. This is the NON-circular gate (the in-sample
+    MAE is near-tautological because the fit is validated on the same points it was fit on).
+    LOAO on the lone high anchor (RNC) deliberately exposes the unconstrained high-tail slope."""
+    n = len(points)
+    if n < 5:  # need ≥4 to refit after holding one out
+        return None
+    errs = []
+    for i in range(n):
+        rest = [points[j] for j in range(n) if j != i]
+        f = fit_compression(rest)
+        if not f:
+            continue
+        exp_i, elic_i = points[i]
+        errs.append(abs(debias_value(elic_i, f) - exp_i))
+    return round(sum(errs) / len(errs), 2) if errs else None
+
+
 def debias_value(s: float, fit: dict) -> float:
     """Invert the compression: true = (elicited - b)/a. Outside the fitted band this extrapolates,
     so DAMP the high side toward the raw estimate (review found the linear inverse inflates already-
@@ -881,6 +905,28 @@ def apply_debias(out_cases, fit, log):
                 for cand in c["candidates"] if cand["aggregated"].get("extrapolated"))
     log(f"  de-bias applied to {n} non-anchor candidate(s): true=(elicited-{fit['b']})/{fit['a']} "
         f"(fixed point {fit['fixed_point']}, r={fit['r']}, n={fit['n']}); {n_ext} out-of-band flagged for review")
+    return n
+
+
+def stratify_pseudo_counts(out_cases, log):
+    """Force the LEAST-trustworthy classes to the pseudo-count floor: SUBMISSIONS (their high tail
+    is extrapolated from the single RNC anchor), EXTRAPOLATED entries (out-of-band), and any entry
+    whose success CI is wider than PC_CI_WIDTH_FLOOR. De-correlates prior STRENGTH from inter-persona
+    CONSENSUS (the failure the raw spread→pc path commits: tight consensus around a maybe-wrong mean
+    must not buy high confidence)."""
+    n = 0
+    for c in out_cases:
+        if c.get("is_anchor_probe"):
+            continue
+        for cand in c["candidates"]:
+            agg = cand["aggregated"]
+            ci = agg.get("success_ci") or [0, 0]
+            ci_w = (ci[1] - ci[0]) if len(ci) == 2 else 0
+            if (cand.get("kind") == "submission" or agg.get("extrapolated") or ci_w > PC_CI_WIDTH_FLOOR) \
+                    and agg.get("pseudo_count", PC_MIN) > PC_MIN:
+                agg["pseudo_count"] = PC_MIN
+                n += 1
+    log(f"  stratified {n} entry(ies) to pseudo-count floor (submission / extrapolated / wide-CI)")
     return n
 
 
@@ -986,9 +1032,11 @@ def finalize(cases, per_persona_results, anchors, skill, args, log):
     rng = random.Random(1729)  # reproducible bootstrap
     out_cases = aggregate_all(cases, per_persona_results, rng)
     recovery = anchor_recovery(out_cases, anchors)  # RAW (pre-debias) — diagnoses compression
+    points = recovery.get("points") or []
+    recovery["loao_mae"] = loao_mae(points)  # NON-circular generalization check (the real gate)
 
     # Fit + correct the single-LLM central-tendency compression, unless disabled.
-    fit = fit_compression(recovery.get("points") or [])
+    fit = fit_compression(points)
     debias = {"applied": False}
     if not args.no_debias and fit is not None:
         compression = fit["a"] < 0.9
@@ -996,11 +1044,14 @@ def finalize(cases, per_persona_results, anchors, skill, args, log):
         if compression and sound:
             apply_debias(out_cases, fit, log)
             debias = {"applied": True, "fit": fit}
-            gate_pass = True  # the known bias is corrected, not hidden
         else:
             debias = {"applied": False, "fit": fit,
                       "note": "no compression detected" if not compression else "fit not sound; not de-biasing"}
-            gate_pass = recovery["pass"]
+    stratify_pseudo_counts(out_cases, log)
+
+    # GATE on the de-circularized LOAO MAE (falls back to in-sample only if LOAO unavailable).
+    if recovery["loao_mae"] is not None:
+        gate_pass = recovery["loao_mae"] <= ANCHOR_MAE_GATE
     else:
         gate_pass = recovery["pass"]
     recovery["gate_pass"] = gate_pass
@@ -1012,12 +1063,12 @@ def finalize(cases, per_persona_results, anchors, skill, args, log):
     }
     atomic_write_json(args.out, results)
     log(f"\nWrote results → {args.out}")
-    log(f"Anchor-recovery (raw): pooled MAE={recovery['mae']} band={recovery['band_mae']} "
-        f"→ pooled gate {'PASS' if recovery['pass'] else 'FAIL'}")
+    log(f"Anchor-recovery: in-sample MAE={recovery['mae']} band={recovery['band_mae']} | "
+        f"LOAO MAE={recovery['loao_mae']} (the non-circular gate) → gate_pass={gate_pass}")
     if debias["applied"]:
-        log(f"De-bias APPLIED (gate_pass=True): {debias['fit']}")
+        log(f"De-bias APPLIED: {debias['fit']}")
     else:
-        log(f"De-bias NOT applied ({debias.get('note','disabled')}); gate_pass={gate_pass}")
+        log(f"De-bias NOT applied ({debias.get('note', 'disabled')})")
 
     index = build_technique_index()
     proposals = emit_content_proposals(out_cases, index)
