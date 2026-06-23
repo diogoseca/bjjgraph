@@ -194,26 +194,29 @@ def main() -> None:
                 add_node(tgt_slug)
                 add_edge(slug_lower, tgt_slug)
 
-    # Transitions: each entry has `outcomes` and a `startingPosition`
-    for key, entry in (graph_data.get("transitions") or {}).items():
+    # Transitions: the visual graph stays hub-collapsed (one node per technique), but the hub is
+    # now edgeless — its edge + origin data lives on the /attacker role-node, so read from there.
+    transitions_data = graph_data.get("transitions") or {}
+    for key, entry in transitions_data.items():
         slug = f"transitions/{key}".lower()
         if not is_hub_node(slug):
             continue
+        src = transitions_data.get(f"{key}/attacker", entry)
         add_node(slug, entry.get("name", ""))
         node_meta[slug] = {
-            "fromPosition": entry.get("fromPosition", ""),
-            "fromPositionId": entry.get("fromPositionId", ""),
-            "fromRole": entry.get("fromRole", ""),
+            "fromPosition": src.get("fromPosition", ""),
+            "fromPositionId": src.get("fromPositionId", ""),
+            "fromRole": src.get("fromRole", ""),
         }
 
-        starting = entry.get("startingPosition", "")
+        starting = src.get("startingPosition", "")
         if starting and isinstance(starting, str):
             start_slug = f"positions/{starting}".lower()
             if is_hub_node(start_slug):
                 add_node(start_slug)
                 add_edge(slug, start_slug)
 
-        for o in entry.get("outcomes", []):
+        for o in src.get("outcomes", []):
             to = o.get("to", "")
             if not to or to == "game-over":
                 continue
@@ -229,19 +232,21 @@ def main() -> None:
                 add_node(tgt_slug)
                 add_edge(slug, tgt_slug)
 
-    # Submissions: similar, edges to from_positions
-    for key, entry in (graph_data.get("submissions") or {}).items():
+    # Submissions: similar, edges to from_positions (origin data on the /attacker role-node).
+    submissions_data = graph_data.get("submissions") or {}
+    for key, entry in submissions_data.items():
         slug = f"submissions/{key}".lower()
         if not is_hub_node(slug):
             continue
+        src = submissions_data.get(f"{key}/attacker", entry)
         add_node(slug, entry.get("name", ""))
         node_meta[slug] = {
-            "fromPosition": entry.get("fromPosition", ""),
-            "fromPositionId": entry.get("fromPositionId", ""),
-            "fromRole": entry.get("fromRole", ""),
+            "fromPosition": src.get("fromPosition", ""),
+            "fromPositionId": src.get("fromPositionId", ""),
+            "fromRole": src.get("fromRole", ""),
         }
 
-        for fp in entry.get("fromPositions", []) or []:
+        for fp in entry.get("fromPositions", []) or src.get("fromPositions", []) or []:
             if not fp:
                 continue
             fp_slug = f"positions/{fp}".lower()

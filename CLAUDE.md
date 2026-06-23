@@ -218,7 +218,7 @@ Transition (Hub Page)    = Technique state (e.g., "Armbar from Mount")
 └── Defender (Role Page)  = Resisting/escaping (recognition, defense, escapes)
 ```
 
-**In `graph.json` each Transition/Submission is a single technique node** — Attacker/Defender are generated *page perspectives*, not separate graph nodes/role-nodes. (Positions split into Top/Bottom role-nodes; techniques do not.)
+**In `graph.json` each Transition/Submission splits into role-nodes (v1.48.0+), mirroring positions' Top/Bottom:** a bare `<slug>` **hub** (edgeless flashcard aggregator), `<slug>/attacker` (the player attempting it — `outcomes`/`successRate` as authored), and `<slug>/defender` (the opponent — the SAME exchange role-flipped: outcome targets' roles flipped, result labels re-perspectived, `successRate = 100 − attacker`). This makes the data layer a fully role-typed alternating game (position-role → technique/attacker → position-role …). The **visual layer stays hub-collapsed** — `globalGraphLayout.json` emits ONE node per technique carrying an `[attacker, defender]` strength pair (same as positions), so the background graph is unchanged. `kimura(from side control/top):attacker` is the node id; the origin is in the slug, the perspective is the suffix.
 
 **File structure example:**
 ```
@@ -279,7 +279,7 @@ The state machine is **bipartite**: position role-nodes point to technique nodes
 
 **Node types (in `graph.json`):**
 - **Position role-nodes** (`Mount/Top`, `Mount/Bottom`) — carry edges. Bare **hub** entries (`Mount`) and **`is_family: true` submission hubs** (e.g. `Armbar`) are flashcard/aggregator entries with **no edges** — they are *not* navigable data nodes. Neutral positions are a single node. `game-over` is the terminal.
-- **Transition nodes** and **Submission nodes** — technique nodes.
+- **Transition nodes** and **Submission nodes** — technique nodes, **role-split (v1.48.0+)** into an edgeless `<slug>` hub + `<slug>/attacker` (carries the edges) + `<slug>/defender` (the role-flipped mirror). The bare hub and `is_family: true` submission hubs are edgeless aggregators, not navigable data nodes.
 
 **Edge types + direction:**
 1. `Position/Role —attempt_probability→ Transition | Submission` (from each role's `transitions[]`; weights sum to 100/role).

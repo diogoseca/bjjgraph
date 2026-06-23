@@ -450,6 +450,52 @@ def process_positions(content_dir: Path) -> dict:
 # Transition processing
 # ---------------------------------------------------------------------------
 
+# Role-typed technique split (mirrors the position top/bottom split). A technique becomes THREE
+# graph nodes: an edgeless `<slug>` hub (flashcard aggregator), `<slug>/attacker` (the player
+# attempting it — outcomes/successRate as authored), and `<slug>/defender` (the opponent — the SAME
+# exchange viewed from the other side: outcome targets role-flipped, results re-perspectived, and
+# successRate = 100 − attacker successRate). This makes the state machine a fully role-typed
+# alternating game (position-role → technique/attacker → position-role …).
+
+def _flip_role(role: str) -> str:
+    return {'top': 'bottom', 'bottom': 'top'}.get(role, role)
+
+
+def _flip_role_suffix(slug: str) -> str:
+    """Flip a `position/role` target's role for the defender's perspective. game-over / neutral /
+    bare-position targets are unchanged (no role to flip)."""
+    if slug.endswith('/top'):
+        return slug[:-len('/top')] + '/bottom'
+    if slug.endswith('/bottom'):
+        return slug[:-len('/bottom')] + '/top'
+    return slug
+
+
+# Defender's result label for each attacker result: the attacker winning the exchange is a loss for
+# the defender; the attacker failing or being countered is a win (a successful defense/reversal).
+_DEFENDER_RESULT = {'success': 'failure', 'failure': 'success', 'counter': 'success'}
+
+
+def _defender_outcomes(att_outcomes: list) -> list:
+    """Mirror an attacker outcome list into the defender's perspective: same probabilities, role-
+    flipped targets, re-perspectived result labels."""
+    return [
+        {
+            'to': _flip_role_suffix(o.get('to', '')),
+            'probability': o.get('probability', 0),
+            'result': _DEFENDER_RESULT.get(o.get('result', 'success'), o.get('result', 'success')),
+        }
+        for o in att_outcomes
+    ]
+
+
+def _first_success_target(outcomes: list) -> str:
+    for o in outcomes:
+        if o.get('result') == 'success':
+            return o.get('to', '')
+    return ''
+
+
 def process_transitions(content_dir: Path) -> dict:
     transitions_dir = content_dir / 'Transitions'
     positions_dir = content_dir / 'Positions'
@@ -542,29 +588,61 @@ def process_transitions(content_dir: Path) -> dict:
         if from_position_raw and '/' in from_position_raw:
             starting_position_role = from_position_raw.split('/')[1].lower()
 
-        trans_entry = {
+        att_role = starting_position_role
+        def_role = _flip_role(starting_position_role)
+
+        # ATTACKER role-node — the player attempting the technique (outcomes as authored).
+        attacker_entry = {
             'name': trans_data['name'],
+            'hub': slug,
+            'role': 'attacker',
             'startingPosition': starting_position_slug,
             'startingPositionPath': starting_position_path,
-            'startingPositionRole': starting_position_role,
+            'startingPositionRole': att_role,
             # Canonical structured origin (consumers filter/link by these, not the title).
             # fromPosition = position display name; fromPositionId = position node id/slug.
             'fromPosition': from_position_name,
             'fromPositionId': starting_position_slug,
-            'fromRole': starting_position_role,
+            'fromRole': att_role,
             'endingPosition': ending_slug,
             'endingPositionPath': ending_path,
             'successRate': success_rate,
-            'attackerFlashcards': attacker_flashcards,
-            'defenderFlashcards': defender_flashcards,
-            'flashcards': dedupe_flashcards(attacker_flashcards + defender_flashcards),
+            'flashcards': attacker_flashcards,
             'commonCounters': common_counters,
         }
-
         if outcomes:
-            trans_entry['outcomes'] = outcomes
+            attacker_entry['outcomes'] = outcomes
 
-        transitions[slug] = trans_entry
+        # DEFENDER role-node — the opponent, same exchange role-flipped.
+        def_outcomes = _defender_outcomes(outcomes) if outcomes else []
+        defender_entry = {
+            'name': trans_data['name'],
+            'hub': slug,
+            'role': 'defender',
+            'startingPosition': starting_position_slug,
+            'startingPositionPath': starting_position_path,
+            'startingPositionRole': def_role,
+            'fromPosition': from_position_name,
+            'fromPositionId': starting_position_slug,
+            'fromRole': def_role,
+            'endingPosition': _first_success_target(def_outcomes),  # already role-flipped in def_outcomes
+            'endingPositionPath': '',
+            'successRate': max(0, 100 - success_rate),
+            'flashcards': defender_flashcards,
+            'commonCounters': [],
+        }
+        if def_outcomes:
+            defender_entry['outcomes'] = def_outcomes
+
+        # HUB — edgeless flashcard aggregator (mirrors the position hub).
+        transitions[slug] = {
+            'name': trans_data['name'],
+            'hub': slug,
+            'role': 'hub',
+            'flashcards': dedupe_flashcards(attacker_flashcards + defender_flashcards),
+        }
+        transitions[f"{slug}/attacker"] = attacker_entry
+        transitions[f"{slug}/defender"] = defender_entry
 
     return transitions
 
@@ -645,40 +723,76 @@ def process_submissions(content_dir: Path) -> tuple[dict, set, dict]:
         elif starting_position_slug:
             starting_position_path = path_index.get(starting_position_slug, starting_position_slug)
 
-        sub_entry = {
-            'name': sub_data['name'],
-            'isTerminal': True,
+        outcomes_raw = sub_data.get('outcomes', [])
+        outcomes = [
+            {
+                'to': '/'.join(slugify(part) for part in o.get('to', '').split('/')) if o.get('to') else '',
+                'probability': o.get('probability', 0),
+                'result': o.get('result', 'success')
+            }
+            for o in outcomes_raw
+        ]
+
+        att_role = starting_position_role
+        def_role = _flip_role(starting_position_role)
+        meta = {
             'category': sub_data.get('submission_category', 'Unknown'),
             'type': sub_data.get('submission_type', 'Unknown'),
             'targetArea': sub_data.get('target_area', 'Unknown'),
-            'startingPosition': starting_position_slug,
-            'startingPositionPath': starting_position_path,
-            'startingPositionRole': starting_position_role,
-            # Canonical structured origin (unified with transitions).
-            # fromPosition = position display name; fromPositionId = position node id/slug.
-            'fromPosition': from_position_name,
-            'fromPositionId': starting_position_slug,
-            'fromRole': starting_position_role,
-            'fromPositions': from_positions,
-            'successRate': success_rate,
-            'attackerFlashcards': attacker_flashcards,
-            'defenderFlashcards': defender_flashcards,
-            'flashcards': dedupe_flashcards(attacker_flashcards + defender_flashcards),
         }
 
-        # Add outcomes if present (graph edge data)
-        outcomes_raw = sub_data.get('outcomes', [])
-        if outcomes_raw:
-            sub_entry['outcomes'] = [
-                {
-                    'to': '/'.join(slugify(part) for part in o.get('to', '').split('/')) if o.get('to') else '',
-                    'probability': o.get('probability', 0),
-                    'result': o.get('result', 'success')
-                }
-                for o in outcomes_raw
-            ]
+        # ATTACKER role-node — the finishing perspective (terminal on success).
+        attacker_entry = {
+            'name': sub_data['name'],
+            'hub': slug,
+            'role': 'attacker',
+            'isTerminal': True,
+            **meta,
+            'startingPosition': starting_position_slug,
+            'startingPositionPath': starting_position_path,
+            'startingPositionRole': att_role,
+            # Canonical structured origin (unified with transitions).
+            'fromPosition': from_position_name,
+            'fromPositionId': starting_position_slug,
+            'fromRole': att_role,
+            'fromPositions': from_positions,
+            'successRate': success_rate,
+            'flashcards': attacker_flashcards,
+        }
+        if outcomes:
+            attacker_entry['outcomes'] = outcomes
 
-        submissions[slug] = sub_entry
+        # DEFENDER role-node — the defending perspective (same exchange role-flipped; not terminal).
+        def_outcomes = _defender_outcomes(outcomes) if outcomes else []
+        defender_entry = {
+            'name': sub_data['name'],
+            'hub': slug,
+            'role': 'defender',
+            **meta,
+            'startingPosition': starting_position_slug,
+            'startingPositionPath': starting_position_path,
+            'startingPositionRole': def_role,
+            'fromPosition': from_position_name,
+            'fromPositionId': starting_position_slug,
+            'fromRole': def_role,
+            'fromPositions': from_positions,
+            'successRate': max(0, 100 - success_rate),
+            'flashcards': defender_flashcards,
+        }
+        if def_outcomes:
+            defender_entry['outcomes'] = def_outcomes
+
+        # HUB — edgeless flashcard aggregator carrying the submission's identity metadata.
+        submissions[slug] = {
+            'name': sub_data['name'],
+            'hub': slug,
+            'role': 'hub',
+            'isTerminal': True,
+            **meta,
+            'flashcards': dedupe_flashcards(attacker_flashcards + defender_flashcards),
+        }
+        submissions[f"{slug}/attacker"] = attacker_entry
+        submissions[f"{slug}/defender"] = defender_entry
 
     # Build family-hub entries separately (keyed by family slug e.g. "americana").
     # Aggregates flashcards from all <family>-from-* variants. These are merged into
@@ -688,9 +802,11 @@ def process_submissions(content_dir: Path) -> tuple[dict, set, dict]:
     family_hubs: dict[str, dict] = {}
     for family_slug, meta in family_hub_metadata.items():
         prefix = f"{family_slug}-from-"
+        # Aggregate from the variant HUB nodes only (skip the /attacker + /defender role-nodes,
+        # whose keys also match the prefix) so flashcards aren't triple-counted.
         variant_decks = [
             variant for key, variant in submissions.items()
-            if key.startswith(prefix)
+            if key.startswith(prefix) and variant.get('role') == 'hub'
         ]
         family_hubs[family_slug] = {
             **meta,
@@ -889,11 +1005,32 @@ def validate_graph(graph: dict, *, verbose: bool = False) -> dict:
     # Ignore empty-string references
     missing_positions.discard('')
 
+    # Role-typed technique invariants (the hub + /attacker + /defender split):
+    #   - every technique hub has exactly an /attacker and a /defender child (pairing),
+    #   - the hub is edgeless (no outcomes),
+    #   - attacker.successRate + defender.successRate ≈ 100 (perspective complement).
+    role_violations: list[str] = []
+    for coll_name, coll in (('transitions', transitions), ('submissions', submissions)):
+        for key, node in coll.items():
+            if node.get('role') != 'hub':
+                continue
+            att, dfn = coll.get(f"{key}/attacker"), coll.get(f"{key}/defender")
+            if att is None or dfn is None:
+                role_violations.append(f"{coll_name}:{key} missing role-node "
+                                       f"(attacker={att is not None}, defender={dfn is not None})")
+                continue
+            if node.get('outcomes'):
+                role_violations.append(f"{coll_name}:{key} hub is not edgeless (has outcomes)")
+            sr_sum = (att.get('successRate', 0) or 0) + (dfn.get('successRate', 0) or 0)
+            if abs(sr_sum - 100) > 1.5:
+                role_violations.append(f"{coll_name}:{key} successRate complement off ({sr_sum})")
+
     report = {
         'missing_positions': sorted(missing_positions),
         'orphan_positions': sorted(orphan_positions),
         'missing_count': len(missing_positions),
         'orphan_count': len(orphan_positions),
+        'role_violations': role_violations,
     }
 
     # Print summary
@@ -913,6 +1050,16 @@ def validate_graph(graph: dict, *, verbose: bool = False) -> dict:
         if verbose:
             for slug in sorted(orphan_positions):
                 print(f"    - {slug}")
+
+    if role_violations:
+        print(f"  WARNING: {len(role_violations)} role-typed technique invariant violation(s)")
+        for v in role_violations[:15]:
+            print(f"    - {v}")
+        if len(role_violations) > 15:
+            print(f"    ... and {len(role_violations) - 15} more")
+    else:
+        print(f"  Role-typed techniques: OK (every hub paired with /attacker + /defender, "
+              f"edgeless, successRate complements)")
 
     if not missing_positions and not orphan_positions:
         print("\n  Graph integrity: OK (no missing or orphan nodes)")
@@ -979,16 +1126,18 @@ def generate_state_graph(project_root: Path) -> dict:
     # Override success rates with community votes
     if vote_rates:
         vote_overrides = 0
-        for t_data in transitions.values():
-            name = t_data.get('name', '')
-            if name in vote_rates:
-                t_data['successRate'] = round(vote_rates[name], 1)
-                vote_overrides += 1
-        for s_data in submissions.values():
-            name = s_data.get('name', '')
-            if name in vote_rates:
-                s_data['successRate'] = round(vote_rates[name], 1)
-                vote_overrides += 1
+        # Role-aware: the attacker node carries the voted success rate; the defender node carries its
+        # complement (defender success = attacker failure); the edgeless hub has no successRate.
+        for coll in (transitions, submissions):
+            for data in coll.values():
+                role = data.get('role')
+                if role not in ('attacker', 'defender'):
+                    continue
+                name = data.get('name', '')
+                if name in vote_rates:
+                    rate = round(vote_rates[name], 1)
+                    data['successRate'] = rate if role == 'attacker' else max(0, round(100 - rate, 1))
+                    vote_overrides += 1
         if vote_overrides:
             print(f"  Applied {vote_overrides} community vote rate override(s)")
 
@@ -1029,10 +1178,13 @@ def generate_state_graph(project_root: Path) -> dict:
             resolved, is_sub = resolve_target(orig, leaf)
             t['target'] = resolved
             t['isSubmission'] = is_sub
-            node = (submissions if is_sub else transitions).get(resolved, {})
+            coll = submissions if is_sub else transitions
+            node = coll.get(resolved, {})              # the (edgeless) hub node
             if resolved != orig and node.get('name'):
                 t['targetPath'] = quartz_slug(node['name'])
-            t['successRate'] = node.get('successRate', 50)
+            # successRate lives on the attacker role-node now (a position attempt = the attacker move)
+            att = coll.get(f"{resolved}/attacker", {})
+            t['successRate'] = att.get('successRate', node.get('successRate', 50))
             resolved_count += 1
     print(f"  Resolved {resolved_count} position transition target(s) by type")
     if unresolved_targets:
@@ -1068,10 +1220,14 @@ def generate_state_graph(project_root: Path) -> dict:
                 'attemptProbability': t.get('attemptProbability', 0),
                 'successRate': t.get('successRate', 50),
             }
-            # Embed the success outcome from the transition's outcomes array
+            # Embed the success outcome from the transition's outcomes array.
+            # (Shim: outcomes now live on the attacker role-node; the bare hub is edgeless. This
+            # whole opponentTransitions synthesis is superseded by the explicit defender nodes and
+            # is slated for removal once moveCards reads defender nodes directly.)
             target_slug = t.get('target', '')
-            if target_slug in transitions:
-                trans_outcomes = transitions[target_slug].get('outcomes', [])
+            att_node = transitions.get(f"{target_slug}/attacker")
+            if att_node is not None:
+                trans_outcomes = att_node.get('outcomes', [])
                 for outcome in trans_outcomes:
                     if outcome.get('result') == 'success':
                         outcome_to = outcome.get('to', '')

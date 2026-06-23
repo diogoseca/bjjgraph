@@ -104,8 +104,8 @@ Submissions/
 
 ### Graph Rules (Transitions & Submissions)
 
-- **Each Transition/Submission is a single technique node** in `graph.json` — Attacker/Defender are generated *page perspectives*, not separate nodes (techniques do **not** split into role-nodes the way positions do).
-- **`outcomes[]` are the outgoing edges** — `success | failure | counter`, summing to 100; each `to` resolves to a position **role-node**, a real **submission**, or **`game-over`** (never a bare hub or family hub).
+- **Each Transition/Submission splits into role-nodes (v1.48.0+)**, mirroring positions' Top/Bottom: an edgeless `<slug>` **hub** (flashcard aggregator), `<slug>/attacker` (outcomes/successRate as authored), and `<slug>/defender` (the SAME exchange role-flipped: outcome roles flipped, results re-perspectived, `successRate = 100 − attacker`). The data layer is thus a fully role-typed alternating game; the **visual layer stays hub-collapsed** (`globalGraphLayout.json` = one node/technique with an `[attacker, defender]` strength pair). `validate_graph` asserts the pairing + edgeless hub + successRate complement.
+- **`outcomes[]` are the outgoing edges (on the role-nodes)** — `success | failure | counter`, summing to 100; each `to` resolves to a position **role-node**, a real **submission**, or **`game-over`** (never a bare hub or family hub). The defender node's `to` targets are the attacker's, role-flipped.
 - **Submission success → `game-over`** (the single sink); only submissions reach it. `is_family: true` hubs are aggregators with **no** edges (not graph nodes).
 - **`targets_outcome`** links role-specific actions to specific entries in `outcomes[]`.
 

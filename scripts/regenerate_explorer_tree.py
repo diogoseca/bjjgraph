@@ -102,46 +102,45 @@ def main():
     # Build techniques from transitions + submissions
     techniques: dict[str, dict] = {}
 
-    for t_key, t_data in transitions.items():
-        outcomes = []
-        for o in t_data.get("outcomes", []):
+    # Techniques are role-split (hub + /attacker + /defender). Build one explorer technique per
+    # technique from the ATTACKER role-node (the canonical attacking perspective), keyed by the BARE
+    # slug so ?roll= encoding and the game's base-slug lookups still resolve. Skip hub + defender.
+    def _outcomes(node):
+        out = []
+        for o in node.get("outcomes", []):
             to_slug = o.get("to", "")
             to_parts = to_slug.split("/") if to_slug else [""]
-            hub_key = to_parts[0]
-            role_key = to_parts[1] if len(to_parts) > 1 else ""
             result = o.get("result", "success")
-            outcomes.append({
-                "hub": hub_key,
-                "role": role_key,
+            out.append({
+                "hub": to_parts[0],
+                "role": to_parts[1] if len(to_parts) > 1 else "",
                 "p": o.get("probability", 0),
                 "r": result[0] if result else "s",  # s/f/c
             })
+        return out
 
-        techniques[t_key] = {
-            "n": t_data.get("name", t_key),
-            "path": f"Transitions/{quartz_slug(t_data.get('name', t_key))}",
-            "o": outcomes,
+    for t_key, t_data in transitions.items():
+        if t_data.get("role") != "attacker":
+            continue
+        base_key = t_key[: -len("/attacker")]
+        techniques[base_key] = {
+            "n": t_data.get("name", base_key),
+            "path": f"Transitions/{quartz_slug(t_data.get('name', base_key))}",
+            "o": _outcomes(t_data),
         }
 
     for s_key, s_data in submissions.items():
-        outcomes = []
-        for o in s_data.get("outcomes", []):
-            to_slug = o.get("to", "")
-            to_parts = to_slug.split("/") if to_slug else [""]
-            hub_key = to_parts[0]
-            role_key = to_parts[1] if len(to_parts) > 1 else ""
-            result = o.get("result", "success")
-            outcomes.append({
-                "hub": hub_key,
-                "role": role_key,
-                "p": o.get("probability", 0),
-                "r": result[0] if result else "s",
-            })
-
-        techniques[s_key] = {
-            "n": s_data.get("name", s_key),
-            "path": f"Submissions/{quartz_slug(s_data.get('name', s_key))}",
-            "o": outcomes,
+        role = s_data.get("role")
+        if role == "attacker":
+            base_key = s_key[: -len("/attacker")]
+        elif s_data.get("isFamily"):
+            base_key = s_key  # family hub aggregator (no outcomes)
+        else:
+            continue  # skip per-variant hub + defender node
+        techniques[base_key] = {
+            "n": s_data.get("name", base_key),
+            "path": f"Submissions/{quartz_slug(s_data.get('name', base_key))}",
+            "o": _outcomes(s_data),
             "sub": True,
         }
 

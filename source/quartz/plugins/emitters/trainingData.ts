@@ -124,7 +124,10 @@ function computeStationary(graph: any): Record<string, number> {
     for (const it of items) {
       const pAttempt = (it.attemptProbability || 0) / A
       if (pAttempt <= 0) continue
-      const tech = it.isSubmission ? sub[it.target] : tr[it.target]
+      // Techniques are role-split; a position attempt is the ATTACKER's move, whose outcomes live
+      // on the /attacker role-node (the bare key is the edgeless hub).
+      const techSec = it.isSubmission ? sub : tr
+      const tech = techSec[`${it.target}/attacker`] || techSec[it.target]
       const outs: any[] = tech && tech.outcomes ? tech.outcomes : []
       let O = 0
       for (const o of outs) O += o.probability || 0
@@ -261,7 +264,14 @@ function buildBankAndAdjacency(
   ) => {
     for (const [key, data] of Object.entries(section || {})) {
       if (data.isFamily) continue
+      // One bank entry per node-group: positions use their role-nodes (skip the hub); techniques
+      // use the HUB (combined deck = one SRS card per technique; skip the /attacker + /defender nodes).
       if (sectionName === "positions" && data.role === "hub") continue
+      if (
+        (sectionName === "transitions" || sectionName === "submissions") &&
+        (data.role === "attacker" || data.role === "defender")
+      )
+        continue
       const cards = data.flashcards || []
       if (cards.length === 0) continue
       const fileSlug = slugLookup[data.name?.toLowerCase()] || `${prefix}/${data.name || key}`
@@ -318,7 +328,13 @@ function buildBankAndAdjacency(
   const startHub: string[] = []
   for (let i = 0; i < bank.length; i++) {
     const { key, section } = bankGraphKeys[i]
-    const data = graph[section]?.[key]
+    const hubData = graph[section]?.[key]
+    // For techniques the bank entry is the edgeless hub; its outcomes/successRate/startingPosition
+    // live on the /attacker role-node.
+    const data =
+      section === "transitions" || section === "submissions"
+        ? graph[section]?.[`${key}/attacker`] || hubData
+        : hubData
     if (!data) {
       outcomes.push([])
       effectiveness.push(0)
@@ -335,9 +351,13 @@ function buildBankAndAdjacency(
         hub = o.to
       } else {
         // A role-less target that isn't a position hub is a chained *technique*
-        // slug — resolve it to that technique's starting position so the
-        // outcome graph stays positions-only (ADJ-1).
-        const chained = graph.transitions?.[o.to] || graph.submissions?.[o.to]
+        // slug — resolve it to that technique's starting position (read from its
+        // /attacker role-node) so the outcome graph stays positions-only (ADJ-1).
+        const chained =
+          graph.transitions?.[`${o.to}/attacker`] ||
+          graph.submissions?.[`${o.to}/attacker`] ||
+          graph.transitions?.[o.to] ||
+          graph.submissions?.[o.to]
         hub = chained?.startingPosition
         if (!hub || !validHubs.has(hub)) continue
       }

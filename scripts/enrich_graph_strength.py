@@ -157,13 +157,32 @@ def enrich_graph_json(pos_by_slug: dict) -> dict:
             layout_strength["positions"][slug] = [v0 if v0 is not None else 0.0,
                                                   v1 if v1 is not None else 0.0]
 
-    for slug, entry in (g.get("transitions") or {}).items():
-        att, dfn = transition_strength(entry, pos_by_slug)
+    # Techniques are role-split (hub + /attacker + /defender). Compute the (attacker, defender)
+    # strength pair from the ATTACKER role-node (it carries successRate/endingPosition), then write
+    # a SCALAR onto each role-node and the {attacker,defender} DICT onto the edgeless hub — exactly
+    # mirroring how positions do it (scalar on /top,/bottom; dict on the hub). The layout pair stays
+    # keyed by the bare hub slug so the hub-collapsed background graph is unchanged.
+    trs = g.get("transitions") or {}
+    for slug, entry in trs.items():
+        if entry.get("role") in ("attacker", "defender"):
+            continue  # handled via their hub
+        att_node = trs.get(f"{slug}/attacker")
+        att, dfn = transition_strength(att_node or entry, pos_by_slug)
+        if att_node:
+            trs[f"{slug}/attacker"]["strength"] = att
+            trs[f"{slug}/defender"]["strength"] = dfn
         entry["strength"] = {"attacker": att, "defender": dfn}
         layout_strength["transitions"][slug] = [att, dfn]
 
-    for slug, entry in (g.get("submissions") or {}).items():
-        att, dfn = submission_strength(entry)
+    subs = g.get("submissions") or {}
+    for slug, entry in subs.items():
+        if entry.get("role") in ("attacker", "defender"):
+            continue  # handled via their hub (family hubs have no role and fall through)
+        att_node = subs.get(f"{slug}/attacker")
+        att, dfn = submission_strength(att_node or entry)
+        if att_node:
+            subs[f"{slug}/attacker"]["strength"] = att
+            subs[f"{slug}/defender"]["strength"] = dfn
         entry["strength"] = {"attacker": att, "defender": dfn}
         layout_strength["submissions"][slug] = [att, dfn]
 
