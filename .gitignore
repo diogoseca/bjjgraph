@@ -41,6 +41,12 @@ paa_output/
 output.txt
 **/output.txt
 
+# Calibration pipeline artifacts (regenerable via calibrate_probabilities.py; DO NOT COMMIT)
+calibration_cases.json
+calibration_results.json
+calibration_proposals.json
+calibration_results.partial.json
+
 # Package manager lock files (optional - uncomment if needed)
 # package-lock.json
 # yarn.lock

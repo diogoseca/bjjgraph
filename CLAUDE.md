@@ -385,6 +385,9 @@ All commands run from the repo root (`bjjgraph/`):
 | `npm run regenerate:build` | Regenerate + build (full workflow) |
 | `npm run dev` | Build then serve locally on port 8080 |
 | `npm run proofread` | Recurring LLM audit of graph edges + probabilities via Claude CLI. Intermittent use only — one Claude call per file, ~25 hours for full corpus at default 60s interval. Not part of `regenerate`. Use `--file`, `--category`, `--max-files` to scope, or `--batch` to skip the delay. |
+| `npm run calibrate:cases` | Build `calibration_cases.json` from the live graph (one case per position role; candidates = that role's transitions with their existing outcome skeletons). Regenerable input, gitignored. |
+| `npm run calibrate` | **Calibrated probability elicitation (dry-run).** An expert panel (Danaher, Gordon Ryan, Craig Jones, Roger Gracie, a BJJ-Fanatics generalist), each elicited in a SEPARATE Claude call, estimates occurrence% / success% / outcome-distribution per technique. Mechanism-first (which principles attacker leverages vs defender fails to leverage), comparative ranking + anchored to known-% references. Aggregates IN CODE (relevance × inverse-variance, bootstrap bagging, spread→pseudo-count). Writes `calibration_results.json` + `calibration_proposals.json`; changes nothing else. Treats the panel as a *prior*, not an independent crowd. |
+| `npm run calibrate:apply` | Fold the calibrated **success-rate prior** into `templates/votes.json` (only for entries still at the pure seed `vote_count==30`; never clobbers real votes). Gated on the blind anchor-recovery self-check (MAE ≤ 6) unless `--force`. occurrence% / outcomes stay in the human-gated `calibration_proposals.json`. |
 
 ### Quartz Scripts (source/package.json)
 
