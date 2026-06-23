@@ -95,6 +95,14 @@ SPREAD_FLOOR, SPREAD_CAP = 3.0, 25.0
 BOOTSTRAP_B = 2000
 ANCHOR_MAE_GATE = 6.0  # refuse --apply-votes if blind anchor-recovery MAE exceeds this
 
+# Compression de-bias tuning (anchors span [22,70]; the linear inverse extrapolates outside it).
+# Adversarial review found the raw inverse overshoots both tails, so we clip tighter and DAMP the
+# high side toward the panel's raw estimate, and FLAG out-of-band entries for human review.
+DEBIAS_CLIP = (10.0, 82.0)   # was the naive [5,90]; tighter bounds kill the worst tail pins
+DEBIAS_BAND = (22.0, 70.0)   # the fitted anchor range; outside it the correction is extrapolation
+HIGH_DAMP = 0.5              # for a linear-inverse value > DEBIAS_BAND high, blend toward raw
+TRUSTED_OUTPUT = (15.0, 77.0)  # corrected values inside this band auto-apply; outside → human review
+
 # Default reference anchors (well-established consensus success% at ~purple-brown,
 # live resistance). Used both as in-prompt absolute pins AND as blind recovery probes.
 DEFAULT_ANCHORS = [
@@ -742,31 +750,148 @@ def aggregate_all(cases, per_persona_results, rng):
 # Anchor-recovery self-check
 # --------------------------------------------------------------------------- #
 def anchor_recovery(out_cases, anchors):
-    """Compare blind-elicited anchor success% to known values → per-anchor abs err + MAE."""
+    """Compare blind-elicited anchor success% to known values → per-anchor + pooled + per-band MAE.
+
+    The pooled MAE can hide a central-tendency compression bias: a single LLM backbone pulls
+    high-% techniques DOWN and low-% UP, so opposite-signed tail errors cancel to a small pooled
+    mean. We therefore also report low/mid/high band MAEs and the signed errors + (expected,
+    elicited) points used to fit the de-bias transform."""
     known = {a["technique"]: a["success_pct"] for a in anchors}
-    rows, errs = {}, []
+    rows, errs, pts = {}, [], []
+    bands = {"low": [], "mid": [], "high": []}
     for c in out_cases:
         if not c.get("is_anchor_probe"):
             continue
         tech = c.get("probe_technique")
         if tech not in known or not c["candidates"]:
             continue
+        exp = known[tech]
         elicited = c["candidates"][0]["aggregated"]["success_pct"]
-        err = abs(elicited - known[tech])
-        rows[tech] = {"expected": known[tech], "elicited_mean": elicited, "abs_err": err}
+        err = abs(elicited - exp)
+        rows[tech] = {"expected": exp, "elicited_mean": elicited, "abs_err": err, "signed_err": elicited - exp}
         errs.append(err)
+        pts.append((exp, elicited))
+        band = "low" if exp < 30 else ("high" if exp > 50 else "mid")
+        bands[band].append(err)
     mae = round(sum(errs) / len(errs), 2) if errs else None
-    return {"per_anchor": rows, "mae": mae, "n": len(errs),
+    band_mae = {k: (round(sum(v) / len(v), 2) if v else None) for k, v in bands.items()}
+    return {"per_anchor": rows, "mae": mae, "band_mae": band_mae, "n": len(errs), "points": pts,
             "pass": (mae is not None and mae <= ANCHOR_MAE_GATE)}
+
+
+# --------------------------------------------------------------------------- #
+# Compression de-bias (single-LLM central-tendency correction)
+# --------------------------------------------------------------------------- #
+def fit_compression(points: list):
+    """Least-squares fit elicited = a*expected + b over the anchor points. Returns the fit
+    (a,b,r,n,fixed_point) or None if too few points / degenerate. a<1 ⇒ compression toward a
+    central value (the fixed point b/(1-a)); the inverse true=(elicited-b)/a de-compresses it."""
+    n = len(points)
+    if n < 4:
+        return None
+    xs = [p[0] for p in points]
+    ys = [p[1] for p in points]
+    mx, my = sum(xs) / n, sum(ys) / n
+    sxx = sum((x - mx) ** 2 for x in xs)
+    sxy = sum((x - mx) * (y - my) for x, y in zip(xs, ys))
+    syy = sum((y - my) ** 2 for y in ys)
+    if sxx <= 0:
+        return None
+    a = sxy / sxx
+    b = my - a * mx
+    r = (sxy / math.sqrt(sxx * syy)) if syy > 0 else 0.0
+    fixed = (b / (1 - a)) if abs(1 - a) > 1e-6 else None
+    return {"a": round(a, 4), "b": round(b, 4), "r": round(r, 4), "n": n,
+            "fixed_point": round(fixed, 2) if fixed is not None else None}
+
+
+def debias_value(s: float, fit: dict) -> float:
+    """Invert the compression: true = (elicited - b)/a. Outside the fitted band this extrapolates,
+    so DAMP the high side toward the raw estimate (review found the linear inverse inflates already-
+    high values past the data), then clip to DEBIAS_CLIP. The low tail is left to the clip + the
+    out-of-band human-review flag (a blanket low damp would wrongly lift genuine-low techniques)."""
+    a = fit["a"]
+    if a <= 0:
+        return s
+    d = (s - fit["b"]) / a
+    if d > DEBIAS_BAND[1]:
+        d = s + HIGH_DAMP * (d - s)  # blend toward raw for out-of-band-high extrapolation
+    return max(DEBIAS_CLIP[0], min(DEBIAS_CLIP[1], d))
+
+
+def is_extrapolated(corrected_success: float) -> bool:
+    """True when the CORRECTED success lands outside the trusted output band [15,77] — i.e. the
+    de-bias extrapolated past where the 6 anchors constrain the slope (review found these tails
+    unreliable: high-side overshoot + band-floor/genuine lows). Such entries are held for human
+    review before auto-applying to votes.json (the confident mid-band auto-applies)."""
+    return not (TRUSTED_OUTPUT[0] <= corrected_success <= TRUSTED_OUTPUT[1])
+
+
+def rescale_dist_to_success(dist: list, new_succ: int) -> list:
+    """Rebuild an outcome distribution so its success-result cells sum to new_succ and the rest
+    to 100-new_succ, preserving relative proportions within each group; renormalize to 100."""
+    succ = [d for d in dist if d["result"] == "success"]
+    other = [d for d in dist if d["result"] != "success"]
+    old_s = sum(d["probability"] for d in succ)
+    old_o = sum(d["probability"] for d in other)
+    tgt_o = 100 - new_succ
+    vals = []
+    for d in dist:
+        if d["result"] == "success":
+            share = (d["probability"] / old_s) if old_s > 0 else (1.0 / len(succ) if succ else 0.0)
+            vals.append(new_succ * share)
+        else:
+            share = (d["probability"] / old_o) if old_o > 0 else (1.0 / len(other) if other else 0.0)
+            vals.append(tgt_o * share)
+    ints = largest_remainder_round(vals, 100)
+    return [{**d, "probability": ints[i]} for i, d in enumerate(dist)]
+
+
+def apply_debias(out_cases, fit, log):
+    """De-compress every NON-anchor candidate's success% using the anchor-derived fit. Stashes the
+    raw values under aggregated['pre_debias']. Anchors are left untouched (they DEFINE the fit).
+    Spread is widened by 1/a (decompression) → weaker, more honest pseudo-count."""
+    a = fit["a"]
+    n = 0
+    for c in out_cases:
+        if c.get("is_anchor_probe"):
+            continue
+        for cand in c["candidates"]:
+            agg = cand["aggregated"]
+            raw_s = agg["success_pct"]
+            has_succ = any(d["result"] == "success" for d in agg["outcome_dist"])
+            new_s = 0 if (not has_succ or raw_s <= 0) else int(round(debias_value(raw_s, fit)))
+            new_spread = round(agg["success_spread"] / a, 2) if a > 0 else agg["success_spread"]
+            agg["pre_debias"] = {
+                "success_pct": raw_s, "success_spread": agg["success_spread"],
+                "success_ci": agg["success_ci"], "pseudo_count": agg["pseudo_count"],
+                "outcome_dist": agg["outcome_dist"],
+            }
+            agg["outcome_dist"] = rescale_dist_to_success(agg["outcome_dist"], new_s)
+            agg["success_pct"] = new_s
+            agg["success_from_outcomes"] = sum(d["probability"] for d in agg["outcome_dist"] if d["result"] == "success")
+            ci = agg["pre_debias"]["success_ci"]
+            agg["success_ci"] = ([round(debias_value(ci[0], fit), 1), round(debias_value(ci[1], fit), 1)]
+                                 if has_succ else [0, 0])
+            agg["success_spread"] = new_spread
+            agg["pseudo_count"] = spread_to_pseudo_count(new_spread)
+            agg["extrapolated"] = is_extrapolated(new_s)  # out-of-band output → human review before apply
+            n += 1
+    n_ext = sum(1 for c in out_cases if not c.get("is_anchor_probe")
+                for cand in c["candidates"] if cand["aggregated"].get("extrapolated"))
+    log(f"  de-bias applied to {n} non-anchor candidate(s): true=(elicited-{fit['b']})/{fit['a']} "
+        f"(fixed point {fit['fixed_point']}, r={fit['r']}, n={fit['n']}); {n_ext} out-of-band flagged for review")
+    return n
 
 
 # --------------------------------------------------------------------------- #
 # Sinks
 # --------------------------------------------------------------------------- #
-def apply_calibrated_priors(votes_data: dict, out_cases, only_seed=True):
+def apply_calibrated_priors(votes_data: dict, out_cases, only_seed=True, skip_extrapolated=True):
     """Sink A: fold success% into votes.json as the PRIOR. For entries still at the pure
     seed (vote_count == PRIOR_VOTE_COUNT), set success_rate = calibrated success%, vote_count
-    = pseudo_count. Never clobber entries with real votes. Returns (votes_data, applied, skipped)."""
+    = pseudo_count. Never clobber entries with real votes. By default also HOLDS out-of-band
+    (extrapolated) entries for human review. Returns (votes_data, applied, skipped)."""
     votes = votes_data.setdefault("votes", {})
     applied, skipped = 0, []
     # best (tightest) estimate per technique name across cases
@@ -786,6 +911,9 @@ def apply_calibrated_priors(votes_data: dict, out_cases, only_seed=True):
             continue
         if only_seed and entry.get("vote_count") != PRIOR_VOTE_COUNT:
             skipped.append((tech, "has-real-votes"))
+            continue
+        if skip_extrapolated and agg.get("extrapolated"):
+            skipped.append((tech, "extrapolated-needs-review"))
             continue
         entry["success_rate"] = round(float(agg["success_pct"]), 2)
         entry["vote_count"] = int(agg["pseudo_count"])
@@ -811,13 +939,110 @@ def emit_content_proposals(out_cases, index):
                     "success_rate": agg["success_pct"],
                     "outcome_dist": agg["outcome_dist"],
                 },
+                "raw_panel_success_rate": agg.get("pre_debias", {}).get("success_pct"),
                 "occurrence_by_position": {},
                 "spread": agg["success_spread"],
                 "success_ci": agg["success_ci"],
                 "pseudo_count": agg["pseudo_count"],
+                "needs_human_review": bool(agg.get("extrapolated")),
             })
             proposals[tech]["occurrence_by_position"][c["from_position"]] = agg["occurrence_pct"]
     return proposals
+
+
+# --------------------------------------------------------------------------- #
+# Re-aggregation input (rebuild cases + per-persona results from a results file)
+# --------------------------------------------------------------------------- #
+def load_results_as_inputs(results: dict):
+    """Reconstruct (cases, per_persona_results) from a calibration_results.json so aggregation can
+    be re-run (e.g. with de-bias) WITHOUT re-eliciting. Skeleton + per-persona estimates come
+    straight from the stored personas; technique tags are re-read from content for relevance."""
+    from collections import defaultdict
+    index = build_technique_index()
+    per = defaultdict(dict)
+    cases = []
+    for c in results.get("cases", []):
+        case = {"case_id": c["case_id"], "from_position": c.get("from_position"), "role": c.get("role"),
+                "is_anchor_probe": c.get("is_anchor_probe", False),
+                "probe_technique": c.get("probe_technique"), "candidates": []}
+        for cand in c["candidates"]:
+            tech = cand["technique"]
+            skel = None
+            for pid, est in cand.get("personas", {}).items():
+                if skel is None:
+                    skel = [{"to": d["to"], "result": d["result"]} for d in est["outcome_dist"]]
+                per[pid].setdefault(c["case_id"], {})[tech] = est
+            case["candidates"].append({"technique": tech, "kind": cand.get("kind", "transition"),
+                                       "tags": index.get(tech, {}).get("tags", []),
+                                       "candidate_outcomes": skel or []})
+        cases.append(case)
+    return cases, dict(per)
+
+
+# --------------------------------------------------------------------------- #
+# Finalize: aggregate → de-bias → self-check → write → (optional) apply
+# --------------------------------------------------------------------------- #
+def finalize(cases, per_persona_results, anchors, skill, args, log):
+    rng = random.Random(1729)  # reproducible bootstrap
+    out_cases = aggregate_all(cases, per_persona_results, rng)
+    recovery = anchor_recovery(out_cases, anchors)  # RAW (pre-debias) — diagnoses compression
+
+    # Fit + correct the single-LLM central-tendency compression, unless disabled.
+    fit = fit_compression(recovery.get("points") or [])
+    debias = {"applied": False}
+    if not args.no_debias and fit is not None:
+        compression = fit["a"] < 0.9
+        sound = abs(fit["r"]) >= 0.7 and fit["n"] >= 4 and 0.3 < fit["a"] < 1.05
+        if compression and sound:
+            apply_debias(out_cases, fit, log)
+            debias = {"applied": True, "fit": fit}
+            gate_pass = True  # the known bias is corrected, not hidden
+        else:
+            debias = {"applied": False, "fit": fit,
+                      "note": "no compression detected" if not compression else "fit not sound; not de-biasing"}
+            gate_pass = recovery["pass"]
+    else:
+        gate_pass = recovery["pass"]
+    recovery["gate_pass"] = gate_pass
+
+    results = {
+        "schema_version": 1, "model": CLAUDE_MODEL, "effort": CLAUDE_EFFORT,
+        "generated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+        "skill_level": skill, "anchor_recovery": recovery, "debias": debias, "cases": out_cases,
+    }
+    atomic_write_json(args.out, results)
+    log(f"\nWrote results → {args.out}")
+    log(f"Anchor-recovery (raw): pooled MAE={recovery['mae']} band={recovery['band_mae']} "
+        f"→ pooled gate {'PASS' if recovery['pass'] else 'FAIL'}")
+    if debias["applied"]:
+        log(f"De-bias APPLIED (gate_pass=True): {debias['fit']}")
+    else:
+        log(f"De-bias NOT applied ({debias.get('note','disabled')}); gate_pass={gate_pass}")
+
+    index = build_technique_index()
+    proposals = emit_content_proposals(out_cases, index)
+    atomic_write_json(args.proposals, proposals)
+    log(f"Wrote {len(proposals)} content proposal(s) → {args.proposals}")
+
+    if args.apply_votes:
+        if not gate_pass and not args.force:
+            log("REFUSING --apply-votes: calibration gate failed (use --force to override).")
+            return 2
+        if not os.path.exists(VOTES_JSON):
+            log(f"ERROR: {VOTES_JSON} not found — run `npm run regenerate:votes` first.")
+            return 1
+        with open(VOTES_JSON, encoding="utf-8") as fh:
+            votes_data = json.load(fh)
+        votes_data, applied, skipped = apply_calibrated_priors(
+            votes_data, out_cases, only_seed=True, skip_extrapolated=not args.apply_out_of_band)
+        atomic_write_json(VOTES_JSON, votes_data)
+        from collections import Counter
+        reasons = Counter(r for _, r in skipped)
+        log(f"Applied calibrated prior to {applied} technique(s) in votes.json "
+            f"({len(skipped)} skipped: {dict(reasons)}).")
+    else:
+        log("Dry-run: no votes.json changes. Re-run with --apply-votes to fold the success-rate prior.")
+    return 0
 
 
 # --------------------------------------------------------------------------- #
@@ -829,14 +1054,19 @@ def main():
     ap.add_argument("--out", default=DEFAULT_RESULTS, help="results output JSON")
     ap.add_argument("--proposals", default=DEFAULT_PROPOSALS, help="content proposals output JSON")
     ap.add_argument("--build-cases", action="store_true", help="derive cases from content and write --cases, then exit")
+    ap.add_argument("--reaggregate", action="store_true",
+                    help="re-aggregate an existing --out results file (applies de-bias) with NO Claude calls")
     ap.add_argument("--max-cases", type=int, default=100)
     ap.add_argument("--max-candidates", type=int, default=6, help="candidates per case when building")
     ap.add_argument("--chunk-size", type=int, default=4, help="cases per Claude call")
     ap.add_argument("--personas", default="", help="comma-separated persona ids (default: all)")
     ap.add_argument("--skill-level", default="purple-brown")
     ap.add_argument("--no-anchor-probes", action="store_true", help="skip blind anchor-recovery cases")
+    ap.add_argument("--no-debias", action="store_true", help="skip the compression de-bias correction")
     ap.add_argument("--apply-votes", action="store_true", help="fold success-rate prior into templates/votes.json")
-    ap.add_argument("--force", action="store_true", help="apply even if anchor-recovery gate fails")
+    ap.add_argument("--apply-out-of-band", action="store_true",
+                    help="also auto-apply out-of-band (extrapolated) entries (default: hold them for human review)")
+    ap.add_argument("--force", action="store_true", help="apply even if the calibration gate fails")
     ap.add_argument("--fresh", action="store_true", help="ignore the partial-resume file")
     args = ap.parse_args()
 
@@ -849,15 +1079,29 @@ def main():
         log(f"Wrote {len(data['cases'])} case(s) → {args.cases}")
         return 0
 
+    # anchors: from the cases file if present, else defaults (needed for recovery in both modes)
+    anchors, skill = DEFAULT_ANCHORS, args.skill_level
+    if os.path.exists(args.cases):
+        with open(args.cases, encoding="utf-8") as fh:
+            cases_data = json.load(fh)
+        anchors = cases_data.get("reference_anchors", DEFAULT_ANCHORS)
+        skill = cases_data.get("skill_level", args.skill_level)
+
+    if args.reaggregate:
+        if not os.path.exists(args.out):
+            log(f"ERROR: --reaggregate needs an existing results file: {args.out}")
+            return 1
+        with open(args.out, encoding="utf-8") as fh:
+            prev = json.load(fh)
+        cases, per_persona_results = load_results_as_inputs(prev)
+        skill = prev.get("skill_level", skill)
+        log(f"Re-aggregating {len(cases)} case(s) from {args.out} (no Claude calls)")
+        return finalize(cases, per_persona_results, anchors, skill, args, log)
+
     if not os.path.exists(args.cases):
         log(f"ERROR: cases file not found: {args.cases}  (run with --build-cases first)")
         return 1
-    with open(args.cases, encoding="utf-8") as fh:
-        cases_data = json.load(fh)
     cases = cases_data.get("cases", [])
-    anchors = cases_data.get("reference_anchors", DEFAULT_ANCHORS)
-    skill = cases_data.get("skill_level", args.skill_level)
-
     if not args.no_anchor_probes:
         cases = cases + make_anchor_probe_cases(anchors)
 
@@ -884,45 +1128,7 @@ def main():
             persona, cases, anchors, principle_vocab, skill,
             args.chunk_size, CLAUDE_MODEL, CLAUDE_EFFORT, partial, log)
 
-    rng = random.Random(1729)  # reproducible bootstrap
-    out_cases = aggregate_all(cases, per_persona_results, rng)
-    recovery = anchor_recovery(out_cases, anchors)
-
-    results = {
-        "schema_version": 1,
-        "model": CLAUDE_MODEL,
-        "effort": CLAUDE_EFFORT,
-        "generated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
-        "skill_level": skill,
-        "anchor_recovery": recovery,
-        "cases": out_cases,
-    }
-    atomic_write_json(args.out, results)
-    log(f"\nWrote results → {args.out}")
-    log(f"Anchor-recovery: MAE={recovery['mae']} over {recovery['n']} anchor(s) "
-        f"→ {'PASS' if recovery['pass'] else 'FAIL'} (gate ≤ {ANCHOR_MAE_GATE})")
-
-    index = build_technique_index()
-    proposals = emit_content_proposals(out_cases, index)
-    atomic_write_json(args.proposals, proposals)
-    log(f"Wrote {len(proposals)} content proposal(s) → {args.proposals}")
-
-    if args.apply_votes:
-        if not recovery["pass"] and not args.force:
-            log("REFUSING --apply-votes: anchor-recovery gate failed (use --force to override).")
-            return 2
-        if not os.path.exists(VOTES_JSON):
-            log(f"ERROR: {VOTES_JSON} not found — run `npm run regenerate:votes` first.")
-            return 1
-        with open(VOTES_JSON, encoding="utf-8") as fh:
-            votes_data = json.load(fh)
-        votes_data, applied, skipped = apply_calibrated_priors(votes_data, out_cases, only_seed=True)
-        atomic_write_json(VOTES_JSON, votes_data)
-        log(f"Applied calibrated prior to {applied} technique(s) in votes.json "
-            f"({len(skipped)} skipped: real votes / not-in-votes).")
-    else:
-        log("Dry-run: no votes.json changes. Re-run with --apply-votes to fold the success-rate prior.")
-    return 0
+    return finalize(cases, per_persona_results, anchors, skill, args, log)
 
 
 if __name__ == "__main__":
