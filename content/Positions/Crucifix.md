@@ -230,9 +230,7 @@ Mastery of the Crucifix from both perspectives—understanding how to establish 
 
 - **[[Transitions/Crucifix to Mount/Attacker|Crucifix to Mount]]** (2% of attempts)
 
-- **[[Submissions/Bicep Slicer/Attacker|Bicep Slicer]]** (2% of attempts)
-
-- **[[Bicep Slicer from Crucifix/Attacker|Bicep Slicer from Crucifix]]** (2% of attempts)
+- **[[Bicep Slicer from Crucifix/Attacker|Bicep Slicer from Crucifix]]** (4% of attempts)
 
 
 ### Common Mistakes

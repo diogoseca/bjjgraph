@@ -39,7 +39,7 @@ description: "Master Deep Half Guard Bottom with powerful sweeps, back takes, an
     {
       "@type": "HowToStep",
       "name": "Execute Electric Chair from Deep Half Guard",
-      "text": "From this position, attempt Electric Chair from Deep Half Guard. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Electric Chair from Deep Half Guard. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {

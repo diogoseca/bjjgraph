@@ -51,7 +51,7 @@ description: "Master High Mount Top position in BJJ. Advanced mount control with
     {
       "@type": "HowToStep",
       "name": "Execute Arm Triangle from High Mount",
-      "text": "From this position, attempt Arm Triangle from High Mount. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Arm Triangle from High Mount. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],

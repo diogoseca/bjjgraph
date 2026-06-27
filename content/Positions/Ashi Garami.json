@@ -382,7 +382,7 @@
       },
       {
         "transition": "Heel Hook from Ashi Garami",
-        "attempt_probability": 2
+        "attempt_probability": 3
       },
       {
         "transition": "Straight Ankle Lock Entry",
@@ -426,10 +426,6 @@
       },
       {
         "transition": "Aoki Lock from Ashi Garami",
-        "attempt_probability": 1
-      },
-      {
-        "transition": "Heel Hook",
         "attempt_probability": 1
       },
       {

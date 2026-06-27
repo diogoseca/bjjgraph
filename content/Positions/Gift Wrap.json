@@ -374,12 +374,8 @@
         "attempt_probability": 2
       },
       {
-        "transition": "Gift Wrap Armbar",
-        "attempt_probability": 2
-      },
-      {
         "transition": "Gift Wrap Armbar from Gift Wrap",
-        "attempt_probability": 2
+        "attempt_probability": 4
       },
       {
         "transition": "Kimura from Gift Wrap",
