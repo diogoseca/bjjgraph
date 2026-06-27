@@ -204,7 +204,7 @@ This position appears most commonly in no-gi competition, submission-only format
 ### Available Transitions
 
 
-- **[[Aoki Lock from Aoki Lock Control/Attacker|Aoki Lock from Aoki Lock Control]]** (38% of attempts)
+- **[[Aoki Lock from Aoki Lock Control/Attacker|Aoki Lock from Aoki Lock Control]]** (43% of attempts)
 
 - **[[Transitions/Aoki Lock to Back Control/Attacker|Aoki Lock to Back Control]]** (20% of attempts)
 
@@ -213,8 +213,6 @@ This position appears most commonly in no-gi competition, submission-only format
 - **[[Transitions/Kimura Switch/Attacker|Kimura Switch]]** (9% of attempts)
 
 - **[[Transitions/Truck Entry/Attacker|Truck Entry]]** (14% of attempts)
-
-- **[[Transitions/Aoki Lock/Attacker|Aoki Lock]]** (5% of attempts)
 
 
 ### Common Mistakes

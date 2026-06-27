@@ -143,7 +143,7 @@ From the top perspective, deep half guard presents a deceptive challenge - while
 
 - **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (9% of attempts)
 
-- **[[Electric Chair from Deep Half Guard/Attacker|Electric Chair from Deep Half Guard]]** (6% of attempts)
+- **[[Electric Chair from Deep Half Guard/Attacker|Electric Chair from Deep Half Guard]]** (9% of attempts)
 
 - **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (8% of attempts)
 
@@ -158,8 +158,6 @@ From the top perspective, deep half guard presents a deceptive challenge - while
 - **[[Transitions/Electric Chair Entry from Deep Half/Attacker|Electric Chair Entry from Deep Half]]** (2% of attempts)
 
 - **[[Transitions/Homer Simpson Sweep/Attacker|Homer Simpson Sweep]]** (2% of attempts)
-
-- **[[Positions/Half Guard/Electric Chair/Attacker|Electric Chair]]** (3% of attempts)
 
 
 ### Common Mistakes
