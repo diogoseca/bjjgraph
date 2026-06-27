@@ -110,6 +110,7 @@ description: "Master Leg Knot Top in BJJ. Advanced leg entanglement control with
   "@type": "WebPage",
   "name": "Leg Knot Top",
   "description": "Master Leg Knot Top in BJJ. Advanced leg entanglement control with multiple submission paths and systematic breakdown strategies for advanced practitioners.",
+  "disambiguatingDescription": "Often confused with Saddle \u2014 Leg Knot is a contested, mutual entanglement where neither player owns the inside position, whereas Saddle is a finished controlling position with the leg trapped between the attacker\u0027s thighs. Often confused with 50-50 Guard \u2014 50-50 is symmetric, with each player\u0027s inside leg mirroring the other, while Leg Knot is an asymmetric weave whose leg configurations do not mirror.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -149,6 +150,10 @@ description: "Master Leg Knot Top in BJJ. Advanced leg entanglement control with
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Positions/Ashi Garami/Saddle|Saddle]]</strong> — Leg Knot is a contested, mutual entanglement where neither player owns the inside position, whereas Saddle is a finished controlling position with the leg trapped between the attacker&#39;s thighs</p>
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Positions/Ashi Garami/50-50 Guard|50-50 Guard]]</strong> — 50-50 is symmetric, with each player&#39;s inside leg mirroring the other, while Leg Knot is an asymmetric weave whose leg configurations do not mirror</p>
+</aside>
 <section id="overview" class="content-section">
 
 Leg Knot Top Position represents an advanced leg entanglement configuration where the top player has achieved superior control over the opponent's legs through systematic crossing and tangling. This position creates a complex web of leg positioning that severely restricts the bottom player's mobility while establishing multiple attacking pathways for the top practitioner. The leg knot configuration typically emerges from entries like outside ashi garami, saddle transitions, or deliberate leg weaving sequences where the top player methodically traps and crosses the opponent's legs.
