@@ -1,6 +1,10 @@
 {
   "name": "Ashi Garami",
   "slug": "ashi-garami",
+  "bot_metadata": {
+    "last_improved": "2026-06-28",
+    "last_improved_by": "analytics-bot"
+  },
   "description": "Master Ashi Garami leg entanglements in BJJ. Complete guide to systematic control, hierarchical advancement, heel hooks, and leg lock defense strategies.",
   "summary": "Ashi Garami is a family of leg-entanglement positions where you trap and isolate an opponent's leg between your own to control their hip, advance through a control hierarchy, and threaten heel hooks, kneebars, and ankle locks.",
   "variant_uniqueness": "Horizontal control negates size advantages",
@@ -74,6 +78,18 @@
     {
       "name": "K-Guard",
       "relationship": "Modern guard position designed specifically for entries into Ashi Garami leg entanglement variations"
+    },
+    {
+      "name": "Leg Entanglement",
+      "relationship": "Umbrella control concept underpinning every Ashi Garami variation and its counter-entanglement battles"
+    },
+    {
+      "name": "Inside Sankaku",
+      "relationship": "Triangled-leg finishing configuration reached from Saddle and Inside Ashi for high-percentage inside heel hooks"
+    },
+    {
+      "name": "Shin-to-Shin Guard",
+      "relationship": "Seated entry point that pummels into Single Leg X and outside Ashi Garami control"
     }
   ],
   "top": {

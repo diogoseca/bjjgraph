@@ -1,5 +1,9 @@
 {
   "name": "Pull guard",
+  "bot_metadata": {
+    "last_improved": "2026-06-28",
+    "last_improved_by": "analytics-bot"
+  },
   "description": "Master the guard pull in BJJ. Complete guide to executing from standing to guard with grip setups, safe descent mechanics, and immediate offensive sequences.",
   "summary": "A guard pull is a transition where a standing grappler uses established grips to sit to the mat under control and wrap the opponent into closed or open guard, trading top position for an offensive ground game.",
   "tags": [
@@ -80,6 +84,18 @@
     {
       "name": "Lasso Guard",
       "relationship": "Advanced guard variation with specific pull entry requirements"
+    },
+    {
+      "name": "Sitting Guard Pull",
+      "relationship": "Lower-commitment sibling pull that lands in seated guard for butterfly or single-leg-X entries"
+    },
+    {
+      "name": "Rolling Guard Pull",
+      "relationship": "Advanced sibling pull that inverts on descent to threaten immediate berimbolo and back takes"
+    },
+    {
+      "name": "Standing Guard Pull",
+      "relationship": "Sibling entry from a standing grip exchange, sharing posture-break and safe-descent mechanics"
     }
   ],
   "attacker": {

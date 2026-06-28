@@ -1,5 +1,9 @@
 {
   "name": "Flower Sweep",
+  "bot_metadata": {
+    "last_improved": "2026-06-28",
+    "last_improved_by": "analytics-bot"
+  },
   "summary": "The Flower Sweep is a high-percentage closed guard sweep where the bottom player uses a same-side sleeve grip, hip angle, and a lifting hook to off-balance the opponent diagonally and reverse them straight into mount.",
   "description": "Learn the Flower Sweep in BJJ. Master this fundamental closed guard sweep with step-by-step execution from guard to mount. Complete attacker and defender guide.",
   "tags": [
@@ -70,6 +74,18 @@
     {
       "name": "Basic Butterfly Sweep",
       "relationship": "Related sweep using butterfly hook mechanics from open guard position"
+    },
+    {
+      "name": "Triangle Choke",
+      "relationship": "Primary submission the sweep chains into when the opponent posts or tucks an arm to defend"
+    },
+    {
+      "name": "Stand Up in Closed Guard",
+      "relationship": "Top player's main counter — standing breaks the sweep's hooking range and forces a guard reset"
+    },
+    {
+      "name": "Lumberjack Sweep",
+      "relationship": "Sibling closed-guard reversal used when the opponent stands to defend the Flower Sweep"
     }
   ],
   "attacker": {
