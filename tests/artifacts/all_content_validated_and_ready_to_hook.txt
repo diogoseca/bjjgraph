@@ -682,7 +682,6 @@ content/Transitions/Arm Extraction from Clamp Guard.json
 content/Transitions/Arm Extraction to Turtle.json
 content/Transitions/Arm Recovery from Crucifix.json
 content/Transitions/Arm Recovery to Guard.json
-content/Transitions/Arm Triangle.json
 content/Transitions/Arm Triangle Setup.json
 content/Transitions/Arm Triangle Transition.json
 content/Transitions/Arm Triangle from Front Headlock.json
@@ -842,7 +841,6 @@ content/Transitions/Crucifix Maintenance.json
 content/Transitions/Crucifix Transition.json
 content/Transitions/Crucifix from Turtle.json
 content/Transitions/Crucifix to Mount.json
-content/Transitions/Darce Choke.json
 content/Transitions/Darce Control Maintenance.json
 content/Transitions/Darce Setup.json
 content/Transitions/Darce from Lockdown Counter.json
@@ -918,7 +916,6 @@ content/Transitions/Escape from Rodeo Ride.json
 content/Transitions/Escape from Russian Cowboy.json
 content/Transitions/Escape from Truck.json
 content/Transitions/Escape from Vaporizer.json
-content/Transitions/Estima Lock.json
 content/Transitions/Estima Lock Counter Roll.json
 content/Transitions/Estima Lock to Ashi Garami.json
 content/Transitions/Estima Lock to Saddle.json
@@ -1005,7 +1002,6 @@ content/Transitions/Guard Recovery from Spider Guard.json
 content/Transitions/Guard Recovery from Squid Guard.json
 content/Transitions/Guard Recovery from Triangle Control.json
 content/Transitions/Guard Recovery from Zombie.json
-content/Transitions/Guillotine Choke.json
 content/Transitions/Guillotine Counter.json
 content/Transitions/Guillotine Defense.json
 content/Transitions/Guillotine Escape to Von Flue.json
@@ -1041,7 +1037,6 @@ content/Transitions/Headquarters Pass.json
 content/Transitions/Head Extraction to Posture.json
 content/Transitions/Heel Drag Escape.json
 content/Transitions/Heel Grab Sweep.json
-content/Transitions/Heel Hook.json
 content/Transitions/Heel Hook Defense Escape.json
 content/Transitions/Heel Strip from Ashi Garami.json
 content/Transitions/High Crotch.json
@@ -1250,7 +1245,6 @@ content/Transitions/New York Control to Zombie.json
 content/Transitions/New York Entry from Rubber Guard.json
 content/Transitions/New York Pass to Side Control.json
 content/Transitions/New York to Invisible Collar.json
-content/Transitions/North-South Choke.json
 content/Transitions/North-South Escape.json
 content/Transitions/North-South Recovery from Jailbreak.json
 content/Transitions/North-South to Kimura.json
@@ -1274,7 +1268,6 @@ content/Transitions/Ouchi Gari.json
 content/Transitions/Outside Ashi Entry.json
 content/Transitions/Outside Ashi to Inside Ashi.json
 content/Transitions/Outside Ashi to Leg Knot.json
-content/Transitions/Outside Heel Hook.json
 content/Transitions/Outside Heel Hook Adjustment.json
 content/Transitions/Outside to Ushiro Ashi.json
 content/Transitions/Overhook Control Sweep.json

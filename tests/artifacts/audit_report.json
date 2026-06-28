@@ -1,14 +1,14 @@
 {
   "summary": {
-    "transition_files": 1051,
+    "transition_files": 1044,
     "submission_files": 372,
     "position_files": 136,
-    "total_issues": 484,
+    "total_issues": 443,
     "errors": 0,
-    "warnings": 6,
-    "info": 478,
+    "warnings": 4,
+    "info": 439,
     "orphaned_transitions": 0,
-    "orphaned_submissions": 10,
+    "orphaned_submissions": 14,
     "missing_transitions": 0,
     "naming_matches": 0,
     "probability_errors": 0,
@@ -16,7 +16,7 @@
     "invalid_from_positions": 0,
     "outcome_errors": 0,
     "outcome_warnings": 3,
-    "attempt_outliers": 468
+    "attempt_outliers": 425
   },
   "issues": [
     {
@@ -30,10 +30,34 @@
     {
       "type": "orphaned_submission",
       "severity": "info",
-      "name": "Buggy Choke from Buggy Choke",
-      "file": "content/Submissions/Buggy Choke/from Buggy Choke.json",
+      "name": "Buggy Choke",
+      "file": "content/Submissions/Buggy Choke.json",
       "from_position": "Half Guard/Bottom",
-      "message": "Orphaned submission: 'Buggy Choke from Buggy Choke' (from: Half Guard/Bottom)"
+      "message": "Orphaned submission: 'Buggy Choke' (from: Half Guard/Bottom)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Chin Strap Guillotine",
+      "file": "content/Submissions/Chin Strap Guillotine.json",
+      "from_position": "Front Headlock/Top",
+      "message": "Orphaned submission: 'Chin Strap Guillotine' (from: Front Headlock/Top)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Flying Armbar",
+      "file": "content/Submissions/Flying Armbar.json",
+      "from_position": "Closed Guard/Bottom",
+      "message": "Orphaned submission: 'Flying Armbar' (from: Closed Guard/Bottom)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Gift Wrap Armbar",
+      "file": "content/Submissions/Gift Wrap Armbar.json",
+      "from_position": "Gift Wrap/Top",
+      "message": "Orphaned submission: 'Gift Wrap Armbar' (from: Gift Wrap/Top)"
     },
     {
       "type": "orphaned_submission",
@@ -42,14 +66,6 @@
       "file": "content/Submissions/Inside Heel Hook/from Inside Ashi-Garami.json",
       "from_position": "Inside Ashi-Garami/Bottom",
       "message": "Orphaned submission: 'Inside Heel Hook from Inside Ashi-Garami' (from: Inside Ashi-Garami/Bottom)"
-    },
-    {
-      "type": "orphaned_submission",
-      "severity": "info",
-      "name": "Inside Heel Hook from Inside Sankaku",
-      "file": "content/Submissions/Inside Heel Hook/from Inside Sankaku.json",
-      "from_position": "Inside Sankaku/Top",
-      "message": "Orphaned submission: 'Inside Heel Hook from Inside Sankaku' (from: Inside Sankaku/Top)"
     },
     {
       "type": "orphaned_submission",
@@ -70,10 +86,10 @@
     {
       "type": "orphaned_submission",
       "severity": "info",
-      "name": "Kneebar from Carni",
-      "file": "content/Submissions/Kneebar/from Carni.json",
-      "from_position": "Carni/Bottom",
-      "message": "Orphaned submission: 'Kneebar from Carni' (from: Carni/Bottom)"
+      "name": "Kneebar from Backside 50-50",
+      "file": "content/Submissions/Kneebar/from Backside 50-50.json",
+      "from_position": "Backside 50-50/Top",
+      "message": "Orphaned submission: 'Kneebar from Backside 50-50' (from: Backside 50-50/Top)"
     },
     {
       "type": "orphaned_submission",
@@ -82,6 +98,14 @@
       "file": "content/Submissions/Neck Crank.json",
       "from_position": "Twister Control/Top",
       "message": "Orphaned submission: 'Neck Crank' (from: Twister Control/Top)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Suloev Stretch",
+      "file": "content/Submissions/Suloev Stretch.json",
+      "from_position": "Half Guard/Top",
+      "message": "Orphaned submission: 'Suloev Stretch' (from: Half Guard/Top)"
     },
     {
       "type": "orphaned_submission",
@@ -100,6 +124,14 @@
       "message": "Orphaned submission: 'Triangle Choke from Triangle Control' (from: Triangle Control/Top)"
     },
     {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Von Flue Choke",
+      "file": "content/Submissions/Von Flue Choke.json",
+      "from_position": "Side Control/Top",
+      "message": "Orphaned submission: 'Von Flue Choke' (from: Side Control/Top)"
+    },
+    {
       "type": "from_position_mismatch",
       "severity": "warning",
       "name": "Gogoplata",
@@ -108,26 +140,6 @@
       "actual_from": "Mission Control/Bottom",
       "referencing_position": "content/Positions/Gogoplata Control.json",
       "message": "Use specific variant: 'Gogoplata Control/bottom' references 'Gogoplata' but 'Gogoplata from Gogoplata Control' exists"
-    },
-    {
-      "type": "from_position_mismatch",
-      "severity": "warning",
-      "name": "Electric Chair",
-      "file": "content/Submissions/Electric Chair.json",
-      "expected_from": "Electric Chair/Bottom",
-      "actual_from": "Deep Half Guard/Bottom",
-      "referencing_position": "content/Positions/Half Guard/Electric Chair.json",
-      "message": "Use specific variant: 'Electric Chair/bottom' references 'Electric Chair' but 'Electric Chair from Electric Chair' exists"
-    },
-    {
-      "type": "from_position_mismatch",
-      "severity": "warning",
-      "name": "Triangle Choke",
-      "file": "content/Submissions/Triangle Choke.json",
-      "expected_from": "Mounted Triangle/Top",
-      "actual_from": "Triangle Control/Bottom",
-      "referencing_position": "content/Positions/Mount/Mounted Triangle.json",
-      "message": "Use specific variant: 'Mounted Triangle/top' references 'Triangle Choke' but 'Triangle Choke from Mounted Triangle' exists"
     },
     {
       "file": "content/Transitions/Lapel Sweep to Back.json",
@@ -246,26 +258,6 @@
       "severity": "info",
       "transition": "Counter heel hook",
       "current": 2
-    },
-    {
-      "file": "content/Positions/Ashi Garami/Backside 50-50.json",
-      "position": "Backside 50-50",
-      "role": "top",
-      "type": "attempt_negligible",
-      "message": "top: 'Kneebar' has only 1% attempt probability",
-      "severity": "info",
-      "transition": "Kneebar",
-      "current": 1
-    },
-    {
-      "file": "content/Positions/Ashi Garami/Backside 50-50.json",
-      "position": "Backside 50-50",
-      "role": "top",
-      "type": "attempt_negligible",
-      "message": "top: 'Outside Heel Hook' has only 1% attempt probability",
-      "severity": "info",
-      "transition": "Outside Heel Hook",
-      "current": 1
     },
     {
       "file": "content/Positions/Ashi Garami/Cross Ashi-Garami.json",
@@ -562,16 +554,6 @@
       "position": "Ashi Garami",
       "role": "bottom",
       "type": "attempt_negligible",
-      "message": "bottom: 'Heel Hook from Ashi Garami' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Heel Hook from Ashi Garami",
-      "current": 2
-    },
-    {
-      "file": "content/Positions/Ashi Garami.json",
-      "position": "Ashi Garami",
-      "role": "bottom",
-      "type": "attempt_negligible",
       "message": "bottom: '50-50 Entry' has only 2% attempt probability",
       "severity": "info",
       "transition": "50-50 Entry",
@@ -665,16 +647,6 @@
       "message": "bottom: 'Aoki Lock from Ashi Garami' has only 1% attempt probability",
       "severity": "info",
       "transition": "Aoki Lock from Ashi Garami",
-      "current": 1
-    },
-    {
-      "file": "content/Positions/Ashi Garami.json",
-      "position": "Ashi Garami",
-      "role": "bottom",
-      "type": "attempt_negligible",
-      "message": "bottom: 'Heel Hook' has only 1% attempt probability",
-      "severity": "info",
-      "transition": "Heel Hook",
       "current": 1
     },
     {
@@ -912,16 +884,6 @@
       "position": "Back Control",
       "role": "top",
       "type": "attempt_negligible",
-      "message": "top: 'Rear Triangle Choke' has only 1% attempt probability",
-      "severity": "info",
-      "transition": "Rear Triangle Choke",
-      "current": 1
-    },
-    {
-      "file": "content/Positions/Back Control.json",
-      "position": "Back Control",
-      "role": "top",
-      "type": "attempt_negligible",
       "message": "top: 'Armbar from Back with Legs' has only 2% attempt probability",
       "severity": "info",
       "transition": "Armbar from Back with Legs",
@@ -932,10 +894,10 @@
       "position": "Back Control",
       "role": "top",
       "type": "attempt_negligible",
-      "message": "top: 'Rear Triangle Choke from Back Control' has only 1% attempt probability",
+      "message": "top: 'Rear Triangle Choke from Back Control' has only 2% attempt probability",
       "severity": "info",
       "transition": "Rear Triangle Choke from Back Control",
-      "current": 1
+      "current": 2
     },
     {
       "file": "content/Positions/Back Control.json",
@@ -1340,26 +1302,6 @@
     {
       "file": "content/Positions/Closed Guard.json",
       "position": "Closed Guard",
-      "role": "top",
-      "type": "attempt_negligible",
-      "message": "top: 'Can Opener' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Can Opener",
-      "current": 2
-    },
-    {
-      "file": "content/Positions/Closed Guard.json",
-      "position": "Closed Guard",
-      "role": "top",
-      "type": "attempt_negligible",
-      "message": "top: 'Can Opener from Closed Guard' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Can Opener from Closed Guard",
-      "current": 2
-    },
-    {
-      "file": "content/Positions/Closed Guard.json",
-      "position": "Closed Guard",
       "role": "bottom",
       "type": "attempt_negligible",
       "message": "bottom: 'Flower Sweep' has only 2% attempt probability",
@@ -1375,16 +1317,6 @@
       "message": "bottom: 'Kimura to Back Take' has only 2% attempt probability",
       "severity": "info",
       "transition": "Kimura to Back Take",
-      "current": 2
-    },
-    {
-      "file": "content/Positions/Closed Guard.json",
-      "position": "Closed Guard",
-      "role": "bottom",
-      "type": "attempt_negligible",
-      "message": "bottom: 'Tarikoplata' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Tarikoplata",
       "current": 2
     },
     {
@@ -1415,16 +1347,6 @@
       "message": "bottom: 'Omoplata Sweep' has only 1% attempt probability",
       "severity": "info",
       "transition": "Omoplata Sweep",
-      "current": 1
-    },
-    {
-      "file": "content/Positions/Closed Guard.json",
-      "position": "Closed Guard",
-      "role": "bottom",
-      "type": "attempt_negligible",
-      "message": "bottom: 'Spinning Armbar' has only 1% attempt probability",
-      "severity": "info",
-      "transition": "Spinning Armbar",
       "current": 1
     },
     {
@@ -1522,26 +1444,6 @@
       "position": "Closed Guard",
       "role": "bottom",
       "type": "attempt_negligible",
-      "message": "bottom: 'Flying Armbar' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Flying Armbar",
-      "current": 2
-    },
-    {
-      "file": "content/Positions/Closed Guard.json",
-      "position": "Closed Guard",
-      "role": "bottom",
-      "type": "attempt_negligible",
-      "message": "bottom: 'Flying Armbar from Closed Guard' has only 1% attempt probability",
-      "severity": "info",
-      "transition": "Flying Armbar from Closed Guard",
-      "current": 1
-    },
-    {
-      "file": "content/Positions/Closed Guard.json",
-      "position": "Closed Guard",
-      "role": "bottom",
-      "type": "attempt_negligible",
       "message": "bottom: 'Kneebar from Guard' has only 1% attempt probability",
       "severity": "info",
       "transition": "Kneebar from Guard",
@@ -1562,20 +1464,10 @@
       "position": "Closed Guard",
       "role": "bottom",
       "type": "attempt_negligible",
-      "message": "bottom: 'Spinning Armbar from Closed Guard' has only 1% attempt probability",
+      "message": "bottom: 'Spinning Armbar from Closed Guard' has only 2% attempt probability",
       "severity": "info",
       "transition": "Spinning Armbar from Closed Guard",
-      "current": 1
-    },
-    {
-      "file": "content/Positions/Closed Guard.json",
-      "position": "Closed Guard",
-      "role": "bottom",
-      "type": "attempt_negligible",
-      "message": "bottom: 'Tarikoplata from Closed Guard' has only 1% attempt probability",
-      "severity": "info",
-      "transition": "Tarikoplata from Closed Guard",
-      "current": 1
+      "current": 2
     },
     {
       "file": "content/Positions/Closed Guard.json",
@@ -1730,26 +1622,6 @@
     {
       "file": "content/Positions/Crucifix.json",
       "position": "Crucifix",
-      "role": "top",
-      "type": "attempt_negligible",
-      "message": "top: 'Bicep Slicer' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Bicep Slicer",
-      "current": 2
-    },
-    {
-      "file": "content/Positions/Crucifix.json",
-      "position": "Crucifix",
-      "role": "top",
-      "type": "attempt_negligible",
-      "message": "top: 'Bicep Slicer from Crucifix' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Bicep Slicer from Crucifix",
-      "current": 2
-    },
-    {
-      "file": "content/Positions/Crucifix.json",
-      "position": "Crucifix",
       "role": "bottom",
       "type": "attempt_negligible",
       "message": "bottom: 'Crucifix Choke Defense' has only 1% attempt probability",
@@ -1785,16 +1657,6 @@
       "message": "top: 'Darce to Anaconda Switch' has only 1% attempt probability",
       "severity": "info",
       "transition": "Darce to Anaconda Switch",
-      "current": 1
-    },
-    {
-      "file": "content/Positions/Darce Control.json",
-      "position": "Darce Control",
-      "role": "top",
-      "type": "attempt_negligible",
-      "message": "top: 'Darce Choke' has only 1% attempt probability",
-      "severity": "info",
-      "transition": "Darce Choke",
       "current": 1
     },
     {
@@ -1910,16 +1772,6 @@
     {
       "file": "content/Positions/Estima Lock Control.json",
       "position": "Estima Lock Control",
-      "role": "top",
-      "type": "attempt_negligible",
-      "message": "top: 'Estima Lock' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Estima Lock",
-      "current": 2
-    },
-    {
-      "file": "content/Positions/Estima Lock Control.json",
-      "position": "Estima Lock Control",
       "role": "bottom",
       "type": "attempt_negligible",
       "message": "bottom: 'Estima Lock Counter Roll' has only 1% attempt probability",
@@ -2012,26 +1864,6 @@
       "position": "Front Headlock",
       "role": "top",
       "type": "attempt_negligible",
-      "message": "top: 'Brabo Choke' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Brabo Choke",
-      "current": 2
-    },
-    {
-      "file": "content/Positions/Front Headlock.json",
-      "position": "Front Headlock",
-      "role": "top",
-      "type": "attempt_negligible",
-      "message": "top: 'Chin Strap Guillotine' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Chin Strap Guillotine",
-      "current": 2
-    },
-    {
-      "file": "content/Positions/Front Headlock.json",
-      "position": "Front Headlock",
-      "role": "top",
-      "type": "attempt_negligible",
       "message": "top: 'Peruvian Necktie from Front Headlock' has only 2% attempt probability",
       "severity": "info",
       "transition": "Peruvian Necktie from Front Headlock",
@@ -2062,49 +1894,9 @@
       "position": "Front Headlock",
       "role": "top",
       "type": "attempt_negligible",
-      "message": "top: 'Japanese Necktie' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Japanese Necktie",
-      "current": 2
-    },
-    {
-      "file": "content/Positions/Front Headlock.json",
-      "position": "Front Headlock",
-      "role": "top",
-      "type": "attempt_negligible",
       "message": "top: 'Ten Finger Guillotine from Front Headlock' has only 2% attempt probability",
       "severity": "info",
       "transition": "Ten Finger Guillotine from Front Headlock",
-      "current": 2
-    },
-    {
-      "file": "content/Positions/Front Headlock.json",
-      "position": "Front Headlock",
-      "role": "top",
-      "type": "attempt_negligible",
-      "message": "top: 'Brabo Choke from Front Headlock' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Brabo Choke from Front Headlock",
-      "current": 2
-    },
-    {
-      "file": "content/Positions/Front Headlock.json",
-      "position": "Front Headlock",
-      "role": "top",
-      "type": "attempt_negligible",
-      "message": "top: 'Chin Strap Guillotine from Front Headlock' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Chin Strap Guillotine from Front Headlock",
-      "current": 2
-    },
-    {
-      "file": "content/Positions/Front Headlock.json",
-      "position": "Front Headlock",
-      "role": "top",
-      "type": "attempt_negligible",
-      "message": "top: 'Japanese Necktie from Front Headlock' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Japanese Necktie from Front Headlock",
       "current": 2
     },
     {
@@ -2115,26 +1907,6 @@
       "message": "top: 'Gift Wrap Maintenance' has only 2% attempt probability",
       "severity": "info",
       "transition": "Gift Wrap Maintenance",
-      "current": 2
-    },
-    {
-      "file": "content/Positions/Gift Wrap.json",
-      "position": "Gift Wrap",
-      "role": "top",
-      "type": "attempt_negligible",
-      "message": "top: 'Gift Wrap Armbar' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Gift Wrap Armbar",
-      "current": 2
-    },
-    {
-      "file": "content/Positions/Gift Wrap.json",
-      "position": "Gift Wrap",
-      "role": "top",
-      "type": "attempt_negligible",
-      "message": "top: 'Gift Wrap Armbar from Gift Wrap' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Gift Wrap Armbar from Gift Wrap",
       "current": 2
     },
     {
@@ -2205,16 +1977,6 @@
       "message": "top: 'Ten Finger Guillotine from Guillotine Control' has only 1% attempt probability",
       "severity": "info",
       "transition": "Ten Finger Guillotine from Guillotine Control",
-      "current": 1
-    },
-    {
-      "file": "content/Positions/Guillotine Control.json",
-      "position": "Guillotine Control",
-      "role": "bottom",
-      "type": "attempt_negligible",
-      "message": "bottom: 'Guillotine Choke' has only 1% attempt probability",
-      "severity": "info",
-      "transition": "Guillotine Choke",
       "current": 1
     },
     {
@@ -2458,16 +2220,6 @@
       "current": 1
     },
     {
-      "file": "content/Positions/Half Guard/Lockdown.json",
-      "position": "Lockdown",
-      "role": "bottom",
-      "type": "attempt_negligible",
-      "message": "bottom: 'Crotch Ripper' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Crotch Ripper",
-      "current": 2
-    },
-    {
       "file": "content/Positions/Half Guard/Old School.json",
       "position": "Old School",
       "role": "top",
@@ -2692,30 +2444,10 @@
       "position": "Half Guard",
       "role": "top",
       "type": "attempt_negligible",
-      "message": "top: 'Suloev Stretch' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Suloev Stretch",
-      "current": 2
-    },
-    {
-      "file": "content/Positions/Half Guard.json",
-      "position": "Half Guard",
-      "role": "top",
-      "type": "attempt_negligible",
       "message": "top: 'Loop Choke from Half Guard' has only 2% attempt probability",
       "severity": "info",
       "transition": "Loop Choke from Half Guard",
       "current": 2
-    },
-    {
-      "file": "content/Positions/Half Guard.json",
-      "position": "Half Guard",
-      "role": "top",
-      "type": "attempt_negligible",
-      "message": "top: 'Suloev Stretch from Half Guard' has only 1% attempt probability",
-      "severity": "info",
-      "transition": "Suloev Stretch from Half Guard",
-      "current": 1
     },
     {
       "file": "content/Positions/Half Guard.json",
@@ -2745,16 +2477,6 @@
       "message": "bottom: 'Half Guard to Old School' has only 2% attempt probability",
       "severity": "info",
       "transition": "Half Guard to Old School",
-      "current": 2
-    },
-    {
-      "file": "content/Positions/Half Guard.json",
-      "position": "Half Guard",
-      "role": "bottom",
-      "type": "attempt_negligible",
-      "message": "bottom: 'Buggy Choke' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Buggy Choke",
       "current": 2
     },
     {
@@ -3190,16 +2912,6 @@
     {
       "file": "content/Positions/Mount/High Mount.json",
       "position": "High Mount",
-      "role": "top",
-      "type": "attempt_negligible",
-      "message": "top: 'Arm Triangle' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Arm Triangle",
-      "current": 2
-    },
-    {
-      "file": "content/Positions/Mount/High Mount.json",
-      "position": "High Mount",
       "role": "bottom",
       "type": "attempt_negligible",
       "message": "bottom: 'Frame Escape from High Mount' has only 2% attempt probability",
@@ -3220,16 +2932,6 @@
     {
       "file": "content/Positions/Mount/Mounted Crucifix.json",
       "position": "Mounted Crucifix",
-      "role": "top",
-      "type": "attempt_negligible",
-      "message": "top: 'Mounted Crucifix Armbar' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Mounted Crucifix Armbar",
-      "current": 2
-    },
-    {
-      "file": "content/Positions/Mount/Mounted Crucifix.json",
-      "position": "Mounted Crucifix",
       "role": "bottom",
       "type": "attempt_negligible",
       "message": "bottom: 'Bridge Escape from Mounted Crucifix' has only 1% attempt probability",
@@ -3245,16 +2947,6 @@
       "message": "top: 'Mounted Triangle to S Mount' has only 2% attempt probability",
       "severity": "info",
       "transition": "Mounted Triangle to S Mount",
-      "current": 2
-    },
-    {
-      "file": "content/Positions/Mount/Mounted Triangle.json",
-      "position": "Mounted Triangle",
-      "role": "top",
-      "type": "attempt_negligible",
-      "message": "top: 'Triangle Choke' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Triangle Choke",
       "current": 2
     },
     {
@@ -3882,16 +3574,6 @@
       "position": "Side Control",
       "role": "top",
       "type": "attempt_negligible",
-      "message": "top: 'Arm Crush' has only 1% attempt probability",
-      "severity": "info",
-      "transition": "Arm Crush",
-      "current": 1
-    },
-    {
-      "file": "content/Positions/Side Control.json",
-      "position": "Side Control",
-      "role": "top",
-      "type": "attempt_negligible",
       "message": "top: 'Straight Armbar' has only 1% attempt probability",
       "severity": "info",
       "transition": "Straight Armbar",
@@ -3922,46 +3604,6 @@
       "position": "Side Control",
       "role": "top",
       "type": "attempt_negligible",
-      "message": "top: 'Marce Choke' has only 1% attempt probability",
-      "severity": "info",
-      "transition": "Marce Choke",
-      "current": 1
-    },
-    {
-      "file": "content/Positions/Side Control.json",
-      "position": "Side Control",
-      "role": "top",
-      "type": "attempt_negligible",
-      "message": "top: 'Mir Lock' has only 1% attempt probability",
-      "severity": "info",
-      "transition": "Mir Lock",
-      "current": 1
-    },
-    {
-      "file": "content/Positions/Side Control.json",
-      "position": "Side Control",
-      "role": "top",
-      "type": "attempt_negligible",
-      "message": "top: 'Triangle Choke Side' has only 1% attempt probability",
-      "severity": "info",
-      "transition": "Triangle Choke Side",
-      "current": 1
-    },
-    {
-      "file": "content/Positions/Side Control.json",
-      "position": "Side Control",
-      "role": "top",
-      "type": "attempt_negligible",
-      "message": "top: 'Von Flue Choke' has only 1% attempt probability",
-      "severity": "info",
-      "transition": "Von Flue Choke",
-      "current": 1
-    },
-    {
-      "file": "content/Positions/Side Control.json",
-      "position": "Side Control",
-      "role": "top",
-      "type": "attempt_negligible",
       "message": "top: 'Side Control to Knee on Belly' has only 1% attempt probability",
       "severity": "info",
       "transition": "Side Control to Knee on Belly",
@@ -3972,10 +3614,10 @@
       "position": "Side Control",
       "role": "top",
       "type": "attempt_negligible",
-      "message": "top: 'Arm Crush from Side Control' has only 1% attempt probability",
+      "message": "top: 'Arm Crush from Side Control' has only 2% attempt probability",
       "severity": "info",
       "transition": "Arm Crush from Side Control",
-      "current": 1
+      "current": 2
     },
     {
       "file": "content/Positions/Side Control.json",
@@ -4022,40 +3664,40 @@
       "position": "Side Control",
       "role": "top",
       "type": "attempt_negligible",
-      "message": "top: 'Marce Choke from Side Control' has only 1% attempt probability",
+      "message": "top: 'Marce Choke from Side Control' has only 2% attempt probability",
       "severity": "info",
       "transition": "Marce Choke from Side Control",
-      "current": 1
+      "current": 2
     },
     {
       "file": "content/Positions/Side Control.json",
       "position": "Side Control",
       "role": "top",
       "type": "attempt_negligible",
-      "message": "top: 'Mir Lock from Side Control' has only 1% attempt probability",
+      "message": "top: 'Mir Lock from Side Control' has only 2% attempt probability",
       "severity": "info",
       "transition": "Mir Lock from Side Control",
-      "current": 1
+      "current": 2
     },
     {
       "file": "content/Positions/Side Control.json",
       "position": "Side Control",
       "role": "top",
       "type": "attempt_negligible",
-      "message": "top: 'Triangle Choke Side from Side Control' has only 1% attempt probability",
+      "message": "top: 'Triangle Choke Side from Side Control' has only 2% attempt probability",
       "severity": "info",
       "transition": "Triangle Choke Side from Side Control",
-      "current": 1
+      "current": 2
     },
     {
       "file": "content/Positions/Side Control.json",
       "position": "Side Control",
       "role": "top",
       "type": "attempt_negligible",
-      "message": "top: 'Von Flue Choke from Side Control' has only 1% attempt probability",
+      "message": "top: 'Von Flue Choke from Side Control' has only 2% attempt probability",
       "severity": "info",
       "transition": "Von Flue Choke from Side Control",
-      "current": 1
+      "current": 2
     },
     {
       "file": "content/Positions/Side Control.json",
@@ -4352,26 +3994,6 @@
       "position": "Standing Position",
       "role": "top",
       "type": "attempt_negligible",
-      "message": "top: 'Flying Kneebar' has only 1% attempt probability",
-      "severity": "info",
-      "transition": "Flying Kneebar",
-      "current": 1
-    },
-    {
-      "file": "content/Positions/Standing Position.json",
-      "position": "Standing Position",
-      "role": "top",
-      "type": "attempt_negligible",
-      "message": "top: 'Reverse Kimura' has only 1% attempt probability",
-      "severity": "info",
-      "transition": "Reverse Kimura",
-      "current": 1
-    },
-    {
-      "file": "content/Positions/Standing Position.json",
-      "position": "Standing Position",
-      "role": "top",
-      "type": "attempt_negligible",
       "message": "top: 'Single Leg to Back Take' has only 1% attempt probability",
       "severity": "info",
       "transition": "Single Leg to Back Take",
@@ -4382,10 +4004,10 @@
       "position": "Standing Position",
       "role": "top",
       "type": "attempt_negligible",
-      "message": "top: 'Flying Kneebar from Standing Position' has only 1% attempt probability",
+      "message": "top: 'Flying Kneebar from Standing Position' has only 2% attempt probability",
       "severity": "info",
       "transition": "Flying Kneebar from Standing Position",
-      "current": 1
+      "current": 2
     },
     {
       "file": "content/Positions/Standing Position.json",
@@ -4402,10 +4024,10 @@
       "position": "Standing Position",
       "role": "top",
       "type": "attempt_negligible",
-      "message": "top: 'Reverse Kimura from Standing Position' has only 1% attempt probability",
+      "message": "top: 'Reverse Kimura from Standing Position' has only 2% attempt probability",
       "severity": "info",
       "transition": "Reverse Kimura from Standing Position",
-      "current": 1
+      "current": 2
     },
     {
       "file": "content/Positions/Standing Rear Clinch.json",
@@ -4582,16 +4204,6 @@
       "position": "Turtle",
       "role": "top",
       "type": "attempt_negligible",
-      "message": "top: 'Boston Crab' has only 1% attempt probability",
-      "severity": "info",
-      "transition": "Boston Crab",
-      "current": 1
-    },
-    {
-      "file": "content/Positions/Turtle.json",
-      "position": "Turtle",
-      "role": "top",
-      "type": "attempt_negligible",
       "message": "top: 'Clock Choke' has only 1% attempt probability",
       "severity": "info",
       "transition": "Clock Choke",
@@ -4602,10 +4214,10 @@
       "position": "Turtle",
       "role": "top",
       "type": "attempt_negligible",
-      "message": "top: 'Boston Crab from Turtle' has only 1% attempt probability",
+      "message": "top: 'Boston Crab from Turtle' has only 2% attempt probability",
       "severity": "info",
       "transition": "Boston Crab from Turtle",
-      "current": 1
+      "current": 2
     },
     {
       "file": "content/Positions/Turtle.json",
@@ -4635,36 +4247,6 @@
       "message": "top: 'Truck to Back Control' has only 2% attempt probability",
       "severity": "info",
       "transition": "Truck to Back Control",
-      "current": 2
-    },
-    {
-      "file": "content/Positions/Twister Control/Truck.json",
-      "position": "Truck",
-      "role": "top",
-      "type": "attempt_negligible",
-      "message": "top: 'Banana Split' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Banana Split",
-      "current": 2
-    },
-    {
-      "file": "content/Positions/Twister Control/Truck.json",
-      "position": "Truck",
-      "role": "top",
-      "type": "attempt_negligible",
-      "message": "top: 'Spine Lock' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Spine Lock",
-      "current": 2
-    },
-    {
-      "file": "content/Positions/Twister Control/Truck.json",
-      "position": "Truck",
-      "role": "top",
-      "type": "attempt_negligible",
-      "message": "top: 'Spine Lock from Truck' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Spine Lock from Truck",
       "current": 2
     },
     {
