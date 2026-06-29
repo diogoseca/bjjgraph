@@ -26,6 +26,15 @@ import sys
 from pathlib import Path
 from collections import defaultdict
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from _ruleset import (  # gi/no-gi ruleset contract (calibration-v2)
+    RULESETS,
+    any_ruleset_map,
+    iter_cells,
+    sum_cells,
+    present_rulesets,
+)
+
 CONTENT_PATH = Path("content")
 POSITIONS_PATH = CONTENT_PATH / "Positions"
 TRANSITIONS_PATH = CONTENT_PATH / "Transitions"
@@ -48,6 +57,20 @@ TECHNIQUE_EXPECTATIONS = {
     "pass": {"success_min": 10, "success_max": 80},
     "takedown": {"success_min": 25, "success_max": 70},
 }
+
+
+def _per_ruleset_totals(items, key):
+    """Return [(ruleset_or_None, total)] of ``item[key]`` sums.
+
+    Scalar (pre-migration) data -> a single ``[(None, legacy_sum)]`` so existing
+    checks behave byte-identically. Forked {gi,nogi} data -> one ``(ruleset, sum)``
+    per ruleset that has any non-null cell.
+    """
+    dict_items = [it for it in items if isinstance(it, dict)]
+    values = [it[key] for it in dict_items if key in it]
+    if any_ruleset_map(values):
+        return [(rs, sum_cells(dict_items, key, rs)) for rs in present_rulesets(values)]
+    return [(None, sum(it.get(key, 0) for it in dict_items))]
 
 
 def load_json(path):
@@ -139,17 +162,21 @@ def build_position_data():
         if root_transitions and "top" not in data and "bottom" not in data:
             names = [t.get("transition", "") for t in root_transitions]
             all_referenced_transitions.update(names)
-            total = sum(t.get("attempt_probability", 0) for t in root_transitions)
-            roles_checked.append(("root", names, total))
-            if total != 100:
-                probability_errors.append({
-                    "file": str(path),
-                    "position": pos_name,
-                    "role": "root",
-                    "sum": total,
-                    "transition_count": len(root_transitions),
-                    "severity": "error",
-                })
+            for rs, total in _per_ruleset_totals(root_transitions, "attempt_probability"):
+                role_label = "root" if rs is None else f"root[{rs}]"
+                roles_checked.append((role_label, names, total))
+                if total != 100:
+                    err = {
+                        "file": str(path),
+                        "position": pos_name,
+                        "role": role_label,
+                        "sum": total,
+                        "transition_count": len(root_transitions),
+                        "severity": "error",
+                    }
+                    if rs is not None:
+                        err["ruleset"] = rs
+                    probability_errors.append(err)
 
         # Check top/bottom roles
         for role in ["top", "bottom"]:
@@ -160,17 +187,21 @@ def build_position_data():
                 continue
             names = [t.get("transition", "") for t in transitions]
             all_referenced_transitions.update(names)
-            total = sum(t.get("attempt_probability", 0) for t in transitions)
-            roles_checked.append((role, names, total))
-            if total != 100:
-                probability_errors.append({
-                    "file": str(path),
-                    "position": pos_name,
-                    "role": role,
-                    "sum": total,
-                    "transition_count": len(transitions),
-                    "severity": "error",
-                })
+            for rs, total in _per_ruleset_totals(transitions, "attempt_probability"):
+                role_label = role if rs is None else f"{role}[{rs}]"
+                roles_checked.append((role_label, names, total))
+                if total != 100:
+                    err = {
+                        "file": str(path),
+                        "position": pos_name,
+                        "role": role_label,
+                        "sum": total,
+                        "transition_count": len(transitions),
+                        "severity": "error",
+                    }
+                    if rs is not None:
+                        err["ruleset"] = rs
+                    probability_errors.append(err)
 
         position_refs[str(path)] = roles_checked
 
@@ -285,25 +316,28 @@ def check_outcome_probabilities():
                 })
                 continue
 
-            # Sum check
-            total = sum(o.get("probability", 0) for o in outcomes)
-            if total != 100:
-                issues.append({
-                    "file": str(path),
-                    "name": name,
-                    "type": "outcomes_sum",
-                    "message": f"Outcomes sum to {total}%, not 100%",
-                    "severity": "error",
-                    "current": total,
-                })
+            # Sum check (per-ruleset when forked; legacy single-sum otherwise)
+            for rs, total in _per_ruleset_totals(outcomes, "probability"):
+                if total != 100:
+                    rs_sfx = f" ({rs})" if rs else ""
+                    issue = {
+                        "file": str(path),
+                        "name": name,
+                        "type": "outcomes_sum",
+                        "message": f"Outcomes{rs_sfx} sum to {total:g}%, not 100%",
+                        "severity": "error",
+                        "current": total,
+                    }
+                    if rs is not None:
+                        issue["ruleset"] = rs
+                    issues.append(issue)
 
             # Individual outcome checks
             for o in outcomes:
-                prob = o.get("probability", 0)
                 result = o.get("result", "")
                 to_pos = o.get("to", "")
 
-                # Unknown target
+                # Unknown target (probability-independent — once per outcome)
                 if "Unknown" in to_pos:
                     issues.append({
                         "file": str(path),
@@ -314,27 +348,31 @@ def check_outcome_probabilities():
                         "outcome": o,
                     })
 
-                # Success too high
-                if result == "success" and prob > THRESHOLDS["success_too_high"]:
-                    issues.append({
-                        "file": str(path),
-                        "name": name,
-                        "type": "outcome_too_high",
-                        "message": f"Success probability {prob}% > {THRESHOLDS['success_too_high']}%",
-                        "severity": "warning",
-                        "outcome": o,
-                    })
+                # Threshold checks, per ruleset frame (scalar -> single (None, prob))
+                for rs, prob in iter_cells(o.get("probability", 0)):
+                    rs_sfx = f"[{rs}]" if rs else ""
 
-                # Counter too high
-                if result == "counter" and prob > THRESHOLDS["counter_too_high"]:
-                    issues.append({
-                        "file": str(path),
-                        "name": name,
-                        "type": "counter_high",
-                        "message": f"Counter probability {prob}% > {THRESHOLDS['counter_too_high']}%",
-                        "severity": "warning",
-                        "outcome": o,
-                    })
+                    # Success too high
+                    if result == "success" and prob > THRESHOLDS["success_too_high"]:
+                        issues.append({
+                            "file": str(path),
+                            "name": name,
+                            "type": "outcome_too_high",
+                            "message": f"Success probability{rs_sfx} {prob:g}% > {THRESHOLDS['success_too_high']}%",
+                            "severity": "warning",
+                            "outcome": o,
+                        })
+
+                    # Counter too high
+                    if result == "counter" and prob > THRESHOLDS["counter_too_high"]:
+                        issues.append({
+                            "file": str(path),
+                            "name": name,
+                            "type": "counter_high",
+                            "message": f"Counter probability{rs_sfx} {prob:g}% > {THRESHOLDS['counter_too_high']}%",
+                            "severity": "warning",
+                            "outcome": o,
+                        })
 
             # Technique-type expected ranges (check success outcomes)
             technique_type = classify_technique(name)
@@ -342,25 +380,26 @@ def check_outcome_probabilities():
             if expectations:
                 for o in outcomes:
                     if o.get("result") == "success":
-                        prob = o.get("probability", 0)
-                        if prob > expectations.get("success_max", 100):
-                            issues.append({
-                                "file": str(path),
-                                "name": name,
-                                "type": "technique_range_high",
-                                "message": f"Success {prob}% exceeds expected max {expectations['success_max']}% for {technique_type}",
-                                "severity": "warning",
-                                "current": prob,
-                            })
-                        if prob < expectations.get("success_min", 0):
-                            issues.append({
-                                "file": str(path),
-                                "name": name,
-                                "type": "technique_range_low",
-                                "message": f"Success {prob}% below expected min {expectations['success_min']}% for {technique_type}",
-                                "severity": "warning",
-                                "current": prob,
-                            })
+                        for rs, prob in iter_cells(o.get("probability", 0)):
+                            rs_sfx = f"[{rs}]" if rs else ""
+                            if prob > expectations.get("success_max", 100):
+                                issues.append({
+                                    "file": str(path),
+                                    "name": name,
+                                    "type": "technique_range_high",
+                                    "message": f"Success{rs_sfx} {prob:g}% exceeds expected max {expectations['success_max']}% for {technique_type}",
+                                    "severity": "warning",
+                                    "current": prob,
+                                })
+                            if prob < expectations.get("success_min", 0):
+                                issues.append({
+                                    "file": str(path),
+                                    "name": name,
+                                    "type": "technique_range_low",
+                                    "message": f"Success{rs_sfx} {prob:g}% below expected min {expectations['success_min']}% for {technique_type}",
+                                    "severity": "warning",
+                                    "current": prob,
+                                })
 
     return issues
 
@@ -381,63 +420,65 @@ def check_transition_outliers():
                 continue
             transitions = data[role].get("transitions", [])
             for t in transitions:
-                prob = t.get("attempt_probability", 0)
                 name = t.get("transition", "")
+                for rs, prob in iter_cells(t.get("attempt_probability", 0)):
+                    rs_sfx = f"[{rs}]" if rs else ""
 
-                if prob > THRESHOLDS["attempt_too_high"]:
-                    issues.append({
-                        "file": str(path),
-                        "position": pos_name,
-                        "role": role,
-                        "type": "attempt_dominant",
-                        "message": f"{role}: '{name}' dominates with {prob}% attempt probability",
-                        "severity": "info",
-                        "transition": name,
-                        "current": prob,
-                    })
+                    if prob > THRESHOLDS["attempt_too_high"]:
+                        issues.append({
+                            "file": str(path),
+                            "position": pos_name,
+                            "role": role if rs is None else f"{role}[{rs}]",
+                            "type": "attempt_dominant",
+                            "message": f"{role}{rs_sfx}: '{name}' dominates with {prob:g}% attempt probability",
+                            "severity": "info",
+                            "transition": name,
+                            "current": prob,
+                        })
 
-                if 0 < prob < THRESHOLDS["attempt_too_low"]:
-                    issues.append({
-                        "file": str(path),
-                        "position": pos_name,
-                        "role": role,
-                        "type": "attempt_negligible",
-                        "message": f"{role}: '{name}' has only {prob}% attempt probability",
-                        "severity": "info",
-                        "transition": name,
-                        "current": prob,
-                    })
+                    if 0 < prob < THRESHOLDS["attempt_too_low"]:
+                        issues.append({
+                            "file": str(path),
+                            "position": pos_name,
+                            "role": role if rs is None else f"{role}[{rs}]",
+                            "type": "attempt_negligible",
+                            "message": f"{role}{rs_sfx}: '{name}' has only {prob:g}% attempt probability",
+                            "severity": "info",
+                            "transition": name,
+                            "current": prob,
+                        })
 
         # Also check root-level transitions (neutral positions)
         root_transitions = data.get("transitions", [])
         if root_transitions and "top" not in data and "bottom" not in data:
             for t in root_transitions:
-                prob = t.get("attempt_probability", 0)
                 name = t.get("transition", "")
+                for rs, prob in iter_cells(t.get("attempt_probability", 0)):
+                    rs_sfx = f"[{rs}]" if rs else ""
 
-                if prob > THRESHOLDS["attempt_too_high"]:
-                    issues.append({
-                        "file": str(path),
-                        "position": pos_name,
-                        "role": "root",
-                        "type": "attempt_dominant",
-                        "message": f"root: '{name}' dominates with {prob}% attempt probability",
-                        "severity": "info",
-                        "transition": name,
-                        "current": prob,
-                    })
+                    if prob > THRESHOLDS["attempt_too_high"]:
+                        issues.append({
+                            "file": str(path),
+                            "position": pos_name,
+                            "role": "root" if rs is None else f"root[{rs}]",
+                            "type": "attempt_dominant",
+                            "message": f"root{rs_sfx}: '{name}' dominates with {prob:g}% attempt probability",
+                            "severity": "info",
+                            "transition": name,
+                            "current": prob,
+                        })
 
-                if 0 < prob < THRESHOLDS["attempt_too_low"]:
-                    issues.append({
-                        "file": str(path),
-                        "position": pos_name,
-                        "role": "root",
-                        "type": "attempt_negligible",
-                        "message": f"root: '{name}' has only {prob}% attempt probability",
-                        "severity": "info",
-                        "transition": name,
-                        "current": prob,
-                    })
+                    if 0 < prob < THRESHOLDS["attempt_too_low"]:
+                        issues.append({
+                            "file": str(path),
+                            "position": pos_name,
+                            "role": "root" if rs is None else f"root[{rs}]",
+                            "type": "attempt_negligible",
+                            "message": f"root{rs_sfx}: '{name}' has only {prob:g}% attempt probability",
+                            "severity": "info",
+                            "transition": name,
+                            "current": prob,
+                        })
 
     return issues
 

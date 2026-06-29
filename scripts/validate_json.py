@@ -18,6 +18,20 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from _slug import slugify as _slugify  # shared single-source slugify
+from _ruleset import (  # gi/no-gi ruleset contract (calibration-v2)
+    RULESETS,
+    is_ruleset_map,
+    any_ruleset_map,
+    available,
+    cell,
+    sum_cells,
+    present_rulesets,
+)
+
+# When True (--strict-ruleset), probability fields MUST be {gi,nogi} maps; bare
+# scalars are rejected. Default False (lenient: accept legacy int OR map) so the
+# pre-migration single-int corpus validates byte-identically.
+STRICT_RULESET = False
 
 try:
     import jsonschema
@@ -542,7 +556,16 @@ def validate_success_rate_ordering(data, path=""):
     errors = []
 
     def check_single_rate(rate, location):
-        """Check that a single rate value is 0-100."""
+        """Check that a single rate value is 0-100 (scalar or {gi,nogi} map)."""
+        if is_ruleset_map(rate):
+            for rs in RULESETS:
+                c = rate.get(rs)
+                if isinstance(c, int) and (c < 0 or c > 100):
+                    errors.append(f"{location}[{rs}]: value {c} out of range 0-100")
+            return
+        if STRICT_RULESET and isinstance(rate, int):
+            errors.append(f"{location}: bare scalar {rate}; expected a {{gi,nogi}} map (--strict-ruleset)")
+            return
         if isinstance(rate, int):
             if rate < 0 or rate > 100:
                 errors.append(f"{location}: value {rate} out of range 0-100")
@@ -598,14 +621,21 @@ def validate_attempt_probability_sum(transitions, path=""):
     if not has_attempt_probability:
         return errors
 
-    total = sum(
-        t.get('attempt_probability', 0)
-        for t in transitions
-        if isinstance(t, dict)
-    )
+    dict_transitions = [t for t in transitions if isinstance(t, dict)]
+    ap_values = [t['attempt_probability'] for t in dict_transitions if 'attempt_probability' in t]
 
-    if total != 100:
-        errors.append(f"{path}: attempt_probability sum is {total}, should be 100")
+    if any_ruleset_map(ap_values):
+        # Forked data: each ruleset's available cells must independently sum to 100.
+        for rs in present_rulesets(ap_values):
+            total = sum_cells(dict_transitions, 'attempt_probability', rs)
+            if total != 100:
+                errors.append(f"{path}: attempt_probability[{rs}] sum is {total:g}, should be 100")
+    else:
+        if STRICT_RULESET:
+            errors.append(f"{path}: attempt_probability is a bare scalar; expected {{gi,nogi}} maps (--strict-ruleset)")
+        total = sum(t.get('attempt_probability', 0) for t in dict_transitions)
+        if total != 100:
+            errors.append(f"{path}: attempt_probability sum is {total}, should be 100")
 
     return errors
 
@@ -749,15 +779,21 @@ def validate_transition_outcomes(data, category, content_index, path=""):
         validate_transition_outcomes.alias_index = build_alias_index()
     alias_index = validate_transition_outcomes.alias_index
 
-    # Validate probability sum
-    total_probability = sum(
-        o.get('probability', 0)
-        for o in outcomes
-        if isinstance(o, dict)
-    )
+    # Validate probability sum (per-ruleset when forked; legacy single-sum otherwise)
+    dict_outcomes = [o for o in outcomes if isinstance(o, dict)]
+    prob_values = [o['probability'] for o in dict_outcomes if 'probability' in o]
 
-    if total_probability != 100:
-        errors.append(f"{path}outcomes: probability sum is {total_probability}, should be 100")
+    if any_ruleset_map(prob_values):
+        for rs in present_rulesets(prob_values):
+            total = sum_cells(dict_outcomes, 'probability', rs)
+            if total != 100:
+                errors.append(f"{path}outcomes: probability[{rs}] sum is {total:g}, should be 100")
+    else:
+        if STRICT_RULESET:
+            errors.append(f"{path}outcomes: probability is a bare scalar; expected {{gi,nogi}} maps (--strict-ruleset)")
+        total_probability = sum(o.get('probability', 0) for o in dict_outcomes)
+        if total_probability != 100:
+            errors.append(f"{path}outcomes: probability sum is {total_probability}, should be 100")
 
     # Validate each outcome
     for i, outcome in enumerate(outcomes):
@@ -1242,8 +1278,13 @@ Examples:
     parser.add_argument('--category', choices=list(CATEGORIES.keys()), help='Category to validate')
     parser.add_argument('--all', action='store_true', help='Validate all files in category or all categories')
     parser.add_argument('--strict', action='store_true', help='Strict mode: fail on warnings')
+    parser.add_argument('--strict-ruleset', action='store_true',
+                        help='Require probability fields to be {gi,nogi} maps (post dual-ruleset migration)')
 
     args = parser.parse_args()
+
+    global STRICT_RULESET
+    STRICT_RULESET = args.strict_ruleset
 
     # Validate arguments
     if not (args.file or (args.category and args.all) or args.all):
