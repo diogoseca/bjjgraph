@@ -285,7 +285,7 @@ The state machine is **bipartite**: position role-nodes point to technique nodes
 1. `Position/Role —attempt_probability→ Transition | Submission` (from each role's `transitions[]`; weights sum to 100/role).
 2. `Transition —probability, result→ Position/Role | Submission | game-over` (from `outcomes[]`; sum to 100; `result ∈ success|failure|counter`).
 3. `Submission —success→ game-over` (the sink).
-- `from_position` (surfaced as `fromPosition`/`fromPositionId`/`fromRole`) is the single **origin metadata**, not a second edge. `endingPosition` is a derived copy of the first `success` outcome. `opponentTransitions` are synthesized reverse-perspective mirrors — informational, not canonical edges.
+- `from_position` (surfaced as `fromPosition`/`fromPositionId`/`fromRole`) is the single **origin metadata**, not a second edge. `endingPosition` is a derived copy of the first `success` outcome. `opponentTransitions` (the opposite position role's moves, consumed by the in-browser game's opponent turn) are **derived at render time** in `renderPage.tsx` (`resolveOpponentMoves`) from the canonical role-split nodes — they are **not persisted** in `graph.json` (the build-time mirror was removed in Stage 6, v1.48.2+).
 
 **Invariants (checked by `validate_graph_integrity.py` + the topology audit):**
 - A transition has **one canonical origin** and **3–5 outcomes**; a submission's success → `game-over`.

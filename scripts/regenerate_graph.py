@@ -138,13 +138,6 @@ def rewrite_aliases(graph: dict, pos_map: dict, tech_map: dict) -> int:
     for pos in graph.get('positions', {}).values():
         for t in pos.get('transitions', []):
             rewrite_technique_target(t)
-        for t in pos.get('opponentTransitions', []):
-            rewrite_technique_target(t)
-            so = t.get('successOutcome', '')
-            new_so = _resolve_pos_or_tech(so, pos_map, tech_map)
-            if new_so != so:
-                t['successOutcome'] = new_so
-                count += 1
 
     for collection in ('transitions', 'submissions'):
         for entry in graph.get(collection, {}).values():
@@ -1192,76 +1185,10 @@ def generate_state_graph(project_root: Path) -> dict:
         print(f"  WARNING: {len(unresolved_targets)} position target(s) resolved to no real node "
               f"(edgeless hub or missing) — {len(uniq)} distinct: {', '.join(uniq[:15])}")
 
-    # Build path index for opponent transition outcome lookups
-    positions_dir = content_dir / 'Positions'
-    path_index = build_position_path_index(positions_dir)
-
-    # Add opponentTransitions: for each position role, copy the opposite role's transitions
-    opponent_count = 0
-    for pos_key, pos_data in positions.items():
-        role = pos_data.get('role')
-        hub = pos_data.get('hub')
-        if role not in ('top', 'bottom') or not hub:
-            continue
-
-        opposite_role = 'bottom' if role == 'top' else 'top'
-        opposite_key = f"{hub}/{opposite_role}"
-        opposite_data = positions.get(opposite_key)
-        if not opposite_data:
-            continue
-
-        opponent_transitions = []
-        for t in opposite_data.get('transitions', []):
-            opp_t = {
-                'technique': t.get('technique', ''),
-                'target': t.get('target', ''),
-                'targetPath': t.get('targetPath', ''),
-                'isSubmission': t.get('isSubmission', False),
-                'attemptProbability': t.get('attemptProbability', 0),
-                'successRate': t.get('successRate', 50),
-            }
-            # Embed the success outcome from the transition's outcomes array.
-            # (Shim: outcomes now live on the attacker role-node; the bare hub is edgeless. This
-            # whole opponentTransitions synthesis is superseded by the explicit defender nodes and
-            # is slated for removal once moveCards reads defender nodes directly.)
-            target_slug = t.get('target', '')
-            att_node = transitions.get(f"{target_slug}/attacker")
-            if att_node is not None:
-                trans_outcomes = att_node.get('outcomes', [])
-                for outcome in trans_outcomes:
-                    if outcome.get('result') == 'success':
-                        outcome_to = outcome.get('to', '')
-                        opp_t['successOutcome'] = outcome_to
-                        # Look up path for the outcome position (use first segment as position name)
-                        outcome_pos = outcome_to.split('/')[0] if outcome_to else ''
-                        if outcome_pos:
-                            opp_t['successOutcomePath'] = path_index.get(outcome_pos, outcome_pos) if not t.get('isSubmission', False) else ''
-                        break
-            elif target_slug in submissions:
-                opp_t['successOutcome'] = 'game-over'
-                opp_t['successOutcomePath'] = ''
-
-            opponent_transitions.append(opp_t)
-
-        if opponent_transitions:
-            pos_data['opponentTransitions'] = opponent_transitions
-            opponent_count += 1
-
-    if opponent_count:
-        print(f"  Added opponentTransitions to {opponent_count} position role(s)")
-
-    # Diagnostic: check for opponentTransitions with successOutcome=game-over but isSubmission=False
-    mismarked = 0
-    for pos_key, pos_data in positions.items():
-        for opp_t in pos_data.get('opponentTransitions', []):
-            if opp_t.get('successOutcome') == 'game-over' and not opp_t.get('isSubmission', False):
-                mismarked += 1
-                print(f"  WARNING: opponentTransition '{opp_t.get('technique')}' on {pos_key} "
-                      f"has successOutcome=game-over but isSubmission=False")
-                # Auto-fix: mark as submission
-                opp_t['isSubmission'] = True
-    if mismarked:
-        print(f"  Auto-fixed {mismarked} mismarked submission opponentTransition(s)")
+    # Opponent moves (the opposite position role's transitions, with resolved success outcomes)
+    # are no longer baked here — they are derived at render time in renderPage.tsx
+    # (resolveOpponentMoves) directly from the canonical role-split nodes. This keeps graph.json
+    # free of the denormalized reverse-perspective mirror.
 
     # Rewrite generic submission outcomes to position-specific variants when available
     rewrite_count = 0

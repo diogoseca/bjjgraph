@@ -17,13 +17,15 @@ import {
   clearRollHistory,
 } from "./explorerGraphExpand"
 
-interface OpponentTransition {
+// A move entry as carried in the per-page slice. Player transitions and the derived opponent
+// moves share this shape; the trailing fields are populated only for opponent moves.
+interface MoveEntry {
   technique: string
   target: string
   targetPath?: string
   isSubmission: boolean
-  attemptProbability: number
   successRate: number
+  attemptProbability?: number
   successOutcome?: string
   successOutcomePath?: string
 }
@@ -32,20 +34,14 @@ interface PositionPageData {
   type: "position"
   name: string
   role?: string
-  transitions: Array<{
-    technique: string
-    target: string
-    targetPath?: string
-    isSubmission: boolean
-    successRate: number
-  }>
+  transitions: MoveEntry[]
   defenses: Array<{
     technique: string
     target: string
     targetPath?: string
     successRate: number
   }>
-  opponentTransitions?: OpponentTransition[]
+  opponentTransitions?: MoveEntry[]
 }
 
 /**
@@ -473,7 +469,7 @@ function triggerOpponentTurn(positionData: PositionPageData, currentPath: string
 }
 
 function showOpponentOverlay(
-  move: OpponentTransition,
+  move: MoveEntry,
   success: boolean,
   positionData: PositionPageData,
   currentPath: string,
