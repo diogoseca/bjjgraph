@@ -68,7 +68,8 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from claude_infer import call_claude  # shared CLI inference + usage-limit backoff
 from _prob_norm import largest_remainder_round  # int distribution summing to 100
 from _atomic_io import atomic_write_json  # crash-safe writes
-from _ruleset import reduce_to_scalar  # collapse mirror {gi,nogi} maps at load (calibration-v2)
+from _ruleset import reduce_to_scalar, RULESETS  # {gi,nogi} contract (calibration-v2)
+from validate_graph_integrity import classify_technique  # shared success_type classifier (per-type de-bias)
 
 # --------------------------------------------------------------------------- #
 # Paths & constants
@@ -109,16 +110,56 @@ DEBIAS_BAND = (22.0, 70.0)   # the fitted anchor range; outside it the correctio
 HIGH_DAMP = 0.5              # for a linear-inverse value > DEBIAS_BAND high, blend toward raw
 TRUSTED_OUTPUT = (15.0, 77.0)  # corrected values inside this band auto-apply; outside → human review
 
-# Default reference anchors (well-established consensus success% at ~purple-brown,
-# live resistance). Used both as in-prompt absolute pins AND as blind recovery probes.
+# Built-in fallback reference anchors (well-established consensus success% at ~purple-brown, live
+# resistance). Used as in-prompt absolute pins AND as blind recovery probes. The richer per-type,
+# per-ruleset anchor set is sourced externally (calibration_external_anchors.json, curated +
+# tournament research) and merged in by load_anchors(); these 6 are the floor if that file is absent.
+# Each anchor carries success_type (for the per-type de-bias fit) + ruleset ("gi"|"nogi"|"both") +
+# is_holdout (held-out anchors validate rather than fit).
 DEFAULT_ANCHORS = [
-    {"technique": "Rear Naked Choke",          "from_position": "Back Control/Top",    "kind": "submission", "success_pct": 70, "note": "highest-percentage finish in the sport"},
-    {"technique": "Armbar from Mount",         "from_position": "Mount/Top",           "kind": "transition", "success_pct": 35, "note": "heavily defended at higher belts"},
-    {"technique": "Triangle from Closed Guard","from_position": "Closed Guard/Bottom", "kind": "transition", "success_pct": 30, "note": "telegraphed once known"},
-    {"technique": "Scissor Sweep",             "from_position": "Closed Guard/Bottom", "kind": "transition", "success_pct": 28, "note": "low completion at higher belts"},
-    {"technique": "Berimbolo",                 "from_position": "De La Riva/Bottom",   "kind": "transition", "success_pct": 22, "note": "athletic, low completion under resistance"},
-    {"technique": "Straight Ankle Lock",       "from_position": "Ashi Garami/Top",     "kind": "submission", "success_pct": 25, "note": "common entry, often escaped at higher belts"},
+    {"technique": "Rear Naked Choke",          "from_position": "Back Control/Top",    "kind": "submission", "success_type": "submission", "ruleset": "both", "success_pct": 70, "is_holdout": False, "note": "highest-percentage finish in the sport"},
+    {"technique": "Armbar from Mount",         "from_position": "Mount/Top",           "kind": "transition", "success_type": "submission", "ruleset": "both", "success_pct": 35, "is_holdout": False, "note": "heavily defended at higher belts"},
+    {"technique": "Triangle from Closed Guard","from_position": "Closed Guard/Bottom", "kind": "transition", "success_type": "submission", "ruleset": "both", "success_pct": 30, "is_holdout": False, "note": "telegraphed once known"},
+    {"technique": "Scissor Sweep",             "from_position": "Closed Guard/Bottom", "kind": "transition", "success_type": "sweep",      "ruleset": "both", "success_pct": 28, "is_holdout": False, "note": "low completion at higher belts"},
+    {"technique": "Berimbolo",                 "from_position": "De La Riva/Bottom",   "kind": "transition", "success_type": "sweep",      "ruleset": "gi",   "success_pct": 22, "is_holdout": False, "note": "athletic, low completion under resistance; gi-centric"},
+    {"technique": "Straight Ankle Lock",       "from_position": "Ashi Garami/Top",     "kind": "submission", "success_type": "submission", "ruleset": "both", "success_pct": 25, "is_holdout": False, "note": "common entry, often escaped at higher belts"},
 ]
+
+# External anchor file: curated seed + tournament research (2.2a). Same per-anchor schema as
+# DEFAULT_ANCHORS. Gitignored, regenerable; absent → DEFAULT_ANCHORS only.
+EXTERNAL_ANCHORS_JSON = os.path.join(_REPO_ROOT, "calibration_external_anchors.json")
+
+
+def load_anchors() -> list:
+    """Built-in DEFAULT_ANCHORS merged with calibration_external_anchors.json (if present).
+    External entries override built-ins of the same technique. Each anchor is normalized to carry
+    success_type (via classify_technique fallback), ruleset ("both" default), and is_holdout."""
+    by_tech = {a["technique"]: dict(a) for a in DEFAULT_ANCHORS}
+    if os.path.exists(EXTERNAL_ANCHORS_JSON):
+        try:
+            with open(EXTERNAL_ANCHORS_JSON, encoding="utf-8") as fh:
+                ext = json.load(fh)
+            rows = ext.get("anchors", ext) if isinstance(ext, dict) else ext
+            for a in rows or []:
+                if isinstance(a, dict) and a.get("technique") and a.get("success_pct") is not None:
+                    by_tech[a["technique"]] = dict(a)
+        except (json.JSONDecodeError, OSError):
+            pass
+    anchors = []
+    for a in by_tech.values():
+        a.setdefault("ruleset", "both")
+        a.setdefault("is_holdout", False)
+        if not a.get("success_type"):
+            a["success_type"] = classify_technique(a["technique"])
+        anchors.append(a)
+    return anchors
+
+
+def anchors_for_ruleset(anchors: list, ruleset) -> list:
+    """Anchors visible in a given frame: ruleset-matching + 'both'. Unspecified ruleset → all."""
+    if not ruleset:
+        return list(anchors)
+    return [a for a in anchors if a.get("ruleset", "both") in (ruleset, "both")]
 
 # --------------------------------------------------------------------------- #
 # Expert panel — structured diversity, NOT independent estimators
@@ -129,30 +170,35 @@ PERSONAS = [
         "voice": "John Danaher — meticulous systems coach who reasons from mechanism and biomechanics before percentages.",
         "reference_class": "elite no-gi / ADCC-level sample",
         "domains": ["leglock", "back", "strangle"],
+        "ruleset_affinity": "nogi",
     },
     {
         "id": "gordon_ryan",
         "voice": "Gordon Ryan — what actually wins at the absolute top: back control, relentless pressure passing, leg entanglements.",
         "reference_class": "championship no-gi finals",
         "domains": ["back", "pass", "leglock", "pressure"],
+        "ruleset_affinity": "nogi",
     },
     {
         "id": "craig_jones",
         "voice": "Craig Jones — pragmatic modern leg-game; honest that flashy low-percentage moves rarely finish high-level opponents.",
         "reference_class": "competitive no-gi, ADCC-trials level",
         "domains": ["leglock", "guard", "scramble"],
+        "ruleset_affinity": "nogi",
     },
     {
         "id": "roger_gracie",
         "voice": "Roger Gracie — fundamentals and gi pressure: mount, the cross-collar choke, closed guard, methodical passing.",
         "reference_class": "high-level gi / IBJJF black belt",
         "domains": ["mount", "choke", "gi", "pass", "guard"],
+        "ruleset_affinity": "gi",
     },
     {
         "id": "fanatics_generalist",
         "voice": "A seasoned BJJ-Fanatics instructor giving the broad instructional median — regression-to-the-mean ballast across all areas.",
         "reference_class": "serious hobbyist training 4-5x/week",
         "domains": [],  # uniform; never relevance-boosted
+        "ruleset_affinity": "both",
     },
 ]
 PERSONA_BY_ID = {p["id"]: p for p in PERSONAS}
@@ -175,6 +221,12 @@ _FAMILY_KEYWORDS = {
 _RELEVANCE_BOOST = 1.4
 _GENERALIST_WEIGHT = 0.8
 
+# ruleset multipliers: a persona estimating in their NATIVE frame is up-weighted; off-frame is
+# damped, so a no-gi specialist can't dominate a gi-only collar choke (and vice versa). The
+# generalist (affinity "both") and any persona estimating a frame-neutral case stay at 1.0.
+_RULESET_NATIVE = 1.3
+_RULESET_OFFFRAME = 0.7
+
 
 def _families_for(name: str, tags) -> set:
     """Family tags a technique belongs to, from its name + tags (lowercased keyword match)."""
@@ -195,6 +247,17 @@ def relevance_weight(persona_id: str, cand_meta: dict) -> float:
     persona = PERSONA_BY_ID[persona_id]
     fams = _families_for(cand_meta.get("technique", ""), cand_meta.get("tags"))
     return _RELEVANCE_BOOST if (fams & set(persona["domains"])) else 1.0
+
+
+def ruleset_weight(persona_id: str, ruleset) -> float:
+    """Persona's frame multiplier for a case's ruleset. Native frame → boost, off-frame → damp,
+    frame-neutral persona or unspecified ruleset → 1.0 (backward-compatible with non-ruleset cases)."""
+    if not ruleset:
+        return 1.0
+    affinity = PERSONA_BY_ID[persona_id].get("ruleset_affinity", "both")
+    if affinity == "both":
+        return 1.0
+    return _RULESET_NATIVE if affinity == ruleset else _RULESET_OFFFRAME
 
 
 # --------------------------------------------------------------------------- #
@@ -278,6 +341,7 @@ def build_cases_from_content(max_cases: int, max_candidates: int) -> dict:
     existing edges and we never invent/drop graph edges)."""
     index = build_technique_index()
     cases = []
+    n_roles = 0  # count position-roles (each emits gi+nogi); max_cases caps roles, not variants
     pos_paths = sorted(glob.glob(os.path.join(CONTENT_DIR, "Positions", "*.json")))
     for path in pos_paths:
         try:
@@ -315,22 +379,30 @@ def build_cases_from_content(max_cases: int, max_candidates: int) -> dict:
             if len(candidates) < 2:
                 continue  # need a comparative set
             role_label = role.capitalize() if role != "single" else "Single"
-            cases.append({
-                "case_id": f"{pos_name}/{role_label}".lower().replace(" ", "-"),
-                "from_position": f"{pos_name}/{role_label}",
-                "role": role,
-                "skill_level": "purple-brown",
-                "candidates": candidates,
-                "occurrence_universe": universe,
-            })
-            if len(cases) >= max_cases:
+            base_id = f"{pos_name}/{role_label}".lower().replace(" ", "-")
+            # Emit BOTH frames: gi + nogi. Candidates/skeleton are identical; the ruleset only
+            # reframes the prompt, the anchors shown, and the persona weights. Frame-collapse later
+            # merges back to a mirror where gi/nogi agree (owner: "elicit both, collapse if equal").
+            for rs in RULESETS:
+                cases.append({
+                    "case_id": f"{base_id}::{rs}",
+                    "from_position": f"{pos_name}/{role_label}",
+                    "role": role,
+                    "ruleset": rs,
+                    "skill_level": "purple-brown",
+                    "candidates": candidates,
+                    "occurrence_universe": universe,
+                })
+            n_roles += 1
+            if n_roles >= max_cases:
                 break
-        if len(cases) >= max_cases:
+        if n_roles >= max_cases:
             break
     return {
-        "schema_version": 1,
+        "schema_version": 2,
         "skill_level": "purple-brown",
-        "reference_anchors": DEFAULT_ANCHORS,
+        "rulesets": list(RULESETS),
+        "reference_anchors": load_anchors(),
         "cases": cases,
     }
 
@@ -339,9 +411,12 @@ def build_cases_from_content(max_cases: int, max_candidates: int) -> dict:
 # Anchor-probe cases (blind recovery test)
 # --------------------------------------------------------------------------- #
 def make_anchor_probe_cases(anchors: list) -> list:
-    """One probe case per anchor (the anchor as a lone candidate). Tagged is_anchor_probe so
-    aggregation can compare elicited success% to the known value. Skeleton is synthetic — these
-    are never written to the graph, only used to measure calibration."""
+    """Blind recovery probes: one probe per (anchor, ruleset). Tagged is_anchor_probe so aggregation
+    can compare elicited success% to the known value. Skeleton is synthetic — never written to the
+    graph, only used to measure calibration. Each anchor is probed in the frame(s) it applies to (a
+    "both" anchor is probed in BOTH gi and nogi). HELD-OUT anchors ARE probed (elicited blind) but
+    are excluded from the de-bias FIT and from in-prompt REFERENCES, so they validate out-of-sample
+    without leaking."""
     probes = []
     for a in anchors:
         kind = a.get("kind", "transition")
@@ -356,21 +431,26 @@ def make_anchor_probe_cases(anchors: list) -> list:
                 skel = [{"to": "Better Position", "result": "success"},
                         {"to": frm, "result": "failure"},
                         {"to": "Worse Position", "result": "counter"}]
-        probes.append({
-            "case_id": f"anchor-probe::{a['technique']}",
-            "from_position": frm,
-            "role": "top",
-            "skill_level": "purple-brown",
-            "is_anchor_probe": True,
-            "probe_technique": a["technique"],
-            "candidates": [{
-                "technique": a["technique"],
-                "kind": kind,
-                "tags": [],
-                "candidate_outcomes": skel,
-            }],
-            "occurrence_universe": [a["technique"]],
-        })
+        anchor_rs = a.get("ruleset", "both")
+        frames = list(RULESETS) if anchor_rs == "both" else [anchor_rs]
+        for rs in frames:
+            probes.append({
+                "case_id": f"anchor-probe::{a['technique']}::{rs}",
+                "from_position": frm,
+                "role": "top",
+                "ruleset": rs,
+                "skill_level": "purple-brown",
+                "is_anchor_probe": True,
+                "probe_technique": a["technique"],
+                "candidates": [{
+                    "technique": a["technique"],
+                    "kind": kind,
+                    "success_type": a.get("success_type"),
+                    "tags": [],
+                    "candidate_outcomes": skel,
+                }],
+                "occurrence_universe": [a["technique"]],
+            })
     return probes
 
 
@@ -441,9 +521,23 @@ _FEWSHOT = (
 )
 
 
+_RULESET_FRAMING = {
+    "gi": ("RULESET: GI (IBJJF). Collar, sleeve, lapel and belt grips ARE available; gi friction slows "
+           "escapes and enables collar/lapel chokes (cross-collar, bow-and-arrow, loop, ezekiel, "
+           "baseball). Heel hooks are illegal at most belts; reaping is penalized. Submission finish "
+           "rates run LOWER than no-gi (elite gi ≈ 30-37%). Estimate strictly for the GI game."),
+    "nogi": ("RULESET: NO-GI (ADCC/EBI). No grips on cloth — faster scrambles, sweatier control, "
+             "collar/lapel chokes unavailable. Heel hooks and all leg locks ARE legal and central to "
+             "the modern game. Submission finish rates run HIGHER than gi (elite no-gi ≈ 40-46%). "
+             "Estimate strictly for the NO-GI game."),
+}
+
+
 def build_persona_prompt(persona: dict, cases_chunk: list, anchor_refs: list,
-                         principle_vocab: list, skill_level: str) -> str:
-    """Comparative + anchored + mechanism-first prompt for one persona over a chunk of cases."""
+                         principle_vocab: list, skill_level: str, ruleset=None) -> str:
+    """Comparative + anchored + mechanism-first prompt for one persona over a chunk of cases (all
+    sharing one ruleset frame). `anchor_refs` are pre-filtered to the chunk's ruleset by the caller."""
+    frame = _RULESET_FRAMING.get(ruleset, "")
     refs = "\n".join(
         f"  - {a['technique']} (from {a.get('from_position','?')}): success ≈ {a['success_pct']}%"
         + (f"  [{a['note']}]" if a.get("note") else "")
@@ -468,6 +562,9 @@ def build_persona_prompt(persona: dict, cases_chunk: list, anchor_refs: list,
     return f"""You are {persona['voice']}
 
 You are estimating how Brazilian Jiu-Jitsu techniques perform for {skill_level} practitioners in LIVE, fully-resisting rolling and competition. Reference class: {persona['reference_class']}.
+
+## {frame}
+Every estimate below is for THIS ruleset only. The same technique can have a different success rate (and even different availability) in the other ruleset — do not blend them.
 
 ## The causal model you MUST reason from (this is the whole game; everything else is trivia)
 A transition or submission SUCCEEDS when the ATTACKER leverages the right principles AND the DEFENDER fails to leverage their applicable principles. So for every candidate, decide success on the basis of WHICH principles each side must apply, then how often the defender actually applies theirs at this level.
@@ -551,17 +648,26 @@ def elicit_persona(persona, cases, anchors, principle_vocab, skill_level,
         log(f"  [{pid}] all {len(cases)} cases already elicited (resumed)")
         return done
 
-    # Build chunks. Anchor probes are chunked SEPARATELY and split into two halves so each
-    # probe is pinned against the complementary anchors (never a chunk where every anchor is
-    # probed → empty references). Regular cases chunk normally and always see all anchors.
-    regular = [c for c in pending if not c.get("is_anchor_probe")]
-    probes = [c for c in pending if c.get("is_anchor_probe")]
-    build_chunks = list(_chunks(regular, chunk_size))
-    if len(probes) <= 1:
-        build_chunks += [probes] if probes else []
-    else:
-        mid = (len(probes) + 1) // 2
-        build_chunks += [probes[:mid], probes[mid:]]
+    # Build chunks PER RULESET so every chunk shares one frame (the prompt + anchors are
+    # frame-specific). Within a ruleset, anchor probes are chunked SEPARATELY and split into two
+    # halves so each probe is pinned against the complementary anchors (never a chunk where every
+    # anchor is probed → empty references). Cases with no ruleset (legacy) group under None.
+    build_chunks = []
+    rulesets_present = []
+    for c in pending:
+        rs = c.get("ruleset")
+        if rs not in rulesets_present:
+            rulesets_present.append(rs)
+    for rs in rulesets_present:
+        grp = [c for c in pending if c.get("ruleset") == rs]
+        regular = [c for c in grp if not c.get("is_anchor_probe")]
+        probes = [c for c in grp if c.get("is_anchor_probe")]
+        build_chunks += list(_chunks(regular, chunk_size))
+        if len(probes) <= 1:
+            build_chunks += [probes] if probes else []
+        else:
+            mid = (len(probes) + 1) // 2
+            build_chunks += [probes[:mid], probes[mid:]]
 
     for chunk in build_chunks:
         # shuffle candidate order within each case for this persona
@@ -572,8 +678,11 @@ def elicit_persona(persona, cases, anchors, principle_vocab, skill_level,
             rng.shuffle(cands)
             cc["candidates"] = cands
             chunk_shuf.append(cc)
-        refs = anchor_refs_for_chunk(chunk_shuf, anchors)
-        prompt = build_persona_prompt(persona, chunk_shuf, refs, principle_vocab, skill_level)
+        chunk_rs = chunk_shuf[0].get("ruleset")  # chunk is ruleset-homogeneous by construction
+        # references: same-frame, non-holdout anchors (held-out anchors validate, never pin)
+        ref_pool = [a for a in anchors_for_ruleset(anchors, chunk_rs) if not a.get("is_holdout")]
+        refs = anchor_refs_for_chunk(chunk_shuf, ref_pool)
+        prompt = build_persona_prompt(persona, chunk_shuf, refs, principle_vocab, skill_level, chunk_rs)
         ids = [c["case_id"] for c in chunk_shuf]
         log(f"  [{pid}] eliciting {len(ids)} case(s){dry_run_label}: {', '.join(ids)[:120]}")
 
@@ -669,19 +778,20 @@ def spread_to_pseudo_count(spread: float) -> int:
     return int(round(PC_MAX - t * (PC_MAX - PC_MIN)))
 
 
-def aggregate_candidate(per_persona: dict, cand_meta: dict, skeleton: list, rng):
+def aggregate_candidate(per_persona: dict, cand_meta: dict, skeleton: list, rng, ruleset=None):
     """Combine personas for one (case, candidate) → calibrated estimate.
-    per_persona: {persona_id: estimate-dict}."""
+    per_persona: {persona_id: estimate-dict}. `ruleset` folds the native/off-frame multiplier in."""
     pids = list(per_persona.keys())
     succ = [per_persona[p]["success_pct"] for p in pids]
     occ = [per_persona[p]["occurrence_pct"] for p in pids]
     conf = [per_persona[p]["confidence"] for p in pids]
     relw = [relevance_weight(p, cand_meta) for p in pids]
-    # inverse-variance via confidence (clamped), times relevance
+    rsw = [ruleset_weight(p, ruleset) for p in pids]
+    # inverse-variance via confidence (clamped), times relevance, times ruleset-frame affinity
     weights = []
-    for c, r in zip(conf, relw):
+    for c, r, rw in zip(conf, relw, rsw):
         cc = max(0.05, min(0.95, c))
-        weights.append(r * (cc / (1.0 - cc)))
+        weights.append(r * rw * (cc / (1.0 - cc)))
 
     succ_mean, succ_std = _weighted_mean_std(succ, weights)
     occ_mean, _ = _weighted_mean_std(occ, weights)
@@ -733,10 +843,11 @@ def aggregate_all(cases, per_persona_results, rng):
                     personas[pid] = est
             if not personas:
                 continue
-            agg = aggregate_candidate(personas, cand, skel_by[(cid, tech)], rng)
+            agg = aggregate_candidate(personas, cand, skel_by[(cid, tech)], rng, c.get("ruleset"))
             cands_out.append({
                 "technique": tech,
                 "kind": cand.get("kind", "transition"),
+                "success_type": cand.get("success_type") or classify_technique(tech),
                 "personas": personas,
                 "aggregated": agg,
             })
@@ -745,6 +856,7 @@ def aggregate_all(cases, per_persona_results, rng):
                 "case_id": c["case_id"],
                 "from_position": c.get("from_position"),
                 "role": c.get("role"),
+                "ruleset": c.get("ruleset"),
                 "is_anchor_probe": c.get("is_anchor_probe", False),
                 "probe_technique": c.get("probe_technique"),
                 "candidates": cands_out,
@@ -756,32 +868,56 @@ def aggregate_all(cases, per_persona_results, rng):
 # Anchor-recovery self-check
 # --------------------------------------------------------------------------- #
 def anchor_recovery(out_cases, anchors):
-    """Compare blind-elicited anchor success% to known values → per-anchor + pooled + per-band MAE.
+    """Compare blind-elicited anchor success% to known values → per-anchor + pooled + per-band +
+    per-TYPE + held-out points.
 
     The pooled MAE can hide a central-tendency compression bias: a single LLM backbone pulls
     high-% techniques DOWN and low-% UP, so opposite-signed tail errors cancel to a small pooled
-    mean. We therefore also report low/mid/high band MAEs and the signed errors + (expected,
-    elicited) points used to fit the de-bias transform."""
-    known = {a["technique"]: a["success_pct"] for a in anchors}
+    mean. We report low/mid/high band MAEs and the signed errors, plus the (expected, elicited)
+    points BY success_type so the de-bias is fit per type (submission base rates differ from sweeps).
+    Held-out anchors are scored separately (held_points) — they validate the fit out-of-sample."""
+    # expected value + metadata per (technique, ruleset), with a (technique,'both') fallback
+    meta = {}
+    for a in anchors:
+        meta[(a["technique"], a.get("ruleset", "both"))] = {
+            "expected": a["success_pct"],
+            "success_type": a.get("success_type") or classify_technique(a["technique"]),
+            "is_holdout": bool(a.get("is_holdout")),
+        }
+
+    def lookup(tech, rs):
+        return meta.get((tech, rs)) or meta.get((tech, "both"))
+
     rows, errs, pts = {}, [], []
     bands = {"low": [], "mid": [], "high": []}
+    points_by_type, held_points = {}, []
     for c in out_cases:
-        if not c.get("is_anchor_probe"):
+        if not c.get("is_anchor_probe") or not c["candidates"]:
             continue
         tech = c.get("probe_technique")
-        if tech not in known or not c["candidates"]:
+        m = lookup(tech, c.get("ruleset", "both"))
+        if not m:
             continue
-        exp = known[tech]
+        exp = m["expected"]
+        stype = m["success_type"]
         elicited = c["candidates"][0]["aggregated"]["success_pct"]
         err = abs(elicited - exp)
-        rows[tech] = {"expected": exp, "elicited_mean": elicited, "abs_err": err, "signed_err": elicited - exp}
+        key = f"{tech}::{c.get('ruleset')}" if c.get("ruleset") else tech
+        rows[key] = {"expected": exp, "elicited_mean": elicited, "abs_err": err,
+                     "signed_err": elicited - exp, "success_type": stype,
+                     "is_holdout": m["is_holdout"]}
+        if m["is_holdout"]:
+            held_points.append((exp, elicited, stype))
+            continue
         errs.append(err)
         pts.append((exp, elicited))
+        points_by_type.setdefault(stype, []).append((exp, elicited))
         band = "low" if exp < 30 else ("high" if exp > 50 else "mid")
         bands[band].append(err)
     mae = round(sum(errs) / len(errs), 2) if errs else None
     band_mae = {k: (round(sum(v) / len(v), 2) if v else None) for k, v in bands.items()}
     return {"per_anchor": rows, "mae": mae, "band_mae": band_mae, "n": len(errs), "points": pts,
+            "points_by_type": points_by_type, "held_points": held_points,
             "pass": (mae is not None and mae <= ANCHOR_MAE_GATE)}
 
 
@@ -844,6 +980,54 @@ def debias_value(s: float, fit: dict) -> float:
     return max(DEBIAS_CLIP[0], min(DEBIAS_CLIP[1], d))
 
 
+MIN_TYPE_ANCHORS = 5  # need ≥5 same-type points to trust a per-type fit + its LOAO; else fall back
+
+
+def _fit_sound(fit) -> bool:
+    """A compression fit we trust enough to invert: strong linear r, enough points, slope in range."""
+    return bool(fit) and abs(fit["r"]) >= 0.7 and fit["n"] >= 4 and 0.3 < fit["a"] < 1.05
+
+
+def build_type_fits(recovery: dict) -> dict:
+    """Fit the compression de-bias PER success_type (submission/sweep/pass/… have different base
+    rates and slopes), with a pooled GLOBAL fit as fallback for thin types. Returns
+    {global, by_type:{t:fit}, loao_global, loao_by_type:{t:mae}, types_fallback:[...]}.
+    A per-type fit is used only with ≥MIN_TYPE_ANCHORS points AND a sound fit; otherwise that type
+    falls back to global (flagged), so a sparse type can't overfit a wild slope."""
+    global_fit = fit_compression(recovery.get("points") or [])
+    by_type, loao_by_type, fallback = {}, {}, []
+    for stype, pts in (recovery.get("points_by_type") or {}).items():
+        f = fit_compression(pts)
+        if len(pts) >= MIN_TYPE_ANCHORS and _fit_sound(f) and f["a"] < 0.9:
+            by_type[stype] = f
+            loao_by_type[stype] = loao_mae(pts)
+        else:
+            fallback.append(stype)
+    return {
+        "global": global_fit,
+        "by_type": by_type,
+        "loao_global": loao_mae(recovery.get("points") or []),
+        "loao_by_type": loao_by_type,
+        "types_fallback": sorted(set(fallback)),
+    }
+
+
+def pick_fit(fits: dict, success_type) -> dict:
+    """The fit to use for a candidate of this type: its per-type fit, else the global fit."""
+    return (fits.get("by_type") or {}).get(success_type) or fits.get("global")
+
+
+def held_out_mae(held_points: list, fits: dict):
+    """MAE of the de-bias on HELD-OUT anchors (never used to fit) — the out-of-sample check.
+    Each held point is (expected, elicited, success_type); de-bias with that type's fit."""
+    errs = []
+    for exp, elic, stype in held_points or []:
+        f = pick_fit(fits, stype)
+        if f:
+            errs.append(abs(debias_value(elic, f) - exp))
+    return round(sum(errs) / len(errs), 2) if errs else None
+
+
 def is_extrapolated(corrected_success: float) -> bool:
     """True when the CORRECTED success lands outside the trusted output band [15,77] — i.e. the
     de-bias extrapolated past where the 6 anchors constrain the slope (review found these tails
@@ -872,16 +1056,20 @@ def rescale_dist_to_success(dist: list, new_succ: int) -> list:
     return [{**d, "probability": ints[i]} for i, d in enumerate(dist)]
 
 
-def apply_debias(out_cases, fit, log):
-    """De-compress every NON-anchor candidate's success% using the anchor-derived fit. Stashes the
-    raw values under aggregated['pre_debias']. Anchors are left untouched (they DEFINE the fit).
-    Spread is widened by 1/a (decompression) → weaker, more honest pseudo-count."""
-    a = fit["a"]
+def apply_debias(out_cases, fits, log):
+    """De-compress every NON-anchor candidate's success% using its success_type's fit (per-type, with
+    the global fit as fallback). Stashes raw values under aggregated['pre_debias']. Anchors are left
+    untouched (they DEFINE the fits). Spread is widened by 1/a → weaker, more honest pseudo-count."""
     n = 0
+    used = {}
     for c in out_cases:
         if c.get("is_anchor_probe"):
             continue
         for cand in c["candidates"]:
+            fit = pick_fit(fits, cand.get("success_type"))
+            if not fit:
+                continue
+            a = fit["a"]
             agg = cand["aggregated"]
             raw_s = agg["success_pct"]
             has_succ = any(d["result"] == "success" for d in agg["outcome_dist"])
@@ -901,11 +1089,14 @@ def apply_debias(out_cases, fit, log):
             agg["success_spread"] = new_spread
             agg["pseudo_count"] = spread_to_pseudo_count(new_spread)
             agg["extrapolated"] = is_extrapolated(new_s)  # out-of-band output → human review before apply
+            fit_kind = cand.get("success_type") if (fits.get("by_type") or {}).get(cand.get("success_type")) else "global"
+            agg["debias_fit"] = fit_kind
+            used[fit_kind] = used.get(fit_kind, 0) + 1
             n += 1
     n_ext = sum(1 for c in out_cases if not c.get("is_anchor_probe")
                 for cand in c["candidates"] if cand["aggregated"].get("extrapolated"))
-    log(f"  de-bias applied to {n} non-anchor candidate(s): true=(elicited-{fit['b']})/{fit['a']} "
-        f"(fixed point {fit['fixed_point']}, r={fit['r']}, n={fit['n']}); {n_ext} out-of-band flagged for review")
+    log(f"  de-bias applied to {n} non-anchor candidate(s) by fit: {used}; "
+        f"{n_ext} out-of-band flagged for review")
     return n
 
 
@@ -968,32 +1159,74 @@ def apply_calibrated_priors(votes_data: dict, out_cases, only_seed=True, skip_ex
     return votes_data, applied, skipped
 
 
+FRAME_COLLAPSE_PTS = 3  # gi vs nogi within this (and overlapping CIs) → collapse to a mirror
+
+
+def _ci_overlap(a, b) -> bool:
+    if not a or not b or len(a) != 2 or len(b) != 2:
+        return True
+    return not (a[1] < b[0] or b[1] < a[0])
+
+
 def emit_content_proposals(out_cases, index):
-    """Sink B: occurrence% + outcome_dist as a HUMAN-GATED proposal (never auto-written)."""
-    proposals = {}
+    """Sink B: per-RULESET occurrence% + success% + outcome_dist as a HUMAN-GATED proposal (never
+    auto-written). Each technique is estimated in both frames; when gi and nogi agree within noise
+    the proposal is COLLAPSED to a mirror (frame_confidence='mirrored') so 2.3 won't write spurious
+    divergence; otherwise it is kept 'forked'. needs_human_review when either frame is out-of-band
+    OR the frames genuinely fork."""
+    by_tech = {}
     for c in out_cases:
         if c.get("is_anchor_probe"):
             continue
+        rs = c.get("ruleset") or "both"
         for cand in c["candidates"]:
             tech = cand["technique"]
             agg = cand["aggregated"]
             meta = index.get(tech, {})
-            proposals.setdefault(tech, {
-                "kind": cand.get("kind"),
+            t = by_tech.setdefault(tech, {
+                "kind": cand.get("kind"), "success_type": cand.get("success_type"),
                 "from_position": meta.get("from_position"),
                 "current": {"outcomes": meta.get("outcomes"), "success_rate": meta.get("success_rate")},
-                "proposed": {
-                    "success_rate": agg["success_pct"],
-                    "outcome_dist": agg["outcome_dist"],
-                },
-                "raw_panel_success_rate": agg.get("pre_debias", {}).get("success_pct"),
-                "occurrence_by_position": {},
-                "spread": agg["success_spread"],
-                "success_ci": agg["success_ci"],
-                "pseudo_count": agg["pseudo_count"],
-                "needs_human_review": bool(agg.get("extrapolated")),
+                "frames": {}, "occurrence_by_position": {},
             })
-            proposals[tech]["occurrence_by_position"][c["from_position"]] = agg["occurrence_pct"]
+            t["frames"][rs] = {
+                "success_rate": agg["success_pct"], "outcome_dist": agg["outcome_dist"],
+                "raw_panel_success_rate": agg.get("pre_debias", {}).get("success_pct"),
+                "spread": agg["success_spread"], "success_ci": agg["success_ci"],
+                "pseudo_count": agg["pseudo_count"], "extrapolated": bool(agg.get("extrapolated")),
+            }
+            t["occurrence_by_position"].setdefault(c["from_position"], {})[rs] = agg["occurrence_pct"]
+
+    proposals = {}
+    for tech, t in by_tech.items():
+        gi, nogi = t["frames"].get("gi"), t["frames"].get("nogi")
+        frame_confidence = "single"
+        if gi and nogi:
+            if abs(gi["success_rate"] - nogi["success_rate"]) <= FRAME_COLLAPSE_PTS \
+                    and _ci_overlap(gi["success_ci"], nogi["success_ci"]):
+                m = int(round((gi["success_rate"] + nogi["success_rate"]) / 2))
+                gi, nogi = {**gi, "success_rate": m}, {**nogi, "success_rate": m}
+                frame_confidence = "mirrored"
+            else:
+                frame_confidence = "forked"
+        needs_review = bool(any(f and f.get("extrapolated") for f in (gi, nogi))
+                            or frame_confidence == "forked")
+        pick = lambda f, k: (f or {}).get(k)
+        proposals[tech] = {
+            "kind": t["kind"], "success_type": t["success_type"],
+            "from_position": t["from_position"], "current": t["current"],
+            "frame_confidence": frame_confidence,
+            "proposed": {
+                "success_rate": {"gi": pick(gi, "success_rate"), "nogi": pick(nogi, "success_rate")},
+                "outcome_dist": {"gi": pick(gi, "outcome_dist"), "nogi": pick(nogi, "outcome_dist")},
+            },
+            "raw_panel_success_rate": {"gi": pick(gi, "raw_panel_success_rate"),
+                                       "nogi": pick(nogi, "raw_panel_success_rate")},
+            "success_ci": {"gi": pick(gi, "success_ci"), "nogi": pick(nogi, "success_ci")},
+            "pseudo_count": {"gi": pick(gi, "pseudo_count"), "nogi": pick(nogi, "pseudo_count")},
+            "occurrence_by_position": t["occurrence_by_position"],
+            "needs_human_review": needs_review,
+        }
     return proposals
 
 
@@ -1010,6 +1243,7 @@ def load_results_as_inputs(results: dict):
     cases = []
     for c in results.get("cases", []):
         case = {"case_id": c["case_id"], "from_position": c.get("from_position"), "role": c.get("role"),
+                "ruleset": c.get("ruleset"),
                 "is_anchor_probe": c.get("is_anchor_probe", False),
                 "probe_technique": c.get("probe_technique"), "candidates": []}
         for cand in c["candidates"]:
@@ -1020,6 +1254,7 @@ def load_results_as_inputs(results: dict):
                     skel = [{"to": d["to"], "result": d["result"]} for d in est["outcome_dist"]]
                 per[pid].setdefault(c["case_id"], {})[tech] = est
             case["candidates"].append({"technique": tech, "kind": cand.get("kind", "transition"),
+                                       "success_type": cand.get("success_type"),
                                        "tags": index.get(tech, {}).get("tags", []),
                                        "candidate_outcomes": skel or []})
         cases.append(case)
@@ -1033,41 +1268,50 @@ def finalize(cases, per_persona_results, anchors, skill, args, log):
     rng = random.Random(1729)  # reproducible bootstrap
     out_cases = aggregate_all(cases, per_persona_results, rng)
     recovery = anchor_recovery(out_cases, anchors)  # RAW (pre-debias) — diagnoses compression
-    points = recovery.get("points") or []
-    recovery["loao_mae"] = loao_mae(points)  # NON-circular generalization check (the real gate)
 
-    # Fit + correct the single-LLM central-tendency compression, unless disabled.
-    fit = fit_compression(points)
-    debias = {"applied": False}
-    if not args.no_debias and fit is not None:
-        compression = fit["a"] < 0.9
-        sound = abs(fit["r"]) >= 0.7 and fit["n"] >= 4 and 0.3 < fit["a"] < 1.05
-        if compression and sound:
-            apply_debias(out_cases, fit, log)
-            debias = {"applied": True, "fit": fit}
-        else:
-            debias = {"applied": False, "fit": fit,
-                      "note": "no compression detected" if not compression else "fit not sound; not de-biasing"}
+    # Per-TYPE compression fits (global fallback), each with its own non-circular LOAO MAE.
+    fits = build_type_fits(recovery)
+    recovery["loao_mae"] = fits["loao_global"]  # back-compat: the pooled non-circular check
+    recovery["loao_by_type"] = fits["loao_by_type"]
+    held_mae = held_out_mae(recovery.get("held_points"), fits)
+    recovery["held_out_mae"] = held_mae
+
+    # Apply the per-type de-bias unless disabled and a usable fit exists.
+    debias = {"applied": False, "global_fit": fits["global"], "by_type": fits["by_type"],
+              "types_fallback": fits["types_fallback"]}
+    usable = (fits["global"] and _fit_sound(fits["global"]) and fits["global"]["a"] < 0.9) or fits["by_type"]
+    if not args.no_debias and usable:
+        apply_debias(out_cases, fits, log)
+        debias["applied"] = True
+    else:
+        debias["note"] = "disabled" if args.no_debias else "no sound compression fit"
     stratify_pseudo_counts(out_cases, log)
 
-    # GATE on the de-circularized LOAO MAE (falls back to in-sample only if LOAO unavailable).
+    # GATE (non-circular): pooled LOAO ≤ gate, AND every per-type LOAO ≤ gate, AND held-out ≤ gate.
+    type_loaos = [v for v in fits["loao_by_type"].values() if v is not None]
+    gate_checks = []
     if recovery["loao_mae"] is not None:
-        gate_pass = recovery["loao_mae"] <= ANCHOR_MAE_GATE
-    else:
-        gate_pass = recovery["pass"]
+        gate_checks.append(recovery["loao_mae"] <= ANCHOR_MAE_GATE)
+    gate_checks += [v <= ANCHOR_MAE_GATE for v in type_loaos]
+    if held_mae is not None:
+        gate_checks.append(held_mae <= ANCHOR_MAE_GATE)
+    gate_pass = all(gate_checks) if gate_checks else recovery["pass"]
     recovery["gate_pass"] = gate_pass
 
     results = {
-        "schema_version": 1, "model": CLAUDE_MODEL, "effort": CLAUDE_EFFORT,
+        "schema_version": 2, "model": CLAUDE_MODEL, "effort": CLAUDE_EFFORT,
         "generated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
-        "skill_level": skill, "anchor_recovery": recovery, "debias": debias, "cases": out_cases,
+        "skill_level": skill, "rulesets": list(RULESETS),
+        "anchor_recovery": recovery, "debias": debias, "cases": out_cases,
     }
     atomic_write_json(args.out, results)
     log(f"\nWrote results → {args.out}")
     log(f"Anchor-recovery: in-sample MAE={recovery['mae']} band={recovery['band_mae']} | "
-        f"LOAO MAE={recovery['loao_mae']} (the non-circular gate) → gate_pass={gate_pass}")
+        f"pooled LOAO={recovery['loao_mae']} per-type LOAO={fits['loao_by_type']} "
+        f"held-out MAE={held_mae} (non-circular gate) → gate_pass={gate_pass}")
     if debias["applied"]:
-        log(f"De-bias APPLIED: {debias['fit']}")
+        log(f"De-bias APPLIED — global fit={fits['global']}; per-type={list(fits['by_type'])}; "
+            f"fallback-to-global types={fits['types_fallback']}")
     else:
         log(f"De-bias NOT applied ({debias.get('note', 'disabled')})")
 
@@ -1131,12 +1375,13 @@ def main():
         log(f"Wrote {len(data['cases'])} case(s) → {args.cases}")
         return 0
 
-    # anchors: from the cases file if present, else defaults (needed for recovery in both modes)
-    anchors, skill = DEFAULT_ANCHORS, args.skill_level
+    # anchors: from the cases file if present, else built-in + external (needed for recovery in
+    # both modes). load_anchors() merges DEFAULT_ANCHORS with calibration_external_anchors.json.
+    anchors, skill = load_anchors(), args.skill_level
     if os.path.exists(args.cases):
         with open(args.cases, encoding="utf-8") as fh:
             cases_data = json.load(fh)
-        anchors = cases_data.get("reference_anchors", DEFAULT_ANCHORS)
+        anchors = cases_data.get("reference_anchors") or load_anchors()
         skill = cases_data.get("skill_level", args.skill_level)
 
     if args.reaggregate:
