@@ -20,7 +20,10 @@
   "target_area": "Carotid arteries and trachea",
   "starting_position": "Darce Control",
   "from_position": "Darce Control/Top",
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "overview": "The Darce Choke from Darce Control represents the finishing phase of one of the most effective arm-triangle variations in modern grappling. Unlike entries from scrambles or turtle where the attacker must simultaneously establish control and threaten the choke, executing from an already-secured Darce Control position allows the attacker to focus entirely on grip refinement, hip placement, and progressive compression. The position-specific advantage lies in having the opponent's posture already broken and arm already trapped, eliminating two of the three major defensive windows.\n\nThe finishing mechanics hinge on three coordinated actions: deepening the choking arm so the blade of the forearm sits directly across the carotid arteries, dropping the hip to the mat on the choking side to create a structural wedge, and driving shoulder pressure forward to close the remaining space around the neck. The figure-four grip transforms the arms into a self-tightening noose where any defensive movement by the opponent actually increases compression. Timing the hip drop with the grip lock is the critical skill that separates reliable finishers from those who stall in the control position.\n\nFrom a strategic standpoint, the Darce finish from established control carries a high completion rate because the opponent's defensive options are already limited. The primary defensive window occurs before the hip drop—once the attacker commits their weight to the mat and extends through the choking structure, the submission becomes extremely difficult to escape. This makes recognizing and executing the transition from control to finish one of the most important skills in the front headlock attack chain.",
   "safety_considerations": {
     "injury_risks": [
@@ -112,17 +115,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 62,
+      "probability": {
+        "gi": 62,
+        "nogi": 62
+      },
       "result": "success"
     },
     {
       "to": "Darce Control/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 13,
+      "probability": {
+        "gi": 13,
+        "nogi": 13
+      },
       "result": "counter"
     }
   ],

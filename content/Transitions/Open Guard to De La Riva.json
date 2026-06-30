@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "De La Riva Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Open Guard to De La Riva transition is one of the most fundamental guard upgrades in modern BJJ. From a generic open guard position, the bottom player threads their outside leg around the opponent's lead leg, hooking behind the knee to establish the signature De La Riva hook. This transition transforms a neutral open guard into a powerful attacking platform with systematic sweep chains, back take entries, and leg entanglement pathways that form the backbone of contemporary guard play.\n\nEstablishing DLR from open guard requires precise timing and grip sequencing. The bottom player must first control the opponent's lead ankle or pant leg on the hooking side, then thread the hook while simultaneously securing a cross grip on the far sleeve or collar. The critical moment occurs when the opponent steps forward or shifts weight onto their lead leg, as this weight commitment makes hook establishment significantly easier and immediately creates off-balancing opportunities. Without proper grip sequencing, the hook alone provides insufficient control and the top player can easily backstep or strip the position.\n\nThis transition serves as the gateway to the entire De La Riva system, connecting generic open guard to berimbolo entries, X-Guard and Single Leg X transitions, direct sweeps, and modern leg entanglement pathways. Players who master this entry can threaten the DLR hook from nearly any open guard configuration, forcing the top player to constantly manage their lead leg positioning and making their guard passing substantially more difficult. The frequency with which this transition appears in high-level competition underscores its importance as a core skill for any guard-centric game plan.",
   "conditions": [
     "Opponent standing or in combat base with lead leg forward and within hooking range",

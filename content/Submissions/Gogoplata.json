@@ -20,7 +20,10 @@
   "target_area": "Trachea and carotid arteries",
   "starting_position": "Rubber Guard",
   "from_position": "Gogoplata Control/Top",
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "variant_uniqueness": "Shin bone creates choking pressure against trachea",
   "overview": "The Gogoplata is an advanced submission technique that utilizes the shin bone to create a choke by pressing against the opponent's trachea while simultaneously pulling their head forward. This highly technical submission is most commonly associated with the rubber guard system and requires exceptional flexibility, precise positioning, and excellent timing. The Gogoplata is executed primarily from rubber guard positions, though variations exist from mount and other control positions.\n\nWhat makes the Gogoplata particularly effective is its unexpected nature and the difficulty opponents face in defending once the position is established. Unlike traditional chokes that rely on arm or collar grips, the Gogoplata uses the shin bone as the primary choking mechanism, making it extremely difficult to grip-fight or hand-fight out of the submission. The technique's success heavily depends on the practitioner's ability to maintain high guard control, break the opponent's posture, and possess the hip flexibility necessary to bring the shin across the throat.\n\nWhile the Gogoplata has a reputation as a low-percentage submission due to its technical complexity and flexibility requirements, when executed by practitioners with the proper physical attributes and technical understanding, it becomes a powerful addition to the submission arsenal. The technique has been successfully used in high-level competition by flexibility-focused grapplers. The Gogoplata represents the evolution of submission grappling beyond traditional techniques, showcasing how creativity and physical attributes can be leveraged to create finishing opportunities from seemingly neutral positions.",
   "safety_considerations": {

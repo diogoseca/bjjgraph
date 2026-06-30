@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Kneebar Control/Top",
-      "probability": 70,
+      "probability": {
+        "gi": 70,
+        "nogi": 70
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 70,
+  "success_rate": {
+    "gi": 70,
+    "nogi": 70
+  },
   "overview": "Kneebar Control Maintenance from top position is the systematic process of consolidating and retaining your leg isolation control when your opponent actively resists your kneebar position. Unlike the initial entry or the finishing sequence, maintenance addresses the critical middle phase where opponents generate their most desperate and explosive escape attempts. The practitioner must continuously audit grip integrity, hip proximity to the knee joint, and base stability while managing the opponent's rotational and bridging escape patterns.\n\nThe core challenge of kneebar control maintenance lies in balancing submission threat with positional retention. Applying too much finishing pressure prematurely compromises base and invites explosive escapes, while passively holding position without threat allows the opponent to systematically work toward leg extraction. Skilled practitioners cycle between brief escalations of extension pressure and consolidation phases, using each pressure burst to force defensive reactions that reveal grip-tightening opportunities.\n\nFrom a systems perspective, kneebar control maintenance serves as the stabilization hub connecting your initial entry to either a successful finish or an intelligent transition to alternative attacks. When maintenance succeeds, you preserve the positional advantage needed for high-percentage finishing sequences. When the opponent begins breaking free, recognizing the maintenance failure early allows smooth transitions to half guard top control, alternative leg attacks, or guard passing rather than scrambling from a lost position.",
   "conditions": [
     "Top kneebar control has been established with opponent's leg isolated across your torso",

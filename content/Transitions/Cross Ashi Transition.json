@@ -13,21 +13,33 @@
   "outcomes": [
     {
       "to": "Cross Ashi-Garami/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Ushiro Ashi-Garami/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "summary": "The Cross Ashi Transition is a leg-entanglement repositioning that shifts the attacker from Ushiro Ashi-Garami to Cross Ashi-Garami, reconfiguring the figure-four to recover stronger heel-hook angles and control when the reverse-ashi attack stalls.",
   "overview": "Within modern leg lock systems, this positional change becomes necessary when the opponent's defensive rotation or hip positioning makes heel hook attacks from the Ushiro Ashi-Garami configuration suboptimal. By reconfiguring the leg entanglement to a crossed position, the attacker gains improved mechanical leverage for both heel hook finishes and subsequent positional advancement to Saddle.\n\nThe technique involves reconfiguring your leg position while maintaining continuous control of the opponent's trapped leg. The key mechanical change is transitioning from a reversed figure-four where you followed the opponent's inversion to a standard cross-body configuration where your legs cross over the opponent's trapped limb. This requires precise timing and hip movement to prevent the opponent from capitalizing on the momentary loosening of control during the switch.\n\nStrategically, this transition serves as an essential tool when Ushiro Ashi-Garami attacks stall or when the opponent's defensive positioning creates better finishing angles from Cross Ashi. Advanced practitioners use this transition fluidly within leg lock scrambles, recognizing that different entanglement configurations offer different submission opportunities based on the opponent's hip orientation and defensive reactions.",
   "related_content": [

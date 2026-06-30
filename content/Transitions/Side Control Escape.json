@@ -17,26 +17,41 @@
   "outcomes": [
     {
       "to": "Closed Guard/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "success"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "overview": "The Side Control Escape is one of the most fundamental defensive techniques in Brazilian Jiu-Jitsu, representing a critical survival skill for practitioners at all levels. When trapped in side control, the bottom player faces constant pressure, point accumulation, and the threat of submission. This escape sequence uses precise framing, hip movement, and timing to create space and recover guard position. The technique emphasizes creating defensive frames to manage the opponent's pressure while systematically working to turn the hips, insert the knee shield, and reestablish guard.\n\nUnderstanding side control escapes is essential because side control is one of the most common dominant positions in both gi and no-gi grappling. The escape requires patience, proper breathing under pressure, and the discipline to execute technical movements rather than relying on explosive strength. The mechanical foundation rests on the bridge-and-shrimp sequence: the bridge disrupts the opponent's base and creates momentary space, while the immediate hip escape capitalizes on that window before the opponent can resettle weight. The hip rotation that follows converts linear distance into the angular positioning required for knee shield or butterfly hook insertion.\n\nMastering this fundamental escape provides the foundation for more advanced guard recovery systems and builds the defensive awareness necessary for high-level competition. The technique chains naturally with ghost escape variations, underhook recoveries, and technical stand-ups, creating a comprehensive escape system where defending one pathway opens another. At the highest levels, the escape becomes less about any single movement and more about reading the opponent's weight distribution, timing windows during their transitions or submission attempts, and flowing between escape variations based on real-time feedback.",
   "conditions": [
     "Opponent has established side control with chest-to-chest pressure",

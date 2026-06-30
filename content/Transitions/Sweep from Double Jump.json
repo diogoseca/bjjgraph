@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 43,
+      "probability": {
+        "gi": 43,
+        "nogi": 43
+      },
       "result": "success"
     },
     {
       "to": "Double Jump/Bottom",
-      "probability": 37,
+      "probability": {
+        "gi": 37,
+        "nogi": 37
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 43,
+  "success_rate": {
+    "gi": 43,
+    "nogi": 43
+  },
   "overview": "The Sweep from Double Jump is an advanced offensive technique executed from the bottom Double Jump position, where the practitioner has successfully inserted both legs underneath the opponent's hips during an explosive guard recovery entry. This sweep capitalizes on the destabilized platform created by bilateral leg insertion, using coordinated hip extension, leg elevation, and upper body control to off-balance the top player and achieve a direct reversal to mount. The technique represents the most efficient positional advancement available from the Double Jump system, bypassing intermediate positions entirely to reach the highest-value control position in the BJJ hierarchy.\n\nThe sweep operates on the fundamental principle that once both legs are seated underneath the opponent's hips, the bottom player controls the structural foundation of the top player's base. By combining an explosive hip bridge with leg elevation—driving the opponent's center of gravity upward and laterally—while simultaneously controlling the near arm to eliminate posting capability, the sweeper creates an irrecoverable loss of balance. The directional force must angle toward the opponent's trapped side at approximately 45 degrees, where they have no structural support to resist the sweep.\n\nStrategic context places this sweep as a high-reward terminal option within the Double Jump bottom ecosystem. While many practitioners use Double Jump primarily as a gateway to deep half guard entries and progressive sweeping chains, the direct sweep to mount represents a competition-decisive action that can dramatically shift match dynamics. The technique is particularly effective against aggressive pressure passers whose forward weight commitment provides the momentum needed for the reversal, making their own offensive pressure the catalyst for their positional collapse.",
   "conditions": [
     "Both legs successfully inserted underneath opponent's hips in established Double Jump bottom position",

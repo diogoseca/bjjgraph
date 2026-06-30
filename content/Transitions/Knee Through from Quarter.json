@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Quarter Guard/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "summary": "Knee Through from Quarter is the mount-completing pass where the top player drives the passing knee fully across the opponent's remaining leg control to convert quarter guard top into full mount.",
   "overview": "The Knee Through from Quarter Guard is the direct path to achieving mount from an advanced passing position. When the top player has navigated past the majority of the bottom player's defensive structures and established quarter guard, the knee through represents the final mechanical action—driving the passing knee completely past remaining leg entanglement to establish full mount control. This technique sits at the critical juncture between near-complete pass and dominant position, where proper execution converts positional advantage into four points and direct submission access.\n\nUnlike more complex passing sequences requiring significant body repositioning, the knee through is mechanically straightforward but demands precise timing and pressure coordination. The primary challenge is maintaining sufficient downward pressure through the crossface and chest to prevent the bottom player from recovering defensive frames while simultaneously generating forward drive through the passing knee. This dual requirement—sustained upper body control with active lower body advancement—creates a coordination demand that separates competent execution from technical mastery at the purple and brown belt level.\n\nThe technique's strategic value extends beyond immediate mount achievement. By threatening the knee through, the top player forces the bottom player into desperate defensive reactions that may expose alternative passing pathways or submission entries. The bottom player must commit resources to blocking the knee drive, potentially weakening defenses against darce chokes, kimura traps, or crossface pass variations that exploit the same positional structure. The knee through thus functions as both a primary passing completion and a pressure tool that degrades the entire defensive framework.",
   "conditions": [

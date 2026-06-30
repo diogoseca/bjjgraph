@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Top",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Kneebar Control/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "failure"
     },
     {
       "to": "Kneebar from Kneebar Control",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "When an opponent has locked kneebar control and is pulling your knee toward hyperextension, the straighten leg defense attacks the finish at its mechanical root rather than waiting to escape after the joint is loaded. The core mechanic involves actively extending the knee against the attacker's finishing pressure, denying them the bent-leg position necessary to create the fulcrum for hyperextension. This defense relies on a combination of quadriceps strength, hip positioning, and timing to create enough resistance to either prevent the finish entirely or create space for leg extraction and escape.\n\nThis defense occupies a critical role in the leg lock defense hierarchy because it addresses the kneebar at its most dangerous phase—when the attacker has control but has not yet achieved full extension. Unlike rotational leg lock defenses that focus on controlling the foot and ankle, the straighten leg defense targets the knee angle directly, making it mechanically straightforward but physically demanding. The defender must generate enough extension force through their quadriceps to overcome the attacker's pulling pressure with both arms and hip bridge, while simultaneously working to free their leg from the entanglement.\n\nSuccessful application of this defense typically results in the defender extracting their leg and establishing half guard top position over the now-prone attacker. However, the defense carries inherent risk—if the attacker anticipates the straightening attempt and times a sharp re-break of the leg angle, the resulting snap can accelerate into a finish before the defender can react. This makes timing and commitment level crucial decisions that separate effective kneebar defense from dangerous gambles.",
   "variants_and_adaptations": [
     {

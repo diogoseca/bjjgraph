@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 38,
+      "probability": {
+        "gi": 38,
+        "nogi": 38
+      },
       "result": "success"
     },
     {
       "to": "Triangle Escape Position/Top",
-      "probability": 37,
+      "probability": {
+        "gi": 37,
+        "nogi": 37
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 38,
+  "success_rate": {
+    "gi": 38,
+    "nogi": 38
+  },
   "overview": "Where most triangle defense concludes with the escaping player disengaging back to a neutral guard, this reversal treats the escape itself as the entry to an offensive pass, landing directly in side control rather than merely surviving. This technique capitalizes on the structural changes created during the stacking escape process. As the triangle holder's legs lose integrity and their hips are compressed toward their shoulders, a critical window opens where the escaping practitioner can redirect energy from extraction into a lateral passing movement. The key insight is that the partially dismantled triangle creates a transitional state where the opponent's guard recovery is compromised by the position of their own legs, making the pass significantly easier than a standard guard pass attempt.\n\nExecution demands precise timing and commitment. The practitioner must recognize when the triangle structure has been sufficiently weakened through stacking pressure, then initiate a circular stepping pattern toward the trapped arm side while maintaining unbroken forward pressure. The arm extraction and lateral pass happen as one continuous movement. Any pause between phases allows the opponent to re-establish guard, re-lock the triangle, or transition to alternative attacks such as armbar or omoplata. The most successful practitioners treat the entire sequence from initial stack through side control establishment as a single technique rather than a chain of separate actions.\n\nThis reversal carries moderate risk because committing to the pass requires continued proximity to the triangle. If the triangle structure has not been sufficiently compromised, the lateral movement can actually tighten the choke. Proper assessment of the triangle's remaining integrity is therefore the most critical skill in this technique, separating successful reversals from accelerated submissions. Training this technique develops the broader ability to recognize offensive opportunities within defensive sequences, a skill that distinguishes advanced practitioners from those who treat defense and offense as entirely separate phases of grappling.",
   "conditions": [
     "Triangle lock has been partially compromised through sustained stacking pressure or successful posture recovery",

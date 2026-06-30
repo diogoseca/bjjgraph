@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "X-Guard/Bottom",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "Butterfly Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Butterfly Guard/Top",
-      "probability": 12,
+      "probability": {
+        "gi": 12,
+        "nogi": 12
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Butterfly Guard to X-Guard transition represents a fundamental evolution in modern guard play, connecting dynamic elevation mechanics with sophisticated off-balancing systems. This transition capitalizes on the opponent's forward pressure and posture, using butterfly hooks as launching mechanisms to establish the powerful X-Guard position. The technique exploits the natural reaction of opponents who base wide or post their weight forward while defending butterfly sweeps, creating the perfect opportunity to slide underneath and capture the standing leg.\n\nThis transition is particularly effective against pressure passers who commit their weight forward, as their defensive posture naturally sets up the mechanics required for X-Guard entry. The movement requires precise timing, active hip mobility, and the ability to maintain connection throughout the transition, making it a cornerstone technique for guard players at all levels who want to develop a dynamic, flowing guard game. The key biomechanical insight is that the butterfly hook elevation creates a dilemma: the opponent must either accept being swept or post a leg forward, and that posted leg becomes the target for X-Guard capture.\n\nFrom a systems perspective, the butterfly to X-Guard pathway is the most natural and high-percentage method of entering X-Guard in both gi and no-gi competition. It creates a seamless chain where failed butterfly sweeps flow directly into X-Guard entries, maintaining constant offensive pressure and preventing the top player from ever settling into a stable passing position. Mastery of this transition transforms butterfly guard from a single-threat position into a multi-layered attack platform with sweeps, transitions, and leg entanglement entries all available from the same starting configuration.",
   "conditions": [
     "Opponent must be in combat base or kneeling with at least one leg posted forward",

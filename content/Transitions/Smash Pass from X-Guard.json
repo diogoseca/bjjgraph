@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "X-Guard/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Smash Pass from X-Guard is a pressure-based guard passing technique where the top player commits their weight downward and forward to collapse the X-Guard structure, systematically destroying the bottom player's hooks and advancing to side control. This technique exploits a fundamental vulnerability in X-Guard: the bottom player's reliance on elevation and angular pressure through their legs, which can be neutralized when the top player drops their center of gravity below the point where the legs can generate effective leverage. By driving the hips forward and pinning the bottom player's legs to the mat, the passer eliminates the mechanical advantage that makes X-Guard dangerous.\n\nThe smash pass works by converting a dynamic, leg-based guard exchange into a static pressure scenario where the top player's weight advantage becomes decisive. Rather than attempting to extract legs or step around the guard, the passer drives directly through the hook structure, using crossface pressure and hip weight to flatten the bottom player and remove their ability to create sweeping angles. The technique requires commitment and timing, as a half-hearted attempt leaves the passer vulnerable to sweeps during the transition. When executed with proper weight distribution and progressive pressure application, the smash pass is one of the most reliable methods for clearing X-Guard and establishing side control.\n\nStrategically, the smash pass complements lighter, more mobile passing approaches like the knee slice and long step. When the bottom player becomes accustomed to defending movement-based passes, the sudden application of crushing downward pressure disrupts their defensive timing and forces them into a fundamentally different defensive paradigm. This makes the smash pass particularly effective as a secondary option after initial passing attempts have conditioned the opponent to expect lateral movement rather than direct forward pressure.",
   "conditions": [
     "Opponent has established X-Guard with hooks behind your knee",

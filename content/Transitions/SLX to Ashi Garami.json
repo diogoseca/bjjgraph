@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Inside Ashi-Garami/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Single Leg X-Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The SLX to Ashi Garami transition represents one of the most fundamental pathways in modern leg lock systems, connecting the sweeping-oriented Single Leg X-Guard with the submission-focused Inside Ashi-Garami. This transition allows the bottom player to shift from a guard retention and sweeping platform into a dedicated leg attack configuration without passing through neutral scramble positions. The mechanics rely on controlled leg repositioning while maintaining continuous contact with the opponent's trapped leg, ensuring no gap exists for escape during the positional change.\n\nThe transition is mechanically straightforward but demands precise timing and grip management. The attacker must coordinate the removal of their hip hook with simultaneous heel control establishment, creating a brief but critical window where leg control transfers from the SLX frame to the ashi garami configuration. Rushing this sequence exposes the attacker to leg extraction, while moving too slowly allows the opponent to re-base and apply downward pressure that neutralizes the transition. The optimal timing typically coincides with moments when the opponent is off-balanced or reacting to a sweep threat, as their attention is divided between balance recovery and leg defense.\n\nStrategically, this transition serves as the gateway to the entire hierarchical leg entanglement system. Once Inside Ashi-Garami is established, the attacker gains access to straight ankle locks, toe holds, and the ability to advance to more dominant entanglements such as Saddle, Honey Hole, and Outside Ashi-Garami. The transition's value extends beyond the immediate positional change—it represents a philosophical shift from positional guard play to submission-oriented leg attack systems, making it essential for any practitioner building a modern no-gi game.",
   "conditions": [
     "Established Single Leg X-Guard with active inside hook wrapped around opponent's ankle or lower calf",

@@ -16,26 +16,41 @@
   "outcomes": [
     {
       "to": "Closed Guard/Bottom",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "success"
     },
     {
       "to": "Turtle/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "overview": "The Turtle to Guard recovery is a fundamental defensive transition that allows practitioners to escape the vulnerable turtle position and re-establish their guard. This transition is critical for maintaining defensive integrity when an opponent is attempting back takes or submissions from turtle. The technique involves creating space, managing opponent's grips and hooks, and using hip movement to rotate underneath the opponent while establishing guard frames.\n\nSuccess depends on timing, hip mobility, and understanding weight distribution principles. The recovery can lead to multiple guard variations including Closed Guard, Half Guard, Butterfly Guard, or Open Guard depending on opponent positioning and grip configurations. The lateral hip shift that initiates the rotation is the single most important mechanical detail, as it creates the gap needed to turn without being pinned by opponent's weight.\n\nThis transition represents a key defensive skill that prevents opponents from consolidating dominant positions while allowing the defender to return to offensive guard positions where they can threaten sweeps and submissions. At the highest levels, the guard recovery is pre-loaded and executed in a fraction of a second when the opponent's weight shifts, making the timing window the primary variable that separates successful from failed attempts.",
   "related_content": [
     {

@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Spider Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Double Sleeve Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Double Sleeve to Spider Guard transition is one of the most fundamental guard evolutions in gi jiu-jitsu, representing the natural upgrade from basic bilateral sleeve control to one of the most powerful open guard configurations available. From an established Double Sleeve Guard, the bottom player repositions their feet from the opponent's hips to their biceps while maintaining firm cuff grips on both sleeves, creating the extended pushing frames that define Spider Guard. This transition capitalizes on existing grip infrastructure to upgrade positional control without releasing primary connection points, making it lower risk than transitions requiring grip conversion.\n\nThe strategic significance of this transition lies in the dramatic increase in offensive capability that spider guard provides over double sleeve guard alone. Where double sleeve guard primarily controls distance and prevents the top player from establishing their own grips, spider guard adds the ability to manipulate the opponent's posture through bicep pressure, creating immediate sweep and submission threats through triangles, omoplatas, and technical sweeps. The leg-against-arm asymmetry of spider guard means the bottom player's stronger leg muscles control the opponent's weaker arm muscles, creating a favorable energy exchange that rewards the guard player over extended exchanges.\n\nThe key challenge lies in maintaining control during the transition itself. The moment your feet leave the opponent's hips to travel toward their biceps, you temporarily lose your primary distance management frame. Skilled opponents recognize this vulnerability and will attempt to strip grips or close distance during this window. Successful execution requires precise timing coordinated with grip tension, typically initiated when the opponent extends their arms during grip fighting or postures up to create space. The transition rewards practitioners who develop sensitivity to their opponent's weight shifts and arm positioning rather than those who attempt to force the entry against a settled, well-postured opponent.",
   "conditions": [
     "Both sleeve grips firmly established at opponent's cuffs with deep four-finger pistol grips",

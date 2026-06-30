@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Front Headlock/Top",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Dogfight Position/Top",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "The Snap Down from Dogfight is a wrestling-derived technique where the top player exploits the bottom player's elevated kneeling posture to collapse their head and neck downward, establishing dominant front headlock control. In the dogfight position, both players are engaged in a competitive underhook battle on their knees. The top player strategically abandons the whizzer contest and instead attacks the opponent's head with a sharp downward snap, combined with a hip sprawl that drives the bottom player's face toward the mat while the top player secures control over their head and far shoulder.\n\nThis technique represents a fundamental shift in strategic approach during the dogfight exchange. Rather than continuing to fight the underhook battle where the bottom player often holds mechanical advantage due to their forward driving angle, the top player redirects the engagement by converting from a push-based defense to a pull-based attack. The snap down capitalizes on the bottom player's aggressive forward pressure and reliance on the underhook, using their own momentum against them as the sharp downward pull breaks their posture past the point of recovery.\n\nFrom a positional systems perspective, the snap down connects the half guard passing game to the front headlock submission system, unlocking pathways to guillotines, anacondas, darces, and back takes that are unavailable from the dogfight itself. This makes it a high-value transitional technique that converts a neutral scramble into dominant offensive control, particularly effective in no-gi grappling where collar tie and head control mechanics are essential foundational skills.",
   "conditions": [
     "Opponent has elevated to kneeling posture in dogfight with head exposed above their shoulder line",

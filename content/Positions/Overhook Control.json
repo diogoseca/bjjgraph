@@ -318,43 +318,73 @@
     "transitions": [
       {
         "transition": "Kimura from Overhook Control",
-        "attempt_probability": 16
+        "attempt_probability": {
+          "gi": 16,
+          "nogi": 16
+        }
       },
       {
         "transition": "Darce Choke from Overhook Control",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 10
+        }
       },
       {
         "transition": "Anaconda Choke",
-        "attempt_probability": 9
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 9
+        }
       },
       {
         "transition": "Arm Drag to Back",
-        "attempt_probability": 11
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 11
+        }
       },
       {
         "transition": "Two-on-One to Back Take",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 10
+        }
       },
       {
         "transition": "Snap Down to Front Headlock",
-        "attempt_probability": 11
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 11
+        }
       },
       {
         "transition": "Crab Ride to Back",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 10
+        }
       },
       {
         "transition": "Crucifix from Turtle",
-        "attempt_probability": 8
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 8
+        }
       },
       {
         "transition": "Side Control to Mount",
-        "attempt_probability": 11
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 11
+        }
       },
       {
         "transition": "Overhook Pass to Side Control",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 4
+        }
       }
     ]
   },
@@ -596,43 +626,73 @@
     "transitions": [
       {
         "transition": "Arm Drag to Back",
-        "attempt_probability": 11
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 11
+        }
       },
       {
         "transition": "Overhook Sweep",
-        "attempt_probability": 22
+        "attempt_probability": {
+          "gi": 22,
+          "nogi": 22
+        }
       },
       {
         "transition": "Butterfly Sweep",
-        "attempt_probability": 11
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 11
+        }
       },
       {
         "transition": "Triangle Setup",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 10
+        }
       },
       {
         "transition": "Closed Guard to Omoplata",
-        "attempt_probability": 9
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 9
+        }
       },
       {
         "transition": "Guillotine Setup",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 10
+        }
       },
       {
         "transition": "Elevator Sweep",
-        "attempt_probability": 11
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 11
+        }
       },
       {
         "transition": "Old School Sweep",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 10
+        }
       },
       {
         "transition": "Overhook Control Sweep",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 4
+        }
       },
       {
         "transition": "Overhook to Half Guard",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 2
+        }
       }
     ]
   }

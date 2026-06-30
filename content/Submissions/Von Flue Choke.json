@@ -16,7 +16,10 @@
   "target_area": "Carotid arteries",
   "starting_position": "Side Control",
   "from_position": "Side Control/Top",
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "Named after UFC veteran Jason Von Flue, who popularized the technique against Alberto Crane in 2006, this counter-choke has become a staple deterrent against the over-committed guillotine in no-gi grappling. It transforms a defensive scenario — an opponent clinging to a guillotine grip from bottom as you pass — into an immediate offensive finish, using shoulder pressure and body weight to compress one carotid artery while the opponent's own wrapping arm compresses the other. The technique is especially valuable because it requires no grip changes and no separate setup: the moment an opponent refuses to release a guillotine while you pass toward their choking arm, the finish is available. Beyond the finish itself, the Von Flue carries an outsized psychological effect — once caught with it, opponents become reluctant to hold deep guillotines from bottom, fundamentally changing how they defend your guard passing. It embodies a core BJJ principle: every offensive grip held too rigidly contains the seeds of its own defeat.",
   "safety_considerations": {
     "injury_risks": [
@@ -63,17 +66,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Side Control/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Guillotine Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],

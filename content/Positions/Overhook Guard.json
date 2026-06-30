@@ -267,35 +267,59 @@
     "transitions": [
       {
         "transition": "Smash Pass",
-        "attempt_probability": 24
+        "attempt_probability": {
+          "gi": 24,
+          "nogi": 24
+        }
       },
       {
         "transition": "Knee Slice Pass",
-        "attempt_probability": 15
+        "attempt_probability": {
+          "gi": 15,
+          "nogi": 15
+        }
       },
       {
         "transition": "Over-Under Pass",
-        "attempt_probability": 14
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 14
+        }
       },
       {
         "transition": "Overhook Pass to Side Control",
-        "attempt_probability": 14
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 14
+        }
       },
       {
         "transition": "Arm Drag to Back",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 12
+        }
       },
       {
         "transition": "Side Control to Mount",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 12
+        }
       },
       {
         "transition": "Break Overhook Guard",
-        "attempt_probability": 6
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 6
+        }
       },
       {
         "transition": "Pass Overhook Guard",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 3
+        }
       }
     ],
     "flashcards": [
@@ -542,43 +566,73 @@
     "transitions": [
       {
         "transition": "Overhook Sweep",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 12
+        }
       },
       {
         "transition": "Hip Bump Sweep",
-        "attempt_probability": 20
+        "attempt_probability": {
+          "gi": 20,
+          "nogi": 20
+        }
       },
       {
         "transition": "Closed Guard to Omoplata",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 10
+        }
       },
       {
         "transition": "Arm Drag to Back",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 10
+        }
       },
       {
         "transition": "Triangle Setup",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 12
+        }
       },
       {
         "transition": "Kimura Sweep",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 10
+        }
       },
       {
         "transition": "Flower Sweep",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 12
+        }
       },
       {
         "transition": "Overhook Guard Sweep",
-        "attempt_probability": 5
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 5
+        }
       },
       {
         "transition": "Overhook to Closed Guard",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 3
+        }
       },
       {
         "transition": "Omoplata from Guard",
-        "attempt_probability": 6
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 6
+        }
       }
     ],
     "flashcards": [

@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Double Unders/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "The Sweep from Double Unders is a high-reward counter-offensive technique executed from one of the most disadvantaged bottom positions in Brazilian Jiu-Jitsu. When an opponent establishes double underhooks under your legs and drives forward with stacking pressure, their mechanical advantage for guard passing is severe. However, this same forward weight commitment creates a fundamental vulnerability: their base becomes compromised in the direction of their momentum. An educated bottom player can exploit this by redirecting the opponent's energy through precisely timed sweeping mechanics, converting a desperate defensive situation into immediate top position.\n\nThe core principle behind this sweep is using the opponent's committed forward pressure as the primary engine for the reversal. When the top player drives their weight forward to stack you, they necessarily sacrifice lateral and rearward base stability. By establishing grips on their hips, belt, or pants and timing your hip extension or bridge with their forward drive, you harness their own energy to complete the reversal. The overhead variant capitalizes on extreme forward pressure by extending your legs upward and guiding the opponent over your head, while the lateral bridge variant uses a hip switch to dump them to one side when their weight is centered but not fully stacked.\n\nThis sweep occupies a unique position in the double unders defensive hierarchy. While most responses from double unders bottom focus on guard recovery through framing, deep half entries, or strategic position acceptance via granby rolls, the sweep offers the distinctive advantage of completely reversing the positional dynamic. The threat of the sweep also serves as a powerful deterrent that forces opponents to moderate their forward pressure, indirectly supporting other escape pathways by creating hesitation in the passer's commitment.",
   "conditions": [
     "Opponent has established double underhooks under your legs with hands meeting behind your back or gripping belt",

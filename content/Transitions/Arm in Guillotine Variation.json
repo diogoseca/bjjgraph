@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Arm in Guillotine from Guillotine Control",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Guillotine Control/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "summary": "The arm-in guillotine variation is a front-headlock finish from top guillotine control where the opponent's own trapped near-side arm compresses one carotid while the attacker's forearm attacks the other, producing bilateral blood-choke pressure.",
   "overview": "The arm-in guillotine variation occurs when the opponent's near-side arm becomes trapped inside the choking loop during a guillotine attempt from top position. Rather than a flaw in technique, this trapped arm creates a distinct finishing mechanic where the opponent's own shoulder and bicep compress against one side of their neck while the attacker's forearm pressures the opposite side. This bilateral compression produces one of the most efficient blood chokes in the front headlock system, requiring less raw squeezing force than the standard guillotine because the opponent's anatomy assists in creating the submission pressure.\n\nStrategically, the arm-in guillotine represents an opportunistic variation that capitalizes on common defensive reactions. Opponents frequently trap their own arm when attempting to underhook, swim inside, or frame against the attacker's hips during standard guillotine defense. Recognizing this trapped-arm configuration and immediately adjusting grip mechanics is what separates competent front headlock players from dangerous ones. The trapped arm eliminates the defender's most reliable escape tool—their near-side hand—creating a narrower set of defensive options and increasing finishing percentage significantly compared to the standard no-arm guillotine.\n\nFrom a system perspective, the arm-in guillotine connects directly to the broader guillotine and front headlock framework. It serves as an alternative finish when the standard guillotine encounters specific defensive reactions, and it integrates with chin strap variations, high elbow mechanics, and anaconda transitions. The technique rewards patient attackers who maintain control and read defensive patterns rather than forcing a single finishing path.",
   "conditions": [

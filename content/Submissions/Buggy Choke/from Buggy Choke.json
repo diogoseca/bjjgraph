@@ -16,7 +16,10 @@
   "target_area": "Carotid arteries and neck compression",
   "starting_position": "Half Guard",
   "from_position": "Half Guard/Bottom",
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "The Buggy Choke finish from the established control phase represents the direct submission pathway within the bottom half-guard attack system. Once the attacker has trapped the opponent's near crossface arm and head across their centerline and chambered the same-side knee toward their own head, the position converts from a defensive-looking half guard into an active blood choke. The finish relies on closing the loop between the choking arm and the leg, then drawing the knee toward the head so the opponent's own trapped shoulder drives into one carotid while the strap of arm and leg seals the other.\n\nWhat distinguishes this finish from a top-side collar choke is that the attacker is underneath, seemingly being passed, and uses the opponent's forward passing pressure as the compression engine. The hand-to-shin connection creates a self-tightening frame where the opponent's attempts to drive forward and complete the pass only deepen the carotid compression. Because the attack generates finishing pressure through structural alignment of the limb loop rather than raw grip strength, it lets a smaller grappler finish a larger, heavier opponent who is on top.\n\nThe primary strategic consideration when attempting this finish is timing the transition from control to active squeezing. Premature finishing attempts before the knee is drawn to the head and the hand reaches the shin allow the opponent to extract the trapped arm and posture out, the single highest-percentage escape. Excessive patience gives the opponent time to flatten the choking-side hip and walk toward the head to relieve pressure. The optimal moment occurs once the loop is sealed with no slack, the head is locked low and across the centerline, and the opponent's posture has committed forward into the smash pass.",
   "safety_considerations": {
     "injury_risks": [
@@ -93,17 +96,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 32,
+      "probability": {
+        "gi": 32,
+        "nogi": 32
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 18,
+      "probability": {
+        "gi": 18,
+        "nogi": 18
+      },
       "result": "counter"
     }
   ],

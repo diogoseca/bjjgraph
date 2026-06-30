@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Quarter Guard/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Complete Pass from Quarter Guard represents the decisive final phase in the guard passing sequence, where the top player converts their near-dominant quarter guard position into established side control. This transition occurs when the bottom player's defensive structure has deteriorated to minimal leg engagement—typically just a weakened knee shield, partial hook, or ankle grip—and the top player must execute precise leg extraction while maintaining continuous upper body pressure. The technique demands immediate action because quarter guard is inherently unstable; delays of even three to five seconds allow the bottom player to rebuild defensive structures that transform the position back to contested half guard.\n\nThe mechanics of completing this pass revolve around a coordinated sequence of crossface pressure maintenance, systematic elimination of remaining leg contact, and a smooth hip advancement that slides the top player into perpendicular side control alignment. Unlike earlier passing phases where multiple pathways remain open, the complete pass from quarter guard is a commitment-based technique—once the extraction begins, the top player must follow through decisively or risk the bottom player exploiting the transitional moment for sweeps or guard recovery. The technique rewards practitioners who develop automatic recognition of when the quarter guard has deteriorated sufficiently for pass completion, turning what many experience as a stalling point into a reliable pathway to dominant control.\n\nUnderstanding this transition is essential for any practitioner who regularly employs half guard passing sequences, as the quarter guard is one of the most commonly encountered intermediate positions during competitive exchanges. The ability to efficiently convert quarter guard advantage into side control eliminates the energy-draining cycle of repeatedly establishing passing pressure only to have opponents recover defensive structures at the last moment. Successful execution opens the entire side control submission tree and earns three points in IBJJF competition, making it one of the highest-value transitions in the pressure passing chain.",
   "conditions": [
     "Top player has advanced hips past opponent's hip centerline by at least six inches establishing quarter guard position",

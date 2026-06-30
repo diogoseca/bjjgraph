@@ -20,7 +20,10 @@
   "target_area": "Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity",
   "starting_position": "Carni",
   "from_position": "Carni/Bottom",
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "The heel hook from Carni exploits the unique inside positioning of this advanced leg entanglement to generate devastating rotational force on the opponent's knee joint. The Carni configuration traps the opponent's leg in a figure-four while an inside hook over the hip prevents extraction, creating sustained control to methodically work the heel grip into finishing position. This variant is distinguished from heel hooks in other ashi garami positions by the dynamic nature of the Carni, which allows the attacker to follow defensive movement and maintain finishing pressure through transitions to the saddle or back control.\n\nWhat makes this finish particularly dangerous is the combination of strong positional control and rotational mechanics that attack the ACL, MCL, and LCL simultaneously. The inside positioning means the attacker's body is already angled to generate torque on the heel, requiring less adjustment than entries from outside ashi or standard ashi garami. The opponent faces a true dilemma: defending the heel exposes them to saddle transitions or back takes, while attempting to escape the entanglement often extends the leg into a better finishing angle for the heel hook.\n\nCompetition results demonstrate the heel hook from Carni as one of the highest-percentage finishes in modern no-gi grappling when all control points are properly established. The technique demands precise understanding of rotational mechanics, knee line control, and progressive force application to be both effective and safe in training environments.",
   "safety_considerations": {
     "injury_risks": [
@@ -120,17 +123,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Carni/Bottom",
-      "probability": 36,
+      "probability": {
+        "gi": 36,
+        "nogi": 36
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 19,
+      "probability": {
+        "gi": 19,
+        "nogi": 19
+      },
       "result": "counter"
     }
   ],

@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Meathook/Bottom",
-      "probability": 57,
+      "probability": {
+        "gi": 57,
+        "nogi": 57
+      },
       "result": "success"
     },
     {
       "to": "Rubber Guard/Bottom",
-      "probability": 28,
+      "probability": {
+        "gi": 28,
+        "nogi": 28
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 57,
+  "success_rate": {
+    "gi": 57,
+    "nogi": 57
+  },
   "overview": "The Meathook Entry from Rubber Guard is the deliberate, commonly-taught pathway by which the bottom player advances out of standard Rubber Guard (Mission Control or New York) into the Meathook overhook-and-shin control of the 10th Planet system. Rather than waiting for the opponent to err, the practitioner actively climbs the controlling leg higher across the opponent's back so the shin hooks directly over the trapped arm and presses against the tricep. This converts the general posture control of Rubber Guard into the extreme single-arm isolation that defines Meathook, where the opponent's near-side arm is suspended and removed from the defensive equation entirely.\n\nMechanically, the entry depends on first having a broken posture and a secured overhook or deep collar tie on the non-trapped side. From there the practitioner walks the controlling shin up the back, clears the ankle past the shoulder line, and settles the shin over the tricep while the opposite-side grip pulls the head down. The opposing forces compress posture as the leg climbs. Insufficient flexibility, a shallow climb that leaves the ankle below the shoulder, or a released collar grip during the climb are the usual reasons the entry fails and the practitioner slides back to standard Rubber Guard.\n\nStrategically this is one of the most important advancement decisions in the Rubber Guard tree. Meathook is a high-control, high-attack hub that feeds gogoplata, triangle, omoplata, and the baratoplata/tarikoplata family, so deliberately climbing into it converts a holding guard into an immediate submission platform. Because Meathook carries a steep energy cost, the entry should be reserved for moments when the opponent is posture-broken and momentarily passive, allowing the climb to complete before the position must be cashed in for a finish.",
   "conditions": [
     "Rubber Guard (Mission Control or New York) must be established with the controlling shin across the opponent's back",

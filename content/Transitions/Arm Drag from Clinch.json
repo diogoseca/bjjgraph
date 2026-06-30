@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Standing Rear Clinch/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Clinch/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Front Headlock/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The arm drag from the clinch is one of the highest-percentage back take entries in standing grappling, combining simplicity of execution with devastating positional advancement. The technique exploits a fundamental vulnerability in the clinch: when both practitioners are engaged in upper body grip fighting, the arms become available targets for redirection. By controlling one arm and pulling it across your body while stepping laterally, you create an angular bypass of your opponent's defensive structure, clearing their shoulder line to establish dominant rear control.\n\nStrategically, the arm drag functions as both a primary attack and a setup within the clinch system. When opponents respect the drag, they become more cautious with their grip fighting, opening windows for takedowns, snap downs, and other clinch transitions. This threat-creation makes the arm drag valuable even when not completed. The technique translates seamlessly between gi and no-gi contexts, with grip variations adapting to available controls. Elite practitioners integrate the arm drag into combination chains, using it alongside duck unders, snap downs, and level changes to create multi-threat standing exchanges that overwhelm defensive responses.\n\nThe arm drag rewards timing over athleticism. The optimal window opens when your opponent extends an arm for a grip, pushes forward, or commits weight to one side. Reading these moments and executing with precise hip rotation rather than arm strength separates functional arm drags from telegraphed attempts that experienced grapplers easily counter.",
   "conditions": [
     "Both practitioners engaged in standing clinch with upper body grip fighting",

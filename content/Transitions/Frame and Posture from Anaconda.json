@@ -16,26 +16,41 @@
   "outcomes": [
     {
       "to": "Front Headlock/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Anaconda Control/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Darce Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "Within a complete anaconda defense, this escape serves as the structural counterpart to the grip break, addressing the compression mechanism itself rather than the opponent's clasped hands. It creates space between your body and the opponent's chest through bone-on-bone framing structures, attacking the source of the choking force directly. The frame disrupts the chest-on-shoulder compression that powers the anaconda choke, loosening the constricting loop without requiring you to separate the opponent's hands.\n\nThe technique works by establishing a forearm frame against the opponent's far shoulder or hip, creating a structural wall that prevents them from driving their chest into your trapped shoulder. As the frame generates separation, you begin recovering your posture by lifting your head and torso upward and away from the compression angle. This posture recovery progressively reduces the effectiveness of the anaconda choke by changing the angle of compression and expanding the space within the constricting loop for eventual head extraction.\n\nStrategically, Frame and Posture from Anaconda serves as a complementary escape to the anaconda grip break. When the opponent's grip junction is inaccessible or too tightly locked for direct grip fighting to succeed, the framing approach provides an alternative pathway that bypasses the grip entirely. The technique deposits you in front headlock bottom position, where the full defensive arsenal of front headlock escapes becomes available. This makes it an essential component of a complete anaconda defense system that gives practitioners multiple escape pathways from one of grappling's most dangerous submission control positions.",
   "conditions": [
     "Opponent has established anaconda grip from top but has not completed the roll-through or step-over finishing sequence",

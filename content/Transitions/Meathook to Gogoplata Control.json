@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Gogoplata Control/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Meathook/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "summary": "Meathook to Gogoplata Control is a 10th Planet Rubber Guard transition where the bottom player redirects the arm-isolating shin from the opponent's tricep to their throat when they drive forward, converting arm control into an immediate gogoplata choke threat.",
   "overview": "The Meathook to Gogoplata Control transition represents one of the highest-percentage attacks in the Rubber Guard system when opponent commits the tactical error of driving forward. This technique exploits a fundamental defensive mistake—forward pressure against Meathook—by repositioning the shin from arm isolation to throat contact, creating immediate choking pressure.\n\nThe transition capitalizes on opponent's momentum and body positioning. When trapped in Meathook, inexperienced practitioners often attempt to muscle through by driving forward, believing that pressure will collapse the guard structure. This forward drive actually accelerates their demise by placing their throat directly into the path of your transitioning shin. The movement is counterintuitive to conventional guard retention, which typically rewards forward pressure against bottom players.\n\nTechnically, the transition requires precise timing and hip angle adjustment. As opponent drives forward, you release the tricep hook and redirect the same leg across their neck, using your hands to guide their head into the proper choking position. The grip shifts from controlling their shoulder to pulling their head down into the shin, creating a compression choke against the trachea.\n\nStrategically, this transition exemplifies the dilemma-creation philosophy central to advanced guard play. From Meathook, opponents face impossible choices: driving forward walks into gogoplata, pulling arm upward opens triangle, spinning the arm enables omoplata. There is no safe defensive response, only selections of which submission they prefer to defend against.",
   "related_content": [

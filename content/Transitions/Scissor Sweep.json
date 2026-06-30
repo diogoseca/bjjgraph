@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Among the first sweeps every practitioner learns, the Scissor Sweep endures into advanced competition because it converts an opponent's forward posture into a clean reversal through leverage rather than strength. This classical closed-guard technique exploits an opponent's weight distribution and posture by using a scissoring leg motion combined with upper body control to reverse positions. The sweep derives its power from the biomechanical advantage created when one leg pushes while the other pulls, creating a lever system that off-balances even larger, stronger opponents.\n\nWhat makes the Scissor Sweep particularly effective is its reliance on timing and leverage rather than raw strength. When executed properly, the technique uses the opponent's own weight and forward pressure against them, making it accessible to practitioners of all sizes. The sweep creates a direct path to mount position, one of the most dominant positions in BJJ, making it both a fundamental technique for beginners and a reliable option for advanced competitors.\n\nThe Scissor Sweep integrates seamlessly into the closed guard attack system, working in combination with other sweeps like the Hip Bump and Pendulum Sweep. When opponents defend one sweep, they often create the opening for another, establishing a systematic approach to attacking from guard. Mastering this technique provides practitioners with a cornerstone skill that remains effective throughout their BJJ journey.",
   "related_content": [
     {

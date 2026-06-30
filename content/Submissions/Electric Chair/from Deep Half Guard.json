@@ -17,7 +17,10 @@
   "target_area": "Knee joint, hip flexors, and posterior chain",
   "starting_position": "Lockdown",
   "from_position": "Deep Half Guard/Bottom",
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "overview": "The Electric Chair is a signature submission technique from 10th Planet Jiu-Jitsu, primarily executed from the lockdown position in half guard. This compression-based submission creates intense pressure on the opponent's trapped leg by combining hip extension, knee torque, and spinal rotation. Unlike traditional joint locks that isolate a single articulation, the Electric Chair simultaneously attacks multiple anatomical structures including the knee joint, hip flexors, IT band, and lower back.\n\nThe submission derives its effectiveness from the lockdown control system, where the bottom player uses a figure-four leg configuration to trap and extend the opponent's leg while controlling their posture. From this foundation, the practitioner transitions to an inverted position, creating a powerful lever that forces the opponent's knee into hyperextension while applying rotational torque to the hip joint. The Electric Chair represents a perfect example of how systematic position control can lead to high-percentage finishing opportunities.\n\nHistorically developed and refined within the 10th Planet system, the Electric Chair has proven effective in both gi and no-gi competition contexts. The technique emphasizes pressure over speed, rewarding practitioners who develop strong lockdown mechanics and understand the progressive nature of compression submissions. When executed properly with controlled application speed, it serves as both a legitimate finishing threat and a powerful sweeping mechanism that forces opponents into defensive reactions.",
   "safety_considerations": {
     "injury_risks": [
@@ -78,17 +81,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Lockdown/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],

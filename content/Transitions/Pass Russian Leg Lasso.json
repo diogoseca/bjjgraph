@@ -15,26 +15,41 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Russian Leg Lasso/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "Passing the Russian Leg Lasso is one of the more demanding guard passing challenges in gi-based Brazilian Jiu-Jitsu. The Russian variation adds layers of control beyond standard lasso guard, combining a deep leg lasso threaded through the passer's arm with coordinated collar and sleeve grips that create a mechanical pulley system capable of generating significant rotational force. Successfully navigating this position requires a methodical, sequential approach rather than explosive or improvised passing attempts.\n\nThe key strategic insight is that the Russian Leg Lasso derives its power from the coordination of multiple control points working in concert. Rather than addressing the lasso directly, elite passers focus on systematically removing the supporting grips first, particularly the collar grip that enables posture breaking and the sleeve grip that prevents arm extraction. Once these supporting structures are compromised, the lasso itself becomes far less dangerous and the pass can be completed through standard pressure passing or toreando-style movement.\n\nThis pass fits within a broader open guard passing framework where the passer must first identify which control points are active, prioritize their dismantling sequence, and then execute the pass through the weakened guard structure. Practitioners who attempt to force through established Russian Leg Lasso controls without systematic grip breaking have significantly lower passing success rates compared to those who invest time in methodical control point removal before committing to the pass.",
   "conditions": [
     "Opponent has established Russian Leg Lasso guard with deep lasso threading and supporting grips",

@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Short Choke from Gift Wrap",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Gift Wrap/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "summary": "Short Choke Attack is a high-percentage strangle from the Gift Wrap where the attacker slides their free arm under the chin and links it to the opponent's already-trapped arm, forming a figure-four that crushes both carotid arteries.",
   "overview": "The Short Choke earns its place as the highest-percentage strangle available from the Gift Wrap because the position has already done half the defensive work for you. With one of the opponent's arms pinned high across their own body, they can no longer bring two hands to the neck, and that same trapped limb becomes a structural part of the choke rather than an obstacle to it.\n\nThe mechanics of the Short Choke differ from traditional rear naked chokes in that you use the opponent's own trapped arm as part of the choking structure. Your free arm slides under the chin and connects to your bicep or forearm of the Gift Wrap controlling arm, creating a figure-four configuration that compresses both sides of the neck. This structure requires less space to establish than a standard RNC because you're not threading a second arm behind the head.\n\nStrategically, the Short Choke represents the most direct submission threat from Gift Wrap and should be viewed as the primary attack from this position. When the opponent defends the Short Choke by tucking their chin or using their free hand, this creates openings for secondary attacks including armbar on the free arm, transition to crucifix, or advancement to mounted positions. Understanding this attack tree transforms the Gift Wrap into a systematic submission hunting position rather than a static control.",
   "conditions": [

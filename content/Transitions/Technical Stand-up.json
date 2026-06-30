@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Standing Position/Top",
-      "probability": 75,
+      "probability": {
+        "gi": 75,
+        "nogi": 75
+      },
       "result": "success"
     },
     {
       "to": "Seated Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "failure"
     },
     {
       "to": "Headquarters Position/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 85,
+  "success_rate": {
+    "gi": 85,
+    "nogi": 85
+  },
   "overview": "In modern guard-based grappling, the ability to return to the feet on your own terms is what keeps the bottom player from being trapped under sustained passing pressure — and the technical stand-up is the primary tool for that reset. This technique is essential for guard recovery, creating distance from an aggressive opponent, and resetting to a neutral standing position. The movement emphasizes proper base maintenance, hip positioning, and hand placement to prevent being taken down or swept during the transition. Unlike a simple stand-up, the technical version uses specific biomechanical principles to maintain defensive posture throughout the movement, making it extremely difficult for an opponent to capitalize on the transition.\n\nThe technique is particularly valuable in self-defense scenarios, scrambles, and situations where re-establishing guard is not immediately possible. The tripod base structure — posting hand, lead foot, and trail foot — creates a mechanically sound platform that distributes force across three contact points, giving you stability even under forward pressure. The lead leg barrier principle is borrowed from wrestling, where the knee-up position simultaneously blocks opponent advancement and provides a launching platform for the hip elevation phase.\n\nMastery of the technical stand-up provides a reliable escape option from compromised bottom positions and forms the foundation for advanced guard retention systems. At the highest levels, practitioners chain this movement with single leg entries, creating a seamless defensive-to-offensive pipeline that punishes opponents who attempt to follow the stand-up.",
   "related_content": [
     {

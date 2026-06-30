@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Top",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Electric Chair/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "The Straighten Leg Defense from Electric Chair is a fundamental defensive technique used by the top player when caught in the Electric Chair position from lockdown half guard. When the bottom player secures the lockdown and begins splitting the top player's legs apart, the trapped player's most mechanically sound response is to extend and straighten the trapped leg against the lockdown's bending pressure. This extension neutralizes the figure-four configuration that gives the lockdown its power, reduces the crotch-splitting force, and creates the conditions necessary to extract the leg and return to standard half guard top.\n\nThe technique relies on understanding the biomechanics of the lockdown: the figure-four leg entanglement is strongest when the trapped leg is bent, because the bottom player can use their ankle hooks to maintain the curl. By forcefully straightening the leg through hip extension, the top player lengthens the lever arm and makes it progressively harder for the bottom player to maintain the lockdown grip. The straightening must be combined with proper upper body control—maintaining crossface pressure and hip weight forward—to prevent the bottom player from converting the defensive movement into an Old School sweep or Truck transition.\n\nThis defense serves as a critical first-line response in the Electric Chair escape hierarchy. While more complex escapes like the limp leg technique or hip rotation escape exist, the straighten leg defense represents the most direct path to neutralizing the immediate submission threat. Timing is essential: executing the defense before the bottom player achieves full extension is significantly more effective than attempting to straighten against a fully locked-out Electric Chair, where the mechanical advantage has already shifted decisively to the bottom player.",
   "variants_and_adaptations": [
     {

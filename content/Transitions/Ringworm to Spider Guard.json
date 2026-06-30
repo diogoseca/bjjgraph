@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Spider Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Ringworm Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Ringworm to Spider Guard transition represents a strategic conversion from lapel-based control to sleeve-based open guard, allowing the bottom player to shift from the specialized Ringworm Guard system to the more versatile Spider Guard framework. This transition is particularly valuable when the opponent begins systematically addressing the lapel wrap or when the guard player wants to access Spider Guard's proven sweep and submission chains. Rather than clinging to a deteriorating lapel configuration, the skilled practitioner recognizes the optimal moment to convert their positional advantage into a guard system with broader offensive options.\n\nThe technical core of this transition involves releasing the lapel grip while simultaneously capturing sleeve control and establishing feet on the opponent's biceps. The timing is critical: the guard player must secure at least one sleeve grip before fully abandoning the lapel, creating a brief moment of dual control that bridges the two guard systems. This transition exploits the opponent's focus on lapel extraction, as their hands commit to grip fighting the lapel rather than defending against sleeve acquisition. The grip exchange must be executed as a smooth, coordinated sequence rather than two separate actions.\n\nStrategically, this transition sits within the broader lapel guard ecosystem as an exit ramp to conventional gi guard play. It makes the bottom player's guard game more unpredictable and harder to strategize against, forcing the top player to defend both lapel-based and sleeve-based attacks within the same exchange. Practitioners who develop this transition gain the ability to flow between guard systems based on what the opponent gives them, embodying the principle that the best guard is the one your opponent cannot predict.",
   "conditions": [
     "Bottom player has established Ringworm Guard with lapel wrap around opponent's leg",

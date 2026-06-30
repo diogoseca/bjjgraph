@@ -106,31 +106,52 @@
     "transitions": [
       {
         "transition": "Knee Cut from Headquarters",
-        "attempt_probability": 28
+        "attempt_probability": {
+          "gi": 28,
+          "nogi": 28
+        }
       },
       {
         "transition": "Toreando from Headquarters",
-        "attempt_probability": 18
+        "attempt_probability": {
+          "gi": 18,
+          "nogi": 18
+        }
       },
       {
         "transition": "Leg Drag from Headquarters",
-        "attempt_probability": 17
+        "attempt_probability": {
+          "gi": 17,
+          "nogi": 17
+        }
       },
       {
         "transition": "Back Step Pass",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 12
+        }
       },
       {
         "transition": "Body Lock Pass",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 10
+        }
       },
       {
         "transition": "Headquarters Pass",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 10
+        }
       },
       {
         "transition": "Saddle Entry from Top",
-        "attempt_probability": 5
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 5
+        }
       }
     ],
     "decision_tree": [
@@ -382,19 +403,31 @@
     "transitions": [
       {
         "transition": "Re-Guard from Headquarters",
-        "attempt_probability": 30
+        "attempt_probability": {
+          "gi": 30,
+          "nogi": 30
+        }
       },
       {
         "transition": "Sweep from Headquarters",
-        "attempt_probability": 25
+        "attempt_probability": {
+          "gi": 25,
+          "nogi": 25
+        }
       },
       {
         "transition": "Inversion from Headquarters",
-        "attempt_probability": 25
+        "attempt_probability": {
+          "gi": 25,
+          "nogi": 25
+        }
       },
       {
         "transition": "Shin-to-Shin from Headquarters",
-        "attempt_probability": 20
+        "attempt_probability": {
+          "gi": 20,
+          "nogi": 20
+        }
       }
     ],
     "decision_tree": [

@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Clinch/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Clinch/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Body Lock/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Underhook pummeling is the foundational skill for winning inside position battles in the clinch. When your opponent has established dominant grips through overhooks, collar ties, or superior underhook positioning, pummeling provides the systematic methodology to fight back to an advantageous position. The technique involves swimming your arm underneath your opponent's controlling arm to establish an underhook, granting inside position and access to takedown entries, back takes, and positional control.\n\nThe strategic importance of pummeling cannot be overstated in modern grappling. Inside position through underhooks controls distance, dictates engagement pace, and creates direct pathways to offensive techniques. Without effective pummeling, a practitioner stuck in the disadvantaged clinch is limited to reactive defense or disengagement. The pummel itself is a micro-battle demanding precise timing, efficient mechanics, and the ability to chain multiple attempts when initial efforts are blocked.\n\nAt the highest levels, pummeling transcends simple arm swimming and becomes an integrated system combining level changes, pressure shifts, and feints to create windows for underhook establishment. Elite clinch fighters create the conditions that make pummeling succeed by manipulating the opponent's posture, weight distribution, and attention before executing the swim motion. This systematic approach transforms pummeling from a single technique into a complete positional control methodology.",
   "conditions": [
     "Standing clinch engagement with close-range upper body contact established",

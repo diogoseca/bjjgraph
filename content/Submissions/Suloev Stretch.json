@@ -16,7 +16,10 @@
   "target_area": "Knee joint and calf muscle",
   "starting_position": "Half Guard",
   "from_position": "Half Guard/Top",
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "overview": "Named after Russian MMA fighter Amar Suloev, this technique earned its reputation in no-gi and MMA competition, where folding an opponent's leg against itself produces rapid, fight-ending taps even against seasoned grapplers. The position is typically entered from top positions where the attacker has isolated one of the opponent's legs — most commonly half guard top, knee shield passing sequences, or leg entanglement transitions. Unlike straight ankle locks that attack the ankle or kneebars that hyperextend the joint, the Suloev Stretch creates a bending compression: the practitioner's body weight drives the opponent's heel toward their own buttock while the calf is crushed against the hamstring, layering knee-joint stress on top of severe muscular compression. The finishing pressure comes from hip extension and precise angle creation rather than raw pulling force, so positional control through the entry and the finish is what separates a clean tap from a scramble. Because the structures under attack are dense and unforgiving, understanding the biomechanics of knee compression and maintaining unhurried, progressive pressure are essential for both safe training and reliable competition application.",
   "safety_considerations": {
     "injury_risks": [
@@ -68,17 +71,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 28,
+      "probability": {
+        "gi": 28,
+        "nogi": 28
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 12,
+      "probability": {
+        "gi": 12,
+        "nogi": 12
+      },
       "result": "counter"
     }
   ],

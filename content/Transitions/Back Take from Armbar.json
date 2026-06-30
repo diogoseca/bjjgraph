@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Armbar Control/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Back Take from Armbar is a fundamental chain attack that converts armbar defense into dominant back control. When an opponent successfully defends the armbar by turning toward the attacker, clasping hands, or initiating escape movements, the attacker abandons the arm attack and capitalizes on the opponent's exposed back. This transition exemplifies the principle that defensive movements in one direction create vulnerability in another, making it a cornerstone of systematic submission chain methodology.\n\nThe technique operates on a powerful mechanical principle: the very action an opponent takes to defend the armbar—rotating their body toward the attacker—is precisely the movement that exposes their back. Rather than fighting a well-defended arm, the attacker releases the armbar and flows into back control, trading a contested submission attempt for the most dominant position in grappling. The timing window is critical: the attacker must recognize the opponent's commitment to defensive rotation and initiate the transition before the opponent can settle into a stable defensive posture or complete their escape.\n\nThis transition is particularly effective at the purple belt level and above, where opponents develop reliable armbar defenses that make finishing from standard armbar control increasingly difficult. By integrating the back take into the armbar attack system, the practitioner creates a dilemma where defending the armbar exposes the back, and defending the back take requires extending the arm. This offensive fork forces the opponent into increasingly compromised defensive positions regardless of their chosen response, embodying the concept of cascading positional threats that define high-level grappling.",
   "conditions": [
     "Opponent is actively defending the armbar by turning their body toward you or clasping hands together",

@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Open Guard/Top",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Omoplata Control/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "summary": "The Cartwheel Escape from Omoplata is a defensive forward-roll escape where the trapped player follows the direction of shoulder rotation, somersaulting over their posting hand to clear the opponent's controlling legs and land in open guard top.",
   "overview": "Among omoplata defenses, the cartwheel escape is the highest-percentage option available before the attacker consolidates control, which is why purple and brown belts must master both its execution and its counters. Rather than fighting the rotational pressure directly, the escaper follows the direction of shoulder rotation by performing a forward roll that clears the opponent's controlling legs and lands in a neutral or advantageous top position. This escape exploits the critical timing window that exists before the omoplata player can sit up and establish hip or belt control to anchor the position.\n\nStrategically, the cartwheel escape transforms a dangerous submission threat into a potential passing opportunity. When executed with proper timing, the escaper transitions from a compromised position to open guard top, where they can immediately initiate guard passing sequences. However, experienced omoplata players recognize this pattern and develop specific counters - primarily hip control through belt grips and the ability to follow the roll momentum for sweeps to mount or side control. This creates a tactical chess match where the quality of the omoplata holder's positional control directly determines whether the escape window remains open.\n\nUnderstanding this escape is essential for any practitioner working the omoplata game from either side. The threat of the cartwheel escape forces omoplata players to develop comprehensive hip control systems before threatening the submission finish, while knowledge of counter-timing helps the escaper recognize exactly when the window closes and alternative defensive strategies such as posture recovery or stack defense become necessary instead.",
   "conditions": [

@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Rear Triangle/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Harness/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Within the modern back-attack arsenal, the Triangle from Back is the answer to opponents who survive the rear naked choke by burying both hands on the choking arm. Rather than attacking the neck directly with a rear naked choke, the practitioner threads one leg over the opponent's shoulder and locks a figure-four triangle around the head and one arm, establishing the Rear Triangle control position. This technique exploits a common defensive pattern where the opponent strips the choking arm or tucks their chin aggressively against the rear naked choke, opening the space needed to insert the leg over the shoulder.\n\nStrategically, the Triangle from Back is a high-level chain attack that punishes opponents who commit both hands to defending the rear naked choke. When the opponent pulls the choking arm below chin level with a two-on-one grip, their shoulder opens and the top player can swing the leg over the trapped shoulder to establish the triangle. The technique requires excellent hip dexterity and the ability to maintain back control while transitioning leg position, making it a technique that separates intermediate from advanced practitioners. Once the rear triangle is locked, the bottom player faces a severe positional disadvantage with multiple submission threats including the triangle choke squeeze, armbar on the trapped arm, and wrist locks.\n\nThe Triangle from Back serves as a critical branch in the back attack decision tree. When opponents develop strong rear naked choke defense, this option forces them to choose between defending the choke and exposing the triangle entry, creating the kind of offensive dilemma that elite back attackers rely on to finish matches.",
   "conditions": [
     "Harness grip established with chest-to-back connection",

@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "K-Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The K-Guard Sweep is the signature offensive technique from K-Guard bottom, utilizing the coordinated action of the inverted inside hook and butterfly outside hook to generate a powerful compound sweeping force that displaces the top player's base. The sweep capitalizes on the unique lever system created by the K-Guard leg configuration, where the inverted hook pulls the opponent's trapped leg across their centerline while the butterfly hook simultaneously elevates their weight, creating an irresistible off-balancing force that topples them to their back and allows the sweeper to come up to side control.\n\nStrategically, the K-Guard Sweep functions as the primary threat that makes the entire K-Guard retention system work. Without the sweep threat, the top player can methodically pressure and flatten the K-Guard structure without consequence. The sweep forces the top player to respect the bottom player's offensive capability, creating the push-pull dynamic that opens up secondary attacks like back takes, leg lock entries, and transitions to Single Leg X-Guard. The timing window is narrow - the sweep works best when the top player commits forward pressure that loads the hooks, and attempting it against a well-based opponent who has already neutralized hook tension results in a failed attempt or guard disruption.\n\nThe execution demands precise coordination between upper and lower body mechanics. The sweeping motion begins with a loading phase where both hooks create maximum tension, followed by an explosive off-balance combining lateral pull with vertical lift, and concluding with a follow-through where the bottom player comes up to top position. Understanding the complete mechanical chain reaction from hook loading through position consolidation is essential for consistent success against resisting opponents at the purple belt level and above.",
   "conditions": [
     "Full K-Guard configuration established with inverted inside hook crossing over opponent's trapped leg and active butterfly outside hook",

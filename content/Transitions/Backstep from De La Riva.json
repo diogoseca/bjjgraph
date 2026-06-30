@@ -15,26 +15,41 @@
   "outcomes": [
     {
       "to": "Headquarters Position/Top",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "De La Riva Guard/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Reverse De La Riva Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "The backstep from De La Riva Guard is a fundamental rotational guard passing technique that directly addresses the DLR hook, the primary control mechanism of the De La Riva system. Rather than attempting to strip the hook through conventional means such as pummeling or pressure, the passer steps their trapped leg backward in a large arc and rotates their hips away from the guard player, using angular displacement to disengage the hook entirely. This rotational concept represents a paradigm shift from linear passing approaches, exploiting the geometric weakness inherent in the DLR hook structure: the hook controls movement along the sagittal plane but cannot effectively track lateral or rotational displacement.\n\nThe technique's strategic value lies in its ability to bypass the guard player's strongest control axis. DLR guard operates most effectively with forward-backward sweeping power generated through the hook-grip combination. The backstep moves perpendicular to this control axis, creating a lateral displacement that the DLR hook cannot follow without the guard player making significant hip adjustments. When executed with proper timing, particularly when the guard player's ankle grip is momentarily weakened or their attention is directed toward defending a different threat, the backstep can completely neutralize an established DLR position in a single explosive movement and deposit the passer directly into headquarters position.\n\nHowever, the backstep carries inherent risk that distinguishes it from safer passing options. The rotational movement temporarily exposes the passer's back to the guard player, creating a window for back takes through inversion or hip-following mechanics. This risk-reward dynamic makes timing and full commitment critical: a half-committed backstep is substantially more dangerous than no backstep at all, as it creates the exposure without achieving the hook clearance. Additionally, alert guard players will transition to Reverse De La Riva during the backstep, inserting an opposite-side hook that must be addressed before the pass can be completed. Successful backstep passers develop precise timing, explosive hip rotation, immediate positional consolidation, and contingency plans for RDLR transitions to minimize the vulnerability window and capitalize on the hook clearance.",
   "conditions": [
     "Opponent has an active De La Riva hook behind your lead leg with their shin or foot pressuring behind your knee",

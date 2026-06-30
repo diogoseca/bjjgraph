@@ -19,7 +19,10 @@
   "target_area": "Ankle, toes, and foot ligaments",
   "starting_position": "50-50 Guard",
   "from_position": "50-50 Guard/Top",
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "overview": "The toe hold from 50-50 guard exploits the unique foot accessibility created by this symmetrical leg entanglement. While most 50-50 attacks target the heel through heel hooks, the toe hold offers a devastating alternative that bypasses standard heel-hiding defenses. The attacker secures a figure-four grip on the opponent's foot, cupping the toes and ball of the foot with one hand while threading the opposite arm behind the ankle to complete the lock. Controlled rotational pressure through hip extension and wrist torque attacks the ankle ligaments, metatarsal joints, and midfoot structures simultaneously.\n\nStrategically, the toe hold from 50-50 functions as a critical secondary weapon in the leg lock chain. Opponents who become skilled at tucking their heel to prevent heel hooks often inadvertently expose their foot for toe hold entries. This makes the toe hold an essential complement to heel hook attacks — when your opponent hides the heel, the toes and ball of the foot remain accessible. The 50-50 entanglement provides natural leg control that prevents the opponent from simply pulling their foot free, while the top position grants the hip extension needed to generate finishing pressure.\n\nIn competition, the toe hold from 50-50 has gained prominence as athletes develop more sophisticated heel hook defenses. The IBJJF restricts toe holds to brown and black belt divisions, reflecting the technique's injury potential. Under rulesets that permit the technique, it creates a genuine dilemma for defenders: protect the heel and expose the foot, or protect the foot and expose the heel. This forced choice between two dangers makes the toe hold from 50-50 a high-percentage finishing option for practitioners who invest in proper grip mechanics and controlled pressure application.",
   "safety_considerations": {
     "injury_risks": [
@@ -128,17 +131,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "50-50 Guard/Top",
-      "probability": 26,
+      "probability": {
+        "gi": 26,
+        "nogi": 26
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 14,
+      "probability": {
+        "gi": 14,
+        "nogi": 14
+      },
       "result": "counter"
     }
   ],

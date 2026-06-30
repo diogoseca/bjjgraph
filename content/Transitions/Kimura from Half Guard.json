@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Kimura Trap/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "The Kimura from Half Guard Bottom is a foundational transition in modern half guard offense that connects the bottom player's guard game to the powerful Kimura Trap control system. Initiated when the top player exposes their arm through posting, reaching for underhooks, or attempting passes, the bottom player threads their inside arm under the opponent's tricep and secures a figure-four grip on their own wrist. This grip establishment transforms the positional dynamic, giving the bottom player control over the top player's shoulder girdle and disrupting their ability to maintain stable top pressure.\n\nStrategically, this transition serves as the entry point into a comprehensive attacking system rather than an isolated technique. Once the Kimura grip is secured, the bottom player can threaten sweeps, back takes, and the Kimura submission itself, creating cascading dilemmas that overwhelm the top player's defensive capacity. The technique capitalizes on natural reactions during the half guard exchange—when the top player posts their hand to base during sweep defense or extends their arm to establish crossface control, they create the exact arm exposure needed for the Kimura grip entry.\n\nThe Kimura from Half Guard represents a paradigm shift in bottom-side grappling philosophy. Rather than purely defensive guard retention or single-threat sweeping, this technique establishes a grip-based control system that inverts the positional hierarchy. The bottom player with a secured Kimura grip often has more offensive options than the top player, making this transition one of the most important connective techniques between half guard and the modern Kimura Trap system.",
   "conditions": [
     "Top player's arm is exposed through posting on the mat, reaching for underhook or crossface, or extending during a pass attempt",

@@ -20,26 +20,41 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "success"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "success"
     },
     {
       "to": "Standing Position/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "overview": "Tomoe Nage, known as the circle throw or stomach throw, is a dynamic sacrifice technique borrowed from judo that has found significant application in sport Brazilian Jiu-Jitsu. The technique involves dropping to your back while using foot placement on the opponent's hip or abdomen to elevate and throw them overhead, typically transitioning directly into closed guard or mount depending on follow-through. This technique is particularly effective in gi competition where grips are secure, and it has become a staple for guard pullers who want to combine offensive takedown scoring with immediate guard establishment. The circular motion that gives Tomoe Nage its name refers to the arc created as the opponent is thrown over your body.\n\nModern BJJ has adapted this classical judo throw into a versatile entry system that can lead to sweeps, guard pulls, and submission setups. The technique's effectiveness lies in its ability to use the opponent's forward momentum and weight against them, requiring more timing and technical precision than raw strength. When executed with full follow-through, the thrower can achieve mount; when used as a controlled sacrifice, it establishes closed guard with broken posture. This dual-outcome nature makes it strategically valuable across multiple competition rulesets.",
   "related_content": [
     {

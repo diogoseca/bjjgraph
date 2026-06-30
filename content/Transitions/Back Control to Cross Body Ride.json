@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Cross Body Ride/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Back Control/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Turtle/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 65,
+  "success_rate": {
+    "gi": 65,
+    "nogi": 65
+  },
   "overview": "The Transition to Cross Body Ride is a positional shift from standard back control to a perpendicular chest-across-back orientation. This transition is most commonly employed when the opponent begins turtling defensively from back control, particularly when they strip one or both hooks and curl forward onto their knees. Rather than fighting to re-establish hooks from behind, the top player shifts their weight laterally across the opponent's back, converting from a parallel chest-to-back alignment to a perpendicular cross-body position that maintains dominant control through a different mechanical framework.\n\nThe strategic value of this transition lies in its ability to maintain offensive pressure during what would otherwise be a positional regression. When an opponent successfully defends standard back hooks, many practitioners lose the position entirely. The cross body ride provides an alternative control paradigm that preserves the attacking initiative while opening new submission and transition pathways including crucifix entries, crab ride transitions, and re-takes to full back control. The perpendicular angle creates asymmetric pressure that is biomechanically distinct from standard back control, forcing the opponent to solve a fundamentally different defensive problem.\n\nExecution requires precise timing and weight distribution awareness. The top player must commit to the lateral shift at the exact moment the opponent's defensive movement creates the angle, maintaining harness or seatbelt grip throughout the transition to prevent any separation. The chest must stay glued to the opponent's back as the hips rotate from behind to beside, with the near-side knee driving into the opponent's hip to prevent guard recovery. This transition exemplifies the principle that positional control is maintained through continuous adaptation rather than static holding.",
   "conditions": [
     "Opponent is turtling or curling forward from back control, exposing their back laterally",

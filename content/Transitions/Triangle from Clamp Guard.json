@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Triangle Control/Bottom",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Clamp Guard/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "The Triangle from Clamp Guard exploits the existing arm isolation of the clamp position to establish a triangle choke configuration. Because the clamp already traps one arm between the legs with shin-on-bicep pressure, the guard player has completed the most difficult prerequisite for any triangle entry — isolating a single arm from the opponent's defensive framework. The transition hinges on reading the opponent's extraction direction: when they circle their trapped arm outward or attempt to withdraw it, the space between their neck and shoulder widens, creating the window for the choking leg to shoot over.\n\nThis technique is classified as a submission setup rather than a direct finish because it leads to Triangle Control — a distinct position where the attacker adjusts angle, breaks posture, and systematically tightens before attempting the choke. The mechanical advantage is significant: the clamp's shin-on-bicep control pre-positions the attacking leg near the opponent's shoulder, reducing the distance the leg must travel compared to triangle entries from other guard positions. The opponent's trapped arm is already on the correct side of the neck for the choking mechanism, making this one of the fastest and highest-percentage triangle entries available from any guard configuration.\n\nStrategically, the Triangle from Clamp Guard creates a powerful dilemma within the clamp guard attack system. If the opponent keeps their arm still to prevent the triangle, the armbar from clamp guard becomes increasingly available as the clamp deepens. If they move their arm to escape the clamp, the triangle window opens. This offensive fork forces the opponent to choose between two deteriorating options, which is the hallmark of effective guard play at the purple belt level and above. Advanced practitioners never telegraph the triangle — they maintain clamp pressure and react to the opponent's extraction direction, allowing the defense to select the attack.",
   "conditions": [
     "Opponent's arm is trapped in the shin-on-bicep clamp configuration with the shin bone pressing firmly across the thickest part of the bicep",

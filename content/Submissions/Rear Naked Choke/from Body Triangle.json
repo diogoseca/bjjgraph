@@ -20,7 +20,10 @@
   "target_area": "Carotid arteries and jugular veins",
   "starting_position": "Body Triangle",
   "from_position": "Body Triangle/Top",
-  "success_rate": 65,
+  "success_rate": {
+    "gi": 65,
+    "nogi": 65
+  },
   "overview": "The Rear Naked Choke from Body Triangle combines the highest-percentage submission in grappling with the most secure form of back control. The body triangle's figure-four leg lock around the opponent's torso creates constant breathing restriction and prevents standard back escape sequences, giving the attacker extended time to systematically work through the choking sequence without concern for positional loss.\n\nUnlike the standard RNC from hooks where the attacker must constantly manage leg positioning, the body triangle frees both arms entirely for neck attack. The locked legs cannot be cleared through hip escaping or hook removal, meaning the defender must first solve the triangle problem before addressing the choke — a two-layered defensive challenge that dramatically reduces escape success rates. The breathing restriction from the triangle also forces the defender to work urgently, often leading to defensive errors that expose the neck.\n\nThe finishing mechanics remain identical to the standard RNC — the choking arm slides under the chin with the bicep and forearm compressing both carotid arteries — but the body triangle provides a force multiplier. The squeeze from the legs restricts the defender's ability to expand their chest and generate the power needed for effective hand fighting. Competition data consistently shows that RNC attempts from body triangle convert at significantly higher rates than from standard hooks, making this one of the most feared finishing combinations in modern grappling.",
   "safety_considerations": {
     "injury_risks": [
@@ -105,17 +108,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Body Triangle/Bottom",
-      "probability": 23,
+      "probability": {
+        "gi": 23,
+        "nogi": 23
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 12,
+      "probability": {
+        "gi": 12,
+        "nogi": 12
+      },
       "result": "counter"
     }
   ],

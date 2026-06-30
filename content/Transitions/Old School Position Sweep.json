@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 46,
+      "probability": {
+        "gi": 46,
+        "nogi": 46
+      },
       "result": "success"
     },
     {
       "to": "Old School/Bottom",
-      "probability": 32,
+      "probability": {
+        "gi": 32,
+        "nogi": 32
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 22,
+      "probability": {
+        "gi": 22,
+        "nogi": 22
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 46,
+  "success_rate": {
+    "gi": 46,
+    "nogi": 46
+  },
   "overview": "Popularized through Eddie Bravo's 10th Planet system, this sweep weaponizes the lockdown's immobilizing power alongside a deep underhook and head control to turn half guard bottom from a defensive holding pattern into an immediate offensive launching pad. It threatens a direct path to mount through precise biomechanical leverage rather than athletic explosiveness, relying on a three-point control system where the lockdown removes the opponent's base, the underhook provides rotational leverage, and the head control prevents defensive posting.\n\nThe sweep's effectiveness derives from simultaneous neutralization of the opponent's base recovery options. The lockdown figure-four immobilizes the trapped leg, the deep underhook controls the far-side shoulder and creates the sweeping fulcrum, and the head wrap prevents posture recovery and defensive hand posting. When these three controls converge with proper timing during the opponent's forward weight shift, the sweep becomes extremely difficult to defend because all stabilization points are compromised at once. The circular sweeping motion carries the opponent over the bottom player's body directly into mount.\n\nStrategic positioning within the broader half guard game makes this sweep particularly dangerous. The Electric Chair submission lurks as a chain attack when the opponent defends the sweep by extending their trapped leg, creating a genuine dilemma where defending one threat directly exposes the other. Advanced practitioners exploit this binary threat system to force opponents into choosing between two losing options, making the Old School sweep the cornerstone technique that powers the entire lockdown-based half guard offensive system.",
   "conditions": [
     "Lockdown figure-four must be established on opponent's trapped leg with active extension",

@@ -15,26 +15,41 @@
   "outcomes": [
     {
       "to": "Closed Guard/Bottom",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "success"
     },
     {
       "to": "Harness/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "summary": "Roll to Guard is an explosive back escape from Harness Bottom in which the defender secures the choking arm and commits to a diagonal forward roll, reversing the position to recover closed or open guard facing the opponent.",
   "overview": "Within the back-control defense system, Roll to Guard sits at the aggressive end of the escape spectrum: rather than chipping away at control incrementally like the elbow escape or hip escape, it aims to reverse the entire positional hierarchy in a single explosive movement. It is the escape of choice when methodical hand-fighting has stalled or when the attacker briefly over-commits their weight, and it pairs naturally with the grip-fighting sequences that precede every sound back defense.\n\nThe biomechanical foundation of this escape relies on timing the roll precisely when the opponent's weight distribution shifts or when their grip structure weakens. The defender tucks their chin, rounds their spine, and initiates forward rotation while simultaneously breaking or slipping the harness grip. The roll must be executed with committed momentum - hesitation typically results in the opponent riding the motion and re-establishing superior back control.\n\nDirection matters as much as timing: the roll is driven diagonally toward the underhook side at roughly 45 degrees so the attacker cannot simply track the rotation and re-take the back. Throughout the movement the defender maintains a death grip on the controlled arm, which doubles as both choke insurance and the anchor that pulls the opponent into the recovered guard. Upon completion the defender enters the closed guard or an open-guard frame, where the offensive sweep-and-submission game becomes available.",
   "conditions": [

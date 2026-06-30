@@ -20,7 +20,10 @@
   "target_area": "Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity",
   "starting_position": "Honey Hole",
   "from_position": "Honey Hole/Top",
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "The heel hook from Honey Hole represents the highest-percentage leg lock finish in modern no-gi grappling. The Honey Hole position, also known as Inside Sankaku or 411, creates an inside leg triangle configuration that traps the opponent's leg and exposes the heel for rotational attack. This specific entanglement provides superior heel access compared to outside ashi garami or standard ashi positions because the inside triangle prevents the primary rotational escape that defends against most heel hooks.\n\nThe finishing mechanics involve a specific grip sequence: securing upper body control to prevent rotation, exposing the heel by stripping the foot free, establishing a cup grip with fingers on top and thumb underneath, then applying rotational force toward the opponent's little toe while using hip extension to amplify breaking pressure. The inside leg triangle maintains knee-line control throughout, ensuring the opponent cannot rotate their knee away from the attack vector.\n\nThis submission is the primary reason Honey Hole is considered one of the most dominant positions in competition. The combination of positional control and direct submission access creates a situation where the defender has extremely limited time to escape before the finish becomes inevitable. The rotational force attacks the ACL, MCL, and LCL simultaneously, making this one of the most dangerous submissions in the sport and demanding strict adherence to safety protocols during training.",
   "safety_considerations": {
     "injury_risks": [
@@ -118,17 +121,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Honey Hole/Top",
-      "probability": 36,
+      "probability": {
+        "gi": 36,
+        "nogi": 36
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 19,
+      "probability": {
+        "gi": 19,
+        "nogi": 19
+      },
       "result": "counter"
     }
   ],

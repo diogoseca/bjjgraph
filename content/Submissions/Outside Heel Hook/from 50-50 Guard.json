@@ -20,7 +20,10 @@
   "target_area": "Knee joint, ankle joint, and surrounding ligaments",
   "starting_position": "50-50 Guard",
   "from_position": "50-50 Guard/Top",
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "The outside heel hook from 50-50 guard exploits the symmetrical leg entanglement to attack the lateral rotation of the opponent's knee. Unlike transitions to deeper leg entanglements such as the honey hole or inside ashi-garami, the outside heel hook can be applied directly from the 50-50 configuration by establishing inside leg control and exposing the opponent's heel through systematic grip fighting. This makes it a practical finishing option when deeper positional transitions are successfully defended.\n\nThe primary technical challenge is breaking the positional symmetry inherent in 50-50. The attacker must win the grip fighting exchange, strip the defender's hands from their own foot, and create the perpendicular hip angle necessary for effective rotational force. The figure-four grip cupping the heel, combined with hip extension and controlled lateral rotation, attacks the ACL, MCL, and meniscus simultaneously. Knee line control through pinching the knees together prevents the spinning defense that would otherwise relieve rotational pressure.\n\nThis submission carries extreme injury risk due to the nature of rotational heel hook mechanics. Ligament damage occurs before pain signals reach the brain, making early tap recognition and controlled application absolutely essential in training. The 50-50 configuration provides both stability for the attack and a natural recovery position when the attempt fails, as the attacker typically returns to 50-50 top rather than losing position entirely.",
   "safety_considerations": {
     "injury_risks": [
@@ -119,17 +122,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "50-50 Guard/Top",
-      "probability": 36,
+      "probability": {
+        "gi": 36,
+        "nogi": 36
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 19,
+      "probability": {
+        "gi": 19,
+        "nogi": 19
+      },
       "result": "counter"
     }
   ],

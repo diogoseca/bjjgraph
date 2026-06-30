@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Japanese Necktie from Front Headlock",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Front Headlock/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Turtle/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "Borrowed from catch wrestling and refined for modern no-gi competition, this front-headlock attack capitalizes on the opponent's defensive turtle position to convert positional control into an immediate blood choke. The technique creates overwhelming pressure by threading the arm under the opponent's neck while establishing a specific body configuration that amplifies the strangle. Unlike traditional front chokes that rely purely on arm strength, the Japanese Necktie uses body positioning and weight distribution to generate force. The setup phase is critical—proper arm threading, head positioning, and hip placement determine whether the submission becomes viable.\n\nWhen executed correctly, this transition catches opponents off-guard because it appears to be a standard front headlock attack until the choking mechanism suddenly materializes. The technique gained prominence in modern no-gi competition due to its effectiveness against defensive turtling and its ability to finish from seemingly neutral scramble positions. The arm-threading depth and far-arm control distinguish this technique from other front headlock attacks, and the rolling finish creates a unique choking angle that many defenders fail to recognize until it is too late.\n\nStrategically, the Japanese Necktie functions as a high-value option within the front headlock attack tree. When opponents defend the Darce and Anaconda by keeping their elbows tight, the Japanese Necktie exploits the space created on the far side of their neck. The technique chains naturally with other front headlock submissions, creating a layered attack system where each defensive response opens a new offensive pathway.",
   "related_content": [
     {

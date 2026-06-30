@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Leg Weave/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Few positions in modern pressure passing are as suffocating as the leg weave, and rebuilding half guard from underneath it is a defining skill of a resilient bottom game. When the top player has successfully threaded their leg through the bottom player's guard structure and established forward pressure, the bottom player must employ precise framing, timed hip escapes, and knee insertion to recover a viable half guard position. This escape represents the primary defensive pathway from one of the most pressure-heavy passing positions in modern BJJ.\n\nThe technique centers on creating space through structural frames rather than muscular effort, then using that space to reinsert the knee shield or recover a half guard hook before the passer can complete their advance. The critical timing window occurs when the top player shifts weight to initiate a passing sequence, momentarily reducing their ability to maintain the weave depth. Recognizing and exploiting these micro-transitions separates effective escape artists from practitioners who remain trapped under sustained pressure.\n\nSuccessfully executing this escape requires coordinated movement across multiple planes simultaneously: lateral hip escape to create angle, vertical frame pressure to prevent flattening, and rotational knee insertion to re-establish the guard structure. The escape is most effective when chained with other defensive options from the leg weave bottom, creating a defensive system where each failed escape attempt flows naturally into an alternative recovery pathway such as deep half entry or dogfight transition.",
   "conditions": [
     "Bottom player is caught in leg weave with top player's lead leg threaded between their legs",

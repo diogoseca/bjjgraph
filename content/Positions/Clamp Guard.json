@@ -97,11 +97,17 @@
     "transitions": [
       {
         "transition": "Arm Extraction from Clamp Guard",
-        "attempt_probability": 55
+        "attempt_probability": {
+          "gi": 55,
+          "nogi": 55
+        }
       },
       {
         "transition": "Stack Pass from Clamp Guard",
-        "attempt_probability": 45
+        "attempt_probability": {
+          "gi": 45,
+          "nogi": 45
+        }
       }
     ],
     "decision_tree": [
@@ -353,31 +359,52 @@
     "transitions": [
       {
         "transition": "Armbar from Clamp Guard",
-        "attempt_probability": 22
+        "attempt_probability": {
+          "gi": 22,
+          "nogi": 22
+        }
       },
       {
         "transition": "Triangle Setup",
-        "attempt_probability": 18
+        "attempt_probability": {
+          "gi": 18,
+          "nogi": 18
+        }
       },
       {
         "transition": "Triangle from Clamp Guard",
-        "attempt_probability": 15
+        "attempt_probability": {
+          "gi": 15,
+          "nogi": 15
+        }
       },
       {
         "transition": "Closed Guard to Omoplata",
-        "attempt_probability": 13
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 13
+        }
       },
       {
         "transition": "Scissor Sweep",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 12
+        }
       },
       {
         "transition": "Hip Bump Sweep",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 10
+        }
       },
       {
         "transition": "Sweep from Clamp Guard",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 10
+        }
       }
     ],
     "decision_tree": [

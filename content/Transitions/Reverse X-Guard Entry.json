@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Reverse X-Guard/Bottom",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "Inverted Guard/Bottom",
-      "probability": 27,
+      "probability": {
+        "gi": 27,
+        "nogi": 27
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "Reverse X-Guard Entry is a dynamic transition from inverted guard that establishes powerful leg entanglement control beneath your opponent. Unlike standard X-Guard where you face your opponent, Reverse X-Guard positions you facing away, with your hooks controlling their near leg while your body extends beneath them. This creates exceptional off-balancing potential and sweep opportunities that are difficult to defend because your opponent cannot see your lower body mechanics.\n\nThe entry requires precise timing and hip mobility, as you must thread your legs through while maintaining upper body connection. The position excels against opponents who maintain upright posture from inverted guard rather than applying stack pressure. Once established, Reverse X-Guard offers high-percentage sweeps, transitions to standard X-Guard, Single Leg X entries, and direct back take opportunities when opponents overcommit to regaining base.\n\nThis technique represents a sophisticated evolution in modern guard play, bridging inverted guard mobility with the powerful mechanical advantages of X-Guard systems. Practitioners who develop proficiency find it becomes a reliable pathway when standard berimbolo or back take entries are blocked.",
   "related_content": [
     {

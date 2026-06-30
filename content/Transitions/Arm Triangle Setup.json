@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "North-South/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Arm Triangle Setup from North-South control exploits the perpendicular chest pressure of the position to isolate the opponent's near-side arm against their own neck, creating the head-and-arm configuration necessary for a high-percentage arm triangle choke. This setup capitalizes on the opponent's defensive reactions to North-South pressure—particularly when they turn into the top player or attempt to frame—by threading the choking arm under their neck while their own arm is trapped.\n\nStrategically, this transition converts a dominant but static pinning position into an active submission threat. The North-South angle provides unique leverage for the head-and-arm configuration because the top player's chest already restricts the bottom player's shoulder mobility. By walking the hips to the side during the setup, the top player simultaneously isolates the arm and begins the transition to side control, where the arm triangle finish is mechanically strongest.\n\nThe technique rewards patience and systematic grip progression. Rushing the arm thread before properly trapping the opponent's arm results in the bottom player framing out and recovering guard. Advanced practitioners use the arm triangle threat as part of a broader submission chain from North-South, combining it with kimura, North-South choke, and armbar attacks to create a web of threats where defending one opens another.",
   "related_content": [
     {

@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Knee on Belly/Top",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Mount/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "overview": "The Mount to Knee on Belly transition represents a strategic positional shift from static four-point dominance to dynamic concentrated pressure. While mount provides crushing weight distribution across the opponent's torso and diverse submission chains, Knee on Belly offers superior mobility, concentrated diaphragm pressure through a single contact point, and rapid transition potential to multiple offensive positions. This transition is particularly effective when the mounted opponent has established strong defensive frames that limit direct submission entries, or when the top practitioner seeks to change offensive angles and create new attack pathways.\n\nThe mechanical execution hinges on precise weight transfer through an intermediate posting phase. The critical vulnerability window occurs when the top practitioner lifts from the straddling mount position, briefly reducing hip-to-hip control. The bottom player can exploit this window to frame, shrimp, or catch the transitioning leg for half guard recovery. Successful execution demands maintaining dominant grips throughout the entire movement, timing the shift when the bottom player's defensive resources are committed elsewhere, and establishing knee placement on the solar plexus before any defensive reaction can develop.\n\nWithin the broader positional hierarchy, this transition enables a dynamic cycling strategy where the top practitioner flows between mount, knee on belly, and side control based on opponent reactions. This constant positional cycling prevents the development of effective defensive patterns and creates compounding fatigue that degrades escape quality over time. The transition also serves as a tactical reset when mount submission chains stall, providing fresh angles for attacks like the baseball bat choke, armbar, and cross collar choke from the KOB platform.",
   "conditions": [
     "Stable mount position established with opponent's hips controlled and unable to bridge effectively",

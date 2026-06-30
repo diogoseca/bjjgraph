@@ -26,7 +26,10 @@
   "target_area": "Carotid arteries and trachea",
   "starting_position": "North-South",
   "from_position": "North-South/Top",
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "variant_uniqueness": "Body pressure creates deceptive lateral blood choke",
   "summary": "The North-South Choke is a body-pressure blood choke finished from North-South and related top pins, burying the attacker's bicep and shoulder into both carotid arteries with bodyweight rather than a visible arm wrap.",
   "overview": "Unlike traditional arm chokes that rely on conspicuous limb positioning, the North-South Choke leverages the unique geometry of top control to create an inescapable vise around the neck while looking like nothing more than a heavy pin. Its effectiveness stems from disguise—the opponent often doesn't realize they're being choked until the submission is nearly complete, as the pressure builds gradually through positional consolidation rather than any obvious arm placement. This deceptive quality makes it particularly dangerous in both gi and no-gi contexts, though gi variations offer additional gripping options for enhanced control. As a family of finishes, it can be entered from North-South itself, Kesa Gatame, Side Control, and other top pins, with each entry sharing the same core mechanic of compressing both carotid arteries through the attacker's bicep, shoulder, and body weight. The North-South Choke represents a fundamental example of using superior position and body mechanics to create submissions without complex limb entanglements—accessible to practitioners at all levels while remaining devastatingly effective at the highest levels of competition.",

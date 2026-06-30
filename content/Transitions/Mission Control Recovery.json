@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Mission Control/Bottom",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "Mission Control Recovery is an essential transitional technique within the rubber guard system that allows practitioners to return to a dominant control position when a gogoplata attempt fails or becomes compromised. When the opponent successfully defends the shin-across-throat configuration or the bottom player loses optimal angle, this recovery movement preserves the positional investment by returning to Mission Control rather than conceding the entire guard position.\n\nThe technique addresses a critical problem in the rubber guard attack chain: what happens when high-risk submissions fail. Without a systematic recovery option, a defended gogoplata often results in complete guard loss as the opponent uses the defensive momentum to pass. Mission Control Recovery intercepts this sequence by immediately re-establishing the overhook control and leg positioning that defines Mission Control before the opponent can capitalize.\n\nStrategically, this recovery transforms the rubber guard system from a single-attempt attack chain into a cyclical threat matrix. Practitioners can attack gogoplata, recover to Mission Control if defended, threaten alternative attacks like omoplata or triangle, return to gogoplata attempts, and repeat. This cycling creates accumulating fatigue in the defender while the attacker maintains positional dominance. The recovery is particularly valuable in competition where point preservation matters alongside submission attempts.\n\nThe execution requires precise timing and understanding of weight distribution. The bottom player must recognize when the gogoplata is failing before fully committing, withdraw the shin from the throat while maintaining hip control, and immediately secure the overhook that defines Mission Control. This sequence must happen faster than the opponent can exploit the transition.",
   "related_content": [
     {

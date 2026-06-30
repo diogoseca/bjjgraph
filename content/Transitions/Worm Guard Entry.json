@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Worm Guard/Bottom",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Lapel Guard/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Worm Guard Entry is the foundational transition within the lapel guard system that transforms a basic lapel grip into one of modern gi grappling's most powerful control configurations. From Lapel Guard bottom, the practitioner feeds the opponent's extracted lapel under and around their lead leg, threading it through to the far side and connecting it to their own shin or foot. This creates the characteristic Worm Guard weave that pins the opponent's leg to the bottom player's lower body, generating massive mechanical advantage for sweeps and back takes.\n\nThe entry requires precise timing and lapel management. The bottom player must maintain sufficient lapel material, control distance with leg frames, and identify the correct moment to thread the fabric around the opponent's leg. The ideal window opens when the opponent attempts to stand, steps their lead leg forward into passing range, or shifts their weight backward. Each of these reactions creates space between the opponent's leg and the mat that allows the lapel to travel underneath.\n\nStrategically, completing the Worm Guard Entry represents a significant positional upgrade. While basic Lapel Guard offers control, the Worm Guard configuration locks the opponent's lead leg in place, severely limiting their passing options and loading powerful sweep mechanics. The position creates true dilemmas where defending the sweep exposes the back, and defending the back take opens sweep opportunities. For gi competitors, this entry is a gateway to an entire attacking subsystem that rewards technical precision over athleticism.",
   "related_content": [
     {

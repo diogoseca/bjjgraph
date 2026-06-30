@@ -222,43 +222,73 @@
     "transitions": [
       {
         "transition": "Knee Slice from Half",
-        "attempt_probability": 38
+        "attempt_probability": {
+          "gi": 38,
+          "nogi": 38
+        }
       },
       {
         "transition": "Crossface Pass",
-        "attempt_probability": 15
+        "attempt_probability": {
+          "gi": 15,
+          "nogi": 15
+        }
       },
       {
         "transition": "Underhook Pass",
-        "attempt_probability": 11
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 11
+        }
       },
       {
         "transition": "Back Take",
-        "attempt_probability": 9
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 9
+        }
       },
       {
         "transition": "Arm Triangle Setup",
-        "attempt_probability": 9
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 9
+        }
       },
       {
         "transition": "Half Guard Pass",
-        "attempt_probability": 9
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 9
+        }
       },
       {
         "transition": "Kimura from Flattened Half Guard",
-        "attempt_probability": 5
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 5
+        }
       },
       {
         "transition": "Complete Pass from Flattened Half",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 2
+        }
       },
       {
         "transition": "Knee Slide from Flattened Half",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 1
+        }
       },
       {
         "transition": "Cross Face Pass from Flattened Half",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 1
+        }
       }
     ],
     "flashcards": [
@@ -470,51 +500,87 @@
     "transitions": [
       {
         "transition": "Frame and Shrimp to Guard",
-        "attempt_probability": 68
+        "attempt_probability": {
+          "gi": 68,
+          "nogi": 68
+        }
       },
       {
         "transition": "Deep Half Entry",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 12
+        }
       },
       {
         "transition": "Elbow Escape to Guard",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 12
+        }
       },
       {
         "transition": "Lockdown Recovery",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 4
+        }
       },
       {
         "transition": "Underhook Sweep from Half",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 2
+        }
       },
       {
         "transition": "Old School Sweep",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 1
+        }
       },
       {
         "transition": "Underhook Recovery from Flattened",
-        "attempt_probability": 0
+        "attempt_probability": {
+          "gi": 0,
+          "nogi": 0
+        }
       },
       {
         "transition": "Granby Roll to Guard",
-        "attempt_probability": 0
+        "attempt_probability": {
+          "gi": 0,
+          "nogi": 0
+        }
       },
       {
         "transition": "Deep Half Entry from Flattened",
-        "attempt_probability": 0
+        "attempt_probability": {
+          "gi": 0,
+          "nogi": 0
+        }
       },
       {
         "transition": "Elbow Escape from Flattened Half",
-        "attempt_probability": 0
+        "attempt_probability": {
+          "gi": 0,
+          "nogi": 0
+        }
       },
       {
         "transition": "Recover Knee Shield from Flattened Half",
-        "attempt_probability": 0
+        "attempt_probability": {
+          "gi": 0,
+          "nogi": 0
+        }
       },
       {
         "transition": "Reversal from Flattened Half Guard",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 1
+        }
       }
     ],
     "flashcards": [

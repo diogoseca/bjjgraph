@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "De La Riva Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Russian Leg Lasso/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Russian Lasso to De La Riva transition is a critical guard switching mechanism that allows the bottom player to fluidly move between two of modern BJJ's most sophisticated open guard systems. This transition becomes essential when the Russian Leg Lasso's effectiveness diminishes due to the opponent beginning to systematically dismantle the lasso configuration, or when the opponent's stance and weight distribution make De La Riva attacks more viable than lasso-based offense. The core challenge lies in the momentary vulnerability created during the leg repositioning phase, where the lasso leg must be extracted from its threading through the opponent's arm and redirected as a De La Riva hook behind their lead knee.\n\nStrategically, this transition exploits a fundamental principle of guard play: the ability to chain between guard systems creates a moving target that prevents the passer from settling into any single counter-strategy. A guard player who can only maintain Russian Leg Lasso becomes predictable, but one who transitions fluidly to De La Riva upon sensing diminishing returns forces the passer to constantly readjust their passing approach. The transition itself can function as an offensive tool, as the leg repositioning phase creates opportunities for off-balancing if the opponent overcommits to preventing the guard change.\n\nThe mechanical sequence requires precise grip management throughout. The bottom player must maintain at least one strong controlling grip, typically the collar grip, while extracting the lasso leg and establishing the DLR hook. Releasing all control points simultaneously creates a window where the opponent can freely advance, making grip sequencing the most critical technical element. Advanced practitioners learn to use the extraction motion itself as a sweep threat, turning what appears to be a purely transitional movement into an offensive weapon that forces the passer to defend during the guard switch.",
   "conditions": [
     "Russian Leg Lasso established with lasso leg threaded through opponent's arm",

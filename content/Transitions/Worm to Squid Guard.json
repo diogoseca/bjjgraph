@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Squid Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Worm Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Worm to Squid Guard transition represents a critical reconfiguration within the lapel guard system, enabling the bottom player to shift from worm guard's fixed lapel-leg connection into squid guard's more dynamic, asymmetrical control structure. This reconfiguration preserves the existing lapel entanglement while repositioning the legs to access entirely different sweep angles, back take entries, and submission pathways that worm guard's static configuration cannot provide. The transition is a hallmark of advanced lapel guard play, requiring precise grip sequencing and hip mechanics to execute without losing positional control.\n\nThe mechanical challenge centers on maintaining continuous control during the brief reconfiguration window. In worm guard, the lapel wraps around your shin to pin the opponent's leg. Transitioning to squid guard requires unwinding this connection while threading your leg through the opponent's base to establish the deep hook behind their knee that defines squid guard. This creates a momentary vulnerability where your lapel tension decreases and your leg control is between configurations. Successful execution demands that secondary grips on the sleeve or collar compensate for the temporary reduction in primary control.\n\nThis transition is strategically valuable when your worm guard attacks have stalled against a patient, well-based opponent. Rather than forcing increasingly predictable sweeps, the shift to squid guard changes the entire offensive geometry. The opponent must abandon their worm guard defense and adapt to squid guard's threading hook and angular off-balancing mechanics, often creating the openings that worm guard alone could not generate.",
   "conditions": [
     "Worm guard must be fully established with lapel wrapped around your shin or foot and consistent tension maintained",

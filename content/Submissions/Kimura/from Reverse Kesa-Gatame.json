@@ -17,7 +17,10 @@
   "target_area": "Shoulder joint, rotator cuff, and shoulder capsule",
   "starting_position": "Reverse Kesa-Gatame",
   "from_position": "Reverse Kesa-Gatame/Top",
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "overview": "What makes this variant so reliable is the reverse orientation itself: the top player faces the opponent's legs, creating direct access to the far arm without the grip fighting typically required from standard side control. Chest pressure pins the torso while the figure-four grip locks onto the wrist, producing a submission environment where defensive movement is severely constrained by positional mechanics rather than requiring athletic effort from the attacker.\n\nThe key mechanical advantage lies in the opponent's inability to create effective defensive frames. The reverse orientation blocks their primary escape pathways while chest compression limits breathing and explosive movement. The elbow pinned against the attacker's hip establishes the fulcrum point, and body rotation rather than arm strength generates the finishing torque through the shoulder's weakest plane of internal rotation.\n\nStrategically, this Kimura variant functions as both a direct finishing tool and a transitional threat that opens paths to the Americana, mount, back control, and the Kimura Trap system. When opponents defend by straightening their arm, the Americana becomes immediately available. When they bridge and roll, back takes present themselves. This two-directional dilemma makes the Kimura from Reverse Kesa-Gatame a cornerstone attack in any comprehensive top-side submission system, particularly effective in no-gi where collar-based controls are unavailable.",
   "safety_considerations": {
     "injury_risks": [
@@ -105,17 +108,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 62,
+      "probability": {
+        "gi": 62,
+        "nogi": 62
+      },
       "result": "success"
     },
     {
       "to": "Reverse Kesa-Gatame/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 13,
+      "probability": {
+        "gi": 13,
+        "nogi": 13
+      },
       "result": "counter"
     }
   ],

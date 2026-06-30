@@ -111,27 +111,45 @@
     "transitions": [
       {
         "transition": "Posture Recovery",
-        "attempt_probability": 30
+        "attempt_probability": {
+          "gi": 30,
+          "nogi": 30
+        }
       },
       {
         "transition": "Rubber Guard Clear to Pass",
-        "attempt_probability": 23
+        "attempt_probability": {
+          "gi": 23,
+          "nogi": 23
+        }
       },
       {
         "transition": "Arm Extraction",
-        "attempt_probability": 19
+        "attempt_probability": {
+          "gi": 19,
+          "nogi": 19
+        }
       },
       {
         "transition": "Stack Pass",
-        "attempt_probability": 14
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 14
+        }
       },
       {
         "transition": "Pressure Pass",
-        "attempt_probability": 9
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 9
+        }
       },
       {
         "transition": "Rubber Guard Top Posture Escape",
-        "attempt_probability": 5
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 5
+        }
       }
     ],
     "decision_tree": [
@@ -331,51 +349,87 @@
     "transitions": [
       {
         "transition": "Triangle Setup",
-        "attempt_probability": 34
+        "attempt_probability": {
+          "gi": 34,
+          "nogi": 34
+        }
       },
       {
         "transition": "Omoplata from Rubber Guard",
-        "attempt_probability": 13
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 13
+        }
       },
       {
         "transition": "Mission Control Entry from Rubber Guard",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 10
+        }
       },
       {
         "transition": "Rubber Guard to Closed Guard",
-        "attempt_probability": 6
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 6
+        }
       },
       {
         "transition": "New York Entry from Rubber Guard",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 4
+        }
       },
       {
         "transition": "Hip Bump Sweep",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 4
+        }
       },
       {
         "transition": "Omoplata Sweep",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 4
+        }
       },
       {
         "transition": "Gogoplata",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 4
+        }
       },
       {
         "transition": "Rubber Guard Sweep",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 4
+        }
       },
       {
         "transition": "Crackhead Control Entry",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 3
+        }
       },
       {
         "transition": "Meathook Entry from Rubber Guard",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 10
+        }
       },
       {
         "transition": "New York Control Entry from Rubber Guard",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 4
+        }
       }
     ],
     "decision_tree": [

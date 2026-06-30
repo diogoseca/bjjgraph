@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Crackhead Control/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Turtle/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Back Take from Crackhead Control represents one of the highest-percentage transitions in modern no-gi grappling, capitalizing on the unique chair-sit mechanics of the crackhead position to secure the most dominant control in BJJ. This transition exploits the inherent hip isolation created by sitting on your opponent's lower back, using your inside leg hook as a pivot point to rotate around their body while maintaining constant chest-to-back connection throughout the movement.\n\nThe technique thrives on the dilemma-based nature of crackhead control - your opponent must choose between defending the back take or addressing other threats like truck entries and arm attacks. When they commit defensive resources to protecting one avenue, the back take becomes increasingly available. The transition requires understanding that your hip pressure creates a fulcrum effect; as you begin rotating, your opponent's hip mobility remains severely restricted, preventing them from turning into you or creating the space needed to block hook insertion.\n\nFrom a strategic standpoint, the back take from crackhead control serves as the primary advancement pathway in the 10th Planet turtle attack system. It connects directly to the highest-scoring and highest-submission-percentage position in grappling, making it an essential technique for competitive practitioners. The transition exemplifies the modern approach to positional grappling where control positions exist primarily as launching platforms for further advancement rather than static holding positions.",
   "related_content": [
     {

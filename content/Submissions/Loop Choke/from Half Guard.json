@@ -17,7 +17,10 @@
   "target_area": "Carotid arteries and jugular veins",
   "starting_position": "Half Guard",
   "from_position": "Half Guard/Top",
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "Among half guard top submissions, the Loop Choke fills a uniquely opportunistic niche because it converts the bottom player's own escape attempts into the finishing mechanism rather than relying on positional dominance. Unlike the Loop Choke from mount where gravity and positional dominance facilitate the finish, the half guard version relies heavily on timing and the opponent's defensive reactions—particularly their attempts to come up for the underhook or shrimp away. The attacker threads a deep collar grip under the opponent's chin and uses sprawling pressure or a rolling finish to cinch the loop tight around the carotid arteries.\n\nThis submission occupies a unique tactical niche in the half guard top game because it punishes the bottom player's most common offensive movements. When the bottom player fights for the underhook—their primary sweep pathway—they expose their neck to the collar thread. When they shrimp to create distance, they generate the space needed for grip insertion. The loop choke thus functions as a submission trap that weaponizes the opponent's guard recovery attempts, making it an excellent complement to pressure passing strategies.\n\nThe attacker must balance commitment to the choke against maintaining top position, as overcommitting to a failed attempt can result in guard recovery or a sweep. The technique rewards patience and sensitivity to the opponent's movement patterns, with the highest-percentage entries occurring when the bottom player initiates a specific defensive action that creates the necessary collar access and neck exposure.",
   "safety_considerations": {
     "injury_risks": [
@@ -61,17 +64,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],

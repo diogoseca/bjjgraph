@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Open Guard/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Invisible Collar/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Invisible Collar/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Standing Escape from Invisible Collar is a high-commitment defensive technique that exploits gravity and posture change to neutralize one of the most deceptive gi chokes in modern back attack systems. The invisible collar grip disguises lethal choking pressure as passive control, making early recognition and decisive action essential. By standing and creating vertical separation, you fundamentally alter the mechanics that make the invisible collar dangerous—the attacker loses chest-to-back connection and the downward angle that powers the collar choke.\n\nThis escape requires a two-phase approach: first neutralizing the immediate collar threat through grip fighting and chin defense, then committing fully to standing while managing the attacker's hooks and weight. The standing component forces the attacker into a difficult choice—maintain hooks and get lifted awkwardly, or release hooks and lose back control entirely. Either scenario degrades their attacking position and opens recovery pathways for the defender.\n\nStrategically, the Standing Escape is most effective when combined with other escape threats from Invisible Collar bottom. If the attacker is focused on defending your hip escape or rolling escape attempts, the sudden posture change to standing catches them out of position. The escape integrates into a layered defensive system where each escape attempt creates openings for others, making the defender unpredictable and forcing the attacker to address multiple threats simultaneously.",
   "related_content": [
     {

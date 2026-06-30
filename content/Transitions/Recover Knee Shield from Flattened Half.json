@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Knee Shield Half Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Flattened Half Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Recovering Knee Shield from Flattened Half Guard is the essential defensive recovery transition in the half guard system. When you have been flattened under heavy chest pressure with your back pinned to the mat, your primary objective is re-establishing the knee shield frame that restores distance, breathing room, and offensive capabilities. This transition represents the critical bridge between survival and active guard play, and every serious half guard practitioner must develop reliable mechanics for executing it under pressure.\n\nThe recovery process follows a systematic sequence of micro-movements rather than a single explosive escape. You must first establish a breathing rhythm and fight for an underhook on the far side, which provides the structural foundation for hip escapes. From there, incremental shrimping movements create small pockets of space that you immediately fill with your elbow, forearm, or knee. Each gained inch compounds on the previous one until you have sufficient room to drive your shin across the opponent's hip line and lock in the knee shield frame. The entire process demands patience, precise timing, and the discipline to avoid panicked movements that waste energy.\n\nThe strategic importance of this transition cannot be overstated. Without the ability to recover knee shield from a flattened position, any opponent who successfully collapses your half guard frames effectively ends your bottom game. Mastering this recovery transforms what would otherwise be a dead-end position into a temporary setback, ensuring that pressure passing is never a permanent solution against your guard. The transition also carries inherent risk: creating space for your knee simultaneously opens space the top player can exploit for a knee slice or complete pass, requiring careful attention to timing and leg hook retention throughout the recovery sequence.",
   "conditions": [
     "Bottom player's back is flat against the mat with opponent's chest pressure established",

@@ -111,39 +111,66 @@
     "transitions": [
       {
         "transition": "Knee Slide from Combat Base",
-        "attempt_probability": 22
+        "attempt_probability": {
+          "gi": 22,
+          "nogi": 22
+        }
       },
       {
         "transition": "Toreando Pass",
-        "attempt_probability": 18
+        "attempt_probability": {
+          "gi": 18,
+          "nogi": 18
+        }
       },
       {
         "transition": "Leg Drag Pass",
-        "attempt_probability": 15
+        "attempt_probability": {
+          "gi": 15,
+          "nogi": 15
+        }
       },
       {
         "transition": "Combat Base to Headquarters",
-        "attempt_probability": 13
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 13
+        }
       },
       {
         "transition": "Long Step Pass",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 10
+        }
       },
       {
         "transition": "Standing Up from Combat Base",
-        "attempt_probability": 5
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 5
+        }
       },
       {
         "transition": "Stand Up from Combat Base",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 3
+        }
       },
       {
         "transition": "Smash Pass",
-        "attempt_probability": 7
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 7
+        }
       },
       {
         "transition": "Double Under Pass",
-        "attempt_probability": 7
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 7
+        }
       }
     ],
     "decision_tree": [
@@ -432,15 +459,24 @@
     "transitions": [
       {
         "transition": "Guard Recovery from Combat Base",
-        "attempt_probability": 35
+        "attempt_probability": {
+          "gi": 35,
+          "nogi": 35
+        }
       },
       {
         "transition": "Sweep from Combat Base",
-        "attempt_probability": 35
+        "attempt_probability": {
+          "gi": 35,
+          "nogi": 35
+        }
       },
       {
         "transition": "Pull Guard from Combat Base",
-        "attempt_probability": 30
+        "attempt_probability": {
+          "gi": 30,
+          "nogi": 30
+        }
       }
     ],
     "decision_tree": [

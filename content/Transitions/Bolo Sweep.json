@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "De La Riva Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "De La Riva Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Bolo Sweep, short for Berimbolo, is one of the most revolutionary techniques in modern Brazilian Jiu-Jitsu, fundamentally transforming how practitioners approach the De La Riva guard. This dynamic sweeping technique utilizes rotation and inversion to destabilize opponents while simultaneously creating opportunities to take the back. The movement combines elements of traditional sweeping mechanics with gymnastic-style inversion, making it particularly effective against standing opponents who base heavily on their De La Riva-hooked leg. The technique's effectiveness lies in its ability to create a rotational force that opponents cannot easily counter without risking being swept or having their back taken.\n\nWhat makes the Bolo particularly powerful is its scalability - it can be executed as a pure sweep to off-balance and reverse positions, or it can seamlessly transition into back-taking sequences when the opponent attempts to defend the initial sweep. The technique has become a cornerstone of modern sport BJJ competition, particularly in the lighter weight divisions where flexibility and speed can be maximized. The Bolo creates a dilemma structure where defending the sweep exposes the back and defending the back take opens the sweep, forcing opponents into reactive decision-making under rotational pressure.",
   "related_content": [
     {

@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Electric Chair/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Deep Half Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "Being caught in the 10th Planet lockdown system is one of the most frustrating predicaments in modern BJJ—your leg figure-four trapped while your opponent generates powerful sweeping and submission pressure through hip extension and the Electric Chair mechanics. For the top player, the instinct to rip the leg free or post backward only deepens the trouble, which is why the escape is built as a patient, sequential dismantling of the opponent's control rather than a strength contest.\n\nThe technique centers on methodically breaking the lockdown's foot triangle configuration while maintaining forward pressure and upper body control. Success requires understanding that the lockdown's power comes from the figure-four leg entanglement, and that breaking this structure requires addressing the foot position first rather than simply trying to yank the trapped leg free. The limp leg concept—relaxing your trapped leg to reduce the grip effectiveness—combined with systematic knee pressure to open the triangle creates the mechanical advantage needed to extract your leg.\n\nStrategically, the Lockdown Break and Pass transforms a defensive scramble into offensive advancement. Rather than merely escaping back to a neutral half guard position, the technique channels the escape momentum directly into a passing sequence, typically finishing in side control. This prevents the opponent from immediately re-engaging the lockdown and capitalizes on the positional disruption caused by breaking their primary control structure.",
   "conditions": [
     "One leg is trapped in opponent's lockdown figure-four configuration from half guard",

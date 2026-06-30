@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Rodeo Ride/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "As the primary positional advancement pathway out of dynamic turtle control, this transition is what turns a riding scramble into the sport's most dominant position. It demands precise timing and continuous weight management because the attacker must shift from perpendicular pressure to parallel chest-to-back alignment without creating enough space for the bottom player to escape through granby rolls, sit-backs, or standing attempts.\n\nStrategically, this transition exploits a fundamental defensive dilemma in turtle position: the opponent cannot simultaneously defend near-arm control, prevent hook insertion, and protect against choke entries. When the attacker threatens the near arm, the opponent must prioritize which threat to address, and each defensive choice opens a different attacking pathway. This makes the Rodeo Ride to Back Control transition most effective when integrated into a broader turtle attack system that includes clock choke threats, crucifix entries, and crab ride transitions, as failed attacks from these positions frequently create the openings needed for hook insertion.\n\nThe critical mechanical challenge lies in maintaining unbroken chest-to-back connection throughout the entire transition. Any separation during the hook insertion phase gives the bottom player space to execute escape sequences. Advanced practitioners address this by inserting hooks in sequence rather than simultaneously, using the first hook as an anchor to stabilize position while methodically working to secure the second hook and complete the transition. The seat belt grip establishment must happen in coordination with or immediately after the first hook insertion to prevent the opponent from exploiting the weight shift required for the second hook.",
   "conditions": [
     "Established Rodeo Ride control with hips loaded on opponent's torso and near-arm control secured",

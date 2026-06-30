@@ -17,26 +17,41 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Kimura Trap/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "success"
     },
     {
       "to": "Turtle/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Turtle/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "overview": "Rooted in the Kimura Trap bottom system, the Rolling Kimura turns a defensive-looking bottom position into a launching pad for sweeps and back takes. Once you own a deep figure-four on the opponent's arm, their attempts to posture, drive forward, or extract the limb supply the very momentum you need: you roll through the trapped shoulder, dragging them over the top while their arm stays loaded with submission pressure.\n\nThe rolling motion is what makes the technique punch above its weight. Rotational momentum multiplies the leverage on the shoulder far beyond what arm strength alone could generate, so size and strength matter far less than timing. The opponent is caught in a genuine dilemma: defend the kimura by keeping the elbow tight and they feed the sweep; fight the sweep by basing out and they expose the shoulder. When the roll completes you typically arrive in back control, in a top kimura trap, or, if the roll stalls, in a neutral turtle scramble rather than back on the bottom.\n\nThe technique works in both gi and no-gi, though the connection differs. In the gi, cloth grips on the sleeve or lapel supplement the figure-four and slow the opponent's escape; in no-gi the lock relies on tight wrist-and-elbow control and a closer body connection because the reduced friction lets a sweaty arm slip. Either way, the roll itself, not the squeeze, is the engine, which is why the Rolling Kimura remains a cornerstone of the modern half guard and Kimura Trap attacking system.",
   "conditions": [
     "Secured figure-four kimura grip on one of the opponent's arms from a bottom position such as half guard or Kimura Trap bottom",

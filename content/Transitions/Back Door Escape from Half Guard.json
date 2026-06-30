@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Turtle/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Back Door Escape from Half Guard is a critical positional escape used when the bottom player's conventional offensive options have been neutralized by the top player's crushing crossface and pressure. Rather than continuing to fight for the underhook in a losing battle, the bottom player reverses direction entirely, turning away from the opponent, releasing the leg entanglement, and escaping to turtle position. This technique represents a fundamental paradigm shift in half guard strategy that recognizes when fighting toward the opponent has become counterproductive.\n\nTraditional half guard philosophy emphasizes fighting toward the opponent to establish the underhook and sweep. The back door escape acknowledges that when the top player has won the upper body control battle with dominant crossface and underhook, continuing in that direction wastes energy and invites further positional deterioration. By turning away, the bottom player exploits the one direction the top player is typically not prepared to follow, converting a stagnant defensive position into an active transitional state.\n\nThe back door escape carries inherent risk because turning away from the opponent momentarily exposes the back. Success depends on precise timing, explosive movement during transitional moments when the top player shifts weight, and immediate establishment of a solid turtle structure upon completion. The technique is most effective when combined with a systematic understanding of turtle escapes, as reaching turtle is only the first phase of a larger positional improvement sequence that continues with granby rolls, sit-throughs, or technical standups.",
   "conditions": [
     "Opponent has established dominant crossface or heavy shoulder pressure from half guard top making conventional sweeps unviable",

@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Open Guard/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "summary": "Guard Opening Sequence is the top player's systematic method of breaking a locked closed guard, chaining posture, grip fighting, distance creation, and leverage-based pressure to force the guard open and enter a passing position.",
   "overview": "As the foundational gateway to every guard pass, the Guard Opening Sequence chains several distinct skills - posture establishment, grip fighting, and the application of specific opening mechanics - into one flowing progression rather than functioning as a single isolated technique. No pass can begin until the closed guard is broken, which makes this the highest-leverage skill in any top player's passing arsenal and the prerequisite for every passing system that follows.\n\nUnderstanding proper opening mechanics prevents common injuries, maintains positional control, and sets up high-percentage passing opportunities. The technique involves careful attention to base maintenance, grip control, and strategic pressure application to overcome the opponent's defensive structure while maintaining safety and control throughout the transition. The guard opener must balance defensive awareness against sweeps and submissions with the offensive progression of systematically dismantling the closed guard structure.\n\nAt the competitive level, guard opening efficiency separates effective passers from those who stall in closed guard. The sequence demands patience and methodical progression: establish posture, win the grip battle, create distance through standing or combat base, apply opening pressure, and immediately transition to passing. Rushing any step invites counters, while executing each phase with precision creates a cascading chain that forces the guard open and flows directly into high-percentage passing positions.",
   "related_content": [

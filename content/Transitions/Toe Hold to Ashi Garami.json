@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Inside Ashi-Garami/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Toe Hold Control/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Toe Hold to Ashi Garami transition represents a critical positional adjustment within the leg lock hierarchy, enabling practitioners to flow from a toe hold control configuration into the more versatile inside ashi-garami position. This transition is most commonly employed when the toe hold grip is being effectively neutralized through boot defense, grip fighting, or rotational escape, or when the attacker recognizes that superior submission opportunities exist from the broader ashi garami platform. Rather than forcing a deteriorating toe hold finish and risking total position loss, the attacker preserves leg control while opening an entirely new attack chain including straight ankle locks, heel hooks, kneebars, and transitions to saddle or honey hole.\n\nStrategically, this transition exemplifies the modern leg lock philosophy of maintaining continuous offensive pressure through positional advancement rather than stubbornly pursuing a single submission. The key mechanical challenge lies in releasing the figure-four grip configuration while simultaneously repositioning the legs to establish proper inside leg placement across the opponent's hip and outside leg hook behind their knee. This grip change creates a momentary vulnerability window where the opponent may extract their leg if the attacker fails to maintain continuous connection through leg clamping pressure.\n\nSuccess depends on reading defensive reactions, maintaining hip-to-leg connection throughout the grip transition, and immediately establishing the fundamental ashi garami controls before the opponent can exploit the positional adjustment. Practitioners who master this flow transform their leg lock game from isolated single-attack attempts into a systematic chain where every defense opens a new offensive pathway, embodying the Danaher principle that leg attacks function as an interconnected system rather than disconnected techniques.",
   "conditions": [
     "Attacker has established toe hold control with figure-four grip on opponent's foot and ankle",

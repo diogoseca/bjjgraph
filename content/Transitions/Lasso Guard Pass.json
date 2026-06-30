@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Lasso Guard/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Lasso Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Lasso Guard Pass is a fundamental skill for defeating one of the most controlling open guard variations in Brazilian Jiu-Jitsu. The lasso guard utilizes the opponent's sleeve grip combined with a leg threaded behind the arm to create powerful control that can sweep, submit, or prevent passing. Understanding how to systematically dismantle this guard structure is essential for any serious competitor.\n\nThe pass requires a combination of precise grip control, posture management, and strategic pressure application to neutralize the lasso hook while maintaining balance. Successful execution involves recognizing the mechanical disadvantages created by the lasso position and exploiting them through systematic steps that progressively remove the guard player's control points.\n\nThis technique integrates principles of base maintenance, pressure passing, and tactical grip fighting to achieve dominant top position. The key insight is that the lasso creates a lever system through the trapped arm, and the passer must change the angle of that lever rather than fighting it directly. By stepping outside the lasso leg and rotating the shoulder, the passer converts a strong control into a weak one before completing the pass to side control.",
   "conditions": [
     "Opponent has established lasso guard with sleeve grip and leg threaded behind your arm",

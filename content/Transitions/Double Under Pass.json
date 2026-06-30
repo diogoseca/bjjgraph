@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 75,
+      "probability": {
+        "gi": 75,
+        "nogi": 75
+      },
       "result": "success"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 68,
+  "success_rate": {
+    "gi": 68,
+    "nogi": 68
+  },
   "overview": "The Double Under Pass is a fundamental pressure-based guard passing technique that relies on establishing bilateral underhooks beneath the opponent's legs. This pass is characterized by its heavy control orientation, making it extremely difficult for the opponent to retain guard once proper positioning is achieved. The technique involves methodically breaking down the opponent's defensive frames, consolidating position with chest-to-chest pressure, and using controlled lateral movement to clear the legs and establish side control.\n\nHistorically favored by top-position specialists and pressure passers, the Double Under Pass represents a cornerstone technique in the modern guard passing hierarchy. Unlike dynamic, explosive passing techniques, this pass emphasizes sustained pressure, weight distribution, and positional dominance. The bilateral underhook configuration neutralizes many of the opponent's defensive options, particularly hip movement and leg frame creation, forcing them into a defensive shell where their offensive options are severely limited.\n\nThe Double Under Pass is particularly effective in gi grappling where grips can be used to enhance control, though it remains highly viable in no-gi competition. Advanced practitioners use this pass as part of a comprehensive passing system, often combining it with headquarters position, knee slice variations, and other pressure-based attacks to create multiple layers of offensive threat. The technique's reliability stems from its fundamental soundness—when executed correctly, the opponent must defend against immense pressure while having limited mechanical advantages to create distance or recover guard.",
   "related_content": [
     {

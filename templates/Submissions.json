@@ -101,10 +101,40 @@
       ]
     },
     "success_rate": {
-      "type": "integer",
-      "description": "Overall success rate percentage (0-100)",
-      "minimum": 0,
-      "maximum": 100
+      "oneOf": [
+        {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        },
+        {
+          "type": "object",
+          "properties": {
+            "gi": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "minimum": 0,
+              "maximum": 100
+            },
+            "nogi": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "minimum": 0,
+              "maximum": 100
+            }
+          },
+          "required": [
+            "gi",
+            "nogi"
+          ],
+          "additionalProperties": false
+        }
+      ],
+      "description": "Overall success rate percentage (0-100)"
     },
     "summary": {
       "type": "string",
@@ -421,9 +451,39 @@
             "description": "Target position or 'game-over' for successful finish"
           },
           "probability": {
-            "type": "integer",
-            "minimum": 0,
-            "maximum": 100
+            "oneOf": [
+              {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 100
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "gi": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ],
+                    "minimum": 0,
+                    "maximum": 100
+                  },
+                  "nogi": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ],
+                    "minimum": 0,
+                    "maximum": 100
+                  }
+                },
+                "required": [
+                  "gi",
+                  "nogi"
+                ],
+                "additionalProperties": false
+              }
+            ]
           },
           "result": {
             "type": "string",

@@ -19,7 +19,10 @@
   "target_area": "Elbow joint hyperextension and ulnar collateral ligament",
   "starting_position": "Mission Control",
   "from_position": "Mission Control/Bottom",
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "summary": "The belly down armbar from Mission Control is a rubber guard arm-lock finish where the bottom player isolates the opponent's arm via high-guard shoulder control, then rotates belly-down to hyperextend the elbow against their hip line.",
   "overview": "The belly down armbar finish from Mission Control exploits the rubber guard's inherent shoulder isolation to create one of the most mechanically powerful armbar finishes available from bottom position. Unlike standard closed guard armbars that rely on hip elevation and leg squeeze alone, the Mission Control entry provides pre-existing arm isolation through the high guard configuration. The attacker's inside leg is already threaded across the opponent's back, and the overhook control naturally guides the opponent's arm into the armbar position with minimal telegraphing.\n\nWhat distinguishes this variant is the transition from the high guard directly into a belly down finish rather than the conventional supine armbar. After isolating the arm using Mission Control's shoulder trap, the attacker pivots their hips and rotates prone while maintaining wrist control. The belly down orientation eliminates the hitchhiker escape because the opponent cannot rotate their body in the direction needed to relieve elbow pressure. The prone position also allows the attacker to use their entire bodyweight as downward force on the elbow joint, creating a finishing mechanic that is both higher percentage and faster than the traditional supine approach.\n\nFrom a strategic standpoint, this submission creates a powerful dilemma within the rubber guard system. When the opponent defends triangle and omoplata threats from Mission Control, they often expose the arm in ways that feed directly into the belly down armbar. The technique chains naturally with other Mission Control attacks, forcing the opponent to defend multiple threats simultaneously while the attacker maintains positional control throughout the transition.",
   "safety_considerations": {
@@ -100,17 +103,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Mission Control/Bottom",
-      "probability": 32,
+      "probability": {
+        "gi": 32,
+        "nogi": 32
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 18,
+      "probability": {
+        "gi": 18,
+        "nogi": 18
+      },
       "result": "counter"
     }
   ],

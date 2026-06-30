@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Armbar Control/Top",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "Gift Wrap/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 12,
+      "probability": {
+        "gi": 12,
+        "nogi": 12
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Armbar on Free Arm is a high-percentage submission attack from the Gift Wrap position that capitalizes on the inherent vulnerability of the defender's untrapped arm. When you secure Gift Wrap control, one arm is trapped across the opponent's body, leaving their remaining arm as the sole defensive tool. This isolation creates a systematic opportunity to attack that free arm with an armbar while maintaining dominant back control.\n\nThis technique represents the convergence of positional dominance and limb isolation. The Gift Wrap already compromises the defender's ability to protect their neck and create frames. When they use their free arm to defend choke attempts or create space, they inadvertently expose it to armbar attacks. The attacking sequence flows naturally from back control principles while incorporating specialized arm isolation mechanics.\n\nFrom a strategic perspective, the Armbar on Free Arm creates a powerful dilemma for the defender. If they protect their neck with the free arm, they make it available for armbar attack. If they use the arm to frame or create escape angles, they expose their neck to choke threats. This forcing function makes the Gift Wrap to Armbar combination one of the most reliable submission chains from back control positions.",
   "conditions": [
     "Gift Wrap position must be fully established with one arm trapped across opponent's body",

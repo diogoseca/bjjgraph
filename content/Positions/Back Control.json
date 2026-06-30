@@ -97,95 +97,164 @@
     "transitions": [
       {
         "transition": "Rear Naked Choke from Back Control",
-        "attempt_probability": 43
+        "attempt_probability": {
+          "gi": 43,
+          "nogi": 43
+        }
       },
       {
         "transition": "Back Control Maintenance",
-        "attempt_probability": 14
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 14
+        }
       },
       {
         "transition": "Bow and Arrow Choke from Back Control",
-        "attempt_probability": 5
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 5
+        }
       },
       {
         "transition": "Gift Wrap from Back",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 3
+        }
       },
       {
         "transition": "Armbar from Back Transition",
-        "attempt_probability": 6
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 6
+        }
       },
       {
         "transition": "Body Triangle Lock",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 1
+        }
       },
       {
         "transition": "Back Control to Crucifix",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 1
+        }
       },
       {
         "transition": "Short Choke Attack",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 2
+        }
       },
       {
         "transition": "Armbar on Free Arm",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 2
+        }
       },
       {
         "transition": "Rear Naked Choke Setup",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 2
+        }
       },
       {
         "transition": "Kimura from Back",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 2
+        }
       },
       {
         "transition": "Triangle from Back",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 1
+        }
       },
       {
         "transition": "Standing Back Control Entry",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 1
+        }
       },
       {
         "transition": "Mat Return to Back Mount",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 1
+        }
       },
       {
         "transition": "Back Control to Seat Belt Control Back",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 1
+        }
       },
       {
         "transition": "Gift Wrap Control",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 1
+        }
       },
       {
         "transition": "Back Control to Cross Body Ride",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 1
+        }
       },
       {
         "transition": "Back Control to Reverse Half Guard",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 1
+        }
       },
       {
         "transition": "Restore Back Control",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 1
+        }
       },
       {
         "transition": "Armbar from Back",
-        "attempt_probability": 6
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 6
+        }
       },
       {
         "transition": "Armbar from Back with Legs",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 2
+        }
       },
       {
         "transition": "Rear Triangle Choke from Back Control",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 2
+        }
       },
       {
         "transition": "Short Choke from Back Control",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 1
+        }
       }
     ],
     "decision_tree": [
@@ -418,59 +487,101 @@
     "transitions": [
       {
         "transition": "Hand Fighting from Back",
-        "attempt_probability": 22
+        "attempt_probability": {
+          "gi": 22,
+          "nogi": 22
+        }
       },
       {
         "transition": "Back Door Escape",
-        "attempt_probability": 20
+        "attempt_probability": {
+          "gi": 20,
+          "nogi": 20
+        }
       },
       {
         "transition": "Hip Escape to Turtle",
-        "attempt_probability": 13
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 13
+        }
       },
       {
         "transition": "Elbow Escape to Remove Hooks",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 12
+        }
       },
       {
         "transition": "Turn In and Face",
-        "attempt_probability": 8
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 8
+        }
       },
       {
         "transition": "Hip Escape from Back Control",
-        "attempt_probability": 5
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 5
+        }
       },
       {
         "transition": "Turtle from Back Control",
-        "attempt_probability": 5
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 5
+        }
       },
       {
         "transition": "Shoulder Walk Escape from Back",
-        "attempt_probability": 5
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 5
+        }
       },
       {
         "transition": "Scoot Hips to Guard from Back",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 4
+        }
       },
       {
         "transition": "Turn into Opponent from Back",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 3
+        }
       },
       {
         "transition": "Elbow Escape from Back",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 2
+        }
       },
       {
         "transition": "Hand Fight to Turtle from Back",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 1
+        }
       },
       {
         "transition": "Granby Roll to Guard",
-        "attempt_probability": 0
+        "attempt_probability": {
+          "gi": 0,
+          "nogi": 0
+        }
       },
       {
         "transition": "Rolling Escape to Guard",
-        "attempt_probability": 0
+        "attempt_probability": {
+          "gi": 0,
+          "nogi": 0
+        }
       }
     ],
     "decision_tree": [

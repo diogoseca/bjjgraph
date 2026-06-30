@@ -14,26 +14,41 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "success"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "success"
     },
     {
       "to": "Mounted Triangle/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Armbar Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "Frame and Escape Mounted Triangle is a critical defensive technique executed from the bottom of mounted triangle position, addressing one of BJJ's most dangerous predicaments where both positional disadvantage and active submission danger converge simultaneously. This escape relies on systematic framing against the opponent's triangle structure to create space, followed by deliberate hip movement to extract from the submission threat and recover to a neutral guard position. The technique represents the methodical, energy-efficient approach to mounted triangle defense, contrasting with explosive bridging escapes that carry higher risk-reward profiles.\n\nThe escape sequence centers on creating structural frames—using forearm-to-bone contact against the opponent's hip and thigh—to incrementally open the triangle configuration. Rather than fighting the triangle with muscular effort, the framing approach leverages skeletal structure to create space while preserving energy reserves. The defender then combines these frames with systematic hip escape movement directed toward the trapped arm side, which opens the triangle angle and creates an extraction pathway toward half guard or closed guard recovery.\n\nStrategic timing is paramount. The optimal window opens when the top player commits weight forward for the triangle finish or reaches to adjust finishing grips, creating temporary base vulnerabilities. Advanced practitioners chain multiple consecutive hip escapes while maintaining frame pressure, threading a knee shield or establishing half guard lock before the opponent can re-establish the mounted triangle configuration. The transition from survival to guard recovery must be seamless—any pause between creating space and consolidating a defensive guard position invites the opponent to recapture control.",
   "conditions": [
     "Bottom player is trapped in mounted triangle with at least one arm inside triangle structure",

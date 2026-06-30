@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Inside Ashi-Garami/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "Inside Ashi Entry is a fundamental transition in modern leg lock systems that establishes the inside position on your opponent's leg. This entry creates immediate offensive opportunities for inside heel hooks, straight ankle locks, and transitions to more dominant leg entanglements. The inside position refers to having your outside leg positioned between your opponent's legs, creating a wedge that controls their hip and prevents escape. This entry is particularly effective from seated guard, single leg X-guard, or when your opponent is standing in your open guard. The key to successful execution lies in proper angle creation, hip control, and timing the entry when your opponent's weight is committed forward. Inside Ashi is considered one of the safest leg entanglements to enter because it offers strong control while maintaining defensive integrity against counter leg attacks.",
   "related_content": [
     {

@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Crucifix/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Back Control/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 65,
+  "success_rate": {
+    "gi": 65,
+    "nogi": 65
+  },
   "overview": "Crucifix Maintenance encompasses the systematic techniques and adjustments required to retain the crucifix position against an opponent's escape attempts. As one of the most dominant control positions in Brazilian Jiu-Jitsu—offering simultaneous isolation of both arms through a leg triangle and hand control system—the crucifix demands active maintenance because trapped opponents will immediately begin working to extract their arms and rebuild defensive structures.\n\nThe maintenance game centers on three interconnected control points: the figure-four leg triangle trapping the near arm, hand control securing the far arm, and chest-to-back pressure preventing turning or rolling. Effective maintenance involves constant micro-adjustments to these control points in response to the opponent's escape attempts, rather than static holding. The practitioner must read the opponent's movement intentions through tactile sensitivity and preemptively tighten controls before escapes gain momentum.\n\nStrategic crucifix maintenance serves dual purposes—it preserves the dominant position for submission attacks while simultaneously draining the opponent's energy and psychological resolve. Each failed escape attempt depletes the bottom player's reserves and reinforces positional despair, making subsequent submission attempts higher percentage. Elite practitioners view maintenance not as passive holding but as active positional improvement, continuously refining controls while setting up finishing sequences through chokes, armbars, and arm attacks.",
   "conditions": [
     "Established crucifix position with leg triangle fully locked around opponent's near arm",

@@ -19,7 +19,10 @@
   "target_area": "Shoulder joint (rotator cuff, capsule, AC joint)",
   "starting_position": "Russian Leg Lasso",
   "from_position": "Russian Leg Lasso/Bottom",
-  "success_rate": 52,
+  "success_rate": {
+    "gi": 52,
+    "nogi": 52
+  },
   "overview": "The omoplata from Russian Leg Lasso exploits the pre-loaded mechanical advantage of having the attacking leg already threaded through the opponent's arm. Unlike standard omoplata entries from closed guard or open guard that require establishing the leg-over-shoulder configuration from neutral, the Russian Leg Lasso provides a head start where the lasso binding naturally transitions into an omoplata when the hips pivot perpendicular. The primary entry window opens when the opponent drives forward attempting to pass or when they posture up to break grips, as both reactions create momentum that facilitates the hip switch and leg transition.\n\nThis variant benefits significantly from the collar and sleeve grips already established in Russian Leg Lasso, which provide posture control during the critical transition phase between lasso and omoplata. The collar grip breaks the opponent's posture to initiate the attack, while the sleeve grip prevents arm extraction during the leg rethreading. Once seated with the opponent's arm trapped, the finish follows standard omoplata mechanics: controlling the far hip to prevent the forward roll escape and applying progressive forward lean to rotate the shoulder joint.\n\nElite practitioners chain this omoplata threat with triangle and sweep entries from the lasso, creating a multi-layered offensive system where defending one attack opens pathways to the others. The Russian Leg Lasso's existing control architecture means the omoplata attempt carries relatively low positional risk, as failed attempts typically return the attacker to the original guard position rather than conceding a pass.",
   "safety_considerations": {
     "injury_risks": [
@@ -108,17 +111,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 52,
+      "probability": {
+        "gi": 52,
+        "nogi": 52
+      },
       "result": "success"
     },
     {
       "to": "Russian Leg Lasso/Bottom",
-      "probability": 31,
+      "probability": {
+        "gi": 31,
+        "nogi": 31
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 17,
+      "probability": {
+        "gi": 17,
+        "nogi": 17
+      },
       "result": "counter"
     }
   ],

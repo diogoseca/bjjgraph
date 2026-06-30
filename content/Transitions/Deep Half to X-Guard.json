@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "X-Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Deep Half Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Deep Half to X-Guard transition is a fundamental guard reconfiguration that connects two of BJJ's most powerful bottom positions. When the top player begins extracting their leg from deep half guard — either by pulling backward, widening their base, or shifting weight to defeat sweep threats — the bottom player exploits the movement by threading X-Guard hooks as the leg becomes available. This transition capitalizes on the principle that defensive reactions to one guard system create vulnerabilities to another, forming a chain that keeps the bottom player perpetually threatening.\n\nThe mechanics center on the bottom player's ability to rotate from the inverted deep half positioning to a perpendicular angle underneath the opponent. As the deep underhook releases or loosens, the bottom player threads their inside leg behind the opponent's near knee while simultaneously establishing the outside leg across the hip line. The hands transition from deep half grips to ankle and foot control, completing the X-Guard configuration. The entire movement must be fluid and continuous — any pause allows the top player to extract completely and establish a passing position.\n\nStrategically, this transition creates a powerful dilemma for the top player in deep half guard. If they maintain position, they face deep half sweeps like the waiter sweep and old school sweep. If they attempt to extract and disengage, they expose themselves to X-Guard entry and the powerful elevation sweeps that follow. This catch-22 dynamic makes the deep half to X-Guard chain one of the most effective bottom game systems in modern grappling, used extensively by elite competitors in both gi and no-gi competition.",
   "conditions": [
     "Bottom player has established deep half guard with underhook on opponent's far leg",

@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "S Mount/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "High Mount/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The High Mount to S Mount transition is a critical positional advancement that converts dominant high mount control into the premier armbar launching platform in Brazilian Jiu-Jitsu. This transition involves the top player swinging one leg over the opponent's head while simultaneously isolating the near arm, creating the perpendicular body angle that defines S Mount. The movement requires precise coordination between weight transfer, arm control, and leg positioning to prevent the bottom player from escaping during the transitional window.\n\nStrategically, this transition represents the final checkpoint in the mount submission hierarchy. While High Mount offers multiple submission threats, S Mount concentrates offensive pressure onto a single isolated arm with near-inevitable armbar mechanics. The trade-off is clear: S Mount sacrifices the broad submission diversity of High Mount in exchange for dramatically higher finishing rates on the armbar. Elite practitioners use this transition when they have identified and isolated a target arm, converting positional dominance into submission inevitability.\n\nThe timing of this transition is dictated by the bottom player's defensive reactions. When the opponent pushes on the hips, extends an arm to frame, or attempts to bridge, they create the precise conditions that make the S Mount entry available. Reading these defensive patterns and capitalizing on the weight shift they produce is what separates competent mount players from dominant finishers. The transition must be decisive — hesitation allows the bottom player to recover defensive posture and potentially escape to half guard.",
   "conditions": [
     "Established high mount control with knees near opponent's armpits",

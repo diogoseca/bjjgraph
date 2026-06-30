@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Turtle/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Rodeo Ride/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "summary": "Rodeo Ride to Turtle is a top-position transition where the attacker abandons dynamic asymmetric ride control to settle into standard turtle top, trading explosive attack angles for a stable seatbelt-to-hooks back-attack platform.",
   "overview": "The Rodeo Ride to Turtle transition represents a controlled positional adjustment where the top practitioner converts their dynamic Rodeo Ride control into standard turtle top position. While Rodeo Ride offers powerful asymmetric pressure and explosive attack angles, there are situations where transitioning to conventional turtle top provides a more systematic platform for back attacks, hook insertion, and submission setups. This transition becomes necessary when the bottom practitioner defends Rodeo Ride-specific attacks effectively or when the dynamic ride becomes unstable, forcing the top player to reset to a methodical attacking framework rather than continuing to chase diminishing returns from a compromised position.\n\nExecuting this transition requires careful grip management and weight distribution throughout the repositioning phase. The critical window of vulnerability occurs when the attacker releases Rodeo Ride-specific asymmetric grips to establish standard turtle top controls such as seatbelt or harness. During this moment, the bottom practitioner has opportunities to escape to guard, stand up, or create scramble situations that could reverse the positional hierarchy entirely. Successful execution demands that the top player maintains at least one anchor grip at all times while sliding from a perpendicular angle to directly behind the opponent, establishing uninterrupted chest-to-back connection throughout. The transition rewards patience, tactile sensitivity, and the discipline to maintain continuous pressure rather than rushing through grip changes that create exploitable gaps in control.\n\nStrategically, this transition converts a potentially stalling Rodeo Ride position into a high-percentage back attack platform. Standard turtle top offers clearer pathways to seatbelt control, systematic hook insertion, and the conventional back take sequence that represents one of the most dominant finishing positions in competitive grappling. Understanding when to abandon Rodeo Ride dynamics in favor of methodical turtle control separates advanced practitioners who can read positional flow from those who become locked into a single approach regardless of diminishing effectiveness.",
   "conditions": [

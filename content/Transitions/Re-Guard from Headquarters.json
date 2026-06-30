@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Open Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Headquarters Position/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Re-guarding from Headquarters position is a critical defensive skill that allows you to recover guard structure when your opponent has established a dominant passing position. Headquarters, also known as the floating passing position, occurs when the passer has cleared your legs to one side but hasn't yet established a control position like side control or knee on belly. This transitional moment presents a critical window for guard recovery.\n\nThe essence of re-guarding from Headquarters lies in creating distance and frames while simultaneously recovering your leg positioning. Your opponent is attempting to consolidate their pass by controlling your hips and preventing leg recovery, so your primary objectives are to create space with proper frames, recover hip mobility through shrimping mechanics, and reinsert your legs into the space between you and your opponent. This requires a combination of defensive framing, hip movement, and timing to capitalize on the brief moment before full consolidation.\n\nSuccessful re-guarding from this position is fundamental to maintaining a strong defensive game. The ability to recover guard when a pass is nearly complete separates intermediate practitioners from advanced competitors. This technique builds upon fundamental concepts of guard retention, framing mechanics, and hip escape principles while requiring precise timing and spatial awareness to execute against resisting opponents.",
   "conditions": [
     "Opponent has cleared your legs to one side and established Headquarters position",

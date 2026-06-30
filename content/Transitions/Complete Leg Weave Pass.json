@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Leg Weave/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Complete Leg Weave Pass is the decisive finishing sequence that converts an established leg weave control position into dominant side control. This transition represents the culmination of the leg weave passing system, where the passer must navigate the critical final phase of clearing the bottom player's remaining defensive hooks while maintaining forward pressure and upper body control. The technique bridges the gap between positional control and completed pass, requiring precise coordination of weight transfer, leg extraction, and chest-to-chest consolidation.\n\nThe pass succeeds or fails based on the passer's ability to manage a fundamental tension: extracting the threaded leg requires movement and weight shift, yet any space created during extraction provides the guard player a window to re-insert hooks or establish frames. Elite passers resolve this dilemma through graduated pressure—maintaining relentless forward drive with the upper body while methodically freeing the lower body. The crossface shoulder pressure becomes the anchor that pins the opponent in place during the vulnerable extraction phase.\n\nWithin the broader guard passing ecosystem, the Complete Leg Weave Pass functions as the terminal node of multiple passing chains. Whether the passer arrived at the leg weave through a knee slice setup, headquarters sequence, or smash pass entry, the finishing mechanics converge on the same principle: clear the remaining hook while maintaining perpendicular pressure that denies guard recovery. The technique's reliability at high levels makes it a staple of pressure-passing game plans, particularly against opponents with active and persistent half guard retention.",
   "conditions": [
     "Established leg weave control with deep leg threading past opponent's hip line",

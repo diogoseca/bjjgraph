@@ -19,7 +19,10 @@
   "target_area": "Cervical spine and neck muscles",
   "starting_position": "Twister Control",
   "from_position": "Twister Control/Top",
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "The neck crank from Twister Control exploits the pre-existing spinal rotation inherent in the Twister Control position to attack the cervical spine with devastating efficiency. Unlike standalone neck cranks where the attacker must first create rotational force, the Twister Control position has already compromised the opponent's spinal alignment, meaning the cervical vertebrae are under load before the finishing grip is even established. This biomechanical pre-loading makes the technique both more dangerous and more effective than neck cranks from neutral positions.\n\nThe attack works by securing a grip around the opponent's head—typically a chin strap, crossface, or figure-four configuration—while the body remains locked in the rotated Twister Control position. The finishing mechanic combines the existing spinal torque from the body position with direct rotational or lateral force applied to the head and neck. The opponent faces a compounded problem: their core muscles are already compromised by the body twist, their trapped leg prevents adjustment, and the direct cervical pressure creates immediate submission danger. Defensive options are extremely limited once the grip is secured, making early recognition and prevention the defender's primary strategy.\n\nFrom a strategic perspective, the neck crank serves as a high-percentage finishing option within the broader Twister Control attack system. While many practitioners focus exclusively on the classic Twister finish, the neck crank provides a complementary submission that attacks a different angle of the same rotational vulnerability. The technique is particularly effective against opponents who defend the Twister by tucking their far arm, as this defense often exposes the neck to cranking pressure. Training this technique demands rigorous safety protocols due to the cervical spine's vulnerability to rotational force under compressive load.",
   "safety_considerations": {
     "injury_risks": [
@@ -92,17 +95,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Twister Control/Top",
-      "probability": 39,
+      "probability": {
+        "gi": 39,
+        "nogi": 39
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 21,
+      "probability": {
+        "gi": 21,
+        "nogi": 21
+      },
       "result": "counter"
     }
   ],

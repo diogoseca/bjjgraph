@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 68,
+      "probability": {
+        "gi": 68,
+        "nogi": 68
+      },
       "result": "success"
     },
     {
       "to": "Front Headlock/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Front Headlock/Bottom",
-      "probability": 12,
+      "probability": {
+        "gi": 12,
+        "nogi": 12
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 68,
+  "success_rate": {
+    "gi": 68,
+    "nogi": 68
+  },
   "summary": "Front Headlock to Back is a top transition that converts front headlock control of a turtled or bent-over opponent into dominant back control by circling toward the choking-arm side, inserting hooks sequentially, then switching the headlock to a seat-belt harness.",
   "overview": "The Front Headlock to Back Take is a fundamental transitional technique that exploits the opponent's defensive turtle position to establish dominant back control. This technique represents a critical juncture in grappling where the attacking practitioner converts head control into the most dominant position in Brazilian Jiu-Jitsu. The transition combines elements of wrestling-based front headlock control with BJJ-specific back attack principles, creating a systematic pathway from a semi-dominant position to full back control with hooks and seat belt grip established.\n\nThe effectiveness of this transition lies in its ability to capitalize on the opponent's natural defensive instincts. When an opponent turtles to defend against the front headlock, they inadvertently create the spatial relationships necessary for the back take. The technique requires precise timing, proper weight distribution, and methodical progression through intermediary control points. Unlike explosive scrambles, this transition emphasizes systematic progression through checkpoints: front headlock control, spiral ride position, single hook establishment, and finally full back control with both hooks and harness grip.\n\nThis technique serves as a cornerstone of modern no-gi grappling and has proven equally effective in gi competition. Its prevalence in high-level competition stems from its reliability and the difficulty opponents face in defending it once proper front headlock control is established. The transition connects seamlessly with submission attacks including the rear naked choke, making it both a positional advancement and a direct path to fight-ending submissions.",
   "conditions": [

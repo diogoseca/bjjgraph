@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Technical Mount/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Leg Drag Control/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "summary": "Leg Drag to Technical Mount is a guard-passing advancement where the top player converts leg drag hip control into technical mount, sliding a knee behind the turned opponent's back to arrive with immediate armbar and arm-triangle threats.",
   "overview": "The Leg Drag to Technical Mount transition represents a highly efficient pathway from guard passing to a dominant top position. Unlike the standard mount transition which requires clearing the opponent's hips completely, technical mount allows you to secure a controlling position while the opponent remains partially on their side—the exact orientation created by effective leg drag pressure.\n\nThis transition capitalizes on the leg drag's inherent mechanics: when you control the opponent's leg across their body and drive hip pressure, they naturally turn onto their side to protect their back. Rather than fighting to flatten them for a traditional mount, technical mount accepts and exploits this sideways orientation. Your knee slides behind their back while your other leg posts in front, creating a stable platform with immediate submission access to the near arm and neck.\n\nThe strategic value lies in maintaining offensive pressure throughout the transition. Many practitioners lose submissions attempting to consolidate full mount from leg drag, giving opponents time to recover guard. Technical mount eliminates this gap—you arrive with arm triangles, mounted triangles, and armbars immediately available. The position also prevents common mount escapes like the upa because the opponent cannot generate leverage from their side.",
   "conditions": [

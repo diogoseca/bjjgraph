@@ -23,21 +23,33 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Mounted Crucifix/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "summary": "The Mounted Crucifix Armbar is an elbow-hyperextension finish applied from the mounted crucifix, where the attacker's legs have already trapped the arm—eliminating the hardest phase of a standard armbar and forcing the defender into a choke-or-armbar dilemma.",
   "overview": "Within the mounted crucifix's layered attacking system, the armbar serves as the joint-lock counterpart to the position's many choke threats. The attacker leverages the mounted crucifix's inherent arm isolation—where one or both of the defender's arms are trapped by the attacker's legs—to hyperextend the elbow joint on the trapped arm. Because the defender's normal armbar defense mechanisms are severely compromised by the crucifix control, this submission converts at a significantly higher rate than standard armbar variations from mount.\n\nThe submission's tactical value lies in its complementary relationship with choke attacks from the mounted crucifix. When the defender commits their free arm entirely to neck defense against rear naked choke or collar choke attempts, the trapped arm becomes available for the armbar with minimal resistance. Conversely, if the defender attempts to free their trapped arm, the neck becomes exposed to choking attacks. This binary dilemma makes the mounted crucifix one of the highest-converting positions to submission finish in competitive grappling.\n\nMechanically, the armbar requires the attacker to pivot their hips toward the target arm while maintaining crucifix control, then extend the arm against the hip line with the elbow joint positioned for hyperextension pressure. The key distinction from a standard mount armbar is that the initial arm isolation is already established by the leg-based crucifix control, eliminating the most difficult phase of the armbar setup. This pre-existing control transforms the armbar from a multi-step sequence requiring significant positional transitions into a direct finishing technique with minimal setup time.",
   "safety_considerations": {

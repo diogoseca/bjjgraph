@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Anaconda Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Darce Control/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Within the modern front headlock system, this switch sits between the Darce and Anaconda choke families as the connective tissue that keeps a defended attack alive. When the Darce choke angle becomes compromised through the opponent's defensive arm positioning, chin tuck, or shoulder alignment, the switch to an Anaconda configuration offers a fresh submission pathway that exploits a different choking angle and arm-in structure. This technique is most commonly employed when the opponent has successfully denied the Darce finishing angle but remains vulnerable to the complementary Anaconda attack.\n\nThe fundamental mechanics involve releasing the Darce figure-four lock while maintaining chest and shoulder pressure on the opponent's upper back, then re-threading the choking arm from the Darce path (under the armpit, across the back of the neck) to the Anaconda path (under the near arm, around the front of the neck). The critical challenge lies in maintaining sufficient control during the brief transition period when neither grip is fully locked, as this represents the primary window for the opponent to escape or recover to a safer position.\n\nStrategically, this switch embodies the modern front headlock system's principle of constant submission threat cycling. Rather than abandoning control when one choke is defended, the practitioner flows to a sister submission that attacks from a complementary angle. This creates a chain attack system that compounds defensive difficulty for the trapped opponent, forcing them to address two distinct choking mechanics from a single control platform. The technique rewards sensitivity to the opponent's defensive reactions and the discipline to maintain pressure throughout the grip transition.",
   "conditions": [
     "Established Darce control grip from top position with opponent's arm trapped in the choke configuration",

@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Open Guard/Top",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Straight Ankle Lock Control/Top",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Inside Ashi-Garami/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "When caught in straight ankle lock control, the defender's hip mobility represents their single most important defensive resource, and structured rotation is how that resource is converted into an actual escape. By rotating the hip in the correct direction, the defender reduces the attacker's mechanical advantage while creating angles that facilitate foot extraction or guard recovery.\n\nThe technique operates on the principle that ankle lock submissions require the attacker to maintain perpendicular positioning and prevent hip rotation. When the defender successfully rotates, the angle of attack changes dramatically, reducing pressure on the Achilles tendon and ankle joint. The direction of rotation is critical and must be chosen based on the attacker's leg configuration to avoid facilitating transitions to more dangerous positions like inside or outside ashi garami.\n\nStrategically, hip rotation defense serves as both an immediate pressure relief mechanism and a gateway to multiple escape sequences. Successful rotation creates space to extract the trapped knee, establish defensive frames, or transition to counter-attacks. The technique must be executed with controlled precision rather than explosive panic, as wild rotation often opens pathways the attacker has specifically trained to exploit.",
   "related_content": [
     {

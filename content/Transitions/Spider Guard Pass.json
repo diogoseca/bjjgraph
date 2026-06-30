@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "Spider Guard/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Spider Guard/Bottom",
-      "probability": 12,
+      "probability": {
+        "gi": 12,
+        "nogi": 12
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Spider Guard Pass represents a fundamental challenge in modern Brazilian Jiu-Jitsu, requiring systematic grip breaking, precise posture control, and strategic pressure application. This passing sequence targets one of the most common guard retention systems by neutralizing the opponent's foot-on-bicep control and collar grips that define spider guard. The pass succeeds by combining aggressive grip stripping with forward pressure and hip positioning to overcome the guard player's distance management.\n\nUnderstanding spider guard mechanics reveals that the guard's strength lies in creating distance and angles through arm extension and foot placement—the pass systematically removes these advantages through posture maintenance, grip dominance, and positional pressure. The core asymmetry to exploit is that spider guard uses the opponent's legs against your arms, so fighting foot pressure with arm strength is inherently losing. Instead, the passer must use posture, full-body mechanics, and timing to strip grips efficiently before explosive forward pressure closes the distance.\n\nSuccess requires patience in grip fighting exchanges, explosive movement during passing windows, and technical precision in controlling the opponent's hips during the final consolidation phase. At higher levels, the pass becomes part of a chain: if the guard player transitions to De La Riva, lasso, or collar-sleeve during your grip break, you must recognize the switch and flow to the appropriate passing sequence without resetting.",
   "related_content": [
     {

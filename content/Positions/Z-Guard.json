@@ -256,39 +256,66 @@
     "transitions": [
       {
         "transition": "Knee Slice Pass",
-        "attempt_probability": 40
+        "attempt_probability": {
+          "gi": 40,
+          "nogi": 40
+        }
       },
       {
         "transition": "Knee Slice from Half",
-        "attempt_probability": 13
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 13
+        }
       },
       {
         "transition": "Long Step Pass",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 10
+        }
       },
       {
         "transition": "Smash Pass",
-        "attempt_probability": 11
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 11
+        }
       },
       {
         "transition": "Back Step",
-        "attempt_probability": 9
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 9
+        }
       },
       {
         "transition": "Underhook Pass",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 10
+        }
       },
       {
         "transition": "Knee Slice from Z-Guard",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 4
+        }
       },
       {
         "transition": "Pass Z-Guard",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 2
+        }
       },
       {
         "transition": "Z-Guard Pass",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 1
+        }
       }
     ],
     "flashcards": [
@@ -564,43 +591,73 @@
     "transitions": [
       {
         "transition": "Old School Sweep",
-        "attempt_probability": 35
+        "attempt_probability": {
+          "gi": 35,
+          "nogi": 35
+        }
       },
       {
         "transition": "Underhook Sweep from Half",
-        "attempt_probability": 11
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 11
+        }
       },
       {
         "transition": "Deep Half Entry",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 10
+        }
       },
       {
         "transition": "Back Take from Bottom",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 12
+        }
       },
       {
         "transition": "X-Guard Sweep",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 10
+        }
       },
       {
         "transition": "Lockdown Recovery",
-        "attempt_probability": 9
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 9
+        }
       },
       {
         "transition": "Electric Chair Transition",
-        "attempt_probability": 8
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 8
+        }
       },
       {
         "transition": "Z-Guard Sweep",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 3
+        }
       },
       {
         "transition": "Z-Guard to Half Guard",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 1
+        }
       },
       {
         "transition": "Sweep from Z-Guard",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 1
+        }
       }
     ],
     "flashcards": [

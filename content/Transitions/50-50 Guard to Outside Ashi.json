@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Outside Ashi-Garami/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "50-50 Guard/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "50-50 Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "Within modern leg lock systems, the 50-50 position frequently devolves into a symmetrical stalemate where neither competitor can isolate the other's heel, and this transition is the primary tool serious practitioners use to break that deadlock and force asymmetrical advantage. It is essential for anyone who finds themselves stuck in the mutual leg entanglement of 50-50, where the smallest grip, angle, or foot-control edge decides who attacks first.\n\nFrom 50-50 top position, you release your inside control and use hip movement combined with leg threading to clear your leg from the entanglement while simultaneously establishing outside ashi control on your opponent's leg. The transition creates an attacking angle that did not exist in the 50-50 configuration, exposing your opponent's heel for outside heel hook attacks while removing your own leg from danger.\n\nThis technique is strategically critical in modern leg lock systems because 50-50 often becomes a positional stalemate where both practitioners defend each other's heels. The outside ashi transition breaks this symmetry, forcing your opponent into a defensive position while you gain offensive control. The transition also opens pathways to more dominant positions like saddle and inside ashi-garami, making it a gateway technique in the leg entanglement hierarchy.",
   "related_content": [
     {

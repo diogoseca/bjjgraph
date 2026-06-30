@@ -20,7 +20,10 @@
   "target_area": "Carotid arteries and jugular veins",
   "starting_position": "Back Control",
   "from_position": "Back Control/Top",
-  "success_rate": 65,
+  "success_rate": {
+    "gi": 65,
+    "nogi": 65
+  },
   "overview": "The rear naked choke from back control is the highest-percentage submission finish in Brazilian Jiu-Jitsu, combining the sport's most dominant control position with its most reliable choking mechanism. With the attacker established behind the opponent maintaining chest-to-back connection, hooks or body triangle for hip control, and harness grip for upper body management, the position provides an ideal platform for bilateral carotid compression. The submission targets both carotid arteries simultaneously using the forearm-and-bicep figure-four configuration, creating a blood choke that can produce unconsciousness in as few as four seconds when fully applied.\n\nWhat separates successful finishes from failed attempts is the systematic hand fighting that precedes the choking arm insertion. The attacker must methodically break down the opponent's two-on-one grip defense, pummeling the choking arm toward the neck while maintaining positional stability with hooks and the supporting arm. The transition from seatbelt grip to choking configuration represents the most vulnerable phase, where premature commitment or loss of hook pressure allows escape. Coordinated hip adjustment, angle changes, and sustained chest pressure throughout this transition determine whether the choke reaches completion.\n\nThe finishing mechanics rely on chest expansion and shoulder rotation rather than raw bicep strength. Threading the forearm blade against one carotid while the bicep compresses the other, with the hand behind the head sealing any remaining space, produces bilateral pressure that is extremely difficult to withstand. The hooks or body triangle provide the stable base preventing the opponent from bridging, rotating, or sliding down during the squeeze, making back control the most reliable platform for this submission.",
   "safety_considerations": {
     "injury_risks": [
@@ -128,17 +131,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Back Control/Top",
-      "probability": 23,
+      "probability": {
+        "gi": 23,
+        "nogi": 23
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 12,
+      "probability": {
+        "gi": 12,
+        "nogi": 12
+      },
       "result": "counter"
     }
   ],

@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "Butterfly Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Butterfly Guard/Top",
-      "probability": 12,
+      "probability": {
+        "gi": 12,
+        "nogi": 12
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Arm Drag to Back is a fundamental and highly effective technique for advancing position from butterfly guard to the dominant back control. This technique involves controlling the opponent's arm and using it as a lever to move past their defensive frame while simultaneously rotating behind them. The arm drag is one of the most versatile techniques in Brazilian Jiu-Jitsu, applicable from standing, seated guard, butterfly guard, and many other positions. Its effectiveness lies in the ability to bypass the opponent's defensive structure without having to break through their guard or pass directly, instead using their own arm against them to create a pathway to the back.\n\nThe arm drag represents a fundamental principle in grappling: using the opponent's limbs as handles to manipulate their body position. When executed properly, the arm drag creates a cascading sequence of positional advantages. First, it removes one of the opponent's posting hands, compromising their base. Second, it creates an angle that makes it difficult for them to defend against the back take. Third, it positions you perpendicular to their body, giving you leverage advantages. The technique requires precise timing, grip control, and hip movement to execute successfully. Against skilled opponents, the arm drag must be set up carefully, often requiring feints, grip fighting, or combination attacks to create the opening needed for successful execution.\n\nFrom the butterfly guard specifically, the arm drag pairs naturally with the hook elevation system. The butterfly hooks provide the platform to momentarily unweight the opponent as you pull their arm across, making the rotational movement behind them far more efficient. This synergy between upper body drag mechanics and lower body elevation is what makes the butterfly guard one of the highest-percentage launching points for the arm drag to back take.",
   "related_content": [
     {

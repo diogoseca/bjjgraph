@@ -18,7 +18,10 @@
   "target_area": "Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity",
   "starting_position": "50-50 Guard",
   "from_position": "50-50 Guard/Top",
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "The heel hook from 50-50 Guard is one of the most technically demanding leg lock finishes in modern grappling. The 50-50 position creates a symmetrical leg entanglement where both practitioners have mirrored leg configurations, making heel exposure the central tactical problem. Unlike heel hooks from asymmetrical entanglements such as the Saddle or Inside Ashi-Garami where the attacker has a built-in positional advantage, the 50-50 requires the attacker to first break positional parity through superior inside control, grip fighting, and hip positioning before the heel becomes accessible for the finishing rotation.\n\nThe key strategic element is the battle for inside position. The practitioner who establishes inside leg control gains priority access to the opponent's heel while simultaneously protecting their own. From top 50-50, the attacker uses downward hip pressure to flatten the defender and prevent them from matching inside control. Once inside position is secured and the heel is exposed, the attacker cups the heel with a two-handed grip and applies controlled rotational force through the ankle that transmits destructive torque into the knee ligaments, primarily targeting the ACL, MCL, and LCL.\n\nThis submission carries extreme injury risk because knee ligaments can rupture before the defender feels significant pain. Unlike arm locks or chokes that produce progressive discomfort, the heel hook's damage mechanism bypasses normal pain signals. This characteristic makes strict adherence to safety protocols essential during training and demands that both partners understand proper tap signals and release procedures.",
   "safety_considerations": {
     "injury_risks": [
@@ -112,17 +115,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "50-50 Guard/Top",
-      "probability": 36,
+      "probability": {
+        "gi": 36,
+        "nogi": 36
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 19,
+      "probability": {
+        "gi": 19,
+        "nogi": 19
+      },
       "result": "counter"
     }
   ],

@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Flattened Half Guard/Bottom",
-      "probability": 38,
+      "probability": {
+        "gi": 38,
+        "nogi": 38
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 22,
+      "probability": {
+        "gi": 22,
+        "nogi": 22
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "The Reversal from Flattened Half Guard is one of the most demanding yet rewarding techniques in the bottom half guard arsenal. When the top player has successfully collapsed your frames and settled chest-to-chest pressure, most bottom players resign themselves to a purely defensive frame recovery sequence. The reversal represents a fundamentally different strategic choice: rather than incrementally rebuilding guard structure, you exploit the top player's forward commitment to generate a sweep that lands you directly in a dominant top position. This approach requires precise timing, committed execution, and the willingness to accept risk in exchange for a dramatic positional improvement.\n\nThe technical foundation of this reversal rests on winning the underhook battle from a disadvantaged position. Even when flattened, the bottom player can fight for a deep underhook on the far side by using small hip escapes to create just enough space to thread the arm through. Once the underhook is secured, the bottom player combines a powerful bridge toward the underhook side with a drive from the trapped leg hook, using the top player's own forward pressure as the fulcrum for the sweep. The direction of force must travel diagonally toward the underhook side rather than straight upward, exploiting the top player's narrow base on that angle.\n\nThis reversal occupies a critical decision point in the flattened half guard game tree. Attempting the reversal too early without establishing the underhook risks immediate pass completion. Attempting it too late, after the top player has begun extracting the trapped leg, eliminates the leverage needed to complete the sweep. The optimal timing window occurs when the top player is focused on maintaining crossface pressure and has not yet committed to a specific passing sequence, creating a brief moment where their weight distribution is static and predictable. Advanced practitioners chain this reversal with frame recovery attempts, using the threat of one to create openings for the other.",
   "conditions": [
     "Bottom player has secured or is fighting for an underhook on the top player's far side",

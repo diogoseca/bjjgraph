@@ -17,7 +17,10 @@
   "target_area": "Carotid arteries",
   "starting_position": "3-4 Mount",
   "from_position": "3-4 Mount/Top",
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "summary": "The cross collar choke from 3-4 mount is a gi blood choke where the asymmetric mount's posted-leg base lets the attacker commit both hands to deep cross-collar grips, compressing both carotid arteries to force the tap.",
   "overview": "The cross collar choke from 3-4 mount exploits the asymmetric weight distribution unique to this mount variation, where the top player's posted leg creates a stable platform for maintaining position while both hands work the collar grips. Unlike the standard mounted cross collar choke, the 3-4 configuration provides enhanced base stability during the grip insertion phase, reducing the risk of being swept when reaching for the second collar grip. The posted leg anchors the attacker's weight, allowing them to commit both hands to collar work without sacrificing positional control.\n\nStrategically, this submission functions as a high-pressure finishing tool within the 3-4 mount attack chain. The choke creates a powerful dilemma for the bottom player: defending the collar grips exposes the arms to Americana and armbar attacks, while protecting the arms leaves the neck vulnerable. Advanced practitioners set up the cross collar choke as the primary threat to open secondary submissions, making it central to the 3-4 mount submission system. The gi collar serves as a natural choking mechanism, with the cross-grip configuration compressing both carotid arteries simultaneously for a blood choke finish.\n\nThe 3-4 mount also allows the attacker to use their posted leg to drive forward pressure during the finishing sequence, amplifying the choking force while maintaining balance. This makes the choke particularly dangerous against opponents who rely on bridging as their primary mount escape, since the bridge actually tightens the collar across the neck when grips are already established. Competition footage consistently shows this as a high-percentage finish at the purple belt level and above.",
   "safety_considerations": {
@@ -95,17 +98,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "3-4 Mount/Top",
-      "probability": 27,
+      "probability": {
+        "gi": 27,
+        "nogi": 27
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],

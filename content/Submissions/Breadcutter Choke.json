@@ -17,7 +17,10 @@
   "target_area": "Carotid arteries and trachea",
   "starting_position": "Turtle",
   "from_position": "Turtle/Top",
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "variant_uniqueness": "Collar cutting angle across both carotids from multiple positions",
   "summary": "A gi-only blood choke, the Breadcutter draws a blade of the opponent's own collar tight across both carotid arteries from turtle, back control, and side-control-family pins, finishing with bodyweight rather than arm strength.",
   "overview": "The Breadcutter Choke is a powerful gi-based blood choke that utilizes the opponent's own collar to create a devastating strangling mechanism. Executed primarily from turtle position, back control, or transitional positions, this technique creates immense pressure on both carotid arteries while simultaneously compressing the trachea. The name derives from the cutting action of the collar across the neck, similar to slicing bread. What makes the Breadcutter particularly effective is its ability to be applied from positions where the opponent believes they are relatively safe or defending other attacks.\n\nThe mechanics rely on deep collar grips combined with precise body positioning to generate choking pressure without requiring both arms wrapped around the opponent. This makes it an excellent option when traditional rear naked choke grips are not available. The choking force is generated primarily through body weight transmitted via the collar rather than arm strength, making it energy-efficient and sustainable even against larger opponents.\n\nThe Breadcutter belongs to a family of collar chokes that includes the Clock Choke, Bow and Arrow, and Baseball Bat variations, but distinguishes itself through its unique application angle and grip configuration. Its versatility across multiple starting positions and its effectiveness as a secondary attack when primary submissions are defended make it a high-value addition to any gi practitioner's submission arsenal.",

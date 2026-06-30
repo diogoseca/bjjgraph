@@ -18,7 +18,10 @@
   "target_area": "Carotid arteries (compressed by opponent's own shoulder and your forearm)",
   "starting_position": "Kesa Gatame",
   "from_position": "Kesa Gatame/Top",
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "summary": "The Arm Triangle from Kesa Gatame is a head-and-arm blood choke that turns the scarf hold's existing head-and-arm control into bilateral carotid compression, the opponent's own trapped shoulder sealing one artery while your forearm crushes the other.",
   "overview": "The Arm Triangle from Kesa Gatame exploits the unique perpendicular geometry of the scarf hold to trap the opponent's near arm against their own neck and apply bilateral carotid compression. From Kesa Gatame, the top player already controls the opponent's head with one arm while trapping the near arm under their armpit. This existing control creates a natural pathway to the head-and-arm choke configuration that requires less transitional work than arm triangles initiated from other positions.\n\nThe critical transition involves driving the opponent's trapped arm upward against their own neck using chest pressure, then threading the head-wrapping arm deeper behind the opponent's neck to establish the choking forearm across the far-side carotid. The opponent's own shoulder compresses the near-side carotid while your forearm handles the opposite side. Once the figure-four or gable grip locks the configuration, the attacker either finishes from the Kesa Gatame angle or walks to a perpendicular side control position and applies progressive chest compression to complete the choke.\n\nWhat makes the Kesa Gatame entry particularly dangerous is the head and arm control established before any submission attempt begins. Defenders face a narrower window of escape compared to arm triangles from standard side control because the scarf hold already restricts head movement and arm positioning. The perpendicular body angle provides immediate chest-to-face pressure that compounds the choking mechanics, making this a high-percentage finish when the grip transition is executed smoothly and the attacker maintains constant pressure throughout the switch.",
   "safety_considerations": {
@@ -105,17 +108,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 62,
+      "probability": {
+        "gi": 62,
+        "nogi": 62
+      },
       "result": "success"
     },
     {
       "to": "Kesa Gatame/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 13,
+      "probability": {
+        "gi": 13,
+        "nogi": 13
+      },
       "result": "counter"
     }
   ],

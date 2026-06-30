@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Cross Body Ride/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "The Escape from Cross Body Ride is a critical defensive technique for recovering from one of the most compromising turtle-top positions in Brazilian Jiu-Jitsu. When an opponent has established perpendicular chest-to-back contact with harness control, the bottom player faces immediate threats of back take, crucifix entry, and various choke attacks. This escape addresses the fundamental problem of removing the rider's weight and control points while creating enough space to reverse the position or recover guard.\n\nThe escape operates on the principle that the cross body rider's perpendicular orientation, while providing tremendous downward pressure, creates a structural vulnerability along the lateral axis. By timing hip movement with frame creation against the rider's hips, the bottom player can displace enough weight to initiate a reversal sequence. The most reliable path leads to side control top through a combination of hip switch, underhook establishment, and controlled rotation that uses the rider's committed weight against them.\n\nStrategically, this escape represents a high-reward response to a deteriorating position. Rather than accepting the gradual breakdown that cross body ride imposes, executing a well-timed escape converts defensive liability into offensive opportunity. The technique rewards practitioners who maintain composure under pressure, read weight distribution patterns, and commit decisively to escape sequences rather than making tentative, energy-wasting attempts that telegraph their intentions to the rider.",
   "conditions": [
     "Opponent has established cross body ride with chest perpendicular across your back",

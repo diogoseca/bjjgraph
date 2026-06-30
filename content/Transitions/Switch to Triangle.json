@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Triangle Control/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "summary": "Switch to Triangle is a closed-guard submission chain that turns an opponent's defense of a failed attack—armbar, kimura, omoplata, or sweep—into a high-percentage triangle choke entry by exploiting the arm isolation and broken posture their defense creates.",
   "overview": "The Switch to Triangle represents a fundamental submission chain concept in Brazilian Jiu-Jitsu, allowing practitioners to seamlessly transition from failed or defended attacks into a high-percentage triangle choke. This transition is most commonly executed from closed guard when opponents defend against armbar attempts, kimura attacks, or other offensive techniques by pulling their arm free or posturing up. The beauty of this technique lies in its ability to capitalize on the opponent's defensive reactions - as they focus on escaping one submission, they often create the perfect opening for the triangle. Understanding this transition transforms individual techniques into a flowing attack system where every defense opens a new offensive opportunity.\n\nThe switch to triangle exemplifies the principle of offensive combinations and submission chains, where skilled practitioners never rely on a single attack but instead link multiple threats together. This creates a dilemma-based game where the opponent must choose between defending the current attack and preventing the follow-up, rarely able to accomplish both simultaneously. The geometric requirements are specific: the initial attack must create an angle and arm isolation that feeds directly into the triangle configuration, meaning the practitioner must understand not just when to switch but how each prior attack positions the body for triangle entry.\n\nMastering this transition is essential for developing a dangerous closed guard game and represents a critical milestone in understanding how submissions work together as a system rather than as isolated techniques. At the highest levels, the initial attack is often thrown specifically to bait a defensive reaction that opens the triangle, transforming what appears to be a failed technique into a deliberate setup for the real finishing submission.",
   "related_content": [

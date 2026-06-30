@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 48,
+      "probability": {
+        "gi": 48,
+        "nogi": 48
+      },
       "result": "success"
     },
     {
       "to": "Knee Shield Half Guard/Top",
-      "probability": 32,
+      "probability": {
+        "gi": 32,
+        "nogi": 32
+      },
       "result": "failure"
     },
     {
       "to": "Knee Shield Half Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 48,
+  "success_rate": {
+    "gi": 48,
+    "nogi": 48
+  },
   "summary": "The Smash Pass from Knee Shield is a pressure-based half guard pass where the top player drives the bottom player's shin shield laterally across their body, pins it with a hip switch, and clears the legs to reach side control.",
   "overview": "The Smash Pass from Knee Shield is a fundamental pressure-based guard passing technique designed to defeat one of the most effective defensive half guard structures in modern BJJ. When the bottom player establishes a knee shield—positioning their shin horizontally across the passer's torso to create distance and prevent consolidation—the smash pass answers by collapsing this barrier through deliberate shoulder pressure, hip switching, and strategic weight distribution rather than speed or athleticism.\n\nThe technique operates on a simple mechanical principle: rather than fighting the knee shield head-on by pushing it down, the passer drives the shield across the bottom player's body using angled shoulder pressure. Combined with a decisive hip switch, this pins the shield knee to the mat on the far side, creating a clear path to advance past the legs and consolidate side control. The smash pass is particularly effective because it weaponizes the passer's body weight, making it sustainable across multiple exchanges and effective regardless of size disparity.\n\nWithin the broader guard passing hierarchy, the smash pass from knee shield pairs naturally with the knee slice and backstep passes. When the bottom player keeps their shield tight to defend the knee slice, the smash pass becomes available as a direct counter. Conversely, threatening the smash forces the bottom player to extend their shield, creating openings for the knee slice. This complementary relationship makes the smash pass essential for anyone developing a systematic approach to defeating half guard players.",
   "conditions": [

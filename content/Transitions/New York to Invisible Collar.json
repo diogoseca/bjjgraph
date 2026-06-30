@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Invisible Collar/Bottom",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "New York/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The New York to Invisible Collar transition represents a critical advancement within the 10th Planet Rubber Guard system, moving from the foundational New York control into one of the most dangerous attacking positions in no-gi grappling. This transition involves releasing the shin grip while maintaining the overhook, then swimming the free hand behind the opponent's head to establish deep collar-style control on the neck without requiring a gi collar.\n\nStrategically, this transition capitalizes on moments when the opponent focuses on defending the overhook or attempting to restore posture. The hand swim to the back of the head must be explosive yet controlled, threading between the opponent's shoulder and your own leg while maintaining constant pressure through the overhook. The resulting Invisible Collar position creates immediate choking threats and opens pathways to gogoplata, omoplata, and triangle attacks.\n\nThe biomechanics of this transition exploit a fundamental weakness in the opponent's defensive structure. When trapped in New York, opponents typically focus their defensive attention on the overhook and the shin across their back. The hand controlling the shin appears to be a critical anchor, so when it releases and immediately attacks the neck, opponents often react too slowly to prevent the collar grip establishment. This misdirection is central to the technique's high success rate at advanced levels.",
   "related_content": [
     {

@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Anaconda Control/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Within the front headlock and head-and-arm choke system, this transition is the attacker's insurance policy: when the anaconda strangle itself stalls against a stubborn defender, the gator roll keeps the action moving forward into a scoring pin rather than surrendering the grip. From Anaconda Control, the attacker uses a gator roll — a forward rolling motion that carries the opponent underneath — to arrive in side control with chest pressure established across the opponent's torso. This transition is essential when the anaconda choke itself is not immediately available or when the opponent's defensive posture makes finishing the choke impractical from the current angle.\n\nStrategically, this transition serves a dual purpose within the anaconda system. First, it advances the attacker to a high-value controlling position worth three points in IBJJF competition, establishing crossface and hip control that opens entirely new submission chains including americana, kimura, and arm triangle. Second, the rolling motion itself can tighten the anaconda grip, meaning the attacker may arrive in side control with an even tighter choke than they started with, threatening both positional dominance and immediate submission simultaneously.\n\nThe critical challenge lies in maintaining grip integrity throughout the rotation while preventing the opponent from basing out, posting a hand, or scrambling during the momentum shift. The roll demands full commitment — hesitation allows the defender to establish defensive frames and potentially reverse the position entirely. Understanding the biomechanics of the roll, proper hip positioning before initiation, and the decision point between maintaining the anaconda grip or transitioning to standard side control grips upon arrival is what separates effective execution from positional loss.",
   "conditions": [
     "Anaconda grip secured with arm-in configuration around opponent's neck and near arm",

@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "success"
     },
     {
       "to": "Inside Sankaku/Bottom",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "failure"
     },
     {
       "to": "Saddle/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 30,
+  "success_rate": {
+    "gi": 30,
+    "nogi": 30
+  },
   "overview": "The Sweep from Inside Sankaku is a high-level reversal technique that transforms one of the most dangerous defensive positions in modern leg lock systems into an offensive opportunity. When trapped in Inside Sankaku, the bottom player faces immediate inside heel hook threats with limited escape options. However, the interconnection that gives the top player control also creates a mechanical link that can be exploited for sweeps when timing and leverage align correctly. The technique requires the bottom player to first neutralize the immediate submission threat by hiding the heel before committing to the reversal.\n\nThe sweep capitalizes on a fundamental vulnerability in the Inside Sankaku position: the top player must shift weight and attention toward the heel to finish the submission, creating momentary base instability. By timing the sweep to coincide with the opponent's commitment to the heel hook attack, the bottom player uses hip elevation, rotational force through the connected legs, and upper body grips to off-balance and reverse the position. The mechanical principle relies on the entanglement itself serving as a fulcrum, where the locked legs transfer force directly from hip movement to the opponent's center of gravity.\n\nSuccess with this technique requires disciplined patience and accurate reading of the opponent's weight distribution. Premature sweep attempts waste energy and expose the heel to submission, while delayed attempts miss the narrow window of vulnerability. The sweep integrates into a broader defensive strategy from Inside Sankaku that includes heel protection, escape attempts, and counter-entanglement, making it one weapon in an arsenal of bottom-position options rather than a standalone technique.",
   "conditions": [
     "Opponent has established Inside Sankaku control with your leg trapped in their figure-four configuration",

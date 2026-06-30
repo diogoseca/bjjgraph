@@ -15,26 +15,41 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Straight Ankle Lock Control/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Inside Ashi-Garami/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     },
     {
       "to": "Straight Ankle Lock from Straight Ankle Lock Control",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "summary": "The counter from ankle lock is a defensive escape from straight ankle lock control that nullifies the submission with boot defense and two-on-one grip stripping, then drives forward to pass the attacker's guard into side control.",
   "overview": "The counter from ankle lock is a critical defensive transition that transforms a dangerous submission predicament into an opportunity for positional dominance. When caught in straight ankle lock control, the instinct to yank the leg free plays directly into the attacker's hands by extending the ankle and tightening their grip mechanics. This counter instead uses deliberate structural defense followed by aggressive forward pressure to neutralize the submission threat and pass the attacker's guard into side control.\n\nThe strategic foundation rests on recognizing that the ankle lock attacker has traded superior positioning for submission opportunity. Their hands are committed to the ankle grip, their legs are occupied controlling your trapped leg, and their posture is compromised by the need to arch back for finishing leverage. These structural commitments create predictable vulnerabilities: limited mobility against forward pressure, poor base for re-guarding, and exposed upper body once you neutralize the breaking mechanics. The counter exploits every one of these sacrifices.\n\nExecution demands a disciplined two-phase approach. Phase one is pure defense: establish boot position by plantarflexing the foot and hiding the toes, then initiate two-on-one grip fighting to strip the heel control. Phase two transitions immediately to offense: drive forward pressure to stack the attacker's hips, strip remaining grips, step over their legs, and consolidate side control. The tempo between phases is decisive. Lingering in defense allows the attacker to recompose or transition to inside ashi-garami, while rushing the pass without completing boot defense invites the submission finish.",
   "conditions": [

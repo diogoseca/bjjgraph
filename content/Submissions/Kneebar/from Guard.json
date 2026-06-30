@@ -16,7 +16,10 @@
   "target_area": "Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament)",
   "starting_position": "Closed Guard",
   "from_position": "Closed Guard/Bottom",
-  "success_rate": 52,
+  "success_rate": {
+    "gi": 52,
+    "nogi": 52
+  },
   "overview": "The Kneebar from Guard represents a powerful attacking option from bottom positions, allowing the guard player to transition from defensive positioning to an immediate submission threat. This technique targets the knee joint through hyperextension, creating mechanical stress on the posterior cruciate ligament and collateral ligaments. The kneebar from guard is particularly effective because it capitalizes on the opponent's forward pressure and weight distribution, using their momentum against them. The technique can be executed from multiple guard variations including closed guard, butterfly guard, open guard, and De La Riva guard, each offering unique entry mechanics and control positions. Modern leg lock systems have elevated the kneebar from guard to a fundamental attacking position, with practitioners developing sophisticated entries that blend seamlessly with sweeps and back takes. The position requires precise timing, hip positioning, and leg control to prevent escape while maintaining offensive pressure. When executed correctly, the kneebar from guard creates an inescapable submission that forces immediate tap or results in serious injury.",
   "safety_considerations": {
     "injury_risks": [
@@ -73,17 +76,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],

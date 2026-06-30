@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Kuzure Kesa-Gatame/Top",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "Side Control/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 12,
+      "probability": {
+        "gi": 12,
+        "nogi": 12
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "overview": "Side Control to Kuzure Kesa-Gatame is a deliberate positional shift within the side control family in which the top player converts a standard perpendicular pin into the modified scarf hold (Kuzure Kesa-Gatame) by scooping and trapping the opponent's near arm across their own torso, clamping it between armpit and ribs while driving hip pressure into the opponent's lower ribs. Unlike the classical Kesa Gatame, which relies on a deep head wrap, this variation trades head control for an isolated arm, immediately opening armbar, americana, and kimura threats while preserving a stable, bridge-resistant base.\n\nStrategically, this transition is one of the highest-value lateral shifts available from side control. It converts positional dominance into instant submission proximity: where standard side control requires several setup steps to reach the arm, Kuzure Kesa-Gatame arrives there in a single connected movement. The position is especially useful against opponents who defend the classical scarf hold by pinning their chin to their chest and denying the head wrap, or against larger opponents where head-and-arm control is hard to secure but a clean arm isolation remains achievable. It carries roots in judo's ne-waza and has been refined in modern no-gi grappling where gi-dependent scarf grips are unavailable.\n\nThe critical element of this transition is the arm isolation paired with a small hip shift toward the opponent's head. The top player must scoop the near arm and clamp it tightly under the armpit before shifting their hips, because any hip movement before the arm is secured allows the opponent to swim the arm free and frame into a guard recovery. Executed correctly, the transition flows directly out of failed standard side control submission attempts, using the opponent's defensive arm movement as the entry window to capture the arm and establish the scarf hold.",
   "related_content": [
     {

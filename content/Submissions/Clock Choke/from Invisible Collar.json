@@ -18,7 +18,10 @@
   "target_area": "Carotid arteries and jugular veins",
   "starting_position": "Invisible Collar",
   "from_position": "Invisible Collar/Top",
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Clock Choke from Invisible Collar combines the deceptive grip concealment of the invisible collar position with the rotational finishing pressure of the clock choke. Unlike the standard clock choke from turtle top where the attacker must first establish a collar grip, this variant begins with the grip already hidden deep in the opponent's lapel from back control. The attacker transitions from concealed collar control into the characteristic circular walking motion, using the pre-established grip depth to generate immediate choking pressure before the opponent recognizes the threat has shifted from positional control to active submission.\n\nThis variant is particularly effective because the invisible collar grip disguises the clock choke setup as routine back control maintenance. The opponent allocates defensive resources to preventing rear naked chokes and armbar entries, leaving the collar grip unchallenged until walking pressure begins. The transition from invisible collar to clock choke finishing mechanics requires precise timing—the attacker must shift their weight forward and begin the walking arc at the exact moment grip depth is sufficient to generate carotid compression through rotation alone.\n\nIn competition, this technique punishes opponents who prioritize hook defense over grip monitoring. The invisible collar establishes choking infrastructure while the opponent focuses on removing hooks or preventing the seat belt switch. When the attacker initiates the clock walk, the choke tightens rapidly because the collar material is already seated against the carotid arteries rather than needing to be drawn across the neck during the walk itself.",
   "safety_considerations": {
     "injury_risks": [
@@ -94,17 +97,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "Invisible Collar/Top",
-      "probability": 27,
+      "probability": {
+        "gi": 27,
+        "nogi": 27
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],

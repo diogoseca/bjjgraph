@@ -18,21 +18,33 @@
   "outcomes": [
     {
       "to": "Open Guard/Bottom",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Cross Ashi-Garami/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Saddle/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "Leg Extraction from Cross Ashi-Garami is a systematic defensive escape designed to free the trapped leg from the opponent's crossed leg entanglement and recover to open guard. Unlike escaping standard ashi garami where the opponent's legs run parallel, cross ashi features the top player's legs crossing over each other around the trapped limb, creating a figure-four-like structure that demands a specific clearing sequence targeting the outside cross first. The crossed configuration generates a wedge effect that prevents simple linear withdrawal, making the extraction mechanically distinct from other leg entanglement escapes.\n\nThe escape operates on the principle that the cross ashi structure depends on three interdependent connection points: the outside leg cross at shin level, the inside hook behind the hip or knee, and the heel or ankle grip. Removing the outside cross first collapses the structural advantage of the position, reducing it to a much weaker control similar to loose standard ashi. The escaping practitioner must sequence their clearing actions precisely: strip the heel grip to eliminate the immediate submission threat, clear the outside cross to break the wedge geometry, then extract the trapped leg through the gap while preventing re-crossing.\n\nStrategically, leg extraction from cross ashi carries moderate success rates because the crossed configuration gives the top player superior retention compared to standard ashi. However, the escape becomes viable whenever the opponent adjusts position to advance toward saddle or reaches for a deeper heel grip, creating brief windows where the cross loosens. The timing dependency makes this escape a reactive technique that rewards patient defenders who recognize these adjustment windows rather than forcing the escape against tight control. When the extraction fails, the most common consequence is the opponent advancing to saddle, making the escape more urgent but also more risky the longer the defender waits.",
   "conditions": [
     "Opponent has established cross ashi-garami with legs crossed over your trapped leg but has not yet consolidated saddle or tight hip-to-hip pressure",

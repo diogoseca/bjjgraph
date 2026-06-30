@@ -18,26 +18,41 @@
   "outcomes": [
     {
       "to": "Body Lock/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Harness/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Turtle/Top",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "failure"
     },
     {
       "to": "Clinch/Top",
-      "probability": 5,
+      "probability": {
+        "gi": 5,
+        "nogi": 5
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 65,
+  "success_rate": {
+    "gi": 65,
+    "nogi": 65
+  },
   "overview": "This transition sits at the boundary between ground-based back control and standing grappling, arising the moment a defender abandons hook-fighting and stands to disengage. Rather than chase the lost hooks against a rising opponent, the top player redirects the seat belt grip downward to the waist, transforming a configuration optimized for choking into one optimized for mat returns, throws, and re-establishing ground back control while the chest-to-back connection never breaks. This transition occurs when your opponent stands up from back control or when you deliberately elevate them to pursue standing finishing sequences.\n\nStrategically, this transition addresses a common defensive pathway where skilled opponents escape back hooks and begin standing to disengage. Rather than fighting to re-establish hooks against a standing opponent, the body lock allows you to maintain dominant control while accessing an entirely different attack tree: mat returns to back mount, trips, throws, and body lock passing sequences. Elite no-gi competitors treat this as a seamless continuation of back control rather than a concession, because the body lock preserves your positional advantage while the opponent believes they are escaping.\n\nThe critical window for this transition is narrow. As your opponent begins to stand and clear hooks, you must redirect your grip path downward toward their waist before they achieve full upright posture with defensive frames established. Hesitation results in grip separation and scramble. Executed properly, the opponent stands directly into your body lock and faces immediate takedown or mat return threats with no opportunity to establish defensive positioning.",
   "conditions": [
     "Opponent is standing up or has achieved kneeling posture from back control",

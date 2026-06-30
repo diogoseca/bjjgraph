@@ -17,7 +17,10 @@
   "target_area": "Shoulder joint, rotator cuff, and shoulder capsule",
   "starting_position": "Gift Wrap",
   "from_position": "Gift Wrap/Top",
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "summary": "The Kimura from Gift Wrap is a figure-four shoulder lock that converts the already-trapped arm of the Gift Wrap back-control variation into a rotational submission, exploiting the pre-isolated limb to skip the usual grip-fighting phase.",
   "overview": "The Kimura from Gift Wrap exploits the fundamental control advantage of having one arm already isolated across the opponent's body. Unlike the standard Kimura where the attacker must first win a grip battle to isolate the arm, the Gift Wrap position pre-loads half the submission setup by trapping the target limb in a compromised position across the defender's chest.\n\nThe transition from Gift Wrap control to the Kimura grip is the technical crux of this submission. The attacker must shift from the over-under arm threading of the Gift Wrap to a figure-four grip on the trapped arm without creating enough space for the opponent to recover. This grip transition represents both the opportunity and the risk: done correctly, it flows directly into a high-percentage shoulder lock with the opponent's arm already compromised; done carelessly, it releases the Gift Wrap control without securing the finishing position.\n\nStrategically, this submission fits within a larger Gift Wrap attack system where the trapped arm creates multiple threat vectors. The Kimura pairs naturally with the rear naked choke and armbar from the same position, creating a submission chain where defending one attack exposes the opponent to another. The Kimura threat forces the defender to prioritize arm protection, which opens the neck for choke attacks and creates opportunities for positional advancement to mount or crucifix.",
   "safety_considerations": {
@@ -111,17 +114,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 62,
+      "probability": {
+        "gi": 62,
+        "nogi": 62
+      },
       "result": "success"
     },
     {
       "to": "Gift Wrap/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 13,
+      "probability": {
+        "gi": 13,
+        "nogi": 13
+      },
       "result": "counter"
     }
   ],

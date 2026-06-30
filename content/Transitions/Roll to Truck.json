@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Truck/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Buggy Choke/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Turtle/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Roll to Truck transition represents a critical pathway in the turtle attack system when opponents attempt to escape buggy choke pressure through granby rolling or defensive rotation. Rather than fighting against their momentum, this technique harnesses their defensive movement to achieve the truck position—a dominant control with multiple high-percentage submission threats including the twister, calf slicer, and banana split.\n\nThis transition exemplifies the principle of using opponent reactions against them. When defending the buggy choke, opponents commonly attempt to roll away from choking pressure. The Roll to Truck capitalizes on this predictable defensive pattern by maintaining leg and hip control while following their rotation, converting what they intended as an escape into an even worse positional situation. The technique bridges the 10th Planet front headlock system with the truck and twister systems.\n\nStrategically, the Roll to Truck should be viewed as an opportunistic transition rather than a forced entry. Attempting to roll an opponent who is defending statically typically fails. The technique works best when timed with the opponent's own escape momentum, requiring sensitivity to their movement intentions and commitment to following their direction while establishing boot control as the primary mechanism for truck position consolidation.",
   "conditions": [
     "Buggy choke control is established with threading arm under opponent's near armpit",

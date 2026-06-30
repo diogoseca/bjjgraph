@@ -19,7 +19,10 @@
   "target_area": "Calf muscle and Achilles tendon",
   "starting_position": "Russian Cowboy",
   "from_position": "Russian Cowboy/Top",
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "The calf slicer from Russian Cowboy exploits the unique leg positioning inherent in single-hook back control to attack the opponent's calf and knee joint through compression. Unlike calf slicers applied from truck or other leg entanglements, the Russian Cowboy entry allows the attacker to maintain superior upper body control throughout the setup, reducing the defender's ability to anticipate and counter the attack. The single hook already positions the attacking leg in close proximity to the target area behind the opponent's knee, making this transition more fluid and harder to detect than entries from other positions.\n\nThe mechanics rely on threading your shin behind the opponent's knee crease while maintaining chest-to-back pressure. By folding the opponent's lower leg over your shin and controlling their foot, you create a compression fulcrum that attacks both the calf muscle and the connective tissue around the knee. The finishing force comes primarily from hip extension combined with pulling the captured foot, generating tremendous pressure across the calf against the hard surface of your shin bone.\n\nStrategically, the calf slicer serves as a powerful secondary attack from Russian Cowboy, particularly effective when the opponent successfully defends truck entries or choke attempts. The threat of the calf slicer forces defenders to address leg positioning alongside neck protection, creating the multi-threat dynamic that makes Russian Cowboy such an effective attacking platform in modern no-gi grappling systems.",
   "safety_considerations": {
     "injury_risks": [
@@ -104,17 +107,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Russian Cowboy/Top",
-      "probability": 32,
+      "probability": {
+        "gi": 32,
+        "nogi": 32
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 18,
+      "probability": {
+        "gi": 18,
+        "nogi": 18
+      },
       "result": "counter"
     }
   ],

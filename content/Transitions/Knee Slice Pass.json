@@ -22,21 +22,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 68,
+      "probability": {
+        "gi": 68,
+        "nogi": 68
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 12,
+      "probability": {
+        "gi": 12,
+        "nogi": 12
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 68,
+  "success_rate": {
+    "gi": 68,
+    "nogi": 68
+  },
   "conditions": [
     "Top player has at least one leg trapped in opponent's half guard",
     "Top player has established upper body control through crossface, collar grip, or underhook",

@@ -15,26 +15,41 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "success"
     },
     {
       "to": "Turtle/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "Named after Olympic wrestler John Peterson, this turtle-bottom reversal migrated into Brazilian Jiu-Jitsu as a way to punish opponents who over-commit their weight forward while breaking down your turtle or hunting back control. It exploits that weight commitment by capturing the attacking limb and channeling the opponent's forward pressure into a rolling reversal that lands you in a dominant top position, typically side control or half guard top. The Peterson Roll is particularly effective against opponents who drive into you from behind without managing their base. Unlike the granby roll, which aims primarily for guard recovery, the Peterson Roll is an offensive reversal that puts you directly into a scoring position. The technique requires precise timing, proper arm positioning to capture the opponent's attacking limb, and explosive hip movement to generate the rotation needed to complete the roll. It forms an essential part of any complete turtle defense system, giving you a legitimate threatening option that forces opponents to respect your ability to reverse position rather than simply attacking freely.",
   "related_content": [
     {

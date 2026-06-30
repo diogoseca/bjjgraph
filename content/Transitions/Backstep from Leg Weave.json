@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Leg Weave/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Deep Half Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Within the leg weave passing system, the backstep is the change-of-direction answer to a bottom player who has organized strong frames against forward-driving pressure. Unlike linear passing options from leg weave such as the knee slice or smash pass, the backstep introduces an angular change that exploits moments when the bottom player commits defensive frames against forward pressure, redirecting the pass from a forward vector to a lateral one that arrives in side control.\n\nThe technique operates on the principle of directional misdirection. When the bottom player establishes strong frames against forward crossface pressure and weight distribution, the backstep pivots around those defensive structures rather than driving through them. The passer rotates their hips, swinging the free leg behind and around the bottom player's legs while maintaining upper body connection through the weaved leg. This angular shift creates a passing pathway that circumvents the defensive framework entirely.\n\nStrategically, this technique serves as a secondary option within the leg weave passing system. When primary forward-driving passes meet organized resistance, the backstep provides a directional change that punishes over-commitment to frontal defense. Advanced passers chain the backstep with knee slice, smash pass, and leg drag threats to create multi-directional dilemmas where defending one passing angle necessarily opens vulnerability to another, making the leg weave position progressively more dangerous the longer the bottom player remains trapped.",
   "conditions": [
     "Established leg weave position with deep threading of lead leg between opponent's legs",

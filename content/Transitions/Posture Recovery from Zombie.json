@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Top",
-      "probability": 48,
+      "probability": {
+        "gi": 48,
+        "nogi": 48
+      },
       "result": "success"
     },
     {
       "to": "Zombie/Top",
-      "probability": 32,
+      "probability": {
+        "gi": 32,
+        "nogi": 32
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 48,
+  "success_rate": {
+    "gi": 48,
+    "nogi": 48
+  },
   "overview": "Few positions stall a top passer like the 10th Planet Zombie, where the bottom player fuses lockdown leg tension with an underhook and head control to keep the passer bent forward and structurally compromised. Before any passing sequence becomes viable, the top player must systematically re-establish structural integrity against these layered controls. This recovery represents the essential first step in defeating the Zombie system from top position.\n\nThe recovery process requires a methodical approach combining crossface pressure, strategic weight distribution, and gradual spine extension to overcome the bottom player's pulling forces. Unlike simple posture recovery from closed guard, the lockdown adds significant mechanical resistance that prevents the top player from simply sitting upright. The trapped leg creates a fulcrum that the bottom player exploits to maintain broken posture, requiring the top player to address both upper body control and lower body extraction simultaneously.\n\nSuccess in this transition directly enables the top player to begin passing sequences toward side control, while failure leaves them vulnerable to sweeps, submissions, and continued positional stagnation. The technique exemplifies the importance of systematic positional recovery in BJJ, where rushing the process exposes the top player to the bottom player's strongest counterattacks including the Old School Sweep and Electric Chair submission.",
   "conditions": [
     "Top player's posture has been broken by the Zombie bottom player's lockdown and upper body control",

@@ -19,7 +19,10 @@
   "target_area": "Foot and ankle joints (dorsiflexion of foot)",
   "starting_position": "Honey Hole",
   "from_position": "Honey Hole/Top",
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Within the Honey Hole submission chain, the Estima Lock serves as the foot-attack counterpart to the heel hook, exploiting the inside leg entanglement to capture and dorsiflex the foot precisely when the heel itself is buried out of reach. Unlike the standard heel hook attacks that dominate from this position, the Estima Lock targets the ankle and foot ligaments by wrapping the forearm over the top of the opponent's foot and using the radius bone as a fulcrum against the front of the ankle joint. This creates a powerful bending force on the tarsometatarsal joint and surrounding ligaments that opponents rarely anticipate when their entire defensive focus is committed to protecting the heel.\n\nThe strategic value of this attack lies in misdirection within the Honey Hole submission chain. Opponents trapped in Honey Hole bottom allocate nearly all defensive resources to heel hook prevention — hiding the heel, grip fighting the hands, and attempting rotational escapes. The Estima Lock attacks an entirely different vector, punishing defenders who commit fully to heel concealment by capturing the exposed dorsal surface of the foot instead. The inside leg triangle provides the control foundation needed to isolate the foot without the opponent being able to retract their leg during the grip transition.\n\nFrom a competition standpoint, the Estima Lock from Honey Hole functions as a secondary attack that maintains constant offensive pressure when primary heel hook attempts are defended. The position's inherent control makes this lock more secure than from open guard or standing positions, though precise forearm placement and deliberately controlled pressure application are essential for both effectiveness and training safety.",
   "safety_considerations": {
     "injury_risks": [
@@ -105,17 +108,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Honey Hole/Top",
-      "probability": 29,
+      "probability": {
+        "gi": 29,
+        "nogi": 29
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 16,
+      "probability": {
+        "gi": 16,
+        "nogi": 16
+      },
       "result": "counter"
     }
   ],

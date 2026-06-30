@@ -16,26 +16,41 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Side Control/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "success"
     },
     {
       "to": "De La Riva Guard/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "Named for its characteristic leg-hooking motion that resembles a sickle cutting through grass, the Sickle Sweep exploits the opponent's base the moment they attempt to pass or establish posture in your De La Riva Guard. The technique combines precise leg positioning with upper body control to create a powerful sweeping motion that drives the opponent backward and allows you to come on top.\n\nThis sweep is particularly effective against opponents who are standing or have elevated their posture in your De La Riva Guard. The sickle motion of your hooking leg combined with a collar or sleeve grip creates a powerful lever system that makes it extremely difficult for the opponent to maintain their balance. Unlike some sweeps that require explosive power, the Sickle Sweep relies on proper timing and technical execution, making it accessible to practitioners at all skill levels.\n\nThe Sickle Sweep serves as a cornerstone technique in modern De La Riva Guard systems and chains naturally with other attacks including back takes, leg entanglements, and submission attempts. Understanding this sweep provides essential insight into how the De La Riva hook functions as an offensive weapon rather than just a defensive control mechanism.",
   "related_content": [
     {

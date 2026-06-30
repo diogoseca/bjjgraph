@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Flattened Half Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Practitioners reach for this retreat the moment the dogfight exchange starts to slip—typically when the opponent establishes a dominant whizzer, wins the crossface battle, or generates superior forward pressure that threatens flattening. Rather than continuing to fight a losing underhook battle that drains energy and risks being smashed flat, the bottom player proactively disengages the elevated kneeling posture and re-establishes a structured half guard with proper frames, knee shield, and distance management intact.\n\nThis transition occupies a critical role in modern half guard systems as a pressure-release valve. Practitioners who lack this skill frequently get caught between positions—too committed to retreat cleanly, yet unable to advance offensively—resulting in energy-draining stalemates or being driven into flattened half guard where all offensive capability disappears. The key distinction is between a controlled, frame-first re-pull that lands you in an organized half guard versus an uncontrolled collapse that the top player exploits to advance position.\n\nStrategically, the re-pull serves a dual purpose: it preserves energy for future offensive cycles and resets the positional exchange to a configuration where the bottom player has multiple guard variation options available. A well-executed re-pull into knee shield half guard, for instance, provides immediate distance management and creates a platform to re-enter dogfight, transition to deep half, or pursue alternative sweeping pathways. The willingness to retreat intelligently—rather than stubbornly fighting a lost exchange—separates experienced half guard players from those who exhaust themselves in unwinnable dogfights.",
   "conditions": [
     "You are the bottom player in Dogfight with your inside leg still trapped in half guard configuration",

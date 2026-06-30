@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Chill Dog/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "New York/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Advance to Chill Dog represents a critical progression within the 10th Planet Rubber Guard system, moving from the foundational New York control into a deeper attacking position that sets up the gogoplata and other high-percentage finishes. This transition capitalizes on the broken posture and overhook control established in New York, threading the controlling leg deeper across the opponent's back to create the distinctive Chill Dog configuration.\n\nThe strategic value of this advancement lies in its ability to convert positional control into immediate submission threat. While New York offers multiple attack pathways, Chill Dog narrows the focus to neck attacks - particularly the gogoplata - while maintaining the fundamental overhook control that prevents the opponent from posturing. The transition exploits the opponent's compromised structure, using their forward-driven posture as the mechanism for deepening leg control.\n\nBiomechanically, the move requires threading the shin that was across the opponent's back deeper until the instep can hook around their neck. This demands significant hip flexibility combined with precise timing - attempting the thread while the opponent is fighting posture creates the space needed for the leg to travel. The overhook arm maintains constant pressure throughout, preventing any explosive posture recovery that would shut down the transition.\n\nFrom a game theory perspective, Advance to Chill Dog forces the opponent into increasingly desperate defensive decisions. Once the leg begins threading deeper, they must choose between accepting the deeper control or attempting explosive escapes that often expose them to armbar, triangle, or omoplata attacks. This dilemma-based approach exemplifies the 10th Planet philosophy of creating no-win situations through systematic positional advancement.",
   "related_content": [
     {

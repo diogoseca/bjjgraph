@@ -43,6 +43,7 @@ from scripts.claude_infer import call_claude as _infer_call_claude
 from scripts.peak_throttle import is_peak as _is_peak, PACIFIC as _PEAK_PACIFIC
 from scripts._atomic_io import atomic_write_json
 from scripts._prob_norm import largest_remainder_round as _largest_remainder_round
+from scripts._ruleset import reduce_to_scalar  # collapse mirror {gi,nogi} maps at load (calibration-v2)
 
 
 def _is_peak_now() -> bool:
@@ -165,7 +166,7 @@ def build_reference_lists() -> Dict[str, List[str]]:
                 continue
             try:
                 with open(f, 'r', encoding='utf-8') as fh:
-                    data = json.load(fh)
+                    data = reduce_to_scalar(json.load(fh))
                 if 'name' in data:
                     names.append(data['name'])
                     continue
@@ -1315,7 +1316,7 @@ def transition_exists(name: str, from_position: str, refs: Dict[str, List[str]])
         if trans_path:
             try:
                 with open(trans_path, 'r') as f:
-                    existing_data = json.load(f)
+                    existing_data = reduce_to_scalar(json.load(f))
                 existing_from = existing_data.get("from_position", "")
                 # Same name AND same from_position = duplicate
                 if existing_from == from_position:
@@ -1443,7 +1444,7 @@ def load_json(path: Path) -> Optional[dict]:
     """Load JSON file."""
     try:
         with open(path, 'r', encoding='utf-8') as f:
-            return json.load(f)
+            return reduce_to_scalar(json.load(f))
     except Exception as e:
         stats_append_error(f"Failed to load {path}: {e}")
         return None

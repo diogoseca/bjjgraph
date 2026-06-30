@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Open Guard/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Piranha Guard/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Modern lapel guards force the top player to win a grip-fighting battle before any pass becomes realistic, and Piranha Guard is among the most demanding of these because the bottom player threads the collar between their own legs to build pulley-like leverage on your posture. This transition is the dedicated answer to that problem: a methodical clearing sequence that addresses the collar entanglement threat-by-threat rather than trying to power through it. It is essential knowledge for any top player who regularly meets lapel guard systems in gi competition, since the threaded collar must be dismantled before standard passing mechanics can even begin.\n\nThe technique requires patience and methodical execution rather than explosive strength. The top player must maintain strong base throughout the grip-fighting exchange while prioritizing threats hierarchically—addressing neck and back wraps first, then clearing the leg-threaded configuration. The key challenge lies in stripping grips without creating the openings that the bottom player needs to execute sweeps or transition to more dangerous attacking positions. Every grip break creates a momentary window where the top player's base is compromised, and skilled Piranha Guard players will exploit these windows aggressively.\n\nSuccessful execution fundamentally changes the positional dynamic, converting a complex lapel guard engagement into a standard open guard passing scenario. This reset denies the bottom player the mechanical advantages that make Piranha Guard dangerous and forces them to rebuild their guard system from scratch. The technique integrates naturally with broader lapel guard passing methodology and serves as a prerequisite skill for anyone regularly facing lapel guard players in training or competition.",
   "conditions": [
     "Top player is in Piranha Guard top position with collar compromised and threaded through opponent's legs",

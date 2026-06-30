@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Knee on Belly/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The KOB to Side Control transition is a fundamental consolidation movement where the top player deliberately drops from Knee on Belly into a crossface side control position. While Knee on Belly offers dynamic attacking potential and scoring opportunities, there are strategic moments when returning to side control provides superior positional stability and access to different submission chains. This transition occurs most frequently when the bottom player's defensive activity — framing against the knee, shrimping, or attempting sit-up escapes — compromises the top player's ability to maintain effective KOB pressure.\n\nThe critical challenge lies in maintaining constant pressure throughout the transition. The brief moment when the knee lifts off the belly and the body drops to perpendicular chest contact creates a vulnerability window where the bottom player can insert frames, recover a knee shield, or begin shrimping to half guard. Skilled practitioners minimize this window by establishing upper body control — crossface and hip control — before initiating the knee drop, ensuring seamless pressure transfer from vertical knee pressure to horizontal chest pressure.\n\nStrategically, this transition fits within a larger pressure cycling system. The top player who can flow between KOB, side control, mount, and north-south creates constant positional dilemmas that exhaust the bottom player's defensive resources. Returning to side control is not a retreat but a deliberate positional reset that enables fresh attacking angles, different submission entries, and renewed pressure from a mechanically advantageous platform.",
   "conditions": [
     "Established Knee on Belly position with at least one controlling grip on collar or belt",

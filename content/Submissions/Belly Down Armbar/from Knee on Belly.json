@@ -17,7 +17,10 @@
   "target_area": "Elbow joint hyperextension and ulnar collateral ligament",
   "starting_position": "Knee on Belly",
   "from_position": "Knee on Belly/Top",
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "summary": "The belly down armbar from knee on belly is a prone elbow-hyperextension finish where the top player isolates the arm exposed by knee pressure, steps over the head, and rotates face-down to lock the elbow with hip drive and bilateral knee squeeze.",
   "overview": "The belly down armbar finish from knee on belly exploits the reactive arm exposure that knee on belly pressure creates. When the bottom player pushes against the knee or frames to relieve diaphragm pressure, the top player isolates the near arm and transitions into a belly down armbar position that eliminates standard escape options. The elevated starting point of knee on belly provides natural clearance for stepping over the opponent's head, while existing knee pressure keeps the defender pinned and reactive throughout the transition.\n\nThis variation offers distinct mechanical advantages over standard armbar entries. The rotation to belly-down creates a finishing configuration where gravity, hip extension, and bilateral knee squeeze combine to generate overwhelming force on the elbow joint. The prone position eliminates the hitchhiker escape and stack defense simultaneously, making this one of the highest-percentage armbar finishes available.\n\nFrom a defensive perspective, the speed of the transition from knee on belly pressure to arm isolation demands immediate recognition and response. Any delay in defensive framing allows the attacker to secure wrist control and begin the rotation sequence, after which escape becomes significantly more difficult. The combination of positional pressure and submission threat makes this technique a cornerstone of advanced knee on belly offense.",
   "safety_considerations": {
@@ -95,17 +98,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Knee on Belly/Top",
-      "probability": 32,
+      "probability": {
+        "gi": 32,
+        "nogi": 32
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 18,
+      "probability": {
+        "gi": 18,
+        "nogi": 18
+      },
       "result": "counter"
     }
   ],

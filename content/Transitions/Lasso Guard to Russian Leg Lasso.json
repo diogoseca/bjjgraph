@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Russian Leg Lasso/Bottom",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Lasso Guard/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Transition to Russian Leg Lasso converts a standard single-leg lasso guard into the double-leg threading variation by reconfiguring grips and threading the second leg through the opponent's free arm. Where standard lasso controls one side of the opponent's body, the Russian variation binds both arms simultaneously, creating a dramatically more restrictive control system that eliminates the top player's ability to establish any effective passing grips. This upgrade in control comes at the cost of committing both legs to the lasso configuration, which reduces the bottom player's mobility and fallback options.\n\nThe transition exploits a specific window that occurs when the top player focuses on addressing the initial lasso. As they work to break the first sleeve grip or step over the lasso leg, their attention and free arm become momentarily vulnerable. The bottom player capitalizes by threading the second leg through the now-exposed arm, converting a single control point into a bilateral binding system. Attempting the transition when the opponent is fully disengaged or has already cleared the first lasso is ill-advised because there is no structural foundation to build upon.\n\nStrategically, this transition serves as an escalation within the lasso guard system. Once both legs are threaded, the bottom player gains access to powerful rotational sweeps that use both legs as coordinated levers, creating torque that is exceptionally difficult to resist. The top player faces a compounding problem: addressing one lasso loosens the other, and retreating from one side drives them into the opposite leg's control. This bilateral dilemma is what makes the Russian Leg Lasso a devastating control position for competition-oriented guard players who can execute the threading sequence consistently.",
   "variants_and_adaptations": [
     {

@@ -288,39 +288,66 @@
     "transitions": [
       {
         "transition": "Stack Pass",
-        "attempt_probability": 17
+        "attempt_probability": {
+          "gi": 17,
+          "nogi": 17
+        }
       },
       {
         "transition": "Posture Recovery",
-        "attempt_probability": 33
+        "attempt_probability": {
+          "gi": 33,
+          "nogi": 33
+        }
       },
       {
         "transition": "Triangle Escape",
-        "attempt_probability": 17
+        "attempt_probability": {
+          "gi": 17,
+          "nogi": 17
+        }
       },
       {
         "transition": "Arm Extraction",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 12
+        }
       },
       {
         "transition": "Pass to Side Control",
-        "attempt_probability": 5
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 5
+        }
       },
       {
         "transition": "Standing up in Base",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 12
+        }
       },
       {
         "transition": "Complete Triangle Escape",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 2
+        }
       },
       {
         "transition": "Posture in Triangle Escape",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 1
+        }
       },
       {
         "transition": "Reversal from Triangle Escape",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 1
+        }
       }
     ]
   },
@@ -570,23 +597,38 @@
     "transitions": [
       {
         "transition": "Triangle Choke",
-        "attempt_probability": 40
+        "attempt_probability": {
+          "gi": 40,
+          "nogi": 40
+        }
       },
       {
         "transition": "Triangle to Armbar",
-        "attempt_probability": 25
+        "attempt_probability": {
+          "gi": 25,
+          "nogi": 25
+        }
       },
       {
         "transition": "Triangle to Omoplata",
-        "attempt_probability": 15
+        "attempt_probability": {
+          "gi": 15,
+          "nogi": 15
+        }
       },
       {
         "transition": "Triangle to Back",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 12
+        }
       },
       {
         "transition": "Inverted Triangle",
-        "attempt_probability": 8
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 8
+        }
       }
     ]
   }

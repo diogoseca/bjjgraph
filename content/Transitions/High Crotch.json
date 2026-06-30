@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Standing Position/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Standing Position/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "overview": "The High Crotch is a fundamental wrestling-based takedown that has become essential in modern Brazilian Jiu-Jitsu, particularly in no-gi competition. Unlike the traditional double leg where both legs are attacked simultaneously, the High Crotch focuses on capturing one leg while driving the opponent's hips backward, creating a mechanical advantage that makes the takedown highly effective even against larger opponents. This technique is particularly valuable because it allows the practitioner to maintain better posture throughout the execution, reducing exposure to guillotine chokes and other standing submission threats.\n\nThe High Crotch works by combining forward pressure with rotational mechanics, forcing the opponent into a compromised position where their base is undermined. The key distinction from other single-leg variations is the high placement of the shoulder into the opponent's inner thigh or lower abdomen, which provides superior control over their hips and prevents them from simply stepping back to defend. When executed properly, the High Crotch can be finished in multiple ways - running the pipe, lifting and returning, or transitioning to other takedown variations - making it a versatile addition to any grappler's standing game.\n\nIn the context of BJJ competition, the High Crotch has gained prominence due to its effectiveness in both gi and no-gi settings, its compatibility with guard pulling as a backup option, and its ability to score takedown points while maintaining relatively safe positioning. The technique requires proper timing, explosive penetration step, and understanding of weight distribution, but once mastered, it becomes one of the highest percentage takedowns available to grapplers at all levels.",
   "related_content": [
     {

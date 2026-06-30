@@ -16,7 +16,10 @@
   "target_area": "Neck (Carotid Arteries)",
   "starting_position": "Reverse Scarf Hold",
   "from_position": "Reverse Scarf Hold/Top",
-  "success_rate": 42,
+  "success_rate": {
+    "gi": 42,
+    "nogi": 42
+  },
   "summary": "The North-South Choke from Reverse Scarf Hold is a bilateral blood choke that converts the reverse scarf pin into carotid compression by threading the choking arm beneath the opponent's neck and shifting the hips into north-south alignment.",
   "overview": "The North-South Choke from Reverse Scarf Hold is a high-percentage blood choke that exploits the unique reverse orientation of the scarf hold position to create a seamless transition into bilateral carotid compression. Beginning from reverse scarf hold, where the attacker already faces the opponent's legs with heavy chest pressure established, the attacker threads their choking arm beneath the opponent's neck and shifts their hips toward a north-south alignment. This transition leverages existing control and pressure to set up one of the tightest chokes available from top position.\n\nThe mechanics of this choke create a particularly effective strangling angle. The attacker's bicep compresses one carotid artery while their chest and shoulder drop onto the opposite side of the neck, creating bilateral compression that produces rapid unconsciousness when locked correctly. The reverse scarf hold starting position offers a significant tactical advantage over entering the north-south choke from standard north-south, as the opponent's arm is already trapped and their defensive framing options are severely compromised before the choke is even initiated.\n\nStrategically, this submission serves as the primary threat from reverse scarf hold, forcing the bottom player into a defensive dilemma: protect the neck and concede positional advancement, or maintain frames against the pin and risk the choke. This dilemma creation makes the reverse scarf hold significantly more dangerous when the top player has developed proficiency with the north-south choke finish, transforming an often-overlooked transitional pin into a lethal submission platform.",
   "safety_considerations": {
@@ -65,22 +68,34 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 42,
+      "probability": {
+        "gi": 42,
+        "nogi": 42
+      },
       "result": "success"
     },
     {
       "to": "Reverse Scarf Hold/Top",
-      "probability": 28,
+      "probability": {
+        "gi": 28,
+        "nogi": 28
+      },
       "result": "failure"
     },
     {
       "to": "North-South/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],

@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Front Headlock/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Standing Position/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The snap down from standing is a fundamental wrestling-derived technique that has become essential in modern Brazilian Jiu-Jitsu. By applying a sharp downward pull on the opponent's head or neck, the attacker breaks their posture and drives them toward the mat, creating the opportunity to establish front headlock control. The technique exploits moments when the opponent's weight shifts forward during grip fighting or when they extend their head past their base, redirecting that forward momentum straight down.\n\nStrategically, the snap down serves as the primary gateway to the front headlock submission system. A successful snap down opens immediate pathways to guillotine chokes, anaconda chokes, darce chokes, and back takes. Unlike level-change takedowns that require significant athleticism and precise timing, the snap down relies on reading the opponent's balance and redirecting their existing forward momentum downward. This makes it one of the most accessible and reliable standing techniques for practitioners of all body types and experience levels.\n\nThe technique integrates seamlessly into standing grip fighting exchanges. When an opponent reaches forward aggressively, establishes a collar tie, or drives their head position forward, the snap down punishes that forward commitment. This creates a strategic dilemma where the opponent must choose between maintaining aggressive grip fighting posture and exposing themselves to the snap down, or staying conservative and ceding the initiative in the grip battle entirely.",
   "conditions": [
     "Opponent's head is extended forward past their base or weight is shifting onto their toes during grip fighting",

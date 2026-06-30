@@ -19,7 +19,10 @@
   "target_area": "Carotid arteries and windpipe",
   "starting_position": "Guillotine Control",
   "from_position": "Guillotine Control/Top",
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "overview": "The guillotine choke from guillotine control represents the finishing phase of one of Brazilian Jiu-Jitsu's most versatile and high-percentage submissions. Unlike guillotine attempts initiated during scrambles where grip depth and positioning are uncertain, executing the finish from an already-established guillotine control position allows the attacker to focus entirely on tightening mechanics and pressure application. The choking arm is already wrapped around the opponent's neck with hands clasped, posture is already broken, and the only remaining task is systematic compression of the carotid arteries or trachea until the opponent submits.\n\nThe finish from established control creates a particularly dangerous scenario because the defender has already conceded the most critical defensive windows. The attacker's forearm blade sits across the front of the neck, and the closed-loop grip prevents any quick release of pressure. From top position, gravity and hip weight amplify the choke, while from bottom position, guard mechanics and hip angle generate the necessary compression. The ability to transition between standard, high-elbow, and arm-in finishing configurations based on defensive reactions makes this position extremely difficult to survive once fully established.\n\nStrategically, the guillotine finish from control forces a binary defensive dilemma: the opponent must choose between addressing the immediate choking threat through hand fighting and chin protection, or preventing positional deterioration that will make the choke even tighter. This decision paralysis, combined with the physical discomfort and panic response that neck compression creates, makes the guillotine from established control one of the highest-percentage finishes available at all levels of competition.",
   "safety_considerations": {
     "injury_risks": [
@@ -141,17 +144,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 62,
+      "probability": {
+        "gi": 62,
+        "nogi": 62
+      },
       "result": "success"
     },
     {
       "to": "Guillotine Control/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 13,
+      "probability": {
+        "gi": 13,
+        "nogi": 13
+      },
       "result": "counter"
     }
   ],

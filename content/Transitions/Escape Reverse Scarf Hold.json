@@ -16,26 +16,41 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "success"
     },
     {
       "to": "Reverse Scarf Hold/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Escape from Reverse Scarf Hold is a systematic frame-based hip escape that addresses one of the more challenging pin configurations in Brazilian Jiu-Jitsu. In reverse scarf hold, the top player faces away from the bottom player's head toward their legs, distributing crushing chest pressure through their hips while controlling the near-side arm. This reverse orientation disrupts standard escape patterns, requiring the bottom player to develop specific framing sequences and shrimping mechanics tailored to the unique pressure angle rather than relying on conventional side control escape movements.\n\nThe primary escape pathway involves establishing a far-side frame against the top player's hip or lower back, turning onto the side to create an escape angle, and executing systematic hip escapes to open sufficient space for knee insertion and half guard recovery. Unlike bridge-based escapes that rely on explosive displacement, this technique uses incremental space creation through shrimping and framing to methodically erode the top player's control structure. Each hip escape generates small positional improvements that compound until guard recovery becomes achievable, making the escape resilient against interruption because partial progress still improves the defensive position.\n\nStrategically, this escape complements the bridge escape from reverse scarf hold to form a dual-threat system. When the top player sprawls low to prevent bridges, hip escape pathways open. When they sit higher to prevent shrimping, bridging opportunities emerge. This complementary relationship creates a defensive dilemma that forces the top player into reactive positioning, systematically degrading their control until one escape method succeeds. The technique rewards patience, precise frame placement, and incremental execution over raw athleticism.",
   "conditions": [
     "Trapped under Reverse Scarf Hold with opponent's chest pressure on upper torso",

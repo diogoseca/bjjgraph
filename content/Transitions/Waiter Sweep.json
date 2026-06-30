@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 68,
+      "probability": {
+        "gi": 68,
+        "nogi": 68
+      },
       "result": "success"
     },
     {
       "to": "Butterfly Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Butterfly Guard/Top",
-      "probability": 12,
+      "probability": {
+        "gi": 12,
+        "nogi": 12
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 68,
+  "success_rate": {
+    "gi": 68,
+    "nogi": 68
+  },
   "overview": "The Waiter Sweep is a fundamental butterfly guard technique that derives its name from the characteristic hand position resembling a waiter carrying a tray. This sweep capitalizes on creating an asymmetrical control structure—combining an underhook on one side with an overhook or collar grip on the other—that severely compromises the opponent's base and posture. The technique works by using butterfly hooks to elevate the opponent while simultaneously using grips to break their posting ability, creating a clean sweep to side control or mount.\n\nUnlike pure lifting sweeps that rely heavily on strength, the Waiter Sweep uses leverage and timing to redirect the opponent's weight, making it accessible to practitioners of all sizes. The sweep is effective in both gi and no-gi contexts, though grip variations differ between formats. The underhook arm extends upward like a waiter lifting a tray overhead, providing the primary elevation vector while the overhook side prevents defensive posting. This dual-threat grip structure creates a biomechanical trap: the opponent cannot simultaneously defend both the lift and the pull, forcing them to choose which threat to address and leaving the other avenue open.\n\nIts high success rate across skill levels stems from its fundamental reliance on destroying base and creating directional momentum rather than explosive power. The angular sweeping motion—lifting diagonally rather than straight up—makes it significantly harder to counter than linear sweeps, as the opponent must resist forces in multiple planes simultaneously. When integrated into a complete butterfly guard system, the Waiter Sweep creates offensive dilemmas where defensive reactions open back takes, guillotine entries, and guard transitions.",
   "related_content": [
     {

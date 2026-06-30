@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Crab Ride/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Reverse De La Riva Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Sitting within the modern inversion-based back-attack game, this transition gives the Reverse De La Riva guard player a controlled stopping point short of a full back-take. Rather than committing to a full berimbolo rotation to back control, the technique arrests the inversion at the crab ride—a more secure intermediate position that preserves multiple attacking options while reducing the risk of overcommitting to the inversion. It exploits the same rotational mechanics that power kiss of the dragon entries but channels them into perpendicular back exposure rather than direct hook insertion.\n\nThe technique begins with standard RDLR hook and ankle control, using hip elevation and shoulder rotation to initiate the inversion. As the bottom player threads underneath their opponent, instead of fully rotating to establish back hooks, they arrest the motion at crab ride by inserting a single hook while establishing upper body control from the side. This requires precise timing—too early and you haven't created enough angle, too late and the opponent can sprawl or disengage. The crab ride endpoint offers a natural consolidation point where the attacker can reassess before advancing to full back control or attacking submissions.\n\nStrategically, this transition excels against opponents who have developed strong defenses against direct berimbolo back takes. By stopping at crab ride instead of committing to the full rotation, the attacker avoids the scramble positions that often result from defended berimbolo entries. The crab ride position itself creates a systematic platform for back-taking, crucifix attacks, and rolling sequences that are difficult to defend once established. This makes RDLR to Crab Ride a critical tool in modern guard systems, particularly effective in no-gi competition where the shorter control pathway reduces grip dependency.",
   "conditions": [
     "Strong RDLR hook established with instep hooked behind opponent's far knee",

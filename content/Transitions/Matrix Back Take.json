@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Turtle/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Turtle/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 65,
+  "success_rate": {
+    "gi": 65,
+    "nogi": 65
+  },
   "overview": "The Matrix Back Take is an advanced transition from turtle top position that uses a dynamic hip slide to bypass the opponent's defensive frames and establish back control. Rather than fighting through the tight elbow-to-knee structure of a well-defended turtle, the attacker threads an arm and leg through available space, then slides the hips underneath the opponent's center of gravity to emerge on the far side with hooks already in position. The technique derives its name from the characteristic backward lean during the hip slide phase, and it is particularly effective when the opponent is tightly defending their turtle with good base and posture that makes traditional seat belt back takes difficult.\n\nThis technique demands excellent body awareness, precise timing, and the ability to read the opponent's weight distribution in real time. The coordinated sequence of arm insertion, leg threading, hip sliding, and systematic hook establishment must flow together without pause. Any gap in connection or hesitation during the slide creates an opening for the defender to turn in, sit back, or recover guard. When executed with proper fluidity and constant pressure, the matrix back take leaves the opponent with very few defensive options because the attacker maintains connection throughout a movement that changes the angle of attack entirely.\n\nThe Matrix Back Take has become a staple in modern no-gi back attack systems, where the absence of gi grips makes dynamic movement-based entries more viable than static grip-fighting approaches. It integrates naturally with truck entries, crab ride transitions, and traditional seat belt back takes, allowing the attacker to chain multiple options based on the defender's reactions. Practitioners who invest in developing this technique gain a significant advantage in turtle top situations, particularly against experienced defenders who have neutralized conventional back take entries.",
   "conditions": [
     "Opponent is in turtle with good defensive posture and tight elbow-to-knee structure",

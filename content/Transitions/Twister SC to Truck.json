@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Truck/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Twister Side Control/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Twister Side Control to Truck transition represents a critical positional advancement within the 10th Planet leg entanglement system. This technique converts the lateral control and partial leg hook of Twister Side Control into the fully perpendicular truck position, dramatically expanding the available submission threat matrix. Where Twister Side Control primarily threatens the twister finish and opportunistic chokes, the truck opens the complete arsenal of calf slicers, banana splits, back takes, and traditional choking attacks from behind.\n\nThe mechanical foundation of this transition lies in deepening the existing leg hook into a full figure-four entanglement while simultaneously rotating from lateral alignment to perpendicular positioning behind the opponent. The practitioner must coordinate this rotation with upper body grip transitions, shifting from shoulder pressure to back control without creating gaps that permit escape. The timing window opens when the bottom player's defensive attention is divided between managing shoulder pressure and protecting against spinal attacks, creating momentary lapses in leg defense that allow the entanglement to deepen.\n\nSuccess demands patience and mechanical precision rather than explosive movement. The most common failure mode occurs when practitioners sacrifice existing Twister Side Control in pursuit of the truck, allowing the bottom player to exploit transitional instability and escape to half guard or recover defensive frames. Advanced practitioners maintain constant pressure throughout every phase of the rotation, ensuring that each step improves rather than compromises their positional control. The transition rewards systematic execution and sensitivity to the opponent's weight distribution over raw athleticism.",
   "conditions": [
     "Established Twister Side Control with secure leg hook around opponent's near leg",

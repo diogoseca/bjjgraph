@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Diamond Guard/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "Strategically, this sweep is the pressure half of the diamond guard's submit-or-sweep dilemma rather than a standalone reversal. Unlike standard closed guard sweeps that require isolating an opponent's posting arm, the diamond guard configuration already eliminates one posting option through the deep overhook, making the sweep mechanically simpler and more reliable against resisting opponents.\n\nThe sweep operates on a fundamental principle: when an opponent's posture is broken within the diamond frame, their weight is driven forward and their base is compromised on the overhook side. By angling the hips and executing an explosive sit-up motion toward that compromised side, the sweeper leverages the existing frame to redirect the opponent's forward momentum into a rotation that ends in mount. The opponent cannot post their trapped arm to prevent the sweep, and the head control prevents them from posturing away from the sweeping direction.\n\nThis technique occupies a critical role in the diamond guard offensive system. When opponents defend against triangle, omoplata, and kimura attacks by keeping their weight low and driving forward, the sweep becomes available as a natural consequence of their defensive posture. This creates a complete dilemma: posture forward to defend submissions and expose yourself to the sweep, or stay back and remain vulnerable to the submission chain. Advanced practitioners use this sweep as the positional pressure component that forces opponents into choosing which threat to address.",
   "conditions": [
     "Opponent's posture must be broken with head pulled below shoulder line within the diamond frame",

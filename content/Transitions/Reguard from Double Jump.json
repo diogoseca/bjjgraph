@@ -15,26 +15,41 @@
   "outcomes": [
     {
       "to": "Closed Guard/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Double Jump/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "The reguard from Double Jump is a defensive recovery technique employed by the bottom player when offensive options from the Double Jump position have been neutralized or when strategic circumstances demand a positional reset to more sustainable guard play. This technique transitions the practitioner from the dynamic but energy-intensive Double Jump bottom position to the stable offensive platform of closed guard, sacrificing the explosive sweep potential of Double Jump for the systematic attack chains available from closed guard.\n\nExecuting this reguard requires the bottom player to extract their legs from underneath the opponent's base while simultaneously creating the space necessary to wrap legs around the waist and lock ankles. The primary challenge lies in managing the transition window where legs are neither in Double Jump configuration nor fully closed in guard, creating vulnerability to passing. Defensive frames against the opponent's chest and shoulders are essential to maintain distance control during this critical phase.\n\nThis technique occupies an important but infrequent role in the bottom player's decision matrix from Double Jump, serving as the safety valve when higher-percentage offensive transitions like deep half entry or old school sweeps have been successfully defended. Unlike the Escape Double Jump which retreats to half guard, the reguard targets closed guard specifically, requiring greater hip mobility and more precise timing but yielding a more offensively advantageous recovery position. Understanding when to commit to reguarding versus continuing offensive chains separates experienced practitioners who manage energy and position strategically from those who exhaust themselves pursuing diminishing offensive returns.",
   "conditions": [
     "Offensive transitions from Double Jump bottom have been defended or are not available",

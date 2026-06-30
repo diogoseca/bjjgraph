@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Guillotine Control/Top",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "Hindulotine/Bottom",
-      "probability": 27,
+      "probability": {
+        "gi": 27,
+        "nogi": 27
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The High Elbow Guillotine Variation represents the highest-percentage finishing mechanic from the Hindulotine position, distinguished by the dramatic elevation of the choking elbow above the opponent's shoulder line. This grip configuration creates a lever arm that exponentially increases pressure on the carotid arteries compared to standard guillotine mechanics. The technique evolved from catch wrestling principles but has been refined through modern no-gi competition to become the preferred finishing method when holding bottom Hindulotine control.\n\nUnlike the traditional guillotine where the elbow remains relatively low and pressure is generated through arm strength and body curl, the high elbow variation uses skeletal structure and gravity to create finishing pressure. By driving the elbow upward toward the ceiling while simultaneously pulling the opponent's head toward your opposite hip, you create a scissoring action that compresses both carotid arteries simultaneously. This mechanical advantage means the finish requires significantly less energy expenditure while generating greater choking force.\n\nThe strategic timing for this variation is critical. The high elbow configuration is most effective when your opponent's posture is broken and their defensive frames are neutralized. Attempting the high elbow position against a postured opponent allows them to stack and potentially pass. However, when properly timed against a broken-down opponent, the finish comes rapidly, often within seconds of achieving the correct elbow angle. This makes it an ideal finishing sequence when you've established solid Hindulotine control and your opponent is committed to defending at close range.",
   "conditions": [
     "Established Hindulotine bottom control with guillotine grip secured around opponent's neck",

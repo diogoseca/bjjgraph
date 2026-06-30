@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Single Leg X-Guard/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "As a rotational answer to the modern leg-entanglement game, the backstep from Single Leg X-Guard exploits the structural commitment inherent in the SLX hook configuration rather than meeting it with direct pressure. When the bottom player establishes SLX, their legs create powerful sweeping leverage but lock into a specific orientation that limits their ability to follow rotational movement. The backstep capitalizes on this directional commitment by rotating away from the bottom player's primary sweeping axis, stepping the free leg behind their guard structure and using hip rotation to clear the entangled leg entirely.\n\nThis technique is particularly effective because it bypasses the bottom player's strongest defensive frames rather than fighting through them. Direct pressure passes into SLX play directly into the bottom player's sweeping and leg lock game. The backstep changes the angle of engagement fundamentally, creating a momentary window where the bottom player's hooks lose their mechanical advantage as the top player's hips rotate past the plane of control. The rotational nature of the movement means the trapped leg clears naturally through hip turning rather than requiring forceful extraction against the bottom player's grip.\n\nThe backstep from SLX integrates into a broader passing system that includes headquarters passing, smash passes, and standing extraction. When the bottom player defends direct passing avenues, the backstep offers a fundamentally different vector. Advanced practitioners use the threat of the backstep to set up direct passes and vice versa, creating multi-directional passing pressure that overwhelms sophisticated guard players. The technique's reliability at competition level makes it a staple response to modern SLX guard play.",
   "conditions": [
     "Top player has one leg trapped in Single Leg X-Guard configuration with both hooks active",

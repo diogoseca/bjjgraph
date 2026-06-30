@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Spider Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Spider Sweep is a foundational sweep from Spider Guard that exploits the mechanical advantage of controlling both sleeves while using feet on the opponent's biceps to manipulate their base. By pulling one sleeve across the body while extending the opposite foot, the sweeper creates a scissoring force that loads the opponent's weight to one side, collapsing their base and enabling a clean sweep to mount. The technique operates entirely within the existing control structure of Spider Guard, requiring no grip transitions or guard changes to initiate.\n\nThis sweep is highly effective because even a failed execution leaves the attacker in a safe position with grips intact. The low-risk, high-reward profile makes Spider Sweep one of the most reliable techniques in gi competition. The critical mechanical detail is the coordination between the pulling arm and the pushing leg creating opposing rotational forces along a diagonal axis, rather than simply pushing the opponent backward.\n\nStrategically, the Spider Sweep creates a powerful dilemma when combined with triangle and omoplata threats from the same grip configuration. When the opponent defends the sweep by posting or widening their base, they create openings for submission entries. When they defend submissions by keeping elbows tight and weight centered, they become vulnerable to the sweep. This complementary relationship between sweep and submission threats is what makes the Spider Sweep the anchor technique of the entire Spider Guard offensive system.",
   "conditions": [
     "Double sleeve grips established at opponent's cuffs or forearms with deep four-finger control",

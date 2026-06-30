@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Single Leg X-Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Ushiro Ashi-Garami/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Saddle/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Within the modern leg-lock defensive hierarchy, this recovery ranks among the highest-percentage escapes from reversed leg entanglements because it solves the core problem of leg clearing while simultaneously building an attacking platform. Rather than settling for a neutral escape, the practitioner exploits the inverted geometry of Ushiro Ashi-Garami to flip the exchange, turning defensive survival into offensive potential in one continuous sequence.\n\nThe technique exploits the geometric relationship between the defender's inverted position and the attacker's leg configuration. When executed correctly, the defender uses their hip mobility and precise foot placement to thread their trapped leg through the entanglement while simultaneously establishing heel hook and kneebar control on the opponent's far leg. This transforms a compromised position into one where the former defender now threatens submissions.\n\nStrategically, Single Leg X Recovery represents the preferred escape path when the opponent's inside leg control is not deep enough to prevent leg threading. Unlike turtle recovery which merely neutralizes position, or counter-heel hooks which require specific grip availability, this technique creates immediate offensive opportunities while completing the escape in one fluid motion. Advanced practitioners chain this recovery directly into sweep and submission sequences.",
   "conditions": [
     "Opponent's inside leg control must be shallow enough to allow leg threading",

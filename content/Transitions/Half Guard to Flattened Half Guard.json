@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Flattened Half Guard/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Knee Shield Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 65,
+  "success_rate": {
+    "gi": 65,
+    "nogi": 65
+  },
   "overview": "Transitioning to Flattened Half Guard is the fundamental positional advancement that transforms an active, contested half guard exchange into a dominant pressure platform for the top player. Rather than attempting to pass directly from standard half guard where the bottom player maintains frames, underhooks, and hip mobility, this technique prioritizes systematically destroying the bottom player's defensive structure through crossface pressure, weight distribution, and upper body control. The goal is to drive the bottom player's shoulders flat to the mat, eliminate their frames, and establish chest-to-chest contact that severely limits their offensive capabilities while setting up high-percentage passing sequences.\n\nThe technique begins with winning the upper body control battle, specifically establishing a strong crossface while denying the bottom player their underhook. Once the crossface is secured, the top player progressively walks their hips forward and drives their weight through the chest and shoulder into the bottom player's torso. This systematic pressure collapses the bottom player's knee shield, overwrites their frames, and forces their back flat against the mat. The transition requires patience and methodical execution rather than explosive force, as rushing creates space that allows frame re-establishment.\n\nFrom a strategic perspective, this transition represents the critical bridge between contested half guard and completed guard passes. Skilled bottom players with active half guards are difficult to pass directly, but once flattened, their escape options narrow dramatically. The flattened position creates a pressure laboratory where the top player can methodically work through knee slice, crossface pass, or underhook pass sequences against compromised defensive structures. Understanding this transition is essential for any pressure-based passing game, as it converts positional scrambles into controlled passing sequences.",
   "conditions": [
     "Top player has established at least partial upper body control through crossface or head position",

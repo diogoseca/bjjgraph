@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Single Leg X-Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Shin-to-Shin Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Shin-to-Shin to Single Leg X-Guard transition is one of the most critical entries in modern open guard systems, connecting the dynamic shin-to-shin position to the powerful sweeping and leg lock platform of Single Leg X-Guard. This transition exploits a fundamental biomechanical advantage: when the top player's weight loads onto their trapped leg during clearing attempts or natural weight shifts, the bottom player threads underneath to establish the SLX hook configuration. The entry capitalizes on the dilemma inherent in shin-to-shin guard—opponents who aggressively attempt to clear the shin expose the exact leg threading pathways needed for SLX entry, while passive opponents allow the bottom player to build the entry at their own pace.\n\nThe technical execution demands precise coordination between the inside leg wrap, hip repositioning, and upper body grip management. The bottom player must maintain enough shin pressure to keep the opponent's weight committed while simultaneously beginning the threading motion with their inside leg around the opponent's ankle. Success hinges on getting the hips underneath the opponent's center of gravity before they can retract or backstep away. Once the inside leg wraps the ankle and the outside foot hooks the hip, the position transforms from a distance management guard into an offensive platform threatening sweeps in multiple directions and direct entries to leg entanglements.\n\nWithin the broader guard system, this transition represents one branch of a decision tree that includes entries to X-Guard, outside ashi garami, and direct shin-to-shin sweeps. The ability to threaten multiple transitions from the same starting position creates the offensive dilemmas that make shin-to-shin effective at competition level. Practitioners who master this entry gain a reliable pathway from seated guard engagement to one of the most dominant attacking positions in modern grappling.",
   "conditions": [
     "Active shin-to-shin connection with perpendicular pressure across opponent's lower tibia",

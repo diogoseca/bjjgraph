@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Knee on Belly/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Side Control/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "summary": "Side Control to Knee on Belly is a top-game transition where the controlling player briefly trades chest-to-chest pressure to drive a knee across the opponent's torso, upgrading static side control into a mobile, point-scoring attacking platform.",
   "overview": "The Side Control to Knee on Belly transition represents a critical positional advancement in the top-game hierarchy, bridging the gap between the static grinding pressure of consolidated side control and the dynamic mobile pressure of knee on belly. This technique allows the top player to upgrade their position from a holding pattern to an active attacking platform that scores additional competition points and opens multiple submission pathways including baseball bat chokes, armbars, and cross collar chokes.\n\nThe fundamental challenge in this transition lies in the brief but critical moment when the top player must sacrifice chest-to-chest connection to elevate their hips and insert their knee onto the opponent's torso. This window of reduced pressure is precisely when the bottom player has their best opportunity to escape, re-guard, or initiate scrambles. Expert execution minimizes this vulnerability through precise timing coordinated with the opponent's breathing rhythm, efficient grip transfers that maintain control throughout the movement, and explosive hip elevation that replaces chest pressure with knee pressure before the bottom player can react.\n\nStrategically, mastering this transition transforms consolidated side control from a static holding position into a launching pad for an entire offensive system. The ability to threaten the knee on belly transition forces the bottom player to defend preemptively, which in turn creates openings for alternative attacks and transitions directly from side control. This dilemma-based approach exemplifies the principle that positional advancement threats are often as valuable as the advancements themselves.",
   "conditions": [

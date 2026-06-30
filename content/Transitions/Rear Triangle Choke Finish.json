@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Rear Triangle Choke from Rear Triangle",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Rear Triangle/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "As the terminal finish of the rear triangle attack system, this submission converts established back-and-triangle control into a tap without relying on grip strength. Unlike many chokes that require hand involvement, the rear triangle finish generates primary choking force through leg mechanics—knee compression and hip extension—while the hands remain free to control the opponent's defensive responses and optimize the finishing angle.\n\nStrategically, this finish represents the terminal point of the rear triangle attack system. The choking mechanism attacks both carotid arteries simultaneously: the choking leg compresses one side while the opponent's own trapped shoulder is driven into the opposite carotid by the squeeze. This bilateral compression creates rapid unconsciousness when properly applied, making early recognition and defense critical for the bottom player. The attacker's primary challenge lies not in raw squeezing power but in optimizing the angle of their hips relative to the opponent's neck—walking the hips toward the trapped arm side creates the cutting angle that transforms a compression hold into an efficient blood choke.\n\nThe finish integrates seamlessly with alternative submissions from the rear triangle. When the opponent defends the choke by tucking their chin or creating space, the attacker can immediately transition to armbar attacks on the trapped arm or shift to a rear naked choke by releasing the triangle and establishing hand grips. This submission cycling creates the dilemma-based offense that makes the rear triangle one of the most dangerous finishing positions in modern grappling.",
   "conditions": [
     "Rear triangle position established with figure-four leg lock properly secured",

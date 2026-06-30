@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Leg Entanglement/Top",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "The Guard Pass from Leg Entanglement is a critical positional transition for the top player who finds themselves engaged in lower body entanglements but determines that disengaging and advancing to a traditional passing position is strategically superior to exchanging leg attacks. This technique addresses the common competitive scenario where the top player has been drawn into a leg entanglement by an aggressive bottom player, and rather than accepting a potentially disadvantageous leg lock exchange, opts to extract their legs, clear the hooks, and pass to side control. The strategic decision to pass rather than counter-attack with legs requires reading the positional hierarchy correctly—if you lack dominant inside position or the bottom player has superior heel exposure on your leg, extraction and passing becomes the higher-percentage path.\n\nThe mechanical challenge of this pass lies in disengaging from entangled legs without exposing your own legs to submission attacks during the extraction process. The bottom player's hooks, triangles, and figure-four configurations are specifically designed to prevent disengagement, meaning each step of the extraction must be deliberate and controlled. The pass typically begins with securing upper body control—often a collar tie, wrist grip, or underhook—that anchors your position while you systematically strip hooks and clear legs. Timing is paramount: attempting extraction while the bottom player has active grips on your foot or ankle risks heel hook exposure, while waiting too long allows them to advance their entanglement to more dominant configurations like the saddle or inside ashi.\n\nSuccessfully completing this pass requires integrating leg lock defense knowledge with traditional guard passing mechanics. You must understand which leg positions create submission danger during extraction, how to position your hips to deny the bottom player's sweeping angles, and when to accelerate through the pass versus when to pause and reset your base. The technique serves as a bridge between the modern leg lock game and classical top position grappling, making it essential for practitioners who want to maintain a complete game rather than being forced into every leg entanglement exchange.",
   "conditions": [
     "You are in the top position within a leg entanglement and your opponent has established hooks or control on at least one of your legs",

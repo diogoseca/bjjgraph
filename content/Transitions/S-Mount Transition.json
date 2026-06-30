@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "S Mount/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Modified Mount/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The S-Mount Transition represents a critical positional advancement from Modified Mount that positions the attacker for high-percentage armbar finishes. This technique involves sliding the posted leg underneath the opponent's far shoulder while the other leg swings over their head, creating the distinctive S-shaped body configuration that gives the position its name. The transition capitalizes on the natural armbar-focused structure of Modified Mount, taking it to its logical conclusion by fully committing the hips perpendicular to the opponent's body axis. S-Mount provides superior control for arm isolation compared to Modified Mount because both legs now actively contribute to pinning the opponent rather than one leg posting for stability. The position creates tremendous pressure on the opponent's ribcage and shoulder line, making defensive movements extremely difficult while the attacker maintains dominant hip position for armbar execution.\n\nStrategic timing involves transitioning to S-Mount when the opponent's near-side arm becomes isolated or when they attempt to turn away, as both reactions facilitate the leg-over-head movement. The transition requires committing fully to the armbar position, meaning escape to Modified Mount or standard mount becomes the fallback if the opponent defends successfully. Understanding S-Mount Transition as a commitment point rather than a reversible movement is essential for proper tactical deployment. The defender must recognize the transition cues early because once the leg clears the head, defensive options narrow dramatically and the armbar becomes nearly inevitable against a technically proficient attacker.",
   "conditions": [
     "Modified Mount established with one leg posted and across-body knee securing torso control",

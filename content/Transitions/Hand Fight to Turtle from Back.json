@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Turtle/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Hand Fight to Turtle from Back is a fundamental defensive transition used to escape the most dominant position in Brazilian Jiu-Jitsu. When an opponent has established back control with hooks and harness grip, the immediate priority is preventing the rear naked choke through chin protection and systematic grip fighting. Once neck defense is secured, the practitioner methodically strips the opponent's controlling grips using two-on-one hand fighting principles, then creates the hip movement necessary to rotate from back exposure into the turtle position.\n\nThe technique operates on the principle that turtle, while still requiring active defense, represents a significant positional improvement over back control bottom. In turtle the practitioner regains the ability to see the opponent's movements, can actively defend against hook re-insertion, and has access to guard recovery and standup options that are completely unavailable from back control. The hand fighting component is critical because attempting to physically escape without first addressing the opponent's grips typically results in tighter control or direct submission through the rear naked choke.\n\nThis transition integrates tightly with the broader back escape system, serving as a middle-ground option between the back door escape aimed at guard recovery and the shoulder walk escape targeting standing. The hand fight to turtle approach is particularly effective when the opponent has strong leg control through deep hooks or body triangle, making full guard recovery impractical, but their upper body control can be systematically stripped through persistent grip fighting. The counter risk involves the opponent following the rotation to take mount, making it critical to time the turn correctly and establish proper turtle defense immediately upon arriving.",
   "conditions": [
     "Opponent has established back control with hooks or body triangle and harness grip",

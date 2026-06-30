@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Turtle/Bottom",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Reverse Mount/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "Because reverse mount is an inherently transitional, backward-facing pin, the bottom player's escape options diverge sharply from standard mount defense, and the angled bridge becomes the highest-utility tool when traditional frames cannot be established. Unlike standard mount escapes where the defender can frame against the opponent's chest and hips, reverse mount requires bridging into an opponent whose weight is distributed backward, creating different leverage dynamics. The bridge exploits the inherent instability of reverse mount—the top player's backward orientation means they lack the head control and visual cues available in standard mount, making explosive movement harder to anticipate and counter.\n\nThe technique relies on creating angles before the explosive bridge rather than bridging straight up. The bottom player must first shift their hips to establish a bridging direction, then execute an explosive hip extension combined with a shoulder turn to create enough space to begin turning to turtle. Timing is critical—the bridge must coincide with moments when the top player's weight shifts or they reach for grips, compromising their base. Successful execution requires committing fully to the movement, as partial bridges allow the top player to settle weight and potentially advance to back control.\n\nStrategically, this escape sits within the broader reverse mount escape hierarchy alongside elbow escapes, hip escapes, and frame-based techniques. While not the highest-percentage option in isolation, the bridge is often the most accessible escape when the top player has compromised the bottom player's ability to use other methods. The bridge creates enough displacement for the bottom player to turn face-down into turtle, which while still defensive, offers significantly more escape pathways than remaining under reverse mount. The technique also functions as a threat that forces the top player to commit weight and base, potentially opening windows for alternative escapes.",
   "conditions": [
     "Opponent has established reverse mount with hips seated on your torso facing your feet",

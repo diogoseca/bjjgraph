@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Top",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Estima Lock Control/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Saddle/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "The Estima Lock Counter Roll is a defensive transition executed from the bottom of the Estima Lock position, where the trapped practitioner uses rotational momentum to relieve submission pressure, disrupt the attacker's grip mechanics, and reverse positional hierarchy. This technique exploits the inherent vulnerability of the Estima Lock's reliance on linear rotational pressure and fixed hip positioning by introducing a rolling vector that the top player's figure-four grip configuration struggles to track. Rather than fighting the lock's mechanics directly through grip fighting or leg extraction, the counter roll redirects ankle torque through whole-body rotation.\n\nThe counter roll functions by aligning body rotation with the lock's pressure vector—rolling toward the controlled foot side momentarily neutralizes the submission threat while creating sweeping momentum that carries the practitioner through to top position. The technique requires precise timing, initiated during the grip consolidation phase before full rotational pressure is applied, and coordinated use of the free leg as both a posting base and rolling lever. The directional choice is critical: rolling toward the trapped foot relieves torque, while rolling away amplifies it dangerously.\n\nSuccess with the Estima Lock Counter Roll depends on three factors: early recognition of the lock before it tightens beyond the escape window, proper directional commitment in the roll to avoid increasing ankle torque, and immediate positional control upon completing the rotation. When executed correctly, the roll sweeps past the attacker's base and lands the practitioner in half guard top, completely reversing the positional dynamic. Failed attempts typically result from late timing, incorrect roll direction, or insufficient hip engagement, leaving the practitioner in the same or worse leg entanglement. The technique carries inherent risk—rolling while caught in an active submission demands trust in mechanical understanding and split-second decision-making.",
   "conditions": [
     "Opponent has established Estima Lock grip but has not fully consolidated rotational pressure on the ankle",

@@ -20,7 +20,10 @@
   "target_area": "Knee joint, ankle joint, and surrounding ligaments",
   "starting_position": "Ushiro Ashi-Garami",
   "from_position": "Ushiro Ashi-Garami/Top",
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "The outside heel hook from ushiro ashi-garami is an advanced leg lock finish that exploits the reversed entanglement angle created when an opponent inverts to escape standard ashi-garami positions. Unlike outside heel hooks from standard configurations where the attacker's body alignment allows straightforward grip placement, the ushiro configuration demands specific adjustments to hand positioning, hip angle, and rotational torque direction. The reversed angle creates a deceptive window where defenders frequently miscalculate their exposure because the finishing mechanics differ from the heel hook attempts they have drilled defenses against.\n\nFrom ushiro ashi-garami, the attacker must account for the opponent's inverted hip orientation, which shifts the optimal heel cup placement and changes the line along which breaking pressure must travel. The figure-four grip or palm-to-palm configuration needs to accommodate the reversed angle, and the attacker's hips must drive extension along a modified vector compared to standard outside ashi positions. This submission commonly emerges during dynamic leg lock exchanges at purple belt and above, where opponents use sophisticated inversion escapes that create the ushiro configuration mid-scramble.\n\nThe strategic value lies in converting escape attempts into finishing opportunities. Many defenders believe inverting from standard ashi-garami creates safety, but practitioners who understand ushiro heel hook mechanics capitalize on the brief transition window where defensive attention shifts from submission prevention to positional escape. The reversed angle can generate breaking pressure faster than anticipated, making this one of the most dangerous submissions in the modern leg lock arsenal and demanding strict safety awareness during all training.",
   "safety_considerations": {
     "injury_risks": [
@@ -123,17 +126,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Ushiro Ashi-Garami/Top",
-      "probability": 36,
+      "probability": {
+        "gi": 36,
+        "nogi": 36
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 19,
+      "probability": {
+        "gi": 19,
+        "nogi": 19
+      },
       "result": "counter"
     }
   ],

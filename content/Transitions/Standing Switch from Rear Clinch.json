@@ -16,26 +16,41 @@
   "outcomes": [
     {
       "to": "Standing Rear Clinch/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "success"
     },
     {
       "to": "Clinch/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "success"
     },
     {
       "to": "Standing Rear Clinch/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "Bridging the worlds of wrestling and Brazilian Jiu-Jitsu, the Standing Switch is the go-to reversal for a grappler who has been forced into standing rear control and needs to invert the engagement before it reaches the mat. When an opponent has secured chest-to-back control with a bodylock or seatbelt grip, the switch exploits momentary weight distribution imbalances by redirecting the opponent's forward pressure through a sharp hip rotation combined with arm clearing mechanics. This technique bridges wrestling and jiu-jitsu skill sets, making it essential for practitioners who compete in no-gi or MMA formats where standing rear clinch encounters are frequent.\n\nStrategically, the standing switch creates a genuine reversal threat that forces the controlling player to respect defensive capabilities, preventing them from committing fully to takedown entries or mat returns. The technique is most effective when timed against the opponent's weight shifts during grip transitions or takedown setups, transforming their offensive commitment into vulnerability. Executing the switch at the precise moment when the opponent shifts their weight to one side or reaches for a new grip dramatically increases success probability.\n\nWithin the broader standing escape system, the switch complements hand fighting, pummeling, counter throws, and hip escape techniques. A credible switch threat opens other escape pathways because the opponent must allocate attention to preventing the reversal, creating windows for alternative escapes. Practitioners who develop the switch as part of an integrated standing defense system become significantly harder to control from behind, often turning what should be a dominant position for the attacker into a liability.",
   "conditions": [
     "Opponent has established standing rear clinch with body-to-body contact from behind",

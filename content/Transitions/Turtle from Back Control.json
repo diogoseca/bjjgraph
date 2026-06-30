@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Turtle/Bottom",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "Back control is widely regarded as the most dominant position in BJJ, carrying immediate submission threats from rear naked choke, bow and arrow, and arm attacks, which makes a reliable path to turtle one of the most important survival skills a bottom player can own. Successfully reaching turtle removes the immediate choking danger and provides multiple paths to further improve position through guard recovery, sit-outs, or technical stand-ups. Treating this as a positional-improvement transition rather than a complete escape is the mindset that keeps the bottom player calm and methodical under pressure.\n\nThe escape requires a systematic approach that prioritizes neck defense before any positional movement. The bottom player must first neutralize the choking arm through hand fighting, then address the hooks sequentially, beginning with the near-side hook before working to clear the far-side hook. Hip movement and angle creation are essential throughout the sequence, as simply trying to pull hooks off without repositioning the hips rarely succeeds against a skilled back controller. The transition demands patience and composure under significant pressure, as rushing the escape typically results in the opponent capitalizing on defensive gaps to improve their control or transition to mount.\n\nUnderstanding when to initiate this escape versus other back escape options is a key tactical decision. Turtle escape is most viable when the opponent has loosened their hook control or when their seatbelt grip has been partially neutralized through hand fighting. Attempting this escape against a fully locked body triangle or deep seatbelt with chin strap control significantly reduces success probability and may expose the bottom player to worse outcomes.",
   "conditions": [
     "Opponent has back control with hooks and seatbelt or harness grip established",

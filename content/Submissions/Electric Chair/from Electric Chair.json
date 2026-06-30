@@ -22,7 +22,10 @@
     "Lockdown",
     "Half Guard"
   ],
-  "success_rate": 42,
+  "success_rate": {
+    "gi": 42,
+    "nogi": 42
+  },
   "overview": "The Electric Chair is a devastating submission from the 10th Planet lockdown half guard system that attacks the hip joint and groin through forced hyperabduction of the opponent's trapped leg. Originating from the Electric Chair sweeping position, this technique capitalizes on the mechanical advantage created by the lockdown leg configuration combined with deep underhook control to progressively split the opponent's legs beyond their natural range of motion, forcing a tap through intense pressure on the adductor muscles, hip flexors, and the hip joint capsule itself.\n\nThe submission operates through a coordinated three-point control system: the lockdown traps and extends the opponent's leg, the underhook creates upper body leverage, and the free hand captures the opponent's far ankle to initiate the splitting action. This triangulation of control makes the Electric Chair exceptionally difficult to defend once fully established, as neutralizing any single control point still leaves two active forces working to complete the submission. The technique's effectiveness varies significantly based on the opponent's hip flexibility, making recognition of the breaking point a critical safety consideration.\n\nStrategically, the Electric Chair creates a powerful dilemma within the lockdown system. The threat of the submission forces opponents to address the split, which opens pathways to high-percentage sweeps like the Old School. Conversely, defending the sweep exposes the submission. This dual-threat architecture makes the Electric Chair position one of the most potent offensive platforms in modern no-gi grappling, particularly when integrated with transitions to the Truck, back control, and other lockdown-based attacks.",
   "safety_considerations": {
     "injury_risks": [
@@ -70,17 +73,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Electric Chair/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],

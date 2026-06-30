@@ -17,7 +17,10 @@
   "target_area": "Elbow joint hyperextension and ulnar collateral ligament",
   "starting_position": "Side Control",
   "from_position": "Side Control/Top",
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "summary": "The belly down armbar from side control is a prone elbow lock where the attacker isolates an arm, steps over the opponent's head, and rotates face-down to hyperextend the elbow while eliminating the stacking and hitchhiker escapes.",
   "overview": "The belly down armbar finish from side control is one of the highest-percentage armbar completions available from a top control position. Unlike standard armbar finishes where the attacker lies on their back with the opponent's arm extended between the legs, the belly down variation has the attacker rotating prone over the trapped arm, using body weight and gravity to generate extension force. This mechanical advantage makes the technique extremely difficult to defend once the rotation is complete, as the opponent loses the ability to stack, hitchhiker escape, or bridge into the attacker.\n\nFrom side control specifically, the setup involves isolating the near or far arm through underhook control, wrist pinning, or kimura grip manipulation, then stepping over the opponent's head to establish the perpendicular angle needed for the armbar. The key transition moment is the rotation from the seated or kneeling armbar position to the prone finish, which must be executed while maintaining constant elbow joint control. The side control starting point provides exceptional stability for this transition because the top player already has heavy chest pressure and crossface control that prevents the bottom player from anticipating and defending the arm isolation.\n\nThis technique is particularly effective in competition because opponents defending standard side control submissions like americana and kimura often expose the arm in ways that create direct entries to the belly down armbar. The prone finishing position eliminates the two most common armbar escapes, making it a reliable closer when the arm is successfully isolated.",
   "safety_considerations": {
@@ -100,17 +103,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Side Control/Top",
-      "probability": 32,
+      "probability": {
+        "gi": 32,
+        "nogi": 32
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 18,
+      "probability": {
+        "gi": 18,
+        "nogi": 18
+      },
       "result": "counter"
     }
   ],

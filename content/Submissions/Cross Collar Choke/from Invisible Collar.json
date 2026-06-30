@@ -17,7 +17,10 @@
   "target_area": "Neck (Carotid Arteries)",
   "starting_position": "Invisible Collar",
   "from_position": "Invisible Collar/Top",
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Cross Collar Choke Finish represents the culmination of the invisible collar attack system from back control. This technique transforms the deceptive collar grip into a blood choke that compresses both carotid arteries simultaneously. Unlike standard collar chokes that telegraph intent, the invisible collar setup allows practitioners to achieve optimal finishing position before opponents recognize the threat.\n\nThe finishing mechanics differ fundamentally from mounted cross collar variations because the back position provides superior structural leverage. The choking arm rotates toward the attacker's own chest while the secondary grip controls opponent posture, creating a scissoring action that tightens progressively. This biomechanical advantage explains why the technique succeeds at higher rates from back control compared to front-facing positions.\n\nStrategically, this finish serves as the primary payoff for invisible collar positioning. When opponents defend effectively, the failed attempt maintains back control rather than surrendering position, making it a low-risk submission attempt. The technique chains naturally with rear naked choke attacks, creating a dilemma where defending one option opens vulnerability to the other.",
   "safety_considerations": {
     "injury_risks": [
@@ -103,17 +106,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Back Control/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],

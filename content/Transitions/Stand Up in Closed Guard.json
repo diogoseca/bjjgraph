@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Open Guard/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Standing up in closed guard is one of the most fundamental and highest-percentage methods for opening an opponent's closed guard. Rather than attempting to break the guard from the knees—where the bottom player maintains maximum leverage for sweeps, submissions, and posture control—standing shifts the dynamic entirely by using gravity and structural alignment to create unsustainable pressure on the ankle lock maintaining guard closure. The technique neutralizes the majority of the bottom player's offensive arsenal, as techniques like the hip bump sweep, scissor sweep, and armbar from guard all require the top player to be on their knees within the guard player's hip-to-hip connection zone.\n\nThe technique operates on a powerful biomechanical principle: when executed with correct posture and alignment, the standing player forces their opponent to support their entire body weight through crossed ankles behind the back. This creates a dilemma where the bottom player must either release their guard voluntarily or have it forcibly broken through hip extension and gravity-assisted pressure. The standing position also elevates the top player's hips above the bottom player's control zone, removing the connection points that power closed guard attacks.\n\nProper execution demands a precise sequence of hand placement, weight distribution, and postural maintenance that preserves defensive integrity throughout the vulnerable transition from kneeling to standing. The most critical moment occurs during the initial weight shift when one knee lifts off the mat—this is when the guard player has the greatest opportunity to disrupt balance or launch attacks. Once fully standing with staggered feet, controlled hips, and upright posture, the position becomes inherently advantageous, enabling gravity-assisted guard breaks and immediate transitions into high-percentage passing sequences like toreando, leg drag, and knee slice variations.",
   "conditions": [
     "Top player has established adequate upright posture in closed guard with spine aligned and head over hips",

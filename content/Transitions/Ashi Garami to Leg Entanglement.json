@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Leg Entanglement/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Ashi Garami/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Inside Ashi-Garami/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "summary": "Ashi Garami to Leg Entanglement is a counter-offensive transition in which a top player trapped in an opponent's Ashi Garami threads their own free leg into a reciprocal entanglement, converting a defensive predicament into a bilateral leg-control exchange.",
   "overview": "This transition sits at the heart of modern leg-lock defense, addressing the moment a top player recognizes that clean extraction from an opponent's Ashi Garami is no longer available because the bottom player holds strong connection points and inside space dominance. Rather than simply extracting the trapped leg and retreating, this transition converts a defensive predicament into a bilateral leg control exchange by threading your own legs into entanglement configurations around the opponent's lower body. The technique exploits the inherent vulnerability of Ashi Garami positions: the bottom player's legs are committed to controlling your leg, which means their own legs are exposed to counter-entanglement if you can establish reciprocal hooks and inside space control.\n\nThe strategic value of this transition lies in the paradigm shift it creates. Instead of fighting to escape the opponent's leg control system, you enter their system and compete within it. This is particularly effective when clean extraction is difficult because the opponent maintains strong connection points and inside space dominance. By establishing your own entanglement, you neutralize their positional advantage and create a bilateral exchange where your base, posture, and upper body freedom can become decisive advantages. The top player's existing base and ability to drive weight downward often creates favorable conditions for winning the subsequent inside space battle.\n\nThis transition requires precise timing and mechanical understanding. Initiating too early, before the opponent has committed to their entanglement, allows them to simply adjust. Initiating too late, after they have advanced to dominant configurations like Saddle or Cross Ashi, means you are entering an exchange from severe positional disadvantage. The ideal window occurs when the opponent holds Outside or Inside Ashi Garami and is focused on advancing rather than finishing, creating momentary lapses in free leg management that allow you to thread your counter-entanglement.",
   "conditions": [

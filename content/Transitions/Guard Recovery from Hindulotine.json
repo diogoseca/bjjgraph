@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Open Guard/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Hindulotine/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "When the rotational choking pressure of a Hindulotine fails to produce a submission and the opponent begins defending or extracting their head, the bottom player must abandon the attack and smoothly transition from the Hindulotine grip into a functional guard position. This recovery is complicated by the angular hip positioning characteristic of the Hindulotine, requiring the bottom player to realign their hips while establishing frames and leg controls to prevent the opponent from advancing to side control. Recognizing the moment to switch from offense to recovery — before grip energy is fully exhausted — is the strategic crux of the transition.\n\nThe Hindulotine's unique rotational mechanics create a recovery challenge that does not exist with standard guillotine control. Because the bottom player's hips are angled and partially turned away from the opponent, there is a structural vulnerability on the exposed back side that must be addressed before any guard recomposition can succeed. The recovery follows a specific sequence: protect the exposed flank with a knee shield, convert the choking grip to a transitional control, rotate the hips to face the opponent, and then build the open guard structure with coordinated leg and grip placement. Skipping any step in this sequence dramatically increases the probability of the opponent advancing to side control or taking the back.",
   "conditions": [
     "Hindulotine choke has lost effective pressure due to opponent defense, posture recovery, or grip degradation",

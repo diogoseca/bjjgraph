@@ -19,7 +19,10 @@
   "target_area": "Carotid arteries and trachea",
   "starting_position": "Hindulotine",
   "from_position": "Hindulotine/Top",
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "The Hindulotine finish from Hindulotine control leverages rotational torque mechanics that distinguish this guillotine variation from standard front headlock submissions. Once the chin strap grip is established with the figure-four configuration, the attacker generates finishing pressure through hip rotation perpendicular to the opponent's spine rather than the linear pulling motion used in traditional guillotines. The forearm blade must sit high under the chin, targeting bilateral carotid compression for a clean blood choke rather than a tracheal crush.\n\nThe finishing sequence demands precise coordination between grip tightening, hip angle adjustment, and leg control. As the hips rotate away from the choking arm side, the figure-four grip structure amplifies rotational torque, creating compression that becomes exceptionally difficult to defend once fully locked. Opponents face simultaneous blood choke pressure and cervical torque, often producing a tap within seconds of complete application.\n\nStrategically, this finish serves as the terminal threat within the Hindulotine control system. Opponents who defend the choke must compromise their defensive posture, opening transitions to back control, darce, or anaconda variations. This positions the finish as the centerpiece of a broader submission network where every defensive reaction feeds additional attacking opportunities, embodying the modern grappling principle that submission threats and positional control are inseparable.",
   "safety_considerations": {
     "injury_risks": [
@@ -95,17 +98,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Hindulotine/Top",
-      "probability": 39,
+      "probability": {
+        "gi": 39,
+        "nogi": 39
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 21,
+      "probability": {
+        "gi": 21,
+        "nogi": 21
+      },
       "result": "counter"
     }
   ],

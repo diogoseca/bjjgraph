@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Triangle Control/Bottom",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Spider Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "The Triangle from Spider Guard is one of the highest-percentage triangle entries in gi jiu-jitsu, leveraging the inherent arm isolation created by double sleeve control and bicep hooks. From Spider Guard Bottom, you already control both of the opponent's arms through sleeve grips while your feet maintain distance on their biceps. This existing control structure makes isolating one arm—the fundamental prerequisite for any triangle—a natural consequence of the position rather than something you must fight to create.\n\nThe entry works by converting the push-pull dynamic of spider guard into a triangle setup. You push one arm away with your foot while pulling the other arm across your centerline, simultaneously shooting your hips up and swinging your leg over the opponent's shoulder on the pulled-arm side. The mechanical advantage is significant: your legs are already extended and engaged with their arms, so transitioning one leg from bicep pressure to triangle position requires minimal additional movement compared to entries from closed guard or other positions.\n\nStrategically, this transition creates a powerful forcing mechanism within the spider guard attack system. The opponent must respect the triangle threat, which opens other attacks like omoplatas, sweeps, and armbars. When the opponent focuses on defending one threat, others become available. This technique connects directly to the broader spider guard offensive framework and serves as a centerpiece attack that makes all other spider guard techniques more dangerous by creating the constant threat of triangle entry.",
   "conditions": [
     "Both sleeve grips firmly established at or above opponent's elbows with deep four-finger control",

@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Technical Mount/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Technical Mount to Back Control transition is one of the highest-percentage positional advancements in Brazilian Jiu-Jitsu, capitalizing on the fundamental defensive dilemma created by Technical Mount. When the bottom player turns away to escape the armbar threat inherent in the stepped-leg configuration, they expose their back, creating a natural pathway for the top player to follow the rotation and establish full back control with hooks and seatbelt grip. This transition transforms the opponent's defensive instinct into a positional upgrade, making it a cornerstone of systematic mount offense.\n\nThe mechanics rely on reading the opponent's shoulder rotation and immediately converting the Technical Mount leg configuration into back control hooks. The posted leg naturally transitions into the first hook as the opponent turns, while the inside leg follows to complete hook insertion. Simultaneously, the top player shifts arm control from armbar grips to seatbelt configuration, threading one arm over the shoulder and the other under the armpit. Timing is critical—the transition window opens the moment the opponent commits to turning and closes once they complete the rotation and begin guard recovery.\n\nThis transition represents a core link between the mount offense system and the back attack system. Rather than forcing armbars against disciplined defense, advanced practitioners use the armbar threat as bait, drawing the turn that opens the back take. The ability to flow seamlessly between armbar attack and back take from Technical Mount creates an unresolvable dilemma for the bottom player, where defending the arm exposes the back and defending the back exposes the arm. Mastery of this transition elevates the practitioner's entire top game by ensuring that every defensive reaction from Technical Mount leads to either a submission or an even more dominant position.",
   "conditions": [
     "Established Technical Mount with posted leg base and inside leg hooked under opponent",

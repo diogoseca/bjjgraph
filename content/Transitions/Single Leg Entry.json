@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Standing Position/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Front Headlock/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Single Leg Entry is a fundamental wrestling-based takedown that serves as one of the most reliable techniques for establishing top position from standing in Brazilian Jiu-Jitsu. This technique involves capturing one of your opponent's legs while maintaining your own base and balance, creating a powerful mechanical advantage that can lead to various finishing positions including top control, back takes, or leg entanglements. The single leg entry is particularly effective in both gi and no-gi grappling, making it an essential component of any complete BJJ game.\n\nThe beauty of the single leg entry lies in its versatility and the multiple finishing options it provides. Unlike some takedowns that commit you to a single outcome, the single leg allows you to adapt based on your opponent's defensive reactions. Whether they sprawl, hop away, or attempt to whizzer, each defensive response opens different pathways to completion. This adaptability makes it a high-percentage technique at all levels of competition.\n\nFrom a strategic perspective, the single leg entry represents a crucial bridge between standing grappling and ground work. It allows BJJ practitioners to dictate where the fight takes place, avoiding guard pulls that might give up advantageous positions. The entry phase requires precise timing, proper level change mechanics, and understanding of grip fighting principles. When executed correctly, the single leg entry not only secures a takedown but often provides immediate access to dominant positions or submission opportunities, making it one of the most valuable techniques in modern BJJ.",
   "related_content": [
     {

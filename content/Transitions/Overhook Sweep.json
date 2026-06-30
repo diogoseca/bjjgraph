@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Overhook Sweep is a fundamental attacking technique from closed guard that capitalizes on controlling one of the opponent's arms with an overhook grip. This sweep is particularly effective when the opponent posts their hand on the mat or extends their arm, creating the opportunity to trap it and use their own base against them. The technique combines off-balancing principles with leverage mechanics to elevate and roll the opponent, transitioning from a bottom position to a dominant top position.\n\nThe overhook sweep is highly reliable because it works with the opponent's natural defensive reactions. When they post to maintain base, they inadvertently create the exact weakness needed for the sweep. The mechanics require creating a 45-degree angle before executing, which allows you to sweep perpendicular to their base rather than fighting their weight directly. This angular attack principle is what separates successful attempts from wasted energy.\n\nThis sweep serves as an anchor technique within the closed guard attacking system. Its true power lies in the branching attack tree it creates: when the sweep is defended, the overhook control naturally transitions to kimura attacks, triangle setups, or omoplata entries. Competition practitioners use the overhook sweep threat to force defensive reactions that open higher-percentage finishes. The sweep can be executed both in gi and no-gi scenarios, though grip configurations differ slightly between the two contexts.",
   "conditions": [
     "Closed guard must be established with ankles locked behind opponent's back",

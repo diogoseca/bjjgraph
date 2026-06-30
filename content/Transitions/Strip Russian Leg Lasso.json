@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Open Guard/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Russian Leg Lasso/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "summary": "Strip Russian Leg Lasso is a top-player grip-fighting sequence that breaks the collar and sleeve grips, creates slack with hip distance, then rotationally extracts the trapped arm to dismantle the lasso and return to a neutral Open Guard passing position.",
   "overview": "As modern gi guards have grown more layered, the Russian Leg Lasso has become a passing problem that defeats conventional approaches, and a clean strip is what converts it back into a neutral open guard engagement. This technique addresses one of the most sophisticated lasso guard variations in modern BJJ, requiring precise grip fighting, coordinated body mechanics, and strategic sequencing to remove the multiple control points that define the Russian Leg Lasso system.\n\nThe stripping process involves a coordinated sequence of grip breaks and positional adjustments rather than a single explosive movement. The top player must address the sleeve grip, collar grip, and the lasso leg itself in proper order, with each step creating conditions for the next. Rushing this process or attempting to strip the lasso through pure force typically results in the bottom player re-establishing controls or capitalizing on the resulting instability to execute sweeps. The key insight is that the lasso functions as an integrated system where removing one control point weakens the others, so the correct stripping sequence creates a cascading collapse of the entire guard structure.\n\nMastery of this technique is essential for any practitioner regularly facing modern competition guard systems. The Russian Leg Lasso represents an evolution of standard lasso guard that many competitors have adopted specifically because it resists conventional passing approaches. A systematic strip converts this complex defensive puzzle into a manageable open guard situation where the full passing repertoire becomes available, making it a critical gateway skill for top players at the purple belt level and above.",
   "conditions": [

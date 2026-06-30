@@ -13,26 +13,41 @@
   "outcomes": [
     {
       "to": "Mount/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 5,
+      "probability": {
+        "gi": 5,
+        "nogi": 5
+      },
       "result": "success"
     },
     {
       "to": "Mounted Triangle/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 35,
+  "success_rate": {
+    "gi": 35,
+    "nogi": 35
+  },
   "summary": "Bridge Defense from Mounted Triangle is a bottom escape that uses an explosively timed angled bridge into the attacker's weak base to disrupt the triangle lock, extract the trapped arm, and recover toward mount bottom or half guard.",
   "overview": "The bridge defense from mounted triangle is a critical survival technique for escaping one of Brazilian Jiu-Jitsu's most dangerous hybrid positions. When caught in a mounted triangle, the bottom player faces simultaneous threats from triangle choke, armbar transitions, and positional advancement to back control. The bridge defense exploits a fundamental vulnerability in the mounted triangle configuration: the attacker's commitment to triangle mechanics necessarily compromises their mount stability, as the asymmetric leg positioning reduces the base width available for absorbing upward force.\n\nThe technique centers on explosive bridging at the precise moment the top player commits weight forward to finish the triangle or adjust their angle. By driving hips upward at a forty-five degree angle toward the weaker side of the opponent's base, the bottom player disrupts the triangle lock and creates space to extract the trapped shoulder and arm from the triangle configuration. The bridge must be timed with the opponent's finishing attempts or weight shifts, as a well-timed bridge against a committed finisher generates maximum positional disruption while a mistimed bridge wastes energy and may tighten the choke.\n\nStrategically, this technique serves as both a direct escape method and a positional disruption tool within a layered defensive system. Even unsuccessful bridges force the top player to address base stability, momentarily reducing their finishing pressure and creating windows for alternative escapes such as frame-based hip movement or arm extraction. Advanced practitioners chain the bridge defense with shrimp escapes and elbow-knee frames to create multi-layered defensive sequences that systematically degrade the mounted triangle control. The bridge is highest-percentage when executed early, before the triangle is fully locked and cinched, making recognition and reaction speed essential defensive attributes.",
   "variants_and_adaptations": [

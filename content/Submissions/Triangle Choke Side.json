@@ -25,7 +25,10 @@
     "Standing Position",
     "Kesa Gatame"
   ],
-  "success_rate": 59,
+  "success_rate": {
+    "gi": 59,
+    "nogi": 59
+  },
   "overview": "The Triangle Choke Side (also called Side Triangle or Kata Gatame Triangle) is an advanced variation of the traditional triangle choke executed from top positions, most commonly from side control or north-south transitions. Unlike the standard triangle from guard where the defender is between the attacker's legs, the side triangle traps one of the opponent's arms across their own neck while the attacker's legs create the choking mechanism from a perpendicular angle.\n\nThis submission represents a sophisticated understanding of triangle mechanics, as it requires precise leg positioning and body angle adjustments that differ significantly from the bottom triangle. The side triangle often emerges opportunistically when opponents defend traditional side control attacks by creating frames or attempting to turn into the attacker. The choke's effectiveness comes from the ability to isolate one arm while using it as a wedge against the opponent's own carotid artery.\n\nThe side triangle is particularly valuable in no-gi grappling and MMA contexts where traditional collar chokes are unavailable, and it serves as an excellent counter to common defensive reactions from bottom positions. Mastery of this technique demonstrates advanced technical knowledge and the ability to recognize and capitalize on dynamic positional transitions.",
   "variant_uniqueness": "Perpendicular triangle angle from top position",
   "safety_considerations": {

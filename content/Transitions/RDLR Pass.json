@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Reverse De La Riva Guard/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Reverse De La Riva (RDLR) Pass is an essential technique for neutralizing one of modern BJJ's most dynamic guard systems. The RDLR guard creates powerful off-balancing angles and back-take opportunities, making it a favorite among competition grapplers. Successfully passing this guard requires understanding the mechanical structure of the position, controlling the key points of contact, and systematically dismantling the guard player's hooks and grips. This pass emphasizes pressure, balance, and timing to transition from a contested guard position into dominant side control. The technique involves clearing the RDLR hook, establishing strong base and pressure, and circling around the guard player's leg frame to achieve side control or other passing positions.\n\nThe RDLR pass is particularly relevant in modern no-gi competition, where the absence of gi grips makes the RDLR hook-based control even more prevalent. Understanding this pass provides strategic advantages against players who rely heavily on RDLR entries from seated guard, standing guard, or during guard retention sequences. The technique requires excellent balance, hip pressure, and the ability to read your opponent's reactions to capitalize on their defensive adjustments. Mastery of this pass opens up opportunities for multiple passing variations and positions, making it a cornerstone technique for competitive grapplers.\n\nThis passing sequence integrates seamlessly with other modern passing systems, including the long step pass, knee slice, and leg drag. The RDLR pass often serves as an entry point into these complementary techniques, creating a comprehensive passing game that keeps opponents constantly defending multiple threats.",
   "related_content": [
     {

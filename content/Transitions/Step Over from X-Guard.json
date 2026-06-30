@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "X-Guard/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "summary": "Step Over from X-Guard is a timing-based guard pass in which the top player lifts their free leg over the bottom player's X-Guard structure in one committed arc, clearing the legs to land directly in side control.",
   "overview": "The Step Over from X-Guard is a direct passing technique where the top player steps their free leg over the bottom player's X-Guard configuration to land in side control. Unlike more common X-Guard passes that rely on systematic hook removal or gradual pressure application, the step over capitalizes on moments when the bottom player's hooks become shallow or their grip on the trapped ankle weakens, allowing the top player to clear the guard structure with a single decisive movement. The pass rewards precise timing and committed weight transfer over grinding positional work.\n\nThis technique operates on the principle of exploiting transitional windows rather than creating them through sustained pressure. The step over opportunity appears when the bottom player adjusts their hook depth, transitions between sweeping angles, or commits to an offensive action that momentarily compromises their guard integrity. The top player must recognize this window and execute with full commitment, driving their hips past the bottom player's legs before the guard can be re-established. The movement demands exceptional balance and coordination, as the top player must maintain their center of gravity over a single support leg while clearing the opponent's guard structure.\n\nStrategically, the step over complements slower pressure-based approaches by adding an explosive option to the top player's X-Guard passing repertoire. When the bottom player anticipates grinding smash passes or methodical knee slices, the sudden step over catches them off-guard. The pass is most effective when chained with other passing attempts that draw the bottom player's defensive attention in one direction, creating the opening for the step over in the opposite direction. This makes it a valuable secondary technique within a comprehensive X-Guard passing system.",
   "conditions": [

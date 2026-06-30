@@ -17,7 +17,10 @@
   "target_area": "Neck",
   "starting_position": "Rodeo Ride",
   "from_position": "Rodeo Ride/Top",
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "Strategically, this choke belongs to the turtle-attack game rather than the established-back-control game, and that distinction governs everything about how it is finished. Unlike the standard RNC from established back control with hooks and a seat belt, this variation requires the attacker to manage the inherent instability of the Rodeo Ride while simultaneously threatening and completing the strangle. The position creates a unique finishing dynamic where the opponent retains more escape options than from full back control, but the attacker benefits from the element of surprise and the ability to attack before the opponent can establish their standard defensive framework.\n\nThe mechanical challenge of finishing the RNC from Rodeo Ride lies in maintaining sufficient chest-to-back pressure and near-arm control while threading the choking arm under the opponent's chin. Without traditional hooks for hip control, the attacker must use hip pressure, leg positioning, and strategic weight distribution to prevent the opponent from rolling, standing, or creating the space needed to defend. This makes timing critical—the choke attempt must be launched when positional control is strongest, typically when the opponent's base has been compromised through pressure cycling or grip fighting sequences.\n\nThis submission represents a high-level integration of positional control and finishing ability. Practitioners who develop proficiency with the RNC from Rodeo Ride gain a significant competitive advantage because opponents in turtle often focus their defensive energy on preventing hook insertion and back control establishment, leaving the neck temporarily vulnerable to direct choking attacks. The technique rewards practitioners who can read defensive patterns and capitalize on the narrow windows between the opponent's defensive adjustments.",
   "safety_considerations": {
     "injury_risks": [
@@ -108,22 +111,34 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Rodeo Ride/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "failure"
     },
     {
       "to": "Turtle/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],

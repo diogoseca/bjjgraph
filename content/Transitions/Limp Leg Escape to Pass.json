@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Electric Chair/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Deep Half Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Limp Leg Escape is the fundamental defensive technique for escaping the Electric Chair position from top half guard. When caught in the opponent's lockdown with their hips extended and splitting pressure applied, the natural instinct is to pull the trapped leg out forcefully. This approach fails because muscular tension makes the leg rigid and more susceptible to the joint manipulation that defines the Electric Chair submission. The limp leg concept reverses this paradigm by deliberately relaxing the trapped leg, reducing its diameter and making extraction significantly easier.\n\nThis escape exemplifies the counter-intuitive nature of high-level grappling defense. By removing tension from the trapped leg, the practitioner eliminates the fulcrum that the bottom player needs to create splitting pressure. A relaxed leg is harder to control and manipulate because it provides no resistance point for the lockdown's leverage mechanics. Combined with proper upper body positioning and forward pressure, the limp leg creates space for systematic extraction while neutralizing the submission threat.\n\nThe technique integrates seamlessly with standard half guard passing strategies. Once the leg is extracted through the limp leg mechanics, the top player can immediately transition to knee slice, smash pass, or other high-percentage passing sequences. Understanding this escape is essential for any practitioner facing lockdown-based half guards, as it provides the primary pathway out of an otherwise dangerous position.",
   "related_content": [
     {

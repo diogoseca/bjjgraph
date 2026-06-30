@@ -47,7 +47,10 @@
       "type": "array",
       "description": "Strict synonyms — other names for THIS EXACT submission. Examples: ['Mata Leão', 'Hadaka Jime', 'RNC'] on Rear Naked Choke. DO NOT use for variants. See docs/Synonyms.md.",
       "uniqueItems": true,
-      "items": { "type": "string", "minLength": 1 }
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
     },
     "family": {
       "type": "string",
@@ -58,16 +61,26 @@
       "description": "Automation bookkeeping written by the content bots (not hand-authored). select_oldest_files.sh reads last_improved to skip recently-improved files.",
       "additionalProperties": true,
       "properties": {
-        "last_improved": { "type": "string", "description": "ISO date (YYYY-MM-DD) of the last bot edit" },
-        "optimization_pass": { "type": "string" },
-        "last_improved_by": { "type": "string" }
+        "last_improved": {
+          "type": "string",
+          "description": "ISO date (YYYY-MM-DD) of the last bot edit"
+        },
+        "optimization_pass": {
+          "type": "string"
+        },
+        "last_improved_by": {
+          "type": "string"
+        }
       }
     },
     "sameAs": {
       "type": "array",
       "description": "Authoritative external URLs for THIS technique (Wikipedia article and/or Wikidata entity). schema.org sameAs — feeds Google's Knowledge Graph entity reconciliation and surfaces cross-language names. See docs/Synonyms.md.",
       "uniqueItems": true,
-      "items": { "type": "string", "format": "uri" }
+      "items": {
+        "type": "string",
+        "format": "uri"
+      }
     },
     "disambiguations": {
       "type": "array",
@@ -76,10 +89,19 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["name", "reason"],
+        "required": [
+          "name",
+          "reason"
+        ],
         "properties": {
-          "name": { "type": "string", "minLength": 1 },
-          "reason": { "type": "string", "minLength": 10 }
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "reason": {
+            "type": "string",
+            "minLength": 10
+          }
         }
       }
     },
@@ -109,10 +131,40 @@
       "description": "Position/Role this submission is executed from (format: Position/Role, e.g. 'Back Control/Top')"
     },
     "success_rate": {
-      "type": "integer",
-      "description": "Overall success rate percentage (0-100)",
-      "minimum": 0,
-      "maximum": 100
+      "oneOf": [
+        {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        },
+        {
+          "type": "object",
+          "properties": {
+            "gi": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "minimum": 0,
+              "maximum": 100
+            },
+            "nogi": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "minimum": 0,
+              "maximum": 100
+            }
+          },
+          "required": [
+            "gi",
+            "nogi"
+          ],
+          "additionalProperties": false
+        }
+      ],
+      "description": "Overall success rate percentage (0-100)"
     },
     "summary": {
       "type": "string",
@@ -212,9 +264,39 @@
             "description": "Target Position/Role or 'game-over' for successful finish"
           },
           "probability": {
-            "type": "integer",
-            "minimum": 0,
-            "maximum": 100
+            "oneOf": [
+              {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 100
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "gi": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ],
+                    "minimum": 0,
+                    "maximum": 100
+                  },
+                  "nogi": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ],
+                    "minimum": 0,
+                    "maximum": 100
+                  }
+                },
+                "required": [
+                  "gi",
+                  "nogi"
+                ],
+                "additionalProperties": false
+              }
+            ]
           },
           "result": {
             "type": "string",

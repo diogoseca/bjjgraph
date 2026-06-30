@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "50-50 Guard/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Kneebar Control/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "summary": "The Kneebar to 50-50 Transition is a leg-lock conversion in which a top-position kneebar attacker, facing a strong bent-knee defense, threads into a symmetrical 50-50 entanglement to open fresh heel hook, calf slicer, and back-take attacks.",
   "overview": "The kneebar to 50-50 transition represents a strategic positional shift within the modern leg attack system, employed when the kneebar finish from top control is effectively defended. Rather than continuing to force a low-percentage submission against a bent knee defense, the attacker threads their legs into a 50-50 configuration, converting positional control into a new attack platform with access to heel hooks, calf slicers, and back takes.\n\nThis transition capitalizes on a fundamental principle of leg lock systems: when one submission pathway is defended, the defensive reaction itself creates openings for different attacks. The opponent defending the kneebar by bending their knee and creating frames inadvertently positions their leg for 50-50 entry. The attacker's existing leg contact from kneebar position provides the foundation for threading into the symmetrical entanglement without fully releasing control.\n\nThe critical tactical consideration is managing the transition window between releasing kneebar finishing grips and establishing 50-50 control. During this brief period, the attacker's control is at its weakest, creating the primary escape opportunity for the defender. Skilled execution minimizes this window through deliberate sequencing: the legs begin threading into 50-50 before the arms fully release kneebar grips, maintaining continuous control throughout the positional change. Success depends on reading the opponent's defensive commitment and timing the transition to catch them during their strongest kneebar defense, when they are least prepared for the positional shift.",
   "conditions": [

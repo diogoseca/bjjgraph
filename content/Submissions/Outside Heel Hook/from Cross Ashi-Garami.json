@@ -20,7 +20,10 @@
   "target_area": "Knee joint, ankle joint, and surrounding ligaments",
   "starting_position": "Cross Ashi-Garami",
   "from_position": "Cross Ashi-Garami/Top",
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "The outside heel hook from cross ashi-garami is one of the highest-percentage leg lock finishes in modern submission grappling. The cross ashi configuration places the attacker's legs in a crossed position over the opponent's trapped limb, creating a wedge effect that limits hip escape and amplifies rotational control on the heel. This structural advantage means the attacker can generate finishing torque with less effort compared to standard ashi-garami entries, making it a preferred finishing platform for competitors at all levels of no-gi grappling.\n\nWhat distinguishes this variant from heel hooks applied in other leg entanglements is the degree of hip control the cross provides. The attacker's inside hook pins the opponent's hip while the outside leg crossing over the shin prevents the defender from retracting or straightening the trapped leg. This dual-point control isolates the knee and ankle, allowing the attacker to expose the heel and apply external rotation with precision. The grip configuration—cupping the heel with both hands, elbows tight to the torso—converts upper body pulling force into rotational pressure on the lateral and cruciate ligaments of the knee.\n\nFrom a defensive standpoint, the cross ashi heel hook demands immediate recognition and proactive hand fighting. Once the attacker secures the heel cup and begins rotation, escape windows close rapidly and injury risk escalates. Defenders must prioritize keeping the knee flexed, fighting grips before they lock, and timing counter-entanglement entries during the attacker's positional adjustments. This submission is a cornerstone of leg lock systems taught by Danaher, Craig Jones, and Lachlan Giles, and understanding both sides is essential for anyone competing where heel hooks are permitted.",
   "safety_considerations": {
     "injury_risks": [
@@ -124,17 +127,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Cross Ashi-Garami/Top",
-      "probability": 36,
+      "probability": {
+        "gi": 36,
+        "nogi": 36
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 19,
+      "probability": {
+        "gi": 19,
+        "nogi": 19
+      },
       "result": "counter"
     }
   ],

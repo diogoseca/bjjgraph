@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Inside Ashi-Garami/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "50-50 Guard/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "50-50 Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The 50-50 Guard to Inside Ashi transition represents a critical pathway for escaping the symmetrical stalemate that often characterizes 50-50 engagements. When both practitioners mirror each other's leg entanglement, neither has clear offensive advantage. This transition breaks that parity by extracting your inside leg from the entanglement and repositioning it across your opponent's hip, converting from mirror configuration to the dominant inside ashi-garami position.\n\nThe technique requires understanding the precise moment when your opponent's grip loosens or their hip pressure decreases. Rather than fighting against the 50-50 structure, you use hip movement and angle changes to slip your inside leg free while maintaining control of their trapped leg. The transition happens in a fluid motion - as your inside leg clears their leg structure, it immediately drives across their hip to establish the inside ashi frame.\n\nThis transition is particularly valuable against opponents who play defensive 50-50, hiding their heel and refusing to engage. By converting to inside ashi, you gain superior heel access, better control over their hip movement, and a direct pathway to submissions like straight ankle locks and heel hooks. The position also opens transitions to more advanced entanglements like honey hole or saddle that are difficult to access from standard 50-50.",
   "related_content": [
     {

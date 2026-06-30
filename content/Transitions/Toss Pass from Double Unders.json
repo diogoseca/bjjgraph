@@ -14,26 +14,41 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Double Unders/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "summary": "The Toss Pass from Double Unders is an explosive guard pass in which the top player uses bilateral underhook control to fling the opponent's trapped legs laterally to one side, clearing them to land directly in side control.",
   "overview": "As a passing option within the double unders control system, the toss pass distinguishes itself through speed and directional deception rather than grinding pressure. Unlike the methodical stack pass that folds the opponent vertically, the toss pass uses lateral redirection combined with explosive hip rotation to clear the legs in a single decisive action. This makes it particularly effective against opponents who have adapted their defensive frames to counter vertical stacking pressure, as the lateral force vector attacks a different defensive plane entirely.\n\nThe technique operates on the principle of misdirection within the pressure passing framework. By initially driving forward pressure as if attempting a standard stack or fold pass, the passer loads the opponent's defensive reactions in the vertical plane. The sudden lateral redirection catches the defender's frames oriented in the wrong direction, creating a brief window where their defensive structure is completely bypassed. The passer must commit fully to the direction change, following the toss with immediate chest-to-chest contact on the landing side to prevent any guard recovery.\n\nStrategic deployment of the toss pass is most effective when paired with standard double unders passing options as part of a pressure passing chain. When the opponent successfully defends the stack pass by maintaining strong frames against vertical pressure, the toss pass becomes available as a complementary angle of attack. The technique requires solid grip mechanics and timing but rewards the passer with a clean pass to side control that often leaves the opponent disoriented and unable to establish defensive frames before the pass is consolidated.",
   "conditions": [

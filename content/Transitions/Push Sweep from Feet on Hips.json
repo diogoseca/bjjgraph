@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Standing Position/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Feet on Hips Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The push sweep from feet on hips guard converts the defensive leg frame into an offensive sweeping platform by timing bilateral leg extension against the opponent's forward weight commitment. This fundamental open guard technique teaches the critical principle that sweeps work best when they redirect existing momentum rather than generating force against a braced opponent. The bottom player waits for the top player to drive forward or lean in, then explosively extends both legs while simultaneously pulling with upper body grips to amplify the off-balancing effect.\n\nThe technique occupies a central role in the feet-on-hips guard system because it punishes the most natural top player behavior: driving forward to close distance. When the top player knows the push sweep is available, they must respect the bottom player's leg frames and avoid committing weight forward, which paradoxically makes other sweeps and guard transitions more effective. This creates the dilemma framework that elevates feet-on-hips guard from a distance management tool to a genuine offensive platform.\n\nExecution demands precise timing and grip coordination rather than raw strength. The push must coincide with the opponent's weight shift forward, and the upper body grips must complement the leg extension direction to prevent the opponent from posting or recovering balance. Follow-up is equally critical: the bottom player must immediately come to their feet or establish a controlling top position rather than remaining on the ground after the sweep.",
   "conditions": [
     "Both feet placed firmly on opponent's hip bones with stable ball-of-foot contact",

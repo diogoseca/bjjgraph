@@ -18,7 +18,10 @@
   "target_area": "Carotid arteries and neck compression",
   "starting_position": "Half Guard",
   "from_position": "Half Guard/Bottom",
-  "success_rate": 52,
+  "success_rate": {
+    "gi": 52,
+    "nogi": 52
+  },
   "overview": "Modern no-gi competition transformed bottom half guard from a survival position into a genuine finishing platform, and the Buggy Choke sits at the center of that shift. It is particularly effective when the opponent attempts to flatten you out or consolidate side control, because their forward commitment feeds the exact angle the choke requires. The submission combines upper body pressure with leg positioning to trap the opponent's head and arm, cutting off blood flow to the carotid arteries, and it allows smaller practitioners to finish larger opponents through precise mechanics rather than brute strength. What makes the Buggy Choke particularly dangerous is its deceptive setup—opponents often don't recognize the threat until the choke is deeply locked, making escape extremely difficult. It can be finished from various half guard configurations and transitions seamlessly into other attacks when defended properly.",
   "safety_considerations": {
     "injury_risks": [
@@ -70,17 +73,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],

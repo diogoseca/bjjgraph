@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "X-Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Single Leg X-Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Within the modern leg-entanglement system, this transition serves as the natural escalation point from single-leg control to a far more dominant double-leg platform, capturing the opponent's free leg to establish full X-Guard from an existing Single Leg X-Guard position. It represents one of the most important guard transitions in modern BJJ because it dramatically increases sweeping leverage and directional attack variety. In Single Leg X, the bottom player controls one leg effectively but remains vulnerable to backstep passes, leg extraction, and systematic hook clearing. By threading the outside leg behind the opponent's free knee and establishing the full X configuration, the bottom player creates bilateral control that is exponentially harder to escape and opens high-percentage sweeps in multiple directions.\n\nThe transition requires precise timing and hip positioning. The bottom player must create enough elevation and perpendicular angle on the trapped leg to generate the space needed to capture the second leg. Rushing the thread without proper setup results in the opponent stepping their free leg away, while waiting too long allows the top player to establish passing grips and begin systematic guard dismantling. The optimal window exists when the opponent's weight shifts toward the trapped side, momentarily loading the free leg in a predictable position that brings it within threading range.\n\nStrategically, this transition serves as the bridge between SLX's leg-lock-oriented game and X-Guard's sweep-dominant platform. While SLX offers superior access to ashi garami entries and direct heel hook threats, X-Guard provides higher-percentage sweeps with greater directional control and more reliable paths to top position. Understanding when to upgrade to X-Guard versus when to attack directly from SLX is a critical decision point that separates intermediate from advanced guard players. The transition also functions as a forcing mechanism: threatening the X-Guard upgrade compels the top player to react defensively, often opening the very SLX attacks they were trying to prevent.",
   "conditions": [
     "Bottom player has established Single Leg X-Guard with inside hook secured behind opponent's knee",

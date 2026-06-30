@@ -19,7 +19,10 @@
   "target_area": "Cervical spine and neck muscles",
   "starting_position": "Mounted Crucifix",
   "from_position": "Mounted Crucifix/Top",
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "The Neck Crank from Mounted Crucifix exploits one of the most dominant control platforms in grappling to apply devastating cervical spine pressure. With the opponent flat on their back and both arms trapped by the attacker's legs, the bottom player has no ability to frame against the head manipulation that produces the crank. The attacker's hands are entirely free to cup the chin, cradle the skull, or lock a gable grip around the head, then apply lateral flexion or rotation against the fixed torso. Because the mounted crucifix eliminates defensive frames, the crank arrives faster and with less effort than from any other position.\n\nWhat distinguishes this variant from the Twister Control neck crank is the direction of force and the nature of body control. From Twister Control, the crank relies on a body triangle locking the torso sideways while rotating the head. From Mounted Crucifix, the opponent is supine and pinned by mount weight, so the attacker drives the head laterally toward the mat or curls it forward into the chest. The arm isolation means the defender cannot wedge a hand between their chin and chest, cannot frame against the attacker's arms, and cannot create the small angles that normally allow neck crank defense. This makes the mounted crucifix variant uniquely difficult to survive once the head grip is secured.\n\nStrategically, the neck crank serves dual purpose from this position. As a primary finish, it is high-percentage against opponents who turtle their chin to defend chokes but leave the crown of the head exposed. As a chain threat, attempting the crank forces the defender to open their neck defending the rotation, which creates direct entries to rear naked choke or arm triangle attacks. The submission pairs naturally with the Mounted Crucifix Armbar—defending the arm exposes the neck, and defending the neck exposes the arm, creating an inescapable dilemma for the bottom player.",
   "safety_considerations": {
     "injury_risks": [
@@ -96,17 +99,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Mounted Crucifix/Top",
-      "probability": 39,
+      "probability": {
+        "gi": 39,
+        "nogi": 39
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 21,
+      "probability": {
+        "gi": 21,
+        "nogi": 21
+      },
       "result": "counter"
     }
   ],

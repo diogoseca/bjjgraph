@@ -18,7 +18,10 @@
   "target_area": "Carotid arteries and trachea",
   "starting_position": "Side Control",
   "from_position": "Side Control/Top",
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Ezekiel Choke (Sode Guruma Jime) from side control is a deceptive gi-based blood choke that exploits the natural crossface arm positioning to establish a sleeve grip without alerting the defender. Unlike the more traditional mount-based Ezekiel, the side control variant attacks from a perpendicular angle, using the scissoring action of both forearms to compress the carotid arteries while chest weight prevents the opponent from turning away. This position-specific variant is particularly effective because the crossface arm naturally sits adjacent to the opponent's neck, allowing the sleeve grip to be threaded as part of routine side control adjustments.\n\nThe strategic value of the side control Ezekiel lies in its low-risk, high-reward profile. A failed attempt leaves the attacker in the same dominant side control position, unlike Ezekiel attempts from closed guard where failure compromises posture significantly. The element of surprise remains the technique's greatest asset—most practitioners expect americanas, kimuras, or arm triangles from side control, making the Ezekiel an unexpected threat that catches even experienced defenders off guard. The perpendicular body angle does present unique finishing challenges compared to the mount version, requiring precise forearm alignment and committed weight distribution to generate sufficient arterial compression from a lateral rather than superior position.\n\nAt the advanced level, the side control Ezekiel becomes a powerful chain-attack tool. Threatening the choke forces the opponent to address the neck threat, which opens their arms for americana and kimura attacks. Conversely, arm attack threats draw the opponent's hands away from their neck, creating the opening for the Ezekiel. This constant threat cycling makes the side control top player exponentially more dangerous when the Ezekiel is integrated into their submission chain.",
   "safety_considerations": {
     "injury_risks": [
@@ -102,17 +105,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "Side Control/Top",
-      "probability": 27,
+      "probability": {
+        "gi": 27,
+        "nogi": 27
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],

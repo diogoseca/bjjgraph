@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Mounted Triangle/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "3-4 Mount/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Triangle from Mount is a high-percentage submission setup that exploits the asymmetric leg configuration of 3-4 Mount to thread a triangle around the opponent's head and arm. The technique capitalizes on the natural positioning advantage of mount—gravity, chest pressure, and arm isolation—to secure a triangle configuration that would be far more difficult to achieve from guard. Because the attacker maintains top position throughout, the bottom player cannot use posture, distance, or stacking to defend in the ways available from closed guard triangle attacks.\n\nStrategically, Triangle from Mount functions as a chain-attack catalyst. When the top player begins isolating an arm for Americana or armbar, the opponent's defensive reaction—tucking elbows, framing against the chest, or turning to one side—often creates the exact arm-in, arm-out configuration needed for the triangle entry. This makes the triangle setup a natural continuation of mount pressure rather than an isolated technique. The 3-4 Mount configuration is particularly suited to this attack because the posted leg already provides the mobility needed to swing over the opponent's shoulder without sacrificing base.\n\nAt competition level, the mounted triangle is devastating because it combines positional dominance with immediate submission threat. The attacker retains mount points while threatening a blood choke, and failed defense typically leads to armbar or back take opportunities rather than positional loss. The key challenge is managing the transition moment when the leg swings over—this brief window of instability is where most failures occur, making timing and weight distribution the critical variables for success.",
   "related_content": [
     {

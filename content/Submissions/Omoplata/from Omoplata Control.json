@@ -19,7 +19,10 @@
   "target_area": "Shoulder joint (rotator cuff, capsule, AC joint)",
   "starting_position": "Omoplata Control",
   "from_position": "Omoplata Control/Top",
-  "success_rate": 52,
+  "success_rate": {
+    "gi": 52,
+    "nogi": 52
+  },
   "overview": "The omoplata finish from omoplata control represents the culmination of one of Brazilian Jiu-Jitsu's most versatile attack sequences. Unlike omoplata entries from open guard or closed guard where the practitioner must first establish control, this variant begins with the shoulder already isolated and the opponent's posture compromised. The attacker's leg is already threaded across the opponent's upper back with the shin applying downward pressure, and the hip connection to the trapped shoulder is already established. This means the finish is about precise pressure application and preventing last-ditch escape attempts rather than fighting to secure the initial configuration.\n\nThe biomechanics of the finish center on progressive external rotation of the shoulder joint combined with forward pressure that drives the opponent's face toward the mat. The attacker sits perpendicular to the opponent's spine, using their hips as the fulcrum while the leg across the back acts as the lever arm. The critical detail that separates successful finishes from failed attempts is controlling the opponent's hip line to prevent the forward roll escape, which is the single most common defensive reaction at this stage.\n\nIn competition, the omoplata from established control carries a significantly higher success rate than entries from open positions because the opponent's defensive window has already closed on several escape options. The primary remaining defenses are the forward roll, posturing up, and arm extraction, each of which can be countered with proper technique. Understanding the relationship between hip angle, shoulder rotation, and base management transforms this position from a stalling point into a reliable finishing sequence.",
   "safety_considerations": {
     "injury_risks": [
@@ -104,17 +107,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 52,
+      "probability": {
+        "gi": 52,
+        "nogi": 52
+      },
       "result": "success"
     },
     {
       "to": "Omoplata Control/Top",
-      "probability": 31,
+      "probability": {
+        "gi": 31,
+        "nogi": 31
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 17,
+      "probability": {
+        "gi": 17,
+        "nogi": 17
+      },
       "result": "counter"
     }
   ],

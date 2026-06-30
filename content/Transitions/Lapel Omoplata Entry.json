@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Omoplata Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Lapel Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Lapel Omoplata Entry represents a sophisticated integration of modern lapel guard concepts with classical shoulder lock mechanics. This technique exploits the unique control dynamics created when an opponent posts their hand to defend sweeps from lapel guard, transforming their defensive reaction into an opportunity for shoulder lock control.\n\nFrom lapel guard bottom, the practitioner uses the existing lapel configuration to restrict the opponent's movement while creating the rotational angle necessary for omoplata entry. The lapel wrap serves dual purposes: it prevents the opponent from posturing away during the attack setup, and it provides a persistent anchor point that maintains control even as the bottom player rotates under the posting arm.\n\nStrategically, this entry creates a true dilemma for the top player. When threatened with lapel sweeps, posting the hand becomes a natural defensive reaction. However, this posting arm becomes the target for omoplata entry. The technical challenge lies in maintaining lapel control while executing the hip rotation necessary to thread the leg over the opponent's shoulder. Success requires precise timing—attacking the posting arm at the moment of maximum commitment when the opponent cannot easily retract.",
   "related_content": [
     {

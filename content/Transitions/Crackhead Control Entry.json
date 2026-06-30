@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Crackhead Control/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Rubber Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Crackhead Control Entry is a positional advancement within the 10th Planet Rubber Guard system that transitions the bottom player from standard Rubber Guard into the more dominant Crackhead Control configuration. This transition centers on achieving extreme arm isolation by pulling the opponent's trapped arm further across their centerline while repositioning the controlling leg to apply direct shoulder pressure. The result is a locked configuration that severely limits the top player's defensive options and creates high-percentage pathways to triangles, omoplatas, and gogoplatas.\n\nThe entry requires precise timing and mechanical understanding. The bottom player must capitalize on moments when the opponent's posture is broken and their trapped arm is vulnerable to further manipulation. Rushing the entry without proper grip control results in the opponent extracting their arm and recovering posture, potentially escaping the Rubber Guard entirely. The prerequisite flexibility for this transition is significant—practitioners need sufficient hip mobility to maintain the elevated leg position while simultaneously adjusting hand grips and arm positioning through a multi-step grip transfer sequence.\n\nStrategically, the Crackhead Control Entry represents a critical decision point in the Rubber Guard progression tree. When the opponent freezes or fails to defend the initial Mission Control position aggressively, the bottom player can advance to this more dominant configuration rather than immediately attacking with submissions from a less secure position. The entry creates a positional ratchet—once Crackhead Control is established, the opponent faces a dramatically narrower set of defensive options compared to standard Rubber Guard, making all subsequent submission entries substantially higher percentage.",
   "conditions": [
     "Rubber Guard (Mission Control) must be established with shin across opponent's back",

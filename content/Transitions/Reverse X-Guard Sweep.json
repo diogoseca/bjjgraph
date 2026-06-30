@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Reverse X-Guard/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "A signature offensive weapon of the modern leg-entanglement era, the Reverse X-Guard Sweep weaponizes the inverted hook configuration where both legs stack on the same side of the opponent's body. The technique exploits the mechanical advantage created by positioning the primary hook behind the opponent's near knee while the secondary hook controls their hip, generating powerful upward and rotational force that destabilizes their base entirely. The sweep succeeds by coordinating leg extension with upper-body grip manipulation to off-balance the opponent backward or laterally.\n\nThis sweep represents one of the primary offensive weapons from Reverse X-Guard, making it essential for practitioners developing modern leg entanglement games. The technique is particularly effective against standing opponents who maintain upright posture, as their elevated center of gravity becomes a liability when subjected to the elevation and rotation mechanics. The sweep transitions naturally into Mount or Side Control, providing immediate positional advancement worth significant points in competition.\n\nSuccess with the Reverse X-Guard Sweep requires understanding the relationship between hook placement, hip elevation, and grip control. The bottom practitioner must maintain constant elevating pressure while timing the sweep to coincide with the opponent's weight shift or base adjustment. Advanced practitioners chain this sweep with transitions to Single Leg X-Guard or Ashi Garami when the primary sweep is defended, creating a systematic attacking approach from the position.",
   "conditions": [
     "Reverse X-Guard position fully established with both hooks on the same side of opponent's body",

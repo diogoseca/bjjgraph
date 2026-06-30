@@ -23,6 +23,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from _slug import slugify  # shared single-source slugify (node keys + alias map)
 from _atomic_io import atomic_write_json
+from _ruleset import reduce_to_scalar  # collapse mirror {gi,nogi} maps at load (calibration-v2)
 
 
 # Neutral positions don't have top/bottom roles
@@ -172,7 +173,7 @@ def load_json_files(directory: Path) -> list[dict]:
     for json_file in directory.rglob('*.json'):
         try:
             with open(json_file, 'r', encoding='utf-8') as f:
-                data = json.load(f)
+                data = reduce_to_scalar(json.load(f))
                 if not isinstance(data, dict):
                     continue
                 if '$schema' in data and 'title' in data and 'properties' in data:

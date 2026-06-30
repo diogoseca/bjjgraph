@@ -15,26 +15,41 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     },
     {
       "to": "Dogfight Position/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Few half-guard exchanges are decided as cleanly as the underhook battle, and the Underhook Pass is the technique that cashes that battle in for a completed pass. It exploits the powerful control provided by securing an underhook on the bottom player's far side, combined with strategic weight distribution and hip pressure to flatten the opponent and clear the leg entanglement. The technique is built on the principle of controlling the opponent's shoulder and hip simultaneously, creating a cross-body pressure system that limits their defensive frames and movement options.\n\nThe underhook provides both offensive control and defensive protection, preventing the bottom player from establishing their own underhook or recovering full guard. This pass is particularly effective against players who rely on knee shield or traditional half guard retention, as it addresses their primary defensive structures through systematic breakdown and methodical advancement. Against high-level opponents who actively battle for the underhook, the pass becomes a chess match of upper body positioning where the first player to secure a deep underhook gains a decisive mechanical advantage.\n\nThe Underhook Pass integrates naturally with other pressure passing sequences, creating a branching decision tree where the opponent's defensive reactions determine whether you complete the pass directly, transition to a knee cut, or follow their movement to a back take. This adaptability makes it a cornerstone technique for any practitioner developing a systematic half guard passing game.",
   "related_content": [
     {

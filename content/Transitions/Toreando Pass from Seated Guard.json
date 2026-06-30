@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Seated Guard/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Named after the bullfighter's motion of redirecting a charging bull, the toreando from seated guard is a cornerstone of the modern standing passing game. It relies on grip dominance on the opponent's legs, explosive lateral movement, and precise timing to bypass the seated player's primary defensive tools—their feet and hip mobility. Because the pass attacks the legs directly rather than fighting through frames, it rewards speed and angle over raw pressure.\n\nThis pass is particularly effective against seated guard because the seated player's posted hands limit their ability to chase the passer laterally. Unlike passing from butterfly guard or closed guard where the opponent has hooks or a closed lock to anchor you, the seated guard player's legs are extended and relatively exposed, making them vulnerable to grip control. The toreando exploits this by capturing both legs simultaneously, removing the opponent's ability to frame with feet on hips or redirect their legs independently.\n\nStrategically, the toreando from seated guard serves as both a primary passing technique and a setup for other passes. When the opponent defends the toreando by pulling their legs back, they often create openings for knee slice passes, leg drags, or bodylock entries. This makes the toreando an essential component of a systematic passing game from standing, as it forces defensive reactions that open alternative passing lanes.",
   "conditions": [
     "Standing or kneeling over opponent who is in seated guard with hands posted behind them",

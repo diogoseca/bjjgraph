@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Seated Guard/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Increasingly prevalent in modern no-gi grappling, the Bodylock Pass from Seated has become a go-to answer for the seated guard that frustrates leg-based passing. Rather than fight the seated player's distance management, it neutralizes their primary defensive tool — their ability to frame and create space with their legs — by attacking the torso directly. The top player closes distance, clamps a body lock around the lower ribs, drives the opponent flat, and clears their legs to consolidate side control.\n\nThe strategic value of this pass lies in its ability to bypass the seated guard player's leg-based defense entirely. Rather than fighting to control or redirect the opponent's legs as with toreando or leg drag passes, the bodylock pass attacks the torso directly, establishing chest-to-chest connection that renders leg frames ineffective. The level change and forward drive create a dilemma: if the seated player posts their hands to maintain base, they cannot frame against the incoming bodylock; if they bring their hands forward to defend, they lose structural support and are easily driven backward.\n\nThis technique works particularly well when chained with other passing approaches from standing. If the seated guard player focuses on defending toreando or leg drag attempts, the bodylock entry catches them during grip transitions. The pass requires commitment and proper timing, as a poorly executed entry exposes the passer to butterfly sweeps and guard recovery. Success depends on an explosive level change, tight lock establishment, and relentless forward pressure that prevents the bottom player from creating any defensive structure.",
   "conditions": [
     "Opponent is seated with hands posted behind them in seated guard position",

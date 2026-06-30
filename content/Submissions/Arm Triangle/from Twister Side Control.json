@@ -18,7 +18,10 @@
   "target_area": "Carotid arteries (compressed by opponent's own shoulder and your arm)",
   "starting_position": "Twister Side Control",
   "from_position": "Twister Side Control/Top",
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "summary": "The Arm Triangle from Twister Side Control is a head-and-arm blood choke that converts the opponent's own shoulder-frame defense into a trapped arm, compressing both carotids while leg entanglement and lateral torque keep their posture broken.",
   "overview": "The Arm Triangle from Twister Side Control exploits the unique rotational mechanics and lateral torque inherent to this position, trapping the opponent's arm against their own neck to create bilateral carotid compression. Unlike standard arm triangles initiated from traditional side control, this variation leverages the leg entanglement and shoulder pressure of Twister Side Control to naturally disrupt the defender's postural alignment, making it significantly harder to create the frames and bridges that typically counter arm triangle attempts.\n\nStrategically, this submission capitalizes on a specific and common defensive reaction. When the bottom player frames against shoulder pressure or attempts to turn into the top player to relieve spinal torque, their arm frequently crosses their own neck, establishing the trapped-arm configuration essential for the head-and-arm choke. Recognizing this frame defense as a submission trigger rather than a positional threat is the key tactical insight. The finish requires transitioning to a perpendicular angle and applying progressive chest-to-chest compression, using body mechanics rather than arm strength to generate the choking pressure.\n\nThe position integrates naturally into the Twister Side Control attack chain alongside darce chokes, kimuras, and the twister itself. When opponents defend the primary spinal attacks by creating frames, they inadvertently set up the arm triangle, creating a defensive dilemma where protecting against one threat opens vulnerability to another.",
   "safety_considerations": {
@@ -105,17 +108,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 62,
+      "probability": {
+        "gi": 62,
+        "nogi": 62
+      },
       "result": "success"
     },
     {
       "to": "Twister Side Control/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 13,
+      "probability": {
+        "gi": 13,
+        "nogi": 13
+      },
       "result": "counter"
     }
   ],

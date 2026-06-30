@@ -19,7 +19,10 @@
   "target_area": "Carotid arteries and windpipe",
   "starting_position": "Twister Control",
   "from_position": "Twister Control/Top",
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "overview": "The guillotine choke from Twister Control exploits one of the most predictable defensive reactions in the 10th Planet rotational control system. When an opponent caught in Twister Control turns their head and upper body toward the top player to relieve spinal rotation pressure, they create a direct pathway for the guillotine. This submission represents a critical branch in the Twister Control attack tree, punishing the most natural escape attempt with an immediate choking threat.\n\nWhat distinguishes this guillotine variant from standing or guard-based entries is the pre-existing leg control and positional dominance. The top player retains lower body entanglement from the truck position, which severely limits the defender's ability to posture, strip grips, or create the distance needed to survive a standard guillotine defense. The combination of residual rotational control with anterior neck compression creates a compound threat that attacks through two distinct mechanical pathways simultaneously.\n\nStrategically, this submission functions as a trap within the broader Twister system. The top player pressures the spine through rotation, forcing the opponent to either accept the Twister or turn into the attacker. Turning in exposes the neck, and the attacker transitions from spinal rotation to neck compression. This dilemma-based approach makes the combination significantly more effective than either attack in isolation, as defending one directly opens vulnerability to the other.",
   "safety_considerations": {
     "injury_risks": [
@@ -104,17 +107,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 62,
+      "probability": {
+        "gi": 62,
+        "nogi": 62
+      },
       "result": "success"
     },
     {
       "to": "Twister Control/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 13,
+      "probability": {
+        "gi": 13,
+        "nogi": 13
+      },
       "result": "counter"
     }
   ],

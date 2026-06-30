@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Z-Lock Half Guard/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Within the half guard passing hierarchy, Pass Z-Lock answers one of the most technically demanding lockdown variations a top player encounters. The Z-Lock Half Guard combines traditional lockdown mechanics with a butterfly hook element that forms a characteristic Z-shape with the legs, creating dual-threat defense by simultaneously controlling the trapped leg through lockdown tension and managing distance through the butterfly hook. This makes it one of the more difficult half guard variations to pass cleanly, and the pass requires methodical upper body control establishment followed by systematic dismantling of the leg configuration before completing the advance to side control.\n\nThe fundamental challenge lies in the Z-Lock's dual-leg defense system. Unlike a standard lockdown where breaking one connection frees the leg, the Z-Lock requires neutralizing both the lockdown hook and the butterfly element in sequence without creating space for the bottom player to recover or initiate sweeps. The passer must maintain constant shoulder pressure throughout the extraction process to prevent the bottom player from re-establishing the Z-Lock configuration or transitioning to alternative guard variations like deep half or standard knee shield.\n\nStrategically, this pass rewards patience and methodical progression over explosive movement. Attempting to muscle through the Z-Lock typically fails because the dual-leg system absorbs force from multiple angles. Instead, the passer should establish dominant crossface and shoulder pressure first, then systematically strip the lockdown tension before addressing the butterfly hook element. The pass integrates naturally into broader half guard passing systems and chains effectively with knee slice, smash pass, and backstep passing options when the initial Z-Lock break creates defensive reactions.",
   "conditions": [
     "Opponent has established Z-Lock Half Guard configuration with both lockdown and butterfly hook elements active",

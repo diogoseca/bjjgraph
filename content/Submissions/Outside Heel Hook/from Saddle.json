@@ -20,7 +20,10 @@
   "target_area": "Knee joint, ankle joint, and surrounding ligaments",
   "starting_position": "Saddle",
   "from_position": "Saddle/Top",
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "The outside heel hook from the Saddle represents a devastating secondary submission option within the modern leg lock hierarchy. While the inside heel hook remains the primary and highest-percentage attack from this position, the outside heel hook serves as a critical complement that transforms the Saddle into a complete submission dilemma. When an opponent successfully defends the inside heel hook by rotating their knee inward and hiding their heel toward their centerline, they inadvertently expose the lateral side of their knee to outside rotational forces. This creates a binary threat where every defensive adjustment against one attack opens vulnerability to the other.\n\nExecuting the outside heel hook from the Saddle requires a distinct grip reconfiguration compared to the inside variant. Rather than cupping the heel and applying medial rotation, the attacker must transition their grip to generate lateral rotational torque on the opponent's knee joint. This typically involves adjusting the figure-four angle so that the rotating force drives the heel outward, targeting the lateral collateral ligament, lateral meniscus, and potentially the anterior cruciate ligament from a different mechanical vector. The perpendicular alignment inherent to the Saddle position provides the structural base necessary to execute this grip transition while maintaining positional control throughout the switch.\n\nThe combination of inside and outside heel hook threats from the Saddle creates one of the most difficult submission dilemmas in modern no-gi grappling. This dual-threat capability, reinforced by the Saddle's inherent positional dominance through hip pressure and inside leg position, makes the outside heel hook a technique that every serious leg lock practitioner must develop. However, the extreme danger of this submission to the knee joint demands rigorous safety protocols—practitioners must apply rotational force with extreme control and immediately release upon any tap signal, as knee ligament damage from heel hooks can be career-ending and often occurs before the defender feels significant pain.",
   "safety_considerations": {
     "injury_risks": [
@@ -125,17 +128,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Saddle/Top",
-      "probability": 36,
+      "probability": {
+        "gi": 36,
+        "nogi": 36
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 19,
+      "probability": {
+        "gi": 19,
+        "nogi": 19
+      },
       "result": "counter"
     }
   ],

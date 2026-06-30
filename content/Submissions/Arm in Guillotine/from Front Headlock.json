@@ -17,7 +17,10 @@
   "target_area": "Carotid arteries and trachea",
   "starting_position": "Front Headlock",
   "from_position": "Front Headlock/Top",
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "summary": "The arm-in guillotine from front headlock is a blood choke that traps the opponent's arm inside the guillotine grip, using their own limb as a wedge against the far carotid while your forearm compresses the near side for bilateral occlusion.",
   "overview": "The arm-in guillotine from front headlock is a high-percentage finishing sequence that capitalizes on the natural head-and-arm control available from the front headlock position. Unlike the standard guillotine where the attacker's forearm must independently compress both carotid arteries, the arm-in variation uses the opponent's own trapped arm as a compression wedge against the far-side carotid, creating bilateral vascular occlusion with significantly less grip strength required.\n\nThe front headlock entry point offers distinct advantages over other arm-in guillotine setups. Top position provides gravitational assistance and hip pressure that amplifies choking force while limiting the defender's escape options. This position commonly arises when an opponent shoots a takedown and leaves their arm inside during the sprawl, or when a standard guillotine attempt evolves as the defender's hand fighting inadvertently feeds their arm into the choking loop.\n\nStrategically, the arm-in guillotine from front headlock serves as a powerful deterrent against takedown attempts and creates a submission threat that forces opponents to respect the position. When combined with darce, anaconda, and standard guillotine threats from the same control, the arm-in guillotine completes a comprehensive front headlock attack system that addresses every common defensive response.",
   "safety_considerations": {
@@ -110,17 +113,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "Front Headlock/Top",
-      "probability": 27,
+      "probability": {
+        "gi": 27,
+        "nogi": 27
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],

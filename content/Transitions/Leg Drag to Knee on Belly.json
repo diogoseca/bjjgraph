@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Knee on Belly/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Leg Drag Control/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 78,
+  "success_rate": {
+    "gi": 78,
+    "nogi": 78
+  },
   "overview": "The Leg Drag to Knee on Belly transition represents a high-percentage pathway from one of the most dominant passing positions directly into a scoring and attacking position. Rather than settling into side control after completing the leg drag, this transition capitalizes on the opponent's compromised hip position to immediately establish knee on belly pressure. The timing is critical—you must move before the opponent can establish frames or recover their guard structure.\n\nStrategically, this transition serves multiple purposes in your passing game. Knee on belly from leg drag creates immediate scoring opportunities in competition while simultaneously opening submission pathways including cross collar chokes, armbars, and baseball bat chokes. The psychological pressure of knee on belly often forces desperate reactions that create secondary opportunities. Additionally, if the opponent manages to escape knee on belly, you typically maintain a passing position rather than being fully swept.\n\nThe biomechanical advantage of this transition lies in the leg drag's control over the opponent's hips. With their leg dragged across their body, the opponent cannot effectively bridge or create the hip movement necessary to prevent your knee placement. Your existing shoulder control from the leg drag position provides the upper body dominance needed to safely release the leg and transition your knee to their midsection. Understanding this connection between leg drag mechanics and knee on belly establishment is essential for high-percentage execution.",
   "conditions": [
     "Established leg drag control with opponent's near leg pulled across their body",

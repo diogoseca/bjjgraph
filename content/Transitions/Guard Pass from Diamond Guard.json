@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Diamond Guard/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "summary": "Guard Pass from Diamond Guard is a sequential top passing method that neutralizes the overhook-and-head-control frame in order — circling the head free, stripping the overhook, then opening the closed guard — to advance into side control.",
   "overview": "The Guard Pass from Diamond Guard addresses one of the most technically demanding closed guard configurations in modern BJJ. Diamond Guard combines an overhook on one arm with head control behind the neck, creating a self-reinforcing frame that amplifies posture-breaking effectiveness and provides direct pathways to triangles, omoplatas, and kimuras. Passing this guard requires a systematic, sequential approach to grip stripping that differs fundamentally from standard closed guard passing.\n\nThe central challenge is that diamond guard's two control points protect each other. Addressing head control without neutralizing the overhook allows the guard player to immediately threaten submissions with the freed space. Attacking the overhook without freeing the head leaves the passer in broken posture with insufficient hip drive to open the guard. The solution requires addressing head control first through a positional escape — circling the head to the free side rather than pulling directly backward — followed by overhook neutralization using hip drive and rotational arm extraction. Only after both controls are compromised can the passer proceed to open the closed guard and execute a passing sequence.\n\nTiming is critical throughout this transition. The guard player's counter-attack threats peak during the grip-stripping phase when the passer's weight distribution shifts. The hip bump sweep becomes particularly dangerous when the passer shifts weight backward during posture recovery. Successful passers maintain heavy hips throughout and only commit to standing or knee-based guard opening after the diamond frame has been sufficiently degraded.",
   "conditions": [

@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Reverse Kesa-Gatame/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "The Turn In from Reverse Kesa-Gatame is a fundamental escape technique where the bottom player rotates their body toward the top player to close distance, nullify chest pressure, and recover half guard. Unlike shrimping away, which can expose the back or allow the top player to follow with mount transitions, turning in exploits the reverse orientation of the pin by moving into the space where the top player has the least structural control. The bottom player bridges to create momentary space, then rotates their hips and torso toward the top player while threading a knee between their bodies to establish half guard.\n\nThis escape is particularly effective against opponents who commit heavy chest pressure in Reverse Kesa-Gatame because the turn-in motion redirects that pressure laterally rather than absorbing it vertically. The key mechanical principle involves using the free arm as a frame on the top player's hip or far leg to create a pivot point, then driving the near-side hip under the opponent while the far leg posts for leverage. Timing the initial bridge when the top player shifts weight for a submission attempt or position adjustment dramatically increases success rate.\n\nStrategically, the Turn In complements other Reverse Kesa escape methods. When the bottom player threatens to turn in, the top player must widen their base or shift weight to block, which can open pathways for bridge escapes or shrimp-away recoveries. This creates a two-directional escape dilemma that prevents the top player from committing fully to either side. Advanced practitioners chain the turn-in with immediate underhook establishment upon reaching half guard, converting a desperate escape into an offensive half guard position with sweep potential.",
   "conditions": [
     "Bottom player has at least one free arm available for framing on opponent's hip or far leg",

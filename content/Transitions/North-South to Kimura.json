@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Kimura Trap/Top",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "North-South/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "overview": "The North-South to Kimura transition represents a fundamental attacking sequence from one of BJJ's most dominant control positions. From North-South, the practitioner isolates the opponent's arm and establishes the figure-four Kimura grip to transition into the Kimura Trap control position, threatening a high-percentage shoulder lock. This technique capitalizes on the superior weight distribution and control inherent to North-South, where the opponent's defensive frames are compromised and their shoulders are pinned flat against the mat, making arm isolation significantly easier than from parallel positions like side control.\n\nThe transition requires precise timing and grip sequencing. The attacker must maintain continuous chest-to-chest pressure while manipulating the opponent's near-side arm into the figure-four configuration. Rushing the grip establishment without adequate pressure control is the most common failure point, as even momentary space allows the bottom player to turn, bridge, or recover guard. The mechanical advantage stems from controlling the opponent's shoulder joint while their entire upper body mobility is restricted by your perpendicular body weight.\n\nOnce the Kimura Trap is established from North-South, the position offers branching attack pathways: finish the Kimura submission directly, use the grip to roll the opponent and take the back, advance to mount while maintaining arm control, or switch to armbar attacks when the opponent straightens their arm defensively. This versatility makes the North-South to Kimura transition a cornerstone of systematic top-game offense, creating cascading dilemmas where every defensive reaction opens a different submission or positional threat.",
   "conditions": [
     "Established North-South control with chest-to-chest pressure across opponent's upper body",

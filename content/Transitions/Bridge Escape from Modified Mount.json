@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Modified Mount/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "The bridge escape from Modified Mount is a fundamental positional escape that exploits the inherent structural weakness of asymmetric mount positioning. When the top practitioner posts one leg out for stability while maintaining the across-body knee, they create a directional vulnerability that this escape specifically targets. By directing explosive hip power toward the posted leg side, the bottom practitioner disrupts the stability anchor that makes Modified Mount resistant to standard escape attempts from the opposite direction. The technique requires precise directional awareness and immediate follow-through to convert momentary destabilization into lasting positional improvement.\n\nThis escape differs from standard mount bridge escapes in its directional specificity. Rather than bridging randomly or toward the strongest part of the opponent's base, the bottom practitioner must identify the posted leg and commit the bridge specifically toward that side. The posted leg, while providing excellent stability against bridges from the opposite direction, becomes a liability when force drives directly into it because the extended position limits the top practitioner's ability to absorb lateral force while maintaining their center of gravity over the bottom player.\n\nThe escape typically concludes with half guard recovery rather than a full reversal, as capturing the posted leg between your legs represents the most accessible and highest-percentage outcome. This makes the bridge escape a positional improvement tool that transitions from the highly disadvantageous Modified Mount to the more manageable half guard, where the bottom practitioner gains genuine offensive options including sweeps, back takes, and further guard recovery. The technique chains naturally with standard half guard offense, making it a gateway escape that opens entire attacking systems rather than merely surviving the mounted position.",
   "conditions": [
     "Opponent has established Modified Mount with one leg posted to the side and one knee crossing your torso",

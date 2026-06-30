@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Kesa Gatame/Top",
-      "probability": 70,
+      "probability": {
+        "gi": 70,
+        "nogi": 70
+      },
       "result": "success"
     },
     {
       "to": "Side Control/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 72,
+  "success_rate": {
+    "gi": 72,
+    "nogi": 72
+  },
   "overview": "The transition from side control to Kesa Gatame (scarf hold) is a fundamental positional shift within the side control family that changes the control geometry from perpendicular chest-to-chest pressure to a rotated scarf hold configuration. This transition is initiated when the top player rotates their hips to face their opponent's head, wraps the near arm around the opponent's head, and traps the opponent's near arm under their armpit. The result is one of the most oppressive pinning positions in grappling, with roots in judo's classical newaza that have been refined for modern BJJ application.\n\nStrategically, the transition to Kesa Gatame serves multiple purposes in a top player's positional toolkit. It offers superior upper body immobilization compared to standard side control, creates devastating shoulder pressure and breathing restriction, and opens distinct submission pathways including americana, kimura, and arm triangle variations that are mechanically different from standard side control attacks. The position is particularly effective against opponents who are defending well against standard side control attacks or who are attempting to create frames that would otherwise make mount transitions difficult.\n\nThe critical element of this transition is the hip rotation: the top player must rotate their hips approximately 90 degrees from perpendicular alignment to face the opponent's head while simultaneously securing head control and arm isolation. This rotation must be executed smoothly while maintaining constant pressure, as any space created during the rotation allows the bottom player to insert frames or begin guard recovery. The transition is most effective when chained with other positional threats, using the opponent's defensive reactions to standard side control attacks as the entry window for the Kesa Gatame shift.",
   "related_content": [
     {

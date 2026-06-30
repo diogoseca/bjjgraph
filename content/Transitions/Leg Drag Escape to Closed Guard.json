@@ -14,26 +14,41 @@
   "outcomes": [
     {
       "to": "Closed Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "success"
     },
     {
       "to": "Leg Drag Control/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Leg Drag Escape to Closed Guard represents a fundamental defensive recovery when caught in the compromised leg drag position. This escape addresses one of the most dangerous transitional moments in guard passing—when your opponent has successfully dragged your leg across your body and is threatening to consolidate to side control or take your back. The technique requires precise timing, efficient framing, and coordinated hip movement to extract your trapped leg and establish a closed guard position that neutralizes the passing threat.\n\nThe mechanical foundation of this escape relies on creating separation at key control points before attempting leg extraction. Your opponent's control in leg drag position stems from their grip on your dragged leg combined with shoulder or head pressure. Rather than fighting the leg directly, this escape prioritizes breaking the upper body connection first, which loosens the entire control system. The frame at the shoulder creates space for a hip escape that angles your body, making the leg extraction mechanically possible.\n\nStrategically, recovering closed guard from leg drag serves multiple purposes beyond immediate survival. Closed guard offers significantly more security and offensive options than remaining in the compromised leg drag bottom position. The closed guard also removes your opponent's momentum—they were in an advancing position and must now restart their passing sequence from a neutral guard. This escape is particularly valuable because it converts a defensive emergency into a controlled offensive platform.\n\nThe timing window for this escape is narrow but predictable. The optimal moment occurs when your opponent adjusts their grip to transition from leg drag to side control, or when they shift weight to address the back take. These transitional moments create brief lapses in pressure where frame establishment and hip movement become viable. Attempting the escape against fully settled control rarely succeeds and wastes valuable energy.",
   "related_content": [
     {

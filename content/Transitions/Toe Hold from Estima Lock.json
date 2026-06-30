@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Toe Hold Control/Top",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Estima Lock Control/Top",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "The Toe Hold from Estima Lock is a chain attack transition that capitalizes on the opponent's defensive response to the primary Estima Lock submission. When the defender counter-rotates their foot or adjusts their ankle angle to neutralize the Estima Lock's rotational pressure, the top player transitions to a toe hold by redirecting the attack vector. The foot is already isolated and controlled, making this grip change efficient and difficult to defend when timed correctly with the opponent's maximum defensive commitment.\n\nStrategically, this transition embodies the dilemma-based attacking philosophy central to modern leg lock systems. The Estima Lock and toe hold attack the foot from complementary rotational vectors. Defending one angle inherently exposes the other, creating a submission chain where the opponent must choose between two dangerous options. The attacker maintains continuous control throughout the transition, never releasing their positional advantage while switching between attack angles. This makes the Toe Hold from Estima Lock a high-percentage secondary attack that punishes technically sound defenses against the primary Estima Lock threat.\n\nThe mechanical execution requires maintaining hip pressure against the opponent's calf throughout the grip change, ensuring the leg remains isolated while the hands transition from the Estima Lock configuration to the toe hold wrap. The finish applies inward rotational force to the foot, stressing the ankle joint, surrounding ligaments, and potentially the knee through the connected kinetic chain. Understanding this complementary relationship between the Estima Lock and toe hold transforms a single-threat position into a dynamic submission system.",
   "conditions": [
     "Opponent is actively defending or has neutralized the Estima Lock by counter-rotating their ankle",

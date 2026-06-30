@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Squid Guard/Bottom",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "Lapel Guard/Bottom",
-      "probability": 27,
+      "probability": {
+        "gi": 27,
+        "nogi": 27
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "Squid Guard Entry represents a critical transition within the modern lapel guard system, establishing arm control that fundamentally changes the guard passing equation. Unlike worm guard which wraps the lapel around the opponent's leg, squid guard redirects the fabric around their posting arm, creating a persistent barrier that neutralizes their ability to base and pressure pass.\n\nThe strategic value of squid guard lies in its ability to shut down pressure passers who drive forward with heavy upper body weight. When the opponent commits to smashing through your guard, the arm wrap converts their forward momentum into vulnerability—their posting arm becomes trapped, eliminating their ability to maintain balance or frame against sweeps. This makes squid guard particularly effective against larger, stronger opponents who rely on top pressure.\n\nFrom a systems perspective, squid guard serves as both an offensive platform and a defensive refuge. When worm guard configurations are being cleared, transitioning to squid guard maintains lapel control while changing the control point. The arm wrap also opens unique submission pathways including omoplata entries and triangle setups that exploit the opponent's compromised posture. Mastery of squid guard entry dramatically expands your lapel guard game by adding a complementary configuration that addresses worm guard's weaknesses.",
   "conditions": [
     "Lapel fabric already extracted from opponent's gi and controlled by bottom player",

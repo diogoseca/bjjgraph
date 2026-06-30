@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Triangle Escape Position/Top",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Triangle Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "overview": "Transition to Triangle Escape Position addresses one of the most dangerous moments for a half guard top player: getting caught in a triangle choke during a passing attempt. When the top player leads with their head during knee slice or pressure passes, the bottom player can capture the head and one arm in a triangle configuration. This transition covers the critical defensive sequence of recognizing the triangle threat and immediately establishing a structured escape position rather than panicking or making the situation worse through explosive, uncontrolled reactions.\n\nThe scenario typically unfolds when the top player overcommits to a pass, loses track of one arm's position relative to the bottom player's legs, or fails to maintain adequate posture during passing sequences. The bottom player exploits this by shooting their hips up, closing a triangle lock around the exposed arm and neck. The top player must immediately shift from an offensive passing mindset to a defensive survival framework, establishing posture, protecting the trapped arm, and preventing angle optimization before systematically working to escape.\n\nSuccess in this transition depends on early recognition and immediate defensive structure establishment. The faster the top player identifies the triangle threat and transitions to a proper escape position, the higher their probability of successfully escaping. Delayed reactions allow the bottom player to lock the triangle, optimize their angle, and begin finishing sequences that become exponentially harder to defend against with each passing second. This transition is fundamentally about converting a crisis moment into a structured defensive problem that can be solved through systematic technique.",
   "conditions": [
     "Bottom player has captured head and one arm in triangle configuration during half guard passing attempt",

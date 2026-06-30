@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Single Leg X-Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "K-Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The K-Guard to Single Leg X transition is a fundamental guard evolution pathway in modern BJJ that converts a retention-oriented half guard variation into a powerful sweeping and leg attack platform. When the K-Guard bottom player faces an opponent who begins to posture up, create distance, or attempt to extract their trapped leg, the natural response is to follow their movement by transitioning the existing hook connections into the Single Leg X-Guard configuration. This transition capitalizes on the mechanical similarities between K-Guard's inverted hook system and SLX's ankle wrap and hip hook structure, making it one of the smoothest guard-to-guard flows available.\n\nThe transition works by converting the inverted inside hook of K-Guard into the ankle wrap characteristic of SLX, while the outside butterfly hook repositions to the opponent's hip or inner thigh. The critical timing window occurs during the opponent's weight shift—when they commit to standing, backing away, or extracting their trapped leg, their movement creates the space needed for hook reconfiguration. This makes the transition particularly effective against opponents who have learned to deal with K-Guard's direct sweeping threats by creating distance, turning their defensive strategy into an entry point for an even more dangerous guard.\n\nStrategically, this transition transforms a position with moderate sweeping leverage into one with significantly higher finishing rates and direct access to modern leg entanglement systems. Single Leg X offers cleaner sweeping paths through elevation mechanics and seamless entries into Ashi Garami, Inside Ashi, and other leg lock positions, making this transition a critical force multiplier in any modern bottom game built around the K-Guard system.",
   "conditions": [
     "K-Guard bottom position established with active inverted hook and butterfly hook",

@@ -14,26 +14,41 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "success"
     },
     {
       "to": "Squid Guard/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "overview": "Passing Squid Guard is fundamentally a fabric-clearing problem before it is a passing problem: the bottom player's asymmetrical lapel wrap and threading-leg configuration must be dismantled before any orthodox passing mechanic can be applied. Unlike standard open guard passes where grip fighting and directional pressure are the primary concerns, Squid Guard passing demands a preliminary phase dedicated entirely to removing the fabric entanglement that defines the position, combined with strict postural discipline.\n\nThe passing strategy centers on a three-phase approach: first establishing stable posture and preventing the bottom player's inversion attempts, second stripping or clearing the lapel wrap that restricts the passer's mobility, and third executing a directional pass once the primary control mechanism has been neutralized. The critical insight is that attempting any standard passing technique while the lapel remains entangled around your leg will fail because the bottom player retains mechanical leverage through the fabric connection.\n\nThis pass integrates into the broader guard passing system as a specialized response to modern lapel-based guards. The principles of posture maintenance, grip stripping, and systematic entanglement clearing transfer directly to passing other lapel guards such as Worm Guard and Lapel Guard. Success requires patience and technical precision rather than explosive athleticism, making it particularly effective for methodical passers who prefer systematic approaches over speed-based passing.",
   "conditions": [
     "Bottom player has established Squid Guard with lapel wrapped around your leg or body",

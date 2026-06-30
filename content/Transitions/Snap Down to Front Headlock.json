@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Front Headlock/Top",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Clinch/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Clinch/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "summary": "The Snap Down to Front Headlock is a wrestling-based clinch technique where you explosively pull a standing opponent's head down and across your centerline to break their posture and establish dominant front headlock control.",
   "overview": "Within the modern grappling clinch, the snap down occupies the rare niche of an upper-body attack that wins position without committing to the legs, making it the wrestler's answer to opponents who reflexively defend takedowns by sprawling or shooting. This technique exploits the opponent's posture and weight distribution by using explosive downward force combined with precise grip positioning to break their base and establish front headlock control. The snap down is particularly effective against opponents who maintain upright posture or attempt to establish collar ties, as it capitalizes on their forward pressure and redirects their momentum downward.\n\nThis transition serves as a critical gateway technique in modern grappling, bridging the gap between standing exchanges and ground-based submission attacks or back-takes. When executed properly, the snap down not only secures positional dominance but also creates immediate submission opportunities including guillotine chokes, anaconda chokes, darce chokes, and various front headlock-based arm attacks. The technique's versatility makes it equally valuable in gi and no-gi contexts, though grip strategies differ between formats.\n\nThe snap down's effectiveness lies in its ability to bypass traditional takedown defenses by attacking the opponent's posture rather than their legs or hips. Against skilled defensive grapplers who excel at sprawling or defending leg attacks, the snap down provides an alternative pathway to top position that requires different defensive skills. Understanding proper timing, grip configuration, and follow-up options transforms this technique from a simple movement into a comprehensive control system.",
   "conditions": [

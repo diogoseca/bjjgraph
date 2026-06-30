@@ -17,7 +17,10 @@
   "target_area": "Knee ligaments (MCL, ACL, meniscus) via rotational heel manipulation",
   "starting_position": "Inside Sankaku",
   "from_position": "Inside Sankaku/Top",
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "summary": "The inside heel hook from Inside Sankaku is a rotational knee submission that twists the trapped inside heel to load the MCL, ACL, and meniscus, secured once hip connection, knee-line control, and the two-on-one heel grip are established.",
   "overview": "The Inside Sankaku heel hook finish is the primary submission attack from one of modern grappling's most dominant leg entanglements. From the Inside Sankaku position, the attacker has already established the figure-four leg configuration that isolates the opponent's heel toward their centerline, creating optimal biomechanical alignment for the inside heel hook. The finish from this specific entanglement differs from other heel hook setups because the sankaku configuration provides superior knee line control and hip connection, making defensive rotation significantly more difficult for the trapped opponent.\n\nThe finishing sequence requires systematic progression through grip establishment, rotational alignment, and controlled pressure application. The attacker must secure a two-on-one grip with the wrist blade positioned against the Achilles tendon, then generate rotational force by turning the heel while maintaining tight elbow connection to the torso. The Inside Sankaku's unique advantage is that the leg triangle prevents the opponent from straightening their leg or rotating their knee past the barrier, leaving the heel fully exposed to the rotational attack.\n\nSuccess depends on patience and systematic control breakdown rather than explosive force. Rushing the finish before establishing complete positional dominance allows skilled opponents to extract their heel or counter-entangle. The highest-percentage approach follows a systematic protocol: establish the entanglement, secure hip connection, dominate the knee line, then isolate and attack the heel. Practitioners who follow this disciplined approach achieve significantly higher finish rates than those who hunt for the heel prematurely.",
   "safety_considerations": {
@@ -114,17 +117,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Inside Sankaku/Top",
-      "probability": 32,
+      "probability": {
+        "gi": 32,
+        "nogi": 32
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 18,
+      "probability": {
+        "gi": 18,
+        "nogi": 18
+      },
       "result": "counter"
     }
   ],

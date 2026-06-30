@@ -13,21 +13,33 @@
   "outcomes": [
     {
       "to": "Closed Guard/Top",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Overhook Guard/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "summary": "Break Overhook Guard is the top player's grip-stripping sequence that peels an opponent's overhook (whizzer) control off the shoulder—using posture, wrist control, and circular elbow mechanics—to recover neutral closed guard top and unlock the passing game.",
   "overview": "When the bottom player locks an overhook (whizzer) on one of your arms, your entire passing game stalls until you can strip it — and stripping it is precisely what Break Overhook Guard accomplishes. The overhook creates significant control problems for the top player, limiting posting ability on the trapped side, compromising posture, and opening pathways for sweeps and submissions. Breaking this control is essential before meaningful guard passing can begin, as attempting to pass while the overhook remains intact dramatically increases vulnerability to back takes, omoplatas, and overhook sweeps.\n\nThe technique requires a systematic approach rather than brute force. The top player must first establish whatever base and posture is available, then strategically isolate and strip the overhook through a combination of wrist control, posture creation, and elbow circulation mechanics. Timing is critical: the break must happen during windows when the bottom player is transitioning between attacks or adjusting grip depth, rather than when maximum tension is applied on the overhook.\n\nSuccessful execution returns the top player to neutral closed guard top position, where the full spectrum of guard opening and passing options becomes available. This makes Break Overhook Guard a gateway technique that unlocks the top player's entire passing progression from what would otherwise be a highly disadvantaged grip configuration. The technique appears frequently in competition at all levels, as overhook guard is a staple of modern guard play and the ability to systematically neutralize it separates effective guard passers from those who stall against active guard players.",
   "conditions": [

@@ -17,26 +17,41 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Inverted Lasso Guard/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "Passing the inverted lasso guard demands specialized technical knowledge that exceeds standard guard passing principles. When an opponent inverts with a lasso hook threaded through your arm, conventional pressure passing and toreando-style passes become ineffective or actively counterproductive. The inverted position creates rotational leverage that converts your forward pressure into sweep momentum, meaning standard instincts work against you. Successful passing requires understanding the specific mechanics of the inversion and applying targeted counter-strategies that neutralize the geometric advantages before they generate unstoppable force.\n\nThe primary passing approaches fall into three categories: stack passing, which drives the opponent's hips over their head to neutralize inversion angles; systematic arm extraction, which methodically removes the lassoed limb to eliminate the position's foundation; and counter-rotation passing, which follows the opponent's berimbolo attempts with cartwheels or backsteps that convert their momentum into your passing advantage. Each approach has optimal timing windows and risk profiles. Stack passing works best when the opponent commits to overhead sweep mechanics. Arm extraction is most effective when the lasso shows looseness during grip transitions. Counter-rotation techniques shine when the opponent initiates berimbolo sequences.\n\nUnderstanding when to employ each strategy separates competent passers from those who get repeatedly swept. The critical recognition skill is reading the opponent's hip angle and free leg positioning to determine their intended attack, then selecting the appropriate counter before they generate momentum. Delayed responses allow the inverted player to establish dominant angles from which passing becomes exponentially more difficult. The position also presents a unique dilemma for the passer: defending the overhead sweep by retreating weight opens berimbolo entries, while driving forward to prevent berimbolo feeds the sweep mechanics. Threading this needle requires maintaining a controlled neutral weight distribution while systematically dismantling the guard's structural elements.",
   "conditions": [
     "Opponent has established inverted lasso guard with lasso hook threaded through your arm and sleeve grip secured",

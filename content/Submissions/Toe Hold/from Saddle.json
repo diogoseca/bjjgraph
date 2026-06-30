@@ -18,7 +18,10 @@
   "target_area": "Ankle, toes, and foot ligaments",
   "starting_position": "Saddle",
   "from_position": "Saddle/Top",
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "summary": "The toe hold from saddle is a rotational ankle lock attacked from the saddle leg entanglement, twisting the opponent's foot toward their centerline to punish a hidden heel while threatening the ankle ligaments and midfoot joints.",
   "overview": "The toe hold from saddle exploits the powerful perpendicular leg control of the saddle position to attack the opponent's foot and ankle through controlled rotational pressure. When an opponent defends the primary heel hook threat by hiding their heel—rotating the knee inward and tucking the foot—the ball of the foot and toes become accessible targets for this secondary but highly effective submission. The attacker wraps the opponent's foot with a kimura-style grip and applies controlled twisting force that stresses the ankle ligaments, midfoot joints, and smaller bones of the foot.\n\nThe strategic value of the toe hold from saddle lies in its role within the submission dilemma inherent to the position. The saddle's primary weapons are inside and outside heel hooks, but well-trained defenders learn to hide the heel effectively. The toe hold punishes this exact defensive posture by attacking the foot position the opponent adopts for heel safety. This creates a genuine forced choice: expose the heel to heel hook attacks, or protect the heel and risk ankle damage from the toe hold. Elite practitioners use this dynamic to cycle between threats until the opponent's defense collapses.\n\nTechnically, the saddle amplifies the toe hold's effectiveness compared to other positions because the leg entanglement prevents the opponent from straightening their leg or rolling to relieve pressure. The attacker's legs control the opponent's knee line, ensuring the rotational force translates directly into joint stress rather than being dissipated through body movement. This mechanical advantage makes the toe hold from saddle significantly more dangerous than the same submission applied from loose ashi garami configurations.",
   "safety_considerations": {
@@ -116,17 +119,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Saddle/Top",
-      "probability": 26,
+      "probability": {
+        "gi": 26,
+        "nogi": 26
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 14,
+      "probability": {
+        "gi": 14,
+        "nogi": 14
+      },
       "result": "counter"
     }
   ],

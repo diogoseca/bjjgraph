@@ -16,26 +16,41 @@
   "outcomes": [
     {
       "to": "Dogfight Position/Top",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Side Control/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "success"
     },
     {
       "to": "Lockdown/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "Within the 10th Planet lockdown system, the whip-up is the primary offensive sweep, weaponizing the figure-four leg entanglement to convert a top player's forward passing pressure into a reversal. The sweep works by coordinating a lockdown extension that off-balances the top player with a simultaneous upper-body drive that exploits forward weight commitment. When the opponent drives pressure forward to flatten the lockdown player or establish crossface control, their weight shifts over their base, creating the mechanical window for the whip-up.\n\nThe technique derives its name from the explosive whipping motion where the bottom player comes up to their elbow, then their hand, then fully upright while maintaining the lockdown entanglement throughout. This progressive elevation creates a lever system where the lockdown pulls the opponent's trapped leg backward while the underhook drives their upper body forward, collapsing their base structure. The sweep typically lands in the dogfight position, a neutral scramble state where both players are on their knees fighting for underhook dominance.\n\nStrategically, the whip-up sweep creates a binary dilemma when paired with the Old School sweep. If the opponent sits back with their weight to defend the whip-up, they expose themselves to the Old School. If they drive forward to prevent the Old School, the whip-up becomes available. This forced choice is the foundation of lockdown offense and the reason the system has proven effective at the highest levels of no-gi competition. Advanced practitioners chain the whip-up with immediate back takes, truck entries, and submission threats during the dogfight scramble that follows a successful sweep.",
   "related_content": [
     {

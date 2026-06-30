@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Omoplata Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Lasso Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Omoplata from Lasso Guard is a high-percentage transition that exploits the arm isolation already established by the lasso configuration. When the bottom player has their shin threaded across the opponent's tricep with a tight sleeve grip, the opponent's shoulder is already partially compromised and their arm mobility restricted. By pivoting the hips and swinging the lasso leg over the opponent's shoulder, the bottom player converts the lasso control directly into a full omoplata configuration without the typical struggle of isolating the arm that plagues omoplata entries from other guard positions.\n\nThis transition is particularly effective because it capitalizes on the opponent's natural defensive reactions to lasso guard pressure. When the top player drives forward to neutralize the lasso or attempts to strip the sleeve grip, their posture breaks and forward weight commitment create the exact angles needed for the omoplata entry. The sleeve grip maintained throughout the transition prevents arm retraction during the critical moment of hip rotation, making the entry far more reliable than standard omoplata setups.\n\nStrategically, the omoplata threat from lasso creates a powerful branching attack system. If the opponent defends the omoplata entry by posturing up, they become vulnerable to lasso sweeps. If they drive forward to prevent the hip rotation, they open themselves to triangle entries. This makes the mere threat of the omoplata as valuable as the technique itself, forcing the top player into a defensive dilemma where every reaction opens a different attacking pathway for the guard player.",
   "conditions": [
     "Deep lasso control established with shin threaded across opponent's tricep area",

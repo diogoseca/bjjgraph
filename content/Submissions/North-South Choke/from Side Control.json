@@ -20,7 +20,10 @@
   "target_area": "Carotid arteries and trachea",
   "starting_position": "Side Control",
   "from_position": "Side Control/Top",
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The North-South Choke from Side Control is a powerful blood choke that combines positional transition with submission finishing in a single fluid sequence. Unlike entries from north-south itself, this variation begins from a stable side control position and uses the transition toward north-south as the mechanism for threading the choking arm underneath the opponent's near-side neck. The movement catches many opponents off-guard because they are focused on defending the standard side control attacks — americana, kimura, and arm triangle — rather than anticipating the rotational transition that sets up the choke.\n\nThe key mechanical advantage of entering from side control is that the crossface already controls the opponent's head position, making it straightforward to slide the choking arm into place as you walk your body toward the north-south angle. The finishing pressure comes from a combination of the choking arm compressing one carotid artery while the shoulder and chest weight compress the other side, creating bilateral carotid occlusion that produces unconsciousness within seconds when applied correctly. The attacker's sprawled legs and chest-to-chest contact prevent the defender from creating the space needed to relieve pressure.\n\nThis submission is particularly effective against opponents who defend side control by keeping their elbows tight and chin tucked, as the transition bypasses those defensive structures entirely. The choke does not require a gi, making it equally effective in no-gi competition, and the slow, grinding nature of the setup makes it difficult for referees to identify the danger early — a significant tactical advantage in competition settings where opponents may not realize the severity of the choke until it is too late to escape.",
   "safety_considerations": {
     "injury_risks": [
@@ -110,17 +113,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "Side Control/Top",
-      "probability": 27,
+      "probability": {
+        "gi": 27,
+        "nogi": 27
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],

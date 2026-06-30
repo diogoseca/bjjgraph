@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Reverse Half Guard/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Back Control/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The transition to reverse half guard from back control occurs when the back attacker's hooks are being cleared or the bottom player begins successfully turning to face their opponent. Rather than fighting to maintain deteriorating back control, the top player proactively backsteps into reverse half guard, preserving top position and offensive momentum. This transition converts a potentially losing positional battle into a strong passing position with back take and leg drag options.\n\nStrategically, this transition represents a critical decision point in the back control retention hierarchy. When the bottom player strips one hook and begins rotating, the back attacker must choose between fighting to re-establish hooks (increasingly difficult against a mobile defender) or converting their remaining leg entanglement into reverse half guard top. The backstep conversion is the higher-percentage option because it uses the defender's rotational momentum rather than opposing it, maintaining the top player's weight advantage throughout.\n\nThis technique is essential for any practitioner who regularly attacks from back control, as even elite grapplers face escape attempts that compromise hook placement. Understanding the backstep to reverse half guard transforms a defensive scramble into an offensive transition, ensuring the back attacker retains positional dominance regardless of whether the original back control is maintained. The transition integrates directly into leg drag passing systems and secondary back take opportunities from reverse half guard top.",
   "conditions": [
     "Bottom player has cleared or is actively clearing at least one hook from back control",

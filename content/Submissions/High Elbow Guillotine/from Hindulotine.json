@@ -19,7 +19,10 @@
   "target_area": "Carotid arteries and trachea",
   "starting_position": "Hindulotine",
   "from_position": "Hindulotine/Bottom",
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The High Elbow Guillotine from Hindulotine combines two powerful finishing concepts: the elevated elbow position that maximizes carotid compression, and the rotational hip mechanics unique to the Hindulotine control. This variation differs from standard high elbow guillotine entries because the Hindulotine's angled hip position naturally aligns the choking arm at an elevated angle, creating tighter pressure against the neck without requiring the arm strength typically needed to maintain high elbow position from conventional guard.\n\nFrom Hindulotine bottom, the practitioner has already established the rotational torque that defines this control position. Adding the high elbow mechanic—driving the choking elbow above the opponent's shoulder line while maintaining the Hindulotine hip angle—creates a compound pressure system. The forearm blade wedges under the chin at a steep angle while the body rotation restricts the opponent's ability to turn or posture away from the choke. This makes the finish exceptionally tight and difficult to defend once fully locked.\n\nStrategically, this submission thrives when the opponent attempts to defend the standard Hindulotine finish by tucking their chin or creating distance. The high elbow adjustment bypasses chin tuck defenses by attacking from above rather than laterally, and the Hindulotine base prevents the space creation that would normally allow escape from a high elbow guillotine in open guard.",
   "safety_considerations": {
     "injury_risks": [
@@ -111,17 +114,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "Hindulotine/Bottom",
-      "probability": 27,
+      "probability": {
+        "gi": 27,
+        "nogi": 27
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],

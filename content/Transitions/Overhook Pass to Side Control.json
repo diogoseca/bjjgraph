@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Overhook Control/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Within the overhook control system, the pass to side control is the positional-advancement option practitioners reach for when their head-and-arm submissions and back takes have been defended. This pass capitalizes on the control advantages inherent in overhook positioning, where the opponent's arm is trapped and elevated above their optimal power generation angle, creating a one-armed defensive scenario that makes guard retention significantly more difficult. The mechanics involve maintaining the armpit seal while walking the hips around the opponent's guard structure, using forward pressure to flatten them, and systematically clearing their legs before settling into perpendicular side control alignment.\n\nThe strategic value of this pass lies in its reliability as a direct conversion from transitional control to stable dominance. While overhook control offers numerous submission and back take pathways, the pass to side control provides the safest and most stable advancement option when other higher-percentage attacks are not immediately available or have been successfully defended. The overhook prevents the opponent from establishing the frames and underhooks they typically rely upon for guard retention, making the passing window more accessible than from many other control configurations.\n\nThis technique integrates naturally with the broader overhook control system as a positional fallback when attacks like Kimura entries, Darce chokes, or back takes are defended. Practitioners who develop this passing option alongside their submission chain create additional dilemmas for opponents, who must simultaneously defend submissions and prevent the pass. The technique is particularly effective against opponents who focus their defensive efforts on preventing head-and-arm submissions, leaving their lower body vulnerable to the passing mechanics.",
   "conditions": [
     "Established overhook control with tight armpit seal on opponent's shoulder and no gap between your armpit and their shoulder joint",

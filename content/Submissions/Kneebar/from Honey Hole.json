@@ -19,7 +19,10 @@
   "target_area": "Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule)",
   "starting_position": "Honey Hole",
   "from_position": "Honey Hole/Top",
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "overview": "The kneebar from Honey Hole represents one of the highest-percentage secondary attacks available from inside leg entanglement. When the primary heel hook threat is neutralized through heel hiding or grip stripping, the kneebar provides a seamless chain attack that exploits the same control mechanics already established. The inside leg triangle that defines Honey Hole position keeps the opponent's leg trapped and their hip mobility restricted, creating ideal conditions for hyperextending the knee joint through progressive hip extension.\n\nFrom a mechanical standpoint, the kneebar from Honey Hole differs significantly from kneebars attempted from other positions due to the pre-existing control framework. The inside sankaku configuration immobilizes the opponent's hip rotation, which is their primary escape mechanism against standard kneebars. This means the attacker can focus entirely on securing the leg against their hip and applying extension pressure rather than fighting to maintain positional control simultaneously. The opponent's defensive options are severely limited because they must address both the positional control of the entanglement and the submission mechanics at the same time.\n\nIn competition, this attack chain is a hallmark of systematic leg lock play. Elite grapplers use the heel hook threat to force defensive reactions that expose the knee for kneebar attack, creating a genuine dilemma where defending one submission opens vulnerability to another. The kneebar from Honey Hole carries significant injury risk due to the rapid onset of pressure on the posterior cruciate ligament and joint capsule, requiring strict adherence to controlled application speed and immediate response to tap signals.",
   "safety_considerations": {
     "injury_risks": [
@@ -106,17 +109,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Honey Hole/Top",
-      "probability": 26,
+      "probability": {
+        "gi": 26,
+        "nogi": 26
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 14,
+      "probability": {
+        "gi": 14,
+        "nogi": 14
+      },
       "result": "counter"
     }
   ],

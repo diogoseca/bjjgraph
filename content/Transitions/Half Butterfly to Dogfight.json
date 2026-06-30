@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Dogfight Position/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Half Butterfly/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Flattened Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Half Butterfly to Dogfight transition is one of the most important positional improvements available from bottom half guard. By combining the underhook battle with butterfly hook elevation, the bottom player rises from a relatively passive half butterfly position to the dynamic dogfight, where both practitioners compete on roughly equal terms. This transition epitomizes the modern half guard philosophy of coming up rather than fighting from your back, and it creates immediate offensive threats including sweeps, back takes, and further positional advances.\n\nThe mechanics rely on coordinating two primary force vectors: the underhook drives diagonally into the opponent's torso while the butterfly hook elevates from below, creating a combined upward-and-forward force that brings the bottom player to their knees. Timing is critical—the best entries occur when the top player's weight shifts or when they commit to a passing attempt, as their forward pressure can be redirected into the elevation. The half guard legs must maintain their squeeze throughout to prevent the top player from extracting their trapped leg during the transition.\n\nFrom a systems perspective, this transition connects the half butterfly guard system to the entire dogfight offensive chain. Once established in dogfight, the practitioner has access to sweeps, back takes, and deep half entries. Failing to complete the transition typically results in returning to half butterfly, while a strong counter by the top player can flatten the bottom player into a compromised half guard position where passing becomes significantly easier.",
   "conditions": [
     "Deep underhook established on the butterfly hook side, reaching toward opponent's far shoulder",

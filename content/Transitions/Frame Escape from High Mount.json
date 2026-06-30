@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Mount/Bottom",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "High Mount/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "S Mount/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "summary": "Frame Escape from High Mount is a defensive transition where the bottom player uses short forearm frames and timed hip movement to walk a knees-to-armpits high mount back down to standard mount, where conventional escapes become viable.",
   "overview": "The Frame Escape from High Mount is a fundamental defensive technique used when trapped under an opponent who has walked their knees high toward the armpits, creating maximum submission proximity. Rather than attempting a full escape directly from this extremely disadvantaged position, this technique focuses on reducing the severity of the mount by using skeletal frames to push the opponent's hips back down toward the waist, converting high mount into standard mount where traditional escape methods become mechanically viable.\n\nThe technique relies on creating rigid forearm frames against the opponent's pelvis and hip bones, then combining hip movement with sustained pushing force to gradually walk the opponent's base back down the torso. The critical challenge lies in creating frames without extending the arms, which would immediately expose them to armbar and americana attacks. Short, bent-arm frames using the forearm and elbow against the opponent's hip crease provide the structural integrity needed without the submission vulnerability.\n\nTiming is essential because the top player in high mount generates significant downward pressure through gravity and forward lean. Attempting to frame when the opponent is settled and static wastes energy against their full weight. Instead, the frame must be established during moments of transition—when the opponent reaches for grips, shifts weight for a submission attempt, or adjusts position. These weight shifts create brief windows where the top player's pressure is reduced, allowing the bottom player to insert frames and begin the process of walking the hips back down.",
   "conditions": [

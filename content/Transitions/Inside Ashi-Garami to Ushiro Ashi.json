@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Ushiro Ashi-Garami/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Inside Ashi-Garami/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Inside Ashi-Garami to Ushiro Ashi transition is a critical positional advancement within modern leg lock systems that allows the attacker to maintain offensive control when the opponent attempts to escape standard inside ashi through hip rotation or inversion. Rather than losing the entanglement during the opponent's defensive movement, the skilled practitioner follows the rotation while adapting their leg configuration to establish the reversed ushiro ashi-garami position, preserving attacking opportunities from an entirely new angle.\n\nThis transition exemplifies the principle that defensive movement in leg entanglements should be converted into positional advancement rather than resisted through brute force. When the opponent rotates their hips away from inside ashi-garami, the attacker's inside leg and outside leg must reorganize around the opponent's now-inverted hip line. The key mechanical challenge is maintaining heel control and leg pressure throughout the rotation while simultaneously adjusting body angle to match the opponent's new orientation. Timing is essential: initiating the follow too early telegraphs the intention, while following too late allows the opponent to complete their escape entirely.\n\nMastery of this transition separates intermediate leg lock practitioners from advanced ones. Practitioners who cannot follow rotations lose attacking position every time an opponent inverts, creating a reliable escape route that undermines the entire ashi-garami system. Those who develop ushiro ashi maintenance can sustain offensive pressure through defensive scrambles, closing off the inversion escape and forcing defenders into increasingly limited options. The transition integrates naturally with the broader ashi-garami system, connecting inside ashi to back takes, saddle entries, and direct heel hook finishes from the reversed configuration.",
   "conditions": [
     "Opponent begins rotating or inverting hips away from standard inside ashi-garami control",

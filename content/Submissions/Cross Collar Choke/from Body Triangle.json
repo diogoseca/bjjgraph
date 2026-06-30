@@ -18,7 +18,10 @@
   "target_area": "Carotid arteries",
   "starting_position": "Body Triangle",
   "from_position": "Body Triangle/Top",
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The cross collar choke from body triangle combines the mechanical control advantage of the body triangle with the direct choking power of crossed collar grips. Unlike a standard rear naked choke, this attack uses the gi collar as the primary choking mechanism, making it available whenever the opponent wears a gi. The body triangle's constant rib compression forces the defender to manage breathing difficulty while simultaneously defending their collar, creating a multi-layered offensive threat that is extremely difficult to address.\n\nFrom the body triangle, the attacker's legs are fully committed to lower body control through the figure-four lock, which frees both hands entirely for collar work. This is a significant advantage over hook-based back control, where one or both hands often assist with positional maintenance. The attacker feeds one hand deep into the cross-side collar with four fingers inside, then works the second hand to the opposite collar. The finish comes from pulling the elbows back toward the hips while expanding the chest, creating a scissoring action across both carotid arteries.\n\nThis submission is particularly effective as a complement to the rear naked choke and bow and arrow choke from body triangle. When the defender tucks their chin to defend the RNC, the collar grips become accessible. When they fight collar grips, the neck opens for the RNC. This creates a decision tree where every defensive choice opens a different submission pathway, making the body triangle an elite finishing platform in gi grappling.",
   "safety_considerations": {
     "injury_risks": [
@@ -94,17 +97,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "Body Triangle/Bottom",
-      "probability": 27,
+      "probability": {
+        "gi": 27,
+        "nogi": 27
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],

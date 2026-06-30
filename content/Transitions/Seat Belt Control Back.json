@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Mounted Crucifix/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Seat Belt Control Back transition represents a critical link between mounted crucifix dominance and full back control. When you have achieved the mounted crucifix position with arm isolation established, transitioning to seat belt back control allows you to capitalize on that control while securing one of the highest-percentage finishing positions in jiu-jitsu.\n\nThis transition exploits the opponent's compromised defensive structure. With arms trapped or recently extracted from crucifix control, the opponent cannot effectively defend the seat belt grip establishment. The key strategic insight is recognizing when crucifix control begins to degrade - perhaps through opponent movement or your own attack attempts - and converting that moment into a smooth back take rather than fighting to maintain the original position.\n\nThe seat belt grip configuration (one arm over the shoulder, one under the armpit, hands clasped at the sternum) provides the structural foundation for maintaining back control through opponent's escape attempts. Establishing this grip during the transition from mounted crucifix ensures you arrive at back control with immediate offensive potential rather than scrambling to establish control after the position change. This proactive grip work separates high-level back takes from opportunistic ones that often result in lost positions.",
   "conditions": [
     "Mounted crucifix position must be established with at least one arm trapped by legs",

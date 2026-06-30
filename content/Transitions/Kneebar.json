@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Kneebar Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Backside 50-50/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "50-50 Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Kneebar is a powerful leg lock attack that hyperextends the knee joint by trapping the opponent's leg between your hips and applying breaking pressure against the natural bend of the knee. From Backside 50-50 Top, the kneebar becomes particularly effective because your chest pressure and positional dominance limit your opponent's defensive options while their extended leg presents an obvious target.\n\nThis submission capitalizes on the inherent vulnerability of the knee joint when isolated and controlled. The attacking practitioner secures the opponent's leg across their hip line, creates a fulcrum point at or just above the knee cap, and applies controlled extension force by arching their hips forward while pulling the ankle toward their chest. The mechanical advantage is substantial when executed correctly, requiring minimal strength to generate significant breaking pressure.\n\nThe kneebar from Backside 50-50 integrates seamlessly into modern leg lock systems as a complementary attack to heel hooks and toe holds. When opponents defend heel hooks effectively by hiding their heel or rotating their knee outward, they often inadvertently straighten their leg, creating the exact configuration needed for kneebar entry. This makes the kneebar an essential tool for creating dilemmas within leg entanglement exchanges, forcing opponents to choose between exposing their heel or extending their leg.",
   "conditions": [
     "Established Backside 50-50 Top position with chest-to-back pressure",

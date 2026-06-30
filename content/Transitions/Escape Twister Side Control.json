@@ -14,26 +14,41 @@
   "outcomes": [
     {
       "to": "Turtle/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "success"
     },
     {
       "to": "Twister Side Control/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "The Escape from Twister Side Control is a systematic defensive technique for extracting yourself from one of the most submission-dense lateral control positions in modern no-gi grappling. Twister Side Control combines leg entanglement with shoulder pressure and rotational torque on the spine, creating immediate threats to spinal integrity that demand a methodical, layered approach rather than explosive movements. The position's unique control mechanics—drawn from the 10th Planet system—neutralize conventional side control escapes, requiring practitioners to develop specialized defensive skills.\n\nThe escape follows a strict priority hierarchy: first protect the spine from rotational attacks by blocking torque with hand positioning, then create structural frames at the shoulder and hip to reduce pressure, systematically extract the trapped leg from the entanglement through hip extension and circular movement, and finally transition to turtle position where standard guard recovery options become available. Attempting to skip or shortcut any step in this sequence invariably results in deeper control or submission.\n\nWhat distinguishes this escape from standard side control escapes is the necessity of addressing the leg entanglement before meaningful hip movement becomes possible. Traditional shrimping and bridging mechanics are largely neutralized by the hook structure characteristic of twister side control. Instead, the escaping player must combine frame-assisted separation with strategic turning and incremental hip adjustments to dismantle the control structure layer by layer. The escape demands patience, technical precision, and careful energy management—qualities that differentiate successful defenders from those who exhaust themselves with futile explosive attempts.",
   "conditions": [
     "Bottom player is trapped in twister side control with active leg entanglement and shoulder pressure",

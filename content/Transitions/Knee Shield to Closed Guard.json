@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Closed Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Knee Shield Half Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Flattened Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Knee Shield to Closed Guard transition is a fundamental guard recovery technique where the bottom player leverages their knee shield frame to create the space necessary for extracting their trapped leg and establishing full closed guard around the opponent's waist. This represents a strategic position upgrade—moving from the half guard family, where one leg remains entangled, to the closed guard system where both legs wrap the opponent and create a complete control circuit. The technique is particularly valuable when offensive options from knee shield are limited and the practitioner seeks the superior sweep and submission platforms that closed guard offers.\n\nThe mechanical challenge centers on a coordinated sequence: maintaining the knee shield frame for distance while simultaneously hip escaping and threading the bottom leg free from the half guard entanglement. The timing window is narrow—the extraction creates a moment of vulnerability where the top player can drive forward to flatten the position or strip grips to prevent guard closure. Successful execution requires combining upper body grip control with precise hip movement, ensuring the knee shield remains active until the exact moment of leg extraction to prevent the opponent from capitalizing on the transition.\n\nThis technique occupies an important role in the half guard retention system, serving as the primary path to closed guard when the bottom player determines that sweeping from knee shield is not viable. Advanced practitioners use the threat of this recovery to force passing reactions from the top player, creating a dilemma where addressing the guard closure attempt opens opportunities for sweeps and back takes. Understanding when to commit to closed guard recovery versus maintaining knee shield for offensive opportunities is a key strategic decision that reflects positional maturity in the half guard game.",
   "conditions": [
     "Bottom player has established knee shield frame with shin across opponent's torso creating distance",

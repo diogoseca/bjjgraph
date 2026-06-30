@@ -22,7 +22,10 @@
     "Honey Hole",
     "Inside Sankaku"
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "The heel hook from saddle represents the pinnacle of modern leg lock finishing mechanics, combining the most dominant leg entanglement in Brazilian Jiu-Jitsu with the highest percentage submission available from that configuration. The saddle position—also known as Honey Hole or Inside Sankaku—provides unparalleled control of the opponent's hip, knee, and heel simultaneously, creating the ideal platform for heel hook attacks. Unlike heel hooks attempted from looser entanglements such as Outside Ashi-Garami or basic Single Leg X-Guard, the saddle's perpendicular body alignment and figure-four leg configuration eliminate most defensive rotation options before the finishing sequence even begins.\n\nThe submission targets the knee's ligamentous structures through controlled rotational force applied to the heel. When properly executed from saddle, the attacker's entire body acts as a lever system against the isolated knee joint, generating mechanical advantage that makes the technique effective regardless of size differentials. The critical distinction between a controlled, high-percentage finish and a dangerous, explosive application lies in the systematic approach to breaking down defensive barriers before committing to the rotational finish.\n\nStrategically, the heel hook from saddle functions as the terminal threat within the modern leg lock system. Practitioners build entire guard games and entry sequences specifically to reach this finishing position, recognizing that the saddle-to-heel-hook pathway offers the highest conversion rate of any submission chain in no-gi grappling. The position creates a submission dilemma where defending the heel hook exposes the ankle to straight footlock attacks, and defending the footlock re-exposes the heel—making systematic defense extraordinarily difficult once the position is fully established.",
   "safety_considerations": {
     "injury_risks": [
@@ -73,17 +76,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Saddle/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "50-50 Guard/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],

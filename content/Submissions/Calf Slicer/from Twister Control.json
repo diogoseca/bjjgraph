@@ -19,7 +19,10 @@
   "target_area": "Calf muscle and Achilles tendon",
   "starting_position": "Twister Control",
   "from_position": "Twister Control/Top",
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "The calf slicer from twister control exploits the pre-existing leg entanglement of the truck and twister configurations to attack the opponent's calf with a devastating compression lock. Unlike calf slicers initiated from conventional positions like half guard or back control, twister control provides deep leg control and spinal rotation that together prevent the defender from straightening the targeted leg or generating the hip movement needed to relieve pressure. The attacker's legs are already woven through the opponent's lower body, and the rotational constraint characteristic of twister control creates an ideal platform for transitioning into the compression finish.\n\nStrategically, this submission serves as a critical secondary attack within the twister control offensive system. When opponents successfully defend the primary twister finish by protecting their chin and resisting spinal rotation, they often inadvertently expose their legs to compression attacks. The calf slicer capitalizes on this defensive reaction, creating a genuine dilemma where defending the twister opens vulnerability to the leg attack, and defending the leg requires conceding rotational control that enables the twister. This attack-chain dynamic is a hallmark of systematic offense from back exposure positions.\n\nThe finishing mechanics require threading your shin behind the opponent's knee crease and folding their lower leg back while controlling the foot. The fulcrum created by your shin bone against the calf generates intense compression targeting both the gastrocnemius muscle belly and the structures around the knee joint. Application must be controlled and gradual, as the compression can cause serious injury with minimal warning, and the entangled position characteristic of twister control makes tapping physically difficult for the defender.",
   "safety_considerations": {
     "injury_risks": [
@@ -105,17 +108,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Twister Control/Top",
-      "probability": 32,
+      "probability": {
+        "gi": 32,
+        "nogi": 32
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 18,
+      "probability": {
+        "gi": 18,
+        "nogi": 18
+      },
       "result": "counter"
     }
   ],

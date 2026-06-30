@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Saddle/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Inside Sankaku/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Inside Sankaku to Saddle transition is a critical positional upgrade within modern leg lock systems, converting a strong single-leg entanglement into the most dominant leg control configuration in Brazilian Jiu-Jitsu. Inside Sankaku provides excellent heel hook opportunities but remains vulnerable to defensive rotations and knee line clearance attempts. The Saddle eliminates most of these defensive pathways by establishing perpendicular hip pressure with both legs controlling the opponent's trapped limb, creating a near-checkmate scenario where every defensive reaction opens a new submission pathway.\n\nThis transition most commonly occurs when the opponent's defensive reactions to Inside Sankaku inadvertently create openings for deeper entanglement. When the defender turns into the attacker attempting to clear the knee line, sits up to frame, or pumps their hips backward to create distance, each reaction can be redirected into Saddle entry through proper hip switching and leg reconfiguration. The attacker converts from the figure-four triangle configuration around the opponent's leg to perpendicular hip-on-thigh alignment with inside position established between the opponent's legs.\n\nThe primary technical challenge lies in maintaining heel exposure and continuous leg control throughout the reconfiguration phase. Any momentary lapse during the transition creates escape windows that skilled defenders will exploit immediately. Mastery requires understanding the precise mechanical relationship between Inside Sankaku and Saddle, specifically how hip angle changes, leg repositioning, and weight transfer work together to achieve deeper entanglement without sacrificing existing control. Elite practitioners make this transition feel seamless because they time it to the opponent's defensive movement rather than forcing it against static resistance.",
   "conditions": [
     "Established Inside Sankaku control with figure-four leg configuration secured around opponent's trapped leg",

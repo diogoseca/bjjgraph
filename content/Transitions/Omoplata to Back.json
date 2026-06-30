@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Omoplata Control/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Omoplata Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "overview": "The Omoplata to Back transition exploits the most common defensive reaction to the omoplata shoulder lock: the forward roll. When a trapped opponent commits to rolling over their shoulder to relieve submission pressure, the attacker follows the momentum and converts the defensive escape directly into back control with hooks and seatbelt. This is a Type C positional transition that never leads to game-over directly, instead securing arguably the most dominant position in grappling.\n\nThe technique demands precise timing and unbroken shoulder connection. The attacker must recognize the roll initiation early, ride the shoulder through the entire rotation, and immediately thread hooks and establish upper body control as the opponent completes the roll. Losing the shoulder connection at any point during the roll results in complete loss of the transition opportunity. The sequence rewards practitioners who understand that chaining positions is higher percentage than insisting on a single submission.\n\nThis transition integrates into broader guard attack systems where the omoplata itself is often set up from triangle attempts, failed armbars, or rubber guard sequences. The dilemma it creates is powerful: the opponent must choose between accepting the shoulder lock or rolling into back exposure. Both gi and no-gi contexts support this transition, though gi grips on the collar and belt provide additional control anchors during the rolling phase.",
   "related_content": [
     {

@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Open Guard/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "New York Control/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Few defensive scenarios in modern no-gi grappling are as punishing as being trapped beneath the 10th Planet rubber guard's New York Control, where the bottom player's combination of a leg wrapped over the shoulder and a deep overhook creates a controlling web that nullifies standard passing mechanics while threatening gogoplata, triangle, and omoplata submissions simultaneously.\n\nThe escape follows a strict sequential protocol where overhook extraction must occur before any leg removal attempts. Reversing this priority exposes the top player to cascading submission threats as the trapped arm prevents effective defensive hand fighting. The technique emphasizes lateral movement and circular base distribution rather than the forward pressure that intuitively feels correct but feeds directly into the bottom player's submission chains. Success requires patience, disciplined arm positioning with elbows tight to the body, and recognition of brief windows when the bottom player adjusts grips or transitions between attacks.\n\nStrategic mastery of this escape extends beyond simple positional recovery. Practitioners who develop reliable New York Control extraction mechanics gain confidence when engaging rubber guard specialists, removing the psychological pressure that causes many competitors to make critical errors through panic-driven responses. The escape integrates with broader guard passing strategy, as successful extraction typically creates open guard scenarios where the top player can immediately implement their preferred passing sequences against a momentarily disrupted guard structure.",
   "conditions": [
     "Top player is trapped in New York Control with overhook and leg wrap established across shoulder",

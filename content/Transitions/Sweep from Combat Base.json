@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 42,
+      "probability": {
+        "gi": 42,
+        "nogi": 42
+      },
       "result": "success"
     },
     {
       "to": "Combat Base/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 23,
+      "probability": {
+        "gi": 23,
+        "nogi": 23
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 42,
+  "success_rate": {
+    "gi": 42,
+    "nogi": 42
+  },
   "overview": "The Sweep from Combat Base exploits the inherent directional vulnerability of the asymmetric combat base stance, where one knee is posted and the opposite foot is planted flat. While this stance provides strong forward-backward stability, it creates a diagonal weakness running from the planted foot toward the posted knee. The guard player's objective is to load the top player's weight onto one of these supports, then remove it through hook elevation, foot attacks, or angular displacement, toppling them along the line of least resistance.\n\nThe sweep operates on a fundamental principle: combat base sacrifices lateral stability for forward mobility. The posted knee provides a stable anchor against forward pressure but offers minimal resistance to sideways forces directed toward the planted foot side. By inserting a butterfly hook on the posted-knee side, securing upper body control through collar grip, underhook, or sleeve control, and then creating an angle with a slight hip escape, the guard player generates the mechanical advantage needed to elevate and turn the top player. The sweep direction follows the diagonal from posted knee toward planted foot, exploiting the geometric weakness inherent in the asymmetric stance.\n\nThis sweep family is essential for any guard player facing a disciplined passer who establishes combat base as their primary platform. Without reliable sweeps from this position, the guard player is forced to play reactively against passing attempts rather than creating offensive threats. The sweep also functions as a critical component of the guard retention chain: threatening the sweep forces the top player to defend, disrupting their passing rhythm and creating windows for guard re-establishment, leg entanglement entries, or back takes when they overreact to the sweep threat.",
   "conditions": [
     "Opponent has established combat base with one knee posted and opposite foot planted flat on the mat",

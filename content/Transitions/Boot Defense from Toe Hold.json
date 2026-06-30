@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Open Guard/Bottom",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Toe Hold Control/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Kneebar Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "The Boot Defense from Toe Hold is a fundamental defensive technique within the leg entanglement hierarchy where the bottom practitioner creates a rigid foot structure to neutralize the rotational pressure of an opponent's toe hold submission. The technique derives its name from the action of plantarflexing the foot—pointing the toes firmly—while internally rotating the shin, producing a boot-like rigidity that prevents the opponent from applying the twisting force required to complete the toe hold finish. This defense represents one of the primary first-line responses when caught in toe hold control, creating a critical window for systematic grip fighting and eventual leg extraction.\n\nThe mechanical principle centers on eliminating the slack in the ankle joint that toe holds exploit for rotational leverage. By engaging the posterior chain of the lower leg and maintaining firm toe extension, the defender transforms the ankle from a mobile joint with available rotational range into a relatively rigid structure resistant to figure-four torque. This rigidity alone does not escape the position—it functions as a temporary defensive shield that must be combined with active grip fighting on the opponent's wrists and deliberate leg extraction through circular movement. Practitioners who rely exclusively on the boot without progressing to grip breaks discover that experienced attackers adjust their angle, apply progressive pressure to break the rigidity, or transition to alternative leg attacks that circumvent the defense entirely.\n\nStrategic deployment requires reading the toe hold threat early in the grip establishment phase rather than reacting after full rotational pressure is applied. The boot defense integrates with comprehensive leg lock defensive systems, serving as the initial stabilization that creates time for more complete escapes such as guard recovery, counter-entanglement, or full leg extraction. Critically, practitioners must understand that the boot has a limited effective window—once the attacker adjusts angle and begins applying pressure against the rigid structure, continuing to defend without progressing toward escape risks ankle ligament damage. The discipline to tap when the boot fails and escape options are exhausted represents an essential component of safe toe hold defense.",
   "conditions": [
     "Opponent has established toe hold grip with both hands around your foot and ankle",

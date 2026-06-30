@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "success"
     },
     {
       "to": "Body Triangle/Bottom",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 30,
+  "success_rate": {
+    "gi": 30,
+    "nogi": 30
+  },
   "overview": "The Body Triangle Escape to Half Guard is one of the most technically demanding escapes in Brazilian Jiu-Jitsu, requiring practitioners to systematically dismantle the figure-four leg lock that characterizes body triangle back control before recovering a viable guard position. Unlike standard back escape sequences where hook clearing enables rotation, the body triangle creates a locked mechanical structure that must be specifically attacked at its weakest point—the foot tucked behind the opponent's knee—before any meaningful positional change is possible.\n\nThe escape sequence prioritizes turning toward the side where the triangle leg crosses your body, which reduces the effective squeezing angle and creates the structural opportunity to attack the lock. Once the foot is pushed free from behind the knee, the locked configuration collapses, allowing hip escape movement and leg threading to establish half guard. Targeting half guard rather than turtle provides immediate offensive options including underhook sweeps and guard recovery sequences that accelerate positional recovery.\n\nStrategically, this escape demands exceptional timing and patience. Attempting to clear the triangle while the opponent is actively attacking your neck creates double jeopardy—defending the choke and attacking the lock simultaneously depletes energy rapidly under breathing restriction. Experienced practitioners wait for moments when the opponent adjusts grips or transitions between submission attempts, using these brief windows to execute the critical clearing mechanics. The breathing restriction imposed by the body triangle creates genuine urgency, making mental composure and systematic execution even more important than in standard back escape scenarios.",
   "conditions": [
     "Opponent has locked body triangle around your torso with figure-four leg configuration",

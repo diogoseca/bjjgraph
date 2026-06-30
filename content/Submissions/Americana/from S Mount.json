@@ -18,7 +18,10 @@
   "target_area": "Shoulder joint (specifically glenohumeral joint and rotator cuff)",
   "starting_position": "S Mount",
   "from_position": "S Mount/Top",
-  "success_rate": 68,
+  "success_rate": {
+    "gi": 68,
+    "nogi": 68
+  },
   "overview": "The Americana from S Mount exploits the perpendicular body angle unique to S Mount to create devastating shoulder lock mechanics. Unlike the traditional Americana applied from standard mount or side control, the S Mount variant benefits from superior hip-to-shoulder pressure that pins the opponent's arm to the mat while the top practitioner's weight drives directly through the shoulder joint. This positional advantage makes grip breaks extremely difficult and accelerates the submission finish.\n\nThe key mechanical difference lies in how S Mount positions your hips directly over the target shoulder. In standard mount Americana, the attacker must lean laterally to apply rotational force, creating opportunities for the bottom person to bridge or shrimp. From S Mount, your perpendicular alignment means your bodyweight naturally loads the shoulder, and the figure-four keylock grip encounters less resistance because the arm is already partially isolated by your leg positioning. The finishing angle paints the opponent's wrist toward the mat in a shorter arc, reducing the time between initial grip and tap.\n\nStrategically, the Americana from S Mount serves as a powerful secondary attack in the S Mount submission chain. When the opponent defends the armbar by keeping their elbow bent and hugging tight, the Americana capitalizes on that exact defensive posture. The bent-arm position that protects against armbar extension becomes the starting configuration for the keylock, creating a true dilemma: straighten the arm and face the armbar, or keep it bent and expose the Americana.",
   "safety_considerations": {
     "injury_risks": [
@@ -108,17 +111,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 68,
+      "probability": {
+        "gi": 68,
+        "nogi": 68
+      },
       "result": "success"
     },
     {
       "to": "S Mount/Top",
-      "probability": 21,
+      "probability": {
+        "gi": 21,
+        "nogi": 21
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 11,
+      "probability": {
+        "gi": 11,
+        "nogi": 11
+      },
       "result": "counter"
     }
   ],

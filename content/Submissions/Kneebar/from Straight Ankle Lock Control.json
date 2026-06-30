@@ -19,7 +19,10 @@
   "target_area": "Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule)",
   "starting_position": "Straight Ankle Lock Control",
   "from_position": "Straight Ankle Lock Control/Bottom",
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "overview": "The kneebar from straight ankle lock control represents one of the most important chain submissions in modern leg lock systems. When an opponent defends the straight ankle lock by straightening their leg, posting up, or attempting to create distance, they inadvertently expose their knee joint to hyperextension attack. This transition exploits a fundamental defensive dilemma: the movements that protect the ankle often compromise knee safety, creating a reliable two-attack sequence that forces the defender to address multiple threats simultaneously.\n\nThe mechanics of this transition require the attacker to shift their grip focus from the ankle to the thigh while repositioning their hips so the opponent's knee sits directly over the hip bone. The attacker's legs must transition from ankle-controlling configuration to a thigh-trapping triangle that prevents the opponent from pulling their leg free. This positional shift demands practiced fluidity, as any hesitation during the grip change creates an escape window that alert defenders will exploit.\n\nFrom a strategic perspective, the kneebar from straight ankle lock control transforms a moderate-threat position into a high-percentage finishing sequence. The initial ankle lock attempt forces a committed defensive response, and the kneebar transition punishes that defense. This creates a lose-lose dynamic where the defender must choose between accepting ankle lock pressure or making the movements that expose the kneebar. Advanced practitioners layer additional threats including heel hooks and calf slicers from the same control position, building a comprehensive leg attack system rooted in this fundamental transition.",
   "safety_considerations": {
     "injury_risks": [
@@ -108,17 +111,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Straight Ankle Lock Control/Bottom",
-      "probability": 26,
+      "probability": {
+        "gi": 26,
+        "nogi": 26
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 14,
+      "probability": {
+        "gi": 14,
+        "nogi": 14
+      },
       "result": "counter"
     }
   ],

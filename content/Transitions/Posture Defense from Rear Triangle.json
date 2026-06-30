@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Back Control/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Rear Triangle/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "failure"
     },
     {
       "to": "Crucifix/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "Posture defense from the rear triangle addresses one of BJJ's most urgent survival scenarios. The rear triangle combines back control dominance with triangle choke mechanics, creating extreme carotid pressure while trapping one arm and severely limiting the defender's movement options. Without posture recovery, the bottom player faces rapidly escalating submission danger as the choking leg compresses the neck and the opponent optimizes finishing angles from behind.\n\nThe technique centers on using skeletal structure and frame-based leverage rather than muscular strength to counteract the forward-pulling force of the triangle configuration. By driving the chin toward the ceiling, pressing the shoulders back against the choking leg, and establishing control grips on the opponent's locking ankle, the defender systematically reduces choking pressure and creates the space necessary for arm extraction and subsequent escape sequences. Posture recovery serves as the foundational first step in most rear triangle escape chains, as attempting arm extraction or body rotation without first addressing broken posture typically results in the choke tightening further.\n\nThe timing window for effective posture defense is narrow and position-dependent. Best results occur before the triangle is fully locked and the opponent has optimized their hip angle toward the trapped arm side. Once full lock is established with compressed knees and angled hips, pure posture defense becomes significantly harder and must be combined with grip fighting and rotational escape elements to create viable escape opportunities.",
   "conditions": [
     "Defender is caught in rear triangle with one arm trapped inside the triangle structure",

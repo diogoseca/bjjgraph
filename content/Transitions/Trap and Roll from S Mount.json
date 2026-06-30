@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "success"
     },
     {
       "to": "S Mount/Bottom",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 30,
+  "success_rate": {
+    "gi": 30,
+    "nogi": 30
+  },
   "overview": "The Trap and Roll from S Mount is a high-risk, explosive escape attempt executed from one of the most dangerous bottom positions in Brazilian Jiu-Jitsu. S Mount places the top practitioner perpendicular to the bottom player with one leg extended over the head and the other crossing the torso, isolating the near arm for immediate armbar threat. The Trap and Roll aims to disrupt this perpendicular control by trapping the opponent's controlling arm and bridging explosively at an angle that compromises their base, creating enough displacement to recover guard.\n\nUnlike the standard upa from regular mount, executing a trap and roll from S Mount requires accounting for the asymmetric perpendicular body angle, the isolated arm situation, and the opponent's superior attacking leverage. The bottom player must first secure their trapped arm defensively, then use the free arm to control the opponent's wrist before committing to the bridge. The bridging direction must target the opponent's weak base angle — typically rolling toward their posted foot — to maximize displacement with minimal energy expenditure.\n\nThis technique carries inherent risk because the bridging motion can inadvertently extend the trapped arm, creating the exact armbar finish the top player is seeking. Successful execution demands precise timing — ideally when the opponent adjusts position, changes grips, or shifts weight momentarily — combined with committed follow-through to establish half guard before the opponent can re-establish S Mount or transition to a different dominant position. The thirty percent success rate reflects the extreme difficulty of escaping S Mount, making this one of the hardest trap and roll applications in the entire positional hierarchy.",
   "conditions": [
     "Opponent has established S Mount with perpendicular body position over your torso",

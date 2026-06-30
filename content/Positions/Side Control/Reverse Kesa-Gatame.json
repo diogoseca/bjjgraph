@@ -284,35 +284,59 @@
     "transitions": [
       {
         "transition": "Side Control to Mount",
-        "attempt_probability": 24
+        "attempt_probability": {
+          "gi": 24,
+          "nogi": 24
+        }
       },
       {
         "transition": "Side Control to North-South",
-        "attempt_probability": 15
+        "attempt_probability": {
+          "gi": 15,
+          "nogi": 15
+        }
       },
       {
         "transition": "Kimura from Reverse Kesa-Gatame",
-        "attempt_probability": 15
+        "attempt_probability": {
+          "gi": 15,
+          "nogi": 15
+        }
       },
       {
         "transition": "Americana from Reverse Kesa-Gatame",
-        "attempt_probability": 15
+        "attempt_probability": {
+          "gi": 15,
+          "nogi": 15
+        }
       },
       {
         "transition": "Arm Triangle from Reverse Kesa-Gatame",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 10
+        }
       },
       {
         "transition": "Back Take",
-        "attempt_probability": 13
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 13
+        }
       },
       {
         "transition": "Reverse Kesa to North-South",
-        "attempt_probability": 5
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 5
+        }
       },
       {
         "transition": "Reverse Kesa to Side Control",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 3
+        }
       }
     ],
     "flashcards": [
@@ -567,35 +591,59 @@
     "transitions": [
       {
         "transition": "Elbow Escape to Guard",
-        "attempt_probability": 33
+        "attempt_probability": {
+          "gi": 33,
+          "nogi": 33
+        }
       },
       {
         "transition": "Hip Escape to Guard",
-        "attempt_probability": 18
+        "attempt_probability": {
+          "gi": 18,
+          "nogi": 18
+        }
       },
       {
         "transition": "Bridge and Roll",
-        "attempt_probability": 14
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 14
+        }
       },
       {
         "transition": "Shrimp Escape",
-        "attempt_probability": 16
+        "attempt_probability": {
+          "gi": 16,
+          "nogi": 16
+        }
       },
       {
         "transition": "Technical Stand-up",
-        "attempt_probability": 11
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 11
+        }
       },
       {
         "transition": "Bridge from Reverse Kesa-Gatame",
-        "attempt_probability": 5
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 5
+        }
       },
       {
         "transition": "Escape Reverse Kesa-Gatame",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 2
+        }
       },
       {
         "transition": "Turn In from Reverse Kesa",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 1
+        }
       }
     ],
     "flashcards": [

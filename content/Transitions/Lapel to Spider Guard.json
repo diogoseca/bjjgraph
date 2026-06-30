@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Spider Guard/Bottom",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Lapel Guard/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Lapel to Spider Transition is a critical guard recovery and flow technique that converts a compromised lapel guard position into an aggressive spider guard configuration. When an opponent successfully strips your primary lapel grip or begins clearing your lapel configuration, rather than fighting to re-establish the same control, this transition immediately redirects into spider guard's bicep controls.\n\nStrategically, this technique represents intelligent guard retention—recognizing when one guard system is failing and smoothly converting to another rather than clinging to a broken position. The transition exploits the grip-stripping motion itself: as the opponent pulls their lapel free, their arms extend forward, creating the perfect moment to establish deep bicep controls with your feet.\n\nThe biomechanics favor the bottom player because the opponent's clearing motion extends their arms while your guard structure remains intact. Your feet are already positioned near their biceps from the lapel guard frame, requiring only a quick adjustment to plant your feet in the bicep pockets. This gives you immediate distance control and sweep threats before they can consolidate after clearing your lapel.\n\nThis transition is particularly valuable in competition where opponents train specific lapel guard counters. Rather than engaging in a grip fight you may lose, flowing to spider guard maintains offensive pressure and keeps the opponent reacting to you rather than executing their passing sequence.",
   "conditions": [
     "Bottom player has established lapel guard with at least one sleeve grip maintained",

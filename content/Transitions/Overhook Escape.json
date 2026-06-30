@@ -14,26 +14,41 @@
   "outcomes": [
     {
       "to": "Half Guard/Top",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "success"
     },
     {
       "to": "New York Control/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Triangle Control/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Overhook Escape represents the critical first step in defending against New York Control, the advanced rubber guard position that combines leg pressure across your back with a deep overhook that restricts your arm movement. Without successfully extracting your trapped arm, all subsequent escape attempts become exponentially more difficult as the bottom player maintains access to gogoplata, triangle, and omoplata submission chains.\n\nThe fundamental challenge lies in the mechanical reality that the overhook creates a closed loop around your arm, threading under your armpit with the hand clasping the opponent's own leg, shoulder, or neck. Simply pulling backward strengthens their grip. Instead, successful extraction requires understanding the specific angles and pressure directions that compromise the overhook depth. By rotating your shoulder forward while simultaneously driving your elbow toward your own hip, you create a spiraling motion that attacks the weakest point of their grip structure.\n\nTiming proves critical to successful execution. The optimal window for escape occurs when the bottom player adjusts their grip, transitions between positions, or commits to a submission setup that temporarily reduces their overhook pressure. Attempting the escape against a fully consolidated New York Control position with maximum overhook depth yields significantly lower success rates. Advanced practitioners develop sensitivity to these transitional moments, executing the extraction during the brief mechanical windows rather than fighting against established control.",
   "related_content": [
     {

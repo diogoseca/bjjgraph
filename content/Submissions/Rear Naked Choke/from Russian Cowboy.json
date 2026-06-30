@@ -21,7 +21,10 @@
   "target_area": "Carotid arteries and jugular veins",
   "starting_position": "Russian Cowboy",
   "from_position": "Russian Cowboy/Top",
-  "success_rate": 65,
+  "success_rate": {
+    "gi": 65,
+    "nogi": 65
+  },
   "overview": "The Rear Naked Choke from Russian Cowboy exploits the asymmetric single-hook back control to establish a blood choke while the opponent manages competing threats from the leg entanglement. Unlike the standard RNC from full back control with both hooks, this variant uses the Russian Cowboy's diagonal body mechanics to create rotational exposure of the neck. The single leg hook pulls the opponent's hips in one direction while the choking arm drives across from the opposite side, generating a stretching force that opens the neck and prevents the defensive curl.\n\nThe setup sequence requires careful grip transition from the riding seatbelt to choking configuration without sacrificing chest-to-back contact. The Russian Cowboy rider must clear the chin line using the free hand while maintaining hook depth with the leg—a coordination challenge that distinguishes this variant from standard back mount applications. The position's inherent instability compared to full back control means the window for choke insertion is narrower, demanding precise timing during the opponent's defensive transitions.\n\nStrategically, the RNC threat serves as the primary fork in the Russian Cowboy attack tree. When the opponent prioritizes neck defense, they expose truck entries, calf slicers, and crucifix transitions. When they prioritize escaping the hook, the neck opens for the choke. This constant threat cycling between upper and lower body attacks makes Russian Cowboy a complete offensive position rather than merely a transitional state.",
   "safety_considerations": {
     "injury_risks": [
@@ -106,17 +109,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Russian Cowboy/Top",
-      "probability": 23,
+      "probability": {
+        "gi": 23,
+        "nogi": 23
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 12,
+      "probability": {
+        "gi": 12,
+        "nogi": 12
+      },
       "result": "counter"
     }
   ],

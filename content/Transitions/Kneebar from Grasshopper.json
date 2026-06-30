@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Kneebar Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Grasshopper Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Kneebar from Grasshopper Guard represents one of the highest-percentage leg attack entries available from inverted guard configurations. The grasshopper position provides unique access to the opponent's lead leg that standing passers rarely anticipate. By inverting and positioning your hips beneath their leg, you create immediate hyperextension threat on the knee joint before they can establish passing grips or pressure.\n\nThis technique exploits the fundamental vulnerability of standing guard passers: their weight distribution and base require at least one leg to remain relatively stationary. When you invert into grasshopper, that stationary leg becomes your primary target. The entry involves threading your legs around their knee while your hips rotate to position the back of their knee directly against your hip crease - the optimal fulcrum point for kneebar mechanics.\n\nFrom a systematic perspective, the Kneebar from Grasshopper functions as both a submission threat and a sweep setup. Even if the opponent defends the kneebar by straightening their leg or stepping back, your position often converts directly into X-Guard or Single Leg X entries. This chain-attack potential makes the technique valuable beyond just the submission itself - it forces defensive reactions that open other attacking pathways.\n\nThe inverted nature of this entry makes it particularly effective in no-gi competition where the absence of gi grips means the top player cannot easily control your inverting motion. The technique gained prominence through modern leg lock systems that emphasize attacking from bottom positions against standing opponents, reversing traditional assumptions about who holds positional advantage.",
   "conditions": [
     "Attacker has established grasshopper guard with hips elevated and shoulders on mat",

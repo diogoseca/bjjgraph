@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "success"
     },
     {
       "to": "Honey Hole/Bottom",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "failure"
     },
     {
       "to": "Honey Hole/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 30,
+  "success_rate": {
+    "gi": 30,
+    "nogi": 30
+  },
   "summary": "The Sweep from Honey Hole is a high-risk reversal in which the trapped bottom player turns the inside leg entanglement itself into a lever, combining an explosive bridge, free-leg pendulum, and upper-body control to off-balance the top player and recover to Side Control.",
   "overview": "The Sweep from Honey Hole represents one of the most technically demanding reversals in modern leg lock grappling. Initiated from the bottom of the Honey Hole position—where your leg is trapped in your opponent's inside leg triangle with direct heel hook access—this sweep transforms a desperate defensive situation into an offensive opportunity by using the entanglement connecting both bodies as a mechanical lever for reversal. The technique requires explosive commitment, precise timing, and the willingness to take calculated risks with your trapped knee.\n\nThe fundamental strategic logic is that the Honey Hole connection is bidirectional: while it gives the top player submission access, it also physically links both practitioners through the leg triangle. By generating explosive momentum through bridging, pendulum action with the free leg, and upper body control, the bottom player leverages this connection to off-balance and sweep the top player toward Side Control. The technique reaches its highest success percentage when the top player is reaching for heel hook grips or adjusting their leg configuration, creating brief windows where their base is compromised and they cannot resist the directional force.\n\nThis sweep occupies a critical niche in the defensive leg lock hierarchy. While counter-entanglement to 50-50 guard is typically the primary escape strategy from Honey Hole bottom, the sweep offers an alternative path when counter-entanglement routes are blocked or when the opponent's upper body positioning creates a favorable angle for reversal. At approximately 30% overall success rate, it remains a low-percentage but high-reward option that experienced practitioners maintain in their defensive arsenal, deploying it when they recognize specific windows of vulnerability in their opponent's weight distribution and base.",
   "conditions": [

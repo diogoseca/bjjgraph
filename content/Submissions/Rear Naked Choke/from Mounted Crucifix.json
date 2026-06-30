@@ -20,7 +20,10 @@
   "target_area": "Carotid arteries and jugular veins",
   "starting_position": "Mounted Crucifix",
   "from_position": "Mounted Crucifix/Top",
-  "success_rate": 65,
+  "success_rate": {
+    "gi": 65,
+    "nogi": 65
+  },
   "overview": "The rear naked choke from mounted crucifix represents one of the highest-percentage finishing positions in all of Brazilian Jiu-Jitsu. Unlike the standard RNC from back control where the defender retains both hands to fight grips and protect the neck, the mounted crucifix configuration traps one or both of the opponent's arms using the attacker's legs, creating a scenario where the neck is exposed with minimal defensive tools available. This fundamental asymmetry makes the choking arm entry significantly easier and the finishing grip far more secure than from conventional back control.\n\nThe mechanics of this finish leverage the mounted position's gravitational advantage combined with the crucifix's arm isolation. The attacker threads the choking arm beneath the opponent's chin while chest-to-chest weight prevents bridging escapes. Because the defender cannot use trapped arms to strip grips or create frames, the attacker can methodically work the choking arm into position without the usual grip fighting that characterizes the RNC from standard back control. The figure-four lock behind the head completes the blood choke structure, compressing both carotid arteries simultaneously.\n\nStrategically, this submission serves as the primary finishing threat from mounted crucifix and the reason opponents desperately attempt arm extraction. The threat of this choke forces defensive errors that open alternative attacks like armbars and transitions to back control. Understanding both the attacking sequence and defensive responses is essential for any serious practitioner working from or defending against this dominant mounted crucifix position.",
   "safety_considerations": {
     "injury_risks": [
@@ -109,17 +112,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Mounted Crucifix/Top",
-      "probability": 23,
+      "probability": {
+        "gi": 23,
+        "nogi": 23
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 12,
+      "probability": {
+        "gi": 12,
+        "nogi": 12
+      },
       "result": "counter"
     }
   ],

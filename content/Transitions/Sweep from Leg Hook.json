@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Leg Hook/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "The Sweep from Leg Hook is a fundamental reversal technique executed from the bottom leg hook position, a dynamic half guard variant characterized by active leg entanglement around the top player's near leg. This sweep exploits the mechanical leverage created by the hook to displace the top player's base laterally, driving them over the fulcrum of the hooked leg and achieving a full reversal to mount position. The technique rewards precise timing and coordinated upper-lower body mechanics rather than raw explosive strength.\n\nThe effectiveness of this sweep stems from the unique control properties of the leg hook itself. Unlike passive half guard retention where the legs merely wrap around the opponent's leg, the leg hook provides an active steering mechanism that redirects the opponent's weight distribution. When combined with an underhook or overhook on the near side, the bottom player creates a unified control system spanning both the upper and lower body, generating tremendous sweeping force along a line perpendicular to the opponent's base alignment. This coordinated pulling and elevating action makes the sweep extremely difficult to defend once properly loaded.\n\nStrategically, this sweep serves as the primary offensive threat from leg hook bottom, creating a dilemma for the top player: committing weight forward to maintain passing pressure exposes them to the sweep, while sitting back to defend the sweep abandons their passing initiative entirely. This binary choice architecture makes the sweep particularly potent when chained with deep half entries, back takes, and guard recovery options that punish each defensive response differently.",
   "conditions": [
     "Active leg hook established around opponent's near leg with dynamic tension maintained",

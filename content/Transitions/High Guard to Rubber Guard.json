@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Rubber Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The High Guard to Rubber Guard transition is a specialized positional advancement from closed guard bottom that leverages hip flexibility and systematic posture control to establish the foundational Rubber Guard position known as Mission Control. The technique begins when the bottom player climbs their guard high on the opponent's back, creating the high guard configuration, then systematically repositions one leg across the opponent's shoulder line while securing the foot with the same-side hand to lock in the control position.\n\nThis transition represents a critical entry point into the 10th Planet offensive system, converting standard closed guard control into a more restrictive configuration that traps the opponent's posting arm while maintaining complete posture dominance. The high guard serves as an intermediate position that creates the elevation and angle necessary to thread the leg across the opponent's back without losing guard integrity or exposing sweep vulnerability during the transition phase.\n\nThe technique requires above-average hip flexibility, particularly in the hamstrings and hip flexors, making it most accessible to practitioners who invest in dedicated flexibility development. The mechanical advantage created once Mission Control is established provides access to a comprehensive submission chain including triangles, omoplatas, and gogoplatas, making the initial flexibility investment worthwhile for practitioners committed to developing a complete guard offense system. The transition is especially effective in no-gi grappling and MMA contexts where it neutralizes striking while simultaneously setting up high-percentage submissions.",
   "conditions": [
     "Opponent's posture must be broken with head and chest pulled toward your torso",

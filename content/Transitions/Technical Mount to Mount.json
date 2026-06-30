@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Technical Mount/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Technical Mount to Mount is the consolidation transition where the top player returns from the asymmetric Technical Mount configuration to standard full Mount. This transition typically occurs when armbar and submission opportunities from Technical Mount have not materialized—either the bottom player successfully defended arm isolation, retracted their arm before the swing-over, or defensive framing made continued Technical Mount suboptimal. Rather than forcing a low-percentage finish, the experienced practitioner recognizes when consolidation preserves positional dominance more effectively than persistent attacking from a compromised angle.\n\nThe mechanics involve retracting the posted leg back to a traditional mount configuration while maintaining hip pressure and upper body control throughout the movement. The critical challenge lies in the weight redistribution required—moving from the asymmetric tripod base of Technical Mount to the symmetric bilateral base of full Mount creates a brief window of reduced stability that the bottom player can exploit through hip escapes or knee insertion. Successful execution demands committed forward pressure before and during the leg retraction to deny the bottom player space for counter-movement.\n\nThis transition reflects a fundamental principle of sophisticated mount offense: the willingness to cycle between mount variations based on offensive opportunity rather than stubbornly pursuing a single attack pathway. Returning to mount preserves dominant position while allowing the top player to reassess defensive patterns, establish fresh grips, and launch new attacks from a stable platform. Competition-level practitioners frequently cycle between mount, technical mount, high mount, and S mount multiple times per exchange, treating each variation as a phase in a continuous pressure campaign rather than a terminal endpoint.",
   "conditions": [
     "Established Technical Mount position with posted leg base and inside hook maintaining control",

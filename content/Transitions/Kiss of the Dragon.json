@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Turtle/Top",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Turtle/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "The Kiss of the Dragon is an advanced rolling back take technique that allows the top player to bypass the turtle position's defensive structure and directly establish back control. The practitioner uses a forward somersault while maintaining grip control on the opponent's hips or belt, rolling underneath and behind the turtle position to emerge directly on the back. This dynamic movement is particularly effective against opponents who are skilled at defending traditional back take attempts such as seatbelt entries and crab rides, as it circumvents the typical defensive frames and hand fighting that occur during standard back attacks.\n\nThe technique exploits the moment when an opponent commits weight forward into their turtle shell. By entering from a 45-degree angle and rolling tightly underneath the opponent's center of gravity, the practitioner arrives at the back before defensive reactions can engage. The key mechanical insight is that most turtle defenses are oriented to resist attacks coming from behind and above, while the Kiss of the Dragon attacks from underneath, rendering those defensive layers irrelevant.\n\nThe technique requires excellent spatial awareness, timing, and the ability to maintain connection throughout the inversion. The hip grip serves as the anchor that keeps the rolling practitioner's body tracing a tight arc around the opponent rather than rolling into empty space. When executed properly, the Kiss of the Dragon provides one of the most direct paths from turtle top to full back control with hooks. The technique has gained prominence in modern competition grappling as a complement to traditional turtle attacks, creating a three-dimensional threat system that is extremely difficult to defend comprehensively.",
   "related_content": [
     {

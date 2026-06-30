@@ -14,26 +14,41 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Single Leg X-Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "Passing Shin-to-Shin Guard requires a methodical approach that addresses the guard player's perpendicular shin connection before any forward pressure can safely be applied. The shin-to-shin position creates a biomechanical lever that constantly threatens the top player's base, making it impossible to simply drive through the guard without being swept or allowing transitions to more dangerous positions like Single Leg X-Guard or full X-Guard. The key strategic insight is that shin-to-shin is fundamentally a transitional position for the guard player—they intend to use it as a launchpad for sweeps and leg entanglements rather than holding it indefinitely. This means the passer must address the shin connection quickly before the guard player executes their preferred transition sequence, while simultaneously avoiding the reactive movements that feed directly into the guard player's attack chains.\n\nEffective passing combines three interconnected elements: upper body grip dominance to prevent distance management, systematic shin clearing through angle changes and controlled pressure, and immediate advancement once the connection is broken. The most common tactical error is attempting to force through the shin connection with forward pressure, which plays directly into butterfly sweep and X-Guard entry mechanics. Instead, successful passes typically involve lateral movement—circling, backsteps, or angle changes—that weaken the shin contact angle before converting to a direct passing sequence. The pass success rate improves dramatically when the passer can prevent the guard player from establishing their preferred upper body grips, as the shin connection alone provides insufficient control without complementary sleeve or collar grips.\n\nAt the competitive level, this pass becomes a chess match of grip fighting and angle management. The passer who understands the guard player's transition triggers—hip elevation for Single Leg X, forward pull for butterfly sweep, ankle grip adjustment for X-Guard—can intercept these transitions during the clearing sequence and convert defensive reactions into passing opportunities.",
   "variants_and_adaptations": [
     {

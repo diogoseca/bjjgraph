@@ -18,7 +18,10 @@
   "target_area": "Calf muscle and Achilles tendon",
   "starting_position": "Saddle",
   "from_position": "Saddle/Top",
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "The calf slicer from saddle exploits the perpendicular alignment inherent to the saddle position to create devastating compression on the opponent's calf muscle. Unlike calf slicers from back control or truck where the primary challenge is achieving the fold, the saddle provides pre-existing leg entanglement that naturally positions your shin behind the opponent's knee crease. This makes the transition from heel hook defense to calf slicer threat seamless—when opponents hide their heel by rotating their knee inward, they paradoxically expose the exact configuration needed for the calf slicer.\n\nThe finishing mechanics rely on your shin acting as a fulcrum point behind the knee while you control the opponent's foot and pull it toward your body, folding their lower leg over your tibia. The saddle's hip pressure prevents the primary defensive response of straightening the leg, creating a trapped configuration where the opponent must address both the compression and the entanglement simultaneously. This dual-threat nature makes the calf slicer from saddle particularly effective as a secondary attack within the leg lock dilemma system.\n\nAt competition level, this submission serves as a critical complement to heel hook entries from saddle. Advanced practitioners use the threat of the calf slicer to force opponents out of their heel-hiding defense, reopening the heel for the primary attack. Understanding this interplay between compression and rotation-based attacks elevates your saddle game from single-threat to multi-dimensional, significantly increasing overall finishing rates from leg entanglements.",
   "safety_considerations": {
     "injury_risks": [
@@ -104,17 +107,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Saddle/Top",
-      "probability": 32,
+      "probability": {
+        "gi": 32,
+        "nogi": 32
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 18,
+      "probability": {
+        "gi": 18,
+        "nogi": 18
+      },
       "result": "counter"
     }
   ],

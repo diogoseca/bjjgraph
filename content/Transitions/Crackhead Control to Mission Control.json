@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Mission Control/Bottom",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Crackhead Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Crackhead Control to Mission Control transition represents a strategic reset within the 10th Planet rubber guard system, allowing the bottom player to move from a high-risk, high-reward attacking position to a more stable control platform. This transition becomes essential when the opponent begins recovering posture, when back exposure risk becomes too significant, or when you want to consolidate control before launching a new submission chain.\n\nThe mechanical foundation of this transition involves releasing the deep overhook while simultaneously elevating hips and repositioning the controlling leg. The timing is critical - you must initiate the transition before the opponent fully recovers posture but not so early that you abandon genuine submission opportunities. The transition capitalizes on the opponent's momentary relief when they sense the overhook loosening, using that moment of reduced defensive tension to establish the Mission Control configuration.\n\nThis transition serves multiple strategic purposes within the rubber guard framework. It provides an escape route when Crackhead Control becomes untenable due to back exposure threats, offers a way to reset when submission attempts stall, and creates opportunities to attack from a different angle when the opponent has adapted to your Crackhead Control offense. Advanced practitioners flow between these positions fluidly, using the transition itself as a setup for submissions when opponents anticipate a simple positional change.",
   "related_content": [
     {

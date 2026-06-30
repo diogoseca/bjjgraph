@@ -15,26 +15,41 @@
   "outcomes": [
     {
       "to": "Closed Guard/Top",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "success"
     },
     {
       "to": "Gogoplata Control/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Triangle Control/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "Caught in a locked gogoplata, the conventional instinct to rip your head straight back only deepens the choke - the bottom player's hands pulling their own foot behind your skull are what cinch the shin against your throat, not raw leg strength. Addressing those hands first dismantles the structural foundation of the submission, allowing methodical head extraction without ever tightening the choke against yourself.\n\nThe technique operates on the principle that the gogoplata is a self-contained submission system where the attacker uses their own hands to maintain foot position. Unlike defending a triangle or armbar where you fight the opponent's limbs directly, gogoplata defense requires you to address how the opponent controls their own body. Their hands pulling their foot deeper is more threatening than the shin itself, making hand control the primary defensive objective.\n\nStrategically, this escape works best when the gogoplata is not fully locked. The window for this technique opens when the opponent is still working to secure their foot behind your head or when their grip on their own foot is loose. Practitioners must develop sensitivity to recognize when hand fighting is viable versus when emergency escapes are necessary. The technique demands precise timing and methodical execution rather than explosive movement, making it particularly effective for technically proficient defenders who remain calm under submission pressure.",
   "related_content": [
     {

@@ -16,26 +16,41 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "success"
     },
     {
       "to": "Zombie/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Turn to Face from Zombie is a fundamental guard recovery technique within the 10th Planet system, enabling the bottom practitioner to rotate from the defensive Zombie position into a facing guard structure such as Half Guard or Open Guard. This transition represents one of the most critical safety-valve escapes available from Zombie bottom, where the practitioner is typically on their side with lockdown engaged but facing partially away from their opponent, limiting offensive options.\n\nThe technique requires coordinated use of frames, hip rotation, and strategic lockdown management to create the space needed for a full turn. The bottom player must balance maintaining enough control through the lockdown to prevent being passed while simultaneously creating the rotational freedom to face the opponent. Timing is essential—the turn must be initiated when the top player shifts weight or commits to a passing sequence, as attempting to turn against a settled opponent with dominant crossface control significantly reduces success rates.\n\nSuccessfully executing this transition shifts the positional dynamic dramatically, transforming a defensive survival position into an active guard where sweeps, submissions, and further guard improvements become available. While lower-percentage than dedicated sweeps like the Old School, the Turn to Face provides a reliable fallback when offensive Zombie attacks are neutralized.",
   "conditions": [
     "Bottom player is in Zombie position with lockdown engaged on opponent's leg",

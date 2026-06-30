@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Kimura Trap/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Crab Ride/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Kimura from Crab Ride exploits one of the most common defensive reactions in turtle: posting the far arm. When an opponent extends or posts their arm to maintain base against crab ride pressure, they create the opening for a figure-four grip attack on the shoulder. This transition represents a powerful secondary threat from an already dominant position, punishing opponents who refuse to concede the back take by offering their arm instead.\n\nUnlike traditional kimura attacks from guard or side control, the Crab Ride Kimura operates with gravity and positional dominance working in the attacker's favor. The perpendicular angle of the crab ride provides unique leverage for peeling the arm away from the body, while the hook control prevents the opponent from simply rolling away to relieve pressure. The attacker's chest-to-back connection serves dual purpose: maintaining ride control while providing the structural support needed to apply rotational force on the shoulder joint.\n\nStrategically, this technique creates a powerful dilemma system within the turtle attack framework. Opponents who keep their elbows tight to prevent the kimura expose themselves to back takes, while those who post aggressively to resist the back take offer their arms for isolation. The Kimura from Crab Ride is most commonly used as a transition to Kimura Trap control rather than an immediate finish, as the perpendicular crab ride angle makes sustained finishing pressure difficult without first consolidating the grip into a dedicated control position.",
   "conditions": [
     "Established crab ride with functional hook control under opponent's hip",

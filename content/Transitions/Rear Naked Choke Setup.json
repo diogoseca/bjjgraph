@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Harness/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Back Control/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Turtle/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 65,
+  "success_rate": {
+    "gi": 65,
+    "nogi": 65
+  },
   "overview": "The Rear Naked Choke Setup represents the critical transition phase between maintaining back control and securing the highest-percentage submission in Brazilian Jiu-Jitsu. This technique encompasses the systematic process of breaking down your opponent's defensive hand fighting, inserting your choking arm beneath their chin, and establishing the figure-four grip configuration that enables the finishing squeeze. Unlike many submission setups that expose you to counters, the RNC setup maintains dominant positional control throughout the sequence, making it exceptionally safe relative to its finishing potential.\n\nThe setup phase is arguably more important than the finish itself, as experienced grapplers rarely submit to a rear naked choke once it's fully locked—they tap during the setup when they recognize the position is compromised. Understanding the mechanical principles of arm insertion, grip fighting, and angle creation allows you to systematically dismantle even the most stubborn neck defenses. The technique requires patience, precision in hand placement, and the ability to maintain chest-to-back pressure while manipulating your opponent's defensive structures.\n\nFrom a strategic perspective, the RNC setup integrates seamlessly with other back control attacks. Opponents who successfully defend the choke often expose themselves to arm attacks, bow and arrow choke entries, or crucifix transitions. This creates a dilemma-based attack system where defending one threat opens another, making the RNC setup not just a submission path but a positional control tool that forces reactions you can exploit.",
   "related_content": [
     {

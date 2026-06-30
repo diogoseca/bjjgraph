@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Clinch/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "The arm drag from clinch bottom is one of the highest-percentage back take entries available from a disadvantageous standing engagement. When you find yourself in a clinch where your opponent has established superior grips, head position, or forward pressure, the arm drag converts their offensive commitment into a pathway to the most dominant position in grappling. Rather than fighting a losing grip battle or absorbing pressure, you redirect your opponent's extended arm across your body while stepping offline, exposing their back for immediate control.\n\nThe technique operates on a fundamental biomechanical principle: when you pull your opponent's arm across your centerline while simultaneously moving your body to the opposite side, you create a rotational force they cannot resist without releasing the arm entirely. This two-on-one grip manipulation combined with angular footwork is what makes the arm drag effective against opponents of all sizes. The clinch context adds urgency because your opponent is already committed forward with their weight, making the redirection more powerful than from open range.\n\nIn competitive BJJ and submission grappling, the arm drag from clinch serves as a critical escape mechanism from inferior standing positions. Athletes like Marcelo Garcia popularized this entry as a primary back take system, demonstrating that you do not need superior wrestling to reach back control. The technique chains naturally with other clinch attacks including duck unders, snap downs, and single leg entries, creating a multi-threat standing game that keeps opponents guessing about your true intention.",
   "conditions": [
     "Opponent has at least one arm extended or committed to a grip within reach of your hands",

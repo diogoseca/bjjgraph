@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "De La Riva Guard/Bottom",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "Leg Drag Control/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 12,
+      "probability": {
+        "gi": 12,
+        "nogi": 12
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "Leg Recovery to De La Riva represents a critical defensive transition for practitioners caught in the compromised leg drag control position. When your opponent has successfully dragged your leg across your body and is threatening to advance to side control or take your back, this technique provides a pathway to re-establish an offensive guard position rather than merely surviving.\n\nThe fundamental challenge of leg drag recovery lies in the mechanical disadvantage created by the crossed leg configuration. Your trapped leg cannot simply be pulled back—it requires specific angles, timing, and coordinated movement to extract. The De La Riva hook insertion transforms what would be a desperate scramble into a calculated guard recovery that immediately puts you back on offense.\n\nStrategically, this transition exploits a fundamental vulnerability in the leg drag position: the opponent must maintain forward pressure while controlling both your leg and upper body. When they adjust their weight or reach for new grips, windows open for leg extraction. The key insight is recognizing that you are not escaping to a neutral position—you are transitioning directly to an attacking guard that gives you immediate sweep and submission threats. This mindset shift from defense to offense is what separates successful recoveries from those that merely delay the inevitable pass.",
   "related_content": [
     {

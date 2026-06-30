@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Closed Guard/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Triangle Control/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Armbar Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "overview": "As one of the highest-percentage submissions in Brazilian Jiu-Jitsu, the triangle choke forces every top player and guard passer to develop a dependable escape that functions before the lock fully matures. When caught in a triangle choke, the defender faces a race against time as blood flow to the brain becomes restricted. Understanding the mechanics of the triangle allows practitioners to identify escape windows and execute proper defensive sequences. The escape requires a combination of posture management, pressure redirection, and strategic positioning to break the configuration before the choke becomes fully locked. Early recognition and immediate defensive action dramatically increase escape success rates, making this skill essential for all practitioners. The triangle escape encompasses multiple strategies depending on the stage of the attack, from preventing the initial lock to escaping fully secured positions. Advanced practitioners develop sensitivity to triangle entries and can abort attacks before they materialize, while beginners must focus on fundamental escape mechanics and preventing the worst-case scenario of a fully locked submission.",
   "related_content": [
     {

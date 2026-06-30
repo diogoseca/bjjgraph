@@ -21,7 +21,10 @@
   "target_area": "Shoulder joint (rotator cuff, capsule, AC joint)",
   "starting_position": "Crackhead Control",
   "from_position": "Crackhead Control/Bottom",
-  "success_rate": 52,
+  "success_rate": {
+    "gi": 52,
+    "nogi": 52
+  },
   "overview": "The omoplata from Crackhead Control leverages the unique arm and posture control inherent in the 10th Planet Rubber Guard system to create a high-percentage shoulder lock entry. From Crackhead Control, the bottom player already controls the opponent's posture and near arm through the characteristic overhook and leg positioning, creating an ideal platform for threading the attacking leg across the shoulder into the omoplata. The pre-existing arm isolation eliminates the most difficult prerequisite for successful omoplata attacks from other guard positions.\n\nWhat distinguishes this entry from standard closed guard omoplata attempts is the pre-broken posture and trapped arm. In Crackhead Control, the opponent's arm is already isolated between the attacker's legs and their posture is fully compromised, allowing the guard player to focus entirely on the leg thread and hip escape rather than simultaneously managing posture breaks and arm control. This makes the setup faster and significantly more reliable than omoplata entries from basic guard.\n\nThe finishing mechanics follow established omoplata principles once the perpendicular angle is achieved. The attacker controls the opponent's far hip to prevent the forward roll escape, sits up tall to maximize the lever arm, and applies progressive forward pressure to externally rotate the shoulder joint past its natural range of motion. Competition data from no-gi events shows this entry yields notably higher finish rates than omoplata attempts from basic closed guard, primarily because the opponent's defensive options are severely limited by the preceding Rubber Guard control sequence.",
   "safety_considerations": {
     "injury_risks": [
@@ -106,17 +109,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 52,
+      "probability": {
+        "gi": 52,
+        "nogi": 52
+      },
       "result": "success"
     },
     {
       "to": "Crackhead Control/Bottom",
-      "probability": 31,
+      "probability": {
+        "gi": 31,
+        "nogi": 31
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 17,
+      "probability": {
+        "gi": 17,
+        "nogi": 17
+      },
       "result": "counter"
     }
   ],

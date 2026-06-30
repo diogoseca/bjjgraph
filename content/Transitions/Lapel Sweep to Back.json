@@ -15,26 +15,41 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Mount/Top",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "success"
     },
     {
       "to": "Lapel Guard/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Lapel Sweep to Back represents one of the highest-percentage attacks available from lapel guard systems, combining sweep mechanics with immediate back exposure. This technique capitalizes on the opponent's natural defensive reactions when threatened with lapel guard sweeps, using their weight distribution adjustments to create pathways directly to the back. The fundamental concept involves creating a sweep threat that forces the opponent to post or base, then following their defensive rotation to establish back control rather than settling for the sweep position.\n\nStrategically, this technique exemplifies the dilemma-based approach that makes lapel guard so effective at high levels. The opponent faces a lose-lose scenario: commit to defending the sweep and expose the back, or address the back take threat and get swept. The lapel configuration provides the persistent control necessary to follow the opponent through their defensive rotations, maintaining attachment throughout the transition. Unlike traditional sweeps where the bottom player must release grips to complete the position, the lapel wrap maintains connection during the entire back take sequence.\n\nThe technique requires timing recognition and commitment to the back take pathway. Many practitioners successfully initiate the sweep but hesitate when the opponent begins rotating, losing the back take opportunity. Understanding that the opponent's rotation IS the technique working—not a failed sweep—is critical for successful execution.",
   "conditions": [
     "Lapel guard must be established with fabric threaded around opponent's leg or arm",

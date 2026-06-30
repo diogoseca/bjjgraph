@@ -16,26 +16,41 @@
   "outcomes": [
     {
       "to": "Closed Guard/Top",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Chill Dog/Top",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "success"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "This transition belongs to the top player's turtle-attacking arsenal and is deployed specifically when the bottom player has buried themselves in the compact Chill Dog shell — elbows pressed to knees, rounded back, tucked head — and traditional back-take or front-headlock attacks have stalled. Rather than continuing to grind against an airtight defensive frame, the top player systematically breaks it and postures the defender upward, using underhook leverage, a knee post, and strategic weight distribution to peel them out of their compact ball into a seated or supine position where their legs naturally recover to guard.\n\nThe strategic rationale for this transition is situational. When the bottom player's Chill Dog defense is particularly effective at shutting down back take attempts and the clock is a factor, forcing them into closed guard or half guard creates a position where the top player has established guard-passing systems available. Rather than burning energy against an impenetrable defensive shell, the top player redirects to a more familiar positional battle. This is especially relevant for practitioners whose guard passing is stronger than their turtle attacking game.\n\nThis is a lower-priority technique in the Chill Dog top arsenal because the primary objective from turtle top should always be back control or submission. However, when traditional attacks stall against an exceptionally tight defensive shell, the posture transition provides a systematic alternative that keeps the match progressing and prevents stalling penalties. The critical moment comes after forcing the guard recovery — the top player must immediately establish posture in the resulting guard position to avoid getting broken down during the transition and ending up in a worse situation than where they started.",
   "variants_and_adaptations": [
     {

@@ -47,7 +47,10 @@
       "type": "array",
       "description": "Strict synonyms — other names for THIS EXACT position. Examples: ['Tate Shiho Gatame', 'Full Mount'] on Mount. DO NOT use for variants. See docs/Synonyms.md.",
       "uniqueItems": true,
-      "items": { "type": "string", "minLength": 1 }
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
     },
     "family": {
       "type": "string",
@@ -58,16 +61,26 @@
       "description": "Automation bookkeeping written by the content bots (not hand-authored). select_oldest_files.sh reads last_improved to skip recently-improved files.",
       "additionalProperties": true,
       "properties": {
-        "last_improved": { "type": "string", "description": "ISO date (YYYY-MM-DD) of the last bot edit" },
-        "optimization_pass": { "type": "string" },
-        "last_improved_by": { "type": "string" }
+        "last_improved": {
+          "type": "string",
+          "description": "ISO date (YYYY-MM-DD) of the last bot edit"
+        },
+        "optimization_pass": {
+          "type": "string"
+        },
+        "last_improved_by": {
+          "type": "string"
+        }
       }
     },
     "sameAs": {
       "type": "array",
       "description": "Authoritative external URLs for THIS technique (Wikipedia article and/or Wikidata entity). schema.org sameAs — feeds Google's Knowledge Graph entity reconciliation and surfaces cross-language names. See docs/Synonyms.md.",
       "uniqueItems": true,
-      "items": { "type": "string", "format": "uri" }
+      "items": {
+        "type": "string",
+        "format": "uri"
+      }
     },
     "disambiguations": {
       "type": "array",
@@ -76,10 +89,20 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["name", "reason"],
+        "required": [
+          "name",
+          "reason"
+        ],
         "properties": {
-          "name": { "type": "string", "minLength": 1 },
-          "reason": { "type": "string", "minLength": 10, "description": "Short reason this is distinct, completing 'differs because …'." }
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "reason": {
+            "type": "string",
+            "minLength": 10,
+            "description": "Short reason this is distinct, completing 'differs because …'."
+          }
         }
       }
     },
@@ -411,9 +434,39 @@
             "description": "Name of the transition technique (must exist as Transition JSON)"
           },
           "attempt_probability": {
-            "type": "integer",
-            "minimum": 0,
-            "maximum": 100,
+            "oneOf": [
+              {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 100
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "gi": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ],
+                    "minimum": 0,
+                    "maximum": 100
+                  },
+                  "nogi": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ],
+                    "minimum": 0,
+                    "maximum": 100
+                  }
+                },
+                "required": [
+                  "gi",
+                  "nogi"
+                ],
+                "additionalProperties": false
+              }
+            ],
             "description": "Probability this transition is attempted (all must sum to 100%)"
           }
         }
@@ -457,9 +510,39 @@
                   "minLength": 3
                 },
                 "probability": {
-                  "type": "integer",
-                  "minimum": 0,
-                  "maximum": 100
+                  "oneOf": [
+                    {
+                      "type": "integer",
+                      "minimum": 0,
+                      "maximum": 100
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "gi": {
+                          "type": [
+                            "integer",
+                            "null"
+                          ],
+                          "minimum": 0,
+                          "maximum": 100
+                        },
+                        "nogi": {
+                          "type": [
+                            "integer",
+                            "null"
+                          ],
+                          "minimum": 0,
+                          "maximum": 100
+                        }
+                      },
+                      "required": [
+                        "gi",
+                        "nogi"
+                      ],
+                      "additionalProperties": false
+                    }
+                  ]
                 }
               }
             }

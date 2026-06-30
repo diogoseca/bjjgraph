@@ -18,21 +18,33 @@
   "outcomes": [
     {
       "to": "Inside Sankaku/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Single Leg X-Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Standing Position/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "summary": "The Single Leg X-Guard to Inside Sankaku is a leg-entanglement entry in which the bottom player elevates and off-balances the standing opponent, then spins underneath to fold their own top leg over the trapped leg, locking the Honey Hole figure-four with the inside heel exposed.",
   "overview": "The Single Leg X-Guard to Inside Sankaku is the cornerstone entry into the Honey Hole (411) leg entanglement and forms the backbone of modern no-gi leg-lock systems. From single leg X-guard the bottom player already controls one of the opponent's legs with the shin wedged behind the knee and the foot hooking the far hip; this transition converts that control into a deep figure-four entanglement that isolates the inside heel for a high-percentage inside heel hook.\n\nThe entry works by first compromising the opponent's base. Because single leg X-guard sits the opponent on one leg with their weight loaded onto the entangled limb, a sharp elevation with the X-guard hooks breaks their balance backward or to the side. As the opponent stumbles or sits, the bottom player exploits the moment of reduced base to spin underneath the captured leg, bringing their own outside leg up and over the opponent's thigh to complete the figure-four. The mechanical key is that the rotation and the leg fold happen together: spinning without folding loses the leg, and folding without spinning leaves the heel safely outside the centerline.\n\nStrategically this entry is prized because it flows seamlessly from a position most guard players already use to sweep or stand. If the opponent defends the entanglement by pulling the leg free, the attacker resets to single leg X-guard with no loss; if the opponent counters by clearing and standing, the exchange returns to neutral standing. Only when the opponent allows the spin and fold does the attacker arrive in the dominant Inside Sankaku top, from which the inside heel hook is one of the highest-percentage finishes in submission grappling. Because the position exposes a heel hook, it carries real injury risk and must be drilled with controlled, slow finishing.",
   "conditions": [

@@ -19,7 +19,10 @@
   "target_area": "Carotid arteries and windpipe",
   "starting_position": "Front Headlock",
   "from_position": "Front Headlock/Top",
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Chin Strap Guillotine is a sophisticated variation of the traditional guillotine choke that involves wrapping the arm around the opponent's head from a front headlock position, with the choking arm passing under the chin and connecting to the bicep of the opposite arm. Unlike the standard guillotine where you secure a guillotine grip, the chin strap variation creates a unique angle of attack by cupping the opponent's chin and pulling it toward your chest while simultaneously driving your shoulder into their neck. This technique is particularly effective when the opponent has good posture defense against traditional guillotines or when they're attempting to pass your guard with their head positioned to one side. The chin strap creates tremendous pressure on both the carotid arteries and the windpipe, making it a high-percentage finishing option from various front headlock scenarios.\n\nThe submission works exceptionally well in no-gi situations where collar grips are unavailable, and it can be applied from standing positions, turtle attacks, or guard pull situations where you've secured front headlock control. The figure-four grip configuration provides superior control compared to standard guillotine clasps, as it allows independent action of both arms - one pulling the chin while the other drives the head forward. This dual-action mechanism creates a scissoring compression that is extremely difficult to defend once fully locked. The chin strap has become a staple in modern front headlock systems, offering a reliable finishing option when traditional guillotine grips are stripped or when the opponent's chin defense prevents standard entries.",
   "safety_considerations": {
     "injury_risks": [
@@ -71,22 +74,34 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "Front Headlock/Top",
-      "probability": 22,
+      "probability": {
+        "gi": 22,
+        "nogi": 22
+      },
       "result": "failure"
     },
     {
       "to": "Guillotine Control/Top",
-      "probability": 8,
+      "probability": {
+        "gi": 8,
+        "nogi": 8
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 12,
+      "probability": {
+        "gi": 12,
+        "nogi": 12
+      },
       "result": "counter"
     }
   ],

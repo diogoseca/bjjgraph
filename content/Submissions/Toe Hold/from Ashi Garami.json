@@ -19,7 +19,10 @@
   "target_area": "Ankle, toes, and foot ligaments",
   "starting_position": "Ashi Garami",
   "from_position": "Ashi Garami/Top",
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "overview": "The **toe hold** from **Ashi Garami** exploits the top player's ability to grip the bottom player's foot during leg entanglement exchanges. While the bottom player focuses on advancing their leg control hierarchy, the top player can opportunistically attack the exposed foot with a figure-four grip, creating rotational pressure on the ankle joint. This counter-offensive application transforms a defensive situation into a finishing opportunity, making it a valuable weapon in the top player's Ashi Garami toolkit.\n\nThe mechanics involve securing a kimura-style figure-four grip across the opponent's toes and ball of foot, then applying controlled medial rotation while stabilizing the knee line with your leg entanglement. From the Ashi Garami top position, the grip is accessible when the bottom player extends their hooking leg or adjusts their entanglement configuration, momentarily exposing the foot. The rotational force attacks the ankle ligaments, Lisfranc joint, and surrounding connective tissue, creating a submission through accumulated torsional stress rather than sudden joint hyperextension.\n\nCompetition-level application demands patience and precise timing. The toe hold works best as a counter-attack when the bottom player overcommits to advancing their leg entanglement position, creating windows where their foot becomes accessible. Understanding when to abandon the toe hold attempt and return to primary defensive objectives separates effective practitioners from those who compromise their position chasing a low-percentage finish.",
   "safety_considerations": {
     "injury_risks": [
@@ -112,17 +115,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Ashi Garami/Top",
-      "probability": 26,
+      "probability": {
+        "gi": 26,
+        "nogi": 26
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 14,
+      "probability": {
+        "gi": 14,
+        "nogi": 14
+      },
       "result": "counter"
     }
   ],

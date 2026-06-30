@@ -15,26 +15,41 @@
   "outcomes": [
     {
       "to": "Turtle/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "success"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "Hand Fighting from Back is the foundational defensive skill for surviving back control, representing the first and most critical layer of defense against rear naked choke and other back attacks. This technique focuses on systematic grip fighting to prevent the opponent from establishing choking grips while creating opportunities for escape sequences. The methodology prioritizes constant hand engagement on the opponent's attacking arms, using two-on-one control and chin protection to neutralize submission threats before they materialize.\n\nThe strategic importance of hand fighting cannot be overstated - it transforms back control from an immediately terminal position into a survivable situation where escape becomes possible. By maintaining constant grip engagement on the opponent's choking arm, you deny them the clean entry angle required for rear naked choke while simultaneously building toward hook removal and positional escape. Effective hand fighting requires understanding grip hierarchy: which grips to prioritize, when to transition between defensive structures, and how to integrate hand fighting with hip movement for complete escape sequences.\n\nAdvanced practitioners use hand fighting not merely as passive defense but as an active system that creates dilemmas for the attacking opponent. When executed with proper timing and pressure, hand fighting forces the attacker to choose between maintaining back control and pursuing submissions - a choice that creates windows for escape. This technique serves as the gateway to all other back escapes, making it essential foundational knowledge for any serious practitioner.",
   "related_content": [
     {

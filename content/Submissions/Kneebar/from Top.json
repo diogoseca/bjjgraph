@@ -16,7 +16,10 @@
   "target_area": "Knee joint (tibial plateau, popliteal ligaments, meniscus)",
   "starting_position": "Side Control",
   "from_position": "Side Control/Top",
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Kneebar from Top represents a high-percentage leg attack opportunity that arises when controlling an opponent from dominant positions such as side control, mount, knee on belly, or half guard top. Unlike bottom-position kneebarring where defensive responsibility is shared, top kneebarring demands exceptional control and positional awareness since abandoning top position carries inherent risk. The fundamental concept involves transitioning from a dominant top position into a leg entanglement configuration—typically through step-over mechanics or direct leg isolation—while maintaining sufficient control to prevent opponent escape or counter-attack. The submission targets the knee joint through hyperextension, applying pressure to the tibial plateau, popliteal ligaments, and meniscus structures.\n\nModern leg lock systems have elevated top kneebarring from an opportunistic submission to a systematic attacking framework, particularly in no-gi competition where reduced friction facilitates faster entries and tighter control. The technique requires precise timing, as premature commitment can result in loss of dominant position, while delayed execution allows opponent defensive responses. Understanding when to pursue the kneebar versus maintaining positional dominance represents a critical decision point that separates beginner and advanced practitioners.\n\nThe top kneebar serves dual purposes: as a finishing submission and as a positional transitional tool that creates sweeping opportunities, back exposure, or alternative submission entries when opponents defend aggressively. The risk-reward calculus of abandoning a dominant top position for a leg attack must be evaluated on a case-by-case basis, factoring in the quality of leg exposure, match context, and opponent defensive sophistication.",
   "safety_considerations": {
     "injury_risks": [
@@ -69,17 +72,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Kneebar Control/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],

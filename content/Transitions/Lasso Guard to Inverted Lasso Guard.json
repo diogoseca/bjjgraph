@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Inverted Lasso Guard/Bottom",
-      "probability": 70,
+      "probability": {
+        "gi": 70,
+        "nogi": 70
+      },
       "result": "success"
     },
     {
       "to": "Lasso Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Transition to Inverted Lasso Guard converts standard lasso guard into its inverted variation by rolling backwards onto the shoulders while maintaining the lasso hook and sleeve grip. This movement fundamentally changes the angle of control, converting horizontal pulling force into rotational momentum that dramatically increases sweep and back take potential. The inversion is not a separate position entry but rather a dynamic extension of existing lasso mechanics, making it accessible to any practitioner already comfortable with standard lasso guard.\n\nThe transition exploits a specific timing window that occurs when the top player commits weight forward to address the lasso or attempts to break the sleeve grip. Their forward pressure actually assists the backwards roll, creating a situation where the opponent's own energy fuels the technique. Conversely, attempting the inversion against a disengaged opponent who has created distance typically fails because there is insufficient connection to maintain the lasso through the roll.\n\nStrategically, this transition serves as the gateway to the most dynamic attacks available from lasso guard. Once inverted, the bottom player threatens berimbolo back takes, overhead sweeps, kiss of the dragon sequences, and various submission entries that are geometrically unavailable from upright lasso. The top player faces a dilemma: address the inversion early and potentially open themselves to standard lasso sweeps, or allow the inversion and face the amplified threat set. This decision pressure is what makes the transition to inverted lasso a cornerstone of modern competition guard play.",
   "variants_and_adaptations": [
     {

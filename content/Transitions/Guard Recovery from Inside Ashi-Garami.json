@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Open Guard/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Inside Ashi-Garami/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Ashi Garami/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "When submission attempts from Inside Ashi-Garami have been defended and the opponent begins extracting their heel or stepping over the inside leg, the bottom player must release the entanglement and recover to a functional guard rather than holding a compromised position. Instead of burning grip strength chasing a failing attack, the recovery converts a deteriorating leg-lock exchange into an active open guard with restored distance and leg activity. This recovery requires disengaging leg controls while simultaneously establishing frames and distance management to prevent the opponent from advancing to a top position or counter-entangling. Executed well, it turns the opponent's own extraction movement into the momentum that powers your hip rotation and guard recomposition.",
   "variants_and_adaptations": [
     {

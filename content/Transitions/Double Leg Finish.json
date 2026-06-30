@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 75,
+      "probability": {
+        "gi": 75,
+        "nogi": 75
+      },
       "result": "success"
     },
     {
       "to": "Clinch/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "failure"
     },
     {
       "to": "Clinch/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 82,
+  "success_rate": {
+    "gi": 82,
+    "nogi": 82
+  },
   "summary": "The Double Leg Finish is the completion phase of the double-leg takedown: after the penetration step secures both legs, you lift, drive, and steer the opponent to the mat to land in side control or another dominant top position.",
   "overview": "The Double Leg Finish is the critical completion phase of the double leg takedown, transitioning from the penetration step to establishing dominant top position. This fundamental wrestling technique adapted for BJJ focuses on the mechanical principles of lift, drive, and controlled landing to secure top position. The finish requires proper coordination of leg drive, hip extension, and upper body control to overcome opponent resistance and establish side control or mount.\n\nThe effectiveness of the double leg finish lies in its directness and mechanical advantage. Once the penetration step is achieved with hands clasped behind the opponent's knees, the practitioner uses explosive hip extension combined with forward driving pressure to elevate and displace the opponent's base. The finish can be executed with various methods including the traditional lift-and-dump, the power drive-through, or the trip finish depending on opponent size, resistance level, and positional context.\n\nMastery of the double leg finish is essential for any grappler's takedown game, as the entry without a solid finish leaves the practitioner vulnerable to guillotine chokes, sprawls, and scrambles. The finish must be practiced with emphasis on maintaining connection throughout the motion, controlling the opponent's landing, and immediately transitioning to dominant position without allowing guard establishment or re-guarding opportunities.",
   "related_content": [

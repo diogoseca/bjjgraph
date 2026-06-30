@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Aoki Lock from Aoki Lock Control",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Aoki Lock Control/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Aoki Lock is an advanced shoulder lock submission executed from a leg-entangled shoulder control position, named after Japanese MMA fighter Shinya Aoki. This technique combines omoplata-style shoulder manipulation with leg-based trapping, creating rotational pressure on the shoulder joint through hip drive and proper angle maintenance. The finish requires precise mechanical understanding of shoulder anatomy and progressive pressure application to force the tap while minimizing injury risk.\n\nFrom a strategic perspective, the Aoki Lock serves as the terminal option when you have established dominant leg entanglement control over the opponent's shoulder. The technique is particularly effective in no-gi competition and submission-only formats where the absence of gi grips makes traditional shoulder lock escapes more difficult. Success depends on maintaining tight leg control throughout the finish sequence while applying gradual, progressive pressure that gives your opponent time to recognize the submission threat and tap safely.\n\nThe finishing mechanics involve driving your hips forward and down into the opponent's shoulder while keeping their arm extended and isolated between your legs. Unlike traditional shoulder locks that rely primarily on arm manipulation, the Aoki Lock uses your entire lower body as a unified control mechanism, making it extremely difficult to escape once properly secured. The position carries significant injury risk, requiring strict adherence to safety protocols including progressive pressure application and immediate release upon tap signals.",
   "conditions": [
     "Established Aoki Lock top control with tight leg entanglement around opponent's shoulder complex",

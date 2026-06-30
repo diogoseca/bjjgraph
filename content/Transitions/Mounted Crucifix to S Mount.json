@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "S Mount/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Mounted Crucifix/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Mounted Crucifix to S Mount transition represents a sophisticated positional advancement that maintains arm isolation while reconfiguring your leg positioning for enhanced submission opportunities. This transition becomes strategically valuable when your opponent's trapped arm creates limited attack angles from standard crucifix, or when you want to access the armbar and triangle pathways that S Mount provides while keeping arm control.\n\nFrom a mechanical standpoint, this transition involves extracting one leg from the crucifix configuration while simultaneously threading it across your opponent's neck or upper chest to establish the characteristic S-shaped leg positioning. The key challenge lies in maintaining arm control throughout the movement - releasing the crucifix pressure prematurely allows arm extraction and defensive recovery. Proper execution requires precise weight shifting and hip mobility to reconfigure without sacrificing the dominant control you've already established.\n\nStrategically, this transition excels when opponents defend mounted crucifix chokes effectively by tucking their chin but leave their trapped arm extended. The S Mount opens armbar entries from a different angle while maintaining the control benefits of arm isolation. Advanced practitioners chain this transition with submission attempts, using the threat of one attack to facilitate the positional change.",
   "conditions": [
     "Stable mounted crucifix established with at least one arm securely trapped",

@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "overview": "The Smash Pass is a fundamental pressure-based guard passing technique used to overcome half guard retention. This pass emphasizes heavy shoulder pressure, crossface control, and systematic hip positioning to flatten the opponent and transition to side control. The technique is particularly effective against knee shield half guard and traditional half guard positions, as it uses the passer's body weight and positioning to nullify the bottom player's frames and mobility. The Smash Pass represents a core element of pressure passing systems and is valued for its high percentage success rate when executed with proper mechanics.\n\nUnlike dynamic passing approaches, the smash pass relies on patient pressure application, forcing the opponent into progressively worse positions until the guard can be cleared. The top player systematically establishes crossface control, clears defensive frames, flattens the bottom player's posture, and extracts the trapped leg through methodical hip movement rather than explosive force. This patient approach makes the smash pass energy-efficient and reliable against opponents who rely on flexibility and guard retention.\n\nThe smash pass creates a cascading series of problems for the bottom player: the crossface turns their head away, shoulder pressure compromises their breathing and posture, flattening eliminates their hip mobility, and inside leg control removes their re-guarding options. Each stage compounds the next, making the pass feel inevitable when executed correctly. This technique is equally effective in gi and no-gi contexts, making it a staple of modern BJJ competition strategies at all levels.",
   "conditions": [
     "Top position established in opponent's half guard",

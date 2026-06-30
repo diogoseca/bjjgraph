@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Deep Half Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Flattened Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Deep Half Entry from Half Guard is a fundamental transition that transforms the half guard bottom position into one of BJJ's most powerful offensive platforms. This entry requires the bottom player to slide their entire upper body underneath the opponent's center of gravity, positioning the head and shoulder beneath the opponent's hips while securing a deep underhook on the far leg. The mechanical advantage gained from this positioning creates exceptional leverage for sweeps, back takes, and guard advancement that transcends size and strength differences.\n\nThe entry is most effective when the top player commits weight forward during passing attempts, as their forward momentum can be redirected underneath them. Timing the entry against pressure is critical - attempting to force the entry against a well-based opponent typically fails, while catching them mid-weight-shift creates an almost unstoppable entry angle. The transition requires precise coordination between hip movement, underhook establishment, and head threading to avoid getting flattened or crossfaced during the vulnerable entry phase.\n\nThis transition serves as a critical link between the half guard system and the deep half guard offensive system, giving the bottom player access to waiter sweeps, Homer Simpson sweeps, old school sweeps, and rolling back takes that make deep half one of the most feared bottom positions in modern competition.",
   "conditions": [
     "Bottom player has at least one frame or underhook preventing complete flattening from top player",

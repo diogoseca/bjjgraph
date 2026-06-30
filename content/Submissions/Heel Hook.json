@@ -24,7 +24,10 @@
   "target_area": "Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity",
   "starting_position": "Ashi Garami",
   "from_position": "Ashi Garami/Bottom",
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "is_family": true,
   "variant_uniqueness": "Rotational force attacks multiple knee structures simultaneously",
   "summary": "The Heel Hook is a rotational leg-lock submission that twists the heel to torque the knee and ankle ligaments simultaneously, attacked from Ashi Garami entanglements such as the saddle and 50-50, and existing in inside and outside variants.",

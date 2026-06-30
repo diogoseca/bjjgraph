@@ -19,7 +19,10 @@
   "target_area": "Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity",
   "starting_position": "Inside Ashi-Garami",
   "from_position": "Inside Ashi-Garami/Top",
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "The heel hook from Inside Ashi-Garami is one of the most fundamental leg lock attacks in modern no-gi grappling, targeting the knee's rotational ligaments through controlled twisting force applied to the captured heel. Inside Ashi-Garami provides the foundational entanglement for this attack, with the attacker's inside leg positioned across the opponent's hip to control rotation while the outside leg hooks behind the knee to prevent extraction. This configuration creates a stable platform for securing the heel and applying the rotational breaking mechanism that defines the heel hook.\n\nUnlike heel hooks applied from more dominant positions such as Saddle or Honey Hole, the Inside Ashi-Garami heel hook requires precise grip work and body positioning to overcome the defender's ability to rotate and extract their heel. The attacker must transition from initial C-grip control to a figure-four finishing grip while maintaining tight leg clamping pressure throughout. The position rewards patience and systematic pressure over explosive finishing attempts, as premature force application allows the defender to create space and escape the entanglement.\n\nThis submission carries extreme injury risk due to the knee's limited rotational tolerance and the delayed pain response that characterizes ligament attacks. Practitioners must develop strict safety habits including slow progressive application, constant awareness of tap signals, and immediate release protocols. The heel hook from Inside Ashi-Garami serves as both a direct finishing threat and a forcing mechanism that drives opponents into defensive reactions exploitable for position advancement to Saddle, Honey Hole, or other more dominant entanglements.",
   "safety_considerations": {
     "injury_risks": [
@@ -118,17 +121,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Inside Ashi-Garami/Top",
-      "probability": 36,
+      "probability": {
+        "gi": 36,
+        "nogi": 36
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 19,
+      "probability": {
+        "gi": 19,
+        "nogi": 19
+      },
       "result": "counter"
     }
   ],

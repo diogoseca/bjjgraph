@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "De La Riva Guard/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Toreando Pass from De La Riva Guard is a speed-based guard passing technique where the top player strips the DLR hook and ankle grip, establishes bilateral control of the opponent's legs, and uses explosive lateral movement to redirect the legs to one side while circling around to achieve side control. This pass directly exploits a structural vulnerability in De La Riva guard: the bottom player's offensive power depends entirely on the hook-plus-grip control system, so once these controls are neutralized, the guard framework collapses and the legs become manageable obstacles rather than offensive weapons. The toreando's lateral passing vector is particularly effective against DLR because it moves perpendicular to the guard player's primary sweeping axis, making it difficult for them to generate off-balancing force during the pass.\n\nThe technical challenge of executing the toreando from DLR lies in the sequencing between hook removal and pass execution. Unlike a standard toreando against generic open guard where both legs are relatively free, the DLR hook creates an anchor point that must be specifically addressed before the legs can be redirected. The most reliable approach involves stripping the ankle grip first to remove the guard player's primary connection, then using knee pressure or a quick backstep to clear the DLR hook, and immediately executing the toreando before the bottom player can re-establish control or transition to X-Guard or Single Leg X. This three-phase sequence of grip strip, hook removal, and explosive pass must flow seamlessly to prevent recovery.\n\nAt competitive levels, the toreando from DLR becomes most dangerous when integrated into a passing chain system. The initial toreando attempt forces the guard player to commit their legs defensively to one direction, which opens knee slice, leg drag, or backstep opportunities on the opposite side. This chain-passing methodology transforms the toreando from a single technique into a systematic tool for progressively dismantling DLR guard structure, creating compounding problems that even elite guard players struggle to solve simultaneously.",
   "conditions": [
     "Opponent has established De La Riva guard with hook behind your lead leg",

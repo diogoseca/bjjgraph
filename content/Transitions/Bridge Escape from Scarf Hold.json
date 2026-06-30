@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Scarf Hold Position/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "The bridge escape from scarf hold (kesa gatame) is a fundamental escape technique that exploits the perpendicular configuration inherent to the scarf hold position. Unlike standard side control escapes that rely on lateral shrimping, this escape uses explosive rotational bridging to roll the top player over their shoulder line, capitalizing on the structural vulnerability created when the top player's back is partially exposed due to their perpendicular seating angle. The technique requires precise coordination of arm trapping, leg hooking, and explosive hip extension to generate sufficient force to displace the top player from their controlling position.\n\nThe strategic significance of this escape lies in its effectiveness against heavy pressure scarf hold players who commit their weight through the hips into the bottom player's ribcage. When executed with proper timing, the bridge escape converts the top player's committed weight into a liability, using their own pressure as momentum for the roll. The primary target is half guard recovery, which provides immediate guard retention and offensive options. However, poor execution risks the top player transitioning to mount during the failed bridge attempt, making timing, setup, and full commitment critical factors in successful execution.\n\nThis escape functions as a cornerstone of any scarf hold defense system, typically paired with frame-based hip escapes and ghost escapes to create a multi-layered defensive approach. The bridge escape serves as both a standalone technique and a setup tool, as even failed bridge attempts create space and positional disruption that enable follow-up escape chains. Practitioners should develop both the explosive bridge-and-roll finish and the ability to transition seamlessly to guard recovery when the full roll is defended.",
   "conditions": [
     "Bottom player's free arm can reach and control opponent's head-wrapping arm or gi material",

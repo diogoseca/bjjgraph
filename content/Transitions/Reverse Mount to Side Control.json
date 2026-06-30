@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Reverse Mount/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Reverse Mount to Side Control transition is a fundamental positional conversion where the top practitioner rotates from the inherently unstable reverse mount into the more sustainable and dominant side control position. While reverse mount scores the same points as standard mount, its backward orientation compromises visual awareness and long-term control. Converting to side control establishes perpendicular chest-to-torso alignment that offers superior submission chains and positional sustainability.\n\nThe core mechanical challenge lies in executing a controlled 90-degree hip rotation while maintaining constant pressure on the opponent's torso. Any gap created during the rotation provides the bottom player with opportunities to insert frames, recover guard, or initiate a bridge reversal. The rotation must be smooth and continuous, with weight transfer managed through the hips rather than posting on hands, which would create exploitable space.\n\nThis transition is strategically chosen when the top player recognizes that side control offers a more stable attacking platform than attempting mount conversion or back take from reverse mount. It is particularly valuable against opponents who actively defend standard mount rotation by framing against the chest, or who present defensive postures that make hook insertion for back control impractical. The resulting side control position provides immediate access to americana, kimura, arm triangle, and north-south choke sequences from a consolidated base that can be maintained for extended periods with minimal energy expenditure.",
   "conditions": [
     "Established reverse mount position with hips heavy on opponent's torso and stable base through wide knee positioning",

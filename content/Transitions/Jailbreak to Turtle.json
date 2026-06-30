@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Turtle/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Jailbreak/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Jailbreak to Turtle transition represents a critical escape pathway from compressed half guard bottom when traditional framing and shrimping defenses have been neutralized. This technique leverages explosive inversion mechanics to convert the opponent's forward pressure into rotational momentum, allowing the bottom player to roll through to turtle position and reset the engagement. Popularized within the 10th Planet system, this escape has become essential for modern no-gi competitors facing aggressive pressure passers.\n\nThe biomechanical foundation of this escape relies on maintaining underhook connection while inverting the spine and shoulders toward the mat. When the top player commits weight forward for the pass, their base becomes vulnerable to being rolled through. The underhook serves as the anchor point that prevents separation during the roll and enables directional control of the escape trajectory. Timing is paramount—executing too early without sufficient pressure commitment results in the top player basing out, while executing too late means being flattened beyond recovery.\n\nFrom a game theory perspective, Jailbreak to Turtle creates a strategic dilemma for the top player. Driving forward pressure to complete the pass opens vulnerability to the rolling escape, while backing off to prevent the roll allows the bottom player to recover guard frames. This technique chains naturally into turtle attacks and back takes, making it both a defensive escape and an offensive transition when the opponent follows the roll.",
   "related_content": [
     {

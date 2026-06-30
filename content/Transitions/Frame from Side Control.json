@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Side Control/Bottom",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "The Frame from Side Control is the foundational defensive micro-transition that separates competent bottom players from those who get systematically crushed under side pressure. During the consolidation phase, the top player is actively tightening control, settling chest weight, and eliminating space. The bottom player's first and most critical task is establishing skeletal frames using forearm bones against the opponent's hip and shoulder structures. These frames create mechanical barriers that prevent full weight settlement and preserve the breathing space and hip mobility required for subsequent escape sequences.\n\nUnlike a full escape attempt, this transition targets an incremental positional improvement, moving from the heavily consolidated variant back to standard side control bottom where more escape pathways become available. The frame operates through structural mechanics rather than explosive power, using ulna bone contact against the opponent's hip line and forearm wedges against their shoulder to create load-bearing structures that resist collapse under pressure. The timing is critical: frames must be established during the opponent's adjustment phases or breathing cycles when their pressure momentarily lightens, not against fully settled static weight.\n\nStrategically, this technique creates the prerequisite conditions for all higher-level escapes from side control. Without functional frames, elbow escapes, hip escapes, and guard recovery sequences cannot generate the space required for execution. The frame also creates a defensive dilemma for the top player: if they commit weight to collapsing the hip frame, the shoulder frame creates turning space, and vice versa. This two-point frame system is the mechanical foundation upon which the entire bottom side control escape hierarchy is built.",
   "conditions": [
     "Trapped under Side Control with opponent actively settling chest pressure",

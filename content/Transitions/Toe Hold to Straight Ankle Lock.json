@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Straight Ankle Lock Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Toe Hold Control/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "summary": "The Toe Hold to Straight Ankle Lock is a leg-lock chain attack in which the attacker abandons rotational ankle pressure and re-grips across the Achilles, switching to extension-based compression once the defender's boot defense neutralizes the toe hold.",
   "overview": "This transition sits at the heart of the leg lock chain attack system, where keeping continuous offensive pressure on a single limb matters more than committing to any one finish. It exploits a critical principle in submission grappling: when a defender successfully neutralizes one attack vector, switching to a mechanically distinct threat on the same limb often catches them unprepared. The toe hold attacks through ankle rotation via a figure-four grip on the foot, while the straight ankle lock attacks through Achilles compression and ankle hyperextension using a forearm blade across the tendon. These two submissions target different defensive responses, making the transition between them a high-percentage chain attack.\n\nThe tactical reasoning behind this transition centers on the defender's boot defense and internal rotation mechanics used to neutralize the toe hold. When the defender successfully hides their heel and internally rotates their foot, the toe hold's rotational leverage diminishes significantly. However, this same defensive posture often exposes the Achilles tendon and creates favorable geometry for straight ankle lock application. The attacker who recognizes this opening can smoothly reconfigure their grips from the figure-four foot wrap to a forearm-across-Achilles configuration, maintaining continuous threat throughout the transition.\n\nThe primary risk in this transition lies in the momentary grip release required to switch configurations. During the reconfiguration window, the defender gains a brief opportunity to extract their leg, establish defensive frames, or counter-entangle. Successful execution requires maintaining leg control throughout the grip change, ensuring the defender's leg remains trapped even as the hands release and reconfigure. This demands coordination between upper and lower body control that distinguishes deliberate chain attacking from panicked grip switching.",
   "conditions": [

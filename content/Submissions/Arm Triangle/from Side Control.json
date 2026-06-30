@@ -19,7 +19,10 @@
   "target_area": "Carotid arteries (compressed by opponent's own shoulder and your arm)",
   "starting_position": "Side Control",
   "from_position": "Side Control/Top",
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "overview": "The arm triangle (kata-gatame) from side control is one of the highest-percentage submission finishes in Brazilian Jiu-Jitsu, available whenever the top player traps the opponent's near arm against their own neck while maintaining perpendicular chest-to-chest pressure. The attacker threads a figure-four or gable grip behind the opponent's head, creating bilateral compression on both carotid arteries simultaneously. The opponent's own shoulder becomes one wall of the choke while the attacker's bicep and forearm provide the other, making this a mechanically efficient blood choke that demands proper positioning rather than raw squeezing strength.\n\nWhat makes the arm triangle from side control particularly dangerous is its natural integration with standard side control pressure tactics. Many common defensive reactions from the bottom player—framing against the crossface, bridging to create space, or turning in to recover guard—inadvertently push the near arm across the neck and create the head-and-arm configuration the attacker needs. The finish requires walking the hips to the trapped-arm side to achieve a perpendicular finishing angle, dropping the near hip to the mat, and generating progressive chest-to-chest compression rather than arm squeezing. This body mechanics approach means the choke remains effective against larger opponents and can be sustained with minimal energy expenditure.\n\nAt the highest levels of competition, the arm triangle from side control remains one of the most reliable and frequently used finishes in both gi and no-gi formats. Its effectiveness stems from the fact that the submission becomes available precisely when the opponent is most active in their escape attempts, turning their defensive energy into the mechanism of their own defeat.",
   "safety_considerations": {
     "injury_risks": [
@@ -108,17 +111,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 62,
+      "probability": {
+        "gi": 62,
+        "nogi": 62
+      },
       "result": "success"
     },
     {
       "to": "Side Control/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 13,
+      "probability": {
+        "gi": 13,
+        "nogi": 13
+      },
       "result": "counter"
     }
   ],

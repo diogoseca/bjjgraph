@@ -18,7 +18,10 @@
   "target_area": "Neck (Carotid Arteries)",
   "starting_position": "Standing Rear Clinch",
   "from_position": "Standing Rear Clinch/Top",
-  "success_rate": 35,
+  "success_rate": {
+    "gi": 35,
+    "nogi": 35
+  },
   "overview": "The Standing Rear Naked Choke from Rear Clinch is a high-risk, high-reward submission that applies the classic RNC finishing mechanics while both practitioners remain on their feet. Unlike the ground-based RNC where hooks and body triangle provide stability, the standing variant requires the attacker to simultaneously manage their own balance, maintain chest-to-back pressure, and execute the precise arm positioning needed to compress the carotid arteries. This submission typically arises when an attacker with established rear clinch control recognizes an opening in the opponent's neck defense and commits to the finish rather than pursuing a takedown.\n\nThe strategic calculus of the standing RNC revolves around the trade-off between immediate submission opportunity and positional security. Attempting the choke standing sacrifices the stability advantage of taking the opponent to the ground, but offers the element of surprise and the psychological impact of being choked while upright with limited defensive leverage. Opponents defending the standing RNC must simultaneously protect their neck, maintain their base against being dragged backward, and work to separate from the attacker—a three-dimensional defensive challenge that creates exploitable windows for the attacker.\n\nFrom a competition perspective, the standing RNC appears most frequently in no-gi grappling and MMA, where the lack of collar grips makes the standing rear clinch a natural position for back attackers. The technique rewards practitioners who develop strong squeezing mechanics, precise forearm placement, and the ability to maintain heavy chest pressure against a moving, resisting opponent. Proper understanding of carotid compression versus tracheal pressure is essential both for effective finishing and for the safety of training partners.",
   "safety_considerations": {
     "injury_risks": [
@@ -116,22 +119,34 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "success"
     },
     {
       "to": "Standing Rear Clinch/Top",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Standing Position/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     },
     {
       "to": "Clinch/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],

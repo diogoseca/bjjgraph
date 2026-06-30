@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Defend Old School Sweep is a critical defensive transition for the top player caught in an opponent's Old School half guard setup. When the bottom player has established lockdown, deep underhook, and head control, the top player faces an immediate sweeping threat that requires decisive counter-measures to neutralize. This defense centers on three pillars: establishing a deep whizzer to control the underhook arm, driving heavy crossface pressure to break posture and prevent rotation, and posting the free leg wide to create a stable base that resists the sweeping force.\n\nThe strategic importance of this defense cannot be overstated in modern half guard exchanges. The Old School Sweep is one of the highest-percentage sweeps from lockdown half guard, and failure to defend it properly results in immediate positional loss to mount or back control. Successful defense not only prevents the sweep but creates opportunities to advance position by transitioning to a neutral half guard top where the top player can work systematic passes to side control.\n\nTiming is paramount in this defense. The whizzer must be established before the bottom player commits to the sweeping rotation, and the crossface pressure must be applied early enough to prevent the head control that drives the sweep. Late defensive reactions typically result in scrambles where the bottom player's momentum advantage leads to successful sweeps or back takes. The top player who masters this defense transforms the Old School position from a dangerous predicament into a controlled passing scenario.",
   "conditions": [
     "Opponent has established Old School position with lockdown, underhook, and head control from half guard bottom",

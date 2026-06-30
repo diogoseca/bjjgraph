@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Saddle/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Outside Ashi-Garami/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Saddle Entry from Outside Ashi-Garami is an advanced counter-entanglement technique that transforms a defensive leg lock situation into a dominant offensive position. When your leg is trapped in an opponent's outside ashi-garami, rather than simply working to extract your leg and escape, this technique allows you to rotate over the opponent's body and establish your own saddle position on their leg. This counter-offensive approach represents the highest level of leg lock defense, where the boundary between defense and offense dissolves entirely into a fluid exchange of positional control.\n\nThe technique exploits a fundamental property of leg entanglements: the connection is bidirectional. While your opponent's figure-four controls your leg, that same connection anchors them to you and limits their mobility. By controlling their foot to prevent submission during the transition, posting with your free leg to create rotational base, and executing a precise backstep over their body, you convert their outside ashi control into your dominant saddle position. The critical timing window opens when your opponent adjusts their grips, initiates a submission attempt, or loosens their triangle configuration during positional adjustment.\n\nStrategically, mastering this counter-entanglement makes you significantly more dangerous in leg lock exchanges. Opponents who recognize your ability to convert their outside ashi into your saddle will hesitate before committing fully to leg entanglement attacks, creating defensive uncertainty that benefits your overall game. This technique is essential for advanced no-gi competition, particularly in ADCC-style formats where extended leg lock exchanges determine matches and the ability to reverse entanglement positions provides decisive competitive advantage.",
   "conditions": [
     "Your leg is trapped in opponent's outside ashi-garami with their figure-four configuration around your leg",

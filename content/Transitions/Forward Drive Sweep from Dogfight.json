@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Dogfight Position/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Flattened Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Forward Drive Sweep from Dogfight is a fundamental power sweep that capitalizes on the bottom player's established underhook to drive the top player backward and achieve mount. This technique represents one of the most direct offensive options from the Dogfight Position, requiring the bottom player to generate forward momentum through their underhook while simultaneously controlling the opponent's far-side posting options. The sweep rewards committed, aggressive forward pressure and punishes opponents who sit back on their heels or fail to maintain active whizzer defense.\n\nMechanically, the sweep relies on three coordinated actions: deep underhook control reaching to the opponent's far shoulder, free-hand control of the opponent's far hip or knee to eliminate posting, and explosive forward drive generated through the outside posting leg. The drive direction should angle slightly toward the opponent's trapped-leg side, exploiting the weakest point in their base where the half guard hook already limits their ability to step back and recover. When all three elements synchronize, the opponent has no effective base to resist the forward topple.\n\nThis sweep integrates seamlessly into the broader Dogfight attack chain. If the opponent defends the forward drive by posting their far leg wide, this opens the Dogfight Sweep and back take opportunities. If they respond by driving whizzer pressure forward to counter, the bottom player can redirect into a deep half guard entry or the Underhook Sweep. This chain-attack integration makes the Forward Drive Sweep a critical first option that forces defensive reactions exploitable by complementary techniques.",
   "conditions": [
     "Bottom player has established deep underhook from Dogfight Position reaching to opponent's far shoulder or lat",

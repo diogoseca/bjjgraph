@@ -17,7 +17,10 @@
   "target_area": "Shoulder joint (glenohumeral joint and rotator cuff)",
   "starting_position": "Williams Guard",
   "from_position": "Williams Guard/Bottom",
-  "success_rate": 52,
+  "success_rate": {
+    "gi": 52,
+    "nogi": 52
+  },
   "overview": "The Williams Shoulder Lock from Williams Guard attacks the glenohumeral joint through controlled external (posterior) rotation using the unique overhook figure-four grip inherent to the Williams Guard position. Mechanically it shares the kimura/omoplata family direction, driving the forearm upward and rotating the humerus rearward rather than the medial direction an Americana exploits. The guard player secures the opponent's arm in a figure-four configuration behind the tricep, pins the elbow against their own chest to create a rotational fulcrum, then uses hip angle and full body mechanics to generate progressive shoulder torque. This submission integrates seamlessly with the Williams Guard control system, functioning as both the primary finishing threat and the central mechanism that forces defensive reactions exploitable through sweep chains.\n\nWhat distinguishes this variant from standing or top-position shoulder locks is the mechanical integration with guard retention. The same leg frames that maintain guard structure also prevent the opponent from changing angle to relieve shoulder pressure. The opponent faces a compounding dilemma: defending the shoulder lock requires movements that feed omoplata and triangle transitions, while maintaining posture to prevent those transitions increases shoulder lock vulnerability. This creates a systematic attacking environment where each defensive choice opens specific offensive opportunities.\n\nAt the competition level, the Williams Shoulder Lock from Williams Guard functions best as the anchor of a submission chain rather than an isolated technique. The lock itself forces reactions—pulling back opens armbar, driving forward feeds omoplata, circling away creates back take opportunities. Understanding this chain logic transforms the shoulder lock from a single submission into a complete positional attacking system built around shoulder joint vulnerability and predictable defensive patterns.",
   "safety_considerations": {
     "injury_risks": [
@@ -124,17 +127,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 52,
+      "probability": {
+        "gi": 52,
+        "nogi": 52
+      },
       "result": "success"
     },
     {
       "to": "Williams Guard/Bottom",
-      "probability": 31,
+      "probability": {
+        "gi": 31,
+        "nogi": 31
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 17,
+      "probability": {
+        "gi": 17,
+        "nogi": 17
+      },
       "result": "counter"
     }
   ],

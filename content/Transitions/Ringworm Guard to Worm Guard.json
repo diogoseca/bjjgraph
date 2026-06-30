@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Worm Guard/Bottom",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Ringworm Guard/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Ringworm Guard to Worm Guard transition is a fundamental reconfiguration within the lapel guard system that allows the bottom player to upgrade their lapel control for deeper entanglement and enhanced mechanical advantage. This transition occurs when the Ringworm configuration becomes compromised or when the practitioner recognizes an opportunity to establish the more dominant Worm Guard position with its superior sweeping and back-taking opportunities.\n\nThe transition involves maintaining lapel tension while rethreading the lapel around the opponent's leg in a different configuration. Rather than the Ringworm wrap around the outside of the leg, Worm Guard threads the lapel under and through the opponent's leg, creating a tighter mechanical connection that restricts movement more severely. This reconfiguration is particularly effective when the opponent attempts to stand or create distance, as these movements often create the space necessary to execute the lapel rethread.\n\nStrategically, this transition represents a progression within the lapel guard hierarchy. Ringworm Guard offers strong control but Worm Guard provides superior sweep mechanics and submission entries. Understanding when and how to transition between these positions is essential for anyone developing a complete lapel-based guard game. The transition can be executed proactively to upgrade position or reactively when Ringworm control begins to slip.",
   "conditions": [
     "Established Ringworm Guard with lapel wrapped around opponent's leg and tension maintained",

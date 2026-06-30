@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Omoplata Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Triangle Control/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Within the triangle attack system, the Triangle to Omoplata transition is the answer to one of the most common defensive reactions—the forward stack. When an opponent successfully defends the triangle by posturing, stacking, or driving forward, the bottom player can seamlessly transition to an omoplata shoulder lock by releasing the triangle configuration and capturing the trapped arm with a leg swing over the opponent's back. This transition represents a core principle in modern guard work: using the opponent's escape attempts to create new attacking opportunities.\n\nThe technique is particularly effective because the opponent's defensive posture—driving forward to relieve triangle pressure—naturally feeds into the omoplata setup. The stacking motion that relieves neck compression simultaneously extends the trapped arm and exposes the shoulder to rotational pressure. This creates a true dilemma where defending one submission opens the path to another, and the defender must choose between absorbing choking pressure or accepting shoulder lock vulnerability.\n\nAt the highest levels, this transition functions as part of a three-way attacking system from triangle control: the choke itself, the armbar when the opponent postures, and the omoplata when they drive forward. Mastering the timing and mechanics of this chain transforms triangle control from a single submission threat into a comprehensive offensive platform that forces continuous defensive decision-making from the opponent.",
   "related_content": [
     {

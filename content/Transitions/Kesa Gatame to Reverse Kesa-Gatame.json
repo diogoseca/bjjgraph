@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Reverse Kesa-Gatame/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Kesa Gatame/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 65,
+  "success_rate": {
+    "gi": 65,
+    "nogi": 65
+  },
   "overview": "Within the scarf-hold family, this rotation is the top player's primary answer to a bottom player who has built strong defensive frames from standard Kesa Gatame. By pivoting 180 degrees to face the opponent's legs rather than their head, the top player eliminates the bottom player's ability to frame against the face and neck while simultaneously isolating the far arm for immediate submission threats. The rotation itself is deceptively technical, requiring precise weight transfer through the chest to prevent the bottom player from exploiting the momentary instability.\n\nStrategically, this transition serves multiple purposes within the pinning hierarchy. It functions as both a positional upgrade and a submission setup, since the reverse orientation naturally traps the far arm under the top player's armpit, creating immediate Kimura and Americana opportunities without additional grip fighting. The transition is particularly effective against opponents who have developed strong defensive frames from standard Kesa Gatame, as the rotation bypasses their established frame architecture entirely.\n\nThe timing of this transition is critical. The optimal window opens when the bottom player commits energy to defending standard Kesa Gatame attacks or when they attempt to create frames against the top player's head. Their defensive commitment creates the opening for the rotational switch, and their existing frames become irrelevant once the top player completes the pivot. This makes the transition an excellent answer to active defensive opponents who frustrate attacks from standard scarf hold.",
   "variants_and_adaptations": [
     {

@@ -17,7 +17,10 @@
   "target_area": "Carotid arteries and trachea",
   "starting_position": "Front Headlock",
   "from_position": "Front Headlock/Top",
-  "success_rate": 52,
+  "success_rate": {
+    "gi": 52,
+    "nogi": 52
+  },
   "overview": "The Peruvian Necktie from front headlock is a devastating blood choke that combines forearm compression with leg-over-head pressure to attack both carotid arteries simultaneously. The front headlock provides the ideal launching position because you already control the opponent's head and can threaten guillotines, darces, and anacondas before committing to the necktie. This forces opponents into defensive patterns that expose them to the necktie setup.\n\nThe mechanic that distinguishes the Peruvian Necktie from other front headlock submissions is the leg thrown over the back of the opponent's neck. This leg acts as a force multiplier, driving the opponent's head downward into the choking forearm while a locked gable grip prevents escape. The opponent's own trapped arm creates a secondary compression point, effectively sealing both sides of the neck. The result is one of the tightest blood chokes available from any grappling position, with unconsciousness possible within seconds of a clean lock.\n\nStrategically, the Peruvian Necktie works best as part of a comprehensive front headlock attack system. Opponents defending guillotine attempts often keep their posture low and head tucked, which is precisely the posture that exposes them to the necktie. The grip transition from a standard front headlock to the Peruvian Necktie configuration is subtle enough that experienced defenders may not recognize the threat until the leg is already over their head, at which point escape options become severely limited. This submission punishes the most common front headlock defensive posture, making it an essential addition to any front headlock system.",
   "safety_considerations": {
     "injury_risks": [
@@ -127,17 +130,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 52,
+      "probability": {
+        "gi": 52,
+        "nogi": 52
+      },
       "result": "success"
     },
     {
       "to": "Front Headlock/Top",
-      "probability": 31,
+      "probability": {
+        "gi": 31,
+        "nogi": 31
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 17,
+      "probability": {
+        "gi": 17,
+        "nogi": 17
+      },
       "result": "counter"
     }
   ],

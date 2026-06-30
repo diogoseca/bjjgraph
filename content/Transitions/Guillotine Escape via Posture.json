@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Guillotine Control/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Guillotine Escape via Posture is a fundamental defensive transition used when caught in an opponent's guillotine choke from their bottom guard position. The escape relies on systematic posture recovery—driving the hips forward, walking the knees past the opponent's hips, and using a combination of chin tuck, grip fighting, and spine extension to break the choking grip and extract the head. This is the first-line defense against guillotines and must be drilled until it becomes an automatic response to any guillotine attempt from guard.\n\nThe mechanics of this escape exploit a structural weakness in the bottom guillotine: the choking player must maintain both their guard connection and the guillotine grip simultaneously. By posturing aggressively, you force them to choose between holding the choke (which becomes mechanically weaker as your spine extends) and maintaining guard control (which requires their legs to work harder as your posture improves). This binary defensive dilemma is the key concept—systematic posture recovery attacks both control systems simultaneously.\n\nTiming is critical. The escape becomes exponentially harder the longer you remain trapped with broken posture. Early recognition and immediate posture recovery before the opponent can fully lock their grip and close their guard dramatically increases success rates. Conversely, a late escape attempt against a fully locked high-elbow guillotine with closed guard may require transitioning to alternative escapes rather than forcing the posture recovery.",
   "conditions": [
     "Caught in opponent's guillotine choke from their bottom guard position with choking arm wrapped around your neck",

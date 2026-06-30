@@ -22,7 +22,10 @@
     "Kuzure Kesa-Gatame",
     "Scarf Hold Position"
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "variant_uniqueness": "Leverages scarf hold pressure to create elbow crush fulcrum",
   "summary": "The Kesa Gatame Arm Crush is a grip-independent compression submission from scarf hold that pins the opponent's near arm across the attacker's torso and drives the hip and ribcage into the elbow as a fulcrum to force the tap.",
   "overview": "The Kesa Gatame Arm Crush is a compression-based submission executed from the scarf hold position that attacks the opponent's elbow joint through mechanical leverage and body pressure. From the traditional kesa gatame control, the attacker isolates the opponent's near arm and positions it across their torso, creating a fulcrum at the elbow using their hip and ribcage. By controlling the wrist and driving the hips forward while pulling the arm tight, the elbow is hyperextended against the attacker's body, generating tremendous pressure that forces the tap.\n\nThis submission represents a natural evolution of kesa gatame offense, capitalizing on the arm control already inherent in the position. Unlike traditional armbars that require transitioning away from the pin, the arm crush maintains the crushing top pressure of scarf hold while simultaneously attacking the joint. This dual threat of positional pressure and joint destruction makes it particularly effective against opponents who prioritize surviving the pin rather than actively escaping. The technique punishes passivity under kesa gatame by converting the static defensive posture into a submission vulnerability.\n\nThe technique is especially valuable in no-gi contexts where maintaining traditional kesa gatame submissions like the americana can be difficult without sleeve grips. The arm crush relies purely on body mechanics and positioning, making it grip-independent and highly effective regardless of attire. Competition practitioners have increasingly adopted this submission as a high-percentage finish from an already dominant position, particularly when opponents become defensive and static under the crushing pressure of scarf hold. The arm crush also chains naturally with americana and kimura attempts, creating a submission flow that keeps the opponent guessing which joint attack is coming next.",

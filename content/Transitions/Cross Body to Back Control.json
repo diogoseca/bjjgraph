@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Cross Body Ride/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Cross Body to Back Control is the fundamental transition from the perpendicular turtle ride to the most dominant position in Brazilian Jiu-Jitsu. Beginning from the Cross Body Ride—where the top player maintains chest-to-back pressure at a perpendicular angle across the opponent's spine—this transition involves systematically rotating from the perpendicular orientation to a parallel chest-behind-back position while inserting hooks and establishing the seatbelt grip. The technique capitalizes on the control advantages of the cross body position to methodically advance to full back control without creating escape opportunities.\n\nThe transition represents a critical junction in the turtle attack hierarchy. While the Cross Body Ride provides excellent control and pressure, it lacks the direct submission threats available from full back control. The ability to smoothly convert perpendicular pressure into back control with hooks determines whether the top player can capitalize on their dominant turtle position or whether the opponent finds windows to escape during the positional adjustment. The 55% success rate reflects the inherent challenge of maintaining control during the rotational phase.\n\nSuccessful execution demands maintaining constant chest-to-back connection throughout the entire rotation. The most common failure occurs when practitioners lift their weight to insert hooks, creating space that allows the opponent to turn, granby roll, or sit through to guard. Elite practitioners solve this by threading hooks sequentially while driving their shoulder into the opponent's back, ensuring zero daylight between their chest and the opponent's spine throughout the transition. The seatbelt grip serves as the primary anchor, preventing the opponent from exploiting rotational momentum to escape.",
   "conditions": [
     "Top player has established perpendicular chest-to-back contact from turtle top position",

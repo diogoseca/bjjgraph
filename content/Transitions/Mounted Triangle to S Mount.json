@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "S Mount/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Mounted Triangle/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The mounted triangle to S mount transition is a strategic positional conversion that trades triangle submission pressure for superior armbar mechanics and positional stability. When the mounted triangle choke is well-defended through chin tuck and defensive framing, the attacker recognizes that the trapped arm is better attacked through the perpendicular leverage of S mount rather than continued squeeze attempts. The leg configuration of mounted triangle provides a natural pathway into S mount, as the leg already positioned over the opponent's shoulder simply needs to extend further over the head while the locking leg repositions across the torso.\n\nThis transition exemplifies the principle of reading defensive reactions and adapting offensive strategy in real time. Rather than forcing a stalling triangle that burns energy, the attacker converts positional capital into a fresh attacking angle. The key mechanical insight is that the mounted triangle already isolates one arm between the legs, and S mount preserves this arm isolation while offering cleaner armbar geometry. The perpendicular body angle of S mount creates superior hip-to-shoulder leverage that makes the armbar far more difficult to defend than the combination squeeze of the mounted triangle.\n\nThe primary risk during this transition occurs in the brief window when the triangle lock is released and the legs are being repositioned. An alert defender can exploit this moment to bridge, extract the trapped arm, or hip escape to half guard. Maintaining continuous wrist control on the isolated arm throughout the entire transition is the non-negotiable requirement that prevents defensive recovery. Practitioners who master this transition add a powerful chain attack that punishes opponents who successfully defend the mounted triangle choke.",
   "conditions": [
     "Mounted triangle is established with one arm trapped between legs",

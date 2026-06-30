@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Triangle Control/Bottom",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "overview": "The Triangle Setup is a fundamental attacking sequence from closed guard that establishes the control position necessary for finishing the triangle choke. This technique exploits the opponent's defensive posture and arm positioning to create the angle and leg configuration required for effective triangle control. The setup phase is arguably more critical than the finish itself, as poor initial positioning makes the submission nearly impossible to complete regardless of technical knowledge.\n\nThe triangle setup demonstrates the principle of using the opponent's defensive structure against them — their posting arm becomes the trapped limb, and their attempt to maintain base provides the opening for angle creation. The sequence requires coordinating posture breaking, arm isolation across the centerline, hip escape to create angle, and a precisely timed leg throw over the opponent's shoulder. Each phase builds on the previous one, and skipping or rushing any step dramatically reduces success probability.\n\nThis technique serves as a gateway to multiple attacking options including the triangle choke itself, omoplata transitions, armbar variations, and back take opportunities. The setup creates a branching attack tree where every defensive reaction from the opponent opens a different offensive pathway. Mastering the setup phase dramatically increases submission success rates across all skill levels and forms the foundation of a dangerous guard game that forces constant defensive dilemmas.",
   "related_content": [
     {

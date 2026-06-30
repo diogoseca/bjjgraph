@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Knee Torque Sweep is a specialized half guard bottom technique that exploits the mechanical vulnerability created when the bottom player applies controlled rotational force to the opponent's trapped knee. This sweep operates on the biomechanical principle that inward knee torque collapses the top player's base on the trapped side, creating a structural deficit that can be exploited with coordinated upper body drive and hip bridge mechanics. The technique is particularly effective against opponents who commit heavy forward pressure from half guard top, as their weight distribution over the trapped leg amplifies the destabilizing effect of the knee rotation.\n\nThe sweep combines two simultaneous force vectors: rotational torque on the opponent's knee through a scissors-like leg action, and lateral driving force through the underhook combined with a directional hip bridge. When both vectors are applied simultaneously with proper timing, they create an irrecoverable off-balance that topples the opponent over the compromised knee, allowing the sweeper to follow directly into mount. The technique rewards precise mechanical understanding and timing over raw explosive strength, making it accessible to practitioners of varying body types while remaining effective at the highest competitive levels.\n\nAmong half guard bottom sweeps, the Knee Torque Sweep occupies a distinct tactical niche as a secondary attack that chains naturally with standard underhook sweeps. When the opponent defends traditional sweeps by widening their base or driving crossface pressure, the knee torque mechanism attacks a different structural axis. If the sweep itself is defended by posting, the posted arm becomes vulnerable to kimura entries. If defended by hip retreat, the created space enables deep half guard transitions or dogfight entries, making the sweep a valuable node in the half guard attacking network.",
   "conditions": [
     "Opponent's leg securely trapped in half guard entanglement at knee level or below",

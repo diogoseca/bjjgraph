@@ -17,7 +17,10 @@
   "target_area": "Neck",
   "starting_position": "Cross Body Ride",
   "from_position": "Cross Body Ride/Top",
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "As the primary finishing threat of the cross body ride attack system, the Short Choke converts perpendicular control over a turtled opponent into a fight-ending submission. The attacker threads their choking forearm under the opponent's chin while maintaining perpendicular chest-to-back pressure, using body weight and arm compression to attack both carotid arteries simultaneously. This submission capitalizes on the unique control dynamics of the cross body ride, where the attacker's weight distribution and perpendicular angle create a choking platform that becomes extremely difficult to defend once the forearm is positioned beneath the chin.\n\nStrategically, the Short Choke creates a forcing function within the cross body ride attack system. When the opponent dedicates both hands to defending the choke by fighting grips and protecting the neck, they sacrifice the posting ability needed to prevent back takes and crucifix entries. When they prioritize preventing positional advancement by maintaining strong base and arm position, the choking arm can be threaded more easily under the exposed chin. This systematic dilemma structure is what makes the cross body ride such a potent attacking platform and the Short Choke its primary finishing threat.\n\nThe choke operates on blood restriction principles, compressing the carotid arteries bilaterally. When applied correctly with proper forearm positioning and body weight pressure, unconsciousness can occur within eight to twelve seconds of a fully locked submission. The cross body angle provides significant mechanical advantages because the attacker uses their entire body weight to drive the forearm into the neck rather than relying solely on arm squeeze, making this choke particularly effective even against larger opponents or in fatigued conditions where grip strength is compromised.",
   "safety_considerations": {
     "injury_risks": [
@@ -101,17 +104,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Cross Body Ride/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],

@@ -23,7 +23,10 @@
     "Back Control",
     "Technical Mount"
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "The Gift Wrap Armbar is a high-percentage joint lock submission that exploits the fundamental asymmetry created by gift wrap arm control. When one of the opponent's arms is trapped across their body in the gift wrap configuration, their remaining free arm becomes isolated and vulnerable to armbar attacks. This submission capitalizes on the opponent's inability to use both arms defensively, transforming dominant positional control into a finishing opportunity that is exceptionally difficult to defend.\n\nThe technique operates on a simple biomechanical principle: the elbow joint can only withstand force in one direction. By securing the free arm with a two-on-one grip and positioning the hips beneath the elbow as a fulcrum, the attacker creates a lever system where even moderate hip elevation generates sufficient force to hyperextend the joint. The gift wrap arm trap removes the opponent's primary defense mechanism, reducing the armbar defense to a single-arm problem that heavily favors the attacker.\n\nStrategically, the Gift Wrap Armbar functions as part of a broader submission chain from dominant back control and mounted positions. It pairs naturally with choke attacks: when the opponent defends the neck with their free arm, that arm extends and becomes vulnerable to the armbar. When they retract the arm to defend the armbar, the neck opens for choke entries. This binary creates an offensive dilemma that makes the gift wrap one of the most effective submission setups in modern grappling.",
   "safety_considerations": {
     "injury_risks": [
@@ -66,22 +69,34 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Gift Wrap/Top",
-      "probability": 28,
+      "probability": {
+        "gi": 28,
+        "nogi": 28
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Top",
-      "probability": 14,
+      "probability": {
+        "gi": 14,
+        "nogi": 14
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 8,
+      "probability": {
+        "gi": 8,
+        "nogi": 8
+      },
       "result": "counter"
     }
   ],

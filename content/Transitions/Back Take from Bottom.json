@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Hindulotine/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Back Take from Bottom Hindulotine is a high-percentage transition that exploits the most common defensive reaction to guillotine pressure: turning away to relieve neck strain. When an opponent rotates to escape the choking grip from bottom Hindulotine, they inadvertently expose their back, creating an optimal entry point for back control. This transition epitomizes the modern submission grappling philosophy where defensive movements create offensive opportunities.\n\nThis technique transforms a failed or stalled submission attempt into a dominant positional advantage. Rather than chasing the guillotine as the opponent turns, the practitioner releases the guillotine grip and immediately establishes seatbelt control, threading the former choking arm across the opponent's chest as the overhook while the other arm slides under the armpit. The transition must be timed precisely with the opponent's rotation to capitalize on their momentum.\n\nThe back take from bottom Hindulotine is particularly effective because the opponent often commits fully to the turn, believing they are escaping danger. This commitment makes the back exposure more complete and the subsequent control establishment more secure. The position integrates seamlessly into front headlock and guillotine attack systems, providing a reliable secondary option when the primary choke stalls.",
   "conditions": [
     "Bottom Hindulotine position established with secure guillotine grip",

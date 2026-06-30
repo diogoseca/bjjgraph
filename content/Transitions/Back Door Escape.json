@@ -14,26 +14,41 @@
   "outcomes": [
     {
       "to": "Open Guard/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Turtle/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "success"
     },
     {
       "to": "Darce Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "North-South/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "Within the Darce defense hierarchy, the back door sits alongside arm extraction and the granby roll as one of the few reliable answers once the figure-four grip is locked and forward pressure begins to build. It exploits a fundamental weakness in the Darce grip structure—the attacker's control is strongest when the defender moves forward or laterally, but significantly weaker when the defender retreats toward the attacker's back, where the gap between their choking elbow and hip leaves an exit path.\n\nThe technique works by recognizing that the Darce choke requires the attacker to maintain pressure perpendicular to the defender's spine. By stepping or rolling backward through the gap behind the attacker's controlling arm, the defender eliminates the choking angle and creates space to recover guard or establish turtle position. This escape is particularly effective when the Darce is being applied from a perpendicular angle rather than directly in front.\n\nStrategically, the Back Door Escape represents a last-resort option when arm extraction and other primary escapes have failed. Its success depends heavily on timing—attempting this escape too early wastes energy on a complex movement when simpler options remain, while attempting it too late puts you in an even worse position as the choke tightens. Advanced practitioners develop sensitivity to the precise moment when the back door becomes the highest-percentage option based on the attacker's grip depth and hip position.",
   "related_content": [
     {

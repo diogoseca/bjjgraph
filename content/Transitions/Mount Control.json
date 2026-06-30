@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 70,
+      "probability": {
+        "gi": 70,
+        "nogi": 70
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 78,
+  "success_rate": {
+    "gi": 78,
+    "nogi": 78
+  },
   "overview": "Mount Control represents the ongoing process of maintaining dominant position against an actively escaping opponent. Unlike initial consolidation which establishes the mount, Mount Control addresses the dynamic battle that continues throughout the position - reading escape attempts, adjusting base in real-time, and using pressure to drain defensive resources. The fundamental principle is that mount maintenance is not passive holding but active control through constant micro-adjustments. Every time your opponent creates a frame, you eliminate it. Every bridge attempt requires base adjustment. Every hip escape must be blocked before it generates momentum. This constant responsiveness transforms mount from a position that can be escaped with patience into an inescapable cage that progressively worsens for the defender. The strategic goal of Mount Control extends beyond simply staying on top - it involves systematically degrading your opponent's defensive capacity through sustained pressure while preserving your energy and creating submission opportunities. Skilled practitioners use Mount Control to create dilemmas: the opponent's attempts to escape actually open them to attacks, while staying still allows you to advance position. This creates a lose-lose scenario for the defender where their best option becomes surrendering to a submission rather than continuing to fight the mount.",
   "related_content": [
     {

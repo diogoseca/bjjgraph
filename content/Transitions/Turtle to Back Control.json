@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Turtle/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Turtle/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "summary": "Turtle to Back Control is a top-turtle back take where the attacker secures a seatbelt grip and blocks the near hip before sequentially inserting hooks, converting an opponent's defensive turtle into the dominant back position.",
   "overview": "The Turtle to Back Control transition is a fundamental back-taking sequence that exploits the defensive turtle position's inherent vulnerability: back exposure. When an opponent assumes turtle to protect against pins or submissions, they surrender rear access, creating a high-percentage opportunity for the most dominant position in BJJ. This transition involves systematically breaking down the turtle structure through strategic grip placement, hip control, and body positioning to achieve full back control with hooks and seatbelt.\n\nThe key to successful execution lies in a strict top-down control progression. Upper body control through the seatbelt grip must be established before any hook insertion attempt. The near hip must be blocked with the knee to eliminate granby rolls and sit-back escapes. Only after these control points are secured does the attacker begin the sequential hook insertion process, near side first, then far side. Rushing any step in this sequence dramatically reduces success rates.\n\nThis technique forms the cornerstone of effective top turtle work and is essential for competitors at all levels. The turtle position occurs constantly in competition arising from failed takedowns, guard passes, and scrambles. Practitioners who can reliably convert turtle top into back control gain access to the highest-percentage submission position in grappling, including rear naked choke, bow and arrow choke, and armbar transitions. The transition also integrates with alternative turtle attacks like crucifix entries and truck position, creating a web of threats that forces defensive errors.",
   "conditions": [

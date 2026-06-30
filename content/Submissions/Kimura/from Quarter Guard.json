@@ -18,7 +18,10 @@
   "target_area": "Shoulder joint, rotator cuff, and shoulder capsule",
   "starting_position": "Quarter Guard",
   "from_position": "Quarter Guard/Top",
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "overview": "The Kimura from Quarter Guard exploits a unique positional advantage where the top player has nearly completed their guard pass, creating ideal conditions for the figure-four shoulder lock. Unlike attacking the Kimura from full half guard where the bottom player retains significant defensive capability, the quarter guard position compromises the defender's ability to maintain frames and creates accessible angles for wrist isolation. The top player's advanced hip position and crossface pressure naturally funnel the bottom player's arms into vulnerable configurations, particularly when they reach for underhooks or attempt to frame against the pass.\n\nThis submission capitalizes on the bottom player's defensive urgency. As they fight to retain guard with diminishing control, their near arm becomes exposed through framing attempts or underhook battles. The top player can transition seamlessly from passing pressure to kimura grip, using the same crossface and weight distribution that drives the pass to control the submission setup. The figure-four configuration locks the shoulder in internal rotation while the top player's body weight prevents escape, creating a high-percentage finish that chains naturally with guard passing sequences.\n\nThe Kimura from Quarter Guard is particularly effective because it punishes the bottom player's primary defensive tool—the underhook. When the defender commits their arm to the underhook seeking sweeps or back takes, they expose the exact wrist and forearm angles needed for the figure-four grip. This creates a tactical dilemma where the bottom player must choose between defending the pass without their strongest tool or risking the submission by fighting for the underhook.",
   "safety_considerations": {
     "injury_risks": [
@@ -102,17 +105,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 62,
+      "probability": {
+        "gi": 62,
+        "nogi": 62
+      },
       "result": "success"
     },
     {
       "to": "Quarter Guard/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 13,
+      "probability": {
+        "gi": 13,
+        "nogi": 13
+      },
       "result": "counter"
     }
   ],

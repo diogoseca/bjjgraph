@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Double Unders/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "summary": "The Stack Pass from Double Unders is a pressure-passing finish where the top player, having secured both underhooks, walks their knees forward to fold the opponent onto their shoulders and clears the legs into side control.",
   "overview": "Sitting at the finishing end of the double unders pressure system, the Stack Pass converts established bilateral underhook control into a vertical fold that loads the opponent onto their own shoulders and removes every avenue of hip recovery. Once both underhooks are secured beneath the opponent's legs, the passer drives forward through the hips, walking the knees toward the opponent's head while maintaining a tight grip connection behind their back. This vertical stacking pressure compresses the opponent's spine, severely restricts breathing, and removes all leverage for guard recovery or hip escape.\n\nThe technique operates on a fundamental biomechanical principle: when the opponent's hips are elevated above their shoulders, they lose the ability to generate lateral hip movement, which is the foundation of all guard retention. The passer converts horizontal double unders pressure into a vertical stack, pinning the opponent's weight onto their upper back and neck. From this compressed position, the passer then chooses a side to pass, clearing the legs and settling into side control. The stack pass is particularly effective against opponents who maintain a flat back and rely on framing rather than hip mobility for defense, as their frames become structurally compromised once they are loaded onto their shoulders.\n\nThis technique fits within the broader pressure passing system as a direct finishing mechanic from established double unders control. It chains naturally with the standard double under pass and toss pass as alternative pathways when the opponent's defensive reactions create different passing angles. Successful execution requires patience in building progressive pressure rather than explosive movements, making it energy-efficient and high-percentage at all levels of competition.",
   "conditions": [

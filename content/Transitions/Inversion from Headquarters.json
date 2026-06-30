@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "De La Riva Guard/Bottom",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Headquarters Position/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "When a methodical passer settles into headquarters and pins one leg, the bottom player faces a choice between grinding resistance and angular escape, and the inversion is the angular answer. Rather than fighting the trapped leg directly through frames and hip escapes, the bottom player uses a granby-style shoulder roll to rotate underneath the passer, threading legs through to establish De La Riva Guard. This technique exploits the geometric reality that the headquarters passer must maintain forward-facing pressure, making them vulnerable to angular attacks that travel underneath their base.\n\nThis movement represents a critical skill for modern guard players facing systematic passing pressure. Headquarters has become the central hub of methodical guard passing systems, and direct resistance against a well-positioned headquarters passer is often futile. The inversion offers an asymmetric response: rather than matching the passer's pressure with frames and hip escapes, the guard player redirects the engagement entirely by changing the plane of movement. This makes the inversion particularly effective against heavier or stronger passers who rely on grinding, forward-driving pressure from headquarters.\n\nTiming is paramount for successful execution. The inversion must be initiated during a transitional moment, typically when the passer shifts weight to begin a passing sequence like a knee cut or toreando. Attempting the inversion against a settled, heavy headquarters position dramatically reduces success rates and increases the risk of being caught mid-roll in an exposed position. Advanced practitioners learn to bait specific passing reactions that create the weight-shift windows necessary for clean inversions, transforming the passer's aggression into their own escape opportunity.",
   "conditions": [
     "Opponent has established headquarters position with one leg trapped between their legs",

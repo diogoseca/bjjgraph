@@ -15,26 +15,41 @@
   "outcomes": [
     {
       "to": "Half Guard/Top",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Headquarters Position/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "success"
     },
     {
       "to": "K-Guard/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Single Leg X-Guard/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Within a systematic K-Guard passing game, the backstep functions as the directional-change answer to active hook retention. Unlike forward-pressure passes that attempt to drive through the hook structure, the backstep circumvents the bottom player's strongest retention mechanics by changing the plane of engagement — the top player posts on the free leg and withdraws the trapped leg backward and around the bottom player's leg configuration rather than fighting through it. This makes it a valuable secondary option when conventional pressure passing stalls against an active K-Guard retention system, and it pairs naturally with the knee slice and smash attempts that bait the very reactions it exploits.\n\nThe technique exploits a fundamental vulnerability in K-Guard's architecture: the inverted hook generates its strongest pulling force in a forward-to-lateral plane, making it less effective against backward extraction. By posting on the free leg and withdrawing the trapped leg in a circular arc behind the bottom player's hooks, the top player bypasses the primary retention mechanism entirely. The movement requires precise timing, as the bottom player's hooks are momentarily disengaged during the extraction, creating both opportunity for the passer and vulnerability if the bottom player transitions to Single Leg X-Guard or other leg entanglements.\n\nStrategically, the backstep serves as a pressure-release valve within the K-Guard passing system. When the bottom player has established strong hook tension and active frames that prevent forward-pressure passes, the backstep changes the angle of engagement entirely. The technique chains naturally with knee slice and smash pass attempts, as the bottom player's defensive adjustments to prevent those passes can create the openings needed for a successful backstep extraction.",
   "conditions": [
     "Top player's leg is trapped in K-Guard inverted hook system with both hooks active",

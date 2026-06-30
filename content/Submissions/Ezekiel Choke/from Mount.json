@@ -18,7 +18,10 @@
   "target_area": "Carotid arteries and trachea",
   "starting_position": "Mount",
   "from_position": "Mount/Top",
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Ezekiel Choke from Mount is one of the highest-percentage gi submissions available from the dominant mount position. Named after Brazilian judoka Ezequiel Paraguassu, this technique uses the attacker's own gi sleeve as a fulcrum to create a devastating blood choke while maintaining full positional control. The mount provides ideal conditions for the Ezekiel: gravity assists the choking pressure, the attacker's weight pins the defender's hips, and the dominant position means that even a failed attempt typically results in maintaining mount rather than losing position entirely.\n\nThe technique works by threading four fingers into the opposite sleeve cuff to create an anchor point, then driving the blade of the free forearm across the opponent's throat. The sleeve grip and blade forearm form a scissors-like structure that compresses both carotid arteries simultaneously. Unlike many mount submissions that require postural changes or arm isolation, the Ezekiel can be initiated from a low, heavy mount position with minimal setup telegraphing, making it an excellent surprise attack that catches experienced defenders off-guard.\n\nFrom a strategic perspective, the Ezekiel Choke from Mount fills a critical role in the mount attack system. When opponents defend the cross collar choke by keeping elbows tight and chin tucked, the Ezekiel bypasses these defenses because it attacks through the sleeve rather than requiring collar access. This creates an additional layer in the mount submission dilemma, forcing defenders to address yet another threat vector while already managing armbar, americana, and collar choke attacks.",
   "safety_considerations": {
     "injury_risks": [
@@ -102,17 +105,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "Mount/Top",
-      "probability": 27,
+      "probability": {
+        "gi": 27,
+        "nogi": 27
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],

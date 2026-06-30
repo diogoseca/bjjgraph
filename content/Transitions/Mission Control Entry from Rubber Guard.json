@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Mission Control/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Rubber Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Within the 10th Planet rubber guard hierarchy, this entry is the structural lock that separates a player merely holding high guard from one operating a full submission platform. The transition occurs when the bottom player, having already established rubber guard with their leg threaded high across the opponent's back, secures their own shin or ankle with the same-side hand while maintaining aggressive posture control. The resulting Mission Control position creates severe shoulder isolation and opens systematic submission chains including triangles, omoplatas, and gogoplatas.\n\nThe mechanical challenge of this transition centers on the grip switch: the bottom player must release one point of control (typically the head grip or wrist control) to reach under their elevated leg and secure the shin, creating a momentary vulnerability window. During this grip transition, the opponent has their best opportunity to recover posture or extract the trapped arm. Successful execution requires precise timing, sufficient hip elevation to create space for the arm to thread under the leg, and the ability to maintain posture control with the remaining grip throughout the switch.\n\nStrategically, this transition represents the gateway to the entire 10th Planet offensive system. Once Mission Control is locked, the bottom player gains access to a comprehensive submission chain where each defensive reaction from the opponent opens a different attack. The position's shoulder isolation creates a cooking effect where the opponent fatigues under their own awkwardly distributed weight, while the bottom player can maintain control with relatively less energy expenditure. For practitioners who invest in the required hip flexibility, mastering this entry transforms rubber guard from a holding position into a systematic submission platform.",
   "conditions": [
     "Bottom player has established Rubber Guard with leg positioned high across opponent's back above the ribcage line",

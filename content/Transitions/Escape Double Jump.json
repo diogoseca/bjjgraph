@@ -15,26 +15,41 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Knee Shield Half Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "success"
     },
     {
       "to": "Flattened Half Guard/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Escape Double Jump is a critical recovery technique in Brazilian Jiu-Jitsu that addresses the tactical problem of safely retreating from a committed but unsuccessful double jump guard entry. When the explosive bilateral leg insertion fails to achieve deep half guard position—whether due to the opponent's sprawl defense, base widening, or upper body control establishment—the bottom player must systematically disengage and return to a stable half guard without conceding a pass.\n\nThe technique requires precise sequencing of leg extraction, frame establishment, and hook reconfiguration. Unlike abandoning other guard positions where you can simply disengage, the double jump commits both legs underneath the opponent's base, creating significant vulnerability during the retreat phase. The opponent's weight and forward pressure can easily convert a sloppy retreat into a flattened half guard or complete pass to side control. Understanding the mechanics of this escape transforms the double jump from an all-or-nothing gamble into a calculated attack with a reliable safety net.\n\nMastery of this escape is essential for any practitioner who incorporates double jump entries into their half guard game. Without a reliable retreat option, the inherent risk of the double jump entry becomes unjustifiable at higher levels of competition where opponents capitalize on failed entries. The escape creates the strategic foundation that makes aggressive double jump attempts viable by ensuring you can return to a playable position when the entry is defended.",
   "conditions": [
     "Double jump entry has been attempted but failed to achieve deep half guard position",

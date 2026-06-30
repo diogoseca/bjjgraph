@@ -18,7 +18,10 @@
   "target_area": "Shoulder joint, rotator cuff, and shoulder capsule",
   "starting_position": "Reverse Scarf Hold",
   "from_position": "Reverse Scarf Hold/Top",
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "overview": "The Kimura from Reverse Scarf Hold exploits the unique body orientation of ushiro kesa gatame to create a powerful shoulder lock with favorable grip mechanics. Unlike kimura attacks from standard side control, the reverse orientation positions your hands naturally aligned with the figure-four grip path, reducing the number of grip transitions needed to secure the submission. The heavy chest pressure inherent to reverse scarf hold pins the opponent flat, preventing the hip escape and frame creation that typically disrupt kimura attempts from other positions.\n\nThe mechanical advantage stems from combining crushing top pressure with arm isolation. The opponent's near arm is already compromised by the positional control, and the attacker can maintain full body weight on the pin while both hands work to establish and finish the kimura. Common defenses like grabbing the belt, straightening the arm toward the head, or rolling away are less effective because the reverse pressure angle changes the escape geometry compared to conventional attacks.\n\nThis submission integrates into a broader attack system from reverse scarf hold that includes the americana, arm triangle, and positional transitions to mount or north-south. The kimura threat forces defensive arm reactions that expose pathways to these alternative attacks, making the reverse scarf hold significantly more dangerous when the opponent cannot neutralize the shoulder lock threat.",
   "safety_considerations": {
     "injury_risks": [
@@ -123,17 +126,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 62,
+      "probability": {
+        "gi": 62,
+        "nogi": 62
+      },
       "result": "success"
     },
     {
       "to": "Reverse Scarf Hold/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 13,
+      "probability": {
+        "gi": 13,
+        "nogi": 13
+      },
       "result": "counter"
     }
   ],

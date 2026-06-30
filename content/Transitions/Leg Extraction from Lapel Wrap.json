@@ -17,26 +17,41 @@
   "outcomes": [
     {
       "to": "Combat Base/Top",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "success"
     },
     {
       "to": "Ringworm Guard/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The danger of Ringworm Guard is mechanical, not muscular: by threading your own gi lapel around your leg, the bottom player tethers your lower body to their control system, so every ounce of forward pressure or explosive movement you generate is converted into sweeping momentum against you. Recognizing this is the prerequisite for escaping — you cannot pass your way out, you must extract first.\n\nThe extraction works by understanding how the wrap functions. The lapel creates friction and leverage that pins your leg and disrupts your base. Rather than fighting directly against those forces, you create slack in the system, control the opponent's grip-fighting hand, and systematically peel the material away from the point of least friction while keeping your shoulders square against back-take threats.\n\nStrategically, this extraction must be completed before any passing sequence. Loose lapel material left near your legs is re-threaded within seconds, and aggressive passing against a live wrap simply feeds the sweep. Master this extraction to neutralize modern lapel guard systems — Ringworm, Worm, and Squid — and restore your ability to implement your preferred passing game from combat base or headquarters.",
   "conditions": [
     "Opponent has threaded their gi lapel around your leg and secured the grip with tension",

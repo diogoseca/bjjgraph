@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "New York/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Rubber Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The New York Entry from Rubber Guard represents one of the most critical transitions in the 10th Planet Rubber Guard system, advancing the bottom practitioner from the foundational Mission Control position into the more offensively loaded New York configuration. This entry involves threading a deep overhook around the opponent's trapped arm while maintaining the shin-across-back control that defines Rubber Guard. The addition of the overhook creates a second major control point that dramatically increases offensive options and further compromises the top player's ability to recover posture, extract their arm, or establish any meaningful base for escape.\n\nStrategically, mastering the New York entry unlocks the entire upper chain of the Rubber Guard system. From New York, the practitioner can advance to Invisible Collar for choke setups, rotate to Carni for omoplata attacks, thread into Chill Dog for gogoplata entries, or progress to Zombie for deeper control. Without a reliable New York entry, practitioners remain limited to the more basic attacks available from Mission Control, making this transition the linchpin of the entire system's offensive progression.\n\nThe entry demands precise timing and coordination between the overhook threading motion and the maintenance of shin control. There is an inherent vulnerability during the transition when one hand must release the shin to swim the overhook, creating a brief window where the opponent can potentially escape. Managing this window through proper hip engagement, posture breaking, and timing is what separates reliable entries from failed attempts that result in complete guard loss.",
   "conditions": [
     "Rubber Guard or Mission Control must be established with secure shin-across-back control gripping near the ankle",

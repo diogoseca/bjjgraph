@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "50-50 Guard/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Inverted Guard/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The 50-50 Entry represents one of the most important transitions in modern leg lock systems, allowing practitioners to secure the symmetrical 50-50 Guard from various inverted positions. This technique involves threading your legs around your opponent's leg while inverting or rolling, creating the interlocking leg configuration that defines the 50-50 position. The entry is particularly effective against standing opponents who attempt to disengage from your guard, as your rolling and inverting motion follows their movement while simultaneously establishing leg control.\n\nStrategically, the 50-50 Entry serves as both an offensive pathway to heel hook attacks and a defensive mechanism to neutralize aggressive guard passes. When an opponent steps into your guard or attempts to back away, the 50-50 Entry capitalizes on their weight distribution to secure the entanglement. The technique requires precise timing and hip mobility, as the leg threading must occur during the opponent's transition between positions rather than when they are fully settled.\n\nFrom a systematic perspective, the 50-50 Entry functions as a gateway to the entire leg entanglement system. Once established, you gain access to heel hooks, toe holds, and various sweeping mechanics. The position also creates what practitioners call a \"neutral leg lock position\" where both players have equivalent attacking opportunities, making it crucial to understand both offensive and defensive applications from the moment of entry.",
   "related_content": [
     {

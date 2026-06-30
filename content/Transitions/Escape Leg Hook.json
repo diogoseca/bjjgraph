@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Leg Hook/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "The Escape Leg Hook is a methodical guard recovery technique employed when the bottom player is caught in the Leg Hook position, where the top player has threaded their leg underneath or around the bottom player's defending leg during a half guard passing sequence. Unlike the Counter Leg Hook which uses explosive movement to reach turtle, this escape focuses on systematic frame establishment, incremental hip escape, and controlled leg extraction to recover a standard Half Guard position with proper defensive structure intact.\n\nThis escape addresses a specific deterioration in the half guard system: the top player has advanced beyond initial half guard engagement and established a controlling hook that restricts the bottom player's hip mobility, limits sweep options, and creates a clear pathway to pass completion. Without addressing the hook directly, the bottom player's position will continue to deteriorate as the top player consolidates control and advances toward side control. The Escape Leg Hook intervenes at this critical decision point, providing a reliable pathway back to a position with full offensive and defensive capabilities.\n\nThe technique requires patience and precise timing rather than explosive athleticism. The bottom player must first establish defensive frames to prevent further advancement, then systematically create the space needed for hip escape, and finally extract the hooked leg while immediately establishing knee shield or standard half guard structure. Rushing any phase of the escape exposes the bottom player to pass advancement, making this a technique that rewards disciplined execution over raw power.",
   "conditions": [
     "Top player has established leg hook control around your defending leg",

@@ -16,26 +16,41 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Williams Guard/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     },
     {
       "to": "Omoplata Control/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "The guard pass from Williams Guard is a specialized passing sequence that addresses one of modern grappling's most mechanically challenging guard retention systems. Unlike standard guard passes where the top player can immediately address leg frames and hip movement, this pass requires a preliminary phase of arm extraction and shoulder lock neutralization before any traditional passing mechanics become viable. The trapped arm creates a unique constraint that fundamentally alters the passing hierarchy—submission defense must precede positional advancement, and rushing the sequence virtually guarantees either submission or sweep.\n\nThe pass operates on a two-phase model: first, neutralize the shoulder lock threat through systematic arm extraction using circular disengagement mechanics rather than linear pulling, and second, immediately transition into a pressure pass or stack pass before the bottom player can re-establish guard grips. The timing between these phases is critical—any hesitation after arm extraction allows the bottom player to recover Williams Guard or transition to another guard system. Successful execution requires understanding the biomechanical relationship between shoulder joint alignment, grip breaking angles, and weight distribution during the extraction-to-pass transition.\n\nStrategically, this pass rewards patience and technical precision over athleticism. The top player must resist the instinct to fight the shoulder lock with force, instead using angle changes and circling movements to gradually disengage the figure-four grip mechanics. Once the arm is free, the passer exploits the momentary positional vacuum where the bottom player has lost their primary control mechanism but has not yet established secondary guard retention, making this transition window the highest-percentage moment for completing the pass to side control.",
   "conditions": [
     "Your arm is trapped in Williams Guard shoulder lock configuration with opponent's figure-four grip established",

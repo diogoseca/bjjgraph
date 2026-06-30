@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Kuzure Kesa-Gatame/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "summary": "The Frame Escape from Kuzure Kesa-Gatame is an energy-efficient bottom escape that uses forearm frames against the top player's hip and chained hip escapes to manufacture space, insert a knee shield, and recover half guard from modified scarf hold.",
   "overview": "Within the defensive toolkit available from modified scarf hold bottom, the frame escape is the steady-state option practitioners turn to when explosive reversals are unavailable or too risky against a heavy, well-based opponent. Unlike bridge-based escapes that rely on power and precise limb trapping, this escape employs a methodical approach where the bottom practitioner uses forearm and elbow structures against the top person's hip and shoulder to incrementally create the space necessary for knee insertion and guard recovery.\n\nThe technique's strategic value lies in its energy efficiency and reliability. While bridge-and-roll escapes require precise limb trapping and explosive power, the frame escape works through persistent mechanical advantage, making it effective even when fatigued or outweighed. The free arm establishes a structural barrier that prevents the top person from re-closing distance after each hip escape increment, allowing the bottom practitioner to chain small movements into meaningful positional change.\n\nFrom a systems perspective, the frame escape integrates with the broader defensive toolkit available from Kuzure Kesa-Gatame bottom. It serves as the primary steady-state escape when explosive options are unavailable, and its mechanics naturally set up transitions to half guard where the bottom practitioner can immediately begin offensive sequences. The escape also creates submission defense windows by redirecting the top person's attention from arm attacks to position maintenance.",
   "conditions": [

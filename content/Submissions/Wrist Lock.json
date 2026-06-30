@@ -22,7 +22,10 @@
   "target_area": "Wrist and carpal joint",
   "starting_position": "Closed Guard",
   "from_position": "Closed Guard/Bottom",
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "The Wrist Lock, known in Portuguese as mão de vaca ('cow's hand') and in judo as a tekubi joint lock, is one of the most accessible and universally legal joint locks in Brazilian Jiu-Jitsu, available to every belt from white up under IBJJF rules. The standard flexion version forces the opponent's hand toward the inside of their own forearm — bending the palm down toward the wrist crease — until the small carpal joint reaches its end range and the opponent taps. From closed guard with you on the bottom, the lock is most often hunted against a posturing opponent who plants a hand on your chest, hip, or the mat to control your guard; that planted, straight-armed hand is exactly the lever the wrist lock attacks. By pinning the opponent's palm flat against your sternum or a controlled surface and then curling their fingers and palm toward their forearm, you load the wrist with very little movement and almost no telegraphing. The wrist lock is prized precisely because it punishes good posture and strong grips: the harder an opponent posts and pushes, the straighter their wrist becomes and the shorter the path to the finish. It chains naturally with collar grips, the Kimura and Americana families, and overhook control, and it serves both as a primary finish and as a way to break grips and open a stubborn defender's hands.",
   "safety_considerations": {
     "injury_risks": [
@@ -66,17 +69,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 42,
+      "probability": {
+        "gi": 42,
+        "nogi": 42
+      },
       "result": "success"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 18,
+      "probability": {
+        "gi": 18,
+        "nogi": 18
+      },
       "result": "counter"
     }
   ],

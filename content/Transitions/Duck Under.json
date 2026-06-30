@@ -15,26 +15,41 @@
   "outcomes": [
     {
       "to": "Standing Rear Clinch/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Back Control/Top",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "success"
     },
     {
       "to": "Clinch/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Front Headlock/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Duck Under is a fundamental wrestling technique adapted for Brazilian Jiu-Jitsu that allows practitioners to transition from a neutral clinch position to dominant back control by ducking underneath the opponent's arm. This technique exploits the opponent's reaction to collar tie or head control pressure by using their defensive arm position as a gateway to their back. The movement requires precise timing, proper level change mechanics, and the ability to read when opponents create openings through their defensive reactions.\n\nStrategically, the Duck Under serves as a high-percentage back take option that avoids the risks associated with shot-based takedowns. Unlike double or single leg attempts where failed execution often results in sprawl-based counters, the Duck Under's failure modes typically return practitioners to neutral clinch position rather than inferior positions. This risk-reward profile makes it particularly valuable in competition scenarios where point differential matters and in self-defense contexts where maintaining standing control is preferred.\n\nThe technique integrates seamlessly with other clinch attacks, creating a systematic approach to standing exchanges. Practitioners who threaten the Duck Under force opponents into defensive postures that open opportunities for snap downs, arm drags, and shot takedowns. Conversely, defending against these other attacks often creates the exact arm positioning that makes Duck Unders available. This interconnected relationship between clinch techniques makes the Duck Under essential knowledge for any complete standing game.",
   "conditions": [
     "Clinch position established with active grip fighting at close range",

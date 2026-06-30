@@ -17,7 +17,10 @@
   "target_area": "Ankle, knee ligaments, and surrounding connective tissue",
   "starting_position": "Ushiro Ashi-Garami",
   "from_position": "Ushiro Ashi-Garami/Top",
-  "success_rate": 52,
+  "success_rate": {
+    "gi": 52,
+    "nogi": 52
+  },
   "overview": "The inside heel hook from ushiro ashi-garami exploits the reversed leg entanglement created when an opponent inverts to escape standard ashi-garami positions. This variant requires specific grip adjustments and finishing mechanics that differ substantially from standard inside heel hook applications due to the opponent's inverted hip orientation and the altered geometry of the entanglement. The reversed figure-four configuration changes optimal hand placement on the heel, the direction of rotational force, and the hip positioning needed to generate breaking pressure on the medial knee ligaments.\n\nThe ushiro configuration provides a unique attacking angle where the opponent's heel becomes accessible from a different direction than standard entanglements. The attacker must cup the heel from the reversed angle, reposition their hips to generate proper rotational force toward the opponent's buttock line, and account for the opponent's ability to continue rotating as a defensive measure. Timing is critical because the opponent's inversion often creates a brief window of heel exposure during their transition, and missing this window allows the escape to complete.\n\nStrategically, this submission serves as a high-percentage finishing option that punishes incomplete escape attempts from leg entanglements. Practitioners who develop proficiency with this technique transform defensive inversions from safe escape routes into submission threats, creating a powerful deterrent that fundamentally changes how opponents approach ashi-garami escape sequences at all competition levels. The ability to finish from ushiro closes a critical gap in leg lock systems where opponents could previously invert with relative safety.",
   "safety_considerations": {
     "injury_risks": [
@@ -106,17 +109,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 52,
+      "probability": {
+        "gi": 52,
+        "nogi": 52
+      },
       "result": "success"
     },
     {
       "to": "Ushiro Ashi-Garami/Top",
-      "probability": 31,
+      "probability": {
+        "gi": 31,
+        "nogi": 31
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 17,
+      "probability": {
+        "gi": 17,
+        "nogi": 17
+      },
       "result": "counter"
     }
   ],

@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Deep Half Guard/Bottom",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Deep Half Entry is a fundamental transition from traditional half guard to the deep half guard position, representing a critical defensive recovery and offensive repositioning technique. This entry allows the bottom player to create powerful sweeping opportunities while simultaneously removing themselves from immediate passing danger. Deep half guard has become increasingly prevalent in modern competition BJJ, particularly at the highest levels, as it provides a systematic framework for dealing with pressure-based passing attempts.\n\nThe position works by getting underneath your opponent's center of gravity, using their weight against them to create mechanical advantage for sweeps and back takes. The entry itself requires precise timing, proper hip mobility, and an understanding of how to manage space and frames during the transition. The critical mechanical detail is the deep underhook on the opponent's near leg combined with head positioning below their hip line, which creates the fulcrum necessary for all subsequent sweep mechanics.\n\nWhen executed correctly, the deep half entry transforms a potentially defensive situation into an offensive opportunity, allowing the practitioner to attack with various sweep options including the waiter sweep, Homer Simpson sweep, and electric chair variations. The entry is particularly effective against pressure-based top players who commit their weight forward, as their own momentum and weight distribution become the primary tools used against them.",
   "related_content": [
     {

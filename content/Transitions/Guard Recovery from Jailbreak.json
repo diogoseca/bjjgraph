@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Open Guard/Bottom",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Jailbreak/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "This recovery transition handles the failure branch of the Jailbreak escape system from bottom half guard. When the Jailbreak roll or inversion does not achieve turtle or back take, the bottom player must recover to a functional guard position rather than remaining in the compromised Jailbreak state. This recovery involves using frames and hip escapes to reinsert legs between the players, establishing distance through knee shields or feet-on-hips positioning, and preventing the top player from consolidating side control during the transition.\n\nThe biomechanical challenge of this recovery lies in the non-standard body alignment that results from a failed inversion. Unlike standard guard recovery from side control where the defender starts flat on their back with a predictable orientation, the post-Jailbreak position may leave the bottom player twisted, partially inverted, or angled away from the opponent. This requires an additional orientation step before the standard frame-escape-recompose sequence can begin. The recovery window is narrow: the bottom player typically has three to five seconds before the top player capitalizes on the disorganized body position to establish dominant control. Practitioners who develop automatic post-inversion orientation and framing responses dramatically increase their guard recovery success rate, transforming what would otherwise be a catastrophic positional failure into a manageable defensive transition.",
   "conditions": [
     "Jailbreak roll or inversion has stalled or been defended without achieving turtle or back take",

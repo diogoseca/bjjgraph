@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 42,
+      "probability": {
+        "gi": 42,
+        "nogi": 42
+      },
       "result": "success"
     },
     {
       "to": "Quarter Guard/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 23,
+      "probability": {
+        "gi": 23,
+        "nogi": 23
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 42,
+  "success_rate": {
+    "gi": 42,
+    "nogi": 42
+  },
   "overview": "The Sweep from Quarter Guard is a critical reversal technique executed from the compromised quarter guard bottom position, where the bottom player retains minimal leg engagement but has secured an underhook against the top player's body. This sweep exploits the mechanical vulnerability created when the top player commits weight forward during pass completion, using the underhook as the primary lever to redirect the top player's momentum and achieve a full reversal to side control top.\n\nThe technique operates on a fundamental biomechanical principle: when the top player advances past the hip line to consolidate the pass, their base narrows and their center of gravity shifts forward. The bottom player capitalizes on this by combining underhook leverage with explosive hip movement to elevate and redirect the top player's weight. The timing window is narrow—the sweep must be initiated during the transition between quarter guard advancement and side control consolidation, making recognition and reaction speed essential components of successful execution.\n\nQuarter guard sweeps occupy a unique strategic position in the half guard system. While higher-percentage sweeps exist from more established half guard positions, the quarter guard sweep serves as a last-resort offensive option before complete guard loss. This creates a powerful dilemma for the passer: committing aggressively to finish the pass creates sweep vulnerability, while proceeding cautiously allows the bottom player time to recover guard. Understanding this dynamic transforms quarter guard from a purely defensive situation into an offensive opportunity that punishes overly aggressive passing.",
   "conditions": [
     "Underhook established on near side with forearm contacting opponent's lat or armpit",

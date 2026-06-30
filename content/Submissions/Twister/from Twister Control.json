@@ -19,7 +19,10 @@
   "target_area": "Cervical and thoracic spine, shoulder girdle",
   "starting_position": "Twister Control",
   "from_position": "Twister Control/Top",
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "The Twister from Twister Control is a devastating spinal lock submission that represents one of the most dangerous finishes in modern no-gi Brazilian Jiu-Jitsu. Developed and popularized through the 10th Planet system, this technique attacks the cervical and thoracic spine by combining rotational torque generated through leg entanglement with posterior neck pressure applied through a chin strap grip, creating a submission that simultaneously attacks multiple anatomical structures along the spinal column.\n\nExecuting the Twister from established Twister Control provides significant mechanical advantages compared to attempts from less developed positions. The leg triangle or lockdown on the opponent's far leg creates the rotational foundation, while the near-side arm threads under the opponent's chin to establish the cranking mechanism. The legs create rotation from below while the head control converts that rotation into a finishing mechanism from above, compressing the spine between these two opposing forces.\n\nStrategically, the Twister requires patience and precise sequencing rather than explosive force. Rushing the head control before establishing deep leg entanglement consistently results in lost position rather than submission. At competition level, the Twister threat forces opponents into early defensive decisions that open alternative attack pathways including calf slicers, banana splits, and transitions to traditional back control. Understanding the Twister as one option within a broader offensive system from Twister Control separates effective practitioners from those who simply hunt for a single submission.",
   "safety_considerations": {
     "injury_risks": [
@@ -108,17 +111,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Twister Control/Top",
-      "probability": 39,
+      "probability": {
+        "gi": 39,
+        "nogi": 39
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 21,
+      "probability": {
+        "gi": 21,
+        "nogi": 21
+      },
       "result": "counter"
     }
   ],

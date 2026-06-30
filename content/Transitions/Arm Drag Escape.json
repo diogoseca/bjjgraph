@@ -16,26 +16,41 @@
   "outcomes": [
     {
       "to": "Open Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Turtle/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "success"
     },
     {
       "to": "Front Headlock/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "Among the family of front headlock escapes, the arm drag occupies a unique niche: where most defenses rely on explosive movement or rolling mechanics, this technique uses precise grip work and angular movement to systematically dismantle the opponent's control structure. By attacking the very limb that sustains the headlock, it converts a defensive emergency into a controlled, mechanical sequence that recovers open guard.\n\nThe technique exploits a fundamental vulnerability in front headlock control: the opponent's choking arm must stay wrapped around your head to maintain the position, but this creates an accessible limb that can be dragged across your centerline. By securing a two-on-one grip on the choking arm and pulling it across your body while simultaneously circling your head free, you convert a dangerous defensive position into an opportunity to recover guard or even create offensive scramble opportunities.\n\nStrategically, the arm drag escape is most effective when your opponent commits their weight forward into head control rather than sprawling back. This forward commitment gives you the leverage needed to redirect their arm. The technique pairs naturally with other front headlock escapes—if you threaten the arm drag, your opponent must adjust their arm position, which can open pathways for technical standup or granby roll escapes. This makes it an essential component of a complete front headlock defense system.",
   "related_content": [
     {

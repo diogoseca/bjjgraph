@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Top",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Mission Control/Top",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "The Stack Pass from Mission Control is a pressure-based guard passing technique used by the top player trapped in the rubber guard's Mission Control position. Rather than attempting to recover posture or extract the trapped arm—the standard defensive responses—the stack pass leverages aggressive forward driving pressure to collapse the bottom player's high guard structure entirely, folding their hips over their shoulders and dismantling the control framework that makes Mission Control effective.\n\nThe fundamental mechanic involves the top player committing their weight forward and upward, compressing the bottom player's spine and eliminating their ability to maintain hip elevation. This directly attacks Mission Control's primary control mechanism. By folding the bottom player's body and neutralizing the structural leverage their high guard provides, the stack pass converts a defensive escape into an offensive passing opportunity. The technique exploits a key vulnerability in rubber guard positions: the bottom player's flexibility becomes a liability when compressed rather than extended, and the shoulder isolation that creates submission threats loses its mechanical advantage when the entire guard structure collapses under stacking pressure.\n\nStrategically, the stack pass occupies a critical niche in the Mission Control escape hierarchy as the decisive, position-advancing option when posture recovery and arm extraction are unavailable or too slow. The technique is particularly valuable when the bottom player is actively threatening submissions, as the forward driving pressure simultaneously neutralizes triangle and omoplata angles while progressing toward a pass. The risk-reward calculation favors the stack pass when remaining in Mission Control means facing escalating submission danger where time works against the top player. However, overcommitting to the stack without controlling the opponent's hips can expose the passer to omoplata entries and sweeps that exploit the forward weight distribution.",
   "variants_and_adaptations": [
     {

@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Body Triangle/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Gift Wrap/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Body Triangle Lock is a transitional technique executed from Gift Wrap position that establishes one of the most dominant leg control configurations in Brazilian Jiu-Jitsu. By threading one leg across the opponent's midsection and locking it with the opposite ankle, the attacker creates a crushing control mechanism that immobilizes the opponent's hips while maintaining the arm trap advantage of the Gift Wrap.\n\nThis transition represents a significant upgrade in control hierarchy. While the Gift Wrap already removes defensive arm capability, adding the body triangle eliminates hip escape potential and creates constant compression pressure on the opponent's torso. The combined control of trapped arm plus body triangle legs creates a nearly inescapable configuration that allows methodical submission hunting.\n\nFrom a strategic perspective, the Body Triangle Lock transition is particularly valuable because it converts a moderately sustainable position (Gift Wrap with hooks) into a highly sustainable dominant position. The body triangle requires minimal energy to maintain once established, allowing the top player to wait patiently for submission opportunities while their opponent exhausts themselves attempting to escape. This position exemplifies the principle of using positional dominance to create submission openings rather than forcing techniques against active defense.",
   "related_content": [
     {

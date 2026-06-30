@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Z-Lock Half Guard/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Lockdown Break from Z-Lock Half Guard is a critical positional maintenance technique for the top player who finds their leg trapped in the bottom player's Z-Lock configuration. The Z-Lock combines traditional lockdown mechanics with a butterfly hook element, creating a dual-threat entanglement that restricts the top player's mobility and exposes them to sweeps from multiple angles. Breaking this configuration is often the first tactical priority before attempting any guard pass, as the Z-Lock's enhanced control makes standard passing sequences ineffective or dangerous.\n\nThe break requires a systematic approach that addresses both the lockdown hook anchoring the ankle and the butterfly hook creating elevation threats. Simply pulling the leg free without proper upper body control and weight distribution invites the bottom player to capitalize on the movement with old school sweeps, electric chair attacks, or transitions to deep half guard. The most reliable breaking sequence combines heavy shoulder pressure to limit the bottom player's hip mobility with progressive leg straightening and hook stripping that systematically dismantles the entanglement.\n\nUnderstanding when to break the Z-Lock versus when to attempt passes around it represents a key strategic decision. Against opponents with strong lockdown games, early intervention through the break prevents them from establishing the offensive rhythm that makes the Z-Lock system dangerous. The break is most effective when executed immediately after the Z-Lock is established, before the bottom player settles into preferred attacking sequences and establishes the upper body grips that complement their leg control.",
   "conditions": [
     "Opponent has established Z-Lock configuration with both lockdown hook on your ankle and butterfly hook element under your thigh",

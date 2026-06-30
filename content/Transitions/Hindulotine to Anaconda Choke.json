@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Anaconda Control/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Hindulotine/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Hindulotine to Anaconda Choke transition exploits a common defensive reaction where opponents create space with their near-side arm to relieve guillotine pressure. Rather than fighting to maintain the original choke, this technique flows into an anaconda configuration that uses the defender's own frame against them. The transition represents a fundamental principle in submission grappling: when one attack is defended, the defensive movement itself creates vulnerability to a different attack.\n\nThis transition is particularly effective from the bottom Hindulotine position because the rotational hip angle already creates favorable mechanics for threading the choking arm deeper across the opponent's neck. When the opponent posts their near-side hand or elbow to create space, a window opens to slide your choking arm under their armpit and lock the anaconda grip. The key timing window is narrow - you must recognize the defensive frame and begin the transition before the opponent can retract their arm.\n\nStrategically, threatening this transition forces opponents into a dilemma: maintain tight defensive posture and remain vulnerable to the guillotine, or create space to relieve pressure and expose themselves to the anaconda. Advanced practitioners use this dynamic to control the pace of engagement, keeping opponents reactive rather than allowing them to establish settled defensive positions.",
   "related_content": [
     {

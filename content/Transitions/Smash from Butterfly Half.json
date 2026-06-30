@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Butterfly Half Guard/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "summary": "Smash from Butterfly Half is a pressure-based guard pass in which the top player pins and kills the opponent's butterfly hook with heavy hip and chest weight, then extracts the trapped leg to advance into side control.",
   "overview": "The Smash from Butterfly Half is a direct pressure-based passing technique executed from butterfly half guard top, designed to systematically neutralize the bottom player's butterfly hook through crushing weight distribution and controlled hip positioning before completing the pass to side control. Unlike speed-based or backstep passing approaches that attempt to circumvent the butterfly hook, this technique attacks the hook's mechanical foundation directly by eliminating the space underneath the top player's body that allows the hook to generate elevation and sweeping force. The smash approach converts a complex guard problem into a manageable half guard extraction sequence by first removing the butterfly hook threat entirely.\n\nThe strategic importance of this pass lies in its reliability against modern hybrid guard systems where butterfly half guard serves as a high-percentage offensive platform. Aggressive bottom players use the butterfly hook to create constant off-balancing threats and sweep entries. By committing to the smash, the top player removes this primary offensive weapon and forces the exchange into a standard half guard passing scenario where pressure fundamentals and methodical leg extraction become the determining factors. The technique punishes bottom players who rely on maintaining the hook through positioning rather than actively sweeping, making it particularly effective against practitioners who use butterfly half as a holding pattern.\n\nExecution requires precise sequencing: establish dominant upper body control first, then drive weight onto the butterfly hook to pin it, and finally extract the trapped half guard leg to complete the pass. Rushing any phase exposes the top player to sweeps and guard recoveries. The smash is most effective when combined with other passing approaches in a chain, as failed smash attempts can transition directly into knee slice, backstep, or body lock passing sequences, maintaining offensive initiative throughout the exchange.",
   "conditions": [

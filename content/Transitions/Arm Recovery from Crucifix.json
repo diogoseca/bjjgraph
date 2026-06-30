@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Closed Guard/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Crucifix/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Mounted Crucifix/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "summary": "Arm Recovery from Crucifix is a bottom-player escape that frees the leg-trapped arm through hip-escape angle changes rather than direct pulling, then chains frames into hip movement to recover closed guard.",
   "overview": "Arm Recovery from Crucifix is a critical defensive transition where the bottom player systematically works to free their trapped arm from the opponent's leg configuration and recover to closed guard. The crucifix represents one of the most dangerous control positions in Brazilian Jiu-Jitsu, with both arms isolated and the neck fully exposed to chokes. This technique addresses the fundamental problem of arm extraction through hip mechanics and angular displacement rather than direct force against the leg trap.\n\nThe key mechanical insight is that the leg triangle creates a directional lock—the arm cannot be pulled straight out against the squeeze, but hip escaping changes the geometric relationship between the arm and the trap, opening an extraction path that the arm can slide through with proper rotation. The bottom player must simultaneously protect the neck with their free arm, create angular displacement through systematic hip escape, and time the extraction to coincide with the opponent's weight shifts or attack transitions. This multi-layered coordination requirement makes arm recovery from crucifix one of the most technically demanding escapes in the defensive repertoire.\n\nSuccess requires calm, methodical execution under extreme positional pressure. The crucifix's inherent danger—particularly immediate choke threats—creates psychological urgency that often drives practitioners toward explosive but ineffective escape attempts. The systematic approach of securing neck defense first, then working progressive angle changes for arm extraction, and finally recovering guard position distinguishes successful escapes from energy-wasting struggles that only tighten the opponent's control.",
   "conditions": [

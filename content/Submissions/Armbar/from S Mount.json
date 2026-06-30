@@ -22,7 +22,10 @@
     "Mount",
     "High Mount"
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Among mount-based attacks, the armbar from S Mount converts positional dominance into a finish with remarkable efficiency, leveraging the perpendicular body angle and arm isolation inherent to the S Mount position. From this dominant configuration, the top practitioner has already completed the most difficult phase of the armbar—isolating the arm and establishing leg control over the opponent's head and torso. The submission becomes a matter of technical finishing rather than positional setup, which accounts for its exceptional success rate at all competitive levels.\n\nThe mechanical advantage of attacking the armbar from S Mount is significant. The top practitioner's hips are positioned directly against the opponent's shoulder, creating a fulcrum point that generates tremendous leverage with minimal effort. The perpendicular body angle allows force to be applied through the hips rather than the arms, making the finish efficient and sustainable. This position exemplifies the principle of using skeletal mechanics over muscular strength to achieve submission.\n\nDefensively, the armbar from S Mount presents an extremely challenging scenario. The bottom practitioner must protect the isolated arm while dealing with the top player's dominant positional control and compressive body weight. Survival depends on keeping the arm bent, controlling the attacker's near leg to prevent full extension, and timing escape attempts during the attacker's grip transitions. Understanding both the attacking and defensive perspectives is essential for serious practitioners competing at the intermediate level and above.",
   "safety_considerations": {
     "injury_risks": [
@@ -65,22 +68,34 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "S Mount/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],

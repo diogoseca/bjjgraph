@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Inside Ashi-Garami/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Outside Ashi-Garami/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Outside Ashi to Inside Ashi transition represents one of the most important counter-entanglement techniques in modern leg lock warfare. When trapped in Outside Ashi-Garami from the top position—where an opponent has isolated your leg in their outside ashi configuration—this technique allows you to reverse the dynamic by establishing your own Inside Ashi-Garami on their exposed leg. Rather than simply escaping the entanglement, you transform a defensive position into an offensive one, immediately threatening your own leg attacks.\n\nThis counter-entanglement exploits the inherent vulnerability of all leg lock positions: when an opponent commits their legs to controlling your limb, their own legs become accessible for counter-attacks. The technique requires precise timing, typically initiated when the opponent's leg triangle loosens during a submission attempt or positional adjustment. By threading your free leg across their hip while using your trapped leg's position to create leverage, you establish inside ashi control on their leg before they can react.\n\nThe transition occupies a critical role in the modern leg lock meta-game, where the ability to counter-entangle separates intermediate practitioners from advanced ones. Counter-entanglement mastery transforms leg lock defense from a purely reactive escape game into a dynamic offensive system where being attacked becomes an opportunity to attack. This technique is particularly effective in competition because opponents focused on finishing their own submission often fail to recognize the counter-entanglement until control has already been established.",
   "conditions": [
     "Your leg is trapped in opponent's Outside Ashi-Garami configuration with their figure-4 around your leg",

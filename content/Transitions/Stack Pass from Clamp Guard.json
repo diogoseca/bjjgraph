@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Clamp Guard/Top",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Triangle Control/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "The Stack Pass from Clamp Guard is a pressure-based passing technique employed when the top player's arm is trapped in the bottom player's clamp guard configuration. Rather than fighting to extract the trapped arm — which plays directly into the guard player's submission chain of armbars, triangles, and omoplatas — the passer drives forward explosively, folding the bottom player's hips over their shoulders and compressing their spine. This stacking action neutralizes the hip mobility that powers the clamp guard's entire offensive system, progressively weakening the shin-on-bicep control as the bottom player's legs are compressed toward their own face and their ability to angle disappears.\n\nThe technique represents a calculated risk-reward decision within the guard passing hierarchy. The forward drive necessary for stacking brings the passer's head and shoulders deeper into the guard player's leg territory, creating a window for triangle entry if the timing or mechanics are imprecise. However, when executed with proper hip positioning and deliberate head placement on the far side, the stack pass converts the clamp guard's structural advantage into a liability — the same leg positioning that traps the arm becomes compressed and immobilized under the passer's bodyweight. The compression eliminates the guard player's ability to angle their hips, which is the prerequisite for virtually every attack from clamp guard including armbar extension, triangle shooting, and omoplata rotation.\n\nFrom a systematic perspective, the stack pass offers a direct path from one of the more threatening open guard positions to full side control without the incremental arm extraction approach that often results in extended guard battles and multiple submission threats. Advanced passers combine the initial stack with lateral movement, walking around the compressed guard player to clear legs and establish crossface control in side control. The key tactical insight is that the stack must be committed — half-measures allow the guard player to re-establish angles and launch the counter-attacks that make clamp guard dangerous in the first place.",
   "conditions": [
     "Opponent has established clamp guard with shin positioned across your bicep, trapping the arm between their legs",

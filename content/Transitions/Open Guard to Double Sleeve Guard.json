@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Double Sleeve Guard/Bottom",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 65,
+  "success_rate": {
+    "gi": 65,
+    "nogi": 65
+  },
   "overview": "The Transition to Double Sleeve Guard is a fundamental guard establishment technique where the bottom player converts a general open guard position into a specific attacking system by securing bilateral sleeve grips on both of the opponent's wrists or cuffs. This transition is the entry point for one of the most versatile gi-based guard systems, providing the bottom player with immediate control over the opponent's upper body, neutralizing their ability to establish passing grips, and creating a platform for sweeps, submissions, and further guard transitions.\n\nThe key to this transition lies in grip sequencing and timing. Unlike many guard entries that rely on a single decisive movement, establishing double sleeve control requires methodical grip acquisition while maintaining defensive integrity through active foot placement. The bottom player must secure the first sleeve grip without compromising their guard retention, then use that initial control to facilitate acquiring the second grip. The feet serve dual roles throughout: maintaining distance to prevent the opponent from smashing through during the grip-fighting phase, and creating off-balancing pressure once both grips are secured.\n\nStrategically, this transition is most effective against opponents who maintain an upright posture in open guard top, as their extended arms present accessible targets for sleeve gripping. Against pressure passers who keep their arms tight and elbows pinched, the grip acquisition becomes significantly more difficult, making alternative guard entries like butterfly or half guard more appropriate. Understanding when to pursue double sleeve versus other guard options is a hallmark of sophisticated guard play at the purple belt level and above.",
   "conditions": [
     "Opponent is in open guard top position with arms accessible for gripping",

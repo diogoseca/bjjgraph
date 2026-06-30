@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Open Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Leg Drag Control/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "summary": "Frame and Shrimp to Guard is a defensive escape from leg drag control where the bottom player frames against the passer's shoulder and hip, then explosively hip-escapes to extract the trapped leg and recover open guard.",
   "overview": "As the first-line response to leg drag control, Frame and Shrimp to Guard is the essential building block of guard recovery from compromised bottom positions and the foundation upon which more advanced escapes are built. It exploits the transitional nature of the leg drag—the passer has cleared your guard but has not yet consolidated side control or back control, leaving a narrow window to reframe and recover before their weight settles.\n\nThe technique operates on the principle that even when your leg is trapped across your body, proper framing against your opponent's controlling points combined with explosive hip movement can generate enough space to extract your leg and re-establish guard. The shrimp motion creates an angle that makes it impossible for the passer to maintain their hip control, while your frames prevent them from following your movement. Timing is critical—the escape works best when your opponent shifts weight or adjusts their grip.\n\nFrom a strategic perspective, Frame and Shrimp to Guard serves as your first line of defense when caught in leg drag control before the position is fully consolidated. It should be attempted early and explosively, as hesitation allows the passer to settle their weight and eliminate the space needed for the escape. When executed properly, this technique resets the passing exchange to neutral, forcing your opponent to restart their passing sequence while you re-establish your preferred guard configuration.",
   "conditions": [

@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Open Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Invisible Collar/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 48,
+  "success_rate": {
+    "gi": 48,
+    "nogi": 48
+  },
   "overview": "Because back control rests on the opponent's hooks anchoring your hips, no rotation or guard recovery is possible until those hooks are cleared—this escape attacks that foundation first. When trapped in the invisible collar position, the defender faces both positional disadvantage and immediate submission threat, so this escape addresses the hook control that anchors back position before dealing with upper body attacks.\n\nThe fundamental concept involves using your elbows as wedges against your opponent's hooks while creating space through hip escapes. Rather than fighting the choking grip directly, this technique attacks the foundation of their control—the hooks that prevent you from turning. By systematically removing hooks one at a time, you create rotational freedom that eventually allows guard recovery.\n\nThis escape is particularly effective against the invisible collar because it doesn't require you to remove your hands from neck defense to fight hooks. The elbow mechanics allow you to address both threats simultaneously—protecting your neck while dismantling their lower body control. Successful execution requires patience, proper sequencing, and the discipline to complete each phase fully before moving to the next. Rushing any step typically results in the opponent simply re-establishing the cleared hook.",
   "conditions": [
     "Opponent has back control with at least one hook inserted",

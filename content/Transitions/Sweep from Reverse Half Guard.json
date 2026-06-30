@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Reverse Half Guard/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "The Sweep from Reverse Half Guard exploits the inverted geometry of the reverse half position to generate momentum-based reversals that catch opponents off-guard. Unlike conventional half guard sweeps that rely on underhook battles and incremental weight displacement, this sweep channels the opponent's forward pressure through rotational mechanics, converting their drive into the energy that completes the reversal. The technique rewards practitioners who understand timing over strength, as the sweep window opens specifically when the top player commits weight forward.\n\nStrategically, this sweep addresses a critical problem: the reverse half guard bottom is an inherently transitional position where staying passive guarantees deterioration. The sweep transforms a precarious defensive scenario into a direct path to mount, bypassing intermediate positions entirely. This leap in positional hierarchy makes it a high-reward technique, though the 40% success rate reflects the precise timing and body coordination required. When the sweep fails, the bottom player typically retains their reverse half guard hook and can reset, but a well-timed counter by the top player can result in guard pass to side control.\n\nThe technique integrates naturally into a reverse half guard attack system that includes back takes and guard recovery options. Threatening the sweep forces the top player to moderate their forward pressure, which in turn opens windows for alternative attacks. This creates a fundamental dilemma: drive forward and risk being swept, or stay conservative and allow the bottom player time to transition to more favorable positions like deep half guard or dogfight.",
   "conditions": [
     "Opponent driving forward pressure into the reverse half guard position",

@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Front Headlock/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Worm Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "summary": "The collar drag from worm guard is a gi-specific transition where a deep collar grip pulls a posturing opponent forward and down while the lapel-trapped lead leg blocks their retreat, converting bottom guard into front headlock control.",
   "overview": "The collar drag from worm guard is an advanced gi-specific transition that exploits the unique mechanical advantages of worm guard to execute a wrestling-style collar drag, pulling the opponent forward and down into front headlock control. The worm guard's lapel wrap immobilizes the opponent's lead leg, preventing them from stepping back to resist the drag, which dramatically increases the success rate compared to collar drags from other guard positions. This makes the collar drag one of the most reliable methods for the worm guard player to transition from bottom position to a dominant top position without relying on traditional sweeping mechanics.\n\nStrategically, the collar drag from worm guard serves as a critical tool for players who want to avoid the extended guard battles that worm guard often produces. Rather than fighting for sweeps against a well-based opponent, the collar drag offers a direct path to front headlock, which opens an entirely different attack tree including guillotines, anacondas, darces, and back takes. The technique capitalizes on the opponent's tendency to posture up against worm guard tension, using their upward energy against them by redirecting it forward and down.\n\nThe collar drag also functions as an excellent chain attack within the worm guard system. When opponents successfully defend sweep attempts, they often shift their weight backward and establish a wider base. This defensive posture actually makes them more vulnerable to the collar drag, since their weight is already elevated and their forward resistance is reduced. Understanding when to switch from sweep attempts to the collar drag separates intermediate worm guard players from advanced practitioners who can threaten on multiple planes.",
   "conditions": [

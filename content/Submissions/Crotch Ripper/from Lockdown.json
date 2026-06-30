@@ -17,7 +17,10 @@
   "target_area": "Hip flexors, groin muscles, and inner thigh adductors",
   "starting_position": "Lockdown",
   "from_position": "Lockdown/Bottom",
-  "success_rate": 42,
+  "success_rate": {
+    "gi": 42,
+    "nogi": 42
+  },
   "overview": "Developed within Eddie Bravo's 10th Planet Jiu-Jitsu system, the Crotch Ripper grew out of the lockdown's leg-entanglement framework as a way to threaten finishes from a position most grapplers treat as purely defensive. This technique applies intense pressure to the opponent's groin, hip flexors, and inner thigh muscles through a combination of lockdown control and strategic knee positioning. Unlike traditional joint locks that target specific joints, the Crotch Ripper creates a painful compression that forces the opponent to tap due to muscular strain rather than joint damage. The submission is particularly effective in no-gi grappling where the lockdown can be secured without gi grips interfering with leg positioning.\n\nThe Crotch Ripper represents the offensive potential of the lockdown system, transforming a traditionally defensive half guard position into a legitimate finishing threat. When combined with the Electric Chair sweep, it creates a powerful dilemma where defending the compression opens the sweep and vice versa. This technique requires excellent flexibility, hip control, and precise timing to execute effectively, making it a hallmark of the 10th Planet methodology's emphasis on unconventional attacks from bottom positions. The submission's effectiveness depends entirely on the attacker's ability to maintain lockdown integrity while creating the correct body angle through underhook control.",
   "safety_considerations": {
     "injury_risks": [
@@ -68,17 +71,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Lockdown/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],

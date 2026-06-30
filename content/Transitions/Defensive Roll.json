@@ -14,26 +14,41 @@
   "outcomes": [
     {
       "to": "Turtle/Bottom",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "success"
     },
     {
       "to": "Twister Control/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Defensive Roll is a critical escape technique when caught in Twister Control, one of the most dangerous positions in no-gi grappling. This technique leverages the momentum of your opponent's rotational control against them, using a calculated rolling motion to reduce spinal torque and escape to a recoverable position. The key insight is that while Twister Control creates tremendous rotational pressure, this same rotation can be redirected through proper timing and body mechanics to facilitate escape.\n\nFrom a biomechanical perspective, the Defensive Roll works by accepting and then redirecting the rotational energy rather than fighting it directly. When an opponent establishes Twister Control, they create torque through your spine by controlling your upper and lower body in opposing directions. Fighting this rotation with pure strength is typically futile and often accelerates the submission. Instead, the Defensive Roll channels this rotation into a forward rolling motion that reduces spinal stress and creates an opportunity to disentangle your trapped leg.\n\nStrategically, this escape must be initiated at the correct moment in the Twister Control sequence. Attempting the roll too early, before the opponent has committed to their controls, allows them to easily readjust. Waiting too long means the spinal rotation is too severe and the escape window has closed. The ideal timing is when the opponent is transitioning their grip to hunt for the Twister finish, as this creates a brief window where their leg control may momentarily weaken. Success requires commitment to the rolling direction and immediate follow-through to a defensive position such as Turtle or Half Guard retention.",
   "conditions": [
     "Opponent has established Twister Control with active rotational pressure on the spine",

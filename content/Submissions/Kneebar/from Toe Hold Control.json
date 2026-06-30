@@ -19,7 +19,10 @@
   "target_area": "Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule)",
   "starting_position": "Toe Hold Control",
   "from_position": "Toe Hold Control/Top",
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "overview": "This technique sits at a critical junction in the leg lock hierarchy, weaponizing the predictable defensive reactions that a genuine toe hold threat produces. When an opponent defends the toe hold by straightening their leg, rotating their knee inward, or creating distance, these movements expose the posterior aspect of the knee to attack. The attacker releases their figure-four toe hold grip and repositions their hips against the popliteal fossa while securing the opponent's thigh between their knees, converting the existing leg entanglement into a kneebar finishing position.\n\nThis technique embodies dilemma-based leg lock strategy at its core. The toe hold threat forces defensive reactions that open kneebar opportunities, creating a tactical problem with no clean solution: defend the ankle and expose the knee, or protect the knee and remain vulnerable to the toe hold. This two-attack dynamic makes the combination far more dangerous than either submission alone, as each defense feeds directly into the complementary attack.\n\nThe positional advantage is substantial because the leg is already isolated within the entanglement before the transition begins. Unlike kneebar entries from passing or scrambles, the attacker starts with established leg control. The primary technical challenge is the grip transition window — the brief moment between releasing the toe hold and securing the kneebar. Maintaining continuous leg control through this window separates successful application from positional loss.",
   "safety_considerations": {
     "injury_risks": [
@@ -103,17 +106,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Toe Hold Control/Top",
-      "probability": 26,
+      "probability": {
+        "gi": 26,
+        "nogi": 26
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 14,
+      "probability": {
+        "gi": 14,
+        "nogi": 14
+      },
       "result": "counter"
     }
   ],

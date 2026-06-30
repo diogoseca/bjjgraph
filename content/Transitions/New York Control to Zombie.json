@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Zombie/Bottom",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "New York Control/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The New York Control to Zombie transition represents a critical continuation within the 10th Planet Rubber Guard system, executed when the opponent begins successfully extracting their trapped shoulder from your New York configuration. Rather than fighting to maintain a failing position, this transition redirects offensive energy into the Zombie position - a lockdown-based half guard variant that preserves offensive momentum while adapting to the changed circumstances.\n\nThis transition exemplifies the systematic philosophy of rubber guard: positions flow into each other based on opponent reactions, and every defensive action opens specific offensive pathways. When the opponent extracts their shoulder from New York Control, they create the exact positioning needed for you to establish lockdown and enter the Zombie. The key is recognizing the transition window before it closes.\n\nStrategic timing distinguishes successful practitioners. The transition must occur during the extraction process, not after the opponent has fully escaped. Attempting to hold a failing New York creates stalling positions without offensive options, while transitioning too early abandons viable submission chains. The sweet spot is when overhook depth becomes insufficient but before the opponent achieves full posture recovery - typically a 1-2 second window that requires pattern recognition and immediate response.",
   "related_content": [
     {

@@ -28,26 +28,41 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Omoplata Control/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Spider Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "Among spider guard's submission options, the omoplata stands out for converting the position's built-in arm isolation directly into a finish rather than first passing through a sweep. When the bottom player controls both sleeves with feet on the opponent's biceps, one arm becomes vulnerable to the omoplata entry by swinging the attacking leg over the opponent's shoulder and pivoting the hips to create rotational pressure on the glenohumeral joint. This submission capitalizes on the distance management and sleeve control inherent to spider guard, converting a controlling position into a direct finishing threat.\n\nThe entry relies on breaking the opponent's posture to one side using asymmetric foot pressure and sleeve pulling, then threading the attacking leg over the targeted shoulder while maintaining the sleeve grip. Once the leg clears the shoulder and the attacker sits up perpendicular to the opponent, the shoulder lock mechanics take effect through hip extension and forward pressure on the opponent's flattened torso. The trapped arm acts as a lever against the shoulder joint, with the attacker's legs and hips providing the force multiplication necessary to achieve the tap.\n\nStrategically, the omoplata from spider guard creates a powerful dilemma: opponents who posture up to break spider guard grips expose themselves to the leg swing entry, while those who drive forward with pressure create the angle needed for the hip pivot. This submission integrates seamlessly into spider guard attack chains alongside triangles and armbars, making it a cornerstone technique for any guard player who relies on sleeve-based open guard systems.",
   "safety_considerations": {
     "injury_risks": [

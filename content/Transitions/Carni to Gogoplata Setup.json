@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Gogoplata Control/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Carni/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "The Carni to Gogoplata Setup represents one of modern grappling's most creative and unorthodox transitions, bridging the gap between leg lock systems and upper body submission attacks. This technique exploits a fundamental vulnerability in common leg entanglement defense: when opponents drive forward aggressively to stack and neutralize the Carni position, they inadvertently bring their neck within range of the bottom player's legs. By recognizing this forward pressure as an opportunity rather than a threat, the attacker releases one leg from the entanglement and threads it across the opponent's throat, establishing the foundation for gogoplata control.\n\nThe transition demands exceptional hip flexibility and precise timing. The attacker must maintain enough Carni control with one leg to prevent the opponent from simply backing away while simultaneously threading the free leg to the neck. This dual requirement makes the technique heavily dependent on physical attributes, particularly hamstring flexibility and hip external rotation capability that allows sustained leg-behind-head positioning. Practitioners without this flexibility should develop it through dedicated mobility work before attempting the transition in live training.\n\nStrategically, this transition adds an unexpected dimension to Carni attacks that opponents rarely anticipate. Most defenders focus exclusively on protecting their heel and preventing saddle or back transitions, creating a blind spot for upper body attacks. When the Carni to Gogoplata Setup is part of your arsenal, opponents must defend not only the leg lock chain but also the possibility of upper body submissions, dramatically expanding the dilemma created by the Carni position and making the entire Carni system significantly more dangerous.",
   "conditions": [
     "Opponent is driving forward with stack pressure to escape Carni leg entanglement",

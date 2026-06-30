@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Open Guard/Bottom",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Chill Dog/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "The Roll from Chill Dog is a forward rolling escape executed from the compact Chill Dog turtle variant, designed to create distance from the top player and recover open guard. This technique exploits the rounded back posture inherent to Chill Dog by converting the defensive ball shape into rotational momentum. When the top player commits their weight backward or momentarily loosens their grip control, the bottom player tucks their chin, drives off their hands, and rolls diagonally forward to emerge facing the opponent with legs available for guard retention.\n\nThis escape carries moderate risk because a poorly timed or telegraphed roll allows the top player to follow the rotation and establish back control with hooks. The key differentiator between success and failure is timing - the roll must be initiated during a genuine window of opportunity when the top player's weight distribution is compromised or their grips have shifted. Unlike the Granby roll which moves backward and to the side, the forward roll from Chill Dog moves through the space in front of the bottom player, requiring a clear forward path and enough momentum to complete the rotation before the opponent can react.\n\nWithin the 10th Planet system, this technique serves as a supplementary escape option when standard exits like the technical stand-up or Granby roll are unavailable or have been defended. The low attempt probability reflects its situational nature - it works best when the opponent overcommits to attacks from behind, creating the forward space needed for the roll. Practitioners should develop this as an additional tool rather than a primary escape, using it to add unpredictability to their defensive repertoire and exploit specific patterns in the opponent's attack sequences.",
   "conditions": [
     "Bottom player is in Chill Dog position with compact defensive posture maintained",

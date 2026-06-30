@@ -18,7 +18,10 @@
   "target_area": "Shoulder joint, rotator cuff, and shoulder capsule",
   "starting_position": "Knee on Belly",
   "from_position": "Knee on Belly/Top",
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "overview": "The Kimura from Knee on Belly exploits the natural defensive reactions that KOB pressure creates. When the bottom player pushes against the knee or reaches across their body to alleviate diaphragm pressure, their far arm becomes exposed for figure-four grip capture. The elevated hip position of Knee on Belly provides superior rotational leverage compared to side control or guard-based kimuras, allowing greater torque on the shoulder joint with less effort. The bottom player faces a compounding dilemma: absorb the crushing knee pressure and risk respiratory distress, or push the knee away and expose their arms to the shoulder lock.\n\nThe finishing mechanics differ from other positions because the top player can choose to finish in place by driving the captured wrist toward the mat while maintaining knee pressure, or step off to north-south for a more controlled rotational finish. The north-south transition removes the bottom player's bridging ability and creates a tighter arc of rotation on the shoulder. The grip capture itself benefits from gravity — the top player's weight assists in pinning the opponent's elbow while the figure-four controls the wrist. Competition data consistently shows this as one of the highest-percentage kimura entries in the sport, particularly effective after the top player has broken down the bottom player's defensive frames with sustained KOB pressure.",
   "safety_considerations": {
     "injury_risks": [
@@ -102,17 +105,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 62,
+      "probability": {
+        "gi": 62,
+        "nogi": 62
+      },
       "result": "success"
     },
     {
       "to": "Knee on Belly/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 13,
+      "probability": {
+        "gi": 13,
+        "nogi": 13
+      },
       "result": "counter"
     }
   ],

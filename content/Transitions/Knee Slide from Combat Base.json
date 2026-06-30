@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Combat Base/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Regarded as one of the highest-percentage guard passes in Brazilian Jiu-Jitsu, the Knee Slide from Combat Base—also called the knee cut—earns its reputation through methodical pressure rather than speed. The cutting angle of the lead knee, combined with forward hip pressure and tight crossface control, creates a passing force that separates the opponent's legs and opens a direct path to side control, making it equally reliable for beginners and elite competitors.\n\nThe strategic value of this pass lies in its versatility and reliability across all levels of competition. Unlike speed-based passes that rely on narrow timing windows, the knee slide uses methodical pressure and upper body control to systematically dismantle guard structures. The technique works equally well in gi and no-gi, though grip variations differ. In the gi, collar and lapel grips provide additional control points, while no-gi relies more heavily on underhook position and head control through the crossface.\n\nThe knee slide integrates seamlessly into broader passing systems. When opponents defend the initial knee cut, natural chain reactions open pathways to long step passes, leg drags, or headquarters transitions. This creates a dilemma-based passing game where defending one threat exposes vulnerability to another. Mastery of the knee slide from combat base is considered a foundational skill for developing an effective top game and serves as the entry point for understanding pressure-passing mechanics that apply across all guard passing scenarios.",
   "conditions": [
     "Established combat base with one knee posted and opposite foot planted flat on the mat",

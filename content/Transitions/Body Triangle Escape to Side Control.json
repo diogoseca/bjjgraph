@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Side Control/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "success"
     },
     {
       "to": "Body Triangle/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 35,
+  "success_rate": {
+    "gi": 35,
+    "nogi": 35
+  },
   "overview": "The body triangle escape to side control is one of the most critical defensive techniques in Brazilian Jiu-Jitsu, addressing the challenge of escaping the most secure form of back control. Unlike standard hook-based back control where hip movement can systematically clear individual hooks, the body triangle's figure-four configuration creates a mechanical lock that demands a specific technical approach to dismantle. The escape targets the inherent weakness in the triangle structure: the foot tucked behind the opponent's own knee, which becomes vulnerable when proper angles and leverage are applied.\n\nThe technique begins from a deeply disadvantaged position where breathing is restricted, the neck is threatened, and hip mobility is severely limited. Success requires methodical execution under extreme physical and psychological pressure. The escaping practitioner must first secure neck defense, then systematically create space to attack the triangle lock, and finally use the opening to turn into side control. While arriving in side control bottom remains a defensive position, it represents a dramatic improvement from body triangle, removing the breathing restriction, the constant choking threat, and the severe positional disadvantage.\n\nThis escape is fundamental to any serious practitioner's defensive arsenal because the body triangle is increasingly common at all competitive levels. Without a reliable clearing method, practitioners who concede body triangle face an extremely high submission rate. The technique rewards patience, technical precision, and understanding of the lock's biomechanics over athletic scrambling or panicked explosive movement.",
   "conditions": [
     "Opponent has body triangle locked around your torso with figure-four leg configuration",

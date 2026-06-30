@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Grasshopper Guard/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "Against the modern inverted-guard game, the Cartwheel Pass answers a problem that pressure and methodical passing struggle to solve: an opponent whose elevated legs turn every grounded passing lane into a potential leg-lock trap. Rather than engaging that structure on its own terms, you vault over it entirely, landing directly into side control before the guard player can reorganize. This pass exploits a fundamental weakness of inverted guards: while they excel at controlling opponents who engage directly with their legs, they struggle against aerial passes that avoid leg contact altogether.\n\nThe technique requires committing to the cartwheel motion with conviction, as hesitation mid-pass creates vulnerability to being pulled into the guard player's entanglement system. Your hands plant on the mat beside the opponent's hips, and you rotate your body laterally through the air, allowing your legs to clear their elevated guard completely. The landing must be controlled, transitioning immediately into heavy side control pressure before the opponent can reorganize their defensive structure.\n\nStrategically, the Cartwheel Pass functions best as a surprise element within your passing game. Its athletic nature means it cannot be spammed repeatedly without significant energy expenditure. The optimal timing occurs when the guard player has committed deeply to their inversion, creating space beside their body for your hand placement. Attempting the pass when they are actively adjusting or have legs extended toward you significantly reduces success probability and increases counter risk.",
   "related_content": [
     {

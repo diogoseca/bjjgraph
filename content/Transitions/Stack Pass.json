@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 62,
+      "probability": {
+        "gi": 62,
+        "nogi": 62
+      },
       "result": "success"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 23,
+      "probability": {
+        "gi": 23,
+        "nogi": 23
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "overview": "The Stack Pass is a fundamental pressure passing technique that uses vertical pressure and weight distribution to break through the closed guard. By driving the opponent's knees toward their chest and stacking their hips over their shoulders, you create a mechanical disadvantage that makes guard retention extremely difficult. The stacking action inverts the bottom player's spine, shifting their weight onto their upper back and shoulders, which severely compromises their ability to generate hip movement for shrimping, framing, or recomposing guard.\n\nThis pass is particularly effective against opponents who rely on active hip movement for guard retention, as the stacking pressure pins their hips in an elevated position that negates their primary defensive tools. The technique requires excellent base, timing, and the ability to maintain heavy top pressure while navigating past the legs. A critical element is head position awareness, as the forward drive exposes the passer to guillotine choke attempts that must be preemptively addressed through proper chin tuck and lateral head placement.\n\nWhen executed properly, the Stack Pass transitions seamlessly into dominant side control or mount positions. It serves as both a standalone technique and a pressure tool within larger passing systems, forcing defensive reactions that open complementary passes like knee slice, toreando, and leg drag. The stack pass remains one of the highest-percentage pressure passes at all competitive levels due to the overwhelming mechanical advantage it creates.",
   "conditions": [
     "Guard must be open or openable from current position",

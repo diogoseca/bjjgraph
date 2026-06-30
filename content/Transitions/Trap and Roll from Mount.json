@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Closed Guard/Top",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "High Mount/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "The Trap and Roll is the most fundamental mount reversal in Brazilian Jiu-Jitsu, taught from the earliest days of training yet remaining a viable weapon at the highest levels when executed with proper timing and setup. The technique works by isolating the opponent's base on one side through trapping their arm and corresponding foot, then using an explosive hip bridge directed at a 45-degree angle to roll them over that compromised base. The mechanical principle is simple: a stool with four legs is stable, but remove two legs on the same side and it topples with minimal force.\n\nAt the purple and brown belt level, the trap and roll succeeds less through raw surprise and more through systematic setup. High-level practitioners create the trapping opportunity by provoking specific reactions from the top player - framing to elicit a posting response that exposes the arm for trapping, or defending a submission attempt that naturally commits the opponent's arm forward. The bridge itself requires precise timing and direction, with the explosive hip drive aimed diagonally over the trapped shoulder rather than straight up, which would only lift the opponent momentarily before they resettle.\n\nStrategically, the trap and roll serves a dual purpose within the mount escape hierarchy. As a standalone reversal, it returns you to top position inside your opponent's closed guard. As a threat, it forces the mounted player to maintain wide base and post defensively, which creates the space and weight distribution shifts necessary for the elbow escape. Understanding this complementary relationship between the trap and roll and the hip escape transforms mount defense from a collection of isolated techniques into an integrated escape system where each attempt amplifies the effectiveness of the next.",
   "conditions": [
     "Opponent has at least one arm committed forward for posting, gripping, or attacking",

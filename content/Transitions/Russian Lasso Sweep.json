@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Russian Leg Lasso/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "summary": "The Russian Lasso Sweep is a rotational gi sweep from Russian Leg Lasso guard that turns the deep lasso into a fulcrum and, with coordinated collar and sleeve grips, topples the passer into side control.",
   "overview": "Built on the competitive evolution of the lasso guard, this sweep is the offensive centerpiece of the Russian Leg Lasso system, where the extra grip layers trade energy for the rotational power needed to defeat increasingly sophisticated passers. The technique exploits the mechanical fulcrum created by the lasso leg—the sweeper's shin crosses the opponent's tricep with the foot positioned near the shoulder, creating a pivot point around which rotational force is amplified through coordinated collar and sleeve grips.\n\nWhat distinguishes this sweep from standard lasso sweeps is the enhanced force generation made possible by the Russian variation's deeper lasso threading and strategic grip placement. The far-side collar grip provides the directional pull that breaks posture, while the sleeve grip prevents the opponent from posting or creating base. When the sweeper elevates their hips and initiates the rotation, the combined mechanical advantage from these three control points creates a sweep that is extremely difficult to resist once properly loaded.\n\nTiming is the critical variable—the sweep achieves maximum effectiveness when the opponent commits their weight forward to address the lasso threat or reaches to break the collar grip, creating the momentary base disruption that allows rotational mechanics to overcome their stability. Elite practitioners use the sweep threat as the primary forcing function within the Russian Leg Lasso system, where the opponent's defensive reactions to the sweep open secondary attack paths into triangles, omoplatas, and back takes.",
   "conditions": [

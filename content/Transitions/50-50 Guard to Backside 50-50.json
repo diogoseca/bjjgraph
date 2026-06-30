@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Backside 50-50/Top",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "50-50 Guard/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "50-50 Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "overview": "The Transition to Backside 50-50 is a rotational positional advancement from standard 50-50 Guard Top that places your chest against your opponent's back while maintaining the mirrored leg entanglement. This transition breaks the symmetry of standard 50-50 by creating a back-facing orientation that provides superior pressure, better visual access to leg attack entries, and the constant secondary threat of abandoning the entanglement entirely for back control. The rotation fundamentally shifts the position from a roughly equal exchange into a clearly dominant configuration.\n\nExecuting this transition requires precise timing around your opponent's defensive reactions in standard 50-50. The rotation occurs when your opponent is focused on heel defense or grip fighting, creating a window where their hip movement is restricted and they cannot prevent you from circling behind them. The key mechanical detail is maintaining tight leg entanglement throughout the rotation so you arrive in Backside 50-50 with full control rather than creating space that allows extraction. Inside position control with your lead leg serves as the rotational pivot point.\n\nThis transition occupies a critical role in modern leg lock systems as the bridge between the often-stalemated standard 50-50 and the decisively dominant Backside 50-50 configuration. Practitioners like Gordon Ryan and the Danaher Death Squad popularized this pathway as part of systematic leg entanglement hierarchies. Once in Backside 50-50, the dual threat of heel hooks and back control creates an almost unsolvable defensive dilemma, making the initial transition investment highly rewarding when executed properly.",
   "conditions": [
     "You have established top position in standard 50-50 Guard with inside control",

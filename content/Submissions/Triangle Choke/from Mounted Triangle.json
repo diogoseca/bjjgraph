@@ -17,7 +17,10 @@
   "target_area": "Carotid arteries and brachial plexus",
   "starting_position": "Mounted Triangle",
   "from_position": "Mounted Triangle/Top",
-  "success_rate": 65,
+  "success_rate": {
+    "gi": 65,
+    "nogi": 65
+  },
   "overview": "The triangle choke from mounted triangle combines the positional dominance of mount with devastating blood choke mechanics, creating one of the highest-percentage submission finishes in Brazilian Jiu-Jitsu. Unlike standard triangles from guard where the attacker works against gravity, the mounted variation uses gravity as an ally, allowing the top player to settle weight into the choke while maintaining superior positioning throughout the finishing sequence.\n\nThe biomechanics center on compressing both carotid arteries using the legs and the defender's own trapped shoulder. From mounted triangle, the attacker has exceptional angle control and can use downward pressure to amplify the choke. The position rewards patient practitioners who establish proper structure before committing to the squeeze rather than rushing the finish.\n\nStrategically, this submission represents the culmination of a mount attack sequence. Reaching mounted triangle typically requires winning several positional battles through mount progression. The high success rate reflects both the mechanical advantage of top-position triangle mechanics and the accumulated fatigue the defender experiences from defending the entire sequence.",
   "safety_considerations": {
     "injury_risks": [
@@ -101,17 +104,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Mounted Triangle/Top",
-      "probability": 23,
+      "probability": {
+        "gi": 23,
+        "nogi": 23
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 12,
+      "probability": {
+        "gi": 12,
+        "nogi": 12
+      },
       "result": "counter"
     }
   ],

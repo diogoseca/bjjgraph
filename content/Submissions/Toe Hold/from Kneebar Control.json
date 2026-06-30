@@ -19,7 +19,10 @@
   "target_area": "Ankle, toes, and foot ligaments",
   "starting_position": "Kneebar Control",
   "from_position": "Kneebar Control/Top",
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "overview": "The toe hold from kneebar control represents one of the most reliable chain attacks in modern leg lock systems. When an opponent defends the kneebar by bending their knee and pulling their leg tight, they inadvertently expose their foot to a toe hold grip. This defensive reaction creates a predictable opening that skilled leg lock practitioners exploit systematically, making the kneebar-to-toe-hold sequence a fundamental combination in competition grappling.\n\nThe mechanics of this transition center on grip switching. From kneebar control, the attacker already has the opponent's leg secured across their torso. When the opponent bends their knee to prevent hyperextension, the attacker releases the kneebar grip configuration and reaches for the opponent's toes and forefoot. The attacking hand wraps over the top of the foot, cupping the toes, while the other arm threads under the ankle to establish a figure-four grip on the attacking wrist. The finish involves twisting the foot inward while pulling the toes toward the attacker's chest, creating rotational stress on the ankle joint.\n\nWhat makes this combination particularly effective is the dilemma it creates for the defender. Straightening the leg to prevent the toe hold re-exposes the knee to the kneebar. Keeping the knee bent invites the toe hold. This binary defensive problem forces the opponent to choose which submission to defend, dramatically increasing the attacker's finishing rate compared to attacking either technique in isolation.",
   "safety_considerations": {
     "injury_risks": [
@@ -110,17 +113,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Kneebar Control/Top",
-      "probability": 26,
+      "probability": {
+        "gi": 26,
+        "nogi": 26
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 14,
+      "probability": {
+        "gi": 14,
+        "nogi": 14
+      },
       "result": "counter"
     }
   ],

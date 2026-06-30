@@ -15,26 +15,41 @@
   "outcomes": [
     {
       "to": "Closed Guard/Top",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Triangle Control/Top",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Armbar Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     },
     {
       "to": "Omoplata Control/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "Within the triangle-defense subsystem, this transition is where a survival scramble becomes a positional reset rather than a tap, bridging submission escape and guard passing. When partial escape from the triangle is achieved but full extraction is not yet complete, the top player must recover to closed guard top where they can reset and work to pass rather than remaining trapped in the dangerous triangle configuration. This recovery involves posture management, systematic hand fighting to address the leg lock, and controlled positioning to prevent the bottom player from re-tightening the triangle or transitioning to armbar or omoplata attacks.\n\nThis technique occupies a unique position in the guard recovery taxonomy because the practitioner is extracting from an active submission threat rather than simply reinserting legs or recomposing guard. The urgency imposed by the choke creates a tension between speed and precision that distinguishes this recovery from all others. Rushing triggers the bottom player's squeeze reflex and typically worsens the position, while excessive patience allows the choke to deepen. The recovery path runs through a narrow corridor of correct posture, deliberate rotation, and incremental arm extraction that must be executed under duress. Understanding the biomechanics of the triangle choke itself—particularly how the trapped shoulder compresses the carotid artery—is essential for identifying the specific movements that dismantle the choking mechanism rather than merely resisting it.",
   "conditions": [
     "Top player's posture is partially recoverable despite the triangle lock and head control pressure",

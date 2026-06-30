@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Lockdown/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Deep Half Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "summary": "The Lockdown Escape to Half Guard Pass is a top-game counter to the 10th Planet lockdown: break the foot triangle, extract the trapped leg with limp-leg mechanics and forward pressure, then pass directly to side control.",
   "overview": "Getting your leg triangled in the 10th Planet lockdown is one of the most frustrating predicaments for a top player: your mobility is severely compromised and you face constant sweep and submission threats from the Electric Chair, Old School, and whip-up attacks. This technique provides a systematic pathway to extract your trapped leg and immediately advance to side control rather than settling for neutral half guard.\n\nThe key insight is that the lockdown's power derives from the triangled leg configuration gripping your trapped leg. Simply yanking your leg free plays into the lockdown's mechanical strength and risks knee injury. Instead, this technique employs forward pressure to limit the opponent's hip extension, the limp leg concept to reduce grip effectiveness, and systematic breaking of the foot triangle before extraction. The combination of these principles creates the mechanical advantage needed to escape the entanglement safely.\n\nStrategically, this technique transforms a defensive predicament into offensive momentum. By flowing directly from escape into a passing sequence, you capitalize on the momentary disruption caused by breaking the opponent's primary control structure. This prevents them from re-establishing the lockdown or transitioning to alternative guards, converting what could be an exhausting positional battle into efficient advancement to dominant position.",
   "conditions": [

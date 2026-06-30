@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Turtle/Bottom",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Mounted Crucifix/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Explosive Bridge to Turtle represents a critical emergency escape from one of the most dangerous positions in Brazilian Jiu-Jitsu - the mounted crucifix. When trapped in mounted crucifix with arms isolated by the opponent's legs, traditional mount escapes become nearly impossible, making this explosive technique essential for survival. The fundamental premise involves generating maximum hip power through a violent bridging motion, specifically timed to disrupt the opponent's balance and create enough space to turn into the turtle position.\n\nStrategically, this escape prioritizes extracting yourself from immediate submission danger rather than achieving a dominant position. The mounted crucifix leaves you vulnerable to chokes, armbars, and strikes with minimal defensive capability since your arms are trapped. Transitioning to turtle, while not ideal, removes the arm entanglement and provides access to guard recovery, stand-up escapes, and rolling attacks. The explosive nature of this technique exploits brief windows when the opponent commits weight forward for attacks or adjusts their position.\n\nThe technique requires precise timing and total commitment - half-hearted attempts fail and waste energy. Ideally executed when the opponent shifts weight to set up submissions, the explosive bridge catches them off-balance and creates the rotational momentum needed to free trapped arms and complete the turn to turtle. Understanding this escape's place in the defensive hierarchy is crucial: it represents a calculated retreat to a recoverable position rather than a reversal attempt.",
   "related_content": [
     {

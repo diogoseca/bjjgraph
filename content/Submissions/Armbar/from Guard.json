@@ -13,7 +13,10 @@
   "submission_type": "Arm Lock",
   "target_area": "Elbow joint",
   "starting_position": "Closed Guard",
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "summary": "The Armbar from Guard is a joint lock attacked from the bottom, where you isolate one arm, break the opponent's posture, swing a leg across their head to create a perpendicular angle, and extend your hips to hyperextend their elbow.",
   "overview": "The armbar from guard is one of the most fundamental and highest-percentage submissions in Brazilian Jiu-Jitsu. This technique targets the elbow joint by hyperextending it against the natural range of motion, forcing a tap or causing structural damage. From closed guard, the armbar represents a perfect marriage of positional control and finishing mechanics—you maintain the defensive safety of guard position while simultaneously attacking with a fight-ending submission. The armbar from guard is typically the first submission taught to beginners because it introduces the essential concepts of angle creation, hip control, and limb isolation that underpin all joint lock attacks. What makes this technique particularly effective is that it can be entered from multiple guard variations and combined seamlessly with other attacks like triangles and omoplatas, creating powerful submission chains that are difficult to defend.",
   "safety_considerations": {
@@ -66,17 +69,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],

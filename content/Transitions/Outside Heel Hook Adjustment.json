@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Outside Heel Hook from Ushiro Ashi-Garami",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Ushiro Ashi-Garami/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Inside Ashi-Garami/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Outside Heel Hook Adjustment is a critical finishing technique from Ushiro Ashi-Garami that addresses the biomechanical challenges of attacking the heel from a reversed leg entanglement configuration. When an opponent inverts to escape standard ashi-garami positions, the resulting ushiro configuration changes the optimal angles and grip placements for heel hook attacks. This adjustment sequence repositions your body and hands to restore effective finishing leverage despite the opponent's inverted hip orientation.\n\nThe technique involves transitioning from whatever grip configuration you maintained during the opponent's inversion to the specific hand placement and body angle required for outside heel hook finishing from the reversed position. Unlike standard outside ashi-garami where the heel is naturally exposed toward your center line, ushiro ashi-garami often requires pulling the heel across your body or adjusting your hip position relative to the trapped leg to create the rotational torque necessary for the finish.\n\nStrategically, the Outside Heel Hook Adjustment represents a commitment to finishing the submission rather than transitioning to higher-control positions like saddle or following to back control. This decision should be made when the opponent's heel is accessible, their defensive grips haven't fully established, and your body position allows for the necessary adjustments. The adjustment window is often brief—skilled defenders will use this transition time to improve their hand fighting or accelerate their escape rotation.",
   "conditions": [
     "Established Ushiro Ashi-Garami with opponent's leg trapped in reversed figure-four",

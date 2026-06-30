@@ -15,26 +15,41 @@
   "outcomes": [
     {
       "to": "Inside Ashi-Garami/Top",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Honey Hole/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "success"
     },
     {
       "to": "50-50 Guard/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Ashi Garami/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "Among the highest-risk exchanges in modern leg locking, the Counter Heel Hook is the boldest response available from 50-50 Guard Bottom. Rather than simply defending the incoming attack, this technique transforms a defensive situation into an offensive opportunity by attacking the opponent's exposed heel while they focus on finishing their own submission.\n\nThis counter relies on the fundamental principle that when an attacker commits fully to a heel hook, they often sacrifice their own heel defense to maximize breaking pressure. The bottom player exploits this momentary vulnerability by simultaneously defending their own heel through knee rotation while securing offensive grips on the opponent's heel. The technique requires precise timing, excellent grip fighting, and the ability to race the opponent to a finish.\n\nStrategically, the Counter Heel Hook represents the highest-level defensive option from 50-50 Bottom because it maintains engagement in the leg lock exchange rather than conceding position through escape. This approach is favored by elite leg lock specialists who have confidence in their submission finishing ability. However, it carries significant risk since both practitioners are simultaneously attacking and defending, making tap recognition and injury prevention critical considerations.",
   "conditions": [
     "You are in 50-50 Guard Bottom with opponent actively attacking or threatening heel hook",

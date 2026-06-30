@@ -19,7 +19,10 @@
   "target_area": "Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament)",
   "starting_position": "Leg Entanglement",
   "from_position": "Leg Entanglement/Top",
-  "success_rate": 52,
+  "success_rate": {
+    "gi": 52,
+    "nogi": 52
+  },
   "overview": "The kneebar from leg entanglement is a fundamental finishing technique within modern leg lock systems, targeting the knee joint through controlled hyperextension from established ashi garami and related positions. This submission capitalizes on the pre-existing leg isolation inherent in leg entanglement configurations, creating a significantly shorter path from control to finish compared to kneebar entries from guard or scramble situations.\n\nThe attacking sequence typically emerges when the opponent defends primary leg entanglement threats like heel hooks and ankle locks by straightening their trapped leg or hiding their heel. This defensive reaction inadvertently creates the exact leg extension the kneebar requires, making it a natural secondary attack within leg lock chains. The attacker transitions from foot and ankle control to positioning the fulcrum point just above the opponent's kneecap, then applies progressive hip extension to hyperextend the knee joint.\n\nThis technique demands precise understanding of perpendicular hip alignment, tight heel-to-chest control mechanics, and the discipline to apply pressure progressively rather than explosively. The knee's vulnerability to hyperextension makes safety awareness paramount, as the PCL, MCL, and LCL are all at immediate risk, with injury potential escalating dramatically if rotational forces are introduced through improper heel control during the finish.",
   "safety_considerations": {
     "injury_risks": [
@@ -76,17 +79,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Leg Entanglement/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],

@@ -18,7 +18,10 @@
   "target_area": "Carotid arteries",
   "starting_position": "Seat Belt Control Back",
   "from_position": "Seat Belt Control Back/Top",
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "Among gi attacks from back control, this choke earns its high success rate by weaponizing the opponent's own collar rather than threading an arm under the chin as the Rear Naked Choke demands. The attacker feeds the lapel across the throat from the over-arm position of the seat belt, creating a blood choke that compresses both carotid arteries through compact cross-collar pressure applied close to the neck. Because the choking surface is the garment already wrapped around the neck, the finish does not depend on beating the opponent's hands to the throat.\n\nThis submission is particularly effective as a secondary threat from back control because it bypasses the most common back defense: tucking the chin and protecting the neck with both hands. When an opponent commits their hands to defending the RNC, their collar becomes accessible, creating the window for the Short Choke entry. The compact grip distance means the choke locks in quickly once the lapel crosses the throat, giving the defender minimal reaction time before arterial compression takes effect.\n\nFrom the Seat Belt Control Back position, the diagonal over-under grip provides an ideal launching platform. The over-arm naturally positions the hand close to the far collar, requiring minimal adjustment to initiate the choke. The under-arm maintains base control during the grip transition, while deep hooks prevent the explosive escape attempts that the momentary grip change might otherwise allow. This makes the Short Choke a devastating complement to the RNC, forming a two-threat system that forces the defender into an unwinnable positional dilemma.",
   "safety_considerations": {
     "injury_risks": [
@@ -96,17 +99,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "Seat Belt Control Back/Top",
-      "probability": 27,
+      "probability": {
+        "gi": 27,
+        "nogi": 27
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],

@@ -13,21 +13,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Ushiro Ashi-Garami/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Turtle/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "summary": "Follow to Back Control is a leg-entanglement-to-back transition where, as the opponent inverts and turns away to escape Ushiro Ashi-Garami, the attacker abandons the degrading heel hook and follows the rotation to secure dominant back control.",
   "overview": "Follow to Back Control represents a critical transitional technique from the Ushiro Ashi-Garami position when an opponent commits fully to inverting and turning away from leg entanglement attacks. Rather than forcing low-percentage heel hook attempts on a rapidly rotating opponent, this technique capitalizes on their defensive momentum by abandoning the leg attack and securing the superior back control position.\n\nThe fundamental premise is recognizing when an opponent's inversion has progressed beyond the point where leg attacks remain viable. When the opponent commits to turtle rotation to escape leg entanglements, they necessarily expose their back. The skilled practitioner reads this commitment and transitions from leg hunter to back taker, following the opponent's rotation while establishing upper body control and hook placement.\n\nThis technique embodies a core principle of positional BJJ: accepting what the opponent gives rather than forcing techniques against strong defensive structures. An opponent who commits fully to escaping leg entanglements via inversion makes a calculated trade—they accept back exposure to eliminate leg attack danger. The practitioner who can smoothly transition to back control punishes this defensive choice with a dominant position offering numerous submission threats including rear naked choke, bow and arrow variations, and armbar attacks.",
   "conditions": [

@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Ashi Garami/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Estima Lock Control/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "summary": "Estima Lock to Ashi Garami is a leg-lock chain transition in which the top player abandons a defended inverted footlock and re-secures the trapped leg in standard ashi garami, converting a stalled ankle attack into heel-hook and kneeline control.",
   "overview": "The Estima Lock to Ashi Garami transition represents a critical pivot point in modern leg lock systems, allowing practitioners to abandon a defended footlock in favor of superior heel hook positioning. When an opponent successfully defends the Estima Lock by counter-rotating their ankle, hiding their heel, or creating sufficient frames, this transition preserves offensive momentum rather than returning to neutral.\n\nThis technique capitalizes on the leg control already established in the Estima Lock position. Rather than forcing an incomplete submission, you release the inverted grip configuration and immediately secure standard ashi garami control—inside leg triangle, outside heel exposure, and hip-to-hip connection. The opponent's defensive focus on the footlock creates a window for repositioning before they can address the new threat vector.\n\nStrategically, this transition embodies the chain-attack philosophy central to effective leg lock systems. The Estima Lock threatens the ankle joint; when that fails, the ashi garami threatens the heel and knee. Opponents cannot defend both simultaneously, creating the positional dilemmas that lead to submission opportunities. Understanding when to abandon the Estima Lock finish in favor of transitional advancement separates effective leg lockers from those who stall in compromised positions.",
   "related_content": [

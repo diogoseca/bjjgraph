@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Crackhead Control/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Arm Extraction and Pass is a systematic transition from Crackhead Control that addresses one of the most common obstacles when attacking from turtle top: the opponent's arm blocking your path to side control. When controlling an opponent in turtle from the chair-sit position, their near arm often becomes wedged between your body and theirs, preventing you from flattening them out or advancing to traditional side control. This technique provides a methodical approach to clearing that arm while maintaining dominant position throughout the transition.\n\nThe mechanical foundation relies on isolating the opponent's arm through shoulder pressure while using your hips to create the space needed to extract and pass the limb. Rather than fighting the arm directly, you redirect your weight to pin their shoulder to the mat, which naturally extends and loosens the arm's defensive structure. The extraction itself uses a combination of your free hand and hip movement to guide the arm past your body as you transition your weight from the chair-sit to a traditional perpendicular side control alignment.\n\nStrategically, this technique represents a critical bridge between the dynamic turtle attack system and the stable control offered by side control. While Crackhead Control provides excellent back take and submission opportunities, some opponents become highly defensive, denying hooks and protecting their neck. The Arm Extraction and Pass offers an alternative advancement path that trades submission opportunities for positional points and the extensive attack options available from side control. Advanced practitioners use this as part of a threat matrix: the opponent must defend back takes, truck entries, and chokes from Crackhead Control, but defensive postures that protect against these attacks often make the Arm Extraction and Pass easier to execute.",
   "related_content": [
     {

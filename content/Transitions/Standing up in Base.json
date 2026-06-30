@@ -22,21 +22,33 @@
   "outcomes": [
     {
       "to": "Standing Guard/Bottom",
-      "probability": 70,
+      "probability": {
+        "gi": 70,
+        "nogi": 70
+      },
       "result": "success"
     },
     {
       "to": "Turtle/Bottom",
-      "probability": 18,
+      "probability": {
+        "gi": 18,
+        "nogi": 18
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 12,
+      "probability": {
+        "gi": 12,
+        "nogi": 12
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 70,
+  "success_rate": {
+    "gi": 70,
+    "nogi": 70
+  },
   "overview": "The technical standup from base is a fundamental defensive movement that allows a grounded fighter to safely return to standing position while maintaining defensive posture and base. This essential skill bridges the gap between ground-based positions and standing engagement, providing both escape utility and offensive opportunity. The technique emphasizes proper weight distribution, frame creation, and sequential base-building to prevent opponent interference during the standup process. Understanding this movement is critical for guard retention, scramble navigation, and preventing opponents from consolidating top position control.\n\nThe standup sequence involves establishing a stable posting base, creating distance through frames, and executing a coordinated hip elevation that brings you to your feet while maintaining defensive awareness. Unlike explosive scrambles that rely on speed and athleticism, the technical standup prioritizes structural integrity at every phase, creating checkpoints where you can pause, reassess, and redirect if the opponent adjusts their pressure. This systematic approach makes it reliable across all body types, energy levels, and competitive contexts.\n\nThis technique serves as a gateway movement that connects various bottom positions to standing engagements, making it indispensable for complete positional fluency in Brazilian Jiu-Jitsu. It integrates with turtle defense, guard recovery, and standing guard strategies, giving practitioners the ability to dictate whether engagement continues on the ground or resets to neutral standing.",
   "related_content": [
     {

@@ -16,26 +16,41 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "success"
     },
     {
       "to": "Mount/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "success"
     },
     {
       "to": "Dogfight Position/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Flattened Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Underhook Sweep from Dogfight is a high-percentage reversal that converts the bottom player's underhook advantage into a complete positional reversal. From the dogfight position—an elevated half guard scramble where both players are on their knees—this technique exploits the mechanical advantage created by a deep underhook to off-balance the top player and drive them to the mat. The sweep targets the opponent's far-side base, using the underhook as a primary lever to rotate them over their trapped knee while simultaneously blocking their ability to post and recover balance.\n\nStrategically, this sweep functions as a core weapon in the dogfight arsenal alongside back takes and forward drives. Its effectiveness depends on timing the execution to coincide with moments when the opponent's weight shifts backward or laterally, creating a window where their base is compromised. The sweep rewards practitioners who understand the push-pull dynamics of the underhook battle—applying consistent forward pressure through the underhook forces the opponent to commit defensive resources to their whizzer side, and the sweep capitalizes on the resulting structural weaknesses in their far-side posting ability.\n\nAt higher levels, the Underhook Sweep chains seamlessly with other dogfight options. When the opponent defends this sweep by posting their far hand wide, the back take becomes available as they expose their far side. When they overcommit to whizzer defense anticipating this sweep, the forward drive sweep opens as their weight shifts rearward. This creates a three-way dilemma from dogfight where the underhook sweep serves as the primary threat that sets up secondary attacks, making it an essential technique for anyone developing a serious half guard bottom game.",
   "conditions": [
     "Deep underhook established reaching at minimum the opponent's far lat, ideally their far shoulder blade",

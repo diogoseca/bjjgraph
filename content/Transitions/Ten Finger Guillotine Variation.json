@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Ten Finger Guillotine from Guillotine Control",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Guillotine Control/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Ten Finger Guillotine Variation is a specialized choking technique from top guillotine control that replaces traditional grip configurations with a fully interlaced ten-finger grip around the opponent's neck. This grip structure creates a cage-like compression mechanism that distributes squeezing force across all ten digits, producing intense and sustainable pressure against the trachea and carotid arteries. The variation is particularly effective against opponents who have developed strong hand-fighting defenses against standard palm-to-palm or gable grip guillotines, as the interlaced fingers create a lock that is significantly harder to peel apart.\n\nStrategically, the ten finger variation functions as a secondary option within the guillotine finishing chain. When the initial guillotine grip is being effectively defended through chin tucking or grip fighting, the practitioner can transition to the ten finger configuration to change the pressure angle and grip mechanics. The transition itself requires careful timing and positional stability—releasing the current grip creates a brief window of vulnerability that skilled opponents will exploit. This makes the technique higher risk than maintaining the original grip but potentially higher reward when the standard finish has stalled.\n\nThe finishing mechanics rely on structural compression rather than muscular strength. Once the fingers are fully interlaced, the practitioner drives pressure through back arch and hip drive while pulling the locked grip toward the sternum. This creates a closing mechanism that is energy-efficient and difficult for the defender to outlast. The technique is equally applicable in gi and no-gi contexts, though it sees more frequent use in no-gi where the absence of collar grips makes front headlock systems a primary attacking pathway.",
   "conditions": [
     "Established guillotine control from top position with opponent's head trapped and posture broken",

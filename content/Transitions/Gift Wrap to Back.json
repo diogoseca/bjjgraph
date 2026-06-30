@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "S Mount/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Gift Wrap to Back transition represents one of the most reliable pathways from mount to back control in Brazilian Jiu-Jitsu. This technique capitalizes on the opponent's natural defensive instinct to turn away from submission threats by using their own arm against them. When you establish the gift wrap grip—wrapping their arm across their body and securing it with your hand reaching under their neck—you create a mechanical trap that forces them to expose their back.\n\nFrom S Mount, the gift wrap becomes particularly powerful because you already have advantageous positioning with perpendicular hip alignment and natural arm isolation. When the opponent attempts to protect their isolated arm by turning toward it, you capitalize by feeding their arm across their centerline and securing the gift wrap configuration. This control eliminates their ability to face you while creating the rotational momentum needed to take the back.\n\nThe strategic value of this transition lies in its forcing function—the opponent must choose between defending the arm attack (which exposes the back) or preventing the back take (which exposes the arm). This dilemma creation is fundamental to high-level positional grappling. The gift wrap control also travels with you during the transition, providing continuous control through the movement rather than requiring you to release and re-establish grips.",
   "conditions": [
     "S Mount or high mount established with dominant control",

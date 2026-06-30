@@ -18,21 +18,33 @@
   "outcomes": [
     {
       "to": "Buggy Choke/Top",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "summary": "The Buggy Choke from Bottom Side Control is a counterintuitive submission entry where the pinned bottom player frames their own near arm across the top player's neck, throws a leg over the shoulder, and locks a figure to strangle the opponent with the bottom player's trapped arm.",
   "overview": "The Buggy Choke from Bottom Side Control is the canonical entry into one of modern jiu-jitsu's most surprising submissions: from a position the top player believes is dominant, the bottom player turns their pinned near arm into a strangle. Popularized in competition around 2021, the entry exploits the moment the top player drives a crossface or buries their head into the bottom player's chest while passing or holding side control. Instead of pure escape, the bottom player frames the near arm tight across the top player's neck, swings the same-side leg up and over the top player's shoulder, and connects the legs to clamp the trapped arm against the top player's carotid.\n\nWhat makes this entry so dangerous is the disguise: it arrives from underneath a winning pin, so the top player frequently keeps pressuring forward, feeding their own neck into the figure. The bottom player does not need to bridge or shrimp out first. The choke is finished by turning the hips and torso into the opponent and extending, driving the opponent's head and the bottom player's own shoulder into the carotid line. Because the legs do the sealing, this is a low-energy, high-leverage attack ideally suited to smaller grapplers stuck under heavier pressure.\n\nStrategically, the entry rewards patience and timing over scrambling. The bottom player must recognize when the top player commits their head and weight forward, then trap and clamp within a tight window before the top player postures up and clears. When the entry is defended, the same control branches to scrambles, the back, or simply a return to bottom side control rather than collapsing into a worse spot, which is what makes it a genuine attack rather than a desperate flail from the bottom.",
   "conditions": [

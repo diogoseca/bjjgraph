@@ -20,7 +20,10 @@
   "target_area": "Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity",
   "starting_position": "Kneebar Control",
   "from_position": "Kneebar Control/Bottom",
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "The heel hook from kneebar control exploits a fundamental defensive dilemma in the leg lock game. When an attacker establishes kneebar control and threatens knee hyperextension, the defender's natural response is to bend the knee strongly, preventing the straight-line extension that powers the kneebar. This bent-knee defense, while effective against the kneebar, directly exposes the heel for a rotational attack — creating a catch-22 where defending one submission opens vulnerability to another.\n\nThis transition represents a core concept in systematic leg lock play: submissions exist in chains rather than isolation. The attacker reads defensive reactions and redirects to whichever attack the defense creates. From kneebar control, the grip change is mechanically straightforward — shifting from arms hugging the leg across the torso to hands cupping the heel with rotational control — but the attacking vector changes dramatically from linear extension to rotational torsion against the knee's ligamentous structures.\n\nThe danger level escalates significantly with this transition. Kneebars provide relatively clear proprioceptive feedback, giving defenders time to recognize pressure and tap. Heel hooks attack the ACL, MCL, and LCL with far less warning, as rotational damage to these structures often occurs before the defender perceives pain. This makes the heel hook from kneebar control one of the most dangerous transitions in grappling, demanding strict adherence to safety protocols during training.",
   "safety_considerations": {
     "injury_risks": [
@@ -114,17 +117,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Kneebar Control/Bottom",
-      "probability": 36,
+      "probability": {
+        "gi": 36,
+        "nogi": 36
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 19,
+      "probability": {
+        "gi": 19,
+        "nogi": 19
+      },
       "result": "counter"
     }
   ],

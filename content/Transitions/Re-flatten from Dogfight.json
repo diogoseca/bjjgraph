@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Dogfight Position/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Re-flatten from Dogfight is the top player's primary tool for neutralizing the bottom player's offensive momentum after they have successfully elevated from flat half guard to the competitive kneeling dogfight position. When the bottom player achieves the underhook and comes to their knees, the top player faces a decision point: engage in a scramble where the underhook player holds initiative, or systematically collapse the bottom player's posture back to a flattened half guard where passing sequences become available again. The re-flatten addresses this tactical dilemma by providing a structured method to break down the opponent's elevated base through crossface pressure, whizzer control, and targeted hip drive.\n\nThe technique operates on a fundamental biomechanical principle: the dogfight bottom player's offensive capabilities depend entirely on maintaining upright kneeling posture with forward pressure through their underhook. By attacking the structural supports of this posture—head position, underhook depth, and posting points—the top player can progressively degrade the bottom player's base until their posture collapses. The crossface serves as the primary weapon, driving the bottom player's head offline and disrupting their forward pressure vector. The whizzer controls and redirects the underhook arm, converting the bottom player's offensive grip into a liability. Hip drive provides the mass and momentum needed to complete the collapse once structural integrity is compromised.\n\nStrategically, the re-flatten occupies an important position in the top player's dogfight decision tree. While more aggressive options like the crossface pass or back step exist, the re-flatten provides the highest-percentage method for stabilizing the position and resetting to a controlled passing scenario. Advanced practitioners layer the re-flatten threat with other attacks, using the bottom player's defensive reactions to re-flattening pressure as entries for passes and submissions. The technique is particularly valuable against skilled half guard players who consistently achieve dogfight, as it allows the top player to deny the offensive position rather than repeatedly defending sweeps and back takes.",
   "conditions": [
     "Bottom player has elevated from flat half guard to dogfight kneeling position with underhook established",

@@ -20,7 +20,10 @@
   "target_area": "Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity",
   "starting_position": "Ashi Garami",
   "from_position": "Ashi Garami/Bottom",
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "Sitting at the base of the leg-lock positional hierarchy, the heel hook from the standard outside Ashi Garami entanglement is lower-percentage than finishes from Saddle or Cross Ashi, yet it remains a credible threat that forces an immediate defensive response. Purple and brown belts should treat it less as a guaranteed finish and more as the entry point to a systematic leg-lock attack that escalates as the opponent defends.\n\nThe mechanism isolates the foot from the knee joint. By securing the heel in a figure-four or butterfly grip and clamping the foot tightly to the chest, the attacker creates a fixed point at the ankle. Hip rotation then transmits force through the tibia and fibula into the knee joint, stressing the cruciate and collateral ligaments beyond their structural tolerance. The danger of this submission lies in the minimal pain feedback before structural failure—ligaments can tear before the defender recognizes the severity of the threat, which is why early, position-based tapping is non-negotiable.\n\nStrategically, the heel hook from outside Ashi serves a dual purpose. As a direct finishing threat, it forces opponents to address the attack rather than focusing on extraction. As a positional tool, defensive reactions to the heel hook—straightening the leg, turning the knee inward, reaching to strip grips—often create openings for the attacker to advance to Inside Ashi, Cross Ashi, or Saddle, where finishing percentages climb dramatically. Skilled practitioners weaponize the threat itself as much as the finish, using attack-and-advance sequences that systematically deteriorate the defender's position.",
   "safety_considerations": {
     "injury_risks": [
@@ -119,17 +122,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Ashi Garami/Bottom",
-      "probability": 36,
+      "probability": {
+        "gi": 36,
+        "nogi": 36
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 19,
+      "probability": {
+        "gi": 19,
+        "nogi": 19
+      },
       "result": "counter"
     }
   ],

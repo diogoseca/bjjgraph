@@ -19,7 +19,10 @@
   "target_area": "Ankle, toes, and foot ligaments",
   "starting_position": "Toe Hold Control",
   "from_position": "Toe Hold Control/Top",
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "overview": "The toe hold from Toe Hold Control represents the optimal finishing scenario for this rotational ankle lock, where the attacker has already established the dedicated control position before applying submission pressure. Unlike toe hold attempts launched during transitions or scrambles, executing from an established control position means the attacker has already confirmed all structural prerequisites—deep foot placement in the armpit, figure-four grip configuration around the foot, chest pressure over the lower leg, and knee line control through hip positioning—allowing complete focus on the progressive application of rotational force to the ankle joint's ligamentous structures.\n\nThe finishing mechanics require a precise coordination of wrist rotation and chest compression that distinguishes technical practitioners from those who rely on explosive force. The figure-four grip generates torque through controlled wrist turning while the chest drops weight onto the opponent's shin, closing the angular space needed for defensive rotation. This layered pressure system creates a submission that is both mechanically sound and safe when applied progressively, giving training partners clear recognition and adequate tap opportunity before dangerous forces develop.\n\nWithin the modern leg lock hierarchy, the toe hold from Toe Hold Control functions as both a primary finishing weapon and a positional forcing function. Defenders who successfully resist the rotation often expose themselves to heel hook entries, kneebar transitions, or deeper entanglements like the saddle. This creates a systematic dilemma structure where every defensive reaction opens a new offensive pathway, making mastery of this position essential for practitioners building comprehensive leg lock games.",
   "safety_considerations": {
     "injury_risks": [
@@ -114,17 +117,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Toe Hold Control/Top",
-      "probability": 26,
+      "probability": {
+        "gi": 26,
+        "nogi": 26
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 14,
+      "probability": {
+        "gi": 14,
+        "nogi": 14
+      },
       "result": "counter"
     }
   ],

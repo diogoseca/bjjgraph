@@ -17,31 +17,49 @@
   "outcomes": [
     {
       "to": "Half Guard/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "success"
     },
     {
       "to": "Side Control/Top",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "success"
     },
     {
       "to": "Vaporizer/Top",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 30,
+  "success_rate": {
+    "gi": 30,
+    "nogi": 30
+  },
   "overview": "The Escape from Vaporizer is one of the most technically demanding defensive transitions in no-gi grappling, requiring the top player to systematically dismantle a compound control system that attacks through multiple vectors simultaneously. The Vaporizer—a hallmark of the 10th Planet system—combines the lockdown leg entanglement with the destabilizing whip-up motion and upper body control through an underhook or overhook, creating a position that threatens sweeps, back takes, and submissions like the Electric Chair in rapid succession. Unlike escaping a standard half guard bottom, escaping the Vaporizer requires addressing interconnected control points that reinforce each other.\n\nThe escape follows a strict hierarchy: first stabilize base to resist the whip-up motion, then neutralize upper body control through whizzer or crossface establishment, and finally clear the lockdown through systematic leg circulation rather than explosive yanking. Attempting to address these elements out of order—particularly trying to clear the lockdown while the opponent still has an active underhook—consistently leads to sweeps and positional loss. The mechanical principle underlying every successful escape is that the lockdown's power depends on the coordination between lower body entanglement and upper body leverage; disrupting that coordination at the upper body level weakens the entire system.\n\nTiming and patience define the difference between successful and failed escape attempts. Explosive movements play directly into the bottom player's game by creating the space and momentum they need for sweeps and transitions. Instead, steady grinding pressure that gradually degrades the opponent's control points while maintaining defensive stability produces consistently higher escape rates. The top player must accept that this escape often takes 30-60 seconds of methodical work rather than a single decisive movement.",
   "conditions": [
     "Opponent has established full lockdown figure-four configuration on one of your legs, restricting mobility and preventing standard base positioning",

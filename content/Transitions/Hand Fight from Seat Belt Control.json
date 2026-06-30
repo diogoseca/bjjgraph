@@ -14,26 +14,41 @@
   "outcomes": [
     {
       "to": "Back Control/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "success"
     },
     {
       "to": "Turtle/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "success"
     },
     {
       "to": "Seat Belt Control Back/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "failure"
     },
     {
       "to": "Seat Belt Control Back/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "Hand fighting from seat belt control represents the most critical defensive micro-battle in the back control escape hierarchy. When an opponent establishes the seat belt grip from back control, they gain biomechanically superior control through opposing diagonal force vectors across your torso. The over-shoulder arm creates downward pressure while the under-armpit arm creates upward pressure, locking your upper body in place. The hand fight is the essential first step in any escape sequence, as attempting hip escapes or hook removal while the seat belt remains intact typically results in the opponent re-establishing tighter control or advancing to choke positions through your compromised defensive posture.\n\nThe technique demands disciplined two-on-one grip fighting methodology rather than explosive strength. The bottom player must identify which arm presents the greater immediate threat - typically the over-shoulder arm that provides both primary choking leverage and the structural keystone of the grip configuration - and systematically address it while maintaining neck protection with the remaining free hand. This creates constant tactical tension: every hand committed to grip breaking is one less hand protecting your throat. Managing this dilemma through proper sequencing, rhythmic timing, and positional awareness separates effective hand fighters from practitioners who exhaust themselves without meaningful progress against skilled back attackers.\n\nSuccessful hand fighting creates cascading defensive advantages that compound through the escape sequence. Breaking the seat belt downgrades opponent's control from the specialized diagonal configuration to general back control, reducing submission options and overall retention capacity. This positional degradation opens pathways for secondary escape sequences including back door escapes, hip escapes to turtle, and elbow escapes to half guard. The hand fight is therefore not an isolated technique but a gateway action that enables the full spectrum of back escape methodology.",
   "conditions": [
     "Opponent has established seat belt grip configuration with one arm over your shoulder and one arm under your opposite armpit",

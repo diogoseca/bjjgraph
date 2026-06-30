@@ -18,7 +18,10 @@
   "target_area": "Elbow joint and shoulder girdle",
   "starting_position": "Turtle",
   "from_position": "Turtle/Top",
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "overview": "The belly down armbar from turtle exploits arm exposure that naturally occurs when the bottom player posts a hand, reaches for underhooks, or attempts to create defensive frames during turtle defense. From turtle top, the attacker identifies an isolated arm, secures two-on-one wrist control, and transitions into a prone finishing position by stepping over the opponent's body and settling belly-down on the trapped limb. This entry differs from the standard armbar control variant because the initial arm isolation must happen against an actively defending turtle player who retains strong hip mobility, rolling escape options, and the ability to explosively stand. The turtle-specific challenge lies in the narrow transition window: the bottom player can granby roll, sit through, or stand during the step-over, making decisive commitment and grip security essential for success. Once the belly-down position is established on the trapped arm, the prone finish generates overwhelming pressure through body weight and gravity, making the submission extremely difficult to defend. The key strategic insight is reading the opponent's defensive reactions for arm isolation opportunities rather than attempting to force the attack against a tight, elbows-to-knees defensive shell.",
   "safety_considerations": {
     "injury_risks": [
@@ -118,17 +121,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Turtle/Top",
-      "probability": 26,
+      "probability": {
+        "gi": 26,
+        "nogi": 26
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 14,
+      "probability": {
+        "gi": 14,
+        "nogi": 14
+      },
       "result": "counter"
     }
   ],

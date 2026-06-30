@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Crackhead Control/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Double Underhook Pass is a systematic transition from Crackhead Control that uses bilateral underhook control to flatten the turtle defender and advance to Side Control. This technique capitalizes on the chair-sit mechanics of Crackhead Control to thread both arms under the opponent's armpits, creating a powerful scooping action that eliminates their defensive base.\n\nStrategically, this pass exploits the defensive limitations created when an opponent in turtle attempts to protect their neck from back attacks. By focusing their defensive energy on preventing collar and seatbelt grips, they often leave the underhook pathways accessible. The double underhook configuration creates a mechanical advantage where your chest pressure combined with arm leverage makes it nearly impossible for them to maintain the quadruped position.\n\nThe technique represents an evolution in turtle passing methodology, moving away from traditional approaches that emphasized riding the back toward modern systems that prioritize flattening and immediate dominant position acquisition. When executed with proper timing and hip pressure coordination, the Double Underhook Pass creates a direct pathway to Side Control while eliminating the scramble opportunities that make turtle attacks risky.",
   "related_content": [
     {

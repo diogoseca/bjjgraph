@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Gift Wrap/Top",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Seat Belt Control Back/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Turtle/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "overview": "Within the back-attack hierarchy, maintenance is what separates a fleeting arm trap from a sustained submission platform. Unlike offensive transitions that seek to advance position or attack submissions, maintenance focuses on the micro-adjustments necessary to sustain dominance: tightening wrist control as it loosens, driving hips forward when the opponent bridges, and cycling between hook pressure and chest connection to deny escape angles.\n\nThis transition represents the defensive backbone of the Gift Wrap system. Every submission chain from Gift Wrap—rear naked choke, armbar on the free arm, transition to crucifix—depends on reliable maintenance between attacks. Without it, each failed submission attempt degrades into standard seat belt back control or worse, as the opponent capitalizes on momentary looseness to recover their trapped arm. The ability to reset to solid Gift Wrap control after each offensive foray separates effective back attackers from those who achieve dominant position but cannot convert.\n\nMaintenance is not passive holding. It demands constant sensory feedback and responsive adjustment. The attacker reads the opponent's escape intentions through weight shifts, shoulder rotation, and hip movement, then applies targeted counter-pressure before those escape mechanics develop. The best Gift Wrap practitioners make maintenance appear effortless because they address problems at inception rather than after space has been created.",
   "conditions": [
     "Gift Wrap arm trap fully established with arm threaded under opponent's armpit",

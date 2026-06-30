@@ -19,7 +19,10 @@
   "target_area": "Shoulder joint (rotator cuff, capsule, AC joint)",
   "starting_position": "Inverted Guard",
   "from_position": "Inverted Guard/Bottom",
-  "success_rate": 52,
+  "success_rate": {
+    "gi": 52,
+    "nogi": 52
+  },
   "overview": "Disguised as a berimbolo or back take until the leg is already over the shoulder, the inverted-guard omoplata has become a high-value addition to the inverted attacking arsenal. Unlike standard omoplata entries from closed guard or open guard, the inverted entry uses the practitioner's upside-down orientation to thread the attacking leg over the opponent's shoulder from an unexpected angle. This catches opponents who are focused on defending berimbolo and back take attempts, as the omoplata entry shares initial movements with those transitions.\n\nThe technique works best when the opponent reaches forward to control the inverted player's hips or legs, exposing their arm to the leg entanglement. The inverted practitioner threads their far leg over the opponent's shoulder while controlling the wrist, then uses rotational momentum from the inverted position to swing perpendicular and establish the classic omoplata finishing position. The momentum advantage from inversion makes the initial entry faster than traditional setups, though the finishing mechanics remain identical once the perpendicular position is achieved.\n\nStrategically, this technique adds a submission threat to the inverted guard position that forces opponents to respect multiple attack vectors simultaneously. When opponents must defend omoplata entries alongside berimbolo and leg entanglement threats, their defensive decision-making becomes overloaded, creating openings for all three attack categories.",
   "safety_considerations": {
     "injury_risks": [
@@ -105,17 +108,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 52,
+      "probability": {
+        "gi": 52,
+        "nogi": 52
+      },
       "result": "success"
     },
     {
       "to": "Inverted Guard/Bottom",
-      "probability": 31,
+      "probability": {
+        "gi": 31,
+        "nogi": 31
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 17,
+      "probability": {
+        "gi": 17,
+        "nogi": 17
+      },
       "result": "counter"
     }
   ],

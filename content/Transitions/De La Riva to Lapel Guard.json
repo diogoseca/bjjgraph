@@ -18,21 +18,33 @@
   "outcomes": [
     {
       "to": "Lapel Guard/Bottom",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "De La Riva Guard/Bottom",
-      "probability": 27,
+      "probability": {
+        "gi": 27,
+        "nogi": 27
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "summary": "The De La Riva to Lapel Guard entry is a gi-specific guard transition where the bottom player, controlling a De La Riva hook, extracts the opponent's same-side lapel and feeds it behind their hooked knee to establish worm-style lapel control.",
   "overview": "The De La Riva to Lapel Guard entry is the canonical, most commonly-taught pathway into the modern lapel guard system, popularized through Keenan Cornelius's worm guard. From a strong De La Riva hook on the bottom, the player frees the opponent's same-side lapel, threads it under their own De La Riva leg, and feeds it behind the opponent's hooked knee so the fabric itself becomes a persistent control point that does not depend on continuous grip strength.\n\nThe transition works because De La Riva already establishes the exact geometry the lapel wrap requires: the bottom player's hook is wrapped around the outside of the opponent's lead leg, and the opponent's posture is committed forward over that hook. This gives a clear window to pull the lapel free of the belt, pass it under the leg, and re-grip it on the far side of the opponent's knee. Once the lapel is threaded and the De La Riva hook is replaced by the fabric, the player has entered worm guard, the primary configuration of lapel guard, with the opponent's leg trapped by their own gi.\n\nStrategically this entry converts a dynamic, grip-dependent open guard into a low-energy, semi-permanent control structure. It is most reliable when the opponent stands or postures upright with their lead leg committed, and it underpins the entire downstream lapel-guard offense of sweeps, back takes, and the omoplata/triangle dilemmas. Beginners struggle with the timing of freeing the lapel without losing the De La Riva hook, while advanced players chain it seamlessly so the opponent rarely recognizes the entry until the wrap is complete.",
   "conditions": [

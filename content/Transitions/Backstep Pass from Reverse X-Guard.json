@@ -15,26 +15,41 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "success"
     },
     {
       "to": "Reverse X-Guard/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Against modern leg-entanglement guards, the backstep is one of the highest-percentage ways to convert a compromised top position into a dominant pin. The Backstep Pass from Reverse X-Guard exploits the structural weakness of the Reverse X-Guard configuration: because the guard player's hooks are committed to one side, the top player can rotate away from the hooks, extracting the trapped leg through a controlled arc and landing perpendicular to the opponent in side control.\n\nThe backstep pass is particularly effective when the opponent commits strongly to elevation sweeps, as their hook extension creates space for the rotation. Timing is critical—initiating the backstep when the opponent's hooks are at maximum extension reduces the resistance encountered during the rotation. The technique requires precise weight transfer to the posting leg, controlled hip rotation, and immediate consolidation upon landing to prevent guard recovery.\n\nThis technique has become a staple in modern passing systems against inverted guards and leg entanglement positions. Its value lies in its directness: rather than attempting to fight through hooks or disengage entirely, the backstep converts the opponent's leg control into a passing angle. The primary risk is the opponent following the rotation with an inversion to take the back, making upper body control and rotation speed essential components of successful execution.",
   "conditions": [
     "Opponent has established Reverse X-Guard with active hooks on your near leg",

@@ -21,7 +21,10 @@
   "target_area": "Carotid arteries and jugular veins",
   "starting_position": "Rear Triangle",
   "from_position": "Rear Triangle/Top",
-  "success_rate": 65,
+  "success_rate": {
+    "gi": 65,
+    "nogi": 65
+  },
   "overview": "The Rear Naked Choke from Rear Triangle represents one of the highest-percentage finishing combinations in modern grappling. By establishing a triangle configuration with the legs around the opponent's neck and one trapped arm, the attacker creates a control framework that fundamentally changes the RNC dynamic. The triangle legs handle positional retention and limit the opponent's primary defense—two-handed grip fighting—because one arm is already trapped inside the leg structure. This frees both hands to work exclusively on establishing the choking grip.\n\nUnlike the standard RNC from back control, where significant energy is spent managing hooks, maintaining the seatbelt, and fighting hand grips simultaneously, the rear triangle version separates these tasks between upper and lower body. The legs maintain control while the arms attack. This division of labor produces a significantly higher finishing rate and reduces the energy expenditure required to complete the submission. The trapped arm also acts as a wedge that enhances choking pressure on the carotid artery.\n\nStrategically, this submission creates a cascading dilemma: defending the triangle squeeze exposes the neck to the RNC, while defending the RNC opens space for the triangle to finish directly. Skilled attackers cycle fluidly between these threats, making the combination extremely difficult to survive once fully established.",
   "safety_considerations": {
     "injury_risks": [
@@ -106,17 +109,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Rear Triangle/Top",
-      "probability": 23,
+      "probability": {
+        "gi": 23,
+        "nogi": 23
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 12,
+      "probability": {
+        "gi": 12,
+        "nogi": 12
+      },
       "result": "counter"
     }
   ],

@@ -17,26 +17,41 @@
   "outcomes": [
     {
       "to": "Turtle/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "success"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "success"
     },
     {
       "to": "Crucifix/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "failure"
     },
     {
       "to": "Mounted Crucifix/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "The Crucifix Choke Defense represents the critical survival skill set required when an opponent threatens choke submissions from the crucifix position. When trapped in crucifix with both arms compromised, the neck becomes the primary target, and systematic choke defense becomes the immediate priority over any escape attempt. This transition encompasses the grip fighting, structural defense, and positional adjustments needed to neutralize choking threats and create windows for position recovery.\n\nThe defense operates on a strict hierarchy of urgency: protect the neck first through chin tuck and shoulder positioning, then engage in active grip fighting to strip or redirect the choking hand, and finally exploit the disruption created by successful defense to begin escaping the position entirely. Understanding this sequence is essential because practitioners who attempt to escape the crucifix while ignoring an active choke threat frequently get submitted during their escape attempt.\n\nFrom a strategic perspective, the Crucifix Choke Defense serves as a gateway technique—its primary purpose is not to maintain the current position but to create the disruption necessary for meaningful escape. Successful choke defense disrupts the opponent's control structure, creates momentary gaps in their positional dominance, and generates the space needed for arm extraction, hip escape, or turtle recovery. Advanced practitioners recognize that defending the choke and escaping the position are not separate actions but integrated sequences where one enables the other.",
   "conditions": [
     "Opponent has established crucifix position with at least one arm trapped behind their legs",

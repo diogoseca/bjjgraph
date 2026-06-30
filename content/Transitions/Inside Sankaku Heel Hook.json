@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Inside Heel Hook from Inside Sankaku",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Inside Sankaku/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "50-50 Guard/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "summary": "Executed from the Inside Sankaku (Honey Hole) leg entanglement, the Inside Sankaku Heel Hook isolates the opponent's exposed inside heel with a two-on-one blade grip and applies rotational torque to the knee, making it one of no-gi grappling's highest-percentage finishes.",
   "overview": "The Inside Sankaku Heel Hook is the primary finishing technique from the Inside Sankaku leg entanglement, widely regarded as one of the highest-percentage submissions in modern no-gi grappling. This transition represents the culmination of the leg lock attack sequence where established positional control converts into a match-ending submission. The attacker leverages the structural advantages of the Inside Sankaku figure-four configuration to isolate the opponent's heel and apply devastating rotational force to the knee joint through precise breaking mechanics.\n\nExecution requires systematic progression through several control checkpoints before committing to the finish. The attacker must confirm hip-to-hip connection and knee line dominance, strip the opponent's heel protection by forcing exposure, establish a proper two-on-one grip with the blade of the wrist positioned against the Achilles tendon, and apply controlled rotational torque. Rushing any stage dramatically reduces success rates and creates escape windows that experienced defenders exploit immediately.\n\nThe heel hook attacks the knee's ligaments through rotational force transmitted via the heel and ankle, making it one of the most dangerous techniques in grappling. The Inside Sankaku configuration provides superior breaking mechanics because the figure-four entanglement prevents the opponent from rotating with the applied force, amplifying effectiveness while limiting defensive options. This positional advantage is why Inside Sankaku remains the preferred finishing position for elite leg lock specialists in high-level competition.",
   "conditions": [

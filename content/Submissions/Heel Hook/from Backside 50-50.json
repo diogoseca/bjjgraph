@@ -18,7 +18,10 @@
   "target_area": "Knee (MCL, LCL, ACL, meniscus)",
   "starting_position": "Backside 50-50",
   "from_position": "Backside 50-50/Bottom",
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "The heel hook from Backside 50-50 bottom represents one of the most tactically significant opportunistic attacks in modern leg lock grappling. Despite occupying the disadvantaged position with your back exposed to your opponent's chest, the shared leg entanglement inherent in all 50-50 configurations means your access to the opponent's heel remains viable. This attack capitalizes on moments when the top player overcommits to passing, back control transitions, or their own leg attacks, temporarily reducing their defensive attention to their entangled leg.\n\nThe mechanics of this heel hook rely on the same fundamental rotational breaking principles as any heel hook finish, but the execution demands heightened awareness of positional vulnerability. Because you are attacking from the bottom, every second spent committing hands to the heel is a second your frames and back defense are compromised. This creates a high-stakes timing puzzle where attacking too early means insufficient heel exposure and attacking too late means the top player has already advanced past your leg entanglement.\n\nCompetition analysis reveals that this attack succeeds most often as a counter-attack rather than a proactive offense. When the top player shifts weight to pursue back control or commits to their own leg attack, their heel becomes momentarily accessible and their defensive posture toward their own legs weakens. The attempt probability is low but the finish rate is meaningful when conditions align, making it a critical deterrent that prevents top players from attacking with impunity. Recognizing these windows and executing with precision separates the opportunistic finisher from the practitioner who simply absorbs pressure from bottom.",
   "safety_considerations": {
     "injury_risks": [
@@ -66,17 +69,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Backside 50-50/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],

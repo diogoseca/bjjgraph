@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Turtle/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Anaconda Control/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "summary": "The Roll Defense from Anaconda is a bottom escape that counters the opponent's anaconda roll-through by posting the free hand, widening the base, and driving the hips against the rotation to deny the finish and recover turtle.",
   "overview": "Within the anaconda survival chain, this defense activates at the most dangerous moment of the attack — the instant an opponent with an established anaconda grip initiates their roll-through finish. The anaconda choke becomes most dangerous during the roll because the rotation tightens the constriction around the neck and trapped arm while the attacker settles into a dominant finishing angle. Defending this specific moment is often the last viable window before the choke reaches terminal tightness and escape becomes impossible.\n\nThe defense centers on disrupting the rolling mechanics through posting, base widening, and directional resistance. Rather than simply resisting the roll with pure strength, effective defense requires understanding the attacker's momentum vector and positioning your body to deny the rotation angle. The free hand posts on the mat or blocks the opponent's hip, while your hips drive away from the roll direction, removing the leverage the attacker needs to complete the technique.\n\nStrategic awareness is essential because this defense exists within a narrow timing window. Execute too early and the attacker adjusts their angle or switches to a stationary finish. Execute too late and the roll has already generated enough momentum to be unstoppable. Reading the attacker's weight shift and hip repositioning that signals roll initiation is the critical skill that separates successful defense from getting caught in the finishing sequence.",
   "conditions": [

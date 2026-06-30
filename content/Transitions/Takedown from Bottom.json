@@ -15,26 +15,41 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Standing Position/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Front Headlock/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Takedown from Bottom represents a critical offensive transition in BJJ's standing phase, executed when the practitioner finds themselves at a positional or grip disadvantage in the standing exchange. Rather than accepting the inferior standing position or pulling guard defensively, this transition converts the standing deficit into an aggressive takedown attempt that targets side control as the primary outcome. The technique demands precise timing to exploit brief windows when the opponent's defensive structure is compromised through weight shifts, grip adjustments, or postural changes. The ability to attack from a disadvantaged standing position separates competitors who can impose their game regardless of grip exchanges from those who become passive when outworked on the feet.\n\nMechanically, the takedown requires a coordinated sequence of level change, penetration step, and finishing drive that must be executed with full commitment and explosive speed to overcome the opponent's defensive advantages. The level change drops the hips below the opponent's center of gravity, the penetration step drives the lead knee deep between or outside the opponent's legs, and the finishing mechanics use lateral pressure and hip drive to complete the takedown to dominant top position. The entire sequence must flow as a single explosive movement rather than discrete steps, with each phase loading energy for the next.\n\nStrategically, this transition serves as the cornerstone of a standing game plan that prioritizes achieving top position against opponents who dominate the grip fight. When combined with snap-downs, arm drags, and collar drags as setup entries, the takedown from bottom creates a comprehensive attacking system from the standing phase. The threat of the takedown itself forces the opponent to defend their legs, opening opportunities for upper body attacks and guard pull entries when the takedown is not directly available. Mastering this transition ensures that a lost grip exchange never translates into a lost positional battle.",
   "conditions": [
     "Both practitioners are standing with at least one point of grip contact established",

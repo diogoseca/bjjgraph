@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Reverse Half Guard/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The backstep from reverse half guard is a decisive back-taking technique executed when the top player has achieved the reverse half guard configuration, positioned behind the bottom player with one leg still trapped in their half guard. This transition capitalizes on the natural back exposure created by the reverse orientation, using a coordinated stepping motion to swing the free leg behind the opponent and establish hooks for full back control. The technique is most effective when the bottom player attempts to turn and face the top player, as their rotation further exposes the back and compromises their defensive base.\n\nThis transition represents one of the highest-percentage back takes available from the guard passing system. The reverse half guard already places the top player behind the opponent with chest-to-back connection, and the backstep exploits this advantageous angle through precise leg movement and continuous upper body control. The critical mechanical principle is maintaining seatbelt grip and chest pressure throughout the stepping arc, preventing any separation that would allow the bottom player to recover defensive positioning. Timing the backstep with the opponent's defensive movements rather than forcing it against a stabilized defender dramatically increases success rates.\n\nThe backstep from reverse half guard integrates as the natural finishing sequence in the backstep passing chain. When practitioners execute backstep passes from De La Riva, deep half, K-guard, or standard half guard positions, they frequently arrive in reverse half guard. Completing the back take from this intermediate position transforms a passing advantage into the most dominant position in Brazilian Jiu-Jitsu, making this technique essential knowledge for practitioners developing systematic backstep passing games.",
   "conditions": [
     "Top player has established reverse half guard position with chest behind opponent",

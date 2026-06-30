@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Inside Ashi-Garami/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Saddle/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Leg pummeling from the saddle is a critical defensive technique that enables a trapped practitioner to systematically downgrade from one of the most dangerous leg entanglement positions in Brazilian Jiu-Jitsu to the comparatively safer inside ashi-garami configuration. Rather than attempting a complete escape, this technique acknowledges the difficulty of fully extracting from a locked saddle and instead focuses on replacing the opponent's controlling legs with your own hooks, effectively converting a submission-imminent position into a manageable entanglement where defensive options multiply significantly.\n\nThe mechanics of leg pummeling center on using your free leg and hip movement to infiltrate the space between your trapped leg and the opponent's figure-four or triangle lock. By inserting your free leg inside the opponent's controlling hooks and progressively replacing their entanglement structure with your own defensive positioning, you break the perpendicular control that makes the saddle so dangerous. This converts the position from one where the opponent has dominant inside control and heel access to one where both practitioners share a more neutral leg configuration.\n\nSuccess with this technique requires patience, precise timing, and an unwavering commitment to heel protection throughout the pummeling sequence. The transition window is narrow—the opponent will feel your legs moving and attempt to either re-lock their controlling configuration or capitalize on the momentary instability by attacking immediately. Training this escape under progressive resistance builds the sensitivity to recognize when the opponent's legs momentarily loosen, creating the split-second opportunity for the pummel to succeed.",
   "conditions": [
     "Your leg is trapped in saddle with opponent's figure-four or triangle configuration established around it",

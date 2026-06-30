@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Open Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Aoki Lock Control/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Rolling Escape to Guard is a critical defensive technique for escaping the dangerous Aoki Lock position. When trapped in the leg-entangled shoulder lock, the forward roll toward your trapped arm creates momentum that disrupts the opponent's control structure while following the path of least resistance for your shoulder. This technique exploits a fundamental principle: rolling with the submission pressure rather than fighting against it reduces joint stress while creating space for arm extraction.\n\nStrategically, this escape should be initiated when you recognize the Aoki Lock is being established but before full pressure is applied. The rolling motion uses the opponent's forward hip drive against them, converting their finishing pressure into escape momentum. The technique requires precise timing - too early and you give up the position unnecessarily, too late and the submission is already locked.\n\nThe Rolling Escape represents the primary high-percentage escape from Aoki Lock, particularly effective when the opponent commits heavily to the shoulder pressure. Success depends on coordinating the roll direction, maintaining internal shoulder rotation throughout, and immediately establishing guard frames upon completing the escape. This technique appears regularly in no-gi competition where shoulder locks from leg entanglements are common finishing positions.",
   "related_content": [
     {

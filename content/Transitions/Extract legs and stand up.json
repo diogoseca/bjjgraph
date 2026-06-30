@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Open Guard/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "50-50 Guard/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Ashi Garami/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "Extract Legs and Stand Up is the fundamental escape pathway from bottom 50-50 Guard when submission threats exceed your ability to reverse or counter-attack. This technique prioritizes positional safety over positional advancement, recognizing that escaping a dangerous leg entanglement to reset standing creates better opportunities than remaining in a compromised bottom position against a skilled leg locker.\n\nThe extraction sequence requires precise timing, explosive hip movement, and coordinated grip breaks to clear your leg from the entanglement while preventing opponent from immediately re-establishing control or finishing a submission. Unlike reversal attempts that require inside position parity, the standing escape can be executed regardless of inside control hierarchy, making it the highest-percentage defensive option when outmatched in the leg lock game.\n\nStrategically, this escape reflects modern competitive reality: when facing a superior leg lock practitioner, the intelligent choice is often disengagement rather than engagement. Standing up resets the exchange on neutral terms where takedown wrestling and guard passing become the primary battlegrounds instead of leg lock exchanges that favor your opponent.",
   "related_content": [
     {

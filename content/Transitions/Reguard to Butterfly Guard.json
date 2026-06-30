@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Butterfly Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Butterfly Hook Control/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The reguard to butterfly guard is a fundamental guard recovery technique used when your butterfly hook control position becomes compromised through opponent pressure, partial hook clearing, or posture breakdown. Rather than accepting a degraded position vulnerable to passes, this technique systematically restores full butterfly guard structure through coordinated hip movement, hook reinsertion, and grip recovery. It is one of the most frequently used micro-transitions in competition, occurring every time a guard player's hooks are partially disrupted.\n\nThe technique operates on the principle that butterfly guard effectiveness depends on three interconnected elements: deep hook placement inside the opponent's thighs, upright seated posture, and controlling upper body grips. When any of these elements degrades, the position loses offensive capability and becomes increasingly vulnerable to passing. The reguard addresses this by prioritizing space creation through frames and hip escapes, then rebuilding each element in the correct sequence—hooks first, posture second, grips third.\n\nStrategically, the ability to recover a compromised guard position rather than accepting progressive degradation separates intermediate practitioners from advanced ones. A skilled butterfly guard player treats partial hook displacement not as a defeat but as a momentary setback that can be systematically reversed. This recovery cycle—compromise, reguard, attack—forms the backbone of sustainable butterfly guard play and allows practitioners to maintain offensive pressure even against elite passers who regularly threaten hook clearing and posture destruction.",
   "conditions": [
     "At least one butterfly hook remains engaged inside opponent's thigh",

@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Armbar Control/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Mounted Crucifix/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Straight Armbar from Mounted Crucifix exploits the unique arm isolation that the crucifix configuration provides. With one or both of the opponent's arms already trapped by your legs, you have eliminated their primary defensive tools, making the armbar entry significantly more accessible than from standard mount or side control. The technique capitalizes on the opponent's inability to clasp hands, frame against your hips, or create the defensive structures that normally make armbars difficult to secure.\n\nStrategically, the Straight Armbar functions as the primary limb attack within the Mounted Crucifix attack system. When the opponent defends choke attempts by tucking their chin or turning their head, the arm becomes the natural secondary target. The trapped arm is already partially extended and controlled, requiring only the addition of hip pressure across the elbow joint to threaten the finish. This creates the tactical dilemma that makes Mounted Crucifix so dangerous: defending the neck exposes the arm, and defending the arm opens the neck.\n\nThe execution demands precise hip positioning and controlled transition from crucifix control to armbar finishing position. The critical challenge is maintaining arm isolation throughout the transition. Rushing the finish before securing proper hip alignment across the elbow is the most common failure point. A systematic approach — isolate, control, align, then extend — produces the highest completion rates and prevents the opponent from extracting the arm during the transition phase.",
   "related_content": [
     {

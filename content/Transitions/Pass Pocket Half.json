@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Pocket Half Guard/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Passing the Pocket Half Guard is a systematic pressure-based guard pass where the top player leverages established underhook control and chest pressure to complete the transition from pocket half guard to side control. This technique represents the culmination of the half guard passing sequence, where the top player has already won the critical underhook battle and established sufficient flattening pressure to begin extracting the trapped leg through the bottom player's guard. The pass addresses the unique challenges posed by the pocket half guard configuration, specifically the bottom player's deep underhook and active hip frame that create the characteristic pocket space.\n\nUnlike generic half guard passes, this technique requires neutralizing the pocket-specific defensive structures before extraction can begin. The top player must collapse the pocket space through coordinated crossface driving, chest pressure, and hip alignment while preventing the bottom player from transitioning to deep half guard or executing sweeps during the vulnerable extraction phase. The extraction itself demands precise weight distribution—too much weight forward and the bottom player can enter deep half, too little and they recover their pocket frame.\n\nStrategic timing is critical to this pass. The extraction phase creates a brief window where the top player's base is compromised, making it the most dangerous moment for sweep attempts and guard recoveries. Successful practitioners develop sensitivity to the bottom player's hip movement and frame adjustments, waiting for the optimal moment when defensive structures are weakest before committing to the extraction. Chaining this pass with knee slice and smash pass variations creates multi-threat pressure sequences that overwhelm defensive responses.",
   "conditions": [
     "Top player has established underhook control with grip reaching opponent's far lat or shoulder blade",

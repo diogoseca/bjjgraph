@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Kneebar Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Grasshopper Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Within the modern leg-lock game, the Rolling Kneebar is the most aggressive committed entry available from the inverted grasshopper platform, trading positional safety for a high-momentum attack that becomes difficult to defend once launched. This technique leverages the inverted positioning inherent to grasshopper guard, converting the guard player's elevated hips and leg entanglement into an aggressive rolling submission entry.\n\nThe attack works by using the bottom player's existing leg contact as an anchor point while rolling underneath and through the opponent's base. As you roll, your legs trap the opponent's leg while your hips rotate to create the breaking angle across their knee joint. The momentum of the roll makes this attack difficult to defend once initiated properly, as the opponent must deal with both the rotational force and the sudden positional change.\n\nStrategically, the Rolling Kneebar excels when opponents attempt to back step away from grasshopper guard. Their retreating motion actually facilitates the roll by creating space and providing directional momentum. The technique also works when opponents freeze against your leg engagement, as their static positioning gives you time to set the roll. However, against opponents who drive forward aggressively, the roll becomes harder to execute and other attacks like X-Guard sweeps become preferable.\n\nThis submission requires significant timing and body coordination, as the roll must be executed smoothly while maintaining leg control throughout. Rushing the roll or losing hip connection mid-technique typically results in the opponent extracting their leg and passing. Mastery requires understanding the precise moment when your hip elevation, leg grip, and opponent's positioning align to create the ideal rolling window.",
   "conditions": [
     "Established grasshopper guard with hips elevated",

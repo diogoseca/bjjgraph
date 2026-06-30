@@ -14,26 +14,41 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Leg Knot/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "In the contested world of modern leg entanglements, the backstep represents a deliberate decision to abandon the submission battle in favor of guaranteed positional dominance. When both practitioners are locked in a leg knot configuration, the positional warfare becomes a double-edged sword where submission threats exist for both sides. The backstep provides a decisive exit strategy that transforms mutual danger into dominant pinning control, allowing the top player to prioritize positional advancement over continued leg lock exchanges.\n\nThe mechanical foundation of this technique relies on hip switching combined with systematic leg extraction. Rather than muscling through the entanglement or forcing submissions from a contested position, the backstep allows the top player to disengage cleanly by rotating their hips away from the knot, extracting their trapped leg, and stepping over or around the opponent's legs to achieve a perpendicular chest-to-chest pin. The timing window is narrow, as the bottom player will aggressively attempt to re-entangle or recover guard during the transition.\n\nThis technique has gained prominence in modern competition as practitioners recognize that not every leg entanglement needs to result in a leg lock exchange. Against opponents with strong heel hook defense or when the entanglement is neutral rather than advantageous, choosing to disengage and pass yields three points in IBJJF rulesets while eliminating the risk of being caught in a counter leg lock. The backstep from leg knot bridges the gap between modern leg lock systems and classical top-game passing, making it essential for well-rounded competitive grapplers.",
   "conditions": [
     "Top player has established Leg Knot Top position with some upper body mobility",

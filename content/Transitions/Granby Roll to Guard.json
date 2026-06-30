@@ -14,26 +14,41 @@
   "outcomes": [
     {
       "to": "Closed Guard/Bottom",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "success"
     },
     {
       "to": "Buggy Choke/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Granby Roll to Guard is a dynamic defensive escape technique used to recover guard position when caught in the Buggy Choke or similar turtle-attacking positions. Named after the wrestling-derived shoulder roll movement, this technique uses rotational momentum and hip mobility to invert beneath the opponent and emerge facing them in a guard position. The movement exploits the brief windows when the attacking player commits weight forward or attempts to consolidate grips.\n\nStrategically, the Granby Roll represents an aggressive defensive philosophy where controlled movement is preferable to static survival. Rather than fighting grip-by-grip against a deteriorating position, the practitioner accepts temporary vulnerability during the roll in exchange for a complete positional reset. This technique is particularly valuable against sophisticated turtle attacks where passive defense leads inevitably to submission or back exposure.\n\nThe technical demands of the Granby Roll require significant hip mobility, proprioceptive awareness, and precise timing. Executing the roll too early allows the opponent to follow and maintain control; executing too late means the position has already consolidated beyond the escape window. Mastery of this technique provides a reliable emergency exit from dangerous turtle scenarios while building the movement vocabulary necessary for advanced guard retention and recovery systems.",
   "related_content": [
     {

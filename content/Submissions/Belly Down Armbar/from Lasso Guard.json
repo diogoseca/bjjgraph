@@ -18,7 +18,10 @@
   "target_area": "Elbow joint hyperextension and ulnar collateral ligament",
   "starting_position": "Lasso Guard",
   "from_position": "Lasso Guard/Bottom",
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "The belly down armbar finish from lasso guard exploits the unique arm isolation that lasso control provides. With the shin threaded across the opponent's tricep and a firm sleeve grip maintaining control, the guard player has already accomplished the most difficult part of any armbar attack — separating a single arm from the opponent's defensive structure. This pre-existing control makes the transition to an armbar position significantly more reliable than entries from other guard types, as the opponent cannot easily retract or hide the targeted arm.\n\nThe finishing sequence involves transitioning from the lasso configuration into a standard armbar position by swinging the non-lasso leg across the opponent's face while maintaining the sleeve grip. Once the legs frame around the arm, the attacker releases the lasso threading and rotates belly down, dramatically increasing the mechanical advantage against the elbow joint. The belly down position prevents the most common armbar escapes — stacking, hitchhiker rotation, and arm extraction — because the attacker's body weight pins the opponent while gravity assists the extension.\n\nFrom a strategic perspective, this submission works best when the opponent is focused on defending lasso sweeps. The constant sweep threats force the opponent to commit their weight in predictable patterns, creating windows where the armbar entry can be initiated before they recognize the shift from sweep attack to submission attack. This deception makes the belly down armbar from lasso guard a powerful secondary threat that capitalizes on the opponent's sweep defense reactions.",
   "safety_considerations": {
     "injury_risks": [
@@ -100,17 +103,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Lasso Guard/Bottom",
-      "probability": 32,
+      "probability": {
+        "gi": 32,
+        "nogi": 32
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 18,
+      "probability": {
+        "gi": 18,
+        "nogi": 18
+      },
       "result": "counter"
     }
   ],

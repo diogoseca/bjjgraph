@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Crab Ride/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "The Escape from Crab Ride is a critical defensive transition addressing one of modern grappling's most dangerous intermediate positions. When an opponent establishes crab ride, sitting perpendicular to your turtle with a hook controlling your hip and upper body grips limiting movement, you face an urgent positional crisis. Crab ride serves as a launching pad for back takes, crucifix entries, and submission attacks, making immediate escape action essential rather than optional. The position deteriorates rapidly if left unaddressed, as the top player systematically works to insert a second hook and consolidate full back control.\n\nThe escape methodology centers on three sequential priorities: first, prevent advancement to full back control by blocking the second hook and managing upper body grips; second, strip the existing hook through coordinated hip movement and hand fighting; third, create enough separation to recover guard or establish a neutral position. The technical challenge lies in executing these steps while the opponent applies constant forward pressure and threatens multiple attack vectors simultaneously. Each priority must be addressed in order, as skipping steps typically results in positional degradation rather than improvement.\n\nStrategically, this escape functions as a race condition. The bottom player must disrupt the crab ride control structure faster than the top player can consolidate it. Timing is paramount because the highest percentage escape windows occur during grip transitions, weight shifts, and moments when the top player commits to advancing position. Practitioners who wait passively find the position deteriorating rapidly toward full back control, while those who act with technical precision during transitional moments achieve guard recovery at significantly higher rates. The escape integrates hip movement, frame creation, and directional changes to systematically dismantle the crab ride control structure.",
   "conditions": [
     "Opponent has established crab ride with at least one hook under your hip from a perpendicular angle",

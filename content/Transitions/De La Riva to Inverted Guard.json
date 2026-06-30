@@ -18,24 +18,35 @@
   "outcomes": [
     {
       "to": "Inverted Guard/Bottom",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "De La Riva Guard/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "summary": "The De La Riva to Inverted Guard entry is a guard-retention transition in which the bottom player uses their De La Riva hook and deep collar or pant grip to rotate underneath the opponent onto their shoulders, arriving in Inverted Guard to set up berimbolos and back takes.",
-  "overview": "The De La Riva to Inverted Guard entry is the canonical doorway into modern inverted guard play, converting the angular control of De La Riva into the upside-down mobility of inversion. From De La Riva, the bottom player already owns the outside hook behind the opponent's lead leg and typically a same-side sleeve or far-collar grip; by pulling that grip down and tucking the head, the practitioner spins beneath the opponent, loading weight onto the shoulder blades rather than the neck and arriving inverted with direct access to the hips and back.\n\nThis entry is the foundation of the berimbolo system popularized by the Mendes brothers and is taught at virtually every modern competition gym. The strength of the transition lies in continuity of control: the De La Riva hook never fully releases during the inversion, so even as the practitioner rotates upside-down they maintain a tether to the opponent's leg that prevents the obvious counter of simply stepping away. The same hook becomes the steering wheel for the berimbolo or rolling back take that usually follows immediately.\n\nBecause inverted guard is a transitional rather than static position, this entry is rarely an end in itself. Skilled players treat the arrival in Inverted Guard as the first beat of a two- or three-step sequence: invert, then berimbolo to the back or shoot to Single Leg X. The most common failure mode is the opponent stepping their hooked leg free or driving forward to stack before the inversion completes, which is why timing the entry to the opponent's weight shift is essential. Executed cleanly, it gives the guard player a sudden, hard-to-track angle that traditional pressure passing struggles to answer."
-  ,
+  "overview": "The De La Riva to Inverted Guard entry is the canonical doorway into modern inverted guard play, converting the angular control of De La Riva into the upside-down mobility of inversion. From De La Riva, the bottom player already owns the outside hook behind the opponent's lead leg and typically a same-side sleeve or far-collar grip; by pulling that grip down and tucking the head, the practitioner spins beneath the opponent, loading weight onto the shoulder blades rather than the neck and arriving inverted with direct access to the hips and back.\n\nThis entry is the foundation of the berimbolo system popularized by the Mendes brothers and is taught at virtually every modern competition gym. The strength of the transition lies in continuity of control: the De La Riva hook never fully releases during the inversion, so even as the practitioner rotates upside-down they maintain a tether to the opponent's leg that prevents the obvious counter of simply stepping away. The same hook becomes the steering wheel for the berimbolo or rolling back take that usually follows immediately.\n\nBecause inverted guard is a transitional rather than static position, this entry is rarely an end in itself. Skilled players treat the arrival in Inverted Guard as the first beat of a two- or three-step sequence: invert, then berimbolo to the back or shoot to Single Leg X. The most common failure mode is the opponent stepping their hooked leg free or driving forward to stack before the inversion completes, which is why timing the entry to the opponent's weight shift is essential. Executed cleanly, it gives the guard player a sudden, hard-to-track angle that traditional pressure passing struggles to answer.",
   "conditions": [
     "De La Riva hook established behind the opponent's lead (near) leg with active foot control",
     "A controlling upper-body grip in place — far collar, same-side sleeve, or pant cuff — to pull yourself under the opponent",
@@ -83,8 +94,7 @@
   "attacker": {
     "name": "De La Riva to Inverted Guard Attacker",
     "description": "How to invert from De La Riva Guard in BJJ. Attacking perspective with grips, inversion mechanics, berimbolo follow-ups, and neck-safety detail.",
-    "overview": "Inverting from De La Riva is the attacker's gateway into the berimbolo and back-take game. The attacker leverages the existing De La Riva hook and a controlling upper-body grip to spin beneath the opponent, trading a brief moment of upside-down vulnerability for a direct angle to the hips and back. The key insight is that the De La Riva hook is never abandoned during the rotation — it remains the anchor that pulls the opponent's weight in the direction of the spin while keeping the attacker tethered to the leg.\n\nThis is a flexibility- and timing-dependent transition. The attacker must load weight onto the shoulder blades and upper back, head tucked, never the neck, and must initiate the inversion as the opponent shifts weight forward or attempts to circle around the hook. Done early, the inversion is smooth and the opponent's own forward momentum assists the spin. Done late, the opponent can step the leg free or stack the attacker before the rotation completes. Once inverted, the attacker should immediately flow into the berimbolo, rolling back take, or a single-leg-X exit rather than holding the inverted position statically, since static inversion is the easiest version to stack and pass."
-  ,
+    "overview": "Inverting from De La Riva is the attacker's gateway into the berimbolo and back-take game. The attacker leverages the existing De La Riva hook and a controlling upper-body grip to spin beneath the opponent, trading a brief moment of upside-down vulnerability for a direct angle to the hips and back. The key insight is that the De La Riva hook is never abandoned during the rotation — it remains the anchor that pulls the opponent's weight in the direction of the spin while keeping the attacker tethered to the leg.\n\nThis is a flexibility- and timing-dependent transition. The attacker must load weight onto the shoulder blades and upper back, head tucked, never the neck, and must initiate the inversion as the opponent shifts weight forward or attempts to circle around the hook. Done early, the inversion is smooth and the opponent's own forward momentum assists the spin. Done late, the opponent can step the leg free or stack the attacker before the rotation completes. Once inverted, the attacker should immediately flow into the berimbolo, rolling back take, or a single-leg-X exit rather than holding the inverted position statically, since static inversion is the easiest version to stack and pass.",
     "key_principles": [
       "Keep the De La Riva hook engaged throughout the rotation — it is the steering wheel for the spin and the anchor that prevents the opponent from simply stepping away",
       "Load weight onto the shoulder blades and upper back with the head tucked; never let the cervical spine bear weight during the inversion",
@@ -253,8 +263,7 @@
   "defender": {
     "name": "De La Riva to Inverted Guard Defender",
     "description": "How to defend the De La Riva to Inverted Guard entry in BJJ. Recognition cues, leg-strip and stack counters, and guard-passing follow-ups for the top player.",
-    "overview": "As the passer facing a De La Riva guard player who threatens to invert, the defender's job is to deny the inversion before it starts or to punish it the instant it does. The entire transition depends on the bottom player keeping their De La Riva hook engaged and securing an upper-body grip while they rotate onto their shoulders. The defender wins by attacking exactly those two dependencies — stripping the hook and killing the controlling grip — and by reading the early cues so they can step out of the spin rather than chase it.\n\nThe critical defensive window opens the moment the bottom player off-balances you forward and begins to tuck their head and drop a shoulder. If you recognize the inversion early, the cleanest answer is to free the hooked leg and circle away from the spin, taking the back-take angle with you. If the inversion is already underway, the highest-percentage counter is to drive forward and stack, converting their upside-down position into a pass to side control — provided you respect the berimbolo and never let them use your forward weight as rotation energy.\n\nThe defender must understand that this entry is the front door to the berimbolo system. Every defensive choice should account for the follow-up: stepping out denies the back take, stacking denies the static inversion, and grip-stripping denies the whole transition at the source. The worst outcome is half-committing — leaning forward without controlling the legs — which feeds the bottom player's spin and hands them your back."
-  ,
+    "overview": "As the passer facing a De La Riva guard player who threatens to invert, the defender's job is to deny the inversion before it starts or to punish it the instant it does. The entire transition depends on the bottom player keeping their De La Riva hook engaged and securing an upper-body grip while they rotate onto their shoulders. The defender wins by attacking exactly those two dependencies — stripping the hook and killing the controlling grip — and by reading the early cues so they can step out of the spin rather than chase it.\n\nThe critical defensive window opens the moment the bottom player off-balances you forward and begins to tuck their head and drop a shoulder. If you recognize the inversion early, the cleanest answer is to free the hooked leg and circle away from the spin, taking the back-take angle with you. If the inversion is already underway, the highest-percentage counter is to drive forward and stack, converting their upside-down position into a pass to side control — provided you respect the berimbolo and never let them use your forward weight as rotation energy.\n\nThe defender must understand that this entry is the front door to the berimbolo system. Every defensive choice should account for the follow-up: stepping out denies the back take, stacking denies the static inversion, and grip-stripping denies the whole transition at the source. The worst outcome is half-committing — leaning forward without controlling the legs — which feeds the bottom player's spin and hands them your back.",
     "key_principles": [
       "Attack the two dependencies of the entry: strip the De La Riva hook and kill the controlling upper-body grip",
       "Recognize the inversion early — chin tuck and dropping shoulder are your signal to step out, not lean in",

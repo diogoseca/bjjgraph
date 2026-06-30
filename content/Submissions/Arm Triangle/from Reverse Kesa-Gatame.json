@@ -18,7 +18,10 @@
   "target_area": "Carotid arteries (compressed by opponent's own shoulder and your arm)",
   "starting_position": "Reverse Kesa-Gatame",
   "from_position": "Reverse Kesa-Gatame/Top",
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "summary": "The Arm Triangle from Reverse Kesa-Gatame is a head-and-arm blood choke that exploits the reverse scarf hold's natural far-arm isolation, driving the opponent's trapped arm across their neck so their own shoulder and your forearm compress both carotid arteries until they tap.",
   "overview": "The Arm Triangle from Reverse Kesa-Gatame exploits the inherent arm-isolating properties of the reverse scarf hold to create one of the most natural and high-percentage arm triangle entries available. In Reverse Kesa-Gatame, the top player already controls the opponent's far arm under their armpit as a fundamental aspect of the position. This means the most difficult component of any arm triangle attack — trapping the opponent's arm against their own neck — is largely accomplished before the submission attempt even begins.\n\nThe finishing mechanics follow the classic arm triangle pattern: the opponent's trapped shoulder compresses one carotid artery while the attacker's forearm blade crosses behind the neck to compress the other. What distinguishes this entry is the smooth transition from pin control to submission threat. The attacker drives the already-isolated far arm across the opponent's neck, threads their choking arm behind the head, and locks a figure-four or gable grip. Walking to a perpendicular side control angle, combined with dropping the near hip and driving chest-to-chest compression, creates the bilateral carotid restriction that forces the tap.\n\nStrategically, this submission punishes opponents who remain passive under the Reverse Kesa-Gatame pin. Practitioners who focus exclusively on surviving chest pressure without addressing their far arm position become prime targets. The arm triangle from Reverse Kesa-Gatame is particularly effective in no-gi grappling where direct pressure and arm isolation mechanics are amplified. It chains naturally with Americana and Kimura attacks from the same position, creating a submission cycle that forces the opponent to defend multiple threats simultaneously.",
   "safety_considerations": {
@@ -105,17 +108,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 62,
+      "probability": {
+        "gi": 62,
+        "nogi": 62
+      },
       "result": "success"
     },
     {
       "to": "Reverse Kesa-Gatame/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 13,
+      "probability": {
+        "gi": 13,
+        "nogi": 13
+      },
       "result": "counter"
     }
   ],

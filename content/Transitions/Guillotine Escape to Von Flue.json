@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Guillotine Control/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "summary": "The Guillotine Escape to Von Flue is a counter to a bottom-guard guillotine in which the trapped top player passes toward the choking-arm side and drives shoulder pressure into the exposed carotid, weaponizing the opponent's own grip into a Von Flue choke.",
   "overview": "The Guillotine Escape to Von Flue is one of the most elegant counter-techniques in Brazilian Jiu-Jitsu, transforming a defensive survival situation into an offensive submission opportunity. When caught in a guillotine from the bottom player's guard, the top player methodically passes to side control on the choking arm side. If the bottom player stubbornly maintains their guillotine grip after the pass is completed, they inadvertently create the conditions for their own demise—the Von Flue choke. The top player drives shoulder pressure directly into the carotid artery on the side held open by the opponent's extended neck, using their own grip structure against them.\n\nThis technique exemplifies the principle of turning defensive liability into offensive advantage. Rather than fighting to strip the guillotine grip—which burns energy and often fails—the practitioner accepts the grip and redirects the engagement into a passing sequence. The Von Flue choke works precisely because the opponent maintains their guillotine hold: their own arm compresses one side of the neck while your shoulder compresses the other. This bilateral compression creates a blood choke that can render opponents unconscious in seconds. The technique has become a staple counter at all competitive levels after numerous high-profile finishes demonstrated its reliability.\n\nStrategically, the mere threat of the Von Flue forces guillotine players to reconsider holding their grip once the guard is passed. This creates a powerful deterrent effect—experienced practitioners who know the Von Flue will release their guillotine early during guard passing attempts, which itself benefits the passer by removing the choking threat and conceding side control. The technique functions both as a direct submission counter and as a strategic tool that shapes opponent behavior, making it invaluable for anyone who regularly faces guillotine attacks from bottom guard.",
   "conditions": [

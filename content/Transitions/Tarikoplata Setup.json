@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Omoplata Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Meathook/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Tarikoplata Setup is an advanced shoulder lock entry executed from Meathook that transforms the position's arm isolation into a compound submission attack combining omoplata mechanics with wrist control. Named after Tarik Hopstock, this technique exploits the trapped arm configuration of Meathook by threading the bottom player's leg over the opponent's shoulder into a modified omoplata position while simultaneously securing a wrist grip that adds rotational torque to the shoulder attack.\n\nStrategically, the Tarikoplata Setup occupies a unique position in the Meathook attack hierarchy. While the Gogoplata punishes forward pressure and the Baratoplata punishes backward arm extraction, the Tarikoplata is most effective when the opponent attempts a controlled, static defense—neither driving forward nor pulling back, but simply trying to wait out the position. The wrist control component distinguishes this from a standard omoplata transition by preventing the rolling escape that experienced grapplers use to defeat traditional omoplata attacks. Once the wrist is secured and rotated, every defensive option accelerates the shoulder lock.\n\nThe technique requires precise sequencing: the shin must clear the shoulder line, the hip pivot must create omoplata angle, and the wrist grip must be established before releasing any Meathook control. Rushing any phase collapses the attack. For purple and brown belt practitioners, the Tarikoplata represents the deeper submission layer of Rubber Guard—where basic position chains evolve into compound locks that attack multiple joint structures simultaneously.",
   "related_content": [
     {

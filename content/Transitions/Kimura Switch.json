@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Kimura Trap/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Aoki Lock Control/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Turtle/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Kimura Switch represents a critical transitional technique from Aoki Lock top position that converts leg-entangled shoulder control into traditional Kimura grip control. When opponents defend the Aoki Lock by rotating their shoulder inward or blocking hip pressure, the Kimura Switch provides an alternative attack vector that maintains offensive pressure while changing the mechanical angle of shoulder manipulation.\n\nThis transition exploits a fundamental defensive dilemma: defending the Aoki Lock's rotational pressure typically exposes the arm to Kimura grip capture. By releasing leg entanglement and immediately securing double wrist control in the figure-four configuration, you maintain continuous submission threat without allowing positional escape. The switch preserves your dominant top position while transitioning from leg-based control to grip-based control.\n\nStrategically, the Kimura Switch serves as a pressure relief valve that prevents stalemates in the Aoki Lock position. Rather than forcing a defended submission, you flow to an equally dangerous attack that catches opponents during their defensive adjustment. The technique requires precise timing, rapid grip acquisition, and understanding of how the two shoulder lock systems complement each other within the broader positional hierarchy.",
   "related_content": [
     {

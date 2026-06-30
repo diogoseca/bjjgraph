@@ -18,7 +18,10 @@
   "target_area": "Shoulder joint, rotator cuff, and shoulder capsule",
   "starting_position": "Kesa Gatame",
   "from_position": "Kesa Gatame/Top",
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "overview": "The Kimura from Kesa Gatame exploits the unique arm isolation inherent in the scarf hold position. Unlike the Kimura from standard side control where you must first fight for wrist control, Kesa Gatame pre-loads the near arm trap under your armpit, giving you a significant head start on the figure-four grip. The perpendicular body angle creates a powerful rotational platform where your entire torso drives the shoulder lock rather than relying primarily on arm strength.\n\nThe key mechanical difference lies in the transition from headlock grip to figure-four. In Kesa Gatame, you already control the opponent's near arm tightly against your body. The challenge is releasing head control briefly to secure the double wrist grip without losing positional dominance. This requires precise weight distribution—shifting your chest pressure onto the opponent's face and upper body to maintain the pin while your hands work to establish the Kimura grip.\n\nFrom a strategic standpoint, the Kimura from Kesa Gatame creates a powerful submission-position chain. If the opponent defends the Kimura by straightening their arm, you transition to an Americana or armbar. If they turn into you to relieve pressure, you advance to mount. This makes the Kimura attempt from Kesa Gatame a low-risk, high-reward attack that maintains positional advantage even when the submission itself fails.",
   "safety_considerations": {
     "injury_risks": [
@@ -108,17 +111,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 62,
+      "probability": {
+        "gi": 62,
+        "nogi": 62
+      },
       "result": "success"
     },
     {
       "to": "Kesa Gatame/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 13,
+      "probability": {
+        "gi": 13,
+        "nogi": 13
+      },
       "result": "counter"
     }
   ],

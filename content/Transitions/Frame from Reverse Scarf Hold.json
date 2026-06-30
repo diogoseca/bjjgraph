@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Reverse Scarf Hold/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "North-South/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "The Frame from Reverse Scarf Hold is a systematic defensive escape technique where the bottom player uses skeletal frames against the top player's body to incrementally create space for hip escape and guard recovery. Unlike bridge-based escapes that require explosive power and precise timing, this frame escape operates through persistent mechanical advantage, making it the most energy-efficient and reliable escape available from reverse scarf hold bottom when the top player's base is too wide for effective bridging.\n\nThe technique exploits a key vulnerability in reverse scarf hold: because the top player faces the bottom player's legs rather than their head, their ability to address frames directed at their neck and far shoulder is biomechanically limited. The bottom player establishes forearm frames using ulna bone contact against the top player's hip or shoulder, creating structural barriers that prevent the top player from re-closing distance after each hip escape increment. This incremental approach accumulates space that the opponent cannot recover, unlike single explosive movements that can be absorbed and followed.\n\nFrom a strategic perspective, the frame escape creates a complementary dilemma system with the bridge escape from the same position. When the top player widens their base to resist bridges, they become more susceptible to sustained framing pressure. When they tighten their position to collapse frames, bridge escape angles open. This two-threat system systematically degrades reverse scarf hold control until one method succeeds, making the frame escape an essential component of any complete reverse scarf hold escape toolkit.",
   "conditions": [
     "Far-side arm is free and available for establishing forearm frames against opponent's body",

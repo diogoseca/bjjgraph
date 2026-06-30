@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Twister Side Control/Top",
-      "probability": 70,
+      "probability": {
+        "gi": 70,
+        "nogi": 70
+      },
       "result": "success"
     },
     {
       "to": "Truck/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 70,
+  "success_rate": {
+    "gi": 70,
+    "nogi": 70
+  },
   "overview": "The Transition to Twister Side Control converts the perpendicular back-attack orientation of the Truck into a lateral chest-to-chest control position that emphasizes spinal torque and shoulder pressure. Where the Truck threatens primarily through boot pressure and vertical leg entanglement, Twister Side Control redirects that control into a lateral plane, opening submission chains including the twister finish, darce choke, and kimura that are unavailable from standard truck positioning.\n\nThe mechanical key to this transition is the controlled rotation of your body from behind the opponent to their side while preserving the leg entanglement that restricts their hip mobility. The top player must walk their upper body around the opponent's head while simultaneously adjusting the leg hook from a vertical to a lateral configuration. This rotation changes the axis of control from perpendicular to parallel, creating the shoulder-to-mat pressure that defines Twister Side Control. The transition is particularly effective when the opponent has successfully defended truck submissions by protecting their neck and arms, as the lateral shift bypasses their defensive posture entirely.\n\nStrategically, this transition serves as the primary positional advancement from the Truck when direct submissions are unavailable. It preserves the leg control advantage while creating a new set of offensive threats. Advanced practitioners use the threat of this transition itself as a forcing function: opponents who over-defend the twister from Truck open themselves to the lateral shift, while those who defend the lateral shift expose themselves to truck finishes.",
   "conditions": [
     "Established Truck position with active boot pressure against opponent's hip",

@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 75,
+      "probability": {
+        "gi": 75,
+        "nogi": 75
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 70,
+  "success_rate": {
+    "gi": 70,
+    "nogi": 70
+  },
   "overview": "The Half Guard Pass is one of the most essential techniques in Brazilian Jiu-Jitsu, representing the fundamental challenge of progressing from the half guard top position to full side control. This technique encompasses a systematic approach to defeating the bottom player's defensive structure, which includes their leg entanglement, underhook battles, and frame creation. Understanding the half guard pass is crucial because half guard represents one of the most common positions in modern BJJ, serving as a key battleground between the top player's passing efforts and the bottom player's retention and sweeping attacks.\n\nThe effectiveness of the half guard pass lies in understanding the bottom player's defensive hierarchy and systematically dismantling each layer of defense. The bottom player typically relies on distance management through frames, connection through underhooks or overhooks, and leg control through various half guard configurations. The top player must address each of these defensive structures in sequence while maintaining pressure and preventing the bottom player from recovering full guard or executing sweeps.\n\nSuccessful half guard passing requires a combination of technical precision, pressure application, and strategic decision-making. The passer must recognize which variation of half guard they're facing (traditional half guard, lockdown, knee shield, deep half, etc.) and adapt their passing strategy accordingly. This technique forms the foundation for more advanced passing systems and represents a critical skill progression from beginner to advanced levels, with success rates improving dramatically as practitioners develop better pressure, timing, and recognition of defensive reactions.",
   "conditions": [
     "Top player has one leg trapped in opponent's half guard entanglement with upper body positioned above opponent",

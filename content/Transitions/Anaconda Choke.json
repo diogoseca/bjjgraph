@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Anaconda Control/Top",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Front Headlock/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Turtle/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Anaconda Choke is a powerful arm-in head-and-arm choke that creates devastating compression against the carotid arteries. Unlike the Darce which threads from under the armpit, the anaconda grip enters from the front by threading under the opponent's near arm and around their neck, with hands clasped on the far side. This creates a constricting loop that tightens as you pull your choking elbow toward your hip while driving chest pressure into their trapped shoulder.\n\nThe technique typically emerges from front headlock positions, turtle attacks, or scrambles where the defender exposes their neck while attempting to improve position. The finishing mechanics often involve a gator roll where you step over the opponent's back and roll them perpendicular to your body, using momentum and body weight to maximize the squeeze. The roll serves dual purposes: it prevents the defender from posturing up to relieve pressure, and it creates the optimal angle for blood choke completion.\n\nStrategically, the anaconda excels when opponents shoot takedowns or turn into you from turtle. The arm-in configuration makes the choke extremely difficult to defend once locked because the trapped arm actually reinforces the choking mechanism rather than creating space for escape. Understanding when to commit to the finish versus maintaining control position is crucial for high-percentage success.",
   "conditions": [
     "Front headlock or turtle top control established",

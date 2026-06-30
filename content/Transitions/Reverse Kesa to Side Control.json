@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Reverse Kesa-Gatame/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Strategically, this transition is one of the most valuable adjustments available from the reverse scarf-hold family because standard side control offers a broader submission arsenal, clearer pathways to mount advancement, and more established control mechanics than the reverse pin. The rotation itself presents the primary moment of vulnerability — the top player must maintain constant chest pressure and arm control throughout the movement to prevent the bottom player from inserting a knee, recovering guard, or creating a scramble.\n\nThe transition is most commonly initiated when the top player recognizes that reverse kesa-gatame is becoming unstable due to the bottom player's escape attempts, when standard side control submissions are preferred over reverse kesa options, or when mount advancement is the strategic goal. Timing is critical: the safest window occurs when the bottom player pauses between escape attempts or when their near-side arm is securely controlled, limiting their ability to insert frames during the rotation. Rushing the transition while the bottom player is actively bridging or shrimping creates dangerous openings for guard recovery.",
   "conditions": [
     "Top player has established stable Reverse Kesa-Gatame with chest pressure and arm control",

@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Deep Half Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Within the deep half guard sweeping arsenal, the Homer Simpson Sweep is the centerline-attacking option that complements the lateral waiter and old school sweeps. Unlike the waiter sweep which redirects the opponent laterally through hip elevation, or the old school sweep which involves coming up to a single-leg position, the Homer Simpson Sweep drives straight through the centerline, using the bottom player's head and shoulder as the primary contact points to off-balance and topple the opponent directly backward into mount. The bottom player rises from underneath the opponent using a combination of deep underhook control and an over-the-back grip to drive the top player backward onto their back.\n\nThe sweep derives its mechanical power from the bottom player's positioning completely underneath the opponent's center of gravity. By maintaining a deep underhook on the far leg while reaching over the opponent's back with the free hand to grip the belt, waistband, or far hip, the bottom player creates a closed kinetic chain that prevents the top player from basing or circling away. The come-up motion then converts the bottom player's hip drive and forward momentum into a sweeping force that the top player cannot resist without abandoning their position entirely.\n\nStrategically, the Homer Simpson Sweep functions as a high-percentage complement to the waiter and old school sweeps within the deep half guard system. When opponents learn to defend lateral sweeps by widening their base or posting to the sides, the direct forward drive of the Homer Simpson Sweep exploits the gap in their defense. The sweep is particularly effective against opponents who commit heavy forward pressure from deep half guard top, as their own weight momentum feeds directly into the sweep mechanics. At the purple and brown belt level, chaining the Homer Simpson Sweep with the waiter sweep creates a binary dilemma that forces the top player to choose between defending lateral or forward sweeping threats.",
   "conditions": [
     "Deep underhook established on opponent's far leg with arm wrapped around the thigh",

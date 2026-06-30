@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Closed Guard/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "New York/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Triangle Control/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "summary": "Overhook Extraction is the New York top player's escape that frees the trapped arm from a deep rubber-guard overhook by corkscrewing the elbow down toward the hip rather than pulling straight back, opening the path to recover posture and pass.",
   "overview": "Within 10th Planet's Rubber Guard system, New York is one of the most difficult places for a top player to find themselves: your arm is locked in a deep overhook while your opponent's shin crosses your back, breaking your posture and compromising your base. Overhook extraction is the answer to the arm-control component of that problem, freeing your trapped limb and opening pathways to posture recovery and guard passing.\n\nThe technique operates on the principle that the overhook, while strong, has a structural weakness: it requires constant tension and positioning from the bottom player. By systematically changing the angle of your trapped elbow and using rotational movement rather than linear pulling, you exploit the overhook's blind spots. The key insight is that pulling straight back reinforces the overhook, while corkscrewing your elbow downward and toward your hip creates an angle the overhook cannot maintain.\n\nStrategically, overhook extraction should not be attempted in isolation. The sequence must address base and posture concerns simultaneously. Attempting extraction without stable base invites sweeps; attempting it without addressing posture allows the bottom player to transition to other attacks like triangles or omoplatas. When executed correctly within the proper sequence, overhook extraction serves as the gateway from defensive survival in New York to offensive guard passing opportunities.",
   "conditions": [

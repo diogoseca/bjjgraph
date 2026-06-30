@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Kimura Trap/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Rear Triangle/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "Within the rear-triangle attack system, the Kimura from Back is the secondary shoulder threat you turn to once the opponent commits to defending the triangle choke. Unlike the standard kimura grip applied from guard or side control, this variation leverages the superior back control to isolate the arm while the triangle structure prevents defensive rotation and posture recovery. The technique creates a submission dilemma where the opponent must choose between defending the shoulder lock, which opens the choke, or protecting the neck, which exposes the arm to finishing pressure.\n\nFrom a strategic perspective, the Kimura from Back serves dual purposes as both a submission threat and a control tool. When the opponent successfully defends the initial triangle choke by protecting their neck, their defensive positioning often leaves the trapped arm vulnerable to kimura grip capture. The back control eliminates the standard kimura defense of grabbing one's own thigh or belt, as the opponent lacks the necessary mobility to establish these anchors. This makes the submission percentage significantly higher than kimura attempts from other positions.\n\nThe technique exemplifies the principle of systematic attack chains from back control. Rather than abandoning position when the choke is defended, the practitioner transitions smoothly to the kimura while maintaining all back control elements. This cycling between attacks—triangle choke to kimura to armbar—overwhelms the opponent's defensive capacity and eventually creates finishing opportunities through accumulated defensive fatigue.",
   "conditions": [
     "Rear triangle position established with triangle legs locked around opponent's neck and trapped arm",

@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Deep Half Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Ushiro Ashi-Garami/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Honey Hole/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Within the modern leg-lock escape hierarchy, the Ushiro Ashi-Garami to Deep Half Guard transition occupies the narrow band between fighting for a turtle escape and accepting deeper entanglement. When trapped in ushiro ashi-garami bottom, the defender leverages their inverted hip orientation to thread underneath the opponent's hips and establish deep half guard, simultaneously clearing the leg entanglement and creating offensive opportunities.\n\nThis transition exploits a fundamental biomechanical reality: the inverted hip position that makes ushiro ashi-garami dangerous also creates a natural pathway underneath the opponent's center of gravity. By redirecting escape momentum downward rather than continuing rotation toward turtle, the defender can thread their body beneath the opponent's hips, establish an underhook on the far leg, and consolidate deep half guard. The opponent's commitment to maintaining the reversed leg entanglement often leaves them poorly based to resist the deep half entry.\n\nStrategically, this transition is most valuable when standard escape routes to turtle or standing are blocked by the opponent's superior leg control. Rather than fighting against deep entanglement with diminishing returns, the deep half entry accepts proximity to the opponent while fundamentally changing the positional dynamic. Once deep half guard is established, the defender gains access to waiter sweeps, Homer Simpson sweeps, and electric chair variations that can completely reverse the position. The transition requires precise timing during the opponent's grip adjustment phases and strong understanding of both leg entanglement mechanics and deep half guard principles.",
   "related_content": [
     {

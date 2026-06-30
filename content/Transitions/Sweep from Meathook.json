@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Meathook/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "The Sweep from Meathook exploits the extreme arm isolation and postural compromise inherent in the Meathook position to execute a high-percentage reversal to mount. When the bottom player has established the shin hook over the opponent's tricep and broken their posture, the top player's base becomes critically compromised. They effectively have only one arm available for posting and their weight distribution is pulled forward and toward the trapped arm side. This structural weakness creates the mechanical foundation for the sweep, which uses a combination of hip elevation, directional force through the trapped arm lever, and coordinated leg drive to topple the opponent over their isolated limb.\n\nThe sweep functions as a critical branch in the Meathook attack tree, complementing the submission threats of gogoplata, triangle, and omoplata with a positional advancement option. When the top player prioritizes defending submissions by keeping their head elevated or pulling backward to create distance, they inadvertently shift their weight into the distribution pattern that makes the sweep most effective. This creates a layered dilemma: defend the chokes and get swept, or absorb forward pressure and walk into submission attacks. The sweep's strategic value extends beyond the immediate reversal because arriving in mount after controlling the opponent's arm from Meathook often preserves grip advantages that accelerate mount offense.\n\nWithin the 10th Planet system, the Meathook sweep represents the positional advancement pathway when submission finishes are unavailable or when the practitioner prefers to accumulate points before finishing. Competition-oriented practitioners value this sweep because it converts a zero-point guard position into a four-point mount, dramatically shifting the scoreboard while maintaining offensive momentum. The sweep also serves as a bailout option when Meathook control begins to degrade due to energy cost. Rather than losing the position entirely, converting to a sweep attempt preserves offensive initiative and punishes the opponent for their escape efforts.",
   "conditions": [
     "Established Meathook control with deep shin hook clearing the opponent's shoulder line",

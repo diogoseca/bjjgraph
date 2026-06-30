@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Chill Dog/Top",
-      "probability": 32,
+      "probability": {
+        "gi": 32,
+        "nogi": 32
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 18,
+      "probability": {
+        "gi": 18,
+        "nogi": 18
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "summary": "The Guard Pass from Chill Dog is a turtle-top advancement where the top player breaks the elbow-to-knee frame, flattens the opponent's hips to the mat, and slides into perpendicular side control instead of taking the back.",
   "overview": "The Guard Pass from Chill Dog is a direct positional advancement technique that converts turtle top control into side control. Rather than pursuing the more common back-take approach against the Chill Dog defensive turtle, this pass targets the structural integrity of the defensive shell itself, breaking down the elbow-to-knee connection and flattening the opponent to establish perpendicular side control. The technique is rooted in systematic pressure application and sequential frame destruction rather than speed or athleticism.\n\nThis technique is particularly valuable against experienced defenders who maintain a tight Chill Dog frame that resists standard back-take entries. By attacking the defensive structure directly through crossface pressure, hip control, and systematic flattening, the top player forces the bottom player into a progressively worsening position where their defensive options narrow with each completed phase. The pass creates a chain of micro-advantages that compound until the opponent cannot maintain their turtle structure and their hips are driven flat to the mat.\n\nIn competition contexts, the Guard Pass from Chill Dog offers a time-efficient path to a scoring position. While back-take attempts from turtle can result in extended exchanges with uncertain outcomes, completing the pass to side control secures three points and immediately opens the full range of dominant position attacks including Americana, kimura, arm triangle, and mount transitions. This makes it an essential tool for practitioners who need to convert turtle control into tangible competitive advantage within the time constraints of a match.",
   "conditions": [

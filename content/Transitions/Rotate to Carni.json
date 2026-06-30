@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Carni/Bottom",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "New York/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "summary": "Rotate to Carni is a 10th Planet Rubber Guard transition where the bottom player swings their hips 90 degrees from New York control to the Carni position, turning the opponent's lateral defensive movement into a shoulder-lock omoplata attack.",
   "overview": "Rotate to Carni is a critical transition within the 10th Planet Rubber Guard system that converts New York control into the powerful Carni position for omoplata-based attacks. The technique exploits the opponent's compromised posture and trapped arm by initiating a rotational movement that swings the bottom player's hips perpendicular to the opponent, creating the angle necessary for shoulder lock attacks.\n\nThe rotation occurs when the opponent widens their base or attempts to circle away from the overhook side, inadvertently creating the space needed for the bottom player to swing their hips. This reaction-based entry makes Rotate to Carni one of the most reliable transitions in the Rubber Guard system because it capitalizes on a common defensive reaction rather than requiring the bottom player to force the movement.\n\nStrategically, Rotate to Carni represents the shoulder attack pathway from New York, complementing the head attack pathway (Invisible Collar/Zombie) and the leg attack pathway (Chill Dog). Understanding when to select the Carni rotation versus other options is essential for maximizing submission rate from the Rubber Guard system. The technique is particularly effective against opponents who recognize the triangle and gogoplata threats and attempt to create lateral space, as this exact defensive movement opens the Carni angle.",
   "conditions": [

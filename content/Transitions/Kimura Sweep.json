@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 12,
+      "probability": {
+        "gi": 12,
+        "nogi": 12
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Kimura Sweep is a powerful positional advancement technique that leverages the figure-four grip control to off-balance and sweep the opponent from Closed Guard directly to Mount. This sweep capitalizes on the mechanical advantage created when you secure the Kimura grip on the opponent's arm, using their trapped limb as a lever to disrupt their base and facilitate the reversal. The technique represents a fundamental concept in guard work where grip fighting transitions directly into sweeping opportunities rather than remaining as isolated submission attempts.\n\nStrategically, the Kimura Sweep creates a dilemma for the opponent: defend the Kimura grip and become vulnerable to the sweep, or post their hand to maintain base and risk the submission. This attack-sweep duality makes the Kimura grip one of the most versatile tools from Closed Guard. The sweep works particularly well against opponents who attempt to posture up or establish a strong base, as their weight distribution makes them susceptible to being rolled.\n\nAt higher levels, the Kimura Sweep integrates into broader attacking systems where the initial grip threat forces reactions that open pathways to back takes, hip bumps, or direct submission finishes. Understanding when to commit to the sweep versus when to maintain grip pressure for other attacks distinguishes intermediate from advanced practitioners.",
   "conditions": [
     "Closed Guard must be established with ankles locked behind opponent",

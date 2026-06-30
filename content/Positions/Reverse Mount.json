@@ -264,15 +264,24 @@
     "transitions": [
       {
         "transition": "Reverse Mount to Mount",
-        "attempt_probability": 48
+        "attempt_probability": {
+          "gi": 48,
+          "nogi": 48
+        }
       },
       {
         "transition": "Reverse Mount to Side Control",
-        "attempt_probability": 27
+        "attempt_probability": {
+          "gi": 27,
+          "nogi": 27
+        }
       },
       {
         "transition": "Armbar from Reverse Mount",
-        "attempt_probability": 25
+        "attempt_probability": {
+          "gi": 25,
+          "nogi": 25
+        }
       }
     ],
     "flashcards": [
@@ -516,31 +525,52 @@
     "transitions": [
       {
         "transition": "Elbow Escape to Guard",
-        "attempt_probability": 28
+        "attempt_probability": {
+          "gi": 28,
+          "nogi": 28
+        }
       },
       {
         "transition": "Bridge and Roll",
-        "attempt_probability": 22
+        "attempt_probability": {
+          "gi": 22,
+          "nogi": 22
+        }
       },
       {
         "transition": "Hip Escape to Guard",
-        "attempt_probability": 17
+        "attempt_probability": {
+          "gi": 17,
+          "nogi": 17
+        }
       },
       {
         "transition": "Sit Through to Guard",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 12
+        }
       },
       {
         "transition": "Frame and Shrimp to Guard",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 12
+        }
       },
       {
         "transition": "Bridge from Reverse Mount",
-        "attempt_probability": 6
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 6
+        }
       },
       {
         "transition": "Escape Reverse Mount",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 3
+        }
       }
     ],
     "flashcards": [

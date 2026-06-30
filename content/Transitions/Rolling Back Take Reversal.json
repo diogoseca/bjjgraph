@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Body Triangle/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 48,
+  "success_rate": {
+    "gi": 48,
+    "nogi": 48
+  },
   "overview": "The Rolling Back Take Reversal is an advanced escape technique used when trapped in an opponent's body triangle from the defensive (top) position. Rather than fighting the crushing pressure of the triangle lock directly, this technique uses momentum and rotation to reverse the position entirely, ending with you taking back control of your opponent. The technique exploits the inherent commitment of the body triangle - once locked, your opponent cannot easily disengage their legs, making them vulnerable to being carried through a rolling motion.\n\nThis reversal represents a high-risk, high-reward option in the back defense hierarchy. While most escapes from body triangle focus on clearing the leg lock and turning to face the opponent, the rolling reversal capitalizes on windows of opportunity when your opponent overcommits to an upper body attack or loses chest-to-back connection. The technique requires precise timing, understanding of weight distribution, and commitment to the rolling motion once initiated.\n\nStrategically, this escape works best against opponents who squeeze aggressively with the body triangle while hunting for chokes. Their focus on the submission creates momentary lapses in base maintenance, providing the window needed to execute the roll. The technique is particularly effective in no-gi where friction is reduced and rolling mechanics are more fluid.",
   "conditions": [
     "Opponent has body triangle locked around your torso from back control",

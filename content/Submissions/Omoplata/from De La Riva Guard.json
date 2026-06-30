@@ -18,7 +18,10 @@
   "target_area": "Shoulder joint (rotator cuff, capsule, AC joint)",
   "starting_position": "De La Riva Guard",
   "from_position": "De La Riva Guard/Bottom",
-  "success_rate": 52,
+  "success_rate": {
+    "gi": 52,
+    "nogi": 52
+  },
   "summary": "The omoplata from De La Riva Guard is a shoulder lock attacked from the DLR open guard, swinging the hooking leg over the opponent's extended arm to trap and externally rotate their shoulder for the finish or a follow-up sweep.",
   "overview": "Because De La Riva guard already positions the hips at the angle an omoplata requires, the shoulder lock integrates into DLR offense with far less rotational adjustment than entries from closed guard or half guard. The DLR hook and sleeve control that drive sweeps and berimbolo threats double as the off-balancing and arm isolation the omoplata needs. When the top player extends an arm to strip the ankle grip or establish a collar tie, the guard player redirects the hooking leg over the trapped shoulder while maintaining the cross sleeve grip to prevent arm extraction.\n\nThis entry carries strategic value because opponents defending DLR sweeps and berimbolo threats tend to neglect upper body submissions. The cross grip used for standard DLR offense doubles as the arm isolation needed for omoplata control. The transition from guard play to submission requires minimal grip adjustment, allowing the technique to flow within existing DLR attack sequences. When the omoplata finish is defended, the position chains into sweeps, wrist lock threats, and transitions to triangle or back take attempts.\n\nThe finishing sequence follows standard omoplata mechanics once the leg clears the shoulder: control the opponent's far hip to shut down the forward roll escape, sit up perpendicular to the opponent, and apply controlled downward pressure through the shoulder while maintaining wrist control. The primary technical challenge specific to this DLR entry is completing the hip switch from the angled DLR configuration to the perpendicular finishing position, which demands precise timing and active hip mobility throughout the transition.",
   "safety_considerations": {
@@ -110,17 +113,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 52,
+      "probability": {
+        "gi": 52,
+        "nogi": 52
+      },
       "result": "success"
     },
     {
       "to": "De La Riva Guard/Bottom",
-      "probability": 31,
+      "probability": {
+        "gi": 31,
+        "nogi": 31
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 17,
+      "probability": {
+        "gi": 17,
+        "nogi": 17
+      },
       "result": "counter"
     }
   ],

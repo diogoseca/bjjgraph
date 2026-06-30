@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Closed Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "success"
     },
     {
       "to": "S Mount/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "failure"
     },
     {
       "to": "Armbar Control/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 30,
+  "success_rate": {
+    "gi": 30,
+    "nogi": 30
+  },
   "overview": "The bridge escape from S Mount is a fundamental defensive technique employed when trapped beneath an opponent's perpendicular mount configuration. S Mount creates severe offensive pressure by isolating the near arm for armbar attacks while the top player's perpendicular body angle limits conventional escape routes. The bridge disrupts the top player's balance and critical hip-to-shoulder connection by generating explosive upward and lateral force, creating a momentary window to retract the isolated arm and begin guard recovery.\n\nThis escape relies on precise timing rather than raw power. The bottom player must bridge explosively when the top player shifts weight toward the trapped arm for the armbar finish, using the directional momentum to off-balance them toward their posted leg. The bridge direction is critical - driving toward the opponent's leg that extends over the head exploits the primary gap in their perpendicular base. Throughout the entire sequence, the bottom player must maintain strict arm protection by keeping the trapped arm bent with the hand gripping their own collar or lapel.\n\nStrategic context places the bridge escape as one of three primary escape pathways from S Mount, alongside the trap-and-roll and frame-and-shrimp methods. While lower percentage than some alternatives due to S Mount's inherent stability, the bridge escape provides a high-reward option when timed during the opponent's weight shift toward the armbar finish. The technique carries significant counter-risk, as a poorly timed bridge can accelerate arm exposure and facilitate the very submission the bottom player is trying to avoid. Disciplined arm protection and explosive hip mechanics determine whether this escape creates a guard recovery opportunity or accelerates the opponent's armbar completion.",
   "conditions": [
     "Opponent has established S Mount with leg positioned over your head and perpendicular body angle",

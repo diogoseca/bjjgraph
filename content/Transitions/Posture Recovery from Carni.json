@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Closed Guard/Top",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Carni/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Saddle/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "Caught inside the Carni, the top player faces a cascade of overlapping threats—heel hooks, saddle entries, and back exposure—where most instinctive escapes only deepen the danger. Posture recovery answers this problem by employing controlled forward pressure and systematic posture reconstruction to neutralize the bottom player's offensive angles, rather than attempting explosive extraction or rolling escapes that risk deeper entanglement or back exposure. The concept is straightforward: by driving forward with chest pressure and establishing frames against the bottom player's hips, the top player collapses the space needed for effective heel hook attacks and saddle transitions.\n\nThe key strategic insight behind this recovery is that the Carni position depends on the bottom player maintaining specific angular relationships between their hips and the trapped leg. Forward stacking pressure disrupts these angles, forcing the bottom player to either abandon the leg entanglement in favor of closing their guard defensively, or risk being smashed through their own guard. When executed with proper timing—particularly during the brief windows where the bottom player is transitioning between attack sequences—the posture recovery offers a safe pathway out of an otherwise extremely dangerous position.\n\nThis technique is most effective when combined with grip breaking and upper body control. The top player must simultaneously address the heel exposure threat while generating sufficient forward drive to collapse the entanglement structure. Success requires patience and methodical execution rather than explosive movement, as rushing creates the angular changes that the bottom player needs to advance to the saddle or take the back.",
   "variants_and_adaptations": [
     {

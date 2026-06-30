@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Omoplata Control/Top",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 52,
+  "success_rate": {
+    "gi": 52,
+    "nogi": 52
+  },
   "overview": "The transition to omoplata is a fundamental shoulder lock entry that exploits the opponent's defensive posture and arm positioning from guard. This technique combines elements of sweeping mechanics with submission attacks, creating a powerful dual threat that forces opponents into defensive dilemmas. The omoplata transition is particularly effective when opponents defend against triangle or armbar attempts, as their arm positioning naturally sets up the shoulder lock entry. The beauty of this transition lies in its versatility - it can be executed from closed guard, spider guard, rubber guard, and various open guard configurations, making it an essential component of any guard player's arsenal. The technique relies on controlling the opponent's arm at the shoulder and using leg positioning to create rotational pressure on the shoulder joint while simultaneously off-balancing them for potential sweeps.",
   "related_content": [
     {

@@ -16,31 +16,49 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Headquarters Position/Top",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "success"
     },
     {
       "to": "Ringworm Guard/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 5,
+      "probability": {
+        "gi": 5,
+        "nogi": 5
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Standing Guard Pass with Distance Creation is a methodical passing approach used when trapped in Ringworm Guard, one of the most restrictive lapel guard configurations in modern gi jiu-jitsu. Rather than fighting the lapel wrap on the ground where the bottom player's mechanical advantage is greatest, this technique uses elevation and distance to nullify the lapel's leverage, systematically extracting the trapped leg while maintaining defensive posture against sweeps and back takes.\n\nThe core strategic principle is that the lapel wrap loses much of its sweeping and controlling power when the top player stands fully upright and creates separation. On the ground, the bottom player can combine the lapel tension with leg hooks and hip movement to generate powerful off-balancing forces. Standing removes most of these secondary control points, isolating the lapel grip as the single problem to solve. Once standing with good posture, the top player strips the lapel grip through systematic two-handed extraction while using footwork to circle away from the bottom player's strongest angle of attack.\n\nThis pass is particularly effective against opponents who rely heavily on Keenan Cornelius-style lapel guard systems, as it addresses the root mechanical problem rather than trying to muscle through the wrap from a compromised kneeling position. The technique demands patience and disciplined posture maintenance, as premature passing attempts before the lapel is fully cleared will result in sweeps or re-entanglement. When executed correctly, the distance created during extraction leaves the bottom player in a weakened open guard with no grips, making the subsequent toreando or leg drag pass high-percentage.",
   "related_content": [
     {

@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Turtle/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Body Triangle/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Body triangle is one of the most dominant back control variations in Brazilian Jiu-Jitsu, and when you are trapped in it the locked figure-four configuration around your torso restricts breathing and prevents standard back escape sequences. This escape uses systematic hip movement and pressure redirection to create enough space to unlock the triangle and transition to turtle, where you can begin working toward guard recovery or standing.\n\nThe technique exploits a mechanical weakness in the body triangle: the attacker's hips must be positioned beside you on the mat for stability, meaning they cannot follow your hip movement in all directions. By creating angles and shifting your body toward the locked leg side, you reduce the effectiveness of the squeeze while positioning yourself to attack the lock. The escape requires patience, controlled breathing, and precise technical execution rather than explosive struggling that wastes energy under breathing restriction.\n\nThis escape is particularly effective because turtle, while not an ideal position, offers significantly more mobility and escape options than remaining trapped in body triangle. From turtle, you can work toward guard recovery, technical standup, or granby roll sequences. The transition also temporarily removes the neck attack threat, giving you breathing room to reassess and continue your escape sequence.",
   "conditions": [
     "You are trapped in body triangle with opponent's legs locked in figure-four around your torso",

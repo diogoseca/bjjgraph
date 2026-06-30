@@ -19,7 +19,10 @@
   "target_area": "Ankle, toes, and foot ligaments",
   "starting_position": "Estima Lock Control",
   "from_position": "Estima Lock Control/Top",
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "overview": "The toe hold from Estima Lock exploits a natural grip transition that occurs when the opponent defends the primary Estima Lock submission. When the opponent counter-rotates their foot or adjusts their ankle angle to reduce the inverted lock pressure, their forefoot becomes exposed and accessible for the toe hold figure-four grip. This creates a powerful two-attack chain where defending one submission opens direct vulnerability to the other, significantly increasing overall finishing rates from Estima Lock control.\n\nThe grip transition involves releasing the forearm-across-foot Estima Lock configuration and securing a figure-four grip around the opponent's toes and ball of the foot. The attacker cups the forefoot with one hand while threading the other hand behind the ankle, creating a lever system that applies rotational force to the smaller joints of the foot and ankle. Because the opponent is already trapped in the Estima Lock leg entanglement with their leg isolated and extended, they have limited mobility to defend the grip change, making the transition window shorter than it appears.\n\nThis submission is particularly effective in no-gi grappling where the smooth surface of the foot makes the Estima Lock grip more difficult to maintain, naturally presenting toe hold opportunities during sustained control. The combination of Estima Lock and toe hold creates a submission dilemma that advanced practitioners exploit systematically, treating both attacks as a unified system rather than isolated techniques.",
   "safety_considerations": {
     "injury_risks": [
@@ -106,17 +109,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Estima Lock Control/Top",
-      "probability": 26,
+      "probability": {
+        "gi": 26,
+        "nogi": 26
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 14,
+      "probability": {
+        "gi": 14,
+        "nogi": 14
+      },
       "result": "counter"
     }
   ],

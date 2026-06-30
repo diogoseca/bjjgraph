@@ -14,26 +14,41 @@
   "outcomes": [
     {
       "to": "Half Guard/Top",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "success"
     },
     {
       "to": "Side Control/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "success"
     },
     {
       "to": "Inverted Lasso Guard/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The stack pass from inverted lasso guard is a pressure-based guard passing technique deployed by the top player when an opponent inverts into lasso guard with elevated hips and angular sweeping threats. Rather than attempting lateral movement or grip fighting to defeat the inversion, the stack exploits the bottom player's extended body position by driving forward compressive pressure through the shoulders and chest, folding the inverted player over themselves and neutralizing the hip elevation that makes inverted lasso guard dangerous. The technique targets the fundamental structural vulnerability of any inverted position: the bottom player's spine must support both their own body weight and any additional load the top player applies, creating a compressive force that rapidly degrades offensive capability.\n\nThis technique is most effective when the bottom player overcommits to their inversion, particularly when they extend the lassoed leg aggressively for overhead sweeps or reach for berimbolo entries. The timing window is narrow but decisive — the stack must be initiated while the bottom player is committed to the inverted posture but before they establish their optimal attacking angle. Executed correctly, the compression drives the opponent's knees toward their face, transfers the top player's weight advantage into structural dominance, and creates slack in the lasso hook that permits systematic arm extraction and pass completion to half guard or side control.\n\nThe stack from inverted lasso occupies a specific tactical niche in the guard passing hierarchy. While cartwheel passes and arm extraction rely on lateral movement and grip fighting respectively, the stack uses direct vertical pressure to defeat the position. This makes it particularly effective against flexible opponents who maintain inverted positions through other passing attempts, as the compression targets their structural integrity rather than attempting to outmaneuver their mobility. The technique carries meaningful counter risk, however, as poorly timed or poorly angled stacking pressure can feed directly into the bottom player's overhead sweep mechanics, making precise angle selection and base management essential throughout execution.",
   "conditions": [
     "Bottom player is committed to inverted lasso guard position with shoulders on the mat and hips elevated",

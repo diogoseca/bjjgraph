@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Kesa Gatame/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "summary": "The Back Take from Kesa Gatame is a bottom-player reversal that exploits the scarf hold's exposed back, turning into the opponent and threading behind them to convert one of grappling's most oppressive pins directly into dominant back control.",
   "overview": "The Back Take from Kesa Gatame exploits the defining structural vulnerability of the scarf hold: the top player's exposed back. Unlike standard side control where the top player faces you directly, Kesa Gatame's perpendicular body angle creates a geometric weakness that allows the bottom player to rotate behind the opponent and establish back control. This reversal transforms one of the most oppressive pinning positions into the most dominant offensive position in BJJ, making it a critical technique for any practitioner who faces opponents with strong Kesa Gatame control.\n\nThe technique requires precise timing and an understanding of when the top player's weight distribution creates the opportunity. The ideal moment occurs when the opponent sits back heavily to consolidate control or when they shift forward to attempt submissions like americana or arm triangle. Either weight shift creates a window where the bottom player can turn into the opponent, thread behind their back, and begin establishing hooks. The key mechanical principle is turning toward the opponent rather than away—a counterintuitive movement for many practitioners who instinctively try to create distance through shrimping.\n\nStrategically, the Back Take from Kesa Gatame serves as the highest-reward escape option from bottom Kesa Gatame. While simpler escapes like bridging to turtle or shrimping to guard recover a neutral or slightly favorable position, successfully taking the back leapfrogs multiple positional stages, jumping directly from a disadvantaged position worth zero points to the most dominant position worth four points. This risk-reward profile makes it worth pursuing when the opportunity presents itself, though it should be integrated into a broader escape chain with bridge-and-roll and guard recovery options rather than attempted in isolation.",
   "conditions": [

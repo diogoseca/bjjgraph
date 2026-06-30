@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Standing Position/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Body Lock/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Body Lock to Standing transition represents a tactical reset from the dominant body lock clinch position back to neutral standing engagement. While body lock control provides significant offensive advantages through mat returns, throws, and back takes, situations arise where disengagement becomes the strategically superior option. This occurs when the defender has successfully neutralized all takedown attempts, when grip fatigue threatens control quality, or when competition scoring dynamics demand a positional reset to avoid stalling penalties.\n\nThe technical challenge lies in disengaging safely without exposing yourself to counter-attacks during the release window. Simply unlocking your hands creates a momentary vulnerability where the defender can capitalize on the loss of control to shoot takedowns, establish their own clinch grips, or pull guard. Proper execution requires maintaining structural control through chest connection while systematically transitioning from locked grip to defensive hip frames, creating distance through explosive footwork before the opponent can capitalize on the grip release.\n\nThis transition appears at low frequency in competition because body lock represents such dominant control that voluntarily abandoning it constitutes a significant positional sacrifice. However, understanding when and how to execute this reset prevents burning excessive energy in a stalled exchange and allows you to re-engage with fresh grips and a new tactical approach. Elite competitors use this as a calculated tactical tool rather than a sign of failure, treating the reset as an opportunity to shift their offensive angle and approach from a different entry point.",
   "conditions": [
     "Secure body lock grip established with chest-to-back connection",

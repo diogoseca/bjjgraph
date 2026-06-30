@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Leg Drag Control/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Leg Drag Pass to Side Control represents the critical consolidation phase of the leg drag passing sequence, where you convert the transitional leg drag control into a stable, scoring side control position. This technique addresses the fundamental challenge every passer faces: maintaining positional advantage while moving through the transition period when the opponent has their best opportunity to recover guard or escape. The leg drag itself is dynamic and temporary—you cannot hold it indefinitely without advancing or losing the position.\n\nThe mechanical principle underlying this consolidation is the progressive transfer of control points from the dragged leg to the upper body. In leg drag control, your primary control comes from the crossed leg and hip pressure. During the transition to side control, you must establish crossface, underhook, or chest-to-chest connection before releasing the leg control. Attempting to release the leg grip before establishing upper body control is the most common failure point, as it creates a window where the opponent has enough mobility to insert a knee or turn into you.\n\nStrategically, this pass should be executed when the opponent flattens out rather than turning away or attempting to sit up. If they turn away, the back take becomes the higher-percentage option. If they turn toward you aggressively, north-south or crucifix transitions may be more appropriate. The side control consolidation is optimal against opponents who accept the bottom position and focus on frame-based defense rather than dynamic escape attempts.",
   "related_content": [
     {

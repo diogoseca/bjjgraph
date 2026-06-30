@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Inside Ashi-Garami/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Ushiro Ashi-Garami/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "50-50 Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Inside Heel Hook from Ushiro Ashi-Garami represents one of the most technically demanding finishes in modern leg lock systems. This submission targets the knee's rotational integrity through the reversed leg entanglement configuration, requiring significant adjustments to standard heel hook mechanics due to the opponent's inverted hip position.\n\nUnlike standard inside ashi-garami heel hooks, the ushiro configuration presents unique challenges. The opponent's inversion creates different leverage angles, requiring the attacker to modify grip placement and hip positioning to generate effective rotational force. The heel hook grip must be established closer to your own hip line rather than reaching across the opponent's body, and the finishing rotation follows a different vector than traditional inside heel hook mechanics.\n\nStrategically, this submission capitalizes on opponents who have partially escaped standard leg entanglements through inversion but remain trapped in the reversed configuration. The window for finishing is often narrow—advanced defenders will continue their rotation toward turtle or counter-attack with their own leg entanglement if given time. Understanding the biomechanical differences between ushiro and standard ashi-garami heel hooks is essential for consistent finishing success.",
   "related_content": [
     {

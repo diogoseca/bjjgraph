@@ -15,26 +15,41 @@
   "outcomes": [
     {
       "to": "Turtle/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "success"
     },
     {
       "to": "Seat Belt Control Back/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "summary": "The Escape from Seat Belt Control is a back-defense sequence that breaks the over-under harness by isolating the choking arm in a two-on-one grip, creating hip angle, and turning face-down to recover turtle or half guard.",
   "overview": "Because the seat belt represents the single most dominant control configuration in grappling, escaping it ranks among the highest-value defensive skills a practitioner can develop. This escape specifically targets dismantling the seat belt grip structure through methodical grip breaking, strategic hip movement, and controlled directional changes to transition from back control into the relative safety of turtle position or half guard recovery.\n\nThe technique operates on the fundamental principle that the seat belt grip, while biomechanically powerful, has specific structural vulnerabilities when each component is addressed independently rather than fighting the entire configuration simultaneously. By isolating the over-shoulder arm through two-on-one grip control while generating angular hip movement, the bottom player systematically dismantles the control framework that makes seat belt back control the most dominant position in grappling. The diagonal force vectors created by the over-arm and under-arm must be neutralized sequentially, as attempting to address both simultaneously wastes energy and plays into the top player's structural advantages.\n\nStrategic timing is critical for successful execution. The optimal escape windows occur when the back controller commits to submission attempts, adjusts hooks, or shifts weight for positional changes. During these moments of transitional instability, the grip-breaking sequence succeeds at significantly higher rates than when attempted against a fully settled opponent. The escape demands composure under extreme pressure, as the proximity to rear naked choke and other high-percentage submissions creates urgency that must be channeled into technical precision rather than panicked movement.",
   "conditions": [

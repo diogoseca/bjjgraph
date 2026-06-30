@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Shoulder of Justice/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "Among side control escapes, the Frame Escape addresses one of the most psychologically and physically oppressive pins in Brazilian Jiu-Jitsu. The Shoulder of Justice applies concentrated pressure through the opponent's shoulder blade into the bottom player's jaw and temporomandibular joint, creating intense physical discomfort that provokes reactive movements. The Frame Escape counters this by using structured, skeletal-alignment-based frames to create incremental space without exposing vulnerable limbs to submission attacks.\n\nThe technique centers on positioning forearm wedges against the opponent's hip line and chest without extending the arms, then timing hip escapes to coincide with the top player's weight shifts or positional adjustments. Unlike explosive bridge escapes that waste energy against a well-based opponent, the Frame Escape employs a methodical, multi-step approach where each micro-movement preserves the space gained before the next hip escape is executed. The ultimate goal is inserting a knee shield and recovering to half guard.\n\nStrategically, this escape requires exceptional composure under pressure. The jaw discomfort is designed to provoke panic reactions that expose submission vulnerabilities. Successful execution demands controlled breathing, patience to wait for genuine timing windows, and disciplined frame mechanics that resist the instinct to push or extend. Practitioners who master this escape transform the Shoulder of Justice from a position of hopelessness into a manageable problem with reliable solutions.",
   "conditions": [
     "Trapped under Shoulder of Justice with opponent's shoulder driven into jaw",

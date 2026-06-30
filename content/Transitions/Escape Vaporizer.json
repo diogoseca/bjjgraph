@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Open Guard/Bottom",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Lockdown/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Flattened Half Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "summary": "The Escape Vaporizer is a tactical disengagement in which the Vaporizer bottom player releases the lockdown and immediately inserts foot frames to reset into open guard once their lockdown-based attacks have been neutralized.",
   "overview": "Within the 10th Planet lockdown system, the Escape Vaporizer is a tactical reset rather than a defensive escape from danger—the bottom player who has been controlling the Vaporizer abandons a stalled position to re-establish open guard, where fresh attacking opportunities become available. This decision typically arises when the top player has successfully neutralized whip-up pressure, established a strong whizzer, or begun systematically clearing the lockdown configuration.\n\nThe technical challenge lies in releasing the lockdown figure-four without creating passing opportunities for the top player. The bottom player must coordinate the leg release with immediate frame establishment, using the brief transitional window to insert feet on hips and create distance before the opponent can capitalize on the suddenly freed leg. Poor execution during this phase exposes the bottom player to pressure passing and flattening, making the timing and sequencing of each movement critical.\n\nRecognizing when to abandon the Vaporizer is a hallmark of positional intelligence within the 10th Planet system. Committing too long to a neutralized position wastes energy and allows the opponent to organize their passing game. Transitioning to open guard provides access to De La Riva hooks, butterfly elevators, and collar sleeve controls that attack from fundamentally different angles than the lockdown-based proximity game, forcing the opponent to recalibrate their defensive strategy entirely.",
   "conditions": [

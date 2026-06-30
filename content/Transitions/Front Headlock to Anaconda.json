@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Anaconda Control/Top",
-      "probability": 68,
+      "probability": {
+        "gi": 68,
+        "nogi": 68
+      },
       "result": "success"
     },
     {
       "to": "Front Headlock/Top",
-      "probability": 22,
+      "probability": {
+        "gi": 22,
+        "nogi": 22
+      },
       "result": "failure"
     },
     {
       "to": "Front Headlock/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 59,
+  "success_rate": {
+    "gi": 59,
+    "nogi": 59
+  },
   "overview": "The Front Headlock to Anaconda transition represents one of the highest-percentage finishing sequences from the front headlock position. This technique exploits the opponent's defensive posture in turtle or standing positions by converting head and arm control into a devastating choking attack. The anaconda choke, characterized by its distinctive rolling motion and figure-four arm configuration, creates simultaneous pressure on both the carotid artery and the shoulder, making it extremely difficult to defend once properly locked.\n\nThe transition is particularly effective because it capitalizes on the opponent's natural defensive instinct to protect their back exposure. When an opponent turtles to avoid back takes, they inadvertently present the perfect anatomy for the anaconda setup. The technique requires precise arm threading, proper shoulder pressure, and coordinated rolling mechanics to achieve the finish. Understanding the biomechanics of the choke—specifically how the rolling motion tightens the noose while eliminating space—is crucial for successful execution.\n\nThis transition has become a staple in modern no-gi grappling and MMA, where the absence of gi grips makes the front headlock position even more dominant. The anaconda's versatility allows it to be applied from various front headlock configurations, including standing snapdowns, failed takedown attempts, and turtle attacks. Mastering this transition provides practitioners with a reliable path from control to submission that works across all levels of competition.",
   "related_content": [
     {

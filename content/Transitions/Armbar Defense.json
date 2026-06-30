@@ -15,26 +15,41 @@
   "outcomes": [
     {
       "to": "Closed Guard/Top",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "success"
     },
     {
       "to": "Armbar Control/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Triangle Control/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 52,
+  "success_rate": {
+    "gi": 52,
+    "nogi": 52
+  },
   "overview": "Armbar defense represents one of the most critical defensive skills in Brazilian Jiu-Jitsu, as the armbar is among the highest-percentage submissions across all skill levels and rule sets. The defensive sequence must be executed with precise timing and technical understanding, as even slight delays can result in a completed submission. Effective armbar defense operates on multiple layers: preventing the initial setup through postural awareness, recognizing the attack in its early stages, executing appropriate escape mechanics based on the specific armbar variation, and transitioning to a safer position once the immediate threat is neutralized.\n\nThe defense varies significantly depending on whether the armbar is being applied from mount, guard, side control, or back control, requiring practitioners to develop position-specific defensive responses while maintaining awareness of fundamental escape principles that apply across all variations. The core mechanics center on three interconnected concepts: maintaining a bent elbow through structural alignment rather than muscular effort, rotating the body to reduce the submission angle, and stacking the opponent's hips to eliminate their finishing leverage. These principles remain constant across all armbar variations, even as the specific execution details change based on the attacking position.\n\nSuccessful armbar defense demands an understanding of the submission's mechanics from the attacker's perspective. Knowing that the armbar requires perpendicular hip alignment, controlled wrist grip, leg control over the head and torso, and hip elevation for the finish allows the defender to systematically address each requirement. Removing any single element compromises the submission, creating escape windows that grow larger as additional control points are disrupted.",
   "conditions": [
     "Opponent has established armbar control position with legs across your body",

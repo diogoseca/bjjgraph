@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Williams Guard/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Stack from Williams Guard is a fundamental guard passing technique executed by the top player when caught in Williams Guard's shoulder lock control. Rather than fighting the grip configuration directly, the top player drives forward with controlled pressure to fold the bottom player's hips over their shoulders, compressing the guard structure and neutralizing the shoulder lock mechanics through positional pressure rather than grip fighting. This stacking approach exploits a key mechanical vulnerability in Williams Guard: the shoulder lock requires space and hip mobility to maintain effective leverage, and the stack systematically removes both.\n\nStrategically, the stack represents the most direct response to Williams Guard when the top player's arm is already controlled. While arm extraction and posture recovery offer alternative escape paths, the stack converts the compromised arm position into an advantage by using forward drive to collapse the guard structure entirely. The bottom player's commitment to maintaining shoulder lock grip actually accelerates their vulnerability to being stacked, as their grip retention prevents the hip escape needed to avoid the stack pressure. This creates a fundamental dilemma: releasing the grip to defend the stack surrenders positional control, while maintaining it accelerates the pass.\n\nThe technique requires precise weight distribution and progressive pressure application to avoid triggering sweep counters. Rushing the stack allows the bottom player to use the forward momentum for sweeps or omoplata transitions, while methodical pressure neutralizes these threats by keeping the bottom player's hips elevated and their base compromised. Success depends on controlling the bottom player's hip angle throughout the stacking sequence while maintaining sufficient base to resist being rolled through.",
   "conditions": [
     "Top player's arm is trapped in Williams Guard shoulder lock configuration",

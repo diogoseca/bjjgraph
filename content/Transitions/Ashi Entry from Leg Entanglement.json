@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Inside Ashi-Garami/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Leg Entanglement/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Ashi Entry from Leg Entanglement is a fundamental positional advancement within modern leg lock systems, converting a general or neutral leg entanglement into the structured Inside Ashi-Garami configuration. This transition bridges the gap between chaotic scramble-like leg exchanges and organized submission attacking by establishing the specific two-point leg control that defines Inside Ashi-Garami: inside leg across the opponent's hip and outside leg hooking behind their knee. Without this entry skill, practitioners remain stuck in loose entanglements where neither player has meaningful offensive advantage.\n\nThe technique demands precise timing and reading of defensive reactions. The optimal window for the entry opens when the opponent is occupied defending a submission threat or adjusting their own positioning within the entanglement. Attempting the entry against an alert, prepared opponent who is actively fighting to clear the entanglement has a significantly lower success rate. Advanced practitioners create these timing windows deliberately by threatening ankle locks or kneebars that force the opponent to redirect their defensive attention, then using that momentary distraction to thread into Inside Ashi-Garami.\n\nThis transition is the connective tissue between the leg entanglement ecosystem and specific submission chains. Practitioners who master it can convert any leg-on-leg contact into a structured attacking position, while those who lack it remain dependent on catching perfect entries from guard or scramble positions. The ashi entry transforms opportunistic leg attacks into systematic positional control, establishing the principle that position must precede submission in the leg lock hierarchy.",
   "conditions": [
     "At least one of the opponent's legs is controlled through some form of entanglement with your legs engaged around their lower body",

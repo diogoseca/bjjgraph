@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Open Guard/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Rubber Guard/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "summary": "The Rubber Guard Top Posture Escape is a top-position defensive transition that breaks 10th Planet Rubber Guard control by framing the controlling leg down, extracting the trapped arm in a circular path, and driving the hips back to recover posture and reach Open Guard top.",
   "overview": "The Rubber Guard Top Posture Escape is a systematic defensive transition designed to free the top player from the highly controlling Rubber Guard position. When trapped in an opponent's Rubber Guard, the top player faces severe posture compromise with one arm isolated against the bottom player's chest by their elevated leg. This escape addresses the core mechanical problem: the bottom player's leg acting as a lever to break posture while simultaneously trapping the arm. The escape sequence prioritizes creating structural frames with the free hand, disrupting the bottom player's leg configuration, and systematically recovering upright posture before the opponent can advance through the 10th Planet positional hierarchy toward submissions.\n\nStrategically, this escape must be executed before the bottom player progresses from Mission Control to more advanced positions like New York, Invisible Collar, or Zombie, where submission threats multiply exponentially. The timing window narrows rapidly once the Rubber Guard is fully established, making early recognition and immediate defensive action critical. The escape integrates principles of pressure management, circular arm extraction rather than linear pulling, and controlled posture recovery that avoids triggering the submission chain reactions that punish common escape mistakes. Success requires understanding that the Rubber Guard system is designed to exploit predictable defensive reactions, so the escape must combine multiple defensive actions simultaneously rather than addressing threats sequentially.",
   "conditions": [

@@ -14,26 +14,41 @@
   "outcomes": [
     {
       "to": "Half Guard/Top",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Side Control/Top",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "success"
     },
     {
       "to": "Leg Knot/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Pressure Pass from Leg Knot is a strategic positional advancement technique where the top player disengages from the leg entanglement exchange and uses superior pressure and body mechanics to pass the guard. Rather than continuing to battle for heel hooks, toe holds, or kneebars in the entangled position, the top player commits to establishing upper body control and systematically extracting their legs to achieve a dominant passing position. This technique represents a critical decision point in modern leg lock warfare, acknowledging that positional advancement may offer more strategic value than continuing a contested entanglement.\n\nThe mechanics of this pass rely on the fundamental principle that upper body control supersedes lower body entanglement. By driving weight forward through the chest and establishing a strong crossface or head control, the top player creates downward pressure that flattens the bottom player and reduces their ability to re-entangle or initiate offensive leg attacks. The leg extraction phase requires patience and methodical technique, sliding the knee across the opponent's thigh line while maintaining constant forward pressure to prevent the bottom player from re-establishing their defensive leg configuration.\n\nThis transition is particularly valuable in competition scenarios where time pressure demands positional scoring over submission hunting, and against opponents with exceptional leg lock defense who are difficult to finish from entangled positions. The pressure pass from Leg Knot integrates seamlessly into a broader top game strategy, allowing practitioners to flow between leg lock attacks and pressure passing based on the opponent's defensive reactions and the evolving tactical situation.",
   "variants_and_adaptations": [
     {

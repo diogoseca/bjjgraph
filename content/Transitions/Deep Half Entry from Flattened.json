@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Deep Half Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Flattened Half Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "For purple and brown belts who keep getting flattened by heavy pressure passers, this entry reframes the entire defensive problem: rather than fighting back to the surface against the top player's full weight, you weaponize the very proximity that flattening creates. When pinned flat under crushing chest pressure with your half guard hook as the only remaining barrier, the dive underneath your opponent's center of gravity becomes available precisely because their chest pressure has brought their hips close to your head. The entry relies on precise timing, specific hip mechanics, and the ability to thread your body beneath the top player during momentary weight shifts.\n\nThis technique represents a paradigm shift in half guard recovery philosophy. Rather than fighting to re-establish frames and knee shields from the surface, a process that requires overcoming the top player's entire body weight, the deep half entry takes advantage of the proximity that flattening creates. Your opponent's chest pressure brings their hips close to your head, which is precisely the distance needed to dive under for deep half guard. What appears to be a crushing disadvantage becomes the setup for your escape, provided you understand the entry mechanics and timing windows.\n\nThe transition carries inherent risk because the entry movement temporarily removes your remaining defensive structures. During the dive, you momentarily abandon your half guard hook and frame, committing to reaching the deep half position. If the top player recognizes the entry early and counters with sprawling pressure or a backstep, you can end up passed to side control. This risk-reward calculation makes timing the critical variable, executing when the top player shifts weight to advance rather than when they are settled and applying static pressure.",
   "conditions": [
     "Bottom player retains half guard hook on at least one of top player's legs",

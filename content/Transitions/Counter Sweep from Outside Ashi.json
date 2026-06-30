@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Outside Ashi-Garami/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "Within the modern outside ashi-garami game, this sweep is the offensive escape valve that activates precisely when the top player tries to leave. The sweep is initiated as a counter to the opponent's escape attempt—when the top player stands, postures up, or drives forward to extract their trapped leg, their weight shift creates the off-balance necessary for the sweep to succeed. The figure-4 leg configuration that controls the opponent's leg doubles as a mechanical lever when combined with proper hip drive and upper body control.\n\nThe technique represents a critical decision point in the outside ashi-garami game. When heel hook and ankle lock attempts are being effectively defended, the counter sweep provides an alternative pathway to dominant position rather than expending energy on diminishing-return submission attempts. The outside angle of the entanglement creates specific sweep trajectories that differ from sweeps available in inside ashi or 50-50, and the asymmetric control favors sweeps directed perpendicular to the opponent's centerline.\n\nTiming is the defining factor in this sweep's success rate. The sweep window opens when the opponent commits their weight in a readable direction during their escape sequence. Forward driving, standing posture, and lateral hip rotation all create distinct sweep opportunities with different angles of attack. Initiating the sweep from a static position against a balanced opponent yields minimal results—the technique requires reading and exploiting the opponent's movement rather than forcing a sweep against a settled base. The risk-reward calculation is significant: loosening the figure-4 to generate sweep momentum creates a window where the opponent may extract their leg entirely, converting the position from outside ashi to open guard.",
   "conditions": [
     "Opponent shifts weight to stand, posture up, or drive forward while their leg remains trapped in your outside ashi-garami figure-4 configuration",

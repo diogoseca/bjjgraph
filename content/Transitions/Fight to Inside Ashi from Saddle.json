@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Inside Ashi-Garami/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Saddle/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Fighting to Inside Ashi-Garami from the Saddle bottom represents one of the most critical defensive transitions in modern leg lock grappling. When trapped in the Saddle, you face immediate heel hook, toe hold, and kneebar threats with severely limited defensive options. Rather than attempting a full escape that risks exposing the heel during large movements, this technique focuses on systematically degrading the opponent's entanglement from the highly dominant Saddle configuration to the less threatening Inside Ashi-Garami, where submission finishing mechanics are significantly weaker and additional escape pathways become available.\n\nThe transition operates on the principle of incremental positional improvement. Instead of explosive escapes that create kinetic energy the opponent can exploit, you methodically address the structural elements that make the Saddle dangerous: the figure-four leg configuration, the perpendicular body alignment, and the hip pressure that prevents rotation. By clearing these elements in sequence, you reduce the opponent's mechanical advantage step by step until their entanglement no longer qualifies as Saddle control.\n\nThis approach has gained prominence through high-level competition, where practitioners recognize that surviving dangerous leg entanglements requires patience and technical precision rather than panic-driven escape attempts. The fight to Inside Ashi represents the first gate in a defensive hierarchy: from Saddle, degrade to Inside Ashi; from Inside Ashi, work toward full escape or counter-attack. Understanding this progression transforms leg lock defense from a desperate scramble into a methodical process with clear intermediate objectives.",
   "conditions": [
     "Opponent has established Saddle control with figure-four leg configuration around your trapped leg",

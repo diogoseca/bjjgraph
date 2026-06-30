@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Single Leg X-Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "50-50 Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "50-50 Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The 50-50 Guard to Single Leg X-Guard transition represents a strategic positional upgrade that transforms a symmetrical leg entanglement into an asymmetrical sweeping platform. From the defensive 50-50 bottom position, this technique extracts your outside leg while maintaining control of opponent's leg, allowing you to establish the powerful Single Leg X-Guard configuration. The biomechanical principle at work is converting a mirrored entanglement where both players have equal leverage into one where you possess superior off-balancing architecture.\n\nThis transition is particularly valuable when facing opponents with superior heel hook attacks or when the 50-50 has become stalemated. Rather than fighting for inside position parity or attempting counter-attacks from disadvantage, this movement shifts the game entirely to a position favoring sweeps and stand-ups. The Single Leg X-Guard offers immediate access to technical stand-up, X-Guard sweeps, and leg drag opportunities that the symmetric 50-50 cannot provide. The key insight is that changing the positional category entirely is often more efficient than competing for marginal advantage within the same entanglement.\n\nTiming is critical for this transition. The optimal window occurs when opponent focuses on attacking your heel or when they momentarily release hip pressure to adjust their position. The movement requires coordinated leg extraction, hip repositioning, and immediate hook establishment to prevent opponent from following into your new position or returning to neutral. The entire sequence must be executed as a fluid chain rather than discrete steps, as any pause mid-transition creates vulnerability to heel hook counter-attacks.",
   "conditions": [
     "Your heel is currently hidden and defended from immediate attack",

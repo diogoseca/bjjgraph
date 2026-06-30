@@ -19,7 +19,10 @@
   "target_area": "Ankle, toes, and foot ligaments",
   "starting_position": "Cross Ashi-Garami",
   "from_position": "Cross Ashi-Garami/Top",
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "overview": "The toe hold from cross ashi-garami exploits the unique crossed-leg configuration to generate powerful rotational force on the opponent's ankle and foot complex. Unlike heel hooks that target the knee's rotational axis, the toe hold attacks the ankle joint itself by gripping across the toes and forefoot then applying a kimura-like twisting motion. The cross ashi position provides superior hip control that prevents the common toe hold defense of simply retracting the foot, making this one of the highest-percentage toe hold setups in modern leg lock grappling.\n\nWhat makes this variant distinct is the control architecture inherent to cross ashi-garami. The attacking player's legs cross over the opponent's trapped limb, creating a wedge that immobilizes the hip while the hands work the toe hold grip. This dual-lever system generates breaking pressure that standard ashi-garami positions cannot replicate with the same efficiency. The position also offers natural transitions to heel hooks and ankle locks when the opponent defends the toe hold, creating a submission chain that forces multiple defensive responses.\n\nFrom a competition perspective, the toe hold from cross ashi-garami serves as both a primary finish and a gateway attack. Many high-level grapplers use it to force defensive reactions that expose the heel for the more decisive heel hook. Understanding when to commit to the toe hold finish versus using it as a setup requires reading the opponent's defensive posture and grip fighting responses in real time.",
   "safety_considerations": {
     "injury_risks": [
@@ -115,17 +118,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Cross Ashi-Garami/Top",
-      "probability": 26,
+      "probability": {
+        "gi": 26,
+        "nogi": 26
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 14,
+      "probability": {
+        "gi": 14,
+        "nogi": 14
+      },
       "result": "counter"
     }
   ],

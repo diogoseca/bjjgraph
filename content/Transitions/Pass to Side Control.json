@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "50-50 Guard/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "50-50 Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "Passing to Side Control from 50-50 Guard represents a strategic decision to abandon leg lock exchanges in favor of establishing a dominant pinning position. This transition is particularly valuable when your opponent has effectively hidden their heel, when you lack the control needed for leg attacks, or when competing under rulesets that restrict heel hooks. The pass requires systematic leg extraction while maintaining pressure to prevent your opponent from following or re-establishing the entanglement.\n\nThe fundamental challenge of this pass is extracting your legs from the symmetrical entanglement without creating space that allows your opponent to recover guard or sweep. Success depends on controlling the hip line throughout the transition and using your weight to pin their lower body while your legs disengage. The pass typically flows through a brief knee-on-belly or headquarters position before settling into side control.\n\nThis transition exemplifies the principle that positional dominance sometimes outweighs submission hunting. Against defensive opponents who excel at heel protection, repeatedly attacking leg locks may waste energy with diminishing returns. Recognizing when to abandon the entanglement and advance position separates intermediate practitioners from advanced ones. The 3 points earned for the pass often proves more valuable than continued position-neutral leg lock exchanges.",
   "conditions": [
     "You hold top position in the 50-50 Guard with hip pressure advantage",

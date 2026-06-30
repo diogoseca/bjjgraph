@@ -15,26 +15,41 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "success"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "success"
     },
     {
       "to": "Rodeo Ride/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "The Roll from Rodeo Ride is a defensive rolling escape executed from bottom turtle under Rodeo Ride pressure, where the practitioner uses rotational momentum to dislodge the top player's dynamic control and recover to a guard position. This escape targets the inherent instability of Rodeo Ride—unlike static pin positions, the top player's asymmetric weight distribution and perpendicular angle create windows of vulnerability that a well-timed roll can exploit. The technique is most effective when the top player commits their weight forward for hook insertion or choke attacks, creating the momentum imbalance necessary for successful rotation.\n\nThe rolling escape requires precise timing and directional awareness. The bottom player must identify moments when the top player's pressure shifts away from their hips, then explosively rotate through the gap created by this weight shift. The roll direction typically moves away from the controlled arm side, using the free arm as a posting point to guide the rotation while maintaining chin protection throughout. Success depends on immediately establishing guard connection upon completing the rotation, as any pause between the roll and guard recovery allows the top player to reestablish control or advance to back control.\n\nThis technique occupies a specific niche in the turtle escape hierarchy. It carries higher risk than incremental guard recovery methods like the sit-through or technical stand-up, but offers faster positional improvement when executed with proper timing. The primary danger is back exposure during the rotation phase, as an opponent who reads the roll can follow the movement and establish hooks. Practitioners should develop this escape as a complement to more conservative methods, deploying it when clear rolling opportunities present themselves rather than forcing it against settled pressure.",
   "variants_and_adaptations": [
     {

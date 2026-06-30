@@ -18,7 +18,10 @@
   "target_area": "Elbow joint hyperextension and ulnar collateral ligament",
   "starting_position": "Mounted Triangle",
   "from_position": "Mounted Triangle/Top",
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "The belly down armbar finish from mounted triangle exploits the unique arm isolation provided by the triangle leg configuration to transition into a prone armbar with devastating mechanical advantage. Unlike standard belly down armbars from mount or side control, the mounted triangle variant uses the locked triangle structure to prevent the defender from retracting the trapped arm during the critical rotation phase, substantially increasing completion rate.\n\nThe technique begins with the attacker already controlling the mounted triangle, where one of the defender's arms is trapped between the attacker's legs. Rather than pursuing the triangle choke or standard armbar, the attacker secures wrist control on the trapped arm and initiates a rotation over the arm, transitioning from a seated or upright position to a prone, belly-down orientation. The triangle legs maintain control of the shoulder and upper arm throughout the rotation, preventing the most common armbar defense of pulling the elbow free.\n\nStrategically, this finish represents a high-percentage option when the defender successfully defends the triangle choke through chin tucking and posture management but leaves the arm exposed. The belly down position creates a fulcrum at the elbow with the attacker's hips while gravity and body weight reinforce the extension pressure. Once belly down with proper hip placement, the submission becomes extremely difficult to escape, making the rotational transition the most critical phase requiring precise timing and coordination.",
   "safety_considerations": {
     "injury_risks": [
@@ -98,17 +101,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Mounted Triangle/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],

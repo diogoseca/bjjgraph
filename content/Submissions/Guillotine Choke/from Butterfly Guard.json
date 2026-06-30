@@ -19,7 +19,10 @@
   "target_area": "Carotid arteries and windpipe",
   "starting_position": "Butterfly Guard",
   "from_position": "Butterfly Guard/Bottom",
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "overview": "The Guillotine Choke from Butterfly Guard is one of the highest-percentage submission entries in modern grappling. The butterfly guard provides a unique platform for the guillotine because the hooks create immediate elevation threat, forcing the opponent to choose between defending the sweep and defending the choke. When an opponent drives forward to neutralize butterfly hooks or shoots for a takedown, they create the exact head-down posture that exposes the neck for guillotine entries. This natural offensive pairing makes the butterfly-guillotine combination a foundational attack chain.\n\nWhat distinguishes this variant from standing or closed guard guillotines is the role of the butterfly hooks in both setup and finish. During the setup phase, the hooks provide constant upward pressure that prevents the opponent from posturing out or driving through. During the finishing phase, the bottom player uses hook elevation combined with a hip-back motion to stretch the opponent's body while tightening the choke, creating a powerful two-directional force that makes defense extremely difficult. The seated posture also allows for rapid grip acquisition and adjustment that flat-on-back positions cannot match.\n\nStrategically, the butterfly guillotine serves as a critical deterrent against aggressive passing. Opponents who lean forward into butterfly guard or attempt to flatten the guard player expose themselves to snap-down entries and front headlock transitions that lead directly to the choke. This creates a dilemma where the passer must respect the guillotine threat, which in turn opens up sweeping opportunities. Elite grapplers use this dynamic interplay between sweep and submission to control the pace of engagement from butterfly guard bottom.",
   "safety_considerations": {
     "injury_risks": [
@@ -107,17 +110,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 62,
+      "probability": {
+        "gi": 62,
+        "nogi": 62
+      },
       "result": "success"
     },
     {
       "to": "Butterfly Guard/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 13,
+      "probability": {
+        "gi": 13,
+        "nogi": 13
+      },
       "result": "counter"
     }
   ],

@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Standing Position/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Front Headlock/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "Rooted in folkstyle wrestling, the Knee Tap has become a staple low-risk entry for BJJ practitioners who need a reliable way to convert standing exchanges into top position. By attacking the knee while controlling the upper body, you create a mechanical advantage that collapses their base. This technique is particularly effective against opponents who overcommit their weight forward or stand square in their stance. The Knee Tap works across all skill levels and translates seamlessly between gi and no-gi environments. It requires minimal setup compared to more complex takedowns, making it an essential tool for pulling guard practitioners who need reliable standing entries. The technique's beauty lies in its simplicity - by simultaneously pulling the upper body while sweeping the lower support, you create an unstoppable collapse that transitions directly into dominant top positions.",
   "related_content": [
     {

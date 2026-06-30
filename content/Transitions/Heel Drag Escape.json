@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Technical Mount/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Heel Drag Escape is one of the most energy-efficient and mechanically elegant methods of escaping the mount position. Rather than relying on explosive bridging power or complex multi-step sequences, this technique leverages a precise foot movement to recover half guard by hooking the top player's foot with your heel and dragging it across your body. The simplicity of the movement belies its effectiveness: when properly timed, the heel drag creates an inescapable leg entanglement that immediately transitions the position from full mount to half guard.\n\nThe strategic value of the heel drag lies in its low energy cost and high reliability. Unlike the upa escape, which requires trapping the opponent's arm and leg before committing to an explosive bridge, the heel drag can be executed with minimal upper body movement. This makes it particularly effective when the top player maintains strong base and wide knees, as the escape targets the feet rather than challenging the opponent's core base structure. The technique works best when combined with a slight hip bump or bridge to momentarily create space between the opponent's foot and the mat, allowing the heel to hook underneath.\n\nFrom a positional chess perspective, the heel drag escape is a critical component of the mount defense hierarchy. It serves as an excellent complement to the elbow escape and upa, creating a three-pronged defensive system where each escape covers the weaknesses of the others. Successfully recovering half guard through the heel drag immediately opens a rich offensive landscape including underhook battles, deep half entries, and back take sequences that transform a purely defensive situation into an active positional exchange.",
   "conditions": [
     "Top player has at least one foot planted flat on the mat near your hip line, providing a target for the hooking motion",

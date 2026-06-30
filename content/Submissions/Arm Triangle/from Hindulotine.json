@@ -18,7 +18,10 @@
   "target_area": "Carotid arteries (compressed by opponent's own shoulder and your arm)",
   "starting_position": "Hindulotine",
   "from_position": "Hindulotine/Top",
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "summary": "The Arm Triangle from Hindulotine is a head-and-arm blood choke that converts the opponent's own guillotine-defense frame into a trapped arm, compressing both carotids with their shoulder on one side and your forearm on the other.",
   "overview": "The Arm Triangle from Hindulotine exploits the natural defensive reaction to guillotine pressure. When an opponent frames with their near arm to defend the Hindulotine grip, their own arm becomes trapped against their neck, creating the head-and-arm configuration needed for kata-gatame. The attacker transitions from guillotine mechanics to arm triangle compression, using the opponent's own shoulder as one blade of the choke while their forearm provides the opposing pressure on the other carotid artery.\n\nThis technique represents an advanced chain within the Hindulotine system that specifically punishes one of the most common defensive responses. Rather than forcing the guillotine against a strong frame, the practitioner recognizes when the opponent's arm position creates the arm triangle opportunity and flows into it seamlessly. The transition demands precise timing and constant head control to prevent the opponent from recovering posture or extracting their trapped arm during the grip switch.\n\nThe strategic value lies in the dilemma this creates within the Hindulotine attack system. Opponents who frame to defend the guillotine inadvertently set up the arm triangle. Those who keep their arms tight to prevent the arm triangle remain vulnerable to the original guillotine. This binary choice where both defensive responses feed the attacker's chain exemplifies modern submission grappling's emphasis on interconnected threat systems that force defensive errors.",
   "safety_considerations": {
@@ -106,17 +109,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 62,
+      "probability": {
+        "gi": 62,
+        "nogi": 62
+      },
       "result": "success"
     },
     {
       "to": "Hindulotine/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 13,
+      "probability": {
+        "gi": 13,
+        "nogi": 13
+      },
       "result": "counter"
     }
   ],

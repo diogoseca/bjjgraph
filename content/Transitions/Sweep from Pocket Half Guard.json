@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 48,
+      "probability": {
+        "gi": 48,
+        "nogi": 48
+      },
       "result": "success"
     },
     {
       "to": "Pocket Half Guard/Bottom",
-      "probability": 32,
+      "probability": {
+        "gi": 32,
+        "nogi": 32
+      },
       "result": "failure"
     },
     {
       "to": "Flattened Half Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 48,
+  "success_rate": {
+    "gi": 48,
+    "nogi": 48
+  },
   "overview": "Within the pocket half guard attack system, this sweep is the answer to passers who commit forward chest pressure rather than sitting back. Unlike the Old School Sweep which requires reaching under the opponent's far leg, it relies on a tight connection between the underhook lever and an explosive hip bridge directed into the opponent's center of gravity. The bottom player uses the pocket frame—foot pressed against the opponent's near hip—as a fulcrum while pulling the far shoulder down with the underhook, creating a rotational moment that is difficult to resist when timed with the opponent's forward weight shift.\n\nThis sweep is most effective against opponents who commit heavy chest pressure in pocket half guard, as their forward weight distribution creates the exact off-balance angle this technique exploits. The bottom player times the hip bridge to coincide with the opponent's forward drive, redirecting that energy laterally rather than absorbing it. The sweep arc carries the bottom player to their knees and through to side control top, bypassing the dogfight scramble that often results from other half guard sweeps.\n\nStrategically, this sweep serves as a complementary threat within the pocket half guard attack system. While it carries lower individual attempt frequency than the Old School Sweep or back take entries, its presence forces the top player to manage weight distribution across multiple planes—forward pressure invites this sweep, while sitting back opens the Old School. This constant dilemma embodies the core half guard principle that offensive threat density from bottom creates defensive paralysis in the top player.",
   "conditions": [
     "Deep underhook secured on opponent's far side reaching their lat or shoulder blade",

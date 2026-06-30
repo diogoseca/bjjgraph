@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Turtle/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Dead Orchard Control/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "The Roll from Dead Orchard is a high-stakes defensive escape technique used when trapped in dead orchard control, an advanced anaconda choke variation where the top player maintains crushing pressure with deep grip configuration and committed shoulder drive. When frame-based escapes and arm extraction attempts have been exhausted or are unavailable, the forward roll represents the bottom player's last viable option before the choke becomes inescapable. The technique leverages the opponent's own forward pressure commitment as the escape mechanism, redirecting their energy into rotational momentum that disrupts the circular compression necessary for the blood choke finish.\n\nExecuting this roll requires precise timing and directional awareness. The bottom player initiates a forward roll toward the choking arm side during a moment when the top player drives forward to tighten the submission. By rolling through at the correct angle, the bottom player breaks the structural alignment of the anaconda grip while transitioning through to turtle position. While turtle remains a defensive position with back exposure, it represents a dramatic improvement over dead orchard where submission is imminent and breathing is severely restricted.\n\nThe primary risk of this escape is that a poorly timed or incorrectly angled roll allows the opponent to follow the rotation and secure back control with hooks, potentially creating an even worse situation. The technique demands sensitivity to opponent weight distribution and pressure patterns, executing the roll during the specific window when the top player commits maximum forward pressure for the finish. This escape is most effective when combined with initial framing and hip movement that disguises the roll direction until the point of commitment.",
   "conditions": [
     "Trapped in dead orchard control with opponent's anaconda-style grip fully secured around neck and nearside arm",

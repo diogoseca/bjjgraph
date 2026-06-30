@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Leg Drag Control/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Lapel Guard/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Leg Drag While Clearing Lapel is a sophisticated guard passing technique that addresses two critical problems simultaneously: neutralizing the opponent's lapel configuration and establishing dominant passing position. This technique recognizes that attempting to clear lapel grips separately from passing often allows the bottom player to re-establish control during the transition.\n\nThe fundamental insight is that the leg drag motion naturally creates the angle and momentum needed to strip lapel configurations while advancing position. As you drag the opponent's legs across your body, the rotational force combined with your grip work strips the lapel from around your limbs. This turns a defensive problem (clearing lapel control) into an offensive opportunity (completing the pass).\n\nStrategically, this technique excels against opponents who rely heavily on lapel guard systems. Rather than engaging in extended grip battles that favor the bottom player's energy efficiency, you convert directly to a passing position. The leg drag position achieved offers immediate submission threats including leg attacks and back exposure, making this a high-value transition that changes the entire complexion of the exchange.",
   "conditions": [
     "Opponent has established a lapel guard configuration (worm guard, squid guard, or similar)",

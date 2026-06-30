@@ -20,7 +20,10 @@
   "target_area": "Shoulder joint (specifically glenohumeral joint and rotator cuff)",
   "starting_position": "Reverse Kesa-Gatame",
   "from_position": "Reverse Kesa-Gatame/Top",
-  "success_rate": 68,
+  "success_rate": {
+    "gi": 68,
+    "nogi": 68
+  },
   "overview": "The Americana from Reverse Kesa-Gatame exploits the natural arm isolation created by the reverse scarf hold position. Unlike the standard side control Americana where the attacker must work to pin the wrist against active resistance, the reverse orientation traps the defender's far arm as a structural consequence of the pin, creating a direct path to the figure-four grip. The top player's chest pressure immobilizes the defender's shoulder against the mat while simultaneously eliminating their ability to create effective defensive frames against the submission.\n\nThis variant offers distinct mechanical advantages that produce one of the highest-percentage Americana finishes available. The reverse kesa configuration positions the attacker's body weight directly over the target shoulder joint, amplifying the rotational force of the keylock without requiring excessive muscular effort. The defender's primary escape routes are severely compromised because bridging and shrimping are already restricted by the chest pressure and hip positioning inherent to the pin.\n\nStrategically, this Americana integrates into a powerful submission chain from reverse kesa-gatame. When the defender straightens their arm to resist the wrist pin, the kimura becomes immediately available. If they pull their elbow tight to defend both shoulder locks, the arm triangle opens as the arm is drawn across the neck. This creates a forcing function where defending one attack exposes vulnerability to another, making the sequence extremely difficult to shut down at the purple belt level and above.",
   "safety_considerations": {
     "injury_risks": [
@@ -116,17 +119,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 68,
+      "probability": {
+        "gi": 68,
+        "nogi": 68
+      },
       "result": "success"
     },
     {
       "to": "Reverse Kesa-Gatame/Top",
-      "probability": 21,
+      "probability": {
+        "gi": 21,
+        "nogi": 21
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 11,
+      "probability": {
+        "gi": 11,
+        "nogi": 11
+      },
       "result": "counter"
     }
   ],

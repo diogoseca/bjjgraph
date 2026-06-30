@@ -15,7 +15,10 @@
   "submission_type": "Blood Choke",
   "target_area": "Carotid arteries",
   "starting_position": "Side Control",
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Von Flue Choke is a devastating counter-submission that punishes opponents who maintain an overly committed guillotine grip from bottom position. Named after Jason Von Flue who famously used it in the UFC, this technique transforms a defensive scenario into an immediate offensive threat. The choke works by using shoulder pressure combined with body weight to compress one carotid artery while the opponent's own arm compresses the other, creating a blood choke that renders the guillotine grip not only ineffective but actively dangerous for the person holding it. This submission is particularly effective in no-gi grappling where guillotine attempts are common, and it serves as a crucial defensive concept that every practitioner must understand. The psychological impact of the Von Flue choke cannot be overstated—once an opponent has been caught with it, they become hesitant to hold guillotine grips from bottom position, fundamentally changing the dynamics of guard passing exchanges. The technique demonstrates a core principle in Brazilian Jiu-Jitsu: every offensive position contains the seeds of its own defeat if held too long or too rigidly.",
   "safety_considerations": {
     "injury_risks": [
@@ -114,17 +117,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Side Control/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],

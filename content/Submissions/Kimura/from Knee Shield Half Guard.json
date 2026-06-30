@@ -18,7 +18,10 @@
   "target_area": "Shoulder joint, rotator cuff, and shoulder capsule",
   "starting_position": "Knee Shield Half Guard",
   "from_position": "Knee Shield Half Guard/Bottom",
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "summary": "The Kimura from Knee Shield Half Guard is a bottom-position figure-four shoulder lock that traps the opponent's posting or reaching arm and rotates it internally behind their back to force a tap or open sweeps and back takes.",
   "overview": "The Kimura from Knee Shield Half Guard is a bottom-player shoulder lock attack that leverages the structural distance created by the knee shield frame. Unlike Kimura attempts from flat half guard where the top player's weight makes grip establishment difficult, the knee shield maintains separation that allows the bottom player to identify arm placement opportunities and thread the figure-four grip without being smashed. This makes it one of the more accessible Kimura entries from the bottom position.\n\nThe setup typically arises when the top player posts a hand on the mat for base, reaches across the body for grips, or extends an arm during a passing attempt. The bottom player captures the wrist with their near hand and threads the far arm under the opponent's tricep to establish the figure-four grip. The knee shield serves a critical dual function throughout the attack: it prevents the top player from driving forward to stack and escape while providing the bottom player with the hip mobility needed to create the perpendicular finishing angle.\n\nThis submission integrates naturally into the Kimura Trap system used extensively in modern competitive grappling. If the initial rotational finish is defended, the figure-four grip itself becomes a powerful control handle for sweeps, back takes, and transitions to other submissions. The grip is the position—even when the tap is not immediately available, maintaining the figure-four from knee shield creates a dominant control state that threatens multiple outcomes.",
   "safety_considerations": {
@@ -104,17 +107,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Knee Shield Half Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],

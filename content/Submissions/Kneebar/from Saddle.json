@@ -18,7 +18,10 @@
   "target_area": "Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament)",
   "starting_position": "Saddle",
   "from_position": "Saddle/Top",
-  "success_rate": 52,
+  "success_rate": {
+    "gi": 52,
+    "nogi": 52
+  },
   "overview": "The kneebar from Saddle exploits one of the most mechanically advantageous leg entanglement positions in modern BJJ to attack the knee joint through controlled hyperextension. Unlike kneebar entries from open guard or half guard where the attacker must first fight for perpendicular positioning and leg isolation, the Saddle provides pre-established perpendicular alignment and inside leg control. The attacker already has their hips angled correctly and their legs threaded around the opponent's trapped thigh, allowing direct transition to kneebar finishing mechanics without the positional struggle that characterizes most kneebar attempts from other positions.\n\nThe technical pathway from Saddle to kneebar involves repositioning the trapped leg so the knee joint sits above the attacker's hip line as a fulcrum point. This transition is particularly effective as part of a submission dilemma system. When the opponent defends heel hook attacks by hiding their heel and rotating their knee inward, they inadvertently expose the knee to hyperextension pressure. The kneebar thus serves as a secondary finishing option that punishes common heel hook defenses, making the overall Saddle attacking system significantly more difficult to defend. This creates the kind of lose-lose scenario that characterizes elite leg lock systems where every defensive action opens a new vulnerability.\n\nSafety awareness is paramount when training this technique. The combination of the Saddle's structural control and the kneebar's hyperextension mechanics creates an extremely dangerous finishing position where the margin between controlled pressure and catastrophic ligament damage is razor-thin. The knee has minimal tolerance for hyperextension compared to other joints, and the Saddle's control means the opponent cannot easily relieve pressure through positional movement. Progressive pressure application over a minimum of 5-7 seconds is mandatory in training, and both partners must understand the tap-and-release protocol specific to knee joint attacks.",
   "safety_considerations": {
     "injury_risks": [
@@ -75,17 +78,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Saddle/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],

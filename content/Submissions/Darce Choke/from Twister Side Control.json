@@ -19,7 +19,10 @@
   "target_area": "Carotid arteries and trachea",
   "starting_position": "Twister Side Control",
   "from_position": "Twister Side Control/Top",
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "overview": "The Darce Choke from Twister Side Control exploits the unique lateral angle and leg entanglement characteristic of this 10th Planet control position. When the bottom player turns toward the top player to relieve rotational torque on their spine, they inadvertently create the gap between neck and shoulder that the Darce requires. The existing shoulder pressure facilitates threading the choking arm under the chin and through the far armpit, while the leg entanglement prevents standard Darce defenses such as pulling the trapped arm free or hip escaping to create distance.\n\nThe key mechanical advantage stems from the bottom player's severely compromised mobility. Traditional Darce setups from half guard or side control often fail because the defender retains enough hip freedom to change angles or create space. From Twister Side Control, the leg hooks restrict hip movement, the lateral position displaces the near arm, and the rotational pressure narrows defensive options to turning in or turning away. The Darce punishes the turn-in by attacking the exposed neck, while the Twister punishes the turn-away by deepening spinal rotation, creating a powerful two-threat dilemma.\n\nIn competition, this variant carries a higher finishing rate than standard Darce entries because positional control is already established before the choke attempt begins. The attacker does not sacrifice position to pursue the submission, as the transition from Twister Side Control to Darce maintains the existing leg entanglement and pressure framework throughout the entire attack sequence.",
   "safety_considerations": {
     "injury_risks": [
@@ -105,17 +108,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 62,
+      "probability": {
+        "gi": 62,
+        "nogi": 62
+      },
       "result": "success"
     },
     {
       "to": "Twister Side Control/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 13,
+      "probability": {
+        "gi": 13,
+        "nogi": 13
+      },
       "result": "counter"
     }
   ],

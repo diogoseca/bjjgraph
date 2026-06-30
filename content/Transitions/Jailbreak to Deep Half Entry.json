@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Deep Half Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "summary": "Jailbreak to Deep Half Entry is a bottom half-guard transition where, when the top player bases wide to stuff the jailbreak roll, you redirect your underhook and dive your hips beneath their base to establish deep half guard.",
   "overview": "The Jailbreak to Deep Half Entry represents a critical transition in the half guard game, offering an alternative pathway when the explosive rolling escape is defended or suboptimal. This technique transforms the compromised jailbreak position into deep half guard, one of the most powerful sweeping and back-taking positions in modern grappling. The entry exploits the natural body positioning of the jailbreak configuration, where your underhook and hip angle are already oriented toward diving underneath your opponent.\n\nStrategically, this transition is most valuable when the top player bases wide to prevent the traditional jailbreak roll. Their widened stance creates the space necessary to thread underneath them into deep half. The technique requires redirecting your momentum from the rolling escape trajectory into a diving penetration beneath their center of gravity. This shift catches opponents who have prepared specifically to defend the roll by spreading their base.\n\nThe biomechanical foundation of this entry relies on using your existing underhook as a steering mechanism while your hips drop and rotate to slide beneath the opponent's hips. Your trapped leg becomes an asset rather than a liability, as it provides the initial connection point that you convert into deep half control. Mastery of this transition significantly expands your half guard escape options, making you unpredictable and difficult to pin.",
   "conditions": [

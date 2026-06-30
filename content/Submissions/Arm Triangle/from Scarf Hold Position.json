@@ -18,7 +18,10 @@
   "target_area": "Carotid arteries (compressed by opponent's own shoulder and your arm)",
   "starting_position": "Scarf Hold Position",
   "from_position": "Scarf Hold Position/Top",
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "summary": "The Arm Triangle from Scarf Hold Position is a head-and-arm blood choke from kesa gatame top that swaps the scarf-hold head wrap for a figure-four lock, driving the opponent's own trapped shoulder into one carotid while your forearm seals the other.",
   "overview": "The Arm Triangle from Scarf Hold Position exploits the natural head-and-arm configuration inherent in kesa gatame to attack both carotid arteries simultaneously. From scarf hold top, the opponent's near arm is already isolated and controlled while head control prevents defensive rotation, creating a direct pathway to the head-and-arm choke configuration. The attacker transitions from the traditional scarf hold grip by threading their choking arm behind the opponent's neck while using chest pressure to drive the trapped arm tight against the opponent's own carotid artery.\n\nThe strategic advantage of this entry lies in scarf hold's existing perpendicular angle, which closely mirrors the ideal arm triangle finishing position. Unlike arm triangle entries from mount or guard that require significant positional adjustment, the scarf hold practitioner only needs to modify the grip configuration and refine the compression angle. The opponent's near arm is already isolated by scarf hold mechanics, eliminating the most difficult aspect of arm triangle setup. The heavy hip pressure characteristic of kesa gatame limits the opponent's defensive options during the critical grip transition window.\n\nThis submission chain rewards patient practitioners who understand how to read defensive reactions from scarf hold. When the opponent frames or pushes to create space against kesa gatame pressure, their arm movement often creates the exact configuration needed for the arm triangle. Competition application favors methodical setups where the attacker threatens americana or kimura first, then capitalizes on the resulting arm position to transition smoothly into the head-and-arm choke.",
   "safety_considerations": {
@@ -105,17 +108,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 62,
+      "probability": {
+        "gi": 62,
+        "nogi": 62
+      },
       "result": "success"
     },
     {
       "to": "Scarf Hold Position/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 13,
+      "probability": {
+        "gi": 13,
+        "nogi": 13
+      },
       "result": "counter"
     }
   ],

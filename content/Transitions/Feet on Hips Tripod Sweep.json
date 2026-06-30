@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Open Guard/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Feet on Hips Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Feet on Hips Tripod Sweep is one of the most fundamental and high-percentage sweeps available from the open guard. Executed from the feet-on-hips guard, this technique employs a three-point base destruction principle: one foot pushes the opponent's hip backward while the other foot hooks behind their near ankle, and a hand controls the opposite ankle. The coordinated push-pull action collapses the opponent's standing base, sending them backward to the mat while the sweeper follows to establish top position.\n\nThis sweep represents a cornerstone of open guard offense because it requires minimal grip prerequisites—no sleeve or collar control is strictly necessary, making it highly effective in both gi and no-gi contexts. The tripod sweep teaches the fundamental sweeping concept of removing base points while applying directional force. When the opponent's weight shifts backward from the hip push, the simultaneous ankle removal eliminates their ability to step and recover, creating an irrecoverable topple.\n\nStrategically, the tripod sweep creates a devastating dilemma when paired with the sickle sweep. Both attacks share the same initial feet-on-hips configuration but send the opponent in opposite directions—the tripod drives them backward while the sickle cuts them laterally. This pairing forces the opponent to defend multiple directions simultaneously, dramatically increasing the success rate of both techniques. The tripod sweep also serves as an excellent entry into standing passing sequences, as the sweeper naturally rises to their feet during follow-through.",
   "conditions": [
     "Both feet established on opponent's hip bones with solid ball-of-foot contact",

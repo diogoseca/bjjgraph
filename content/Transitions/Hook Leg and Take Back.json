@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Buggy Choke/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Hook Leg and Take Back represents one of the most reliable transitions from buggy choke control when opponents attempt to escape by sitting to guard. This technique exploits the fundamental defensive error of creating hip exposure during the sit-up motion, transforming the opponent's escape attempt into a high-percentage back take opportunity. The transition embodies the principle that sophisticated attack systems create branching decision trees where every defensive response opens different offensive pathways.\n\nThe technical foundation relies on timing the leg hook insertion precisely as the opponent's hip rises during the sitting motion. Unlike static back takes that require setting up multiple control points sequentially, this transition capitalizes on the dynamic moment when the opponent voluntarily compromises their hip defense. The harness grip maintained from buggy choke position provides the upper body anchor that makes the hook insertion possible without sacrificing control.\n\nStrategically, this technique represents the positional advancement pathway within the buggy choke attack system. When opponents recognize the immediate choking threat and prioritize escaping to guard over remaining static, the Hook Leg and Take Back punishes this defensive choice with an even more dominant position. Understanding this transition elevates the buggy choke from a single-path attack to a branching system where the opponent's defensive selection determines which dominant outcome you achieve.",
   "related_content": [
     {

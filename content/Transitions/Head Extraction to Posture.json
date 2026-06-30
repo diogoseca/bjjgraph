@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Closed Guard/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Gogoplata Control/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Triangle Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "When the top player is caught in gogoplata control, the situation is mechanically unlike an ordinary pin: the opponent's shin lies across your throat while their foot is secured behind your head, creating a closed-loop system that prevents conventional backward escape. Understanding this geometry is essential because pulling straight back only tightens the choke.\n\nThe technique prioritizes systematic extraction over explosive movement. Rather than panicking and making random movements that typically worsen the position, the defender works through a precise sequence: first creating breathing space by turning the chin, then addressing the foot-behind-head configuration, and finally extracting the head while the opponent's structural control is compromised. This methodical approach reflects the principle that some submissions cannot be escaped through strength alone.\n\nStrategically, Head Extraction to Posture represents more than simple survival. Successfully completing this escape returns you to closed guard with posture, meaning you can immediately begin your passing sequences. The technique also teaches broader principles about defending unorthodox submissions by understanding their mechanical requirements and systematically dismantling them rather than fighting the symptoms.",
   "related_content": [
     {

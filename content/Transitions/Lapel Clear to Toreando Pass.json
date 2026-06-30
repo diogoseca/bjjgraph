@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Lapel Guard/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "Emerging as a direct counter to modern lapel guard systems, this pass solves the problem in two distinct phases rather than attempting to pass through or around the fabric. The first phase prioritizes clearing the mechanical barrier completely; the second immediately capitalizes on the momentary window when the opponent loses their primary control mechanism, driving a classic bullfighter-style toreando through to side control.\n\nThe strategic value of this pass lies in its direct problem-solving approach. Lapel guards create persistent control structures that conventional passing struggles to overcome. By dedicating specific technical steps to stripping the lapel configuration—whether worm, squid, or hybrid—you neutralize the guard's primary advantage before it can be redeployed. The toreando component then exploits the opponent's compromised position while they attempt to re-establish control.\n\nThis technique rewards patience and technical precision over athleticism. The clearing sequence requires understanding how the lapel is wrapped and systematically unwinding it rather than ripping against the fabric. The subsequent toreando must be immediate and committed, as any hesitation allows the opponent to recover guard or re-establish lapel grips. The combination of methodical clearing and explosive passing creates an effective solution to one of modern gi grappling's most challenging guard systems.",
   "conditions": [
     "Opponent has established a lapel guard configuration with at least one grip controlling wrapped fabric around your body",

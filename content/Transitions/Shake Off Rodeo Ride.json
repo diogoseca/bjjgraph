@@ -14,26 +14,41 @@
   "outcomes": [
     {
       "to": "Turtle/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "success"
     },
     {
       "to": "Standing Position/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "success"
     },
     {
       "to": "Rodeo Ride/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "summary": "The Shake Off Rodeo Ride is a low-commitment turtle escape where the bottom player generates an explosive upward-and-lateral hip pop to dislodge the rider's dynamic control and reset to a clean, neutral turtle position for guard recovery.",
   "overview": "Unlike rolling escapes that accept back exposure during rotation, or the Escape from Rodeo Ride that targets side control through base collapse, the Shake Off attacks the rider's balance directly. The bottom practitioner uses rapid hip elevation, directional bucking, and coordinated posting—sharp hip extension combined with lateral movement—to break the connection between the rider's hips and your back and return to a neutral turtle position. The technique draws its mechanical principles from the same force generation used in bridge escapes from mount, adapted for the hands-and-knees base structure of turtle.\n\nThe Shake Off is most effective when the rider has not yet fully settled their weight or when they are transitioning between attack setups. Rodeo Ride depends on the rider maintaining constant hip-to-back contact with responsive pressure adjustments. The Shake Off exploits the moments when this contact is lightest—during grip transitions, attack initiations, or positional adjustments—by generating an explosive upward and lateral force that exceeds the rider's ability to maintain their asymmetric balance. The resulting separation creates a window where the bottom practitioner recovers clean turtle position without the rider's weight, enabling immediate follow-up with guard recovery, technical stand-up, or other escape sequences.\n\nThis technique occupies a specific role in the turtle escape hierarchy as the lowest-commitment escape option. It does not require rolling through vulnerable back-exposure angles or committing to a full positional change. Instead, it resets the situation to an uncontrolled turtle position where both practitioners restart the engagement. The trade-off is that the positional gain is modest—you remain in bottom turtle rather than achieving guard or top position—but the risk is correspondingly lower than higher-reward escapes. Advanced practitioners use the Shake Off as a disruption tool that creates the chaos and separation needed to chain into more decisive escapes like the sit-through or technical stand-up.",
   "conditions": [

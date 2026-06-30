@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Ringworm Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Squid Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Squid to Ringworm Guard transition is a specialized lapel guard reconfiguration within the Keenan Cornelius guard system, allowing the bottom player to shift between two complementary positions that share lapel manipulation principles but create fundamentally different offensive angles. This transition involves adjusting the lapel wrap from the Squid Guard's threading leg and lapel configuration to the Ringworm Guard's distinct wrap pattern around the opponent's leg, which produces new sweeping leverage and back-taking pathways that the opponent must address with a completely different defensive framework.\n\nThe strategic value of this transition lies in disrupting the top player's adapted defensive patterns. When an opponent has successfully stabilized against Squid Guard's specific threats—neutralizing the inversion attempts and threading leg pressure—transitioning to Ringworm Guard forces them to abandon their current passing strategy and adapt to a fundamentally different control structure. This creates a moment of tactical uncertainty that advanced guard players exploit for sweeps, back takes, or further transitions within the lapel guard ecosystem.\n\nTiming is the critical factor in this reconfiguration. The lapel must be momentarily loosened and rethreaded through a different path around the opponent's leg, creating a brief vulnerability window where the bottom player lacks full guard control. Maintaining at least one secondary control point—typically a sleeve grip or active leg frame—throughout the reconfiguration prevents the opponent from capitalizing on this transitional gap. Advanced practitioners integrate this transition into a broader lapel guard cycling system, moving fluidly between Squid, Ringworm, and Worm Guard to keep opponents perpetually adjusting their defensive responses.",
   "conditions": [
     "Established Squid Guard with active lapel wrap around opponent's near leg creating tension and restricting their mobility",

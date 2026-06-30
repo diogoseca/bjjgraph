@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Kesa Gatame/Top",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Modified Scarf Hold/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "summary": "Modified Scarf to Kesa Gatame is a side-control-family positional switch in which the top player rotates from a chest-to-chest modified scarf hold into a perpendicular scarf pin, threading the head and trapping the near arm to open americana and armbar attacks.",
   "overview": "Switching control geometries mid-pin is what keeps a skilled bottom player from settling into a single defensive rhythm, and this transition is the primary bridge between the side control family's two dominant scarf configurations. Where the modified scarf hold applies direct downward chest pressure, kesa gatame's angular wrap-and-sit configuration opens distinct submission pathways that are unavailable from the chest-to-chest pin. The movement centers on rotating the hips from a prone chest-pressure position to a seated perpendicular angle while simultaneously threading the arm around the opponent's head and trapping their near arm.\n\nStrategically, this transition is valuable when the bottom player has adapted to the modified scarf hold's chest pressure and begun creating frames or threatening escapes. Moving to kesa gatame changes the control equation entirely, forcing the bottom player to abandon their defensive structure and address a fundamentally different set of problems. The perpendicular angle of kesa gatame provides superior upper body immobilization and creates immediate americana and armbar threats that are less accessible from modified scarf hold.\n\nThe transition carries moderate risk because the hip rotation creates a brief window where the bottom player can recover guard or insert a knee shield. The key to minimizing this vulnerability is maintaining constant head and arm control throughout the rotation, never releasing one anchor before securing the next. Practitioners who master this transition add a critical layer to their top game, creating a flowing system between modified scarf hold, kesa gatame, north-south, and mount that prevents opponents from establishing stable defensive frameworks.",
   "conditions": [

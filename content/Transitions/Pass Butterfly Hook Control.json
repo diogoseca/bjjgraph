@@ -15,26 +15,41 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Butterfly Hook Control/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "Passing butterfly hook control is one of the fundamental guard passing challenges in Brazilian Jiu-Jitsu. The butterfly guard player uses active hooks inside the passer's thighs to create constant elevation threats and sweeping pressure, making direct forward advancement dangerous. The systematic approach to passing this guard involves establishing superior upper body control, methodically neutralizing one hook at a time, and completing the pass to side control through pressure and angle management.\n\nThe pass operates on the principle that butterfly hooks require both elevation and directional control to sweep effectively. By denying the guard player upper body grips and controlling their posture, the passer removes the directional component of the sweep threat. With the opponent's upper body controlled, the passer can then address the hooks themselves—pinning one hook to the mat with knee or shin pressure before clearing the second hook through hip switching or pressure-based elimination.\n\nWhat makes this pass particularly important is its versatility across gi and no-gi contexts. While specific grips differ, the core mechanics of upper body control, hook neutralization, and pressure completion remain constant. The pass also creates a natural decision tree: if the guard player defends aggressively, their reactions open alternative passing routes including backstep, leg drag, and knee slice entries.",
   "variants_and_adaptations": [
     {

@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Gift Wrap/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Kuzure Kesa-Gatame/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "Gift Wrap Control is a powerful arm-trapping technique that transforms the already dominant Kuzure Kesa-Gatame position into an even more controlling configuration. By wrapping the opponent's far arm across their own throat and securing it with your grip, you eliminate their primary defensive tool while creating multiple submission and transition opportunities. This technique represents a critical evolution in pinning control, moving beyond simple pressure maintenance to active limb immobilization.\n\nThe strategic value of the Gift Wrap lies in its dual function as both a control enhancement and a submission platform. Once established, the wrapped arm prevents effective framing, eliminates bridge power (since the opponent cannot post), and creates immediate access to chokes, back takes, and mounted attacks. The position exemplifies the principle of using the opponent's own body against them—their trapped arm becomes a lever that restricts their movement and breathing while exposing their neck and back.\n\nIn competition and training contexts, the Gift Wrap serves as a transitional hub position. From here, you can advance to mount with virtually no resistance, take the back by rolling the opponent toward their trapped arm, or finish with collar chokes and arm attacks. Understanding when and how to establish this control—particularly reading the opponent's defensive arm positioning—separates intermediate practitioners from advanced ones who can systematically shut down escape attempts.",
   "related_content": [
     {

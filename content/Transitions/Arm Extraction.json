@@ -15,26 +15,41 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "success"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 68,
+  "success_rate": {
+    "gi": 68,
+    "nogi": 68
+  },
   "overview": "Arm Extraction is a fundamental defensive technique used to escape side control by systematically removing the opponent's underhook or crossface control. This escape creates the necessary space to insert frames and recover guard position. The technique exploits the opponent's commitment to chest-to-chest pressure by using precise timing and hip movement to extract the trapped arm.\n\nThe Arm Extraction serves as a critical gateway technique connecting bottom side control to guard recovery. Unlike explosive bridging escapes that require significant strength and timing, this method relies on technical precision and incremental space creation. By addressing the primary control mechanism—the opponent's upper body connection—practitioners can systematically dismantle the pin and create escape pathways.\n\nThis escape is particularly effective against pressure-based top players who prioritize chest pressure over weight distribution. The technique's success depends on proper frame placement, shoulder rotation mechanics, and the ability to maintain defensive posture throughout the extraction sequence. Mastery of arm extraction fundamentally improves survival rates under side control and provides essential defensive foundations for all skill levels.",
   "related_content": [
     {

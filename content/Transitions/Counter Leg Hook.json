@@ -16,26 +16,41 @@
   "outcomes": [
     {
       "to": "Turtle/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "success"
     },
     {
       "to": "Leg Hook/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Sitting at a high-pressure junction of the half guard passing sequence, the Counter Leg Hook gives the bottom player a proactive answer to a top player who has already established a controlling hook. Rather than passively accepting the pass, the bottom player actively disrupts the hook control through a combination of hip movement, frame creation, and explosive directional changes designed to either turtle up before the pass completes or recover to a more defensible half guard configuration.\n\nThis counter relies on precise timing and understanding of the top player's weight distribution. The optimal window occurs when the top player commits their weight forward to advance the pass or shifts their base to consolidate the hook. During these moments of transitional instability, the bottom player can exploit the weight commitment by moving perpendicular to the pressure, creating enough space to either pull the hooked leg free and turtle defensively, or re-establish guard hooks for half guard recovery.\n\nWhile turtling may seem like a lateral move rather than an improvement, it resets the passing sequence and provides well-defined escape routes through granby rolls, sit-outs, and technical stand-ups. For practitioners with strong turtle defense, this counter transforms an increasingly deteriorating leg hook bottom position into a position with clearer offensive and defensive pathways.",
   "conditions": [
     "Top player has established leg hook control during half guard passing",

@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "S Mount/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "3-4 Mount/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The 3-4 Mount to S Mount transition represents a critical positional advancement within the mount hierarchy, converting asymmetric mount control into a perpendicular attacking platform optimized for armbar finishes. This movement exploits the existing leg configuration of 3-4 Mount—where one leg is already posted outside the opponent's body—to create the angular rotation necessary for S Mount entry without exposing the transitional vulnerabilities that arise when moving directly from standard mount.\n\nThe transition is fundamentally about converting positional control into submission-oriented positioning. From 3-4 Mount, the top player already maintains one leg crossed over the opponent's body and one leg posted outside, creating a natural pathway to S Mount by swinging the posted leg over the opponent's head while simultaneously isolating the near-side arm. The key biomechanical principle is maintaining hip-to-shoulder connection throughout the rotation—any gap between the top player's hip and the opponent's shoulder during the transition creates the space needed for defensive responses including bridging, hip escaping, or recovering half guard.\n\nStrategically, this transition should be initiated when the near-side arm becomes vulnerable through defensive positioning, opponent fatigue, or as a chain attack following a submission threat that forces the opponent to expose the arm. The highest-percentage S Mount entries come when the opponent is already defending another threat, making the transition feel inevitable rather than forced. The 3-4 Mount's asymmetric base provides a significant mechanical advantage over entering S Mount from standard mount, as the posted leg is already halfway to its final position over the opponent's head.",
   "conditions": [
     "Established 3-4 Mount control with stable base and forward pressure through hips",

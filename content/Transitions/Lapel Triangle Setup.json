@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Triangle Control/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Lapel Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Lapel Triangle Setup represents a sophisticated fusion of modern lapel guard innovation with classical triangle mechanics. This technique exploits the unique control properties of lapel configurations to create angle and arm isolation that would be difficult to achieve with traditional grips alone. By using the opponent's own gi fabric as a barrier and control point, the bottom player can manipulate posture and arm position with remarkable efficiency.\n\nFrom an established lapel guard position, the practitioner uses the wrapped lapel to restrict the opponent's ability to posture or withdraw their trapped arm. This creates the classic triangle prerequisite—one arm in, one arm out—while the lapel maintains the positional control necessary to complete the leg swing and lock. The technique is particularly effective against opponents who drive forward into the lapel configuration, as their pressure actually aids the hip elevation needed for triangle entry.\n\nStrategically, this setup creates a powerful dilemma system. Opponents who posture aggressively to avoid the triangle expose themselves to sweeps from the lapel configuration. Those who stay low and heavy to prevent sweeping find their arm increasingly isolated and vulnerable to the triangle threat. This forced-choice dynamic makes the Lapel Triangle Setup a high-percentage attack against experienced practitioners who understand they cannot defend both options simultaneously.",
   "conditions": [
     "Lapel guard configuration established with fabric wrapped around opponent's arm or leg",

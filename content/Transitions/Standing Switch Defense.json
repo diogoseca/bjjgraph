@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Standing Position/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Standing Rear Clinch/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Standing Switch Defense is a critical counter-technique employed by the controlling player in a standing rear clinch when their opponent attempts a switch escape. The switch is among the most effective wrestling-based reversals from rear standing control, where the controlled practitioner drops their hips, reaches one arm back between the controller's legs, and pivots 180 degrees to reverse or neutralize the position. Without reliable switch defense, maintaining rear clinch control becomes unsustainable against experienced wrestlers or grapplers with strong standing reversal skills.\n\nDefending the switch requires immediate recognition of the opponent's initial hip drop and weight shift, followed by specific mechanical responses including base widening, grip tightening, and forward hip pressure that prevent the pivot from completing. The defense operates on a timing continuum: early recognition allows simple grip compression and forward driving to kill the switch before momentum builds, while late recognition demands dynamic responses such as following the rotation, re-establishing chest-to-back orientation from a new angle, or disengaging to neutral standing before the reversal completes.\n\nThis technique sits at the intersection of wrestling defensive awareness and grappling control retention, representing an essential skill for any practitioner who relies on standing rear clinch as a primary control platform. Failure to develop reliable switch defense forces grapplers to abandon rear clinch positions prematurely or avoid them entirely, eliminating one of the highest-percentage standing control positions available for both takedowns and back takes in competition.",
   "conditions": [
     "Opponent must be initiating or attempting a switch escape from the standing rear clinch position",

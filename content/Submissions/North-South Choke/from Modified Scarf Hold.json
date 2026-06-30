@@ -20,7 +20,10 @@
   "target_area": "Carotid arteries and trachea",
   "starting_position": "Modified Scarf Hold",
   "from_position": "Modified Scarf Hold/Top",
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The North-South Choke from Modified Scarf Hold exploits the pre-existing chest pressure and near-arm control of the Modified Scarf Hold position to establish one of the highest-percentage blood chokes in grappling. Rather than entering the North-South Choke from standard side control where the opponent typically has frames and defensive options available, the Modified Scarf Hold entry bypasses many common defensive barriers because the bottom player's near arm is already trapped and their breathing is already compromised. This creates a direct pathway to the choking position that encounters significantly less resistance than other North-South Choke entries.\n\nThe transition involves threading the choking arm under the opponent's neck while sliding the body toward their head in a smooth rotational movement. The key mechanical advantage of the Modified Scarf Hold starting point is that the scarf hold arm positioning pre-loads the choking arm at the correct angle, requiring only a short rotational slide to establish shoulder compression against the carotid arteries. The bottom player experiences a seamless escalation from uncomfortable chest compression to arterial restriction without the positional breaks that typically allow defensive reactions during other North-South Choke setups.\n\nFinishing the choke requires precise shoulder placement deep into the pocket between the opponent's neck and far shoulder, combined with a decisive hip sprawl away from their body. This creates a fulcrum effect where the shoulder drives into the near-side carotid while the bicep and forearm compress the far-side carotid from below. The free arm controls the opponent's far-side arm or posts on the mat to prevent the roll escape, which remains the primary defensive response. Competition data shows this entry has a higher finishing rate than standard side control entries due to the reduced defensive window and the opponent's already-depleted energy from Modified Scarf Hold pressure.",
   "safety_considerations": {
     "injury_risks": [
@@ -105,17 +108,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "Modified Scarf Hold/Top",
-      "probability": 27,
+      "probability": {
+        "gi": 27,
+        "nogi": 27
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],

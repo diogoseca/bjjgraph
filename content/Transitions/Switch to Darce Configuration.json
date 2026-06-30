@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Darce Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Buggy Choke/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "Within the buggy choke attack tree, the decisive cue for this switch is the opponent's defensive rotation: when they turn toward the choking arm to relieve collar pressure, they expose the armpit-to-neck channel that the darce exploits. Rather than maintaining the original buggy choke angle, the top player withdraws the threading arm from the collar and reroutes it through the gap between the opponent's neck and far arm, threading under the far armpit and around the back of the neck to lock a figure-four grip from the opposite direction compared to the anaconda.\n\nThe darce configuration is mechanically distinct from the anaconda because the choking arm enters under the opponent's far armpit first and then wraps around the neck, whereas the anaconda wraps the neck first and connects under the armpit. This threading direction means the darce is favored when the opponent's far arm is elevated or posted wide, creating space under the armpit for arm insertion. The buggy choke position is an ideal launching pad because the original threading arm is already operating in the near-armpit channel and can be redirected through the neck-armpit corridor with minimal repositioning.\n\nThis transition is a critical branch in the buggy choke attack tree. Opponents who turn in to defend the collar grip inadvertently create the head-and-arm angle required for both darce and anaconda attacks. Choosing the darce over the anaconda depends on arm positioning and the specific angle of the opponent's rotation. The darce configuration offers a powerful finishing position because the choking arm's blade sits directly across the carotid with the opponent's own trapped shoulder acting as the secondary compression point. Once the figure-four locks, the top player sprawls and walks hips toward the head to generate finishing pressure through body mechanics rather than arm strength.",
   "related_content": [
     {

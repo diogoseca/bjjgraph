@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "North-South/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Leg Drag Control/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "summary": "Leg Drag to North-South is a guard-passing consolidation where the top player circles around to the opponent's head when frames block mount or side control, establishing crushing perpendicular pressure with immediate kimura and choke threats.",
   "overview": "The leg drag to north-south transition represents a critical consolidation pathway when your opponent successfully defends against mount and side control entries from leg drag control. Rather than fighting an uphill battle against strong frames, this transition capitalizes on opponent energy expenditure by circling to their head, establishing chest-to-chest pressure in the north-south position where their defensive options become severely limited.\n\nThis transition exploits a fundamental positional reality: when opponents focus their frames and defensive attention on preventing lateral passes to side control or mount transitions, they create a vulnerable corridor toward their head. The north-south angle removes their hip escape capability and neutralizes frame effectiveness because you're no longer driving into their defensive structure—you're circling around it. The result is a dominant control position with immediate access to kimuras, arm triangles, and various choking attacks.\n\nFrom a systematic perspective, the leg drag to north-south fills an essential gap in the leg drag passing system. Without this option, determined defenders can effectively stall the leg drag position by maintaining strong shoulder frames and preventing the standard consolidation pathways. Adding north-south as a tertiary option creates a complete dilemma system: defend the back take, defend the mount, or defend north-south—but defending all three simultaneously becomes mechanically impossible. This transition is particularly effective against opponents who have strong frames but less mobile hips, as it punishes static defensive structures.",
   "related_content": [

@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Shin-to-Shin Guard/Bottom",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Headquarters Position/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "Headquarters is one of the most oppressive passing hubs in modern jiu-jitsu, and a bottom player who only defends knee cuts and leg drags from underneath is fighting a losing battle of attrition. This transition flips that dynamic: instead of reacting to each pass, the bottom player inserts their free shin across the top player's lead shin, creating a perpendicular connection that immediately compromises the triangulated base and arrests passing momentum. The top player in headquarters controls one leg while maintaining an elevated, stable base designed to funnel into systematic passing sequences, so disrupting that posting leg is the lever that reopens offensive guard.\n\nThis transition represents a paradigm shift from passive guard retention to active guard creation. Rather than simply defending the knee cut, leg drag, or toreando that headquarters threatens, the bottom player proactively establishes a new guard structure that inverts the positional dynamic. The shin connection functions as a biomechanical lever that prevents the top player from driving forward, creates immediate off-balancing potential, and opens pathways to single leg X-guard, X-guard, and leg entanglement entries that are unavailable from the flattened headquarters bottom position.\n\nThe timing window for this transition is narrow but identifiable. The optimal moment occurs when the top player shifts weight or adjusts grips to initiate a specific passing direction, momentarily lightening pressure on the controlled leg or creating space with their posting leg. Recognizing and exploiting these micro-windows separates effective guard players from those who remain trapped in the headquarters cycle of pass-defend-repass.",
   "conditions": [
     "Opponent has established headquarters position with one of your legs controlled between their legs",

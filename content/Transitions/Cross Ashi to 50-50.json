@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "50-50 Guard/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Cross Ashi-Garami/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Cross Ashi to 50-50 transition is a strategic leg entanglement repositioning that shifts the attacking practitioner from the asymmetric cross ashi-garami configuration into the symmetric 50-50 guard structure. This transition is typically employed when direct heel hook attacks from cross ashi are being effectively defended, particularly when the opponent hides their heel through knee rotation or establishes strong hand fighting that prevents finishing grips. Rather than abandoning the leg entanglement entirely, the practitioner maintains lower body control while fundamentally changing the angle of attack and the mechanical advantages available for submission finishing.\n\nThe transition involves uncrossing the outside leg from the cross ashi configuration, repositioning the hips, and threading into the mirror leg entanglement that defines 50-50. The critical challenge lies in maintaining heel control throughout the movement, as the brief window during leg repositioning creates vulnerability where the opponent can extract their trapped leg. Timing the transition during the opponent's defensive reactions rather than initiating from a neutral position significantly increases success rates by ensuring the opponent is occupied with defending rather than capitalizing on the transitional moment.\n\nFrom a systems perspective, this transition represents a key connector in the modern leg lock flowchart, linking the cross ashi hub to the 50-50 hub and opening access to inside heel hooks, kneebar entries, back takes, and guard passing sequences that are unique to 50-50. Advanced practitioners chain this transition with entries to saddle, inside ashi, and backside 50-50, creating a continuous entanglement flow that prevents the opponent from establishing stable defensive positions in any single configuration.",
   "conditions": [
     "Established cross ashi-garami top control with inside hook behind opponent's hip",

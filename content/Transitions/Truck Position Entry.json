@@ -18,21 +18,33 @@
   "outcomes": [
     {
       "to": "Truck/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Standing Back Control/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Turtle/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Truck Position Entry from standing back control is a specialized transition that converts a dominant standing position into the Truck, opening an entire system of spine locks, leg attacks, and back takes. Unlike the more common Truck Entry from turtle top, this variant exploits the moment when an opponent in standing back control bottom drops to their knees defensively or is dragged down by the top player. The standing back control position naturally creates the conditions for this entry because the top player already has chest-to-back connection and some form of harness or seat belt control, providing the upper body connection needed to follow the opponent to the mat and immediately thread a leg hook.\n\nStrategically, this transition is most effective against opponents who use the common defensive tactic of dropping to their knees to remove the standing takedown threat. Rather than simply following them to grounded back control, the top player redirects into the Truck by threading a leg hook during the descent, catching the opponent in a position they did not anticipate. This requires reading the opponent's defensive intention early and committing to the Truck entry before the opponent can consolidate a turtle or seated guard position on the ground. The timing window is narrow but highly rewarding when executed correctly.\n\nIn competition, this entry has become increasingly relevant as practitioners develop layered back attack systems that branch between traditional rear naked choke sequences and modern Twister system attacks. The ability to transition from standing back control directly into Truck bypasses the turtle position entirely, denying the opponent the defensive frames and options that turtle provides. Advanced practitioners use this as part of a decision tree from standing back control: if the opponent maintains strong posture and defends the choke, threaten the takedown; when they drop to avoid the takedown, enter the Truck instead of following to standard back control.",
   "related_content": [
     {

@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Modified Scarf Hold/Top",
-      "probability": 70,
+      "probability": {
+        "gi": 70,
+        "nogi": 70
+      },
       "result": "success"
     },
     {
       "to": "Kesa Gatame/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 70,
+  "success_rate": {
+    "gi": 70,
+    "nogi": 70
+  },
   "overview": "The transition from Kesa Gatame to Modified Scarf Hold addresses the primary weakness of traditional scarf hold: back exposure. By shifting from the perpendicular hip-level seat of Kesa Gatame to the chest-over-chest configuration of Modified Scarf Hold, the top player eliminates the back take vulnerability while gaining superior submission access and breathing restriction on the bottom player. This transition is a fundamental positional upgrade within the side control family that every serious practitioner must understand.\n\nMechanically, the transition requires the top player to walk their hips forward from their seated Kesa Gatame position, sliding their chest directly over the opponent's torso while maintaining near-arm control throughout. The critical detail is maintaining continuous pressure during the shift. Any gap in pressure creates an escape window. The transition converts the lateral control angle of Kesa Gatame into the direct downward compression of Modified Scarf Hold, trading the head-and-arm wrap for chest-to-chest smothering pressure.\n\nStrategically, this transition is most commonly executed when the bottom player begins exploiting Kesa Gatame's back exposure, when the top player wants to access different submission angles, or when the top player recognizes that the opponent is too skilled to hold in traditional Kesa Gatame long-term. The Modified Scarf Hold destination offers better energy efficiency for the top player and significantly higher submission rates through americana, kimura, and arm triangle chains. Understanding when and how to make this shift separates intermediate practitioners who get stuck in Kesa Gatame from advanced players who flow through the entire scarf hold family.",
   "conditions": [
     "Established Kesa Gatame with head and near-arm control",

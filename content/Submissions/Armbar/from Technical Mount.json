@@ -21,7 +21,10 @@
     "Mount",
     "S Mount"
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "summary": "The Armbar from Technical Mount is an elbow-hyperextension joint lock executed by swinging the posted leg over a flattened opponent's head, isolating the near arm, and sitting back to lever the trapped elbow against the hips.",
   "overview": "The Armbar from Technical Mount is one of the highest-percentage submissions in Brazilian Jiu-Jitsu, leveraging the asymmetric leg positioning of Technical Mount to create an optimal angle for hyperextending the elbow joint. The stepped leg over the opponent's head serves as a natural barrier to posturing while isolating the target arm, making the transition from control to finish remarkably efficient. This submission capitalizes on the mechanical advantage created when the attacker's hips are positioned directly against the back of the opponent's elbow, using the entire body as a lever against a single joint.\n\nThe attack flows naturally from Technical Mount offense, where the top player has already isolated one arm and established the posted leg position. Unlike the standard mount armbar which requires a significant positional transition, the Technical Mount armbar requires minimal movement to reach the finishing position. The attacker simply swings the posted leg over the opponent's face, sits back, and applies breaking pressure. This efficiency makes it one of the fastest submissions from any mount variation, often catching defenders who are focused on escaping the mount rather than defending the imminent submission.\n\nStrategic deployment of this armbar centers on reading the defender's reactions to Technical Mount pressure. When the defender extends their arm to frame or push, the armbar opportunity presents itself. When they attempt to turn away to escape, the back take becomes available. This creates a fundamental dilemma where defending the armbar exposes the back, and defending the back take exposes the arm. Understanding this interplay is essential for both attackers seeking the finish and defenders trying to survive the position.",
   "safety_considerations": {
@@ -65,17 +68,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Technical Mount/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],

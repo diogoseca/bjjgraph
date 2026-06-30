@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Scarf Hold Position/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Scarf Hold to Mount transition converts the perpendicular kesa gatame pin into the highest-value positional control in Brazilian Jiu-Jitsu. This advancement exploits the existing head and arm control from scarf hold as a launching platform to step or slide across the opponent's torso into full mount. The technique represents a natural progression when the bottom player's defensive reactions expose their far hip or when they turn away from the top player, creating the space necessary for the leg to clear the opponent's body.\n\nThe primary challenge lies in managing the momentary vulnerability created when the top player must release or modify their head control to complete the step-over. During this brief window, the bottom player can execute bridge-and-roll mechanics, insert a knee to recover half guard, or create frames that block the mount entry entirely. The attacking player must recognize the optimal timing—typically when the opponent has committed weight to one side, exhausted a bridge attempt, or is defending a submission threat that occupies their arms and attention.\n\nSuccessful execution demands unbroken hip-to-hip connection throughout the entire transition. The critical error most practitioners make is lifting their hips during the step-over, creating space that the bottom player immediately exploits for escape. Instead, the top player should maintain constant downward pressure while sliding or stepping the leg across, using the far arm post for balance without transferring weight away from the opponent. The transition integrates naturally with submission threats from scarf hold—americana and arm triangle setups force defensive reactions that create ideal mounting opportunities as the bottom player's attention diverts to the submission threat.",
   "conditions": [
     "Established scarf hold position with head and arm control secured and stable base",

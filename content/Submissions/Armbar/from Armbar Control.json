@@ -15,7 +15,10 @@
   "target_area": "Elbow",
   "starting_position": "Armbar Control",
   "from_position": "Armbar Control/Top",
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "summary": "The Armbar from Armbar Control is the finishing phase of the armbar, hyperextending the opponent's isolated elbow by bridging the hips into the trapped arm while pulling the wrist to the chest until they tap.",
   "overview": "The Armbar Finish is the terminal submission phase from Armbar Control, converting positional dominance into a forced tap through hyperextension of the elbow joint. The attacker coordinates hip elevation, wrist control, and knee-pinch mechanics to generate breaking pressure that exceeds the structural tolerance of the elbow's collateral ligaments. This is not a single explosive motion but a systematic tightening sequence where each adjustment removes one more degree of defensive freedom from the trapped limb.\n\nStrategically, the Armbar Finish operates as the highest-percentage terminal option from Armbar Control, but its success depends entirely on the quality of the preceding positional work. Rushing the finish from a loose control position is the primary reason armbars fail at all skill levels. The attacker must confirm five checkpoints before committing to the extension: hip-to-shoulder proximity, thumb-up arm orientation, leg control over the head and chest, wrist grip below the elbow line, and knees pinched to eliminate defensive space. Missing any single checkpoint creates an escape window.\n\nThe finish itself requires coordinated opposing vectors: hips drive toward the ceiling using the glutes and core while both hands pull the wrist toward the sternum. The elbow joint, trapped between the thighs with the blade of the forearm pressed against the pubic bone, receives the combined force of these two movements. Advanced practitioners learn to micro-adjust the angle of hip elevation to target the weakest plane of the opponent's elbow based on their forearm rotation, making the submission effective even against strong grip-fighting defense.",
   "safety_considerations": {
@@ -56,17 +59,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Armbar Control/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],

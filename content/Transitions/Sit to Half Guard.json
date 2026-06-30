@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Buggy Choke/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "summary": "Sit to Half Guard is a defensive escape from the Buggy Choke where the bottom player sits through from turtle to recover a leg entanglement, exchanging a collapsing turtle for the stronger framing and offense of Half Guard.",
   "overview": "The Sit to Half Guard transition represents a fundamental defensive escape from the Buggy Choke position that prioritizes guard recovery over continued turtle defense. When an opponent establishes threatening collar control from turtle top, the sitting motion creates a structural change that eliminates the choking angle while simultaneously recovering a leg entanglement that offers better defensive options.\n\nThis escape operates on the principle that Half Guard, while still a bottom position, provides significantly better defensive structure than remaining in a deteriorating turtle against a skilled attacker. The transition exploits the brief window where the opponent must adjust their weight distribution during your sitting motion, creating opportunity to establish the inside knee shield and hip positioning characteristic of effective Half Guard defense.\n\nStrategically, this technique is most valuable when grip prevention has failed and the opponent has begun establishing deep collar access. Rather than continuing a losing grip fight from turtle, the proactive sit creates immediate positional change that forces the top player to abandon their choking mechanics and address the new guard configuration. The timing window is critical—execute too early and you create unnecessary back exposure, too late and the choke is already locked.",
   "conditions": [

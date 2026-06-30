@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Open Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Standing Position/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Standing Guard Pull is one of the most frequently executed transitions in modern BJJ competition, serving as the primary method for guard-oriented practitioners to move the engagement from standing to their preferred ground game. Unlike takedowns that require wrestling proficiency and carry the risk of being countered into inferior positions, the guard pull offers a controlled descent into an established guard framework with predictable outcomes and immediate offensive options. For practitioners who have invested heavily in their bottom game, the guard pull is not a concession but a deliberate tactical choice that places them exactly where they are most dangerous.\n\nExecuting a successful guard pull requires precise coordination between grip establishment, postural disruption, and descent mechanics. The pull is not simply falling backward. It demands simultaneously breaking your opponent's posture forward while sitting to your hip, then immediately inserting hooks or frames to establish a functional guard structure before your opponent can advance. The quality of your initial guard establishment directly determines whether you begin attacking or find yourself defending an immediate pass attempt. A well-executed pull lands you in a specific guard variation with active grips, angled hips, and immediate offensive threats.\n\nStrategically, the guard pull occupies a central role in competition BJJ game planning. It allows practitioners to bypass the standing exchange entirely, conserving energy and avoiding unfavorable scrambles. However, it requires full commitment. A half-hearted pull results in a failed attempt that gives your opponent forward momentum and passing initiative. Understanding when to pull, which grips to prioritize, and which guard variation to land in transforms this fundamental transition from a simple descent into a sophisticated tactical weapon that dictates the trajectory of the entire match.",
   "conditions": [
     "Both practitioners are standing in active engagement within arm's reach distance",

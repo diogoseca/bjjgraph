@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Standing Position/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Clinch/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Front Headlock/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "summary": "The clinch break is a defensive standing transition where the controlled grappler strips the opponent's grips, drives inside forearm frames, and uses explosive backward and lateral footwork to separate from clinch control and reset at neutral standing range.",
   "overview": "Breaking the clinch is a fundamental defensive transition in Brazilian Jiu-Jitsu that involves disengaging from close-range upper body control to re-establish a neutral standing position. When an opponent secures dominant clinch control through underhooks, collar ties, body locks, or other upper body configurations, the controlled practitioner must systematically create separation through frame creation, grip fighting, and strategic movement. This technique bridges the gap between being controlled in the clinch and regaining freedom to dictate the terms of engagement from a neutral standing distance.\n\nThe clinch break demands precise timing and mechanical efficiency. Simply pushing away creates vulnerability to snap-downs and level changes, while remaining passively engaged allows the controlling partner to set up takedowns and throws. The successful clinch breaker must first neutralize the opponent's dominant grips, establish inside frames that create structural barriers, and then execute a decisive separation that creates enough distance to prevent immediate re-engagement. Understanding the interplay between grip fighting, posture management, and explosive footwork is essential for consistent execution at the competition level.\n\nStrategic integration of the clinch break into your overall standing game requires recognizing when disengagement is preferable to counter-wrestling. Against opponents with superior clinch work, wrestling pedigrees, or significant size advantages, breaking the clinch to reset at distance can be a higher-percentage strategy than engaging in a prolonged grip battle you are likely to lose. The best clinch breakers treat separation as an active technique with specific mechanics rather than a reactive retreat, maintaining offensive threat throughout the disengagement process.",
   "conditions": [

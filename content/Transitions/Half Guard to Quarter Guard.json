@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Quarter Guard/Top",
-      "probability": 70,
+      "probability": {
+        "gi": 70,
+        "nogi": 70
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Deep Half Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 70,
+  "success_rate": {
+    "gi": 70,
+    "nogi": 70
+  },
   "overview": "The Transition to Quarter Guard is a systematic positional advancement technique executed from Half Guard Top, where the passer progressively extracts their trapped leg past the bottom player's hip line while maintaining upper body control. This technique represents the critical intermediate step between being stuck in half guard and completing a full pass to side control, mount, or knee on belly. Rather than a single explosive movement, this transition relies on methodical pressure application, systematic frame elimination, and precise weight distribution that gradually degrades the bottom player's guard retention capacity.\n\nStrategically, the Transition to Quarter Guard serves as the bridge between the guard passing battle and positional dominance. The technique succeeds when the top player establishes crossface control, neutralizes the bottom player's underhook, and drives their knee past the opponent's hip centerline while maintaining enough base to resist sweep attempts. The key insight is that this transition targets the bottom player's leg retention specifically—by isolating and extracting the trapped leg through progressive hip advancement rather than explosive pulling, the top player converts a contested position into one where they hold a decisive structural advantage.\n\nThis transition appears constantly in high-level competition because half guard is one of the most common defensive positions encountered during guard passing. Practitioners who master this systematic progression develop the ability to consistently advance through half guard rather than stalling in extended passing battles. The technique chains naturally into knee slice passes, smash passes, and crossface passes once quarter guard is established, making it a cornerstone of any pressure passing system.",
   "variants_and_adaptations": [
     {

@@ -21,7 +21,10 @@
   "target_area": "Carotid arteries and jugular veins",
   "starting_position": "Standing Back Control",
   "from_position": "Standing Back Control/Top",
-  "success_rate": 65,
+  "success_rate": {
+    "gi": 65,
+    "nogi": 65
+  },
   "overview": "The rear naked choke from standing back control exploits a unique window of vulnerability that exists when the attacker has back exposure while both practitioners remain on their feet. Unlike the grounded version where hooks and mat friction provide stability, the standing variant relies on chest-to-back pressure, dynamic weight management, and the psychological pressure of vertical grappling to create finishing opportunities. The choking mechanics remain identical — compressing the carotid arteries through a figure-four arm configuration — but the setup pathway and positional management differ substantially from seated or supine back control.\n\nFrom a strategic standpoint, this submission thrives on the inherent instability of standing back control. The defender must simultaneously manage balance, protect the neck, fight grips, and prevent being taken down, which overloads their defensive capacity. Skilled attackers exploit this cognitive burden by threatening the takedown to open the neck, or threatening the choke to force a defensive posture that enables the mat return. The choke can be finished standing, during the transition to the ground, or immediately after establishing grounded back control, making it a versatile weapon across the full spectrum of the standing-to-ground continuum.\n\nAt the competition level, standing back control finishes appear frequently in both gi and no-gi contexts, particularly following successful takedown entries, scramble back takes, and clinch-to-back transitions. The position rewards practitioners who understand timing windows — recognizing when the defender's hands are occupied with balance rather than neck protection — and who can thread the choking arm with precision under dynamic conditions.",
   "safety_considerations": {
     "injury_risks": [
@@ -113,17 +116,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Standing Back Control/Top",
-      "probability": 23,
+      "probability": {
+        "gi": 23,
+        "nogi": 23
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 12,
+      "probability": {
+        "gi": 12,
+        "nogi": 12
+      },
       "result": "counter"
     }
   ],

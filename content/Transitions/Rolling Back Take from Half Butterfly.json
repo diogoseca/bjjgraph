@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Half Butterfly/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Rolling Back Take from Half Butterfly exploits the dynamic structure of half butterfly guard to create a direct path to the opponent's back through a controlled rolling motion. When the top player defends standard butterfly sweeps by posting wide or shifting weight laterally, the bottom player leverages their deep underhook and butterfly hook elevation to duck beneath the opponent's arm and roll through to back control. This technique bypasses the traditional sweep-to-top sequence entirely, converting a bottom guard position directly into the most dominant position in BJJ without passing through intermediate positions.\n\nThe rolling mechanic relies on precise timing and coordinated body movement rather than raw strength or explosiveness. The bottom player must synchronize butterfly hook elevation, underhook depth, and head positioning to create a smooth rotational arc that carries them behind the opponent. The technique is particularly effective against opponents who over-commit to defending traditional half butterfly sweeps by posting their hands or widening their base, as these defensive reactions create the exact space and angle needed to initiate the roll. When properly executed, the momentum of the roll makes it extremely difficult for the top player to recover, as they are carried forward while the bottom player circles behind them.\n\nThis technique exemplifies the offensive potential of hybrid guard positions, where combining half guard retention with butterfly hook dynamics creates unexpected attacking vectors that pure half guard or pure butterfly guard cannot achieve independently. The rolling back take punishes predictable defensive patterns and rewards practitioners who develop sensitivity to weight distribution shifts, making it a high-value addition to any half butterfly player's arsenal.",
   "conditions": [
     "Established half butterfly guard with active butterfly hook maintaining upward pressure on opponent's free-side thigh",

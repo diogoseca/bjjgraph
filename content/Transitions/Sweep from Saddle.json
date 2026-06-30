@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "success"
     },
     {
       "to": "Saddle/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "failure"
     },
     {
       "to": "Saddle/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 35,
+  "success_rate": {
+    "gi": 35,
+    "nogi": 35
+  },
   "overview": "The Sweep from Saddle represents one of the highest-risk, highest-reward defensive options available when trapped in the saddle leg entanglement. Rather than attempting traditional escapes that focus on leg extraction and guard recovery, this technique weaponizes the entanglement itself, using the structural connection between both players as a lever to reverse position. The sweep exploits moments when the top player's weight distribution becomes compromised—typically during submission attempts, grip transitions, or positional adjustments—to generate rotational force that rolls the opponent and allows the bottom player to emerge in a dominant top position.\n\nThe fundamental mechanics of this sweep rely on the same perpendicular alignment that makes the saddle dangerous for the bottom player. When the top player commits their weight to attack a heel hook or tighten their control, they momentarily sacrifice base stability. The bottom player capitalizes on this by coordinating a bridge with directional rotation, using frames against the opponent's hips and shoulders to amplify the sweeping force. The leg entanglement, paradoxically, becomes an anchor that prevents the top player from disengaging and posting to stop the sweep.\n\nThis technique demands precise timing, composure under pressure, and thorough understanding of the opponent's weight distribution patterns. It is not a desperation move—rushed attempts without proper setup will fail and potentially accelerate submission finishes. The sweep works best as part of a broader saddle defense strategy where grip fighting and frame creation set up the sweeping opportunity. At purple belt and above, the ability to threaten sweeps from leg entanglements transforms the defensive dynamic, forcing the attacker to allocate attention to base maintenance rather than committing fully to submissions.",
   "conditions": [
     "Opponent has saddle control but has not yet secured a finishing grip on your heel",

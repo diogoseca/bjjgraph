@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "X-Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Half Guard to X-Guard transition exploits the mechanical vulnerability created when the top player's weight shifts forward or they attempt to stand from half guard. By threading a butterfly hook behind the opponent's near knee while retaining the half guard leg trap, the bottom player creates a butterfly half guard intermediate that bridges directly into the X-Guard configuration. This transition converts a defensive retention position into one of the most powerful sweeping and leg entanglement platforms in modern grappling, fundamentally changing the positional dynamic from survival to attack.\n\nThe mechanical foundation of this entry depends on getting your hips underneath the opponent's center of gravity. From half guard bottom, you must first generate sufficient angle through hip escaping and framing to create space for the butterfly hook insertion. Once the inside hook catches behind the knee joint, the outside leg threads across the opponent's hip line, establishing the characteristic X-pattern. Grip control on the ankle and far leg prevents extraction and completes the sweeping structure. The entire sequence demands precise timing because premature hook insertion without adequate angle creation leaves you vulnerable to smash passes and crossface flattening.\n\nStrategically, this transition is highest percentage when the top player commits their weight forward into crossface pressure or when they attempt to stand up in half guard. Both scenarios create space underneath for the bottom player to slide into position. The transition also functions as an effective counter to knee slice passing attempts, where the bottom player redirects the slicing knee into an X-Guard entry rather than defending the pass directly. Integration with the broader half guard system means this entry layers naturally with deep half, lockdown, and underhook sweep threats, creating multi-layered offensive dilemmas that prevent the top player from focusing on a single defensive strategy.",
   "conditions": [
     "Bottom player has half guard with at least minimal framing space to initiate hip escape",

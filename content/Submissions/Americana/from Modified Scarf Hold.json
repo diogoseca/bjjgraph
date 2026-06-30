@@ -20,7 +20,10 @@
   "target_area": "Shoulder joint (specifically glenohumeral joint and rotator cuff)",
   "starting_position": "Modified Scarf Hold",
   "from_position": "Modified Scarf Hold/Top",
-  "success_rate": 68,
+  "success_rate": {
+    "gi": 68,
+    "nogi": 68
+  },
   "overview": "The Americana from Modified Scarf Hold exploits the natural arm isolation that kuzure kesa-gatame provides. The chest-to-chest pressure pins the defender flat while the near-arm control inherent to this position creates a direct pathway to the figure-four wrist grip. This makes the americana one of the highest-percentage submissions available from modified scarf hold, particularly effective against opponents who focus on surviving the pin rather than actively escaping.\n\nThe finishing mechanics differ from other americana setups due to the unique angle created by the scarf hold chest position. The attacker's weight drives through the sternum at a diagonal, simultaneously maintaining the pin and amplifying rotational torque on the shoulder joint. The elbow-to-mat pin is naturally reinforced by the attacker's hip positioning, creating a stable fulcrum that resists attempts to lift or straighten the trapped arm. The tight chest contact also limits the defender's ability to create the space needed for most standard americana defenses.\n\nDefensive awareness centers on early recognition and immediate preventive action. The chest compression inherent to modified scarf hold limits breathing and drains energy, making prolonged defense increasingly difficult. The near-arm entrapment reduces available escape pathways compared to side control americanas. Defenders must prioritize keeping their elbow connected to their ribs and recognizing the transition from positional control to submission setup before the figure-four grip is established.",
   "safety_considerations": {
     "injury_risks": [
@@ -128,17 +131,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 68,
+      "probability": {
+        "gi": 68,
+        "nogi": 68
+      },
       "result": "success"
     },
     {
       "to": "Modified Scarf Hold/Top",
-      "probability": 21,
+      "probability": {
+        "gi": 21,
+        "nogi": 21
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 11,
+      "probability": {
+        "gi": 11,
+        "nogi": 11
+      },
       "result": "counter"
     }
   ],

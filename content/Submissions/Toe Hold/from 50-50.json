@@ -16,7 +16,10 @@
   "target_area": "Ankle, talocrural joint, and lateral ankle ligaments",
   "starting_position": "50-50 Guard",
   "from_position": "50-50 Guard/Bottom",
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "overview": "The Toe Hold from 50-50 Guard is a sophisticated leg lock submission that targets the ankle joint through rotational pressure on the foot. This technique represents one of the most accessible finishing opportunities from the 50-50 position, particularly when heel hook opportunities are not available or are prohibited by competition rules. The submission works by isolating the opponent's foot and applying inward rotation to attack the talocrural joint and lateral ankle ligaments, creating intense pressure that forces a quick tap when applied correctly.\n\nWithin the context of the 50-50 Guard, the toe hold offers a strategic advantage because it can be attacked from both top and bottom positions, making it a versatile weapon in the leg entanglement game. The position's inherent structure—where both athletes have their inside legs trapped between their opponent's legs—creates natural control that facilitates the foot isolation necessary for the toe hold. This submission is particularly effective against opponents who focus heavily on defending heel hooks, as it attacks from a different angle and can catch experienced grapplers off guard.\n\nThe toe hold from 50-50 has gained significant prominence in modern no-gi competition, especially in submission-only formats where time limits necessitate aggressive finishing attempts. Understanding this submission is essential for any practitioner studying leg locks, as it forms a critical part of the leg entanglement ecosystem and creates powerful dilemmas when combined with other leg attacks. The technique requires precise control, patient setup, and careful application to avoid injury while maximizing effectiveness.",
   "safety_considerations": {
     "injury_risks": [
@@ -75,17 +78,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "50-50 Guard/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Inside Ashi-Garami/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],

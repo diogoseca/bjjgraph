@@ -21,7 +21,10 @@
     "Side Control",
     "North-South"
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "summary": "The Kimura from Kimura Trap is a figure-four shoulder lock that finishes the Kimura Trap control system by rotating the opponent's trapped arm behind their back, attacking the glenohumeral joint and threatening dislocation from either top or bottom.",
   "overview": "Within the broader Kimura Trap framework, this finish represents the system's primary submission threat and the natural conclusion of its grip-based control. The mechanism applies rotational force against the glenohumeral joint by driving the opponent's hand behind their back in a controlled arc motion. Unlike isolated Kimura attempts from side control or guard, this finish benefits from the systematic control infrastructure already established through the Kimura Trap position—the opponent's arm is deeply compromised, their base disrupted, and defensive options severely constrained by the preceding positional control and grip depth.\n\nThe finishing mechanics demand precise angle creation through walking the feet toward the opponent's head, progressive rotational pressure coordinated with hip positioning rather than arm strength, and unwavering chest pressure that prevents the opponent from creating escape space. The figure-four grip structure multiplies mechanical advantage at the shoulder joint, making the finish achievable even against significantly stronger opponents when proper technique and angle are applied consistently.\n\nStrategically, the Kimura from Kimura Trap creates compounding dilemmas: defending the finish typically forces the opponent to compromise positional integrity, opening sweeps, back takes, or transitions to alternative submissions like the Americana or armbar. Even when the finish itself does not produce the tap, the constant rotational threat creates defensive reactions that advance the attacker's position, embodying modern BJJ's emphasis on interconnected attacking systems rather than isolated techniques.",
   "safety_considerations": {
@@ -65,17 +68,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Kimura Trap/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],

@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Standing Position/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Technical Stand Up from Open Guard is one of the most fundamental yet underutilized transitions in Brazilian Jiu-Jitsu, allowing the bottom player to safely return to standing from a seated or supine open guard position. Unlike simply scrambling to the feet, the technical stand up employs a specific biomechanical sequence of posting, hip elevation, and defensive framing that maintains protection against passes and takedowns throughout the entire standing motion. This technique is essential for any practitioner who wants to control where the fight takes place, whether in competition or self-defense contexts.\n\nStrategically, the technical stand up serves dual purposes: as an offensive imposition tool when you prefer standing exchanges or want to reset a deteriorating guard position, and as a defensive reset when your guard is being systematically dismantled by a skilled passer. The decision to stand rather than retain guard represents a sophisticated positional choice that considers your relative strengths, the match situation, and your opponent's passing tendencies. Against aggressive pressure passers who overwhelm your guard retention, standing up removes their passing pressure entirely and forces a new engagement on neutral terms.\n\nThe technique demands precise timing and awareness of your opponent's distance and intentions. Executing it when your opponent is too close invites immediate re-engagement and potential takedowns, while waiting too long may mean your guard has already been compromised. Advanced practitioners integrate the technical stand up threat into their overall guard game, using the threat of standing to force reactions that open up sweeps and submissions from guard, creating a complete offensive system that operates on multiple levels.",
   "conditions": [
     "Opponent is not currently applying heavy chest-to-chest pressure or actively passing",

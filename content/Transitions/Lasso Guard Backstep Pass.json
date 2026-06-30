@@ -16,26 +16,41 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Headquarters Position/Top",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "success"
     },
     {
       "to": "Lasso Guard/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Among lasso guard passing options, the backstep stands apart from linear, pressure-based passes by attacking the position's directional vulnerability rather than its grip strength. The lasso's power comes from the perpendicular angle of the guard player's shin against the trapped arm, creating a lever that restricts mobility and base. The backstep defeats this mechanism by rotating away from the lasso, removing the perpendicular angle entirely as the passer's body turns in line with the guard player's shin. Rather than fighting the lasso's leverage through direct grip breaking or forward pressure, the backstep changes the geometric relationship between bodies to neutralize the position structurally.\n\nExecution requires precise coordination between grip management and rotational movement. The passer must reduce sleeve grip tension before or during the backstep to allow the trapped arm to slide free during rotation. The free leg steps behind in a deep arc while maintaining low hips, and the free hand controls the opponent's non-lasso leg to prevent reguarding. The technique's primary challenge is the vulnerability window during mid-rotation, when the passer's weight is transitioning between feet and their base is narrowest—this is where sweep counters and back takes are most likely.\n\nThe backstep integrates effectively into a multi-directional lasso guard passing system. When combined with stack passes, knee cuts, and toreando variations, it creates angular threats that prevent the guard player from committing fully to any single defensive pattern. The backstep is particularly effective as a secondary option after a direct passing attempt has been defended, as the guard player's defensive adjustments often create the momentary grip relaxation and shifted weight distribution that favor rotational entry.",
   "conditions": [
     "Opponent has established lasso guard with their shin threaded across your trapped arm",

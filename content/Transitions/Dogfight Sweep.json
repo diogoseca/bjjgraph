@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Dogfight Position/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Flattened Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Dogfight Sweep is the primary sweep from the Dogfight Position, executed when the bottom half guard player has established a deep underhook and risen to their knees. The technique exploits a fundamental mechanical principle: by controlling the opponent's far leg while simultaneously driving forward with underhook pressure, you eliminate their ability to post and resist the lateral force applied to their upper body. The opponent is toppled over their trapped leg into an unrecoverable position, landing the sweeper directly into side control.\n\nStrategically, the Dogfight Sweep is the anchor technique of the Dogfight attacking system. Its primary value extends beyond the sweep itself—the threat of far leg control forces opponents to make defensive choices that expose them to other attacks. If they pull their far leg back to prevent the sweep, their back becomes vulnerable. If they whizzer heavily to stop the underhook drive, they become susceptible to forward pressure sweeps or deep half guard entries. This dilemma-based framework is what makes the Dogfight position one of the most dangerous configurations in modern half guard play.\n\nThe sweep scales effectively across skill levels. Beginners can succeed with raw forward pressure and grip strength. Advanced practitioners refine the timing to execute during weight transitions, reading when the opponent shifts their base and attacking the precise moment their far leg becomes load-bearing. The mechanical simplicity combined with strategic depth makes this sweep essential for any competitive half guard practitioner.",
   "conditions": [
     "Bottom player has established deep underhook reaching to opponent's far lat or shoulder blade",

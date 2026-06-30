@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Turtle/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The turtle turn from side control bottom is one of the most fundamental escape pathways in Brazilian Jiu-Jitsu. When trapped under heavy side control pressure, turning to turtle provides a viable positional improvement that creates immediate opportunities for guard recovery, technical stand-ups, and scrambles. While turtle carries inherent risk from back exposure, it represents a significant upgrade from the flat, pinned state of side control bottom where submission threats are constant and movement options are severely limited.\n\nThe mechanics of this transition rely on creating sufficient space through bridging and framing to initiate the turning motion, then executing a controlled turn to hands and knees while maintaining a tight defensive shell. The critical detail separating successful turtle turns from failed attempts is the elbow-to-knee connection during the turn, which prevents the opponent from inserting hooks or establishing back control during the vulnerable transition window. Timing is equally important: attempting the turn when the opponent has settled heavy pressure with a strong crossface will fail, but executing it during their weight shifts or submission setups exploits the momentary gap in their control.\n\nThis transition occupies a key strategic role in the escape hierarchy. When traditional hip escape and guard recovery pathways are blocked by tight crossface pressure or aggressive hip control, the turtle turn uses fundamentally different rotational mechanics to create a new escape vector. Advanced practitioners use this as part of a layered escape system, threatening guard recovery to draw reactions that open the turtle turn, and vice versa. The turtle turn is not an endpoint but a waypoint, and its value depends entirely on the practitioner's ability to immediately chain into subsequent escape sequences from the turtle position.",
   "conditions": [
     "Opponent's weight is not fully committed to pinning your hips, allowing initial hip movement for the turn",

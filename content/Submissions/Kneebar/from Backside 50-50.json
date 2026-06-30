@@ -17,7 +17,10 @@
   "target_area": "Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament)",
   "starting_position": "Backside 50-50",
   "from_position": "Backside 50-50/Top",
-  "success_rate": 52,
+  "success_rate": {
+    "gi": 52,
+    "nogi": 52
+  },
   "overview": "The kneebar from Backside 50-50 exploits the dominant top player's positional advantages in one of modern grappling's most powerful leg entanglement configurations. From Backside 50-50 top, the attacker has chest-to-back pressure, superior visibility of the opponent's legs, and pre-existing leg control through the mirrored entanglement. The kneebar becomes available when the bottom player extends their trapped leg during escape attempts or when the attacker transitions from a defended heel hook threat.\n\nUnlike kneebars from open guard positions, the Backside 50-50 entry benefits from the opponent's severely limited defensive options. The bottom player faces away from the attacker and cannot see the attack developing, their hip mobility is restricted by top pressure, and their legs are already partially isolated within the entanglement structure. The attacker pivots from standard chest-to-back control to a perpendicular finishing angle while maintaining the existing leg control framework.\n\nThis technique functions as a critical secondary attack within the Backside 50-50 offensive system. When opponents successfully hide their heel to defend against heel hooks and outside heel hooks, the kneebar punishes their defensive posture by attacking the knee joint through hyperextension. The ability to chain between heel attacks and kneebar creates an unsolvable offensive dilemma that defines high-level leg lock competition.",
   "safety_considerations": {
     "injury_risks": [
@@ -74,17 +77,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Backside 50-50/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],

@@ -16,31 +16,49 @@
   "outcomes": [
     {
       "to": "Front Headlock/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "success"
     },
     {
       "to": "Dead Orchard Control/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     },
     {
       "to": "Anaconda Control/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "The Escape Dead Orchard Control is a systematic defensive sequence designed to extract the practitioner from one of the most dangerous front headlock variations in modern grappling. The Dead Orchard position, developed within the 10th Planet system, combines anaconda grip mechanics with sustained positional pressure that creates both immediate submission threat and progressive positional deterioration. Escaping requires methodical frame establishment, precise timing, and disciplined energy management rather than explosive movements that typically worsen the position.\n\nThe escape centers on a frame-first approach where the bottom player establishes a defensive wedge at the choking arm's elbow joint before initiating any hip movement. This frame serves dual purposes: it prevents the grip from tightening further and creates the minimum space necessary for hip escape mechanics to function. Once the frame is secure, the practitioner hip escapes perpendicular to the opponent's force line, changing the angle of compression and progressively reducing choke effectiveness.\n\nStrategically, this escape represents the critical survival skill for anyone training with partners who use front headlock choke systems. The technique teaches fundamental principles applicable across all compressed defensive positions: calm breathing under restriction, frame-based space creation, and incremental positional improvement over explosive movement. Success requires reading the opponent's weight distribution to identify momentary windows where escape movements can succeed against reduced resistance.",
   "conditions": [
     "Opponent has established Dead Orchard Control with anaconda-style grip around neck and trapped arm",

@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Overhook Guard/Bottom",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 65,
+  "success_rate": {
+    "gi": 65,
+    "nogi": 65
+  },
   "overview": "Within the closed guard's grip-fighting game, this transition is the deliberate choice to weaponize one of the top player's committed arms rather than chase a direct sweep or submission from a symmetrical base. The bottom player threads their arm over and around the opponent's arm, establishing a deep overhook that compromises the top player's ability to posture, post, and pass. This grip change fundamentally alters the positional dynamic by removing one of the top player's primary defensive tools while creating direct pathways to sweeps, back takes, and submissions.\n\nThe transition requires precise timing and coordination between upper body grip work and lower body control. The bottom player must break the opponent's posture sufficiently to access the arm, secure the overhook deep enough to prevent easy extraction, and immediately establish secondary control on the opposite side to prevent defensive recovery. Rushing the overhook without proper setup leads to shallow grips that the top player strips easily, while waiting too long allows the opponent to establish defensive posture that makes the overhook inaccessible.\n\nStrategically, this transition is most effective against opponents who drive forward with pressure, reach inside the guard to establish grips, or commit an arm while attempting guard breaks. The overhook captures and redirects their committed energy, converting their offensive action into a vulnerability. Once established, the overhook guard creates a systematic attacking framework where every defensive reaction from the top player opens a different offensive pathway for the bottom player.",
   "conditions": [
     "Bottom player has closed guard established with ankles locked behind opponent's back",

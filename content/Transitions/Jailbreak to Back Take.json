@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Jailbreak/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Jailbreak to Back Take is an advanced continuation of the standard jailbreak escape from bottom half guard, transforming a defensive escape into an offensive back control opportunity. When the top player follows your jailbreak roll rather than disengaging, you capitalize on their momentum by continuing your rotation and using your underhook connection to pull yourself behind them as they chase. This technique represents the pinnacle of the jailbreak system, converting defensive disadvantage into the most dominant position in BJJ.\n\nThe mechanics rely on maintaining your underhook throughout the entire rolling sequence. As the opponent follows your escape attempting to maintain control, their forward momentum creates the opening you need. Instead of stopping at turtle, you accelerate through the roll, using your underhook to redirect their energy and establish position behind them. The technique requires excellent timing, commitment to the motion, and the ability to read whether your opponent will follow or disengage.\n\nThis transition exemplifies the principle of using opponent reactions to your advantage. The standard jailbreak already threatens turtle escape. When opponents learn to follow the roll to prevent this, they expose themselves to the back take. Training both options creates a true dilemma for the top player: disengage and allow the turtle escape, or follow and risk giving up their back.",
   "conditions": [
     "Underhook secured on same side as trapped leg with elbow tight to hip",

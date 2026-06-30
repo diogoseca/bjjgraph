@@ -18,7 +18,10 @@
   "target_area": "Carotid arteries and trachea",
   "starting_position": "Triangle Control",
   "from_position": "Triangle Control/Bottom",
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "overview": "The inverted triangle from triangle control is an advanced blood choke variation that exploits the opponent's defensive reactions to the standard triangle position. When the bottom player holds triangle control and the opponent defends by tucking their chin, turning their shoulder, or neutralizing the standard choking angle, the attacker rotates their hips and reconfigures the leg lock to attack from an inverted direction. This repositioning bypasses established defensive frames and applies carotid compression from a vector the opponent is not prepared to resist.\n\nThe mechanical advantage of this transition lies in its ability to punish successful defense of the standard triangle. By swinging the hips to the opposite side and switching which leg crosses behind the neck, the attacker creates a new compression angle that negates the opponent's chin tuck and shoulder positioning. The transition itself creates a dangerous window—the movement from standard to inverted configuration forces the opponent to abandon their current defense to address the new threat, and this moment of defensive recalibration is often when the finish occurs.\n\nStrategically, the inverted triangle adds a critical dimension to the triangle submission chain. Where the standard triangle-to-armbar-to-omoplata chain attacks in three directions, the inverted triangle creates a fourth option that punishes successful choke defense. This makes triangle control substantially more dangerous for the defender, as neutralizing the primary choking angle no longer guarantees safety.",
   "safety_considerations": {
     "injury_risks": [
@@ -125,17 +128,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Triangle Control/Bottom",
-      "probability": 26,
+      "probability": {
+        "gi": 26,
+        "nogi": 26
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 14,
+      "probability": {
+        "gi": 14,
+        "nogi": 14
+      },
       "result": "counter"
     }
   ],

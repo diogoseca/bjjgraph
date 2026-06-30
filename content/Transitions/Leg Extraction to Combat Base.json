@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Combat Base/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Lockdown/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Deep Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Leg Extraction to Combat Base is the essential defensive transition when trapped in an opponent's lockdown half guard. The lockdown configuration severely restricts the top player's mobility by triangling around the trapped leg, making conventional passing impossible until the leg is freed. This technique employs a systematic approach combining upper body pressure, circular hip movement, and strategic angle changes to release the trapped leg from the figure-four configuration. Unlike attempting to simply pull backward against the lockdown—which strengthens the opponent's control—this extraction method works with the mechanics of the position.\n\nOnce successfully extracted, the practitioner immediately establishes combat base, creating a stable platform for guard passing. The technique represents the critical bridge between being stuck in lockdown and initiating offensive passing sequences, making it an indispensable skill for any practitioner facing 10th Planet or lockdown-based half guard players. The extraction demands patience and precise timing rather than brute force—attempting to rip the leg free telegraphs the escape and invites counters. Practitioners who master this transition effectively neutralize one of the most frustrating control positions in modern no-gi grappling and restore their ability to impose a top-side passing game.",
   "conditions": [
     "Top position in half guard with one leg trapped in opponent's lockdown figure-four configuration",

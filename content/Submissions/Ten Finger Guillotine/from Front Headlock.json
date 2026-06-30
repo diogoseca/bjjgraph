@@ -19,7 +19,10 @@
   "target_area": "Carotid arteries and trachea",
   "starting_position": "Front Headlock",
   "from_position": "Front Headlock/Top",
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "overview": "The Ten Finger Guillotine from Front Headlock is a devastating blood choke that capitalizes on the dominant head and neck control inherent to the front headlock position. Unlike guillotine entries from guard pulls or scrambles, the front headlock provides a stable platform where the attacker can methodically establish choking arm depth and transition to the powerful ten finger interlocking grip without the urgency of maintaining guard control. The chest-on-back pressure that defines front headlock naturally breaks the opponent's posture, creating the ideal angle for the forearm blade to cross the carotid arteries.\n\nThe ten finger grip—where all fingers interlace in a palm-to-palm configuration—creates the strongest possible compression ring around the neck. This grip is significantly harder to break than gable grip or S-grip alternatives, making it a preferred finishing method for practitioners who can establish the necessary arm depth. The interlocked fingers distribute force evenly and resist peeling attempts that would strip lesser grip configurations.\n\nStrategically, this submission sits at the intersection of front headlock control and guillotine finishing mechanics. The front headlock provides multiple secondary attacks—anaconda, darce, back take—that create a dilemma for the defender. Focusing too heavily on preventing the ten finger guillotine exposes them to alternative submissions, while attempting to escape the front headlock itself often exposes the neck to the guillotine entry. This attack chain dynamic makes the ten finger guillotine from front headlock a cornerstone technique in any comprehensive front headlock system, particularly effective in no-gi contexts where collar grips are unavailable and head-and-arm control becomes the primary offensive platform.",
   "safety_considerations": {
     "injury_risks": [
@@ -123,17 +126,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 62,
+      "probability": {
+        "gi": 62,
+        "nogi": 62
+      },
       "result": "success"
     },
     {
       "to": "Front Headlock/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 13,
+      "probability": {
+        "gi": 13,
+        "nogi": 13
+      },
       "result": "counter"
     }
   ],

@@ -24,21 +24,33 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Knee on Belly/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "summary": "The armbar from knee on belly is a joint lock that traps the bottom player's arm when they push against the knee, then swings a leg over their head to hyperextend the elbow for the tap.",
   "overview": "The armbar from knee on belly exploits one of the most predictable defensive reactions in Brazilian Jiu-Jitsu: the bottom player pushing against the knee to relieve diaphragm pressure. This push creates an exposed arm that the top player captures and finishes through a rapid transition from knee on belly to a perpendicular armbar position. The technique leverages the urgency of the bottom player's respiratory distress against them, converting a defensive reflex into a submission opportunity.\n\nWhat makes this armbar particularly effective is the speed of entry. Unlike armbars from mount or guard that require extended setup sequences, the knee on belly armbar capitalizes on an immediate reaction. The top player's elevated position provides momentum for the leg swing over the head, and the bottom player's compromised breathing makes sustained defense difficult. The technical challenge lies in maintaining wrist control throughout the transition while positioning the hips tight to the opponent's shoulder before sitting back.\n\nStrategically, the armbar from knee on belly functions as part of a broader attacking system from the position. When combined with baseball bat choke threats and collar attacks, it creates a multi-layered offensive dilemma where the bottom player cannot safely defend every threat simultaneously. The armbar punishes the most natural defensive reaction, making it a cornerstone attack from this position at all competitive levels.",
   "safety_considerations": {

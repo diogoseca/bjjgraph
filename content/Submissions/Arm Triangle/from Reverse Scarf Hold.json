@@ -18,7 +18,10 @@
   "target_area": "Carotid arteries (compressed by opponent's own shoulder and your arm)",
   "starting_position": "Reverse Scarf Hold",
   "from_position": "Reverse Scarf Hold/Top",
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "summary": "The Arm Triangle from Reverse Scarf Hold is a head-and-arm blood choke that converts the reverse pin's chest pressure into bilateral carotid compression, trapping the opponent's near arm across their own neck so their shoulder and your forearm seal both arteries.",
   "overview": "The Arm Triangle from Reverse Scarf Hold exploits the unique reverse-facing orientation of this pin to trap the opponent's near arm against their own neck and apply bilateral carotid compression. Unlike arm triangles initiated from side control or mount, this variation leverages the existing chest-on-chest pressure of reverse scarf hold, where the opponent's arm is already partially controlled by the pinning mechanics. The reverse orientation means the attacker faces the opponent's legs, requiring a deliberate rotation during the finishing sequence to achieve the perpendicular angle needed for maximum compression.\n\nThe key advantage of this entry is that the opponent's defensive options are already limited by the reverse scarf hold pin. Their breathing is restricted, their near arm is partially trapped, and their standard escape patterns are disrupted by the reverse pressure angle. When the top player recognizes that the near arm is positioned across the opponent's neck—either through active manipulation or the opponent's own defensive framing—the transition to head-and-arm configuration requires minimal repositioning compared to arm triangle entries from more dynamic positions.\n\nThis submission is particularly effective in competition when opponents focus on defending the more common americanas and kimuras from reverse scarf hold, leaving the arm triangle as an unexpected high-percentage finish. The technique rewards practitioners who develop sensitivity to arm positioning within the pin and understand how to transition from a control-oriented position to a submission-oriented configuration without sacrificing pressure.",
   "safety_considerations": {
@@ -105,17 +108,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 62,
+      "probability": {
+        "gi": 62,
+        "nogi": 62
+      },
       "result": "success"
     },
     {
       "to": "Reverse Scarf Hold/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 13,
+      "probability": {
+        "gi": 13,
+        "nogi": 13
+      },
       "result": "counter"
     }
   ],

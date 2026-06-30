@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Kimura Trap/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Kimura Defense Arm Extraction is a critical defensive transition for practitioners caught in the Kimura Trap from bottom half guard. When the bottom player secures a figure-four Kimura grip on the top player's arm, the top player must act decisively to extract the compromised arm before the bottom player can develop sweeps, back takes, or submission finishes from the grip. This technique prioritizes systematic grip breaking and arm recovery over explosive movement, using posture, pressure, and precise hand positioning to dismantle the Kimura configuration.\n\nThe extraction requires understanding the mechanical weaknesses of the figure-four grip structure. The Kimura grip is strongest when the holder maintains elbows tight to their body and keeps the trapped arm bent at 90 degrees. The top player exploits these limitations by straightening the trapped arm, driving it toward the mat, and using body weight to create pressure angles that make grip retention increasingly difficult. Proper weight distribution through the hips and chest prevents the bottom player from creating the movement and leverage needed to maintain offensive control.\n\nTiming is paramount in this technique. The extraction must be initiated before the bottom player can consolidate secondary controls such as lockdown legs or underhook positioning that compound the Kimura threat. Practitioners who recognize the Kimura grip establishment early and immediately begin the extraction process have significantly higher success rates than those who allow the grip to settle and strengthen. The technique integrates naturally with half guard passing sequences, as a successful extraction typically returns both players to a standard half guard configuration where the top player can resume their passing campaign.",
   "conditions": [
     "Top player's arm has been captured in opponent's Kimura figure-four grip from bottom half guard or side control",

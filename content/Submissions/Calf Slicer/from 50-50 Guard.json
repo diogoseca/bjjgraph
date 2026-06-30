@@ -18,7 +18,10 @@
   "target_area": "Calf muscle and Achilles tendon",
   "starting_position": "50-50 Guard",
   "from_position": "50-50 Guard/Top",
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "Within the 50-50 leg lock system, the calf slicer is the compression threat that punishes a heel-hiding defender. Unlike entries from other positions where the attacker must first thread a shin behind the opponent's knee, the 50-50 Guard naturally pre-positions your leg across the opponent's calf area. By consolidating your leg configuration into a figure-four or triangle lock and driving your hips forward, your shin bone acts as a fulcrum that generates crushing force against the calf muscle, Achilles tendon, and surrounding structures.\n\nThis technique functions as a powerful secondary threat within the 50-50 leg lock system. When the primary heel hook attack is neutralized through heel hiding or grip stripping, the calf slicer becomes available because the defender's knee remains bent inside the entanglement. The submission threat forces a strategic dilemma: defenders who keep their knee bent to protect the heel expose themselves to the calf slicer, while straightening the leg to avoid the slicer reopens the heel for hook attacks. This push-pull dynamic makes the calf slicer an essential component of a complete 50-50 offense.\n\nThe technique carries significant injury risk due to simultaneous compression of soft tissue and potential knee ligament stress. The onset of damage can be rapid, and training partners must maintain strict adherence to controlled application speed and immediate release upon tap signals. Most competition rulesets restrict this technique to brown and black belt divisions.",
   "safety_considerations": {
     "injury_risks": [
@@ -103,17 +106,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "50-50 Guard/Top",
-      "probability": 32,
+      "probability": {
+        "gi": 32,
+        "nogi": 32
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 18,
+      "probability": {
+        "gi": 18,
+        "nogi": 18
+      },
       "result": "counter"
     }
   ],

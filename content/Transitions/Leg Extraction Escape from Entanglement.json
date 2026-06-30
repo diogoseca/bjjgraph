@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Open Guard/Bottom",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Leg Entanglement/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Saddle/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "summary": "Leg Extraction Escape from Entanglement is a defensive BJJ technique for freeing a trapped leg by sequentially clearing each connection point of an opponent's leg entanglement, then withdrawing the leg to recover open guard while keeping the heel protected.",
   "overview": "Within the systematic leg lock defense game, leg extraction is the first-response escape that purple and brown belts reach for before an opponent consolidates a finishing position. Unlike inversion-based escapes that use rotational movement or boot scoot escapes that create linear distance, leg extraction focuses on systematically clearing each connection point that anchors the entanglement structure, then withdrawing the leg through the created gap. This escape addresses the most common leg entanglement scenarios where the opponent has established outside or inside ashi garami control but has not yet advanced to a fully consolidated finishing position like the saddle.\n\nThe technique operates on a simple biomechanical principle: leg entanglements rely on multiple contact points working together to trap the leg. By addressing these connection points sequentially rather than trying to rip the leg free explosively, the escaping practitioner can methodically dismantle the control structure without exposing the heel to dangerous finishing angles. The extraction sequence typically begins with controlling the opponent's grip on the foot or ankle, continues with clearing the inside hook behind the knee, and finishes with withdrawing the leg through the gap while transitioning to a safe guard position.\n\nStrategically, leg extraction escape represents the most energy-efficient defensive option from leg entanglements when the opponent has not yet advanced deep into the positional hierarchy. Compared to inversions, which require significant athletic ability and carry rotational injury risk, or boot scoot escapes that demand sustained hip movement, leg extraction relies primarily on precise hand fighting and mechanical clearing that any body type can execute. The key timing window occurs before the opponent consolidates tight hip-to-hip pressure and secures a finishing grip on the heel. Once those two conditions are met, alternative escape methods become necessary, making early recognition and immediate action critical to this escape's success.",
   "conditions": [

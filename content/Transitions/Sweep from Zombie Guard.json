@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Zombie/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "The Sweep from Zombie Guard is a lockdown-based reversal originating from the 10th Planet Jiu-Jitsu system that transforms the defensive Zombie bottom position into an offensive platform for achieving mount. The technique exploits the mechanical advantage created by the lockdown entanglement on the opponent's leg, combining it with underhook control and strategic hip elevation to systematically dismantle the top player's base and complete the reversal. The sweep rewards practitioners who develop sensitivity to weight distribution changes and precise timing of the coordinated force application.\n\nThe sweep mechanics center on three simultaneous forces working in coordination: the lockdown stretch pulls the opponent's trapped leg laterally to compromise their base, the underhook provides the rotational axis around which the reversal occurs, and hip elevation generates the lifting force that overcomes the top player's weight distribution. This combination creates a structural failure in the opponent's position that becomes increasingly difficult to resist as the technique progresses through each stage. Timing the sweep when the opponent commits weight forward or attempts to extract their trapped leg dramatically increases success probability.\n\nWithin the broader Zombie offensive system, this sweep functions as the primary reversal threat that forces the top player into a defensive posture, opening secondary attacks like the Electric Chair submission or Deep Half Guard entries. The constant threat of the sweep creates the dilemma-based offense central to the 10th Planet methodology, where every defensive adjustment the top player makes to prevent the sweep creates vulnerability to alternative attacks. This dynamic makes the Zombie bottom position far more dangerous than a standard half guard recovery.",
   "conditions": [
     "Lockdown is established on opponent's leg with active tension through thigh squeeze and instep hook",

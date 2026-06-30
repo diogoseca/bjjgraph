@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "De La Riva Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Feet on Hips Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "summary": "Feet on Hips to De La Riva is an open-guard transition where the bottom player threads one foot off the opponent's hip into a De La Riva hook behind their lead leg, converting distance management into an angular, sweep-ready control system.",
   "overview": "The Feet on Hips to De La Riva transition represents one of the most fundamental guard upgrades in modern open guard play, converting a basic distance-management position into a sophisticated attacking platform. When the bottom player has feet on the opponent's hips, they maintain excellent distance control but lack the angular leverage and sweeping power that characterizes advanced guard systems. By threading a De La Riva hook behind the opponent's lead leg, the guard player transforms their relationship from a purely linear push-pull dynamic into a multi-directional control system that disrupts the passer's base and opens pathways to sweeps, back takes, and leg entanglements.\n\nThe timing of this transition is critical and depends on reading the opponent's weight distribution and stance. The ideal entry window opens when the opponent advances one leg forward, creating a clear lead leg to hook. Attempting the transition against a squared stance with even weight distribution makes hook threading significantly more difficult and exposes the guard player to passing pressure during the moment when one foot leaves the hip. Experienced practitioners learn to provoke the lead-leg presentation through asymmetric pushing with their feet, creating the conditions they need rather than waiting passively.\n\nThis guard change serves as a gateway transition in the broader open guard ecosystem. Once De La Riva is established, the bottom player gains access to berimbolo entries, single leg X transitions, X-Guard entries, and a wide array of sweeps that are not available from the basic feet-on-hips configuration. Understanding this transition is essential for any serious guard player because it bridges the gap between fundamental distance management and advanced positional attacking.",
   "conditions": [

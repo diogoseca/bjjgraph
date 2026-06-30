@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Closed Guard/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Williams Guard/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Posture from Williams Guard is a critical defensive transition executed by the top player trapped inside Williams Guard, where the opponent controls your arm in a shoulder lock configuration while maintaining guard structure with active legs. The primary objective is to systematically recover upright posture, neutralize the shoulder lock threat, and transition to closed guard top—a more manageable position where standard guard passing sequences can begin without the constant danger of shoulder manipulation.\n\nUnlike standard closed guard posture recovery where the primary obstacles are grip strength and leg squeeze, Williams Guard adds a joint lock dimension that requires specific defensive mechanics. The top player must address the shoulder manipulation through circular arm extraction before any meaningful postural advancement can occur. Attempting to posture without first reducing shoulder lock pressure dramatically increases both injury risk and the likelihood of being swept, as the upward movement creates exploitable base instability.\n\nSuccess depends on recognizing that the shoulder lock and guard structure are mechanically interdependent—disrupting one element weakens the other. By systematically degrading the figure-four grip through controlled circular elbow movement and weight redistribution, the top player creates cascading failures in the bottom player's guard architecture. The posture recovery becomes possible once shoulder lock pressure is sufficiently reduced, allowing the practitioner to drive hips back and chest up into a structurally sound position from which proven guard passing methodologies apply.",
   "conditions": [
     "Opponent has established Williams Guard with shoulder lock grip configuration on your arm",

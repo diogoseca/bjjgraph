@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Collar Sleeve Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Within the gi guard game, this sweep earns its reputation as the workhorse finish of collar sleeve guard because it converts ordinary grip control into immediate top position without demanding exceptional speed or flexibility. By combining a deep cross-collar pull with full sleeve extension to prevent posting, the sweeper creates a mechanical advantage where the opponent cannot distribute weight effectively to resist the sweep direction. The technique relies on coordinated upper and lower body mechanics—the grips control the opponent's structural integrity while the legs provide the driving force through hip-posted kicks and far-leg hooks.\n\nThis sweep operates on the principle that controlling two diagonal points of an opponent's base creates predictable instability. The collar grip pulls the upper body off-center while the sleeve grip removes the primary posting hand, eliminating the opponent's ability to catch themselves as momentum shifts. The sweeper's legs amplify this effect: one foot frames on the opponent's hip to generate explosive kicking power, while the other hooks behind the opponent's far leg to remove their remaining base. The optimal timing window opens when the opponent commits weight forward against the collar pull or shifts laterally during grip fighting exchanges.\n\nStrategically, the Collar Sleeve Sweep serves as the anchor technique within the collar sleeve guard attack system. Its threat forces opponents to maintain wide, defensive postures that directly expose them to triangle entries and omoplata setups. Practitioners who develop a reliable collar sleeve sweep find that opponents begin over-defending the sweep direction, which creates systematic openings for complementary attacks. This sweep-to-submission interplay makes the collar sleeve guard one of the most complete open guard systems in gi BJJ competition.",
   "conditions": [
     "Cross-collar grip established with four fingers deep inside the collar",

@@ -14,31 +14,49 @@
   "outcomes": [
     {
       "to": "Half Guard/Top",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "success"
     },
     {
       "to": "Side Control/Top",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "success"
     },
     {
       "to": "Feet on Hips Guard/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "De La Riva Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "The knee cut from feet on hips is a fundamental guard passing technique where the top player breaks through the bottom player's leg frames by clearing one foot off the hip and driving their knee diagonally across the bottom player's thigh line. This pass bridges the gap between the open guard distance management phase and close-range pressure passing, converting the feet-on-hips battle into half guard or side control where the passer's weight advantage becomes decisive. The technique rewards patience during the frame-breaking phase and explosive commitment once the cutting knee enters the gap.\n\nThe effectiveness of this pass depends on proper sequencing: establishing pants grips at the knees, systematically clearing one frame, and timing the knee cut entry before the bottom player can re-establish defensive structure or transition to a more controlling guard. Unlike the toreando pass which redirects both legs laterally, the knee cut commits the passer to a linear path through the guard, requiring crossface pressure and hip drive to prevent the bottom player from recovering position. The directional commitment makes grip fighting and frame control critical prerequisites.\n\nThis pass is particularly effective against opponents who rely heavily on feet-on-hips distance management without developing secondary guard layers such as De La Riva hooks or lasso controls. The knee cut forces a positional transition that many guard players are unprepared for, especially when combined with grip fighting that prevents the switch to spider guard or lasso guard. However, the linear commitment required means that a failed knee cut can expose the passer to guard recovery, De La Riva hook entries, or leg entanglement threats if the bottom player reads the pass early.",
   "variants_and_adaptations": [
     {

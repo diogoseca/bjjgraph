@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Also known as the hip escape or shrimp escape, this is the foundational answer to bottom mount, the most dangerous defensive position in the positional hierarchy. Rather than attempting to explosively reverse the position like the upa (trap-and-roll), the elbow escape uses incremental hip movement, precise framing, and systematic space creation to insert the knee and recover to half guard. This escape embodies the core defensive principle that technique and timing overcome strength and gravity.\n\nThe escape operates on a simple mechanical principle: create a wedge of space between your hips and the opponent's body through lateral hip movement, then fill that space with your knee before the top player can close it. The critical detail separating effective elbow escapes from failed attempts is the use of the elbow and forearm as a frame against the opponent's hip or thigh, preventing them from following your hip movement and closing the space you create. Multiple small shrimps chained together are far more effective than a single explosive movement, as each increment of space is preserved by frame adjustment before the next hip escape.\n\nThis technique is strategically essential because mount is the highest-scoring and most submission-rich position in BJJ. Every practitioner will spend time under mount, and having a reliable, energy-efficient escape prevents the position from becoming a terminal state. The elbow escape chains naturally into half guard recovery, where the bottom player has significantly more offensive options including sweeps, back takes, and guard transitions. At advanced levels, the escape combines with the upa to create escape dilemmas for the top player, where defending one escape opens vulnerability to the other.",
   "conditions": [
     "Bottom player is mounted with back on mat or slight side angle",

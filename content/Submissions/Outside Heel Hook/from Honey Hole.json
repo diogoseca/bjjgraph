@@ -20,7 +20,10 @@
   "target_area": "Knee joint, ankle joint, and surrounding ligaments",
   "starting_position": "Honey Hole",
   "from_position": "Honey Hole/Top",
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "While the inside heel hook remains the primary threat from Honey Hole, the outside variation serves as a critical chain attack that capitalizes on the dominant inside leg entanglement to attack the knee's lateral structures. It becomes available when opponents defend the standard inside rotation by hiding their heel or rotating their knee inward to close the inside angle.\n\nExecuting the outside heel hook from this position requires a deliberate grip transition from the inside heel hook configuration. The attacker repositions their forearm across the outside of the opponent's foot, cupping the heel from the lateral side, then drives rotational force that turns the heel laterally away from the opponent's centerline while the knee remains pinned by the leg triangle. This attacks different ligament structures than the inside variant, primarily targeting the LCL and posterolateral corner of the knee.\n\nThe strategic value of this technique lies in its complementary relationship with the inside heel hook, creating a dual-threat rotational attack system. Opponents who commit heavily to inside heel hook defense expose themselves to the outside grip, and the grip transition itself generates confusion about the direction of attack. Practitioners who develop proficiency with both rotational directions from Honey Hole achieve significantly higher finishing rates by eliminating the predictability of single-direction attacks.",
   "safety_considerations": {
     "injury_risks": [
@@ -140,17 +143,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Honey Hole/Top",
-      "probability": 36,
+      "probability": {
+        "gi": 36,
+        "nogi": 36
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 19,
+      "probability": {
+        "gi": 19,
+        "nogi": 19
+      },
       "result": "counter"
     }
   ],

@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Truck/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Turtle/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Turtle to Truck Entry is the critical initial phase of establishing the Truck position from behind a turtled opponent. Unlike the full Turtle to Truck transition which encompasses the entire sequence from turtle top to consolidated Truck control, this entry focuses specifically on the most technically demanding portion: threading the near-side leg hook through the opponent's legs and locking the initial leg entanglement. The entry is the make-or-break moment where most failures occur, as the opponent's defensive window is widest before any leg control is established.\n\nThis technique exploits the turtle position's structural vulnerability to lateral leg attacks. When an opponent focuses on defending their neck and preventing traditional seatbelt back takes, their far leg becomes accessible for hooking. The entry requires precise coordination between your reaching arm grip on the far leg and your near-side leg threading simultaneously. Timing is paramount: the entry must occur when the opponent's weight is committed forward onto their hands, limiting their ability to sit back or stand explosively.\n\nThe Turtle to Truck Entry is a gateway to the entire Twister submission system. Once the initial hook is threaded and the leg triangle begins to form, the opponent's defensive options narrow dramatically. The entry creates an immediate fork: the opponent must choose between defending the leg entanglement (exposing their back) or defending their back (allowing the Truck to consolidate). This dilemma-based attacking framework makes the entry exceptionally valuable for practitioners who want to develop a systematic turtle attacking game beyond conventional back takes.",
   "related_content": [
     {

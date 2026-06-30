@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Top",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Vaporizer/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "Defending the Vaporizer sweep is a critical survival skill for practitioners caught in the 10th Planet lockdown system. When the bottom player establishes the Vaporizer position with a deep lockdown and aggressive whip-up motion, the top player faces immediate sweep threats including the Old School sweep, rolling back takes, and transitions to the Electric Chair or Truck. This defensive transition focuses on neutralizing sweep mechanics while systematically working to extract from the lockdown and return to a standard half guard passing position.\n\nThe defense operates on the principle of base management and pressure redistribution. Rather than fighting the lockdown directly with explosive force, the top player must widen their base, lower their center of gravity, and apply strategic shoulder pressure to counter the whip-up motion that generates sweep momentum. The key technical challenge lies in simultaneously addressing both the lower body entanglement and the upper body control that the bottom player uses as complementary attack vectors.\n\nSuccessful execution requires reading the bottom player's specific sweep attempt and applying the appropriate counter at the right moment. Against the Old School sweep, the defender must prevent the posted foot from generating leverage. Against rolling attacks toward the Truck, the defender must control hip rotation. This situational awareness, combined with methodical lockdown clearing technique, transforms a desperate defensive scramble into a systematic positional recovery that feeds directly into standard half guard passing sequences.",
   "conditions": [
     "Top player is trapped in Vaporizer position with one leg caught in the bottom player's lockdown figure-four configuration",

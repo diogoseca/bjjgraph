@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "success"
     },
     {
       "to": "Truck/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 35,
+  "success_rate": {
+    "gi": 35,
+    "nogi": 35
+  },
   "overview": "The Escape from Truck is one of the most critical defensive techniques in modern no-gi grappling. The truck position, popularized by the 10th Planet Jiu-Jitsu system, creates a dangerous control platform where the top player can threaten twisters, calf slicers, banana splits, and back takes simultaneously. Successfully escaping requires methodical attention to the position's three control layers: boot pressure on the hip generating torque through the spine, leg entanglement of the trapped limb restricting lower body mobility, and upper body control through harness or arm positioning limiting defensive movement. The escape carries significant urgency because remaining in truck bottom exposes you to spinal submissions with very short windows before injury occurs.\n\nThe escape mechanics center on systematically dismantling the top player's control hierarchy in reverse order of threat priority. First, protect the neck from twister and choke attacks by tucking the chin and hand fighting near the collar line. Second, address the boot pressure that generates torque through the spine by clearing the foot from the hip using hand fighting and hip rotation. Third, extract the trapped leg from the figure-four entanglement through ankle circling, hip rotation, and shrimping to create angular separation. The granby roll serves as the primary escape vehicle once boot pressure is cleared, using rotational momentum to break free from remaining leg entanglement and achieve guard recovery or a scramble to top position.\n\nTiming is essential when executing this escape. Attempting to escape when the truck top player has fully consolidated all three control layers typically fails and wastes precious energy that accelerates submission vulnerability. The optimal window occurs during the opponent's submission setup transitions, when their weight shifts to attack the twister or calf slicer create momentary openings in the control structure. Advanced practitioners learn to create these openings through deliberate hand fighting and hip movement rather than waiting passively for opportunities to appear.",
   "conditions": [
     "Trapped in truck bottom position with opponent controlling from perpendicular angle behind you",

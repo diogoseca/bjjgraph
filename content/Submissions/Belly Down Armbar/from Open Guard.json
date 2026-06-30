@@ -17,7 +17,10 @@
   "target_area": "Elbow joint hyperextension and ulnar collateral ligament",
   "starting_position": "Open Guard",
   "from_position": "Open Guard/Bottom",
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "summary": "The Belly Down Armbar from Open Guard isolates a passing opponent's extended arm, swings a leg over their head to lock the armbar, then rotates belly-down so gravity and a hip bridge force a high-percentage elbow hyperextension.",
   "overview": "The belly down armbar finish from open guard is a powerful submission sequence where the guard player isolates an opponent's arm during a passing attempt, establishes the armbar position, and then rotates to a prone orientation to maximize finishing pressure. This technique capitalizes on the open guard player's natural ability to create angles and manipulate distance, converting defensive guard work into an immediate submission threat. The guard player's hip mobility and framing tools provide the foundation for the initial arm isolation that makes the entire sequence possible.\n\nWhat makes this variant particularly effective from open guard is the element of surprise and the natural arm isolation opportunities arising during grip fighting exchanges. When an opponent reaches forward to establish passing grips or attempts to control the guard player's legs, their arms become vulnerable to being trapped. The rotation to belly-down adds tremendous finishing force because it eliminates the defender's primary escape of stacking and brings gravity to assist the hyperextension. The hitchhiker escape and inward rotation both become significantly more difficult once the attacker commits to the prone position.\n\nThis submission demands precise timing during the transition from guard retention to attack, specific hip positioning to clear the opponent's head with the leg, and coordinated arm control throughout the belly-down rotation. It rewards practitioners who develop sensitivity to recognizing when opponents overcommit their weight or extend an arm carelessly during passing attempts, turning those micro-errors into fight-ending submissions.",
   "safety_considerations": {
@@ -100,17 +103,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 32,
+      "probability": {
+        "gi": 32,
+        "nogi": 32
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 18,
+      "probability": {
+        "gi": 18,
+        "nogi": 18
+      },
       "result": "counter"
     }
   ],

@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Outside Ashi-Garami/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Ushiro Ashi-Garami/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "50-50 Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "In high-level leg lock exchanges, an opponent's inversion is rarely a clean escape — it frequently leaves you holding the reversed ushiro configuration, where finishing leverage is compromised but control is not yet lost. Returning to outside ashi addresses exactly this moment: rather than continuing to attack from the disadvantaged ushiro angle, you reverse the opponent's hip rotation and re-establish the standard outside ashi-garami where heel hook and ankle lock mechanics are more straightforward.\n\nThe transition solves a fundamental problem in leg lock scrambles: when opponents invert to escape, the resulting ushiro configuration changes submission leverage angles and opens escape opportunities. By returning to outside ashi-garami, you restore optimal finishing mechanics while denying the opponent's escape progress. This is particularly valuable when your ushiro control is degrading or when the opponent is successfully working toward turtle recovery.\n\nStrategically, this transition represents a positional improvement rather than a direct submission attempt. While ushiro offers attack opportunities, outside ashi-garami provides superior hip control, clearer heel exposure, and better transition options to saddle or honey hole. Advanced practitioners recognize when maintaining ushiro is disadvantageous and proactively return to outside ashi before losing control entirely. The technique requires understanding both leg entanglement configurations and the biomechanical principles that make outside ashi preferable for most finishing sequences.",
   "related_content": [
     {

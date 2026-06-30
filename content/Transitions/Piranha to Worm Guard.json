@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Worm Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Piranha Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Piranha to Worm Guard transition represents a sophisticated guard evolution within the modern lapel guard system, converting the Piranha Guard's through-the-legs lapel threading into the Worm Guard's leg-wrapping configuration. This transition is strategically valuable because Worm Guard offers superior sweeping mechanics through its mechanical connection to the opponent's leg, more diverse attacking chains including omoplata and back take sequences, and greater positional stability than Piranha Guard's collar-through-legs configuration. The move is a natural progression when the opponent's defensive posture exposes their lead leg for the worm wrap.\n\nThe transition hinges on the bottom player's ability to re-route the lapel material from passing through their own legs to wrapping around the opponent's lead leg. This requires precise timing and grip management, as the brief moment when the lapel is being re-routed creates a window of vulnerability where the top player can strip the grip and nullify the entire guard system. The key mechanical insight is using a De La Riva hook on the opponent's lead leg as an anchor point, allowing the shin to capture the re-routed lapel and establish the characteristic worm guard wrap that immobilizes the opponent's base.\n\nFrom a strategic perspective, this transition is most effective when the opponent commits to defending Piranha-specific attacks and creates postural reactions that expose their lead leg. The transition chains naturally with both Piranha Guard's offensive sweeping system and Worm Guard's follow-up attacks, creating a lapel guard ecosystem where the bottom player can flow between configurations based on the top player's defensive responses. Skilled practitioners use the threat of this transition to create additional dilemmas, forcing the top player to defend both immediate Piranha attacks and the guard evolution simultaneously.",
   "conditions": [
     "Bottom player has established Piranha Guard with lapel threaded through their legs and both hands controlling the collar material",

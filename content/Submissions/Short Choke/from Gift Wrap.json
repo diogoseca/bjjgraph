@@ -19,7 +19,10 @@
   "target_area": "Carotid arteries",
   "starting_position": "Gift Wrap",
   "from_position": "Gift Wrap/Top",
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "Within the Gift Wrap attack system, the short choke is the dedicated finishing mechanism that converts the position's arm-trap advantage directly into a submission rather than a positional advance. It works because one of the defender's arms is pinned across their own body, so the attacker can thread the choking forearm beneath the chin and apply bilateral carotid compression using body weight and shoulder pressure against only a single defending hand. The Gift Wrap's arm trap is the critical differentiator: it removes the defender's primary hand-fighting tool, making the forearm insertion significantly easier than from standard back control or cross body ride.\n\nStrategically, this choke creates a cascading dilemma within the Gift Wrap attack system. When the defender commits their only free hand to blocking the forearm from threading under the chin, they lose the ability to create hip escape frames or fight hook removal. When they prioritize positional escape instead, the neck becomes exposed for the choke entry. This forcing function means the attacker can systematically funnel the defender toward submission by alternating between positional pressure and choke threats.\n\nThe finishing mechanics rely on shoulder-driven pressure rather than pure arm squeeze. Once the forearm is seated beneath the chin with the blade of the wrist across one carotid artery, the attacker drives their shoulder into the back of the opponent's head while pulling the choking elbow tight to their own ribcage. This creates a vise effect compressing both carotid arteries simultaneously. The choke can produce unconsciousness in eight to twelve seconds once fully locked, making controlled application and immediate tap recognition essential for safe training.",
   "safety_considerations": {
     "injury_risks": [
@@ -103,17 +106,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "Gift Wrap/Top",
-      "probability": 27,
+      "probability": {
+        "gi": 27,
+        "nogi": 27
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],

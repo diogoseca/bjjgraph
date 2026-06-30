@@ -15,26 +15,41 @@
   "outcomes": [
     {
       "to": "Turtle/Top",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Side Control/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "success"
     },
     {
       "to": "Lapel Guard/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The backstep around worm guard is a fundamental guard passing solution that addresses the unique mechanical problems created by lapel-based guard configurations. When an opponent establishes worm guard by threading your lapel around your lead leg, standard pressure passing becomes ineffective because the fabric creates a persistent barrier preventing hip contact and forward progression.\n\nThe backstep works by changing the vector of your passing approach entirely. Rather than fighting through the lapel obstruction with forward pressure, you rotate your trapped leg backward while circling your body around the opponent's guard structure. This movement uses the opponent's lapel grip against them—their commitment to the fabric configuration actually facilitates your escape by providing a pivot point for your rotation.\n\nStrategically, this pass is most effective when opponent has committed heavily to the worm guard configuration but hasn't yet loaded offensive attacks. The timing window opens when they're focused on maintaining the wrap rather than attacking. The backstep creates a race condition: you're attempting to navigate around their guard faster than they can adjust the lapel configuration to follow your movement. Understanding this dynamic is essential for both execution timing and recognizing when opponents are setting traps by appearing committed to static worm guard while actually waiting to take your back.",
   "conditions": [
     "Opponent has established worm guard with lapel threaded around your lead leg",

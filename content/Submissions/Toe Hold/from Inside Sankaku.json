@@ -19,7 +19,10 @@
   "target_area": "Ankle, toes, and foot ligaments",
   "starting_position": "Inside Sankaku",
   "from_position": "Inside Sankaku/Top",
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "overview": "The toe hold from Inside Sankaku represents a critical secondary attack within the modern leg lock system. When the bottom player successfully hides their heel to defend the inside heel hook, the toe hold becomes the natural chain attack that punishes their defensive posture. The figure-four grip on the opponent's foot creates rotational force through the ankle joint, attacking the ligaments of the ankle, the metatarsal joints, and the midfoot structures simultaneously.\n\nWhat makes this particular toe hold variant especially effective is the superior leg control provided by the Inside Sankaku entanglement. Unlike toe holds from open positions where the opponent can freely retract their foot, the trapped leg in Inside Sankaku has severely limited mobility. The hip-to-hip connection and knee line control that define Inside Sankaku mean the opponent cannot easily create the distance needed to relieve pressure on their foot.\n\nStrategically, the toe hold from Inside Sankaku functions as part of a dilemma system. The opponent must choose between exposing their heel for the heel hook or leaving their foot vulnerable to the toe hold. Skilled attackers alternate between these threats to overwhelm the defense, creating a submission chain where each defensive response opens the pathway to the alternate attack.",
   "safety_considerations": {
     "injury_risks": [
@@ -115,17 +118,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Inside Sankaku/Top",
-      "probability": 26,
+      "probability": {
+        "gi": 26,
+        "nogi": 26
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 14,
+      "probability": {
+        "gi": 14,
+        "nogi": 14
+      },
       "result": "counter"
     }
   ],

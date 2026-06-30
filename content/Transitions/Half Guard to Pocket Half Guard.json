@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Pocket Half Guard/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Knee Shield Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Within the Half Guard passing hierarchy, this transition is the gateway that converts a stalled or contested top game into a systematic pressure-passing sequence. The technique centers on establishing a deep underhook on the bottom player's far side while simultaneously driving chest pressure forward to flatten their defensive structure. It transforms a neutral Half Guard exchange where the bottom player retains sweeps, frames, and back-take threats into a controlled position where the top player dictates the pace and direction of all subsequent action.\n\nThe transition addresses a fundamental problem in Half Guard Top: the bottom player's ability to maintain frames, create angles, and threaten sweeps or back takes. By securing the deep underhook and flattening the bottom player's hip angle, the top player eliminates the space required for most bottom-player offenses. The underhook reaches across the opponent's back to grip the far lat or belt line, creating a tight connection that prevents the bottom player from turning away or establishing their own underhook. Combined with crossface pressure on the opposite side, this creates a vise-like control that systematically removes defensive options.\n\nStrategically, this transition serves as the critical gateway to high-percentage pressure passes. Once Pocket Half Guard Top is established, the top player can chain knee slice passes, smash passes, and underhook passes with significantly higher success rates than from standard Half Guard Top. The position also opens submission opportunities including Darce Choke entries when the bottom player turns into the underhook and Kimura attacks on the defending arm. Understanding this transition transforms Half Guard Top from a contested battleground into a systematic passing sequence.",
   "conditions": [
     "Top player has one leg trapped in opponent's half guard with the other leg free and posted for base",

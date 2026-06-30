@@ -13,21 +13,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Standing Guard/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "summary": "Guard Pass from Standing Guard is the general upright-passing framework in which the top player strips grips, secures bilateral control of the legs or hips, and commits to a directional pass to clear the guard and reach side control.",
   "overview": "The Guard Pass from Standing Guard is the foundational framework for navigating past an opponent's guard from an upright position. Unlike specific named passes such as the Toreando or Leg Drag, this technique represents the general methodology of standing guard passing: establishing grip dominance, controlling the opponent's legs and hips, creating angular displacement through footwork, and decisively committing to a passing direction when the opportunity presents itself. The pass encompasses the core principles shared by all standing guard passes and serves as the template from which more specialized techniques derive their mechanics.\n\nThe strategic value of passing from standing lies in the mechanical advantage that height and mobility provide over a supine opponent. The standing passer can generate lateral speed, change angles rapidly, and use gravity to apply downward pressure on the guard player's legs—advantages that seated or kneeling passers cannot access. However, this elevation also creates vulnerability to sweeps and off-balancing attacks, making the battle for grip control and weight distribution the central contest of the exchange.\n\nSuccess requires a systematic approach: first neutralize the guard player's offensive connections through grip stripping and distance management, then establish bilateral control of their legs or hips to restrict guard retention movements, and finally execute a committed directional pass that navigates around their defensive structure to achieve side control. The timing of commitment is critical—passing too early before establishing control leads to sweep vulnerability, while waiting too long allows the guard player to reset their defensive framework and re-establish controlling connections.",
   "conditions": [

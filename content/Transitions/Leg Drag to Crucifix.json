@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Crucifix/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Leg Drag Control/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "summary": "Leg Drag to Crucifix is a guard-passing transition where the top player punishes an opponent's turn-in guard-recovery attempt from leg drag by capturing the exposed far arm and isolating both arms in the crucifix.",
   "overview": "The Leg Drag to Crucifix transition represents an advanced positional advancement that punishes a common defensive error from leg drag bottom. When the opponent attempts to turn into you to recover guard rather than accepting the pass, they often expose their far arm by posting or reaching. This creates the opportunity to capture that arm while simultaneously isolating the near arm with your leg position, resulting in the devastating crucifix control.\n\nThis transition exploits the mechanical vulnerabilities created when someone turns toward you from leg drag bottom. The act of turning requires them to commit weight and create frames, which extends at least one arm away from their centerline. By recognizing this moment and acting decisively, you convert their escape attempt into a worse position. The crucifix that results offers near-certain submission opportunities since both arms are isolated and the neck is completely exposed.\n\nStrategically, this transition creates a powerful dilemma for opponents in leg drag control. If they turn away, you take their back. If they stay flat, you consolidate side control or mount. If they turn into you to recover guard, you threaten crucifix. This three-way fork makes leg drag control particularly oppressive because every defensive choice opens a different attacking pathway. Advanced practitioners use the crucifix threat to force opponents into accepting worse positions rather than risk the arm trap.\n\nThe technique requires sensitivity to feel when the opponent commits to turning in, and the coordination to capture their arm while maintaining leg control and transitioning your body perpendicular to theirs. The entry window is brief, typically lasting only one to two seconds while they're in transition, making timing critical for success.",
   "related_content": [

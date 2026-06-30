@@ -26,7 +26,10 @@
   "target_area": "Knee joint, ankle joint, and surrounding ligaments",
   "starting_position": "Outside Ashi-Garami",
   "from_position": "Outside Ashi-Garami/Bottom",
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "variant_uniqueness": "Rotational knee attack from outside leg entanglement positioning",
   "overview": "The Outside Heel Hook is one of the most dangerous and effective leg lock submissions in Brazilian Jiu-Jitsu, targeting the knee joint through rotational force applied to the heel and foot. Unlike inside heel hooks which attack from inside positioning, the outside heel hook is applied when controlling the opponent's leg from the outside position, typically from outside ashi-garami or similar leg entanglement positions. This submission creates torque on the knee joint by rotating the foot and lower leg while the upper leg remains fixed, placing tremendous stress on the ACL, MCL, meniscus, and other knee structures.\n\nThe outside heel hook gained prominence in modern no-gi competition through the leg lock revolution and has become a fundamental finishing position in high-level competition. The mechanical advantage created by proper hip positioning and heel control makes this one of the highest percentage finishing attacks from leg entanglement positions. Due to its extreme injury potential and the speed at which damage occurs, this technique requires exceptional technical precision, safety awareness, and should only be practiced by experienced grapplers with trustworthy training partners.\n\nThe position demands systematic control before any finishing attempt: hip control with the inside leg prevents defensive rotation, hip extension removes slack from the system, and a deep heel cup provides the rotational lever. Only when all three control elements are established should the practitioner begin slow, progressive rotation. This submission represents the ultimate test of a grappler's responsibility, as the margin between a clean tap and a catastrophic injury is razor-thin.",
   "safety_considerations": {

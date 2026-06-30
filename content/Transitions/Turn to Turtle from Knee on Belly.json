@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Turtle/Bottom",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Knee on Belly/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "Within the hierarchy of Knee on Belly escapes, the Turn to Turtle sits at the high-risk, high-relief end of the spectrum — the option practitioners reach for when diaphragm compression has shut down standard guard recovery techniques like framing and shrimping. Rather than fighting the pressure directly, the bottom player redirects their energy into a controlled rotation that removes the knee from their torso, trading the immediate respiratory distress of Knee on Belly for the positional challenges of turtle defense.\n\nWhile this escape provides immediate relief from one of BJJ's most uncomfortable pressure positions, it carries significant strategic risk. Turning away from an opponent inherently exposes the back, and a skilled top player will anticipate this reaction and follow the turn directly into back control. The transition must therefore be executed with deliberate speed and immediately followed by tight turtle defense — chin tucked, elbows connected to knees, and an immediate plan to recover guard or stand up. The escape should never be treated as a final destination; turtle is a transitional state that demands immediate follow-up action.\n\nThe effectiveness of this transition depends heavily on timing and the integration of back defense principles during the turning motion itself. The bottom player must create a momentary disruption — through a frame, a bridge, or capitalizing on the opponent's own weight shift toward a submission — before initiating the turn. Executing the rotation during a moment when the top player's weight is committed forward dramatically increases success probability and reduces the window for back takes.",
   "conditions": [
     "Bottom player is under Knee on Belly pressure with opponent's weight driving into their torso",

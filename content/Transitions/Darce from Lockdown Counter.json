@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Darce Control/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Electric Chair/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Darce from Lockdown Counter is a powerful offensive response to the Electric Chair position that transforms a defensive situation into a submission threat. When trapped in the Electric Chair from top position, the bottom player's commitment to the underhook and extension mechanics creates a window for the Darce choke entry. Rather than fighting to extract the leg, this technique exploits the opponent's arm positioning and neck exposure that naturally occurs during aggressive Electric Chair attacks.\n\nThis counter represents an advanced understanding of positional warfare in half guard. The lockdown system's effectiveness relies on the bottom player maintaining specific grips and body alignment. By attacking the Darce, you force them to release their controls or risk being choked, fundamentally disrupting the lockdown system's mechanics. The technique works particularly well in no-gi where the lockdown system is most commonly employed.\n\nFrom a strategic perspective, having this counter in your arsenal changes the dynamic of the Electric Chair exchange entirely. Bottom players who know you threaten the Darce must be more conservative with their underhook depth and extension, which reduces the effectiveness of their sweeps and submissions. This creates a dilemma-based defense that exemplifies high-level guard passing against the lockdown system.",
   "related_content": [
     {

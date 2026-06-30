@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Standing Position/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Combat Base/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Within the guard-passing hierarchy, standing marks the decision to abandon kneeling pressure in favor of elevation and mobility. This transition is strategically critical because it changes the entire passing dynamic—standing provides greater grip-breaking leverage, wider passing angles, and access to high-velocity passes like the toreando, leg drag, and x-pass that are unavailable from the knees. The height differential also reduces the effectiveness of many bottom player attacks that depend on proximity and hip-level engagement.\n\nThe decision to stand typically arises when the bottom player establishes strong distance-based frames, lasso or spider grips, or foot-on-hip configurations that neutralize kneeling passing pressure. Rather than fighting through these structures from the knees, standing breaks those control mechanisms by changing the angle and elevation of engagement. The passer gains the ability to redirect the opponent's legs laterally with far greater mechanical advantage than kneeling passes allow, creating immediate passing opportunities.\n\nHowever, the transition carries inherent risk during the moment between kneeling and standing. This window of vulnerability allows the guard player to thread hooks such as De La Riva or shin-to-shin, establish entanglements, or use pulling grips to destabilize the passer's base before the standing position is fully consolidated. Grip management before initiating the stand, mechanical efficiency during the movement, and immediate posture establishment upon reaching the feet determine whether the passer achieves a dominant standing position or gets pulled into an inferior entanglement.",
   "conditions": [
     "Opponent has established distance-based frames or guard structures that neutralize kneeling pass attempts",

@@ -18,21 +18,33 @@
   "outcomes": [
     {
       "to": "Twister Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Cross Body Ride/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "The Twister entry from Cross Body Ride is the critical transition that converts perpendicular turtle-top control into the figure-four leg entanglement required for Twister Control and its associated submissions. From cross body ride, the attacker threads their near-side leg between the opponent's legs from behind, establishing the initial hook that will become the foundation of the Truck or full Twister Control position. This transition exploits the cross body ride's inherent advantage of weight distribution across the opponent's back while the opponent's hips are partially exposed due to the perpendicular angle.\n\nStrategically, this entry represents a commitment point in the back attack sequence. While cross body ride offers multiple offensive pathways including back takes, crucifix entries, and direct choke threats, choosing the Twister entry channels the attack into the 10th Planet leg entanglement system. The decision to enter should be based on reading the opponent's defensive posture — specifically when they flatten their hips to the mat or sit through toward the attacker's legs, both of which expose the inside of the near-side thigh for hook insertion. The perpendicular angle of cross body ride provides a unique mechanical advantage for threading the initial hook that is not available from standard back control positions.\n\nThe transition demands precise coordination between maintaining upper body pressure and executing lower body mechanics. Releasing too much chest pressure to thread the hook allows the opponent to turn in or recover guard, while insufficient hip drive prevents the hook from penetrating deep enough to establish the figure-four. Mastering this timing window is what separates practitioners who can reliably access the Twister system from those who lose position attempting it.",
   "conditions": [
     "Cross body ride must be fully consolidated with perpendicular chest-to-back pressure before initiating entry",

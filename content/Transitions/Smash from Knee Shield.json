@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Knee Shield Half Guard/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Within the guard passing hierarchy, the smash from knee shield is the top player's primary answer to one of modern half guard's most stubborn defensive structures. The knee shield creates a structural barrier that prevents chest-to-chest contact and forward advancement, making it one of the most effective defensive tools in modern half guard play. The smash addresses this problem directly by using angled pressure, grip control on the shield leg, and systematic weight distribution to break down the frame and transition to a more favorable passing position where the full passing arsenal becomes available.\n\nThe technique requires patience and methodical execution rather than explosive force. Attempting to power through a well-constructed knee shield typically results in wasted energy and potential sweeps, as the bottom player can redirect the incoming force against the passer. Instead, the smash relies on redirecting the knee shield leg across the opponent's body while applying compressive shoulder pressure from an angle that bypasses the shield's strongest axis of resistance. The 45-degree body angle is critical—it transforms the shield from an impenetrable wall into a lever that can be manipulated and collapsed.\n\nStrategically, the smash from knee shield occupies a critical role in the guard passing hierarchy. It serves as the primary answer to one of the most common defensive structures encountered in half guard, and its successful execution opens pathways to knee slice passes, crossface passes, and direct side control advancement. The technique chains naturally with other pressure passes, creating a systematic approach to dismantling the knee shield defense that rewards methodical pressure over athletic explosiveness.",
   "conditions": [
     "You are established in Knee Shield Half Guard top position with stable base",

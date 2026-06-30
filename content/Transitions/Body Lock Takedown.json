@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Body Lock/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Originating from wrestling's clinch exchanges, the body lock takedown has become a cornerstone of modern no-gi Brazilian Jiu-Jitsu, particularly for practitioners who prioritize positional control over explosive throws. It exploits the mechanical advantage of a fully locked grip around the opponent's torso to drive them to the mat while maintaining continuous pressure throughout the descent, typically landing in side control.\n\nThe strategic value of the body lock takedown lies in its simplicity and reliability. Unlike throws that require precise timing and hip placement, the body lock takedown uses sustained forward pressure, strategic foot placement, and controlled weight transfer to collapse the opponent's base. This makes it accessible to practitioners of all body types and athletic abilities while remaining effective at the highest competitive levels. The technique creates a forced choice for the defender: resist the takedown and be gradually overwhelmed by progressive pressure, or attempt to counter with increasingly risky defensive maneuvers.\n\nSuccessful execution depends on three critical elements: maintaining the locked grip throughout the entire takedown sequence, choosing the correct angle of attack based on the opponent's weight distribution and defensive posture, and controlling the landing to immediately establish side control rather than allowing the opponent to recover guard. The takedown integrates seamlessly with the broader body lock system, chaining naturally with mat returns, back takes, and guard passes when the primary takedown is defended.",
   "conditions": [
     "Body lock must be fully established with both arms wrapped around opponent's torso and hands locked together",

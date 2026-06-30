@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Standing Position/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Single Leg X-Guard/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Standing Escape from Single Leg X-Guard is a fundamental defensive technique for the top player trapped in an opponent's SLX configuration. Rather than engaging in the complex passing game that SLX demands, this escape prioritizes complete disengagement by returning to a neutral standing position. The technique centers on systematic hook clearing, proper base management with the free leg, and controlled extraction of the trapped leg without exposing yourself to sweeps or leg lock entries during the withdrawal.\n\nStrategically, the standing escape serves as a reset button in the modern leg entanglement meta-game. When an opponent has established strong SLX hooks with active grips, attempting to pass directly carries significant sweep and submission risk. The standing escape acknowledges this reality by trading positional advancement for safety, allowing the top player to re-engage on their own terms from neutral standing. This is particularly valuable in competition contexts where being swept from within a leg entanglement can result in both points conceded and immediate submission danger.\n\nThe critical challenge lies in the transition window between being trapped and fully disengaged. The bottom player's hooks create powerful mechanical leverage, and any misstep during extraction can result in an off-balance moment that the bottom player exploits for sweeps or transitions to deeper entanglements. Success requires patience, structural integrity through proper posture and base, and precise sequencing of hook removal before attempting to extract the trapped leg.",
   "conditions": [
     "Top player has one leg trapped in opponent's SLX hook configuration",

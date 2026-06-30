@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Matrix/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "This counter-transition flips the most dangerous moment of a Matrix attack into the top player's best opportunity. Rather than simply defending the rotation by sprawling or widening base, the top player reads the entry, follows the rotational movement, and capitalizes on the brief window when the bottom player's back becomes exposed during their inverted roll. The technique converts a defensive scenario into the most dominant position in Brazilian Jiu-Jitsu.\n\nThe critical insight underlying this transition is that the Matrix rotation, while powerful when properly timed, necessarily exposes the attacker's back during the inversion phase. A top player who recognizes the Matrix entry early enough can match the rotation speed, maintain chest-to-back proximity, and begin inserting hooks while the bottom player is still mid-roll and unable to defend. The rotational momentum that makes the Matrix effective becomes the very mechanism that delivers the top player to back control.\n\nThis transition demands exceptional timing, spatial awareness during dynamic movement, and the discipline to follow rather than resist the rotation. It represents the highest-percentage counter to the Matrix because it not only prevents the back take but immediately establishes four-point back control. The technique pairs naturally with other Matrix defensive strategies, as opponents who learn to defend the follow-through become more susceptible to sprawl-based defenses, and vice versa.",
   "conditions": [
     "Opponent has initiated or is preparing to initiate Matrix rotation from bottom position",

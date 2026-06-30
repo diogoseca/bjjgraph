@@ -19,7 +19,10 @@
   "target_area": "Ankle, toes, and foot ligaments",
   "starting_position": "Leg Entanglement",
   "from_position": "Leg Entanglement/Top",
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "overview": "Among the foot locks available from leg entanglement, the toe hold earns its place precisely because it does not depend on heel exposure. Unlike heel hooks that require specific inside or outside positioning relative to the knee line, the toe hold can be initiated from virtually any entanglement variant, making it an essential weapon in the leg lock practitioner's arsenal. The submission works by gripping across the opponent's toes and ball of the foot with a figure-four configuration, then applying controlled twisting force that attacks the lateral and medial ankle ligaments, midfoot structures, and can transfer damaging torque through to the knee.\n\nWhat makes the toe hold particularly effective from leg entanglement is the inherent control these positions provide. The entangled legs create a stable platform that prevents the opponent from simply retracting their foot, while the attacker's hip positioning close to the target ankle maximizes rotational leverage. The toe hold serves dual strategic purposes in modern leg lock systems: as a primary finishing attack when the heel is hidden and heel hooks are unavailable, and as a chain-starting threat that forces defensive reactions opening pathways to heel hooks, kneebars, and positional advances. The IBJJF allows toe holds at brown belt and above, while most no-gi rulesets permit them at intermediate levels, making this a critical technique for competitive grapplers progressing through the ranks.",
   "safety_considerations": {
     "injury_risks": [
@@ -118,17 +121,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Leg Entanglement/Top",
-      "probability": 26,
+      "probability": {
+        "gi": 26,
+        "nogi": 26
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 14,
+      "probability": {
+        "gi": 14,
+        "nogi": 14
+      },
       "result": "counter"
     }
   ],

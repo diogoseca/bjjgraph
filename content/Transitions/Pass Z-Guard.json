@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Z-Lock Half Guard/Top",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Deep Half Guard/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "Passing Z-Guard is one of the most demanding challenges in the modern BJJ passing game. The Z-Guard—characterized by an elevated knee shield targeting the shoulder rather than the hip—creates a formidable defensive barrier that neutralizes forward pressure and generates powerful sweeping angles. Unlike a standard half guard where the passer can often drive through with hip pressure, the elevated knee shield mechanically redirects force and maintains distance, requiring a systematic multi-step approach to dismantle.\n\nThe pass centers on three interconnected battles that must be won in sequence: collapsing the knee shield through angular pressure rather than brute force, winning the underhook or crossface war to limit the bottom player's offensive options, and completing the pass through decisive angular movement once the defensive structure has been compromised. The bottom player's primary weapons from Z-Guard—the old school sweep, deep half transitions, and back takes—all require the knee shield frame to remain intact. By systematically degrading that frame, the passer eliminates these threats while opening passing lanes.\n\nThis transition is essential for any serious competitor because Z-Guard has become the default retention position for skilled half guard players across all belt levels and rulesets. The ability to efficiently break down the knee shield and complete the pass to side control separates competent grapplers from elite passers. The pass rewards patience and technical precision over athleticism, making it a technique that improves with experience and understanding of weight distribution principles.",
   "variants_and_adaptations": [
     {

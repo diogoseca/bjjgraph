@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Leg Hook/Top",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Deep Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "overview": "The Transition to Leg Hook is a positional advancement technique executed from Half Guard Top that bridges the gap between initial half guard engagement and pass completion. Rather than attempting to extract the trapped leg directly, the top player redirects their approach by inserting a controlling hook underneath or around the bottom player's defending leg. This hook disrupts the bottom player's guard retention structure, controls their hip mobility, and creates a mechanically superior platform for completing various guard passes.\n\nThis transition addresses one of the most common stalling points in half guard top play: the moment when direct extraction fails against a well-entangled bottom player. Instead of fighting the entanglement head-on, the leg hook approach works with the existing leg contact, converting a defensive entanglement into an offensive control tool. The hook serves as a wedge that separates the bottom player's knees, restricts their ability to recover full guard, and provides a stable connection point for weight distribution during pass completion.\n\nStrategically, this transition is most effective when combined with strong upper body pressure. The crossface or underhook must be established before attempting the hook insertion, as the brief weight shift required to reposition the leg creates a vulnerability window. Advanced practitioners chain this transition into knee slice passes, leg drags, and smash passes, making the leg hook a critical intermediate position in systematic half guard passing sequences.",
   "conditions": [
     "Top player has established crossface or underhook control from half guard top",

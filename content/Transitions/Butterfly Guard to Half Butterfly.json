@@ -16,26 +16,41 @@
   "outcomes": [
     {
       "to": "Half Butterfly/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Butterfly Guard/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 5,
+      "probability": {
+        "gi": 5,
+        "nogi": 5
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 65,
+  "success_rate": {
+    "gi": 65,
+    "nogi": 65
+  },
   "overview": "Clearing one butterfly hook is the gateway action that turns a stalemate against butterfly guard into an advancing pass. This transition converts a symmetrical, sweep-heavy guard into an asymmetric configuration that heavily favors the passer. The core mechanic involves driving one knee toward the mat while controlling the opponent's upper body, collapsing the space that one hook occupies and forcing the bottom player into a half guard configuration with only one remaining butterfly hook.\n\nFrom a strategic standpoint, this transition is the single most important first step when facing butterfly guard. Rather than attempting to pass both hooks simultaneously, which exposes you to powerful elevation sweeps, clearing one hook at a time reduces the bottom player's offensive options by roughly half. The remaining single hook can still generate some lifting force, but without the coordinated dual-hook system, the bottom player loses the ability to execute high-percentage butterfly sweeps. This makes the subsequent passing sequence significantly more manageable.\n\nThe timing of this transition is critical. The optimal window opens when the bottom player commits their upper body grips to one side, momentarily reducing their ability to defend hook retention on the opposite side. Elite passers also create this window through grip fighting sequences that force the bottom player to choose between maintaining grip control and defending their hooks. The transition rewards patience and systematic pressure over explosive movement, though speed of execution matters once the window appears.",
   "conditions": [
     "Opponent has established butterfly guard with both hooks inserted under your thighs",

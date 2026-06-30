@@ -19,7 +19,10 @@
   "target_area": "Carotid arteries",
   "starting_position": "Rear Triangle",
   "from_position": "Rear Triangle/Top",
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "overview": "The Bow and Arrow Choke from Rear Triangle combines the structural control of the rear triangle position with the devastating finishing mechanics of the traditional bow and arrow choke. By establishing a triangle lock around the opponent's neck and one arm from behind, the attacker creates a uniquely stable platform that frees both hands for collar manipulation. The rear triangle eliminates many defensive grip-fighting options available against standard bow and arrow setups from back control, making this a particularly high-percentage finishing variation in gi grappling.\n\nThe finishing mechanic relies on feeding a deep cross-collar grip behind the opponent's neck while the triangle legs maintain positional control. Once the collar grip is established and the free hand secures the opponent's pants at the knee, the attacker extends their body, arching the back while pulling the collar and straightening the leg grip in opposite directions. This creates a powerful shearing force across the carotid arteries that produces a rapid blood choke.\n\nStrategically, this submission sits at the intersection of two high-control systems: back control through the rear triangle and lapel-based choking through the bow and arrow. The rear triangle provides stability that the traditional bow and arrow from standard back control sometimes lacks, while the bow and arrow adds a devastating finish to a position already rich in submission threats. The trapped arm inside the triangle cannot effectively fight the collar grip, giving the attacker a significant mechanical advantage during setup.",
   "safety_considerations": {
     "injury_risks": [
@@ -104,17 +107,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 62,
+      "probability": {
+        "gi": 62,
+        "nogi": 62
+      },
       "result": "success"
     },
     {
       "to": "Rear Triangle/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 13,
+      "probability": {
+        "gi": 13,
+        "nogi": 13
+      },
       "result": "counter"
     }
   ],

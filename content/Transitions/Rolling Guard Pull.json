@@ -17,26 +17,41 @@
   "outcomes": [
     {
       "to": "Closed Guard/Bottom",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "De La Riva Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "success"
     },
     {
       "to": "Standing Position/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Standing Position/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Rolling Guard Pull is a dynamic guard entry technique that utilizes rotational momentum to transition from standing to a guard position. Unlike static guard pulls that rely on grips and weight distribution alone, the rolling guard pull creates a sweeping rotational motion that catches opponents off-guard and establishes multiple guard variations. This technique is particularly effective in competition scenarios where aggressive guard pulling is rewarded, allowing the practitioner to maintain offensive initiative while transitioning to the ground.\n\nThe rolling guard pull works by combining forward momentum with a controlled backward roll, using the opponent's reactive pressure to complete the rotation and establish guard retention. The technique can transition into closed guard, De La Riva guard, X-guard, or single leg X-guard depending on how the practitioner catches the opponent's legs during the roll. This versatility makes it a valuable tool for guard players who want to dictate the pace and position from the opening exchange.\n\nMastery of the rolling guard pull requires excellent body awareness, timing, and the ability to read opponent reactions. When executed properly, it creates immediate offensive opportunities and bypasses traditional guard passing attempts. The technique is commonly seen in sport jiu-jitsu and has become a staple among modern guard players who emphasize dynamic entries and constant movement. The rotational mechanics developed here transfer directly to berimbolo entries, inversions, and other advanced guard techniques.",
   "related_content": [
     {

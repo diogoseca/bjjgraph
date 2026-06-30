@@ -17,7 +17,10 @@
   "target_area": "Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament)",
   "starting_position": "Standing Guard",
   "from_position": "Standing Position/Top",
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "The Flying Kneebar combines athleticism, timing, and technical precision to catch opponents off-guard during standup exchanges or guard pulls. While visually impressive and highly effective when executed properly, it carries significant risk for both practitioners and requires extensive drilling before live application. The submission targets the knee joint through hyperextension, attacking the posterior cruciate ligament (PCL), medial collateral ligament (MCL), and lateral collateral ligament (LCL) simultaneously. Due to the dynamic nature of the entry and the potential for awkward landings, this technique demands exceptional body control and spatial awareness. It is most commonly seen in no-gi competition where grips don't interfere with the rotational mechanics, though gi variations exist using lapel and sleeve grips to control the descent. This submission represents the intersection of takedown artistry and leg lock expertise, requiring practitioners to master both the aerial component and the finishing mechanics to achieve consistent success.",
   "safety_considerations": {
     "injury_risks": [
@@ -81,17 +84,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Standing Position/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Standing Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],

@@ -18,7 +18,10 @@
   "target_area": "Shoulder joint, rotator cuff, and shoulder capsule",
   "starting_position": "Twister Side Control",
   "from_position": "Twister Side Control/Top",
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "summary": "The Kimura from Twister Side Control is a 10th Planet shoulder lock applied with a figure-four grip on the near arm, where the position's leg entanglement nullifies the roll-through escape that normally defends the technique.",
   "overview": "The Kimura from Twister Side Control exploits the unique lateral angle and leg entanglement of this 10th Planet position to attack the shoulder joint. When the bottom player extends their near arm to create frames or post during escape attempts, the top player can isolate the wrist and establish a figure-four grip. The leg entanglement characteristic of Twister Side Control prevents the typical Kimura defense of rolling through, making this a high-percentage finishing opportunity that rewards patience and positional awareness.\n\nWhat distinguishes this Kimura variant from applications in traditional side control is the combination of pre-existing leg control and shoulder pressure that defeats standard defensive responses before they begin. The bottom player cannot straighten their arm and roll because the leg hook restricts hip rotation. The lateral angle provides excellent rotational leverage on the shoulder, and the shoulder pressure inherent to the position means isolation is already partially achieved. Practitioners who develop sensitivity to the bottom player's framing patterns will find consistent openings for this attack.\n\nThis variant integrates naturally into the broader Twister Side Control submission chain. When defending against twister and darce threats, the bottom player frequently extends arms to create frames, directly exposing the Kimura opportunity. The result is a genuine offensive dilemma: protecting the neck from chokes requires extending arms that become vulnerable to the shoulder lock, and vice versa. This multi-threat dynamic makes the Kimura from Twister Side Control particularly effective as part of a systematic attacking approach rather than as an isolated technique.",
   "safety_considerations": {
@@ -108,17 +111,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 62,
+      "probability": {
+        "gi": 62,
+        "nogi": 62
+      },
       "result": "success"
     },
     {
       "to": "Twister Side Control/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 13,
+      "probability": {
+        "gi": 13,
+        "nogi": 13
+      },
       "result": "counter"
     }
   ],

@@ -19,7 +19,10 @@
   "target_area": "Shoulder joint (specifically glenohumeral joint and rotator cuff)",
   "starting_position": "High Mount",
   "from_position": "High Mount/Top",
-  "success_rate": 68,
+  "success_rate": {
+    "gi": 68,
+    "nogi": 68
+  },
   "overview": "The Americana from High Mount is one of the highest-percentage shoulder lock finishes in Brazilian Jiu-Jitsu, combining the crushing positional dominance of high mount with a mechanically straightforward joint lock. From high mount, the attacker's knees sit near the opponent's armpits, distributing weight across the upper chest and eliminating the bridging power that makes the Americana difficult to finish from standard mount or side control. This elevated platform creates ideal conditions for wrist isolation and figure-four grip establishment, turning a technique that often stalls from other positions into a reliable finisher.\n\nThe key mechanical advantage lies in gravity working directly in favor of the submission. The attacker's weight pins the defender's shoulder blade to the mat, creating a fixed fulcrum point around which the rotational force of the paint stroke operates. Unlike the Americana from side control where lateral pressure must overcome the defender's ability to turn, high mount locks the defender flat on their back, making the rotational arc of the wrist-to-hip motion significantly more effective. The defender's realistic options narrow to early intervention during grip establishment or accepting the tap.\n\nStrategically, the Americana from high mount functions as both a primary finisher and a chain starter. When opponents defend by straightening the arm, the attacker transitions to armbar. When they turn toward the attack, technical mount or back take become available. This submission-escape-transition cycle makes the Americana attempt from high mount a low-risk, high-reward proposition that should be a fundamental part of any practitioner's mount offense.",
   "safety_considerations": {
     "injury_risks": [
@@ -123,17 +126,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 68,
+      "probability": {
+        "gi": 68,
+        "nogi": 68
+      },
       "result": "success"
     },
     {
       "to": "High Mount/Top",
-      "probability": 21,
+      "probability": {
+        "gi": 21,
+        "nogi": 21
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 11,
+      "probability": {
+        "gi": 11,
+        "nogi": 11
+      },
       "result": "counter"
     }
   ],

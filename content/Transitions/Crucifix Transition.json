@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Crucifix/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Standing Back Control/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Turtle/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Crucifix Transition from standing back control represents a sophisticated positional advancement that capitalizes on defensive grip fighting attempts by your opponent. When you have standing back control and your opponent begins actively fighting your harness grip with one or both hands, they create the opening for this transition by exposing their arms. The crucifix position that results is one of the most dominant control positions in grappling, offering complete arm isolation and multiple high-percentage submission options including rear naked choke variations, armbar attacks, and neck cranks.\n\nStrategically, this transition punishes opponents who prioritize grip fighting over protecting their base. Rather than viewing their defensive hand fighting as a problem, the crucifix entry reframes it as an opportunity. The standing variant is particularly effective because the opponent cannot use the mat to frame or create defensive barriers. Their extended arm becomes a lever you can capture and use to break them down while simultaneously trapping both arms in the finished crucifix position.\n\nThe transition requires precise timing and commitment. You must recognize when the opponent's arm is sufficiently extended during their defensive movement, then explosively capture it while maintaining your chest-to-back connection. The standing nature of this entry often flows naturally into a mat return where you secure the legs and complete the crucifix position on the ground. Advanced practitioners use this as a reliable chain attack when initial choke attempts are successfully defended.",
   "conditions": [
     "You have established standing back control with harness or seat belt grip",

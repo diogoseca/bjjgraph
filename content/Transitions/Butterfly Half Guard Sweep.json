@@ -13,21 +13,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Butterfly Half Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "summary": "The Butterfly Half Guard Sweep is a bottom-position sweep that combines a butterfly hook under the opponent's free leg with a half-guard trap on their other leg, elevating and toppling them over the trapped leg into side control top.",
   "overview": "The Butterfly Half Guard Sweep is a fundamental sweep technique executed from butterfly half guard bottom, leveraging the unique mechanical advantages of this hybrid position. The sweep utilizes the butterfly hook inserted under the opponent's free leg to generate upward elevation force while the half guard trap on the other leg prevents the opponent from posting or stepping to base out. This combination of elevation and entanglement creates a powerful sweeping platform that disrupts the top player's balance along a diagonal line, forcing them to topple over the trapped leg.\n\nStrategically, this sweep functions as both a primary attack and a setup tool within the butterfly half guard system. When the opponent defends by posting a hand or shifting weight, they create openings for complementary techniques like the 100% sweep, old school sweep, or back take entries. The sweep is most effective when the opponent's weight is centered or slightly forward, as their momentum can be redirected through the elevation arc. Against opponents who post back heavily to defend, the sweep becomes less viable but opens transitions to deep half guard or X-guard entries.\n\nThe technical execution demands precise coordination between the butterfly hook drive, underhook pull, and hip angle adjustment. The sweep succeeds through timing and leverage rather than strength, making it accessible to practitioners of all sizes when executed with proper mechanics. The half guard trap serves as the critical differentiator from a standard butterfly sweep, providing additional control that prevents the common counter of simply stepping the free leg back to recover base.",
   "variants_and_adaptations": [

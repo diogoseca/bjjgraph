@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Combat Base/Top",
-      "probability": 75,
+      "probability": {
+        "gi": 75,
+        "nogi": 75
+      },
       "result": "success"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 75,
+  "success_rate": {
+    "gi": 75,
+    "nogi": 75
+  },
   "overview": "Inside an opponent's guard, the moment your posture is broken is the moment you lose access to passing and become a target for collar chokes, armbars, triangles, and sweeps—which is exactly why posture recovery sits at the foundation of every top player's guard-passing game. Breaking your posture is one of the guard player's primary objectives, so your ability to systematically rebuild structure neutralizes their entire offensive platform and forces them to re-establish control. The technique involves a deliberate sequence of creating space, establishing proper base, and using controlled hip-driven movement to return to an advantageous, upright position.\n\nMastering posture recovery is crucial because it represents the difference between maintaining offensive potential and being swept or submitted. When your posture is broken inside closed guard, you face immediate threats including collar chokes, armbars, triangles, and various sweeps. The guard player's entire offensive system depends on maintaining broken posture, so your ability to recover neutralizes their game plan and forces them to re-establish control.\n\nWhen executed properly, posture recovery neutralizes the guard player's attacks while preserving your energy and positioning for continued passing attempts. The technique chains directly into combat base establishment and guard opening sequences, making it the essential first link in any guard passing chain. Advanced practitioners develop the ability to recover posture while simultaneously addressing submission threats and transitioning immediately into passing attacks, turning a defensive moment into an offensive opportunity.",
   "conditions": [
     "Posture has been broken by opponent's pulling grips or leg pressure",

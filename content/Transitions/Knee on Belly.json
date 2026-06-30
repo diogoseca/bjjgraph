@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Knee on Belly/Top",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Side Control/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 68,
+  "success_rate": {
+    "gi": 68,
+    "nogi": 68
+  },
   "overview": "Knee on Belly represents one of the most dynamic and high-pressure positions in Brazilian Jiu-Jitsu, serving as both a scoring position worth two or three points in competition and a launching platform for devastating submissions. The transition from Side Control to Knee on Belly requires precise timing, proper weight distribution, and strategic grip selection to prevent the bottom player from capitalizing on the momentary reduction in chest pressure during the transition.\n\nThe position's effectiveness stems from the concentrated pressure of your entire body weight driving through a single knee into the opponent's solar plexus or lower ribs. This creates immediate discomfort that forces defensive reactions, opening submission opportunities. Unlike Side Control where pressure is distributed across the chest, Knee on Belly creates a focused point of pressure that compromises breathing and generates psychological distress. The elevation of your hips above the opponent also provides superior mobility for transitioning to submissions or following their escape attempts.\n\nFrom a strategic perspective, Knee on Belly functions as a pressure multiplier that accelerates the pace of the match. The discomfort forces the bottom player to react rather than methodically defend, creating predictable movement patterns you can exploit. Common defensive reactions - pushing the knee, turning away, bridging - each open specific submission or positional advancement opportunities. Understanding this action-reaction dynamic transforms Knee on Belly from a static scoring position into an active hunting ground for finishing the match.",
   "conditions": [
     "Established Side Control with crossface or underhook control",

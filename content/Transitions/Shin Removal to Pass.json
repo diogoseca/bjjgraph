@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Gogoplata Control/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "Shin Removal to Pass represents a critical defensive technique executed when caught in gogoplata control from the top position. This escape addresses one of the most technically challenging submission positions in Brazilian Jiu-Jitsu, where the opponent has threaded their shin across your throat while securing their foot behind your head. The technique requires methodical extraction of your head from the closed loop system created by the shin-across-throat configuration.\n\nThe strategic importance of this escape lies in understanding that conventional pulling or posturing attempts fail against a properly established gogoplata. The foot-behind-head configuration creates a closed system where backward movement tightens rather than loosens the choke. Therefore, systematic shin removal requires changing angles and addressing the leg mechanics rather than fighting against the submission structure.\n\nThis technique is particularly valuable because gogoplata attacks have become increasingly prevalent in modern competition, especially among flexible guard players utilizing rubber guard systems. Developing reliable shin removal mechanics provides essential defensive coverage against these specialized attacks while also opening pathways to dominant passing positions. The pass completion to side control transforms a defensive emergency into an offensive opportunity, making this a high-value skill for competitive practitioners.",
   "related_content": [
     {

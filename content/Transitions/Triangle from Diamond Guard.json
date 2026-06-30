@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Triangle Control/Bottom",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Diamond Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "The triangle from Diamond Guard exploits the unique dual-control structure of the diamond configuration — overhook on one arm and head control with the opposite hand — to create a high-percentage triangle entry that is significantly harder to defend than standard closed guard triangle setups. The overhook already isolates one arm across the opponent's body, and the head control keeps their posture thoroughly broken, meaning two of the three prerequisites for a triangle (arm isolation and posture break) are already established before the attack begins. The attacker's primary task is converting the head control grip into wrist control on the trapped arm while shooting the choking leg over the opponent's neck.\n\nStrategically, this transition represents the primary submission threat from Diamond Guard and functions as the centerpiece of the diamond guard attack system. The overhook eliminates the opponent's ability to post with their trapped arm, which normally serves as the primary triangle defense. With that defensive option removed, the opponent must rely on posture recovery or turning their shoulder inward — both of which are severely compromised by the diamond frame. The transition rewards patient setup over explosive movement, as the grip switch from head control to wrist control is the critical moment where the attack can fail if rushed.\n\nAdvanced practitioners chain this triangle entry with omoplata and kimura threats from the same diamond configuration, creating a three-directional attack system where defending the triangle exposes the opponent to shoulder locks, and defending shoulder locks opens the triangle. This interconnected threat network makes Diamond Guard one of the most dangerous closed guard variations for practitioners who invest in mastering the grip transition mechanics.",
   "conditions": [
     "Deep overhook established with elbow past opponent's tricep, arm pulled tight across body",

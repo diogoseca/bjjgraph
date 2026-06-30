@@ -19,7 +19,10 @@
   "target_area": "Carotid arteries",
   "starting_position": "Harness",
   "from_position": "Harness/Top",
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "Few back-control finishes solve the chin-tuck problem as cleanly as this attack. When an opponent buries their chin and fights the choking arm with both hands, the traditional Rear Naked Choke stalls because it must thread fully behind the head to lock the figure-four. By feeding the choking hand into the opposite gi sleeve instead of reaching for the far shoulder, the attacker converts the fabric into a structural anchor and shortens the lever, so the carotid compression survives even a committed defensive frame.\n\nThis makes it most valuable precisely when the opponent has invested everything in classic RNC defense. The sleeve connection prevents the choking arm from being stripped no matter how hard they two-on-one the wrist, and because the forearm only needs to ride across the throat rather than circle the head, there is far less travel for the defender to interrupt. The result is a short, tight loop that compresses both carotid arteries while the attacker retains every layer of back control.\n\nFrom the Harness position specifically, the seatbelt grip provides the ideal starting configuration. The over-arm already sits near the neck, so the transition demands minimal positional adjustment, and chest-to-back connection plus hook control are maintained throughout. That preservation of position is what makes the Short Choke a low-risk, high-reward attack: a failed attempt almost always returns to dominant Harness control rather than surrendering the back.",
   "safety_considerations": {
     "injury_risks": [
@@ -98,17 +101,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "Harness/Top",
-      "probability": 27,
+      "probability": {
+        "gi": 27,
+        "nogi": 27
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],

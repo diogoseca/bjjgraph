@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Closed Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Standing Position/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Standing Position/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Among standing-to-ground entries, Jumping Guard occupies the highest-commitment end of the spectrum — a spectacular but polarizing choice that has cycled in and out of competitive favor as rulesets and meta-games have evolved. This technique represents a high-risk, high-reward approach to guard engagement that can catch opponents off-guard and immediately establish offensive control. Unlike traditional guard pulls that emphasize control and connection before committing, jumping guard requires explosive athleticism, precise timing, and confident execution.\n\nThe technique is particularly effective against opponents who maintain distance or refuse to engage in grip fighting, as it closes distance instantly and forces immediate close-range grappling. While spectacular when successful, jumping guard carries inherent risks including potential for the opponent to pass immediately, exposure to slams in certain rulesets, and significant energy expenditure. Modern competition BJJ has seen both the rise and decline of jumping guard variations, with current trends favoring more controlled guard pull entries that prioritize safety and retention.\n\nFrom a strategic perspective, jumping guard should be deployed selectively rather than as a default guard entry. The technique works best when the attacker has a clear athletic advantage, when the opponent's stance creates a specific timing window, or when surprise is needed to shift match momentum. Elite practitioners treat it as one tool within a broader standing engagement system, always having backup guard options ready if the jump fails to achieve closed guard.",
   "conditions": [
     "Both practitioners standing with active grip engagement",

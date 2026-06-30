@@ -16,26 +16,41 @@
   "outcomes": [
     {
       "to": "Closed Guard/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "success"
     },
     {
       "to": "3-4 Mount/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "The Bridge Escape from 3-4 Mount exploits the fundamental weakness inherent in the asymmetric weight distribution of the three-quarter mount position. Unlike escaping traditional mount where weight is evenly distributed across both sides, the 3-4 Mount's posted leg creates a predictable weak point in the top player's base that can be targeted with a well-timed bridge. The bottom player bridges toward the heavier mounted-knee side to maximally disrupt the top player's balance, then directs the escape movement toward the lighter posted-leg side where base recovery is most difficult.\n\nThis technique represents one of the highest-percentage mount escapes available against asymmetric mount variations because it directly attacks the geometric vulnerability created by the three-point versus four-point contact pattern. The bridge must be explosive and directional rather than simply upward, combining hip extension with a turning motion that loads force into the top player's compromised base angle. When the top player commits to maintaining the mounted-knee position, they sacrifice lateral mobility on the posted side, creating the window for escape.\n\nStrategic integration of the bridge escape within the overall mount escape system is essential. The technique works best as either a primary escape when timing is optimal or as a setup for secondary escapes. A committed bridge that fails to complete the reversal still creates substantial space and reaction from the top player, enabling follow-up elbow escapes and half guard recovery. Training both the full reversal and the partial escape ensures that bridge attempts produce positive outcomes regardless of completion percentage.",
   "variants_and_adaptations": [
     {

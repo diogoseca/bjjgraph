@@ -17,7 +17,10 @@
   "target_area": "Elbow joint and shoulder girdle",
   "starting_position": "Turtle",
   "from_position": "Turtle/Top",
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "variant_uniqueness": "Prone opponent denies standard armbar leg control",
   "summary": "The Belly Down Armbar is a face-down (prone) armbar that isolates and hyperextends an exposed arm against the mat, finishing turtled or scrambling opponents when traditional leg-controlled armbars from guard or mount are unavailable.",
   "overview": "Across its position-specific entries, the belly down armbar is fundamentally opportunistic: it surfaces when the opponent is in turtle position or during scrambles as they expose an arm while defending other attacks. Unlike traditional armbars executed from guard or mount where you control the opponent's torso with your legs, the belly down variant requires you to secure the isolated arm while the opponent remains face-down on the mat. This submission is particularly effective when your opponent turtles to defend against back takes or other attacks, as their defensive posture often leaves their arms extended and vulnerable.\n\nThe key to success lies in rapid arm isolation, maintaining connection to the opponent's body to prevent them from rolling through the position, and applying controlled hyperextension to the elbow joint. The belly down armbar requires excellent timing and positional awareness, as the opponent has more escape options compared to traditional armbar positions. However, when executed correctly with proper control of the shoulder and hip, this submission becomes a powerful finishing option from positions where traditional submissions may be difficult to secure.",

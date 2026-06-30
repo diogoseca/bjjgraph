@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Harness/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Harness Escape to Half Guard is a fundamental defensive transition that addresses one of the most common survival scenarios in BJJ: escaping back control when the opponent has established a seatbelt grip. Rather than attempting a complete escape to turtle or standing position, this technique targets the intermediate objective of recovering half guard, which offers immediate offensive opportunities through sweeps, back takes, and guard transitions. The escape relies on systematic grip fighting to neutralize the choking arm, followed by precise hip movement to create the angle needed to catch the opponent's leg.\n\nThe mechanical foundation centers on disrupting the chest-to-back alignment that makes the harness grip effective. By establishing two-on-one control on the choking arm and executing a diagonal hip escape toward the underhook side, the bottom player creates separation while positioning their legs to thread around the opponent's leg. The timing window is narrow: the hip escape must begin immediately after clearing at least one hook, and the leg catch must happen before the opponent can adjust their position or transition to mount.\n\nStrategically, this escape transforms a purely defensive survival situation into an active offensive platform. Half guard bottom offers legitimate sweep and submission threats that force the former back controller to address entirely new problems. The escape chains naturally with other defensive options—if the half guard catch fails, the bottom player can continue turning to face the opponent or transition to turtle, making this a low-risk component within a broader back escape system.",
   "conditions": [
     "Opponent has established harness (seatbelt) grip with one arm over shoulder and one under opposite armpit",

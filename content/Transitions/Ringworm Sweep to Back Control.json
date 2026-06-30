@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Ringworm Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Ringworm Sweep to Back Control represents one of the highest-percentage attacks from the Ringworm Guard system, capitalizing on the unique mechanical advantages created by the lapel wrap configuration. This technique exploits the restricted mobility of the opponent's wrapped leg to create angular momentum that exposes the back during the sweeping motion. Unlike traditional sweeps that result in top mount, this variation specifically targets back control by following the opponent's rotation during the sweep.\n\nThe sweep functions by using the lapel wrap as a lever to prevent the opponent from posting their wrapped leg while simultaneously creating rotational force through hip movement and secondary grip manipulation. As the opponent loses balance and begins to fall laterally, the bottom player follows the sweep motion while threading their hooks and establishing seatbelt control. The technique requires precise timing and coordination between the lapel tension, hip drive, and upper body follow-through.\n\nStrategically, this sweep is most effective when the opponent attempts to stand and create distance from Ringworm Guard, as their elevated center of gravity makes them more susceptible to rotational sweeps. The back take variation is particularly valuable because it bypasses the typical guard passing battle that follows a sweep to mount, immediately establishing the most dominant control position in Brazilian Jiu-Jitsu.",
   "conditions": [
     "Ringworm Guard lapel wrap must be fully secured with no slack around opponent's leg",

@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Half Butterfly/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Passing the Half Butterfly guard requires systematic neutralization of the butterfly hook's lifting mechanics while maintaining enough upper body pressure to prevent guard recovery. The butterfly hook in half butterfly creates a powerful elevation tool that the bottom player uses to generate sweeps and off-balance the passer. The top player's primary challenge is removing this hook's effectiveness without sacrificing the crossface or underhook control needed to prevent the bottom player from recovering full butterfly guard or transitioning to deep half.\n\nThe pass typically involves driving weight forward and low to reduce the hook's leverage, establishing crossface or underhook dominance, and then methodically clearing the hook through hip positioning, leg weaving, or smash mechanics. Unlike passing standard half guard where the primary obstacle is extracting the trapped leg, passing half butterfly demands simultaneous management of the trapped leg retention and active butterfly hook threat. This dual-threat structure from the bottom player makes the pass technically demanding and requires precise timing in weight distribution shifts.\n\nStrategically, Pass Half Butterfly sits at a critical juncture in modern guard passing chains. Many passing sequences through butterfly-based guards funnel into this position when one hook has been cleared but the second remains active. The passer who understands how to read the bottom player's hook engagement and respond with appropriate weight shifts and angle changes can reliably convert this transitional moment into a completed pass. Failure to address the hook systematically often results in sweep attempts that catch even experienced passers off guard.",
   "conditions": [
     "Top player has established upper body control through crossface, underhook, or collar grip from half butterfly top",

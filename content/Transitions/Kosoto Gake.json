@@ -19,21 +19,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Standing Position/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Clinch/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Rooted in judo's classical throwing syllabus, Kosoto Gake has become a staple of the Brazilian Jiu-Jitsu standing game because it rewards timing and positioning over raw athleticism. The technique's value lies in its simplicity and relatively low physical demands compared to explosive throws like Uchi Mata or Harai Goshi. It excels when your opponent has their weight distributed on their rear leg, making it an excellent counter to defensive stances and backward movement.\n\nThe throw creates a seamless transition from standing to dominant groundwork, with the thrower maintaining control throughout the entire movement and landing directly in a scoring position. This makes it particularly valuable in both gi and no-gi competition contexts where takedown points and top position are strategically critical. The biomechanical principle underlying Kosoto Gake is the creation of a force couple: the upper body pull generates rotational momentum backward while the leg reap removes the structural support beneath the opponent's center of gravity. This dual-action mechanism means neither component works effectively in isolation, but together they produce reliable off-balancing with minimal athletic demand.",
   "conditions": [
     "Opponent's weight committed to their rear leg through backward stance or defensive posture",

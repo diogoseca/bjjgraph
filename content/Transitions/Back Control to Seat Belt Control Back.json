@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Seat Belt Control Back/Top",
-      "probability": 70,
+      "probability": {
+        "gi": 70,
+        "nogi": 70
+      },
       "result": "success"
     },
     {
       "to": "Back Control/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Turtle/Top",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 70,
+  "success_rate": {
+    "gi": 70,
+    "nogi": 70
+  },
   "overview": "The transition from Back Control to Seat Belt Control Back represents the critical grip upgrade that transforms general back control into the gold-standard attacking configuration in Brazilian Jiu-Jitsu. While having the back is inherently dominant, the specific arrangement of the seat belt grip—one arm over the opponent's shoulder and the other threading under the opposite armpit with hands connected—creates diagonal pressure vectors that are biomechanically superior to any other upper body control method from the back. This transition converts raw positional dominance into systematic submission architecture, enabling the entire back attack chain from rear naked choke to armbar to bow and arrow.\n\nEstablishing the seat belt from general back control requires precise timing and hand placement. The primary challenge lies in releasing existing grips to establish the over-under configuration without creating windows for the opponent to initiate escape sequences. Skilled defenders actively prevent seat belt establishment through hand fighting, grip stripping, and shoulder positioning, understanding that the seat belt is the structural foundation for all high-percentage back attacks. The transition demands maintaining chest-to-back connection and hook security throughout the grip change, treating it as a controlled positional upgrade rather than a casual grip adjustment.\n\nThe strategic importance of this transition cannot be overstated. Without the seat belt, back control submissions remain low-percentage because the attacker lacks the mechanical framework to systematically break down neck defenses. The seat belt provides the structural foundation for rear naked choke entries, armbar transitions, and bow and arrow attacks. Completing this transition effectively upgrades back control from a positional advantage into an active submission threat that forces the defender into increasingly difficult defensive dilemmas where protecting against one attack exposes vulnerability to another.",
   "variants_and_adaptations": [
     {

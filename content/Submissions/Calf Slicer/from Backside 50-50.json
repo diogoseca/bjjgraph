@@ -19,7 +19,10 @@
   "target_area": "Calf muscle and Achilles tendon",
   "starting_position": "Backside 50-50",
   "from_position": "Backside 50-50/Top",
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "The calf slicer from backside 50-50 exploits the unique chest-to-back orientation of this leg entanglement to generate devastating compression on the opponent's calf muscle. Unlike standard 50-50 calf slicer attempts where both players face each other, the backside configuration provides the attacker with superior leverage through forward pressure, allowing them to drive their shin deeper behind the opponent's knee while using body weight to fold the leg.\n\nThe attack typically develops when the opponent bends their knee defensively against heel hook attempts. The attacker threads their shin behind the bent knee, secures the opponent's foot, and uses chest pressure combined with hip extension to create a compression lock that crushes the calf against the shin bone. The backside angle makes this particularly effective because the opponent cannot easily straighten their leg or rotate to relieve pressure.\n\nThis submission serves as a critical secondary threat within the backside 50-50 system. When opponents become proficient at defending heel hooks by hiding their heels, the calf slicer punishes their bent-leg defensive posture. Competition practitioners at purple belt and above should develop this attack as part of their complete leg lock arsenal, recognizing that the threat of the calf slicer forces opponents into positions where heel hooks become more accessible.",
   "safety_considerations": {
     "injury_risks": [
@@ -104,17 +107,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Backside 50-50/Top",
-      "probability": 32,
+      "probability": {
+        "gi": 32,
+        "nogi": 32
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 18,
+      "probability": {
+        "gi": 18,
+        "nogi": 18
+      },
       "result": "counter"
     }
   ],

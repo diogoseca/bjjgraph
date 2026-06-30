@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Buggy Choke from Buggy Choke",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "Buggy Choke/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 12,
+      "probability": {
+        "gi": 12,
+        "nogi": 12
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Finish Buggy Choke represents the culmination of the buggy choke attack sequence from turtle top position. This blood choke targets the carotid arteries using collar grip pressure combined with perpendicular body mechanics to create strangulation. Unlike arm-in chokes that require specific arm positioning, the buggy choke finish relies on deep collar penetration and coordinated pressure application through chest weight and hip drive.\n\nThe finishing mechanics distinguish this technique from the positional control phase. While establishing buggy choke control focuses on grip depth and preventing escape, the finish emphasizes progressive pressure escalation through body weight transfer and grip consolidation. The choking hand must achieve palm-up orientation with fingers deep in the collar, allowing the radius bone to press directly into the carotid artery when combined with perpendicular body positioning.\n\nStrategically, committing to the finish requires reading opponent defensive reactions. Static opponents who focus purely on grip fighting without movement create ideal finishing opportunities. However, opponents who move aggressively toward back escapes or sitting to guard may offer better positional advancement opportunities than forcing a contested choke. The finish should be executed with progressive pressure rather than explosive yanking, maximizing technical efficiency while minimizing energy expenditure and reducing injury risk to training partners.",
   "conditions": [
     "Buggy Choke control position fully established with both grips secured",

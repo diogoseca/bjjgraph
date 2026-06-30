@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Saddle/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Headquarters Position/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Headquarters Position/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Saddle Entry from Top is a fundamental leg entanglement technique that allows the top player to transition from various passing positions into the Saddle (also known as Honey Hole or Inside Sankaku). This entry is critical for modern leg lock systems and represents one of the most direct paths to dominant leg attack positions. The technique exploits moments when the bottom player's legs are extended or when they attempt defensive movements that expose their leg positioning.\n\nThis entry serves as a cornerstone of modern leg lock methodology and has revolutionized competitive no-gi grappling. The saddle position provides maximum control over the opponent's hip and leg while creating immediate submission threats through inside heel hooks, toe holds, and kneebars. Understanding proper entry mechanics is essential for any practitioner looking to develop a comprehensive leg lock game.\n\nThe technique requires precise timing, spatial awareness, and the ability to recognize leg entanglement opportunities during passing sequences. Success depends on controlling the opponent's near leg while stepping over to secure the saddle configuration. When executed correctly, this entry creates a dominant position with minimal escape options for the opponent.",
   "related_content": [
     {

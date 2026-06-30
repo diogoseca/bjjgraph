@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Triangle Control/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Triangle to Back transition represents an advanced positional flow that capitalizes on opponent defensive reactions within triangle control. When an opponent attempts to defend the triangle choke by posturing, stacking, or turning away, the attacker can redirect their control toward back exposure rather than forcing a low-percentage finish. This transition exemplifies the principle of following your opponent's energy rather than opposing it directly, converting a defended submission attempt into superior positional control.\n\nThe technique is particularly valuable in competition scenarios where opponents are well-versed in triangle defense but may not anticipate the immediate shift to back attacks. By maintaining connection through the legs and upper body grips while rotating around the opponent's defensive posture, the practitioner creates a seamless pathway from a 0-point control position to the most dominant 4-point position in Brazilian Jiu-Jitsu. The biomechanical advantage stems from using the triangle frame as a steering mechanism that channels the opponent's defensive rotation directly into back exposure, making their escape attempt the very mechanism that delivers them into a worse position.\n\nStrategically, this transition transforms the triangle from a single-threat position into a dual-threat platform. Opponents who know the back take exists must moderate their defensive rotation, which paradoxically makes the triangle choke itself more effective. This dilemma-based attacking framework is what elevates triangle control from a submission attempt into a complete positional system.",
   "related_content": [
     {

@@ -23,7 +23,10 @@
     "Front Headlock",
     "Turtle"
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "summary": "The Darce Choke from Leg Drag is an arm-triangle blood choke applied during guard passing — the attacker threads the choking arm under the opponent's neck and far armpit when they turn into the passer, compressing both carotid arteries.",
   "overview": "The Darce choke from leg drag control exploits a natural defensive reaction that occurs during guard passing. When the top player establishes leg drag control and drives pressure, the bottom player frequently turns into the passer to recover guard or escape to turtle. This turning motion exposes the critical neck-and-armpit channel that the Darce choke requires. The leg drag position provides an ideal platform for this submission because the top player already has significant hip control and a strong angle that facilitates threading the choking arm under the opponent's neck.\n\nThe mechanics of this particular Darce entry differ from traditional setups in that the leg drag provides continuous hip pressure throughout the submission sequence. Unlike Darce entries from front headlock or turtle where the attacker must chase the opponent, the leg drag configuration keeps the bottom player anchored and unable to create distance. The attacker threads the near arm under the opponent's neck, through the far armpit, and secures a figure-four grip with the free hand clasping the bicep. Finishing pressure comes primarily from sprawling the hips and walking toward the opponent's head, compressing the carotid arteries bilaterally.\n\nThis submission represents a high-percentage finishing option within the leg drag passing system because it punishes the most common defensive response. When combined with back take threats and mount transitions, the Darce from leg drag creates a three-way dilemma: turning away gives up the back, staying flat allows mount or side control consolidation, and turning in opens the Darce. Advanced practitioners use this submission as part of an integrated passing-to-submission chain where the guard pass and the choke become a single continuous sequence rather than separate events.",
   "safety_considerations": {
@@ -75,22 +78,34 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Leg Drag Control/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],

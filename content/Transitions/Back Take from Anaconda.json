@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Anaconda Control/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Back Take from Anaconda Control represents a critical decision point in front headlock grappling where the attacker recognizes that pursuing the anaconda choke finish is suboptimal and instead capitalizes on the opponent's defensive positioning to secure the most dominant position in Brazilian Jiu-Jitsu. This transition occurs when the defender's reactions to anaconda pressure—typically turning away, turtling tighter, or attempting to create distance—inadvertently expose their back to the attacker. Rather than forcing a choke against increasingly effective defense, the attacker reads the opponent's body language and converts positional pressure into back control.\n\nThe strategic value of this transition embodies the fundamental BJJ principle of position before submission. Securing back control with hooks and harness creates a platform for multiple high-percentage attacks including rear naked choke, bow and arrow, and armbar variations, all from the highest-scoring position in competition. The attacker who develops this read transforms their anaconda game from a single-threat system into a branching offensive tree where defending the choke creates vulnerability to the back take, and defending the back take reopens the choke.\n\nThe transition demands precise timing during the grip exchange window—the brief moment where the attacker releases the anaconda configuration and must immediately establish seatbelt control before the defender can turn to face them. This window typically lasts less than two seconds, and mastery of this timing separates practitioners who systematically advance from front headlock positions from those who become stuck chasing a single submission against competent defenders.",
   "conditions": [
     "Anaconda grip secured with chest pressure established on opponent's trapped shoulder",

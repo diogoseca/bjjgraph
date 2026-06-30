@@ -15,7 +15,10 @@
   "target_area": "Carotid arteries and trachea",
   "starting_position": "Back Control",
   "from_position": "Back Control/Top",
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Triangle Choke from Back Control represents an advanced finishing option that combines the control dominance of back position with the mechanical efficiency of the triangle. This submission emerges when the opponent begins defending the rear naked choke by protecting their neck, creating an opportunity to transition to a different strangling mechanism. Unlike the traditional front triangle from guard, the rear triangle utilizes the already-established back control framework, making it particularly effective when opponents successfully defend traditional back attacks.\n\nThis technique exemplifies the principle of submission chains and dilemma creation - as the opponent defends one attack, they inadvertently expose themselves to another. The rear triangle can be finished from various back control configurations including standard seat belt control, body triangle position, and even during transitions when losing back control. The choke functions through bilateral compression of the carotid arteries while simultaneously controlling the opponent's posture and preventing escape.\n\nThe Triangle Choke from Back Control requires precise leg positioning, hip mobility, and understanding of angle creation. Success depends on maintaining back control throughout the transition, controlling one of the opponent's arms inside the triangle, and applying proper finishing mechanics. This submission is particularly valuable in competition and no-gi scenarios where rear naked choke defenses are well-developed, providing an alternative finishing path that catches opponents by surprise.",
   "safety_considerations": {
     "injury_risks": [
@@ -69,17 +72,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Back Control/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],

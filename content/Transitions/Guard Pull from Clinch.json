@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Closed Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Clinch/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "A cornerstone of modern sport Brazilian Jiu-Jitsu strategy, the guard pull from clinch allows practitioners to bypass wrestling exchanges and immediately engage in their strongest ground-based game. Rather than contesting takedowns against a credentialed wrestler, the practitioner converts the neutral clinch into an offensive bottom position with immediate sweep and submission threats, trading the standing exchange for the guard player's preferred range.\n\nThe mechanics require precise coordination between grip establishment, weight distribution, and hip placement. The practitioner must maintain dominant grips throughout the transition to prevent the opponent from capitalizing on the moment of vulnerability as they move from standing to seated. Timing is critical — pulling guard against a forward-driving opponent uses their momentum to assist the transition, while pulling against a retreating opponent risks sitting to open guard without meaningful control.\n\nStrategic context plays a significant role in the decision to pull guard. Practitioners with superior guard games frequently prefer this pathway over extended wrestling exchanges, particularly when facing opponents with strong takedown credentials. The guard pull creates a tactical shortcut to a preferred engagement range, but carries inherent risk if executed without proper grip security or against an opponent prepared to initiate immediate guard passing sequences upon landing.",
   "conditions": [
     "Clinch engagement established with face-to-face upper body contact and at least one strong grip connection",

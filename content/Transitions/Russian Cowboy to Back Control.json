@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Russian Cowboy/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Russian Cowboy to Back Control transition converts the asymmetric single-hook back control into fully established back control with both hooks engaged. This positional upgrade is among the most valuable progressions available from Russian Cowboy, as full back control provides four competition points, superior submission access through rear naked choke and bow and arrow attacks, and dramatically improved positional retention compared to the single-hook variant.\n\nThe core challenge centers on threading the free leg across the opponent's body to insert the second hook while maintaining seatbelt grip and chest-to-back connection. The opponent will actively resist by controlling the free leg, attempting to turn in, or exploiting the brief instability during hook insertion. Timing the attempt when the opponent is distracted by a submission threat or recovering from a failed escape creates the optimal window for insertion.\n\nStrategically, this transition requires balancing the risk of destabilizing current control against the reward of achieving the most dominant position in the sport. Patient practitioners who build their attacks around creating insertion windows consistently achieve higher success rates than those who force the second hook against active resistance. The key is recognizing that Russian Cowboy already provides significant control, so there is no urgency to rush the upgrade at the cost of losing the position entirely.",
   "conditions": [
     "Stable Russian Cowboy position established with deep single hook inside opponent's near thigh",

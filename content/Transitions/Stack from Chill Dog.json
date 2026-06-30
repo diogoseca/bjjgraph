@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Top",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Chill Dog/Top",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "summary": "Stack from Chill Dog is a pressure-based turtle attack where the top player drives the bottom player's hips forward over their shoulders, collapsing the compact Chill Dog defensive frame to advance into half guard top.",
   "overview": "The Stack from Chill Dog is a pressure-based positional advancement technique used by the top player against an opponent who has adopted the compact Chill Dog turtle defense. Rather than attempting to insert hooks or fight for back control grips against the tightly closed defensive frame, the top player uses their body weight and sustained forward driving pressure to stack the bottom player's hips over their shoulders, collapsing the turtle structure entirely. This technique targets the fundamental vulnerability in all turtle variants: while the compact frame excels at preventing hook insertion and grip establishment, it is inherently susceptible to sustained forward pressure that loads the defender's weight onto their neck and shoulders.\n\nThe mechanics of the stack revolve around driving through the opponent's center of gravity. By establishing chest-to-back contact and walking the hips forward while driving downward, the top player progressively shifts the bottom player's weight distribution from their hands and knees onto their shoulders. As the weight transfers forward past the tipping point, the elbow-to-knee connection that forms the foundation of Chill Dog defense breaks under the structural load, and the turtle collapses into a flat or side-lying position where half guard top can be established.\n\nStrategically, the stack is most effective as part of a broader dilemma-based turtle attack system. Threatening the stack forces the bottom player to widen their base or post their hands forward to resist, which in turn opens opportunities for hook insertion, front headlock attacks, or crucifix entries. Even when the stack itself does not succeed, the defensive reactions it provokes create openings for higher-percentage attacks. This makes the stack a valuable chain-starting technique that pressures the opponent into increasingly compromised defensive responses.",
   "conditions": [

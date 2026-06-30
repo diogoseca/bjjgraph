@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Guillotine Control/Top",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Front Headlock/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Front Headlock/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "overview": "The Guillotine Setup represents one of the most fundamental and highest-percentage submission entries in Brazilian Jiu-Jitsu, serving as a critical bridge between controlling the opponent's head and securing a fight-finishing choke. This transition capitalizes on the dominant front headlock position, where the practitioner has already secured head control and posture dominance, and systematically converts this control into a guillotine choke configuration. The setup is characterized by precise arm placement around the opponent's neck, proper hand positioning for maximum leverage, and strategic body alignment that maximizes choking pressure while minimizing escape opportunities.\n\nWhat makes this setup particularly valuable is its versatility across multiple contexts—it can be executed from standing exchanges, scrambles, failed takedown attempts, or ground transitions, making it an essential tool for practitioners at all levels. The guillotine setup embodies the principle of capitalizing on opponent mistakes, as it most commonly presents itself when an opponent shoots for a takedown, turtles defensively, or attempts to pass guard with poor posture. Understanding the nuances of grip configuration, head positioning, and hip placement during the setup phase dramatically increases the success rate of the subsequent choke, as a properly established guillotine is extraordinarily difficult to defend once locked in place.",
   "related_content": [
     {

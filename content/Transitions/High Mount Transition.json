@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "High Mount/Top",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "Gogoplata Control/Bottom",
-      "probability": 27,
+      "probability": {
+        "gi": 27,
+        "nogi": 27
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The High Mount Transition from Gogoplata Control represents a strategic positional advancement that capitalizes on defensive reactions to the gogoplata submission threat. When an opponent defends the gogoplata by rolling forward, tucking their chin, or attempting to posture out of the submission, the bottom player can release the shin-across-throat configuration and follow the opponent's momentum to establish high mount. This transition exemplifies the principle that submission control positions should offer alternative advancement pathways when the primary attack is defended.\n\nThe mechanics rely on recognizing the specific defensive reactions that create mount opportunities. An opponent who drives forward to escape shin pressure actually assists the transition by providing upward momentum. The bottom player releases the foot-behind-head grip, plants the posting leg, and hip escapes laterally while maintaining upper body control. The previously attacking leg swings over to establish the mount position, with the natural momentum carrying the practitioner into a high mount configuration where the knees are in the opponent's armpits.\n\nStrategically, this transition serves multiple purposes in a systematic game plan. First, it provides an escape route when the gogoplata is defended without conceding position. Second, it creates a genuine dilemma for the defender who must choose between accepting submission pressure or giving up the mount. Third, it demonstrates how guard attacks and positional advancement can be seamlessly integrated rather than treated as separate objectives. The high mount achieved provides immediate access to mounted triangle and S-mount attacks, making this transition a gateway to multiple finishing sequences.",
   "conditions": [
     "Gogoplata control established with shin across opponent's throat and foot behind head",

@@ -29,21 +29,33 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "The Triangle from Open Guard is one of the highest-percentage submissions available from the bottom position, utilizing the legs to create a figure-four configuration around the opponent's neck and one trapped arm. This choke attacks the carotid arteries through bilateral compression, combining the squeeze of the legs with downward pressure on the opponent's head to restrict blood flow to the brain. The open guard starting position provides superior hip mobility compared to closed guard, enabling faster angle creation and more diverse entry paths.\n\nSetting up the triangle from open guard requires creating a perpendicular angle, isolating one arm across your centerline, and shooting your leg over the opponent's shoulder while maintaining control of their posture. The open guard offers unique advantages for triangle entries: dynamic leg positioning enables varied attack paths including spider guard sleeve control, collar-sleeve configurations, lasso guard transitions, and even failed sweep attempts that create arm isolation opportunities. The guard player must read the opponent's posture and grip placement to identify the optimal moment for the triangle shot.\n\nThe critical finishing mechanics rely on three elements working in concert: perpendicular angle cutting to properly align the choking leg across the neck, squeezing the knees together to compress the carotid arteries, and pulling the opponent's head down to eliminate remaining space. Without all three elements, the triangle becomes a holding position rather than a finishing submission. At advanced levels, the triangle serves as a positional hub connecting to armbar, omoplata, and gogoplata transitions when the initial choke is defended, creating a submission chain that punishes every defensive response.",
   "safety_considerations": {
     "injury_risks": [

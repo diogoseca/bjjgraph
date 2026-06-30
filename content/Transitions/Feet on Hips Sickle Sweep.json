@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Feet on Hips Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Built directly from the feet on hips guard, the sickle sweep capitalizes on the position's distance management structure to generate powerful lateral off-balancing force. The technique works by maintaining one foot on the opponent's hip as a pushing frame while the other leg drops behind the opponent's far ankle in a sickle-like hooking motion. When combined with coordinated upper body pulls through collar and sleeve grips, this creates an irresistible rotational force that topples the opponent laterally over the hooking leg, landing the sweeper in side control top.\n\nThe sweep's effectiveness stems from its ability to exploit the natural instability created when a standing or kneeling opponent's base is attacked from multiple vectors simultaneously. The pushing foot drives the opponent's center of mass backward and laterally, the hooking leg removes their posting ability on the far side, and the grip pulls complete the off-balancing by directing their upper body in the direction of the sweep. This three-point force application makes the sickle sweep one of the highest-percentage sweeps available from open guard positions.\n\nStrategically, the sickle sweep pairs naturally with the tripod sweep to form one of BJJ's most effective sweep combinations. When the opponent defends the tripod by stepping the targeted foot back, they become vulnerable to the sickle sweep on the opposite side, and vice versa. This creates a sweep dilemma that significantly increases the success rate of both techniques when used in combination, embodying the principle that techniques become exponentially more dangerous when they force the opponent to choose between two equally threatening options.",
   "conditions": [
     "Opponent standing or in elevated combat base with hips higher than yours",

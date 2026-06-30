@@ -15,26 +15,41 @@
   "outcomes": [
     {
       "to": "Open Guard/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "success"
     },
     {
       "to": "Ushiro Ashi-Garami/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Saddle/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "Within modern leg-lock defense, this transition is the highest-value exit from a reversed entanglement, converting a compromised inversion into a position from which you can immediately threaten back rather than conceding turtle or top position. It addresses the most common scenario in leg lock defense where you have partially escaped through inversion but remain entangled in the reversed leg configuration. The extraction requires systematic clearing of your opponent's controlling legs while maintaining heel protection throughout the movement sequence.\n\nThe strategic importance of this transition lies in recovering a neutral or advantageous position from a compromised defensive situation. Unlike accepting turtle position, which concedes top position, successful leg extraction to guard allows you to immediately threaten sweeps, submissions, and guard retention. This makes it the preferred escape route when the opponent's control is shallow enough to permit full extraction without significant submission risk.\n\nTiming is paramount for this technique. The optimal window occurs when your opponent is adjusting grips or transitioning between submission attempts, creating momentary lapses in leg control. Executing during these windows dramatically increases success rates across all skill levels. Conversely, attempting extraction against deep, consolidated control typically results in either failed escape or submission finish during the extraction attempt.",
   "related_content": [
     {

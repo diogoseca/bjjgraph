@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Lasso Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Double Sleeve Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Double Sleeve to Lasso transition is one of the most fundamental guard evolution pathways in gi Brazilian Jiu-Jitsu. From an established Double Sleeve Guard, the bottom player threads one shin across the opponent's trapped arm to create the signature lasso control. This transition upgrades balanced bilateral sleeve control into asymmetric positional dominance, trading the distributed nature of double sleeve grips for the powerful lever system that defines Lasso Guard. The mechanical advantage gained through the lasso creates a fulcrum against the opponent's shoulder that dramatically restricts their mobility on one side, opening superior sweep angles and submission entries that were unavailable from the starting position.\n\nThe strategic value of this transition becomes apparent when the opponent begins systematically addressing double sleeve grips. Rather than engaging in a grip-fighting war of attrition, threading the lasso during the opponent's grip-breaking attempts converts their offensive action into an opportunity. The ideal entry window occurs when the opponent shifts weight or commits one arm to a grip break, creating momentary space for the shin to thread through. This timing-dependent nature means the transition rewards practitioners who develop sensitivity to their opponent's weight distribution and grip-fighting patterns rather than those who attempt to force the entry against a settled, well-postured opponent.\n\nFrom a systems perspective, the Double Sleeve to Lasso transition serves as a critical link between two major guard families. Double Sleeve Guard functions as a gateway position with connections to Spider Guard, Collar Sleeve Guard, and various sweep systems. By transitioning to Lasso Guard, the bottom player accesses a different attack ecosystem featuring sickle sweeps, omoplata entries, and triangle setups that chain together more effectively than the options available from pure double sleeve control. This transition also serves as a defensive upgrade when the opponent threatens to pass the double sleeve guard, as the lasso provides stronger unilateral control even if one grip is compromised.",
   "conditions": [
     "Both sleeve grips secured at cuff level with firm pistol grips before initiating the thread",

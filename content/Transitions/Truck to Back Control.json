@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Truck/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Truck to Back Control transition represents one of the most strategically important positional upgrades available from the truck position, converting a specialized perpendicular leg entanglement into the highest-scoring and most submission-rich position in Brazilian Jiu-Jitsu. Rather than committing to truck-specific submissions like the twister or calf slicer, the attacker systematically trades the boot-and-entanglement configuration for traditional back control with hooks and seatbelt, gaining 4 competition points and access to the complete back attack arsenal including rear naked choke, bow and arrow, and armbar transitions.\n\nThe transition is fundamentally about managing a controlled exchange: releasing boot pressure and leg entanglement while simultaneously threading hooks inside the opponent's thighs and shifting from perpendicular to parallel alignment behind the opponent's back. The critical vulnerability window occurs during the leg switch, when the attacker has released truck entanglement but has not yet secured both hooks. Successful execution demands maintaining constant upper body pressure and chest-to-back connection throughout the transition to prevent the opponent from exploiting this brief control gap with frames, hip escapes, or granby rolls.\n\nThis transition functions as a strategic safety valve within the truck attack system. When truck submissions are well-defended, the position begins to destabilize, or the opponent's leg defense eliminates calf slicer and banana split threats, transitioning to back control preserves positional dominance and opens entirely new submission pathways. Advanced practitioners chain truck submission attempts with back control transitions, using the threat of one to facilitate the other and creating layered dilemmas that opponents cannot simultaneously address. The ability to fluidly alternate between truck attacks and back control conversion defines high-level truck position play.",
   "conditions": [
     "Established truck position with boot control firmly against opponent's hip creating foundational torque",

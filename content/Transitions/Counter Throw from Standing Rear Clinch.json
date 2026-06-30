@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "success"
     },
     {
       "to": "Standing Rear Clinch/Bottom",
-      "probability": 38,
+      "probability": {
+        "gi": 38,
+        "nogi": 38
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 27,
+      "probability": {
+        "gi": 27,
+        "nogi": 27
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 35,
+  "success_rate": {
+    "gi": 35,
+    "nogi": 35
+  },
   "summary": "The Counter Throw from Standing Rear Clinch is a high-risk reversal in which the bottom player redirects the controlling opponent's forward pressure and locked grip into a throwing arc, dumping them onto their back to ideally land in mount.",
   "overview": "The counter throw from standing rear clinch is a high-risk, high-reward reversal technique executed by the controlled practitioner when an opponent has established chest-to-back control from standing. Rather than attempting to strip grips or create separation incrementally, the bottom player redirects the opponent's forward pressure and committed grip structure into a throwing arc that lands the opponent on their back, ideally transitioning directly into mount. This technique exploits the fundamental vulnerability of rear clinch control: the controlling player's weight is loaded forward onto the controlled player's back, making them susceptible to being pulled over center of gravity if the bottom player drops their level and rotates explosively.\n\nStrategically, the counter throw occupies a critical niche in the standing rear clinch escape hierarchy. When conventional defenses such as hand fighting, hip switches, or incremental grip stripping are being shut down by a skilled opponent who maintains relentless forward pressure and grip transitions, the counter throw offers a decisive positional reversal rather than a return to neutral. The technique requires precise timing, committed hip loading, and an understanding of when the opponent's weight distribution creates the mechanical window for execution. Mistiming or half-committing to the throw is severely punished, as the failed attempt often accelerates the opponent's transition to ground-based back control.\n\nThe counter throw family from rear clinch draws heavily from judo and wrestling methodology adapted for grappling contexts. The lateral drop variant uses the opponent's body lock as a lever, the modified hip throw (o-goshi adaptation) requires turning into the opponent's pressure, and sacrifice throw variations trade positional risk for explosive finishing power. Each variant addresses a different grip configuration and weight distribution pattern from the controlling player, making the practitioner's ability to read these variables the primary determinant of success.",
   "conditions": [

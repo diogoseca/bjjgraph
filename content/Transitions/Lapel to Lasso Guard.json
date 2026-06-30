@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Lasso Guard/Bottom",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Lapel Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Lapel to Lasso Transition represents a critical guard retention pathway that converts the mechanically complex lapel guard into the proven control system of lasso guard. This transition becomes essential when opponents successfully strip your primary lapel configuration or when the lapel grip begins failing under sustained passing pressure. Rather than losing guard position entirely, skilled practitioners flow seamlessly into lasso control, maintaining offensive threats while denying the pass.\n\nStrategically, this transition exploits the opponent's moment of success—when they've invested energy clearing your lapel, their posture and grip fighting typically creates openings for lasso entry. The sleeve grip you maintained during lapel guard often transfers directly into lasso control, while your leg threading across their arm replaces the lapel barrier with an equally effective mechanical obstruction. This continuity of control frustrates passers who believed they'd solved the guard puzzle.\n\nThe transition also serves as intelligent position management within gi-based guard systems. Both lapel guard and lasso guard share sleeve control as a foundation, making the transition mechanically intuitive once drilled. Advanced practitioners treat these positions as interconnected systems rather than isolated guards, flowing between them based on opponent reactions. Mastering this transition transforms potential guard recovery situations into offensive opportunities, maintaining constant pressure even when your primary guard is threatened.",
   "conditions": [
     "Active sleeve grip on opponent's arm exists from lapel guard configuration",

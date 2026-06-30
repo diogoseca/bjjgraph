@@ -24,26 +24,41 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Guillotine Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Clinch/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "summary": "The Guillotine Choke from Clinch is a standing front-headlock blood choke applied when an opponent's head drops during clinch exchanges, wrapping the forearm under the chin to compress the carotid arteries while chest pressure folds their posture downward.",
   "overview": "The standing guillotine from clinch is one of the most effective standing submissions in Brazilian Jiu-Jitsu, capitalizing on moments when an opponent ducks their head during clinch exchanges, shoots for takedowns, or allows their posture to break in the standing engagement. Unlike ground-based guillotines where gravity and guard control assist the finish, the standing guillotine relies on precise hip mechanics, proper wrist alignment under the chin, and the attacker's ability to create a powerful upward shearing force through the arm while driving the opponent's head downward with chest pressure.\n\nThe strategic value of this submission lies in its accessibility from common standing scenarios. Any time an opponent lowers their head in the clinch—whether to set up a takedown, fight for underhooks, or simply from poor posture—the guillotine becomes available. This constant threat forces opponents to maintain strict postural discipline during all standing exchanges. The submission attacks both the carotid arteries as a blood choke and the trachea depending on grip placement, with the arm-in variation adding a compression element that accelerates the finish.\n\nIn competition, the standing guillotine creates a compelling strategic dilemma. The defender must address the choke immediately, which disrupts their own offensive game plan. If the attacker cannot finish standing, they retain the option to pull guard into guillotine control for a ground-based finish, making the initial standing attempt relatively low-risk. This favorable risk-reward profile makes the standing guillotine from clinch a cornerstone technique in any serious competitor's arsenal, bridging the gap between standing control and submission finishing.",
   "safety_considerations": {

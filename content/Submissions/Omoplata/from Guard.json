@@ -16,7 +16,10 @@
   "target_area": "Shoulder joint and rotator cuff",
   "starting_position": "Closed Guard",
   "from_position": "Overhook Guard/Bottom",
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "overview": "Although it lives in the submission category, the Omoplata from Guard earns its place in a serious guard game as a positional hub rather than a pure finishing hold. By threading a leg over the opponent's shoulder and trapping the arm against your hip, you force a dilemma: defend the shoulder lock and concede a sweep, or roll and surrender the back. The finish itself comes from rotating the shoulder past its range through forward hip extension while the leg triangle and hip-to-back connection deny every escape lane.\n\nWhat makes the Omoplata so valuable for the developing player is its connectivity. A well-defended Triangle flows into it, a posture-up defense opens the armbar, a forward roll becomes a sweep to mount, and a turn-away becomes a back take. This web of follow-ups means the position keeps paying dividends even when the tap never comes, which is why it remains a staple from blue belt through the black-belt competition scene. Mastery rewards hip mobility, precise angle creation, and the discipline to maintain offensive pressure from underneath rather than chasing a single outcome.",
   "safety_considerations": {
     "injury_risks": [
@@ -66,17 +69,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],

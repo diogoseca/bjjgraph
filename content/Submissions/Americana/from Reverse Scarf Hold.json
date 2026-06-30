@@ -17,7 +17,10 @@
   "target_area": "Shoulder joint (specifically glenohumeral joint and rotator cuff)",
   "starting_position": "Reverse Scarf Hold",
   "from_position": "Reverse Scarf Hold/Top",
-  "success_rate": 68,
+  "success_rate": {
+    "gi": 68,
+    "nogi": 68
+  },
   "overview": "The Americana from Reverse Scarf Hold exploits the unique arm isolation opportunities created by the Ushiro Kesa Gatame position. Unlike the Americana applied from mount or side control, the reverse orientation places the attacker's body weight directly over the opponent's trapped arm, creating natural downward pressure that assists the figure-four rotation. The position's chest compression restricts the defender's breathing and limits explosive escape attempts, making the setup more methodical and controlled than from other positions.\n\nThe key mechanical advantage lies in the reverse body angle. With the attacker facing toward the opponent's legs, the figure-four grip alignment naturally drives the wrist toward the mat while the elbow serves as the fulcrum for shoulder rotation. This angle makes the submission feel tighter with less effort compared to standard Americana applications. The defender's limited hip mobility under reverse scarf hold pressure reduces their ability to create the space needed for effective bridge-and-roll escapes, increasing the finishing percentage significantly.\n\nStrategically, the Americana from Reverse Scarf Hold functions as both a primary attack and a positional tool. Even unsuccessful attempts force the defender to expose defensive frames that can be exploited for transitions to mount, north-south, or back control. Advanced practitioners chain the Americana threat with kimura attacks on the same arm, creating a submission dilemma that compounds the positional advantage of the reverse scarf hold.",
   "safety_considerations": {
     "injury_risks": [
@@ -108,17 +111,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 68,
+      "probability": {
+        "gi": 68,
+        "nogi": 68
+      },
       "result": "success"
     },
     {
       "to": "Reverse Scarf Hold/Top",
-      "probability": 21,
+      "probability": {
+        "gi": 21,
+        "nogi": 21
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 11,
+      "probability": {
+        "gi": 11,
+        "nogi": 11
+      },
       "result": "counter"
     }
   ],

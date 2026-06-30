@@ -23,7 +23,10 @@
   "target_area": "Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule)",
   "starting_position": "Ashi Garami",
   "from_position": "Kneebar Control/Top",
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "variant_uniqueness": "Hip-driven hyperextension attack on knee joint from leg entanglements",
   "overview": "As one of the most accessible entries into modern leg lock systems, the Kneebar serves as both a high-percentage finish and a gateway to more complex leg entanglements. The submission works by controlling the opponent's leg while using hip drive and posterior chain engagement to create dangerous extension of the knee joint, and unlike heel hooks which attack rotational structures, it generates linear force that is somewhat more predictable but no less dangerous when applied carelessly.\n\nThe technique has evolved significantly with modern leg lock systems, particularly through systematic approaches that have refined entries, controls, and finishing mechanics. Understanding proper kneebar application requires not just technical knowledge of the finish, but comprehensive awareness of the control positions that precede it, the defensive reactions opponents employ, and the biomechanical principles that make the submission effective. The kneebar exists within a broader ecosystem of leg attacks, often serving as a transitional threat that opens opportunities for other submissions or positional advances. When an opponent hides their heel to defend heel hook attempts, the kneebar becomes the natural alternative, creating the kind of dilemma-based offense that defines elite leg lock systems.",
   "safety_considerations": {

@@ -16,26 +16,41 @@
   "outcomes": [
     {
       "to": "Half Guard/Top",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Turtle/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "success"
     },
     {
       "to": "Armbar Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Triangle Control/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "overview": "Living at the emergency tier of armbar defense, the Hitchhiker Escape is a last-resort answer deployed only after positional escapes have failed and the elbow is dangerously near full extension. This escape requires exceptional flexibility, precise timing, and deep understanding of leverage principles. The technique involves rotating the thumb outward (the 'hitchhiker' motion) while simultaneously turning into the opponent and creating space to recover guard. While primarily associated with high-level competition and no-gi grappling, the Hitchhiker Escape exploits opponents who rely purely on extension without proper shoulder control, attacking the natural weakness in the grip when the thumb is pointed away from the body. Success requires reading the opponent's finishing mechanics and executing the rotation at the precise moment before full extension is achieved.",
   "related_content": [
     {

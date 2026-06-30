@@ -20,21 +20,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Standing Position/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Standing Position/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Within a BJJ game built around top position, Ippon Seoi Nage is one of the few throws that converts a neutral standing exchange into an immediate dominant pin, which is why it has migrated from judo into modern competition and self-defense alike. The technique involves entering beneath your opponent's center of gravity, loading them onto your back and shoulders, then executing a powerful forward rotation to throw them to the mat. Unlike many BJJ-specific takedowns, it requires significant technical precision in grip fighting, footwork, and kuzushi (off-balancing) to execute successfully against resisting opponents.\n\nIn the BJJ context, Ippon Seoi Nage offers several strategic advantages: it generates immediate top position with forward momentum, often landing you in side control or knee-on-belly; it works effectively in both gi and no-gi situations with appropriate grip adaptations; and it creates psychological pressure on opponents who must respect your throwing threat. The technique is particularly effective against opponents who maintain upright posture and resist guard pulls, making it a valuable addition to any standing game.\n\nThe modern application of Ippon Seoi Nage in BJJ emphasizes grip control, timing against forward pressure, and smooth transitions to ground control positions. Successful execution requires coordinating multiple elements: breaking your opponent's balance forward and to the side, achieving deep penetration with your hips below theirs, maintaining continuous pulling action throughout the throw, and controlling the landing to secure top position immediately.",
   "conditions": [
     "Both practitioners standing with active grips engaged",

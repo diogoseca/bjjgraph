@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Body Lock/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "The Reversal from Body Lock is a critical defensive transition that converts one of grappling's most disadvantageous standing positions into a recoverable ground guard. When an opponent establishes a locked body lock from behind, the bottom player faces immediate threats of mat returns to back control, suplex-style throws, and trips that all lead to dominant ground positions. Rather than passively absorbing these attacks, the reversal employs systematic grip breaking, hip repositioning, and controlled descent to recover half guard where the bottom player regains offensive options.\n\nThe technique operates on the principle that a controlled transition to half guard bottom, while not ideal in isolation, represents a massive positional improvement compared to remaining in body lock bottom where all outcomes trend toward opponent dominance. By timing the grip break with hip rotation and knee insertion, the practitioner converts standing vulnerability into ground-based offense. The half guard recovery provides immediate access to underhook battles, sweep attempts, and submission entries that shift the match dynamic entirely.\n\nModern no-gi competition has made this reversal essential as body lock control has become a primary offensive weapon at the highest levels. Competitors who cannot escape the body lock consistently find themselves taken down into back control or side control, making grip breaking mechanics and guard recovery timing non-negotiable skills for competitive success.",
   "conditions": [
     "Opponent has established body lock with hands locked behind your back or at your centerline",

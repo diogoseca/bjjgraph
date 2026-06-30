@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Headquarters Position/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Reverse De La Riva Guard/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The RDLR Backstep Counter is a fundamental guard passing technique that specifically addresses the Reverse De La Riva hook—one of the most challenging guard retention tools in modern BJJ. When an opponent establishes RDLR, their inverted hook creates rotational off-balancing that makes direct forward passing dangerous, as driving into the guard feeds waiter sweeps and kiss of the dragon back-take entries. The backstep solves this problem by moving the hooked leg backward and around the entanglement, removing the hook's mechanical advantage without exposing the passer to common counter-attacks.\n\nThe technique operates on the principle that lateral and backward movement neutralizes the RDLR hook more effectively than direct confrontation. By stepping the trapped leg backward while maintaining upper body control through cross-face or collar grips, the top player removes the bottom player's primary control mechanism and transitions into Headquarters Position—a versatile passing hub from which knee cuts, leg drags, and other passing sequences become immediately available. Timing and coordination between the backstep motion and grip management determine success, as premature backsteps without grip breaks allow the bottom player to follow with inversions or transition to X-Guard and Single Leg X.\n\nStrategically, the RDLR Backstep Counter serves as a cornerstone of systematic RDLR passing methodology. It complements direct passing approaches like leg drags and smash passes by providing an alternative pathway when the bottom player's hook is too deep for direct neutralization. The technique's effectiveness increases when combined with upper body pressure that limits the bottom player's rotation capacity, creating a unified passing system that addresses RDLR from multiple angles while maintaining safe base positioning throughout.",
   "conditions": [
     "Opponent has established Reverse De La Riva hook with instep behind your near-side knee",

@@ -1128,14 +1128,26 @@ def validate_json_file(json_path, schema, category, strict=False):
         outcomes = data.get('outcomes')
         if outcomes and isinstance(outcomes, list):
             # Reuse the same validation logic as transitions
-            # Validate probability sum
-            total_probability = sum(
-                o.get('probability', 0) for o in outcomes if isinstance(o, dict)
-            )
-            if total_probability != 100:
-                err = f"{json_path.name}:outcomes: probability sum is {total_probability}, should be 100"
-                errors.append(err)
-                categories["blocking"].append(err)
+            # Validate probability sum (per-ruleset when forked; legacy single-sum otherwise)
+            dict_outcomes = [o for o in outcomes if isinstance(o, dict)]
+            prob_values = [o['probability'] for o in dict_outcomes if 'probability' in o]
+            if any_ruleset_map(prob_values):
+                for rs in present_rulesets(prob_values):
+                    total = sum_cells(dict_outcomes, 'probability', rs)
+                    if total != 100:
+                        err = f"{json_path.name}:outcomes: probability[{rs}] sum is {total:g}, should be 100"
+                        errors.append(err)
+                        categories["blocking"].append(err)
+            else:
+                if STRICT_RULESET:
+                    err = f"{json_path.name}:outcomes: probability is a bare scalar; expected {{gi,nogi}} maps (--strict-ruleset)"
+                    errors.append(err)
+                    categories["blocking"].append(err)
+                total_probability = sum(o.get('probability', 0) for o in dict_outcomes)
+                if total_probability != 100:
+                    err = f"{json_path.name}:outcomes: probability sum is {total_probability}, should be 100"
+                    errors.append(err)
+                    categories["blocking"].append(err)
 
             # Validate each outcome
             valid_results = {'success', 'failure', 'counter'}

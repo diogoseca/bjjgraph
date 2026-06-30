@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Shoulder of Justice/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "The Escape from Shoulder of Justice is a specialized defensive technique designed to address one of the most physically punishing pin variations in Brazilian Jiu-Jitsu. The Shoulder of Justice concentrates enormous pressure through the opponent's shoulder blade into your jaw and temporomandibular joint, creating intense discomfort that provokes reactive movements. This escape specifically targets the mechanical vulnerabilities inherent in the position by using precise forearm framing, well-timed hip escapes, and systematic guard recovery rather than desperate reactive movements that play directly into the top player's submission dilemma system.\n\nThe fundamental challenge of escaping the Shoulder of Justice lies in its built-in trap structure: extending your near arm invites kimura attacks, turning toward the pressure opens north-south transitions, shrimping away allows mount advancement, and bringing your far arm across creates arm triangle opportunities. This escape addresses these traps through a specific sequence that uses forearm micro-frames to redirect the shoulder pressure vector without extending vulnerable limbs, times the hip escape to coincide with the opponent's weight shifts rather than during maximum pressure application, and recovers to half guard through methodical knee insertion rather than explosive movements that burn energy and create defensive openings.\n\nSuccess with this technique requires patience, composure under extreme physical duress, and precise recognition of the opponent's weight distribution patterns. The escape rewards practitioners who maintain calm nasal breathing despite jaw pressure, identify momentary weight shifts as escape windows, and execute a sequential process of pressure relief, space creation, knee shield insertion, and half guard consolidation. When integrated with other defensive options from the Shoulder of Justice bottom position, this escape creates an unpredictable defensive system that forces the top player to commit energy to maintaining position rather than freely advancing attacks.",
   "variants_and_adaptations": [
     {

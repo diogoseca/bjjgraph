@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Kimura Trap/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Shoulder of Justice/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Shoulder of Justice Kimura Setup is a high-percentage transition that exploits the natural defensive reactions provoked by relentless jaw pressure. When the top player drives their shoulder blade deep into the opponent's temporomandibular joint, the bottom player faces a critical dilemma: endure the crushing discomfort or extend their near arm to relieve the pressure. This extension is the exact trigger the top player waits for, as it exposes the arm for a figure-four Kimura grip that transitions into the devastating Kimura Trap control position.\n\nThe brilliance of this setup lies in its inevitability within the pressure system. Unlike opportunistic Kimura entries that depend on opponent mistakes, this transition systematically manufactures the arm exposure through escalating shoulder pressure. The bottom player's defensive options are severely constrained—pushing with the near arm invites the Kimura, turning away opens north-south transitions, and bringing the far arm across creates arm triangle opportunities. By focusing specifically on the Kimura pathway, the top player can bait, recognize, and capture the extending arm with practiced efficiency.\n\nThis transition represents a Type C positional control tool within the BJJ state machine. Rather than finishing the Kimura immediately, the goal is to establish the Kimura Trap control position, which opens an entire subsystem of attacks including the Kimura finish, back takes, positional advancements to mount, and rolling Kimura sequences. The setup rewards patience and pressure maintenance over explosive movement, making it particularly effective for practitioners who favor methodical, grinding top games.",
   "conditions": [
     "Established Shoulder of Justice position with shoulder pressure into opponent's jaw",

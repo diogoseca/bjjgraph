@@ -16,26 +16,41 @@
   "outcomes": [
     {
       "to": "Triangle Control/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Mission Control/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "failure"
     },
     {
       "to": "Headquarters Position/Top",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Triangle from Guard is the primary submission setup from Mission Control within the rubber guard system, converting shoulder isolation and broken posture into a locked triangle position. Unlike a standard closed guard triangle that requires creating an angle and isolating the head and arm from scratch, the Mission Control triangle leverages the pre-existing structural control: the opponent's shoulder is already trapped, their posture is already broken, and their arm is already isolated on the inside of the high guard leg. This makes the triangle entry from Mission Control significantly higher-percentage than traditional guard triangle setups.\n\nThe technique exploits a critical timing window when the opponent attempts to recover posture or extract their trapped arm. As the opponent drives backward or lifts their head, the bottom practitioner uses that upward momentum to swing the outside leg across the opponent's neck, cutting a sharp angle while maintaining head control with the hands. The key mechanical detail is that the opponent's own defensive movement actually assists the leg transition across the face, creating a paradox where defending Mission Control opens the triangle.\n\nStrategically, the Triangle from Guard serves as the cornerstone threat that makes the entire Mission Control system functional. Without a credible triangle threat, the top person can focus entirely on posture recovery without consequence. The threat of the triangle forces the opponent into defensive arm positioning that opens omoplata entries, and attempts to defend the omoplata reopen the triangle. This creates the dilemma-based offense that defines effective rubber guard play. Advanced practitioners chain the triangle threat with New York transitions, omoplata sweeps, and gogoplata entries, using the triangle as the hub of a submission web that forces opponents into increasingly compromised defensive positions.",
   "related_content": [
     {

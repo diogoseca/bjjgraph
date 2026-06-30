@@ -20,7 +20,10 @@
   "target_area": "Knee joint, ankle joint, and surrounding ligaments",
   "starting_position": "Leg Entanglement",
   "from_position": "Leg Entanglement/Top",
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "Applied from general ashi garami configurations, this submission uses lateral rotational force on the heel to attack the knee's ligamentous structures, primarily targeting the lateral collateral ligament, the posterolateral corner, and the anterior cruciate ligament. It stands among the highest-percentage finishing techniques in modern no-gi grappling because it requires precise heel cup positioning and controlled torsional application through hip extension and full-body rotation rather than arm strength alone.\n\nWhat distinguishes this variant from more specialized positions like the saddle or cross ashi is the need to establish proper outside control from a general entanglement before committing to the finish. The attacker must first ensure their body is positioned to apply outward rotation on the heel while maintaining knee line control. This often involves transitioning from a neutral entanglement to a finishing angle where the opponent's toes point away from the attacker, creating the mechanical pathway for the outside rotation.\n\nThis technique carries extreme injury risk because knee ligaments provide minimal pain feedback before structural failure. Unlike elbow joint locks where increasing pain signals danger, heel hooks can cause catastrophic ligament tears with little warning. This makes controlled application speed, early tap recognition, and strict training protocols absolutely non-negotiable for safe practice.",
   "safety_considerations": {
     "injury_risks": [
@@ -131,17 +134,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Leg Entanglement/Top",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],

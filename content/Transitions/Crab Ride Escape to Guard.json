@@ -15,26 +15,41 @@
   "outcomes": [
     {
       "to": "Closed Guard/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "success"
     },
     {
       "to": "Crab Ride/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Within the modern turtle-attack landscape, this escape addresses one of the most common predicaments in grappling: being stuck underneath a crab ride where the opponent systematically works toward back control or submission entries. By prioritizing hook neutralization and controlled hip rotation as the primary escape mechanisms, the bottom player creates a direct pathway from a deteriorating defensive position to an offensive guard rather than gambling on athletic, low-percentage scrambles. The technique converts a position that normally bleeds into the back take into a structured, repeatable guard recovery.\n\nStrategically, this escape occupies a critical junction in the turtle defense decision tree. While athletic escapes like the Granby roll offer explosive options, the guard recovery escape provides a more controlled, methodical approach that works regardless of flexibility or athleticism. The bottom player uses sequential mechanics - first protecting the neck, then addressing the hook, then rotating the hips, and finally establishing guard structure - to systematically dismantle the top player's control. This sequential approach means each phase can be attempted independently, allowing the escape to resume from any point if initial attempts are partially blocked.\n\nThe technique is particularly valuable against opponents who employ patient crab ride control rather than rushing for the back take. When the top player focuses on maintaining hooks and pressure rather than immediately completing the back take, the bottom player has windows to address each control point individually. Understanding when to initiate each phase - particularly recognizing weight shifts and grip changes from the top player - transforms this from a brute-force escape into a technical, high-percentage guard recovery that can be executed even against larger, stronger opponents.",
   "conditions": [
     "Bottom player is in crab ride bottom position with opponent's single hook established under the hip",

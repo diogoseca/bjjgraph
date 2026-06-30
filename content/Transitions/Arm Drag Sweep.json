@@ -15,26 +15,41 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Side Control/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "success"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 65,
+  "success_rate": {
+    "gi": 65,
+    "nogi": 65
+  },
   "summary": "The Arm Drag Sweep is a closed-guard technique where the bottom player drags an opponent's arm across their centerline to break their base, sweeping them over or taking the back when they post to defend.",
   "overview": "The Arm Drag Sweep is a fundamental yet highly effective technique that combines off-balancing principles with opportunistic back-taking opportunities. Unlike traditional sweeps that focus solely on achieving top position, the arm drag creates a dual threat: either sweeping the opponent to a dominant position or transitioning directly to back control. This versatility makes it an essential tool in any guard player's arsenal, particularly from closed guard, butterfly guard, and seated guard positions.\n\nThe technique exploits the opponent's forward pressure and arm positioning by redirecting their momentum while simultaneously removing one of their posts. When executed properly, the arm drag creates a chain reaction: the opponent loses their base, their posture breaks, and their defensive structure collapses. The key differentiator from a pure arm drag to back take is the sweeping motion that uses hip movement and angle creation to destabilize the opponent's entire structure.\n\nWhat makes the arm drag sweep particularly powerful in modern BJJ is its adaptability across gi and no-gi contexts, its effectiveness against both conservative and aggressive opponents, and its natural integration into submission chains. The technique serves as a gateway movement that opens multiple attacking sequences while maintaining offensive pressure throughout the transition.",
   "conditions": [

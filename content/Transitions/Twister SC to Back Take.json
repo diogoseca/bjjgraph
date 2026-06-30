@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Twister Side Control/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Twister Side Control to Back Take is a high-percentage transitional technique within the 10th Planet system that capitalizes on the unique lateral control mechanics of Twister Side Control to establish the most dominant position in grappling. When the bottom player attempts to relieve spinal pressure by turning away or creating frames, the top player follows the rotation and threads hooks behind the opponent's hips, converting lateral torque control into full rear body control with seatbelt grip and dual hooks.\n\nThis transition represents a natural evolution within the truck system's positional hierarchy. Rather than forcing the twister submission against a well-defended spine, the attacker recognizes when back exposure becomes available and pivots strategy from submission pursuit to positional advancement. The existing leg entanglement serves as a platform for hip control during the transition while the attacker systematically establishes chest-to-back connection and seatbelt grip. Advanced practitioners develop sensitivity to the precise moment when the bottom player's defensive turning creates the window for back take entry, making this transition both opportunistic and deliberate in its application.\n\nThe success of this technique depends heavily on timing and the ability to maintain continuous pressure throughout the rotational transition. Premature commitment to the back take before sufficient back exposure results in losing Twister Side Control entirely, while waiting too long allows the defender to establish frames and begin extracting from the leg entanglement. The optimal execution window occurs when the defender has committed to turning away but has not yet established effective defensive frames in the new orientation. This narrow timing window is what separates practitioners who reliably convert Twister Side Control to back control from those who lose positional advantage during the attempt.",
   "conditions": [
     "Top player has established Twister Side Control with functional leg entanglement and active shoulder pressure",

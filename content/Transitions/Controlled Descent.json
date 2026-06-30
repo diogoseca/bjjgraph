@@ -15,26 +15,41 @@
   "outcomes": [
     {
       "to": "Turtle/Bottom",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "success"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "Controlled Descent is a critical defensive technique executed when an opponent has achieved standing back control and you need to transition the fight to the ground on your own terms rather than being thrown or slammed. The technique involves strategically dropping your base while maintaining defensive frames, allowing you to reach turtle or guard positions where you have significantly more defensive options than standing with your back exposed.\n\nThe strategic value of Controlled Descent lies in recognizing that standing back control is often untenable for the defensive player. Rather than exhausting energy fighting a losing battle against a well-established harness grip, the intelligent approach is to bring the fight to a surface where the rules of engagement change. On the ground, you gain the mat as a reference point, can use frames more effectively, and have access to guard recovery sequences unavailable while standing.\n\nThis technique represents a paradigm shift in defensive thinking - accepting a temporary positional disadvantage (grounded back exposure or turtle) in exchange for eliminating the immediate threats of standing submissions and forceful takedowns. The key distinction between Controlled Descent and simply being taken down is agency: you dictate the timing, angle, and manner of the descent, positioning yourself optimally for the next phase of escape rather than being thrown into a compromised position chosen by your opponent.",
   "conditions": [
     "Opponent has established standing back control with harness or seat belt grip and at least partial hook control",

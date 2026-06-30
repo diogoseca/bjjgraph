@@ -18,7 +18,10 @@
   "target_area": "Carotid arteries and jugular veins",
   "starting_position": "Closed Guard",
   "from_position": "Closed Guard/Bottom",
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Among closed guard attacks, the Loop Choke stands out as a high-percentage gi finish that punishes the exact moment the top player commits to opening the guard. This technique exploits a fundamental timing window in the guard-passing dynamic: as the top player postures up to begin opening the guard, they create the space needed for the bottom player to insert a deep cross-collar grip, which becomes the foundation of the choking loop.\n\nThe mechanics rely on a combination of deep collar penetration and rotational turning. After establishing the cross-collar grip with four fingers deep past the trachea, the attacker secures head control, opens the guard, and turns into the opponent. This turning motion wraps the collar around the neck in a loop configuration that compresses both carotid arteries simultaneously. The beauty of this attack lies in its self-tightening nature: the more the opponent resists or tries to posture away, the tighter the loop becomes.\n\nFrom a strategic standpoint, the Loop Choke pairs naturally with other closed guard attacks. When opponents defend sweeps like the hip bump or scissor sweep, they often expose their collar. When they focus on collar defense, they become vulnerable to sweeps and arm attacks. This creates a cascading dilemma system where the loop choke serves as both a primary finishing technique and a catalyst for opening other offensive pathways from closed guard.",
   "safety_considerations": {
     "injury_risks": [
@@ -62,17 +65,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],

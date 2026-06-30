@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Leg Knot/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Saddle/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Limp Leg Extraction to Half Guard represents one of the most reliable escapes from compromised leg entanglement positions, using strategic relaxation rather than explosive strength to free the trapped limb. This technique exploits a fundamental principle of grappling physics: a completely relaxed, limp leg becomes significantly harder to grip and control than one that is tensed and resisting. When executed properly, the extraction creates a momentary window where the opponent's control breaks down, allowing immediate transition to the safety of Half Guard.\n\nThe strategic importance of this escape lies in its energy efficiency and reliability under pressure. Unlike explosive extraction attempts that can worsen entanglements or create submission opportunities for the opponent, the limp leg method works systematically by removing the muscle tension that opponents rely on to maintain their control grips. The technique requires precise timing—initiating the relaxation as the opponent adjusts their grip or weight distribution creates the optimal extraction window.\n\nAdvanced practitioners recognize this escape as part of a larger defensive system within leg entanglement warfare. The transition to Half Guard provides immediate safety from leg lock submissions while establishing a stable platform for guard recovery or offensive sweeps. The position choice is deliberate: Half Guard offers superior hip mobility and framing options compared to other escape destinations, while keeping one leg engaged to prevent immediate passing attempts.",
   "related_content": [
     {

@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Knee Shield Half Guard/Bottom",
-      "probability": 75,
+      "probability": {
+        "gi": 75,
+        "nogi": 75
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 72,
+  "success_rate": {
+    "gi": 72,
+    "nogi": 72
+  },
   "overview": "The Shin Shield Recovery is a fundamental defensive technique used to re-establish guard retention from compromised half guard positions. When an opponent is pressuring to pass your half guard, the shin shield creates a strong frame that prevents forward pressure while creating the space necessary to recover full guard structure. This technique is essential for maintaining defensive integrity when your knee shield has been flattened or your frames have been broken.\n\nThe shin shield works by using your inside leg to create a barrier across the opponent's torso, transforming your leg into a structural frame that manages distance and prevents the opponent from consolidating control. Unlike passive defensive positions, the shin shield is an active recovery position that allows you to control distance, create angles, and launch counter-offensive techniques. The position is particularly effective against pressure passers who rely on chest-to-chest contact and weight distribution.\n\nMastering shin shield recovery is critical for developing a robust half guard game. It serves as the foundation for numerous sweeps, back takes, and submissions while simultaneously providing a reliable defensive structure. The technique requires precise hip positioning, proper angle creation, and understanding of weight distribution to maximize effectiveness against various passing attempts.",
   "related_content": [
     {

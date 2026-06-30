@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Leg Drag Control/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Leg Drag to Mount transition represents one of the most direct pathways from leg drag control to a dominant scoring position. When an opponent stays relatively flat on their back rather than turning away to protect their guard, the mount becomes the highest-percentage consolidation option. This transition capitalizes on the hip control already established in leg drag position, using the crossed leg as a pivot point to swing into full mount.\n\nThe strategic value of this transition lies in its simplicity and directional efficiency. Unlike the back take which requires following the opponent's rotation, the mount transition works when the opponent resists turning—creating a decision tree where any defensive choice opens a high-percentage advancement. The key mechanical principle involves maintaining continuous hip pressure while stepping over the opponent's body, ensuring no space exists for knee shield insertion or hip escape during the transition.\n\nFrom a competitive standpoint, the leg drag to mount sequence scores points immediately upon achieving the mount position (typically 4 points) while simultaneously opening a wide array of submission opportunities. Advanced practitioners use this transition as part of a systematic approach where the threat of the mount forces defensive reactions that expose the back, creating the dilemma-based passing system that characterizes elite-level guard passing.",
   "conditions": [
     "Opponent remains relatively flat on their back rather than turning away toward turtle",

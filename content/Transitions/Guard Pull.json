@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Closed Guard/Bottom",
-      "probability": 75,
+      "probability": {
+        "gi": 75,
+        "nogi": 75
+      },
       "result": "success"
     },
     {
       "to": "Standing Position/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "failure"
     },
     {
       "to": "Standing Position/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 75,
+  "success_rate": {
+    "gi": 75,
+    "nogi": 75
+  },
   "overview": "The Guard Pull is a fundamental BJJ transition that allows practitioners to move from standing position directly into their guard game, bypassing the takedown exchange entirely. This technique is particularly valuable in sport BJJ contexts where bottom guard position offers numerous attacking opportunities and where takedown exchanges may not align with a practitioner's strengths. The guard pull requires precise grip establishment, proper body positioning, and excellent timing to execute safely and effectively. When performed correctly, it allows the practitioner to immediately begin implementing their guard strategy while controlling distance and grips.\n\nThe technique has become increasingly sophisticated in modern competition, with various entries designed to land directly into specific guard positions rather than a generic seated guard. Pulling to De La Riva, butterfly, single leg X, or collar-sleeve guard requires distinct grip configurations and sitting mechanics that must be drilled independently. The strategic decision of which guard to pull into depends on the opponent's stance, grip tendencies, and known passing preferences. Understanding when and how to pull guard effectively is essential for building a complete competition game, and the difference between a well-executed guard pull that leads to immediate offense versus a sloppy pull that leads to immediate passing pressure lies entirely in grip quality, timing, and landing position.",
   "conditions": [
     "Both practitioners standing with active grip engagement",

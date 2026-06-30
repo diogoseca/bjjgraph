@@ -19,7 +19,10 @@
   "target_area": "Cervical and thoracic spine, shoulder girdle",
   "starting_position": "Twister Side Control",
   "from_position": "Twister Side Control/Top",
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "Reaching this finish depends entirely on first establishing twister side control, a lateral pin that trades the chest-to-chest stability of orthodox side control for immediate spinal-attack proximity. Unlike twister entries from the truck where the attacker works from behind, the twister side control variant provides a perpendicular angle that creates distinct mechanical advantages for driving the near shoulder to the mat and controlling the opponent's defensive turning. The lateral base of twister side control allows the attacker to maintain stability while progressively threading the arm under the opponent's head to establish the finishing grip.\n\nExecution from twister side control follows a precise sequence: consolidate the leg entanglement to anchor the hips, drive the near shoulder flat, thread the far arm under the head, secure a clasping grip connecting to the far wrist, and then create opposing rotational forces between the fixed lower body and the cranked upper torso. The submission finishes when the separation between the anchored hips and the rotated head and shoulders generates sufficient pressure on the spinal column. This mechanic makes the twister one of the most biomechanically powerful submissions in grappling, targeting structures that have very low tolerance for rotational force.\n\nThe twister carries extreme injury risk to the spine and neck, demanding exceptionally slow and controlled application in training. Practitioners must develop acute sensitivity to their partner's tap signals, as the submission can cause permanent damage if applied recklessly. In competition, the twister from twister side control remains a feared finisher among 10th Planet practitioners, though its setup requirements and the specialized positional knowledge needed to reach twister side control limit its frequency compared to more common submissions.",
   "safety_considerations": {
     "injury_risks": [
@@ -104,17 +107,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Twister Side Control/Top",
-      "probability": 39,
+      "probability": {
+        "gi": 39,
+        "nogi": 39
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 21,
+      "probability": {
+        "gi": 21,
+        "nogi": 21
+      },
       "result": "counter"
     }
   ],

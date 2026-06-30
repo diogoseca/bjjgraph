@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Unlike passes that treat guard opening and guard passing as two separate events, the knee slice from closed guard fuses them: the instant the closed guard breaks, the top player is already driving forward rather than resetting to a neutral open-guard exchange. This technique bridges the gap between guard opening and guard passing, combining both phases into a single flowing sequence that denies the bottom player time to establish alternative defensive guards such as butterfly, spider, or De La Riva.\n\nStrategically, the knee slice from closed guard eliminates the dangerous intermediate phase where the bottom player could transition to an open guard system after their closed guard is broken. By committing to the knee slice upon ankle separation, the top player maintains forward pressure and momentum, keeping the bottom player reactive rather than allowing them to proactively build new defensive structures. The technique is particularly effective against opponents with strong open guard retention, as it bypasses that phase entirely.\n\nThe technique demands precise coordination between guard breaking mechanics and knee slice entry. The top player must balance posture maintenance and upper body control during the guard opening phase with the aggressive forward drive and diagonal pressure required for the knee slice. Success depends on crossface timing, hip-to-thigh pressure, and far hip control that prevents the bottom player from recovering guard or executing counter-sweeps during the narrow transitional window between guard break and pass completion.",
   "conditions": [
     "Top player has established posture in closed guard with spine straight and head over hips",

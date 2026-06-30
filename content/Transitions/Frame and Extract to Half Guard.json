@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Inside Sankaku/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Saddle/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "summary": "Frame and Extract to Half Guard is a defensive escape from Inside Sankaku that frames the opponent's hips and knee line to create separation, then extracts the trapped leg into Half Guard while hiding the heel from inside heel hook attacks.",
   "overview": "Frame and Extract to Half Guard is a critical defensive transition used to escape the dangerous Inside Sankaku (Honey Hole) position. When trapped with your leg in the opponent's figure-four configuration, this technique employs systematic framing and hip movement to create the distance necessary for leg extraction while protecting against the inside heel hook threat. The escape prioritizes heel protection throughout the movement, using structural frames against the opponent's hips and legs to generate separation rather than relying on explosive power that could result in knee injury.\n\nThe strategic importance of this escape cannot be overstated - Inside Sankaku represents one of the highest percentage finishing positions in modern leg lock systems. Practitioners who lack a reliable escape will find themselves tapping repeatedly to inside heel hooks. This technique addresses the position systematically: first defending the immediate submission threat by hiding the heel, then creating frames to establish distance, and finally extracting the trapped leg while transitioning to Half Guard where you can recompose your defense.\n\nThe transition to Half Guard specifically is chosen because it allows you to immediately establish a knee shield and begin rebuilding your guard structure, rather than scrambling to an undefined open guard position. From Half Guard, you have clear pathways to guard recovery, sweeps, or standing back up - all superior to remaining in leg entanglement danger.",
   "related_content": [

@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Diamond Guard/Bottom",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "The Transition to Diamond Guard converts standard closed guard into an advanced offensive platform by establishing simultaneous overhook and head control, creating a diamond-shaped frame that dramatically amplifies posture-breaking effectiveness and opens direct pathways to high-percentage submission chains including triangles, omoplatas, and kimuras. This transition is the critical bridge between the general-purpose closed guard and the submission-rich diamond guard configuration where multiple finishing sequences become immediately accessible through systematic grip adjustments within the frame.\n\nExecuting this transition requires understanding the sequential grip establishment — overhook first, head control second — and recognizing the optimal windows when the opponent's arm becomes available for capture. The most common entry occurs when the top player reaches inside the guard to frame on the chest or attempts to establish a grip, creating the opening to swim your arm over their bicep and lock the overhook. Once the overhook is secure, adding head control behind the neck completes the diamond and breaks posture below recovery threshold. Timing this sequence to your opponent's movements rather than forcing it against resistance separates successful entries from failed attempts that telegraph intention and invite defensive reactions.\n\nThe strategic value of this transition lies in converting a position of balanced engagement into one of clear offensive superiority. While standard closed guard provides offensive options, the diamond frame creates submission dilemmas where defending any single threat necessarily opens another pathway. Mastering this transition builds the critical bridge between fundamental closed guard play and the advanced submission-chain attacks that define high-level guard work at purple belt and above.",
   "conditions": [
     "Closed guard established with ankles locked behind opponent's lower back providing stable base for grip transitions",

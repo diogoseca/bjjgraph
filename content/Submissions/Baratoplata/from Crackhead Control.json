@@ -19,7 +19,10 @@
   "target_area": "Shoulder joint and rotator cuff",
   "starting_position": "Crackhead Control",
   "from_position": "Crackhead Control/Bottom",
-  "success_rate": 42,
+  "success_rate": {
+    "gi": 42,
+    "nogi": 42
+  },
   "overview": "The Baratoplata from Crackhead Control is a specialized shoulder lock that exploits the unique leg positioning of the 10th Planet rubber guard system to generate devastating rotational force on the opponent's shoulder joint. From Crackhead Control, the bottom player already has their shin positioned across the back of the opponent's neck with deep posture control established, making this one of the most mechanically efficient setups for the baratoplata available in modern grappling. The existing arm isolation from the overhook grip and compressed posture means the attacking player can transition directly into the figure-four threading without the extensive setup work required from less dominant positions.\n\nThe submission works by threading the attacking arm underneath the opponent's trapped arm and connecting to the controlling leg, creating a figure-four configuration that uses hip extension to drive internal rotation of the shoulder beyond its anatomical limits. The key mechanical advantage of this entry is that Crackhead Control already provides two of the three prerequisites for the baratoplata: posture control and arm isolation. The attacker only needs to complete the figure-four connection and apply rotational pressure, reducing the setup time and defensive windows compared to entries from open guard or half guard.\n\nWhat makes this variation particularly dangerous at the competitive level is the deceptive nature of the attack within the Crackhead Control attack chain. Opponents defending against Crackhead Control typically focus on preventing the more common gogoplata or omoplata threats, leaving the baratoplata as a secondary attack that catches defenders off-guard. The leg-assisted mechanics generate significantly more torque than arm-only shoulder locks like the americana or kimura, making this a genuinely threatening submission even against larger or stronger opponents. The shoulder joint can reach structural failure before adequate pain signals register, demanding exceptional care during training.",
   "safety_considerations": {
     "injury_risks": [
@@ -104,17 +107,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 42,
+      "probability": {
+        "gi": 42,
+        "nogi": 42
+      },
       "result": "success"
     },
     {
       "to": "Crackhead Control/Bottom",
-      "probability": 38,
+      "probability": {
+        "gi": 38,
+        "nogi": 38
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],

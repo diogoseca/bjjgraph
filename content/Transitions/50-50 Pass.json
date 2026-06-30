@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "50-50 Guard/Top",
-      "probability": 27,
+      "probability": {
+        "gi": 27,
+        "nogi": 27
+      },
       "result": "failure"
     },
     {
       "to": "50-50 Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The 50-50 Pass is a critical escape and passing sequence from one of Brazilian Jiu-Jitsu's most complex entanglement positions. When trapped in the 50-50 Guard, both practitioners have mirrored leg entanglements with similar attacking opportunities, creating a symmetrical dilemma. The pass requires systematic leg extraction, hip control, and pressure application to break the entanglement and establish top position. This technique is essential for modern no-gi competition where 50-50 entries are common from various guard positions.\n\nThe 50-50 Pass emphasizes defensive leg lock awareness while simultaneously creating passing opportunities. Understanding this sequence is crucial because remaining static in 50-50 Guard exposes you to heel hooks, toe holds, and other leg attacks. The pass transitions you from a dangerous entanglement to a dominant passing position where you can attack or consolidate control. The key strategic insight is that passing from 50-50 requires treating it as a two-phase problem: first neutralize the leg lock threat by protecting your heel and breaking grips, then execute the extraction-to-pass sequence as one continuous motion with heavy upper body pressure preventing re-entanglement.",
   "conditions": [
     "You have top position or at least positional parity in the 50-50 entanglement",

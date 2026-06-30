@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Flattened Half Guard/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Within the pressure-passing hierarchy, the Knee Slide from Flattened Half Guard is one of the most direct finishes available once the bottom player has been flattened, capitalizing on the dominant upper body control already established. Unlike a standard knee slice from active half guard, this variation begins from a position of significant advantage where the bottom player's frames have been collapsed, their back is flat against the mat, and the top player maintains heavy crossface pressure. The primary technical challenge is extracting the trapped leg while maintaining the pressure that keeps the bottom player immobilized.\n\nThe pass works by creating an angular displacement of the knee across the bottom player's thigh line while driving forward pressure through the crossface and chest. The top player shifts their hips toward the passing side, angles the trapped knee diagonally across the opponent's body, and slides through the gap between the opponent's legs. The critical detail is maintaining chest-to-chest contact throughout the movement. Any lift in pressure during the knee slide gives the bottom player the space they need to re-insert frames, recover knee shield, or initiate hip escapes that can stall or reverse the pass.\n\nThis technique occupies a strategic position in the pressure passing hierarchy. Once you have flattened your opponent in half guard, the knee slide becomes one of the most direct paths to completing the pass. It pairs naturally with crossface passes and underhook passes, creating a passing chain where defending one option opens another. Advanced practitioners use the knee slide threat to force defensive reactions that expose back takes or submission entries, making it a cornerstone technique for systematic top game development from half guard.",
   "conditions": [
     "Top player has established chest-to-chest pressure with opponent flattened on their back",

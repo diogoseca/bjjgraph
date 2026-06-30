@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 52,
+      "probability": {
+        "gi": 52,
+        "nogi": 52
+      },
       "result": "success"
     },
     {
       "to": "Flattened Half Guard/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 18,
+      "probability": {
+        "gi": 18,
+        "nogi": 18
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 52,
+  "success_rate": {
+    "gi": 52,
+    "nogi": 52
+  },
   "summary": "The Cross Face Pass from Flattened Half is a pressure guard pass where the top player drives a crossface across the opponent's jaw to turn their head, create an extraction angle, and free the trapped leg into side control.",
   "overview": "The Cross Face Pass from Flattened Half Guard is a high-percentage pressure pass that capitalizes on the dominant upper body position already established when the top player has successfully collapsed their opponent's frames in half guard. Unlike dynamic passing techniques that rely on speed or agility, this pass uses relentless forward pressure through the crossface to incrementally advance position while the opponent's defensive options remain severely limited by the flattened structure.\n\nThe technique's effectiveness stems from the mechanical advantage created by driving the shoulder and forearm across the opponent's face and jaw while simultaneously walking the hips toward the trapped leg side. This dual action turns the opponent's head away from the passing direction, eliminating their ability to see or react to the leg extraction, while creating the angle necessary to free the trapped leg without sacrificing chest-to-chest pressure. The crossface serves as both a control mechanism and a passing tool, making this one of the most efficient passes from flattened half guard.\n\nStrategically, the cross face pass represents the natural completion of a pressure passing sequence. Once the top player has collapsed the bottom player's frames and established the flattened position, this pass provides the most direct path to side control without creating the space that would allow frame recovery. The technique rewards patience and incremental advancement over explosive movement, making it particularly effective against opponents with strong defensive half guard retention who can exploit any gap in pressure to re-establish their guard structure.",
   "conditions": [

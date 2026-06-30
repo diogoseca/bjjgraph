@@ -19,7 +19,10 @@
   "target_area": "Shoulder joint, rotator cuff, and shoulder capsule",
   "starting_position": "Armbar Control",
   "from_position": "Armbar Control/Top",
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "overview": "The Kimura from Armbar Control is one of the most natural and high-percentage chain attacks in Brazilian Jiu-Jitsu. When an opponent defends a standard armbar by bending their trapped arm and tucking the elbow toward their body, the attacker capitalizes by transitioning to a figure-four grip around the bent forearm and applying rotational pressure to the shoulder joint. This represents a core principle of advanced submission grappling: when the opponent solves one problem, the solution itself creates a new vulnerability.\n\nThe mechanics flow naturally from the existing armbar control configuration. As the opponent bends their arm to prevent hyperextension, the attacker releases the standard wrist-pull grip and threads the near-side hand under the opponent's bent forearm, securing a figure-four kimura grip. The attacker's hips remain anchored against the opponent's shoulder, now serving as the fulcrum for rotational rather than extension-based pressure. The finish involves externally rotating the opponent's forearm away from their body while maintaining chest-to-elbow contact as the lever point.\n\nWhat makes this attack devastatingly effective is the positional advantage already established from armbar control. The attacker has leg control over the opponent's upper body, hip-to-shoulder proximity, and complete arm isolation. The opponent who bends their arm to defend the armbar has unwittingly positioned themselves for the kimura. Straighten the arm and face the armbar; bend it and face the kimura. This genuine dilemma makes the armbar-to-kimura chain one of the highest-percentage finishing sequences in competition grappling.",
   "safety_considerations": {
     "injury_risks": [
@@ -103,17 +106,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 62,
+      "probability": {
+        "gi": 62,
+        "nogi": 62
+      },
       "result": "success"
     },
     {
       "to": "Armbar Control/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 13,
+      "probability": {
+        "gi": 13,
+        "nogi": 13
+      },
       "result": "counter"
     }
   ],

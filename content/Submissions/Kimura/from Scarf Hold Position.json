@@ -18,7 +18,10 @@
   "target_area": "Shoulder joint, rotator cuff, and shoulder capsule",
   "starting_position": "Scarf Hold Position",
   "from_position": "Scarf Hold Position/Top",
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "summary": "The Kimura from Scarf Hold Position is a figure-four shoulder lock that exploits kesa gatame's pre-trapped near arm and perpendicular seating angle to paint the opponent's hand behind their back for a high-percentage finish.",
   "overview": "The Kimura from Scarf Hold Position exploits the pre-existing arm isolation inherent in kesa gatame to transition directly into a devastating shoulder lock. Unlike kimura attacks from side control or mount where the attacker must first isolate the target arm against active resistance, scarf hold provides this control as a baseline feature of the position. The opponent's near arm is already trapped beneath the attacker's body, eliminating the most difficult phase of kimura execution and creating one of the shortest position-to-submission transitions in grappling.\n\nThe perpendicular seating angle unique to scarf hold creates rotational leverage that differs mechanically from parallel-position kimura applications. The T-shaped body configuration allows the attacker to paint the opponent's hand behind their back using natural torque from the perpendicular angle. This geometric advantage means the finishing rotation requires less physical strength and follows a path that is difficult for the defender to resist through bridging alone, as their hip escape mechanics are already negated by the perpendicular pressure.\n\nThe grip transition from positional control to figure-four submission is minimal. The attacker releases head control to secure the wrist, threads under the upper arm for the figure-four, and begins rotation while maintaining crushing hip pressure that limits defensive movement. This seamless transition makes the kimura from scarf hold a cornerstone technique for practitioners who build their top game around kesa gatame control systems, and it chains naturally with americana and armbar attacks when the initial kimura is defended.",
   "safety_considerations": {
@@ -108,17 +111,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 62,
+      "probability": {
+        "gi": 62,
+        "nogi": 62
+      },
       "result": "success"
     },
     {
       "to": "Scarf Hold Position/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 13,
+      "probability": {
+        "gi": 13,
+        "nogi": 13
+      },
       "result": "counter"
     }
   ],

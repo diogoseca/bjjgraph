@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Backside 50-50/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Inside Ashi-Garami/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Backside 50-50 Entry from Ashi Garami is a critical positional advancement in modern leg lock systems that elevates the attacker from basic single-leg control into one of the most dominant leg entanglements available. From Inside Ashi-Garami, the attacker rotates their body behind the opponent while threading their legs into a mirrored 50-50 configuration, establishing chest-to-back pressure that creates significant mechanical and tactical advantages. This transition represents the systematic progression from foundational leg control to an advanced entanglement platform that offers both superior submission angles and the constant threat of transitioning to full back control.\n\nThe technique addresses a common challenge in ashi garami systems: opponents who successfully defend direct submissions from inside ashi by controlling their heel exposure and managing the knee line. Rather than forcing low-percentage finishes against a well-defended heel, the Backside 50-50 Entry bypasses heel defense entirely by changing the positional dynamic. The rotation behind the opponent creates an asymmetric advantage where the attacker gains visual superiority, pressure dominance, and access to attacks that were unavailable from the original inside ashi configuration.\n\nIn competition settings, this transition has become increasingly important as leg lock defense has improved across all skill levels. Practitioners who can fluidly transition between ashi variations, including the backside 50-50, create layered offensive pressure that forces defenders to address multiple threats simultaneously. The entry rewards precise timing and controlled rotation over explosive movement, making it accessible to practitioners of all body types who invest in understanding the underlying mechanics.",
   "conditions": [
     "Secure Inside Ashi-Garami control established with heel control maintained",

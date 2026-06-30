@@ -17,7 +17,10 @@
   "target_area": "Elbow joint hyperextension and ulnar collateral ligament",
   "starting_position": "Williams Guard",
   "from_position": "Williams Guard/Bottom",
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "summary": "The belly down armbar from Williams Guard converts the shoulder-lock figure-four grip into a prone armbar by rotating belly-down over the trapped arm, finishing with hip extension that neutralizes the stack defense common to guard armbars.",
   "overview": "The belly down armbar finish from Williams Guard leverages the pre-existing arm isolation of the shoulder lock grip to transition directly into a prone armbar position. Unlike standard guard armbars where the attacker remains supine and vulnerable to stacking defenses, the belly down rotation creates a dominant finishing angle that neutralizes the opponent's primary escape mechanism. The Williams Guard configuration provides an ideal launch point because the figure-four grip already controls the arm in a position that maps directly to armbar wrist control, eliminating the most difficult phase of any armbar attempt.\n\nThe technical sequence begins with the bottom practitioner creating hip angle through a shrimp, then swinging the far leg over the opponent's head while maintaining arm control. Rather than falling back for a conventional armbar, the attacker continues the rotational momentum to arrive in a prone position with knees pinched tight around the upper arm. This rotation transforms a bottom guard position into a top finishing position where gravity assists the hip extension that produces the tap.\n\nFrom a strategic perspective, this submission addresses the primary weakness of guard-based armbars: the stack defense. Experienced grapplers instinctively drive forward when they feel armbar mechanics developing from guard. The belly down transition uses this defensive reaction against the opponent, as their forward pressure actually assists the rotation. This makes the technique particularly effective in competition against defensive opponents who have trained extensively to defend conventional armbar attacks from guard positions.",
   "safety_considerations": {
@@ -103,17 +106,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Williams Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],

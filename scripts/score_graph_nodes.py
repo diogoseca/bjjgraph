@@ -28,6 +28,9 @@ import os
 import sys
 from typing import Optional
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from _ruleset import reduce_to_scalar  # collapse mirror {gi,nogi} maps at load (calibration-v2)
+
 # --- Formula weights (plan §6.6.1) -----------------------------------------
 W_POINT = 0.40
 W_SUBMISSION = 0.35
@@ -121,7 +124,7 @@ def _load_dir(category: str) -> list[tuple[str, dict]]:
     for path in sorted(glob.glob(pat)):
         try:
             with open(path, encoding="utf-8") as fh:
-                out.append((os.path.basename(path)[:-5], json.load(fh)))
+                out.append((os.path.basename(path)[:-5], reduce_to_scalar(json.load(fh))))
         except (json.JSONDecodeError, OSError) as exc:  # pragma: no cover
             print(f"  WARN: skipped {path}: {exc}", file=sys.stderr)
     return out

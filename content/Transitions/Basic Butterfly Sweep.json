@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 62,
+      "probability": {
+        "gi": 62,
+        "nogi": 62
+      },
       "result": "success"
     },
     {
       "to": "Half Butterfly/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Butterfly/Top",
-      "probability": 13,
+      "probability": {
+        "gi": 13,
+        "nogi": 13
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "overview": "Sitting at the center of the offensive half-butterfly game, the Basic Butterfly Sweep turns an opponent's forward pressure and committed base into a clean position reversal. From half butterfly the practitioner keeps the opponent's trapped leg controlled with the half-guard legs while inserting a single active butterfly hook under the free-side thigh. Combining that one hook with an underhook and grip control, the practitioner elevates and off-balances the opponent to achieve a dominant top position. This sweep is highly effective against opponents who attempt to establish base on top of half butterfly or pressure forward without proper posture. The technique relies on timing, leverage, and the mechanical advantage created by the single butterfly hook rather than pure strength.\n\nWhen executed properly, the Basic Butterfly Sweep transitions smoothly into mount, side control, or back control depending on the opponent's defensive reactions. The core mechanic involves creating a 45-degree hip angle toward the free-leg side, driving the lone butterfly hook upward and forward while pulling the opponent's upper body across your centerline with the underhook and grips. This coordinated action generates rotational force that displaces the opponent's base regardless of size disparity, while the trapped leg removes their ability to post on the half-guard side.\n\nThis is considered an essential technique for all BJJ practitioners and forms the foundation for more advanced half-butterfly and butterfly sweeping systems. It serves as the entry point to understanding how a single inside hook plus half-guard leg control creates mechanical leverage, how the underhook prevents defensive posting, and how timing with opponent weight shifts determines success rate. Mastery of the basic butterfly sweep unlocks the broader half-butterfly attacking system including back takes, deep half entries, and submission chains.",
   "conditions": [
     "Single butterfly hook inserted under opponent's free-side thigh while the half-guard legs retain control of the trapped leg",

@@ -18,21 +18,33 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "summary": "The Hip Bump Sweep is a fundamental closed-guard reversal in which the bottom player traps one of the opponent's arms, sits up, and drives a hip into the opponent's torso to topple them sideways and land in mount.",
   "overview": "As a cornerstone of the fundamental closed guard attack system, the Hip Bump Sweep capitalizes on the opponent's forward posture and broken base, working best when they attempt to establish strong posture or begin to stand inside your guard. By controlling one arm, bumping your hips explosively toward the same side, and using your opponent's reaction, you can reverse position and establish mount.\n\nThe beauty of the Hip Bump Sweep lies in its versatility and chain attack potential. It works seamlessly with other closed guard attacks like the Kimura and Guillotine, creating a systematic approach where each technique feeds into the next. When opponents defend the Hip Bump by posting their free hand, they immediately expose themselves to the Kimura. When they pull their arm back, the Guillotine becomes available. This creates the fundamental closed guard attack triangle that every practitioner should master.\n\nThe Hip Bump Sweep is also an excellent technique for developing timing, hip mobility, and the ability to off-balance opponents. It teaches practitioners to feel weight distribution and exploit moments of vulnerability. While beginners often struggle with the explosive hip movement and timing required, intermediate and advanced practitioners can execute this sweep with remarkable consistency, especially when integrated into a comprehensive guard attack system.",
   "conditions": [

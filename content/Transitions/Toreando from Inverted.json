@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Inverted Guard/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The toreando pass from inverted guard exploits the exposed leg positioning inherent to inversion-based defense. When an opponent inverts, their legs extend upward and become accessible for bilateral grip control, creating an opportunity for the bullfighter-style lateral pass. Unlike toreando applications against seated or standing guard where the opponent can immediately re-engage with hooks, the inverted player must rely on hip rotation and grip fighting to track the passer's movement, giving the toreando a distinct timing advantage in this specific context.\n\nStrategically, this technique provides a speed-based alternative to pressure passes like the stack or smash when facing flexible, inversion-oriented guard players. Rather than engaging with the inverted player's rotational mechanics — which risks berimbolo entries and back takes — the toreando redirects their legs laterally while the passer circles in the opposite direction, neutralizing the inversion system entirely. The pass is most effective when initiated early, before the inverted player establishes optimal grips and hip positioning for their preferred counter-attacks.\n\nSuccessful execution demands aggressive bilateral leg control, decisive lateral movement, and immediate chest pressure upon clearing the opponent's hip line. The passer must resist the temptation to drive forward into the inverted player, which feeds their preferred offensive sequences, and instead commit fully to the lateral passing angle that the toreando provides. The directional change must be explosive and committed — half-measures allow the inverted player to track with hip rotation and retain guard.",
   "conditions": [
     "Opponent is playing inverted guard with legs elevated and accessible for grip control",

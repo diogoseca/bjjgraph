@@ -29,11 +29,21 @@ Number = (int, float)
 
 
 def is_ruleset_map(v: Any) -> bool:
-    """True iff ``v`` is a dict whose keys are a non-empty subset of {gi, nogi}.
+    """True iff ``v`` is a forked probability: a dict whose keys are a non-empty
+    subset of {gi, nogi} AND whose cells are each a number or null.
 
-    A ``{"value": ..., "description": ...}`` metric dict is NOT a ruleset map.
+    The numeric/null cell requirement is what distinguishes a real probability map
+    from a same-keyed structure that isn't one — e.g. a JSON-schema fragment
+    ``{"gi": {...}, "nogi": {...}}`` (dict cells) is NOT a ruleset map, so
+    reduce_to_scalar won't mangle a schema. A ``{"value": ..., "description": ...}``
+    metric dict is also excluded (keys not a subset of {gi, nogi}).
     """
-    return isinstance(v, dict) and bool(v) and set(v.keys()) <= set(RULESETS)
+    return (
+        isinstance(v, dict)
+        and bool(v)
+        and set(v.keys()) <= set(RULESETS)
+        and all(c is None or isinstance(c, Number) for c in v.values())
+    )
 
 
 def as_map(v: Any) -> Dict[str, Any]:
@@ -104,6 +114,39 @@ def present_rulesets(values: Iterable[Any]) -> List[str]:
     return [rs for rs in RULESETS if any(available(v, rs) for v in vals)]
 
 
+def reduce_to_scalar(obj: Any, frame: Optional[str] = None) -> Any:
+    """Recursively collapse ``{gi,nogi}`` maps back to scalars.
+
+    The migration scaffold: a reader that hasn't been upgraded to handle forked
+    probabilities calls this right after ``json.load`` so the rest of its logic
+    sees plain scalars and produces byte-identical output.
+
+    - ``frame`` given  -> pick that frame's cell at every ruleset map,
+    - ``frame`` None   -> require ``gi == nogi`` (mirror) and return the common
+      value; raise ``ValueError`` on a DIVERGENT map. During the mirror migration
+      (Phase 2.1) gi == nogi everywhere, so this never raises; once real
+      divergence lands (2.3+) it fails loudly, flagging exactly which readers
+      still need dual-awareness.
+
+    Non-map dicts/lists are recursed; scalars pass through unchanged.
+    """
+    if is_ruleset_map(obj):
+        m = as_map(obj)
+        if frame is not None:
+            return m.get(frame)
+        gi, nogi = m.get("gi"), m.get("nogi")
+        if gi == nogi:
+            return gi
+        raise ValueError(
+            f"reduce_to_scalar: divergent ruleset map {obj!r}; pass frame= to choose a frame"
+        )
+    if isinstance(obj, dict):
+        return {k: reduce_to_scalar(v, frame) for k, v in obj.items()}
+    if isinstance(obj, list):
+        return [reduce_to_scalar(v, frame) for v in obj]
+    return obj
+
+
 if __name__ == "__main__":
     # Self-test: the contract, and the byte-identical-on-scalars guarantee.
     assert is_ruleset_map({"gi": 1, "nogi": 2})
@@ -111,6 +154,9 @@ if __name__ == "__main__":
     assert not is_ruleset_map({"value": 50, "description": "x"})
     assert not is_ruleset_map(50)
     assert not is_ruleset_map({})
+    assert is_ruleset_map({"gi": 50, "nogi": None})  # numeric/null cells ok
+    # a JSON-schema fragment with the same keys is NOT a ruleset map (dict cells)
+    assert not is_ruleset_map({"gi": {"type": "integer"}, "nogi": {"type": "integer"}})
 
     assert as_map(50) == {"gi": 50, "nogi": 50}
     assert as_map({"gi": 30, "nogi": 40}) == {"gi": 30, "nogi": 40}
@@ -145,5 +191,28 @@ if __name__ == "__main__":
 
     assert present_rulesets([10, 20]) == ["gi", "nogi"]
     assert present_rulesets([{"gi": 5}, {"gi": 95}]) == ["gi"]
+
+    # reduce_to_scalar: mirror maps collapse; structure preserved; divergence raises.
+    assert reduce_to_scalar({"gi": 50, "nogi": 50}) == 50
+    assert reduce_to_scalar(50) == 50
+    doc = {"top": {"transitions": [{"transition": "X", "attempt_probability": {"gi": 40, "nogi": 40}},
+                                    {"transition": "Y", "attempt_probability": {"gi": 60, "nogi": 60}}]},
+           "success_rate": {"gi": 55, "nogi": 55}, "name": "T"}
+    reduced = reduce_to_scalar(doc)
+    assert reduced["success_rate"] == 55
+    assert [t["attempt_probability"] for t in reduced["top"]["transitions"]] == [40, 60]
+    assert reduced["name"] == "T"
+    # mirror doc round-trips byte-identically to a pure-scalar doc
+    scalar_doc = {"top": {"transitions": [{"transition": "X", "attempt_probability": 40},
+                                           {"transition": "Y", "attempt_probability": 60}]},
+                  "success_rate": 55, "name": "T"}
+    assert reduced == scalar_doc
+    # divergence raises without an explicit frame, resolves with one
+    try:
+        reduce_to_scalar({"gi": 60, "nogi": 70})
+        raise AssertionError("expected ValueError on divergent map")
+    except ValueError:
+        pass
+    assert reduce_to_scalar({"gi": 60, "nogi": 70}, frame="nogi") == 70
 
     print("_ruleset self-test: OK")

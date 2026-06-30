@@ -20,7 +20,10 @@
   "target_area": "Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity",
   "starting_position": "Grasshopper Guard",
   "from_position": "Grasshopper Guard/Bottom",
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "The heel hook from grasshopper guard exploits the unique inverted angles available when playing this unorthodox open guard. The bottom player uses elevated hips and a shoulder-based foundation to thread legs around the opponent's lead leg, securing heel control from an angle that standard guard positions cannot provide. The inversion creates access to lateral heel exposure that conventional ashi garami entries require multiple transitional steps to achieve, compressing the attack chain into a single fluid motion from guard to finish.\n\nWhat distinguishes this entry from conventional heel hook setups is the deception inherent in the grasshopper configuration. The opponent perceives a guard retention or sweep attempt rather than a direct submission threat, delaying their defensive reactions by critical fractions of a second. The grasshopper position allows the attacker to transition directly from inversion into ashi garami while maintaining constant proximity to the heel, eliminating the usual warning signals that accompany standard leg lock entries.\n\nStrategically, this submission functions best within a broader grasshopper guard attack system. When the opponent defends sweeps by posting or widening their base, they inadvertently expose their lead leg to entanglement. The heel hook threat forces a choice between maintaining sweep defense or protecting the legs, creating an offensive dilemma that elevates success rates across all attack paths from this position.",
   "safety_considerations": {
     "injury_risks": [
@@ -118,17 +121,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Grasshopper Guard/Bottom",
-      "probability": 36,
+      "probability": {
+        "gi": 36,
+        "nogi": 36
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 19,
+      "probability": {
+        "gi": 19,
+        "nogi": 19
+      },
       "result": "counter"
     }
   ],

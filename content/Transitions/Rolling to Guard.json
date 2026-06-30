@@ -16,26 +16,41 @@
   "outcomes": [
     {
       "to": "Closed Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "success"
     },
     {
       "to": "Turtle/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 75,
+  "success_rate": {
+    "gi": 75,
+    "nogi": 75
+  },
   "overview": "Rolling to Guard is a fundamental defensive recovery technique that allows a practitioner to transition from turtle bottom back to a guard position using rotational hip mechanics and shoulder-driven momentum. From turtle, the bottom player creates initial space through frames, turns onto their shoulder, and drives their hips overhead in an arcing roll that reorients their body to face the opponent with legs reestablished as a barrier. The technique exploits moments when the top player's weight shifts or they transition between control grips, converting their forward pressure into rotational energy.\n\nStrategically, Rolling to Guard occupies a critical niche in the defensive hierarchy. It is faster than a technical standup and more dynamic than a sit-through, making it the preferred recovery option during scrambles or when the opponent commits their weight forward. The roll disrupts the top player's control sequence by changing the spatial relationship entirely - instead of defending a back attack or flattening attempt, the bottom player resets the engagement to a guard-based exchange where they hold positional advantage. The technique's effectiveness scales with hip mobility, timing, and the ability to immediately establish guard structure upon completing the rotation.\n\nMastery requires understanding the interplay between framing, momentum generation, and directional control. Rolling straight backward exposes the back; rolling at a 45-degree angle across the shoulder creates separation from the opponent's centerline and ensures you emerge facing them. The transition from rolling motion to guard establishment must be seamless - any pause between completing the roll and securing grips or hooks creates a passing window the top player will exploit. Practitioners who chain this technique with immediate guard attacks or sweeps convert defensive recovery into offensive initiative.",
   "related_content": [
     {

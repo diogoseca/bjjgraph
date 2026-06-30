@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Hindulotine/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Turtle/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Back Take from Top Hindulotine represents one of the highest-percentage transitions in the front headlock attack system. When an opponent defends the guillotine choke by turning away to relieve neck pressure, they expose their back as a direct consequence of their defensive movement. This technique capitalizes on that predictable reaction, converting a potential submission loss into dominant back control.\n\nThe mechanical beauty of this transition lies in using the opponent's own escape energy against them. As they rotate to face away from the choking pressure, you maintain upper body control while your legs transition from sprawl base to hooks. The opponent's defensive turn becomes the entry mechanism for one of the most dominant positions in grappling. This creates a true dilemma: defend the choke and give up your back, or face the choke and risk being finished.\n\nStrategically, the back take option makes your Hindulotine attacks significantly more dangerous. Opponents who know you will take their back if they turn become hesitant to execute the primary escape, allowing more finishing opportunities on the guillotine itself. The mere threat of this transition improves your overall submission percentage from the position.",
   "conditions": [
     "Established top Hindulotine with guillotine grip secured",

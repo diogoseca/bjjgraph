@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Turtle/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Buggy Choke to Side Control transition represents a critical positional advancement option when the primary submission threat is neutralized through effective grip defense. This technique exemplifies the principle that control positions in BJJ should never be single-purpose—when the choke fails, the grip configuration and body positioning should naturally facilitate advancement to a dominant passing position rather than returning to neutral.\n\nStrategically, this transition capitalizes on the opponent's defensive focus on the choke threat. While they concentrate on stripping collar grips and preventing the finish, their hip and leg positioning often becomes compromised, creating pathways to flatten them and secure side control. The perpendicular pressure already established from buggy choke top provides the foundation for heavy crossface and hip control that characterizes dominant side control.\n\nThe transition also serves as a psychological tool—opponents who know you will advance to side control when they successfully defend the choke face a dilemma where both accepting the choke and defending it lead to disadvantageous outcomes. This dilemma creation is fundamental to high-level attacking systems and makes the buggy choke position significantly more threatening than if the choke were the only available attack.",
   "conditions": [
     "Buggy choke grips are established but opponent has begun successful defense through grip stripping or posture recovery",

@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Reverse Mount/Top",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "North-South/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 12,
+      "probability": {
+        "gi": 12,
+        "nogi": 12
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Reverse Mount Transition is a strategic positional advancement that converts North-South control into reverse mount, positioning you facing your opponent's legs while seated on their torso. This transition creates immediate access to armbar attacks on both arms and offers superior control of the opponent's lower body movements compared to standard mount. The position is particularly valuable when the opponent defends North-South submissions effectively, as it shifts the attack angle entirely.\n\nFrom a tactical standpoint, reverse mount offers a unique combination of control and submission opportunity. Your weight pins the opponent's hips and lower torso while your legs frame against their head and shoulders, preventing the standard bridge-and-roll escapes that threaten regular mount. The position naturally isolates the opponent's arms, which must reach toward you to defend, creating immediate armbar entries on either side.\n\nThe transition requires precise weight management and timing. Moving from North-South chest pressure to a seated position creates a vulnerability window where the opponent can escape if the transition is executed poorly. Success depends on maintaining continuous pressure throughout the movement, securing hip control before releasing chest pressure, and establishing the mounted position before the opponent can create defensive frames or hip escape.",
   "conditions": [
     "Established North-South control with consolidated chest pressure",

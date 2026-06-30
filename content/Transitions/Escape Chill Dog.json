@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Chill Dog/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Within the 10th Planet defensive hierarchy, the Escape Chill Dog occupies the space between pure survival and offensive guard recovery. Unlike the Granby roll which targets open or closed guard through a rolling motion, this escape uses a lateral hip escape combined with leg insertion to thread the inside leg between the opponent's legs and establish the half guard entanglement. The technique capitalizes on the opponent's weight commitment during top control attempts, using their forward pressure as the trigger for a hip escape that simultaneously creates space and establishes the leg hook needed for half guard.\n\nThe escape requires precise timing and explosive hip movement. The bottom player must maintain their defensive frame until the optimal moment, then execute a coordinated sequence of hip escape, leg insertion, and upper body turn that transitions them from the turtle orientation to facing their opponent in half guard. The window for execution is narrow - moving too early telegraphs the escape and allows the top player to adjust, while moving too late allows the opponent to establish dominant controls that prevent the hip movement entirely.\n\nStrategically, this escape is particularly valuable because half guard offers significantly more offensive options than Chill Dog. Once established in half guard, the escaper can immediately begin working for underhooks, sweeps, and back takes rather than simply surviving. The transition from a purely defensive turtle position to an offensive guard platform represents a major positional improvement that shifts the dynamic of the exchange.",
   "conditions": [
     "Bottom player is in Chill Dog defensive turtle with compact frame intact",

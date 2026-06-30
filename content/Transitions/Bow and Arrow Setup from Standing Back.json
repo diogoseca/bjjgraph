@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Standing Back Control/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Bow and Arrow Setup from Standing Back Control is a high-percentage gi transition that converts standing back exposure into grounded back control with an established collar grip, positioning the attacker for one of BJJ's most powerful choking sequences. The technique exploits the vertical nature of standing back control by using a deep collar grip combined with a controlled sit-down to bring both practitioners to the ground, with the attacker already configured for the bow and arrow finishing mechanics. This bypasses the most technically demanding phase of the bow and arrow attack—obtaining a deep collar grip against an opponent who is actively defending their neck from grounded back control.\n\nThe strategic value of this setup lies in its ability to solve two problems simultaneously: the inherent instability of standing back control and the difficulty of establishing collar grips from an already-grounded position. By obtaining the collar grip while standing—where the opponent's collar is more accessible and their defensive hand fighting is compromised by the need to maintain balance—the attacker creates a significant mechanical advantage before the ground phase even begins. The takedown component functions as a consolidation tool that transitions the position to stable ground control while preserving the attacking grip.\n\nThis technique creates a powerful tactical dilemma for the defender. If they focus on stripping the collar grip, they compromise their base and accelerate the takedown. If they widen their stance to resist being taken down, their collar becomes more accessible and the attacker can deepen the grip. This dual-threat structure is what gives the technique its reliability across all competition levels, particularly in gi-based formats where collar access is the primary limiting factor for bow and arrow choke success.",
   "conditions": [
     "Gi must be worn providing collar access for the choking grip",

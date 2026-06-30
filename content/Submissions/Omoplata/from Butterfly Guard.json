@@ -19,7 +19,10 @@
   "target_area": "Shoulder joint (rotator cuff, capsule, AC joint)",
   "starting_position": "Butterfly Guard",
   "from_position": "Butterfly Guard/Bottom",
-  "success_rate": 52,
+  "success_rate": {
+    "gi": 52,
+    "nogi": 52
+  },
   "overview": "The Omoplata from Butterfly Guard exploits the seated posture and hook mechanics unique to butterfly guard to create a shoulder lock entry that bypasses many traditional omoplata defenses. Unlike closed guard omoplata entries that rely on breaking posture downward and swinging a leg over a compressed opponent, the butterfly guard version uses hook elevation to destabilize the opponent's base while simultaneously creating the space needed for the attacking leg to clear over the shoulder. The overhook serves as the primary arm control, trapping the limb while the same-side butterfly hook lifts the opponent's weight off the mat.\n\nThis entry chains naturally with butterfly sweep attempts, creating a powerful attacking dilemma. When the opponent posts a hand or shifts weight laterally to defend the butterfly sweep, they expose the posting arm to the overhook-to-omoplata transition. The hip rotation required to swing the leg over the shoulder builds on the same rotational mechanics already present in butterfly sweep execution, making the transition fluid for practitioners with strong butterfly fundamentals. The seated starting posture also eliminates the need for the dramatic hip escape required from flat-back guard positions.\n\nStrategically, the Omoplata from Butterfly Guard occupies a high-value position in modern guard systems because it punishes defensive postures that would otherwise neutralize butterfly sweep threats. Opponents who post wide and low to resist elevation become vulnerable to the leg swing, while those who stay tight and upright remain susceptible to standard butterfly sweeps. This creates a compounding offensive cycle where each defensive adjustment opens a different line of attack, making the butterfly guard bottom player increasingly dangerous as the exchange progresses.",
   "safety_considerations": {
     "injury_risks": [
@@ -100,17 +103,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 52,
+      "probability": {
+        "gi": 52,
+        "nogi": 52
+      },
       "result": "success"
     },
     {
       "to": "Butterfly Guard/Bottom",
-      "probability": 31,
+      "probability": {
+        "gi": 31,
+        "nogi": 31
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 17,
+      "probability": {
+        "gi": 17,
+        "nogi": 17
+      },
       "result": "counter"
     }
   ],

@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Standing Guard/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "The Sweep from Standing Guard targets the inherent vulnerability created when an opponent stands up in your guard. A standing posture raises the opponent's center of gravity while narrowing their base, making them susceptible to coordinated push-pull mechanics. The bottom player uses feet on the opponent's hips as a primary control mechanism, creating a fulcrum point that enables powerful leverage-based sweeps. Success depends on disrupting the standing player's base through asymmetric force application, pushing their upper body in one direction while removing support from their feet in the opposite direction.\n\nThis sweep family represents one of the most important defensive tools against modern standing guard passing. As standing passes have become dominant at high levels, the ability to sweep a standing opponent serves as both a scoring opportunity and a strategic deterrent that shapes the passer's behavior. When the bottom player demonstrates a credible sweep threat, the standing passer must divide attention between passing mechanics and base defense, creating windows for guard retention and alternative attacks. The tripod sweep and sickle sweep are the highest-percentage options, combining accessibility with effectiveness across all body types.\n\nStrategic timing separates successful sweep attempts from wasted energy. The optimal window occurs when the standing player shifts weight to initiate a passing sequence, momentarily committing their center of gravity away from neutral balance. Experienced practitioners read these micro-commitments through tactile feedback from feet on the opponent's hips and visual cues from shoulder movement. The sweep should be launched during the weight shift rather than before or after, as premature attempts telegraph intent while delayed attempts miss the balance disruption window. Following through immediately to establish top position is equally critical, as hesitation allows the opponent to recover and reguard.",
   "conditions": [
     "Opponent is standing upright in your open guard with both feet planted on the mat",

@@ -16,7 +16,10 @@
   "target_area": "Hip adductors, groin, and lower back",
   "starting_position": "Truck",
   "from_position": "Truck/Top",
-  "success_rate": 48,
+  "success_rate": {
+    "gi": 48,
+    "nogi": 48
+  },
   "summary": "The Banana Split from Truck is a compression submission where the twister hook pins one leg while the hands isolate and drive the far leg apart, overstretching the opponent's groin and hip adductors until they tap.",
   "overview": "The Banana Split from Truck is a compression submission that targets the opponent's hip adductors, groin muscles, and lower back through forced over-extension of the legs. Executed from the truck position - a 10th Planet leg-entanglement where you sit perpendicular behind and beneath the opponent with one of their legs trapped by your twister hook - this finish splits the legs apart by driving the twister-hooked leg one way while your hands isolate and pull the far leg the other way. The truck itself supplies the control, so no lockdown or deep half guard is required; the entanglement is established the moment you enter the truck off a back take, turtle break, or rolling entry.\n\nUnlike traditional joint locks that attack a specific articulation point, the Banana Split relies on muscular compression and flexibility limitations, making it particularly effective against less flexible opponents. From the truck the twister hook already pins the near leg deep behind the thigh, giving you a mechanical anchor; the work is isolating the far leg and opening the angle. Understanding the biomechanics of hip abduction and groin flexibility is essential for safe application, as there is no clear structural stopping point before tissue damage occurs.\n\nThe Banana Split integrates naturally into the truck attacking system alongside the calf slicer, spine lock, and twister, creating multiple offensive threats that force defensive errors. When the opponent fights to free the trapped leg, they often expose the back take or twister; when they roll to escape the truck, they feed the calf slicer or recover guard at the cost of position. This dilemma-based approach makes the banana split threat valuable even when the finish itself is not achieved.",
   "safety_considerations": {
@@ -69,17 +72,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 48,
+      "probability": {
+        "gi": 48,
+        "nogi": 48
+      },
       "result": "success"
     },
     {
       "to": "Truck/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 22,
+      "probability": {
+        "gi": 22,
+        "nogi": 22
+      },
       "result": "counter"
     }
   ],

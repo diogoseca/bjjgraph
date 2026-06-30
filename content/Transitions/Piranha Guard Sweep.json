@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Piranha Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Piranha Guard Sweep is an advanced lapel-based sweep that exploits the unique mechanical advantages of the Piranha Guard configuration. By threading the opponent's collar through your legs and maintaining strategic grip placements, you create a pulley-like mechanism that generates exceptional posture-breaking leverage. The sweep combines this lapel tension with coordinated hip movement and hook elevation to off-balance the opponent and complete a reversal to mount, one of the most dominant positions in Brazilian Jiu-Jitsu.\n\nThe technique operates on the principle of compound off-balancing, where the lapel pull breaks the opponent's forward-backward base while a butterfly or shin hook attacks their lateral stability simultaneously. This multi-directional force application makes the sweep particularly difficult to defend because the opponent cannot address both vectors at once. The sweep is most effective when the opponent commits weight forward during grip stripping attempts or pressure passing, converting their offensive energy into the fuel for the reversal.\n\nWithin the broader Piranha Guard system, this sweep serves as the primary positional advancement tool, creating a constant threat that forces the top player to maintain conservative posture and base width. This threat alone opens secondary attacks including berimbolo entries, collar drags to back control, and submission setups. The sweep integrates with the complete Piranha Guard attack tree, functioning as both a standalone technique and a chain-starting movement that flows into alternative attacks when the initial sweep is defended.",
   "conditions": [
     "Piranha Guard established with opponent's lapel threaded deep through bottom player's legs",

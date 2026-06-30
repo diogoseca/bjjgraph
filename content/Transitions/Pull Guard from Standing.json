@@ -15,26 +15,41 @@
   "outcomes": [
     {
       "to": "Closed Guard/Bottom",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "success"
     },
     {
       "to": "Standing Position/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "overview": "Pulling guard from standing is one of the most strategically significant transitions in competitive Brazilian Jiu-Jitsu, representing a deliberate decision to take the fight to the ground on your own terms rather than engaging in a protracted takedown battle. This technique transforms a neutral standing exchange into a ground fight where the guard puller can immediately begin working their preferred guard system, making it the cornerstone transition for competitors whose primary strength lies in bottom-position grappling. The guard pull has become ubiquitous in sport BJJ at all levels, from local tournaments through the highest levels of professional competition.\n\nThe mechanics of pulling guard from standing require precise coordination between grip establishment, weight distribution, and hip placement. Without proper controlling grips, the descent becomes uncontrolled, leaving you vulnerable to immediate guard passes or landing in a compromised position with no meaningful connection to your opponent. The fundamental sequence involves using established grips to pull your opponent's upper body forward while simultaneously sitting and inserting your hips beneath theirs, creating the structural foundation for closed guard before they can react with passing pressure or disengagement.\n\nAt the competitive level, the guard pull is far more nuanced than simply sitting down. Elite guard pullers use the transition itself as an offensive weapon, threatening sweeps and submissions during the descent phase. The key differentiator between a high-percentage and a failed guard pull lies in maintaining grip tension and body connection throughout the entire transition from standing to guard, ensuring you arrive in a consolidated position with immediate offensive capability rather than a scramble where the opponent holds the initiative.",
   "conditions": [
     "Both practitioners standing with active engagement and within grip-fighting range",

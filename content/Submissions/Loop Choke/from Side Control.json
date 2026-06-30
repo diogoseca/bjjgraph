@@ -17,7 +17,10 @@
   "target_area": "Carotid arteries and jugular veins",
   "starting_position": "Side Control",
   "from_position": "Side Control/Top",
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Loop Choke from Side Control is a deceptive gi-based blood choke that capitalizes on the perpendicular body alignment inherent to side control to create a collar-based strangling mechanism. Unlike many side control submissions that require significant positional transitions, the loop choke can be initiated by converting the existing crossface grip into a deep collar penetration and finishing by sprawling the hips back while maintaining chest-to-chest pressure. The technique is particularly effective as a counter to common side control escape attempts, since the bottom player's turning and shrimping motions can inadvertently deepen the collar grip and accelerate the choke's tightening.\n\nThe perpendicular body alignment creates unique finishing mechanics compared to mount-based collar chokes, relying more on horizontal pressure vectors and hip sprawl rather than gravity-assisted downward force. The crossface position provides a natural on-ramp to the collar grip, making the transition from control to submission threat nearly invisible to experienced opponents.\n\nPractitioners who develop this technique gain a powerful addition to their side control submission chain, threatening the loop choke alongside Americanas, kimuras, and arm triangles to create a multi-layered attacking system that forces opponents into increasingly desperate escape attempts where each defensive reaction exposes a new vulnerability.",
   "safety_considerations": {
     "injury_risks": [
@@ -61,17 +64,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Side Control/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],

@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Old School/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Flattened Half Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Transition to Old School is the critical positional entry from standard half guard bottom into the Old School attacking position, a cornerstone of lockdown-based half guard offense. This transition transforms a neutral or defensive half guard bottom into an immediately threatening sweep platform by establishing three simultaneous controls: the lockdown figure-four on the trapped leg, a deep underhook on the near side, and head control with the far arm. Each control element serves a distinct mechanical purpose, and the sequence in which they are established determines success probability.\n\nStrategically, this transition represents the bridge between passive half guard retention and active offensive half guard play. Once Old School is fully established, the bottom player commands a cascade of high-percentage attacks including the Old School Sweep to mount, Electric Chair submissions, and back take entries. The top player's window to prevent this transition is narrow and requires immediate recognition of the lockdown threat. Delaying defensive responses by even one or two seconds often means conceding the full Old School position.\n\nThe transition demands precise timing and sequencing rather than explosive athleticism. The lockdown must be secured first to anchor the position and limit the top player's base, then the underhook fight must be won before the top player can establish a whizzer or crossface, and finally head control cements the positional advantage. Practitioners who master this entry sequence convert half guard bottom from a survival position into a launching pad for sweeps and submissions that force the top player into constant defensive reactions.",
   "conditions": [
     "Bottom player has one of top player's legs trapped in half guard",

@@ -13,21 +13,33 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Lapel Guard/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "summary": "The Lapel Elevator Sweep is a gi-specific reversal from lapel guard bottom that uses the opponent's own trapped lapel as a lever combined with a butterfly hook to off-balance them directly into mount.",
   "overview": "Within the modern lapel guard attack system, the elevator sweep is the most direct bottom-to-top reversal, capitalizing on the unique control properties of lapel guards where the extracted lapel wrapped around the opponent's leg or torso creates persistent connection points that amplify your hip movement into dramatic off-balancing force. Because the fabric anchor does not require the constant grip maintenance of a traditional sleeve or collar tie, the bottom player can load the sweep patiently and wait for the exact reaction that makes it unstoppable.\n\nThe sweep works by combining a butterfly hook elevation with the pulling tension of the lapel grip to create a compound lever system. As you elevate with your hook, the lapel prevents the opponent from posting their hand or stepping out, channeling all their momentum into the sweep direction. The result is a sweep that feels almost effortless when timed correctly, as you're leveraging mechanical advantage rather than fighting strength against strength.\n\nStrategically, the Lapel Elevator Sweep fits into the broader lapel guard attack system as a primary sweeping threat that creates dilemmas. Opponents who defend the sweep by keeping heavy base expose themselves to back takes and omoplata entries. Those who try to clear the lapel configuration first open windows for the sweep execution. This technique rewards patience and positional awareness over explosive athleticism.",
   "related_content": [

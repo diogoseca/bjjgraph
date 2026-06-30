@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "New York/Bottom",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Crackhead Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Crackhead Control to New York transition represents a fundamental angle adjustment within the 10th Planet Rubber Guard system, allowing practitioners to shift from the high-risk, submission-dense Crackhead Control to the more stable New York position. This transition becomes essential when the deep overhook of Crackhead Control creates excessive back exposure, when the opponent's defensive posture makes Crackhead submissions difficult, or when you need to reset your offensive chain from a different angle.\n\nThe mechanical distinction between Crackhead Control and New York centers on overhook depth and leg positioning. Crackhead Control features the deepest overhook penetration with aggressive forward leg pressure, creating maximum submission threat but significant back exposure. New York maintains a strong overhook while repositioning the controlling leg from aggressive neck pressure to a more sustainable shin-across-back configuration. This adjustment trades some immediate submission threat for improved positional stability and access to different attack chains including Invisible Collar, Zombie, and Carni progressions.\n\nStrategically, this transition serves as a positional reset that maintains offensive momentum while reducing defensive vulnerability. When opponents begin recognizing Crackhead Control patterns and timing their back take attempts during your submission extensions, transitioning to New York disrupts their defensive timing while keeping your overhook anchor intact. The transition also opens different submission pathways that may be more appropriate for the opponent's specific defensive reactions - fighters who defend gogoplata effectively often become vulnerable to the triangle and omoplata chains more accessible from New York.\n\nEnergy management considerations make this transition particularly valuable during extended guard exchanges. Crackhead Control's aggressive positioning requires significant hip flexor engagement and core tension, leading to fatigue over time. New York offers a more sustainable control structure that allows brief recovery periods while maintaining offensive threat. Experienced rubber guard players cycle between these positions strategically, using Crackhead Control for submission bursts and New York for positional consolidation.",
   "related_content": [
     {

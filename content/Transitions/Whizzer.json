@@ -25,21 +25,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 75,
+      "probability": {
+        "gi": 75,
+        "nogi": 75
+      },
       "result": "success"
     },
     {
       "to": "Overhook Control/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "failure"
     },
     {
       "to": "Overhook Control/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 68,
+  "success_rate": {
+    "gi": 68,
+    "nogi": 68
+  },
   "overview": "The Whizzer is a fundamental overhook control position that serves as both a powerful defensive mechanism and an offensive transition tool in Brazilian Jiu-Jitsu. Borrowed from wrestling, this technique involves threading your arm over your opponent's arm and controlling their shoulder, creating a mechanical advantage that neutralizes underhook-based attacks while opening pathways to dominant positions. The Whizzer excels in multiple contexts: defending single-leg takedowns, preventing back takes from turtle, controlling scrambles, and setting up your own offensive transitions to back control or reversal positions.\n\nUnderstanding when to establish, maintain, and abandon the Whizzer separates competent grapplers from those who get swept or taken down repeatedly. The position's effectiveness stems from its ability to control your opponent's posture and limit their hip mobility while preserving your own defensive structure and offensive options. The key biomechanical principle is that the overhook elevates the opponent's arm above their optimal power angle, rendering their underhook functionally useless while you maintain full bilateral capability.\n\nThe Whizzer is inherently transitional. Holding it statically wastes energy and gives your opponent time to adapt. The highest-percentage application involves establishing the Whizzer, immediately breaking the opponent's posture with shoulder pressure and head control, reading their defensive reaction, and transitioning within three to five seconds to back control, kimura, or a reversal sweep based on their weight distribution and movement direction.",
   "related_content": [
     {

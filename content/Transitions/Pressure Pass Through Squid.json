@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Lapel Guard/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Pressure Pass Through Squid is a specialized guard passing technique designed to defeat squid guard configurations where the opponent has wrapped your lapel around your posting arm. Unlike worm guard where backstep mechanics are primary, squid guard's arm entanglement is less restrictive to leg movement, making heavy forward pressure a viable solution. The technique leverages your bodyweight to compress the bottom player despite the lapel barrier, negating their frame while advancing to side control.\n\nThis pass represents a critical skill for anyone competing in gi BJJ where modern lapel guards have become increasingly prevalent. Rather than spending energy attempting to clear the lapel configuration technically, you accept the arm entanglement temporarily and use overwhelming pressure to collapse their guard structure. The squid guard relies on distance and angles to function effectively—heavy chest-to-chest pressure eliminates both advantages simultaneously.\n\nStrategically, this technique should be deployed when you recognize squid guard early and before the bottom player establishes secondary grips or leg entanglements that would compound the problem. The pressure pass works best against opponents who rely primarily on the lapel configuration without developing complementary guard retention skills. Against experienced lapel players who chain multiple configurations together, combining pressure with technical lapel clearing produces superior results.",
   "conditions": [
     "Opponent has established squid guard with lapel wrapped around your posting arm",

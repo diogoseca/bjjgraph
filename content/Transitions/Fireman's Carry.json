@@ -18,21 +18,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Clinch/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Clinch/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "summary": "The Fireman's Carry (Kata Guruma) is a standing wrestling takedown where you trap an opponent's arm, change levels to drop beneath their hips, load them across your shoulders, then rotate them to the mat and follow into side control.",
   "overview": "The Fireman's Carry is a classical wrestling takedown that has found valuable application in Brazilian Jiu-Jitsu, particularly in no-gi and MMA contexts. This technique involves using a combination of off-balancing, level change, and explosive lifting to elevate your opponent onto your shoulders before driving them to the mat. The Fireman's Carry is particularly effective against opponents who maintain an upright posture in the clinch, as it exploits their high center of gravity and creates a sudden positional reversal. Unlike many BJJ takedowns that rely on pulling or tripping, the Fireman's Carry demonstrates the principle of lifting and redirecting an opponent's weight, making it an excellent complement to guard pulling and other ground-focused entries. The technique requires precise timing, proper body mechanics, and the ability to coordinate multiple movements simultaneously - the level change, arm control, penetration step, and lifting motion must all flow together seamlessly. When executed correctly, the Fireman's Carry not only achieves the takedown but also places you in an advantageous top position, often side control or modified mount, allowing for immediate passing or submission attempts. This makes it a high-percentage technique for competitors who want to establish top control early in a match.",
   "conditions": [

@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Open Guard/Bottom",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Reverse Half Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "Inverting from reverse half guard is an advanced guard recovery technique where the bottom player uses a granby roll to rotate through an inverted position and re-establish open guard. This technique exploits the unusual angle of the reverse half guard position, where the bottom player's back already faces the opponent, making a rotational escape more mechanically efficient than trying to face the opponent directly through their pressure.\n\nThe inversion works by converting the compromised reverse orientation into rotational momentum. Rather than fighting to turn back toward the opponent through the strong side of their pressure, the bottom player rolls away and underneath, using the near shoulder as a pivot point. The trapped leg serves as an anchor during the initial phase of rotation, and the movement concludes with the bottom player facing the opponent in an open guard configuration with active leg frames re-established.\n\nThis technique requires precise timing and full commitment. The optimal window opens when the top player commits their weight forward or shifts laterally, momentarily reducing their ability to follow the rotation. Hesitation during the inversion is the primary failure point—incomplete rotations leave the bottom player in a worse position with maximum back exposure. The technique carries inherent risk because the inverted phase briefly exposes the back, making it essential to complete the full rotation as a single explosive movement with immediate guard engagement upon finishing.",
   "conditions": [
     "Opponent's weight committed forward or to one side, creating rotational opportunity",

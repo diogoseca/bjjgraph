@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 27,
+      "probability": {
+        "gi": 27,
+        "nogi": 27
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "Among closed guard sweeps, the Balloon Sweep is distinctive for importing butterfly guard's vertical lifting mechanics into the locked-leg structure of the closed guard. It exploits the opponent's forward pressure and posture by using an explosive upward lifting motion combined with hip movement to elevate and off-balance them. The name derives from the balloon-like inflation of the hips and legs that creates the sweeping momentum. Unlike traditional closed guard sweeps that rely primarily on lateral movement, the Balloon Sweep uses vertical displacement to compromise the opponent's base before transitioning them over your center line. This makes it particularly effective against opponents who maintain a strong low base and resist lateral sweeps.\n\nThe technique requires precise timing and coordination between upper body control and lower body mechanics. The sweeper must break the opponent's posture, load their weight onto a butterfly hook or posting foot, then execute an explosive hip extension synchronized with a collar pull. The vertical lift creates a moment of weightlessness that eliminates the opponent's ability to post or widen their base. This mechanical principle distinguishes the Balloon Sweep from hip-dominant sweeps like the Hip Bump or momentum-based sweeps like the Pendulum, giving practitioners a critical tool against opponents who neutralize those standard attacks.\n\nStrategically, the Balloon Sweep occupies a key role in the closed guard sweeping system because it punishes the defensive posture that defeats lateral sweeps. When opponents widen their base to resist Scissor Sweeps or drop their hips to counter Hip Bumps, they concentrate weight forward and inward, which is precisely the loading condition the Balloon Sweep exploits. This creates a self-correcting offensive cycle where the opponent's successful defense of one sweep creates the ideal setup for another.",
   "conditions": [
     "Opponent's posture is broken forward with weight over their hands or knees",

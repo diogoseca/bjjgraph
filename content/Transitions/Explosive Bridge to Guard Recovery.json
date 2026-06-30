@@ -15,26 +15,41 @@
   "outcomes": [
     {
       "to": "Closed Guard/Bottom",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "success"
     },
     {
       "to": "North-South/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "North-South bottom is one of the hardest pins to escape, and most exits either surrender the back or concede mount; the explosive bridge to guard recovery is the rare option that returns you to a guard you can actually attack from. This escape capitalizes on the brief windows created during opponent weight shifts, using explosive hip extension to off-balance the top player and immediately inserting the legs to establish a guard position.\n\nThe technique requires precise timing rather than raw strength. The optimal moment occurs when the top player shifts weight to attack submissions, transition to mount, or adjust their base. During these micro-transitions, the perpendicular pressure momentarily decreases, creating an opportunity for the explosive bridge. The bridge must be directed at a 45-degree angle toward the opponent's knees rather than straight up, as this creates rotational force that disrupts their base.\n\nStrategically, this escape serves as a reset mechanism when other North-South escapes fail or are unavailable. Unlike the bridge-and-turn escape to turtle, which requires committing to a turning direction, this technique keeps you on your back in a guard position where your legs become your primary defensive weapons. This makes it particularly valuable for guard players who prefer to work from closed guard or half guard rather than scrambling through turtle positions.",
   "conditions": [
     "Opponent has established North-South control with chest pressure across your torso",

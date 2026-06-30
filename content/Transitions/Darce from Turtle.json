@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Darce Control/Top",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Turtle/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Turtle/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "overview": "The Darce choke from turtle position is one of the most high-percentage submission setups in modern Brazilian Jiu-Jitsu, particularly in no-gi competition. This technique capitalizes on the opponent's defensive turtle posture by attacking the exposed neck and far-side arm, threading your arm across the throat to establish a powerful figure-four choke configuration that targets both carotid arteries simultaneously. The Darce from turtle is especially effective because opponents often feel safe in the turtle position, focusing their defensive attention on preventing back takes rather than neck attacks.\n\nThe technique requires precise arm positioning, sustained chest-to-back pressure, and an understanding of how to create the necessary angle to thread your choking arm deep enough for a viable finish. The threading depth is the single most important variable - your hand must emerge near opponent's far-side lat muscle before you lock any grip. Premature grip locking on a shallow thread is the most common reason this technique fails at every level.\n\nThis submission setup has become a staple in the arsenals of high-level competitors due to its effectiveness against various turtle defensive strategies and its ability to chain seamlessly with anaconda choke, guillotine, and back take options from the same initial front headlock control. The shared entry point creates genuine submission dilemmas for the defender, who must choose which attack to prioritize defending while the attacker reads their reactions and flows between threats.",
   "conditions": [
     "Opponent is in defensive turtle position with back exposed",

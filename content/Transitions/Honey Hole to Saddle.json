@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Saddle/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Honey Hole/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Honey Hole to Saddle transition represents a critical positional optimization within the modern leg lock system. While both positions share the same fundamental inside leg entanglement architecture, the distinction lies in the degree of control consolidation and perpendicular alignment achieved. The Honey Hole describes the initial catch where the inside triangle is secured but hip pressure, body angle, and grip hierarchy may not yet be fully optimized. The Saddle represents the refined dominant configuration where perpendicular alignment is maximized, hip pressure pins the opponent completely, and the submission dilemma framework is fully operational.\n\nThis transition occurs when the attacker recognizes that their current Honey Hole control lacks the systematic optimization required to reliably finish submissions against a technically proficient defender. The reconfiguration involves adjusting hip angle, tightening the leg triangle, driving the outside leg deeper across the opponent's hip, and establishing the grip sequence that enables the submission dilemma where defending one attack exposes another. The process requires momentary reduction in control pressure during adjustment, creating a window where alert defenders can initiate escape sequences.\n\nStrategically, this transition reflects the modern leg lock philosophy of position before submission. Rather than attacking immediately from a loose Honey Hole, elite practitioners invest in achieving the Saddle configuration where finishing rates increase dramatically. The 55% success rate reflects the inherent tension between the need to optimize and the risk of creating space during reconfiguration against a resisting opponent.",
   "conditions": [
     "Established inside leg triangle control from Honey Hole position with opponent's leg trapped",

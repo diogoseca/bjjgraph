@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Aoki Lock Control/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Turtle/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "summary": "Aoki Lock to Back Control is a no-gi transition where the top player abandons a stalling shoulder lock to ride the opponent's rolling escape into seatbelt control and back hooks, converting a defended submission into the most dominant position in grappling.",
   "overview": "The Aoki Lock to Back Control transition exploits the natural defensive reaction of an opponent caught in the Aoki Lock shoulder submission. When the bottom player attempts to roll through or rotate away from the shoulder pressure, the top player abandons the submission grip and follows the opponent's momentum to establish hooks and seatbelt control on the back. This is a high-percentage bail-out that converts a potentially stalled shoulder lock into the most dominant control position in grappling.\n\nStrategically, this transition functions as the primary alternative when the Aoki Lock finish stalls. Rather than burning energy forcing a defended shoulder lock, recognizing the moment your opponent commits to a rolling escape allows you to ride their movement directly into back control. The leg entanglement from Aoki Lock provides a natural starting point for hook insertion, since your legs are already threaded around the opponent's upper body. The key mechanical insight is that the same leg positioning that creates shoulder pressure can be redirected into back hooks with minimal adjustment.\n\nThis technique is particularly effective in no-gi competition where the absence of collar grips makes the Aoki Lock harder to finish but the slippery surface facilitates smooth transitions to the back. It represents the core principle of positional advancement over submission hunting: when your opponent gives you their back to escape a joint lock, taking the superior position often yields better finishing opportunities than the original attack.",
   "conditions": [

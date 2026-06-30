@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Ringworm Guard/Bottom",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "Lapel Guard/Bottom",
-      "probability": 27,
+      "probability": {
+        "gi": 27,
+        "nogi": 27
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "Ringworm Guard Entry occupies the high end of the modern lapel guard system, sitting alongside worm guard and squid guard as one of the most demanding configurations available from bottom lapel play. The position creates unprecedented control density by simultaneously restricting the opponent's leg mobility and posting arm, essentially eliminating both primary passing mechanisms in a single configuration.\n\nThe strategic value of ringworm lies in its ability to create compounding dilemmas. Unlike simpler lapel configurations where the opponent can focus defensive resources on a single control point, ringworm requires them to address multiple entanglements simultaneously. Attempting to clear the leg wrap exposes the arm to deeper control; trying to extract the arm allows the leg wrap to tighten. This mechanical trap frustrates even technically proficient passers who understand individual lapel guard solutions.\n\nFrom a game theory perspective, ringworm represents an investment position. The complexity of establishing the full configuration means higher setup risk compared to basic worm or squid guard, but the payoff is a control position with dramatically higher submission and sweep percentages. Advanced practitioners use ringworm as an endgame configuration, transitioning into it from simpler lapel guards once they've read their opponent's defensive tendencies and identified optimal attack vectors.",
   "related_content": [
     {

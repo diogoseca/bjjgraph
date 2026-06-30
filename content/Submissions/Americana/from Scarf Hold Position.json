@@ -20,7 +20,10 @@
   "target_area": "Shoulder joint (specifically glenohumeral joint and rotator cuff)",
   "starting_position": "Scarf Hold Position",
   "from_position": "Scarf Hold Position/Top",
-  "success_rate": 68,
+  "success_rate": {
+    "gi": 68,
+    "nogi": 68
+  },
   "overview": "Within the americana family, the scarf hold entry occupies a distinct niche because kesa gatame already supplies the head-and-arm control that other variants must first establish. Unlike the Americana from mount or side control, this variant positions the attacker's hands near the target wrist from the outset, shortening the path to the figure-four. The perpendicular seating angle generates rotational leverage on the glenohumeral joint through body mechanics rather than pure arm strength, making this one of the highest-percentage americana setups in grappling.\n\nFrom the scarf hold, the attacker transitions from head control to wrist control while maintaining crushing hip pressure against the opponent's ribcage. The figure-four grip is established with the near arm securing the wrist and the far arm threading behind it, creating the classic paint brush finishing motion. The perpendicular angle means the attacker can use their entire torso rotation to drive the wrist toward the mat, applying substantially more force than arm-based finishes from parallel positions.\n\nDefensively, the bottom player must recognize the grip transition early and fight to straighten their arm before the figure-four locks in. Once the figure-four is secured with the elbow pinned, escape becomes extremely difficult. The scarf hold Americana represents a fundamental submission that rewards patience, grip precision, and understanding of rotational shoulder mechanics over explosive athleticism.",
   "safety_considerations": {
     "injury_risks": [
@@ -115,17 +118,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 68,
+      "probability": {
+        "gi": 68,
+        "nogi": 68
+      },
       "result": "success"
     },
     {
       "to": "Scarf Hold Position/Top",
-      "probability": 21,
+      "probability": {
+        "gi": 21,
+        "nogi": 21
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 11,
+      "probability": {
+        "gi": 11,
+        "nogi": 11
+      },
       "result": "counter"
     }
   ],

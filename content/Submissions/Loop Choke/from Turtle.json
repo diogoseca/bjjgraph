@@ -17,7 +17,10 @@
   "target_area": "Carotid arteries and jugular veins",
   "starting_position": "Turtle",
   "from_position": "Turtle/Top",
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "When an opponent turtles defensively to avoid conceding guard pass points, their collar becomes reachable from the front or side, creating an ideal entry for the loop choke's cross-collar grip mechanics. The attacker threads a deep four-finger grip into the opponent's far collar while controlling the head with the free hand, then executes a forward roll or sprawl-and-turn motion to cinch the collar loop tight around both carotid arteries.\n\nWhat makes this variation particularly effective is that the turtle position inherently limits the defender's ability to frame or create distance, as their arms are committed to maintaining their four-point base structure. The rolling finish adds rotational force that tightens the choke beyond what static pulling alone can achieve, creating a self-tightening mechanism as the attacker's bodyweight drives through the rotation. The technique requires precise grip placement before committing to the roll, because once the rolling motion begins, grip adjustments become nearly impossible.\n\nThis submission chains naturally with other turtle attacks like the clock choke, anaconda choke, and back takes, creating a dangerous attacking web that forces the turtled opponent into impossible defensive dilemmas. The loop choke from turtle is especially prevalent in gi competition where collar access is abundant and opponents frequently turtle to avoid conceding guard pass points, making it a critical weapon in any top player's turtle attack system.",
   "safety_considerations": {
     "injury_risks": [
@@ -66,17 +69,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Turtle/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],

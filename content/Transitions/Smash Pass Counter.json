@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Ringworm Guard/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Smash Pass Counter is a pressure-based response to Ringworm Guard that prioritizes extracting the trapped leg from the lapel configuration while simultaneously driving forward with heavy shoulder and hip pressure. Unlike standing extraction methods that create distance, this approach uses proximity and weight to nullify the guard player's leverage while systematically breaking down their lapel control.\n\nThis technique is particularly effective against guard players who rely heavily on the lapel wrap tension to generate sweeping momentum. By collapsing into the guard rather than pulling away, you remove the space necessary for effective sweeps and back takes. The smash pass counter converts the opponent's guard into a cramped, defensive position where their mobility is severely compromised.\n\nStrategically, this pass represents the aggressive response to Ringworm Guard and works best when the opponent has already committed to the lapel wrap but hasn't yet established secondary controls on your upper body. The timing window is narrow - attempt this too early and the guard isn't established enough to pass, too late and the opponent has too many control points for smash passing to succeed.",
   "related_content": [
     {

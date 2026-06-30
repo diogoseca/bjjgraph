@@ -18,21 +18,33 @@
   "outcomes": [
     {
       "to": "Darce Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Front Headlock/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Front Headlock/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Front Headlock to Darce transition represents one of the most powerful finishing sequences from the front headlock position. This technique capitalizes on the opponent's defensive posture in turtle or scramble situations, where they attempt to protect their neck while maintaining a low base. The transition exploits the natural tendency of opponents to circle away from the choking arm, creating the perfect angle for the Darce configuration.\n\nThe effectiveness of this transition lies in its seamless flow from control to submission setup. Unlike many submission entries that require dramatic position changes, the Front Headlock to Darce maintains constant pressure while incrementally improving control points. The practitioner uses the front headlock grip as a foundation, then methodically secures the underhook and locks the figure-four configuration without releasing primary controls. This continuity makes the technique particularly difficult to defend once properly initiated.\n\nThis transition is fundamental to modern no-gi grappling and represents a cornerstone of systematic front headlock attack systems. It combines well with other front headlock finishes, creating a web of attacks that force opponents into submission dilemmas. The Darce entry from front headlock is a Type B submission setup: it leads to Darce Control, a distinct control position where the choke is then finished as a separate sequence. Mastery of this technique provides both a high-percentage path to a finishing position and a powerful platform from which to chain multiple submission attempts.",
   "related_content": [
     {

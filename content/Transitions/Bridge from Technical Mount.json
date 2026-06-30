@@ -15,26 +15,41 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "success"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "success"
     },
     {
       "to": "Technical Mount/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 35,
+  "success_rate": {
+    "gi": 35,
+    "nogi": 35
+  },
   "overview": "The bridge from technical mount is one of the most critical defensive movements available to the bottom player trapped in this asymmetric mount variation. Unlike bridging from standard mount where both sides offer roughly equal bridging angles, technical mount's stepped leg configuration restricts effective bridging direction, demanding precise directional awareness and explosive timing to generate meaningful displacement. The bottom player must bridge toward the opponent's inside leg—the weaker base side—rather than the posted leg, which acts as a stabilizing tripod that absorbs bridging force.\n\nThe key biomechanical challenge stems from the top player's weight distribution across the posted leg and inside hook. The stepped leg provides a wide, stable base that resists lateral displacement on one side, while the inside leg controls the bottom player's hip movement on the other. Successful execution requires the bottom player to generate explosive hip extension timed precisely to the top player's forward weight shifts, particularly when they commit toward submission attempts. This momentary lightening of hip pressure creates the window needed for effective displacement and subsequent guard recovery.\n\nThis escape serves as a foundational defensive tool that creates the space necessary for transitioning to half guard or closed guard. While lower percentage than bridging from standard mount due to the positional asymmetry, the bridge remains essential because technical mount threatens immediate armbar and triangle submissions. The escape must be followed immediately by hip escape movement—the bridge alone rarely completes the positional recovery. Practitioners who master the timing and directional components of this technique gain a reliable defensive option that converts the top player's offensive commitment into escape opportunities.",
   "variants_and_adaptations": [
     {

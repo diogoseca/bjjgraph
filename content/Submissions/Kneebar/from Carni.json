@@ -20,7 +20,10 @@
   "target_area": "Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule)",
   "starting_position": "Carni",
   "from_position": "Carni/Bottom",
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "overview": "The kneebar from Carni exploits a common defensive reaction in modern leg entanglement systems. When caught in the Carni position, opponents frequently extend their trapped leg attempting to create distance or extract from the entanglement. This extension inadvertently exposes the knee to hyperextension attack, as the attacker already possesses inside leg positioning and ankle control from the established Carni configuration.\n\nWhat makes this kneebar particularly effective is the pre-existing control framework. Unlike standalone kneebar entries that require building control from scratch, the Carni-based kneebar leverages an already established leg entanglement. The attacker transitions by shifting their hip position behind the opponent's knee, triangling their legs around the thigh, and securing the shin to their chest. The finishing extension comes from hip drive rather than arm strength, creating substantial mechanical advantage against the knee joint.\n\nThis submission chains directly with heel hook threats from Carni, establishing a powerful offensive dilemma. When opponents bend their knee to defend the kneebar, they re-expose their heel for immediate attack. When they extend to defend the heel hook, they create the kneebar opening. This dual-threat system is a hallmark of advanced leg lock play and represents the evolution of the Carni from a single-submission position into a comprehensive leg attack platform.",
   "safety_considerations": {
     "injury_risks": [
@@ -104,17 +107,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Carni/Bottom",
-      "probability": 26,
+      "probability": {
+        "gi": 26,
+        "nogi": 26
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 14,
+      "probability": {
+        "gi": 14,
+        "nogi": 14
+      },
       "result": "counter"
     }
   ],

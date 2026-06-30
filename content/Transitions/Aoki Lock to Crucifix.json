@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Crucifix/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Aoki Lock Control/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Turtle/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Aoki Lock to Crucifix transition represents a high-level positional advancement that converts unilateral shoulder lock control into the devastatingly dominant bilateral arm trap of the crucifix. This transition capitalizes on the opponent's defensive responses to the Aoki Lock—when they focus on protecting their trapped shoulder and preventing the finish, they often expose their far arm, creating the opportunity to capture both limbs and achieve complete weapons denial.\n\nFrom a strategic perspective, this transition follows the principle of using submission threats as positional leverage. The Aoki Lock's shoulder pressure forces the opponent to commit defensive resources, frequently requiring them to post or frame with their free arm. This defensive commitment creates the entry window for crucifix capture. The transition requires precise timing, reading the opponent's weight distribution, and the technical ability to maintain control of the initially trapped arm while securing the second.\n\nThe crucifix destination represents a significant positional upgrade from Aoki Lock. While Aoki Lock offers a single submission threat with moderate escape routes, the crucifix eliminates virtually all defensive options and opens multiple high-percentage finishing paths including rear naked choke, arm-in chokes, and armbars. Practitioners who master this transition develop the ability to convert stalled submission attempts into dominant control positions, embodying the position-before-submission principle at an advanced level.",
   "related_content": [
     {

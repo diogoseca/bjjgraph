@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Cross Body Ride/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Cross Body to Side Control is a fundamental positional advancement from the cross body ride on turtle. Rather than pursuing a back take, the top player leverages perpendicular shoulder pressure and systematic weight distribution to collapse the opponent's turtle structure, flattening them onto their back and establishing dominant side control. This transition is particularly valuable when the opponent demonstrates strong turtle defense—tight elbows, hidden neck, solid base—that makes direct back exposure difficult to achieve.\n\nThe technique's strategic significance lies in providing a reliable alternative advancement pathway from turtle control. While back takes represent the highest-value transition from cross body ride, they require specific conditions including seatbelt completion and hook insertion. When these conditions are unavailable, flattening to side control delivers a dominant top position worth three points in competition with multiple submission and advancement options. This makes Cross Body to Side Control an essential tool in any complete turtle attack system.\n\nExecution demands maintaining continuous chest-to-back connection throughout the transition. The critical mechanical principle is that pressure must precede movement: the top player drives heavy shoulder pressure to break the opponent's posting structure before sliding into the side control configuration. Attempting the positional change without first collapsing the turtle creates space that the opponent exploits for guard recovery, re-turtling, or a reversal that costs dominant position entirely.",
   "conditions": [
     "Established cross body ride with chest positioned perpendicular across opponent's upper back",

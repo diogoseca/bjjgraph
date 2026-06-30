@@ -68,6 +68,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from claude_infer import call_claude  # shared CLI inference + usage-limit backoff
 from _prob_norm import largest_remainder_round  # int distribution summing to 100
 from _atomic_io import atomic_write_json  # crash-safe writes
+from _ruleset import reduce_to_scalar  # collapse mirror {gi,nogi} maps at load (calibration-v2)
 
 # --------------------------------------------------------------------------- #
 # Paths & constants
@@ -230,7 +231,7 @@ def load_principles() -> list:
     for path in sorted(glob.glob(os.path.join(PRINCIPLES_DIR, "*.json"))):
         try:
             with open(path, encoding="utf-8") as fh:
-                d = json.load(fh)
+                d = reduce_to_scalar(json.load(fh))
             n = d.get("name") or os.path.basename(path)[:-5]
             names.append(n)
         except (json.JSONDecodeError, OSError):
@@ -248,7 +249,7 @@ def build_technique_index() -> dict:
                 continue
             try:
                 with open(path, encoding="utf-8") as fh:
-                    d = json.load(fh)
+                    d = reduce_to_scalar(json.load(fh))
             except (json.JSONDecodeError, OSError):
                 continue
             if not isinstance(d, dict) or "name" not in d or d.get("is_family"):
@@ -281,7 +282,7 @@ def build_cases_from_content(max_cases: int, max_candidates: int) -> dict:
     for path in pos_paths:
         try:
             with open(path, encoding="utf-8") as fh:
-                d = json.load(fh)
+                d = reduce_to_scalar(json.load(fh))
         except (json.JSONDecodeError, OSError):
             continue
         pos_name = d.get("name") or os.path.basename(path)[:-5]

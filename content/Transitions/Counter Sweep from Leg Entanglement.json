@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "success"
     },
     {
       "to": "Leg Entanglement/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "failure"
     },
     {
       "to": "Saddle/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 35,
+  "success_rate": {
+    "gi": 35,
+    "nogi": 35
+  },
   "overview": "The counter sweep from leg entanglement is a positional reversal technique executed by the bottom player when their opponent is attacking from an ashi garami or related entanglement configuration. Rather than defending purely through leg extraction or guard recovery, this technique weaponizes the opponent's commitment to the leg attack, using the entanglement itself as a fulcrum to off-balance and sweep the attacker before establishing side control.\n\nThe strategic value lies in punishing overcommitment. When an opponent dedicates their upper body and hips to finishing a leg submission, they necessarily compromise their base and postural integrity. The counter sweep exploits this trade-off by converting what appears to be a defensive survival situation into offensive position advancement. Timing is paramount—the sweep window opens precisely when the opponent shifts their weight backward or laterally to apply finishing mechanics on a heel hook, toe hold, or kneebar.\n\nThis technique has become increasingly important in modern no-gi grappling where leg lock exchanges dominate. Practitioners who can sweep from entanglements create a powerful deterrent against reckless leg attack entries, forcing opponents to maintain better positional discipline during their leg lock sequences. The ability to reverse from bottom leg entanglement to side control represents one of the highest-value positional swings in the sport, converting a defensive crisis into three points and dominant top position.",
   "conditions": [
     "Opponent has committed their weight backward or laterally to execute a leg submission",

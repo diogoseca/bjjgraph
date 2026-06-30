@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Headquarters Position/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Seated Guard/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Within the modern seated-guard game, this wrestling-derived attack exploits a standing passer's posture through precise grip control and off-balancing mechanics. The sweep targets the opponent's base by controlling their ankle while simultaneously disrupting their upper body balance, creating a powerful lever system that dumps them to the mat.\n\nThe technique is particularly effective against opponents who maintain an upright, standing posture while attempting to pass seated guard. By combining a strong collar or wrist grip with a well-timed ankle grab, the practitioner creates a mechanical disadvantage that makes it extremely difficult for the opponent to maintain their base. The sweep works on the principle of removing support from one leg while pulling the upper body in the opposite direction, creating a rotational force that the opponent cannot resist.\n\nThis sweep serves as a cornerstone technique in modern no-gi grappling and has been refined by competitive grapplers who utilize seated guard as a primary defensive and offensive position. The Ankle Pick Sweep can be executed with minimal energy expenditure when timed correctly, making it an excellent option for practitioners of all sizes and strength levels. Its effectiveness lies in the mechanical advantage created rather than relying on superior strength or athleticism.",
   "conditions": [
     "Opponent is standing or in combat base while you are in seated guard",

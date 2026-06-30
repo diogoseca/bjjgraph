@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Gogoplata Control/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Mission Control/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "summary": "The Gogoplata is an advanced rubber-guard choke where, from Mission Control, you thread your shin across the opponent's throat and pull their head down into it, simultaneously compressing the airway and carotids for a fast finish.",
   "overview": "Within the broader Rubber Guard system, the Gogoplata represents one of the most visually distinctive and mechanically demanding submissions in Brazilian Jiu-Jitsu, requiring exceptional hip flexibility, precise angle creation, and disciplined hand fighting to execute successfully. The submission gained widespread recognition through its effective use in high-level competition, demonstrating that even against elite grapplers, the Gogoplata presents genuine finishing threats when properly applied.\n\nThe technique operates on a simple but devastating mechanical principle: by placing your shin bone directly across the opponent's trachea and pulling their head down into that pressure, you create a choke that attacks both the airway and blood supply. Unlike many submissions where escape routes exist through postural adjustments, the Gogoplata's finishing position offers limited defensive options once fully locked. The trapped opponent must either tap or risk unconsciousness, as the combination of tracheal compression and carotid pressure accelerates the submission timeline dramatically.\n\nFrom Mission Control, the Gogoplata setup requires bringing your attacking foot across the opponent's shoulder line and behind their head, then using your hands to pull their head down into your shin. The position demands that you maintain hip elevation and core engagement throughout, as any relaxation allows the opponent to posture and potentially escape or stack. The technique integrates seamlessly with the broader Rubber Guard attack system, chaining naturally with omoplata, triangle, and armbar attempts when the primary Gogoplata entry is defended.\n\nCompetition footage shows the Gogoplata succeeding primarily when opponents are unfamiliar with the position's danger or when they're already compromised in their posture from preceding Rubber Guard attacks. The submission's unconventional appearance often causes defenders to misjudge the threat level, creating windows for finish that more traditional attacks might not generate. However, the flexibility requirements mean this technique suits certain body types better than others, and practitioners should honestly assess their physical attributes before investing heavily in Gogoplata development.",
   "related_content": [

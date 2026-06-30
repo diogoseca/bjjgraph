@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Turtle/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Vaporizer/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Roll from Vaporizer is a tactical transition within the 10th Planet lockdown system where the bottom player abandons the Vaporizer configuration and executes a controlled forward roll to transition to turtle position. While moving to turtle may appear counterintuitive for someone in an offensive position, this technique serves as a critical chain link in the lockdown-to-back-attack pathway, enabling continued offensive sequences through truck entries, crab ride, and back control.\n\nThis transition is typically employed when the Vaporizer's primary attacks—the Electric Chair submission and the Old School sweep—have been effectively defended by the top player. Rather than fighting to maintain a position with diminishing offensive returns, the roll allows the bottom player to change the angle of engagement and maintain attacking initiative. The timing must be precise: executing too early wastes the Vaporizer's offensive potential, while executing too late means the top player has already begun neutralizing the lockdown.\n\nThe technique requires careful coordination between releasing the lockdown, maintaining an upper body connection with the opponent, and generating rotational momentum through hip and core engagement. The bottom player must thread their body underneath the opponent in a compact rolling motion and immediately establish an active turtle position that allows continuation of the offensive chain rather than settling into a defensive turtle shell.",
   "conditions": [
     "Vaporizer lockdown is established but opponent is successfully defending primary attacks",

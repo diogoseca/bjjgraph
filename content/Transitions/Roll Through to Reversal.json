@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Front Headlock/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Front Headlock/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Roll Through to Reversal is a dynamic escape technique executed when trapped in front headlock bottom that uses your opponent's forward pressure and commitment against them. Rather than fighting against their weight and control, this technique redirects their momentum by rolling forward and through, inverting the positional hierarchy to end with you in the controlling position. The mechanics rely on the same principle that makes judo throws work: using the opponent's force vector against them rather than opposing it directly.\n\nThis reversal exploits a fundamental vulnerability in front headlock control: when the top player commits their weight forward to maintain pressure or set up submissions, they become susceptible to being rolled. The technique requires precise timing—executed too early when opponent's base is solid, and you'll simply expose your back; executed at the perfect moment when they're overcommitted forward, and their own momentum carries them into the reversal. The window of opportunity is narrow, typically appearing when the opponent reaches for a deeper grip or drives forward to flatten you.\n\nThe roll through represents a calculated risk within the front headlock escape system. While other escapes like technical standups or circling away are generally safer, the roll through offers a higher reward by achieving complete positional reversal rather than merely escaping to neutral. This makes it particularly valuable when you need to shift match momentum, when points matter in competition, or when other escape routes are blocked. Advanced practitioners integrate this technique as part of their reactive defense, reading opponent's weight distribution to determine whether to stand, circle, or roll through.",
   "conditions": [
     "Opponent's weight must be committed forward with chest heavy on your upper back",

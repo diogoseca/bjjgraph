@@ -17,26 +17,41 @@
   "outcomes": [
     {
       "to": "Open Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "50-50 Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "success"
     },
     {
       "to": "Honey Hole/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Inside Heel Hook from Honey Hole",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "Within modern leg-lock defense, the Inversion Escape is the highest-commitment of the early-stage escapes available from the Honey Hole (Inside Sankaku/Saddle) - one of the most dangerous leg entanglements in modern grappling. It exploits the brief window when your opponent transitions between controlling your leg and attacking the heel, using explosive rotational movement combined with inversion mechanics to free your trapped leg before a heel hook grip can be established.\n\nStrategically, the Inversion Escape represents a high-risk, high-reward defensive option. Unlike linear extraction attempts that work against the mechanical advantage of the inside leg triangle, inversion creates a completely different angle that can temporarily nullify your opponent's control. The escape is most effective when initiated in the first 1-2 seconds after your leg becomes trapped, before the attacker settles weight and establishes heel hook grips.\n\nThis technique requires significant hip mobility, spatial awareness while inverted, and precise timing. The inversion must be committed and explosive - half-measures result in wasted energy and improved position for the attacker. When executed correctly, you can escape to open guard or even counter-entangle into 50-50 guard, neutralizing the positional disadvantage.",
   "conditions": [
     "Opponent has established Honey Hole/Inside Sankaku position with inside leg triangle around your thigh",

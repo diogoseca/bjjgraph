@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Body Lock/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Standing Rear Clinch/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Rear Clinch to Body Lock is a standing grip reconfiguration where the controlling player converts from a seatbelt, collar tie, or mixed grip configuration in the rear clinch to a unified body lock around the opponent's midsection. By wrapping both arms around the opponent's waist and locking hands together, the attacker creates a closed kinetic chain that provides direct mechanical access to the opponent's center of gravity, enabling powerful mat returns, lifts, and takedown finishes that are difficult or impossible from the seatbelt configuration alone.\n\nStrategically, this transition bridges initial rear control establishment with high-percentage takedown execution. The seatbelt distributes control across two separate points on the upper body, excellent for maintaining position and threatening chokes but limiting lifting and throwing mechanics. The body lock concentrates both arms around the opponent's core, providing the unified connection needed for explosive takedowns. The inherent risk is a brief vulnerability window during the grip change where the opponent can exploit momentary reduced control to hand fight, create separation, or execute a reversal to guard.\n\nElite competitors execute this transition in under one second, maintaining constant chest-to-back pressure throughout the grip change to eliminate the defensive window. The technique is particularly dominant in no-gi grappling where the body lock serves as one of the highest-percentage standing control mechanisms. Understanding when to convert from seatbelt to body lock and how to minimize exposure during the transition is essential for dominating the standing rear clinch exchanges that define modern competitive grappling.",
   "conditions": [
     "Established chest-to-back connection in standing rear clinch with forward hip pressure maintained",

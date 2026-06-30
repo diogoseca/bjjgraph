@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Feet on Hips Guard/Bottom",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "overview": "The transition to feet on hips guard is one of the most fundamental guard establishment sequences in Brazilian Jiu-Jitsu, representing the bottom player's deliberate shift from a general open guard configuration into a structured distance management position. This movement requires the guard player to place both feet precisely on the opponent's hip bones while maintaining grip control and hip elevation, converting a potentially chaotic open guard exchange into a controlled engagement with defined pushing frames. The transition is both defensive and offensive in nature—it immediately stops forward passing pressure while simultaneously creating the platform for sweeps, submissions, and further guard transitions.\n\nStrategically, this transition serves as the gateway between unstructured open guard and all advanced guard systems. When executed correctly, the guard player gains immediate distance control that neutralizes pressure passing, toreando attempts, and most knee-based passes. The feet-on-hips configuration provides bilateral pushing frames that allow the guard player to manage the engagement range with precision, keeping the opponent at leg-extension distance where passing becomes exponentially more difficult. The transition demands coordination between grip acquisition, hip elevation, and foot placement—all occurring within a narrow timing window before the opponent can establish dominant grips or consolidate a passing position.\n\nThe position's value in modern competition cannot be overstated. Elite guard players use this transition as a reset mechanism when more complex guards are disrupted, as a launching platform for sweep chains, and as a defensive emergency response when passing pressure intensifies. The ability to rapidly establish feet on hips from any open guard configuration is a hallmark of high-level guard retention, providing the practitioner with a reliable fallback position that maintains offensive potential while immediately addressing the most urgent defensive priorities.",
   "variants_and_adaptations": [
     {

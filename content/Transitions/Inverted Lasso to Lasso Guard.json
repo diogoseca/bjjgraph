@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Lasso Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Inverted Lasso Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Inverted Lasso to Lasso Guard transition is a fundamental recovery technique within the lasso guard system, allowing the bottom player to return from an energy-intensive inverted position to the more sustainable standard lasso guard. This transition occurs when the inverted position has not yielded an immediate attack opportunity, when the opponent is defending inversions effectively, or when the bottom player needs to conserve energy while maintaining offensive pressure. The ability to fluidly move between inverted and upright lasso guard is what separates advanced lasso guard players from those who treat each position as isolated.\n\nThe mechanical challenge of this transition lies in maintaining continuous lasso hook tension and sleeve grip control while fundamentally changing your body orientation. The bottom player must roll from their shoulders back to a seated or supine position without creating any slack in the lasso connection. Any momentary looseness allows the top player to extract their arm, collapsing the entire guard structure. The transition requires coordinated hip rotation, core engagement, and grip adjustment that must happen simultaneously rather than sequentially.\n\nStrategically, this transition serves as a reset mechanism that keeps the guard system dynamic. By cycling between inverted and upright lasso positions, the bottom player creates a constant threat environment where the opponent cannot settle into a single defensive strategy. The upright lasso guard offers different sweep angles, submission entries, and distance management options compared to the inverted variation, making the combination far more dangerous than either position alone. Top players who become comfortable defending one orientation are immediately confronted with the other, creating the dilemma-based offense that characterizes high-level guard play.",
   "conditions": [
     "Bottom player has an established inverted lasso position with shin threaded through opponent's arm",

@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Standing Back Control/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Turtle/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "Few positions punish hesitation like standing back control, where both the attacker's finish and the defender's escape hinge on the next few seconds, and the mat return is how elite back attackers resolve that tension in their favor. By converting the unstable vertical entanglement into grounded back control, the attacking practitioner consolidates a dominant position on the mat where submissions become more accessible and escapes more difficult for the defender, capitalizing on the inherent instability of standing back control by bringing the fight to the ground in a controlled manner that preserves upper body control throughout the descent.\n\nStrategically, the Mat Return addresses the key limitation of standing back control: the difficulty of finishing submissions while both practitioners are upright. By transitioning to grounded back control, the attacker gains access to rear naked choke finishes with proper leverage, body triangle control, and the psychological pressure that comes with the defender being unable to use their feet for balance. The technique is particularly valuable when the opponent has strong neck defense standing or when the match context favors ground fighting over standing exchanges.\n\nThe mat return requires precise timing and coordinated movement between upper and lower body. The harness or seat belt grip must remain locked throughout the descent, while the legs work to break the opponent's base and guide them to the mat. Successful execution depends on maintaining chest-to-back connection, choosing the correct direction for the takedown based on opponent's stance and balance, and immediately establishing hooks upon landing to prevent scrambles.",
   "conditions": [
     "Harness or seat belt grip secured with chest-to-back connection established",

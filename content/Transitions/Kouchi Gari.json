@@ -19,21 +19,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Clinch/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Clinch/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "summary": "Kouchi Gari is a standing small inner-reap takedown executed from the clinch, hooking the back of the opponent's near ankle while off-balancing them diagonally backward to drop them and establish a dominant top pin.",
   "overview": "Kouchi Gari (small inner reap) is a fundamental judo technique that has become essential in modern BJJ and no-gi grappling. The technique involves hooking your opponent's inside leg with your own while simultaneously breaking their balance backward and to the side. Unlike its larger cousin Ouchi Gari, Kouchi Gari focuses on a smaller, more nuanced reaping motion that targets the ankle and lower calf rather than the thigh. This makes it particularly effective when your opponent has a narrow stance or is stepping backward. The technique's beauty lies in its timing and subtlety—when executed properly, your opponent falls before they realize they've been swept.\n\nKouchi Gari works exceptionally well as part of combination attacks, often setting up other throws or creating opportunities for guard pulls when the initial attempt is defended. The defensive reactions it provokes—stepping back, widening stance, hopping—each open direct pathways to follow-up techniques like Osoto Gari, Uchi Mata, or Deashi Harai. This makes Kouchi Gari one of the highest-value opening attacks in the standing phase, even when the throw itself does not land cleanly.\n\nFrom a biomechanical perspective, the technique succeeds because the upper body controls generate approximately 70% of the throwing force through push-pull kuzushi, while the reaping leg simply removes the final support from an already compromised base. Practitioners who understand this principle achieve dramatically higher success rates than those who focus primarily on the leg action.",
   "conditions": [

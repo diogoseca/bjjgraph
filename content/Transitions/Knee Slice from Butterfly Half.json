@@ -15,26 +15,41 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Butterfly Half Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "The Knee Slice from Butterfly Half Guard is a specialized guard passing technique that addresses one of the most common and challenging hybrid guard configurations in modern Brazilian Jiu-Jitsu. Unlike a standard knee slice from regular half guard, this variation demands that the passer first neutralize the active butterfly hook before committing to the slicing motion across the thigh line. The butterfly hook creates an additional layer of defensive complexity because it provides the bottom player with elevation potential capable of sweeping the passer mid-technique if left unaddressed. The sequential challenge of killing the hook, establishing upper body control, and then executing the slice makes this a more technically demanding version of the fundamental knee cut pass.\n\nThe technique operates on a layered problem-solving framework: first control the butterfly hook through hip pressure, shin-on-shin contact, or direct manual control, then establish the crossface and underhook configuration necessary for the knee slice, and finally execute the slicing motion while maintaining chest-to-chest connection throughout. The critical mechanical insight is that the butterfly hook must be neutralized before the knee begins its journey across the bottom player's thigh—attempting to slice while the hook remains active is the primary reason this pass fails at the intermediate level. Practitioners who rush the slice without addressing the hook consistently find themselves elevated and swept.\n\nStrategically, the knee slice from butterfly half guard fills a critical gap in the top player's passing arsenal because butterfly half guard has become one of the most popular guard configurations in modern competition and training. Players who cannot effectively pass this hybrid position will consistently stall against guard players who combine butterfly hook elevation with half guard leg entanglement. The pass chains naturally with smash passing when the bottom player blocks the slice laterally, backstep passing when they overshoot the hook defense, and leg weave concepts when the knee shield appears as a secondary defense. This multi-layered integration creates a passing attack system where each defensive reaction from the guard player opens a new passing pathway for the top player.",
   "conditions": [
     "Top player has one leg trapped in half guard configuration with butterfly hook under free leg",

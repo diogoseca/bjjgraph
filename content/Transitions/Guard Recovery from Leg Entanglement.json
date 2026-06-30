@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Leg Entanglement/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "failure"
     },
     {
       "to": "Inside Ashi-Garami/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "Guard recovery from leg entanglement is one of the most critical defensive skills in modern no-gi Brazilian Jiu-Jitsu. As leg lock systems have become increasingly sophisticated and systematized, the ability to extract yourself from ashi garami configurations and recover to a safe guard position determines whether practitioners can engage in leg lock exchanges with confidence or must avoid them entirely. This transition involves systematically dismantling your opponent's entanglement structure — clearing heel exposure, breaking the knee line control, stripping hooks, and extracting the trapped leg — all while managing constant submission threats during the extraction process.\n\nThe recovery demands precise sequencing and prioritization. Whether facing inside ashi, outside ashi, saddle, or neutral 50-50 positions, the recovering player must first address the immediate submission threat by protecting the heel, then break the opponent's positional control through grip stripping and hip movement, and finally extract the leg to establish half guard or open guard. Rushing extraction without first neutralizing heel exposure or hip control leads to submissions or deeper entanglements. The systematic approach of threat neutralization, control dismantling, and positional recovery separates effective defenders from those who simply scramble and hope.\n\nStrategic mastery of guard recovery from leg entanglements connects directly to the broader offensive game. Practitioners who develop reliable recovery methods can attack with leg locks knowing they have defensive pathways when positions become compromised, creating a complete game where offensive entries are balanced by extraction capabilities. This bidirectional competence defines the modern leg lock practitioner.",
   "conditions": [
     "Opponent has established a leg entanglement controlling one or both of your legs through hooks, triangles, or figure-four configurations",

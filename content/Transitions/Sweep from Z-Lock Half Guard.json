@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Z-Lock Half Guard/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Flattened Half Guard/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "The Sweep from Z-Lock Half Guard is a compound sweeping technique that exploits the unique dual-leg configuration of the Z-Lock position to create simultaneous off-balancing forces from opposite directions. Unlike traditional lockdown sweeps that primarily attack in one plane, this sweep coordinates lockdown tension pulling the opponent's base backward with butterfly hook elevation driving upward, creating a rotational force that is extremely difficult to defend because it attacks the opponent's balance along two vectors simultaneously.\n\nThis technique represents an evolution of half guard sweeping concepts within the 10th Planet system, combining the control benefits of the lockdown with the dynamic elevation of butterfly guard mechanics. The sweep is most effective when the opponent has committed their weight forward to establish crossface pressure, as this forward weight distribution makes them vulnerable to being elevated and rotated over the butterfly hook side. The timing window is narrow - executing too early before the opponent loads weight forward results in insufficient momentum, while waiting too long risks being flattened and losing the Z-Lock configuration entirely.\n\nStrategic deployment of this sweep creates a genuine dilemma for the top player: driving forward to establish pressure opens the sweep, while sitting back to avoid the sweep creates space for the bottom player to recover to more favorable guard positions or transition to deep half guard attacks. The compound nature of the off-balancing makes this sweep particularly effective against heavier opponents who rely on pressure passing, as their own weight becomes the primary force driving the sweep to completion.",
   "variants_and_adaptations": [
     {

@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Spider Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Double Sleeve Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Double Sleeve to Spider Guard transition represents one of the most natural guard evolution pathways in gi jiu-jitsu. Starting from bilateral sleeve control with feet on the opponent's hips, the bottom player systematically repositions their feet from the hips to the biceps, establishing the distinctive spider guard hooks that create superior distance management and enhanced attacking angles. This transition leverages the existing sleeve grips as a foundation, making it one of the lowest-risk guard transitions available from the double sleeve position.\n\nThe core mechanic involves converting horizontal hip-pushing control into vertical bicep-pushing control. In double sleeve guard, your feet push the opponent's hips away while your hands pull their sleeves. In spider guard, your feet push directly against their arms while maintaining the same sleeve grips, creating a much stronger mechanical connection that uses your legs against their arms—a favorable strength asymmetry that allows smaller practitioners to control larger opponents effectively.\n\nTiming is critical in this transition. Moving both feet simultaneously to the biceps creates a momentary gap in your defensive structure that alert opponents can exploit to strip grips or initiate passing sequences. The preferred approach is transitioning one foot at a time, maintaining at least one point of distance control throughout the movement. Reading the opponent's weight distribution and posture to identify the optimal transition window separates competent guard players from elite ones.",
   "conditions": [
     "Both sleeve grips are firmly established at or near opponent's cuffs",

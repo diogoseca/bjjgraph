@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Straight Ankle Lock Control/Bottom",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Ushiro Ashi-Garami/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Ushiro Ashi-Garami/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Ankle Lock Finish from Ushiro Ashi-Garami represents a critical submission pathway within the modern leg lock system. When the opponent inverts to escape standard ashi-garami positions but remains partially entangled, the reversed configuration creates unique finishing opportunities that differ mechanically from standard ankle lock applications.\n\nThis transition capitalizes on the opponent's compromised defensive position during their inversion attempt. The reversed hip orientation changes the angles available for breaking mechanics, requiring specific grip adjustments and body positioning to generate effective submission pressure. The attacker must recognize the optimal moment to commit to the finish versus continuing to follow positional transitions.\n\nStrategically, the Ankle Lock Finish serves as a high-percentage option when heel hook access is compromised by the opponent's defensive hand fighting or when ruleset restrictions limit heel hook application. The straight ankle lock provides a legal submission across all major competition formats while maintaining offensive pressure that prevents the opponent from completing their escape sequence. Success requires precise timing, proper grip establishment, and coordinated breaking mechanics that account for the reversed entanglement geometry.",
   "related_content": [
     {

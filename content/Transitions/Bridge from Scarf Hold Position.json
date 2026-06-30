@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Closed Guard/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "success"
     },
     {
       "to": "Scarf Hold Position/Bottom",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 30,
+  "success_rate": {
+    "gi": 30,
+    "nogi": 30
+  },
   "overview": "The Bridge from Scarf Hold Position is the definitive bridge-and-roll reversal targeting a complete position reversal from underneath kesa gatame to landing inside the opponent's closed guard on top. Unlike the bridge escape variant that seeks half guard recovery, this technique commits to rolling the top player entirely over their shoulder line, producing a full reversal where the bottom player emerges in top position. The technique exploits the fundamental structural weakness of scarf hold: the top player's back is partially exposed due to their perpendicular seating angle, creating a viable roll line when their posting ability is compromised through arm trapping and leg hooking.\n\nThe bridge-and-roll reversal carries higher risk than partial escape methods because it requires total commitment to the explosive bridge and follow-through. A half-committed attempt wastes energy and telegraphs your intentions, while a fully committed bridge against a properly based opponent can result in them stepping over to mount during the hip elevation. This risk-reward calculus makes timing the critical variable: the reversal should be attempted when the top player shifts weight for a submission attack, transitions between positions, or momentarily narrows their base. The payoff for correct timing is dramatic, converting a severely disadvantaged bottom pin into an immediate top position with potential to pass guard.\n\nWithin the scarf hold escape hierarchy, the bridge-and-roll reversal occupies the high-risk, high-reward tier below systematic frame-based escapes and ghost escapes in frequency but above them in positional gain when successful. The technique integrates with the broader bridge-and-roll family used across mount escapes and other pin escapes, sharing core mechanics of arm trapping, leg hooking, and explosive hip extension. Even when the full reversal fails, the explosive bridge disrupts the top player's control enough to create follow-up opportunities for alternative escapes.",
   "conditions": [
     "Free arm can reach and secure control of opponent's head-wrapping arm or gi material to eliminate their posting base",

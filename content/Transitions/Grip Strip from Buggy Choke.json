@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Buggy Choke/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Within modern turtle-attack systems, the grip strip is the disciplined response deployed when the buggy choke from turtle top has stalled against effective defensive grip fighting. Rather than continuing to invest energy in a choke that is unlikely to finish, the top player systematically breaks the bottom player's defensive grips and frames, then redirects their control structure to establish side control. This transition reflects the principle that positional advancement is always available when a submission attempt stalls, and experienced practitioners recognize the moment when abandoning the choke becomes the higher-percentage play.\n\nThe technique requires precise timing and awareness of the bottom player's defensive state. Stripping grips during a choke attempt creates a brief moment of positional instability where the bottom player may attempt to escape to guard or reverse position. The top player must maintain sufficient control through body pressure and weight distribution while breaking defensive structures, then immediately consolidate into side control before the bottom player can exploit the transitional gap. This transition is particularly valuable in competition where maintaining dominant position and control time outweighs the diminishing returns of forcing a defended submission.\n\nUnderstanding when to transition from submission attempt to positional control distinguishes advanced practitioners from those who chase submissions at the expense of position. The grip strip from buggy choke embodies this strategic awareness, teaching practitioners to read defensive reactions, recognize stalled attacks, and flow to the next advantageous position without returning to neutral or conceding positional gains.",
   "conditions": [
     "Buggy choke grips are established from turtle top with threading arm under opponent's armpit",

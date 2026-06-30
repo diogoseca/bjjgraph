@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Single Leg X-Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Grasshopper Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "summary": "The Single Leg X Transition is a leg-entanglement entry from inverted Grasshopper Guard in which the bottom player threads their legs around the opponent's trapped leg to establish the sweep-and-leglock platform of Single Leg X-Guard.",
   "overview": "The Single Leg X Transition represents a fundamental pathway from inverted guard positions into one of the most versatile leg entanglement platforms in modern grappling. When executed from Grasshopper Guard, this transition capitalizes on the elevated hip positioning and leg control inherent to the inverted posture, converting it into the stable Single Leg X-Guard configuration that offers both sweeping and submission opportunities.\n\nThe mechanical essence of this transition involves threading your outside leg around the opponent's trapped leg while simultaneously positioning your inside foot on their hip. This creates the characteristic X-shape that gives the position its name - your legs cross behind their thigh while your hip remains tight against their leg. The transition preserves the offensive momentum from Grasshopper Guard while establishing a more sustainable control position.\n\nStrategically, the Single Leg X Transition serves as a crucial link in the leg entanglement game. From Grasshopper Guard, you have elevation but limited sustainability. Single Leg X-Guard provides that missing sustainability while maintaining sweep threats and offering clear pathways to heel hooks, ankle locks, and back takes. The transition is particularly effective when the opponent attempts to pressure forward or narrow their base, as their commitment creates the angle needed for successful entry.\n\nThe timing window for this transition typically opens when the opponent shifts their weight toward your trapped leg or attempts to step over your guard. Their forward pressure actually assists the entry by loading weight onto the leg you're attacking. Advanced practitioners learn to bait this pressure through feinting other attacks, then capitalizing on the reaction to secure the transition.",
   "related_content": [

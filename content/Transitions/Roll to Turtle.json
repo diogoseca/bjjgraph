@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Turtle/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Within the side-control defensive hierarchy, the roll to turtle sits below hip escapes and elbow escapes as a fallback you reach for once those primary recoveries have already been shut down. The technique involves turning away from the opponent and assuming the turtle position, which serves as a transitional platform for guard recovery or standing. Unlike shrimping escapes that require space creation, the roll to turtle works by accepting the turn but establishing a strong defensive posture before the opponent can secure back control.\n\nThe strategic value of this escape lies in its reliability when the opponent has established heavy crossface pressure that prevents traditional hip escapes. By turning into the pressure rather than fighting against it, you redirect the opponent's energy and create a momentary window to establish defensive frames. The turtle position, while exposing your back, provides a stable base from which you can execute granby rolls, sit-outs, or technical standups.\n\nTiming is critical for this technique - the roll must be explosive enough to create separation but controlled enough to immediately establish the tight defensive turtle structure with elbows to knees and chin tucked. Executing this escape too slowly allows the opponent to follow and establish back control with hooks, negating the escape entirely.",
   "related_content": [
     {

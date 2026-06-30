@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Open Guard/Top",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Worm Guard/Top",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "The Lapel Strip from Worm Guard is the primary defensive technique for top players facing one of modern BJJ's most frustrating lapel-based guard systems. Rather than attempting to pass through or around the lapel entanglement, this technique addresses the root cause of worm guard's effectiveness by systematically removing the lapel wrap that creates the bottom player's mechanical advantage. A successful strip converts a complex lapel guard passing problem into a standard open guard scenario where traditional passing techniques become immediately viable.\n\nThe technique is fundamentally a grip fighting sequence rather than a single explosive action. The top player must identify how the lapel is routed around their leg, systematically address supporting grips that reinforce the wrap, and then extract or strip the primary lapel connection. Rushing the strip typically fails because a skilled worm guard player can re-feed the lapel faster than you can remove it with poor technique. Patience and precise hand placement are essential for breaking the bottom player's structural control.\n\nUnderstanding the lapel strip within the broader worm guard passing context is critical. While backstep passes and long step passes attempt to work around the lapel, the strip eliminates it entirely, giving clean open guard passing opportunities. However, committing both hands to the grip fighting sequence creates momentary sweep vulnerability that the bottom player will exploit if given the chance. This risk-reward calculation should factor into your decision of whether to strip the lapel or pass around it.",
   "variants_and_adaptations": [
     {

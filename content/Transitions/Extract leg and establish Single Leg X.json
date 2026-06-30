@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Single Leg X-Guard/Bottom",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "Leg Knot/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Saddle/Bottom",
-      "probability": 12,
+      "probability": {
+        "gi": 12,
+        "nogi": 12
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "summary": "Extract leg and establish Single Leg X is a defensive leg-entanglement transition from Leg Knot Bottom where you clear the trapped leg with limp-leg mechanics and immediately build Single Leg X-Guard, converting a compromised position into an offensive sweeping platform.",
   "overview": "The leg extraction to Single Leg X-Guard represents a critical defensive transition from the Leg Knot Bottom position, transforming a compromised entanglement into an offensive guard platform. This technique addresses the fundamental problem of being trapped in an inferior leg entanglement by systematically clearing the trapped leg and immediately establishing Single Leg X-Guard before the opponent can re-engage their leg attack system.\n\nThe strategic value of this transition lies in its ability to reverse the positional hierarchy. Rather than simply escaping to a neutral position where the opponent can immediately re-attack, establishing Single Leg X-Guard creates an offensive threat that forces the opponent to defend sweeps and leg attacks. This transforms the exchange from a defensive scramble into a positional reversal that favors the previously defending player.\n\nSuccess in this transition requires precise timing, understanding of when opponent's leg control is weakest, and the mechanical skill to smoothly transition from extraction directly into Single Leg X-Guard configuration without allowing space for opponent's recovery. The technique exemplifies modern leg lock defense philosophy where escape and counter-attack are integrated into a single fluid movement rather than separate sequential actions.",
   "conditions": [

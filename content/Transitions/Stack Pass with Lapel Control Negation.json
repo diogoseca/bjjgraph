@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Ringworm Guard/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Ringworm Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Stack Pass with Lapel Control Negation is a specialized pressure passing technique designed to defeat Ringworm Guard by combining stacking mechanics with systematic lapel grip neutralization. When trapped in Ringworm Guard, the opponent's lapel wrap around your leg creates severe mobility restrictions that render most conventional passes ineffective. This technique addresses the problem directly by using forward pressure to fold the bottom player, simultaneously reducing the tension on the lapel wrap and compressing their defensive structure into a position where the wrap loses its mechanical advantage.\n\nThe pass operates on the principle that stacking the bottom player's hips over their shoulders shortens the distance between their grip hand and their own body, creating slack in the lapel configuration. As you drive forward and stack, the lapel wrap that was taut when you were upright becomes progressively looser because the geometry of the entanglement changes. This creates a window to strip the lapel, extract your leg, and complete the pass to side control before the bottom player can re-establish the guard.\n\nStrategically, this technique is most effective when the bottom player commits to an aggressive sweeping motion, because their own momentum can be redirected into the stack. It pairs naturally with other Ringworm Guard counters such as the Smash Pass Counter and Lapel Grip Break and Posture Recovery, creating a multi-threat passing system that forces the bottom player to choose between defending the stack and maintaining their lapel configuration. The pass requires significant forward pressure and hip drive, making it physically demanding but highly effective when the timing is correct.",
   "related_content": [
     {

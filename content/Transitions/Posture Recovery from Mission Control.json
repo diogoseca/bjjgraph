@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Closed Guard/Top",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Mission Control/Top",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "New York/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "Posture Recovery from Mission Control is one of the most critical defensive transitions in modern no-gi grappling, representing the top player's systematic escape from 10th Planet's rubber guard control system. When trapped in Mission Control, the top player faces severe postural compromise with their shoulder isolated, head pulled down, and weight loaded awkwardly onto their trapped arm. This technique requires methodical execution rather than explosive movement, progressing through grip fighting, weight redistribution, and progressive space creation to neutralize the bottom player's high guard control.\n\nThe strategic significance of this transition lies in its role as the gateway to survival against the entire rubber guard offense. Without effective posture recovery, the top player faces an escalating series of submission threats including triangles, omoplatas, and gogoplatas, each becoming more dangerous as the bottom player advances through rubber guard controls like New York, Carni, and Invisible Collar. Successful posture recovery breaks this offensive chain at its root, returning the engagement to closed guard where the top player can begin systematic guard opening and passing sequences.\n\nThe fundamental challenge of this technique is that Mission Control's mechanical design punishes the most intuitive defensive responses. Explosive posturing feeds directly into triangle entries, aggressive arm pulling opens omoplata angles, and forward driving strengthens the shoulder isolation that makes the position effective. Instead, the top player must employ a patient, systematic approach that gradually degrades the bottom player's control through persistent grip fighting, strategic weight redistribution, and precise timing of escape windows when the bottom player's hip elevation or grip endurance momentarily weakens.",
   "conditions": [
     "Top player is trapped in Mission Control with posture broken and shoulder isolated",

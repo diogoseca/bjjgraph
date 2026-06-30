@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Turtle/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Russian Cowboy/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Truck/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "The Roll Escape from Russian Cowboy is a dynamic defensive technique employed when trapped in the bottom of Russian Cowboy control, a single-hook back control variant common in no-gi grappling. This escape generates rotational momentum to dislodge the opponent's asymmetric hook configuration and transition into turtle position, where a wider array of defensive and recovery options become available. The technique carries significant risk because rolling in the wrong direction feeds directly into the opponent's truck entry, making directional awareness and explosive commitment absolutely critical to success.\n\nFrom a strategic standpoint, the roll escape represents a high-commitment bailout option within the Russian Cowboy escape hierarchy. It is typically attempted when frame-based escapes, hip escapes, and hand fighting have been neutralized by a well-consolidated top player. The rolling motion exploits the fundamental asymmetry of Russian Cowboy control: because only one hook is engaged, rotational force directed toward the free leg side can overwhelm the top player's ability to follow and maintain connection. However, the technique demands full commitment once initiated, as half-measures leave the bottom player with compromised frames and increased exposure to truck transitions.\n\nThis escape integrates into the broader back defense system as a last-resort option that bridges Russian Cowboy bottom to the turtle defense framework. Practitioners who drill this technique develop critical proprioceptive awareness of hook positioning and rotational timing that transfers to other back defense scenarios, including traditional back control escapes and truck defense sequences.",
   "conditions": [
     "Trapped in Russian Cowboy bottom position with opponent's single hook established",

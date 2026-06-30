@@ -18,21 +18,33 @@
   "outcomes": [
     {
       "to": "Overhook Control/Top",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "summary": "The Half Guard Whizzer Counter is a top-game transition where the passer answers the bottom player's underhook by wrapping an overhook (whizzer) over that same arm, killing the underhook and establishing overhook control to flatten and pass.",
   "overview": "The Half Guard Whizzer Counter is the passer's direct answer to the single most important grip in the half guard battle: the bottom player's underhook. When the bottom player digs an underhook to come to their side, threaten sweeps, and take the back, the top player wraps their own arm over that underhooking arm from above, sealing the armpit over the opponent's shoulder. This converts the dangerous underhook into a controlled, elevated, and neutralized limb, landing the passer in overhook control (the whizzer) as the dominant, controlling player.\n\nThis counter is a cornerstone of high-level half guard passing because it does not merely defend the underhook; it weaponizes the exchange. By overhooking the arm and driving it upward and across, the passer breaks the bottom player's structure, flattens them back to the mat, and removes their primary engine for sweeps and back takes. From the resulting overhook control, the passer has clear pathways to complete the pass to side control, take the back when the opponent turns, or attack Kimura and front-headlock submissions. The whizzer effectively turns the bottom player's offense into the top player's offense.\n\nThe Half Guard Whizzer Counter rewards timing and structure over strength. Beginners often try to muscle the underhook out and end up trading grips repeatedly; advanced players read the underhook attempt early, overhook before it is fully established, and immediately convert the elevation and armpit seal into a flattening, passing, or back-taking sequence. Mastering this counter is what allows a passer to feel safe initiating pressure passing against a strong half guard, because the most threatening bottom-side grip becomes the entry to a controlling position.",
   "conditions": [

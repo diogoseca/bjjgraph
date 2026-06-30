@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Turtle/Bottom",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Saddle/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "summary": "The Forward Roll from Saddle is an explosive inversion escape in which the bottom player rolls diagonally over the trapped-side shoulder to spiral their leg out of the figure-four, usually surfacing in turtle at the cost of temporary back exposure.",
   "overview": "Sitting at the explosive end of the saddle escape spectrum, the forward roll abandons the patient grip-fighting approach in favor of rotational momentum to rapidly extract the trapped leg from the opponent's figure-four configuration. The escape leverages the principle that rolling forward disrupts the perpendicular alignment that gives the saddle its mechanical advantage, creating a brief window where the leg can be pulled free.\n\nThis escape carries significant tactical risk. While the rolling motion can effectively break the leg configuration, it simultaneously exposes the back to the opponent. A successful forward roll typically lands the practitioner in turtle position—an improvement over saddle bottom but still requiring immediate action to prevent the opponent from transitioning to back control. The technique is best reserved for situations where incremental escapes have stalled or the opponent is actively advancing toward a heel hook finish, making the calculated risk of back exposure preferable to continued exposure to devastating knee ligament attacks.\n\nThe forward roll demands precise timing and full commitment. Hesitation during execution allows the saddle player to adjust their hip pressure and tighten the entanglement, making subsequent escape attempts harder. Practitioners must identify the optimal moment—typically when the opponent shifts weight to adjust grips or begin a submission finish—and commit entirely to the rolling motion. Half-measures result in a tighter saddle with diminished defensive options and wasted energy.",
   "conditions": [

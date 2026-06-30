@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Closed Guard/Bottom",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Turtle/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Granby to Closed Guard is a dynamic defensive recovery technique that uses the Granby roll motion to transition from compromised bottom positions back to closed guard. This technique is essential for practitioners who find themselves in turtle, side control escape scenarios, or other defensive positions where traditional guard recovery methods are unavailable. The movement combines a shoulder roll with hip rotation to create space and redirect momentum, allowing you to insert your legs between you and your opponent to re-establish guard.\n\nThe technique is particularly valuable because it works against forward pressure, using the opponent's weight and momentum against them. When executed properly, the Granby roll creates a brief window where your opponent's base is compromised, allowing you to thread your legs through and secure closed guard. This recovery method is fundamental to modern BJJ defensive systems and forms the foundation for numerous escape sequences.\n\nMastery of the Granby to Closed Guard provides practitioners with a reliable escape route from dangerous positions, reducing the effectiveness of common pinning attacks and creating opportunities to return to offensive guard play. The technique requires good body awareness, hip mobility, and timing, but once developed becomes an instinctive defensive reaction that can save matches.",
   "related_content": [
     {

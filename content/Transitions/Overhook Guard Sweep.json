@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Overhook Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "summary": "The Overhook Guard Sweep reverses a top opponent to mount by trapping one of their arms with a deep overhook, removing that side's post and rolling them over the immobilized limb while controlling the free arm.",
   "overview": "The Overhook Guard Sweep is a fundamental closed guard technique that exploits the structural imbalance created when the bottom player secures a deep overhook on one of the top player's arms. By trapping the arm and eliminating the opponent's ability to post on that side, the sweep creates a mechanically efficient and predictable pathway to the mount position. The technique combines hip angle creation, coordinated leg drive, and upper body pulling mechanics to produce one of the highest-percentage sweeps available from the overhook guard system.\n\nStrategically, the sweep functions as the primary positional threat from overhook guard bottom, forcing the top player to defend the reversal at the expense of their passing offense. When the opponent adjusts their weight backward to resist the sweep, they become vulnerable to complementary attacks including the triangle, omoplata, and back take. This creates the systematic dilemma at the heart of effective overhook guard play: defend the sweep and open submission entries, or maintain offensive posture and risk being reversed to bottom mount.\n\nThe technique's effectiveness relies on proper sequencing rather than explosive athleticism. The overhook must be deep before the sweep initiates, the free hand must control the opponent's opposite arm to eliminate both posting options, and the hips must create an angle before the sweeping motion begins. Practitioners who rush the sweep without completing these prerequisites consistently fail, while those who methodically establish each component achieve reliable results against resisting opponents of all sizes.",
   "conditions": [

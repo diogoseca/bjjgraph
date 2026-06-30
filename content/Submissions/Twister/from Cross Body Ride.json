@@ -19,7 +19,10 @@
   "target_area": "Cervical and thoracic spine, shoulder girdle",
   "starting_position": "Cross Body Ride",
   "from_position": "Cross Body Ride/Top",
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "Built from a dominant cross body ride, this entry leverages perpendicular chest-to-back pressure that has already compromised the opponent's turtle before any rotational mechanics are introduced. The submission begins from a turtle-top position where the attacker has already achieved heavy cross-body pressure, then systematically transitions into the leg entanglement and chin strap grip that define the Twister's finishing mechanics. The cross body pressure breaks down the opponent's turtle structure before the attacker threads legs for the rotational base and controls the opponent's hips.\n\nThe strategic value of entering the Twister from Cross Body Ride lies in the positional advantage already established. Unlike entries from scrambles or bottom positions, the Cross Body Ride provides a stable platform where the attacker can methodically build each layer of control without urgency. The perpendicular pressure has already compromised the opponent's defensive posture, making leg entanglement significantly easier to achieve and maintain throughout the finishing sequence.\n\nThis submission demands extreme caution due to the direct spinal torque it generates. The combination of lower body rotation through the leg entanglement and upper body rotation through the chin strap creates compound forces across the cervical and thoracic spine that can cause severe injury with very little warning. Practitioners must prioritize slow, controlled application and immediate release on any tap signal. The Twister is best understood as the highest-risk option within a broader attack system from Cross Body Ride that includes calf slicers, banana splits, and back takes.",
   "safety_considerations": {
     "injury_risks": [
@@ -108,17 +111,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Cross Body Ride/Top",
-      "probability": 39,
+      "probability": {
+        "gi": 39,
+        "nogi": 39
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 21,
+      "probability": {
+        "gi": 21,
+        "nogi": 21
+      },
       "result": "counter"
     }
   ],

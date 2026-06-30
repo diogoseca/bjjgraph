@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Twister Side Control/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Truck/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "Among the limited escape options available from the dangerous twister side control position, frame-based escapes stand out for their reliability and energy efficiency. Unlike explosive escape methods that risk energy depletion and can worsen the position by exposing the back, this frame-based approach emphasizes incremental positional improvement through biomechanically sound body positioning that redirects the opponent's weight rather than fighting against it directly.\n\nThe technique addresses the core challenge of twister side control defense: managing simultaneous spinal rotation threats and leg entanglement while creating enough space to begin systematic escape. By building rigid frame structures with bent elbows connected to the body, the bottom player creates barriers that mechanically redirect the top player's pressure. This structural advantage allows the escape to succeed even against larger, stronger opponents, making it one of the most reliable pathways out of this dangerous position.\n\nStrategic deployment requires reading the top player's weight distribution and submission intentions. The optimal timing window occurs when the top player shifts weight to pursue twister or choke attacks, momentarily reducing leg entanglement effectiveness. Successful execution chains frame creation into systematic leg extraction and hip escape, arriving in half guard where the bottom player can immediately establish retention grips and transition to offensive sequences. The technique's reliability makes it a cornerstone of any systematic defense against 10th Planet twister-based attacks.",
   "variants_and_adaptations": [
     {

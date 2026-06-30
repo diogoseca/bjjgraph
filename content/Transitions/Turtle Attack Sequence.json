@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Turtle/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Turtle/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "In competitive grappling, the turtle is one of the most frequently contested junctions on the mat, and the player who reaches top turtle holds only a fleeting window to capitalize before the defender recovers. This attacking sequence occurs constantly after guard passes, failed takedown attempts, and scramble exchanges where the bottom player turtles defensively rather than conceding side control or mount, making it an essential skill set for anyone advancing through the upper belts.\n\nFrom top turtle, the attacker faces a time-sensitive challenge: the turtled player is actively working to escape through granby rolls, sit-throughs, or technical standups, so the top player must establish dominant grips and execute attacking sequences before these escape windows open. The seat belt grip serves as the primary control mechanism, enabling systematic hook insertion for back control. When the bottom player defends the back take effectively, the attacker chains into front headlock attacks, crucifix entries, or flattening sequences to side control.\n\nMastery of turtle attacks requires reading the defender's weight distribution and grip commitments in real time, then selecting the highest-percentage attack chain based on those defensive reactions. The position rewards patience in grip establishment but demands explosive commitment once the attack angle is identified. Advanced practitioners develop fluid transitions between back take, front headlock, and crucifix entries, creating a web of attacks that overwhelms the defender's ability to address all threats simultaneously.",
   "related_content": [
     {

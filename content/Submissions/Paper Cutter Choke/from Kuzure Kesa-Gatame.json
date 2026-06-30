@@ -19,7 +19,10 @@
   "target_area": "Carotid arteries (bilateral compression)",
   "starting_position": "Kuzure Kesa-Gatame",
   "from_position": "Kuzure Kesa-Gatame/Top",
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "overview": "The paper cutter choke from kuzure kesa-gatame exploits the modified scarf hold's unique body positioning to create one of the tightest collar chokes available from any side control variation. Unlike the standard paper cutter applied from conventional side control, the kuzure kesa-gatame entry provides superior lapel access because your body is already angled toward the opponent's head, and the arm isolation removes their primary defensive hand from the equation. The choking mechanics rely on feeding the far-side lapel deep behind the opponent's neck, then cutting your forearm blade across the exposed carotid arteries while your shoulder weight drives the lapel into the opposite side.\n\nWhat makes this variation particularly dangerous is the positional pressure that masks the choke setup. The hip pressure inherent to kuzure kesa-gatame occupies the opponent's defensive attention, and the trapped arm prevents them from addressing the lapel feed until the choke is already locked. Many opponents do not recognize the threat until the forearm begins cutting across the neck, at which point escape options are severely limited. The finishing angle naturally compresses both carotid arteries simultaneously due to the angular relationship between your forearm and the opponent's neck, producing rapid unconsciousness if the tap is not immediate.\n\nStrategically, this choke pairs exceptionally well with the americana and armbar threats already present from kuzure kesa-gatame. When the opponent defends the arm attacks by keeping their elbow tight, they expose the neck. When they address the choke threat by reaching for your choking hand, they expose the arm. This creates a genuine submission dilemma where every defensive action opens a different finishing path.",
   "safety_considerations": {
     "injury_risks": [
@@ -101,17 +104,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 62,
+      "probability": {
+        "gi": 62,
+        "nogi": 62
+      },
       "result": "success"
     },
     {
       "to": "Kuzure Kesa-Gatame/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 13,
+      "probability": {
+        "gi": 13,
+        "nogi": 13
+      },
       "result": "counter"
     }
   ],

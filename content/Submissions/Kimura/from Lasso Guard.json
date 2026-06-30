@@ -18,7 +18,10 @@
   "target_area": "Shoulder joint, rotator cuff, and shoulder capsule",
   "starting_position": "Lasso Guard",
   "from_position": "Lasso Guard/Top",
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "overview": "Lasso guard is built on a structural trade-off: the bottom player commits their shin, hips, and sleeve grip to trapping one of your arms, and that heavy commitment routinely leaves their other arm unguarded. When the bottom player threads their shin across your arm and focuses on extending the lasso, their non-lasso arm often becomes vulnerable—typically the hand gripping the collar or posting on the mat. By isolating this arm with a figure-four grip and applying controlled rotational force, the top player transforms a defensive guard-passing scenario into a direct submission threat.\n\nThis attack exploits the fundamental trade-off inherent in lasso guard: the bottom player commits significant body structure to maintaining the lasso, leaving secondary control points exposed. The top player must recognize the window when the non-lasso arm drifts away from a protected position—usually when the bottom player reaches for collar grips, attempts sweep setups, or adjusts hip positioning. Timing the Kimura entry during these moments of commitment dramatically increases finishing probability.\n\nThe Kimura from Lasso Guard creates a powerful tactical dilemma. If the bottom player defends the Kimura by releasing their lasso grips, the top player gains favorable passing position with the primary obstacle removed. If they stubbornly maintain the lasso while defending the Kimura, their posture collapses and the submission pressure compounds. This win-win dynamic makes the Kimura attempt valuable even when it does not result in a direct tap, as it systematically degrades the bottom player's guard structure.",
   "safety_considerations": {
     "injury_risks": [
@@ -98,17 +101,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 62,
+      "probability": {
+        "gi": 62,
+        "nogi": 62
+      },
       "result": "success"
     },
     {
       "to": "Lasso Guard/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 13,
+      "probability": {
+        "gi": 13,
+        "nogi": 13
+      },
       "result": "counter"
     }
   ],

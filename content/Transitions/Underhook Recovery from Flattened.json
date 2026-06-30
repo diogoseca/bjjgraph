@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Flattened Half Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Underhook Recovery from Flattened Half Guard is one of the most critical survival techniques in Brazilian Jiu-Jitsu, representing the essential gateway between passive defense and active guard play. When the top player collapses your frames and pins you flat in half guard with crushing crossface pressure, recovering the underhook on their far side is the first step toward restoring any offensive capability. Without the underhook, you remain trapped under sustained pressure with no viable sweeps, back takes, or meaningful positional improvements available. This technique transforms a purely defensive survival scenario into the launching point for the entire half guard offensive system.\n\nThe recovery process demands precise timing and sequential execution rather than explosive strength. The bottom player must create minimal space through incremental hip escapes, establish a preliminary frame on the opponent's hip or shoulder, then thread the underhook arm deep under the opponent's far armpit before the top player can react and re-flatten. The critical challenge lies in performing these coordinated movements while chest pressure restricts breathing and limits mobility. Each micro-adjustment must build on the previous one, gradually compounding small space gains until sufficient clearance exists for the underhook insertion. Attempting to skip steps or rush the sequence almost always results in the top player collapsing the space and resetting to dominant pressure.\n\nFrom a strategic perspective, the underhook recovery sits at the intersection of defensive survival and offensive initiation within the half guard positional hierarchy. Once the underhook is secured with adequate depth reaching the opponent's shoulder blade, the bottom player gains immediate access to the full half guard attacking system. Sweeps to mount via the old school or standard underhook sweep, back takes through the dogfight, and guard recovery to knee shield all become available. The technique also creates a critical decision point for the top player, who must choose between fighting the underhook with a whizzer, abandoning the crossface to address the threat, or attempting to complete the pass before the bottom player consolidates the recovered position. Each of these responses opens different counter-opportunities for the bottom player, making the underhook recovery the catalyst for dynamic positional exchanges from what was previously a static survival situation.",
   "conditions": [
     "Bottom player is flattened with back on the mat and top player has chest-to-chest pressure established",

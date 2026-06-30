@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "Mount Escape to Half Guard Back Take is an advanced multi-step transition that transforms a defensive escape into an offensive back take. Rather than simply recovering guard from mount bottom, this technique chains the standard trap-and-roll or elbow-knee escape into half guard, then capitalizes on the opponent's leg extraction attempt to climb to their back and establish hooks plus seat belt control.\n\nThe technique exploits a critical vulnerability in the mount-to-half-guard recovery sequence: when the top player attempts to extract their trapped leg from half guard, they must shift their weight and create space. This weight shift and the resulting angular change provide the exact conditions needed for the bottom player to swim an underhook, come up to the opponent's hip, and take the back. The opponent is caught between two bad options—leaving their leg trapped in half guard (losing mount) or extracting it and exposing their back.\n\nThis chain technique is particularly effective against opponents who aggressively pursue leg extraction rather than settling into half guard top. The more forcefully they try to free their leg, the more momentum becomes available for the back take. Advanced practitioners bait the leg extraction by loosening half guard control just enough to invite the attempt while preparing the underhook and hip positioning needed for the back take.",
   "related_content": [
     {

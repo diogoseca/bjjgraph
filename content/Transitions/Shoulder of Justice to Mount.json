@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Shoulder of Justice/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Shoulder of Justice to Mount transition represents a direct positional advancement from one of the most pressure-intensive side control variations into the highest-scoring position in Brazilian Jiu-Jitsu. This transition capitalizes on the devastating shoulder pressure that defines the Shoulder of Justice, using the opponent's compromised defensive state to create openings for stepping over into full mount. The primary challenge lies in maintaining continuous pressure throughout the step-over — any momentary lift in weight provides the bottom player with opportunities to insert frames, recover guard, or initiate escape sequences.\n\nStrategically, this transition is most effective after sustained Shoulder of Justice pressure has degraded the opponent's defensive capacity. The bottom player's reactions to jaw pressure — turning away, attempting to shrimp, or flattening out to conserve energy — each create specific windows for the mount transition. Reading these reactions and timing the step-over to coincide with moments of reduced defensive resistance is critical for consistent execution. The opponent who flattens out and stops resisting presents the most favorable window, as their hips become stationary and their defensive frames collapse under sustained pressure.\n\nThe transition follows a systematic progression: consolidate control, neutralize the near arm, walk the base into position, execute the step-over while driving hip pressure through the shoulder contact point, and settle into mount without creating escape windows. Mastery of this transition transforms the Shoulder of Justice from a static pressure platform into a dynamic positional advancement tool that threatens both submission and mount progression simultaneously, forcing the bottom player into an unsolvable dilemma.",
   "conditions": [
     "Established Shoulder of Justice position with stable shoulder pressure driving into opponent's jaw at optimal angle",

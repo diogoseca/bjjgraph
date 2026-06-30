@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Gift Wrap/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Back Control/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Within the back attack hierarchy, the Gift Wrap from Back is the bridge between simply holding the back and reliably finishing from it. Having established back control, the attacker isolates one of the defender's arms by threading their controlling arm underneath the defender's armpit and securing the wrist or forearm on the far side of the body. This action pulls the defender's arm across their own chest in a diagonal line, creating the Gift Wrap configuration that removes roughly half of the defender's defensive capability.\n\nThis transition represents a critical intermediate step in the back attack system. Rather than attempting submissions directly from standard back control against a well-defending opponent who maintains active hand fighting, the Gift Wrap entry allows the attacker to methodically strip away defensive tools before committing to finishing attempts. The technique exploits moments when the defender's arm becomes exposed during grip exchanges, or when the defender commits one arm heavily to neck defense, leaving the other arm vulnerable to isolation.\n\nThe Gift Wrap from Back fits into a broader positional hierarchy where control refinement precedes submission attempts. By transitioning from standard back control to the Gift Wrap, the attacker upgrades their positional dominance without meaningful risk of position loss. The reduced defensive capability of the trapped opponent makes subsequent attacks—rear naked choke, armbar on the free arm, bow and arrow choke, and transitions to mount or crucifix—significantly higher percentage than attempting them from standard back control with full hand fighting resistance.",
   "conditions": [
     "Established back control with at least one hook or body triangle securing hip control",

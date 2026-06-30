@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Rear Naked Choke from Body Triangle",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "success"
     },
     {
       "to": "Body Triangle/Bottom",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 35,
+  "success_rate": {
+    "gi": 35,
+    "nogi": 35
+  },
   "overview": "The Body Triangle Squeeze is a compression submission executed from the body triangle position where the attacker uses the figure-four leg configuration as a direct finishing mechanism rather than merely a control tool. By progressively increasing the squeezing pressure of the locked legs around the defender's lower ribcage and diaphragm, the attacker creates unbearable torso compression that restricts breathing, threatens rib injury, and forces a tap from accumulated pain and inability to breathe.\n\nUnlike choke-based submissions from back control, the body triangle squeeze attacks the torso rather than the neck, making it effective even against opponents with strong chin-tuck and collar defense. The mechanical advantage of the figure-four lock means relatively small increases in leg engagement translate to significant pressure increases on the ribcage. The submission works through cumulative pressure rather than instant danger, making it a grinding technique that rewards patience and positional dominance.\n\nThe squeeze is most effective when the triangle is locked at optimal height around the floating ribs and diaphragm, and when the attacker engages their entire posterior chain to generate maximum compression. At the competitive level, this technique functions as both a legitimate finishing threat and a pressure tool that degrades the defender's respiratory capacity, creating the dilemma-based attacking framework that defines elite back control. Combined with choke threats, the squeeze forces the opponent into choosing between protecting their ribs or their neck, a lose-lose defensive prioritization problem.",
   "conditions": [
     "Body triangle must be locked in proper figure-four configuration around opponent's lower ribcage",

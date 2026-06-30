@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "De La Riva Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Collar Sleeve Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The collar sleeve to De La Riva transition is a fundamental guard switching technique that converts the asymmetric grip control of collar sleeve guard into the hook-based leverage system of De La Riva guard. This transition typically occurs when the top player stands to initiate a passing sequence, creating the standing posture that De La Riva guard exploits most effectively. The bottom player threads their outside leg around the opponent's lead leg to establish the signature DLR hook while converting their existing grips to match the new guard structure.\n\nStrategically, this transition addresses a key vulnerability of collar sleeve guard: when the top player stands with good posture, the collar pull loses much of its effectiveness because the distance between the gripping hand and the opponent's center of gravity increases. De La Riva guard, by contrast, thrives against standing opponents because the hook creates powerful off-balancing leverage at the hip and knee level. Recognizing this positional trigger and executing the grip conversion smoothly is what separates reactive guard players from proactive ones who control the engagement regardless of the passer's strategy.\n\nThe transition requires precise timing and coordinated grip switching. The bottom player must insert the DLR hook while simultaneously converting the sleeve grip to an ankle or pants grip on the hooked leg, and either maintaining the collar grip or converting it to a belt or far sleeve grip. Rushing the hook insertion without securing replacement grips creates a window where the top player can backstep or smash through the incomplete guard structure. Executed with proper sequencing, this transition maintains continuous control throughout the switch and arrives in De La Riva guard with immediate attacking options.",
   "conditions": [
     "Opponent stands or postures up from kneeling position in your collar sleeve guard",

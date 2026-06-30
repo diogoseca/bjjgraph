@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "S Mount/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Technical Mount/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Technical Mount to S Mount transition is a critical positional advancement within the mount offense system that converts the stepped-leg asymmetry of Technical Mount into the fully perpendicular body angle defining S Mount. This transition centers on rotating the hips from a diagonal orientation to a perpendicular alignment relative to the opponent's torso, while maintaining continuous two-on-one arm control throughout the movement. The perpendicular angle creates dramatically superior mechanical leverage for armbar attacks by aligning the practitioner's entire body along the axis of the opponent's isolated arm.\n\nExecuting this transition demands precise weight management during the rotation. The top player shifts their center of gravity from the Technical Mount base—where weight distributes between the posted leg and hooked inside leg—to the S Mount structure, where both legs form an S-shaped configuration across the opponent's head and torso. The rotation occurs around the controlled arm as an axis, with the hips driving toward the opponent's shoulder to eliminate defensive space. Timing is paramount: premature rotation before adequate arm control allows the opponent to retract their arm, while delayed commitment permits the opponent to build defensive frames or initiate hip escape sequences that can lead to guard recovery.\n\nThis transition functions as the bridge between mount control and submission finishing. Technical Mount initiates arm isolation, but S Mount provides the body angle necessary for high-percentage armbar completion. The transition is most effective when the opponent's defensive reactions to Technical Mount—such as pushing against the posted leg or turning away—create natural windows for the perpendicular rotation. Recognizing when to commit to this advancement versus maintaining Technical Mount pressure separates competent mount attackers from elite submission finishers.",
   "conditions": [
     "Established Technical Mount with stable posted leg base and inside leg hooked under opponent",

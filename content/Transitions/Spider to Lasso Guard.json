@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Lasso Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Spider Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Spider to Lasso Guard transition converts a bilateral spider guard configuration into an asymmetric lasso control system by threading one shin underneath and across the opponent's trapped arm. This fundamental gi-based guard transition upgrades the bottom player's control from simple foot-on-bicep pressure to a deep mechanical lever that severely restricts the opponent's mobility on one side, transforming the passing problem they must solve.\n\nThe critical timing window occurs when the bottom player releases foot pressure on the target bicep to circle the foot underneath the opponent's arm. This brief moment of reduced control creates vulnerability, making grip maintenance on the sleeve essential throughout the threading motion. The sleeve grip guides the opponent's arm into position while the shin slides across the tricep, seating the lasso deeply against the shoulder.\n\nStrategically, this transition is most effective when the opponent begins settling against spider guard or attempts to break foot-on-bicep pressure. Rather than fighting to maintain spider hooks against active grip-breaking, the bottom player converts the opponent's defensive action into an opportunity to establish superior control. Advanced practitioners use the Spider to Lasso transition reactively, converting to lasso on whichever side the opponent addresses, turning defensive grip fighting into offensive guard enhancement.",
   "conditions": [
     "Established Spider Guard with at least one foot on the target arm's bicep and a deep sleeve grip on the same arm",

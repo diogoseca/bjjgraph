@@ -18,21 +18,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 75,
+      "probability": {
+        "gi": 75,
+        "nogi": 75
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 72,
+  "success_rate": {
+    "gi": 72,
+    "nogi": 72
+  },
   "conditions": [
     "Top position established in half guard with one leg trapped between opponent's legs",
     "Ability to achieve under-hook on opponent's near leg with sufficient depth to reach far hip",

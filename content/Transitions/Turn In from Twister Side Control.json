@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "success"
     },
     {
       "to": "Twister Side Control/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 35,
+  "success_rate": {
+    "gi": 35,
+    "nogi": 35
+  },
   "overview": "The turn-in escape from twister side control represents a critical defensive technique for practitioners caught in one of the most submission-dangerous lateral control positions in modern no-gi grappling. Unlike turning away from the opponent, which exposes the back and deepens the spinal torque required for the twister finish, the turn-in directs the bottom player's rotation toward the controlling player. This inward rotation uses frames and hip movement to systematically dismantle the control structure and create the conditions necessary for half guard recovery. The technique directly counters the primary submission mechanics of twister side control by neutralizing rotational torque on the spine.\n\nThe technique's strategic significance lies in its opposition to the twister side control's primary submission pathway. By turning inward, the bottom player eliminates the spinal rotation that makes twister attacks possible while simultaneously creating opportunities for underhook establishment and leg extraction. Proper execution demands careful sequencing: frames must be established before rotation begins, hip movement must lead shoulder movement, and knee shield insertion must immediately follow leg extraction to prevent the top player from stepping over to mount. Rushing any step exposes the escaping player to mount transitions or deeper control reestablishment.\n\nSuccess with the turn-in demands patience and mechanical precision rather than explosive athleticism. The bottom player must resist the impulse to rush the escape, instead building space incrementally through small positional adjustments. Each micro-movement improves the situation slightly, and the cumulative effect of proper frame maintenance, gradual hip rotation, and systematic leg extraction creates the conditions for a clean transition to half guard. From half guard bottom, the practitioner regains access to sweeps, underhook battles, back takes, and guard transitions that are completely unavailable from twister side control bottom.",
   "conditions": [
     "Bottom player retains enough hip mobility to initiate inward rotation despite leg entanglement",

@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Closed Guard/Bottom",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Combat Base/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "Guard Recovery from Combat Base is a fundamental defensive transition in Brazilian Jiu-Jitsu where the bottom player works to reestablish closed guard when their opponent has secured combat base inside their legs. This transition addresses the critical moment when your guard has been opened and your opponent has established an asymmetric kneeling stance with one knee posted and one foot planted, threatening multiple passing sequences including knee slice, toreando, and pressure passes.\n\nThe technique centers on a sequential process of framing, hip escaping, and leg reattachment that disrupts the combat base player's passing pressure and positional control. The bottom player must create initial distance through effective frames on the opponent's shoulders or chest, then generate angle through hip escapes to create the space necessary for reinserting legs between themselves and the passer. Timing is essential—attempting recovery while the opponent drives forward with heavy pressure results in being flattened, while waiting too long allows advancement through established passing chains.\n\nGuard recovery from combat base integrates directly into the broader guard retention system, connecting the open guard defensive network with closed guard's offensive platform. When full closed guard recovery is not achievable, the same mechanical principles drive transitions into half guard retention, butterfly guard recomposition, or open guard distance management. Mastery of this recovery makes your entire bottom game more resilient by ensuring that a momentary guard opening does not cascade into a complete positional loss.",
   "conditions": [
     "Opponent has established combat base with one knee posted and opposite foot planted inside your guard",

@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 44,
+      "probability": {
+        "gi": 44,
+        "nogi": 44
+      },
       "result": "success"
     },
     {
       "to": "Chill Dog/Bottom",
-      "probability": 36,
+      "probability": {
+        "gi": 36,
+        "nogi": 36
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 44,
+  "success_rate": {
+    "gi": 44,
+    "nogi": 44
+  },
   "overview": "The Sweep from Chill Dog transforms a traditionally defensive turtle variant into an offensive reversal, catching opponents off guard when they expect only survival-oriented responses from the bottom player. From the compact Chill Dog shell, the bottom practitioner exploits the top player's forward weight commitment to execute a sit-out reversal that ends in full mount, representing one of the highest-value positional transitions available from any turtle variant.\n\nThis technique operates on a fundamental principle of redirected force. Rather than generating power against the opponent's weight, the sweeper converts the top player's downward and forward pressure into rotational energy. The compact Chill Dog posture stores potential energy like a coiled spring. When the opponent drives their chest pressure forward or overcommits to breaking the defensive frame, their weight distribution becomes structurally vulnerable to lateral displacement. The bottom player capitalizes on this vulnerability by executing a coordinated sit-out and hip switch that channels the opponent's momentum into a reversal.\n\nThe strategic value of this sweep extends far beyond the immediate positional gain. Once opponents learn that an aggressive sweep threat exists from Chill Dog, they become significantly more conservative in their turtle attacks. This hesitancy creates wider escape windows for the bottom player's other options, including the Granby roll to open guard, hip escape to half guard, and technical stand-up to standing. The sweep functions as a force multiplier for the entire Chill Dog defensive system by punishing overaggression, making all other escapes more effective through threat multiplication. Within the 10th Planet system, this sweep exemplifies the philosophy that every position should carry both defensive and offensive capabilities, ensuring that no position is purely reactive.",
   "conditions": [
     "Opponent has committed significant forward weight through chest pressure onto the bottom player's upper back",

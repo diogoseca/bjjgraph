@@ -14,24 +14,35 @@
   "outcomes": [
     {
       "to": "Modified Mount/Top",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "Mount/Top",
-      "probability": 27,
+      "probability": {
+        "gi": 27,
+        "nogi": 27
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "summary": "Mount to Modified Mount is a deliberate positional adjustment where the top player posts one leg wide and shifts the hips high, converting symmetric mount into an asymmetric, bridge-resistant platform optimized for armbars and triangles.",
-  "overview": "Mount to Modified Mount is the deliberate conversion of standard, bilateral mount into the asymmetric modified mount by posting one leg out wide for base while keeping the opposite knee pinned across the opponent's torso and climbing the hips high toward the chest. Rather than waiting to fall into the position reactively, the top player chooses it as a calculated trade: surrendering a small amount of even pinning pressure in exchange for a wide, kickstand-like base that defeats the explosive bridge-and-roll and pre-loads the body into armbar and mounted-triangle entries.\n\nThe transition is a staple of the mount offense system and is taught explicitly as the bridge between holding mount and finishing from it. The top player walks the knees up toward the armpits, posts the foot flat on the mat at roughly forty-five degrees, and shifts weight diagonally so the posted leg carries the stability load while the across-body knee retains primary control. Because the hips are already rotated toward one shoulder, the modified mount funnels naturally into the swing-over armbar or the mounted triangle without any further repositioning of the base.\n\nStrategically, the move is deployed against opponents whose primary escape is the upa or bridge-and-roll: the posted leg neutralizes that escape almost entirely. The principal risks are posting the leg too far, which gifts the opponent space to insert a knee shield and recover half guard, and losing across-body knee pressure during the climb, which lets the opponent frame and shrimp. Executed with a tight, close post and continuous chest connection, it is one of the highest-percentage stabilizing transitions available from mount."
-,
+  "overview": "Mount to Modified Mount is the deliberate conversion of standard, bilateral mount into the asymmetric modified mount by posting one leg out wide for base while keeping the opposite knee pinned across the opponent's torso and climbing the hips high toward the chest. Rather than waiting to fall into the position reactively, the top player chooses it as a calculated trade: surrendering a small amount of even pinning pressure in exchange for a wide, kickstand-like base that defeats the explosive bridge-and-roll and pre-loads the body into armbar and mounted-triangle entries.\n\nThe transition is a staple of the mount offense system and is taught explicitly as the bridge between holding mount and finishing from it. The top player walks the knees up toward the armpits, posts the foot flat on the mat at roughly forty-five degrees, and shifts weight diagonally so the posted leg carries the stability load while the across-body knee retains primary control. Because the hips are already rotated toward one shoulder, the modified mount funnels naturally into the swing-over armbar or the mounted triangle without any further repositioning of the base.\n\nStrategically, the move is deployed against opponents whose primary escape is the upa or bridge-and-roll: the posted leg neutralizes that escape almost entirely. The principal risks are posting the leg too far, which gifts the opponent space to insert a knee shield and recover half guard, and losing across-body knee pressure during the climb, which lets the opponent frame and shrimp. Executed with a tight, close post and continuous chest connection, it is one of the highest-percentage stabilizing transitions available from mount.",
   "conditions": [
     "Stable standard mount established with consistent chest and hip pressure on opponent's torso",
     "At least one controlling grip secured on the opponent's upper body to maintain connection during the weight shift",

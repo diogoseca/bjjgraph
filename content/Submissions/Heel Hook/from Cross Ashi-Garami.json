@@ -19,7 +19,10 @@
   "target_area": "Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity",
   "starting_position": "Cross Ashi-Garami",
   "from_position": "Cross Ashi-Garami/Top",
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "The heel hook from Cross Ashi-Garami exploits the unique crossed leg configuration to generate powerful rotational force on the opponent's knee ligaments. Cross Ashi provides superior hip control compared to standard ashi garami positions because the crossed legs create a wedge effect that prevents the defender from sitting up or rotating their hips to clear the entanglement. The perpendicular hip alignment between attacker and defender, combined with the pinching effect of the inside hook and outside cross, immobilizes the trapped leg and creates one of the highest-percentage leg lock finishing platforms in modern submission grappling.\n\nThe key mechanical advantage lies in how the cross configuration amplifies rotational torque. The attacker's inside hook anchors behind the defender's hip while the outside leg crosses at shin level, locking the lower leg in place. With the heel cupped and the foot controlled, the attacker applies rotational force by turning the heel toward the ceiling while driving their hips forward. Because the defender cannot generate effective counter-rotation from this position, the breaking mechanics engage quickly once the grip is consolidated.\n\nThis submission demands meticulous attention to safety in training. The mechanism attacks the ACL, MCL, and LCL simultaneously through rotational torque, and structural damage can occur before the defender feels significant pain. Both training partners must understand proper application speed, tap protocols, and release procedures. In competition, the heel hook from Cross Ashi-Garami has become a cornerstone technique, forcing all serious grapplers to develop both offensive proficiency and reliable defensive responses.",
   "safety_considerations": {
     "injury_risks": [
@@ -118,17 +121,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Cross Ashi-Garami/Top",
-      "probability": 36,
+      "probability": {
+        "gi": 36,
+        "nogi": 36
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 19,
+      "probability": {
+        "gi": 19,
+        "nogi": 19
+      },
       "result": "counter"
     }
   ],

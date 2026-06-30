@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 70,
+      "probability": {
+        "gi": 70,
+        "nogi": 70
+      },
       "result": "success"
     },
     {
       "to": "Seated Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Seated Guard/Top",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "overview": "The Foot Grab Sweep is a fundamental open guard technique that exploits an opponent's forward pressure and poor base management. By controlling one of the opponent's feet while simultaneously breaking their posture and grips, the practitioner creates a powerful sweeping motion that elevates the opponent and reverses position. This technique is particularly effective against opponents who attempt to stand and pass the guard, or those who maintain a squared-up stance with weight distributed evenly on both legs.\n\nThe sweep works on the principle of removing one of the opponent's base points while simultaneously creating directional force that their remaining leg cannot compensate for. When executed properly, the foot grab sweep allows the practitioner to control the opponent's movement completely, preventing them from posting or recovering their base. The technique is highly versatile and can be adapted to various open guard positions including butterfly guard, seated guard, and de la riva variations.\n\nSuccess with this sweep depends heavily on timing, grip control, and the ability to read the opponent's weight distribution. Advanced practitioners can chain this sweep with other attacks, using the opponent's defensive reactions to create offensive opportunities. The foot grab sweep is an essential component of a complete open guard game and serves as both a primary attacking option and a counter to standing guard passes.",
   "related_content": [
     {

@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "The hip escape from back control is one of the most fundamental and essential escape techniques in Brazilian Jiu-Jitsu, enabling the bottom player to systematically work out of the most dominant position in grappling. This technique relies on creating space through lateral hip movement, establishing structural frames, and methodically removing the opponent's control hooks to recover a less disadvantageous position such as half guard. The escape follows a strict defensive sequence: first protect the neck from immediate submission threats, then address the seatbelt grip and upper body control, then remove leg hooks through hip scooting and controlled rotation toward the underhook side.\n\nUnlike explosive escape attempts that waste energy and often expose the neck to submission, the hip escape uses calculated incremental movements to progressively degrade the opponent's three-layered control structure. The technique capitalizes on the mechanical principle that lateral hip movement combined with proper forearm framing can overcome the chest-to-back connection that makes back control dominant. Timing the escape when the opponent transitions between attacks or adjusts their grips creates windows of reduced control that the hip escape exploits most effectively.\n\nThe hip escape integrates into the broader back escape system as a medium-risk, medium-reward option that works reliably across all skill levels and body types. It complements other escape methods like the back door escape and turtle transitions, and can be chained with guard recovery techniques when the initial escape creates sufficient separation from the opponent's control. The technique is particularly effective against opponents who prioritize hook control over submission attacks, as the sequential hip scooting motion directly addresses the hook placement that anchors the back control position.",
   "conditions": [
     "Opponent has established back control with at least one hook and upper body control through seatbelt or harness grip",

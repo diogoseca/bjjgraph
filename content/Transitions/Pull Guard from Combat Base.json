@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Closed Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Combat Base/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Within the broader combat base battle, this transition represents the bottom player's decision to re-establish a complete closed guard instead of trading sweeps and recoveries in the open-guard exchange. Rather than passively accepting the combat base player's passing pressure, the bottom player uses strategic grips, posture breaking, and hip movement to bring their legs around the opponent's waist and establish closed guard — a position offering significantly more control and offensive options than remaining underneath combat base.\n\nThis transition represents a critical decision point for the bottom player. Combat base is designed as a guard passing platform, so remaining underneath it without establishing guard closure allows the top player to select from multiple high-percentage passes including knee slices, toreando, and leg drags. By actively working to close guard, the bottom player disrupts the passer's rhythm, denies them the distance and angles needed for effective passing, and transitions to a position where they can threaten sweeps, submissions, and off-balancing techniques. The key challenge lies in overcoming the combat base player's strong triangulated base and active hand control designed to prevent exactly this guard closure.\n\nSuccess requires a systematic approach: establishing controlling grips to compromise posture, using hip escapes to close distance, timing the guard closure during weight shifts or grip transitions, and immediately consolidating the closed guard position once legs are wrapped. The technique rewards patient grip fighting and precise timing over explosive athleticism, making it accessible across body types while remaining effective at the highest levels of competition.",
   "conditions": [
     "Opponent has established combat base with one knee posted and opposite foot planted inside your guard",

@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 46,
+      "probability": {
+        "gi": 46,
+        "nogi": 46
+      },
       "result": "success"
     },
     {
       "to": "Old School/Bottom",
-      "probability": 32,
+      "probability": {
+        "gi": 32,
+        "nogi": 32
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 22,
+      "probability": {
+        "gi": 22,
+        "nogi": 22
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 46,
+  "success_rate": {
+    "gi": 46,
+    "nogi": 46
+  },
   "summary": "The Old School Sweep is a 10th Planet half-guard reversal where the bottom player combines lockdown leg control, a deep underhook, and head control to rotate the top player over and land directly in mount.",
   "overview": "The Old School Sweep is the signature offensive technique from the Old School half guard position, popularized through the 10th Planet Jiu-Jitsu system. Executed from half guard bottom with lockdown control, deep underhook, and head control, the practitioner drives a powerful circular rotation that reverses the opponent directly into mount. The sweep leverages the lockdown's leg entanglement to destroy the opponent's base while the underhook and head control create the rotational force needed to complete the reversal. The technique is particularly effective in no-gi grappling where the lockdown provides superior control compared to traditional gi grips.\n\nThe mechanical foundation of the Old School Sweep lies in the coordination of three control points working in unison. The lockdown immobilizes the opponent's trapped leg and prevents them from establishing a stable base. The deep underhook creates a lever arm that, when combined with hip rotation, generates the force to turn the opponent. Head control prevents the opponent from posturing up or posting their hand to resist the sweep. When all three controls are tight and the timing aligns with the opponent's forward weight shift, the sweep becomes extremely difficult to defend.\n\nStrategically, the Old School Sweep creates a genuine dilemma for the top player. Defending the sweep by driving crossface pressure feeds into the lockdown's control mechanism, while posting high to resist creates vulnerability to the Electric Chair transition. This binary forces the top player into a lose-lose situation where their defensive choices open alternative offensive pathways, embodying the principle of dilemma creation that defines high-level positional grappling from half guard bottom.",
   "conditions": [

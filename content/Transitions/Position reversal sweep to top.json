@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "50-50 Guard/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "50-50 Guard/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Inside Ashi-Garami/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Position Reversal Sweep from 50-50 Guard Bottom is a fundamental technique for escaping the defensive 50-50 position and achieving top control. This sweep exploits the symmetrical nature of the 50-50 configuration, where small positional advantages can dramatically shift the control hierarchy. The technique centers on gaining inside position control with your leg while using hip elevation and directional momentum to reverse your opponent's top pressure.\n\nFrom the bottom 50-50 position, you face significant disadvantage due to your opponent's gravitational control and heel hook threat. The reversal sweep provides an escape pathway that not only removes you from danger but places you in an offensive position. The key mechanical principle involves breaking your opponent's base through inside leg control combined with hip elevation that lifts their weight while you rotate underneath. Timing is critical—the sweep works best when your opponent commits weight forward or reaches aggressively for heel control, momentarily compromising their base stability.\n\nThis sweep integrates into the modern leg lock game as an essential defensive tool. Rather than simply extracting legs and disengaging, the reversal allows you to turn a bad position into an attacking platform. Once on top, you inherit all the offensive opportunities of top 50-50 including heel hooks, kneebars, and back takes. The sweep represents the principle that every defensive position should contain offensive counter-opportunities.",
   "related_content": [
     {

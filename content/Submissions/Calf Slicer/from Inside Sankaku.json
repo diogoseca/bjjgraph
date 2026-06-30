@@ -18,7 +18,10 @@
   "target_area": "Calf muscle and posterior knee structures",
   "starting_position": "Inside Sankaku",
   "from_position": "Inside Sankaku/Top",
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "The calf slicer from inside sankaku exploits the inherent geometry of the honey hole leg entanglement to apply devastating compression against the opponent's calf muscle and posterior knee structures. When the standard inside heel hook is well-defended — the opponent hides their heel, controls grip fighting, or boots their foot free — the calf slicer provides a secondary finishing option that punishes the very defensive postures designed to neutralize the heel hook.\n\nFrom the inside sankaku configuration, the attacker threads their shin bone behind the opponent's knee crease, using the existing figure-four leg lock as an anchor point. By controlling the opponent's ankle and extending their own hips forward while pulling the foot toward them, the attacker creates a fulcrum effect that compresses the calf muscle against the hard edge of the shin bone. This compression attacks the gastrocnemius and soleus muscles, threatens the posterior cruciate ligament, and can hyperextend the knee if the opponent fails to tap.\n\nThe technique carries particular strategic value in competition because opponents conditioned to defend heel hooks often straighten their trapped leg as a defensive reflex — a movement that directly sets up the calf slicer entry. Understanding this attack-defense dynamic transforms the inside sankaku from a single-threat position into a genuine dilemma where every defensive choice opens a different submission pathway.",
   "safety_considerations": {
     "injury_risks": [
@@ -106,17 +109,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Inside Sankaku/Top",
-      "probability": 32,
+      "probability": {
+        "gi": 32,
+        "nogi": 32
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 18,
+      "probability": {
+        "gi": 18,
+        "nogi": 18
+      },
       "result": "counter"
     }
   ],

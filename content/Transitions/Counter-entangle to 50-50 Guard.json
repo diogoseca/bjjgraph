@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "50-50 Guard/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Leg Knot/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Saddle/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Counter-entangle to 50-50 Guard is a critical defensive transition used when caught in the bottom position of a leg knot entanglement. Rather than simply trying to escape the entanglement entirely, this technique uses the opponent's own leg control against them by weaving your free leg through their legs to achieve the symmetric 50-50 position. This transforms a defensive crisis into a neutral battleground where both practitioners have equal leg lock threats.\n\nThe strategic value of this counter lies in its risk mitigation properties. When trapped in Leg Knot Bottom, you face immediate heel hook and kneebar threats with limited defensive options. By counter-entangling to 50-50, you neutralize your opponent's positional advantage while simultaneously creating your own submission opportunities. The 50-50 position, while often criticized for stalling in competition, becomes a legitimate defensive fortress when the alternative is defending against a dominant leg lock position.\n\nThis technique requires precise timing and technical execution. Attempting the counter-entangle too early when the opponent has strong control results in accelerated positional deterioration. Waiting too long allows the opponent to consolidate into Saddle or Inside Ashi where counter-entanglement becomes impossible. The window of opportunity exists during transitional moments when the opponent is adjusting grips or attempting to advance their position.",
   "conditions": [
     "Your leg is entangled in Leg Knot Bottom but not yet secured in Saddle or Inside Ashi configuration",

@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Z-Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Flattened Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Z-Guard to Half Guard transition represents a deliberate tactical shift from a distance-management-oriented guard to a close-range offensive platform. While Z-Guard excels at preventing the top player from settling their weight through the elevated knee shield, its very structure can limit access to the powerful underhook-based sweeping systems that define modern half guard play. By withdrawing the knee shield and establishing a traditional half guard configuration, the bottom player trades defensive distance for offensive proximity, gaining access to underhook sweeps, old school sweeps, back takes, and deep half guard entries that require chest-to-chest engagement rather than frame separation.\n\nThe critical challenge in this transition lies in managing the vulnerability window created when the knee shield is removed. The moment the shin barrier drops, the top player gains an opportunity to drive forward with crossface pressure and flatten the bottom player. Successful execution therefore demands precise timing, typically coordinated with the opponent's forward pressure or weight commitment, and requires the underhook to be established before or simultaneously with the knee shield withdrawal. The transition is not simply dropping the knee shield but rather a coordinated sequence of underhook acquisition, hip angle adjustment, and leg reconfiguration that maintains defensive integrity throughout.\n\nStrategically, this transition is essential for any practitioner whose half guard game relies on the underhook sweep system, the old school sweep, or deep half guard entries. It prevents opponents from developing a single-strategy approach to passing your Z-Guard, as the threat of transitioning to a more offensive half guard forces them to respect multiple attack vectors. The ability to flow between Z-Guard's defensive framing and half guard's offensive sweeping creates a dynamic guard game that keeps opponents guessing and unable to commit fully to any single passing strategy.",
   "conditions": [
     "Bottom player has Z-Guard established with knee shield actively pressing into opponent's shoulder or upper chest",

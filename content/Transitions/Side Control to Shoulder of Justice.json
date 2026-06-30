@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Shoulder of Justice/Top",
-      "probability": 70,
+      "probability": {
+        "gi": 70,
+        "nogi": 70
+      },
       "result": "success"
     },
     {
       "to": "Side Control/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 70,
+  "success_rate": {
+    "gi": 70,
+    "nogi": 70
+  },
   "overview": "The Transition to Shoulder of Justice is a positional advancement from standard side control into one of the most punishing control variations in Brazilian Jiu-Jitsu. This transition focuses on redirecting your shoulder pressure from a general crossface into a concentrated, angled drive directly into the opponent's jaw and temporomandibular joint. The result is a position that creates extreme discomfort, forces defensive reactions, and opens multiple high-percentage submission and advancement pathways.\n\nThe transition itself is subtle rather than explosive. It involves walking your chest position forward while adjusting your shoulder angle from a flat crossface to a 45-degree drive toward the opponent's far shoulder. Simultaneously, you must maintain hip connection to prevent any shrimping escape during the transition window. The critical detail is that the shoulder blade, not the deltoid, becomes the primary pressure contact point against the jaw line. This biomechanical refinement transforms standard side control pressure into targeted, almost unbearable control that experienced practitioners recognize as one of the most effective pin refinements available.\n\nStrategically, this transition serves as a force multiplier for your entire top-side game. Once established, the Shoulder of Justice creates a dilemma system where every defensive reaction the bottom player makes opens a specific offensive pathway: pushing with the near arm exposes kimuras, shrimping away allows mount advancement, turning in opens north-south transitions, and bringing the far arm across creates arm triangle opportunities. The transition should be attempted once you have consolidated standard side control and want to escalate offensive pressure without risking positional loss.",
   "conditions": [
     "Established side control with chest-to-chest contact and crossface control",

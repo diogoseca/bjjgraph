@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Invisible Collar/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "New York Control/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The New York Control to Invisible Collar transition represents a critical lateral reconfiguration within the 10th Planet Rubber Guard system. The bottom player repositions their controlling leg from the overhook-and-shoulder-wrap configuration of New York to slide the shin behind the opponent's neck, creating the signature invisible collar that mimics a cross-collar grip using the practitioner's own calf and shin rather than gi material. This transition maintains offensive pressure during what is fundamentally a grip change, preventing the top player from establishing defensive structures that become effective against any single rubber guard position held too long.\n\nThe strategic value lies in the invisible collar's ability to open distinct submission angles compared to New York Control. Where New York favors triangle and omoplata setups through the overhook configuration, the invisible collar emphasizes gogoplata threats and modified choke mechanics that attack from a steeper angle across the opponent's neck. The transition between these two positions creates a dynamic rubber guard system where the bottom player cycles between complementary attacking configurations, forcing the top player to continuously adapt their defense.\n\nTiming and hip mobility determine success. The critical vulnerability window occurs during the brief moment when the overhook is released and the shin is being repositioned. If the top player recognizes this gap and postures aggressively, they can strip the rubber guard controls entirely. Advanced practitioners disguise the transition by threatening submissions from New York Control first, then using the opponent's defensive reaction as the opening to slide the shin into invisible collar position without resistance.",
   "conditions": [
     "Bottom player has established New York Control with active leg pressure over opponent's shoulder",

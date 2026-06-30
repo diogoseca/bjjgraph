@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Closed Guard/Top",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Diamond Guard/Top",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Armbar Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "Inside the diamond guard, the bottom player has trapped the top player with an overhook on one arm and head control behind the neck — two independent grips that converge to pull the top player's posture down and forward. This frame eliminates the structural base required for guard passing or even basic survival, and without recovery the top player faces an escalating chain of triangle, omoplata, and kimura threats that become increasingly difficult to defend as fatigue accumulates.\n\nThe fundamental challenge of this recovery lies in the dual-point control system. Unlike standard closed guard posture breaks that rely on a single collar grip or head pull, the diamond frame uses two independent but mutually reinforcing controls. The overhook eliminates one posting arm entirely, while head control drives the spine into flexion. Addressing either control point in isolation is insufficient because the remaining control compensates. Successful recovery therefore requires a sequenced approach: first neutralize the more dangerous control (head control), then address the overhook, and finally drive the hips backward to restore spinal alignment.\n\nThis transition is particularly important because diamond guard represents a position of significant energy asymmetry favoring the bottom player. The guard player maintains the diamond with relatively low muscular effort through structural alignment, while the top player expends considerable energy fighting two converging pulls. Every second spent in broken posture deepens fatigue and increases submission vulnerability. The posture recovery must be executed with technical precision rather than raw strength, using head positioning, elbow alignment, and hip drive as primary tools rather than attempting to muscle through the frame.",
   "conditions": [
     "Opponent has established diamond guard with overhook on one arm and head control behind your neck",

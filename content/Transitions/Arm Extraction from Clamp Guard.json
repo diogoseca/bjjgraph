@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Open Guard/Top",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Clamp Guard/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Armbar Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "This transition is the top player's highest-priority response the moment their arm is caught in clamp guard, because the position only deteriorates with time. The clamp guard immobilizes one arm through shin-on-bicep pressure, creating an asymmetric control situation where the guard player has both hands free while the top player operates with a significant structural disadvantage. Successful extraction requires precise mechanics because the direction and method of extraction directly determines whether the top player escapes cleanly or feeds into the guard player's submission chain.\n\nThe critical challenge is that every intuitive extraction method plays into the guard player's offensive system. Pulling the arm straight back exposes the elbow for an armbar. Circling the arm outward opens the pathway to a triangle or omoplata. Driving forward into the clamp creates sweep opportunities. The top player must use a combination of posture management, angle creation, and rotational extraction mechanics that neutralize the guard player's pre-set submission triggers before committing to the extraction.\n\nTiming is equally important as technique. The longer the arm remains trapped, the deeper the bottom player consolidates control and sets up attacks. Early extraction attempts when the clamp is still shallow succeed at significantly higher rates than attempts against an established deep clamp with supplementary wrist control and optimal hip angle. Recognizing the clamp entry and responding within the first two to three seconds before the bottom player establishes wrist control is the highest-percentage window for successful extraction.",
   "conditions": [
     "Opponent has established clamp guard with shin positioned across your bicep, trapping your arm between their legs",

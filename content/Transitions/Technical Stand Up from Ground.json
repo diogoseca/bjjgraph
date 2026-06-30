@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Standing Position/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Seated Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Few skills are more foundational in Brazilian Jiu-Jitsu than the technical stand up, the bridge that lets a grounded practitioner reclaim a standing posture without surrendering position. Built on the principle of posting a hand behind the hip for structural support combined with a kick-through leg motion, this technique creates the elevation needed to reach standing without exposing the practitioner to takedowns or submissions during the vulnerable transition phase.\n\nStrategically, the technical stand up serves dual purposes in competition and self-defense contexts. In competition, it allows guard players to reset unfavorable exchanges, deny opponents their preferred passing game, or create new engagement opportunities from standing. In self-defense, the ability to safely return to standing against a standing adversary is among the most critical skills, as remaining grounded presents significant tactical disadvantage. The movement prioritizes maintaining a defensive frame with the non-posting hand while keeping the center of gravity low throughout the transition.\n\nThe effectiveness of this technique hinges on proper sequencing: creating distance through framing, establishing a stable posting base, generating momentum through the hip lift and kick-through, and finishing with immediate distance creation upon reaching standing. Equally important is recognizing when NOT to attempt a technical stand up. If the opponent has controlling grips, heavy top pressure, or tight proximity, forcing the stand up may expose you to takedowns or guard passes. The technique works best when preceded by successful frame creation and distance management, making it a natural complement to any guard retention system.",
   "conditions": [
     "Sufficient distance from opponent to create posting space behind hip",

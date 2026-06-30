@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Old School/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Flattened Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Born from the 10th Planet lockdown system, this transition addresses a specific tactical problem: what to do when a disciplined top player has neutralized your lockdown sweeps with deep whizzer and crossface pressure, leaving the position stalled. Rather than representing a defensive retreat, this transition reflects sophisticated positional awareness—recognizing when the opponent has effectively neutralized lockdown-specific threats and that alternative attacking angles are needed to continue advancing.\n\nThe mechanics center on safely releasing the lockdown figure-four configuration while maintaining half guard leg entanglement, then establishing knee shield or shin frames that create the distance management structure characteristic of standard half guard play. The critical challenge lies in the transition window between releasing lockdown control and establishing half guard frames—during this window, the top player has maximum opportunity to advance position through increased crossface pressure, smashing weight, or immediate passing attempts.\n\nSuccessful execution demands reading the positional dynamics accurately. When the opponent has established deep whizzer control, heavy crossface, and a wide base that neutralizes Old School sweep attempts, continuing to fight from a compromised lockdown position burns energy without productive return. The transition to half guard opens access to knee shield retention, deep half entries, butterfly half hooks, and standard underhook sweeps that present entirely different problems for the top player to solve.",
   "conditions": [
     "Bottom player has established Old School position with lockdown, underhook, and head control",

@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Butterfly Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Half Butterfly/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Flattened Half Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Within the bottom player's guard-retention arsenal, the reguard answers a specific problem: a half butterfly whose single-hook attacks are stalling, where forcing sweeps from a deteriorating base only invites the pass. Half Butterfly provides a strong sweeping platform with its single hook, but full butterfly guard offers substantially more offensive versatility through bilateral elevation, wider sweep angles, and direct access to X-Guard entries and arm drag back takes. The reguard capitalizes on this gap by converting a partially compromised guard back into a fully active one before the top player can consolidate passing advantages.\n\nStrategically, the reguard functions as both a guard retention tool and a positional reset. When the top player begins neutralizing the half butterfly position through crossface pressure or underhook control, attempting to force sweeps from a deteriorating position wastes energy and invites passing. Instead, the reguard extracts the trapped leg and restores the dual-hook configuration before the top player can consolidate passing advantages. The technique is particularly effective after failed sweep attempts, when the opponent's defensive reaction creates weight shifts and momentary loosening of the half guard trap that facilitate extraction.\n\nThe mechanical challenge lies in creating sufficient space for leg extraction without surrendering the connections that prevent passing. The existing butterfly hook serves as the primary anchor throughout the transition, maintaining elevation pressure that keeps the top player's weight honest while the bottom player shrimps and pummels the trapped knee free. The entire sequence must flow continuously from hip escape through extraction to hook insertion, as any pause between steps creates a window where the bottom player has neither full butterfly guard nor secure half butterfly, leaving them vulnerable to passing attacks.",
   "conditions": [
     "Bottom player has one active butterfly hook on the free leg with the other leg trapped in half guard",

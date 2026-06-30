@@ -24,7 +24,10 @@
   "submission_type": "Blood Choke",
   "target_area": "Carotid arteries via deep collar grip and body positioning",
   "starting_position": "Mount",
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "variant_uniqueness": "Deceptive collar grip disguised as control creates asymmetric blood choke",
   "summary": "The Loop Choke is a deceptive gi strangle that loops the lapel and your forearm around the opponent's neck like a noose, disguised as a harmless collar tie until you snap their head down to finish.",
   "overview": "The Loop Choke is a deceptive gi-based blood choke that attacks the carotid arteries through a deep same-side collar grip combined with strategic body positioning and weight distribution. Unlike traditional collar chokes that rely on bilateral compression, the Loop Choke creates asymmetric pressure by threading one hand deep into the opponent's collar while using body weight and positioning to complete the strangle. The technique is particularly effective from closed guard, mount, side control, and turtle positions, where the attacker can control posture and prevent defensive hand fighting.\n\nThe Loop Choke's effectiveness stems from its ability to disguise the attacking grip as a standard control position, allowing practitioners to secure deep collar penetration before the opponent recognizes the submission threat. The classical setup from closed guard involves securing the collar grip, hip escaping to create angle, and pulling the opponent's head into the loop created by the grip and your forearm. From top positions like mount and side control, shoulder pressure replaces the pulling mechanics, driving into the neck while the collar grip completes the circuit.\n\nAdvanced practitioners excel at chaining the Loop Choke with other collar attacks, creating offensive systems where defensive reactions to one threat open pathways to another. The submission requires refined sensitivity to grip depth, angle management, and the ability to maintain control while transitioning through finishing mechanics. The loop choke is one of the most underutilized high-percentage collar attacks in competition, rewarding practitioners who invest in mastering its deceptive entry mechanics.",

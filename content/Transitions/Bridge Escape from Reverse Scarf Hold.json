@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Reverse Scarf Hold/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "The Bridge Escape from Reverse Scarf Hold exploits the inherent base vulnerability created by the top player's reverse orientation. In standard side control escapes, bridging mechanics follow predictable patterns against a forward-facing opponent. However, reverse scarf hold's unique configuration—where the top player faces the bottom player's legs rather than their head—creates specific directional weaknesses in the top player's base structure that this bridge escape systematically targets. The optimal bridge direction attacks the top player's weak axis, typically at a 45-degree angle toward their back, where their posting ability is most limited by the reverse orientation.\n\nThe technique centers on timing an explosive angled bridge that disrupts the top player's equilibrium while creating sufficient space for hip insertion and guard recovery. The bridge alone rarely completes the escape; instead, it generates a momentary window where the top player's weight shifts and hip pressure decreases. During this critical window, the bottom player must immediately insert a knee between the bodies to establish half guard before the top player can resettle their weight. This escape rewards patient setup and explosive execution over frantic, repeated bridging attempts that waste energy without creating meaningful positional change.\n\nFrom a strategic perspective, the bridge escape pairs naturally with hip escape and frame-based escape methods from reverse scarf hold bottom. When the top player widens their base to defend against hip escapes, they become more vulnerable to bridge disruption. Conversely, when they tighten their base against bridges, hip escape pathways open. This creates a defensive dilemma system where each escape attempt sets up the conditions for the next, systematically degrading the top player's control until one method succeeds.",
   "conditions": [
     "Trapped under Reverse Scarf Hold with opponent's chest pressure on upper torso",

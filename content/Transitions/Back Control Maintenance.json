@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Turtle/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 70,
+  "success_rate": {
+    "gi": 70,
+    "nogi": 70
+  },
   "overview": "Back Control Maintenance represents the systematic methodology for preserving the most dominant position in grappling. Rather than rushing submissions, elite practitioners understand that maintaining back control creates cumulative pressure that breaks opponent's defensive structures over time. This positional discipline transforms back control from a fleeting opportunity into a sustainable attacking platform where every defensive movement by the opponent can be converted into deeper control or submission opportunities.\n\nThe fundamental concept driving back control maintenance is the understanding that the position itself is the primary weapon. Each second of sustained back control drains opponent energy, creates psychological pressure, and opens incremental opportunities for attack. The maintenance game involves constant micro-adjustments to hook positioning, grip cycling between seatbelt variations and collar setups, and weight distribution changes that prevent the opponent from establishing any defensive rhythm or creating escape angles.\n\nAdvanced back control maintenance integrates threat cycling—the continuous rotation between rear naked choke setups, collar chokes, armbars, and crucifix transitions—that keeps the defender perpetually reactive. By threatening submissions without fully committing, the attacking practitioner forces defensive movements that can be exploited to tighten positional control. This creates a feedback loop where defensive effort leads to tighter control, which creates more submission threats, requiring more defensive effort. Understanding and executing this cycle separates practitioners who occasionally get the back from those who systematically finish from back control.",
   "related_content": [
     {

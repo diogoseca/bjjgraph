@@ -15,26 +15,41 @@
   "outcomes": [
     {
       "to": "Turtle/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "success"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "success"
     },
     {
       "to": "Matrix/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "When a Matrix back take rotation is successfully defended or stalls mid-execution, the attacking practitioner finds themselves in one of BJJ's most vulnerable transitional states—partially inverted with their back potentially exposed and rotational momentum dissipated. The dynamic rolling motion of the Matrix, once blocked by the opponent's base adjustments, sprawling, or counter-pressure, demands an immediate, pre-planned response rather than continued attempts to force the failed roll.\n\nThis escape requires rapid recognition that the attack has failed and immediate commitment to position recovery rather than continued attempts to complete the rotation. The primary recovery path leads to turtle position, where the practitioner can re-establish a defensive base before working toward guard recovery or standup. A secondary path redirects remaining momentum into a guard pull recovery, threading directly into closed guard rather than stopping at turtle. The critical window for this transition is extremely narrow—delaying the bail-out by even half a second can allow the defender to capitalize with back control or dominant positioning.\n\nSuccessful execution demands exceptional body awareness, as the escaping practitioner must redirect their momentum from a rotational path into a linear recovery while simultaneously protecting their neck and managing their opponent's pressure. The technique serves as an essential safety valve within the Matrix attack system, allowing practitioners to attempt the high-risk back take while maintaining a viable exit strategy when the attack is defended. Without a reliable escape, practitioners cannot commit fully to Matrix rotations, which paradoxically makes the attack itself less effective.",
   "conditions": [
     "Matrix rotation has been blocked or stalled by opponent's defensive response",

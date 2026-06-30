@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Triangle Control/Bottom",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "De La Riva Guard/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "The Triangle Setup from De La Riva Guard exploits the angular relationship inherent in DLR to isolate one of the opponent's arms and shoot the legs into triangle position. The technique leverages the existing DLR hook to control the opponent's lead leg while the cross grip on the far sleeve creates the arm isolation necessary for triangle entry. When the opponent's posture breaks forward, the guard player shoots their non-hooking leg across the back of the opponent's neck while simultaneously releasing the DLR hook and closing the triangle.\n\nThis setup is particularly effective because DLR already establishes the diagonal body alignment that facilitates triangle entries. The DLR hook prevents the opponent from stepping back to posture, while the sleeve grip ensures one arm stays trapped inside the triangle configuration. Advanced practitioners chain this setup off failed sweep attempts, using the opponent's defensive posture recovery as the trigger to redirect into the triangle. The technique demands precise timing since the transition window between DLR hook release and triangle lock is narrow, and premature release loses all control while delayed release allows the opponent to withdraw and pass.\n\nThe strategic value of the triangle threat from DLR extends beyond the submission itself. Simply threatening the triangle forces the opponent to keep their elbows tight and posture high, which paradoxically opens them to the very sweeps and back takes that DLR specializes in. This creates a layered dilemma structure where defending the triangle exposes sweep vulnerability, making the triangle a force multiplier for the entire DLR attack system even when it is not successfully completed.",
   "conditions": [
     "DLR hook established on opponent's near leg with active tension",

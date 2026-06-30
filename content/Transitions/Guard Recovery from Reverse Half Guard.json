@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Reverse Half Guard/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "Guard Recovery from Reverse Half Guard is a defensive transition where the bottom player works to recover standard half guard from the compromised reverse half guard configuration. When the inverted half guard position becomes untenable for sweeps or back takes, the bottom player must rotate to face the opponent and reestablish traditional half guard frames including knee shield and underhook. This recovery addresses the back exposure inherent in reverse half guard by prioritizing re-facing the opponent and establishing defensive structures before the top player can advance to side control or take the back.\n\nThe technique demands coordinated movement across multiple body systems simultaneously: the legs must maintain the half guard hook to prevent leg extraction, the hips must generate rotational force through bridging, the head must wedge under the opponent to create turning space, and the arms must transition from back protection to underhook establishment at the precise moment of sufficient rotation. Failure at any stage resets the recovery or worsens position, making this one of the more technically demanding guard recovery sequences in the half guard system.",
   "variants_and_adaptations": [
     {

@@ -295,23 +295,38 @@
     "transitions": [
       {
         "transition": "Aoki Lock from Aoki Lock Control",
-        "attempt_probability": 43
+        "attempt_probability": {
+          "gi": 43,
+          "nogi": 43
+        }
       },
       {
         "transition": "Aoki Lock to Back Control",
-        "attempt_probability": 20
+        "attempt_probability": {
+          "gi": 20,
+          "nogi": 20
+        }
       },
       {
         "transition": "Aoki Lock to Crucifix",
-        "attempt_probability": 14
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 14
+        }
       },
       {
         "transition": "Kimura Switch",
-        "attempt_probability": 9
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 9
+        }
       },
       {
         "transition": "Truck Entry",
-        "attempt_probability": 14
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 14
+        }
       }
     ]
   },
@@ -540,27 +555,45 @@
     "transitions": [
       {
         "transition": "Rolling Escape to Guard",
-        "attempt_probability": 21
+        "attempt_probability": {
+          "gi": 21,
+          "nogi": 21
+        }
       },
       {
         "transition": "Arm Extraction to Turtle",
-        "attempt_probability": 38
+        "attempt_probability": {
+          "gi": 38,
+          "nogi": 38
+        }
       },
       {
         "transition": "Hip Escape to Guard",
-        "attempt_probability": 17
+        "attempt_probability": {
+          "gi": 17,
+          "nogi": 17
+        }
       },
       {
         "transition": "Counter Roll to Top",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 4
+        }
       },
       {
         "transition": "Granby Roll to Guard",
-        "attempt_probability": 18
+        "attempt_probability": {
+          "gi": 18,
+          "nogi": 18
+        }
       },
       {
         "transition": "Base Attack to Sweep",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 2
+        }
       }
     ]
   }

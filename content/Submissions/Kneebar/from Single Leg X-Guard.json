@@ -17,7 +17,10 @@
   "target_area": "Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament)",
   "starting_position": "Single Leg X-Guard",
   "from_position": "Single Leg X-Guard/Top",
-  "success_rate": 52,
+  "success_rate": {
+    "gi": 52,
+    "nogi": 52
+  },
   "overview": "The kneebar from Single Leg X-Guard is a high-percentage counter-attack available to the top player whose leg is trapped within the SLX guard configuration. This technique exploits a fundamental vulnerability in the SLX position: the bottom player's legs, while providing powerful sweeping leverage and control, are extended and partially isolated, making the knee joint accessible to hyperextension attack. The top player transitions from a defensive posture to an aggressive leg lock by controlling the bottom player's hooking foot, backstepping around the entangling leg, and establishing a perpendicular kneebar position on the controlling leg.\n\nThis entry is particularly effective because it reverses the positional dynamic entirely. The bottom player, accustomed to being the aggressor from SLX, suddenly becomes the defender against a joint lock targeting their own controlling leg. The transition requires precise timing — initiating the kneebar entry when the bottom player commits to a sweep or extends their hooks aggressively creates a window where their leg is maximally exposed and defensive awareness is at its lowest. Modern competitive grapplers have refined this entry into a systematic counter-attack that fundamentally alters the risk-reward calculation of playing Single Leg X-Guard.\n\nThe kneebar from SLX has become an essential component of top-player strategy when facing sophisticated leg entanglement guards in no-gi competition. Proficiency in this technique forces guard players to moderate their aggression from SLX bottom, opening additional passing lanes and creating a tactical advantage that extends well beyond the submission threat itself. The technique combines standard kneebar finishing mechanics with position-specific entry timing that exploits the structural properties unique to the SLX configuration.",
   "safety_considerations": {
     "injury_risks": [
@@ -74,17 +77,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Single Leg X-Guard/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],

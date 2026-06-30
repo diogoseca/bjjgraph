@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Knee Slide from Jailbreak is a precision guard pass that exploits the extended leg configuration created when the bottom player attempts the Jailbreak escape from half guard. Unlike a standard knee slice where the passer must first contend with knee shields and lockdown entanglements, the Jailbreak position pre-positions the bottom player's legs in an extended configuration that creates natural passing lanes for the knee slide. The top player drives their knee diagonally across the bottom player's thigh line while maintaining heavy crossface pressure, using the gap between the extended legs and torso as the primary passing corridor.\n\nTiming is the decisive factor in this technique. The window for the knee slide exists only while the bottom player's legs remain extended and before they can retract to re-establish half guard frames or transition to deep half. The top player must read the moment when the bottom player's legs are maximally extended and their hip mobility is most compromised, then commit to the slide with conviction. Hesitation allows the bottom player to recover knee shield position or insert butterfly hooks that neutralize the passing lane entirely.\n\nStrategically, this pass fits within the broader Jailbreak passing system as a targeted option when the bottom player's leg extension creates a clear knee slide corridor. It pairs effectively with smash passes and leg weave options from the same position, as the bottom player's defense against the knee slide opens pathways for these alternative passes. The technique is particularly effective when combined with strong crossface control that turns the bottom player's head away, preventing them from facing into the passer and re-establishing defensive frames. Advanced practitioners use the knee slide threat to force defensive reactions that expose higher-percentage passing opportunities.",
   "conditions": [
     "Bottom player's legs are extended in Jailbreak configuration away from torso",

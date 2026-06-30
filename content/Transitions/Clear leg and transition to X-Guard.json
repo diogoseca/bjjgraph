@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "X-Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Leg Knot/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Saddle/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "The Clear Leg and Transition to X-Guard represents a high-value escape pathway from leg entanglement scenarios that transforms defensive necessity into offensive opportunity. When trapped in Leg Knot Bottom, practitioners face immediate submission threats to the lower body. Rather than simply extracting the leg and returning to neutral, this technique leverages the extraction movement to establish X-Guard—a powerful sweeping and attacking position that immediately reverses the momentum of the exchange.\n\nThe biomechanical foundation of this transition relies on understanding the relationship between leg clearing mechanics and hook placement timing. As the trapped leg extracts through hip rotation and the clearing motion, the free leg simultaneously establishes the X-Guard hooks. This creates a seamless transition where the defensive action of leg extraction flows directly into the offensive structure of X-Guard without pause or reset.\n\nStrategically, this transition exemplifies modern leg lock defense philosophy: never simply escape, but escape to a position of advantage. By establishing X-Guard rather than returning to neutral, practitioners maintain lower body control over their opponent while eliminating the immediate leg lock threats. The resulting X-Guard position offers immediate sweep opportunities and leg attack pathways of your own, effectively punishing the opponent for their failed leg entanglement attempt.",
   "related_content": [
     {

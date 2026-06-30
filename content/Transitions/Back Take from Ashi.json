@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Inside Ashi-Garami/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Turtle/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Back Take from Ashi Garami represents a critical strategic pivot in the modern leg lock game, allowing practitioners to convert leg entanglement control into the most dominant position in Brazilian Jiu-Jitsu. When an opponent successfully defends leg attacks by hiding their heel or creates defensive frames that prevent submission finishes, the back take offers an alternative path to victory that maintains offensive momentum rather than resetting to neutral positions.\n\nThis transition exploits a fundamental vulnerability in leg lock defense: when opponents sit up aggressively to address leg attacks or attempt to extract their trapped leg, they often expose their back. The technique requires recognizing the precise moment when opponent commits their weight forward and redirecting their momentum to facilitate the transition. Rather than forcing submissions against strong defense, the back take follows the principle of flowing to the path of least resistance while maintaining constant threat.\n\nThe back take from ashi has become increasingly important in modern competition as leg lock defenses have improved. High-level practitioners use the threat of leg attacks to create back take opportunities, and the threat of back takes to create leg lock openings. This creates a systematic dilemma where defending one attack opens vulnerability to the other, embodying the interconnected nature of positional grappling at advanced levels.",
   "related_content": [
     {

@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Z-Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Flattened Half Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "The Z-Guard Sweep is a frame-based sweeping technique from the Z-Guard bottom position that uses the elevated knee shield as a mechanical lever combined with far-side collar or sleeve control to topple the opponent toward side control. Unlike the underhook-driven Sweep from Z-Guard that targets mount, this variation relies on the push-pull dynamic between the knee shield extension and upper body grip control, making it available even when the underhook battle is contested or unavailable. The sweep capitalizes on the geometric advantage inherent in the elevated knee shield, which creates a powerful fulcrum against the opponent's shoulder that amplifies the bottom player's hip extension force into lateral displacement.\n\nThe technique is most effective when the top player commits forward pressure into the knee shield, as their own momentum loads the sweeping mechanism. The bottom player times the knee shield extension with a far-side collar drag or sleeve pull, creating opposing forces that generate rotational torque around the trapped leg fulcrum. This makes the Z-Guard Sweep particularly potent against aggressive pressure passers who attempt to collapse the knee shield through forward drive, converting their offensive energy into the sweeping force that topples them.\n\nFrom a systematic perspective, the Z-Guard Sweep complements the underhook-based sweep from the same position, creating a two-pronged offensive threat that addresses different grip configurations. When the opponent defends the underhook by pummel or crossface, the far-side grip sweep remains available. When they respect the frame push by backing away, space opens for underhook entry or transitions to deep half guard. This interconnected threat matrix transforms Z-Guard from a purely retentive position into an active offensive platform that demands constant dilemma management from the top player.",
   "conditions": [
     "Z-Guard bottom position established with knee shield firmly on opponent's shoulder or upper chest",

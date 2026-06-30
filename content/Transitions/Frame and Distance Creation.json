@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Open Guard/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Straight Ankle Lock Control/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Inside Ashi-Garami/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "Within the leg-lock defensive hierarchy, Frame and Distance Creation is the first-line escape a trapped player turns to the moment straight ankle lock control is recognized, before the position can deteriorate into more dangerous entanglements like inside ashi-garami or saddle. Rather than attempting to fight the attacker's grips directly, this escape prioritizes establishing structural frames against the opponent's upper body and systematically creating space that loosens their control and facilitates foot extraction.\n\nThe technique operates on the principle that leg lock control depends heavily on proximity. When the attacker maintains close distance, their grips remain tight, their leg wrap stays secure, and their breaking mechanics maintain full leverage. By inserting frames on the attacker's chest, shoulders, or head, the defender creates separation that diminishes grip security and opens extraction pathways.\n\nStrategically, Frame and Distance Creation serves as both a standalone escape and a preparatory action for other defensive sequences. The distance created provides the mobility needed to rotate hips, extract the trapped knee, or transition to standing. Against aggressive leg lockers who commit heavily to finishing, the framing action often creates windows where passing to top position becomes viable. This technique is particularly valuable because it addresses multiple control points simultaneously rather than fighting each grip individually.",
   "related_content": [
     {

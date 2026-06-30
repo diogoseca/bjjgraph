@@ -21,7 +21,10 @@
   "target_area": "Carotid arteries and jugular veins",
   "starting_position": "Seat Belt Control Back",
   "from_position": "Seat Belt Control Back/Top",
-  "success_rate": 65,
+  "success_rate": {
+    "gi": 65,
+    "nogi": 65
+  },
   "overview": "Representing the natural culmination of the back control positional hierarchy, this choke converts the sport's most dominant position into its most reliable finish. The seat belt over-arm is already positioned along the choking pathway, requiring only a grip release and forearm thread to establish the strangle. This positional advantage eliminates the most difficult element of the rear naked choke — establishing choking arm depth — since the transition from seat belt to choke requires minimal distance and disruption.\n\nThe strategic framework centers on a fundamental dilemma: the opponent must use their hands either to defend the seat belt grip structure or to protect the neck from the choke. They cannot address both threats simultaneously. Skilled attackers exploit this by alternating between grip pressure and choke attempts, forcing the defender into a deteriorating cycle of defensive choices. Each exchange creates incremental improvements in choking arm position until the forearm slides beneath the chin and the figure-four configuration locks behind the head.\n\nFinishing mechanics require precise bilateral compression of both carotid arteries using forearm and bicep pressure. The choking arm blade sits across the anterior neck with the elbow crook centered under the chin, while the locking arm completes the circuit behind the head. The squeeze generates from chest expansion and elbow retraction rather than arm strength, producing sustainable finishing pressure that does not depend on grip endurance or raw power.",
   "safety_considerations": {
     "injury_risks": [
@@ -111,17 +114,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Seat Belt Control Back/Top",
-      "probability": 23,
+      "probability": {
+        "gi": 23,
+        "nogi": 23
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 12,
+      "probability": {
+        "gi": 12,
+        "nogi": 12
+      },
       "result": "counter"
     }
   ],

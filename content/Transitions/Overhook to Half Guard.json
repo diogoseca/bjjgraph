@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Overhook Control/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "This guard-management technique occupies a pivotal junction in the bottom player's game, arising most often when the overhook is losing its effectiveness as a primary control mechanism, or when the bottom player recognizes that half guard offers superior sweeping and back-taking opportunities compared to maintaining the overhook grip. The movement requires precise timing and hip coordination to thread the inside leg into half guard position while maintaining enough upper body connection to prevent the top player from capitalizing on the transition window.\n\nStrategically, this transition serves as a critical bridge between two distinct guard subsystems. Overhook control from bottom, while powerful for immediate attacks and sweeps, demands constant energy expenditure and aggressive engagement. Half guard, by contrast, offers a more sustainable platform with deep sweeping mechanics, systematic back-take entries, and multiple sub-variations that can be deployed based on the top player's reactions. Recognizing when to abandon the overhook and convert to half guard represents essential tactical awareness for competitive guard players who need to manage energy across an entire match.\n\nThe key mechanical challenge lies in maintaining control during the transition window. As the bottom player adjusts hip position and threads the inside leg into the half guard entanglement, there is a brief vulnerability period where the top player can attempt to pass. Proper execution requires using the overhook grip as a controlling frame during the leg insertion, then transitioning seamlessly to standard half guard controls such as the underhook, knee shield, or lockdown. Practitioners who master this conversion develop a guard game that flows naturally between overhook attacks and half guard offense, preventing the top player from neutralizing any single approach.",
   "conditions": [
     "Active overhook control established from bottom position with armpit sealed over opponent's shoulder",

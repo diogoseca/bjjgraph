@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Outside Ashi-Garami/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Standing Position/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Standing Position/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Outside Ashi Entry is a fundamental leg entanglement technique that allows practitioners to transition from standing positions into the Outside Ashi Garami position, establishing immediate leg lock threats. This entry is particularly effective in no-gi grappling and represents one of the foundational movements in modern leg lock systems. The technique capitalizes on the opponent's forward pressure or stance while maintaining a connection to their leg, ultimately resulting in a dominant leg entanglement position where multiple submission options become available.\n\nWhat makes the Outside Ashi Entry distinctive is its versatility - it can be executed from various standing scenarios including clinch positions, failed takedown attempts, or even from neutral standing engagements. The entry requires precise timing, proper weight distribution, and the ability to manage distance effectively while securing the opponent's leg. Unlike inside ashi entries which require getting between the opponent's legs, the outside entry provides a safer pathway that minimizes exposure to the opponent's counters.\n\nThis technique has become increasingly prevalent in modern competition due to its effectiveness in both gi and no-gi environments. The systematic approach to entering outside ashi creates a clear pathway to leg lock submissions while maintaining defensive integrity throughout the transition. Understanding this entry is essential for any practitioner looking to develop a comprehensive leg lock game, as it serves as a gateway to multiple finishing positions and creates dilemmas that force opponents into defensive reactions.",
   "conditions": [
     "Both practitioners are standing with at least one foot in contact with the mat",

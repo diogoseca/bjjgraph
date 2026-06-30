@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "50-50 Guard/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "50-50 Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Back Take from 50-50 represents one of the most technically sophisticated transitions in modern leg lock systems, converting a neutral leg entanglement into the highest-scoring and most dominant control position in BJJ. This technique capitalizes on a fundamental principle: when direct leg attacks are well-defended, transitioning to back control offers an alternative path to victory that bypasses the opponent's leg lock defense entirely.\n\nFrom the 50-50 position, the back take becomes available when your opponent successfully hides their heel or when you recognize that continuing to chase leg attacks will result in a stalemate. The transition requires precise timing and understanding of weight distribution - you must release your leg entanglement control at the exact moment when you can secure upper body control, creating a brief window where your opponent cannot re-establish the 50-50 or counter-attack your legs.\n\nThis technique has become increasingly important in high-level competition as leg lock defense has improved. Rather than engaging in prolonged heel hook battles, skilled practitioners use the back take threat to create a dilemma: defend your heel aggressively and expose your back, or maintain back defense and risk the leg attack. This strategic layer makes the back take from 50-50 essential knowledge for anyone serious about leg lock systems.",
   "related_content": [
     {

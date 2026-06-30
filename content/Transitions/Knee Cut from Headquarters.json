@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Headquarters Position/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Knee Cut from Headquarters is the highest-percentage guard pass in modern systematic jiu-jitsu, serving as the primary offensive transition from the headquarters hub position. This technique leverages the control advantages inherent in headquarters—trapped leg, upright posture, and triangulated base—to drive the cutting knee diagonally across the opponent's thigh line, separating their legs and completing the pass to side control. The mechanical foundation relies on three simultaneous actions: knee pressure slicing through the thigh line, crossface or shoulder pressure preventing the opponent from turning into the passer, and a decisive hip drop that collapses remaining defensive structures.\n\nFrom headquarters specifically, the knee cut benefits from pre-established leg control and a stable base that eliminates many of the setup requirements needed from other starting positions. The passer reads the opponent's defensive reaction and commits to the knee cut at the moment the opponent turns their hips toward the trapped leg side, which naturally opens the passing lane across the thigh. This integration with the headquarters decision tree makes the knee cut the primary passing option, accounting for approximately 30% of all passing attempts from this position in systematic guard passing methodologies.\n\nThe technique's effectiveness at all levels stems from its direct biomechanical advantage: the passer's entire body weight channels through the cutting knee, creating a wedge that separates the opponent's legs regardless of defensive framing. When combined with proper crossface control and hip pressure, the knee cut creates a passing sequence that is mechanically difficult to defend without conceding position elsewhere, forcing the bottom player into reactive choices that open alternative passing lanes if the knee cut itself is blocked.",
   "conditions": [
     "Headquarters position established with one opponent leg trapped between your legs and knee driven toward the mat",

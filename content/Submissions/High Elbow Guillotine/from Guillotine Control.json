@@ -18,7 +18,10 @@
   "target_area": "Carotid arteries and trachea",
   "starting_position": "Guillotine Control",
   "from_position": "Guillotine Control/Top",
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "summary": "The High Elbow Guillotine from Guillotine Control is a blood-choke finish that drives the choking elbow skyward to clamp both carotid arteries beneath the jawline, bypassing the chin-tuck defense that neutralizes the standard guillotine.",
   "overview": "Few finishing situations in no-gi offer a more favorable risk-to-reward profile than this one: the choke threatens an immediate tap, while most failed attempts simply return the attacker to the same dominant Guillotine Control they started from. Starting from an established Guillotine Control position provides a significant mechanical advantage because the head is already trapped and posture is already broken, allowing the attacker to focus entirely on converting the grip configuration and finishing. The position eliminates the most difficult phase of any guillotine attack—securing the initial head control—and reduces the technique to a grip transition and squeeze.\n\nThe critical distinction from other guillotine entries is that the grip change happens from a position of existing control rather than during a scramble or shot defense. The attacker rotates the choking wrist so the blade of the forearm presses directly into the near-side carotid artery while the elbow climbs vertically, closing the far-side artery against the attacker's chest and shoulder. This dual compression produces a pure blood choke that can cause unconsciousness within seconds of full application, often before the defender recognizes the severity of the threat.\n\nStrategically, the high elbow variation is the primary answer to the chin tuck defense that neutralizes standard guillotines. When the defender drops their chin to protect the trachea, the high elbow angle attacks behind and beneath the jaw, making chin position largely irrelevant. This forces defenders into secondary defense layers—posture recovery and hand fighting—which opens opportunities for the attacker to chain into sweeps or positional advancement when the choke itself is defended.",
   "safety_considerations": {
@@ -129,17 +132,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "Guillotine Control/Top",
-      "probability": 27,
+      "probability": {
+        "gi": 27,
+        "nogi": 27
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],

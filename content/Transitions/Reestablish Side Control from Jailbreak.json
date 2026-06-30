@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Deep Half Guard/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Reestablishing Side Control from Jailbreak is a critical positional recovery technique for the top player when a bottom half guard practitioner initiates the explosive jailbreak escape. The jailbreak, prominent in 10th Planet methodology, leverages an underhook and explosive inversion to roll through top pressure and escape to turtle or back take opportunities. The top player who recognizes this escape pattern early can shut it down through decisive pressure redistribution and underhook neutralization.\n\nThe technical execution centers on three sequential priorities: first, immediately driving crossface pressure to pin the bottom player's head and prevent completion of the inversion; second, neutralizing the underhook through whizzer control or arm threading; and third, walking the hips around to reestablish perpendicular alignment characteristic of standard side control. The critical timing element requires the top player to react before the bottom player generates sufficient rotational momentum to complete the roll.\n\nFrom a strategic standpoint, mastering this recovery prevents the bottom player from relying on jailbreak as a primary escape option, which channels their defense toward more predictable patterns like traditional half guard retention. The psychological impact of consistently shutting down explosive escape attempts forces the bottom player into energy-intensive repeated attempts or abandonment of their preferred escape system entirely.",
   "conditions": [
     "Top player is established in Jailbreak Top position with upper body connection maintained",

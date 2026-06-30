@@ -15,31 +15,49 @@
   "outcomes": [
     {
       "to": "Half Guard/Top",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Side Control/Top",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "success"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Gogoplata Control/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     },
     {
       "to": "Meathook/Top",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "failure"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "The Stack Pass from Meathook is a pressure-based guard passing technique used by the top player to escape the dangerous Rubber Guard Meathook position. When trapped in Meathook with one arm isolated by the opponent's shin hook, the top player drives forward aggressively, stacking the bottom player's hips over their shoulders. This forward compression folds the bottom player's body, reducing the mechanical advantage of their flexible guard structure and creating the space needed for arm extraction and pass completion.\n\nThe technique carries inherent risk because driving forward in Meathook can feed directly into the bottom player's gogoplata setup. The critical distinction between a successful stack pass and feeding a submission lies in shoulder positioning and head placement during the drive. Proper execution requires the top player to tuck their chin, drive their shoulder into the bottom player's hip crease, and maintain tight elbow connection throughout the stacking sequence rather than leading with their head toward the opponent's shin.\n\nStack passing from Meathook represents one of the more aggressive escape options from Rubber Guard positions. While arm extraction and posture recovery are generally safer escape paths, the stack pass offers the advantage of potentially advancing past guard entirely rather than merely returning to a neutral closed guard position. This makes it a valuable tool for competitors who need to advance position and score points, though the risk-reward calculus must be carefully considered given the gogoplata danger. The technique works best against opponents with moderate flexibility, as extremely flexible practitioners can maintain hook pressure even when folded, while less flexible opponents may not establish deep enough Meathook to warrant this aggressive response.",
   "conditions": [
     "Top player is caught in Meathook with one arm isolated by opponent's shin hook",

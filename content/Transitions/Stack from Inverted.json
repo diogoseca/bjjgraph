@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Inverted Guard/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "When an opponent commits to inverting, they trade a moment of vulnerability for the rotational freedom that powers berimbolo entries, back takes, and leg entanglements, and the stack is the most direct way to revoke that trade. By driving their hips up and over their head and compressing their spine toward the mat, the top player folds the inverted structure flat, pinning the opponent's weight onto their upper back and shoulders and stripping away the hip elevation and rotation that inversion depends on.\n\nStrategically, the stack from inverted guard serves as a high-percentage response to modern guard systems built around inversion. Rather than chasing the opponent's legs or engaging in grip battles from distance, the stack leverages the top player's weight and forward pressure to collapse the inverted structure entirely. The resulting position typically transitions to half guard top, where the top player can continue working toward a complete pass to side control or mount. This makes the stack a bridge technique that converts a complex open guard exchange into a more conventional passing scenario.\n\nThe technique requires precise timing. Initiating the stack too early allows the opponent to redirect your momentum for a sweep, while waiting too long gives them time to establish grips and begin their berimbolo or leg entanglement sequences. Success depends on controlling the opponent's hips before they achieve full inversion, then committing to continuous forward pressure that prevents them from recovering mobility. The stack from inverted guard is particularly effective against opponents who rely heavily on berimbolo-based systems, as it directly counters the hip elevation and rotation these systems require.",
   "conditions": [
     "Opponent has inverted with hips elevated and shoulders contacting the mat",

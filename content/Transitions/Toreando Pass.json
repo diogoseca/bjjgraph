@@ -21,21 +21,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Toreando Pass, also known as the Bullfighter Pass, is a fundamental guard passing technique that exploits superior grips and angular movement to control and redirect the opponent's legs. Named after the bullfighter's movements when evading a charging bull, this pass emphasizes controlling the opponent's knees or pant legs while stepping laterally to create passing angles. The technique is particularly effective against players who rely on open guard systems like De La Riva, Spider Guard, or Collar Sleeve Guard. By dominating the leg grips and using explosive lateral movement, the passer forces the guard player's legs to one side while their upper body remains stationary, creating a clear path to side control or knee on belly. The Toreando Pass is a cornerstone of modern guard passing systems, valued for its versatility across gi and no-gi contexts, its effectiveness against multiple guard styles, and its ability to chain seamlessly with other passing sequences. When executed correctly, it creates immense pressure on the opponent's defensive structure while maintaining the passer's balance and base throughout the movement.",
   "conditions": [
     "Passer must be standing or in combat base with upright posture above opponent's open guard",

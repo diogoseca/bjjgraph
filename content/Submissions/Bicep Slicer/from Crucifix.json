@@ -15,7 +15,10 @@
   "target_area": "Bicep muscle and elbow joint",
   "starting_position": "Crucifix",
   "from_position": "Crucifix/Top",
-  "success_rate": 52,
+  "success_rate": {
+    "gi": 52,
+    "nogi": 52
+  },
   "summary": "The Bicep Slicer from Crucifix is a compression lock applied from the crucifix's bilateral arm trap, wedging the shin behind the opponent's elbow to crush the bicep against the humerus while hyperextending the joint.",
   "overview": "The Bicep Slicer is a devastating compression lock that applies crushing pressure to the bicep muscle and hyperextends the elbow joint. This advanced submission works by trapping the opponent's arm between your shin and forearm, creating a lever that compresses the bicep against the humerus bone while simultaneously hyperextending the elbow. Most commonly applied from the crucifix, truck, or modified mount positions, the bicep slicer is a technical submission that requires precise positioning and control. The compression creates intense pain in the bicep muscle belly, while the hyperextension threatens the elbow joint, creating a two-fold attack that is difficult to defend. This submission is particularly effective in no-gi grappling where the opponent cannot use gi grips to defend, and it serves as an excellent backup when traditional chokes or arm locks are unavailable. The bicep slicer's effectiveness comes from its ability to attack an area that most grapplers do not regularly condition or defend, making it a high-percentage finish when the proper positioning is achieved. Understanding the mechanical advantage required and the precise angles needed separates successful application from ineffective attempts.",
   "safety_considerations": {
@@ -63,17 +66,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Crucifix/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],

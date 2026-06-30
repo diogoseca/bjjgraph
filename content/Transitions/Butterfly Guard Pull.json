@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Butterfly Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Standing Position/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Within the family of guard-pulling entries, the butterfly guard pull is the choice of aggressive bottom players who treat the descent to the ground as the opening move of an attack rather than a retreat. Unlike standard guard pulls that land in closed guard or seated guard, it places you in a position with immediate sweeping capability, making it a preferred choice for guard players who want to dictate the pace from the moment ground engagement begins.\n\nThis technique requires precise timing and grip management to ensure both hooks insert cleanly as you sit. The pull must be executed with purpose — sitting to butterfly guard without proper grips or hook placement results in an easily passed open guard. The key is to coordinate upper body connection (collar and sleeve in gi, or collar tie and wrist control in no-gi) with the simultaneous insertion of both feet as hooks under the opponent's thighs during the descent.\n\nStrategically, the butterfly guard pull is especially effective against aggressive opponents who drive forward, as their forward momentum feeds directly into the elevator mechanics of butterfly sweeps. Entering butterfly guard from standing creates immediate offensive pressure that keeps opponents defensive from the first second of ground engagement, denying them the chance to settle into a comfortable passing base.",
   "conditions": [
     "Both practitioners standing within engagement distance where grips can be established and maintained",

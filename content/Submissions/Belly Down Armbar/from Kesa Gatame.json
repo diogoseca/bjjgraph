@@ -18,7 +18,10 @@
   "target_area": "Elbow joint hyperextension and ulnar collateral ligament",
   "starting_position": "Kesa Gatame",
   "from_position": "Kesa Gatame/Top",
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "The belly down armbar finish from Kesa Gatame leverages the inherent arm control of the scarf hold position to set up one of the most mechanically powerful armbar finishes available. From Kesa Gatame, the attacker already has the opponent's near arm trapped tightly under their armpit, providing the foundational grip needed to transition into the belly-down finishing position. The step-over rotation—passing the far leg over the opponent's head while maintaining wrist control—converts the perpendicular Kesa Gatame angle into the devastating prone armbar.\n\nWhat makes this particular entry unique is the natural rotational momentum provided by the Kesa Gatame body angle. Unlike belly-down armbars initiated from mount or guard, the perpendicular positioning of scarf hold means the attacker already faces the correct direction for the prone finish with minimal adjustment. The opponent's head is already controlled, limiting their ability to follow the rotation or sit up to relieve pressure. Once the attacker achieves the belly-down position with the arm isolated between their thighs, the mechanical advantage is overwhelming—hip extension against a trapped elbow creates finishing pressure that is extremely difficult to withstand.\n\nThis technique is particularly effective against opponents who defend the traditional Kesa Gatame submissions like the americana or arm triangle by keeping their elbows tight. The belly-down transition attacks the arm from a completely different angle, bypassing standard defensive frames and creating a finishing position where even significant strength advantages cannot overcome the leverage differential.",
   "safety_considerations": {
     "injury_risks": [
@@ -100,17 +103,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Kesa Gatame/Top",
-      "probability": 32,
+      "probability": {
+        "gi": 32,
+        "nogi": 32
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 18,
+      "probability": {
+        "gi": 18,
+        "nogi": 18
+      },
       "result": "counter"
     }
   ],

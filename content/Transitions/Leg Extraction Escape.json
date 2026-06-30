@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Gogoplata Control/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Triangle Control/Top",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Leg Extraction Escape represents a critical defensive technique for escaping the Gogoplata Control position, where the opponent has established a shin across your throat with their foot secured behind your head. This escape focuses on systematically removing the trapped leg configuration through precise hand positioning, hip angle changes, and methodical extraction mechanics rather than explosive, desperate movements that typically tighten the submission.\n\nThe technique operates on the fundamental principle that the gogoplata's structural integrity depends on the foot-behind-head configuration. By addressing this anchor point first through careful hand control and lateral head movement, the defender can dismantle the submission threat before it reaches critical pressure. The escape requires remaining calm under submission pressure while executing a specific sequence of movements that create space for leg removal.\n\nStrategically, this escape serves as the primary pathway out of gogoplata control when emergency rolling options are unavailable or undesirable due to back exposure risks. The successful completion leaves the defender in half guard top position, which while not dominant, represents a massive positional improvement from the immediate submission threat. Understanding this escape is essential for any practitioner who trains with flexible guard players employing rubber guard systems.",
   "related_content": [
     {

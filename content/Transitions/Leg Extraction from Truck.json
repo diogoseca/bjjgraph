@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Turtle/Bottom",
-      "probability": 38,
+      "probability": {
+        "gi": 38,
+        "nogi": 38
+      },
       "result": "success"
     },
     {
       "to": "Truck/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 22,
+      "probability": {
+        "gi": 22,
+        "nogi": 22
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 38,
+  "success_rate": {
+    "gi": 38,
+    "nogi": 38
+  },
   "overview": "The Leg Extraction from Truck is a specialized escape technique targeting the foundational control mechanism of the truck position: the figure-four leg entanglement. Unlike rolling escapes (granby roll) or shrimping-based escapes (hip escape to half guard), this technique directly addresses the leg control that makes the truck dangerous, methodically working the trapped leg free through ankle manipulation, hip rotation, and incremental space creation. Once the leg is extracted, the bottom player immediately turtles up, removing the truck top player's primary control platform and forcing a positional reset.\n\nThe technique's strategic value lies in its directness. While other truck escapes require addressing boot pressure, upper body control, and leg entanglement in sequence, the leg extraction isolates the entanglement itself as the primary target. This makes it particularly effective when the truck top player's boot pressure has been partially neutralized but the leg remains firmly trapped in the figure-four configuration. The extraction uses a combination of ankle flexibility, circular knee movement, and precisely timed hip rotation to spiral the leg free from the controlling hooks.\n\nAt advanced levels, the leg extraction functions as both a standalone escape and a component within the broader truck escape chain. A partially successful extraction that loosens the entanglement without fully freeing the leg creates the angles needed for subsequent granby rolls or hip escapes. Conversely, failed granby attempts often create the space and angles that make subsequent leg extraction possible. Understanding this interplay transforms truck bottom defense from a series of isolated desperate attempts into an integrated escape system with compounding probability of success.",
   "variants_and_adaptations": [
     {

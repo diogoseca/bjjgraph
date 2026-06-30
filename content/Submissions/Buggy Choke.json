@@ -18,7 +18,10 @@
   "target_area": "Carotid arteries and neck compression",
   "starting_position": "Half Guard",
   "from_position": "Half Guard/Bottom",
-  "success_rate": 52,
+  "success_rate": {
+    "gi": 52,
+    "nogi": 52
+  },
   "overview": "Once dismissed as a fluke, the Buggy Choke earned mainstream credibility after a string of high-profile competition finishes showed that a flattened half-guard bottom player could threaten a legitimate submission while seemingly being passed. Its appeal is mechanical rather than athletic: by trapping the opponent's near arm and head and closing a loop with the same-side leg, a smaller grappler converts the opponent's own forward pressure into carotid compression, finishing without ever escaping to a dominant position.\n\nStrategically, the Buggy Choke reframes the worst moment of the half-guard exchange — being smashed and flattened — into a trap. The top player commits weight to finish the pass, drops their head, and extends the crossface arm; those are precisely the inputs the choke needs. Because the threat is invisible until the loop closes, defenders routinely walk into it, and once the knee is drawn toward the head there is very little slack to recover. It functions in both gi and no-gi, and chains naturally with lockdown control and the Electric Chair when the opponent defends by freeing the trapped arm.\n\nFor the purple-to-brown belt grappler, the value of the Buggy Choke is less about the finish rate in any single match and more about what the threat forces: opponents must keep their head up and protect the crossface arm while passing half guard, which in turn opens the underhook, sweeps, and back takes that define modern bottom half-guard play.",
   "safety_considerations": {
     "injury_risks": [
@@ -70,17 +73,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 52,
+      "probability": {
+        "gi": 52,
+        "nogi": 52
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 18,
+      "probability": {
+        "gi": 18,
+        "nogi": 18
+      },
       "result": "counter"
     }
   ],

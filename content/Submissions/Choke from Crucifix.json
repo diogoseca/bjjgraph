@@ -16,7 +16,10 @@
   "target_area": "Carotid arteries and trachea",
   "starting_position": "Crucifix",
   "from_position": "Crucifix/Top",
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "overview": "Strategically, this choke represents the culmination of the crucifix's weapons-denial logic: once both arms are isolated, the finish becomes a matter of time rather than a contest of strength. Because the opponent cannot bring a single hand to their neck, the defensive responses that rescue most chokes—grip stripping, hand fighting, the two-on-one—are simply unavailable, which is why high-level competitors treat reaching the crucifix as a near-guaranteed submission threat rather than merely a control position.\n\nThe choke can be executed with multiple grips including rear naked choke mechanics, short chokes, or gi-based collar attacks. What makes this submission particularly effective is the opponent's complete inability to defend their neck with their hands, as both arms are controlled by the attacker's legs and body positioning. The psychological pressure of the crucifix position often causes opponents to panic, making the finish easier to secure.\n\nThis technique is commonly seen in high-level competition and represents excellent understanding of positional hierarchy in grappling. The bilateral carotid compression creates rapid unconsciousness when applied correctly, making it one of the highest-percentage finishes available from any dominant position. Understanding the systematic approach of position consolidation before submission attempt is essential for consistent success with this technique.",
   "safety_considerations": {
     "injury_risks": [
@@ -62,17 +65,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Crucifix/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],

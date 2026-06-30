@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Double Jump/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "summary": "Double Jump to Mount is a turtle-attack transition where the top player extracts both inside leg hooks and steps over a flattened, belly-down opponent to establish dominant mount when back-taking is no longer viable.",
   "overview": "The Double Jump to Mount transition is an opportunistic positional advancement technique executed from the Double Jump Top position, where the top player has established bilateral leg hooks inside the opponent's thighs during a turtle attack. While the primary advancement from Double Jump typically targets back control through hook conversion or crab ride entries, the mount pathway becomes viable when the opponent flattens their base and goes belly-down, making traditional back-taking mechanics less effective due to the elimination of the space needed for hook reclassification.\n\nThis transition exploits the opponent's defensive choice to flatten rather than maintain an active turtle. By systematically extracting the leg hooks and stepping over to establish a straddling position, the top player converts lateral hook-based control into the superior downward pressure of mount. The technique requires precise sequencing: upper body control must remain continuous while each hook is extracted independently, and the step-over must be timed to settle mount weight before the opponent can recover guard or rebuild defensive frames.\n\nThe Double Jump to Mount pathway represents a critical secondary option within the turtle attack system that prevents opponents from using a flat belly-down defense as a safe harbor against back takes. When practitioners demonstrate the ability to convert flattened turtle defense into mount as readily as active turtle into back control, they create a complete offensive dilemma where no defensive response from turtle is truly safe. This dual threat significantly increases the overall success rate of turtle attacks and forces the bottom player into increasingly narrow defensive corridors where every choice opens a different avenue of positional advancement.",
   "conditions": [

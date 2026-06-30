@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "X-Guard/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Within the X-Guard top passing arsenal, the Knee Pin is the most direct response to a deep, active inside hook that resists movement-based passes like the knee slice or long step. X-Guard derives its sweeping power from the inside hook creating upward elevation behind the top player's knee. By physically pinning this knee downward, the top player neutralizes the guard's primary offensive mechanism and creates a pathway to extract their trapped leg and advance to Half Guard Top.\n\nStrategically, the Knee Pin addresses situations where the bottom player's inside hook is too deep or active for indirect passing approaches like knee slice or long step techniques. Rather than attempting to navigate around the hooks, the knee pin directly removes the foundation of the X-Guard architecture. This forcing approach is particularly effective against athletic guard players who can re-pummel hooks faster than the top player can extract their leg through movement-based passes. The technique creates a transitional pressure state where the bottom player must choose between fighting to recover the pinned hook or defending against the pass itself.\n\nThe knee pin also serves as a valuable setup tool within X-Guard passing chains. Even when the pin itself does not complete the pass, the bottom player's defensive reactions create openings for follow-up techniques. If they focus on recovering the inside hook, their outside leg frame weakens and grip connections loosen. If they abandon the hook and attempt to transition to Single Leg X-Guard or Butterfly Guard, the top player can capitalize on the structural disruption with secondary passing techniques. This dilemma-based approach makes the knee pin a strategically important tool even beyond its direct passing application.",
   "conditions": [
     "Opponent has established X-Guard with inside hook behind your near knee creating elevation",

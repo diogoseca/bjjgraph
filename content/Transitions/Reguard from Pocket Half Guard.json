@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Pocket Half Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Flattened Half Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "summary": "Reguard from Pocket Half Guard is a defensive transition where the bottom player trades the deep underhook for a forearm frame and knee shield, retreating from a compromised pocket half guard into structurally sound standard half guard before the pass completes.",
   "overview": "The Reguard from Pocket Half Guard is a guard retention technique where the bottom player abandons the specialized pocket half guard configuration and recovers to standard half guard with proper frames and distance management. Pocket half guard relies on a deep underhook and tight hip connection for offensive power, but when the top player begins winning the underhook battle, establishing crossface, or systematically flattening the bottom player's hips, maintaining the pocket configuration becomes increasingly dangerous. Rather than clinging to a deteriorating offensive position, the reguard provides a structured retreat to standard half guard where knee shields, frames, and distance management restore defensive integrity and open alternative attack chains.\n\nStrategically, this reguard functions as a positional circuit breaker within the half guard system. When the pocket half guard's primary attacks—Old School sweep, back takes, deep half entries—are being shut down by superior crossface pressure or underhook stripping, continuing to force these techniques burns energy and accelerates positional deterioration toward flattened half guard or side control. The reguard interrupts this downward spiral by converting the position to standard half guard before the opponent consolidates passing advantages. The technique is most effective when initiated early, during the transition from offensive pocket half guard to compromised pocket half guard, rather than waiting until the position is nearly lost.\n\nThe mechanical challenge lies in releasing the deep underhook—the defining feature of pocket half guard—and transitioning to frame-based distance management without creating a passing window. The underhook must be abandoned in favor of a forearm frame on the opponent's shoulder or bicep, while simultaneously inserting a knee shield to create the structural barrier that standard half guard depends on. This exchange of control mechanisms must happen fluidly, as any gap between releasing the underhook and establishing the frame leaves the bottom player without upper body control and vulnerable to immediate passing.",
   "conditions": [

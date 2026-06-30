@@ -18,7 +18,10 @@
   "target_area": "Calf muscle and Achilles tendon",
   "starting_position": "Twister Side Control",
   "from_position": "Twister Side Control/Top",
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "The calf slicer from twister side control exploits the existing leg entanglement inherent in this 10th Planet control position to attack the calf muscle and Achilles tendon complex through compression. Unlike calf slicers initiated from other positions that require establishing fresh leg control, twister side control provides a pre-built framework where the opponent's near leg is already trapped and partially isolated by the controlling player's leg hooks, making the transition to the compression attack both fluid and difficult to anticipate.\n\nThe mechanics center on threading the attacking shin behind the opponent's knee joint to create a fulcrum point, then controlling the foot and driving it toward the buttocks to generate compression against the calf muscle and dangerous stretch on the Achilles tendon. The lateral angle of twister side control amplifies finishing pressure by enabling the attacker to use hip drive and full body weight rather than relying solely on arm strength. This mechanical advantage makes the finish viable even against significantly larger opponents when the positioning is correct.\n\nThis submission functions as a potent secondary threat within the twister side control attack system, typically arising when the primary twister finish is defended or when the existing leg entanglement naturally creates the pathway to the calf. Opponents focused on defending spinal attacks frequently leave their legs vulnerable, making the calf slicer an effective chain submission that punishes tunnel-vision defense and creates the multi-level attack dilemmas that define high-level twister side control offense.",
   "safety_considerations": {
     "injury_risks": [
@@ -107,17 +110,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Twister Side Control/Top",
-      "probability": 32,
+      "probability": {
+        "gi": 32,
+        "nogi": 32
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 18,
+      "probability": {
+        "gi": 18,
+        "nogi": 18
+      },
       "result": "counter"
     }
   ],

@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Turtle/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Ushiro Ashi-Garami/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Saddle/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Inversion to Turtle escape represents one of the most critical defensive transitions from the dangerous Ushiro Ashi-Garami position. When trapped in a reversed leg entanglement where standard escape mechanics are compromised, committing to a full inversion that terminates in turtle position offers a reliable path to safety. This technique capitalizes on the inherent difficulty attackers face in maintaining control during rapid rotational movement.\n\nStrategically, this escape serves as a pressure release valve when heel hook danger becomes imminent. Rather than fighting against the entanglement in place—which often accelerates submission—the defender uses their remaining mobility to rotate completely through the position. The turtle endpoint, while not ideal, eliminates immediate leg attack threats and provides a stable platform for subsequent recovery sequences.\n\nThe technique requires precise timing and commitment. Half-hearted attempts create the worst possible scenario: inverted with leg still trapped, maximizing submission vulnerability. Success depends on reading the attacker's control depth, choosing the optimal moment to initiate rotation, and maintaining heel protection throughout the entire movement arc. Advanced practitioners develop the ability to chain this escape directly into back exposure defense or guard recovery from turtle.",
   "related_content": [
     {

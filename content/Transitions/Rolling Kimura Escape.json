@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Open Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Kimura Trap/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Sitting at the very bottom of the Kimura defensive hierarchy, the Rolling Kimura Escape is reserved for the moment when grip fighting, posture recovery, and hip escape have all failed and the shoulder lock is closing under heavy forward pressure. Rather than resisting the lock's force vector, this dynamic escape uses forward rolling mechanics to relieve shoulder pressure and create space for guard recovery. It becomes viable specifically when the opponent has committed their weight forward to finish the submission.\n\nThe rolling motion works by using momentum and body rotation to change the angle of attack, transforming what would be a devastating submission into an opportunity to return to a neutral guard position. Rather than resisting against the lock's force vector, you move with it in a way that creates momentary relief and allows repositioning. This escape requires excellent timing, spatial awareness, and complete commitment to the rolling motion.\n\nSuccess depends heavily on recognizing the exact moment when your opponent is committed forward to the finish and cannot easily adjust their base to follow your roll. The technique represents a last-resort option in the Kimura defense hierarchy, employed only after conventional defenses such as grip fighting, posture recovery, and hip escape have been exhausted. Understanding the biomechanics of the Kimura lock progression is essential for identifying the narrow timing window where this escape becomes viable without excessive injury risk.",
   "conditions": [
     "Opponent has secured figure-four Kimura grip and is applying finishing pressure",

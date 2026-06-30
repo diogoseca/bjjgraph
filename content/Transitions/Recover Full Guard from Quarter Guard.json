@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Quarter Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "Recover Full Guard from Quarter Guard is a fundamental defensive recovery technique in BJJ's guard retention system. When the bottom player finds themselves in quarter guard—a severely compromised position with minimal leg entanglement remaining—the ability to recover to a functional half guard determines whether they maintain defensive viability or surrender position entirely. This technique relies on precise hip escape timing, effective frame creation against the passer's pressure, and coordinated leg replacement to re-establish meaningful guard structure before the top player can consolidate side control.\n\nThe recovery works by creating momentary space through framing and hip movement, then using that space to reinsert the inside knee and re-establish leg entanglement at the half guard level. The bottom player must coordinate upper body frames against the passer's chest or shoulder with a decisive hip escape away from the passing direction, creating just enough gap to slide the knee back between themselves and their opponent. The technique demands efficiency because quarter guard deteriorates rapidly under competent pressure—hesitation or incomplete execution allows the top player to advance further toward full pass completion.\n\nStrategically, this recovery represents the last viable opportunity to retain guard before conceding side control. It integrates with the broader quarter guard bottom game where the bottom player must decide between offensive options like sweeps and back takes versus defensive recovery to more sustainable guard positions. The technique is most effective when combined with the threat of sweeps, as the top player's reaction to sweep attempts often creates the space needed for guard recovery. Understanding when to abandon offensive quarter guard attacks in favor of guard recovery is a key decision-making skill that separates competent guard players from those who get passed repeatedly.",
   "conditions": [
     "Bottom player has minimal leg entanglement in quarter guard with at least partial foot or ankle contact on opponent's leg",

@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Body Triangle/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Seat Belt Control Back/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Seat Belt to Body Triangle transition converts standard hook-based back control into the mechanically superior body triangle configuration. From an established seat belt grip with hooks, the attacker threads one leg across the defender's torso and locks a figure-four behind their own knee, replacing bilateral hook control with a unified compression lock that restricts breathing and eliminates standard hook-clearing escapes. This upgrade represents a critical decision point in back control: sacrificing the dynamic mobility of hooks for the static mechanical dominance of the triangle lock.\n\nStrategically, this transition is most effective when the attacker has already stabilized seat belt control and the defender has begun working systematic hook-clearing sequences. The body triangle negates the defender's primary escape pathway—individually removing hooks—by replacing two independent control points with a single locked structure. The breathing restriction compounds over time, creating urgency that forces defensive errors and opens submission opportunities. However, the transition itself requires temporarily releasing one hook, creating a vulnerability window that skilled defenders exploit through explosive hip movement or guard recovery.\n\nThe timing and leg selection are critical. Threading the leg across the defender's centerline requires momentary space creation, and choosing the correct side—typically the side where your hips are positioned on the mat—determines the squeeze angle and effectiveness. Elite practitioners treat this not as an isolated technique but as a positional upgrade within a broader back attack system, where the body triangle serves as a platform for sustained pressure and methodical submission hunting.",
   "conditions": [
     "Seat belt grip firmly established with hands connected and chest-to-back pressure maintained",

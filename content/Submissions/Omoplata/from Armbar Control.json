@@ -20,7 +20,10 @@
   "target_area": "Shoulder joint (rotator cuff, capsule, AC joint)",
   "starting_position": "Armbar Control",
   "from_position": "Armbar Control/Top",
-  "success_rate": 52,
+  "success_rate": {
+    "gi": 52,
+    "nogi": 52
+  },
   "overview": "The omoplata from armbar control is one of the highest-percentage chain submissions in Brazilian Jiu-Jitsu, exploiting the most common armbar defense: bending the trapped arm. When an attacker has established armbar control and the defender successfully flexes their elbow to prevent hyperextension, the resulting bent-arm configuration creates an ideal entry angle for the omoplata transition. Rather than fighting against the defender's strongest defensive structure, this technique redirects the attack to the shoulder joint, transforming a successful defense into a new submission threat.\n\nThe transition hinges on timing and leg dexterity. The attacker must recognize the arm bend, maintain wrist control with one hand, and swing their far leg over the opponent's head to establish the omoplata position. The critical phase occurs during the sit-up, where the attacker must explosively rotate from a supine armbar position to a seated omoplata position while maintaining shoulder entanglement. Once seated with far hip control established, the finishing mechanics involve progressive forward pressure that internally rotates the shoulder beyond its safe range of motion.\n\nWhat makes this chain particularly dangerous in competition is the binary dilemma it creates. Keeping the arm straight invites the armbar finish; bending the arm opens the omoplata. Skilled practitioners who master both attacks from armbar control force opponents into a lose-lose decision matrix, dramatically increasing overall finishing rates from this position. The technique rewards practitioners who develop sensitivity to their opponent's defensive reactions and can fluidly shift between attack vectors.",
   "safety_considerations": {
     "injury_risks": [
@@ -110,17 +113,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 52,
+      "probability": {
+        "gi": 52,
+        "nogi": 52
+      },
       "result": "success"
     },
     {
       "to": "Armbar Control/Top",
-      "probability": 31,
+      "probability": {
+        "gi": 31,
+        "nogi": 31
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 17,
+      "probability": {
+        "gi": 17,
+        "nogi": 17
+      },
       "result": "counter"
     }
   ],

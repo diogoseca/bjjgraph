@@ -14,26 +14,41 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "failure"
     },
     {
       "to": "Double Sleeve Guard/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "Passing Double Sleeve Guard requires systematic grip breaking combined with strategic angle creation to overcome the bottom player's bilateral sleeve control. The guard passer must address both sleeve grips while managing the opponent's active feet, which serve as the primary distance-maintaining mechanism. Success depends on breaking grips methodically using proper mechanics rather than brute strength, then immediately capitalizing on the brief window before the guard player can re-establish control.\n\nThe pass typically proceeds through a sequence of grip break, leg control, and angle creation before completing the pass to side control. The top player must maintain upright posture throughout, as forward collapse into the guard player's control creates sweep and submission opportunities. Understanding the relationship between the sleeve grips and foot placement is essential — addressing one without the other leaves the pass attempt vulnerable to immediate recovery. The most effective approach combines grip breaking mechanics with simultaneous pressure that prevents the bottom player from re-gripping or transitioning to alternative guards like Spider Guard or Lasso Guard.\n\nAt the competition level, double sleeve guard is one of the most frequently encountered open guard configurations in gi jiu-jitsu. Developing a reliable passing methodology against this guard is essential for any serious competitor. The pass rewards patience and technical precision over athleticism, making it accessible to practitioners of all body types when the fundamental mechanics are properly understood and drilled.",
   "variants_and_adaptations": [
     {

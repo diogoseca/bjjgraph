@@ -19,7 +19,10 @@
   "target_area": "Calf muscle and Achilles tendon",
   "starting_position": "Carni",
   "from_position": "Carni/Bottom",
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "The calf slicer from Carni exploits a specific defensive reaction that occurs when opponents attempt to hide their heel from the primary heel hook threat. When the top player turns belly down or curls their leg defensively within the Carni entanglement, the bottom player threads their shin behind the opponent's knee joint, creating a fulcrum that compresses the calf muscle and Achilles tendon against the shinbone. The Carni position provides an ideal platform for this attack because the opponent's leg is already isolated and entangled, and their defensive movements are severely constrained by the existing inside leg control.\n\nWhat makes this calf slicer variant particularly effective is the seamless integration with the broader Carni attack system. The opponent faces a genuine dilemma: defend the heel hook by hiding the heel, which directly exposes the calf slicer, or defend the calf slicer by extending the leg, which re-exposes the heel for immediate attack. Advanced practitioners use the calf slicer as both a primary finish and a tool to reopen heel hook opportunities when the opponent over-commits to heel defense. The transition between threats requires minimal repositioning because the leg entanglement structure remains intact throughout.\n\nThe finishing mechanics require precise shin placement directly behind the opponent's knee crease, combined with controlled hip extension to apply graduated compression. Unlike explosive joint lock finishes, the calf slicer builds pressure methodically, giving training partners adequate time to tap while still generating significant submission threat in competition. The position is sustainable for extended periods within the Carni control framework, allowing patient pressure application rather than requiring explosive force that risks injury to both practitioners.",
   "safety_considerations": {
     "injury_risks": [
@@ -109,17 +112,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Carni/Bottom",
-      "probability": 32,
+      "probability": {
+        "gi": 32,
+        "nogi": 32
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 18,
+      "probability": {
+        "gi": 18,
+        "nogi": 18
+      },
       "result": "counter"
     }
   ],

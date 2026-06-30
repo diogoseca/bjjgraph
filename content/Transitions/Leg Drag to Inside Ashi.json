@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Inside Ashi-Garami/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Leg Drag Control/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Leg Drag to Inside Ashi transition represents a sophisticated pathway from a dominant passing position into the leg attack game. When your opponent defends the leg drag by posting strongly on their far hip or fighting your upper body control, they often inadvertently expose their legs to entanglement attacks. Rather than forcing the pass against heavy resistance, you redirect your energy into securing inside ashi-garami—a position that offers immediate heel hook opportunities while maintaining strong control.\n\nThis transition exemplifies the modern approach to grappling where positional passing and leg attacks form an integrated system rather than separate disciplines. The leg drag creates natural hip exposure and limits your opponent's defensive mobility, making the entry to inside ashi particularly accessible. Your existing leg control serves as the foundation—you simply need to adjust your body position and secure the appropriate hooks to complete the transition.\n\nStrategically, this option expands your threat matrix significantly. Opponents who successfully defend traditional leg drag follow-ups (back take, mount, side control) by staying heavy on their hips suddenly face a different category of danger. The psychological pressure of knowing that strong positional defense opens leg attack vulnerabilities creates hesitation and uncertainty, making all your attacks more effective.",
   "related_content": [
     {

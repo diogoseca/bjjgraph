@@ -14,26 +14,41 @@
   "outcomes": [
     {
       "to": "50-50 Guard/Top",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Ashi Garami/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "success"
     },
     {
       "to": "Inside Sankaku/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Saddle/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "summary": "The Counter Leg Attack is a leg-lock counter from Inside Sankaku bottom where you entangle the opponent's free leg to neutralize their heel-hook control, reaching a mutual 50-50 Guard or your own Ashi Garami.",
   "overview": "The Counter Leg Attack from Inside Sankaku Bottom represents one of the most sophisticated defensive-offensive transitions in modern leg lock systems. When trapped in the dangerous Inside Sankaku (Honey Hole) position, rather than purely defending the heel hook threat, the bottom player can neutralize the positional disadvantage by entering their own leg entanglement on the opponent's free leg. This strategy transforms a defensive situation into a mutual exchange where both practitioners have submission threats, often resulting in a 50-50 position or creating enough chaos to facilitate escape.\n\nThe technique requires precise timing and understanding of when the opponent's focus shifts to the submission finish, creating windows where their free leg becomes accessible. By threading your legs around their non-entangled leg while simultaneously protecting your trapped heel, you create a dilemma: they must address your counter-attack or risk having their own leg compromised. This forces them to choose between abandoning their superior position or engaging in mutual leg lock exchanges where positional advantage is neutralized.\n\nStrategically, the Counter Leg Attack should be viewed as a last-resort option when standard escapes have failed or when you possess superior leg lock finishing ability compared to your opponent. The transition to 50-50 Guard equalizes the position, while successful entry to your own Ashi Garami can actually reverse the positional hierarchy. Understanding the timing windows, proper leg threading mechanics, and heel protection throughout the counter-attack sequence is essential for success.",
   "conditions": [

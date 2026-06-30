@@ -19,7 +19,10 @@
   "target_area": "Shoulder joint (rotator cuff, capsule, AC joint)",
   "starting_position": "Double Sleeve Guard",
   "from_position": "Double Sleeve Guard/Bottom",
-  "success_rate": 52,
+  "success_rate": {
+    "gi": 52,
+    "nogi": 52
+  },
   "overview": "The omoplata from double sleeve guard exploits bilateral sleeve control to isolate one arm and swing the leg over the opponent's shoulder for a powerful rotational shoulder lock. What makes this entry distinctive is the pre-existing grip dominance: because you already control both sleeves, you dictate which arm gets attacked and prevent the opponent from posting or framing during your leg swing. The push-pull dynamic inherent to double sleeve guard — pulling one sleeve across your centerline while pushing the opponent's opposite shoulder with your foot — naturally creates the angle and arm isolation needed for the omoplata without telegraphing the attack.\n\nStrategically, this submission sits at the intersection of the triangle and armbar threat from double sleeve guard, meaning your opponent must defend all three attacks simultaneously. When they protect their neck and keep elbows tight to avoid the triangle, they create the arm separation needed for the omoplata entry. The double sleeve grip also provides a safety net: if the omoplata attempt stalls, you retain enough control to recover guard rather than conceding position. At the competition level, this attack is particularly effective because even an incomplete omoplata frequently results in a sweep worth two points, making it a low-risk, high-reward option from an already dominant guard position.",
   "safety_considerations": {
     "injury_risks": [
@@ -109,17 +112,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 52,
+      "probability": {
+        "gi": 52,
+        "nogi": 52
+      },
       "result": "success"
     },
     {
       "to": "Double Sleeve Guard/Bottom",
-      "probability": 31,
+      "probability": {
+        "gi": 31,
+        "nogi": 31
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 17,
+      "probability": {
+        "gi": 17,
+        "nogi": 17
+      },
       "result": "counter"
     }
   ],

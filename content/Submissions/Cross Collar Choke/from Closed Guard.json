@@ -18,7 +18,10 @@
   "target_area": "Carotid arteries",
   "starting_position": "Closed Guard",
   "from_position": "Closed Guard/Bottom",
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "As one of the first submissions taught in any gi curriculum, the cross collar choke retains a central place in the high-level closed guard game because the threat itself forces posture-compromising reactions long before it finishes. From the bottom position it capitalizes on the closed guard's inherent posture control, where the bottom player's locked legs prevent the top player from creating the distance needed to defend against deep collar entries.\n\nWhat distinguishes the closed guard cross collar choke from its mounted counterpart is the reliance on posture breaking as a prerequisite for grip establishment. From bottom, gravity works against the attacker, requiring precise hip angle adjustments and active leg pressure to maintain broken posture while threading the second hand into the collar. The technique rewards patience and grip discipline, as rushing the second grip before fully breaking posture is the most common reason this choke fails at intermediate levels.\n\nStrategically, the cross collar choke threat from closed guard functions as an offensive anchor that opens the entire guard attack system. When the opponent defends their collar, they necessarily compromise their posture and base, creating openings for sweeps and armbar attempts. This makes the cross collar choke valuable even when it does not finish directly, as the defensive reactions it forces create cascading offensive opportunities throughout the closed guard game.",
   "safety_considerations": {
     "injury_risks": [
@@ -116,17 +119,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 27,
+      "probability": {
+        "gi": 27,
+        "nogi": 27
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],

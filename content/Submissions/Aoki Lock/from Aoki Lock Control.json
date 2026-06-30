@@ -16,7 +16,10 @@
   "target_area": "Shin and ankle compression (forced plantar flexion crushing the shin, calf, and Achilles)",
   "starting_position": "Aoki Lock Control",
   "from_position": "Aoki Lock Control/Top",
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "summary": "The Aoki Lock from Aoki Lock Control is a leg-compression finish where the attacker traps the foot in a figure-four and squeezes the legs together to drive extreme plantar flexion, crushing the shin and calf to force a rapid tap.",
   "overview": "The Aoki Lock from Aoki Lock control represents the culmination of this signature leg-entanglement system, where the attacker converts established foot and ankle isolation into a fight-ending compression submission. Named after Japanese MMA fighter Shinya Aoki, the lock attacks the shin, calf, and ankle simultaneously through extreme plantar flexion rather than isolating a single joint, which makes it brutally effective and hard to ride out once locked. The primary control is leg-based: the attacker traps the opponent's foot inside a figure-four configuration and uses the large muscles of the legs and hips to generate compression, freeing the hands to manage distance and prevent the opponent from spinning out.\n\nFrom the Aoki Lock control position, the attacker has already secured the leg entanglement with the foot trapped between the legs and the figure-four closing the loop. The finishing sequence focuses on squeezing the knees together while extending the hips, forcing the trapped foot into extreme plantar flexion while crushing the shin and calf against the attacker's own leg. Unlike a heel hook, which isolates rotational force on the knee through tibial torsion, the Aoki Lock distributes pressure across multiple structures of the lower leg at once, so it can finish even when classic heel-hook defenses are strong.\n\nStrategically, this finish carries a 50% overall success rate reflecting strong positional control offset by the leg dexterity and precision required for safe application. When defended, the attacker retains the entanglement and can flow back to control, re-isolate for a heel hook or kneebar, or chase the scramble, making the Aoki Lock a versatile offensive hub rather than a single-dimension attack.",
   "safety_considerations": {
@@ -98,17 +101,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Aoki Lock Control/Top",
-      "probability": 32,
+      "probability": {
+        "gi": 32,
+        "nogi": 32
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 18,
+      "probability": {
+        "gi": 18,
+        "nogi": 18
+      },
       "result": "counter"
     }
   ],

@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Scarf Hold Position/Top",
-      "probability": 70,
+      "probability": {
+        "gi": 70,
+        "nogi": 70
+      },
       "result": "success"
     },
     {
       "to": "Side Control/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 70,
+  "success_rate": {
+    "gi": 70,
+    "nogi": 70
+  },
   "overview": "The Transition to Scarf Hold Position is a fundamental positional shift from standard Side Control into the perpendicular pinning configuration known as Kesa Gatame. This transition involves rotating your body roughly 90 degrees so that you sit hip-to-hip against the opponent's ribcage while simultaneously isolating their near arm and wrapping their head. The movement changes the force vectors applied to the bottom player from parallel chest pressure to perpendicular hip-driven compression, which negates standard side control escape mechanics and opens distinct submission pathways including americana, kimura, and arm triangle variations.\n\nStrategically, this transition is most effective when the bottom player is actively defending standard side control attacks or attempting guard recovery. Their defensive frames and hip escapes, designed for parallel pressure, become largely ineffective against the perpendicular angle. The transition also serves as a platform for advancing to mount when the bottom player reacts to the scarf hold pressure by turning away, or retreating to north-south when they attempt to sit up. The key mechanical detail is maintaining continuous chest contact throughout the rotation so the bottom player cannot insert frames or recover guard during the positional shift.\n\nAt the purple and brown belt level, this transition becomes a deliberate strategic choice rather than an accidental position. Understanding when to shift from standard side control crossface pressure to the perpendicular scarf hold angle allows you to break stalemates against strong defensive bottom players and create new submission threats that were unavailable from the parallel configuration.",
   "conditions": [
     "Established side control with stable crossface and hip control",

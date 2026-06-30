@@ -25,6 +25,7 @@ from collections import defaultdict
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))  # make the shared helper importable
 from _atomic_io import atomic_write_json
+from _ruleset import reduce_to_scalar  # collapse mirror {gi,nogi} maps at load (calibration-v2)
 
 CONTENT_PATH = Path("content")
 POSITIONS_PATH = CONTENT_PATH / "Positions"
@@ -36,7 +37,7 @@ REPORT_PATH = Path("tests/artifacts/explode_report.json")
 def load_json(path):
     try:
         with open(path, "r", encoding="utf-8") as f:
-            return json.load(f)
+            return reduce_to_scalar(json.load(f))
     except Exception as e:
         print(f"  WARNING: Could not load {path}: {e}", file=sys.stderr)
         return None

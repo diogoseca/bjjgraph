@@ -16,26 +16,41 @@
   "outcomes": [
     {
       "to": "Turtle/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "success"
     },
     {
       "to": "Cross Body Ride/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "The Hip Escape from Cross Body Ride is a fundamental defensive technique employed when the bottom player is trapped beneath perpendicular chest-to-back pressure in the cross body ride configuration. This escape leverages the shrimping motion—BJJ's most essential defensive movement—to create lateral space between the bottom player's hips and the top player's controlling chest. The technique exploits the inherent limitation of cross body positioning: the top player's perpendicular orientation makes it difficult to follow lateral hip movement without releasing pressure or compromising their own base.\n\nStrategically, this escape functions as a first-line defensive option when the bottom player still retains hip mobility and at least one free arm for framing. Unlike rolling escapes that require precise timing and carry significant risk of worsening position, the hip escape is a lower-risk movement that can be chained repeatedly. Each successive shrimp compounds the space created, progressively degrading the top player's control until recovery to turtle or half guard becomes achievable. The reliability of the shrimping pattern makes this technique accessible across all skill levels while remaining effective at the highest levels of competition.\n\nThe technique is most effective when initiated during moments of weight transition—when the top player adjusts grips, shifts pressure, or begins setting up their own transitions. Reading these micro-adjustments and timing the explosive hip movement accordingly transforms a moderate-percentage escape into a high-reliability defensive tool. Advanced practitioners chain the hip escape with sit-outs, granby rolls, and guard recovery sequences to create multi-layered escape systems that prevent the top player from settling into any single control configuration.",
   "conditions": [
     "Bottom player is in turtle position with cross body ride pressure from top",

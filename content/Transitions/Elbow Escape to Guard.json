@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Open Guard/Bottom",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "Buggy Choke/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 12,
+      "probability": {
+        "gi": 12,
+        "nogi": 12
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "summary": "The Elbow Escape to Guard is a defensive transition from the bottom of a Buggy Choke where you wedge your near elbow against the choking forearm and hip-escape diagonally to clear space and recover open guard.",
   "overview": "The Elbow Escape to Guard represents a fundamental defensive technique for recovering guard position when caught in the Buggy Choke from bottom. This escape exploits the mechanical limitations of the buggy choke grip structure by creating separation through strategic elbow positioning and hip movement. Unlike more explosive escapes that rely on power, this technique emphasizes precise body mechanics and proper timing to methodically dismantle the opponent's control.\n\nThe escape works by using your near-side elbow as a wedge against the opponent's choking arm while simultaneously shrimping away to create the space necessary for leg insertion. The key insight is that the buggy choke requires the attacker to maintain perpendicular pressure and collar depth—any disruption to this alignment weakens the choke significantly. By driving your elbow into the gap between your neck and their forearm, you create a structural barrier that prevents the choke from tightening while you work to recover guard.\n\nThis technique is particularly valuable because it maintains a defensive posture throughout the escape sequence, minimizing risk of transitioning to worse positions like back control or crucifix. The escape naturally flows into open guard rather than requiring you to fight through multiple transitional positions. For practitioners facing skilled buggy choke attacks, developing proficiency in this escape is essential for building a complete turtle defense system that doesn't rely solely on preventing the initial grip establishment.",
   "conditions": [

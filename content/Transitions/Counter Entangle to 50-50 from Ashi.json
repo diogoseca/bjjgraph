@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "50-50 Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Inside Ashi-Garami/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "summary": "The counter entangle to 50-50 from ashi is a leg-lock system change in which the bottom player in Inside Ashi-Garami threads their free leg over the opponent's near thigh to build the symmetrical 50-50 entanglement, unlocking fresh heel hook angles.",
   "overview": "Within modern leg-lock systems, the counter entangle to 50-50 from ashi garami is the response to a stalled Inside Ashi-Garami attack — rather than disengaging and re-entering, the practitioner threads their free leg around the opponent's near leg to flow directly into the symmetrical 50-50 Guard entanglement. This technique serves as a critical system change when direct attacks from standard ashi garami are being effectively defended, offering new heel hook angles and submission entries from the 50-50 configuration.\n\nThe transition capitalizes on the mechanical principle that when an opponent successfully defends their heel in ashi garami—typically by rotating their knee inward or pulling their leg back—the space created during their defense actually facilitates leg threading for the 50-50 entry. Skilled practitioners recognize this defensive reaction as a trigger for the counter entangle rather than continuing to force attacks from a compromised ashi position.\n\nFrom a strategic perspective, the counter entangle to 50-50 is valuable because it maintains offensive pressure while changing the attack angle. Rather than disengaging and re-entering the leg lock system, the practitioner flows directly into 50-50 where they can immediately threaten heel hooks from a different configuration. This chain-based approach—flowing between entanglements rather than resetting—is a hallmark of modern leg lock systems and keeps the opponent under constant submission threat throughout the transition.",
   "conditions": [

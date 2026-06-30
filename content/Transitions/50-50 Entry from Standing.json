@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "50-50 Guard/Top",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Standing Position/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 52,
+  "success_rate": {
+    "gi": 52,
+    "nogi": 52
+  },
   "overview": "Popularized by the modern leg-lock movement, the 50-50 Entry from Standing lets you drag a standing engagement straight into a symmetrical entanglement instead of grinding through conventional guard-pull exchanges. It is especially valuable in no-gi competition, where traditional sit-to-guard pulls may be penalized or easily stuffed. The entry controls your opponent's lead leg while you simultaneously sit to the mat, building a mirrored leg entanglement that offers both offensive and defensive advantages.\n\nThis entry has become increasingly popular in modern competitive BJJ, particularly among leg lock specialists who use the 50-50 as a platform for attacking heel hooks and toe holds. The position's symmetry creates a strategic stalemate that can frustrate opponents unfamiliar with its intricacies, while providing numerous attacking opportunities for those well-versed in the system. The entry requires precise timing and coordination to successfully establish the position without exposing yourself to counters.\n\nFrom a strategic standpoint, the 50-50 entry from standing bypasses many traditional guard-pulling exchanges and immediately places both competitors in a complex leg entanglement scenario. The attacker who initiates the entry typically gains a slight advantage through inside position control and superior grip placement, provided the entry mechanics are executed correctly. This technique is classified as a positional control tool, as it establishes a controlling guard position rather than directly threatening a submission.",
   "conditions": [
     "Both competitors standing with active grip engagement",

@@ -19,21 +19,33 @@
   "outcomes": [
     {
       "to": "Armbar Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Triangle Control/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Triangle to Armbar transition represents one of the most fundamental and high-percentage submission chains in Brazilian Jiu-Jitsu. When an opponent defends the triangle choke by maintaining proper posture or hand positioning, the armbar becomes immediately available because the defending arm is already isolated inside the triangle configuration. This transition capitalizes on the opponent's defensive response, creating a classic two-attack system where defending one submission opens the path to another.\n\nThe technical execution requires precise angle adjustment, hip mobility, and control of the defending arm. Unlike standalone armbars, this variation benefits from the leg control already established during the triangle attempt, making escape significantly more difficult for the opponent. The practitioner pivots their hips perpendicular to the opponent's torso while maintaining the overhook on the trapped arm, then falls back into standard armbar finishing position with legs controlling the opponent's upper body.\n\nThe triangle-to-armbar system exemplifies the principle of submission chains, where multiple attacks flow seamlessly based on the opponent's reactions, maximizing offensive pressure while minimizing energy expenditure. When combined with the omoplata as a third option, this creates a triangular dilemma system where every defensive reaction the opponent makes exposes a different submission vulnerability. Understanding this connection is essential for developing a complete guard game at purple belt and above.",
   "related_content": [
     {

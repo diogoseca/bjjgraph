@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Triangle Control/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Triangle Escape Position/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Inverted Triangle is an advanced submission variation that attacks the opponent from a reverse angle when they defend the standard front triangle by turning their shoulder inward. Rather than maintaining the traditional triangle configuration with legs wrapped around the neck and one arm, the inverted variation requires rotating your body 180 degrees to attack from the opposite side, placing your legs in a reverse configuration that catches many opponents off guard. This technique transforms a defensive reaction into a submission opportunity by capitalizing on the opponent's movement away from the standard choking angle.\n\nStrategically, the inverted triangle serves as a critical tool in the triangle attack system because it punishes one of the most common defenses—turning the shoulder inward to relieve pressure. When an opponent successfully defends the standard triangle by rotating their trapped shoulder toward your hip, they inadvertently create the opening for the inverted attack. The technique requires excellent hip mobility, spatial awareness, and the ability to maintain leg control while inverting your body position. Advanced practitioners use this as a catch-all solution that makes their entire triangle game more dangerous.\n\nThe biomechanics of the inverted triangle differ significantly from the standard variation. The choking pressure comes from the opposite angle, with your legs positioned to compress the carotid arteries from behind rather than in front. This requires adjusting your hip angle, leg positioning, and grip placement to accommodate the reversed geometry. The inverted triangle also opens up different transition options, including back takes and armbar variations that aren't available from the standard triangle position.",
   "conditions": [
     "Standard triangle control must be established with legs locked around opponent's neck and one arm",

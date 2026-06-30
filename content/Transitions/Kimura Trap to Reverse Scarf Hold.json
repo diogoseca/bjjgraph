@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Reverse Scarf Hold/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Kimura Trap/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 65,
+  "success_rate": {
+    "gi": 65,
+    "nogi": 65
+  },
   "overview": "The Transition to Reverse Scarf Hold from Kimura Trap Top is a positional advancement technique that converts the figure-four grip control of the Kimura Trap into the crushing chest-compression pin of Reverse Scarf Hold (Ushiro Kesa Gatame). This transition exploits a specific defensive pattern where the opponent tucks their elbow tight and resists the Kimura finish by keeping their arm close to their body. Rather than forcing the submission against a well-defended arm, the top player pivots their hips and rotates their body orientation to face away from the opponent's head, establishing heavy hip-on-chest pressure while maintaining arm control throughout the movement.\n\nThe mechanical basis of this transition centers on hip rotation and pressure transfer. From Kimura Trap Top, the practitioner's hips are perpendicular to the opponent's torso with the Kimura grip threatening the shoulder. When the opponent defends effectively by keeping their elbow pinned to their ribs, the top player uses the grip as a pivot point, walking their feet in an arc while rotating their hips 180 degrees to face toward the opponent's legs. The trapped arm naturally follows this rotation, ending up controlled across the opponent's body in the classic Reverse Scarf Hold configuration. Throughout this rotation, chest pressure must remain constant to prevent the bottom player from inserting frames or recovering guard.\n\nStrategically, this transition serves a critical role in the Kimura Trap system by providing a high-percentage positional option when the submission is well-defended. It creates a dilemma for the defender: commit to defending the Kimura and risk having position advanced to Reverse Scarf Hold, or loosen the arm defense to prevent the positional change and get caught in the Kimura. This fork in the decision tree is what makes the Kimura Trap system so effective at the purple belt level and above, where opponents are skilled enough to defend individual attacks but struggle against systematic chains that punish every defensive choice.",
   "variants_and_adaptations": [
     {

@@ -15,26 +15,41 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Front Headlock/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Arm Triangle from Turtle is a powerful submission attack that exploits the defensive turtle position by isolating one of the opponent's arms and converting to a blood choke. This transition combines elements of front headlock control with precise shoulder positioning to create a devastating finishing sequence. The technique is particularly effective against opponents who rely heavily on the turtle as a defensive refuge, as it punishes the common error of keeping the elbows too wide or allowing the head to drift away from the body. Unlike traditional arm triangles from side control or mount, this variation requires the attacker to generate the necessary compression while transitioning from a top turtle position, making timing and weight distribution critical factors.\n\nThe arm triangle from turtle has become increasingly popular in modern no-gi competition, where the absence of gi grips makes traditional collar chokes less accessible. The attack exploits the fundamental vulnerability of the turtle position: the defender's arms must either protect the neck or maintain base, but cannot do both simultaneously. By applying systematic pressure that forces the defender to choose between protecting the neck and maintaining structural integrity, the attacker creates the separation needed for arm isolation. Mastery of this technique provides a high-percentage finishing option from one of the most common defensive positions in Brazilian Jiu-Jitsu, and integrates naturally with darce, anaconda, and back take chains from turtle top.",
   "related_content": [
     {

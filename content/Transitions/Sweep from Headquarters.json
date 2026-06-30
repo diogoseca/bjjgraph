@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Headquarters Position/Bottom",
-      "probability": 38,
+      "probability": {
+        "gi": 38,
+        "nogi": 38
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 22,
+      "probability": {
+        "gi": 22,
+        "nogi": 22
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "summary": "The Sweep from Headquarters is a bottom-player reversal that exploits the passer's committed weight and triangulated base, combining an underhook or shin contact with a free-leg hook to topple them diagonally past their support and recover top position.",
   "overview": "The Sweep from Headquarters represents a critical counter-offensive response when the top player establishes headquarters position with one of the bottom player's legs trapped between their knees. Rather than passively accepting the guard pass, the bottom player exploits structural vulnerabilities inherent in the headquarters stance—specifically the wide base, elevated posting leg, and the top player's directional weight commitment—to create off-balancing opportunities that reverse the positional hierarchy entirely. This sweep chain is fundamental to making headquarters a contested position rather than a one-sided passing platform.\n\nThe primary sweep mechanics leverage the asymmetric weight distribution of headquarters. Because the top player commits significant downward pressure to controlling the trapped leg, their base becomes directionally vulnerable perpendicular to their stance. The bottom player creates sweep angles by combining underhook access on the near side with butterfly hook insertion or shin-to-shin contact from the free leg, then redirecting the top player's committed weight past their base of support. The timing element is critical—the sweep must be initiated during the passer's weight transitions between passing attempts rather than against a settled, balanced headquarters.\n\nThis technique functions as both a direct positional reversal and a strategic deterrent within the guard passing exchange. When the top player recognizes the sweep threat, they must widen their base or reduce trapped-leg pressure, both of which create opportunities for guard recovery or reguarding. Even failed sweep attempts that disrupt the passer's rhythm serve a strategic purpose by preventing the systematic decision-making that makes headquarters passing so effective, forcing the top player to address the sweep threat before continuing their pass.",
   "conditions": [

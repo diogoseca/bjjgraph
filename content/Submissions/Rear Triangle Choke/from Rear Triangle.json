@@ -17,7 +17,10 @@
   "target_area": "Neck",
   "starting_position": "Rear Triangle",
   "from_position": "Rear Triangle/Top",
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "The rear triangle choke from the rear triangle position is one of the highest-percentage finishes available from back control. Once the triangle configuration is locked—with one leg threaded under the opponent's armpit and across the back of the neck while the other leg secures the figure-four—the attacker controls both the head and one trapped arm. The choking mechanism compresses the carotid arteries bilaterally: the shin blade presses one side while the opponent's own trapped shoulder drives into the other. This dual compression creates a blood choke that can produce unconsciousness in four to six seconds once fully engaged.\n\nWhat distinguishes the rear triangle finish from other back attacks is that the legs perform the primary choking work, leaving both hands free for secondary control and adjustment. The attacker can use their hands to break defensive grips, control the free arm, or adjust hip angle to optimize squeeze mechanics. The finish requires precise hip positioning—angling toward the trapped arm side to maximize the cutting angle across the neck. Combined with knee compression and controlled hip extension, this creates a submission that is mechanically efficient and extremely difficult to defend once the triangle is properly locked.\n\nStrategically, this finish sits at the apex of a submission chain from rear triangle position. Opponents who defend the choke expose the trapped arm to armbars; those who address the arm expose the neck to tighter compression. This dilemma-based attack structure makes the rear triangle choke a high-percentage competition finish that rewards patience and systematic tightening over explosive force.",
   "safety_considerations": {
     "injury_risks": [
@@ -94,17 +97,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Rear Triangle/Top",
-      "probability": 32,
+      "probability": {
+        "gi": 32,
+        "nogi": 32
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 18,
+      "probability": {
+        "gi": 18,
+        "nogi": 18
+      },
       "result": "counter"
     }
   ],

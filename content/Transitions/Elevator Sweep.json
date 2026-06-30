@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "Butterfly Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Butterfly Guard/Top",
-      "probability": 12,
+      "probability": {
+        "gi": 12,
+        "nogi": 12
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Elevator Sweep is a fundamental butterfly guard technique that uses both hooks and upper body control to lift and sweep the opponent. This sweep capitalizes on the mechanical advantage created by the butterfly hooks positioned on the opponent's inner thighs, combined with an overhook or underhook grip that controls their upper body. When executed properly, the practitioner uses their legs like an elevator to lift the opponent while simultaneously pulling them off balance with the upper body grip, resulting in a clean reversal to mount or top position.\n\nThe elevator sweep is particularly effective against opponents who are sitting heavy in your butterfly guard or attempting to pass with forward pressure. Unlike some butterfly sweeps that rely purely on timing and off-balancing, the elevator sweep provides a more forceful, mechanical advantage through the coordinated lifting action of both hooks. This makes it an excellent choice for practitioners who may not have perfect timing but possess good hip mobility and leg strength.\n\nStrategically, the elevator sweep serves as a cornerstone technique in the butterfly guard system, working in combination with other butterfly attacks like the basic butterfly sweep, arm drag to back takes, and guillotine attacks. The threat of the elevator sweep forces opponents to adjust their base and posture, creating opportunities for these complementary techniques. Mastering this sweep is essential for anyone looking to develop a dangerous butterfly guard game.",
   "conditions": [
     "Both butterfly hooks must be inserted on opponent's inner thighs",

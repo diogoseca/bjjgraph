@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Crucifix/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Turtle/Top",
-      "probability": 33,
+      "probability": {
+        "gi": 33,
+        "nogi": 33
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 12,
+      "probability": {
+        "gi": 12,
+        "nogi": 12
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Clock Choke is a highly effective gi submission that derives its name from the rotational movement pattern used during execution—the attacker walks around the opponent's head like the hands of a clock while maintaining collar pressure. This technique is most commonly applied against a turtled opponent, exploiting their defensive posture by using their own gi collar as the choking mechanism. The choke combines collar grip mechanics with positional pressure, creating a blood choke that attacks both carotid arteries simultaneously.\n\nStrategically, the Clock Choke serves as a primary threat against turtle position, forcing opponents to choose between defending the choke and exposing their back or maintaining turtle and being submitted. This dilemma-based approach makes it a cornerstone technique for controlling and finishing turtled opponents. The technique requires precise grip placement—the choking hand must achieve deep collar penetration with the thumb inside, while the non-choking arm controls the far hip to prevent rolling escape.\n\nThe rotational finishing mechanic distinguishes the Clock Choke from static collar chokes. Rather than simply pulling on the collar, the attacker creates pressure by walking their body perpendicular to the opponent while sprawling their hips down, using body weight and leverage rather than arm strength alone. This makes the technique sustainable and difficult to defend once properly established, as the defender must address both the grip and the positional pressure simultaneously.",
   "conditions": [
     "Opponent is in turtle position on hands and knees",

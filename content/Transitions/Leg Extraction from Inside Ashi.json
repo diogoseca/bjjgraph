@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Open Guard/Bottom",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Inside Ashi-Garami/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "Leg Extraction from Inside Ashi-Garami is one of the most fundamental defensive techniques in the modern leg lock game. When your leg is trapped in the inside ashi configuration, the opponent controls your heel and knee line while threatening straight ankle locks, heel hooks, and transitions to more dominant entanglements like saddle or honey hole. The extraction process centers on systematically removing the control points that keep your leg trapped—primarily the opponent's inside leg across your hip and their outside leg hooking behind your knee—while protecting your heel from submission attempts throughout the escape.\n\nThe technique requires precise sequencing: you must first address the heel control by stripping or hiding your heel, then work to clear the opponent's leg hooks through hip movement and targeted prying. Rushing the extraction without first neutralizing the heel grip is the most common mistake and frequently results in injury or deeper entanglement. The escape favors practitioners with good hip mobility and an understanding of the mechanical principles governing leg entanglements.\n\nStrategically, leg extraction occupies a critical role in the defensive leg lock hierarchy. While more advanced defenders may counter-entangle or roll to superior positions, extraction to open guard represents the safest and most reliable escape path for most practitioners. It trades positional advantage for safety, returning both players to a neutral guard engagement rather than remaining in the high-risk leg lock exchange. Understanding when to extract versus when to counter-entangle is a hallmark of mature leg lock defense.",
   "conditions": [
     "Your leg is trapped in opponent's Inside Ashi-Garami configuration with their inside leg across your hip",

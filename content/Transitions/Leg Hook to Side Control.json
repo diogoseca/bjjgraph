@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Leg Hook/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Leg Hook to Side Control transition represents the culminating pass completion phase from the leg hook position within the half guard passing system. When the top player has established a controlling leg hook around the bottom player's defending leg, this transition encompasses the systematic extraction of the hooked leg and full clearance into dominant side control. Unlike the Leg Hook to Half Guard consolidation which resets to a stable passing platform, this transition commits fully to completing the pass in a single decisive sequence.\n\nThe primary mechanical challenge lies in clearing the leg entanglement without creating the space the bottom player needs to recover guard. This requires maintaining constant forward chest and shoulder pressure through the entire extraction sequence while systematically working the hooked leg free. The coordination between upper body pressure maintenance and lower body extraction mechanics separates successful passes from failed attempts that result in guard recovery or sweeps. The leg must be extracted through a combination of windshield wiper motion, hip switching, or backstep mechanics depending on the bottom player's defensive positioning.\n\nStrategically, this transition should be initiated only when the bottom player's defensive frames have been thoroughly compromised and their hip mobility is restricted through far hip control. Attempting the pass against active defense and strong frames typically results in the bottom player retaining position or, worse, using the momentary weight shift during extraction to initiate a sweep reversal. The optimal window opens when the bottom player flattens, their frames collapse, or they commit to a single defensive direction that you can anticipate and exploit. Timing the pass completion with the bottom player's defensive collapse maximizes success rate while minimizing exposure to counter attacks.",
   "conditions": [
     "Leg Hook Top position established with stable upper body control through crossface or shoulder pressure",

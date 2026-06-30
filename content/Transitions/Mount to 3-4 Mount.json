@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "3-4 Mount/Top",
-      "probability": 70,
+      "probability": {
+        "gi": 70,
+        "nogi": 70
+      },
       "result": "success"
     },
     {
       "to": "Mount/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 65,
+  "success_rate": {
+    "gi": 65,
+    "nogi": 65
+  },
   "overview": "The Transition to 3-4 Mount is a positional adjustment from standard mount where the top player extracts one leg from the traditional mount configuration and posts it outside the opponent's body, creating an asymmetric three-quarter contact pattern. This transition converts the bilateral symmetry of standard mount into a directional control platform optimized for specific submission entries and positional advancements. The movement itself is deceptively simple—pulling one knee out and posting the foot—but executing it without creating escape windows requires precise timing, weight management, and understanding of when the asymmetric configuration provides tactical advantage over standard mount.\n\nStrategically, this transition serves as a gateway to the mount variation hierarchy. The 3-4 Mount configuration provides superior mobility for flowing into S-mount armbar attacks, technical mount back takes, and high mount collar work compared to standard mount where both legs are committed inside. The posted leg creates a dynamic base that resists bridging on one side while enabling rapid weight shifts to the other. Practitioners who develop fluency in this transition gain access to branching attack trees that are slower or impossible to reach from symmetrical mount.\n\nThe transition is most effective when the opponent is actively defending submissions from standard mount, particularly when they bring elbows tight or begin framing on one side. Their defensive commitment creates predictable weight distribution that the top player exploits by shifting to the asymmetric configuration on the opposite side. Conversely, attempting this transition against a passive opponent who is not yet framing wastes the positional advantage of settled mount pressure. The key tactical decision is recognizing when the trade-off between standard mount stability and 3-4 Mount mobility favors the transition based on the opponent's current defensive posture.",
   "conditions": [
     "Established mount position with stable base and hip pressure on opponent's torso",

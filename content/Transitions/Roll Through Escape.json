@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Open Guard/Bottom",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Twister Control/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "Within the 10th Planet defensive curriculum, the Roll Through Escape is the highest-percentage answer to fully established Twister Control, and it works by exploiting the very mechanic that makes the position so dangerous. Twister Control traps you by torquing your spine into rotation, but that same rotational constraint can be reversed by rolling with the twist rather than against it, converting the opponent's own rotational pressure into escape momentum.\n\nThe escape works by accepting and accelerating the rotation your opponent has established, then continuing through to a full revolution that ultimately realigns your spine and creates the separation needed to establish open guard. Rather than fighting directly against the spinal torque, you redirect that energy into a controlled tumble that breaks the structural integrity of their control position.\n\nStrategically, this escape requires precise timing and commitment. Attempting it too early when controls are fully established results in simply tightening the Twister. Waiting too long allows the opponent to secure finishing grips. The optimal window occurs when the opponent transitions their grips or adjusts their position, momentarily weakening their leg control. Reading these transitions and exploding through the roll creates the highest success probability while minimizing the risk of accelerating into a worse position.",
   "related_content": [
     {

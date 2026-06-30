@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Headquarters Position/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Combat Base/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Combat Base to Headquarters transition represents one of the most fundamental positional advancements in modern guard passing. This movement takes the top player from a general-purpose combat base stance—one knee posted, one foot planted inside the opponent's guard—into the more specific and dominant Headquarters Position, where one of the opponent's legs is pinned between the passer's legs with sustained downward knee pressure. This advancement narrows the bottom player's defensive options dramatically while opening multiple high-percentage passing pathways including knee cut, toreando, leg drag, and backstep variations.\n\nThe transition demands precise coordination of grip fighting, weight transfer, and leg positioning. The top player must simultaneously control the opponent's leg, shift their base forward, and drive their knee through to establish the pin—all while maintaining enough structural integrity to resist sweeps and guard recovery attempts. The timing window is critical: moving too early without adequate grip control exposes the passer to butterfly hook elevations and half guard entries, while hesitating too long allows the bottom player to establish defensive frames and hooks that block the advancement entirely.\n\nThis positional improvement serves as the gateway to systematic guard passing. Once headquarters is established, the top player can methodically select passing routes based on the bottom player's defensive reactions, returning to headquarters between attempts rather than overcommitting to single directions. Understanding the Combat Base to Headquarters transition is essential for developing a pressure-based, systematic passing game that controls the opponent's options through measured positional advancement.",
   "conditions": [
     "Established combat base with one knee posted and one foot planted inside opponent's open guard",

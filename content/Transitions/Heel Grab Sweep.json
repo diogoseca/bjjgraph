@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 68,
+      "probability": {
+        "gi": 68,
+        "nogi": 68
+      },
       "result": "success"
     },
     {
       "to": "Single Leg X-Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Single Leg X-Guard/Top",
-      "probability": 12,
+      "probability": {
+        "gi": 12,
+        "nogi": 12
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 68,
+  "success_rate": {
+    "gi": 68,
+    "nogi": 68
+  },
   "overview": "Within the modern Single Leg X-Guard game, the Heel Grab Sweep stands out as the highest-percentage off-balancing entry because it attacks a base that is already compromised the instant the opponent commits weight to the trapped leg. The sweep creates a powerful lever system where you use your legs to elevate and extend the opponent's trapped leg while simultaneously pulling their heel backward, disrupting their balance and forcing them to the mat. The technique is particularly effective against standing opponents who attempt to maintain a squared stance or those who fail to properly address the Single Leg X position.\n\nThe Heel Grab Sweep serves as a primary attacking option from Single Leg X Guard, working in concert with other sweeps and leg entanglements to create a comprehensive guard system. Its effectiveness stems from the biomechanical advantage created by controlling both the opponent's heel and knee simultaneously, making it extremely difficult for them to maintain balance or counter effectively. The coordinated scissoring of leg extension with heel pull generates forces in two opposing directions that no single-base adjustment can neutralize.\n\nThis sweep is applicable in both gi and no-gi contexts, though the grip variations differ slightly between the two formats. In no-gi, the cupping grip on the heel bone becomes even more critical since there are no fabric handles to supplement control. The technique chains naturally with Tripod Sweeps, Sickle Sweeps, and leg entanglement entries, making it a cornerstone of any systematic Single Leg X Guard game.",
   "related_content": [
     {

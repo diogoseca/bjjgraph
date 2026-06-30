@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Cross Ashi-Garami/Top",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Inside Ashi-Garami/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Inside Ashi-Garami to Cross Ashi transition is a fundamental positional advancement within modern leg lock systems that allows the attacker to shift from Inside Ashi-Garami to Cross Ashi-Garami when the opponent's defensive positioning creates better finishing angles from the crossed configuration. This transition becomes essential when the opponent rotates their knee inward to defend heel exposure from Inside Ashi, effectively hiding the heel but exposing vulnerability from a perpendicular cross-body angle.\n\nThe mechanical change involves reconfiguring your leg position from parallel ashi (inside hook across hip with outside hook behind knee) to crossed ashi (both legs creating an X-pattern across opponent's trapped leg). This crossed configuration provides superior rotational control and creates a wedge effect that prevents the opponent from sitting up or turning effectively. The key is maintaining constant heel control throughout the transition while your legs switch positions.\n\nStrategically, this transition serves as an essential response when opponents successfully defend Inside Ashi attacks by rotating their knee line away from danger. Rather than forcing suboptimal attacks, advanced practitioners recognize when the opponent's defensive movement actually creates better opportunities from Cross Ashi. The ability to fluidly transition between ashi configurations based on opponent reactions is characteristic of high-level leg lock systems and demonstrates sophisticated positional awareness.",
   "conditions": [
     "Established Inside Ashi-Garami with inside leg across opponent's hip and outside leg behind knee",

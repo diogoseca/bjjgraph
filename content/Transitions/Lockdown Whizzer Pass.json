@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Lockdown/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Sitting within the 10th Planet lockdown ecosystem, the Lockdown Whizzer Pass solves the central problem the trapped top player faces: the bottom player's underhook powers every primary lockdown attack, so stripping it directly rarely works. Rather than fighting to strip the bottom player's underhook head-on, this pass accepts the underhook and counters it with a whizzer (overhook), using that lever to flatten the opponent, kill their hip mobility, and systematically extract the trapped leg to complete the pass to side control.\n\nThe strategic logic exploits a fundamental lockdown dynamic: the bottom player's reliance on the underhook as their primary offensive weapon for whip-up sweeps, Old School attempts, and Electric Chair entries. By overhooking the underhook arm and driving heavy shoulder pressure downward, the top player neutralizes these sweep threats while simultaneously creating a passing angle. The whizzer functions as a lever that drives the bottom player's shoulder to the mat, removing the hip angle they need for all primary lockdown attacks.\n\nExecution requires patience and precise sequencing. The top player must fully commit to flattening the opponent through whizzer pressure before attempting leg extraction, as premature attempts against an active lockdown will fail and may expose sweep opportunities. Once the bottom player is sufficiently flattened with their underhook neutralized, the top player uses hip pressure combined with circular knee motion to free the trapped leg and slide through to side control.",
   "conditions": [
     "Top player has one leg trapped in opponent's lockdown figure-four configuration",

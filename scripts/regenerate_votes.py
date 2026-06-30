@@ -24,6 +24,9 @@ from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from _ruleset import reduce_to_scalar  # collapse mirror {gi,nogi} maps at load (calibration-v2)
+
 PRIOR_VOTE_COUNT = 30  # Expert opinion weight
 
 
@@ -52,7 +55,7 @@ def load_content_rates(content_dir: Path) -> dict[str, float]:
         for json_file in directory.rglob('*.json'):
             try:
                 with open(json_file, 'r', encoding='utf-8') as f:
-                    data = json.load(f)
+                    data = reduce_to_scalar(json.load(f))
                 if not isinstance(data, dict) or 'name' not in data or data.get('is_family'):
                     continue
                 # Skip JSON schema files

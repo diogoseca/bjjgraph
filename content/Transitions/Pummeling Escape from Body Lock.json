@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Clinch/Top",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Body Lock/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "Among standing body-lock escapes, the pummeling escape is the option that attacks the lock's structure rather than its grip. When trapped in a body lock, the bottom player uses systematic underhook fighting to wedge their arms inside the opponent's grip, progressively working to establish inside position that structurally breaks the lock and creates space to disengage. This approach addresses the root cause of the body lock's effectiveness: the closed kinetic chain created by locked arms and chest-to-back connection.\n\nUnlike pure grip-breaking escapes that target the hands directly, the pummeling escape inserts structural wedges between your torso and the opponent's arms. By driving your elbows and forearms inside their grip through rotational pummeling motions, you create bone-on-bone frames that mechanically prevent the opponent from maintaining their lock. The technique leverages skeletal structure rather than muscular strength, making it effective even against significantly stronger opponents who have established a deep, tight body lock.\n\nSuccess depends heavily on timing and hip coordination with arm movement. The optimal window opens when the opponent adjusts their grip, shifts weight for an attack, or transitions between throwing attempts. Chaining multiple pummel entries together before the opponent can re-establish control is essential, as single isolated attempts are easily countered by experienced grapplers who simply re-lock and tighten their connection.",
   "conditions": [
     "Opponent has established body lock with locked hands around your torso",

@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Closed Guard/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Crackhead Control/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Posture Recovery to Closed Guard is a fundamental defensive transition from turtle bottom positions, particularly from the Crackhead Control bottom perspective developed in the 10th Planet system. This technique represents the systematic approach to converting a disadvantageous turtle position into a neutral or advantageous closed guard position where offensive options become available.\n\nThe transition requires precise timing and mechanical understanding of how to create the space necessary for hip insertion while preventing the top player from advancing to back control. Unlike simple guard recovery attempts that rely on explosive movement alone, this technique emphasizes controlled posture changes that set up proper hip positioning before committing to the guard recovery.\n\nStrategically, this transition is essential because it transforms a position where you face constant back attack threats into one where you control distance and have access to sweeps, submissions, and positional improvements. The key insight is that posture recovery precedes guard recovery - attempting to close guard without first establishing proper spinal alignment and hip positioning leads to failed attempts and often accelerates back exposure.",
   "conditions": [
     "Crackhead Control bottom position with defensive posture still intact",

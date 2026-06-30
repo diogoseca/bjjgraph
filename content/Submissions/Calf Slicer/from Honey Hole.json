@@ -18,7 +18,10 @@
   "target_area": "Calf muscle and Achilles tendon",
   "starting_position": "Honey Hole",
   "from_position": "Honey Hole/Top",
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "The calf slicer from Honey Hole exploits the existing inside leg triangle configuration to attack the opponent's calf muscle and posterior lower leg through compression. Unlike the primary heel hook attacks available from this dominant leg entanglement, the calf slicer targets soft tissue by folding the opponent's foot toward their buttock while your shin acts as a fulcrum across the back of their knee joint. The transition from heel hook hunting to calf slicer requires only a grip change from the heel to the foot, making it a natural secondary attack when the opponent successfully hides their heel.\n\nThis submission serves as a complementary weapon within the Honey Hole submission chain, typically deployed when the opponent defends heel hook attempts by tucking their heel deep or maintaining strong wrist control against your breaking grip. The inside leg triangle already provides the necessary fulcrum structure positioned across the back of the opponent's knee. By securing the opponent's foot and driving it toward their glute while extending your hips forward, you generate intense compression on the gastrocnemius muscle, soleus, and Achilles tendon simultaneously.\n\nStrategically, the calf slicer adds a compression dimension to the rotational attacks available from Honey Hole, forcing defenders to address threats across multiple planes of movement. It creates compound dilemmas that make the position increasingly difficult to escape. The technique specifically punishes the exact foot positioning opponents adopt to protect their heel from hook attacks, turning their primary defensive posture into a vulnerability that feeds directly into the compression finish.",
   "safety_considerations": {
     "injury_risks": [
@@ -109,17 +112,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Honey Hole/Top",
-      "probability": 32,
+      "probability": {
+        "gi": 32,
+        "nogi": 32
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 18,
+      "probability": {
+        "gi": 18,
+        "nogi": 18
+      },
       "result": "counter"
     }
   ],

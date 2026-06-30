@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Open Guard/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Lapel Guard/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "De La Riva Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "Distance Creation to Reset represents a tactical retreat strategy when facing complex lapel guard configurations that resist direct passing solutions. Rather than expending significant energy fighting through entangled lapel wraps, this technique prioritizes disengaging cleanly to reset the exchange from a neutral standing position.\n\nThe strategic value of this transition lies in recognizing when continued engagement yields diminishing returns. Against sophisticated lapel players who have established ringworm configurations or multiple lapel wraps, the energy cost of direct clearing often exceeds the benefit. Creating distance allows you to reset without conceding points while preserving grip endurance for subsequent passing attempts.\n\nThis approach requires precise timing and grip sequencing. Premature disengagement exposes you to sweeps and back takes, while delayed attempts face increasingly complex lapel entanglements. The key is identifying the optimal window—when you've neutralized immediate threats but before the bottom player deepens their configuration. Executed properly, distance creation transforms a losing positional battle into a neutral restart where your passing skills can be applied fresh.",
   "related_content": [
     {

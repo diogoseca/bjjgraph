@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Armbar Control/Top",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Clamp Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "summary": "Armbar from Clamp Guard converts the shin-on-bicep arm isolation of clamp guard into a finishing armbar by swinging the free leg over the opponent's head while retaining wrist control, yielding one of the highest-percentage open-guard submission entries.",
   "overview": "The armbar from clamp guard exploits the pre-existing arm isolation that defines the clamp position. Because the shin-on-bicep control already pins the opponent's arm between your legs, the transition to armbar requires extending the existing control mechanism rather than building isolation from scratch. This makes the armbar from clamp guard one of the highest-percentage submission setups available from any open guard variation, as the most difficult component of any armbar attack — separating the arm from the body — has already been accomplished by the guard itself.\n\nThe entry works by converting the bilateral leg clamp into a unilateral armbar configuration. The bottom player swings their outside leg over the opponent's head while maintaining shin pressure on the trapped bicep with the inside leg, creating the classic armbar control position where hips are perpendicular to the opponent's shoulder. The critical mechanical detail is controlling the wrist throughout the transition — the moment between releasing the clamp and establishing the leg-over-head armbar position is when the opponent has their best extraction opportunity.\n\nStrategically, the armbar from clamp guard functions as the primary submission threat within the clamp system. The mere possibility of this attack forces the top player into desperate extraction attempts, which create openings for triangle and omoplata entries. The opponent cannot defend all three submissions simultaneously, and each defensive reaction feeds directly into an alternative attack path. When the opponent pulls their arm straight back, the armbar becomes highest percentage. When they circle outward, the triangle opens. When they drive forward, sweeps become available. This trilemma is what makes the clamp guard armbar the centerpiece of the system.",
   "conditions": [

@@ -15,26 +15,41 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "success"
     },
     {
       "to": "Standing Guard/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Takedown from Standing Guard is the top player's primary method for bringing a standing opponent to the ground while securing a dominant passing position. Unlike guard pull approaches that concede top position voluntarily, executing a takedown from the standing guard exchange establishes immediate positional superiority and scores two points in competition. The technique encompasses various wrestling-based entries—single leg, double leg, body lock, and trip variations—adapted for the BJJ context where grip fighting, submission threats, and guard pull timing create unique tactical considerations absent from pure wrestling exchanges.\n\nThe standing guard exchange provides specific grip configurations that must be strategically established before initiating the takedown sequence. Timing the entry to coincide with the opponent's weight distribution shifts or grip transitions creates the highest-percentage windows for successful penetration. The level change must be explosive yet controlled, with hip position dropping below the opponent's center of gravity while maintaining chest posture that prevents guillotine and front headlock entries during the shot.\n\nSuccess requires integrating wrestling fundamentals with BJJ-specific tactical awareness: recognizing when the opponent loads weight forward (susceptible to snap-downs and go-behinds), when they retreat (susceptible to level-change entries), and when they maintain static balance (requiring combination attacks to create necessary reactions). The finishing mechanics differ from pure wrestling because the bottom player's guard retention abilities mean many successful takedowns land in half guard rather than side control, making the ability to immediately transition to passing from the landing position an essential extension of the takedown itself.",
   "conditions": [
     "Both practitioners standing in upright postures within grip fighting range",

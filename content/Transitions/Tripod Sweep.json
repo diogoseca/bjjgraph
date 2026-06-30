@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Standing Position/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Spider Guard/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Spider Guard/Top",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Tripod Sweep is a fundamental open guard technique that creates a mechanical advantage through angles and off-balancing. From Spider Guard, the practitioner establishes a three-point base (two feet and one hand on the opponent) to create an unstable platform, forcing the opponent to react and creating sweep opportunities. This technique is particularly effective against opponents attempting to maintain distance and posture in the guard, as it exploits their upright stance and converts their weight distribution into a sweeping motion. The name 'tripod' refers to the three points of contact that control the opponent's base while simultaneously removing one of their legs from the equation. This sweep is a cornerstone of modern Spider Guard systems and provides entry points into multiple dominant positions including mount, knee on belly, or standing control. The tripod structure allows for dynamic transitions and combinations, making it an essential technique for competitors at all levels who wish to develop an active, attacking guard game.",
   "related_content": [
     {

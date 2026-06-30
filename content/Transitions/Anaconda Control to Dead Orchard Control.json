@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Dead Orchard Control/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Anaconda Control/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Turtle/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "overview": "The Transition to Dead Orchard Control converts a standard anaconda grip into an extended-duration control position that systematically drains the opponent's defensive resources before finishing. Where a standard anaconda attack prioritizes the immediate roll-through and choke, this transition deliberately slows the sequence to establish deeper grip penetration, refined shoulder pressure angles, and hip positioning that eliminates the opponent's ability to rebuild base or create escape angles. The transition occurs entirely from top position and requires the attacker to already hold a secure anaconda grip with chest pressure established.\n\nStrategically, this transition represents a conscious decision to trade immediate finishing opportunity for positional superiority. The practitioner recognizes that the opponent's defensive structure is still intact enough to survive a direct anaconda finish, so rather than burning energy on a low-percentage squeeze, they invest in grip adjustments and weight redistribution that create the dead orchard configuration. The resulting position offers higher submission completion rates, multiple chain attack options, and sustainable energy expenditure that favors the attacker.\n\nThe transition is particularly valuable against opponents with strong neck defense or experienced anaconda escape sequences. By shifting from an immediate-finish mentality to a patient-control framework, the attacker removes the defender's primary survival strategy of weathering the initial squeeze. The dead orchard configuration instead creates cumulative pressure that compounds over time, eventually breaking defensive grips and breathing patterns that would otherwise survive a conventional anaconda attempt.",
   "variants_and_adaptations": [
     {

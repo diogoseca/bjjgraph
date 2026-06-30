@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Butterfly Hook Control/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Among pressure-passing tools, the Butterfly Smash earns its place by solving one of grappling's hardest problems—how to neutralize an active, elevation-based guard without surrendering your base to a sweep. Rather than fighting the hooks head-on, it attacks the structural weakness that every butterfly hook shares: vulnerability to direct downward compression once the bottom player's upper-body connections and posture are controlled. Collapsing one hook to the mat halves the guard's offensive output and delivers the top player into a controllable Half Guard Top, where systematic passing becomes available.\n\nThe smash operates on a straightforward mechanical principle: butterfly hooks generate offensive power through elevation and angle creation, but they are vulnerable to direct compression when the top player drives weight diagonally through one side while maintaining crossface or collar control. By pinning one hook to the mat with the shin and knee, the top player eliminates half of the guard's offensive capability and creates a clear passing pathway into half guard, where systematic pressure passing sequences become available.\n\nStrategic integration of the butterfly smash into a broader passing system creates a powerful dilemma for the guard player. If they sit up aggressively to threaten sweeps, they expose themselves to crossface and smash pressure. If they lie back to maintain distance, their hooks lose offensive power and become easier to collapse. This tension makes the butterfly smash an essential tool for any top player facing butterfly-based guards, serving as the primary mechanism for converting a dynamic open guard into a more controllable half guard passing situation.",
   "variants_and_adaptations": [
     {

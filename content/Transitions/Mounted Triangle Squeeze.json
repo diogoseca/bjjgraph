@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Mounted Triangle/Top",
-      "probability": 70,
+      "probability": {
+        "gi": 70,
+        "nogi": 70
+      },
       "result": "success"
     },
     {
       "to": "Mounted Triangle/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Top",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Within the mounted triangle attacking sequence, the squeeze is the make-or-break consolidation phase that separates practitioners who reliably finish from those who lose the position chasing a premature choke. Rather than a discrete positional change, the squeeze represents the systematic tightening of the triangle configuration through coordinated leg contraction, angle adjustment, and posture breaking that transforms a loose triangle hold into a locked finishing position.\n\nThe technique bridges the gap between triangle establishment and submission finish. Many practitioners lose mounted triangles because they rush to finish before properly consolidating the squeeze mechanics. The squeeze phase involves pulling the opponent's head toward the trapped shoulder, driving the cutting knee across the neck, and contracting the figure-four lock while maintaining sufficient mount base to prevent escape. Gravity provides a significant mechanical advantage over guard-based triangle squeezes, as body weight drives the opponent's own shoulder into the carotid artery.\n\nStrategically, the mounted triangle squeeze creates a compounding pressure scenario. Each incremental tightening reduces the defender's available space for frames and breathing, accelerating fatigue while preserving the attacker's energy. Skilled practitioners treat the squeeze as a deliberate process rather than a single explosive effort, methodically closing every gap until the finish becomes inevitable. The squeeze also serves as a diagnostic tool, revealing whether the triangle angle is correct and whether the opponent's defensive structure has been sufficiently compromised to attempt the final choke.",
   "conditions": [
     "Mounted triangle position is established with leg over shoulder and under neck",

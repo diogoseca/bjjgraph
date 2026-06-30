@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Side Control/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Shoulder of Justice/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "failure"
     },
     {
       "to": "Kimura Trap/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "summary": "Frame from Shoulder of Justice is a defensive transition in which the bottom player inserts skeletal forearm wedges to disrupt the concentrated 45-degree jaw pressure, degrading the position into standard side control bottom where broader escape options open up.",
   "overview": "Within the side control escape hierarchy, this technique deliberately aims lower than most escapes: rather than chasing immediate guard recovery, it solves only the specific problem that makes the Shoulder of Justice uniquely punishing — the concentrated jaw pressure. By degrading the top player's shoulder-pressure angle and hip connection just enough to revert to conventional side control, the bottom player trades a single hard problem for a familiar one, where a broad range of standard escapes becomes available. Unlike full escape techniques that demand knee insertion and significant space, this frame requires only that the precise pressure alignment be disturbed.\n\nThe technique exploits the fact that the Shoulder of Justice depends on a precise pressure vector through the shoulder blade into the jaw at approximately 45 degrees toward the far shoulder. By inserting forearm wedges that redirect this vector even slightly, the bottom player can collapse the pressure advantage that distinguishes Shoulder of Justice from regular side control. The critical distinction from other escapes is that this technique does not require creating enough space for knee insertion or guard recovery. Instead, it requires disrupting the specific alignment that makes the Shoulder of Justice so oppressive.\n\nStrategically, this technique serves as the first link in an escape chain. Reaching standard side control bottom removes the jaw pressure dilemma and allows the practitioner to employ the full spectrum of side control escapes, including elbow escapes, hip escapes, ghost escapes, and underhook recoveries. The framing technique is particularly valuable for practitioners who struggle with the psychological pressure of the jaw attack and need to decompose the escape process into more manageable steps.",
   "variants_and_adaptations": [

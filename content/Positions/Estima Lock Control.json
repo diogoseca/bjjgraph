@@ -274,23 +274,38 @@
     "transitions": [
       {
         "transition": "Estima Lock from Estima Lock Control",
-        "attempt_probability": 41
+        "attempt_probability": {
+          "gi": 41,
+          "nogi": 41
+        }
       },
       {
         "transition": "Estima Lock to Saddle",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 12
+        }
       },
       {
         "transition": "Estima Lock to Ashi Garami",
-        "attempt_probability": 17
+        "attempt_probability": {
+          "gi": 17,
+          "nogi": 17
+        }
       },
       {
         "transition": "Kneebar from Estima Lock",
-        "attempt_probability": 11
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 11
+        }
       },
       {
         "transition": "Toe Hold from Estima Lock",
-        "attempt_probability": 19
+        "attempt_probability": {
+          "gi": 19,
+          "nogi": 19
+        }
       }
     ],
     "flashcards": [
@@ -542,31 +557,52 @@
     "transitions": [
       {
         "transition": "Ashi Garami Escape",
-        "attempt_probability": 23
+        "attempt_probability": {
+          "gi": 23,
+          "nogi": 23
+        }
       },
       {
         "transition": "Leg Extraction",
-        "attempt_probability": 41
+        "attempt_probability": {
+          "gi": 41,
+          "nogi": 41
+        }
       },
       {
         "transition": "Angle Change Escape",
-        "attempt_probability": 13
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 13
+        }
       },
       {
         "transition": "Standing Escape",
-        "attempt_probability": 13
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 13
+        }
       },
       {
         "transition": "50-50 Entry",
-        "attempt_probability": 8
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 8
+        }
       },
       {
         "transition": "Estima Lock Counter Roll",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 1
+        }
       },
       {
         "transition": "Counter from Estima Lock",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 1
+        }
       }
     ],
     "flashcards": [

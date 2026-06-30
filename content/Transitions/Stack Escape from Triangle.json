@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Top",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Triangle Control/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Omoplata Control/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "The Stack Escape from Triangle is a fundamental defensive technique employed by the top player caught in an opponent's triangle choke. Rather than attempting to create lateral separation or extract the head, the stack escape uses forward driving pressure to fold the opponent's body onto their own shoulders and neck, collapsing the triangle's choking geometry by eliminating the perpendicular angle required for effective arterial compression. The technique exploits a critical vulnerability in the triangle position: when the bottom player's hips are driven above their shoulders, their legs lose the ability to extend and generate squeezing force, transforming the position from an active choking threat into a structurally weakened configuration.\n\nStrategically, the stack escape serves as both a primary escape method and a forcing function that creates predictable defensive reactions from the triangle player. The most common counter is the omoplata transition, where the bottom player releases the triangle lock and pivots to capture the trapped arm at the shoulder. Experienced practitioners recognize this exchange and prepare for the omoplata as a natural continuation of the stack sequence rather than a surprise counter. The technique rewards patience, proper grip establishment on the opponent's hips or pants, and controlled forward pressure over explosive or panicked movements that waste energy and create defensive openings.\n\nThe biomechanics of the stack work by changing the force vector of the triangle from horizontal compression to vertical loading. As the opponent's body folds, their legs transition from squeezing laterally across the neck to pressing vertically, which dramatically reduces arterial compression efficiency. The top player then uses this window of reduced choking pressure to systematically clear the triangle lock and transition to a passing position, most commonly landing in half guard top where the escape momentum can be converted into a guard pass.",
   "conditions": [
     "Caught in opponent's triangle choke from top position with posture broken",

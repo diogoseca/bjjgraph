@@ -18,7 +18,10 @@
   "target_area": "Shoulder joint, rotator cuff, and shoulder capsule",
   "starting_position": "High Mount",
   "from_position": "High Mount/Top",
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "overview": "The Kimura from High Mount exploits the elevated knee positioning to trap and isolate the defender's arm with a figure-four grip, then rotate the shoulder joint past its natural range of motion. High mount provides distinct advantages over standard mount or side control Kimura attacks: the top player's weight compresses the defender's upper chest, severely limiting their ability to straighten the trapped arm or roll to escape. The defender's elbows are naturally pushed higher by the attacker's knees, making wrist capture significantly easier than from lower mount variations.\n\nThe mechanics differ from other Kimura positions because the attacker works from directly above rather than beside the opponent. This top-down angle allows gravity to assist the finishing rotation and makes the common arm-straightening defense far less effective. The defender cannot generate sufficient leverage to extend their elbow when pinned beneath the attacker's elevated hips. The attacker can also switch seamlessly between Kimura and Americana based on how the defender positions their hand, creating a two-way shoulder lock dilemma.\n\nIn competition, the Kimura from High Mount frequently appears as part of submission chains from the mount. When the defender protects their neck from collar chokes or hides their arms from armbar setups, their bent-arm defensive posture exposes the wrist for Kimura grip capture. The Kimura threat forces arm extension, which opens armbar and triangle opportunities, making it a cornerstone technique in systematic mount attack sequences.",
   "safety_considerations": {
     "injury_risks": [
@@ -103,17 +106,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 62,
+      "probability": {
+        "gi": 62,
+        "nogi": 62
+      },
       "result": "success"
     },
     {
       "to": "High Mount/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 13,
+      "probability": {
+        "gi": 13,
+        "nogi": 13
+      },
       "result": "counter"
     }
   ],

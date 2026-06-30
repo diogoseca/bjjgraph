@@ -19,7 +19,10 @@
   "target_area": "Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule)",
   "starting_position": "Inside Ashi-Garami",
   "from_position": "Inside Ashi-Garami/Top",
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "overview": "Inside ashi-garami offers one of the most reliable pathways to the kneebar because the opponent's own escape attempts hand you the finish: when they extend their trapped leg to create distance or scramble to stand, they straighten the knee and expose the joint to a hyperextension attack. The existing control over their lower leg, with the inside leg across the near hip and the outside leg hooking behind the knee, gives you the structural foundation to transition into the kneebar without ever releasing the entanglement. Because the breaking force comes from driving extension against the knee's natural bending direction rather than from grip strength, the finish is both powerful and energy-efficient once your hips are seated over the knee line.\n\nUnlike kneebars attempted from other entanglements, the inside ashi-garami entry allows the attacker to maintain continuous leg control throughout the entire transition. The attacker pivots their hips over the opponent's knee while keeping the foot trapped against their torso, creating a fulcrum point at the knee joint. This configuration generates tremendous hyperextension pressure through hip extension rather than arm strength, making the finish both powerful and energy-efficient. The inside leg position across the opponent's hip serves double duty: controlling distance during the ashi position and then becoming the primary wedge that prevents the opponent from retracting their knee during kneebar application.\n\nCompetition data shows the kneebar from inside ashi-garami succeeds at approximately 60% when properly secured, with the primary defensive response being foot extraction before full hip engagement. Training this technique requires strict adherence to progressive pressure application and immediate release upon tap, as the hyperextension mechanism can damage the posterior cruciate ligament and surrounding knee structures with minimal warning to the defender.",
   "safety_considerations": {
     "injury_risks": [
@@ -102,17 +105,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Inside Ashi-Garami/Top",
-      "probability": 26,
+      "probability": {
+        "gi": 26,
+        "nogi": 26
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 14,
+      "probability": {
+        "gi": 14,
+        "nogi": 14
+      },
       "result": "counter"
     }
   ],

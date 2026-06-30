@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Dogfight Position/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Knee Shield Half Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Flattened Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Underhook from Knee Shield is one of the most fundamental and high-percentage transitions in the half guard system, representing the critical bridge between defensive retention and offensive initiative. From the knee shield half guard bottom position, the practitioner removes the knee shield frame and simultaneously drives their near-side arm deep under the opponent's armpit, establishing the underhook that serves as the primary offensive weapon in Dogfight and subsequent sweeping sequences. The timing of this exchange defines the transition's success—the bottom player deliberately trades the safety of the defensive knee shield frame for aggressive forward pressure and the ability to come to their knees.\n\nThis transition occupies a pivotal role in the half guard hierarchy. The knee shield provides excellent defensive security but limited offensive output beyond basic sweeps and retention. By committing to the underhook, the bottom player shifts from a reactive, frame-based game into an aggressive, forward-driving position that threatens sweeps, back takes, and continuous position improvement. Initiating too early against a settled opponent invites the crossface and whizzer that flatten the position, while waiting too long allows the top player to establish passing grips that close the underhook path entirely.\n\nSuccess requires precise coordination between removing the knee shield, swimming for the underhook, and immediately driving forward to elevate into the Dogfight. The transition must be executed as one fluid motion rather than sequential steps, because any pause between removing the frame and establishing the underhook creates a window for the top player to collapse the position into flattened half guard. Elite practitioners treat this as a single-beat movement triggered by the opponent's weight shift or grip adjustment, converting defensive energy into offensive momentum in one decisive action.",
   "conditions": [
     "Bottom player has established knee shield half guard with active bottom leg hook controlling opponent's far leg",

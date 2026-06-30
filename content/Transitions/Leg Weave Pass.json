@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "overview": "The Leg Weave Pass is a highly effective pressure passing technique used to control and pass the half guard from the top position. This technique involves threading your leg between the opponent's legs while maintaining heavy top pressure, creating a configuration that severely limits the bottom player's mobility and defensive options. The leg weave creates a unique control position that combines elements of smash passing with positional control, making it particularly effective against modern half guard retention strategies.\n\nThe technique is characterized by inserting your inside leg (the leg on the same side as the opponent's lockdown or half guard) through and over the opponent's bottom leg, creating a weaving pattern that traps their legs and prevents hip movement. This passing method has become increasingly popular in modern competition BJJ due to its effectiveness against knee shield and deep half guard variations.\n\nThe leg weave pass represents a systematic approach to passing that prioritizes control and pressure over speed, making it an essential technique for practitioners who favor a methodical, pressure-based passing game. The pass chains naturally with knee slice and smash pass options, creating a multi-threat system from half guard top that forces the bottom player into increasingly compromised defensive positions.",
   "related_content": [
     {

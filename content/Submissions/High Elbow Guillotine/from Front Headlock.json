@@ -19,7 +19,10 @@
   "target_area": "Carotid arteries and trachea",
   "starting_position": "Front Headlock",
   "from_position": "Front Headlock/Top",
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The High Elbow Guillotine from Front Headlock combines the dominant head control of the front headlock with the devastating finishing mechanics of the high elbow guillotine. This variation capitalizes on the attacker's ability to snap down an opponent, secure a chin strap or under-chin grip, and transition to an elevated elbow angle that bypasses traditional chin-tuck defenses. The front headlock provides the initial control platform, while pulling guard into the Hindulotine position creates the perpendicular hip angle necessary for the high elbow finish.\n\nStrategically, this submission thrives in no-gi grappling where collar grips are unavailable and head-and-arm control dominates the meta. The front headlock entry point occurs frequently during scrambles, failed takedown defenses, and turtle attacks, making this a high-frequency opportunity submission. The elevated elbow mechanic creates bilateral carotid compression from a steep downward angle, producing rapid blood flow restriction that is difficult to defend once fully locked. The Hindulotine hip angle amplifies this pressure through rotational torque, distinguishing this finish from standard guillotine variations.\n\nThe submission's effectiveness at high levels stems from its two-phase attack structure: the initial front headlock threatens multiple submissions, forcing defensive decisions that create openings for the high elbow transition. Opponents must defend guillotines, anacondas, darces, and back takes simultaneously, and the high elbow guillotine exploits the specific defensive postures these threats create.",
   "safety_considerations": {
     "injury_risks": [
@@ -111,17 +114,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "Front Headlock/Top",
-      "probability": 27,
+      "probability": {
+        "gi": 27,
+        "nogi": 27
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],

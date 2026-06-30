@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Reverse Half Guard/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Passing the Reverse Half Guard is a critical transitional skill that capitalizes on the angular advantage established when the top player circles behind the bottom player's half guard retention. The passer has already disrupted traditional defensive structures by achieving the reverse angle, and now must systematically extract the trapped leg while maintaining constant pressure to prevent guard recovery. This technique represents the completion phase of backstep passing sequences and scramble-based guard passing, converting a transitional advantage into dominant side control.\n\nThe strategic importance of this pass lies in its timing-dependent nature. Reverse Half Guard Top is inherently transient—staying static allows the bottom player to recover defensive frames, initiate sweeps, or transition to more favorable guard variations like deep half or standard half guard. The passer must recognize the reverse half guard as a decision point requiring immediate action: either complete the pass to side control or pursue back control. This pass addresses the former pathway, employing a systematic approach of chest pressure directed toward the bottom player's hips, far hip control, and methodical leg extraction through hip switching mechanics.\n\nSuccessful execution demands reading the bottom player's defensive reactions. When they flatten and defend the back take, the pass becomes the highest-percentage option. The technique chains naturally with other reverse half guard attacks—threatening the back take forces defensive reactions that open the pass, while threatening the pass forces rotations that expose the back. This dilemma-based approach makes the complete reverse half guard passing system greater than the sum of its individual techniques.",
   "conditions": [
     "Top player has achieved reverse half guard position with one leg trapped from behind",

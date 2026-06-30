@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "De La Riva Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Double Sleeve Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Double Sleeve to De La Riva transition is a fundamental guard flow that converts bilateral sleeve control into one of the most dynamic open guard systems in modern BJJ. This transition occurs when the top player steps one leg forward or shifts their weight laterally while you hold both sleeves, creating the opening to thread your outside leg around their lead leg and establish the De La Riva hook. The key mechanical insight is that double sleeve control already disrupts the opponent's ability to defend their lead leg, making the DLR hook insertion significantly easier than attempting it from a neutral open guard position.\n\nStrategically, this transition represents the evolution from a controlling but relatively static guard into an attacking powerhouse. Double Sleeve Guard excels at neutralizing the passer's upper body, but its sweep options are somewhat limited compared to the rich attacking ecosystem available from De La Riva. By converting to DLR, you gain access to berimbolo entries, X-Guard transitions, single leg X sweeps, and direct back takes that simply are not available from bilateral sleeve control. The transition itself creates a moment of vulnerability for the top player as their weight commits to the stepping leg, making it an ideal time to off-balance them.\n\nThe timing window for this transition is created by the opponent's passing attempts. When they step forward to initiate a toreando, knee slice, or pressure pass, their lead leg becomes available for the DLR hook. The critical detail is converting one sleeve grip to an ankle or pants grip on the lead leg while maintaining the far sleeve as a cross grip. This diagonal control system, combining the DLR hook with the cross sleeve grip, forms the foundation of all DLR attacks. Practitioners who master this grip conversion can flow seamlessly between double sleeve and DLR, creating a guard system that adapts to whatever the top player attempts.",
   "conditions": [
     "Opponent steps one leg forward or shifts weight laterally from Double Sleeve Guard top position",

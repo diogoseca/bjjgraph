@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Leg Drag Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "De La Riva Guard/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The leg drag from De La Riva Guard is one of the most effective guard passing techniques in modern BJJ, used extensively at the highest levels of competition. The passer strips or neutralizes the DLR hook, controls the bottom player's legs at the ankle or pants level, and drags one leg across the opponent's body while stepping around to establish dominant hip control. This technique exploits the inherent vulnerability in DLR guard structure—the bottom player's commitment to the hook creates predictable leg positioning that the passer can redirect into a powerful passing angle.\n\nThe technique works by converting the bottom player's offensive guard structure into a passing pathway. When the DLR hook is active, the hooked leg is already partially extended toward the passer, making it available for redirection across the opponent's centerline. By controlling the ankle and pulling the leg diagonally while simultaneously circling the hips to the drag side, the passer bypasses the guard entirely and arrives in leg drag control—a dominant position with direct pathways to side control, back control, and mount.\n\nStrategically, the leg drag from DLR occupies a critical position in passing sequences because it chains naturally with toreando passes, knee slices, and backsteps. When a toreando is blocked, the leg drag is a natural continuation in the opposite direction. When a knee slice is stuffed, redirecting into a leg drag catches the guard player during their defensive transition. This chain-ability within a broader passing system makes the leg drag far more dangerous than it would be as an isolated technique, and understanding its integration with complementary passes is essential for consistent guard passing success.",
   "conditions": [
     "Top player is in De La Riva Guard facing an active DLR hook",

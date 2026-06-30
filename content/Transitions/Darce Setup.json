@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Darce Control/Top",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Front Headlock/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Front Headlock/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 52,
+  "success_rate": {
+    "gi": 52,
+    "nogi": 52
+  },
   "summary": "The Darce Setup is the transition from front headlock to Darce Control, threading the choking arm deep under the opponent's near armpit and across their neck while trapping the far arm to build the figure-four choke configuration.",
   "overview": "The Darce Setup is a crucial transitional technique that transforms front headlock control into one of Brazilian Jiu-Jitsu's most effective submission positions. Named after Joe D'Arce, this setup exploits opponent posture and creates the distinctive arm-in configuration that defines the Darce choke system. The technique is particularly effective when opponents attempt to defend turtle position or when transitioning from scrambles, making it an essential weapon for modern grapplers. Understanding proper hand positioning, angle creation, and body weight distribution during the setup phase dramatically increases finishing rates.\n\nThe Darce setup requires precise timing and technical execution rather than pure strength, making it accessible to practitioners of all sizes when properly understood. This technique serves as a gateway to multiple submission opportunities including the Darce choke, Anaconda choke, and various transitions to back control or mount positions. The setup phase is where most attempts succeed or fail — a shallow threading arm or incorrect angle dooms the finish before it begins. Mastering the mechanical details of the setup converts front headlock from a holding position into a genuine submission threat that forces opponents into increasingly desperate defensive reactions.",
   "related_content": [

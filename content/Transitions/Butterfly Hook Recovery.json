@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Butterfly Guard/Bottom",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Double Unders/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "Butterfly Hook Recovery is a critical defensive transition executed when trapped in the bottom position of double unders pressure passing. The technique focuses on creating just enough space to insert one or both butterfly hooks between yourself and the passer, fundamentally changing the dynamic from a crushing pressure pass situation back to an active guard position. This recovery is most effective during momentary pauses in the opponent's forward pressure, grip adjustments, or when they shift their weight to advance the pass.\n\nThe strategic importance of this technique cannot be overstated for bottom players facing aggressive pressure passers. Unlike escapes that concede position (such as granby rolls to turtle or accepting deep half guard), butterfly hook recovery aims to fully restore an offensive guard position. When executed correctly, it not only stops the pass but immediately threatens sweeps and off-balancing attacks. The butterfly guard position it recovers to is one of the most dynamic in jiu-jitsu, offering elevation sweeps, arm drags, and guillotine entries.\n\nTiming is the critical factor that separates successful butterfly hook recoveries from failed attempts that result in immediate pass completion. The window for insertion exists when the passer's weight shifts forward, backward, or laterally - any moment when their pressure is not driving directly into your hips. Advanced practitioners develop the sensitivity to feel these micro-adjustments and insert hooks almost reflexively, while beginners must consciously look for larger, more obvious opportunities.",
   "related_content": [
     {

@@ -15,7 +15,10 @@
   "submission_type": "Shoulder Lock",
   "target_area": "Shoulder joint and rotator cuff",
   "starting_position": "Closed Guard",
-  "success_rate": 48,
+  "success_rate": {
+    "gi": 48,
+    "nogi": 48
+  },
   "overview": "Emerging from the rubber guard and omoplata systems of modern no-gi grappling, the Monoplata earned its place as the answer to the strong-postured opponent who reliably defends the conventional omoplata roll. This submission attacks the opponent's shoulder joint by isolating their arm while using your legs to create a figure-four lock around their trapped limb. It is particularly effective when transitioning from failed omoplata attempts or when the opponent attempts to posture up aggressively from guard. The Monoplata creates severe pressure on the shoulder capsule and rotator cuff, making it a high-percentage finish once proper control is established. Unlike the traditional omoplata which rolls the opponent forward, the Monoplata maintains a more static control position while applying rotational pressure to the shoulder joint. This submission requires excellent hip mobility, precise leg positioning, and a deep understanding of shoulder mechanics to execute safely and effectively. It chains seamlessly with triangles, armbars, and back takes, rewarding practitioners who treat it as one node in an integrated guard-attack system rather than an isolated trick.",
   "safety_considerations": {
     "injury_risks": [
@@ -67,17 +70,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],

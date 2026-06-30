@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Matrix/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Punishing a failed back-take rotation is one of the clearest markers of a mature top game, and this transition is the mechanism for doing exactly that. When the top player has blocked the bottom player's rotational attack, a critical window opens where the defender's compromised structure can be exploited to advance position rather than simply resetting to a neutral engagement.\n\nThis transition capitalizes on the mechanical reality that a halted Matrix rotation leaves the bottom player in a vulnerable state. Their base is disrupted, their grips are weakened or broken, and their body alignment is compromised from the arrested rotational momentum. The top player uses this momentary disadvantage to drive the opponent flat, establish crossface and hip control, and complete the consolidation to side control before the bottom player can reorganize their defensive structure.\n\nStrategically, this transition rewards patient, methodical Matrix defense. Rather than treating a stuffed back take as merely a defensive success, the top player who chains defensive blocking into offensive positional advancement gains a substantial reward for their awareness. The technique demands precise timing—acting too early before the rotation is fully neutralized risks being caught in a secondary rotation attempt, while waiting too long allows the bottom player to reset their grips and defensive frames for another Matrix entry. The transition exemplifies the principle that defense and offense in BJJ are not separate phases but continuous, interconnected aspects of positional grappling.",
   "conditions": [
     "Top player has successfully blocked or halted the opponent's Matrix back take rotation",

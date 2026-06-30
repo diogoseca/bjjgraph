@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Deep Half Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Buggy Choke/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Roll to Deep Half Guard represents a specialized defensive transition from the buggy choke bottom position, utilizing rotational momentum to escape the choking pressure while establishing an advantageous guard position. This technique exploits the structural weakness inherent in the buggy choke grip configuration—when the attacker commits both arms to the choke, their base becomes compromised and vulnerable to directional rolling attacks.\n\nUnlike sitting to half guard or granby rolling to closed guard, the deep half entry creates immediate offensive opportunities upon completion. The bottom player transitions from pure defense to a position with sweeping potential and leg entanglement options. The key mechanical insight is that the rolling motion must travel toward the opponent's trapped leg rather than away from pressure, using the choke grip structure against the attacker.\n\nThis transition is particularly valuable when the buggy choke grips are established but body pressure hasn't fully consolidated. The attacker's commitment to finishing the choke creates windows for explosive rotational escapes that would not exist against a more positionally-focused opponent. Mastering this technique adds a counterattacking dimension to buggy choke defense, punishing overly aggressive finishing attempts.",
   "conditions": [
     "Opponent has established buggy choke grips but finishing pressure is not yet fully applied",

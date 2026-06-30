@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Standing Position/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Combat Base/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Within a modern passing game, the Stand Up from Combat Base is the gateway between pressure-based kneeling passes and the faster, more mobile standing passing system. The movement unlocks the entire arsenal of standing guard passes—Toreando, leg drags, X-passes, and long step passes—that are inaccessible from a kneeling position. The standing posture provides superior leverage for breaking grips, superior mobility for creating passing angles, and the gravitational advantage of fighting from above the opponent's guard structure.\n\nThe critical challenge lies in the transition window—the 1-2 seconds during which the practitioner's base shifts from the stable three-point combat base structure to a two-foot standing position. During this window, the center of gravity rises and the base narrows, creating vulnerability to sweeps, guard closures, and leg entanglements. Skilled guard players specifically train to attack this moment, making execution technique and timing paramount. The safest approach involves loading weight forward through controlling grips before lifting the posted knee, ensuring the opponent bears downward pressure throughout the entire elevation sequence.\n\nThis transition is most effective when the opponent creates distance with their frames or pushes away with their feet on hips. Their defensive action paradoxically provides the space needed to stand safely. Conversely, attempting to stand against a guard player who is actively closing distance with hooks and pulling grips carries significantly higher sweep risk. Reading the opponent's guard engagement level and selecting the appropriate moment is the difference between a clean stand up and a compromised position.",
   "conditions": [
     "Established combat base with one knee posted and opposite foot flat on the mat",

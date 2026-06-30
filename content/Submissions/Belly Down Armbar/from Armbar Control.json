@@ -17,7 +17,10 @@
   "target_area": "Elbow joint hyperextension and ulnar collateral ligament",
   "starting_position": "Armbar Control",
   "from_position": "Armbar Control/Top",
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "summary": "The belly down armbar from armbar control is a prone armbar finish where the attacker rotates face-down over the isolated arm, driving bodyweight and gravity through the elbow to defeat the clasped-hand and stacking defenses that stop the standard supine finish.",
   "overview": "The belly down armbar finish from armbar control is a high-percentage submission completion technique where the attacker transitions from the standard supine armbar position to a prone finishing position. This rotation fundamentally changes the finishing mechanics by channeling the attacker's entire body weight downward through the controlled arm while gravity assists the extension, creating substantially more pressure than the standard hip-bridge finish.\n\nWhen the defender successfully resists the conventional armbar through clasped hands, stacking, or the hitchhiker escape, the belly-down transition exploits a critical defensive gap. Most armbar defenses are designed for the supine position and become ineffective once the attacker achieves prone orientation. The defender's clasped hands, which provide substantial resistance against upward hip extension, offer minimal protection against the downward crushing pressure of the belly-down position.\n\nFrom armbar control specifically, this finish is particularly accessible because the attacker already has established grip control, hip proximity, and leg positioning. The transition requires only rotational movement rather than a complete positional change. Competition grapplers frequently chain the standard armbar attempt with the belly-down transition, creating a two-phase attack that forces the defender to address fundamentally different finishing vectors in rapid succession.",
   "safety_considerations": {
@@ -100,17 +103,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Armbar Control/Top",
-      "probability": 32,
+      "probability": {
+        "gi": 32,
+        "nogi": 32
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 18,
+      "probability": {
+        "gi": 18,
+        "nogi": 18
+      },
       "result": "counter"
     }
   ],

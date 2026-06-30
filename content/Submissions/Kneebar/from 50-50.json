@@ -17,7 +17,10 @@
   "target_area": "Knee joint (hyperextension of knee ligaments)",
   "starting_position": "50-50 Guard",
   "from_position": "50-50 Guard/Top",
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "overview": "The Kneebar from 50-50 Guard is a fundamental leg lock submission that targets the opponent's knee joint through hyperextension. This position creates a powerful mechanical advantage where both practitioners have entangled legs, but the attacking player uses hip extension and proper leg positioning to isolate and attack one of the opponent's legs. The 50-50 position is unique because it offers both offensive and defensive opportunities simultaneously—while you attack your opponent's knee, you must also defend your own.\n\nThe kneebar works by creating a fulcrum across the opponent's knee joint using your hip as the lever point. By controlling the opponent's leg between your legs and securing their foot in your armpit, you create a system where extending your hips applies tremendous pressure to their knee. The beauty of the 50-50 kneebar lies in its positional control—even if the submission attempt fails, you maintain a strong leg entanglement position with multiple attacking options.\n\nThis submission represents a critical component of modern leg lock systems and is particularly effective in no-gi grappling where heel hooks may be restricted. The 50-50 kneebar requires precise technical execution, proper hip alignment, and careful attention to safety protocols to prevent serious knee injuries during training.",
   "safety_considerations": {
     "injury_risks": [
@@ -70,17 +73,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "50-50 Guard/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Inside Ashi-Garami/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],

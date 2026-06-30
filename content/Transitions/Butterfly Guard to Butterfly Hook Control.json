@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Butterfly Hook Control/Bottom",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Butterfly Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 65,
+  "success_rate": {
+    "gi": 65,
+    "nogi": 65
+  },
   "overview": "Transition to Butterfly Hook Control is the fundamental consolidation movement where the bottom player converts a general butterfly guard configuration into a locked, offensive butterfly hook control position with deep hooks, upright posture, and dominant upper body grips. While butterfly guard provides a general framework with hooks inserted, butterfly hook control represents the refined, combat-ready state where every element is optimized for sweeping power and transition capability.\n\nThe distinction matters because many practitioners sit in butterfly guard with shallow hooks, poor posture, or disconnected grips, which allows the top player time to establish passing controls. The transition to full butterfly hook control involves deepening hooks to the crease of the opponent's hips, establishing an upright seated posture with active core engagement, and securing upper body connections through collar grips, underhooks, or wrist control that link directly to the hook elevation system. This consolidation transforms a neutral guard retention position into a loaded offensive platform.\n\nStrategically, this transition is most critical after initial guard recovery or when re-engaging after a scramble. The window to establish full butterfly hook control is narrow—if the top player recognizes incomplete hooks or poor posture, they will attack with pressure passes or smash attempts before the bottom player can consolidate. Timing the consolidation with the opponent's weight shifts, grip breaks, or positional adjustments creates the opening needed to lock in deep hooks and establish the seated posture that makes butterfly hook control one of the most dangerous offensive guards in modern grappling.",
   "variants_and_adaptations": [
     {

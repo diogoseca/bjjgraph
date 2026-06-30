@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "Hindulotine/Bottom",
-      "probability": 27,
+      "probability": {
+        "gi": 27,
+        "nogi": 27
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Butterfly Sweep with Guillotine represents one of the most powerful combinations in bottom guard attacking, merging a high-percentage sweep with continuous submission pressure. This technique exploits a fundamental defensive dilemma: when an opponent drives forward to relieve guillotine pressure, they provide the exact energy needed for a butterfly sweep. The sweep uses their forward momentum against them while the guillotine grip maintains constant threat throughout the transition.\n\nFrom the Hindulotine bottom position, the practitioner establishes butterfly hooks inside the opponent's thighs while maintaining the guillotine grip. When the opponent attempts to pressure forward to flatten the bottom player and neutralize the choke, the butterfly hooks catch their weight. A coordinated hip elevation and directional pull on the neck redirects their forward momentum into a sweeping arc, landing the attacker in mount with the guillotine still locked.\n\nThe strategic brilliance of this combination lies in its offensive layering. The opponent faces a no-win scenario: defending the sweep by posting wide opens the guillotine finish, while driving forward to escape the choke enables the sweep. This dilemma-based approach represents modern submission grappling at its highest level, where every defensive action opens a new offensive opportunity.",
   "conditions": [
     "Guillotine grip must be established from Hindulotine bottom before attempting sweep",

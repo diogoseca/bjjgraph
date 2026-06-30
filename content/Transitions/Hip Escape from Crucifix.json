@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Turtle/Bottom",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Crucifix/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "The hip escape from crucifix is a fundamental defensive technique for recovering from one of BJJ's most dominant control positions. When trapped in crucifix with both arms compromised—one caught in the opponent's leg triangle and the other controlled by their hands—the hip escape uses the shrimping motion to change the angle of entrapment and create space for arm extraction. The technique prioritizes systematic hip movement over brute strength, exploiting the geometric relationship between hip angle and leg trap tightness.\n\nStrategically, the hip escape targets the weakest link in the crucifix structure: the angle-dependent nature of the leg triangle. By shrimping away from the trapped arm, the bottom player changes the leverage point of the leg trap, creating momentary slack that permits arm withdrawal. This must be combined with proper neck defense throughout, as the escape movement can inadvertently expose the neck to choke attacks if executed carelessly. The timing window opens when the top player commits attention to a submission attempt rather than purely maintaining control.\n\nThe technique serves as a critical survival skill in the crucifix escape hierarchy. While arm recovery and explosive bridging receive more attention, the hip escape offers a methodical, energy-efficient alternative that works even against opponents with strong leg lock configurations. Success depends on timing the hip movement to coincide with moments when the top player transitions between attacks, chaining multiple small shrimps rather than one explosive movement, and immediately converting the extracted arm into a turtle recovery without pause.",
   "conditions": [
     "Bottom player has at least one arm trapped in opponent's leg triangle configuration",

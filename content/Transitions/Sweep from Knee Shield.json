@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Knee Shield Half Guard/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "Within the knee shield half guard system, this sweep is the offensive counterpart to what is too often treated as a purely defensive frame, punishing the top player at the exact moment they commit weight forward to collapse the shield. It capitalizes on the structural advantage that the knee shield provides—maintaining distance while simultaneously serving as a lever point for generating sweeping force. The technique represents the offensive evolution of the knee shield, transforming a primarily defensive frame into a dynamic attacking platform that punishes forward pressure.\n\nThe sweep operates on a push-pull principle that exploits the top player's weight distribution. The knee shield creates an outward push that manages distance and prevents the top player from settling their weight, while the underhook generates an inward pull that breaks their posture and creates rotational momentum. When these opposing forces combine with proper hip angle and timing, the top player cannot maintain equilibrium. The most effective application occurs when the opponent commits weight forward against the knee shield, inadvertently loading the sweep with their own momentum and making the reversal feel almost effortless.\n\nStrategic integration of this sweep within the knee shield game creates a critical dilemma for the top player. If they pressure forward aggressively to collapse the shield, they become vulnerable to the sweep. If they sit back to maintain base, they cannot advance their pass. This offensive-defensive dynamic makes the sweep threat essential for maintaining the overall effectiveness of knee shield half guard, forcing the top player into a reactive decision loop that benefits the bottom player regardless of outcome.",
   "conditions": [
     "Knee shield established with shin across opponent's torso creating active frame",

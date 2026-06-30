@@ -18,7 +18,10 @@
   "target_area": "Carotid arteries (compressed by opponent's own shoulder and attacker's arm)",
   "starting_position": "Shoulder of Justice",
   "from_position": "Shoulder of Justice/Top",
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "summary": "The Arm Triangle from Shoulder of Justice is a head-and-arm blood choke that weaponizes the position's jaw pressure: the crushing shoulder forces the defender's far arm across their own neck, and you trap it to compress both carotids.",
   "overview": "The Arm Triangle from Shoulder of Justice exploits one of the most reliable defensive reactions in side control. When the top player drives their shoulder into the opponent's jaw with crushing pressure, the natural instinct is to bring the far arm across the face to push the shoulder away or shield the jaw. This arm crossing the centerline creates the exact head-and-arm configuration needed for the arm triangle choke.\n\nThe submission works by compressing both carotid arteries simultaneously. The opponent's own trapped shoulder presses into one carotid while the attacker's forearm blade crosses behind the neck to compress the other. From Shoulder of Justice, the entry is particularly effective because the opponent is already flattened, the cross-face control is established, and the intense pressure virtually guarantees the defensive reaction that creates the submission opportunity.\n\nThe finishing sequence involves locking the head-and-arm grip, walking to a perpendicular angle on the trapped-arm side, and applying progressive chest-to-chest compression. The Shoulder of Justice setup provides a significant advantage over other arm triangle entries because the opponent is already under maximum pressure and has limited defensive options before the choke is even initiated.",
   "safety_considerations": {
@@ -104,17 +107,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 62,
+      "probability": {
+        "gi": 62,
+        "nogi": 62
+      },
       "result": "success"
     },
     {
       "to": "Shoulder of Justice/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 13,
+      "probability": {
+        "gi": 13,
+        "nogi": 13
+      },
       "result": "counter"
     }
   ],

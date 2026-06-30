@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Lasso Guard/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Caught in an opponent's lasso guard, most passers instinctively reach to strip the sleeve grip or pull the trapped arm free — exactly the responses that feed the lasso's leverage. The stack pass takes the opposite path, addressing the lasso's mechanical advantage directly by folding the bottom player's hips over their shoulders. This compression eliminates the distance and angle that make the lasso effective, as the bottom player can no longer generate the pushing force through their shin or maintain the pulling tension on the sleeve that creates the lasso's characteristic control.\n\nThe technique follows a systematic progression: first securing control of the non-lasso leg to prevent secondary guard connections, then driving forward to initiate the stack, and finally walking around the compressed guard player to clear the legs and establish side control. The stack creates a cascading effect where each inch of compression further degrades the lasso's leverage, making continued resistance increasingly difficult for the guard player. This self-reinforcing dynamic makes the stack pass one of the most reliable methods for dealing with deeply established lasso control.\n\nStrategically, the stack pass serves as a high-pressure complement to more technical passing approaches against lasso guard. When backstep passes or knee cuts are being effectively defended, the direct forward pressure of the stack changes the tactical equation entirely. The technique is particularly effective against flexible guard players who rely on distance and hip mobility, as the stack directly attacks both elements simultaneously. Competition-proven at the highest levels, the stack pass remains a fundamental tool in every serious guard passer's arsenal against lasso guard systems.",
   "conditions": [
     "Opponent has established lasso guard with shin threaded across your arm and tight sleeve grip control",

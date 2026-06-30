@@ -16,7 +16,10 @@
   "target_area": "Carotid arteries and trachea",
   "starting_position": "Front Headlock",
   "from_position": "Front Headlock/Top",
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "variant_uniqueness": "Trapped arm prevents defensive hand fighting and tightens choke",
   "summary": "The Arm in Guillotine is a front-headlock blood choke that wraps the opponent's neck while trapping one of their arms inside the lock, removing their defensive hand-fighting and tightening carotid compression for a higher-percentage finish.",
   "overview": "The Arm in Guillotine represents a powerful variation of the standard guillotine choke where one of the opponent's arms becomes trapped inside the choking mechanism. This configuration significantly increases the effectiveness of the submission by preventing defensive hand fighting and creating additional pressure on the carotid arteries. Unlike the standard guillotine where both arms remain outside, the arm-in variation capitalizes on the opponent's attempted defensive frames or underhooks, turning their defensive structure into a liability. This submission is particularly effective in scrambles, takedown situations, and transitional moments where the opponent commits an arm to establish position. The arm-in configuration creates a tighter choking circle and eliminates several escape pathways available in the traditional guillotine. While slightly more difficult to finish than a clean high-elbow guillotine, the arm-in variation offers superior control and maintains effectiveness even when jumping guard or pulling to closed guard.",

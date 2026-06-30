@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "North-South/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Buggy Choke/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Buggy Choke to North-South transition represents a critical positional decision point in turtle attack systems where the top player recognizes that the buggy choke submission is not progressing and converts the existing control into dominant north-south pressure. This transition capitalizes on the structural advantages already established by buggy choke grips — chest pressure, postural breakdown, and arm threading — to facilitate a smooth slide into perpendicular alignment without creating escape windows for the bottom player.\n\nStrategically, this transition embodies a core principle of advanced jiu-jitsu: never persist with a failing submission when positional advancement is available. The buggy choke's flattening pressure and grip configuration naturally facilitate the slide to north-south because the bottom player is already structurally compromised. Their turtle posture has been broken down, their ability to create defensive frames is limited by the threading arm, and their focus on defending the choke creates cognitive openings that can be exploited during the positional shift. The top player who masters this transition develops a reputation for relentless positional pressure that prevents opponents from settling into any single defensive strategy.\n\nThis transition is particularly valuable in competition contexts where maintaining top pressure scores advantages and creates cumulative fatigue. Rather than burning energy on a stalled choke attempt, converting to north-south allows the top player to recover stamina while maintaining offensive control, setting up north-south specific submissions like the north-south choke, kimura, or armbar. The transition also chains naturally into mount transitions, side control switches, and back takes depending on the bottom player's defensive reactions once north-south is established.",
   "conditions": [
     "Buggy choke grips are established but the choke is not progressing toward a finish",

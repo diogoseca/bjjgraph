@@ -15,26 +15,41 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Technical Mount/Bottom",
-      "probability": 38,
+      "probability": {
+        "gi": 38,
+        "nogi": 38
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 13,
+      "probability": {
+        "gi": 13,
+        "nogi": 13
+      },
       "result": "counter"
     },
     {
       "to": "Armbar Control/Bottom",
-      "probability": 9,
+      "probability": {
+        "gi": 9,
+        "nogi": 9
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "summary": "Escape Technical Mount to Half Guard is the primary guard-recovery pathway from technical mount bottom, chaining disciplined arm protection, a timed bridge-and-hip-escape, and aggressive knee insertion to trade a submission-heavy pin for the offensive options of half guard.",
   "overview": "The Escape from Technical Mount to Half Guard is one of the highest-priority defensive techniques in Brazilian Jiu-Jitsu, representing the primary guard recovery pathway from one of the most dangerous pinning positions in the art. Technical mount creates immediate armbar and triangle threats through the stepped leg configuration, making escape both urgent and technically demanding. The bottom player must coordinate arm protection, hip escape timing, and leg insertion to recover to the relative safety of half guard, where legitimate offensive options become available.\n\nThe success of this escape hinges on the fundamental principle that every attack creates a defensive opportunity. When the top player commits weight forward for submission setups, their hip pressure momentarily decreases, opening windows for the explosive hip escape movement that forms the core of this technique. The bottom player exploits this biomechanical reality by timing their shrimp movement to coincide with the top player's offensive weight shifts, threading their knee between bodies to establish half guard structure before the top player can re-settle.\n\nThis escape is particularly important because it transforms an extremely dangerous position into one with legitimate offensive options. Half guard bottom, while not dominant, provides sweeping opportunities, back takes, and further guard recovery pathways that are entirely unavailable from technical mount bottom. The ability to consistently execute this escape under pressure is a hallmark of competent defensive BJJ at purple belt and above, and distinguishes practitioners who can survive bad positions from those who can systematically recover from them.",
   "conditions": [

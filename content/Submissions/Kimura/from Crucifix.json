@@ -18,7 +18,10 @@
   "target_area": "Shoulder joint, rotator cuff, and shoulder capsule",
   "starting_position": "Crucifix",
   "from_position": "Crucifix/Top",
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "overview": "The Kimura from Crucifix represents one of the highest-percentage shoulder lock finishes in Brazilian Jiu-Jitsu, exploiting the bilateral arm control that defines the crucifix position. Unlike standard Kimura attacks where the defender can clasp their hands, grip their belt, or frame against the attacker's body, the crucifix eliminates these defensive options entirely. One arm is trapped in the attacker's leg triangle while the targeted arm is isolated by the hands, creating a scenario where the figure-four grip encounters minimal resistance.\n\nThis submission serves as a natural secondary attack when the opponent successfully defends choke attempts by tucking the chin. The attacker transitions from neck attacks to the exposed arm without releasing positional control, creating a seamless offensive chain where defending one threat directly exposes another. The mechanical advantage is significant: the attacker needs only to secure the figure-four grip on the wrist and apply controlled rotation behind the opponent's back.\n\nStrategically, the Kimura from Crucifix rewards patient practitioners who establish thorough positional control before attacking. The submission's high success rate stems from the structural impossibility of the standard two-handed Kimura defense when both arms are isolated. Once the figure-four grip is secured from crucifix, tap rates exceed those of Kimura attempts from any other position due to the complete elimination of the defender's grip-fighting capability.",
   "safety_considerations": {
     "injury_risks": [
@@ -102,17 +105,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 62,
+      "probability": {
+        "gi": 62,
+        "nogi": 62
+      },
       "result": "success"
     },
     {
       "to": "Crucifix/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 13,
+      "probability": {
+        "gi": 13,
+        "nogi": 13
+      },
       "result": "counter"
     }
   ],

@@ -14,7 +14,10 @@
   "target_area": "Elbow joint",
   "starting_position": "Back Control",
   "from_position": "Back Control/Top",
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "summary": "The Armbar from Back is a joint lock attacked from back control: when the opponent defends the choke and exposes an arm, the attacker isolates it, swings a leg over the head, and extends the hips to hyperextend the elbow.",
   "overview": "The Armbar from Back Control represents one of the most devastating finishing sequences in Brazilian Jiu-Jitsu, combining positional dominance with precise joint manipulation. From the back mount position, where you already control the most advantageous position in grappling, the armbar becomes available when the opponent defends the rear naked choke by gripping their hands together or tucking their chin. This submission targets the elbow joint through hip extension and leg control, creating a mechanical advantage that makes escape nearly impossible once properly locked. The transition from back control to armbar requires careful weight distribution and timing, as abandoning the back position prematurely can result in losing dominant control. Elite grapplers use this technique as part of a systematic attack chain, forcing opponents into defensive dilemmas where defending the choke opens the arm, and protecting the arm exposes the neck. The armbar from back is particularly effective in competition because it maintains control throughout the transition, preventing opponents from improving position even if they defend the initial submission attempt.",
   "safety_considerations": {
@@ -64,17 +67,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Back Control/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],

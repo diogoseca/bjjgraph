@@ -25,21 +25,33 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "High Mount/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "Few mounted finishes are as feared in gi grappling as the high-mount cross collar choke. By climbing the knees toward the armpits before committing the hands, the attacker trades a small amount of base stability for an elevated platform that brings the hands to collar height while stripping away the opponent's ability to bridge. The choking mechanism becomes progressively tighter as defensive options are systematically eliminated, and the elevated position reduces the grip-insertion distance compared to standard mount, making the initial setup significantly more accessible.\n\nStrategically, this choke functions as the centerpiece of the high mount submission dilemma. When the opponent tucks their elbows to defend armbar threats, the collar becomes exposed for grip entry. Conversely, when they reach up to fight collar grips, their arms extend and armbars become available. This binary creates an unsolvable defensive problem at the core of high mount offense. Elite practitioners use the cross collar choke as a constant positional threat that forces defensive reactions, even when the finish itself is not the primary goal.\n\nThe finishing mechanics rely on proper wrist alignment against the carotid arteries rather than raw squeezing force. The attacker's forearms create a scissoring action across both sides of the neck, compressing the carotid arteries bilaterally and restricting blood flow to the brain. Applied correctly, unconsciousness can occur within 5-8 seconds, making this choke both highly effective and requiring strict safety awareness during training. The choke is a blood choke, not an airway choke, and proper technique ensures the trachea remains protected while the vascular structures are compressed.",
   "safety_considerations": {
     "injury_risks": [

@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Closed Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Rubber Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Rubber Guard to Closed Guard transition is a fundamental positional reset within the 10th Planet guard system, allowing the bottom player to return to a more sustainable and universally applicable guard position. While Rubber Guard offers unique submission pathways through its specialized leg and arm configurations, there are critical moments when transitioning back to Closed Guard becomes the strategically superior option. Flexibility fatigue, failed attack sequences, an opponent who is systematically stripping rubber guard grips, or the need to conserve energy for later exchanges all represent scenarios where this reset creates better offensive opportunities than persisting with a deteriorating rubber guard position.\n\nThe primary technical challenge lies in managing the brief control gap that occurs when the elevated leg moves from the high rubber guard position down to waist level for ankle crossing. During this window, the top player can exploit the reduced control to recover posture or open the guard entirely. Successful execution demands that the bottom player establish replacement grips—typically collar and head control or a strong sleeve grip—before releasing the rubber guard foot grip, ensuring continuous posture disruption throughout the transition. The leg must slide down smoothly while maintaining constant contact with the opponent's back, preventing any gap that would invite posture recovery.\n\nUnderstanding when and how to execute this positional reset is essential for any practitioner who employs the Rubber Guard system. The ability to flow seamlessly between Rubber Guard and Closed Guard creates a more complete bottom game, allowing the practitioner to attempt rubber guard attacks, reset to closed guard when those attacks stall, and launch entirely different offensive sequences from the new position. This transition also serves as a safety valve that prevents the bottom player from being forced into open guard when rubber guard control begins to deteriorate.",
   "conditions": [
     "Currently maintaining Rubber Guard control from the bottom position with leg elevated across opponent's back",

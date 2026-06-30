@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Open Guard/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Zombie/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Strip Grip from Zombie is a systematic grip-breaking sequence executed from the top position against an opponent utilizing the Zombie lockdown structure from the 10th Planet system. This technique addresses the fundamental challenge of neutralizing the bottom player's lockdown, underhook, and frame grips that constitute the Zombie's defensive architecture, transforming a complex and frustrating passing problem into a manageable open guard scenario.\n\nThe technique involves methodical breaking of connection points rather than explosive force. The top player systematically addresses each grip in priority order: first neutralizing the underhook through whizzer or crossface pressure, then clearing defensive frames, and finally breaking the lockdown through hip positioning and leg extraction mechanics. The sequence must be executed with constant chest pressure to prevent the bottom player from capitalizing on momentary openings to sweep or recover guard.\n\nStrip Grip from Zombie represents a critical utility technique in the passing toolkit against 10th Planet practitioners. While not flashy, mastering this grip-stripping sequence is the gateway to applying standard passing strategies against an otherwise highly resilient defensive structure. The technique emphasizes patience and positional control over athletic ability, rewarding practitioners who develop sensitivity to grip tension and the discipline to follow a systematic sequence rather than forcing through the position.",
   "variants_and_adaptations": [
     {

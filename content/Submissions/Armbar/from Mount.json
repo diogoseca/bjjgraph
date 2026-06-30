@@ -16,7 +16,10 @@
   "target_area": "Elbow joint",
   "starting_position": "Mount",
   "from_position": "Mount/Top",
-  "success_rate": 68,
+  "success_rate": {
+    "gi": 68,
+    "nogi": 68
+  },
   "overview": "The Armbar from Mount represents one of the most fundamental and high-percentage finishing techniques in Brazilian Jiu-Jitsu, targeting the elbow joint through hyperextension. From the dominant mount position, this submission leverages superior positional control to isolate an opponent's arm and create mechanical advantage through hip extension. The mount-to-armbar transition is particularly effective because it capitalizes on the defensive frames opponents naturally create when attempting to escape mount, turning their defensive structure into offensive opportunities.\n\nThis technique exemplifies the core BJJ principle of using an opponent's energy against them - as they push to create space, you redirect that energy to capture and extend their arm. The biomechanical advantage is decisive: hip extension generates far more force than the bicep can resist, making the armbar nearly impossible to defend once proper position is established with hips tight to the shoulder, knees clamped, and thumb oriented upward.\n\nThe armbar from mount serves as a gateway submission that opens pathways to multiple other attacks including triangles, Americanas, and back takes, making it essential for developing a complete offensive game from top position. Its high success rate at all levels of competition stems from the fact that mount itself forces defensive reactions that expose the arms, creating a natural funnel toward armbar opportunities.",
   "safety_considerations": {
     "injury_risks": [
@@ -67,17 +70,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Mount/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],

@@ -20,21 +20,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 70,
+      "probability": {
+        "gi": 70,
+        "nogi": 70
+      },
       "result": "success"
     },
     {
       "to": "Standing Position/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Standing Position/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "overview": "Ouchi Gari (major inner reaping throw) is a fundamental judo technique that has become an essential tool in Brazilian Jiu-Jitsu's standing game. The technique involves reaping the opponent's lead leg from the inside while simultaneously breaking their posture and balance to the rear corner. Unlike pure throwing arts where the goal is a clean ippon, BJJ practitioners use Ouchi Gari both as a takedown to achieve dominant top position and as a setup for other attacks when the opponent defends. The technique's effectiveness lies in its ability to capitalize on natural standing posture—most grapplers stand with weight distributed between both legs, making them vulnerable to this inside leg attack. When executed properly, Ouchi Gari creates a powerful combination of off-balancing, sweeping action, and forward pressure that makes it extremely difficult for the opponent to maintain their base. The technique integrates seamlessly with BJJ's ground game, as a successful Ouchi Gari typically lands the practitioner in side control or a transitional position from which mount or back control can be achieved. Its versatility makes it valuable across all rulesets, from IBJJF competition to no-gi grappling and MMA applications.",
   "related_content": [
     {

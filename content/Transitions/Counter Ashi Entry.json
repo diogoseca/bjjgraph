@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Outside Ashi-Garami/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Ashi Garami/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Inside Ashi-Garami/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "**Counter Ashi Entry** transforms a defensive leg entanglement scenario into an offensive opportunity by establishing your own leg control while the opponent holds your leg. When caught in an Ashi Garami position from top, rather than simply extracting the trapped leg, the Counter Ashi Entry allows you to insert your free leg and establish reciprocal leg entanglement. This creates a bilateral exchange where both practitioners have leg attack opportunities, but the counter-attacker often gains positional advantage through superior timing and angle creation.\n\nThe technique exploits the inherent vulnerability in leg entanglement exchanges—the attacker's focus on maintaining their control often leaves their own legs exposed. By threading your free leg between the opponent's legs while maintaining base with your trapped leg, you create an Inside Ashi or Outside Ashi configuration that threatens the original attacker. This counter-offensive approach has become increasingly sophisticated in modern no-gi grappling, where leg lock exchanges frequently determine match outcomes.\n\nStrategically, Counter Ashi Entry represents the counter-attacking philosophy within the leg lock game. Rather than purely defensive extraction, it embraces the bilateral nature of leg entanglements and seeks to gain superior position within the exchange. Success requires understanding positional hierarchy, recognizing optimal entry timing, and maintaining awareness of both offensive opportunities and defensive vulnerabilities throughout the transition.",
   "related_content": [
     {

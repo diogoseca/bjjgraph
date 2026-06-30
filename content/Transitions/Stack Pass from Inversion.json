@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Grasshopper Guard/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "Inverted guards like grasshopper guard win by trading stability for leg access, basing on the shoulders and elevating the hips to hunt sweeps and leg entanglements against a standing or kneeling passer. The stack pass weaponizes that very elevation against them: instead of letting the bottom player use their high hips offensively, you fold those hips back over their own shoulders, compressing the spine into flexion until their legs become heavy, immobile dead weight that can no longer generate sweeping or entangling power.\n\nThis pass requires precise timing, as attempting to stack against a fully established inversion with active legs will likely result in leg entanglements or sweeps. The optimal window occurs when the bottom player's hips begin to drop from fatigue or during transitions between leg configurations. Recognizing this window separates successful stack passers from those who get caught in leg attacks.\n\nStrategically, the stack pass represents a commitment - once you drive forward, you cannot easily disengage without giving up position. This makes it critical to secure adequate leg control before initiating the stack. The technique works best as part of a pressure passing system where you've already forced the opponent to work hard maintaining their inversion, creating the fatigue that opens the stacking opportunity.",
   "related_content": [
     {

@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Closed Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Kimura Trap/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Sitting at the heart of the Kimura Trap bottom game, the Kimura Counter via Roll is the system's primary bailout, deployed the instant the top player begins successfully defending or extracting their arm from the Kimura grip. Rather than fighting a losing battle for grip retention that risks complete position loss, the bottom player redirects the remaining grip leverage into a rolling motion that transitions them into closed guard, preserving guard integrity and maintaining offensive options.\n\nThis technique represents a critical decision point within the Kimura Trap system. When the top player postures aggressively, stacks pressure, or begins systematically extracting their trapped arm, the bottom player must recognize the diminishing returns of maintaining the Kimura grip. The roll uses the opponent's defensive momentum against them—their pulling, posturing, or driving force becomes the energy source for the bottom player's hip rotation, allowing them to swing their legs around the opponent's waist and establish closed guard before the position deteriorates further.\n\nStrategically, the Kimura Counter via Roll serves as an essential safety valve that allows practitioners to commit fully to Kimura Trap attacks knowing they have a reliable exit when the grip fails. Without this technique, failed Kimura attempts from bottom often result in guard passes and significant positional losses. By converting a deteriorating Kimura Trap into closed guard, the bottom player maintains an offensive platform for sweeps, submissions, and re-entry into the Kimura system, creating a sustainable cycle of attack and recovery.",
   "conditions": [
     "Opponent is actively defending or extracting their arm from your Kimura grip",

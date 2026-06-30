@@ -15,26 +15,41 @@
   "outcomes": [
     {
       "to": "Turtle/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "success"
     },
     {
       "to": "Reverse Kesa-Gatame/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "The bridge escape from Reverse Kesa-Gatame is a fundamental positional escape that exploits the inherent vulnerability of the reverse scarf hold: the top player's compromised base when facing toward the bottom player's legs. Unlike traditional side control escapes that rely primarily on shrimping and frame-based space creation, this escape leverages explosive hip extension to displace the top player's weight and create immediate space for positional improvement.\n\nThe technique works best when the top player commits their weight too far forward or sits too high on the chest, compromising their base stability. The bottom player plants both feet flat, generates explosive upward force through the hips, and directs the bridge toward the trapped arm side. This directional bridge exploits the top player's limited posting ability in the reverse orientation, where their arms are occupied with arm control rather than available for base recovery.\n\nStrategically, the bridge from Reverse Kesa-Gatame creates a binary risk-reward profile: either significant positional improvement to turtle or half guard, or potential worsening if the top player rides the bridge to mount. This makes proper timing and setup essential. The technique chains naturally with other escape methods—a bridge attempt that fails to fully displace the top player still disrupts their weight distribution, making subsequent shrimp or elbow escapes significantly more effective. For this reason, the bridge often functions as the opening salvo in a multi-escape sequence rather than a standalone technique.",
   "variants_and_adaptations": [
     {

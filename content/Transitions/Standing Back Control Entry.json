@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Standing Back Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Back Control/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "summary": "Standing Back Control Entry is the technique of riding an opponent's stand-up escape to transition from grounded back control into standing back control while keeping both hooks, the seatbelt grip, and chest-to-back connection intact through the vertical plane change.",
   "overview": "Standing Back Control Entry is the critical transition of following your opponent from grounded back control to standing back control as they attempt to rise to their feet. This technique occurs most frequently when an opponent in bottom back control uses a standing escape strategy, driving upward from the ground to break the controlling player's hooks and create separation. Rather than abandoning back control during this positional change, the skilled practitioner rides the movement, adjusting hooks, maintaining seatbelt grip, and preserving chest-to-back connection throughout the vertical transition.\n\nThe strategic importance of this entry cannot be overstated. Grounded back control offers stability but limits certain attacking angles and takedown options. Standing back control opens pathways to forceful mat returns, standing rear naked choke attempts, and body lock takedowns that are unavailable on the ground. However, the transition itself represents a window of vulnerability where the controlling player must adapt to a fundamentally different balance paradigm while the opponent gains mobility and base strength from having feet underneath them. The timing and mechanical precision required to maintain all three control points during the plane change from horizontal to vertical separates advanced practitioners from intermediate ones.\n\nThis transition integrates into the broader back attack system as a critical retention skill. When opponents recognize that standing escape attempts will not free them from back control, their escape options narrow significantly. The ability to follow to standing transforms what many opponents view as their best escape route into simply another controlled position within your attacking framework, creating the psychological pressure that forces defensive errors across the entire back control sequence.",
   "conditions": [

@@ -14,26 +14,41 @@
   "outcomes": [
     {
       "to": "Closed Guard/Bottom",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "success"
     },
     {
       "to": "Kuzure Kesa-Gatame/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Armbar Control/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "summary": "Arm Recovery to Guard is a defensive transition from Kuzure Kesa-Gatame bottom that extracts the trapped arm through internal shoulder rotation, a frame, and a perpendicular bridge to recover Closed Guard or Half Guard with both arms free.",
   "overview": "Arm Recovery to Guard is the critical defensive transition from Kuzure Kesa-Gatame bottom that addresses the position's primary problem: the trapped arm. Unlike escapes that work around the arm isolation (such as the Granby Roll to Turtle), this technique directly solves the trapped arm by extracting it through precise shoulder rotation, frame creation, and hip movement to recover a guard position. The technique transforms a severely disadvantaged pin into an active guard where offensive options become available.\n\nThe strategic value of this transition lies in its directness. Rather than conceding positional regression to Turtle or fighting for a difficult bridge-and-roll reversal, successful arm recovery places you immediately into Closed Guard or Half Guard with both arms free, full breathing capacity restored, and a complete offensive toolkit available. This makes it the highest-value escape from Kuzure Kesa-Gatame when the timing window presents itself.\n\nThe technique requires precise coordination between shoulder mechanics, hip movement, and frame placement. The trapped arm cannot simply be pulled free against the opponent's clamping pressure. Instead, the practitioner must create a momentary release through a combination of bridge-induced weight shift and internal shoulder rotation that changes the angle of the trapped arm relative to the opponent's armpit clamp. This window is brief, typically coinciding with the opponent's weight shifting forward during a submission attempt or positional adjustment, making timing sensitivity the single most important skill for this technique.",
   "related_content": [

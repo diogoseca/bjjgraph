@@ -15,26 +15,41 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Reverse X-Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "failure"
     },
     {
       "to": "Single Leg X-Guard/Top",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "Born from the modern leg-entanglement era, the Knee Slice from Reverse X-Guard adapts the familiar knee-cut mechanic to the specific problem of inverted, same-side hooks. Unlike a standard knee slice from half guard or headquarters, this variation requires the passer to first address the unique inverted hook configuration of Reverse X-Guard before committing to the slice. The technique bridges the gap between hook management and committed passing, making it essential for any top player regularly facing modern X-Guard systems.\n\nStrategically, this pass succeeds when the bottom player's primary hook behind the knee begins to weaken—whether from fatigue, failed sweep attempts, or the top player's systematic grip fighting. The passer must recognize this window and immediately transition from defensive base management to aggressive passing. Timing is critical: too early and the hooks catch the slice, too late and the bottom player re-establishes full control. The pass combines effectively with backstep passes and smash approaches, as the bottom player cannot defend all angles simultaneously.\n\nThe technique demands precise coordination between upper body control and lower body mechanics. The crossface must be established before or simultaneously with the knee slice to prevent the bottom player from following the movement and recovering guard. This pass is a staple of high-level competition passing, where the ability to transition from guard defense to offensive passing in a single fluid motion separates advanced practitioners from intermediate ones.",
   "conditions": [
     "Opponent's primary hook behind your knee is weakened or partially cleared",

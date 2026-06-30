@@ -19,7 +19,10 @@
   "target_area": "Ankle, toes, and foot ligaments",
   "starting_position": "Ushiro Ashi-Garami",
   "from_position": "Ushiro Ashi-Garami/Top",
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "The toe hold from ushiro ashi-garami exploits the unique biomechanical leverage created when the opponent has partially inverted during a leg lock exchange. Unlike toe holds from standard ashi-garami positions where the foot is directly accessible along a predictable angle, the ushiro configuration positions the trapped foot at a reversed orientation that actually favors the kimura-style toe hold grip once the attacker adjusts their hand placement and body angle to account for the inverted hip geometry.\n\nFrom ushiro ashi-garami top, the attacker cups the opponent's toes and ball of the foot while securing a figure-four configuration with their forearms wrapped around the ankle. The reversed hip orientation of the trapped leg means the rotational force travels through the ankle at a different angle than in standard positions, often catching opponents who are well-drilled in defending toe holds from conventional entanglements. The key mechanical distinction is that the twist direction relative to the opponent's body creates a tighter spiral on the lateral ankle ligaments with less room for the defender to rotate their hips to relieve pressure.\n\nStrategically, the toe hold from ushiro serves as a critical secondary attack when heel hook access is limited by the reversed configuration. Advanced leg lock practitioners use the toe hold threat to force defensive reactions that expose the heel, creating a submission chain between toe hold attempts and heel hook entries. This dual-threat approach transforms the ushiro position from a transitional scramble into a genuine finishing platform.",
   "safety_considerations": {
     "injury_risks": [
@@ -110,17 +113,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Ushiro Ashi-Garami/Top",
-      "probability": 32,
+      "probability": {
+        "gi": 32,
+        "nogi": 32
+      },
       "result": "failure"
     },
     {
       "to": "Ashi Garami/Bottom",
-      "probability": 18,
+      "probability": {
+        "gi": 18,
+        "nogi": 18
+      },
       "result": "counter"
     }
   ],

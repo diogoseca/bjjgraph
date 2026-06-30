@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 27,
+      "probability": {
+        "gi": 27,
+        "nogi": 27
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "summary": "The John Wayne Sweep is a butterfly-hook-control reversal that uses two-on-one sleeve control and a signature pistol-grip break to strip the opponent's posting hand, then elevates on the hooks to dump them directly into Mount.",
   "overview": "The John Wayne Sweep is a high-reward reversal from butterfly hook control that uses two-on-one sleeve control and a signature pistol-grip break to strip the opponent's base before elevating them over the butterfly hooks directly into mount. Named for the characteristic pistol-shooting motion of the grip break, it blends classic butterfly elevation mechanics with isolating grip-fighting on a single arm, exploiting the moment an opponent posts a hand or drives forward to defend the hooks.\n\nThe sweep operates on a three-phase mechanical sequence: first, a two-on-one grip on the lead sleeve eliminates one posting arm and pulls it across the opponent's centerline to create a rotational axis; second, the pistol grip break removes the remaining posted hand; third, coordinated hook elevation and angular rotation complete the reversal. Because the finish lands directly in mount rather than a scramble, it is one of the highest-reward attacks available from a seated butterfly position.\n\nThis sweep is especially effective in the gi, where sleeve grips provide leverage, though no-gi variations exist using wrist and tricep control. It integrates naturally into a broader butterfly guard attack system, chaining with arm drags, basic butterfly sweeps, X-guard entries, and kimura attacks depending on the opponent's defensive reaction. Competition practitioners value it for its direct path to a four-point mount position.",
   "related_content": [

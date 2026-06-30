@@ -15,7 +15,10 @@
   "target_area": "Elbow joint and shoulder",
   "starting_position": "Closed Guard",
   "from_position": "Closed Guard/Bottom",
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "Among the most spectacular finishes in jiu-jitsu, the Flying Armbar weaponizes a standing or posturing opponent's own height against them, converting the moment they extend an arm into an immediate elbow attack. It is a high-commitment technique: the attacker jumps, clamps the isolated arm to their chest, throws one leg across the neck and the other over the back, and uses gravity plus rotation to load the elbow joint before either practitioner touches the mat.\n\nPopularized in modern sport jiu-jitsu and MMA highlight reels, the flying armbar rewards timing over strength. The attacker reads the instant an opponent stands to break guard or reaches in to collar-tie, then commits before defensive frames can form. Because the entry sacrifices base entirely, a miss frequently surrenders top position, which is why it lives at the high-risk, high-reward end of the attacking spectrum and demands disciplined judgment about when the gamble is worth taking.\n\nMore than almost any other submission, the flying armbar demands controlled mechanics on the way down. The attacker must protect the partner's head and their own neck during the landing, then settle into a controlled armbar finish on the ground rather than wrenching the joint mid-flight. It belongs in the toolkit of advanced practitioners who have already mastered ground-based armbar mechanics, possess the athleticism to rotate safely in the air, and understand that the technique's flashy reputation is matched by genuine injury risk to both people when timing or control fails.",
   "safety_considerations": {
     "injury_risks": [
@@ -68,22 +71,34 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Armbar Control/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],

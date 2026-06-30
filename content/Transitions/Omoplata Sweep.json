@@ -18,21 +18,33 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Built around a genuine submission threat, the Omoplata Sweep exploits the opponent's defensive reaction to the shoulder lock rather than relying on raw power to complete the reversal. The dual-threat nature creates a classic dilemma: if the opponent defends the submission by driving forward or rolling, you redirect their momentum into the sweep; if they freeze to prevent the sweep, you finish the omoplata. This positions it as one of the most reliable transitions in the closed-guard attack system, because it converts the opponent's own defense into the mechanism of their reversal.\n\nThe sweep initiates from the standard omoplata entry where your leg crosses the opponent's back and their arm is isolated. Rather than committing to the shoulder lock finish, you use your perpendicular body angle and hip drive to roll the opponent forward over their trapped shoulder. The right leg hooking their hip serves as a fulcrum, while the left leg across their back acts as a lever preventing them from rolling out. Arm control throughout prevents posting, which is the primary defense against the sweep.\n\nThis technique is particularly valuable in competition because it transitions seamlessly into mount, the highest-scoring dominant position. The sweep works in both gi and no-gi, though gi sleeve grips simplify arm control. For purple and brown belts, the omoplata sweep should be trained as part of a systematic closed guard attack chain where it flows naturally from triangle and armbar attempts, creating a branching attack tree that becomes progressively harder to defend as the opponent's energy depletes.",
   "conditions": [
     "Closed guard established with ankles locked behind opponent",

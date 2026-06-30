@@ -18,24 +18,35 @@
   "outcomes": [
     {
       "to": "Russian Cowboy/Top",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Turtle/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "summary": "Turtle to Russian Cowboy is a back-ride entry where the top player, controlling a turtled opponent, threads one deep leg hook under the opponent's near thigh and rides the exposed back to establish the asymmetric single-hook Russian Cowboy that feeds the truck.",
-  "overview": "Turtle to Russian Cowboy is the primary back-ride entry into the asymmetric single-hook control known as the Russian Cowboy, achieved by riding a turtled opponent's back and threading one deep leg hook under their near-side thigh while maintaining upper-body control. Rather than chasing both hooks for conventional back control, the rider commits a single deep hook across the inner thigh toward the groin, which creates the rotational stretch and truck-feeding mechanics that define the position.\n\nThis entry comes out of no-gi and submission-wrestling back-attack systems and is a staple of 10th Planet style leg-entanglement chaining, where the turtle is treated as a launchpad rather than a stall. From the top of turtle the rider establishes a seatbelt or harness, drives chest weight along the spine to stop the opponent standing or rolling, and then inserts the near-side hook deep enough to control rotation. Because only one leg is committed, the rider keeps the free leg posted for base and can flow immediately into the truck, calf slicer, or twister threats that the Russian Cowboy is built to deliver.\n\nStrategically this transition matters because the turtle is one of the most common scramble outcomes in no-gi, yet conventional second-hook back takes are frequently defended by strong opponents who tuck their hooks and stay heavy. The single-hook ride sidesteps that defense by attacking the leg line first, forcing the opponent to choose between defending the back and defending the entangled leg. Done correctly it converts a stalled turtle into a dynamic attacking platform; done sloppily it lets the opponent extract the leg and recover half guard, so depth of hook and timing of upper-body control are decisive."
-,
+  "overview": "Turtle to Russian Cowboy is the primary back-ride entry into the asymmetric single-hook control known as the Russian Cowboy, achieved by riding a turtled opponent's back and threading one deep leg hook under their near-side thigh while maintaining upper-body control. Rather than chasing both hooks for conventional back control, the rider commits a single deep hook across the inner thigh toward the groin, which creates the rotational stretch and truck-feeding mechanics that define the position.\n\nThis entry comes out of no-gi and submission-wrestling back-attack systems and is a staple of 10th Planet style leg-entanglement chaining, where the turtle is treated as a launchpad rather than a stall. From the top of turtle the rider establishes a seatbelt or harness, drives chest weight along the spine to stop the opponent standing or rolling, and then inserts the near-side hook deep enough to control rotation. Because only one leg is committed, the rider keeps the free leg posted for base and can flow immediately into the truck, calf slicer, or twister threats that the Russian Cowboy is built to deliver.\n\nStrategically this transition matters because the turtle is one of the most common scramble outcomes in no-gi, yet conventional second-hook back takes are frequently defended by strong opponents who tuck their hooks and stay heavy. The single-hook ride sidesteps that defense by attacking the leg line first, forcing the opponent to choose between defending the back and defending the entangled leg. Done correctly it converts a stalled turtle into a dynamic attacking platform; done sloppily it lets the opponent extract the leg and recover half guard, so depth of hook and timing of upper-body control are decisive.",
   "conditions": [
     "Opponent is in a stable turtle with you controlling from the top, chest available to their back",
     "You have or can immediately establish a seatbelt or harness grip on the upper body",
@@ -79,8 +90,7 @@
   "attacker": {
     "name": "Turtle to Russian Cowboy Attacker",
     "description": "How to enter the Russian Cowboy single-hook back ride from Turtle Top in BJJ. Attacking setup, deep-hook insertion, seatbelt control, and counters.",
-    "overview": "As the attacker entering the Russian Cowboy from turtle top, your goal is to convert upper-body back control into a committed single-hook ride that attacks the opponent's near leg line. The key insight is that you do not need both hooks - you trade the conventional second hook for a single deep hook across the inner thigh, which gives you rotational control and an immediate pathway to the truck. This makes the entry effective against opponents who are good at defending traditional back takes by tucking their hooks.\n\nThe transition lives or dies on two things: securing the upper body before you commit the leg, and getting the hook deep enough to control rotation rather than just the ankle. If you reach for the leg before you have a seatbelt or harness, the opponent stands or rolls and you lose everything. If your hook is shallow, they kick free and recover half guard. The correct sequence is upper body first, chest pressure to pin, then a deep near-side hook threaded under the thigh toward the groin while your free leg stays posted as a base and rudder. Once both control points are set you are in the Russian Cowboy and can ride the opponent's defensive movement straight into the truck."
-,
+    "overview": "As the attacker entering the Russian Cowboy from turtle top, your goal is to convert upper-body back control into a committed single-hook ride that attacks the opponent's near leg line. The key insight is that you do not need both hooks - you trade the conventional second hook for a single deep hook across the inner thigh, which gives you rotational control and an immediate pathway to the truck. This makes the entry effective against opponents who are good at defending traditional back takes by tucking their hooks.\n\nThe transition lives or dies on two things: securing the upper body before you commit the leg, and getting the hook deep enough to control rotation rather than just the ankle. If you reach for the leg before you have a seatbelt or harness, the opponent stands or rolls and you lose everything. If your hook is shallow, they kick free and recover half guard. The correct sequence is upper body first, chest pressure to pin, then a deep near-side hook threaded under the thigh toward the groin while your free leg stays posted as a base and rudder. Once both control points are set you are in the Russian Cowboy and can ride the opponent's defensive movement straight into the truck.",
     "key_principles": [
       "Secure upper-body control with a seatbelt or harness before committing any leg to the entanglement",
       "Drive chest weight along the opponent's spine to prevent them standing up or rolling out of turtle",
@@ -225,8 +235,7 @@
   "defender": {
     "name": "Turtle to Russian Cowboy Defender",
     "description": "How to defend the Russian Cowboy single-hook back ride from turtle bottom in BJJ. Recognition cues, hook-extraction defenses, and recovery to half guard.",
-    "overview": "As the defender from turtle bottom, your task is to stop the top player from converting their back ride into the committed single-hook Russian Cowboy. The danger is that this entry attacks your leg line rather than just your back, so the usual turtle defense of tucking both hooks does not save you - you must protect the near-side leg from the deep hook while simultaneously denying the upper-body control that pins you. If the top player secures both the seatbelt and a deep hook, you are stretched onto your side and one step away from the truck and its leg-and-neck submissions.\n\nThe highest-percentage defense is early: fight the upper-body grip and keep moving before the hook goes deep. The moment you feel the seatbelt locking and chest weight pinning your spine, you must either stand up explosively while the hook is still shallow or roll to face the top player before they post their free leg. If the hook is already deep, switch priorities to leg extraction - control the hooking ankle, extend your trapped leg, and turn into the top player's free-leg side to recover half guard rather than rolling into the hook, which only feeds their truck. Protecting the neck against the seatbelt choke remains a constant background priority throughout."
-,
+    "overview": "As the defender from turtle bottom, your task is to stop the top player from converting their back ride into the committed single-hook Russian Cowboy. The danger is that this entry attacks your leg line rather than just your back, so the usual turtle defense of tucking both hooks does not save you - you must protect the near-side leg from the deep hook while simultaneously denying the upper-body control that pins you. If the top player secures both the seatbelt and a deep hook, you are stretched onto your side and one step away from the truck and its leg-and-neck submissions.\n\nThe highest-percentage defense is early: fight the upper-body grip and keep moving before the hook goes deep. The moment you feel the seatbelt locking and chest weight pinning your spine, you must either stand up explosively while the hook is still shallow or roll to face the top player before they post their free leg. If the hook is already deep, switch priorities to leg extraction - control the hooking ankle, extend your trapped leg, and turn into the top player's free-leg side to recover half guard rather than rolling into the hook, which only feeds their truck. Protecting the neck against the seatbelt choke remains a constant background priority throughout.",
     "key_principles": [
       "Fight the upper-body grip early - denying the seatbelt or harness prevents the whole entry",
       "Protect the near-side leg from the deep hook by keeping the knee tucked and elbow connected to the thigh",

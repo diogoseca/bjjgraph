@@ -21,7 +21,10 @@
   "target_area": "Carotid arteries and jugular veins",
   "starting_position": "Harness",
   "from_position": "Harness/Top",
-  "success_rate": 65,
+  "success_rate": {
+    "gi": 65,
+    "nogi": 65
+  },
   "overview": "Built on the seatbelt grip already established in the harness, this attack represents the natural offensive culmination of that control system. From the harness position, the attacker has already established the over-under arm configuration that serves as the foundation for the choking mechanics. The transition from harness grip to rear naked choke involves systematically advancing the choking arm from its controlling position across the opponent's chest to underneath the chin, where it compresses the carotid arteries bilaterally.\n\nWhat distinguishes this entry specifically is the pre-existing structural control. Unlike attacks from scramble positions where the attacker must simultaneously establish control and threaten the neck, the harness provides a stable platform from which to methodically work past hand-fighting defenses. The underhook arm maintains postural control and prevents the rotation needed to escape, while the choking arm progressively advances toward the neck.\n\nStrategically, this creates a cascading dilemma system. The opponent must commit both hands to defending the choking arm, preventing them from removing hooks or creating escape angles. If they release grip control to fight hooks or create space, the choking arm advances. This tension between positional defense and submission defense makes the harness-based RNC the cornerstone of every modern back attack system.",
   "safety_considerations": {
     "injury_risks": [
@@ -128,17 +131,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Harness/Top",
-      "probability": 23,
+      "probability": {
+        "gi": 23,
+        "nogi": 23
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 12,
+      "probability": {
+        "gi": 12,
+        "nogi": 12
+      },
       "result": "counter"
     }
   ],

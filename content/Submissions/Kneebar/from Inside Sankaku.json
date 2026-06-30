@@ -19,7 +19,10 @@
   "target_area": "Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule)",
   "starting_position": "Inside Sankaku",
   "from_position": "Inside Sankaku/Top",
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "overview": "The kneebar from Inside Sankaku exploits the leg isolation already established by the entanglement to attack the posterior knee joint through controlled hip extension. When the opponent successfully defends the primary inside heel hook threat by hiding their heel against their own hip, the kneebar becomes a high-percentage secondary attack that leverages the existing control structure without requiring positional transition. The attacker redirects from heel hook grips to securing the opponent's ankle below the armpit while extending hips against the back of the knee, creating hyperextension pressure on the PCL, MCL, and joint capsule.\n\nThis attack is particularly effective from Inside Sankaku because the figure-four leg entanglement already restricts the opponent's hip mobility and prevents the rotational defense that normally defeats kneebars. The existing knee line control means the opponent cannot simply straighten their leg or turn to relieve pressure. Combined with the heel hook threat, the kneebar creates a submission dilemma where defending one attack exposes the other, forcing the opponent to address both threats simultaneously from a compromised position.\n\nThe kneebar from Inside Sankaku represents an essential component of a complete leg lock game, transforming the position from a single-attack threat into a multi-dimensional offensive platform that forces opponents to divide their defensive attention and significantly increases overall finishing rates from the entanglement.",
   "safety_considerations": {
     "injury_risks": [
@@ -107,17 +110,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Inside Sankaku/Top",
-      "probability": 26,
+      "probability": {
+        "gi": 26,
+        "nogi": 26
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 14,
+      "probability": {
+        "gi": 14,
+        "nogi": 14
+      },
       "result": "counter"
     }
   ],

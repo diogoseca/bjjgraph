@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 75,
+      "probability": {
+        "gi": 75,
+        "nogi": 75
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "failure"
     },
     {
       "to": "Deep Half Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 68,
+  "success_rate": {
+    "gi": 68,
+    "nogi": 68
+  },
   "overview": "The Knee Slice from Half Guard is one of the most fundamental and high-percentage guard passes in Brazilian Jiu-Jitsu. This technique exploits the half guard player's commitment to the inside position by creating a powerful angle that drives your knee across their legs while establishing dominant upper body control. The pass works by combining forward pressure with lateral movement, using your knee as a wedge to separate the opponent's legs while your hips drive through the opening.\n\nWhat makes this pass particularly effective is its ability to shut down the bottom player's primary defensive tools - the underhook and the inside space. By controlling the crossface and establishing a strong underhook yourself, you neutralize their framing attempts while simultaneously flattening them to the mat. The knee slice motion creates a dilemma: if they focus on stopping your knee, they lose upper body control; if they fight your crossface, your knee slides through uncontested.\n\nThis pass represents a cornerstone of modern guard passing systems because it works equally well in gi and no-gi, against all body types, and connects seamlessly to other passing options. When executed with proper timing and pressure, the knee slice becomes nearly unstoppable, forcing the opponent into increasingly desperate defensive reactions that open them up to back takes, mount transitions, or submission attacks.",
   "related_content": [
     {

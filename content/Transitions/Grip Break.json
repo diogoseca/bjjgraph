@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Open Guard/Bottom",
-      "probability": 75,
+      "probability": {
+        "gi": 75,
+        "nogi": 75
+      },
       "result": "success"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 82,
+  "success_rate": {
+    "gi": 82,
+    "nogi": 82
+  },
   "overview": "Grip breaking is a fundamental skill in Brazilian Jiu-Jitsu that serves as the foundation for both offensive and defensive guard play. Whether you're playing guard or attempting to pass, the ability to systematically break your opponent's grips determines who controls the engagement and dictates the pace of the match. This technique encompasses a variety of methods to release collar grips, sleeve grips, pant grips, and body locks, each requiring specific biomechanical principles and timing.\n\nThe effectiveness of grip breaking lies in understanding leverage principles and applying force in the direction that weakens your opponent's grip structure. Rather than simply pulling against strong grips with brute strength, skilled practitioners use angles, frames, and two-on-one advantages to systematically dismantle their opponent's control points. This creates windows of opportunity to establish your own grips, improve position, or launch attacks.\n\nMastery of grip breaking transcends the physical technique itself and becomes a chess match of grip fighting sequences. Advanced practitioners anticipate their opponent's re-gripping attempts and chain multiple grip breaks together, creating sustained periods of grip dominance that translate directly to positional and tactical advantages throughout the match.",
   "related_content": [
     {

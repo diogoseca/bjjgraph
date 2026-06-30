@@ -26,21 +26,33 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Outside Ashi-Garami/Top",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Inside Ashi-Garami/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "Few counter-attacks reframe a defensive leg-entanglement exchange as sharply as the toe hold from the top of Outside Ashi-Garami. The attacker—whose own leg is trapped in the opponent's entanglement—reaches for the bottom player's exposed foot and secures a figure-four grip, creating powerful rotational force through the ankle, foot, and knee structures. This technique serves as a critical counter-attacking weapon that punishes opponents for maintaining loose leg configurations or becoming overly focused on their own offensive attacks.\n\nThe toe hold functions by isolating the opponent's foot and twisting it inward using a kimura-style figure-four grip locked around the ankle. The rotational force attacks multiple structures simultaneously: the lateral ankle ligaments, the metatarsal joints of the foot, and transmits torque through the tibial-fibular connection to the knee. This multi-joint vulnerability makes the toe hold particularly dangerous and demands careful, progressive application during training. Unlike heel hooks which primarily attack the knee through rotational force on the heel, the toe hold distributes stress across the entire foot-ankle-knee kinetic chain.\n\nStrategically, the toe hold from Outside Ashi creates a powerful dilemma for the bottom player. They must choose between maintaining their offensive leg entanglement and defending their foot from the rotational attack. When the bottom player commits both hands to a heel hook attempt on the top player's trapped leg, their own feet become unprotected. This counter-attacking dynamic makes the toe hold an essential technique for anyone regularly defending leg entanglements, transforming a defensive position into an immediate submission threat that forces the opponent to reconsider their offensive commitment.",
   "safety_considerations": {
     "injury_risks": [

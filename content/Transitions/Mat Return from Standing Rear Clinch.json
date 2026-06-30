@@ -18,31 +18,49 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Turtle/Top",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "success"
     },
     {
       "to": "Standing Rear Clinch/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Turtle/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     },
     {
       "to": "Clinch/Bottom",
-      "probability": 5,
+      "probability": {
+        "gi": 5,
+        "nogi": 5
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 65,
+  "success_rate": {
+    "gi": 65,
+    "nogi": 65
+  },
   "overview": "Within the standing rear clinch system, the mat return is the workhorse mechanism for getting the fight to the ground without surrendering the rear control you fought to establish. This technique bridges the gap between standing grappling and ground fighting, allowing the attacker to bring an opponent to the mat while maintaining chest-to-back connection, grip integrity, and positional dominance. The mat return is particularly valuable in competition where standing back control has limited scoring potential compared to ground back control with hooks established, making it the primary mechanism for converting standing advantage into scoreable, finishable position.\n\nStrategically, the mat return represents a critical link in the chain from clinch work to submission. Rather than releasing control to attempt a throw or trip that risks separation, the mat return uses body weight, hip positioning, and controlled descent to systematically bring the opponent to the ground. The technique works most effectively when the attacker has established a solid bodylock or seatbelt grip and uses their hips as a fulcrum to collapse the opponent's base. Timing the mat return when the opponent shifts weight during grip fighting or steps to reposition significantly increases both completion rate and the likelihood of maintaining back control through the ground transition.\n\nThe mat return also serves as a crucial decision point within the standing rear clinch strategy. When rolling back takes are defended, standing submissions prove difficult, or the opponent maintains strong hand fighting, the mat return provides a reliable high-percentage option that prioritizes positional advancement over riskier techniques. Understanding when to execute the mat return versus pursuing other options from standing rear clinch is a hallmark of experienced grapplers who prioritize systematic positional progression over spectacle. The technique is equally effective in gi and no-gi contexts, though grip configurations differ between the two rulesets.",
   "conditions": [
     "Established standing rear clinch with secure bodylock or seatbelt grip locked",

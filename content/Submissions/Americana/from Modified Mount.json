@@ -18,7 +18,10 @@
   "target_area": "Shoulder joint (specifically glenohumeral joint and rotator cuff)",
   "starting_position": "Modified Mount",
   "from_position": "Modified Mount/Top",
-  "success_rate": 68,
+  "success_rate": {
+    "gi": 68,
+    "nogi": 68
+  },
   "summary": "The Americana from Modified Mount is a figure-four shoulder lock applied from the asymmetric top mount, using the posted leg's stability to pin the near-side wrist to the mat and externally rotate the trapped shoulder until the opponent taps.",
   "overview": "The Americana from Modified Mount exploits the unique weight distribution and stability advantages of Modified Mount to execute one of grappling's most fundamental shoulder lock submissions. Unlike the standard mount Americana where both knees are down and the attacker must balance while applying the figure-four grip, Modified Mount provides a structural base through the posted leg that allows full commitment to the submission mechanics without fear of reversal during the finish. The across-body knee pins the opponent's torso, freeing both hands to establish the wrist pin and figure-four grip that define the Americana.\n\nFrom a strategic perspective, the Americana from Modified Mount functions as a natural complement to the armbar threat that the position creates. When opponents defend the armbar by keeping their arms tight and elbows close, the close-quarters positioning of Modified Mount makes wrist isolation for the Americana highly accessible. The posted leg serves dual purpose during the finish: maintaining base stability while providing a leverage anchor that enhances rotational pressure on the trapped shoulder. This variant punishes the exact defensive posture that successfully defends against armbars, creating a powerful dilemma where defending one submission opens vulnerability to the other.\n\nCompetition data consistently shows the Americana from Modified Mount as a high-percentage finishing option at intermediate and advanced levels, with the position's inherent stability allowing methodical application of progressive rotational pressure. The key distinction from other Americana variants is the enhanced base security that the posted leg provides. The attacker can apply slow, deliberate pressure without rushing, knowing the posted leg prevents the explosive bridge-and-roll reversals that plague Americana attempts from standard mount.",
   "safety_considerations": {
@@ -110,17 +113,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 68,
+      "probability": {
+        "gi": 68,
+        "nogi": 68
+      },
       "result": "success"
     },
     {
       "to": "Modified Mount/Top",
-      "probability": 21,
+      "probability": {
+        "gi": 21,
+        "nogi": 21
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 11,
+      "probability": {
+        "gi": 11,
+        "nogi": 11
+      },
       "result": "counter"
     }
   ],

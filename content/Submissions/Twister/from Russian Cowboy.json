@@ -17,7 +17,10 @@
   "target_area": "Thoracic and Cervical Spine",
   "starting_position": "Russian Cowboy",
   "from_position": "Russian Cowboy/Top",
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "Within the 10th Planet no-gi system, the Russian Cowboy ride is one of the most reliable on-ramps to the Twister, and this entry is what makes the position so feared from the asymmetric back. Unlike entering the Twister from a fully established Truck, this pathway lets you begin loading rotational pressure off a single hook before the figure-four is even completed, shrinking the window your opponent has to align their spine. The attacker's job is to convert that single hook into a full leg entanglement while threading head and shoulder control, building the opposed rotational forces that the finish depends on.\n\nStrategically, the Twister Finish from Russian Cowboy represents a high-commitment attack that sacrifices positional stability for submission opportunity. The transition requires threading the free leg across the opponent's body to complete the figure-four while maintaining chest-to-back contact and upper body control. This creates a narrow execution window where the opponent can defend by preventing the second leg from crossing or by aligning their spine before the rotation locks in. Successful execution depends on reading the opponent's defensive reactions and committing to the finish only when the control sequence is complete.\n\nThe submission's danger profile demands extreme caution in training. The spinal compression created by opposing the locked hips against the rotating shoulders can cause serious cervical and thoracic injury if applied too quickly. Progressive pressure over a minimum of five to seven seconds is mandatory, and both training partners must have established clear communication protocols before attempting this technique. The Twister Finish is most effective when the opponent has already exhausted their primary escape options from Russian Cowboy and is committed to a defensive posture that exposes their spine to rotational attack.",
   "safety_considerations": {
     "injury_risks": [
@@ -65,17 +68,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Russian Cowboy/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],

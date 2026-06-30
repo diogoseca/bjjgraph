@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "This transition sits at the center of the Hindulotine attack system, punishing one of the most common guillotine defenses: the near-side frame. When the bottom player holds the Hindulotine and the opponent creates a near-side frame to relieve neck pressure, that defensive arm becomes the structural element needed for the arm triangle. The attacker clamps the framing arm against the opponent's own head, releases the guillotine grip, threads the choking arm under the neck, then uses a butterfly sweep or hip-escape sequence to arrive in side control with the arm triangle already locked.\n\nStrategically, the technique creates a powerful dilemma. Opponents who frame against the guillotine build exactly the arm-and-head configuration that makes the arm triangle possible, while keeping the arms tight to defend the arm triangle leaves the guillotine finish available. Advanced practitioners use this dichotomy as the backbone of their Hindulotine attack, flowing between both threats based on the opponent's reactions and reading turning escapes as back-take invitations.\n\nThe technique demands precise timing during the grip transition. Releasing the guillotine before the opponent's arm is fully trapped surrenders the offensive position entirely. The sweep or reversal component is equally critical—the arm triangle finishes from side control, not from bottom position. Practitioners must blend upper-body grip reconfiguration with lower-body sweeping mechanics simultaneously, making this a high-level transition that rewards drilling and positional awareness.",
   "conditions": [
     "You hold bottom Hindulotine with guillotine grip secured and opponent's posture broken",

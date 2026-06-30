@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Closed Guard/Bottom",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Front Headlock/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "summary": "The hip escape from front headlock is a defensive guard-recovery escape in which the bottom player frames on the opponent's hip and shrimps laterally to clear their trapped head and rebuild closed guard from underneath.",
   "overview": "The hip escape from front headlock is a fundamental defensive technique that uses shrimping mechanics to create space and recover guard from one of BJJ's most dangerous control positions. When trapped in front headlock bottom, the opponent has access to guillotine, anaconda, darce, and back take threats, making timely escape essential. This technique leverages the principle that lateral hip movement is far more effective than pulling straight back against head control, redirecting force perpendicular to the opponent's pressure to create the space needed for guard recovery.\n\nThe strategic value of this escape lies in its reliability as a guard recovery tool when other escapes are unavailable or have failed. Unlike technical standup (which requires more space) or granby rolls (which require more athleticism and carry higher risk), the hip escape is mechanically simple and works even under heavy top pressure. The key is maintaining chin protection throughout the movement while using frames on the opponent's hip to prevent them from following your lateral movement. Successful execution transitions you from a position of extreme danger directly into closed guard, where you gain significant offensive capability.\n\nThis technique is particularly effective when the front headlock holder has committed their weight forward or is transitioning between attacks, creating momentary gaps in their pressure. The practitioner must develop sensitivity to these timing windows through drilling and live training, as attempting the hip escape against a settled, heavy opponent significantly reduces success probability. Chain this escape with sit-throughs and granby rolls to create a comprehensive front headlock escape system that prevents the opponent from shutting down any single escape path.",
   "conditions": [

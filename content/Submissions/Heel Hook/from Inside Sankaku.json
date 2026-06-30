@@ -21,7 +21,10 @@
   "target_area": "Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity",
   "starting_position": "Inside Sankaku",
   "from_position": "Inside Sankaku/Top",
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "The heel hook from Inside Sankaku represents the pinnacle of modern leg lock finishing systems, combining the superior positional control of the Inside Sankaku entanglement with devastating rotational mechanics that attack the knee's ligamentous structure. This position-submission combination has proven to be among the highest-percentage finishes in competitive no-gi grappling, particularly in submission-only formats where patient positional establishment is rewarded with decisive victories.\n\nThe finishing mechanics rely on positioning the blade of the wrist against the Achilles tendon, clamping the opponent's foot deep in the armpit, and generating controlled rotational force with the entire body. The Inside Sankaku's figure-four leg configuration simultaneously immobilizes the opponent's hip, dominates the knee line to prevent defensive rotation, and exposes the heel toward the attacker's centerline for optimal mechanical advantage. This multi-layered control makes the submission significantly higher percentage than heel hooks from other entanglements.\n\nThe critical distinction from other leg lock positions is the degree of rotational control. In Outside Ashi-Garami the opponent can rotate toward the attacker to relieve pressure, but Inside Sankaku blocks this primary escape direction, forcing the defender to either extract backward against tight hip connection or attempt the far more dangerous movement of rolling through. Patient establishment of all control layers before committing to the finish separates successful high-level applications from premature attempts that create scrambles and escape opportunities.",
   "safety_considerations": {
     "injury_risks": [
@@ -122,17 +125,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Inside Sankaku/Top",
-      "probability": 36,
+      "probability": {
+        "gi": 36,
+        "nogi": 36
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 19,
+      "probability": {
+        "gi": 19,
+        "nogi": 19
+      },
       "result": "counter"
     }
   ],

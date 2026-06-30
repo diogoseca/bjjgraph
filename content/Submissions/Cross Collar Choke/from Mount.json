@@ -18,7 +18,10 @@
   "target_area": "Carotid arteries",
   "starting_position": "Mount",
   "from_position": "Mount/Top",
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Cross Collar Choke from Mount combines the mechanical advantage of the mount position with bilateral carotid compression through cross collar grips to create one of the highest-percentage gi submissions in Brazilian Jiu-Jitsu. Unlike executing this choke from closed guard where the attacker must generate upward force against gravity, the mount variation benefits from gravity naturally assisting grip depth and finishing pressure. The attacker's elevated position allows chest weight to drive directly into the forearms, amplifying the scissoring action across both carotid arteries.\n\nThe primary tactical sequence involves establishing the first collar grip deep on the far side while maintaining mount stability through heavy hips and squeezed knees. The second hand threads under the first arm to grip the opposite collar, forming an X with the forearms across the opponent's neck. The finishing mechanic relies on pulling the elbows apart and downward toward the mat while dropping chest weight forward, producing bilateral compression that causes unconsciousness within 4-8 seconds when properly applied.\n\nFrom a strategic standpoint, the Cross Collar Choke creates a powerful dilemma tree from mount. When the opponent defends collar grips by bringing hands to their neck, their elbows flare and armbars become available. When they keep elbows tight to prevent arm isolation, the collar remains accessible for choke entries. This binary forces the bottom player into progressively narrower defensive choices, making the Cross Collar Choke the centerpiece of systematic mount offense in gi competition.",
   "safety_considerations": {
     "injury_risks": [
@@ -99,17 +102,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "Mount/Top",
-      "probability": 27,
+      "probability": {
+        "gi": 27,
+        "nogi": 27
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],

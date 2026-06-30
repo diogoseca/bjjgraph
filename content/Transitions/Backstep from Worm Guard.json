@@ -15,26 +15,41 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Worm Guard/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "The backstep from worm guard is a specialized guard passing technique designed to neutralize the lapel entanglement that defines modern worm guard systems. Rather than attempting to strip the lapel wrap from the front—where the bottom player's mechanical advantage is strongest—the backstep redirects the passing vector entirely by stepping the trapped leg backwards and around the bottom player's guard structure. This angular change breaks the lapel tension line and creates passing opportunities that the worm guard configuration cannot defend against without fundamental repositioning.\n\nThe technique draws from the same biomechanical principles that make backstepping effective against other open guards like De La Riva and single leg X-guard: by circling the trapped leg behind the opponent rather than pulling it forward through their control, the passer exploits the one-directional nature of the lapel wrap. The worm guard lapel functions like a one-way ratchet—it prevents forward extraction but becomes slack when the leg moves in the opposite direction. Understanding this asymmetry is key to executing the backstep with proper timing and angle.\n\nFrom a strategic standpoint, the backstep from worm guard serves as a critical secondary option in the passer's toolkit. While the primary approach against worm guard involves systematic lapel stripping, the backstep provides an alternative when the bottom player's grip fighting makes direct lapel removal impractical. The technique carries moderate risk, as the rotational movement during the backstep can expose the passer's back if the bottom player reads the movement early and pursues a back take.",
   "conditions": [
     "Opponent has established worm guard with lapel wrapped around your lead leg",

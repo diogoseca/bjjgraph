@@ -14,26 +14,41 @@
   "outcomes": [
     {
       "to": "Open Guard/Top",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Mount/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "success"
     },
     {
       "to": "Lasso Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The **Lasso Sweep** is a fundamental sweeping technique from lasso guard that leverages the shin-across-arm control to create an irrecoverable loss of base, bringing the sweeper up on top inside the opponent's guard. The sweep works by combining the lasso's mechanical advantage over the opponent's trapped arm with a secondary pulling grip and coordinated hip movement, directing force toward the side where the opponent cannot post effectively.\n\nThe technique exploits a core vulnerability inherent to lasso guard: the trapped arm cannot function as a defensive post. When the sweeper extends the lasso leg upward while pulling with a collar or pants grip, the opponent's base collapses toward the compromised side. The hip rotation that follows converts the off-balance into a complete reversal, with the sweeper rising to top position as the lasso leg is released. From there the sweeper most often lands in the opponent's open guard and can pass forward to mount; reaching mount directly off the topple is possible but uncommon. This mechanical reliability makes the Lasso Sweep one of the most dependable guard reversals in gi-based competition.\n\nStrategically, the Lasso Sweep serves as a constant background threat that shapes the entire lasso guard interaction. The top player must always respect the sweep possibility, which restricts their movement options and creates openings for complementary attacks. When the opponent adjusts their base to defend the sweep, they often expose themselves to triangle entries, omoplata setups, or other sweep variations. This makes the Lasso Sweep not just a standalone technique but a central piece in the lasso guard attacking system.",
   "conditions": [
     "Deep lasso control established with shin fully threaded across opponent's tricep",

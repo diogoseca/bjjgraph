@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Clamp Guard/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "The Sweep from Clamp Guard exploits the fundamental asymmetry created by arm isolation — with one arm trapped between the guard player's legs, the opponent has only a single arm available for basing and balance. This structural deficit makes the opponent vulnerable to directional off-balancing that would be insufficient against a fully-based opponent. The sweep capitalizes on this compromised base by combining the clamp's controlling mechanics with hip elevation and directional force to topple the opponent and achieve mount.\n\nStrategically, the sweep serves multiple purposes within the clamp guard system. It punishes opponents who drive forward to neutralize submission threats, forces opponents to commit their free arm to base defense rather than extraction attempts, and creates a decision tree where defending the sweep opens submission pathways. The sweep and submission threats from clamp guard form a complementary attacking system where each threat reinforces the other — opponents who base wide to prevent sweeps extend their trapped arm into armbar range, while those who keep tight to defend submissions leave themselves vulnerable to being rolled.\n\nThe execution requires precise timing. The sweep is highest percentage when the opponent shifts weight forward or commits their free arm to an action other than basing. Premature sweep attempts against a well-based opponent waste energy and may compromise the clamp position. Patient guard players who threaten submissions to draw defensive reactions before sweeping achieve significantly higher success rates than those who attempt the sweep in isolation.",
   "conditions": [
     "Clamp guard established with shin-on-bicep control isolating one of opponent's arms between legs",

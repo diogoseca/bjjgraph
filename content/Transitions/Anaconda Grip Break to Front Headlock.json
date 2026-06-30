@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Front Headlock/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Anaconda Control/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Darce Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Within the bottom player's defensive hierarchy against the front-headlock system, breaking the opponent's clasped grip is the single highest-priority action the moment the anaconda configuration locks around your neck and trapped arm. This transition addresses the immediate submission threat by systematically dismantling the constricting loop before the choke reaches critical tightness, allowing you to transition to the less dangerous front headlock position where additional escape options become available.\n\nThe technique relies on precise hand fighting at the opponent's grip junction combined with coordinated hip movement away from their chest pressure. Rather than attempting to pull your head free through brute force—which paradoxically tightens the choke—the grip break targets the weakest structural point of the anaconda configuration: the clasped hands on the far side. By attacking the opponent's grip with your free hand while simultaneously creating angular displacement through hip movement, you systematically unravel the submission threat.\n\nSuccessfully breaking the anaconda grip deposits you in front headlock bottom position. While still disadvantageous, front headlock bottom offers significantly more defensive options and lower immediate submission danger compared to anaconda control. From front headlock, you can work standing escapes, guard recovery, or granby rolls—none of which are available while the anaconda grip remains intact. The grip break is therefore not the final escape but rather the essential first step in a defensive chain that leads to positional safety.",
   "conditions": [
     "Opponent has established anaconda grip but has not completed the roll-through finishing sequence",

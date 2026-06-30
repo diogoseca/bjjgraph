@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Shin-to-Shin Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "Sitting at the front of the shin-to-shin guard attack hierarchy, this sweep capitalizes on the immediate leverage available from the perpendicular shin connection itself, rather than treating shin-to-shin as a mere transitional platform for single leg X or X-guard entries. By combining upper body pulling grips with shin-driven elevation, the guard player exploits the opponent's compromised base — caused by the perpendicular shin frame — to topple them directly backward or laterally into mount, making it one of the fastest scoring options from the position.\n\nStrategically, the Shin-to-Shin Sweep serves as the first layer of attack from shin-to-shin guard, forcing the top player to respect the immediate sweeping threat before they can focus on clearing the shin connection. When the opponent defends the direct sweep by posting or widening their base, they create openings for single leg X entries, X-guard transitions, and leg entanglement pathways. This creates a genuine attacking dilemma: defend the immediate sweep and open secondary attacks, or focus on clearing the shin and risk being swept directly. The technique is equally effective in gi and no-gi, though grip selection differs. In gi, collar and sleeve grips amplify the pulling mechanics, while no-gi relies on wrist control and collar ties to generate the necessary upper body connection for off-balancing.\n\nThe sweep's mechanical foundation relies on three simultaneous forces: the shin drives upward and forward through the opponent's base, the pulling grips break their posture and commitment to the sweep direction, and hip extension generates the power needed to complete the elevation. Timing is critical — the optimal window occurs when the opponent commits weight forward to pressure or clear the shin connection, momentarily loading the very lever you intend to use against them.",
   "conditions": [
     "Active shin-to-shin connection established with perpendicular angle across opponent's lower shin",

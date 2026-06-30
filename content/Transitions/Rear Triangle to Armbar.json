@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Armbar Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Rear Triangle/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Rear Triangle to Armbar transition exploits the trapped arm within the rear triangle configuration, converting a choking position into a devastating arm attack when the opponent successfully defends the triangle choke. This transition capitalizes on a fundamental defensive dilemma: when the opponent tucks their chin and fights the choke, they expose the trapped arm to isolation and extension. The attacker pivots from a squeezing choke angle to a perpendicular armbar angle, using the existing arm trap as the foundation for the new attack.\n\nMechanically, this transition requires the attacker to release the triangle lock while simultaneously maintaining absolute control of the trapped arm through wrist grips. The critical moment occurs during the hip pivot, where the attacker rotates from chest-to-back orientation to a perpendicular hip-to-shoulder alignment while swinging the top leg over the opponent's face. This creates the classic armbar control structure from what was previously a back-mounted triangle position.\n\nStrategically, this transition serves as a cornerstone of the rear triangle attack system. Opponents who learn to defend the rear triangle choke by tucking their chin and protecting the neck become vulnerable to this armbar pivot. This creates a genuine submission dilemma: defend the choke and expose the arm, or defend the arm and get choked. Advanced practitioners chain between the choke and armbar attempts multiple times within a single exchange, breaking down defensive layers progressively until one attack succeeds.",
   "conditions": [
     "Rear triangle control established with one arm trapped inside the triangle structure",

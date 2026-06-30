@@ -16,31 +16,49 @@
   "outcomes": [
     {
       "to": "Closed Guard/Bottom",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 5,
+      "probability": {
+        "gi": 5,
+        "nogi": 5
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "Stack Defense is a fundamental defensive skill for maintaining guard when an opponent attempts to stack you by driving your knees toward your shoulders and passing around your legs. This defensive framework combines frame management, hip escape mechanics, and strategic angle recovery to neutralize one of the most common guard passing approaches in both gi and no-gi grappling. The stack pass creates pressure by folding your body, compressing your spine, and limiting your hip mobility, making it essential to understand proper defensive posture and escape mechanics before the position becomes consolidated.\n\nEffective stack defense requires recognizing the pass early, establishing strong frames to create distance, using hip movement to recover optimal angles, and maintaining active leg engagement to prevent the passer from consolidating control. The key conceptual insight is that linear backward movement is insufficient against stacking pressure; you must create lateral angles that break the opponent's forward driving force. Frame placement on the hips, shoulders, or biceps creates the initial space, while hip escapes at 45-90 degree angles generate the positional recovery that restores guard structure.\n\nThis technique is critical for guard players at all levels, as the stack pass represents a high-percentage attack that can lead to side control, mount, or submission opportunities if not properly defended. Advanced practitioners chain stack defense directly into offensive transitions, using the opponent's failed pass as an opportunity to sweep, submit, or transition to more dynamic guard positions. The defensive-to-offensive flow that characterizes high-level guard play begins with mastering this fundamental defensive sequence.",
   "variants_and_adaptations": [
     {

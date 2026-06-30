@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Aoki Lock Control/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Base Attack to Sweep represents a critical offensive escape option from the Aoki Lock bottom position, targeting the top player's posted leg to destabilize their base and create a sweeping opportunity. When caught in Aoki Lock bottom, most practitioners focus purely on defensive arm extraction, but the base attack approach exploits a fundamental vulnerability in the position - the top player must maintain a posted leg for stability while applying shoulder pressure, and attacking this base creates immediate positional crisis.\n\nThis technique operates on the principle that the Aoki Lock top player cannot simultaneously maintain maximum shoulder pressure and defend their posted leg. By timing your attack to coincide with their pressure application, you catch them committed to the finish and vulnerable to base disruption. The sweep typically ends in mount position, converting a highly dangerous defensive situation into dominant top control.\n\nThe base attack is particularly effective because it addresses both survival and advancement simultaneously. Rather than simply escaping the shoulder lock, you create a dilemma where the opponent must choose between maintaining the submission or protecting their position. Advanced practitioners chain this with arm extraction attempts, using the threat of one to create openings for the other. This technique requires precise timing, hip mobility, and the ability to read when opponents are committed to finishing rather than maintaining position.",
   "related_content": [
     {

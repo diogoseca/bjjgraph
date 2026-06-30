@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "Reverse X-Guard/Bottom",
-      "probability": 27,
+      "probability": {
+        "gi": 27,
+        "nogi": 27
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "Within the modern leg-entanglement game, the Reverse X to Back Take occupies a special place as the punishment for any opponent who tries to retreat out of trouble rather than fight through it. Reverse X-Guard already threatens powerful elevation sweeps, so a defender who backsteps, widens their base, or pulls their hips away to kill that sweep is making a different mistake - surrendering their back. This transition is the guard player's answer to that retreat, converting a defensive reaction into the most dominant position in the sport.\n\nThis back take represents one of the most elegant applications of the inversion principle in modern guard play. Rather than fighting against the opponent's weight and defensive posture, you flow with their movement, using their escape attempt as the catalyst for your advancement to the most dominant position in BJJ. The technique requires excellent hip mobility, timing, and the ability to maintain connection throughout the transition.\n\nStrategically, the Reverse X to Back Take creates a powerful dilemma for the opponent. If they stay committed to defending sweeps with a strong forward base, they become vulnerable to traditional elevation sweeps. If they attempt to disengage or backstep away from the sweep threat, they expose their back. This lose-lose scenario exemplifies positional BJJ at its highest level, where every defensive choice opens a different offensive pathway.",
   "conditions": [
     "Reverse X-Guard must be fully established with both hooks controlling opponent's leg",

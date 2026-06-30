@@ -22,7 +22,10 @@
     "50-50 Guard",
     "Outside Ashi-Garami"
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "The Outside Heel Hook from Backside 50-50 is one of the highest-percentage leg lock finishes in modern no-gi grappling. This submission exploits the unique advantages of the backside 50-50 configuration—chest-to-back pressure, superior visual access to the opponent's legs, and enhanced rotational control—to attack the lateral structures of the opponent's knee through controlled heel rotation. The backside angle is particularly effective because the top player's body weight pins the defender's hips, neutralizing the defensive hip rotation that normally defuses heel hook attacks from other leg entanglement positions.\n\nThe finishing mechanics rely on isolating the opponent's heel while their knee line is immobilized by the leg entanglement. The attacker cups the heel and applies lateral rotation, turning the foot outward relative to the knee, generating devastating torque against the lateral collateral ligament, posterolateral corner structures, and potentially the anterior cruciate ligament. Unlike standard heel hooks from symmetric 50-50, the backside orientation provides a mechanical advantage because the attacker can combine rotational force with posterior hip extension, creating compound pressure that is extremely difficult to defend once the grip is established.\n\nThis submission demands absolute respect for its injury potential. Rotational forces on knee ligaments provide minimal proprioceptive feedback before structural failure, meaning the defender may not feel significant pain until damage has already occurred. Strict adherence to controlled application speed, immediate release on any tap signal, and conservative training protocols are essential for safe practice.",
   "safety_considerations": {
     "injury_risks": [
@@ -78,22 +81,34 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Backside 50-50/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "50-50 Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],

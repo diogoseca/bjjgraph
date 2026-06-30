@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Dogfight Position/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Crossface from Dogfight is a fundamental top player technique for shutting down the bottom player's offensive momentum when they have elevated to the kneeling dogfight position from half guard. The top player drives their shoulder blade or forearm across the opponent's face and neck to turn their head away, break their upright posture, and systematically flatten them back to the mat. This technique directly neutralizes the underhook—the bottom player's primary offensive weapon—by creating a mechanical disadvantage that prevents forward driving pressure and elevated posture maintenance.\n\nStrategically, the crossface represents the top player's most direct answer to the dogfight dilemma. Rather than engaging in a prolonged underhook battle where the bottom player holds initiative and can chain sweeps and back takes, the crossface bypasses the grip fight by attacking posture and head position. The shoulder blade drives into the opponent's jaw or cheekbone while the whizzer tightens on the underhook arm, creating a dual control mechanism that systematically collapses the bottom player's structure. As the opponent flattens, the top player drops their hips, sprawls to extract the trapped leg, and completes the pass to side control.\n\nThe technique is particularly effective because it rewards proper angle, timing, and weight distribution rather than raw strength. Advanced practitioners time the crossface to coincide with the opponent's forward drive, redirecting their momentum downward. The crossface can be applied with varying intensity—from a controlling pressure that gradually erodes posture to an aggressive flattening tool that forces immediate positional regression. This adaptability makes it effective across body types and competitive contexts, forming a cornerstone of half guard top strategy.",
   "conditions": [
     "Both players elevated in kneeling dogfight position with active grip engagement",

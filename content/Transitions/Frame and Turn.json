@@ -14,26 +14,41 @@
   "outcomes": [
     {
       "to": "Turtle/Bottom",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "success"
     },
     {
       "to": "Twister Control/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "Frame and Turn represents the primary defensive escape sequence from Twister Control Bottom, addressing one of the most mechanically compromised positions in Brazilian Jiu-Jitsu. This technique focuses on systematically reducing spinal rotation through coordinated frame creation and hip turning mechanics, ultimately allowing the bottom player to realign their spine and recover a more defensible position such as Turtle or Half Guard.\n\nThe fundamental challenge when escaping Twister Control is that your spine is rotated with shoulders and hips facing different directions, which compromises your core strength and prevents normal explosive escape movements. Frame and Turn addresses this by creating structural frames that prevent the opponent from deepening their control while simultaneously working to reduce the rotational constraint through calculated hip turning movements. Unlike panic-driven explosive escapes that often increase spinal torque, this technique emphasizes methodical progression through small technical adjustments.\n\nStrategically, Frame and Turn works best when executed early in the Twister Control sequence, before the opponent has fully established their leg control and maximized spinal rotation. The technique creates a systematic pathway out of an otherwise extremely dangerous position, buying time to prevent submission while working toward positional recovery. Success requires patience, composure under significant discomfort, and precise understanding of when to frame, when to turn, and when to commit to the escape movement.",
   "related_content": [
     {

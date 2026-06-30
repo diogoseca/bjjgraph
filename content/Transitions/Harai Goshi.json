@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 70,
+      "probability": {
+        "gi": 70,
+        "nogi": 70
+      },
       "result": "success"
     },
     {
       "to": "Standing Position/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Standing Position/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "summary": "Harai Goshi, the sweeping hip throw, is a standing judo throw where you load the opponent onto your hip and reap their weight-bearing leg with a sweeping action, rotating them over your hip to follow into side control.",
   "overview": "Harai Goshi, the sweeping hip throw, is one of judo's most elegant and effective techniques that has found significant application in Brazilian Jiu-Jitsu's standing game. This throw combines precise footwork, hip placement, and leg sweeping action to generate tremendous off-balancing force while maintaining control throughout the opponent's descent. Unlike pure forward throws, Harai Goshi creates a unique rotational motion that allows the thrower to follow smoothly into dominant ground positions.\n\nThe technique's effectiveness in BJJ competition stems from its versatility in both gi and no-gi contexts, its ability to score significant points, and its natural transition into side control or mount. When executed properly, Harai Goshi demonstrates the fundamental principle that technical precision and timing can overcome significant strength advantages, making it particularly valuable for smaller practitioners against larger opponents.\n\nFrom a systems perspective, Harai Goshi functions as a high-reward option within the standing exchange that chains naturally with foot sweeps and other hip throws. The throw creates a dilemma for the defender: widening stance to resist the sweep opens them to Osoto Gari, while stepping backward to avoid the hip entry feeds directly into Kouchi Gari or single leg entries. This combinatorial pressure makes Harai Goshi far more dangerous as part of a throwing system than as an isolated technique.",
   "conditions": [

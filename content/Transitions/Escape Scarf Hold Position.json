@@ -15,31 +15,49 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "success"
     },
     {
       "to": "Turtle/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "success"
     },
     {
       "to": "Scarf Hold Position/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "Escaping Scarf Hold Position represents one of the most technically demanding pin escapes in Brazilian Jiu-Jitsu, requiring mechanics fundamentally different from standard side control escapes. The perpendicular angle of kesa gatame negates lateral shrimping, forcing the bottom player to rely on bridge-and-turn mechanics, backdoor escapes, and precisely timed frame creation to recover guard or reach turtle. The escape system centers on exploiting the inherent vulnerabilities in scarf hold's structure: the exposed back when the top player commits weight forward, the potential to attack posted limbs to destroy base, and timing windows created when the top player shifts weight for submissions or positional transitions.\n\nSuccess demands patience, energy management, and the ability to chain multiple escape attempts when individual techniques are defended. The primary escape pathway targets half guard recovery through systematic frame creation and hip movement, while secondary pathways include turtle transitions through backdoor mechanics and scramble creation through explosive bridge-and-roll. The bottom player must develop tactile sensitivity to weight distribution changes, recognizing micro-opportunities that appear when the top player commits to offensive actions rather than purely maintaining the pin.\n\nModern scarf hold escape methodology integrates both classical judo bridge-and-roll concepts with contemporary guard recovery sequences from sport BJJ. Building a systematic escape progression from initial frame establishment through explosive escape execution and final guard recovery transforms this historically difficult position from a survival scenario into a manageable technical problem with multiple solution pathways.",
   "conditions": [
     "Bottom player trapped in scarf hold with opponent's hip pressure on ribs restricting breathing",

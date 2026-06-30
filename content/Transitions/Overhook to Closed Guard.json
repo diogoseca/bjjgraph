@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Closed Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Overhook Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Within the guard retention system, this transition acts as a strategic escape hatch from a specialized control into a fundamental one. It becomes essential when the overhook grip is being threatened, when the bottom player wants access to the broader closed guard submission and sweep arsenal, or when defensive consolidation is needed against an aggressive passer who is beginning to work around the overhook guard structure.\n\nStrategically, this transition trades the specialized attacking opportunities of the overhook position for the greater positional security and wider offensive platform that closed guard provides. The overhook serves as an excellent tool during the transition itself, as it breaks the opponent's posture and restricts their arm, making it significantly easier to walk the hips in and lock the ankles. The bottom player must time the closure carefully, committing to the leg movement only when the opponent's posture is sufficiently broken and their base is compromised by the overhook pressure.\n\nThe primary challenge lies in maintaining control during the transition window between open and closed guard. The moment of ankle crossing is the most vulnerable point, as the bottom player must briefly adjust their leg position without creating space the top player can exploit. A poorly timed attempt gives the top player an opportunity to posture, strip the overhook, and begin establishing distance for guard passing. Successful execution requires precise timing, proper hip alignment, and decisive leg movement to lock the guard before the top player can react.",
   "conditions": [
     "Bottom player has established deep overhook on opponent's arm with hand gripping lat or shoulder blade",

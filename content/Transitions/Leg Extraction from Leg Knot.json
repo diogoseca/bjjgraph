@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Top",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Leg Knot/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "Within the leg knot subsystem, the extraction is the disciplined alternative to chasing a finish — rather than forcing a heel hook or committing to a backstep, the top player elects to safely free their trapped leg and bank a known passing platform. Unlike the backstep pass which aims for side control, this extraction focuses on controlled disengagement into a manageable passing position, making it the conservative but reliable option when the leg knot configuration is deteriorating or when the top player wants to exit the leg lock exchange entirely without committing to a dramatic passing movement.\n\nThe technique relies on a combination of hip pressure, systematic peel mechanics, and precise timing to strip the opponent's hooks and weaves without creating space for counter-attacks. The key mechanical principle is using forward pressure and weight distribution to flatten the opponent's hip mobility while incrementally freeing the trapped leg segment by segment — ankle first, then knee, then full extraction. This methodical approach contrasts with explosive extraction attempts that often tighten the entanglement or create scramble situations favoring the bottom player.\n\nStrategically, the leg extraction occupies an important role in the leg knot subsystem as the safe exit option. When heel hook and toe hold attacks are being effectively defended, when energy is depleting from sustained entanglement warfare, or when the bottom player is threatening counter-entanglements, the leg extraction to Half Guard Top provides a reliable reset into a well-understood passing position. From Half Guard Top, the top player retains positional advantage with multiple passing options while eliminating the mutual submission danger inherent in leg entanglement exchanges.",
   "conditions": [
     "Top player has established Leg Knot Top with at least partial upper body control",

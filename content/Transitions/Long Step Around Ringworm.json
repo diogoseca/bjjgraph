@@ -13,26 +13,41 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "success"
     },
     {
       "to": "Lapel Guard/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "summary": "Long Step Around Ringworm is a gi guard pass that uses an exaggerated wide arcing step to travel completely around a ringworm lapel configuration—bypassing its blocked passing lanes instead of clearing the fabric—to reach side control.",
   "overview": "Ringworm guard's defensive power comes from layering multiple lapel wraps around your legs and arms, building persistent fabric barriers that prevent hip contact and render standard pressure passing ineffective. Attempting to grip-fight through every wrap drains enormous energy and rarely succeeds, which is precisely the dilemma the long step is built to solve.\n\nThis technique employs an exaggerated long step to change the passing angle dramatically, allowing you to step completely around the lapel configuration rather than fighting through it. The key insight is that ringworm guard's strength lies in controlling specific passing lanes; by taking a wide arc with your passing leg, you exit those controlled lanes entirely. The long step creates distance from the lapel wrap while simultaneously closing the gap to a dominant passing position.\n\nStrategically, this pass is most effective when you recognize that direct clearing of the ringworm configuration would require excessive energy expenditure. Rather than engaging in a prolonged grip-fighting battle to remove multiple lapel wraps, the long step accepts the configuration's existence and navigates around it. This approach preserves energy and catches opponents who have invested heavily in establishing complex lapel systems, as they often don't anticipate passes that simply bypass their control structure.",
   "related_content": [

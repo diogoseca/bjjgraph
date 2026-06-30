@@ -20,7 +20,10 @@
   "target_area": "Foot and ankle joints (forced dorsiflexion targeting tarsometatarsal and ankle ligaments)",
   "starting_position": "Saddle",
   "from_position": "Saddle/Top",
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Estima Lock from Saddle exploits the secure leg entanglement of the Saddle position to attack the foot and ankle through forced dorsiflexion. Unlike standalone Estima Lock attempts from open guard positions, the Saddle provides a structural base of leg control that prevents the opponent from simply retracting their foot, making this one of the highest-percentage Estima Lock entries available. The position naturally creates the submission opportunity when the opponent defends heel hook attempts by hiding their heel and rotating their knee inward, exposing the dorsal surface of the foot to capture.\n\nThe finishing mechanics involve trapping the opponent's foot tightly in the crook of your elbow and armpit while maintaining the Saddle leg entanglement throughout. Pressure is generated primarily through back extension and lat engagement rather than isolated arm strength. This body-mechanics-driven approach allows smaller practitioners to generate significant breaking force on the tarsometatarsal joint complex and ankle ligaments. The submission functions as a natural complement to heel hook attacks from Saddle, creating a submission dilemma where defending one threat directly exposes the other.\n\nStrategically, the Estima Lock from Saddle occupies a critical role in modern leg lock systems as the secondary attack that punishes heel hook defense. Practitioners who develop proficiency with both the heel hook and Estima Lock from this position become exponentially more dangerous, as the opponent faces a genuine two-threat problem with no safe defensive resting position. The technique demands careful attention to safety protocols given how rapidly foot and ankle damage can occur, particularly at the Lisfranc joint where injury consequences are severe and recovery times are prolonged.",
   "safety_considerations": {
     "injury_risks": [
@@ -111,17 +114,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Saddle/Top",
-      "probability": 29,
+      "probability": {
+        "gi": 29,
+        "nogi": 29
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 16,
+      "probability": {
+        "gi": 16,
+        "nogi": 16
+      },
       "result": "counter"
     }
   ],

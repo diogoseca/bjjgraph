@@ -16,26 +16,41 @@
   "outcomes": [
     {
       "to": "Closed Guard/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "success"
     },
     {
       "to": "Double Unders/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "This recovery sits at one of the most pressure-intensive crossroads in guard retention: the moment a passer has buried both underhooks and begun stacking. The top player has established bilateral underhook control under both legs with hands clasped behind the back, creating tremendous forward pressure that stacks the bottom player's weight onto their shoulders. The bottom player's window to reclaim leg positioning and re-establish a functional guard — most commonly closed guard or open guard — is narrow and closes the instant the passer's knees clear the hips.\n\nThe technique centers on frame creation and hip escape mechanics working in concert. The bottom player must first establish skeletal frames against the top player's face, neck, or shoulders to create enough separation to begin hip movement. Once minimal space exists, the bottom player hip escapes laterally while fighting to free one or both legs from the underhook control. The freed legs are then repositioned between the bodies, either closing around the opponent's waist for closed guard or establishing feet-on-hips positioning for open guard retention.\n\nStrategic timing is paramount in this recovery. Attempting guard recovery too early when the top player's pressure is maximal wastes energy against their strongest control. Waiting too long allows the pass to complete. The optimal window occurs during the top player's grip adjustment, weight shift, or transition between passing angles. Successful practitioners develop sensitivity to these micro-moments and execute explosive guard recovery sequences precisely when the top player's control momentarily weakens.",
   "conditions": [
     "Opponent has secured double underhooks under both of your legs with hands clasped behind your back",

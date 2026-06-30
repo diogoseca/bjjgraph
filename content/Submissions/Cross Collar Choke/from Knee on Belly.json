@@ -19,7 +19,10 @@
   "target_area": "Carotid arteries",
   "starting_position": "Knee on Belly",
   "from_position": "Knee on Belly/Top",
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The cross collar choke from knee on belly exploits the unique pressure dynamics of this dominant position to create collar grip opportunities unavailable from other starting points. The diaphragm compression from the knee forces the bottom player into immediate defensive reactions—pushing the knee, turning away, or reaching for frames—each of which opens the collar for grip insertion. This creates a feedback loop where the more the bottom player fights the positional pressure, the more vulnerable their neck becomes to the choke.\n\nUnlike the cross collar choke from mount or closed guard, the knee on belly variant benefits from a distinct gravitational advantage during the finish. As both collar grips are secured and the choking pressure begins, dropping weight from knee on belly into a low side control position dramatically increases the strangling force while simultaneously removing the opponent's primary escape route. The transition from high positional pressure to a low finishing position is what makes this variant particularly effective at intermediate and advanced levels.\n\nThe key strategic consideration is grip sequencing. The first grip must be deep and established during a moment of distraction—typically when the opponent reacts to the initial knee pressure. The second grip must be inserted rapidly before the opponent recognizes the threat. Training this submission develops sensitivity to defensive reactions under pressure and the ability to chain positional control into submission finishes.",
   "safety_considerations": {
     "injury_risks": [
@@ -91,17 +94,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "Knee on Belly/Top",
-      "probability": 27,
+      "probability": {
+        "gi": 27,
+        "nogi": 27
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],

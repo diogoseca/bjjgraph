@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Half Butterfly/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Smash Half Butterfly is a pressure-based passing technique executed from half butterfly top, designed to neutralize the bottom player's butterfly hook through systematic weight distribution and hip positioning. Rather than attempting to extract around or backstep past the hook, this approach directly attacks the hook's mechanical advantage by driving heavy chest and hip pressure that eliminates the space needed for the hook to generate elevation. The technique represents the most direct solution to the half butterfly guard problem, favoring methodical pressure over speed or agility.\n\nThe strategic value of this technique lies in its simplicity and reliability against aggressive butterfly guard players who use the hook to create constant off-balancing threats. By committing to a smashing approach, the top player removes the bottom player's primary offensive weapon—the lifting power of the butterfly hook—and reduces the position to a standard half guard exchange where pressure passing fundamentals apply. This technique is particularly effective against smaller or more flexible guard players who rely on dynamic hook movement rather than strength-based retention.\n\nUnderstanding when to apply the smash versus other passing approaches from half butterfly is critical. The smash works best when the top player has already established solid upper body control and the bottom player is attempting to maintain the hook through positioning rather than actively sweeping. If the bottom player is actively elevating and attacking, the top player may need to address the sweep threat first before committing to the smash sequence.",
   "conditions": [
     "Top player has established half butterfly top position with one side of the guard cleared",

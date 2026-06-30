@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Electric Chair/Bottom",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Lockdown/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "summary": "The Electric Chair Transition is the 10th Planet sequence that converts lockdown half-guard control into the Electric Chair attacking position, using hip extension and a deep underhook to elevate the opponent's trapped leg and threaten a simultaneous sweep and submission.",
   "overview": "The Electric Chair Transition is the fundamental pathway from lockdown half guard to the devastating Electric Chair attacking position. This transition represents the core mechanics of the 10th Planet half guard system, converting defensive lockdown control into an aggressive sweep and submission platform. The technique requires precise sequencing of grip establishment, hip elevation, and upper body control to create the characteristic splitting pressure that defines the Electric Chair.\n\nThe transition exploits the mechanical advantage created by the lockdown's leg entanglement. By extending your hips while maintaining tight lockdown pressure and securing a deep underhook, you elevate your opponent's trapped leg into an increasingly compromised position. The key insight is that this isn't merely a positional change but a continuous application of pressure that forces defensive reactions at every stage.\n\nStrategically, the Electric Chair Transition creates an immediate dilemma for the top player. Defending the elevation exposes them to the Old School sweep, while allowing the transition subjects them to the Electric Chair submission threat. This dual-threat nature makes the transition exceptionally difficult to stop once initiated with proper timing and control.",
   "related_content": [

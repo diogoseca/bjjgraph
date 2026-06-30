@@ -23,7 +23,10 @@
   "target_area": "Ankle, knee ligaments, and surrounding connective tissue",
   "starting_position": "Inside Ashi-Garami",
   "from_position": "Inside Ashi-Garami/Bottom",
-  "success_rate": 52,
+  "success_rate": {
+    "gi": 52,
+    "nogi": 52
+  },
   "variant_uniqueness": "Inside rotation through ashi-garami targeting knee ligaments with minimal pain warning",
   "overview": "The Inside Heel Hook is one of the most powerful and dangerous leg locks in Brazilian Jiu-Jitsu, targeting the ankle joint, knee ligaments (ACL, MCL, LCL), and surrounding connective tissue through rotational force. Applied primarily from Inside Ashi-Garami (inside leg entanglement position), this submission creates torque on the opponent's leg by controlling the heel and rotating it against the natural range of motion of the knee joint. The Inside Heel Hook differs from the Outside Heel Hook in the direction of rotation and the leg entanglement configuration—the inside position places your inside leg across the opponent's hip while your outside leg hooks over their trapped leg, creating a figure-four control that isolates the limb. This submission is notorious for its rapid finish time and the difficulty opponents face in recognizing when they are in danger, as there is often minimal pain before catastrophic ligament damage occurs. The mechanical advantage created by proper hip placement and heel control generates enormous rotational force that can rupture ligaments in under one second when applied at full speed, making it absolutely essential that practitioners understand the safety protocols and training progressions before attempting this technique. The systematic development of inside heel hook mechanics requires mastery of leg entanglement entries, positional control maintenance, and precise finishing mechanics that prioritize control over speed in all training applications.",
   "safety_considerations": {

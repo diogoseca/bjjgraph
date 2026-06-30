@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Leg Drag Control/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Leg Drag to Back Take represents one of the highest-percentage transitions in modern Brazilian Jiu-Jitsu, capitalizing on the positional dominance already established through leg drag control. When you have successfully dragged your opponent's leg across their body and established hip control, the natural defensive reaction of turning away to protect their guard creates the perfect opportunity for back exposure. This transition exploits fundamental biomechanics: the crossed leg limits hip mobility while your pressure forces a choice between staying flat and giving up side control, or turning away and exposing the back.\n\nThe strategic value of this technique lies in its reliability and the dominant position it achieves. Back control scores 4 points in IBJJF competition and provides the highest submission percentage of any position. Unlike many back take attempts that involve scrambles or uncertain exchanges, the leg drag to back take follows a predictable pattern based on your opponent's defensive reactions. When they turn away to prevent you from advancing to mount or side control, you simply follow their rotation with your hooks and upper body control.\n\nExecution requires maintaining constant pressure and connection throughout the transition. The moment you feel your opponent begin to rotate away, you must immediately abandon your leg drag grip priorities and shift to back control grips. Your underhook on the near side becomes your seatbelt grip, while your other arm reaches over their back for the far hip or establishes harness control. The bottom hook inserts first as their hip turns, followed by the top hook once you have secured upper body control. Timing is critical—hesitation allows them to complete their escape to turtle, while premature movement telegraphs your intention.",
   "related_content": [
     {

@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Carni/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Crackhead Control/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Crackhead Control to Carni transition represents one of the most innovative defensive-to-offensive conversions in the 10th Planet Jiu-Jitsu system. When caught in the Crackhead Control defensive position on bottom, this technique allows the defender to exploit the top player's leg positioning by threading underneath and establishing the Carni leg entanglement. Rather than simply escaping to a neutral position, this transition immediately places the former defender in a dominant attacking configuration with heel hook, saddle, and back take opportunities.\n\nThe mechanical foundation of this transition relies on recognizing when the top player's weight commitment creates space underneath their body. The bottom player uses their constant hip movement and grip fighting characteristic of crackhead control defense to create a momentary opening, then explosively threads their legs to capture the opponent's near leg in the carni configuration. The key insight is that the top player's chair-sit mechanics, while excellent for maintaining turtle control, create vulnerability to leg entanglement attacks when the bottom player inverts underneath.\n\nThis transition is particularly effective in no-gi competition where the top player lacks gi grips to anchor their position during the bottom player's explosive movement. The technique exemplifies the 10th Planet philosophy of turning defensive positions into immediate offensive threats. Success requires excellent timing, hip mobility, and the ability to maintain hand fighting intensity while simultaneously setting up the leg capture. Advanced practitioners can chain this transition with the standard Carni attack tree including heel hooks, saddle entries, and back takes.",
   "related_content": [
     {

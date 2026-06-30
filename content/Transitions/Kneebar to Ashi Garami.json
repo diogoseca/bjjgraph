@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Inside Ashi-Garami/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Kneebar Control/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Kneebar to Ashi Garami transition represents a fundamental positional reconfiguration within the leg attack system, enabling practitioners to flow from a defended kneebar into inside ashi-garami where different submission pathways become available. Rather than forcing a low-percentage kneebar finish against a well-defended bent knee, this transition preserves leg control while changing the angle and type of attack, shifting from knee hyperextension threats to positions that offer heel hooks, straight ankle locks, and toe holds. The transition embodies the core principle of modern leg lock systems: every defensive reaction should open a new offensive pathway.\n\nWhen an opponent successfully defends the kneebar by bending their knee, maintaining strong posture, or rotating their hips, these same defensive actions often expose their heel or ankle to attacks from inside ashi-garami. The ability to recognize when the kneebar is sufficiently defended and smoothly reconfigure into ashi-garami without losing leg control separates intermediate practitioners from advanced leg lock players. This read-and-react approach transforms opponent defense into attacker opportunity, maintaining offensive pressure throughout the entire exchange.\n\nThe technical challenge lies in maintaining continuous control throughout the reconfiguration. The attacker must release kneebar extension pressure while simultaneously threading their legs into the ashi-garami configuration, all without creating gaps that allow leg extraction. This requires coordinated movement between the arms, which maintain the leg grip, and the legs, which reconfigure from kneebar structure to ashi hooks. Timing is critical: initiating the transition too early wastes a viable kneebar attempt, while waiting too long allows the opponent to fully establish their defense and begin escaping.",
   "conditions": [
     "Opponent has established strong kneebar defense with bent knee and engaged posture, reducing finish probability below viable threshold",

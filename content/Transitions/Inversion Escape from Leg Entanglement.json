@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Butterfly Guard/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "success"
     },
     {
       "to": "Leg Entanglement/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "failure"
     },
     {
       "to": "Saddle/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 35,
+  "success_rate": {
+    "gi": 35,
+    "nogi": 35
+  },
   "overview": "The inversion escape from leg entanglement is an advanced defensive technique where the bottom player uses an inverted rolling motion to extract their trapped leg from ashi garami configurations and recover to a playable guard position. This escape exploits a fundamental vulnerability in leg entanglements: the attacker's control relies on the defender's leg remaining in a predictable plane of motion, and inversion disrupts that plane by rotating the entire body around the trapped limb. When executed with proper timing, the inversion creates enough angular momentum to clear the knee line and free the trapped foot before the attacker can adjust their grips and leg configuration.\n\nThe technique requires significant flexibility, spatial awareness, and precise timing to execute successfully. Attempting the inversion too early, before the attacker has committed their grips, wastes the element of surprise and allows them to follow the roll. Attempting it too late, after the attacker has secured deep control and heel exposure, risks catastrophic knee injury as the rotational force of the inversion compounds the mechanical stress already applied to the joint. The optimal window occurs when the attacker is transitioning between control positions or adjusting their grips, creating a brief moment where their structural control is weakened.\n\nModern leg lock defense integrates the inversion escape as one option within a comprehensive escape hierarchy rather than a primary response. The technique pairs naturally with boot scooting, grip fighting, and guard recovery methods, giving the defender multiple tools to address different entanglement configurations. Against systematic leg lockers who anticipate inversions and adjust their control accordingly, the escape becomes most effective when chained with other defensive movements, using the initial inversion attempt to create scramble opportunities even if the full escape is not achieved.",
   "conditions": [
     "Opponent has not yet secured a deep figure-four heel grip with finishing mechanics applied",

@@ -13,21 +13,33 @@
   "outcomes": [
     {
       "to": "Ashi Garami/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Ashi Garami/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "While leg lock systems receive extensive attention for entries and finishes, the maintenance phase is what separates high-level leg lockers from practitioners who rely solely on explosive attacks. Retaining leg entanglement control against an opponent's systematic extraction attempts demands constant connection point management and hip following rather than static grip tension. This transition encompasses all the micro-adjustments, re-hooks, and grip transitions required to prevent the opponent from clearing your leg control and returning to a neutral or advantageous position.\n\nThe maintenance phase occupies a critical strategic role in the leg lock game. Without reliable retention, even technically superior entries become wasted energy as opponents consistently extract before advancement or finishing can occur. Effective maintenance creates cumulative pressure that exhausts defensive resources, forcing the opponent into increasingly desperate extraction attempts that open opportunities for hierarchical advancement toward Saddle or Cross Ashi-Garami. The patient, systematic approach to leg control retention reflects modern competition methodology where position quality precedes submission attempts.\n\nSuccessful Ashi Garami Maintenance requires simultaneous management of multiple connection points including the inside leg hook, outside leg clamp, hip-to-hip pressure, and upper body grips. Each connection point serves a specific function in preventing different escape vectors, and the practitioner must recognize which connections are under immediate threat and prioritize re-establishing them before the opponent chains multiple extractions together. This defensive awareness within an offensive position distinguishes competition-level leg lock players from casual practitioners who treat leg entanglements as static positions rather than dynamic control exchanges.",
   "conditions": [
     "You have established at least one leg hook in Ashi Garami configuration from bottom position",

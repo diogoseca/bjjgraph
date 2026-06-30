@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Butterfly Hook Control/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Few techniques define the butterfly guard as completely as this sweep, which has anchored elite competitors' games for decades precisely because it rewards timing and leverage over raw strength and remains effective across every weight class. The reversal converts the opponent's forward pressure into lateral momentum, redirecting their weight over the hooking leg while coordinated grip pulls prevent them from posting to recover base.\n\nWhat makes this sweep particularly reliable is its mechanical simplicity combined with strategic depth. The bottom player creates an angle by scooting their hips laterally, loads the opponent's weight onto the active hook, then executes a coordinated pull-and-lift motion that tips the opponent over to their back. The sweep finishes naturally in mount position, making it one of the highest-reward techniques available from butterfly guard.\n\nThe Butterfly Hook Sweep functions as the primary threat from butterfly hook control, creating the foundational dilemma that enables all other attacks from this position. When the opponent respects the sweep by posting wide or shifting weight backward, opportunities for arm drags, guillotines, and guard transitions open. When they drive forward to neutralize hooks, the sweep becomes even more available as their weight feeds directly into the elevation. This action-reaction dynamic makes the sweep not just a standalone technique but the cornerstone of an entire offensive system built around threatening elevation and capitalizing on defensive reactions.",
   "conditions": [
     "At least one butterfly hook established deep inside opponent's thigh with instep engagement",

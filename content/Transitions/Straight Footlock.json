@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Straight Ankle Lock from Straight Ankle Lock Control",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Straight Ankle Lock Control/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "summary": "The Straight Footlock is the committed finishing sequence from Straight Ankle Lock Control that breaks the ankle by driving hip extension and a back arch through a forearm blade seated behind the Achilles while the trapped heel is pinned to the chest.",
   "overview": "The Straight Footlock is the terminal finishing sequence applied from Straight Ankle Lock Control, converting positional dominance into a tap through forced dorsiflexion and Achilles tendon compression. Unlike the entry transitions that establish control, this technique represents the committed finishing mechanics where the attacker uses coordinated hip extension, back arch, and forearm pressure to generate breaking force on the ankle joint. The finish demands precise biomechanical alignment: the blade of the forearm must be seated directly behind the Achilles tendon, the heel must be trapped against the chest or armpit, and the legs must prevent all hip rotation before any extension begins.\n\nStrategically, committing to the Straight Footlock finish carries inherent risk. The attacker must fully extend their hips and arch backward, temporarily sacrificing the ability to transition to alternative attacks. If the finish fails, the attacker has expended significant energy and may have loosened their leg control during the extension attempt, opening escape windows for the defender. This creates a critical decision point: the attacker must accurately assess whether their control is sufficient to warrant committing to the finish, or whether maintaining positional control and threatening transitions to Inside Ashi-Garami or kneebar attacks offers higher expected value.\n\nThe technique is legal at all belt levels under IBJJF rules and represents the foundational leg lock finish that every practitioner must master. Its relatively lower injury risk compared to heel hooks makes it the appropriate introduction to finishing mechanics in leg entanglement systems, though the Achilles tendon remains vulnerable to serious damage from explosive or improperly applied pressure. Advanced practitioners chain the finishing threat with positional transitions, using the defender's reactions to the extension attempt as information that dictates the next attack in the sequence.",
   "related_content": [

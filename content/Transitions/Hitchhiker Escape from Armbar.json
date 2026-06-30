@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Open Guard/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Armbar Control/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "The Hitchhiker Escape is one of the most reliable armbar defense techniques in Brazilian Jiu-Jitsu, named for the distinctive thumb-up hand position that initiates the escape sequence. When caught in an armbar from the bottom position, the defender rotates their trapped arm so the thumb points toward their own head, then uses a coordinated bridge and body rotation to spin their entire body in the direction of the thumb. This rotational movement exploits a fundamental weakness in armbar mechanics: the armbar controls extension in one plane, but rotation perpendicular to that plane creates an escape vector that is extremely difficult to counter with simple squeezing.\n\nThe technique demands precise timing and full commitment. Initiating the escape too early, before the opponent has committed to the finish, wastes the element of surprise. Starting too late, after the arm is fully extended, risks joint injury. The optimal window opens when the opponent begins to elevate their hips for the finish but has not yet achieved full extension. At this moment, the defender's arm retains enough bend to generate rotational force, and the opponent's commitment to the finish creates predictable pressure that can be redirected through the rotation.\n\nStrategically, the hitchhiker escape integrates into a layered armbar defense system. It works best when combined with initial hand-clasping defense and stacking attempts that force the opponent to readjust. When those primary defenses are exhausted, the hitchhiker provides a secondary escape route that can catch even experienced armbar attackers off guard. The escape typically recovers to open guard or turtle position, requiring immediate follow-up guard recovery to prevent the opponent from re-establishing dominant position.",
   "conditions": [
     "Opponent has established armbar control with legs across torso and face",

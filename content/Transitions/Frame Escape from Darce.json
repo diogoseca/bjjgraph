@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Darce Control/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "When you are trapped in bottom Darce Control, the frame escape is the highest-percentage systematic answer because it attacks the choke's compression mechanism directly rather than fighting it head-on. This escape relies on establishing structural frames against the opponent's body to create space, relieve choking pressure on the carotid arteries, and systematically work toward guard recovery. The technique prioritizes biomechanical efficiency over explosive movement, using forearm and hand positioning to wedge space between the choking arm and the neck. The fundamental principle is that the Darce choke requires compression between the attacker's arm and the defender's own trapped shoulder, and frames disrupt this compression by creating counter-pressure at the opponent's hip or shoulder.\n\nThe Frame Escape is most effective when initiated early, before the opponent fully locks the figure-four grip and settles their weight. The bottom player must coordinate framing with hip escape movement, using the frame as a wall that prevents the opponent from following while the hips create distance. Once sufficient space is generated, the trapped arm is extracted to eliminate the arm-in choke configuration, and a knee shield is inserted to begin the transition to half guard recovery.\n\nStrategically, the Frame Escape serves as the primary systematic response to Darce Control. It complements other escape options like the Granby Roll and step-over escape, forming a layered defensive system that forces the Darce attacker to address multiple threats simultaneously. The technique rewards methodical execution over panic-driven explosiveness, making it accessible across skill levels when drilled consistently.",
   "conditions": [
     "Opponent has established Darce grip but choke pressure is not yet maximal",

@@ -17,7 +17,10 @@
   "submission_type": "Arm Lock",
   "target_area": "Elbow joint (hyperextension with reverse rotation)",
   "starting_position": "Mount",
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Reverse Armbar is an advanced elbow hyperextension technique distinguished by its inverted body positioning relative to the standard armbar. Unlike the traditional armbar where you face toward your opponent's head, the reverse armbar requires you to rotate your body 180 degrees so your hips face toward their feet while maintaining control of their arm. This submission is particularly effective in scramble situations, failed standard armbar attempts, or when opponents defend the conventional armbar by turning their thumb down. The reverse mechanics create unexpected leverage angles that catch even experienced practitioners off-guard, as defensive instincts trained for standard armbars often fail against this variation. The technique demands precise hip positioning, tight arm isolation, and careful rotational control to prevent escape while maintaining submission pressure. Success hinges on understanding how the reversed body angle changes the leverage dynamics—your legs must control their shoulder and head differently, and your hip placement becomes critical for generating breaking force without losing control.",
   "safety_considerations": {
     "injury_risks": [
@@ -63,17 +66,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Mount/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],

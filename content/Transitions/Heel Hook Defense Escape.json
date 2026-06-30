@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Open Guard/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Honey Hole/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Kneebar Control/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "summary": "The Heel Hook Defense Escape is an emergency survival sequence from a bottom leg entanglement where you protect the exposed heel, strip grips, and rotate into the heel hook's direction to extract your trapped leg and recover open guard.",
   "overview": "The Heel Hook Defense Escape is one of the most critical survival techniques in modern no-gi Brazilian Jiu-Jitsu. When caught in the Honey Hole position with an opponent threatening an inside heel hook, the window for successful escape is extremely narrow, typically measured in seconds before the submission becomes inescapable. This transition encompasses the complete defensive sequence from initial recognition through grip fighting, rotational mechanics, leg extraction, and guard recovery.\n\nThe escape relies fundamentally on rotational mechanics rather than linear pulling. The Honey Hole's inside leg triangle creates a mechanical trap that prevents direct leg withdrawal, requiring the defender to rotate their entire body in the direction of the heel hook pressure to relieve torque on the knee while simultaneously stripping the opponent's grip and creating space for leg extraction. The timing must be immediate and the commitment total, as half-measures fail and burn precious energy while the opponent tightens control.\n\nStrategically, this escape ranks among the highest-priority defensive skills for any practitioner training in leg lock systems. The asymmetric danger of Honey Hole means that defensive competence must match or exceed offensive understanding, as a single failed defense can result in catastrophic knee injury. Training this escape requires progressive resistance drilling with absolute commitment to tapping when escape fails, building realistic timing and recognition while preserving long-term training capability.",
   "conditions": [

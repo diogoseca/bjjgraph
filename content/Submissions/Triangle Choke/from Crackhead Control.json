@@ -18,7 +18,10 @@
   "target_area": "Carotid arteries and brachial plexus",
   "starting_position": "Crackhead Control",
   "from_position": "Crackhead Control/Bottom",
-  "success_rate": 65,
+  "success_rate": {
+    "gi": 65,
+    "nogi": 65
+  },
   "overview": "The triangle choke from Crackhead Control is one of the highest-percentage submissions available from the 10th Planet rubber guard system. Crackhead Control positions the bottom player's shin across the opponent's face and neck, creating a posture-breaking framework that naturally sets up triangle choke entries. Because the attacking leg is already at neck level and the opponent's posture is compromised, the transition to a locked triangle requires fewer steps than traditional closed guard setups, giving the defender significantly less time to mount an effective defense.\n\nThe position's strength lies in the asymmetric control it creates. The shin pressing across the opponent's face serves as both a barrier to posture recovery and a guide rail for the choking leg. By isolating one arm and swimming the locking leg over the far shoulder, the bottom player can establish the triangle configuration without the typical struggle of elevating hips and climbing legs that characterizes standard guard triangle attempts. This reduced transition distance means the opponent has fewer defensive windows to prevent the lock from closing.\n\nStrategically, the triangle from Crackhead Control functions as a primary threat within the rubber guard attacking system. It chains naturally with gogoplata, omoplata, and armbar attacks, creating a submission web where defending one threat exposes the opponent to another. The position is particularly effective in no-gi grappling where the absence of collar grips makes traditional posture-breaking more difficult, and Crackhead Control's mechanical posture break compensates for this limitation.",
   "safety_considerations": {
     "injury_risks": [
@@ -96,17 +99,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Crackhead Control/Bottom",
-      "probability": 23,
+      "probability": {
+        "gi": 23,
+        "nogi": 23
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 12,
+      "probability": {
+        "gi": 12,
+        "nogi": 12
+      },
       "result": "counter"
     }
   ],

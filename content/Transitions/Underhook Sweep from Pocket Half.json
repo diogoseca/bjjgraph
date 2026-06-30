@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 43,
+      "probability": {
+        "gi": 43,
+        "nogi": 43
+      },
       "result": "success"
     },
     {
       "to": "Pocket Half Guard/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 22,
+      "probability": {
+        "gi": 22,
+        "nogi": 22
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 43,
+  "success_rate": {
+    "gi": 43,
+    "nogi": 43
+  },
   "overview": "The Underhook Sweep from Pocket Half Guard is a fundamental come-up sweep available when the bottom player has established deep underhook control in pocket half guard. The technique exploits the mechanical advantage created by the deep underhook controlling the opponent's upper body rotation, combined with the pocket space maintained by the bottom leg frame against the opponent's hip. By rising to the knees while maintaining underhook control, the bottom player generates sweeping momentum that compromises the top player's base and drives them onto their back.\n\nThis sweep is most effective when the top player commits weight forward or attempts to flatten the bottom player, as their forward energy redirects into sweeping power. Unlike the Old School Sweep which requires reaching behind the far leg, the Underhook Sweep relies primarily on the come-up mechanic - rising to your knees while driving through the opponent's compromised base. This makes it particularly effective against pressure passers whose forward momentum becomes the catalyst for reversal.\n\nStrategically, this technique creates a fundamental dilemma for the top player: pressure forward and feed the underhook sweep, or posture away and expose back takes and Old School variations. This push-pull dynamic makes pocket half guard a dangerous attacking platform where no safe equilibrium exists for the passer, and the underhook sweep is the primary tool that punishes forward commitment.",
   "conditions": [
     "Deep underhook secured on opponent's far side, reaching across their back to grip the far lat or belt",

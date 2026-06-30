@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Electric Chair/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Deep Half Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Electric Chair Entry from Deep Half Guard is a critical transition in the lockdown system that bridges two of the most powerful bottom positions in modern grappling. From the deep half guard, where the bottom player has already established a deep underhook and positioned themselves underneath the opponent's center of gravity, this technique adds the lockdown leg configuration to trap the opponent's near leg while maintaining the existing underhook control. The result is a seamless transition into the Electric Chair position, which creates devastating sweep-submission chains that force the top player to address multiple threats simultaneously.\n\nThe entry relies on precise timing and coordination between the lockdown establishment and hip extension mechanics. The bottom player must secure the lockdown without sacrificing their deep underhook, then use hip elevation and lateral movement to begin splitting the opponent's legs apart. This creates the characteristic crotch-splitting pressure that defines the Electric Chair, simultaneously threatening a submission and loading a high-percentage sweep. The technique is particularly effective because it exploits the top player's already compromised base in deep half guard.\n\nWhat makes this entry especially dangerous is that the top player is already contending with deep half sweep threats. Adding the lockdown creates an entirely new dimension of control that forces the opponent to defend both the original deep half attacks and the Electric Chair simultaneously. The transition exemplifies the principle of layered attacks from bottom position, building progressively stronger control until the top player's defensive structure collapses entirely.",
   "conditions": [
     "Established deep half guard with secure underhook on opponent's far leg",

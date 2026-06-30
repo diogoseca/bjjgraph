@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Butterfly Half Guard/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Butterfly Guard/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "overview": "Transition to Butterfly Half Guard is a positional advancement technique executed by the top player when facing an opponent's full butterfly guard. The objective is to systematically clear one of the two butterfly hooks while maintaining top pressure, converting the symmetrical double-hook threat of butterfly guard into the asymmetric and more manageable butterfly half guard configuration. This transition is fundamental to any butterfly guard passing strategy because it reduces the bottom player's sweeping power by eliminating one elevator hook while trapping the remaining leg in half guard entanglement.\n\nThe technical challenge lies in clearing one hook without creating the space or angle that allows the bottom player to re-insert it or, worse, transition to X-Guard or single leg X. The top player must coordinate upper body pressure through crossface or shoulder drive with precise hip movement to pin one knee to the mat while stepping the free leg past the hook. Timing is critical: the best windows occur when the bottom player commits to a sweep attempt on one side, momentarily weakening hook retention on the other.\n\nFrom a strategic perspective, this transition represents the first checkpoint in a systematic butterfly guard passing sequence. Rather than attempting to pass butterfly guard in a single explosive movement, high-level passers break the problem into stages: clear one hook to reach butterfly half guard, then address the remaining hook and half guard trap from a position of greater stability. This incremental approach reduces risk and forces the bottom player to solve increasingly difficult retention problems. The transition also creates opportunities for submission entries, as the bottom player's defensive reactions to hook clearing often expose the neck or arms.",
   "conditions": [
     "Opponent has both butterfly hooks inserted under your thighs",

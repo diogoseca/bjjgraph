@@ -15,23 +15,34 @@
   "outcomes": [
     {
       "to": "New York Control/Bottom",
-      "probability": 57,
+      "probability": {
+        "gi": 57,
+        "nogi": 57
+      },
       "result": "success"
     },
     {
       "to": "Rubber Guard/Bottom",
-      "probability": 28,
+      "probability": {
+        "gi": 28,
+        "nogi": 28
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 57,
-  "overview": "New York Control Entry from Rubber Guard is the deliberate 10th Planet sequence in which the bottom player upgrades a standard Rubber Guard arm-trap into the submission-ready New York Control by walking the high controlling leg from across the opponent's back up onto the near shoulder while threading and locking a deep overhook on the same side. Where base Rubber Guard (Mission Control) simply traps the arm and breaks posture with the shin across the back, New York Control deepens both the leg height and the overhook so the shin sits over the shoulder line, immediately opening the gogoplata, triangle, and omoplata chains that define the position.\n\nThe transition is taught as the primary on-ramp into New York Control from the foundational guard, replacing the awkward reality that the position would otherwise only be reachable by failing out of a more advanced control. From an established Rubber Guard the practitioner already owns the trapped arm and broken posture; the entry then sequences a free-hand assist that walks the controlling leg upward, a hip rotation toward the overhook side to create the New York angle, and a deep overhook lock that clasps behind the shoulder or the practitioner's own shin to close the kinetic chain. Each of these increments trades a small amount of stability for a large gain in submission proximity.\n\nStrategically this entry matters because it converts the more conservative, posture-breaking Rubber Guard into an active finishing platform without surrendering the arm trap that makes the system work. It is most reliable when the opponent's posture is already broken and their near arm is committed deep across the practitioner's centerline, since those conditions remove the two most common failure modes: posture recovery and arm extraction. When the opponent reads the leg-walk and explodes their posture, the practitioner simply retains Rubber Guard rather than chasing the upgrade, which keeps the transition low-risk despite its high payoff. Against opponents unfamiliar with rubber guard defense, the leg height and overhook depth achieved here frequently produce a finish within seconds of the entry completing."
-,
+  "success_rate": {
+    "gi": 57,
+    "nogi": 57
+  },
+  "overview": "New York Control Entry from Rubber Guard is the deliberate 10th Planet sequence in which the bottom player upgrades a standard Rubber Guard arm-trap into the submission-ready New York Control by walking the high controlling leg from across the opponent's back up onto the near shoulder while threading and locking a deep overhook on the same side. Where base Rubber Guard (Mission Control) simply traps the arm and breaks posture with the shin across the back, New York Control deepens both the leg height and the overhook so the shin sits over the shoulder line, immediately opening the gogoplata, triangle, and omoplata chains that define the position.\n\nThe transition is taught as the primary on-ramp into New York Control from the foundational guard, replacing the awkward reality that the position would otherwise only be reachable by failing out of a more advanced control. From an established Rubber Guard the practitioner already owns the trapped arm and broken posture; the entry then sequences a free-hand assist that walks the controlling leg upward, a hip rotation toward the overhook side to create the New York angle, and a deep overhook lock that clasps behind the shoulder or the practitioner's own shin to close the kinetic chain. Each of these increments trades a small amount of stability for a large gain in submission proximity.\n\nStrategically this entry matters because it converts the more conservative, posture-breaking Rubber Guard into an active finishing platform without surrendering the arm trap that makes the system work. It is most reliable when the opponent's posture is already broken and their near arm is committed deep across the practitioner's centerline, since those conditions remove the two most common failure modes: posture recovery and arm extraction. When the opponent reads the leg-walk and explodes their posture, the practitioner simply retains Rubber Guard rather than chasing the upgrade, which keeps the transition low-risk despite its high payoff. Against opponents unfamiliar with rubber guard defense, the leg height and overhook depth achieved here frequently produce a finish within seconds of the entry completing.",
   "related_content": [
     {
       "name": "Rubber Guard",

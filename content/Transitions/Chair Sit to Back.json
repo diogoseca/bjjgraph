@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 68,
+      "probability": {
+        "gi": 68,
+        "nogi": 68
+      },
       "result": "success"
     },
     {
       "to": "Turtle/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Turtle/Bottom",
-      "probability": 12,
+      "probability": {
+        "gi": 12,
+        "nogi": 12
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 68,
+  "success_rate": {
+    "gi": 68,
+    "nogi": 68
+  },
   "overview": "The Chair Sit to Back Take is a fundamental transition from attacking turtle position to establishing dominant back control. This technique exploits the opponent's defensive turtle posture by controlling their hips and preventing forward movement while systematically climbing onto their back. The chair sit position provides exceptional control by using your leg as a barrier across the opponent's thigh, preventing them from turning into you while you establish the crucial seatbelt grip configuration.\n\nThe technique represents a high-percentage pathway to back control because it neutralizes the opponent's ability to counter-rotate or escape forward, creating a controlled environment for methodical position advancement. Unlike direct back climbing attempts that often devolve into scrambles, the chair sit creates an intermediate control station where you can stabilize, establish grips, and break down the opponent's structure before committing to the final transition.\n\nSuccess requires precise hip positioning, weight distribution, and grip sequencing to prevent common defensive reactions such as rolling or sitting through. The chair sit acts as a transitional control position that bridges the gap between attacking turtle and securing full back mount with hooks established. When the opponent does manage to sit through, the position flows naturally into truck and twister system attacks, making it a win-win proposition for the attacker.",
   "conditions": [
     "Opponent is in defensive turtle position on hands and knees",

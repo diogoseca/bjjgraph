@@ -294,23 +294,38 @@
     "transitions": [
       {
         "transition": "Lockdown Break and Pass",
-        "attempt_probability": 32
+        "attempt_probability": {
+          "gi": 32,
+          "nogi": 32
+        }
       },
       {
         "transition": "Limp Leg Escape to Pass",
-        "attempt_probability": 28
+        "attempt_probability": {
+          "gi": 28,
+          "nogi": 28
+        }
       },
       {
         "transition": "Straighten Leg Defense from Electric Chair",
-        "attempt_probability": 16
+        "attempt_probability": {
+          "gi": 16,
+          "nogi": 16
+        }
       },
       {
         "transition": "Back Take from Lockdown Defense",
-        "attempt_probability": 20
+        "attempt_probability": {
+          "gi": 20,
+          "nogi": 20
+        }
       },
       {
         "transition": "Darce from Lockdown Counter",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 4
+        }
       }
     ]
   },
@@ -558,23 +573,38 @@
     "transitions": [
       {
         "transition": "Old School Sweep",
-        "attempt_probability": 54
+        "attempt_probability": {
+          "gi": 54,
+          "nogi": 54
+        }
       },
       {
         "transition": "Deep Half Entry",
-        "attempt_probability": 14
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 14
+        }
       },
       {
         "transition": "Hip Rotation Escape from Electric Chair",
-        "attempt_probability": 6
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 6
+        }
       },
       {
         "transition": "Sweep from Electric Chair",
-        "attempt_probability": 8
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 8
+        }
       },
       {
         "transition": "Electric Chair from Electric Chair",
-        "attempt_probability": 18
+        "attempt_probability": {
+          "gi": 18,
+          "nogi": 18
+        }
       }
     ]
   }

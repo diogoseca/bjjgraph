@@ -16,31 +16,49 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "success"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "success"
     },
     {
       "to": "Modified Scarf Hold/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     },
     {
       "to": "North-South/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "The Escape from Modified Scarf Hold is a systematic, frame-based hip escape designed to create incremental space and recover guard from one of the most oppressive pinning positions in Brazilian Jiu-Jitsu. Unlike the explosive bridge escape that relies on timing and power, this technique uses patient frame creation, progressive hip movement, and knee insertion to methodically dismantle the top player's chest-to-chest pressure. The approach is particularly valuable against heavier or stronger opponents where explosive escapes carry excessive energy cost and counter risk.\n\nThe technique operates on the principle that sustained, structurally supported frames can create cumulative space that the top player cannot close without releasing control elsewhere. By establishing a forearm frame against the opponent's hip and shoulder, the bottom player creates a rigid structure that converts even small hip escape movements into meaningful positional improvement. Each shrimp movement compounds the space created by previous movements, gradually opening enough room for knee insertion and half guard recovery.\n\nFrom a strategic perspective, this escape integrates into a layered defense system where frame-based hip escapes work in conjunction with bridge escapes and turtle transitions. When the top player adjusts to prevent the hip escape, they often lighten their chest pressure, creating windows for bridge escapes. Conversely, failed bridge attempts create angular changes that improve frame positioning for subsequent hip escapes. This complementary relationship makes the frame escape the foundational technique in any Modified Scarf Hold escape system, providing consistent forward progress even when individual attempts do not achieve full guard recovery.",
   "conditions": [
     "Opponent has established Modified Scarf Hold with chest-to-chest pressure settled",

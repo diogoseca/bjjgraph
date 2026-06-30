@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Standing Rear Clinch/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Clinch/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "summary": "The Duck Under from Clinch is a wrestling-based level change in which you dip your head beneath an opponent's controlling arm and circle behind them, converting a clinch exchange into dominant Standing Rear Clinch back control.",
   "overview": "The duck under is a fundamental wrestling-based technique adapted for BJJ clinch work that converts a neutral or disadvantaged clinch position into dominant back control. From the clinch, the practitioner uses a level change to dip beneath the opponent's arm—typically an overhook, collar tie, or extended grip—then circles behind to establish the Standing Rear Clinch. The technique exploits the opponent's commitment to upper body control by changing the plane of engagement, converting horizontal grip fighting into a vertical level change that bypasses their defensive structure entirely.\n\nStrategically, the duck under serves as a high-percentage answer to opponents who dominate the clinch through superior grip fighting or forward pressure. Rather than engaging in a losing battle for underhooks or collar ties, the duck under practitioner redirects the exchange by going underneath the opponent's control framework. This makes it particularly effective against taller opponents or those who rely heavily on collar ties and head control, as their extended arms create the space needed for the level change. The technique chains naturally with other clinch attacks—a failed arm drag creates duck under opportunities, and a stuffed duck under can transition into single leg entries or snap downs, forming a comprehensive chain wrestling cycle.\n\nThe duck under carries significant tactical value in competition, where establishing the Standing Rear Clinch creates immediate scoring opportunities through takedowns and back exposure. In no-gi grappling and MMA, the duck under remains one of the most reliable methods for transitioning from a neutral clinch to a dominant position, making it an essential tool for any serious practitioner's standing game.",
   "conditions": [

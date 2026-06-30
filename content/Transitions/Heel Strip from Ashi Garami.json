@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Open Guard/Bottom",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Ashi Garami/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Saddle/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "Trapped in an Ashi Garami leg entanglement, a defender's most pressing problem is not the position itself but the attacker's grip on the exposed heel—the connection that makes a heel hook finishable. Rather than panicking or explosively ripping the leg free—which paradoxically exposes the heel to finishing mechanics—the heel strip employs precise hand fighting to systematically peel the attacker's grip off the heel, removing the rotational control needed for a heel hook finish. This technique bridges the gap between passive survival and active escape, giving the defender a concrete mechanical action to address the most dangerous aspect of the position.\n\nThe strategic importance of the heel strip cannot be overstated. In modern leg lock systems, the fight for heel exposure is the central battle—if the attacker cannot control the heel, even perfect positional control in Saddle or Cross Ashi becomes largely toothless for finishing. By mastering the heel strip, defenders transform potentially catastrophic positions into manageable recovery situations. The technique works across all Ashi Garami variations, though timing and hand positioning change depending on whether you face Outside Ashi, Inside Ashi, or Saddle configurations.\n\nExecution requires understanding the attacker's grip mechanics. The heel hook relies on controlling the heel and foot to create rotational force against the knee. The defender's goal is to two-on-one the attacker's wrist controlling the heel, strip it below the ankle line, and immediately straighten the leg to prevent re-gripping. The subsequent leg extraction and guard recovery must happen as a continuous sequence—pausing after the strip invites the attacker to re-establish control or advance position.",
   "conditions": [
     "Opponent has grip control on your heel from an Ashi Garami position",

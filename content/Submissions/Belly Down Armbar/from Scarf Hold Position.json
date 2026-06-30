@@ -18,7 +18,10 @@
   "target_area": "Elbow joint - hyperextension against ulnar collateral ligament",
   "starting_position": "Scarf Hold Position",
   "from_position": "Scarf Hold Position/Top",
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "summary": "The Belly Down Armbar from Scarf Hold Position is a prone elbow hyperextension finish where the attacker steps over the opponent's head from kesa gatame and rotates face-down, driving the hips into the already-trapped near arm's elbow.",
   "overview": "The belly down armbar finish from scarf hold position exploits the pre-existing arm isolation inherent in kesa gatame to transition into one of the highest-percentage armbar finishes available. From scarf hold, the trapped near arm is already controlled between the attacker's arm and torso, eliminating the most difficult step of standard armbar setups: isolating the target limb. The attacker transitions from the seated scarf hold to a prone orientation by stepping over the opponent's head and rotating face-down, placing their hips directly over the opponent's elbow joint.\n\nWhat makes this entry uniquely dangerous is the mechanical advantage of the prone position combined with the opponent's limited mobility under scarf hold pressure. Unlike standard armbars where the defender can stack or posture, the belly down position distributes the attacker's entire body weight against the elbow joint while eliminating common escape angles. The chest-down orientation creates a low center of gravity that resists bridging, turning, and space creation from the bottom.\n\nThe transition from scarf hold to belly down armbar represents a critical commitment point where the attacker must manage the brief window of reduced control during rotation. Timing this transition during the opponent's recovery from a failed escape or while they defend a different submission threat maximizes success probability. This finish chains naturally from americana and kimura threats, as defensive reactions to those attacks often expose the trapped arm for the belly down transition.",
   "safety_considerations": {
@@ -104,17 +107,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Scarf Hold Position/Top",
-      "probability": 32,
+      "probability": {
+        "gi": 32,
+        "nogi": 32
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 18,
+      "probability": {
+        "gi": 18,
+        "nogi": 18
+      },
       "result": "counter"
     }
   ],

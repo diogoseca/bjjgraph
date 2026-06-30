@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Closed Guard/Top",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Mission Control/Top",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "New York/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "Trapped in Mission Control, the top player faces severe shoulder isolation, broken posture, and multiple submission threats including triangles, omoplatas, and gogoplatas. The posture break represents a decisive, assertive approach to dismantling the Mission Control structure by forcefully addressing the key control mechanisms that keep the position intact, returning the top player to a neutral, passable guard.\n\nUnlike the more gradual Posture Recovery approach, the Posture Break employs a coordinated sequence of grip fighting, structural realignment, and firm hip drive to simultaneously strip the bottom player's head control, reduce their hip elevation, and break the high guard leg position. This technique requires precise timing and understanding of the Mission Control structure's weak points—particularly the bottom player's need to maintain continuous grip pressure on the head and sustained hip elevation. When either of these control mechanisms momentarily lapses, the top player can exploit the structural gap to initiate the break.\n\nThe success of this technique depends heavily on preparation and awareness. The top player must resist the urge to simply pull away from Mission Control, as raw pulling creates the exact momentum the bottom player needs to advance to New York, Zombie, or submission entries. Instead, the posture break works by addressing control points systematically in rapid succession—stripping grips, posting on the hip, driving the head up and back, and using the free arm to peel the high guard leg away from the shoulder. Executed with proper timing, this returns the position to standard closed guard where the top player can resume normal guard passing operations.",
   "conditions": [
     "Top player is trapped in Mission Control with shoulder isolated by bottom player's high guard leg",

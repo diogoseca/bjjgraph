@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Kneebar Control/Top",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Estima Lock Control/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "The Kneebar from Estima Lock represents a critical chain attack within leg lock systems, converting a defended or stalling footlock position into a powerful hyperextension attack on the knee joint. When the opponent successfully neutralizes the Estima Lock's rotational ankle pressure—typically by counter-rotating their foot, creating space with their free leg, or beginning to extract their trapped foot—the attacker redirects to attack the now-exposed knee by repositioning their hips across the opponent's thigh line. This transition moves the attack up the kinematic chain from ankle to knee, exploiting the structural changes the defender creates while escaping the footlock.\n\nThis transition exploits a fundamental defensive dilemma: the actions the defender takes to protect their ankle often compromise the structural integrity protecting their knee. When the defender straightens their leg to extract from the footlock, they create the exact alignment needed for a kneebar. When they push with their free leg to create space, they shift their defensive focus away from the trapped leg. The attacker who recognizes these defensive patterns can seamlessly flow from ankle attack to knee attack without releasing leg control, maintaining continuous offensive pressure throughout the transition.\n\nThe technical execution requires precise hip placement perpendicular to the opponent's thigh, maintaining continuous leg isolation throughout the transition, and understanding the biomechanical relationship between ankle defense and knee vulnerability. This technique exemplifies the dilemma-based approach to submission grappling where each defensive action opens a new offensive pathway, forcing the defender to address multiple threats simultaneously rather than solving a single problem. Proficiency in this transition transforms the Estima Lock from a single-threat position into a multi-layered attack system.",
   "conditions": [
     "Opponent is actively defending the Estima Lock through counter-rotation, foot extraction, or frame creation",

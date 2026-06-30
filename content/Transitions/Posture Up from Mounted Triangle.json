@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "success"
     },
     {
       "to": "Mounted Triangle/Bottom",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 30,
+  "success_rate": {
+    "gi": 30,
+    "nogi": 30
+  },
   "overview": "Posturing up from mounted triangle is a critical escape technique that addresses one of the most dangerous positions in Brazilian Jiu-Jitsu. When caught in a mounted triangle, the bottom player faces immediate choking pressure combined with the positional weight of mount, creating an urgent need for systematic escape methodology. The posture up escape works by creating structural distance between the bottom player's neck and the opponent's squeezing legs, disrupting the triangle lock's mechanical advantage and creating space to begin guard recovery.\n\nThe technique requires careful frame placement and timing rather than explosive strength. Simply driving upward into the opponent's triangle pressure is rarely effective and often accelerates the choke. Instead, the escape relies on establishing frames against the opponent's hips, using those frames to create incremental posture, and then combining the posture change with lateral hip movement to extract the trapped arm and recover to half guard. The critical timing window occurs when the top player adjusts their triangle angle or reaches for finishing grips, momentarily reducing their downward pressure.\n\nStrategic awareness is essential throughout this escape sequence. The top player will actively counter posture attempts by pulling the head down, transitioning to armbar when the escaping player extends their arms, or shifting to S mount to maintain control. Successful execution demands reading the opponent's weight distribution, protecting the trapped arm from extension, and committing fully to the escape direction once sufficient posture is established. This technique integrates with the broader mounted triangle defense framework as one of several escape options available from this critically dangerous position.",
   "conditions": [
     "Opponent has established mounted triangle configuration but has not fully cinched the triangle lock to maximum tightness",

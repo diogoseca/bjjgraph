@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Back Control/Bottom",
-      "probability": 48,
+      "probability": {
+        "gi": 48,
+        "nogi": 48
+      },
       "result": "success"
     },
     {
       "to": "Gift Wrap/Bottom",
-      "probability": 37,
+      "probability": {
+        "gi": 37,
+        "nogi": 37
+      },
       "result": "failure"
     },
     {
       "to": "Crucifix/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 48,
+  "success_rate": {
+    "gi": 48,
+    "nogi": 48
+  },
   "overview": "Gift Wrap Arm Recovery is an essential defensive technique that addresses one of the most compromised positions in Brazilian Jiu-Jitsu. When an opponent secures the Gift Wrap from back control, they effectively neutralize half of your defensive capability by trapping one arm across your body. This recovery technique focuses on systematically freeing that trapped limb to restore your defensive options.\n\nThe technique operates on the principle that the arm trap relies on specific angles and grip configurations. By understanding these mechanics, the defender can create rotational space through coordinated hip and shoulder movement rather than relying on raw pulling strength. The trapped arm should remain relaxed during the recovery attempt - tension actually reinforces the opponent's control.\n\nStrategically, Gift Wrap Arm Recovery represents the critical first step in any escape sequence from this position. Without recovering the arm, all other escape attempts become significantly more difficult. The technique must be executed while maintaining neck defense with the free hand, as opponents often attack the rear naked choke when they sense the arm recovery attempt. Timing the recovery when the opponent shifts weight for a submission attempt creates the optimal window for success.",
   "conditions": [
     "Opponent has established Gift Wrap control with one arm trapped across your body",

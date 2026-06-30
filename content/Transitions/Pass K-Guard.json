@@ -14,26 +14,41 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "K-Guard/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "Passing K-Guard requires systematic dismantling of the bottom player's inverted hook configuration, which presents dual threats through its inside hook pulling the trapped leg across centerline and the butterfly hook threatening constant elevation. Unlike standard half guard passes that primarily address a single leg entanglement, the K-Guard demands simultaneous neutralization of both hooks while preventing the guard player from creating angles for sweeps or back takes. The guard's dynamic retention mechanics mean that any gap in pressure or poorly timed commitment is immediately exploited.\n\nSuccess depends on a multi-phase approach: winning the grip fight to establish dominant control points, neutralizing hook tension through hip pressure and angle manipulation, and executing the pass through complementary passing sequences. The technique integrates pressure passing, smash methodology, and knee slice concepts, creating a versatile approach that adapts to the bottom player's defensive reactions. Each phase builds on the previous one, and skipping steps consistently leads to failed pass attempts.\n\nThis pass holds particular significance in modern competition where K-Guard has become increasingly popular as both a retention platform and an offensive launching point. The guard's dynamic nature means hesitation or poorly timed attempts are punished with sweeps or back takes, making technical precision and systematic pressure essential for consistent success. Practitioners who develop reliable K-Guard passing gain a significant competitive advantage against the growing number of half guard specialists employing this configuration.",
   "variants_and_adaptations": [
     {

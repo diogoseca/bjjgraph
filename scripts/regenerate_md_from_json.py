@@ -21,6 +21,7 @@ from jinja2 import Template, Environment, FileSystemLoader
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from _slug import slugify  # shared single-source slugify
+from _ruleset import reduce_to_scalar  # collapse mirror {gi,nogi} maps at load (calibration-v2)
 
 try:
     import jsonschema
@@ -262,7 +263,7 @@ def load_json_file(json_path):
     """
     try:
         with open(json_path, 'r', encoding='utf-8') as f:
-            return json.load(f)
+            return reduce_to_scalar(json.load(f))
     except FileNotFoundError:
         raise FileNotFoundError(f"File not found: {json_path}")
     except json.JSONDecodeError as e:

@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Back Control/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Invisible Collar/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Cross Collar Choke from Invisible Collar",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Hand Fighting to Remove Collar Grip represents the critical first layer of defense when trapped in the invisible collar position from bottom. The technique addresses the most immediate threat—the deep collar grip that can finish the match within seconds. Unlike generic hand fighting, this defensive sequence specifically targets the biomechanics of collar grip removal, using two-on-one control to systematically peel fingers from the gi material before the attacker can apply finishing pressure.\n\nThe defensive urgency cannot be overstated. Once an invisible collar grip achieves full depth with knuckles pressed against the carotid, the submission becomes nearly inevitable regardless of chin tuck or other secondary defenses. Successful practitioners recognize the setup early and immediately engage aggressive hand fighting before the grip consolidates. This requires constant monitoring of the attacker's hand position and the discipline to prioritize grip removal over other escape attempts.\n\nStrategically, this technique serves as the gateway to all other back control escapes. Without first neutralizing the collar threat, hip escapes and hook removal become futile—the attacker simply finishes the choke while you work. Mastering this hand fighting sequence transforms a desperate survival situation into a systematic defensive framework where each successful grip break creates windows for positional improvement.",
   "conditions": [
     "Opponent has established invisible collar grip on your collar from back control",

@@ -14,26 +14,41 @@
   "outcomes": [
     {
       "to": "Closed Guard/Bottom",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "success"
     },
     {
       "to": "Twister Control/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Scramble to Guard represents a critical survival technique when trapped in the dangerous Twister Control position. This escape exploits the momentary transitions and adjustments that occur when the top player attempts to deepen their control or hunt for submissions. Rather than accepting the compromised spinal rotation of Twister Control, this technique creates chaotic movement that disrupts the opponent's leg control and upper body positioning, allowing you to reduce rotation and recover to a defensive guard position.\n\nThe technique operates on the principle that scrambles favor the person who initiates them with purpose. While Twister Control is mechanically devastating when static, the position requires precise coordination between the top player's leg hooks and upper body grips. By creating explosive, directional movement at the right moment, you can break this coordination and force a transition to a more neutral scramble where standard guard recovery principles apply.\n\nFrom a strategic perspective, this technique should be attempted before Twister Control is fully locked in or during the opponent's submission attempts when their focus shifts from control to finishing. The window for this escape narrows significantly once deep rotation is established, making timing recognition essential. Success requires maintaining composure despite the discomfort of the twisted position while waiting for or creating the optimal moment to explode into the scramble sequence.",
   "related_content": [
     {

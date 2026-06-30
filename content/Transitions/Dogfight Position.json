@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Dogfight Position/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Leg Weave/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Dogfight Position transition is a critical escape pathway from disadvantageous bottom positions in half guard, particularly when trapped under leg weave pressure. This scramble-initiating movement occurs when the bottom player generates enough hip movement and frame pressure to rise onto their elbow and eventually their posting hand, creating a kneeling position where both players compete for underhook dominance.\n\nThe technique represents a fundamental bridge between defensive guard recovery and offensive wrestling-based attacks. Rather than remaining flat and attempting to recover guard structures from bottom, the dogfight entry accepts the scramble and shifts the battle to a more neutral position where wrestling skills, underhook battles, and takedown chains become the primary weapons. The position is named for its resemblance to two dogs competing for dominance—both players on their knees, chest to chest, fighting for control.\n\nStrategically, the dogfight is particularly valuable against heavy passers who rely on grinding pressure. By coming up rather than staying flat, you deny their preferred passing mechanics and force them into a scramble they may be less comfortable with. Success requires excellent timing, strong underhook fighting skills, and the ability to chain multiple wrestling-based attacks from the kneeling position.",
   "related_content": [
     {

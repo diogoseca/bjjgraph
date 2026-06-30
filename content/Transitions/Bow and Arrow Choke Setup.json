@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Gift Wrap/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Turtle/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Bow and Arrow Choke Setup from Gift Wrap represents a high-percentage gi-based submission entry that capitalizes on the dominant arm control already established. From Gift Wrap position, the attacker has one of the opponent's arms trapped across their body, creating ideal conditions for securing the deep collar grip required for the bow and arrow finish. This setup leverages the Gift Wrap's inherent control to prevent defensive hand fighting while transitioning to the perpendicular hip angle that characterizes the bow and arrow configuration.\n\nStrategically, this transition exploits the opponent's compromised defensive posture in Gift Wrap. With one arm trapped, the defender cannot effectively strip the collar grip or hand fight during the critical grip establishment phase. The setup creates a pathway from arm control dominance to collar choke dominance, essentially converting positional advantage into submission threat.\n\nThe Bow and Arrow Choke Setup requires precise sequencing: maintaining Gift Wrap control while securing collar depth, then transitioning hips to the perpendicular angle while managing the opponent's ability to turn or create defensive frames. The trapped arm paradoxically becomes a liability for the defender as they cannot use it to push away or block the hip transition. Successful execution positions the attacker for one of the highest-percentage gi finishes available from back control variants.",
   "related_content": [
     {

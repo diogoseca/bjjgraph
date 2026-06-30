@@ -15,31 +15,49 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "success"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "success"
     },
     {
       "to": "Turtle/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "The sit out from turtle is a fundamental wrestling-derived escape technique adapted for Brazilian Jiu-Jitsu ground fighting. When trapped in turtle position with an opponent controlling from behind, the sit out provides a direct pathway to facing the opponent by rotating the hips 180 degrees through a posted hand pivot. The technique exploits moments when the top player's weight shifts forward or commits to a specific attack, creating the space needed for the bottom player to thread their leg through and complete the rotation into a guard position.\n\nStrategically, the sit out occupies a unique niche in the turtle escape hierarchy. While techniques like the granby roll and Peterson roll rely on momentum and rolling mechanics, the sit out uses a more controlled posting-and-rotation approach that works particularly well against opponents who maintain heavy forward pressure. The trade-off is that the sit out temporarily exposes the hips during rotation, creating a brief window where the top player can capitalize with a drive to side control. This vulnerability demands precise timing and full commitment to the movement once initiated.\n\nThe sit out pairs effectively with other turtle escapes in a chain attack system. When the opponent defends the granby roll by driving forward, the sit out becomes available because their weight has shifted precisely where it needs to be for the technique to succeed. Conversely, threatening the sit out forces the opponent to shift their weight back, opening the granby roll. This complementary relationship makes the sit out an essential component of any complete turtle escape system rather than a standalone technique.",
   "conditions": [
     "Must be in turtle position with at least one arm free for posting",

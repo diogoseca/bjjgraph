@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Mounted Triangle/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "S Mount/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The S Mount to Mounted Triangle transition represents one of the most natural submission chains in Brazilian Jiu-Jitsu, capitalizing on a common defensive reaction to armbar threats from S Mount. When the bottom player successfully defends the armbar by bending their arm, clasping their hands, or tucking their elbow tight, the top practitioner can redirect the attack by threading their leg under the opponent's chin to establish a mounted triangle configuration. The leg already positioned over the opponent's head in S Mount provides the structural foundation, making this thread mechanically efficient when executed with proper timing.\n\nThis transition exploits the fundamental defensive dilemma created by S Mount: the opponent must choose between defending arm extension, which invites the triangle, or keeping their arm extended, which invites the armbar. Recognizing this defensive reaction early and committing to the triangle entry before the opponent can retract their arm and re-establish posture is the critical timing element. The hip angle adjustment that precedes the leg thread determines whether the triangle locks cleanly or leaves gaps the defender can exploit.\n\nThe mounted triangle position offers distinct advantages over forcing a contested armbar from S Mount. The triangle configuration creates choking pressure through leg compression while simultaneously threatening the trapped arm with armbar mechanics. This dual threat forces the defender into increasingly narrow defensive options, often resulting in submission or positional advancement to back control when the opponent turns away from the choking pressure. At the highest levels, this transition is a cornerstone of the mount-to-submission chain, appearing in the games of elite competitors who use S Mount as a systematic launching platform for multiple finishing sequences.",
   "conditions": [
     "Established S Mount control with near leg over opponent's head and arm isolated between your legs",

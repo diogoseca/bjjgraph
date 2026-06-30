@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Armbar Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Gogoplata Control/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The gogoplata to armbar transition represents one of the most effective chain attacks available from the rubber guard system. When a practitioner has established gogoplata control from the bottom position with the shin across the opponent's throat and foot secured behind their head, opponents commonly defend by posturing up, extending their arms to create distance, or attempting to remove the shin. These defensive reactions expose the arms and create optimal conditions for transitioning to an armbar attack.\n\nThe mechanical basis of this transition lies in the hip pivot. The bottom player releases the gogoplata configuration by removing the foot from behind the opponent's head while simultaneously securing wrist control on the extended arm. The hips then rotate approximately ninety degrees to create the perpendicular angle necessary for armbar control. The leg that was creating shin-across-throat pressure swings over the opponent's head to establish the leg-over-face control characteristic of the armbar position. This pivot exploits the opponent's compromised posture and extended arm positioning.\n\nStrategically, the gogoplata to armbar chain creates a powerful offensive dilemma. Opponents who defend the gogoplata by keeping arms tight remain vulnerable to the choke finish. Those who extend arms to create distance provide the opening for the armbar transition. This no-win scenario for the defender is the hallmark of effective chain attack systems. The transition demands hip flexibility, precise timing, and the ability to recognize defensive patterns that signal the optimal moment to switch attacks.",
   "conditions": [
     "Established gogoplata control from bottom position with shin across opponent's throat and foot behind their head",

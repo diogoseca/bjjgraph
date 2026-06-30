@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Turtle/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Aoki Lock Control/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "summary": "Arm Extraction to Turtle is a defensive escape from Aoki Lock bottom that neutralizes the leg-entangled shoulder lock by destabilizing the attacker's base and sliding the trapped arm free along the ribcage to recover turtle position.",
   "overview": "Within the broader landscape of shoulder-lock defense, this escape occupies a critical niche: it is the highest-percentage answer to the Aoki Lock, a position that has surged in popularity as no-gi competitors adopt leg-entangled shoulder attacks. The escape addresses one of the most dangerous submission control positions by systematically dismantling the leg entanglement before extracting the trapped arm, ultimately recovering to turtle position where you can work toward guard recovery or standing.\n\nThe technique exploits a fundamental vulnerability in the Aoki Lock: the attacker must maintain both leg entanglement tightness and hip pressure simultaneously. By creating angles through hip movement and attacking the opponent's base stability, you generate windows where the leg entanglement loosens enough to permit arm extraction. The key insight is that you must address the leg control first rather than attempting to muscle your arm free against the entanglement.\n\nThis escape is essential for any practitioner facing advanced no-gi competitors who utilize leg entanglement shoulder locks. The turtle destination, while not ideal, represents a significant improvement from the submission danger of Aoki Lock bottom. From turtle, you have multiple recovery options including guard pull, stand-up, and rolling escapes. Understanding proper execution prevents the catastrophic shoulder injuries that can result from defending this position incorrectly.",
   "conditions": [

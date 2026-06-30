@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Darce Control/Top",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Hindulotine/Bottom",
-      "probability": 28,
+      "probability": {
+        "gi": 28,
+        "nogi": 28
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 12,
+      "probability": {
+        "gi": 12,
+        "nogi": 12
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Hindulotine to Darce Choke transition represents a sophisticated submission chain that capitalizes on common defensive reactions to guillotine attacks. When an opponent defends the Hindulotine by creating a frame with their near-side arm or turning their shoulder into the attacker, they inadvertently create the arm-in configuration necessary for a Darce choke. This transition exploits the fundamental principle that defensive movements often create new vulnerabilities.\n\nFrom the bottom Hindulotine position, the attacker recognizes the defensive frame and threads their choking arm deeper under the opponent's armpit rather than continuing to pull on the neck. The grip transitions from a standard guillotine configuration to the figure-four or gable grip characteristic of the Darce. This requires releasing the original guillotine grip momentarily to rethread the arm, making timing and execution critical to prevent the opponent from escaping during the transition.\n\nStrategically, this transition exemplifies the modern submission hunting approach where attackers flow between related chokes based on defensive reactions. The Hindulotine and Darce share similar positional requirements and head control mechanics, making the transition natural once the pattern recognition develops. Advanced practitioners often set up this transition deliberately by applying guillotine pressure that they know will generate the defensive frame they need for the Darce entry.",
   "conditions": [
     "Established Hindulotine grip with opponent's head controlled and posture broken",

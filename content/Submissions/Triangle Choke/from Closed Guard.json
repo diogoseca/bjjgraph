@@ -15,7 +15,10 @@
   "target_area": "Carotid arteries and jugular veins",
   "starting_position": "Closed Guard",
   "from_position": "Closed Guard/Bottom",
-  "success_rate": 65,
+  "success_rate": {
+    "gi": 65,
+    "nogi": 65
+  },
   "summary": "The Triangle Choke from Closed Guard is a blood choke applied from the bottom that traps one of the opponent's arms and their neck between your legs, using your thigh and their own shoulder to compress both carotid arteries.",
   "overview": "The Triangle Choke from Closed Guard is one of the most fundamental and highest-percentage submissions in Brazilian Jiu-Jitsu, representing the perfect marriage of control and finishing mechanics from the guard position. This blood choke uses your legs to create a triangular configuration around the opponent's neck and their own shoulder, compressing the carotid arteries and jugular veins to induce unconsciousness if not defended or escaped. The beauty of the triangle lies in its structural efficiency - once properly locked, the opponent's own posture and trapped arm work against them, making escape increasingly difficult as they tire.\n\nWhat makes the triangle from closed guard particularly powerful is its accessibility from the most fundamental guard position in BJJ. Unlike submissions that require specific grips or advanced positioning, the triangle can be attacked whenever the opponent posts a hand inside your guard or breaks their posture forward. This makes it an essential weapon for guard players at all levels, from white belts learning fundamental attacks to black belts using it as a high-percentage finishing option in competition. The triangle also serves as the gateway to an entire attack system, seamlessly connecting to armbars, omoplatas, and sweep options that create true dilemmas for the opponent.\n\nThe technical execution of the triangle from closed guard requires precise angle creation, hip mobility, and an understanding of how to break the opponent's defensive posture while maintaining control throughout the transition. Success depends not on strength or speed, but on proper positioning of the legs, correct angle relative to the opponent, and the ability to control their posture and arm placement. When executed with proper technique, the triangle becomes nearly unstoppable, which is why it remains a cornerstone submission across all levels of competition from local tournaments to the highest levels of professional grappling.",
   "safety_considerations": {
@@ -70,17 +73,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],

@@ -13,7 +13,10 @@
   "submission_type": "Leg Compression",
   "target_area": "Shin and ankle compression",
   "starting_position": "Ashi Garami",
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "summary": "The Aoki Lock from Ashi Garami is a leg-compression submission that traps the opponent's foot in a figure-four and squeezes the legs together to force extreme plantar flexion while crushing the shin and calf, forcing a rapid tap.",
   "overview": "The Aoki Lock, named after Japanese MMA fighter Shinya Aoki, is a sophisticated leg compression submission that targets the opponent's shin and ankle through extreme plantar flexion and compression forces. Unlike traditional heel hooks or kneebars that attack specific joints, the Aoki Lock creates intense pressure across multiple structures of the lower leg simultaneously, making it extremely painful and effective for securing taps. The submission works by trapping the opponent's foot in a figure-four configuration while using your legs to apply tremendous squeezing pressure, forcing the foot into extreme plantar flexion while compressing the shin and calf muscle. This creates a unique combination of joint stress and muscular compression that becomes unbearable rapidly. The Aoki Lock is particularly effective from ashi garami positions and 50-50 configurations where traditional heel hooks might be defended. Its unconventional mechanics often catch opponents off-guard, as the setup can appear less threatening than a heel hook until the pressure is fully applied. The technique requires excellent leg dexterity and hip flexibility to properly configure the figure-four trap, making it a more advanced submission that rewards technical precision over raw strength.",
   "safety_considerations": {
@@ -72,17 +75,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Ashi Garami/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],

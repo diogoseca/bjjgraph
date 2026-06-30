@@ -17,26 +17,41 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "success"
     },
     {
       "to": "Turtle/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "Within the turtle escape system, the sit through occupies the niche of the controlled, leverage-first recovery — the methodical counterpart to scramble-heavy rolls. Unlike rolling escapes that rely on momentum, the sit through uses lateral hip movement and precise timing to thread one leg through while creating a frame against the opponent's advancing pressure. This technique excels when the opponent commits weight forward for front headlock attacks or back takes, as their forward pressure can be redirected into your guard recovery. The sit through creates a dilemma for the attacker: commit to following the movement and risk ending up in your closed guard, or disengage and allow a clean escape. For practitioners who prefer systematic, controlled escapes over explosive scrambles, the sit through offers a methodical path from turtle to a dominant guard position where you can begin attacking.",
   "conditions": [
     "Opponent's weight committed forward or to one side rather than neutral",

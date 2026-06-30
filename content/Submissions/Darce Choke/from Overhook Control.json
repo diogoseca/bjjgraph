@@ -19,7 +19,10 @@
   "target_area": "Carotid arteries and trachea",
   "starting_position": "Overhook Control",
   "from_position": "Overhook Control/Top",
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "overview": "The Darce Choke from Overhook Control represents one of the most natural and high-percentage submission entries in grappling because the overhook position already accomplishes the hardest part of any arm triangle attack: isolating one of the opponent's arms. With the overhook sealing their arm above their shoulder line, you only need to thread your choking arm beneath their neck to complete the figure-four configuration that compresses both carotid arteries simultaneously.\n\nThe mechanics from overhook control differ from other Darce entries because the controlled arm is already elevated and trapped, eliminating the typical challenge of wedging past the opponent's defensive frames. When the opponent drives forward against your overhook pressure or drops their head to defend the arm control, their neck becomes immediately accessible. This forward movement creates the perfect angle for sliding your choking arm from the overhook position under their chin and through to connect with your opposite bicep. The transition from overhook grip to Darce grip should be seamless, maintaining constant pressure so the opponent never has a free moment to establish defensive posture.\n\nFinishing from overhook control requires attention to body angle and hip position. Once the figure-four is locked, sprawl your hips away from the opponent while pulling their trapped arm and head toward your chest. The combination of shoulder pressure driving down and hip sprawl creating extension produces the arterial compression that forces the tap. Competition data shows this entry ranks among the highest-percentage Darce setups because the overhook pre-loads the arm isolation that other entries must fight to establish.",
   "safety_considerations": {
     "injury_risks": [
@@ -107,17 +110,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 62,
+      "probability": {
+        "gi": 62,
+        "nogi": 62
+      },
       "result": "success"
     },
     {
       "to": "Overhook Control/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 13,
+      "probability": {
+        "gi": 13,
+        "nogi": 13
+      },
       "result": "counter"
     }
   ],

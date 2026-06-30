@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Turtle/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "success"
     },
     {
       "to": "Rear Triangle/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 35,
+  "success_rate": {
+    "gi": 35,
+    "nogi": 35
+  },
   "overview": "Caught in one of BJJ's most dangerous back control configurations, the bottom player faces a rear triangle that fuses a blood choke with positional dominance, where explosive movement and frantic scrambling only tighten the finish. Rather than relying on those panic responses, this escape uses systematic hand fighting to dismantle the opponent's triangle lock grip by grip. The technique centers on using the free hand to target the structural weak points of the triangle configuration, specifically the ankle-to-knee connection that maintains the figure-four lock and the wrist controls that prevent arm extraction.\n\nThis approach is particularly valuable when the triangle is tight enough to prevent explosive escapes but has not yet produced a finishing choke. The grip fight creates incremental space by first controlling the opponent's choking leg, then working to loosen the ankle lock, and finally extracting the trapped arm from inside the triangle. The methodical nature of this escape makes it energy-efficient compared to explosive alternatives, though it requires precise knowledge of which grips to target and in what sequence. Timing is critical because the window between a locked triangle and a finishing choke can be measured in seconds.\n\nWithin the broader escape hierarchy from rear triangle bottom, the grip fight sits between passive survival and explosive escape attempts. It complements other defensive options like posture recovery and rolling escapes, often serving as the initial step that creates enough looseness in the triangle for more dynamic follow-up escapes to succeed. Practitioners who master this grip fight gain a calm, systematic tool for the most pressured moments in back defense.",
   "conditions": [
     "Caught in rear triangle bottom with at least one free hand available for grip fighting",

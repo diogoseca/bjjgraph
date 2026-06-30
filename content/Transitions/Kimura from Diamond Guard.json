@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Kimura Trap/Top",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Diamond Guard/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "The Kimura from Diamond Guard exploits the unique grip architecture of the diamond frame to transition from overhook-based control into a powerful Kimura figure-four attack. The bottom player already possesses one of the most critical prerequisites for a Kimura: a deep overhook controlling the opponent's arm across their body. By releasing head control and securing the opponent's wrist with the freed hand, the bottom player converts the existing overhook into a figure-four shoulder lock configuration without ever losing arm control during the transition.\n\nThis technique functions primarily as a positional control tool and sweep mechanism rather than an immediate submission finish from bottom. The broken posture established by the diamond frame combined with the Kimura grip creates a powerful lever for hip bump-style sweeps that displace the opponent's base. The opponent, already compromised by the diamond frame's posture break, finds it exceptionally difficult to resist the combined forces of the Kimura pull and hip drive, typically resulting in the attacker achieving Kimura Trap top position.\n\nThe Kimura from Diamond Guard occupies a critical junction in the diamond guard attacking system. When opponents defend triangle entries by keeping elbows tight and resist omoplata entries by controlling their posture angle, the Kimura attack specifically punishes these defensive postures by targeting the arm already trapped in the overhook. This creates a complete three-way offensive cycle where every defensive choice within diamond guard opens a different attack pathway, embodying the dilemma-based approach central to effective closed guard play.",
   "conditions": [
     "Deep overhook established past the opponent's tricep with elbow pulled tight to ribs",

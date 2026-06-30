@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Honey Hole/Top",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "Inside Ashi-Garami/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "50-50 Guard/Bottom",
-      "probability": 12,
+      "probability": {
+        "gi": 12,
+        "nogi": 12
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Inside Ashi-Garami to Honey Hole transition represents one of the most important positional advancements in modern leg lock systems. This transition converts a foundational leg entanglement into the dominant saddle configuration, dramatically increasing control and submission threat. The movement requires threading your outside leg through opponent's legs to establish the figure-four triangle that defines Honey Hole position.\n\nStrategically, this transition should be attempted when opponent defends your initial attacks by rotating their knee inward or when you need greater control before finishing. The Honey Hole provides superior heel exposure and hip control compared to basic Inside Ashi-Garami, making submissions significantly higher percentage. The transition exploits opponent's defensive reactions—when they focus on hiding their heel, they often neglect the space you need to advance your leg configuration.\n\nThe timing window for this transition typically opens when opponent commits weight to defend one attack, creating the momentary looseness in their defensive posture that allows your leg to thread through. Masters of this transition recognize that it functions as part of an attack chain: threatening straight ankle lock forces defensive posture that opens Honey Hole entry, and vice versa. The position after successful transition places you in arguably the most dominant leg entanglement in grappling.",
   "conditions": [
     "Established Inside Ashi-Garami with secure heel control",

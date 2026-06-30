@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Closed Guard/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "success"
     },
     {
       "to": "Modified Scarf Hold/Bottom",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 30,
+  "success_rate": {
+    "gi": 30,
+    "nogi": 30
+  },
   "overview": "Within the bottom escape system of the side-control family, the bridge is the most powerful answer to crushing chest-to-chest pressure precisely because it recruits the strongest muscle groups in the body, the glutes, hamstrings, and spinal erectors, to generate upward force that disrupts the top player's base and weight distribution. From the bottom of Modified Scarf Hold, that explosive hip extension is channeled either into a full reversal or into the space needed to begin a secondary escape, making it a cornerstone of any complete pin-escape game.\n\nThe strategic importance of this escape is significant. Modified Scarf Hold bottom is one of the most oppressive positions in BJJ, with sustained chest pressure that restricts breathing and drains energy rapidly. Without a reliable bridge escape, the bottom player faces mounting submission threats as fatigue accumulates. The bridge provides an explosive answer to this positional crisis, forcing the top player to react to powerful upward force rather than settling into comfortable attacking sequences.\n\nTiming is the critical variable separating successful bridge escapes from wasted energy. The bridge works best when the top player shifts weight, whether reaching for a submission, adjusting grips, or transitioning between positions. Bridging against a fully settled opponent with optimal weight distribution rarely succeeds and accelerates fatigue. Advanced practitioners develop the patience to wait for the correct timing window while maintaining defensive posture, then commit fully to the bridge with directional intent toward the opponent's weak posting side.",
   "variants_and_adaptations": [
     {

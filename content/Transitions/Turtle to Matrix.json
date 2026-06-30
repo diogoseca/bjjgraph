@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Matrix/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Turtle/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Transition to Matrix is the critical entry sequence that moves the attacker from a standard turtle top position into the Matrix position, the dynamic rotational platform from which back takes, truck entries, and other advanced attacks become available. This transition represents the setup phase before the actual Matrix Back Take execution, focusing on establishing the angular positioning, grip connections, and hip alignment required to launch the rolling movement.\n\nUnlike a direct back take attempt from turtle top, the Transition to Matrix prioritizes angle creation and body positioning over immediate hook insertion. The attacker must thread their body perpendicular to the opponent's turtle structure, establishing connection points at the shoulder, hip, and through leg placement that will anchor the subsequent rotational movement. This preparatory phase is what separates a controlled Matrix entry from an improvised scramble.\n\nThe transition demands precise reading of the opponent's defensive posture. A tight turtle with elbows glued to knees requires specific grip sequences and angle adjustments before the Matrix position can be achieved. The attacker must create or exploit gaps in the turtle structure through pressure manipulation, directional changes, and timing their entry to moments when the opponent's base shifts or their defensive structure momentarily opens. Success depends on fluid movement that maintains constant pressure while systematically building toward the angular position needed for Matrix attacks.",
   "conditions": [
     "Opponent is in turtle position with defensive posture that resists traditional back take entries",

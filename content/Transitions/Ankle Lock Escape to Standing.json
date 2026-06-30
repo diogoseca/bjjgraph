@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Standing Position/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Straight Ankle Lock Control/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Among defensive responses to straight ankle lock control, the escape to standing carries unique strategic weight because it resolves the engagement completely rather than improving position incrementally. When caught in straight ankle lock control, the defender faces a narrowing window of opportunity where every second allows the attacker to deepen grips, complete leg entanglements, and transition to more dangerous positions like inside ashi garami or saddle. The escape to standing directly addresses this time pressure by prioritizing complete disengagement over positional improvement.\n\nThe technique requires coordinated action across multiple control points simultaneously. Breaking the attacker's grip on your ankle, preventing their legs from establishing a controlling triangle, maintaining proper hip rotation to deny transition pathways, and generating the upward drive needed to reach standing position must all occur within a compressed timeframe. Unlike positional escapes that trade one entanglement for another, the standing escape aims to fully reset the engagement, removing you entirely from the leg attack chain.\n\nStrategic deployment of this escape depends on recognizing when the attacker's control remains incomplete. The optimal window exists when the attacker has established initial grip contact but has not yet consolidated their leg positioning or deepened their forearm against the Achilles tendon. Attempting this escape against fully consolidated control dramatically reduces success probability and risks being swept during the standing attempt. Reading the attacker's control level accurately determines whether standing escape, hip rotation defense, or counter-entanglement represents the highest-percentage response.",
   "conditions": [
     "Opponent has established ankle grip but has not yet completed full leg triangle control",

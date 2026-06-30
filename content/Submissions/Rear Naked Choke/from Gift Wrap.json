@@ -20,7 +20,10 @@
   "target_area": "Carotid arteries and jugular veins",
   "starting_position": "Gift Wrap",
   "from_position": "Gift Wrap/Top",
-  "success_rate": 65,
+  "success_rate": {
+    "gi": 65,
+    "nogi": 65
+  },
   "summary": "Rear Naked Choke from Gift Wrap is a blood choke finished from back control where the defender's pre-trapped arm removes their two-handed neck defense, converting a normally contested strangle into a high-percentage, methodical finish.",
   "overview": "The Rear Naked Choke from Gift Wrap exploits a fundamental asymmetry: when one of the defender's arms is trapped across their own body, they lose the primary tool for defending the neck. Standard RNC defense relies heavily on two-handed grip fighting to prevent the choking arm from settling under the chin. The Gift Wrap removes this option entirely, turning a normally contested submission into a methodical finish.\n\nThe key technical distinction from a standard back RNC is the transition sequence. The attacker must release the Gift Wrap control arm to thread it under the chin while simultaneously maintaining enough positional control that the defender cannot exploit the momentary grip change. This requires precise timing—releasing the trapped arm too early gives the defender a window to restore two-handed neck defense, while holding it too long stalls offensive progress.\n\nFrom a systems perspective, the Gift Wrap RNC sits at the apex of the back attack hierarchy. The Gift Wrap position itself funnels defensive reactions into predictable patterns: the defender's free arm must choose between protecting the neck and attempting to recover the trapped arm. This binary choice creates the classic dilemma structure where the attacker wins regardless of which option the defender selects, provided the attacker reads the reaction correctly and chains the appropriate follow-up.",
   "safety_considerations": {
@@ -107,17 +110,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Gift Wrap/Top",
-      "probability": 23,
+      "probability": {
+        "gi": 23,
+        "nogi": 23
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 12,
+      "probability": {
+        "gi": 12,
+        "nogi": 12
+      },
       "result": "counter"
     }
   ],

@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Omoplata Control/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Roll Forward from Omoplata is a dynamic positional advancement technique where the bottom player uses their established omoplata control to execute a forward roll, sweeping the opponent and transitioning to side control. This technique capitalizes on the rotational pressure already applied to the opponent's shoulder, converting submission control into positional dominance through a committed rolling motion that follows the natural arc of the omoplata configuration.\n\nThe mechanics rely on using the opponent's compromised shoulder position as a pivot point. When the opponent bases out with their free arm or attempts to posture, the omoplata controller drives their hips forward and rolls over the trapped shoulder, using the shoulder lock as a handle to drag the opponent into a compromised position. The rolling motion transfers the bottom player from guard to top position while maintaining continuous pressure on the shoulder joint throughout the transition. A deep belt or hip grip serves as the primary steering mechanism, determining whether the roll produces tight side control or a loose scramble.\n\nThis technique is particularly valuable in competition settings where the omoplata finish proves difficult against a well-defended opponent. Rather than fighting for a submission the opponent can defend through posture and hand fighting, the roll forward converts the position into a dominant top position worth points. Advanced practitioners use the threat of the roll to create a dilemma system where defending the sweep opens the submission and defending the submission opens the sweep, making the omoplata control exponentially more dangerous.",
   "conditions": [
     "Omoplata control established with leg securely positioned over opponent's shoulder and shin crossing their upper back",

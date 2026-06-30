@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Seated Guard/Bottom",
-      "probability": 75,
+      "probability": {
+        "gi": 75,
+        "nogi": 75
+      },
       "result": "success"
     },
     {
       "to": "Standing Position/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "failure"
     },
     {
       "to": "Standing Position/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 75,
+  "success_rate": {
+    "gi": 75,
+    "nogi": 75
+  },
   "overview": "The Sitting Guard Pull is one of the most fundamental and reliable methods for establishing guard from standing position in Brazilian Jiu-Jitsu. This technique allows a practitioner to safely transition from neutral standing to a seated open guard position while maintaining grips and controlling distance. Unlike dynamic jumping or rolling guard pulls, the sitting guard pull emphasizes control, safety, and strategic positioning. The technique is particularly valuable in both gi and no-gi contexts, serving as a foundational entry point to various open guard systems including butterfly guard, De La Riva, seated guard, and shin-to-shin configurations.\n\nThe sitting guard pull's high success rate across all skill levels makes it an essential technique for competitors who prefer playing guard, as it reliably achieves the desired position while minimizing risk of injury or positional disadvantage. The critical window of vulnerability occurs during the descent phase, where grip tension and controlled movement determine whether you land in a strong guard or give your opponent a free passing opportunity. Mastery of this technique provides a solid platform for developing a comprehensive guard game, and the mechanical principles transfer directly to guard recovery situations throughout a match.",
   "related_content": [
     {

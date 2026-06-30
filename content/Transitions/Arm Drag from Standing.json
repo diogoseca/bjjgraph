@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Standing Rear Clinch/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Standing Position/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "summary": "The Arm Drag from Standing is a wrestling-derived back-take entry where you secure a two-on-one grip on the opponent's arm, drag it across your centerline, and step behind them to establish the standing rear clinch.",
   "overview": "The arm drag from standing is one of the most efficient and high-percentage techniques for accessing an opponent's back from the standing position. Rooted in wrestling fundamentals and refined through modern grappling competition, this technique uses a two-on-one grip configuration to redirect the opponent's arm across your body while simultaneously stepping behind them to establish chest-to-back contact. The beauty of the arm drag lies in its simplicity and effectiveness across all grappling contexts, whether gi, no-gi, or MMA.\n\nStrategically, the standing arm drag occupies a unique position in the grappling hierarchy because it bypasses the guard entirely. Rather than engaging in a guard pull or takedown battle, a successful arm drag takes you directly behind your opponent into the standing rear clinch, one of the most dominant positions in grappling. This makes it particularly valuable in competitions where back exposure and back takes score heavily. The technique requires precise timing, proper grip mechanics, and explosive directional change to overcome the opponent's natural defensive reactions.\n\nThe arm drag also functions as a gateway technique that integrates into broader standing strategies. It pairs naturally with collar ties, Russian ties, and single leg entries, creating chains of attacks where defending one threat opens vulnerability to another. Advanced practitioners use the arm drag threat to set up other attacks, making it as valuable as a feint as it is as a direct technique.",
   "conditions": [

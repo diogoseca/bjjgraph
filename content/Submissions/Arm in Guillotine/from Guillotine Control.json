@@ -18,7 +18,10 @@
   "target_area": "Carotid arteries and trachea",
   "starting_position": "Guillotine Control",
   "from_position": "Guillotine Control/Top",
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The arm-in guillotine from guillotine control is a devastating choke variation that capitalizes on the opponent's arm being trapped inside the front headlock grip. Unlike the standard guillotine where the opponent's arm remains free for defensive hand fighting, the trapped arm acts as a wedge that compresses the far-side carotid artery while the choking forearm attacks the near side, creating bilateral vascular compression that accelerates the submission finish. This positional advantage makes the arm-in variation one of the most reliable guillotine finishes when properly executed from an established guillotine control position.\n\nFrom guillotine control top, the attacker has already broken the opponent's posture and secured a front headlock. When the opponent's arm becomes trapped—whether through defensive error, deliberate setup, or scramble transition—the arm-in guillotine becomes immediately available. The key mechanical difference lies in grip adjustment: rather than fighting to remove the arm, the attacker embraces the trapped limb and repositions hands to maximize compression against the neck structures. The opponent's own shoulder and trapped arm become integral parts of the choking mechanism, turning their defense into the attacker's advantage.\n\nStrategically, this submission creates a particularly difficult defensive puzzle. The defender cannot use their trapped arm for hand fighting or frame creation, eliminating their most effective escape tools. Their remaining options—posturing with one arm, bridging, or attempting to roll—are significantly compromised. High-level competitors recognize the arm-in position as a fight-ending opportunity that demands immediate defensive action before the choke fully locks in.",
   "safety_considerations": {
     "injury_risks": [
@@ -111,17 +114,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "Guillotine Control/Top",
-      "probability": 27,
+      "probability": {
+        "gi": 27,
+        "nogi": 27
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],

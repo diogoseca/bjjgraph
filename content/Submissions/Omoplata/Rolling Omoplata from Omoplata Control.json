@@ -17,7 +17,10 @@
   "target_area": "Shoulder joint and rotator cuff",
   "starting_position": "Omoplata Control",
   "from_position": "Omoplata Control/Bottom",
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "Born from modern BJJ's flow-based evolution toward dynamic, transition-driven attacks, the Rolling Omoplata blurs the line between defense and offense and has become a hallmark of movement-based guard games. Unlike the traditional static omoplata from closed or open guard, this variation involves a rolling motion that allows the practitioner to capture the opponent's shoulder joint while both grapplers are in movement. This technique is particularly effective when transitioning from failed sweep attempts, inverting under pressure, or recovering guard against aggressive passing attempts. The rolling motion generates unexpected leverage on the shoulder while simultaneously off-balancing the opponent, making it difficult to defend once initiated.\n\nThe technique requires excellent timing, spatial awareness, and flexibility, as the practitioner must coordinate their hip rotation with leg positioning while maintaining control of the opponent's trapped arm throughout the roll. The finishing mechanics mirror the traditional omoplata - hips perpendicular to the opponent's spine, leg across the head controlling posture, and progressive hip extension driving rotational torque into the shoulder joint. The Rolling Omoplata represents modern BJJ's evolution toward dynamic, flow-based submissions that blur the lines between offense and defense, making it a favorite among competitors who emphasize movement-based games and chain attacks from failed sweep attempts into immediate submission threats.",
   "safety_considerations": {
     "injury_risks": [
@@ -70,17 +73,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
