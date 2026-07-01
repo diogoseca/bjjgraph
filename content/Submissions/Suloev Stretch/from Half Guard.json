@@ -345,6 +345,56 @@
         "question": "In a competition scenario, your opponent is defending by grabbing their own leg to prevent the compression angle - what adjustments lead to a successful finish?",
         "answer": "When opponent grabs their leg to defend, first ensure your upper body control is maximized to prevent them from creating additional leverage. Work to strip their grip by using your free hand to peel their fingers or create a wedge between their grip and their leg. If grip stripping fails, adjust your angle by shifting your hips slightly to change the compression direction - their grip is strong in one plane but weak against angular pressure. You can also begin small hip extension pulses rather than steady pressure, making their grip fatigue faster. Additionally, increase your squeeze through the figure-four while maintaining angle, as even with their grip, the compression force will build. If they're very stubborn, consider transitioning to a straight kneebar by adjusting your leg position - this often opens up as they focus on defending the Suloev.",
         "safety_critical": false
+      },
+      {
+        "question": "What anatomical structures does the Suloev Stretch attack?",
+        "answer": "It attacks the knee joint and the calf muscle simultaneously — the bent knee is loaded under compression while the calf is crushed against the hamstring as the heel is driven toward the buttock.",
+        "safety_critical": false
+      },
+      {
+        "question": "What must be true about the trapped leg before you apply any finishing pressure?",
+        "answer": "The opponent's heel must be folded and trapped against their own buttock with the knee unable to straighten; if the leg can extend, the compression has no structure to work against and the opponent will kick free.",
+        "safety_critical": true
+      },
+      {
+        "question": "Your opponent rotates their hip away from the compression — what does this tell you and how do you respond?",
+        "answer": "Hip rotation is the primary escape because it unloads the compression angle; you must pin the hip and follow the rotation with your chest to restore the heel-to-buttock vector before re-applying pressure, otherwise the opponent recovers the leg.",
+        "safety_critical": false
+      },
+      {
+        "question": "Where should the finishing power of the Suloev Stretch come from?",
+        "answer": "From hip extension and stacked bodyweight, not from pulling with the arms; the figure-four only maintains the trap while your hips drive the heel down and toward the buttock to compress the calf and knee.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your opponent posts and tries to bridge to create space — what adjustment prevents the escape?",
+        "answer": "Re-establish chest pressure and re-pin the attacking-side hip to kill the bridge before it generates space; staying chest-heavy and connected removes the room the opponent needs to free the trapped leg or scramble.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why does floating your weight off the trapped leg cause the submission to fail?",
+        "answer": "Floating your weight lets hip extension feed slack into the entanglement instead of compression, so no finishing pressure reaches the knee or calf; you must stay stacked directly over the folded leg for the finish to load.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why must the Suloev Stretch be applied slowly and progressively in training?",
+        "answer": "The knee and calf are dense, unforgiving structures that can be injured before a partner can physically tap; slow progressive pressure with clear communication lets the partner tap safely and prevents PCL, meniscus, and calf injuries.",
+        "safety_critical": true
+      },
+      {
+        "question": "What signs indicate the compression is reaching its breaking point and you should be ready to release?",
+        "answer": "A sudden increase in resistance giving way, the opponent's verbal distress or rapid tapping, and a sharp pain reaction; because the tap comes fast, you should expect it and be prepared to release hip extension instantly.",
+        "safety_critical": true
+      },
+      {
+        "question": "In competition, how do you keep the Suloev Stretch high-percentage when opponents defend the entry?",
+        "answer": "Use it as part of a connected leg-attack chain — when the compression is defended, immediately flow to a kneebar, ankle lock, or heel hook from the same control, forcing the opponent to defend multiple threats rather than one.",
+        "safety_critical": false
+      },
+      {
+        "question": "If the opponent fully straightens the trapped leg before you lock the finish, what is the better option than forcing the compression?",
+        "answer": "Switch attacks rather than forcing a failed compression — a straightened leg is exposed to a kneebar or straight ankle lock, so transition to those finishes instead of fighting to re-fold against a strong defense.",
+        "safety_critical": false
       }
     ]
   },
@@ -464,6 +514,31 @@
         "question": "What defensive training approach best prepares you to handle Suloev Stretch attempts in live sparring?",
         "answer": "The most effective training approach focuses on recognition and early-stage prevention rather than late-stage escape drilling. Begin by having a partner slowly demonstrate the entry sequence so you can identify each recognition cue - the ankle control, the step-over, the figure-four establishment. Then drill immediate responses at each stage: leg straightening against ankle control, framing and leg extraction against the step-over, and rotation against partial figure-four. Progressively increase the speed and resistance of your partner's entries. Critically, always tap immediately once the lock is fully established in training - do not practice 'escaping' from a fully locked Suloev Stretch, as this builds dangerous habits that can lead to injury.",
         "safety_critical": true
+      },
+      {
+        "question": "What is the earliest and most important warning sign that you are being attacked with a Suloev Stretch?",
+        "answer": "The fold of your lower leg with your heel being driven toward your own buttock; recognizing this before the figure-four locks is your best chance to straighten the leg and escape safely.",
+        "safety_critical": true
+      },
+      {
+        "question": "Why is keeping your knee straight the key to defending the Suloev Stretch?",
+        "answer": "A leg that cannot be folded cannot be compressed; if you keep the knee straight you deny the attacker the bent-knee structure they need to crush the calf and load the joint, stalling the attack.",
+        "safety_critical": false
+      },
+      {
+        "question": "When should you tap to the Suloev Stretch rather than continue defending?",
+        "answer": "Tap immediately once the heel is locked to your buttock, your hip is pinned, and the compression is building with no escape; the knee and calf fail suddenly, so testing your tolerance risks a months-long injury.",
+        "safety_critical": true
+      },
+      {
+        "question": "How does rotating your hip help you escape the compression?",
+        "answer": "Rotating the hip away from the attacker unloads the finishing angle that drives the heel into your buttock, relieving the compression and creating the space needed to clear the trapped foot and recover position.",
+        "safety_critical": false
+      },
+      {
+        "question": "What role does your free leg play in escaping the Suloev Stretch?",
+        "answer": "Your free leg is an active escape tool — framing or kicking it through lets you reverse the entanglement into your own control or create the space to clear the trapped leg before the finish locks on.",
+        "safety_critical": false
       }
     ],
     "training_progressions": [

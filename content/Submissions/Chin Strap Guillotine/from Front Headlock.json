@@ -376,6 +376,49 @@
         "question": "What are the key indicators that your chin strap guillotine is properly positioned for a finish versus creating a neck crank?",
         "answer": "A properly positioned chin strap shows these indicators: (1) your forearm blade is directly under their chin, not across the side of their neck, (2) their head is tilted slightly back with chin elevated, not being pushed sideways, (3) you feel bilateral pressure - both your shoulder and forearm are compressing different sides of the neck simultaneously, (4) the finish feels like a gradual blood flow restriction rather than requiring explosive squeezing. A neck crank, in contrast, feels like you're cranking or twisting their head, their chin is being pushed to the side rather than back, and you need excessive force without getting a tap. If you're muscling the finish without feeling the characteristic tightening on both carotids, reposition before continuing.",
         "safety_critical": true
+      },
+      {
+        "question": "What anatomical structures does the Chin Strap Guillotine attack to produce the tap?",
+        "answer": "It is primarily a blood choke that compresses the carotid arteries by rotating and lengthening the neck, with secondary pressure on the trachea; cutting carotid blood flow forces the tap or causes unconsciousness within seconds.",
+        "safety_critical": true
+      },
+      {
+        "question": "What two simultaneous actions does the figure-four grip allow during the chin strap finish?",
+        "answer": "One arm cups and pulls the opponent's chin toward your chest while the other drives the head forward; this independent dual action creates the scissoring compression that defines the chin strap variation and separates it from a standard guillotine."
+      },
+      {
+        "question": "Your opponent starts to posture up and lift their head above their hips during the finish - what adjustment prevents escape?",
+        "answer": "Re-establish chest pressure to snap the head back below the hip line and reflatten their posture before re-applying the squeeze; a posturing opponent unwinds the rotational angle and frees the carotid, so restoring broken posture is mandatory before finishing."
+      },
+      {
+        "question": "What tactile cue tells you the carotid choke is set and the finish is imminent?",
+        "answer": "When the opponent's face rotates away from the choking arm and the near-side neck lengthens with no slack between your forearm, their throat, and your shoulder, the carotid is sealed and steady squeezing will produce the tap quickly."
+      },
+      {
+        "question": "The opponent buries their chin and you cannot pass the choking arm under it - what is your best continuation?",
+        "answer": "Stop forcing the strap and chain to an arm-in choke: thread for the anaconda or darce as their defensive turn exposes the far side, or switch to a high-elbow guillotine; the chin tuck that defends the strap opens these alternatives."
+      },
+      {
+        "question": "Where exactly should the choking hand sit for the chin strap, and what is a common misplacement?",
+        "answer": "The hand cups the point of the chin and connects to the opposite bicep in a figure-four; a common error is gripping your own wrist instead, which removes the independent chin-pull and lets the opponent posture into the grip."
+      },
+      {
+        "question": "At what moment does the chin strap become very difficult for the opponent to escape?",
+        "answer": "Once the figure-four is locked, the shoulder drives the back of the neck, the head is rotated and below the hips, and the near leg is controlled, both escape vectors - posturing up and the technical stand-up - are shut down and the carotid seal makes hand-fighting too slow to matter."
+      },
+      {
+        "question": "Your opponent plants a foot and begins a technical stand-up while you finish - what do you do?",
+        "answer": "Block or hook the near leg with your knee, or step a leg over theirs, to anchor the angle; the technical stand-up walks their hips out of the finishing line, so killing the leg before squeezing is what keeps the choke stable."
+      },
+      {
+        "question": "What must you do the instant the opponent taps or shows distress in the chin strap?",
+        "answer": "Immediately release the figure-four and remove all chin, neck, and shoulder pressure, then let them recover; because this is a fast blood choke with spinal-load risk, a late release can cause loss of consciousness or cervical injury.",
+        "safety_critical": true
+      },
+      {
+        "question": "Why is it both dangerous and ineffective to finish the chin strap as a sideways neck crank?",
+        "answer": "Torquing the head sideways loads the cervical spine and risks serious neck injury while strong opponents simply ride out the pain; finishing as a blood choke by rotating to close the carotid is both safer and far more reliable.",
+        "safety_critical": true
       }
     ]
   },
@@ -496,6 +539,28 @@
       {
         "question": "If the chin strap is fully locked with both grip and leg control, what is your last-resort escape option?",
         "answer": "When the chin strap is fully locked with figure-four grip and leg control established, your last-resort option is to roll through toward the choking arm side. This roll disrupts the choking angle by inverting the spatial relationship between your neck and the attacker's arms. As you roll, the shoulder drive loses its compression angle, creating a brief window where the choke loosens. Use this moment to fight the grip with both hands and extract your chin. This is high-risk because the attacker may follow the roll and finish from mount, but it is preferable to remaining in a fully locked choke where the finish is inevitable. You must also tap immediately if the choke tightens during the roll attempt rather than continuing to fight a lost position.",
+        "safety_critical": true
+      },
+      {
+        "question": "What is the first thing you must do when you feel a chin strap being set?",
+        "answer": "Bury your chin and turn it toward the choking arm to deny the strap, then begin hand-fighting the choking wrist; protecting the neck must come before any escape attempt or you will be choked during the escape.",
+        "safety_critical": true
+      },
+      {
+        "question": "How do you tell a chin strap apart from a standard guillotine while defending?",
+        "answer": "The chin strap pressure is rotational - the attacker cups the point of your chin and turns your face away while dropping a shoulder onto your neck - rather than the straight upward pull of a standard guillotine grip on the throat."
+      },
+      {
+        "question": "You bury your chin so deep the attacker cannot thread the strap - what new threat should you expect?",
+        "answer": "Expect the attacker to chain to an arm-in choke such as the anaconda or darce, or to a high-elbow guillotine; your chin tuck defends the strap but opens those, so keep hand-fighting and circle away from the trapped-arm side."
+      },
+      {
+        "question": "Your posture is broken and you cannot lift your head - which way should you escape?",
+        "answer": "Escape perpendicular to the choke: clear the head to the side or roll through with a granby to recover guard rather than pulling straight back, which only tightens the rotation and deepens the carotid compression."
+      },
+      {
+        "question": "Why should you tap early rather than tough out a tight chin strap?",
+        "answer": "It is a fast blood choke that can cause unconsciousness within seconds and also loads the cervical spine; tapping early to a sealed carotid choke prevents blackout and neck injury, whereas waiting risks both.",
         "safety_critical": true
       }
     ],

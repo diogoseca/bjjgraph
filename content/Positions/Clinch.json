@@ -129,7 +129,7 @@
         }
       },
       {
-        "transition": "Duck Under",
+        "transition": "Duck Under from Clinch",
         "attempt_probability": {
           "gi": 9,
           "nogi": 9

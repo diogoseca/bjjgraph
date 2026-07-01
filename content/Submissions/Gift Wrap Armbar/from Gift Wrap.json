@@ -344,6 +344,51 @@
         "question": "You have the armbar locked with hips elevated but the opponent maintains a slight bend in the arm and resists extension through bicep strength - what finishing detail breaks through this resistance?",
         "answer": "Against bent-arm resistance, pure hip elevation alone may be insufficient because the opponent's bicep is strongest in a partially flexed position. Apply the breaking-the-line adjustment by angling the captured wrist slightly toward your centerline rather than holding it directly over your sternum. This subtle wrist redirection changes the force vector so the extension pressure attacks the elbow at a less mechanically advantageous angle for the bicep, reducing their resistance capacity. Additionally, pulse your hip elevation in small increments rather than attempting one sustained bridge, as each incremental pulse advances the extension past the opponent's ability to reset their resistance. Maintain constant adductor squeeze throughout to prevent any elbow rotation that would relieve the pressure angle.",
         "safety_critical": false
+      },
+      {
+        "question": "What anatomical structure does the Gift Wrap Armbar attack, and how does it fail structurally?",
+        "answer": "It attacks the elbow joint, hyperextending it past its normal range so the ulnar and radial collateral ligaments and joint capsule are forced beyond tolerance, risking ligament tears or dislocation if the tap is ignored.",
+        "safety_critical": true
+      },
+      {
+        "question": "Before you ever lift your hips, what two control points must be locked for the finish to work?",
+        "answer": "Thumb-up two-on-one control of the free-arm wrist and the opponent's elbow seated tight on your thigh or hip fulcrum; without both, the lever feeds into empty space and the arm slips free instead of breaking.",
+        "safety_critical": false
+      },
+      {
+        "question": "What tells you the elbow is at the breaking point during the finish?",
+        "answer": "The arm straightens fully, the elbow stops rotating, and you feel firm resistance as the slack disappears; from there even small, slow hip elevation reaches the break, so pressure must stay gradual and you must release on the tap.",
+        "safety_critical": true
+      },
+      {
+        "question": "Your opponent rotates their thumb down so their pinky points to the ceiling — what grip adjustment restores the finish?",
+        "answer": "Re-rotate the wrist thumb-up so the elbow points upward again, re-aligning the joint with the hyperextension axis; a pinky-up arm shifts the lever onto the shoulder and the elbow lock is lost.",
+        "safety_critical": false
+      },
+      {
+        "question": "At what moment is the opponent's escape window effectively closed?",
+        "answer": "Once your knees are pinched, the far leg is heavy across the face, and the free-arm wrist is pinned thumb-up with the elbow on the fulcrum, retracting the arm or spinning out is no longer available and only the tap remains.",
+        "safety_critical": false
+      },
+      {
+        "question": "You are cranking hard but the opponent isn't tapping and the arm won't straighten — what is the likely error?",
+        "answer": "There is space between your thigh and their elbow, or your knees have opened. Re-pinch the knees, slide the elbow to your hip crease, and finish on the fulcrum rather than trying to muscle the extension.",
+        "safety_critical": false
+      },
+      {
+        "question": "If the opponent bends the elbow and grabs their own lapel or belt to stall, what is your highest-percentage adjustment?",
+        "answer": "Strip the grip by peeling or stepping on the hand, or convert to a same-arm Americana or kimura to break the grip, then return to the straight-arm extension once the arm is free.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why must the finishing extension be applied slowly rather than explosively?",
+        "answer": "Explosive hip elevation can hyperextend and tear the elbow ligaments or dislocate the joint before the opponent can physically tap; slow, progressive pressure gives them time to signal and prevents permanent injury.",
+        "safety_critical": true
+      },
+      {
+        "question": "In competition, how do you use the trapped arm to make the armbar nearly unstoppable?",
+        "answer": "Keep the opposite arm trapped in the gift wrap so the opponent cannot grip-fight or build a frame; the armbar then reduces to a single-arm defense, and pairing it with the rear naked choke forces them to surrender one or the other.",
+        "safety_critical": false
       }
     ]
   },
@@ -457,6 +502,26 @@
       {
         "question": "What is the best recovery strategy if the attacker fails the Gift Wrap Armbar but still maintains the gift wrap arm trap?",
         "answer": "If the armbar fails and you return to gift wrap control, immediately address the two persistent problems in priority order. First, protect your neck with the free hand since the attacker will likely switch back to choke attacks. Second, begin working the trapped arm recovery using hip and shoulder rotation rather than arm strength. Use the attacker's positional readjustment after the failed armbar as a window for escape attempts, as their base may be temporarily compromised from the transition back to standard gift wrap control.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why is the free arm the most dangerous limb to misuse when defending the Gift Wrap Armbar?",
+        "answer": "Because it is the attacker's target; extending it to push or frame hands them the straight-arm lever for the armbar, so it must stay bent and tight to your ribs while still protecting your neck.",
+        "safety_critical": true
+      },
+      {
+        "question": "What is the correct moment to attempt the roll-through escape?",
+        "answer": "As soon as the arm is isolated and the attacker begins rotating to finish but before their knees pinch and the leg crosses your face; spin toward the trapped elbow to roll into their guard before full extension.",
+        "safety_critical": false
+      },
+      {
+        "question": "How do you reduce hyperextension pressure if your arm is already caught and straightening?",
+        "answer": "Rotate your thumb down and turn your body toward the trapped elbow, following the arm to relieve the joint and chase the roll-through rather than pulling straight back against the lever.",
+        "safety_critical": true
+      },
+      {
+        "question": "Why must you recover the trapped arm to truly neutralize the gift wrap dilemma?",
+        "answer": "The trapped arm is what reduces your defense to a single-arm problem; restoring it gives you two hands to fight the choke and frame, removing the asymmetry that makes both the armbar and the choke high-percentage.",
         "safety_critical": false
       }
     ],

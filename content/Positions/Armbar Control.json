@@ -610,7 +610,7 @@
         }
       },
       {
-        "transition": "Hitchhiker Escape",
+        "transition": "Hitchhiker Escape from Armbar",
         "attempt_probability": {
           "gi": 23,
           "nogi": 23

@@ -338,7 +338,7 @@
         }
       },
       {
-        "transition": "Toe Hold from 50-50 Guard",
+        "transition": "Toe Hold from 50-50",
         "attempt_probability": {
           "gi": 3,
           "nogi": 3
@@ -620,7 +620,7 @@
         }
       },
       {
-        "transition": "Toe Hold from 50-50 Guard",
+        "transition": "Toe Hold from 50-50",
         "attempt_probability": {
           "gi": 6,
           "nogi": 6

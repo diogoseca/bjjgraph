@@ -376,6 +376,56 @@
         "question": "In competition, how do you adjust your finishing grip and pressure application compared to training while still prioritizing opponent safety?",
         "answer": "In competition, you apply pressure more quickly once position is secured, but you must still recognize tap signals immediately and release without hesitation. Use a tighter wrist grip with your forearms rather than just hands, and elevate hips more decisively. However, never crank or jerk the submission - even in competition, controlled progressive pressure is both more effective and safer. The key difference is the time between establishing control and applying pressure, not the nature of the pressure itself. A controlled 2-3 second finish in competition is still fundamentally different from the dangerous jerking motion that causes injuries.",
         "safety_critical": true
+      },
+      {
+        "question": "What anatomical structure does the Flying Armbar attack, and in which direction does it fail?",
+        "answer": "The Flying Armbar attacks the elbow joint, hyperextending it past its natural range. The joint is loaded in its weakest plane when the defender's thumb points up and pinky toward your chest, so your elevated hips bend the elbow backward against the olecranon until it reaches the breaking point.",
+        "safety_critical": false
+      },
+      {
+        "question": "What sensations tell you the elbow has reached the finishing position and you should stop adding pressure?",
+        "answer": "You feel the arm straighten fully with the thumb up, the opponent's shoulder pinned and unable to rotate, and tension building sharply at the elbow as your hips rise. At that point the joint is at its limit - the next increment is the tap or the injury, so you extend slowly and release the instant they signal.",
+        "safety_critical": true
+      },
+      {
+        "question": "Before extending for the finish, what three control points must be secured?",
+        "answer": "The trapped arm must be pinned to your chest with the thumb up, your knees must be pinched together to trap the shoulder, and both legs must be heavy across the head and back so the opponent cannot posture or stack. Without all three, the arm slips or they stack out before the elbow loads.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your opponent is in the air with you but their elbow is still bent and tucked - is the finish still available, and what do you do?",
+        "answer": "No - once the elbow is bent and hidden the straight-arm finish is gone. Rather than force it, keep your legs heavy on the head and chain to a triangle or omoplata, or follow them belly-down to attack the bent arm, treating the position as armbar control to be improved rather than a finish to be ripped.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why is finishing the armbar in mid-air a mistake, and what is the correct sequence?",
+        "answer": "Finishing in the air relies on an explosive wrench with no control, which can shatter the elbow before the opponent can tap and risks your own neck on landing. The correct sequence uses the air only to enter and break posture, then settles into grounded armbar control and extends the arm slowly with the hips for a controlled tap.",
+        "safety_critical": true
+      },
+      {
+        "question": "The opponent's arm starts to rotate so the thumb turns down as you finish - what grip adjustment keeps the lock?",
+        "answer": "Follow their rotation by turning your own body and the arm to chase the thumb back up, or belly-down in the same direction they are spinning while keeping the arm clamped to your chest. Re-pummel your grips so the elbow stays bent over your hips in its weak plane rather than letting them spin to a stronger structure.",
+        "safety_critical": false
+      },
+      {
+        "question": "What landing responsibilities does the attacker hold, and why are they non-negotiable?",
+        "answer": "The attacker must protect the partner's head - never spiking it into the mat - and tuck their own chin to protect their neck. Because the entry sacrifices all base and both people are airborne, a careless descent can cause serious neck or facial injury, so steering the head safely outranks completing the submission.",
+        "safety_critical": true
+      },
+      {
+        "question": "You land the flying armbar but feel the shoulder sliding out through a gap - what immediate correction saves the finish?",
+        "answer": "Immediately pinch your knees together to close the gap and re-trap the shoulder, then re-clamp the wrist to your chest with the thumb up. A loose knee gap is the single most common reason the arm escapes, so squeezing the knees and dropping your heels across the back re-establishes control before they extract the limb.",
+        "safety_critical": false
+      },
+      {
+        "question": "In competition, how should you decide whether to commit to a flying armbar, and how do you stay safe if it fails?",
+        "answer": "Commit only against a standing or high-posture opponent whose forward momentum you can borrow, ideally with a points lead or in a scramble where the risk is justified. If it fails, prioritize landing in armbar control or recovering guard rather than chasing the finish, accepting a reset over giving up a clean pass to your back.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why does the Flying Armbar require a standing or posturing opponent rather than a flat one?",
+        "answer": "The technique borrows the opponent's height and forward momentum to rotate your hips underneath their arm; a flat, well-based opponent offers no height to swing under, so the entry collapses onto a defensive structure and surrenders top position instead of isolating the elbow.",
+        "safety_critical": false
       }
     ]
   },
@@ -496,6 +546,31 @@
         "question": "What posture and arm positioning should you maintain when standing in an opponent's guard to prevent flying armbar attempts?",
         "answer": "Maintain a strong upright posture with your hips back and shoulders over your hips rather than leaning forward. Keep your elbows pinned to your ribs with your hands controlling your opponent's hips, knees, or pants rather than reaching forward for collar or sleeve grips. Never extend both arms simultaneously, and avoid posting on the mat with your hands inside their guard range. Your stance should be wide with slightly bent knees for stability and quick directional movement. This defensive posture eliminates the arm extension and forward weight commitment that flying armbar entries require.",
         "safety_critical": false
+      },
+      {
+        "question": "When is the flying armbar most defensible - during the entry or after the attacker lands?",
+        "answer": "It is most defensible during the entry, before both legs clamp. Once the attacker's legs land across your head and back and their knees pinch, the arm is largely lost. The entire effective defense lives in the first fraction of a second as they leave the ground, which is why prevention and early reaction matter far more than late escapes.",
+        "safety_critical": true
+      },
+      {
+        "question": "What is the single best way to prevent a flying armbar before it starts?",
+        "answer": "Never feed a straight, isolated arm to a guard player who is standing or posturing up. Keep your elbows bent and tied to your body, strip their grips before you stand, and stay aware that the moment you extend an arm into their range you are offering the technique's required target.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why should you spin toward the trapped arm rather than pull it straight out once the lock is on?",
+        "answer": "Pulling straight back works directly against the attacker's hip extension and speeds the elbow break, while spinning toward the trapped arm follows the direction of their rotation, relieves the lever, and turns your shoulder to a stronger structure from which you can extract the limb or recover guard.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your opponent commits to a flying armbar but their legs have not yet clamped - what is your best response?",
+        "answer": "Stack forward immediately, posting your weight over their hips and driving their shoulders toward the mat. This breaks their posture, unloads the elbow, and converts their failed commitment into a pass to top side control as they fall to their back.",
+        "safety_critical": false
+      },
+      {
+        "question": "How do you protect yourself from injury during a flying armbar attempt against you?",
+        "answer": "Tuck your chin to protect your neck, avoid being spiked head-first, and bend the threatened elbow early so the joint is never straightened explosively. If the lock is sunk and you cannot escape, tap promptly rather than letting the attacker hyperextend the elbow - a timely tap prevents ligament tears and fractures.",
+        "safety_critical": true
       }
     ],
     "training_progressions": [

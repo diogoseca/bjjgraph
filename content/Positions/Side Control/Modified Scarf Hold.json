@@ -579,7 +579,7 @@
         }
       },
       {
-        "transition": "Ghost Escape",
+        "transition": "Ghost Escape from Side Control",
         "attempt_probability": {
           "gi": 5,
           "nogi": 5

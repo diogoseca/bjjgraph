@@ -290,6 +290,54 @@
       {
         "question": "Your opponent posts their far foot on the mat during the armbar - how does this affect your hitchhiker escape attempt?",
         "answer": "A posted far foot gives the opponent a base to follow your rotation, making the belly-down armbar transition much easier for them. Recognize this by feeling reduced weight through their near leg. Adjust by accelerating your rotation to outpace their follow, or target the posted leg with your free hand to disrupt their base before rotating. If they are already tracking your movement effectively, consider switching to a stack escape instead, as their posted foot actually makes them more vulnerable to being driven backward."
+      },
+      {
+        "question": "What is the most critical timing factor for executing the Hitchhiker Escape successfully?",
+        "answer": "The escape must be executed before the arm reaches full extension. Once the elbow is completely straight, the escape becomes exponentially more dangerous and difficult. The optimal window is when there's still a slight bend in the arm and before opponent achieves maximum hip extension."
+      },
+      {
+        "question": "Why does the Hitchhiker Escape require rotating toward the opponent rather than away from them?",
+        "answer": "Rotating toward the opponent changes the angle of leverage on your elbow joint, reducing the effectiveness of their extension. The thumb-out rotation combined with turning into their body actually reduces joint stress by aligning your arm structure differently against their attack. Rotating away would increase the pressure and make the submission easier to finish."
+      },
+      {
+        "question": "What role does the free hand play during the Hitchhiker Escape execution?",
+        "answer": "The free hand creates space by pushing against opponent's hip or thigh, preventing them from maintaining tight control and re-securing the armbar. This space is essential for completing the rotation and recovering guard after the escape. Without active use of the free hand, opponent can simply readjust and finish the submission."
+      },
+      {
+        "question": "What physical attribute is most important for successfully executing this escape?",
+        "answer": "Shoulder flexibility is the most critical physical attribute. The hitchhiker rotation requires exceptional shoulder mobility to rotate the arm outward while turning the body without causing shoulder injury. Without adequate flexibility, attempting this escape can result in shoulder damage even if it relieves pressure on the elbow."
+      },
+      {
+        "question": "When should you tap instead of attempting the Hitchhiker Escape?",
+        "answer": "You should tap immediately if: the arm is already fully extended, opponent has secured strong shoulder control in addition to the armbar, you lack the necessary shoulder flexibility, or you feel sharp pain during the rotation attempt. The escape is a last resort and should never be forced if the timing window has closed or if you feel unsafe."
+      },
+      {
+        "question": "Your opponent begins extending their hips explosively mid-rotation - what should you do?",
+        "answer": "Tap immediately. This is the most dangerous scenario in the Hitchhiker Escape. If full extension occurs during your rotation, the joint stress actually increases rather than decreases because your arm is in a transitional position. The rotation only reduces pressure when completed before extension - attempting to finish the escape under explosive hip pressure risks catastrophic elbow injury."
+      },
+      {
+        "question": "What grip configuration on your trapped arm makes the Hitchhiker Escape most viable?",
+        "answer": "The escape is most viable when opponent relies primarily on wrist control without securing shoulder control. A pure wrist grip allows the rotation to break the angle of attack. If opponent controls both the wrist and secures an overhook or grip above the elbow on your shoulder, the rotation becomes nearly impossible as they can simply follow your movement and maintain the submission angle."
+      },
+      {
+        "question": "How does the hitchhiker thumb rotation biomechanically reduce pressure on the elbow joint?",
+        "answer": "The thumb-out rotation externally rotates the forearm, which changes the plane of the elbow joint relative to opponent's hip pressure. Instead of the joint bending against its natural range of motion, the rotation aligns the stronger aspects of the joint structure against the extension force. The bicep and forearm bones also rotate into a more favorable position that can better resist hyperextension pressure."
+      },
+      {
+        "question": "You complete the rotation but opponent maintains wrist control - how do you extract your arm?",
+        "answer": "Once rotated onto your stomach, use your free hand to peel their fingers off your wrist one at a time while driving your hips away from their body. Your body weight and hip drive provide far more force than their grip strength alone. If they maintain the grip, continue turning past perpendicular until the angle makes their grip mechanically unsustainable, then immediately bend your elbow and retract the arm tight to your body."
+      },
+      {
+        "question": "What is the proper guard recovery sequence after successfully escaping the armbar?",
+        "answer": "Immediately after extracting your arm, establish defensive frames with both hands to prevent opponent from advancing. Work to recover closed guard, half guard, or create a knee shield depending on opponent's position. The key is continuous movement without pausing - the escape isn't complete until you've established a safe defensive position and neutralized immediate follow-up attacks."
+      },
+      {
+        "question": "What distinguishes the Rolling Hitchhiker variant from the standard technique?",
+        "answer": "The Rolling Hitchhiker involves executing a full shoulder roll while performing the thumb rotation, rather than rotating in place. This creates additional space and momentum that can overwhelm opponent's grip control. The roll also confuses opponent's tracking of your movement, making it harder for them to adjust and maintain the submission. However, it requires more space, greater shoulder mobility, and carries additional risk if mistimed."
+      },
+      {
+        "question": "Your opponent has tight leg control across your face but only a wrist grip - what is your best approach?",
+        "answer": "This scenario favors the hitchhiker escape because wrist-only control is the weakest grip configuration for preventing rotation. Begin the thumb rotation immediately while using your free hand to push their top leg (across your face) toward their body. The combination of arm rotation breaking the wrist grip angle and leg displacement creates a compound escape where both control points deteriorate simultaneously. Execute explosively once you feel their wrist grip start to slip."
       }
     ],
     "safety_considerations": "The hitchhiker escape involves rotating against an active armbar attempt, creating significant risk to the elbow joint if executed incorrectly. Never attempt this escape when the arm is fully extended - tap immediately to prevent hyperextension or ligament damage. During training, communicate clearly with your partner about resistance levels and always tap early when the escape stalls with the arm in a vulnerable position. Practice at slow speeds initially to develop proper rotation mechanics before adding speed or resistance. Partners applying the armbar should release pressure immediately upon feeling a tap or sensing the escape has stalled with the arm under load. The rotational forces involved can cause injury patterns different from standard armbar hyperextension, including torsional stress on the elbow and shoulder, so err on the side of caution."
@@ -388,6 +436,26 @@
       {
         "question": "What leg adjustment prevents the initial thumb rotation that starts the hitchhiker sequence?",
         "answer": "Pinch your knees tightly together with the leg across their face driving downward into their cheek, creating friction against the arm rotation and limiting the space available for the thumb to rotate toward their head. Additionally, hooking your top foot under their far shoulder adds a control point that resists the entire rotational movement, not just the arm portion of the escape."
+      },
+      {
+        "question": "What is the earliest recognition cue that your opponent is attempting a Hitchhiker Escape?",
+        "answer": "The earliest cue is the thumb rotating outward away from their body. Before any significant body rotation occurs, the opponent must initiate the hitchhiker thumb motion to change the joint angle. Recognizing this subtle forearm rotation before the full body turn develops gives you the maximum window to counter by securing shoulder control and extending hips decisively."
+      },
+      {
+        "question": "Why is wrist-only control insufficient to prevent the Hitchhiker Escape?",
+        "answer": "Wrist-only control allows the opponent to externally rotate their forearm, which changes the plane of their elbow joint relative to your hip extension force. The hitchhiker rotation is biomechanically designed to exploit single-point wrist control by redirecting the hyperextension vector away from the vulnerable joint angle. Controlling both the wrist and shoulder eliminates the rotation axis entirely."
+      },
+      {
+        "question": "Your opponent has begun rotating and you cannot finish the standard armbar - what is your highest-percentage transition?",
+        "answer": "Follow the rotation and transition to a belly-down armbar. As the opponent turns, maintain your wrist grip and turn your body in the same direction, ending up with your chest facing the mat and their arm still controlled. This position actually provides a stronger finishing angle than the standard armbar because your body weight drives directly into the hyperextension. If wrist control is lost during the transition, immediately switch to triangle as backup."
+      },
+      {
+        "question": "How should you adjust your leg positioning to counter the hitchhiker rotation?",
+        "answer": "Drive the leg across your opponent's face downward with active pressure, using your hamstring and calf to pin their head and prevent the turning motion. Simultaneously squeeze both knees together to eliminate space around the trapped arm. The combination of head control preventing rotation and knee pressure tracking the arm creates a two-point defensive system that makes the hitchhiker mechanically impossible to complete."
+      },
+      {
+        "question": "When is it appropriate to release the armbar and transition to triangle during a Hitchhiker Escape attempt?",
+        "answer": "Transition to triangle when the opponent has rotated past 45 degrees and your armbar leverage is clearly compromised but you still have leg control over their upper body. Their rotation naturally separates their head from their trapped arm, creating the angle needed for triangle entry. Swing your far leg over their head as they continue turning and lock the triangle before they can complete the escape to turtle or half guard. This is a higher-percentage response than forcing a deteriorating armbar."
       }
     ],
     "training_progressions": [

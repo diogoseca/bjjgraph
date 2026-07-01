@@ -135,7 +135,7 @@
         }
       },
       {
-        "transition": "Mat Return from Rear Clinch",
+        "transition": "Mat Return from Standing Rear Clinch",
         "attempt_probability": {
           "gi": 8,
           "nogi": 8
