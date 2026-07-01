@@ -252,7 +252,11 @@ type Adjacency = {
 function buildBankAndAdjacency(
   graph: any,
   slugLookup: Record<string, string>,
-): { bank: BankEntry[]; adjacency: Adjacency } {
+): {
+  bank: BankEntry[]
+  bankGraphKeys: Array<{ key: string; section: BankSection }>
+  adjacency: Adjacency
+} {
   const bank: BankEntry[] = []
   const bankGraphKeys: Array<{ key: string; section: BankSection }> = []
 
@@ -373,6 +377,7 @@ function buildBankAndAdjacency(
 
   return {
     bank,
+    bankGraphKeys,
     adjacency: { version: 2, posTechs, outcomes, weights, effectiveness, startHub },
   }
 }
@@ -422,7 +427,7 @@ export const TrainingData: QuartzEmitterPlugin = () => {
         if (name) slugLookup[name.toLowerCase()] = fSlug
       }
 
-      const { bank, adjacency } = buildBankAndAdjacency(graph, slugLookup)
+      const { bank, bankGraphKeys, adjacency } = buildBankAndAdjacency(graph, slugLookup)
 
       // Sanity log: top position weights should be led by the fundamentals.
       const topW = Object.entries(adjacency.weights)
@@ -456,16 +461,47 @@ export const TrainingData: QuartzEmitterPlugin = () => {
       for (const techs of Object.values(adjacency.posTechs)) {
         for (const t of techs) sourced.add(t.i)
       }
+      // A technique that no position references directly is NOT necessarily an
+      // un-trainable gap: its move may be suggestable via a sourced twin (same
+      // slug in the other section), a sourced position-variant (`X-from-Y`), or an
+      // outcome-chain from a sourced technique (an entry whose success leads to
+      // this finish). Only count a technique as a genuine gap when none hold, so
+      // the note reflects real content gaps rather than duplicate/redundant nodes.
+      const sourcedKeys: Record<string, Set<string>> = {
+        transitions: new Set(),
+        submissions: new Set(),
+      }
+      const sourcedOutcomeTargets = new Set<string>()
+      const stripRole = (s: string) => s.replace(/\/(attacker|defender|top|bottom)$/, "")
+      for (let i = 0; i < bank.length; i++) {
+        if (!sourced.has(i)) continue
+        const { key, section } = bankGraphKeys[i]
+        if (section === "transitions" || section === "submissions") sourcedKeys[section].add(key)
+        const node = graph[section]?.[`${key}/attacker`] || graph[section]?.[key]
+        for (const o of node?.outcomes || []) {
+          if (o?.to) sourcedOutcomeTargets.add(stripRole(String(o.to)))
+        }
+      }
+      const allSourcedVariants = [...sourcedKeys.transitions, ...sourcedKeys.submissions]
+      const isCovered = (i: number): boolean => {
+        const { key, section } = bankGraphKeys[i]
+        const other = section === "transitions" ? "submissions" : "transitions"
+        if (sourcedKeys[other]?.has(key)) return true // twin in the other section
+        if (sourcedOutcomeTargets.has(key)) return true // reachable as a sourced outcome
+        const prefix = `${key}-from-`
+        return allSourcedVariants.some((s) => s.startsWith(prefix)) // sourced position-variant
+      }
       const orphanTrainable = bank.filter(
-        (b, i) => (b.type === "transition" || b.type === "submission") && !sourced.has(i),
+        (b, i) =>
+          (b.type === "transition" || b.type === "submission") && !sourced.has(i) && !isCovered(i),
       )
       if (orphanTrainable.length > 0) {
         console.log(
-          `[TrainingData] note: ${orphanTrainable.length} trainable technique(s) are not referenced ` +
-            `by any position, so they can't be suggested (e.g. ${orphanTrainable
+          `[TrainingData] note: ${orphanTrainable.length} trainable technique(s) have no suggestable ` +
+            `path (no position reference, twin, variant, or outcome-chain) — e.g. ${orphanTrainable
               .slice(0, 6)
               .map((b) => b.name)
-              .join(", ")})`,
+              .join(", ")}`,
         )
       }
 
