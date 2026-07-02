@@ -348,6 +348,66 @@
         "question": "What distinguishes a high-percentage Kimura finish from a low-percentage attempt in terms of body positioning?",
         "answer": "A high-percentage finish features the attacker's body perpendicular to the opponent with feet walked toward the head, chest heavy on the opponent's torso, the Kimura grip deep near the elbow, and the finishing arc driving the hand behind and below the opponent's back. A low-percentage attempt typically shows the attacker squared up rather than angled, weight resting on their knees rather than driving through the opponent's chest, and grip positioned near the wrist providing insufficient leverage.",
         "safety_critical": false
+      },
+      {
+        "question": "Why is application speed more critical for the Kimura from north-south compared to Kimuras from other positions?",
+        "answer": "The north-south angle creates significantly more leverage on the shoulder joint than traditional side control or guard-based Kimuras. The perpendicular body position and the combination of lifting and rotating away from the head generates extreme torque with minimal effort. This deceptive leverage means that what feels like moderate pressure to the person applying it can be intense joint stress for the recipient. Partners may not have sufficient time to recognize danger and tap before injury occurs if the submission is applied quickly. Therefore, extremely slow application (5-7 seconds minimum) is essential to give partners adequate opportunity to tap safely.",
+        "safety_critical": true
+      },
+      {
+        "question": "What are the minimum three tap signals you must recognize when applying the Kimura from north-south, and why is constant monitoring essential?",
+        "answer": "The three primary tap signals are: (1) verbal tap or submission call, (2) physical hand tap on your body or the mat, and (3) physical foot tap on the mat. Additionally, any distress vocalization, panic signal, or rapid head movement should be treated as a tap. Constant monitoring is essential because the north-south position covers much of opponent's upper body, potentially limiting their ability to tap with their free hand. Combined with the rapid onset of joint stress from the favorable leverage angle, you must watch for any indication of submission—including non-standard signals—and release immediately. Partners may panic if they cannot tap clearly, increasing injury risk.",
+        "safety_critical": true
+      },
+      {
+        "question": "What is the correct sequence for releasing the Kimura from north-south after receiving a tap signal?",
+        "answer": "The release protocol follows this sequence: (1) immediately cease all rotational pressure on the shoulder to eliminate joint stress, (2) release the wrist control grip first while maintaining the arm in a safe position, (3) gently guide the arm back to a neutral position alongside the opponent's body without dropping it suddenly, (4) gradually reduce chest pressure to allow the partner to recover breathing, and (5) check with your partner verbally before continuing training to ensure they are not injured. This systematic release prevents additional injury that could occur from sudden release or dropping the controlled arm.",
+        "safety_critical": true
+      },
+      {
+        "question": "What anatomical structures does the Kimura from north-south primarily attack, and what are the breaking point indicators?",
+        "answer": "The Kimura primarily attacks the glenohumeral (shoulder) joint, specifically stressing the rotator cuff muscles (supraspinatus, infraspinatus, subscapularis, teres minor), the anterior shoulder capsule, and the labrum. Breaking point indicators include: opponent's arm begins to visibly rotate beyond natural range of motion, partner's facial expression shows sudden distress or pain, audible popping or grinding sounds from the joint, visible muscle trembling in the shoulder complex, and partner suddenly going limp or stopping all resistance. You should never approach these indicators in training—always stop well before any breaking point.",
+        "safety_critical": true
+      },
+      {
+        "question": "Why is maintaining chest pressure throughout the submission attempt more important than in other top positions?",
+        "answer": "North-south control relies heavily on chest pressure to prevent opponent's hip escape and rotation. Unlike side control where you have more points of control (crossface, hip positioning), north-south offers fewer control mechanisms. Your chest pressure is the primary tool preventing opponent from shrimping away or turning into you. If you lighten this pressure while attempting the Kimura, opponent can create the hip movement necessary to escape or reverse position. Additionally, the perpendicular body alignment in north-south means your weight distribution must remain constant—any shift away from the chest pressure allows opponent to exploit the gap. Maintain heavy chest pressure throughout the entire submission sequence to ensure positional security.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the biomechanical advantage created by the perpendicular hip position in the north-south Kimura?",
+        "answer": "The perpendicular hip position (your hips at a 90-degree angle to opponent's body) creates optimal leverage for the Kimura because it allows you to rotate their arm away from their head while maintaining stable base and control. When your hips are perpendicular, rotating your upper body naturally creates torque on their shoulder joint without requiring significant strength. This angle also prevents opponent from following the rotation by turning their body—their hips are pinned by your chest pressure while your perpendicular positioning allows you freedom of movement. If your hips were parallel to theirs, you would lose this mechanical advantage and have to muscle the submission, reducing effectiveness and increasing escape opportunities.",
+        "safety_critical": false
+      },
+      {
+        "question": "How do you adjust your attack when opponent defends by rolling toward the submission, and what higher-value position can you secure?",
+        "answer": "When opponent rolls toward the Kimura to relieve shoulder pressure, you must follow their rotation while maintaining the figure-four grip initially. As they turn into you, their back becomes exposed. At this point, you have a choice: either maintain the Kimura grip and continue applying pressure from the new angle, or release the wrist control and transition to back control by establishing the seat belt grip (one arm over their shoulder, one under their armpit). The back control transition is often higher-value because back control offers multiple submission opportunities and awards maximum points in competition. The key is recognizing that their rolling defense, while effective against the Kimura, creates a different vulnerability you can exploit.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your opponent starts to posture up by pushing their hips toward the ceiling and creating space—what adjustment prevents escape?",
+        "answer": "When opponent bridges or drives their hips upward, immediately drop your hips lower and widen your knee base to absorb the movement and maintain stability. Keep your chest pressure driving downward through their sternum to prevent them from creating the space needed to escape. If they generate significant momentum, temporarily pause the rotational pressure on the Kimura but maintain the grip configuration. Once they settle back down, reestablish your perpendicular hip angle and resume the submission sequence. Never sacrifice positional control to chase the finish—your ability to maintain the position allows you to reattempt the submission once they stop moving.",
+        "safety_critical": false
+      },
+      {
+        "question": "What grip adjustments are necessary when opponent begins straightening their arm to slip out of the figure-four?",
+        "answer": "When opponent attempts to straighten their arm to escape, immediately tighten your figure-four by pulling your wrist grip closer to your chest and driving your controlling elbow (the one over their arm) downward toward the mat. This creates a barrier preventing full arm extension. Simultaneously, increase the upward lifting pressure on their elbow to maintain the bent-arm position. If they've already significantly straightened the arm, consider transitioning to an armbar by releasing the figure-four and stepping over their head while maintaining wrist control. The key is recognizing early when they're attempting to straighten—once fully extended, the Kimura opportunity is lost.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the point of no escape for the Kimura from north-south, and what control requirements must be established before reaching it?",
+        "answer": "The point of no escape occurs when you have established: (1) secure figure-four grip with your elbow positioned directly over their elbow preventing straightening, (2) their wrist controlled and beginning to rotate past the parallel line with their body, (3) perpendicular hip positioning with stable base preventing their bridge from disrupting you, and (4) continuous chest pressure pinning their torso to the mat. Once all four elements are in place and you begin the rotational pressure, the opponent's only effective defense is to tap. Before reaching this point, opponent can still defend by hiding the arm, straightening the elbow, or bridging with enough force to disrupt your base. Ensure all control requirements are met before committing to the finish.",
+        "safety_critical": false
+      },
+      {
+        "question": "What are the most common finishing errors that allow opponents to escape the Kimura from north-south?",
+        "answer": "The most common finishing errors are: (1) applying only rotation without sufficient upward elbow pressure, allowing opponent to keep elbow tight to body; (2) releasing chest pressure while focusing on the arm attack, permitting hip escape; (3) having hips parallel instead of perpendicular, reducing leverage and allowing opponent to rotate with the pressure; (4) loose figure-four grip that allows opponent to slip the wrist and straighten arm; (5) rushing the finish without establishing all control points first; and (6) failing to follow opponent's rolling defense, allowing them to relieve pressure. Each error represents a breakdown in the systematic approach—the submission requires all elements working together.",
+        "safety_critical": false
+      },
+      {
+        "question": "In competition, when should you abandon the Kimura from north-south and transition to an alternative attack or position?",
+        "answer": "Abandon the Kimura attempt when: (1) opponent successfully hides their arm tight to their body for more than 3-4 seconds despite your attempts to extract it; (2) your base becomes significantly compromised and you risk being swept or reversed; (3) opponent is rolling away from you (not into you) creating distance and breaking your chest pressure; (4) you've lost the figure-four grip and cannot quickly reestablish it; or (5) time pressure in competition requires a faster scoring option. In these scenarios, transition to north-south choke if they're framing, take mount if they're turning toward you, or secure back control if they've exposed their back during defense. Never force a submission at the expense of losing position entirely.",
+        "safety_critical": false
       }
     ]
   },
@@ -450,6 +510,31 @@
         "question": "How should you approach training Kimura defense to develop genuine defensive skills safely?",
         "answer": "Begin with slow cooperative drilling where the attacker applies the finish at thirty percent speed and the defender practices recognition cues and grip defense. Progress to positional sparring where the attacker starts in Kimura Trap and works the finish at gradually increasing intensity. Always establish clear tap protocols with your partner before drilling. The defender should practice tapping early and often to build good habits rather than testing their structural limits, as shoulder injuries are cumulative and degenerative over time.",
         "safety_critical": true
+      },
+      {
+        "question": "Why should you roll toward the attacker rather than away when the Kimura figure-four is locked from north-south?",
+        "answer": "Rolling toward the attacker (into the Kimura) follows the direction of rotational force, which reduces the angle of stress on your shoulder joint. Rolling away from the attacker moves your body in the same direction they are applying rotational pressure, which compounds the torque and accelerates the submission. By rolling into them, you effectively take away their leverage angle and may force them to release the grip to maintain position. Additionally, rolling toward the attacker can expose their back, creating a reversal opportunity. This is counterintuitive for many practitioners who instinctively try to move away from danger, but the biomechanics of the Kimura make rolling toward the attacker the safer and more effective defensive option.",
+        "safety_critical": true
+      },
+      {
+        "question": "At what point during the Kimura from north-south sequence should you tap, and why is early tapping especially important from this position?",
+        "answer": "You should tap as soon as you feel meaningful rotational pressure on your shoulder that you cannot stop with your remaining defensive options. From north-south, early tapping is especially critical because the perpendicular leverage angle creates deceptive force—the attacker can generate extreme torque with relatively small movements, meaning the gap between 'uncomfortable pressure' and 'structural damage' is much shorter than with Kimuras from other positions. The north-south position also restricts your ability to monitor your own shoulder position visually, making it harder to gauge how close you are to injury. When in doubt, tap immediately. A shoulder injury from a Kimura can require months of recovery and potentially surgery, making ego-driven late tapping extremely dangerous.",
+        "safety_critical": true
+      },
+      {
+        "question": "What are the earliest recognition cues that a Kimura from north-south is being set up, and what is your immediate response?",
+        "answer": "The earliest cues are: the attacker's hand sliding underneath your forearm to reach for your wrist, a weight shift to one side as they begin threading their arm over yours, and any adjustment of their hips to a more perpendicular angle. Your immediate response at the first cue is to pull your elbow tight to your ribs and turn your forearm inward, denying the wrist control they need to establish the figure-four. Simultaneously, begin fighting their grip hand with your free hand to strip any wrist control before it consolidates. This early intervention is your highest-percentage defensive window—each subsequent stage of the Kimura setup reduces your defensive options dramatically.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your attacker has a loose figure-four grip but has not begun rotating yet—what escape sequence gives you the best chance of recovery?",
+        "answer": "With a loose figure-four and no rotation, you are in the last high-percentage defensive window. Execute this sequence: first, attempt to straighten your trapped arm explosively to break the figure-four configuration before it tightens. If the arm cannot be straightened, immediately bridge explosively toward the side of the trapped arm while hip escaping in the same direction. This bridge disrupts the attacker's perpendicular hip alignment and chest pressure simultaneously. As their base is disrupted, work to insert your knee between your bodies to recover half guard. The key is committing fully to this escape attempt with timing and explosiveness—a half-hearted bridge against a consolidating figure-four will fail and waste the energy you need for subsequent attempts.",
+        "safety_critical": false
+      },
+      {
+        "question": "How does defending the Kimura from north-south differ from defending it from side control, and why do standard side control Kimura defenses fail here?",
+        "answer": "The fundamental difference is the attacker's leverage angle. From side control, the Kimura rotation moves your arm toward your hips with the attacker parallel to your body, giving you opportunities to straighten the arm, grip fight, or hip escape along their body line. From north-south, the attacker is perpendicular, which means their body rotation naturally generates shoulder torque without requiring significant arm strength. Standard side control defenses like gripping your belt or grabbing your own thigh are less effective because the north-south angle can overwhelm static grips more easily. Additionally, the chest pressure from north-south restricts your breathing and hip mobility more severely than side control, limiting the explosive movement available for escapes. You must defend earlier from north-south and be more willing to tap, because the submission develops faster and with less warning.",
+        "safety_critical": false
       }
     ],
     "training_progressions": [
