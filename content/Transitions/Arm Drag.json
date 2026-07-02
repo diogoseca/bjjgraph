@@ -266,6 +266,38 @@
       {
         "question": "What systematic approach should you use when arm drags are repeatedly failing against a particular training partner?",
         "answer": "Diagnose which phase is breaking down by testing each component: grip establishment, pull timing, footwork coordination, or the transition to back control. The most common issue is attempting arm drags against a stable, compact opponent without creating the opening first. Solutions include adding setup movements before the drag such as snap downs, push-pull rhythms, or feints that force arm extension. Check whether you are telegraphing through predictable grip fighting patterns. Consider switching to variants that provide more control, such as the two-on-one arm drag or butterfly guard version. Ensure you are only attempting arm drags when the opponent is mobile, reaching, or recovering rather than when they are rooted and defensively set."
+      },
+      {
+        "question": "Your opponent extends their arm to grip your collar during standing engagement - what is the optimal timing window to initiate the arm drag?",
+        "answer": "The optimal timing window is the instant the opponent's arm reaches full extension toward your collar, before they secure the grip and retract. At full extension, their arm is most vulnerable because they cannot flex to resist the drag and their weight is slightly committed forward. Initiate your wrist grip during their reach, then immediately add the tricep grip and execute the drag before they can retract. This window lasts approximately half a second."
+      },
+      {
+        "question": "What grip configuration provides the best mechanical advantage for the standing arm drag pull?",
+        "answer": "The optimal configuration is a pistol grip or C-clamp on the opponent's wrist with your lead hand combined with a cupped grip on their tricep just above the elbow with your rear hand. The wrist grip provides directional steering to redirect the arm, while the tricep grip supplies the primary pulling power. This two-on-one configuration creates maximum leverage because you are pulling at two widely spaced points on their arm, preventing them from using bicep strength to resist the drag."
+      },
+      {
+        "question": "In which exact direction should you pull the opponent's arm during the drag, and why does this direction matter?",
+        "answer": "Pull the arm diagonally across your centerline toward your far hip, not laterally to the side or straight backward. This diagonal trajectory matters because it creates rotational displacement through the opponent's center of gravity, turning their torso away from you and exposing their back. A lateral pull only moves their arm sideways without rotating their body, allowing them to maintain frontal facing. The diagonal pull toward your far hip forces their shoulder to rotate past your midline, which is the biomechanical tipping point where they can no longer easily re-face you."
+      },
+      {
+        "question": "Your opponent posts their free arm against your hip to stop you from stepping behind - how do you overcome this frame?",
+        "answer": "Swim your near-side arm under their posting arm to establish an underhook, which collapses the frame by taking away their post. As your underhook displaces their frame, continue your lateral step behind them using the underhook to maintain connection. Alternatively, sharpen the drag angle by pulling their controlled arm more aggressively past your far hip, which rotates their posting shoulder backward and collapses the post from the opposite direction. Both solutions address the frame while maintaining forward momentum toward the back."
+      },
+      {
+        "question": "What is the most critical body position element during the step-behind phase of the arm drag?",
+        "answer": "The most critical element is maintaining a low center of gravity with bent knees and hips below the opponent's hip level throughout the step-behind. A low base prevents the opponent from sprawling on you or using a hip switch to reverse the position. It also enables explosive lateral movement that covers the distance behind the opponent quickly. If you stand upright during the step-behind, you become tall and narrow, easily redirected by the opponent's defensive movement. Keep your head positioned on the near side of their neck to prevent headlock or guillotine counters."
+      },
+      {
+        "question": "Your arm drag attempt fails because the opponent retracts their arm quickly - what chain attack should you immediately transition to?",
+        "answer": "The fastest chain attack from a failed arm drag is a snap down to front headlock. When the opponent retracts their arm, they typically pull their weight backward, which you can exploit by switching your grip to a collar tie on the back of their neck and snapping them downward. Alternatively, their arm retraction often creates a momentary opening for a single leg entry because their defensive reaction has their weight shifting backward, making their lead leg lighter. The key is to attack immediately during their recovery motion rather than resetting to neutral."
+      },
+      {
+        "question": "How should you adjust your arm drag setup against an opponent who keeps their elbows tight and arms retracted?",
+        "answer": "Against an opponent with retracted arms, you must first create an extension reaction before the drag becomes available. Use a collar tie or forehead post to push them away, prompting them to post their arms forward to resist the pressure. The moment they extend an arm to frame or push back, that arm becomes the drag target. Alternatively, use a feinted level change or single leg entry to force them to post their hands downward, then redirect to the arm drag. You cannot arm drag an arm that is not extended, so your setup must manufacture the extension."
+      },
+      {
+        "question": "What distinguishes a successful arm drag completion from a partial drag that the opponent escapes?",
+        "answer": "The distinguishing factor is whether chest-to-back contact is established before the opponent rotates to re-face you. A successful drag results in your sternum pressed between their shoulder blades with your hips driving forward before they can turn. A partial drag moves you to their side but without chest-to-back pressure, allowing them to continue rotating until they face you again. The fix is ensuring the step-behind and chest drive happen simultaneously with the pull, not sequentially. If the pull finishes and you are still at their side rather than behind them, the drag has failed and you should transition to a different attack."
       }
     ],
     "safety_considerations": "The arm drag is generally a safe technique with low injury risk when executed properly. Primary safety concerns involve preventing guillotine exposure by maintaining proper head position below opponent's shoulder line throughout execution. When drilling, start with slow, controlled repetitions to develop coordinated muscle memory before increasing speed and resistance. Partners should communicate clearly when practicing, especially during the transition to back control where hooks can accidentally strike the groin or inner thigh. In gi training, be mindful of finger injuries when establishing grips and avoid hooking individual fingers inside sleeves. During competition or intense training, avoid over-committing to failed arm drags as this can expose you to front headlock counters or leave you off-balance. When practicing the snap-down-to-arm-drag combination, be cautious with neck pressure during the snap down phase and ensure your partner is prepared for the directional change."
@@ -363,6 +395,26 @@
       {
         "question": "Your opponent has completed the arm drag and reached your back but has not yet inserted hooks - what is your defensive priority sequence?",
         "answer": "Your immediate priority is to turn and face the attacker before they insert hooks, not to strip their grips. Begin by aggressively turning your hips toward them while keeping your elbows tight to your body to deny easy hook entry. Use your near-side arm to frame against their hip or thigh to create separation space. The critical window is the one to two seconds between them reaching your back and establishing the first hook. Once you are facing them, the back take is neutralized regardless of their grip position. If you cannot complete the turn, drop to a defensive turtle posture and begin standard back defense protocols."
+      },
+      {
+        "question": "What is the earliest recognition cue that an arm drag attempt is beginning, and what should your immediate response be?",
+        "answer": "The earliest cue is feeling your opponent secure your wrist with one hand while their other hand reaches toward your tricep or elbow. The immediate response should be to strip the wrist grip with a sharp circular motion, breaking the two-on-one before it is fully established. If you cannot strip the grip, immediately retract your arm by bending your elbow sharply to deny the pulling leverage they need for the diagonal drag across their body."
+      },
+      {
+        "question": "Why is circling toward the drag direction more effective than circling away from it?",
+        "answer": "Circling toward the drag direction re-faces you to the opponent by rotating your chest back into alignment with theirs. This closes the angle they are trying to create and forces them to either abort the drag or re-initiate from a new angle. Circling away from the drag direction adds your rotational momentum to the opponent's pull, accelerating their access to your back and making the step-behind easier. The biomechanical principle is that you want to create a collision between your rotation and their lateral movement, not move in the same direction they are traveling."
+      },
+      {
+        "question": "Your opponent has completed the drag pull and is stepping behind you but has not yet established chest-to-back contact - what is your best remaining option?",
+        "answer": "Your best remaining option is to post your free arm as a stiff frame against their near hip to physically block their step-behind from closing the distance. Simultaneously begin an aggressive circle toward them to re-face. If the frame holds for even half a second, your rotation can recover frontal facing. If the frame fails and they clear it, immediately sit to guard to prevent the standing rear clinch from being fully established, converting the position to an open guard engagement where you have more defensive options available."
+      },
+      {
+        "question": "How should you adjust your standing posture and arm positioning to proactively prevent arm drag attempts?",
+        "answer": "Keep your elbows bent and close to your ribs rather than extending arms during grip fighting. Maintain a slightly bladed stance rather than square to the opponent, presenting less frontal exposure. When reaching for grips, use quick jabbing motions that retract immediately rather than sustained extensions. Keep your wrists slightly internally rotated which makes pistol grip acquisition harder for the opponent. Fight with a slightly lower center of gravity so you can rotate quickly if a drag is initiated."
+      },
+      {
+        "question": "When is sitting to guard the correct defensive choice rather than fighting to maintain standing position?",
+        "answer": "Sitting to guard is correct when the opponent has progressed past the point where circling or framing can prevent the back take, specifically when they have already cleared your shoulder line and are establishing chest-to-back contact. At this stage, fighting to remain standing guarantees they consolidate the standing rear clinch. By sitting to guard before they lock their grips, you convert a losing position into a neutral ground engagement. This is particularly appropriate if you have a strong guard game and can immediately threaten sweeps or submissions from open guard."
       }
     ],
     "training_progressions": [

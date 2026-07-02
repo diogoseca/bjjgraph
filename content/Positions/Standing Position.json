@@ -112,7 +112,7 @@
         }
       },
       {
-        "transition": "Sprawl Defense from Standing",
+        "transition": "Sprawl Defense",
         "attempt_probability": {
           "gi": 10,
           "nogi": 10
@@ -664,7 +664,7 @@
         }
       },
       {
-        "transition": "Arm Drag from Standing",
+        "transition": "Arm Drag",
         "attempt_probability": {
           "gi": 13,
           "nogi": 13

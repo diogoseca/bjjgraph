@@ -670,17 +670,17 @@
     ],
     "transitions": [
       {
-        "transition": "Pull guard",
+        "transition": "Pull Guard from Ground",
         "attempt_probability": {
-          "gi": 37,
-          "nogi": 37
+          "gi": 38,
+          "nogi": 38
         }
       },
       {
         "transition": "Sitting Guard Pull",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 11,
+          "nogi": 11
         }
       },
       {
@@ -737,13 +737,6 @@
         "attempt_probability": {
           "gi": 5,
           "nogi": 5
-        }
-      },
-      {
-        "transition": "Pull Guard from Ground",
-        "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
         }
       },
       {

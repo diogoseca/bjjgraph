@@ -16,7 +16,7 @@
   "from_position": "Buggy Choke/Top",
   "outcomes": [
     {
-      "to": "Buggy Choke from Buggy Choke",
+      "to": "Buggy Choke from Half Guard",
       "probability": {
         "gi": 58,
         "nogi": 58

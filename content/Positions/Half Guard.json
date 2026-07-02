@@ -549,7 +549,7 @@
         }
       },
       {
-        "transition": "Deep Half Entry from Half Guard",
+        "transition": "Deep Half Entry",
         "attempt_probability": {
           "gi": 14,
           "nogi": 14

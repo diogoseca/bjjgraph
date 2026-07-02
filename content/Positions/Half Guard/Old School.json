@@ -616,22 +616,22 @@
       {
         "transition": "Old School Sweep",
         "attempt_probability": {
-          "gi": 46,
-          "nogi": 46
+          "gi": 48,
+          "nogi": 48
         }
       },
       {
         "transition": "Electric Chair Transition",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
+          "gi": 15,
+          "nogi": 15
         }
       },
       {
         "transition": "Half Guard to Back Take",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 13,
+          "nogi": 13
         }
       },
       {
@@ -646,13 +646,6 @@
         "attempt_probability": {
           "gi": 9,
           "nogi": 9
-        }
-      },
-      {
-        "transition": "Old School Sweep from Bottom",
-        "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
         }
       },
       {

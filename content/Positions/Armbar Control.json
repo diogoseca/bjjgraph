@@ -591,15 +591,15 @@
       {
         "transition": "Hip Escape to Guard",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 14,
+          "nogi": 14
         }
       },
       {
         "transition": "Stack Defense",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 14,
+          "nogi": 14
         }
       },
       {
@@ -612,15 +612,15 @@
       {
         "transition": "Hitchhiker Escape from Armbar",
         "attempt_probability": {
-          "gi": 23,
-          "nogi": 23
+          "gi": 24,
+          "nogi": 24
         }
       },
       {
         "transition": "Bridge and Roll",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 13,
+          "nogi": 13
         }
       },
       {
@@ -642,13 +642,6 @@
         "attempt_probability": {
           "gi": 7,
           "nogi": 7
-        }
-      },
-      {
-        "transition": "Hitchhiker Escape from Armbar",
-        "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
         }
       }
     ],
