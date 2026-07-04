@@ -159,15 +159,11 @@ The closed guard's versatility across gi and no-gi competition, its effectivenes
 
 - **[[Transitions/Kimura to Back Take/Attacker|Kimura to Back Take]]** (2% of attempts)
 
-- **[[Submissions/Tarikoplata/Attacker|Tarikoplata]]** (2% of attempts)
-
 - **[[Transitions/Elevator Sweep/Attacker|Elevator Sweep]]** (1% of attempts)
 
 - **[[Transitions/Overhook Sweep/Attacker|Overhook Sweep]]** (1% of attempts)
 
 - **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (1% of attempts)
-
-- **[[Submissions/Spinning Armbar/Attacker|Spinning Armbar]]** (1% of attempts)
 
 - **[[Transitions/Closed Guard to Triangle/Attacker|Closed Guard to Triangle]]** (1% of attempts)
 
@@ -187,11 +183,9 @@ The closed guard's versatility across gi and no-gi competition, its effectivenes
 
 - **[[Transitions/Transition to Diamond Guard/Attacker|Transition to Diamond Guard]]** (2% of attempts)
 
-- **[[Submissions/Flying Armbar/Attacker|Flying Armbar]]** (2% of attempts)
-
 - **[[Armbar from Guard/Attacker|Armbar from Guard]]** (4% of attempts)
 
-- **[[Flying Armbar from Closed Guard/Attacker|Flying Armbar from Closed Guard]]** (1% of attempts)
+- **[[Flying Armbar from Closed Guard/Attacker|Flying Armbar from Closed Guard]]** (3% of attempts)
 
 - **[[Kimura from Guard/Attacker|Kimura from Guard]]** (3% of attempts)
 
@@ -199,9 +193,9 @@ The closed guard's versatility across gi and no-gi competition, its effectivenes
 
 - **[[Loop Choke from Closed Guard/Attacker|Loop Choke from Closed Guard]]** (1% of attempts)
 
-- **[[Spinning Armbar from Closed Guard/Attacker|Spinning Armbar from Closed Guard]]** (1% of attempts)
+- **[[Spinning Armbar from Closed Guard/Attacker|Spinning Armbar from Closed Guard]]** (2% of attempts)
 
-- **[[Tarikoplata from Closed Guard/Attacker|Tarikoplata from Closed Guard]]** (1% of attempts)
+- **[[Tarikoplata from Closed Guard/Attacker|Tarikoplata from Closed Guard]]** (3% of attempts)
 
 - **[[Triangle Choke from Closed Guard/Attacker|Triangle Choke from Closed Guard]]** (2% of attempts)
 
@@ -278,9 +272,7 @@ The closed guard's versatility across gi and no-gi competition, its effectivenes
 
 - **[[Transitions/Knee Slice from Closed Guard/Attacker|Knee Slice from Closed Guard]]** (2% of attempts)
 
-- **[[Submissions/Can Opener/Attacker|Can Opener]]** (2% of attempts)
-
-- **[[Can Opener from Closed Guard/Attacker|Can Opener from Closed Guard]]** (2% of attempts)
+- **[[Can Opener from Closed Guard/Attacker|Can Opener from Closed Guard]]** (4% of attempts)
 
 
 ### Common Mistakes

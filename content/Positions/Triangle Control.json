@@ -373,11 +373,7 @@
       },
       {
         "transition": "Inverted Triangle from Triangle Control",
-        "attempt_probability": 13
-      },
-      {
-        "transition": "Inverted Triangle",
-        "attempt_probability": 3
+        "attempt_probability": 16
       }
     ],
     "decision_tree": [
