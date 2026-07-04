@@ -17,6 +17,7 @@ description: "Master the Buggy Choke position in BJJ. Strategic guide covering t
   "@type": "WebPage",
   "name": "Buggy Choke",
   "description": "Master the Buggy Choke position in BJJ. Strategic guide covering the arm-trap self-strangle, leg-over-shoulder clamp, and finishing mechanics with complete attacker and defender perspective analysis.",
+  "disambiguatingDescription": "Often confused with Arm Triangle \u2014 the arm triangle is a top-position strangle you finish with your own arm and shoulder pinning the opponent\u0027s neck, whereas the buggy choke is finished from the bottom or side by clamping a leg over the opponent\u0027s shoulder to compress their own trapped arm into their carotid.",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -48,6 +49,9 @@ description: "Master the Buggy Choke position in BJJ. Strategic guide covering t
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Transitions/Arm Triangle|Arm Triangle]]</strong> — the arm triangle is a top-position strangle you finish with your own arm and shoulder pinning the opponent&#39;s neck, whereas the buggy choke is finished from the bottom or side by clamping a leg over the opponent&#39;s shoulder to compress their own trapped arm into their carotid</p>
+</aside>
 <div class="role-links">
 
 [[Buggy Choke/Bottom|Play as Bottom]]

@@ -116,6 +116,7 @@ description: "Attack from the Buggy Choke position. Complete offensive guide cov
   "@type": "WebPage",
   "name": "Buggy Choke Top",
   "description": "Attack from the Buggy Choke position. Complete offensive guide covering the near-arm trap, leg-over-shoulder clamp, finishing mechanics, and branching transitions when the choke is defended.",
+  "disambiguatingDescription": "Often confused with Arm Triangle \u2014 the arm triangle is a top-position strangle you finish with your own arm and shoulder pinning the opponent\u0027s neck, whereas the buggy choke is finished from the bottom or side by clamping a leg over the opponent\u0027s shoulder to compress their own trapped arm into their carotid.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -155,6 +156,9 @@ description: "Attack from the Buggy Choke position. Complete offensive guide cov
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Transitions/Arm Triangle|Arm Triangle]]</strong> — the arm triangle is a top-position strangle you finish with your own arm and shoulder pinning the opponent&#39;s neck, whereas the buggy choke is finished from the bottom or side by clamping a leg over the opponent&#39;s shoulder to compress their own trapped arm into their carotid</p>
+</aside>
 <section id="overview" class="content-section">
 
 The Buggy Choke attack represents one of the most versatile and surprising submission systems in modern Brazilian Jiu-Jitsu. Unlike many chokes that offer binary outcomes, the buggy choke creates a branching decision tree where every defensive response opens different offensive opportunities. Its core mechanism is weaponizing the opponent's own near arm: by trapping that arm across the neck and clamping a leg over the shoulder, the attacker drives the opponent's bicep and shoulder into their own carotid. This makes the position exceptionally valuable in competition, where opponents are well-versed in defending single-path attacks but struggle against a strangle that arrives from a position they believe is safe.

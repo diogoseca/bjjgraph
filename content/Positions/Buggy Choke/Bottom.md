@@ -116,6 +116,7 @@ description: "Defend and escape Buggy Choke attacks. Complete defensive guide co
   "@type": "WebPage",
   "name": "Buggy Choke Bottom",
   "description": "Defend and escape Buggy Choke attacks. Complete defensive guide covering early arm extraction, posture management, and escape pathways to guard recovery before the figure locks.",
+  "disambiguatingDescription": "Often confused with Arm Triangle \u2014 the arm triangle is a top-position strangle you finish with your own arm and shoulder pinning the opponent\u0027s neck, whereas the buggy choke is finished from the bottom or side by clamping a leg over the opponent\u0027s shoulder to compress their own trapped arm into their carotid.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -155,6 +156,9 @@ description: "Defend and escape Buggy Choke attacks. Complete defensive guide co
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Transitions/Arm Triangle|Arm Triangle]]</strong> — the arm triangle is a top-position strangle you finish with your own arm and shoulder pinning the opponent&#39;s neck, whereas the buggy choke is finished from the bottom or side by clamping a leg over the opponent&#39;s shoulder to compress their own trapped arm into their carotid</p>
+</aside>
 <section id="overview" class="content-section">
 
 Defending the Buggy Choke is one of the most deceptive defensive scenarios in jiu-jitsu because the danger arrives from a position the defender often believes is winning. The attack uses the defender's own near arm as the choking mechanism, so the instant that arm is framed across the attacker's neck, the exchange has become a trap. Unlike many submissions that telegraph from inferior positions, the buggy choke can materialize rapidly once the arm is trapped and a leg clamps the shoulder, leaving limited time for defensive intervention. Defenders must understand that a strong pin does not guarantee safety against this attack.
