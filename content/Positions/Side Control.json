@@ -167,10 +167,6 @@
         "attempt_probability": 10
       },
       {
-        "transition": "Arm Crush",
-        "attempt_probability": 1
-      },
-      {
         "transition": "Straight Armbar",
         "attempt_probability": 1
       },
@@ -187,28 +183,12 @@
         "attempt_probability": 1
       },
       {
-        "transition": "Marce Choke",
-        "attempt_probability": 1
-      },
-      {
-        "transition": "Mir Lock",
-        "attempt_probability": 1
-      },
-      {
-        "transition": "Triangle Choke Side",
-        "attempt_probability": 1
-      },
-      {
-        "transition": "Von Flue Choke",
-        "attempt_probability": 1
-      },
-      {
         "transition": "Side Control to Knee on Belly",
         "attempt_probability": 1
       },
       {
         "transition": "Arm Crush from Side Control",
-        "attempt_probability": 1
+        "attempt_probability": 2
       },
       {
         "transition": "Armbar from Side Control",
@@ -228,19 +208,19 @@
       },
       {
         "transition": "Marce Choke from Side Control",
-        "attempt_probability": 1
+        "attempt_probability": 2
       },
       {
         "transition": "Mir Lock from Side Control",
-        "attempt_probability": 1
+        "attempt_probability": 2
       },
       {
         "transition": "Triangle Choke Side from Side Control",
-        "attempt_probability": 1
+        "attempt_probability": 2
       },
       {
         "transition": "Von Flue Choke from Side Control",
-        "attempt_probability": 1
+        "attempt_probability": 2
       },
       {
         "transition": "Side Control to Kuzure Kesa-Gatame",

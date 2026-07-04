@@ -21,7 +21,7 @@ description: "Master Estima Lock Top Position in BJJ. Control opponent's foot an
     {
       "@type": "HowToStep",
       "name": "Execute Estima Lock from Estima Lock Control",
-      "text": "From this position, attempt Estima Lock from Estima Lock Control. This technique is attempted in 39% of exchanges from this position.",
+      "text": "From this position, attempt Estima Lock from Estima Lock Control. This technique is attempted in 41% of exchanges from this position.",
       "position": 1
     },
     {
@@ -47,12 +47,6 @@ description: "Master Estima Lock Top Position in BJJ. Control opponent's foot an
       "name": "Execute Toe Hold from Estima Lock",
       "text": "From this position, attempt Toe Hold from Estima Lock. This technique is attempted in 19% of exchanges from this position.",
       "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Estima Lock",
-      "text": "From this position, attempt Estima Lock. This technique is attempted in 2% of exchanges from this position.",
-      "position": 6
     }
   ],
   "totalTime": "PT2M"

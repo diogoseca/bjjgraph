@@ -21,7 +21,7 @@ description: "Master Darce Control Top in BJJ. Dominant front headlock variation
     {
       "@type": "HowToStep",
       "name": "Execute Darce Choke from Darce Control",
-      "text": "From this position, attempt Darce Choke from Darce Control. This technique is attempted in 53% of exchanges from this position.",
+      "text": "From this position, attempt Darce Choke from Darce Control. This technique is attempted in 54% of exchanges from this position.",
       "position": 1
     },
     {

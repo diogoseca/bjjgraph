@@ -21,7 +21,7 @@ description: "Master Aoki Lock top position in BJJ. Advanced submission control 
     {
       "@type": "HowToStep",
       "name": "Execute Aoki Lock from Aoki Lock Control",
-      "text": "From this position, attempt Aoki Lock from Aoki Lock Control. This technique is attempted in 38% of exchanges from this position.",
+      "text": "From this position, attempt Aoki Lock from Aoki Lock Control. This technique is attempted in 43% of exchanges from this position.",
       "position": 1
     },
     {
@@ -47,12 +47,6 @@ description: "Master Aoki Lock top position in BJJ. Advanced submission control 
       "name": "Execute Truck Entry",
       "text": "From this position, attempt Truck Entry. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Aoki Lock",
-      "text": "From this position, attempt Aoki Lock. This technique is attempted in 5% of exchanges from this position.",
-      "position": 6
     }
   ],
   "totalTime": "PT2M"

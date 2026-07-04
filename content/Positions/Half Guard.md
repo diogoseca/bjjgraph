@@ -172,9 +172,7 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 
 - **[[Transitions/Half Guard to Old School/Attacker|Half Guard to Old School]]** (2% of attempts)
 
-- **[[Positions/Buggy Choke/Attacker|Buggy Choke]]** (2% of attempts)
-
-- **[[Buggy Choke from Half Guard/Attacker|Buggy Choke from Half Guard]]** (4% of attempts)
+- **[[Buggy Choke from Half Guard/Attacker|Buggy Choke from Half Guard]]** (6% of attempts)
 
 - **[[Kneebar from Half Guard/Attacker|Kneebar from Half Guard]]** (3% of attempts)
 
@@ -271,11 +269,9 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 
 - **[[Transitions/Half Guard to Triangle Escape Position/Attacker|Half Guard to Triangle Escape Position]]** (2% of attempts)
 
-- **[[Submissions/Suloev Stretch/Attacker|Suloev Stretch]]** (2% of attempts)
-
 - **[[Loop Choke from Half Guard/Attacker|Loop Choke from Half Guard]]** (2% of attempts)
 
-- **[[Suloev Stretch from Half Guard/Attacker|Suloev Stretch from Half Guard]]** (1% of attempts)
+- **[[Suloev Stretch from Half Guard/Attacker|Suloev Stretch from Half Guard]]** (3% of attempts)
 
 - **[[Transitions/Half Guard to Leg Weave/Attacker|Half Guard to Leg Weave]]** (10% of attempts)
 
