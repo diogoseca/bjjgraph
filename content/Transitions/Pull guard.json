@@ -1,4 +1,8 @@
 {
+  "bot_metadata": {
+    "last_improved": "2026-07-05",
+    "last_improved_by": "analytics-bot"
+  },
   "name": "Pull guard",
   "description": "Master the guard pull in BJJ. Complete guide to executing from standing to guard with grip setups, safe descent mechanics, and immediate offensive sequences.",
   "summary": "A guard pull is a transition where a standing grappler uses established grips to sit to the mat under control and wrap the opponent into closed or open guard, trading top position for an offensive ground game.",
@@ -31,7 +35,7 @@
     }
   ],
   "success_rate": 60,
-  "overview": "Pulling guard is a strategic defensive maneuver that transitions from standing to a guard position, prioritizing ground control over takedown exchanges. This technique allows practitioners to bypass the standing phase and immediately establish their preferred guard system, particularly valuable when facing opponents with superior wrestling or judo backgrounds. The guard pull represents a fundamental shift in engagement strategy, transforming a potentially disadvantageous standing exchange into a controlled ground scenario where technical guard players can implement their systematic attacks. Proper execution requires precise timing, grip control, and body mechanics to ensure safe descent while maintaining offensive positioning. The technique has become increasingly sophisticated in modern competition, with variations designed to establish specific guard types like De La Riva, Spider Guard, or Butterfly Guard directly from the standing position.",
+  "overview": "A **guard pull** is the fastest way to bring a standing exchange to the ground on your own terms: instead of contesting a takedown, you use grips to break the opponent's posture and sit under control straight into [[Positions/Closed Guard]] or an [[Positions/Open Guard]] system, immediately trading top position for an offensive bottom game. Executed cleanly it lands in guard roughly 70% of the time, denying wrestlers and judoka the chance to use their standing advantage. Guard pulling is fully legal under IBJJF rules — though a simultaneous double-pull triggers a referee stand-up — while ADCC assigns a negative point after the initial period and some rulesets penalize it outright, so ruleset awareness matters as much as mechanics.\n\nModern guard pulling is far more than flopping to your back; grip selection dictates the destination. Collar-and-sleeve control pulls into [[Positions/Closed Guard]] or [[Positions/Collar Sleeve Guard]], double-sleeve grips set up [[Positions/Spider Guard]], a cross-collar and outside hook establish [[Positions/De La Riva Guard]], and low sitting entries flow into [[Positions/Butterfly Guard]] or [[Positions/Lasso Guard]]. Because the pull already breaks posture, it chains directly into sweeps and submissions — landing with your grips intact means you are one beat from a sweep, triangle, or back take rather than in a defensive scramble. The higher-commitment [[Transitions/Jumping Guard]] trades safety for speed and back-take potential, but the controlled seated pull remains the highest-percentage, lowest-risk entry into the bottom game and one of the first transitions most practitioners ever learn.",
   "related_content": [
     {
       "name": "Closed Guard",
